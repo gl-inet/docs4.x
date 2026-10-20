@@ -38,17 +38,11 @@ De nombreux appareils utilisent des adresses MAC aléatoires. Si les appareils c
 
 ## Vitesse {#speed}
 
-La troisième colonne affiche la vitesse Internet de l’appareil connecté.
+La troisième colonne affiche la vitesse Internet de l’appareil connecté. Cette valeur correspond à la vitesse moyenne sur les 3 dernières minutes.
 
 ![speed](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/speed.png){class="glboxshadow"}
 
-La vitesse indiquée ici correspond à la vitesse moyenne sur 3 minutes.
-
-- Si cette page reste ouverte pendant 10 secondes, la vitesse moyenne des 10 dernières secondes est affichée.
-- Si cette page reste ouverte pendant 30 secondes, la vitesse moyenne des 30 dernières secondes est affichée.
-- Si cette page reste ouverte pendant 60 secondes, la vitesse moyenne des 60 dernières secondes est affichée.
-- Si cette page reste ouverte pendant 3 minutes, le débit moyen des 3 dernières minutes est affiché.
-- Si cette page reste ouverte pendant 10 minutes, le débit moyen des 3 dernières minutes est affiché.
+**Note** : Le système commence à calculer la vitesse moyenne à l’ouverture de cette page. Par exemple, si la page est ouverte depuis 10 secondes, la vitesse moyenne est calculée uniquement sur ces 10 secondes de données.
 
 ## Trafic {#traffic}
 
@@ -58,9 +52,7 @@ La quatrième colonne affiche le trafic Internet de l’appareil connecté.
 
 ## IP réservée {#reserved-ip}
 
-Dans la cinquième colonne, vous pouvez réserver une adresse IP pour un appareil connecté donné en un seul clic.
-
-Cette fonctionnalité est disponible à partir de la v4.8.
+Dans la cinquième colonne, vous pouvez réserver une adresse IP pour un appareil connecté donné en un seul clic. Cette fonctionnalité a été introduite dans le firmware v4.8.
 
 Lorsque vous définissez une adresse IP réservée pour un client au sein du LAN, ce client reçoit toujours la même adresse IP à chaque connexion au serveur DHCP du routeur.
 
@@ -116,18 +108,6 @@ Dans la page Access Control, saisissez manuellement l’adresse MAC des appareil
 
 **Note** : Le blocage des clients repose sur l’adresse MAC de l’appareil. Si l’appareil bloqué utilise une adresse MAC différente lors d’une prochaine connexion, il pourra toujours se connecter au routeur.
 
-## Tri {#sort}
-
-L’ordre de tri actuel s’affiche dans l’angle supérieur droit et peut y être modifié.
-
-![sort](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/sort.jpg){class="glboxshadow"}
-
-Le tri par défaut est le suivant :
-
-- L’appareil actuel, utilisé pour accéder au panneau d’administration, est toujours affiché en haut.
-- Dans la section Online Clients, les appareils connectés en premier apparaissent plus haut.
-- Dans la section Offline Clients, les appareils déconnectés en premier apparaissent plus haut.
-
 ## Action {#action}
 
 ### Afficher les détails {#view-details}
@@ -152,13 +132,13 @@ Cliquez sur l’icône à trois points dans la colonne Action, puis dans le menu
 
 Cliquez sur l’icône à trois points dans la colonne Action, puis dans le menu déroulant, cliquez sur **Limit Speed**.
 
-![limit speed](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/limit_speed.png){class="glboxshadow"}
+![limit speed](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/limit_speed1.png){class="glboxshadow"}
 
 ![limit speed settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/clients_limit_speed_settings.png){class="glboxshadow"}
 
 Si une limitation de vitesse est appliquée à un client, les flèches montante et descendante de sa vitesse deviennent jaunes.
 
-![limited speed](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/limit_speed.jpg){class="glboxshadow"}
+![limited speed](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/limit_speed2.png){class="glboxshadow"}
 
 Cliquez sur l’icône à trois points dans la colonne Action pour désactiver la limitation de vitesse.
 
@@ -170,7 +150,35 @@ Ajoutez un client à la liste du tunnel VPN avec une politique basée sur l’ad
 
 ![use vpn tunnel](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/use-vpn-tunnel.png){class="glboxshadow"}
 
-## Supprimer les clients hors ligne {#remove-clients}
+## Tri {#sort}
+
+L’ordre de tri actuel s’affiche dans l’angle supérieur droit et peut y être modifié.
+
+![sort](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/sort.jpg){class="glboxshadow"}
+
+Le tri par défaut est le suivant :
+
+- L’appareil actuel, utilisé pour accéder au panneau d’administration, est toujours affiché en haut.
+- Dans la section Online Clients, les appareils connectés en premier apparaissent plus haut.
+- Dans la section Offline Clients, les appareils déconnectés en premier apparaissent plus haut.
+
+## Paramètres {#settings}
+
+Cliquez sur le bouton **Settings** dans l’angle supérieur droit pour accéder à d’autres opérations.
+
+![settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/settings.png){class="glboxshadow"}
+
+- **Clear Traffic Statistics** : efface en un clic les statistiques de trafic de tous les clients en ligne. Une fois l’opération appliquée, la colonne des statistiques de trafic est remise à zéro, puis le comptage reprend.
+
+    ![clear traffic](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/traffic_cleared.png){class="glboxshadow"}
+
+- **Toggle Rate Unit** : bascule l’unité de débit de la colonne de vitesse entre **KB/s** et **Kbps**.
+
+- **Auto Remove Offline Clients** : cette fonctionnalité a été introduite dans le firmware v4.9. Une fois activée, tous les clients hors ligne sont immédiatement supprimés et ne s’affichent plus dans la section Offline Clients.
+
+    ![auto removal](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/auto_removal.png){class="glboxshadow"}
+
+## Supprimer des clients {#remove-clients}
 
 Dans la section des clients hors ligne, vous pouvez cliquer sur **Delete All** en haut à droite pour supprimer tous les clients hors ligne.
 

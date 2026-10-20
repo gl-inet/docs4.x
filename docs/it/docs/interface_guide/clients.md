@@ -38,17 +38,11 @@ Molti dispositivi utilizzano indirizzi MAC casuali. Se i dispositivi connessi us
 
 ## Velocita' {#speed}
 
-La terza colonna mostra la velocita' Internet del dispositivo connesso.
+La terza colonna mostra la velocità Internet del dispositivo connesso. Questo dato rappresenta la velocità media degli ultimi 3 minuti.
 
 ![speed](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/speed.png){class="glboxshadow"}
 
-La velocita' qui indicata e' la velocita' media su 3 minuti.
-
-- Se apri la pagina corrente per 10 secondi, viene mostrata la velocita' media degli ultimi 10 secondi.
-- Se apri la pagina corrente per 30 secondi, viene mostrata la velocita' media degli ultimi 30 secondi.
-- Se apri la pagina corrente per 60 secondi, viene mostrata la velocita' media degli ultimi 60 secondi.
-- Se apri la pagina corrente per 3 minuti, viene mostrata la velocita' media degli ultimi 3 minuti.
-- Se apri la pagina corrente per 10 minuti, viene mostrata la velocita' media degli ultimi 3 minuti.
+**Nota**: il sistema inizia a calcolare la velocità media nel momento in cui viene aperta questa pagina. Ad esempio, se la pagina è aperta da 10 secondi, la velocità media si baserà solo sui dati di quei 10 secondi.
 
 ## Traffico {#traffic}
 
@@ -58,9 +52,7 @@ La quarta colonna mostra il traffico Internet del dispositivo connesso.
 
 ## IP riservato {#reserved-ip}
 
-Nella quinta colonna puoi riservare un indirizzo IP per uno specifico dispositivo connesso con un solo clic.
-
-Questa funzione e' disponibile dalla v4.8.
+Nella quinta colonna puoi riservare un indirizzo IP per uno specifico dispositivo connesso con un solo clic. Questa funzione è stata introdotta nel firmware v4.8.
 
 Quando specifichi un indirizzo IP riservato per un client all'interno della LAN, il client ricevera' sempre lo stesso indirizzo IP ogni volta che accede al server DHCP del router.
 
@@ -116,18 +108,6 @@ Nella pagina Access Control, inserisci manualmente l'indirizzo MAC dei dispositi
 
 **Nota**: il blocco del client si basa sull'indirizzo MAC del dispositivo. Se il dispositivo bloccato utilizza un indirizzo MAC diverso la volta successiva, potra' comunque connettersi al router.
 
-## Ordinamento {#sort}
-
-Il tipo di ordinamento corrente e' mostrato nell'angolo superiore destro e puoi passare ad altri tipi di ordinamento.
-
-![sort](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/sort.jpg){class="glboxshadow"}
-
-Il tipo di ordinamento predefinito e' il seguente:
-
-- Il dispositivo in uso, cioè quello con cui si accede al pannello di amministrazione, viene sempre visualizzato in cima.
-- Nella sezione Online Clients, i dispositivi connessi da più tempo vengono visualizzati più in alto.
-- Nella sezione Offline Clients, i dispositivi disconnessi da più tempo vengono visualizzati più in alto.
-
 ## Azione {#action}
 
 ### Visualizza dettagli {#view-details}
@@ -152,13 +132,13 @@ Fai clic sull'icona con i tre puntini nella colonna Action e, nel menu a discesa
 
 Fai clic sull'icona con i tre puntini nella colonna Action e, nel menu a discesa, fai clic su **Limit Speed**.
 
-![limit speed](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/limit_speed.png){class="glboxshadow"}
+![limit speed](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/limit_speed1.png){class="glboxshadow"}
 
 ![limit speed settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/clients_limit_speed_settings.png){class="glboxshadow"}
 
 Se a un client e' stata applicata una limitazione della velocita', le frecce su e giu' della velocita' diventeranno gialle.
 
-![limited speed](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/limit_speed.jpg){class="glboxshadow"}
+![limited speed](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/limit_speed2.png){class="glboxshadow"}
 
 Fai clic sull'icona con i tre puntini nella colonna Action per disabilitare il limite di velocita'.
 
@@ -170,7 +150,35 @@ Aggiungi un client all'elenco del tunnel VPN con una policy basata su MAC. Se ha
 
 ![use vpn tunnel](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/use-vpn-tunnel.png){class="glboxshadow"}
 
-## Rimuovi client offline {#remove-clients}
+## Ordinamento {#sort}
+
+Il tipo di ordinamento corrente e' mostrato nell'angolo superiore destro e puoi passare ad altri tipi di ordinamento.
+
+![sort](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/sort.jpg){class="glboxshadow"}
+
+Il tipo di ordinamento predefinito e' il seguente:
+
+- Il dispositivo in uso, cioè quello con cui si accede al pannello di amministrazione, viene sempre visualizzato in cima.
+- Nella sezione Online Clients, i dispositivi connessi da più tempo vengono visualizzati più in alto.
+- Nella sezione Offline Clients, i dispositivi disconnessi da più tempo vengono visualizzati più in alto.
+
+## Impostazioni {#settings}
+
+Fai clic sul pulsante **Settings** nell'angolo superiore destro per ulteriori operazioni.
+
+![settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/settings.png){class="glboxshadow"}
+
+- **Clear Traffic Statistics**: azzera con un solo clic le statistiche del traffico di tutti i client online. Una volta applicata, la colonna delle statistiche del traffico viene azzerata e il conteggio riparte da capo.
+
+    ![clear traffic](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/traffic_cleared.png){class="glboxshadow"}
+
+- **Toggle Rate Unit**: cambia l'unità di misura della colonna della velocità tra **KB/s** e **Kbps**.
+
+- **Auto Remove Offline Clients**: questa funzione è stata introdotta nel firmware v4.9. Una volta abilitata, tutti i client offline verranno rimossi immediatamente e non verranno più visualizzati nella sezione Offline Clients.
+
+    ![auto removal](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/auto_removal.png){class="glboxshadow"}
+
+## Rimuovi client {#remove-clients}
 
 Nella sezione dei client offline, puoi fare clic su **Delete All** in alto a destra per eliminare tutti i client offline.
 

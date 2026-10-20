@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-
+# Bibliothèque vidéo {#video-library}
 
 Découvrez nos produits et apprenez à les utiliser grâce à nos vidéos.
 

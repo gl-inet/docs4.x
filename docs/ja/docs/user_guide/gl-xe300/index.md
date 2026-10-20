@@ -1,113 +1,107 @@
-# GL-XE300 (Puli) ユーザーガイド {#puli-gl-xe300-user-guide}
+# Puli (GL-XE300) ユーザーガイド {#puli-gl-xe300-user-guide}
 
-## ハードウェア情報 {#product-overview}
+## 製品概要 {#product-overview}
 
-GL-XE300（Puli）は、家庭向け、業務用、IoT用途に適したポータブル 4G スマートルーターです。OpenWrt に対応し、大容量ストレージも利用できるため、DIY IoT プロジェクトにも適しています。充電式バッテリーを内蔵しており、どこへでも持ち運べます。
+Puli（GL-XE300）は、家庭、旅行、ビジネス、IoT ソリューションに最適なポータブル 4G スマートルーターです。OpenWrt に対応し、大容量ストレージを利用できるため、DIY IoT プロジェクトの開発に適しています。充電式バッテリーも搭載しており、さまざまな環境で持ち運んで使用できます。
 
 ![gl-xe300 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe300/hardware_info/gl-xe300_interface.jpg){class="glboxshadow"}
 
-[GL-XE300 仕様](https://www.gl-inet.com/products/gl-xe300/#specs){target="_blank"}
+## パッケージ内容 {#package-contents}
 
-### PCB ピン設定 {#pcb-pinout}
+パッケージに含まれるアダプターは、配送先の国によって異なります。
 
-<div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
-  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <a href="https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe300/hardware_info/gl-xe300_pinout.jpg" itemprop="contentUrl" data-size="3167x2480">
-      <img src="https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe300/hardware_info/gl-xe300_pinout.jpg" itemprop="thumbnail" alt="gl-xe300 pinout" loading="lazy" />
-    </a>
-  </figure>
-</div>
-
----
-
-## 初回設定 {#first-time-setup}
-
-GL.iNet のすべてのデバイスは、ほぼ共通のシンプルなセットアップ手順で利用を開始できます。[初回セットアップはこちら](../../faq/first_time_setup.md)。
-
-パッケージ内のアダプターは配送国によって異なることにご注意してください。
-
-パッケージの中には何が入っていますか？
-
-![gl-xe300 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe300/first_time_setup/xe300_unboxing.jpg){class="glboxshadow"}
-
-パッケージコンテンツ：
+パッケージには以下が含まれます。
 
 - 1 x ユーザーマニュアル
 - 1 x Puli (GL-XE300)
 - 1 x イーサネットケーブル
 - 1 x サンキューカード
 - 1 x 保証書
-- 1 x 電源アダプター (選択されたプラグタイプ)
+- 1 x 電源アダプター（選択したプラグタイプ）
+
+![gl-xe300 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe300/first_time_setup/xe300_unboxing.jpg){class="glboxshadow"}
 
 Puli の[開封動画](../../video_library/unboxing_first_set_up.md#gl-xe300-puli)もご覧ください。
+
+## 仕様 {#specifications}
+
+[GL-XE300 仕様](https://www.gl-inet.com/products/gl-xe300/#specs){target="_blank"}
+
+---
+
+## 初回設定 {#first-time-setup}
+
+すべての GL.iNet ルーターは、ほぼ共通のセットアップ手順で設定できます。[初回セットアップの詳細はこちら](../../faq/first_time_setup.md)。
 
 ---
 
 ## インターネット {#internet}
 
-インターネット設定画面では、ルーターがサポートしてるインターネット接続タイプを選択できます。
+ルーターの Web 管理パネルにログインし、左側のメニューから **INTERNET** に移動します。
 
-ルータのWeb管理パネル内のサイドメニューで**インターネット**を選択して、インターネットネットワークを設定します。
-
-インターネットへの接続は以下の4つの方法がサポートされています:
+このページでは、Ethernet、Repeater、Tethering、Cellular などのインターネット接続タイプを選択できます。
 
 ### イーサネット {#ethernet}
 
-イーサネットケーブルを使用して、ルーターをモデムや上位ネットワーク機器に接続します。通常、この方法が最も高速で安定したインターネット接続を提供します。
+イーサネットケーブルを使用して、ルーターを稼働中のモデムまたはネットワーク機器に接続し、インターネットにアクセスします。通常、この方法は最も高速で信頼性の高いインターネット接続を提供します。
 
-[イーサネット ケーブル経由でインターネットに接続する方法については、ここをクリックしてください。](../../interface_guide/internet_ethernet.md)
+[イーサネットケーブルでインターネットに接続する方法はこちら](../../interface_guide/internet_ethernet.md)
 
 ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe300/internet/xe300_ethernet.png){class="glboxshadow"}
 
 ### リピーター {#repeater}
 
-ルーターで既存の Wi-Fi 信号を受信し、その信号を再送信することで、Wi-Fi のカバー範囲を拡張します。1 台のルーターだけでは利用エリア全体を十分にカバーできない場合に特に有効です。
+ルーターをリピーターとして設定し、既存の Wi-Fi ネットワークのカバー範囲を拡張します。リピーターとして動作する場合、ルーターは範囲内の無線信号を受信して再送信し、カバー範囲を広げます。1 台のルーターでは利用エリア全体をカバーできない場合に便利です。
 
-[既存の Wi-Fi 経由でインターネットに接続する方法については、ここをクリックしてください。](../../interface_guide/internet_repeater.md)
+[既存の Wi-Fi 経由でインターネットに接続する方法はこちら](../../interface_guide/internet_repeater.md)
 
 ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe300/internet/xe300_repeater.png){class="glboxshadow"}
 
 ### テザリング {#tethering}
 
-スマートフォンの通信データをケーブル経由でルーターと共有し、接続デバイスとのインターネット接続を確立します。この方法は、スマートフォンのデータを使ってインターネットにアクセスしたい場合に便利です。
+モバイルデータ通信が有効なスマートフォンを USB ケーブルでルーターの USB ポートに接続し、インターネットにアクセスします。この方法では、ルーターに接続された複数のデバイスが、スマートフォンのモバイルデータ通信を使用してインターネットにアクセスできます。
 
-[USBテザリング経由でインターネットに接続する方法については、ここをクリックしてください。](../../interface_guide/internet_tethering.md)
+[USB テザリングでインターネットに接続する方法はこちら](../../interface_guide/internet_tethering.md)
 
 ![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe300/internet/xe300_tethering.png){class="glboxshadow"}
 
 ### セルラー {#cellular}
 
-セルラー対応の USB モデムをルーターの USB ポートに挿入してインターネットに接続します。USB モデムの回線を接続中のすべてのデバイスで共有したい場合に便利です。
+SIM カードスロットに SIM カードを挿入して、インターネットに接続します。この方法は、1 枚の SIM カードのインターネット接続を、接続中のすべてのデバイスで共有する場合に便利です。
 
-[USBモデム経由でインターネットに接続する方法については、ここをクリックしてください。](../../interface_guide/internet_cellular.md)
+[セルラーまたは USB モデムでインターネットに接続する方法はこちら](../../interface_guide/internet_cellular.md)
 
 ![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe300/internet/xe300_cellular.png){class="glboxshadow"}
 
-### 優先順位とロードバランス {#multi-wan}
+### Multi-WAN {#multi-wan}
 
-[マルチWAN](../../interface_guide/multi-wan.md) では、各インターネットアクセス方式の優先順位や、複数のインターネットアクセス方式を同時に使用する場合のロードバランスを設定します。
+Multi-WAN は、複数のインターネット接続（例: Ethernet、Repeater）を同時にルーターに設定できるネットワーク機能です。最優先のインターネット接続に障害が発生した場合、ルーターは自動的に別のインターネット接続へ切り替えます。これはフェイルオーバーとも呼ばれ、スムーズで途切れのないインターネットアクセスを確保します。
+
+各インターネット接続の優先順位は、[Multi-WAN](../../interface_guide/multi-wan.md) で設定します。
+
+また、Multi-WAN モードを Failover から Load Balance に切り替えることもできます。Load Balance では、複数のネットワークインターフェースを同時に使用して、ルーターの総帯域幅を増やすことができます。
 
 ---
 
 ## ワイヤレス {#wireless}
 
-ワイヤレス設定では、ユーザーはプライマリ Wi-Fi とゲスト Wi-Fi のネットワーク セキュリティを管理することができます。サイド メニューの **ワイヤレス** に移動するとアクセスできます。
+ワイヤレス設定では、メイン Wi-Fi とゲスト Wi-Fi のネットワークセキュリティを管理できます。サイドメニューの **WIRELESS** からアクセスできます。
 
-[ワイヤレス設定の詳細については、こちらをクリックしてください](../../interface_guide/wireless.md)
+[ワイヤレス設定の詳細はこちら](../../interface_guide/wireless.md)
 
 ---
 
 ## クライアント {#clients}
 
-クライアントはルーターに接続されているデバイスで あり、クライアントをブロックしたり、ネットワーク速度を制限したりすることができます。このインターフェイスには、ルーターの管理パネルのサイドメニューにある **クライアント** をクリックしてアクセスできます。
+クライアントとは、ルーターに接続されているデバイスのことです。クライアントをブロックしたり、ネットワーク速度を制限したりできます。この画面は、ルーターの管理パネルのサイドメニューで **CLIENTS** をクリックすると表示されます。
 
-[デバイスクライアントの管理については、こちらをクリックしてください。](../../interface_guide/clients.md)
+[デバイスクライアントの管理の詳細はこちら](../../interface_guide/clients.md)
 
 ---
 
 ## VPN {#vpn}
 
-GL.iNetルーターには、30以上のVPNサービスをサポートするOpenVPNとWireGuard®がプリインストールされています。VPNクライアントを有効にすると、ルーターはVPNポリシー設定に従って、VPNアプリを実行できないデバイスを含むネットワーク上のデバイスのトラフィックを暗号化できます。また、当社のルーターはVPNサーバーとしても機能し、パブリックのインターネットにアクセスする前に、遠隔にあるクライアントデバイスからのトラフィックをVPNトンネル経由でVPNサーバーにリダイレクトします。
+GL.iNet ルーターには、30 以上の VPN サービスに対応した OpenVPN と WireGuard® がプリインストールされています。VPN クライアントを有効にすると、ルーターは VPN ポリシー設定に従って、VPN アプリを実行できないデバイスを含むネットワーク上のデバイスのトラフィックを暗号化できます。また、GL.iNet ルーターは VPN サーバーとしても動作し、リモート拠点にあるクライアントデバイスからのトラフィックを、公開インターネットへアクセスする前に VPN トンネル経由で VPN サーバーへ転送できます。
 
 ### VPN ダッシュボード {#vpn-dashboard}
 
@@ -115,17 +109,17 @@ GL.iNetルーターには、30以上のVPNサービスをサポートするOpenV
 
 ### OpenVPN {#openvpn}
 
-セットアップの手順については、以下のリンクをご参照ください：
+セットアップ手順については、以下のリンクを参照してください。
 
-- [**Setup OpenVPN クライアント**](../../interface_guide/openvpn_client.md)
-- [**Setup OpenVPN サーバー**](../../interface_guide/openvpn_server.md)
+- [**OpenVPN クライアントのセットアップ**](../../interface_guide/openvpn_client.md)
+- [**OpenVPN サーバーのセットアップ**](../../interface_guide/openvpn_server.md)
 
 ### WireGuard {#wireguard}
 
-セットアップの手順については、以下のリンクをご参照ください：
+セットアップ手順については、以下のリンクを参照してください。
 
-- [**Setup WireGuard クライアント**](../../interface_guide/wireguard_client.md)
-- [**Setup WireGuard サーバー**](../../interface_guide/wireguard_server.md)
+- [**WireGuard クライアントのセットアップ**](../../interface_guide/wireguard_client.md)
+- [**WireGuard サーバーのセットアップ**](../../interface_guide/wireguard_server.md)
 
 ### Tor {#tor}
 
@@ -135,36 +129,35 @@ GL.iNetルーターには、30以上のVPNサービスをサポートするOpenV
 
 ## アプリケーション {#applications}
 
-GL.iNet ルーターには、デバイス管理の簡素化、インターネット利用体験の向上、ファームウェアアップデートの自動化などに役立つ、さまざまな追加機能が用意されています。
+GL.iNet ルーターには、デバイス管理の簡素化、インターネット利用体験の向上、ファームウェア更新の自動化などに役立つ、幅広い追加機能が用意されています。
 
 ### プラグイン {#plug-ins}
 
-[**プラグイン**](../../interface_guide/plugins.md)チュートリアルにアクセスしてください。
+[**プラグイン**](../../interface_guide/plugins.md) チュートリアルを参照してください。
 
 ### ダイナミックDNS {#dynamic-dns}
 
- [**ダイナミックDNS**](../../interface_guide/ddns.md)チュートリアルにアクセスしてください。
+[**ダイナミックDNS**](../../interface_guide/ddns.md) チュートリアルを参照してください。
 
 ### GoodCloud {#goodcloud}
 
- [**GoodCloud**](../../interface_guide/cloud.md)チュートリアルにアクセスしてください。
+[**GoodCloud**](../../interface_guide/cloud.md) チュートリアルを参照してください。
 
 ### ネットワークストレージ {#network-storage}
 
- [**ネットワークストレージ**](../../interface_guide/network_storage.md)チュートリアルにアクセスしてください。
+[**ネットワークストレージ**](../../interface_guide/network_storage.md) チュートリアルを参照してください。
 
 ### AdGuard Home {#adguard-home}
 
- [**AdGuard Home**](../../interface_guide/adguardhome.md)チュートリアルにアクセスしてください。
+[**AdGuard Home**](../../interface_guide/adguardhome.md) チュートリアルを参照してください。
 
 ### ペアレンタルコントロール {#parental-control}
 
- [**ペアレンタルコントロール**](../../interface_guide/parental_control.md)チュートリアルにアクセスしてください。
+[**ペアレンタルコントロール**](../../interface_guide/parental_control.md) チュートリアルを参照してください。
 
 ### ZeroTier {#zerotier}
 
- [**ZeroTier**](../../interface_guide/zerotier.md)チュートリアルにアクセスしてください。
-
+[**ZeroTier**](../../interface_guide/zerotier.md) チュートリアルを参照してください。
 
 ---
 
@@ -172,43 +165,43 @@ GL.iNet ルーターには、デバイス管理の簡素化、インターネッ
 
 ### ファイアウォール {#firewall}
 
-GL.iNetのルーターは、安全な接続とユーザーによる完全な監視を保証するため、複数のファイヤーウォール機能を備えています。ポート転送、オープンポート、DMZなどのファイアウォールルールを設定することができます。
+GL.iNet ルーターには、安全な接続を確保し、ユーザーがネットワークを十分に管理できるよう、複数のファイアウォール機能が搭載されています。ポート転送、オープンポート、DMZ などのファイアウォールルールを設定できます。
 
-[GL.iNetルーターのファイアウォールについて詳しくはこちら](../../interface_guide/firewall.md)
+[GL.iNet ルーターのファイアウォールの詳細はこちら](../../interface_guide/firewall.md)
 
 ### Multi-WAN {#multi-wan_1}
 
- [**Multi-WAN**](../../interface_guide/multi-wan.md)チュートリアルにアクセスしてください。
+[**Multi-WAN**](../../interface_guide/multi-wan.md) チュートリアルを参照してください。
 
 ### LAN {#lan}
 
- [**LAN**](../../interface_guide/lan.md) チュートリアルにアクセスしてください。
+[**LAN**](../../interface_guide/lan.md) チュートリアルを参照してください。
 
 ### DNS {#dns}
 
- [**DNS**](../../interface_guide/dns.md) チュートリアルにアクセスしてください。
+[**DNS**](../../interface_guide/dns.md) チュートリアルを参照してください。
 
-### Network Mode {#network-mode}
+### ネットワークモード {#network-mode}
 
- [**Network Mode**](../../interface_guide/network_mode.md) チュートリアルにアクセスしてください。
+[**ネットワークモード**](../../interface_guide/network_mode.md) チュートリアルを参照してください。
 
 ### IPv6 {#ipv6}
 
- [**IPv6**](../../interface_guide/ipv6.md) チュートリアルにアクセスしてください。
+[**IPv6**](../../interface_guide/ipv6.md) チュートリアルを参照してください。
 
 ### MACアドレス {#mac-address}
 
-MACアドレスページは、以前は「MAC Clone」と呼ばれていましたが、v4.2 以降は「MAC Address」に変更されています。
+MAC アドレスページは、以前は「MAC Clone」という名称でしたが、v4.2 以降は「MAC Address」に変更されました。
 
- [**MACアドレス**](../../interface_guide/mac_address.md)チュートリアルにアクセスしてください。
+[**MACアドレス**](../../interface_guide/mac_address.md) チュートリアルを参照してください。
 
 ### ドロップイン・ゲートウェイ {#drop-in-gateway}
 
- [**ドロップイン・ゲートウェイ**](../../interface_guide/drop-in_gateway.md) チュートリアルにアクセスしてください。
+[**ドロップイン・ゲートウェイ**](../../interface_guide/drop-in_gateway.md) チュートリアルを参照してください。
 
 ### IGMPスヌーピング {#igmp-snooping}
 
- [**IGMPスヌーピング**](../../interface_guide/igmp_snooping.md) チュートリアルにアクセスしてください。
+[**IGMPスヌーピング**](../../interface_guide/igmp_snooping.md) チュートリアルを参照してください。
 
 ---
 
@@ -216,43 +209,42 @@ MACアドレスページは、以前は「MAC Clone」と呼ばれていまし�
 
 ### 概要 {#overview}
 
- [**システム概要**](../../interface_guide/system_overview.md) チュートリアルにアクセスしてください。
+[**システム概要**](../../interface_guide/system_overview.md) チュートリアルを参照してください。
 
 ### アップグレード {#upgrade}
 
-GL.iNet は、性能向上、バグ修正、脆弱性対策のために、ルーターのファームウェアを定期的に更新しています。
+GL.iNet は、パフォーマンスの向上、バグの修正、脆弱性への対処のため、ルーターのファームウェアを定期的に更新しています。
 
- [**アップグレード**](../../interface_guide/upgrade.md) チュートリアルにアクセスしてください。
+[**アップグレード**](../../interface_guide/upgrade.md) チュートリアルを参照してください。
 
 ### スケジュールされたタスク {#scheduled-tasks}
 
- [**スケジュールされたタスク**](../../interface_guide/scheduled_tasks.md) チュートリアルにアクセスしてください。
+[**スケジュールされたタスク**](../../interface_guide/scheduled_tasks.md) チュートリアルを参照してください。
 
 ### 管理者パスワード {#admin-password}
 
-この機能はv4.5から[**セキュリティ**](../../interface_guide/security.md) に移動されました。
+この機能は、v4.5 以降 [**セキュリティ**](../../interface_guide/security.md) に移動しました。
 
- [**管理者パスワード**](../../interface_guide/admin_password.md) チュートリアルにアクセスしてください。
+[**管理者パスワード**](../../interface_guide/admin_password.md) チュートリアルを参照してください。
 
 ### タイムゾーン {#time-zone}
 
-  [**タイムゾーン**](../../interface_guide/time_zone.md) チュートリアルにアクセスしてください。
+[**タイムゾーン**](../../interface_guide/time_zone.md) チュートリアルを参照してください。
 
 ### ログ {#log}
 
- [**ログ**](../../interface_guide/log.md) チュートリアルにアクセスしてください。
+[**ログ**](../../interface_guide/log.md) チュートリアルを参照してください。
 
 ### セキュリティ {#security}
 
-この機能はv4.5から利用可能です。
+この機能は v4.5 以降で利用できます。
 
- [**セキュリティ**](../../interface_guide/security.md) チュートリアルにアクセスしてください。
+[**セキュリティ**](../../interface_guide/security.md) チュートリアルを参照してください。
 
-### ファームウェアをリセット {#reset-firmware}
+### ファームウェアのリセット {#reset-firmware}
 
- [**ファームウェアのリセット**](../../interface_guide/reset_firmware.md) チュートリアルにアクセスしてください。
+[**ファームウェアのリセット**](../../interface_guide/reset_firmware.md) チュートリアルを参照してください。
 
 ### 詳細設定 {#advanced-settings}
 
- [**詳細設定**](../../interface_guide/advanced_settings.md) チュートリアルにアクセスしてください。
-
+[**詳細設定**](../../interface_guide/advanced_settings.md) チュートリアルを参照してください。

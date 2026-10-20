@@ -38,17 +38,11 @@ Wi-Fi またはイーサネットケーブルのどちらでネットワーク�
 
 ## 速度 {#speed}
 
-3列目には、接続されているデバイスのインターネット速度が表示されます。
+3列目には、接続されているデバイスのインターネット速度が表示されます。このデータは、直近 3 分間の平均速度です。
 
 ![speed](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/speed.png){class="glboxshadow"}
 
-ここで表示される速度は、3分間の平均速度です。
-
-- 現在のページを 10 秒間開くと、直近 10 秒間の平均速度が表示されます。
-- 現在のページを 30 秒間開くと、直近 30 秒間の平均速度が表示されます。
-- 現在のページを 60 秒間開くと、直近 60 秒間の平均速度が表示されます。
-- 現在のページを 3 分間開くと、直近 3 分間の平均速度が表示されます。
-- 現在のページを 10 分間開いても、直近 3 分間の平均速度が表示されます。
+**注意**: 平均速度の計算は、このページを開いた時点から開始されます。たとえば、ページを開いてから 10 秒しか経過していない場合、平均速度は 10 秒分のデータのみに基づいて算出されます。
 
 ## トラフィック {#traffic}
 
@@ -58,9 +52,7 @@ Wi-Fi またはイーサネットケーブルのどちらでネットワーク�
 
 ## IP予約 {#reserved-ip}
 
-5列目では、ワンクリックで特定の接続済みデバイスに IP アドレスを予約できます。
-
-この機能は v4.8 以降で利用できます。
+5列目では、ワンクリックで特定の接続済みデバイスに IP アドレスを予約できます。この機能はファームウェア v4.8 で導入されました。
 
 LAN 内のクライアントに予約 IP アドレスを指定すると、そのクライアントはルーターの DHCP サーバーにアクセスするたびに、常に同じ IP アドレスを受け取ります。
 
@@ -68,7 +60,7 @@ LAN 内のクライアントに予約 IP アドレスを指定すると、その
 
 ![reserved ip](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/reserved_ip.png){class="glboxshadow"}
 
-## Blocklist {#blocklist}
+## ブロックリスト {#blocklist}
 
 6列目では、ワンクリックで特定の接続済みデバイスをブロックできます。
 
@@ -78,11 +70,11 @@ LAN 内のクライアントに予約 IP アドレスを指定すると、その
 
 ![access control](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/blocklist_allowlist.jpg){class="glboxshadow"}
 
-- **Blocklist**: Blocklist に登録された MAC アドレスを持つデバイスは、このルーターへ接続できません。
+- **Blocklist**: ブロックリストに登録された MAC アドレスを持つデバイスは、このルーターへ接続できません。
 
 - **Allowlist**: 指定した MAC アドレスを持つデバイスだけが接続を許可されます。IoT デバイスや企業ネットワークの管理に適しています。
 
-Blocklist を作成するには、**(1)** で Excel 形式のブロックリストをアップロードするか、**(2)** で MAC アドレスを手動入力します。
+ブロックリストを作成するには、**(1)** で Excel 形式のブロックリストをアップロードするか、**(2)** で MAC アドレスを手動入力します。
 
 ![create blocklist](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/create_blocklist.png){class="glboxshadow"}
 
@@ -116,19 +108,7 @@ Access Control ページで、ブロックしたいデバイスの MAC アドレ
 
 **注意**: クライアントのブロックはデバイスの MAC アドレスに基づきます。ブロックされたデバイスが次回別の MAC アドレスを使用した場合、再びルーターへ接続できる可能性があります。
 
-## Sort {#sort}
-
-現在の並べ替えタイプは右上に表示され、他の並べ替えタイプへ切り替えることもできます。
-
-![sort](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/sort.jpg){class="glboxshadow"}
-
-デフォルトの並べ替えルールは次のとおりです。
-
-- 現在Web管理パネルへのアクセスに使用しているデバイスは、常に最上部に表示されます。
-- Online Clientsセクションでは、先に接続したデバイスほど上に表示されます。
-- Offline Clientsセクションでは、先に切断したデバイスほど上に表示されます。
-
-## Action {#action}
+## 操作 {#action}
 
 ### 詳細を表示 {#view-details}
 
@@ -140,7 +120,7 @@ Access Control ページで、ブロックしたいデバイスの MAC アドレ
 
 ![client details](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/client_detail.png){class="glboxshadow"}
 
-### Modify {#modify}
+### 変更 {#modify}
 
 Action 列の三点アイコンをクリックし、ドロップダウンメニューで **Modify** をクリックします。
 
@@ -152,13 +132,13 @@ Action 列の三点アイコンをクリックし、ドロップダウンメニ�
 
 Action 列の三点アイコンをクリックし、ドロップダウンメニューで **Limit Speed** をクリックします。
 
-![limit speed](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/limit_speed.png){class="glboxshadow"}
+![limit speed](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/limit_speed1.png){class="glboxshadow"}
 
 ![limit speed settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/clients_limit_speed_settings.png){class="glboxshadow"}
 
 速度制限が適用されているクライアントでは、速度表示の上矢印と下矢印が黄色になります。
 
-![limited speed](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/limit_speed.jpg){class="glboxshadow"}
+![limited speed](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/limit_speed2.png){class="glboxshadow"}
 
 速度制限を無効にするには、Action 列の三点アイコンをクリックします。
 
@@ -166,13 +146,41 @@ Action 列の三点アイコンをクリックし、ドロップダウンメニ�
 
 **注意**: このオプションはファームウェア v4.8 以降で利用でき、MAC ベースのポリシーが設定されている場合にのみ Action メニューへ表示されます。
 
-MAC ベースのポリシーを使用してクライアントを VPN トンネルリストに追加します。トンネルの詳細設定を行う場合は、VPN ダッシュボードに移動して管理してください。
+MAC ベースのポリシーを使用してクライアントを VPN トンネルリストに追加します。トンネルの詳細設定を行う場合は、VPN Dashboard に移動して管理してください。
 
 ![use vpn tunnel](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/use-vpn-tunnel.png){class="glboxshadow"}
 
-## オフラインクライアントの削除 {#remove-clients}
+## 並べ替え {#sort}
 
-オフラインクライアントセクションでは、右上の **Delete All** をクリックすると、すべてのオフラインクライアントを削除できます。
+現在の並べ替えルールは右上に表示され、他のルールに切り替えることもできます。
+
+![sort](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/sort.jpg){class="glboxshadow"}
+
+デフォルトの並べ替えルールは次のとおりです。
+
+- 自身のデバイス（Web 管理パネルへのアクセスに使用しているデバイス）は、常に最上部に表示されます。
+- Online Clients セクションでは、先に接続したデバイスほど上に表示されます。
+- Offline Clients セクションでは、先に切断したデバイスほど上に表示されます。
+
+## 設定 {#settings}
+
+右上の **Settings** ボタンをクリックすると、その他の操作を行えます。
+
+![settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/settings.png){class="glboxshadow"}
+
+- **Clear Traffic Statistics**: すべてのオンラインクライアントのトラフィック統計をワンクリックで消去します。適用すると、トラフィック統計の列がゼロにリセットされ、統計が再び開始されます。
+
+    ![clear traffic](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/traffic_cleared.png){class="glboxshadow"}
+
+- **Toggle Rate Unit**: 速度列のレート単位を **KB/s** と **Kbps** の間で切り替えます。
+
+- **Auto Remove Offline Clients**: この機能はファームウェア v4.9 で導入されました。有効にすると、すべてのオフラインクライアントが直ちに消去され、Offline Clients セクションに表示されなくなります。
+
+    ![auto removal](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/auto_removal.png){class="glboxshadow"}
+
+## クライアントの削除 {#remove-clients}
+
+Offline Clients セクションでは、右上の **Delete All** をクリックすると、すべてのオフラインクライアントを削除できます。
 
 特定のクライアントだけを削除したい場合は、Action 列の三点アイコンをクリックし、ドロップダウンメニューで **Remove Client** をクリックします。
 

@@ -38,17 +38,11 @@ Muchos dispositivos usan direcciones MAC aleatorias. Si los dispositivos conecta
 
 ## Velocidad {#speed}
 
-La tercera columna muestra la velocidad de Internet del dispositivo conectado.
+La tercera columna muestra la velocidad de Internet del dispositivo conectado. Este dato representa la velocidad media de los últimos 3 minutos.
 
 ![speed](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/speed.png){class="glboxshadow"}
 
-La velocidad mostrada aquí es la velocidad media durante 3 minutos.
-
-- Si mantiene la página abierta durante 10 segundos, se mostrará la velocidad media de los últimos 10 segundos.
-- Si mantiene la página abierta durante 30 segundos, se mostrará la velocidad media de los últimos 30 segundos.
-- Si mantiene la página abierta durante 60 segundos, se mostrará la velocidad media de los últimos 60 segundos.
-- Si mantiene la página abierta durante 3 minutos, se mostrará la velocidad media de los últimos 3 minutos.
-- Si mantiene la página abierta durante 10 minutos, se mostrará la velocidad media de los últimos 3 minutos.
+**Nota**: El sistema empieza a calcular la velocidad media cuando se abre esta página. Por ejemplo, si la página lleva abierta 10 segundos, la velocidad media se basará solo en 10 segundos de datos.
 
 ## Tráfico {#traffic}
 
@@ -58,9 +52,7 @@ La cuarta columna muestra el tráfico de Internet del dispositivo conectado.
 
 ## IP reservada {#reserved-ip}
 
-En la quinta columna, puede reservar una dirección IP para un dispositivo conectado con un solo clic.
-
-Esta función está disponible a partir de v4.8.
+En la quinta columna, puede reservar una dirección IP para un dispositivo conectado con un solo clic. Esta función se introdujo en el firmware v4.8.
 
 Cuando especifica una dirección IP reservada para un cliente dentro de la LAN, el cliente siempre recibe la misma dirección IP cada vez que accede al servidor DHCP del router.
 
@@ -116,18 +108,6 @@ En la página Access Control, introduzca manualmente la dirección MAC de los di
 
 **Nota**: El bloqueo del cliente se basa en la dirección MAC del dispositivo. Si el dispositivo bloqueado usa una dirección MAC diferente la próxima vez, podrá seguir conectándose al router.
 
-## Ordenar {#sort}
-
-La regla de ordenación actual se muestra en la esquina superior derecha y puede cambiarla por otra.
-
-![sort](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/sort.jpg){class="glboxshadow"}
-
-El tipo de orden predeterminado es el siguiente:
-
-- El propio dispositivo, es decir, el que utiliza para acceder al panel de administración, siempre aparece en la parte superior.
-- En la sección Online Clients, los dispositivos que se conectaron antes aparecen más arriba.
-- En la sección Offline Clients, los dispositivos que se desconectaron antes aparecen más arriba.
-
 ## Acción {#action}
 
 ### Ver detalles {#view-details}
@@ -152,13 +132,13 @@ Haga clic en el icono de tres puntos de la columna Action y, en el menú despleg
 
 Haga clic en el icono de tres puntos de la columna Action y, en el menú desplegable, haga clic en **Limit Speed**.
 
-![limit speed](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/limit_speed.png){class="glboxshadow"}
+![limit speed](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/limit_speed1.png){class="glboxshadow"}
 
 ![limit speed settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/clients_limit_speed_settings.png){class="glboxshadow"}
 
 Si a un cliente se le ha aplicado una limitación de velocidad, las flechas de subida y bajada de su velocidad se volverán amarillas.
 
-![limited speed](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/limit_speed.jpg){class="glboxshadow"}
+![limited speed](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/limit_speed2.png){class="glboxshadow"}
 
 Haga clic en el icono de tres puntos de la columna Action para desactivar el límite de velocidad.
 
@@ -170,7 +150,35 @@ Añada un cliente a la lista del túnel VPN con una política basada en MAC. Si 
 
 ![use vpn tunnel](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/use-vpn-tunnel.png){class="glboxshadow"}
 
-## Eliminar clientes sin conexión {#remove-clients}
+## Ordenar {#sort}
+
+La regla de ordenación actual se muestra en la esquina superior derecha y puede cambiarla por otra.
+
+![sort](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/sort.jpg){class="glboxshadow"}
+
+El tipo de orden predeterminado es el siguiente:
+
+- El propio dispositivo, es decir, el que utiliza para acceder al panel de administración, siempre aparece en la parte superior.
+- En la sección Online Clients, los dispositivos que se conectaron antes aparecen más arriba.
+- En la sección Offline Clients, los dispositivos que se desconectaron antes aparecen más arriba.
+
+## Ajustes {#settings}
+
+Haga clic en el botón **Settings** de la esquina superior derecha para realizar otras operaciones.
+
+![settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/settings.png){class="glboxshadow"}
+
+- **Clear Traffic Statistics**: Borra con un solo clic las estadísticas de tráfico de todos los clientes en línea. Una vez aplicado, la columna de estadísticas de tráfico se restablecerá a cero y el recuento volverá a empezar.
+
+    ![clear traffic](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/traffic_cleared.png){class="glboxshadow"}
+
+- **Toggle Rate Unit**: Cambia la unidad de velocidad de la columna de velocidad entre **KB/s** y **Kbps**.
+
+- **Auto Remove Offline Clients**: Esta función se introdujo en el firmware v4.9. Una vez activada, todos los clientes sin conexión se eliminarán inmediatamente y no se mostrarán en la sección Offline Clients.
+
+    ![auto removal](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/auto_removal.png){class="glboxshadow"}
+
+## Eliminar clientes {#remove-clients}
 
 En la sección de clientes sin conexión, puede hacer clic en **Delete All** en la esquina superior derecha para eliminar todos los clientes sin conexión.
 

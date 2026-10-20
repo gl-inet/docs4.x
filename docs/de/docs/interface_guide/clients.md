@@ -38,17 +38,11 @@ Viele Geräte verwenden zufällig generierte MAC-Adressen. Wenn verbundene Gerä
 
 ## Geschwindigkeit {#speed}
 
-In der dritten Spalte wird die Internetgeschwindigkeit des verbundenen Geräts angezeigt.
+In der dritten Spalte wird die Internetgeschwindigkeit des verbundenen Geräts angezeigt. Dieser Wert ist die Durchschnittsgeschwindigkeit der letzten 3 Minuten.
 
 ![speed](https://static.gl-inet.com/docs/router/de/4/interface_guide/clients/speed.png){class="glboxshadow"}
 
-Die hier angezeigte Geschwindigkeit ist die Durchschnittsgeschwindigkeit über 3 Minuten.
-
-- Wenn Sie die aktuelle Seite 10 Sekunden lang geöffnet haben, wird der Durchschnitt der letzten 10 Sekunden angezeigt.
-- Wenn Sie die aktuelle Seite 30 Sekunden lang geöffnet haben, wird der Durchschnitt der letzten 30 Sekunden angezeigt.
-- Wenn Sie die aktuelle Seite 60 Sekunden lang geöffnet haben, wird der Durchschnitt der letzten 60 Sekunden angezeigt.
-- Wenn Sie die aktuelle Seite 3 Minuten lang geöffnet haben, wird die Durchschnittsrate der letzten 3 Minuten angezeigt.
-- Wenn Sie die aktuelle Seite 10 Minuten lang geöffnet haben, wird ebenfalls die Durchschnittsrate der letzten 3 Minuten angezeigt.
+**Hinweis**: Das System beginnt mit der Berechnung der Durchschnittsgeschwindigkeit, sobald diese Seite geöffnet wird. Ist die Seite beispielsweise erst seit 10 Sekunden geöffnet, basiert die Durchschnittsgeschwindigkeit nur auf den Daten dieser 10 Sekunden.
 
 ## Datenverkehr {#traffic}
 
@@ -58,9 +52,7 @@ In der vierten Spalte wird der Internetdatenverkehr des verbundenen Geräts ange
 
 ## Reservierte IP {#reserved-ip}
 
-In der fünften Spalte können Sie mit nur einem Klick eine IP-Adresse für ein bestimmtes verbundenes Gerät reservieren. 
-
-Diese Funktion ist ab v4.8 verfügbar.
+In der fünften Spalte können Sie mit nur einem Klick eine IP-Adresse für ein bestimmtes verbundenes Gerät reservieren. Diese Funktion wurde mit Firmware v4.8 eingeführt.
 
 Wenn Sie einem Client im LAN eine reservierte IP-Adresse zuweisen, erhält dieser jedes Mal dieselbe IP-Adresse, wenn er den DHCP-Server des Routers verwendet. 
 
@@ -116,18 +108,6 @@ Geben Sie auf der Seite Access Control die MAC-Adresse der Geräte, die Sie bloc
 
 **Hinweis**: Das Blockieren eines Clients basiert auf der MAC-Adresse des Geräts. Wenn das blockierte Gerät beim nächsten Mal eine andere MAC-Adresse verwendet, kann es sich weiterhin mit dem Router verbinden.
 
-## Sortierung {#sort}
-
-Die aktuelle Sortierreihenfolge wird oben rechts angezeigt und kann dort geändert werden.
-
-![sort](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/sort.jpg){class="glboxshadow"}
-
-Der Standardsortiertyp ist wie folgt:
-
-- Das eigene Gerät (das Gerät, mit dem Sie auf das Admin Panel zugreifen) wird immer ganz oben angezeigt.
-- Im Abschnitt Online Clients werden Geräte weiter oben angezeigt, wenn sie sich früher verbunden haben.
-- Im Abschnitt Offline Clients werden Geräte weiter oben angezeigt, wenn ihre Verbindung früher getrennt wurde.
-
 ## Aktion {#action}
 
 ### Details anzeigen {#view-details}
@@ -152,13 +132,13 @@ Klicken Sie in der Spalte Action auf das Drei-Punkte-Symbol und im Dropdown-Men�
 
 Klicken Sie in der Spalte Action auf das Drei-Punkte-Symbol und im Dropdown-Menü auf **Limit Speed**.
 
-![limit speed](https://static.gl-inet.com/docs/router/de/4/interface_guide/clients/limit_speed.png){class="glboxshadow"}
+![limit speed](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/limit_speed1.png){class="glboxshadow"}
 
 ![limit speed settings](https://static.gl-inet.com/docs/router/de/4/interface_guide/clients/clients_limit_speed_settings.png){class="glboxshadow"}
 
 Wenn für einen Client eine Geschwindigkeitsbegrenzung angewendet wurde, werden die Aufwärts- und Abwärtspfeile bei der Geschwindigkeit gelb dargestellt.
 
-![limited speed](https://static.gl-inet.com/docs/router/de/4/interface_guide/clients/limit_speed.jpg){class="glboxshadow"}
+![limited speed](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/limit_speed2.png){class="glboxshadow"}
 
 Klicken Sie in der Spalte Action auf das Drei-Punkte-Symbol, um die Geschwindigkeitsbegrenzung zu deaktivieren.
 
@@ -170,7 +150,35 @@ Fügen Sie einen Client mit einer MAC-basierten Richtlinie zur Liste der VPN-Tun
 
 ![use vpn tunnel](https://static.gl-inet.com/docs/router/de/4/interface_guide/clients/use-vpn-tunnel.png){class="glboxshadow"}
 
-## Offline-Clients entfernen {#remove-clients}
+## Sortierung {#sort}
+
+Die aktuelle Sortierreihenfolge wird oben rechts angezeigt und kann dort geändert werden.
+
+![sort](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/sort.jpg){class="glboxshadow"}
+
+Der Standardsortiertyp ist wie folgt:
+
+- Das eigene Gerät (das Gerät, mit dem Sie auf das Admin Panel zugreifen) wird immer ganz oben angezeigt.
+- Im Abschnitt Online Clients werden Geräte weiter oben angezeigt, wenn sie sich früher verbunden haben.
+- Im Abschnitt Offline Clients werden Geräte weiter oben angezeigt, wenn ihre Verbindung früher getrennt wurde.
+
+## Einstellungen {#settings}
+
+Klicken Sie oben rechts auf die Schaltfläche **Settings**, um weitere Vorgänge auszuführen.
+
+![settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/settings.png){class="glboxshadow"}
+
+- **Clear Traffic Statistics**: Löscht mit einem Klick die Datenverkehrsstatistiken aller Online-Clients. Danach wird die Spalte mit den Datenverkehrsstatistiken auf null zurückgesetzt und die Erfassung beginnt von vorn.
+
+    ![clear traffic](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/traffic_cleared.png){class="glboxshadow"}
+
+- **Toggle Rate Unit**: Schaltet die Einheit der Geschwindigkeitsspalte zwischen **KB/s** und **Kbps** um.
+
+- **Auto Remove Offline Clients**: Diese Funktion wurde mit Firmware v4.9 eingeführt. Nach der Aktivierung werden alle Offline-Clients sofort entfernt und nicht mehr im Abschnitt Offline Clients angezeigt.
+
+    ![auto removal](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/auto_removal.png){class="glboxshadow"}
+
+## Clients entfernen {#remove-clients}
 
 Im Abschnitt der Offline-Clients können Sie oben rechts auf **Delete All** klicken, um alle Offline-Clients zu löschen. 
 

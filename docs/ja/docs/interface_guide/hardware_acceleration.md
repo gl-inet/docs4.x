@@ -1,4 +1,4 @@
-# ハードウェアアクセラレーション
+# ハードウェアアクセラレーション {#hardware-acceleration}
 
 **注意**: このガイドはファームウェア v4.2 以前に適用されます。新しいバージョンについては、[Network Acceleration](network_acceleration.md) を参照してください。
 
@@ -8,7 +8,7 @@
 
 ハードウェアアクセラレーションを有効にすると、次の機能は正しく動作しません: Client Speed and Traffic Statistics、Client Speed Limit。
 
-## 対応モデル
+## 対応モデル {#supported-models}
 
 ??? "対応モデル"
     - GL-MT6000 (Fortify)
@@ -44,7 +44,7 @@
     - GL-B1300 (Convexa-B)
     - GL-X300B (Collie)
 
-## クイック設定
+## クイック設定 {#quick-setup}
 
 Web Admin Panel の左側で、**NETWORK** -> **Hardware Acceleration** に移動します。
 
@@ -54,7 +54,7 @@ Web Admin Panel の左側で、**NETWORK** -> **Hardware Acceleration** に移�
 
 ---
 
-## Hardware NAT と Software NAT
+## Hardware NAT と Software NAT {#hardware-nat-vs-software-nat}
 
 * スループット（例: マルチギガビット回線）を最優先し、ルーター上で SQM やクライアントごとの帯域制御を使わない場合は、Hardware NAT / Network Acceleration を有効にしてください。最も高いスループットと低い CPU 使用率を実現できます。
 

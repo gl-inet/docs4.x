@@ -1,12 +1,12 @@
-# Guida utente di Beryl AX (GL-MT3000)
+# Guida utente di Beryl AX (GL-MT3000) {#beryl-ax-gl-mt3000-user-guide}
 
-## Panoramica del prodotto
+## Panoramica del prodotto {#product-overview}
 
 Beryl AX (GL-MT3000) e un travel router tascabile AX3000 che utilizza il protocollo Wi-Fi 6. E una versione aggiornata di Beryl (GL-MT1300). Basato su processore dual-core MT7981B da 1,3 GHz, offre oltre il doppio della velocita Wi-Fi complessiva. E progettato per supportare famiglie con un uso intensivo del Wi-Fi ed e anche compatto per l'uso in viaggio.
 
 ![gl-mt3000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3000/hardware_info/mt3000_interface.jpg){class="glboxshadow"}
 
-## Contenuto della confezione
+## Contenuto della confezione {#package-contents}
 
 - 1 x Beryl AX (GL-MT3000)
 - 1 x Manuale utente
@@ -18,17 +18,17 @@ Beryl AX (GL-MT3000) e un travel router tascabile AX3000 che utilizza il protoco
 
 ![gl-MT3000 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3000/first_time_setup/mt3000_unboxing.jpg){class="glboxshadow"}
 
-## Come configurare Beryl AX
+## Come configurare Beryl AX {#how-to-set-up-beryl-ax}
 
 Guarda questo video di configurazione oppure segui i passaggi riportati di seguito.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZAVn92F5RV8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Accendi il router
+### 1. Accendi il router {#1-power-on}
 
 Assembla l'alimentatore in due parti. Collegalo al router e inseriscilo in una presa di corrente. Il router si avviera automaticamente.
 
-### 2. Collega un dispositivo
+### 2. Collega un dispositivo {#2-connect-device}
 
 Collega un dispositivo, ad esempio un computer, un laptop o uno smartphone, al router tramite Wi-Fi o Ethernet.
 
@@ -40,13 +40,13 @@ Collega un dispositivo, ad esempio un computer, un laptop o uno smartphone, al r
 
     Sul dispositivo, vai in Settings -> WLAN, individua il nome della rete Wi-Fi del router nell'elenco delle reti disponibili e inserisci la password. Il nome di rete e la password predefiniti sono stampati sull'etichetta del router.
 
-### 3. Accedi al pannello di amministrazione web
+### 3. Accedi al pannello di amministrazione web {#3-log-in-to-web-admin-panel}
 
 Apri un browser web, inserisci `192.168.8.1` nella barra degli indirizzi ed effettua l'accesso. Scegli la lingua e imposta la password di amministrazione, quindi fai clic su **Apply**.
 
 Quando confermi i dettagli del Wi-Fi, tieni presente che se modifichi le informazioni del Wi-Fi dovrai ricollegare il dispositivo alla rete Wi-Fi del router usando le credenziali aggiornate.
 
-### 4. Configurazione della connessione Internet
+### 4. Configurazione della connessione Internet {#4-internet-setup}
 
 **Note:** Le istruzioni seguenti si applicano agli utenti che configurano il router tramite il pannello di amministrazione web GL.iNet. Se preferisci usare l'app GL.iNet, [scarica l'app](https://www.gl-inet.com/app/){target="_blank"} e segui le istruzioni mostrate sullo schermo.
 
@@ -96,7 +96,7 @@ Configura Beryl AX usando uno dei metodi di connessione Internet supportati: Eth
 
     Per istruzioni dettagliate, fai riferimento a [Collegarsi a Internet tramite rete cellulare](../../interface_guide/internet_cellular.md).
 
-## Come configurare una VPN
+## Come configurare una VPN {#how-to-set-up-a-vpn}
 
 Una VPN crea traffico sicuro e crittografato tra il dispositivo e il server VPN. Offre un ulteriore livello di privacy e sicurezza come client VPN e consente di accedere a una rete remota come server VPN. Beryl AX, come gli altri router GL.iNet, supporta OpenVPN e WireGuard. Inoltre supporta anche Tor.
 
@@ -120,7 +120,7 @@ Una VPN crea traffico sicuro e crittografato tra il dispositivo e il server VPN.
 
     * [Come configurare Tor](../../interface_guide/tor.md)
 
-## Wireless e client
+## Wireless e client {#wireless-and-clients}
 
 === "Wireless"
 
@@ -134,7 +134,7 @@ Una VPN crea traffico sicuro e crittografato tra il dispositivo e il server VPN.
 
     Per configurarla, fai riferimento a [Clients](../../interface_guide/clients.md).
 
-## Servizi cloud
+## Servizi cloud {#cloud-services}
 
 === "GoodCloud"
 
@@ -148,7 +148,7 @@ Una VPN crea traffico sicuro e crittografato tra il dispositivo e il server VPN.
 
     Per configurarla, fai riferimento a [AstroWarp](../../interface_guide/astrowarp.md).
 
-## Applicazioni
+## Applicazioni {#applications}
 
 === "Plug-ins"
 
@@ -194,7 +194,7 @@ Una VPN crea traffico sicuro e crittografato tra il dispositivo e il server VPN.
 
     Per configurarlo, fai riferimento a [Tailscale](../../interface_guide/tailscale.md).
 
-## Impostazioni di rete
+## Impostazioni di rete {#network-settings}
 
 === "Port forwarding"
 
@@ -274,7 +274,7 @@ Una VPN crea traffico sicuro e crittografato tra il dispositivo e il server VPN.
 
     Per configurarla, fai riferimento a [NAT Settings](../../interface_guide/nat_settings.md).
 
-## Impostazioni di sistema
+## Impostazioni di sistema {#system-settings}
 
 === "Overview"
 

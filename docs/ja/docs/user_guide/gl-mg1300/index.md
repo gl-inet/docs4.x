@@ -1,12 +1,12 @@
-# Mango 2 (GL-MG1300) ユーザーガイド
+# Mango 2 (GL-MG1300) ユーザーガイド {#mango-2-gl-mg1300-user-guide}
 
-## 製品概要
+## 製品概要 {#product-overview}
 
 Mango 2 (GL-MG1300) は、GL.iNet初のデュアルバンドWi-Fi 5対応ミニトラベルルーターで、薄型かつ携帯性に優れた設計です。2×2 MIMO構成により、理論上のデュアルバンド速度は2.4 GHzで400 Mbps、5 GHzで866 Mbpsです。OpenVPNとWireGuardをプリインストールし、30以上のVPNサービスに対応し、VPNクライアントを有効にするとネットワークトラフィックを暗号化できます。また、GoodCloudによるリモート管理にも対応し、性能、実用性、セキュリティを両立します。
 
 ![mg1300 illustration](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mg1300/product_info/mg1300_overview.jpg){class="glboxshadow"}
 
-## パッケージ内容
+## パッケージ内容 {#package-contents}
 
 - Mango 2 (GL-MG1300) x 1
 - ユーザーマニュアル x 1
@@ -19,15 +19,15 @@ Mango 2 (GL-MG1300) は、GL.iNet初のデュアルバンドWi-Fi 5対応ミニ�
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xwHgLdWPwPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Mango 2の設定方法
+## Mango 2の設定方法 {#how-to-set-up-mango-2}
 
 Mango 2を設定するには、Ethernet、Repeater、Tethering、Cellularの4種類のインターネット接続方法のいずれかを使用します。以下の手順に従ってください。
 
-### 1. 電源を入れる
+### 1. 電源を入れる {#1-power-on}
 
 USB Type-C電源ケーブルをルーターの電源ポートに接続します。もう一方の端を5 V/2 Aの電源アダプター（別売）に接続し、コンセントに差し込みます。
 
-### 2. デバイスを接続する
+### 2. デバイスを接続する {#2-connect-device}
 
 パソコン、ノートパソコン、スマートフォンなどのデバイスを、Wi-FiまたはEthernetでルーターに接続します。
 
@@ -39,13 +39,13 @@ USB Type-C電源ケーブルをルーターの電源ポートに接続します�
 
     デバイスでSettings -> WLANを開き、利用可能なネットワーク一覧からルーターのWi-Fiネットワーク名を選択してパスワードを入力します。初期ネットワーク名とパスワードは、ルーター底面のラベルに記載されています。
 
-### 3. Web管理パネルにログインする
+### 3. Web管理パネルにログインする {#3-log-in-to-web-admin-panel}
 
 Webブラウザーを開き、アドレスバーに`192.168.8.1`と入力してログインします。言語を選択して管理者パスワードを設定し、**Apply**をクリックします。
 
 Wi-Fi情報を変更した場合は、更新後の認証情報を使用してデバイスをルーターのWi-Fiに再接続してください。
 
-### 4. インターネット設定
+### 4. インターネット設定 {#4-internet-setup}
 
 **注：** 以下は、GL.iNet Web Admin Panelでルーターを設定する場合の手順です。GL.iNetアプリを使用する場合は、[アプリをダウンロード](https://www.gl-inet.com/app/){target="_blank"}し、画面の指示に従ってください。
 
@@ -101,19 +101,19 @@ Ethernet、Repeater、Tethering、Cellularのいずれかを使用してMango 2�
 
 以下では、Mango 2のWeb管理パネルの機能について説明します。
 
-## Wireless
+## Wireless {#wireless}
 
 Wirelessページでは、Main Network、Guest Network、IoT Networkを設定できます。各Wi-Fiネットワークで5 GHz帯と2.4 GHz帯を個別に設定でき、Wi-Fi SSID、セキュリティモード、パスワード、ランダムBSSIDなど、各帯域の基本設定も有効化および変更できます。
 
 Wirelessの設定については、[Wireless](../../interface_guide/wireless.md)を参照してください。
 
-## Clients
+## Clients {#clients}
 
 Clients ページには、接続中のデバイスに関する情報が表示されます。各クライアントについて、名前、IPアドレス、MACアドレス、ダウンロード速度、アップロード速度、合計トラフィックを確認でき、クライアントをブロックしたり、その他の操作を実行したりできます。
 
 Clientsの設定については、[Clients](../../interface_guide/clients.md)を参照してください。
 
-## クラウドサービス
+## クラウドサービス {#cloud-services}
 
 === "GL.iNet Account"
 
@@ -131,7 +131,7 @@ Clientsの設定については、[Clients](../../interface_guide/clients.md)を
 
     GoodPAS の設定については、[GoodPAS](../../interface_guide/goodpas.md) を参照してください。
 
-## VPN
+## VPN {#vpn}
 
 VPN（仮想プライベートネットワーク）は、デバイスとVPNサーバー間に安全な暗号化接続を確立します。プライバシーとセキュリティを強化し（VPNクライアント）、リモートネットワークへのアクセスを可能にします（VPNサーバー）。Mango 2はOpenVPNとWireGuardに対応しています。
 
@@ -149,7 +149,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
     * [WireGuardクライアントの設定方法](../../interface_guide/wireguard_client.md)
     * [WireGuardサーバーの設定方法](../../interface_guide/wireguard_server.md)
 
-## ネットワーク
+## ネットワーク {#network}
 
 === "Multi-WAN"
 
@@ -203,7 +203,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
     ネットワークアクセラレーションの設定については、[Network Acceleration](../../interface_guide/network_acceleration.md)を参照してください。
 
-## フロー制御
+## フロー制御 {#flow-control}
 
 === "Parental Control"
 
@@ -211,7 +211,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
     保護者による制御の設定については、[Parental controls](../../interface_guide/parental_control.md)を参照してください。
 
-## セキュリティ
+## セキュリティ {#security}
 
 === "Port Forwarding"
 
@@ -231,7 +231,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
     NAT設定については、[NAT Settings](../../interface_guide/nat_settings.md)を参照してください。
 
-## アプリケーション
+## アプリケーション {#applications}
 
 === "Plug-ins"
 
@@ -257,7 +257,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
     Tailscaleの設定については、[Tailscale](../../interface_guide/tailscale.md)を参照してください。
 
-## システム
+## システム {#system}
 
 === "Overview"
 

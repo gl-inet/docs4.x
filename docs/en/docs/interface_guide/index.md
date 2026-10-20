@@ -4,11 +4,11 @@ hide:
   - toc
 ---
 
-# Interface Guide
+# Interface Guide {#interface-guide}
 
 Learn how to use our devices and add-on features with our step to step guides.
 
-## Internet Connection
+## Internet Connection {#internet-connection}
 
 * [The Internet Page](internet.md)
 * [How to connect to the Internet via an Ethernet cable](internet_ethernet.md)
@@ -16,26 +16,26 @@ Learn how to use our devices and add-on features with our step to step guides.
 * [How to connect to the Internet via USB tethering](internet_tethering.md)
 * [How to connect to the Internet via Cellular](internet_cellular_v4.10.md)
 
-## Wireless
+## Wireless {#wireless}
 
 * [Wireless](wireless.md)
 
-## Mesh
+## Mesh {#mesh}
 
 * [Mesh](mesh.md)
 
-## Clients
+## Clients {#clients}
 
 * [Clients](clients.md)
 
-## Cloud Services
+## Cloud Services {#cloud-services}
 
 * [GL.iNet Account](glinet_account.md)
 * [GoodCloud](cloud.md) - the official cloud service.
 * [GoodPAS](goodpas.md)
 * [AstroWarp](astrowarp.md)
 
-## VPN
+## VPN {#vpn}
 
 * [VPN Dashboard](vpn_dashboard.md)
 * [VPN Client Profile](vpn_client_profile.md)
@@ -45,7 +45,7 @@ Learn how to use our devices and add-on features with our step to step guides.
 * [Set up WireGuard Server](wireguard_server.md)
 * [ExpressVPN Activation Guide](expressvpn_activation_guide.md)
 
-## Network
+## Network {#network}
 
 * [Firewall](firewall.md)
 * [Port Forwarding](port_forwarding.md)
@@ -65,7 +65,7 @@ Learn how to use our devices and add-on features with our step to step guides.
 * [Network Acceleration](network_acceleration.md)
 * [NAT Settings](nat_settings.md)
 
-## Flow Control
+## Flow Control {#flow-control}
 
 * [Network Quality](network_quality.md)
 * [DPI Engine](dpi_engine.md)
@@ -75,7 +75,7 @@ Learn how to use our devices and add-on features with our step to step guides.
 * [SQM (Smart Queue Management)](sqm.md)
 * [Parental Control (v4.9)](parental_control_v4.9.md)
 
-## Security
+## Security {#security}
 
 * [Security Scan](security_scan.md)
 * [Port Forwarding](port_forwarding.md)
@@ -83,7 +83,7 @@ Learn how to use our devices and add-on features with our step to step guides.
 * [Admin Access](admin_access.md)
 * [NAT Mode](nat_settings.md)
 
-## Applications
+## Applications {#applications}
 
 * [Plug-ins](plugins.md)
 * [DDNS](ddns.md) - to overcome the issues related to Dynamic IP Addresses.
@@ -96,7 +96,7 @@ Learn how to use our devices and add-on features with our step to step guides.
 * [Tor](tor.md) - to protect the personal privacy.
 * [eSIM Management](esim_management.md)
 
-## System
+## System {#system}
 
 * [Overview](system_overview.md) - displays some hardware status and system info.
 * [Admin password](admin_password.md)

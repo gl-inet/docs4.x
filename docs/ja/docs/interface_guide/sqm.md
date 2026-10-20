@@ -1,4 +1,4 @@
-# SQM (Smart Queue Management)
+# SQM (Smart Queue Management) {#sqm-smart-queue-management}
 
 **注**: この機能はファームウェア v4.9 で導入されました。
 
@@ -56,7 +56,7 @@ SQM (Smart Queue Management) は、ルーターのネットワーク トラフ�
     - GL-AP1300 (Cirrus)
     - GL-S1300 (Convexa-S)
 
-## ファームウェア v4.11 以降の場合
+## ファームウェア v4.11 以降の場合 {#for-firmware-v411-and-above}
 
 スイッチを切り替えて SQM を有効にし、以下の手順に従って構成を完了します。
 
@@ -104,7 +104,7 @@ SQM (Smart Queue Management) は、ルーターのネットワーク トラフ�
 
     - **fq_codel**: 基本的な遅延を削減した、シンプルで効率的な公平なキューイング。
 
-## ファームウェア v4.9 ～ v4.10 の場合
+## ファームウェア v4.9 ～ v4.10 の場合 {#for-firmware-v49-to-v410}
 
 スイッチを切り替えて SQM を有効にし、トラフィック スケジュールの最大アップロード速度とダウンロード速度 （入力範囲：1～10000） を設定します。最良の結果を得るには、実際のインターネット帯域幅に合わせてください。
 

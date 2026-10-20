@@ -1,6 +1,6 @@
-# Przewodnik użytkownika
+# Przewodnik użytkownika {#user-guide}
 
-### Router podróżny
+### Router podróżny {#travel-router}
 
 <div class="gl-product-row">
   <div class="gl-product-row-box">
@@ -70,7 +70,7 @@
   </div>
 </div>
 
-### Router komórkowy
+### Router komórkowy {#cellular-router}
 
 <div class="gl-product-row">
   <div class="gl-product-row-box">
@@ -133,7 +133,7 @@
   </div>
 </div>
 
-### Domowe Wi-Fi
+### Domowe Wi-Fi {#home-router}
 
 <div class="gl-product-row">
   <div class="gl-product-row-box">
@@ -189,7 +189,7 @@
   </div>
 </div>
 
-### Brama bezpieczeństwa i mini routery
+### Brama bezpieczeństwa i mini routery {#security-gateway-mini-routers}
 
 <div class="gl-product-row">
   <div class="gl-product-row-box">
@@ -224,7 +224,7 @@
   </div>
 </div>
 
-### Dongiel USB 4G/5G
+### Dongiel USB 4G/5G {#4g5g-usb-dongle}
 
 <div class="gl-product-row">
   <div class="gl-product-row-box">
@@ -237,7 +237,7 @@
   </div>
 </div>
 
-### Płytka i moduł
+### Płytka i moduł {#board-module}
 
 <div class="gl-product-row">
   <div class="gl-product-row-box">
@@ -250,7 +250,7 @@
   </div>
 </div>
 
-### Brama IoT
+### Brama IoT {#iot-gateway}
 
 <div class="gl-product-row">
   <div class="gl-product-row-box">
@@ -278,7 +278,7 @@
   </div>
 </div>
 
-### Modele starszej generacji
+### Modele starszej generacji {#legacy-models}
 
 <div class="gl-product-row">
   <div class="gl-product-row-box">

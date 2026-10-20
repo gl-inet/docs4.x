@@ -1,12 +1,12 @@
-# Guida utente di Marble (GL-B3000)
+# Guida utente di Marble (GL-B3000) {#marble-gl-b3000-user-guide}
 
-## Panoramica del prodotto
+## Panoramica del prodotto {#product-overview}
 
 Il router Marble (GL-B3000) e un vero oggetto di design, concepito come una cornice fotografica per ospitare la tua opera preferita e valorizzare l'ambiente domestico. Oltre al suo aspetto elegante, Marble (GL-B3000) offre prestazioni di alto livello grazie al supporto Wi-Fi 6 e alle funzionalita VPN.
 
 ![gl-b3000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-b3000/hardware_info/b3000_interface.png){class="glboxshadow"}
 
-## Contenuto della confezione
+## Contenuto della confezione {#package-contents}
 
 - 1 x Marble (GL-B3000)
 - 1 x Manuale utente
@@ -21,7 +21,7 @@ Il router Marble (GL-B3000) e un vero oggetto di design, concepito come una corn
 
 ![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-b3000/first_time_setup/b3000_unboxing.jpg){class="glboxshadow"}
 
-## Come configurare Marble
+## Come configurare Marble {#how-to-set-up-marble}
 
 Guarda questi video di installazione e configurazione oppure segui i passaggi riportati di seguito.
 
@@ -29,11 +29,11 @@ Guarda questi video di installazione e configurazione oppure segui i passaggi ri
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-U2WTVYRkPU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Accendi il router
+### 1. Accendi il router {#1-power-on}
 
 Assembla l'alimentatore in due parti. Collegalo al router e inseriscilo in una presa di corrente. Il router si avviera automaticamente.
 
-### 2. Collega un dispositivo
+### 2. Collega un dispositivo {#2-connect-device}
 
 Collega un dispositivo, ad esempio un computer, un laptop o uno smartphone, al router tramite Wi-Fi o cavo Ethernet.
 
@@ -45,11 +45,11 @@ Collega un dispositivo, ad esempio un computer, un laptop o uno smartphone, al r
 
     Sul dispositivo, vai in Settings -> WLAN, individua il nome della rete Wi-Fi del router nell'elenco delle reti disponibili e inserisci la password. Il nome di rete e la password predefiniti sono stampati sull'etichetta del router.
 
-### 3. Accedi al pannello di amministrazione web
+### 3. Accedi al pannello di amministrazione web {#3-log-in-to-web-admin-panel}
 
 Apri un browser web, inserisci `192.168.8.1` nella barra degli indirizzi ed effettua l'accesso. Scegli la lingua e imposta la password di amministrazione, quindi fai clic su **Apply**.
 
-### 4. Configurazione della connessione Internet
+### 4. Configurazione della connessione Internet {#4-internet-setup}
 
 **Note:** Le istruzioni seguenti si applicano agli utenti che configurano il router tramite il pannello di amministrazione web GL.iNet. Se preferisci usare l'app GL.iNet, [scarica l'app](https://www.gl-inet.com/app/){target="_blank"} e segui le istruzioni mostrate sullo schermo.
 
@@ -79,7 +79,7 @@ Configura Marble usando uno dei metodi di connessione Internet supportati: Ether
 
 ---
 
-## Come configurare una VPN
+## Come configurare una VPN {#how-to-set-up-a-vpn}
 
 Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il dispositivo e il server VPN. Offre un ulteriore livello di privacy e sicurezza come client VPN e consente di accedere a una rete remota come server VPN. Marble, come gli altri router GL.iNet, supporta OpenVPN e WireGuard. Inoltre supporta anche Tor.
 
@@ -105,7 +105,7 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il disp
 
 ---
 
-## Wireless e client
+## Wireless e client {#wireless-and-clients}
 
 === "Wireless"
 
@@ -119,7 +119,7 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il disp
 
     Per configurarla, fai riferimento a [Clients](../../interface_guide/clients.md).
 
-## Servizi cloud
+## Servizi cloud {#cloud-services}
 
 === "GoodCloud"
 
@@ -133,7 +133,7 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il disp
 
     AstroWarp e una piattaforma di rete avanzata progettata per offrire networking remoto senza interruzioni e gestione remota dei dispositivi. Sviluppata specificamente per l'integrazione con i router GL.iNet, AstroWarp supporta una gestione completa dei dispositivi sull'intera rete, consentendo il controllo sia dei dispositivi a monte sia di quelli a valle. Con un focus sulla gestione dell'intera rete e sul futuro supporto al controllo a livello hardware, AstroWarp offre una soluzione piu robusta e affidabile per la gestione dei dispositivi e il mantenimento di reti sicure e stabili.
 
-## Applicazioni
+## Applicazioni {#applications}
 
 === "Plug-ins"
 
@@ -167,7 +167,7 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il disp
 
 ---
 
-## Impostazioni di rete
+## Impostazioni di rete {#network-settings}
 
 === "Firewall"
 
@@ -292,7 +292,7 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il disp
 
 ---
 
-## Impostazioni di sistema
+## Impostazioni di sistema {#system-settings}
 
 === "Overview"
 

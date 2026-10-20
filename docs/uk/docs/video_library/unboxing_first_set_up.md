@@ -202,4 +202,3 @@
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CzhxiAvCIlQ" title="Відео розпакування та налаштування: GL-M2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<span id="slategl-ar750s-ext"></span>

@@ -1,10 +1,10 @@
-# Was tun, wenn der WireGuard-Server nicht ordnungsgemäß funktioniert
+# Was tun, wenn der WireGuard-Server nicht ordnungsgemäß funktioniert {#what-should-i-do-if-the-wireguard-server-is-not-working-properly}
 
 Es gibt mehrere mögliche Ursachen, wenn der WireGuard-Server auf Ihrem GL.iNet-Router nicht ordnungsgemäß funktioniert.
 
 Folgen Sie den folgenden Schritten zur Fehlerbehebung entsprechend Ihrem konkreten Problem.
 
-## Situation 1. Der WireGuard-Server startet, es kann aber keine Verbindung hergestellt werden
+## Situation 1. Der WireGuard-Server startet, es kann aber keine Verbindung hergestellt werden {#situation-1-the-wireguard-server-is-starting-but-cant-be-connected}
 
 
 
@@ -188,7 +188,7 @@ Folgen Sie den folgenden Schritten zur Fehlerbehebung entsprechend Ihrem konkret
 
 
 
-## Situation 2. Der WireGuard-Server zeigt verbundene Clients an, aber der VPN-Client kann nicht auf das Internet zugreifen
+## Situation 2. Der WireGuard-Server zeigt verbundene Clients an, aber der VPN-Client kann nicht auf das Internet zugreifen {#situation-2-the-wireguard-server-shows-connected-client-but-the-vpn-client-cannot-access-the-internet}
 
 
 
@@ -360,7 +360,7 @@ Folgen Sie den folgenden Schritten zur Fehlerbehebung entsprechend Ihrem konkret
 
 
 
-## Situation 3. Der WireGuard-Server läuft, aber der VPN-Client kann keine Verbindung herstellen
+## Situation 3. Der WireGuard-Server läuft, aber der VPN-Client kann keine Verbindung herstellen {#situation-3-the-wireguard-server-is-running-but-vpn-client-cannot-connect-to-it}
 
 
 
@@ -484,7 +484,7 @@ Folgen Sie den folgenden Schritten zur Fehlerbehebung entsprechend Ihrem konkret
 
 
 
-## Situation 4. Der WireGuard-Server ist verbunden, aber die Verbindung ist nicht stabil
+## Situation 4. Der WireGuard-Server ist verbunden, aber die Verbindung ist nicht stabil {#situation-4-the-wireguard-server-is-connected-but-the-connection-is-not-stable}
 
 
 
@@ -544,7 +544,7 @@ Folgen Sie den folgenden Schritten zur Fehlerbehebung entsprechend Ihrem konkret
 
 
 
-## Situation 5. Der WireGuard-Server hat plötzlich aufgehört zu funktionieren
+## Situation 5. Der WireGuard-Server hat plötzlich aufgehört zu funktionieren {#situation-5-the-wireguard-server-suddenly-stopped-working}
 
 
 

@@ -1,4 +1,4 @@
-# Wireless (firmware v4.8 e precedenti)
+# Wireless (firmware v4.8 e precedenti) {#wireless-firmware-v48-and-earlier}
 
 Il contenuto di questa pagina si basa sulla versione firmware v4.8.x e precedenti. Se il dispositivo usa una versione firmware diversa, usa il selettore seguente per passare alla guida corrispondente.
 
@@ -17,7 +17,7 @@ La pagina Wireless consente di configurare reti Wi-Fi separate, incluse 2.4 GHz,
 
 **Nota**: alcuni modelli non supportano il Wi-Fi a 5 GHz, come GL-MT300N-V2 (Mango), GL-X300B (Collie) e GL-XE300 (Puli); alcuni invece non hanno alcuna funzione Wi-Fi, come GL-MT5000 (Brume 3) e GL-MT2500/GL-MT2500A (Brume 2).
 
-## MLO Wi-Fi
+## MLO Wi-Fi {#mlo-wi-fi}
 
 | Modelli supportati              |           |
 | :------------------------------ | :-------: |
@@ -48,7 +48,7 @@ Fai clic sulle schede qui sotto per conoscere le impostazioni di MLO Main Wi-Fi 
 
     ![MLO Guest Wi-Fi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/guest_wifi_mlo.png){class="glboxshadow"}
 
-## Wi-Fi a 6 GHz
+## Wi-Fi a 6 GHz {#6-ghz-wi-fi}
 
 | Modelli supportati              |           |
 | :------------------------------ | :-------: |
@@ -74,7 +74,7 @@ Fai clic sulle schede qui sotto per conoscere le impostazioni di 6 GHz Main Wi-F
 
     ![6G Guest Wi-Fi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/guest_wifi_6g.png){class="glboxshadow"}
 
-## Wi-Fi a 5 GHz
+## Wi-Fi a 5 GHz {#5-ghz-wi-fi}
 
 Fai clic sulle schede qui sotto per conoscere le impostazioni di 5 GHz Main Wi-Fi e 5 GHz Guest Wi-Fi.
 
@@ -90,7 +90,7 @@ Fai clic sulle schede qui sotto per conoscere le impostazioni di 5 GHz Main Wi-F
 
     ![5G Guest Wi-Fi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/guest_wifi_5g.png){class="glboxshadow"}
 
-## Wi-Fi a 2.4 GHz
+## Wi-Fi a 2.4 GHz {#24-ghz-wi-fi}
 
 Fai clic sulle schede qui sotto per conoscere le impostazioni di 2.4 GHz Main Wi-Fi e 2.4 GHz Guest Wi-Fi.
 
@@ -106,7 +106,7 @@ Fai clic sulle schede qui sotto per conoscere le impostazioni di 2.4 GHz Main Wi
 
     ![2.4G Guest Wi-Fi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/guest_wifi_2.4g.png){class="glboxshadow"}
 
-## Impostazioni Wi-Fi generali
+## Impostazioni Wi-Fi generali {#general-wi-fi-settings}
 
 * Passa il cursore sull'icona del QR code accanto all'SSID Wi-Fi per visualizzare il relativo QR code. Puoi scansionarlo con telefono o tablet per connetterti rapidamente alla rete Wi-Fi corrispondente.
 

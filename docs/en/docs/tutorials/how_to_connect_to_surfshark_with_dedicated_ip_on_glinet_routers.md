@@ -1,4 +1,4 @@
-# How to connect to Surfshark with a dedicated IP on GL.iNet routers?
+# How to connect to Surfshark with a dedicated IP on GL.iNet routers? {#how-to-connect-to-surfshark-with-a-dedicated-ip-on-glinet-routers}
 
 This article introduces the steps to set up a Surfshark connection with a dedicated IP on GL.iNet routers.
 

@@ -1,4 +1,4 @@
-# Connettersi a Internet tramite rete cellulare (v4.7 e precedenti)
+# Connettersi a Internet tramite rete cellulare (v4.7 e precedenti) {#connect-to-the-internet-via-cellular-v47-and-earlier}
 
 Il contenuto di questa pagina si basa sulle versioni firmware v4.7 e precedenti. Se il dispositivo usa una versione firmware diversa, usa il selettore seguente per passare alla guida corrispondente.
 
@@ -27,7 +27,7 @@ La maggior parte dei router GL.iNet supporta la connettivita' cellulare. Questa 
 
 **Nota:** alcune SIM richiedono l'attivazione prima del primo utilizzo. Per garantire la compatibilita', attiva la SIM in uno smartphone prima di inserirla nel router.
 
-## Configurazione per modelli single-SIM
+## Configurazione per modelli single-SIM {#setup-for-single-sim-models}
 
 I passaggi seguenti si applicano ai modelli con modem cellulare integrato e uno slot SIM singolo, ad esempio GL-XE300 Puli, oppure con una porta USB per collegare un modem USB esterno, ad esempio GL-AXT1800 Slate AX.
 
@@ -37,7 +37,7 @@ Ti consigliamo di spegnere prima il router. Inserisci una SIM gia' attivata nel 
 
 Se colleghi il modem USB dopo l'avvio del router, il pannello di amministrazione web potrebbe non aggiornarsi automaticamente. In tal caso, aggiorna la pagina o riavvia il router.
 
-### Configurazione automatica
+### Configurazione automatica {#auto-setup}
 
 Accedi al pannello di amministrazione web del router e vai su **INTERNET** -> **Cellular**.
 
@@ -61,7 +61,7 @@ Accedi al pannello di amministrazione web del router e vai su **INTERNET** -> **
 
 Se Auto Setup non riesce, prova [Manual Setup](#manual-setup).
 
-### Configurazione manuale
+### Configurazione manuale {#manual-setup}
 
 Nella sezione Cellular, fai clic su **Manual Setup** per visualizzare o modificare le impostazioni cellulari della SIM attuale.
 
@@ -89,7 +89,7 @@ L'applicazione delle modifiche attivera' una nuova connessione.
 
 - **Authentication**: scegli il metodo di autenticazione richiesto dal tuo operatore, ad esempio NONE, PAP o CHAP. Di solito e' impostato su NONE se non sono necessarie credenziali.
 
-### Modem compatibili
+### Modem compatibili {#compatible-modems}
 
 Ecco un elenco dei modem supportati che sono stati testati in precedenza.
 
@@ -120,7 +120,7 @@ Ecco un elenco dei modem supportati che sono stati testati in precedenza.
 
 - **Host-less**: questo modem supporta la modalita' Tethering. Gestisci la connessione tramite l'interfaccia Tethering del router anziche' tramite l'interfaccia Cellular.
 
-## Configurazione per modelli dual-SIM
+## Configurazione per modelli dual-SIM {#setup-for-dual-sim-models}
 
 I passaggi seguenti si applicano ai modelli con modem cellulare integrato che supporta due SIM. Il pannello di amministrazione web puo' differire leggermente rispetto ai modelli single-SIM.
 
@@ -128,7 +128,7 @@ Qui usiamo **GL-X3000 (Spitz AX)** come esempio. Supporta Dual SIM, Single Stand
 
 Ti consigliamo di spegnere prima il router, inserire le SIM gia' attivate negli slot e poi riaccenderlo. Se inserisci la SIM dopo l'avvio del router, il pannello di amministrazione web potrebbe non aggiornarsi automaticamente. In tal caso, aggiorna la pagina o riavvia il router.
 
-### Configurazione automatica
+### Configurazione automatica {#auto-setup_1}
 
 Accedi al pannello di amministrazione web del router e vai su **INTERNET** -> **Cellular**.
 
@@ -144,7 +144,7 @@ Accedi al pannello di amministrazione web del router e vai su **INTERNET** -> **
 
 Se non si connette automaticamente, fai clic su **Auto Setup** e attendi che il router si connetta, oppure prova **Manual Setup**.
 
-### Configurazione manuale
+### Configurazione manuale {#manual-setup_1}
 
 Nella sezione Cellular, fai clic su **Manual Setup** per accedere a Cellular Settings.
 
@@ -152,7 +152,7 @@ Nella sezione Cellular, fai clic su **Manual Setup** per accedere a Cellular Set
 
 Puoi visualizzare o modificare le impostazioni cellulari della SIM attuale. Inoltre, vengono memorizzati alcuni profili preconfigurati e puoi aggiungere manualmente configurazioni in "Saved Settings".
 
-### Impostazioni dello slot SIM
+### Impostazioni dello slot SIM {#sim-card-slot-settings}
 
 Nella sezione Cellular, fai clic su **Current SIM Card**.
 
@@ -188,7 +188,7 @@ Se sono inserite due SIM, puoi abilitare **Auto Switch**.
 
 **Nota**: la funzione Auto Switch non passa immediatamente a un'altra SIM. Prima, il dispositivo ha bisogno di tempo per confermare che la SIM corrente non puo' accedere a Internet. Inoltre, l'altra SIM non e' in modalita' standby e richiede tempo per attivarsi.
 
-## Statistiche del traffico
+## Statistiche del traffico {#traffic-statistics}
 
 Nella sezione Cellular, fai clic su **Traffic Statistics**.
 
@@ -198,15 +198,15 @@ Entrerai nella pagina Traffic Statistics.
 
 ![traffic statistics](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/dual_sim/traffic_statistics.png){class="glboxshadow gl-90-desktop"}
 
-## SMS
+## SMS {#sms}
 
 Fai riferimento a [SMS](../tutorials/sms.md).
 
-## SMS Forwarding
+## SMS Forwarding {#sms-forwarding}
 
 Fai riferimento a [SMS Forwarding](../tutorials/sms_forwarding.md).
 
-## Gestione modem
+## Gestione modem {#modem-management}
 
 Nella sezione Cellular, fai clic sul pulsante **Tool** nell'angolo superiore destro per accedere alla pagina Modem Management.
 
@@ -238,7 +238,7 @@ Come esempio, qui e' selezionata la scorciatoia "Request IMEI". Fai clic su "Sen
 
 ![shortcut example](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/at_command_3.png){class="glboxshadow"}
 
-## Carrier profile
+## Carrier profile {#carrier-profile}
 
 Puoi salvare profili diversi per lo stesso operatore oppure per operatori diversi.
 
@@ -262,7 +262,7 @@ Scegli i profili necessari.
 
 ![chooseprofile](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/carrier_profile/choose_profile.jpg){class="glboxshadow"}
 
-## Lock Tower
+## Lock Tower {#lock-tower}
 
 Questa funzione è disponibile solo su alcuni modelli, ad esempio GL-X3000, GL-XE3000 e GL-X2000 (firmware v4.7 o successivo).
 
@@ -294,7 +294,7 @@ Lo stato della torre, ad esempio Locked o Unlocked, verra' visualizzato nella pa
 
 3. Dopo aver bloccato una torre cellulare, se sposti il router in un'altra posizione, il router continuera' a tentare di riconnettersi alla torre bloccata dopo il riavvio. Questo potrebbe impedire al router di connettersi automaticamente alla rete cellulare nella nuova posizione. In tal caso, devi sbloccare la torre cellulare corrente oppure bloccarla manualmente su una nuova torre.
 
-## Historical Signal Record
+## Historical Signal Record {#historical-signal-record}
 
 Nella sezione Cellular, fai clic sull'icona **Signal** nell'angolo superiore destro per controllare la cronologia dell'intensita' del segnale.
 
@@ -306,7 +306,7 @@ Puoi visualizzare la cronologia dell'intensita' del segnale cellulare selezionan
 
 ![historical_signal_record1](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/historical_signal_record_2.jpg){class="glboxshadow"}
 
-## Band Masking
+## Band Masking {#band-masking}
 
 Nella sezione Cellular, fai clic su **View More** e seleziona **Cells Info** per controllare i dettagli delle celle.
 
@@ -322,7 +322,7 @@ Fai clic su **Manual Setup** per accedere alla pagina Cellular Settings, quindi 
 
 Seleziona **Masking Mode**, Block o Open, quindi seleziona LTE Bands, 5G NSA Bands e 5G SA Bands.
 
-## Risoluzione dei problemi
+## Risoluzione dei problemi {#troubleshooting}
 
 Se non riesci a stabilire una connessione cellulare, fai clic sul messaggio di errore sotto per visualizzare le relative soluzioni.
 
@@ -364,9 +364,9 @@ Se non riesci a stabilire una connessione cellulare, fai clic sul messaggio di e
 
     Se il problema persiste, scarica i log e inviali a [support@gl-inet.com](mailto:support@gl-inet.com).
 
-## Certificazione IoT
+## Certificazione IoT {#iot-certification}
 
-### Certificazione AT&T
+### Certificazione AT&T {#att-certification}
 
 Fai clic sul link [att device certification](https://iotdevices.att.com/certified-devices.aspx#) e inserisci il nome del dispositivo per trovarlo.
 
@@ -374,7 +374,7 @@ Fai clic sul link [att device certification](https://iotdevices.att.com/certifie
 
 ![bandmasking](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/certification/at&t_certification_2.png){class="glboxshadow"}
 
-### Certificazione T-Mobile
+### Certificazione T-Mobile {#t-mobile-certification}
 
 Fai clic sul link [t-mobile device certification](https://www.t-mobile.com/business/solutions/iot/device-certification){target="_blank"} e scegli 5G in **Filter** per trovarlo.
 

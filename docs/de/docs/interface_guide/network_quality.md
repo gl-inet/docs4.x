@@ -1,4 +1,4 @@
-# Netzwerkqualität
+# Netzwerkqualität {#network-quality}
 
 **Hinweis**: Diese Funktion wurde mit Firmware v4.11 eingeführt.
 
@@ -18,7 +18,7 @@ Auf dieser Seite können Sie Ihre Internetverbindung anhand des Network Quality 
 
 2. Speedtest ist ein lokaler Geschwindigkeitstest auf dem Router und unterliegt den Geschwindigkeitsbegrenzungen von Funktionen wie SQM und QoS.
 
-## Network Quality Score
+## Network Quality Score {#network-quality-score}
 
 Dieser Abschnitt zeigt den allgemeinen Network Quality Score, der aus Response Score und Reliable Score berechnet wird. Sie können jeden Wert separat anzeigen. Das Feld zeigt außerdem zugehörige Messwerte wie Latenz, Jitter und Paketverlust sowie die aktuellen Download- und Upload-Raten in KB/s an. Standardmäßig verwendet das Dashboard `google.com` als Ziel für Internetverbindungs- und DNS-Auflösungstests.
 
@@ -36,7 +36,7 @@ Die konfigurierten Ziele werden für Verbindungs- und DNS-Tests sowie zur Berech
 
 - **DNS Resolution Target**: Die bei DNS-Abfragen aufgelöste Domain. Es werden sowohl A- (IPv4) als auch AAAA-Einträge (IPv6) abgefragt.
 
-## Speedtest
+## Speedtest {#speedtest}
 
 Dieser integrierte Geschwindigkeitstest verwendet Cloudflare Speed Test, um Download- und Upload-Geschwindigkeit, Ping-Latenz und Bufferbloat zu messen. Während des Tests werden Geschwindigkeitsdiagramme in Echtzeit angezeigt.
 

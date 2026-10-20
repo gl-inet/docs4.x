@@ -4,11 +4,11 @@ hide:
   - toc
 ---
 
-# Leitfaden zur Benutzeroberfläche
+# Leitfaden zur Benutzeroberfläche {#interface-guide}
 
 Erfahren Sie in unseren Schritt-für-Schritt-Anleitungen, wie Sie unsere Geräte und Zusatzfunktionen nutzen.
 
-## Internetverbindung
+## Internetverbindung {#internet-connection}
 
 * [Die Internet-Seite](internet.md)
 * [So verbinden Sie sich über ein Ethernet-Kabel mit dem Internet](internet_ethernet.md)
@@ -17,26 +17,26 @@ Erfahren Sie in unseren Schritt-für-Schritt-Anleitungen, wie Sie unsere Geräte
 * [So verbinden Sie sich über Mobilfunk mit dem Internet](internet_cellular_v4.10.md)
 * [Dual-Ethernet WAN](ethernet_port.md#dual-ethernet-wan)
 
-## WLAN
+## WLAN {#wireless}
 
 * [WLAN](wireless.md)
 
-## Mesh
+## Mesh {#mesh}
 
 * [Mesh](mesh.md)
 
-## Clients
+## Clients {#clients}
 
 * [Clients](clients.md)
 
-## Cloud-Dienste
+## Cloud-Dienste {#cloud-services}
 
 * [GL.iNet-Konto](glinet_account.md)
 * [GoodCloud](cloud.md) - der offizielle Cloud-Dienst.
 * [GoodPAS](goodpas.md)
 * [AstroWarp](astrowarp.md)
 
-## VPN
+## VPN {#vpn}
 
 * [VPN Dashboard](vpn_dashboard.md)
 * [VPN-Client-Profil](vpn_client_profile.md)
@@ -54,7 +54,7 @@ Erfahren Sie in unseren Schritt-für-Schritt-Anleitungen, wie Sie unsere Geräte
 * [VPN Kill Switch](../faq/block_non_vpn_traffic.md)
 * [VPN-Kaskadierung](../tutorials/how_to_use_vpn_cascading_on_glinet_routers.md)
 
-## Anwendungen
+## Anwendungen {#applications}
 
 * [Plug-ins](plugins.md)
 * [DDNS](ddns.md) - zur Lösung von Problemen im Zusammenhang mit dynamischen IP-Adressen.
@@ -67,7 +67,7 @@ Erfahren Sie in unseren Schritt-für-Schritt-Anleitungen, wie Sie unsere Geräte
 * [Tor](tor.md) - zum Schutz der Privatsphäre.
 * [eSIM-Verwaltung](esim_management.md)
 
-## Netzwerk
+## Netzwerk {#network}
 
 * [Firewall](firewall.md)
 * [Portweiterleitung](port_forwarding.md)
@@ -87,7 +87,7 @@ Erfahren Sie in unseren Schritt-für-Schritt-Anleitungen, wie Sie unsere Geräte
 * [Netzwerkbeschleunigung](network_acceleration.md)
 * [NAT-Einstellungen](nat_settings.md)
 
-## Flow Control
+## Flow Control {#flow-control}
 
 * [Netzwerkqualität](network_quality.md)
 * [DPI Engine](dpi_engine.md)
@@ -97,7 +97,7 @@ Erfahren Sie in unseren Schritt-für-Schritt-Anleitungen, wie Sie unsere Geräte
 * [SQM (Smart Queue Management)](sqm.md)
 * [Kindersicherung (v4.9)](parental_control_v4.9.md)
 
-## Sicherheit
+## Sicherheit {#security}
 
 * [Sicherheitsprüfung](security_scan.md)
 * [Portweiterleitung](port_forwarding.md)
@@ -105,7 +105,7 @@ Erfahren Sie in unseren Schritt-für-Schritt-Anleitungen, wie Sie unsere Geräte
 * [Admin-Zugriff](admin_access.md)
 * [NAT-Modus](nat_settings.md)
 
-## System
+## System {#system}
 
 * [UI-Sprachen](ui_languages.md)
 * [Systemübersicht](system_overview.md) - zeigt einige Hardware- und Systeminformationen an.

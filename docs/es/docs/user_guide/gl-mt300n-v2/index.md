@@ -1,20 +1,20 @@
-# Guía de usuario de Mango (GL-MT300N-V2)
+# Guía de usuario de Mango (GL-MT300N-V2) {#mango-gl-mt300n-v2-user-guide}
 
-## Descripción general del producto
+## Descripción general del producto {#product-overview}
 
 Mango (GL-MT300N-V2) es un mini router de bolsillo, diseñado para ser portátil y adecuado para viajes, con una velocidad de transmisión inalámbrica de hasta 300 Mbps. Mango ofrece funciones de seguridad avanzadas, incluida compatibilidad con OpenVPN, WireGuard® y un servidor DNS. No solo le permite convertir una red pública en una Wi-Fi privada para navegar de forma segura, sino también cargar archivos de configuración VPN de más de 30 proveedores de servicios VPN y configurarlo como cliente VPN, lo que añade una capa extra de privacidad y seguridad al crear tráfico cifrado entre su dispositivo y el servidor VPN.
 
 ![mt300n-v2 illustration](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt300n-v2/product_info/mt300n_v2_overview.png){class="glboxshadow"}
 
-## Cómo configurar Mango
+## Cómo configurar Mango {#how-to-set-up-mango}
 
 Para configurar Mango, utilizará uno de los cuatro métodos de conexión a Internet compatibles: Ethernet, Repeater, Tethering y Cellular. Siga los pasos indicados a continuación.
 
-### 1. Encendido
+### 1. Encendido {#1-power-on}
 
 Conecte el cable de alimentación Micro USB al puerto de alimentación del router y, a continuación, conecte el otro extremo a un adaptador de corriente de 5 V/2 A (no incluido) y enchúfelo a una toma de corriente.
 
-### 2. Conectar un dispositivo
+### 2. Conectar un dispositivo {#2-connect-device}
 
 Conecte un dispositivo, por ejemplo un ordenador, portátil o smartphone, al router mediante Wi-Fi o Ethernet.
 
@@ -26,13 +26,13 @@ Conecte un dispositivo, por ejemplo un ordenador, portátil o smartphone, al rou
 
   En su dispositivo, vaya a Settings -> WLAN, localice el nombre de la red Wi-Fi del router en la lista de redes disponibles e introduzca la contraseña. Puede encontrar el nombre y la contraseña predeterminados impresos en la etiqueta inferior del router.
 
-### 3. Iniciar sesión en el panel de administración web
+### 3. Iniciar sesión en el panel de administración web {#3-log-in-to-web-admin-panel}
 
 Abra un navegador web, introduzca `192.168.8.1` en la barra de direcciones e inicie sesión. Elija su idioma y establezca la contraseña de administrador; a continuación, haga clic en **Apply**.
 
 Tenga en cuenta que, si cambia la información de Wi‑Fi, deberá volver a conectar su dispositivo al Wi‑Fi del router utilizando las credenciales actualizadas.
 
-### 4. Configuración de Internet
+### 4. Configuración de Internet {#4-internet-setup}
 
 **Nota:** Las siguientes instrucciones se aplican a los usuarios que configuran el router a través del panel de administración web de GL.iNet. Si prefiere usar la aplicación GL.iNet, [descargue la aplicación](https://www.gl-inet.com/app/){target="_blank"} y siga las instrucciones que aparecen en pantalla.
 
@@ -84,7 +84,7 @@ Configure su Mango utilizando uno de los métodos de conexión a Internet compat
 
     Consulte [Connect to the Internet via a USB modem](../../interface_guide/internet_cellular.md) para ver instrucciones detalladas.
 
-## Cómo configurar una VPN
+## Cómo configurar una VPN {#how-to-set-up-a-vpn}
 
 Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositivo y el servidor VPN. Proporciona una capa adicional de privacidad y seguridad, como cliente VPN, y permite acceder a una red remota, como servidor VPN. Mango, al igual que otros routers GL.iNet, es compatible con OpenVPN y WireGuard.
 
@@ -102,7 +102,7 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
     * [Cómo configurar un cliente WireGuard](../../interface_guide/wireguard_client.md)
     * [Cómo configurar un servidor WireGuard](../../interface_guide/wireguard_server.md)
 
-## Aplicaciones
+## Aplicaciones {#applications}
 
 === "Plug-ins"
 
@@ -122,7 +122,7 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 
     Para configurar GoodCloud, consulte [GoodCloud](../../interface_guide/cloud.md).
 
-## Configuración de red
+## Configuración de red {#network-settings}
 
 === "Firewall"
 
@@ -217,7 +217,7 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 
     Para configurar IGMP Snooping, consulte [IGMP Snooping](../../interface_guide/igmp_snooping.md).
 
-## Configuración del sistema
+## Configuración del sistema {#system-settings}
 
 === "Overview"
 

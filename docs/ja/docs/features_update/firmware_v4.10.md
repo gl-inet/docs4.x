@@ -1,22 +1,22 @@
-# ファームウェア v4.10
+# ファームウェア v4.10 {#firmware-v410}
 
 このリリースでは、Mesh、GL.iNetアカウント、ネイティブVLAN対応が導入されました。また、GoodCloudアカウント管理が改善され、全体的な操作性を高める、より使いやすいインターフェースが提供されます。
 
 最新のファームウェアは[ファームウェアダウンロードセンター](https://dl.gl-inet.com/){target="_blank"}から入手できます。
 
-## Mesh
+## Mesh {#mesh}
 
 [Mesh](../interface_guide/mesh.md)は、Wi-Fi EasyMesh™規格に基づき、家全体のWi-Fiカバレッジを拡張してシームレスローミングを実現する機能です。複数のGL.iNetルーターがある場合は、1台をメインルーター、残りをメッシュノードに設定すると、家の中を移動してもWi-Fiをシームレスに利用できます。
 
 ![mesh](https://static.gl-inet.com/docs/router/en/4/features_update/4.10/mesh.png){class="glboxshadow"}
 
-## GL.iNetアカウント
+## GL.iNetアカウント {#glinet-account}
 
 [GL.iNetアカウント](../interface_guide/glinet_account.md)には、デバイスの接続や管理、クラウドサービスへのアクセスを一元的に行うページがあります。1つのGL.iNetアカウントでGoodCloudとGL.iNetアプリを利用でき、ネットワークとデバイスをより簡単に管理できます。また、GoodPASページ（v4.10のGL-MG1300以外のモデルではAstroWarpという名称）へすばやくアクセスし、旅行用ルーターと自宅ネットワークの間に安全な接続を確立できます。
 
 ![gl.inet account](https://static.gl-inet.com/docs/router/en/4/features_update/4.10/account.png){class="glboxshadow"}
 
-## GoodCloud
+## GoodCloud {#goodcloud}
 
 [GoodCloud](../interface_guide/cloud.md)は、GL.iNetルーターをリモートで展開・管理するためのクラウドプラットフォームです。複数拠点のデバイスを一元管理し、設定やファームウェア更新を一括で行えます。また、Web管理画面へのリモートアクセスや、SSHによるデバイス端末へのアクセスにも対応しています。
 
@@ -24,7 +24,7 @@
 
 ![goodcloud](https://static.gl-inet.com/docs/router/en/4/features_update/4.10/goodcloud.png){class="glboxshadow"}
 
-## サブネット
+## サブネット {#subnet}
 
 [サブネット](../interface_guide/subnet.md)ページでは、LAN、ゲストネットワーク、IoTネットワーク、カスタムVLANネットワークの設定を1つの画面にまとめています。サブネット関連の設定を一元管理でき、複数のサブネットを作成・管理して、種類の異なるデバイスやトラフィックを分離できます。
 
@@ -32,7 +32,7 @@
 
 ![subnet](https://static.gl-inet.com/docs/router/en/4/features_update/4.10/subnet.png){class="glboxshadow"}
 
-## Ethernet Port
+## Ethernet Port {#ethernet-port}
 
 [Ethernet Port](../interface_guide/ethernet_port_v4.10.md)ページには、ルーターのすべてのEthernetインターフェースが表示されます。接続状態の確認、WANとLAN間でのポートの役割の切り替え、MACアドレス、ネゴシエート速度、リンク状態などの詳細確認が可能です。また、作成した任意のサブネットに物理インターフェースを割り当てられるため、VLAN（Virtual Local Area Network）の設定に適しています。
 

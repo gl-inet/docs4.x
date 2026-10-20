@@ -1,6 +1,6 @@
-# Guide d'utilisation du GL-M2
+# Guide d'utilisation du GL-M2 {#gl-m2-user-guide}
 
-## Informations matérielles
+## Informations matérielles {#hardware-info}
 
 Le GL-M2 est une carte de développement 5G destinée aux passionnés de DIY qui souhaitent créer leurs propres routeurs et modems. Grâce à son module 5G et à ses antennes 5G, il fournit une connexion cellulaire 5G de qualité.
 
@@ -8,7 +8,7 @@ Le GL-M2 est une carte de développement 5G destinée aux passionnés de DIY qui
 
 [Spécifications du GL-M2](https://www.gl-inet.com/products/gl-m2/#specs){target="_blank"}
 
-## Contenu du colis
+## Contenu du colis {#package-contents}
 
 ![gl-m2 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-m2/first_time_setup/m2_unboxing.jpg){class="glboxshadow"}
 
@@ -23,7 +23,7 @@ Le colis comprend :
 - 1 x module 5G (en option)
 - 1 x câble Type-C
 
-## Configuration initiale
+## Configuration initiale {#first-time-setup}
 
 Regardez cette vidéo ou suivez les étapes ci-dessous.
 
@@ -41,7 +41,7 @@ Regardez cette vidéo ou suivez les étapes ci-dessous.
 
 3. Mettez l'appareil sous tension.
 
-    Branchez-le à une alimentation DC et utilisez un câble de données Type-C vers USB 3.0 pour [vous connecter au routeur](#connect-gl-m2-to-glinet-routers) ou à un autre appareil.
+    Branchez-le à une alimentation DC et utilisez un câble de données Type-C vers USB 3.0 pour [vous connecter au routeur](#connect-m2-to-glinet-routers) ou à un autre appareil.
 
     ![gl-m2 setup](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-m2/first_time_setup/m2_setup_3.jpg){class="glboxshadow"}
 
@@ -51,7 +51,7 @@ Regardez cette vidéo ou suivez les étapes ci-dessous.
 
   - Lorsque le voyant d'alimentation est rouge, cela indique que l'alimentation fonctionne correctement.
 
-## Connecter le M2 aux routeurs GL.iNet {#connect-gl-m2-to-glinet-routers}
+## Connecter le M2 aux routeurs GL.iNet {#connect-m2-to-glinet-routers}
 
 Le GL-M2 (avec le module 5G RM520N-GL installé) est compatible avec les modèles suivants :
 

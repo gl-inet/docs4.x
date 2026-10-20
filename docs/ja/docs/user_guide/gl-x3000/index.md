@@ -1,12 +1,12 @@
-# Spitz AX (GL-X3000) ユーザーガイド
+# Spitz AX (GL-X3000) ユーザーガイド {#spitz-ax-gl-x3000-user-guide}
 
-## 製品概要
+## 製品概要 {#product-overview}
 
 Spitz AX (GL-X3000) は、遠隔地や移動中でも高速で安定した接続を提供するために設計された、デュアル SIM 対応の Wi-Fi 6 セルラーゲートウェイです。Cellular（SIM カード）、Ethernet、Repeater、Tethering の 4 種類のインターネット接続方式に対応しています。また、Multi-WAN（フェイルオーバーとロードバランシング）、VPN（OpenVPN と WireGuard）、ペアレンタルコントロール、AdGuard Home、ポートフォワーディング、Tailscale などにも対応しています。
 
 ![x3000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x3000/hardware_info/gl-x3000_interface.jpg){class="glboxshadow"}
 
-## パッケージ内容
+## パッケージ内容 {#package-contents}
 
 - 1 x Spitz AX (GL-X3000)
 - 1 x ユーザーマニュアル
@@ -18,7 +18,7 @@ Spitz AX (GL-X3000) は、遠隔地や移動中でも高速で安定した接続
 
 ![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x3000/first_time_setup/x3000_unboxing.jpg){class="glboxshadow"}
 
-## LED インジケーター
+## LED インジケーター {#led-indicators}
 
 以下に、各イベントでのLEDの状態を示します。各LEDのすべての状態については、[GL-X3000 LEDインジケーターの状態](../../faq/led.md#gl-x3000){target="_blank"}を参照してください。
 
@@ -33,7 +33,7 @@ Spitz AX (GL-X3000) は、遠隔地や移動中でも高速で安定した接続
 
 **ヒント**: インターネットに接続している状態で 2.4GHz または 5GHz LED が点滅している場合、Wi-Fi デバイスが接続され、データ通信を行っています。
 
-## Spitz AX のセットアップ方法
+## Spitz AX のセットアップ方法 {#how-to-set-up-spitz-ax}
 
 以下のセットアップ動画を見るか、下の手順に従ってください。
 
@@ -47,11 +47,11 @@ Spitz AX (GL-X3000) は、遠隔地や移動中でも高速で安定した接続
     2. ルーターの電源をオフにします。
     3. SIM カードを SIM カードスロットに挿入します。（**Note:** 同時に有効になる SIM カードは 1 枚のみです。もう一方の SIM カードはバックアップとしてのみ機能します。）
 
-### 1. 電源を入れる
+### 1. 電源を入れる {#1-power-on}
 
 2 ピース式の電源アダプターを組み立てます。ルーターに接続し、コンセントに差し込むと自動的に起動します。
 
-### 2. デバイスを接続する
+### 2. デバイスを接続する {#2-connect-device}
 
 コンピューター、ノートパソコン、スマートフォンなどのデバイスを Wi-Fi または Ethernet でルーターに接続します。
 
@@ -63,13 +63,13 @@ Spitz AX (GL-X3000) は、遠隔地や移動中でも高速で安定した接続
 
     デバイスで Settings -> WLAN に移動し、利用可能なネットワーク一覧からルーターの Wi-Fi ネットワーク名を探してパスワードを入力します。デフォルトのネットワーク名とパスワードは、ルーターのラベルに印刷されています。
 
-### 3. Web Admin Panel にログインする
+### 3. Web Admin Panel にログインする {#3-log-in-to-web-admin-panel}
 
 Web ブラウザを開き、アドレスバーに `192.168.8.1` と入力してログインします。言語を選択し、管理者パスワードを設定して **Apply** をクリックします。
 
 Wi-Fi 情報を確認する際、Wi-Fi 情報を変更した場合は、更新後の認証情報を使用してデバイスをルーターの Wi-Fi に再接続する必要があります。
 
-### 4. インターネット設定
+### 4. インターネット設定 {#4-internet-setup}
 
 **Note:** 以下の手順は、GL.iNet Web Admin Panel でルーターを設定するユーザー向けです。GL.iNet アプリを使用する場合は、[アプリをダウンロード](https://www.gl-inet.com/app/){target="_blank"}し、画面の指示に従ってください。
 
@@ -123,7 +123,7 @@ Spitz AX は、Cellular、Ethernet、Repeater、Tethering の対応するイン�
 
     詳細な手順については、[USB テザリング経由でインターネットに接続する](../../interface_guide/internet_tethering.md)を参照してください。
 
-## VPN のセットアップ方法
+## VPN のセットアップ方法 {#how-to-set-up-a-vpn}
 
 VPN（仮想プライベートネットワーク）は、デバイスと VPN サーバー間に安全で暗号化された通信を作成します。プライバシーとセキュリティを強化し（VPN クライアント）、リモートネットワークへのアクセス（VPN サーバー）も可能にします。Spitz AX（およびその他の GL.iNet ルーター）は OpenVPN と WireGuard に対応しています。さらに Tor にも対応しています。
 
@@ -147,7 +147,7 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
     
     * [Tor の設定方法](../../interface_guide/tor.md)。
 
-## Wireless と Clients
+## Wireless と Clients {#wireless-and-clients}
 
 === "Wireless"
 
@@ -161,7 +161,7 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
     Clients の設定については、[Clients](../../interface_guide/clients.md)を参照してください。
 
-## クラウドサービス
+## クラウドサービス {#cloud-services}
 
 === "GoodCloud"
 
@@ -175,7 +175,7 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
     
     AstroWarp の設定については、[AstroWarp](../../interface_guide/astrowarp.md)を参照してください。
 
-## アプリケーション
+## アプリケーション {#applications}
 
 === "Plug-ins"
 
@@ -229,7 +229,7 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/hyHh8pAxgVw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## ネットワーク設定
+## ネットワーク設定 {#network-settings}
 
 === "Port forwarding"
 
@@ -307,7 +307,7 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
     NAT settings の設定については、[NAT Settings](../../interface_guide/nat_settings.md)を参照してください。
 
-## システム設定
+## システム設定 {#system-settings}
 
 === "Overview"
 

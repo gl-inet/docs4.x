@@ -1,4 +1,4 @@
-# IGMP Snooping
+# IGMP Snooping {#igmp-snooping}
 
 Dans le panneau d'administration web, accédez à **NETWORK** -> **IGMP Snooping**.
 

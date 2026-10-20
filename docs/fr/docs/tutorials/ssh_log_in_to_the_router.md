@@ -1,14 +1,14 @@
-# Connexion SSH au routeur
+# Connexion SSH au routeur {#ssh-log-in-to-the-router}
 
 Secure Shell (SSH) est un protocole réseau cryptographique permettant d’exploiter des services réseau de manière sécurisée sur un réseau non sécurisé. Son application la plus connue est la connexion à distance aux systèmes informatiques. Il peut parfois être nécessaire de disposer d’outils de base pour se connecter à un serveur en SSH. Ce guide explique comment se connecter en SSH aux routeurs GL.iNet.
 
 ---
 
-## Pour les utilisateurs Windows
+## Pour les utilisateurs Windows {#for-windows-user}
 
 Il existe plusieurs façons d’accéder au terminal du routeur sous Windows, notamment via Windows Cmd, PowerShell, Bitvise ou PuTTY.
 
-### Utilisation de Windows Cmd
+### Utilisation de Windows Cmd {#using-windows-cmd}
 
 1. Ouvrez l’invite de commandes
 
@@ -46,7 +46,7 @@ Il existe plusieurs façons d’accéder au terminal du routeur sous Windows, no
 
         Assurez-vous de saisir le bon mot de passe administrateur. Si vous l’avez oublié, réinitialisez le routeur en maintenant le bouton RESET enfoncé pendant 10 secondes.
 
-### Utilisation de PowerShell
+### Utilisation de PowerShell {#using-powershell}
 
 1. Ouvrez Windows PowerShell
 
@@ -102,13 +102,13 @@ Il existe plusieurs façons d’accéder au terminal du routeur sous Windows, no
         
         ``ssh -p [nouveau numéro de port] [nom d'utilisateur]@[adresse IP du routeur]``
 
-### Utilisation de Bitvise
+### Utilisation de Bitvise {#using-bitvise}
 
 Regardez cette vidéo pour vous connecter à votre routeur via Bitvise.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7yVd5UkKJ74" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Utilisation de PuTTY
+### Utilisation de PuTTY {#using-putty}
 
 1. Téléchargez PuTTY
 
@@ -156,11 +156,11 @@ Regardez cette vidéo pour vous connecter à votre routeur via Bitvise.
 
 ---
 
-## Pour les utilisateurs Linux/Mac
+## Pour les utilisateurs Linux/Mac {#for-linuxmac-user}
 
 La procédure est globalement la même sous Linux et macOS. Nous utilisons ci-dessous Ubuntu comme exemple.
 
-### Utilisation d’Ubuntu
+### Utilisation d’Ubuntu {#using-ubuntu}
 
 1. Lancez le terminal.
 

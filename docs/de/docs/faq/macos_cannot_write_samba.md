@@ -1,4 +1,4 @@
-# macOS kann nicht auf eine Samba-Freigabe schreiben
+# macOS kann nicht auf eine Samba-Freigabe schreiben {#macos-cannot-write-to-a-samba-share}
 
 Wenn Sie ein mit exFAT formatiertes Speichergerät für eine Samba-Freigabe verwenden, können auf einigen macOS-Geräten beim Versuch, Dateien in die Freigabe zu schreiben, eine der folgenden Fehlermeldungen auftreten.
 

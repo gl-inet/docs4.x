@@ -1,4 +1,4 @@
-# ファームウェア4.xにアップグレードする方法は？
+# ファームウェア4.xにアップグレードする方法は？ {#how-to-upgrade-to-firmware-4x}
 
 **このドキュメントは古く、メンテナンスされていません。最新のアップグレードガイドは[こちら](../interface_guide/upgrade.md)をクリックしてください。**
 
@@ -12,7 +12,7 @@ GL-B1300およびGL-S1300は、ファームウェアv4.xではメッシュ機能
 
 ---
 
-## 方法1. ローカルアップグレード
+## 方法1. ローカルアップグレード {#method-1-local-upgrade}
 
 Web管理パネルからファームウェアをアップグレードできます。
 
@@ -26,7 +26,7 @@ Web管理パネルからファームウェアをアップグレードできま�
 
     ![local upgrade](https://static.gl-inet.com/docs/router/en/4/faq/upgrade_to_4/ax1800_upgrade_4.png){class="glboxshadow gl-90-desktop"}
 
-## 方法2. U-Bootアップグレード
+## 方法2. U-Bootアップグレード {#method-2-u-boot-upgrade}
 
 1. 4.xファームウェアを[ここから](https://dl.gl-inet.com){target="_blank"}ダウンロードします。**U-Boot用のもの**をダウンロードしてください。
 

@@ -1,10 +1,10 @@
-# GL.iNetルーターでeSIM Physical Cardを使用する方法
+# GL.iNetルーターでeSIM Physical Cardを使用する方法 {#how-to-use-the-esim-physical-card-with-glinet-routers}
 
 このガイドでは、GL.iNetオンラインストアで購入したeSIM Physical CardをGL.iNetルーターで使用する方法を紹介します。
 
 ![eSIM Physical Card](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/simpoyo-esim-physical-card.png){class="glboxshadow"}
 
-## 特長
+## 特長 {#features}
 
 eSIM Physical Cardの主な特長は以下のとおりです。
 
@@ -16,7 +16,7 @@ eSIM Physical Cardの主な特長は以下のとおりです。
 - シードプロファイルが付属し、アクティベーション日から1年間有効な米国およびヨーロッパ向け1GBの無料データと、100MBのグローバルデータが含まれます。
 - 一部のGL.iNetデバイスに対応しています。
 
-## 対応モデル
+## 対応モデル {#supported-models}
 
 !!! note "対応モデル"
 
@@ -43,7 +43,7 @@ eSIM Physical Cardの主な特長は以下のとおりです。
 
     3. **GL-E5800 (Mudi 7)** には eSIM が内蔵されています。そのため、Mudi 7 では物理 eSIM カードが eSIM 機能のない通常の SIM カードとして認識されます。
 
-## eSIM Physical Cardを設定する
+## eSIM Physical Cardを設定する {#set-up-esim-physical-card}
 
 初めてeSIM Physical Cardを使用する場合は、この設定動画を見るか、以下の手順に従ってGL.iNetルーターで設定してください。
 
@@ -73,7 +73,7 @@ eSIM Physical Cardの主な特長は以下のとおりです。
 
 ![initial setup connected](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/initial-setup-connected.jpg){class="glboxshadow"}
 
-## eSIMプロファイルを管理する
+## eSIMプロファイルを管理する {#manage-your-esim-profile}
 
 **Step 1:** GL.iNetデバイスに最新のファームウェアがインストールされていることを確認します。
 

@@ -1,4 +1,4 @@
-# Port Forwarding
+# Port Forwarding {#port-forwarding}
 
 > Ce guide s’applique aux firmwares v4.6 et versions ultérieures. Pour les versions antérieures, veuillez consulter [Firewall](firewall.md).
 
@@ -8,7 +8,7 @@ Cette page vous permet de configurer des règles de pare-feu, notamment la DMZ e
 
 Remarque : pour ouvrir les ports du routeur, allez dans SYSTEM -> [Security](security.md) ou SECURITY -> [Admin Access](admin_access.md) (pour les firmwares v4.9 et versions ultérieures).
 
-## DMZ
+## DMZ {#dmz}
 
 La DMZ permet d’exposer un ordinateur à Internet ; tous les paquets entrants seront alors redirigés vers cet ordinateur.
 
@@ -18,7 +18,7 @@ Vous pouvez définir la priorité de la DMZ. Si la priorité de la DMZ est supé
 
 ![dmz](https://static.gl-inet.com/docs/router/en/4/interface_guide/port_forwarding/dmz.png){class="glboxshadow"}
 
-## Port Forwarding
+## Port Forwarding {#port-forwarding_1}
 
 Le **Port Forwarding** permet aux ordinateurs distants de se connecter à un ordinateur local ou à un serveur situé derrière le pare-feu du routeur sur le LAN (par exemple des serveurs web, des serveurs FTP, etc.).
 

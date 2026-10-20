@@ -1,4 +1,4 @@
-# ファームウェアのリセット
+# ファームウェアのリセット {#reset-firmware}
 
 Web管理パネルの左側で、**SYSTEM** -> **Reset Firmware** に移動します。
 

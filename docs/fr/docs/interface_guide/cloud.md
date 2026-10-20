@@ -1,4 +1,4 @@
-# GL.iNet GoodCloud
+# GL.iNet GoodCloud {#glinet-goodcloud}
 
 ## Présentation {#introduction}
 

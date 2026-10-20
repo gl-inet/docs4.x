@@ -1,4 +1,4 @@
-# USBモデムがGL.iNetルーターで正常に動作しません
+# USBモデムがGL.iNetルーターで正常に動作しません {#usb-modem-is-not-working-properly-on-glinet-router}
 
 一部のGL.iNetルーターにはUSBポートがあり、USBモデムをUSBポートに挿入してインターネットアクセスを設定したり、他のインターネットアクセスと組み合わせることでマルチWANシナリオを実現したりできます。
 

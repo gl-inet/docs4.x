@@ -16,8 +16,15 @@ This repository contains GL.iNet router documentation built with MkDocs. These r
 - Keep headings, callouts, numbered steps, bullet lists, tables, image references, links, and separators coherent with nearby pages.
 - Preserve admonition blocks such as `!!! Note` and keep their content complete.
 - Keep image URLs and relative links unchanged unless the target file or path intentionally changes.
-- Preserve explicit custom heading anchors and hash IDs exactly as written, such as `{#example-anchor}` or `{custom-anchor}`.
-- After changing headings, check same-page and cross-page anchor links when practical.
+
+## Heading IDs and Anchor Links
+
+- Every Markdown heading in every language, including English, carries an explicit ID, for example `## Port Forwards {#port-forwards}`. Always include the `#`; `{port-forwards}` without `#` does not set an ID.
+- English is the source of heading IDs. A localized heading uses the same ID as the matching English heading: translate the heading text, never the ID.
+- IDs are lowercase ASCII kebab-case and unique within the page. For a new heading, derive the ID from the English heading text. For a heading that exists only in a localized page, derive the ID from an English rendering of that heading.
+- Do not change an existing ID when heading wording changes, because links and bookmarks depend on it. If an ID must change, update it in every language and update every link that uses it.
+- Anchor links use the shared ID in every language, for example `[Tunnel-Optionen](vpn_dashboard.md#tunnel-options)`. Do not add `<a id>` or `<span id>` placeholders for headings.
+- After adding or editing headings or anchor links, run `python scripts/anchors.py check`.
 
 ## UI Labels and Navigation
 

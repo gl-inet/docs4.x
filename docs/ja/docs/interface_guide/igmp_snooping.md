@@ -1,4 +1,4 @@
-# IGMPスヌーピング
+# IGMPスヌーピング {#igmp-snooping}
 
 Web Admin Panel の左側で、**NETWORK** -> **IGMP Snooping** に移動します。
 

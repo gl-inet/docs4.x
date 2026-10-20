@@ -1,12 +1,12 @@
-# Guide d'utilisation de Spitz AX (GL-X3000)
+# Guide d'utilisation de Spitz AX (GL-X3000) {#spitz-ax-gl-x3000-user-guide}
 
-## Aperçu du produit
+## Aperçu du produit {#product-overview}
 
 Spitz AX (GL-X3000) est une passerelle cellulaire Wi‑Fi 6 double SIM conçue pour fournir des connexions rapides et fiables, en particulier dans les zones éloignées et lors des déplacements sur la route. Elle propose quatre méthodes d'accès à Internet : Cellular (cartes SIM), Ethernet, Repeater et Tethering. Elle prend en charge le Multi-WAN (conmutation par erreur et équilibrage de charge), les VPN (OpenVPN et WireGuard), le contrôle parental, AdGuard Home, la redirection de ports, Tailscale et bien plus encore.
 
 ![x3000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x3000/hardware_info/gl-x3000_interface.jpg){class="glboxshadow"}
 
-## Contenu du colis
+## Contenu du colis {#package-contents}
 
 - 1 x Spitz AX (GL-X3000)
 - 1 x Manuel d'utilisation
@@ -18,7 +18,7 @@ Spitz AX (GL-X3000) est une passerelle cellulaire Wi‑Fi 6 double SIM conçue p
 
 ![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x3000/first_time_setup/x3000_unboxing.jpg){class="glboxshadow"}
 
-## Indicateurs LED
+## Indicateurs LED {#led-indicators}
 
 Les états des LED lors de différents événements sont décrits ci-dessous. Pour consulter tous les états de chaque LED, reportez-vous à [État des indicateurs LED du GL-X3000](../../faq/led.md#gl-x3000){target="_blank"}.
 
@@ -33,7 +33,7 @@ Les états des LED lors de différents événements sont décrits ci-dessous. Po
 
 **Conseil :** lorsqu'il est connecté à Internet, un voyant LED 2,4 GHz ou 5 GHz clignotant signifie que des appareils Wi‑Fi sont connectés et transmettent activement des données.
 
-## Comment configurer Spitz AX
+## Comment configurer Spitz AX {#how-to-set-up-spitz-ax}
 
 Regardez cette vidéo de configuration ou suivez les étapes ci-dessous. 
 
@@ -47,11 +47,11 @@ Regardez cette vidéo de configuration ou suivez les étapes ci-dessous.
     2. Éteignez votre routeur.
     3. Insérez la ou les cartes SIM dans les emplacements SIM. (**Remarque :** une seule carte SIM est active à la fois. L'autre sert uniquement de secours.)
 
-### 1. Mise sous tension
+### 1. Mise sous tension {#1-power-on}
 
 Assemblez les deux parties de l'adaptateur secteur. Branchez-le à votre routeur puis sur une prise électrique. Il démarre automatiquement.
 
-### 2. Connecter un appareil
+### 2. Connecter un appareil {#2-connect-device}
 
 Connectez un appareil (par exemple un ordinateur, un ordinateur portable ou un smartphone) au routeur via Wi‑Fi ou Ethernet.
 
@@ -63,13 +63,13 @@ Connectez un appareil (par exemple un ordinateur, un ordinateur portable ou un s
 
     Sur votre appareil, accédez à Paramètres -> WLAN, repérez le nom du réseau Wi‑Fi de votre routeur dans la liste des réseaux disponibles et saisissez le mot de passe. Le nom du réseau et le mot de passe par défaut sont imprimés sur l'étiquette du routeur.
 
-### 3. Se connecter au panneau d'administration web
+### 3. Se connecter au panneau d'administration web {#3-log-in-to-web-admin-panel}
 
 Ouvrez un navigateur web, saisissez `192.168.8.1` dans la barre d'adresse et connectez-vous. Choisissez votre langue et définissez votre mot de passe administrateur, puis cliquez sur **Apply**. 
 
 Lors de la confirmation des paramètres Wi‑Fi, veuillez noter que si vous modifiez les informations Wi‑Fi, vous devrez reconnecter votre appareil au Wi‑Fi du routeur avec les nouveaux identifiants.
 
-### 4. Configuration de la connexion Internet
+### 4. Configuration de la connexion Internet {#4-internet-setup}
 
 **Remarque :** les instructions suivantes s'appliquent aux utilisateurs qui configurent le routeur via le panneau d'administration web GL.iNet. Si vous préférez utiliser l'application GL.iNet, [téléchargez l'application](https://www.gl-inet.com/app/){target="_blank"} et suivez les instructions à l'écran.
 
@@ -123,7 +123,7 @@ Configurez votre Spitz AX en utilisant l'une des méthodes de connexion Internet
 
     Veuillez consulter [Connexion à Internet via le partage de connexion USB](../../interface_guide/internet_tethering.md) pour des instructions détaillées.
 
-## Comment configurer un VPN 
+## Comment configurer un VPN {#how-to-set-up-a-vpn}
 
 Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre votre appareil et le serveur VPN. Il ajoute une couche supplémentaire de confidentialité et de sécurité (client VPN) et vous permet d'accéder à un réseau distant (serveur VPN). Spitz AX (comme les autres routeurs GL.iNet) prend en charge OpenVPN et WireGuard. Il prend également en charge Tor.
 
@@ -147,7 +147,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
     
     * [Comment configurer Tor](../../interface_guide/tor.md).
 
-## Réseau sans fil et clients
+## Réseau sans fil et clients {#wireless-and-clients}
 
 === "Réseau sans fil"
 
@@ -161,7 +161,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     Pour configurer les clients, consultez [Clients](../../interface_guide/clients.md).
 
-## Services Cloud
+## Services Cloud {#cloud-services}
 
 === "GoodCloud"
 
@@ -175,7 +175,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
     
     Pour configurer AstroWarp, consultez [AstroWarp](../../interface_guide/astrowarp.md).
 
-## Applications
+## Applications {#applications}
 
 === "Plug-ins"
 
@@ -229,7 +229,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/hyHh8pAxgVw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Paramètres réseau
+## Paramètres réseau {#network-settings}
 
 === "Redirection de ports"
 
@@ -307,7 +307,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     Pour configurer les paramètres NAT, consultez [Paramètres NAT](../../interface_guide/nat_settings.md).
 
-## Paramètres système
+## Paramètres système {#system-settings}
 
 === "Aperçu"
 
@@ -399,6 +399,6 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     Veuillez consulter [Paramètres avancés](../../interface_guide/advanced_settings.md) pour des instructions détaillées.
 
-## Déclaration UE de conformité
+## Déclaration UE de conformité {#declaration-of-conformity}
 
 Par la présente, GL TECHNOLOGIES (HONG KONG) LIMITED déclare que l'équipement radio de type [Routeur Wi-Fi 6 5G NR, GL-X3000NR / Routeur Wi-Fi 6 4G LTE, GL-X3000C16] est conforme aux exigences essentielles et aux autres dispositions pertinentes de la directive 2014/53/UE. Le texte intégral de la déclaration UE de conformité est disponible à l'adresse internet suivante: [https://www.gl-inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}.

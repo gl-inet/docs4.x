@@ -1,4 +1,4 @@
-# Einen GL.iNet-Router mit öffentlichen Hotspots über ein Captive Portal verbinden
+# Einen GL.iNet-Router mit öffentlichen Hotspots über ein Captive Portal verbinden {#connect-a-glinet-router-to-public-hotspots-with-a-captive-portal}
 
 
 
@@ -6,7 +6,7 @@
 
 
 
-## Was ist ein Captive Portal?
+## Was ist ein Captive Portal? {#what-is-a-captive-portal}
 
 
 
@@ -22,7 +22,7 @@ Ein Captive Portal ist eine Webseite, bei der öffentliche Hotspots verlangen, d
 
 
 
-## Warum einen Router für öffentliche Hotspots verwenden?
+## Warum einen Router für öffentliche Hotspots verwenden? {#why-use-a-router-for-public-hotspots}
 
 
 
@@ -62,7 +62,7 @@ Ein Captive Portal ist eine Webseite, bei der öffentliche Hotspots verlangen, d
 
 
 
-## Wie verbindet man einen Router mit öffentlichen Hotspots über ein Captive Portal?
+## Wie verbindet man einen Router mit öffentlichen Hotspots über ein Captive Portal? {#how-to-connect-router-to-public-hotspots-with-captive-portal}
 
 
 
@@ -134,7 +134,7 @@ Sehen Sie sich dieses Video an oder folgen Sie den untenstehenden Schritten.
 
 
 
-## Fehlerbehebung
+## Fehlerbehebung {#troubleshooting}
 
 
 
@@ -150,7 +150,7 @@ Wenn Sie das Captive Portal nicht aufrufen können, hat Ihr Router möglicherwei
 
 
 
-### Methode 1: Public Hotspot Login Mode & Camouflage aktivieren
+### Methode 1: Public Hotspot Login Mode & Camouflage aktivieren {#method-1-enable-public-hotspot-login-mode-camouflage}
 
 
 
@@ -222,7 +222,7 @@ Wenn Sie den Router mit einem öffentlichen Hotspot verbinden, kann das Aktivier
 
 
 
-### Methode 2: Router-Einstellungen ändern
+### Methode 2: Router-Einstellungen ändern {#method-2-change-router-settings}
 
 
 
@@ -334,7 +334,7 @@ Wenn Sie den Router mit einem öffentlichen Hotspot verbinden, kann das Aktivier
 
 
 
-### Methode 3：MAC Clone
+### Methode 3：MAC Clone {#method-3mac-clone}
 
 
 
@@ -462,7 +462,7 @@ Einige Hotels begrenzen die Anzahl der Geräte, die jeder Gast mit dem Hotel-Wi-
 
 
 
-### Methode 4：Bitten Sie das Hotelpersonal um Hilfe
+### Methode 4：Bitten Sie das Hotelpersonal um Hilfe {#method-4seek-help-from-hotel-staff}
 
 
 

@@ -1,4 +1,4 @@
-# How to set up and use Spitz AX (GL-X3000) in your recreational vehicle
+# How to set up and use Spitz AX (GL-X3000) in your recreational vehicle {#how-to-set-up-and-use-spitz-ax-gl-x3000-in-your-recreational-vehicle}
 
 This guide shows you how to set up and use Spitz AX in your recreational vehicle. Before you start, you will or may need to prepare the following additional equipment and services: 
 
@@ -8,11 +8,11 @@ This guide shows you how to set up and use Spitz AX in your recreational vehicle
 
 ---
 
-## 1. Install your Spitz AX and other equipment
+## 1. Install your Spitz AX and other equipment {#1-install-your-spitz-ax-and-other-equipment}
 
 Before starting your journey, set up your Spitz AX by following these steps.
 
-### Step 1: Choose a location for your Spitz AX 
+### Step 1: Choose a location for your Spitz AX {#step-1-choose-a-location-for-your-spitz-ax}
 
 You are recommended to choose a central and unobstructed location for maximum coverage. Ensure the location is within 1 meter from the power source, which is the length of the power adapter cable. 
 
@@ -20,7 +20,7 @@ You are recommended to choose a central and unobstructed location for maximum co
 
 You can place your Spitz AX on a flat surface or mount it to the wall. If you choose to mount it on the wall, follow the next step. 
 
-### (Optional) Step 2: Install your Spitz AX on the wall 
+### (Optional) Step 2: Install your Spitz AX on the wall {#optional-step-2-install-your-spitz-ax-on-the-wall}
 
 There are two ways to install your Spitz AX on the wall:
 
@@ -34,7 +34,7 @@ Wall mounts are provided in the package. To mount your Spitz AX to the wall, fol
 
 ![wall mount](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/x3000-with-screws.jpg){class="glboxshadow"}
 
-### (Optional) Step 3: Install the RV roof antenna
+### (Optional) Step 3: Install the RV roof antenna {#optional-step-3-install-the-rv-roof-antenna}
 
 ![roof](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/x3000-with-roof-antenna.jpg){class="glboxshadow"}
 
@@ -53,7 +53,7 @@ To avoid signal attenuation, the radio frequency cable from the roof antenna to 
 
 ---
 
-## 2. Set up the internet for your Spitz AX 
+## 2. Set up the internet for your Spitz AX {#2-set-up-the-internet-for-your-spitz-ax}
 
 To ensure you have internet access during your journey, set up the internet using SIM cards. 
 
@@ -76,15 +76,15 @@ If you are using two SIM cards, note that only one SIM card works at each time. 
 
 ---
 
-## 3. Use Spitz AX in different scenarios
+## 3. Use Spitz AX in different scenarios {#3-use-spitz-ax-in-different-scenarios}
 
-### On the road
+### On the road {#on-the-road}
 
 ![on the road](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/rv-connectivity_scene_rv-antennas.png){class="glboxshadow"}
 
 When you are driving on the road, you should be able to connect to the internet via SIM card(s) which you set up in the previous step.
 
-### At a campground
+### At a campground {#at-a-campground}
 
 ![campground](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/rv-connectivity_scene_repeater.png){class="glboxshadow"}
 
@@ -92,7 +92,7 @@ If you stop at a campground during your trip, you can use the public Wi-Fi netwo
 
 After you have connected to the Wi-Fi network once, Spitz AX can remember the network name and password. It will connect to the network automatically the next time you are around.
 
-### In areas without cellular coverage
+### In areas without cellular coverage {#in-areas-without-cellular-coverage}
 
 ![cellular](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/rv-connectivity_scene_starlink.png){class="glboxshadow"}
 
@@ -102,7 +102,7 @@ When you set up the Starlink antenna, make sure it is unobstructed. Obstructions
 
 ---
 
-## 4. Set failover priorities 
+## 4. Set failover priorities {#4-set-failover-priorities}
 Spitz AX supports Multi-WAN (failover and load balance). You can set failover priorities for different networks based on your scenario. 
 
 | Scenario| Priority |

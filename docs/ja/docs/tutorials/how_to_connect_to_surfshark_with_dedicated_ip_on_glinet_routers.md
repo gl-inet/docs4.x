@@ -1,4 +1,4 @@
-# GL.iNetルーターでSurfsharkのDedicated IPに接続する方法
+# GL.iNetルーターでSurfsharkのDedicated IPに接続する方法 {#how-to-connect-to-surfshark-with-a-dedicated-ip-on-glinet-routers}
 
 この記事では、GL.iNet ルーターで Surfshark の Dedicated IP 接続を設定する手順を紹介します。
 

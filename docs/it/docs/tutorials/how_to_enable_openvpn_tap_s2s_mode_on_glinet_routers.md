@@ -1,10 +1,10 @@
-# Come abilitare la modalita' OpenVPN TAP-S2S sui router GL.iNet?
+# Come abilitare la modalita' OpenVPN TAP-S2S sui router GL.iNet? {#how-to-enable-openvpn-tap-s2s-mode-on-glinet-routers}
 
-## Scenari di utilizzo
+## Scenari di utilizzo {#usage-scenarios}
 
 Dopo aver abilitato la modalita' TAP-S2S, il dispositivo client OpenVPN puo' accedere da remoto al dispositivo server OpenVPN e anche il dispositivo server OpenVPN puo' accedere da remoto al dispositivo client OpenVPN. Lo svantaggio e' che, dopo aver abilitato TAP-S2S, le regole VPN impostate sul client OpenVPN non avranno effetto.
 
-## Modalita' TAP-S2S vs TUN
+## Modalita' TAP-S2S vs TUN {#tap-s2s-vs-tun-mode}
 
 Topologia di rete
 
@@ -19,7 +19,7 @@ Le modalita' TAP-S2S e TUN hanno lo stesso metodo di connessione fisica, ma il l
 3. Quando un dispositivo sul lato LAN del GL-X3000 conosce l'indirizzo IP di un dispositivo sul lato LAN del GL-MT6000, la modalita' TAP-S2S consente l'accesso remoto diretto, mentre la modalita' TUN non consente l'accesso diretto senza abilitare impostazioni aggiuntive.
 4. In modalita' TAP-S2S, il GL-X3000 deve passare attraverso il GL-MT6000 per accedere a Internet, mentre in modalita' TUN il GL-X3000 puo' accedere direttamente a Internet. Pertanto, in modalita' TAP-S2S le regole VPN impostate sul GL-X3000 non hanno effetto e devono essere seguite le regole VPN impostate sul GL-MT6000.
 
-## Tutorial
+## Tutorial {#tutorials}
 
 Per prima cosa, usa un router, supponiamo GL-MT6000, con un IP pubblico per avviare OpenVPN Server, imposta la modalita' del dispositivo su **TAP-S2S**, fai clic su Apply e poi su **Export Client Configuration**.
 

@@ -4,11 +4,11 @@ hide:
   - toc
 ---
 
-# チュートリアル
+# チュートリアル {#tutorials}
 
 デバイスを正しく活用するための詳しい手順を紹介します。
 
-## VPN
+## VPN {#vpn}
 
 * [GL.iNetルーターでOpenVPNクライアントを設定する方法](how_to_set_up_openvpn_client.md)
 * [GL.iNetルーターでOpenVPNサーバーを設定する方法](how_to_set_up_openvpn_server.md)
@@ -31,7 +31,7 @@ hide:
 * [OpenVPNサーバー証明書を更新する方法](how_to_update_openvpn_server_certificates.md)
 * [AdGuard Home DNSがVPNをバイパスするように設定する方法](how_to_make_adguard_home_dns_bypass_vpn.md)
 
-## セルラー
+## セルラー {#cellular}
 
 * [SMS](sms.md)
 * [SMS Forwarding](sms_forwarding.md)
@@ -42,17 +42,17 @@ hide:
 * [セルラールーター用の外部アンテナを取り付けまたは交換する方法](how_to_install_or_change_antennas.md)
 * [外部セルラーアンテナについて](understanding_external_cellular_antennas.md)
 
-## eSIM
+## eSIM {#esim}
 
 * [GL.iNetルーターでeSIM Physical Cardを使う方法](how_to_use_esim_physical_card_with_glinet_routers.md)
 * [AndroidデバイスでeSIM Physical Cardを使う方法](how_to_use_the_esim_physical_card_with_android_devices.md)
 
-## GoodCloud
+## GoodCloud {#goodcloud}
 
 * [GoodCloud Site to Site](goodcloud_site_to_site.md)
 * [GoodCloud経由でLuCIインターフェースにアクセスする方法](how_to_access_the_luci_interface_via_goodcloud.md)
 
-## ネットワーク
+## ネットワーク {#network}
 
 * [EAP (Extensible Authentication Protocol) ネットワークに接続する方法](eap.md)
 * [GL.iNetルーターでゲストWi-Fiネットワークを設定する方法](how_to_set_up_a_guest_network.md)
@@ -62,7 +62,7 @@ hide:
 * [WANポートが1つのルーターでデュアル有線WANアクセスを設定する方法](configure_dual_ethernet_wan.md)
 * [USB-C OTG とは何か、USB-C OTG でネットワークを共有する方法](what_is_usb-c_otg_and_how_to_share_your_network_via_usb-c_otg.md)
 
-## その他
+## その他 {#others}
 
 * [クライアントデバイスをブロックする方法](how_to_block_client_devices.md)
 * [クライアントデバイスで静的IPを手動設定する方法](manually_configure_static_ip.md)

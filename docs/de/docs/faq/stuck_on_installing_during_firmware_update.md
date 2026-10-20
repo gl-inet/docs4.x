@@ -1,4 +1,4 @@
-# Hängt bei „Installing“ während der Firmware-Aktualisierung
+# Hängt bei „Installing“ während der Firmware-Aktualisierung {#stuck-on-installing-during-firmware-update}
 
 Wenn Ihr Router während einer Firmware-Aktualisierung bei „Installing“ hängen bleibt, befolgen Sie die folgenden Schritte, um das Problem zu beheben.
 

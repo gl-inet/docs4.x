@@ -1,6 +1,6 @@
-# FAQ zur Fehlerbehebung bei der Internetverbindung
+# FAQ zur Fehlerbehebung bei der Internetverbindung {#internet-connection-troubleshooting-faq}
 
-## Q1. Was soll ich tun, wenn ich nicht auf das Internet zugreifen kann?
+## Q1. Was soll ich tun, wenn ich nicht auf das Internet zugreifen kann? {#q1-what-should-i-do-if-i-cannot-access-the-internet}
 
 Führen Sie die folgenden Schritte zur grundlegenden Fehlerbehebung aus.
 
@@ -22,7 +22,7 @@ Führen Sie die folgenden Schritte zur grundlegenden Fehlerbehebung aus.
 
     Prüfen Sie außerdem, ob Ihr ISP zuvor eine **MAC binding** auf Ihrem Modem/ONT eingerichtet hat.
 
-## Q2. Wann sollte ich eine MAC-Adresse klonen?
+## Q2. Wann sollte ich eine MAC-Adresse klonen? {#q2-when-should-i-clone-a-mac-address}
 
 Einige ISPs binden Ihren Breitbandanschluss an die MAC-Adresse des zuerst verbundenen Geräts, in der Regel Ihres alten Routers oder Computers. Wenn Sie den Router austauschen, müssen Sie die MAC-Adresse klonen, um den Internetzugang wiederherzustellen.
 
@@ -36,7 +36,7 @@ Führen Sie die folgenden Schritte aus, um eine MAC-Adresse auf Ihren GL.iNet-Ro
 
 3. Starten Sie Ihr Modem (also das vorgeschaltete Gerät) neu.
 
-## Q3. Wann muss ich eine VLAN-ID konfigurieren?
+## Q3. Wann muss ich eine VLAN-ID konfigurieren? {#q3-when-do-i-need-to-configure-a-vlan-id}
 
 Einige ISPs verlangen VLAN-Tagging für die Internetauthentifizierung oder die Trennung des Datenverkehrs, insbesondere bei Glasfaser- und IPTV-Anschlüssen. Fragen Sie bei Ihrem ISP nach, ob eine VLAN-ID erforderlich ist.
 
@@ -48,7 +48,7 @@ Führen Sie die folgenden Schritte aus, um die VLAN-ID zu konfigurieren.
 
     ![vlan id](https://static.gl-inet.com/docs/router/de/4/faq/internet_connection_troubleshooting_faq/vlan_id.png){class="glboxshadow"}
 
-## Q4. Was ist, wenn es weiterhin nicht funktioniert?
+## Q4. Was ist, wenn es weiterhin nicht funktioniert? {#q4-what-if-it-still-doesnt-work}
 
 Wenn das Problem weiterhin besteht, verbinden Sie versuchsweise einen PC oder Laptop direkt mit Ihrem Modem und prüfen Sie, ob Sie Internetzugang haben.
 
@@ -61,7 +61,7 @@ Wenn Sie Internetzugang haben, hängt das Problem möglicherweise mit der Konfig
 - Name Ihres ISP
 - Alle weiteren Informationen, die uns bei der Unterstützung helfen könnten
 
-## ISP information
+## ISP information {#isp-information}
 
 Nachfolgend finden Sie regionsspezifische ISP-Informationen, die GL.iNet aus Kundenfeedback, Foren und OpenWRT-Ressourcen zusammengestellt hat. Diese dienen nur als Referenz.
 

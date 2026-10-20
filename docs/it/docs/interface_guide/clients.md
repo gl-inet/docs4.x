@@ -1,10 +1,10 @@
-# Client
+# Client {#clients}
 
 Sul lato sinistro del pannello di amministrazione web, vai su **CLIENTS**.
 
 La pagina Client mostra le informazioni sui dispositivi connessi, inclusi nome del dispositivo, tipo di connessione, indirizzo IP, indirizzo MAC, velocita' e traffico, disposte da sinistra a destra.
 
-## Nome del dispositivo
+## Nome del dispositivo {#device-name}
 
 La prima colonna mostra il nome e il tipo del dispositivo, che dipendono dal nome host impostato sul dispositivo.
 
@@ -16,7 +16,7 @@ Per modificare il nome e il tipo del dispositivo, fai clic sull'icona con i tre 
 
 ![modify client device](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/modify_client_device.png){class="glboxshadow"}
 
-## Tipo di connessione
+## Tipo di connessione {#connection-type}
 
 L'icona blu sul lato destro del nome del dispositivo rappresenta il tipo/metodo di connessione del dispositivo.
 
@@ -24,7 +24,7 @@ Indica come il dispositivo e' collegato alla rete, cioe' tramite Wi-Fi oppure tr
 
 ![connection type](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/connection_type.png){class="glboxshadow"}
 
-## Indirizzo IP e MAC
+## Indirizzo IP e MAC {#ip-and-mac-address}
 
 La seconda colonna elenca gli indirizzi IP e MAC del dispositivo connesso.
 
@@ -36,7 +36,7 @@ Molti dispositivi utilizzano indirizzi MAC casuali. Se i dispositivi connessi us
 
 **Nota**: la regola utilizzata qui e' che, se il secondo carattere dell'indirizzo MAC e' 2, 6, A oppure E (senza distinzione tra maiuscole e minuscole), viene considerato un indirizzo MAC casuale. Tuttavia, alcuni dispositivi possono usare regole diverse per generare un indirizzo MAC casuale, quindi questo metodo di rilevamento potrebbe non essere accurato.
 
-## Velocita'
+## Velocita' {#speed}
 
 La terza colonna mostra la velocita' Internet del dispositivo connesso.
 
@@ -50,13 +50,13 @@ La velocita' qui indicata e' la velocita' media su 3 minuti.
 - Se apri la pagina corrente per 3 minuti, viene mostrata la velocita' media degli ultimi 3 minuti.
 - Se apri la pagina corrente per 10 minuti, viene mostrata la velocita' media degli ultimi 3 minuti.
 
-## Traffico
+## Traffico {#traffic}
 
 La quarta colonna mostra il traffico Internet del dispositivo connesso.
 
 ![traffic](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/traffic.png){class="glboxshadow"}
 
-## IP riservato
+## IP riservato {#reserved-ip}
 
 Nella quinta colonna puoi riservare un indirizzo IP per uno specifico dispositivo connesso con un solo clic.
 
@@ -116,7 +116,7 @@ Nella pagina Access Control, inserisci manualmente l'indirizzo MAC dei dispositi
 
 **Nota**: il blocco del client si basa sull'indirizzo MAC del dispositivo. Se il dispositivo bloccato utilizza un indirizzo MAC diverso la volta successiva, potra' comunque connettersi al router.
 
-## Ordinamento
+## Ordinamento {#sort}
 
 Il tipo di ordinamento corrente e' mostrato nell'angolo superiore destro e puoi passare ad altri tipi di ordinamento.
 
@@ -128,9 +128,9 @@ Il tipo di ordinamento predefinito e' il seguente:
 - Nella sezione Online Clients, i dispositivi connessi da più tempo vengono visualizzati più in alto.
 - Nella sezione Offline Clients, i dispositivi disconnessi da più tempo vengono visualizzati più in alto.
 
-## Azione
+## Azione {#action}
 
-### Visualizza dettagli
+### Visualizza dettagli {#view-details}
 
 Se hai bisogno di visualizzare i dettagli del dispositivo client, fai clic sull'icona con i tre puntini nella colonna Action all'estrema destra, quindi fai clic su **View Details** nel menu a discesa.
 
@@ -140,7 +140,7 @@ Nella sottopagina aperta potrai vedere tutte le informazioni sul dispositivo cli
 
 ![client details](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/client_detail.png){class="glboxshadow"}
 
-### Modifica
+### Modifica {#modify}
 
 Fai clic sull'icona con i tre puntini nella colonna Action e, nel menu a discesa, fai clic su **Modify**.
 
@@ -148,7 +148,7 @@ Fai clic sull'icona con i tre puntini nella colonna Action e, nel menu a discesa
 
 ![modify client device](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/modify_client_device.png){class="glboxshadow"}
 
-### Limita velocita'
+### Limita velocita' {#limit-speed}
 
 Fai clic sull'icona con i tre puntini nella colonna Action e, nel menu a discesa, fai clic su **Limit Speed**.
 
@@ -162,7 +162,7 @@ Se a un client e' stata applicata una limitazione della velocita', le frecce su 
 
 Fai clic sull'icona con i tre puntini nella colonna Action per disabilitare il limite di velocita'.
 
-### Usa tunnel VPN
+### Usa tunnel VPN {#use-vpn-tunnel}
 
 **Nota**: questa opzione e' disponibile a partire dal firmware v4.8 e apparira' nel menu Action solo se e' configurata una policy basata su MAC.
 
@@ -170,7 +170,7 @@ Aggiungi un client all'elenco del tunnel VPN con una policy basata su MAC. Se ha
 
 ![use vpn tunnel](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/use-vpn-tunnel.png){class="glboxshadow"}
 
-## Rimuovi client offline
+## Rimuovi client offline {#remove-clients}
 
 Nella sezione dei client offline, puoi fare clic su **Delete All** in alto a destra per eliminare tutti i client offline.
 

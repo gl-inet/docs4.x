@@ -1,12 +1,12 @@
-# Guida utente di Mango 2 (GL-MG1300)
+# Guida utente di Mango 2 (GL-MG1300) {#mango-2-gl-mg1300-user-guide}
 
-## Panoramica del prodotto
+## Panoramica del prodotto {#product-overview}
 
 Mango 2 (GL-MG1300) è il primo mini router da viaggio Wi-Fi 5 dual-band di GL.iNet, caratterizzato da un design ultrasottile e portatile. Offre velocità teoriche di 400 Mbps (2,4 GHz) e 866 Mbps (5 GHz), con configurazione MIMO 2×2. Inoltre, include OpenVPN e WireGuard preinstallati, supporta oltre 30 servizi VPN per crittografare il traffico di rete quando il client VPN è abilitato e consente la gestione remota tramite GoodCloud, coniugando prestazioni, praticità e sicurezza.
 
 ![mg1300 illustration](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mg1300/product_info/mg1300_overview.jpg){class="glboxshadow"}
 
-## Contenuto della confezione
+## Contenuto della confezione {#package-contents}
 
 - 1 x Mango 2 (GL-MG1300)
 - 1 x Manuale utente
@@ -19,15 +19,15 @@ Guarda il video di unboxing di Mango 2 qui sotto.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xwHgLdWPwPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Come configurare Mango 2
+## Come configurare Mango 2 {#how-to-set-up-mango-2}
 
 Per configurare Mango 2, utilizza uno dei quattro metodi di connessione Internet supportati: Ethernet, Repeater, Tethering o Cellular. Segui i passaggi riportati di seguito.
 
-### 1. Accendi il router
+### 1. Accendi il router {#1-power-on}
 
 Collega il cavo di alimentazione USB Type-C alla porta di alimentazione del router. Collega l'altra estremità a un alimentatore da 5 V/2 A (non incluso), quindi inseriscilo in una presa elettrica.
 
-### 2. Collega un dispositivo
+### 2. Collega un dispositivo {#2-connect-device}
 
 Collega un dispositivo (ad esempio computer, laptop o smartphone) al router tramite Wi-Fi o Ethernet.
 
@@ -39,13 +39,13 @@ Collega un dispositivo (ad esempio computer, laptop o smartphone) al router tram
 
     Sul dispositivo, apri Settings -> WLAN, individua il nome della rete Wi-Fi del router nell'elenco delle reti disponibili e inserisci la password. Il nome e la password predefiniti sono riportati sull'etichetta nella parte inferiore del router.
 
-### 3. Accedi al pannello di amministrazione web
+### 3. Accedi al pannello di amministrazione web {#3-log-in-to-web-admin-panel}
 
 Apri un browser web, inserisci `192.168.8.1` nella barra degli indirizzi ed effettua l'accesso. Scegli la lingua, imposta la password amministratore, quindi fai clic su **Apply**.
 
 Se modifichi le informazioni Wi-Fi, dovrai riconnettere il dispositivo alla rete Wi-Fi del router utilizzando le credenziali aggiornate.
 
-### 4. Configurazione della connessione Internet
+### 4. Configurazione della connessione Internet {#4-internet-setup}
 
 **Nota:** Le seguenti istruzioni si applicano agli utenti che configurano il router tramite il GL.iNet Web Admin Panel. Se preferisci utilizzare l'app GL.iNet, [scarica l'app](https://www.gl-inet.com/app/){target="_blank"} e segui le istruzioni visualizzate.
 
@@ -101,19 +101,19 @@ Configura Mango 2 utilizzando uno dei metodi di connessione Internet supportati:
 
 Di seguito è riportata una panoramica delle funzioni del pannello di amministrazione web di Mango 2.
 
-## Wireless
+## Wireless {#wireless}
 
 La pagina Wireless consente di configurare Main Network, Guest Network e IoT Network. Per ogni tipo di rete Wi-Fi è possibile configurare separatamente le bande a 5 GHz e 2,4 GHz. È inoltre possibile abilitare e definire le impostazioni di base di ciascuna banda, tra cui SSID Wi-Fi, modalità di sicurezza, password e BSSID casuale.
 
 Per configurarla, fai riferimento a [Wireless](../../interface_guide/wireless.md).
 
-## Client
+## Client {#clients}
 
 La pagina Clients mostra informazioni sui dispositivi collegati. Per ogni client visualizza nome, indirizzi IP e MAC, velocita di download e upload, traffico totale e offre la possibilita di bloccare il client o eseguire altre azioni.
 
 Per configurarla, fai riferimento a [Clients](../../interface_guide/clients.md).
 
-## Servizi cloud
+## Servizi cloud {#cloud-services}
 
 === "GL.iNet Account"
 
@@ -131,7 +131,7 @@ Per configurarla, fai riferimento a [Clients](../../interface_guide/clients.md).
 
     Per configurare GoodPAS, consulta [GoodPAS](../../interface_guide/goodpas.md).
 
-## VPN
+## VPN {#vpn}
 
 Una VPN (rete privata virtuale) crea una connessione sicura e crittografata tra il dispositivo e il server VPN. Offre un ulteriore livello di privacy e sicurezza (client VPN) e consente di accedere a una rete remota (server VPN). Mango 2 supporta OpenVPN e WireGuard.
 
@@ -149,7 +149,7 @@ Una VPN (rete privata virtuale) crea una connessione sicura e crittografata tra 
     * [Come configurare un client WireGuard](../../interface_guide/wireguard_client.md)
     * [Come configurare un server WireGuard](../../interface_guide/wireguard_server.md)
 
-## Rete
+## Rete {#network}
 
 === "Multi-WAN"
 
@@ -203,7 +203,7 @@ Una VPN (rete privata virtuale) crea una connessione sicura e crittografata tra 
 
     Per configurarla, fai riferimento a [Network Acceleration](../../interface_guide/network_acceleration.md).
 
-## Controllo del flusso
+## Controllo del flusso {#flow-control}
 
 === "Parental Control"
 
@@ -211,7 +211,7 @@ Una VPN (rete privata virtuale) crea una connessione sicura e crittografata tra 
 
     Per configurarlo, fai riferimento a [Parental controls](../../interface_guide/parental_control.md).
 
-## Sicurezza
+## Sicurezza {#security}
 
 === "Port Forwarding"
 
@@ -231,7 +231,7 @@ Una VPN (rete privata virtuale) crea una connessione sicura e crittografata tra 
 
     Per configurarla, fai riferimento a [NAT Settings](../../interface_guide/nat_settings.md).
 
-## Applicazioni
+## Applicazioni {#applications}
 
 === "Plug-ins"
 
@@ -257,7 +257,7 @@ Una VPN (rete privata virtuale) crea una connessione sicura e crittografata tra 
 
     Per configurarlo, fai riferimento a [Tailscale](../../interface_guide/tailscale.md).
 
-## Sistema
+## Sistema {#system}
 
 === "Overview"
 

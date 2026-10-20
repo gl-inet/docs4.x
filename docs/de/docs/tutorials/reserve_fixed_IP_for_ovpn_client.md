@@ -1,4 +1,4 @@
-# Wie reserviert man eine feste IP für einen OpenVPN-Client in einer selbst aufgebauten OpenVPN-Verbindung?
+# Wie reserviert man eine feste IP für einen OpenVPN-Client in einer selbst aufgebauten OpenVPN-Verbindung? {#how-to-reserve-a-fixed-ip-for-openvpn-client-in-a-self-built-openvpn-connection}
 
 Dieses Tutorial zeigt Ihnen, wie Sie für Ihren OpenVPN-Client, der sich mit Ihrem Server verbindet, eine feste IP reservieren. Richten Sie zunächst einen GL.iNet-Router als OpenVPN-Server ein, bevor Sie die folgenden Schritte ausführen.
 

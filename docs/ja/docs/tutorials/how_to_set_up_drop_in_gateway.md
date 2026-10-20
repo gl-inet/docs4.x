@@ -1,4 +1,4 @@
-# GL.iNetルーターでDrop-in Gatewayを設定する方法
+# GL.iNetルーターでDrop-in Gatewayを設定する方法 {#how-to-set-up-drop-in-gateway-on-a-glinet-router}
 
 GL.iNetはDrop-in Gateway機能を提供しており、AdGuard Home、暗号化DNS、VPNなど、メインルーターにない機能を追加できます。この機能を使うことで、メインルーターをこれまでどおり使いながら、追加機能も利用できます。
 
@@ -10,11 +10,11 @@ Drop-in Gatewayは、メインルーターに接続されている[すべての�
 
 ## すべてのデバイスでDrop-in Gatewayを有効にする {#enable-drop-in-gateway-for-all-devices}
 
-### 1. GL.iNetルーターをメインルーターに接続する
+### 1. GL.iNetルーターをメインルーターに接続する {#1-connect-glinet-router-to-the-main-router}
 
 GL.iNetルーターのWANポートを、メインルーターのLANポートにイーサネットケーブルで接続します。
 
-### 2. Drop-in Gatewayを有効にする
+### 2. Drop-in Gatewayを有効にする {#2-enable-drop-in-gateway}
 
 Drop-in Gatewayを有効にする方法は2つあります。ルーターの管理画面を使う方法と、GL.iNet mobile app を使う方法です。
 
@@ -52,11 +52,11 @@ Drop-in Gatewayを有効にする方法は2つあります。ルーターの管�
 
     4. **Done** をタップします。
 
-### 3. メインルーターのDHCPサーバーを無効にする
+### 3. メインルーターのDHCPサーバーを無効にする {#3-disable-dhcp-server-on-the-main-router}
 
 メインルーターにログインして、DHCPサーバーを無効にしてください。ルーターメーカーが提供する手順を参照するか、サポートにお問い合わせください。
 
-### 4. AdGuard、DNS、VPN、その他の機能を設定する
+### 4. AdGuard、DNS、VPN、その他の機能を設定する {#4-set-up-adguard-dns-vpn-and-other-features}
 
 GL.iNetルーターで利用したい機能を有効にするには、以下のガイドを参照してください。
 
@@ -70,13 +70,13 @@ GL.iNetルーターで利用したい機能を有効にするには、以下の�
 
 ## 特定のデバイスでDrop-in Gatewayを有効にする {#enable-drop-in-gateway-for-specific-devices}
 
-### 1. GL.iNetルーターをメインルーターに接続する
+### 1. GL.iNetルーターをメインルーターに接続する {#1-connect-glinet-router-to-the-main-router_1}
 
 GL.iNetルーターのWANポートを、メインルーターのLANポートにイーサネットケーブルで接続します。
 
-### 2. Drop-in Gatewayを有効にする
+### 2. Drop-in Gatewayを有効にする {#2-enable-drop-in-gateway_1}
 
-Drop-in Gatewayを有効にする方法は2つあります。 [ルーターの管理画面](#using-web-admin-panel)を使う方法と、[GL.iNet mobile app](#using-glinet-mobile-app)を使う方法です。
+Drop-in Gatewayを有効にする方法は2つあります。 ルーターの管理画面を使う方法と、GL.iNet mobile appを使う方法です。
 
 ??? "Web 管理パネルを使用する"
 
@@ -116,7 +116,7 @@ Drop-in Gatewayを有効にする方法は2つあります。 [ルーターの�
 
     **注意:** このタブは閉じないでください。次の手順で、画面に表示されているIPアドレスを入力する必要があります。
 
-### 3. 特定のデバイスでゲートウェイとDNSを設定する
+### 3. 特定のデバイスでゲートウェイとDNSを設定する {#3-set-gateway-and-dns-on-specific-device}
 
 ??? "Windows"
 
@@ -175,7 +175,7 @@ Drop-in Gatewayを有効にする方法は2つあります。 [ルーターの�
         * **Router:** **Drop-in Gateway** ページに表示されているIPアドレスを入力します。
     9. **OK** > **OK** をクリックします。
 
-### 4. AdGuard、DNS、VPN、その他の機能を設定する
+### 4. AdGuard、DNS、VPN、その他の機能を設定する {#4-set-up-adguard-dns-vpn-and-other-features_1}
 
 GL.iNetルーターで利用したい機能を有効にするには、以下のガイドを参照してください。
 

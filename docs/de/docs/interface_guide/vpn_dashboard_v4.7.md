@@ -1,4 +1,4 @@
-# VPN Dashboard (Firmware v4.7 und früher)
+# VPN Dashboard (Firmware v4.7 und früher) {#vpn-dashboard-firmware-v47-and-earlier}
 
 Der Inhalt dieser Seite basiert auf Firmwareversion v4.7.x und früher. Wenn auf Ihrem Gerät eine andere Firmwareversion ausgeführt wird, verwenden Sie die folgende Auswahl, um zur entsprechenden Anleitung zu wechseln.
 
@@ -18,7 +18,7 @@ Diese Seite ist in zwei Bereiche unterteilt: [VPN-Client](#vpn-client) und [VPN-
 
 ![vpn dashboard](https://static.gl-inet.com/docs/router/de/4/interface_guide/vpn_dashboard/4.7/vpn_dashboard_initial.png){class="glboxshadow"}
 
-## VPN-Client
+## VPN-Client {#vpn-client}
 
 Wenn Sie diese Seite zum ersten Mal aufrufen und noch keine Konfigurationsdatei für OpenVPN und WireGuard vorhanden ist, wird die Seite wie folgt angezeigt. Klicken Sie auf **Set Up Now**. Sie werden dann zur Seite [OpenVPN Client](openvpn_client.md) oder [WireGuard Client](wireguard_client.md) weitergeleitet, um Ihre VPN-Konfigurationsdatei hochzuladen.
 
@@ -28,7 +28,7 @@ Nach dem Hochladen wird Ihre Konfiguration in der Spalte **Configuration File** 
 
 ![configuration files](https://static.gl-inet.com/docs/router/de/4/interface_guide/vpn_dashboard/4.7/vpnclient_config.png){class="glboxshadow"}
 
-### Client-Optionen
+### Client-Optionen {#client-options}
 
 Klicken Sie rechts auf das Zahnradsymbol, um die Optionen des OpenVPN- oder WireGuard-Clients aufzurufen.
 
@@ -52,7 +52,7 @@ Die Optionen des WireGuard-Clients werden wie folgt angezeigt.
 
 - **MTU**: Kurz für Maximum Transmission Unit. Mit dieser optionalen Einstellung können Sie die MTU des VPN-Tunnels anpassen; sie überschreibt den in der Konfigurationsdatei definierten Wert.
 
-### Proxy-Modus
+### Proxy-Modus {#proxy-mode}
 
 Der Standard-Proxy-Modus für die VPN-Verbindung ist **Global Proxy**. Sie können oben rechts auf das Feld klicken, um zu anderen Proxy-Modi zu wechseln.
 
@@ -90,7 +90,7 @@ Es stehen drei Proxy-Modi zur Verfügung: **Global Proxy**, **Policy Mode** und 
 
         Sie können die Routing-Regeln für jede VPN-Client-Instanz manuell konfigurieren.
 
-### Globale Optionen
+### Globale Optionen {#global-options}
 
 Klicken Sie oben rechts auf **Global Options**, um erweiterte Einstellungen für Ihren VPN-Client zu konfigurieren.
 
@@ -124,7 +124,7 @@ Klicken Sie oben rechts auf **Global Options**, um erweiterte Einstellungen für
 
 - **Services From GL.iNet Use VPN**: Wenn aktiviert, übertragen GoodCloud, DDNS und rtty ihre Pakete über VPN-Tunnel. Diese Option ist standardmäßig deaktiviert, da diese Dienste normalerweise die echte IP-Adresse des Geräts benötigen, um ordnungsgemäß zu funktionieren.
 
-## VPN-Server
+## VPN-Server {#vpn-server}
 
 Wenn der Router noch nie als OpenVPN- oder WireGuard-Server konfiguriert wurde, wird die Seite wie unten gezeigt angezeigt. Klicken Sie auf **Set Up Now**. Sie werden dann zur Seite **OpenVPN Server** oder **WireGuard Server** weitergeleitet, um Ihren VPN-Server zu initialisieren.
 
@@ -134,7 +134,7 @@ Sobald der OpenVPN-Server oder WireGuard-Server aktiviert ist, zeigt die Seite d
 
 ![vpn server enabled](https://static.gl-inet.com/docs/router/de/4/interface_guide/vpn_dashboard/4.7/vpnserver_connected.png){class="glboxshadow"}
 
-### Server-Optionen
+### Server-Optionen {#server-options}
 
 Klicken Sie rechts auf das Zahnradsymbol, um die Optionen des OpenVPN- oder WireGuard-Servers aufzurufen.
 
@@ -156,7 +156,7 @@ Die Optionen des WireGuard-Servers werden wie folgt angezeigt.
 
 * **Client to Client**: Wenn aktiviert, können VPN-Clients, die mit diesem Server verbunden sind, über ihre VPN-Tunnel-IPs aufeinander zugreifen. Wenn Sie möchten, dass Clients zusätzlich auf die LAN-Subnetze der jeweils anderen zugreifen können, müssen Sie auf dem VPN-Server Routing-Regeln hinzufügen, die Routen zu diesen entfernten LAN-Subnetzen bekanntgeben.
 
-### Server-Routenregel
+### Server-Routenregel {#server-route-rule}
 
 Klicken Sie rechts auf das Routensymbol, um die OpenVPN- oder WireGuard-Routenregeln nach Bedarf anzupassen.
 
@@ -172,7 +172,7 @@ Die WireGuard-Server-Routenregel wird wie folgt angezeigt. Klicken Sie auf **Add
 
 **Hinweis**: Im Modus für benutzerdefinierte Routen ignoriert der VPN-Client die Konfigurationsdatei und die vom Server bereitgestellte Routing-Konfiguration. Ob beim Zugriff auf ein beliebiges Netzwerksegment der vom VPN bereitgestellte verschlüsselte Tunnel verwendet wird, wird durch die von Ihnen manuell festgelegten Routing-Regeln bestimmt.
 
-### Globale Optionen
+### Globale Optionen {#global-options_1}
 
 Klicken Sie oben rechts auf **Global Options**, um erweiterte Einstellungen für Ihren VPN-Server zu konfigurieren.
 

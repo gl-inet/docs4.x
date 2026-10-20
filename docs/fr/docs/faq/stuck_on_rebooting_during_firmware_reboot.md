@@ -1,4 +1,4 @@
-# Bloqué sur "Rebooting" pendant le redémarrage du firmware
+# Bloqué sur "Rebooting" pendant le redémarrage du firmware {#stuck-on-rebooting-during-firmware-reboot}
 
 Si votre routeur reste bloqué sur "Rebooting" pendant un redémarrage du firmware, suivez les étapes ci-dessous pour résoudre le problème.
 

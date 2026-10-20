@@ -1,6 +1,6 @@
-# Guida utente di Beryl 7 (GL-MT3600BE)
+# Guida utente di Beryl 7 (GL-MT3600BE) {#beryl-7-gl-mt3600be-user-guide}
 
-## Panoramica del prodotto
+## Panoramica del prodotto {#product-overview}
 
 Beryl 7 (GL-MT3600BE) e un router da viaggio portatile Wi-Fi 7 dual-band, progettato specificamente per scenari mobili come viaggi di lavoro e vacanze. Come versione aggiornata di Beryl AX, supporta tecnologie Wi-Fi 7 come Multi-Link Operation (MLO) e 4K QAM, con velocita teoriche dual-band fino a 688 Mbps (2,4 GHz) + 2882 Mbps (5 GHz), sufficienti per esigenze ad alta velocita come streaming 8K e gaming mobile.
 
@@ -8,7 +8,7 @@ Basato su processore quad-core MediaTek e dotato di 512 MB di memoria NAND flash
 
 ![gl-mt3600be interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3600be/hardware_info/mt3600be_interface.png){class="glboxshadow"}
 
-## Contenuto della confezione
+## Contenuto della confezione {#package-contents}
 
 - 1 x Beryl 7 (GL-MT3600BE)
 - 1 x Alimentatore
@@ -21,17 +21,17 @@ Guarda qui sotto il video di unboxing di Beryl 7.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xZHmP3B8VlA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Come configurare Beryl 7
+## Come configurare Beryl 7 {#how-to-set-up-beryl-7}
 
 Guarda questo video di configurazione oppure segui i passaggi riportati di seguito.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ey-Z3MEOPpw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Accendi il router
+### 1. Accendi il router {#1-power-on}
 
 Assembla l'alimentatore in due parti. Collegalo al router e inseriscilo in una presa di corrente. Il router si avviera automaticamente.
 
-### 2. Collega un dispositivo
+### 2. Collega un dispositivo {#2-connect-device}
 
 Collega il computer o il dispositivo mobile al router tramite Wi-Fi o Ethernet.
 
@@ -43,11 +43,11 @@ Collega il computer o il dispositivo mobile al router tramite Wi-Fi o Ethernet.
 
     Sul dispositivo, vai in Settings -> WLAN, individua il nome della rete Wi-Fi del router nell'elenco delle reti disponibili e inserisci la password per collegarti. Le credenziali predefinite sono stampate sull'etichetta.
 
-### 3. Accedi al pannello di amministrazione web
+### 3. Accedi al pannello di amministrazione web {#3-log-in-to-web-admin-panel}
 
 Apri un browser web, inserisci `192.168.8.1` nella barra degli indirizzi ed effettua l'accesso. Scegli la lingua e imposta la password di amministrazione, quindi fai clic su **Apply**.
 
-### 4. Configurazione della connessione Internet
+### 4. Configurazione della connessione Internet {#4-internet-setup}
 
 **Note:** Le istruzioni seguenti si applicano agli utenti che configurano il router tramite il pannello di amministrazione web GL.iNet. Se preferisci usare l'app GL.iNet, [scarica l'app](https://www.gl-inet.com/app/){target="_blank"} e segui le istruzioni mostrate sullo schermo.
 
@@ -101,7 +101,7 @@ Configura Beryl 7 usando uno dei metodi di connessione Internet supportati: Ethe
 
 Di seguito trovi una panoramica delle funzioni presenti nel pannello di amministrazione web di Beryl 7.
 
-## Wireless
+## Wireless {#wireless}
 
 La pagina Wireless consente di configurare le impostazioni delle reti Wi-Fi a 5 GHz e 2,4 GHz, tra cui attivazione del Wi-Fi, potenza TX, nome della rete Wi-Fi (SSID), BSSID casuale, modalita di sicurezza Wi-Fi e password, visibilita dell'SSID, modalita Wi-Fi, larghezza di banda e canale.
 
@@ -109,13 +109,13 @@ Inoltre, Beryl 7 supporta il Wi-Fi MLO, cioe Multi-Link Operation, che combina s
 
 Per configurarla, fai riferimento a [Wireless](../../interface_guide/wireless.md).
 
-## Client
+## Client {#clients}
 
 La pagina Clients mostra informazioni sui dispositivi collegati. Per ogni client visualizza nome, indirizzi IP e MAC, velocita di download e upload, traffico totale e offre la possibilita di bloccare il client o eseguire altre azioni.
 
 Per configurarla, fai riferimento a [Clients](../../interface_guide/clients.md).
 
-## Servizi cloud
+## Servizi cloud {#cloud-services}
 
 === "GoodCloud"
 
@@ -129,7 +129,7 @@ Per configurarla, fai riferimento a [Clients](../../interface_guide/clients.md).
 
     Per configurarla, fai riferimento a [AstroWarp](../../interface_guide/astrowarp.md).
 
-## VPN
+## VPN {#vpn}
 
 Una VPN crea traffico sicuro e crittografato tra il dispositivo e il server VPN. Offre un ulteriore livello di privacy e sicurezza come client VPN e consente di accedere a una rete remota come server VPN. Beryl 7 supporta OpenVPN, WireGuard e Tor.
 
@@ -153,7 +153,7 @@ Una VPN crea traffico sicuro e crittografato tra il dispositivo e il server VPN.
 
     * [Come configurare Tor](../../interface_guide/tor.md)
 
-## Applicazioni
+## Applicazioni {#applications}
 
 === "Plug-ins"
 
@@ -199,7 +199,7 @@ Una VPN crea traffico sicuro e crittografato tra il dispositivo e il server VPN.
 
     Per configurarlo, fai riferimento a [Tailscale](../../interface_guide/tailscale.md).
 
-## Rete
+## Rete {#network}
 
 === "Port forwarding"
 
@@ -282,7 +282,7 @@ Una VPN crea traffico sicuro e crittografato tra il dispositivo e il server VPN.
 
     Per configurarla, fai riferimento a [NAT Settings](../../interface_guide/nat_settings.md).
 
-## Sistema
+## Sistema {#system}
 
 === "Overview"
 

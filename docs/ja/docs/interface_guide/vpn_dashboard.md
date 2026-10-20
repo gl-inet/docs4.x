@@ -1,4 +1,4 @@
-# VPN Dashboard
+# VPN Dashboard {#vpn-dashboard}
 
 このページの内容は、ファームウェア v4.9.x 以降に基づいています。デバイスで別のファームウェアバージョンを使用している場合は、以下のセレクターで該当するガイドに切り替えてください。
 
@@ -23,7 +23,7 @@ VPN Dashboard では、ルーティングルール、接続中のサーバー、
 
 ## はじめに {#getting-started}
 
-### VPN プロファイルをアップロードする
+### VPN プロファイルをアップロードする {#upload-vpn-profile}
 
 このページを初めて開いたとき、まだトンネルが作成されていない場合は、以下のような画面が表示されます。**Add VPN Tunnel** をクリックして開始します。
 
@@ -49,7 +49,7 @@ VPN プロファイルの一覧が表示されます。VPN サービスプロバ
 
 ![PureVPN3](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/purevpn3.png){class="glboxshadow"}
 
-### VPN ポリシーを設定する
+### VPN ポリシーを設定する {#general-steps}
 
 !!! note "VPN ポリシーとは？"
 
@@ -99,7 +99,7 @@ VPN Dashboard では、セットアップウィザードに従って VPN ポリ�
     ![exclude specified domain ip](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/exclude_specified_domain_ip.png){class="glboxshadow"}
 
 
-### Kill Switch
+### Kill Switch {#kill-switch}
 
 !!! note "Kill Switch とは？"
 
@@ -115,11 +115,11 @@ VPN Dashboard では、セットアップウィザードに従って VPN ポリ�
 
 - グローバル VPN 接続の Kill Switch（Enhanced Kill Switch）を設定する方法は、[こちら](#all-other-traffic) を参照してください。
 
-## 利用シナリオ
+## 利用シナリオ {#usage-scenarios}
 
 参考として、以下に 2 つのシナリオを手順付きで示します。
 
-### シナリオ 1
+### シナリオ 1 {#scenario-1}
 
 **目的:**
 
@@ -175,7 +175,7 @@ VPN Dashboard では、セットアップウィザードに従って VPN ポリ�
 
     これで、指定した 2 台のデバイスだけが VPN 経由でインターネットへアクセスします。VPN が予期せず切断された場合、それらのデバイスのインターネットアクセスは DNS リークや IP 追跡を防ぐためにブロックされます。それ以外のデバイスはローカル WAN 経由でインターネットへアクセスします。
 
-### シナリオ 2
+### シナリオ 2 {#scenario-2}
 
 **目的:**
 

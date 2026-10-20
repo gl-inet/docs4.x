@@ -1,4 +1,4 @@
-# AdGuard Home DNSがVPNトンネルをバイパスするようにする方法
+# AdGuard Home DNSがVPNトンネルをバイパスするようにする方法 {#how-to-make-adguard-home-dns-bypass-the-vpn-tunnel}
 
 通常、GL.iNetルーターではVPNとAdGuard Homeを同時に使用できます。AdGuard HomeがDNSリクエストを処理するように設定されていない場合は問題は発生しません。
 

@@ -1,6 +1,6 @@
-# How can I find all MAC addresses of my device?
+# How can I find all MAC addresses of my device? {#how-can-i-find-all-mac-addresses-of-my-device}
 
-## Usage Scenario
+## Usage Scenario {#usage-scenario}
 
 The MAC addresses of GL.iNet device are unique for each network interface, such as WAN 1, WAN 2, LAN ports, 2.4G Wi-Fi and 5G Wi-Fi.
 
@@ -8,7 +8,7 @@ When you connect to some hotels, camping sites, or campuses, the network manager
 
 You can look up the exact MAC address(es) of your device by the following methods.
 
-## Method 1. via Product Label (for WAN MAC only)
+## Method 1. via Product Label (for WAN MAC only) {#method-1-via-product-label-for-wan-mac-only}
 
 Find the **WAN MAC address** from the bottom label.
 
@@ -16,13 +16,13 @@ For example, the WAN MAC is E4:95:6E:40:DB:A9 in the image below.
 
 ![wan_lan_wifi](https://static.gl-inet.com/docs/router/en/4/faq/how_can_i_know_the_lan_wifi_mac/wan_lan_wifi.png){class="glboxshadow"}
 
-## Method 2. via SSH
+## Method 2. via SSH {#method-2-via-ssh}
 
 Please check [here](https://docs.gl-inet.com/router/en/4/tutorials/ssh_log_in_to_the_router/) for how to use SSH.
 
 Input **ifconfig** in the SSH, then you will receive some data output, displaying interfaces such as br-lan, ethx, wlanx, etc. in sequence.
 
-### Find the MAC of ethernet ports
+### Find the MAC of ethernet ports {#find-the-mac-of-ethernet-ports}
 
 Taking the following image as an example.
 
@@ -36,7 +36,7 @@ Taking the following image as an example.
 
     There would be only one MAC address even there are more than one LAN ports.
 
-### Find the MAC of wireless ports
+### Find the MAC of wireless ports {#find-the-mac-of-wireless-ports}
 
 Taking the following image as an example.
 

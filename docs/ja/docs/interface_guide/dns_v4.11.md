@@ -1,4 +1,4 @@
-# DNS
+# DNS {#dns}
 
 **注**：このページの内容は、ファームウェアv4.11で初めて導入されました。
 
@@ -20,7 +20,7 @@ Web管理画面の左側で、**DNS**に移動します。
 
 デフォルトでは、VPNポリシーに一致するトラフィックのDNSクエリは、VPNトンネルから提供されたDNSサーバーを使用します。VPN以外のDNSクエリは、アクティブなWANインターフェースから取得したDNSサーバーを使用します。カスタムDNSサーバーを設定すると、VPNトンネル、ルーター自体、またはその両方に適用できます。これらのオプションを有効にすると、選択した範囲のDNSクエリは、関連するネットワークインターフェースから取得したサーバーではなく、指定したサーバーで解決されます。カスタムDNSサーバーが設定されていない場合、ルーターは関連するネットワークインターフェースから取得したDNSサーバーを使用します。
 
-## WAN DNS
+## WAN DNS {#wan-dns}
 
 WAN DNSには、Ethernet、Repeater、Tethering、Cellularを含む各WANアップリンクから取得したDNSサーバーが表示されます。
 
@@ -30,7 +30,7 @@ WANアップリンクがアクティブな場合は、次のようにDNSサー�
 
 ![wan dns 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns_v4.11/wan_dns_2.png){class="glboxshadow" width=550}
 
-## VPN DNS
+## VPN DNS {#vpn-dns}
 
 VPN DNSには、各アクティブVPNトンネルから取得したDNSサーバーが表示されます。
 
@@ -40,7 +40,7 @@ VPNトンネルが動作している場合、VPNトラフィックのDNSクエ�
 
 ![vpn dns 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns_v4.11/vpn_dns_2.png){class="glboxshadow" width=550}
 
-## 手動DNS
+## 手動DNS {#manual-dns}
 
 手動DNSでは、**Static DNS**と**Encrypted DNS**の2種類を設定できます。
 
@@ -50,7 +50,7 @@ VPNトンネルが動作している場合、VPNトラフィックのDNSクエ�
 
 - **Apply Manual DNS to Router Itself**：デフォルトで有効です。有効にすると、GoodCloudなどのルーター内蔵サービスにカスタムの手動DNS設定が適用されます。
 
-### 静的DNS
+### 静的DNS {#static-dns}
 
 静的DNSでは、IPv4またはIPv6のDNSサーバーアドレスを手動で入力できます。アドレスを直接入力するか、ドロップダウンリストからプリセットの公開DNSサーバーを選択して、ルーターのDNSサーバーを設定できます。
 
@@ -60,7 +60,7 @@ DNSサーバーアドレスは最大4つ入力できます。**Apply**をクリ�
 
 ![static dns 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns_v4.11/static_dns_2.png){class="glboxshadow" width=550}
 
-### 暗号化DNS
+### 暗号化DNS {#encrypted-dns}
 
 暗号化DNSモードは、Control D、NextDNS、Quad9、CleanBrowsing、Cloudflare、AdGuard DNS、Google DNS、OpenDNSなど複数のDNSプロバイダーに対応しています。必要に応じて、暗号化DNSサーバーを手動で指定することもできます。
 
@@ -102,7 +102,7 @@ DNSサーバーアドレスは最大4つ入力できます。**Apply**をクリ�
 
         実績のあるDNS暗号化プロトコルです。DNSトラフィックを認証・暗号化し、改ざん防止と従来のネットワーク環境との互換性を重視します。
 
-## DNSオプション
+## DNSオプション {#dns-options}
 
 右上の**Options**をクリックして、高度なDNS設定を構成します。
 
@@ -116,7 +116,7 @@ DNSサーバーアドレスは最大4つ入力できます。**Apply**をクリ�
 
 - **Override DNS Settings of All Clients**：有効にすると、すべてのクライアントの暗号化されていないDNS設定をルーターが上書きします。
 
-## ホストの編集
+## ホストの編集 {#edit-hosts}
 
 右上の**Edit Hosts**ボタンをクリックして、静的ホストルールをカスタマイズできます。
 

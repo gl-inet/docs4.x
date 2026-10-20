@@ -1,4 +1,4 @@
-# USB i zasilanie
+# USB i zasilanie {#usb-power}
 
 **Uwaga**: Ta strona jest dostępna wyłącznie dla modelu **GL-E5800 (Mudi 7)**.
 
@@ -6,7 +6,7 @@ W lewym panelu bocznym interfejsu administracyjnego przejdź do **SYSTEM** -> **
 
 Ta strona umożliwia konfigurację ustawień USB i zarządzania zasilaniem routera, takich jak protokół USB, kierunek zasilania, limity czasu bezczynności oraz tryb gotowości.
 
-## Ustawienia USB
+## Ustawienia USB {#usb-settings}
 
 Ta sekcja umożliwia dostosowanie działania portów USB routera.
 
@@ -22,7 +22,7 @@ Ta sekcja umożliwia dostosowanie działania portów USB routera.
 
 - **Power Threshold**: Ustaw próg zasilania USB (w procentach), który określa minimalny poziom energii wymagany do działania USB, co pomaga oszczędzać baterię.
 
-## Ustawienia zasilania
+## Ustawienia zasilania {#power-settings}
 
 Ta sekcja umożliwia optymalizację zużycia energii i działania urządzenia.
 

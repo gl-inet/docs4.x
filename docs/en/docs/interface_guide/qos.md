@@ -1,4 +1,4 @@
-# QoS (Quality of Service)
+# QoS (Quality of Service) {#qos-quality-of-service}
 
 **Note**: This feature was introduced in firmware v4.9. 
 
@@ -17,7 +17,7 @@ QoS (Quality of Service) optimizes bandwidth allocation by prioritizing critical
 3. QoS and SQM cannot be enabled simultaneously.
 4. QoS cannot work with Network Acceleration. Enabling QoS will automatically disable Network Acceleration to ensure stable performance.
 
-## Supported Models
+## Supported Models {#supported-models}
 
 ??? "Supported Models"
     - GL-MT6000 (Fortify)
@@ -55,7 +55,7 @@ QoS (Quality of Service) optimizes bandwidth allocation by prioritizing critical
     - GL-AP1300 (Cirrus)
     - GL-S1300 (Convexa-S)
 
-## For firmware v4.11 and above
+## For firmware v4.11 and above {#for-firmware-v411-and-above}
 
 Toggle the switch to enable QoS, then complete the configuration by following the steps below.
 
@@ -111,7 +111,7 @@ Toggle the switch to enable QoS, then complete the configuration by following th
 
         ![advanced qos rule](https://static.gl-inet.com/docs/router/en/4/interface_guide/qos/advanced_qos_rule.png){class="glboxshadow" width=500}
 
-## For firmware v4.9 to v4.10
+## For firmware v4.9 to v4.10 {#for-firmware-v49-to-v410}
 
 Toggle the switch to enable QoS, and the page displays as follows.
 

@@ -1,18 +1,18 @@
-# Actualizar la versión de U-Boot
+# Actualizar la versión de U-Boot {#upgrade-u-boot-version}
 
-## Advertencia
+## Advertencia {#warning}
 
 **Actualizar U-Boot es muy peligroso y, en general, no se recomienda. Si falla, su dispositivo quedará bloqueado y no habrá forma de restaurarlo. Hágalo solo cuando sea necesario o si así se lo indica el soporte de GL.iNet**.
 
 **NO apague el equipo durante el proceso de actualización, ya que esto puede provocar que la actualización falle y que el dispositivo quede bloqueado**.
 
-## Preparación
+## Preparación {#preparation}
 
 - Un ordenador con puerto Ethernet. Si no lo tiene, prepare un adaptador USB a Ethernet adicional.
 - Un cable Ethernet.
 - Descargue el archivo U-Boot según las instrucciones del personal de soporte de GL.iNet. Asegúrese de estar usando el archivo U-Boot correcto. Si no sabe cómo descargarlo, contáctenos por correo electrónico en support@gl-inet.com.
 
-## Pasos de actualización
+## Pasos de actualización {#upgrade-steps}
 
 Siga los procedimientos que se indican a continuación para acceder a la página de actualización de U-Boot.
 

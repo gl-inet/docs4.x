@@ -1,23 +1,23 @@
-# Guida utente di Creta (GL-AR750)
+# Guida utente di Creta (GL-AR750) {#creta-gl-ar750-user-guide}
 
-## Panoramica del prodotto
+## Panoramica del prodotto {#product-overview}
 
 Creta (GL-AR750) e un router da viaggio AC dual-band. Il dual-band simultaneo supporta una velocita di trasmissione wireless fino a 733 Mbps (2,4 GHz: 300 Mbps + 5 GHz: 433 Mbps). Creta puo convertire una rete pubblica in una rete Wi-Fi privata per una navigazione sicura. L'archiviazione esterna supporta schede MicroSD fino a 128 GB. OpenWrt/LEDE e OpenVPN sono preinstallati. Per questo motivo, Creta offre agli utenti attenti alla privacy una VPN veloce e semplice che utilizza crittografia all'avanguardia.
 
 ![ar750 overview](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar750/product_info/ar750_overview.png){class="glboxshadow"}
 
-### Specifiche
+### Specifiche {#specifications}
 
 [Specifiche GL-AR750](https://www.gl-inet.com/products/gl-ar750/#specs){target="_blank"}
 
-## Come configurare Creta
+## Come configurare Creta {#how-to-set-up-creta}
 
 Per configurare Creta, puoi usare uno dei quattro metodi di connessione Internet supportati: Ethernet, Repeater, Tethering e Cellular. Guarda questo video di configurazione oppure segui i passaggi riportati di seguito.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3dm0w5kjAlc?si=3YykOcaz_YK_vp28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <small>(Questo video utilizza un router GL.iNet diverso per mostrare la configurazione, ma i passaggi sono gli stessi per Creta e per gli altri modelli di router.)</small>
 
-### 1. Accendi Creta
+### 1. Accendi Creta {#1-power-on-creta}
 
 Collega il cavo di alimentazione Micro USB alla porta di alimentazione del router. Assicurati di usare un alimentatore standard da 5V/2A.
 
@@ -25,7 +25,7 @@ Collega il cavo di alimentazione Micro USB alla porta di alimentazione del route
 
     L'hot plugging della scheda TF non e supportato. Se desideri usare una scheda TF, inseriscila prima di accendere il router.
 
-### 2. Collega il dispositivo a Creta
+### 2. Collega il dispositivo a Creta {#2-connect-your-device-to-creta}
 
 Collega il computer o il dispositivo mobile al router tramite Wi-Fi o Ethernet.
 
@@ -37,15 +37,15 @@ Collega il computer o il dispositivo mobile al router tramite Wi-Fi o Ethernet.
 
     Collega il dispositivo alla porta LAN del router utilizzando un cavo Ethernet.
 
-### 3. Collega Creta a Internet
+### 3. Collega Creta a Internet {#3-connect-creta-to-the-internet}
 
 **Note:** Le istruzioni seguenti sono state scritte per chi collega il router a Internet tramite il pannello di amministrazione web. Se desideri usare l'app GL.iNet invece del pannello di amministrazione web, [scarica l'app](https://www.gl-inet.com/app/){target="_blank"} e segui le istruzioni mostrate sullo schermo.
 
-#### 1. Accedi al pannello di amministrazione web del router
+#### 1. Accedi al pannello di amministrazione web del router {#1-log-in-to-the-router-web-admin-panel}
 
 Nella barra degli indirizzi di un browser web, inserisci `192.168.8.1`. Scegli la lingua, quindi fai clic su **Next**. Imposta la password di amministrazione, quindi fai clic su **Apply**.
 
-#### 2. Configura il metodo o i metodi di connessione Internet
+#### 2. Configura il metodo o i metodi di connessione Internet {#2-set-up-your-internet-connection-methods}
 
 === "Ethernet"
 
@@ -91,7 +91,7 @@ Nella barra degli indirizzi di un browser web, inserisci `192.168.8.1`. Scegli l
 
 ---
 
-## Come configurare una VPN
+## Come configurare una VPN {#how-to-set-up-a-vpn}
 
 Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il dispositivo e il server VPN. Offre un ulteriore livello di privacy e sicurezza come client VPN e consente di accedere a una rete remota come server VPN. Creta, come gli altri router GL.iNet, supporta OpenVPN e WireGuard.
 
@@ -111,7 +111,7 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il disp
 
 ---
 
-## Altre applicazioni
+## Altre applicazioni {#more-applications}
 
 === "Plug-ins"
 
@@ -127,7 +127,7 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il disp
 
 ---
 
-## Impostazioni di rete
+## Impostazioni di rete {#network-settings}
 
 === "Firewall"
 
@@ -220,7 +220,7 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il disp
 
     Per istruzioni dettagliate e ulteriori informazioni, fai riferimento a [IGMP Snooping](../../interface_guide/igmp_snooping.md).
 
-## Impostazioni di sistema
+## Impostazioni di sistema {#system-settings}
 
 === "Overview"
 

@@ -1,10 +1,10 @@
-# SMS
+# SMS {#sms}
 
 Routery komórkowe GL.iNet są wyposażone we wbudowany modem obsługujący wysyłanie i odbieranie wiadomości SMS po włożeniu karty SIM.
 
 **Uwaga**: Ta funkcja działa wyłącznie na modelach GL.iNet 4G/5G z oryginalnym modułem 4G LTE/5G NR. Nie jest obsługiwana na innych modułach ani żadnych modułach USB.
 
-## Obsługiwane modele
+## Obsługiwane modele {#supported-models}
 
 ??? "Obsługiwane modele"
     - GL-E5800 (Mudi 7)
@@ -41,7 +41,7 @@ Routery komórkowe GL.iNet są wyposażone we wbudowany modem obsługujący wysy
     - GL-B1300 (Convexa-B)
     - GL-AP1300 (Cirrus)
 
-## Szybka konfiguracja
+## Szybka konfiguracja {#quick-setup}
 
 Poniższy przykład dotyczy modelu GL-X3000 (Spitz AX).
 

@@ -1,6 +1,6 @@
 {
   "docs/en/docs/faq/block_non_vpn_traffic.md": {
-    "source_hash": "ba072a2ff5a6f604d5ca92fb2dd22253fb1c088e5bc087de75f5720139166b29",
+    "source_hash": "c876afa1384081f7ad498f925e8fa6ab152ce341200c32e08f9d244c7309c238",
     "targets": {
       "de": {
         "model": "pre-existing",
@@ -33,7 +33,7 @@
     }
   },
   "docs/en/docs/faq/cannot_access_web_admin_panel.md": {
-    "source_hash": "37768d7c05e0e7013055ff1758afdfdae999ad6380c27956551ec076ff42ab82",
+    "source_hash": "f49b174422ef639aad00ba6d155f09a13d6ea5fb6ab81d83f386b279df28b90c",
     "targets": {
       "de": {
         "model": "claude-opus-5-5-manual-sync",
@@ -66,7 +66,7 @@
     }
   },
   "docs/en/docs/faq/cannot_scan_android_5g_hotspot.md": {
-    "source_hash": "af4eec44e9956aa11b13aafb6782c8699cb71ada5cdd196d5d5dfa159e268d35",
+    "source_hash": "9b7704924c464f9d9fa2c24f889f5ecc360a9b5be1fb494bfe7c15f248b76ea1",
     "targets": {
       "de": {
         "model": "manual-structural-sync",
@@ -99,7 +99,7 @@
     }
   },
   "docs/en/docs/faq/cannot_scan_iphone_5g_hotspot.md": {
-    "source_hash": "95512c9e1e29861272f9f7b45216391cc37f17782586dd2748f569ca0cea5960",
+    "source_hash": "be233a16e7c1fcaf50b224cb9bdd4c4a6e42607c79d543c4dea08d3a8927fc1a",
     "targets": {
       "de": {
         "model": "manual-structural-sync",
@@ -132,7 +132,7 @@
     }
   },
   "docs/en/docs/faq/cellular_network_troubleshooting_guide.md": {
-    "source_hash": "cb64857c8d13ad56edb06fd0f1c9f198d5236d0eb0f0b30c5cae17804c3a21a6",
+    "source_hash": "3efaad1f2b8f32d666f323895258edd8cf0ea3c8420aad94f1014fb2143006c7",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -165,7 +165,7 @@
     }
   },
   "docs/en/docs/faq/change_wan_to_lan.md": {
-    "source_hash": "7226c8fe9b8d53e483c37226dbe714bb16af9c43461b24e22d2d17989140ea5b",
+    "source_hash": "9586bafea7dcbd334bbab31b7648e81d470f843ba3a5a137ef36e3872e4016c3",
     "targets": {
       "de": {
         "model": "manual-incremental-sync",
@@ -198,7 +198,7 @@
     }
   },
   "docs/en/docs/faq/connect_glinetrouter_to_starlink.md": {
-    "source_hash": "836a5aa2d62893936ba096263c958781003793c12acb167fad978bba95be2bb1",
+    "source_hash": "7450b586f7fd209466647511a93c3256c5bf81c63aa047be555d7a874d2707dd",
     "targets": {
       "de": {
         "model": "pre-existing",
@@ -231,7 +231,7 @@
     }
   },
   "docs/en/docs/faq/connect_to_a_hotspot_with_captive_portal.md": {
-    "source_hash": "def9b9bd79309225df08666278f05c773656bbc3282587380cdf7d30307b490d",
+    "source_hash": "b818ef6441825422308ab5fb5692fcaac434681709ceccdcdff38e3b19d62720",
     "targets": {
       "de": {
         "model": "manual-incremental-sync",
@@ -264,7 +264,7 @@
     }
   },
   "docs/en/docs/faq/debrick.md": {
-    "source_hash": "74710ef5fbe4e96eff5d521656bfdd644c50f2cbf6b6bf7e3bf380c7d5f99216",
+    "source_hash": "556a4947cb83c108018a405f58a8883357a5e2e7cf097c9ffa710f2f1b70bd80",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -297,7 +297,7 @@
     }
   },
   "docs/en/docs/faq/do_i_have_to_configure_ethernet_wan_when_using_vpn.md": {
-    "source_hash": "0c218fb825fe32e250c071c794d1ebbcd6b58877ca79d9abcb80a7a9275c284d",
+    "source_hash": "262b4b1f1008c261c86d819e6af26b9141718a052e2982196db3c2cb6cc5d710",
     "targets": {
       "de": {
         "model": "pre-existing",
@@ -330,7 +330,7 @@
     }
   },
   "docs/en/docs/faq/esim_profile_installation_failed.md": {
-    "source_hash": "464f3acb8682439fc40f95aeee8fd739a2da8a7c67b58acbce16fcac2708d546",
+    "source_hash": "2fb4bfbf280ff1cf6ac66e3376ef58b230b657669c81385375b2269d335e48b2",
     "targets": {
       "de": {
         "model": "pre-existing",
@@ -363,7 +363,7 @@
     }
   },
   "docs/en/docs/faq/first_time_setup.md": {
-    "source_hash": "461487bb0e79853048da7ec313e26692b71fd590d62dc35fa167b075fd888f2f",
+    "source_hash": "347c6d6e2238084bfed7e2470543c172340331f3bb813cc0b9656b226570152c",
     "targets": {
       "de": {
         "model": "manual-structural-sync",
@@ -396,7 +396,7 @@
     }
   },
   "docs/en/docs/faq/how_can_i_know_the_lan_wifi_mac.md": {
-    "source_hash": "371f135b99cfe8962b060214ef9b058767879baa172d6982491f0e67dea1ab05",
+    "source_hash": "38519e8cad00d2f92727d4f5e9fc16512d3d4212007ed82e110da4427d6b9a47",
     "targets": {
       "de": {
         "model": "manual-sync",
@@ -429,7 +429,7 @@
     }
   },
   "docs/en/docs/faq/how_to_add_brume2_into_app.md": {
-    "source_hash": "93a54be86d0df49e3449ff27081adcdaf990fd636c4f88f6612e1b362139aebd",
+    "source_hash": "c3e04825ca3bfa173f9ce9668f4b40812f71a1272255e23676421366228dda11",
     "targets": {
       "de": {
         "model": "manual-structural-sync",
@@ -462,7 +462,7 @@
     }
   },
   "docs/en/docs/faq/how_to_download_firmware.md": {
-    "source_hash": "98f0eb116d5545d75076976199bbb1556967a88c392fe3fbc630c467600a79ce",
+    "source_hash": "a5ed4e2c46d28ff81f2044eeba7c5141189d59a4a645bff9efa719c8d4f593f9",
     "targets": {
       "de": {
         "model": "pre-existing",
@@ -495,7 +495,7 @@
     }
   },
   "docs/en/docs/faq/how_to_make_wifi_calling_work_on_opal.md": {
-    "source_hash": "813ebfd2c39107a39c59e72bdc13e955415db8cea4ebee852d076ef225c250e1",
+    "source_hash": "629e441f29083406d7cebfe8de13e4b0b90b4b1ace8587e93fca09c654d2f78f",
     "targets": {
       "de": {
         "model": "claude-opus-5-5-manual-sync",
@@ -528,7 +528,7 @@
     }
   },
   "docs/en/docs/faq/how_to_resolve_a_subnet_conflict.md": {
-    "source_hash": "68fb29a1f7736e7a3dc060760a2a01a90d6c0f0aa6cd11cb2a60376928b2b966",
+    "source_hash": "ddac290a34f70e6d13398311ee36632426aa074f30245c31804ee27ea822cff0",
     "targets": {
       "de": {
         "model": "pre-existing",
@@ -561,7 +561,7 @@
     }
   },
   "docs/en/docs/faq/index.md": {
-    "source_hash": "cab33f3a29103e6cb0882e5c91cebd379c86b05ba259640ebb921327f64dc015",
+    "source_hash": "5f09f79067a1610e48569116c6ab360bfc5fb50e3bc6f6ba97f575afae85a6d3",
     "targets": {
       "de": {
         "model": "manual-structural-sync",
@@ -594,7 +594,7 @@
     }
   },
   "docs/en/docs/faq/internet_connection_troubleshooting.md": {
-    "source_hash": "b7289ec055afd05482d3d351cf5b99652bf5b5a148ccf2316b3d6f15065486b7",
+    "source_hash": "237ab4101419598c1191122008fe76245521fe601e2a55b764d37180915a4f1d",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -627,7 +627,7 @@
     }
   },
   "docs/en/docs/faq/iphone_tethering_fail.md": {
-    "source_hash": "0691a6c71c506d575263a3376c1d2a99790f388c76a2e9722944f9ad60eb406f",
+    "source_hash": "f7ea28b431aa5f6b06380c4ea36fabbc7db9a1dbae934365988f7515fe311006",
     "targets": {
       "de": {
         "model": "manual-structural-sync",
@@ -660,7 +660,7 @@
     }
   },
   "docs/en/docs/faq/led.md": {
-    "source_hash": "59b1d150e1a847caa7ca9563f4a7ecc9d572e9367881f894faa33c44a887f99a",
+    "source_hash": "ebed0e14bd21162c24e4dfed7866481b3e2f7be4b8e6f45dc8e5c6364e0e83d7",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -693,7 +693,7 @@
     }
   },
   "docs/en/docs/faq/macos_cannot_write_samba.md": {
-    "source_hash": "8e38ab8450d72410d2a620b8dcc7aa040f50005d249483c5adc218ba6f8cf075",
+    "source_hash": "76acc20d38d854781d1369043c34a5f5598328df6ae816a95a96c32f2b8070d0",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -726,7 +726,7 @@
     }
   },
   "docs/en/docs/faq/mobile_app.md": {
-    "source_hash": "916f20945205d966f28806c8cbd060bd04c0058b2ee0631c0ce96ea36acae979",
+    "source_hash": "ebcda9fb6c97e78cd27d1ad1067f1d487f0cfdaa395ce5ab929b24e263b91804",
     "targets": {
       "de": {
         "model": "deepseek-v4-pro",
@@ -759,7 +759,7 @@
     }
   },
   "docs/en/docs/faq/no_internet_after_replacing_the_old_router_with_glinet.md": {
-    "source_hash": "d0fffaf0d518ddf81849b4dc53e28ca04d4708faea005b950277e793d3f27a56",
+    "source_hash": "34652b474888751701acd889a1cbefa5835d0018ffb4b71d8aef92c633439ed3",
     "targets": {
       "de": {
         "model": "manual-incremental-sync",
@@ -792,7 +792,7 @@
     }
   },
   "docs/en/docs/faq/openvpn_tcp_udp.md": {
-    "source_hash": "70564ff1f36936b4b4d4618af23222217f49c647368b579296f1b05615ebe62e",
+    "source_hash": "fe77fcbbfa3316e5949f864a7c18e8ee19b4f6caff893faa4d9fff3e56f90ca4",
     "targets": {
       "de": {
         "model": "pre-existing",
@@ -825,7 +825,7 @@
     }
   },
   "docs/en/docs/faq/problem_notification_and_solutions_for_x3000_x2000_failure_to_work_with_ee_sim_cards.md": {
-    "source_hash": "8763f79e76f00f048515f5b4aea7e50f9205c41b7c852d540c0052f2d46ac67a",
+    "source_hash": "eb1e04b146f3dd3e39fb6fef1d74350759d85c0442e73a02f7bd1476c9a6ff30",
     "targets": {
       "de": {
         "model": "manual-structural-sync",
@@ -858,7 +858,7 @@
     }
   },
   "docs/en/docs/faq/problem_notification_for_mt2500_x3000_xe3000.md": {
-    "source_hash": "710e430576fa9a742d467e21d4e9810f4c52fe21b1ce3e5c38599fbcd07ea15b",
+    "source_hash": "030a1320687405f2441cd769c08d6d6303bbd3e8ab87eed98522ba809702f416",
     "targets": {
       "de": {
         "model": "manual-structural-sync",
@@ -891,7 +891,7 @@
     }
   },
   "docs/en/docs/faq/produce_a_wired_connection.md": {
-    "source_hash": "c636b83b519e063b7fd2326d6a4d81a3965d46809711b3c78870c697d85ea036",
+    "source_hash": "b59b59273de5c1077b4b163d26d109f8a18c8be9be823230756cc1078c62613b",
     "targets": {
       "de": {
         "model": "claude-opus-5-5-manual-sync",
@@ -924,7 +924,7 @@
     }
   },
   "docs/en/docs/faq/remote_access_web_admin_panel.md": {
-    "source_hash": "fd1248595be9ad44f43206fa717c528e3cc2cad3ae05d0b1624698a683584a5d",
+    "source_hash": "f26f240cfef3eb86c16c6780474fcec76e2ce86ab27e927e4fba87249ff19d71",
     "targets": {
       "de": {
         "model": "manual-structural-sync",
@@ -957,7 +957,7 @@
     }
   },
   "docs/en/docs/faq/repair_network_or_reset_firmware.md": {
-    "source_hash": "38c721fbfdf1e205a02e0b2242c3e4c089088b2a8bf88d1718f1b11f18c77307",
+    "source_hash": "9ccc6981a995a31a7664cc700d898646f1f543826fa12fbc09e91073bcf3d163",
     "targets": {
       "de": {
         "model": "claude-opus-5-5-manual-sync",
@@ -990,7 +990,7 @@
     }
   },
   "docs/en/docs/faq/stuck_on_installing_during_firmware_update.md": {
-    "source_hash": "f8c16cdbd177a3f6d2c60e37866952c1547762d3032267604393b892f2208898",
+    "source_hash": "3ed6272c2621a85d9f7c0e3c44bc85ac9aa86d8801943a8232a92a6878e7bbda",
     "targets": {
       "de": {
         "model": "pre-existing",
@@ -1023,7 +1023,7 @@
     }
   },
   "docs/en/docs/faq/stuck_on_rebooting_during_firmware_reboot.md": {
-    "source_hash": "dff2e5f19b1d672c845c5e75a3b7b7ebdb03bd5715f28d49d4464d1a96546fd6",
+    "source_hash": "abb52a641b7ab3af7dc260383e29c7a77070c81cac75e231ca6f0dfdca6033ef",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -1056,7 +1056,7 @@
     }
   },
   "docs/en/docs/faq/stuck_on_reverting_during_firmware_reset.md": {
-    "source_hash": "b3dfe923594ab5bdf50767445c9f16edc31b83bb9ebe54884490f544c753a8fd",
+    "source_hash": "197158dbe56b50b8edea202c187fc25b52479681c8e5bf25d654e74b04297aa0",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -1089,7 +1089,7 @@
     }
   },
   "docs/en/docs/faq/upgrade_to_4.md": {
-    "source_hash": "e272496321c51d7df2a48bddf1c4dc48e8e5fea5b81fa019f63ad324307f5965",
+    "source_hash": "b4985f02c73d6557bf621e777a56ffc661803a47a81375ffdfbc3e5314223357",
     "targets": {
       "de": {
         "model": "manual-structural-sync",
@@ -1122,7 +1122,7 @@
     }
   },
   "docs/en/docs/faq/upgrade_uboot_version.md": {
-    "source_hash": "20afb738e2213b2833ad76f0152fe3f560219b33720ba4fb62d02206967eba27",
+    "source_hash": "813d1bea5873082abf539081cebd4b073f23e349f1917cf0b762deafa2ca85d7",
     "targets": {
       "de": {
         "model": "claude-opus-5-5-manual-sync",
@@ -1155,7 +1155,7 @@
     }
   },
   "docs/en/docs/faq/usb_modem_is_not_working_properly_on_gl_inet_router.md": {
-    "source_hash": "d6d00a19a18926a32b4319005d50f77d503a09e73c31eb37376c4bb81c31c1d8",
+    "source_hash": "069955849108076cf619b9055a5458540002f3ff861a45cb2f99142ec847565c",
     "targets": {
       "de": {
         "model": "pre-existing",
@@ -1188,7 +1188,7 @@
     }
   },
   "docs/en/docs/faq/use_https_for_adh.md": {
-    "source_hash": "d5807320a9e06a0a4d97dd674a710be7cb33bb0696eba6e57b172c1fab0d8d2c",
+    "source_hash": "d2145be0df6e535972e841978c35335631d0d4e1e0a5de2b6d2f676d4b6b5541",
     "targets": {
       "de": {
         "model": "manual-structural-sync",
@@ -1221,7 +1221,7 @@
     }
   },
   "docs/en/docs/faq/warning_from_your_browser_during_setup.md": {
-    "source_hash": "1ee17736b4a285458fc46d81e49c0ef6e011dfa92748c2c179d7424f79a7bdd7",
+    "source_hash": "130478e733dfe72ab7e098a9f4a0c79908682c7d5b3428330b74e36c8c3c1f26",
     "targets": {
       "de": {
         "model": "pre-existing",
@@ -1254,7 +1254,7 @@
     }
   },
   "docs/en/docs/faq/what_is_luci.md": {
-    "source_hash": "d9d0273d18e88786b50f9b01250d04dfd770fc277604c562aec441ede7f67107",
+    "source_hash": "e0287ca76fdb7f1dc8791b231e300264839716949f98c0b4b3df33bb8d84b477",
     "targets": {
       "de": {
         "model": "manual-structural-sync",
@@ -1287,7 +1287,7 @@
     }
   },
   "docs/en/docs/faq/what_is_the_device_capacity_of_my_router.md": {
-    "source_hash": "cbad9e8e99dc1420a4d6c49c7c09ddbad53d7f7ed30904e3e17afb2dac0dad03",
+    "source_hash": "056a8f80e79f68a9add18d25ece339a9ea2ebe5d4d058faf6ac0ef8048fd5873",
     "targets": {
       "de": {
         "model": "pre-existing",
@@ -1320,7 +1320,7 @@
     }
   },
   "docs/en/docs/faq/what_is_the_wireless_coverage_of_my_router.md": {
-    "source_hash": "eb1c3be18c46c10c0952c10f4b3025d621e5c8f828c3bbb384cb607cac64fb74",
+    "source_hash": "148a8092bdfde8a89a130ee19ae177be4e8bbdd4b4c3c6e50bb5353c00139e74",
     "targets": {
       "de": {
         "model": "pre-existing",
@@ -1353,7 +1353,7 @@
     }
   },
   "docs/en/docs/faq/where_to_find_the_device_id_mac_sn.md": {
-    "source_hash": "1d52d694d83f16f7de0244ce5611905caa755cb2e31612764bc37424b7da8e1b",
+    "source_hash": "7a94cfff31a17078658a3f0e21921acb2abbf4f16a8765123aa1940b22c10968",
     "targets": {
       "de": {
         "model": "manual-structural-sync",
@@ -1386,7 +1386,7 @@
     }
   },
   "docs/en/docs/faq/why_do_I_get_a_message_from_ddns_test.md": {
-    "source_hash": "ef18311d1d7419a112a0734ca91e955f54408412569c4a156c8e78fde2d2df8b",
+    "source_hash": "d0c7b1cbcde327b11a47e91ca2853682c6cf1fb2274a66e47ff864be0186715f",
     "targets": {
       "de": {
         "model": "pre-existing",
@@ -1419,7 +1419,7 @@
     }
   },
   "docs/en/docs/faq/why_is_my_vpn_speed_slow.md": {
-    "source_hash": "4f09d4b80c9a82a486eec9f0db1699d56360ee7378466b5fc3b56489c280408f",
+    "source_hash": "461e645165dad3ed32bd9570963a4eb2ba4ea793ca55a02689c392f9e55ea2ea",
     "targets": {
       "de": {
         "model": "claude-opus-5-5-manual-sync",
@@ -1485,7 +1485,7 @@
     }
   },
   "docs/en/docs/interface_guide/adguardhome.md": {
-    "source_hash": "a5001a69ecbf81ce6a1865a47db2e60beb0151ef6f7c38e79c540c04eb2d463f",
+    "source_hash": "bb95f21fc3f6c74b3e14eb0538675fe11dd9a8ba1bc024a22f8dbdb7a9a3a413",
     "targets": {
       "de": {
         "model": "claude-opus-5-5-manual-sync",
@@ -1518,7 +1518,7 @@
     }
   },
   "docs/en/docs/interface_guide/admin_password.md": {
-    "source_hash": "e5fcdbbaaf41c9d378be7fd52c28a25495f0c8deb74db53f09b7d719c7fbca83",
+    "source_hash": "07c38e1b10fa65d001690d2c3e6d2e7de24fabc70314ae98f29a6a2665a9201f",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -1551,7 +1551,7 @@
     }
   },
   "docs/en/docs/interface_guide/advanced_settings.md": {
-    "source_hash": "e1e806a7b385f76ac5b3af51f8ab9ada33c9b64497c0cac06187209cc39417f9",
+    "source_hash": "308349bd57d64974a840aac06f71ff959b1411e10d03270535061f794e18b54b",
     "targets": {
       "de": {
         "model": "manual-structural-sync",
@@ -1584,7 +1584,7 @@
     }
   },
   "docs/en/docs/interface_guide/astrowarp.md": {
-    "source_hash": "058e681ccf62c937c3a0f45eddb37e92c84b95dd90d520d1a2c8bda450008215",
+    "source_hash": "54635468e93817d6c8eccdc0c43a03350ad8f1e29943042541c2f12633b7e74a",
     "targets": {
       "de": {
         "model": "claude-opus-5-5-manual-sync",
@@ -1617,7 +1617,7 @@
     }
   },
   "docs/en/docs/interface_guide/bark.md": {
-    "source_hash": "129982cf9fbe563cf46eb03f22ffed0ff0ebb1faf4137e21c9d3e28eb3d753fb",
+    "source_hash": "146c9110fc8712483c1fb52d580c5639cfafcc39a22333f067d533af6150e3cc",
     "targets": {
       "de": {
         "model": "claude-opus-5-5-manual-sync",
@@ -1650,7 +1650,7 @@
     }
   },
   "docs/en/docs/interface_guide/clients.md": {
-    "source_hash": "4307a0c64fc6abc69292b84266fc5a90d11793c09e46d78bbe9a6394182758db",
+    "source_hash": "5ad831f71349359e77dac50cebf2d0c5dbf6587b690dd570adf4d8ff1f75672d",
     "targets": {
       "de": {
         "model": "manual-incremental-sync",
@@ -1683,7 +1683,7 @@
     }
   },
   "docs/en/docs/interface_guide/cloud.md": {
-    "source_hash": "d1d739721a7d48be748546d5433fea59bf772718b15471fc1716bc6edc89214f",
+    "source_hash": "e0ec9079b7a295264d06aa95e98fe02c9fa3988840cbaf3d92c08b427b89376c",
     "targets": {
       "de": {
         "model": "claude-opus-5-5-manual-sync",
@@ -1716,7 +1716,7 @@
     }
   },
   "docs/en/docs/interface_guide/content_filter.md": {
-    "source_hash": "7818890184f9e7d3f8038bd0f6cd83935deb6352485deb197f77cb85922230ad",
+    "source_hash": "373787e83115d728755cc8541831df14f1dbc695466fc7c48eb6bfda8c2109ca",
     "targets": {
       "de": {
         "model": "claude-opus-5-5-manual-sync",
@@ -1749,7 +1749,7 @@
     }
   },
   "docs/en/docs/interface_guide/data_statistics.md": {
-    "source_hash": "9a6e6d0cf40f9481e22ebd11c77f2bac2c675ffd9f0ee86659c7d7aef7ace3d2",
+    "source_hash": "8866d8ad343f3b15d806aad9ce8ccc8f275e2ff3aecdf4cec462ed0bdfa23ffd",
     "targets": {
       "de": {
         "model": "claude-opus-5-5-manual-sync",
@@ -1782,7 +1782,7 @@
     }
   },
   "docs/en/docs/interface_guide/ddns.md": {
-    "source_hash": "cd8cf45c6f6118ab704cee8f2be3985b9cdbd94ec570a03483858d8f87b0f7fa",
+    "source_hash": "5cbd4cfdb1dccb07874898795283c97892f4820d33322acc116a021943c8157e",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -1815,7 +1815,7 @@
     }
   },
   "docs/en/docs/interface_guide/display_management.md": {
-    "source_hash": "04d80be4663ed6eda3b70bca8c1d4b9d67b325588e21d28f970ecd30c87fe6ba",
+    "source_hash": "beaff68ac551076bbc64382117b7759db4ab4125026cfd42e15055426361d30b",
     "targets": {
       "de": {
         "model": "manual-incremental-sync",
@@ -1848,7 +1848,7 @@
     }
   },
   "docs/en/docs/interface_guide/dns.md": {
-    "source_hash": "cf1c6aa84e2bd63dd398218573eca66de4486e40dfe1bd5e1c4618da375aaa2b",
+    "source_hash": "9198a682d333272838b99d6be35f52d783ca46b0bb7eff8d5ff08a16d4d6b0df",
     "targets": {
       "de": {
         "model": "codex-gpt-5-manual-sync",
@@ -1881,7 +1881,7 @@
     }
   },
   "docs/en/docs/interface_guide/dpi_engine.md": {
-    "source_hash": "2ba5d45b3c508ee1b210acc759b31db55bce7dc3fb266157dabfd6e5ce262a2c",
+    "source_hash": "1386665669507cfb87c87d54aaf01b4a7bf2a3d4ae4ed0d88e161ec79857f56e",
     "targets": {
       "de": {
         "model": "claude-opus-5-5-manual-sync",
@@ -1914,7 +1914,7 @@
     }
   },
   "docs/en/docs/interface_guide/drop-in_gateway.md": {
-    "source_hash": "3e8514d8a71cb4c4a353bc1648a7ebc8b4125155575295f7ca22039be01257a1",
+    "source_hash": "e4c866e32fb5969f3305579a980e49d362909028a34a4f533a6d9868458eb434",
     "targets": {
       "de": {
         "model": "claude-opus-5-5-manual-sync",
@@ -1947,7 +1947,7 @@
     }
   },
   "docs/en/docs/interface_guide/esim_management.md": {
-    "source_hash": "5de2e44d82d2ea242e47ac79f539d69b9064b716f56834da152e899d5131406c",
+    "source_hash": "f9d1925aa9f3cb8989c73345bf9d9a4137bc99dfce6a85f388da83452bd9477a",
     "targets": {
       "de": {
         "model": "manual-incremental-sync",
@@ -1980,7 +1980,7 @@
     }
   },
   "docs/en/docs/interface_guide/ethernet_port.md": {
-    "source_hash": "e53a5582a012e36acbaa9d734b5385488a31b0bb0a79234b204c87c9fe91b8cb",
+    "source_hash": "8f1381fd7389afde582a15e382b1f5f71a11725ce81f42b512224f2aeb1f8d19",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -2013,7 +2013,7 @@
     }
   },
   "docs/en/docs/interface_guide/firewall.md": {
-    "source_hash": "06c6d5b2f4ea83991b36674608dacd7d1e49e511065b06b6f7a2c86840a5634c",
+    "source_hash": "97cf5d14deb422f8782638c9120e683236dd8cacc3ebd1eb8ffba1130e50bdf2",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -2046,7 +2046,7 @@
     }
   },
   "docs/en/docs/interface_guide/guest_network.md": {
-    "source_hash": "347216a7035b8b518f3433752e46bd9875f166dfc638171f1710ae04a9d3a8b1",
+    "source_hash": "6013bc0fea247cb1f0146b69014cca9bc291ae2b8163a667631fa916bdcd957e",
     "targets": {
       "de": {
         "model": "codex-gpt-5-manual-sync",
@@ -2079,7 +2079,7 @@
     }
   },
   "docs/en/docs/interface_guide/hardware_acceleration.md": {
-    "source_hash": "9708c4081aba02191d5c589578fa524c50f9b7f5219c0fa256345c237f2b6d94",
+    "source_hash": "ca0ae94321ca723993581b5d97f62d7636d877bfc6ee881408674920c4665780",
     "targets": {
       "de": {
         "model": "claude-opus-5-5-manual-sync",
@@ -2112,7 +2112,7 @@
     }
   },
   "docs/en/docs/interface_guide/help.md": {
-    "source_hash": "3cfb9a521fe779763bda2c977deda418b1982cdc8eb8910151e7d8374e552d8f",
+    "source_hash": "7a8636374a9e532abb0345be0e035f631286d7e6448f57aad7f62d169c4a04b4",
     "targets": {
       "de": {
         "model": "pre-existing",
@@ -2145,7 +2145,7 @@
     }
   },
   "docs/en/docs/interface_guide/how_to_set_up_urban_shield_vpn_on_glinet_router.md": {
-    "source_hash": "75ddfee056d15bb56184df242c6b65e81bf64f2aa649e90c19114b408b3c6891",
+    "source_hash": "65aa2a79e8274f1da5dfee77f498233ded3d830ebda0e42a765fba56c06139e8",
     "targets": {
       "de": {
         "model": "deepseek-v4-pro",
@@ -2178,7 +2178,7 @@
     }
   },
   "docs/en/docs/interface_guide/igmp_snooping.md": {
-    "source_hash": "a5abbc83d0eb2fa35749fea91712008542e888a66686695cd423a72a26f04306",
+    "source_hash": "c8f99159110a17288b195f1fe18a6f52b2c75500af4c7e6bf83e26928f040c4a",
     "targets": {
       "de": {
         "model": "claude-opus-5-5-manual-sync",
@@ -2211,7 +2211,7 @@
     }
   },
   "docs/en/docs/interface_guide/index.md": {
-    "source_hash": "0a1f228871cca4fb86077342abe0a9110e124a27fca06ef812e688e980cbfd74",
+    "source_hash": "877b46b97ad65872ead2c7002224a72e7853dab8a87e5a424ac8cae7f881a866",
     "targets": {
       "de": {
         "model": "codex-gpt-5-manual-sync",
@@ -2244,7 +2244,7 @@
     }
   },
   "docs/en/docs/interface_guide/internet.md": {
-    "source_hash": "a3e41d16338e307b8dfe203710d395382d317a1572f1e537e587b8fade9792fc",
+    "source_hash": "ed2886191d9023fb1cb1f82bf09ede2fb778eff93f4abe99bd2e3e198761f71a",
     "targets": {
       "de": {
         "model": "claude-opus-5-5-manual-sync",
@@ -2277,7 +2277,7 @@
     }
   },
   "docs/en/docs/interface_guide/internet_cellular.md": {
-    "source_hash": "71b003cf8ef505f52b8c40b96d39b46675878bf1a941a334c8fc59acad7fa02c",
+    "source_hash": "b3abd511c3e7aaaad9e34b436651fa529cd8178c415145611e98494da1353fc2",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -2310,7 +2310,7 @@
     }
   },
   "docs/en/docs/interface_guide/internet_cellular_v4.7.md": {
-    "source_hash": "085fb65bada2730e6efe0546509ce24984921e958b4a31175b786a4b10eade0b",
+    "source_hash": "e8df09a7e40142375df30c79b6d43ecd8f3a21e01ec224e8b56d8a30fc5a0dc9",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -2343,7 +2343,7 @@
     }
   },
   "docs/en/docs/interface_guide/internet_ethernet.md": {
-    "source_hash": "713b96e5216bb0b4d8f16a31fcb4bc0fe6e2a02f45d6bb69ed794a506103736b",
+    "source_hash": "efc6a0f54c07e3e244ea07e8db00c30812ccd37481aadbda3b32a531321eb7cc",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -2376,7 +2376,7 @@
     }
   },
   "docs/en/docs/interface_guide/internet_repeater.md": {
-    "source_hash": "cc9bf7d6b21ef2e344b129b78a489c64f0bbddb7d2cce4be54e9f956b60b2e0f",
+    "source_hash": "957a781df978c9e9907c1f986b15373b42dad4a89dee3a1044d82599f28d47c3",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -2409,7 +2409,7 @@
     }
   },
   "docs/en/docs/interface_guide/internet_tethering.md": {
-    "source_hash": "4c4612322d8b6f6fcecc2bbcbc63ed2374f6a45fdbb3edcb3a964d542d0fc5de",
+    "source_hash": "ec818543ce54a76d1172c73b4ff3284ea752e0c8ac074afab6cee1beafde4013",
     "targets": {
       "de": {
         "model": "manual-structural-sync",
@@ -2442,7 +2442,7 @@
     }
   },
   "docs/en/docs/interface_guide/iot_network.md": {
-    "source_hash": "4afeae7610470331870bacb03d3204c4fb4a274be8826a51fa40adcb51f8c965",
+    "source_hash": "695339f380f3e363b465e9a232a25c50412dd0d150b8e1facaa672a6a0b64c18",
     "targets": {
       "de": {
         "model": "manual-incremental-sync",
@@ -2475,7 +2475,7 @@
     }
   },
   "docs/en/docs/interface_guide/ipv6.md": {
-    "source_hash": "e4c90a019d0fd31cf70e11a7eb028f79ef485481563b52e128e0ef3df006d632",
+    "source_hash": "3aabd3cf19bb425f33fa704c60863579df6ae6db530ac2f4dfe707ef095c42d5",
     "targets": {
       "de": {
         "model": "manual-structural-sync",
@@ -2508,7 +2508,7 @@
     }
   },
   "docs/en/docs/interface_guide/lan.md": {
-    "source_hash": "f89776ed8c2c9eef48b3b69c7ce8b580b9b2df82386d6a3c22feaf6e7722bce2",
+    "source_hash": "58c202223d554b42422dacc29783a009430d9b9da1b3e5db9f398de3249fec7f",
     "targets": {
       "de": {
         "model": "codex-gpt-5-manual-sync",
@@ -2541,7 +2541,7 @@
     }
   },
   "docs/en/docs/interface_guide/log.md": {
-    "source_hash": "c10f347a242c5073156c562eb695b0dbc0b938980083f25e60f485edf7160fdb",
+    "source_hash": "1d12489b9f86e836c5e0356ec8b617163ea5417045f46475671a44270c21d14c",
     "targets": {
       "de": {
         "model": "pre-existing",
@@ -2574,7 +2574,7 @@
     }
   },
   "docs/en/docs/interface_guide/mac_address.md": {
-    "source_hash": "a3ed1333a846f1929693d6edff5c9781ea065788dfd0d68e7a0884688e9fa105",
+    "source_hash": "2956ce7ce94915c22045ce883672e4f72e3dc32ff79620e9b5b4008afaa9450e",
     "targets": {
       "de": {
         "model": "pre-existing",
@@ -2607,7 +2607,7 @@
     }
   },
   "docs/en/docs/interface_guide/multi-wan.md": {
-    "source_hash": "01e9eb583f4f36b01a06cea4efa095090a5810c0e839dd6c44469e8909962330",
+    "source_hash": "956125ce4b01c562c0bf73f37a37b604ec3fe9c81dfa96ad9b8b37c447199917",
     "targets": {
       "de": {
         "model": "claude-opus-5-5-manual-sync",
@@ -2640,7 +2640,7 @@
     }
   },
   "docs/en/docs/interface_guide/nat_settings.md": {
-    "source_hash": "0d08c7854aeb8edab9fc8979599ba1c5e298dfdc7444be1f85afe52db9454c44",
+    "source_hash": "df744e271f112e61b701564a4a993149d85f7a2e71dad095560276a15090dabc",
     "targets": {
       "de": {
         "model": "claude-opus-5-5-manual-sync",
@@ -2673,7 +2673,7 @@
     }
   },
   "docs/en/docs/interface_guide/network_acceleration.md": {
-    "source_hash": "f2849256f71b1e8c607c851a1e1ae4bdb9cca436fb52d6ce65909c83fc459825",
+    "source_hash": "277581d0da93d8a46db6557616a710c847df7ee0839031d562e2bbcdc4dc0add",
     "targets": {
       "de": {
         "model": "claude-opus-5-5-manual-sync",
@@ -2706,7 +2706,7 @@
     }
   },
   "docs/en/docs/interface_guide/network_mode.md": {
-    "source_hash": "de495520167b9681be2b9aacf196f1d34a25ff48312f3d92b2b3ee747be24a3d",
+    "source_hash": "d6a20f0e17efc608ae23903e04e689bd454f4d8cc9e72771e5e164b16fd1d5d0",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -2739,7 +2739,7 @@
     }
   },
   "docs/en/docs/interface_guide/network_storage.md": {
-    "source_hash": "fb8ca82bbb01f70790873a1624bea7499d4c9d5b19ef232a45a47561ee632ca8",
+    "source_hash": "0f89ff49cf53a35fa09ecd686b2aea12ffa3b4b7351c66bf35ea85e57c8050ba",
     "targets": {
       "de": {
         "model": "claude-opus-5-5-manual-sync",
@@ -2772,7 +2772,7 @@
     }
   },
   "docs/en/docs/interface_guide/openvpn_client.md": {
-    "source_hash": "697e9ce35c2562ea080a086ecc1a833f72dd0a0313cab87041d962a917d189e6",
+    "source_hash": "f6c91c5058a342bc1fef1f3f660542bf25499df1e4c480dac25cf5a09028af3b",
     "targets": {
       "de": {
         "model": "manual-incremental-sync",
@@ -2805,7 +2805,7 @@
     }
   },
   "docs/en/docs/interface_guide/openvpn_server.md": {
-    "source_hash": "f8768352c825cd0c50645f4a22f44e0215a6a5703ca516cea10d2bccff56321e",
+    "source_hash": "381ea11b348a754c9e8cbad73b20a9b7e33203cc1f7c7d783a08a9d204becac6",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -2838,7 +2838,7 @@
     }
   },
   "docs/en/docs/interface_guide/parental_control.md": {
-    "source_hash": "358720398ee3e77e8c3b60d0863dde04dbf8824f024cde0565f28e3fc9b0c0a5",
+    "source_hash": "97d1f589f102a7d337e2e5138c17ba980c8dfc277d01bcb7514544bbd5117e7a",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -2871,7 +2871,7 @@
     }
   },
   "docs/en/docs/interface_guide/plugins.md": {
-    "source_hash": "a1288cf656c26196b038766d833a67c674fbcac614ccc0b3159e13bfe3b77337",
+    "source_hash": "a990e308afc2bcbe81726f2b53b13085cd2e8767b677d0ad2b0f1eb714bce108",
     "targets": {
       "de": {
         "model": "manual-structural-sync",
@@ -2904,7 +2904,7 @@
     }
   },
   "docs/en/docs/interface_guide/port_forwarding.md": {
-    "source_hash": "17fab88b8a0d6a217151e08f778e823a32e8e8e9100abfb934d75ac2ec3e98a7",
+    "source_hash": "d278b5b5baef324aae5682da5e09519b92c823b33d28321be8a825696ca02d52",
     "targets": {
       "de": {
         "model": "claude-opus-5-5-manual-sync",
@@ -2937,7 +2937,7 @@
     }
   },
   "docs/en/docs/interface_guide/qos.md": {
-    "source_hash": "bbef564eab2c2a9c53d928f12e777c30185afe7706f60301ab8e952f1f754d06",
+    "source_hash": "10cd8eb19cfeb6427e8cdbd8f45955f00fda462314a2e0bedf3017d1f9ab64d3",
     "targets": {
       "de": {
         "model": "claude-opus-5-5-manual-sync",
@@ -2970,7 +2970,7 @@
     }
   },
   "docs/en/docs/interface_guide/reset_firmware.md": {
-    "source_hash": "f21cc5dbfa5810712daa1c6f22d9bc041a5d08e65c36b6139b011a5bf74dae41",
+    "source_hash": "2a04e6ed90aa4be832f0caa103d57255ecb2d6ba11b463caaa6e21509b49df58",
     "targets": {
       "de": {
         "model": "manual-structural-sync",
@@ -3003,7 +3003,7 @@
     }
   },
   "docs/en/docs/interface_guide/scheduled_tasks.md": {
-    "source_hash": "2b6396c01331ed8bf4f434ab1112559f2f8280b9fd4f8f77e278fe94e86ecdeb",
+    "source_hash": "9b68d24a691c069334c86170c5789fcdccf2fec105ae5eed7e56a221b0cb3dc6",
     "targets": {
       "de": {
         "model": "manual-structural-sync",
@@ -3036,7 +3036,7 @@
     }
   },
   "docs/en/docs/interface_guide/security.md": {
-    "source_hash": "f5dc7b11ed12678a2c53e49f4d90f99c75a754d50db632231b1549e44fb63e02",
+    "source_hash": "a166441c9439daae2a4304b215c2749512b53161325c871be56e7a3cc8590886",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -3069,7 +3069,7 @@
     }
   },
   "docs/en/docs/interface_guide/sqm.md": {
-    "source_hash": "4e4257a70239dabded04010be7331eaf922bc4205ac4bcba3defc9559d7c3406",
+    "source_hash": "ce2d8226e033b3f7a497dbe5a9ab738b53e1bd635a2ce9b437b832e74de0fe70",
     "targets": {
       "de": {
         "model": "claude-opus-5-5-manual-sync",
@@ -3102,7 +3102,7 @@
     }
   },
   "docs/en/docs/interface_guide/system_overview.md": {
-    "source_hash": "3b9bf2043831446480d0f562827569fde7a2514cb121b3a7c39dbe6e8e0797f7",
+    "source_hash": "4d06f4cfb771abb1cd6d2edfe06a3f75d1b20fd5c3948b7473ad7795afe7bb7f",
     "targets": {
       "de": {
         "model": "manual-incremental-sync",
@@ -3135,7 +3135,7 @@
     }
   },
   "docs/en/docs/interface_guide/tailscale.md": {
-    "source_hash": "db9d10092f44b6f9903d4dd2121d88d96f35b635f3fa8cc9ea3474a5d5507b2f",
+    "source_hash": "0a876a892e05cf076c11360911ccb52cbec77a9ce314634c1304fa066696d143",
     "targets": {
       "de": {
         "model": "claude-opus-5-5-manual-sync",
@@ -3168,7 +3168,7 @@
     }
   },
   "docs/en/docs/interface_guide/time_zone.md": {
-    "source_hash": "435dac270da7d853a7081ed37293da3748d123abe69a7f266583afc253e8f9a9",
+    "source_hash": "fa4cd4bfea65ff97585e056223536db9b6cac4b8ac7b65222f3c03e6c969c568",
     "targets": {
       "de": {
         "model": "manual-structural-sync",
@@ -3201,7 +3201,7 @@
     }
   },
   "docs/en/docs/interface_guide/toggle_button_settings.md": {
-    "source_hash": "59aa4324243fff4f971ac160aa8c3fef6fadb9c2bd9f4a41f2a6c1eee911cfb0",
+    "source_hash": "e52548583f3aaedc42b436640fdf5a70660b1894139b602fe6ece781398c2cab",
     "targets": {
       "de": {
         "model": "claude-opus-5-5-manual-sync",
@@ -3234,7 +3234,7 @@
     }
   },
   "docs/en/docs/interface_guide/tor.md": {
-    "source_hash": "2c986b01c942c2be4e6c3a7d284b3fb5217e59f4d4d6f3a29463dd32fbf52c37",
+    "source_hash": "f3567bbfe5a53d12e5a81e13a53ce4fb7400ac4ccf7a2bf785449d248b945797",
     "targets": {
       "de": {
         "model": "claude-opus-5-5-manual-sync",
@@ -3267,7 +3267,7 @@
     }
   },
   "docs/en/docs/interface_guide/ui_languages.md": {
-    "source_hash": "495cf8f0cdc63253fa7b1286b673f41c308b6bcd83f6af7800a9c8e811203b3d",
+    "source_hash": "3ef0fc36cf10aa96906217e364bc095373c758e213a69204b4e5a06aa0c75980",
     "targets": {
       "de": {
         "model": "pre-existing",
@@ -3300,7 +3300,7 @@
     }
   },
   "docs/en/docs/interface_guide/upgrade.md": {
-    "source_hash": "ff442eb458f13665fca219d704f17ae34170afa964824e077412503d50b88bbf",
+    "source_hash": "5ed7eff874cf6e86f822276f01deaed3af5f1a317905ec44fd2fc57c61cc9332",
     "targets": {
       "de": {
         "model": "manual-incremental-sync",
@@ -3333,7 +3333,7 @@
     }
   },
   "docs/en/docs/interface_guide/usb_power.md": {
-    "source_hash": "0cbce93137d9c47d7c8744ab557b8e78ddbe741b811ea01a5a5418556564887b",
+    "source_hash": "82803aa98804f14c7767fac2d022dafca9a23802f77970893bdba528a2e737fb",
     "targets": {
       "de": {
         "model": "pre-existing",
@@ -3366,7 +3366,7 @@
     }
   },
   "docs/en/docs/interface_guide/vpn_client_profile.md": {
-    "source_hash": "225fe66a9299f351a3992f5e1f06afe54e7c9b06925b2d7c92284d5007c91faf",
+    "source_hash": "04a0bfe4a40b575ff8c17dc780f7a45f857f16b3044a7fea48b17bcf67dfa2af",
     "targets": {
       "de": {
         "model": "manual-incremental-sync",
@@ -3399,7 +3399,7 @@
     }
   },
   "docs/en/docs/interface_guide/vpn_dashboard_v4.7.md": {
-    "source_hash": "f48f4291c4029d581bfd84871eebb9a705567f19e8a3257d0a61d9084036fd38",
+    "source_hash": "5874d79dd77721b24ab282ecc188be76c35350e78333c8cfbcdfabf1361004f7",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -3432,7 +3432,7 @@
     }
   },
   "docs/en/docs/interface_guide/vpn_dashboard_v4.8.md": {
-    "source_hash": "bcd3658540811a05abea609080f6dd8f4d9c69bc38c58bc8b80e1abfb88c210f",
+    "source_hash": "62629e0e18020e118e851772218f60b5c222a21835466bd9423856932a74a34d",
     "targets": {
       "de": {
         "model": "claude-opus-5-5-manual-sync",
@@ -3465,7 +3465,7 @@
     }
   },
   "docs/en/docs/interface_guide/wireguard_client.md": {
-    "source_hash": "39215d77b74e2733676180854d93a7da66bdd40d7568f405f99d5759c70d4c6e",
+    "source_hash": "681834a5e1e4cf7701b5cf0c70d006641153bba36e1586b854d5c8f2286887a1",
     "targets": {
       "de": {
         "model": "manual-incremental-sync",
@@ -3498,7 +3498,7 @@
     }
   },
   "docs/en/docs/interface_guide/wireguard_client_v4.6.md": {
-    "source_hash": "6c3a11520c91b9d6dd68939b20e53824587ee0a74791c05da1859900f54fbed2",
+    "source_hash": "7caf1576fa673cf6ac7449df35c53fe13fc9afac53034ec43eafac6775d2bb47",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -3531,7 +3531,7 @@
     }
   },
   "docs/en/docs/interface_guide/wireguard_server.md": {
-    "source_hash": "651f5cd9d09a33616412c96be465d174d597f09b7ac7d668daa92070ca36834c",
+    "source_hash": "6a50e9a5b5fd208911bde797212c92446ec808c860efeaad3ecb649dd26f97cd",
     "targets": {
       "de": {
         "model": "manual-incremental-sync",
@@ -3564,7 +3564,7 @@
     }
   },
   "docs/en/docs/interface_guide/wireless.md": {
-    "source_hash": "3a8a67999602060115e24fdb513ebd6308d8d4c5f84adecec9fa821f3a6a0d37",
+    "source_hash": "8f0d81bfa2c6900cd4081e5c9f5c1438e1a141bb0543e71ff5b20befaa702a9f",
     "targets": {
       "de": {
         "model": "claude-opus-5-5-manual-sync",
@@ -3597,7 +3597,7 @@
     }
   },
   "docs/en/docs/interface_guide/zerotier.md": {
-    "source_hash": "8ecfd2cd9fd1d360dae648a81d8072c2c79656024e30b865c4cbf0999e7da94f",
+    "source_hash": "579fa5b2a6fa3151c5ae7386854208b9b777971e1fc2221e5a60c851b84c6727",
     "targets": {
       "de": {
         "model": "claude-opus-5-5-manual-sync",
@@ -3630,7 +3630,7 @@
     }
   },
   "docs/en/docs/remote_support_disclaimer.md": {
-    "source_hash": "2736a7dbc5ef4a21cbbb8bca9ab8eb824569d2fc05c5ded075f2667c9970db4e",
+    "source_hash": "b338dcdce63446a8638307b3440c68fe85974c61efd2246a38a390e149d7d44b",
     "targets": {
       "de": {
         "model": "pre-existing",
@@ -3663,7 +3663,7 @@
     }
   },
   "docs/en/docs/tutorials/build_your_own_wireguard_home_server_with_two_glinet_routers.md": {
-    "source_hash": "b68a5d2f47277e7377279cab87d0fff496262bea76a62f9756f8b92d40551ef2",
+    "source_hash": "05e5868b45f360b5f81f4ff15348c8144e580599fa87b476a2512499ebc18e72",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -3696,7 +3696,7 @@
     }
   },
   "docs/en/docs/tutorials/configure_dual_ethernet_wan.md": {
-    "source_hash": "6aa201c2fc9abffd79c93f254d047cca25ba58cde700a22b84b833f267090122",
+    "source_hash": "9a63d811e48a0380cfe90f9eda511bdeb0a272e111389ab53ffce2b79fcef027",
     "targets": {
       "de": {
         "model": "pre-existing",
@@ -3729,7 +3729,7 @@
     }
   },
   "docs/en/docs/tutorials/eap.md": {
-    "source_hash": "0ec30390a93c9b55dbf7b9daaab180779300e550911aede3bf8899471a923336",
+    "source_hash": "a52751e95a1b1b11eddc75086968198ff57d4020c37a47e7ac5f9cf46474b70b",
     "targets": {
       "de": {
         "model": "claude-opus-5-5-manual-sync",
@@ -3762,7 +3762,7 @@
     }
   },
   "docs/en/docs/tutorials/get_module_logs.md": {
-    "source_hash": "441faa1d246fff7af779ff8062b5e244c89b9cc4430370358b6d42db87b8470b",
+    "source_hash": "28fc0455b06e8ca590136893e0f9a96ad4d0d54e63a525318ac7ae81da404a65",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -3795,7 +3795,7 @@
     }
   },
   "docs/en/docs/tutorials/goodcloud_site_to_site.md": {
-    "source_hash": "6e9e15e5a438e87620c5674d4b1fb0338dde4b1a1f4649648ec026f5cf23ed5e",
+    "source_hash": "d248e1a8f034a81186938cc9931efd4b7a30a367888d06b048b799378ce440e1",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -3828,7 +3828,7 @@
     }
   },
   "docs/en/docs/tutorials/how_to_access_ovpnserver_lan_via_domain_name.md": {
-    "source_hash": "601818dd0e9737cd1ec433c85f52136667ce1c03598501315c97351c9cde01d8",
+    "source_hash": "4eb737d18784f1ce646069c27f3e30ec1334cf4cd2ec5ae6cbc350bf743329ce",
     "targets": {
       "de": {
         "model": "manual-sync",
@@ -3861,7 +3861,7 @@
     }
   },
   "docs/en/docs/tutorials/how_to_access_the_luci_interface_via_goodcloud.md": {
-    "source_hash": "dea6b0ead230633b6368b150f6a753a681a5c91d65250ffdda5750fe69031e8d",
+    "source_hash": "2b7a93230ed80a7e8ec35a547ee36d4c77bfcd4b0223499aa4239e5243f7b53a",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -3894,7 +3894,7 @@
     }
   },
   "docs/en/docs/tutorials/how_to_access_wgserver_lan_via_domain_name.md": {
-    "source_hash": "b9692c9dcf4d60a95268f3774990f988267a55ba376e56c383ab3c559a49bc5a",
+    "source_hash": "6dd24942a2de2fd06940861b5d6a283870ad5a8853cfcc253b82bec31a642f53",
     "targets": {
       "de": {
         "model": "pre-existing",
@@ -3927,7 +3927,7 @@
     }
   },
   "docs/en/docs/tutorials/how_to_allow_access_to_wan_when_vpn_client_enabled.md": {
-    "source_hash": "e3a56a2401f36655187f593a58f5a88d751475e2d9252bc19be431f11b1d3968",
+    "source_hash": "4d599605aca609f19211f99555baadbd8d34f8c190c888a3700696b90ec0d637",
     "targets": {
       "de": {
         "model": "claude-opus-5-5-manual-sync",
@@ -3960,7 +3960,7 @@
     }
   },
   "docs/en/docs/tutorials/how_to_block_client_devices.md": {
-    "source_hash": "52ad9d3d51be454ed36f0ae5b70f916366eda861ff5842e5361bed816c246f7a",
+    "source_hash": "f1a20434f140f76481fd9a53e30a8349ffbd0050dc288626cf3f4edb50942e28",
     "targets": {
       "de": {
         "model": "claude-opus-5-5-manual-sync",
@@ -3993,7 +3993,7 @@
     }
   },
   "docs/en/docs/tutorials/how_to_change_the_nat_type_on_gaming.md": {
-    "source_hash": "8520e574022c2c5ad044306e1d171c2b1a270202f61aea6d9975f335e47c8f76",
+    "source_hash": "b66493af2be2c6ca1a9dc8922fd18659b291b4ea4e991adfa83ec763a3870675",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -4026,7 +4026,7 @@
     }
   },
   "docs/en/docs/tutorials/how_to_check_carrier_aggregation.md": {
-    "source_hash": "797287f1d8789ea94d83b18575b23b60efdbdca28ec746f92262251f0848746a",
+    "source_hash": "e31f7514aa218357e5898a53599c9b704839fb45da49a201133e4bf6dfcf54a7",
     "targets": {
       "de": {
         "model": "pre-existing",
@@ -4059,7 +4059,7 @@
     }
   },
   "docs/en/docs/tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md": {
-    "source_hash": "54a4a276e6dcb3bd7a634582d84cdae31b791f37e48c61c01234d571c549b475",
+    "source_hash": "7c09477b92602eefd5d231c50e09416a835f4e7c029441f7c6cafee3d8c9aaed",
     "targets": {
       "de": {
         "model": "pre-existing",
@@ -4092,7 +4092,7 @@
     }
   },
   "docs/en/docs/tutorials/how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md": {
-    "source_hash": "dcff7dbe9019584fae32ffcdb52e9923b1c0b659b9bee3d28d4cb50e4f5f35d0",
+    "source_hash": "585d8672a6283a2315ec7b034eba1fc860e1405c9a2fa9d58648b0a6189887fc",
     "targets": {
       "de": {
         "model": "pre-existing",
@@ -4125,7 +4125,7 @@
     }
   },
   "docs/en/docs/tutorials/how_to_connect_to_nordvpn_with_dedicated_ip_on_glinet_routers.md": {
-    "source_hash": "06e2e4c3fcb053d0aa3164e37b30a3f8f2d4a126a04b8f26008bd7b057a3d5f0",
+    "source_hash": "d13e7c656c857676c29943b72d1b94ff1dbf9c6d31a6c94fba8b9cde633de246",
     "targets": {
       "de": {
         "model": "manual-incremental-sync",
@@ -4158,7 +4158,7 @@
     }
   },
   "docs/en/docs/tutorials/how_to_connect_to_surfshark_with_dedicated_ip_on_glinet_routers.md": {
-    "source_hash": "eb85cf320cd99f0b375c742a49cb6d0b226c4a001e1c7f891eae5cdbc3e642d4",
+    "source_hash": "0fdcca7c8c484f18711e039fd8ce5d9b2fe739d875c2a71e2b5182e3709e771b",
     "targets": {
       "de": {
         "model": "manual-sync",
@@ -4191,7 +4191,7 @@
     }
   },
   "docs/en/docs/tutorials/how_to_enable_openvpn_tap_s2s_mode_on_glinet_routers.md": {
-    "source_hash": "4fd899f3f8439255e0ac414c21e4a5783f300c3768689028024cdd9ea9a05492",
+    "source_hash": "1fcc8f039abe4a21b04a80010cbf7873bfc1ee27a1d53bec2c347b738d6666e0",
     "targets": {
       "de": {
         "model": "pre-existing",
@@ -4224,7 +4224,7 @@
     }
   },
   "docs/en/docs/tutorials/how_to_get_configuration_files_from_wireguard_service_providers.md": {
-    "source_hash": "f7755d6f05e2c35c0e95882c66b9d06f804f40b13a44ec8f1f933cfb9e213d9a",
+    "source_hash": "5414c30f1dfeef3fc27f688c5a00b2e14733af7de7a61c4c135ce81f36cf5190",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -4257,7 +4257,7 @@
     }
   },
   "docs/en/docs/tutorials/how_to_install_or_change_antennas.md": {
-    "source_hash": "34e2ac3ca45676cb5ca9027c771051c2e2c2be3ccb0d4fb5b98da4d1ccccf8fa",
+    "source_hash": "d129826a5067121637fcf4b5f736421334fd8c49a499fb504c3071728ec58471",
     "targets": {
       "de": {
         "model": "pre-existing",
@@ -4290,7 +4290,7 @@
     }
   },
   "docs/en/docs/tutorials/understanding_external_cellular_antennas.md": {
-    "source_hash": "fde566633c972691ebe84f4e524a520da2d5cd7ade79c7070caed920dc101b25",
+    "source_hash": "5d9358349e605ceec78bb16e3894c3d641e3ced05c36e1927b7eed7b776bd41f",
     "targets": {
       "de": {
         "model": "codex-gpt-5-manual-sync",
@@ -4323,7 +4323,7 @@
     }
   },
   "docs/en/docs/tutorials/how_to_obtain_technical_support_via_anydesk.md": {
-    "source_hash": "9861e4032d8029e4041052ce9ae470b3304ba02fabe4fb4b41a48719d34af01e",
+    "source_hash": "64698d4e5f97ecedca7c02a0d0645f0a3e3ec3b08944d9f651643ffa72d05ac5",
     "targets": {
       "de": {
         "model": "pre-existing",
@@ -4356,7 +4356,7 @@
     }
   },
   "docs/en/docs/tutorials/how_to_retrieve_the_mobile_app_log.md": {
-    "source_hash": "05c032c7d74e21d6bbdcad50f78dba349c283174dcb67ced7c59f6b69a83df78",
+    "source_hash": "b66a0365f075567dc4a624c58821ffcd7dea427177c1985b7478e4a26498b66e",
     "targets": {
       "de": {
         "model": "pre-existing",
@@ -4389,7 +4389,7 @@
     }
   },
   "docs/en/docs/tutorials/how_to_set_up_a_guest_network.md": {
-    "source_hash": "5bbe055b520ac5c0fc5c97b202947d58577b34319cec2dd26c11440da881d8eb",
+    "source_hash": "05b96521565ceb568a95a3f06fa2e821174750256bde2a3a0536c82a1f691d59",
     "targets": {
       "de": {
         "model": "pre-existing",
@@ -4422,7 +4422,7 @@
     }
   },
   "docs/en/docs/tutorials/how_to_set_up_and_use_spitz_ax_gl-x3000_in_your_recreational_vehicle.md": {
-    "source_hash": "8a94d47671e77c35812c276c3d0a04203125f310ab0dc813cc827dba4d647df5",
+    "source_hash": "51431532bd36df9c79536782e6cac17c370628d003ef8ab9670b2fc1c8f02d37",
     "targets": {
       "de": {
         "model": "claude-opus-5-5-manual-sync",
@@ -4455,7 +4455,7 @@
     }
   },
   "docs/en/docs/tutorials/how_to_set_up_drop_in_gateway.md": {
-    "source_hash": "abb1ce91f0bc2667ebf0ad0318574c45506fafc9edb2f4207039561a5c3173b1",
+    "source_hash": "372ac74d208e14be68a9f7b2ac980fef058b29e845a49ddab2e3312b970d6eff",
     "targets": {
       "de": {
         "model": "claude-opus-5-5-manual-sync",
@@ -4488,7 +4488,7 @@
     }
   },
   "docs/en/docs/tutorials/how_to_set_up_openvpn_client.md": {
-    "source_hash": "960826cb9087c3592fd0eaaf7f4841a41ea0e1053a7290ffb855b66c6d24877e",
+    "source_hash": "40c8fe0c8ef9ef5d6a47a29721eacb38c39922c52b804f51ecd36945fd413a1e",
     "targets": {
       "de": {
         "model": "manual-structural-sync",
@@ -4521,7 +4521,7 @@
     }
   },
   "docs/en/docs/tutorials/how_to_set_up_openvpn_server.md": {
-    "source_hash": "ec6b2e39ba2e4521ca51c664bb1eabb08deb2ed35de4e5b9a9c578de0e7aca28",
+    "source_hash": "dd3705a62a4a79867c12667e612aed7da9dbba5badd7f3975ca52facf004c023",
     "targets": {
       "de": {
         "model": "pre-existing",
@@ -4554,7 +4554,7 @@
     }
   },
   "docs/en/docs/tutorials/how_to_set_up_port_forwarding.md": {
-    "source_hash": "72fe67a3611cecde218a63b13b9964c143cee0e464a4c97fea4fba15417dd1c5",
+    "source_hash": "ac47a1eebddc0db663b621c767010d54e7b5db8c864a4454a8eadef2a621d701",
     "targets": {
       "de": {
         "model": "claude-opus-5-5-manual-sync",
@@ -4587,7 +4587,7 @@
     }
   },
   "docs/en/docs/tutorials/how_to_update_openvpn_server_certificates.md": {
-    "source_hash": "6e81444edb1c2a5279fbee04f63073859c7f889fb0c7a95794528dd419de444b",
+    "source_hash": "d4ab30b95213a071d45bfc898768664c6426b9b88da18fccf3eeba9aa718175c",
     "targets": {
       "de": {
         "model": "pre-existing",
@@ -4620,7 +4620,7 @@
     }
   },
   "docs/en/docs/tutorials/how_to_upgrade_downgrade_router.md": {
-    "source_hash": "59b3d1fe84d237b1d067114bf761d8f4a9970ce45d3268b0921b5035ada6bb99",
+    "source_hash": "354197eee6546ac0436e20bb9af9a0fed9244f9ab4b3208ffb5fed4ebfdf63b6",
     "targets": {
       "de": {
         "model": "claude-opus-5-5-manual-sync",
@@ -4653,7 +4653,7 @@
     }
   },
   "docs/en/docs/tutorials/how_to_use_esim_physical_card_with_glinet_routers.md": {
-    "source_hash": "d3af21218c699619a0e4f70c5f45073c7004d42c1da4f97069b3f76dd79f87f8",
+    "source_hash": "a29bcf08bcb92499f4a64eddb73efffdca890c105dab3dd6d965cb72b5a08ed7",
     "targets": {
       "de": {
         "model": "manual-incremental-sync",
@@ -4686,7 +4686,7 @@
     }
   },
   "docs/en/docs/tutorials/how_to_use_the_esim_physical_card_with_android_devices.md": {
-    "source_hash": "b15123da1a9f92b7259cb314d8ad744c37576fb2ec328c3deb97e19601403ad8",
+    "source_hash": "bf5aab1daedeb1f4d9e20ceaf80020214d4e674656b7bfdb2b84bb563fdef1a7",
     "targets": {
       "de": {
         "model": "manual-incremental-sync",
@@ -4719,7 +4719,7 @@
     }
   },
   "docs/en/docs/tutorials/how_to_use_vpn_cascading_on_glinet_routers.md": {
-    "source_hash": "d33fa202bb11f06fe39e76935032f83756f2b29c8755041d1af14a01f2f4ccbb",
+    "source_hash": "7dd01f1e9f91ba9cab6fc94f669a32d6abea24dfea92dc8dc8e62a27cabb3701",
     "targets": {
       "de": {
         "model": "manual-structural-sync",
@@ -4752,7 +4752,7 @@
     }
   },
   "docs/en/docs/tutorials/how_to_use_winscp_to_modify_files_on_glinet_routers.md": {
-    "source_hash": "9901ee3eb84df0ce20004f99e51b6aafea0b644e7a309c01b69753bc18d66c37",
+    "source_hash": "afa130941fc9e17c4d717ab799608c65ab2239993b3df745139168e6aedf8003",
     "targets": {
       "de": {
         "model": "pre-existing",
@@ -4785,7 +4785,7 @@
     }
   },
   "docs/en/docs/tutorials/index.md": {
-    "source_hash": "cadc2973caa1adc040a83de9324a7dcad9545c9d6d7410be688f777471364d60",
+    "source_hash": "d3ae8f75de8c74225e5f3dbda021ccaba3ffbeac7aa56ffee0d1d95da506cb2d",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -4818,7 +4818,7 @@
     }
   },
   "docs/en/docs/tutorials/manually_configure_static_ip.md": {
-    "source_hash": "8850f7736d05145b0e8b35d6ee8f31a799b1db398e3846eef5833f12933ca46b",
+    "source_hash": "a3a823fb9c8736011899f2ae4a4d6cf557941dd4689a38c56d3724829f4ec9d4",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -4851,7 +4851,7 @@
     }
   },
   "docs/en/docs/tutorials/openvpn_server_access_client_lan_side.md": {
-    "source_hash": "0c88c71bf47737c1a7e2e77af0835a309beb559cfc6e01b185aee0cb2218b33f",
+    "source_hash": "e07fcc24137391f4968bfc1ac5b467724d3bd1455e6052047351b36b0f68acad",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -4884,7 +4884,7 @@
     }
   },
   "docs/en/docs/tutorials/reserve_fixed_IP_for_ovpn_client.md": {
-    "source_hash": "41db3a454ca3ff4ec8ed0f88a24cab8547b141f189c27a30ec508e5302631fff",
+    "source_hash": "de91ae1b71be31ae0f01b0589b3a710f526dcd742ef945b3667885ab7ca5129f",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -4917,7 +4917,7 @@
     }
   },
   "docs/en/docs/tutorials/route_vpn_client_dns_to_server_upstream_dns.md": {
-    "source_hash": "0a5400d5e41d2311c939d4246162417dca1e5c7377518aea27bf7b4a4cf0de8b",
+    "source_hash": "7aafcb899f68e541e58f1c1037c3f3c17bd5641611dffbe9ebc9a8e8d4d1229f",
     "targets": {
       "de": {
         "model": "pre-existing",
@@ -4950,7 +4950,7 @@
     }
   },
   "docs/en/docs/tutorials/sms_forwarding.md": {
-    "source_hash": "9192b048465f004cbd84f05f1384623eab99af41e071478ad5c88bacf05328bf",
+    "source_hash": "9cb5dc5ad632abc842d5f67b0016367f187f41147a737b26557379da8c0830fd",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -4983,7 +4983,7 @@
     }
   },
   "docs/en/docs/tutorials/ssh_log_in_to_the_router.md": {
-    "source_hash": "8992b026b27c0d06ccedcca80e030ee2f545cc35bfb36a3077a1f07640ae8084",
+    "source_hash": "062a36002ed2c24f5e6f785cb20fb3a4397d601cb57bf617c3c4a65080006ff8",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -5016,7 +5016,7 @@
     }
   },
   "docs/en/docs/tutorials/technical_support_via_goodcloud.md": {
-    "source_hash": "40e7307b802c2dedb4345220c4bc55b5b872e964d51a3c6d7ca482f7c53526a7",
+    "source_hash": "c594994a357cefb21f8e5a15f6b171413f8224cefe995400c788c4585d32a683",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -5049,7 +5049,7 @@
     }
   },
   "docs/en/docs/tutorials/upgrade_quectel_module_software.md": {
-    "source_hash": "2abbfe758ef2557fce9e943d84a9e57782de672c875072c7d31a2bbb120e7ce8",
+    "source_hash": "19c1a3f0170cd56a841476e98b1fdcbbe293f40edce2883c691206bbc890f162",
     "targets": {
       "de": {
         "model": "claude-opus-5-5-manual-sync",
@@ -5082,7 +5082,7 @@
     }
   },
   "docs/en/docs/tutorials/winscp_share_file.md": {
-    "source_hash": "fe28f639568d5efc46ed59f1a82d7d0237dd264688de0b408213f2b51a048845",
+    "source_hash": "f2f14e8538c79e37913afdbadff67adddd93ff5cc31c6c6e04d42497eb9d0683",
     "targets": {
       "de": {
         "model": "claude-opus-5-5-manual-sync",
@@ -5115,7 +5115,7 @@
     }
   },
   "docs/en/docs/tutorials/wireguard_server_access_to_client_lan_side.md": {
-    "source_hash": "31fee0574363353b5487b9fa76d05cd50fa4fd1a5af1cc1474a124f05439a6cb",
+    "source_hash": "4fcdfe1a6ad4e0d0ff931a1128effebdd742b3c3735cdd4dedc88db506dfbca6",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -5148,7 +5148,7 @@
     }
   },
   "docs/en/docs/user_guide/gl-a1300/index.md": {
-    "source_hash": "2c03c8415843d0311f62bae249a384b9cbcb4679ff80b8ccf2f93e663e450258",
+    "source_hash": "7e6f8b5a91d8fb0cd564f1a2ed48e60f9abaf06dc4a4449ebad8b931c7b1cb21",
     "targets": {
       "de": {
         "model": "claude-opus-5-5-manual-sync",
@@ -5181,7 +5181,7 @@
     }
   },
   "docs/en/docs/user_guide/gl-ap1300/index.md": {
-    "source_hash": "1cc5f714d7599d310d4730153472f3784a7e159dbfc84f6d61418e629fdf24e7",
+    "source_hash": "a7584dd5bc963fa63e6f3cad1c35e2460becb54a84a132dd790866b662af0b43",
     "targets": {
       "de": {
         "model": "claude-opus-5-5-manual-sync",
@@ -5214,7 +5214,7 @@
     }
   },
   "docs/en/docs/user_guide/gl-ar300m/index.md": {
-    "source_hash": "82c8ec485f60dea9f31c68bbdc341f1230a3f6f62f5a523d4b108f0ae15ee8a4",
+    "source_hash": "50b519f7d1d0159e50171a776e3f7e007f5bfbf024ee043de5e779b489cd0bb0",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -5247,7 +5247,7 @@
     }
   },
   "docs/en/docs/user_guide/gl-ar750/index.md": {
-    "source_hash": "6745d327fa03c17421582887a5e763a49f47c3b811140eef47d00f9631b0604c",
+    "source_hash": "b544c3b953ad94e90c2ec3b9d118aa3d3c23340de80600d4774f4a964e85a333",
     "targets": {
       "de": {
         "model": "claude-opus-5-5-manual-sync",
@@ -5280,7 +5280,7 @@
     }
   },
   "docs/en/docs/user_guide/gl-ar750s/index.md": {
-    "source_hash": "9564246e4d1ec5afa248a953fbda4240a25fdd6633a43929056ccdc785a12c7d",
+    "source_hash": "c1302214a38aa4fb1e35bd0fc43da1035da492c680bb9e994296176b09984c62",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -5313,7 +5313,7 @@
     }
   },
   "docs/en/docs/user_guide/gl-ax1800/index.md": {
-    "source_hash": "8df344d56e979a21484421eeee146dcf311dfa035a1fdfae91c99d6550854759",
+    "source_hash": "b9a828dd1fac5686222d448af4a3e4ee891516a2485e8fd8293c3b7e75bcb308",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -5346,7 +5346,7 @@
     }
   },
   "docs/en/docs/user_guide/gl-axt1800/index.md": {
-    "source_hash": "6fb03d65a5117492598273d962371f9d5007955abb296a7e5af6090920da2b4d",
+    "source_hash": "7bfbbe177a0c0fc6aad6c12705a7d6d66512bcf33b12c2956c6429df0b1ca0e5",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -5379,7 +5379,7 @@
     }
   },
   "docs/en/docs/user_guide/gl-b1300/index.md": {
-    "source_hash": "1f7b7a2db966cac984e44baab880af4cfc2d5234fee49a79cc04924144e2e597",
+    "source_hash": "fd0e5fea9cba6e3b42ee37a3d9df3761c9652f7e85324b045ea395f0c7d0e6a6",
     "targets": {
       "de": {
         "model": "claude-opus-5-5-manual-sync",
@@ -5412,7 +5412,7 @@
     }
   },
   "docs/en/docs/user_guide/gl-b3000/index.md": {
-    "source_hash": "71262197a1e26badec16693ee26faca5def06fe8844718a426f5f4d3faa5c366",
+    "source_hash": "22529995509ca16b6cde90a62195a7070667ce581202f352418715e46a47cf57",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -5445,7 +5445,7 @@
     }
   },
   "docs/en/docs/user_guide/gl-be10000/index.md": {
-    "source_hash": "984098b727c53a1118b5558b560d42850b6e0641b0c3c92c0a06501daab33389",
+    "source_hash": "0906d3b64783b55c5e981f4dac4581a170614f0c3468f8eb0eda78bdea71d1b6",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -5478,7 +5478,7 @@
     }
   },
   "docs/en/docs/user_guide/gl-be3600/index.md": {
-    "source_hash": "4fc9f6e213dee0f4a3393879b253afe239a0280083a10e41f944dcc3477a91c8",
+    "source_hash": "3adb0f4b0aa7ad663055518c5ce1f784d5ab830acb34c659ea2af9d8bc60683c",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -5511,7 +5511,7 @@
     }
   },
   "docs/en/docs/user_guide/gl-be6500/index.md": {
-    "source_hash": "c364b5951b222fe70137a60e84f8e796468c2f8026547138a825d61e901a4c1f",
+    "source_hash": "626406db6e904c585c0597f0a5349bdd6e1fc0000e82f1f8f38523bc01ba667e",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -5544,7 +5544,7 @@
     }
   },
   "docs/en/docs/user_guide/gl-be9300/index.md": {
-    "source_hash": "ecdba51f6686c0f73d8d14d97e8db0c46b5763d3c239875e9345b2880b7ddd52",
+    "source_hash": "8d5302284559062f1b790ed9cc5f039ed01b7ed3c6cd833bdd41ecbc46dcbf2c",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -5577,7 +5577,7 @@
     }
   },
   "docs/en/docs/user_guide/gl-e5800/index.md": {
-    "source_hash": "6e7c8a602ab65ad9a21d168da894e4a6da349167c203ce6e85bd4c800b67fc57",
+    "source_hash": "295b12a14ebc599f922885fcb4357d871811e68c21eb73c0e71ac77b4a0270a2",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -5610,7 +5610,7 @@
     }
   },
   "docs/en/docs/user_guide/gl-e750/index.md": {
-    "source_hash": "c0c8db30b0ae3413738683c383f90393d7d01c99cc1cd8bcc89270ffea6a6483",
+    "source_hash": "28fb9420a752117c760768dc4cd72bfb8e402d606737e276433db74c2ae9c091",
     "targets": {
       "de": {
         "model": "claude-opus-5-5-manual-sync",
@@ -5643,7 +5643,7 @@
     }
   },
   "docs/en/docs/user_guide/gl-m2/index.md": {
-    "source_hash": "ee53d7c7101d511bb8f158fb4eda76efa3c54b9e996996bb66798626c172d02d",
+    "source_hash": "27ed58d82a2ab1a903746b2dee383f230fc93ea7c5e44ef803ab53e381e47f68",
     "targets": {
       "de": {
         "model": "pre-existing",
@@ -5676,7 +5676,7 @@
     }
   },
   "docs/en/docs/user_guide/gl-mt1300/index.md": {
-    "source_hash": "b0679980416e6c713110c1cc8d53b1a6bd85fc024a3d3db60b8787378a316620",
+    "source_hash": "ec5f136f0137111f884e88530babd389c5a20167882d8715c9863e332daac44b",
     "targets": {
       "de": {
         "model": "claude-opus-5-5-manual-sync",
@@ -5709,7 +5709,7 @@
     }
   },
   "docs/en/docs/user_guide/gl-mt2500/index.md": {
-    "source_hash": "3c0b8c7036ed42c856a205af5ef0d60e27c0cfb7fd2d72448cbe9919c9242d87",
+    "source_hash": "fee7a0e842b0f79bef801f48c63437779a7ad831e119492e9572f881b98726bb",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -5742,7 +5742,7 @@
     }
   },
   "docs/en/docs/user_guide/gl-mt3000/index.md": {
-    "source_hash": "2bc4d51ca07f1359f3945416c84493338b0bf892608e84793cb8066d9642edc7",
+    "source_hash": "cb5d8a867cf3b368ea6f20aae380514cc703699091f1d616ce5f41cc9bf43eee",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -5775,7 +5775,7 @@
     }
   },
   "docs/en/docs/user_guide/gl-mt300n-v2/index.md": {
-    "source_hash": "8a3179c2dae5fa8c718527ac221174fa463cf4fd64cb3c661beef9f9298a4766",
+    "source_hash": "2e6654d8c5fab72d66f134900ba31265924c2f5c6d1655272ba269cc6f6fdaf5",
     "targets": {
       "de": {
         "model": "claude-opus-5-5-manual-sync",
@@ -5808,7 +5808,7 @@
     }
   },
   "docs/en/docs/user_guide/gl-mt3600be/index.md": {
-    "source_hash": "a4d2d4e8a500ff0ebabfa8de6ae5c9f16774fdb2359e03982fb0d3e50b7bcde3",
+    "source_hash": "a330787099d9d1c2781e59a7d6319d93b749e58d2751767693ae61c19d66871c",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -5841,7 +5841,7 @@
     }
   },
   "docs/en/docs/user_guide/gl-mt5000/index.md": {
-    "source_hash": "5cb32a8881cb0e5b261888cc0e8cbae9c0cffe384e467a2dab4ae2edbd696151",
+    "source_hash": "4d6db8a3240df94fcba727d03d7319deed7897e1f904c3d7753be6770dd639c1",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -5874,7 +5874,7 @@
     }
   },
   "docs/en/docs/user_guide/gl-mt6000/index.md": {
-    "source_hash": "5b9a814fa37ae790fb4699e0a9919deff1ab93c86677375363b1045d06e5acf3",
+    "source_hash": "7e3c081e1b6a7e7511495320be1e6e3898142895d563e747525f6a281f986c29",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -5907,7 +5907,7 @@
     }
   },
   "docs/en/docs/user_guide/gl-mv1000/index.md": {
-    "source_hash": "c6091520d53b542d664223fde851d3193248f0f8107c385f070c709eb0a847e1",
+    "source_hash": "433b9b9e0c9d9c09f95b4020d7cd211b473aaa2fe02cfa580ce8362fc47d9910",
     "targets": {
       "de": {
         "model": "claude-opus-5-5-manual-sync",
@@ -5940,7 +5940,7 @@
     }
   },
   "docs/en/docs/user_guide/gl-s10/index.md": {
-    "source_hash": "90f4d8f2fb1687b3ee0dd1a322cc11156e82463a2b2eab224918ca0d7d0b79e5",
+    "source_hash": "e5ec812cae296cbae7fcc5f1a02bbeea697b78ba3cd1d0481fb739d528e3e29a",
     "targets": {
       "de": {
         "model": "pre-existing",
@@ -5973,7 +5973,7 @@
     }
   },
   "docs/en/docs/user_guide/gl-s1300/index.md": {
-    "source_hash": "f401762d486e142c1a44f27d4a1b8c613f5e94ea7a5d4bd26f87ea49fca6cab5",
+    "source_hash": "dda8b8a2bc8887dd7ec6622fdb2b88aa6b644f62080a715ae790db8ae421605a",
     "targets": {
       "de": {
         "model": "claude-opus-5-5-manual-sync",
@@ -6006,7 +6006,7 @@
     }
   },
   "docs/en/docs/user_guide/gl-s20/index.md": {
-    "source_hash": "8b451afc7176e2c7da1787ee91ec6af7b1b21e8b819abbd5e0411d3fa4c0213a",
+    "source_hash": "c97aa0de43a8fc82a9dfd0b734e0e64e8fd22ddc2abeacb0d5567f2d01e01ff9",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -6039,7 +6039,7 @@
     }
   },
   "docs/en/docs/user_guide/gl-s200/index.md": {
-    "source_hash": "78fb27d3a4682698a057e7e6a7bbacbea530e3ed5e94c7d8aa98b1cf162ba54f",
+    "source_hash": "207d2975362d7fd6f6e27efb3162420ddbe158155e7c1813e024b7bc11554d5b",
     "targets": {
       "de": {
         "model": "claude-opus-5-5-manual-sync",
@@ -6072,7 +6072,7 @@
     }
   },
   "docs/en/docs/user_guide/gl-sft1200/index.md": {
-    "source_hash": "f5ff0002091ad850b0736d1d0769508b1857c07307bd4407d587bb7b3f4da374",
+    "source_hash": "cd406b5dd56ece7bb2401b3057fbcdc05f67e94527551c9eae0110a25693003c",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -6105,7 +6105,7 @@
     }
   },
   "docs/en/docs/user_guide/gl-x2000/index.md": {
-    "source_hash": "b0ce4fd99294b586571d1e49a54b6ebc232500695e9385b78d7aa0fbfe4225a5",
+    "source_hash": "cd699831272e718daed1c35b10bdd254bb93e1d7cd5f8cf6506e8453c3260633",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -6138,7 +6138,7 @@
     }
   },
   "docs/en/docs/user_guide/gl-x3000/index.md": {
-    "source_hash": "784751e0a34b0d351314b3f74d42ae0cbe84f113cfe9d3ede0c630bf26c0ae30",
+    "source_hash": "d7f5283b819c4776fad99823c6a12d5ad7afba71289f59ca69ade444837788a9",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -6171,7 +6171,7 @@
     }
   },
   "docs/en/docs/user_guide/gl-x300b/index.md": {
-    "source_hash": "dcea49fca3fb9bbc8c65c36307531cd9747db8266f684349625ccb3ea2941c29",
+    "source_hash": "10b24b684d67ef77c9a390fe14a1d1e025c2ae2d19c363a0d4f48ccbb568817a",
     "targets": {
       "de": {
         "model": "claude-opus-5-5-manual-sync",
@@ -6204,7 +6204,7 @@
     }
   },
   "docs/en/docs/user_guide/gl-x750/index.md": {
-    "source_hash": "c455692201f81cae70d8e08d9c9b5af98f1d61e4825e0f47583a54c32423c3d0",
+    "source_hash": "ccfdf72b37de23618bda005e1f26c60c93e2ad8151bf2cdab0cebdedb71e7749",
     "targets": {
       "de": {
         "model": "claude-opus-5-5-manual-sync",
@@ -6237,7 +6237,7 @@
     }
   },
   "docs/en/docs/user_guide/gl-xe300/index.md": {
-    "source_hash": "6f0201bb03f9587d9aef96399f4eb999f06e264109a2a819644a34463a8391d7",
+    "source_hash": "a067b08dbda5359171909449b3ee2310d8f8f54366d40f80635417a5d5de119a",
     "targets": {
       "de": {
         "model": "claude-opus-5-5-manual-sync",
@@ -6270,7 +6270,7 @@
     }
   },
   "docs/en/docs/user_guide/gl-xe3000/index.md": {
-    "source_hash": "847ed5eef8a458389610afd7628c4c0240fdf2be826500f40741b3dc74c1c9df",
+    "source_hash": "dab5e065914d01df6d64053c8afefaa6c9f7e40743d153691ce0fb18fa8a44f5",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -6303,7 +6303,7 @@
     }
   },
   "docs/en/docs/user_guide/index.md": {
-    "source_hash": "40c1076dff2d14bc524f220f51f2a9ad5794e32df42f1fb990c6e90a000136cb",
+    "source_hash": "b27aaa67c74203a36a0c46ab8cbc82542f0fcd3dd7e2332ad0af769806957637",
     "targets": {
       "de": {
         "model": "codex-gpt-5-manual-sync",
@@ -6336,7 +6336,7 @@
     }
   },
   "docs/en/docs/user_guide/simpoyo-4g-ufi/index.md": {
-    "source_hash": "4bc49dc9a3b29f6766bcebb7a617db52cc2e7b2b37c7c3807b4b7a12dabed142",
+    "source_hash": "710e5ec1f4f6d6fa4993e1641eabc24fa806b27abf7bf6b4a6be7dc02206476d",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -6369,7 +6369,7 @@
     }
   },
   "docs/en/docs/video_library/index.md": {
-    "source_hash": "a2549026018b9e6a4d976fc72a9f5fea3145bba2e7dacaaaa2efba6c426247dc",
+    "source_hash": "3dbc48ac60e997172c6f604c91e533478156b355a80121102fe231f6edb44ca3",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -6402,7 +6402,7 @@
     }
   },
   "docs/en/docs/video_library/products.md": {
-    "source_hash": "00e6dfa291fe5a4eb5be4a4db6f8ebbbeaceeb23000b7cf38b09917336ea2396",
+    "source_hash": "55ec9739b545fad84a3d15485a6b2984244be6fbf9d3134c768c7cc9a75ab9db",
     "targets": {
       "de": {
         "model": "claude-opus-5-5-manual-sync",
@@ -6435,7 +6435,7 @@
     }
   },
   "docs/en/docs/video_library/tutorials.md": {
-    "source_hash": "77b7e068d2eb6b91efcbb36fcd527f51fe540d7802c074ac9cf061f6a298dbb1",
+    "source_hash": "b194c7658f26c7214ca8f2fa3a8608b60f3f114bcb12e55cf3c0add241846d61",
     "targets": {
       "de": {
         "model": "reviewed-no-target-change",
@@ -6468,7 +6468,7 @@
     }
   },
   "docs/en/docs/video_library/unboxing_first_set_up.md": {
-    "source_hash": "3f3108bc29ab539994b55ce5ea3b66b936deff0049baf708ae7b00edb8a389ae",
+    "source_hash": "b5dd762104bb7f0c1da8fbb66adf141d9bc38d96730774b15213515d5d3bc6ab",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -6534,7 +6534,7 @@
     }
   },
   "docs/en/docs/features_update/index.md": {
-    "source_hash": "a6844faeb54deb321adba2d50276f21b2ada4d474e4a65522da49204d31162d0",
+    "source_hash": "a0bfe7c377a2577e65cbf33bdfc6561a07b7fd13429eb96dc4985ec42effa68a",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -6567,7 +6567,7 @@
     }
   },
   "docs/en/docs/features_update/firmware_v4.9.md": {
-    "source_hash": "a44ccc92ff3710ba8879e89ede8ee518b814b6dc1ce35fb145315f247b842801",
+    "source_hash": "5da3ea27f70ec630e5f9dac493faf0f24ac1bc564eb2ba44d771bd0c4f8f0864",
     "targets": {
       "de": {
         "model": "codex-gpt-5-manual-sync",
@@ -6666,7 +6666,7 @@
     }
   },
   "docs/en/docs/interface_guide/acl.md": {
-    "source_hash": "c1a68550b758a81d3786df687cea25d57ebaa7a9288e74737bd6466701690992",
+    "source_hash": "a7c5b0a23f516aa23fe3dc50645edd871ff8cb49f7b5405fa78ee05e16a256c3",
     "targets": {
       "de": {
         "model": "manual-incremental-sync",
@@ -6699,7 +6699,7 @@
     }
   },
   "docs/en/docs/interface_guide/admin_access.md": {
-    "source_hash": "f741ccb5715c44546734e4a1aac862afbb9c2c42921ffeade01998bffad2f457",
+    "source_hash": "dfa19166665f2972e58cea1e89ffa6dedb9514076bf48cf83375d5e2180c6fd1",
     "targets": {
       "de": {
         "model": "manual-incremental-sync",
@@ -6732,7 +6732,7 @@
     }
   },
   "docs/en/docs/interface_guide/parental_control_v4.9.md": {
-    "source_hash": "f51a4018e4e3087268303a796b9765ca6a3ece44ba7a816b3b67604d82df5866",
+    "source_hash": "157c72e1a8971effbed44a5218199066b3b8d17a0db6fe0433fd364c7aba0e74",
     "targets": {
       "de": {
         "model": "manual-incremental-sync",
@@ -6795,10 +6795,10 @@
         "updated_at": 1792477451
       }
     },
-    "source_hash": "2075a2aa122f70acfc1b7b65ef1b48794dc485e2457a31de1926b2be32475abb"
+    "source_hash": "9514463977c31c208f4982cae0b0b934b68c83dc2a9b8632bf8ba06b01d2db10"
   },
   "docs/en/docs/tutorials/how_to_make_adguard_home_dns_bypass_vpn.md": {
-    "source_hash": "2b8b6c3069d82d515bb1799cd479f0456bac3efcba0c2db9ae1353df7b00e096",
+    "source_hash": "55cd76718043a0e92b54beb12be3995dbd8077948944528d3cff6e490b3ec83c",
     "targets": {
       "de": {
         "model": "deepseek-v4-pro",
@@ -6861,10 +6861,10 @@
         "updated_at": 1792143745
       }
     },
-    "source_hash": "74610e402b7e95fbdb518996de629aabb44d56b7cd8a8a4b5b4207bb052a2dfb"
+    "source_hash": "28c7b8d182a6237ec98fd6e90fe4772033572e3120540986f181d72ae618d004"
   },
   "docs/en/docs/faq/cannot_connect_to_obfuscated_wireguard_server.md": {
-    "source_hash": "bd8f796a8362bb3ed721b85c43b3d6e220529710f506392f0a49db6764bed757",
+    "source_hash": "a33a259a8087f3c205d583747747a2b491fd825434ed9eeb94b94dc2f8dab976",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -6897,7 +6897,7 @@
     }
   },
   "docs/en/docs/tutorials/sms.md": {
-    "source_hash": "dce4da5ece1ae596a6bb13a16857268a7258e17d7926dbed06caef354eded8a9",
+    "source_hash": "972dd2241a858a18c999c2b7275ce801f35c3694526c88fbf341bbf13f66bd29",
     "targets": {
       "de": {
         "model": "claude-opus-5-5-manual-sync",
@@ -6959,7 +6959,7 @@
     }
   },
   "docs/en/docs/interface_guide/vpn_dashboard.md": {
-    "source_hash": "9e79813b5cf1af6a2834212a7400aff67b7a755738a1664de847745430edee9d",
+    "source_hash": "a33127df45e3aebe5f1993cc351d07b078042a4bb569e76a21fe3ecfd26e6162",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -7091,7 +7091,7 @@
     }
   },
   "docs/en/docs/tutorials/understanding_wifi_coverage_access_points_and_transmit_power.md": {
-    "source_hash": "ee183d2b4cc965b8d2a7b7b6d603fcf05eaa3104fdd4c43543ac46a8b5c2d46f",
+    "source_hash": "d47a808e6f36ab47ecf57ef32e49587badf2bffb63d5081e7733ed49e97a646a",
     "targets": {
       "de": {
         "model": "manual-incremental-sync",
@@ -7124,7 +7124,7 @@
     }
   },
   "docs/en/docs/interface_guide/wireless_v4.8.md": {
-    "source_hash": "061ab05d78bcde81133336e5b846a51a24aba038500cd8e9beda3f8dcfe6516a",
+    "source_hash": "634dc4de1224114d4cf85b9b61021d0e082cfaf2ef8ad6b2bc66180798ee1136",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -7157,7 +7157,7 @@
     }
   },
   "docs/en/docs/tutorials/what_is_usb-c_otg_and_how_to_share_your_network_via_usb-c_otg.md": {
-    "source_hash": "2a62bd360cd6faeb42d6cd99c3fd6ce27769fd4308852b3301d4cf825c3df3e4",
+    "source_hash": "3bdf05a613cc5694fd7dd2baa34b3fc4e1d037f95249269e9211f9ebfe27b5d0",
     "targets": {
       "de": {
         "model": "manual-incremental-sync",
@@ -7190,7 +7190,7 @@
     }
   },
   "docs/en/docs/interface_guide/subnet.md": {
-    "source_hash": "af5e0597ff76085f86edeb1ff56bd6f75a893e05c73fd0cd33c3c068e481adb6",
+    "source_hash": "f3abc9c052c746496a401523422d1ea556a2f6ecbe2921e9fdbb285da3637389",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -7223,7 +7223,7 @@
     }
   },
   "docs/en/docs/faq/connecting_10g_sfp_plus_port_on_flint4.md": {
-    "source_hash": "40c45c60926b66429401246f4a34bf977bb0c018424a29cda09b911f2cbea8a1",
+    "source_hash": "847fae20fd9756f299ac1443ed27b246d8e5958743b258dab9dc37104ef30dce",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -7256,7 +7256,7 @@
     }
   },
   "docs/en/docs/interface_guide/ethernet_port_v4.10.md": {
-    "source_hash": "1e2639c34a23eb1596870788f54cb9fec27fef368cfb0d6d6b9fe532613d73f2",
+    "source_hash": "44d3647d10002d1bc3ecd8b7ee244412cd17750948ff69fa710413113b2ddc9c",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -7289,7 +7289,7 @@
     }
   },
   "docs/en/docs/interface_guide/glinet_account.md": {
-    "source_hash": "171321e0f327c26981ea53e4df84b25a96c35cb073a04e7b9a9af5d2a43f70ef",
+    "source_hash": "40abf89fb0ea129d2d35bc55cbf52567dea12d739d5f521afdf6c98e15261481",
     "targets": {
       "de": {
         "model": "claude-opus-5-5-manual-sync",
@@ -7322,7 +7322,7 @@
     }
   },
   "docs/en/docs/interface_guide/mesh.md": {
-    "source_hash": "24cac4051cfbaad44a39c8e686175b52ec97bede19063c77805c6d4b3920258b",
+    "source_hash": "40e5405aa47ad286baa84f570cd40efaf36dbb90c094b0d8142e6a5d7c60d65b",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -7355,7 +7355,7 @@
     }
   },
   "docs/en/docs/user_guide/gl-be14000/index.md": {
-    "source_hash": "b5859af7ed7ca9c7ab20646b74fde2f5dffefb16251f1286f6f2338e0b24b425",
+    "source_hash": "beadefaea665065931694b4667e09369ecebd6e09c67cd1168de57be9d485654",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -7388,7 +7388,7 @@
     }
   },
   "docs/en/docs/user_guide/gl-mg1300/index.md": {
-    "source_hash": "8e7602c511690c458444d22be403e04af4cf127967306d7a4f5b6eb5c5313063",
+    "source_hash": "3690024b6f96c452cf56b707e0e79a68aec912faca31c97e7e00f292da88b10d",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -7454,7 +7454,7 @@
     }
   },
   "docs/en/docs/interface_guide/goodpas.md": {
-    "source_hash": "3d3fcc5c6180b9941847acff8760784d9a7f28df689adce6fce0b2707f111adf",
+    "source_hash": "2d0244e5e6280847a9d6e45f2b5b25edfab54d00caaec801f4e4d13f72e7a2fa",
     "targets": {
       "de": {
         "model": "claude-opus-5-5-manual-sync",
@@ -7487,7 +7487,7 @@
     }
   },
   "docs/en/docs/interface_guide/internet_cellular_v4.10.md": {
-    "source_hash": "62d71af8326694e52d6943c458deeac62df704dc6beed7dc4bfd6413f14efb5d",
+    "source_hash": "a9600a672cda81a2598ce0a16da6b251afe4e39a673c6fdbbddcf7ca4cea4161",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -7553,7 +7553,7 @@
     }
   },
   "docs/en/docs/features_update/firmware_v4.10.md": {
-    "source_hash": "d37ee24dbf7330718c7f73fe9396a4e1f4797a0e38375c4fea16dd2298c54a84",
+    "source_hash": "c329c427ada4ed486f978a619e018a736662e57595e3fcd3799b3e1cb0436612",
     "targets": {
       "de": {
         "model": "claude-opus-5-5-manual-sync",
@@ -7586,7 +7586,7 @@
     }
   },
   "docs/en/docs/interface_guide/dns_v4.11.md": {
-    "source_hash": "fa31de95c7c8b0f1efe13388c6b1c3e2489418c08277d9ce30fa66347894e4e3",
+    "source_hash": "74594616e1b012b02f97eb88306268520711d4b6451ecab3df47d11e4f07603e",
     "targets": {
       "de": {
         "model": "codex-gpt-5-manual-sync",
@@ -7619,7 +7619,7 @@
     }
   },
   "docs/en/docs/interface_guide/expressvpn_activation_guide.md": {
-    "source_hash": "8edc3ef94b08124afe4632387c7a072278c3debd800f48934f37d2d45f70a9e8",
+    "source_hash": "0d8a8005501ac4c0d7d4945be134f5c52104e538f8a9db4ac1cc7bb4c6d10c31",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -7652,7 +7652,7 @@
     }
   },
   "docs/en/docs/interface_guide/network_quality.md": {
-    "source_hash": "dde3d0de335918f26d89a6d3d99eafc9b8562213d8e27635d8176c0b7f1e1782",
+    "source_hash": "84c4c6ef75cb96b93c50dfb6b80df4f16a78d2041938a57d77fe3f16c25bd770",
     "targets": {
       "de": {
         "model": "codex-gpt-5-manual-sync",
@@ -7685,7 +7685,7 @@
     }
   },
   "docs/en/docs/interface_guide/security_scan.md": {
-    "source_hash": "c0ff0a46f57e18760898ad2b0473dd7b45292a504fc643ef2de79051d70e2139",
+    "source_hash": "d8540106faee94e7c3272be90ecc0b04ab5d1b90d5322c5c38687a8e117ce42e",
     "targets": {
       "de": {
         "model": "codex-gpt-5-manual-sync",
@@ -7718,7 +7718,7 @@
     }
   },
   "docs/en/docs/tutorials/how_to_set_up_vpn_obfuscation_on_glinet_routers.md": {
-    "source_hash": "7b4c76b9154d3c4c4cc48b4b2fec6583713e1d7ad5f3d47e8f45f99a20ea6e7c",
+    "source_hash": "8d2e862694d5802a1e494ac81805b9da52fcef3ac975163b3561c6e10c98f304",
     "targets": {
       "de": {
         "model": "codex-gpt-5-manual-sync",
@@ -7751,7 +7751,7 @@
     }
   },
   "docs/en/docs/user_guide/gl-mt6000ft/index.md": {
-    "source_hash": "52d50c7c7045789e3f88439a87ba19360c95d135adff4e2c6831faa09dfe9080",
+    "source_hash": "6142393724d4f53e4dc6a804d9aa89ad34d0dcf6e68698b1f9379bc253f8e646",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -7784,7 +7784,7 @@
     }
   },
   "docs/en/docs/features_update/firmware_v4.11.md": {
-    "source_hash": "b0c408f61b8719f24e920d1e58859feb9bf6db2788b521b3d4d18e52c8eef41a",
+    "source_hash": "8ef2a128edcccc60bb47385e2241e593beafa0c5cc33ecf55d9fb471ba4d8a99",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
@@ -7817,7 +7817,7 @@
     }
   },
   "docs/en/docs/tutorials/secure_rdp_with_wireguard.md": {
-    "source_hash": "b201a042e64e48dfad39adeec617d275957465367e09bbb7c02ac58a4a2d0f8f",
+    "source_hash": "ed3e0db21dc0c295c3d5ed79bf1669db45f3f334764b2cefa10645d99f2d6ba1",
     "targets": {
       "de": {
         "model": "codex-manual-sync",

@@ -1,4 +1,4 @@
-# Firewall
+# Firewall {#firewall}
 
 Ten przewodnik dotyczy firmware v4.5 i wcześniejszych wersji.
 
@@ -10,7 +10,7 @@ Po lewej stronie webowego panelu administracyjnego przejdź do **NETWORK** -> **
 
 Strona Firewall umożliwia konfigurację reguł zapory, takich jak **Port Forwarding**, **Open Ports on Router** i **DMZ**.
 
-## Port Forwards
+## Port Forwards {#port-forwards}
 
 Port Forwarding umożliwia zdalnym komputerom łączenie się z lokalnym komputerem lub serwerem znajdującym się za zaporą routera w sieci LAN (na przykład z serwerem WWW lub FTP).
 
@@ -38,7 +38,7 @@ W wyskakującym oknie dodaj regułę przekierowania portów i kliknij **Apply**.
 
 **Enable:** Użyj przełącznika, aby włączyć lub wyłączyć regułę.
 
-## Open Ports on Router
+## Open Ports on Router {#open-ports-on-router}
 
 Aby usługi routera, takie jak web i FTP, były publicznie dostępne, odpowiednie porty muszą zostać otwarte na routerze.
 
@@ -58,7 +58,7 @@ W wyskakującym oknie otwórz nowy port i kliknij **Apply**.
 
 **Enable:** Włącza lub wyłącza regułę.
 
-## DMZ
+## DMZ {#dmz}
 
 DMZ umożliwia wystawienie jednego komputera do Internetu, dzięki czemu wszystkie przychodzące pakiety będą przekierowywane do tego komputera.
 

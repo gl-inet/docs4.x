@@ -1,4 +1,4 @@
-# ¿Cómo reservar una IP fija para un cliente OpenVPN en una conexión OpenVPN autoconstruida?
+# ¿Cómo reservar una IP fija para un cliente OpenVPN en una conexión OpenVPN autoconstruida? {#how-to-reserve-a-fixed-ip-for-openvpn-client-in-a-self-built-openvpn-connection}
 
 Este tutorial le mostrará cómo reservar una IP fija para su cliente OpenVPN que se conecta a su servidor. Antes de seguir los pasos siguientes, configure primero un router GL.iNet como servidor OpenVPN.
 

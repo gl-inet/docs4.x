@@ -1,10 +1,10 @@
-# トグルボタン設定
+# トグルボタン設定 {#toggle-button-settings}
 
 Toggle Button Settings では、ルーター本体の物理トグルスイッチ（一部モデルでは mode switch とも呼ばれます）に特定の機能を割り当て、よく使う操作をすばやく実行できるショートカットとして利用できます。
 
 このスイッチの動作は Web 管理パネルでカスタマイズできます。
 
-## 対応モデル
+## 対応モデル {#supported-models}
 
 ??? "Supported Models"
     - GL-BE10000 (Slate 7 Pro)
@@ -43,7 +43,7 @@ Toggle Button Settings では、ルーター本体の物理トグルスイッチ
     - GL-AP1300 (Cirrus)
     - GL-X300B (Collie)
 
-## Setup
+## Setup {#setup}
 
 Web管理パネルの左側で、**SYSTEM** -> **Toggle Button Settings** に移動します。
 

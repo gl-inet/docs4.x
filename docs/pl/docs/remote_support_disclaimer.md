@@ -1,4 +1,4 @@
-# ZASTRZEŻENIE DOTYCZĄCE WSPARCIA ZDALNEGO
+# ZASTRZEŻENIE DOTYCZĄCE WSPARCIA ZDALNEGO {#remote-support-disclaimer}
 
 Szanowny Użytkowniku,
 
@@ -10,7 +10,7 @@ Przed rozpoczęciem jakiegokolwiek połączenia zdalnego prosimy o uważne przec
 
 Jeśli nie zgadzasz się z warunkami tego zastrzeżenia, zdalny dostęp nie zostanie uruchomiony. Kontynuując połączenie zdalne, potwierdzasz pełne zrozumienie i akceptację tych warunków.
 
-## I. Cel połączenia zdalnego
+## I. Cel połączenia zdalnego {#i-purpose-of-remote-connection}
 
 Połączenie zdalne wykorzystujemy wyłącznie w celu pomocy w rozwiązywaniu problemów technicznych związanych z produktami i usługami GL.iNet, w tym między innymi do:
 
@@ -20,7 +20,7 @@ Połączenie zdalne wykorzystujemy wyłącznie w celu pomocy w rozwiązywaniu pr
 
 Zobowiązujemy się nie przeglądać, nie gromadzić, nie przechowywać ani nie rozpowszechniać Twoich danych osobowych, plików ani żadnych innych danych niezwiązanych ze wsparciem technicznym produktów i usług GL.iNet. Nie będziemy też instalować żadnego oprogramowania bez Twojej zgody.
 
-## II. Zakres upoważnienia
+## II. Zakres upoważnienia {#ii-authorized-scope}
 
 Aby ułatwić diagnozowanie problemów, upoważniasz nas do:
 
@@ -36,7 +36,7 @@ Aby ułatwić diagnozowanie problemów, upoważniasz nas do:
 
     Po zakończeniu świadczenia usługi z użyciem AnyDesk oprogramowanie AnyDesk może zachować dzienniki operacji. Szczegółowe informacje znajdują się w dokumencie [Polityka prywatności AnyDesk](https://anydesk.com.cn/en/privacy){target="blank"}.
 
-## III. Prawa i obowiązki użytkownika
+## III. Prawa i obowiązki użytkownika {#iii-user-rights-and-obligations}
 
 1. **Prawo do nadzoru i zakończenia połączenia**
 
@@ -54,7 +54,7 @@ Aby ułatwić diagnozowanie problemów, upoważniasz nas do:
 
     Nie możesz żądać od nas obsługi ani rozwiązywania problemów wykraczających poza upoważniony zakres lub niezwiązanych z naszymi produktami bądź usługami.
 
-## IV. Wyłączenie odpowiedzialności
+## IV. Wyłączenie odpowiedzialności {#iv-disclaimer}
 
 GL.iNet i jego personel wsparcia technicznego nie ponoszą odpowiedzialności w następujących sytuacjach:
 
@@ -82,11 +82,11 @@ GL.iNet i jego personel wsparcia technicznego nie ponoszą odpowiedzialności w 
 
     Rozumiesz i akceptujesz, że połączenie zdalne jest jedynie pomocniczą metodą rozwiązywania problemów. GL.iNet nie gwarantuje rozwiązania wszystkich problemów technicznych ani tego, że spełni ono wszystkie Twoje potrzeby.
 
-## V. Rozstrzyganie sporów
+## V. Rozstrzyganie sporów {#v-dispute-resolution}
 
 Powstanie, ważność, wykonanie i interpretacja niniejszego oświadczenia, a także wszelkie związane z nim spory podlegają prawu Hongkongu, Chiny (z wyłączeniem norm kolizyjnych). W przypadku powstania sporu między Tobą a nami obie strony powinny najpierw dążyć do rozwiązania go w drodze polubownych negocjacji. Jeśli negocjacje nie przyniosą rezultatu, zgadzasz się na poddanie sporu jurysdykcji sądów Hongkongu, Chiny.
 
-## VI. Postanowienia końcowe
+## VI. Postanowienia końcowe {#vi-other}
 
 1. GL.iNet zastrzega sobie prawo do zmiany niniejszego zastrzeżenia zgodnie z rzeczywistymi okolicznościami oraz do publikowania takich zmian na swojej oficjalnej stronie internetowej bez odrębnego powiadomienia.
 

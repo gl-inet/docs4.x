@@ -1,12 +1,12 @@
-# Slate 7 Pro (GL-BE10000) ユーザーガイド
+# Slate 7 Pro (GL-BE10000) ユーザーガイド {#slate-7-pro-gl-be10000-user-guide}
 
-## 製品概要
+## 製品概要 {#product-overview}
 
 Slate 7 Pro (GL-BE10000) は、トライバンド Wi-Fi 7 対応のポータブルトラベルルーターです。Slate 7 (GL-BE3600) の上位モデルとして、上面に大型タッチスクリーンを搭載し、1GB DDR4 RAM と 512MB NAND フラッシュストレージにより、安定した動作とプラグイン互換性を実現します。WireGuard® は最大 1,100 Mbps、OpenVPN-DCO は最大 1,000 Mbps の高速 VPN に対応し、2× 2.5G Ethernet ポート（1 WAN + 1 LAN）、1× USB-C 3.0 ポート、PD 給電を備えているため、旅行やモバイル用途でも高い接続性と利便性を提供します。
 
 ![gl-be10000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/hardware/be10000_interface.png){class="glboxshadow"}
 
-## パッケージ内容
+## パッケージ内容 {#package-contents}
 
 パッケージには以下が含まれます。
 
@@ -24,7 +24,7 @@ Slate 7 Proの開封動画を以下でご覧いただけます。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zNxb5gl2tfg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## タッチスクリーン
+## タッチスクリーン {#touchscreen}
 
 | 画面表示 | 説明 |
 | :------- | :--- |
@@ -34,13 +34,13 @@ Slate 7 Proの開封動画を以下でご覧いただけます。
 | ![home](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/home.png){width="400"} | ホーム画面<br>**左側**: システム時刻、ネットワーク速度、および Wi-Fi、Clients、VPN、その他の機能へのショートカット。<br>**右側**: Ethernet、Repeater、Tethering、Cellular の 4 つの接続モード |
 | ![internet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/internet.png){width="400"} | ネットワーク状態<br>**青**: アクティブ / インターネットに接続済み<br>**黄**: 接続中 / ネットワーク障害<br>**白**: 非アクティブな接続 |
 
-## Slate 7 Pro の設定方法
+## Slate 7 Pro の設定方法 {#how-to-set-up-slate-7-pro}
 
-### 1. 電源を入れる
+### 1. 電源を入れる {#1-power-on}
 
 2 ピース構成の電源アダプターを組み立てます。ルーターに接続し、コンセントに差し込みます。自動的に起動します。
 
-### 2. デバイスを接続する
+### 2. デバイスを接続する {#2-connect-device}
 
 デバイス（パソコン、ノート PC、スマートフォンなど）を Wi-Fi または Ethernet でルーターに接続します。
 
@@ -52,11 +52,11 @@ Slate 7 Proの開封動画を以下でご覧いただけます。
 
     デバイスで利用可能なネットワーク一覧からルーターの Wi-Fi ネットワーク名を探し、パスワードを入力して接続します。デフォルトのネットワーク名（SSID）とパスワードは、ルーターのラベルに記載されています。
 
-### 3. Web 管理パネルにログインする
+### 3. Web 管理パネルにログインする {#3-log-in-to-web-admin-panel}
 
 Web ブラウザーを開き、アドレスバーに `192.168.8.1` を入力してログインします。言語を選択し、管理者パスワードを設定してから **Apply** をクリックします。
 
-### 4. インターネットを設定する
+### 4. インターネットを設定する {#4-internet-setup}
 
 対応しているインターネット接続方式（Ethernet、Repeater、Tethering、Cellular）のいずれかで Slate 7 Pro を設定します。[Multi-WAN](../../interface_guide/multi-wan.md) 機能を使用する場合は、複数のインターネット接続を設定してください。
 === "Ethernet"
@@ -98,7 +98,7 @@ Web ブラウザーを開き、アドレスバーに `192.168.8.1` を入力し�
 
 以下は、Slate 7 Pro Web 管理パネルの主な機能の概要です。
 
-## Wireless
+## Wireless {#wireless}
 
 Wireless ページでは、6GHz、5GHz、2.4GHz Wi-Fi ネットワークの設定を構成できます。Wi-Fi の有効化、TX 電力の設定、Wi-Fi 名（SSID）の指定、ランダム BSSID の有効化、Wi-Fi セキュリティモードとパスワードの選択、SSID 表示設定、Wi-Fi モード、帯域幅、チャネルの選択などが含まれます。
 
@@ -106,13 +106,13 @@ Wireless ページでは、6GHz、5GHz、2.4GHz Wi-Fi ネットワークの設�
 
 Wireless の設定については、[Wireless](../../interface_guide/wireless.md) を参照してください。
 
-## Clients
+## Clients {#clients}
 
 Clients ページには、接続中のデバイスに関する情報が表示されます。各クライアントについて、名前、IP アドレス、MAC アドレス、ダウンロード速度、アップロード速度、合計トラフィックを確認でき、クライアントをブロックしたり、その他の操作を実行したりできます。
 
 Clients の設定については、[Clients](../../interface_guide/clients.md) を参照してください。
 
-## クラウドサービス
+## クラウドサービス {#cloud-services}
 
 === "GoodCloud"
 
@@ -126,7 +126,7 @@ Clients の設定については、[Clients](../../interface_guide/clients.md) �
 
     AstroWarp の設定については、[AstroWarp](../../interface_guide/astrowarp.md) を参照してください。
 
-## VPN
+## VPN {#vpn}
 
 VPN（仮想プライベートネットワーク）は、デバイスと VPN サーバー間に安全な暗号化トラフィックを作成します。VPN クライアントとしてプライバシーとセキュリティを強化できるほか、VPN サーバーとしてリモートネットワークへアクセスすることもできます。Slate 7 Pro は OpenVPN と WireGuard をサポートしています。
 
@@ -144,7 +144,7 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
     * [WireGuard クライアントの設定方法](../../interface_guide/wireguard_client.md)
     * [WireGuard サーバーの設定方法](../../interface_guide/wireguard_server.md)
 
-## ネットワーク
+## ネットワーク {#network}
 
 === "Multi-WAN"
 
@@ -213,7 +213,7 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
     Network Acceleration の設定については、[Network Acceleration](../../interface_guide/network_acceleration.md) を参照してください。
 
-## フロー制御
+## フロー制御 {#flow-control}
 
 === "DPI Engine"
 
@@ -255,7 +255,7 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
     詳細は[SQM](../../interface_guide/sqm.md)を参照してください。
 
-## セキュリティ
+## セキュリティ {#security}
 
 === "Port Forwarding"
 
@@ -279,7 +279,7 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
     詳細は[NAT Mode](../../interface_guide/nat_settings.md)を参照してください。
 
-## アプリケーション
+## アプリケーション {#applications}
 
 === "Plug-ins"
 
@@ -325,7 +325,7 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
     Torの設定方法は[Tor](../../interface_guide/tor.md)を参照してください。
 
-## システム
+## システム {#system}
 
 === "Overview"
 

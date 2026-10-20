@@ -1,4 +1,4 @@
-# Hilfe
+# Hilfe {#help}
 
 Klicken Sie im Web-Admin-Panel auf das Fragezeichen-Symbol auf der rechten Seite der Titelleiste.
 

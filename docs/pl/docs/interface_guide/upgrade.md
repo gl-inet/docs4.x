@@ -1,4 +1,4 @@
-# Aktualizacja oprogramowania
+# Aktualizacja oprogramowania {#upgrade}
 
 W lewym panelu bocznym panelu administracyjnego przejdź do **SYSTEM** -> **Upgrade**, aby zaktualizować firmware routera.
 
@@ -8,9 +8,9 @@ W przypadku niektórych modeli komórkowych możesz również w razie potrzeby z
 
     Podczas aktualizacji nie odłączaj zasilania. **NIE** wyłączaj routera. Po zakończeniu aktualizacji urządzenie automatycznie uruchomi się ponownie, co może potrwać kilka minut.
 
-## Aktualizacja firmware
+## Aktualizacja firmware {#firmware-upgrade}
 
-### Aktualizacja online
+### Aktualizacja online {#online-upgrade}
 
 Tutaj możesz sprawdzić aktualną wersję firmware.
 
@@ -27,7 +27,7 @@ Tutaj możesz sprawdzić aktualną wersję firmware.
 
 ![time zone](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/time_zone.png){class="glboxshadow"}
 
-### Aktualizacja lokalna
+### Aktualizacja lokalna {#local-upgrade}
 
 Wybierz plik firmware lub przeciągnij go i upuść, aby przeprowadzić aktualizację. Firmware możesz pobrać z naszego [centrum pobierania](https://dl.gl-inet.com){target="_blank"}.
 
@@ -41,25 +41,25 @@ Po przesłaniu pliku system zweryfikuje firmware.
 
 Kliknij **Install**, aby przeprowadzić aktualizację.
 
-## Aktualizacja modemu
+## Aktualizacja modemu {#modem-upgrade}
 
 Routery komórkowe GL.iNet umożliwiają aktualizację firmware modemu komórkowego z poziomu panelu administracyjnego.
 
 Aktualizację modułu komórkowego warto rozważyć, gdy połączenie komórkowe nie działa lub jest niestabilne. Przed rozpoczęciem aktualizacji modemu zalecamy kontakt z pomocą techniczną w celu diagnozy problemu.
 
-### Aktualizacja online
+### Aktualizacja online {#online-upgrade_1}
 
 Tutaj możesz sprawdzić aktualną wersję modemu komórkowego. Jeśli router jest podłączony do Internetu, automatycznie sprawdzi na serwerze producenta dostępność najnowszej wersji modemu, co upraszcza cały proces aktualizacji.
 
 ![modem online upgrade](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/modem_online_upgrade.png){class="glboxshadow"}
 
-### Aktualizacja lokalna
+### Aktualizacja lokalna {#local-upgrade_1}
 
 W razie potrzeby ręcznie prześlij z komputera plik firmware modemu, aby zaktualizować modem komórkowy.
 
 ![modem local upgrade](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/modem_local_upgrade.png){class="glboxshadow"}
 
-## Aktualizacja DPI online
+## Aktualizacja DPI online {#dpi-online-upgrade}
 
 Aktualizacja DPI online sprawdza i aktualizuje silnik DPI oraz jego bazę sygnatur, zapewniając dokładne rozpoznawanie ruchu dla statystyk danych, filtra treści i innych funkcji korzystających z DPI.
 

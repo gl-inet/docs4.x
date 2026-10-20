@@ -1,4 +1,4 @@
-# ネットワークストレージ
+# ネットワークストレージ {#network-storage}
 
 ## はじめに {#introduction}
 
@@ -366,7 +366,7 @@ USB Drive はそのまま USB ポートに接続できます。ポータブル�
 
     ![documents WebDAV](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav_client/documents_4_webdav.png){class="glboxshadow" width="560"}
 
-## モバイルアプリを使う
+## モバイルアプリを使う {#using-mobile-app}
 
 Web Admin Panel では共有フォルダーのみ管理できます。ストレージデバイス上のファイルを管理するには、[モバイルアプリ](https://www.gl-inet.com/app/#download-app-glinet){target="_blank"} を使用してください。
 

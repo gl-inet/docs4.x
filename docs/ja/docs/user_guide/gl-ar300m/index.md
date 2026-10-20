@@ -1,20 +1,20 @@
-# Shadow (GL-AR300M Series) ユーザーガイド
+# Shadow (GL-AR300M Series) ユーザーガイド {#shadow-gl-ar300m-series-user-guide}
 
-## 製品概要
+## 製品概要 {#product-overview}
 
 Shadow (GL-AR300M Series) は、携帯しやすく旅行にも適した、ポケットサイズのミニルーターで、最大 300Mbps の無線伝送速度に対応しています。Shadow は、OpenVPN、WireGuard®、DNS サーバーに対応するなど、高度なセキュリティ機能を備えています。公衆ネットワークを安全なブラウジングのためのプライベート Wi-Fi に変換できるだけでなく、30 を超える VPN サービスプロバイダーの VPN 設定ファイルをアップロードして VPN クライアントとして設定することもでき、デバイスと VPN サーバーの間に暗号化された通信を作成して、プライバシーとセキュリティをさらに強化できます。
 
 ![ar300mの概要](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar300m/product_info/overview.png){class="glboxshadow"}
 
-## Shadow のセットアップ方法
+## Shadow のセットアップ方法 {#how-to-set-up-shadow}
 
 Shadow をセットアップするには、対応している 4 つのインターネット接続方法（イーサネット、リピーター、テザリング、セルラー）のいずれかを使用します。以下の手順に従ってください。
 
-### 1. 電源を入れる
+### 1. 電源を入れる {#1-power-on}
 
 Micro USB 電源ケーブルをルーターの電源ポートに接続し、反対側を 5V/2A の電源アダプター（別売り）につないでコンセントに差し込みます。
 
-### 2. デバイスを接続する
+### 2. デバイスを接続する {#2-connect-device}
 
 Wi-Fi またはイーサネットを使って、デバイス（パソコン、ノート PC、スマートフォンなど）をルーターに接続します。
 
@@ -26,13 +26,13 @@ Wi-Fi またはイーサネットを使って、デバイス（パソコン、�
 
     デバイスで **Settings** -> **WLAN** を開き、利用可能なネットワーク一覧からルーターの Wi-Fi ネットワーク名を見つけてパスワードを入力します。初期のネットワーク名とパスワードは、ルーター底面のラベルに記載されています。
 
-### 3. Web 管理画面にログインする
+### 3. Web 管理画面にログインする {#3-log-in-to-web-admin-panel}
 
 Web ブラウザを開き、アドレスバーに `192.168.8.1` を入力してログインします。言語を選択して管理者パスワードを設定し、**Apply** をクリックします。
 
 Wi-Fi 情報を変更した場合は、新しい認証情報を使ってデバイスをルーターの Wi-Fi に再接続する必要があります。
 
-### 4. インターネット接続を設定する
+### 4. インターネット接続を設定する {#4-internet-setup}
 
 **Note:** 以下の説明は、GL.iNet Web 管理画面からルーターを設定する場合に適用されます。GL.iNet アプリを利用したい場合は、[アプリをダウンロード](https://www.gl-inet.com/app/){target="_blank"}して、画面の案内に従ってください。
 
@@ -84,7 +84,7 @@ Wi-Fi 情報を変更した場合は、新しい認証情報を使ってデバ�
 
     詳しい手順は、[USB モデムでインターネットに接続する](../../interface_guide/internet_cellular.md)をご参照ください。
 
-## VPN のセットアップ方法
+## VPN のセットアップ方法 {#how-to-set-up-a-vpn}
 
 VPN（仮想プライベートネットワーク）は、デバイスと VPN サーバーの間に安全で暗号化された通信を作成します。プライバシーとセキュリティを強化し（VPN クライアント）、リモートネットワークへのアクセスも可能にします（VPN サーバー）。Shadow（およびその他の GL.iNet ルーター）は、OpenVPN と WireGuard に対応しています。
 
@@ -102,7 +102,7 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
     * [WireGuard クライアントの設定方法](../../interface_guide/wireguard_client.md)
     * [WireGuard サーバーの設定方法](../../interface_guide/wireguard_server.md)
 
-## アプリケーション
+## アプリケーション {#applications}
 
 === "プラグイン"
 
@@ -122,7 +122,7 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
     設定方法は [GoodCloud](../../interface_guide/cloud.md) をご参照ください。
 
-## ネットワーク設定
+## ネットワーク設定 {#network-settings}
 
 === "ファイアウォール"
 
@@ -217,7 +217,7 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
     設定方法は [IGMP Snooping](../../interface_guide/igmp_snooping.md) をご参照ください。
 
-## システム設定
+## システム設定 {#system-settings}
 
 === "概要"
 

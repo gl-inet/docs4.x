@@ -1,6 +1,6 @@
-# Guida utente di Mudi 7 (GL-E5800)
+# Guida utente di Mudi 7 (GL-E5800) {#mudi-7-gl-e5800-user-guide}
 
-## Panoramica del prodotto
+## Panoramica del prodotto {#product-overview}
 
 Mudi 7 e un router da viaggio 5G NR Wi-Fi 7 portatile progettato per chi viaggia spesso e per utenti business, offrendo reti private affidabili per proteggere i dati dalle minacce informatiche. Integra 5G ad alta velocita, doppia SIM con commutazione automatica in caso di failover e Wi-Fi 7 (canali da 320 MHz e 4K QAM) per una connettivita stabile e veloce, adatta a download rapidi, streaming 4K e videoconferenze fluide anche in ambienti affollati.
 
@@ -8,7 +8,7 @@ Dotato di touchscreen, Mudi 7 consente di monitorare in tempo reale l'utilizzo d
 
 ![gl-e5800 overview](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/gl-e5800_overview.png){class="glboxshadow"}
 
-## Contenuto della confezione
+## Contenuto della confezione {#package-contents}
 
 - 1 x Mudi 7 (GL-E5800)
 - 1 x Pacco batteria
@@ -22,13 +22,13 @@ Guarda qui sotto il video di unboxing di Mudi 7.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sCEIReC70Fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Come configurare Mudi 7
+## Come configurare Mudi 7 {#how-to-set-up-mudi-7}
 
 Guarda questo video di configurazione oppure segui i passaggi riportati di seguito.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6xg8I0ohAMM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Installa la scheda SIM
+### 1. Installa la scheda SIM {#1-install-sim-card}
 
 Installa una o piu' Nano-SIM su Mudi 7. Se preferisci usare eSIM, salta questo passaggio e passa al passaggio 2.
 
@@ -50,19 +50,19 @@ Infine, rimetti la batteria e richiudi il coperchio.
 
 ![restore battery](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/first_time_setup/battery2.png){class="glboxshadow"}
 
-### 2. Accendi il dispositivo
+### 2. Accendi il dispositivo {#2-power-on}
 
 Tieni premuto il pulsante di accensione per **3 secondi**, oppure collega un alimentatore.
 
 ![power on](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/first_time_setup/power-button.png){class="glboxshadow"}
 
-### 3. Impostazioni di base
+### 3. Impostazioni di base {#3-basic-settings}
 
 Segui le istruzioni sullo schermo per configurare le impostazioni di base, inclusi **screen passcode**, **admin password**, **Wi-Fi name**, **Wi-Fi password** e **frequency bands**.
 
 **Suggerimento**: La password amministratore predefinita corrisponde agli ultimi 9 caratteri del numero di serie del dispositivo, seguiti dal carattere `#`. Puoi usare la password predefinita oppure impostarne una personalizzata.
 
-### 4. Configurazione della connessione Internet
+### 4. Configurazione della connessione Internet {#4-internet-setup}
 
 Configura Mudi 7 usando uno dei metodi di connessione Internet supportati: Cellular, Ethernet, Repeater, Tethering e USB Ethernet. Se desideri usare la funzione [Multi-WAN](../../interface_guide/multi-wan.md), configura piu di una connessione Internet.
 
@@ -78,7 +78,7 @@ Configura Mudi 7 usando uno dei metodi di connessione Internet supportati: Cellu
 
         ![enable esim](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/lcd_enable_esim.png){class="glboxshadow" width="590"}
 
-    2. Accedi al [pannello di amministrazione web](./index.md#accedi-al-pannello-di-amministrazione-web) e vai su **INTERNET** -> **Cellular** -> **eSIM Management**.
+    2. Accedi al [pannello di amministrazione web](./index.md#log-in-to-web-admin-panel) e vai su **INTERNET** -> **Cellular** -> **eSIM Management**.
 
         ![esim management](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/esim_management.png){class="glboxshadow" width="590"}
 
@@ -174,7 +174,7 @@ Configura Mudi 7 usando uno dei metodi di connessione Internet supportati: Cellu
     3. Mudi 7 si colleghera quindi automaticamente al dispositivo. Se non si connette, ripeti i passaggi sopra oppure accedi al pannello di amministrazione web e controlla la connessione USB Ethernet nella pagina INTERNET.
     4. Quando la connessione a Internet va a buon fine, un'icona USB e un'icona della porta Ethernet compariranno nell'angolo superiore destro del touchscreen. Puoi anche controllare i dettagli della connessione nel pannello di amministrazione web.
 
-## Aggiornamento firmware
+## Aggiornamento firmware {#firmware-upgrade}
 
 !!! note "Prima di eseguire l'aggiornamento, tieni presente quanto segue:"
 
@@ -184,7 +184,7 @@ Configura Mudi 7 usando uno dei metodi di connessione Internet supportati: Cellu
 
 Puoi aggiornare il firmware di Mudi 7 tramite touchscreen o pannello di amministrazione web.
 
-### Aggiornamento tramite touchscreen
+### Aggiornamento tramite touchscreen {#upgrade-via-touchscreen}
 
 1. Collega Mudi 7 a Internet.
 
@@ -196,13 +196,13 @@ Puoi aggiornare il firmware di Mudi 7 tramite touchscreen o pannello di amminist
 
     ![download & upgrade](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/screen_upgrade2.png){class="glboxshadow" width="300"}
 
-### Aggiornamento via web
+### Aggiornamento via web {#upgrade-via-web}
 
 Accedi al pannello di amministrazione web e vai su **SYSTEM** -> **Upgrade**. Puoi aggiornare il firmware del router online o localmente.
 
 Per i dettagli, consulta [questa pagina](../../interface_guide/upgrade.md).
 
-## Ripristino delle impostazioni di fabbrica
+## Ripristino delle impostazioni di fabbrica {#factory-reset}
 
 Esistono tre modi per ripristinare Mudi 7: direttamente dal touchscreen, con il pulsante Reset e tramite il pannello di amministrazione web.
 
@@ -212,7 +212,7 @@ Guarda questo video oppure segui i passaggi riportati di seguito.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3Kx_StIFLqo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Ripristino tramite touchscreen
+### Ripristino tramite touchscreen {#reset-via-touchscreen}
 
 1. Nella schermata iniziale, tocca **More**.
 
@@ -226,7 +226,7 @@ Guarda questo video oppure segui i passaggi riportati di seguito.
 
     ![LCD reset](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/lcd_reset3.png){class="glboxshadow" width="300"}
 
-### Ripristino tramite pulsante
+### Ripristino tramite pulsante {#reset-via-button}
 
 1. Rimuovi il coperchio posteriore e troverai il pulsante Reset come mostrato di seguito.
 
@@ -238,7 +238,7 @@ Guarda questo video oppure segui i passaggi riportati di seguito.
 
     - **Ripristino delle impostazioni di fabbrica**: tieni premuto il pulsante Reset per **10 secondi**, quindi rilascialo per eseguire un hard reset. Durante la pressione, presta attenzione ai messaggi sullo schermo e segui le istruzioni. Questa operazione cancellerà tutte le impostazioni. Procedi con cautela.
 
-### Ripristino tramite web
+### Ripristino tramite web {#reset-via-web}
 
 1. Accedi al pannello di amministrazione web e vai su **SYSTEM** -> **Reset Firmware**.
 
@@ -246,7 +246,7 @@ Guarda questo video oppure segui i passaggi riportati di seguito.
 
     ![web reset](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/web_reset.png){class="glboxshadow"}
 
-## Accedi al pannello di amministrazione web
+## Accedi al pannello di amministrazione web {#log-in-to-web-admin-panel}
 
 Puoi accedere al pannello di amministrazione web di Mudi 7 per configurare o controllare altre impostazioni.
 
@@ -271,7 +271,7 @@ Verrrai quindi autenticato nel pannello di amministrazione web di Mudi 7.
 
 Di seguito trovi una panoramica delle funzioni presenti nel pannello di amministrazione web di Mudi 7.
 
-## Wireless
+## Wireless {#wireless}
 
 La pagina Wireless consente di configurare le impostazioni delle reti Wi-Fi a 6 GHz, 5 GHz e 2,4 GHz, tra cui attivazione del Wi-Fi, potenza TX, nome della rete Wi-Fi (SSID), BSSID casuale, modalita di sicurezza Wi-Fi e password, visibilita dell'SSID, modalita Wi-Fi, larghezza di banda e canale.
 
@@ -283,13 +283,13 @@ Per configurarla, fai riferimento a [Wireless](../../interface_guide/wireless.md
 2. Quando il Repeater e abilitato, la Guest Network verra disabilitata automaticamente.
 3. Come richiesto dalle normative, passa il Wi-Fi alla modalita Outdoor quando lo usi all'aperto. Questo puo ridurre l'area di copertura. Puoi cambiare Usage Environment, Indoor oppure Outdoor, nella parte superiore della pagina Wireless.
 
-## Client
+## Client {#clients}
 
 La pagina Clients mostra informazioni sui dispositivi collegati. Per ogni client visualizza nome, indirizzi IP e MAC, velocita di download e upload, traffico totale e offre la possibilita di bloccare il client o eseguire altre azioni.
 
 Per configurarla, fai riferimento a [Clients](../../interface_guide/clients.md).
 
-## Servizi cloud
+## Servizi cloud {#cloud-services}
 
 === "GoodCloud"
 
@@ -303,7 +303,7 @@ Per configurarla, fai riferimento a [Clients](../../interface_guide/clients.md).
 
     Per configurarla, fai riferimento a [AstroWarp](../../interface_guide/astrowarp.md).
 
-## VPN
+## VPN {#vpn}
 
 Una VPN crea traffico sicuro e crittografato tra il dispositivo e il server VPN. Offre un ulteriore livello di privacy e sicurezza come client VPN e consente di accedere a una rete remota come server VPN. Mudi 7 supporta OpenVPN e WireGuard.
 
@@ -321,7 +321,7 @@ Una VPN crea traffico sicuro e crittografato tra il dispositivo e il server VPN.
     * [Come configurare un client WireGuard](../../interface_guide/wireguard_client.md)
     * [Come configurare un server WireGuard](../../interface_guide/wireguard_server.md)
 
-## Rete
+## Rete {#network}
 
 === "Multi-WAN"
 
@@ -394,7 +394,7 @@ Una VPN crea traffico sicuro e crittografato tra il dispositivo e il server VPN.
 
     Per configurarla, fai riferimento a [Network Acceleration](../../interface_guide/network_acceleration.md).
 
-## Controllo del traffico
+## Controllo del traffico {#flow-control}
 
 === "Parental Control"
 
@@ -402,7 +402,7 @@ Una VPN crea traffico sicuro e crittografato tra il dispositivo e il server VPN.
 
     Per configurarlo, fai riferimento a [Parental Control](../../interface_guide/parental_control.md).
 
-## Sicurezza
+## Sicurezza {#security}
 
 === "Port Forwarding"
 
@@ -428,7 +428,7 @@ Una VPN crea traffico sicuro e crittografato tra il dispositivo e il server VPN.
 
     Per configurarla, fai riferimento a [NAT Mode](../../interface_guide/nat_settings.md).
 
-## Applicazioni
+## Applicazioni {#applications}
 
 === "Plug-ins"
 
@@ -474,7 +474,7 @@ Una VPN crea traffico sicuro e crittografato tra il dispositivo e il server VPN.
 
     Per configurarlo, fai riferimento a [Tor](../../interface_guide/tor.md).
 
-## Sistema
+## Sistema {#system}
 
 === "Overview"
 
@@ -574,9 +574,7 @@ Una VPN crea traffico sicuro e crittografato tra il dispositivo e il server VPN.
 
     Per istruzioni dettagliate, fai riferimento a [Advanced Settings](../../interface_guide/advanced_settings.md).
 
-<span id="battery-safety"></span>
-
-## Sicurezza della batteria {#battery-safety-and-swollen-battery-handling}
+## Sicurezza della batteria {#battery-safety}
 
 Smetti di usare e caricare Mudi 7 se la batteria è gonfia, perde liquido, è insolitamente calda, è danneggiata o emette un odore insolito.
 

@@ -1,6 +1,6 @@
-# Where to find the Device ID, MAC address and Serial Number?
+# Where to find the Device ID, MAC address and Serial Number? {#where-to-find-the-device-id-mac-address-and-serial-number}
 
-## Method 1
+## Method 1 {#method-1}
 
 Find these information on the bottom of your router.
 
@@ -12,7 +12,7 @@ For older models, there's no Device ID on the bottom label, but you can find the
 
 ![label of gl-ar150](https://static.gl-inet.com/docs/router/en/4/faq/where_to_find_the_device_id_mac_sn/back_label_old.png){class="glboxshadow"}
 
-## Method 2
+## Method 2 {#method-2}
 
 Log in to the web Admin Panel, navigate to SYSTEM -> Overview, and you will find details about your device.
 

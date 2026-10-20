@@ -1,12 +1,12 @@
-# Flint 4（GL-BE14000）ユーザーガイド
+# Flint 4（GL-BE14000）ユーザーガイド {#flint-4-gl-be14000-user-guide}
 
-## 製品概要
+## 製品概要 {#product-overview}
 
 Flint 4（GL‑BE14000）は、ホームルーターの可能性を広げます。MLO対応のトライバンドWi‑Fi 7を搭載し、最大速度は688 Mbps（2.4 GHz）+ 4323 Mbps（5 GHz）+ 8646 Mbps（6 GHz）です。有線接続では、10G SFP+ WAN/LANポート1基、10GE WAN/LANポート1基、2.5GE WAN/LANポート1基、2.5GE LANポート3基、1GE LANポート4基からなるマルチギガビットの有線バックボーンを備えています。高性能VPNにも対応し、WireGuard®とOpenVPN DCOのどちらでも最大1.5 Gbpsのスループットを実現します。さらに、2.4インチのタッチスクリーンを搭載しており、ネットワーク状態をリアルタイムで監視し、主要なネットワーク指標を本体で直接確認できます。
 
 ![be14000 interfaces](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be14000/hardware/be14000_interfaces.png){class="glboxshadow"}
 
-## パッケージ内容
+## パッケージ内容 {#package-contents}
 
 - 1 x Flint 4 (GL-BE14000)
 - 1 x 電源アダプター
@@ -19,17 +19,17 @@ Flint 4の開封動画を以下でご覧いただけます。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/x48iKZaLaN0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Flint 4のセットアップ
+## Flint 4のセットアップ {#how-to-set-up-flint-4}
 
 セットアップ動画を見るか、次の手順を実行してください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/N3zw02XGFSU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. 電源を入れる
+### 1. 電源を入れる {#1-power-on}
 
 2つの部品からなる電源アダプターを組み立てます。ルーターに接続してコンセントに差し込むと、自動的に起動します。
 
-### 2. デバイスを接続する
+### 2. デバイスを接続する {#2-connect-device}
 
 パソコン、ノートパソコン、スマートフォンなどのデバイスをWi-FiまたはEthernetでルーターに接続します。
 
@@ -41,11 +41,11 @@ Flint 4の開封動画を以下でご覧いただけます。
 
     デバイスの利用可能なネットワーク一覧からルーターのWi-Fiネットワーク名を選び、パスワードを入力して接続します。デフォルトのネットワーク名（SSID）とパスワードは、ルーターのラベルに記載されています。
 
-### 3. Web管理パネルにログインする
+### 3. Web管理パネルにログインする {#3-log-in-to-web-admin-panel}
 
 Webブラウザーを開き、アドレスバーに`192.168.8.1`と入力してログインします。管理者パスワードとWi-Fi情報を設定し、**Apply**をクリックします。
 
-### 4. インターネットを設定する
+### 4. インターネットを設定する {#4-internet-setup}
 
 Ethernet（SFP+）、Ethernet（RJ45）、Repeater、Tethering、Cellularのいずれかの対応接続方式でFlint 4を設定します。[Multi-WAN](../../interface_guide/multi-wan.md)機能を使用する場合は、複数のインターネット接続を設定してください。
 
@@ -100,19 +100,19 @@ Ethernet（SFP+）、Ethernet（RJ45）、Repeater、Tethering、Cellularのい�
 
 以下では、Flint 4のWeb管理パネルで利用できる機能の概要を説明します。
 
-## Wireless
+## Wireless {#wireless}
 
 Wirelessページでは、MLO Wi-Fi、Main Network、Guest Network、IoT Networkなど、Flint 4の各種Wi-Fiネットワークを設定できます。
 
 詳細は[Wireless](../../interface_guide/wireless.md)を参照してください。
 
-## クライアント
+## クライアント {#clients}
 
 Clientsページには、接続中のデバイスに関する情報が表示されます。各クライアントの名前、IPアドレス、MACアドレス、ダウンロードおよびアップロード速度、総トラフィックを確認でき、クライアントのブロックやその他の操作も行えます。
 
 詳細は[Clients](../../interface_guide/clients.md)を参照してください。
 
-## クラウドサービス
+## クラウドサービス {#cloud-services}
 
 === "GoodCloud"
 
@@ -126,7 +126,7 @@ Clientsページには、接続中のデバイスに関する情報が表示さ�
     
     詳細は[AstroWarp](../../interface_guide/astrowarp.md)を参照してください。
 
-## VPN
+## VPN {#vpn}
 
 VPN（仮想プライベートネットワーク）は、デバイスとVPNサーバーの間に安全な暗号化通信を構築します。VPNクライアントとしてプライバシーと安全性を高めるほか、VPNサーバーとしてリモートネットワークへのアクセスを可能にします。Flint 4はOpenVPNとWireGuardプロトコルに対応しています。
 
@@ -144,7 +144,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
     * [WireGuardクライアントを設定する](../../interface_guide/wireguard_client.md)
     * [WireGuardサーバーを設定する](../../interface_guide/wireguard_server.md)
 
-## ネットワーク
+## ネットワーク {#network}
 
 === "Multi-WAN"
 
@@ -207,7 +207,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
     
     詳細は[Network Acceleration](../../interface_guide/network_acceleration.md)を参照してください。
 
-## フロー制御
+## フロー制御 {#flow-control}
 
 === "DPI Engine"
 
@@ -249,7 +249,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
     詳細は[Parental Control](../../interface_guide/parental_control_v4.9.md)を参照してください。
 
-## セキュリティ
+## セキュリティ {#security}
 
 === "Port Forwarding"
 
@@ -279,7 +279,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
     詳細は[NAT Mode](../../interface_guide/nat_settings.md)を参照してください。
 
-## アプリケーション
+## アプリケーション {#applications}
 
 === "Plug-ins"
 
@@ -331,7 +331,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
     
     詳細は[Tor](../../interface_guide/tor.md)を参照してください。
 
-## システム
+## システム {#system}
 
 === "Overview"
 
@@ -422,7 +422,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
     詳細は[Advanced Settings](../../interface_guide/advanced_settings.md)を参照してください。
 
-## 適合宣言
+## 適合宣言 {#declaration-of-conformity}
 
 GL TECHNOLOGIES (HONG KONG) LIMITEDは、無線機器[BE14000 Wi-Fi 7 Router, GL-BE14000]が指令2014/53/EUの基本要件およびその他の関連規定に適合することを宣言します。EU適合宣言の全文は、[https://www.gl-inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}で確認できます。
 

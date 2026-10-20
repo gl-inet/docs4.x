@@ -1,4 +1,4 @@
-# WLAN
+# WLAN {#wireless}
 
 Der Inhalt dieser Seite basiert auf Firmwareversion v4.9 und höher. Wenn auf Ihrem Gerät eine andere Firmwareversion ausgeführt wird, verwenden Sie die folgende Auswahl, um zur entsprechenden Anleitung zu wechseln.
 
@@ -14,7 +14,7 @@ Gehen Sie auf der linken Seite des Web-Admin-Panels zu **WIRELESS**.
 
 Auf der Wireless-Seite können Sie verschiedene Wi-Fi-Netzwerke konfigurieren, darunter MLO Wi-Fi (bei ausgewählten Modellen verfügbar), Main Network, Guest Network und IoT Network. Die unterstützten Wi-Fi-Bänder variieren je nach Modell.
 
-## Multi-Link Operation (MLO)
+## Multi-Link Operation (MLO) {#multi-link-operation-mlo}
 
 ??? "Unterstützte Modelle"
     - GL-BE14000 (Flint 4)
@@ -70,7 +70,7 @@ Nach der Aktivierung wird die Seite wie folgt angezeigt.
 
 ![mlo3](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireless_v4.9/mlo3.png){class="glboxshadow"}
 
-## Main Network
+## Main Network {#main-network}
 
 Das Main Network ist Ihr primäres Wi-Fi-Netzwerk und unterstützt die gleichzeitige Ausstrahlung über verschiedene Funkbänder, die standardmäßig alle aktiviert sind. Sie können für jedes Band separate Einstellungen konfigurieren, z. B. Wi-Fi-SSID, Sicherheitsmodus, Passwort, Randomized BSSID, TX-Leistung, Bandbreite und Kanal.
 
@@ -90,7 +90,7 @@ Klicken Sie rechts auf das Zahnradsymbol, um die Wi-Fi-Einstellungen für jedes 
 
     ![main 2.4g](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireless_v4.9/main_2.4g.png){class="glboxshadow"}
 
-## Guest Network
+## Guest Network {#guest-network}
 
 Das Guest Network ist ein dediziertes Wi-Fi-Netzwerk für Besucher; standardmäßig sind alle Bänder deaktiviert. Sie können für jedes Band grundlegende Netzwerkeinstellungen aktivieren und konfigurieren, z. B. Wi-Fi-SSID, Sicherheitsmodus, Passwort und Enable Randomized BSSID.
 
@@ -104,7 +104,7 @@ Nach der Aktivierung wird die Seite wie folgt angezeigt.
 
 ![guest3](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireless_v4.9/guest3.png){class="glboxshadow"}
 
-## IoT Network
+## IoT Network {#iot-network}
 
 Das IoT Network ist ein dediziertes Wi-Fi-Netzwerk für Smart-Home-Geräte; standardmäßig sind alle Bänder deaktiviert. Sie können für jedes Band grundlegende Netzwerkeinstellungen aktivieren und konfigurieren, z. B. Wi-Fi-SSID, Sicherheitsmodus, Passwort und Enable Randomized BSSID.
 

@@ -1,4 +1,4 @@
-# ZeroTier
+# ZeroTier {#zerotier}
 
 ZeroTier は、インターネットを介してデバイス間の安全な暗号化通信を可能にするソフトウェアベースの仮想プライベートネットワーク（VPN）です。物理的な場所やネットワークトポロジーに関係なく、同じローカルネットワーク上にあるかのようにデバイス同士を通信させる、プライベートな仮想ネットワークを構築できます。ZeroTier は簡単に導入でき、エンドツーエンド暗号化、ネットワーク分離、ネットワークブリッジなどの機能を提供します。
 
@@ -12,7 +12,7 @@ ZeroTier は、インターネットを介してデバイス間の安全な暗�
 
 3. 一部のモデルでは、ファームウェア v4.2 以降を実行していても、メモリ不足のため ZeroTier をサポートしていません。
 
-## 対応モデル
+## 対応モデル {#supported-models}
 
 ??? "対応モデル"
     - GL-MT6000 (Fortify)
@@ -50,7 +50,7 @@ ZeroTier は、インターネットを介してデバイス間の安全な暗�
     - GL-S1300 (Convexa-S)
     - GL-X300B (Collie)
 
-## ZeroTierネットワークを設定する
+## ZeroTierネットワークを設定する {#set-up-zerotier-network}
 
 ZeroTier Central には、New Central と Legacy Central の2つのバージョンがあります。
 
@@ -62,7 +62,7 @@ ZeroTier Central には、New Central と Legacy Central の2つのバージョ�
 
 使用するバージョンを選んで進めてください。
 
-### New Central
+### New Central {#new-central}
 
 以下は GL-MT3600BE を例にした手順です。
 
@@ -142,7 +142,7 @@ ZeroTier Central には、New Central と Legacy Central の2つのバージョ�
 
     ![ping test](https://static.gl-inet.com/docs/router/en/4/interface_guide/zerotier/new_central/connectivity_test2.png){class="glboxshadow"}
 
-### Legacy Central
+### Legacy Central {#legacy-central}
 
 以下は GL-MT2500 を例にした手順です。
 
@@ -188,7 +188,7 @@ ZeroTier Central には、New Central と Legacy Central の2つのバージョ�
 
     `ping` コマンドを使って接続確認することもできます。詳細は ZeroTier の [Quickstart Guide](https://docs.zerotier.com/quickstart/#6-test-your-connection){target="_blank"} を参照してください。
 
-## WAN からのリモートアクセスを許可する
+## WAN からのリモートアクセスを許可する {#allow-remote-access-wan}
 
 このオプションを有効にすると、デバイスのWAN側にあるリソースへZeroTier仮想ネットワーク経由でアクセスできます。
 
@@ -224,7 +224,7 @@ ZeroTier Central には、New Central と Legacy Central の2つのバージョ�
 
     ![access axt1800](https://static.gl-inet.com/docs/router/en/4/interface_guide/zerotier/zerotier_access_axt1800.jpg){class="glboxshadow gl-50-desktop"}
 
-## LAN へのリモートアクセスを許可する
+## LAN へのリモートアクセスを許可する {#allow-remote-access-lan}
 
 このオプションを有効にすると、デバイスのLAN側にあるリソースへZeroTier仮想ネットワーク経由でアクセスできます。
 

@@ -1,4 +1,4 @@
-# GoodPAS
+# GoodPAS {#goodpas}
 
 **Hinweis**: Diese Funktion wurde mit Firmware v4.11 (v4.10 für GL-MG1300) eingeführt; dabei wurde AstroWarp in GoodPAS umbenannt. Wenn auf Ihrem Gerät eine ältere Firmwareversion ausgeführt wird, lesen Sie [AstroWarp](./astrowarp.md).
 
@@ -20,7 +20,7 @@ Diese Funktion ermöglicht nahtlosen Fernzugriff auf Ihr Heimnetzwerk. Sie könn
 
     Wenn beispielsweise Router A und Router B ein GoodPAS-Netzwerk mit Router B als Ausgangsknoten bilden, gelangt der über GoodPAS weitergeleitete Datenverkehr über die öffentliche WAN-IP von Router B ins Internet, selbst wenn auf Router B ein VPN-Client aktiviert ist. Dieser Datenverkehr wird nicht durch den VPN-Client-Tunnel von Router B weitergeleitet.
 
-## Schnelleinrichtung
+## Schnelleinrichtung {#quick-setup}
 
 Im folgenden Beispiel verwenden wir **Flint 3 (GL-BE9300)** und **Mango 2 (GL-MG1300)**, um ein GoodPAS-Netzwerk einzurichten.
 
@@ -76,7 +76,7 @@ Flint 3 fungiert als Heimrouter, während Mango 2 als Reiserouter arbeitet und d
 
     ![connected home](https://static.gl-inet.com/docs/router/en/4/interface_guide/goodpas/connected_home.png){class="glboxshadow"}
 
-## Konnektivität testen
+## Konnektivität testen {#test-connectivity}
 
 1. Verbinden Sie einen Laptop oder ein Smartphone mit dem WLAN des Reiserouters Mango 2.
 
@@ -92,7 +92,7 @@ Flint 3 fungiert als Heimrouter, während Mango 2 als Reiserouter arbeitet und d
 
     ![ipcheck sz](https://static.gl-inet.com/docs/router/en/4/interface_guide/goodpas/ipcheck_sz.png){class="glboxshadow"}
 
-## FAQ
+## FAQ {#faq}
 
 1. **F: Welches Format hat der dynamische Zugriffscode und wie lange ist er gültig?**
 

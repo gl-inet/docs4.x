@@ -1,4 +1,4 @@
-# ファームウェアリセット中に「Reverting」でスタックする
+# ファームウェアリセット中に「Reverting」でスタックする {#stuck-on-reverting-during-firmware-reset}
 
 ルーターがファームウェアリセット中に「Reverting」でスタックする場合は、以下のStepsに従って問題を解決してください。
 

@@ -1,6 +1,6 @@
-# Preguntas frecuentes sobre la solución de problemas de conexión a Internet
+# Preguntas frecuentes sobre la solución de problemas de conexión a Internet {#internet-connection-troubleshooting-faq}
 
-## P1. ¿Qué debo hacer si no puedo acceder a Internet?
+## P1. ¿Qué debo hacer si no puedo acceder a Internet? {#q1-what-should-i-do-if-i-cannot-access-the-internet}
 
 Siga los pasos siguientes para realizar una solución de problemas básica.
 
@@ -22,7 +22,7 @@ Siga los pasos siguientes para realizar una solución de problemas básica.
 
     Compruebe también si su ISP configuró previamente la **vinculación MAC** en su módem/ONT.
 
-## P2. ¿Cuándo debo clonar una dirección MAC?
+## P2. ¿Cuándo debo clonar una dirección MAC? {#q2-when-should-i-clone-a-mac-address}
 
 Algunos ISP vinculan su conexión de banda ancha a la dirección MAC del primer dispositivo conectado, normalmente su antiguo router u ordenador. Cuando sustituye el router, tendrá que clonar esa dirección MAC para restaurar el acceso a Internet.
 
@@ -36,7 +36,7 @@ Siga los pasos siguientes para clonar una dirección MAC en su router GL.iNet.
 
 3. Reinicie el módem (es decir, el dispositivo aguas arriba).
 
-## P3. ¿Cuándo necesito configurar un ID de VLAN?
+## P3. ¿Cuándo necesito configurar un ID de VLAN? {#q3-when-do-i-need-to-configure-a-vlan-id}
 
 Algunos ISP requieren etiquetado VLAN para la autenticación de Internet o la separación del tráfico, especialmente en conexiones de fibra e IPTV. Póngase en contacto con su ISP y confirme si se requiere un ID de VLAN.
 
@@ -48,7 +48,7 @@ Siga los pasos siguientes para configurar el ID de VLAN.
 
     ![vlan id](https://static.gl-inet.com/docs/router/en/4/faq/internet_connection_troubleshooting_faq/vlan_id.png){class="glboxshadow"}
 
-## P4. ¿Qué ocurre si sigue sin funcionar?
+## P4. ¿Qué ocurre si sigue sin funcionar? {#q4-what-if-it-still-doesnt-work}
 
 Si el problema persiste, intente conectar un PC o portátil directamente a su módem y compruebe si tiene acceso a Internet.
 
@@ -61,7 +61,7 @@ Si sí tiene acceso a Internet, el problema puede estar relacionado con la confi
 - Nombre de su ISP
 - Cualquier otra información que crea que puede ayudarnos a asistirle
 
-## Información de ISP
+## Información de ISP {#isp-information}
 
 A continuación se muestra información de ISP por región recopilada por GL.iNet a partir de comentarios de clientes, foros y recursos de OpenWrt, solo como referencia.
 

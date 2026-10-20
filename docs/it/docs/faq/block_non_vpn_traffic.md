@@ -1,10 +1,10 @@
-# Come instradare tutti i dati attraverso la VPN?
+# Come instradare tutti i dati attraverso la VPN? {#how-to-let-all-data-go-through-vpn}
 
 Se vuoi instradare tutto il traffico di rete del router attraverso la VPN e bloccare tutte le connessioni Internet quando la VPN non è disponibile, segui i passaggi seguenti per abilitare il **VPN Kill Switch**.
 
 **Nota**: prima di abilitare il VPN Kill Switch, configura prima un client VPN sul router GL.iNet.
 
-## Per firmware v4.7 o precedenti
+## Per firmware v4.7 o precedenti {#for-firmware-v47-or-earlier}
 
 Accedi al pannello di amministrazione web del router, vai a **VPN** -> **VPN Dashboard** -> sezione **VPN Client** e fai clic su **Global Options**.
 
@@ -16,7 +16,7 @@ Attiva **Block Non-VPN Traffic** (chiamato anche Kill Switch in alcune versioni 
 
 **Nota:** quando **Block Non-VPN Traffic / Kill Switch** è abilitato, se la VPN viene disabilitata o si disconnette, a tutti i dispositivi collegati al router verrà impedito l'accesso a Internet per evitare perdite DNS.
 
-## Per firmware v4.8 o successivi
+## Per firmware v4.8 o successivi {#for-firmware-v48-or-later}
 
 Nel firmware v4.8, il VPN Kill Switch è stato suddiviso in due modalità.
 
@@ -24,7 +24,7 @@ Nel firmware v4.8, il VPN Kill Switch è stato suddiviso in due modalità.
 
 - **Enhanced Kill Switch (in Policy Mode)**: è disabilitato per impostazione predefinita per garantire che tutto il traffico non coperto dai tunnel VPN e dalle policy sopra possa comunque accedere a Internet. In breve, mantiene il normale accesso a Internet per il traffico non VPN.
 
-### Tunnel Kill Switch
+### Tunnel Kill Switch {#tunnel-kill-switch}
 
 Nel pannello di amministrazione web del router, vai a **VPN** -> **VPN Dashboard**.
 
@@ -44,7 +44,7 @@ Il Kill Switch per questo tunnel è abilitato per impostazione predefinita.
 
 ![tunnel options 2](https://static.gl-inet.com/docs/router/en/4/faq/block_non_vpn_traffic/4.8-global-mode-options2.png){class="glboxshadow"}
 
-### Enhanced Kill Switch
+### Enhanced Kill Switch {#enhanced-kill-switch}
 
 Questa funzione è disponibile in **Policy Mode**.
 

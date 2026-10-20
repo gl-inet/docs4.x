@@ -1,4 +1,4 @@
-# SIMPoYo 4G uFi ユーザーガイド
+# SIMPoYo 4G uFi ユーザーガイド {#simpoyo-4g-ufi-user-guide}
 
 SIMPoYo 4G uFi は、Wi‑Fi ホットスポット機能を備えたコンパクトな Plug & Play USB ドングルシリーズです。ほとんどの GL.iNet ルーターに加え、ノート PC、モバイルバッテリー、車載 USB ポートなど、さまざまな USB 電源で手軽に利用できます。英国およびその他 34 のヨーロッパ諸国で 30 日間有効な 10GB の無料データが付属します。
 <br><small>*販売地域: [EU](https://store-eu.gl-inet.com/){target="_blank"} と [UK Stores](https://store-uk.gl-inet.com/){target="_blank"} のみ</small>
@@ -7,7 +7,7 @@ SIMPoYo 4G uFi は、Wi‑Fi ホットスポット機能を備えたコンパク
 
 ![SIMPoYo uFi](https://static.gl-inet.com/docs/router/en/4/user_guide/simpoyo-4g-ufi/sp-n150c4.jpg){class="glboxshadow"}
 
-## LED表示
+## LED表示 {#led-indication}
 
 <!DOCTYPE html>
 <html lang="ja">
@@ -80,7 +80,7 @@ SIMPoYo 4G uFi は、Wi‑Fi ホットスポット機能を備えたコンパク
 </body>
 </html>
 
-## SIMカードをアクティベートする
+## SIMカードをアクティベートする {#activate-sim-card}
 
 SIMPoYo uFi には SIM カードがあらかじめ装着されており、使用前にアクティベートする必要があります。
 
@@ -94,9 +94,9 @@ SIMPoYo uFi には SIM カードがあらかじめ装着されており、使用
 
 **Step 3**. 10GB の無料データを利用します。新規ユーザーには、英国およびその他 34 のヨーロッパ諸国で 30 日間有効な 10GB の無料 4G データがすぐに付与されます。
 
-## インターネット設定
+## インターネット設定 {#internet-setup}
 
-### GL.iNet ルーターに接続する
+### GL.iNet ルーターに接続する {#connect-to-a-glinet-router}
 
 SIMPoYo uFi は、ほとんどの GL.iNet トラベルルーターおよびホームルーターでそのまま使えます。ルーターの USB ポートに挿すだけで、いつでもどこでも 4G LTE 接続を利用できます。
 
@@ -136,7 +136,7 @@ SIMPoYo uFi は、ほとんどの GL.iNet トラベルルーターおよびホ�
 
     2. 純正品と同じ仕様の別の電源アダプターもお試しください。
 
-### コンピューターに接続する
+### コンピューターに接続する {#connect-to-a-computer}
 
 **Step 1**. SIMPoYo uFi をコンピューター（デスクトップ PC やノート PC など）の USB ポートに挿します。USB Ethernet デバイスとして自動認識され、すぐにオンラインになります。
 
@@ -144,7 +144,7 @@ SIMPoYo uFi は、ほとんどの GL.iNet トラベルルーターおよびホ�
 
 ![multi-device](https://static.gl-inet.com/docs/router/en/4/user_guide/simpoyo-4g-ufi/multi-device.jpg){class="glboxshadow"}
 
-### USB電源に接続する
+### USB電源に接続する {#connect-to-a-usb-power-source}
 
 **Step 1**. SIMPoYo uFi を AC アダプター、モバイルバッテリー、車載充電器などの USB 電源に挿します。
 
@@ -152,7 +152,7 @@ SIMPoYo uFi は、ほとんどの GL.iNet トラベルルーターおよびホ�
 
 **Step 3**. 本体ラベルに記載された Wi‑Fi パスワード（Key）を確認します。このパスワードを使ってスマートフォン、タブレット、ノート PC などを SIMPoYo uFi の Wi‑Fi に接続し、インターネットを利用します。
 
-## SIMPoYoプランをチャージする
+## SIMPoYoプランをチャージする {#top-up-simpoyo-plans}
 
 データを使い切った場合や有効期限が切れた場合は、SIMPoYo uFi の QR コードをスキャンするか、[https://w.simpoyo.com](https://w.simpoyo.com){target="_blank"} にアクセスしてプランをチャージしてください。
 
@@ -172,11 +172,11 @@ SIMPoYo uFi は、ほとんどの GL.iNet トラベルルーターおよびホ�
 
         Indonesia, Japan, Pakistan, Philippines, Singapore, South Korea, Turkey, Vietnam, China Mainland, Hong Kong (China), Taiwan (China).
 
-## SIMPoYo uFiを管理する
+## SIMPoYo uFiを管理する {#manage-simpoyo-ufi}
 
 SIMPoYo uFi 管理パネルにログインすると、ネットワーク設定を管理できます。
 
-### 管理パネルにログインする
+### 管理パネルにログインする {#log-in-admin-panel}
 
 1. デバイスを SIMPoYo uFi の Wi‑Fi ネットワークに接続します。
 
@@ -192,7 +192,7 @@ SIMPoYo uFi 管理パネルにログインすると、ネットワーク設定�
 2. ピンを Reset ピンホールに約 2 秒間差し込み、その後離します。
 3. 8 ～ 10 秒待ちます。LED インジケーターがいったん消灯し、その後 2 つの白色ライトが点灯したら、リセット成功です。
 
-### ネットワーク詳細を確認する
+### ネットワーク詳細を確認する {#check-network-details}
 
 1. 上部メニューから **Status** を選択し、**Device & Network** に移動します。デバイスのネットワーク状態が表示されるホームページに入ります。
 
@@ -202,7 +202,7 @@ SIMPoYo uFi 管理パネルにログインすると、ネットワーク設定�
 
     ![cellular network](https://static.gl-inet.com/docs/router/en/4/user_guide/simpoyo-4g-ufi/1.2-cellular-network.png){class="glboxshadow"}
 
-### データ使用量を確認する
+### データ使用量を確認する {#check-data-usage}
 
 1. 上部メニューから **Data Usage** を選択すると、ダウンロード量、アップロード量、総使用量、利用時間を確認できます。
 
@@ -212,7 +212,7 @@ SIMPoYo uFi 管理パネルにログインすると、ネットワーク設定�
 
 2. データ使用量をリセットしたい場合は、**Clear History** ボタンをクリックします。
 
-### Wi‑Fi設定を変更する
+### Wi‑Fi設定を変更する {#change-wi-fi-settings}
 
 1. 上部メニューから **Settings** を選択し、**Wi‑Fi Settings** に移動します。
 
@@ -220,7 +220,7 @@ SIMPoYo uFi 管理パネルにログインすると、ネットワーク設定�
 
 2. SIMPoYo uFi の Wi‑Fi ネットワーク名とパスワードをカスタマイズし、**Apply** をクリックします。
 
-### APNを設定する
+### APNを設定する {#set-apn}
 
 SIM カードで手動 APN 設定が必要な場合は、以下の手順に従ってください。
 
@@ -232,7 +232,7 @@ SIM カードで手動 APN 設定が必要な場合は、以下の手順に従�
 
 3. モバイル通信事業者から提供された情報を入力し、**Apply** をクリックします。
 
-### ローミングを有効にする
+### ローミングを有効にする {#enable-roaming}
 
 ローミングを有効にすると、SIM カードが他の地域や国の現地通信事業者と接続できるため、ホームネットワーク圏外でも通信を継続できます。
 
@@ -244,7 +244,7 @@ SIM カードで手動 APN 設定が必要な場合は、以下の手順に従�
 
 2. **Enable** を選択し、**Apply** をクリックします。
 
-### PINコードを有効にする
+### PINコードを有効にする {#enable-pin-code}
 
 PIN コードは SIM カード用の短いセキュリティパスワード（通常 4 ～ 8 桁）で、不正利用を防ぐために SIM カードをロックします。SIM が盗まれたり別のデバイスに挿されたりしても、PIN コードがなければ有効化または利用できません。
 
@@ -256,7 +256,7 @@ PIN コードは SIM カード用の短いセキュリティパスワード（�
 
 2. **Enable** を選択し、PIN コードを設定して **Apply** をクリックします。
 
-### 管理者パスワードを変更する
+### 管理者パスワードを変更する {#change-admin-password}
 
 デフォルトの管理者パスワードは Wi‑Fi パスワードと同じです。セキュリティのため、初回設定時に変更してください。
 
@@ -268,7 +268,7 @@ PIN コードは SIM カード用の短いセキュリティパスワード（�
 
 3. SIMPoYo uFi を工場出荷時設定に戻したい場合は、**Factory Default Setting** ボタンをクリックしてリセットします。
 
-### 管理者パスワードをリセットする
+### 管理者パスワードをリセットする {#reset-admin-password}
 
 SIMPoYo uFi の管理者パスワードを忘れた場合は、以下の手順でリセットしてください。
 
@@ -276,7 +276,7 @@ SIMPoYo uFi の管理者パスワードを忘れた場合は、以下の手順�
 2. ピンを Reset ピンホールに約 2 秒間差し込み、その後離します。
 3. 8 ～ 10 秒待ちます。LED インジケーターがいったん消灯し、その後 2 つの白色ライトが点灯したら、リセット成功です。
 
-### DHCP設定
+### DHCP設定 {#dhcp-settings}
 
 デフォルトでは、SIMPoYo uFi の IP アドレスは `192.168.1.1` で、接続デバイスに IP アドレスを割り当てるための DHCP サーバーが有効になっています。
 
@@ -288,7 +288,7 @@ IP アドレスを変更したり、DHCP 設定をカスタマイズしたりし
 
 2. ここでは、デバイスの IP アドレス変更、DHCP サーバーの有効 / 無効切り替え、IP 範囲やリース時間の設定ができます。DHCP 設定を行い、**Apply** をクリックします。
 
-### MAC Filter
+### MAC Filter {#mac-filter}
 
 MAC Filter を使うと、MAC アドレスを管理して WLAN へアクセスできるデバイスを制御でき、ネットワークのセキュリティを強化できます。
 
@@ -306,7 +306,7 @@ MAC Filter はデフォルトで無効です。有効にする場合は、以下
 
 3. ブロックまたは許可したいデバイスの MAC アドレスを一覧へコピーし、**Apply** をクリックします。
 
-### Upgrade
+### Upgrade {#upgrade}
 
 1. 上部メニューから **Upgrade** を選択し、**Device Info** に移動すると、SIMPoYo uFi のデバイス情報を確認できます。内容は以下を含みます。
 
@@ -326,7 +326,7 @@ MAC Filter はデフォルトで無効です。有効にする場合は、以下
 
     ![local upgrade](https://static.gl-inet.com/docs/router/en/4/user_guide/simpoyo-4g-ufi/4.3-local-update.png){class="glboxshadow"}
 
-## 付属アクセサリーガイド
+## 付属アクセサリーガイド {#accessories-guide}
 
 パッケージには次のアクセサリーが含まれています。
 

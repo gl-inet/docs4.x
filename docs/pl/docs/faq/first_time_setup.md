@@ -1,13 +1,13 @@
-# Pierwsza konfiguracja
+# Pierwsza konfiguracja {#first-time-setup}
 
 Pierwsza konfiguracja routerów GL.iNet wygląda bardzo podobnie na różnych modelach. Większość modeli ma moduł Wi-Fi, ale nie wszystkie.
 
 Dlatego poniższe wskazówki zostały podzielone na dwa przypadki w zależności od obecności modułu Wi-Fi.
 
-* [Dla modeli z Wi-Fi](#dla-modeli-z-wi-fi)
-* [Dla modeli bez Wi-Fi](#dla-modeli-bez-wi-fi)
+* [Dla modeli z Wi-Fi](#for-models-that-have-wi-fi)
+* [Dla modeli bez Wi-Fi](#for-models-that-dont-have-wi-fi)
 
-## Dla modeli z Wi-Fi {#dla-modeli-z-wi-fi}
+## Dla modeli z Wi-Fi {#for-models-that-have-wi-fi}
 
 Poniższe kroki wykorzystują GL-MT3000 (Beryl AX) jako przykład.
 
@@ -69,7 +69,7 @@ Obejrzyj ten poradnik wideo lub wykonaj poniższe kroki.
     * [Połącz się z Internetem przez tethering USB](../interface_guide/internet_tethering.md)
     * [Połącz się z Internetem przez modem USB](../interface_guide/internet_cellular.md)
 
-## Dla modeli bez Wi-Fi {#dla-modeli-bez-wi-fi}
+## Dla modeli bez Wi-Fi {#for-models-that-dont-have-wi-fi}
 
 Poniższe kroki wykorzystują GL-MT5000 (Brume 3) jako przykład.
 

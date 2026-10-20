@@ -1,4 +1,4 @@
-# 難読化された WireGuard サーバーに接続できない
+# 難読化された WireGuard サーバーに接続できない {#cannot-connect-to-an-obfuscated-wireguard-server}
 
 VPN 難読化は、VPN トラフィックを通常のインターネットトラフィックのように見せる技術です。現在、一部の GL.iNet ルーターは AmneziaWG プロトコルに対応しており、トラフィック難読化を有効にした WireGuard サーバーを設定できます。
 

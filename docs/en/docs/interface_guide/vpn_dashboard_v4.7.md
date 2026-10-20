@@ -1,4 +1,4 @@
-# VPN Dashboard (Firmware v4.7 and earlier)
+# VPN Dashboard (Firmware v4.7 and earlier) {#vpn-dashboard-firmware-v47-and-earlier}
 
 The content on this page is based on firmware versions v4.7.x and earlier. If your device is running a different firmware version, use the selector below to switch to the corresponding guide.
 
@@ -17,7 +17,7 @@ This page is divided into two sections: [VPN Client](#vpn-client) and [VPN Serve
 
 ![vpn dashboard](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/vpn_dashboard_initial.png){class="glboxshadow"}
 
-## VPN Client
+## VPN Client {#vpn-client}
 
 When entering this page for the first time, if there is no configuration file available for OpenVPN and WireGuard, the page displays as follows. Click **Set Up Now** and you will be directed to the [OpenVPN Client](openvpn_client.md) or [WireGuard Client](wireguard_client.md) page to upload your VPN configuration file.
 
@@ -27,7 +27,7 @@ Once uploaded, your configuration will be shown in the **Configuration File** co
 
 ![configuration files](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/vpnclient_config.png){class="glboxshadow"}
 
-### Client Options
+### Client Options {#client-options}
 
 Click the gear icon on the right to access OpenVPN or WireGuard client options.
 
@@ -51,7 +51,7 @@ The WireGuard Client Options displays as follows.
 
 - **MTU**: Short for Maximum Transmission Unit. This optional setting lets you customize the VPN tunnel MTU, which overrides the value defined in the configuration file.
 
-### Proxy Mode
+### Proxy Mode {#proxy-mode}
 
 The default proxy mode for VPN connection is **Global Proxy**. You can click the box in the upper right to switch to other proxy modes. 
 
@@ -89,7 +89,7 @@ Three proxy modes are available: **Global Proxy**, **Policy Mode** and **Route M
 
         You can manually configure routing rules for each VPN client instance.
 
-### Global Options
+### Global Options {#global-options}
 
 Click **Global Options** in the upper right corner to configure advanced settings for your VPN client.
 
@@ -123,7 +123,7 @@ Click **Global Options** in the upper right corner to configure advanced setting
 
 - **Services From GL.iNet Use VPN**: If enabled, GoodCloud, DDNS, and rtty services will transmit packets through VPN tunnels. This option is disabled by default, as these services normally require the device's real IP address to work properly.
 
-## VPN Server
+## VPN Server {#vpn-server}
 
 If the router has never been configured as an OpenVPN or WireGuard server, the page will appear as shown below. Click **Set Up Now** and you will be directed to the **OpenVPN Server** or **WireGuard Server** page to initialize your VPN server.
 
@@ -133,7 +133,7 @@ After the OpenVPN Server or WireGuard Server is enabled, the page will display t
 
 ![vpn server enabled](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/vpnserver_connected.png){class="glboxshadow"}
 
-### Server Options
+### Server Options {#server-options}
 
 Click the gear icon on the right to access OpenVPN or WireGuard server options.
 
@@ -155,7 +155,7 @@ The WireGuard Server Options displays as follows.
 
 * **Client to Client**: If enabled, VPN clients connected to this server can access each other via their VPN tunnel IPs. If you want to allow clients to also access one another's LAN subnets, you need to add routing rules on the VPN server to advertise those remote LAN subnets.
 
-### Server Route Rule
+### Server Route Rule {#server-route-rule}
 
 Click the route icon on the right to customize OpenVPN or WireGuard route rules as needed.
 
@@ -171,7 +171,7 @@ The WireGuard Server Route Rule displays as follows. Click **Add Route Rule**, e
 
 **Note**: In customize routes mode, the VPN client will ignore the configuration file and the routing configuration issued by the server. Whether to use the VPN encrypted tunnel when accessing any network segment is determined by the routing rules you manually set.
 
-### Global Options
+### Global Options {#global-options_1}
 
 Click **Global Options** in the upper right corner to configure advanced settings for your VPN server.
 

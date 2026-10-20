@@ -1,4 +1,4 @@
-# Geplante Aufgaben
+# Geplante Aufgaben {#scheduled-tasks}
 
 Gehen Sie in der Web-Adminoberfläche auf der linken Seite zu **SYSTEM** -> **Scheduled Tasks**.
 
@@ -6,7 +6,7 @@ Mit Scheduled Tasks können Sie tägliche Zeitpläne für grundlegende Vorgänge
 
 **Hinweis**: Synchronisieren Sie zuerst die Zeit in der [Time Zone](time_zone.md), bevor Sie diese Funktion verwenden. Wenn das Gerät zur geplanten Zeit ausgeschaltet ist, wird die Aufgabe nicht ausgeführt.
 
-## Zeitplan für die LED-Anzeige
+## Zeitplan für die LED-Anzeige {#led-display-schedule}
 
 Mit dieser Funktion können Sie einen Ein-/Ausschaltzeitplan für die LED Ihres Routers festlegen.
 
@@ -18,7 +18,7 @@ Bei Modellen mit Touchscreen (z. B. GL-BE3600 Slate 7) können Sie mit dem LCD-A
 
 ![LCD display schedule](https://static.gl-inet.com/docs/router/de/4/interface_guide/scheduled_tasks/lcd_display_schedule.png){class="glboxshadow"}
 
-## Geplanter Neustart
+## Geplanter Neustart {#schedule-reboot}
 
 Mit dieser Funktion können Sie einen Zeitplan für den automatischen Neustart Ihres Routers festlegen.
 
@@ -26,7 +26,7 @@ Wenn die Funktion aktiviert ist, stellen Sie die Neustartzeiten ein, wählen die
 
 ![Schedule Reboot](https://static.gl-inet.com/docs/router/de/4/interface_guide/scheduled_tasks/schedule_reboot.png){class="glboxshadow gl-90-desktop"}
 
-## Wi‑Fi-Zeitplan
+## Wi‑Fi-Zeitplan {#wi-fi-schedule}
 
 Mit dieser Funktion können Sie Wi‑Fi-Zeitpläne auf Grundlage der von Ihrem Router unterstützten Wi‑Fi-Frequenzbänder festlegen (z. B. 2,4 GHz, 5 GHz, 6 GHz und MLO Wi‑Fi).
 
@@ -36,7 +36,7 @@ Mit Ausnahme von MLO Wi‑Fi, das nur den Modus für Ein-/Ausschaltzeitpläne un
 
 - **Switch TX Power**: Bezieht sich auf das automatische Anpassen der Wireless-Sendeleistung (die Signalstärke und Reichweite bestimmt) zu bestimmten Zeiten, um Leistung und Energieeffizienz auszubalancieren (z. B. reduzierte Leistung bei geringer Nutzung).
 
-### MLO Wi‑Fi-Zeitplan
+### MLO Wi‑Fi-Zeitplan {#mlo-wi-fi-schedule}
 
 | Unterstützte Modelle      |         |
 | :------------------------ | :-----: |
@@ -53,7 +53,7 @@ Aktivieren Sie den Zeitplan für Main oder Guest Wi‑Fi, stellen Sie die Ein- u
 
 ![MLO Wi-Fi turn on/off](https://static.gl-inet.com/docs/router/de/4/interface_guide/scheduled_tasks/mlo_turn_on_off.png){class="glboxshadow"}
 
-### 6-GHz-Wi‑Fi-Zeitplan
+### 6-GHz-Wi‑Fi-Zeitplan {#6-ghz-wi-fi-schedule}
 
 | Unterstützte Modelle      |         |
 | :------------------------ | :-----: |
@@ -78,7 +78,7 @@ Aktivieren Sie den Zeitplan für Main Wi‑Fi, legen Sie zwei zeitgesteuerte Akt
 - **Restore**: Stellt die TX-Leistung zu einer anderen Zeit (z. B. 07:00) auf eine andere Stufe zurück (z. B. Max).
 - **days**: Wählen Sie die Wochentage aus, an denen diese Einstellungen wirksam sein sollen.
 
-### 5-GHz-Wi‑Fi-Zeitplan
+### 5-GHz-Wi‑Fi-Zeitplan {#5-ghz-wi-fi-schedule}
 
 Wenn der Wi‑Fi-Zeitplanmodus **Turn On/Off** ist, können Sie sowohl für das 5 GHz Main Wi‑Fi als auch für das Guest Wi‑Fi einen Ein-/Ausschaltzeitplan festlegen.
 
@@ -96,7 +96,7 @@ Aktivieren Sie den Zeitplan für Main Wi‑Fi, legen Sie zwei zeitgesteuerte Akt
 - **Restore**: Stellt die TX-Leistung zu einer anderen Zeit (z. B. 07:00) auf eine andere Stufe zurück (z. B. Max).
 - **days**: Wählen Sie die Wochentage aus, an denen diese Einstellungen wirksam sein sollen.
 
-### 2,4-GHz-Wi‑Fi-Zeitplan
+### 2,4-GHz-Wi‑Fi-Zeitplan {#24-ghz-wi-fi-schedule}
 
 Wenn der Wi‑Fi-Zeitplanmodus **Turn On/Off** ist, können Sie sowohl für das 2,4 GHz Main Wi‑Fi als auch für das Guest Wi‑Fi einen Ein-/Ausschaltzeitplan festlegen.
 

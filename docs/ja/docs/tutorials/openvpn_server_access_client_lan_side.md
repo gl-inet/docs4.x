@@ -1,14 +1,14 @@
-# サーバー側からOpenVPNクライアントのLAN側へアクセスする方法
+# サーバー側からOpenVPNクライアントのLAN側へアクセスする方法 {#how-to-access-openvpn-client-lan-side-from-server}
 
 このチュートリアルでは、OpenVPNサーバー側から OpenVPN クライアントのLANサブネット（NAS、IPカメラなど）にアクセスする手順を説明します。
 
-## トポロジー
+## トポロジー {#topology}
 
 以下の図のように、GL-AXT1800 は OpenVPN サーバー、GL-MT2500 はそれに接続された OpenVPN クライアントです。サーバー側から、GL-MT2500 のLAN側にあるデバイス（NAS や GL-MT3000 などのサブルーター）へアクセスできます。
 
 ![topology](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server-access_client_lan_side/ovpnlantop.jpg){class="glboxshadow"}
 
-## 1. サーバー側でルートルールを追加する
+## 1. サーバー側でルートルールを追加する {#1-add-route-rule-on-server}
 
 ??? "ファームウェア v4.7 以前"
 
@@ -50,7 +50,7 @@
 
     注: LANサブネットにアクセスしたい OpenVPN クライアントが複数ある場合は、ルートルールを設定する前に、[こちら](reserve_fixed_IP_for_ovpn_client.md) を参照して各 OpenVPN クライアントのクライアントIPを予約してください。
 
-## 2. クライアントLANへのリモートアクセスを許可する
+## 2. クライアントLANへのリモートアクセスを許可する {#2-allow-remote-access-to-client-lan}
 
 ??? "ファームウェア v4.7 以前"
 
@@ -88,7 +88,7 @@
 
     ![allow remote access lan](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server-access_client_lan_side/4.9-allow-remote-access-lan.png){class="glboxshadow" width=600}
 
-## 3. 接続をテストする
+## 3. 接続をテストする {#3-test-connection}
 
 OpenVPNクライアントのLAN内にある GL-MT3000 に、IPアドレス **192.168.48.211** でアクセスする例を示します。
 

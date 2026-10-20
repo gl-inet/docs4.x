@@ -1,12 +1,12 @@
-# Marble (GL-B3000) ユーザーガイド
+# Marble (GL-B3000) ユーザーガイド {#marble-gl-b3000-user-guide}
 
-## 製品概要
+## 製品概要 {#product-overview}
 
 Marble（GL-B3000）は、フォトフレームとしても使えるデザイン性の高い Wi-Fi 6 ルーターです。お気に入りのアートワークを飾りながら、Wi-Fi 6 と VPN 機能による高性能なネットワーク体験を提供します。
 
 ![gl-b3000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-b3000/hardware_info/b3000_interface.png){class="glboxshadow"}
 
-## パッケージコンテンツ
+## パッケージコンテンツ {#package-contents}
 
 パッケージ内のアダプターは発送国によって異なることに注意してください。
 
@@ -24,11 +24,11 @@ Marble（GL-B3000）は、フォトフレームとしても使えるデザイン
 
 ![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-b3000/first_time_setup/b3000_unboxing.jpg){class="glboxshadow"}
 
-## 仕様
+## 仕様 {#specifications}
 
 [仕様](https://www.gl-inet.com/products/gl-b3000/#specs){target="_blank"}を参照してください。
 
-## Marbleの設定方法
+## Marbleの設定方法 {#how-to-set-up-marble}
 
 すべての GL.iNet ルーターは、ほぼ共通のシンプルな手順で設定できます。[初回セットアップはこちら](../../faq/first_time_setup.md)。
 
@@ -36,11 +36,11 @@ Marbleを設定するには、2つのサポートされているインターネ�
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-U2WTVYRkPU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Marbleの電源を入れる
+### 1. Marbleの電源を入れる {#1-power-on}
 
 2つの電源アダプターを組み合わせます。ルーターに接続してコンセントに差し込みます。自動的に起動します。
 
-### 2. Marbleに接続
+### 2. Marbleに接続 {#2-connect-device}
 
 Wi-Fi または Ethernet ケーブルを使用して、デバイス（コンピューター、ノートPC、スマートフォンなど）をルーターに接続します。
 
@@ -52,11 +52,11 @@ Wi-Fi または Ethernet ケーブルを使用して、デバイス（コンピ�
 
     デバイスで **Settings** -> **WLAN** に移動し、利用可能なネットワークリストからルーターのWi-Fi名を選んでパスワードを入力します。（デフォルトのネットワーク名とパスワードはルーター本体のラベルに記載されています。）
 
-### 3. WebGUIにログイン
+### 3. WebGUIにログイン {#3-log-in-to-web-admin-panel}
 
 Webブラウザーを開き、アドレスバーに `192.168.8.1` を入力してログインします。言語を選択し、管理者パスワードを設定して **Apply** をクリックします。
 
-### 4. Marbleをインターネットに接続
+### 4. Marbleをインターネットに接続 {#4-internet-setup}
 
 **注意:** 以下の説明は、GL.iNet Web管理パネルでルーターを設定する場合に適用されます。GL.iNet アプリを使用する場合は、[アプリをダウンロード](https://www.gl-inet.com/app/){target="_blank"}して画面の指示に従ってください。
 
@@ -86,7 +86,7 @@ Webブラウザーを開き、アドレスバーに `192.168.8.1` を入力し�
 
 ---
 
-## VPNの設定方法
+## VPNの設定方法 {#how-to-set-up-a-vpn}
 
 VPN（仮想プライベートネットワーク）は、デバイスとVPNサーバーの間に安全な暗号化トンネルを作成します。VPNクライアントとしてプライバシーとセキュリティを強化し、VPNサーバーとしてリモートネットワークへのアクセスも可能にします。Marble（およびその他の GL.iNet ルーター）は OpenVPN、WireGuard、Tor をサポートしています。
 
@@ -112,7 +112,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
 ---
 
-## Wi-Fiとクライアント
+## Wi-Fiとクライアント {#wireless-and-clients}
 
 === "Wi-Fi"
 
@@ -126,7 +126,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
     Clientsの設定については、[Clients](../../interface_guide/clients.md)を参照してください。
 
-## クラウドサービス
+## クラウドサービス {#cloud-services}
 
 === "GoodCloud"
 
@@ -140,7 +140,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
     AstroWarp は、シームレスなリモートネットワーク接続とリモートデバイス管理を実現する高度なネットワーキングプラットフォームです。GL.iNet ルーターとの連携に特化しており、ネットワーク全体のデバイス管理をサポートし、上位・下位デバイスの両方を制御できます。将来的なハードウェアレベル制御にも対応できる設計で、安全かつ安定したネットワークを維持するための堅牢で信頼性の高いソリューションを提供します。
 
-## アプリケーション
+## アプリケーション {#applications}
 
 === "プラグイン"
 
@@ -174,7 +174,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
 ---
 
-## ネットワーク設定
+## ネットワーク設定 {#network-settings}
 
 === "ファイアウォール"
 
@@ -299,7 +299,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
 ---
 
-## システム設定
+## システム設定 {#system-settings}
 
 === "概要"
 

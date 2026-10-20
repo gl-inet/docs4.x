@@ -1,10 +1,10 @@
-# GL-S20 ユーザーガイド
+# GL-S20 ユーザーガイド {#gl-s20-user-guide}
 
-## ハードウェア情報
+## ハードウェア情報 {#hardware-info}
 
 [GL-S20 仕様](https://www.gl-inet.com/products/gl-s20/#specs){target="_blank"}
 
-## GPIOリスト
+## GPIOリスト {#gpio-list}
 
 | ESP32-WROOM-32U GPIO Labeling | SIGNAL         | FUNCTION                                                     |
 | ----------------------------- | -------------- | ------------------------------------------------------------ |
@@ -45,7 +45,7 @@
 | GPIO47                        | UART1 CTS      | h2 uart0 rtsへの接続用 |
 | GPIO48                        | UART1 TX       | h2 uart0 rxへの接続用 |
 
-## PCBピン設定
+## PCBピン設定 {#pcb-pinout}
 
 <div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
   <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
@@ -57,18 +57,18 @@
 
 ---
 
-## 初回セットアップ
+## 初回セットアップ {#first-time-setup}
 
 IoTドキュメントの[GL-S20](https://docs.gl-inet.com/iot/en/thread_board_router/gl-s20/){target="_blank"}をご参照ください。
 
 ---
 
-## ユーザーマニュアル
+## ユーザーマニュアル {#user-manual}
 
 IoTドキュメントの[ユーザーマニュアル](https://docs.gl-inet.com/iot/en/thread_board_router/gl-s20/user_manual/){target="_blank"}をご参照ください。
 
 ---
 
-## ファームウェアコンパイルガイド
+## ファームウェアコンパイルガイド {#firmware-compilation-guide}
 
 IoTドキュメントの[ファームウェアコンパイルガイド](https://docs.gl-inet.com/iot/en/thread_board_router/gl-s20/user_manual/gl-s20-tbr_firmware_compilation_guide/){target="_blank"}をご参照ください。

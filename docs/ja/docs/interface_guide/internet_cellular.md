@@ -1,4 +1,4 @@
-# セルラーでインターネットに接続する（v4.8-v4.9）
+# セルラーでインターネットに接続する（v4.8-v4.9） {#connect-to-the-internet-via-cellular-v48-v49}
 
 このページの内容は、ファームウェア v4.8 から v4.9 に基づいています。デバイスで別のファームウェアバージョンを使用している場合は、以下のセレクターで該当するガイドに切り替えてください。
 
@@ -35,7 +35,7 @@
 
 最初にルーターの電源を切り、事前に有効化した SIM カードをスロットに挿入してから電源を入れることをおすすめします。ルーターの起動後に SIM カードを挿入すると、Web 管理パネルが自動更新されない場合があります。その場合はページを更新するか、ルーターを再起動してください。
 
-### 自動セットアップ
+### 自動セットアップ {#auto-setup}
 
 ルーターの Web 管理パネルにログインし、**INTERNET** -> **Cellular** に移動します。
 
@@ -97,7 +97,7 @@ Auto Setup に失敗した場合は、[手動セットアップ](#manual-setup-s
 
 最初にルーターの電源を切り、事前に有効化した SIM カードをスロットへ挿入してから電源を入れることをおすすめします。ルーターの起動後に SIM カードを挿入すると、Web 管理パネルが自動更新されない場合があります。その場合はページを更新するか、ルーターを再起動してください。
 
-### 自動セットアップ
+### 自動セットアップ {#auto-setup_1}
 
 ルーターの Web 管理パネルにログインし、**INTERNET** -> **Cellular** に移動します。
 
@@ -155,7 +155,7 @@ Auto Setup に失敗した場合は、[手動セットアップ](#manual-setup-d
 
 - **Band Masking**: 特定のバンドをブロックしたり、使用するセルラーバンドを限定したりしたい場合は Band Masking を有効にできます。詳細は [こちら](#band-masking) を参照してください。
 
-### SIM カードスロット設定
+### SIM カードスロット設定 {#sim-card-slot-settings}
 
 ルーターの Web 管理パネルで **INTERNET** -> **Cellular** に移動し、**SIM Card Switch** をクリックします。
 
@@ -199,7 +199,7 @@ SIM カードを2枚挿入している場合は、**Auto Switch** を有効に�
 
 最初にルーターの電源を切り、事前に有効化した SIM カードを USB モデムへ挿入し、モデムをルーターの USB ポートに接続してから電源を入れることをおすすめします。ルーターの起動後に USB モデムを挿した場合は、Web 管理パネルが自動更新されないことがあります。その場合はページを更新するか、ルーターを再起動してください。
 
-### クイックセットアップ
+### クイックセットアップ {#quick-setup}
 
 1. 最初にルーターの電源を切ります。USB モデムに SIM カードを挿入し、モデムをルーターの USB ポートへ接続してから電源を入れます。
 
@@ -221,7 +221,7 @@ SIM カードを2枚挿入している場合は、**Auto Switch** を有効に�
 
     **注意:** 初回設定後は、USB モデムを接続した状態でルーターを再起動した場合や、モデムを挿し直した場合でも、自動的に認識されて接続が確立されるため、再度 Connect ボタンをクリックする必要はありません。
 
-### 対応モデム
+### 対応モデム {#compatible-modems}
 
 これまでにテスト済みの対応モデム一覧です。
 
@@ -252,7 +252,7 @@ SIM カードを2枚挿入している場合は、**Auto Switch** を有効に�
 
 - **Host-less**: このモデムは Tethering モードに対応しています。Cellular インターフェースではなく、ルーターの Tethering インターフェースから接続を管理してください。
 
-## トラフィック統計
+## トラフィック統計 {#traffic-statistics}
 
 ルーターの Web 管理パネルで **INTERNET** -> **Cellular** に移動し、**Data Used** をクリックします。
 
@@ -286,7 +286,7 @@ Data Used が Data Cap Amount を超えた場合は、**Data Cap Amount** また
 
 デュアル SIM モデルでは、**SIM Card Slot Auto Switch** も同時に有効にすることをおすすめします。SIM 1 の Data Cap Amount を設定し、SIM Card Slot Auto Switch を有効にしている場合、SIM 1 のデータ使用量が上限を超えると、自動的に SIM 2 へ切り替わり、SIM 1 は無効になります。
 
-## 信号履歴
+## 信号履歴 {#historical-signal-record}
 
 ルーターの Web 管理パネルで **INTERNET** -> **Cellular** に移動し、**Historical Signal Record** をクリックします。
 
@@ -302,7 +302,7 @@ Data Used が Data Cap Amount を超えた場合は、**Data Cap Amount** また
 
 ![historical signal record 3](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/historical_signal_record_3.png){class="glboxshadow"}
 
-## バンドマスキング
+## バンドマスキング {#band-masking}
 
 Band Masking を使うと、特定のバンドをブロックしたり、優先したいセルラーバンドだけを使用したりして、弱いセルラー信号の改善を図れます。
 
@@ -312,15 +312,15 @@ Band Masking を使うと、特定のバンドをブロックしたり、優先�
 
 **Masking Mode**（Block または Open）を選択し、LTE Bands、5G NSA Bands、5G SA Bands を設定します。
 
-## SMS
+## SMS {#sms}
 
 [SMS](../tutorials/sms.md) を参照してください。
 
-## SMS転送
+## SMS転送 {#sms-forwarding}
 
 [SMS Forwarding](../tutorials/sms_forwarding.md) を参照してください。
 
-## 基地局ロック
+## 基地局ロック {#lock-tower}
 
 !!! note "対応モデル"
 
@@ -359,7 +359,7 @@ Band Masking を使うと、特定のバンドをブロックしたり、優先�
 
 3. 基地局をロックした後にルーターを別の場所へ移動すると、再起動後も以前ロックした基地局への再接続を試みます。その結果、新しい場所でセルラーネットワークへ自動接続できない場合があります。この場合は、現在の基地局ロックを解除するか、新しい基地局へ手動でロックし直してください。
 
-## 通信事業者ロック
+## 通信事業者ロック {#lock-operator}
 
 !!! note "対応モデル"
 
@@ -384,7 +384,7 @@ Band Masking を使うと、特定のバンドをブロックしたり、優先�
 
 ![lock operator 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/lock_operator_1.png){class="glboxshadow"}
 
-## モデムATコマンド
+## モデムATコマンド {#modem-at-command}
 
 Modem AT Command は、セルラーモデムと通信するための標準命令です。この機能を使うと、コマンドを送信してモデムの状態を確認できます。
 
@@ -420,7 +420,7 @@ Shortcut のドロップダウンをクリックすると、**preset commands** 
 
 ![AT command 4](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/at_command_4.png){class="glboxshadow"}
 
-## トラブルシューティング
+## トラブルシューティング {#troubleshooting}
 
 セルラー接続を確立できない場合は、以下のエラーメッセージをクリックして該当する対処方法を確認してください。
 
@@ -490,7 +490,7 @@ Shortcut のドロップダウンをクリックすると、**preset commands** 
 
 ## IoT Certification {#iot-certification}
 
-### AT&T認証
+### AT&T認証 {#att-certification}
 
 リンク [att device certification](https://iotdevices.att.com/certified-devices.aspx#) を開き、デバイス名を入力すると確認できます。
 
@@ -498,7 +498,7 @@ Shortcut のドロップダウンをクリックすると、**preset commands** 
 
 ![bandmasking](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/certification/at&t_certification_2.png){class="glboxshadow"}
 
-### T-Mobile認証
+### T-Mobile認証 {#t-mobile-certification}
 
 リンク [t-mobile device certification](https://www.t-mobile.com/business/solutions/iot/device-certification){target="_blank"} を開き、**Filter** で 5G を選択すると確認できます。
 

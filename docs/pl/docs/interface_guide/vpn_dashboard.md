@@ -1,4 +1,4 @@
-# VPN Dashboard
+# VPN Dashboard {#vpn-dashboard}
 
 Treść tej strony dotyczy wersji firmware v4.9.x i nowszych. Jeśli urządzenie używa innej wersji firmware, użyj poniższego selektora, aby przejść do odpowiedniego przewodnika.
 
@@ -23,7 +23,7 @@ W porównaniu z firmware v4.8 wersja v4.9 wprowadza następujące ulepszenia w V
 
 ## Pierwsze kroki {#getting-started}
 
-### Prześlij profil VPN
+### Prześlij profil VPN {#upload-vpn-profile}
 
 Przy pierwszym wejściu na tę stronę, jeśli nie utworzono jeszcze żadnych tuneli, strona będzie wyglądać jak poniżej. Kliknij **Add VPN Tunnel**, aby rozpocząć.
 
@@ -49,7 +49,7 @@ Następnie kliknij **Go to Dashboard** na dole strony. Zostaniesz przeniesiony d
 
 ![PureVPN3](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/purevpn3.png){class="glboxshadow"}
 
-### Skonfiguruj politykę VPN
+### Skonfiguruj politykę VPN {#general-steps}
 
 !!! note "Czym jest polityka VPN?"
 
@@ -99,7 +99,7 @@ Na stronie VPN Dashboard postępuj zgodnie z kreatorem konfiguracji, aby ustawi�
     ![exclude specified domain ip](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/exclude_specified_domain_ip.png){class="glboxshadow"}
 
 
-### Kill Switch
+### Kill Switch {#kill-switch}
 
 !!! note "Czym jest Kill Switch?"
 
@@ -115,11 +115,11 @@ Od firmware v4.8 routery GL.iNet obsługują konfigurację funkcji Kill Switch d
 
 - Aby skonfigurować Kill Switch dla globalnego połączenia VPN (czyli Enhanced Kill Switch), przejdź [tutaj](#all-other-traffic).
 
-## Scenariusze użycia
+## Scenariusze użycia {#usage-scenarios}
 
 Poniżej znajdziesz dwa scenariusze z instrukcjami krok po kroku.
 
-### Scenariusz 1
+### Scenariusz 1 {#scenario-1}
 
 **Cele:**
 
@@ -175,7 +175,7 @@ Poniżej znajdziesz dwa scenariusze z instrukcjami krok po kroku.
 
     Od tej chwili tylko dwa wskazane urządzenia uzyskują dostęp do Internetu przez VPN. Jeśli VPN niespodziewanie się rozłączy, dostęp do Internetu dla tych urządzeń zostanie zablokowany, aby zapobiec wyciekom DNS i śledzeniu adresu IP. Wszystkie pozostałe urządzenia będą korzystać z lokalnego WAN.
 
-### Scenariusz 2
+### Scenariusz 2 {#scenario-2}
 
 **Cele:**
 

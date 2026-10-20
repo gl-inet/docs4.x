@@ -1,4 +1,4 @@
-# RVでSpitz AX (GL-X3000) をセットアップして使用する方法
+# RVでSpitz AX (GL-X3000) をセットアップして使用する方法 {#how-to-set-up-and-use-spitz-ax-gl-x3000-in-your-recreational-vehicle}
 
 このガイドでは、RVでSpitz AXをセットアップして使用する方法を説明します。開始前に、必要に応じて以下の追加機器やサービスを準備してください。
 
@@ -8,11 +8,11 @@
 
 ---
 
-## 1. Spitz AXとその他の機器を設置する
+## 1. Spitz AXとその他の機器を設置する {#1-install-your-spitz-ax-and-other-equipment}
 
 出発前に、以下の手順に従ってSpitz AXを設置してください。
 
-### 手順1: Spitz AXの設置場所を選ぶ
+### 手順1: Spitz AXの設置場所を選ぶ {#step-1-choose-a-location-for-your-spitz-ax}
 
 通信範囲を最大限に確保するため、中央に近く、遮るもののない場所を選ぶことを推奨します。電源アダプターのケーブル長は 1 メートルなので、設置場所が電源から 1 メートル以内であることを確認してください。
 
@@ -20,7 +20,7 @@
 
 Spitz AXは平らな場所に置くことも、壁に取り付けることもできます。壁に取り付ける場合は、次の手順に進んでください。
 
-### （任意）手順2: Spitz AXを壁に取り付ける
+### （任意）手順2: Spitz AXを壁に取り付ける {#optional-step-2-install-your-spitz-ax-on-the-wall}
 
 Spitz AXを壁に取り付ける方法は2つあります:
 - 付属の粘着パッドを使う
@@ -33,7 +33,7 @@ Spitz AXを壁に取り付ける方法は2つあります:
 
 ![wall mount](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/x3000-with-screws.jpg){class="glboxshadow"}
 
-### （任意）手順3: RV用ルーフアンテナを取り付ける
+### （任意）手順3: RV用ルーフアンテナを取り付ける {#optional-step-3-install-the-rv-roof-antenna}
 
 ![roof](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/x3000-with-roof-antenna.jpg){class="glboxshadow"}
 
@@ -52,7 +52,7 @@ Spitz AXを壁に取り付ける方法は2つあります:
 
 ---
 
-## 2. Spitz AXのインターネットを設定する
+## 2. Spitz AXのインターネットを設定する {#2-set-up-the-internet-for-your-spitz-ax}
 
 移動中もインターネットへ接続できるように、SIMカードを使ってインターネットを設定してください。
 
@@ -75,15 +75,15 @@ APNを入力するには、以下の手順に従ってください。
 
 ---
 
-## 3. さまざまなシナリオでSpitz AXを使う
+## 3. さまざまなシナリオでSpitz AXを使う {#3-use-spitz-ax-in-different-scenarios}
 
-### 移動中
+### 移動中 {#on-the-road}
 
 ![on the road](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/rv-connectivity_scene_rv-antennas.png){class="glboxshadow"}
 
 走行中は、前の手順で設定したSIMカードを使ってインターネットに接続できます。
 
-### キャンプ場
+### キャンプ場 {#at-a-campground}
 
 ![campground](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/rv-connectivity_scene_repeater.png){class="glboxshadow"}
 
@@ -91,7 +91,7 @@ APNを入力するには、以下の手順に従ってください。
 
 一度Wi-Fiネットワークに接続すると、Spitz AXはネットワーク名とパスワードを記憶します。次にその場所の近くへ行ったとき、自動的に接続されます。
 
-### セルラー圏外のエリア
+### セルラー圏外のエリア {#in-areas-without-cellular-coverage}
 
 ![cellular](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/rv-connectivity_scene_starlink.png){class="glboxshadow"}
 
@@ -101,7 +101,7 @@ Starlinkアンテナを設置するときは、周囲に遮るものがないこ
 
 ---
 
-## 4. フェイルオーバーの優先順位を設定する
+## 4. フェイルオーバーの優先順位を設定する {#4-set-failover-priorities}
 Spitz AXはmulti-WAN（フェイルオーバーとロードバランシング）に対応しています。利用シーンに応じて、各ネットワークのフェイルオーバー優先順位を設定できます。
 
 | Scenario| Priority |

@@ -1,6 +1,6 @@
-# FAQ de dépannage de la connexion Internet
+# FAQ de dépannage de la connexion Internet {#internet-connection-troubleshooting-faq}
 
-## Q1. Que dois-je faire si je n'arrive pas à accéder à Internet ?
+## Q1. Que dois-je faire si je n'arrive pas à accéder à Internet ? {#q1-what-should-i-do-if-i-cannot-access-the-internet}
 
 Suivez les étapes ci-dessous pour effectuer un dépannage de base.
 
@@ -22,7 +22,7 @@ Suivez les étapes ci-dessous pour effectuer un dépannage de base.
 
     Vérifiez également si votre FAI a déjà configuré un **MAC binding** sur votre modem/ONT.
 
-## Q2. Quand dois-je cloner une adresse MAC ?
+## Q2. Quand dois-je cloner une adresse MAC ? {#q2-when-should-i-clone-a-mac-address}
 
 Certains FAI associent votre connexion haut débit à l'adresse MAC du premier appareil connecté, généralement votre ancien routeur ou votre ordinateur. Lorsque vous remplacez votre routeur, il peut être nécessaire de cloner l'adresse MAC pour rétablir l'accès à Internet.
 
@@ -36,7 +36,7 @@ Suivez les étapes ci-dessous pour cloner une adresse MAC sur votre routeur GL.i
 
 3. Redémarrez votre modem (c'est-à-dire l'appareil amont).
 
-## Q3. Quand dois-je configurer un VLAN ID ?
+## Q3. Quand dois-je configurer un VLAN ID ? {#q3-when-do-i-need-to-configure-a-vlan-id}
 
 Certains FAI exigent un balisage VLAN pour l'authentification Internet ou la séparation du trafic, en particulier avec les connexions fibre et IPTV. Contactez votre FAI et vérifiez si un VLAN ID est requis.
 
@@ -48,7 +48,7 @@ Suivez les étapes ci-dessous pour configurer le VLAN ID.
 
     ![vlan id](https://static.gl-inet.com/docs/router/en/4/faq/internet_connection_troubleshooting_faq/vlan_id.png){class="glboxshadow"}
 
-## Q4. Et si cela ne fonctionne toujours pas ?
+## Q4. Et si cela ne fonctionne toujours pas ? {#q4-what-if-it-still-doesnt-work}
 
 Si le problème persiste, essayez de connecter directement un PC ou un ordinateur portable à votre modem et vérifiez si vous avez accès à Internet.
 
@@ -61,7 +61,7 @@ Si vous avez accès à Internet, le problème peut être lié à la configuratio
 - Nom de votre FAI
 - Toute autre information qui pourrait nous aider à vous assister
 
-## Informations sur les FAI
+## Informations sur les FAI {#isp-information}
 
 Vous trouverez ci-dessous des informations sur les FAI par région, compilées par GL.iNet à partir des retours clients, des forums et des ressources OpenWRT, à titre de référence uniquement.
 

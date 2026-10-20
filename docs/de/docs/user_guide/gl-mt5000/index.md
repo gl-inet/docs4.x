@@ -1,6 +1,6 @@
-# Brume 3 (GL-MT5000) Benutzerhandbuch
+# Brume 3 (GL-MT5000) Benutzerhandbuch {#brume-3-gl-mt5000-user-guide}
 
-## Sicherheitshinweise
+## Sicherheitshinweise {#safety-information}
 
 Lesen Sie vor der Verwendung des Geräts alle nachstehenden Sicherheitsinformationen sorgfältig durch. Die nachfolgenden Sicherheitsempfehlungen können nicht sämtliche möglicherweise auftretenden Gefahrensituationen abdecken.
 
@@ -30,13 +30,13 @@ Unsachgemäßes Öffnen oder unsachgemäße Instandsetzung kann den Benutzer des
 
 Schalten Sie bei einem Störfall zuerst den Netzschalter aus.
 
-## Produktübersicht
+## Produktübersicht {#product-overview}
 
 Brume 3 (GL-MT5000) ist ein leistungsstarkes Security Gateway mit OpenWrt v21.02. Es ist mit einer MediaTek Quad-Core-Cortex-A53-CPU, 1 GB RAM und 8 GB eMMC-Speicher für die Erweiterung per Plug-ins ausgestattet. Dank seines kompakten Designs eignet es sich ideal für Installationen mit begrenztem Platzangebot und unterstützt VPN-Hosting zu Hause, Site-to-Site-SD-WAN sowie mehr als 30 VPN-Dienste für sichere standortübergreifende Verbindungen. Darüber hinaus verfügt es über die DPI-Funktion von GL.iNet sowie Kindersicherung und AdGuard Home und deckt damit die unterschiedlichen Anforderungen von Technikbegeisterten und Geschäftsanwendern ab.
 
 ![gl-mt5000 interface](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-mt5000/hardware_info/mt5000_interface.png){class="glboxshadow"}
 
-## Lieferumfang
+## Lieferumfang {#package-contents}
 
 - 1 x Brume 3 (GL-MT5000)
 - 1 x Netzadapter
@@ -51,27 +51,27 @@ Sehen Sie sich unten das Unboxing-Video von Brume 3 an.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PupxjK_u8O8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## So richten Sie Brume 3 ein
+## So richten Sie Brume 3 ein {#how-to-set-up-brume-3}
 
 Sehen Sie sich dieses Einrichtungsvideo an oder folgen Sie den untenstehenden Schritten.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RwbdUy79WHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Einschalten
+### 1. Einschalten {#1-power-on}
 
 Setzen Sie den zweiteiligen Netzadapter zusammen. Schließen Sie ihn an Ihren Brume 3 an und stecken Sie ihn in eine Steckdose. Das Gerät startet automatisch.
 
-### 2. Gerät verbinden
+### 2. Gerät verbinden {#2-connect-device}
 
 Verbinden Sie ein kabelgebundenes Gerät, z. B. einen Computer oder Laptop, per Ethernet-Kabel mit dem LAN-Port des Brume 3.
 
-### 3. Im Web-Admin-Panel anmelden
+### 3. Im Web-Admin-Panel anmelden {#3-log-in-to-web-admin-panel}
 
 **Hinweis:** Die folgenden Anweisungen gelten für Benutzer, die den Router über das GL.iNet Web-Admin-Panel konfigurieren.
 
 Öffnen Sie einen Webbrowser, geben Sie `192.168.8.1` in die Adressleiste ein und melden Sie sich an. Wählen Sie Ihre Sprache aus und legen Sie Ihr Admin-Passwort fest. Klicken Sie anschließend auf **Apply**.
 
-### 4. Internet einrichten
+### 4. Internet einrichten {#4-internet-setup}
 
 Richten Sie Brume 3 mit einer der unterstützten Internetverbindungsmethoden ein: Ethernet, Tethering und Cellular (optional). Wenn Sie die Funktion [Multi-WAN](../../interface_guide/multi-wan.md) verwenden möchten, richten Sie bitte mehr als eine Internetverbindung ein.
 
@@ -111,13 +111,13 @@ Richten Sie Brume 3 mit einer der unterstützten Internetverbindungsmethoden ein
 
 Im Folgenden finden Sie einen Überblick über die Funktionen im Web-Admin-Panel von Brume 3.
 
-## Clients
+## Clients {#clients}
 
 Auf der Seite Clients werden Informationen zu verbundenen Geräten angezeigt. Für jeden Client werden Name, IP- und MAC-Adressen, Download- und Upload-Geschwindigkeiten sowie das gesamte Datenvolumen angezeigt. Außerdem können Sie den Client blockieren oder weitere Aktionen ausführen.
 
 Informationen zur Einrichtung von Clients finden Sie unter [Clients](../../interface_guide/clients.md).
 
-## Cloud-Dienste
+## Cloud-Dienste {#cloud-services}
 
 === "GoodCloud"
 
@@ -131,7 +131,7 @@ Informationen zur Einrichtung von Clients finden Sie unter [Clients](../../inter
 
     Informationen zur Einrichtung finden Sie unter [AstroWarp](../../interface_guide/astrowarp.md).
 
-## VPN
+## VPN {#vpn}
 
 Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten Datenverkehr zwischen Ihrem Gerät und dem VPN-Server. Es bietet eine zusätzliche Ebene für Datenschutz und Sicherheit (VPN-Client) und ermöglicht Ihnen den Zugriff auf ein entferntes Netzwerk (VPN-Server). Brume 3 unterstützt OpenVPN und WireGuard.
 
@@ -149,7 +149,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
     * [So richten Sie einen WireGuard-Client ein](../../interface_guide/wireguard_client.md)
     * [So richten Sie einen WireGuard-Server ein](../../interface_guide/wireguard_server.md)
 
-## Netzwerk
+## Netzwerk {#network}
 
 === "Multi-WAN"
 
@@ -212,7 +212,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     Informationen zur Einrichtung finden Sie unter [Network Acceleration](../../interface_guide/network_acceleration.md).
 
-## Durchflusskontrolle
+## Durchflusskontrolle {#flow-control}
 
 === "DPI Engine"
 
@@ -254,7 +254,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     Detaillierte Anweisungen finden Sie unter [SQM](../../interface_guide/sqm.md).
 
-## Sicherheit
+## Sicherheit {#security}
 
 === "Port Forwarding"
 
@@ -280,7 +280,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     Informationen zur Einrichtung finden Sie unter [NAT Mode](../../interface_guide/nat_settings.md).
 
-## Anwendungen
+## Anwendungen {#applications}
 
 === "Plug-ins"
 
@@ -326,7 +326,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     * [So richten Sie Tor ein](../../interface_guide/tor.md)
 
-## System
+## System {#system}
 
 === "Overview"
 

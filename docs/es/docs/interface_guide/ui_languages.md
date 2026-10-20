@@ -1,4 +1,4 @@
-# Idiomas de la interfaz
+# Idiomas de la interfaz {#ui-languages}
 
 Esta función se añadió a partir del firmware v4.6.
 

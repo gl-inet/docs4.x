@@ -1,4 +1,4 @@
-# 管理者アクセス
+# 管理者アクセス {#admin-access}
 
 > このページは firmware v4.9 で追加されました。
 
@@ -6,7 +6,7 @@ Web Admin Panel の左側で、**SECURITY** -> **Admin Access** に移動しま�
 
 このページでは、不正アクセスからネットワークとルーターを保護するための各種セキュリティ設定を構成できます。
 
-## アクセス制御
+## アクセス制御 {#access-control}
 
 Access Control は、firmware v4.7 以前では Local Access Control とも呼ばれ、ルーターの各種管理インターフェースへのアクセスを管理します。
 
@@ -16,7 +16,7 @@ Access Control は、firmware v4.7 以前では Local Access Control とも呼�
 
 ![security_access_control](https://static.gl-inet.com/docs/router/en/4/interface_guide/admin_access/access_control_4.8.png){class="glboxshadow"}
 
-### 管理パネル
+### 管理パネル {#admin-panel}
 
 - **HTTP Port**: デフォルトは 80 で、Web 管理パネルへの暗号化されていない HTTP アクセスに使用します。
 
@@ -26,7 +26,7 @@ Access Control は、firmware v4.7 以前では Local Access Control とも呼�
 
 - **Auto-Logout Time**: デフォルトは 5 分で、セキュリティのため、この時間アイドル状態が続くと管理者セッションが自動的にログアウトします。1 分〜3 時間の範囲で変更できます。
 
-### LuCI
+### LuCI {#luci}
 
 > 注意: LuCI のアクセス制御を設定する前に、**Advanced Settings** で LuCI をインストールしてください。
 
@@ -36,7 +36,7 @@ Access Control は、firmware v4.7 以前では Local Access Control とも呼�
 
 - **Force HTTPS**: 有効にすると、LuCI インターフェースへのアクセスは必ず安全な HTTPS 接続になります。
 
-### SSH
+### SSH {#ssh}
 
 - **Enable SSH**: ルーターへの SSH アクセスを許可するかどうかを制御します。デフォルトで有効です。
 
@@ -133,7 +133,7 @@ Access Control は、firmware v4.7 以前では Local Access Control とも呼�
     | 6697  | IRC + TLS                                |
     | 10080 | Amanda                                   |
 
-## リモートアクセス制御
+## リモートアクセス制御 {#remote-access-control}
 
 リモートアクセスを有効にすると、アクセスを許可する接続元を限定できます。たとえば、利便性と引き換えにセキュリティを高めるため、オフィスからのみ自宅のデバイスへのリモートアクセスを許可する、といった設定が可能です。
 
@@ -153,7 +153,7 @@ Access Control は、firmware v4.7 以前では Local Access Control とも呼�
 
 ---
 
-## ルーターで開いているポート
+## ルーターで開いているポート {#open-ports-on-router}
 
 Web や FTP などのルーターサービスをインターネット上から利用可能にするには、それぞれのポートをルーター上で開放する必要があります。
 

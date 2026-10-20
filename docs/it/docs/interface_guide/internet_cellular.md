@@ -1,4 +1,4 @@
-# Connettersi a Internet tramite rete cellulare (v4.8-v4.9)
+# Connettersi a Internet tramite rete cellulare (v4.8-v4.9) {#connect-to-the-internet-via-cellular-v48-v49}
 
 Il contenuto di questa pagina si basa sulle versioni firmware da v4.8 a v4.9. Se il dispositivo usa una versione firmware diversa, usa il selettore seguente per passare alla guida corrispondente.
 
@@ -27,7 +27,7 @@ La maggior parte dei router GL.iNet supporta la connettivita' cellulare. Questa 
 
 **Nota:** alcune SIM richiedono l'attivazione prima del primo utilizzo. Per garantire la compatibilita', attiva la SIM in uno smartphone prima di inserirla nel router.
 
-## Configurazione per modelli single-SIM
+## Configurazione per modelli single-SIM {#setup-for-single-sim-models}
 
 I passaggi seguenti si applicano ai modelli con modem cellulare integrato e uno slot SIM singolo.
 
@@ -35,7 +35,7 @@ Qui usiamo **GL-E750 (Mudi)** come esempio.
 
 Ti consigliamo di spegnere prima il router, inserire una SIM gia' attivata nello slot e poi accenderlo. Se inserisci la SIM dopo l'avvio del router, il pannello di amministrazione web potrebbe non aggiornarsi automaticamente. In tal caso, aggiorna la pagina o riavvia il router.
 
-### Configurazione automatica
+### Configurazione automatica {#auto-setup}
 
 Accedi al pannello di amministrazione web del router e vai su **INTERNET** -> **Cellular**.
 
@@ -89,7 +89,7 @@ L'applicazione delle modifiche attivera' una nuova connessione.
 
 - **Band Masking**: puoi abilitare Band Masking se vuoi che il router blocchi alcune bande oppure usi solo specifiche bande cellulari. Fai clic [qui](#band-masking) per i dettagli.
 
-## Configurazione per modelli dual-SIM
+## Configurazione per modelli dual-SIM {#setup-for-dual-sim-models}
 
 I passaggi seguenti si applicano ai modelli con modem cellulare integrato che supporta due SIM. Le pagine possono differire leggermente rispetto ai modelli single-SIM.
 
@@ -97,7 +97,7 @@ Qui usiamo **GL-X3000 (Spitz AX)** come esempio. Supporta Dual SIM, Single Stand
 
 Ti consigliamo di spegnere prima il router, inserire le SIM gia' attivate negli slot e poi accenderlo. Se inserisci la SIM dopo l'avvio del router, il pannello di amministrazione web potrebbe non aggiornarsi automaticamente. In tal caso, aggiorna la pagina o riavvia il router.
 
-### Configurazione automatica
+### Configurazione automatica {#auto-setup_1}
 
 Accedi al pannello di amministrazione web del router e vai su **INTERNET** -> **Cellular**.
 
@@ -155,7 +155,7 @@ L'applicazione delle modifiche attivera' una nuova connessione.
 
 - **Band Masking**: puoi abilitare Band Masking se vuoi che il router blocchi alcune bande oppure usi solo specifiche bande cellulari. Fai clic [qui](#band-masking) per i dettagli.
 
-### Impostazioni dello slot SIM
+### Impostazioni dello slot SIM {#sim-card-slot-settings}
 
 Nel pannello di amministrazione web del router, vai su **INTERNET** -> **Cellular**, quindi fai clic su **SIM Card Switch**.
 
@@ -191,7 +191,7 @@ Se sono inserite due SIM, puoi abilitare **Auto Switch**.
 
 **Nota**: la funzione Auto Switch non passa immediatamente a un'altra SIM. Prima, il dispositivo ha bisogno di tempo per confermare che la SIM attuale non puo' accedere a Internet. Secondo, l'altra SIM non e' in modalita' standby e richiede tempo per attivarsi.
 
-## Configurazione per modem USB
+## Configurazione per modem USB {#setup-for-usb-modem}
 
 I passaggi seguenti si applicano ai modelli senza slot SIM integrato, ma con una porta USB per collegare un modem USB esterno.
 
@@ -199,7 +199,7 @@ Qui usiamo **GL-MT3000 (Beryl AX)** con il modem USB esterno **SIMPoYo uFi** com
 
 Ti consigliamo di spegnere prima il router, inserire una SIM gia' attivata nel modem USB, collegare il modem alla porta USB del router e poi accendere il router. Se colleghi il modem USB dopo l'avvio del router, il pannello di amministrazione web potrebbe non aggiornarsi automaticamente. In tal caso, aggiorna la pagina o riavvia il router.
 
-### Configurazione rapida
+### Configurazione rapida {#quick-setup}
 
 1. Spegni prima il router. Inserisci una SIM nel modem USB, collega il modem alla porta USB del router e poi accendi il router.
 
@@ -221,7 +221,7 @@ Ti consigliamo di spegnere prima il router, inserire una SIM gia' attivata nel m
 
     **Nota:** dopo la configurazione iniziale, se riavvii il router con il modem USB collegato oppure ricolleghi il modem, esso verra' riconosciuto automaticamente e la connessione di rete verra' stabilita senza dover fare nuovamente clic sul pulsante Connect.
 
-### Modem compatibili
+### Modem compatibili {#compatible-modems}
 
 Ecco un elenco dei modem supportati che sono stati testati in precedenza.
 
@@ -252,7 +252,7 @@ Ecco un elenco dei modem supportati che sono stati testati in precedenza.
 
 - **Host-less**: questo modem supporta la modalita' Tethering. Gestisci la connessione tramite l'interfaccia Tethering del router anziche' tramite l'interfaccia Cellular.
 
-## Statistiche del traffico
+## Statistiche del traffico {#traffic-statistics}
 
 Nel pannello di amministrazione web del router, vai su **INTERNET** -> **Cellular**, quindi fai clic su **Data Used**.
 
@@ -286,7 +286,7 @@ Se Data Used supera Data Cap Amount, modifica manualmente **Data Cap Amount** op
 
 Per i modelli dual-SIM, suggeriamo di abilitare contemporaneamente **SIM Card Slot Auto Switch**. Se il limite dati di SIM 1 e' impostato e SIM Card Slot Auto Switch e' abilitato, SIM 1 passera' automaticamente a SIM 2 quando i dati superano Data Cap Amount e SIM 1 verra' disabilitata.
 
-## Historical Signal Record
+## Historical Signal Record {#historical-signal-record}
 
 Nel pannello di amministrazione web del router, vai su **INTERNET** -> **Cellular**, quindi fai clic su **Historical Signal Record**.
 
@@ -302,7 +302,7 @@ Visualizza la cronologia della potenza del segnale selezionando diversi interval
 
 ![historical signal record 3](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/historical_signal_record_3.png){class="glboxshadow"}
 
-## Band Masking
+## Band Masking {#band-masking}
 
 Band Masking consente di bloccare bande specifiche oppure di usare solo le bande cellulari preferite per migliorare un segnale cellulare debole.
 
@@ -312,15 +312,15 @@ Nel pannello di amministrazione web del router, vai su **INTERNET** -> **Cellula
 
 Seleziona **Masking Mode**, Block o Open, quindi seleziona LTE Bands, 5G NSA Bands e 5G SA Bands.
 
-## SMS
+## SMS {#sms}
 
 Fai riferimento a [SMS](../tutorials/sms.md).
 
-## SMS Forwarding
+## SMS Forwarding {#sms-forwarding}
 
 Fai riferimento a [SMS Forwarding](../tutorials/sms_forwarding.md).
 
-## Lock Tower
+## Lock Tower {#lock-tower}
 
 !!! note "Modelli supportati"
 
@@ -359,7 +359,7 @@ Fai clic su una torre per visualizzarne i dettagli e bloccarla.
 
 3. Dopo aver bloccato una torre cellulare, se sposti il router in un'altra posizione, continuera' comunque a tentare la riconnessione alla torre bloccata dopo il riavvio. Questo potrebbe impedire al router di connettersi automaticamente alla rete cellulare nella nuova posizione. In tal caso, devi sbloccare la torre attuale oppure bloccarla manualmente su una nuova torre.
 
-## Lock Operator
+## Lock Operator {#lock-operator}
 
 !!! note "Modelli supportati"
 
@@ -384,7 +384,7 @@ Esistono tre modalita' di blocco:
 
 ![lock operator 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/lock_operator_1.png){class="glboxshadow"}
 
-## Modem AT Command
+## Modem AT Command {#modem-at-command}
 
 I comandi AT del modem sono istruzioni standard usate per comunicare con il modem cellulare. Con questa funzione puoi inviare comandi e controllare lo stato del modem.
 
@@ -420,7 +420,7 @@ Nell'angolo inferiore destro, puoi fare clic su **Export Debug Info** per scaric
 
 ![AT command 4](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/at_command_4.png){class="glboxshadow"}
 
-## Risoluzione dei problemi
+## Risoluzione dei problemi {#troubleshooting}
 
 Se non riesci a stabilire una connessione cellulare, fai clic sul messaggio di errore sotto per visualizzare le relative soluzioni.
 
@@ -490,7 +490,7 @@ Se non riesci a stabilire una connessione cellulare, fai clic sul messaggio di e
 
 ## Certificazione IoT {#iot-certification}
 
-### Certificazione AT&T
+### Certificazione AT&T {#att-certification}
 
 Fai clic sul link [att device certification](https://iotdevices.att.com/certified-devices.aspx#) e inserisci il nome del dispositivo per trovarlo.
 
@@ -498,7 +498,7 @@ Fai clic sul link [att device certification](https://iotdevices.att.com/certifie
 
 ![bandmasking](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/certification/at&t_certification_2.png){class="glboxshadow"}
 
-### Certificazione T-Mobile
+### Certificazione T-Mobile {#t-mobile-certification}
 
 Fai clic sul link [t-mobile device certification](https://www.t-mobile.com/business/solutions/iot/device-certification){target="_blank"} e scegli 5G in **Filter** per trovarlo.
 

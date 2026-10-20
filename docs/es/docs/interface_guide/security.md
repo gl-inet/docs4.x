@@ -1,4 +1,4 @@
-# Seguridad
+# Seguridad {#security}
 
 > Esta página se introdujo en el firmware v4.5.
 
@@ -6,7 +6,7 @@ En el lado izquierdo del panel de administración web, vaya a **SYSTEM** -> **Se
 
 Esta página le permite configurar varios ajustes de seguridad para proteger su red y su router frente a accesos no autorizados.
 
-## Contraseña de administrador
+## Contraseña de administrador {#admin-password}
 
 Aquí puede cambiar la contraseña de inicio de sesión del panel de administración web.
 
@@ -18,7 +18,7 @@ La contraseña de administrador debe cumplir los siguientes requisitos:
 - Se permiten letras (distinguiendo entre mayúsculas y minúsculas), números y los símbolos `` ! @ # $ % ^ & * ( ) _ + - = , . > < | ? / \ [ ] { } : ; " ' ` ~ ``.
 - Se requieren al menos dos de estos tipos: letras mayúsculas, letras minúsculas, números y símbolos.
 
-## Control de acceso
+## Control de acceso {#access-control}
 
 Access Control, también llamado Local Access Control en el firmware v4.7 y anteriores, gestiona el acceso a las distintas interfaces de administración del router.
 
@@ -28,7 +28,7 @@ Puede evitar intentos de escaneo e intrusión en el puerto predeterminado, así 
 
 ![security_access_control](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/access_control_4.8.png){class="glboxshadow"}
 
-### Panel de administración
+### Panel de administración {#admin-panel}
 
 - **HTTP Port**: El valor predeterminado es 80 y se utiliza para el acceso HTTP sin cifrar al panel de administración web.
 
@@ -38,7 +38,7 @@ Puede evitar intentos de escaneo e intrusión en el puerto predeterminado, así 
 
 - **Auto-Logout Time**: El valor predeterminado es 5 minutos. Por motivos de seguridad, cierra automáticamente las sesiones de administración inactivas una vez transcurrido ese tiempo. Puede personalizar el tiempo de cierre automático, desde 1 minuto hasta 3 horas.
 
-### LuCI
+### LuCI {#luci}
 
 > Nota: Instale LuCI en **Advanced Settings** antes de configurar su control de acceso.
 
@@ -48,7 +48,7 @@ Puede evitar intentos de escaneo e intrusión en el puerto predeterminado, así 
 
 - **Force HTTPS**: Cuando está habilitado, el acceso a la interfaz LuCI se fuerza a utilizar una conexión HTTPS segura.
 
-### SSH
+### SSH {#ssh}
 
 - **Enable SSH**: Controla si se permite el acceso SSH al router. Está habilitado de forma predeterminada.
 
@@ -145,7 +145,7 @@ Si asigna un número de puerto que entra en conflicto con un puerto reservado, o
     | 6697  | IRC + TLS                                |
     | 10080 | Amanda                                   |
 
-## Control de acceso remoto
+## Control de acceso remoto {#remote-access-control}
 
 Después de habilitar el acceso remoto, se pueden definir ubicaciones específicas desde las que se permitirá el acceso. Por ejemplo, puede habilitar el acceso remoto a dispositivos del hogar solo desde la oficina, sacrificando comodidad a cambio de mayor seguridad.
 
@@ -165,7 +165,7 @@ Después de habilitar el acceso remoto, se pueden definir ubicaciones específic
 
 ---
 
-## Open Ports on Router
+## Open Ports on Router {#open-ports-on-router}
 
 Los servicios del router, como web y FTP, requieren que sus respectivos puertos estén abiertos en el router para poder ser accesibles públicamente.
 

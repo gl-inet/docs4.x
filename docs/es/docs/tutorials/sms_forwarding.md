@@ -1,10 +1,10 @@
-# Reenvío de SMS
+# Reenvío de SMS {#sms-forwarding}
 
 Los routers celulares GL.iNet admiten el reenvío de SMS y envían automáticamente los mensajes entrantes a los destinatarios designados.
 
 **Nota**: Esta función solo funciona en routers celulares GL.iNet con el módulo 4G LTE/5G NR original. No es compatible con otros módulos ni con ningún otro módulo USB.
 
-## Modelos compatibles
+## Modelos compatibles {#supported-models}
 
 ??? "Modelos compatibles"
     - GL-E5800 (Mudi 7)
@@ -41,7 +41,7 @@ Los routers celulares GL.iNet admiten el reenvío de SMS y envían automáticame
     - GL-B1300 (Convexa-B)
     - GL-AP1300 (Cirrus)
 
-## Configuración
+## Configuración {#quick-setup}
 
 Tomemos el GL-XE3000 (Puli AX) como ejemplo.
 
@@ -51,7 +51,7 @@ Haga clic en el icono del sobre situado en la esquina superior derecha para entr
 
 ![sms setting](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms.png){class="glboxshadow"}
 
-### Reenviar por correo electrónico
+### Reenviar por correo electrónico {#forward-via-email}
 
 ![sms forwarding email](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms_forward_email.png){class="glboxshadow"}
 
@@ -87,7 +87,7 @@ Haga clic en el icono del sobre situado en la esquina superior derecha para entr
 
 Puede añadir hasta 10 direcciones de correo electrónico.
 
-### Reenviar por SMS
+### Reenviar por SMS {#forward-via-sms}
 
 ![sms forwarding phone](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms_forward_phone.png){class="glboxshadow"}
 

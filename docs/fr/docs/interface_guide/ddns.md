@@ -1,8 +1,8 @@
-# DNS dynamique
+# DNS dynamique {#dynamic-dns}
 
 Le service Dynamic Domain Name Service (Dynamic DNS ou DDNS) permet d’associer un nom de domaine à l’adresse IP dynamique d’un appareil réseau. Avec Dynamic DNS, vous pouvez accéder à votre routeur à distance. Une adresse IP publique Internet est requise pour cette fonctionnalité.
 
-## Activer DDNS
+## Activer DDNS {#enable-ddns}
 
 Sur le côté gauche du panneau d’administration web, allez à **APPLICATIONS** -> **Dynamic DNS**.
 
@@ -26,9 +26,9 @@ Activez le protocole d’accès à distance souhaité, puis cliquez sur **Apply*
 
 La synchronisation des enregistrements entre les serveurs DNS peut prendre jusqu’à 10 minutes. Cela peut vous empêcher d’accéder immédiatement au nom de domaine DDNS juste après son activation ou après un changement de votre adresse IP publique.
 
-**Note** : Si vous activez DDNS et le client VPN en même temps, assurez-vous que **Services From GL.iNet Use VPN** est désactivé. Cette option se trouve dans les [VPN Client Options](vpn_dashboard_v4.8.md#tunnel-options) du VPN Dashboard.
+**Note** : Si vous activez DDNS et le client VPN en même temps, assurez-vous que **Services From GL.iNet Use VPN** est désactivé. Cette option se trouve dans les [VPN Client Options](vpn_dashboard_v4.8.md#tunnel-options_1) du VPN Dashboard.
 
-## Vérifier si DDNS fonctionne
+## Vérifier si DDNS fonctionne {#check-if-ddns-works}
 
 Vous pouvez vérifier si DDNS fonctionne à l’aide de l’outil de test DDNS ou manuellement à l’aide de commandes.
 
@@ -62,7 +62,7 @@ Vous pouvez vérifier si DDNS fonctionne à l’aide de l’outil de test DDNS o
 
     3. Connectez-vous au panneau d’administration web de votre routeur et accédez à **INTERNET**. Relevez l’adresse IP WAN du routeur sur l’interface actuellement active. Comparez-la à l’adresse IP publique obtenue ci-dessus. Si elles correspondent, DDNS fonctionne ; sinon, il ne fonctionne pas.
 
-## Accès à distance HTTPS
+## Accès à distance HTTPS {#https-remote-access}
 
 !!! Note
 
@@ -106,7 +106,7 @@ Vous pourrez alors accéder au panneau d’administration web via le nom d’hô
 
 ![HTTPS-Remote-Access-on-Android-Chrome](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/https_remote_access_android_chrome_3.png){class="glboxshadow" width="400"}
 
-## Accès à distance SSH
+## Accès à distance SSH {#ssh-remote-access}
 
 !!! Note
 

@@ -1,4 +1,4 @@
-# Połączenie z Internetem przez sieć komórkową (v4.8-v4.9)
+# Połączenie z Internetem przez sieć komórkową (v4.8-v4.9) {#connect-to-the-internet-via-cellular-v48-v49}
 
 Treść tej strony dotyczy firmware w wersjach od v4.8 do v4.9. Jeśli urządzenie korzysta z innej wersji firmware, użyj poniższego selektora, aby przejść do odpowiedniego przewodnika.
 
@@ -35,7 +35,7 @@ Jako przykład użyjemy **GL-E750 (Mudi)**.
 
 Zalecamy najpierw wyłączyć router, włożyć do gniazda wcześniej aktywowaną kartę SIM, a następnie go włączyć. Jeśli włożysz kartę SIM po uruchomieniu routera, panel administracyjny WWW może nie odświeżyć się automatycznie. W takim przypadku odśwież stronę lub uruchom router ponownie.
 
-### Konfiguracja automatyczna
+### Konfiguracja automatyczna {#auto-setup}
 
 Zaloguj się do panelu administracyjnego WWW routera i przejdź do **INTERNET** -> **Cellular**.
 
@@ -97,7 +97,7 @@ Jako przykład użyjemy **GL-X3000 (Spitz AX)**. Model ten obsługuje Dual SIM, 
 
 Zalecamy najpierw wyłączyć router, włożyć wcześniej aktywowaną kartę SIM lub karty SIM do gniazd, a następnie go włączyć. Jeśli włożysz kartę SIM po uruchomieniu routera, panel administracyjny WWW może nie odświeżyć się automatycznie. W takim przypadku odśwież stronę lub uruchom router ponownie.
 
-### Konfiguracja automatyczna
+### Konfiguracja automatyczna {#auto-setup_1}
 
 Zaloguj się do panelu administracyjnego WWW routera i przejdź do **INTERNET** -> **Cellular**.
 
@@ -155,7 +155,7 @@ Zastosowanie zmian spowoduje ponowne nawiązanie połączenia.
 
 - **Band Masking**: Możesz włączyć **Band Masking**, jeśli chcesz zablokować określone pasma lub zezwolić routerowi na używanie tylko wybranych pasm komórkowych. Szczegóły znajdziesz [tutaj](#band-masking).
 
-### Ustawienia gniazda karty SIM
+### Ustawienia gniazda karty SIM {#sim-card-slot-settings}
 
 W panelu administracyjnym WWW routera przejdź do **INTERNET** -> **Cellular**, a następnie kliknij **SIM Card Switch**.
 
@@ -199,7 +199,7 @@ Jako przykład użyjemy **GL-MT3000 (Beryl AX)** z zewnętrznym modemem USB **SI
 
 Zalecamy najpierw wyłączyć router, włożyć wcześniej aktywowaną kartę SIM do modemu USB, podłączyć modem do portu USB routera, a następnie włączyć router. Jeśli podłączysz modem USB po uruchomieniu routera, panel administracyjny WWW może nie odświeżyć się automatycznie. W takim przypadku odśwież stronę lub uruchom router ponownie.
 
-### Szybka konfiguracja
+### Szybka konfiguracja {#quick-setup}
 
 1. Najpierw wyłącz router. Włóż kartę SIM do modemu USB, podłącz modem do portu USB routera, a następnie włącz router.
 
@@ -221,7 +221,7 @@ Zalecamy najpierw wyłączyć router, włożyć wcześniej aktywowaną kartę SI
 
     **Uwaga:** Po wstępnej konfiguracji, jeśli uruchomisz router ponownie z podłączonym modemem USB lub podłączysz modem ponownie, zostanie on rozpoznany automatycznie, a połączenie sieciowe zostanie ustanowione bez ponownego klikania przycisku **Connect**.
 
-### Zgodne modemy
+### Zgodne modemy {#compatible-modems}
 
 Poniżej znajduje się lista obsługiwanych modemów, które zostały wcześniej przetestowane. 
 
@@ -253,7 +253,7 @@ Poniżej znajduje się lista obsługiwanych modemów, które zostały wcześniej
 
 - **Host-less**: Ten modem obsługuje tryb Tethering. Zarządzaj połączeniem przez interfejs **Tethering** routera, a nie przez interfejs **Cellular**.
 
-## Statystyki ruchu
+## Statystyki ruchu {#traffic-statistics}
 
 W panelu administracyjnym WWW routera przejdź do **INTERNET** -> **Cellular**, a następnie kliknij **Data Used**.
 
@@ -287,7 +287,7 @@ Jeśli wartość **Data Used** przekroczy **Data Cap Amount**, zmodyfikuj ręczn
 
 W przypadku modeli z dwiema kartami SIM sugerujemy jednoczesne włączenie **SIM Card Slot Auto Switch**. Jeśli ustawiona jest wartość **SIM 1 Data Cap Amount** i włączono **SIM Card Slot Auto Switch**, karta SIM 1 automatycznie przełączy się na SIM 2 po przekroczeniu **Data Cap Amount**, a SIM 1 zostanie wyłączona.
 
-## Historia sygnału
+## Historia sygnału {#historical-signal-record}
 
 W panelu administracyjnym WWW routera przejdź do **INTERNET** -> **Cellular**, a następnie kliknij **Historical Signal Record**.
 
@@ -313,15 +313,15 @@ W panelu administracyjnym WWW routera przejdź do **INTERNET** -> **Cellular** -
 
 Wybierz **Masking Mode** (Block lub Open), a następnie pasma LTE Bands, 5G NSA Bands i 5G SA Bands.
 
-## SMS
+## SMS {#sms}
 
 Zapoznaj się z [SMS](../tutorials/sms.md).
 
-## Przekazywanie SMS
+## Przekazywanie SMS {#sms-forwarding}
 
 Zapoznaj się z [SMS Forwarding](../tutorials/sms_forwarding.md).
 
-## Blokada stacji bazowej
+## Blokada stacji bazowej {#lock-tower}
 
 !!! note "Obsługiwane modele"
 
@@ -360,7 +360,7 @@ Kliknij stację bazową, aby wyświetlić jej szczegóły i ją zablokować.
 
 3. Po zablokowaniu stacji bazowej, jeśli przeniesiesz router w inne miejsce, po ponownym uruchomieniu nadal będzie próbował połączyć się z zablokowaną stacją. Może to uniemożliwić automatyczne połączenie routera z siecią komórkową w nowej lokalizacji. W takim przypadku musisz odblokować bieżącą stację bazową albo ręcznie zablokować nową.
 
-## Blokada operatora
+## Blokada operatora {#lock-operator}
 
 !!! note "Obsługiwane modele"
 
@@ -385,7 +385,7 @@ Dostępne są trzy tryby blokady:
 
 ![lock operator 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/lock_operator_1.png){class="glboxshadow"}
 
-## Komendy AT modemu
+## Komendy AT modemu {#modem-at-command}
 
 Komendy AT modemu to standardowe polecenia używane do komunikacji z modemem komórkowym. Dzięki tej funkcji możesz wysyłać polecenia i sprawdzać stan modemu.
 
@@ -421,7 +421,7 @@ W prawym dolnym rogu możesz kliknąć **Export Debug Info**, aby pobrać plik .
 
 ![AT command 4](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/at_command_4.png){class="glboxshadow"}
 
-## Rozwiązywanie problemów
+## Rozwiązywanie problemów {#troubleshooting}
 
 Jeśli nie możesz nawiązać połączenia komórkowego, kliknij poniższy komunikat o błędzie, aby zobaczyć odpowiednie rozwiązania.
 
@@ -491,7 +491,7 @@ Jeśli nie możesz nawiązać połączenia komórkowego, kliknij poniższy komun
 
 ## Certyfikacja IoT {#iot-certification}
 
-### Certyfikacja AT&T
+### Certyfikacja AT&T {#att-certification}
 
 Kliknij link [att device certification](https://iotdevices.att.com/certified-devices.aspx#) i wpisz nazwę urządzenia, aby je znaleźć. 
 
@@ -499,7 +499,7 @@ Kliknij link [att device certification](https://iotdevices.att.com/certified-dev
 
 ![bandmasking](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/certification/at&t_certification_2.png){class="glboxshadow"}
 
-### Certyfikacja T-Mobile
+### Certyfikacja T-Mobile {#t-mobile-certification}
 
 Kliknij link [t-mobile device certification](https://www.t-mobile.com/business/solutions/iot/device-certification){target="_blank"} i wybierz 5G w polu **Filter**, aby znaleźć urządzenie.
 

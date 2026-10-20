@@ -1,4 +1,4 @@
-# Comment configurer Drop-in Gateway sur un routeur GL.iNet
+# Comment configurer Drop-in Gateway sur un routeur GL.iNet {#how-to-set-up-drop-in-gateway-on-a-glinet-router}
 
 GL.iNet propose la fonctionnalité Drop-in Gateway, qui améliore les capacités de votre routeur principal avec des fonctions qu’il ne possède peut-être pas, notamment AdGuard Home, un DNS chiffré et le VPN. En utilisant cette fonctionnalité, vous pouvez continuer à utiliser votre routeur principal comme d’habitude tout en profitant de fonctions supplémentaires. 
 
@@ -10,15 +10,14 @@ Vous pouvez activer Drop-in Gateway pour [tous vos appareils](#enable-drop-in-ga
 
 ## Activer Drop-in Gateway pour tous les appareils {#enable-drop-in-gateway-for-all-devices}
 
-### 1. Connecter le routeur GL.iNet au routeur principal
+### 1. Connecter le routeur GL.iNet au routeur principal {#1-connect-glinet-router-to-the-main-router}
 
 Connectez le port WAN du routeur GL.iNet au port LAN du routeur principal à l’aide d’un câble Ethernet.
 
-### 2. Activer Drop-in Gateway 
+### 2. Activer Drop-in Gateway {#2-enable-drop-in-gateway}
 
 Il existe deux méthodes pour activer Drop-in Gateway : via le panneau d’administration du routeur ou via l’application mobile GL.iNet. 
 
-<a id="using-web-admin-panel"></a>
 ??? "Utiliser le panneau d’administration web"
 
     1. Dans un navigateur web, saisissez `192.168.8.1`.  
@@ -37,7 +36,6 @@ Il existe deux méthodes pour activer Drop-in Gateway : via le panneau d’admin
 
     6. Cliquez sur **Apply**. 
 
-<a id="using-glinet-mobile-app"></a>
 ??? "Utiliser l’application mobile GL.iNet"
 
     **Note:** Avant de commencer, installez l’application mobile GL.iNet sur votre appareil. 
@@ -54,11 +52,11 @@ Il existe deux méthodes pour activer Drop-in Gateway : via le panneau d’admin
 
     4. Appuyez sur **Done**. 
 
-### 3. Désactiver le serveur DHCP sur le routeur principal
+### 3. Désactiver le serveur DHCP sur le routeur principal {#3-disable-dhcp-server-on-the-main-router}
 
 Veuillez vous connecter à votre routeur principal pour désactiver le serveur DHCP. Vous pouvez vous référer aux instructions fournies par le fabricant de votre routeur ou contacter son assistance. 
 
-### 4. Configurer AdGuard, le DNS, le VPN et les autres fonctionnalités
+### 4. Configurer AdGuard, le DNS, le VPN et les autres fonctionnalités {#4-set-up-adguard-dns-vpn-and-other-features}
 
 Suivez ces guides pour activer les fonctionnalités souhaitées sur votre routeur GL.iNet.
 
@@ -72,15 +70,14 @@ Suivez ces guides pour activer les fonctionnalités souhaitées sur votre routeu
 
 ## Activer Drop-in Gateway pour des appareils spécifiques {#enable-drop-in-gateway-for-specific-devices}
 
-### 1. Connecter le routeur GL.iNet au routeur principal
+### 1. Connecter le routeur GL.iNet au routeur principal {#1-connect-glinet-router-to-the-main-router_1}
 
 Connectez le port WAN du routeur GL.iNet au port LAN du routeur principal à l’aide d’un câble Ethernet.
 
-### 2. Activer Drop-in Gateway
+### 2. Activer Drop-in Gateway {#2-enable-drop-in-gateway_1}
 
-Il existe deux méthodes pour activer Drop-in Gateway : via le [panneau d’administration du routeur](#using-web-admin-panel-specific) ou via l’[application mobile GL.iNet](#using-glinet-mobile-app-specific). 
+Il existe deux méthodes pour activer Drop-in Gateway : via le panneau d’administration du routeur ou via l’application mobile GL.iNet. 
 
-<a id="using-web-admin-panel-specific"></a>
 ??? "Utiliser le panneau d’administration web"
 
     1. Dans un navigateur web, saisissez `192.168.8.1`. 
@@ -101,7 +98,6 @@ Il existe deux méthodes pour activer Drop-in Gateway : via le [panneau d’admi
 
     **Note:** Veuillez **NE PAS** fermer cet onglet. Vous devrez saisir l’adresse IP (affichée à l’écran) à l’étape suivante.
 
-<a id="using-glinet-mobile-app-specific"></a>
 ??? "Utiliser l’application mobile GL.iNet"
 
     **Note:** Avant de commencer, installez l’application mobile GL.iNet sur votre appareil. 
@@ -120,7 +116,7 @@ Il existe deux méthodes pour activer Drop-in Gateway : via le [panneau d’admi
 
     **Note:** Veuillez **NE PAS** fermer cet onglet. Vous devrez saisir l’adresse IP (affichée à l’écran) à l’étape suivante. 
 
-### 3. Définir la passerelle et le DNS sur l’appareil spécifique
+### 3. Définir la passerelle et le DNS sur l’appareil spécifique {#3-set-gateway-and-dns-on-specific-device}
 
 ??? "Windows"
     
@@ -179,7 +175,7 @@ Il existe deux méthodes pour activer Drop-in Gateway : via le [panneau d’admi
         * **Router:** Saisissez l’adresse IP affichée sur la page **Drop-in Gateway**. 
     9. Cliquez sur **OK** > **OK**. 
 
-### 4. Configurer AdGuard, le DNS, le VPN et les autres fonctionnalités
+### 4. Configurer AdGuard, le DNS, le VPN et les autres fonctionnalités {#4-set-up-adguard-dns-vpn-and-other-features_1}
 
 Suivez ces guides pour activer les fonctionnalités souhaitées sur votre routeur GL.iNet.
 

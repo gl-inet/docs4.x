@@ -1,4 +1,4 @@
-# Come controllare lo stato della carrier aggregation sul router cellulare
+# Come controllare lo stato della carrier aggregation sul router cellulare {#how-to-check-the-carrier-aggregation-status-on-your-cellular-router}
 
 La carrier aggregation combina piu' bande di rete per offrire maggiore larghezza di banda e velocita' piu' elevate alla connessione cellulare.
 

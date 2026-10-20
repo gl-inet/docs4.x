@@ -1,4 +1,4 @@
-# Wie verbindet man ein Gerät mit ausschließlich Ethernet-Anschluss über einen GL.iNet Router mit WLAN?
+# Wie verbindet man ein Gerät mit ausschließlich Ethernet-Anschluss über einen GL.iNet Router mit WLAN? {#how-to-connect-an-ethernet-only-device-to-wi-fi-with-a-glinet-router}
 
 Wenn Ihr Gerät nur eine Ethernet-Verbindung unterstützt, aber eine Verbindung zu einem drahtlosen Netzwerk herstellen muss, kann ein GL.iNet Router diese Lücke schließen.
 

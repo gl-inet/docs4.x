@@ -1,14 +1,14 @@
-# Quectelモジュールのファームウェアをアップグレードする
+# Quectelモジュールのファームウェアをアップグレードする {#upgrade-quectel-module-firmware}
 
-## 準備
+## 準備 {#preperation}
 
 1. ルーターがインターネットにアクセスできるよう設定されていることを確認します。
 
 2. コンピューターまたはノートPCをWi-FiまたはEthernetケーブルでルーターに接続します。
 
-## アップグレード手順
+## アップグレード手順 {#upgrade-steps}
 
-### GL-X3000 / GL-XE3000 の場合
+### GL-X3000 / GL-XE3000 の場合 {#for-gl-x3000gl-xe3000}
 
 **方法1. GL.iNet GUIからアップグレードする**
 
@@ -64,7 +64,7 @@
 
     ![mtk7981a_check_version](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/x3000_xe3000/check_module_version.png){class="glboxshadow"}
 
-### GL-MiFi / GL-XE300 / GL-X750 / GL-E750 の場合
+### GL-MiFi / GL-XE300 / GL-X750 / GL-E750 の場合 {#for-gl-mifigl-xe300gl-x750gl-e750}
 
 ここでは EM060K モジュールのアップグレードを例にします。
 
@@ -117,7 +117,7 @@
     ```
     ![check module version](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/other_model/check_module_version.png){class="glboxshadow"}
 
-## QuectelモジュールファームウェアのダウンロードURL
+## QuectelモジュールファームウェアのダウンロードURL {#quectel-module-firmware-download-url}
 
 EP06-A: [https://fw.gl-inet.com/download/EP06A-modem-firmware/EP06ALAR02A08M4G_01.009.01.009.zip](https://fw.gl-inet.com/download/EP06A-modem-firmware/EP06ALAR02A08M4G_01.009.01.009.zip)
 

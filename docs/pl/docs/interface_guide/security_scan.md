@@ -1,4 +1,4 @@
-# Skanowanie zabezpieczeń
+# Skanowanie zabezpieczeń {#security-scan}
 
 **Uwaga**: ta funkcja została wprowadzona w firmware v4.11.
 

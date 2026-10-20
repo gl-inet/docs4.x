@@ -1,14 +1,14 @@
-# Quectel-Modul-Firmware aktualisieren
+# Quectel-Modul-Firmware aktualisieren {#upgrade-quectel-module-firmware}
 
-## Vorbereitung
+## Vorbereitung {#preperation}
 
 1. Stellen Sie sicher, dass Ihr Router für den Internetzugang eingerichtet ist.
 
 2. Verbinden Sie einen Computer oder Laptop per WLAN oder Ethernet-Kabel mit dem Router.
 
-## Schritte für das Upgrade
+## Schritte für das Upgrade {#upgrade-steps}
 
-### Für GL-X3000/GL-XE3000
+### Für GL-X3000/GL-XE3000 {#for-gl-x3000gl-xe3000}
 
 **Methode 1. Upgrade über die GL.iNet-GUI**
 
@@ -64,7 +64,7 @@ Das Upgrade des RM520N-Moduls wird hier als Beispiel verwendet.
 
     ![Version prüfen](https://static.gl-inet.com/docs/router/de/4/tutorials/upgrade_quectel_module_software/x3000_xe3000/check_module_version.png){class="glboxshadow"}
 
-### Für GL-MiFi/GL-XE300/GL-X750/GL-E750
+### Für GL-MiFi/GL-XE300/GL-X750/GL-E750 {#for-gl-mifigl-xe300gl-x750gl-e750}
 
 Das Upgrade des EM060K-Moduls wird hier als Beispiel verwendet.
 
@@ -117,7 +117,7 @@ Das Upgrade des EM060K-Moduls wird hier als Beispiel verwendet.
     ```
     ![Modulversion prüfen](https://static.gl-inet.com/docs/router/de/4/tutorials/upgrade_quectel_module_software/other_model/check_module_version.png){class="glboxshadow"}
 
-## Download-URLs für Quectel-Modul-Firmware
+## Download-URLs für Quectel-Modul-Firmware {#quectel-module-firmware-download-url}
 
 EP06-A: [https://fw.gl-inet.com/download/EP06A-modem-firmware/EP06ALAR02A08M4G_01.009.01.009.zip](https://fw.gl-inet.com/download/EP06A-modem-firmware/EP06ALAR02A08M4G_01.009.01.009.zip)
 

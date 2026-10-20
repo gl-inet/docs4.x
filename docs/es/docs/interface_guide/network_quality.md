@@ -1,4 +1,4 @@
-# Calidad de la red
+# Calidad de la red {#network-quality}
 
 **Nota**: Esta función se incorporó en el firmware v4.11.
 
@@ -18,7 +18,7 @@ En esta página puede evaluar su conexión a Internet mediante Network Quality S
 
 2. Speedtest es una prueba de velocidad local ejecutada en el router y está sujeta a las reglas de limitación de velocidad de funciones como SQM y QoS.
 
-## Network Quality Score
+## Network Quality Score {#network-quality-score}
 
 Esta sección muestra la puntuación general Network Quality Score, calculada a partir de Response Score y Reliable Score. Puede consultar cada puntuación por separado. El panel también muestra métricas relacionadas, como latencia, fluctuación y pérdida de paquetes, además de las tasas de descarga y carga en tiempo real en KB/s. De forma predeterminada, el panel utiliza `google.com` como destino para comprobar la conectividad a Internet y la resolución DNS.
 
@@ -36,7 +36,7 @@ Los destinos configurados se utilizan para realizar pruebas de conectividad y DN
 
 - **DNS Resolution Target**: El dominio que se resuelve durante las consultas DNS. Se consultan tanto los registros A (IPv4) como AAAA (IPv6).
 
-## Speedtest
+## Speedtest {#speedtest}
 
 Esta prueba de velocidad integrada utiliza Cloudflare Speed Test para medir las velocidades de descarga y carga, la latencia del ping y el bufferbloat. Durante la prueba se muestran gráficos de velocidad en tiempo real.
 

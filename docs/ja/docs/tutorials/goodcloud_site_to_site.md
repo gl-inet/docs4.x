@@ -1,6 +1,6 @@
-# GoodCloud Site to Site
+# GoodCloud Site to Site {#goodcloud-site-to-site}
 
-## はじめに
+## はじめに {#introduction}
 
 GoodCloud Site to Site を使用すると、複数の拠点にあるオフィス同士をインターネット経由で安全に接続できます。これにより企業ネットワークを拡張し、ある拠点のコンピューターリソースを、ネットワーク上の別拠点にいる従業員も利用できるようになります。
 
@@ -12,7 +12,7 @@ GoodCloud Site to Site を使用すると、複数の拠点にあるオフィス
 
 **Scenario 3**: 自宅に IP カメラがある家庭で、外出中の家族がそのデバイスへリモートアクセスし、どこからでも簡単に監視したい場合。
 
-## 条件
+## 条件 {#conditions}
 
 1. Site to Site ネットワークを構築するには、少なくとも 2 台の GL.iNet ルーターが必要です。
 
@@ -22,7 +22,7 @@ GoodCloud Site to Site を使用すると、複数の拠点にあるオフィス
 
 3. サブノードで VPNクライアント / Tailscale / ZeroTier / AstroWarp を同時に実行しながら Site to Site を使用することは **推奨されません**。ネットワーク構成が特に複雑になるためです。
 
-## Site to Site ネットワークを構築する
+## Site to Site ネットワークを構築する {#build-a-site-to-site-network}
 
 1. ルーターをGoodCloudアカウントにバインドします。[デバイスをクラウドにバインドする方法](../interface_guide/cloud.md#bind-devices-to-cloud)を参照してください。
 
@@ -72,13 +72,13 @@ GoodCloud Site to Site を使用すると、複数の拠点にあるオフィス
 
     ![detail s2s](https://static.gl-inet.com/goodcloud/docs/detail-s2s-01.png){class="glboxshadow"}
 
-## Site to Site 接続をテストする
+## Site to Site 接続をテストする {#testing-the-site-to-site-connection}
 
 1. この Site to Site ネットワーク内のいずれかのノードに PC またはスマートフォンを接続します。
 
 2. Webブラウザーを開き、別のノードの LAN IP にアクセスします。ログインページが表示されれば、その 2 つのノード間の接続は正常に動作しています。
 
-## ルートとその他のオプション
+## ルートとその他のオプション {#route-and-other-options}
 
 デフォルトでは、各ノードは他のノードの LAN にアクセスできます。セキュリティ上の理由から、特定のサービスに必要な IP アドレスのみを開放することを推奨します。
 

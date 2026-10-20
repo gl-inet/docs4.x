@@ -1,4 +1,4 @@
-# GL.iNet ルーターで WireGuard サーバーを設定する
+# GL.iNet ルーターで WireGuard サーバーを設定する {#set-up-wireguard-server-on-glinet-routers}
 
 WireGuard® は、最先端の暗号技術を利用した、非常にシンプルで高速かつモダンな VPN です。IPSec よりも高速・簡潔・軽量で使いやすいことを目指しており、OpenVPN よりも大幅に高いパフォーマンスを期待できます。
 
@@ -112,9 +112,9 @@ Web 管理パネルにログインし、**VPN** -> **WireGuard Server** を開�
 
     ![wireguard server status](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/wgserver_status.png){class="glboxshadow"}
 
-## WireGuard サーバーが正常に動作しているか確認する
+## WireGuard サーバーが正常に動作しているか確認する {#check-if-wireguard-server-is-working-properly}
 
-### サーバー状態を確認する
+### サーバー状態を確認する {#verify-server-status}
 
 ファームウェア v4.8 以降では、**WireGuard Server** ページでサーバー接続状態を確認できます。
 
@@ -128,7 +128,7 @@ Web 管理パネルにログインし、**VPN** -> **WireGuard Server** を開�
 
 ファームウェア v4.7 以前では、**VPN Dashboard** ページでサーバー接続状態を確認してください。
 
-### クライアント側の IP を確認する
+### クライアント側の IP を確認する {#verify-clients-ip}
 
 サーバーへの接続が成功しているか確認するには、先ほどエクスポートした WireGuard 設定を別ネットワーク上のデバイス（サーバーと同じローカルネットワークではないデバイス）にインポートします。その後 Web ブラウザで自身の IP アドレスと位置情報を確認し、インターネットサービスプロバイダーの IP ではなく VPN サーバーの IP と位置情報が表示されれば、VPN 接続は成功です。
 
@@ -141,7 +141,7 @@ Web 管理パネルにログインし、**VPN** -> **WireGuard Server** を開�
 * WireGuard Server で使用しているポートがインターネットサービスプロバイダーによってブロックされている。別のポートに変更するか、ISP に問い合わせてください。
 * 一部の国や地域では VPN 接続がブロックされる場合があります。
 
-## Server Options
+## Server Options {#server-options}
 
 Server Optionsには、サーバーのLANへのリモートアクセスやIPマスカレーディングなど、サーバー側の高度な設定があります。必要に応じて設定してください。
 
@@ -167,7 +167,7 @@ Server Optionsには、サーバーのLANへのリモートアクセスやIPマ�
 
     Client to Clientが通知するのは、各クライアントのトンネルIPアドレスだけです。各VPNクライアントの背後にあるローカルLANサブネットは、自動的には公開されません。クライアントから互いのLANサブネットへアクセスできるようにするには、VPNサーバーにルーティングルールを追加し、それらのリモートLANサブネットを通知してください。
 
-## WireGuard App のインストール
+## WireGuard App のインストール {#wireguard-app-install}
 
 [WireGuard 公式サイト](https://www.wireguard.com/install){target="_blank"} から WireGuard App をダウンロードしてください。
 

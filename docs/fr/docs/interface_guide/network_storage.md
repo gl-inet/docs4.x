@@ -1,4 +1,4 @@
-# Stockage réseau
+# Stockage réseau {#network-storage}
 
 ## Introduction {#introduction}
 
@@ -244,7 +244,7 @@ Connectez le périphérique de stockage. Lorsqu'il est détecté, la page s'affi
         
         ![ios files set up SMB](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios_files_smb_1.png){class="glboxshadow" width="560"}
 
-        Touchez l'option **Connect to Server** en haut du menu. Sur l'écran suivant, saisissez l'URL de connexion de votre serveur. Vous trouverez cette URL dans le [lien partagé](#shared-link). Touchez le bouton **Next** en haut à droite pour continuer.
+        Touchez l'option **Connect to Server** en haut du menu. Sur l'écran suivant, saisissez l'URL de connexion de votre serveur. Vous trouverez cette URL dans le [lien partagé](#set-up-samba). Touchez le bouton **Next** en haut à droite pour continuer.
 
         ![ios files set up SMB](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios_files_smb_2.png){class="glboxshadow" width="560"}
 
@@ -366,7 +366,7 @@ Connectez le périphérique de stockage. Lorsqu'il est détecté, la page s'affi
 
     ![documents WebDAV](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav_client/documents_4_webdav.png){class="glboxshadow" width="560"}
 
-## Utiliser l'application mobile
+## Utiliser l'application mobile {#using-mobile-app}
 
 Le panneau d'administration web permet uniquement de gérer les dossiers partagés. Pour gérer les fichiers sur votre périphérique de stockage, veuillez utiliser l'[application mobile](https://www.gl-inet.com/app/#download-app-glinet){target="_blank"}.
 

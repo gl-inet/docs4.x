@@ -1,12 +1,12 @@
-# Guide d'utilisation du Flint (GL-AX1800)
+# Guide d'utilisation du Flint (GL-AX1800) {#flint-gl-ax1800-user-guide}
 
-## Aperçu du produit
+## Aperçu du produit {#product-overview}
 
 Flint (GL-AX1800) est un routeur Wi‑Fi 6 double bande offrant une vitesse de connexion allant jusqu'à 600Mbps (2.4GHz) + 1200Mbps (5GHz). Sa vitesse de chiffrement VPN atteint 667Mbps et il peut être utilisé pour héberger des serveurs VPN. Flint convient parfaitement aux transmissions de données intensives, aux environnements avec de nombreux appareils connectés ou aux jeux nécessitant une latence ultra-faible.
 
 ![gl-ax1800 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/hardware_info/gl-ax1800_interface.jpg){class="glboxshadow"}
 
-## Contenu du colis
+## Contenu du colis {#package-contents}
 
 - 1 x Flint (GL-AX1800)
 - 1 x Manuel d'utilisation
@@ -18,18 +18,18 @@ Flint (GL-AX1800) est un routeur Wi‑Fi 6 double bande offrant une vitesse de c
 
 ![gl-ax1800 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/first_time_setup/ax1800_unboxing.jpg){class="glboxshadow"}
 
-## Configuration initiale du Flint
+## Configuration initiale du Flint {#how-to-set-up-flint}
 
 Regardez cette vidéo de configuration ou suivez les étapes ci-dessous.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZAVn92F5RV8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <small>(Cette vidéo utilise un autre routeur GL.iNet pour illustrer la configuration, mais les étapes sont identiques pour le Flint et les autres modèles de routeurs.)</small>
 
-### 1. Mise sous tension
+### 1. Mise sous tension {#1-power-on}
 
 Assemblez l'adaptateur secteur en deux parties. Connectez-le au routeur, puis branchez-le sur une prise électrique. Le routeur démarre automatiquement.
 
-### 2. Connecter un appareil
+### 2. Connecter un appareil {#2-connect-device}
 
 Connectez un appareil (par exemple un ordinateur, un ordinateur portable ou un smartphone) au routeur via le Wi‑Fi ou Ethernet.
 
@@ -41,13 +41,13 @@ Connectez un appareil (par exemple un ordinateur, un ordinateur portable ou un s
 
     Sur votre appareil, accédez à Paramètres -> WLAN, repérez le nom du réseau Wi‑Fi du routeur dans la liste des réseaux disponibles, puis saisissez le mot de passe. Le nom de réseau et le mot de passe par défaut sont imprimés sur l'étiquette située sous le routeur.
 
-### 3. Se connecter au panneau d'administration web
+### 3. Se connecter au panneau d'administration web {#3-log-in-to-web-admin-panel}
 
 Ouvrez un navigateur web, saisissez `192.168.8.1` dans la barre d'adresse, puis connectez-vous. Choisissez votre langue, définissez votre mot de passe administrateur, puis cliquez sur **Apply**.
 
 Lors de la confirmation des informations Wi‑Fi, notez que si vous modifiez les paramètres Wi‑Fi, vous devrez reconnecter votre appareil au Wi‑Fi du routeur à l'aide des identifiants mis à jour.
 
-### 4. Configuration Internet
+### 4. Configuration Internet {#4-internet-setup}
 
 **Note:** Les instructions ci-dessous s'appliquent aux utilisateurs qui configurent le routeur via le panneau d'administration web GL.iNet. Si vous préférez utiliser l'application GL.iNet, [téléchargez l'application](https://www.gl-inet.com/app/){target="_blank"} et suivez les instructions à l'écran.
 
@@ -97,7 +97,7 @@ Configurez votre Flint à l'aide de l'une des méthodes de connexion Internet pr
 
     Pour des instructions détaillées, consultez [Se connecter à Internet via le réseau cellulaire](../../interface_guide/internet_cellular.md).
 
-## Configurer un VPN
+## Configurer un VPN {#how-to-set-up-a-vpn}
 
 Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre votre appareil et le serveur VPN. Il ajoute une couche supplémentaire de confidentialité et de sécurité (client VPN) et permet d'accéder à un réseau distant (serveur VPN). Flint prend en charge OpenVPN, WireGuard et Tor.
 
@@ -121,7 +121,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
     
     * [Comment configurer Tor](../../interface_guide/tor.md).
 
-## Réseau sans fil et clients
+## Réseau sans fil et clients {#wireless-and-clients}
 
 === "Wireless"
 
@@ -135,7 +135,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     Pour configurer les clients, consultez [Clients](../../interface_guide/clients.md).
 
-## Services cloud
+## Services cloud {#cloud-services}
 
 === "GoodCloud"
 
@@ -149,7 +149,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     Pour configurer AstroWarp, consultez [AstroWarp](../../interface_guide/astrowarp.md).
 
-## Applications
+## Applications {#applications}
 
 === "Plug-ins"
 
@@ -195,7 +195,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
     
     Pour configurer Tailscale, consultez [Tailscale](../../interface_guide/tailscale.md).
 
-## Paramètres réseau
+## Paramètres réseau {#network-settings}
 
 === "Port forwarding"
 
@@ -269,7 +269,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     Pour configurer les paramètres NAT, consultez [NAT Settings](../../interface_guide/nat_settings.md).
 
-## Paramètres système
+## Paramètres système {#system-settings}
 
 === "Overview"
 

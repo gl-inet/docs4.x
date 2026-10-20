@@ -1,4 +1,4 @@
-# Zeitzone
+# Zeitzone {#time-zone}
 
 Gehen Sie auf der linken Seite des Web-Admin-Panels zu **SYSTEM** -> **Time Zone**.
 

@@ -1,4 +1,4 @@
-# クライアントデバイスで固定IPを手動設定する方法
+# クライアントデバイスで固定IPを手動設定する方法 {#how-to-manually-configure-static-ip-on-the-client-devices}
 
 === "Windows 11"
 

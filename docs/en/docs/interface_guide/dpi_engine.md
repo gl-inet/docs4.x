@@ -1,4 +1,4 @@
-# DPI Engine
+# DPI Engine {#dpi-engine}
 
 **Note**: This feature was introduced in firmware v4.9.
 
@@ -17,7 +17,7 @@ Integrated with [Netify](https://www.netify.ai/){target="_blank"}, GL.iNet DPI a
 1. When the router is in Drop-in Gateway mode, DPI features (including Data Statistics, Content Filter and QoS) and SQM will not take effect.
 2. When DPI is enabled, the Network Acceleration will be disabled automatically to ensure stable performance.
 
-## Supported Models
+## Supported Models {#supported-models}
 
 ??? "Supported Models"
     - GL-MT6000 (Fortify)
@@ -55,7 +55,7 @@ Integrated with [Netify](https://www.netify.ai/){target="_blank"}, GL.iNet DPI a
     - GL-AP1300 (Cirrus)
     - GL-S1300 (Convexa-S)
 
-## Quick Setup
+## Quick Setup {#quick-setup}
 
 On the left side of the web Admin Panel, go to **FLOW CONTROL** -> **DPI Engine** and click **Enable DPI Engine**.
 
@@ -79,7 +79,7 @@ You will be directed to the **DPI Engine Version Center**, where you can view th
 
 **Note**: This page displays core system status indicators only. Traffic processing will start once the relevant features are enabled.
 
-## Database Upgrade 
+## Database Upgrade {#database-upgrade}
 
 If a newer database version is available, simply click **Upgrade** to update the database.
 

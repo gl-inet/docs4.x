@@ -1,22 +1,22 @@
-# How to use qlog to capture modem logs
+# How to use qlog to capture modem logs {#how-to-use-qlog-to-capture-modem-logs}
 
 Some GL.iNet routers come with built-in 3G/4G/5G modems. When the network connection is unstable, it may be necessary to export the modem's logs for analysis.
 
 Here are the steps to export the cellular modem's logs.
 
-## 1. Connect your computer to the router
+## 1. Connect your computer to the router {#1-connect-your-computer-to-the-router}
 
 Connect a laptop to the router's Wi-Fi (find the SSID and password on the device bottom label), or connect the ethernet port of your computer to the router's LAN port via an ethernet cable.
 
-## 2. SSH log in to your router
+## 2. SSH log in to your router {#2-ssh-log-in-to-your-router}
 
 Please refer to [this link](https://docs.gl-inet.com/router/en/4/tutorials/ssh_log_in_to_the_router/).
 
-## 3. Get modem logs
+## 3. Get modem logs {#3-get-modem-logs}
 
 Select the appropriate steps based on your device model.
 
-### GL-E5800
+### GL-E5800 {#gl-e5800}
 
 1. Insert a USB flash disk, then run `df -h` to get the mount path and record it.
 
@@ -58,7 +58,7 @@ Select the appropriate steps based on your device model.
 
     ![Qlogs Files](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/E5800_qlogs_files.png){class="glboxshadow"}
 
-### GL-X2000
+### GL-X2000 {#gl-x2000}
 
 1. Insert a USB flash disk, then run `df -h` to get the mount path and record it.
 
@@ -108,7 +108,7 @@ Select the appropriate steps based on your device model.
     ![Qlogs Files](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/X2000_qlogs_files.png){class="glboxshadow"}
 
 
-### GL-XE300/GL-X750/GL-X300B
+### GL-XE300/GL-X750/GL-X300B {#gl-xe300gl-x750gl-x300b}
 
 1. Insert a USB flash disk, then run `df -h` to get the mount path and record it. 
 
@@ -154,7 +154,7 @@ Select the appropriate steps based on your device model.
 
     ![Qlogs Files](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/ar9531_qlogs_files.png){class="glboxshadow"}
 
-### GL-X3000/GL-XE3000
+### GL-X3000/GL-XE3000 {#gl-x3000gl-xe3000}
 
 1. Insert a USB flash disk, then run `df -h` to get the mount path and record it.
 

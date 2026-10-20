@@ -1,4 +1,4 @@
-# Application GL.iNet
+# Application GL.iNet {#glinet-app}
 
 ![GL.iNet app icon](https://static.gl-inet.com/docs/router/en/4/faq/mobile_app/app-icon_v2_256x256.png){class="glboxshadow" width="128" style="border-radius:15px"}
 

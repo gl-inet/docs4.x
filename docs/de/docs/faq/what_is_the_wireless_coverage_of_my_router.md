@@ -1,10 +1,10 @@
-# Wie groß ist die WLAN-Abdeckung meines Routers?
+# Wie groß ist die WLAN-Abdeckung meines Routers? {#what-is-the-wireless-coverage-of-my-router}
 
 Die theoretische WLAN-Abdeckung des Routers ist ein Referenzwert, der in einer offenen Umgebung ohne Störungen getestet wurde. In realen Wohn- oder Büroumgebungen verringert sich die Reichweite aufgrund von Hindernissen und Interferenzen, und die Signalstärke kann in verschiedenen Bereichen unterschiedlich ausfallen.
 
 Im Folgenden finden Sie einige wichtige Faktoren, die die Reichweite der WLAN-Abdeckung beeinflussen.
 
-## WLAN-Chipsatz
+## WLAN-Chipsatz {#wireless-chipset}
 
 Als zentrale Verarbeitungseinheit für Wi-Fi-Funktionen ist der WLAN-Chipsatz für die Signalkodierung, Dekodierung und Übertragungssteuerung verantwortlich.
 
@@ -12,11 +12,11 @@ Router mit leistungsstarken Chipsätzen (z. B. mit Unterstützung für Wi-Fi 6/6
 
 Ältere oder einfache Chipsätze sind dagegen durch ihre Verarbeitungsleistung begrenzt, was sich negativ auf Reichweite und Stabilität des Signals auswirkt.
 
-## WLAN-Band
+## WLAN-Band {#wireless-band}
 
 2,4-GHz-Wi-Fi bietet eine stärkere Durchdringung und eine größere Reichweite, aber eine geringere Bandbreite. 5-GHz-Wi-Fi bietet höhere Geschwindigkeiten, aber eine schwächere Durchdringung, wodurch die Reichweite geringer ausfällt.
 
-## TX-Leistung
+## TX-Leistung {#tx-power}
 
 Die TX-Leistung des Routers (Sendeleistung des WLAN-Senders) ist der grundlegende Parameter für die Signalübertragung.
 
@@ -24,15 +24,15 @@ In einer Umgebung mit mehreren Routern reduzieren einige Benutzer die TX-Leistun
 
 Sie können die TX-Leistung Ihres Routers bei Bedarf auf der Seite [WIRELESS](../interface_guide/wireless.md) im Web-Admin-Panel anpassen.
 
-## Standort des Routers
+## Standort des Routers {#router-location}
 
 Wenn Sie den Router an einem zentralen, erhöhten Ort platzieren (z. B. auf einem Regal oder Schrank), werden Hindernisse minimiert. Für eine optimale Abdeckung sollten Sie ihn nicht in der Nähe von Ecken, hinter Möbeln oder neben Störquellen aufstellen.
 
-## Physische Hindernisse
+## Physische Hindernisse {#physical-obstacles}
 
 Massive Wände (insbesondere aus Beton, Ziegel oder Metall), Decken/Böden und große Möbelstücke blockieren oder schwächen Wi-Fi-Signale. Mehrstöckige Gebäude oder unterteilte Räume verringern die Abdeckung im Vergleich zu offenen Flächen deutlich.
 
-## Funkstörungen
+## Funkstörungen {#wireless-interference}
 
 Andere Funkgeräte (z. B. benachbarte Router, Smart-Home-Hubs, smarte Kameras) und Haushaltsgeräte (z. B. Mikrowellen) können Signalstörungen verursachen und damit die effektive WLAN-Abdeckung verringern.
 

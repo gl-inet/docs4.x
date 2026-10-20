@@ -1,4 +1,4 @@
-# Filtr treści
+# Filtr treści {#content-filter}
 
 **Uwaga**: Ta funkcja została wprowadzona w firmware v4.9.
 
@@ -51,7 +51,7 @@ Filtr treści to inteligentna funkcja bezpieczeństwa online oparta na klasyfika
     - GL-AP1300 (Cirrus)
     - GL-S1300 (Convexa-S)
 
-## Szybka konfiguracja
+## Szybka konfiguracja {#quick-setup}
 
 W lewym panelu webowego panelu administracyjnego przejdź do **FLOW CONTROL** -> **Content Filter**.
 
@@ -85,7 +85,7 @@ Ta strona składa się z dwóch części:
 
     ![domain ip list](https://static.gl-inet.com/docs/router/en/4/interface_guide/content_filter/blocked_domain_ip.jpg){class="glboxshadow"}
 
-## Test filtra treści
+## Test filtra treści {#content-filter-test}
 
 Na przykład wybraliśmy kategorię **Game**, która zawiera Nintendo.
 

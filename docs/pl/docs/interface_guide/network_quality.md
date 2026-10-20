@@ -1,4 +1,4 @@
-# Jakość sieci
+# Jakość sieci {#network-quality}
 
 **Uwaga**: ta funkcja została wprowadzona w firmware v4.11.
 
@@ -18,7 +18,7 @@ Na tej stronie można ocenić połączenie internetowe na podstawie wskaźnika j
 
 2. Speedtest jest lokalnym testem prędkości wykonywanym na routerze i podlega regułom ograniczania prędkości przez takie funkcje, jak SQM i QoS.
 
-## Wskaźnik jakości sieci
+## Wskaźnik jakości sieci {#network-quality-score}
 
 Ta sekcja wyświetla ogólny wskaźnik jakości sieci, obliczany na podstawie wyniku responsywności i wyniku niezawodności. Każdy z tych wyników można wyświetlić osobno. Panel pokazuje również powiązane wskaźniki, takie jak opóźnienie, jitter i utrata pakietów, a także prędkości pobierania i wysyłania w czasie rzeczywistym w KB/s. Domyślnie pulpit używa domeny `google.com` jako celu testów łączności internetowej i rozpoznawania DNS.
 
@@ -36,7 +36,7 @@ Skonfigurowane cele są używane do wykonywania testów łączności i DNS oraz 
 
 - **DNS Resolution Target**: domena rozpoznawana podczas testów DNS. Odpytywane są zarówno rekordy A (IPv4), jak i AAAA (IPv6).
 
-## Speedtest
+## Speedtest {#speedtest}
 
 Wbudowany test prędkości używa Cloudflare Speed Test do pomiaru prędkości pobierania i wysyłania, opóźnienia ping oraz bufferbloat. Podczas testu wyświetlane są wykresy prędkości w czasie rzeczywistym.
 

@@ -1,4 +1,4 @@
-# macOS で Samba 共有に書き込めない
+# macOS で Samba 共有に書き込めない {#macos-cannot-write-to-a-samba-share}
 
 Samba 共有に exFAT 形式のストレージデバイスを使用している場合、一部の macOS デバイスでは共有へファイルを書き込もうとしたときに、次のいずれかのエラーが表示されることがあります。
 

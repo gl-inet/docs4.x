@@ -1,10 +1,10 @@
-# ウェブ管理パネルにアクセスできない
+# ウェブ管理パネルにアクセスできない {#cannot-access-web-admin-panel}
 
 [http://192.168.8.1](http://192.168.8.1) にアクセスして Web 管理パネルにログインできない場合があります。いくつかの理由が考えられます。
 
 ![can't access admin](https://static.gl-inet.com/docs/router/en/4/faq/cannot_access_web_admin_panel/cantaccessadmin.jpg){class="glboxshadow"}
 
-## 考えられる原因
+## 考えられる原因 {#the-possible-causes}
 
 * パソコンや携帯電話がルーターに接続していません。
 * `192.168.8.1` はルーターのデフォルトの IP アドレスですが、変更されている可能性があります。
@@ -12,7 +12,7 @@
 * VPN またはプロキシソフトウェアがトラフィックを処理しているため、管理パネルにアクセスできない場合があります。
 * ルーターがレンガ化（ブリック）しています。
 
-## ウェブ管理パネルにアクセスする一般的な手順
+## ウェブ管理パネルにアクセスする一般的な手順 {#check-the-general-steps-to-access-web-admin-panel}
 
 1. デバイスを何も接続せずにルーターの電源を入れます。
 2. モバイル/ノートパソコンをルーターの Wi-Fi に接続し、ルーターのラベルに印刷されている Wi-Fi キーを入力します。
@@ -21,7 +21,7 @@
 
 または、[アプリ](mobile_app.md)を使ってルーターにアクセスすることもできます。
 
-## その他の解決手順
+## その他の解決手順 {#other-steps-to-fix-this-issue}
 
 1. [接続をチェックする](#check-the-connection)
 2. [ルーターのIPアドレスを確認する](#check-routers-ip-address)

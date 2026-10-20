@@ -1,10 +1,10 @@
-# ネットワークアクセラレーション
+# ネットワークアクセラレーション {#network-acceleration}
 
 Network Acceleration は CPU 負荷を軽減し、トラフィックのパケット転送を高速化しますが、一部の機能と競合する場合があります。
 
 Network Acceleration を有効にすると、次の機能は正しく動作しません: Client Speed and Traffic Statistics、Client Speed Limit。
 
-## 対応モデル
+## 対応モデル {#supported-models}
 
 ??? "対応モデル"
     - GL-MT6000 (Fortify)
@@ -40,7 +40,7 @@ Network Acceleration を有効にすると、次の機能は正しく動作し�
     - GL-B1300 (Convexa-B)
     - GL-X300B (Collie)
 
-## 設定
+## 設定 {#setup}
 
 Web Admin Panel の左側で、**NETWORK** -> **Network Acceleration** に移動します。
 

@@ -1,4 +1,4 @@
-# System Overview
+# System Overview {#system-overview}
 
 On the left side of the web Admin Panel, go to **SYSTEM** -> **Overview**.
 
@@ -13,7 +13,7 @@ Here is an example of GL-MT3000.
 
 ![system overview](https://static.gl-inet.com/docs/router/en/4/interface_guide/system_overview/overview.png){class="glboxshadow"}
 
-## CPU Average Load
+## CPU Average Load {#cpu-average-load}
 
 For most models without a fan, the CPU average load is displayed as below.
 
@@ -45,7 +45,7 @@ Click on the Fan icon at the upper-right corner to enter the Fan Settings.
     - GL-MT3000 (Beryl AX)
     - GL-AXT1800 (Slate AX)
 
-## Memory Usage
+## Memory Usage {#memory-usage}
 
 Mouse over the graph to display specific values.
 
@@ -53,19 +53,19 @@ Mouse over the graph to display specific values.
 
 ![system overview, memory usage](https://static.gl-inet.com/docs/router/en/4/interface_guide/system_overview/memory_usage.png){class="glboxshadow gl-70-desktop"}
 
-## LED
+## LED {#led}
 
 Click the gear icon will go to the [Scheduled Tasks](scheduled_tasks.md) of LED.
 
 ![system overview, memory usage](https://static.gl-inet.com/docs/router/en/4/interface_guide/system_overview/led.png){class="glboxshadow gl-70-desktop"}
 
-## Flash
+## Flash {#flash}
 
 It displays total flash memory, including those System used, Apps used and the left Available.
 
 ![system overview, flash](https://static.gl-inet.com/docs/router/en/4/interface_guide/system_overview/flash.png){class="glboxshadow"}
 
-## Device Info
+## Device Info {#device-info}
 
 This section displays the basic information of the device. 
 
@@ -73,7 +73,7 @@ Device ID, device MAC, and device S/N have been added in firmware v4.7 and above
 
 ![system overview, device info](https://static.gl-inet.com/docs/router/en/4/interface_guide/system_overview/device_info.jpg){class="glboxshadow gl-80-desktop"}
 
-## External Storage
+## External Storage {#external-storage}
 
 This section, available since v4.5, displays the total and available capacity of the USB Disk.
 

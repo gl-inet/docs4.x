@@ -1,16 +1,16 @@
-# GoodCloud経由でLuCIインターフェースにアクセスする方法
+# GoodCloud経由でLuCIインターフェースにアクセスする方法 {#how-to-access-the-luci-interface-via-goodcloud}
 
 GL.iNet [GoodCloud](https://www.goodcloud.xyz/){target="_blank"} は地理的な制限を超えて、ルーターを便利にリモート管理できるようにします。GoodCloud を使えば、ルーターの LuCI インターフェースにいつでもどこからでもアクセスでき、さまざまな設定を行ってネットワークを簡単に管理できます。
 
-## 準備
+## 準備 {#preparation}
 
 - ハードウェア機器: インターネット設定が完了し、正常に動作している GL.iNet ルーター
 - ネットワーク環境: ルーターが接続されているネットワークが安定しており、正常にインターネットへアクセスできること
 - デバイスのバインド: [GL.iNet ルーターを GoodCloud アカウントにバインド](../interface_guide/cloud.md#bind-devices-to-cloud)しておく必要があります。GoodCloud アカウントをお持ちでない場合は、[登録](https://www.goodcloud.xyz/){target="_blank"}してください。
 
-## GoodCloud経由でLuCIインターフェースにアクセスする手順
+## GoodCloud経由でLuCIインターフェースにアクセスする手順 {#steps-to-access-the-luci-interface-via-goodcloud}
 
-### ファームウェアバージョン 4.7 以降
+### ファームウェアバージョン 4.7 以降 {#for-firmware-version-47-or-above}
 
 v4.7 以降では、ルーターの Web 管理画面を経由せずに、GoodCloud プラットフォームから直接 LuCI ページへアクセスできます。
 
@@ -32,7 +32,7 @@ v4.7 以降では、ルーターの Web 管理画面を経由せずに、GoodClo
 
     ![luci interface](https://static.gl-inet.com/docs/router/en/4/tutorials/access_luci_via_goodcloud/log_in_luci_mt6000.png){class="glboxshadow"}
 
-### ファームウェアバージョン 4.6 以前
+### ファームウェアバージョン 4.6 以前 {#for-firmware-version-46-or-below}
 
 1. [こちら](https://www.goodcloud.xyz/){target="_blank"} から GoodCloud アカウントにログインします。
 

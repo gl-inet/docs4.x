@@ -1,4 +1,4 @@
-# Firewall
+# Firewall {#firewall}
 
 Questa guida si applica al firmware v4.5 e precedenti.
 
@@ -10,7 +10,7 @@ Sul lato sinistro del pannello di amministrazione web, vai su **NETWORK** -> **F
 
 La pagina Firewall consente di impostare regole firewall come **Port Forwarding**, **Open Ports on Router** e **DMZ**.
 
-## Port Forwards
+## Port Forwards {#port-forwards}
 
 Port Forwarding consente ai computer remoti di collegarsi a un computer locale o a un server dietro il firewall del router nella LAN, ad esempio server web o server FTP.
 
@@ -38,7 +38,7 @@ Nella finestra a comparsa, aggiungi una regola di port forwarding e fai clic su 
 
 **Enable:** Usa l’interruttore per abilitare o disabilitare la regola.
 
-## Open Ports on Router
+## Open Ports on Router {#open-ports-on-router}
 
 I servizi del router, come web e FTP, richiedono che le relative porte siano aperte sul router per poter essere raggiunti pubblicamente.
 
@@ -58,7 +58,7 @@ Nella finestra pop-up, apri una nuova porta e fai clic su **Apply**.
 
 **Enable:** abilita o disabilita la regola.
 
-## DMZ
+## DMZ {#dmz}
 
 DMZ consente di esporre un computer a Internet, quindi tutti i pacchetti in ingresso verranno reindirizzati a questo computer.
 

@@ -1,8 +1,8 @@
-# Dynamic DNS
+# Dynamic DNS {#dynamic-dns}
 
 Dynamic Domain Name Service (Dynamic DNS lub DDNS) to usługa służąca do mapowania nazwy domeny na dynamiczny adres IP urządzenia sieciowego. Dzięki Dynamic DNS możesz uzyskać zdalny dostęp do routera. Do korzystania z tej funkcji wymagany jest publiczny adres IP.
 
-## Włączanie DDNS
+## Włączanie DDNS {#enable-ddns}
 
 Po lewej stronie panelu administracyjnego WWW przejdź do **APPLICATIONS** -> **Dynamic DNS**.
 
@@ -26,9 +26,9 @@ Włącz wybrany protokół zdalnego dostępu i kliknij **Apply**.
 
 Synchronizacja rekordów między serwerami DNS może opóźnić się nawet o 10 minut. Z tego powodu dostęp przez nazwę domenową DDNS może nie działać od razu po włączeniu usługi lub po zmianie publicznego adresu IP.
 
-**Uwaga**: Jeśli jednocześnie włączysz DDNS i klient VPN, upewnij się, że opcja **Services From GL.iNet Use VPN** jest wyłączona. Tę funkcję znajdziesz w [VPN Client Options](vpn_dashboard_v4.8.md#tunnel-options) na stronie VPN Dashboard.
+**Uwaga**: Jeśli jednocześnie włączysz DDNS i klient VPN, upewnij się, że opcja **Services From GL.iNet Use VPN** jest wyłączona. Tę funkcję znajdziesz w [VPN Client Options](vpn_dashboard_v4.8.md#tunnel-options_1) na stronie VPN Dashboard.
 
-## Sprawdzanie, czy DDNS działa
+## Sprawdzanie, czy DDNS działa {#check-if-ddns-works}
 
 Działanie DDNS możesz sprawdzić za pomocą narzędzia DDNS Test albo ręcznie, używając poleceń.
 
@@ -62,7 +62,7 @@ Działanie DDNS możesz sprawdzić za pomocą narzędzia DDNS Test albo ręcznie
 
     3. Zaloguj się do panelu administracyjnego routera i przejdź do **INTERNET**. Znajdź adres WAN IP aktualnie aktywnego interfejsu i porównaj go z publicznym adresem IP uzyskanym powyżej. Jeśli są takie same, DDNS działa; w przeciwnym razie nie działa.
 
-## Zdalny dostęp HTTPS
+## Zdalny dostęp HTTPS {#https-remote-access}
 
 !!! Note
 
@@ -106,7 +106,7 @@ Po wykonaniu tych kroków będzie można uzyskać dostęp do panelu administracy
 
 ![HTTPS-Remote-Access-on-Android-Chrome](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/https_remote_access_android_chrome_3.png){class="glboxshadow" width="400"}
 
-## Zdalny dostęp SSH
+## Zdalny dostęp SSH {#ssh-remote-access}
 
 !!! Note
 

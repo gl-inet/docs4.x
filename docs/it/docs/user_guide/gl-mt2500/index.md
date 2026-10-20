@@ -1,12 +1,12 @@
-# Guida utente di Brume 2 (GL-MT2500/GL-MT2500A)
+# Guida utente di Brume 2 (GL-MT2500/GL-MT2500A) {#brume-2-gl-mt2500gl-mt2500a-user-guide}
 
-## Panoramica del prodotto
+## Panoramica del prodotto {#product-overview}
 
 Brume 2 (GL-MT2500/GL-MT2500A) e un gateway VPN leggero e potente basato su sistema operativo OpenWrt v21.02. Ha un design compatto ed e ideale per ospitare un server VPN a casa oppure per eseguire SD-WAN, Site-to-Site, in piccole e medie imprese. È disponibile in due varianti: GL-MT2500 con chassis in plastica e GL-MT2500A con chassis in alluminio.
 
 ![gl-mt2500 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/hardware_info/mt2500_interface.jpg){class="glboxshadow"}
 
-## Contenuto della confezione
+## Contenuto della confezione {#package-contents}
 
 - 1 x Brume 2 (GL-MT2500/GL-MT2500A)
 - 1 x Manuale utente
@@ -20,25 +20,25 @@ La figura seguente mostra il modello GL-MT2500A come esempio.
 
 ![gl-mt2500 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/first_time_setup/mt2500a_unboxing.jpg){class="glboxshadow"}
 
-## Come configurare Brume 2
+## Come configurare Brume 2 {#how-to-set-up-brume-2}
 
 Per configurare Brume 2, puoi usare uno dei metodi di connessione Internet supportati: Ethernet, Tethering e Cellular. Repeater non e supportato perche Brume 2 non dispone di un modulo Wi-Fi. Guarda questo video di configurazione oppure segui i passaggi riportati di seguito.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rpi_loOwUQM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Accendi il router
+### 1. Accendi il router {#1-power-on}
 
 Assembla l'alimentatore in due parti. Collegalo al router e inseriscilo in una presa di corrente. Il router si avviera automaticamente.
 
-### 2. Collega un dispositivo
+### 2. Collega un dispositivo {#2-connect-device}
 
 Collega il dispositivo, ad esempio un computer o un laptop, alla porta LAN del router tramite un cavo Ethernet.
 
-### 3. Accedi al pannello di amministrazione web
+### 3. Accedi al pannello di amministrazione web {#3-log-in-to-web-admin-panel}
 
 Apri un browser web, inserisci `192.168.8.1` nella barra degli indirizzi ed effettua l'accesso. Scegli la lingua e imposta la password di amministrazione, quindi fai clic su **Apply**.
 
-### 4. Configurazione della connessione Internet
+### 4. Configurazione della connessione Internet {#4-internet-setup}
 
 === "Ethernet"
 
@@ -74,7 +74,7 @@ Apri un browser web, inserisci `192.168.8.1` nella barra degli indirizzi ed effe
 
 **Note:** se desideri usare la funzione [Multi-WAN](../../interface_guide/multi-wan.md), configura piu di un metodo di connessione Internet.
 
-## Come configurare una VPN
+## Come configurare una VPN {#how-to-set-up-a-vpn}
 
 Una VPN crea traffico sicuro e crittografato tra il dispositivo e il server VPN. Offre un ulteriore livello di privacy e sicurezza come client VPN e consente di accedere a una rete remota come server VPN. Brume 2, come gli altri router GL.iNet, supporta OpenVPN e WireGuard. Inoltre supporta anche Tor.
 
@@ -98,13 +98,13 @@ Una VPN crea traffico sicuro e crittografato tra il dispositivo e il server VPN.
 
     * [Come configurare Tor](../../interface_guide/tor.md).
 
-## Client
+## Client {#clients}
 
 La pagina Clients mostra informazioni sui dispositivi collegati. Per ogni client visualizza il nome del dispositivo, indirizzi IP e MAC, velocita di download e upload, traffico totale e offre la possibilita di riservare un IP, bloccare il client o eseguire altre azioni.
 
 Per configurarla, fai riferimento a [Clients](../../interface_guide/clients.md).
 
-## Servizi cloud
+## Servizi cloud {#cloud-services}
 
 === "GoodCloud"
 
@@ -118,7 +118,7 @@ Per configurarla, fai riferimento a [Clients](../../interface_guide/clients.md).
 
     Per configurarla, fai riferimento a [AstroWarp](../../interface_guide/astrowarp.md).
 
-## Applicazioni
+## Applicazioni {#applications}
 
 === "Plug-ins"
 
@@ -166,7 +166,7 @@ Per configurarla, fai riferimento a [Clients](../../interface_guide/clients.md).
 
     Per configurarlo, fai riferimento a [Tailscale](../../interface_guide/tailscale.md).
 
-## Impostazioni di rete
+## Impostazioni di rete {#network-settings}
 
 === "Port forwarding"
 
@@ -236,7 +236,7 @@ Per configurarla, fai riferimento a [Clients](../../interface_guide/clients.md).
 
     Per configurarla, fai riferimento a [NAT Settings](../../interface_guide/nat_settings.md).
 
-## Impostazioni di sistema
+## Impostazioni di sistema {#system-settings}
 
 === "Overview"
 

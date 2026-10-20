@@ -1,4 +1,4 @@
-# Datenstatistiken
+# Datenstatistiken {#data-statistics}
 
 **Hinweis**: Diese Funktion wurde mit Firmware v4.9 eingeführt.
 
@@ -55,7 +55,7 @@ Die Datenstatistiken bieten ein intuitives Dashboard für den Datenverkehr, das 
     - GL-S1300 (Convexa-S)
 
 
-## Für Firmware v4.11 und höher
+## Für Firmware v4.11 und höher {#for-firmware-v411-and-above}
 
 Aktivieren Sie den Schalter oben rechts, um **Application Total Data** anzuzeigen.
 
@@ -75,13 +75,13 @@ Die Seite besteht aus zwei Bereichen:
 
     ![app traffic stat](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/app_traffic_stat.png){class="glboxshadow"}
 
-### Regeln zur Datenspeicherung
+### Regeln zur Datenspeicherung {#data-storage-rules}
 
 1. Datenverkehrsstatistiken werden alle 15 Sekunden im RAM und jede Stunde im Flash-Speicher gespeichert. Zum Schutz der Lebensdauer des Flash-Speichers werden häufige Schreibvorgänge vermieden.
 2. Bei einem Soft-Reboot gehen keine Daten verloren. Das System schreibt die Daten vor dem Neustart aus dem RAM in den Flash-Speicher.
 3. Bei einem Hard-Reboot oder einem Firmware-Upgrade mit beibehaltenen Einstellungen können Daten der letzten Stunde verloren gehen.
 
-### Client-Auswahl
+### Client-Auswahl {#client-selector}
 
 Mit der Client-Auswahl können Sie einen bestimmten Client auswählen oder die Standardeinstellung All clients beibehalten. Diagramm und Statistiktabelle werden automatisch aktualisiert und zeigen nur die Daten des ausgewählten Geräts an.
 
@@ -89,7 +89,7 @@ Mit der Client-Auswahl können Sie einen bestimmten Client auswählen oder die S
 
 ![client selector](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/client_selector.png){class="glboxshadow"}
 
-### Diagrammansicht wechseln
+### Diagrammansicht wechseln {#switch-chart-views}
 
 Beim Anzeigen der App Traffic Statistics können Sie den Diagrammtyp nach Bedarf wechseln.
 
@@ -109,7 +109,7 @@ Beim Anzeigen der App Traffic Statistics können Sie den Diagrammtyp nach Bedarf
 
     ![pie chart](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/pie_chart.png){class="glboxshadow"}
 
-### Zeitbereich wechseln
+### Zeitbereich wechseln {#switch-time-range}
 
 Sie können zwischen Past hour, Past day und Past week wechseln.
 
@@ -125,7 +125,7 @@ Der ausgewählte Zeitraum bestimmt die Darstellung:
 
     ![past week](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/past-week.png){class="glboxshadow"}
 
-### Statistiken löschen
+### Statistiken löschen {#clear-statistics}
 
 Klicken Sie oben links auf das Besensymbol, um die Statistiken zu löschen.
 
@@ -135,7 +135,7 @@ Nach dem Löschen wird die Seite wie unten dargestellt aktualisiert. Es kann ein
 
 ![clear data 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/clear_data_2.png){class="glboxshadow"}
 
-## Für Firmware v4.9 bis v4.10
+## Für Firmware v4.9 bis v4.10 {#for-firmware-v49-to-v410}
 
 Schalten Sie den Schalter oben rechts ein, um **Application Total Data** anzuzeigen.
 
@@ -155,7 +155,7 @@ Diese Seite besteht aus zwei Bereichen:
 
     ![app traffic stat](https://static.gl-inet.com/docs/router/de/4/interface_guide/data_statistics/app_traffic_stat1.png){class="glboxshadow"}
 
-### Regeln zur Datenspeicherung
+### Regeln zur Datenspeicherung {#data-storage-rules_1}
 
 1. Verkehrsstatistiken werden alle 15 Sekunden im RAM gespeichert und jede Stunde im Flash abgelegt. Häufige Flash-Schreibvorgänge werden vermieden, um die Lebensdauer des Flash-Speichers zu schützen.
 
@@ -163,7 +163,7 @@ Diese Seite besteht aus zwei Bereichen:
 
 3. Ein Hard-Reboot (Netzstecker ziehen und wieder einstecken) oder ein Firmware-Upgrade (bei Beibehaltung der Einstellungen) kann zu Datenverlust von bis zu einer Stunde führen.
 
-### Zeitbereich wechseln
+### Zeitbereich wechseln {#switch-time-range_1}
 
 Sie können den Zeitbereich je nach Bedarf zwischen Past Hour, Past Day und Past Week umschalten.
 
@@ -179,7 +179,7 @@ Der gewählte Zeitbereich bestimmt, wie die Daten dargestellt werden:
 
     ![past week](https://static.gl-inet.com/docs/router/de/4/interface_guide/data_statistics/past_week.png){class="glboxshadow"}
 
-### Statistiken löschen
+### Statistiken löschen {#clear-statistics_1}
 
 Klicken Sie oben links auf das Besensymbol, um die Statistiken bei Bedarf zu löschen.
 

@@ -1,6 +1,6 @@
-# デバイスID、MACアドレス、シリアル番号はどこで確認できますか？
+# デバイスID、MACアドレス、シリアル番号はどこで確認できますか？ {#where-to-find-the-device-id-mac-address-and-serial-number}
 
-## 方法1
+## 方法1 {#method-1}
 
 ルーターの背面に記載されています。
 
@@ -12,7 +12,7 @@
 
 ![label of gl-ar150](https://static.gl-inet.com/docs/router/en/4/faq/where_to_find_the_device_id_mac_sn/back_label_old.png){class="glboxshadow"}
 
-## 方法2
+## 方法2 {#method-2}
 
 ウェブ管理パネルにログインし、**システム** -> **概要**に移動すると、デバイスの詳細情報が表示されます。
 

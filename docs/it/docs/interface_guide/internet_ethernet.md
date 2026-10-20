@@ -1,4 +1,4 @@
-# Connettersi a Internet tramite un cavo Ethernet
+# Connettersi a Internet tramite un cavo Ethernet {#connect-to-the-internet-via-an-ethernet-cable}
 
 Collega il router a una rete a banda larga tramite un cavo Ethernet inserito nella porta WAN. Di solito acquisisce automaticamente un indirizzo IP, DHCP. Gli utenti possono anche configurare manualmente IP statico o PPPoE. Questo metodo offre elevata stabilita' e velocita' elevata, rendendolo ideale per ambienti domestici e d'ufficio con accesso a banda larga fissa.
 
@@ -14,7 +14,7 @@ Segui i passaggi sotto per collegare il router a Internet tramite un cavo Ethern
 
 **Suggerimento**: se necessario, puoi cambiare il ruolo della porta WAN per usarla come porta LAN. È utile quando usi il router come [ripetitore](internet_repeater.md), dato che la porta WAN fisica è inutilizzata. Convertendo la porta WAN in LAN, avrai una porta LAN in più.
 
-## Protocollo
+## Protocollo {#protocol}
 
 Esistono 3 tipi di protocollo: DHCP, Static e PPPoE. Fai clic su **Modify** per cambiarlo.
 
@@ -38,7 +38,7 @@ Esistono 3 tipi di protocollo: DHCP, Static e PPPoE. Fai clic su **Modify** per 
 
     ![ethernet pppoe](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/ethernet_5.png){class="glboxshadow"}
 
-## Avanzate
+## Avanzate {#advanced}
 
 Oltre alle impostazioni essenziali, per i tre protocolli sopra sono disponibili anche alcune impostazioni avanzate opzionali.
 
@@ -52,7 +52,7 @@ Oltre alle impostazioni essenziali, per i tre protocolli sopra sono disponibili 
 
 * **MTU**: il valore MTU predefinito e' 1500 byte.
 
-## Porta Ethernet
+## Porta Ethernet {#ethernet-port}
 
 Fai clic sull'icona a forma di ingranaggio nell'angolo superiore destro per accedere alla pagina [Ethernet Port](ethernet_port.md) e gestire le porte Ethernet del router.
 
@@ -68,7 +68,7 @@ La pagina **LAN** mostra la funzione della porta e la velocita' negoziata della 
 
 Per i dettagli, consulta [Ethernet Port](ethernet_port.md).
 
-## Risoluzione dei problemi
+## Risoluzione dei problemi {#troubleshooting}
 
 Se un cavo Ethernet e' inserito nella porta WAN ma Internet non e' disponibile, verra' visualizzato un messaggio giallo come mostrato di seguito.
 

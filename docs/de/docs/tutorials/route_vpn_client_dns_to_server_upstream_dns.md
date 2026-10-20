@@ -1,8 +1,8 @@
-# Wie leitet man DNS-Anfragen eines VPN-Clients an den Upstream-DNS des VPN-Servers weiter?
+# Wie leitet man DNS-Anfragen eines VPN-Clients an den Upstream-DNS des VPN-Servers weiter? {#how-to-route-vpn-client-dns-queries-to-the-vpn-servers-upstream-dns}
 
 Dieses Tutorial beschreibt die Schritte, um alle DNS-Anfragen von VPN-Clients an Ihren selbst gehosteten DNS-Server im LAN Ihres primären Routers weiterzuleiten, der sich vorgelagert zum VPN-Server befindet.
 
-## Topologie
+## Topologie {#topology}
 
 In diesem Tutorial verwenden wir **Flint 3 (GL-BE9300)** und **Slate 7 (GL-BE3600)** als Beispiele.
 
@@ -16,7 +16,7 @@ Wenn Sie jedoch auf dem primären Router einen selbst gehosteten DNS-Server (IP-
 
 ![topology 2](https://static.gl-inet.com/docs/router/de/4/tutorials/route_vpn_dns_to_server_upstream_dns/topology-2.jpg){class="glboxshadow"}
 
-## Einrichtung
+## Einrichtung {#setup}
 
 1. Melden Sie sich am webbasierten Admin Panel von Flint 3 an und navigieren Sie zu **NETWORK** -> **DNS**. Stellen Sie den DNS Server Mode auf **Manual DNS** und geben Sie die IP-Adresse Ihres DNS-Servers ein.
 
@@ -50,7 +50,7 @@ Wenn Sie jedoch auf dem primären Router einen selbst gehosteten DNS-Server (IP-
 
     ![start client](https://static.gl-inet.com/docs/router/de/4/tutorials/route_vpn_dns_to_server_upstream_dns/start_client.png){class="glboxshadow"}
 
-## DNS-Auflösung überprüfen
+## DNS-Auflösung überprüfen {#verify-dns-resolution}
 
 Führen Sie den folgenden Befehl aus, um den DNS-Datenverkehr auf dem VPN-Client mitzuschneiden. Dadurch wird angezeigt, dass der gesamte DNS-Datenverkehr des VPN-Clients an den VPN-Server geht (in diesem Beispiel `10.0.0.1`).
 

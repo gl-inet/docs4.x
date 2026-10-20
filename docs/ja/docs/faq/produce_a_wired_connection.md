@@ -1,4 +1,4 @@
-# Ethernet専用のデバイスをWi-FiにGL.iNetルーターで接続する方法
+# Ethernet専用のデバイスをWi-FiにGL.iNetルーターで接続する方法 {#how-to-connect-an-ethernet-only-device-to-wi-fi-with-a-glinet-router}
 
 デバイスがEthernet接続のみをサポートしているが無線ネットワークに接続する必要がある場合、GL.iNetルーターがこのギャップを埋めることができます。
 

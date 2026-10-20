@@ -1,4 +1,4 @@
-# Conectarse a Internet mediante red celular (v4.8-v4.9)
+# Conectarse a Internet mediante red celular (v4.8-v4.9) {#connect-to-the-internet-via-cellular-v48-v49}
 
 El contenido de esta página se basa en las versiones de firmware v4.8 a v4.9. Si su dispositivo ejecuta otra versión de firmware, use el selector siguiente para cambiar a la guía correspondiente.
 
@@ -15,19 +15,19 @@ La mayoría de los routers GL.iNet admiten conectividad celular. Esta guía cubr
 
 1. **Modelos 4G de una sola SIM integrados**
 
-   Algunos modelos incluyen un módulo 4G integrado con una sola ranura para tarjeta SIM, como el GL-E750 (Mudi). Consulte [Configuración para modelos de una sola SIM](#configuracion-para-modelos-de-una-sola-sim).
+   Algunos modelos incluyen un módulo 4G integrado con una sola ranura para tarjeta SIM, como el GL-E750 (Mudi). Consulte [Configuración para modelos de una sola SIM](#setup-for-single-sim-models).
 
 2. **Modelos 5G de doble SIM integrados**
 
-   Algunos modelos incluyen un módulo 5G integrado con dos ranuras para tarjeta SIM, como el GL-X3000 (Spitz AX). La configuración celular en el panel web de administración puede variar ligeramente. Consulte [Configuración para modelos de doble SIM](#configuracion-para-modelos-de-doble-sim).
+   Algunos modelos incluyen un módulo 5G integrado con dos ranuras para tarjeta SIM, como el GL-X3000 (Spitz AX). La configuración celular en el panel web de administración puede variar ligeramente. Consulte [Configuración para modelos de doble SIM](#setup-for-dual-sim-models).
 
 3. **Modelos compatibles con módem USB**
 
-   Algunos modelos no tienen una ranura para tarjeta SIM integrada, pero disponen de un puerto USB y admiten conectividad celular mediante un módem USB, como el GL-MT3000 (Beryl AX). Consulte [Configuración para módem USB](#configuracion-para-modem-usb).
+   Algunos modelos no tienen una ranura para tarjeta SIM integrada, pero disponen de un puerto USB y admiten conectividad celular mediante un módem USB, como el GL-MT3000 (Beryl AX). Consulte [Configuración para módem USB](#setup-for-usb-modem).
 
 **Nota:** Algunas tarjetas SIM requieren activación antes del primer uso. Para garantizar la compatibilidad, active la tarjeta SIM en un smartphone antes de insertarla en el router.
 
-## Configuración para modelos de una sola SIM {#configuracion-para-modelos-de-una-sola-sim}
+## Configuración para modelos de una sola SIM {#setup-for-single-sim-models}
 
 Los siguientes pasos se aplican a modelos con un módem celular integrado y una sola ranura para tarjeta SIM.
 
@@ -35,7 +35,7 @@ Aquí usamos el **GL-E750 (Mudi)** como ejemplo.
 
 Recomendamos apagar primero el router, insertar una SIM previamente activada en la ranura y, a continuación, encenderlo. Si inserta la tarjeta SIM después de que el router haya arrancado, es posible que el panel web de administración no se actualice automáticamente. En ese caso, actualice la página o reinicie el router.
 
-### Configuración automática
+### Configuración automática {#auto-setup}
 
 Inicie sesión en el panel web de administración del router y vaya a **INTERNET** -> **Cellular**.
 
@@ -89,7 +89,7 @@ Aplicar los cambios provocará una nueva conexión.
 
 - **Band Masking**: Puede habilitar **Band Masking** si desea que el router bloquee determinadas bandas o use solo bandas celulares específicas. Haga clic [aquí](#band-masking) para ver los detalles.
 
-## Configuración para modelos de doble SIM {#configuracion-para-modelos-de-doble-sim}
+## Configuración para modelos de doble SIM {#setup-for-dual-sim-models}
 
 Los siguientes pasos se aplican a modelos con un módem celular integrado que admite dos tarjetas SIM. Las páginas pueden diferir ligeramente de las de los modelos de una sola SIM.
 
@@ -97,7 +97,7 @@ Aquí usamos el **GL-X3000 (Spitz AX)** como ejemplo. Admite Dual SIM, Single St
 
 Recomendamos apagar primero el router, insertar la tarjeta o tarjetas SIM previamente activadas en las ranuras y, a continuación, encenderlo. Si inserta la tarjeta SIM después de que el router haya arrancado, es posible que el panel web de administración no se actualice automáticamente. En ese caso, actualice la página o reinicie el router.
 
-### Configuración automática
+### Configuración automática {#auto-setup_1}
 
 Inicie sesión en el panel web de administración del router y vaya a **INTERNET** -> **Cellular**.
 
@@ -155,7 +155,7 @@ Aplicar los cambios provocará una nueva conexión.
 
 - **Band Masking**: Puede habilitar **Band Masking** si desea que el router bloquee determinadas bandas o use solo bandas celulares específicas. Haga clic [aquí](#band-masking) para ver los detalles.
 
-### Configuración de la ranura para tarjeta SIM
+### Configuración de la ranura para tarjeta SIM {#sim-card-slot-settings}
 
 En el panel web de administración del router, vaya a **INTERNET** -> **Cellular** y haga clic en **SIM Card Switch**.
 
@@ -191,7 +191,7 @@ Si se insertan dos tarjetas SIM, puede activar **Auto Switch**.
 
 **Nota**: La función **Auto Switch** no cambia a otra tarjeta SIM de inmediato. Primero, el dispositivo necesita tiempo para confirmar que la SIM actual no puede acceder a Internet. Segundo, la otra SIM no está en modo de espera y requiere tiempo para activarse.
 
-## Configuración para módem USB {#configuracion-para-modem-usb}
+## Configuración para módem USB {#setup-for-usb-modem}
 
 Los siguientes pasos se aplican a modelos sin ranura para tarjeta SIM integrada, pero con un puerto USB para conectar un módem USB externo.
 
@@ -199,7 +199,7 @@ Aquí usamos el **GL-MT3000 (Beryl AX)** con el módem USB externo **SIMPoYo uFi
 
 Recomendamos apagar primero el router, insertar una SIM previamente activada en el módem USB, conectar el módem al puerto USB del router y, a continuación, encender el router. Si conecta el módem USB después de que el router haya arrancado, es posible que el panel web de administración no se actualice automáticamente. En ese caso, actualice la página o reinicie el router.
 
-### Configuración rápida
+### Configuración rápida {#quick-setup}
 
 1. Apague primero el router. Inserte una tarjeta SIM en el módem USB, conecte el módem al puerto USB del router y, a continuación, encienda el router.
 
@@ -221,7 +221,7 @@ Recomendamos apagar primero el router, insertar una SIM previamente activada en 
 
    **Nota:** Después de la configuración inicial, si reinicia el router con el módem USB conectado, o vuelve a conectarlo, se reconocerá automáticamente y la conexión de red se establecerá sin necesidad de volver a pulsar el botón de conexión.
 
-### Módems compatibles
+### Módems compatibles {#compatible-modems}
 
 Aquí se muestra una lista de módems compatibles que hemos probado anteriormente.
 
@@ -253,7 +253,7 @@ Aquí se muestra una lista de módems compatibles que hemos probado anteriorment
 
 - **Host-less**: Este módem admite el modo Tethering. Gestione la conexión mediante la interfaz **Tethering** del router en lugar de la interfaz **Cellular**.
 
-## Estadísticas de tráfico
+## Estadísticas de tráfico {#traffic-statistics}
 
 En el panel web de administración del router, vaya a **INTERNET** -> **Cellular** y haga clic en **Data Used**.
 
@@ -287,7 +287,7 @@ Si **Data Used** supera **Data Cap Amount**, modifique manualmente **Data Cap Am
 
 Para los modelos de doble SIM, sugerimos habilitar al mismo tiempo **SIM Card Slot Auto Switch**. Si se establece **SIM 1 Data Cap Amount** y está habilitado **SIM Card Slot Auto Switch**, la SIM 1 cambiará automáticamente a la SIM 2 cuando sus datos superen **Data Cap Amount**, y la SIM 1 se deshabilitará.
 
-## Registro histórico de la señal
+## Registro histórico de la señal {#historical-signal-record}
 
 En el panel web de administración del router, vaya a **INTERNET** -> **Cellular** y haga clic en **Historical Signal Record**.
 
@@ -313,15 +313,15 @@ En el panel web de administración del router, vaya a **INTERNET** -> **Cellular
 
 Seleccione **Masking Mode** (Block u Open) y, a continuación, seleccione las bandas LTE, las bandas 5G NSA y las bandas 5G SA.
 
-## SMS
+## SMS {#sms}
 
 Consulte [SMS](../tutorials/sms.md).
 
-## Reenvío de SMS
+## Reenvío de SMS {#sms-forwarding}
 
 Consulte [SMS Forwarding](../tutorials/sms_forwarding.md).
 
-## Bloqueo de torre
+## Bloqueo de torre {#lock-tower}
 
 !!! note "Modelos compatibles"
 
@@ -360,7 +360,7 @@ Haga clic en una torre para ver los detalles y bloquearla.
 
 3. Después de bloquear una torre celular, si mueve el router a otra ubicación, seguirá intentando reconectarse a la torre bloqueada tras reiniciarse. Esto puede impedir que el router se conecte automáticamente a la red celular en la nueva ubicación. En ese caso, debe desbloquear la torre celular actual o bloquearla manualmente en una nueva torre.
 
-## Bloqueo de operador
+## Bloqueo de operador {#lock-operator}
 
 !!! note "Modelos compatibles"
 
@@ -385,7 +385,7 @@ Hay tres modos de bloqueo:
 
 ![lock operator 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/lock_operator_1.png){class="glboxshadow"}
 
-## Comandos AT del módem
+## Comandos AT del módem {#modem-at-command}
 
 Los comandos AT del módem son instrucciones estándar utilizadas para comunicarse con el módem celular. Con esta función, puede enviar comandos y comprobar el estado del módem.
 
@@ -421,7 +421,7 @@ En la esquina inferior derecha, puede hacer clic en **Export Debug Info** para d
 
 ![AT command 4](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/at_command_4.png){class="glboxshadow"}
 
-## Solución de problemas
+## Solución de problemas {#troubleshooting}
 
 Si no consigue establecer una conexión celular, haga clic en el mensaje de error correspondiente a continuación para ver las soluciones relevantes.
 
@@ -491,7 +491,7 @@ Si no consigue establecer una conexión celular, haga clic en el mensaje de erro
 
 ## Certificación IoT {#iot-certification}
 
-### Certificación de AT&T
+### Certificación de AT&T {#att-certification}
 
 Haga clic en el enlace [att device certification](https://iotdevices.att.com/certified-devices.aspx#) e introduzca el nombre del dispositivo para encontrarlo.
 
@@ -499,7 +499,7 @@ Haga clic en el enlace [att device certification](https://iotdevices.att.com/cer
 
 ![bandmasking](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/certification/at&t_certification_2.png){class="glboxshadow"}
 
-### Certificación de T-Mobile
+### Certificación de T-Mobile {#t-mobile-certification}
 
 Haga clic en el enlace [t-mobile device certification](https://www.t-mobile.com/business/solutions/iot/device-certification){target="_blank"} y elija 5G en **Filter** para encontrarlo.
 

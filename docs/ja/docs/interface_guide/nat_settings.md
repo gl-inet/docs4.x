@@ -1,4 +1,4 @@
-# NAT設定
+# NAT設定 {#nat-settings}
 
 この機能は v4.5 以降で利用できます。
 
@@ -8,7 +8,7 @@ Web Admin Panel の左側で、**NETWORK** -> **NAT Settings**、または **SEC
 
 ![nat settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/nat_settings/nat_settings.png){class="glboxshadow"}
 
-## 対応モデル
+## 対応モデル {#supported-models}
 
 ??? "対応モデル"
     - GL-MT6000 (Fortify)
@@ -47,7 +47,7 @@ Web Admin Panel の左側で、**NETWORK** -> **NAT Settings**、または **SEC
     - GL-XE300 (Puli)
     - GL-B1300 (Convexa-B)
 
-## Full Cone NAT
+## Full Cone NAT {#full-cone-nat}
 
 Full Cone NAT は、ゲーム機やスマートフォンなどのデバイスがオンライン上の相手に接続する際（例: マルチプレイヤーゲームやビデオ通話）に、「直接の近道」のような役割を果たします。
 
@@ -55,7 +55,7 @@ Full Cone NAT は、ゲーム機やスマートフォンなどのデバイスが
 
 **注意**: この機能を有効にすると、ほかの NAT タイプと比べてセキュリティが低下する可能性があります。デバイスのポートがパブリックネットワークに公開されるためです。
 
-## SIP ALG
+## SIP ALG {#sip-alg}
 
 SIP ALG（Application Layer Gateway）は、業務用デスクフォンやアプリベースの通話など、VoIP/SIP ベースの通信サービスにおけるルーターの「変換器」のような役割を果たします。
 

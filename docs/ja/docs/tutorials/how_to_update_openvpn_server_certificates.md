@@ -1,4 +1,4 @@
-# OpenVPNサーバー証明書を更新する方法
+# OpenVPNサーバー証明書を更新する方法 {#how-to-update-openvpn-server-certificates}
 
 このチュートリアルでは、GL.iNetルーターでOpenVPNサーバー証明書を更新する方法を説明します。
 

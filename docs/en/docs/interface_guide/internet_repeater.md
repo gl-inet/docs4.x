@@ -1,4 +1,4 @@
-# Connect to the Internet via an existing Wi-Fi by Repeater
+# Connect to the Internet via an existing Wi-Fi by Repeater {#connect-to-the-internet-via-an-existing-wi-fi-by-repeater}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7mZtz8u8--E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -6,7 +6,7 @@ Using Repeater means connecting the router to another existing wireless network,
 
 It works in WISP (Wireless Internet Service Provider) mode by default, which means that the router will create its own subnet and act as a firewall to protect you from the public network.
 
-## Basic Steps
+## Basic Steps {#basic-steps}
 
 Log in to the router's web admin panel, navigate to **INTERNET** -> **Repeater** section, and click **Connect**.
 
@@ -38,7 +38,7 @@ After a while, if the password is correct, the connection will be successful.
 
 ![repeater connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/repeater_connected.png){class="glboxshadow"}
 
-## For Public Hotspot
+## For Public Hotspot {#for-public-hotspot}
 
 When connecting the router to a public hotspot with a captive portal, enabling the following features can help improve the connection success rate.
 
@@ -74,7 +74,7 @@ When connecting the router to a public hotspot with a captive portal, enabling t
 
 - **Auto Update MAC**: If this option is enabled, the MAC can update automatically.
 
-## Advanced Settings
+## Advanced Settings {#advanced-settings}
 
 When joining the network, there are some additional options.
 
@@ -96,7 +96,7 @@ When joining the network, there are some additional options.
 
 * **MTU**: The default value is 1500.
 
-## Repeater Options
+## Repeater Options {#repeater-options}
 
 Click the gear icon in the upper-right corner to configure Repeater options.
 
@@ -110,7 +110,7 @@ The page may vary due to different firmware versions.
 
 * **Band Selection**: If you manually select a band, the router will only scan and connect to the Wi-Fi networks in this frequency band.
 
-## Manage Known Network
+## Manage Known Network {#manage-known-network}
 
 To manage known networks, click **Switch Network**.
 
@@ -124,7 +124,7 @@ On the **Known Networks** section, click the trash icon to delete a known networ
 
 ![manage known network](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/manage_known_networks.png){class="glboxshadow"}
 
-## Join Other Network
+## Join Other Network {#join-other-network}
 
 If the SSID is not in the Available Networks list, or if the SSID is hidden, you can click **Join Other Network**.
 
@@ -144,7 +144,7 @@ For **Security** settings, there are two or three options, depending on the mode
 
     For detailed guidance on repeating EAP networks, please click [here](../tutorials/eap.md){target="_blank"}.
 
-## Reconnection
+## Reconnection {#reconnection}
 
 In the following cases, the router will automatically attempts to reconnect to Wi-Fi every once in a while. You can manually disable this if needed. For SSID/password errors, remove the network from Known Networks to resolve.
 
@@ -164,7 +164,7 @@ The reconnection process has three distinct phases: waiting phase, scanning phas
 
 **Note**: Problems typically arise in the Scanning and Connecting Phases.
 
-## Troubleshooting
+## Troubleshooting {#troubleshooting}
 
 When the router is connected to a Wi-Fi network as a repeater, if the Internet is unavailable, a yellow message will be displayed as shown below.
 
@@ -178,7 +178,7 @@ To fix this issue:
 
 2. Go to [Multi-WAN](multi-wan.md) page to check the repeater interface status.
 
-## DFS
+## DFS {#dfs}
 
 **DFS** (Dynamic Frequency Selection) is a mechanism that automatically switches Wi‑Fi channels to avoid interference with radar signals. When connecting to an upstream 5G Wi-Fi, the router's Wi-Fi will follow the upstream Wi-Fi to use or not use the DFS channel.
 

@@ -2,7 +2,7 @@
 title: Comprendere copertura Wi-Fi, access point e potenza di trasmissione
 ---
 
-# Comprendere copertura Wi-Fi, access point e potenza di trasmissione
+# Comprendere copertura Wi-Fi, access point e potenza di trasmissione {#understanding-wi-fi-coverage-access-points-and-transmit-power}
 
 Molti utenti presumono che aumentare la potenza di trasmissione di un router migliori sempre copertura e prestazioni Wi-Fi.
 
@@ -10,9 +10,9 @@ Sebbene una potenza di trasmissione piu' elevata aumenti generalmente la copertu
 
 Comprendere celle di copertura, roaming, pianificazione dei canali e potenza di trasmissione puo' aiutare a migliorare le prestazioni wireless.
 
-## Router singolo rispetto a piu' access point
+## Router singolo rispetto a piu' access point {#single-router-vs-multiple-access-points}
 
-### Router singolo
+### Router singolo {#single-router}
 
 Se hai un solo router che fornisce copertura Wi-Fi:
 
@@ -24,7 +24,7 @@ Per la maggior parte degli utenti con un solo router, e' consigliabile lasciare 
 
 Ridurre la potenza di trasmissione del router non riduce l'energia RF trasmessa dalle reti Wi-Fi vicine. I loro router e AP continuano a trasmettere alla stessa potenza.
 
-### Piu' access point
+### Piu' access point {#multiple-access-points}
 
 Quando vengono distribuiti piu' AP, l'obiettivo non e' necessariamente massimizzare l'area di copertura di ogni AP.
 
@@ -32,7 +32,7 @@ L'obiettivo e' invece creare piu' celle di copertura piu' piccole e ben definite
 
 Posizionamento adeguato degli AP, potenza di trasmissione e selezione dei canali sono tutti aspetti importanti.
 
-## Sovrapposizione delle celle di copertura
+## Sovrapposizione delle celle di copertura {#coverage-cell-overlap}
 
 Se ogni AP trasmette alla potenza massima, le rispettive aree di copertura possono sovrapporsi eccessivamente.
 
@@ -48,7 +48,7 @@ Un client connesso all'AP sbagliato puo' riscontrare:
 
 Ridurre la potenza di trasmissione degli AP puo' restringere le celle di copertura e incoraggiare i dispositivi client a effettuare il roaming prima.
 
-## Comprendere il roaming dei client
+## Comprendere il roaming dei client {#understanding-client-roaming}
 
 Nella maggior parte delle reti Wi-Fi, e' il dispositivo client a decidere quando effettuare il roaming.
 
@@ -58,7 +58,7 @@ Dispositivi client diversi utilizzano soglie e algoritmi di roaming diversi. Un 
 
 Ridurre una sovrapposizione eccessiva della copertura puo' aiutare i client a prendere decisioni di roaming migliori.
 
-## Riutilizzo spaziale
+## Riutilizzo spaziale {#spatial-reuse}
 
 Wi-Fi e' un mezzo condiviso.
 
@@ -70,11 +70,11 @@ Una riduzione appropriata della potenza di trasmissione puo' consentire ad AP ch
 
 Il riutilizzo spaziale non significa che ridurre la potenza di trasmissione dell'AP riduca le interferenze trasmesse dalle reti vicine. Celle di copertura dimensionate correttamente possono invece ridurre la contesa non necessaria e consentire il riutilizzo dello stesso canale in aree sufficientemente separate.
 
-## Pianificazione dei canali
+## Pianificazione dei canali {#channel-planning}
 
 Potenza di trasmissione e selezione dei canali devono essere considerate insieme.
 
-### 2,4 GHz
+### 2,4 GHz {#24-ghz}
 
 La banda a 2,4 GHz ha relativamente pochi canali non sovrapposti.
 
@@ -82,7 +82,7 @@ In molte regioni normative, i canali 1, 6 e 11 sono comunemente usati con larghe
 
 Quando possibile, AP vicini dovrebbero usare canali diversi non sovrapposti.
 
-### 5 GHz e 6 GHz
+### 5 GHz e 6 GHz {#5-ghz-and-6-ghz}
 
 Le bande a 5 GHz e 6 GHz offrono piu' canali disponibili, rendendo piu' semplice assegnare canali diversi ad AP vicini.
 
@@ -90,21 +90,21 @@ L'uso di canali non sovrapposti riduce la contesa co-canale, anche se una sovrap
 
 I canali disponibili dipendono dal modello del router, dal Paese o regione, dalla larghezza del canale e dalle normative locali.
 
-## AP cablati e reti mesh
+## AP cablati e reti mesh {#wired-aps-and-mesh-networks}
 
-### Access point cablati
+### Access point cablati {#wired-access-points}
 
 Una connessione Ethernet cablata tra il router principale e gli AP aggiuntivi e' generalmente la distribuzione preferita.
 
 Poiche' la connessione cablata trasporta il traffico di backhaul, la potenza di trasmissione Wi-Fi puo' essere regolata principalmente per copertura dei client, roaming e riutilizzo spaziale.
 
-### Mesh con backhaul cablato
+### Mesh con backhaul cablato {#mesh-with-wired-backhaul}
 
 I nodi mesh che usano backhaul cablato possono essere ottimizzati in modo simile agli AP cablati.
 
 La potenza di trasmissione puo' essere regolata per ridurre la sovrapposizione eccessiva delle celle mantenendo al contempo una copertura continua.
 
-### Mesh con backhaul wireless
+### Mesh con backhaul wireless {#mesh-with-wireless-backhaul}
 
 In una distribuzione mesh wireless, le radio Wi-Fi possono anche trasportare traffico tra nodi mesh.
 
@@ -112,7 +112,7 @@ Ridurre la potenza di trasmissione in modo troppo aggressivo puo' indebolire la 
 
 Quando usi backhaul wireless, assicurati che i nodi mesh mantengano tra loro una connessione forte e stabile.
 
-## Esempio di distribuzione multi-AP
+## Esempio di distribuzione multi-AP {#example-multi-ap-deployment}
 
 Considera due router GL.iNet collegati via Ethernet:
 
@@ -126,25 +126,25 @@ La potenza di trasmissione ideale dipende da materiali dell'edificio, posizionam
 
 Non esiste un singolo valore di potenza di trasmissione corretto per ogni distribuzione.
 
-## Idee errate comuni
+## Idee errate comuni {#common-misconceptions}
 
-### La potenza massima fornisce sempre il Wi-Fi migliore
+### La potenza massima fornisce sempre il Wi-Fi migliore {#maximum-transmit-power-always-provides-the-best-wi-fi}
 
 La potenza massima generalmente fornisce l'area di copertura piu' ampia, ma puo' creare sovrapposizione eccessiva e comportamento di roaming scadente nelle distribuzioni multi-AP.
 
-### Una potenza di trasmissione piu' bassa riduce le interferenze in ingresso
+### Una potenza di trasmissione piu' bassa riduce le interferenze in ingresso {#lower-transmit-power-reduces-incoming-interference}
 
 Ridurre la potenza di trasmissione del tuo AP riduce il segnale generato dal tuo AP. Non riduce la potenza trasmessa da router o AP vicini.
 
-### Una potenza di trasmissione piu' bassa rende il ricevitore dell'AP piu' sensibile
+### Una potenza di trasmissione piu' bassa rende il ricevitore dell'AP piu' sensibile {#lower-transmit-power-makes-the-ap-receiver-more-sensitive}
 
 Potenza di trasmissione e sensibilita' del ricevitore sono caratteristiche separate. Ridurre la potenza di trasmissione non migliora intrinsecamente la capacita' dell'AP di ricevere trasmissioni dai client.
 
-### I dispositivi client si collegano sempre all'AP piu' vicino
+### I dispositivi client si collegano sempre all'AP piu' vicino {#client-devices-always-connect-to-the-closest-ap}
 
 I dispositivi client normalmente selezionano gli AP ed effettuano il roaming tra essi usando i propri algoritmi interni. Possono rimanere connessi a un AP piu' distante anche quando e' disponibile un AP piu' vicino.
 
-## Punti di partenza consigliati
+## Punti di partenza consigliati {#recommended-starting-points}
 
 | Distribuzione | Raccomandazione |
 | --- | --- |

@@ -1,4 +1,4 @@
-# Découvrez nos nouveaux produits
+# Découvrez nos nouveaux produits {#meet-our-new-products}
 
 Découvrez nos futurs produits et un aperçu de nos dernières innovations.
 
@@ -26,61 +26,61 @@ Routeur de voyage tout-en-un 5G Wi-Fi 7 avec double SIM
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZIt4UZXAmgA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-MT3600BE (Beryl 7)
+## GL-MT3600BE (Beryl 7) {#gl-mt3600be-beryl-7}
 
 Routeur de voyage Wi-Fi 7 bi-bande compact
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2jqG2ckihCE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-MT5000 (Brume 3)
+## GL-MT5000 (Brume 3) {#gl-mt5000-brume-3}
 
 Passerelle de sécurité VPN haut débit
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bAxAgkzC1vU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-BE9300 (Flint 3)
+## GL-BE9300 (Flint 3) {#gl-be9300-flint-3}
 
 Routeur domestique Wi-Fi 7 tri-bande
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/X87yCZkvJ4E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-BE3600 (Slate 7)
+## GL-BE3600 (Slate 7) {#gl-be3600-slate-7}
 
 Routeur de voyage Wi-Fi 7 bi-bande
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5u0bzFlL-3c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-X2000 (Spitz Plus)
+## GL-X2000 (Spitz Plus) {#gl-x2000-spitz-plus}
 
 Routeur Wi-Fi 6 4G LTE
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_C6pMc9UMSQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-B3000 (Marble)
+## GL-B3000 (Marble) {#gl-b3000-marble}
 
 Routeur Wi-Fi 6 au design élégant pour la maison
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/eV2AuTpZx3c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-MT6000 (Flint 2)
+## GL-MT6000 (Flint 2) {#gl-mt6000-flint-2}
 
 Routeur domestique Wi-Fi 6 haute performance
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wOm1PS4Z-fY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-XE3000 (Puli AX)
+## GL-XE3000 (Puli AX) {#gl-xe3000-puli-ax}
 
 Routeur cellulaire 5G Wi-Fi 6 avec batterie
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XrMDpWNEscM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-X3000 (Spitz AX)
+## GL-X3000 (Spitz AX) {#gl-x3000-spitz-ax}
 
 Routeur Wi-Fi 6 double SIM avec connectivité 5G NR
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uBz8QOp_Do4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-MT3000 (Beryl AX)
+## GL-MT3000 (Beryl AX) {#gl-mt3000-beryl-ax}
 
 Routeur Wi-Fi 6 de poche pour la maison et les déplacements
 
@@ -90,73 +90,73 @@ Comparaison entre Beryl AX (GL-MT3000) et Beryl (GL-MT1300)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/roOFAFT4cjs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-MT2500/GL-MT2500A (Brume 2)
+## GL-MT2500/GL-MT2500A (Brume 2) {#gl-mt2500gl-mt2500a-brume-2}
 
 Passerelle de sécurité pour l’accès à distance
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9czDvi2irME" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-MV1000 (Brume)
+## GL-MV1000 (Brume) {#gl-mv1000-brume}
 
 Passerelle edge computing pour des infrastructures hautement sécurisées et fiables
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4mVs6V_sHnI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-MV1000W (Brume-W)
+## GL-MV1000W (Brume-W) {#gl-mv1000w-brume-w}
 
 Passerelle sans fil de poche pour un edge computing sécurisé
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pR7rfVzAZzs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-AP1300 (Cirrus)
+## GL-AP1300 (Cirrus) {#gl-ap1300-cirrus}
 
 Point d’accès sans fil de plafond pour les entreprises
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wYTVenxLgQA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-S1300 (Convexa-S)
+## GL-S1300 (Convexa-S) {#gl-s1300-convexa-s}
 
 Passerelle OpenWrt pour les appareils sans fil de la maison connectée
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wRA22wQxd48" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-AX1800 (Flint)
+## GL-AX1800 (Flint) {#gl-ax1800-flint}
 
 Routeur sans fil Wi-Fi 6 sécurisé et ultra-rapide pour la maison ou le bureau
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/aXEIS3keP24" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-E750 (Mudi)
+## GL-E750 (Mudi) {#gl-e750-mudi}
 
 Routeur 4G LTE axé sur la confidentialité pour les voyageurs fréquents
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Y52aAzkWvQ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-SFT1200 (Opal)
+## GL-SFT1200 (Opal) {#gl-sft1200-opal}
 
 Routeur sans fil Gigabit pour les voyageurs soucieux de la sécurité
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VkglWuItuXw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-XE300 (Puli)
+## GL-XE300 (Puli) {#gl-xe300-puli}
 
 Passerelle IoT sans fil portable 4G LTE
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4falAJFN9ww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-AR750S (Slate)
+## GL-AR750S (Slate) {#gl-ar750s-slate}
 
 Le Gigabit Internet pour les voyageurs soucieux de la sécurité
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ze1HRRyuiQw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-AXT1800 (Slate AX)
+## GL-AXT1800 (Slate AX) {#gl-axt1800-slate-ax}
 
 Routeur sans fil Gigabit Wi-Fi 6
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/U94OkJfbTws" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-B2200 (Velica)
+## GL-B2200 (Velica) {#gl-b2200-velica}
 
 Système mesh sans fil tri-bande intégré avec technologies ouvertes
 
@@ -164,7 +164,7 @@ Système mesh sans fil tri-bande intégré avec technologies ouvertes
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Zr0ToJ68Pdw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Cloud
+## Cloud {#cloud}
 
 Découvrez GoodCloud, votre solution de gestion d’appareils à distance
 

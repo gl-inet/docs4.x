@@ -1,10 +1,10 @@
-# Jak dodać Brume 2 do aplikacji mobilnej GL.iNet?
+# Jak dodać Brume 2 do aplikacji mobilnej GL.iNet? {#how-to-add-brume-2-into-glinet-mobile-app}
 
 Możesz dodać Brume 2 (GL-MT2500/GL-MT2500A) do aplikacji mobilnej GL.iNet, nawet jeśli urządzenie nie obsługuje Wi-Fi. Możesz skonfigurować je jako router główny albo router dodatkowy.
 
 Poniższe metody dotyczą również modelu Brume (GL-MV1000).
 
-## Brume 2 jako router dodatkowy
+## Brume 2 jako router dodatkowy {#brume-2-as-the-secondary-router}
 
 **Topologia**
 
@@ -48,7 +48,7 @@ W tym przykładzie Slate AX (GL-AXT1800) jest routerem głównym, a Brume 2 (GL-
 
     ![showup](https://static.gl-inet.com/docs/router/en/4/faq/add_brume2_into_app/showup.png){class="glboxshadow gl-50-desktop"}
 
-## Brume 2 jako router główny
+## Brume 2 jako router główny {#brume-2-as-the-main-router}
 
 **Topologia**
 

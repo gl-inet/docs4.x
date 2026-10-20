@@ -1,4 +1,4 @@
-# Przekierowanie portów
+# Przekierowanie portów {#port-forwarding}
 
 Ten przewodnik dotyczy firmware v4.6 i nowszych. W przypadku wcześniejszych wersji zapoznaj się z [Firewall](firewall.md).
 
@@ -8,7 +8,7 @@ Ta strona umożliwia konfigurację reguł zapory sieciowej, w tym **DMZ** i **Po
 
 Uwaga: Aby otworzyć porty routera, przejdź do SYSTEM -> [Security](security.md) lub SECURITY -> [Admin Access](admin_access.md) (dla firmware v4.9 i nowszych).
 
-## DMZ
+## DMZ {#dmz}
 
 DMZ umożliwia wystawienie jednego komputera bezpośrednio na Internet – wszystkie przychodzące pakiety zostaną przekierowane do tego komputera.
 
@@ -18,7 +18,7 @@ Możesz ustawić priorytet strefy DMZ. Jeśli priorytet DMZ jest wyższy niż re
 
 ![dmz](https://static.gl-inet.com/docs/router/en/4/interface_guide/port_forwarding/dmz.png){class="glboxshadow"}
 
-## Przekierowanie portów
+## Przekierowanie portów {#port-forwarding_1}
 
 Przekierowanie portów umożliwia zdalnym komputerom łączenie się z lokalnym komputerem lub serwerem znajdującym się za zaporą routera w sieci LAN (np. serwery WWW, serwery FTP itp.).
 

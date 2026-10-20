@@ -1,4 +1,4 @@
-# Wie aktualisiere ich auf Firmware 4.x?
+# Wie aktualisiere ich auf Firmware 4.x? {#how-to-upgrade-to-firmware-4x}
 
 **Dieses Dokument ist veraltet und wird nicht mehr gepflegt. Klicken Sie [hier](../interface_guide/upgrade.md), um die aktuelle Upgrade-Anleitung aufzurufen.**
 
@@ -12,7 +12,7 @@ GL-B1300 und GL-S1300 unterstützen die Mesh-Funktion in Firmware v4.x nicht.
 
 ---
 
-## Methode 1: Lokales Upgrade
+## Methode 1: Lokales Upgrade {#method-1-local-upgrade}
 
 Sie können die Firmware über das Web-Admin-Panel aktualisieren.
 
@@ -26,7 +26,7 @@ Sie können die Firmware über das Web-Admin-Panel aktualisieren.
 
     ![local upgrade](https://static.gl-inet.com/docs/router/de/4/faq/upgrade_to_4/ax1800_upgrade_4.png){class="glboxshadow gl-90-desktop"}
 
-## Methode 2: U-Boot-Upgrade
+## Methode 2: U-Boot-Upgrade {#method-2-u-boot-upgrade}
 
 1. Laden Sie die 4.x-Firmware [hier](https://dl.gl-inet.com){target="_blank"} herunter. Achten Sie darauf, **die Version für U-Boot herunterzuladen**.
 

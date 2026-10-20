@@ -1,4 +1,4 @@
-# Mesh
+# Mesh {#mesh}
 
 **Uwaga**: ta funkcja została wprowadzona w oprogramowaniu sprzętowym v4.10.
 
@@ -36,9 +36,9 @@ Tabela porównuje samodzielne tryby Extender i Access Point firmy GL.iNet z jej 
 
 Mesh synchronizuje obsługiwane ustawienia Wi-Fi sieci głównej, gościnnej, IoT i MLO. Zapewnia również centralne zarządzanie węzłami, w tym ponowne uruchamianie, usuwanie i aktualizowanie obsługiwanych węzłów GL.iNet. Węzły można dodawać przez skanowanie Wi-Fi, połączenie Ethernet lub przycisk Mesh/WPS, jeśli jest obsługiwany. Zarządzanie backhaulem obejmuje priorytet dla Ethernet, przełączanie między połączeniami przewodowymi i bezprzewodowymi oraz zapobieganie pętlom.
 
-### Różnice w wydajności
+### Różnice w wydajności {#understanding-performance-differences}
 
-#### Tryb Extender
+#### Tryb Extender {#extender-mode}
 
 Urządzenie łączy się z istniejącą siecią Wi-Fi. Moduł radiowy używany do połączenia z routerem nadrzędnym pracuje na kanale routera głównego. Klienci korzystający z tego samego modułu radiowego również używają tego kanału, więc ruch do routera nadrzędnego i ruch klientów współdzielą czas transmisji.
 
@@ -46,7 +46,7 @@ W obsługiwanych modelach wielopasmowych osobne moduły radiowe mogą nadal obs�
 
 Ten sam wymóg dotyczący kanału połączenia nadrzędnego dotyczy funkcji połączenia Repeater firmy GL.iNet, choć działanie Repeater i samodzielny tryb sieciowy Extender różnią się pod innymi względami.
 
-#### Bezprzewodowy Mesh
+#### Bezprzewodowy Mesh {#wireless-mesh}
 
 W testowanej trzypasmowej konfiguracji Mesh węzeł używa **pasma 5 GHz do bezprzewodowego backhaulu**. Kanał 5 GHz węzła jest zgodny z kanałem routera głównego i nie można go zmienić niezależnie, natomiast **ustawienia osobnych kanałów 2.4 GHz i 6 GHz pozostają konfigurowalne niezależnie**. Dotyczy to ustawień kanałów, a nie tego, z którymi pasmami mogą łączyć się urządzenia klienckie. Zmiana kanału dla klientów nie zmienia pasma backhaulu.
 
@@ -57,7 +57,7 @@ Wpływ na wydajność zależy więc od sposobu połączenia klienta:
 
 Opis dotyczy testowanej konfiguracji, a nie wszystkich obsługiwanych modeli Mesh. Przekazywanie ruchu przez osobne moduły radiowe nie jest wyłączną cechą Mesh, a przejście z Extender na Mesh nie zapewnia automatycznej poprawy przepustowości.
 
-#### Tryb Access Point i przewodowy Mesh
+#### Tryb Access Point i przewodowy Mesh {#access-point-mode-and-wired-mesh}
 
 Oba rozwiązania używają Ethernet do połączenia z routerem głównym. Backhaul Ethernet działa w pełnym dupleksie i pozwala uniknąć przesyłania ruchu backhaulu przez Wi-Fi. Połączenia Wi-Fi klientów pozostają półdupleksowe. Przy porównywalnym sprzęcie i warunkach tryb Access Point oraz przewodowy Mesh mogą zapewniać podobną przepustowość; Mesh dodaje skoordynowaną konfigurację i zarządzanie.
 
@@ -111,7 +111,7 @@ Mesh nadaje priorytet backhaulowi Ethernet i obsługuje przełączenie na połą
     - GL-AP1300 (Cirrus)
     - GL-S1300 (Convexa-S)
 
-## Szybka konfiguracja
+## Szybka konfiguracja {#quick-setup}
 
 Poniższy przykład wykorzystuje Flint 3 (GL‑BE9300) i Slate 7 (GL‑BE3600) do utworzenia sieci Mesh.
 
@@ -165,11 +165,11 @@ Poniższy przykład wykorzystuje Flint 3 (GL‑BE9300) i Slate 7 (GL‑BE3600) d
 
     ![main topology](https://static.gl-inet.com/docs/router/en/4/interface_guide/mesh/main_topology_wifi.png){class="glboxshadow"}
 
-## Zarządzanie węzłami
+## Zarządzanie węzłami {#manage-nodes}
 
 Po zakończeniu konfiguracji węzeł Mesh nie będzie dostępny pod pierwotnym adresem IP. Routerem głównym i wszystkimi węzłami można zarządzać z panelu routera głównego.
 
-### Wyświetlanie szczegółów węzła
+### Wyświetlanie szczegółów węzła {#view-node-details}
 
 W panelu routera głównego przejdź do **MESH** i kliknij **Main Router** w topologii.
 
@@ -187,7 +187,7 @@ Można sprawdzić model, adresy IP i MAC, wersję oprogramowania, czas działani
 
 ![mesh node info](https://static.gl-inet.com/docs/router/en/4/interface_guide/mesh/mesh_node_info2.png){class="glboxshadow"}
 
-### Edytowanie węzła Mesh
+### Edytowanie węzła Mesh {#edit-mesh-node}
 
 W panelu routera głównego przejdź do **MESH** i kliknij **Mesh Node** w topologii.
 
@@ -199,7 +199,7 @@ Domyślna nazwa każdego węzła to „Node” i cztery ostatnie cyfry adresu MA
 
 ![edit node 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/mesh/edit_node2.png){class="glboxshadow"}
 
-### Dostęp do węzła Mesh
+### Dostęp do węzła Mesh {#access-mesh-node}
 
 W panelu routera głównego przejdź do **MESH** i kliknij **Mesh Node** w topologii.
 
@@ -213,7 +213,7 @@ Nastąpi przekierowanie do strony logowania węzła pod adresem IP przydzielonym
 
 ![mesh admin login](https://static.gl-inet.com/docs/router/en/4/interface_guide/mesh/access_mesh_node2.png){class="glboxshadow"}
 
-### Dodawanie kolejnych węzłów
+### Dodawanie kolejnych węzłów {#add-more-nodes}
 
 W razie potrzeby kliknij **Add** w prawym górnym rogu topologii.
 

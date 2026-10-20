@@ -1,4 +1,4 @@
-# Langues de l'interface
+# Langues de l'interface {#ui-languages}
 
 Cette fonctionnalité est disponible depuis le firmware v4.6.
 

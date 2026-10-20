@@ -1,12 +1,12 @@
-# Slate AX (GL-AXT1800) ユーザーガイド
+# Slate AX (GL-AXT1800) ユーザーガイド {#slate-ax-gl-axt1800-user-guide}
 
-## 製品概要
+## 製品概要 {#product-overview}
 
 Slate AX（GL-AXT1800）は、GL.iNet初のWi-Fi 6対応トラベルルーターです。IPQ6000 1.2GHzクアッドコアプロセッサを搭載し、OpenWrt 23.05で動作します。最新のWi-Fi 6技術により、外出先でも自宅でも、より多くのデバイスを接続しながら高速なワイヤレス通信を利用できます。
 
 ![gl-axt1800 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-axt1800/hardware_info/gl-axt1800_interface.jpg){class="glboxshadow"}
 
-## パッケージ内容
+## パッケージ内容 {#package-contents}
 
 - 1 x Slate AX (GL-AXT1800)
 - 1 x ユーザーマニュアル
@@ -18,17 +18,17 @@ Slate AX（GL-AXT1800）は、GL.iNet初のWi-Fi 6対応トラベルルーター
 
 ![gl-axt1800 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-axt1800/first_time_setup/axt1800_unboxing.jpg){class="glboxshadow"}
 
-## Slate AX のセットアップ方法
+## Slate AX のセットアップ方法 {#how-to-set-up-slate-ax}
 
 以下のセットアップ動画を見るか、下の手順に従ってください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/f7DYULL6ZSI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. 電源を入れる
+### 1. 電源を入れる {#1-power-on}
 
 2 ピース式の電源アダプターを組み立てます。ルーターに接続し、コンセントに差し込むと自動的に起動します。
 
-### 2. デバイスを接続する
+### 2. デバイスを接続する {#2-connect-device}
 
 コンピューター、ノートパソコン、スマートフォンなどのデバイスを Wi-Fi または Ethernet でルーターに接続します。
 
@@ -40,13 +40,13 @@ Slate AX（GL-AXT1800）は、GL.iNet初のWi-Fi 6対応トラベルルーター
 
     デバイスで Settings -> WLAN に移動し、利用可能なネットワーク一覧からルーターの Wi-Fi ネットワーク名を探してパスワードを入力します。デフォルトのネットワーク名とパスワードは、ルーター底面のラベルに印刷されています。
 
-### 3. Web Admin Panel にログインする
+### 3. Web Admin Panel にログインする {#3-log-in-to-web-admin-panel}
 
 Web ブラウザを開き、アドレスバーに `192.168.8.1` と入力してログインします。言語を選択し、管理者パスワードを設定して **Apply** をクリックします。
 
 Wi-Fi 情報を確認する際、Wi-Fi 情報を変更した場合は、更新後の認証情報を使用してデバイスをルーターの Wi-Fi に再接続する必要があります。
 
-### 4. インターネット設定
+### 4. インターネット設定 {#4-internet-setup}
 
 **Note:** 以下の手順は、GL.iNet Web Admin Panel でルーターを設定するユーザー向けです。GL.iNet アプリを使用する場合は、[アプリをダウンロード](https://www.gl-inet.com/app/){target="_blank"}し、画面の指示に従ってください。
 
@@ -96,7 +96,7 @@ Slate AX は、Ethernet、Repeater、Tethering、Cellular の対応するイン�
 
     詳細な手順については、[Cellular 経由でインターネットに接続する](../../interface_guide/internet_cellular.md)を参照してください。
 
-## VPN のセットアップ方法
+## VPN のセットアップ方法 {#how-to-set-up-a-vpn}
 
 VPN（仮想プライベートネットワーク）は、デバイスと VPN サーバー間に安全で暗号化された通信を作成します。プライバシーとセキュリティを強化し（VPN クライアント）、リモートネットワークへのアクセス（VPN サーバー）も可能にします。Slate AX（およびその他の GL.iNet ルーター）は OpenVPN と WireGuard に対応しています。さらに Tor にも対応しています。
 
@@ -122,7 +122,7 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
 ---
 
-## Wireless と Clients
+## Wireless と Clients {#wireless-and-clients}
 
 === "Wireless"
 
@@ -136,7 +136,7 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
     Clients の設定については、[Clients](../../interface_guide/clients.md)を参照してください。
 
-## クラウドサービス
+## クラウドサービス {#cloud-services}
 
 === "GoodCloud"
 
@@ -150,7 +150,7 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
     AstroWarp の設定については、[AstroWarp](../../interface_guide/astrowarp.md)を参照してください。
 
-## アプリケーション
+## アプリケーション {#applications}
 
 === "Plug-ins"
 
@@ -196,7 +196,7 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
     
     Tailscale の設定については、[Tailscale](../../interface_guide/tailscale.md)を参照してください。
 
-## ネットワーク設定
+## ネットワーク設定 {#network-settings}
 
 === "Port Forwarding"
 
@@ -273,7 +273,7 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
     NAT settings の設定については、[NAT Settings](../../interface_guide/nat_settings.md)を参照してください。
 
-## システム設定
+## システム設定 {#system-settings}
 
 === "Overview"
 

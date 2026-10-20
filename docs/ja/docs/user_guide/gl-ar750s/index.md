@@ -1,6 +1,6 @@
-# GL-AR750S (Slate) ユーザーガイド
+# GL-AR750S (Slate) ユーザーガイド {#slate-gl-ar750s-user-guide}
 
-## ハードウェア情報
+## ハードウェア情報 {#product-overview}
 
 Slate (GL-AR750S) は GL.iNet 初のデュアルバンド・ギガビット AC トラベルルーターです。3 つのギガビットイーサネットポートにより、旅先でも高速な通信が可能です。128MB フラッシュによるデュアルフラッシュ構成でストレージと動作速度を強化しています。MicroSD（TF）スロットを搭載しており、最大 128GB までストレージを拡張できます。
 
@@ -8,7 +8,7 @@ Slate (GL-AR750S) は GL.iNet 初のデュアルバンド・ギガビット AC �
 
 [GL-AR750S 仕様](https://www.gl-inet.com/products/gl-ar750s/#specs){target="_blank"}
 
-### PCB ピン設定
+### PCB ピン設定 {#pcb-pinout}
 
 <div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
   <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
@@ -18,7 +18,7 @@ Slate (GL-AR750S) は GL.iNet 初のデュアルバンド・ギガビット AC �
   </figure>
 </div>
 
-## 初回設定
+## 初回設定 {#first-time-setup}
 
 GL.iNetのすべてのデバイスは、シンプルでほぼ同じセットアッププロセスを持っています。 [初回セットアップについてはここをクリックしてください](../../faq/first_time_setup.md)。
 
@@ -35,7 +35,7 @@ GL.iNetのすべてのデバイスは、シンプルでほぼ同じセットア�
 - 1 x 保証書
 - 1 x 電源アダプター (選択されたプラグタイプ)
 
-## インターネット
+## インターネット {#internet}
 
 インターネット設定画面では、ルーターがサポートしてるインターネット接続タイプを選択できます。
 
@@ -43,7 +43,7 @@ GL.iNetのすべてのデバイスは、シンプルでほぼ同じセットア�
 
 インターネットへの接続は以下の4つの方法がサポートされています:
 
-### イーサネット
+### イーサネット {#ethernet}
 
 イーサネットケーブルを使用して、ルーターをアクティブなモデムまたはネットワークデバイスに接続してインターネットにアクセスします。この方法は通常、最も高速で信頼性の高いインターネット接続を提供します。
 
@@ -51,7 +51,7 @@ GL.iNetのすべてのデバイスは、シンプルでほぼ同じセットア�
 
 ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar750s/internet/ar750s_ethernet.png){class="glboxshadow"}
 
-### リピーター
+### リピーター {#repeater}
 
 ルーターをリピーターとして使用し、既存の Wi-Fi ネットワークのカバーエリアを拡大します。リピーターは範囲内の無線信号を受信して再送信し、カバーエリアを延長します。この方法は、1 台のルーターだけでは使用エリア全体をカバーできない場合に役立ちます。
 
@@ -59,7 +59,7 @@ GL.iNetのすべてのデバイスは、シンプルでほぼ同じセットア�
 
 ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar750s/internet/ar750s_repeater.png){class="glboxshadow"}
 
-### テザリング
+### テザリング {#tethering}
 
 スマートフォンの通信データをケーブル経由でルーターと共有し、接続デバイスとのインターネット接続を確立します。この方法は、スマートフォンのデータを使ってインターネットにアクセスしたい場合に便利です。
 
@@ -67,7 +67,7 @@ GL.iNetのすべてのデバイスは、シンプルでほぼ同じセットア�
 
 ![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar750s/internet/ar750s_tethering.png){class="glboxshadow"}
 
-### セルラー
+### セルラー {#cellular}
 
 セルラー対応の USB モデムをルーターの USB ポートに挿入して、インターネットに接続します。この方法は、USB モデムからすべての接続デバイスにインターネットアクセスを共有する場合に役立ちます。
 
@@ -75,13 +75,13 @@ GL.iNetのすべてのデバイスは、シンプルでほぼ同じセットア�
 
 ![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar750s/internet/ar750s_cellular.png){class="glboxshadow"}
 
-### 優先順位とロードバランス
+### 優先順位とロードバランス {#multi-wan}
 
 [マルチWAN](../../interface_guide/multi-wan.md) では、各インターネットアクセス方式の優先順位や、複数のインターネットアクセス方式を同時に使用する場合のロードバランスを設定します。
 
 ---
 
-## ワイヤレス
+## ワイヤレス {#wireless}
 
 ワイヤレス設定では、ユーザーはプライマリ Wi-Fi とゲスト Wi-Fi のネットワーク セキュリティを管理することができます。サイド メニューの **ワイヤレス** に移動するとアクセスできます。
 
@@ -89,7 +89,7 @@ GL.iNetのすべてのデバイスは、シンプルでほぼ同じセットア�
 
 ---
 
-## クライアント
+## クライアント {#clients}
 
 クライアントはルーターに接続されているデバイスで あり、クライアントをブロックしたり、ネットワーク速度を制限したりすることができます。このインターフェイスには、ルーターの管理パネルのサイドメニューにある **クライアント** をクリックしてアクセスできます。
 
@@ -97,153 +97,153 @@ GL.iNetのすべてのデバイスは、シンプルでほぼ同じセットア�
 
 ---
 
-## VPN
+## VPN {#vpn}
 
 GL.iNetルーターには、30以上のVPNサービスをサポートするOpenVPNとWireGuard®がプリインストールされています。VPNクライアントを有効にすると、ルーターはVPNポリシー設定に従って、VPNアプリを実行できないデバイスを含むネットワーク上のデバイスのトラフィックを暗号化できます。また、当社のルーターはVPNサーバーとしても機能し、パブリックのインターネットにアクセスする前に、遠隔にあるクライアントデバイスからのトラフィックをVPNトンネル経由でVPNサーバーにリダイレクトします。
 
-### VPN ダッシュボード
+### VPN ダッシュボード {#vpn-dashboard}
 
 - [**VPN ダッシュボード**](../../interface_guide/vpn_dashboard_v4.7.md)
 
-### OpenVPN
+### OpenVPN {#openvpn}
 
 セットアップの手順については、以下のリンクをご参照ください：
 
 - [**OpenVPN クライアントのセットアップ**](../../interface_guide/openvpn_client.md)
 - [**OpenVPN サーバーのセットアップ**](../../interface_guide/openvpn_server.md)
 
-### WireGuard
+### WireGuard {#wireguard}
 
 セットアップの手順については、以下のリンクをご参照ください：
 
 - [**WireGuard クライアントのセットアップ**](../../interface_guide/wireguard_client.md)
 - [**WireGuard サーバーのセットアップ**](../../interface_guide/wireguard_server.md)
 
-### Tor
+### Tor {#tor}
 
 - [**Tor**](../../interface_guide/tor.md)
 
 ---
 
-## アプリケーション
+## アプリケーション {#applications}
 
 GL.iNet ルーターには、デバイス管理の簡素化、ユーザーのインターネット体験の向上、ファームウェアの自動更新など、幅広いアドオン機能が含まれています。
 
-### プラグイン
+### プラグイン {#plug-ins}
 
 [**プラグイン**](../../interface_guide/plugins.md)チュートリアルにアクセスしてください。
 
-### ダイナミックDNS
+### ダイナミックDNS {#dynamic-dns}
 
  [**ダイナミックDNS**](../../interface_guide/ddns.md)チュートリアルにアクセスしてください。
 
-### GoodCloud
+### GoodCloud {#goodcloud}
 
  [**GoodCloud**](../../interface_guide/cloud.md)チュートリアルにアクセスしてください。
 
-### ネットワークストレージ
+### ネットワークストレージ {#network-storage}
 
  [**ネットワークストレージ**](../../interface_guide/network_storage.md)チュートリアルにアクセスしてください。
 
-### ペアレンタルコントロール
+### ペアレンタルコントロール {#parental-control}
 
  [**ペアレンタルコントロール**](../../interface_guide/parental_control.md)チュートリアルにアクセスしてください。
 
-### ZeroTier
+### ZeroTier {#zerotier}
 
  [**ZeroTier**](../../interface_guide/zerotier.md)チュートリアルにアクセスしてください。
 
 ---
 
-## ネットワーク
+## ネットワーク {#network}
 
-### ファイアウォール
+### ファイアウォール {#firewall}
 
 GL.iNetのルーターは、安全な接続とユーザーによる完全な監視を保証するため、複数のファイヤーウォール機能を備えています。ポート転送、オープンポート、DMZなどのファイアウォールルールを設定することができます。
 
 [GL.iNetルーターのファイアウォールについて詳しくはこちら](../../interface_guide/firewall.md)
 
-### Multi-WAN
+### Multi-WAN {#multi-wan_1}
 
  [**Multi-WAN**](../../interface_guide/multi-wan.md)チュートリアルにアクセスしてください。
 
-### LAN
+### LAN {#lan}
 
  [**LAN**](../../interface_guide/lan.md) チュートリアルにアクセスしてください。
 
-### DNS
+### DNS {#dns}
 
  [**DNS**](../../interface_guide/dns.md) チュートリアルにアクセスしてください。
 
-### ネットワークモード
+### ネットワークモード {#network-mode}
 
  [**ネットワークモード**](../../interface_guide/network_mode.md) チュートリアルにアクセスしてください。
 
-### IPv6
+### IPv6 {#ipv6}
 
  [**IPv6**](../../interface_guide/ipv6.md) チュートリアルにアクセスしてください。
 
-### MACアドレス
+### MACアドレス {#mac-address}
 
 Mac アドレスページは、以前はMacクローンと呼ばれていましたが、v4.2からMacアドレスに変更されました。
 
  [**MACアドレス**](../../interface_guide/mac_address.md)チュートリアルにアクセスしてください。
 
-### ドロップイン・ゲートウェイ
+### ドロップイン・ゲートウェイ {#drop-in-gateway}
 
  [**ドロップイン・ゲートウェイ**](../../interface_guide/drop-in_gateway.md) チュートリアルにアクセスしてください。
 
-### IGMPスヌーピング
+### IGMPスヌーピング {#igmp-snooping}
 
  [**IGMPスヌーピング**](../../interface_guide/igmp_snooping.md) チュートリアルにアクセスしてください。
 
 ---
 
-## システム
+## システム {#system}
 
-### 概要
+### 概要 {#overview}
 
  [**システム概要**](../../interface_guide/system_overview.md) チュートリアルにアクセスしてください。
 
-### アップグレード
+### アップグレード {#upgrade}
 
 GL.iNet は、パフォーマンスを向上させ、バグを解消し、脆弱性を修正するために、ルーターのファームウェアを定期的にアップデートします。
 
  [**アップグレード**](../../interface_guide/upgrade.md) チュートリアルにアクセスしてください。
 
-### スケジュールされたタスク
+### スケジュールされたタスク {#scheduled-tasks}
 
  [**スケジュールされたタスク**](../../interface_guide/scheduled_tasks.md) チュートリアルにアクセスしてください。
 
-### 管理者パスワード
+### 管理者パスワード {#admin-password}
 
 この機能はv4.5から[**セキュリティ**](../../interface_guide/security.md) に移動されました。
 
  [**管理者パスワード**](../../interface_guide/admin_password.md) チュートリアルにアクセスしてください。
 
-### タイムゾーン
+### タイムゾーン {#time-zone}
 
   [**タイムゾーン**](../../interface_guide/time_zone.md) チュートリアルにアクセスしてください。
 
-### トグルボタンの設定
+### トグルボタンの設定 {#toggle-button-settings}
 
  [**トグルボタンの設定**](../../interface_guide/toggle_button_settings.md) チュートリアルにアクセスしてください。
 
-### ログ
+### ログ {#log}
 
  [**ログ**](../../interface_guide/log.md) チュートリアルにアクセスしてください。
 
-### セキュリティ
+### セキュリティ {#security}
 
 この機能はv4.5から利用可能です。
 
  [**セキュリティ**](../../interface_guide/security.md) チュートリアルにアクセスしてください。
 
-### ファームウェアをリセット
+### ファームウェアをリセット {#reset-firmware}
 
  [**ファームウェアのリセット**](../../interface_guide/reset_firmware.md) チュートリアルにアクセスしてください。
 
-### 詳細設定
+### 詳細設定 {#advanced-settings}
 
  [**詳細設定**](../../interface_guide/advanced_settings.md) チュートリアルにアクセスしてください。
 

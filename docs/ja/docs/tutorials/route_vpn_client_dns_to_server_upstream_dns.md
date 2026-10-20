@@ -1,8 +1,8 @@
-# VPNクライアントのDNSクエリをVPNサーバー上流のDNSへルーティングする方法
+# VPNクライアントのDNSクエリをVPNサーバー上流のDNSへルーティングする方法 {#how-to-route-vpn-client-dns-queries-to-the-vpn-servers-upstream-dns}
 
 このチュートリアルでは、VPNクライアントからのすべてのDNSクエリを、VPNサーバーの上流側であるプライマリルーターのLAN側に設置した自前のDNS Serverへ転送する手順を紹介します。
 
-## トポロジー
+## トポロジー {#topology}
 
 このチュートリアルでは、**Flint 3 (GL-BE9300)** と **Slate 7 (GL-BE3600)** を例として使用します。
 
@@ -16,7 +16,7 @@ VPNサーバーとクライアントの間にVPNトンネルが確立される�
 
 ![topology 2](https://static.gl-inet.com/docs/router/en/4/tutorials/route_vpn_dns_to_server_upstream_dns/topology-2.jpg){class="glboxshadow"}
 
-## 設定
+## 設定 {#setup}
 
 1. Flint 3 のWeb管理パネルにログインし、**NETWORK** -> **DNS** に移動します。DNS Server Mode を **Manual DNS** に切り替え、DNS Server のIPアドレスを入力します。
 
@@ -50,7 +50,7 @@ VPNサーバーとクライアントの間にVPNトンネルが確立される�
 
     ![start client](https://static.gl-inet.com/docs/router/en/4/tutorials/route_vpn_dns_to_server_upstream_dns/start_client.png){class="glboxshadow"}
 
-## DNS解決を確認する
+## DNS解決を確認する {#verify-dns-resolution}
 
 VPNクライアントで次のコマンドを実行してDNSトラフィックをキャプチャします。これにより、VPNクライアントのDNSトラフィックがすべてVPNサーバー（この例では `10.0.0.1`）へ送られていることがわかります。
 

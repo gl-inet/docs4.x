@@ -1,4 +1,4 @@
-# Rete ospite
+# Rete ospite {#guest-network}
 
 Le impostazioni della rete ospite sono state separate da [LAN](lan.md) a partire dal firmware v4.5.
 
@@ -10,7 +10,7 @@ Questa pagina ti consente di creare una rete Wi-Fi dedicata agli ospiti. Isolata
 
 Include due sezioni: Impostazioni di base e Impostazioni del server DHCP.
 
-## Impostazioni di base
+## Impostazioni di base {#basic-settings}
 
 Puoi impostare la subnet all'interno degli intervalli di indirizzi privati IPv4: `192.168.0.0/16`, `172.16.0.0/12`, `10.0.0.0/8`.
 
@@ -36,7 +36,7 @@ Puoi impostare la subnet all'interno degli intervalli di indirizzi privati IPv4:
 
     Quando e' abilitata, la rete ospite non puo' accedere alla rete a monte e alla relativa subnet.
 
-## Server DHCP
+## Server DHCP {#dhcp-server}
 
 Se la Guest Network e' abilitata, verra' abilitato di conseguenza anche il relativo server DHCP.
 

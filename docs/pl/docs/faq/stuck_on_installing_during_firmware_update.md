@@ -1,4 +1,4 @@
-# Zatrzymanie na „Installing” podczas aktualizacji firmware
+# Zatrzymanie na „Installing” podczas aktualizacji firmware {#stuck-on-installing-during-firmware-update}
 
 Jeśli router zatrzyma się na komunikacie „Installing” podczas aktualizacji firmware, wykonaj poniższe kroki, aby rozwiązać problem.
 

@@ -1,12 +1,12 @@
-# Flint 2 (GL-MT6000) ユーザーガイド
+# Flint 2 (GL-MT6000) ユーザーガイド {#flint-2-gl-mt6000-user-guide}
 
-## 製品概要
+## 製品概要 {#product-overview}
 
 Flint 2 (GL-MT6000) は、大容量データ通信、多数のデバイス接続、または超低遅延のゲーム環境に最適な Wi-Fi 6 対応の家庭・オフィス向けルーターです。Flint 2 は最大 900Mbps の高速 WireGuard VPN を提供します。また、マルチWAN、フェイルオーバー、ロードバランスなどの高度なネットワーク冗長化機能により、途切れのないネットワーク接続を実現します。
 
 ![gl-mt6000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000/hardware_info/gl-mt6000_interface.jpg){class="glboxshadow"}
 
-## 同梱物
+## 同梱物 {#package-contents}
 
 - 1 x Flint 2 (GL-MT6000)
 - 1 x ユーザーマニュアル
@@ -21,18 +21,18 @@ Flint 2 (GL-MT6000) は、大容量データ通信、多数のデバイス接続
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ru1O-zxKgKg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Flint 2 のセットアップ方法
+## Flint 2 のセットアップ方法 {#how-to-set-up-flint-2}
 
 セットアップ動画を見るか、以下の手順に従ってください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZAVn92F5RV8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <small>（この動画では別の GL.iNet ルーターを使ってセットアップを説明していますが、手順は Flint 2 やその他のルーターモデルでも同じです。）</small>
 
-### 1. 電源を入れる
+### 1. 電源を入れる {#1-power-on}
 
 2 ピース構成の電源アダプターを組み立ててルーターに接続し、コンセントに差し込みます。自動的に起動します。
 
-### 2. デバイスを接続する
+### 2. デバイスを接続する {#2-connect-device}
 
 デバイス（例: コンピューター、ノート PC、スマートフォン）を Wi-Fi またはイーサネットでルーターに接続します。
 
@@ -44,13 +44,13 @@ Flint 2 (GL-MT6000) は、大容量データ通信、多数のデバイス接続
 
     デバイスで **設定** → **WLAN** を開き、利用可能なネットワーク一覧からルーターの Wi-Fi 名を見つけてパスワードを入力し、ネットワークに参加します。初期のネットワーク名とパスワードはルーター本体のラベルに記載されています。
 
-### 3. Web管理パネルにログインする
+### 3. Web管理パネルにログインする {#3-log-in-to-web-admin-panel}
 
 Web ブラウザーを開き、アドレスバーに `192.168.8.1` を入力してログインします。言語を選択し、管理者パスワードを設定してから **Apply** をクリックします。
 
 Wi-Fi 情報を変更した場合は、更新された認証情報を使用してルーターの Wi-Fi に再接続する必要があります。
 
-### 4. インターネット設定
+### 4. インターネット設定 {#4-internet-setup}
 
 **注意：** 以下の手順は GL.iNet Web管理パネルを使用して設定するユーザー向けです。GL.iNet アプリをご利用の場合は、[アプリをダウンロード](https://www.gl-inet.com/app/){target="_blank"}して画面の指示に従ってください。
 
@@ -102,7 +102,7 @@ Flint 2 のインターネット接続方法（イーサネット、リピータ
 
 ---
 
-## VPN のセットアップ方法
+## VPN のセットアップ方法 {#how-to-set-up-a-vpn}
 
 VPN（仮想プライベートネットワーク）は、デバイスと VPN サーバー間に安全な暗号化トラフィックを作成します。プライバシーとセキュリティの追加レイヤー（VPN クライアント）を提供し、リモートネットワークへのアクセス（VPN サーバー）を可能にします。Flint 2（およびその他の GL.iNet ルーター）は OpenVPN と WireGuard をサポートしており、さらに Tor もサポートしています。
 
@@ -126,7 +126,7 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
     * [Tor のセットアップ方法](../../interface_guide/tor.md)
 
-## ワイヤレスとクライアント
+## ワイヤレスとクライアント {#wireless-and-clients}
 
 === "ワイヤレス"
 
@@ -140,7 +140,7 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
     クライアントの設定については[クライアント](../../interface_guide/clients.md)をご参照ください。
 
-## クラウドサービス
+## クラウドサービス {#cloud-services}
 
 === "GoodCloud"
 
@@ -154,7 +154,7 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
     AstroWarp の設定については[AstroWarp](../../interface_guide/astrowarp.md)をご参照ください。
 
-## アプリケーション
+## アプリケーション {#applications}
 
 === "プラグイン"
 
@@ -204,7 +204,7 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
 ---
 
-## ネットワーク設定
+## ネットワーク設定 {#network-settings}
 
 === "ポート転送"
 
@@ -284,7 +284,7 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
 ---
 
-## システム設定
+## システム設定 {#system-settings}
 
 === "概要"
 

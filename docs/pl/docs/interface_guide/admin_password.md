@@ -1,4 +1,4 @@
-# Hasło administratora
+# Hasło administratora {#admin-password}
 
 **Uwaga**: Strona Admin Password została od firmware v4.3 zintegrowana z [Security](security.md), a od firmware v4.9 została przywrócona jako osobna strona.
 

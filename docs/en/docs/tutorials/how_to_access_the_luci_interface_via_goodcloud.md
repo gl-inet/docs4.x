@@ -1,16 +1,16 @@
-# How to access the LuCI interface via GoodCloud
+# How to access the LuCI interface via GoodCloud {#how-to-access-the-luci-interface-via-goodcloud}
 
 GL.iNet [GoodCloud](https://www.goodcloud.xyz/){target="_blank"} breaks through geographical limitations and provides a convenient way for remote router management. Through GoodCloud, you can access the LuCI interface of the router anytime and anywhere, perform various settings on the router and easily manage the network.
 
-## Preparation
+## Preparation {#preparation}
 
 - Hardware Equipment: A GL.iNet router that has been configured with Internet and is operating normally.
 - Network Environment: The network to which the router is connected is stable and can access the Internet normally.
 - Device Binding: [Bind your GL.iNet router to your GoodCloud account](../interface_guide/cloud.md#bind-devices-to-cloud). If you don't have a GoodCloud account, please [register](https://www.goodcloud.xyz/){target="_blank"} one.
 
-## Steps to Access the LuCI Interface via GoodCloud
+## Steps to Access the LuCI Interface via GoodCloud {#steps-to-access-the-luci-interface-via-goodcloud}
 
-### For Firmware Version 4.7 or Above
+### For Firmware Version 4.7 or Above {#for-firmware-version-47-or-above}
 
 Starting from v4.7, users can directly access the LuCI page from the GoodCloud platform without going through the router's web Admin Panel.
 
@@ -32,7 +32,7 @@ Starting from v4.7, users can directly access the LuCI page from the GoodCloud p
 
     ![luci interface](https://static.gl-inet.com/docs/router/en/4/tutorials/access_luci_via_goodcloud/log_in_luci_mt6000.png){class="glboxshadow"}    
 
-### For Firmware Version 4.6 or Below
+### For Firmware Version 4.6 or Below {#for-firmware-version-46-or-below}
 
 1. Log in to your GoodCloud account [here](https://www.goodcloud.xyz/){target="_blank"}.
 

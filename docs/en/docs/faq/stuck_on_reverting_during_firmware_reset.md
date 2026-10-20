@@ -1,4 +1,4 @@
-# Stuck on "Reverting" during firmware reset
+# Stuck on "Reverting" during firmware reset {#stuck-on-reverting-during-firmware-reset}
 
 If your router is stuck on "Reverting" during a firmware reset, follow the steps below to resolve the issue.
 

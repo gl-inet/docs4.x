@@ -1,4 +1,4 @@
-# DNS
+# DNS {#dns}
 
 **注**：このページの内容は、ファームウェアv4.10以前に基づいています。
 
@@ -26,21 +26,21 @@ Web Admin Panel の左側で、**NETWORK** -> **DNS** に移動します。
 
 - **Allow Custom DNS to Override VPN DNS:** 有効にすると、カスタム DNS を設定したときに、VPN トンネル経由のパケットは VPN 接続側の DNS サーバー設定ではなく、カスタム DNS 設定で名前解決されます。
 
-## DNSサーバー設定
+## DNSサーバー設定 {#dns-server-settings}
 
 4 つのモードがあります: Automatic、Encrypted DNS、Manual DNS、DNS Proxy。
 
-### Automatic
+### Automatic {#automatic}
 
 このモードでは、ルーターは上位デバイス（例: ISP モデム、プライマリルーター）から提供された DNS サーバー、または各ネットワークインターフェースに対応する DNS 設定を自動的に使用します。
 
 ![automatic](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/dns_auto.png){class="glboxshadow"}
 
-### Encrypted DNS
+### Encrypted DNS {#encrypted-dns}
 
 ファームウェアのバージョンに応じて、以下の説明を参照してください。
 
-#### ファームウェアv4.8以前
+#### ファームウェアv4.8以前 {#for-firmware-v48-and-earlier}
 
 4 種類の暗号化方式を利用できます。DNS over TLS、DNSCrypt-Proxy、DNS over HTTPS、Oblivious DNS over HTTPS です。
 
@@ -56,7 +56,7 @@ Web Admin Panel の左側で、**NETWORK** -> **DNS** に移動します。
 
     ![dnscrypt-proxy](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/dnscrypt-proxy.png){class="glboxshadow"}
 
-#### ファームウェアv4.9～v4.10
+#### ファームウェアv4.9～v4.10 {#for-firmware-v49-to-v410}
 
 Encrypted DNS モードでは、Control D、NextDNS、Cloudflare に加えて、**Quad9**、**CleanBrowsing**、**AdGuard DNS**、**Google DNS**、**OpenDNS** も利用できます。必要に応じて暗号化 DNS サーバーを手動で指定することも可能です。
 
@@ -76,7 +76,7 @@ Encrypted DNS モードでは、Control D、NextDNS、Cloudflare に加えて、
 
     ![encrypted manual2](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/encrypted_manual2.png){class="glboxshadow"}
 
-#### 暗号化方式の比較
+#### 暗号化方式の比較 {#encryption-type-comparison}
 
 1. **DNS over TLS (DoT)**
 
@@ -98,19 +98,19 @@ Encrypted DNS モードでは、Control D、NextDNS、Cloudflare に加えて、
 
     DNS 向けの成熟した暗号化プロトコルです。DNS トラフィックの認証と暗号化を行い、改ざん防止や従来型ネットワーク環境との互換性に重点を置いています。
 
-### Manual DNS
+### Manual DNS {#manual-dns}
 
 このモードでは、ルーターで使用する DNS サーバーをカスタマイズできます。ドロップダウンリストから、ルーターで使用する DNS Server を少なくとも 1 つ選択してください。
 
 ![manual dns](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/manual_dns.png){class="glboxshadow"}
 
-### DNS Proxy
+### DNS Proxy {#dns-proxy}
 
 このモードでは、ルーターはすべての LAN DNS クエリを、指定したプロキシサーバーアドレス（例: 8.8.8.8#53）へ転送します。ネットワーク上で別の DNS サーバーや Pi-hole を運用している場合に便利です。
 
 ![dns proxy](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/dns_proxy.png){class="glboxshadow"}
 
-## Hosts の編集
+## Hosts の編集 {#edit-hosts}
 
 右上の **Edit Hosts** ボタンをクリックすると、静的なホストルールをカスタマイズできます。
 

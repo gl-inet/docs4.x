@@ -1,4 +1,4 @@
-# OpenVPN, TCP vs. UDP
+# OpenVPN, TCP vs. UDP {#openvpn-tcp-vs-udp}
 
 Der OpenVPN-Server des GL.iNet-Routers unterstützt sowohl TCP- als auch UDP-Protokolle. Worin liegt der Unterschied?
 

@@ -1,4 +1,4 @@
-# So richten Sie Spitz AX (GL-X3000) in Ihrem Wohnmobil ein und nutzen ihn
+# So richten Sie Spitz AX (GL-X3000) in Ihrem Wohnmobil ein und nutzen ihn {#how-to-set-up-and-use-spitz-ax-gl-x3000-in-your-recreational-vehicle}
 
 Diese Anleitung zeigt Ihnen, wie Sie Spitz AX in Ihrem Wohnmobil einrichten und verwenden. Bevor Sie beginnen, benötigen Sie je nach Einsatz möglicherweise folgende zusätzliche Geräte und Dienste:
 
@@ -8,11 +8,11 @@ Diese Anleitung zeigt Ihnen, wie Sie Spitz AX in Ihrem Wohnmobil einrichten und 
 
 ---
 
-## 1. Installieren Sie Ihren Spitz AX und weiteres Zubehör
+## 1. Installieren Sie Ihren Spitz AX und weiteres Zubehör {#1-install-your-spitz-ax-and-other-equipment}
 
 Richten Sie Ihren Spitz AX vor Reisebeginn mit den folgenden Schritten ein.
 
-### Schritt 1: Wählen Sie einen Standort für Ihren Spitz AX
+### Schritt 1: Wählen Sie einen Standort für Ihren Spitz AX {#step-1-choose-a-location-for-your-spitz-ax}
 
 Es wird empfohlen, einen zentralen und freien Standort zu wählen, um eine maximale Abdeckung zu erzielen. Stellen Sie sicher, dass sich der Standort innerhalb von 1 Meter von der Stromquelle befindet, da dies der Länge des Netzkabels entspricht.
 
@@ -20,7 +20,7 @@ Es wird empfohlen, einen zentralen und freien Standort zu wählen, um eine maxim
 
 Sie können Ihren Spitz AX auf einer ebenen Fläche platzieren oder an der Wand montieren. Wenn Sie ihn an der Wand montieren möchten, folgen Sie dem nächsten Schritt.
 
-### (Optional) Schritt 2: Installieren Sie Ihren Spitz AX an der Wand
+### (Optional) Schritt 2: Installieren Sie Ihren Spitz AX an der Wand {#optional-step-2-install-your-spitz-ax-on-the-wall}
 
 Es gibt zwei Möglichkeiten, Ihren Spitz AX an der Wand zu montieren:
 - Verwenden Sie das mitgelieferte Klebepad.
@@ -33,7 +33,7 @@ Wandhalterungen sind im Lieferumfang enthalten. Um Ihren Spitz AX an der Wand zu
 
 ![Wandhalterung](https://static.gl-inet.com/docs/router/de/4/tutorials/set_up_and_use_in_recreational_vehicle/x3000-with-screws.jpg){class="glboxshadow"}
 
-### (Optional) Schritt 3: Installieren Sie die Wohnmobil-Dachantenne
+### (Optional) Schritt 3: Installieren Sie die Wohnmobil-Dachantenne {#optional-step-3-install-the-rv-roof-antenna}
 
 ![Dachantenne](https://static.gl-inet.com/docs/router/de/4/tutorials/set_up_and_use_in_recreational_vehicle/x3000-with-roof-antenna.jpg){class="glboxshadow"}
 
@@ -52,7 +52,7 @@ Um eine Signaldämpfung zu vermeiden, sollte das HF-Kabel von der Dachantenne zu
 
 ---
 
-## 2. Richten Sie das Internet für Ihren Spitz AX ein
+## 2. Richten Sie das Internet für Ihren Spitz AX ein {#2-set-up-the-internet-for-your-spitz-ax}
 
 Damit Sie während Ihrer Reise Internetzugang haben, richten Sie die Internetverbindung über SIM-Karten ein.
 
@@ -75,15 +75,15 @@ Wenn Sie zwei SIM-Karten verwenden, beachten Sie bitte, dass immer nur eine SIM-
 
 ---
 
-## 3. Verwenden Sie Spitz AX in verschiedenen Szenarien
+## 3. Verwenden Sie Spitz AX in verschiedenen Szenarien {#3-use-spitz-ax-in-different-scenarios}
 
-### Unterwegs
+### Unterwegs {#on-the-road}
 
 ![Unterwegs](https://static.gl-inet.com/docs/router/de/4/tutorials/set_up_and_use_in_recreational_vehicle/rv-connectivity_scene_rv-antennas.png){class="glboxshadow"}
 
 Während der Fahrt sollten Sie über die SIM-Karte(n), die Sie im vorherigen Schritt eingerichtet haben, eine Internetverbindung herstellen können.
 
-### Auf dem Campingplatz
+### Auf dem Campingplatz {#at-a-campground}
 
 ![Campingplatz](https://static.gl-inet.com/docs/router/de/4/tutorials/set_up_and_use_in_recreational_vehicle/rv-connectivity_scene_repeater.png){class="glboxshadow"}
 
@@ -91,7 +91,7 @@ Wenn Sie während Ihrer Reise auf einem Campingplatz anhalten, können Sie das d
 
 Nachdem Sie sich einmal mit dem WLAN verbunden haben, kann Spitz AX den Netzwerknamen und das Passwort speichern. Beim nächsten Aufenthalt in der Nähe verbindet sich das Gerät automatisch mit dem Netzwerk.
 
-### In Gebieten ohne Mobilfunkabdeckung
+### In Gebieten ohne Mobilfunkabdeckung {#in-areas-without-cellular-coverage}
 
 ![Mobilfunk](https://static.gl-inet.com/docs/router/de/4/tutorials/set_up_and_use_in_recreational_vehicle/rv-connectivity_scene_starlink.png){class="glboxshadow"}
 
@@ -101,7 +101,7 @@ Wenn Sie die Starlink-Antenne einrichten, achten Sie darauf, dass sie nicht verd
 
 ---
 
-## 4. Legen Sie Failover-Prioritäten fest
+## 4. Legen Sie Failover-Prioritäten fest {#4-set-failover-priorities}
 Spitz AX unterstützt Multi-WAN (Failover und Load Balance). Sie können für unterschiedliche Netzwerke je nach Szenario Failover-Prioritäten festlegen.
 
 | Szenario| Priorität |

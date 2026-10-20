@@ -1,4 +1,4 @@
-# Połączenie z Internetem przez kabel Ethernet
+# Połączenie z Internetem przez kabel Ethernet {#connect-to-the-internet-via-an-ethernet-cable}
 
 Podłącz router do sieci szerokopasmowej za pomocą kabla Ethernet wpiętego do portu WAN. Zwykle adres IP jest pobierany automatycznie (DHCP). Użytkownicy mogą też ręcznie skonfigurować statyczny adres IP lub PPPoE. Ta metoda zapewnia wysoką stabilność i dużą prędkość, dlatego idealnie sprawdza się w domu i biurze z przewodowym dostępem szerokopasmowym.
 
@@ -14,7 +14,7 @@ Wykonaj poniższe kroki, aby połączyć router z Internetem za pomocą kabla Et
 
 **Wskazówka**: W razie potrzeby możesz zmienić rolę portu WAN na port LAN. Jest to przydatne, gdy używasz routera jako [repeatera](internet_repeater.md), ponieważ fizyczny port WAN pozostaje wtedy nieużywany. Zmiana portu WAN na LAN pozwala uzyskać dodatkowy port LAN.
 
-## Protocol
+## Protocol {#protocol}
 
 Dostępne są 3 typy protokołów: DHCP, Static i PPPoE. Kliknij **Modify**, aby je zmienić.
 
@@ -38,7 +38,7 @@ Dostępne są 3 typy protokołów: DHCP, Static i PPPoE. Kliknij **Modify**, aby
 
     ![ethernet pppoe](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/ethernet_5.png){class="glboxshadow"}
 
-## Advanced
+## Advanced {#advanced}
 
 Oprócz podstawowych ustawień dostępne są także opcjonalne ustawienia zaawansowane dla trzech powyższych protokołów.
 
@@ -52,7 +52,7 @@ Oprócz podstawowych ustawień dostępne są także opcjonalne ustawienia zaawan
 
 * **MTU**: Domyślna wartość MTU wynosi 1500 bajtów.
 
-## Ethernet Port
+## Ethernet Port {#ethernet-port}
 
 Kliknij ikonę koła zębatego w prawym górnym rogu, aby przejść do strony [Ethernet Port](ethernet_port.md) i zarządzać portami Ethernet routera.
 
@@ -68,7 +68,7 @@ Na stronie **LAN** są wyświetlane funkcja portu oraz wynegocjowana prędkość
 
 Szczegółowe informacje znajdziesz na stronie [Ethernet Port](ethernet_port.md).
 
-## Rozwiązywanie problemów
+## Rozwiązywanie problemów {#troubleshooting}
 
 Jeśli kabel Ethernet jest podłączony do portu WAN, ale Internet nie jest dostępny, pojawi się żółty komunikat pokazany poniżej.
 

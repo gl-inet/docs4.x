@@ -1,10 +1,10 @@
-# Internet
+# Internet {#internet}
 
 Connectez-vous au panneau d'administration web, puis accédez à **INTERNET**.
 
 La moitié supérieure présente un schéma indiquant l'état d'Internet, et la moitié inférieure liste jusqu'à quatre méthodes d'accès à Internet (la disponibilité varie selon le modèle).
 
-## Schéma d'état
+## Schéma d'état {#status-diagram}
 
 ![status diagram](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet/status_diagram.png){class="glboxshadow"}
 
@@ -26,7 +26,7 @@ La moitié supérieure présente un schéma indiquant l'état d'Internet, et la 
 - Les appareils connectés en Wi‑Fi sont affichés dans la section supérieure et les appareils connectés par câble dans la section inférieure.
 - Les nombres affichés à côté de chaque section indiquent le nombre d'appareils connectés.
 
-## Méthodes d'accès à Internet
+## Méthodes d'accès à Internet {#internet-access-methods}
 
 Jusqu'à quatre méthodes d'accès à Internet sont disponibles. Consultez les tutoriels correspondants ci-dessous ou commencez avec l'[assistant de configuration](#setup-wizard).
 

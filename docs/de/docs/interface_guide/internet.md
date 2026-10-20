@@ -1,10 +1,10 @@
-# Internet
+# Internet {#internet}
 
 Melden Sie sich im Web-Admin-Panel an und gehen Sie zu **INTERNET**.
 
 Die obere Hälfte zeigt ein Diagramm mit dem Internetstatus, und die untere Hälfte listet bis zu vier Methoden für den Internetzugang auf (die Verfügbarkeit variiert je nach Modell).
 
-## Statusdiagramm
+## Statusdiagramm {#status-diagram}
 
 ![status diagram](https://static.gl-inet.com/docs/router/de/4/interface_guide/internet/status_diagram.png){class="glboxshadow"}
 
@@ -26,16 +26,16 @@ Die obere Hälfte zeigt ein Diagramm mit dem Internetstatus, und die untere Häl
 - Drahtlos verbundene Geräte werden im oberen Bereich angezeigt, kabelgebundene Geräte im unteren Bereich.
 - Die Zahlen neben den einzelnen Bereichen geben die Anzahl der verbundenen Geräte an.
 
-## Methoden für den Internetzugang
+## Methoden für den Internetzugang {#internet-access-methods}
 
-Es stehen bis zu vier Methoden für den Internetzugang zur Verfügung. Bitte lesen Sie die entsprechenden Anleitungen unten, oder beginnen Sie mit dem [Einrichtungsassistenten](#einrichtungsassistent).
+Es stehen bis zu vier Methoden für den Internetzugang zur Verfügung. Bitte lesen Sie die entsprechenden Anleitungen unten, oder beginnen Sie mit dem [Einrichtungsassistenten](#setup-wizard).
 
 - [Ethernet](internet_ethernet.md)
 - [Repeater](internet_repeater.md)
 - [Tethering](internet_tethering.md)
 - [Cellular](internet_cellular.md)
 
-## Einrichtungsassistent
+## Einrichtungsassistent {#setup-wizard}
 
 Der Einrichtungsassistent ist seit Firmware v4.7 verfügbar.
 

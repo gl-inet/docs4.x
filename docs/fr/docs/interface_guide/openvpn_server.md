@@ -1,4 +1,4 @@
-# Configurer le serveur OpenVPN sur les routeurs GL.iNet
+# Configurer le serveur OpenVPN sur les routeurs GL.iNet {#set-up-openvpn-server-on-glinet-routers}
 
 OpenVPN est un protocole VPN open source qui utilise des techniques de réseau privé virtuel pour établir des connexions sécurisées site à site ou point à point.
 
@@ -24,7 +24,7 @@ Méthodes alternatives :
 
 ??? "GL.iNet est le routeur principal"
     
-    * Si le routeur GL.iNet est le routeur principal de votre réseau, aucune redirection de port n'est nécessaire. Passez à l'[étape suivante](#setup-openvpn-server).
+    * Si le routeur GL.iNet est le routeur principal de votre réseau, aucune redirection de port n'est nécessaire. Passez à l'[étape suivante](#set-up-openvpn-server).
 
 ??? " GL.iNet est le sous-routeur"
 
@@ -32,7 +32,7 @@ Méthodes alternatives :
     
     * Si un routeur principal est déjà utilisé et que le routeur GL.iNet se trouve à plusieurs niveaux sous le routeur principal, configurez la [redirection de port](../tutorials/how_to_set_up_port_forwarding.md) à chaque niveau intermédiaire.
 
-## Configurer le serveur OpenVPN {#setup-openvpn-server}
+## Configurer le serveur OpenVPN {#set-up-openvpn-server}
 
 Connectez-vous au panneau d'administration web, puis accédez à **VPN** -> **OpenVPN Server**.
 
@@ -50,7 +50,7 @@ Connectez-vous au panneau d'administration web, puis accédez à **VPN** -> **Op
 
     ![openvpn server configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/ovpnserver_configuration.png){class="glboxshadow"}
 
-    * **Device Mode:** TAP-S2S ou Tun. Cliquez [ici](../tutorials/how_to_enable_openvpn_tap_s2s_mode_on_glinet_routers.md#tap-s2s-vs-mode-tun) pour voir les différences.
+    * **Device Mode:** TAP-S2S ou Tun. Cliquez [ici](../tutorials/how_to_enable_openvpn_tap_s2s_mode_on_glinet_routers.md#tap-s2s-vs-tun-mode) pour voir les différences.
 
     * **Protocol:** UDP ou TCP. Cliquez [ici](../faq/openvpn_tcp_udp.md) pour voir les différences.
 
@@ -88,9 +88,9 @@ Connectez-vous au panneau d'administration web, puis accédez à **VPN** -> **Op
 
     ![start openvpn server](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/start_ovpnserver.png){class="glboxshadow"}
 
-## Vérifier que le serveur OpenVPN fonctionne correctement
+## Vérifier que le serveur OpenVPN fonctionne correctement {#check-if-openvpn-server-is-working-properly}
 
-### Vérifier l'état du serveur
+### Vérifier l'état du serveur {#verify-server-status}
 
 Depuis le firmware v4.8, vous pouvez vérifier l'état de la connexion du serveur sur la page **OpenVPN Server**. 
 
@@ -102,7 +102,7 @@ Pour le firmware v4.7 et les versions antérieures, veuillez vérifier l'état d
 
 ![openvpn server connected v4.7](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/openserverup.jpg){class="glboxshadow"}
 
-### Vérifier l'IP du client
+### Vérifier l'IP du client {#verify-clients-ip}
 
 Pour vérifier que la connexion au serveur a réussi, importez la configuration OpenVPN précédemment exportée sur un appareil connecté à un autre réseau (et non au même réseau local que le serveur). Ouvrez ensuite un navigateur web et recherchez votre adresse IP et votre localisation. Si elles correspondent à l'adresse IP du serveur VPN (et non à celle de votre fournisseur d'accès Internet) ainsi qu'à sa localisation, la connexion VPN a réussi.
 
@@ -119,7 +119,7 @@ Si la connexion échoue, voici plusieurs causes fréquentes :
 * Le port utilisé par le serveur OpenVPN est bloqué par votre fournisseur d'accès Internet. Changez de port ou contactez votre fournisseur d'accès Internet pour obtenir de l'aide.
 * Certains pays/régions peuvent bloquer la connexion VPN.
 
-## Server Options
+## Server Options {#server-options}
 
 Server Options regroupe des paramètres avancés côté serveur, notamment l’accès à distance au LAN du serveur et le masquage d’adresse IP. Configurez-les selon vos besoins.
 
@@ -141,7 +141,7 @@ La fenêtre contextuelle présente les fonctions suivantes.
 
 - **MTU** : abréviation de Maximum Transmission Unit. La valeur MTU définie pour le tunnel remplace celle du fichier de configuration.
 
-## Client to Client
+## Client to Client {#client-to-client}
 
 Client to Client est une fonction VPN côté serveur. Lorsqu’elle est activée, les clients VPN connectés peuvent communiquer entre eux au moyen de leurs adresses IP de tunnel VPN respectives.
 
@@ -161,7 +161,7 @@ Si nécessaire, procédez comme suit pour activer Client to Client sur votre ser
 
 **Conseil** : Client to Client annonce uniquement l’adresse IP de tunnel de chaque client. Les sous-réseaux LAN locaux situés derrière les différents clients VPN ne deviennent pas automatiquement accessibles. Pour permettre aux clients d’accéder aux sous-réseaux LAN des autres clients, ajoutez sur le serveur VPN des règles de routage qui annoncent ces sous-réseaux LAN distants.
 
-## Installation de l'application OpenVPN
+## Installation de l'application OpenVPN {#openvpn-app-install}
 
 Veuillez télécharger l'OpenVPN App depuis le [site officiel d'OpenVPN](https://openvpn.net/vpn-client/){target="_blank"}.
 

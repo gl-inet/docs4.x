@@ -1,8 +1,8 @@
-# Dynamic DNS
+# Dynamic DNS {#dynamic-dns}
 
 Dynamic Domain Name Service（Dynamic DNS または DDNS）は、ドメイン名をネットワーク機器の動的IPアドレスに紐付けるためのサービスです。Dynamic DNS を使用すると、ルーターへリモートアクセスできます。この機能を利用するには、インターネットのパブリックIPアドレスが必要です。
 
-## DDNSを有効にする
+## DDNSを有効にする {#enable-ddns}
 
 Web 管理画面の左側メニューで、**APPLICATIONS** -> **Dynamic DNS** に移動します。
 
@@ -26,9 +26,9 @@ Web 管理画面の左側メニューで、**APPLICATIONS** -> **Dynamic DNS** �
 
 DNS サーバー間のレコード同期には、最大 10 分程度の遅延が発生する場合があります。そのため、有効化直後やパブリックIPアドレスが変更された直後は、DDNS ドメイン名ですぐにアクセスできないことがあります。
 
-**Note**: DDNS と VPN Client を同時に有効にする場合は、**Services From GL.iNet Use VPN** が無効になっていることを確認してください。この機能は、VPN Dashboard の [VPN Client Options](vpn_dashboard_v4.8.md#tunnel-options) にあります。
+**Note**: DDNS と VPN Client を同時に有効にする場合は、**Services From GL.iNet Use VPN** が無効になっていることを確認してください。この機能は、VPN Dashboard の [VPN Client Options](vpn_dashboard_v4.8.md#tunnel-options_1) にあります。
 
-## DDNSが機能しているか確認する
+## DDNSが機能しているか確認する {#check-if-ddns-works}
 
 DDNS が機能しているかどうかは、DDNS テストツールを使用するか、コマンドで手動確認できます。
 
@@ -62,7 +62,7 @@ DDNS が機能しているかどうかは、DDNS テストツールを使用す�
 
     3. ルーターの Web Admin Panel にログインして **INTERNET** に移動します。現在有効なインターフェースの WAN IP アドレスを確認し、上で取得したパブリック IP アドレスと比較します。一致すれば DDNS は有効です。一致しなければ有効ではありません。
 
-## HTTPS リモートアクセス
+## HTTPS リモートアクセス {#https-remote-access}
 
 !!! Note
 
@@ -106,7 +106,7 @@ HTTPS リモートアクセスを続行するには、下部の **Advanced** を
 
 ![HTTPS-Remote-Access-on-Android-Chrome](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/https_remote_access_android_chrome_3.png){class="glboxshadow" width="400"}
 
-## SSH リモートアクセス
+## SSH リモートアクセス {#ssh-remote-access}
 
 !!! Note
 

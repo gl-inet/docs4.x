@@ -1,16 +1,16 @@
-# Comment accéder aux appareils du LAN du serveur WireGuard depuis le client via des noms de domaine ?
+# Comment accéder aux appareils du LAN du serveur WireGuard depuis le client via des noms de domaine ? {#how-to-access-wireguard-server-lan-devices-from-the-client-via-domain-names}
 
 Ce tutoriel explique comment accéder, depuis un client et à l’aide de noms de domaine, aux appareils du domicile (tels qu’un NAS, une caméra IP, etc.) situés sur le LAN du serveur WireGuard.
 
-## Topologie
+## Topologie {#topology}
 
 Comme illustré ci-dessous, vous pouvez accéder depuis un PC situé sur le LAN du client à des appareils tels qu’un NAS ou une caméra IP sur le LAN du serveur WireGuard en utilisant leurs noms de domaine respectifs.
 
 ![topology](https://static.gl-inet.com/docs/router/en/4/tutorials/access_server_lan_via_domain_names/topology_be9300_be3600.png){class="glboxshadow"}
 
-## Étapes de configuration
+## Étapes de configuration {#setup-steps}
 
-### 1. Modifier les hôtes sur le serveur (facultatif)
+### 1. Modifier les hôtes sur le serveur (facultatif) {#1-edit-hosts-on-server-optional}
 
 Cette étape s’applique lorsque votre serveur VPN ne peut pas résoudre correctement les noms de domaine locaux. Ignorez cette étape si vous n’êtes pas sûr.
 
@@ -22,7 +22,7 @@ Saisissez l’adresse IP et le nom de domaine des appareils du domicile auxquels
 
 ![input ip domain](https://static.gl-inet.com/docs/router/en/4/tutorials/access_server_lan_via_domain_names/input_ip_domain.png){class="glboxshadow gl-80-desktop"}
 
-### 2. Autoriser l’accès à distance au LAN sur le serveur
+### 2. Autoriser l’accès à distance au LAN sur le serveur {#2-allow-remote-access-lan-on-server}
 
 ??? "Pour un routeur serveur exécutant le firmware v4.8"
 
@@ -48,7 +48,7 @@ Saisissez l’adresse IP et le nom de domaine des appareils du domicile auxquels
 
     **Une fois cette option activée, ce routeur et les appareils du LAN sont accessibles à distance via le VPN.**
 
-### 3. Exporter la configuration VPN
+### 3. Exporter la configuration VPN {#3-export-vpn-configuration}
 
 Dans le panneau d’administration du serveur, accédez à **VPN** -> **WireGuard Server** -> onglet **Profiles**, puis cliquez sur **Add** pour exporter un profil de configuration. 
 
@@ -66,13 +66,13 @@ Ouvrez ce fichier. Assurez-vous que le champ DNS du fichier pointe vers l’IP d
 
 **Remarque** : l’IP du tunnel du serveur WireGuard varie selon la version du firmware. Vérifiez l’IP du tunnel de votre serveur.
 
-### 4. Activer le serveur VPN
+### 4. Activer le serveur VPN {#4-enable-vpn-server}
 
 Sur la page **WireGuard Server**, cliquez sur le bouton **Start** dans l’angle supérieur droit pour démarrer le serveur.
 
 ![start server](https://static.gl-inet.com/docs/router/en/4/tutorials/access_server_lan_via_domain_names/start_server.png){class="glboxshadow"}
 
-### 5. Importer la configuration VPN
+### 5. Importer la configuration VPN {#5-upload-vpn-configuration}
 
 Connectez-vous au panneau d’administration web de votre routeur client VPN, accédez à **VPN** -> **WireGuard Client**, puis cliquez sur **Add Manually**.
 
@@ -90,7 +90,7 @@ Le fichier de configuration s’affichera ensuite ici.
 
 ![applied](https://static.gl-inet.com/docs/router/en/4/tutorials/access_server_lan_via_domain_names/wgclient_add_applied.png){class="glboxshadow"}
 
-### 6. Démarrer la connexion du client VPN
+### 6. Démarrer la connexion du client VPN {#6-start-vpn-client-connection}
 
 Cliquez sur l’icône à trois points pour lancer la connexion VPN. 
 

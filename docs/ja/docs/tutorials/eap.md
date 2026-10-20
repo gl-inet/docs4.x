@@ -1,4 +1,4 @@
-# EAPネットワークにGL.iNetルーターを接続する方法
+# EAPネットワークにGL.iNetルーターを接続する方法 {#connect-glinet-routers-to-an-eap-network}
 
 一部の GL.iNet ルーターは、EAP（Extensible Authentication Protocol）Wi-Fi ネットワークへの接続をサポートしています。
 
@@ -6,7 +6,7 @@ EAP は、**802.1X authentication** を使用する **WPA2‑Enterprise / WPA3�
 
 このガイドでは、GL.iNet ルーターを EAP Wi-Fi ネットワークに接続する 2 つの方法を紹介します。1 つは GL.iNet Web Admin Panel、もう 1 つは LuCI を使用する方法です。
 
-## 対応モデル
+## 対応モデル {#supported-models}
 
 ??? "対応モデル"
     - GL-MG1300 (Mango 2)
@@ -53,7 +53,7 @@ EAP は、**802.1X authentication** を使用する **WPA2‑Enterprise / WPA3�
     - GL-MT1300 (Beryl)
     - GL-MT300N-V2 (Mango)
 
-## Web 管理画面から接続する
+## Web 管理画面から接続する {#connect-via-web-admin-panel}
 
 1. Web 管理画面にログインし、**INTERNET** -> **Repeater** に移動して **Connect** をクリックします。
 
@@ -79,7 +79,7 @@ EAP は、**802.1X authentication** を使用する **WPA2‑Enterprise / WPA3�
 
     ![input username and Password](https://static.gl-inet.com/docs/router/en/4/tutorials/eap/username_and_password.jpg){class="glboxshadow"}
 
-## LuCI から接続する
+## LuCI から接続する {#connect-via-luci}
 
 GL.iNet の Web 管理画面で対応している EAP タイプは限られています。
 
@@ -103,7 +103,7 @@ GL.iNet の Web 管理画面で対応している EAP タイプは限られて�
 
     ![join network](https://static.gl-inet.com/docs/router/en/4/tutorials/eap/luci_join_network.png){class="glboxshadow"}
 
-## トラブルシューティング
+## トラブルシューティング {#troubleshooting}
 
 接続先の EAP ネットワークで、EAP type（PEAP、TTLS など）、domain suffix match、identity、anonymous identity などの追加パラメータが必要な場合、Web 管理画面からの EAP 接続は失敗することがあります。
 

@@ -1,4 +1,4 @@
-# ファームウェアアップデート中に「Installing」でスタックする
+# ファームウェアアップデート中に「Installing」でスタックする {#stuck-on-installing-during-firmware-update}
 
 ルーターがファームウェアアップデート中に「Installing」でスタックする場合は、以下の手順に従って問題を解決してください。
 

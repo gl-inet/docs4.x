@@ -1,4 +1,4 @@
-# Aiuto
+# Aiuto {#help}
 
 Nel pannello di amministrazione web, fai clic sull'icona del punto interrogativo sul lato destro della barra del titolo.
 

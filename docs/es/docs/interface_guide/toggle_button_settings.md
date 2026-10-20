@@ -1,10 +1,10 @@
-# Toggle Button Settings
+# Toggle Button Settings {#toggle-button-settings}
 
 Toggle Button Settings le permite asignar funciones específicas al interruptor físico del router (también llamado interruptor de modo en algunos modelos) para acceder y controlar rápidamente funciones habituales.
 
 Puede personalizar el comportamiento del interruptor en el panel de administración web.
 
-## Modelos compatibles
+## Modelos compatibles {#supported-models}
 
 ??? "Modelos compatibles"
     - GL-BE10000 (Slate 7 Pro)
@@ -43,7 +43,7 @@ Puede personalizar el comportamiento del interruptor en el panel de administraci
     - GL-AP1300 (Cirrus)
     - GL-X300B (Collie)
 
-## Configuración
+## Configuración {#setup}
 
 En el lado izquierdo del panel de administración web, vaya a **SYSTEM** -> **Toggle Button Settings**.
 

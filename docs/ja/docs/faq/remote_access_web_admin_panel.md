@@ -1,14 +1,14 @@
-# GL.iNetルーターのWeb管理パネルにリモートアクセスする方法は？
+# GL.iNetルーターのWeb管理パネルにリモートアクセスする方法は？ {#how-to-remotely-access-the-web-admin-panel-of-a-glinet-router}
 
 次の方法では、ルーターの近くにいる間に事前設定を行う必要があります。
 
-## 方法1. GoodCloud
+## 方法1. GoodCloud {#method-1-goodcloud}
 
 [GL.iNet GoodCloud](https://www.goodcloud.xyz){target="_blank"}は、接続済みデバイスのリモート展開と管理を簡単にするためのプラットフォームです。GL.iNetルーターにリモートアクセスして管理するための簡単な方法を提供します。GL.iNetルーターをGoodCloudにバインドするだけで、いつでもどこからでもルーターのWeb管理パネルにリモートアクセスできます。
 
 詳細については、[こちらのガイド](../interface_guide/cloud.md){target="_blank"}を参照してください。
 
-## 方法2. VPN
+## 方法2. VPN {#method-2-vpn}
 
 ルーターに**パブリックIP**がある場合は、VPNトンネル経由でWeb管理パネルにリモートアクセスできます。この方法には高度な設定が含まれ、セットアップに追加の時間がかかる点に注意してください。
 

@@ -1,6 +1,6 @@
-# Slate 7 Pro (GL-BE10000) Benutzerhandbuch
+# Slate 7 Pro (GL-BE10000) Benutzerhandbuch {#slate-7-pro-gl-be10000-user-guide}
 
-## Sicherheitshinweise
+## Sicherheitshinweise {#safety-information}
 
 Lesen Sie vor der Verwendung des Geräts alle nachstehenden Sicherheitsinformationen sorgfältig durch. Die nachfolgenden Sicherheitsempfehlungen können nicht sämtliche möglicherweise auftretenden Gefahrensituationen abdecken.
 
@@ -30,13 +30,13 @@ Unsachgemäßes Öffnen oder unsachgemäße Instandsetzung kann den Benutzer des
 
 Schalten Sie bei einem Störfall zuerst den Netzschalter aus.
 
-## Produktübersicht
+## Produktübersicht {#product-overview}
 
 Slate 7 Pro (GL-BE10000) ist ein tragbarer Tri-Band-Wi-Fi-7-Reiserouter. Als aufgerüstete Version des Slate 7 (GL-BE3600) verfügt er über einen größeren Touchscreen auf der Oberseite sowie über 1 GB DDR4-RAM und 512 MB NAND-Flash-Speicher für stabile Leistung und Plug-in-Kompatibilität. Er erreicht hohe VPN-Geschwindigkeiten von bis zu 1.100 Mbit/s mit WireGuard® und 1.000 Mbit/s mit OpenVPN-DCO. Mit 2 × 2,5G-Ethernet-Ports (1 WAN + 1 LAN), 1 × USB-C-3.0-Port und Unterstützung für PD-Stromversorgung bietet er starke Konnektivität und hohen Komfort für Reisen und den mobilen Einsatz.
 
 ![gl-be10000 interface](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-be10000/hardware/be10000_interface.png){class="glboxshadow"}
 
-## Lieferumfang
+## Lieferumfang {#package-contents}
 
 Im Lieferumfang enthalten sind:
 
@@ -54,7 +54,7 @@ Das folgende Video zeigt das Auspacken des Slate 7 Pro.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zNxb5gl2tfg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Touchscreen
+## Touchscreen {#touchscreen}
 
 | Bildschirmanzeige | Beschreibung |
 | :---------------- | :----------- |
@@ -64,13 +64,13 @@ Das folgende Video zeigt das Auspacken des Slate 7 Pro.
 | ![home](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-be10000/touchscreen/home.png){width="400"} | Startbildschirm<br>**Links**: Systemzeit, Netzwerkgeschwindigkeit und Schnellzugriffe für Wi-Fi, Clients, VPN und weitere Funktionen.<br>**Rechts**: Vier Verbindungsmodi: Ethernet, Repeater, Tethering und Cellular |
 | ![internet](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-be10000/touchscreen/internet.png){width="400"} | Netzwerkstatus<br>**Blau**: Aktiv / mit dem Internet verbunden<br>**Gelb**: Verbindung wird hergestellt / Netzwerkfehler<br>**Weiß**: Inaktive Verbindung |
 
-## So richten Sie Slate 7 Pro ein
+## So richten Sie Slate 7 Pro ein {#how-to-set-up-slate-7-pro}
 
-### 1. Einschalten
+### 1. Einschalten {#1-power-on}
 
 Setzen Sie die beiden Teile des Netzadapters zusammen. Verbinden Sie ihn mit Ihrem Router und stecken Sie ihn in eine Steckdose. Das Gerät startet automatisch.
 
-### 2. Gerät verbinden
+### 2. Gerät verbinden {#2-connect-device}
 
 Verbinden Sie ein Gerät (z. B. Computer, Laptop oder Smartphone) per Wi-Fi oder Ethernet mit dem Router.
 
@@ -82,11 +82,11 @@ Verbinden Sie ein Gerät (z. B. Computer, Laptop oder Smartphone) per Wi-Fi oder
 
     Suchen Sie auf Ihrem Gerät in der Liste der verfügbaren Netzwerke nach dem Wi-Fi-Namen Ihres Routers und geben Sie das Passwort ein, um sich zu verbinden. Den Standardnetzwerknamen (SSID) und das Passwort finden Sie auf dem Etikett des Routers.
 
-### 3. Im Web-Admin-Panel anmelden
+### 3. Im Web-Admin-Panel anmelden {#3-log-in-to-web-admin-panel}
 
 Öffnen Sie einen Webbrowser, geben Sie `192.168.8.1` in die Adressleiste ein und melden Sie sich an. Wählen Sie eine Sprache aus und legen Sie Ihr Admin-Passwort fest. Klicken Sie anschließend auf **Apply**.
 
-### 4. Internet einrichten
+### 4. Internet einrichten {#4-internet-setup}
 
 Richten Sie Ihren Slate 7 Pro mit einer der unterstützten Methoden für den Internetzugang ein: Ethernet, Repeater, Tethering und Cellular. Wenn Sie die Funktion [Multi-WAN](../../interface_guide/multi-wan.md) verwenden möchten, richten Sie bitte mehr als eine Internetverbindung ein.
 === "Ethernet"
@@ -128,7 +128,7 @@ Richten Sie Ihren Slate 7 Pro mit einer der unterstützten Methoden für den Int
 
 Nachfolgend finden Sie eine Übersicht über die Funktionen im Web-Admin-Panel von Slate 7 Pro.
 
-## WLAN
+## WLAN {#wireless}
 
 Auf der Seite Wireless können Sie Einstellungen für die 6-GHz-, 5-GHz- und 2,4-GHz-Wi-Fi-Netzwerke konfigurieren, darunter das Aktivieren von Wi-Fi, das Festlegen der TX-Leistung, das Definieren von Wi-Fi-Name (SSID), das Aktivieren einer zufälligen BSSID, die Auswahl von Wi-Fi-Sicherheitsmodus und Passwort, die Konfiguration der SSID-Sichtbarkeit sowie die Auswahl von Wi-Fi-Modus, Bandbreite und Kanal.
 
@@ -136,13 +136,13 @@ Darüber hinaus unterstützt Slate 7 Pro MLO-Wi-Fi, also Multi-Link Operation, b
 
 Informationen zur Einrichtung von Wireless finden Sie unter [Wireless](../../interface_guide/wireless.md).
 
-## Clients
+## Clients {#clients}
 
 Auf der Seite Clients werden Informationen zu verbundenen Geräten angezeigt. Für jeden Client werden Name, IP- und MAC-Adressen, Download- und Upload-Geschwindigkeiten sowie das gesamte Datenvolumen angezeigt. Außerdem können Sie Clients blockieren oder weitere Aktionen ausführen.
 
 Informationen zur Einrichtung von Clients finden Sie unter [Clients](../../interface_guide/clients.md).
 
-## Cloud-Dienste
+## Cloud-Dienste {#cloud-services}
 
 === "GoodCloud"
 
@@ -156,7 +156,7 @@ Informationen zur Einrichtung von Clients finden Sie unter [Clients](../../inter
     
     Informationen zur Einrichtung finden Sie unter [AstroWarp](../../interface_guide/astrowarp.md).
 
-## VPN
+## VPN {#vpn}
 
 Ein VPN (Virtual Private Network) erstellt einen sicheren, verschlüsselten Datenverkehr zwischen Ihrem Gerät und dem VPN-Server. Es bietet eine zusätzliche Ebene für Privatsphäre und Sicherheit (VPN-Client) und ermöglicht den Zugriff auf ein entferntes Netzwerk (VPN-Server). Slate 7 Pro unterstützt die Protokolle OpenVPN und WireGuard.
 
@@ -174,7 +174,7 @@ Ein VPN (Virtual Private Network) erstellt einen sicheren, verschlüsselten Date
     * [WireGuard-Client einrichten](../../interface_guide/wireguard_client.md)
     * [WireGuard-Server einrichten](../../interface_guide/wireguard_server.md)
 
-## Netzwerk
+## Netzwerk {#network}
 
 === "Multi-WAN"
 
@@ -243,7 +243,7 @@ Ein VPN (Virtual Private Network) erstellt einen sicheren, verschlüsselten Date
     
     Informationen zur Einrichtung finden Sie unter [Network Acceleration](../../interface_guide/network_acceleration.md).
 
-## Durchflusskontrolle
+## Durchflusskontrolle {#flow-control}
 
 === "DPI Engine"
 
@@ -285,7 +285,7 @@ Ein VPN (Virtual Private Network) erstellt einen sicheren, verschlüsselten Date
 
     Weitere Informationen finden Sie unter [SQM](../../interface_guide/sqm.md).
 
-## Sicherheit
+## Sicherheit {#security}
 
 === "Port Forwarding"
 
@@ -309,7 +309,7 @@ Ein VPN (Virtual Private Network) erstellt einen sicheren, verschlüsselten Date
 
     Weitere Informationen finden Sie unter [NAT Mode](../../interface_guide/nat_settings.md).
 
-## Anwendungen
+## Anwendungen {#applications}
 
 === "Plug-ins"
 
@@ -355,7 +355,7 @@ Ein VPN (Virtual Private Network) erstellt einen sicheren, verschlüsselten Date
     
     Informationen zur Einrichtung finden Sie unter [Tor](../../interface_guide/tor.md).
 
-## System
+## System {#system}
 
 === "Overview"
 
@@ -452,6 +452,6 @@ Ein VPN (Virtual Private Network) erstellt einen sicheren, verschlüsselten Date
 
     Weitere Informationen finden Sie unter [Advanced Settings](../../interface_guide/advanced_settings.md).
 
-## Konformitätserklärung
+## Konformitätserklärung {#declaration-of-conformity}
 
 Hiermit erklärt GL TECHNOLOGIES (HONG KONG) LIMITED, dass der Funkanlagentyp [BE10000 Wi-Fi 7 Router, GL-BE10000] den grundlegenden Anforderungen und den übrigen einschlägigen Bestimmungen der Richtlinie 2014/53/EU entspricht. Der vollständige Text der EU-Konformitätserklärung ist unter der folgenden Internetadresse verfügbar: [https://www.gl-inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}.

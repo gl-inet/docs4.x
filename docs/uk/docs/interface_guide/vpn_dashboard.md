@@ -49,8 +49,6 @@
 
 Натисніть **Go to Dashboard** унизу. Відкриється VPN Dashboard для додавання тунелю та налаштування політик VPN.
 
-<span id="set-up-vpn-policy"></span>
-
 ## Додавання тунелю VPN {#add-vpn-tunnel}
 
 ### Загальна послідовність дій {#general-steps}

@@ -1,4 +1,4 @@
-# DNS
+# DNS {#dns}
 
 **Note**: The content on this page is based on firmware version v4.10 and earlier. 
 
@@ -26,21 +26,21 @@ If you set custom DNS server(s), any DNS queries will be resolved through the sp
 
 - **Allow Custom DNS to Override VPN DNS:** If enabled, once you have set custom DNS, packets transmitted through the VPN tunnel will be resolved using the custom DNS override instead of the DNS server settings from the VPN connections.
 
-## DNS Server Settings
+## DNS Server Settings {#dns-server-settings}
 
 There are four modes: Automatic, Encrypted DNS, Manual DNS, and DNS Proxy.
 
-### Automatic
+### Automatic {#automatic}
 
 In this mode, the router will automatically use the DNS server provided by the upstream device (e.g., ISP modem, primary router), or the DNS settings corresponding to each network interface.
 
 ![automatic](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/dns_auto.png){class="glboxshadow"}
 
-### Encrypted DNS
+### Encrypted DNS {#encrypted-dns}
 
 Please refer to the instructions below according to your firmware version.
 
-#### For Firmware v4.8 and earlier
+#### For Firmware v4.8 and earlier {#for-firmware-v48-and-earlier}
     
 Four encryption types are available: DNS over TLS, DNSCrypt-Proxy, DNS over HTTPS, and Oblivious DNS over HTTPS.
 
@@ -56,7 +56,7 @@ Please select the **Encryption Type** first. The remaining options will change a
 
     ![dnscrypt-proxy](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/dnscrypt-proxy.png){class="glboxshadow"}
 
-#### For Firmware v4.9 to v4.10
+#### For Firmware v4.9 to v4.10 {#for-firmware-v49-to-v410}
 
 In addition to Control D, NextDNS and Cloudflare, more DNS providers are now available for Encrypted DNS mode, including **Quad9**, **CleanBrowsing**, **AdGuard DNS**, **Google DNS**, and **OpenDNS**. You can also specify an encrypted DNS server manually as needed.
 
@@ -76,7 +76,7 @@ Select the **DNS Provider** first. The remaining options will change according t
 
     ![encrypted manual2](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/encrypted_manual2.png){class="glboxshadow"}
 
-#### Encryption Type Comparison
+#### Encryption Type Comparison {#encryption-type-comparison}
 
 1. **DNS over TLS (DoT)**
 
@@ -98,19 +98,19 @@ Select the **DNS Provider** first. The remaining options will change according t
 
     A mature encryption protocol for DNS. It authenticates and encrypts DNS traffic, focusing on anti-tampering and compatibility with legacy network environments.
 
-### Manual DNS
+### Manual DNS {#manual-dns}
 
 In this mode, you can customize your router's DNS server. Select at least one DNS Server for your router from the drop-down list.
 
 ![manual dns](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/manual_dns.png){class="glboxshadow"}
 
-### DNS Proxy
+### DNS Proxy {#dns-proxy}
 
 In this mode, the router will route all LAN DNS queries to the proxy server address you specify (e.g., 8.8.8.8#53). This might be useful if you are running another DNS server or Pi-hole on your network.
 
 ![dns proxy](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/dns_proxy.png){class="glboxshadow"}
 
-## Edit Hosts
+## Edit Hosts {#edit-hosts}
 
 You can click the **Edit Hosts** button at the top right to customize static host rules.
 

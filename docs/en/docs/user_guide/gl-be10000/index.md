@@ -1,12 +1,12 @@
-# Slate 7 Pro (GL-BE10000) User Guide
+# Slate 7 Pro (GL-BE10000) User Guide {#slate-7-pro-gl-be10000-user-guide}
 
-## Product overview
+## Product overview {#product-overview}
 
 Slate 7 Pro (GL-BE10000) is a tri‑band Wi‑Fi 7 portable travel router. As an upgraded version of Slate 7 (GL-BE3600), it features a larger touchscreen on the top, and is equipped with 1GB DDR4 RAM and 512MB NAND flash storage for stable performance and plugin compatibility. It delivers high VPN speeds of up to 1,100 Mbps for WireGuard® and 1,000 Mbps for OpenVPN-DCO. With 2× 2.5G Ethernet ports (1 WAN + 1 LAN), 1× USB-C 3.0 port and PD power support, it provides strong connectivity and convenience for travel and mobile use.
 
 ![gl-be10000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/hardware/be10000_interface.png){class="glboxshadow"}
 
-## Package contents
+## Package contents {#package-contents}
 
 The package includes:
 
@@ -24,7 +24,7 @@ Check out Slate 7 Pro's unboxing video below.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zNxb5gl2tfg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Touchscreen
+## Touchscreen {#touchscreen}
 
 | Screen Display                    | Description         |
 | :-------------------------------- | :------------------ |
@@ -34,13 +34,13 @@ Check out Slate 7 Pro's unboxing video below.
 | ![home](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/home.png){width="400"} | Home screen<br>**Left**: System time, network speed, and shortcuts for Wi-Fi, Clients, VPN, and other functions.<br>**Right**: Four connection modes: Ethernet, Repeater, Tethering, and Cellular |
 | ![internet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/internet.png){width="400"} | Network status<br>**Blue**: Active / Connected to Internet<br>**Yellow**: Connecting / Network Failure<br>**White**: Inactive connection
 
-## How to set up Slate 7 Pro
+## How to set up Slate 7 Pro {#how-to-set-up-slate-7-pro}
 
-### 1. Power on
+### 1. Power on {#1-power-on}
 
 Put the two-piece power adapter together. Connect it to your router and plug it into an outlet. It will start up automatically.
 
-### 2. Connect device
+### 2. Connect device {#2-connect-device}
 
 Connect a device (e.g., computer, laptop or smartphone) to the router using Wi-Fi or Ethernet.
 
@@ -52,11 +52,11 @@ Connect a device (e.g., computer, laptop or smartphone) to the router using Wi-F
 
     On your device, locate your router's Wi-Fi network name in the available networks list, and enter the password to join the network. You can find the default network name (SSID) and password printed on the router's label.
 
-### 3. Log in to web Admin Panel
+### 3. Log in to web Admin Panel {#3-log-in-to-web-admin-panel}
 
 Open a web browser, enter `192.168.8.1` in the address bar and log in. Choose a language and set your admin password, then click **Apply**. 
 
-### 4. Internet setup
+### 4. Internet setup {#4-internet-setup}
 
 Configure your Slate 7 Pro using one of the supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular. If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, please set up more than one internet connection.
 
@@ -99,7 +99,7 @@ Configure your Slate 7 Pro using one of the supported internet connection method
 
 Below is an overview of the features in the Slate 7 Pro web Admin Panel.
 
-## Wireless 
+## Wireless {#wireless}
 
 The Wireless page allows you to configure settings for the 6GHz, 5 GHz and 2.4 GHz Wi-Fi networks, including enabling Wi-Fi, setting TX power, specifying the Wi-Fi name (SSID), enabling randomized BSSID, selecting Wi-Fi security mode and password, configuring SSID visibility, choosing the Wi-Fi mode, bandwidth, and channel. 
     
@@ -107,13 +107,13 @@ In addition, Slate 7 Pro supports MLO Wi-Fi, i.e. Multi-Link Operation, combinin
 
 To set up Wireless, refer to [Wireless](../../interface_guide/wireless.md).
 
-## Clients
+## Clients {#clients}
 
 The Clients page displays information about connected devices. For each client, it shows the name, IP and MAC addresses, download and upload speeds, total traffic, and provides the ability to block the client or perform other actions.
 
 To set up Clients, refer to [Clients](../../interface_guide/clients.md).
 
-## Cloud Services
+## Cloud Services {#cloud-services}
 
 === "GoodCloud"
 
@@ -127,7 +127,7 @@ To set up Clients, refer to [Clients](../../interface_guide/clients.md).
     
     To set up AstroWarp, refer to [AstroWarp](../../interface_guide/astrowarp.md).
 
-## VPN 
+## VPN {#vpn}
 
 A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Slate 7 Pro supports OpenVPN and WireGuard protocols. 
 
@@ -145,7 +145,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     * [How to set up a WireGuard client](../../interface_guide/wireguard_client.md)
     * [How to set up a WireGuard server](../../interface_guide/wireguard_server.md)
 
-## Network
+## Network {#network}
 
 === "Multi-WAN"
 
@@ -214,7 +214,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     To set up network acceleration, refer to [Network Acceleration](../../interface_guide/network_acceleration.md).
 
-## Flow Control
+## Flow Control {#flow-control}
 
 === "DPI Engine"
 
@@ -256,7 +256,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     Please refer to [SQM](../../interface_guide/sqm.md) for details.
 
-## Security
+## Security {#security}
 
 === "Port Forwarding"
 
@@ -280,7 +280,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     Please refer to [NAT Mode](../../interface_guide/nat_settings.md) for details.
 
-## Applications
+## Applications {#applications}
 
 === "Plug-ins"
 
@@ -326,7 +326,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     To set up Tor, refer to [Tor](../../interface_guide/tor.md).
 
-## System
+## System {#system}
 
 === "Overview"
 
@@ -423,7 +423,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     Please refer to [Advanced Settings](../../interface_guide/advanced_settings.md) for details.
 
-## Regulatory Statements
+## Regulatory Statements {#regulatory-statements}
 
 **Canadian Compliance Statement**
 

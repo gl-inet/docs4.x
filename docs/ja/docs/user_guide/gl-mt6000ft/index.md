@@ -1,12 +1,12 @@
-# Fortify (GL-MT6000) ユーザーガイド
+# Fortify (GL-MT6000) ユーザーガイド {#fortify-gl-mt6000-user-guide}
 
-## 製品概要
+## 製品概要 {#product-overview}
 
 Fortify (GL-MT6000) は、GL.iNet と ExpressVPN が共同でリリースした共同ブランドの Wi-Fi 6 ルーターです。すべてのユニットには、1 年間の ExpressVPN サブスクリプションが無料で付属しています。ユーザーはサブスクリプションを引き換えて、ルーターの Web 管理パネルでアカウントに直接接続できます。ExpressVPNトンネルが接続されている場合、ルーターはVPNポリシー設定に従ってトラフィックを暗号化し、そのトンネルを経由してルーティングします。
 
 ![fortify gl-mt6000](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000-fortify/mt6000-fortify_interface.png){class="glboxshadow"}
 
-## パッケージ内容
+## パッケージ内容 {#package-contents}
 
 - 1 x Fortify (GL-MT6000)
 - 1 x ユーザーマニュアル
@@ -22,17 +22,17 @@ Fortify (GL-MT6000) は、GL.iNet と ExpressVPN が共同でリリースした�
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IQEfj7Hff7U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Fortifyのセットアップ方法
+## Fortifyのセットアップ方法 {#how-to-set-up-fortify}
 
 このセットアップ動画を視聴するか、以下の手順に従ってください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FymI3LCRMTA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. 電源を入れる
+### 1. 電源を入れる {#1-power-on}
 
 2 ピースの電源アダプターを組み合わせます。 Fortify ルーターに接続し、コンセントに差し込みます。自動的に起動します。
 
-### 2. デバイスを接続します
+### 2. デバイスを接続します {#2-connect-device}
 
 デバイス（パソコン、ノートパソコン、スマートフォンなど）をWi-FiまたはEthernetでルーターに接続します。
 
@@ -44,7 +44,7 @@ Fortify (GL-MT6000) は、GL.iNet と ExpressVPN が共同でリリースした�
 
     デバイスで、[設定] -> [WLAN] に移動し、利用可能なネットワークのリストでルーターの Wi-Fi ネットワーク名を見つけ、ネットワークに参加するためのパスワードを入力します。デフォルトのネットワーク名とパスワードはルーターのラベルに記載されています。
 
-### 3. Web 管理パネルにログインします。
+### 3. Web 管理パネルにログインします。 {#3-log-in-to-web-admin-panel}
 
 Web ブラウザを開き、アドレス バーに「`192.168.8.1`」と入力してログインします。右上隅で言語を選択し、管理者パスワードを設定して、「**Next**」をクリックします。パスワードの長さは 10 ～ 63 文字で、大文字、小文字、数字、特殊記号のうち少なくとも 2 つを含む必要があります。
 
@@ -54,7 +54,7 @@ Wi-Fi をセットアップします。 Wi-Fi 情報を変更した場合は、�
 
 ![fortify login2](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000-fortify/login2.png){class="glboxshadow"}
 
-### 4. インターネットのセットアップ
+### 4. インターネットのセットアップ {#4-internet-setup}
 
 **注：** 次の手順は、GL.iNet Web管理画面からルーターを設定する場合に適用されます。[GL.iNetアプリ](https://www.gl-inet.com/pages/app#download-app-glinet){target="_blank"}を使用する場合は、アプリをダウンロードし、画面の案内に従ってください。
 
@@ -108,19 +108,19 @@ Wi-Fi をセットアップします。 Wi-Fi 情報を変更した場合は、�
 
 以下は、Fortify Web 管理パネルの機能の概要です。
 
-## ワイヤレス
+## ワイヤレス {#wireless}
 
 [ワイヤレス] ページでは、メイン ネットワーク、ゲスト ネットワーク、IoT ネットワークなどの Fortify の Wi-Fi ネットワークを構成できます。各ネットワークは、2.4 GHz 帯域と 5 GHz 帯域の両方をサポートします。
 
 ワイヤレスを設定するには、[ワイヤレス](../../interface_guide/wireless.md)を参照してください。
 
-## クライアント
+## クライアント {#clients}
 
 [クライアント] ページには、デバイス名、接続タイプ、IP および MAC アドレス、ダウンロードおよびアップロードの速度、トラフィックなど、接続されているデバイスに関する情報が表示され、ワンクリックで特定のクライアントをブロックしたり、他のアクションを実行したりする機能が提供されます。
 
 詳細については、[クライアント](../../interface_guide/clients.md)を参照してください。
 
-## クラウドサービス
+## クラウドサービス {#cloud-services}
 
 === "GoodCloud"
 
@@ -134,7 +134,7 @@ Wi-Fi をセットアップします。 Wi-Fi 情報を変更した場合は、�
 
     詳細は[AstroWarp](../../interface_guide/astrowarp.md)をご参照ください。
 
-## VPN
+## VPN {#vpn}
 
 VPN (virtual private network) は、ローカル デバイスと VPN サーバーの間に安全な暗号化されたトラフィック トンネルを確立します。これにより、VPN クライアントにプライバシーとセキュリティの追加層が追加され、リモート VPN サーバー ネットワークへのアクセスが可能になります。
 
@@ -146,7 +146,7 @@ OpenVPN サーバーをセットアップするには、[OpenVPN サーバー](.
 
 WireGuard サーバーをセットアップするには、[WireGuard サーバー](../../interface_guide/wireguard_server.md) を参照してください。
 
-## ネットワーク
+## ネットワーク {#network}
 
 === "Multi-WAN"
 
@@ -218,7 +218,7 @@ WireGuard サーバーをセットアップするには、[WireGuard サーバ�
 
     ネットワーク アクセラレーションを設定するには、[ネットワーク アクセラレーション](../../interface_guide/network_acceleration.md) を参照してください。
 
-## フロー制御
+## フロー制御 {#flow-control}
 
 === "DPI Engine"
 
@@ -260,7 +260,7 @@ WireGuard サーバーをセットアップするには、[WireGuard サーバ�
 
     詳細については、[ペアレンタルコントロール](../../interface_guide/parental_control_v4.9.md)を参照してください。
 
-## セキュリティ
+## セキュリティ {#security}
 
 === "Port forwarding"
 
@@ -290,7 +290,7 @@ WireGuard サーバーをセットアップするには、[WireGuard サーバ�
 
     詳細については、[NATモード](../../interface_guide/nat_settings.md)を参照してください。
 
-## アプリケーション
+## アプリケーション {#applications}
 
 === "Plug-ins"
 
@@ -344,7 +344,7 @@ WireGuard サーバーをセットアップするには、[WireGuard サーバ�
 
     詳細については、[Tor](../../interface_guide/tor.md) を参照してください。
 
-## システム
+## システム {#system}
 
 === "Overview"
 

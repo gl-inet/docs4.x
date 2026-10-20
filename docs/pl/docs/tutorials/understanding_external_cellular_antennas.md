@@ -1,10 +1,10 @@
-# Zrozumienie zewnętrznych anten komórkowych
+# Zrozumienie zewnętrznych anten komórkowych {#understanding-external-cellular-antennas}
 
 Zewnętrzne anteny komórkowe mogą w niektórych sytuacjach poprawić jakość połączenia komórkowego, ale nie gwarantują zwiększenia prędkości pobierania ani wysyłania.
 
 Ten poradnik wyjaśnia, kiedy antena zewnętrzna może pomóc, jak wybrać zgodną antenę oraz jakie czynniki wpływają na wydajność połączenia komórkowego.
 
-## Kiedy używać anteny zewnętrznej?
+## Kiedy używać anteny zewnętrznej? {#when-should-i-use-an-external-antenna}
 
 Antena zewnętrzna może poprawić połączenie, jeśli router jest zainstalowany w miejscu, w którym sygnał komórkowy słabnie, zanim dotrze do urządzenia.
 
@@ -19,7 +19,7 @@ Typowe przykłady:
 
 Przed zakupem anteny spróbuj przenieść router bliżej okna lub w wyższe miejsce. W wielu przypadkach sama zmiana położenia routera może znacznie poprawić jakość sygnału.
 
-## Kiedy antena zewnętrzna nie pomoże?
+## Kiedy antena zewnętrzna nie pomoże? {#when-wont-an-external-antenna-help}
 
 Antena zewnętrzna nie rozwiąże każdego problemu z łącznością komórkową.
 
@@ -34,7 +34,7 @@ Może zapewnić niewielką poprawę lub nie zapewnić jej wcale, jeśli:
 
 Silniejszy sygnał nie zawsze oznacza większą prędkość Internetu.
 
-## Wybór odpowiedniej anteny
+## Wybór odpowiedniej anteny {#choosing-the-right-antenna}
 
 Przed zakupem anteny upewnij się, że jest zgodna zarówno z routerem, jak i z operatorem komórkowym.
 
@@ -47,7 +47,7 @@ Sprawdź następujące elementy:
 
 Prawidłowy typ złącza antenowego znajdziesz w dokumentacji produktu routera.
 
-## Zrozumienie MIMO
+## Zrozumienie MIMO {#understanding-mimo}
 
 Większość nowoczesnych sieci LTE i 5G używa technologii **Multiple Input Multiple Output (MIMO)**, aby poprawić przepustowość i niezawodność połączenia.
 
@@ -61,7 +61,7 @@ Aby uzyskać najlepszą wydajność:
 
 Używanie tylko jednej anteny w routerze zaprojektowanym do pracy z wieloma antenami może obniżyć ogólną wydajność.
 
-## Zysk anteny i strata na kablu
+## Zysk anteny i strata na kablu {#antenna-gain-and-cable-loss}
 
 Zysk anteny jest zwykle mierzony w **dBi**.
 
@@ -77,9 +77,9 @@ Aby uzyskać najlepsze wyniki:
 - Unikaj zbędnych adapterów.
 - Przy dłuższych odcinkach używaj niskostratnego kabla koncentrycznego.
 
-## Anteny dookólne i kierunkowe
+## Anteny dookólne i kierunkowe {#omnidirectional-vs-directional-antennas}
 
-### Anteny dookólne
+### Anteny dookólne {#omnidirectional-antennas}
 
 Anteny dookólne odbierają sygnały ze wszystkich kierunków.
 
@@ -90,7 +90,7 @@ Są zwykle zalecane do:
 - Instalacji mobilnych
 - Obszarów z kilkoma pobliskimi stacjami bazowymi
 
-### Anteny kierunkowe
+### Anteny kierunkowe {#directional-antennas}
 
 Anteny kierunkowe skupiają odbiór w określonym kierunku.
 
@@ -103,7 +103,7 @@ Są zwykle zalecane, gdy:
 
 Anteny kierunkowe zwykle wymagają dokładnego ustawienia, aby uzyskać najlepszą wydajność.
 
-## Pomiar poprawy
+## Pomiar poprawy {#measuring-improvement}
 
 Nie polegaj wyłącznie na kreskach sygnału widocznych w interfejsie routera.
 
@@ -119,27 +119,27 @@ Przydatne pomiary:
 
 Wykonaj kilka testów prędkości w podobnych warunkach, ponieważ wydajność sieci komórkowej naturalnie zmienia się w ciągu dnia.
 
-## Często zadawane pytania
+## Często zadawane pytania {#frequently-asked-questions}
 
-### Czy mogę użyć dowolnej anteny komórkowej?
+### Czy mogę użyć dowolnej anteny komórkowej? {#can-i-use-any-cellular-antenna}
 
 Nie.
 
 Antena musi używać prawidłowego typu złącza i obsługiwać pasma częstotliwości komórkowych używane przez router oraz operatora komórkowego.
 
-### Czy warto kupić antenę o najwyższym dostępnym zysku?
+### Czy warto kupić antenę o najwyższym dostępnym zysku? {#should-i-buy-the-highest-gain-antenna-available}
 
 Niekoniecznie.
 
 Wybierz antenę odpowiednią do swojej instalacji, zamiast kierować się wyłącznie deklarowanym zyskiem.
 
-### Czy antena zewnętrzna zawsze zwiększy prędkość Internetu?
+### Czy antena zewnętrzna zawsze zwiększy prędkość Internetu? {#will-an-external-antenna-always-increase-my-internet-speed}
 
 Nie.
 
 Wydajność zależy od wielu czynników, w tym jakości sygnału, agregacji pasm, przeciążenia stacji bazowej, warunków sieciowych oraz operatora komórkowego.
 
-### Czy wewnętrzne anteny komórkowe będą nadal używane po podłączeniu anten zewnętrznych?
+### Czy wewnętrzne anteny komórkowe będą nadal używane po podłączeniu anten zewnętrznych? {#will-the-internal-cellular-antennas-still-be-used-when-external-antennas-are-connected}
 
 Nie.
 
@@ -147,7 +147,7 @@ W routerach komórkowych GL.iNet z portami dla zewnętrznych anten komórkowych 
 
 Aby uzyskać najlepszą wydajność, podłącz wszystkie wymagane przewody anten zewnętrznych. Podłączenie tylko jednego przewodu do routera zaprojektowanego do pracy z wieloma antenami komórkowymi może obniżyć wydajność MIMO i ogólną jakość połączenia.
 
-### Czy mogę podłączyć antenę Wi-Fi do portu anteny komórkowej?
+### Czy mogę podłączyć antenę Wi-Fi do portu anteny komórkowej? {#can-i-connect-a-wi-fi-antenna-to-a-cellular-antenna-port}
 
 Nie.
 
@@ -155,7 +155,7 @@ Anteny Wi-Fi i anteny komórkowe są przeznaczone do różnych systemów radiowy
 
 ---
 
-## Powiązane poradniki
+## Powiązane poradniki {#related-tutorials}
 
 - [Zainstaluj lub wymień zewnętrzne anteny](how_to_install_or_change_antennas.md)
 - [Sprawdź stan agregacji pasm](how_to_check_carrier_aggregation.md)

@@ -4,11 +4,11 @@ hide:
   - toc
 ---
 
-# Tutorial
+# Tutorial {#tutorials}
 
 Scopri come usare correttamente i nostri dispositivi con istruzioni dettagliate.
 
-## VPN
+## VPN {#vpn}
 
 * [Come configurare il client OpenVPN sui router GL.iNet](how_to_set_up_openvpn_client.md)
 * [Come configurare il server OpenVPN sui router GL.iNet](how_to_set_up_openvpn_server.md)
@@ -31,7 +31,7 @@ Scopri come usare correttamente i nostri dispositivi con istruzioni dettagliate.
 * [Come aggiornare i certificati del server OpenVPN](how_to_update_openvpn_server_certificates.md)
 * [Come fare in modo che il DNS di AdGuard Home bypassi la VPN](how_to_make_adguard_home_dns_bypass_vpn.md)
 
-## Cellular
+## Cellular {#cellular}
 
 * [SMS](sms.md)
 * [Inoltro SMS](sms_forwarding.md)
@@ -42,17 +42,17 @@ Scopri come usare correttamente i nostri dispositivi con istruzioni dettagliate.
 * [Come installare o sostituire le antenne esterne per router cellulari](how_to_install_or_change_antennas.md)
 * [Comprendere le antenne cellulari esterne](understanding_external_cellular_antennas.md)
 
-## eSIM
+## eSIM {#esim}
 
 * [Come usare la eSIM Physical Card con i router GL.iNet](how_to_use_esim_physical_card_with_glinet_routers.md)
 * [Come usare la eSIM Physical Card con dispositivi Android](how_to_use_the_esim_physical_card_with_android_devices.md)
 
-## GoodCloud
+## GoodCloud {#goodcloud}
 
 * [GoodCloud Site to Site](goodcloud_site_to_site.md)
 * [Come accedere all'interfaccia LuCI tramite GoodCloud](how_to_access_the_luci_interface_via_goodcloud.md)
 
-## Rete
+## Rete {#network}
 
 * [Come collegarsi a una rete EAP (Extensible Authentication Protocol)](eap.md)
 * [Come configurare una rete Wi-Fi ospite sui router GL.iNet](how_to_set_up_a_guest_network.md)
@@ -62,7 +62,7 @@ Scopri come usare correttamente i nostri dispositivi con istruzioni dettagliate.
 * [Come configurare l'accesso dual wired WAN su un router con una sola porta WAN](configure_dual_ethernet_wan.md)
 * [Che cos'è USB-C OTG e come condividere la rete tramite USB-C OTG](what_is_usb-c_otg_and_how_to_share_your_network_via_usb-c_otg.md)
 
-## Altro
+## Altro {#others}
 
 * [Come bloccare i dispositivi client](how_to_block_client_devices.md)
 * [Come configurare manualmente un IP statico sui dispositivi client](manually_configure_static_ip.md)

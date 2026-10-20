@@ -1,4 +1,4 @@
-# Co zrobić, jeśli po wymianie starego routera na router GL.iNet nie ma dostępu do Internetu
+# Co zrobić, jeśli po wymianie starego routera na router GL.iNet nie ma dostępu do Internetu {#what-should-i-do-if-i-have-no-internet-after-replacing-the-old-router-with-a-glinet-router}
 
 Jeśli po wymianie starego routera na router GL.iNet nie możesz uzyskać dostępu do Internetu, nowy router może nie otrzymywać adresu IP (przez DHCP lub PPPoE), gdy jego port WAN jest podłączony do modemu.
 

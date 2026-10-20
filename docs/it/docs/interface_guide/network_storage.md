@@ -1,6 +1,6 @@
-# Network Storage
+# Network Storage {#network-storage}
 
-## Introduction
+## Introduction {#introduction}
 
 Network storage consente la condivisione wireless dei file tra dispositivi collegando un'unita' USB o una scheda SD al router. Il router converte il dispositivo di archiviazione in un'unita' di rete condivisa, accessibile a tutti i dispositivi connessi al Wi-Fi.
 
@@ -14,7 +14,7 @@ Alcuni modelli GL.iNet dispongono di slot per schede MicroSD(TF), mentre altri d
 
     3. Il pannello di amministrazione web consente solo di gestire le cartelle condivise. Per gestire i file sul dispositivo di archiviazione, usa la [mobile app](https://www.gl-inet.com/app/#download-app-glinet){target="_blank"}.
 
-## Supported Models
+## Supported Models {#supported-models}
 
 Di solito, i modelli con porte USB o slot MicroSD(TF) supportano Network Storage, cioe' la condivisione dei file.
 
@@ -160,7 +160,7 @@ Collega il dispositivo di archiviazione. Quando viene rilevato, la pagina verra'
 
 ---
 
-## Samba Client
+## Samba Client {#samba-client}
 
 === "Windows"
 
@@ -244,7 +244,7 @@ Collega il dispositivo di archiviazione. Quando viene rilevato, la pagina verra'
 
         ![ios files set up SMB](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios_files_smb_1.png){class="glboxshadow" width="560"}
 
-        Tocca l'opzione **Connect to Server** nella parte superiore del menu. Nella schermata successiva, inserisci l'URL di connessione del server. Puoi trovare l'URL in [Shared Link](#shared-link). Tocca il pulsante **Next** in alto a destra per continuare.
+        Tocca l'opzione **Connect to Server** nella parte superiore del menu. Nella schermata successiva, inserisci l'URL di connessione del server. Puoi trovare l'URL in [Shared Link](#set-up-samba). Tocca il pulsante **Next** in alto a destra per continuare.
 
         ![ios files set up SMB](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios_files_smb_2.png){class="glboxshadow" width="560"}
 
@@ -280,7 +280,7 @@ Collega il dispositivo di archiviazione. Quando viene rilevato, la pagina verra'
 
         ![documents samba](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/documents_4_samba.png){class="glboxshadow" width="560"}
 
-## WebDAV Client
+## WebDAV Client {#webdav-client}
 
 === "Windows"
 
@@ -366,7 +366,7 @@ Collega il dispositivo di archiviazione. Quando viene rilevato, la pagina verra'
 
     ![documents WebDAV](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav_client/documents_4_webdav.png){class="glboxshadow" width="560"}
 
-## Using Mobile App
+## Using Mobile App {#using-mobile-app}
 
 Il pannello di amministrazione web consente solo di gestire le cartelle condivise. Per gestire i file sul dispositivo di archiviazione, usa la [mobile app](https://www.gl-inet.com/app/#download-app-glinet){target="_blank"}.
 

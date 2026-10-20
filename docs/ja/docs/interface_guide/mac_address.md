@@ -1,4 +1,4 @@
-# MACアドレス
+# MACアドレス {#mac-address}
 
 このガイドはファームウェア v4.5 以前に適用されます。
 
@@ -30,7 +30,7 @@ Web Admin Panel の左側で、**NETWORK** -> **MAC Address** に移動します
 
     ![Manual input or generate a random mac address](https://static.gl-inet.com/docs/router/en/4/interface_guide/mac_address/manual.png){class="glboxshadow"}
 
-## 使用シナリオ
+## 使用シナリオ {#usage-scenarios}
 
 パブリックホットスポットへ接続する際、実際の MAC アドレスを知られたくない場合や、MAC アドレスに基づいてインターネットアクセスを制限されたくない場合は、ランダムな MAC アドレスを使用してください。詳しくは、[Connect to a Hotspot with a Captive Portal](../faq/connect_to_a_hotspot_with_captive_portal.md) を参照してください。
 

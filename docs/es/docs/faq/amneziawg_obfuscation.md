@@ -1,10 +1,10 @@
-# Ofuscación de AmneziaWG
+# Ofuscación de AmneziaWG {#amneziawg-obfuscation}
 
 AmneziaWG es un protocolo VPN basado en WireGuard con ofuscación de tráfico integrada. Sus parámetros de ofuscación controlan cómo se disfraza el tráfico para evadir la detección bajo inspección de red restrictiva.
 
 A continuación se ofrece una introducción detallada a AmneziaWG, las diferencias entre versiones, su uso en routers GL.iNet y un resumen de los parámetros.
 
-## ¿Por qué AmneziaWG?
+## ¿Por qué AmneziaWG? {#why-amneziawg}
 
 El predecesor de AmneziaWG, WireGuard, se ha consolidado como un protocolo VPN rápido y fiable gracias a su base de código compacta y su alta eficiencia. Sin embargo, sus encabezados de paquetes fijos y sus tamaños de paquetes predecibles crean una firma fácilmente reconocible. Los sistemas DPI pueden identificar estos paquetes con facilidad y terminar las conexiones de inmediato, lo que representa un problema crítico en países con una censura de Internet estricta.
 
@@ -15,7 +15,7 @@ En resumen:
 - Enmascara las características de la VPN para evitar la detección por parte de ISP, cortafuegos o inspección profunda de paquetes (DPI).
 - Hace que su conexión VPN parezca tráfico web estándar, mejorando la estabilidad y la tasa de éxito en redes restringidas.
 
-## AmneziaWG V2.0
+## AmneziaWG V2.0 {#amneziawg-v20}
 
 En comparación con AmneziaWG v1.0, la versión 2.0 proporciona una ofuscación más potente al añadir nuevos parámetros (**S3~S4**) y utilizar encabezados dinámicos para los tipos de paquetes (**H1~H4** como rangos en lugar de valores fijos). Además, AmneziaWG 2.0 admite los parámetros **I1~I5**, que envían paquetes UDP formateados antes de cada handshake para disfrazar el tráfico de AmneziaWG como tráfico normal no VPN, lo que permite evitar eficazmente la inspección profunda de paquetes y mejorar la conectividad en redes restringidas.
 
@@ -35,13 +35,13 @@ Estas mejoras hacen que el tráfico VPN sea más difícil de detectar y, al mism
             
     > Nota: I1-I5 no se generan automáticamente. Los usuarios pueden añadirlos manualmente como líneas adicionales en el archivo de configuración para que el tráfico de AmneziaWG se parezca a otros protocolos comunes, como QUIC o WebRTC.
 
-## Modelos compatibles
+## Modelos compatibles {#supported-model}
 
 AmneziaWG 2.0 está disponible en routers GL.iNet con el firmware v4.9 o posterior.
 
 Para configurar la ofuscación VPN en routers GL.iNet, consulte [este tutorial](../tutorials/how_to_set_up_vpn_obfuscation_on_glinet_routers.md).
 
-## Resumen de parámetros
+## Resumen de parámetros {#parameter-overview}
 
 | Parámetro | Descripción | Restricciones | Generado automáticamente |
 | --------- | ----------- | ------------- | ------------------------ |

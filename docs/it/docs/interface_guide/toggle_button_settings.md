@@ -1,10 +1,10 @@
-# Toggle Button Settings
+# Toggle Button Settings {#toggle-button-settings}
 
 Toggle Button Settings consente di assegnare funzioni specifiche all'interruttore fisico a levetta, chiamato anche mode switch su alcuni modelli, per ottenere accesso e controllo rapidi e disporre di scorciatoie pratiche per le operazioni più comuni.
 
 Puoi personalizzare il comportamento dell'interruttore nel pannello di amministrazione web.
 
-## Modelli supportati
+## Modelli supportati {#supported-models}
 
 ??? "Modelli supportati"
     - GL-BE10000 (Slate 7 Pro)
@@ -43,7 +43,7 @@ Puoi personalizzare il comportamento dell'interruttore nel pannello di amministr
     - GL-AP1300 (Cirrus)
     - GL-X300B (Collie)
 
-## Configurazione
+## Configurazione {#setup}
 
 Sul lato sinistro del pannello di amministrazione web, vai su **SYSTEM** -> **Toggle Button Settings**.
 

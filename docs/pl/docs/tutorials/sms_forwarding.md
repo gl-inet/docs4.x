@@ -1,10 +1,10 @@
-# Przekazywanie SMS
+# Przekazywanie SMS {#sms-forwarding}
 
 Routery komórkowe GL.iNet obsługują przekazywanie wiadomości SMS, automatycznie przesyłając przychodzące wiadomości do wyznaczonych odbiorców.
 
 **Uwaga**: Ta funkcja działa tylko na routerach komórkowych GL.iNet z oryginalnym modułem 4G LTE/5G NR i nie jest obsługiwana na innych modułach ani żadnych modułach USB.
 
-## Obsługiwane modele
+## Obsługiwane modele {#supported-models}
 
 ??? "Obsługiwane modele"
     - GL-E5800 (Mudi 7)
@@ -41,7 +41,7 @@ Routery komórkowe GL.iNet obsługują przekazywanie wiadomości SMS, automatycz
     - GL-B1300 (Convexa-B)
     - GL-AP1300 (Cirrus)
 
-## Konfiguracja
+## Konfiguracja {#quick-setup}
 
 Jako przykład użyjemy GL-XE3000 (Puli AX).
 
@@ -51,7 +51,7 @@ Kliknij ikonę koperty w prawym górnym rogu, aby wejść na stronę SMS, gdzie 
 
 ![sms setting](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms.png){class="glboxshadow"}
 
-### Przekazywanie przez e-mail
+### Przekazywanie przez e-mail {#forward-via-email}
 
 ![sms forwarding email](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms_forward_email.png){class="glboxshadow"}
 
@@ -88,7 +88,7 @@ Kliknij ikonę koperty w prawym górnym rogu, aby wejść na stronę SMS, gdzie 
 
 Możesz dodać maksymalnie 10 adresów e-mail.
 
-### Przekazywanie przez SMS
+### Przekazywanie przez SMS {#forward-via-sms}
 
 ![sms forwarding phone](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms_forward_phone.png){class="glboxshadow"}
 

@@ -1,4 +1,4 @@
-# Tor
+# Tor {#tor}
 
 Tor, derivato da **The Onion Router**, e' un software gratuito e open-source per consentire comunicazioni anonime. Aiuta gli utenti a esplorare Internet con maggiore privacy. [Scopri di piu' su Tor](https://www.torproject.org/){target="_blank"}.
 
@@ -9,7 +9,7 @@ Tor, derivato da **The Onion Router**, e' un software gratuito e open-source per
   - IPv6
   - ADGuard Home.
 
-## Modelli supportati
+## Modelli supportati {#supported-models}
 
 ??? "Modelli supportati"
     - GL-MT6000 (Fortify)
@@ -49,7 +49,7 @@ Tor, derivato da **The Onion Router**, e' un software gratuito e open-source per
     - GL-B1300 (Convexa-B)
     - GL-X300B (Collie)
 
-## Configurazione rapida
+## Configurazione rapida {#quick-setup}
 
 Sul lato sinistro del pannello di amministrazione web, vai su **VPN** -> **Tor**.
 

@@ -1,12 +1,12 @@
-# Guida utente di Puli AX (GL-XE3000)
+# Guida utente di Puli AX (GL-XE3000) {#puli-ax-gl-xe3000-user-guide}
 
-## Panoramica del prodotto
+## Panoramica del prodotto {#product-overview}
 
 Puli AX (GL-XE3000) e il router cellulare 5G Wi-Fi 6 definitivo, progettato per portare la velocita Internet a un livello superiore. Grazie alla potente batteria integrata da 6400mAh/7.4V/47.4Wh, puoi usufruire di una connettivita Internet continua per periodi ancora piu lunghi. Offre velocita Wi-Fi elevate fino a 574 Mbps (2.4GHz) e 2402 Mbps (5GHz), con una velocita Wi-Fi massima combinata di 3000 Mbps. E dotato di connettivita cellulare 5G NR, che garantisce accesso a Internet senza interruzioni anche in caso di guasto della connessione Ethernet.
 
 ![xe3000_interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe3000/hardware_info/xe3000_interface.jpg){class="glboxshadow"}
 
-## Contenuto della confezione
+## Contenuto della confezione {#package-contents}
 
 - 1 x Puli AX (GL-XE3000)
 - 1 x Manuale utente
@@ -18,7 +18,7 @@ Puli AX (GL-XE3000) e il router cellulare 5G Wi-Fi 6 definitivo, progettato per 
 
 ![xe3000_unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe3000/first_time_setup/xe3000_unboxing.jpg){class="glboxshadow"}
 
-## Indicatori LED
+## Indicatori LED {#led-indicators}
 
 Di seguito sono descritti gli stati dei LED per diversi eventi. Per consultare tutti gli stati di ciascun LED, fare riferimento a [Stato degli indicatori LED del GL-XE3000](../../faq/led.md#gl-xe3000){target="_blank"}.
 
@@ -33,7 +33,7 @@ Di seguito sono descritti gli stati dei LED per diversi eventi. Per consultare t
 
 **Suggerimento**: quando la connessione Internet è attiva, un LED 2.4GHz o 5GHz lampeggiante indica che dispositivi Wi-Fi sono connessi e stanno trasmettendo dati.
 
-## Come configurare Puli AX
+## Come configurare Puli AX {#how-to-set-up-puli-ax}
 
 Guarda questo video di configurazione oppure segui i passaggi qui sotto.
 
@@ -47,11 +47,11 @@ Guarda questo video di configurazione oppure segui i passaggi qui sotto.
     2. Spegni il router.
     3. Inserisci la SIM negli slot SIM. (**Nota:** solo una SIM e attiva alla volta. L'altra funziona solo come backup.)
 
-### 1. Accensione
+### 1. Accensione {#1-power-on}
 
 Assembla l'alimentatore in due parti. Collegalo al router e inseriscilo in una presa di corrente. Il dispositivo si avviera automaticamente.
 
-### 2. Collegare un dispositivo
+### 2. Collegare un dispositivo {#2-connect-device}
 
 Collega un dispositivo, ad esempio un computer, un portatile o uno smartphone, al router tramite Wi-Fi o Ethernet.
 
@@ -63,13 +63,13 @@ Collega un dispositivo, ad esempio un computer, un portatile o uno smartphone, a
 
     Sul dispositivo, individua il nome della rete Wi-Fi del router nell'elenco delle reti disponibili e inserisci la password. Il nome di rete e la password predefiniti sono stampati sull'etichetta del router.
 
-### 3. Accedere al pannello di amministrazione web
+### 3. Accedere al pannello di amministrazione web {#3-log-in-to-web-admin-panel}
 
 Apri un browser web, inserisci `192.168.8.1` nella barra degli indirizzi ed effettua l'accesso. Scegli la lingua, imposta la password di amministrazione e fai clic su **Apply**.
 
 Quando confermi i dettagli del Wi-Fi, tieni presente che se modifichi le informazioni Wi-Fi dovrai ricollegare il dispositivo alla rete Wi-Fi del router utilizzando le credenziali aggiornate.
 
-### 4. Configurazione di Internet
+### 4. Configurazione di Internet {#4-internet-setup}
 
 **Nota:** Le istruzioni seguenti si applicano agli utenti che configurano il router tramite il pannello di amministrazione web GL.iNet. Se preferisci utilizzare l'app GL.iNet, [scarica l'app](https://www.gl-inet.com/app/){target="_blank"} e segui le istruzioni visualizzate sullo schermo.
 
@@ -125,7 +125,7 @@ Configura Puli AX utilizzando uno dei metodi di connessione Internet supportati:
 
 ---
 
-## Come configurare una VPN
+## Come configurare una VPN {#how-to-set-up-a-vpn}
 
 Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il tuo dispositivo e il server VPN. Offre un ulteriore livello di privacy e sicurezza, nel caso del client VPN, e permette di accedere a una rete remota, nel caso del server VPN. Puli AX, come gli altri router GL.iNet, supporta OpenVPN e WireGuard. Inoltre supporta Tor.
 
@@ -149,7 +149,7 @@ Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il t
     
     * [Come configurare Tor](../../interface_guide/tor.md).
 
-## Wi-Fi e client
+## Wi-Fi e client {#wireless-and-clients}
 
 === "Wi-Fi"
 
@@ -163,7 +163,7 @@ Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il t
 
     Per configurare i client, fai riferimento a [Clients](../../interface_guide/clients.md).
 
-## Servizi cloud
+## Servizi cloud {#cloud-services}
 
 === "GoodCloud"
 
@@ -177,7 +177,7 @@ Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il t
     
     Per configurare AstroWarp, fai riferimento a [AstroWarp](../../interface_guide/astrowarp.md).
 
-## Applicazioni
+## Applicazioni {#applications}
 
 === "Plug-in"
 
@@ -231,7 +231,7 @@ Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il t
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/hyHh8pAxgVw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Impostazioni di rete
+## Impostazioni di rete {#network-settings}
 
 === "Port forwarding"
 
@@ -309,7 +309,7 @@ Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il t
 
     Per configurare le impostazioni NAT, fai riferimento a [NAT Settings](../../interface_guide/nat_settings.md).
 
-## Impostazioni di sistema
+## Impostazioni di sistema {#system-settings}
 
 === "Panoramica"
 

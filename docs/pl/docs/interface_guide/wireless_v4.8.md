@@ -1,4 +1,4 @@
-# Wireless (firmware v4.8 i wcześniejsze)
+# Wireless (firmware v4.8 i wcześniejsze) {#wireless-firmware-v48-and-earlier}
 
 Treść tej strony dotyczy wersji firmware v4.8.x i wcześniejszych. Jeśli urządzenie używa innej wersji firmware, użyj poniższego selektora, aby przejść do odpowiedniego przewodnika.
 
@@ -17,7 +17,7 @@ Ta strona umożliwia konfigurację oddzielnych sieci Wi‑Fi, w tym 2.4 GHz, 5 G
 
 **Uwaga**: Niektóre modele nie obsługują Wi‑Fi 5 GHz, na przykład GL-MT300N-V2 (Mango), GL-X300B (Collie) i GL-XE300 (Puli); niektóre nie mają funkcji Wi‑Fi w ogóle, na przykład GL-MT5000 (Brume 3) i GL-MT2500/GL-MT2500A (Brume 2).
 
-## MLO Wi-Fi
+## MLO Wi-Fi {#mlo-wi-fi}
 
 | Obsługiwane modele          |   |
 | :-------------------------- |:-:|
@@ -48,7 +48,7 @@ Kliknij poniższe karty, aby dowiedzieć się więcej o ustawieniach głównej s
 
     ![MLO Guest Wi-Fi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/guest_wifi_mlo.png){class="glboxshadow"}
 
-## 6 GHz Wi-Fi
+## 6 GHz Wi-Fi {#6-ghz-wi-fi}
 
 | Obsługiwane modele       |   |
 | :----------------------- |:-:|
@@ -74,7 +74,7 @@ Kliknij poniższe karty, aby dowiedzieć się więcej o ustawieniach głównej s
 
     ![6G Guest Wi-Fi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/guest_wifi_6g.png){class="glboxshadow"}
 
-## 5 GHz Wi-Fi
+## 5 GHz Wi-Fi {#5-ghz-wi-fi}
 
 Kliknij poniższe karty, aby dowiedzieć się więcej o ustawieniach głównej sieci 5 GHz Wi‑Fi i gościnnej sieci 5 GHz Wi‑Fi.
 
@@ -90,7 +90,7 @@ Kliknij poniższe karty, aby dowiedzieć się więcej o ustawieniach głównej s
 
     ![5G Guest Wi-Fi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/guest_wifi_5g.png){class="glboxshadow"}
 
-## 2.4 GHz Wi-Fi
+## 2.4 GHz Wi-Fi {#24-ghz-wi-fi}
 
 Kliknij poniższe karty, aby dowiedzieć się więcej o ustawieniach głównej sieci 2.4 GHz Wi‑Fi i gościnnej sieci 2.4 GHz Wi‑Fi.
 
@@ -106,7 +106,7 @@ Kliknij poniższe karty, aby dowiedzieć się więcej o ustawieniach głównej s
 
     ![2.4G Guest Wi-Fi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/guest_wifi_2.4g.png){class="glboxshadow"}
 
-## Ogólne ustawienia Wi-Fi
+## Ogólne ustawienia Wi-Fi {#general-wi-fi-settings}
 
 * Najedź kursorem na ikonę kodu QR obok SSID sieci Wi‑Fi, aby wyświetlić jej kod QR Wi‑Fi. Możesz zeskanować go telefonem lub tabletem, aby szybko połączyć się z odpowiednią siecią Wi‑Fi.
 

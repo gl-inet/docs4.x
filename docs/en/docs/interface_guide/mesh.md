@@ -1,4 +1,4 @@
-# Mesh
+# Mesh {#mesh}
 
 **Note**: This feature was introduced in firmware v4.10.
 
@@ -10,7 +10,7 @@ On the left side of the web Admin Panel, go to **MESH**.
 
 Mesh is a feature based on the Wi-Fi EasyMesh™ standard that extends whole-home Wi‑Fi coverage and enables seamless roaming. If you have multiple GL.iNet routers, set one as the main router and the rest as mesh nodes for seamless Wi-Fi roaming around your home.
 
-## Mesh vs. Extender vs. Access Point Mode
+## Mesh vs. Extender vs. Access Point Mode {#mesh-vs-extender-vs-access-point-mode}
 
 All three modes can extend Wi-Fi coverage. The main differences are how they connect to the main router and how the devices are configured and managed. **Backhaul** is the connection between the main router and an extender, access point, or Mesh node.
 
@@ -36,9 +36,9 @@ This table compares GL.iNet’s standalone Extender and Access Point modes with 
 
 Mesh synchronizes supported main, guest, IoT, and MLO Wi-Fi settings. It also provides centralized node management, including restarting, removing, and updating supported GL.iNet nodes. Nodes can be added through Wi-Fi scanning, an Ethernet connection, or a Mesh/WPS button where supported. Backhaul management includes Ethernet priority, wired/wireless switching, and loop prevention.
 
-### Understanding Performance Differences
+### Understanding Performance Differences {#understanding-performance-differences}
 
-#### Extender Mode
+#### Extender Mode {#extender-mode}
 
 The device connects to an existing Wi-Fi network. The radio used for that upstream connection follows the main router’s channel. Clients using the same radio also use that channel, so upstream and client traffic share airtime.
 
@@ -46,7 +46,7 @@ On supported multi-band models, separate radios can still serve clients on other
 
 The same upstream-channel requirement applies to GL.iNet’s Repeater connection feature, although Repeater operation and the standalone Extender network mode differ in other respects.
 
-#### Wireless Mesh
+#### Wireless Mesh {#wireless-mesh}
 
 In the tested tri-band Mesh configuration, the node uses **5 GHz for wireless backhaul**. The node’s 5 GHz channel follows the main router and cannot be changed independently, while its separate **2.4 GHz and 6 GHz channel settings remain independently configurable**. These are channel settings, not a statement about which bands client devices can connect to. Changing a client-facing channel does not change the backhaul band.
 
@@ -57,7 +57,7 @@ The performance impact therefore depends on how the client connects:
 
 This describes the tested configuration, not every supported Mesh model. Separate-radio forwarding is not exclusive to Mesh, and switching from Extender to Mesh does not automatically provide a throughput improvement.
 
-#### Access Point Mode and Wired Mesh
+#### Access Point Mode and Wired Mesh {#access-point-mode-and-wired-mesh}
 
 Both use Ethernet for the connection to the main router. Ethernet backhaul operates in full-duplex and avoids transmitting backhaul traffic over Wi-Fi. Client Wi-Fi connections remain half-duplex. With otherwise comparable hardware and conditions, Access Point mode and wired Mesh can provide similar throughput; Mesh adds coordinated configuration and management.
 
@@ -73,7 +73,7 @@ Mesh prioritizes Ethernet backhaul and supports switching to wireless when a sui
 
     Each Wi-Fi link remains half-duplex. Separate-radio forwarding avoids sharing one channel between the backhaul and client links, but it does not remove other interference, contention, or multi-hop limitations. End-to-end throughput is still limited by the slower link and network conditions.
 
-## Supported Models
+## Supported Models {#supported-models}
 
 ??? "Supported Models"
     - GL-BE9300 (Flint 3)
@@ -111,7 +111,7 @@ Mesh prioritizes Ethernet backhaul and supports switching to wireless when a sui
     - GL-AP1300 (Cirrus)
     - GL-S1300 (Convexa-S)
 
-## Quick Setup
+## Quick Setup {#quick-setup}
 
 The following example uses Flint 3 (GL‑BE9300) and Slate 7 (GL‑BE3600) to build a Mesh network.
 
@@ -165,11 +165,11 @@ The following example uses Flint 3 (GL‑BE9300) and Slate 7 (GL‑BE3600) to bu
 
     ![main topology](https://static.gl-inet.com/docs/router/en/4/interface_guide/mesh/main_topology_wifi.png){class="glboxshadow"}
 
-## Manage Nodes
+## Manage Nodes {#manage-nodes}
 
 Once setup is complete, the Mesh node will no longer be accessible via its original IP address. You can manage the main router and all Mesh nodes through the main router's Admin Panel.
 
-### View Node Details
+### View Node Details {#view-node-details}
 
 In the main router's Admin Panel, go to **MESH** and click the **Main Router** on the topology.
 
@@ -187,7 +187,7 @@ You can view the Mesh node details, including model, IP & MAC address, firmware 
 
 ![mesh node info](https://static.gl-inet.com/docs/router/en/4/interface_guide/mesh/mesh_node_info2.png){class="glboxshadow"}
 
-### Edit Mesh Node
+### Edit Mesh Node {#edit-mesh-node}
 
 In the main router's Admin Panel, go to **MESH** and click the **Mesh Node** on the topology.
 
@@ -199,7 +199,7 @@ Each Mesh node is named "Node" followed by the last four digits of its MAC addre
 
 ![edit node 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/mesh/edit_node2.png){class="glboxshadow"}
 
-### Access Mesh Node
+### Access Mesh Node {#access-mesh-node}
 
 In the main router's Admin Panel, go to **MESH** and click the **Mesh Node** on the topology.
 
@@ -213,7 +213,7 @@ You will be redirected to the Mesh node's login page at the IP address assigned 
 
 ![mesh admin login](https://static.gl-inet.com/docs/router/en/4/interface_guide/mesh/access_mesh_node2.png){class="glboxshadow"}
 
-### Add More Nodes
+### Add More Nodes {#add-more-nodes}
 
 Click **Add** in the upper-right corner of the topology to add more nodes if needed.
 

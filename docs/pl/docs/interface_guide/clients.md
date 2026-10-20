@@ -1,10 +1,10 @@
-# Klienci
+# Klienci {#clients}
 
 Po lewej stronie panelu administracyjnego WWW przejdź do **CLIENTS**.
 
 Strona **Clients** wyświetla informacje o podłączonych urządzeniach. Od lewej do prawej zobaczysz nazwę urządzenia, typ połączenia, adres IP, adres MAC, prędkość i ruch.
 
-## Nazwa urządzenia
+## Nazwa urządzenia {#device-name}
 
 Pierwsza kolumna wyświetla nazwę i typ urządzenia, określane na podstawie nazwy hosta ustawionej przez użytkownika urządzenia.
 
@@ -16,7 +16,7 @@ Aby zmienić nazwę i typ urządzenia, kliknij ikonę trzech kropek w kolumnie A
 
 ![modify client device](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/modify_client_device.png){class="glboxshadow"}
 
-## Typ połączenia
+## Typ połączenia {#connection-type}
 
 Niebieska ikona po prawej stronie nazwy urządzenia oznacza typ/metodę połączenia urządzenia.
 
@@ -24,7 +24,7 @@ Wskazuje, w jaki sposób urządzenie jest podłączone do sieci — przez Wi-Fi 
 
 ![connection type](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/connection_type.png){class="glboxshadow"}
 
-## Adres IP i MAC
+## Adres IP i MAC {#ip-and-mac-address}
 
 Druga kolumna zawiera adresy IP i MAC podłączonego urządzenia.
 
@@ -36,7 +36,7 @@ Wiele urządzeń używa losowych adresów MAC. Jeśli podłączone urządzenia k
 
 **Uwaga**: Zasada wykrywania jest następująca: jeśli drugi znak adresu MAC to 2, 6, A lub E (bez rozróżniania wielkości liter), jest on uznawany za losowy adres MAC. Jednak niektóre urządzenia mogą używać innej reguły generowania losowego adresu MAC, więc ta metoda wykrywania może nie być dokładna.
 
-## Prędkość
+## Prędkość {#speed}
 
 Trzecia kolumna wyświetla prędkość internetową podłączonego urządzenia.
 
@@ -50,13 +50,13 @@ Prędkość w tym miejscu jest średnią z 3 minut.
 - Jeśli ta strona jest otwarta przez 3 minuty, wyświetlana jest średnia prędkość z ostatnich 3 minut.
 - Jeśli ta strona jest otwarta przez 10 minut, wyświetlana jest średnia prędkość z ostatnich 3 minut.
 
-## Ruch
+## Ruch {#traffic}
 
 Czwarta kolumna wyświetla ruch internetowy podłączonego urządzenia.
 
 ![traffic](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/traffic.png){class="glboxshadow"}
 
-## Rezerwacja adresu IP
+## Rezerwacja adresu IP {#reserved-ip}
 
 W piątej kolumnie możesz jednym kliknięciem zarezerwować adres IP dla wybranego podłączonego urządzenia. 
 
@@ -116,7 +116,7 @@ Na stronie Access Control ręcznie wprowadź adresy MAC urządzeń, które chces
 
 **Uwaga**: Blokowanie klienta opiera się na adresie MAC urządzenia. Jeśli zablokowane urządzenie następnym razem użyje innego adresu MAC, nadal będzie mogło połączyć się z routerem.
 
-## Sortowanie
+## Sortowanie {#sort}
 
 Aktualny typ sortowania jest wyświetlany w prawym górnym rogu i możesz przełączyć się na inne typy sortowania.
 
@@ -128,9 +128,9 @@ Domyślny typ sortowania działa następująco:
 - W sekcji Online Clients urządzenia, które połączyły się wcześniej, są wyświetlane wyżej.
 - W sekcji Offline Clients urządzenia, które rozłączyły się wcześniej, są wyświetlane wyżej.
 
-## Akcje
+## Akcje {#action}
 
-### Wyświetlanie szczegółów
+### Wyświetlanie szczegółów {#view-details}
 
 Jeśli chcesz wyświetlić szczegóły urządzenia klienckiego, kliknij ikonę trzech kropek w skrajnej prawej kolumnie Action, a następnie w menu rozwijanym kliknij **View Details**.
 
@@ -140,7 +140,7 @@ Na otwartej podstronie zobaczysz wszystkie informacje o urządzeniu klienckim, w
 
 ![client details](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/client_detail.png){class="glboxshadow"}
 
-### Modyfikacja
+### Modyfikacja {#modify}
 
 Kliknij ikonę trzech kropek w kolumnie Action, a następnie w menu rozwijanym kliknij **Modify**.
 
@@ -148,7 +148,7 @@ Kliknij ikonę trzech kropek w kolumnie Action, a następnie w menu rozwijanym k
 
 ![modify client device](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/modify_client_device.png){class="glboxshadow"}
 
-### Ograniczenie prędkości
+### Ograniczenie prędkości {#limit-speed}
 
 Kliknij ikonę trzech kropek w kolumnie Action, a następnie w menu rozwijanym kliknij **Limit Speed**.
 
@@ -162,7 +162,7 @@ Jeśli dla klienta zastosowano ograniczenie prędkości, strzałki wysyłania i 
 
 Aby wyłączyć limit prędkości, kliknij ikonę trzech kropek w kolumnie Action.
 
-### Użyj tunelu VPN
+### Użyj tunelu VPN {#use-vpn-tunnel}
 
 **Uwaga**: Ta opcja jest dostępna od firmware v4.8 i pojawi się w menu Action tylko wtedy, gdy skonfigurowano regułę opartą na adresach MAC.
 
@@ -170,7 +170,7 @@ Dodaj klienta do listy tuneli VPN za pomocą reguły opartej na adresach MAC. Je
 
 ![use vpn tunnel](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/use-vpn-tunnel.png){class="glboxshadow"}
 
-## Usuwanie klientów offline
+## Usuwanie klientów offline {#remove-clients}
 
 W sekcji klientów offline możesz kliknąć **Delete All** w prawym górnym rogu, aby usunąć wszystkich klientów offline. 
 

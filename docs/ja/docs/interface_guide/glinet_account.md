@@ -1,4 +1,4 @@
-# GL.iNetアカウント
+# GL.iNetアカウント {#glinet-account}
 
 **注**：このガイドはファームウェアv4.10以降に適用されます。
 
@@ -10,7 +10,7 @@ GL.iNetアカウントを使用すると、デバイスとクラウドサービ�
 
 また、GoodPASを使用してトラベルルーターと自宅ネットワークの間に安全な接続をすばやく確立し、外出先からシームレスにリモートアクセスできます。
 
-## GL.iNetアカウントを有効にする
+## GL.iNetアカウントを有効にする {#enable-glinet-account}
 
 GL.iNetアカウントを関連付けるには、次の手順を実行します。
 
@@ -32,17 +32,17 @@ GL.iNetアカウントを関連付けるには、次の手順を実行します�
 
     このページでは各サービスの有効状態を確認できます。GoodCloudとGL.iNetアプリはデフォルトで有効ですが、GoodPASは無効です。GoodPASを有効にするには、GoodPASページで設定してください。
 
-## サービス
+## サービス {#services}
 
 必要に応じて、デバイスの管理に使用するサービスを選択できます。
 
-### GoodCloud
+### GoodCloud {#goodcloud}
 
 GoodCloudセクション右下の**Go**をクリックするとGoodCloudプラットフォームが開き、デバイスをリモート管理できます。詳細は[GoodCloud](./cloud.md)を参照してください。
 
 ![account 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/glinet_account/account_2.png){class="glboxshadow"}
 
-### GoodPAS
+### GoodPAS {#goodpas}
 
 GoodPASセクション右下の**Go**をクリックしてGoodPASページを開きます。トラベルルーターと自宅ネットワークの間に安全なネットワークを構築し、自宅ネットワークへシームレスにリモートアクセスできます。また、自宅のIPアドレスを使ってインターネットにアクセスできます。詳細は[GoodPAS](./goodpas.md)を参照してください。ファームウェア v4.10 では、GL-MG1300 以外のモデルでこのセクションは AstroWarp という名称です。[AstroWarp](./astrowarp.md)を参照してください。
 
@@ -50,7 +50,7 @@ GoodPASセクション右下の**Go**をクリックしてGoodPASページを開
 
 ![goodpas 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/glinet_account/goodpas_page.png){class="glboxshadow"}
 
-### GL.iNetアプリ
+### GL.iNetアプリ {#glinet-app}
 
 GL.iNetセクション右下の**GO**をクリックしてアプリのダウンロードセンターを開きます。GL.iNetアプリをダウンロードすると、スマートフォンからルーターを簡単に管理できます。
 
@@ -58,7 +58,7 @@ GL.iNetセクション右下の**GO**をクリックしてアプリのダウン�
 
 ![glinet download](https://static.gl-inet.com/docs/router/en/4/interface_guide/glinet_account/glinet_app_download.png){class="glboxshadow" width=500}
 
-## GL.iNetアカウントの関連付けを解除する
+## GL.iNetアカウントの関連付けを解除する {#unbind-glinet-account}
 
 このデバイスとGL.iNetアカウントの関連付けを解除するには、**Unbind**をクリックします。
 

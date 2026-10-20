@@ -1,6 +1,6 @@
-# Bark
+# Bark {#bark}
 
-> このガイドはファームウェア v4.9 以降に適用されます。以前のバージョンについては [こちら](parental_control.md#bark版) をクリックしてください。
+> このガイドはファームウェア v4.9 以降に適用されます。以前のバージョンについては [こちら](parental_control.md#bark-version) をクリックしてください。
 
 [Bark](https://www.bark.us/){target="_blank"} サービスは、お子さまのデジタル環境を保護し、包括的なオンライン保護を提供するのに役立ちます。通常は有料サブスクリプションが必要ですが、Bark との提携の一環として、GL.iNet は**一部のルーターモデル**で Bark Home プランを無料提供しており、追加費用なしで高度な監視機能とアラートを利用できます。
 
@@ -10,7 +10,7 @@
 
 2. Bark と GL.iNet Parental Control は同時に有効化できません。同時に有効にすると競合が発生する場合があります。
 
-## 対応モデル
+## 対応モデル {#supported-models}
 
 ??? "対応モデル"
     - GL-MT6000 (Fortify)
@@ -47,7 +47,7 @@
     - GL-AP1300 (Cirrus)
     - GL-X300B (Collie)
 
-## クイックセットアップ
+## クイックセットアップ {#quick-setup}
 
 ルーターの Web 管理画面にログインし、**APPLICATIONS** -> **Bark** に移動します。
 

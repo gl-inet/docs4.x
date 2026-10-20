@@ -1,4 +1,4 @@
-# Mesh
+# Mesh {#mesh}
 
 **Nota**: questa funzione è stata introdotta nel firmware v4.10.
 
@@ -36,9 +36,9 @@ Questa tabella confronta le modalità autonome Extender e Access Point di GL.iNe
 
 Mesh sincronizza le impostazioni Wi-Fi supportate delle reti principale, ospite, IoT e MLO. Offre inoltre la gestione centralizzata dei nodi, inclusi riavvio, rimozione e aggiornamento dei nodi GL.iNet supportati. I nodi possono essere aggiunti tramite scansione Wi-Fi, collegamento Ethernet o pulsante Mesh/WPS, ove supportato. La gestione del backhaul comprende la priorità a Ethernet, il passaggio tra collegamenti cablati e wireless e la prevenzione dei loop.
 
-### Comprendere le differenze di prestazioni
+### Comprendere le differenze di prestazioni {#understanding-performance-differences}
 
-#### Modalità Extender
+#### Modalità Extender {#extender-mode}
 
 Il dispositivo si connette a una rete Wi-Fi esistente. La radio usata per il collegamento a monte segue il canale del router principale. Anche i client che utilizzano la stessa radio usano quel canale, quindi il traffico a monte e quello dei client condividono il tempo di trasmissione.
 
@@ -46,7 +46,7 @@ Sui modelli multibanda supportati, radio separate possono comunque servire i cli
 
 Lo stesso requisito relativo al canale a monte si applica alla funzione di connessione Repeater di GL.iNet, sebbene il funzionamento Repeater e la modalità di rete autonoma Extender differiscano sotto altri aspetti.
 
-#### Mesh wireless
+#### Mesh wireless {#wireless-mesh}
 
 Nella configurazione Mesh a tre bande testata, il nodo utilizza **5 GHz per il backhaul wireless**. Il canale a 5 GHz del nodo segue quello del router principale e non può essere modificato indipendentemente, mentre le **impostazioni dei canali separati a 2.4 GHz e 6 GHz restano configurabili indipendentemente**. Si tratta di impostazioni dei canali, non di un’indicazione delle bande a cui possono connettersi i client. Modificare un canale destinato ai client non cambia la banda del backhaul.
 
@@ -57,7 +57,7 @@ L’effetto sulle prestazioni dipende quindi dal modo in cui si connette il clie
 
 Questa descrizione riguarda la configurazione testata, non tutti i modelli Mesh supportati. L’inoltro tramite radio separate non è esclusivo di Mesh e il passaggio da Extender a Mesh non migliora automaticamente la velocità effettiva.
 
-#### Modalità Access Point e Mesh cablato
+#### Modalità Access Point e Mesh cablato {#access-point-mode-and-wired-mesh}
 
 Entrambi utilizzano Ethernet per il collegamento al router principale. Il backhaul Ethernet funziona in full-duplex ed evita di trasmettere il traffico di backhaul tramite Wi-Fi. Le connessioni Wi-Fi dei client restano half-duplex. A parità di hardware e condizioni, la modalità Access Point e Mesh cablato possono offrire velocità effettive simili; Mesh aggiunge configurazione e gestione coordinate.
 
@@ -111,7 +111,7 @@ Mesh dà priorità al backhaul Ethernet e supporta il passaggio al wireless quan
     - GL-AP1300 (Cirrus)
     - GL-S1300 (Convexa-S)
 
-## Configurazione rapida
+## Configurazione rapida {#quick-setup}
 
 Nell'esempio seguente Flint 3 (GL‑BE9300) e Slate 7 (GL‑BE3600) vengono utilizzati per creare una rete Mesh.
 
@@ -165,11 +165,11 @@ Nell'esempio seguente Flint 3 (GL‑BE9300) e Slate 7 (GL‑BE3600) vengono util
 
     ![main topology](https://static.gl-inet.com/docs/router/en/4/interface_guide/mesh/main_topology_wifi.png){class="glboxshadow"}
 
-## Gestire i nodi
+## Gestire i nodi {#manage-nodes}
 
 Al termine della configurazione, il nodo Mesh non è più accessibile tramite il suo indirizzo IP originale. Il router principale e tutti i nodi possono essere gestiti dal pannello del router principale.
 
-### Visualizzare i dettagli di un nodo
+### Visualizzare i dettagli di un nodo {#view-node-details}
 
 Nel pannello del router principale, andare su **MESH** e fare clic su **Main Router** nella topologia.
 
@@ -187,7 +187,7 @@ Vengono visualizzati modello, indirizzi IP e MAC, versione firmware, tempo di at
 
 ![mesh node info](https://static.gl-inet.com/docs/router/en/4/interface_guide/mesh/mesh_node_info2.png){class="glboxshadow"}
 
-### Modificare un nodo Mesh
+### Modificare un nodo Mesh {#edit-mesh-node}
 
 Nel pannello del router principale, andare su **MESH** e fare clic su **Mesh Node** nella topologia.
 
@@ -199,7 +199,7 @@ Per impostazione predefinita, ogni nodo si chiama "Node" seguito dalle ultime qu
 
 ![edit node 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/mesh/edit_node2.png){class="glboxshadow"}
 
-### Accedere a un nodo Mesh
+### Accedere a un nodo Mesh {#access-mesh-node}
 
 Nel pannello del router principale, andare su **MESH** e fare clic su **Mesh Node** nella topologia.
 
@@ -213,7 +213,7 @@ Si verrà reindirizzati alla pagina di accesso del nodo, all'indirizzo IP assegn
 
 ![mesh admin login](https://static.gl-inet.com/docs/router/en/4/interface_guide/mesh/access_mesh_node2.png){class="glboxshadow"}
 
-### Aggiungere altri nodi
+### Aggiungere altri nodi {#add-more-nodes}
 
 Se necessario, fare clic su **Add** nell'angolo superiore destro della topologia.
 

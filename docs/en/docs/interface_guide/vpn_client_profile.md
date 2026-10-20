@@ -1,4 +1,4 @@
-# VPN Client Profile
+# VPN Client Profile {#vpn-client-profile}
 
 **Note**: This page was introduced in firmware v4.9.
 
@@ -10,7 +10,7 @@ Since firmware v4.9, the [OpenVPN Client](openvpn_client.md) and [WireGuard Clie
 
 This page allows you to log in to some integrated VPN services and download their profiles easily for VPN connection, or manually upload your configuration files exported from other VPN provider's website. You may switch VPN protocols in the upper-right corner if needed.
 
-## WireGuard
+## WireGuard {#wireguard}
 
 WireGuard® is a lightweight, high-performance modern VPN built with cutting-edge cryptography. It delivers superior speed, simplicity and practicality compared to IPsec, and significantly outperforms OpenVPN.
 
@@ -76,9 +76,9 @@ Take [AzireVPN](https://www.azirevpn.com/aff/9x7wisg4){target="_blank"} as an ex
 
             ![azirevpn5](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_client_profile/azirevpn5.png){class="glboxshadow"}
 
-        2. You will then be redirected to the **VPN Dashboard** to configure VPN policy. Click [here](vpn_dashboard.md#set-up-vpn-policy) for details.
+        2. You will then be redirected to the **VPN Dashboard** to configure VPN policy. Click [here](vpn_dashboard.md#add-vpn-tunnel) for details.
 
-## OpenVPN
+## OpenVPN {#openvpn}
 
 OpenVPN is an open‑source VPN protocol that uses virtual private network techniques to establish secure site‑to‑site or point‑to‑point connections.
 
@@ -90,7 +90,7 @@ If you subscribe to other OpenVPN service provider, download a configuration fil
 
 ![ovpn add manually](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_client_profile/ovpn_manual.png){class="glboxshadow"}
 
-If you don't know how to download the configuration files, refer to [here](openvpn_client.md#get-configuration-files-from-openvpn-service-providers-get-configuration-files-from-openvpn-service-providers) or contact their support.
+If you don't know how to download the configuration files, refer to [here](openvpn_client.md#get-configuration-files-from-openvpn-service-providers) or contact their support.
 
 ---
 

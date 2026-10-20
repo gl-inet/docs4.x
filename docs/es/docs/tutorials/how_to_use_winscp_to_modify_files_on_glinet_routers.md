@@ -1,4 +1,4 @@
-# Cómo usar WinSCP para modificar archivos en routers GL.iNet
+# Cómo usar WinSCP para modificar archivos en routers GL.iNet {#how-to-use-winscp-to-modify-files-on-glinet-routers}
 
 WinSCP es una herramienta sencilla para editar, copiar y descargar archivos o directorios en el router. Puede copiar archivos entre un ordenador local y su router usando los protocolos de transferencia de archivos FTP, SCP, SFTP, WebDAV o S3. Se aplica al sistema operativo Windows.
 

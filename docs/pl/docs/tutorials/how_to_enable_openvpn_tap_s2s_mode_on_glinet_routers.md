@@ -1,10 +1,10 @@
-# Jak włączyć tryb OpenVPN TAP-S2S na routerach GL.iNet?
+# Jak włączyć tryb OpenVPN TAP-S2S na routerach GL.iNet? {#how-to-enable-openvpn-tap-s2s-mode-on-glinet-routers}
 
-## Scenariusze użycia
+## Scenariusze użycia {#usage-scenarios}
 
 Po włączeniu trybu TAP-S2S urządzenie klienta OpenVPN może zdalnie uzyskać dostęp do urządzenia serwera OpenVPN, a urządzenie serwera OpenVPN może również zdalnie uzyskać dostęp do urządzenia klienta OpenVPN. Wadą jest jednak to, że reguły VPN ustawione przez samego klienta OpenVPN nie będą obowiązywać po włączeniu trybu TAP-S2S.
 
-## TAP-S2S vs tryb TUN
+## TAP-S2S vs tryb TUN {#tap-s2s-vs-tun-mode}
 
 Topologia sieci
 
@@ -19,7 +19,7 @@ Tryby TAP-S2S i TUN mają tę samą metodę połączenia fizycznego, ale ich met
 3. Gdy urządzenie po stronie LAN GL-X3000 zna adres IP urządzenia po stronie LAN GL-MT6000, tryb TAP-S2S umożliwia bezpośredni zdalny dostęp, ale tryb TUN nie może uzyskać dostępu bezpośrednio bez włączenia dodatkowych ustawień.
 4. W trybie TAP-S2S GL-X3000 musi przechodzić przez GL-MT6000, aby uzyskać dostęp do internetu, podczas gdy w trybie TUN GL-X3000 może bezpośrednio uzyskać dostęp do internetu. Dlatego w trybie TAP-S2S reguły VPN ustawione przez GL-X3000 nie obowiązują i należy stosować reguły VPN ustawione przez GL-MT6000.
 
-## Przewodnik
+## Przewodnik {#tutorials}
 
 Najpierw użyj routera (zakładany jako GL-MT6000) z publicznym adresem IP, aby otworzyć serwer OpenVPN, ustaw tryb urządzenia na **TAP-S2S**, kliknij Apply, a następnie kliknij **Export Client Configuration**.
 

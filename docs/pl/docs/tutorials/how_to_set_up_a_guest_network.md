@@ -1,4 +1,4 @@
-# Jak skonfigurować sieć gościnną Wi-Fi na routerach GL.iNet
+# Jak skonfigurować sieć gościnną Wi-Fi na routerach GL.iNet {#how-to-set-up-a-guest-wi-fi-network-on-glinet-routers}
 
 W tym poradniku pokazujemy, jak skonfigurować sieć gościnną Wi-Fi na routerach GL.iNet. 
 
@@ -8,7 +8,7 @@ Na routerze GL.iNet możesz skonfigurować sieć gościnną Wi-Fi na dwa sposoby
 
 ## Konfiguracja sieci gościnnej przez panel administracyjny {#set-up-a-guest-network-via-the-admin-panel}
 
-### 1. Włącz sieć gościnną Wi-Fi
+### 1. Włącz sieć gościnną Wi-Fi {#1-enable-the-guest-wi-fi-network}
 
 1. W przeglądarce internetowej wpisz `192.168.8.1`. 
 2. Wpisz hasło, a następnie kliknij **Login**. 
@@ -18,7 +18,7 @@ Na routerze GL.iNet możesz skonfigurować sieć gościnną Wi-Fi na dwa sposoby
 ![click guest](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_a_guest_network/click-guest-wifi.jpeg){class="glboxshadow"}
 5. Przy **Enable Wi-Fi** przestaw przełącznik w pozycję włączoną. 
 
-### 2. Ustaw nowe hasło do sieci gościnnej Wi-Fi
+### 2. Ustaw nowe hasło do sieci gościnnej Wi-Fi {#2-set-a-new-guest-wi-fi-network-password}
 
 Ze względów bezpieczeństwa zalecamy ustawienie nowego hasła dla sieci gościnnej Wi-Fi. Wykonaj poniższe kroki: 
 
@@ -33,14 +33,14 @@ Sieć gościnna Wi-Fi jest już skonfigurowana. Aby podłączyć do niej urządz
 
 **Uwaga:** Przed rozpoczęciem zainstaluj i skonfiguruj aplikację mobilną GL.iNet na swoim urządzeniu. 
 
-### 1. Włącz sieć gościnną Wi-Fi
+### 1. Włącz sieć gościnną Wi-Fi {#1-enable-the-guest-wi-fi-network_1}
 
 1. Na ekranie głównym aplikacji stuknij kartę **Network** > **Wireless**.
 2. Odszukaj **Guest Network**. 
 3. Dla sieci, w której chcesz skonfigurować sieć gościnną Wi-Fi, przestaw przełącznik w pozycję włączoną. 
 ![toggle the switch](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_a_guest_network/toggle-on-guest-network.jpeg){class="glboxshadow"}
 
-### 2. Ustaw nowe hasło do sieci gościnnej Wi-Fi
+### 2. Ustaw nowe hasło do sieci gościnnej Wi-Fi {#2-set-a-new-guest-wi-fi-network-password_1}
 
 Ze względów bezpieczeństwa zalecamy ustawienie nowego hasła dla sieci gościnnej Wi-Fi. Wykonaj poniższe kroki: 
 

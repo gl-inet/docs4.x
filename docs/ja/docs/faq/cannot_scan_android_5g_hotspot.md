@@ -1,4 +1,4 @@
-# Android 5Gホットスポットをスキャンできない
+# Android 5Gホットスポットをスキャンできない {#cannot-scan-android-5g-hotspot}
 
 GL.iNetルーターをAndroidスマホの5Gホットスポットにリピーターとして接続することは、インターネットにアクセスする一般的な方法の1つです。
 

@@ -90,8 +90,6 @@ USB-накопичувач можна підключити безпосеред�
 
 6. Отримайте посилання для доступу до папки.
 
-    <span id="shared-link"></span>
-
     На сторінці відобразяться посилання для Windows і Unix-подібних ОС, зокрема Android, iOS, macOS, Ubuntu тощо.
 
     Відкрийте спільну папку через сервіс Samba за цими посиланнями. Докладні інструкції наведено [тут](#samba-client).
@@ -244,7 +242,7 @@ USB-накопичувач можна підключити безпосеред�
 
         ![Налаштування SMB у застосунку Files для iOS](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios_files_smb_1.png){class="glboxshadow" width="560"}
 
-        Виберіть **Connect to Server** у верхній частині меню. На наступному екрані введіть URL для підключення до сервера. Його наведено в розділі [посилання для спільного доступу](#shared-link). Натисніть **Next** у верхньому правому куті, щоб продовжити.
+        Виберіть **Connect to Server** у верхній частині меню. На наступному екрані введіть URL для підключення до сервера. Його наведено в розділі [посилання для спільного доступу](#set-up-samba). Натисніть **Next** у верхньому правому куті, щоб продовжити.
 
         ![Налаштування SMB у застосунку Files для iOS](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios_files_smb_2.png){class="glboxshadow" width="560"}
 

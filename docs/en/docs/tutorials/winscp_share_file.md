@@ -1,10 +1,10 @@
-# Use WinSCP to access your share files
+# Use WinSCP to access your share files {#use-winscp-to-access-your-share-files}
 
 You can use **WinSCP** to access your share files with the file sharing function of **GL-Routers**.
 
 Please setup your **WebDAV** links in our network storage tab. For detail setup, please refer to the setup [WebDAV](https://docs.gl-inet.com/router/en/4/interface_guide/network_storage/#set-up-webdav)
 
-## Setup links in WinSCP
+## Setup links in WinSCP {#setup-links-in-winscp}
 
 After setup your WebDAV, you can go back to the **Share Folders** page of network storage.
 

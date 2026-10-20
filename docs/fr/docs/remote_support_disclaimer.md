@@ -1,4 +1,4 @@
-# AVIS DE NON-RESPONSABILITÉ RELATIF À L’ASSISTANCE À DISTANCE
+# AVIS DE NON-RESPONSABILITÉ RELATIF À L’ASSISTANCE À DISTANCE {#remote-support-disclaimer}
 
 Cher utilisateur,
 
@@ -10,7 +10,7 @@ Avant toute connexion à distance, veuillez lire attentivement la présente déc
 
 Si vous n’acceptez pas les conditions de cet avis de non-responsabilité, aucun accès à distance ne sera initié. En poursuivant la connexion à distance, vous reconnaissez avoir pleinement compris et accepté ces conditions.
 
-## I. Objet de la connexion à distance
+## I. Objet de la connexion à distance {#i-purpose-of-remote-connection}
 
 Nous utilisons la connexion à distance uniquement pour vous aider à résoudre les problèmes techniques liés aux produits et services GL.iNet, y compris, mais sans s’y limiter :
 
@@ -20,7 +20,7 @@ Nous utilisons la connexion à distance uniquement pour vous aider à résoudre 
 
 Nous nous engageons à ne pas consulter, collecter, stocker ni diffuser vos données personnelles, fichiers ou toute autre donnée sans lien avec l’assistance technique relative aux produits et services GL.iNet. Nous n’installerons pas non plus de logiciel sans votre consentement.
 
-## II. Portée de l’autorisation
+## II. Portée de l’autorisation {#ii-authorized-scope}
 
 Afin de faciliter le dépannage, vous nous autorisez à :
 
@@ -36,7 +36,7 @@ Afin de faciliter le dépannage, vous nous autorisez à :
 
     Après la fourniture de notre service via AnyDesk, AnyDesk peut conserver des journaux d’opérations. Pour plus d’informations, veuillez consulter la [politique de confidentialité d’AnyDesk](https://anydesk.com.cn/en/privacy){target="blank"}.
 
-## III. Droits et obligations de l’utilisateur
+## III. Droits et obligations de l’utilisateur {#iii-user-rights-and-obligations}
 
 1. **Droit de surveillance et d’interruption**
 
@@ -54,7 +54,7 @@ Afin de faciliter le dépannage, vous nous autorisez à :
 
     Vous ne devez pas nous demander de traiter ou de résoudre des problèmes qui dépassent la portée autorisée ou qui ne sont pas liés à nos produits ou services.
 
-## IV. Clause de non-responsabilité
+## IV. Clause de non-responsabilité {#iv-disclaimer}
 
 GL.iNet et son personnel d’assistance technique ne pourront pas être tenus responsables dans les situations suivantes :
 
@@ -82,11 +82,11 @@ GL.iNet et son personnel d’assistance technique ne pourront pas être tenus re
 
     Vous comprenez et acceptez que la connexion à distance n’est qu’une méthode d’assistance au dépannage. GL.iNet ne garantit ni la résolution de tous les problèmes techniques, ni que cette assistance répondra à l’ensemble de vos besoins.
 
-## V. Règlement des litiges
+## V. Règlement des litiges {#v-dispute-resolution}
 
 La formation, la validité, l’exécution et l’interprétation de la présente déclaration, ainsi que tout litige qui en découle, sont régies par les lois de Hong Kong, Chine (à l’exclusion des règles de conflit de lois). En cas de litige entre vous et nous, les deux parties s’efforceront d’abord de le résoudre à l’amiable. Si aucun accord n’est trouvé, vous acceptez de soumettre le litige à la compétence des tribunaux de Hong Kong, Chine.
 
-## VI. Divers
+## VI. Divers {#vi-other}
 
 1. GL.iNet se réserve le droit de modifier le présent avis de non-responsabilité en fonction des circonstances réelles et de publier ces modifications sur son site officiel sans notification distincte.
 

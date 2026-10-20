@@ -1,6 +1,6 @@
-# Spitz Plus (GL-X2000) Benutzerhandbuch
+# Spitz Plus (GL-X2000) Benutzerhandbuch {#spitz-plus-gl-x2000-user-guide}
 
-## Sicherheitshinweise
+## Sicherheitshinweise {#safety-information}
 
 Lesen Sie vor der Verwendung des Geräts alle nachstehenden Sicherheitsinformationen sorgfältig durch. Die nachfolgenden Sicherheitsempfehlungen können nicht sämtliche möglicherweise auftretenden Gefahrensituationen abdecken.
 
@@ -30,13 +30,13 @@ Unsachgemäßes Öffnen oder unsachgemäße Instandsetzung kann den Benutzer des
 
 Schalten Sie bei einem Störfall zuerst den Netzschalter aus.
 
-## Produktübersicht
+## Produktübersicht {#product-overview}
 
 Spitz Plus (GL-X2000) ist ein Dual-SIM-4G-LTE-Wi-Fi-6-Cellular-Gateway, das besonders in abgelegenen Gebieten und auf Reisen schnelle und zuverlässige Verbindungen bietet. Dank 3-Carrier Aggregation überträgt der Router Daten gleichzeitig über drei Mobilfunkbänder und stellt so die dreifache verfügbare Bandbreite bereit, um Engpässe zu vermeiden. Er unterstützt vier Methoden für den Internetzugang: Cellular (SIM-Karten), Ethernet, Repeater und Tethering. Darüber hinaus werden Multi-WAN (Failover und Lastverteilung), VPN (OpenVPN und WireGuard), Parental Control, AdGuard Home, Portweiterleitung, Tailscale und weitere Funktionen unterstützt.
 
 ![gl-x2000 interface](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-x2000/hardware_info/x2000_interface.jpg){class="glboxshadow"}
 
-## Lieferumfang
+## Lieferumfang {#package-contents}
 
 - 1 x Spitz Plus (GL-X2000)
 - 1 x Benutzerhandbuch
@@ -50,7 +50,7 @@ Spitz Plus (GL-X2000) ist ein Dual-SIM-4G-LTE-Wi-Fi-6-Cellular-Gateway, das beso
 
 ![package contents](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-x2000/first_time_setup/x2000_package.png){class="glboxshadow"}
 
-## LED-Anzeigen
+## LED-Anzeigen {#led-indicators}
 
 Die folgenden Angaben beschreiben die LED-Zustände bei verschiedenen Ereignissen. Alle Zustände der einzelnen LEDs finden Sie unter [GL-X2000: LED-Status](../../faq/led.md#gl-x2000){target="_blank"}.
 
@@ -62,7 +62,7 @@ Die folgenden Angaben beschreiben die LED-Zustände bei verschiedenen Ereignisse
 | Netzwerk zurücksetzen (Reset 5 s gedrückt halten) | Blinkt alle 1 s | Grün | Grün | Grün | Grün |
 | Auf Werkseinstellungen zurücksetzen (Reset 10 s gedrückt halten) | Blinkt schnell alle 0,25 s | Grün | Grün | Grün | Grün |
 
-## So richten Sie Spitz Plus ein
+## So richten Sie Spitz Plus ein {#how-to-set-up-spitz-plus}
 
 Zum Einrichten von Spitz Plus verwenden Sie eine der vier unterstützten Internetverbindungsmethoden: Cellular (SIM erforderlich), Ethernet, Repeater und Tethering. Sehen Sie sich dieses Einrichtungsvideo an oder folgen Sie den untenstehenden Schritten.
 
@@ -77,11 +77,11 @@ Zum Einrichten von Spitz Plus verwenden Sie eine der vier unterstützten Interne
     2. Schalten Sie Ihren Router aus.
     3. Setzen Sie die SIM-Karte(n) in die SIM-Kartensteckplätze ein. (**Hinweis:** Es ist jeweils nur eine SIM-Karte aktiv. Die andere SIM-Karte dient ausschließlich als Backup.)
 
-### 1. Einschalten
+### 1. Einschalten {#1-power-on}
 
 Setzen Sie den zweiteiligen Netzadapter zusammen. Schließen Sie ihn an Ihren Router an und stecken Sie ihn in eine Steckdose. Das Gerät startet automatisch.
 
-### 2. Gerät verbinden
+### 2. Gerät verbinden {#2-connect-device}
 
 Verbinden Sie ein Gerät (z. B. Computer, Laptop oder Smartphone) per Wi-Fi oder Ethernet mit dem Router.
 
@@ -93,11 +93,11 @@ Verbinden Sie ein Gerät (z. B. Computer, Laptop oder Smartphone) per Wi-Fi oder
 
   Suchen Sie auf Ihrem Gerät in der Liste der verfügbaren Netzwerke den Wi-Fi-Netzwerknamen Ihres Routers und geben Sie das Passwort ein. Den Standard-Netzwerknamen und das Standard-Passwort finden Sie auf dem Etikett Ihres Routers.
 
-### 3. Im Web-Admin-Panel anmelden
+### 3. Im Web-Admin-Panel anmelden {#3-log-in-to-web-admin-panel}
 
 Öffnen Sie einen Webbrowser, geben Sie `192.168.8.1` in die Adressleiste ein und melden Sie sich an. Wählen Sie eine Sprache aus, legen Sie Ihr Admin-Passwort fest und klicken Sie anschließend auf **Apply**.
 
-### 4. Internet einrichten
+### 4. Internet einrichten {#4-internet-setup}
 
 **Hinweis:** Die folgenden Anweisungen gelten für Benutzer, die den Router über das GL.iNet Web-Admin-Panel konfigurieren. Wenn Sie lieber die GL.iNet-App verwenden möchten, [laden Sie die App herunter](https://www.gl-inet.com/app/){target="_blank"} und folgen Sie den Anweisungen auf dem Bildschirm.
 
@@ -155,19 +155,19 @@ Richten Sie Spitz Plus mit einer der unterstützten Internetverbindungsmethoden 
 
 Im Folgenden finden Sie einen Überblick über die Funktionen im Web-Admin-Panel von Spitz Plus.
 
-## WLAN
+## WLAN {#wireless}
 
 Auf der Seite Wireless können Sie Einstellungen für 5-GHz- und 2,4-GHz-Wi-Fi-Netzwerke konfigurieren, darunter das Aktivieren/Deaktivieren von Wi-Fi, die TX-Leistung, den Wi-Fi-Namen (SSID), das Aktivieren/Deaktivieren der randomisierten BSSID, den Wi-Fi-Sicherheitsmodus, das Wi-Fi-Passwort, die Sichtbarkeit der SSID sowie Wi-Fi-Modus, Bandbreite und Kanal.
 
 Informationen zur Einrichtung von Wireless finden Sie unter [Wireless](../../interface_guide/wireless.md).
 
-## Clients
+## Clients {#clients}
 
 Auf der Seite Clients werden Informationen zu verbundenen Geräten angezeigt. Für jeden Client werden Gerätename, Verbindungstyp (d. h. über Ethernet oder Wi-Fi), IP- und MAC-Adressen, Download- und Upload-Geschwindigkeiten sowie das gesamte Datenvolumen angezeigt. Außerdem können Sie eine IP reservieren, den Client blockieren oder weitere Aktionen ausführen.
 
 Informationen zur Einrichtung von Clients finden Sie unter [Clients](../../interface_guide/clients.md).
 
-## Cloud-Dienste
+## Cloud-Dienste {#cloud-services}
 
 === "GoodCloud"
 
@@ -183,7 +183,7 @@ Informationen zur Einrichtung von Clients finden Sie unter [Clients](../../inter
 
     **Hinweis:** Bitte aktualisieren Sie Spitz Plus auf Firmware v4.8 oder höher, um AstroWarp zu verwenden.
 
-## VPN
+## VPN {#vpn}
 
 Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten Datenverkehr zwischen Ihrem Gerät und dem VPN-Server. Es bietet eine zusätzliche Ebene für Datenschutz und Sicherheit (VPN-Client) und ermöglicht Ihnen den Zugriff auf ein entferntes Netzwerk (VPN-Server). Spitz Plus unterstützt OpenVPN und WireGuard.
 
@@ -201,7 +201,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
     * [So richten Sie einen WireGuard-Client ein](https://docs.gl-inet.com/router/en/4/interface_guide/wireguard_client/)
     * [So richten Sie einen WireGuard-Server ein](https://docs.gl-inet.com/router/en/4/interface_guide/wireguard_server/)
 
-## Anwendungen
+## Anwendungen {#applications}
 
 === "Plug-ins"
 
@@ -249,7 +249,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/hyHh8pAxgVw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Netzwerk
+## Netzwerk {#network}
 
 === "Portweiterleitung"
 
@@ -325,7 +325,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     Zum Einrichten der NAT-Einstellungen lesen Sie bitte [NAT Settings](../../interface_guide/nat_settings.md).
 
-## System
+## System {#system}
 
 === "Overview"
 

@@ -1,10 +1,10 @@
-# Connettersi a Internet tramite USB tethering
+# Connettersi a Internet tramite USB tethering {#connect-to-the-internet-via-usb-tethering}
 
 Usare un cavo USB per condividere la rete dallo smartphone al router si chiama Tethering. Anche i modem host-less funzionano in modalita' Tethering durante la configurazione del modem.
 
 **Nota:** alcuni operatori mobili limitano il tethering o applicano costi aggiuntivi. Ti consigliamo di verificarlo con il tuo operatore.
 
-## Configurazione
+## Configurazione {#setup}
 
 === "iPhone"
 
@@ -68,7 +68,7 @@ Usare un cavo USB per condividere la rete dallo smartphone al router si chiama T
 
     Per la documentazione ufficiale Android, fai riferimento a [Share a mobile connection by hotspot or tethering on Android](https://support.google.com/android/answer/9059108?hl=en#zippy=%2Ctether-by-usb-cable){target="_blank"}
 
-## Avviso
+## Avviso {#warning}
 
 Quando l'accesso a Internet non e' disponibile, verra' visualizzato il seguente avviso:
 
@@ -80,7 +80,7 @@ Soluzioni:
 
 2. Vai alla pagina [Multi-WAN](multi-wan.md) per determinare se puoi accedere a Internet oppure no.
 
-## Risoluzione dei problemi
+## Risoluzione dei problemi {#troubleshooting}
 
 Se la connessione non riesce, prova questi passaggi di risoluzione dei problemi:
 

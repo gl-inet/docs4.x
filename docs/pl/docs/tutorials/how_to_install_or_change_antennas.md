@@ -1,10 +1,10 @@
-# Jak zainstalować lub wymienić zewnętrzne anteny w routerach komórkowych?
+# Jak zainstalować lub wymienić zewnętrzne anteny w routerach komórkowych? {#how-to-install-or-change-external-antennas-for-cellular-routers}
 
 W tym poradniku opisano instalację i wymianę zewnętrznych anten w wybranych routerach komórkowych.
 
-## Instalacja zewnętrznych anten
+## Instalacja zewnętrznych anten {#install-external-antennas}
 
-### Mudi 7
+### Mudi 7 {#mudi-7}
 
 Mudi 7 (GL-E5800) jest wyposażony w dwa porty antenowe TS-9, które obsługują częstotliwości komórkowe od 600 MHz do 6 GHz. Możesz podłączyć zewnętrzne anteny (brak w zestawie), aby poprawić sygnał komórkowy w miejscach o słabym zasięgu. To idealne rozwiązanie do kamperów, piwnic i zastosowań wewnątrz budynków, gdy chcesz zwiększyć zasięg i zapewnić stabilne połączenie.
 
@@ -14,7 +14,7 @@ Porty TS-9 w Mudi 7 to złącza żeńskie (otwór wewnętrzny). Wymagają anten 
 
 ![ts-9 connector](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/ts9_connector.png){class="glboxshadow" width="328"}
 
-### Spitz AX / Puli AX
+### Spitz AX / Puli AX {#spitz-ax-puli-ax}
 
 Spitz AX (GL-X3000) i Puli AX (GL-XE3000) są wyposażone w następujące zewnętrzne anteny:
 
@@ -32,7 +32,7 @@ Wykonaj poniższe kroki, aby zainstalować zewnętrzne anteny.
 
 2. Ustaw anteny pionowo, aby uzyskać optymalną wydajność.
 
-### Spitz Plus
+### Spitz Plus {#spitz-plus}
 
 Spitz Plus (GL-X2000) jest wyposażony w następujące zewnętrzne anteny:
 
@@ -50,7 +50,7 @@ Wykonaj poniższe kroki, aby zainstalować zewnętrzne anteny.
 
 2. Ustaw anteny pionowo, aby uzyskać optymalną wydajność.
 
-### Spitz
+### Spitz {#spitz}
 
 Spitz (GL-X750/GL-X750V2) jest wyposażony w 2 x zewnętrzne anteny 4G (SMA, 700M~2700MHz).
 
@@ -62,7 +62,7 @@ Wykonaj poniższe kroki, aby zainstalować zewnętrzne anteny.
 
 2. Ustaw anteny pionowo, aby uzyskać optymalną wydajność.
 
-### Collie
+### Collie {#collie}
 
 Collie występuje w trzech wersjach: **GL-X300B-RS485**, **GL-X300B-BLE** oraz **GL-X300B-GPS**.
 
@@ -126,7 +126,7 @@ Collie występuje w trzech wersjach: **GL-X300B-RS485**, **GL-X300B-BLE** oraz *
 
         ![x300b gps antennas](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/x300b-gps.jpg){class="glboxshadow"}
 
-## Wymiana zewnętrznych anten
+## Wymiana zewnętrznych anten {#change-external-antennas}
 
 Poniższe instrukcje dotyczą wszystkich routerów komórkowych ze złączami dla zewnętrznych anten, z wyjątkiem Mudi 7 (GL-E5800). Kliknij [tutaj](#mudi-7){target="_blank"}, aby zobaczyć instrukcję instalacji anten zewnętrznych dla Mudi 7.
 
@@ -138,13 +138,13 @@ Jeśli wolisz używać anten innych producentów, zapoznaj się z poniższymi se
 
 **Wskazówka**: Jeśli kupisz nieodpowiednie anteny, możesz rozważyć zakup adaptera zmieniającego typ złącza (np. SMA-RP male na SMA female).
 
-### Anteny Wi-Fi
+### Anteny Wi-Fi {#wi-fi-antennas}
 
 Podstawa anteny Wi-Fi wykorzystuje **złącze RP-SMA female** (gwint zewnętrzny i pin wewnętrzny). Wymaga ono anteny Wi-Fi ze **złączem RP-SMA male** (gwint wewnętrzny i otwór wewnętrzny).
 
 ![rp-sma connectors](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/rp-sma-connectors.jpg){class="gl-80-desktop glboxshadow"}
 
-### Anteny 5G NR
+### Anteny 5G NR {#5g-nr-antennas}
 
 Podstawa anteny 5G NR wykorzystuje **złącze SMA female** (gwint zewnętrzny i otwór wewnętrzny). Wymaga ono anteny 5G NR ze **złączem SMA male** (gwint wewnętrzny i pin wewnętrzny).
 

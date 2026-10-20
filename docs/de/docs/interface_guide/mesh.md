@@ -1,4 +1,4 @@
-# Mesh
+# Mesh {#mesh}
 
 **Hinweis**: Diese Funktion wurde mit Firmware v4.10 eingeführt.
 
@@ -36,9 +36,9 @@ Die folgende Tabelle vergleicht die eigenständigen Modi Extender und Access Poi
 
 Mesh synchronisiert unterstützte Wi-Fi-Einstellungen für Haupt-, Gast-, IoT- und MLO-Netzwerke. Es bietet außerdem eine zentrale Knotenverwaltung, einschließlich Neustart, Entfernen und Aktualisieren unterstützter GL.iNet-Knoten. Knoten lassen sich per Wi-Fi-Suche, Ethernet-Verbindung oder, sofern unterstützt, über eine Mesh/WPS-Taste hinzufügen. Die Backhaul-Verwaltung umfasst Ethernet-Priorität, den Wechsel zwischen kabelgebundenen und drahtlosen Verbindungen sowie die Vermeidung von Schleifen.
 
-### Leistungsunterschiede verstehen
+### Leistungsunterschiede verstehen {#understanding-performance-differences}
 
-#### Extender-Modus
+#### Extender-Modus {#extender-mode}
 
 Das Gerät verbindet sich mit einem bestehenden Wi-Fi-Netzwerk. Das für diese Upstream-Verbindung verwendete Funkmodul folgt dem Kanal des Hauptrouters. Clients, die dasselbe Funkmodul nutzen, verwenden ebenfalls diesen Kanal. Upstream- und Client-Datenverkehr teilen sich daher die verfügbare Sendezeit.
 
@@ -46,7 +46,7 @@ Bei unterstützten Mehrbandmodellen können separate Funkmodule weiterhin Client
 
 Dieselbe Vorgabe für den Upstream-Kanal gilt für die Repeater-Verbindungsfunktion von GL.iNet, obwohl sich der Repeater-Betrieb und der eigenständige Extender-Netzwerkmodus in anderen Punkten unterscheiden.
 
-#### Drahtloses Mesh
+#### Drahtloses Mesh {#wireless-mesh}
 
 In der getesteten Tri-Band-Mesh-Konfiguration nutzt der Knoten **5 GHz für den drahtlosen Backhaul**. Sein 5-GHz-Kanal folgt dem Hauptrouter und kann nicht unabhängig geändert werden. Die separaten **Kanaleinstellungen für 2.4 GHz und 6 GHz bleiben dagegen unabhängig konfigurierbar**. Diese Aussage bezieht sich auf Kanaleinstellungen und nicht darauf, mit welchen Bändern sich Client-Geräte verbinden können. Eine Änderung des clientseitigen Kanals ändert das Backhaul-Band nicht.
 
@@ -57,7 +57,7 @@ Die Auswirkungen auf die Leistung hängen daher von der Client-Verbindung ab:
 
 Dies beschreibt die getestete Konfiguration, nicht jedes unterstützte Mesh-Modell. Die Weiterleitung über separate Funkmodule ist keine exklusive Mesh-Funktion. Ein Wechsel von Extender zu Mesh verbessert den Durchsatz nicht automatisch.
 
-#### Access-Point-Modus und kabelgebundenes Mesh
+#### Access-Point-Modus und kabelgebundenes Mesh {#access-point-mode-and-wired-mesh}
 
 Beide nutzen Ethernet für die Verbindung zum Hauptrouter. Ethernet-Backhaul arbeitet im Vollduplexbetrieb und vermeidet die Übertragung des Backhaul-Datenverkehrs über Wi-Fi. Wi-Fi-Verbindungen der Clients bleiben Halbduplex. Bei ansonsten vergleichbarer Hardware und vergleichbaren Bedingungen können Access-Point-Modus und kabelgebundenes Mesh einen ähnlichen Durchsatz bieten; Mesh ergänzt eine abgestimmte Konfiguration und Verwaltung.
 
@@ -112,7 +112,7 @@ Mesh bevorzugt Ethernet-Backhaul und unterstützt den Wechsel zu einer drahtlose
     - GL-S1300 (Convexa-S)
 
 
-## Schnelleinrichtung
+## Schnelleinrichtung {#quick-setup}
 
 Im folgenden Beispiel wird mit Flint 3 (GL‑BE9300) und Slate 7 (GL‑BE3600) ein Mesh-Netzwerk eingerichtet.
 
@@ -166,11 +166,11 @@ Im folgenden Beispiel wird mit Flint 3 (GL‑BE9300) und Slate 7 (GL‑BE3600) e
 
     ![main topology](https://static.gl-inet.com/docs/router/en/4/interface_guide/mesh/main_topology_wifi.png){class="glboxshadow"}
 
-## Knoten verwalten
+## Knoten verwalten {#manage-nodes}
 
 Nach Abschluss der Einrichtung ist der Mesh-Knoten nicht mehr unter seiner ursprünglichen IP-Adresse erreichbar. Sie können den Hauptrouter und alle Mesh-Knoten über das Admin Panel des Hauptrouters verwalten.
 
-### Details eines Knotens anzeigen
+### Details eines Knotens anzeigen {#view-node-details}
 
 Navigieren Sie im Admin Panel des Hauptrouters zu **MESH** und klicken Sie in der Topologie auf **Main Router**.
 
@@ -188,7 +188,7 @@ Sie können Details zum Mesh-Knoten anzeigen, darunter Modell, IP- und MAC-Adres
 
 ![mesh node info](https://static.gl-inet.com/docs/router/en/4/interface_guide/mesh/mesh_node_info2.png){class="glboxshadow"}
 
-### Mesh-Knoten bearbeiten
+### Mesh-Knoten bearbeiten {#edit-mesh-node}
 
 Navigieren Sie im Admin Panel des Hauptrouters zu **MESH** und klicken Sie in der Topologie auf **Mesh Node**.
 
@@ -200,7 +200,7 @@ Jeder Mesh-Knoten wird standardmäßig als „Node“ gefolgt von den letzten vi
 
 ![edit node 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/mesh/edit_node2.png){class="glboxshadow"}
 
-### Auf Mesh-Knoten zugreifen
+### Auf Mesh-Knoten zugreifen {#access-mesh-node}
 
 Navigieren Sie im Admin Panel des Hauptrouters zu **MESH** und klicken Sie in der Topologie auf **Mesh Node**.
 
@@ -214,7 +214,7 @@ Sie werden zur Anmeldeseite des Mesh-Knotens unter der vom Hauptrouter zugewiese
 
 ![mesh admin login](https://static.gl-inet.com/docs/router/en/4/interface_guide/mesh/access_mesh_node2.png){class="glboxshadow"}
 
-### Weitere Knoten hinzufügen
+### Weitere Knoten hinzufügen {#add-more-nodes}
 
 Klicken Sie bei Bedarf oben rechts in der Topologie auf **Add**, um weitere Knoten hinzuzufügen.
 

@@ -1,4 +1,4 @@
-# Status der LED-Anzeigen
+# Status der LED-Anzeigen {#led-indicator-status}
 
 
 
@@ -14,9 +14,9 @@ Dieses Dokument beschreibt den Status der LED-Anzeigen und die zugehörigen Bede
 
 
 
-## Reiserouter
+## Reiserouter {#travel-router}
 
-### GL-MG1300
+### GL-MG1300 {#gl-mg1300}
 
 ![gl-mg1300 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/mg1300_interface.png){class="glboxshadow"}
 
@@ -31,7 +31,7 @@ Dieses Dokument beschreibt den Status der LED-Anzeigen und die zugehörigen Bede
 
 
 
-### GL-MT3600BE
+### GL-MT3600BE {#gl-mt3600be}
 
 
 
@@ -67,7 +67,7 @@ Dieses Dokument beschreibt den Status der LED-Anzeigen und die zugehörigen Bede
 
 
 
-### GL-MT3000
+### GL-MT3000 {#gl-mt3000}
 
 
 
@@ -103,7 +103,7 @@ Dieses Dokument beschreibt den Status der LED-Anzeigen und die zugehörigen Bede
 
 
 
-### GL-AXT1800
+### GL-AXT1800 {#gl-axt1800}
 
 
 
@@ -139,7 +139,7 @@ Dieses Dokument beschreibt den Status der LED-Anzeigen und die zugehörigen Bede
 
 
 
-### GL-SFT1200
+### GL-SFT1200 {#gl-sft1200}
 
 
 
@@ -175,7 +175,7 @@ Dieses Dokument beschreibt den Status der LED-Anzeigen und die zugehörigen Bede
 
 
 
-### GL-MT1300
+### GL-MT1300 {#gl-mt1300}
 
 
 
@@ -211,7 +211,7 @@ Dieses Dokument beschreibt den Status der LED-Anzeigen und die zugehörigen Bede
 
 
 
-### GL-A1300
+### GL-A1300 {#gl-a1300}
 
 
 
@@ -247,7 +247,7 @@ Dieses Dokument beschreibt den Status der LED-Anzeigen und die zugehörigen Bede
 
 
 
-## Mobilfunkrouter
+## Mobilfunkrouter {#cellular-router}
 
 
 
@@ -255,7 +255,7 @@ Dieses Dokument beschreibt den Status der LED-Anzeigen und die zugehörigen Bede
 
 
 
-### GL-XE3000
+### GL-XE3000 {#gl-xe3000}
 
 
 
@@ -403,7 +403,7 @@ Wenn nicht geladen wird, leuchtet die Batterie-LED nach dem Drücken der Ein-/Au
 
 
 
-### GL-X3000
+### GL-X3000 {#gl-x3000}
 
 
 
@@ -495,7 +495,7 @@ Wenn nicht geladen wird, leuchtet die Batterie-LED nach dem Drücken der Ein-/Au
 
 
 
-### GL-X2000
+### GL-X2000 {#gl-x2000}
 
 
 
@@ -587,7 +587,7 @@ Wenn nicht geladen wird, leuchtet die Batterie-LED nach dem Drücken der Ein-/Au
 
 
 
-### GL-X750-V2
+### GL-X750-V2 {#gl-x750-v2}
 
 
 
@@ -679,7 +679,7 @@ Wenn nicht geladen wird, leuchtet die Batterie-LED nach dem Drücken der Ein-/Au
 
 
 
-### GL-XE300
+### GL-XE300 {#gl-xe300}
 
 
 
@@ -843,7 +843,7 @@ Wenn nicht geladen wird, leuchtet die Batterie-LED nach dem Drücken der Ein-/Au
 
 
 
-## Heim-Wi-Fi
+## Heim-Wi-Fi {#home-wi-fi}
 
 
 
@@ -851,7 +851,7 @@ Wenn nicht geladen wird, leuchtet die Batterie-LED nach dem Drücken der Ein-/Au
 
 
 
-### GL-BE9300
+### GL-BE9300 {#gl-be9300}
 
 
 
@@ -887,7 +887,7 @@ Wenn nicht geladen wird, leuchtet die Batterie-LED nach dem Drücken der Ein-/Au
 
 
 
-### GL-BE6500
+### GL-BE6500 {#gl-be6500}
 
 
 
@@ -923,7 +923,7 @@ Wenn nicht geladen wird, leuchtet die Batterie-LED nach dem Drücken der Ein-/Au
 
 
 
-### GL-MT6000
+### GL-MT6000 {#gl-mt6000}
 
 
 
@@ -959,7 +959,7 @@ Wenn nicht geladen wird, leuchtet die Batterie-LED nach dem Drücken der Ein-/Au
 
 
 
-### GL-AX1800
+### GL-AX1800 {#gl-ax1800}
 
 
 
@@ -995,7 +995,7 @@ Wenn nicht geladen wird, leuchtet die Batterie-LED nach dem Drücken der Ein-/Au
 
 
 
-### GL-B3000
+### GL-B3000 {#gl-b3000}
 
 
 
@@ -1031,7 +1031,7 @@ Wenn nicht geladen wird, leuchtet die Batterie-LED nach dem Drücken der Ein-/Au
 
 
 
-## Security Gateways & Mini-Router
+## Security Gateways & Mini-Router {#security-gateway-mini-routers}
 
 
 
@@ -1039,7 +1039,7 @@ Wenn nicht geladen wird, leuchtet die Batterie-LED nach dem Drücken der Ein-/Au
 
 
 
-### GL-MT5000
+### GL-MT5000 {#gl-mt5000}
 
 
 
@@ -1099,7 +1099,7 @@ Hinweis: Der Status des VPN-Servers wird nicht auf der LED angezeigt.
 
 
 
-### GL-MT2500/GL-MT2500A
+### GL-MT2500/GL-MT2500A {#gl-mt2500gl-mt2500a}
 
 
 
@@ -1159,7 +1159,7 @@ Hinweis: Der Status des VPN-Servers wird nicht auf der LED angezeigt.
 
 
 
-### GL-MT300N-V2
+### GL-MT300N-V2 {#gl-mt300n-v2}
 
 
 
@@ -1235,7 +1235,7 @@ Bei früheren Chargen kann die WLAN-LED im normalen Betriebszustand rot statt we
 
 
 
-### GL-AR300M Series
+### GL-AR300M Series {#gl-ar300m-series}
 
 
 

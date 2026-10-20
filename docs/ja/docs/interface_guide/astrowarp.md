@@ -1,4 +1,4 @@
-# AstroWarp
+# AstroWarp {#astrowarp}
 
 **注意**: このガイドは新しいバージョンのAstroWarpに適用されます。この機能はファームウェア v4.11（GL-MG1300 では v4.10）で [GoodPAS](./goodpas.md) に名称変更されました。
 
@@ -17,7 +17,7 @@
 
     たとえば、ルーターAとルーターBがAstroWarpネットワークを構成し、ルーターBを出口ノードに設定した場合、AstroWarp経由のトラフィックはルーターBのWANパブリックIPを使用してインターネットに接続します。ルーターBでVPNクライアントが有効になっていても、このトラフィックはルーターBのVPNクライアントトンネルには転送されません。
 
-## 対応モデル
+## 対応モデル {#supported-models}
 
 ??? "対応モデル"
 
@@ -61,7 +61,7 @@
     - GL-AP1300 (Cirrus)
     - GL-X300B (Collie)
 
-## クイックセットアップ
+## クイックセットアップ {#quick-setup}
 
 次の例では、**Flint 3 (GL-BE9300)** と **Slate 7 (GL-BE3600)** を使用して AstroWarp ネットワークを設定します。
 
@@ -117,7 +117,7 @@ Flint 3 はホームルーターとして動作し、Slate 7 は旅行用ルー�
 
     ![connected home](https://static.gl-inet.com/docs/router/en/4/interface_guide/astrowarp/connected_home.png){class="glboxshadow"}
 
-## 接続テスト
+## 接続テスト {#test-connectivity}
 
 1. ノート PC またはスマートフォンを、Slate 7 旅行用ルーターの Wi-Fi に接続します。
 
@@ -133,7 +133,7 @@ Flint 3 はホームルーターとして動作し、Slate 7 は旅行用ルー�
 
     ![ipcheck sz](https://static.gl-inet.com/docs/router/en/4/interface_guide/astrowarp/ipcheck_sz.png){class="glboxshadow"}
 
-## FAQ
+## FAQ {#faq}
 
 1. **Q: ダイナミックアクセスコードの形式と有効期限を教えてください。**
 

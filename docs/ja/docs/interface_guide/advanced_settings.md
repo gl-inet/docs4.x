@@ -1,4 +1,4 @@
-# 詳細設定
+# 詳細設定 {#advanced-settings}
 
 Web管理パネルの左側で、**SYSTEM** -> **Advanced Settings** に移動します。
 

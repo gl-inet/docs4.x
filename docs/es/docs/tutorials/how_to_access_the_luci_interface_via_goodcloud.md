@@ -1,16 +1,16 @@
-# Cómo acceder a la interfaz LuCI mediante GoodCloud
+# Cómo acceder a la interfaz LuCI mediante GoodCloud {#how-to-access-the-luci-interface-via-goodcloud}
 
 GL.iNet [GoodCloud](https://www.goodcloud.xyz/){target="_blank"} supera las limitaciones geográficas y ofrece una forma cómoda de administrar routers de forma remota. A través de GoodCloud, puede acceder a la interfaz LuCI del router en cualquier momento y desde cualquier lugar, realizar distintos ajustes en el router y administrar la red con facilidad.
 
-## Preparación
+## Preparación {#preparation}
 
 - Equipo de hardware: un router GL.iNet configurado con acceso a Internet y funcionando con normalidad.
 - Entorno de red: la red a la que está conectado el router es estable y puede acceder a Internet con normalidad.
-- Vinculación del dispositivo: necesita [vincular su router GL.iNet a su cuenta de GoodCloud](../interface_guide/cloud.md#vincular-dispositivos-a-la-nube). Si no tiene una cuenta de GoodCloud, puede [registrarse](https://www.goodcloud.xyz/){target="_blank"}.
+- Vinculación del dispositivo: necesita [vincular su router GL.iNet a su cuenta de GoodCloud](../interface_guide/cloud.md#bind-devices-to-cloud). Si no tiene una cuenta de GoodCloud, puede [registrarse](https://www.goodcloud.xyz/){target="_blank"}.
 
-## Pasos para acceder a la interfaz LuCI mediante GoodCloud
+## Pasos para acceder a la interfaz LuCI mediante GoodCloud {#steps-to-access-the-luci-interface-via-goodcloud}
 
-### Para firmware versión 4.7 o superior
+### Para firmware versión 4.7 o superior {#for-firmware-version-47-or-above}
 
 Desde la versión 4.7, los usuarios pueden acceder directamente a la página LuCI desde la plataforma GoodCloud sin pasar por el panel de administración web del router.
 
@@ -25,7 +25,7 @@ Desde la versión 4.7, los usuarios pueden acceder directamente a la página LuC
 
     ![luci interface](https://static.gl-inet.com/docs/router/en/4/tutorials/access_luci_via_goodcloud/log_in_luci_mt6000.png){class="glboxshadow"}
 
-### Para firmware versión 4.6 o inferior
+### Para firmware versión 4.6 o inferior {#for-firmware-version-46-or-below}
 
 1. Inicie sesión en su cuenta de GoodCloud [aquí](https://www.goodcloud.xyz/){target="_blank"}.
 2. En el lado izquierdo, vaya a **Devices** -> **Bound Devices**. Haga clic en el nombre del dispositivo al que desea acceder y verá los iconos de acceso web remoto.

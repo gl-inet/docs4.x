@@ -1,4 +1,4 @@
-# ¿Por qué la velocidad de mi VPN es más lenta de lo esperado?
+# ¿Por qué la velocidad de mi VPN es más lenta de lo esperado? {#why-is-my-vpn-speed-slower-than-expected}
 
 Si ha notado que la velocidad de su conexión VPN es inferior a la velocidad máxima teórica, probada en una red local ideal, esto es completamente normal en el uso real.
 
@@ -6,7 +6,7 @@ Las VPN están diseñadas para priorizar la seguridad y la privacidad, lo que af
 
 **Nota**: Los métodos siguientes pueden ayudar a mejorar la velocidad de la VPN, pero no pueden garantizar que alcance la velocidad anunciada, ya que el rendimiento real depende de múltiples factores.
 
-## Velocidad de CPU del router
+## Velocidad de CPU del router {#router-cpu-speed}
 
 La VPN cifra sus datos para proteger la privacidad, lo que añade procesamiento adicional. Este cifrado y descifrado puede ralentizar la conexión. Elija un router con una CPU más rápida para mejorar la velocidad de su VPN.
 
@@ -15,7 +15,7 @@ Hemos incluido las velocidades de prueba de VPN de todos los modelos en nuestra 
 - Las pruebas se realizan en una red local. Las velocidades reales pueden variar según la configuración de su red.
 - Las velocidades de OpenVPN y WireGuard serán más lentas cuando el router se use como servidor. Los resultados anteriores corresponden al modo cliente.
 
-## Distancia al servidor
+## Distancia al servidor {#server-distance}
 
 Si el servidor VPN está lejos de su ubicación física, los datos deben recorrer una distancia mayor, lo que provoca más latencia y velocidades más bajas.
 
@@ -25,35 +25,35 @@ Puede ver el ejemplo siguiente, que muestra velocidades del cliente al conectars
 
 ![canada](https://static.gl-inet.com/docs/router/en/4/faq/vpn_speed/canadaserver.jpg){class="glboxshadow"}
 
-## Carga del servidor
+## Carga del servidor {#server-load}
 
 Si muchos usuarios están conectados al mismo servidor VPN, este puede congestionarse y provocar velocidades más lentas para todos.
 
-## Velocidad de subida del servidor
+## Velocidad de subida del servidor {#server-upload-speed}
 
 Si está usando un túnel VPN privado, la velocidad de subida del proveedor de servicios de Internet, ISP, en el lado del servidor será el cuello de botella para la velocidad de descarga en el lado del cliente, ya que el cliente VPN descarga los datos a través del servidor.
 
 ![tunnel](https://static.gl-inet.com/docs/router/en/4/faq/vpn_speed/tunnel.png){class="glboxshadow"}
 
-## Diferencias entre protocolos
+## Diferencias entre protocolos {#protocol-differences}
 
 Diferentes protocolos VPN, como OpenVPN o WireGuard, varían en seguridad y velocidad. Algunos pueden ser más lentos debido a sus métodos de cifrado.
 
-## Limitación por parte del ISP
+## Limitación por parte del ISP {#isp-throttling}
 
 Algunos proveedores de servicios de Internet, ISP, pueden limitar la velocidad de los usuarios que usan VPN, especialmente si sospechan un uso intensivo de datos. Esto es especialmente frecuente en algunos países en desarrollo o pequeñas ciudades donde muchos usuarios comparten una infraestructura de Internet limitada.
 
-## DNS
+## DNS {#dns}
 
 Algunos proveedores de servicios de Internet, ISP, pueden no resolver correctamente los dominios de la VPN. Pruebe a usar [Encrypted DNS](../interface_guide/dns.md#dns-server-settings) en la configuración de Network de su router.
 
-## MTU
+## MTU {#mtu}
 
 Algunos proveedores de servicios de Internet, ISP, especialmente los operadores móviles, pueden limitar el tamaño de los paquetes de datos. Pruebe a cambiar el MTU predeterminado de 1420 a 1380 o 1280 en las opciones del cliente VPN.
 
 Para el firmware v4.8 y superior, consulte [aquí](../interface_guide/vpn_dashboard_v4.8.md#tunnel-options).
 
-Para el firmware v4.7 y anteriores, consulte [aquí](../interface_guide/vpn_dashboard_v4.7.md#vpn-client-options).
+Para el firmware v4.7 y anteriores, consulte [aquí](../interface_guide/vpn_dashboard_v4.7.md#vpn-client).
 
 ---
 

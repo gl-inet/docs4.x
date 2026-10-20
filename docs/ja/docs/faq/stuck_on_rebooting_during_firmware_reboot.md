@@ -1,4 +1,4 @@
-# ファームウェア再起動中に「Rebooting」でスタックする
+# ファームウェア再起動中に「Rebooting」でスタックする {#stuck-on-rebooting-during-firmware-reboot}
 
 ルーターがファームウェア再起動中に「Rebooting」でスタックする場合は、以下の手順に従って問題を解決してください。
 

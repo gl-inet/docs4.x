@@ -1,10 +1,10 @@
-# Connect a GL.iNet router to public hotspots with a Captive Portal
+# Connect a GL.iNet router to public hotspots with a Captive Portal {#connect-a-glinet-router-to-public-hotspots-with-a-captive-portal}
 
-## What is a captive portal?
+## What is a captive portal? {#what-is-a-captive-portal}
 
 A captive portal is a Web page where public hotspots require users to view and interact with the page before Internet access is granted.
 
-## Why use a router for public hotspots?
+## Why use a router for public hotspots? {#why-use-a-router-for-public-hotspots}
 
 * Public Wi-Fi is not safe
 
@@ -14,7 +14,7 @@ A captive portal is a Web page where public hotspots require users to view and i
 
     Besides that, some public Wi-Fi networks (e.g., hotel Wi-Fi) limit access to, for example, two devices. When traveling in a group, this is impractical. Instead, you can connect a travel router to the hotel Wi-Fi and use it as a repeater to broadcast a Wi-Fi signal to all your devices, including laptops, smartphones, tablets, etc. The hotel Wi-Fi will only recognize the travel router as a single device, but you can connect as many devices as you want to the free Wi-Fi.
 
-## How to connect router to public hotspots with captive portal?
+## How to connect router to public hotspots with captive portal? {#how-to-connect-router-to-public-hotspots-with-captive-portal}
 
 Watch this video or follow the steps below.
 
@@ -32,11 +32,11 @@ Watch this video or follow the steps below.
 
 3. Connect your router to the public hotspot. Please refer to the [Repeater](../interface_guide/internet_repeater.md/) tutorial.
 
-## Troubleshooting
+## Troubleshooting {#troubleshooting}
 
 If you fail to enter the captive portal, your router may be unable to access the Internet. Please try the following methods for troubleshooting.
 
-### Method 1: Enable Public Hotspot Login Mode & Camouflage
+### Method 1: Enable Public Hotspot Login Mode & Camouflage {#method-1-enable-public-hotspot-login-mode-camouflage}
 
 **Note**: These two features are available only in firmware v4.6 and above.
 
@@ -54,7 +54,7 @@ When connecting the router to a public hotspot, on the **Join Network** page, en
 
 ---
 
-### Method 2: Change router settings
+### Method 2: Change router settings {#method-2-change-router-settings}
 
 1. Log in to the web Admin Panel, navigate to NETWORK -> DNS. Make sure the **DNS Rebinding Attack Protection** is disabled and the **Mode** is set to **Automatic**.
 
@@ -82,7 +82,7 @@ When connecting the router to a public hotspot, on the **Join Network** page, en
 
 ---
 
-### Method 3：MAC Clone
+### Method 3：MAC Clone {#method-3mac-clone}
 
 Some hotels limit the number of devices each customer can connect to the hotel's Wi-Fi by recognizing their MAC addresses, and they record the device's MAC address when it first connects. In this case, you can clone the MAC address your phone uses to connect to the hotel Wi-Fi to the router, allowing the router to use that MAC address to access the hotel's Wi-Fi.
 
@@ -114,7 +114,7 @@ Some hotels limit the number of devices each customer can connect to the hotel's
 
 ---
 
-### Method 4：Seek help from hotel staff
+### Method 4：Seek help from hotel staff {#method-4seek-help-from-hotel-staff}
 
 Some hotels have very strict verification policies for their networks. If none of the above methods work, try asking hotel staff to directly add the MAC address of your router (use the factory default MAC address, not the random one) to the whitelist of the hotel network.
 

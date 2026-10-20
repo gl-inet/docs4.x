@@ -1,8 +1,8 @@
-# セルラールーターの外部アンテナを取り付けまたは交換する方法
+# セルラールーターの外部アンテナを取り付けまたは交換する方法 {#how-to-install-or-change-external-antennas-for-cellular-routers}
 
 このチュートリアルでは、一部のセルラールーター向けに外部アンテナを取り付ける方法と交換する方法を紹介します。
 
-## 外部アンテナを取り付ける
+## 外部アンテナを取り付ける {#install-external-antennas}
 
 ### Mudi 7 {#mudi-7}
 
@@ -14,7 +14,7 @@ Mudi 7 の TS‑9 ポートはメスコネクタ（内穴）です。そのた�
 
 ![ts-9 connector](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/ts9_connector.png){class="glboxshadow" width="328"}
 
-### Spitz AX / Puli AX
+### Spitz AX / Puli AX {#spitz-ax-puli-ax}
 
 Spitz AX（GL-X3000）と Puli AX（GL-XE3000）には、次の外部アンテナが付属しています。
 
@@ -32,7 +32,7 @@ Spitz AX（GL-X3000）と Puli AX（GL-XE3000）には、次の外部アンテ�
 
 2. 最適な性能を得るため、アンテナは上向きに配置してください。
 
-### Spitz Plus
+### Spitz Plus {#spitz-plus}
 
 Spitz Plus（GL-X2000）には、次の外部アンテナが付属しています。
 
@@ -50,7 +50,7 @@ Spitz Plus（GL-X2000）には、次の外部アンテナが付属していま�
 
 2. 最適な性能を得るため、アンテナは上向きに配置してください。
 
-### Spitz
+### Spitz {#spitz}
 
 Spitz（GL-X750/GL-X750V2）には、外部 4G アンテナ 2 本（SMA, 700M~2700MHz）が付属しています。
 
@@ -62,7 +62,7 @@ Spitz（GL-X750/GL-X750V2）には、外部 4G アンテナ 2 本（SMA, 700M~27
 
 2. 最適な性能を得るため、アンテナは上向きに配置してください。
 
-### Collie
+### Collie {#collie}
 
 Collie には **GL-X300B-RS485**、**GL-X300B-BLE**、**GL-X300B-GPS** の 3 つのバージョンがあります。
 
@@ -126,7 +126,7 @@ Collie には **GL-X300B-RS485**、**GL-X300B-BLE**、**GL-X300B-GPS** の 3 つ
 
         ![x300b gps antennas](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/x300b-gps.jpg){class="glboxshadow"}
 
-## 外部アンテナを交換する
+## 外部アンテナを交換する {#change-external-antennas}
 
 以下の案内は、Mudi 7（GL-E5800）を除く、外部アンテナ端子を備えたすべてのセルラールーターに適用されます。Mudi 7 の外部アンテナ取り付けについては、[こちら](#mudi-7){target="_blank"} を参照してください。
 
@@ -138,13 +138,13 @@ Collie には **GL-X300B-RS485**、**GL-X300B-BLE**、**GL-X300B-GPS** の 3 つ
 
 **Tips**: 誤ったアンテナを購入した場合は、コネクタを変換するアダプター（例: SMA-RP male to SMA female）の購入を検討してください。
 
-### Wi‑Fiアンテナ
+### Wi‑Fiアンテナ {#wi-fi-antennas}
 
 Wi‑Fi アンテナの基部には **RP-SMA female connector**（外ネジ・内ピン）が使われています。そのため、**RP-SMA male connector**（内ネジ・内穴）を備えた Wi‑Fi アンテナが必要です。
 
 ![rp-sma connectors](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/rp-sma-connectors.jpg){class="gl-80-desktop glboxshadow"}
 
-### 5G NRアンテナ
+### 5G NRアンテナ {#5g-nr-antennas}
 
 5G NR アンテナの基部には **SMA female connector**（外ネジ・内穴）が使われています。そのため、**SMA male connector**（内ネジ・内ピン）を備えた 5G NR アンテナが必要です。
 

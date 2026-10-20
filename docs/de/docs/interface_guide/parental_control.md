@@ -1,4 +1,4 @@
-# Parental Control
+# Parental Control {#parental-control}
 
 > Diese Anleitung gilt für Firmware v4.8 und früher. Für neuere Versionen klicken Sie bitte [hier](parental_control_v4.9.md).
 
@@ -12,11 +12,11 @@ Sehen Sie sich dieses Video an oder folgen Sie den untenstehenden Schritten, um 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pOyDwQRc3io" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Lokale Version
+## Lokale Version {#local-version}
 
 Die lokale Version wird von GL.iNet bereitgestellt. Sie befindet sich derzeit in der Beta-Phase und verursacht keine zusätzlichen Kosten. Wenn Sie in dieser Version Anfragen nach Anwendungen filtern möchten, müssen Sie die Domain manuell eingeben.
 
-### Unterstützte Modelle
+### Unterstützte Modelle {#supported-models}
 
 ??? "Unterstützte Modelle"
     - GL-MT6000 (Fortify)
@@ -53,7 +53,7 @@ Die lokale Version wird von GL.iNet bereitgestellt. Sie befindet sich derzeit in
     - GL-AP1300 (Cirrus)
     - GL-X300B (Collie)
 
-### Einrichtungsschritte
+### Einrichtungsschritte {#setup-steps}
 
 Melden Sie sich am webbasierten Admin Panel des Routers an und gehen Sie zu **APPLICATIONS** -> **Parental Control**.
 
@@ -147,7 +147,7 @@ Gehen Sie wie folgt vor, um Parental Control einzurichten.
 
     ![final configuration](https://static.gl-inet.com/docs/router/de/4/interface_guide/parental_control/guide/guide_16_final_config.png){class="glboxshadow"}
 
-### Fehlerbehebung
+### Fehlerbehebung {#troubleshooting}
 
 Wenn Ihre konfigurierten Einstellungen nicht wirksam werden, prüfen Sie bitte die folgenden möglichen Ursachen.
 
@@ -169,7 +169,7 @@ Wenn Ihre konfigurierten Einstellungen nicht wirksam werden, prüfen Sie bitte d
 
 4. Das Zielgerät verwendet für jede Netzwerkverbindung eine zufällige MAC-Adresse, wodurch Zugriffsregeln nicht wirksam werden. Deaktivieren Sie die zufällige MAC-Adresse auf dem Zielgerät und fügen Sie das Gerät anschließend erneut Ihrem Profil hinzu.
 
-## Bark-Version
+## Bark-Version {#bark-version}
 
 > Diese Anleitung gilt für Firmware v4.8 und früher. Für neuere Versionen klicken Sie bitte [hier](bark.md).
 
@@ -181,7 +181,7 @@ Der Dienst [Bark](https://www.bark.us/){target="_blank"} kann helfen, die digita
 
 2. Die beiden Parental-Control-Versionen können nicht gleichzeitig aktiviert werden. Wenn Sie eine aktivieren, wird die andere automatisch deaktiviert.
 
-### Unterstützte Modelle
+### Unterstützte Modelle {#supported-models_1}
 
 ??? "Unterstützte Modelle"
     - GL-BE6500 (Flint 3e)
@@ -214,7 +214,7 @@ Der Dienst [Bark](https://www.bark.us/){target="_blank"} kann helfen, die digita
     - GL-AP1300 (Cirrus)
     - GL-X300B (Collie)
 
-### Einrichtungsschritte
+### Einrichtungsschritte {#setup-steps_1}
 
 Melden Sie sich am webbasierten Admin Panel des Routers an und navigieren Sie zu **APPLICATIONS** -> **Parental Control**. Wählen Sie die Bark-Version aus.
 

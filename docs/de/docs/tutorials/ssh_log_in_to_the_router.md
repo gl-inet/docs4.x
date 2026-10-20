@@ -1,14 +1,14 @@
-# Per SSH am Router anmelden
+# Per SSH am Router anmelden {#ssh-log-in-to-the-router}
 
 Secure Shell (SSH) ist ein kryptografisches Netzwerkprotokoll, mit dem Netzwerkdienste sicher über ein unsicheres Netzwerk betrieben werden können. Das bekannteste Anwendungsbeispiel ist die Remote-Anmeldung an Computersystemen. Manchmal reichen bereits einfache Standardwerkzeuge aus, um per SSH auf einen Server zuzugreifen. Diese Anleitung zeigt, wie Sie sich per SSH an GL.iNet-Routern anmelden.
 
 ---
 
-## Für Windows-Nutzer
+## Für Windows-Nutzer {#for-windows-user}
 
 Unter Windows gibt es mehrere Möglichkeiten, auf das Router-Terminal zuzugreifen, darunter Windows Cmd, PowerShell, Bitvise oder PuTTY.
 
-### Mit Windows Cmd
+### Mit Windows Cmd {#using-windows-cmd}
 
 1. Eingabeaufforderung öffnen
 
@@ -46,7 +46,7 @@ Unter Windows gibt es mehrere Möglichkeiten, auf das Router-Terminal zuzugreife
 
         Stellen Sie sicher, dass Sie das richtige Admin-Passwort eingeben. Wenn Sie das Passwort vergessen haben, setzen Sie den Router zurück, indem Sie die Taste **RESET** 10 Sekunden lang gedrückt halten.
 
-### Mit PowerShell
+### Mit PowerShell {#using-powershell}
 
 1. Windows PowerShell öffnen
 
@@ -102,13 +102,13 @@ Unter Windows gibt es mehrere Möglichkeiten, auf das Router-Terminal zuzugreife
 
         ``ssh -p [new port number] [username]@[router IP address]``
 
-### Mit Bitvise
+### Mit Bitvise {#using-bitvise}
 
 Sehen Sie sich dieses Video an, um sich per Bitvise an Ihrem Router anzumelden.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7yVd5UkKJ74" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Mit PuTTY
+### Mit PuTTY {#using-putty}
 
 1. PuTTY herunterladen
 
@@ -156,11 +156,11 @@ Sehen Sie sich dieses Video an, um sich per Bitvise an Ihrem Router anzumelden.
 
 ---
 
-## Für Linux-/Mac-Nutzer
+## Für Linux-/Mac-Nutzer {#for-linuxmac-user}
 
 Der Ablauf unter Linux und macOS ist im Allgemeinen gleich. Im Folgenden verwenden wir Ubuntu als Beispiel.
 
-### Mit Ubuntu
+### Mit Ubuntu {#using-ubuntu}
 
 1. Terminal starten.
 

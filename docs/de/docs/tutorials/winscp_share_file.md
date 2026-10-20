@@ -1,10 +1,10 @@
-# Verwenden Sie WinSCP, um auf Ihre freigegebenen Dateien zuzugreifen
+# Verwenden Sie WinSCP, um auf Ihre freigegebenen Dateien zuzugreifen {#use-winscp-to-access-your-share-files}
 
 Mit **WinSCP** können Sie mithilfe der Dateifreigabefunktion von **GL-Routers** auf Ihre freigegebenen Dateien zugreifen.
 
 Richten Sie Ihre **WebDAV**-Links bitte im Reiter für den Netzwerkspeicher ein. Ausführliche Informationen finden Sie in der Anleitung zu [WebDAV](https://docs.gl-inet.com/router/en/4/interface_guide/network_storage/#set-up-webdav).
 
-## Links in WinSCP einrichten
+## Links in WinSCP einrichten {#setup-links-in-winscp}
 
 Nachdem Sie WebDAV eingerichtet haben, können Sie zur Seite **Share Folders** des Netzwerkspeichers zurückkehren.
 

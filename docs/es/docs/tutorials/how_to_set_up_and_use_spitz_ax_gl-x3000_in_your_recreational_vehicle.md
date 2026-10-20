@@ -1,4 +1,4 @@
-# Cómo configurar y usar Spitz AX (GL-X3000) en su vehículo recreativo
+# Cómo configurar y usar Spitz AX (GL-X3000) en su vehículo recreativo {#how-to-set-up-and-use-spitz-ax-gl-x3000-in-your-recreational-vehicle}
 
 Esta guía le muestra cómo configurar y usar Spitz AX en su vehículo recreativo. Antes de empezar, es posible que necesite preparar el siguiente equipo y servicios adicionales:
 
@@ -8,11 +8,11 @@ Esta guía le muestra cómo configurar y usar Spitz AX en su vehículo recreativ
 
 ---
 
-## 1. Instale su Spitz AX y otros equipos
+## 1. Instale su Spitz AX y otros equipos {#1-install-your-spitz-ax-and-other-equipment}
 
 Antes de iniciar su viaje, configure su Spitz AX siguiendo estos pasos.
 
-### Paso 1: Elija una ubicación para su Spitz AX
+### Paso 1: Elija una ubicación para su Spitz AX {#step-1-choose-a-location-for-your-spitz-ax}
 
 Se recomienda elegir una ubicación central y sin obstrucciones para obtener la máxima cobertura. Asegúrese de que el lugar esté a menos de 1 metro de la fuente de alimentación, que es la longitud del cable del adaptador de corriente.
 
@@ -20,7 +20,7 @@ Se recomienda elegir una ubicación central y sin obstrucciones para obtener la 
 
 Puede colocar su Spitz AX sobre una superficie plana o montarlo en la pared. Si decide montarlo en la pared, siga el paso siguiente.
 
-### (Opcional) Paso 2: Instale su Spitz AX en la pared
+### (Opcional) Paso 2: Instale su Spitz AX en la pared {#optional-step-2-install-your-spitz-ax-on-the-wall}
 
 Hay dos formas de instalar su Spitz AX en la pared:
 
@@ -34,7 +34,7 @@ Los soportes de pared se incluyen en el paquete. Para montar su Spitz AX en la p
 
 ![wall mount](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/x3000-with-screws.jpg){class="glboxshadow"}
 
-### (Opcional) Paso 3: Instale la antena de techo del vehículo recreativo
+### (Opcional) Paso 3: Instale la antena de techo del vehículo recreativo {#optional-step-3-install-the-rv-roof-antenna}
 
 ![roof](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/x3000-with-roof-antenna.jpg){class="glboxshadow"}
 
@@ -53,7 +53,7 @@ Para evitar la atenuación de la señal, el cable de radiofrecuencia entre la an
 
 ---
 
-## 2. Configure Internet en su Spitz AX
+## 2. Configure Internet en su Spitz AX {#2-set-up-the-internet-for-your-spitz-ax}
 
 Para asegurarse de tener acceso a Internet durante el viaje, configure la conexión mediante tarjetas SIM.
 
@@ -76,15 +76,15 @@ Si utiliza dos tarjetas SIM, tenga en cuenta que solo una de ellas funciona cada
 
 ---
 
-## 3. Use Spitz AX en distintos escenarios
+## 3. Use Spitz AX en distintos escenarios {#3-use-spitz-ax-in-different-scenarios}
 
-### En la carretera
+### En la carretera {#on-the-road}
 
 ![on the road](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/rv-connectivity_scene_rv-antennas.png){class="glboxshadow"}
 
 Mientras conduce por carretera, debería poder conectarse a Internet mediante la(s) tarjeta(s) SIM que configuró en el paso anterior.
 
-### En un camping
+### En un camping {#at-a-campground}
 
 ![campground](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/rv-connectivity_scene_repeater.png){class="glboxshadow"}
 
@@ -92,7 +92,7 @@ Si hace una parada en un camping durante su viaje, puede usar la red Wi-Fi públ
 
 Después de conectarse una vez a la red Wi-Fi, Spitz AX podrá recordar el nombre de la red y la contraseña. Se conectará automáticamente la próxima vez que se encuentre cerca.
 
-### En zonas sin cobertura celular
+### En zonas sin cobertura celular {#in-areas-without-cellular-coverage}
 
 ![cellular](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/rv-connectivity_scene_starlink.png){class="glboxshadow"}
 
@@ -102,7 +102,7 @@ Cuando instale la antena de Starlink, asegúrese de que no haya obstrucciones. L
 
 ---
 
-## 4. Establezca las prioridades de failover
+## 4. Establezca las prioridades de failover {#4-set-failover-priorities}
 
 Spitz AX admite multi-WAN, incluyendo failover y balanceo de carga. Puede establecer prioridades de failover para diferentes redes según su escenario.
 

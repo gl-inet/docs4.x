@@ -1,4 +1,4 @@
-# Porta Ethernet
+# Porta Ethernet {#ethernet-port}
 
 Il contenuto di questa pagina si basa sulle versioni firmware v4.7-4.9. Se il dispositivo utilizza una versione firmware diversa, usare il selettore seguente per passare alla guida corrispondente.
 
@@ -14,7 +14,7 @@ Sul lato sinistro del pannello di amministrazione web, vai su **NETWORK** -> **E
 
 Questa pagina consente di gestire le funzioni delle porte Ethernet, WAN/LAN, e di visualizzare i dettagli della porta, come indirizzo MAC e velocita' negoziata.
 
-## WAN
+## WAN {#wan}
 
 Questa sezione mostra la funzione della porta, WAN o LAN, l'indirizzo MAC e la velocita' negoziata.
 
@@ -28,7 +28,7 @@ Questa sezione mostra la funzione della porta, WAN o LAN, l'indirizzo MAC e la v
 
 - **Negotiated Network Port Rate**: la velocita' di collegamento negoziata dell'interfaccia WAN, mostrata solo quando viene rilevato un collegamento valido.
 
-## LAN
+## LAN {#lan}
 
 Questa sezione mostra la velocita' negoziata della porta LAN. Viene visualizzata solo quando viene rilevato un collegamento valido.
 
@@ -36,7 +36,7 @@ Questa sezione mostra la velocita' negoziata della porta LAN. Viene visualizzata
 
 Alcuni modelli supportano la commutazione di LAN 1 in una porta WAN per scenari Dual-Ethernet WAN. Fai clic su [Dual-Ethernet WAN](#dual-ethernet-wan) per i dettagli.
 
-## Dual-Ethernet WAN
+## Dual-Ethernet WAN {#dual-ethernet-wan}
 
 La funzione Dual-Ethernet WAN consente di trasformare una porta Ethernet LAN predefinita in una porta WAN secondaria per l'accesso Internet tramite doppia Ethernet. Offre una connettività di backup affidabile e supporta l'aggregazione della banda, dove compatibile, per carichi di lavoro che richiedono molta banda. Consente inoltre di collegarsi contemporaneamente a due reti indipendenti, ad esempio una di lavoro e una personale, aumentando la flessibilità senza hardware aggiuntivo.
 

@@ -1,6 +1,6 @@
-# Network Storage
+# Network Storage {#network-storage}
 
-## Introduction
+## Introduction {#introduction}
 
 Network storage enables wireless file sharing across devices by connecting a USB drive or SD card to your router. The router converts the storage device into a shared network drive, accessible to all Wi-Fi-connected devices.
 
@@ -14,7 +14,7 @@ Some GL.iNet models have MicroSD(TF) card slots, while some models have USB port
 
     3. The web Admin Panel only allows you to manage shared folders. To manage files on your storage device, please use the [mobile app](https://www.gl-inet.com/app/#download-app-glinet){target="_blank"}.
 
-## Supported Models
+## Supported Models {#supported-models}
 
 Usually, models with USB ports or MicroSD(TF) slots support network storage (i.e. file sharing). 
 
@@ -46,7 +46,7 @@ For devices with flash storage of 32MB or less, Network Storage is not yet suppo
 | GL-E750V2 (Mudi V2)<br>**FW 4.8+**   | √     | -     | -     | √        | √            |
 | GL-AR750S-EXT (Slate)<br>**FW 4.7+** | √     | -     | -     | √        | √            |
 
-## Connect Storage Device
+## Connect Storage Device {#connect-storage-device}
 
 For TF card, you need to power off the router first, insert the TF card and then power on the router.
 
@@ -158,7 +158,7 @@ Connect the storage device. When it is detected, the page is displayed as below.
 
 ---
 
-## Samba Client
+## Samba Client {#samba-client}
 
 === "Windows"
 
@@ -242,7 +242,7 @@ Connect the storage device. When it is detected, the page is displayed as below.
         
         ![ios files set up SMB](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios_files_smb_1.png){class="glboxshadow" width="560"}
 
-        Tap the **Connect to Server** option near the top of the menu. On the next screen, enter your server's connection url. You can find the url in [Shared Link](#shared-link). Tap the **Next** button in the top-right to continue.
+        Tap the **Connect to Server** option near the top of the menu. On the next screen, enter your server's connection url. You can find the url in [Shared Link](#set-up-samba). Tap the **Next** button in the top-right to continue.
 
         ![ios files set up SMB](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios_files_smb_2.png){class="glboxshadow" width="560"}
 
@@ -278,7 +278,7 @@ Connect the storage device. When it is detected, the page is displayed as below.
 
         ![documents samba](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/documents_4_samba.png){class="glboxshadow" width="560"}
 
-## WebDAV Client
+## WebDAV Client {#webdav-client}
 
 === "Windows"
 
@@ -364,7 +364,7 @@ Connect the storage device. When it is detected, the page is displayed as below.
 
     ![documents WebDAV](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav_client/documents_4_webdav.png){class="glboxshadow" width="560"}
 
-## Using Mobile App
+## Using Mobile App {#using-mobile-app}
 
 The web Admin Panel only allows you to manage shared folders. To manage files on your storage device, please use the [mobile app](https://www.gl-inet.com/app/#download-app-glinet){target="_blank"}.
 

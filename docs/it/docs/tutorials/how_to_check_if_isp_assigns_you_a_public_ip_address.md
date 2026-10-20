@@ -1,4 +1,4 @@
-# Come verificare se hai un indirizzo IP pubblico
+# Come verificare se hai un indirizzo IP pubblico {#how-to-check-if-you-have-a-public-ip-address}
 
 Un indirizzo pubblico, a differenza di un indirizzo IP privato, e' un identificatore numerico univoco assegnato ai dispositivi connessi a Internet. Ti serve un IP pubblico se vuoi ospitare un sito web, configurare un server VPN o offrire altri servizi online. In genere viene fornito dal tuo Internet Service Provider.
 

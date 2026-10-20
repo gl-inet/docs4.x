@@ -1,16 +1,16 @@
-# ドメイン名を使ってクライアントからOpenVPNサーバー側LAN機器へアクセスする方法
+# ドメイン名を使ってクライアントからOpenVPNサーバー側LAN機器へアクセスする方法 {#how-to-access-openvpn-server-lan-devices-from-the-client-via-domain-names}
 
 このチュートリアルでは、クライアントから OpenVPN サーバーの LAN 上にある家庭内機器（NAS、IP カメラなど）へ、ドメイン名を使ってアクセスする方法を説明します。
 
-## トポロジー
+## トポロジー {#topology}
 
 以下のように、クライアント側 LAN 上の PC から、それぞれのドメイン名を使って OpenVPN サーバー側 LAN にある NAS や IP カメラへアクセスできます。
 
 ![topology](https://static.gl-inet.com/docs/router/en/4/tutorials/access_ovpnserver_lan_via_domain_names/topology_be9300_be3600.png){class="glboxshadow"}
 
-## 設定手順
+## 設定手順 {#setup-steps}
 
-### 1. サーバー側で Hosts を編集する（任意）
+### 1. サーバー側で Hosts を編集する（任意） {#1-edit-hosts-on-server-optional}
 
 この手順は、VPN サーバーがローカルのドメイン名を正しく解決できない場合に適用されます。必要かどうか分からない場合は、この手順をスキップしてください。
 
@@ -22,7 +22,7 @@ VPN サーバールーターの Web 管理画面にログインし、**NETWORK**
 
 ![input ip domain](https://static.gl-inet.com/docs/router/en/4/tutorials/access_ovpnserver_lan_via_domain_names/input_ip_domain.png){class="glboxshadow gl-80-desktop"}
 
-### 2. サーバー側でLANへのリモートアクセスを許可する
+### 2. サーバー側でLANへのリモートアクセスを許可する {#2-allow-remote-access-lan-on-server}
 
 サーバーの Web 管理画面で、**VPN** -> **OpenVPN Server** に移動します。右上の **Options** をクリックします。
 
@@ -34,7 +34,7 @@ VPN サーバールーターの Web 管理画面にログインし、**NETWORK**
 
 有効にすると、VPN 経由でルーターおよび LAN 上の機器にリモートアクセスできるようになります。
 
-### 3. VPN設定をエクスポートする
+### 3. VPN設定をエクスポートする {#3-export-vpn-configuration}
 
 サーバーの管理画面で、**VPN** -> **OpenVPN Server** -> **Configuration** タブに移動し、下部の **Export Client Configuration** をクリックします。
 
@@ -62,13 +62,13 @@ VPN サーバールーターの Web 管理画面にログインし、**NETWORK**
 
 ![ovpnserver tunnel ip](https://static.gl-inet.com/docs/router/en/4/tutorials/access_ovpnserver_lan_via_domain_names/ovpnserver_tunnel_ip.png){class="glboxshadow"}
 
-### 4. VPNサーバーを有効にする
+### 4. VPNサーバーを有効にする {#4-enable-vpn-server}
 
 **OpenVPN Server** ページで、右上の **Start** ボタンをクリックしてサーバーを起動します。
 
 ![start server](https://static.gl-inet.com/docs/router/en/4/tutorials/access_ovpnserver_lan_via_domain_names/ovpnserver_start.png){class="glboxshadow"}
 
-### 5. VPN設定をアップロードする
+### 5. VPN設定をアップロードする {#5-upload-vpn-configuration}
 
 VPN クライアントルーターの Web 管理画面にログインし、**VPN** -> **OpenVPN Client** に移動して **Add Manually** をクリックします。
 
@@ -86,7 +86,7 @@ VPN クライアントルーターの Web 管理画面にログインし、**VPN
 
 ![applied](https://static.gl-inet.com/docs/router/en/4/tutorials/access_ovpnserver_lan_via_domain_names/ovpnclient_upload4.png){class="glboxshadow"}
 
-### 6. VPNクライアント接続を開始する
+### 6. VPNクライアント接続を開始する {#6-start-vpn-client-connection}
 
 三点アイコンをクリックして VPN 接続を開始します。
 

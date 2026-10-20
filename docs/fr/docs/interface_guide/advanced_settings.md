@@ -1,4 +1,4 @@
-# Paramètres avancés
+# Paramètres avancés {#advanced-settings}
 
 Sur le côté gauche du panneau d’administration web, allez à **SYSTEM** -> **Advanced Settings**.
 

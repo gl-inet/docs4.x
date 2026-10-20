@@ -1,4 +1,4 @@
-# VPN Dashboard (Firmware v4.8)
+# VPN Dashboard (Firmware v4.8) {#vpn-dashboard-firmware-v48}
 
 Il contenuto di questa pagina si basa sulla versione firmware v4.8.x. Se il dispositivo esegue una versione firmware diversa, usa il selettore seguente per passare alla guida corrispondente.
 
@@ -16,7 +16,7 @@ Il VPN dashboard mostra i dettagli della connessione VPN, come regole del tunnel
 
 Puoi anche attivare più connessioni VPN per scenari multi-tunnel.
 
-## Procedura guidata di configurazione
+## Procedura guidata di configurazione {#setup-wizard}
 
 Fai clic sull'icona del libro in alto a sinistra e segui VPN Setup Wizard per completare rapidamente la configurazione VPN.
 
@@ -44,7 +44,7 @@ Tutti i client connessi accederanno a Internet tramite questo tunnel VPN.
 
 Se vuoi configurare la policy VPN, fai riferimento a [Policy Mode](#policy-mode).
 
-## Modalita' VPN
+## Modalita' VPN {#vpn-mode}
 
 Nel VPN Dashboard, fai clic sul pulsante nell'angolo in alto a destra per cambiare modalita' VPN.
 
@@ -54,7 +54,7 @@ Sono disponibili due modalita': **Global Mode** e **Policy Mode**.
 
 ![vpn mode](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/global_mode.png){class="glboxshadow"}
 
-### Global Mode
+### Global Mode {#global-mode}
 
 In questa modalita', tutto il traffico viene instradato attraverso il tunnel VPN e puo' essere attivata una sola istanza client VPN.
 
@@ -64,7 +64,7 @@ Nell'esempio seguente, il router si connette a un server australiano usando il p
 
 ![connected global mode](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/connected-global-mode.png){class="glboxshadow"}
 
-#### Tunnel Options
+#### Tunnel Options {#tunnel-options}
 
 Puoi configurare impostazioni avanzate per il tunnel VPN, come VPN Kill Switch, IP Masquerading e MTU.
 
@@ -84,7 +84,7 @@ Fai clic sull'icona dell'ingranaggio nell'angolo in alto a destra.
 
 - **MTU**: abbreviazione di Maximum Transmission Unit. Il valore MTU impostato per il tunnel sovrascrivera' il valore definito nel file di configurazione.
 
-### Policy Mode
+### Policy Mode {#policy-mode}
 
 In questa modalita', il router puo' connettersi a piu' server VPN e puoi personalizzare le regole di instradamento per diversi client o destinazioni del traffico.
 
@@ -104,7 +104,7 @@ Fai clic sulla sezione corrispondente per saperne di piu'.
 - [Add Tunnel](#add-tunnel)
 - [All Other Traffic](#all-other-traffic)
 
-#### Primary Tunnel
+#### Primary Tunnel {#primary-tunnel}
 
 Il primary tunnel e' un tunnel <u>preimpostato</u> in Policy Mode. Ha la priorita' piu' alta e puoi modificare la [tunnel priority](#tunnel-priority) se esiste piu' di un tunnel.
 
@@ -214,7 +214,7 @@ Nell'esempio seguente, la regola del Primary Tunnel e': tutti i client usano la 
 
 **Nota**: per motivi di sicurezza, vai su [All Other Traffic](#all-other-traffic) e [Tunnel Options](#tunnel-options_1) per controllare altre impostazioni prima di abilitare i tunnel.
 
-#### Add Tunnel
+#### Add Tunnel {#add-tunnel}
 
 Per creare tunnel aggiuntivi per piu' istanze VPN, fai clic su **Add Tunnel** sotto il Primary Tunnel e configura regole personalizzate.
 
@@ -234,7 +234,7 @@ Personalizza le regole del tunnel impostando origine del traffico, destinazioni 
 
 **Nota**: per motivi di sicurezza, vai su [All Other Traffic](#all-other-traffic) e [Tunnel Options](#tunnel-options_1) per controllare altre impostazioni prima di abilitare i tunnel.
 
-#### All Other Traffic
+#### All Other Traffic {#all-other-traffic}
 
 In Policy Mode, un tunnel <u>pre-abilitato</u> viene mostrato nella parte inferiore del VPN Dashboard.
 
@@ -250,7 +250,7 @@ Questo tunnel controlla se il traffico che non corrisponde a nessuno dei gruppi 
 
     ![all other traffic off](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/all_other_traffic_off.png){class="glboxshadow"}
 
-#### Tunnel Priority
+#### Tunnel Priority {#tunnel-priority}
 
 Per impostazione predefinita, il Primary Tunnel preimpostato ha la priorita' piu' alta, seguito dagli altri tunnel aggiunti manualmente, se presenti, e infine dal tunnel All Other Traffic per garantire la connettivita' della rete locale tramite WAN locale.
 
@@ -276,7 +276,7 @@ Fai clic e tieni premuta l'icona a tre linee sulla destra per riordinare i tunne
     - Se abilitato, instrada il traffico non corrispondente o in failover tramite WAN locale.
     - Se disabilitato, rafforza il Kill Switch e blocca il normale accesso a Internet per prevenire perdite di IP.
 
-#### Tunnel Options
+#### Tunnel Options {#tunnel-options_1}
 
 Puoi configurare impostazioni avanzate per ciascun tunnel VPN, come VPN Kill Switch, IP Masquerading e MTU.
 

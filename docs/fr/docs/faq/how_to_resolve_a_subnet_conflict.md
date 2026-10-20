@@ -1,4 +1,4 @@
-# Comment résoudre un conflit de sous-réseau LAN ?
+# Comment résoudre un conflit de sous-réseau LAN ? {#how-to-resolve-a-lan-subnet-conflict}
 
 Lorsque vous branchez un câble Ethernet entre votre routeur domestique et le port WAN du routeur GL.iNet, il se peut que vous voyiez parfois ce message :
 
@@ -10,7 +10,7 @@ Cela se produit parce que votre routeur domestique utilise la même adresse IP L
 
 Suivez les étapes ci-dessous pour modifier le sous-réseau LAN.
 
-## 1. Modifier le sous-réseau LAN
+## 1. Modifier le sous-réseau LAN {#1-change-lan-subnet}
 
 Veuillez cliquer sur le lien **Change LAN Subnet** ; vous serez redirigé vers la page de configuration **LAN**.
 
@@ -22,7 +22,7 @@ Après la modification, attendez quelques secondes. La page sera actualisée et 
 
 Si la page n'est pas redirigée, passez à l'étape suivante.
 
-## 2. Se connecter avec la nouvelle IP LAN
+## 2. Se connecter avec la nouvelle IP LAN {#2-login-with-new-lan-ip}
 
 Saisissez manuellement l'adresse IP LAN modifiée dans la barre d'adresse, puis appuyez sur Entrée.
 

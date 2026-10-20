@@ -1,4 +1,4 @@
-# プラグイン
+# プラグイン {#plug-ins}
 
 Web Admin Panel の左側で、**APPLICATIONS** -> **Plug-ins** に移動します。
 

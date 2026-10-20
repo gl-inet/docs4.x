@@ -1,12 +1,12 @@
-# Brume 2 (GL-MT2500/GL-MT2500A) ユーザーガイド
+# Brume 2 (GL-MT2500/GL-MT2500A) ユーザーガイド {#brume-2-gl-mt2500gl-mt2500a-user-guide}
 
-## 製品概要
+## 製品概要 {#product-overview}
 
 Brume 2（GL-MT2500/GL-MT2500A）は、OpenWrt v21.02 オペレーティングシステムで動作する軽量でパワフルな VPN ゲートウェイです。自宅で VPN サーバーをホストしたり、中小企業で SD-WAN（Site-to-Site）を実行したりするためにコンパクトに設計されています。プラスチック筐体の GL-MT2500 と、アルミニウム筐体の GL-MT2500A の 2 つのバリエーションがあります。
 
 ![gl-mt2500 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/hardware_info/mt2500_interface.jpg){class="glboxshadow"}
 
-## パッケージ内容
+## パッケージ内容 {#package-contents}
 
 - 1 x Brume 2 (GL-MT2500/GL-MT2500A)
 - 1 x ユーザーマニュアル
@@ -20,25 +20,25 @@ Brume 2（GL-MT2500/GL-MT2500A）は、OpenWrt v21.02 オペレーティング�
 
 ![gl-mt2500 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/first_time_setup/mt2500a_unboxing.jpg){class="glboxshadow"}
 
-## Brume 2 のセットアップ方法
+## Brume 2 のセットアップ方法 {#how-to-set-up-brume-2}
 
 Brume 2 のセットアップには、対応するインターネット接続方式（Ethernet、Tethering、Cellular）のいずれかを使用します。Brume 2 には Wi-Fi モジュールが搭載されていないため、Repeater には対応していません。以下のセットアップ動画を見るか、下の手順に従ってください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rpi_loOwUQM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. 電源を入れる
+### 1. 電源を入れる {#1-power-on}
 
 2 ピース式の電源アダプターを組み立てます。ルーターに接続し、コンセントに差し込むと自動的に起動します。
 
-### 2. デバイスを接続する
+### 2. デバイスを接続する {#2-connect-device}
 
 コンピューターやノートパソコンなどのデバイスを、Ethernet ケーブルでルーターの LAN ポートに接続します。
 
-### 3. Web Admin Panel にログインする
+### 3. Web Admin Panel にログインする {#3-log-in-to-web-admin-panel}
 
 Web ブラウザを開き、アドレスバーに `192.168.8.1` と入力してログインします。言語を選択し、管理者パスワードを設定して **Apply** をクリックします。
 
-### 4. インターネット設定
+### 4. インターネット設定 {#4-internet-setup}
 
 === "Ethernet"
 
@@ -74,7 +74,7 @@ Web ブラウザを開き、アドレスバーに `192.168.8.1` と入力して�
 
 **Note:** [Multi-WAN](../../interface_guide/multi-wan.md) 機能を使用する場合は、複数のインターネット接続方式を設定してください。
 
-## VPN のセットアップ方法
+## VPN のセットアップ方法 {#how-to-set-up-a-vpn}
 
 VPN（仮想プライベートネットワーク）は、デバイスと VPN サーバー間に安全で暗号化された通信を作成します。プライバシーとセキュリティを強化し（VPN クライアント）、リモートネットワークへのアクセス（VPN サーバー）も可能にします。Brume 2（およびその他の GL.iNet ルーター）は OpenVPN と WireGuard に対応しています。さらに Tor にも対応しています。
 
@@ -98,13 +98,13 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
     
     * [Tor の設定方法](../../interface_guide/tor.md)。
 
-## Clients
+## Clients {#clients}
 
 Clients ページには、接続中のデバイス情報が表示されます。各クライアントについて、デバイス名、IP アドレス、MAC アドレス、ダウンロード/アップロード速度、総トラフィックが表示され、IP の予約、クライアントのブロック、その他の操作も行えます。
 
 Clients の設定については、[Clients](../../interface_guide/clients.md)を参照してください。
 
-## クラウドサービス
+## クラウドサービス {#cloud-services}
 
 === "GoodCloud"
 
@@ -118,7 +118,7 @@ Clients の設定については、[Clients](../../interface_guide/clients.md)�
     
     AstroWarp の設定については、[AstroWarp](../../interface_guide/astrowarp.md)を参照してください。
 
-## アプリケーション
+## アプリケーション {#applications}
 
 === "Plug-ins"
 
@@ -166,7 +166,7 @@ Clients の設定については、[Clients](../../interface_guide/clients.md)�
     
     Tailscale の設定については、[Tailscale](../../interface_guide/tailscale.md)を参照してください。
 
-## ネットワーク設定
+## ネットワーク設定 {#network-settings}
 
 === "Port forwarding"
 
@@ -236,7 +236,7 @@ Clients の設定については、[Clients](../../interface_guide/clients.md)�
 
     NAT settings の設定については、[NAT Settings](../../interface_guide/nat_settings.md)を参照してください。
 
-## システム設定
+## システム設定 {#system-settings}
 
 === "Overview"
 

@@ -1,4 +1,4 @@
-# Help
+# Help {#help}
 
 In the web Admin Panel, click the question mark icon on the right side of the title bar.
 

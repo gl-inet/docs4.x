@@ -1,4 +1,4 @@
-# How to connect a GL.iNet router to Starlink Dish?
+# How to connect a GL.iNet router to Starlink Dish? {#how-to-connect-a-glinet-router-to-starlink-dish}
 
 If you need to connect a GL.iNet router to Starlink Dish, follow the steps below.
 

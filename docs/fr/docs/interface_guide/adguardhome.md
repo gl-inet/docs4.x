@@ -1,8 +1,8 @@
-# AdGuard Home
+# AdGuard Home {#adguard-home}
 
 AdGuard Home est un logiciel de blocage des publicités et du pistage à l’échelle du réseau. Une fois configuré, il protège tous les appareils de votre réseau domestique sans nécessiter de logiciel supplémentaire côté client.
 
-## Modèles pris en charge
+## Modèles pris en charge {#supported-models}
 
 ??? "Modèles pris en charge"
     - GL-MT6000 (Fortify)
@@ -40,7 +40,7 @@ AdGuard Home est un logiciel de blocage des publicités et du pistage à l’éc
     - GL-B1300 (Convexa-B)
     - GL-X300B (Collie)
 
-## Configuration
+## Configuration {#setup}
 
 Connectez-vous au panneau d’administration web du routeur et allez à **APPLICATIONS** -> **AdGuard Home**.
 

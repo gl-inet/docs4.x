@@ -1,10 +1,10 @@
-# Quelle est la couverture sans fil de mon routeur ?
+# Quelle est la couverture sans fil de mon routeur ? {#what-is-the-wireless-coverage-of-my-router}
 
 La couverture sans fil théorique du routeur est une valeur de référence testée dans un environnement ouvert et sans interférences. Dans un environnement réel, à la maison ou au bureau, la portée sera réduite en raison des obstacles et des interférences, et la puissance du signal peut varier selon les zones.
 
 Voici quelques facteurs clés qui influencent la portée de la couverture sans fil.
 
-## Jeu de puces sans fil
+## Jeu de puces sans fil {#wireless-chipset}
 
 Le jeu de puces sans fil, qui constitue l'unité de traitement centrale des fonctions Wi-Fi, est responsable du codage, du décodage et du contrôle de transmission du signal.
 
@@ -12,11 +12,11 @@ Les routeurs équipés de jeux de puces hautes performances (par exemple compati
 
 À l'inverse, les jeux de puces plus anciens ou d'entrée de gamme sont limités par leurs capacités de traitement, ce qui réduit la portée et la stabilité du signal.
 
-## Bande sans fil
+## Bande sans fil {#wireless-band}
 
 Le Wi-Fi 2,4 GHz offre une meilleure pénétration et une portée plus longue, mais une bande passante plus faible, tandis que le Wi-Fi 5 GHz offre une vitesse plus élevée mais une pénétration moindre, ce qui se traduit par une portée plus courte.
 
-## Puissance TX
+## Puissance TX {#tx-power}
 
 La puissance TX du routeur (puissance d'émission sans fil) constitue un paramètre de base pour la transmission du signal.
 
@@ -24,15 +24,15 @@ Dans un environnement comportant plusieurs routeurs, certains utilisateurs peuve
 
 Vous pouvez ajuster la puissance TX de votre routeur selon vos besoins sur la page [WIRELESS](../interface_guide/wireless.md) du panneau d'administration Web.
 
-## Emplacement du routeur
+## Emplacement du routeur {#router-location}
 
 Placer le routeur dans un endroit central et en hauteur (par exemple sur une étagère ou une armoire) permet de réduire les obstructions. Pour une couverture optimale, évitez de le placer dans un coin, derrière des meubles ou à proximité de sources d'interférences.
 
-## Obstacles physiques
+## Obstacles physiques {#physical-obstacles}
 
 Les murs solides (en particulier en béton, en brique ou en métal), les planchers et les gros meubles bloquent ou affaiblissent les signaux Wi-Fi. Les bâtiments à plusieurs étages ou les espaces cloisonnés réduisent fortement la couverture par rapport à des zones ouvertes.
 
-## Interférences sans fil
+## Interférences sans fil {#wireless-interference}
 
 D'autres appareils sans fil (par exemple des routeurs voisins, des hubs domotiques ou des caméras connectées) ainsi que des appareils électroménagers (comme les micro-ondes) peuvent provoquer des interférences et réduire la couverture Wi-Fi effective.
 

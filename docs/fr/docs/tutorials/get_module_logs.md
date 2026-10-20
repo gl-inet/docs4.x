@@ -1,22 +1,22 @@
-# Comment capturer les journaux du modem avec qlog
+# Comment capturer les journaux du modem avec qlog {#how-to-use-qlog-to-capture-modem-logs}
 
 Certains routeurs GL.iNet disposent de modems 3G/4G/5G intégrés. Lorsque la connexion réseau est instable, il peut être nécessaire d’exporter les journaux du modem pour les analyser.
 
 Voici les étapes permettant d’exporter les journaux du modem cellulaire.
 
-## 1. Connecter votre ordinateur au routeur
+## 1. Connecter votre ordinateur au routeur {#1-connect-your-computer-to-the-router}
 
 Connectez un ordinateur portable au Wi-Fi du routeur (vous trouverez le SSID et le mot de passe sur l'étiquette située sous l'appareil), ou connectez le port Ethernet de votre ordinateur au port LAN du routeur à l'aide d'un câble Ethernet.
 
-## 2. Se connecter au routeur en SSH
+## 2. Se connecter au routeur en SSH {#2-ssh-log-in-to-your-router}
 
 Veuillez consulter [ce lien](https://docs.gl-inet.com/router/en/4/tutorials/ssh_log_in_to_the_router/).
 
-## 3. Obtenir les journaux du modem
+## 3. Obtenir les journaux du modem {#3-get-modem-logs}
 
 Sélectionnez les étapes correspondant au modèle de votre appareil.
 
-### GL-E5800
+### GL-E5800 {#gl-e5800}
 
 1. Insérez une clé USB, puis exécutez `df -h` pour obtenir son chemin de montage et notez-le.
 
@@ -58,7 +58,7 @@ Sélectionnez les étapes correspondant au modèle de votre appareil.
 
     ![Qlogs Files](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/E5800_qlogs_files.png){class="glboxshadow"}
 
-### GL-X2000
+### GL-X2000 {#gl-x2000}
 
 1. Insérez une clé USB, puis exécutez `df -h` pour obtenir son chemin de montage et notez-le.
 
@@ -108,7 +108,7 @@ Sélectionnez les étapes correspondant au modèle de votre appareil.
     ![Qlogs Files](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/X2000_qlogs_files.png){class="glboxshadow"}
 
 
-### GL-XE300/GL-X750/GL-X300B
+### GL-XE300/GL-X750/GL-X300B {#gl-xe300gl-x750gl-x300b}
 
 1. Insérez une clé USB, puis exécutez `df -h` pour obtenir son chemin de montage et notez-le.
 
@@ -154,7 +154,7 @@ Sélectionnez les étapes correspondant au modèle de votre appareil.
 
     ![Qlogs Files](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/ar9531_qlogs_files.png){class="glboxshadow"}
 
-### GL-X3000/GL-XE3000
+### GL-X3000/GL-XE3000 {#gl-x3000gl-xe3000}
 
 1. Insérez une clé USB, puis exécutez `df -h` pour obtenir son chemin de montage et notez-le.
 

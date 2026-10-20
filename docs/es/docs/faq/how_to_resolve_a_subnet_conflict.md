@@ -1,4 +1,4 @@
-# ¿Cómo resolver un conflicto de subred LAN?
+# ¿Cómo resolver un conflicto de subred LAN? {#how-to-resolve-a-lan-subnet-conflict}
 
 Cuando conecta un cable Ethernet desde el router de casa al puerto WAN del router GL.iNet, a veces puede ver este mensaje:
 
@@ -10,7 +10,7 @@ Esto ocurre porque el router de su casa utiliza la misma IP LAN que el router GL
 
 Siga los pasos que se indican a continuación para cambiar la subred LAN.
 
-## 1. Cambiar la subred LAN
+## 1. Cambiar la subred LAN {#1-change-lan-subnet}
 
 Haga clic en el enlace **Change LAN Subnet** y será redirigido a la página de configuración **LAN**.
 
@@ -22,7 +22,7 @@ Después del cambio, espere unos segundos. La página se actualizará y se redir
 
 Si la página no se redirige, continúe con el siguiente paso.
 
-## 2. Iniciar sesión con la nueva IP LAN
+## 2. Iniciar sesión con la nueva IP LAN {#2-login-with-new-lan-ip}
 
 Introduzca manualmente la nueva IP LAN en la barra de direcciones y pulse Intro.
 

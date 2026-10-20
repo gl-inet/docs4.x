@@ -1,4 +1,4 @@
-# LAN
+# LAN {#lan}
 
 Web Admin Panel の左側で、**NETWORK** -> **LAN** に移動します。
 
@@ -6,7 +6,7 @@ LAN は、デバイスがメイン Wi-Fi または Ethernet ケーブルで接�
 
 このページには基本設定、DHCP Server 設定、Address Reservation が含まれます。
 
-## 基本設定
+## 基本設定 {#basic-settings}
 
 ![lan basic settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/lan/basic_settings.jpg){class="glboxshadow"}
 
@@ -24,7 +24,7 @@ LAN は、デバイスがメイン Wi-Fi または Ethernet ケーブルで接�
 
     クライアントデバイスを別のネットワークセグメントに分離できます。これらのデバイスは同じネットワーク上のほかのデバイスと通信できなくなります。
 
-## DHCPサーバー
+## DHCPサーバー {#dhcp-server}
 
 **DHCP Server** はデフォルトで有効です。DHCP サーバーは各クライアントデバイスに IP アドレスとそのほかの通信パラメーターを自動的に割り当てます。
 
@@ -50,7 +50,7 @@ DHCP サーバーを無効にした場合は、クライアントデバイス側
 
 - **LPR Server**: （Line Printer Remote Server）印刷ジョブを管理し、ネットワークデバイスからリモートプリンターへ印刷要求を送れるようにするサービスです。複数の LPR プリンターポートを設定できます。
 
-## アドレス予約
+## アドレス予約 {#address-reservation}
 
 LAN 内のクライアントに予約 IP アドレスを指定すると、そのクライアントはルーターの DHCP Server に接続するたびに常に同じ IP アドレスを受け取ります。固定 IP 設定が必要なコンピューターやサーバーに予約 IP アドレスを割り当てられます。
 

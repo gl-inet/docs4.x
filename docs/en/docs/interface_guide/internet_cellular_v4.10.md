@@ -1,4 +1,4 @@
-# Connect to the Internet via cellular (v4.10)
+# Connect to the Internet via cellular (v4.10) {#connect-to-the-internet-via-cellular-v410}
 
 The content on this page is based on firmware versions v4.10 and above. If your device is running a different firmware version, use the selector below to switch to the corresponding guide.
 
@@ -23,13 +23,13 @@ Most GL.iNet routers support cellular connectivity. This guide introduces cellul
 
 **Note:** Some SIM cards require activation before first use. To ensure compatibility, activate your SIM card in a smartphone before inserting it into the router.
 
-## Cellular Routers
+## Cellular Routers {#cellular-routers}
 
 This section takes **Mudi 7 (GL-E5800)** as an example to introduce the cellular setup steps and related features. 
 
 Since Mudi 7 has a built-in eSIM and dual Nano‑SIM slots, supporting Dual SIM Dual Standby, its web Admin Panel may differ slightly from other cellular routers, especially those with a single SIM slot.
 
-### Network Setup
+### Network Setup {#network-setup}
 
 Log in to the router's web Admin Panel and navigate to **INTERNET** -> **Cellular**.
 
@@ -77,7 +77,7 @@ Log in to the router's web Admin Panel and navigate to **INTERNET** -> **Cellula
 
     - **Authentication**: This is usually set to NONE if no credentials are required. You may set the authentication to PAP, CHAP, or PAP/CHAP.
 
-### Traffic Statistics
+### Traffic Statistics {#traffic-statistics}
 
 To view the traffic statistics, click **Data Usage**.
 
@@ -99,7 +99,7 @@ Set the Data Cap Amount, Data Reset Period, Start Day and Start Hour, then click
 
 3. Start Day: The maximum number of days takes the value of the actual maximum number of days in the current month.
 
-### Cellular Details
+### Cellular Details {#cellular-details}
 
 To view your cellular details, click **Details & Configuration**. 
 
@@ -129,7 +129,7 @@ In the **Cellular Information**, you can see the Network Type, TAC, Cell ID, Ban
 
     ![signal history](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/signal_history.png){class="glboxshadow"}
 
-### Band Masking
+### Band Masking {#band-masking}
 
 Band Masking allows you to use specific cellular bands to improve cellular signal.
 
@@ -141,7 +141,7 @@ In the **Cellular Settings**, enable **Band Masking**, select the bands you want
 
 ![band masking](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/band_masking.png){class="glboxshadow"}
 
-### Lock Operator
+### Lock Operator {#lock-operator}
 
 !!! note "Supported Models"
 
@@ -182,7 +182,7 @@ Your cellular signal will then be locked to the selected operator.
 
 ![lock operator](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/lock_operator4.jpg){class="glboxshadow"}
 
-### Lock Tower
+### Lock Tower {#lock-tower}
 
 !!! note "Supported Models"
 
@@ -227,21 +227,21 @@ Your cellular signal will then be locked to the selected tower.
 
 3. After locking a cell tower, if you move the router to another location, it will still attempt to reconnect to the locked tower after rebooting. This may prevent the router from connecting to the cellular network automatically at the new location. In this case, you need to either unlock the current cell tower, or manually lock it to a new tower.
 
-### SMS
+### SMS {#sms}
 
 Please refer to [SMS](../tutorials/sms.md).
 
-### SMS Forwarding
+### SMS Forwarding {#sms-forwarding}
 
 Please refer to [SMS Forwarding](../tutorials/sms_forwarding.md).
 
-### Airplane Mode
+### Airplane Mode {#airplane-mode}
 
 To enable Airplane Mode, click the gear icon in the upper‑right corner and toggle on **Airplane Mode**.
 
 ![settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/settings.png){class="glboxshadow"}
 
-### Modem Information
+### Modem Information {#modem-information}
 
 To view modem details, click the gear icon in the upper-right corner and select **Modem Information**.
 
@@ -249,7 +249,7 @@ To view modem details, click the gear icon in the upper-right corner and select 
 
 ![modem info](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/modem_info.png){class="glboxshadow"}
 
-### SIM Failover
+### SIM Failover {#sim-failover}
 
 This feature is available only on cellular routers that support Dual-SIM.
 
@@ -267,7 +267,7 @@ If you want the router to switch back to the preferred SIM at a certain time of 
 
 ![sim failover](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/sim_failover.png){class="glboxshadow"}
 
-### AT Command
+### AT Command {#at-command}
 
 AT commands are standard instructions used to communicate with the cellular modem. With this feature, you can send commands and check the modem status.
 
@@ -291,7 +291,7 @@ Click the gear icon in the upper-right corner and select **AT Command**.
 
 - **AT Command**: Enter your desired command in this field when the Shortcut is "Manual command".
 
-## Non-cellular Routers
+## Non-cellular Routers {#non-cellular-routers}
 
 Although non-cellular routers do not have a built-in cellular modem, you can connect an external USB dongle (not included) to a USB port for cellular connectivity.
 
@@ -303,7 +303,7 @@ Different USB dongles/modems may work in different modes: Standard USB modem mod
 
 Please refer to the corresponding section based on the working mode of your USB dongle.
 
-### Standard USB modem
+### Standard USB modem {#standard-usb-modem}
 
 This section takes **Mango 2 (GL-MG1300)** and a 5G development board [GL-M2](https://www.gl-inet.com/products/gl-m2){target="_blank"} (5G NR module: RM520N-GL) as an example to introduce the cellular setup steps and related features.
 
@@ -381,7 +381,7 @@ This section takes **Mango 2 (GL-MG1300)** and a 5G development board [GL-M2](ht
 
     - **AT Command**: Enter your desired command in this field when the Shortcut is "Manual command".
 
-### Host‑less dongle
+### Host‑less dongle {#hostless-dongle}
 
 This section takes **Flint 3 (GL-BE9300)** and an external USB dongle [SIMPoYo uFi](https://www.gl-inet.com/products/simpoyo-ufi){target="_blank"} as an example to introduce the cellular setup steps. 
 

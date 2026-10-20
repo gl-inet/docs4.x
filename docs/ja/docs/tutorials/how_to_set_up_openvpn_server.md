@@ -1,4 +1,4 @@
-# GL.iNetルーターでOpenVPNサーバーを設定する方法
+# GL.iNetルーターでOpenVPNサーバーを設定する方法 {#how-to-set-up-openvpn-server-on-glinet-routers}
 
 このチュートリアルでは、GL.iNetルーターでOpenVPNサーバーを設定する方法を紹介します。VPNサーバーを使うと、自宅やオフィスのネットワークへ安全にリモート接続できます。GL.iNetルーターなら、数分でOpenVPNサーバーを設定できます。
 
@@ -12,13 +12,13 @@
 
     GL.iNetルーターが上位ルーターの配下に接続されている場合は、[上位ルーターでポートフォワーディングを設定](https://docs.gl-inet.com/router/en/4/tutorials/how_to_set_up_port_forwarding/)してください。
 
-## 1. ルーターにログインする
+## 1. ルーターにログインする {#1-log-in-to-your-router}
 
 Webブラウザを開き、ルーターのWeb管理パネル（デフォルトIP: 192.168.8.1）にアクセスします。管理者パスワードでログインしてください。
 
 ![log in](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/router-login.jpeg){class="glboxshadow"}
 
-## 2. Dynamic DNSを有効にする（任意）
+## 2. Dynamic DNSを有効にする（任意） {#2-enable-dynamic-dns-optional}
 
 通常、OpenVPNサーバーの設定には、他のデバイスがVPNサーバーへアクセスするための固定された接続先となる**固定パブリックIPアドレス**が必要です。
 
@@ -31,7 +31,7 @@ Webブラウザを開き、ルーターのWeb管理パネル（デフォルトIP
 2. **Enable DDNS** をオンにし、**Terms of Service & Privacy Policy** を確認して同意したうえで、**Apply** をクリックします。
 ![apply](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/dynamic-dns-click-apply.png){class="glboxshadow"}
 
-## 3. 設定ファイルをダウンロードする
+## 3. 設定ファイルをダウンロードする {#3-download-configuration-file}
 
 1. ルーターのWeb管理パネルで、**VPN** > **OpenVPN Server** に移動します。
 2. **Generate Configuration** をクリックします。
@@ -63,7 +63,7 @@ Webブラウザを開き、ルーターのWeb管理パネル（デフォルトIP
         ![remote access lan](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/enable-remote-access-lan-4.8.png){class="glboxshadow"}
 
 
-## 4. OpenVPNサーバーに接続する
+## 4. OpenVPNサーバーに接続する {#4-connect-to-openvpn-server}
 
 OpenVPNサーバーに接続するには、OpenVPNクライアントが必要です。以下のいずれかの方法で設定できます。
 
@@ -108,7 +108,7 @@ OpenVPNサーバーに接続するには、OpenVPNクライアントが必要で
     9. 三点アイコンをクリックし、**Start** をクリックします。
     10. OpenVPNクライアントを実行しているルーターにデバイスを接続します。
 
-## 5. VPN接続を確認する
+## 5. VPN接続を確認する {#5-verify-vpn-connection}
 
 Webブラウザを開き、自分のIPアドレスと所在地を検索します。表示された情報がインターネットサービスプロバイダーのIPと所在地ではなく、VPNサーバーのIPと所在地に一致していれば、VPN接続は成功しています。
 

@@ -1,4 +1,4 @@
-# REMOTE SUPPORT DISCLAIMER
+# REMOTE SUPPORT DISCLAIMER {#remote-support-disclaimer}
 
 Dear User,
 
@@ -10,7 +10,7 @@ Before proceeding with any remote connection, please carefully read this stateme
 
 Should you disagree with the terms of this disclaimer, remote access will not be initiated. By proceeding with the remote connection, you acknowledge your full comprehension and acceptance of these terms.
 
-## I. Purpose of Remote Connection
+## I. Purpose of Remote Connection {#i-purpose-of-remote-connection}
 
 We use the remote connection solely to assist you in resolving technical issues related to GL.iNet products and services, including but not limited to:
 
@@ -20,7 +20,7 @@ We use the remote connection solely to assist you in resolving technical issues 
 
 We commit not to view, collect, store, or disseminate any of your personal privacy data, files, or any other data unrelated to the technical support for GL.iNet products and services, nor will we install any software without your consent.
 
-## II. Authorized Scope
+## II. Authorized Scope {#ii-authorized-scope}
 
 To facilitate troubleshooting, you authorize us to:
 
@@ -36,7 +36,7 @@ To facilitate troubleshooting, you authorize us to:
 
     After our service provision using Anydesk, AnyDesk may retain operation logs. For details, please refer to [Anydesk Privacy Policy](https://anydesk.com.cn/en/privacy){target="blank"}.
 
-## III. User Rights and Obligations
+## III. User Rights and Obligations {#iii-user-rights-and-obligations}
 
 1. **Monitoring and termination rights**
 
@@ -54,7 +54,7 @@ To facilitate troubleshooting, you authorize us to:
 
     You must not request us to handle or resolve any issues beyond the authorized scope or unrelated to our products or services.
 
-## IV. Disclaimer
+## IV. Disclaimer {#iv-disclaimer}
 
 GL.iNet and its technical support staff shall not be held liable for the following situations:
 
@@ -82,11 +82,11 @@ GL.iNet and its technical support staff shall not be held liable for the followi
 
     You understand and agree that remote connection is merely an auxiliary troubleshooting method. GL.iNet does not guarantee the resolution of all technical issues, nor that it will meet all of your needs.
 
-## V. Dispute Resolution
+## V. Dispute Resolution {#v-dispute-resolution}
 
 The formation, validity, performance, interpretation of this statement, and any related disputes shall be governed by the laws of Hong Kong, China (excluding conflict of laws). In the event of any dispute between you and us, both parties shall first seek to resolve it through friendly negotiation. If negotiations fail, you agree to submit the dispute to the courts of Hong Kong, China for jurisdiction.
 
-## VI. Other
+## VI. Other {#vi-other}
 
 1. GL.iNet reserves the right to modify this disclaimer in accordance with actual circumstances and publish such modifications on its official website without separate notification.
 

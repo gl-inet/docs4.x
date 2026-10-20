@@ -1,4 +1,4 @@
-# Come configurare OpenVPN server sui router GL.iNet
+# Come configurare OpenVPN server sui router GL.iNet {#how-to-set-up-openvpn-server-on-glinet-routers}
 
 Questo tutorial mostra come configurare un server OpenVPN sui router GL.iNet. Un server VPN consente di stabilire da remoto una connessione sicura alla rete di casa o dell'ufficio. Con un router GL.iNet, puoi configurare un server OpenVPN in pochi minuti.
 
@@ -12,13 +12,13 @@ Questo tutorial mostra come configurare un server OpenVPN sui router GL.iNet. Un
 
     Se il router GL.iNet e' collegato dietro un router principale, [configura il port forwarding sul router principale](https://docs.gl-inet.com/router/en/4/tutorials/how_to_set_up_port_forwarding/).
 
-## 1. Accedi al router
+## 1. Accedi al router {#1-log-in-to-your-router}
 
 Apri un browser web e accedi al pannello di amministrazione web del router, IP predefinito 192.168.8.1. Effettua il login con la password amministratore.
 
 ![log in](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/router-login.jpeg){class="glboxshadow"}
 
-## 2. Abilita Dynamic DNS, opzionale
+## 2. Abilita Dynamic DNS, opzionale {#2-enable-dynamic-dns-optional}
 
 La configurazione di un server OpenVPN richiede in genere un **indirizzo IP pubblico statico**, che fornisce un endpoint fisso attraverso cui altri dispositivi possono accedere al server VPN.
 
@@ -31,7 +31,7 @@ Segui i passaggi seguenti per abilitare Dynamic DNS.
 2. Attiva **Enable DDNS**, leggi e accetta i **Terms of Service & Privacy Policy**, poi fai clic su **Apply**.
 ![apply](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/dynamic-dns-click-apply.png){class="glboxshadow"}
 
-## 3. Scarica il file di configurazione
+## 3. Scarica il file di configurazione {#3-download-configuration-file}
 
 1. Nel pannello di amministrazione web del router, vai su **VPN** > **OpenVPN Server**.
 2. Fai clic su **Generate Configuration**.
@@ -62,7 +62,7 @@ Segui i passaggi seguenti per abilitare Dynamic DNS.
 
         ![remote access lan](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/enable-remote-access-lan-4.8.png){class="glboxshadow"}
 
-## 4. Connettiti al server OpenVPN
+## 4. Connettiti al server OpenVPN {#4-connect-to-openvpn-server}
 
 Per connetterti al server OpenVPN ti serve un client OpenVPN. Puoi configurarlo usando uno dei metodi seguenti:
 
@@ -107,7 +107,7 @@ Per connetterti al server OpenVPN ti serve un client OpenVPN. Puoi configurarlo 
     9. Fai clic sull'icona con tre puntini, poi su **Start**.
     10. Collega un dispositivo al router che esegue il client OpenVPN.
 
-## 5. Verificare la connessione VPN
+## 5. Verificare la connessione VPN {#5-verify-vpn-connection}
 
 Apri un browser web e cerca il tuo indirizzo IP e la tua posizione. Se corrispondono all'IP e alla posizione del server VPN, invece che a quelli del tuo Internet service provider, allora la connessione VPN e' riuscita.
 

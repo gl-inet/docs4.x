@@ -1,4 +1,4 @@
-# iPhone 5Gホットスポットをスキャンできません
+# iPhone 5Gホットスポットをスキャンできません {#cannot-scan-iphone-5g-hotspot}
 
 iPhoneホットスポットの設定を確認し、「最大化互換性」をオフにしてください。
 

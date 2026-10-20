@@ -1,6 +1,6 @@
-# Slate 7 (GL-BE3600) Benutzerhandbuch
+# Slate 7 (GL-BE3600) Benutzerhandbuch {#slate-7-gl-be3600-user-guide}
 
-## Sicherheitshinweise
+## Sicherheitshinweise {#safety-information}
 
 Lesen Sie vor der Verwendung des Geräts alle nachstehenden Sicherheitsinformationen sorgfältig durch. Die nachfolgenden Sicherheitsempfehlungen können nicht sämtliche möglicherweise auftretenden Gefahrensituationen abdecken.
 
@@ -30,7 +30,7 @@ Unsachgemäßes Öffnen oder unsachgemäße Instandsetzung kann den Benutzer des
 
 Schalten Sie bei einem Störfall zuerst den Netzschalter aus.
 
-## Produktübersicht
+## Produktübersicht {#product-overview}
 
 Slate 7 (GL-BE3600) ist der erste tragbare Dualband-Wi-Fi-7-Reiserouter von GL.iNet und basiert auf führenden Wi-Fi-7-Technologien wie Multi-Link Operation und 4K QAM. Er erreicht theoretische Dualband-Geschwindigkeiten von 688 Mbit/s (2,4 GHz) und 2882 Mbit/s (5 GHz) und ermöglicht damit nahtloses 8K-Streaming und mobile Gaming-Erlebnisse. Über den Touchscreen können Sie den Netzwerkstatus auf einen Blick prüfen und grundlegende Funktionen intuitiv bedienen.
 
@@ -38,7 +38,7 @@ Ausgestattet mit 2 × 2.5G-Ethernet-Ports (1 WAN + 1 LAN) und 1 × USB-3.0-Port 
 
 ![gl-be3600 interface](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-be3600/hardware_info/be3600_interface.jpg){class="glboxshadow"}
 
-## Lieferumfang
+## Lieferumfang {#package-contents}
 
 - 1 x Slate 7 (GL-BE3600)
 - 1 x Benutzerhandbuch
@@ -54,7 +54,7 @@ Sehen Sie sich unten das Unboxing-Video von Slate 7 an.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bEuwGm0hQ5k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Touchscreen
+## Touchscreen {#touchscreen}
 
 | Bildschirmanzeige | Beschreibung |
 | :--- | :--- |
@@ -71,18 +71,18 @@ Sehen Sie sich unten das Unboxing-Video von Slate 7 an.
 | ![unlock](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-be3600/touchscreen/slide-to-unlock.png){width="400"} | Tippen Sie auf den Bildschirm, um ihn zu aktivieren, und wischen Sie von links nach rechts, um ihn zu entsperren |
 | ![reboot](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-be3600/touchscreen/slide-to-reboot.png){width="400"} | Klicken Sie auf „Reboot“ und wischen Sie dann von links nach rechts, um zu bestätigen |
 
-## So richten Sie Slate 7 ein
+## So richten Sie Slate 7 ein {#how-to-set-up-slate-7}
 
 Sehen Sie sich dieses Setup-Video an oder folgen Sie den untenstehenden Schritten.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YMHQK8wSQGM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <small>(In diesem Video demonstrieren wir die Einrichtung, indem wir Slate 7 als Repeater konfigurieren. Wenn Sie Slate 7 mit einer anderen Internetverbindungsmethode einrichten möchten, folgen Sie bitte den untenstehenden Schritten.)</small>
 
-### 1. Einschalten
+### 1. Einschalten {#1-power-on}
 
 Setzen Sie den zweiteiligen Netzadapter zusammen. Schließen Sie ihn an Ihren Router an und stecken Sie ihn in eine Steckdose. Der Router startet automatisch.
 
-### 2. Gerät verbinden
+### 2. Gerät verbinden {#2-connect-device}
 
 Verbinden Sie ein Gerät, z. B. einen Computer, Laptop oder ein Smartphone, per Wi-Fi oder Ethernet mit dem Router.
 
@@ -94,11 +94,11 @@ Verbinden Sie ein Gerät, z. B. einen Computer, Laptop oder ein Smartphone, per 
 
     Suchen Sie auf Ihrem Gerät in der Liste der verfügbaren Netzwerke den Wi-Fi-Netzwerknamen Ihres Routers und geben Sie das Passwort ein, um dem Netzwerk beizutreten. Den Standard-Netzwerknamen und das Standard-Passwort finden Sie auf dem Etikett Ihres Routers.
 
-### 3. Im Web-Admin-Panel anmelden
+### 3. Im Web-Admin-Panel anmelden {#3-log-in-to-web-admin-panel}
 
 Öffnen Sie einen Webbrowser, geben Sie `192.168.8.1` in die Adressleiste ein und melden Sie sich an. Wählen Sie eine Sprache aus und legen Sie Ihr Admin-Passwort fest. Klicken Sie dann auf **Apply**.
 
-### 4. Internet einrichten
+### 4. Internet einrichten {#4-internet-setup}
 
 **Hinweis:** Die folgenden Anweisungen gelten für Benutzer, die den Router über das GL.iNet Web-Admin-Panel konfigurieren. Wenn Sie lieber die GL.iNet-App verwenden möchten, [laden Sie die App herunter](https://www.gl-inet.com/app/){target="_blank"} und folgen Sie den Anweisungen auf dem Bildschirm.
 
@@ -152,7 +152,7 @@ Richten Sie Slate 7 mit einer der unterstützten Internetverbindungsmethoden ein
 
 Nachfolgend finden Sie einen Überblick über die Funktionen im Web-Admin-Panel von Slate 7.
 
-## WLAN
+## WLAN {#wireless}
 
 Auf der Seite Wireless können Sie Einstellungen für die 5-GHz- und 2.4-GHz-Wi-Fi-Netzwerke konfigurieren, darunter das Aktivieren von Wi-Fi, das Festlegen der TX-Leistung, das Definieren des Wi-Fi-Namens (SSID), das Aktivieren randomisierter BSSID, die Auswahl des Wi-Fi-Sicherheitsmodus und Passworts sowie die Konfiguration von SSID-Sichtbarkeit, Wi-Fi-Modus, Bandbreite und Kanal.
 
@@ -160,13 +160,13 @@ Darüber hinaus unterstützt Slate 7 MLO Wi-Fi, also Multi-Link Operation, bei d
 
 Informationen zur Einrichtung von Wireless finden Sie unter [Wireless](../../interface_guide/wireless.md).
 
-## Clients
+## Clients {#clients}
 
 Auf der Seite Clients werden Informationen zu verbundenen Geräten angezeigt. Für jeden Client werden Name, IP- und MAC-Adressen, Download- und Upload-Geschwindigkeiten sowie das gesamte Datenvolumen angezeigt. Außerdem können Sie den Client blockieren oder weitere Aktionen ausführen.
 
 Informationen zur Einrichtung von Clients finden Sie unter [Clients](../../interface_guide/clients.md).
 
-## Cloud-Dienste
+## Cloud-Dienste {#cloud-services}
 
 === "GoodCloud"
 
@@ -180,7 +180,7 @@ Informationen zur Einrichtung von Clients finden Sie unter [Clients](../../inter
 
     Zum Einrichten von AstroWarp lesen Sie bitte [AstroWarp](../../interface_guide/astrowarp.md).
 
-## VPN
+## VPN {#vpn}
 
 Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten Datenverkehr zwischen Ihrem Gerät und dem VPN-Server. Es bietet eine zusätzliche Ebene für Datenschutz und Sicherheit (VPN-Client) und ermöglicht Ihnen den Zugriff auf ein entferntes Netzwerk (VPN-Server). Slate 7 unterstützt OpenVPN, WireGuard und Tor.
 
@@ -204,7 +204,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     * [So richten Sie Tor ein](../../interface_guide/tor.md)
 
-## Anwendungen
+## Anwendungen {#applications}
 
 === "Plug-ins"
 
@@ -250,7 +250,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     Zum Einrichten von Tailscale lesen Sie bitte [Tailscale](../../interface_guide/tailscale.md).
 
-## Netzwerk
+## Netzwerk {#network}
 
 === "Portweiterleitung"
 
@@ -333,7 +333,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     Zum Einrichten der NAT-Einstellungen lesen Sie bitte [NAT Settings](../../interface_guide/nat_settings.md).
 
-## System
+## System {#system}
 
 === "Overview"
 
@@ -441,6 +441,6 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     Detaillierte Anweisungen finden Sie unter [Advanced Settings](../../interface_guide/advanced_settings.md).
 
-## Konformitätserklärung
+## Konformitätserklärung {#declaration-of-conformity}
 
 Hiermit erklärt GL TECHNOLOGIES (HONG KONG) LIMITED, dass der Funkanlagentyp [Dual-Band-Wi-Fi-7-Reiserouter, GL-BE3600] den grundlegenden Anforderungen und anderen maßgeblichen Bestimmungen der Richtlinie 2014/53/EU entspricht. Der vollständige Text der EU-Konformitätserklärung ist unter folgender Internetadresse abrufbar: [https://www.gl-inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}.

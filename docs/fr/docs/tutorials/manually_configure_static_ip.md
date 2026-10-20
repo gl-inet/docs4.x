@@ -1,4 +1,4 @@
-# Comment configurer manuellement une IP statique sur les appareils clients ?
+# Comment configurer manuellement une IP statique sur les appareils clients ? {#how-to-manually-configure-static-ip-on-the-client-devices}
 
 === "Windows 11"
 

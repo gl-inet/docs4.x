@@ -1,20 +1,20 @@
-# Przewodnik użytkownika Mango (GL-MT300N-V2)
+# Przewodnik użytkownika Mango (GL-MT300N-V2) {#mango-gl-mt300n-v2-user-guide}
 
-## Przegląd produktu
+## Przegląd produktu {#product-overview}
 
 Mango (GL-MT300N-V2) to kieszonkowy mini router zaprojektowany z myślą o mobilności i podróżach, obsługujący bezprzewodową transmisję z prędkością do 300Mbps. Mango oferuje zaawansowane funkcje bezpieczeństwa, w tym obsługę OpenVPN, WireGuard® oraz serwera DNS. Umożliwia nie tylko przekształcenie publicznej sieci w prywatną sieć Wi-Fi do bezpiecznego surfowania po Internecie, ale także przesyłanie plików konfiguracyjnych VPN od ponad 30 dostawców usług VPN i ustawienie routera jako klienta VPN, zapewniając dodatkową warstwę prywatności i bezpieczeństwa dzięki szyfrowanemu połączeniu między urządzeniem a serwerem VPN.
 
 ![mt300n-v2 illustration](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt300n-v2/product_info/mt300n_v2_overview.png){class="glboxshadow"}
 
-## Jak skonfigurować Mango
+## Jak skonfigurować Mango {#how-to-set-up-mango}
 
 Aby skonfigurować Mango, użyj jednej z czterech obsługiwanych metod połączenia z Internetem: Ethernet, Repeater, Tethering oraz Cellular. Wykonaj poniższe kroki.
 
-### 1. Włączenie zasilania
+### 1. Włączenie zasilania {#1-power-on}
 
 Podłącz przewód zasilający Micro USB do portu zasilania routera, a następnie drugi koniec do zasilacza 5V/2A (brak w zestawie) i do gniazdka elektrycznego.
 
-### 2. Podłączenie urządzenia
+### 2. Podłączenie urządzenia {#2-connect-device}
 
 Podłącz urządzenie (np. komputer, laptop lub smartfon) do routera przez Wi-Fi lub Ethernet.
 
@@ -26,13 +26,13 @@ Podłącz urządzenie (np. komputer, laptop lub smartfon) do routera przez Wi-Fi
 
     Na urządzeniu przejdź do Settings -> WLAN, znajdź nazwę sieci Wi-Fi routera na liście dostępnych sieci i wpisz hasło. Domyślną nazwę sieci i hasło znajdziesz na etykiecie znajdującej się na spodzie routera.
 
-### 3. Logowanie do panelu administracyjnego
+### 3. Logowanie do panelu administracyjnego {#3-log-in-to-web-admin-panel}
 
 Otwórz przeglądarkę internetową, wpisz `192.168.8.1` w pasku adresu i zaloguj się. Wybierz język i ustaw hasło administratora, a następnie kliknij **Apply**.
 
 Pamiętaj, że jeśli zmienisz ustawienia Wi‑Fi, konieczne będzie ponowne połączenie urządzenia z siecią Wi-Fi routera przy użyciu zaktualizowanych danych.
 
-### 4. Konfiguracja Internetu
+### 4. Konfiguracja Internetu {#4-internet-setup}
 
 **Uwaga:** Poniższe instrukcje dotyczą użytkowników konfigurujących router za pomocą webowego panelu administracyjnego GL.iNet. Jeśli wolisz użyć aplikacji GL.iNet, [pobierz aplikację](https://www.gl-inet.com/app/){target="_blank"} i postępuj zgodnie z instrukcjami wyświetlanymi na ekranie.
 
@@ -84,7 +84,7 @@ Skonfiguruj Mango, korzystając z jednej z obsługiwanych metod połączenia z I
 
     Zapoznaj się z poradnikiem [Connect to the Internet via a USB modem](../../interface_guide/internet_cellular.md), aby uzyskać szczegółowe instrukcje.
 
-## Jak skonfigurować VPN
+## Jak skonfigurować VPN {#how-to-set-up-a-vpn}
 
 VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie między urządzeniem a serwerem VPN. Zapewnia dodatkową warstwę prywatności i bezpieczeństwa (klient VPN) oraz umożliwia dostęp do sieci zdalnej (serwer VPN). Mango (i inne routery GL.iNet) obsługuje OpenVPN i WireGuard.
 
@@ -102,7 +102,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie międz
     * [Jak skonfigurować klienta WireGuard](../../interface_guide/wireguard_client.md)
     * [Jak skonfigurować serwer WireGuard](../../interface_guide/wireguard_server.md)
 
-## Aplikacje
+## Aplikacje {#applications}
 
 === "Plug-ins"
 
@@ -122,7 +122,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie międz
 
     Zapoznaj się z poradnikiem [GoodCloud](../../interface_guide/cloud.md).
 
-## Ustawienia sieci
+## Ustawienia sieci {#network-settings}
 
 === "Firewall"
 
@@ -217,7 +217,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie międz
 
     Zapoznaj się z poradnikiem [IGMP Snooping](../../interface_guide/igmp_snooping.md).
 
-## Ustawienia systemowe
+## Ustawienia systemowe {#system-settings}
 
 === "Overview"
 

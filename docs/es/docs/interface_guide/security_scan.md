@@ -1,4 +1,4 @@
-# Análisis de seguridad
+# Análisis de seguridad {#security-scan}
 
 **Nota**: Esta función se incorporó en el firmware v4.11.
 

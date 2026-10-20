@@ -1,4 +1,4 @@
-# Come aggiornare o eseguire il downgrade manuale del firmware del router, da v4.x a v4.x?
+# Come aggiornare o eseguire il downgrade manuale del firmware del router, da v4.x a v4.x? {#how-to-manually-upgrade-or-downgrade-your-router-firmware-from-v4x-to-v4x}
 
 Questo tutorial mostra **come aggiornare o eseguire manualmente il downgrade del firmware del router, da v4.x a v4.x**. I passaggi per l'aggiornamento manuale e per il downgrade del firmware del router sono gli stessi.
 
@@ -10,17 +10,17 @@ Questo tutorial mostra **come aggiornare o eseguire manualmente il downgrade del
 
     **Downgrade:** puoi eseguire il downgrade del firmware del router per risolvere alcuni problemi.
 
-## 1. Verifica se il router esegue l'ultima versione firmware, solo per upgrade
+## 1. Verifica se il router esegue l'ultima versione firmware, solo per upgrade {#1-check-if-your-router-is-running-the-latest-firmware-version-only-for-upgrade}
 
 1. In un browser web, inserisci l'URL del pannello di amministrazione del router, ad esempio 192.168.8.1, ed effettua l'accesso.
 2. Dalla barra laterale sinistra, seleziona **SYSTEM** > **Upgrade**.
 
-## 2. Scarica il file firmware
+## 2. Scarica il file firmware {#2-download-the-firmware-file}
 
 1. Nella barra di ricerca del [firmware download center](https://dl.gl-inet.com/), cerca e seleziona il modello del tuo router.
 2. Nella scheda **Stable** o in altre schede, seleziona **DOWNLOAD FOR COMMON UPGRADE AND U-BOOT** accanto alla versione firmware che vuoi scaricare.
 
-## 3. Carica il firmware
+## 3. Carica il firmware {#3-upload-the-firmware}
 
 Le istruzioni seguenti sono state scritte per il caricamento del firmware tramite pannello di amministrazione del router. Per caricare il firmware tramite app mobile GL.iNet, [scarica l'app](https://www.gl-inet.com/app/) e configurala.
 

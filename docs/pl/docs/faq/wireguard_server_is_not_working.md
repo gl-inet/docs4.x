@@ -1,10 +1,10 @@
-# Co zrobić, jeśli serwer WireGuard nie działa prawidłowo
+# Co zrobić, jeśli serwer WireGuard nie działa prawidłowo {#what-should-i-do-if-the-wireguard-server-is-not-working-properly}
 
 Gdy serwer WireGuard na routerze GL.iNet nie działa prawidłowo, może być kilka możliwych przyczyn.
 
 Wykonaj poniższe kroki rozwiązywania problemów zgodnie z konkretną sytuacją.
 
-## Sytuacja 1. Serwer WireGuard uruchamia się, ale nie można się z nim połączyć
+## Sytuacja 1. Serwer WireGuard uruchamia się, ale nie można się z nim połączyć {#situation-1-the-wireguard-server-is-starting-but-cant-be-connected}
 
 ??? "Wykonaj te kroki"
 
@@ -51,7 +51,7 @@ Wykonaj poniższe kroki rozwiązywania problemów zgodnie z konkretną sytuacją
 
     Jeśli nie widzisz ekranu logowania routera GL.iNet (routera dodatkowego), przekierowanie portów nie działa prawidłowo. Skonfiguruj je ponownie albo upewnij się, że jako router główny używasz urządzenia z poprawnie działającą funkcją przekierowania portów. 
 
-## Sytuacja 2. Serwer WireGuard pokazuje połączonego klienta, ale klient VPN nie ma dostępu do Internetu
+## Sytuacja 2. Serwer WireGuard pokazuje połączonego klienta, ale klient VPN nie ma dostępu do Internetu {#situation-2-the-wireguard-server-shows-connected-client-but-the-vpn-client-cannot-access-the-internet}
 
 ??? "Wykonaj te kroki"
 
@@ -94,7 +94,7 @@ Wykonaj poniższe kroki rozwiązywania problemów zgodnie z konkretną sytuacją
     3. Na karcie **Configuration** w polu **IPv4 Address** dodaj **/24** po **10.0.0.1**. 
     4. Kliknij **Apply**. 
 
-## Sytuacja 3. Serwer WireGuard działa, ale klient VPN nie może się z nim połączyć
+## Sytuacja 3. Serwer WireGuard działa, ale klient VPN nie może się z nim połączyć {#situation-3-the-wireguard-server-is-running-but-vpn-client-cannot-connect-to-it}
 
 ??? "Wykonaj te kroki"
 
@@ -125,7 +125,7 @@ Wykonaj poniższe kroki rozwiązywania problemów zgodnie z konkretną sytuacją
 
     Wgraj ponownie dane konfiguracyjne. 
 
-## Sytuacja 4. Serwer WireGuard jest połączony, ale połączenie nie jest stabilne
+## Sytuacja 4. Serwer WireGuard jest połączony, ale połączenie nie jest stabilne {#situation-4-the-wireguard-server-is-connected-but-the-connection-is-not-stable}
 
 ??? "Wykonaj te kroki"
 
@@ -140,7 +140,7 @@ Wykonaj poniższe kroki rozwiązywania problemów zgodnie z konkretną sytuacją
         4. Dla **DNS Server 1** wybierz **Google Public DNS**. 
         5. Kliknij **Apply**. 
 
-## Sytuacja 5. Serwer WireGuard nagle przestał działać
+## Sytuacja 5. Serwer WireGuard nagle przestał działać {#situation-5-the-wireguard-server-suddenly-stopped-working}
 
 ??? "Wykonaj te kroki"
 

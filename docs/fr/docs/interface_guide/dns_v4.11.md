@@ -1,4 +1,4 @@
-# DNS
+# DNS {#dns}
 
 **Remarque** : le contenu de cette page a été introduit pour la première fois dans le firmware v4.11.
 
@@ -20,7 +20,7 @@ Les paramètres DNS du routeur déterminent comment les noms de domaine sont tra
 
 Par défaut, les requêtes DNS du trafic correspondant à la stratégie VPN utilisent les serveurs DNS fournis par le tunnel VPN. Les autres requêtes DNS utilisent les serveurs obtenus à partir de l'interface WAN active. Si vous définissez des serveurs DNS personnalisés, vous pouvez les appliquer aux tunnels VPN, au routeur lui-même ou aux deux. Lorsque ces options sont activées, les requêtes DNS comprises dans le périmètre choisi sont résolues par les serveurs indiqués plutôt que par ceux obtenus depuis les interfaces réseau concernées. Si aucun serveur personnalisé n'est défini, le routeur utilise les serveurs DNS obtenus depuis les interfaces réseau concernées.
 
-## DNS WAN
+## DNS WAN {#wan-dns}
 
 WAN DNS affiche les serveurs DNS récupérés depuis chaque liaison montante WAN, notamment Ethernet, Repeater, Tethering et Cellular.
 
@@ -30,7 +30,7 @@ Lorsqu'une liaison WAN est active, les adresses de ses serveurs DNS apparaissent
 
 ![wan dns 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns_v4.11/wan_dns_2.png){class="glboxshadow" width=550}
 
-## DNS VPN
+## DNS VPN {#vpn-dns}
 
 VPN DNS affiche les serveurs DNS obtenus depuis chaque tunnel VPN actif.
 
@@ -40,7 +40,7 @@ Lorsqu'un tunnel VPN est actif, les requêtes DNS du trafic VPN suivent la confi
 
 ![vpn dns 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns_v4.11/vpn_dns_2.png){class="glboxshadow" width=550}
 
-## DNS manuel
+## DNS manuel {#manual-dns}
 
 Manual DNS prend en charge deux types de configuration : **Static DNS** et **Encrypted DNS**.
 
@@ -50,7 +50,7 @@ Manual DNS prend en charge deux types de configuration : **Static DNS** et **Enc
 
 - **Apply Manual DNS to Router Itself** : cette option est activée par défaut. Lorsqu'elle est activée, les services intégrés du routeur (tels que GoodCloud) appliquent les paramètres DNS manuels personnalisés.
 
-### DNS statique
+### DNS statique {#static-dns}
 
 Static DNS permet de saisir manuellement des adresses de serveurs DNS IPv4 ou IPv6. Vous pouvez saisir directement les adresses ou sélectionner des serveurs DNS publics prédéfinis dans la liste déroulante.
 
@@ -60,7 +60,7 @@ Vous pouvez saisir jusqu'à quatre adresses de serveurs DNS. Cliquez sur **Apply
 
 ![static dns 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns_v4.11/static_dns_2.png){class="glboxshadow" width=550}
 
-### DNS chiffré
+### DNS chiffré {#encrypted-dns}
 
 Le mode Encrypted DNS prend en charge plusieurs fournisseurs DNS, notamment Control D, NextDNS, Quad9, CleanBrowsing, Cloudflare, AdGuard DNS, Google DNS et OpenDNS. Vous pouvez également spécifier manuellement un serveur DNS chiffré si nécessaire.
 
@@ -102,7 +102,7 @@ Sélectionnez d'abord le DNS Provider. Les autres options changent en fonction d
 
         Protocole de chiffrement DNS mature. Il authentifie et chiffre le trafic DNS en privilégiant la protection contre la falsification et la compatibilité avec les anciens environnements réseau.
 
-## Options DNS
+## Options DNS {#dns-options}
 
 Cliquez sur **Options** dans l'angle supérieur droit pour configurer les paramètres DNS avancés.
 
@@ -116,7 +116,7 @@ Vous pouvez activer ou désactiver ces options selon vos besoins.
 
 - **Override DNS Settings of All Clients** : lorsque cette option est activée, le routeur remplace les paramètres DNS non chiffrés de tous les clients.
 
-## Modifier les hôtes
+## Modifier les hôtes {#edit-hosts}
 
 Cliquez sur **Edit Hosts** dans l'angle supérieur droit pour personnaliser les règles d'hôtes statiques.
 

@@ -27,9 +27,6 @@
 
 ![Вибір файлу конфігурації](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/vpnclient_config.png){class="glboxshadow"}
 
-<span id="vpn-client-options"></span>
-<span id="vpn-clinet-options"></span>
-
 ### Параметри клієнта {#client-options}
 
 Натисніть піктограму шестерні праворуч, щоб відкрити параметри клієнта OpenVPN або WireGuard.
@@ -145,8 +142,6 @@
 Параметри сервера OpenVPN мають такий вигляд.
 
 ![Параметри сервера OpenVPN](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/vpnserver_options_ovpn.png){class="glboxshadow"}
-
-<span id="wireguard-server-options"></span>
 
 Параметри сервера WireGuard мають такий вигляд.
 

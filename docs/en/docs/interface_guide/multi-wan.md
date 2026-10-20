@@ -1,4 +1,4 @@
-# Multi-WAN
+# Multi-WAN {#multi-wan}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/D1s1WScLP4s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -16,7 +16,7 @@ GL.iNet routers can be connected to the Internet in multiple ways, such as [Ethe
 
     3. Some models support [Dual-Ethernet WAN](ethernet_port.md#dual-ethernet-wan), which will have an additional Ethernet interface on the Multi-WAN page.
 
-## Interface Status Track
+## Interface Status Track {#interface-status-track}
 
 GL.iNet routers support up to 5 virtual network interfaces, though the exact number may vary by model. For example, GL-MT6000 has **Ethernet 1**, **Ethernet 2**, **Repeater**, **Tethering** and **Cellular**, each serving distinct network functions in software-defined configurations.
 
@@ -26,7 +26,7 @@ If the interface is available, a green dot will be displayed on the left side, o
 
 ![interface status track 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/multi-wan/interface_status_track_1.jpg){class="glboxshadow"}
 
-### Status Track Settings
+### Status Track Settings {#status-track-settings}
 
 Click the cog icon to access the status track settings of each network interface. 
 
@@ -50,7 +50,7 @@ For example, this is the status tracking setting for Ethernet interface, and the
 
     Some old firmware, such as v4.3, provide settings such as **Track Interval**, **Change to Failure Condition** and **Change to Available Condition**. These settings have been removed since v4.5 and replaced with Detection Mode and Sensitivity Options.
 
-### Sensitivity Options
+### Sensitivity Options {#sensitivity-options}
 
 This feature is available since v4.5.
 
@@ -63,11 +63,11 @@ This sensitivity determines the time interval for Internet status detection.
 
 **Tips**: Switching to high sensitivity may lead to network disconnection, please adjust it with caution.
 
-## Multi-WAN Mode
+## Multi-WAN Mode {#multi-wan-mode}
 
 There are two modes for Multi-WAN: **Failover** and **Load Balance**. They are mutually exclusive and you can only use one of them.
 
-### Failover
+### Failover {#failover}
 
 Failover is the default mode when there are multi-wan connections. If the active link fails, the router will automatically switch to another network interface for Internet access.
 
@@ -75,7 +75,7 @@ Failover is the default mode when there are multi-wan connections. If the active
 
 You can set the priority of each interface: when the currently used interface fails, the router switches to the next available interface with the highest priority. Once a higher-priority connection is restored, the router will automatically switch back to it.
 
-### Load Balance
+### Load Balance {#load-balance}
 
 Load Balance enables multiple network links to be used simultaneously, increasing bandwidth and improving total throughput.  
 
@@ -95,7 +95,7 @@ The following two load ratios are available for configuration:
 
 **Note:** Alive connections or traffic are not ensured to match the load ratio. It is closer to this ratio if it has been used for a longer time.
 
-## Usage Scenarios
+## Usage Scenarios {#usage-scenarios}
 
 * The store's cashier system uses a wired connection to the Internet, while Repeater to Wi-Fi in neighboring stores (or inserting a SIM card to enable cellular network) as a backup Internet access method to prevent mobile payments from being interrupted when the network cable is unavailable.
 

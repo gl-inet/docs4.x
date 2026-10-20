@@ -1,4 +1,4 @@
-# El módem USB no funciona correctamente en el router GL.iNet
+# El módem USB no funciona correctamente en el router GL.iNet {#usb-modem-is-not-working-properly-on-glinet-router}
 
 Algunos routers GL.iNet tienen puertos USB, por lo que los usuarios pueden conectar un módem USB para configurar el acceso a Internet e incluso implementar escenarios Multi-WAN si lo combinan con otros accesos a Internet.
 

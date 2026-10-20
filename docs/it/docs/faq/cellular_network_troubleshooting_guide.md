@@ -1,4 +1,4 @@
-# Guida alla risoluzione dei problemi della rete cellulare
+# Guida alla risoluzione dei problemi della rete cellulare {#cellular-network-troubleshooting-guide}
 
 Se non riesci a stabilire una connessione cellulare, controlla i seguenti possibili problemi.
 

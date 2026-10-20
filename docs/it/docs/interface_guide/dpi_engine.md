@@ -1,4 +1,4 @@
-# DPI Engine
+# DPI Engine {#dpi-engine}
 
 **Nota**: questa funzionalità è stata introdotta nel firmware v4.9.
 
@@ -56,7 +56,7 @@ Integrato con [Netify](https://www.netify.ai/){target="_blank"}, il DPI di GL.iN
     - GL-AP1300 (Cirrus)
     - GL-S1300 (Convexa-S)
 
-## Configurazione rapida
+## Configurazione rapida {#quick-setup}
 
 Nel pannello di amministrazione web, dal menu laterale sinistro vai su **FLOW CONTROL** -> **DPI Engine** e fai clic su **Enable DPI Engine**.
 
@@ -80,7 +80,7 @@ Verrai indirizzato al **DPI Engine Version Center**, dove potrai visualizzare la
 
 **Nota**: questa pagina mostra solo gli indicatori di stato principali del sistema. L'elaborazione del traffico inizierà quando verranno abilitate le relative funzioni.
 
-## Aggiornamento del database
+## Aggiornamento del database {#database-upgrade}
 
 Se è disponibile una versione più recente del database, fai semplicemente clic su **Upgrade** per aggiornarlo.
 

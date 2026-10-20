@@ -1,4 +1,4 @@
-# Pomoc
+# Pomoc {#help}
 
 W panelu administracyjnym WWW kliknij ikonę znaku zapytania po prawej stronie paska tytułu.
 

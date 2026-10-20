@@ -52,7 +52,7 @@ Keep brands, model names, protocols, and standards unchanged, including `GL.iNet
 ## UI, Links, and Technical Review
 
 - Preserve screenshot labels and literal router navigation paths, for example `**VPN** -> **VPN Dashboard**`. Do not invent Ukrainian firmware labels. Translate website labels, homepage content, accessibility text, and feedback prompts.
-- Preserve custom heading IDs exactly. For translated headings referenced by links or redirects, retain a corresponding explicit English ID or update every reference and verify the resulting HTML anchor.
+- Follow the shared heading ID rules in `common.md`: every heading keeps the explicit English ID of the matching English heading.
 - Distinguish clients, servers, routers, devices, and remote peers. Do not conflate the source and destination of traffic or matching and excluded traffic.
 - Preserve whether unmatched traffic is allowed, blocked, or sent through local WAN; whether failover uses another tunnel or `All Other Traffic`; and whether settings apply globally or to an individual tunnel.
 - Translate `only`, `all`, `must`, negation, default states, and VPN blocking conditions with particular care.

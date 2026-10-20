@@ -1,20 +1,20 @@
-# Guida utente di Shadow (serie GL-AR300M)
+# Guida utente di Shadow (serie GL-AR300M) {#shadow-gl-ar300m-series-user-guide}
 
-## Panoramica del prodotto
+## Panoramica del prodotto {#product-overview}
 
 Shadow (serie GL-AR300M) e un mini router tascabile, progettato per essere portatile e adatto ai viaggi, con velocita di trasmissione wireless fino a 300 Mbps. Shadow offre funzioni di sicurezza avanzate, tra cui il supporto per OpenVPN, WireGuard® e un server DNS. Non solo consente di convertire una rete pubblica in una rete Wi-Fi privata per navigare in sicurezza, ma permette anche di caricare file di configurazione VPN da oltre 30 provider di servizi VPN e impostare il router come client VPN, aggiungendo un ulteriore livello di privacy e sicurezza tramite la creazione di traffico crittografato tra il dispositivo e il server VPN.
 
 ![panoramica ar300m](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar300m/product_info/overview.png){class="glboxshadow"}
 
-## Come configurare Shadow
+## Come configurare Shadow {#how-to-set-up-shadow}
 
 Per configurare Shadow, puoi usare uno dei quattro metodi di connessione Internet supportati: Ethernet, Repeater, Tethering e Cellular. Segui i passaggi riportati di seguito.
 
-### 1. Accendi il router
+### 1. Accendi il router {#1-power-on}
 
 Collega il cavo di alimentazione Micro USB alla porta di alimentazione del router, quindi collega l'altra estremita a un alimentatore da 5V/2A (non incluso) e inseriscilo in una presa di corrente.
 
-### 2. Collega un dispositivo
+### 2. Collega un dispositivo {#2-connect-device}
 
 Collega un dispositivo, ad esempio un computer, un laptop o uno smartphone, al router tramite Wi-Fi o Ethernet.
 
@@ -26,13 +26,13 @@ Collega un dispositivo, ad esempio un computer, un laptop o uno smartphone, al r
 
     Sul dispositivo, vai in Settings -> WLAN, individua il nome della rete Wi-Fi del router nell'elenco delle reti disponibili e inserisci la password. Il nome di rete e la password predefiniti sono stampati sull'etichetta nella parte inferiore del router.
 
-### 3. Accedi al pannello di amministrazione web
+### 3. Accedi al pannello di amministrazione web {#3-log-in-to-web-admin-panel}
 
 Apri un browser web, inserisci `192.168.8.1` nella barra degli indirizzi ed effettua l'accesso. Scegli la lingua e imposta la password di amministrazione, quindi fai clic su **Apply**.
 
 Tieni presente che, se modifichi le informazioni del Wi-Fi, dovrai ricollegare il dispositivo alla rete Wi-Fi del router usando le credenziali aggiornate.
 
-### 4. Configurazione della connessione Internet
+### 4. Configurazione della connessione Internet {#4-internet-setup}
 
 **Note:** Le istruzioni seguenti si applicano agli utenti che configurano il router tramite il pannello di amministrazione web GL.iNet. Se preferisci usare l'app GL.iNet, [scarica l'app](https://www.gl-inet.com/app/){target="_blank"} e segui le istruzioni mostrate sullo schermo.
 
@@ -84,7 +84,7 @@ Configura Shadow usando uno dei metodi di connessione Internet supportati: Ether
 
     Per istruzioni dettagliate, fai riferimento a [Collegarsi a Internet tramite un modem USB](../../interface_guide/internet_cellular.md).
 
-## Come configurare una VPN
+## Come configurare una VPN {#how-to-set-up-a-vpn}
 
 Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il dispositivo e il server VPN. Offre un ulteriore livello di privacy e sicurezza come client VPN e consente di accedere a una rete remota come server VPN. Shadow, come gli altri router GL.iNet, supporta OpenVPN e WireGuard.
 
@@ -102,7 +102,7 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il disp
     * [Come configurare un client WireGuard](../../interface_guide/wireguard_client.md)
     * [Come configurare un server WireGuard](../../interface_guide/wireguard_server.md)
 
-## Applicazioni
+## Applicazioni {#applications}
 
 === "Plug-ins"
 
@@ -122,7 +122,7 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il disp
     
     Per configurarlo, fai riferimento a [GoodCloud](../../interface_guide/cloud.md).
 
-## Impostazioni di rete
+## Impostazioni di rete {#network-settings}
 
 === "Firewall"
 
@@ -217,7 +217,7 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il disp
 
     Per configurarlo, fai riferimento a [IGMP Snooping](../../interface_guide/igmp_snooping.md).
 
-## Impostazioni di sistema
+## Impostazioni di sistema {#system-settings}
 
 === "Overview"
 

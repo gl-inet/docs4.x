@@ -1,10 +1,10 @@
-# Clients
+# Clients {#clients}
 
 On the left side of the web Admin Panel, go to **CLIENTS**.
 
 The Clients page displays information about connected devices, including device name, connection type, IP address, MAC address, speed, and traffic, arranged left to right.
 
-## Device Name
+## Device Name {#device-name}
 
 The first column displays the device name and device type, which depends on the hostname of the device operator.
 
@@ -16,7 +16,7 @@ To modify the device name and type, click the three-dot icon in the Action colum
 
 ![modify client device](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/modify_client_device.png){class="glboxshadow"}
 
-## Connection Type
+## Connection Type {#connection-type}
 
 The blue icon on the right side of the device name represents the connection type/method of device.
 
@@ -24,7 +24,7 @@ It indicates how the device is connected to the network - whether via Wi-Fi or a
 
 ![connection type](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/connection_type.png){class="glboxshadow"}
 
-## IP and MAC Address
+## IP and MAC Address {#ip-and-mac-address}
 
 The second column lists the IP and MAC addresses of the connected device.
 
@@ -36,7 +36,7 @@ Many devices use randomized MAC addresses. If the connected devices use randomiz
 
 **Note**: The rule here is that if the second character of the MAC address is 2, 6, A or E(Ignore case), it is considered a randomized MAC address. However, some devices may use a different rule to generate a randomized MAC address, so this detection method may not be accurate.
 
-## Speed
+## Speed {#speed}
 
 The third column displays the internet speed of the connected device. This data represents the average speed over the last 3 minutes.
 
@@ -44,13 +44,13 @@ The third column displays the internet speed of the connected device. This data 
 
 **Note**: The system begins calculating the average speed when this page is opened. For example, if the page is opened for 10 seconds, the average speed will be based on only 10 seconds worth of data.
 
-## Traffic
+## Traffic {#traffic}
 
 The fourth column displays the internet traffic of the connected device.
 
 ![traffic](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/traffic.png){class="glboxshadow"}
 
-## Reserved IP
+## Reserved IP {#reserved-ip}
 
 In the fifth column, you can reserve IP address for a certain connected device with just one click. This feature was introduced in firmware v4.8.
 
@@ -108,9 +108,9 @@ In the Access Control page, manually input the MAC address of the devices you wa
 
 **Note**: Blocking client is based on the MAC address of the device. If the blocked device uses different MAC address next time, it can still be able to connect to router.
 
-## Action
+## Action {#action}
 
-### View Details
+### View Details {#view-details}
 
 If you need to view the details of the client device, click the three-dot icon in the rightmost Action column and then click the **View Details** in the drop-down menu.
 
@@ -120,7 +120,7 @@ You can see all the information about the client device in the opened subpage, i
 
 ![client details](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/client_detail.png){class="glboxshadow"}
 
-### Modify
+### Modify {#modify}
 
 Click the three-dot icon in the Action column, and in the drop-down menu, click **Modify**.
 
@@ -128,7 +128,7 @@ Click the three-dot icon in the Action column, and in the drop-down menu, click 
 
 ![modify client device](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/modify_client_device.png){class="glboxshadow"}
 
-### Limit Speed
+### Limit Speed {#limit-speed}
 
 Click the three-dot icon in the Action column, and in the drop-down menu, click **Limit Speed**.
 
@@ -142,7 +142,7 @@ If a client has been applied speed limitation, its up arrow and down arrow of sp
 
 Click the three-dot icon in the Action column to disable speed limit.
 
-### Use VPN Tunnel
+### Use VPN Tunnel {#use-vpn-tunnel}
 
 **Note**: This option is available as of firmware v4.8 and will only appear in the Action menu if a MAC-based policy is configured.
 
@@ -150,7 +150,7 @@ Add a client to the VPN tunnel list with MAC-based policy. If you need to make d
 
 ![use vpn tunnel](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/use-vpn-tunnel.png){class="glboxshadow"}
 
-## Sort
+## Sort {#sort}
 
 The current sort rule is displayed in the upper right corner, and you can switch to others.
 
@@ -162,7 +162,7 @@ The default sort order is as follows:
 - In the Online Clients section, devices are listed higher if they connected earlier.
 - In the Offline Clients section, devices are listed higher if they disconnected earlier.
 
-## Settings
+## Settings {#settings}
 
 Click the **Settings** button in the upper right corner for further operations.
 
@@ -178,7 +178,7 @@ Click the **Settings** button in the upper right corner for further operations.
 
     ![auto removal](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/auto_removal.png){class="glboxshadow"}
 
-## Remove Clients
+## Remove Clients {#remove-clients}
 
 In the offline clients section, you can click **Delete All** at the top right to delete all offline clients. 
 

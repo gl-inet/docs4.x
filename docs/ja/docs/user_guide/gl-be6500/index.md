@@ -1,6 +1,6 @@
-# Flint 3e (GL-BE6500) ユーザーガイド
+# Flint 3e (GL-BE6500) ユーザーガイド {#flint-3e-gl-be6500-user-guide}
 
-## 製品概要
+## 製品概要 {#product-overview}
 
 Flint 3e (GL-BE6500) は、家庭ユーザーとスモールオフィス向けのWi-Fi 7デュアランディングデスクトップルーターです。Wi-Fi 7 Multi-Link Operation (MLO)技術をサポートし、2.4GHzと5GHzチャンネルをインテリジェントに単一接続にマージします。 same 時デュアランディングリソース使用により、干渉と輻輳を削減し、4K QAMは6453Mbpsの合計デュアランディング速度を実現します—Wi-Fi 6と比較して20%の向上。アップグレードされた5GHzバンド（4x4 MIMO、160MHz）は、長距離パフォーマンスも大幅に向上させます。
 
@@ -10,7 +10,7 @@ Flint 3e (GL-BE6500) は、家庭ユーザーとスモールオフィス向け�
 
 **注意**: Flint 3eとFlint 3の外見の違いはシルクスクリーンにあります：Flint 3eのシルクスクリーンは青、Flint 3は白です。
 
-## パッケージコンテンツ
+## パッケージコンテンツ {#package-contents}
 
 パッケージには以下が含まれます：
 
@@ -25,17 +25,17 @@ Flint 3eの開栓動画については 以下を参照してください.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6-E0LtWqshk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Flint 3eの設定方法
+## Flint 3eの設定方法 {#how-to-set-up-flint-3e}
 
 Flint 3eの設定には、Ethernet、Repeater、Tethering、Cellularの4つのインターネット接続方法が使えます。設定動画を見るか、以下の手順に従ってください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/R40QsUFYuUk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Flint 3eの電源を入れる
+### 1. Flint 3eの電源を入れる {#1-power-on}
 
 二分割の電源アダプターを組み合わせます。ルーター器に接続し、コンセントに挿すと自動的に起動します。
 
-### 2. Flint 3eに接続する
+### 2. Flint 3eに接続する {#2-connect-device}
 
 Wi-FiまたはEthernetを使用してデバイス（コンピュータ、ラップトップ、スマートフォンなど）をルーター器に接続します。
 
@@ -47,11 +47,11 @@ Wi-FiまたはEthernetを使用してデバイス（コンピュータ、ラッ�
 
     デバイスで、Settings -> WLANを開き，利用可能なネットワークリストからルーターのWi-Fiネットワーク名を見つけ、パスワードを入力してネットワークに参加します。デフォルトのネットワーク名とパスワードはルーターのラベルに印刷されています。
 
-### 3. WebGUIにログインする
+### 3. WebGUIにログインする {#3-log-in-to-web-admin-panel}
 
 Webブラウザーでアドレスバーに`192.168.8.1`を入力してログインします。言語を選択し，管理者パスワードを設定して、**Apply**をクリックします。
 
-### 4. Flint 3eをインターネットに接続する
+### 4. Flint 3eをインターネットに接続する {#4-internet-setup}
 
 **注意:** 以下の説明は、GL.iNet Web管理パネルでルーターを設定するユーザーに適用されます。GL.iNetアプリを使用する場合は，[アプリをダウンロード](https://www.gl-inet.com/app/){target="_blank"}して画面の説明に従ってください。
 
@@ -105,7 +105,7 @@ Webブラウザーでアドレスバーに`192.168.8.1`を入力してログイ�
 
 以下はFlint 3e WebGUI機能の概要です。
 
-## Wireless
+## Wireless {#wireless}
 
 Wirelessページでは、5 GHzと2.4 GHz Wi-Fiネットワークの設定を構成できます。Wi-Fiの有効化、TX電力の設定、Wi-Fi名（SSID）の指定、ランダムBSSIDの有効化、Wi-Fiセキュリティモードとパスワードの選択、SSID可視性の設定、Wi-Fiモード、帯域幅、チャネルの選択が含まれます。
 
@@ -113,13 +113,13 @@ Wirelessページでは、5 GHzと2.4 GHz Wi-Fiネットワークの設定を構
 
 Wirelessの設定については、[Wireless](../../interface_guide/wireless.md)を参照してください。
 
-## Clients
+## Clients {#clients}
 
 Clientsページには、接続されたデバイスに関する情報が表示されます。各クライアントについて、名前、IPアドレスとMACアドレス、ダウンロード速度とアップロード速度、合計トラフィックが表示されクライアントをブロックしたりその他のアクションを実行したりできます。
 
 Clientsの設定については、[Clients](../../interface_guide/clients.md)を参照してください。
 
-## クラウドサービス
+## クラウドサービス {#cloud-services}
 
 === "GoodCloud"
 
@@ -133,7 +133,7 @@ Clientsの設定については、[Clients](../../interface_guide/clients.md)を
     
     AstroWarpの設定については、[AstroWarp](../../interface_guide/astrowarp.md)を参照してください。
 
-## VPN
+## VPN {#vpn}
 
 VPN（仮想プライベートネットワーク）は、デバイスとVPNサーバー間の安全で暗号化されたトラフィックを作成します。VPNクライアントとしてプライバシーとセキュリティの追加レイヤーを提供し、VPNサーバーとしてリモートネットワークにアクセスできます。Flint 3eはOpenVPN、WireGuard、Torをサポートしています。
 
@@ -157,7 +157,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
     
     * [Torの設定方法](../../interface_guide/tor.md)
 
-## アプリケーション
+## アプリケーション {#applications}
 
 === "Plug-ins"
 
@@ -203,7 +203,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
     
     Tailscaleの設定については、[Tailscale](../../interface_guide/tailscale.md)を参照してください。
 
-## ネットワーク設定
+## ネットワーク設定 {#network-settings}
 
 === "Port forwarding"
 
@@ -286,7 +286,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
     NAT設定については、[NAT Settings](../../interface_guide/nat_settings.md)を参照してください。
 
-## システム設定
+## システム設定 {#system-settings}
 
 === "Overview"
 

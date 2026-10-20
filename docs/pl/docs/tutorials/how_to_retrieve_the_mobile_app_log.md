@@ -1,22 +1,22 @@
-# Jak pobrać log aplikacji mobilnej
+# Jak pobrać log aplikacji mobilnej {#how-to-retrieve-the-mobile-app-log}
 
 Jeśli podczas korzystania z naszej aplikacji mobilnej GL.iNet występują nieprawidłowości i chcesz pobrać log aplikacji, wykonaj poniższe kroki.
 
-## Przejdź do strony głównej aplikacji
+## Przejdź do strony głównej aplikacji {#go-to-the-app-main-page}
 
 Kliknij ikonę **Wheel** w lewym dolnym rogu.
 
 ![applog1](https://static.gl-inet.com/docs/router/en/4/tutorials/app_log/Applog1.jpg){class="glboxshadow gl-50-desktop"}
 
-## Naciśnij **Enable** przy APP LOG(BETA)
+## Naciśnij **Enable** przy APP LOG(BETA) {#tap-the-enable-at-app-logbeta}
 
 ![applog2](https://static.gl-inet.com/docs/router/en/4/tutorials/app_log/Applog2.jpg){class="glboxshadow gl-50-desktop"}
 
-## Naciśnij **Show Log-Window**
+## Naciśnij **Show Log-Window** {#tap-show-log-window}
 
 ![applog3](https://static.gl-inet.com/docs/router/en/4/tutorials/app_log/Applog3.jpg){class="glboxshadow gl-50-desktop"}
 
-## Po lewej stronie pojawi się niebieska ikona **L**
+## Po lewej stronie pojawi się niebieska ikona **L** {#a-blue-l-icon-will-appear-on-the-left-side}
 
 Po naciśnięciu ikony **L** zostanie wyświetlony log funkcji, której właśnie użyto w aplikacji.
 

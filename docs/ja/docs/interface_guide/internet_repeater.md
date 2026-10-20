@@ -1,4 +1,4 @@
-# 既存の Wi-Fi にリピーターで接続してインターネットを利用する
+# 既存の Wi-Fi にリピーターで接続してインターネットを利用する {#connect-to-the-internet-via-an-existing-wi-fi-by-repeater}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7mZtz8u8--E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -6,7 +6,7 @@
 
 デフォルトでは WISP（Wireless Internet Service Provider）モードで動作します。つまり、ルーターは独自のサブネットを作成し、ファイアウォールとして機能して公衆ネットワークからユーザーを保護します。
 
-## 基本手順
+## 基本手順 {#basic-steps}
 
 ルーターの Web 管理パネルにログインし、**INTERNET** -> **Repeater** に移動して **Connect** をクリックします。
 
@@ -96,7 +96,7 @@
 
 * **MTU**: デフォルト値は 1500 です。
 
-## リピーターオプション
+## リピーターオプション {#repeater-options}
 
 右上の歯車アイコンをクリックして、リピーターのオプションを設定します。
 
@@ -110,7 +110,7 @@
 
 * **Band Selection**: 手動でバンドを選択した場合、ルーターはその周波数帯の Wi-Fi ネットワークのみをスキャンし、接続します。
 
-## 既知のネットワークの管理
+## 既知のネットワークの管理 {#manage-known-network}
 
 既知のネットワークを管理するには、**Switch Network** をクリックします。
 
@@ -144,7 +144,7 @@ SSID を入力し、Security を選択して、必要に応じてパスワード
 
     EAP ネットワークを中継する詳しい手順は、[こちら](../tutorials/eap.md){target="_blank"}を参照してください。
 
-## 再接続
+## 再接続 {#reconnection}
 
 以下のような場合、ルーターは一定間隔で自動的に Wi-Fi への再接続を試みます。必要に応じて手動で無効にすることもできます。SSID やパスワードの誤りが原因の場合は、Known Networks から該当ネットワークを削除して解消してください。
 
@@ -164,7 +164,7 @@ SSID を入力し、Security を選択して、必要に応じてパスワード
 
 **注意**: 問題が起こりやすいのは、通常スキャンフェーズと接続フェーズです。
 
-## トラブルシューティング
+## トラブルシューティング {#troubleshooting}
 
 ルーターがリピーターとして Wi-Fi ネットワークに接続されている状態でインターネットを利用できない場合、次のような黄色いメッセージが表示されます。
 
@@ -178,7 +178,7 @@ SSID を入力し、Security を選択して、必要に応じてパスワード
 
 2. [Multi-WAN](multi-wan.md) ページで Repeater インターフェースの状態を確認します。
 
-## DFS
+## DFS {#dfs}
 
 上流の 5G Wi-Fi に接続すると、ルーターの Wi-Fi も上流 Wi-Fi に合わせて DFS チャネルを使用するかどうかが決まります。
 

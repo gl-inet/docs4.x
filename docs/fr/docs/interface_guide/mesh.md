@@ -1,4 +1,4 @@
-# Mesh
+# Mesh {#mesh}
 
 **Remarque** : cette fonction est disponible à partir du micrologiciel v4.10.
 
@@ -36,9 +36,9 @@ Ce tableau compare les modes autonomes Extender et Access Point de GL.iNet à so
 
 Mesh synchronise les paramètres Wi-Fi pris en charge des réseaux principal, invité, IoT et MLO. Il offre également une gestion centralisée des nœuds, notamment le redémarrage, la suppression et la mise à jour des nœuds GL.iNet pris en charge. Les nœuds peuvent être ajoutés par recherche Wi-Fi, connexion Ethernet ou bouton Mesh/WPS lorsque cette méthode est prise en charge. La gestion du backhaul comprend la priorité à Ethernet, le basculement filaire/sans fil et la prévention des boucles.
 
-### Comprendre les différences de performances
+### Comprendre les différences de performances {#understanding-performance-differences}
 
-#### Mode Extender
+#### Mode Extender {#extender-mode}
 
 L’appareil se connecte à un réseau Wi-Fi existant. La radio utilisée pour cette connexion montante suit le canal du routeur principal. Les clients utilisant la même radio utilisent également ce canal : le trafic montant et celui des clients partagent donc le temps d’antenne.
 
@@ -46,7 +46,7 @@ Sur les modèles multibandes pris en charge, des radios distinctes peuvent conti
 
 La même contrainte de canal montant s’applique à la fonction de connexion Repeater de GL.iNet, même si le fonctionnement Repeater et le mode réseau autonome Extender diffèrent sur d’autres points.
 
-#### Mesh sans fil
+#### Mesh sans fil {#wireless-mesh}
 
 Dans la configuration Mesh tribande testée, le nœud utilise **la bande 5 GHz pour le backhaul sans fil**. Le canal 5 GHz du nœud suit celui du routeur principal et ne peut pas être modifié indépendamment, tandis que ses **paramètres de canaux 2.4 GHz et 6 GHz distincts restent configurables séparément**. Il s’agit de paramètres de canaux, et non d’une indication des bandes auxquelles les clients peuvent se connecter. Modifier un canal utilisé par les clients ne change pas la bande de backhaul.
 
@@ -57,7 +57,7 @@ L’effet sur les performances dépend donc du mode de connexion du client :
 
 Cette description concerne la configuration testée, pas tous les modèles Mesh pris en charge. Le transfert par radios distinctes n’est pas propre à Mesh, et passer d’Extender à Mesh n’améliore pas automatiquement le débit.
 
-#### Mode Access Point et Mesh filaire
+#### Mode Access Point et Mesh filaire {#access-point-mode-and-wired-mesh}
 
 Tous deux utilisent Ethernet pour la connexion au routeur principal. Le backhaul Ethernet fonctionne en duplex intégral et évite de transmettre son trafic par Wi-Fi. Les connexions Wi-Fi des clients restent en semi-duplex. Avec un matériel et des conditions comparables, le mode Access Point et le Mesh filaire peuvent offrir un débit similaire ; Mesh ajoute une configuration et une gestion coordonnées.
 
@@ -112,7 +112,7 @@ Mesh privilégie le backhaul Ethernet et permet de basculer vers le sans-fil lor
     - GL-S1300 (Convexa-S)
 
 
-## Configuration rapide
+## Configuration rapide {#quick-setup}
 
 L’exemple suivant utilise Flint 3 (GL‑BE9300) et Slate 7 (GL‑BE3600) pour créer un réseau Mesh.
 
@@ -166,11 +166,11 @@ L’exemple suivant utilise Flint 3 (GL‑BE9300) et Slate 7 (GL‑BE3600) pour 
 
     ![main topology](https://static.gl-inet.com/docs/router/en/4/interface_guide/mesh/main_topology_wifi.png){class="glboxshadow"}
 
-## Gérer les nœuds
+## Gérer les nœuds {#manage-nodes}
 
 Une fois la configuration terminée, le nœud Mesh n’est plus accessible à son adresse IP d’origine. Vous pouvez gérer le routeur principal et tous les nœuds Mesh depuis le panneau d’administration du routeur principal.
 
-### Afficher les informations d’un nœud
+### Afficher les informations d’un nœud {#view-node-details}
 
 Dans le panneau d’administration du routeur principal, accédez à **MESH**, puis cliquez sur **Main Router** dans la topologie.
 
@@ -188,7 +188,7 @@ Vous pouvez consulter les informations du nœud Mesh, notamment le modèle, les 
 
 ![mesh node info](https://static.gl-inet.com/docs/router/en/4/interface_guide/mesh/mesh_node_info2.png){class="glboxshadow"}
 
-### Modifier un nœud Mesh
+### Modifier un nœud Mesh {#edit-mesh-node}
 
 Dans le panneau d’administration du routeur principal, accédez à **MESH**, puis cliquez sur **Mesh Node** dans la topologie.
 
@@ -200,7 +200,7 @@ Par défaut, chaque nœud Mesh est nommé « Node », suivi des quatre derniers 
 
 ![edit node 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/mesh/edit_node2.png){class="glboxshadow"}
 
-### Accéder à un nœud Mesh
+### Accéder à un nœud Mesh {#access-mesh-node}
 
 Dans le panneau d’administration du routeur principal, accédez à **MESH**, puis cliquez sur **Mesh Node** dans la topologie.
 
@@ -214,7 +214,7 @@ Vous êtes redirigé vers la page de connexion du nœud Mesh à l’adresse IP a
 
 ![mesh admin login](https://static.gl-inet.com/docs/router/en/4/interface_guide/mesh/access_mesh_node2.png){class="glboxshadow"}
 
-### Ajouter d’autres nœuds
+### Ajouter d’autres nœuds {#add-more-nodes}
 
 Cliquez sur **Add** dans l’angle supérieur droit de la topologie pour ajouter d’autres nœuds si nécessaire.
 

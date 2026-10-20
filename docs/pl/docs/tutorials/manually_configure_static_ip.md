@@ -1,4 +1,4 @@
-# Jak ręcznie skonfigurować statyczny adres IP na urządzeniach klienckich?
+# Jak ręcznie skonfigurować statyczny adres IP na urządzeniach klienckich? {#how-to-manually-configure-static-ip-on-the-client-devices}
 
 === "Windows 11"
 

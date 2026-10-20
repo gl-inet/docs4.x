@@ -1,4 +1,4 @@
-# So prüfen Sie, ob Sie eine öffentliche IP-Adresse haben
+# So prüfen Sie, ob Sie eine öffentliche IP-Adresse haben {#how-to-check-if-you-have-a-public-ip-address}
 
 Eine öffentliche Adresse ist im Gegensatz zu einer privaten IP-Adresse eine eindeutige numerische Kennung, die Ihren mit dem Internet verbundenen Geräten zugewiesen wird. Sie benötigen eine öffentliche IP-Adresse, wenn Sie eine Website hosten, einen VPN-Server einrichten oder andere Onlinedienste bereitstellen möchten. In der Regel wird sie Ihnen von Ihrem Internetanbieter zur Verfügung gestellt.
 

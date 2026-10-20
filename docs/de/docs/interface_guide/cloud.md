@@ -1,5 +1,5 @@
-# GL.iNet GoodCloud
-## Einführung
+# GL.iNet GoodCloud {#glinet-goodcloud}
+## Einführung {#introduction}
 
 GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} ist eine Plattform, die die Bereitstellung und Verwaltung verbundener Geräte aus der Ferne vereinfacht. Sie bietet eine komfortable Möglichkeit, GL.iNet-Router zentral zu verwalten und auf sie zuzugreifen. Durch die Zentralisierung der Netzwerkgeräte in der Cloud können Benutzer Verwaltungsaufgaben für mehrere Geräte effizient durchführen, etwa Netzwerkkonfigurationen ausrollen oder Software-Upgrades ausführen. Außerdem können sie aus der Ferne auf das webbasierte Admin Panel des Routers zugreifen oder sich per SSH mit dem Terminal des Routers verbinden und so ein regionsübergreifendes End-to-End-Management von Netzwerkgeräten umsetzen.
 
@@ -32,11 +32,11 @@ Mit GoodCloud können Sie:
 
 Wenn Sie mehrere Geräte verwalten und erweiterte Funktionen wie Batch-Operationen, Multi-Account-Verwaltung und maßgeschneiderte Lösungen nutzen möchten, wählen Sie unsere kostenpflichtigen Mehrwertpläne. Klicken Sie [hier](https://www.gl-inet.com/solutions/goodcloud/){target="_blank"} für Details oder kontaktieren Sie [support@gl-inet.com](mailto:support@gl-inet.com).
 
-## Geräte mit Cloud verknüpfen
+## Geräte mit Cloud verknüpfen {#bind-devices-to-cloud}
 
 Wählen Sie entsprechend der Firmware-Version Ihres Geräts den passenden Abschnitt mit den Schritten zur Geräteverknüpfung aus.
 
-### Für Firmware v4.10 und höher
+### Für Firmware v4.10 und höher {#for-firmware-v410-and-above}
 
 1. GoodCloud aktivieren.
 
@@ -84,7 +84,7 @@ Wählen Sie entsprechend der Firmware-Version Ihres Geräts den passenden Abschn
 
     Wenn Sie Hilfe benötigen, kontaktieren Sie bitte [support@gl-inet.com](mailto:support@gl-inet.com).
 
-### Für Firmware v4.7 bis v4.9
+### Für Firmware v4.7 bis v4.9 {#for-firmware-v47-to-v49}
 
 1. GoodCloud aktivieren.
 
@@ -132,7 +132,7 @@ Wählen Sie entsprechend der Firmware-Version Ihres Geräts den passenden Abschn
 
     Wenn Sie Hilfe benötigen, kontaktieren Sie bitte [support@gl-inet.com](mailto:support@gl-inet.com).
 
-### Für Firmware v4.6 und früher
+### Für Firmware v4.6 und früher {#for-firmware-v46-or-earlier}
 
 1. GoodCloud aktivieren.
 
@@ -202,9 +202,9 @@ Wählen Sie entsprechend der Firmware-Version Ihres Geräts den passenden Abschn
 
     Wenn Sie Hilfe benötigen, kontaktieren Sie bitte [support@gl-inet.com](mailto:support@gl-inet.com).
 
-## Geräte verwalten
+## Geräte verwalten {#manage-devices}
 
-### Systeminformationen und Aktionen
+### Systeminformationen und Aktionen {#system-info-and-actions}
 
 Unter [GoodCloud](https://www.goodcloud.xyz){target="_blank"} -> **Bound Devices** können Sie die Systeminformationen (z. B. Modell, Version, MAC-Adresse, IP-Adresse) und den Status (z. B. online, offline) aller Geräte anzeigen, die mit Ihrem Konto verknüpft sind.
 
@@ -220,37 +220,37 @@ Klicken Sie auf das Zahnradsymbol ganz rechts in der Listenüberschrift. Dort k�
 
 ![column display](https://static.gl-inet.com/docs/router/de/4/interface_guide/cloud/column_display.png){class="glboxshadow"}
 
-### Gerätedetails
+### Gerätedetails {#device-details}
 
 Klicken Sie unter [GoodCloud](https://www.goodcloud.xyz){target="_blank"} -> **Bound Devices** auf einen Gerätenamen. Sie werden dann zur Detailseite des Geräts weitergeleitet. Dort werden unter anderem die Basisinformationen des Routers, statistische Daten, Netzwerkeinstellungen und die Client-Liste angezeigt.
 
 ![Device detail info](https://static.gl-inet.com/docs/router/de/4/interface_guide/cloud/device_details.png){class="glboxshadow"}
 
-#### Basisinformationen
+#### Basisinformationen {#basic-info}
 
 ![basic info](https://static.gl-inet.com/docs/router/de/4/interface_guide/cloud/basic_info.png){class="glboxshadow"}
 
-#### Statistiken
+#### Statistiken {#statistics}
 
 ![statistics](https://static.gl-inet.com/docs/router/de/4/interface_guide/cloud/statistics.png){class="glboxshadow"}
 
-#### Netzwerkeinstellungen
+#### Netzwerkeinstellungen {#network-settings}
 
 Auf dieser Seite werden die Netzwerkkonfigurationen und Wi-Fi-Einstellungen Ihres Routers angezeigt.
 
 ![status overview](https://static.gl-inet.com/docs/router/de/4/interface_guide/cloud/device_overview.png){class="glboxshadow"}
 
-#### Client-Liste
+#### Client-Liste {#clients-list}
 
 ![clients list](https://static.gl-inet.com/docs/router/de/4/interface_guide/cloud/clients_list.png){class="glboxshadow"}
 
-## Fernzugriff
+## Fernzugriff {#remote-access}
 
 Unter [GoodCloud](https://www.goodcloud.xyz){target="_blank"} -> **Bound Devices** klicken Sie auf den Namen des Geräts, auf das Sie zugreifen möchten, um die Detailseite zu öffnen. Dort finden Sie oben rechts die Remote-Aktionen.
 
 ![remote access](https://static.gl-inet.com/docs/router/de/4/interface_guide/cloud/remote_access.png){class="glboxshadow"}
 
-### Remote GUI
+### Remote GUI {#remote-gui}
 
 Klicken Sie auf **Remote GUI**, um remote auf das webbasierte Admin Panel Ihres Routers zuzugreifen.
 
@@ -260,7 +260,7 @@ Wenn diese Option ausgegraut oder nicht verfügbar ist, ist die Funktion wahrsch
 
 Wenn diese Option anklickbar ist, aber nicht reagiert, versuchen Sie es im Inkognito-/InPrivate-Modus Ihres Browsers.
 
-### Remote SSH
+### Remote SSH {#remote-ssh}
 
 Klicken Sie auf **Remote SSH**, um per SSH remote auf das Terminal Ihres Routers zuzugreifen.
 
@@ -270,7 +270,7 @@ Wenn diese Option ausgegraut oder nicht verfügbar ist, ist die Funktion wahrsch
 
 Wenn diese Option anklickbar ist, aber nicht reagiert, versuchen Sie es im Inkognito-/InPrivate-Modus Ihres Browsers.
 
-## Einstellungen ändern
+## Einstellungen ändern {#modify-settings}
 
 Sie können mehrere Parameter für ein einzelnes Gerät oder für mehrere Geräte konfigurieren.
 
@@ -282,7 +282,7 @@ Hier können Sie die Netzwerkeinstellungen des Routers prüfen und ändern, daru
 
 ![device settings 2](https://static.gl-inet.com/docs/router/de/4/interface_guide/cloud/modify_settings_2.png){class="glboxshadow"}
 
-## E-Mail-Benachrichtigungen
+## E-Mail-Benachrichtigungen {#email-alarm}
 
 Sie können E-Mail-Benachrichtigungen einrichten, wenn sich der Gerätestatus ändert (online/offline) oder wenn neue Clients verbunden werden.
 
@@ -308,11 +308,11 @@ In der Benachrichtigungsliste können Sie die von Ihnen erstellten Alarmregeln a
 
 ![notifications 6](https://static.gl-inet.com/docs/router/de/4/interface_guide/cloud/notifications6.png){class="glboxshadow"}
 
-## Site to Site
+## Site to Site {#site-to-site}
 
 Bitte lesen Sie [GoodCloud Site to Site](../tutorials/goodcloud_site_to_site.md).
 
-## GoodCloud und VPN
+## GoodCloud und VPN {#goodcloud-and-vpn}
 
 Wenn Sie auf Ihrem Router gleichzeitig **GoodCloud** und den **VPN client** aktivieren, wird die Verbindung zwischen dem Router und dem GoodCloud-Server standardmäßig nicht über das VPN geleitet. Dadurch bleibt die Verbindung zu den GoodCloud-Diensten stabiler.
 
@@ -328,7 +328,7 @@ Beachten Sie, dass das Routing von GoodCloud über ein VPN die Stabilität der C
 
 Im Allgemeinen wird empfohlen, die Standardeinstellung beizubehalten, bei der GoodCloud das VPN umgeht, um optimale Leistung und Zuverlässigkeit zu gewährleisten.
 
-## Protokolle anzeigen
+## Protokolle anzeigen {#view-logs}
 
 Sie können GoodCloud-Protokolle nach Bedarf anzeigen, darunter Activity Logs, Device Logs, Upgrade Logs, Alert Logs und Device Settings Logs.
 
@@ -336,7 +336,7 @@ Navigieren Sie unter [GoodCloud](https://www.goodcloud.xyz){target="_blank"} zu 
 
 ![View Logs](https://static.gl-inet.com/docs/router/de/4/interface_guide/cloud/view_logs.png){class="glboxshadow"}
 
-## Cloud deaktivieren
+## Cloud deaktivieren {#disable-cloud}
 
 Wenn Sie nicht mehr möchten, dass Ihr Gerät mit der Cloud-Plattform verbunden ist, können Sie den Cloud Service im webbasierten Admin Panel des Routers deaktivieren.
 
@@ -360,7 +360,7 @@ Wenn Sie nicht mehr möchten, dass Ihr Gerät mit der Cloud-Plattform verbunden 
 
     ![disabled cloud 2](https://static.gl-inet.com/docs/router/de/4/interface_guide/cloud/disabled_cloud_2.png){class="glboxshadow"}
 
-## Konto löschen
+## Konto löschen {#delete-account}
 
 Aus Sicherheitsgründen können Sie Ihr Konto löschen, wenn Sie es nicht mehr nutzen.
 

@@ -4,11 +4,11 @@ hide:
   - toc
 ---
 
-# FAQ
+# FAQ {#faq}
 
 デバイスの使い方と、一般的な問題の解決方法について学びましょう。
 
-## ネットワーク接続
+## ネットワーク接続 {#network-connection}
 
 * [初回セットアップ](first_time_setup.md)
 * [ブラウザからの警告](warning_from_your_browser_during_setup.md)
@@ -17,12 +17,12 @@ hide:
 * [GL.iNetルーターを使用してEthernet専用のデバイスをWi-Fiに接続する方法は？](produce_a_wired_connection.md)
 * [Flint 4の10G SFP+ポートを接続する方法は？](connecting_10g_sfp_plus_port_on_flint4.md)
 
-## 問題通知
+## 問題通知 {#problem-notification}
 
 * [GL-MT2500/GL-X3000/GL-XE3000の問題通知](problem_notification_for_mt2500_x3000_xe3000.md)
 * [GL-X3000/GL-X2000がEE SIMカードで動作しない問題通知と解決策](problem_notification_and_solutions_for_x3000_x2000_failure_to_work_with_ee_sim_cards.md)
 
-## トラブルシューティング
+## トラブルシューティング {#troubleshooting}
 
 * [192.168.8.1経由でルーターにアクセスできない](cannot_access_web_admin_panel.md)
 * [Android 5Gホットスポットをスキャンできない](cannot_scan_android_5g_hotspot.md)
@@ -46,7 +46,7 @@ hide:
 * [ルーターの無線カバレッジ範囲はどのくらいですか？](what_is_the_wireless_coverage_of_my_router.md)
 * [Ubootバージョンをアップグレード](upgrade_uboot_version.md)
 
-## VPN
+## VPN {#vpn}
 
 * [OpenVPNクライアントを設定する方法は？](../interface_guide/openvpn_client.md)
 * [WireGuardクライアントを設定する方法は？](../interface_guide/wireguard_client.md)
@@ -57,12 +57,12 @@ hide:
 * [難読化された WireGuard サーバーに接続できない](cannot_connect_to_obfuscated_wireguard_server.md)
 * [VPN使用時にイーサネットWANを設定する必要がありますか？](do_i_have_to_configure_ethernet_wan_when_using_vpn.md)
 
-## アップグレード
+## アップグレード {#upgrade}
 
 * [ルーターのファームウェアはどこからダウンロードできますか？](how_to_download_firmware.md)
 * [ルーターのファームウェアを手動でアップグレードまたはダウングレードする方法は？](../tutorials/how_to_upgrade_downgrade_router.md)
 
-## その他
+## その他 {#other}
 
 * [LEDインジケーターの状態](led.md)
 * [GL.iNetモバイルアプリ](mobile_app.md)

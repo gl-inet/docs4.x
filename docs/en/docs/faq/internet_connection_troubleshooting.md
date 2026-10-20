@@ -1,6 +1,6 @@
-# Internet Connection Troubleshooting FAQ
+# Internet Connection Troubleshooting FAQ {#internet-connection-troubleshooting-faq}
 
-## Q1. What should I do if I cannot access the Internet?
+## Q1. What should I do if I cannot access the Internet? {#q1-what-should-i-do-if-i-cannot-access-the-internet}
 
 Follow the steps below for basic troubleshooting.
 
@@ -22,7 +22,7 @@ Follow the steps below for basic troubleshooting.
     
     Meanwhile, check whether your ISP previously configured **MAC binding** on your modem/ONT.
 
-## Q2. When should I clone a MAC address?
+## Q2. When should I clone a MAC address? {#q2-when-should-i-clone-a-mac-address}
 
 Some ISPs bind your broadband connection to the MAC address of the first connected device, typically your old router or computer. When you replace your router, you will need to clone the MAC address to restore internet access.
 
@@ -36,7 +36,7 @@ Follow the steps below to clone a MAC address to your GL.iNet router.
 
 3. Reboot your modem (i.e., the upstream device).
 
-## Q3. When do I need to configure a VLAN ID?
+## Q3. When do I need to configure a VLAN ID? {#q3-when-do-i-need-to-configure-a-vlan-id}
 
 Some ISPs require VLAN tagging for Internet authentication or traffic separation, especially with fiber and IPTV connections. Contact your ISP and verify if a VLAN ID is required.
 
@@ -48,7 +48,7 @@ Follow the steps below to configure the VLAN ID.
 
     ![vlan id](https://static.gl-inet.com/docs/router/en/4/faq/internet_connection_troubleshooting_faq/vlan_id.png){class="glboxshadow"}
 
-## Q4. What if it still doesn't work?
+## Q4. What if it still doesn't work? {#q4-what-if-it-still-doesnt-work}
 
 If the issue persists, try connecting a PC or laptop directly to your modem and check whether you have Internet access.
 
@@ -61,7 +61,7 @@ If you do have Internet access, the issue may be related to your router configur
 - Your ISP name
 - Any other information you think may help us assist you
 
-## ISP information
+## ISP information {#isp-information}
 
 Below is region-specific ISP information compiled by GL.iNet from customer feedback, forums, and OpenWRT resources, for reference only.
 

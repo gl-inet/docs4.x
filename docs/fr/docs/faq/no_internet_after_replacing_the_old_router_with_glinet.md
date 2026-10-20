@@ -1,4 +1,4 @@
-# Que dois-je faire si je n'ai pas Internet après avoir remplacé l'ancien routeur par un routeur GL.iNet
+# Que dois-je faire si je n'ai pas Internet après avoir remplacé l'ancien routeur par un routeur GL.iNet {#what-should-i-do-if-i-have-no-internet-after-replacing-the-old-router-with-a-glinet-router}
 
 Si vous ne pouvez pas accéder à Internet après avoir remplacé votre ancien routeur par un routeur GL.iNet, il se peut que votre nouveau routeur n'arrive pas à obtenir une adresse IP (via DHCP ou PPPoE) lorsque son port WAN est connecté au modem.
 

@@ -1,12 +1,12 @@
-# Guide d'utilisation de Opal (GL-SFT1200)
+# Guide d'utilisation de Opal (GL-SFT1200) {#opal-gl-sft1200-user-guide}
 
-## Aperçu du produit
+## Aperçu du produit {#product-overview}
 
 Opal (GL-SFT1200) est un routeur de voyage de poche prenant en charge un débit sans fil de 1200 Mbps. Son format compact est conçu pour une utilisation portable et répond aux besoins d'accès Internet sans fil des petites entreprises, des petits appartements ou des voyageurs d'affaires.
 
 ![gl-sft1200 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-sft1200/first_time_setup/gl-sft1200.jpg){class="glboxshadow"}
 
-## Contenu du colis
+## Contenu du colis {#package-contents}
 
 - 1 x Opal (GL-SFT1200)
 - 1 x Manuel d'utilisation
@@ -18,18 +18,18 @@ Opal (GL-SFT1200) est un routeur de voyage de poche prenant en charge un débit 
 
 ![gl-sft1200 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-sft1200/first_time_setup/sft1200_unboxing.jpg){class="glboxshadow"}
 
-## Comment configurer Opal
+## Comment configurer Opal {#how-to-set-up-opal}
 
 Regardez cette vidéo de configuration ou suivez les étapes ci-dessous. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZAVn92F5RV8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <small>(Cette vidéo utilise un autre routeur GL.iNet pour la démonstration, mais les étapes sont les mêmes pour Opal et les autres modèles de routeurs.)</small>
 
-### 1. Mise sous tension
+### 1. Mise sous tension {#1-power-on}
 
 Assemblez les deux parties de l'adaptateur secteur. Branchez-le à votre routeur puis sur une prise électrique. Il démarre automatiquement.
 
-### 2. Connecter un appareil
+### 2. Connecter un appareil {#2-connect-device}
 
 Connectez un appareil (par exemple un ordinateur, un ordinateur portable ou un smartphone) au routeur via Wi‑Fi ou Ethernet.
 
@@ -41,13 +41,13 @@ Connectez un appareil (par exemple un ordinateur, un ordinateur portable ou un s
 
     Sur votre appareil, accédez à Paramètres -> WLAN, repérez le nom du réseau Wi‑Fi de votre routeur dans la liste des réseaux disponibles et saisissez le mot de passe. Le nom du réseau et le mot de passe par défaut sont imprimés sur l'étiquette située sous le routeur.
 
-### 3. Se connecter au panneau d'administration web
+### 3. Se connecter au panneau d'administration web {#3-log-in-to-web-admin-panel}
 
 Ouvrez un navigateur web, saisissez `192.168.8.1` dans la barre d'adresse et connectez-vous. Choisissez votre langue et définissez votre mot de passe administrateur, puis cliquez sur **Apply**. 
 
 Veuillez noter que si vous modifiez les informations Wi‑Fi, vous devrez reconnecter votre appareil au Wi‑Fi du routeur avec les nouveaux identifiants.
 
-### 4. Configuration de la connexion Internet
+### 4. Configuration de la connexion Internet {#4-internet-setup}
 
 **Remarque :** Les instructions suivantes s'appliquent aux utilisateurs qui configurent le routeur via le panneau d'administration web GL.iNet. Si vous préférez utiliser l'application GL.iNet, [téléchargez l'application](https://www.gl-inet.com/app/){target="_blank"} et suivez les instructions à l'écran.
 
@@ -97,7 +97,7 @@ Configurez votre Opal en utilisant l'une des méthodes de connexion Internet pri
 
     Veuillez consulter [Connexion à Internet via un réseau cellulaire](../../interface_guide/internet_cellular.md) pour des instructions détaillées.
 
-## Comment configurer un VPN 
+## Comment configurer un VPN {#how-to-set-up-a-vpn}
 
 Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre votre appareil et le serveur VPN. Il ajoute une couche supplémentaire de confidentialité et de sécurité (client VPN) et vous permet d'accéder à un réseau distant (serveur VPN). Opal prend en charge OpenVPN, WireGuard et Tor*.
 
@@ -121,7 +121,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     **Remarque :** Opal ne prend pas en charge Tor nativement, mais les utilisateurs peuvent l'installer manuellement via un plug-in. Cliquez [ici](../../interface_guide/tor.md#manual-install) pour plus de détails.
 
-## Réseau sans fil et clients
+## Réseau sans fil et clients {#wireless-and-clients}
 
 === "Réseau sans fil"
 
@@ -135,7 +135,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     Pour configurer les clients, consultez [Clients](../../interface_guide/clients.md).
 
-## Services Cloud
+## Services Cloud {#cloud-services}
 
 === "GoodCloud"
 
@@ -151,7 +151,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     **Remarque :** veuillez mettre à niveau le firmware de votre routeur vers la version 4.8 ou supérieure avant d'utiliser cette fonctionnalité.
 
-## Applications
+## Applications {#applications}
 
 === "Plug-ins"
 
@@ -173,7 +173,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     **Remarque :** veuillez mettre à niveau le firmware de votre routeur vers la version 4.8 ou supérieure avant d'utiliser cette fonctionnalité.
 
-## Paramètres réseau
+## Paramètres réseau {#network-settings}
 
 === "Redirection de ports"
 
@@ -255,7 +255,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     Pour configurer les paramètres NAT, consultez [Paramètres NAT](../../interface_guide/nat_settings.md).
 
-## Paramètres système
+## Paramètres système {#system-settings}
 
 === "Aperçu"
 
@@ -350,6 +350,6 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     Veuillez consulter [Paramètres avancés](../../interface_guide/advanced_settings.md) pour des instructions détaillées.
 
-# Déclaration UE de conformité
+# Déclaration UE de conformité {#declaration-of-conformity}
 
 Par la présente, GL TECHNOLOGIES (HONG KONG) LIMITED déclare que l'équipement radio de type [AC1200 Wireless Travel Router, GL-SFT1200] est conforme aux exigences essentielles et aux autres dispositions pertinentes de la Directive 2014/53/UE. Le texte complet de la déclaration UE de conformité est disponible à l'adresse internet suivante: [https://www.gl-inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}.

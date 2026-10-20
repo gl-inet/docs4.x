@@ -1,4 +1,4 @@
-# Comment configurer des règles de filtrage de domaine et d’IP pour les routeurs GL.iNet via un fichier texte en ligne
+# Comment configurer des règles de filtrage de domaine et d’IP pour les routeurs GL.iNet via un fichier texte en ligne {#how-to-configure-domain-and-ip-filtering-rules-for-glinet-routers-via-an-online-text-file}
 
 À partir du firmware v4.7, les fonctionnalités suivantes prennent en charge l’importation de règles depuis l’URL d’un fichier texte en ligne :
 
@@ -7,7 +7,7 @@
 
 Ce tutoriel explique comment utiliser un fichier texte en ligne pour importer des règles de filtrage de domaines et d’adresses IP sur les routeurs GL.iNet.
 
-## Formats d’URL et de fichiers pris en charge
+## Formats d’URL et de fichiers pris en charge {#supported-url-file-formats}
 
 Les formats d’URL pris en charge sont les suivants :
 
@@ -18,7 +18,7 @@ Les types de fichiers pris en charge sont `.txt`, `.conf`, `.log` et d’autres 
 
 **Remarque** : les fichiers binaires ne sont pas pris en charge, comme `.exe`, `.zip`, `.jpg`, `.png`, etc.
 
-## Utiliser GitHub pour héberger le fichier texte
+## Utiliser GitHub pour héberger le fichier texte {#use-github-to-host-text-file}
 
 Si vous hébergez le fichier texte dans un dépôt GitHub public, veillez à utiliser l’URL du contenu brut plutôt que l’URL GitHub classique.
 
@@ -32,7 +32,7 @@ Pour que le routeur télécharge le bon contenu, utilisez une URL de contenu bru
 
 De cette manière, le routeur pourra récupérer le contenu texte brut du fichier.
 
-## Formats de filtre pour la politique VPN (domaine/IP)
+## Formats de filtre pour la politique VPN (domaine/IP) {#filter-formats-for-vpn-policy-domainip}
 
 La fonctionnalité **VPN Policy Based on Target Domain or IP Address** prend en charge les formats de filtre suivants dans le fichier texte en ligne :
 
@@ -41,7 +41,7 @@ La fonctionnalité **VPN Policy Based on Target Domain or IP Address** prend en 
 * Plage CIDR : utilisez la notation CIDR pour définir des plages d’adresses IP, par exemple `192.168.10.0/24`.
 * Adresse IPv4 : indiquez des adresses IPv4 individuelles, par exemple `192.168.10.10`.
 
-## Formats de filtre pour Parental Control (Ruleset)
+## Formats de filtre pour Parental Control (Ruleset) {#filter-formats-for-parental-control-ruleset}
 
 La fonctionnalité **Add a New Ruleset** dans Parental Control prend en charge les formats de filtre suivants dans le fichier texte en ligne :
 

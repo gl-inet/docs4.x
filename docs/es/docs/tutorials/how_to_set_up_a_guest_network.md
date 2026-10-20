@@ -1,4 +1,4 @@
-# Cómo configurar una red Wi-Fi de invitados en routers GL.iNet
+# Cómo configurar una red Wi-Fi de invitados en routers GL.iNet {#how-to-set-up-a-guest-wi-fi-network-on-glinet-routers}
 
 Este tutorial le mostrará cómo configurar una red Wi-Fi de invitados en routers GL.iNet.
 Una red Wi-Fi de invitados es una red separada dentro del router para dispositivos que desea aislar de sus dispositivos principales. Esto incluye dispositivos de invitados y dispositivos de hogar inteligente. Al crear una red de invitados, puede evitar accesos no autorizados y posibles ataques a su red principal, reforzando así la seguridad de la red.
@@ -6,7 +6,7 @@ Hay dos métodos para configurar una red Wi-Fi de invitados en su router GL.iNet
 
 ## Configurar una red de invitados mediante el panel de administración {#set-up-a-guest-network-via-the-admin-panel}
 
-### 1. Habilitar la red Wi-Fi de invitados
+### 1. Habilitar la red Wi-Fi de invitados {#1-enable-the-guest-wi-fi-network}
 
 1. En un navegador web, introduzca `192.168.8.1`.
 2. Introduzca su contraseña y haga clic en **Login**.
@@ -16,7 +16,7 @@ Hay dos métodos para configurar una red Wi-Fi de invitados en su router GL.iNet
 ![click guest](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_a_guest_network/click-guest-wifi.jpeg){class="glboxshadow"}
 5. Junto a **Enable Wi-Fi**, active el interruptor.
 
-### 2. Establecer una nueva contraseña para la red Wi-Fi de invitados
+### 2. Establecer una nueva contraseña para la red Wi-Fi de invitados {#2-set-a-new-guest-wi-fi-network-password}
 
 Para reforzar su seguridad, se recomienda establecer una contraseña nueva para la red Wi-Fi de invitados. Siga estos pasos:
 1. Haga clic en **Modify**.
@@ -30,14 +30,14 @@ Ya ha configurado una red Wi-Fi de invitados. Para conectar sus dispositivos, lo
 
 **Nota:** Antes de empezar, instale y configure la aplicación móvil de GL.iNet en su dispositivo.
 
-### 1. Habilitar la red Wi-Fi de invitados
+### 1. Habilitar la red Wi-Fi de invitados {#1-enable-the-guest-wi-fi-network_1}
 
 1. En la pantalla principal de la aplicación, toque la pestaña **Network** > **Wireless**.
 2. Localice **Guest Network**.
 3. En la red donde desea configurar la red Wi-Fi de invitados, active el interruptor.
 ![toggle the switch](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_a_guest_network/toggle-on-guest-network.jpeg){class="glboxshadow"}
 
-### 2. Establecer una nueva contraseña para la red Wi-Fi de invitados
+### 2. Establecer una nueva contraseña para la red Wi-Fi de invitados {#2-set-a-new-guest-wi-fi-network-password_1}
 
 Para reforzar su seguridad, se recomienda establecer una contraseña nueva para la red Wi-Fi de invitados. Siga estos pasos:
 1. Toque la opción **SSID** de la red donde configuró la red Wi-Fi de invitados.

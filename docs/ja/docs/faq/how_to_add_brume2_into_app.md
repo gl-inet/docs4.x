@@ -1,10 +1,10 @@
-# Brume 2をGLiNetモバイルアプリに追加する方法
+# Brume 2をGLiNetモバイルアプリに追加する方法 {#how-to-add-brume-2-into-glinet-mobile-app}
 
 Wi-Fi機能がない場合でも、Brume 2（GL-MT2500/GL-MT2500A）をGLiNetモバイルアプリに追加できます。メアルーターとしてもセカンダリールーターとしても設定できます。
 
 以下の方法はBrume（GL-MV1000）にも適用できます。
 
-## Brume 2をセカンダリールーターとして設定
+## Brume 2をセカンダリールーターとして設定 {#brume-2-as-the-secondary-router}
 
 **構成図**
 
@@ -48,7 +48,7 @@ Wi-Fi機能がない場合でも、Brume 2（GL-MT2500/GL-MT2500A）をGLiNetモ
 
     ![showup](https://static.gl-inet.com/docs/router/en/4/faq/add_brume2_into_app/showup.png){class="glboxshadow gl-50-desktop"}
 
-## Brume 2をメアルーターとして設定
+## Brume 2をメアルーターとして設定 {#brume-2-as-the-main-router}
 
 **構成図**
 

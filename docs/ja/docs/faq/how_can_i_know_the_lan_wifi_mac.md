@@ -1,6 +1,6 @@
-# デバイスのすべての MAC アドレスを確認するには？
+# デバイスのすべての MAC アドレスを確認するには？ {#how-can-i-find-all-mac-addresses-of-my-device}
 
-## 使用シナリオ
+## 使用シナリオ {#usage-scenario}
 
 GL.iNet デバイスの MAC アドレスは、WAN 1、WAN 2、LAN ポート、2.4G Wi-Fi、5G Wi-Fi など、ネットワークインターフェースごとに一意です。
 
@@ -8,7 +8,7 @@ GL.iNet デバイスの MAC アドレスは、WAN 1、WAN 2、LAN ポート、2.
 
 次の方法で、デバイスの正確な MAC アドレスを確認できます。
 
-## 方法 1. 製品ラベルで確認する（WAN MAC のみ）
+## 方法 1. 製品ラベルで確認する（WAN MAC のみ） {#method-1-via-product-label-for-wan-mac-only}
 
 底面ラベルで **WAN MAC address** を確認します。
 
@@ -16,13 +16,13 @@ GL.iNet デバイスの MAC アドレスは、WAN 1、WAN 2、LAN ポート、2.
 
 ![wan_lan_wifi](https://static.gl-inet.com/docs/router/en/4/faq/how_can_i_know_the_lan_wifi_mac/wan_lan_wifi.png){class="glboxshadow"}
 
-## 方法 2. SSH で確認する
+## 方法 2. SSH で確認する {#method-2-via-ssh}
 
 SSH の使用方法については、[こちら](https://docs.gl-inet.com/router/en/4/tutorials/ssh_log_in_to_the_router/)を参照してください。
 
 SSH で **ifconfig** を入力すると、br-lan、ethx、wlanx などのインターフェースが順に表示されます。
 
-### Ethernet ポートの MAC を確認する
+### Ethernet ポートの MAC を確認する {#find-the-mac-of-ethernet-ports}
 
 次の画像を例にします。
 
@@ -36,7 +36,7 @@ SSH で **ifconfig** を入力すると、br-lan、ethx、wlanx などのイン�
 
     LAN ポートが複数あっても、LAN の MAC アドレスは 1 つだけです。
 
-### 無線ポートの MAC を確認する
+### 無線ポートの MAC を確認する {#find-the-mac-of-wireless-ports}
 
 次の画像を例にします。
 

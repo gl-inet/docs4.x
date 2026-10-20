@@ -1,12 +1,12 @@
-# Guía del usuario de Fortify (GL-MT6000)
+# Guía del usuario de Fortify (GL-MT6000) {#fortify-gl-mt6000-user-guide}
 
-## Descripción general del producto
+## Descripción general del producto {#product-overview}
 
 Fortify (GL-MT6000) es un enrutador Wi-Fi 6 de marca compartida lanzado conjuntamente por GL.iNet y ExpressVPN. Cada unidad viene con una suscripción gratuita a ExpressVPN por un año. Los usuarios pueden canjear la suscripción y conectar sus cuentas directamente en el Panel de administración web del enrutador. Cuando se conecta un túnel ExpressVPN, el router cifra y enruta el tráfico a través de ese túnel según la configuración de sus políticas de VPN.
 
 ![fortify gl-mt6000](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000-fortify/mt6000-fortify_interface.png){class="glboxshadow"}
 
-## Contenido del paquete
+## Contenido del paquete {#package-contents}
 
 - 1 x Fortify (GL-MT6000)
 - 1 x Manual de usuario
@@ -22,17 +22,17 @@ Vea a continuación el vídeo de desempaquetado de Fortify.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IQEfj7Hff7U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Cómo configurar Fortify
+## Cómo configurar Fortify {#how-to-set-up-fortify}
 
 Vea este vídeo de configuración o siga los pasos que se indican a continuación.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FymI3LCRMTA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Encendido
+### 1. Encendido {#1-power-on}
 
 Junte el adaptador de corriente de dos piezas. Conéctelo a su enrutador Fortify y conéctelo a una toma de corriente. Se iniciará automáticamente.
 
-### 2. Conectar dispositivo
+### 2. Conectar dispositivo {#2-connect-device}
 
 Conecte un dispositivo (por ejemplo, computadora, computadora portátil o teléfono inteligente) al enrutador a través de Wi-Fi o Ethernet.
 
@@ -44,7 +44,7 @@ Conecte un dispositivo (por ejemplo, computadora, computadora portátil o teléf
 
     En su dispositivo, vaya a Configuración -> WLAN, ubique el nombre de la red Wi-Fi de su enrutador en la lista de redes disponibles e ingrese la contraseña para unirse a la red. Puede encontrar el nombre de red predeterminado y la contraseña impresos en la etiqueta del enrutador.
 
-### 3. Inicie sesión en el Panel de administración web
+### 3. Inicie sesión en el Panel de administración web {#3-log-in-to-web-admin-panel}
 
 Abra un navegador web, ingrese `192.168.8.1` en la barra de direcciones e inicie sesión. Elija su idioma en la esquina superior derecha, establezca su contraseña de administrador y luego haga clic en **Next**. La contraseña debe tener entre 10 y 63 caracteres y contener al menos dos de los siguientes: letras mayúsculas, letras minúsculas, números y símbolos especiales.
 
@@ -54,7 +54,7 @@ Configura tu wifi. Tenga en cuenta que si cambia la información de Wi-Fi, deber
 
 ![fortify login2](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000-fortify/login2.png){class="glboxshadow"}
 
-### 4. Configuración de Internet
+### 4. Configuración de Internet {#4-internet-setup}
 
 **Nota:** Las siguientes instrucciones se aplican a quienes configuren el router mediante el panel de administración web de GL.iNet. Si prefiere la [aplicación GL.iNet](https://www.gl-inet.com/pages/app#download-app-glinet){target="_blank"}, descárguela y siga las instrucciones en pantalla.
 
@@ -108,19 +108,19 @@ Configure su Fortify utilizando uno de los métodos de conexión a Internet admi
 
 A continuación se muestra una descripción general de las funciones del Panel de administración web de Fortify.
 
-## Inalámbrico
+## Inalámbrico {#wireless}
 
 La página Inalámbrica le permite configurar las redes Wi-Fi de Fortify, incluida la red principal, la red de invitados y la red IoT. Cada red admite las bandas de 2,4 GHz y 5 GHz.
 
 Para configurar la conexión inalámbrica, consulte [Inalámbrico](../../interface_guide/wireless.md).
 
-## Clientes
+## Clientes {#clients}
 
 La página Clientes muestra información sobre los dispositivos conectados, incluido el nombre del dispositivo, el tipo de conexión, las direcciones IP y MAC, las velocidades de carga y descarga, el tráfico y brinda la posibilidad de bloquear un cliente específico con un solo clic o realizar otras acciones.
 
 Consulte [Clientes](../../interface_guide/clients.md) para obtener más detalles.
 
-## Servicios en la nube
+## Servicios en la nube {#cloud-services}
 
 === "GoodCloud"
 
@@ -134,7 +134,7 @@ Consulte [Clientes](../../interface_guide/clients.md) para obtener más detalles
 
     Consulte [AstroWarp](../../interface_guide/astrowarp.md) para obtener más detalles.
 
-## VPN
+## VPN {#vpn}
 
 Una VPN (red privada virtual) establece túneles de tráfico cifrados y seguros entre su dispositivo local y el servidor VPN. Agrega una capa adicional de privacidad y seguridad al cliente VPN y permite el acceso a la red del servidor VPN remoto.
 
@@ -146,7 +146,7 @@ Para configurar un servidor OpenVPN, consulte [Servidor OpenVPN](../../interface
 
 Para configurar un servidor WireGuard, consulte [Servidor WireGuard](../../interface_guide/wireguard_server.md).
 
-## Red
+## Red {#network}
 
 === "Multi-WAN"
 
@@ -218,7 +218,7 @@ Consulte [Multi-WAN](../../interface_guide/multi-wan.md) para obtener más detal
 
     Para configurar la aceleración de red, consulte [Aceleración de red](../../interface_guide/network_acceleration.md).
 
-## Control de flujo
+## Control de flujo {#flow-control}
 
 === "DPI Engine"
 
@@ -260,7 +260,7 @@ DPI (Inspección profunda de paquetes) es una capacidad central de la gestión i
 
     Consulte [Control parental](../../interface_guide/parental_control_v4.9.md) para obtener más detalles.
 
-## Seguridad
+## Seguridad {#security}
 
 === "Port forwarding"
 
@@ -290,7 +290,7 @@ DPI (Inspección profunda de paquetes) es una capacidad central de la gestión i
 
     Consulte [Modo NAT](../../interface_guide/nat_settings.md) para obtener más detalles.
 
-## Aplicaciones
+## Aplicaciones {#applications}
 
 === "Plug-ins"
 
@@ -344,7 +344,7 @@ DPI (Inspección profunda de paquetes) es una capacidad central de la gestión i
 
     Consulte [Tor](../../interface_guide/tor.md) para obtener más detalles.
 
-## Sistema
+## Sistema {#system}
 
 === "Overview"
 

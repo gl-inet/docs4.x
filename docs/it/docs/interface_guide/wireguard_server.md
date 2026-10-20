@@ -1,4 +1,4 @@
-# Configurare WireGuard Server sui router GL.iNet
+# Configurare WireGuard Server sui router GL.iNet {#set-up-wireguard-server-on-glinet-routers}
 
 WireGuard® e' una VPN estremamente semplice, veloce e moderna che utilizza crittografia all'avanguardia. Punta a essere piu' veloce, piu' semplice, piu' leggera e piu' utile di IPSec, evitando al tempo stesso una complessita' eccessiva. In generale offre prestazioni nettamente migliori rispetto a OpenVPN.
 
@@ -112,9 +112,9 @@ Accedi al pannello di amministrazione web e vai su **VPN** -> **WireGuard Server
 
     ![wireguard server status](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/wgserver_status.png){class="glboxshadow"}
 
-## Verificare che WireGuard Server funzioni correttamente
+## Verificare che WireGuard Server funzioni correttamente {#check-if-wireguard-server-is-working-properly}
 
-### Verificare lo stato del server
+### Verificare lo stato del server {#verify-server-status}
 
 Dal firmware v4.8 puoi controllare lo stato della connessione server nella pagina **WireGuard Server**.
 
@@ -128,7 +128,7 @@ Se vengono mostrati 0 traffico e 0 client, significa che non c'e' alcun client W
 
 Per il firmware v4.7 e precedenti, controlla lo stato della connessione server nella pagina **VPN Dashboard**.
 
-### Verificare l'IP del client
+### Verificare l'IP del client {#verify-clients-ip}
 
 Per verificare una connessione riuscita al server, importa la configurazione WireGuard precedentemente esportata su un dispositivo che si trovi in una rete diversa da quella locale del server. Poi apri un browser web e cerca il tuo indirizzo IP e la tua posizione. Se corrispondono all'IP del server VPN, invece che all'IP del tuo provider Internet, e alla relativa posizione, la connessione VPN e' riuscita.
 
@@ -141,7 +141,7 @@ Se la connessione fallisce, le cause piu' comuni sono:
 * La porta usata da WireGuard Server e' bloccata dal tuo provider Internet. Cambia porta oppure contatta il provider per ulteriore assistenza.
 * In alcuni paesi o regioni la connessione VPN potrebbe essere bloccata.
 
-## Opzioni del server
+## Opzioni del server {#server-options}
 
 Le opzioni del server includono impostazioni avanzate lato server, quali l'accesso remoto alla LAN del server e il mascheramento IP. Configurarle in base alle proprie esigenze.
 
@@ -167,7 +167,7 @@ Nella finestra popup sono disponibili le funzioni seguenti.
 
     Client to Client pubblicizza esclusivamente l'indirizzo IP del tunnel di ciascun client. Non rende automaticamente accessibili le sottoreti LAN locali dietro ogni client VPN. Per consentire ai client di accedere alle sottoreti LAN reciproche, aggiungere sul server VPN regole di instradamento che pubblicizzino tali sottoreti LAN remote.
 
-## Installazione dell'app WireGuard
+## Installazione dell'app WireGuard {#wireguard-app-install}
 
 Scarica l'app WireGuard dal [sito ufficiale di WireGuard](https://www.wireguard.com/install){target="_blank"}.
 

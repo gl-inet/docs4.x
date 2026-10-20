@@ -1,4 +1,4 @@
-# Mesh
+# Mesh {#mesh}
 
 **注**：この機能はファームウェアv4.10で導入されました。
 
@@ -36,9 +36,9 @@ MeshはWi-Fi EasyMesh™規格に基づく機能で、家全体のWi‑Fiカバ�
 
 Meshは、対応するメイン、ゲスト、IoT、MLOのWi-Fi設定を同期します。また、対応するGL.iNetノードの再起動、削除、更新など、ノードの一元管理も提供します。ノードはWi-Fiスキャン、Ethernet接続、または対応モデルのMesh/WPSボタンで追加できます。バックホール管理には、Ethernetの優先、有線・無線の切り替え、ループ防止が含まれます。
 
-### 性能の違いについて
+### 性能の違いについて {#understanding-performance-differences}
 
-#### Extenderモード
+#### Extenderモード {#extender-mode}
 
 デバイスは既存のWi-Fiネットワークに接続します。この上位接続に使用する無線部のチャネルは、メインルーターに従います。同じ無線部を使用するクライアントもそのチャネルを使うため、上位接続とクライアントのトラフィックは通信時間を共有します。
 
@@ -46,7 +46,7 @@ Meshは、対応するメイン、ゲスト、IoT、MLOのWi-Fi設定を同期�
 
 上位接続のチャネルに従うという要件は、GL.iNetのRepeater接続機能にも適用されます。ただし、Repeaterの動作と独立したExtenderネットワークモードには、他の点で違いがあります。
 
-#### 無線Mesh
+#### 無線Mesh {#wireless-mesh}
 
 検証したトライバンドMesh構成では、ノードは**無線バックホールに5 GHzを使用**します。ノードの5 GHzチャネルはメインルーターに従い、個別には変更できません。一方、独立した**2.4 GHzと6 GHzのチャネル設定は個別に変更できます**。これはチャネル設定に関する説明であり、クライアントが接続できる帯域を示すものではありません。クライアント向けのチャネルを変更しても、バックホールの帯域は変わりません。
 
@@ -57,7 +57,7 @@ Meshは、対応するメイン、ゲスト、IoT、MLOのWi-Fi設定を同期�
 
 これは検証した構成の説明であり、すべての対応Meshモデルに当てはまるわけではありません。独立した無線部での転送はMeshだけの機能ではなく、ExtenderからMeshに切り替えても、自動的にスループットが向上するわけではありません。
 
-#### Access Pointモードと有線Mesh
+#### Access Pointモードと有線Mesh {#access-point-mode-and-wired-mesh}
 
 どちらもメインルーターへの接続にEthernetを使用します。Ethernetバックホールは全二重で動作し、バックホールのトラフィックをWi-Fiで送信する必要がありません。クライアントのWi-Fi接続は半二重のままです。ハードウェアと条件が同等であれば、Access Pointモードと有線Meshは同程度のスループットを提供できます。Meshには、協調的な設定と管理が加わります。
 
@@ -111,7 +111,7 @@ MeshはEthernetバックホールを優先し、適切な無線接続が利用�
     - GL-AP1300 (Cirrus)
     - GL-S1300 (Convexa-S)
 
-## クイックセットアップ
+## クイックセットアップ {#quick-setup}
 
 次の例では、Flint 3（GL‑BE9300）とSlate 7（GL‑BE3600）でMeshネットワークを構築します。
 
@@ -165,11 +165,11 @@ MeshはEthernetバックホールを優先し、適切な無線接続が利用�
 
     ![main topology](https://static.gl-inet.com/docs/router/en/4/interface_guide/mesh/main_topology_wifi.png){class="glboxshadow"}
 
-## ノードの管理
+## ノードの管理 {#manage-nodes}
 
 設定後、Meshノードには元のIPアドレスでアクセスできなくなります。メインルーターの管理パネルからメインルーターとすべてのノードを管理できます。
 
-### ノードの詳細を表示する
+### ノードの詳細を表示する {#view-node-details}
 
 メインルーターの管理パネルで**MESH**に移動し、トポロジーの**Main Router**をクリックします。
 
@@ -187,7 +187,7 @@ MeshはEthernetバックホールを優先し、適切な無線接続が利用�
 
 ![mesh node info](https://static.gl-inet.com/docs/router/en/4/interface_guide/mesh/mesh_node_info2.png){class="glboxshadow"}
 
-### Meshノードを編集する
+### Meshノードを編集する {#edit-mesh-node}
 
 メインルーターの管理パネルで**MESH**に移動し、トポロジーの**Mesh Node**をクリックします。
 
@@ -199,7 +199,7 @@ MeshはEthernetバックホールを優先し、適切な無線接続が利用�
 
 ![edit node 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/mesh/edit_node2.png){class="glboxshadow"}
 
-### Meshノードにアクセスする
+### Meshノードにアクセスする {#access-mesh-node}
 
 メインルーターの管理パネルで**MESH**に移動し、トポロジーの**Mesh Node**をクリックします。
 
@@ -213,7 +213,7 @@ MeshはEthernetバックホールを優先し、適切な無線接続が利用�
 
 ![mesh admin login](https://static.gl-inet.com/docs/router/en/4/interface_guide/mesh/access_mesh_node2.png){class="glboxshadow"}
 
-### ノードを追加する
+### ノードを追加する {#add-more-nodes}
 
 必要に応じて、トポロジー右上の**Add**をクリックします。
 

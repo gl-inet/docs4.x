@@ -1,4 +1,4 @@
-# Se connecter à Internet via le réseau cellulaire (v4.10)
+# Se connecter à Internet via le réseau cellulaire (v4.10) {#connect-to-the-internet-via-cellular-v410}
 
 Le contenu de cette page est basé sur les versions de firmware v4.10 et ultérieures. Si votre appareil utilise une autre version du firmware, utilisez le sélecteur ci-dessous pour passer au guide correspondant.
 
@@ -15,21 +15,21 @@ La plupart des routeurs GL.iNet prennent en charge la connectivité cellulaire. 
 
 1. **Routeurs cellulaires**
 
-    Les routeurs cellulaires GL.iNet sont équipés d’un module 4G/5G intégré et d’un ou de deux emplacements pour carte SIM, comme Spitz AX (GL-X3000) et Mudi 7 (GL-E5800). Les paramètres cellulaires du panneau d’administration web peuvent varier légèrement selon le modèle et la version du firmware. Pour configurer la connexion cellulaire de ces modèles, consultez [Routeurs cellulaires](#routeurs-cellulaires).
+    Les routeurs cellulaires GL.iNet sont équipés d’un module 4G/5G intégré et d’un ou de deux emplacements pour carte SIM, comme Spitz AX (GL-X3000) et Mudi 7 (GL-E5800). Les paramètres cellulaires du panneau d’administration web peuvent varier légèrement selon le modèle et la version du firmware. Pour configurer la connexion cellulaire de ces modèles, consultez [Routeurs cellulaires](#cellular-routers).
 
 2. **Routeurs non cellulaires**
 
-    Il s’agit d’autres types de routeurs, notamment les routeurs domestiques, de voyage et mini, ainsi que les passerelles de sécurité. Ils disposent généralement d’un port USB permettant de connecter un dongle USB (non fourni) pour obtenir une connectivité cellulaire. Pour configurer la connexion cellulaire de ces modèles, consultez [Routeurs non cellulaires](#routeurs-non-cellulaires).
+    Il s’agit d’autres types de routeurs, notamment les routeurs domestiques, de voyage et mini, ainsi que les passerelles de sécurité. Ils disposent généralement d’un port USB permettant de connecter un dongle USB (non fourni) pour obtenir une connectivité cellulaire. Pour configurer la connexion cellulaire de ces modèles, consultez [Routeurs non cellulaires](#non-cellular-routers).
 
 **Remarque :** certaines cartes SIM doivent être activées avant leur première utilisation. Pour assurer la compatibilité, activez la carte SIM dans un smartphone avant de l’insérer dans le routeur.
 
-## Routeurs cellulaires
+## Routeurs cellulaires {#cellular-routers}
 
 Cette section utilise **Mudi 7 (GL-E5800)** comme exemple pour présenter les étapes de configuration cellulaire et les fonctionnalités associées.
 
 Mudi 7 dispose d’une eSIM intégrée et de deux emplacements Nano-SIM, et prend en charge Dual SIM Dual Standby. Son panneau d’administration web peut donc différer légèrement de celui des autres routeurs cellulaires, en particulier des modèles dotés d’un seul emplacement SIM.
 
-### Configuration du réseau
+### Configuration du réseau {#network-setup}
 
 Connectez-vous au panneau d’administration web du routeur, puis accédez à **INTERNET** -> **Cellular**.
 
@@ -77,7 +77,7 @@ Connectez-vous au panneau d’administration web du routeur, puis accédez à **
 
     - **Authentication** : cette option est généralement définie sur NONE si aucun identifiant n’est requis. Vous pouvez sélectionner PAP, CHAP ou PAP/CHAP.
 
-### Statistiques de trafic
+### Statistiques de trafic {#traffic-statistics}
 
 Pour afficher les statistiques de trafic, cliquez sur **Data Usage**.
 
@@ -99,7 +99,7 @@ Définissez Data Cap Amount, Data Reset Period, Start Day et Start Hour, puis cl
 
 3. Start Day : le nombre maximal de jours correspond au nombre réel de jours du mois en cours.
 
-### Détails de la connexion cellulaire
+### Détails de la connexion cellulaire {#cellular-details}
 
 Pour afficher les détails de la connexion cellulaire, cliquez sur **Details & Configuration**.
 
@@ -129,7 +129,7 @@ Dans **Cellular Information**, vous pouvez consulter Network Type, TAC, Cell ID,
 
     ![signal history](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/signal_history.png){class="glboxshadow"}
 
-### Masquage de bandes
+### Masquage de bandes {#band-masking}
 
 Band Masking permet d’utiliser des bandes cellulaires précises afin d’améliorer le signal cellulaire.
 
@@ -141,7 +141,7 @@ Dans **Cellular Settings**, activez **Band Masking**, sélectionnez les bandes s
 
 ![band masking](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/band_masking.png){class="glboxshadow"}
 
-### Verrouillage de l’opérateur
+### Verrouillage de l’opérateur {#lock-operator}
 
 !!! note "Modèles pris en charge"
 
@@ -182,7 +182,7 @@ Le signal cellulaire est alors verrouillé sur l’opérateur sélectionné.
 
 ![lock operator](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/lock_operator4.jpg){class="glboxshadow"}
 
-### Verrouillage d’une antenne relais
+### Verrouillage d’une antenne relais {#lock-tower}
 
 !!! note "Modèles pris en charge"
 
@@ -227,21 +227,21 @@ Le signal cellulaire est alors verrouillé sur l’antenne relais sélectionnée
 
 3. Si vous déplacez le routeur après avoir verrouillé une antenne relais, il tentera toujours de s’y reconnecter après un redémarrage. Cela peut l’empêcher de se connecter automatiquement au réseau cellulaire dans le nouvel emplacement. Dans ce cas, déverrouillez l’antenne relais actuelle ou verrouillez manuellement une nouvelle antenne.
 
-### SMS
+### SMS {#sms}
 
 Consultez [SMS](../tutorials/sms.md).
 
-### Transfert des SMS
+### Transfert des SMS {#sms-forwarding}
 
 Consultez [SMS Forwarding](../tutorials/sms_forwarding.md).
 
-### Mode avion
+### Mode avion {#airplane-mode}
 
 Pour activer Airplane Mode, cliquez sur l’icône d’engrenage en haut à droite, puis activez **Airplane Mode**.
 
 ![settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/settings.png){class="glboxshadow"}
 
-### Informations sur le modem
+### Informations sur le modem {#modem-information}
 
 Pour afficher les détails du modem, cliquez sur l’icône d’engrenage en haut à droite, puis sélectionnez **Modem Information**.
 
@@ -249,7 +249,7 @@ Pour afficher les détails du modem, cliquez sur l’icône d’engrenage en hau
 
 ![modem info](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/modem_info.png){class="glboxshadow"}
 
-### Basculement des cartes SIM
+### Basculement des cartes SIM {#sim-failover}
 
 Cette fonctionnalité est disponible uniquement sur les routeurs cellulaires prenant en charge Dual-SIM.
 
@@ -267,7 +267,7 @@ Pour que le routeur revienne à la carte SIM préférée à une heure définie, 
 
 ![sim failover](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/sim_failover.png){class="glboxshadow"}
 
-### Commande AT
+### Commande AT {#at-command}
 
 Les commandes AT sont des instructions standard utilisées pour communiquer avec le modem cellulaire. Cette fonctionnalité permet d’envoyer des commandes et de vérifier l’état du modem.
 
@@ -291,7 +291,7 @@ Cliquez sur l’icône d’engrenage en haut à droite, puis sélectionnez **AT 
 
 - **AT Command** : saisissez la commande souhaitée dans ce champ lorsque Shortcut est défini sur « Manual command ».
 
-## Routeurs non cellulaires
+## Routeurs non cellulaires {#non-cellular-routers}
 
 Bien que les routeurs non cellulaires n’intègrent pas de modem cellulaire, vous pouvez brancher un dongle USB externe (non fourni) sur leur port USB pour obtenir une connectivité cellulaire.
 
@@ -303,7 +303,7 @@ Les dongles et modems USB peuvent fonctionner dans différents modes : mode mode
 
 Consultez la section correspondant au mode de fonctionnement de votre dongle USB.
 
-### Modem USB standard
+### Modem USB standard {#standard-usb-modem}
 
 Cette section utilise **Mango 2 (GL-MG1300)** et la carte de développement 5G [GL-M2](https://www.gl-inet.com/products/gl-m2){target="_blank"} (module 5G NR : RM520N-GL) comme exemple pour présenter les étapes de configuration cellulaire et les fonctions associées.
 
@@ -381,7 +381,7 @@ Cette section utilise **Mango 2 (GL-MG1300)** et la carte de développement 5G [
 
     - **AT Command** : saisissez la commande souhaitée dans ce champ lorsque Shortcut est défini sur « Manual command ».
 
-### Dongle host-less
+### Dongle host-less {#hostless-dongle}
 
 Cette section utilise **Flint 3 (GL-BE9300)** et le dongle USB externe [SIMPoYo uFi](https://www.gl-inet.com/products/simpoyo-ufi){target="_blank"} comme exemple pour présenter la configuration cellulaire.
 

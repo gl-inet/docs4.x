@@ -1,4 +1,4 @@
-# セルラーでインターネットに接続する（v4.7 以前）
+# セルラーでインターネットに接続する（v4.7 以前） {#connect-to-the-internet-via-cellular-v47-and-earlier}
 
 このページの内容は、ファームウェア v4.7 以前に基づいています。デバイスで別のファームウェアバージョンを使用している場合は、以下のセレクターで該当するガイドに切り替えてください。
 
@@ -37,7 +37,7 @@
 
 ルーターの起動後に USB モデムを接続した場合、Web 管理パネルが自動更新されないことがあります。その場合はページを更新するか、ルーターを再起動してください。
 
-### 自動セットアップ
+### 自動セットアップ {#auto-setup}
 
 ルーターの Web 管理パネルにログインし、**INTERNET** -> **Cellular** に移動します。
 
@@ -89,7 +89,7 @@ Cellular セクションで **Manual Setup** をクリックすると、現在�
 
 - **Authentication**: 通信事業者が要求する認証方式（NONE、PAP、CHAP など）を選択します。認証情報が不要な場合は通常 NONE のままです。
 
-### 対応モデム
+### 対応モデム {#compatible-modems}
 
 これまでにテスト済みの対応モデム一覧です。
 
@@ -128,7 +128,7 @@ Cellular セクションで **Manual Setup** をクリックすると、現在�
 
 最初にルーターの電源を切り、事前に有効化した SIM カードをスロットへ挿入してから電源を入れることをおすすめします。ルーターの起動後に SIM カードを挿入すると、Web 管理パネルが自動更新されない場合があります。その場合はページを更新するか、ルーターを再起動してください。
 
-### 自動セットアップ
+### 自動セットアップ {#auto-setup_1}
 
 ルーターの Web 管理パネルにログインし、**INTERNET** -> **Cellular** に移動します。
 
@@ -144,7 +144,7 @@ Cellular セクションで **Manual Setup** をクリックすると、現在�
 
 自動的に接続されない場合は、**Auto Setup** をクリックして接続を待つか、**手動セットアップ** を試してください。
 
-### 手動セットアップ
+### 手動セットアップ {#manual-setup_1}
 
 Cellular セクションで **Manual Setup** をクリックして Cellular Settings に入ります。
 
@@ -152,7 +152,7 @@ Cellular セクションで **Manual Setup** をクリックして Cellular Sett
 
 現在の SIM カードのセルラー設定を確認または変更できます。また、いくつかの事前設定済みプロファイルも保存されており、"Saved Settings" に手動で設定を追加することもできます。
 
-### SIMカードスロット設定
+### SIMカードスロット設定 {#sim-card-slot-settings}
 
 Cellular セクションで **Current SIM Card** をクリックします。
 
@@ -188,7 +188,7 @@ SIM カードを2枚挿入している場合は、**Auto Switch** を有効に�
 
 **注意**: Auto Switch 機能は、すぐに別の SIM カードへ切り替わるわけではありません。まず、現在の SIM でインターネットに接続できないことを確認する時間が必要です。さらに、もう一方の SIM はスタンバイ状態ではないため、有効化にも時間がかかります。
 
-## トラフィック統計
+## トラフィック統計 {#traffic-statistics}
 
 Cellular セクションで **Traffic Statistics** をクリックします。
 
@@ -198,15 +198,15 @@ Traffic Statistics ページが開きます。
 
 ![traffic statistics](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/dual_sim/traffic_statistics.png){class="glboxshadow gl-90-desktop"}
 
-## SMS
+## SMS {#sms}
 
 [SMS](../tutorials/sms.md) を参照してください。
 
-## SMS転送
+## SMS転送 {#sms-forwarding}
 
 [SMS Forwarding](../tutorials/sms_forwarding.md) を参照してください。
 
-## モデム管理
+## モデム管理 {#modem-management}
 
 Cellular セクションで、右上の **Tool** ボタンをクリックすると Modem Management ページに移動します。
 
@@ -238,7 +238,7 @@ Shortcut のドロップダウンをクリックすると、**preset commands** 
 
 ![shortcut example](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/at_command_3.png){class="glboxshadow"}
 
-## キャリアプロファイル
+## キャリアプロファイル {#carrier-profile}
 
 同じ通信事業者用でも別の通信事業者用でも、複数のプロファイルを保存できます。
 
@@ -262,7 +262,7 @@ Cellular セクションで、右上の **Profile** ボタンをクリックす�
 
 ![chooseprofile](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/carrier_profile/choose_profile.jpg){class="glboxshadow"}
 
-## 基地局ロック
+## 基地局ロック {#lock-tower}
 
 この機能は、GL-X3000、GL-XE3000、GL-X2000（ファームウェア v4.7 以降）など、一部のモデルでのみ利用できます。
 
@@ -294,7 +294,7 @@ Cellular セクションで、右上の **Tower** アイコンをクリックし
 
 3. 基地局をロックした後にルーターを別の場所へ移動すると、再起動後も以前ロックした基地局への再接続を試みます。その結果、新しい場所でセルラーネットワークへ自動接続できない場合があります。この場合は、現在の基地局ロックを解除するか、新しい基地局へ手動でロックし直してください。
 
-## 信号履歴
+## 信号履歴 {#historical-signal-record}
 
 Cellular セクションで、右上の **Signal** アイコンをクリックすると、信号強度の履歴を確認できます。
 
@@ -306,7 +306,7 @@ Cellular セクションで、右上の **Signal** アイコンをクリック�
 
 ![historical_signal_record1](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/historical_signal_record_2.jpg){class="glboxshadow"}
 
-## バンドマスキング
+## バンドマスキング {#band-masking}
 
 Cellular セクションで **View More** をクリックし、**Cells Info** を選択してセル情報の詳細を確認します。
 
@@ -322,7 +322,7 @@ Cellular セクションで **View More** をクリックし、**Cells Info** �
 
 **Masking Mode**（Block または Open）を選択し、LTE Bands、5G NSA Bands、5G SA Bands を設定します。
 
-## トラブルシューティング
+## トラブルシューティング {#troubleshooting}
 
 セルラー接続を確立できない場合は、以下のエラーメッセージをクリックして該当する対処方法を確認してください。
 
@@ -364,9 +364,9 @@ Cellular セクションで **View More** をクリックし、**Cells Info** �
 
     問題が解消しない場合は、ログをダウンロードして [support@gl-inet.com](mailto:support@gl-inet.com) へ送信してください。
 
-## IoT認証
+## IoT認証 {#iot-certification}
 
-### AT&T認証
+### AT&T認証 {#att-certification}
 
 リンク [att device certification](https://iotdevices.att.com/certified-devices.aspx#) を開き、デバイス名を入力すると確認できます。
 
@@ -374,7 +374,7 @@ Cellular セクションで **View More** をクリックし、**Cells Info** �
 
 ![bandmasking](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/certification/at&t_certification_2.png){class="glboxshadow"}
 
-### T-Mobile認証
+### T-Mobile認証 {#t-mobile-certification}
 
 リンク [t-mobile device certification](https://www.t-mobile.com/business/solutions/iot/device-certification){target="_blank"} を開き、**Filter** で 5G を選択すると確認できます。
 

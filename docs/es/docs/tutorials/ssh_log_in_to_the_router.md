@@ -1,14 +1,14 @@
-# Iniciar sesión en el router por SSH
+# Iniciar sesión en el router por SSH {#ssh-log-in-to-the-router}
 
 Secure Shell (SSH) es un protocolo de red criptográfico que permite operar servicios de red de forma segura sobre una red no segura. El ejemplo de uso más conocido es el inicio de sesión remoto en sistemas informáticos. En ocasiones, necesita herramientas básicas para conectarse por SSH al servidor. Esta guía explica cómo iniciar sesión por SSH en los routers GL.iNet.
 
 ---
 
-## Para usuarios de Windows
+## Para usuarios de Windows {#for-windows-user}
 
 Hay varias formas de acceder al terminal del router en Windows, como Windows Cmd, PowerShell, Bitvise o PuTTY.
 
-### Usar Windows Cmd
+### Usar Windows Cmd {#using-windows-cmd}
 
 1. Abrir Command Prompt
 
@@ -46,7 +46,7 @@ Hay varias formas de acceder al terminal del router en Windows, como Windows Cmd
 
         Asegúrese de escribir la contraseña de administración correcta. Si la olvidó, restablezca el router manteniendo pulsado el botón RESET durante 10 segundos.
 
-### Usar PowerShell
+### Usar PowerShell {#using-powershell}
 
 1. Abrir Windows PowerShell
 
@@ -102,13 +102,13 @@ Hay varias formas de acceder al terminal del router en Windows, como Windows Cmd
 
         ``ssh -p [new port number] [username]@[router IP address]``
 
-### Usar Bitvise
+### Usar Bitvise {#using-bitvise}
 
 Vea este video para iniciar sesión en su router mediante Bitvise.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7yVd5UkKJ74" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Usar PuTTY
+### Usar PuTTY {#using-putty}
 
 1. Descargar PuTTY
 
@@ -156,11 +156,11 @@ Vea este video para iniciar sesión en su router mediante Bitvise.
 
 ---
 
-## Para usuarios de Linux y Mac
+## Para usuarios de Linux y Mac {#for-linuxmac-user}
 
 El proceso en Linux y macOS es, por lo general, el mismo. A continuación se usa Ubuntu como ejemplo.
 
-### Usar Ubuntu
+### Usar Ubuntu {#using-ubuntu}
 
 1. Abrir Terminal.
 

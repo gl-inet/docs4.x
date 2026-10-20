@@ -1,4 +1,4 @@
-# Connettersi a Internet tramite rete cellulare (v4.10)
+# Connettersi a Internet tramite rete cellulare (v4.10) {#connect-to-the-internet-via-cellular-v410}
 
 Il contenuto di questa pagina si basa sulle versioni firmware v4.10 e successive. Se il dispositivo usa una versione firmware diversa, usa il selettore seguente per passare alla guida corrispondente.
 
@@ -29,7 +29,7 @@ Questa sezione usa **Mudi 7 (GL-E5800)** come esempio per descrivere la configur
 
 Poiché Mudi 7 dispone di una eSIM integrata e di due slot Nano-SIM con supporto Dual SIM Dual Standby, il suo pannello di amministrazione web può differire leggermente da quello di altri router cellulari, in particolare dai modelli con un solo slot SIM.
 
-### Configurazione della rete
+### Configurazione della rete {#network-setup}
 
 Accedi al pannello di amministrazione web del router e vai su **INTERNET** -> **Cellular**.
 
@@ -77,7 +77,7 @@ Accedi al pannello di amministrazione web del router e vai su **INTERNET** -> **
 
     - **Authentication**: generalmente è impostata su NONE se non sono richieste credenziali. Puoi impostarla su PAP, CHAP o PAP/CHAP.
 
-### Statistiche del traffico
+### Statistiche del traffico {#traffic-statistics}
 
 Per visualizzare le statistiche del traffico, fai clic su **Data Usage**.
 
@@ -99,7 +99,7 @@ Imposta Data Cap Amount, Data Reset Period, Start Day e Start Hour, quindi fai c
 
 3. Start Day: il numero massimo di giorni corrisponde al numero effettivo di giorni del mese corrente.
 
-### Dettagli della connessione cellulare
+### Dettagli della connessione cellulare {#cellular-details}
 
 Per visualizzare i dettagli della connessione cellulare, fai clic su **Details & Configuration**.
 
@@ -129,7 +129,7 @@ In **Cellular Information** puoi visualizzare Network Type, TAC, Cell ID, Band e
 
     ![signal history](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/signal_history.png){class="glboxshadow"}
 
-### Band Masking
+### Band Masking {#band-masking}
 
 Band Masking consente di usare bande cellulari specifiche per migliorare il segnale.
 
@@ -141,7 +141,7 @@ In **Cellular Settings**, abilita **Band Masking**, seleziona le bande da usare 
 
 ![band masking](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/band_masking.png){class="glboxshadow"}
 
-### Blocco dell'operatore
+### Blocco dell'operatore {#lock-operator}
 
 !!! note "Modelli supportati"
 
@@ -182,7 +182,7 @@ Il segnale cellulare verrà bloccato sull'operatore selezionato.
 
 ![lock operator](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/lock_operator4.jpg){class="glboxshadow"}
 
-### Blocco della stazione base
+### Blocco della stazione base {#lock-tower}
 
 !!! note "Modelli supportati"
 
@@ -227,21 +227,21 @@ Il segnale cellulare verrà bloccato sulla stazione selezionata.
 
 3. Dopo aver bloccato una stazione base, se sposti il router in un'altra posizione, dopo il riavvio tenterà ancora di riconnettersi alla stazione bloccata. Ciò potrebbe impedire la connessione automatica alla rete cellulare nella nuova posizione. In tal caso, sblocca la stazione corrente oppure bloccane manualmente una nuova.
 
-### SMS
+### SMS {#sms}
 
 Consulta [SMS](../tutorials/sms.md).
 
-### Inoltro SMS
+### Inoltro SMS {#sms-forwarding}
 
 Consulta [Inoltro SMS](../tutorials/sms_forwarding.md).
 
-### Modalità aereo
+### Modalità aereo {#airplane-mode}
 
 Per abilitare Airplane Mode, fai clic sull'icona a forma di ingranaggio nell'angolo superiore destro e attiva **Airplane Mode**.
 
 ![settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/settings.png){class="glboxshadow"}
 
-### Informazioni sul modem
+### Informazioni sul modem {#modem-information}
 
 Per visualizzare i dettagli del modem, fai clic sull'icona a forma di ingranaggio nell'angolo superiore destro e seleziona **Modem Information**.
 
@@ -267,7 +267,7 @@ Per fare in modo che il router torni alla SIM preferita a un'ora specifica, abil
 
 ![sim failover](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/sim_failover.png){class="glboxshadow"}
 
-### Comandi AT
+### Comandi AT {#at-command}
 
 I comandi AT sono istruzioni standard usate per comunicare con il modem cellulare. Questa funzione consente di inviare comandi e controllare lo stato del modem.
 
@@ -303,7 +303,7 @@ I dongle e i modem USB possono funzionare in modalità diverse: modalità modem 
 
 Consulta la sezione corrispondente alla modalità operativa del dongle USB.
 
-### Modem USB standard
+### Modem USB standard {#standard-usb-modem}
 
 Questa sezione usa **Mango 2 (GL-MG1300)** e la scheda di sviluppo 5G [GL-M2](https://www.gl-inet.com/products/gl-m2){target="_blank"} (modulo 5G NR: RM520N-GL) come esempio per descrivere la configurazione cellulare e le funzioni correlate.
 
@@ -381,7 +381,7 @@ Questa sezione usa **Mango 2 (GL-MG1300)** e la scheda di sviluppo 5G [GL-M2](ht
 
     - **AT Command**: quando Shortcut è impostato su «Manual command», inserisci in questo campo il comando desiderato.
 
-### Dongle host-less
+### Dongle host-less {#hostless-dongle}
 
 Questa sezione usa **Flint 3 (GL-BE9300)** e il dongle USB esterno [SIMPoYo uFi](https://www.gl-inet.com/products/simpoyo-ufi){target="_blank"} come esempio per descrivere la configurazione della connessione cellulare.
 

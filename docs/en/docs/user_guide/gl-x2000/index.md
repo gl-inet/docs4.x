@@ -1,12 +1,12 @@
-# Spitz Plus (GL-X2000) User Guide
+# Spitz Plus (GL-X2000) User Guide {#spitz-plus-gl-x2000-user-guide}
 
-## Product overview
+## Product overview {#product-overview}
 
 Spitz Plus (GL-X2000) is a dual-SIM 4G LTE Wi-Fi 6 cellular gateway designed to provide fast, reliable connections especially in remote areas and during road trips. Featuring 3-Carrier Aggregation, the router streams data on three carrier bands simultaneously, providing 3x available bandwidth to avoid congestion. It offers four internet access methods: Cellular (SIM cards), ethernet, repeater, and tethering. It supports multi-WAN (failover and load-balancing), VPN (OpenVPN and WireGuard), parental controls, AdGuard Home, port forwarding, Tailscale, and more. 
 
 ![gl-x2000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/hardware_info/x2000_interface.jpg){class="glboxshadow"}
 
-## Package contents
+## Package contents {#package-contents}
 
 - 1 x Spitz Plus (GL-X2000)
 - 1 x User manual
@@ -20,7 +20,7 @@ Spitz Plus (GL-X2000) is a dual-SIM 4G LTE Wi-Fi 6 cellular gateway designed to 
 
 ![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/first_time_setup/x2000_package.png){class="glboxshadow"}
 
-## LED indicators 
+## LED indicators {#led-indicators}
 
 The following describes the LED states for different events. To see all statuses of each LED, refer to [GL-X2000 LED Indicator Status](../../faq/led.md#gl-x2000){target="_blank"}.
 
@@ -32,7 +32,7 @@ The following describes the LED states for different events. To see all statuses
 | Network reset (press "reset" for 5s)  | Blinkng every 1s          | Green               | Green  | Green | Green    |
 | Factory reset (press "reset" for 10s) | Fast blinking every 0.25s | Green               | Green  | Green | Green    | 
 
-## How to set up Spitz Plus
+## How to set up Spitz Plus {#how-to-set-up-spitz-plus}
 
 To set up Spitz Plus, you will use one of the four supported internet connection methods: Cellular (SIM required), Ethernet, Repeater, and Tethering. Watch this setup video or follow the steps below. 
 
@@ -47,11 +47,11 @@ To set up Spitz Plus, you will use one of the four supported internet connection
     2. Power off your router.
     3. Insert the SIM card(s) into the SIM card slots. (**Note:** Only one SIM card is active at one time. The other SIM card functions only as a backup.)
 
-### 1. Power on
+### 1. Power on {#1-power-on}
 
 Put the two-piece power adapter together. Connect it to your router and plug it into an outlet. It will start up automatically.
 
-### 2. Connect device
+### 2. Connect device {#2-connect-device}
 
 Connect a device (e.g., computer, laptop or smartphone) to the router using Wi-Fi or Ethernet.
 
@@ -65,11 +65,11 @@ Connect a device (e.g., computer, laptop or smartphone) to the router using Wi-F
 
     On your device, locate your router's Wi-Fi network name in the available networks list, and enter the password to join the network. You can find the default network name and password printed on your router's label.
 
-### 3. Log in to web Admin Panel
+### 3. Log in to web Admin Panel {#3-log-in-to-web-admin-panel}
 
 Launch a web browser, enter `192.168.8.1` in the address bar, and you will enter the GL.iNet Web Admin Panel. Choose a language and set your admin password, then click **Apply**. 
 
-### 4. Internet setup
+### 4. Internet setup {#4-internet-setup}
 
 **Note:** The following instructions apply to users configuring the router via the GL.iNet Web Admin Panel. If you prefer using the GL.iNet app, [download the app](https://www.gl-inet.com/app/){target="_blank"} and follow the on-screen instructions.
 
@@ -127,19 +127,19 @@ Configure your Spitz Plus using one of the supported internet connection methods
 
 Below is an overview of the features in the Spitz Plus web Admin Panel.
 
-## Wireless
+## Wireless {#wireless}
 
 The Wireless page allows you to configure settings for both 5 GHz and 2.4 GHz Wi-Fi networks, including enabling/disabling Wi-Fi, setting TX power, specifying the Wi-Fi name (SSID), enabling/disabling randomized BSSID, selecting Wi-Fi security mode, setting Wi-Fi password, configuring SSID visibility, choosing the Wi-Fi mode, bandwidth, and channel.
 
 To set up Wireless, refer to [Wireless](../../interface_guide/wireless.md).
 
-## Clients
+## Clients {#clients}
 
 The Clients page displays information about connected devices. For each client, it shows the device name, connection type (i.e., via ethernet or Wi-Fi), IP and MAC addresses, download and upload speeds, total traffic, and provides the ability to reserve IP, block the client or perform other actions.
 
 To set up Clients, refer to [Clients](../../interface_guide/clients.md).
 
-## Cloud services
+## Cloud services {#cloud-services}
 
 === "GoodCloud"
 
@@ -155,7 +155,7 @@ To set up Clients, refer to [Clients](../../interface_guide/clients.md).
 
     **Note**: Please upgrade your Spitz Plus to firmware v4.8 or above to use AstroWarp.
 
-## VPN 
+## VPN {#vpn}
 
 A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an additional layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Spitz Plus supports OpenVPN and WireGuard. 
 
@@ -173,7 +173,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     * [How to set up a WireGuard client](https://docs.gl-inet.com/router/en/4/interface_guide/wireguard_client/)
     * [How to set up a WireGuard server](https://docs.gl-inet.com/router/en/4/interface_guide/wireguard_server/)
 
-## Applications
+## Applications {#applications}
 
 === "Plug-ins"
 
@@ -221,7 +221,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/hyHh8pAxgVw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     
-## Network
+## Network {#network}
 
 === "Port forwarding"
 
@@ -297,7 +297,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     To set up NAT settings, refer to [NAT Settings](../../interface_guide/nat_settings.md).
 
-## System
+## System {#system}
 
 === "Overview"
 

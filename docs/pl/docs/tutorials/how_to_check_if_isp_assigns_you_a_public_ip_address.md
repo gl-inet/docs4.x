@@ -1,4 +1,4 @@
-# Jak sprawdzić, czy masz publiczny adres IP
+# Jak sprawdzić, czy masz publiczny adres IP {#how-to-check-if-you-have-a-public-ip-address}
 
 Publiczny adres IP, w przeciwieństwie do prywatnego adresu IP, to unikalny identyfikator numeryczny przypisany urządzeniom podłączonym do internetu. Publiczny adres IP będzie potrzebny, jeśli chcesz hostować stronę internetową, skonfigurować serwer VPN lub udostępniać jakiekolwiek usługi online. Zwykle jest on przydzielany przez dostawcę usług internetowych. 
 

@@ -50,12 +50,12 @@ This repository contains localized GL.iNet router documentation. When translatin
 
 ## Internal Links and Anchors
 
-- Check internal links carefully after translation.
-- Preserve explicit custom heading anchors and hash IDs exactly as written, such as `{#example-anchor}` or `{custom-anchor}`.
-- When translating a heading that has a custom anchor, keep the custom hash ID unchanged so cross-language links remain stable.
-- If heading text changes, make sure same-page links still resolve.
-- Update anchor links when needed instead of leaving broken English anchor references in a localized page.
+- Every heading carries an explicit ID copied from the matching English heading, for example `## Перенаправлення портів {#port-forwards}`. Translate the heading text; never translate, drop, or reword the `{#id}`.
+- Anchor links in localized pages use the same English IDs as the English page. Do not rewrite them to localized slugs.
+- A heading that exists only in the localized page gets a lowercase ASCII kebab-case ID derived from an English rendering of the heading, unique within the page.
+- Do not add `<a id>` or `<span id>` placeholders for headings.
 - Keep cross-page links valid within the localized docs tree.
+- Run `python scripts/anchors.py check --lang <lang>` before finishing. It reports headings without IDs, IDs that differ from English, and anchor links that do not resolve.
 
 ## Tables, Lists, and Data
 

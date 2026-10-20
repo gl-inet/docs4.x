@@ -4,11 +4,11 @@ hide:
   - toc
 ---
 
-# Przewodnik po interfejsie
+# Przewodnik po interfejsie {#interface-guide}
 
 Dowiedz się, jak korzystać z naszych urządzeń i dodatkowych funkcji, dzięki przewodnikom krok po kroku.
 
-## Połączenie z Internetem
+## Połączenie z Internetem {#internet-connection}
 
 * [Strona Internet](internet.md)
 * [Jak połączyć się z Internetem za pomocą kabla Ethernet](internet_ethernet.md)
@@ -17,26 +17,26 @@ Dowiedz się, jak korzystać z naszych urządzeń i dodatkowych funkcji, dzięki
 * [Jak połączyć się z Internetem przez sieć komórkową](internet_cellular_v4.10.md)
 * [Dual-Ethernet WAN](ethernet_port.md#dual-ethernet-wan)
 
-## Sieć bezprzewodowa
+## Sieć bezprzewodowa {#wireless}
 
 * [Sieć bezprzewodowa](wireless.md)
 
-## Mesh
+## Mesh {#mesh}
 
 * [Mesh](mesh.md)
 
-## Klienci
+## Klienci {#clients}
 
 * [Klienci](clients.md)
 
-## Usługi chmurowe
+## Usługi chmurowe {#cloud-services}
 
 * [Konto GL.iNet](glinet_account.md)
 * [GoodCloud](cloud.md) - oficjalna usługa chmurowa.
 * [GoodPAS](goodpas.md)
 * [AstroWarp](astrowarp.md)
 
-## VPN
+## VPN {#vpn}
 
 * [VPN Dashboard](vpn_dashboard.md)
 * [Profil klienta VPN](vpn_client_profile.md)
@@ -54,7 +54,7 @@ Dowiedz się, jak korzystać z naszych urządzeń i dodatkowych funkcji, dzięki
 * [VPN Kill Switch](../faq/block_non_vpn_traffic.md)
 * [VPN Cascading](../tutorials/how_to_use_vpn_cascading_on_glinet_routers.md)
 
-## Aplikacje
+## Aplikacje {#applications}
 
 * [Wtyczki](plugins.md)
 * [DDNS](ddns.md) - aby rozwiązać problemy związane z dynamicznymi adresami IP.
@@ -67,7 +67,7 @@ Dowiedz się, jak korzystać z naszych urządzeń i dodatkowych funkcji, dzięki
 * [Tor](tor.md) - aby chronić prywatność użytkownika.
 * [Zarządzanie eSIM](esim_management.md)
 
-## Sieć
+## Sieć {#network}
 
 * [Firewall](firewall.md)
 * [Port Forwarding](port_forwarding.md)
@@ -87,7 +87,7 @@ Dowiedz się, jak korzystać z naszych urządzeń i dodatkowych funkcji, dzięki
 * [Network Acceleration](network_acceleration.md)
 * [Ustawienia NAT](nat_settings.md)
 
-## Kontrola ruchu
+## Kontrola ruchu {#flow-control}
 
 * [Jakość sieci](network_quality.md)
 * [DPI Engine](dpi_engine.md)
@@ -97,7 +97,7 @@ Dowiedz się, jak korzystać z naszych urządzeń i dodatkowych funkcji, dzięki
 * [SQM (Smart Queue Management)](sqm.md)
 * [Kontrola rodzicielska (v4.9)](parental_control_v4.9.md)
 
-## Bezpieczeństwo
+## Bezpieczeństwo {#security}
 
 * [Skanowanie zabezpieczeń](security_scan.md)
 * [Przekierowanie portów](port_forwarding.md)
@@ -105,7 +105,7 @@ Dowiedz się, jak korzystać z naszych urządzeń i dodatkowych funkcji, dzięki
 * [Dostęp administratora](admin_access.md)
 * [Tryb NAT](nat_settings.md)
 
-## System
+## System {#system}
 
 * [Języki interfejsu](ui_languages.md)
 * [Przegląd systemu](system_overview.md) - wyświetla część stanu sprzętu i informacje systemowe.

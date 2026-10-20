@@ -1,4 +1,4 @@
-# VPN クライアント有効時に WAN へのアクセスを許可する方法
+# VPN クライアント有効時に WAN へのアクセスを許可する方法 {#how-to-allow-access-to-wan-when-vpn-client-is-enabled}
 
 GL.iNet ルーターで VPN クライアントを有効にすると、デフォルトのグローバルモードでは、LAN デバイスはローカル WAN 上のデバイスやサービスにアクセスできません。これは、DNS リークを防ぐために、LAN からのすべてのトラフィックが上位ネットワーク（WAN）ではなく VPN トンネル経由でルーティングされるためです。
 
@@ -6,7 +6,7 @@ GL.iNet ルーターで VPN クライアントを有効にすると、デフォ�
 
 ![allow access wan diagram](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/allow_access_wan_diagram.jpg){class="glboxshadow gl-90-desktop"}
 
-## ファームウェア v4.7 以前の場合
+## ファームウェア v4.7 以前の場合 {#for-firmware-v47-and-earlier}
 
 VPN クライアントの Web 管理画面にログインし、**VPN** -> **VPN Dashboard** -> **VPN Client** に移動します。右上の **Global Options** をクリックします。
 
@@ -18,7 +18,7 @@ VPN クライアントの Web 管理画面にログインし、**VPN** -> **VPN 
 
 このオプションを有効にすると、VPN 接続中でもクライアントデバイスは上位サブネット上の WAN サービス（プリンター、NAS など）に引き続きアクセスできます。
 
-## ファームウェア v4.8 以降の場合
+## ファームウェア v4.8 以降の場合 {#for-firmware-v48-and-higher}
 
 ファームウェア v4.8 では、**Allow Access WAN** オプションは **VPN Dashboard** から削除されました。ただし、VPN ポリシーを使うことでローカル WAN へのアクセスを実現できます。
 

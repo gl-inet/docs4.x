@@ -1,4 +1,4 @@
-# QoS (Quality of Service)
+# QoS (Quality of Service) {#qos-quality-of-service}
 
 **Hinweis**: Diese Funktion wurde mit Firmware v4.9 eingeführt.
 
@@ -56,7 +56,7 @@ QoS (Quality of Service) optimiert die Bandbreitenzuweisung, indem kritische Akt
     - GL-S1300 (Convexa-S)
 
 
-## Für Firmware v4.11 und höher
+## Für Firmware v4.11 und höher {#for-firmware-v411-and-above}
 
 Aktivieren Sie QoS mit dem Schalter und führen Sie anschließend die folgenden Schritte aus.
 
@@ -112,7 +112,7 @@ Aktivieren Sie QoS mit dem Schalter und führen Sie anschließend die folgenden 
 
         ![advanced qos rule](https://static.gl-inet.com/docs/router/en/4/interface_guide/qos/advanced_qos_rule.png){class="glboxshadow" width=500}
 
-## Für Firmware v4.9 bis v4.10
+## Für Firmware v4.9 bis v4.10 {#for-firmware-v49-to-v410}
 
 Schalten Sie den Schalter um, um QoS zu aktivieren. Die Seite wird dann wie unten dargestellt angezeigt.
 

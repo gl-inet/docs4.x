@@ -1,4 +1,4 @@
-# Pare-feu
+# Pare-feu {#firewall}
 
 Ce guide s'applique au firmware v4.5 et aux versions antérieures.
 
@@ -10,7 +10,7 @@ Dans le panneau d'administration web, accédez à **NETWORK** -> **Firewall**.
 
 La page Pare-feu permet de définir des règles telles que **Port Forwarding**, **Open Ports on Router** et **DMZ**.
 
-## Redirection de port
+## Redirection de port {#port-forwards}
 
 Le **Port Forwarding** permet à des ordinateurs distants de se connecter à un ordinateur local ou à un serveur situé derrière le pare-feu du routeur sur le LAN (par exemple un serveur web ou un serveur FTP).
 
@@ -38,7 +38,7 @@ Dans la fenêtre contextuelle, ajoutez une règle de redirection de port et cliq
 
 **Enable:** Utilisez l’interrupteur pour activer ou désactiver la règle.
 
-## Ouverture de ports sur le routeur
+## Ouverture de ports sur le routeur {#open-ports-on-router}
 
 Les services du routeur, comme le web et le FTP, nécessitent que leurs ports respectifs soient ouverts sur le routeur afin d'être accessibles publiquement.
 
@@ -58,7 +58,7 @@ Dans la fenêtre contextuelle, ouvrez un nouveau port puis cliquez sur **Apply**
 
 **Enable:** Active ou désactive la règle.
 
-## DMZ
+## DMZ {#dmz}
 
 La DMZ permet d'exposer un ordinateur à Internet ; tous les paquets entrants seront alors redirigés vers cet ordinateur.
 

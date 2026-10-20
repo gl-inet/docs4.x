@@ -1,4 +1,4 @@
-# 管理者パスワード
+# 管理者パスワード {#admin-password}
 
 **Note**: Admin Password ページは firmware v4.3 以降 [Security](security.md) に統合され、firmware v4.9 以降は独立したページとして復元されました。
 

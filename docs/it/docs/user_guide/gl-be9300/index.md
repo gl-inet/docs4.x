@@ -1,6 +1,6 @@
-# Guida utente di Flint 3 (GL-BE9300)
+# Guida utente di Flint 3 (GL-BE9300) {#flint-3-gl-be9300-user-guide}
 
-## Panoramica del prodotto
+## Panoramica del prodotto {#product-overview}
 
 Flint 3 (GL-BE9300) e un router desktop Wi-Fi 7 tri-band progettato per utenti domestici, piccoli uffici e scenari ad alta richiesta. Supporta il Wi-Fi 7 Multi-Link Operation (MLO), che combina in modo intelligente le bande a 2,4 GHz, 5 GHz e 6 GHz in un'unica connessione per ridurre interferenze e congestione. In combinazione con il 4K QAM, offre velocita teoriche tri-band di 688 Mbps (2,4 GHz), 2882 Mbps (5 GHz) e 5765 Mbps (6 GHz). La connettivita MLO o a 6 GHz garantisce le massime prestazioni, mentre la banda a 2,4 GHz puo essere dedicata ai dispositivi IoT.
 
@@ -8,7 +8,7 @@ E dotato di 5 porte Ethernet da 2,5G (1 WAN dedicata, 1 WAN/LAN commutabile, 3 L
 
 ![gl-be9300 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be9300/hardware_info/be9300_interface.jpg){class="glboxshadow"}
 
-## Contenuto della confezione
+## Contenuto della confezione {#package-contents}
 
 - 1 x Flint 3 (GL-BE9300)
 - 1 x Alimentatore
@@ -21,17 +21,17 @@ Guarda qui sotto il video di unboxing di Flint 3.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qAq6IFtKtj0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Come configurare Flint 3
+## Come configurare Flint 3 {#how-to-set-up-flint-3}
 
 Guarda questo video di configurazione oppure segui i passaggi riportati di seguito.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WQqD-8NrAOQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Accendi il router
+### 1. Accendi il router {#1-power-on}
 
 Assembla l'alimentatore in due parti. Collegalo al router e inseriscilo in una presa di corrente. Il router si avviera automaticamente.
 
-### 2. Collega un dispositivo
+### 2. Collega un dispositivo {#2-connect-device}
 
 Collega un dispositivo, ad esempio un computer, un laptop o uno smartphone, al router tramite Wi-Fi o Ethernet.
 
@@ -43,11 +43,11 @@ Collega un dispositivo, ad esempio un computer, un laptop o uno smartphone, al r
 
     Sul dispositivo, vai in Settings -> WLAN, individua il nome della rete Wi-Fi del router nell'elenco delle reti disponibili e inserisci la password per collegarti. Il nome di rete e la password predefiniti sono stampati sull'etichetta del router.
 
-### 3. Accedi al pannello di amministrazione web
+### 3. Accedi al pannello di amministrazione web {#3-log-in-to-web-admin-panel}
 
 Apri un browser web, inserisci `192.168.8.1` nella barra degli indirizzi ed effettua l'accesso. Scegli la lingua e imposta la password di amministrazione, quindi fai clic su **Apply**.
 
-### 4. Configurazione della connessione Internet
+### 4. Configurazione della connessione Internet {#4-internet-setup}
 
 **Note:** Le istruzioni seguenti si applicano agli utenti che configurano il router tramite il pannello di amministrazione web GL.iNet. Se preferisci usare l'app GL.iNet, [scarica l'app](https://www.gl-inet.com/app/){target="_blank"} e segui le istruzioni mostrate sullo schermo.
 
@@ -101,7 +101,7 @@ Configura Flint 3 usando uno dei metodi di connessione Internet supportati: Ethe
 
 Di seguito trovi una panoramica delle funzioni presenti nel pannello di amministrazione web di Flint 3.
 
-## Wireless
+## Wireless {#wireless}
 
 La pagina Wireless consente di configurare le impostazioni delle reti Wi-Fi a 6 GHz, 5 GHz e 2,4 GHz, tra cui attivazione del Wi-Fi, potenza TX, nome della rete Wi-Fi (SSID), BSSID casuale, modalita di sicurezza Wi-Fi e password, visibilita dell'SSID, modalita Wi-Fi, larghezza di banda e canale.
 
@@ -109,13 +109,13 @@ Inoltre, Flint 3 supporta il Wi-Fi MLO, cioe Multi-Link Operation, che combina s
 
 Per configurarla, fai riferimento a [Wireless](../../interface_guide/wireless.md).
 
-## Client
+## Client {#clients}
 
 La pagina Clients mostra informazioni sui dispositivi collegati. Per ogni client visualizza nome, indirizzi IP e MAC, velocita di download e upload, traffico totale e offre la possibilita di bloccare il client o eseguire altre azioni.
 
 Per configurarla, fai riferimento a [Clients](../../interface_guide/clients.md).
 
-## Servizi cloud
+## Servizi cloud {#cloud-services}
 
 === "GoodCloud"
 
@@ -129,7 +129,7 @@ Per configurarla, fai riferimento a [Clients](../../interface_guide/clients.md).
 
     Per configurarla, fai riferimento a [AstroWarp](../../interface_guide/astrowarp.md).
 
-## VPN
+## VPN {#vpn}
 
 Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il dispositivo e il server VPN. Offre un ulteriore livello di privacy e sicurezza come client VPN e consente di accedere a una rete remota come server VPN. Flint 3 supporta OpenVPN, WireGuard e Tor.
 
@@ -153,7 +153,7 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il disp
 
     * [Come configurare Tor](../../interface_guide/tor.md)
 
-## Applicazioni
+## Applicazioni {#applications}
 
 === "Plug-ins"
 
@@ -199,7 +199,7 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il disp
 
     Per configurarlo, fai riferimento a [Tailscale](../../interface_guide/tailscale.md).
 
-## Rete
+## Rete {#network}
 
 === "Port forwarding"
 
@@ -282,7 +282,7 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il disp
 
     Per configurarla, fai riferimento a [NAT Settings](../../interface_guide/nat_settings.md).
 
-## Impostazioni di sistema
+## Impostazioni di sistema {#system-settings}
 
 === "Overview"
 

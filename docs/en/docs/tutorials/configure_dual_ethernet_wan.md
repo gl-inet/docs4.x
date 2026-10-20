@@ -1,14 +1,14 @@
-# Configure dual wired Ethernet WAN via an Ethernet to USB-A adapter
+# Configure dual wired Ethernet WAN via an Ethernet to USB-A adapter {#configure-dual-wired-ethernet-wan-via-an-ethernet-to-usb-a-adapter}
 
 You can configure dual wired Ethernet WAN access on a single-WAN-port router via an Ethernet-to-USB-A adapter. 
 
 GL.iNet routers support common Ethernet-to-USB-A adapters, allowing you to convert the wired Ethernet access from your ISP router to a USB connection via the router's USB port, providing the router with an additional wired Ethernet access alongside the WAN port.
 
-## Topology
+## Topology {#topology}
 
 ![Topology](https://static.gl-inet.com/docs/router/en/4/tutorials/multiwan_wire/adaptor.png){class="glboxshadow"}
 
-## Setup steps
+## Setup steps {#setup-steps}
 
 1. Plug the Ethernet to USB-A adapter into the USB port of your GL.iNet router, and connect the other end to your ISP router.
 

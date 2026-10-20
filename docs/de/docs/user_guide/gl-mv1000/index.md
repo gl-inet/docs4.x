@@ -1,6 +1,6 @@
-# Brume (GL-MV1000) Benutzerhandbuch
+# Brume (GL-MV1000) Benutzerhandbuch {#brume-gl-mv1000-user-guide}
 
-## Sicherheitshinweise
+## Sicherheitshinweise {#safety-information}
 
 Lesen Sie vor der Verwendung des Geräts alle nachstehenden Sicherheitsinformationen sorgfältig durch. Die nachfolgenden Sicherheitsempfehlungen können nicht sämtliche möglicherweise auftretenden Gefahrensituationen abdecken.
 
@@ -30,25 +30,25 @@ Unsachgemäßes Öffnen oder unsachgemäße Instandsetzung kann den Benutzer des
 
 Schalten Sie bei einem Störfall zuerst den Netzschalter aus.
 
-## Produktübersicht
+## Produktübersicht {#product-overview}
 
 Brume (GL-MV1000) und Brume-W (GL-MV1000W) sind leistungsstarke und stabile Netzwerkprodukte für anspruchsvolle Rechenaufgaben. Mit dem leistungsfähigen Marvell-Chipsatz können Brume und Brume-W moderne Kryptografie mit beeindruckender Geschwindigkeit ausführen und bieten dadurch ein hervorragendes VPN-Routing-Erlebnis. Dank vorinstalliertem OpenWrt und unterstütztem Ubuntu ermöglichen Brume und Brume-W zudem eine tiefgehende Entwicklung für kommerzielle IoT-Projekte.
 
 Brume-W (GL-MV1000W) ist die Sonderedition von Brume (GL-MV1000) mit integriertem Wi-Fi-Modul, das im 2,4-GHz-Wi-Fi Geschwindigkeiten von bis zu 300 Mbit/s ermöglicht.
 
-## Technische Daten
+## Technische Daten {#specifications}
 
 [GL-MV1000 specifications](https://www.gl-inet.com/products/gl-mv1000/#specs){target="_blank"}
 
 ---
 
-## Erste Einrichtung
+## Erste Einrichtung {#first-time-setup}
 
 Alle GL.iNet-Router haben einen ähnlichen Einrichtungsprozess. [Klicken Sie hier, um mehr über die erste Einrichtung zu erfahren](../../faq/first_time_setup.md).
 
 ---
 
-## INTERNET
+## INTERNET {#internet}
 
 Melden Sie sich im Web-Admin-Panel des Routers an und wechseln Sie im linken Menü zu **INTERNET**.
 
@@ -56,7 +56,7 @@ Auf dieser Seite können Sie je nach Modell Ihre Internetverbindungsart auswähl
 
 Brume (GL-MV1000) unterstützt drei Verbindungsarten: Ethernet, Tethering und Cellular.
 
-### Ethernet
+### Ethernet {#ethernet}
 
 Verbinden Sie Ihren Router per Ethernet-Kabel mit einem aktiven Modem oder einem aktiven Netzwerkgerät, um eine Internetverbindung herzustellen. Diese Methode bietet in der Regel die schnellste und zuverlässigste Internetverbindung.
 
@@ -64,7 +64,7 @@ Verbinden Sie Ihren Router per Ethernet-Kabel mit einem aktiven Modem oder einem
 
 ![Ethernet Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-mv1000/internet/mv1000_ethernet.png){class="glboxshadow"}
 
-### Tethering
+### Tethering {#tethering}
 
 Verbinden Sie den USB-Port des Routers per USB-Kabel mit einem Smartphone mit aktiver mobiler Datenverbindung, um auf das Internet zuzugreifen. Mit dieser Methode können mehrere mit dem Router verbundene Geräte die mobile Datenverbindung des Smartphones nutzen.
 
@@ -72,7 +72,7 @@ Verbinden Sie den USB-Port des Routers per USB-Kabel mit einem Smartphone mit ak
 
 ![Tethering Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-mv1000/internet/mv1000_tethering.png){class="glboxshadow"}
 
-### Cellular
+### Cellular {#cellular}
  
 Verbinden Sie den Router mit dem Internet, indem Sie ein mobilfunkfähiges USB-Modem an den USB-Port des Routers anschließen. Diese Methode eignet sich, um die Internetverbindung eines USB-Modems mit allen verbundenen Geräten zu teilen.
 
@@ -80,7 +80,7 @@ Verbinden Sie den Router mit dem Internet, indem Sie ein mobilfunkfähiges USB-M
 
 ![Cellular Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-mv1000/internet/mv1000_cellular.png){class="glboxshadow"}
 
-### Multi-WAN
+### Multi-WAN {#multi-wan}
 
 Multi-WAN ist eine Netzwerkfunktion, mit der Sie Ihren Router gleichzeitig mit mehreren Internetverbindungen (z. B. Ethernet und Repeater) konfigurieren können. Wenn die Internetverbindung mit der höchsten Priorität ausfällt, wechselt der Router automatisch zu einer anderen Internetverbindung. Dies wird auch als Failover bezeichnet und sorgt für einen reibungslosen und unterbrechungsfreien Internetzugang.
 
@@ -90,7 +90,7 @@ Alternativ können Sie den Multi-WAN-Modus von Failover auf Load Balance umstell
 
 ---
 
-## CLIENTS
+## CLIENTS {#clients}
 
 Clients sind Geräte, die mit dem Router verbunden sind. Sie können Clients blockieren oder ihre Netzwerkgeschwindigkeit begrenzen. Die Oberfläche ist über **CLIENTS** im Seitenmenü des Admin-Panels des Routers erreichbar.
 
@@ -98,160 +98,160 @@ Clients sind Geräte, die mit dem Router verbunden sind. Sie können Clients blo
 
 ---
 
-## VPN
+## VPN {#vpn}
 
 GL.iNet-Router sind mit OpenVPN und WireGuard® vorinstalliert und unterstützen mehr als 30 VPN-Dienste. Wenn der VPN-Client aktiviert ist, kann der Router den Datenverkehr von Geräten im Netzwerk gemäß Ihren VPN-Richtlinieneinstellungen verschlüsseln, auch von Geräten, auf denen keine VPN-Apps ausgeführt werden können. Unsere Router können außerdem als VPN-Server fungieren und den Verkehr von Client-Geräten an entfernten Standorten über einen VPN-Tunnel zum VPN-Server umleiten, bevor auf das öffentliche Internet zugegriffen wird.
 
-### VPN Dashboard
+### VPN Dashboard {#vpn-dashboard}
 
 - [**VPN Dashboard**](../../interface_guide/vpn_dashboard_v4.7.md)
 
-### OpenVPN
+### OpenVPN {#openvpn}
 
 Detaillierte Schritt-für-Schritt-Anleitungen finden Sie unter den folgenden Links:
 
 - [**OpenVPN-Client einrichten**](../../interface_guide/openvpn_client.md)
 - [**OpenVPN-Server einrichten**](../../interface_guide/openvpn_server.md)
 
-### WireGuard
+### WireGuard {#wireguard}
 
 Detaillierte Schritt-für-Schritt-Anleitungen finden Sie unter den folgenden Links:
 
 - [**WireGuard-Client einrichten**](../../interface_guide/wireguard_client.md)
 - [**WireGuard-Server einrichten**](../../interface_guide/wireguard_server.md)
 
-### Tor
+### Tor {#tor}
 
 - [**Tor**](../../interface_guide/tor.md)
 
 ---
 
-## APPLICATIONS
+## APPLICATIONS {#applications}
 
 GL.iNet-Router bieten eine Vielzahl zusätzlicher Funktionen, die die Geräteverwaltung vereinfachen, das Interneterlebnis der Benutzer verbessern, Firmware-Updates automatisieren und vieles mehr.
 
-### Plug-ins
+### Plug-ins {#plug-ins}
 
 Lesen Sie das Tutorial [**Plug-ins**](../../interface_guide/plugins.md).
 
-### Dynamic DNS
+### Dynamic DNS {#dynamic-dns}
 
 Lesen Sie das Tutorial [**Dynamic DNS**](../../interface_guide/ddns.md).
 
-### GoodCloud
+### GoodCloud {#goodcloud}
 
 Lesen Sie das Tutorial [**GoodCloud**](../../interface_guide/cloud.md).
 
-### Network Storage
+### Network Storage {#network-storage}
 
 Lesen Sie das Tutorial [**Network Storage**](../../interface_guide/network_storage.md).
 
-### AdGuard Home
+### AdGuard Home {#adguard-home}
 
 Lesen Sie das Tutorial [**AdGuard Home**](../../interface_guide/adguardhome.md).
 
-### Parental Control
+### Parental Control {#parental-control}
 
 Lesen Sie das Tutorial [**Parental Control**](../../interface_guide/parental_control.md).
 
-### ZeroTier
+### ZeroTier {#zerotier}
 
 Lesen Sie das Tutorial [**ZeroTier**](../../interface_guide/zerotier.md).
 
-### Tailscale
+### Tailscale {#tailscale}
 
 Lesen Sie das Tutorial [**Tailscale**](../../interface_guide/tailscale.md).
 
 ---
 
-## NETWORK
+## NETWORK {#network}
 
-### Firewall
+### Firewall {#firewall}
 
 Die Router von GL.iNet bieten mehrere Firewall-Funktionen, um eine sichere Verbindung und vollständige Kontrolle für Benutzer zu gewährleisten. Damit können Firewall-Regeln wie Port Forwarding, Open Ports und DMZ konfiguriert werden.
 
 [Klicken Sie hier, um mehr über die Firewall der GL.iNet-Router zu erfahren](../../interface_guide/firewall.md)
 
-### Multi-WAN
+### Multi-WAN {#multi-wan_1}
 
 Lesen Sie das Tutorial [**Multi-WAN**](../../interface_guide/multi-wan.md).
 
-### LAN
+### LAN {#lan}
 
 Lesen Sie das Tutorial [**LAN**](../../interface_guide/lan.md).
 
-### DNS
+### DNS {#dns}
 
 Lesen Sie das Tutorial [**DNS**](../../interface_guide/dns.md).
 
-### Network Mode
+### Network Mode {#network-mode}
 
 Lesen Sie das Tutorial [**Network Mode**](../../interface_guide/network_mode.md).
 
-### IPv6
+### IPv6 {#ipv6}
 
 Lesen Sie das Tutorial [**IPv6**](../../interface_guide/ipv6.md).
 
-### MAC Address
+### MAC Address {#mac-address}
 
 Die Seite Mac Address hieß früher Mac Clone und wurde seit v4.2 in Mac Address umbenannt.
 
 Lesen Sie das Tutorial [**MAC Address**](../../interface_guide/mac_address.md).
 
-### Drop-in Gateway
+### Drop-in Gateway {#drop-in-gateway}
 
 Lesen Sie das Tutorial [**Drop-in Gateway**](../../interface_guide/drop-in_gateway.md).
 
-### IGMP Snooping
+### IGMP Snooping {#igmp-snooping}
 
 Lesen Sie das Tutorial [**IGMP Snooping**](../../interface_guide/igmp_snooping.md).
 
 ---
 
-## SYSTEM
+## SYSTEM {#system}
 
-### Overview
+### Overview {#overview}
 
 Lesen Sie das Tutorial [**System Overview**](../../interface_guide/system_overview.md).
 
-### Upgrade
+### Upgrade {#upgrade}
 
 GL.iNet stellt regelmäßig Updates für die Firmware unserer Router bereit, um die Leistung zu verbessern, Fehler zu beheben und Sicherheitslücken zu schließen.
 
 Lesen Sie das Tutorial [**Upgrade**](../../interface_guide/upgrade.md).
 
-### Scheduled Tasks
+### Scheduled Tasks {#scheduled-tasks}
 
 Lesen Sie das Tutorial [**Scheduled Tasks**](../../interface_guide/scheduled_tasks.md).
 
-### Admin Password
+### Admin Password {#admin-password}
 
 Diese Funktion wurde seit v4.5 nach [**Security**](../../interface_guide/security.md) verschoben.
 
 Lesen Sie das Tutorial [**Admin Password**](../../interface_guide/admin_password.md).
 
-### Time Zone
+### Time Zone {#time-zone}
 
 Lesen Sie das Tutorial [**Time Zone**](../../interface_guide/time_zone.md).
 
-### Toggle Button Settings
+### Toggle Button Settings {#toggle-button-settings}
 
 Lesen Sie das Tutorial [**Toggle Button Settings**](../../interface_guide/toggle_button_settings.md).
 
-### Log
+### Log {#log}
 
 Lesen Sie das Tutorial [**Log**](../../interface_guide/log.md).
 
-### Security
+### Security {#security}
 
 Diese Funktion ist seit v4.5 verfügbar.
 
 Lesen Sie das Tutorial [**Security**](../../interface_guide/security.md).
 
-### Reset Firmware
+### Reset Firmware {#reset-firmware}
 
 Lesen Sie das Tutorial [**Reset Firmware**](../../interface_guide/reset_firmware.md).
 
-### Advanced Settings
+### Advanced Settings {#advanced-settings}
 
 Lesen Sie das Tutorial [**Advanced Settings**](../../interface_guide/advanced_settings.md).

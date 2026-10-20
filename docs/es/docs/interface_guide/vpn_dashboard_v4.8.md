@@ -1,4 +1,4 @@
-# VPN Dashboard (Firmware v4.8)
+# VPN Dashboard (Firmware v4.8) {#vpn-dashboard-firmware-v48}
 
 El contenido de esta página se basa en la versión de firmware v4.8.x. Si su dispositivo ejecuta otra versión de firmware, use el selector siguiente para cambiar a la guía correspondiente.
 
@@ -16,9 +16,7 @@ La página VPN Dashboard muestra detalles de la conexión VPN, como reglas de t�
 
 También puede activar varias conexiones VPN para escenarios con múltiples túneles.
 
-<a id="vpn-setup-wizard"></a>
-
-## Asistente de configuración
+## Asistente de configuración {#setup-wizard}
 
 Haga clic en el icono del libro en la esquina superior izquierda y siga el asistente de configuración de VPN para completar rápidamente la configuración de la VPN.
 
@@ -46,7 +44,7 @@ Todos los clientes conectados accederán a Internet a través de este túnel VPN
 
 Si quiere configurar una política VPN, consulte [Modo de políticas](#policy-mode).
 
-## Modo VPN
+## Modo VPN {#vpn-mode}
 
 En VPN Dashboard, haga clic en el botón de la esquina superior derecha para cambiar entre modos VPN.
 
@@ -56,7 +54,7 @@ Hay dos modos disponibles: **Global Mode** y **Policy Mode**.
 
 ![vpn mode](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/global_mode.png){class="glboxshadow"}
 
-### Modo global
+### Modo global {#global-mode}
 
 En este modo, todo el tráfico se enruta a través del túnel VPN y solo puede activarse una instancia de cliente VPN.
 
@@ -66,7 +64,7 @@ En el ejemplo siguiente, el router se conecta a un servidor australiano mediante
 
 ![connected global mode](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/connected-global-mode.png){class="glboxshadow"}
 
-#### Tunnel Options
+#### Tunnel Options {#tunnel-options}
 
 Puede configurar ajustes avanzados para su túnel VPN, como el Kill Switch de VPN, el enmascaramiento de IP y el MTU.
 
@@ -86,9 +84,7 @@ Haga clic en el icono de engranaje de la esquina superior derecha.
 
 - **MTU**: Abreviatura de Maximum Transmission Unit. El valor MTU que establezca para el túnel sobrescribirá el valor definido en el archivo de configuración.
 
-<a id="policy-mode"></a>
-
-### Modo de políticas
+### Modo de políticas {#policy-mode}
 
 En este modo, el router puede conectarse a varios servidores VPN y usted puede personalizar reglas de enrutamiento para distintos clientes o destinos del tráfico.
 
@@ -108,9 +104,7 @@ Haga clic en la sección correspondiente para obtener más información.
 - [Add Tunnel](#add-tunnel)
 - [All Other Traffic](#all-other-traffic)
 
-<a id="primary-tunnel"></a>
-
-#### Túnel principal
+#### Túnel principal {#primary-tunnel}
 
 El túnel principal es un túnel <u>predefinido</u> en Policy Mode. Tiene la prioridad más alta, y puede modificar la [prioridad de los túneles](#tunnel-priority) si hay más de un túnel.
 
@@ -199,7 +193,7 @@ En este túnel, puede personalizar la regla del túnel estableciendo tres factor
     ![via](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/traffic_via_2.png){class="glboxshadow"}
     - **Use VPN**: Si se selecciona, el tráfico que coincida con esta regla se enrutará a los destinos seleccionados a través de la VPN.
 
-      Para empezar, debe configurar su router como cliente VPN. Use el [Asistente de configuracion](#vpn-setup-wizard) para completar rápidamente la configuración o vaya a OpenVPN Client / WireGuard Client en la barra lateral izquierda para configurarlo manualmente.
+      Para empezar, debe configurar su router como cliente VPN. Use el [Asistente de configuracion](#setup-wizard) para completar rápidamente la configuración o vaya a OpenVPN Client / WireGuard Client en la barra lateral izquierda para configurarlo manualmente.
 
       Una vez configurado el router como cliente VPN, seleccione un archivo de configuración VPN para este túnel y haga clic en **Apply**.
 
@@ -215,11 +209,9 @@ En el ejemplo siguiente, la regla de Primary Tunnel es: todos los clientes usan 
 
 ![connected policy mode](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/connected-policy-mode.jpg){class="glboxshadow"}
 
-**Nota**: Por seguridad, vaya a [All Other Traffic](#all-other-traffic) y a [Opciones del túnel](#opciones-del-tunel) para revisar otros ajustes antes de habilitar los túneles.
+**Nota**: Por seguridad, vaya a [All Other Traffic](#all-other-traffic) y a [Opciones del túnel](#tunnel-options_1) para revisar otros ajustes antes de habilitar los túneles.
 
-<a id="add-tunnel"></a>
-
-#### Anadir tunel
+#### Anadir tunel {#add-tunnel}
 
 Para crear túneles adicionales para varias instancias VPN, haga clic en **Add Tunnel** debajo de Primary Tunnel y configure reglas personalizadas.
 
@@ -237,11 +229,9 @@ Puede añadir más túneles si lo necesita. Se pueden crear hasta 5 túneles, in
 
 Personalice las reglas del túnel estableciendo el origen del tráfico, los destinos y el método de enrutamiento. Consulte [Tunel principal](#primary-tunnel).
 
-**Nota**: Por seguridad, vaya a [All Other Traffic](#all-other-traffic) y a [Opciones del túnel](#opciones-del-tunel) para revisar otros ajustes antes de habilitar los túneles.
+**Nota**: Por seguridad, vaya a [All Other Traffic](#all-other-traffic) y a [Opciones del túnel](#tunnel-options_1) para revisar otros ajustes antes de habilitar los túneles.
 
-<a id="all-other-traffic"></a>
-
-#### All Other Traffic
+#### All Other Traffic {#all-other-traffic}
 
 En Policy Mode, en la parte inferior de VPN Dashboard aparece un túnel <u>prehabilitado</u>.
 
@@ -257,9 +247,7 @@ Este túnel controla si el tráfico que no coincide con ninguno de los grupos de
 
   ![all other traffic off](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/all_other_traffic_off.png){class="glboxshadow"}
 
-<a id="tunnel-priority"></a>
-
-#### Prioridad de tuneles
+#### Prioridad de tuneles {#tunnel-priority}
 
 De forma predeterminada, el túnel Primary Tunnel predefinido tiene la máxima prioridad, seguido de otros túneles añadidos manualmente, si los hay, y después el túnel All Other Traffic para garantizar la conectividad de la red local mediante la WAN local.
 
@@ -283,9 +271,7 @@ Haga clic y mantenga pulsado el icono de tres líneas de la derecha para reorden
    - Si está habilitado, enruta el tráfico no coincidente o conmutado por error a través de la WAN local.
    - Si está deshabilitado, refuerza el Kill Switch y bloquea el acceso normal a Internet para evitar fugas de IP.
 
-<a id="tunnel-options"></a>
-
-#### Opciones del túnel
+#### Opciones del túnel {#tunnel-options_1}
 
 Puede configurar ajustes avanzados para cada túnel VPN, como el Kill Switch de VPN, el enmascaramiento de IP y el MTU.
 

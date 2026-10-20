@@ -1,4 +1,4 @@
-# ZeroTier
+# ZeroTier {#zerotier}
 
 ZeroTier e' una rete privata virtuale, VPN, software-based che consente comunicazioni sicure e crittografate tra dispositivi tramite Internet. Crea una rete privata virtuale che permette ai dispositivi di comunicare come se si trovassero sulla stessa rete locale, indipendentemente dalla loro posizione fisica o dalla topologia di rete. ZeroTier e' progettato per essere semplice da configurare e utilizzare e offre funzioni come crittografia end-to-end, segmentazione della rete e bridging.
 
@@ -12,7 +12,7 @@ La funzione ZeroTier sui router GL.iNet, disponibile dal firmware v4.2, consente
 
 3. Alcuni modelli, pur eseguendo il firmware v4.2 o versioni successive, non supportano ZeroTier a causa della memoria insufficiente.
 
-## Modelli supportati
+## Modelli supportati {#supported-models}
 
 ??? "Modelli supportati"
     - GL-MT6000 (Fortify)
@@ -50,7 +50,7 @@ La funzione ZeroTier sui router GL.iNet, disponibile dal firmware v4.2, consente
     - GL-S1300 (Convexa-S)
     - GL-X300B (Collie)
 
-## Configurare una rete ZeroTier
+## Configurare una rete ZeroTier {#set-up-zerotier-network}
 
 Sono disponibili due versioni di ZeroTier Central: New Central e Legacy Central.
 
@@ -62,7 +62,7 @@ Entrambe le versioni possono essere usate in parallelo, ma al momento non esiste
 
 Seleziona la versione appropriata per proseguire.
 
-### New Central
+### New Central {#new-central}
 
 Di seguito trovi un esempio con GL-MT3600BE.
 
@@ -142,7 +142,7 @@ Di seguito trovi un esempio con GL-MT3600BE.
 
     ![ping test](https://static.gl-inet.com/docs/router/en/4/interface_guide/zerotier/new_central/connectivity_test2.png){class="glboxshadow"}
 
-### Legacy Central
+### Legacy Central {#legacy-central}
 
 Di seguito trovi un esempio con GL-MT2500.
 
@@ -188,7 +188,7 @@ Di seguito trovi un esempio con GL-MT2500.
 
     Puoi anche usare il comando `ping` per verificare la connettivita'. Fai riferimento alla [Quickstart Guide](https://docs.zerotier.com/quickstart/#6-test-your-connection){target="_blank"} di ZeroTier.
 
-## Allow Remote Access WAN
+## Allow Remote Access WAN {#allow-remote-access-wan}
 
 Se questa opzione e' abilitata, le risorse sul lato WAN del dispositivo possono essere raggiunte tramite la rete virtuale ZeroTier.
 
@@ -224,7 +224,7 @@ I passaggi seguenti usano come esempio Legacy Central.
 
     ![access axt1800](https://static.gl-inet.com/docs/router/en/4/interface_guide/zerotier/zerotier_access_axt1800.jpg){class="glboxshadow gl-50-desktop"}
 
-## Allow Remote Access LAN
+## Allow Remote Access LAN {#allow-remote-access-lan}
 
 Se questa opzione e' abilitata, le risorse sul lato LAN del dispositivo possono essere raggiunte tramite la rete virtuale ZeroTier.
 

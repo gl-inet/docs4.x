@@ -1,4 +1,4 @@
-# Impossibile connettersi a un server WireGuard offuscato
+# Impossibile connettersi a un server WireGuard offuscato {#cannot-connect-to-an-obfuscated-wireguard-server}
 
 L'offuscamento VPN è una tecnica che maschera il traffico VPN facendolo apparire come normale traffico Internet. Attualmente alcuni router GL.iNet supportano il protocollo AmneziaWG, consentendo di configurare un server WireGuard con offuscamento del traffico abilitato.
 

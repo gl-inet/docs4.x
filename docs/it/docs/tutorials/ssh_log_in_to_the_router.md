@@ -1,14 +1,14 @@
-# Accedere al router tramite SSH
+# Accedere al router tramite SSH {#ssh-log-in-to-the-router}
 
 Secure Shell, SSH, e un protocollo di rete crittografico per gestire in modo sicuro i servizi di rete su una rete non protetta. L'esempio piu noto e l'accesso remoto ai sistemi informatici da parte degli utenti. A volte hai bisogno di strumenti di base per collegarti in SSH al server. Questa guida spiega come effettuare il login SSH sui router GL.iNet.
 
 ---
 
-## Per utenti Windows
+## Per utenti Windows {#for-windows-user}
 
 Esistono diversi modi per accedere al terminale del router su Windows, ad esempio tramite Windows Cmd, PowerShell, Bitvise o PuTTY.
 
-### Usare Windows Cmd
+### Usare Windows Cmd {#using-windows-cmd}
 
 1. Apri il Prompt dei comandi
 
@@ -46,7 +46,7 @@ Esistono diversi modi per accedere al terminale del router su Windows, ad esempi
 
         Assicurati di digitare la password amministratore corretta. Se hai dimenticato la password, ripristina il router premendo il pulsante RESET per 10 secondi.
 
-### Usare PowerShell
+### Usare PowerShell {#using-powershell}
 
 1. Apri Windows PowerShell
 
@@ -102,13 +102,13 @@ Esistono diversi modi per accedere al terminale del router su Windows, ad esempi
 
         ``ssh -p [nuovo numero di porta] [nome utente]@[indirizzo IP del router]``
 
-### Usare Bitvise
+### Usare Bitvise {#using-bitvise}
 
 Guarda questo video per accedere al router tramite Bitvise.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7yVd5UkKJ74" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Usare PuTTY
+### Usare PuTTY {#using-putty}
 
 1. Scarica PuTTY
 
@@ -156,11 +156,11 @@ Guarda questo video per accedere al router tramite Bitvise.
 
 ---
 
-## Per utenti Linux/Mac
+## Per utenti Linux/Mac {#for-linuxmac-user}
 
 Il processo su Linux e Mac OS e generalmente lo stesso. Di seguito usiamo Ubuntu come esempio.
 
-### Usare Ubuntu
+### Usare Ubuntu {#using-ubuntu}
 
 1. Avvia Terminal
 

@@ -1,4 +1,4 @@
-# Leitfaden zur Fehlerbehebung bei Mobilfunknetzwerken
+# Leitfaden zur Fehlerbehebung bei Mobilfunknetzwerken {#cellular-network-troubleshooting-guide}
 
 Wenn Sie keine Mobilfunkverbindung herstellen können, prüfen Sie bitte die folgenden Punkte.
 

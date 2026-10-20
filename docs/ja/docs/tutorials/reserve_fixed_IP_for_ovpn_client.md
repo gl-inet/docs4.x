@@ -1,4 +1,4 @@
-# 自作OpenVPN接続でOpenVPNクライアント用に固定IPを予約する方法
+# 自作OpenVPN接続でOpenVPNクライアント用に固定IPを予約する方法 {#how-to-reserve-a-fixed-ip-for-openvpn-client-in-a-self-built-openvpn-connection}
 
 このチュートリアルでは、サーバーへ接続するOpenVPNクライアントに固定IPを予約する方法を紹介します。以下の手順を実行する前に、まずGL.iNetルーターをOpenVPNサーバーとして設定してください。
 

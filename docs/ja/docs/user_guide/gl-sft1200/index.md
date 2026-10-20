@@ -1,12 +1,12 @@
-# Opal (GL-SFT1200) ユーザーガイド
+# Opal (GL-SFT1200) ユーザーガイド {#opal-gl-sft1200-user-guide}
 
-## 製品概要
+## 製品概要 {#product-overview}
 
 Opal (GL-SFT1200) は、1200Mbps のワイヤレス転送速度に対応したポケットサイズのトラベルルーターです。持ち運びやすいコンパクト設計で、小規模ビジネス、小規模アパート、出張者のワイヤレスインターネットアクセス需要に対応できます。
 
 ![gl-sft1200 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-sft1200/first_time_setup/gl-sft1200.jpg){class="glboxshadow"}
 
-## パッケージ内容
+## パッケージ内容 {#package-contents}
 
 - 1 x Opal (GL-SFT1200)
 - 1 x ユーザーマニュアル
@@ -18,18 +18,18 @@ Opal (GL-SFT1200) は、1200Mbps のワイヤレス転送速度に対応した�
 
 ![gl-sft1200 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-sft1200/first_time_setup/sft1200_unboxing.jpg){class="glboxshadow"}
 
-## Opal のセットアップ方法
+## Opal のセットアップ方法 {#how-to-set-up-opal}
 
 このセットアップ動画を見るか、以下の手順に従ってください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZAVn92F5RV8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <small>(この動画では別の GL.iNet ルーターを使ってセットアップを説明していますが、Opal および他のルーターモデルでも手順は同じです。)</small>
 
-### 1. 電源を入れる
+### 1. 電源を入れる {#1-power-on}
 
 2 ピース構成の電源アダプターを組み合わせます。ルーターに接続し、コンセントに差し込みます。ルーターは自動的に起動します。
 
-### 2. デバイスを接続する
+### 2. デバイスを接続する {#2-connect-device}
 
 Wi-Fi または Ethernet を使用して、コンピューター、ノート PC、スマートフォンなどのデバイスをルーターに接続します。
 
@@ -41,13 +41,13 @@ Wi-Fi または Ethernet を使用して、コンピューター、ノート PC�
 
     デバイスで Settings -> WLAN に移動し、利用可能なネットワーク一覧からルーターの Wi-Fi ネットワーク名を見つけて、パスワードを入力します。デフォルトのネットワーク名とパスワードは、ルーター底面のラベルに印刷されています。
 
-### 3. Web 管理パネルにログインする
+### 3. Web 管理パネルにログインする {#3-log-in-to-web-admin-panel}
 
 Web ブラウザーを開き、アドレスバーに `192.168.8.1` と入力してログインします。言語を選択し、管理者パスワードを設定して、**Apply** をクリックします。
 
 Wi-Fi 情報を変更した場合は、更新後の認証情報を使用してデバイスをルーターの Wi-Fi に再接続する必要があります。
 
-### 4. インターネット設定
+### 4. インターネット設定 {#4-internet-setup}
 
 **Note:** 以下の手順は、GL.iNet Web Admin Panel でルーターを設定するユーザー向けです。GL.iNet アプリを使用したい場合は、[アプリをダウンロード](https://www.gl-inet.com/app/){target="_blank"} し、画面の指示に従ってください。
 
@@ -97,7 +97,7 @@ Opal は、Ethernet、Repeater、Tethering、Cellular のいずれかの対応�
 
     詳細な手順については、[Cellular 経由でインターネットに接続する](../../interface_guide/internet_cellular.md) を参照してください。
 
-## VPN の設定方法
+## VPN の設定方法 {#how-to-set-up-a-vpn}
 
 VPN (virtual private network) は、デバイスと VPN サーバー間に安全で暗号化された通信を作成します。プライバシーとセキュリティを強化し (VPN client)、リモートネットワークへアクセスできるようにします (VPN server)。Opal は OpenVPN、WireGuard、Tor* に対応しています。
 
@@ -121,7 +121,7 @@ VPN (virtual private network) は、デバイスと VPN サーバー間に安全
 
     **Note:** Opal は Tor をネイティブにはサポートしていませんが、プラグインを通じて手動で Tor をインストールできます。詳細は [こちら](../../interface_guide/tor.md#manual-install) をクリックしてください。
 
-## Wireless and clients
+## Wireless and clients {#wireless-and-clients}
 
 === "Wireless"
 
@@ -135,7 +135,7 @@ VPN (virtual private network) は、デバイスと VPN サーバー間に安全
 
     Clients を設定するには、[Clients](../../interface_guide/clients.md) を参照してください。
 
-## Cloud services
+## Cloud services {#cloud-services}
 
 === "GoodCloud"
 
@@ -151,7 +151,7 @@ VPN (virtual private network) は、デバイスと VPN サーバー間に安全
 
     **Note:** この機能を使用する前に、ルーターのファームウェアをバージョン 4.8 以上にアップグレードしてください。
 
-## Applications
+## Applications {#applications}
 
 === "Plug-ins"
 
@@ -173,7 +173,7 @@ VPN (virtual private network) は、デバイスと VPN サーバー間に安全
 
     **Note:** この機能を使用する前に、ルーターのファームウェアをバージョン 4.8 以上にアップグレードしてください。
 
-## Network settings
+## Network settings {#network-settings}
 
 === "Port Forwarding"
 
@@ -255,7 +255,7 @@ VPN (virtual private network) は、デバイスと VPN サーバー間に安全
 
     NAT settings を設定するには、[NAT Settings](../../interface_guide/nat_settings.md) を参照してください。
 
-## System settings
+## System settings {#system-settings}
 
 === "Overview"
 

@@ -1,4 +1,4 @@
-# Warning from your browser: Your Connection is not Private
+# Warning from your browser: Your Connection is not Private {#warning-from-your-browser-your-connection-is-not-private}
 
 You may encounter this browser alert if this is your first time setting up your GL.iNet router: Your Connection is not Private.
 
@@ -8,7 +8,7 @@ This is a standard security warning issued by the browser when it detects a webs
 
 Browsers are typically designed to trust certificates issued by third-party certificate authorities (CAs). However, GL.iNet routers use self-signed certificates, which are not issued by CAs. Therefore, browsers flag them as insecure and display this warning.
 
-## Is it safe to browse 192.168.8.1?
+## Is it safe to browse 192.168.8.1? {#is-it-safe-to-browse-19216881}
 
 We prioritize your network security. During the initial setup, you do not need an internet connection, as the process is entirely local.
 
@@ -20,13 +20,13 @@ Similarly, the IP **192.168.8.1** is a private local IP address assigned to the 
 
 Since the connection is purely local and no internet access is required during setup, there is **no risk of privacy leakage**. This ensures a secure, isolated environment for configuring your router.
 
-## Why do I still get a warning?
+## Why do I still get a warning? {#why-do-i-still-get-a-warning}
 
 Browsers usually do not distinguish between a preset setup IP address and normal websites; they treat all IP addresses as websites and expect HTTPS connections to be secured by SSL/TLS certificates. 
 
 GL.iNet routers do use SSL/TLS certificates, but they are self-signed and not issued by third-party certificate authorities (CAs). Although accessing this IP is secure (as it is on a private local network), it is still considered "insecure" by the browser, which is why an alert is issued.
 
-## What can I do with this warning?
+## What can I do with this warning? {#what-can-i-do-with-this-warning}
 
 Please click **Advanced** and **Continue to 192.168.8.1** 
 
@@ -36,7 +36,7 @@ Then you will re-direct to the web Admin Panel.
 
 ![setup](https://static.gl-inet.com/docs/router/en/4/faq/warning_from_your_browser/setup.jpg){class="glboxshadow"}
 
-## Can I add an SSL certificate in the router?
+## Can I add an SSL certificate in the router? {#can-i-add-an-ssl-certificate-in-the-router}
 
 Yes, you can add your SSL certificate in the GLiNet routers.
 

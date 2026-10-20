@@ -1,10 +1,10 @@
-# So richten Sie VPN-Verschleierung auf GL.iNet-Routern ein
+# So richten Sie VPN-Verschleierung auf GL.iNet-Routern ein {#how-to-set-up-vpn-obfuscation-on-glinet-routers}
 
 **Hinweis**: GL.iNet-Router unterstützen AmneziaWG ab Firmware v4.9. Aktualisieren Sie Ihren Router zunächst auf eine unterstützte Firmwareversion.
 
 Diese Anleitung beschreibt zwei Szenarien zum Einrichten der AmneziaWG-Verschleierung auf GL.iNet-Routern.
 
-## Szenario 1. Verwendung von zwei GL.iNet-Routern
+## Szenario 1. Verwendung von zwei GL.iNet-Routern {#scenario-1-using-two-glinet-routers}
 
 In diesem Szenario werden zwei GL.iNet-Router verwendet, um über das AmneziaWG-Protokoll eine VPN-Verschleierungsverbindung herzustellen.
 
@@ -12,7 +12,7 @@ In diesem Szenario werden zwei GL.iNet-Router verwendet, um über das AmneziaWG-
 
 - Beryl AX (GL-MT3000): Fungiert als tragbarer VPN-Client für unterwegs.
 
-### VPN-Server einrichten
+### VPN-Server einrichten {#set-up-vpn-server}
 
 1. Melden Sie sich am Web-Admin-Panel des Brume 3 an.
 
@@ -68,7 +68,7 @@ In diesem Szenario werden zwei GL.iNet-Router verwendet, um über das AmneziaWG-
 
     ![server start](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_start2.png){class="glboxshadow"}
 
-### VPN-Client einrichten
+### VPN-Client einrichten {#set-up-vpn-client}
 
 1. Melden Sie sich am Web-Admin-Panel des Beryl AX an.
 
@@ -116,13 +116,13 @@ In diesem Szenario werden zwei GL.iNet-Router verwendet, um über das AmneziaWG-
 
 Die VPN-Verbindung ist damit abgeschlossen. Alle Geräte am Beryl AX greifen jetzt über das Gateway des Brume 3 auf das Internet zu, wodurch eine VPN-Verschleierungsverbindung ermöglicht wird.
 
-## Szenario 2. Verwendung eines einzelnen GL.iNet-Routers
+## Szenario 2. Verwendung eines einzelnen GL.iNet-Routers {#scenario-2-using-a-single-glinet-router}
 
 In diesem Szenario wird ein einzelner GL.iNet-Router **Brume 3 (GL-MT5000)** als VPN-Client verwendet, um sich mit einem AmneziaVPN-Server zu verbinden.
 
 In diesem Fall müssen Sie keinen eigenen Server einrichten. Laden Sie einfach eine AmneziaWG-Konfigurationsdatei von der [offiziellen Amnezia-Website](https://amnezia.org/){target="_blank"} oder von einem VPN-Dienstanbieter herunter, der AmneziaWG integriert, und laden Sie die Datei dann auf Ihren GL.iNet-Router hoch. Danach können Sie eine VPN-Verbindung mit aktivierter Verschleierung herstellen.
 
-### Konfiguration herunterladen
+### Konfiguration herunterladen {#download-configuration}
 
 <u>Option 1</u>: Laden Sie eine Konfiguration von Amnezia Official herunter (Premium-Abonnement erforderlich).
 
@@ -150,7 +150,7 @@ Nehmen Sie StarVPN als Beispiel.
 
     Folgen Sie anschließend den nachstehenden Schritten, um den VPN-Client einzurichten.
 
-### VPN-Client einrichten
+### VPN-Client einrichten {#set-up-vpn-client_1}
 
 1. Melden Sie sich am Web-Admin-Panel des Brume 3 an.
 

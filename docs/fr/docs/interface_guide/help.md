@@ -1,4 +1,4 @@
-# Aide
+# Aide {#help}
 
 Dans le panneau d'administration web, cliquez sur l'icône en forme de point d'interrogation située à droite de la barre de titre.
 

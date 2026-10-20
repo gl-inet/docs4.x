@@ -1,4 +1,4 @@
-# Akceleracja sprzętowa
+# Akceleracja sprzętowa {#hardware-acceleration}
 
 **Uwaga**: Ten przewodnik dotyczy firmware v4.2 i wcześniejszych wersji. W przypadku nowszych wersji zapoznaj się z [Network Acceleration](network_acceleration.md).
 
@@ -8,7 +8,7 @@ Akceleracja sprzętowa (czasem nazywana *hardware NAT*, *flow offloading* lub po
 
 Po włączeniu akceleracji sprzętowej następujące funkcje nie będą działać prawidłowo: **Client Speed and Traffic Statistics** oraz **Client Speed Limit**.
 
-## Obsługiwane modele
+## Obsługiwane modele {#supported-models}
 
 ??? "Obsługiwane modele"
     - GL-MT6000 (Fortify)
@@ -44,7 +44,7 @@ Po włączeniu akceleracji sprzętowej następujące funkcje nie będą działa�
     - GL-B1300 (Convexa-B)
     - GL-X300B (Collie)
 
-## Szybka konfiguracja
+## Szybka konfiguracja {#quick-setup}
 
 Po lewej stronie webowego panelu administracyjnego przejdź do **NETWORK** -> **Hardware Acceleration**.
 
@@ -54,7 +54,7 @@ Włącz przełącznik i kliknij **Apply**.
 
 ---
 
-## Sprzętowy NAT a programowy NAT
+## Sprzętowy NAT a programowy NAT {#hardware-nat-vs-software-nat}
 
 * Jeśli najbardziej zależy Ci na przepustowości (np. przy wielogigabitowym łączu szerokopasmowym) i nie potrzebujesz SQM na routerze ani kształtowania ruchu dla poszczególnych klientów → włącz Hardware NAT / Network Acceleration. Zapewnia to najwyższą przepustowość i najniższe użycie CPU.
 

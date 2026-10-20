@@ -1,6 +1,6 @@
-# FAQ sulla risoluzione dei problemi di connessione Internet
+# FAQ sulla risoluzione dei problemi di connessione Internet {#internet-connection-troubleshooting-faq}
 
-## D1. Cosa devo fare se non riesco ad accedere a Internet?
+## D1. Cosa devo fare se non riesco ad accedere a Internet? {#q1-what-should-i-do-if-i-cannot-access-the-internet}
 
 Segui i passaggi seguenti per una risoluzione di base dei problemi.
 
@@ -22,7 +22,7 @@ Segui i passaggi seguenti per una risoluzione di base dei problemi.
 
     Nel frattempo, verifica anche se il tuo ISP ha configurato in precedenza il **MAC binding** sul modem/ONT.
 
-## D2. Quando dovrei clonare un indirizzo MAC?
+## D2. Quando dovrei clonare un indirizzo MAC? {#q2-when-should-i-clone-a-mac-address}
 
 Alcuni ISP associano la tua connessione broadband all'indirizzo MAC del primo dispositivo collegato, in genere il vecchio router o il computer. Quando sostituisci il router, dovrai clonare l'indirizzo MAC per ripristinare l'accesso a Internet.
 
@@ -36,7 +36,7 @@ Segui i passaggi seguenti per clonare un indirizzo MAC sul router GL.iNet.
 
 3. Riavvia il modem, cioè il dispositivo a monte.
 
-## D3. Quando devo configurare un VLAN ID?
+## D3. Quando devo configurare un VLAN ID? {#q3-when-do-i-need-to-configure-a-vlan-id}
 
 Alcuni ISP richiedono il tagging VLAN per l'autenticazione Internet o per la separazione del traffico, in particolare con connessioni in fibra e IPTV. Contatta il tuo ISP e verifica se è richiesto un VLAN ID.
 
@@ -48,7 +48,7 @@ Segui i passaggi seguenti per configurare il VLAN ID.
 
     ![vlan id](https://static.gl-inet.com/docs/router/en/4/faq/internet_connection_troubleshooting_faq/vlan_id.png){class="glboxshadow"}
 
-## D4. Cosa succede se ancora non funziona?
+## D4. Cosa succede se ancora non funziona? {#q4-what-if-it-still-doesnt-work}
 
 Se il problema persiste, prova a collegare direttamente un PC o un laptop al modem e verifica se hai accesso a Internet.
 
@@ -61,7 +61,7 @@ Se invece hai accesso a Internet, il problema potrebbe essere legato alla config
 - Nome del tuo ISP
 - Qualsiasi altra informazione che possa aiutarci ad assisterti
 
-## Informazioni sugli ISP
+## Informazioni sugli ISP {#isp-information}
 
 Di seguito trovi informazioni specifiche per area geografica sugli ISP, raccolte da GL.iNet da feedback dei clienti, forum e risorse OpenWRT, solo come riferimento.
 

@@ -1,4 +1,4 @@
-# Firewall
+# Firewall {#firewall}
 
 Diese Anleitung gilt für Firmware v4.5 und früher.
 
@@ -10,7 +10,7 @@ Gehen Sie auf der linken Seite des Web-Admin-Panels zu **NETWORK** -> **Firewall
 
 Auf der Firewall-Seite können Sie Firewall-Regeln wie **Port Forwarding**, **Open Ports on Router** und **DMZ** festlegen.
 
-## Port Forwards
+## Port Forwards {#port-forwards}
 
 Mit Port Forwarding können entfernte Computer eine Verbindung zu einem lokalen Computer oder Server hinter der Firewall des Routers im LAN herstellen, z. B. zu Webservern oder FTP-Servern.
 
@@ -38,7 +38,7 @@ Fügen Sie im Pop-up-Fenster eine Portweiterleitungsregel hinzu und klicken Sie 
 
 **Enable:** Aktivieren oder deaktivieren Sie die Regel mit dem Schalter.
 
-## Open Ports on Router
+## Open Ports on Router {#open-ports-on-router}
 
 Dienste des Routers, z. B. Web und FTP, erfordern, dass ihre jeweiligen Ports auf dem Router geöffnet werden, damit sie öffentlich erreichbar sind.
 
@@ -58,7 +58,7 @@ Um einen Port zu öffnen, wechseln Sie zur Registerkarte **Open Ports on Router*
 
 **Enable:** Aktiviert oder deaktiviert die Regel.
 
-## DMZ
+## DMZ {#dmz}
 
 Mit DMZ können Sie einen Computer dem Internet direkt aussetzen, sodass alle eingehenden Pakete an diesen Computer weitergeleitet werden.
 

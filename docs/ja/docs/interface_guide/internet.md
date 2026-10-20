@@ -1,10 +1,10 @@
-# インターネット
+# インターネット {#internet}
 
 Web管理パネルにログインし、**INTERNET** に移動します。
 
 上部にはインターネットの状態を示す図が表示され、下部には最大4つのインターネット接続方法が表示されます（利用できる方法はモデルによって異なります）。
 
-## ステータス図
+## ステータス図 {#status-diagram}
 
 ![status diagram](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet/status_diagram.png){class="glboxshadow"}
 
@@ -26,7 +26,7 @@ Web管理パネルにログインし、**INTERNET** に移動します。
 - 無線接続のデバイスは上段に、有線接続のデバイスは下段に表示されます。
 - 各セクションの横にある数字は、接続中のデバイス数を示します。
 
-## インターネット接続方法
+## インターネット接続方法 {#internet-access-methods}
 
 利用できるインターネット接続方法は最大4種類です。以下の各チュートリアルを参照するか、[セットアップウィザード](#setup-wizard)から開始してください。
 

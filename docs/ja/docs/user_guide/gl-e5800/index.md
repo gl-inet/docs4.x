@@ -1,6 +1,6 @@
-# Mudi 7 (GL-E5800) ユーザーガイド
+# Mudi 7 (GL-E5800) ユーザーガイド {#mudi-7-gl-e5800-user-guide}
 
-## 製品概要
+## 製品概要 {#product-overview}
 
 Mudi 7は、ロードウォリアーとビジネス旅行者向けのポータブル5G NR Wi-Fi 7トラベルルーターです。5Gハイスピード、デュアルSIM自動切替（フェイルオーバー）、Wi-Fi 7（320MHzチャンネルと4K QAM）を特徴とし、安定した高速接続を実現します。高速ダウンロード、4Kストリーミング、混雑した地域でも遅延のないビデオ会議をサポートします。
 
@@ -8,7 +8,7 @@ Mudi 7は、ロードウォリアーとビジネス旅行者向けのポータ�
 
 ![gl-e5800 overview](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/gl-e5800_overview.png){class="glboxshadow"}
 
-## パッケージコンテンツ
+## パッケージコンテンツ {#package-contents}
 
 - 1 x Mudi 7 (GL-E5800)
 - 1 x バッテリーパック
@@ -22,13 +22,13 @@ Mudi 7は、ロードウォリアーとビジネス旅行者向けのポータ�
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sCEIReC70Fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Mudi 7の設定方法
+## Mudi 7の設定方法 {#how-to-set-up-mudi-7}
 
 このセットアップ動画を視聴するか、以下の手順に従ってください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6xg8I0ohAMM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Nano-SIMカードのインストール
+### 1. Nano-SIMカードのインストール {#1-install-sim-card}
 
 Mudi 7 に Nano-SIM カードを挿入します。eSIM を使用する場合は、この手順を飛ばして手順 2 に進んでください。
 
@@ -50,19 +50,19 @@ Mudi 7 に Nano-SIM カードを挿入します。eSIM を使用する場合は�
 
 ![restore battery](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/first_time_setup/battery2.png){class="glboxshadow"}
 
-### 2. 電源を入れる
+### 2. 電源を入れる {#2-power-on}
 
 **3秒間**電源ボタンを長押しするか、電源アダプターを挿します。
 
 ![power on](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/first_time_setup/power-button.png){class="glboxshadow"}
 
-### 3. 基本設定
+### 3. 基本設定 {#3-basic-settings}
 
 画面の指示に従い、**画面のパスコード**、**管理者パスワード**、**Wi-Fi名**、**Wi-Fiパスワード**、**周波数帯**などの基本設定を行います。
 
 **ヒント**: デフォルトの管理者パスワードは、デバイスのS/Nの末尾9文字に「#」を追加したものです。デフォルトのパスワードを使うか、独自のパスワードを設定できます。
 
-### 4. インターネットの設定
+### 4. インターネットの設定 {#4-internet-setup}
 
 サポートされているインターネット接続方法（Cellular、Ethernet、Repeater、Tethering、USB Ethernet）のいずれかを使用してMudi 7を設定します。[Multi-WAN](../../interface_guide/multi-wan.md)機能を使用する場合は、複数のインターネット接続を設定してください。
 
@@ -178,7 +178,7 @@ Mudi 7 に Nano-SIM カードを挿入します。eSIM を使用する場合は�
     Mudi 7 の USB-C OTG の詳細については、[こちら](../../tutorials/what_is_usb-c_otg_and_how_to_share_your_network_via_usb-c_otg.md)をクリックしてください。
 
 
-## ファームウェアのアップグレード
+## ファームウェアのアップグレード {#firmware-upgrade}
 
 !!! note "アップグレード前の注意"
 
@@ -188,7 +188,7 @@ Mudi 7 に Nano-SIM カードを挿入します。eSIM を使用する場合は�
 
 Mudi 7 のファームウェアは、タッチスクリーンまたは Web 管理パネルからアップグレードできます。
 
-### タッチスクリーンからアップグレードする
+### タッチスクリーンからアップグレードする {#upgrade-via-touchscreen}
 
 1. Mudi 7 をインターネットへ接続します。
 
@@ -200,13 +200,13 @@ Mudi 7 のファームウェアは、タッチスクリーンまたは Web 管�
 
     ![download & upgrade](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/screen_upgrade2.png){class="glboxshadow" width="300"}
 
-### Web からアップグレードする
+### Web からアップグレードする {#upgrade-via-web}
 
 Web管理パネルにログインし、**SYSTEM** -> **Upgrade** に移動します。ルーターのファームウェアは、オンラインまたはローカルでアップグレードできます。
 
 詳細は[こちら](../../interface_guide/upgrade.md)を参照してください。
 
-## 工場出荷時設定へのリセット
+## 工場出荷時設定へのリセット {#factory-reset}
 
 Mudi 7 をリセットする方法は 3 つあります。タッチスクリーン上で直接行う方法、Reset ボタンを使う方法、Web 管理パネルから行う方法です。
 
@@ -216,7 +216,7 @@ Mudi 7 をリセットする方法は 3 つあります。タッチスクリー�
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3Kx_StIFLqo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### タッチスクリーンでリセットする
+### タッチスクリーンでリセットする {#reset-via-touchscreen}
 
 1. ホーム画面で **More** をタップします。
 
@@ -230,7 +230,7 @@ Mudi 7 をリセットする方法は 3 つあります。タッチスクリー�
 
     ![LCD reset](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/lcd_reset3.png){class="glboxshadow" width="300"}
 
-### ボタンでリセットする
+### ボタンでリセットする {#reset-via-button}
 
 1. 背面カバーを外すと、下図のように Reset ボタンがあります。
 
@@ -242,7 +242,7 @@ Mudi 7 をリセットする方法は 3 つあります。タッチスクリー�
 
     - **工場出荷時設定へのリセット**: Reset ボタンを **10 秒間**長押ししてから離すと、ハードリセットが実行されます。押している間は画面上の案内を確認し、指示に従って操作してください。これにより、すべての設定が削除されます。十分ご注意ください。
 
-### Web からリセットする
+### Web からリセットする {#reset-via-web}
 
 1. Web 管理パネルにログインし、**SYSTEM** -> **Reset Firmware** に移動します。
 
@@ -276,7 +276,7 @@ Mudi 7のWeb管理パネルにログインします。
 以下は、Mudi 7のWeb管理パネルの機能概要です。
 
 
-## Wireless
+## Wireless {#wireless}
 
 Wirelessページでは、6 GHz、5 GHz、2.4 GHz Wi-Fiネットワークの設定を構成できます。Wi-Fiの有効化、TX電力の設定、Wi-Fi名（SSID）の指定、ランダムBSSIDの有効化、Wi-Fiセキュリティモードとパスワードの選択、SSID可視性の設定、Wi-Fiモード、帯域幅、チャネルの選択が含まれます。
 
@@ -288,13 +288,13 @@ Wirelessの設定については、[Wireless](../../interface_guide/wireless.md)
 2. Repeaterが有効になっている場合、Guest Networkは自動的に無効になります。
 3. 規制により、屋外で使用する場合はWi-FiをOutdoorモードに切り替えする必要があります。これにより、カバー範囲が減少する可能性があります。Wirelessページの上部で、使用環境（IndoorまたはOutdoor）を切り替えることができます。
 
-## Clients
+## Clients {#clients}
 
 Clients ページには、接続中のデバイスに関する情報が表示されます。各クライアントについて、名前、IPアドレス、MACアドレス、ダウンロード速度、アップロード速度、合計トラフィックを確認でき、クライアントをブロックしたり、その他の操作を実行したりできます。
 
 Clientsの設定については、[Clients](../../interface_guide/clients.md)を参照してください。
 
-## クラウドサービス
+## クラウドサービス {#cloud-services}
 
 === "GoodCloud"
 
@@ -308,7 +308,7 @@ Clientsの設定については、[Clients](../../interface_guide/clients.md)を
     
     AstroWarpの設定については、[AstroWarp](../../interface_guide/astrowarp.md)を参照してください。
 
-## VPN
+## VPN {#vpn}
 
 VPN（仮想プライベートネットワーク）は、デバイスとVPNサーバー間の安全で暗号化されたトラフィックを作成します。VPNクライアントとしてプライバシーとセキュリティの追加レイヤーを提供し、VPNサーバーとしてリモートネットワークにアクセスできます。Mudi 7はOpenVPNとWireGuardをサポートしています。
 
@@ -326,7 +326,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
     * [WireGuardクライアントの設定方法](../../interface_guide/wireguard_client.md)
     * [WireGuardサーバーの設定方法](../../interface_guide/wireguard_server.md)
 
-## ネットワーク
+## ネットワーク {#network}
 
 === "Multi-WAN"
 
@@ -399,7 +399,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
     
     ネットワークアクセラレーションの設定については、[Network Acceleration](../../interface_guide/network_acceleration.md)を参照してください。
 
-## フロー制御
+## フロー制御 {#flow-control}
 
 === "Parental Control"
 
@@ -407,7 +407,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
     保護者による制御の設定については、[Parental Control](../../interface_guide/parental_control.md)を参照してください。
 
-## セキュリティ
+## セキュリティ {#security}
 
 === "Port Forwarding"
 
@@ -433,7 +433,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
     NAT設定については、[NAT Mode](../../interface_guide/nat_settings.md)を参照してください。
 
-## アプリケーション
+## アプリケーション {#applications}
 
 === "Plug-ins"
 
@@ -479,7 +479,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
     
     * [Torの設定方法](../../interface_guide/tor.md)
 
-## システム
+## システム {#system}
 
 === "Overview"
 
@@ -594,9 +594,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
     詳細な設定手順と詳細については、[Advanced Settings](../../interface_guide/advanced_settings.md)を参照してください。
 
-<span id="battery-safety"></span>
-
-## バッテリーの安全性 {#battery-safety-and-swollen-battery-handling}
+## バッテリーの安全性 {#battery-safety}
 
 バッテリーが膨張している、液漏れしている、異常に熱い、損傷している、または異臭がする場合は、Mudi 7 の使用と充電を中止してください。
 

@@ -1,4 +1,4 @@
-# Network Mode
+# Network Mode {#network-mode}
 
 Sul lato sinistro del pannello di amministrazione web, vai su **NETWORK** -> **Network Mode**.
 
@@ -12,7 +12,7 @@ La modalita' di rete si riferisce ai diversi ruoli operativi e alle funzioni che
 
     3. **In modalita' Non-Router, le seguenti funzioni non saranno disponibili**: Access Control (Allowlist and Blocklist), AstroWarp, VPN, AdGuard Home, Parental Control, ZeroTier, Tailscale, Port Forwarding, Multi-WAN, DHCP Server, Address Reservation, Guest Network, DNS, Port Management, IPv6, Drop-in Gateway, IGMP Snooping, Network Acceleration, NAT Settings.
 
-## Per i modelli con Wi-Fi
+## Per i modelli con Wi-Fi {#for-models-with-wi-fi}
 
 Fatta eccezione per modelli specifici, la maggior parte dei router wireless GL.iNet dispone della funzionalita' Wi-Fi.
 
@@ -56,7 +56,7 @@ I modelli con funzionalita' Wi-Fi di solito supportano quattro modalita' di rete
 
     Dopo il passaggio alla modalita' WDS, non potrai accedere al pannello di amministrazione web usando l'indirizzo IP LAN originale. Dovrai invece accedere al router a monte per trovare l'indirizzo IP assegnato a questo router WDS e poi usare tale indirizzo IP per accedere al pannello di amministrazione web. Se non hai accesso al router a monte, tieni premuto il pulsante di reset per 4 secondi per riportarlo alla modalita' Router predefinita.
 
-## Per i modelli senza Wi-Fi
+## Per i modelli senza Wi-Fi {#for-models-without-wi-fi}
 
 GL-MT2500/GL-MT2500A non supporta le modalita' Access Point, Extender o WDS, poiche' non dispone della funzionalita' Wi-Fi. Supporta pero' la modalita' Router e la modalita' Bridge.
 

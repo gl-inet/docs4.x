@@ -1,4 +1,4 @@
-# macOS non riesce a scrivere su una condivisione Samba
+# macOS non riesce a scrivere su una condivisione Samba {#macos-cannot-write-to-a-samba-share}
 
 Quando si usa un dispositivo di archiviazione formattato exFAT per una condivisione Samba, alcuni dispositivi macOS possono mostrare uno dei seguenti errori quando provano a scrivere file nella condivisione.
 

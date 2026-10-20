@@ -1,4 +1,4 @@
-# Bloccato su "Installing" durante l'aggiornamento del firmware
+# Bloccato su "Installing" durante l'aggiornamento del firmware {#stuck-on-installing-during-firmware-update}
 
 Se il router rimane bloccato su "Installing" durante un aggiornamento del firmware, segui i passaggi riportati di seguito per risolvere il problema.
 

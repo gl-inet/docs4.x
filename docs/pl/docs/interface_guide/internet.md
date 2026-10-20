@@ -1,10 +1,10 @@
-# Internet
+# Internet {#internet}
 
 Zaloguj się do panelu administracyjnego WWW i przejdź do **INTERNET**.
 
 W górnej połowie strony znajduje się diagram pokazujący stan połączenia z Internetem, a w dolnej połowie wyświetlane są maksymalnie cztery metody dostępu do Internetu, zależnie od modelu.
 
-## Diagram stanu
+## Diagram stanu {#status-diagram}
 
 ![status diagram](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet/status_diagram.png){class="glboxshadow"}
 
@@ -26,7 +26,7 @@ W górnej połowie strony znajduje się diagram pokazujący stan połączenia z 
 - Urządzenia połączone bezprzewodowo są wyświetlane w górnej sekcji, a urządzenia przewodowe w dolnej.
 - Liczby obok każdej sekcji oznaczają liczbę podłączonych urządzeń.
 
-## Metody dostępu do Internetu
+## Metody dostępu do Internetu {#internet-access-methods}
 
 Dostępne są maksymalnie cztery metody dostępu do Internetu. Skorzystaj z odpowiednich poradników poniżej lub zacznij od [kreatora konfiguracji](#setup-wizard).
 

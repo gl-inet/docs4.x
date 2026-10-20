@@ -1,4 +1,4 @@
-# GL.iNetルーターをStarlink Dishに接続する方法
+# GL.iNetルーターをStarlink Dishに接続する方法 {#how-to-connect-a-glinet-router-to-starlink-dish}
 
 GL.iNetルーターをStarlink Dishに接続する必要がある場合は、以下の手順に従ってください。
 

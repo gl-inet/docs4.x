@@ -1,10 +1,10 @@
-# Cómo permitir acceso a la WAN cuando el cliente VPN está habilitado
+# Cómo permitir acceso a la WAN cuando el cliente VPN está habilitado {#how-to-allow-access-to-wan-when-vpn-client-is-enabled}
 
 Cuando el cliente VPN está habilitado en los routers GL.iNet, en el modo global predeterminado los dispositivos LAN no pueden acceder a los dispositivos o servicios de la WAN local, porque todo el tráfico de la LAN se enruta por el túnel VPN en lugar de por su red ascendente (WAN), con el fin de evitar fugas de DNS.
 Este tutorial presenta los pasos para hacer accesibles los servicios de la WAN local, como una impresora, un NAS, etc., a los dispositivos LAN del cliente VPN.
 ![allow access wan diagram](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/allow_access_wan_diagram.jpg){class="glboxshadow gl-90-desktop"}
 
-## Para firmware v4.7 y anteriores
+## Para firmware v4.7 y anteriores {#for-firmware-v47-and-earlier}
 
 Inicie sesión en el panel de administración web de su cliente VPN y vaya a **VPN** -> **VPN Dashboard** -> **VPN Client**. Haga clic en **Global Options** en la esquina superior derecha.
 ![global options](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/4.7-global-options.png){class="glboxshadow"}
@@ -13,7 +13,7 @@ Habilite **Allow Access WAN** y haga clic en **Apply**.
 ![allow access](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/4.7-allow-access-wan.png){class="glboxshadow"}
 Si esta opción está habilitada, mientras la VPN esté conectada los dispositivos cliente seguirán pudiendo acceder a los servicios WAN de la subred superior, como su impresora, NAS, etc.
 
-## Para firmware v4.8 y superior
+## Para firmware v4.8 y superior {#for-firmware-v48-and-higher}
 
 La opción **Allow Access WAN** se ha eliminado del VPN Dashboard en el firmware v4.8. Sin embargo, puede conseguir acceso a la WAN local mediante políticas VPN.
 Siga los pasos que se indican a continuación.

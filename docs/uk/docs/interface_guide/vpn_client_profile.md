@@ -76,7 +76,7 @@ WireGuard® — сучасний, легкий і продуктивний пр�
 
             ![Перехід до панелі керування VPN](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_client_profile/azirevpn5.png){class="glboxshadow"}
 
-        2. Відкриється **VPN Dashboard** для налаштування політики VPN. Докладніше дивіться [тут](vpn_dashboard.md#set-up-vpn-policy).
+        2. Відкриється **VPN Dashboard** для налаштування політики VPN. Докладніше дивіться [тут](vpn_dashboard.md#add-vpn-tunnel).
 
 ## OpenVPN {#openvpn}
 
@@ -90,7 +90,7 @@ OpenVPN — протокол VPN із відкритим вихідним код
 
 ![Ручне додавання профілю OpenVPN](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_client_profile/ovpn_manual.png){class="glboxshadow"}
 
-Якщо ви не знаєте, як завантажити файли конфігурації, дивіться інструкції [тут](openvpn_client.md#get-configuration-files-from-openvpn-service-providers-get-configuration-files-from-openvpn-service-providers) або зверніться до підтримки провайдера.
+Якщо ви не знаєте, як завантажити файли конфігурації, дивіться інструкції [тут](openvpn_client.md#get-configuration-files-from-openvpn-service-providers) або зверніться до підтримки провайдера.
 
 ---
 

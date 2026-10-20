@@ -1,4 +1,4 @@
-# ポートフォワーディング
+# ポートフォワーディング {#port-forwarding}
 
 > このガイドはファームウェア v4.6 以降を対象としています。古いバージョンについては、[Firewall](firewall.md) を参照してください。
 
@@ -8,7 +8,7 @@ Web Admin Panel の左側で、**NETWORK** -> **Port Forwarding**、または (�
 
 注: ルーターでポートを開放する必要がある場合は、SYSTEM -> [Security](security.md)、または SECURITY -> [Admin Access](admin_access.md)（ファームウェア v4.9 以降）に移動してください。
 
-## DMZ
+## DMZ {#dmz}
 
 DMZ を使うと、1 台のコンピューターをインターネットに公開でき、すべての受信パケットがそのコンピューターにリダイレクトされます。
 
@@ -18,7 +18,7 @@ DMZ の優先度を設定できます。DMZ の優先度が Port Forwarding ル�
 
 ![dmz](https://static.gl-inet.com/docs/router/en/4/interface_guide/port_forwarding/dmz.png){class="glboxshadow"}
 
-## ポートフォワーディング
+## ポートフォワーディング {#port-forwarding_1}
 
 Port Forwarding を使うと、リモートコンピューターから LAN 内のルーターのファイアウォール背後にあるローカルコンピューターやサーバー（Web サーバー、FTP サーバーなど）へ接続できます。
 

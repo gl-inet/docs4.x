@@ -1,4 +1,4 @@
-# Jak blokować określone urządzenia klienckie na routerze GL.iNet
+# Jak blokować określone urządzenia klienckie na routerze GL.iNet {#how-to-block-specific-client-devices-on-a-glinet-router}
 
 Ten samouczek pokazuje, jak blokować określone urządzenia klienckie na routerze GL.iNet. Blokując urządzenia klienckie, zapobiegasz nieautoryzowanemu dostępowi do swojej sieci. Pomaga to zwiększyć bezpieczeństwo sieci lub kontrolować dostęp domowników do internetu.
 
@@ -8,11 +8,11 @@ Istnieją dwie metody blokowania urządzeń klienckich na routerze GL.iNet: prze
 
 ## Blokowanie urządzeń klienckich przez panel administracyjny {#block-client-devices-via-the-admin-panel}
 
-### 1. Zaloguj się do panelu administracyjnego
+### 1. Zaloguj się do panelu administracyjnego {#1-sign-in-to-the-admin-panel}
 
 W przeglądarce internetowej wpisz `192.168.8.1`. Wprowadź hasło, a następnie kliknij **Login**. 
 
-### 2. Zablokuj urządzenia klienckie
+### 2. Zablokuj urządzenia klienckie {#2-block-client-devices}
 
 Istnieją dwa sposoby blokowania urządzeń klienckich, w zależności od tego, czy znasz ich adresy MAC:
 

@@ -1,7 +1,7 @@
-# WireGuardサービスプロバイダーから設定ファイルを取得する方法
+# WireGuardサービスプロバイダーから設定ファイルを取得する方法 {#how-to-get-configuration-files-from-wireguard-service-providers}
 
 ??? "AzireVPN"
-    ### AzireVPN
+    ### AzireVPN {#azirevpn}
 
     [公式サイト](https://www.azirevpn.com/aff/9x7wisg4){target="_blank"}
 
@@ -18,7 +18,7 @@
     4. [モバイルアプリ](../faq/mobile_app.md)を使って AzireVPN を設定することもできます。
 
 ??? "Hide.me VPN"
-    ### Hide.me VPN
+    ### Hide.me VPN {#hideme-vpn}
 
     [公式サイト](https://hide.me/?friend=glinet){target="_blank"}
 
@@ -39,7 +39,7 @@
     [参考リンク](https://github.com/eventure/hide.client.routers){target="_blank"}
 
 ??? "Mullvad"
-    ### Mullvad
+    ### Mullvad {#mullvad}
 
     [公式サイト](https://mullvad.net/){target="_blank"}
 
@@ -50,7 +50,7 @@
     3. [モバイルアプリ](../faq/mobile_app.md)を使って Mullvad を設定することもできます。
 
 ??? "PIA (Private Internet Access)"
-    ### PIA (Private Internet Access)
+    ### PIA (Private Internet Access) {#pia-private-internet-access}
 
     [公式サイト](https://privateinternetaccess.com/offer/GLiNET_71dx4t8bl){target="_blank"}
 
@@ -59,7 +59,7 @@
     <iframe width="560" height="315" src="https://www.youtube.com/embed/Fc7NTdQ9QFo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ??? "Surfshark"
-    ### Surfshark
+    ### Surfshark {#surfshark}
 
     [公式サイト](https://get.surfshark.net/aff_c?offer_id=926&aff_id=1400){target="_blank"}
 
@@ -88,7 +88,7 @@
     [参考リンク](https://support.surfshark.com/hc/en-us/articles/6585805139474-How-to-set-up-a-manual-WireGuard-connection-on-Android-){target="_blank"}
 
 ??? "AirVPN"
-    ### AirVPN
+    ### AirVPN {#airvpn}
 
     [公式サイト](https://airvpn.org/?referred_by=402389){target="_blank"}
 
@@ -107,7 +107,7 @@
     4. 次に[このガイド](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers)に従って続行してください。
 
 ??? "Astrill"
-    ### Astrill
+    ### Astrill {#astrill}
 
     [公式サイト](https://www.astrill.com/a/dik2masnw6ig){target="_blank"}
 
@@ -116,7 +116,7 @@
     次に[このガイド](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers)に従って続行してください。
 
 ??? "IVPN"
-    ### IVPN
+    ### IVPN {#ivpn}
 
     [公式サイト](https://www.ivpn.net/){target="_blank"}
 
@@ -127,7 +127,7 @@
     次に[このガイド](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers)に従って続行してください。
 
 ??? "NVPN"
-    ### NVPN
+    ### NVPN {#nvpn}
 
     [公式サイト](https://www.nvpn.net/){target="_blank"}
 
@@ -136,7 +136,7 @@
     次に[このガイド](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers)に従って続行してください。
 
 ??? "OVPN"
-    ### OVPN
+    ### OVPN {#ovpn}
 
     [公式サイト](https://www.ovpn.com/en?ref=glinet){target="_blank"}
 
@@ -159,7 +159,7 @@
     5. [モバイルアプリ](../faq/mobile_app.md)を使って OVPN を設定することもできます。
 
 ??? "PrivateVPN"
-    ### PrivateVPN
+    ### PrivateVPN {#privatevpn}
 
     [公式サイト](https://affiliate.privatevpn.com/scripts/click.php?a_aid=5e3a511658bc3){target="_blank"}
 
@@ -178,7 +178,7 @@
     4. 次に[このガイド](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers)に従って続行してください。
 
 ??? "PrivadoVPN"
-    ### PrivadoVPN
+    ### PrivadoVPN {#privadovpn}
 
     [公式サイト](https://privadovpn.com/#a_aid=GLINET){target="_blank"}
 
@@ -193,7 +193,7 @@
     次に[このガイド](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers)に従って続行してください。
 
 ??? "Proton VPN"
-    ### Proton VPN
+    ### Proton VPN {#proton-vpn}
 
     [公式サイト](https://go.getproton.me/aff_c?offer_id=26&aff_id=1612){target="_blank"}
 
@@ -202,7 +202,7 @@
     次に[このガイド](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers)に従って続行してください。
 
 ??? "PureVPN"
-    ### PureVPN
+    ### PureVPN {#purevpn}
 
     [公式サイト](https://billing.purevpn.com/aff.php?aff=35535){target="_blank"}
 
@@ -231,7 +231,7 @@
     [参考リンク](https://support.purevpn.com/router/how-to-setup-purevpn-on-glinet-router){target="_blank"}
 
 ??? "SpiderVPN"
-    ### SpiderVPN
+    ### SpiderVPN {#spidervpn}
 
     [公式サイト](https://spidervpn.org/#a_aid=5ddfa0372e7ff){target="_blank"}
 
@@ -246,7 +246,7 @@
     3. 次に[このガイド](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers)に従って続行してください。
 
 ??? "StarVPN"
-    ### StarVPN
+    ### StarVPN {#starvpn}
 
     [公式サイト](https://www.starvpn.com/dashboard/aff.php?aff=91){target="_blank"}
 
@@ -278,7 +278,7 @@
     - [AmneziaWG VPN Setup with StarVPN](https://www.starvpn.com/amnezia-vpn-setup-with-starvpn){target="_blank"}
 
 ??? "StrongVPN"
-    ### StrongVPN
+    ### StrongVPN {#strongvpn}
 
     [公式サイト](https://strongvpn.com/?tr_aid=5ac44bd241ca7){target="_blank"}
 
@@ -293,7 +293,7 @@
     4. [モバイルアプリ](../faq/mobile_app.md)を使って StrongVPN を設定することもできます。
 
 ??? "TRUST.ZONE"
-    ### TRUST.ZONE
+    ### TRUST.ZONE {#trustzone}
 
     [公式サイト](https://trustzonevpn.info/r.php?RID=B-byr1v-MDAxNzE3NjgxMjM4){target="_blank"}
 
@@ -304,7 +304,7 @@
     3. 次に[このガイド](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers)に従って続行してください。
 
 ??? "VPN.AC"
-    ### VPN.AC
+    ### VPN.AC {#vpnac}
 
     [公式サイト](https://vpn.ac/aff.php?aff=1424){target="_blank"}
 
@@ -319,7 +319,7 @@
     3. 次に[このガイド](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers)に従って続行してください。
 
 ??? "VPN Unlimited(KeepSolid)"
-    ### VPN Unlimited(KeepSolid)
+    ### VPN Unlimited(KeepSolid) {#vpn-unlimitedkeepsolid}
 
     [公式サイト](https://keepsolid.g2afse.com/click?pid=270&offer_id=7){target="_blank"}
 
@@ -358,7 +358,7 @@
     [参考リンク 2](https://www.vpnunlimited.com/help/manuals/wireguard/windows){target="_blank"}
 
 ??? "Windscribe"
-    ### Windscribe
+    ### Windscribe {#windscribe}
 
     [公式サイト](https://windscribe.com/yo/1u2h9ndl){target="_blank"}
 
@@ -371,7 +371,7 @@
     3. [このガイド](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers)に従って続行してください。
 
 ??? "X-VPN"
-    ### X-VPN
+    ### X-VPN {#x-vpn}
 
     [公式サイト](https://xvpn.io/go?aff_id=nk5bu995){target="_blank"}
 
@@ -398,7 +398,7 @@
     次に[このガイド](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers)に従って続行してください。
 
 ??? "12VPX"
-    ### 12VPX
+    ### 12VPX {#12vpx}
 
     [公式サイト](https://12vpx.com/?aff=1174){target="_blank"}
 

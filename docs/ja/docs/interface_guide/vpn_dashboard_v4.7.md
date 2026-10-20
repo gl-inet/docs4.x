@@ -1,4 +1,4 @@
-# VPN Dashboard (Firmware v4.7 and earlier)
+# VPN Dashboard (Firmware v4.7 and earlier) {#vpn-dashboard-firmware-v47-and-earlier}
 
 このページの内容は、ファームウェア v4.7.x 以前に基づいています。デバイスで別のファームウェアバージョンを使用している場合は、以下のセレクターで該当するガイドに切り替えてください。
 
@@ -28,7 +28,7 @@ VPN Dashboard ページでは、サーバーアドレス、トラフィック統
 
 ![configuration files](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/vpnclient_config.png){class="glboxshadow"}
 
-### クライアントオプション
+### クライアントオプション {#client-options}
 
 右側の歯車アイコンをクリックすると、OpenVPN または WireGuard のクライアントオプションを開けます。
 
@@ -52,7 +52,7 @@ WireGuard Client Options は次のように表示されます。
 
 - **MTU**: Maximum Transmission Unit の略です。このオプション設定ではVPNトンネルの MTU をカスタマイズでき、設定ファイル内で定義された値を上書きします。
 
-### プロキシモード
+### プロキシモード {#proxy-mode}
 
 VPN接続の既定のプロキシモードは **Global Proxy** です。右上のボックスをクリックすると、別のプロキシモードへ切り替えられます。
 
@@ -90,7 +90,7 @@ VPN接続の既定のプロキシモードは **Global Proxy** です。右上�
 
         各VPNクライアントインスタンスごとに、ルーティングルールを手動で設定できます。
 
-### グローバルオプション
+### グローバルオプション {#global-options}
 
 右上の **Global Options** をクリックすると、VPNクライアントの詳細設定を行えます。
 
@@ -134,7 +134,7 @@ OpenVPN Server または WireGuard Server を有効にすると、ページに�
 
 ![vpn server enabled](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/vpnserver_connected.png){class="glboxshadow"}
 
-### サーバーオプション
+### サーバーオプション {#server-options}
 
 右側の歯車アイコンをクリックすると、OpenVPN または WireGuard のサーバーオプションを開けます。
 
@@ -156,7 +156,7 @@ WireGuard Server Options は次のように表示されます。
 
 * **Client to Client**: 有効にすると、このサーバーに接続したVPNクライアント同士が、それぞれのVPNトンネルIP経由で相互にアクセスできます。クライアントから互いのLANサブネットにもアクセスできるようにするには、VPNサーバーにルーティングルールを追加し、それらのリモートLANサブネットを通知する必要があります。
 
-### サーバールートルール
+### サーバールートルール {#server-route-rule}
 
 右側のルートアイコンをクリックすると、必要に応じて OpenVPN または WireGuard のルートルールをカスタマイズできます。
 
@@ -172,7 +172,7 @@ WireGuard Server Route Rule は次のように表示されます。**Add Route R
 
 **Note**: カスタムルートモードでは、VPNクライアントは設定ファイルおよびサーバーから配布されたルーティング設定を無視します。任意のネットワークセグメントへアクセスする際にVPN暗号化トンネルを使用するかどうかは、手動で設定したルートルールによって決まります。
 
-### グローバルオプション
+### グローバルオプション {#global-options_1}
 
 右上の **Global Options** をクリックすると、VPNサーバーの詳細設定を行えます。
 

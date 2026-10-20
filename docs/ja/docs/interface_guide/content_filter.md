@@ -1,4 +1,4 @@
-# コンテンツフィルター
+# コンテンツフィルター {#content-filter}
 
 **注**: この機能はファームウェア v4.9 で導入されました。
 
@@ -51,7 +51,7 @@ Mango 2 (GL-MG1300) など一部のモデルは、メモリ不足のため、フ
     - GL-AP1300 (Cirrus)
     - GL-S1300 (Convexa-S)
 
-## クイックセットアップ
+## クイックセットアップ {#quick-setup}
 
 Web Admin Panel の左側で、**FLOW CONTROL** -> **Content Filter** に移動します。
 
@@ -85,7 +85,7 @@ Web Admin Panel の左側で、**FLOW CONTROL** -> **Content Filter** に移動�
 
     ![domain ip list](https://static.gl-inet.com/docs/router/en/4/interface_guide/content_filter/blocked_domain_ip.jpg){class="glboxshadow"}
 
-## コンテンツフィルターのテスト
+## コンテンツフィルターのテスト {#content-filter-test}
 
 たとえば、ここでは **Game** カテゴリを選択しており、その中には Nintendo が含まれています。
 

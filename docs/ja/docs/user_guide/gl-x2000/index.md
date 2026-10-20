@@ -1,12 +1,12 @@
-# Spitz Plus (GL-X2000) ユーザーガイド
+# Spitz Plus (GL-X2000) ユーザーガイド {#spitz-plus-gl-x2000-user-guide}
 
-## 製品概要
+## 製品概要 {#product-overview}
 
 Spitz Plus (GL-X2000) は、特に遠隔地域やロードトリップで高速で信頼性の高い接続を提供するように設計された dual-SIM 4G LTE Wi-Fi 6 cellular gatewayです。3-Carrier Aggregation機能を搭載し、ルーターは3つのキャリアバンドで同時にデータをストリーミングし、3倍の利用可能帯域幅を提供して輻輳を回避します。4つのインターネットアクセス方法（Cellular（SIMカード）、Ethernet、Repeater、Tethering）をサポートしています。Multi-WAN（フェイルオーバーとロードバランシング）、VPN（OpenVPNとWireGuard）、ペアレンタルコントロール、AdGuard Home、ポート転送、Tailscaleなどをサポートします。
 
 ![gl-x2000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/hardware_info/x2000_interface.jpg){class="glboxshadow"}
 
-## パッケージコンテンツ
+## パッケージコンテンツ {#package-contents}
 
 パッケージ内のアダプターは発送国によって異なることに注意してください。
 
@@ -24,7 +24,7 @@ Spitz Plus (GL-X2000) は、特に遠隔地域やロードトリップで高速�
 
 ![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/first_time_setup/x2000_package.png){class="glboxshadow"}
 
-## LEDインジケーター
+## LEDインジケーター {#led-indicators}
 
 以下に、各イベントでのLEDの状態を示します。各LEDのすべての状態については、[GL-X2000 LEDインジケーターの状態](../../faq/led.md#gl-x2000){target="_blank"}を参照してください。
 
@@ -36,7 +36,7 @@ Spitz Plus (GL-X2000) は、特に遠隔地域やロードトリップで高速�
 | ネットワークリセット（resetを5秒間押す） | 1秒ごとに点滅 | 緑 | 緑 | 緑 | 緑 |
 | 工場出荷時リセット（resetを10秒間押す） | 0.25秒ごとに高速点滅 | 緑 | 緑 | 緑 | 緑 |
 
-## Spitz Plusの設定方法
+## Spitz Plusの設定方法 {#how-to-set-up-spitz-plus}
 
 Spitz Plusを設定するには、4つのサポートされているインターネット接続方法（Cellular（SIMが必要）、Ethernet、Repeater、Tethering）のいずれかを使用します。以下の設定動画を見るか、手順に従ってください。
 
@@ -51,11 +51,11 @@ Spitz Plusを設定するには、4つのサポートされているインター
     2. ルーターの電源をオフにします。
     3. SIMカードをSIMカードスロットに挿入します。（**注意：** 一度にアクティブなSIMカードは1枚のみです。もう1枚のSIMカード機能はバックアップとしてのみ機能します。）
 
-### 1. Spitz Plusの電源を入れる
+### 1. Spitz Plusの電源を入れる {#1-power-on}
 
 2つの電源アダプターを組み合わせます。ルーターに接続してコンセントに差し込みます。自動的に起動します。
 
-### 2. Spitz Plusに接続
+### 2. Spitz Plusに接続 {#2-connect-device}
 
 Wi-FiまたはEthernetを使用して、デバイス（コンピュータ、ラップトップ、スマートフォンなど）をルーターに接続します。
 
@@ -69,11 +69,11 @@ Wi-FiまたはEthernetを使用して、デバイス（コンピュータ、ラ�
 
     デバイスで利用可能なネットワークリストでルーターWi-Fiネットワーク名を見つけ、パスワードを入力してネットワークに参加します。デフォルトのネットワーク名とパスワードはルーターラベルに印刷されています。
 
-### 3. WebGUIにログイン
+### 3. WebGUIにログイン {#3-log-in-to-web-admin-panel}
 
 Webブラウザを起動し、アドレスバーに`192.168.8.1`を入力すると、GL.iNet Web管理パネルに入ります。言語を選択して管理者パスワードを設定し、**Apply**をクリックします。
 
-### 4. Spitz Plusをインターネットに接続
+### 4. Spitz Plusをインターネットに接続 {#4-internet-setup}
 
 **注意：** 以下の説明は、GL.iNet Web管理パネルを通じてルーターを設定するユーザーに適用されます。GL.iNetアプリより喜欢場合は、[アプリをダウンロード](https://www.gl-inet.com/app/){target="_blank"}して画面上の説明に従ってください。
 
@@ -131,19 +131,19 @@ Webブラウザを起動し、アドレスバーに`192.168.8.1`を入力する�
 
 以下は、Spitz Plus WebGUI機能の概要です。
 
-## Wi-Fi
+## Wi-Fi {#wireless}
 
 Wirelessページでは、5 GHzと2.4 GHz Wi-Fiネットワークの両方の設定を設定できます。Wi-Fiの有効化/無効化、TX功率の設定、Wi-Fi名（SSID）の指定、BSSIDの无線化の有効化、Wi-Fiセキュリティモードの選択、Wi-Fiパスワードの設定、SSID可视性の設定、Wi-Fiモード、帯域幅、チャネルの選択が含まれます。
 
 Wirelessの設定については、[Wireless](../../interface_guide/wireless.md)を参照してください。
 
-## クライアント
+## クライアント {#clients}
 
 Clientsページでは、接続されたデバイスについての情報を表示します。各クライアントごとに、デバイス名、接続タイプ（EthernetまたはWi-Fi経由）、IPとMACアドレス、ダウンロードとアップロード速度、合計トラフィックが表示され、IPの予約、クライアントのブロックやその他のアクションを実行できます。
 
 Clientsの設定については、[Clients](../../interface_guide/clients.md)を参照してください。
 
-## クラウドサービス
+## クラウドサービス {#cloud-services}
 
 === "GoodCloud"
 
@@ -159,7 +159,7 @@ Clientsの設定については、[Clients](../../interface_guide/clients.md)を
 
     **注意**：AstroWarpを使用するには、Spitz Plusをファームウェアv4.8で上にアップグレードしてください。
 
-## VPN
+## VPN {#vpn}
 
 VPN（仮想プライベートネットワーク）は、デバイスとVPNサーバー間の安全で暗号化されたトラフィックを作成します。プライバシーとセキュリティのレイヤーを追加し（VPNクライアント）、リモートネットワークへのアクセスを可能にします（VPNサーバー）。Spitz PlusはOpenVPNとWireGuardをサポートしています。
 
@@ -177,7 +177,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
     * [WireGuardクライアントの設定方法](https://docs.gl-inet.com/router/en/4/interface_guide/wireguard_client/)
     * [WireGuardサーバーの設定方法](https://docs.gl-inet.com/router/en/4/interface_guide/wireguard_server/)
 
-## アプリケーション
+## アプリケーション {#applications}
 
 === "プラグイン"
 
@@ -225,7 +225,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/hyHh8pAxgVw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## ネットワーク
+## ネットワーク {#network}
 
 === "ポート転送"
 
@@ -301,7 +301,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
     NAT設定については、[NAT設定](../../interface_guide/nat_settings.md)を参照してください。
 
-## システム
+## システム {#system}
 
 === "概要"
 

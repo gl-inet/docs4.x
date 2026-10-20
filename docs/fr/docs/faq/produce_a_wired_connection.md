@@ -1,4 +1,4 @@
-# Comment connecter au Wi-Fi un appareil ne disposant que d'un port Ethernet avec un routeur GL.iNet ?
+# Comment connecter au Wi-Fi un appareil ne disposant que d'un port Ethernet avec un routeur GL.iNet ? {#how-to-connect-an-ethernet-only-device-to-wi-fi-with-a-glinet-router}
 
 Si votre appareil prend uniquement en charge une connexion Ethernet mais doit se connecter à un réseau sans fil, un routeur GL.iNet peut combler ce besoin.
 

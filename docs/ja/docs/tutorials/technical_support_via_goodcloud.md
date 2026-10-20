@@ -1,8 +1,8 @@
-# GoodCloud経由で技術サポートを受ける
+# GoodCloud経由で技術サポートを受ける {#technical-support-via-goodcloud}
 
 GL.iNetから技術サポートを受けるために、GoodCloud経由でデバイスを共有する必要がある場合があります。このガイドでは、GL.iNet技術サポートへデバイスを共有する方法を紹介します。
 
-## GoodCloudとリモートアクセスを有効にする
+## GoodCloudとリモートアクセスを有効にする {#enable-goodcloud-and-remote-access}
 
 GL.iNet技術サポートへデバイスを共有する前に、安定性のためにルーターに追加のインターネット接続があることを確認してください。Ethernet 接続または Repeater 接続をフェイルオーバー用バックアップとして設定し、正常に動作することを確認してください。
 
@@ -42,7 +42,7 @@ GoodCloud とリモートアクセスを有効にするには、デバイスの�
 
     ![enable GoodCloud 4.6](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/enable_goodcloud_v4.6.x.png){class="glboxshadow"}
 
-## Cloudアカウントにログインしてデバイスを紐付ける
+## Cloudアカウントにログインしてデバイスを紐付ける {#log-in-cloud-account-and-bind-device}
 
 ルーターがファームウェア v4.7 以降で動作している場合は、ルーターのWeb管理パネルでアカウントを登録して直接ログインできます。ログインすると、現在のデバイスは自動的にCloudアカウントへ紐付けられます。
 
@@ -52,7 +52,7 @@ GoodCloud とリモートアクセスを有効にするには、デバイスの�
 
 2. デバイスをGoodCloudにバインドします。[デバイスをクラウドにバインドする方法](../interface_guide/cloud.md#bind-devices-to-cloud)を参照してください。
 
-## GL.iNet技術サポートとデバイスを共有する
+## GL.iNet技術サポートとデバイスを共有する {#share-device-with-glinet-technical-support}
 
 1. [GoodCloud](https://www.goodcloud.xyz){target="_blank"} にアクセスしてログインします。
 
@@ -74,7 +74,7 @@ GoodCloud とリモートアクセスを有効にするには、デバイスの�
 
 2. パスワード保護のため、デバイスをGL.iNet Supportと共有する前に、Web管理パネルのログインパスワードを一時的なものへ変更することを推奨します。トラブルシューティング完了後に元のパスワードへ戻せます。
 
-## GL.iNet技術サポートへ情報を提供する
+## GL.iNet技術サポートへ情報を提供する {#provide-information-to-glinet-technical-support}
 
 デバイス共有後、リモートトラブルシューティングのために、ルーターの **MAC address** と **admin password** を、担当のGL.iNet技術サポートスタッフへメールまたはフォーラムPMで送ってください。
 

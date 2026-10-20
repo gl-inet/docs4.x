@@ -1,4 +1,4 @@
-# VPN Dashboard
+# VPN Dashboard {#vpn-dashboard}
 
 Le contenu de cette page est basé sur la version de firmware v4.9.x et versions ultérieures. Si votre appareil utilise une autre version de firmware, utilisez le sélecteur ci-dessous pour passer au guide correspondant.
 
@@ -21,9 +21,9 @@ Par rapport au firmware v4.8, la version v4.9 apporte les améliorations suivant
 
 2. **Chaque groupe de tunnels fonctionne indépendamment et n’effectue pas de basculement entre groupes**. Si tous les profils d’un même tunnel ne parviennent pas à se connecter, le système déterminera s’il doit basculer vers le WAN local selon l’état du Tunnel Kill Switch et du tunnel All Other Traffic.
 
-## Premiers pas
+## Premiers pas {#getting-started}
 
-### Importer un profil VPN
+### Importer un profil VPN {#upload-vpn-profile}
 
 Lors de votre première visite sur cette page, si aucun tunnel n’a encore été créé, la page s’affichera comme ci-dessous. Cliquez sur **Add VPN Tunnel** pour commencer.
 
@@ -49,7 +49,7 @@ Cliquez ensuite sur **Go to Dashboard** en bas de la page. Vous serez redirigé 
 
 ![PureVPN3](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/purevpn3.png){class="glboxshadow"}
 
-### Configurer la politique VPN
+### Configurer la politique VPN {#general-steps}
 
 !!! note "Qu’est-ce qu’une politique VPN ?"
 
@@ -99,7 +99,7 @@ Dans le tableau de bord VPN, suivez l’assistant de configuration pour définir
     ![exclude specified domain ip](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/exclude_specified_domain_ip.png){class="glboxshadow"}
 
 
-### Kill Switch
+### Kill Switch {#kill-switch}
 
 !!! note "Qu’est-ce que le Kill Switch ?"
 
@@ -115,11 +115,11 @@ Depuis le firmware v4.8, les routeurs GL.iNet prennent en charge la configuratio
 
 - Pour configurer le Kill Switch de la connexion VPN globale (c’est-à-dire **Enhanced Kill Switch**), consultez [cette section](#all-other-traffic).
 
-## Scénarios d’utilisation
+## Scénarios d’utilisation {#usage-scenarios}
 
 Voici deux scénarios avec instructions de configuration pas à pas à titre de référence.
 
-### Scénario 1
+### Scénario 1 {#scenario-1}
 
 **Objectifs** :
 
@@ -175,7 +175,7 @@ Voici deux scénarios avec instructions de configuration pas à pas à titre de 
 
     Désormais, seuls les deux appareils spécifiés accèdent à Internet via le VPN. Si le VPN se déconnecte de manière inattendue, l’accès Internet de ces appareils sera bloqué afin d’éviter les fuites DNS et le suivi IP. Tous les autres appareils accéderont à Internet via le WAN local.
 
-### Scénario 2
+### Scénario 2 {#scenario-2}
 
 **Objectifs** :
 
@@ -281,7 +281,7 @@ Cette politique contrôle si le trafic qui ne correspond à aucun de vos groupes
 
     ![enhanced killswitch](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/enhanced_killswitch.png){class="glboxshadow"}
 
-## Priorité du tunnel
+## Priorité du tunnel {#tunnel-priority}
 
 Pour ajuster la priorité des tunnels, cliquez sur l’icône d’engrenage d’un groupe de tunnels, puis sélectionnez **Priority**.
 
@@ -310,7 +310,7 @@ Cliquez sur l’icône à trois lignes à droite et maintenez-la pour réorganis
 
     - **Enhanced Kill Switch** : force tous les appareils à accéder à Internet via un VPN. Tout trafic ne correspondant pas à un tunnel VPN sera bloqué. Ce paramètre global ne remplace pas le Kill Switch configuré pour chaque tunnel VPN individuellement. En bref, il renforce le Kill Switch et bloque l’accès Internet classique afin d’éviter les fuites d’IP.
 
-## Options du tunnel
+## Options du tunnel {#tunnel-options}
 
 Vous pouvez configurer des paramètres avancés pour chaque tunnel VPN, tels que le Kill Switch VPN, le masquage IP et le MTU.
 

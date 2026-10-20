@@ -1,4 +1,4 @@
-# Configurar el servidor OpenVPN en routers GL.iNet
+# Configurar el servidor OpenVPN en routers GL.iNet {#set-up-openvpn-server-on-glinet-routers}
 
 OpenVPN es un protocolo VPN de código abierto que utiliza técnicas de red privada virtual para establecer conexiones seguras de sitio a sitio o de punto a punto.
 
@@ -6,7 +6,7 @@ Para configurar el servidor OpenVPN en un router GL.iNet, vea este vídeo o siga
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GSbytyaqOY0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Asegúrese de tener una dirección IP pública
+## Asegúrese de tener una dirección IP pública {#make-sure-you-have-a-public-ip-address}
 
 Haga clic [aquí](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md) para comprobar si su proveedor de servicios de Internet le asigna una dirección IP pública.
 
@@ -18,13 +18,13 @@ Métodos alternativos:
 2. Solicite a su ISP una dirección IP pública. Esto puede implicar un coste adicional.
 3. Si los dos métodos anteriores no funcionan, por ejemplo, si su red está detrás de CGNAT, puede probar nuestra solución SD-WAN [AstroWarp](../interface_guide/astrowarp.md){target="_blank"}.
 
-## Confirme si es necesario configurar el reenvío de puertos
+## Confirme si es necesario configurar el reenvío de puertos {#confirm-if-port-forwarding-is-required}
 
 **Topología de red**
 
 ??? "GL.iNet es el router principal"
 
-    * Si el router GL.iNet es el router principal de su red, no es necesario configurar el reenvío de puertos. Pase al [siguiente paso](#configurar-el-servidor-openvpn).
+    * Si el router GL.iNet es el router principal de su red, no es necesario configurar el reenvío de puertos. Pase al [siguiente paso](#set-up-openvpn-server).
 
 ??? "GL.iNet es el router secundario"
 
@@ -32,7 +32,7 @@ Métodos alternativos:
 
     * Si ya hay un router principal en uso y el router GL.iNet está varios niveles por debajo del router principal, configure el [reenvío de puertos](../tutorials/how_to_set_up_port_forwarding.md) en cada nivel intermedio.
 
-## Configurar el servidor OpenVPN
+## Configurar el servidor OpenVPN {#set-up-openvpn-server}
 
 Inicie sesión en el panel de administración web y vaya a **VPN** -> **OpenVPN Server**.
 
@@ -49,7 +49,7 @@ Inicie sesión en el panel de administración web y vaya a **VPN** -> **OpenVPN 
    Si ha modificado la configuración, haga clic en **Apply** antes de exportar la configuración del cliente.
 
    ![openvpn server configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/ovpnserver_configuration.png){class="glboxshadow"}
-   - **Device Mode:** TAP-S2S o Tun. Haga clic [aquí](../tutorials/how_to_enable_openvpn_tap_s2s_mode_on_glinet_routers.md#tap-s2s-frente-a-modo-tun) para consultar las diferencias.
+   - **Device Mode:** TAP-S2S o Tun. Haga clic [aquí](../tutorials/how_to_enable_openvpn_tap_s2s_mode_on_glinet_routers.md#tap-s2s-vs-tun-mode) para consultar las diferencias.
 
    - **Protocol:** UDP o TCP. Haga clic [aquí](../faq/openvpn_tcp_udp.md) para consultar las diferencias.
 
@@ -85,9 +85,9 @@ Inicie sesión en el panel de administración web y vaya a **VPN** -> **OpenVPN 
 
    ![start openvpn server](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/start_ovpnserver.png){class="glboxshadow"}
 
-## Compruebe si el servidor OpenVPN funciona correctamente
+## Compruebe si el servidor OpenVPN funciona correctamente {#check-if-openvpn-server-is-working-properly}
 
-### Verifique el estado del servidor
+### Verifique el estado del servidor {#verify-server-status}
 
 Desde el firmware v4.8, puede consultar el estado de conexión del servidor en la página **OpenVPN Server**.
 
@@ -99,7 +99,7 @@ En el firmware v4.7 y versiones anteriores, consulte el estado de conexión del 
 
 ![openvpn server connected v4.7](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/openserverup.jpg){class="glboxshadow"}
 
-### Verifique la IP del cliente
+### Verifique la IP del cliente {#verify-clients-ip}
 
 Para verificar que la conexión al servidor se haya realizado correctamente, importe la configuración de OpenVPN exportada anteriormente en un dispositivo de otra red, es decir, que no esté en la misma red local que el servidor. Luego abra un navegador web y busque su dirección IP y ubicación. Si coinciden con la IP y la ubicación del servidor VPN, en lugar de las de su proveedor de servicios de Internet, la conexión VPN se ha realizado correctamente.
 
@@ -111,12 +111,12 @@ Al importar el archivo de configuración en la aplicación OpenVPN, puede aparec
 
 Si la conexión falla, estas son algunas causas habituales:
 
-- Su proveedor de servicios de Internet no le asigna una dirección IP pública. Consúltelo [aquí](#asegurese-de-tener-una-direccion-ip-publica).
-- Puede que necesite configurar el reenvío de puertos. Consúltelo [aquí](#confirme-si-es-necesario-configurar-el-reenvio-de-puertos).
+- Su proveedor de servicios de Internet no le asigna una dirección IP pública. Consúltelo [aquí](#make-sure-you-have-a-public-ip-address).
+- Puede que necesite configurar el reenvío de puertos. Consúltelo [aquí](#confirm-if-port-forwarding-is-required).
 - El puerto utilizado por el servidor OpenVPN está bloqueado por su proveedor de servicios de Internet. Cámbielo por otro puerto o póngase en contacto con el proveedor para obtener más ayuda.
 - En algunos países o regiones, la conexión VPN puede estar bloqueada.
 
-## Opciones del servidor
+## Opciones del servidor {#server-options}
 
 Las opciones del servidor incluyen ajustes avanzados del lado del servidor, como el acceso remoto a la LAN del servidor y el enmascaramiento de IP. Configure estos ajustes según sus necesidades.
 
@@ -138,7 +138,7 @@ En la ventana emergente aparecen las siguientes funciones.
 
 - **MTU**: Abreviatura de Maximum Transmission Unit. El valor MTU establecido para el túnel anula los ajustes MTU del archivo de configuración.
 
-## Client to Client
+## Client to Client {#client-to-client}
 
 Client to Client es una función VPN del lado del servidor. Cuando se activa, los clientes VPN conectados pueden comunicarse entre sí mediante sus respectivas direcciones IP del túnel VPN.
 
@@ -158,7 +158,7 @@ Si es necesario, siga estos pasos para activar Client to Client en el servidor O
 
 **Consejo**: Client to Client solo anuncia la dirección IP del túnel de cada cliente. No expone automáticamente las subredes LAN locales situadas detrás de cada cliente VPN. Si necesita que los clientes accedan a las subredes LAN de los demás, añada reglas de enrutamiento en el servidor VPN para anunciar esas subredes LAN remotas.
 
-## Instalar la OpenVPN App
+## Instalar la OpenVPN App {#openvpn-app-install}
 
 Descargue la OpenVPN App desde el [sitio web oficial de OpenVPN](https://openvpn.net/vpn-client/){target="_blank"}.
 

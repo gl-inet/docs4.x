@@ -1,10 +1,10 @@
-# Comment faire passer tout le trafic par le VPN ?
+# Comment faire passer tout le trafic par le VPN ? {#how-to-let-all-data-go-through-vpn}
 
 Si vous souhaitez que tout le trafic réseau du routeur soit acheminé via le VPN et que toutes les connexions Internet soient bloquées en cas de défaillance du VPN, suivez les étapes ci-dessous pour activer le **VPN Kill Switch**.
 
 **Remarque** : configurez d'abord le client VPN sur votre routeur GL.iNet avant d'activer le **VPN Kill Switch**.
 
-## Pour le firmware v4.7 ou antérieur
+## Pour le firmware v4.7 ou antérieur {#for-firmware-v47-or-earlier}
 
 Connectez-vous au panneau d'administration Web de votre routeur, accédez à **VPN** -> **VPN Dashboard** -> section **VPN Client**, puis cliquez sur **Global Options**.
 
@@ -16,7 +16,7 @@ Activez **Block Non-VPN Traffic** (également appelé Kill Switch dans certaines
 
 **Remarque :** lorsque **Block Non-VPN Traffic** / Kill Switch est activé et que votre VPN est désactivé ou déconnecté, tous les appareils connectés au routeur ne pourront plus accéder à Internet afin d'éviter les fuites DNS.
 
-## Pour le firmware v4.8 ou version ultérieure
+## Pour le firmware v4.8 ou version ultérieure {#for-firmware-v48-or-later}
 
 Dans le firmware v4.8, le **VPN Kill Switch** a été divisé en deux modes.
 
@@ -24,7 +24,7 @@ Dans le firmware v4.8, le **VPN Kill Switch** a été divisé en deux modes.
 
 - **Enhanced Kill Switch (in Policy Mode)** : il est désactivé par défaut afin que tout le trafic non couvert par les tunnels VPN et les stratégies ci-dessus puisse toujours accéder à Internet. En d'autres termes, il maintient un accès Internet normal pour le trafic hors VPN.
 
-### Tunnel Kill Switch
+### Tunnel Kill Switch {#tunnel-kill-switch}
 
 Dans le panneau d'administration Web du routeur, accédez à **VPN** -> **VPN Dashboard**.
 
@@ -44,7 +44,7 @@ Le Kill Switch de ce tunnel est activé par défaut.
 
 ![tunnel options 2](https://static.gl-inet.com/docs/router/en/4/faq/block_non_vpn_traffic/4.8-global-mode-options2.png){class="glboxshadow"}
 
-### Enhanced Kill Switch
+### Enhanced Kill Switch {#enhanced-kill-switch}
 
 Cette fonction est disponible en **Policy Mode**.
 

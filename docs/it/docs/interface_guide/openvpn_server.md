@@ -1,4 +1,4 @@
-# Configurare OpenVPN Server sui router GL.iNet
+# Configurare OpenVPN Server sui router GL.iNet {#set-up-openvpn-server-on-glinet-routers}
 
 OpenVPN e' un protocollo VPN open-source che usa tecniche di rete privata virtuale per stabilire connessioni sicure site-to-site o point-to-point.
 
@@ -50,7 +50,7 @@ Accedi al pannello di amministrazione web e vai su **VPN** -> **OpenVPN Server**
 
     ![openvpnserver configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/ovpnserver_configuration.png){class="glboxshadow"}
 
-    * **Device Mode:** TAP-S2S oppure Tun. Fai clic [qui](../tutorials/how_to_enable_openvpn_tap_s2s_mode_on_glinet_routers.md#modalita-tap-s2s-vs-tun) per vedere le differenze.
+    * **Device Mode:** TAP-S2S oppure Tun. Fai clic [qui](../tutorials/how_to_enable_openvpn_tap_s2s_mode_on_glinet_routers.md#tap-s2s-vs-tun-mode) per vedere le differenze.
 
     * **Protocol:** UDP oppure TCP. Fai clic [qui](../faq/openvpn_tcp_udp.md) per vedere le differenze.
 
@@ -88,9 +88,9 @@ Accedi al pannello di amministrazione web e vai su **VPN** -> **OpenVPN Server**
 
     ![start openvpn server](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/start_ovpnserver.png){class="glboxshadow"}
 
-## Verificare se OpenVPN Server funziona correttamente
+## Verificare se OpenVPN Server funziona correttamente {#check-if-openvpn-server-is-working-properly}
 
-### Verificare lo stato del server
+### Verificare lo stato del server {#verify-server-status}
 
 Dal firmware v4.8 puoi controllare lo stato della connessione server nella pagina **OpenVPN Server**.
 
@@ -102,7 +102,7 @@ Per il firmware v4.7 e precedenti, controlla lo stato della connessione server n
 
 ![openvpn server connected v4.7](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/openserverup.jpg){class="glboxshadow"}
 
-### Verificare l'IP del client
+### Verificare l'IP del client {#verify-clients-ip}
 
 Per verificare che la connessione al server sia riuscita: importa la configurazione OpenVPN precedentemente esportata su un dispositivo che si trovi in una rete diversa, non la stessa rete locale del server. Poi apri un browser web e cerca il tuo indirizzo IP e la tua posizione. Se corrispondono all'IP del server VPN, anziche' a quello del provider Internet, e alla sua posizione, allora la connessione VPN e' riuscita.
 
@@ -119,7 +119,7 @@ Se la connessione non riesce, esistono diverse cause comuni:
 * La porta usata per OpenVPN Server e' bloccata dal tuo provider Internet. Cambia porta oppure contatta il provider per ulteriore assistenza.
 * Alcuni paesi o regioni potrebbero bloccare la connessione VPN.
 
-## Opzioni del server
+## Opzioni del server {#server-options}
 
 Le opzioni del server includono impostazioni avanzate lato server, quali l'accesso remoto alla LAN del server e il mascheramento IP. Configurarle in base alle proprie esigenze.
 
@@ -141,7 +141,7 @@ Nella finestra popup sono disponibili le funzioni seguenti.
 
 - **MTU**: abbreviazione di Maximum Transmission Unit. Il valore MTU impostato per il tunnel sostituisce l'impostazione MTU contenuta nel file di configurazione.
 
-## Client to Client
+## Client to Client {#client-to-client}
 
 Client to Client è una funzione VPN lato server. Quando è abilitata, i client VPN connessi possono comunicare tra loro utilizzando i rispettivi indirizzi IP del tunnel VPN.
 
@@ -161,7 +161,7 @@ Se necessario, procedere come segue per abilitare Client to Client sul server Op
 
 **Suggerimento**: Client to Client pubblicizza esclusivamente l'indirizzo IP del tunnel di ciascun client. Non rende automaticamente accessibili le sottoreti LAN locali dietro ogni client VPN. Per consentire ai client di accedere alle sottoreti LAN reciproche, aggiungere sul server VPN regole di instradamento che pubblicizzino tali sottoreti LAN remote.
 
-## Installazione dell'app OpenVPN
+## Installazione dell'app OpenVPN {#openvpn-app-install}
 
 Scarica l'app OpenVPN dal [sito ufficiale OpenVPN](https://openvpn.net/vpn-client/){target="_blank"}.
 

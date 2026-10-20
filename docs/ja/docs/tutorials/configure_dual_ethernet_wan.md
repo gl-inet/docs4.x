@@ -1,14 +1,14 @@
-# Ethernet to USB-Aアダプター経由でデュアル有線Ethernet WANを設定する方法
+# Ethernet to USB-Aアダプター経由でデュアル有線Ethernet WANを設定する方法 {#configure-dual-wired-ethernet-wan-via-an-ethernet-to-usb-a-adapter}
 
 Ethernet to USB-A アダプターを使用すると、WAN ポートが1つしかないルーターでも、デュアル有線Ethernet WANアクセスを構成できます。
 
 GL.iNetルーターは一般的な Ethernet to USB-A アダプターをサポートしています。これにより、ISPルーターからの有線Ethernet接続を、ルーターの USB ポート経由で USB 接続に変換でき、WAN ポートに加えて追加の有線Ethernetアクセスを利用できます。
 
-## トポロジー
+## トポロジー {#topology}
 
 ![Topology](https://static.gl-inet.com/docs/router/en/4/tutorials/multiwan_wire/adaptor.png){class="glboxshadow"}
 
-## セットアップ手順
+## セットアップ手順 {#setup-steps}
 
 1. Ethernet to USB-A アダプターを GL.iNetルーターの USB ポートに差し込み、もう一方を ISPルーターに接続します。
 

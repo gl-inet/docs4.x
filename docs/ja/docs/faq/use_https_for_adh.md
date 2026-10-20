@@ -1,8 +1,8 @@
-# HTTPS経由でGL.iNetルーターとAdGuard Homeにアクセスする
+# HTTPS経由でGL.iNetルーターとAdGuard Homeにアクセスする {#access-glinet-router-and-adguard-home-via-https}
 
 HTTPSを使用してGL.iNetルーターとAdGuard Homeにアクセスしたい場合は、以下の手順に従ってください。
 
-## 1. GL.iNetルーターで証明書とキーをアップデートする
+## 1. GL.iNetルーターで証明書とキーをアップデートする {#1-update-certificate-and-key-in-glinet-router}
 
 最初に、SSL証明書を申請するか、から身署名SSL証明書を入手してください。
 
@@ -12,7 +12,7 @@ HTTPSを使用してGL.iNetルーターとAdGuard Homeにアクセスしたい�
 
 `/etc/nginx/nginx.key`
 
-## 2. AdGuard Homeを有効にする
+## 2. AdGuard Homeを有効にする {#2-enable-adguard-home}
 
 GL.iNetウェブ管理パネルにログイン -> **アプリケーション** -> **AdGuard Home**で、AdGuard Homeを有効にします。
 
@@ -22,7 +22,7 @@ GL.iNetウェブ管理パネルにログイン -> **アプリケーション** -
 
 ![gosettings](https://static.gl-inet.com/docs/router/en/4/faq/SSL/gosettings.jpg){class="glboxshadow"}
 
-## 3. 暗号化設定を編集する
+## 3. 暗号化設定を編集する {#3-edit-encryption-settings}
 
 AdGuard Home設定ページで、**設定** -> **暗号化設定**に移動します。
 

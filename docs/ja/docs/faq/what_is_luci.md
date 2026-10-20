@@ -1,4 +1,4 @@
-# LuCIとは？
+# LuCIとは？ {#what-is-luci}
 
 LuCIはOpenWrtのウェブユーザーインターフェースで、高度な設定を行うことができます。
 

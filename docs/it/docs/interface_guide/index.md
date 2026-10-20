@@ -4,11 +4,11 @@ hide:
   - toc
 ---
 
-# Guida all'interfaccia
+# Guida all'interfaccia {#interface-guide}
 
 Scopri come usare i nostri dispositivi e le funzioni aggiuntive con le nostre guide passo dopo passo.
 
-## Connessione Internet
+## Connessione Internet {#internet-connection}
 
 * [La pagina Internet](internet.md)
 * [Come connettersi a Internet tramite cavo Ethernet](internet_ethernet.md)
@@ -17,26 +17,26 @@ Scopri come usare i nostri dispositivi e le funzioni aggiuntive con le nostre gu
 * [Come connettersi a Internet tramite rete cellulare](internet_cellular_v4.10.md)
 * [Dual-Ethernet WAN](ethernet_port.md#dual-ethernet-wan)
 
-## Wireless
+## Wireless {#wireless}
 
 * [Wireless](wireless.md)
 
-## Mesh
+## Mesh {#mesh}
 
 * [Mesh](mesh.md)
 
-## Client
+## Client {#clients}
 
 * [Client](clients.md)
 
-## Servizi cloud
+## Servizi cloud {#cloud-services}
 
 * [Account GL.iNet](glinet_account.md)
 * [GoodCloud](cloud.md) - il servizio cloud ufficiale.
 * [GoodPAS](goodpas.md)
 * [AstroWarp](astrowarp.md)
 
-## VPN
+## VPN {#vpn}
 
 * [VPN Dashboard](vpn_dashboard.md)
 * [Profilo client VPN](vpn_client_profile.md)
@@ -54,7 +54,7 @@ Scopri come usare i nostri dispositivi e le funzioni aggiuntive con le nostre gu
 * [VPN Kill Switch](../faq/block_non_vpn_traffic.md)
 * [VPN Cascading](../tutorials/how_to_use_vpn_cascading_on_glinet_routers.md)
 
-## Applicazioni
+## Applicazioni {#applications}
 
 * [Plug-in](plugins.md)
 * [DDNS](ddns.md) - per superare i problemi legati agli indirizzi IP dinamici.
@@ -67,7 +67,7 @@ Scopri come usare i nostri dispositivi e le funzioni aggiuntive con le nostre gu
 * [Tor](tor.md) - per proteggere la privacy personale.
 * [Gestione eSIM](esim_management.md)
 
-## Rete
+## Rete {#network}
 
 * [Firewall](firewall.md)
 * [Port Forwarding](port_forwarding.md)
@@ -87,7 +87,7 @@ Scopri come usare i nostri dispositivi e le funzioni aggiuntive con le nostre gu
 * [Network Acceleration](network_acceleration.md)
 * [NAT Settings](nat_settings.md)
 
-## Controllo del traffico
+## Controllo del traffico {#flow-control}
 
 * [Qualità della rete](network_quality.md)
 * [DPI Engine](dpi_engine.md)
@@ -97,7 +97,7 @@ Scopri come usare i nostri dispositivi e le funzioni aggiuntive con le nostre gu
 * [SQM (Smart Queue Management)](sqm.md)
 * [Controllo genitori (v4.9)](parental_control_v4.9.md)
 
-## Sicurezza
+## Sicurezza {#security}
 
 * [Scansione di sicurezza](security_scan.md)
 * [Port Forwarding](port_forwarding.md)
@@ -105,7 +105,7 @@ Scopri come usare i nostri dispositivi e le funzioni aggiuntive con le nostre gu
 * [Accesso amministratore](admin_access.md)
 * [Modalita' NAT](nat_settings.md)
 
-## Sistema
+## Sistema {#system}
 
 * [Lingue dell'interfaccia](ui_languages.md)
 * [Panoramica del sistema](system_overview.md) - mostra alcuni stati hardware e informazioni di sistema.

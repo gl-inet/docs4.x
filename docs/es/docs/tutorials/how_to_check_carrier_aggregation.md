@@ -1,4 +1,4 @@
-# Cómo comprobar el estado de agregación de portadoras en su router celular
+# Cómo comprobar el estado de agregación de portadoras en su router celular {#how-to-check-the-carrier-aggregation-status-on-your-cellular-router}
 
 La agregación de portadoras combina varias bandas de red para proporcionar mayor ancho de banda y velocidades más rápidas en su conexión celular.
 Esta función no puede habilitarse desde el panel de administración web del router, ya que depende de que su operador SIM la admita.

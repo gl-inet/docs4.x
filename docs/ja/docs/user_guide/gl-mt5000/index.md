@@ -1,12 +1,12 @@
-# Brume 3 (GL-MT5000) ユーザーガイド
+# Brume 3 (GL-MT5000) ユーザーガイド {#brume-3-gl-mt5000-user-guide}
 
-## 製品概要
+## 製品概要 {#product-overview}
 
 Brume 3 (GL-MT5000) は、OpenWrt v21.02を実行する高パフォーマンスセキュリティゲートウェイです。MediaTekクアッドコア Cortex-A53 CPU、1GB RAM、8GB eMMCストレージ（プラグイン拡張用）を備えています。コンパクトなデザインで、スペースが限られた展開に最も適でホームVPNホスティング、site-to-site SD-WAN、30以上のVPNサービスをサポートし、安全でクロスロケーション接続を実現します。さらに、GL.iNetのDPI機能、Parental Control、AdGuard Homeが含まれており、テクユーザーとビジネスユーザーの多様なニーズに対応しています。
 
 ![gl-mt5000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt5000/hardware_info/mt5000_interface.png){class="glboxshadow"}
 
-## パッケージコンテンツ
+## パッケージコンテンツ {#package-contents}
 
 パッケージには以下が含まれます：
 
@@ -23,23 +23,23 @@ Brume 3の開栓動画については、以下を参照してください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PupxjK_u8O8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Brume 3の設定方法
+## Brume 3の設定方法 {#how-to-set-up-brume-3}
 
-### 1. 電源を入れる
+### 1. 電源を入れる {#1-power-on}
 
 二分割の電源アダプターを組み合わせます。Brume 3に接続し、コンセントに挿すと自動的に起動します。
 
-### 2. Brume 3に接続する
+### 2. Brume 3に接続する {#2-connect-device}
 
 Ethernet cableを使用して有線デバイス（コンピュータやラップトップなど）をBrume 3のLANポートに接続します。
 
-### 3. WebGUIにログインする
+### 3. WebGUIにログインする {#3-log-in-to-web-admin-panel}
 
 **注意:** 以下の説明は、GL.iNet Web管理パネルでルーターを設定するユーザーに適用されます。
 
 Webブラウザーでアドレスバーに`192.168.8.1`を入力してログインします。言語を選択し、管理者パスワードを設定して、**Apply**をクリックします。
 
-### 4. Brume 3をインターネットに接続する
+### 4. Brume 3をインターネットに接続する {#4-internet-setup}
 
 サポートされているインターネット接続方法（Ethernet、Tethering、Cellular（オプション））を使用してBrume 3を設定します。[Multi-WAN](../../interface_guide/multi-wan.md)機能を使用する場合は、複数のインターネット接続を設定してください。
 
@@ -75,13 +75,13 @@ Webブラウザーでアドレスバーに`192.168.8.1`を入力してログイ�
 
     詳細な手順については、[Cellularでインターネットに接続する](../../interface_guide/internet_cellular.md)を参照してください。
 
-## Clients
+## Clients {#clients}
 
 Clients ページには、接続中のデバイスに関する情報が表示されます。各クライアントについて、名前、IPアドレス、MACアドレス、ダウンロード速度、アップロード速度、合計トラフィックを確認でき、クライアントをブロックしたり、その他の操作を実行したりできます。
 
 Clientsの設定については、[Clients](../../interface_guide/clients.md)を参照してください。
 
-## クラウドサービス
+## クラウドサービス {#cloud-services}
 
 === "GoodCloud"
 
@@ -95,7 +95,7 @@ Clientsの設定については、[Clients](../../interface_guide/clients.md)を
 
     AstroWarpの設定については、[AstroWarp](../../interface_guide/astrowarp.md)を参照してください。
 
-## VPN
+## VPN {#vpn}
 
 VPN（仮想プライベートネットワーク）は、デバイスとVPNサーバー間の安全で暗号化されたトラフィックを作成します。VPNクライアントとしてプライバシーとセキュリティの追加レイヤーを提供し、VPNサーバーとしてリモートネットワークにアクセスできます。Brume 3はOpenVPNとWireGuardをサポートしています。
 
@@ -113,7 +113,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
     * [WireGuardクライアントの設定方法](../../interface_guide/wireguard_client.md)
     * [WireGuardサーバーの設定方法](../../interface_guide/wireguard_server.md)
 
-## ネットワーク
+## ネットワーク {#network}
 
 === "Multi-WAN"
 
@@ -176,7 +176,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
     ネットワークアクセラレーションの設定については、[Network Acceleration](../../interface_guide/network_acceleration.md)を参照してください。
 
-## フロー制御
+## フロー制御 {#flow-control}
 
 === "DPI Engine"
 
@@ -218,7 +218,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
     詳細な手順については、[SQM](../../interface_guide/sqm.md)を参照してください。
 
-## セキュリティ
+## セキュリティ {#security}
 
 === "Port Forwarding"
 
@@ -244,7 +244,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
     NAT設定については、[NAT Mode](../../interface_guide/nat_settings.md)を参照してください。
 
-## アプリケーション
+## アプリケーション {#applications}
 
 === "Plug-ins"
 
@@ -290,7 +290,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
     * [Torの設定方法](../../interface_guide/tor.md)
 
-## システム
+## システム {#system}
 
 === "Overview"
 

@@ -1,4 +1,4 @@
-# Connettersi a Internet tramite una rete Wi-Fi esistente con Repeater
+# Connettersi a Internet tramite una rete Wi-Fi esistente con Repeater {#connect-to-the-internet-via-an-existing-wi-fi-by-repeater}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7mZtz8u8--E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -6,7 +6,7 @@ Usare Repeater significa collegare il router a un'altra rete wireless esistente,
 
 Per impostazione predefinita funziona in modalita' WISP, Wireless Internet Service Provider, il che significa che il router creera' la propria subnet e agira' come firewall per proteggerti dalla rete pubblica.
 
-## Passaggi di base
+## Passaggi di base {#basic-steps}
 
 Accedi al pannello di amministrazione web del router, vai alla sezione **INTERNET** -> **Repeater** e fai clic su **Connect**.
 
@@ -38,7 +38,7 @@ Dopo un po', se la password e' corretta, la connessione avra' successo.
 
 ![repeater connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/repeater_connected.png){class="glboxshadow"}
 
-## Per hotspot pubblici
+## Per hotspot pubblici {#for-public-hotspot}
 
 Quando colleghi il router a un hotspot pubblico con captive portal, abilitare le seguenti funzioni puo' aiutare a migliorare il tasso di successo della connessione.
 
@@ -74,7 +74,7 @@ Quando colleghi il router a un hotspot pubblico con captive portal, abilitare le
 
 - **Auto Update MAC**: se questa opzione e' abilitata, il MAC puo' aggiornarsi automaticamente.
 
-## Impostazioni avanzate
+## Impostazioni avanzate {#advanced-settings}
 
 Quando ti unisci alla rete, sono disponibili alcune opzioni aggiuntive.
 
@@ -96,7 +96,7 @@ Quando ti unisci alla rete, sono disponibili alcune opzioni aggiuntive.
 
 * **MTU**: il valore predefinito e' 1500.
 
-## Opzioni Repeater
+## Opzioni Repeater {#repeater-options}
 
 Fai clic sull'icona a forma di ingranaggio nell'angolo superiore destro per configurare le opzioni del ripetitore.
 
@@ -110,7 +110,7 @@ La pagina può variare in base alla versione del firmware.
 
 * **Band Selection**: se selezioni manualmente una banda, il router eseguira' la scansione e si connettera' solo alle reti Wi-Fi in quella banda di frequenza.
 
-## Gestire le reti note
+## Gestire le reti note {#manage-known-network}
 
 Per gestire le reti note, fai clic su **Switch Network**.
 
@@ -124,7 +124,7 @@ Nella sezione **Known Networks**, fai clic sull'icona del cestino per eliminare 
 
 ![manage known network](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/manage_known_networks.png){class="glboxshadow"}
 
-## Unirsi a un'altra rete
+## Unirsi a un'altra rete {#join-other-network}
 
 Se l'SSID non e' presente nell'elenco Available Networks oppure se l'SSID e' nascosto, puoi fare clic su **Join Other Network**.
 
@@ -144,7 +144,7 @@ Per le impostazioni **Security**, sono disponibili due o tre opzioni, a seconda 
 
     Per indicazioni dettagliate sulla ripetizione di reti EAP, fai clic [qui](../tutorials/eap.md){target="_blank"}.
 
-## Riconnessione
+## Riconnessione {#reconnection}
 
 Nei seguenti casi, il router tentera' automaticamente di riconnettersi al Wi-Fi di tanto in tanto. Se necessario, puoi disabilitare manualmente questa funzione. In caso di errori SSID/password, rimuovi la rete da Known Networks per risolvere.
 
@@ -164,7 +164,7 @@ Il processo di riconnessione ha tre fasi distinte: fase di attesa, fase di scans
 
 **Nota**: in genere i problemi si verificano nelle fasi di scansione e connessione.
 
-## Risoluzione dei problemi
+## Risoluzione dei problemi {#troubleshooting}
 
 Quando il router e' collegato a una rete Wi-Fi come repeater, se Internet non e' disponibile, verra' mostrato un messaggio giallo come illustrato di seguito.
 
@@ -178,7 +178,7 @@ Per risolvere il problema:
 
 2. Vai alla pagina [Multi-WAN](multi-wan.md) per controllare lo stato dell'interfaccia repeater.
 
-## DFS
+## DFS {#dfs}
 
 Quando ti colleghi a una rete Wi-Fi 5G a monte, il Wi-Fi del router seguira' la rete Wi-Fi a monte nel usare o non usare il canale DFS.
 

@@ -1,8 +1,8 @@
-# Come instradare le query DNS del client VPN verso il DNS upstream del server VPN?
+# Come instradare le query DNS del client VPN verso il DNS upstream del server VPN? {#how-to-route-vpn-client-dns-queries-to-the-vpn-servers-upstream-dns}
 
 Questo tutorial illustra i passaggi per reindirizzare tutte le query DNS dei client VPN verso il tuo server DNS self-hosted presente sul lato LAN del router principale, a monte del server VPN.
 
-## Topologia
+## Topologia {#topology}
 
 In questo tutorial utilizziamo **Flint 3 (GL-BE9300)** e **Slate 7 (GL-BE3600)** come esempi.
 
@@ -16,7 +16,7 @@ Tuttavia, se hai distribuito un server DNS self-hosted, con indirizzo IP `192.16
 
 ![topology 2](https://static.gl-inet.com/docs/router/en/4/tutorials/route_vpn_dns_to_server_upstream_dns/topology-2.jpg){class="glboxshadow"}
 
-## Configurazione
+## Configurazione {#setup}
 
 1. Accedi al pannello di amministrazione web di Flint 3 e vai su **NETWORK** -> **DNS**. Imposta DNS Server Mode su **Manual DNS** e inserisci l'indirizzo IP del tuo server DNS.
 
@@ -50,7 +50,7 @@ Tuttavia, se hai distribuito un server DNS self-hosted, con indirizzo IP `192.16
 
     ![start client](https://static.gl-inet.com/docs/router/en/4/tutorials/route_vpn_dns_to_server_upstream_dns/start_client.png){class="glboxshadow"}
 
-## Verificare la risoluzione DNS
+## Verificare la risoluzione DNS {#verify-dns-resolution}
 
 Esegui il seguente comando per catturare il traffico DNS sul client VPN. Vedrai che tutto il traffico DNS del client VPN viene inviato al server VPN, cioe `10.0.0.1` in questo esempio.
 

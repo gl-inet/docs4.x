@@ -1,6 +1,6 @@
-# Slate 7 (GL-BE3600) ユーザーガイド
+# Slate 7 (GL-BE3600) ユーザーガイド {#slate-7-gl-be3600-user-guide}
 
-## 製品概要
+## 製品概要 {#product-overview}
 
 Slate 7 (GL-BE3600) は、GL.iNet初のWi-Fi 7対応デュアルバンドトラベルルーターです。Multi-Link Operation や 4K QAM などの先進的な Wi-Fi 7 技術を搭載し、理論値で 688Mbps（2.4GHz）+ 2882Mbps（5GHz）の通信速度を実現します。8Kストリーミングやモバイルゲームにも対応し、タッチスクリーンでネットワーク状態の確認や基本操作を直感的に行えます。
 
@@ -8,7 +8,7 @@ Slate 7 (GL-BE3600) は、GL.iNet初のWi-Fi 7対応デュアルバンドトラ�
 
 ![gl-be3600 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/hardware_info/be3600_interface.jpg){class="glboxshadow"}
 
-## パッケージコンテンツ
+## パッケージコンテンツ {#package-contents}
 
 パッケージには以下が含まれます：
 
@@ -26,7 +26,7 @@ Slate 7 の開封動画は以下をご覧ください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bEuwGm0hQ5k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## タッチスクリーン
+## タッチスクリーン {#touchscreen}
 
 | 画面表示 | 説明 |
 | :--- | :--- |
@@ -43,18 +43,18 @@ Slate 7 の開封動画は以下をご覧ください。
 | ![unlock](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/slide-to-unlock.png){width="400"} | 画面をタップして点灯し、左から右へスライドしてロックを解除します |
 | ![reboot](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/slide-to-reboot.png){width="400"} | 「Reboot」をクリックした後、左から右へスライドして確認します |
 
-## Slate 7の設定方法
+## Slate 7の設定方法 {#how-to-set-up-slate-7}
 
 Slate 7の設定には、Ethernet、Repeater、Tethering、Cellularの4つのインターネット接続方法が使えます。設定動画を見るか、以下の手順に従ってください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YMHQK8wSQGM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <small>(この動画では、Slate 7 を Repeater として設定する方法を紹介しています。その他のインターネット接続方法で設定する場合は、以下の手順を参照してください。)</small>
 
-### 1. Slate 7の電源を入れる
+### 1. Slate 7の電源を入れる {#1-power-on}
 
 二分割の電源アダプターを組み合わせます。ルーターに接続し、コンセントに挿すと自動的に起動します。
 
-### 2. Slate 7に接続する
+### 2. Slate 7に接続する {#2-connect-device}
 
 Wi-FiまたはEthernetを使用してデバイス（コンピュータ、ラップトップ、スマートフォンなど）をルーターに接続します。
 
@@ -66,11 +66,11 @@ Wi-FiまたはEthernetを使用してデバイス（コンピュータ、ラッ�
 
     デバイスで、利用可能なネットワークリストからルーターのWi-Fiネットワーク名を見つけ、パスワードを入力してネットワークに参加します。デフォルトのネットワーク名とパスワードはルーターのラベルに印刷されています。
 
-### 3. WebGUIにログインする
+### 3. WebGUIにログインする {#3-log-in-to-web-admin-panel}
 
 Webブラウザーでアドレスバーに`192.168.8.1`を入力してログインします。言語を選択し、管理者パスワードを設定して、**Apply**をクリックします。
 
-### 4. Slate 7をインターネットに接続する
+### 4. Slate 7をインターネットに接続する {#4-internet-setup}
 
 **注意:** 以下の説明は、GL.iNet Web管理パネルでルーターを設定するユーザーに適用されます。GL.iNetアプリを使用する場合は、[アプリをダウンロード](https://www.gl-inet.com/app/){target="_blank"}して画面の説明に従ってください。
 
@@ -124,7 +124,7 @@ Webブラウザーでアドレスバーに`192.168.8.1`を入力してログイ�
 
 以下は Slate 7 WebGUI の主な機能の概要です。
 
-## Wireless
+## Wireless {#wireless}
 
 Wirelessページでは、5 GHzと2.4 GHz Wi-Fiネットワークの設定を構成できます。Wi-Fiの有効化、TX電力の設定、Wi-Fi名（SSID）の指定、ランダムBSSIDの有効化、Wi-Fiセキュリティモードとパスワードの選択、SSID可視性の設定、Wi-Fiモード、帯域幅、チャネルの選択が含まれます。
 
@@ -132,13 +132,13 @@ Wirelessページでは、5 GHzと2.4 GHz Wi-Fiネットワークの設定を構
 
 Wirelessの設定については、[Wireless](../../interface_guide/wireless.md)を参照してください。
 
-## Clients
+## Clients {#clients}
 
 Clients ページには、接続中のデバイスに関する情報が表示されます。各クライアントについて、名前、IPアドレス、MACアドレス、ダウンロード速度、アップロード速度、合計トラフィックを確認でき、クライアントをブロックしたり、その他の操作を実行したりできます。
 
 Clientsの設定については、[Clients](../../interface_guide/clients.md)を参照してください。
 
-## クラウドサービス
+## クラウドサービス {#cloud-services}
 
 === "GoodCloud"
 
@@ -152,7 +152,7 @@ Clientsの設定については、[Clients](../../interface_guide/clients.md)を
     
     AstroWarpの設定については、[AstroWarp](../../interface_guide/astrowarp.md)を参照してください。
 
-## VPN
+## VPN {#vpn}
 
 VPN（仮想プライベートネットワーク）は、デバイスとVPNサーバー間の安全で暗号化されたトラフィックを作成します。VPNクライアントとしてプライバシーとセキュリティの追加レイヤーを提供し、VPNサーバーとしてリモートネットワークにアクセスできます。Slate 7はOpenVPN、WireGuard、Torをサポートしています。
 
@@ -176,7 +176,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
     
     * [Torの設定方法](../../interface_guide/tor.md)
 
-## アプリケーション
+## アプリケーション {#applications}
 
 === "Plug-ins"
 
@@ -222,7 +222,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
     
     Tailscale の設定については、[Tailscale](../../interface_guide/tailscale.md)を参照してください。
 
-## ネットワーク
+## ネットワーク {#network}
 
 === "Port forwarding"
 
@@ -305,7 +305,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
     NAT設定については、[NAT Settings](../../interface_guide/nat_settings.md)を参照してください。
 
-## システム
+## システム {#system}
 
 === "Overview"
 

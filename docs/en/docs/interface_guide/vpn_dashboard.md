@@ -1,4 +1,4 @@
-# VPN Dashboard
+# VPN Dashboard {#vpn-dashboard}
 
 The content on this page is based on firmware version v4.9.x and above. If your device is running a different firmware version, use the selector below to switch to the corresponding guide.
 
@@ -21,7 +21,7 @@ Compared to firmware v4.8, v4.9 includes the following improvements to the VPN D
 
 2. **Each tunnel group operates independently and does not perform failover between groups**. If all profiles in a single tunnel fail to connect, the system will determine whether to switch to the local WAN based on the status of the Tunnel Kill Switch and the All Other Traffic tunnel.
 
-## Upload VPN Profile
+## Upload VPN Profile {#upload-vpn-profile}
 
 When entering this page for the first time, if no tunnels have been created, the page appears as follows. Click **Add VPN Tunnel** to get started.
 
@@ -49,9 +49,9 @@ You will obtain a list of VPN profiles. For some VPN service providers, you may 
 
 Click **Go to Dashboard** at the bottom. You will be directed to the VPN Dashboard to add your VPN tunnel and configure VPN policies.
 
-## Add VPN Tunnel
+## Add VPN Tunnel {#add-vpn-tunnel}
 
-### General Steps
+### General Steps {#general-steps}
 
 Follow the steps below to add your VPN tunnel and configure VPN policies. See [Case Reference](#case-reference) if necessary.
 
@@ -100,7 +100,7 @@ Follow the steps below to add your VPN tunnel and configure VPN policies. See [C
 
     For security, please go to [All Other Traffic](#all-other-traffic) and [Tunnel Options](#tunnel-options) to check **Kill Switch** status before enabling your VPN tunnel.
 
-### Case Reference
+### Case Reference {#case-reference}
 
 Here are two typical VPN policy configuration cases with step-by-step setup instructions for your reference.
 
@@ -246,7 +246,7 @@ Here are two typical VPN policy configuration cases with step-by-step setup inst
 
         Now, all devices will use **VPN Tunnel 1** when accessing specified domains, and use **VPN Tunnel 2** for all other Internet access. If the VPN tunnels disconnect unexpectedly, Internet access for all devices will be blocked to prevent DNS leaks and IP tracking.
 
-## Kill Switch
+## Kill Switch {#kill-switch}
 
 !!! Tip "What is Kill Switch?"
 
@@ -262,7 +262,7 @@ Since firmware v4.8, GL.iNet routers supports Kill Switch configuration for the 
 
 - To set up Kill Switch for each individual VPN tunnel, refer to [Tunnel Options](#tunnel-options).
 
-## All Other Traffic
+## All Other Traffic {#all-other-traffic}
 
 Click the gear icon at the upper right to set up policy for those traffic not matching VPN tunnel.
 
@@ -278,7 +278,7 @@ This policy controls whether traffic that does not match any of your VPN tunnel 
 
     ![enhanced killswitch](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/enhanced_killswitch.png){class="glboxshadow"}
 
-## Tunnel Options
+## Tunnel Options {#tunnel-options}
 
 You can configure advanced settings for each VPN tunnel, such as the VPN Kill Switch, IP Masquerading, and MTU.
 
@@ -298,7 +298,7 @@ Click the gear icon in a tunnel group, and select **Options**.
 
 - **MTU**: The MTU value you set for the tunnel will override the MTU settings in the configuration file.
 
-## Tunnel Priority
+## Tunnel Priority {#tunnel-priority}
 
 To adjust tunnel priority, click the gear icon in a tunnel group and select **Priority**.
 

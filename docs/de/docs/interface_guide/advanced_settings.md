@@ -1,4 +1,4 @@
-# Erweiterte Einstellungen
+# Erweiterte Einstellungen {#advanced-settings}
 
 Gehen Sie auf der linken Seite des Web-Admin-Panels zu **SYSTEM** -> **Advanced Settings**.
 

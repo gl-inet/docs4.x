@@ -1,4 +1,4 @@
-# Fuseau horaire
+# Fuseau horaire {#time-zone}
 
 Dans la partie gauche du panneau d'administration web, accédez à **SYSTEM** -> **Time Zone**.
 

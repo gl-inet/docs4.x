@@ -44,7 +44,7 @@ Use this workflow when syncing English changes into localized docs, especially w
 4. Translate only the changed English portions. Do not retranslate whole pages unless the English page is new or the localized page is unusable and the user agrees.
 5. Work by topic or small batches for large change sets, for example eSIM, VPN, antennas, or interface pages. Avoid one huge patch across unrelated topics.
 6. Update `.translation-cache.json` for every English source file whose localized targets were synced. Set the current English source hash and refresh the touched target language metadata.
-7. Before finishing, inspect diffs for unrelated translation churn, accidental mixed-language fragments, broken anchors, malformed Markdown, and missing matching localized files.
+7. Before finishing, inspect diffs for unrelated translation churn, accidental mixed-language fragments, malformed Markdown, and missing matching localized files, and run `python scripts/anchors.py check` for heading IDs and anchor links.
 8. If you notice an obvious issue in the English source while syncing, such as a typo, duplicated word, self-contradictory sentence, clearly broken link, or visible copy/paste error, do not silently ignore it. Fix it only when the user requested source fixes or the correction is clearly in scope; otherwise mention it in the final summary with the file path and suggested correction.
 
 ## Single-File Translation Workflow

@@ -1,14 +1,14 @@
-# So richten Sie ein Gast-WLAN auf GL.iNet-Routern ein
+# So richten Sie ein Gast-WLAN auf GL.iNet-Routern ein {#how-to-set-up-a-guest-wi-fi-network-on-glinet-routers}
 
 In diesem Tutorial wird gezeigt, wie Sie auf GL.iNet-Routern ein Gast-WLAN einrichten.
 
 Ein Gast-WLAN ist ein separates Netzwerk auf einem Router für Geräte, die Sie von Ihren Hauptgeräten isolieren möchten. Dazu gehören Gastgeräte und Ihre Smart-Home-Geräte. Durch das Erstellen eines Gastnetzwerks können Sie unbefugten Zugriff auf Ihr primäres Netzwerk sowie potenzielle Angriffe darauf verhindern und so Ihre Netzwerksicherheit erhöhen.
 
-Es gibt zwei Methoden, mit denen Sie auf Ihrem GL.iNet-Router ein Gast-WLAN einrichten können: über das [Router-Admin-Panel](#ein-gastnetzwerk-uber-das-admin-panel-einrichten) oder über die [GL.iNet Mobile App](#ein-gastnetzwerk-uber-die-glinet-mobile-app-einrichten).
+Es gibt zwei Methoden, mit denen Sie auf Ihrem GL.iNet-Router ein Gast-WLAN einrichten können: über das [Router-Admin-Panel](#set-up-a-guest-network-via-the-admin-panel) oder über die [GL.iNet Mobile App](#set-up-a-guest-network-via-the-glinet-mobile-app).
 
-## Ein Gastnetzwerk über das Admin-Panel einrichten
+## Ein Gastnetzwerk über das Admin-Panel einrichten {#set-up-a-guest-network-via-the-admin-panel}
 
-### 1. Das Gast-WLAN aktivieren
+### 1. Das Gast-WLAN aktivieren {#1-enable-the-guest-wi-fi-network}
 
 1. Geben Sie in einem Webbrowser `192.168.8.1` ein.
 2. Geben Sie Ihr Passwort ein und klicken Sie dann auf **Login**.
@@ -18,7 +18,7 @@ Es gibt zwei Methoden, mit denen Sie auf Ihrem GL.iNet-Router ein Gast-WLAN einr
 ![click guest](https://static.gl-inet.com/docs/router/de/4/tutorials/how_to_set_up_a_guest_network/click-guest-wifi.jpeg){class="glboxshadow"}
 5. Schalten Sie den Schalter neben **Enable Wi-Fi** ein.
 
-### 2. Ein neues Passwort für das Gast-WLAN festlegen
+### 2. Ein neues Passwort für das Gast-WLAN festlegen {#2-set-a-new-guest-wi-fi-network-password}
 
 Zu Ihrer Sicherheit wird empfohlen, ein neues Passwort für Ihr Gast-WLAN festzulegen. Gehen Sie wie folgt vor:
 
@@ -29,18 +29,18 @@ Zu Ihrer Sicherheit wird empfohlen, ein neues Passwort für Ihr Gast-WLAN festzu
 
 Sie haben nun ein Gast-WLAN eingerichtet. Um Ihre Geräte damit zu verbinden, suchen Sie den Namen des Gastnetzwerks in der Liste der verfügbaren Netzwerke und geben Sie das Passwort ein.
 
-## Ein Gastnetzwerk über die GL.iNet Mobile App einrichten
+## Ein Gastnetzwerk über die GL.iNet Mobile App einrichten {#set-up-a-guest-network-via-the-glinet-mobile-app}
 
 **Hinweis:** Bevor Sie beginnen, installieren und konfigurieren Sie die GL.iNet Mobile App auf Ihrem Gerät.
 
-### 1. Das Gast-WLAN aktivieren
+### 1. Das Gast-WLAN aktivieren {#1-enable-the-guest-wi-fi-network_1}
 
 1. Tippen Sie auf dem Hauptbildschirm der App auf die Registerkarte **Network** > **Wireless**.
 2. Suchen Sie **Guest Network**.
 3. Schalten Sie bei dem Netzwerk, für das Sie ein Gast-WLAN einrichten möchten, den Schalter ein.
 ![toggle the switch](https://static.gl-inet.com/docs/router/de/4/tutorials/how_to_set_up_a_guest_network/toggle-on-guest-network.jpeg){class="glboxshadow"}
 
-### 2. Ein neues Passwort für das Gast-WLAN festlegen
+### 2. Ein neues Passwort für das Gast-WLAN festlegen {#2-set-a-new-guest-wi-fi-network-password_1}
 
 Zu Ihrer Sicherheit wird empfohlen, ein neues Passwort für Ihr Gast-WLAN festzulegen. Gehen Sie wie folgt vor:
 

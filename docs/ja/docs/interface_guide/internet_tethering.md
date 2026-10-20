@@ -1,10 +1,10 @@
-# USBテザリングでインターネットに接続する
+# USBテザリングでインターネットに接続する {#connect-to-the-internet-via-usb-tethering}
 
 USB ケーブルを使ってスマートフォンのネットワークをルーターと共有する方法をテザリングと呼びます。Host-less モデムも、セットアップ時にはテザリングとして動作します。
 
 **注意:** 一部の通信事業者では、テザリングに制限を設けたり追加料金を請求したりする場合があります。事前に通信事業者へご確認ください。
 
-## セットアップ
+## セットアップ {#setup}
 
 === "iPhone"
 
@@ -68,7 +68,7 @@ USB ケーブルを使ってスマートフォンのネットワークをルー�
 
     Android の公式ドキュメントについては、[Share a mobile connection by hotspot or tethering on Android](https://support.google.com/android/answer/9059108?hl=en#zippy=%2Ctether-by-usb-cable){target="_blank"} を参照してください。
 
-## 警告
+## 警告 {#warning}
 
 インターネットに接続できない場合は、次の警告が表示されます。
 
@@ -80,7 +80,7 @@ USB ケーブルを使ってスマートフォンのネットワークをルー�
 
 2. [Multi-WAN](multi-wan.md) ページで、インターネットへアクセスできるかどうかを確認します。
 
-## トラブルシューティング
+## トラブルシューティング {#troubleshooting}
 
 接続に失敗する場合は、次をお試しください。
 

@@ -4,11 +4,11 @@ hide:
   - toc
 ---
 
-# インターフェースガイド
+# インターフェースガイド {#interface-guide}
 
 ステップごとのガイドで、デバイスやアドオン機能の使い方を学べます。
 
-## インターネット接続
+## インターネット接続 {#internet-connection}
 
 * [インターネットページ](internet.md)
 * [イーサネットケーブルでインターネットに接続する方法](internet_ethernet.md)
@@ -17,26 +17,26 @@ hide:
 * [セルラーでインターネットに接続する方法](internet_cellular_v4.10.md)
 * [デュアルイーサネットWAN](ethernet_port.md#dual-ethernet-wan)
 
-## ワイヤレス
+## ワイヤレス {#wireless}
 
 * [ワイヤレス](wireless.md)
 
-## Mesh
+## Mesh {#mesh}
 
 * [Mesh](mesh.md)
 
-## クライアント
+## クライアント {#clients}
 
 * [クライアント](clients.md)
 
-## クラウドサービス
+## クラウドサービス {#cloud-services}
 
 * [GL.iNetアカウント](glinet_account.md)
 * [GoodCloud](cloud.md) - 公式クラウドサービスです。
 * [GoodPAS](goodpas.md)
 * [AstroWarp](astrowarp.md)
 
-## VPN
+## VPN {#vpn}
 
 * [VPNダッシュボード](vpn_dashboard.md)
 * [VPNクライアントプロフィール](vpn_client_profile.md)
@@ -54,7 +54,7 @@ hide:
 * [VPNキルスイッチ](../faq/block_non_vpn_traffic.md)
 * [VPNカスケード](../tutorials/how_to_use_vpn_cascading_on_glinet_routers.md)
 
-## アプリケーション
+## アプリケーション {#applications}
 
 * [プラグイン](plugins.md)
 * [DDNS](ddns.md) - 動的IPアドレスに関連する問題を解消します。
@@ -67,7 +67,7 @@ hide:
 * [Tor](tor.md) - 個人のプライバシーを保護します。
 * [eSIM管理](esim_management.md)
 
-## ネットワーク
+## ネットワーク {#network}
 
 * [ファイアウォール](firewall.md)
 * [ポートフォワーディング](port_forwarding.md)
@@ -87,7 +87,7 @@ hide:
 * [ネットワークアクセラレーション](network_acceleration.md)
 * [NAT設定](nat_settings.md)
 
-## フロー制御
+## フロー制御 {#flow-control}
 
 * [ネットワーク品質](network_quality.md)
 * [DPI Engine](dpi_engine.md)
@@ -97,7 +97,7 @@ hide:
 * [SQM（Smart Queue Management）](sqm.md)
 * [ペアレンタルコントロール（v4.9）](parental_control_v4.9.md)
 
-## セキュリティ
+## セキュリティ {#security}
 
 * [セキュリティスキャン](security_scan.md)
 * [ポートフォワーディング](port_forwarding.md)
@@ -105,7 +105,7 @@ hide:
 * [管理者アクセス](admin_access.md)
 * [NATモード](nat_settings.md)
 
-## システム
+## システム {#system}
 
 * [UI言語](ui_languages.md)
 * [システム概要](system_overview.md) - ハードウェアの状態やシステム情報を表示します。

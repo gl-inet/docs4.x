@@ -1,10 +1,10 @@
-# Connect to the Internet via USB tethering
+# Connect to the Internet via USB tethering {#connect-to-the-internet-via-usb-tethering}
 
 Using a USB cable to share network from your smartphone to the router is called Tethering. Host-less modem works in Tethering during the setup of the modem as well.
 
 **Note:** Some mobile carriers limit or charge extra for tethering. We recommend checking with your carrier.
 
-## Setup
+## Setup {#setup}
 
 === "iPhone"
 
@@ -68,7 +68,7 @@ Using a USB cable to share network from your smartphone to the router is called 
 
     For the Android official documentation, refer to [Share a mobile connection by hotspot or tethering on Android](https://support.google.com/android/answer/9059108?hl=en#zippy=%2Ctether-by-usb-cable){target="_blank"}
 
-## Warning
+## Warning {#warning}
 
 When Internet access is not available, the corresponding warning will be displayed: 
 
@@ -80,7 +80,7 @@ Solutions:
 
 2. Go to [Multi-WAN](multi-wan.md) page to determine whether you can access the Internet or not.
 
-## Troubleshooting
+## Troubleshooting {#troubleshooting}
 
 If the connection fails, try these troubleshooting steps:
     

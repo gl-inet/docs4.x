@@ -1,4 +1,4 @@
-# Comment connecter un routeur GL.iNet à une antenne Starlink ?
+# Comment connecter un routeur GL.iNet à une antenne Starlink ? {#how-to-connect-a-glinet-router-to-starlink-dish}
 
 Si vous devez connecter un routeur GL.iNet à une antenne Starlink, suivez les étapes ci-dessous.
 

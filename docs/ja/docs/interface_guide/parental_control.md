@@ -1,4 +1,4 @@
-# ペアレンタルコントロール
+# ペアレンタルコントロール {#parental-control}
 
 > このガイドはファームウェア v4.8 以前に適用されます。新しいバージョンについては、[こちら](parental_control_v4.9.md) をクリックしてください。
 
@@ -12,11 +12,11 @@ GL.iNet ルーターの Parental Control については、以下の動画、ま
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pOyDwQRc3io" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## ローカル版
+## ローカル版 {#local-version}
 
 ローカル版は GL.iNet が提供するバージョンです。現在はベータ版で、追加料金はかかりません。このバージョンでは、アプリケーション単位でリクエストをフィルタリングしたい場合、ドメインを手動で入力する必要があります。
 
-### 対応モデル
+### 対応モデル {#supported-models}
 
 ??? "対応モデル"
     - GL-MT6000 (Fortify)
@@ -53,7 +53,7 @@ GL.iNet ルーターの Parental Control については、以下の動画、ま
     - GL-AP1300 (Cirrus)
     - GL-X300B (Collie)
 
-### セットアップ手順
+### セットアップ手順 {#setup-steps}
 
 ルーターの Web 管理画面にログインし、**APPLICATIONS** -> **Parental Control** に移動します。
 
@@ -147,7 +147,7 @@ Parental Control を有効にして、**Apply** をクリックします。
 
     ![final configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_16_final_config.png){class="glboxshadow"}
 
-### Troubleshooting
+### Troubleshooting {#troubleshooting}
 
 設定内容が反映されない場合は、以下の原因が考えられます。
 
@@ -169,7 +169,7 @@ Parental Control を有効にして、**Apply** をクリックします。
 
 4. 対象デバイスがネットワーク接続ごとにランダムな MAC アドレスを使用しているため、アクセスルールが適用されない可能性があります。対象デバイスでランダム MAC アドレスを無効にし、その後デバイスをプロファイルに再追加してください。
 
-## Bark版
+## Bark版 {#bark-version}
 
 > このガイドはファームウェア v4.8 以前に適用されます。新しいバージョンについては [こちら](bark.md) をご覧ください。
 
@@ -181,7 +181,7 @@ Parental Control を有効にして、**Apply** をクリックします。
 
 2. 2 種類の Parental Control を同時に有効にすることはできません。片方を有効にすると、もう一方は自動的に無効になります。
 
-### 対応モデル
+### 対応モデル {#supported-models_1}
 
 ??? "対応モデル"
     - GL-BE6500 (Flint 3e)
@@ -214,7 +214,7 @@ Parental Control を有効にして、**Apply** をクリックします。
     - GL-AP1300 (Cirrus)
     - GL-X300B (Collie)
 
-### セットアップ手順
+### セットアップ手順 {#setup-steps_1}
 
 ルーターの Web 管理画面にログインし、**APPLICATIONS** -> **Parental Control** に移動して、Bark 版を選択します。
 

@@ -1,22 +1,22 @@
-# How to change the NAT type on Gaming
+# How to change the NAT type on Gaming {#how-to-change-the-nat-type-on-gaming}
 
 Most of the game makers will ask you to turn on the UPnP on the router to get a better NAT type, however studies show UPnP is a non-secure protocol.
 
 You can achieve the same purpose in a more secure way, either by the function of DMZ or port forward.
 
-## Check your Game IP
+## Check your Game IP {#check-your-game-ip}
 
 Go to the client list and check the IP assigned to your game. You need to use this IP address on the following setup
 
 ![gameip](https://static.gl-inet.com/docs/router/en/4/tutorials/gamling/gameip.png){class="glboxshadow"}
 
-## Method 1 DMZ
+## Method 1 DMZ {#method-1-dmz}
 
 Go to side-bar **Network > Port Forwarding** and enable the DMZ with your game IP.
 
 ![dmz](https://static.gl-inet.com/docs/router/en/4/tutorials/gamling/dmzgame.png){class="glboxshadow"}
 
-## Method 2 Port forward
+## Method 2 Port forward {#method-2-port-forward}
 
 Go to side-bar **Network > Port Forwarding** and add necessary ports with your game IP.
 
@@ -40,7 +40,7 @@ Some games may need other ports to be forwarded, you can refer to this website f
 
 [Port forward on different Games](https://portforward.com/games/)
 
-## Full Cone NAT
+## Full Cone NAT {#full-cone-nat}
 
 You can enable the Full Cone NAT at **Network > NAT Settings** to imporve the latency.
 

@@ -1,4 +1,4 @@
-# Tailscale
+# Tailscale {#tailscale}
 
 Tailscale は、所有しているデバイスやアプリケーションに世界中のどこからでも、安全かつ簡単にアクセスできるようにするVPNサービスです。詳細については、[Tailscale公式サイト](https://tailscale.com/){target="_blank"} を参照してください。
 
@@ -12,7 +12,7 @@ Tailscale は、所有しているデバイスやアプリケーションに世�
 
 3. 一部のモデルでは、ファームウェア v4.2 以降を実行していても、メモリ不足のため Tailscale をサポートしていません。
 
-## 対応モデル
+## 対応モデル {#supported-models}
 
 ??? "対応モデル"
     - GL-MT6000 (Fortify)
@@ -50,7 +50,7 @@ Tailscale は、所有しているデバイスやアプリケーションに世�
     - GL-S1300 (Convexa-S)
     - GL-X300B (Collie)
 
-## Tailscaleネットワークを設定する
+## Tailscaleネットワークを設定する {#set-up-tailscale-network}
 
 以下は GL-MT2500 を例にした手順です。
 
@@ -104,7 +104,7 @@ Tailscale は、所有しているデバイスやアプリケーションに世�
 
         ![web admin panel](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/web_admin_panel.png){class="glboxshadow gl-80-desktop"}
 
-## WAN からのリモートアクセスを許可する
+## WAN からのリモートアクセスを許可する {#allow-remote-access-wan}
 
 > この機能は firmware v4.9 以降で **Advertise WAN Subnets** に名称変更されました。
 
@@ -136,7 +136,7 @@ Tailscale は、所有しているデバイスやアプリケーションに世�
 
     ![tailscale access axt1800](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/tailscale_access_axt1800.jpg){class="glboxshadow gl-50-desktop"}
 
-## LAN へのリモートアクセスを許可する
+## LAN へのリモートアクセスを許可する {#allow-remote-access-lan}
 
 > この機能は firmware v4.9 以降で **Advertise LAN Subnets** に名称変更されました。
 
@@ -168,7 +168,7 @@ Tailscale は、所有しているデバイスやアプリケーションに世�
 
     ![tailscale access ubuntu](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/tailscale_access_ubuntu.png){class="glboxshadow gl-80-desktop"}
 
-## カスタム Exit Node
+## カスタム Exit Node {#custom-exit-nodes}
 
 デフォルトでは、Tailscale はオーバーレイネットワークとして動作し、Tailscale を実行しているデバイス間の通信のみをルーティングします。Google のようなWebサイト閲覧時のような、通常のパブリックインターネットトラフィックは処理しません。
 
@@ -224,7 +224,7 @@ Tailscale は、所有しているデバイスやアプリケーションに世�
 
     この場合は、上記 **手順1** を参照し、Tailscale Admin console でルーターのサブネットルートを有効にしてください。
 
-## Run Exit Node
+## Run Exit Node {#run-exit-node}
 
 > この機能は firmware v4.9 で導入されました。
 

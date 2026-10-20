@@ -1,4 +1,4 @@
-# Zatrzymanie na „Reverting” podczas resetowania firmware
+# Zatrzymanie na „Reverting” podczas resetowania firmware {#stuck-on-reverting-during-firmware-reset}
 
 Jeśli router zatrzyma się na komunikacie „Reverting” podczas resetowania firmware, wykonaj poniższe kroki, aby rozwiązać problem.
 

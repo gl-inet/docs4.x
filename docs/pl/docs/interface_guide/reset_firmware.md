@@ -1,4 +1,4 @@
-# Przywracanie ustawień fabrycznych
+# Przywracanie ustawień fabrycznych {#reset-firmware}
 
 W lewym panelu bocznym panelu administracyjnego przejdź do **SYSTEM** -> **Reset Firmware**.
 

@@ -1,4 +1,4 @@
-# Захист RDP із зовнішньої мережі за допомогою WireGuard {#use-wireguard-to-secure-rdp-from-outside-network}
+# Захист RDP із зовнішньої мережі за допомогою WireGuard {#securing-rdp-from-an-external-network-with-wireguard}
 
 Вам може знадобитися віддалений доступ до свого ПК із зовнішньої мережі або у зворотному напрямку. Найбезпечніший спосіб — доступ через власний тунель WireGuard. Він забезпечує вищий рівень безпеки, ніж перенаправлення портів і прямий доступ до ПК через публічну IP-адресу. Після налаштування тунелю можна використовувати **Windows Remote Desktop** для доступу до ПК звідусіль.
 
@@ -8,7 +8,7 @@
 
 ![wgrdp](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_rdp/wgrdp.jpg){class="glboxshadow"}
 
-## Кроки налаштування
+## Кроки налаштування {#setup-steps}
 
 1. Налаштуйте мережу WireGuard. <span id="setup-your-own-wireguard-network"></span>
 

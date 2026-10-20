@@ -1,6 +1,6 @@
-# GoodCloud Site to Site
+# GoodCloud Site to Site {#goodcloud-site-to-site}
 
-## Wprowadzenie
+## Wprowadzenie {#introduction}
 
 GoodCloud Site to Site umożliwia biurom w różnych lokalizacjach nawiązywanie bezpiecznych połączeń między sobą przez Internet. Rozszerza sieć firmową, udostępniając zasoby komputerowe z jednej lokalizacji pracownikom w innych lokalizacjach w całej sieci.
 
@@ -12,7 +12,7 @@ GoodCloud Site to Site umożliwia biurom w różnych lokalizacjach nawiązywanie
 
 **Scenariusz 3**: Dla rodzin z kamerami IP, Site to Site umożliwia zdalny dostęp do urządzenia, gdy członkowie rodziny są poza domem, zapewniając łatwe monitorowanie z dowolnego miejsca.
 
-## Wymagania
+## Wymagania {#conditions}
 
 1. Do zbudowania sieci Site to Site wymagane są co najmniej dwa routery GL.iNet.
 
@@ -22,7 +22,7 @@ GoodCloud Site to Site umożliwia biurom w różnych lokalizacjach nawiązywanie
 
 3. **NIE** zaleca się uruchamiania Site to Site, gdy węzły podrzędne również uruchamiają klient VPN / Tailscale / ZeroTier / AstroWarp, ponieważ może to znacznie skomplikować konfigurację sieci.
 
-## Zbuduj sieć Site to Site
+## Zbuduj sieć Site to Site {#build-a-site-to-site-network}
 
 1. Powiąż routery z kontem GoodCloud. Zobacz [Powiązywanie urządzeń z chmurą](../interface_guide/cloud.md#bind-devices-to-cloud).
 
@@ -72,13 +72,13 @@ GoodCloud Site to Site umożliwia biurom w różnych lokalizacjach nawiązywanie
 
     ![detail s2s](https://static.gl-inet.com/goodcloud/docs/detail-s2s-01.png){class="glboxshadow"}
 
-## Testowanie połączenia Site to Site
+## Testowanie połączenia Site to Site {#testing-the-site-to-site-connection}
 
 1. Podłącz swój komputer lub smartfon do jednego z węzłów w tej sieci Site to Site.
 
 2. Uruchom przeglądarkę internetową, aby uzyskać dostęp do adresu IP LAN innego węzła. Jeśli możesz uzyskać dostęp do strony logowania, połączenie między tymi dwoma węzłami działa.
 
-## Trasy i inne opcje
+## Trasy i inne opcje {#route-and-other-options}
 
 Domyślnie każdy węzeł może uzyskać dostęp do sieci LAN innych węzłów. Ze względów bezpieczeństwa zalecamy otwieranie tylko adresów IP określonych usług.
 

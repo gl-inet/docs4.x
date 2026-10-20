@@ -1,4 +1,4 @@
-# Upgrade
+# Upgrade {#upgrade}
 
 Gehen Sie auf der linken Seite des Web-Admin-Panels zu **SYSTEM** -> **Upgrade**, um die Firmware Ihres Routers zu aktualisieren.
 
@@ -8,9 +8,9 @@ Bei einigen Mobilfunkmodellen können Sie bei Bedarf auch die Modulversion aktua
 
     Bitte lassen Sie den Router während des Upgrades eingeschaltet. Schalten Sie den Router **NICHT** aus. Das Gerät startet nach dem Upgrade automatisch neu, was einige Minuten dauern kann.
 
-## Firmware-Upgrade
+## Firmware-Upgrade {#firmware-upgrade}
 
-### Online-Upgrade
+### Online-Upgrade {#online-upgrade}
 
 Hier finden Sie die aktuelle Firmware-Version.
 
@@ -26,7 +26,7 @@ Hier finden Sie die aktuelle Firmware-Version.
 
 ![time zone](https://static.gl-inet.com/docs/router/de/4/interface_guide/upgrade/time_zone.png){class="glboxshadow"}
 
-### Lokales Upgrade
+### Lokales Upgrade {#local-upgrade}
 
 Wählen Sie eine Firmware-Datei aus oder ziehen Sie sie per Drag-and-drop hinein, um das Upgrade durchzuführen. Sie können die Firmware aus unserem [Download-Center](https://dl.gl-inet.com){target="_blank"} herunterladen.
 
@@ -40,25 +40,25 @@ Nach dem Hochladen wird die Firmware verifiziert.
 
 Klicken Sie auf **Install**, um das Upgrade zu starten.
 
-## Modem-Upgrade
+## Modem-Upgrade {#modem-upgrade}
 
 GL.iNet Mobilfunkrouter ermöglichen es Benutzern, die Firmware des Mobilfunkmodems über das Web-Admin-Panel zu aktualisieren.
 
 Sie können ein Upgrade des Mobilfunkmoduls versuchen, wenn die Mobilfunkverbindung fehlschlägt oder instabil ist. Wir empfehlen, vor dem Modem-Upgrade zunächst den technischen Support zur Fehlerbehebung zu kontaktieren.
 
-### Online-Upgrade
+### Online-Upgrade {#online-upgrade_1}
 
 Hier finden Sie die aktuelle Version des Mobilfunkmodems. Wenn Ihr Router mit dem Internet verbunden ist, sucht er automatisch auf dem Server des Herstellers nach der neuesten Version des Mobilfunkmodems und vereinfacht dadurch den Update-Prozess.
 
 ![modem online upgrade](https://static.gl-inet.com/docs/router/de/4/interface_guide/upgrade/modem_online_upgrade.png){class="glboxshadow"}
 
-### Lokales Upgrade
+### Lokales Upgrade {#local-upgrade_1}
 
 Laden Sie bei Bedarf manuell eine Modem-Firmware-Datei von Ihrem Computer hoch, um das Mobilfunkmodem zu aktualisieren.
 
 ![modem local upgrade](https://static.gl-inet.com/docs/router/de/4/interface_guide/upgrade/modem_local_upgrade.png){class="glboxshadow"}
 
-## DPI-Online-Upgrade
+## DPI-Online-Upgrade {#dpi-online-upgrade}
 
 DPI Online Upgrade sucht nach Aktualisierungen für die DPI-Engine und ihre Signaturdatenbank und installiert sie. Dadurch bleibt die Datenverkehrserkennung für Data Statistics, Content Filter und andere DPI-bezogene Funktionen präzise.
 

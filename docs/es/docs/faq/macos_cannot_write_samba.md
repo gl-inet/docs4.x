@@ -1,4 +1,4 @@
-# macOS no puede escribir en un recurso compartido Samba
+# macOS no puede escribir en un recurso compartido Samba {#macos-cannot-write-to-a-samba-share}
 
 Al utilizar un dispositivo de almacenamiento formateado en exFAT para un recurso compartido Samba, algunos dispositivos macOS pueden encontrar uno de los siguientes errores al intentar escribir archivos en el recurso.
 

@@ -1,12 +1,12 @@
-# Przewodnik użytkownika Beryl AX (GL-MT3000)
+# Przewodnik użytkownika Beryl AX (GL-MT3000) {#beryl-ax-gl-mt3000-user-guide}
 
-## Przegląd produktu
+## Przegląd produktu {#product-overview}
 
 Beryl AX (GL-MT3000) to kompaktowy router podróżny AX3000 wykorzystujący standard Wi-Fi 6. Jest ulepszoną wersją modelu Beryl (GL-MT1300). Pracuje na dwurdzeniowym procesorze MT7981B 1.3GHz i oferuje ponad dwukrotnie wyższą łączną prędkość Wi-Fi. Został zaprojektowany z myślą o rodzinach intensywnie korzystających z Wi-Fi, a dzięki niewielkim rozmiarom świetnie sprawdza się również w podróży.
 
 ![gl-mt3000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3000/hardware_info/mt3000_interface.jpg){class="glboxshadow"}
 
-## Zawartość opakowania
+## Zawartość opakowania {#package-contents}
 
 - 1 x Beryl AX (GL-MT3000)
 - 1 x instrukcja obsługi
@@ -18,17 +18,17 @@ Beryl AX (GL-MT3000) to kompaktowy router podróżny AX3000 wykorzystujący stan
 
 ![gl-MT3000 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3000/first_time_setup/mt3000_unboxing.jpg){class="glboxshadow"}
 
-## Jak skonfigurować Beryl AX
+## Jak skonfigurować Beryl AX {#how-to-set-up-beryl-ax}
 
 Obejrzyj ten film konfiguracyjny lub wykonaj poniższe kroki.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZAVn92F5RV8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Włączenie zasilania
+### 1. Włączenie zasilania {#1-power-on}
 
 Złóż dwuczęściowy zasilacz. Podłącz go do routera i włóż do gniazdka elektrycznego. Urządzenie uruchomi się automatycznie.
 
-### 2. Podłączenie urządzenia
+### 2. Podłączenie urządzenia {#2-connect-device}
 
 Podłącz urządzenie (np. komputer, laptop lub smartfon) do routera przez Wi-Fi lub Ethernet.
 
@@ -40,13 +40,13 @@ Podłącz urządzenie (np. komputer, laptop lub smartfon) do routera przez Wi-Fi
 
     Na urządzeniu przejdź do Settings -> WLAN, znajdź nazwę sieci Wi-Fi routera na liście dostępnych sieci i wpisz hasło. Domyślną nazwę sieci i hasło znajdziesz na etykiecie routera.
 
-### 3. Logowanie do panelu administracyjnego
+### 3. Logowanie do panelu administracyjnego {#3-log-in-to-web-admin-panel}
 
 Otwórz przeglądarkę internetową, wpisz `192.168.8.1` w pasku adresu i zaloguj się. Wybierz język i ustaw hasło administratora, a następnie kliknij **Apply**.
 
 Podczas potwierdzania ustawień Wi‑Fi pamiętaj, że jeśli zmienisz dane sieci Wi-Fi, konieczne będzie ponowne połączenie urządzenia z siecią Wi-Fi routera przy użyciu zaktualizowanych danych.
 
-### 4. Konfiguracja Internetu
+### 4. Konfiguracja Internetu {#4-internet-setup}
 
 **Uwaga:** Poniższe instrukcje dotyczą użytkowników konfigurujących router za pomocą webowego panelu administracyjnego GL.iNet. Jeśli wolisz użyć aplikacji GL.iNet, [pobierz aplikację](https://www.gl-inet.com/app/){target="_blank"} i postępuj zgodnie z instrukcjami wyświetlanymi na ekranie.
 
@@ -96,7 +96,7 @@ Skonfiguruj Beryl AX, korzystając z jednej z obsługiwanych metod połączenia 
 
     Zapoznaj się z poradnikiem [Connect to the Internet via cellular](../../interface_guide/internet_cellular.md), aby uzyskać szczegółowe instrukcje.
 
-## Jak skonfigurować VPN
+## Jak skonfigurować VPN {#how-to-set-up-a-vpn}
 
 VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie między urządzeniem a serwerem VPN. Zapewnia dodatkową warstwę prywatności i bezpieczeństwa (klient VPN) oraz umożliwia dostęp do sieci zdalnej (serwer VPN). Beryl AX (i inne routery GL.iNet) obsługuje OpenVPN i WireGuard. Dodatkowo obsługuje również Tor.
 
@@ -120,7 +120,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie międz
 
     * [Jak skonfigurować Tor](../../interface_guide/tor.md)
 
-## Sieć bezprzewodowa i klienci
+## Sieć bezprzewodowa i klienci {#wireless-and-clients}
 
 === "Wireless"
 
@@ -134,7 +134,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie międz
 
     Zapoznaj się z poradnikiem [Clients](../../interface_guide/clients.md), aby uzyskać szczegółowe instrukcje.
 
-## Usługi chmurowe
+## Usługi chmurowe {#cloud-services}
 
 === "GoodCloud"
 
@@ -148,7 +148,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie międz
 
     Zapoznaj się z poradnikiem [AstroWarp](../../interface_guide/astrowarp.md), aby uzyskać szczegółowe instrukcje.
 
-## Aplikacje
+## Aplikacje {#applications}
 
 === "Plug-ins"
 
@@ -194,7 +194,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie międz
 
     Zapoznaj się z poradnikiem [Tailscale](../../interface_guide/tailscale.md), aby uzyskać szczegółowe instrukcje.
 
-## Ustawienia sieci
+## Ustawienia sieci {#network-settings}
 
 === "Port forwarding"
 
@@ -274,7 +274,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie międz
 
     Zapoznaj się z poradnikiem [NAT Settings](../../interface_guide/nat_settings.md), aby uzyskać szczegółowe instrukcje.
 
-## Ustawienia systemowe
+## Ustawienia systemowe {#system-settings}
 
 === "Overview"
 
@@ -369,6 +369,6 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie międz
 
     Zapoznaj się z poradnikiem [Advanced Settings](../../interface_guide/advanced_settings.md), aby uzyskać szczegółowe instrukcje.
 
-## Deklaracja zgodności
+## Deklaracja zgodności {#declaration-of-conformity}
 
 Niniejszym GL TECHNOLOGIES (HONG KONG) LIMITED oświadcza, że typ urządzenia radiowego [Router Wi-Fi 6 AX3000, GL-MT3000] jest zgodny z zasadniczymi wymaganiami oraz innymi odpowiednimi postanowieniami dyrektywy 2014/53/UE. Pełny tekst deklaracji zgodności UE jest dostępny pod następującym adresem internetowym: [https://www.gl-inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}.

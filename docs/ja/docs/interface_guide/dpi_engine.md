@@ -1,4 +1,4 @@
-# DPI Engine
+# DPI Engine {#dpi-engine}
 
 **注**: この機能はファームウェア v4.9 で導入されました。
 
@@ -56,7 +56,7 @@ GL.iNet の DPI Engine はルーター上でローカルに動作し、プライ
     - GL-AP1300 (Cirrus)
     - GL-S1300 (Convexa-S)
 
-## クイックセットアップ
+## クイックセットアップ {#quick-setup}
 
 Web管理画面の左側で、**FLOW CONTROL** -> **DPI Engine** に移動し、**Enable DPI Engine** をクリックします。
 
@@ -80,7 +80,7 @@ Web管理画面の左側で、**FLOW CONTROL** -> **DPI Engine** に移動し、
 
 **注**: このページにはコアシステムの状態指標のみが表示されます。実際のトラフィック処理は、関連機能を有効にしたあとに開始されます。
 
-## データベースのアップグレード
+## データベースのアップグレード {#database-upgrade}
 
 新しいデータベースバージョンが利用可能な場合は、**Upgrade** をクリックするだけで更新できます。
 

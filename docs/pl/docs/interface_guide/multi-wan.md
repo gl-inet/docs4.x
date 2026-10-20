@@ -1,4 +1,4 @@
-﻿# Multi-WAN
+﻿# Multi-WAN {#multi-wan}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/D1s1WScLP4s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -16,7 +16,7 @@ Routery GL.iNet mogą łączyć się z Internetem na wiele sposobów, takich jak
 
     3. Niektóre modele obsługują [podwójny WAN przez Ethernet](ethernet_port.md#dual-ethernet-wan), co dodaje dodatkowy interfejs Ethernet w interfejsie użytkownika.
 
-## Interface Status Track
+## Interface Status Track {#interface-status-track}
 
 Routery GL.iNet obsługują do 5 wirtualnych interfejsów sieciowych, choć dokładna liczba może się różnić w zależności od modelu. Przykładowo GL-MT6000 ma interfejsy **Ethernet 1**, **Ethernet 2**, **Repeater**, **Tethering** i **Cellular**, z których każdy pełni odrębną funkcję sieciową w konfiguracji definiowanej programowo.
 
@@ -26,7 +26,7 @@ Jeśli interfejs jest dostępny, po jego lewej stronie wyświetlana jest zielona
 
 ![interface status track 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/multi-wan/interface_status_track_1.jpg){class="glboxshadow"}
 
-### Status Track Settings
+### Status Track Settings {#status-track-settings}
 
 Kliknij ikonę koła zębatego, aby przejść do ustawień śledzenia stanu danego interfejsu sieciowego.
 
@@ -50,7 +50,7 @@ Poniżej przedstawiono przykład ustawień śledzenia stanu interfejsu Ethernet;
 
     Niektóre starsze wersje oprogramowania, takie jak v4.3, udostępniały ustawienia takie jak **Track Interval**, **Change to Failure Condition** i **Change to Available Condition**. Zostały one usunięte od wersji v4.5 i zastąpione przez Detection Mode oraz opcje czułości.
 
-### Opcje czułości
+### Opcje czułości {#sensitivity-options}
 
 Funkcja dostępna od wersji v4.5.
 
@@ -63,11 +63,11 @@ Czułość określa interwał czasowy wykrywania stanu połączenia z Internetem
 
 **Wskazówka**: Przełączenie na wysoką czułość może spowodować zerwanie połączenia sieciowego – zmieniaj to ustawienie z ostrożnością.
 
-## Tryb Multi-WAN
+## Tryb Multi-WAN {#multi-wan-mode}
 
 Dostępne są dwa tryby Multi-WAN: **Failover** i **Load Balance**. Wzajemnie się wykluczają – można używać tylko jednego z nich.
 
-### Failover (przełączenie awaryjne)
+### Failover (przełączenie awaryjne) {#failover}
 
 Failover jest trybem domyślnym, gdy dostępnych jest kilka połączeń WAN. Jeśli aktywne łącze ulegnie awarii, router automatycznie przełączy dostęp do Internetu na inny interfejs sieciowy.
 
@@ -75,7 +75,7 @@ Failover jest trybem domyślnym, gdy dostępnych jest kilka połączeń WAN. Je�
 
 Możesz ustawić priorytet każdego interfejsu. Gdy aktualnie używany interfejs ulegnie awarii, router przełączy się na następny dostępny interfejs o najwyższym priorytecie. Po przywróceniu połączenia o wyższym priorytecie router automatycznie przełączy się z powrotem na ten interfejs.
 
-### Load Balance (równoważenie obciążenia)
+### Load Balance (równoważenie obciążenia) {#load-balance}
 
 Tryb Load Balance umożliwia jednoczesne korzystanie z wielu łączy sieciowych, zwiększając pasmo i ogólną przepustowość.
 
@@ -95,7 +95,7 @@ Dostępne są dwa sposoby konfiguracji współczynnika obciążenia:
 
 **Uwaga:** Aktywne połączenia i ruch nie zawsze dokładnie odzwierciedlają ustawiony współczynnik. Im dłużej system jest używany, tym bliżej tej proporcji będą faktyczne wyniki.
 
-## Scenariusze użycia
+## Scenariusze użycia {#usage-scenarios}
 
 * Kasa w sklepie jest podłączona do Internetu kablem sieciowym, a połączenie przez Repeater z siecią Wi-Fi sąsiednich sklepów (lub przez kartę SIM z siecią komórkową) służy jako zapasowy dostęp do Internetu – aby zapobiec przerwaniu płatności mobilnych w przypadku niedostępności kabla.
 

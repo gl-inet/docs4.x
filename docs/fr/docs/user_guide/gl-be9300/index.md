@@ -1,6 +1,6 @@
-# Guide d'utilisation de Flint 3 (GL-BE9300)
+# Guide d'utilisation de Flint 3 (GL-BE9300) {#flint-3-gl-be9300-user-guide}
 
-## Aperçu du produit
+## Aperçu du produit {#product-overview}
 
 Flint 3 (GL-BE9300) est un routeur de bureau tri-bande Wi-Fi 7 conçu pour les particuliers, les petits bureaux et les environnements à forte demande. Il prend en charge la technologie Wi-Fi 7 Multi-Link Operation (MLO), qui regroupe intelligemment les bandes 2.4GHz, 5GHz et 6GHz en une seule connexion afin de réduire les interférences et l'encombrement du réseau. Associé au 4K QAM, il offre des débits théoriques tri-bande de 688Mbps (2.4GHz), 2882Mbps (5GHz) et 5765Mbps (6GHz). La connectivité MLO ou 6GHz fournit les meilleures performances, tandis que la bande 2.4GHz peut être réservée aux appareils IoT.
 
@@ -8,7 +8,7 @@ Il dispose de 5 ports Ethernet 2.5G (1 WAN dédié, 1 WAN/LAN commutable, 3 LAN)
 
 ![interface gl-be9300](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be9300/hardware_info/be9300_interface.jpg){class="glboxshadow"}
 
-## Contenu du colis
+## Contenu du colis {#package-contents}
 
 - 1 x Flint 3 (GL-BE9300)
 - 1 x Adaptateur secteur
@@ -21,17 +21,17 @@ Découvrez ci-dessous la vidéo de déballage de Flint 3.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qAq6IFtKtj0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Configuration initiale de Flint 3
+## Configuration initiale de Flint 3 {#how-to-set-up-flint-3}
 
 Regardez cette vidéo de configuration ou suivez les étapes ci-dessous.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WQqD-8NrAOQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Mise sous tension
+### 1. Mise sous tension {#1-power-on}
 
 Assemblez les deux parties de l'adaptateur secteur. Connectez-le à votre routeur puis branchez-le sur une prise électrique. Il démarrera automatiquement.
 
-### 2. Connecter un appareil
+### 2. Connecter un appareil {#2-connect-device}
 
 Connectez un appareil (par exemple un ordinateur, un ordinateur portable ou un smartphone) au routeur via Wi-Fi ou Ethernet.
 
@@ -43,11 +43,11 @@ Connectez un appareil (par exemple un ordinateur, un ordinateur portable ou un s
 
     Sur votre appareil, accédez à Paramètres -> WLAN, repérez le nom du réseau Wi‑Fi de votre routeur dans la liste des réseaux disponibles, puis saisissez le mot de passe pour vous connecter. Le nom du réseau et le mot de passe par défaut sont imprimés sur l'étiquette du routeur.
 
-### 3. Se connecter au panneau d'administration web
+### 3. Se connecter au panneau d'administration web {#3-log-in-to-web-admin-panel}
 
 Ouvrez un navigateur web, saisissez `192.168.8.1` dans la barre d'adresse, puis connectez-vous. Choisissez votre langue, définissez votre mot de passe administrateur, puis cliquez sur **Apply**.
 
-### 4. Configuration de la connexion Internet
+### 4. Configuration de la connexion Internet {#4-internet-setup}
 
 **Remarque :** Les instructions ci-dessous s'appliquent aux utilisateurs qui configurent le routeur via le panneau d'administration web GL.iNet. Si vous préférez utiliser l'application GL.iNet, [téléchargez l'application](https://www.gl-inet.com/app/){target="_blank"} puis suivez les instructions affichées à l'écran.
 
@@ -101,7 +101,7 @@ Configurez votre Flint 3 à l'aide de l'une des méthodes de connexion Internet 
     
 Vous trouverez ci-dessous un aperçu des fonctionnalités du panneau d'administration web de Flint 3.
 
-## Sans fil
+## Sans fil {#wireless}
 
 La page Sans fil vous permet de configurer les paramètres des réseaux Wi-Fi 6GHz, 5GHz et 2.4GHz, notamment l'activation du Wi-Fi, le réglage de la puissance TX, la définition du nom du réseau Wi-Fi (SSID), l'activation du BSSID aléatoire, le choix du mode de sécurité Wi-Fi et du mot de passe, la configuration de la visibilité du SSID, ainsi que le choix du mode Wi-Fi, de la bande passante et du canal.
     
@@ -109,13 +109,13 @@ De plus, Flint 3 prend en charge le Wi-Fi MLO, c'est-à-dire Multi-Link Operatio
 
 Pour configurer le Wi-Fi, consultez [Wi-Fi](../../interface_guide/wireless.md).
 
-## Clients
+## Clients {#clients}
 
 La page Clients affiche les informations sur les appareils connectés. Pour chaque client, elle indique le nom, les adresses IP et MAC, les vitesses de téléchargement et d'envoi, le trafic total, et permet également de bloquer le client ou d'effectuer d'autres actions.
 
 Pour configurer les clients, consultez [Clients](../../interface_guide/clients.md).
 
-## Services Cloud
+## Services Cloud {#cloud-services}
 
 === "GoodCloud"
 
@@ -129,7 +129,7 @@ Pour configurer les clients, consultez [Clients](../../interface_guide/clients.m
     
     Pour configurer AstroWarp, consultez [AstroWarp](../../interface_guide/astrowarp.md).
 
-## VPN 
+## VPN {#vpn}
 
 Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre votre appareil et le serveur VPN. Il ajoute une couche supplémentaire de confidentialité et de sécurité en mode client VPN, et vous permet également d'accéder à un réseau distant en mode serveur VPN. Flint 3 prend en charge OpenVPN, WireGuard et Tor.
 
@@ -153,7 +153,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
     
     * [Comment configurer Tor](../../interface_guide/tor.md)
 
-## Applications
+## Applications {#applications}
 
 === "Plug-ins"
 
@@ -199,7 +199,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
     
     Pour configurer Tailscale, consultez [Tailscale](../../interface_guide/tailscale.md).
 
-## Réseau
+## Réseau {#network}
 
 === "Redirection de port"
 
@@ -282,7 +282,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     Pour configurer les paramètres NAT, consultez [Paramètres NAT](../../interface_guide/nat_settings.md).
 
-## Paramètres système
+## Paramètres système {#system-settings}
 
 === "Aperçu"
 
@@ -371,6 +371,6 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     Veuillez consulter [Paramètres avancés](../../interface_guide/advanced_settings.md) pour des instructions détaillées.
 
-## Déclaration UE de conformité
+## Déclaration UE de conformité {#declaration-of-conformity}
 
 Par la présente, GL TECHNOLOGIES (HONG KONG) LIMITED déclare que le type d'équipement radio [BE9300 Wi-Fi 7 Router, GL-BE9300] est conforme aux exigences essentielles et autres dispositions pertinentes de la Directive 2014/53/UE. Le texte complet de la déclaration de conformité UE est disponible à l'adresse internet suivante: [https://www.gl-inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}.

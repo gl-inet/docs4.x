@@ -1,4 +1,4 @@
-# ドロップインゲートウェイ
+# ドロップインゲートウェイ {#drop-in-gateway}
 
 Web Admin Panel の左側で、**NETWORK** -> **Drop-in Gateway** に移動します。
 
@@ -10,7 +10,7 @@ Drop-in Gateway は、既存のプライマリルーターを置き換えたり�
 
 十分なメモリを搭載した高性能ルーターまたはセキュリティゲートウェイ（例: GL-MT2500、GL-MT5000）の使用を推奨します。必要に応じて、追加のトラフィック転送・制御ツールをインストールしてください。
 
-## ネットワークトポロジー
+## ネットワークトポロジー {#network-topology}
 
 Drop-in Gateway は中間ネットワークとして動作し、クライアントデバイスからのトラフィックを GL.iNet ルーターで処理した後、プライマリルーター経由で送信します。この過程では、既存のネットワーク設定（SSID やパスワードなど）を維持して接続済みデバイスの継続利用を可能にしつつ、必要に応じてすべての、または特定のクライアントデバイスのトラフィックを管理できます。
 
@@ -28,13 +28,13 @@ Drop-in Gateway は中間ネットワークとして動作し、クライアン�
 
     3. 処理後のトラフィックはプライマリルーターへ戻され、最終的に元のクライアントデバイスへ届けられるか、インターネットへ送信されます。
 
-## セットアップ
+## セットアップ {#setup}
 
 用途に応じて 2 つの展開方法があります。すべてのクライアントデバイスを Drop-in Gateway 経由にする方法と、特定のクライアントデバイスだけを Drop-in Gateway 経由にする方法です。
 
 以下の例では、プライマリルーターのゲートウェイアドレスを `192.168.1.1` としています。
 
-### すべてのデバイスを Drop-in Gateway 経由にする {all-devices-managed-by-the-drop-in-gateway}
+### すべてのデバイスを Drop-in Gateway 経由にする {#all-devices-managed-by-the-drop-in-gateway}
 
 1. プライマリルーターの LAN ポートを、GL.iNet ルーターの WAN ポートへ Ethernet ケーブルで接続します。
 
@@ -100,7 +100,7 @@ Drop-in Gateway は中間ネットワークとして動作し、クライアン�
 
 4. GL.iNet ルーターに戻り、必要に応じて [AdGuard Home](adguardhome.md)、[encrypted DNS](dns.md)、[WireGuard Client](wireguard_client.md)、[OpenVPN Client](openvpn_client.md) などを設定します。
 
-### 特定のデバイスのみを Drop-in Gateway 経由にする {some-devices-managed-by-the-drop-in-gateway}
+### 特定のデバイスのみを Drop-in Gateway 経由にする {#some-devices-managed-by-the-drop-in-gateway}
 
 1. プライマリルーターの LAN ポートを、GL.iNet ルーターの WAN ポートへ Ethernet ケーブルで接続します。
 
@@ -200,7 +200,7 @@ Drop-in Gateway は中間ネットワークとして動作し、クライアン�
 
 4. GL.iNet ルーターの Web Admin Panel に戻り、必要に応じて [AdGuard Home](adguardhome.md)、[encrypted DNS](dns.md)、[WireGuard Client](wireguard_client.md)、[OpenVPN Client](openvpn_client.md) などを設定します。
 
-## 注意事項
+## 注意事項 {#cautions}
 
 1. Drop-in Gateway を有効にすると、ネットワーク遅延は増加します。
 

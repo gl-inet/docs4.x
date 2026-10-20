@@ -1,4 +1,4 @@
-# データ統計
+# データ統計 {#data-statistics}
 
 **注**: この機能はファームウェア v4.9 で導入されました。
 
@@ -54,7 +54,7 @@ Web 管理パネルの左側で、**FLOW CONTROL** -> **Data Statistics** に移
     - GL-AP1300 (Cirrus)
     - GL-S1300 (Convexa-S)
 
-## ファームウェア v4.11 以降の場合
+## ファームウェア v4.11 以降の場合 {#for-firmware-v411-and-above}
 
 右上隅にあるスイッチを切り替えて、**Application Total Data** を表示します。
 
@@ -74,7 +74,7 @@ Web 管理パネルの左側で、**FLOW CONTROL** -> **Data Statistics** に移
 
     ![app traffic stat](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/app_traffic_stat.png){class="glboxshadow"}
 
-### データストレージルール
+### データストレージルール {#data-storage-rules}
 
 1. トラフィック統計は 15 秒ごとに RAM に保存され、1 時間ごとにフラッシュに保存されます。フラッシュ メモリの寿命を保護するために、頻繁なフラッシュ書き込みが回避されます。
 
@@ -82,7 +82,7 @@ Web 管理パネルの左側で、**FLOW CONTROL** -> **Data Statistics** に移
 
 3. （電源を抜き差しすること） のハード リブートまたはファームウェア アップグレード （設定を保持） を行うと、直近 1 時間までのデータが失われる可能性があります。
 
-### クライアントセレクター
+### クライアントセレクター {#client-selector}
 
 クライアント セレクターを使用すると、特定のクライアントを選択することも、デフォルトのすべてのクライアントを維持することもできます。グラフと統計テーブルは自動的に更新され、選択したデバイスのトラフィック データのみが表示されます。
 
@@ -90,7 +90,7 @@ Web 管理パネルの左側で、**FLOW CONTROL** -> **Data Statistics** に移
 
 ![client selector](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/client_selector.png){class="glboxshadow"}
 
-### チャートビューの切り替え
+### チャートビューの切り替え {#switch-chart-views}
 
 アプリのトラフィック統計を表示するときに、必要に応じてグラフの種類を切り替えることができます。
 
@@ -110,7 +110,7 @@ Web 管理パネルの左側で、**FLOW CONTROL** -> **Data Statistics** に移
 
     ![pie chart](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/pie_chart.png){class="glboxshadow"}
 
-### 時間範囲の切り替え
+### 時間範囲の切り替え {#switch-time-range}
 
 必要に応じて、時間範囲を過去 1 時間、過去 1 日、過去 1 週間の間で切り替えることができます。
 
@@ -126,7 +126,7 @@ Web 管理パネルの左側で、**FLOW CONTROL** -> **Data Statistics** に移
 
     ![past week](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/past-week.png){class="glboxshadow"}
 
-### 統計の消去
+### 統計の消去 {#clear-statistics}
 
 必要に応じて、左上隅のほうきアイコンをクリックして統計をクリアします。
 
@@ -136,7 +136,7 @@ Web 管理パネルの左側で、**FLOW CONTROL** -> **Data Statistics** に移
 
 ![clear data 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/clear_data_2.png){class="glboxshadow"}
 
-## ファームウェア v4.9 ～ v4.10 の場合
+## ファームウェア v4.9 ～ v4.10 の場合 {#for-firmware-v49-to-v410}
 
 右上隅にあるスイッチを切り替えて、**Application Total Data** を表示します。
 
@@ -156,7 +156,7 @@ Web 管理パネルの左側で、**FLOW CONTROL** -> **Data Statistics** に移
 
     ![app traffic stat](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/app_traffic_stat1.png){class="glboxshadow"}
 
-### データストレージルール
+### データストレージルール {#data-storage-rules_1}
 
 1. トラフィック統計は 15 秒ごとに RAM に保存され、1 時間ごとにフラッシュに保存されます。フラッシュ メモリの寿命を保護するために、頻繁なフラッシュ書き込みが回避されます。
 
@@ -164,7 +164,7 @@ Web 管理パネルの左側で、**FLOW CONTROL** -> **Data Statistics** に移
 
 3. ハード リブート （電源を抜き差しすること） またはファームウェア アップグレード （設定を保持） を行うと、直近 1 時間までのデータが失われる可能性があります。
 
-### 時間範囲の切り替え
+### 時間範囲の切り替え {#switch-time-range_1}
 
 必要に応じて、時間範囲を過去 1 時間、過去 1 日、過去 1 週間の間で切り替えることができます。
 
@@ -180,7 +180,7 @@ Web 管理パネルの左側で、**FLOW CONTROL** -> **Data Statistics** に移
 
     ![past week](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/past_week.png){class="glboxshadow"}
 
-### 統計の消去
+### 統計の消去 {#clear-statistics_1}
 
 必要に応じて、左上隅のほうきアイコンをクリックして統計をクリアします。
 

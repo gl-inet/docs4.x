@@ -1,6 +1,6 @@
-# インターネット接続のトラブルシューティングFAQ
+# インターネット接続のトラブルシューティングFAQ {#internet-connection-troubleshooting-faq}
 
-## Q1. インターネットに接続できない場合はどうすればよいですか？
+## Q1. インターネットに接続できない場合はどうすればよいですか？ {#q1-what-should-i-do-if-i-cannot-access-the-internet}
 
 基本的なトラブルシューティングとして、以下の手順をお試しください。
 
@@ -22,7 +22,7 @@
 
     あわせて、ISP が以前にモデム / ONT に **MAC binding** を設定したかどうかも確認してください。
 
-## Q2. MACアドレスをクローンするのはどのような場合ですか？
+## Q2. MACアドレスをクローンするのはどのような場合ですか？ {#q2-when-should-i-clone-a-mac-address}
 
 一部の ISP では、回線接続を最初に接続したデバイス（通常は以前使っていたルーターまたはPC）の MAC アドレスに紐付けています。ルーターを交換した場合、インターネット接続を復旧するには MAC アドレスのクローンが必要になります。
 
@@ -36,7 +36,7 @@ GL.iNet ルーターに MAC アドレスをクローンする手順は以下の�
 
 3. モデム（上位側デバイス）を再起動します。
 
-## Q3. VLAN ID の設定が必要なのはどのような場合ですか？
+## Q3. VLAN ID の設定が必要なのはどのような場合ですか？ {#q3-when-do-i-need-to-configure-a-vlan-id}
 
 一部の ISP では、特に光回線や IPTV 接続で、インターネット認証やトラフィック分離のために VLAN タグが必要です。VLAN ID が必要かどうかは ISP に確認してください。
 
@@ -48,7 +48,7 @@ VLAN ID を設定する手順は以下のとおりです。
 
     ![vlan id](https://static.gl-inet.com/docs/router/en/4/faq/internet_connection_troubleshooting_faq/vlan_id.png){class="glboxshadow"}
 
-## Q4. それでも動作しない場合はどうすればよいですか？
+## Q4. それでも動作しない場合はどうすればよいですか？ {#q4-what-if-it-still-doesnt-work}
 
 問題が解決しない場合は、PC またはノートPC をモデムに直接接続し、インターネットへアクセスできるか確認してください。
 
@@ -61,7 +61,7 @@ VLAN ID を設定する手順は以下のとおりです。
 - ご利用の ISP 名
 - そのほか、問題解決に役立つと思われる情報
 
-## ISP 情報
+## ISP 情報 {#isp-information}
 
 以下は、GL.iNet がお客様からのフィードバック、フォーラム、OpenWRT の情報をもとにまとめた地域別 ISP 情報です。参考情報としてご利用ください。
 

@@ -1,4 +1,4 @@
-# Comment bloquer des appareils clients spécifiques sur un routeur GL.iNet
+# Comment bloquer des appareils clients spécifiques sur un routeur GL.iNet {#how-to-block-specific-client-devices-on-a-glinet-router}
 
 Ce tutoriel vous montre comment bloquer des appareils clients spécifiques sur un routeur GL.iNet. En bloquant des appareils clients, vous empêchez les accès non autorisés à votre réseau. Cela permet de renforcer la sécurité de votre réseau ou de contrôler l'accès de votre famille à Internet.
 
@@ -8,11 +8,11 @@ Il existe deux méthodes pour bloquer des appareils clients sur votre routeur GL
 
 ## Bloquer des appareils clients via le panneau d'administration {#block-client-devices-via-the-admin-panel}
 
-### 1. Connectez-vous au panneau d'administration
+### 1. Connectez-vous au panneau d'administration {#1-sign-in-to-the-admin-panel}
 
 Dans un navigateur Web, saisissez `192.168.8.1`. Entrez votre mot de passe, puis cliquez sur **Login**. 
 
-### 2. Bloquer des appareils clients
+### 2. Bloquer des appareils clients {#2-block-client-devices}
 
 Il existe deux façons de bloquer des appareils clients, selon que vous disposez ou non de leurs adresses MAC :
 

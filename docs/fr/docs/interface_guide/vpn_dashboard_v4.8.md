@@ -1,4 +1,4 @@
-# VPN Dashboard (Firmware v4.8)
+# VPN Dashboard (Firmware v4.8) {#vpn-dashboard-firmware-v48}
 
 Le contenu de cette page est basé sur la version de firmware v4.8.x. Si votre appareil utilise une autre version du firmware, utilisez le sélecteur ci-dessous pour passer au guide correspondant.
 
@@ -16,7 +16,7 @@ Le tableau de bord VPN affiche les détails de connexion VPN, tels que les règl
 
 Vous pouvez également activer plusieurs connexions VPN pour les scénarios à tunnels multiples.
 
-## Assistant de configuration {#vpn-setup-wizard}
+## Assistant de configuration {#setup-wizard}
 
 Cliquez sur l'icône de livre en haut à gauche et suivez l'assistant de configuration VPN pour terminer rapidement la configuration.
 
@@ -44,7 +44,7 @@ Tous les clients connectés accéderont à Internet via ce tunnel VPN.
 
 Si vous souhaitez configurer une politique VPN, veuillez consulter [Policy Mode](#policy-mode).
 
-## Mode VPN
+## Mode VPN {#vpn-mode}
 
 Dans le tableau de bord VPN, cliquez sur le bouton situé en haut à droite pour changer de mode VPN.
 
@@ -54,7 +54,7 @@ Deux modes sont disponibles : **Global Mode** et **Policy Mode**.
 
 ![vpn mode](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/global_mode.png){class="glboxshadow"}
 
-### Mode global
+### Mode global {#global-mode}
 
 Dans ce mode, tout le trafic est acheminé via le tunnel VPN, et une seule instance cliente VPN peut être activée.
 
@@ -64,7 +64,7 @@ Dans l'exemple ci-dessous, le routeur se connecte à un serveur australien via l
 
 ![connected global mode](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/connected-global-mode.png){class="glboxshadow"}
 
-#### Options du tunnel
+#### Options du tunnel {#tunnel-options}
 
 Vous pouvez configurer des paramètres avancés pour votre tunnel VPN, tels que le Kill Switch VPN, le masquage IP et le MTU.
 
@@ -196,7 +196,7 @@ Dans ce tunnel, vous pouvez personnaliser la règle de tunnel en définissant tr
 
     - **Use VPN** : si cette option est sélectionnée, le trafic correspondant à cette règle sera acheminé vers les destinations sélectionnées via le VPN.
 
-        Pour commencer, vous devez configurer votre routeur comme client VPN. Utilisez le [VPN Setup Wizard](#vpn-setup-wizard) pour terminer rapidement la configuration, ou accédez à OpenVPN Client / WireGuard Client dans la barre latérale gauche pour configurer manuellement.
+        Pour commencer, vous devez configurer votre routeur comme client VPN. Utilisez le [VPN Setup Wizard](#setup-wizard) pour terminer rapidement la configuration, ou accédez à OpenVPN Client / WireGuard Client dans la barre latérale gauche pour configurer manuellement.
 
         Une fois le routeur configuré comme client VPN, sélectionnez un fichier de configuration VPN pour ce tunnel, puis cliquez sur **Apply**.
 
@@ -212,7 +212,7 @@ Dans l'exemple ci-dessous, la règle du tunnel principal est la suivante : tous 
 
 ![connected policy mode](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/connected-policy-mode.jpg){class="glboxshadow"}
 
-**Remarque** : pour des raisons de sécurité, veuillez accéder à [All Other Traffic](#all-other-traffic) et [Tunnel Options](#tunnel-options) afin de vérifier les autres paramètres avant d'activer les tunnels.
+**Remarque** : pour des raisons de sécurité, veuillez accéder à [All Other Traffic](#all-other-traffic) et [Tunnel Options](#tunnel-options_1) afin de vérifier les autres paramètres avant d'activer les tunnels.
 
 #### Ajouter un tunnel {#add-tunnel}
 
@@ -232,7 +232,7 @@ Vous pouvez ajouter davantage de tunnels si nécessaire. Jusqu'à 5 tunnels peuv
 
 Personnalisez les règles de tunnel en définissant la source du trafic, les destinations et la méthode de routage. Veuillez vous reporter à [Primary Tunnel](#primary-tunnel).
 
-**Remarque** : pour des raisons de sécurité, veuillez accéder à [All Other Traffic](#all-other-traffic) et [Tunnel Options](#tunnel-options) afin de vérifier les autres paramètres avant d'activer les tunnels.
+**Remarque** : pour des raisons de sécurité, veuillez accéder à [All Other Traffic](#all-other-traffic) et [Tunnel Options](#tunnel-options_1) afin de vérifier les autres paramètres avant d'activer les tunnels.
 
 #### Tout le reste du trafic {#all-other-traffic}
 
@@ -276,7 +276,7 @@ Cliquez sur l'icône à trois lignes à droite et maintenez-la pour réorganiser
     - S'il est activé, il achemine le trafic non correspondant ou basculé via le WAN local.
     - S'il est désactivé, il renforce le Kill Switch et bloque l'accès Internet classique pour éviter les fuites d'IP.
 
-#### Options du tunnel {#tunnel-options}
+#### Options du tunnel {#tunnel-options_1}
 
 Vous pouvez configurer des paramètres avancés pour chaque tunnel VPN, tels que le Kill Switch VPN, le masquage IP et le MTU.
 

@@ -1,17 +1,17 @@
-# GL.iNetルーターでVPN Obfuscationを設定する方法
+# GL.iNetルーターでVPN Obfuscationを設定する方法 {#how-to-set-up-vpn-obfuscation-on-glinet-routers}
 
 **注**：GL.iNetルーターは、ファームウェアv4.9以降でAmneziaWGに対応します。最初にルーターを対応するファームウェアバージョンへ更新してください。
 
 このガイドでは、GL.iNetルーターでAmneziaWG難読化を設定する2つのシナリオを説明します。
 
-## シナリオ1：2台のGL.iNetルーターを使用する
+## シナリオ1：2台のGL.iNetルーターを使用する {#scenario-1-using-two-glinet-routers}
 
 このシナリオでは、2台の GL.iNet ルーターを使って、AmneziaWG プロトコル経由の VPN Obfuscation 接続を確立します。
 
 - Brume 3（GL-MT5000）：家庭用VPNサーバー。
 - Beryl AX（GL-MT3000）：携帯用VPNクライアント。
 
-### VPNサーバーを設定する
+### VPNサーバーを設定する {#set-up-vpn-server}
 
 1. Brume 3 のWeb管理パネルにログインします。
 
@@ -69,7 +69,7 @@
 
     ![server start](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_start2.png){class="glboxshadow"}
 
-### VPNクライアントを設定する
+### VPNクライアントを設定する {#set-up-vpn-client}
 
 1. Beryl AX のWeb管理パネルにログインします。
 
@@ -117,13 +117,13 @@
 
     これでVPN接続は完了です。Beryl AX に接続されたすべてのデバイスは、Brume 3 のゲートウェイ経由でインターネットにアクセスし、VPN Obfuscation 接続を利用できます。
 
-## シナリオ2：1台のGL.iNetルーターを使用する
+## シナリオ2：1台のGL.iNetルーターを使用する {#scenario-2-using-a-single-glinet-router}
 
 このシナリオでは、1台の GL.iNet ルーター **Brume 3 (GL-MT5000)** をVPNクライアントとして使い、AmneziaVPN サーバーに接続します。
 
 この場合、自分でサーバーを構築する必要はありません。[Amnezia 公式サイト](https://amnezia.org/){target="_blank"} または AmneziaWG を統合しているVPNサービスプロバイダーから AmneziaWG 設定ファイルをダウンロードし、そのファイルを GL.iNet ルーターにアップロードするだけで、難読化を有効にしたVPN接続を確立できます。
 
-### 設定ファイルをダウンロードする
+### 設定ファイルをダウンロードする {#download-configuration}
 
 <u>Option 1</u>: Amnezia 公式から設定ファイルをダウンロードする（Premium サブスクリプションが必要です）。
 
@@ -151,7 +151,7 @@ StarVPN を例に説明します。
 
     その後、以下の手順に従ってVPNクライアントを設定します。
 
-### VPNクライアントを設定する
+### VPNクライアントを設定する {#set-up-vpn-client_1}
 
 1. Brume 3 のWeb管理パネルにログインします。
 

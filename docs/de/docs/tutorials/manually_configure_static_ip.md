@@ -1,4 +1,4 @@
-# So konfigurieren Sie auf den Client-Geräten manuell eine statische IP-Adresse
+# So konfigurieren Sie auf den Client-Geräten manuell eine statische IP-Adresse {#how-to-manually-configure-static-ip-on-the-client-devices}
 
 === "Windows 11"
 

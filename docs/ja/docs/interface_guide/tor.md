@@ -1,4 +1,4 @@
-# Tor
+# Tor {#tor}
 
 Tor（**The Onion Router** の略）は、匿名通信を実現するための無償のオープンソースソフトウェアです。プライバシーを保ちながらインターネットを利用するのに役立ちます。詳しくは [Tor について](https://www.torproject.org/){target="_blank"} をご覧ください。
 
@@ -9,7 +9,7 @@ Tor（**The Onion Router** の略）は、匿名通信を実現するための�
   - IPv6
   - ADGuard Home
 
-## 対応モデル
+## 対応モデル {#supported-models}
 
 ??? "対応モデル"
     - GL-MT6000 (Fortify)
@@ -49,7 +49,7 @@ Tor（**The Onion Router** の略）は、匿名通信を実現するための�
     - GL-B1300 (Convexa-B)
     - GL-X300B (Collie)
 
-## クイックセットアップ
+## クイックセットアップ {#quick-setup}
 
 Web 管理パネル左側の **VPN** -> **Tor** を開きます。
 

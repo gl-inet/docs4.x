@@ -1,4 +1,4 @@
-# GL.iNetルーターでゲストWi-Fiネットワークを設定する方法
+# GL.iNetルーターでゲストWi-Fiネットワークを設定する方法 {#how-to-set-up-a-guest-wi-fi-network-on-glinet-routers}
 
 このチュートリアルでは、GL.iNetルーターでゲストWi-Fiネットワークを設定する方法を説明します。
 
@@ -8,7 +8,7 @@ GL.iNetルーターでゲストWi-Fiネットワークを設定する方法は2�
 
 ## 管理画面からゲストネットワークを設定する {#set-up-a-guest-network-via-the-admin-panel}
 
-### 1. ゲストWi-Fiネットワークを有効にする
+### 1. ゲストWi-Fiネットワークを有効にする {#1-enable-the-guest-wi-fi-network}
 
 1. Webブラウザーで `192.168.8.1` を入力します。
 2. パスワードを入力し、**Login** をクリックします。
@@ -18,7 +18,7 @@ GL.iNetルーターでゲストWi-Fiネットワークを設定する方法は2�
 ![click guest](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_a_guest_network/click-guest-wifi.jpeg){class="glboxshadow"}
 5. **Enable Wi-Fi** の横にあるスイッチをオンにします。
 
-### 2. ゲストWi-Fiネットワークの新しいパスワードを設定する
+### 2. ゲストWi-Fiネットワークの新しいパスワードを設定する {#2-set-a-new-guest-wi-fi-network-password}
 
 セキュリティを確保するため、ゲストWi-Fiネットワークには新しいパスワードを設定することを推奨します。以下の手順に従ってください。
 
@@ -33,14 +33,14 @@ GL.iNetルーターでゲストWi-Fiネットワークを設定する方法は2�
 
 **Note:** 開始前に、GL.iNet mobile app をデバイスにインストールして設定してください。
 
-### 1. ゲストWi-Fiネットワークを有効にする
+### 1. ゲストWi-Fiネットワークを有効にする {#1-enable-the-guest-wi-fi-network_1}
 
 1. アプリのメイン画面で、**Network** タブ > **Wireless** をタップします。
 2. **Guest Network** を見つけます。
 3. ゲストWi-Fiネットワークを設定したいネットワークのスイッチをオンにします。
 ![toggle the switch](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_a_guest_network/toggle-on-guest-network.jpeg){class="glboxshadow"}
 
-### 2. ゲストWi-Fiネットワークの新しいパスワードを設定する
+### 2. ゲストWi-Fiネットワークの新しいパスワードを設定する {#2-set-a-new-guest-wi-fi-network-password_1}
 
 セキュリティを確保するため、ゲストWi-Fiネットワークには新しいパスワードを設定することを推奨します。以下の手順に従ってください。
 

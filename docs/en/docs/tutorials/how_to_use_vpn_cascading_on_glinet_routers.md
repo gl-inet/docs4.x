@@ -1,6 +1,6 @@
-# How to use VPN Cascading on GL.iNet routers?
+# How to use VPN Cascading on GL.iNet routers? {#how-to-use-vpn-cascading-on-glinet-routers}
 
-## Introduction
+## Introduction {#introduction}
 
 VPN Cascading is often referred to as "Double VPN" in some contexts, but it may differ slightly on GL.iNet routers . The core concept is illustrated below.
 
@@ -12,9 +12,9 @@ VPN Cascading is often referred to as "Double VPN" in some contexts, but it may 
 
 **VPN Cascading**: The router will forward traffic from the VPN 1 tunnel to the VPN 2 tunnel, allowing devices connected to the router via VPN 1 to access the internet through the third-party VPN service (VPN 2) instead of the router's ISP network.
 
-## How to enable VPN Cascading
+## How to enable VPN Cascading {#how-to-enable-vpn-cascading}
 
-### For firmware v4.7 and earlier
+### For firmware v4.7 and earlier {#for-firmware-v47-and-earlier}
 
 1. First, set your router as a VPN server. WireGuard protocol is recommended for faster speed. Please refer to [this link](../interface_guide/wireguard_server.md){target="_blank"}.
 
@@ -36,7 +36,7 @@ VPN Cascading is often referred to as "Double VPN" in some contexts, but it may 
 
 5. The VPN Cascading is enabled. Devices connected to your router via VPN will access the Internet through the third-party VPN service, instead of the router's ISP network.
 
-### For firmware v4.8 and higher
+### For firmware v4.8 and higher {#for-firmware-v48-and-higher}
 
 1. First, set your router as a VPN server. WireGuard protocol is recommended for faster speed. Please refer to [this link](../interface_guide/wireguard_server.md){target="_blank"}.
 

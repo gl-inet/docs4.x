@@ -1,6 +1,6 @@
-# GoodCloud Site to Site
+# GoodCloud Site to Site {#goodcloud-site-to-site}
 
-## Introduzione
+## Introduzione {#introduction}
 
 GoodCloud Site to Site consente a uffici in sedi diverse di stabilire connessioni sicure tra loro tramite Internet. Estende la rete aziendale, rendendo disponibili ai dipendenti di altre sedi le risorse informatiche di una posizione attraverso la rete.
 
@@ -12,7 +12,7 @@ GoodCloud Site to Site consente a uffici in sedi diverse di stabilire connession
 
 **Scenario 3**: per le famiglie con telecamere IP, Site to Site consente l'accesso remoto ai dispositivi quando i membri della famiglia sono fuori casa, garantendo un monitoraggio semplice da qualsiasi luogo.
 
-## Condizioni
+## Condizioni {#conditions}
 
 1. Sono necessari almeno due router GL.iNet per costruire una rete Site to Site.
 
@@ -22,7 +22,7 @@ GoodCloud Site to Site consente a uffici in sedi diverse di stabilire connession
 
 3. **NON** e' consigliato eseguire Site to Site mentre i nodi secondari eseguono anche VPN client / Tailscale / ZeroTier / AstroWarp, poiche' questo puo' rendere la configurazione di rete particolarmente complessa.
 
-## Creare una rete Site to Site
+## Creare una rete Site to Site {#build-a-site-to-site-network}
 
 1. Associa i router al tuo account GoodCloud. Consulta [Associare dispositivi al cloud](../interface_guide/cloud.md#bind-devices-to-cloud).
 
@@ -72,13 +72,13 @@ GoodCloud Site to Site consente a uffici in sedi diverse di stabilire connession
 
     ![detail s2s](https://static.gl-inet.com/goodcloud/docs/detail-s2s-01.png){class="glboxshadow"}
 
-## Testare la connessione Site to Site
+## Testare la connessione Site to Site {#testing-the-site-to-site-connection}
 
 1. Collega il PC o lo smartphone a uno dei nodi di questa rete Site to Site.
 
 2. Avvia un browser web per accedere all'IP LAN di un altro nodo. Se riesci ad accedere alla pagina di login, la connessione tra questi due nodi funziona.
 
-## Route e altre opzioni
+## Route e altre opzioni {#route-and-other-options}
 
 Per impostazione predefinita, ogni nodo puo' accedere alla LAN degli altri nodi. Per motivi di sicurezza, consigliamo di aprire solo gli indirizzi IP di servizi specifici.
 

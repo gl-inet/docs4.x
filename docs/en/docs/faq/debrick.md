@@ -1,4 +1,4 @@
-# Using Uboot to unbrick your router
+# Using Uboot to unbrick your router {#using-uboot-to-unbrick-your-router}
 
 If you bricked your router due to some DIY projects or flashing a wrong firmware, you may fail to access it. In this case, you can re-install the firmware by using U-Boot failsafe.
 
@@ -6,13 +6,13 @@ If you bricked your router due to some DIY projects or flashing a wrong firmware
 
 ---
 
-## Preparation
+## Preparation {#preparation}
 
 Please prepare a computer or laptop with an Ethernet port. If your computer does not have an Ethernet port, an additional USB-Ethernet adapter is required.
 
 **Note**: GL-E5800 (Mudi 7) currently does not support firmware flashing via U-Boot.
 
-## Unbrick Steps
+## Unbrick Steps {#unbrick-steps}
 
 Refer to this video tutorial or follow the procedures below to access the U-Boot Web UI and re-install the firmware.
 

@@ -1,4 +1,4 @@
-# Usar U-Boot para recuperar un router bloqueado
+# Usar U-Boot para recuperar un router bloqueado {#using-uboot-to-unbrick-your-router}
 
 Si su router quedó bloqueado debido a algún proyecto DIY o por instalar un firmware incorrecto, es posible que no pueda acceder a él. En este caso, puede reinstalar el firmware usando el modo de recuperación U-Boot failsafe.
 
@@ -6,13 +6,13 @@ Si su router quedó bloqueado debido a algún proyecto DIY o por instalar un fir
 
 ---
 
-## Preparación
+## Preparación {#preparation}
 
 Prepare un ordenador o portátil con puerto Ethernet. Si su equipo no tiene puerto Ethernet, necesitará además un adaptador USB a Ethernet.
 
 **Nota**: GL-E5800 (Mudi 7) no admite actualmente el flasheo de firmware mediante U-Boot.
 
-## Pasos para recuperar el router
+## Pasos para recuperar el router {#unbrick-steps}
 
 Consulte este videotutorial o siga los procedimientos que se indican a continuación para acceder a la interfaz web de U-Boot y reinstalar el firmware.
 

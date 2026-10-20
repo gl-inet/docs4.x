@@ -1,4 +1,4 @@
-# Bezpieczeństwo
+# Bezpieczeństwo {#security}
 
 > Ta strona została wprowadzona w firmware v4.5.
 
@@ -6,7 +6,7 @@ W lewym panelu bocznym panelu administracyjnego przejdź do **SYSTEM** -> **Secu
 
 Ta strona umożliwia konfigurację różnych ustawień zabezpieczeń chroniących sieć i router przed nieautoryzowanym dostępem.
 
-## Hasło administratora
+## Hasło administratora {#admin-password}
 
 Tutaj możesz zmienić hasło logowania do panelu administracyjnego.
 
@@ -18,7 +18,7 @@ Hasło administratora musi spełniać następujące wymagania:
 - Dozwolone są litery (z rozróżnieniem wielkości), cyfry oraz symbole `` ! @ # $ % ^ & * ( ) _ + - = , . > < | ? / \ [ ] { } : ; " ' ` ~ ``.
 - Wymagane są co najmniej dwa z następujących typów znaków: wielkie litery, małe litery, cyfry i symbole.
 
-## Kontrola dostępu
+## Kontrola dostępu {#access-control}
 
 Kontrola dostępu, nazywana **Local Access Control** w firmware v4.7 i starszym, zarządza dostępem do różnych interfejsów zarządzania routerem.
 
@@ -28,7 +28,7 @@ Pomaga zapobiegać skanowaniu i próbom włamania na domyślne porty oraz unika�
 
 ![security_access_control](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/access_control_4.8.png){class="glboxshadow"}
 
-### Admin Panel
+### Admin Panel {#admin-panel}
 
 - **HTTP Port**: Domyślnie 80; używany do niezaszyfrowanego dostępu HTTP do panelu administracyjnego.
 
@@ -38,7 +38,7 @@ Pomaga zapobiegać skanowaniu i próbom włamania na domyślne porty oraz unika�
 
 - **Auto-Logout Time**: Domyślnie ustawione na 5 minut; automatycznie wylogowuje nieaktywne sesje administratora po upływie tego czasu. Możesz dostosować czas automatycznego wylogowania w zakresie od 1 minuty do 3 godzin.
 
-### LuCI
+### LuCI {#luci}
 
 > Uwaga: Zainstaluj LuCI w **Advanced Settings** przed skonfigurowaniem kontroli dostępu dla tego interfejsu.
 
@@ -48,7 +48,7 @@ Pomaga zapobiegać skanowaniu i próbom włamania na domyślne porty oraz unika�
 
 - **Force HTTPS**: Po włączeniu dostęp do interfejsu LuCI będzie wymuszony przez bezpieczne połączenie HTTPS.
 
-### SSH
+### SSH {#ssh}
 
 - **Enable SSH**: Określa, czy dostęp SSH do routera jest dozwolony. Domyślnie jest włączony.
 
@@ -145,7 +145,7 @@ Jeśli przypiszesz numer portu, który koliduje z portem zarezerwowanym (lub z p
     | 6697  | IRC + TLS                                |
     | 10080 | Amanda                                   |
 
-## Kontrola zdalnego dostępu
+## Kontrola zdalnego dostępu {#remote-access-control}
 
 Po włączeniu zdalnego dostępu możesz określić, z jakich lokalizacji będzie on dozwolony. Na przykład możesz zezwolić na zdalny dostęp do urządzeń domowych tylko z biura, rezygnując z części wygody na rzecz większego bezpieczeństwa.
 
@@ -165,7 +165,7 @@ Po włączeniu zdalnego dostępu możesz określić, z jakich lokalizacji będzi
 
 ---
 
-## Otwarte porty na routerze
+## Otwarte porty na routerze {#open-ports-on-router}
 
 Aby usługi routera, takie jak WWW i FTP, były publicznie dostępne, odpowiednie porty muszą być otwarte na routerze.
 

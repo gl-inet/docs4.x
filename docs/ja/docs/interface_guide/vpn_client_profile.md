@@ -1,4 +1,4 @@
-# VPN クライアントプロフィール
+# VPN クライアントプロフィール {#vpn-client-profile}
 
 > このガイドはファームウェア v4.9 以降に適用されます。
 
@@ -8,7 +8,7 @@ Web Admin Panel の左側で、**VPN** -> **VPN Client Profile** に移動しま
 
 このページでは、統合済み VPN サービスの一部にログインして接続用プロファイルを簡単にダウンロードしたり、ほかの VPN プロバイダーの Web サイトからエクスポートした設定ファイルを手動でアップロードしたりできます。必要に応じて、右上で VPN プロトコルを切り替えることも可能です。
 
-## WireGuard
+## WireGuard {#wireguard}
 
 WireGuard® は、最先端の暗号技術を利用した軽量・高性能なモダン VPN です。IPsec よりも高速で簡潔かつ実用的であり、OpenVPN よりも大幅に高いパフォーマンスを発揮します。
 
@@ -72,9 +72,9 @@ GL.iNet ルーターでは、以下の VPN プロバイダー向けに WireGuard
 
             ![azirevpn5](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_client_profile/azirevpn5.png){class="glboxshadow"}
 
-        2. **VPN Dashboard** に移動して VPN ポリシーを設定します。詳細は [こちら](vpn_dashboard.md#set-up-vpn-policy) を参照してください。
+        2. **VPN Dashboard** に移動して VPN ポリシーを設定します。詳細は [こちら](vpn_dashboard.md#add-vpn-tunnel) を参照してください。
 
-## OpenVPN
+## OpenVPN {#openvpn}
 
 OpenVPN は、仮想プライベートネットワーク技術を用いて安全なサイトツーサイト接続またはポイントツーポイント接続を確立する、オープンソースの VPN プロトコルです。
 
@@ -82,7 +82,7 @@ GL.iNet ルーターでは、[NordVPN](https://go.nordvpn.net/aff_c?offer_id=15&
 
 ![ovpn](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_client_profile/ovpn.png){class="glboxshadow"}
 
-別の OpenVPN サービスプロバイダーを利用している場合は、プロバイダーの Web サイトから設定ファイルをダウンロードし、**Add Manually** をクリックしてルーターへアップロードしてください。設定ファイルのダウンロード方法が分からない場合は、[こちら](openvpn_client.md#get-configuration-files-from-openvpn-service-providers-get-configuration-files-from-openvpn-service-providers) を参照するか、プロバイダーのサポートへお問い合わせください。
+別の OpenVPN サービスプロバイダーを利用している場合は、プロバイダーの Web サイトから設定ファイルをダウンロードし、**Add Manually** をクリックしてルーターへアップロードしてください。設定ファイルのダウンロード方法が分からない場合は、[こちら](openvpn_client.md#get-configuration-files-from-openvpn-service-providers) を参照するか、プロバイダーのサポートへお問い合わせください。
 
 ![ovpn add manually](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_client_profile/ovpn_manual.png){class="glboxshadow"}
 

@@ -1,4 +1,4 @@
-# Ethernet-Port
+# Ethernet-Port {#ethernet-port}
 
 Der Inhalt dieser Seite basiert auf den Firmwareversionen v4.7 bis v4.9. Wenn auf Ihrem Gerät eine andere Firmwareversion ausgeführt wird, verwenden Sie die nachfolgende Auswahl, um zur entsprechenden Anleitung zu wechseln.
 
@@ -14,7 +14,7 @@ Navigieren Sie auf der linken Seite des webbasierten Admin Panels zu **NETWORK**
 
 Hier können Sie Ethernet-Portrollen (WAN/LAN) verwalten und Portdetails wie MAC-Adresse und ausgehandelte Geschwindigkeit anzeigen.
 
-## WAN
+## WAN {#wan}
 
 In diesem Abschnitt werden die Portrolle (WAN oder LAN), die MAC-Adresse und die ausgehandelte Geschwindigkeit angezeigt. 
 
@@ -28,7 +28,7 @@ In diesem Abschnitt werden die Portrolle (WAN oder LAN), die MAC-Adresse und die
 
 - **Negotiated Network Port Rate**: Die ausgehandelte Verbindungsgeschwindigkeit der WAN-Schnittstelle. Sie wird nur angezeigt, wenn eine gültige Verbindung erkannt wurde.
 
-## LAN
+## LAN {#lan}
 
 In diesem Abschnitt wird die ausgehandelte Geschwindigkeit des LAN-Ports angezeigt. Sie wird nur eingeblendet, wenn eine gültige Verbindung erkannt wurde.
 
@@ -36,7 +36,7 @@ In diesem Abschnitt wird die ausgehandelte Geschwindigkeit des LAN-Ports angezei
 
 Einige Modelle unterstützen das Umschalten von LAN 1 auf einen WAN-Port für Dual-Ethernet-WAN-Szenarien. Klicken Sie für Details auf [Dual-Ethernet WAN](#dual-ethernet-wan).
 
-## Dual-Ethernet WAN
+## Dual-Ethernet WAN {#dual-ethernet-wan}
 
 Mit der Funktion Dual-Ethernet WAN kann ein standardmäßiger LAN-Ethernet-Port in einen zweiten WAN-Port für Dual-Ethernet-Internetzugang umgeschaltet werden. Das sorgt für zuverlässige Backup-Konnektivität und unterstützt, sofern kompatibel, die Bandbreitenbündelung für bandbreitenintensive Workloads. Außerdem können Sie gleichzeitig zwei unabhängige Netzwerke, z. B. beruflich und privat, verwenden, ohne zusätzliche Hardware zu benötigen.
 

@@ -1,4 +1,4 @@
-# GL.iNetルーターに置き換えた後にインターネットがない場合の対処方法
+# GL.iNetルーターに置き換えた後にインターネットがない場合の対処方法 {#what-should-i-do-if-i-have-no-internet-after-replacing-the-old-router-with-a-glinet-router}
 
 古いルーターをGL.iNetルーターに置き換えた後、インターネットにアクセスできない場合、新しいルーターがWANポートがモデムに接続されているときにIPアドレス（DHCPまたはPPPoE経由）を取得できない可能性があります。
 

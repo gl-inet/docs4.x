@@ -1,4 +1,4 @@
-# 2台のGL.iNetルーターで独自のWireGuardホームサーバーを構築する方法
+# 2台のGL.iNetルーターで独自のWireGuardホームサーバーを構築する方法 {#build-your-own-wireguard-home-server-with-two-glinet-routers}
 
 この記事では、自宅のルーターをWireGuard VPNサーバーとして設定し、旅行用ルーターをWireGuard VPNクライアントとしてリモート接続する方法を紹介します。これにより、どこにいても旅行用ルーターで自宅のIPアドレスを利用できます。
 
@@ -13,16 +13,16 @@
 
 - GL-MT3000 は旅行用ルーターとして使用し、自宅のVPNサーバーにリモート接続する WireGuard VPNクライアントとして設定します。
 
-## 独自のWireGuardホームサーバーを構築する理由
+## 独自のWireGuardホームサーバーを構築する理由 {#why-you-need-to-build-your-own-wireguard-home-server}
 
 1. 自宅のIPアドレスをインターネット上のアドレスとして使えるため、自宅からアクセスしているように見せられます。
 2. サードパーティーのVPNサービスのような月額料金は不要です。
 3. すべてのインターネットトラフィックを暗号化されたVPNトンネル経由で自宅ネットワークにルーティングし、プライバシーを保護できます。
 4. 自宅内のリソースやローカルストリーミングに簡単にアクセスできます。
 
-## 準備
+## 準備 {#preparations}
 
-### パブリックIPがあるか確認する
+### パブリックIPがあるか確認する {#check-if-you-have-a-public-ip}
 
 まず、GL-MT6000 の WAN 側にパブリックIPアドレスがあることを確認してください。そうでない場合、旅行中に旅行用ルーターからVPN接続を確立できません。
 
@@ -38,7 +38,7 @@
 2. ISP にパブリックIPアドレスの提供を依頼します。追加料金が必要な場合があります。
 3. 上記 2 つの方法が使えない場合（ネットワークが CGNAT 配下にある場合など）は、SD-WAN ソリューション [AstroWarp](../interface_guide/astrowarp.md){target="_blank"} の利用をご検討ください。
 
-### Port Forwarding が必要か確認する
+### Port Forwarding が必要か確認する {#check-if-port-forwarding-is-required}
 
 ??? "GL.iNet as Main Router"
 
@@ -94,9 +94,9 @@
 
     **参考: [Port Forward](how_to_set_up_port_forwarding.md) の例**
 
-## WireGuardサーバーを設定する
+## WireGuardサーバーを設定する {#set-up-wireguard-server}
 
-### DDNS を有効にする（任意）
+### DDNS を有効にする（任意） {#enable-ddns-optional}
 
 固定パブリックIPアドレスではなく、動的パブリックIPアドレスのみを使っている場合は、DDNS 機能を有効にしてください。
 
@@ -110,7 +110,7 @@ GL-MT6000 の Web 管理画面にログインし、**APPLICATIONS** -> **Dynamic
 
 ![wgserver](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/wgserver-apply.png){class="glboxshadow"}
 
-### 設定を生成する
+### 設定を生成する {#generate-configuration}
 
 同じページで、Configuration タブの横にある **Profiles** タブをクリックし、**Add** をクリックします（下図の 1）。
 
@@ -120,7 +120,7 @@ GL-MT6000 の Web 管理画面にログインし、**APPLICATIONS** -> **Dynamic
 
 ![wgservergen](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/wgconfiggen.jpg){class="glboxshadow"}
 
-その後、WireGuard の [mobile app](https://www.wireguard.com/install/){target="_blank"} で QR を読み取り、サーバーをテストできます。詳細は [こちら](../interface_guide/wireguard_server.md#wireguard) を参照してください。
+その後、WireGuard の [mobile app](https://www.wireguard.com/install/){target="_blank"} で QR を読み取り、サーバーをテストできます。詳細は [こちら](../interface_guide/wireguard_server.md#check-if-wireguard-server-is-working-properly) を参照してください。
 
 また、VPNクライアント接続用にテキスト形式の設定をエクスポートすることもできます。
 
@@ -130,9 +130,9 @@ GL-MT6000 の Web 管理画面にログインし、**APPLICATIONS** -> **Dynamic
 
 ![configload](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/configload.jpg){class="glboxshadow"}
 
-## WireGuardクライアントを設定する
+## WireGuardクライアントを設定する {#set-up-wireguard-client}
 
-### LAN IP を変更する
+### LAN IP を変更する {#change-the-lan-ip}
 
 このチュートリアルでは GL-MT6000 と GL-MT3000 を例に使用していますが、どちらのデフォルト LAN IP も **192.168.8.1** です。競合を避けるため、どちらか一方を別の LAN IP に変更する必要があります。
 
@@ -144,7 +144,7 @@ GL-MT3000 の Web 管理画面にログインし、左側のサイドバーで *
 
 LAN インターフェースの詳細については [こちら](../interface_guide/lan.md) を参照してください。
 
-### 設定を追加する
+### 設定を追加する {#add-the-configuration}
 
 GL-MT3000 の Web 管理画面で **VPN** -> **WireGuard Client** に移動し、**Add Manually** をクリックします。
 
@@ -168,7 +168,7 @@ GL-MT3000 の Web 管理画面で **VPN** -> **WireGuard Client** に移動し�
 
 ![addwgclient6](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/addwgclient-6.png){class="glboxshadow"}
 
-### 接続を開始する
+### 接続を開始する {#start-the-connection}
 
 三点アイコンをクリックし、**Start** をクリックします。
 
@@ -190,7 +190,7 @@ GL-MT6000（WireGuard サーバー）の Web 管理画面に戻り、**VPN** -> 
 ![servercon](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/wgservercon-4.7.jpg){class="glboxshadow"}
 <small>（FW v4.7 以前の VPN Dashboard ページ）</small>
 
-## 外出前にリモートVPNトラブル対応の準備をする
+## 外出前にリモートVPNトラブル対応の準備をする {#prep-for-remote-vpn-fixes-ahead}
 
 旅行中に予期しない問題が発生した場合に備えて、VPN のリモートトラブルシューティング用に、両方のルーターを事前に GoodCloud アカウントへバインドしておくことをおすすめします。
 

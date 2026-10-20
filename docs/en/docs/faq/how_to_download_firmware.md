@@ -1,4 +1,4 @@
-# How to download the firmware for my GL.iNet router?
+# How to download the firmware for my GL.iNet router? {#how-to-download-the-firmware-for-my-glinet-router}
 
 If you want to update your router (or unbrick it via U-Boot), download the firmware files by the following steps: 
 

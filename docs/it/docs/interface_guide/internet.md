@@ -1,10 +1,10 @@
-# Internet
+# Internet {#internet}
 
 Accedi al pannello di amministrazione web e vai su **INTERNET**.
 
 La meta' superiore mostra un diagramma dello stato Internet, mentre la meta' inferiore elenca fino a quattro metodi di accesso a Internet (la disponibilita' varia in base al modello).
 
-## Diagramma di stato
+## Diagramma di stato {#status-diagram}
 
 ![status diagram](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet/status_diagram.png){class="glboxshadow"}
 
@@ -26,7 +26,7 @@ La meta' superiore mostra un diagramma dello stato Internet, mentre la meta' inf
 - I dispositivi collegati in modalita' wireless sono mostrati nella sezione superiore, mentre quelli cablati nella sezione inferiore.
 - I numeri accanto a ciascuna sezione indicano il numero di dispositivi collegati.
 
-## Metodi di accesso a Internet
+## Metodi di accesso a Internet {#internet-access-methods}
 
 Sono disponibili fino a quattro metodi di accesso a Internet. Fai riferimento alle guide corrispondenti qui sotto oppure inizia con il [Setup Wizard](#setup-wizard).
 
@@ -35,7 +35,7 @@ Sono disponibili fino a quattro metodi di accesso a Internet. Fai riferimento al
 - [Tethering](internet_tethering.md)
 - [Cellular](internet_cellular.md)
 
-## Setup Wizard
+## Setup Wizard {#setup-wizard}
 
 Il setup wizard e' disponibile dal firmware v4.7.
 

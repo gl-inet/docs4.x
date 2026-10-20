@@ -1,6 +1,6 @@
-# FAQ rozwiązywania problemów z połączeniem internetowym
+# FAQ rozwiązywania problemów z połączeniem internetowym {#internet-connection-troubleshooting-faq}
 
-## P1. Co zrobić, jeśli nie mam dostępu do Internetu?
+## P1. Co zrobić, jeśli nie mam dostępu do Internetu? {#q1-what-should-i-do-if-i-cannot-access-the-internet}
 
 Wykonaj poniższe kroki, aby przeprowadzić podstawowe rozwiązywanie problemów.
 
@@ -22,7 +22,7 @@ Wykonaj poniższe kroki, aby przeprowadzić podstawowe rozwiązywanie problemów
 
     Jednocześnie sprawdź, czy dostawca wcześniej skonfigurował **MAC binding** na modemie/ONT.
 
-## P2. Kiedy należy sklonować adres MAC?
+## P2. Kiedy należy sklonować adres MAC? {#q2-when-should-i-clone-a-mac-address}
 
 Niektórzy dostawcy Internetu przypisują połączenie szerokopasmowe do adresu MAC pierwszego podłączonego urządzenia, zwykle starego routera albo komputera. Po wymianie routera trzeba sklonować adres MAC, aby przywrócić dostęp do Internetu.
 
@@ -36,7 +36,7 @@ Wykonaj poniższe kroki, aby sklonować adres MAC do routera GL.iNet.
 
 3. Uruchom ponownie modem (czyli urządzenie nadrzędne).
 
-## P3. Kiedy trzeba skonfigurować VLAN ID?
+## P3. Kiedy trzeba skonfigurować VLAN ID? {#q3-when-do-i-need-to-configure-a-vlan-id}
 
 Niektórzy dostawcy wymagają tagowania VLAN do uwierzytelniania połączenia internetowego lub separacji ruchu, zwłaszcza przy łączach światłowodowych i IPTV. Skontaktuj się z dostawcą i sprawdź, czy wymagany jest VLAN ID.
 
@@ -48,7 +48,7 @@ Wykonaj poniższe kroki, aby skonfigurować VLAN ID.
 
     ![vlan id](https://static.gl-inet.com/docs/router/en/4/faq/internet_connection_troubleshooting_faq/vlan_id.png){class="glboxshadow"}
 
-## P4. Co zrobić, jeśli nadal nie działa?
+## P4. Co zrobić, jeśli nadal nie działa? {#q4-what-if-it-still-doesnt-work}
 
 Jeśli problem nadal występuje, spróbuj podłączyć komputer stacjonarny lub laptop bezpośrednio do modemu i sprawdź, czy masz dostęp do Internetu.
 
@@ -61,7 +61,7 @@ Jeśli masz dostęp do Internetu, problem może być związany z konfiguracją r
 - Nazwę dostawcy Internetu
 - Wszelkie inne informacje, które Twoim zdaniem mogą pomóc nam w udzieleniu wsparcia
 
-## Informacje o ISP
+## Informacje o ISP {#isp-information}
 
 Poniżej znajduje się zestawienie informacji o dostawcach Internetu według regionów, opracowane przez GL.iNet na podstawie opinii klientów, forów i zasobów OpenWrt. Materiał ma wyłącznie charakter informacyjny.
 

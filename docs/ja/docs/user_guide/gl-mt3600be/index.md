@@ -1,6 +1,6 @@
-# Beryl 7 (GL-MT3600BE) ユーザーガイド
+# Beryl 7 (GL-MT3600BE) ユーザーガイド {#beryl-7-gl-mt3600be-user-guide}
 
-## 製品概要
+## 製品概要 {#product-overview}
 
 Beryl 7 (GL-MT3600BE) は、ビジネス旅行や休暇などのモバイルシナリオ向けに設計されたWi-Fi 7対応デュアルバンドトラベルルーターです。Beryl AXのアップグレード版として、Multi-Link Operation (MLO)や4K QAMなどのWi-Fi 7技術をサポートし、理論的なデュアルバンド速度は688Mbps (2.4GHz) + 2882Mbps (5GHz) — 8Kストリーミングやモバイルゲームなどの高速ニーズに対応できます。
 
@@ -8,7 +8,7 @@ MediaTekクアッドコアプロセッサーで動作し、512MB NANDフラッ�
 
 ![gl-mt3600be interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3600be/hardware_info/mt3600be_interface.png){class="glboxshadow"}
 
-## パッケージコンテンツ
+## パッケージコンテンツ {#package-contents}
 
 パッケージには以下が含まれます：
 
@@ -23,17 +23,17 @@ Beryl 7の開栓動画については、以下を参照してください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xZHmP3B8VlA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Beryl 7の設定方法
+## Beryl 7の設定方法 {#how-to-set-up-beryl-7}
 
 Beryl 7の設定には，Ethernet、Repeater、Tethering、Cellularの4つのインターネット接続方法が使えます。設定動画を見るか、以下の手順に従ってください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ey-Z3MEOPpw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Beryl 7の電源を入れる
+### 1. Beryl 7の電源を入れる {#1-power-on}
 
 二分割の電源アダプターを組み合わせます。ルーターに接続し，コンセントに挿すと自動的に起動します。
 
-### 2. Beryl 7に接続する
+### 2. Beryl 7に接続する {#2-connect-device}
 
 Wi-FiまたはEthernetを使用してコンピュータまたはモバイルデバイスをルーターに接続します。
 
@@ -45,11 +45,11 @@ Wi-FiまたはEthernetを使用してコンピュータまたはモバイルデ�
 
     デバイスで、Settings -> WLANを開き，利用可能なネットワークリストからルーターのWi-Fiネットワーク名を見つけ、パスワードを入力してネットワークに参加します。（デフォルトのネットワーク名とパスワードはラベルに印刷されています。）
 
-### 3. WebGUIにログインする
+### 3. WebGUIにログインする {#3-log-in-to-web-admin-panel}
 
 Webブラウザーでアドレスバーに`192.168.8.1`を入力してログインします。言語を選択し，管理者パスワードを設定して、**Apply**をクリックします。
 
-### 4. Beryl 7をインターネットに接続する
+### 4. Beryl 7をインターネットに接続する {#4-internet-setup}
 
 **注意:** 以下の説明は、GL.iNet Web管理パネルでルーターを設定するユーザーに適用されます。GL.iNetアプリを使用する場合は，[アプリをダウンロード](https://www.gl-inet.com/app/){target="_blank"}して画面の説明に従ってください。
 
@@ -103,7 +103,7 @@ Webブラウザーでアドレスバーに`192.168.8.1`を入力してログイ�
 
 以下はBeryl 7 WebGUI機能の概要です。
 
-## Wireless
+## Wireless {#wireless}
 
 Wirelessページでは、5 GHzと2.4 GHz Wi-Fiネットワークの設定を構成できます。Wi-Fiの有効化、TX電力の設定、Wi-Fi名（SSID）の指定、ランダムBSSIDの有効化、Wi-Fiセキュリティモードとパスワードの選択、SSID可視性の設定、Wi-Fiモード、帯域幅、チャネルの選択が含まれます。
 
@@ -111,13 +111,13 @@ Wirelessページでは、5 GHzと2.4 GHz Wi-Fiネットワークの設定を構
 
 Wirelessの設定については、[Wireless](../../interface_guide/wireless.md)を参照してください。
 
-## Clients
+## Clients {#clients}
 
 Clients ページには、接続中のデバイスに関する情報が表示されます。各クライアントについて、名前、IPアドレス、MACアドレス、ダウンロード速度、アップロード速度、合計トラフィックを確認でき、クライアントをブロックしたり、その他の操作を実行したりできます。
 
 Clientsの設定については、[Clients](../../interface_guide/clients.md)を参照してください。
 
-## クラウドサービス
+## クラウドサービス {#cloud-services}
 
 === "GoodCloud"
 
@@ -131,7 +131,7 @@ Clientsの設定については、[Clients](../../interface_guide/clients.md)を
     
     AstroWarpの設定については、[AstroWarp](../../interface_guide/astrowarp.md)を参照してください。
 
-## VPN
+## VPN {#vpn}
 
 VPN（仮想プライベートネットワーク）は、デバイスとVPNサーバー間の安全で暗号化されたトラフィックを作成します。VPNクライアントとしてプライバシーとセキュリティの追加レイヤーを提供し、VPNサーバーとしてリモートネットワークにアクセスできます。Beryl 7はOpenVPN、WireGuard、Torをサポートしています。
 
@@ -155,7 +155,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
     
     * [Torの設定方法](../../interface_guide/tor.md)
 
-## アプリケーション
+## アプリケーション {#applications}
 
 === "Plug-ins"
 
@@ -201,7 +201,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
     
     Tailscaleの設定については、[Tailscale](../../interface_guide/tailscale.md)を参照してください。
 
-## ネットワーク
+## ネットワーク {#network}
 
 === "Port forwarding"
 
@@ -284,7 +284,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
     NAT設定については、[NAT Settings](../../interface_guide/nat_settings.md)を参照してください。
 
-## システム
+## システム {#system}
 
 === "Overview"
 

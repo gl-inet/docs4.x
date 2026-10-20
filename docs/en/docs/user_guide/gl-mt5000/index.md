@@ -1,12 +1,12 @@
-# Brume 3 (GL-MT5000) User Guide
+# Brume 3 (GL-MT5000) User Guide {#brume-3-gl-mt5000-user-guide}
 
-## Product overview
+## Product overview {#product-overview}
 
 Brume 3 (GL-MT5000) is a high-performance security gateway running OpenWrt v21.02, equipped with a MediaTek Quad-core Cortex-A53 CPU, 1GB RAM, and 8GB eMMC storage for plugin expansion. It features a compact design, ideal for space-constrained deployments, and supports home VPN hosting, site-to-site SD-WAN, as well as over 30 VPN services for secure, cross-location connectivity. What's more, it comes with GL.iNet's DPI feature, as well as Parental Control and AdGuard Home, meeting the diverse needs of tech enthusiasts and business users.
 
 ![gl-mt5000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt5000/hardware_info/mt5000_interface.png){class="glboxshadow"}
 
-## Package contents
+## Package contents {#package-contents}
 
 - 1 x Brume 3 (GL-MT5000)
 - 1 x Power adapter
@@ -21,27 +21,27 @@ Check out Brume 3's unboxing video below.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PupxjK_u8O8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## How to set up Brume 3
+## How to set up Brume 3 {#how-to-set-up-brume-3}
 
 Watch this setup video or follow the steps below.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RwbdUy79WHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Power on
+### 1. Power on {#1-power-on}
 
 Put the two-piece power adapter together. Connect it to your Brume 3 and plug it into an outlet. It will start up automatically.
 
-### 2. Connect device
+### 2. Connect device {#2-connect-device}
 
 Connect a wired device (e.g., a computer or laptop) to the Brume 3's LAN port via an Ethernet cable.
 
-### 3. Log in to web Admin Panel
+### 3. Log in to web Admin Panel {#3-log-in-to-web-admin-panel}
 
 **Note:** The following instructions apply to users configuring the router via the GL.iNet Web Admin Panel. 
 
 Open a web browser, enter `192.168.8.1` in the address bar and log in. Choose your language and set your admin password, then click **Apply**.
 
-### 4. Internet setup
+### 4. Internet setup {#4-internet-setup}
 
 Configure your Brume 3 using one of the supported internet connection methods: Ethernet, Tethering, and Cellular (optional). If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, please set up more than one internet connection.
 
@@ -81,13 +81,13 @@ Configure your Brume 3 using one of the supported internet connection methods: E
 
 Below is an overview of the features in the Brume 3 web Admin Panel.
 
-## Clients
+## Clients {#clients}
 
 The Clients page displays information about connected devices. For each client, it shows the name, IP and MAC addresses, download and upload speeds, total traffic, and provides the ability to block the client or perform other actions.
 
 To set up Clients, refer to [Clients](../../interface_guide/clients.md).
 
-## Cloud services
+## Cloud services {#cloud-services}
 
 === "GoodCloud"
 
@@ -101,7 +101,7 @@ To set up Clients, refer to [Clients](../../interface_guide/clients.md).
     
     To set up AstroWarp, refer to [AstroWarp](../../interface_guide/astrowarp.md).
 
-## VPN 
+## VPN {#vpn}
 
 A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Brume 3 supports OpenVPN and WireGuard. 
 
@@ -119,7 +119,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     * [How to set up a WireGuard client](../../interface_guide/wireguard_client.md)
     * [How to set up a WireGuard server](../../interface_guide/wireguard_server.md)
 
-## Network
+## Network {#network}
 
 === "Multi-WAN"
 
@@ -182,7 +182,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     To set up network acceleration, refer to [Network Acceleration](../../interface_guide/network_acceleration.md).
 
-## Flow Control
+## Flow Control {#flow-control}
 
 === "DPI Engine"
 
@@ -224,7 +224,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     Please refer to [SQM](../../interface_guide/sqm.md) for detailed instructions.
 
-## Security
+## Security {#security}
 
 === "Port Forwarding"
 
@@ -250,7 +250,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     To set up NAT settings, refer to [NAT Mode](../../interface_guide/nat_settings.md).
 
-## Applications
+## Applications {#applications}
 
 === "Plug-ins"
 
@@ -296,7 +296,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     * [How to set up Tor](../../interface_guide/tor.md)
 
-## System
+## System {#system}
 
 === "Overview"
 
@@ -383,7 +383,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     For detailed setup instructions and more information, please refer to [Advanced Settings](../../interface_guide/advanced_settings.md).
 
-## Regulatory Statements
+## Regulatory Statements {#regulatory-statements}
 
 **FCC Compliance Statement**  
 

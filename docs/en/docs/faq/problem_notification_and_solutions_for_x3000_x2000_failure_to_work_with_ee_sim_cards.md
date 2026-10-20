@@ -1,10 +1,10 @@
-# Problem Notification and Solutions for GL-X3000/GL-XE3000/GL-X2000 Failure to Work with EE SIM Cards
+# Problem Notification and Solutions for GL-X3000/GL-XE3000/GL-X2000 Failure to Work with EE SIM Cards {#problem-notification-and-solutions-for-gl-x3000gl-xe3000gl-x2000-failure-to-work-with-ee-sim-cards}
 
 Dear GL.iNet Customers,
 
 Recently we noticed that some customers come across connectivity failures with GL-X3000/GL-XE3000/GL-X2000 when using EE SIM cards. Through further troubleshooting, we found that certain EE SIM cards only support the IPv4 protocol. However, the default settings on GL.iNet cellular routers enable both IPv4 & IPv6 simultaneously, which causes this issue.
 
-## Solutions & Workarounds
+## Solutions & Workarounds {#solutions-workarounds}
 
 1. **Firmware Update**
 

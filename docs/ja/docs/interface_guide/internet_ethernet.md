@@ -1,4 +1,4 @@
-# イーサネットケーブルでインターネットに接続する
+# イーサネットケーブルでインターネットに接続する {#connect-to-the-internet-via-an-ethernet-cable}
 
 WANポートに接続したイーサネットケーブルで、ルーターをブロードバンドネットワークに接続します。通常は自動的にIPアドレス（DHCP）を取得しますが、Static IP や PPPoE を手動で設定することもできます。この方法は安定性が高く速度も速いため、固定ブロードバンド回線を利用する家庭やオフィスに適しています。
 
@@ -14,7 +14,7 @@ WANポートに接続したイーサネットケーブルで、ルーターを�
 
 **ヒント**: 必要に応じて、WAN ポートの役割を LAN ポートに変更できます。ルーターを[リピーター](internet_repeater.md)として使用する場合、物理 WAN ポートは未使用になるため、この変更が役立ちます。WAN ポートを LAN ポートに切り替えると、LAN ポートを1つ増やせます。
 
-## プロトコル
+## プロトコル {#protocol}
 
 利用できるプロトコルは DHCP、Static、PPPoE の3種類です。変更するには **Modify** をクリックします。
 
@@ -38,7 +38,7 @@ WANポートに接続したイーサネットケーブルで、ルーターを�
 
     ![ethernet pppoe](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/ethernet_5.png){class="glboxshadow"}
 
-## Advanced
+## Advanced {#advanced}
 
 基本設定に加えて、上記3つのプロトコルには次のようなオプションの詳細設定があります。
 
@@ -52,7 +52,7 @@ WANポートに接続したイーサネットケーブルで、ルーターを�
 
 * **MTU**: デフォルトの MTU 値は 1500 バイトです。
 
-## Ethernet Port
+## Ethernet Port {#ethernet-port}
 
 右上の歯車アイコンをクリックすると、ルーターのイーサネットポートを管理するための [Ethernet Port](ethernet_port.md) ページに移動します。
 
@@ -68,7 +68,7 @@ WANポートに接続したイーサネットケーブルで、ルーターを�
 
 詳細は [Ethernet Port](ethernet_port.md) を参照してください。
 
-## トラブルシューティング
+## トラブルシューティング {#troubleshooting}
 
 WAN ポートにイーサネットケーブルが接続されていてもインターネットに接続できない場合は、次の黄色いメッセージが表示されます。
 

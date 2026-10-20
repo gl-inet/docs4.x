@@ -1,4 +1,4 @@
-# GL.iNetルーターでNordVPNのDedicated IPに接続する方法
+# GL.iNetルーターでNordVPNのDedicated IPに接続する方法 {#how-to-connect-to-nordvpn-with-a-dedicated-ip-on-glinet-routers}
 
 この記事では、GL.iNet ルーターで NordVPN の Dedicated IP 接続を設定する手順を紹介します。
 

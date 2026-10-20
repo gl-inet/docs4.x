@@ -1,4 +1,4 @@
-# Se connecter à Internet via le réseau cellulaire (v4.8-v4.9)
+# Se connecter à Internet via le réseau cellulaire (v4.8-v4.9) {#connect-to-the-internet-via-cellular-v48-v49}
 
 Le contenu de cette page est basé sur les versions de firmware v4.8 à v4.9. Si votre appareil utilise une autre version de firmware, utilisez le sélecteur ci-dessous pour passer au guide correspondant.
 
@@ -35,7 +35,7 @@ Nous prenons ici le **GL-E750 (Mudi)** comme exemple.
 
 Nous vous recommandons d'éteindre d'abord le routeur, d'insérer une carte SIM préactivée dans l'emplacement, puis de le rallumer. Si vous insérez la carte SIM après le démarrage du routeur, le panneau d'administration web peut ne pas se mettre à jour automatiquement. Dans ce cas, actualisez la page ou redémarrez le routeur.
 
-### Configuration automatique
+### Configuration automatique {#auto-setup}
 
 Connectez-vous au panneau d'administration web du routeur, puis accédez à **INTERNET** -> **Cellular**.
 
@@ -97,7 +97,7 @@ Nous prenons ici le **GL-X3000 (Spitz AX)** comme exemple. Il prend en charge le
 
 Nous vous recommandons d'éteindre d'abord le routeur, d'insérer vos cartes SIM préactivées dans les emplacements, puis de le rallumer. Si vous insérez la carte SIM après le démarrage du routeur, le panneau d'administration web peut ne pas se mettre à jour automatiquement. Dans ce cas, actualisez la page ou redémarrez le routeur.
 
-### Configuration automatique
+### Configuration automatique {#auto-setup_1}
 
 Connectez-vous au panneau d'administration web du routeur, puis accédez à **INTERNET** -> **Cellular**.
 
@@ -155,7 +155,7 @@ L'application des modifications déclenchera une reconnexion.
 
 - **Band Masking** : vous pouvez activer le masquage de bandes si vous souhaitez que le routeur bloque certaines bandes ou n'utilise que certaines bandes cellulaires. Cliquez [ici](#band-masking) pour plus de détails.
 
-### Paramètres des emplacements de carte SIM
+### Paramètres des emplacements de carte SIM {#sim-card-slot-settings}
 
 Dans le panneau d'administration web du routeur, accédez à **INTERNET** -> **Cellular**, puis cliquez sur **SIM Card Switch**.
 
@@ -199,7 +199,7 @@ Nous prenons ici le **GL-MT3000 (Beryl AX)** avec un modem USB externe **SIMPoYo
 
 Nous vous recommandons d'éteindre d'abord le routeur, d'insérer une carte SIM préactivée dans le modem USB, de brancher le modem sur le port USB du routeur, puis de rallumer le routeur. Si vous branchez le modem USB après le démarrage du routeur, le panneau d'administration web peut ne pas se mettre à jour automatiquement. Dans ce cas, actualisez la page ou redémarrez le routeur.
 
-### Configuration rapide
+### Configuration rapide {#quick-setup}
 
 1. Éteignez d'abord le routeur. Insérez une carte SIM dans le modem USB, branchez le modem sur le port USB du routeur, puis rallumez le routeur.
 
@@ -221,7 +221,7 @@ Nous vous recommandons d'éteindre d'abord le routeur, d'insérer une carte SIM 
 
     **Remarque :** après la configuration initiale, si vous redémarrez le routeur avec le modem USB branché, ou si vous rebranchez le modem, celui-ci sera reconnu automatiquement et la connexion réseau sera établie sans avoir à cliquer de nouveau sur le bouton de connexion.
 
-### Modems compatibles
+### Modems compatibles {#compatible-modems}
 
 Voici la liste des modems pris en charge que nous avons déjà testés. 
 
@@ -253,7 +253,7 @@ Voici la liste des modems pris en charge que nous avons déjà testés.
 
 - **Host-less** : ce modem prend en charge le mode Tethering. Veuillez gérer la connexion via l'interface Tethering du routeur plutôt que via l'interface Cellular.
 
-## Statistiques de trafic
+## Statistiques de trafic {#traffic-statistics}
 
 Dans le panneau d'administration web du routeur, accédez à **INTERNET** -> **Cellular**, puis cliquez sur **Data Used**.
 
@@ -287,7 +287,7 @@ Si **Data Used** dépasse **Data Cap Amount**, modifiez manuellement **Data Cap 
 
 Pour les modèles Dual-SIM, nous recommandons d'activer également **SIM Card Slot Auto Switch**. Si **SIM 1 Data Cap Amount** est défini et que **SIM Card Slot Auto Switch** est activé, la carte SIM 1 basculera automatiquement vers la carte SIM 2 lorsque sa consommation dépassera **Data Cap Amount**, et la carte SIM 1 sera désactivée.
 
-## Historique du signal
+## Historique du signal {#historical-signal-record}
 
 Dans le panneau d'administration web du routeur, accédez à **INTERNET** -> **Cellular**, puis cliquez sur **Historical Signal Record**.
 
@@ -313,15 +313,15 @@ Dans le panneau d'administration web du routeur, accédez à **INTERNET** -> **C
 
 Sélectionnez le **Masking Mode** (Block ou Open), puis choisissez les bandes LTE, les bandes 5G NSA et les bandes 5G SA.
 
-## SMS
+## SMS {#sms}
 
 Veuillez consulter [SMS](../tutorials/sms.md).
 
-## SMS Forwarding
+## SMS Forwarding {#sms-forwarding}
 
 Veuillez consulter [SMS Forwarding](../tutorials/sms_forwarding.md).
 
-## Verrouillage d'antenne relais
+## Verrouillage d'antenne relais {#lock-tower}
 
 !!! note "Modèles pris en charge"
 
@@ -360,7 +360,7 @@ Cliquez sur une antenne relais pour afficher les détails et la verrouiller.
 
 3. Après avoir verrouillé une antenne relais, si vous déplacez le routeur vers un autre emplacement, il tentera toujours de se reconnecter à l'antenne relais verrouillée après redémarrage. Cela peut empêcher le routeur de se connecter automatiquement au réseau cellulaire dans le nouvel emplacement. Dans ce cas, vous devrez soit déverrouiller l'antenne relais actuelle, soit la verrouiller manuellement sur une nouvelle antenne relais.
 
-## Verrouillage d'opérateur
+## Verrouillage d'opérateur {#lock-operator}
 
 !!! note "Modèles pris en charge"
 
@@ -385,7 +385,7 @@ Trois modes de verrouillage sont disponibles :
 
 ![lock operator 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/lock_operator_1.png){class="glboxshadow"}
 
-## Commandes AT du modem
+## Commandes AT du modem {#modem-at-command}
 
 Les commandes AT du modem sont des instructions standard utilisées pour communiquer avec le modem cellulaire. Cette fonctionnalité vous permet d'envoyer des commandes et de vérifier l'état du modem.
 
@@ -421,7 +421,7 @@ Dans le coin inférieur droit, vous pouvez cliquer sur **Export Debug Info** pou
 
 ![AT command 4](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/at_command_4.png){class="glboxshadow"}
 
-## Dépannage
+## Dépannage {#troubleshooting}
 
 Si vous ne parvenez pas à établir une connexion cellulaire, cliquez sur le message d'erreur ci-dessous pour consulter les solutions correspondantes.
 
@@ -491,7 +491,7 @@ Si vous ne parvenez pas à établir une connexion cellulaire, cliquez sur le mes
 
 ## Certification IoT {#iot-certification}
 
-### Certification AT&T
+### Certification AT&T {#att-certification}
 
 Cliquez sur le lien [att device certification](https://iotdevices.att.com/certified-devices.aspx#), puis saisissez le nom de l'appareil pour le trouver. 
 
@@ -499,7 +499,7 @@ Cliquez sur le lien [att device certification](https://iotdevices.att.com/certif
 
 ![bandmasking](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/certification/at&t_certification_2.png){class="glboxshadow"}
 
-### Certification T-Mobile
+### Certification T-Mobile {#t-mobile-certification}
 
 Cliquez sur le lien [t-mobile device certification](https://www.t-mobile.com/business/solutions/iot/device-certification){target="_blank"}, choisissez 5G dans **Filter**, puis recherchez votre appareil.
 

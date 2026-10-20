@@ -1,4 +1,4 @@
-# VPN Dashboard (Firmware v4.8)
+# VPN Dashboard (Firmware v4.8) {#vpn-dashboard-firmware-v48}
 
 このページの内容は、ファームウェア v4.8.x に基づいています。デバイスで別のファームウェアバージョンを使用している場合は、以下のセレクターで該当するガイドに切り替えてください。
 
@@ -44,7 +44,7 @@ VPNサーバーを選択して **Apply** をクリックします。ここで選
 
 VPNポリシーを設定する場合は、[ポリシーモード](#policy-mode) を参照してください。
 
-## VPNモード
+## VPNモード {#vpn-mode}
 
 VPN Dashboard で、右上のボタンをクリックしてVPNモードを切り替えます。
 
@@ -64,7 +64,7 @@ VPN Dashboard で、右上のボタンをクリックしてVPNモードを切り
 
 ![connected global mode](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/connected-global-mode.png){class="glboxshadow"}
 
-#### トンネルオプション {#global-tunnel-options}
+#### トンネルオプション {#tunnel-options}
 
 このVPNトンネルでは、VPNキルスイッチ、IPマスカレーディング、MTU などの詳細設定を構成できます。
 
@@ -212,7 +212,7 @@ Primary Tunnel は、Policy Mode における<u>プリセット</u>のトンネ�
 
 ![connected policy mode](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/connected-policy-mode.jpg){class="glboxshadow"}
 
-**注意**: セキュリティ確保のため、トンネルを有効にする前に [All Other Traffic](#all-other-traffic) と [Tunnel Options](#tunnel-options) で他の設定も確認してください。
+**注意**: セキュリティ確保のため、トンネルを有効にする前に [All Other Traffic](#all-other-traffic) と [Tunnel Options](#tunnel-options_1) で他の設定も確認してください。
 
 #### トンネルを追加 {#add-tunnel}
 
@@ -232,7 +232,7 @@ VPN Dashboard にもう1つトンネルが追加されます。
 
 トラフィック送信元、宛先、ルーティング方法を設定してトンネルルールをカスタマイズしてください。詳細は [Primary Tunnel](#primary-tunnel) を参照してください。
 
-**注意**: セキュリティ確保のため、トンネルを有効にする前に [All Other Traffic](#all-other-traffic) と [Tunnel Options](#tunnel-options) で他の設定も確認してください。
+**注意**: セキュリティ確保のため、トンネルを有効にする前に [All Other Traffic](#all-other-traffic) と [Tunnel Options](#tunnel-options_1) で他の設定も確認してください。
 
 #### その他のすべてのトラフィック {#all-other-traffic}
 
@@ -276,7 +276,7 @@ Policy Mode では、VPN Dashboard の下部に<u>あらかじめ有効になっ
     - 有効な場合、一致しないトラフィックやフェイルオーバートラフィックはローカルWAN経由でルーティングされます。
     - 無効な場合、キルスイッチが強化され、IPリークを防ぐため通常のインターネットアクセスがブロックされます。
 
-#### トンネルオプション {#tunnel-options}
+#### トンネルオプション {#tunnel-options_1}
 
 各VPNトンネルでは、VPNキルスイッチ、IPマスカレーディング、MTU などの詳細設定を行えます。
 

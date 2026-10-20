@@ -1,12 +1,12 @@
-# Guida utente di Flint 2 (GL-MT6000)
+# Guida utente di Flint 2 (GL-MT6000) {#flint-2-gl-mt6000-user-guide}
 
-## Panoramica del prodotto
+## Panoramica del prodotto {#product-overview}
 
 Flint 2 (GL-MT6000) è un router Wi-Fi 6 per casa e ufficio, ideale per trasmissioni dati intensive, connessioni simultanee di molti dispositivi o ambienti di gaming a bassissima latenza. Flint 2 offre velocità VPN WireGuard estremamente elevate, fino a 900 Mbps. Inoltre supporta funzionalità di ridondanza di rete avanzate, tra cui Multi-WAN, failover e load balance, per garantire una rete senza interruzioni.
 
 ![gl-mt6000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000/hardware_info/gl-mt6000_interface.jpg){class="glboxshadow"}
 
-## Contenuto della confezione
+## Contenuto della confezione {#package-contents}
 
 - 1 x Flint 2 (GL-MT6000)
 - 1 x Manuale utente
@@ -21,18 +21,18 @@ Guarda qui sotto il video di unboxing di Flint 2.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ru1O-zxKgKg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Come configurare Flint 2
+## Come configurare Flint 2 {#how-to-set-up-flint-2}
 
 Guarda questo video di configurazione oppure segui i passaggi qui sotto.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZAVn92F5RV8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <small>(In questo video viene utilizzato un router GL.iNet diverso per mostrare la configurazione, ma i passaggi sono gli stessi per Flint 2 e per gli altri modelli di router.)</small>
 
-### 1. Accensione
+### 1. Accensione {#1-power-on}
 
 Assembla l'alimentatore in due parti. Collegalo al router e inseriscilo in una presa di corrente. Il dispositivo si avvierà automaticamente.
 
-### 2. Collegare un dispositivo
+### 2. Collegare un dispositivo {#2-connect-device}
 
 Collega un dispositivo, ad esempio un computer, un portatile o uno smartphone, al router tramite Wi-Fi o Ethernet.
 
@@ -44,13 +44,13 @@ Collega un dispositivo, ad esempio un computer, un portatile o uno smartphone, a
 
     Sul dispositivo, vai su Impostazioni -> WLAN, individua il nome della rete Wi-Fi del router nell'elenco delle reti disponibili e inserisci la password per connetterti. Il nome di rete e la password predefiniti sono stampati sull'etichetta del router.
 
-### 3. Accedere al pannello di amministrazione web
+### 3. Accedere al pannello di amministrazione web {#3-log-in-to-web-admin-panel}
 
 Apri un browser web, inserisci `192.168.8.1` nella barra degli indirizzi ed effettua l'accesso. Scegli la lingua, imposta la password di amministrazione, quindi fai clic su **Apply**.
 
 Quando confermi i dettagli del Wi-Fi, tieni presente che se modifichi le informazioni Wi-Fi dovrai ricollegare il dispositivo alla rete Wi-Fi del router utilizzando le credenziali aggiornate.
 
-### 4. Configurazione di Internet
+### 4. Configurazione di Internet {#4-internet-setup}
 
 **Nota:** Le istruzioni seguenti si applicano agli utenti che configurano il router tramite il pannello di amministrazione web GL.iNet. Se preferisci utilizzare l'app GL.iNet, [scarica l'app](https://www.gl-inet.com/app/){target="_blank"} e segui le istruzioni visualizzate sullo schermo.
 
@@ -102,7 +102,7 @@ Configura Flint 2 utilizzando uno dei metodi di connessione Internet supportati:
 
 ---
 
-## Come configurare una VPN
+## Come configurare una VPN {#how-to-set-up-a-vpn}
 
 Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il tuo dispositivo e il server VPN. Offre un ulteriore livello di privacy e sicurezza, nel caso del client VPN, e permette di accedere a una rete remota, nel caso del server VPN. Flint 2, come gli altri router GL.iNet, supporta OpenVPN e WireGuard. Inoltre supporta anche Tor.
 
@@ -126,7 +126,7 @@ Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il t
     
     * [Come configurare Tor](../../interface_guide/tor.md).
 
-## Wireless e client
+## Wireless e client {#wireless-and-clients}
 
 === "Wireless"
 
@@ -140,7 +140,7 @@ Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il t
 
     Per configurare i client, fai riferimento a [Clients](../../interface_guide/clients.md).
 
-## Servizi cloud
+## Servizi cloud {#cloud-services}
 
 === "GoodCloud"
 
@@ -154,7 +154,7 @@ Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il t
     
     Per configurare AstroWarp, fai riferimento a [AstroWarp](../../interface_guide/astrowarp.md).
 
-## Applicazioni
+## Applicazioni {#applications}
 
 === "Plug-in"
 
@@ -204,7 +204,7 @@ Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il t
 
 ---
 
-## Impostazioni di rete
+## Impostazioni di rete {#network-settings}
 
 === "Port forwarding"
 
@@ -284,7 +284,7 @@ Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il t
 
 ---
 
-## Impostazioni di sistema
+## Impostazioni di sistema {#system-settings}
 
 === "Panoramica"
 

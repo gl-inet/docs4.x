@@ -1,4 +1,4 @@
-# LAN
+# LAN {#lan}
 
 Sul lato sinistro del pannello di amministrazione web, vai su **NETWORK** -> **LAN**.
 
@@ -6,7 +6,7 @@ La LAN e' la rete a cui il dispositivo e' connesso quando si collega tramite il 
 
 Include impostazioni di base, impostazioni del server DHCP e prenotazione degli indirizzi.
 
-## Impostazioni di base
+## Impostazioni di base {#basic-settings}
 
 Puoi impostare la subnet all'interno degli intervalli di indirizzi privati IPv4: `192.168.0.0/16`, `172.16.0.0/12`, `10.0.0.0/8`.
 
@@ -26,7 +26,7 @@ Puoi impostare la subnet all'interno degli intervalli di indirizzi privati IPv4:
 
     Puoi isolare i dispositivi client in un segmento di rete separato. Questi dispositivi non potranno comunicare con altri dispositivi sulla stessa rete.
 
-## Server DHCP
+## Server DHCP {#dhcp-server}
 
 Il **DHCP Server** e' abilitato per impostazione predefinita. Il server DHCP assegna automaticamente indirizzi IP e altri parametri di comunicazione a ciascun dispositivo client.
 
@@ -52,7 +52,7 @@ Se necessario, fai clic su **Advanced** per ulteriori configurazioni.
 
 - **LPR Server**: (Line Printer Remote Server) un servizio che gestisce i processi di stampa e consente ai dispositivi di rete di inviare richieste di stampa a stampanti remote. E' possibile configurare piu' porte stampante LPR.
 
-## Prenotazione degli indirizzi
+## Prenotazione degli indirizzi {#address-reservation}
 
 Quando specifichi un indirizzo IP riservato per un client all'interno della LAN, il client riceve sempre lo stesso indirizzo IP ogni volta che accede al server DHCP del router. Puoi assegnare indirizzi IP riservati a computer o server che richiedono impostazioni IP permanenti.
 

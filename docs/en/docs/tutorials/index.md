@@ -4,11 +4,11 @@ hide:
   - toc
 ---
 
-# Tutorials
+# Tutorials {#tutorials}
 
 Learn how to use our devices correctly with detailed steps.
 
-## VPN
+## VPN {#vpn}
 
 * [How to set up OpenVPN client on GL.iNet routers](how_to_set_up_openvpn_client.md)
 * [How to set up OpenVPN server on GL.iNet routers](how_to_set_up_openvpn_server.md)
@@ -31,7 +31,7 @@ Learn how to use our devices correctly with detailed steps.
 * [How to update OpenVPN server certificates](how_to_update_openvpn_server_certificates.md)
 * [How to make AdGuard Home DNS bypass VPN](how_to_make_adguard_home_dns_bypass_vpn.md)
 
-## Cellular
+## Cellular {#cellular}
 
 * [SMS](sms.md)
 * [SMS Forwarding](sms_forwarding.md)
@@ -42,17 +42,17 @@ Learn how to use our devices correctly with detailed steps.
 * [How to install or change external antennas for cellular routers](how_to_install_or_change_antennas.md)
 * [Understanding external cellular antennas](understanding_external_cellular_antennas.md)
 
-## eSIM
+## eSIM {#esim}
 
 * [How to use the eSIM Physical Card with GL.iNet routers](how_to_use_esim_physical_card_with_glinet_routers.md)
 * [How to use the eSIM Physical Card with Android devices](how_to_use_the_esim_physical_card_with_android_devices.md)
 
-## GoodCloud
+## GoodCloud {#goodcloud}
 
 * [GoodCloud Site to Site](goodcloud_site_to_site.md)
 * [How to access the LuCI interface via GoodCloud](how_to_access_the_luci_interface_via_goodcloud.md)
 
-## Network
+## Network {#network}
 
 * [How to connect to an EAP (Extensible Authentication Protocol) network](eap.md)
 * [How to set up a guest Wi-Fi network on GL.iNet routers](how_to_set_up_a_guest_network.md)
@@ -62,7 +62,7 @@ Learn how to use our devices correctly with detailed steps.
 * [How to configure dual wired WAN access on a single-WAN-port router](configure_dual_ethernet_wan.md)
 * [What is USB-C OTG and how to share your network via USB-C OTG](what_is_usb-c_otg_and_how_to_share_your_network_via_usb-c_otg.md)
 
-## Others
+## Others {#others}
 
 * [How to block client devices](how_to_block_client_devices.md)
 * [How to manually configure static IP on the client devices](manually_configure_static_ip.md)

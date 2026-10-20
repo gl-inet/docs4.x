@@ -1,10 +1,10 @@
-# WireGuard サーバーが正常に動作しない場合の対処方法
+# WireGuard サーバーが正常に動作しない場合の対処方法 {#what-should-i-do-if-the-wireguard-server-is-not-working-properly}
 
 GL.iNet ルーター上の WireGuard サーバーが正常に動作しない場合、複数の原因が考えられます。
 
 発生している問題に応じて、以下のトラブルシューティング手順に従ってください。
 
-## 状況 1. WireGuard サーバーは起動しているが接続できない
+## 状況 1. WireGuard サーバーは起動しているが接続できない {#situation-1-the-wireguard-server-is-starting-but-cant-be-connected}
 
 ??? "以下の手順に従ってください"
 
@@ -51,7 +51,7 @@ GL.iNet ルーター上の WireGuard サーバーが正常に動作しない場�
 
     GL.iNetルーター（セカンダリールーター）のログイン画面が表示されない場合は、ポート転送が正常に動作していません。ポート転送を再度設定するか、正常に動作するポート転送機能を備えたルーターをプライマリールーターとして使用してください。
 
-## 状況 2. WireGuard サーバーにはクライアントが接続済みと表示されるが、VPN クライアントがインターネットにアクセスできない
+## 状況 2. WireGuard サーバーにはクライアントが接続済みと表示されるが、VPN クライアントがインターネットにアクセスできない {#situation-2-the-wireguard-server-shows-connected-client-but-the-vpn-client-cannot-access-the-internet}
 
 ??? "以下の手順に従ってください"
 
@@ -94,7 +94,7 @@ GL.iNet ルーター上の WireGuard サーバーが正常に動作しない場�
     3. **設定**タブで、**IPv4アドレス**フィールドで**10.0.0.1**の後に**/24**を追加します。
     4. **適用**をクリックします。
 
-## 状況 3. WireGuard サーバーは実行中だが VPN クライアントが接続できない
+## 状況 3. WireGuard サーバーは実行中だが VPN クライアントが接続できない {#situation-3-the-wireguard-server-is-running-but-vpn-client-cannot-connect-to-it}
 
 ??? "以下の手順に従ってください"
 
@@ -125,7 +125,7 @@ GL.iNet ルーター上の WireGuard サーバーが正常に動作しない場�
 
     設定情報を再アップロードしてください。
 
-## 状況 4. WireGuard サーバーは接続されているが、接続が安定しない
+## 状況 4. WireGuard サーバーは接続されているが、接続が安定しない {#situation-4-the-wireguard-server-is-connected-but-the-connection-is-not-stable}
 
 ??? "以下の手順に従ってください"
 
@@ -140,7 +140,7 @@ GL.iNet ルーター上の WireGuard サーバーが正常に動作しない場�
         4. **DNSサーバー1**で**Google Public DNS**を選択します。
         5. **適用**をクリックします。
 
-## 状況 5. WireGuard サーバーが突然動作しなくなった
+## 状況 5. WireGuard サーバーが突然動作しなくなった {#situation-5-the-wireguard-server-suddenly-stopped-working}
 
 ??? "以下の手順に従ってください"
 

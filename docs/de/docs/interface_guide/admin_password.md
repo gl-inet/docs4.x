@@ -1,4 +1,4 @@
-# Admin-Passwort
+# Admin-Passwort {#admin-password}
 
 **Hinweis**: Die Seite "Admin Password" wurde ab Firmware v4.3 in [Security](security.md) integriert und ist seit Firmware v4.9 wieder als eigenständige Seite verfügbar.
 

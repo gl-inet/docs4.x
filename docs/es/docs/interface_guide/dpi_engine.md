@@ -1,4 +1,4 @@
-# DPI Engine
+# DPI Engine {#dpi-engine}
 
 **Nota**: Esta función se introdujo en el firmware v4.9.
 
@@ -57,7 +57,7 @@ Integrado con [Netify](https://www.netify.ai/){target="_blank"}, el DPI de GL.iN
     - GL-S1300 (Convexa-S)
 
 
-## Configuración rápida
+## Configuración rápida {#quick-setup}
 
 En el lado izquierdo del panel de administración web, vaya a **FLOW CONTROL** -> **DPI Engine** y haga clic en **Enable DPI Engine**.
 
@@ -81,7 +81,7 @@ Se le dirigirá al **DPI Engine Version Center**, donde podrá ver la versión d
 
 **Nota**: Esta página solo muestra indicadores del estado del sistema principal. El procesamiento del tráfico comenzará cuando habilite las funciones correspondientes.
 
-## Actualización de la base de datos
+## Actualización de la base de datos {#database-upgrade}
 
 Si hay una versión más reciente de la base de datos disponible, solo tiene que hacer clic en **Upgrade** para actualizarla.
 

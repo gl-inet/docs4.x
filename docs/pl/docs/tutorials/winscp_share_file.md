@@ -1,10 +1,10 @@
-# Używanie WinSCP do uzyskiwania dostępu do udostępnionych plików
+# Używanie WinSCP do uzyskiwania dostępu do udostępnionych plików {#use-winscp-to-access-your-share-files}
 
 Możesz używać **WinSCP** do uzyskiwania dostępu do udostępnionych plików za pomocą funkcji udostępniania plików w **GL-Routers**.
 
 Skonfiguruj linki **WebDAV** na karcie pamięci sieciowej. Szczegółowe instrukcje konfiguracji znajdziesz w przewodniku [WebDAV](https://docs.gl-inet.com/router/en/4/interface_guide/network_storage/#set-up-webdav)
 
-## Konfiguracja linków w WinSCP
+## Konfiguracja linków w WinSCP {#setup-links-in-winscp}
 
 Po skonfigurowaniu WebDAV wróć do strony **Share Folders** w pamięci sieciowej.
 

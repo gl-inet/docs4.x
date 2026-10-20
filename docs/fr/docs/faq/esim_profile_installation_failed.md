@@ -1,4 +1,4 @@
-# Que faire si l'installation du profil eSIM echoue ?
+# Que faire si l'installation du profil eSIM echoue ? {#what-should-i-do-if-esim-profile-installation-fails}
 
 Si vous essayez d'ajouter un profil eSIM sur votre routeur GL.iNet mais que l'installation echoue, veuillez suivre les etapes suivantes pour effectuer le depannage :
 

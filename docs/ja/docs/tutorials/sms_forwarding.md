@@ -1,10 +1,10 @@
-# SMS転送
+# SMS転送 {#sms-forwarding}
 
 GL.iNetのセルラールーターはSMS転送をサポートしており、受信したメッセージを指定した宛先へ自動的に送信できます。
 
 **注意**: この機能は、純正の4G LTE / 5G NRモジュールを搭載したGL.iNetセルラールーターでのみ動作します。他のモジュールやUSBモジュールではサポートされません。
 
-## 対応モデル
+## 対応モデル {#supported-models}
 
 ??? "対応モデル"
     - GL-E5800 (Mudi 7)
@@ -41,7 +41,7 @@ GL.iNetのセルラールーターはSMS転送をサポートしており、受�
     - GL-B1300 (Convexa-B)
     - GL-AP1300 (Cirrus)
 
-## 設定
+## 設定 {#quick-setup}
 
 ここでは GL-XE3000 (Puli AX) を例に説明します。
 
@@ -51,7 +51,7 @@ Web管理パネルの左側で **INTERNET** -> **Cellular** セクションに�
 
 ![sms setting](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms.png){class="glboxshadow"}
 
-### メールで転送する
+### メールで転送する {#forward-via-email}
 
 ![sms forwarding email](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms_forward_email.png){class="glboxshadow"}
 
@@ -88,7 +88,7 @@ Web管理パネルの左側で **INTERNET** -> **Cellular** セクションに�
 
 追加できるメールアドレスは最大10件です。
 
-### SMSで転送する
+### SMSで転送する {#forward-via-sms}
 
 ![sms forwarding phone](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms_forward_phone.png){class="glboxshadow"}
 

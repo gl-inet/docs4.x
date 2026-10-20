@@ -1,10 +1,10 @@
-# SMS
+# SMS {#sms}
 
 GL.iNet-Mobilfunkrouter sind mit einem integrierten Modem ausgestattet, das nach dem Einlegen einer SIM-Karte das Senden und Empfangen von SMS-Nachrichten unterstützt.
 
 **Hinweis**: Diese Funktion arbeitet nur auf GL.iNet-4G/5G-Modellen mit dem originalen 4G-LTE-/5G-NR-Modul und wird weder von anderen Modulen noch von USB-Modulen unterstützt.
 
-## Unterstützte Modelle
+## Unterstützte Modelle {#supported-models}
 
 ??? "Unterstützte Modelle"
     - GL-E5800 (Mudi 7)
@@ -41,7 +41,7 @@ GL.iNet-Mobilfunkrouter sind mit einem integrierten Modem ausgestattet, das nach
     - GL-B1300 (Convexa-B)
     - GL-AP1300 (Cirrus)
 
-## Schnellkonfiguration
+## Schnellkonfiguration {#quick-setup}
 
 Nehmen Sie den GL-X3000 (Spitz AX) als Beispiel.
 

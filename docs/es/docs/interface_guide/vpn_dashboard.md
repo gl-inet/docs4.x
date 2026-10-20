@@ -1,4 +1,4 @@
-# VPN Dashboard
+# VPN Dashboard {#vpn-dashboard}
 
 El contenido de esta página se basa en la versión de firmware v4.9.x y posteriores. Si su dispositivo ejecuta otra versión de firmware, use el selector siguiente para cambiar a la guía correspondiente.
 
@@ -21,9 +21,9 @@ En comparación con el firmware v4.8, la versión v4.9 incluye las siguientes me
 
 2. **Cada grupo de túneles funciona de forma independiente y no realiza conmutación por error entre grupos**. Si todos los perfiles de un mismo túnel no consiguen conectarse, el sistema decidirá si cambia a la WAN local según el estado del Kill Switch del túnel y del túnel **All Other Traffic**.
 
-## Primeros pasos
+## Primeros pasos {#getting-started}
 
-### Cargar perfil VPN
+### Cargar perfil VPN {#upload-vpn-profile}
 
 Cuando entre en esta página por primera vez, si no se ha creado ningún túnel, la página se mostrará como en la imagen siguiente. Haga clic en **Add VPN Tunnel** para empezar.
 
@@ -49,7 +49,7 @@ Después, haga clic en **Go to Dashboard** en la parte inferior. Se le dirigirá
 
 ![PureVPN3](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/purevpn3.png){class="glboxshadow"}
 
-### Configurar la política VPN
+### Configurar la política VPN {#general-steps}
 
 !!! note "¿Qué es una política VPN?"
 
@@ -98,7 +98,7 @@ En VPN Dashboard, siga el asistente de configuración para definir su política 
     - **Exclude specified Domain / IP List**: si se selecciona, el tráfico que coincida con esta regla no se enrutará a los dominios o direcciones IP especificados. Debe introducirlos manualmente.
     ![exclude specified domain ip](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/exclude_specified_domain_ip.png){class="glboxshadow"}
 
-### Kill Switch
+### Kill Switch {#kill-switch}
 
 !!! note "¿Qué es Kill Switch?"
 
@@ -114,11 +114,11 @@ Desde el firmware v4.8, los routers GL.iNet admiten la configuración de un Kill
 
 - Para configurar el Kill Switch de la conexión VPN global, es decir, el Enhanced Kill Switch, consulte [aquí](#all-other-traffic).
 
-## Escenarios de uso
+## Escenarios de uso {#usage-scenarios}
 
 Aquí tiene dos escenarios con instrucciones paso a paso como referencia.
 
-### Escenario 1
+### Escenario 1 {#scenario-1}
 
 **Objetivos**:
 
@@ -174,7 +174,7 @@ Aquí tiene dos escenarios con instrucciones paso a paso como referencia.
 
     Ahora, solo los dispositivos especificados acceden a Internet a través de la VPN. Si la VPN se desconecta inesperadamente, el acceso a Internet de estos dispositivos se bloqueará para evitar fugas de DNS y rastreo de IP. Todos los demás dispositivos accederán a Internet a través de la WAN local.
 
-### Escenario 2
+### Escenario 2 {#scenario-2}
 
 **Objetivos:**
 
@@ -264,7 +264,7 @@ Aquí tiene dos escenarios con instrucciones paso a paso como referencia.
 
     Ahora, todos los dispositivos usarán **VPN Tunnel 1** al acceder a los dominios especificados y **VPN Tunnel 2** para el resto del acceso a Internet. Si los túneles VPN se desconectan inesperadamente, el acceso a Internet de todos los dispositivos se bloqueará para evitar fugas de DNS y rastreo de IP.
 
-## All Other Traffic
+## All Other Traffic {#all-other-traffic}
 
 Haga clic en el icono de engranaje de la esquina superior derecha para configurar la política del tráfico que no coincida con ningún túnel VPN.
 
@@ -280,7 +280,7 @@ Esta política controla si el tráfico que no coincide con ninguno de sus grupos
 
     ![enhanced killswitch](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/enhanced_killswitch.png){class="glboxshadow"}
 
-## Prioridad de los túneles
+## Prioridad de los túneles {#tunnel-priority}
 
 Para ajustar la prioridad de los túneles, haga clic en el icono de engranaje de un grupo de túneles y seleccione **Priority**.
 
@@ -309,7 +309,7 @@ Mantenga pulsado el icono de tres líneas situado a la derecha para reordenar lo
 
     - **Enhanced Kill Switch**: obliga a todos los dispositivos a acceder a Internet a través de una VPN. Se bloqueará cualquier tráfico que no coincida con un túnel VPN. Este ajuste global no anula el Kill Switch configurado para cada túnel VPN individual. En resumen, refuerza el Kill Switch y bloquea el acceso normal a Internet para evitar fugas de IP.
 
-## Opciones del túnel
+## Opciones del túnel {#tunnel-options}
 
 Puede configurar ajustes avanzados para cada túnel VPN, como el Kill Switch de la VPN, el enmascaramiento de IP y el MTU.
 

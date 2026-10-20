@@ -1,4 +1,4 @@
-# VPN Dashboard (Firmware v4.7 e precedenti)
+# VPN Dashboard (Firmware v4.7 e precedenti) {#vpn-dashboard-firmware-v47-and-earlier}
 
 Il contenuto di questa pagina si basa sulle versioni firmware v4.7.x e precedenti. Se il dispositivo esegue una versione firmware diversa, usa il selettore seguente per passare alla guida corrispondente.
 
@@ -18,7 +18,7 @@ Questa pagina e' divisa in due sezioni: [VPN Client](#vpn-client) e [VPN Server]
 
 ![vpn dashboard](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/vpn_dashboard_initial.png){class="glboxshadow"}
 
-## VPN Client
+## VPN Client {#vpn-client}
 
 Quando apri questa pagina per la prima volta, se non e' disponibile alcun file di configurazione per OpenVPN e WireGuard, la pagina appare come segue. Fai clic su **Set Up Now** e verrai indirizzato alla pagina [OpenVPN Client](openvpn_client.md) oppure [WireGuard Client](wireguard_client.md) per caricare il file di configurazione VPN.
 
@@ -28,7 +28,7 @@ Una volta caricato, il file di configurazione verra' mostrato nella colonna **Co
 
 ![configuration files](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/vpnclient_config.png){class="glboxshadow"}
 
-### Client Options
+### Client Options {#client-options}
 
 Fai clic sull'icona dell'ingranaggio sulla destra per accedere alle opzioni del client OpenVPN o WireGuard.
 
@@ -52,7 +52,7 @@ Le opzioni del client WireGuard vengono mostrate come segue.
 
 - **MTU**: abbreviazione di Maximum Transmission Unit. Questa impostazione facoltativa consente di personalizzare l'MTU del tunnel VPN, sovrascrivendo il valore definito nel file di configurazione.
 
-### Proxy Mode
+### Proxy Mode {#proxy-mode}
 
 La modalita' proxy predefinita per la connessione VPN e' **Global Proxy**. Puoi fare clic sulla casella in alto a destra per passare ad altre modalita' proxy.
 
@@ -90,7 +90,7 @@ Sono disponibili tre modalita' proxy: **Global Proxy**, **Policy Mode** e **Rout
 
         Puoi configurare manualmente le regole di instradamento per ciascuna istanza di client VPN.
 
-### Global Options
+### Global Options {#global-options}
 
 Fai clic su **Global Options** nell'angolo in alto a destra per configurare le impostazioni avanzate del client VPN.
 
@@ -124,7 +124,7 @@ Fai clic su **Global Options** nell'angolo in alto a destra per configurare le i
 
 - **Services From GL.iNet Use VPN**: se abilitato, i servizi GoodCloud, DDNS e rtty trasmetteranno i pacchetti attraverso i tunnel VPN. Questa opzione e' disabilitata per impostazione predefinita, poiche' questi servizi richiedono normalmente il reale indirizzo IP del dispositivo per funzionare correttamente.
 
-## VPN Server
+## VPN Server {#vpn-server}
 
 Se il router non e' mai stato configurato come server OpenVPN o WireGuard, la pagina apparira' come mostrato di seguito. Fai clic su **Set Up Now** e verrai indirizzato alla pagina **OpenVPN Server** oppure **WireGuard Server** per inizializzare il server VPN.
 
@@ -134,7 +134,7 @@ Dopo che OpenVPN Server o WireGuard Server sono stati abilitati, la pagina mostr
 
 ![vpn server enabled](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/vpnserver_connected.png){class="glboxshadow"}
 
-### Server Options
+### Server Options {#server-options}
 
 Fai clic sull'icona dell'ingranaggio sulla destra per accedere alle opzioni del server OpenVPN o WireGuard.
 
@@ -156,7 +156,7 @@ Le opzioni del server WireGuard vengono mostrate come segue.
 
 * **Client to Client**: se abilitato, i client VPN collegati a questo server possono accedere tra loro tramite i rispettivi IP del tunnel VPN. Per consentire ai client di accedere anche alle sottoreti LAN reciproche, aggiungere sul server VPN regole di instradamento che pubblicizzino tali sottoreti LAN remote.
 
-### Server Route Rule
+### Server Route Rule {#server-route-rule}
 
 Fai clic sull'icona della route sulla destra per personalizzare, se necessario, le regole di instradamento di OpenVPN o WireGuard.
 
@@ -172,7 +172,7 @@ La schermata WireGuard Server Route Rule viene mostrata come segue. Fai clic su 
 
 **Nota**: in modalita' customize routes, il client VPN ignorera' il file di configurazione e la configurazione di instradamento fornita dal server. La scelta di usare o meno il tunnel VPN cifrato quando si accede a qualsiasi segmento di rete dipende dalle regole di instradamento impostate manualmente.
 
-### Global Options
+### Global Options {#global-options_1}
 
 Fai clic su **Global Options** nell'angolo in alto a destra per configurare le impostazioni avanzate del server VPN.
 

@@ -1,4 +1,4 @@
-# ネットワークモード
+# ネットワークモード {#network-mode}
 
 Web Admin Panel の左側で、**NETWORK** -> **Network Mode** に移動します。
 
@@ -10,7 +10,7 @@ Network mode とは、さまざまなネットワーク構成に対応するた�
     2. **ルーターが Access Point / WDS / Bridge mode のときは、元の LAN IP アドレスでは Web Admin Panel にアクセスできません。** 上位ルーターにログインして、このルーターに割り当てられた IP アドレスを確認し、その IP アドレスで Web Admin Panel にアクセスしてください。上位ルーターにアクセスできない場合は、リセットボタンを 4 秒間長押ししてデフォルトの Router mode に戻してください。
     3. **Non-Router mode では、次の機能は利用できません**: Access Control (Allowlist and Blocklist), AstroWarp, VPN, AdGuard Home, Parental Control, ZeroTier, Tailscale, Port Forwarding, Multi-WAN, DHCP Server, Address Reservation, Guest Network, DNS, Port Management, IPv6, Drop-in Gateway, IGMP Snooping, Network Acceleration, NAT Settings.
 
-## Wi-Fi搭載モデルの場合
+## Wi-Fi搭載モデルの場合 {#for-models-with-wi-fi}
 
 特定のモデルを除き、多くの GL.iNet ワイヤレスルーターには Wi-Fi 機能があります。
 
@@ -54,7 +54,7 @@ Wi-Fi 機能を持つモデルでは、通常 Router、Access Point、Extender�
 
     WDS mode に切り替えると、元の LAN IP アドレスでは Web Admin Panel にアクセスできません。上位ルーターにログインして、この WDS ルーターに割り当てられた IP アドレスを確認し、その IP アドレスでアクセスしてください。上位ルーターにアクセスできない場合は、リセットボタンを 4 秒間長押ししてデフォルトの Router mode に戻してください。
 
-## Wi-Fi非搭載モデルの場合
+## Wi-Fi非搭載モデルの場合 {#for-models-without-wi-fi}
 
 GL-MT2500/GL-MT2500A は Wi-Fi 機能がないため、Access Point、Extender、WDS mode は利用できません。その代わりに Router mode と Bridge mode をサポートします。
 

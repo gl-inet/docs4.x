@@ -1,23 +1,23 @@
-# Creta (GL-AR750) ユーザーガイド
+# Creta (GL-AR750) ユーザーガイド {#creta-gl-ar750-user-guide}
 
-## 製品概要
+## 製品概要 {#product-overview}
 
 Creta (GL-AR750) は、デュアルバンド対応のトラベル向け AC ルーターです。同時デュアルバンドにより、最大 733Mbps（2.4GHz: 300Mbps + 5GHz: 433Mbps）の無線伝送速度に対応しています。Creta は、公衆ネットワークを安全なブラウジングのためのプライベート Wi-Fi に変換できます。外部ストレージは最大 128GB の MicroSD に対応しています。OpenWrt/LEDE と OpenVPN がプリインストールされているため、プライバシーを重視するユーザーに、最先端の暗号技術を活用した高速でシンプルな VPN を提供します。
 
 ![ar750 overview](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar750/product_info/ar750_overview.png){class="glboxshadow"}
 
-### 仕様
+### 仕様 {#specifications}
 
 [GL-AR750 仕様](https://www.gl-inet.com/products/gl-ar750/#specs){target="_blank"}
 
-## Creta のセットアップ方法
+## Creta のセットアップ方法 {#how-to-set-up-creta}
 
 Creta をセットアップするには、対応している 4 つのインターネット接続方法（イーサネット、リピーター、テザリング、セルラー）のいずれかを使用します。以下のセットアップ動画を見るか、その下の手順に従ってください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3dm0w5kjAlc?si=3YykOcaz_YK_vp28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <small>（この動画では別の GL.iNet ルーターを使用してセットアップを説明していますが、手順は Creta やその他のルーターモデルでも同じです。）</small>
 
-### 1. Creta の電源を入れる
+### 1. Creta の電源を入れる {#1-power-on-creta}
 
 Micro USB 電源ケーブルをルーターの電源ポートに接続してください。標準の 5V/2A 電源アダプターを使用していることを確認してください。
 
@@ -25,7 +25,7 @@ Micro USB 電源ケーブルをルーターの電源ポートに接続してく�
 
     TFカードのホットプラグには対応していません。TFカードを使用する場合は、ルーターの電源を入れる前に挿入してください。
 
-### 2. デバイスを Creta に接続する
+### 2. デバイスを Creta に接続する {#2-connect-your-device-to-creta}
 
 Wi-Fi またはイーサネットを使用して、パソコンまたはモバイル端末をルーターに接続します。
 
@@ -37,15 +37,15 @@ Wi-Fi またはイーサネットを使用して、パソコンまたはモバ�
 
     イーサネットケーブルでデバイスをルーターの LAN ポートに接続します。
 
-### 3. Creta をインターネットに接続する
+### 3. Creta をインターネットに接続する {#3-connect-creta-to-the-internet}
 
 **Note:** 以下の説明は、Web 管理画面からルーターをインターネットへ接続する場合の手順です。Web 管理画面の代わりに GL.iNet アプリを使う場合は、[アプリをダウンロード](https://www.gl-inet.com/app/){target="_blank"}して、画面の案内に従ってください。
 
-#### 1. ルーターの Web 管理画面にログインする
+#### 1. ルーターの Web 管理画面にログインする {#1-log-in-to-the-router-web-admin-panel}
 
 Web ブラウザのアドレスバーに `192.168.8.1` を入力します。言語を選択して **Next** をクリックします。管理者パスワードを設定してから **Apply** をクリックします。
 
-#### 2. インターネット接続方法を設定する
+#### 2. インターネット接続方法を設定する {#2-set-up-your-internet-connection-methods}
 
 === "イーサネット"
 
@@ -91,7 +91,7 @@ Web ブラウザのアドレスバーに `192.168.8.1` を入力します。言�
 
 ---
 
-## VPN のセットアップ方法
+## VPN のセットアップ方法 {#how-to-set-up-a-vpn}
 
 VPN（仮想プライベートネットワーク）は、デバイスと VPN サーバーの間に安全で暗号化された通信を作成します。プライバシーとセキュリティを強化し（VPN クライアント）、リモートネットワークへのアクセスも可能にします（VPN サーバー）。Creta（およびその他の GL.iNet ルーター）は、OpenVPN と WireGuard に対応しています。
 
@@ -111,7 +111,7 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
 ---
 
-## その他のアプリケーション
+## その他のアプリケーション {#more-applications}
 
 === "プラグイン"
 
@@ -127,7 +127,7 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
 ---
 
-## ネットワーク設定
+## ネットワーク設定 {#network-settings}
 
 === "ファイアウォール"
 
@@ -220,7 +220,7 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
     詳しい設定手順と詳細情報は、[IGMP Snooping](../../interface_guide/igmp_snooping.md)をご参照ください。
 
-## システム設定
+## システム設定 {#system-settings}
 
 === "概要"
 

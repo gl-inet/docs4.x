@@ -1,4 +1,4 @@
-# ExpressVPNアクティベーションガイド
+# ExpressVPNアクティベーションガイド {#expressvpn-activation-guide}
 
 **注：** このガイドは、GL.iNet x ExpressVPN の共同ブランドルーター **Fortify (GL-MT6000)** にのみ適用されます。
 
@@ -10,7 +10,7 @@
 
 このガイドでは、ルーターの Web 管理パネル内で 12 か月の ExpressVPN プランを利用する手順を説明します。また、使用シナリオや要件に基づいた VPN ポリシーのカスタマイズについても説明しており、暗号化された安全な高速インターネット接続を簡単に楽しむことができます。
 
-## ExpressVPN プランを利用する
+## ExpressVPN プランを利用する {#redeem-expressvpn-plan}
 
 Fortify の Web 管理パネルにログインし、**VPN** -> **VPN Client Profile** に移動します。
 
@@ -40,7 +40,7 @@ ExpressVPN チェックアウトに移動します。右側に引き換えコー
 
 ![expressvpn checkout2](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/expressvpn_checkout2.png){class="glboxshadow"}
 
-## ExpressVPNにログインします
+## ExpressVPNにログインします {#log-in-to-expressvpn}
 
 Fortify の Web 管理パネルで、**VPN** -> **VPN Client Profile** に移動します。
 
@@ -78,9 +78,9 @@ Fortify の Web 管理パネルで、**VPN** -> **VPN Client Profile** に移動
 
 ![expressvpn dashboard](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/expressvpn_dashboard.png){class="glboxshadow"}
 
-## VPN トンネルの追加
+## VPN トンネルの追加 {#add-vpn-tunnel}
 
-### 一般的な手順
+### 一般的な手順 {#general-steps}
 
 以下の手順に従って、VPN トンネルを追加し、VPN ポリシーを構成します。必要に応じて、[ケースリファレンス](#case-reference)を参照してください。
 
@@ -129,7 +129,7 @@ Fortify の Web 管理パネルで、**VPN** -> **VPN Client Profile** に移動
 
 5. VPN トンネルが正常に追加されました。 **ExpressVPN Dashboard** に移動します。必要に応じて、VPN トンネルをさらに追加します。
 
-### 事例紹介
+### 事例紹介 {#case-reference}
 
 ここでは、参考用に 2 つの典型的な VPN ポリシー構成ケースと段階的なセットアップ手順を示します。
 
@@ -275,7 +275,7 @@ Fortify の Web 管理パネルで、**VPN** -> **VPN Client Profile** に移動
 
         これで、すべてのデバイスは、指定されたドメインにアクセスするときに **VPN Tunnel 1** を使用し、残りのすべてのインターネット アクセスに **VPN Tunnel 2** を使用するようになります。 VPN トンネルが予期せず切断されると、DNS リークと IP 追跡を防ぐために、すべてのデバイスのインターネット アクセスがブロックされます。
 
-## キルスイッチ
+## キルスイッチ {#kill-switch}
 
 VPNのキルスイッチは、VPN接続に障害が発生したときに、トラフィックが暗号化されていないインターネット接続へ切り替わるのを防ぐのに役立ちます。
 
@@ -289,7 +289,7 @@ Fortify は、グローバル VPN 接続および個々の VPN トンネルの�
 
 - 個別の VPN トンネルごとに Kill Switch を設定するには、[トンネル オプション](#tunnel-options) を参照してください。
 
-## その他すべてのトラフィック
+## その他すべてのトラフィック {#all-other-traffic}
 
 右上の歯車アイコンをクリックして、VPN トンネルと一致しないトラフィックに対するポリシーを設定します。
 
@@ -305,7 +305,7 @@ Fortify は、グローバル VPN 接続および個々の VPN トンネルの�
 
     ![enhanced killswitch](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/enhanced_killswitch.png){class="glboxshadow"}
 
-## トンネルオプション
+## トンネルオプション {#tunnel-options}
 
 VPN キル スイッチ、IP マスカレード、MTU などの詳細設定を VPN トンネルごとに構成できます。
 
@@ -325,7 +325,7 @@ VPN キル スイッチ、IP マスカレード、MTU などの詳細設定を V
 
 - **MTU**: トンネルに設定した MTU 値は、構成ファイルの MTU 設定をオーバーライドします。
 
-## トンネルの優先順位
+## トンネルの優先順位 {#tunnel-priority}
 
 トンネルの優先順位を調整するには、トンネル グループの歯車アイコンをクリックし、**Priority** を選択します。
 

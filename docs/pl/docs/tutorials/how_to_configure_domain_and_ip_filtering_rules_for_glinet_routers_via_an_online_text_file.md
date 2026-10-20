@@ -1,4 +1,4 @@
-# Jak skonfigurować reguły filtrowania domen i IP dla routerów GL.iNet za pomocą pliku tekstowego online
+# Jak skonfigurować reguły filtrowania domen i IP dla routerów GL.iNet za pomocą pliku tekstowego online {#how-to-configure-domain-and-ip-filtering-rules-for-glinet-routers-via-an-online-text-file}
 
 Od firmware v4.7 następujące funkcje obsługują import reguł z adresu URL pliku tekstowego online:
 
@@ -7,7 +7,7 @@ Od firmware v4.7 następujące funkcje obsługują import reguł z adresu URL pl
 
 Ten poradnik wyjaśnia, jak używać internetowego pliku tekstowego do importowania reguł filtrowania domen i adresów IP dla routerów GL.iNet.
 
-## Obsługiwane formaty adresów URL i plików
+## Obsługiwane formaty adresów URL i plików {#supported-url-file-formats}
 
 Obsługiwane są następujące formaty adresów URL:
 
@@ -18,7 +18,7 @@ Obsługiwane typy plików to `.txt`, `.conf`, `.log` oraz inne formaty zwykłego
 
 **Uwaga**: Pliki binarne nie są obsługiwane, na przykład `.exe`, `.zip`, `.jpg`, `.png` itd.
 
-## Używanie GitHub do hostowania pliku tekstowego
+## Używanie GitHub do hostowania pliku tekstowego {#use-github-to-host-text-file}
 
 Jeśli hostujesz plik tekstowy w publicznym repozytorium GitHub, pamiętaj, aby używać adresu raw content URL zamiast zwykłego adresu GitHub.
 
@@ -32,7 +32,7 @@ Aby router pobrał prawidłową zawartość, użyj adresu raw content URL w nast
 
 Dzięki temu router będzie mógł pobrać zwykłą tekstową zawartość pliku.
 
-## Formaty filtrów dla VPN Policy (domena/IP)
+## Formaty filtrów dla VPN Policy (domena/IP) {#filter-formats-for-vpn-policy-domainip}
 
 Funkcja polityki VPN opartej na docelowej domenie lub adresie IP obsługuje w internetowym pliku tekstowym następujące formaty filtrów:
 
@@ -41,7 +41,7 @@ Funkcja polityki VPN opartej na docelowej domenie lub adresie IP obsługuje w in
 * Zakres CIDR: użyj notacji CIDR do określenia zakresów adresów IP, np. `192.168.10.0/24`.
 * Adres IPv4: podaj pojedynczy adres IPv4, np. `192.168.10.10`.
 
-## Formaty filtrów dla Parental Control (Ruleset)
+## Formaty filtrów dla Parental Control (Ruleset) {#filter-formats-for-parental-control-ruleset}
 
 Funkcja dodawania nowego zestawu reguł w Parental Control obsługuje w internetowym pliku tekstowym następujące formaty filtrów:
 

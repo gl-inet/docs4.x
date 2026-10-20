@@ -1,4 +1,4 @@
-# Profilo client VPN
+# Profilo client VPN {#vpn-client-profile}
 
 > Questa guida si applica al firmware v4.9 e successivi.
 
@@ -8,7 +8,7 @@ Dal firmware v4.9, [OpenVPN Client](openvpn_client.md) e [WireGuard Client](wire
 
 Questa pagina ti consente di accedere ad alcuni servizi VPN integrati e di scaricare facilmente i relativi profili per la connessione VPN, oppure di caricare manualmente i file di configurazione esportati dal sito web di altri provider VPN. Se necessario, puoi cambiare protocollo VPN nell'angolo in alto a destra.
 
-## WireGuard
+## WireGuard {#wireguard}
 
 WireGuard® è una VPN moderna, leggera e ad alte prestazioni basata su crittografia all'avanguardia. Offre velocità, semplicità e praticità superiori rispetto a IPsec, e garantisce prestazioni nettamente migliori rispetto a OpenVPN.
 
@@ -72,9 +72,9 @@ Prendiamo [AzireVPN](https://www.azirevpn.com/aff/9x7wisg4){target="_blank"} com
 
             ![azirevpn5](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_client_profile/azirevpn5.png){class="glboxshadow"}
 
-        2. Verrai reindirizzato a **VPN Dashboard** per configurare i criteri VPN. Fai clic [qui](vpn_dashboard.md#set-up-vpn-policy) per i dettagli.
+        2. Verrai reindirizzato a **VPN Dashboard** per configurare i criteri VPN. Fai clic [qui](vpn_dashboard.md#add-vpn-tunnel) per i dettagli.
 
-## OpenVPN
+## OpenVPN {#openvpn}
 
 OpenVPN è un protocollo VPN open-source che usa tecniche di rete privata virtuale per stabilire connessioni sicure site-to-site o point-to-point.
 
@@ -82,7 +82,7 @@ I router GL.iNet offrono il supporto OpenVPN integrato per [NordVPN](https://go.
 
 ![ovpn](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_client_profile/ovpn.png){class="glboxshadow"}
 
-Se usi un altro provider di servizi OpenVPN, scarica un file di configurazione dal suo sito web, quindi fai clic su **Add Manually** per caricarlo sul router e usarlo per la connessione VPN. Se non sai come scaricare i file di configurazione, fai riferimento [qui](openvpn_client.md#get-configuration-files-from-openvpn-service-providers-get-configuration-files-from-openvpn-service-providers) oppure contatta il relativo supporto.
+Se usi un altro provider di servizi OpenVPN, scarica un file di configurazione dal suo sito web, quindi fai clic su **Add Manually** per caricarlo sul router e usarlo per la connessione VPN. Se non sai come scaricare i file di configurazione, fai riferimento [qui](openvpn_client.md#get-configuration-files-from-openvpn-service-providers) oppure contatta il relativo supporto.
 
 ![ovpn add manually](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_client_profile/ovpn_manual.png){class="glboxshadow"}
 

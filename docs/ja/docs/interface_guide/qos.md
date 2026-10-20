@@ -1,4 +1,4 @@
-# QoS (Quality of Service)
+# QoS (Quality of Service) {#qos-quality-of-service}
 
 **注**: この機能はファームウェア v4.9 で導入されました。
 
@@ -55,7 +55,7 @@ QoS (Quality of Service) は、ネットワーク輻輳時に重要なアクテ�
     - GL-AP1300 (Cirrus)
     - GL-S1300 (Convexa-S)
 
-## ファームウェア v4.11 以降の場合
+## ファームウェア v4.11 以降の場合 {#for-firmware-v411-and-above}
 
 スイッチを切り替えて QoS を有効にし、以下の手順に従って構成を完了します。
 
@@ -111,7 +111,7 @@ QoS (Quality of Service) は、ネットワーク輻輳時に重要なアクテ�
 
         ![advanced qos rule](https://static.gl-inet.com/docs/router/en/4/interface_guide/qos/advanced_qos_rule.png){class="glboxshadow" width=500}
 
-## ファームウェア v4.9 ～ v4.10 の場合
+## ファームウェア v4.9 ～ v4.10 の場合 {#for-firmware-v49-to-v410}
 
 スイッチを切り替えて QoS を有効にすると、ページが次のように表示されます。
 

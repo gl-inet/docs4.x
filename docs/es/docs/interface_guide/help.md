@@ -1,4 +1,4 @@
-# Ayuda
+# Ayuda {#help}
 
 En el panel de administración web, haga clic en el icono de signo de interrogación situado en el lado derecho de la barra de título.
 

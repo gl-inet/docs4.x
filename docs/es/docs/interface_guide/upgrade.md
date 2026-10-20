@@ -1,4 +1,4 @@
-# Actualización
+# Actualización {#upgrade}
 
 En el lado izquierdo del panel de administración web, vaya a **SYSTEM** -> **Upgrade** para actualizar el firmware del router.
 
@@ -8,9 +8,9 @@ En algunos modelos celulares, también puede actualizar la versión del módulo 
 
     Mantenga el router encendido durante la actualización. **NO** apague el router. El dispositivo se reiniciará automáticamente después de la actualización, lo que puede tardar unos minutos.
 
-## Actualización del firmware
+## Actualización del firmware {#firmware-upgrade}
 
-### Actualización en línea
+### Actualización en línea {#online-upgrade}
 
 Aquí puede consultar la versión actual del firmware.
 
@@ -26,7 +26,7 @@ Aquí puede consultar la versión actual del firmware.
 
 ![time zone](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/time_zone.png){class="glboxshadow"}
 
-### Actualización local
+### Actualización local {#local-upgrade}
 
 Seleccione un archivo de firmware o arrástrelo y suéltelo para actualizar. Puede descargar el firmware desde nuestro [centro de descargas](https://dl.gl-inet.com){target="_blank"}.
 
@@ -40,25 +40,25 @@ Después de subirlo, se verificará el firmware.
 
 Haga clic en **Install** para actualizar.
 
-## Actualización del módem
+## Actualización del módem {#modem-upgrade}
 
 Los routers celulares GL.iNet permiten actualizar el firmware del módem celular desde el panel de administración web.
 
 Puede intentar actualizar el módulo celular cuando la red celular falle o presente inestabilidad. Recomendamos ponerse en contacto con el soporte técnico para solucionar problemas antes de actualizar el módem.
 
-### Actualización en línea
+### Actualización en línea {#online-upgrade_1}
 
 Aquí puede consultar la versión actual del módem celular. Si el router está conectado a Internet, comprobará automáticamente en el servidor del fabricante si existe una versión más reciente del módem celular, lo que simplifica el proceso de actualización.
 
 ![modem online upgrade](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/modem_online_upgrade.png){class="glboxshadow"}
 
-### Actualización local
+### Actualización local {#local-upgrade_1}
 
 Suba manualmente un archivo de firmware del módem desde su ordenador para actualizar el módem celular si es necesario.
 
 ![modem local upgrade](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/modem_local_upgrade.png){class="glboxshadow"}
 
-## Actualización en línea de DPI
+## Actualización en línea de DPI {#dpi-online-upgrade}
 
 DPI Online Upgrade busca e instala actualizaciones del motor DPI y de su base de datos de firmas, lo que garantiza una identificación precisa del tráfico para Data Statistics, Content Filter y otras funciones relacionadas con DPI.
 

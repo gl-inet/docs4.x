@@ -1,6 +1,6 @@
-# Fortify (GL-MT6000) Benutzerhandbuch
+# Fortify (GL-MT6000) Benutzerhandbuch {#fortify-gl-mt6000-user-guide}
 
-## Sicherheitshinweise
+## Sicherheitshinweise {#safety-information}
 
 Lesen Sie vor der Verwendung des Geräts alle nachstehenden Sicherheitsinformationen sorgfältig durch. Die nachfolgenden Sicherheitsempfehlungen können nicht sämtliche möglicherweise auftretenden Gefahrensituationen abdecken.
 
@@ -30,13 +30,13 @@ Unsachgemäßes Öffnen oder unsachgemäße Instandsetzung kann den Benutzer des
 
 Schalten Sie bei einem Störfall zuerst den Netzschalter aus.
 
-## Produktübersicht
+## Produktübersicht {#product-overview}
 
 Fortify (GL-MT6000) ist ein Wi-Fi-6-Router mit Co-Branding, der gemeinsam von GL.iNet und ExpressVPN herausgebracht wurde. Zu jeder Einheit gehört ein kostenloses einjähriges ExpressVPN-Abonnement. Benutzer können das Abonnement einlösen und ihre Konten direkt im Web-Admin-Panel des Routers verbinden. Wenn ein ExpressVPN-Tunnel verbunden ist, verschlüsselt der Router den Datenverkehr und leitet ihn gemäß Ihren VPN-Richtlinieneinstellungen durch diesen Tunnel.
 
 ![fortify gl-mt6000](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000-fortify/mt6000-fortify_interface.png){class="glboxshadow"}
 
-## Lieferumfang
+## Lieferumfang {#package-contents}
 
 - 1 x Fortify (GL-MT6000)
 - 1 x Benutzerhandbuch
@@ -52,17 +52,17 @@ Sehen Sie sich unten das Unboxing-Video von Fortify an.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IQEfj7Hff7U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## So richten Sie Fortify ein
+## So richten Sie Fortify ein {#how-to-set-up-fortify}
 
 Sehen Sie sich dieses Einrichtungsvideo an oder folgen Sie den untenstehenden Schritten.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FymI3LCRMTA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Einschalten
+### 1. Einschalten {#1-power-on}
 
 Setzen Sie das zweiteilige Netzteil zusammen. Verbinden Sie es mit Ihrem Fortify-Router und stecken Sie es in eine Steckdose. Es wird automatisch gestartet.
 
-### 2. Gerät anschließen
+### 2. Gerät anschließen {#2-connect-device}
 
 Verbinden Sie ein Gerät (z. B. Computer, Laptop oder Smartphone) über WLAN oder Ethernet mit dem Router.
 
@@ -74,7 +74,7 @@ Verbinden Sie ein Gerät (z. B. Computer, Laptop oder Smartphone) über WLAN ode
 
     Gehen Sie auf Ihrem Gerät zu Einstellungen -> WLAN, suchen Sie den WLAN-Netzwerknamen Ihres Routers in der Liste der verfügbaren Netzwerke und geben Sie das Passwort ein, um dem Netzwerk beizutreten. Den Standard-Netzwerknamen und das Standardkennwort finden Sie auf dem Etikett des Routers.
 
-### 3. Melden Sie sich beim Web-Admin-Panel an
+### 3. Melden Sie sich beim Web-Admin-Panel an {#3-log-in-to-web-admin-panel}
 
 Öffnen Sie einen Webbrowser, geben Sie `192.168.8.1` in die Adressleiste ein und melden Sie sich an. Wählen Sie oben rechts Ihre Sprache, legen Sie Ihr Administratorkennwort fest und klicken Sie dann auf **Next**. Das Passwort muss 10–63 Zeichen lang sein und mindestens zwei der folgenden Elemente enthalten: Großbuchstaben, Kleinbuchstaben, Zahlen und Sonderzeichen.
 
@@ -84,7 +84,7 @@ Richten Sie Ihr WLAN ein. Bitte beachten Sie, dass Sie bei einer Änderung der W
 
 ![fortify login2](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000-fortify/login2.png){class="glboxshadow"}
 
-### 4. Internet-Setup
+### 4. Internet-Setup {#4-internet-setup}
 
 **Hinweis:** Die folgenden Anweisungen gelten für Benutzer, die den Router über das webbasierte GL.iNet Admin-Panel konfigurieren. Wenn Sie die [GL.iNet App](https://www.gl-inet.com/pages/app#download-app-glinet){target="_blank"} bevorzugen, laden Sie sie herunter und folgen Sie den Anweisungen auf dem Bildschirm.
 
@@ -138,19 +138,19 @@ Konfigurieren Sie Ihr Fortify mit einer der unterstützten Internetverbindungsme
 
 Nachfolgend finden Sie eine Übersicht über die Funktionen im Fortify Web Admin Panel.
 
-## WLAN
+## WLAN {#wireless}
 
 Auf der Seite „Wireless“ können Sie die Wi-Fi-Netzwerke von Fortify konfigurieren, einschließlich Hauptnetzwerk, Gastnetzwerk und IoT-Netzwerk. Jedes Netzwerk unterstützt sowohl das 2,4-GHz- als auch das 5-GHz-Band.
 
 Informationen zum Einrichten von Wireless finden Sie unter [Wireless](../../interface_guide/wireless.md).
 
-## Clients
+## Clients {#clients}
 
 Auf der Seite „Clients“ werden Informationen zu verbundenen Geräten angezeigt, darunter Gerätename, Verbindungstyp, IP- und MAC-Adressen, Download- und Upload-Geschwindigkeiten sowie Datenverkehr. Außerdem besteht die Möglichkeit, bestimmte Clients mit einem Klick zu blockieren oder andere Aktionen auszuführen.
 
 Weitere Informationen finden Sie unter [Clients](../../interface_guide/clients.md).
 
-## Cloud-Dienste
+## Cloud-Dienste {#cloud-services}
 
 === "GoodCloud"
 
@@ -164,7 +164,7 @@ Weitere Informationen finden Sie unter [Clients](../../interface_guide/clients.m
 
     Weitere Informationen finden Sie unter [AstroWarp](../../interface_guide/astrowarp.md).
 
-## VPN
+## VPN {#vpn}
 
 Ein VPN (virtuelles privates Netzwerk) richtet sichere, verschlüsselte Verkehrstunnel zwischen Ihrem lokalen Gerät und dem VPN-Server ein. Es fügt dem VPN-Client eine zusätzliche Ebene der Privatsphäre und Sicherheit hinzu und ermöglicht den Zugriff auf das Remote-VPN-Servernetzwerk.
 
@@ -176,7 +176,7 @@ Informationen zum Einrichten eines OpenVPN-Servers finden Sie unter [OpenVPN-Ser
 
 Informationen zum Einrichten eines WireGuard-Servers finden Sie unter [WireGuard Server](../../interface_guide/wireguard_server.md).
 
-## Netzwerk
+## Netzwerk {#network}
 
 === "Multi-WAN"
 
@@ -248,7 +248,7 @@ Weitere Informationen finden Sie unter [Multi-WAN](../../interface_guide/multi-w
 
     Informationen zum Einrichten der Netzwerkbeschleunigung finden Sie unter [Netzwerkbeschleunigung](../../interface_guide/network_acceleration.md).
 
-## Durchflusskontrolle
+## Durchflusskontrolle {#flow-control}
 
 === "DPI Engine"
 
@@ -290,7 +290,7 @@ DPI (Deep Packet Inspection) ist eine Kernfunktion des intelligenten Netzwerkman
 
     Weitere Informationen finden Sie unter [Kindersicherung](../../interface_guide/parental_control_v4.9.md).
 
-## Sicherheit
+## Sicherheit {#security}
 
 === "Port forwarding"
 
@@ -320,7 +320,7 @@ DPI (Deep Packet Inspection) ist eine Kernfunktion des intelligenten Netzwerkman
 
     Weitere Informationen finden Sie unter [NAT-Modus](../../interface_guide/nat_settings.md).
 
-## Anwendungen
+## Anwendungen {#applications}
 
 === "Plug-ins"
 
@@ -374,7 +374,7 @@ DPI (Deep Packet Inspection) ist eine Kernfunktion des intelligenten Netzwerkman
 
     Weitere Informationen finden Sie unter [Tor](../../interface_guide/tor.md).
 
-## System
+## System {#system}
 
 === "Overview"
 

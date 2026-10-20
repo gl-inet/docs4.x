@@ -1,4 +1,4 @@
-# USB & Stromversorgung
+# USB & Stromversorgung {#usb-power}
 
 **Hinweis**: Diese Seite ist nur auf **GL-E5800 (Mudi 7)** verfügbar.
 
@@ -6,7 +6,7 @@ Gehen Sie auf der linken Seite des Web-Admin-Panels zu **SYSTEM** -> **USB & Pow
 
 Auf dieser Seite können Sie USB-bezogene Einstellungen und die Energieverwaltung Ihres Routers konfigurieren, z. B. USB-Protokoll, Stromrichtung, Leerlauf-Timeouts und Standby-Verhalten.
 
-## USB-Einstellungen
+## USB-Einstellungen {#usb-settings}
 
 In diesem Abschnitt können Sie das Verhalten der USB-Ports Ihres Routers anpassen.
 
@@ -22,7 +22,7 @@ In diesem Abschnitt können Sie das Verhalten der USB-Ports Ihres Routers anpass
 
 - **Power Threshold**: Legen Sie für den USB-Port einen bestimmten Schwellwert in Prozent fest, um den minimalen Energiestand für USB-Vorgänge zu steuern und so die Akkulaufzeit zu schonen.
 
-## Energieeinstellungen
+## Energieeinstellungen {#power-settings}
 
 Dieser Abschnitt hilft Ihnen dabei, Stromverbrauch und Geräteverhalten zu optimieren.
 

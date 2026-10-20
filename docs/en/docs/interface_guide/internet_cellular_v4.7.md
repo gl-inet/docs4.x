@@ -1,4 +1,4 @@
-# Connect to the Internet via cellular (v4.7 and earlier)
+# Connect to the Internet via cellular (v4.7 and earlier) {#connect-to-the-internet-via-cellular-v47-and-earlier}
 
 The content on this page is based on firmware versions v4.7 and earlier. If your device is running a different firmware version, use the selector below to switch to the corresponding guide.
 
@@ -27,7 +27,7 @@ Most GL.iNet routers support cellular connectivity. This guide covers three type
 
 **Note:** Some SIM cards require activation before first use. To ensure compatibility, activate the SIM card in a smartphone before inserting it into the router.
 
-## Setup for Single-SIM models
+## Setup for Single-SIM models {#setup-for-single-sim-models}
 
 The following steps apply to models with a built-in cellular modem and a single SIM card slot (e.g., GL-XE300 Puli), or a USB port for connecting an external USB modem (e.g., GL-AXT1800 Slate AX).
 
@@ -37,7 +37,7 @@ We recommend powering off the router first. Insert a pre-activated SIM card into
 
 If you plug the USB modem after the router has booted up, the web Admin Panel may not update automatically. In that case, please refresh the page or restart the router.
 
-### Auto Setup
+### Auto Setup {#auto-setup}
 
 Log in to the router's web Admin Panel and navigate to **INTERNET** -> **Cellular**.
 
@@ -61,7 +61,7 @@ Log in to the router's web Admin Panel and navigate to **INTERNET** -> **Cellula
 
 If Auto Setup fails, please try [Manual Setup](#manual-setup).
 
-### Manual Setup
+### Manual Setup {#manual-setup}
 
 In the Cellular section, click **Manual Setup** to view or modify the cellular settings of the current SIM card. 
 
@@ -89,7 +89,7 @@ Applying the changes will trigger a reconnection.
 
 - **Authentication**: Choose the authentication method required by your carrier (e.g., NONE, PAP, CHAP). This is usually set to NONE if no credentials are needed.
 
-### Compatible Modems
+### Compatible Modems {#compatible-modems}
 
 Here is a list of supported modems that we had tested before.
 
@@ -120,7 +120,7 @@ Here is a list of supported modems that we had tested before.
 
 - **Host-less**: This modem supports Tethering mode. Please manage the connection via the router's Tethering interface rather than the Cellular interface.
 
-## Setup for Dual-SIM models
+## Setup for Dual-SIM models {#setup-for-dual-sim-models}
 
 The following steps apply to models with a built-in cellular modem that supports dual SIM cards. The web Admin Panel may differ slightly from single-SIM models.
 
@@ -128,7 +128,7 @@ Here we use the **GL-X3000 (Spitz AX)** as an example. It supports Dual SIM, Sin
 
 We recommend you power off the router first, insert your pre-activated SIM card(s) into the slots, then power it on. If you insert the SIM card after the router has booted up, the web Admin Panel may not update automatically. In that case, please refresh the page or restart the router.
 
-### Auto Setup
+### Auto Setup {#auto-setup_1}
 
 Log in to the router's web Admin Panel and navigate to **INTERNET** -> **Cellular**.
 
@@ -144,7 +144,7 @@ Log in to the router's web Admin Panel and navigate to **INTERNET** -> **Cellula
 
 If it does not connect automatically, click **Auto Setup** and wait for the router to connect, or try **Manual Setup**.
 
-### Manual Setup
+### Manual Setup {#manual-setup_1}
 
 In the Cellular section, click **Manual Setup** to enter the Cellular Settings.
 
@@ -152,7 +152,7 @@ In the Cellular section, click **Manual Setup** to enter the Cellular Settings.
 
 You can view or modify the cellular settings of the current SIM card. It also stores some pre-configured profiles, and you can manually add configurations to the "Saved Settings".
 
-### SIM Card Slot Settings
+### SIM Card Slot Settings {#sim-card-slot-settings}
 
 In the Cellular section, click **Current SIM Card**.
 
@@ -188,7 +188,7 @@ If two SIM cards are inserted, you can enable **Auto Switch**.
 
 **Note**: The Auto Switch feature does not switch to another SIM card immediately. First, the device needs time to confirm that the current SIM cannot access the internet. Second, the other SIM is not in standby mode and requires time to activate.
 
-## Traffic Statistics
+## Traffic Statistics {#traffic-statistics}
 
 In the Cellular section, click **Traffic Statistics**.
 
@@ -198,15 +198,15 @@ You will enter the Traffic Statistics page.
 
 ![traffic statistics](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/dual_sim/traffic_statistics.png){class="glboxshadow gl-90-desktop"}
 
-## SMS
+## SMS {#sms}
 
 Please refer to [SMS](../tutorials/sms.md).
 
-## SMS Forwarding
+## SMS Forwarding {#sms-forwarding}
 
 Please refer to [SMS Forwarding](../tutorials/sms_forwarding.md).
 
-## Modem Management
+## Modem Management {#modem-management}
 
 In the Cellular section, click the **Tool** button in the upper-right corner to enter the Modem Management page.
 
@@ -238,7 +238,7 @@ As an example, the shortcut "Request IMEI" is selected here. Click "Send" and yo
 
 ![shortcut example](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/at_command_3.png){class="glboxshadow"}
 
-## Carrier profile
+## Carrier profile {#carrier-profile}
 
 You can save different profiles for the same or different carriers.
 
@@ -262,7 +262,7 @@ Choose the profiles you need.
 
 ![chooseprofile](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/carrier_profile/choose_profile.jpg){class="glboxshadow"}
 
-## Lock Tower
+## Lock Tower {#lock-tower}
 
 This feature is available only on selected models, such as GL-X3000, GL-XE3000, and GL-X2000 (firmware ver.4.7 or later).
 
@@ -294,7 +294,7 @@ The tower status (e.g., Locked/Unlocked) will be displayed at the top.
 
 3. After locking a cell tower, if you move the router to another location, it will still attempt to reconnect to the locked tower after rebooting. This may prevent the router from connecting to the cellular network automatically at the new location. In this case, you need to either unlock the current cell tower, or manually lock it to a new tower.
 
-## Historical Signal Record
+## Historical Signal Record {#historical-signal-record}
 
 In the Cellular section, click the **Signal** icon in the upper-right corner to check the historical signal strength.
 
@@ -306,7 +306,7 @@ You can view the cellular signal strength history by selecting different time fr
 
 ![historical_signal_record1](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/historical_signal_record_2.jpg){class="glboxshadow"}
 
-## Band Masking
+## Band Masking {#band-masking}
 
 In the Cellular section, click **View More** and select **Cells Info** to check the cells details.
 
@@ -322,7 +322,7 @@ Click **Manual Setup** to enter the Cellular Settings page, then enable **Band M
 
 Select the **Masking Mode** (Block or Open), then select the LTE Bands, 5G NSA Bands, and 5G SA Bands.
 
-## Troubleshooting
+## Troubleshooting {#troubleshooting}
 
 If you fail to establish a cellular connection, click the error message below for relevant solutions.
 
@@ -364,9 +364,9 @@ If you fail to establish a cellular connection, click the error message below fo
 
     If the issue persists, download the logs and send them to [support@gl-inet.com](mailto:support@gl-inet.com).
 
-## IoT Certification
+## IoT Certification {#iot-certification}
 
-### AT&T Certification
+### AT&T Certification {#att-certification}
 
 Click the link [att device certification](https://iotdevices.att.com/certified-devices.aspx#) and input the device name, you can find it. 
 
@@ -374,7 +374,7 @@ Click the link [att device certification](https://iotdevices.att.com/certified-d
 
 ![bandmasking](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/certification/at&t_certification_2.png){class="glboxshadow"}
 
-### T-Mobile Certification
+### T-Mobile Certification {#t-mobile-certification}
 
 Click the link [t-mobile device certification](https://www.t-mobile.com/business/solutions/iot/device-certification){target="_blank"} and choose 5G in **Filter**, you can find it. 
 

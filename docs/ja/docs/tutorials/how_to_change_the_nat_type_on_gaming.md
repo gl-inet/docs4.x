@@ -1,22 +1,22 @@
-# ゲームで NAT タイプを変更する方法
+# ゲームで NAT タイプを変更する方法 {#how-to-change-the-nat-type-on-gaming}
 
 より良い NAT タイプを得るために、ルーターで UPnP を有効にするよう案内しているゲームメーカーは多くあります。しかし、UPnP は安全性の高いプロトコルではないことが知られています。
 
 同じ目的は、DMZ またはポート転送を使って、より安全に実現できます。
 
-## ゲーム機の IP アドレスを確認する
+## ゲーム機の IP アドレスを確認する {#check-your-game-ip}
 
 クライアント一覧に移動し、ゲーム機に割り当てられている IP アドレスを確認します。以降の設定ではこの IP アドレスを使用します。
 
 ![gameip](https://static.gl-inet.com/docs/router/en/4/tutorials/gamling/gameip.png){class="glboxshadow"}
 
-## 方法 1: DMZ
+## 方法 1: DMZ {#method-1-dmz}
 
 サイドバーの **Network > Port Forwarding** に移動し、ゲーム機の IP アドレスを指定して DMZ を有効にします。
 
 ![dmz](https://static.gl-inet.com/docs/router/en/4/tutorials/gamling/dmzgame.png){class="glboxshadow"}
 
-## 方法 2: ポート転送
+## 方法 2: ポート転送 {#method-2-port-forward}
 
 サイドバーの **Network > Port Forwarding** に移動し、ゲーム機の IP アドレスを指定して必要なポートを追加します。
 
@@ -41,7 +41,7 @@ TCP 3074
 
 [Port forward on different Games](https://portforward.com/games/)
 
-## Full Cone NAT
+## Full Cone NAT {#full-cone-nat}
 
 遅延を改善するため、**Network > NAT Settings** で Full Cone NAT を有効にできます。
 

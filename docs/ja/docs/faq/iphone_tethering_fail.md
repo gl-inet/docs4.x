@@ -1,4 +1,4 @@
-# iPhoneテザリング失敗
+# iPhoneテザリング失敗 {#iphone-tethering-failed}
 
 iPhoneテザリングに問題が発生した場合は、以下の手順で問題を解決してみてください。
 

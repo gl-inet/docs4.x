@@ -149,7 +149,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     To set up AstroWarp, refer to [AstroWarp](../../interface_guide/astrowarp.md).
 
-    **Note:** Please upgrade your router firmware to version 1.8 or above before using this feature.
+    **Note:** Please upgrade your router firmware to version 4.8 or above before using this feature.
 
 ## Applications
 
@@ -171,7 +171,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     To set up network storage, refer to [Network Storage](../../interface_guide/network_storage.md).
 
-    **Note:** Please upgrade your router firmware to version 1.8 or above before using this feature.
+    **Note:** Please upgrade your router firmware to version 4.8 or above before using this feature.
 
 ## Network settings
 

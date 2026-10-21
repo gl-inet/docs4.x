@@ -10,7 +10,7 @@ Then log in to the router's web Admin Panel to enable GoodCloud and remote acces
 
 Please select the tutorial that matches your device's firmware version to enable GoodCloud and remote access.
 
-??? "For firmware version 4.10"
+??? "For firmware version 4.10 and above"
 
     Please go to **CLOUD SERVICES** -> **GoodCloud**, click **Get Started**. 
 

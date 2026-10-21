@@ -10,82 +10,21 @@ On the left side of the web Admin Panel, go to **MESH**.
 
 Mesh is a feature based on the Wi-Fi EasyMesh™ standard that extends whole-home Wi‑Fi coverage and enables seamless roaming. If you have multiple GL.iNet routers, set one as the main router and the rest as mesh nodes for seamless Wi-Fi roaming around your home.
 
-## Mesh vs. Extender vs. Access Point Mode
-
-All three modes can extend Wi-Fi coverage. The main differences are how they connect to the main router and how the devices are configured and managed. **Backhaul** is the connection between the main router and an extender, access point, or Mesh node.
-
-This table compares GL.iNet’s standalone Extender and Access Point modes with its Mesh implementation.
-
-| Feature | Extender Mode | Access Point Mode | Mesh Mode |
-|---|---|---|---|
-| **Wireless backhaul** | ✅ Supported | ❌ Not used | ✅ Supported |
-| **Ethernet backhaul** | ❌ Not used in this mode | ✅ Supported | ✅ Supported |
-| **Full-duplex backhaul** | ❌ Wi-Fi is half-duplex | ✅ Ethernet | ✅ Ethernet only; wireless backhaul remains half-duplex |
-| **2.4/5 GHz wireless backhaul** | ⚠️ Available bands depend on model and firmware | ❌ Not applicable | ⚠️ Available bands depend on model and firmware |
-| **6 GHz wireless backhaul** | ⚠️ Model and firmware dependent | ❌ Not applicable | 🔜 Coming soon |
-| **Wi-Fi roaming** | ✅ Client-controlled | ✅ Client-controlled | ✅ Client-controlled, with 802.11k/v assistance |
-| **Automatic Wi-Fi settings synchronization** | ❌ Configure separately | ❌ Configure separately | ✅ From the main router |
-| **Centralized node management** | ❌ Configure separately | ❌ Configure separately | ✅ Through the main router |
-| **Network topology and client overview** | ❌ No Mesh-wide overview | ❌ No Mesh-wide overview | ✅ Available on the main router |
-| **Centrally managed expansion** | ❌ Independent extenders | ❌ Independent access points | ✅ One main router and up to eight nodes |
-| **Centrally managed wireless hops** | ❌ Not Mesh-managed | ❌ Not applicable | ✅ Up to three wireless hops |
-| **Automatic wired/wireless backhaul switching** | ❌ No Mesh-managed switching | ❌ No Mesh-managed switching | ✅ Prioritizes Ethernet |
-| **Best suited for** | Simple wireless coverage extension | Extending coverage where Ethernet is available | Coordinated coverage with wired, wireless, or mixed connections |
-
-✅ Supported · ❌ Not supported or not applicable in this mode · ⚠️ Depends on hardware, firmware, or configuration · 🔜 Planned feature
-
-Mesh synchronizes supported main, guest, IoT, and MLO Wi-Fi settings. It also provides centralized node management, including restarting, removing, and updating supported GL.iNet nodes. Nodes can be added through Wi-Fi scanning, an Ethernet connection, or a Mesh/WPS button where supported. Backhaul management includes Ethernet priority, wired/wireless switching, and loop prevention.
-
-### Understanding Performance Differences
-
-#### Extender Mode
-
-The device connects to an existing Wi-Fi network. The radio used for that upstream connection follows the main router’s channel. Clients using the same radio also use that channel, so upstream and client traffic share airtime.
-
-On supported multi-band models, separate radios can still serve clients on other bands. For example, an extender may connect upstream over 2.4 GHz while serving clients through its separate 5 GHz radio. Those two connections do not compete for the same channel’s airtime. Available combinations depend on the model and firmware; Extender mode is not inherently restricted to single-band operation.
-
-The same upstream-channel requirement applies to GL.iNet’s Repeater connection feature, although Repeater operation and the standalone Extender network mode differ in other respects.
-
-#### Wireless Mesh
-
-In the tested tri-band Mesh configuration, the node uses **5 GHz for wireless backhaul**. The node’s 5 GHz channel follows the main router and cannot be changed independently, while its separate **2.4 GHz and 6 GHz channel settings remain independently configurable**. These are channel settings, not a statement about which bands client devices can connect to. Changing a client-facing channel does not change the backhaul band.
-
-The performance impact therefore depends on how the client connects:
-
-- **Devices connected over 5 GHz:** If a phone, laptop, or other device connects to the Mesh node's 5 GHz Wi-Fi while that same radio carries wireless backhaul, the connections share airtime. The node's 5 GHz channel being locked does not necessarily prevent client devices from connecting on that band.
-- **Devices connected over 2.4 GHz or 6 GHz:** When these clients use a separate radio from the 5 GHz wireless backhaul, the two links do not share the same-channel forwarding penalty.
-
-This describes the tested configuration, not every supported Mesh model. Separate-radio forwarding is not exclusive to Mesh, and switching from Extender to Mesh does not automatically provide a throughput improvement.
-
-#### Access Point Mode and Wired Mesh
-
-Both use Ethernet for the connection to the main router. Ethernet backhaul operates in full-duplex and avoids transmitting backhaul traffic over Wi-Fi. Client Wi-Fi connections remain half-duplex. With otherwise comparable hardware and conditions, Access Point mode and wired Mesh can provide similar throughput; Mesh adds coordinated configuration and management.
-
-Mesh prioritizes Ethernet backhaul and supports switching to wireless when a suitable wireless connection is available. In the tested configuration, the node’s 5 GHz channel remains aligned with the main router even while Ethernet backhaul is active. This does not mean wireless backhaul is carrying the traffic. Ethernet removes the wireless data-backhaul hop, but nearby nodes and clients using the same Wi-Fi channel can still compete for airtime.
-
-!!! note "6 GHz Mesh backhaul — Coming soon"
-
-    6 GHz Mesh backhaul will require compatible 6 GHz hardware at both the main router and the Mesh node, together with supporting firmware. Do not assume that all Mesh-capable models will support this feature.
-
-    This is different from connecting a client to a node’s existing 6 GHz Wi-Fi network. With 6 GHz backhaul, a separate 5 GHz radio could serve clients without sharing the backhaul channel’s airtime. A radio is only dedicated to backhaul when it is reserved for that purpose rather than also serving clients.
-
-!!! important "Separate radios do not make Wi-Fi full-duplex"
-
-    Each Wi-Fi link remains half-duplex. Separate-radio forwarding avoids sharing one channel between the backhaul and client links, but it does not remove other interference, contention, or multi-hop limitations. End-to-end throughput is still limited by the slower link and network conditions.
-
 ## Supported Models
 
 ??? "Supported Models"
+    - ※GL-BE14000 (Flint 4)
+    - ※GL-BE10000 (Slate 7 Pro)
     - GL-BE9300 (Flint 3)
     - GL-BE3600 (Slate 7)
     - GL-MT6000 (Flint 2)
     - GL-MT3000 (Beryl AX)
 
+    **Note**: Models marked with ※ support Mesh in Beta firmware.
+
 ??? "Unsupported Models"
     - GL-MT6000 (Fortify)
     - GL-MG1300 (Mango 2)
-    - GL-BE14000 (Flint 4)
-    - GL-BE10000 (Slate 7 Pro)
     - GL-E5800 (Mudi 7)
     - GL-MT5000 (Brume 3)
     - GL-MT3600BE (Beryl 7)
@@ -218,6 +157,69 @@ You will be redirected to the Mesh node's login page at the IP address assigned 
 Click **Add** in the upper-right corner of the topology to add more nodes if needed.
 
 ![add more nodes](https://static.gl-inet.com/docs/router/en/4/interface_guide/mesh/add_node.png){class="glboxshadow"}
+
+## Mesh vs. Extender vs. Access Point Mode
+
+All three modes can extend Wi-Fi coverage. The main differences are how they connect to the main router and how the devices are configured and managed. **Backhaul** is the connection between the main router and an extender, access point, or Mesh node.
+
+This table compares GL.iNet's standalone Extender and Access Point modes with its Mesh implementation.
+
+| Feature | Extender Mode | Access Point Mode | Mesh Mode |
+|---|---|---|---|
+| **Wireless backhaul** | ✅ Supported | ❌ Not applicable | ✅ Supported |
+| **Ethernet backhaul** | ❌ Not used in this mode | ✅ Supported | ✅ Supported |
+| **Full-duplex backhaul** | ❌ Wi-Fi is half-duplex | ✅ Ethernet | ✅ Ethernet only; wireless backhaul remains half-duplex |
+| **2.4/5 GHz wireless backhaul** | ⚠️ Available bands depend on model and firmware | ❌ Not applicable | ⚠️ Available bands depend on model and firmware |
+| **6 GHz wireless backhaul** | ⚠️ Model and firmware dependent | ❌ Not applicable | 🔜 Coming soon |
+| **Wi-Fi roaming** | ✅ Client-controlled | ✅ Client-controlled | ✅ Client-controlled, with 802.11k/v assistance |
+| **Automatic Wi-Fi settings synchronization** | ❌ Configure separately | ❌ Configure separately | ✅ From the main router |
+| **Centralized node management** | ❌ Configure separately | ❌ Configure separately | ✅ Through the main router |
+| **Network topology and client overview** | ❌ No Mesh-wide overview | ❌ No Mesh-wide overview | ✅ Available on the main router |
+| **Centrally managed expansion** | ❌ Independent extenders | ❌ Independent access points | ✅ One main router and up to eight nodes |
+| **Centrally managed wireless hops** | ❌ Not Mesh-managed | ❌ Not applicable | ✅ Up to three wireless hops |
+| **Automatic wired/wireless backhaul switching** | ❌ No Mesh-managed switching | ❌ No Mesh-managed switching | ✅ Prioritizes Ethernet |
+| **Best suited for** | Simple wireless coverage extension | Extending coverage where Ethernet is available | Coordinated coverage with wired, wireless, or mixed connections |
+
+✅ Supported · ❌ Not supported or not applicable in this mode · ⚠️ Depends on hardware, firmware, or configuration · 🔜 Planned feature
+
+Mesh synchronizes supported main, guest, IoT, and MLO Wi-Fi settings. It also provides centralized node management, including restarting, removing, and updating supported GL.iNet nodes. Nodes can be added through Wi-Fi scanning, an Ethernet connection, or a Mesh/WPS button where supported. Backhaul management includes Ethernet priority, wired/wireless switching, and loop prevention.
+
+### Understanding Performance Differences
+
+#### Extender Mode
+
+The device connects to an existing Wi-Fi network. The radio used for that upstream connection follows the main router’s channel. Clients using the same radio also use that channel, so upstream and client traffic share airtime.
+
+On supported multi-band models, separate radios can still serve clients on other bands. For example, an extender may connect upstream over 2.4 GHz while serving clients through its separate 5 GHz radio. Those two connections do not compete for the same channel’s airtime. Available combinations depend on the model and firmware; Extender mode is not inherently restricted to single-band operation.
+
+The same upstream-channel requirement applies to GL.iNet’s Repeater connection feature, although Repeater operation and the standalone Extender network mode differ in other respects.
+
+#### Wireless Mesh
+
+In the tested tri-band Mesh configuration, the node uses **5 GHz for wireless backhaul**. The node’s 5 GHz channel follows the main router and cannot be changed independently, while its separate **2.4 GHz and 6 GHz channel settings remain independently configurable**. These are channel settings, not a statement about which bands client devices can connect to. Changing a client-facing channel does not change the backhaul band.
+
+The performance impact therefore depends on how the client connects:
+
+- **Devices connected over 5 GHz:** If a phone, laptop, or other device connects to the Mesh node's 5 GHz Wi-Fi while that same radio carries wireless backhaul, the connections share airtime. The node's 5 GHz channel being locked does not necessarily prevent client devices from connecting on that band.
+- **Devices connected over 2.4 GHz or 6 GHz:** When these clients use a separate radio from the 5 GHz wireless backhaul, the two links do not share the same-channel forwarding penalty.
+
+This describes the tested configuration, not every supported Mesh model. Separate-radio forwarding is not exclusive to Mesh, and switching from Extender to Mesh does not automatically provide a throughput improvement.
+
+#### Access Point Mode and Wired Mesh
+
+Both use Ethernet for the connection to the main router. Ethernet backhaul operates in full-duplex and avoids transmitting backhaul traffic over Wi-Fi. Client Wi-Fi connections remain half-duplex. With otherwise comparable hardware and conditions, Access Point mode and wired Mesh can provide similar throughput; Mesh adds coordinated configuration and management.
+
+Mesh prioritizes Ethernet backhaul and supports switching to wireless when a suitable wireless connection is available. In the tested configuration, the node’s 5 GHz channel remains aligned with the main router even while Ethernet backhaul is active. This does not mean wireless backhaul is carrying the traffic. Ethernet removes the wireless data-backhaul hop, but nearby nodes and clients using the same Wi-Fi channel can still compete for airtime.
+
+!!! note "6 GHz Mesh backhaul — Coming soon"
+
+    6 GHz Mesh backhaul will require compatible 6 GHz hardware at both the main router and the Mesh node, together with supporting firmware. Do not assume that all Mesh-capable models will support this feature.
+
+    This is different from connecting a client to a node’s existing 6 GHz Wi-Fi network. With 6 GHz backhaul, a separate 5 GHz radio could serve clients without sharing the backhaul channel’s airtime. A radio is only dedicated to backhaul when it is reserved for that purpose rather than also serving clients.
+
+!!! important "Separate radios do not make Wi-Fi full-duplex"
+
+    Each Wi-Fi link remains half-duplex. Separate-radio forwarding avoids sharing one channel between the backhaul and client links, but it does not remove other interference, contention, or multi-hop limitations. End-to-end throughput is still limited by the slower link and network conditions.
 
 ---
 

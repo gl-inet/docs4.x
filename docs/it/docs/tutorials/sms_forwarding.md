@@ -84,7 +84,7 @@ Prendiamo come esempio il GL-XE3000 (Puli AX).
 
     Per Yahoo, devi impostare una password per app per effettuare l'accesso e sono supportate sia la porta 465 sia la 587. Consulta la guida ufficiale [POP access settings and instructions for Yahoo Mail](https://help.yahoo.com/kb/SLN4724.html){target="_blank"} e [Generate and manage third-party app passwords](https://help.yahoo.com/kb/SLN15241.html){target="_blank"}.
 
-**Nota**: ogni mittente email puo essere soggetto a limiti di invio SMTP, ad esempio un limite giornaliero sul numero di email inviate. Consulta il tuo provider di servizi.
+**Nota**: ogni mittente email può essere soggetto a limiti di invio SMTP, ad esempio un limite giornaliero sul numero di email inviate. Consulta il tuo provider di servizi.
 
 Puoi aggiungere fino a 10 indirizzi email.
 

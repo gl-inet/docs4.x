@@ -51,7 +51,7 @@ Collega il router a un modem attivo o a un dispositivo di rete attivo tramite un
 
 ### Repeater {#repeater}
 
-Configura il router come repeater per estendere la copertura Wi-Fi di una rete Wi-Fi esistente. In qualita di repeater, riceve e ritrasmette i segnali wireless entro il proprio raggio d'azione, estendendone cosi la copertura. Questo metodo e utile quando un singolo router non riesce a coprire l'intera area di utilizzo.
+Configura il router come repeater per estendere la copertura Wi-Fi di una rete Wi-Fi esistente. In qualità di repeater, riceve e ritrasmette i segnali wireless entro il proprio raggio d'azione, estendendone così la copertura. Questo metodo e utile quando un singolo router non riesce a coprire l'intera area di utilizzo.
 
 [Fai clic qui per scoprire come connetterti a Internet tramite una rete Wi-Fi esistente](../../interface_guide/internet_repeater.md)
 
@@ -59,7 +59,7 @@ Configura il router come repeater per estendere la copertura Wi-Fi di una rete W
 
 ### Tethering {#tethering}
 
-Collega la porta USB del router a uno smartphone con dati mobili attivi tramite un cavo USB per accedere a Internet. Questo metodo consente a piu dispositivi collegati al router di usare la connessione dati mobile dello smartphone per accedere a Internet.
+Collega la porta USB del router a uno smartphone con dati mobili attivi tramite un cavo USB per accedere a Internet. Questo metodo consente a più dispositivi collegati al router di usare la connessione dati mobile dello smartphone per accedere a Internet.
 
 [Fai clic qui per scoprire come connetterti a Internet tramite tethering USB](../../interface_guide/internet_tethering.md)
 
@@ -75,11 +75,11 @@ Inserisci una SIM nello slot SIM per connetterti a Internet. Questo metodo e uti
 
 ### Multi-WAN {#multi-wan}
 
-Multi-WAN e una funzione di rete che consente di configurare il router con piu connessioni Internet contemporaneamente, ad esempio Ethernet e Repeater. Se la connessione Internet con priorita piu alta si interrompe, il router passera automaticamente a un'altra connessione Internet. Questa funzione e chiamata anche failover e garantisce un accesso a Internet fluido e senza interruzioni.
+Multi-WAN e una funzione di rete che consente di configurare il router con più connessioni Internet contemporaneamente, ad esempio Ethernet e Repeater. Se la connessione Internet con priorità più alta si interrompe, il router passera automaticamente a un'altra connessione Internet. Questa funzione e chiamata anche failover e garantisce un accesso a Internet fluido e senza interruzioni.
 
-Vai a [Multi-WAN](../../interface_guide/multi-wan.md) per impostare la priorita di ciascuna connessione Internet.
+Vai a [Multi-WAN](../../interface_guide/multi-wan.md) per impostare la priorità di ciascuna connessione Internet.
 
-In alternativa, puoi cambiare la modalita Multi-WAN da Failover a Load Balance, cosi da utilizzare piu interfacce di rete contemporaneamente per aumentare la larghezza di banda totale del router.
+In alternativa, puoi cambiare la modalità Multi-WAN da Failover a Load Balance, così da utilizzare più interfacce di rete contemporaneamente per aumentare la larghezza di banda totale del router.
 
 ---
 
@@ -87,21 +87,21 @@ In alternativa, puoi cambiare la modalita Multi-WAN da Failover a Load Balance, 
 
 Le impostazioni wireless consentono agli utenti di gestire la sicurezza della rete Wi-Fi principale e del Wi-Fi ospite. E possibile accedervi andando su **WIRELESS** nel menu laterale.
 
-[Fai clic qui per saperne di piu sulla configurazione wireless](../../interface_guide/wireless.md)
+[Fai clic qui per saperne di più sulla configurazione wireless](../../interface_guide/wireless.md)
 
 ---
 
 ## Client {#clients}
 
-I client sono i dispositivi collegati al router; puoi bloccarli o limitarne la velocita di rete. L'interfaccia e accessibile facendo clic su **CLIENTS** nel menu laterale del pannello di amministrazione del router.
+I client sono i dispositivi collegati al router; puoi bloccarli o limitarne la velocità di rete. L'interfaccia e accessibile facendo clic su **CLIENTS** nel menu laterale del pannello di amministrazione del router.
 
-[Fai clic qui per saperne di piu sulla gestione dei client del dispositivo.](../../interface_guide/clients.md)
+[Fai clic qui per saperne di più sulla gestione dei client del dispositivo.](../../interface_guide/clients.md)
 
 ---
 
 ## VPN {#vpn}
 
-I router GL.iNet sono preinstallati con OpenVPN e WireGuard® e supportano piu di 30 servizi VPN. Quando il client VPN è abilitato, il router può crittografare il traffico dei dispositivi della rete, inclusi quelli che non possono eseguire app VPN, in base alle impostazioni dei criteri VPN. I nostri router possono anche funzionare come server VPN, reindirizzando il traffico dei dispositivi client in posizioni remote verso il server VPN tramite un tunnel VPN prima dell'accesso a Internet pubblico.
+I router GL.iNet sono preinstallati con OpenVPN e WireGuard® e supportano più di 30 servizi VPN. Quando il client VPN è abilitato, il router può crittografare il traffico dei dispositivi della rete, inclusi quelli che non possono eseguire app VPN, in base alle impostazioni dei criteri VPN. I nostri router possono anche funzionare come server VPN, reindirizzando il traffico dei dispositivi client in posizioni remote verso il server VPN tramite un tunnel VPN prima dell'accesso a Internet pubblico.
 
 ### Dashboard VPN {#vpn-dashboard}
 
@@ -167,7 +167,7 @@ Consulta la guida [**ZeroTier**](../../interface_guide/zerotier.md).
 
 I router GL.iNet includono numerose funzioni firewall per garantire una connessione sicura e un controllo completo da parte dell'utente. Consentono di configurare regole firewall, tra cui port forwarding, porte aperte e DMZ.
 
-[Fai clic qui per saperne di piu sul firewall dei router GL.iNet](../../interface_guide/firewall.md)
+[Fai clic qui per saperne di più sul firewall dei router GL.iNet](../../interface_guide/firewall.md)
 
 ### Multi-WAN {#multi-wan_1}
 
@@ -181,7 +181,7 @@ Consulta la guida [**LAN**](../../interface_guide/lan.md).
 
 Consulta la guida [**DNS**](../../interface_guide/dns.md).
 
-### Modalita di rete {#network-mode}
+### Modalità di rete {#network-mode}
 
 Consulta la guida [**Network Mode**](../../interface_guide/network_mode.md).
 
@@ -217,7 +217,7 @@ GL.iNet fornisce aggiornamenti regolari del firmware dei propri router per migli
 
 Consulta la guida [**Upgrade**](../../interface_guide/upgrade.md).
 
-### Attivita pianificate {#scheduled-tasks}
+### Attività pianificate {#scheduled-tasks}
 
 Consulta la guida [**Scheduled Tasks**](../../interface_guide/scheduled_tasks.md).
 

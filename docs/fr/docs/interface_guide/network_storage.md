@@ -109,9 +109,9 @@ Connectez le périphérique de stockage. Lorsqu'il est détecté, la page s'affi
 
     * **Allow Access WebDAV from WAN**: Activez cette option si vous souhaitez que les appareils du réseau amont accèdent au service WebDAV.
 
-    * WebDAV Protocol: **HTTP** n'est pas chiffré ; utilisez-le à vos risques. **HTTPS** est chiffré et utilise un certificat auto-signé.
+    * WebDAV Protocol : **HTTP** n'est pas chiffré ; utilisez-le à vos risques. **HTTPS** est chiffré et utilise un certificat auto-signé.
 
-    * WebDAV Port: Il n'est pas nécessaire de modifier le numéro de port, sauf en cas de conflit. La plage de ports recommandée est 1024 - 65535.
+    * WebDAV Port : Il n'est pas nécessaire de modifier le numéro de port, sauf en cas de conflit. La plage de ports recommandée est 1024 - 65535.
 
 
 2. Cliquez sur **Quick Setup Share** pour définir le lien de partage.

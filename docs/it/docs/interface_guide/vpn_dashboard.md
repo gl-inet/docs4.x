@@ -152,7 +152,7 @@ Di seguito trovi due casi tipici di configurazione dei criteri VPN, con istruzio
 
         ![case 1 connect](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/1_connect.png){class="glboxshadow"}
 
-    8. Una volta stabilita la connessione, la pagina mostrerà i dettagli della connessione VPN, inclusi criteri VPN, statistiche del traffico, indirizzo del server, porta di ascolto e indirizzo IP virtuale.
+    8. Una volta stabilità la connessione, la pagina mostrerà i dettagli della connessione VPN, inclusi criteri VPN, statistiche del traffico, indirizzo del server, porta di ascolto e indirizzo IP virtuale.
 
         ![case 1 connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/1_connected.png){class="glboxshadow"}
 
@@ -240,7 +240,7 @@ Di seguito trovi due casi tipici di configurazione dei criteri VPN, con istruzio
 
         ![case 2 connect](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/2_connect.png){class="glboxshadow"}
 
-    14. Una volta stabilita la connessione, la pagina mostrerà i dettagli della connessione VPN, inclusi criteri VPN, statistiche del traffico, indirizzo del server, porta di ascolto e indirizzo IP virtuale.
+    14. Una volta stabilità la connessione, la pagina mostrerà i dettagli della connessione VPN, inclusi criteri VPN, statistiche del traffico, indirizzo del server, porta di ascolto e indirizzo IP virtuale.
 
         ![case 2 connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/2_connected.png){class="glboxshadow"}
 

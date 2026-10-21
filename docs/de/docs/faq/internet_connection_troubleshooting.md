@@ -61,65 +61,65 @@ Wenn Sie Internetzugang haben, hängt das Problem möglicherweise mit der Konfig
 - Name Ihres ISP
 - Alle weiteren Informationen, die uns bei der Unterstützung helfen könnten
 
-## ISP information {#isp-information}
+## ISP-Informationen {#isp-information}
 
 Nachfolgend finden Sie regionsspezifische ISP-Informationen, die GL.iNet aus Kundenfeedback, Foren und OpenWRT-Ressourcen zusammengestellt hat. Diese dienen nur als Referenz.
 
-| Country/Region   | ISP   | Connection Type | VLAN ID | MAC Clone Required | Additional Requirements |
+| Land/Region   | ISP   | Verbindungstyp | VLAN-ID | MAC-Klonen erforderlich | Zusätzliche Anforderungen |
 | :--------------- | :---- | :-------------- | :------ | :-------- | :---------------------- |
-| United States    | AT&T Fiber | DHCP (IP Passthrough) | N/A | No | Must enable IP Passthrough; EAP authentication bypass needed |
-| United States | Spectrum | DHCP | N/A | Yes (in some areas) | Strong MAC binding (modem reboot required) |
-| United States | Verizon Fios | DHCP | N/A | No | |
-| United States | Comcast Xfinity | DHCP | N/A | Yes (common) | Must reboot modem when changing router (MAC release) |
-| United States | Cox Communications | DHCP | N/A | Yes | Must reboot modem when changing router (MAC release) |
-| United States | Frontier Fiber | DHCP | N/A | No | |
-| United States | CenturyLink / Lumen | PPPoE | 201 | No | VLANs are required in certain areas. |
-| Canada | Bell Canada Fibe | PPPoE | 35 | No | |
-| Germany | Deutsche Telekom | PPPoE | 7 | No | VLAN 7 mandatory for internet; PPPoE credentials required |
-| Germany | Vodafone (Kabel) | DHCP | N/A | Yes (sometimes) | MAC binding may apply; reboot modem after router change |
-| Germany | 1&1 / O2 (Telekom line) | PPPoE | 7 | No | VLAN 7 mandatory for internet |
-| Germany | DNS:NET | PPPoE | 37 | No | |
-| Germany | o2(UGG) | PPPoE | 7 | No | |
-| United Kingdom | BT Broadband | PPPoE | 101 | No | VLAN 101 required; PPPoE login needed |
-| United Kingdom | Sky Broadband | DHCP (Option 61) | 101 | No | Requires DHCP Option 61 (client identifier) |
-| United Kingdom | Virgin | DHCP | N/A | Yes | The modem is in bridged mode and requires MAC cloning. |
-| France | Orange | DHCP / PPPoE | 832 | No | VLAN 832 required; may require Option 90 authentication |
-| France | Free (Freebox) | DHCP | N/A | No | |
-| France | Bouygues Telecom | DHCP | 100 | Yes | Clone Bbox MAC |
-| Spain | Movistar | PPPoE | 6 | No | VLAN 6 (internet), VLAN 2 (IPTV), VLAN 3 (VoIP) |
-| Spain | DIGI | PPPoE | 20 | No | |
-| Spain | Orange | DHCP | 832/835 | No | VLANs may vary by region |
-| Italy | TIM | PPPoE | 835 | No | VLAN 835 required |
-| Italy | Aruba | PPPoE | 835 | No | |
-| Netherlands | KPN | DHCP | 6 | No | VLAN 6 required for internet |
-| Netherlands | Tweak | DHCP | 34 | Yes | Cloning Experia Box MAC |
-| Netherlands | Telfort / Oxxio / Tweak | DHCP (IPoE) | 34 | No | |
-| Netherlands | Odido | DHCP | 300 | No | |
-| Belgium | EDPnet | PPPoE | 10 | No | |
-| Bosnia and Herzegovina | BH Telecom | PPPoE | 100 | No | |
-| Croatia | Terrakom | PPPoE | 905 | No | |
-| Czech Republic | O2 | PPPoE | 848 | No | |
-| Cyprus | Epic | PPPoE | 35 | No | |
-| Cyprus | Cyta | PPPoE | 42 | No | |
-| Cyprus | Cablenet | PPPoE | 42 | No | |
-| Cyprus | Primetel | PPPoE | 42 | No | |
-| Poland | Orange Polska | PPPoE | 35 | No | VLAN 35 required |
-| Poland | T-mobile | PPPoE | 35 | No | |
-| Ireland | Vodafone SIRO | PPPoE | 10 | No | |
-| Ireland | Pure Telecom | PPPoE | 10 | No | |
-| Austria | A1 Telekom | PPPoE | 2 | No | |
-| Austria | Fonira | PPPoE | 31 | No | |
-| Türkiye | Turknet | PPPoE | 35 | No | |
-| Türkiye | Turk Telekom | PPPoE | 35 | No | |
-| Türkiye | Turkcell Superonline | PPPoE | N/A | Yes | |
-| Türkiye | Turksat Kablonet | DHCP/PPPoE | N/A | No | |
-| Greece | Cosmote | PPPoE | 835 | No | |
-| Greece | Nova | PPPoE | 835 | Yes | |
-| Greece | DEI/PPC | DHCP | 835 | No | |
-| Japan | NTT (FLET'S) | PPPoE / IPoE (MAP-E) | N/A | No | IPoE requires MAP-E/DS-Lite compatible router |
-| Japan | SoftBank Hikari | PPPoE / IPoE | N/A | No | BBIX IPoE service commonly used |
-| India | Airtel | PPPoE / DHCP | N/A | No | Some regions require PPPoE |
-| India | JioFiber | DHCP | N/A | No | Locked ONT in many cases |
-| Singapore | Singtel | PPPoE | 10 | No | VLAN 10 required; IPTV separate VLAN |
-| Singapore | StarHub | DHCP | N/A | No | DHCP-based connection |
-| Australia | NBN (various ISPs) | PPPoE / DHCP | 2 (common) | Yes | VLAN 2 common but ISP-dependent |
+| Vereinigte Staaten | AT&T Fiber | DHCP (IP Passthrough) | N/A | Nein | IP Passthrough muss aktiviert werden; EAP-Authentifizierung muss umgangen werden |
+| Vereinigte Staaten | Spectrum | DHCP | N/A | Ja (in einigen Regionen) | Strenge MAC-Bindung (Neustart des Modems erforderlich) |
+| Vereinigte Staaten | Verizon Fios | DHCP | N/A | Nein | |
+| Vereinigte Staaten | Comcast Xfinity | DHCP | N/A | Ja (häufig) | Modem muss beim Routerwechsel neu gestartet werden (MAC-Freigabe) |
+| Vereinigte Staaten | Cox Communications | DHCP | N/A | Ja | Modem muss beim Routerwechsel neu gestartet werden (MAC-Freigabe) |
+| Vereinigte Staaten | Frontier Fiber | DHCP | N/A | Nein | |
+| Vereinigte Staaten | CenturyLink / Lumen | PPPoE | 201 | Nein | In bestimmten Regionen sind VLANs erforderlich. |
+| Kanada | Bell Canada Fibe | PPPoE | 35 | Nein | |
+| Deutschland | Deutsche Telekom | PPPoE | 7 | Nein | VLAN 7 für den Internetzugang zwingend erforderlich; PPPoE-Zugangsdaten erforderlich |
+| Deutschland | Vodafone (Kabel) | DHCP | N/A | Ja (manchmal) | MAC-Bindung möglich; Modem nach einem Routerwechsel neu starten |
+| Deutschland | 1&1 / O2 (Telekom line) | PPPoE | 7 | Nein | VLAN 7 für den Internetzugang zwingend erforderlich |
+| Deutschland | DNS:NET | PPPoE | 37 | Nein | |
+| Deutschland | o2(UGG) | PPPoE | 7 | Nein | |
+| Vereinigtes Königreich | BT Broadband | PPPoE | 101 | Nein | VLAN 101 erforderlich; PPPoE-Anmeldung erforderlich |
+| Vereinigtes Königreich | Sky Broadband | DHCP (Option 61) | 101 | Nein | Erfordert DHCP Option 61 (Client-Kennung) |
+| Vereinigtes Königreich | Virgin | DHCP | N/A | Ja | Das Modem befindet sich im Bridge-Modus und erfordert MAC-Klonen. |
+| Frankreich | Orange | DHCP / PPPoE | 832 | Nein | VLAN 832 erforderlich; ggf. Authentifizierung über Option 90 erforderlich |
+| Frankreich | Free (Freebox) | DHCP | N/A | Nein | |
+| Frankreich | Bouygues Telecom | DHCP | 100 | Ja | MAC-Adresse der Bbox klonen |
+| Spanien | Movistar | PPPoE | 6 | Nein | VLAN 6 (Internet), VLAN 2 (IPTV), VLAN 3 (VoIP) |
+| Spanien | DIGI | PPPoE | 20 | Nein | |
+| Spanien | Orange | DHCP | 832/835 | Nein | VLANs können je nach Region variieren |
+| Italien | TIM | PPPoE | 835 | Nein | VLAN 835 erforderlich |
+| Italien | Aruba | PPPoE | 835 | Nein | |
+| Niederlande | KPN | DHCP | 6 | Nein | VLAN 6 für den Internetzugang erforderlich |
+| Niederlande | Tweak | DHCP | 34 | Ja | MAC-Adresse der Experia Box klonen |
+| Niederlande | Telfort / Oxxio / Tweak | DHCP (IPoE) | 34 | Nein | |
+| Niederlande | Odido | DHCP | 300 | Nein | |
+| Belgien | EDPnet | PPPoE | 10 | Nein | |
+| Bosnien und Herzegowina | BH Telecom | PPPoE | 100 | Nein | |
+| Kroatien | Terrakom | PPPoE | 905 | Nein | |
+| Tschechien | O2 | PPPoE | 848 | Nein | |
+| Zypern | Epic | PPPoE | 35 | Nein | |
+| Zypern | Cyta | PPPoE | 42 | Nein | |
+| Zypern | Cablenet | PPPoE | 42 | Nein | |
+| Zypern | Primetel | PPPoE | 42 | Nein | |
+| Polen | Orange Polska | PPPoE | 35 | Nein | VLAN 35 erforderlich |
+| Polen | T-mobile | PPPoE | 35 | Nein | |
+| Irland | Vodafone SIRO | PPPoE | 10 | Nein | |
+| Irland | Pure Telecom | PPPoE | 10 | Nein | |
+| Österreich | A1 Telekom | PPPoE | 2 | Nein | |
+| Österreich | Fonira | PPPoE | 31 | Nein | |
+| Türkei | Turknet | PPPoE | 35 | Nein | |
+| Türkei | Turk Telekom | PPPoE | 35 | Nein | |
+| Türkei | Turkcell Superonline | PPPoE | N/A | Ja | |
+| Türkei | Turksat Kablonet | DHCP/PPPoE | N/A | Nein | |
+| Griechenland | Cosmote | PPPoE | 835 | Nein | |
+| Griechenland | Nova | PPPoE | 835 | Ja | |
+| Griechenland | DEI/PPC | DHCP | 835 | Nein | |
+| Japan | NTT (FLET'S) | PPPoE / IPoE (MAP-E) | N/A | Nein | IPoE erfordert einen Router mit MAP-E/DS-Lite-Unterstützung |
+| Japan | SoftBank Hikari | PPPoE / IPoE | N/A | Nein | Häufig wird der IPoE-Dienst von BBIX verwendet |
+| Indien | Airtel | PPPoE / DHCP | N/A | Nein | In einigen Regionen ist PPPoE erforderlich |
+| Indien | JioFiber | DHCP | N/A | Nein | ONT in vielen Fällen gesperrt |
+| Singapur | Singtel | PPPoE | 10 | Nein | VLAN 10 erforderlich; IPTV über separates VLAN |
+| Singapur | StarHub | DHCP | N/A | Nein | DHCP-basierte Verbindung |
+| Australien | NBN (verschiedene ISPs) | PPPoE / DHCP | 2 (häufig) | Ja | VLAN 2 üblich, aber ISP-abhängig |

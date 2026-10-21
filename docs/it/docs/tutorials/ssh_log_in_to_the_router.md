@@ -1,6 +1,6 @@
 # Accedere al router tramite SSH {#ssh-log-in-to-the-router}
 
-Secure Shell, SSH, e un protocollo di rete crittografico per gestire in modo sicuro i servizi di rete su una rete non protetta. L'esempio piu noto e l'accesso remoto ai sistemi informatici da parte degli utenti. A volte hai bisogno di strumenti di base per collegarti in SSH al server. Questa guida spiega come effettuare il login SSH sui router GL.iNet.
+Secure Shell, SSH, e un protocollo di rete crittografico per gestire in modo sicuro i servizi di rete su una rete non protetta. L'esempio più noto e l'accesso remoto ai sistemi informatici da parte degli utenti. A volte hai bisogno di strumenti di base per collegarti in SSH al server. Questa guida spiega come effettuare il login SSH sui router GL.iNet.
 
 ---
 

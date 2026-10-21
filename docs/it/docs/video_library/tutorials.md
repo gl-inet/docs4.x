@@ -46,7 +46,7 @@ Scopri le nuove funzioni aggiunte ai nostri prodotti e servizi, oltre a guide de
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CM4_soLf9fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Perche usare la modalita Repeater sul router GL.iNet {#why-use-repeater-mode-on-your-glinet-router}
+## Perché usare la modalità Repeater sul router GL.iNet {#why-use-repeater-mode-on-your-glinet-router}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7mZtz8u8--E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

@@ -174,7 +174,7 @@ Recherchez le profil souhaité et appuyez sur le bouton Toggle pour l’activer.
 
 ## Supprimer un profil eSIM {#delete-an-esim-profile}
 
-#### 1. Désactiver le profil eSIM: {#1-turn-off-the-esim-profile}
+#### 1. Désactiver le profil eSIM {#1-turn-off-the-esim-profile}
 
 - Accédez à vos paramètres eSIM et assurez-vous que le profil est désactivé.
 - Appuyez sur le nom du profil eSIM que vous souhaitez supprimer.

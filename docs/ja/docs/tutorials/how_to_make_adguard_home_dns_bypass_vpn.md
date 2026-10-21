@@ -5,10 +5,10 @@
 しかし、AdGuard HomeですべてのDNSトラフィックを管理し、クエリを**パブリック上流DNSサーバー**に転送するように設定している場合、VPNを有効にするとDNS解決が失敗します。
 
 ![adguardhome](https://static.gl-inet.com/docs/router/en/4/tutorials/make_adguard_home_dns_bypass_vpn/adguardhome.jpg){class="glboxshadow"}
-<br><small>(AdGuard Homeが有効でDNSリクエストを処理している)</small>
+<br><small>（AdGuard Homeが有効でDNSリクエストを処理している）</small>
 
 ![adguard dns](https://static.gl-inet.com/docs/router/en/4/tutorials/make_adguard_home_dns_bypass_vpn/upstream_dns.png){class="glboxshadow"}
-<br><small>(AdGuard Homeの上流DNS設定)</small>
+<br><small>（AdGuard Homeの上流DNS設定）</small>
 
 デフォルトでは、すべての外向きトラフィックはVPNトンネルを通ります。このため、AdGuard Homeの上流DNSトラフィックがVPNに乗り、パブリック上流DNSサーバーに到達できなくなります。その結果、接続されているすべてのクライアントでドメイン名解決が失敗します。
 

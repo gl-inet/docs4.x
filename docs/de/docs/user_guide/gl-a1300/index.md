@@ -108,7 +108,7 @@ Verbinden Sie den Router mit dem Internet, indem Sie ein mobilfunkfähiges USB-M
 
 ![Cellular Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-a1300/internet/a1300_cellular.png){class="glboxshadow"}
 
-### Priority and load balance {#priority-and-load-balance}
+### Priorität und Lastausgleich {#priority-and-load-balance}
 
 Wechseln Sie zu [Multi-WAN](../../interface_guide/multi-wan.md), um die Priorität jeder Internetzugriffsmethode oder den Lastenausgleich festzulegen, wenn mehrere Internetzugriffsmethoden gleichzeitig verwendet werden.
 

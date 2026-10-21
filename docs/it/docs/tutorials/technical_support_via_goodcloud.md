@@ -4,7 +4,7 @@ A volte e necessario condividere il proprio dispositivo tramite GoodCloud per ri
 
 ## Abilitare GoodCloud e l'accesso remoto {#enable-goodcloud-and-remote-access}
 
-Prima di condividere il dispositivo con il supporto tecnico GL.iNet, assicurati che il router disponga di una connessione Internet aggiuntiva per una maggiore stabilita. Configura una connessione Ethernet o Repeater come backup di failover e verifica che funzioni correttamente.
+Prima di condividere il dispositivo con il supporto tecnico GL.iNet, assicurati che il router disponga di una connessione Internet aggiuntiva per una maggiore stabilità. Configura una connessione Ethernet o Repeater come backup di failover e verifica che funzioni correttamente.
 
 Quindi accedi al pannello di amministrazione web del router per abilitare GoodCloud e l'accesso remoto.
 

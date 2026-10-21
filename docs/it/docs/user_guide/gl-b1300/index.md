@@ -2,7 +2,7 @@
 
 ## Panoramica del prodotto {#product-overview}
 
-Convexa-B (GL-B1300) e un prodotto eccellente progettato per soddisfare le esigenze di accesso wireless a Internet sia degli utenti commerciali sia di quelli domestici. Sara una scelta ideale per navigare in Internet in modalita wireless.
+Convexa-B (GL-B1300) e un prodotto eccellente progettato per soddisfare le esigenze di accesso wireless a Internet sia degli utenti commerciali sia di quelli domestici. Sarà una scelta ideale per navigare in Internet in modalità wireless.
 
 ![gl-b1300 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-b1300/first_time_setup/router.jpg){class="glboxshadow"}
 
@@ -41,19 +41,19 @@ Questa pagina ti consente di selezionare il tipo di connessione Internet, ad ese
 
 ### Ethernet {#ethernet}
 
-Collega il router a un modem attivo o a un dispositivo di rete attivo tramite un cavo Ethernet per accedere a Internet. Questo metodo di solito offre la connessione Internet piu veloce e affidabile.
+Collega il router a un modem attivo o a un dispositivo di rete attivo tramite un cavo Ethernet per accedere a Internet. Questo metodo di solito offre la connessione Internet più veloce e affidabile.
 
 [Fai clic qui per scoprire come collegarti a Internet tramite cavo Ethernet](../../interface_guide/internet_ethernet.md)
 
 ### Repeater {#repeater}
 
-Configura il router come repeater per estendere la copertura Wi-Fi di una rete Wi-Fi esistente. Come repeater, riceve e ritrasmette i segnali wireless all'interno del proprio raggio d'azione, estendendone cosi la copertura. Questo metodo e utile quando un solo router non riesce a coprire l'intera area di utilizzo.
+Configura il router come repeater per estendere la copertura Wi-Fi di una rete Wi-Fi esistente. Come repeater, riceve e ritrasmette i segnali wireless all'interno del proprio raggio d'azione, estendendone così la copertura. Questo metodo e utile quando un solo router non riesce a coprire l'intera area di utilizzo.
 
 [Fai clic qui per scoprire come collegarti a Internet tramite una rete Wi-Fi esistente](../../interface_guide/internet_repeater.md)
 
 ### Tethering {#tethering}
 
-Collega la porta USB del router a uno smartphone con dati mobili attivi tramite un cavo USB per accedere a Internet. Questo metodo consente a piu dispositivi collegati al router di accedere a Internet usando i dati mobili dello smartphone.
+Collega la porta USB del router a uno smartphone con dati mobili attivi tramite un cavo USB per accedere a Internet. Questo metodo consente a più dispositivi collegati al router di accedere a Internet usando i dati mobili dello smartphone.
 
 [Fai clic qui per scoprire come collegarti a Internet tramite USB tethering](../../interface_guide/internet_tethering.md)
 
@@ -65,11 +65,11 @@ Collega il router a Internet inserendo un modem USB con supporto cellulare nella
 
 ### Multi-WAN {#multi-wan}
 
-Multi-WAN e una funzione di rete che consente di configurare il router con piu connessioni Internet, ad esempio Ethernet e Repeater, contemporaneamente. Se la connessione Internet con priorita piu alta si interrompe, il router passera automaticamente a un'altra connessione Internet. Questa funzione e chiamata anche Failover e garantisce un accesso a Internet fluido e ininterrotto.
+Multi-WAN e una funzione di rete che consente di configurare il router con più connessioni Internet, ad esempio Ethernet e Repeater, contemporaneamente. Se la connessione Internet con priorità più alta si interrompe, il router passera automaticamente a un'altra connessione Internet. Questa funzione e chiamata anche Failover e garantisce un accesso a Internet fluido e ininterrotto.
 
-Vai a [Multi-WAN](../../interface_guide/multi-wan.md) per impostare la priorita di ciascuna connessione Internet.
+Vai a [Multi-WAN](../../interface_guide/multi-wan.md) per impostare la priorità di ciascuna connessione Internet.
 
-In alternativa, puoi cambiare la modalita Multi-WAN da Failover a Load Balance, che ti consente di usare piu interfacce di rete contemporaneamente per aumentare la larghezza di banda totale del router.
+In alternativa, puoi cambiare la modalità Multi-WAN da Failover a Load Balance, che ti consente di usare più interfacce di rete contemporaneamente per aumentare la larghezza di banda totale del router.
 
 ---
 
@@ -77,15 +77,15 @@ In alternativa, puoi cambiare la modalita Multi-WAN da Failover a Load Balance, 
 
 Le impostazioni wireless consentono agli utenti di gestire la sicurezza di rete del Wi-Fi principale e del Wi-Fi ospite. Sono accessibili andando su **WIRELESS** nel menu laterale.
 
-[Fai clic qui per saperne di piu sulla configurazione wireless](../../interface_guide/wireless.md)
+[Fai clic qui per saperne di più sulla configurazione wireless](../../interface_guide/wireless.md)
 
 ---
 
 ## CLIENTS {#clients}
 
-I client sono dispositivi collegati al router. Puoi bloccarli o limitarne la velocita di rete. L'interfaccia e accessibile facendo clic su **CLIENTS** nel menu laterale del pannello di amministrazione del router.
+I client sono dispositivi collegati al router. Puoi bloccarli o limitarne la velocità di rete. L'interfaccia e accessibile facendo clic su **CLIENTS** nel menu laterale del pannello di amministrazione del router.
 
-[Fai clic qui per saperne di piu sulla gestione dei client del dispositivo.](../../interface_guide/clients.md)
+[Fai clic qui per saperne di più sulla gestione dei client del dispositivo.](../../interface_guide/clients.md)
 
 ---
 
@@ -141,7 +141,7 @@ Visita il tutorial [**GoodCloud**](../../interface_guide/cloud.md).
 
 I router GL.iNet includono diverse funzioni firewall per garantire una connessione sicura e un controllo completo da parte degli utenti. Consentono di configurare regole firewall, tra cui Port Forwarding, Open Ports e DMZ.
 
-[Fai clic qui per saperne di piu sul firewall dei router GL.iNet](../../interface_guide/firewall.md)
+[Fai clic qui per saperne di più sul firewall dei router GL.iNet](../../interface_guide/firewall.md)
 
 ### Multi-WAN {#multi-wan_1}
 

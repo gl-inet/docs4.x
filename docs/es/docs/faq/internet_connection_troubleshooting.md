@@ -70,8 +70,8 @@ A continuación se muestra información de ISP por región recopilada por GL.iNe
 | Estados Unidos | AT&T Fiber | DHCP (IP Passthrough) | N/A | No | Debe habilitar IP Passthrough; se requiere omitir la autenticación EAP |
 | Estados Unidos | Spectrum | DHCP | N/A | Sí (en algunas zonas) | Vinculación MAC estricta (requiere reiniciar el módem) |
 | Estados Unidos | Verizon Fios | DHCP | N/A | No | |
-| Estados Unidos | Comcast Xfinity | DHCP | N/A | Sí (habitual) | Debe reiniciar el módem al cambiar de router (MAC release) |
-| Estados Unidos | Cox Communications | DHCP | N/A | Sí | Debe reiniciar el módem al cambiar de router (MAC release) |
+| Estados Unidos | Comcast Xfinity | DHCP | N/A | Sí (habitual) | Debe reiniciar el módem al cambiar de router (liberación de la MAC) |
+| Estados Unidos | Cox Communications | DHCP | N/A | Sí | Debe reiniciar el módem al cambiar de router (liberación de la MAC) |
 | Estados Unidos | Frontier Fiber | DHCP | N/A | No | |
 | Estados Unidos | CenturyLink / Lumen | PPPoE | 201 | No | Se requieren VLAN en determinadas zonas |
 | Canadá | Bell Canada Fibe | PPPoE | 35 | No | |
@@ -109,10 +109,10 @@ A continuación se muestra información de ISP por región recopilada por GL.iNe
 | Irlanda | Pure Telecom | PPPoE | 10 | No | |
 | Austria | A1 Telekom | PPPoE | 2 | No | |
 | Austria | Fonira | PPPoE | 31 | No | |
-| Türkiye | Turknet | PPPoE | 35 | No | |
-| Türkiye | Turk Telekom | PPPoE | 35 | No | |
-| Türkiye | Turkcell Superonline | PPPoE | N/A | Sí | |
-| Türkiye | Turksat Kablonet | DHCP/PPPoE | N/A | No | |
+| Turquía | Turknet | PPPoE | 35 | No | |
+| Turquía | Turk Telekom | PPPoE | 35 | No | |
+| Turquía | Turkcell Superonline | PPPoE | N/A | Sí | |
+| Turquía | Turksat Kablonet | DHCP/PPPoE | N/A | No | |
 | Grecia | Cosmote | PPPoE | 835 | No | |
 | Grecia | Nova | PPPoE | 835 | Sí | |
 | Grecia | DEI/PPC | DHCP | 835 | No | |

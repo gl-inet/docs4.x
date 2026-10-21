@@ -444,11 +444,11 @@ Jeśli nie możesz nawiązać połączenia komórkowego, kliknij poniższy komun
 
     Ten problem ma dwa rodzaje komunikatów o błędzie:
 
-    - SIM card not registered
+    - "SIM card not registered"
 
         ![sim not registered](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/troubleshoot/sim_not_registered.png){class="glboxshadow"}
 
-    - The interface is connected, but the Internet can't be accessed
+    - "The interface is connected, but the Internet can't be accessed"
     
         ![connected no internet](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/troubleshoot/connected_no_internet.png){class="glboxshadow"}
 

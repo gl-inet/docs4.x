@@ -2,7 +2,7 @@
 
 > このガイドはファームウェア v4.6 以降を対象としています。古いバージョンについては、[Firewall](firewall.md) を参照してください。
 
-Web Admin Panel の左側で、**NETWORK** -> **Port Forwarding**、または (ファームウェア v4.9 以降では) **SECURITY** -> **Port Forwarding** に移動します。
+Web Admin Panel の左側で、**NETWORK** -> **Port Forwarding**、または（ファームウェア v4.9 以降では） **SECURITY** -> **Port Forwarding** に移動します。
 
 このページでは、**DMZ** や **Port Forwarding** を含むファイアウォールルールを設定できます。
 

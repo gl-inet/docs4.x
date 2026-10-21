@@ -12,7 +12,7 @@ SQM (Smart Queue Management) は、ルーターのネットワーク トラフ�
 
 **注**:
 
-1. この機能は、ルータがゲートウェイとして動作している場合にルータを通過するトラフィック (ローカル クライアント トラフィックや VPN クライアント トラフィックなど) にのみ影響します。ルーターが VPN サーバーとして機能する場合、受信トラフィックには適用されません。
+1. この機能は、ルータがゲートウェイとして動作している場合にルータを通過するトラフィック（ローカル クライアント トラフィックや VPN クライアント トラフィックなど）にのみ影響します。ルーターが VPN サーバーとして機能する場合、受信トラフィックには適用されません。
 2. SQM はリソースを大量に消費するため、低帯域幅または混雑したネットワークに最適に機能します。高速接続でこれを有効にすると、ピーク スループットが低下する可能性があります。
 3. ルータがドロップイン ゲートウェイ モードの場合、SQM は有効になりません。
 4. SQM と QoS を同時に有効にすることはできません。
@@ -64,11 +64,11 @@ SQM (Smart Queue Management) は、ルーターのネットワーク トラフ�
 
 1. **WAN Bandwidth**
 
-    WAN のアップロード速度とダウンロード速度 （入力範囲：1～10000） を手動で入力するか、**Run Speedtest** をクリックして速度を測定し、フィールドに自動的に入力します。速度テストを実行するには、アクティブなインターネット接続が必要です。
+    WAN のアップロード速度とダウンロード速度（入力範囲：1～10000）を手動で入力するか、**Run Speedtest** をクリックして速度を測定し、フィールドに自動的に入力します。速度テストを実行するには、アクティブなインターネット接続が必要です。
 
     ![wan bandwidth](https://static.gl-inet.com/docs/router/en/4/interface_guide/sqm/wan_bandwidth.png){class="glboxshadow" width=600}
 
-    **注**: 入力フィールドに入力された値は、**Mbps** （メガビット/秒） です。同等の **MB/s** （メガバイト/秒） が参考のために表示されます。
+    **注**: 入力フィールドに入力された値は、**Mbps** （メガビット/秒）です。同等の **MB/s** （メガバイト/秒）が参考のために表示されます。
 
 2. **Queue Discipline**
 
@@ -76,7 +76,7 @@ SQM (Smart Queue Management) は、ルーターのネットワーク トラフ�
 
     ![queue discipline](https://static.gl-inet.com/docs/router/en/4/interface_guide/sqm/queue_discipline.png){class="glboxshadow" width=600}
 
-    - **cake**: 優れた全体的な遅延制御を備えたスマートな自動トラフィック シェーピング （推奨）。
+    - **cake**: 優れた全体的な遅延制御を備えたスマートな自動トラフィック シェーピング（推奨）。
 
         **cake** がキュー規律として選択されている場合、**Cake Autorate** はオプション機能として使用できます。
 
@@ -106,17 +106,17 @@ SQM (Smart Queue Management) は、ルーターのネットワーク トラフ�
 
 ## ファームウェア v4.9 ～ v4.10 の場合 {#for-firmware-v49-to-v410}
 
-スイッチを切り替えて SQM を有効にし、トラフィック スケジュールの最大アップロード速度とダウンロード速度 （入力範囲：1～10000） を設定します。最良の結果を得るには、実際のインターネット帯域幅に合わせてください。
+スイッチを切り替えて SQM を有効にし、トラフィック スケジュールの最大アップロード速度とダウンロード速度（入力範囲：1～10000）を設定します。最良の結果を得るには、実際のインターネット帯域幅に合わせてください。
 
 ![sqm](https://static.gl-inet.com/docs/router/en/4/interface_guide/sqm/sqm.png){class="glboxshadow"}
 
-**注**: 入力フィールドに入力された値は、**Mbps** （メガビット/秒） です。同等の **MB/s** （メガバイト/秒） が参考のために表示されます。
+**注**: 入力フィールドに入力された値は、**Mbps** （メガビット/秒）です。同等の **MB/s** （メガバイト/秒）が参考のために表示されます。
 
 ![up down speed](https://static.gl-inet.com/docs/router/en/4/interface_guide/sqm/up_down_speed.jpg){class="glboxshadow"}
 
 キュー ルールでは、次の 2 つのオプションを使用できます。
 
-- **cake**: 優れた全体的な遅延制御を備えたスマートな自動トラフィック シェーピング （推奨）。
+- **cake**: 優れた全体的な遅延制御を備えたスマートな自動トラフィック シェーピング（推奨）。
 
 - **fq_codel**: 基本的な遅延を削減した、シンプルで効率的な公平なキューイング。
 
@@ -126,4 +126,4 @@ SQM (Smart Queue Management) は、ルーターのネットワーク トラフ�
 
 ---
 
-まだ質問がありますか? [Community Forum](https://forum.gl-inet.com){target="_blank"} または [Contact us](https://www.gl-inet.com/contacts/){target="_blank"} にアクセスしてください。
+まだ質問がありますか？ [Community Forum](https://forum.gl-inet.com){target="_blank"} または [Contact us](https://www.gl-inet.com/contacts/){target="_blank"} にアクセスしてください。

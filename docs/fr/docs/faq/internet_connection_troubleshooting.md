@@ -67,59 +67,59 @@ Vous trouverez ci-dessous des informations sur les FAI par région, compilées p
 
 | Pays/Région   | FAI   | Type de connexion | VLAN ID | Clonage MAC requis | Exigences supplémentaires |
 | :------------ | :---- | :---------------- | :------ | :----------------- | :------------------------ |
-| United States    | AT&T Fiber | DHCP (IP Passthrough) | N/A | No | Must enable IP Passthrough; EAP authentication bypass needed |
-| United States | Spectrum | DHCP | N/A | Yes (in some areas) | Strong MAC binding (modem reboot required) |
-| United States | Verizon Fios | DHCP | N/A | No | |
-| United States | Comcast Xfinity | DHCP | N/A | Yes (common) | Must reboot modem when changing router (MAC release) |
-| United States | Cox Communications | DHCP | N/A | Yes | Must reboot modem when changing router (MAC release) |
-| United States | Frontier Fiber | DHCP | N/A | No | |
-| United States | CenturyLink / Lumen | PPPoE | 201 | No | VLANs are required in certain areas. |
-| Canada | Bell Canada Fibe | PPPoE | 35 | No | |
-| Germany | Deutsche Telekom | PPPoE | 7 | No | VLAN 7 mandatory for internet; PPPoE credentials required |
-| Germany | Vodafone (Kabel) | DHCP | N/A | Yes (sometimes) | MAC binding may apply; reboot modem after router change |
-| Germany | 1&1 / O2 (Telekom line) | PPPoE | 7 | No | VLAN 7 mandatory for internet |
-| Germany | DNS:NET | PPPoE | 37 | No | |
-| Germany | o2(UGG) | PPPoE | 7 | No | |
-| United Kingdom | BT Broadband | PPPoE | 101 | No | VLAN 101 required; PPPoE login needed |
-| United Kingdom | Sky Broadband | DHCP (Option 61) | 101 | No | Requires DHCP Option 61 (client identifier) |
-| United Kingdom | Virgin | DHCP | N/A | Yes | The modem is in bridged mode and requires MAC cloning. |
-| France | Orange | DHCP / PPPoE | 832 | No | VLAN 832 required; may require Option 90 authentication |
-| France | Free (Freebox) | DHCP | N/A | No | |
-| France | Bouygues Telecom | DHCP | 100 | Yes | Clone Bbox MAC |
-| Spain | Movistar | PPPoE | 6 | No | VLAN 6 (internet), VLAN 2 (IPTV), VLAN 3 (VoIP) |
-| Spain | DIGI | PPPoE | 20 | No | |
-| Spain | Orange | DHCP | 832/835 | No | VLANs may vary by region |
-| Italy | TIM | PPPoE | 835 | No | VLAN 835 required |
-| Italy | Aruba | PPPoE | 835 | No | |
-| Netherlands | KPN | DHCP | 6 | No | VLAN 6 required for internet |
-| Netherlands | Tweak | DHCP | 34 | Yes | Cloning Experia Box MAC |
-| Netherlands | Telfort / Oxxio / Tweak | DHCP (IPoE) | 34 | No | |
-| Netherlands | Odido | DHCP | 300 | No | |
-| Belgium | EDPnet | PPPoE | 10 | No | |
-| Bosnia and Herzegovina | BH Telecom | PPPoE | 100 | No | |
-| Croatia | Terrakom | PPPoE | 905 | No | |
-| Czech Republic | O2 | PPPoE | 848 | No | |
-| Cyprus | Epic | PPPoE | 35 | No | |
-| Cyprus | Cyta | PPPoE | 42 | No | |
-| Cyprus | Cablenet | PPPoE | 42 | No | |
-| Cyprus | Primetel | PPPoE | 42 | No | |
-| Poland | Orange Polska | PPPoE | 35 | No | VLAN 35 required |
-| Poland | T-mobile | PPPoE | 35 | No | |
-| Ireland | Vodafone SIRO | PPPoE | 10 | No | |
-| Ireland | Pure Telecom | PPPoE | 10 | No | |
-| Austria | A1 Telekom | PPPoE | 2 | No | |
-| Austria | Fonira | PPPoE | 31 | No | |
-| Türkiye | Turknet | PPPoE | 35 | No | |
-| Türkiye | Turk Telekom | PPPoE | 35 | No | |
-| Türkiye | Turkcell Superonline | PPPoE | N/A | Yes | |
-| Türkiye | Turksat Kablonet | DHCP/PPPoE | N/A | No | |
-| Greece | Cosmote | PPPoE | 835 | No | |
-| Greece | Nova | PPPoE | 835 | Yes | |
-| Greece | DEI/PPC | DHCP | 835 | No | |
-| Japan | NTT (FLET'S) | PPPoE / IPoE (MAP-E) | N/A | No | IPoE requires MAP-E/DS-Lite compatible router |
-| Japan | SoftBank Hikari | PPPoE / IPoE | N/A | No | BBIX IPoE service commonly used |
-| India | Airtel | PPPoE / DHCP | N/A | No | Some regions require PPPoE |
-| India | JioFiber | DHCP | N/A | No | Locked ONT in many cases |
-| Singapore | Singtel | PPPoE | 10 | No | VLAN 10 required; IPTV separate VLAN |
-| Singapore | StarHub | DHCP | N/A | No | DHCP-based connection |
-| Australia | NBN (various ISPs) | PPPoE / DHCP | 2 (common) | Yes | VLAN 2 common but ISP-dependent |
+| États-Unis | AT&T Fiber | DHCP (IP Passthrough) | N/A | Non | Activation d'IP Passthrough obligatoire ; contournement de l'authentification EAP nécessaire |
+| États-Unis | Spectrum | DHCP | N/A | Oui (dans certaines zones) | Liaison MAC stricte (redémarrage du modem requis) |
+| États-Unis | Verizon Fios | DHCP | N/A | Non | |
+| États-Unis | Comcast Xfinity | DHCP | N/A | Oui (fréquent) | Redémarrage du modem obligatoire lors d'un changement de routeur (libération de la MAC) |
+| États-Unis | Cox Communications | DHCP | N/A | Oui | Redémarrage du modem obligatoire lors d'un changement de routeur (libération de la MAC) |
+| États-Unis | Frontier Fiber | DHCP | N/A | Non | |
+| États-Unis | CenturyLink / Lumen | PPPoE | 201 | Non | Des VLAN sont requis dans certaines zones. |
+| Canada | Bell Canada Fibe | PPPoE | 35 | Non | |
+| Allemagne | Deutsche Telekom | PPPoE | 7 | Non | VLAN 7 obligatoire pour Internet ; identifiants PPPoE requis |
+| Allemagne | Vodafone (Kabel) | DHCP | N/A | Oui (parfois) | Une liaison MAC peut s'appliquer ; redémarrez le modem après un changement de routeur |
+| Allemagne | 1&1 / O2 (Telekom line) | PPPoE | 7 | Non | VLAN 7 obligatoire pour Internet |
+| Allemagne | DNS:NET | PPPoE | 37 | Non | |
+| Allemagne | o2(UGG) | PPPoE | 7 | Non | |
+| Royaume-Uni | BT Broadband | PPPoE | 101 | Non | VLAN 101 requis ; identifiants de connexion PPPoE nécessaires |
+| Royaume-Uni | Sky Broadband | DHCP (Option 61) | 101 | Non | Nécessite DHCP Option 61 (identifiant client) |
+| Royaume-Uni | Virgin | DHCP | N/A | Oui | Le modem est en mode pont et nécessite le clonage MAC. |
+| France | Orange | DHCP / PPPoE | 832 | Non | VLAN 832 requis ; une authentification Option 90 peut être nécessaire |
+| France | Free (Freebox) | DHCP | N/A | Non | |
+| France | Bouygues Telecom | DHCP | 100 | Oui | Cloner l'adresse MAC de la Bbox |
+| Espagne | Movistar | PPPoE | 6 | Non | VLAN 6 (Internet), VLAN 2 (IPTV), VLAN 3 (VoIP) |
+| Espagne | DIGI | PPPoE | 20 | Non | |
+| Espagne | Orange | DHCP | 832/835 | Non | Les VLAN peuvent varier selon la région |
+| Italie | TIM | PPPoE | 835 | Non | VLAN 835 requis |
+| Italie | Aruba | PPPoE | 835 | Non | |
+| Pays-Bas | KPN | DHCP | 6 | Non | VLAN 6 requis pour Internet |
+| Pays-Bas | Tweak | DHCP | 34 | Oui | Cloner l'adresse MAC de l'Experia Box |
+| Pays-Bas | Telfort / Oxxio / Tweak | DHCP (IPoE) | 34 | Non | |
+| Pays-Bas | Odido | DHCP | 300 | Non | |
+| Belgique | EDPnet | PPPoE | 10 | Non | |
+| Bosnie-Herzégovine | BH Telecom | PPPoE | 100 | Non | |
+| Croatie | Terrakom | PPPoE | 905 | Non | |
+| République tchèque | O2 | PPPoE | 848 | Non | |
+| Chypre | Epic | PPPoE | 35 | Non | |
+| Chypre | Cyta | PPPoE | 42 | Non | |
+| Chypre | Cablenet | PPPoE | 42 | Non | |
+| Chypre | Primetel | PPPoE | 42 | Non | |
+| Pologne | Orange Polska | PPPoE | 35 | Non | VLAN 35 requis |
+| Pologne | T-mobile | PPPoE | 35 | Non | |
+| Irlande | Vodafone SIRO | PPPoE | 10 | Non | |
+| Irlande | Pure Telecom | PPPoE | 10 | Non | |
+| Autriche | A1 Telekom | PPPoE | 2 | Non | |
+| Autriche | Fonira | PPPoE | 31 | Non | |
+| Turquie | Turknet | PPPoE | 35 | Non | |
+| Turquie | Turk Telekom | PPPoE | 35 | Non | |
+| Turquie | Turkcell Superonline | PPPoE | N/A | Oui | |
+| Turquie | Turksat Kablonet | DHCP/PPPoE | N/A | Non | |
+| Grèce | Cosmote | PPPoE | 835 | Non | |
+| Grèce | Nova | PPPoE | 835 | Oui | |
+| Grèce | DEI/PPC | DHCP | 835 | Non | |
+| Japon | NTT (FLET'S) | PPPoE / IPoE (MAP-E) | N/A | Non | IPoE nécessite un routeur compatible MAP-E/DS-Lite |
+| Japon | SoftBank Hikari | PPPoE / IPoE | N/A | Non | Le service IPoE de BBIX est couramment utilisé |
+| Inde | Airtel | PPPoE / DHCP | N/A | Non | PPPoE requis dans certaines régions |
+| Inde | JioFiber | DHCP | N/A | Non | ONT verrouillé dans de nombreux cas |
+| Singapour | Singtel | PPPoE | 10 | Non | VLAN 10 requis ; IPTV sur un VLAN distinct |
+| Singapour | StarHub | DHCP | N/A | Non | Connexion basée sur DHCP |
+| Australie | NBN (divers FAI) | PPPoE / DHCP | 2 (courant) | Oui | VLAN 2 courant, mais dépend du FAI |

@@ -1,6 +1,6 @@
 # Come accedere dal server alla LAN del client WireGuard {#how-to-access-wireguard-client-lan-side-from-server}
 
-Questo tutorial illustra i passaggi per accedere, dal lato server WireGuard, alla sottorete LAN del client WireGuard, ad esempio telecamera IP, NAS e cosi via.
+Questo tutorial illustra i passaggi per accedere, dal lato server WireGuard, alla sottorete LAN del client WireGuard, ad esempio telecamera IP, NAS e così via.
 
 ## Topologia {#topology}
 

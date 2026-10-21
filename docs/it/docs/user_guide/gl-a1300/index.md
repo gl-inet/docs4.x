@@ -2,7 +2,7 @@
 
 ## Panoramica del prodotto {#product-overview}
 
-Slate Plus (GL-A1300) e un router da viaggio tascabile con una CPU potente, ottimizzata per la stabilita di rete e per l'elaborazione efficiente della crittografia VPN. Include le nostre piu recenti funzioni di sicurezza e utilizza l'ultima versione del sistema operativo OpenWrt. E progettato per viaggiatori frequenti che fanno un uso intensivo delle reti VPN.
+Slate Plus (GL-A1300) e un router da viaggio tascabile con una CPU potente, ottimizzata per la stabilità di rete e per l'elaborazione efficiente della crittografia VPN. Include le nostre più recenti funzioni di sicurezza e utilizza l'ultima versione del sistema operativo OpenWrt. E progettato per viaggiatori frequenti che fanno un uso intensivo delle reti VPN.
 
 ![GL-A1300 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-a1300/hardware_info/gl-a1300_interface.jpg){class="glboxshadow"}
 
@@ -44,11 +44,11 @@ L'interfaccia di configurazione Internet consente agli utenti di scegliere il ti
 
 Configura la rete Internet selezionando **INTERNET** nel menu laterale del pannello di amministrazione web del router.
 
-Supporta quattro modalita di connessione a Internet, elencate di seguito:
+Supporta quattro modalità di connessione a Internet, elencate di seguito:
 
 ### Ethernet {#ethernet}
 
-Trasmette i dati tramite un cavo Ethernet, collegando il router a un modem attivo o a un dispositivo di rete attivo. Questo metodo di solito offre la connessione Internet piu veloce e affidabile.
+Trasmette i dati tramite un cavo Ethernet, collegando il router a un modem attivo o a un dispositivo di rete attivo. Questo metodo di solito offre la connessione Internet più veloce e affidabile.
 
 [Fai clic qui per scoprire come collegarti a Internet tramite cavo Ethernet](../../interface_guide/internet_ethernet.md)
 
@@ -56,7 +56,7 @@ Trasmette i dati tramite un cavo Ethernet, collegando il router a un modem attiv
 
 ### Repeater {#repeater}
 
-Estende l'area di copertura Wi-Fi di una rete Wi-Fi esistente usando il router per ricevere i segnali wireless nel raggio di copertura e inoltrarli piu lontano. Questo metodo e molto utile quando un singolo router non ha una copertura sufficiente per l'intera area di utilizzo.
+Estende l'area di copertura Wi-Fi di una rete Wi-Fi esistente usando il router per ricevere i segnali wireless nel raggio di copertura e inoltrarli più lontano. Questo metodo e molto utile quando un singolo router non ha una copertura sufficiente per l'intera area di utilizzo.
 
 [Fai clic qui per scoprire come collegarti a Internet tramite una rete Wi-Fi esistente](../../interface_guide/internet_repeater.md)
 
@@ -78,9 +78,9 @@ Collega il router a Internet inserendo un modem USB con supporto cellulare nella
 
 ![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-a1300/internet/a1300_cellular.png){class="glboxshadow"}
 
-### Priorita e bilanciamento del carico {#priority-and-load-balance}
+### Priorità e bilanciamento del carico {#priority-and-load-balance}
 
-Vai a [Multi-WAN](../../interface_guide/multi-wan.md) per impostare la priorita di ciascun metodo di accesso a Internet o il bilanciamento del carico quando vengono usati contemporaneamente piu metodi di accesso.
+Vai a [Multi-WAN](../../interface_guide/multi-wan.md) per impostare la priorità di ciascun metodo di accesso a Internet o il bilanciamento del carico quando vengono usati contemporaneamente più metodi di accesso.
 
 ---
 
@@ -88,15 +88,15 @@ Vai a [Multi-WAN](../../interface_guide/multi-wan.md) per impostare la priorita 
 
 Le impostazioni wireless consentono agli utenti di gestire la sicurezza di rete del Wi-Fi principale e del Wi-Fi ospite. Sono accessibili andando su **WIRELESS** nel menu laterale.
 
-[Fai clic qui per saperne di piu sulla configurazione wireless](../../interface_guide/wireless.md)
+[Fai clic qui per saperne di più sulla configurazione wireless](../../interface_guide/wireless.md)
 
 ---
 
 ## CLIENTS {#clients}
 
-I client sono i dispositivi collegati al router. Puoi bloccarli o limitarne la velocita di rete. L'interfaccia e accessibile facendo clic su **CLIENTS** nel menu laterale del pannello di amministrazione del router.
+I client sono i dispositivi collegati al router. Puoi bloccarli o limitarne la velocità di rete. L'interfaccia e accessibile facendo clic su **CLIENTS** nel menu laterale del pannello di amministrazione del router.
 
-[Fai clic qui per saperne di piu sulla gestione dei client del dispositivo.](../../interface_guide/clients.md)
+[Fai clic qui per saperne di più sulla gestione dei client del dispositivo.](../../interface_guide/clients.md)
 
 ---
 
@@ -166,9 +166,9 @@ Visita il tutorial [**Tailscale**](../../interface_guide/tailscale.md).
 
 ### Firewall {#firewall}
 
-I router GL.iNet includono piu funzioni firewall per garantire una connessione sicura e un controllo completo da parte degli utenti. Consentono di configurare regole firewall, incluse Port Forwarding, Open Ports e DMZ.
+I router GL.iNet includono più funzioni firewall per garantire una connessione sicura e un controllo completo da parte degli utenti. Consentono di configurare regole firewall, incluse Port Forwarding, Open Ports e DMZ.
 
-[Fai clic qui per saperne di piu sul firewall dei router GL.iNet](../../interface_guide/firewall.md)
+[Fai clic qui per saperne di più sul firewall dei router GL.iNet](../../interface_guide/firewall.md)
 
 ### Multi-WAN {#multi-wan}
 

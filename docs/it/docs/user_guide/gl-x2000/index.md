@@ -83,7 +83,7 @@ Configura Spitz Plus utilizzando uno dei metodi di connessione Internet supporta
     
     Per istruzioni dettagliate, fai riferimento a [Connessione a Internet tramite rete cellulare](../../interface_guide/internet_cellular.md#setup-for-dual-sim-models).
 
-    **Nota**: La funzionalita eSIM di Spitz Plus e disponibile nel firmware v4.7 e successivi. Scopri come usare la scheda eSIM fisica sui router GL.iNet [qui](../../tutorials/how_to_use_esim_physical_card_with_glinet_routers.md).
+    **Nota**: La funzionalità eSIM di Spitz Plus e disponibile nel firmware v4.7 e successivi. Scopri come usare la scheda eSIM fisica sui router GL.iNet [qui](../../tutorials/how_to_use_esim_physical_card_with_glinet_routers.md).
 
     Se riscontri problemi, consulta la [Guida alla risoluzione dei problemi della rete cellulare](../../faq/cellular_network_troubleshooting_guide.md).
 
@@ -93,7 +93,7 @@ Configura Spitz Plus utilizzando uno dei metodi di connessione Internet supporta
     
     Collega la porta WAN di Spitz Plus a un dispositivo a monte, ad esempio un modem, tramite un cavo Ethernet.
     
-    Una volta stabilita correttamente la connessione a Internet, nella sezione Ethernet della pagina INTERNET comparirà un punto verde.
+    Una volta stabilità correttamente la connessione a Internet, nella sezione Ethernet della pagina INTERNET comparirà un punto verde.
 
     Per istruzioni dettagliate, fai riferimento a [Connessione a Internet tramite cavo Ethernet](../../interface_guide/internet_ethernet.md).
 
@@ -105,7 +105,7 @@ Configura Spitz Plus utilizzando uno dei metodi di connessione Internet supporta
     2. Seleziona una rete Wi-Fi tra quelle disponibili.
     3. Inserisci la password, quindi fai clic su **Apply**.
     
-    Una volta stabilita correttamente la connessione a Internet, nella sezione Repeater della pagina INTERNET comparirà un punto verde.
+    Una volta stabilità correttamente la connessione a Internet, nella sezione Repeater della pagina INTERNET comparirà un punto verde.
 
     Per istruzioni dettagliate, fai riferimento a [Connessione a Internet tramite una rete Wi-Fi esistente](../../interface_guide/internet_repeater.md).
 
@@ -117,7 +117,7 @@ Configura Spitz Plus utilizzando uno dei metodi di connessione Internet supporta
     2. Sul dispositivo mobile, vai nelle impostazioni e abilita il tethering USB.
     3. Nella schermata INTERNET del pannello di amministrazione web, fai clic su **Connect** nella sezione Tethering.
     
-    Una volta stabilita correttamente la connessione a Internet, nella sezione Tethering della pagina INTERNET comparirà un punto verde.
+    Una volta stabilità correttamente la connessione a Internet, nella sezione Tethering della pagina INTERNET comparirà un punto verde.
 
     Per istruzioni dettagliate, fai riferimento a [Connessione a Internet tramite tethering USB](../../interface_guide/internet_tethering.md).
 

@@ -36,7 +36,7 @@ Questo tutorial mostra come riservare un IP fisso per il client OpenVPN che si c
 
     - `255.255.255.0` e la subnet mask e puoi sostituirla con la subnet mask del tuo server OpenVPN.
 
-    **Nota**: se vuoi fissare indirizzi IP per piu client OpenVPN, crea piu nomi utente e password nel passaggio 2, quindi ripeti il passaggio 5 e aggiungi file nella cartella CCD secondo l'ordine degli utenti, ad esempio user_1, user_2, user_3, seguiti dal comando `ifconfig-push` e dai rispettivi IP fissi e subnet mask.
+    **Nota**: se vuoi fissare indirizzi IP per più client OpenVPN, crea più nomi utente e password nel passaggio 2, quindi ripeti il passaggio 5 e aggiungi file nella cartella CCD secondo l'ordine degli utenti, ad esempio user_1, user_2, user_3, seguiti dal comando `ifconfig-push` e dai rispettivi IP fissi e subnet mask.
 
     Ad esempio, `ifconfig-push 10.8.0.20 255.255.255.0`, `ifconfig-push 10.8.0.30 255.255.255.0`, `ifconfig-push 10.8.0.40 255.255.255.0`
 

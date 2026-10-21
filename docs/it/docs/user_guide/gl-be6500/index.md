@@ -2,9 +2,9 @@
 
 ## Panoramica del prodotto {#product-overview}
 
-Flint 3e (GL-BE6500) e un router desktop Wi-Fi 7 dual-band pensato per utenti domestici e piccoli uffici. Supporta la tecnologia Wi-Fi 7 Multi-Link Operation (MLO), che unisce in modo intelligente i canali 2,4 GHz e 5 GHz in un'unica connessione. L'utilizzo simultaneo delle risorse dual-band riduce interferenze e congestione, mentre il 4K QAM offre una velocita dual-band combinata di 6453 Mbps, con un incremento del 20% rispetto al Wi-Fi 6. La banda a 5 GHz aggiornata, con 4x4 MIMO e 160 MHz, migliora in modo significativo anche le prestazioni a lunga distanza.
+Flint 3e (GL-BE6500) e un router desktop Wi-Fi 7 dual-band pensato per utenti domestici e piccoli uffici. Supporta la tecnologia Wi-Fi 7 Multi-Link Operation (MLO), che unisce in modo intelligente i canali 2,4 GHz e 5 GHz in un'unica connessione. L'utilizzo simultaneo delle risorse dual-band riduce interferenze e congestione, mentre il 4K QAM offre una velocità dual-band combinata di 6453 Mbps, con un incremento del 20% rispetto al Wi-Fi 6. La banda a 5 GHz aggiornata, con 4x4 MIMO e 160 MHz, migliora in modo significativo anche le prestazioni a lunga distanza.
 
-Dotato di 5 porte Ethernet da 2,5G e 1 porta USB 3.0, supporta connettivita cablata ad alta velocita ed espansione dello storage. Inoltre, e compatibile con oltre 30 servizi VPN e offre prestazioni VPN elevate fino a 680 Mbps con WireGuard® e OpenVPN-DCO; include anche gratuitamente Bark Parental Control, bilanciando in modo efficace prestazioni, praticita e sicurezza.
+Dotato di 5 porte Ethernet da 2,5G e 1 porta USB 3.0, supporta connettività cablata ad alta velocità ed espansione dello storage. Inoltre, e compatibile con oltre 30 servizi VPN e offre prestazioni VPN elevate fino a 680 Mbps con WireGuard® e OpenVPN-DCO; include anche gratuitamente Bark Parental Control, bilanciando in modo efficace prestazioni, praticita e sicurezza.
 
 ![gl-be6500 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be6500/hardware_info/be6500_interface.jpg){class="glboxshadow"}
 
@@ -53,7 +53,7 @@ Apri un browser web, inserisci `192.168.8.1` nella barra degli indirizzi ed effe
 
 **Note:** Le istruzioni seguenti si applicano agli utenti che configurano il router tramite il pannello di amministrazione web GL.iNet. Se preferisci usare l'app GL.iNet, [scarica l'app](https://www.gl-inet.com/app/){target="_blank"} e segui le istruzioni mostrate sullo schermo.
 
-Configura Flint 3e usando uno dei metodi di connessione Internet supportati: Ethernet, Repeater, Tethering e Cellular. Se desideri usare la funzione [Multi-WAN](../../interface_guide/multi-wan.md), configura piu di una connessione Internet.
+Configura Flint 3e usando uno dei metodi di connessione Internet supportati: Ethernet, Repeater, Tethering e Cellular. Se desideri usare la funzione [Multi-WAN](../../interface_guide/multi-wan.md), configura più di una connessione Internet.
 
 === "Ethernet"
     
@@ -105,15 +105,15 @@ Di seguito trovi una panoramica delle funzioni presenti nel pannello di amminist
 
 ## Wireless {#wireless}
 
-La pagina Wireless consente di configurare le impostazioni delle reti Wi-Fi a 5 GHz e 2,4 GHz, tra cui attivazione del Wi-Fi, potenza TX, nome della rete Wi-Fi (SSID), BSSID casuale, modalita di sicurezza Wi-Fi e password, visibilita dell'SSID, modalita Wi-Fi, larghezza di banda e canale.
+La pagina Wireless consente di configurare le impostazioni delle reti Wi-Fi a 5 GHz e 2,4 GHz, tra cui attivazione del Wi-Fi, potenza TX, nome della rete Wi-Fi (SSID), BSSID casuale, modalità di sicurezza Wi-Fi e password, visibilità dell'SSID, modalità Wi-Fi, larghezza di banda e canale.
     
-Inoltre, Flint 3e supporta il Wi-Fi MLO, cioe Multi-Link Operation, che combina simultaneamente piu reti wireless per ottenere maggiore larghezza di banda e connessioni piu affidabili.
+Inoltre, Flint 3e supporta il Wi-Fi MLO, cioe Multi-Link Operation, che combina simultaneamente più reti wireless per ottenere maggiore larghezza di banda e connessioni più affidabili.
 
 Per configurarla, fai riferimento a [Wireless](../../interface_guide/wireless.md).
 
 ## Client {#clients}
 
-La pagina Clients mostra informazioni sui dispositivi collegati. Per ogni client visualizza nome, indirizzi IP e MAC, velocita di download e upload, traffico totale e offre la possibilita di bloccare il client o eseguire altre azioni.
+La pagina Clients mostra informazioni sui dispositivi collegati. Per ogni client visualizza nome, indirizzi IP e MAC, velocità di download e upload, traffico totale e offre la possibilità di bloccare il client o eseguire altre azioni.
 
 Per configurarla, fai riferimento a [Clients](../../interface_guide/clients.md).
 
@@ -127,7 +127,7 @@ Per configurarla, fai riferimento a [Clients](../../interface_guide/clients.md).
 
 === "AstroWarp"
 
-    AstroWarp e una piattaforma di rete avanzata progettata per offrire networking remoto senza interruzioni e gestione remota dei dispositivi. Sviluppata specificamente per l'integrazione con i router GL.iNet, AstroWarp supporta una gestione completa dei dispositivi sull'intera rete, consentendo il controllo sia dei dispositivi a monte sia di quelli a valle. Con un focus sulla gestione dell'intera rete e sul futuro supporto al controllo a livello hardware, AstroWarp offre una soluzione piu robusta e affidabile per la gestione dei dispositivi e il mantenimento di reti sicure e stabili.
+    AstroWarp e una piattaforma di rete avanzata progettata per offrire networking remoto senza interruzioni e gestione remota dei dispositivi. Sviluppata specificamente per l'integrazione con i router GL.iNet, AstroWarp supporta una gestione completa dei dispositivi sull'intera rete, consentendo il controllo sia dei dispositivi a monte sia di quelli a valle. Con un focus sulla gestione dell'intera rete e sul futuro supporto al controllo a livello hardware, AstroWarp offre una soluzione più robusta e affidabile per la gestione dei dispositivi e il mantenimento di reti sicure e stabili.
     
     Per configurarla, fai riferimento a [AstroWarp](../../interface_guide/astrowarp.md).
 
@@ -144,14 +144,14 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il disp
 
 === "WireGuard"
     
-    Flint 3e, come gli altri router GL.iNet, supporta il protocollo WireGuard, che offre ottima velocita e praticita. Per configurare WireGuard, segui questi tutorial:
+    Flint 3e, come gli altri router GL.iNet, supporta il protocollo WireGuard, che offre ottima velocità e praticita. Per configurare WireGuard, segui questi tutorial:
 
     * [Come configurare un client WireGuard](../../interface_guide/wireguard_client.md)
     * [Come configurare un server WireGuard](../../interface_guide/wireguard_server.md)
 
 === "Tor"
 
-    Tor, abbreviazione di The Onion Router, e una rete orientata alla privacy che consente comunicazioni anonime su Internet. Instrada il traffico Internet attraverso una serie di server gestiti da volontari (nodi) per nascondere posizione e utilizzo dell'utente, rendendo difficile tracciare le attivita online.
+    Tor, abbreviazione di The Onion Router, e una rete orientata alla privacy che consente comunicazioni anonime su Internet. Instrada il traffico Internet attraverso una serie di server gestiti da volontari (nodi) per nascondere posizione e utilizzo dell'utente, rendendo difficile tracciare le attività online.
     
     * [Come configurare Tor](../../interface_guide/tor.md)
 
@@ -159,7 +159,7 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il disp
 
 === "Plug-ins"
 
-    Un plug-in e un componente software che aggiunge funzioni o funzionalita specifiche a un programma informatico esistente, consentendo personalizzazione e ampliamento delle sue capacita.
+    Un plug-in e un componente software che aggiunge funzioni o funzionalità specifiche a un programma informatico esistente, consentendo personalizzazione e ampliamento delle sue capacità.
     
     Per configurarlo, fai riferimento a [Plug-ins](../../interface_guide/plugins.md).
 
@@ -171,7 +171,7 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il disp
 
 === "Network Storage"
 
-    Network storage indica una soluzione centralizzata di archiviazione dati che consente a piu utenti e dispositivi di accedere e condividere file tramite una rete.
+    Network storage indica una soluzione centralizzata di archiviazione dati che consente a più utenti e dispositivi di accedere e condividere file tramite una rete.
     
     Per configurarlo, fai riferimento a [Network Storage](../../interface_guide/network_storage.md).
 
@@ -211,13 +211,13 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il disp
 
 === "Multi-WAN"
 
-    Multi-WAN e una funzione di rete che consente di configurare il router con piu connessioni Internet, ad esempio cellular, repeater ed ethernet, contemporaneamente. Se la connessione Internet attuale si interrompe, il router passera automaticamente a un'altra connessione Internet. In questo modo l'accesso a Internet rimane fluido e ininterrotto.
+    Multi-WAN e una funzione di rete che consente di configurare il router con più connessioni Internet, ad esempio cellular, repeater ed ethernet, contemporaneamente. Se la connessione Internet attuale si interrompe, il router passera automaticamente a un'altra connessione Internet. In questo modo l'accesso a Internet rimane fluido e ininterrotto.
 
     Per configurarlo, fai riferimento a [Multi-WAN](../../interface_guide/multi-wan.md).
 
 === "LAN"
 
-    LAN, o Local Area Network, e una rete che collega computer e dispositivi all'interno di un'area geografica limitata, ad esempio una casa o un ufficio. Consente trasferimento dati ad alta velocita e condivisione delle risorse, permettendo ai dispositivi di comunicare tra loro in modo efficiente.
+    LAN, o Local Area Network, e una rete che collega computer e dispositivi all'interno di un'area geografica limitata, ad esempio una casa o un ufficio. Consente trasferimento dati ad alta velocità e condivisione delle risorse, permettendo ai dispositivi di comunicare tra loro in modo efficiente.
     
     Per configurarla, fai riferimento a [Lan](../../interface_guide/lan.md).
 
@@ -231,7 +231,7 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il disp
 
 === "DNS"
 
-    La pagina DNS consente di impostare server DNS personalizzati, abilitare la protezione dagli attacchi DNS rebinding e sovrascrivere le impostazioni DNS di tutti i client, consentire ai DNS personalizzati di sovrascrivere i DNS della VPN e configurare la modalita delle impostazioni del server DNS su automatica oppure specificare manualmente i server DNS dalla connessione Ethernet.
+    La pagina DNS consente di impostare server DNS personalizzati, abilitare la protezione dagli attacchi DNS rebinding e sovrascrivere le impostazioni DNS di tutti i client, consentire ai DNS personalizzati di sovrascrivere i DNS della VPN e configurare la modalità delle impostazioni del server DNS su automatica oppure specificare manualmente i server DNS dalla connessione Ethernet.
 
     Per configurarla, fai riferimento a [DNS](../../interface_guide/dns.md).
 
@@ -302,7 +302,7 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il disp
 
 === "Upgrade"
 
-    La pagina Upgrade viene usata per aggiornare il firmware del router alla versione piu recente, garantendo prestazioni migliori, maggiore sicurezza e nuove funzioni. Questa pagina offre due opzioni di aggiornamento:
+    La pagina Upgrade viene usata per aggiornare il firmware del router alla versione più recente, garantendo prestazioni migliori, maggiore sicurezza e nuove funzioni. Questa pagina offre due opzioni di aggiornamento:
 
     * Online Upgrade: verifica automaticamente sul server del produttore la disponibilità della versione firmware più recente. Se disponibile online, è possibile installarla.
     * Local Upgrade: consente di caricare manualmente un file firmware dal computer per aggiornare il router, offrendo controllo sulla versione e sul momento dell'aggiornamento.
@@ -316,9 +316,9 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il disp
     La pagina Scheduled Tasks consente di automatizzare diverse funzioni del router in base a una pianificazione predefinita, migliorando praticita ed efficienza. Le funzioni principali di questa pagina includono:
 
     * LED Display Schedule: imposta una pianificazione per accendere o spegnere automaticamente i LED del router, riducendo l'inquinamento luminoso in determinati orari.
-    * Schedule Reboot: configura il riavvio automatico del router a intervalli specifici per mantenere prestazioni e stabilita ottimali.
+    * Schedule Reboot: configura il riavvio automatico del router a intervalli specifici per mantenere prestazioni e stabilità ottimali.
     * 5GHz Wi-Fi Status Schedule: crea una pianificazione per abilitare o disabilitare la banda Wi-Fi a 5 GHz in orari specifici, ottimizzando l'uso della rete e l'efficienza energetica.
-    * 2.4GHz Wi-Fi Status Schedule: imposta una pianificazione per controllare la banda Wi-Fi a 2,4 GHz, gestendo meglio disponibilita della rete e consumo energetico.
+    * 2.4GHz Wi-Fi Status Schedule: imposta una pianificazione per controllare la banda Wi-Fi a 2,4 GHz, gestendo meglio disponibilità della rete e consumo energetico.
 
     Queste opzioni di pianificazione offrono maggiore controllo sul funzionamento del router, garantendo che soddisfi esigenze e preferenze specifiche.
 
@@ -328,18 +328,18 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il disp
 
 === "Time Zone"
 
-    La pagina Time Zone consente di impostare il fuso orario corretto per il router, assicurando che tutte le attivita pianificate, i log e gli eventi di sistema riportino timestamp accurati in base all'ora locale. Questa impostazione e essenziale per mantenere registrazioni precise e per la corretta esecuzione delle configurazioni basate sull'orario.
+    La pagina Time Zone consente di impostare il fuso orario corretto per il router, assicurando che tutte le attività pianificate, i log e gli eventi di sistema riportino timestamp accurati in base all'ora locale. Questa impostazione e essenziale per mantenere registrazioni precise e per la corretta esecuzione delle configurazioni basate sull'orario.
 
     Per istruzioni dettagliate e ulteriori informazioni, fai riferimento a [Time Zone](../../interface_guide/time_zone.md).
 
 === "Log"
 
-    La pagina Log offre accesso a vari registri che memorizzano attivita ed eventi del router, aiutando nella risoluzione dei problemi e nel monitoraggio delle prestazioni. Questa pagina include:
+    La pagina Log offre accesso a vari registri che memorizzano attività ed eventi del router, aiutando nella risoluzione dei problemi e nel monitoraggio delle prestazioni. Questa pagina include:
 
-    * System Log: log dettagliati relativi a eventi e attivita a livello di sistema.
+    * System Log: log dettagliati relativi a eventi e attività a livello di sistema.
     * Kernel Log: log relativi alle operazioni e agli eventi del kernel.
     * Crash Log: registrazioni di arresti anomali ed errori di sistema, utili per diagnosticare problemi critici.
-    * Cloud Log: log delle interazioni e delle attivita legate ai servizi GoodCloud integrati nel router.
+    * Cloud Log: log delle interazioni e delle attività legate ai servizi GoodCloud integrati nel router.
     * Nginx Log: log del server web Nginx, se usato dal router, che riportano traffico web e operazioni del server.
     
     Inoltre, la pagina include il pulsante Export Log, che consente di esportare tutti i log raccolti per l'analisi da parte del supporto tecnico. Questa funzione e molto utile per diagnosticare problemi complessi e ottenere assistenza professionale.
@@ -362,7 +362,7 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il disp
 
 === "Reset Firmware"
 
-    La pagina Reset Firmware consente di ripristinare le impostazioni predefinite della versione firmware attualmente installata sul router, cancellando tutte le configurazioni personalizzate. Questo processo riporta il router alle impostazioni di default della versione firmware corrente. Puo essere utile per risolvere problemi persistenti o per ricominciare da zero con la configurazione predefinita del firmware attuale.
+    La pagina Reset Firmware consente di ripristinare le impostazioni predefinite della versione firmware attualmente installata sul router, cancellando tutte le configurazioni personalizzate. Questo processo riporta il router alle impostazioni di default della versione firmware corrente. Può essere utile per risolvere problemi persistenti o per ricominciare da zero con la configurazione predefinita del firmware attuale.
 
     Per istruzioni dettagliate e ulteriori informazioni, fai riferimento a [Reset Firmware](../../interface_guide/reset_firmware.md).
 

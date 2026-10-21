@@ -1,6 +1,6 @@
 # Scopri i nostri nuovi prodotti {#meet-our-new-products}
 
-Un'introduzione ai nostri futuri prodotti e uno sguardo ai nostri sviluppi piu recenti.
+Un'introduzione ai nostri futuri prodotti e uno sguardo ai nostri sviluppi più recenti.
 
 ## GL-MT6000 (Fortify) {#gl-mt6000-fortify}
 
@@ -76,7 +76,7 @@ Router cellulare 5G Wi-Fi 6 con batteria
 
 ## GL-X3000 (Spitz AX) {#gl-x3000-spitz-ax}
 
-Router dual-SIM Wi-Fi 6 con connettivita 5G NR
+Router dual-SIM Wi-Fi 6 con connettività 5G NR
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uBz8QOp_Do4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

@@ -1,10 +1,10 @@
 # Guida utente di Mudi V2 (GL-E750V2) {#mudi-v2-gl-e750v2-user-guide}
 
-**Note:** Mudi V2 (GL-E750V2) e Mudi (GL-E750) usano lo stesso firmware. Se stai usando Mudi (GL-E750), [aggiorna il firmware](https://dl.gl-inet.com/?model=e750) per usare le funzioni e le caratteristiche piu recenti.
+**Note:** Mudi V2 (GL-E750V2) e Mudi (GL-E750) usano lo stesso firmware. Se stai usando Mudi (GL-E750), [aggiorna il firmware](https://dl.gl-inet.com/?model=e750) per usare le funzioni e le caratteristiche più recenti.
 
 ## Panoramica del prodotto {#product-overview}
 
-Mudi V2 (GL-E750V2) e un router da viaggio 4G LTE portatile compatibile con operatori globali. E completamente open source su OpenWrt e sullo SDK 4.0 di GL.iNet, offrendo ampie possibilita di personalizzazione e numerose funzioni. Mudi V2 supporta velocita Wi-Fi di 300 Mbps (2,4 GHz) e 433 Mbps (5 GHz), una scheda MicroSD fino a 1 TB e integra una batteria da 7000 mAh. Supporta inoltre il multi-WAN, con failover e load balance, per garantire una connessione fluida a tutti i tuoi dispositivi.
+Mudi V2 (GL-E750V2) e un router da viaggio 4G LTE portatile compatibile con operatori globali. E completamente open source su OpenWrt e sullo SDK 4.0 di GL.iNet, offrendo ampie possibilità di personalizzazione e numerose funzioni. Mudi V2 supporta velocità Wi-Fi di 300 Mbps (2,4 GHz) e 433 Mbps (5 GHz), una scheda MicroSD fino a 1 TB e integra una batteria da 7000 mAh. Supporta inoltre il multi-WAN, con failover e load balance, per garantire una connessione fluida a tutti i tuoi dispositivi.
 
 ![gl-e750v2 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e750/hardware_info/e750_interface.jpg){class="glboxshadow"}
 
@@ -14,13 +14,13 @@ Mudi V2 (GL-E750V2) e un router da viaggio 4G LTE portatile compatibile con oper
 
 - Premi il pulsante di accensione per **3-5 secondi**: entra in Standby Mode.
 
-- Premi il pulsante di accensione per **piu di 5 secondi**: spegne il dispositivo.
+- Premi il pulsante di accensione per **più di 5 secondi**: spegne il dispositivo.
 
     Quando premi per 3 secondi, sullo schermo OLED verra prima mostrato "Standby Mode On". CONTINUA A TENERE PREMUTO il pulsante di accensione finche non vedi "Shut Down" sotto "Standby Mode On". Partira un conto alla rovescia di 3 secondi e il dispositivo si spegnera.
 
 ## Standby Mode {#standby-mode}
 
-In Standby Mode, Mudi V2 disattiva Wi-Fi e 4G per risparmiare energia. In questa modalita non puoi collegarti a Mudi V2.
+In Standby Mode, Mudi V2 disattiva Wi-Fi e 4G per risparmiare energia. In questa modalità non puoi collegarti a Mudi V2.
 
 Per attivare o disattivare la Standby Mode, premi il pulsante di accensione per 3 secondi. Sullo schermo OLED verra mostrato "Standby Mode On" oppure "Standby Mode Off".
 
@@ -85,7 +85,7 @@ Questa pagina consente di selezionare il tipo di connessione Internet, ad esempi
 
 ### Ethernet {#ethernet}
 
-Collega il router a un modem attivo o a un dispositivo di rete attivo tramite un cavo Ethernet per accedere a Internet. Questo metodo di solito offre la connessione Internet piu veloce e affidabile.
+Collega il router a un modem attivo o a un dispositivo di rete attivo tramite un cavo Ethernet per accedere a Internet. Questo metodo di solito offre la connessione Internet più veloce e affidabile.
 
 [Fai clic qui per scoprire come collegarti a Internet tramite cavo Ethernet](../../interface_guide/internet_ethernet.md)
 
@@ -93,7 +93,7 @@ Collega il router a un modem attivo o a un dispositivo di rete attivo tramite un
 
 ### Repeater {#repeater}
 
-Configura il router come repeater per estendere la copertura Wi-Fi di una rete Wi-Fi esistente. Come repeater, riceve e ritrasmette i segnali wireless all'interno del proprio raggio d'azione, estendendone cosi la copertura. Questo metodo e utile quando un solo router non riesce a coprire l'intera area di utilizzo.
+Configura il router come repeater per estendere la copertura Wi-Fi di una rete Wi-Fi esistente. Come repeater, riceve e ritrasmette i segnali wireless all'interno del proprio raggio d'azione, estendendone così la copertura. Questo metodo e utile quando un solo router non riesce a coprire l'intera area di utilizzo.
 
 [Fai clic qui per scoprire come collegarti a Internet tramite una rete Wi-Fi esistente](../../interface_guide/internet_repeater.md)
 
@@ -101,7 +101,7 @@ Configura il router come repeater per estendere la copertura Wi-Fi di una rete W
 
 ### Tethering {#tethering}
 
-Collega la porta USB del router a uno smartphone con dati mobili attivi tramite un cavo USB per accedere a Internet. Questo metodo consente a piu dispositivi collegati al router di accedere a Internet usando i dati mobili dello smartphone.
+Collega la porta USB del router a uno smartphone con dati mobili attivi tramite un cavo USB per accedere a Internet. Questo metodo consente a più dispositivi collegati al router di accedere a Internet usando i dati mobili dello smartphone.
 
 [Fai clic qui per scoprire come collegarti a Internet tramite USB tethering](../../interface_guide/internet_tethering.md)
 
@@ -123,15 +123,15 @@ Per usare una scheda eSIM fisica sul tuo router GL.iNet, fai clic qui: [Come usa
 
 Le impostazioni wireless consentono agli utenti di gestire la sicurezza di rete del Wi-Fi principale e del Wi-Fi ospite. Sono accessibili andando su **WIRELESS** nel menu laterale.
 
-[Fai clic qui per saperne di piu sulla configurazione wireless](../../interface_guide/wireless.md)
+[Fai clic qui per saperne di più sulla configurazione wireless](../../interface_guide/wireless.md)
 
 ---
 
 ## CLIENTS {#clients}
 
-I client sono i dispositivi collegati al router. Puoi bloccare i client o limitarne la velocita di rete. L'interfaccia e accessibile facendo clic su **CLIENTS** nel menu laterale del pannello di amministrazione del router.
+I client sono i dispositivi collegati al router. Puoi bloccare i client o limitarne la velocità di rete. L'interfaccia e accessibile facendo clic su **CLIENTS** nel menu laterale del pannello di amministrazione del router.
 
-[Fai clic qui per saperne di piu sulla gestione dei client del dispositivo.](../../interface_guide/clients.md)
+[Fai clic qui per saperne di più sulla gestione dei client del dispositivo.](../../interface_guide/clients.md)
 
 ---
 
@@ -187,7 +187,7 @@ Visita il tutorial [**GoodCloud**](../../interface_guide/cloud.md).
 
 I router GL.iNet includono diverse funzioni firewall per garantire una connessione sicura e un controllo completo da parte degli utenti. Consentono di configurare regole firewall, tra cui Port Forwarding, Open Ports e DMZ.
 
-[Fai clic qui per saperne di piu sul firewall dei router GL.iNet](../../interface_guide/firewall.md)
+[Fai clic qui per saperne di più sul firewall dei router GL.iNet](../../interface_guide/firewall.md)
 
 ### Multi-WAN {#multi-wan}
 

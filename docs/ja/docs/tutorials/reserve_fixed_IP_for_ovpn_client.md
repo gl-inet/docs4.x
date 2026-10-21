@@ -45,10 +45,10 @@
     たとえば、OpenVPNクライアントがGL.iNetルーターであれば、OpenVPNクライアントルーターのWeb管理パネルにログインし、VPN Dashboard に移動してクライアント仮想IP (IPv4) を確認できます。
 
     ![ovpn client test v4.7](https://static.gl-inet.com/docs/router/en/4/tutorials/reserve_fixed_ip_for_ovpn_client/ovpn_client_test_4.7.png){class="glboxshadow"}
-    <small>(ファームウェア v4.7 以前の VPN Dashboard)</small>
+    <small>（ファームウェア v4.7 以前の VPN Dashboard）</small>
 
     ![ovpn client test v4.8](https://static.gl-inet.com/docs/router/en/4/tutorials/reserve_fixed_ip_for_ovpn_client/ovpn_client_test_4.8.png){class="glboxshadow"}
-    <small>(ファームウェア v4.8 の VPN Dashboard)</small>
+    <small>（ファームウェア v4.8 の VPN Dashboard）</small>
 
 ---
 

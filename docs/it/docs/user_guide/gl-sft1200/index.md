@@ -59,7 +59,7 @@ Configura Opal utilizzando uno dei metodi di connessione Internet supportati: Et
 
     Collega un cavo Ethernet tra la porta WAN del router e un dispositivo a monte, ad esempio un modem.
     
-    Una volta stabilita correttamente la connessione a Internet, nella sezione Ethernet della pagina INTERNET comparirà un punto verde.
+    Una volta stabilità correttamente la connessione a Internet, nella sezione Ethernet della pagina INTERNET comparirà un punto verde.
 
     Per istruzioni dettagliate, fai riferimento a [Connessione a Internet tramite cavo Ethernet](../../interface_guide/internet_ethernet.md).
 
@@ -71,7 +71,7 @@ Configura Opal utilizzando uno dei metodi di connessione Internet supportati: Et
     2. Seleziona una rete Wi-Fi tra quelle disponibili.
     3. Inserisci la password, quindi fai clic su **Apply**.
     
-    Una volta stabilita correttamente la connessione a Internet, nella sezione Repeater della pagina INTERNET comparirà un punto verde.
+    Una volta stabilità correttamente la connessione a Internet, nella sezione Repeater della pagina INTERNET comparirà un punto verde.
 
     Per istruzioni dettagliate, fai riferimento a [Connessione a Internet tramite una rete Wi-Fi esistente](../../interface_guide/internet_repeater.md).
 
@@ -83,7 +83,7 @@ Configura Opal utilizzando uno dei metodi di connessione Internet supportati: Et
     2. Sul dispositivo mobile, vai nelle impostazioni e abilita il tethering USB.
     3. Nella pagina INTERNET del pannello di amministrazione web, fai clic su **Connect** nella sezione Tethering.
     
-    Una volta stabilita correttamente la connessione a Internet, nella sezione Tethering della pagina INTERNET comparirà un punto verde.
+    Una volta stabilità correttamente la connessione a Internet, nella sezione Tethering della pagina INTERNET comparirà un punto verde.
 
     Per istruzioni dettagliate, fai riferimento a [Connessione a Internet tramite tethering USB](../../interface_guide/internet_tethering.md).
 
@@ -93,7 +93,7 @@ Configura Opal utilizzando uno dei metodi di connessione Internet supportati: Et
 
     Collega un modem USB cellulare alla porta USB del router. Questo metodo è utile per condividere la connessione Internet di un modem USB con tutti i dispositivi collegati.
 
-    Una volta stabilita correttamente la connessione a Internet, nella sezione Cellular della pagina INTERNET comparirà un punto verde.
+    Una volta stabilità correttamente la connessione a Internet, nella sezione Cellular della pagina INTERNET comparirà un punto verde.
 
     Per istruzioni dettagliate, fai riferimento a [Connessione a Internet tramite rete cellulare](../../interface_guide/internet_cellular.md).
 

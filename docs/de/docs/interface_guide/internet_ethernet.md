@@ -86,9 +86,9 @@ So beheben Sie das Problem:
 
 Verwandte Artikel
 
-- [Internet page](internet.md)
-- [How to set the priority of each Internet access method?](multi-wan.md)
-- [How to set the load balance when multiple Internet access methods are used at the same time?](multi-wan.md)
+- [Internet-Seite](internet.md)
+- [Wie legt man die Priorität der einzelnen Internetzugangsmethoden fest?](multi-wan.md)
+- [Wie richtet man Lastausgleich ein, wenn mehrere Internetzugangsmethoden gleichzeitig verwendet werden?](multi-wan.md)
 
 ---
 

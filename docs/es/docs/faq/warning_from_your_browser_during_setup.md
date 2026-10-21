@@ -1,6 +1,6 @@
-# Advertencia de su navegador: Your Connection is not Private {#warning-from-your-browser-your-connection-is-not-private}
+# Advertencia de su navegador: "Your Connection is not Private" {#warning-from-your-browser-your-connection-is-not-private}
 
-Puede encontrarse con esta alerta del navegador si es la primera vez que configura su router GL.iNet: Your Connection is not Private.
+Puede encontrarse con esta alerta del navegador si es la primera vez que configura su router GL.iNet: "Your Connection is not Private".
 
 ![alert](https://static.gl-inet.com/docs/router/en/4/faq/warning_from_your_browser/alert.jpg){class="glboxshadow"}
 

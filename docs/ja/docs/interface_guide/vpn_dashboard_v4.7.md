@@ -1,4 +1,4 @@
-# VPN Dashboard (Firmware v4.7 and earlier) {#vpn-dashboard-firmware-v47-and-earlier}
+# VPN Dashboard（ファームウェア v4.7 以前） {#vpn-dashboard-firmware-v47-and-earlier}
 
 このページの内容は、ファームウェア v4.7.x 以前に基づいています。デバイスで別のファームウェアバージョンを使用している場合は、以下のセレクターで該当するガイドに切り替えてください。
 

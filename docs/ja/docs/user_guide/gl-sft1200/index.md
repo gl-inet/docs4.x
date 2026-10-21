@@ -14,7 +14,7 @@ Opal (GL-SFT1200) は、1200Mbps のワイヤレス転送速度に対応した�
 - 1 x サンキューカード
 - 1 x 保証書
 - 1 x 電源アダプター
-- 1 x 変換プラグ (配送先の国に基づく)
+- 1 x 変換プラグ（配送先の国に基づく）
 
 ![gl-sft1200 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-sft1200/first_time_setup/sft1200_unboxing.jpg){class="glboxshadow"}
 
@@ -23,7 +23,7 @@ Opal (GL-SFT1200) は、1200Mbps のワイヤレス転送速度に対応した�
 このセットアップ動画を見るか、以下の手順に従ってください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZAVn92F5RV8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<small>(この動画では別の GL.iNet ルーターを使ってセットアップを説明していますが、Opal および他のルーターモデルでも手順は同じです。)</small>
+<small>（この動画では別の GL.iNet ルーターを使ってセットアップを説明していますが、Opal および他のルーターモデルでも手順は同じです。）</small>
 
 ### 1. 電源を入れる {#1-power-on}
 
@@ -117,11 +117,11 @@ VPN (virtual private network) は、デバイスと VPN サーバー間に安全
 
 === "Tor"
 
-    Tor は The Onion Router の略で、インターネット上で匿名通信を可能にするプライバシー重視のネットワークです。インターネットトラフィックをボランティア運営の複数のサーバー (ノード) 経由でルーティングし、ユーザーの場所や利用状況を分かりにくくすることで、オンライン活動の追跡を困難にします。
+    Tor は The Onion Router の略で、インターネット上で匿名通信を可能にするプライバシー重視のネットワークです。インターネットトラフィックをボランティア運営の複数のサーバー（ノード）経由でルーティングし、ユーザーの場所や利用状況を分かりにくくすることで、オンライン活動の追跡を困難にします。
 
     **Note:** Opal は Tor をネイティブにはサポートしていませんが、プラグインを通じて手動で Tor をインストールできます。詳細は [こちら](../../interface_guide/tor.md#manual-install) をクリックしてください。
 
-## Wireless and clients {#wireless-and-clients}
+## Wireless と Clients {#wireless-and-clients}
 
 === "Wireless"
 

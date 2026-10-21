@@ -2,48 +2,48 @@
 
 ## Hardwareinformationen {#hardware-info}
 
-[GL-S20 specifications](https://www.gl-inet.com/products/gl-s20/#specs){target="_blank"}
+[Technische Daten des GL-S20](https://www.gl-inet.com/products/gl-s20/#specs){target="_blank"}
 
 ## GPIO-Liste {#gpio-list}
 
-| ESP32-WROOM-32U GPIO Labeling | SIGNAL         | FUNCTION                                                     |
+| ESP32-WROOM-32U GPIO-Bezeichnung | SIGNAL         | FUNKTION                                                     |
 | ----------------------------- | -------------- | ------------------------------------------------------------ |
-| GPIO0                         | GPIO0          | connected to ch340c pin DTR for the device to enter download mode |
-| GPIO1                         | BUTTON         | button input, used for reset                                 |
-| GPIO2                         | GPIO2          | used for control h2 reset io                                 |
-| GPIO3                         | GPIO3          | used for control h2 boot io                                  |
-| GPIO4                         | PHY_SPI_INT    | interrupt GPIO number SPI Ethernet module                    |
-| GPIO5                         | PHY_RESET      | PHY reset GPIO number of SPI Ethernet module                 |
-| GPIO6                         | NETWORK_LED    | network led control (green)                                  |
-| GPIO7                         | NETWORK_LED    | network led control (red)                                    |
-| GPIO8                         | UART1 RX	     | used for connect to h2 uart0 tx                              |
-| GPIO9                         | POWER_LED      | power led control (green)                                    |
-| GPIO10                        | PHY_SPI_CSN    | SPI CS GPIO number for SPI Ethernet module                   |
-| GPIO11                        | PHY_SPI_MOSI   | SPI MOSI GPIO number for SPI Ethernet module                 |
-| GPIO12                        | PHY_SPI_CK     | SPI SCLK GPIO number for SPI Ethernet module                 |
-| GPIO13                        | PHY_SPI_MISO   | SPI MISO GPIO number for SPI Ethernet module                 |
-| GPIO14                        | POWER_LED      | power led control (red)                                      |
-| GPIO15                        | NETWORK_LED    | network led control (yellow)                                 |
-| GPIO16                        | BUTTON         | button input, used for iot function control                  |
-| GPIO17                        | IOT_LED        | iot led control (green)                                      |
-| GPIO18                        | IOT_LED        | iot led control (red)                                        |
-| GPIO19                        | IOT_LED        | iot led control (yellow)                                     |
-| GPIO20                        | POWER_LED	     | power led control (yellow)                                   |
-| GPIO21                        | UART1 RTS      | used for connect to h2 uart0 cts                             |
+| GPIO0                         | GPIO0          | mit Pin DTR des ch340c verbunden, damit das Gerät in den Download-Modus wechselt |
+| GPIO1                         | BUTTON         | Tasteneingang, für Reset verwendet                           |
+| GPIO2                         | GPIO2          | zur Steuerung des h2-Reset-IO                                |
+| GPIO3                         | GPIO3          | zur Steuerung des h2-Boot-IO                                 |
+| GPIO4                         | PHY_SPI_INT    | Interrupt-GPIO-Nummer des SPI-Ethernet-Moduls                |
+| GPIO5                         | PHY_RESET      | PHY-Reset-GPIO-Nummer des SPI-Ethernet-Moduls                |
+| GPIO6                         | NETWORK_LED    | Steuerung der Netzwerk-LED (grün)                                  |
+| GPIO7                         | NETWORK_LED    | Steuerung der Netzwerk-LED (rot)                                    |
+| GPIO8                         | UART1 RX	     | zur Verbindung mit h2 uart0 tx                                |
+| GPIO9                         | POWER_LED      | Steuerung der Power-LED (grün)                                    |
+| GPIO10                        | PHY_SPI_CSN    | SPI-CS-GPIO-Nummer des SPI-Ethernet-Moduls                   |
+| GPIO11                        | PHY_SPI_MOSI   | SPI-MOSI-GPIO-Nummer des SPI-Ethernet-Moduls                 |
+| GPIO12                        | PHY_SPI_CK     | SPI-SCLK-GPIO-Nummer des SPI-Ethernet-Moduls                 |
+| GPIO13                        | PHY_SPI_MISO   | SPI-MISO-GPIO-Nummer des SPI-Ethernet-Moduls                 |
+| GPIO14                        | POWER_LED      | Steuerung der Power-LED (rot)                                      |
+| GPIO15                        | NETWORK_LED    | Steuerung der Netzwerk-LED (gelb)                                 |
+| GPIO16                        | BUTTON         | Tasteneingang, zur Steuerung der IoT-Funktion                 |
+| GPIO17                        | IOT_LED        | Steuerung der IoT-LED (grün)                                      |
+| GPIO18                        | IOT_LED        | Steuerung der IoT-LED (rot)                                        |
+| GPIO19                        | IOT_LED        | Steuerung der IoT-LED (gelb)                                     |
+| GPIO20                        | POWER_LED	     | Steuerung der Power-LED (gelb)                                   |
+| GPIO21                        | UART1 RTS      | zur Verbindung mit h2 uart0 cts                               |
 | GPIO35                        | GPIO35         | NC                                                           |
 | GPIO36                        | GPIO36         | NC                                                           |
 | GPIO37                        | GPIO37         | NC                                                           |
 | GPIO38                        | GPIO38         | NC                                                           |
 | GPIO39                        | GPIO39         | NC                                                           |
-| GPIO40                        | PTA_REQUEST    | used for PTA                                                 |
-| GPIO41                        | PTA_PRIORITY   | used for PTA                                                 |
-| GPIO42                        | PTA_GRANT      | used for PTA                                                 |
-| GPIO43                        | UART0 TX       | used for debugging serial port output                        |
+| GPIO40                        | PTA_REQUEST    | für PTA                                                      |
+| GPIO41                        | PTA_PRIORITY   | für PTA                                                      |
+| GPIO42                        | PTA_GRANT      | für PTA                                                      |
+| GPIO43                        | UART0 TX       | Ausgang des seriellen Debugging-Ports                        |
 | GPIO44                        | UART0 RX       | Eingang des seriellen Debugging-Ports |
-| GPIO45                        | PTA_TX_LINE    | used for PTA                                                 |
+| GPIO45                        | PTA_TX_LINE    | für PTA                                                      |
 | GPIO46                        | GPIO46         | NC                                                           |
-| GPIO47                        | UART1 CTS      | used for connect to h2 uart0 rts                             |
-| GPIO48                        | UART1 TX       | used for connect to h2 uart0 rx                              |
+| GPIO47                        | UART1 CTS      | zur Verbindung mit h2 uart0 rts                               |
+| GPIO48                        | UART1 TX       | zur Verbindung mit h2 uart0 rx                                |
 
 ## PCB-Pinbelegung {#pcb-pinout}
 

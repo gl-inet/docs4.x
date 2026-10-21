@@ -299,7 +299,7 @@ I dongle e i modem USB possono funzionare in modalità diverse: modalità modem 
 
 - **Modalità modem USB standard**: il router agisce come host USB, mentre il dongle funziona come modem USB slave. Il dongle espone sia le interfacce di comando (AT/QMI/MBIM) sia una porta Ethernet USB virtuale e può quindi essere gestito tramite la WAN Cellular nativa del router. Il router può leggere metriche cellulari di basso livello, tra cui ICCID, potenza del segnale e banda, mentre le impostazioni SIM vengono configurate direttamente dall’interfaccia web del router.
 
-- **Modalità host-less**: il dongle esegue internamente la connessione cellulare e presenta al router un’interfaccia Ethernet USB virtuale. Il router lo riconosce come una WAN in tethering anziché come un modem controllabile; la connessione viene quindi stabilita tramite l’interfaccia Tethering e non tramite Cellular. Sul router non sono disponibili metriche cellulari di basso livello e tutte le configurazioni APN e SIM devono essere completate tramite l’interfaccia web integrata del dongle.
+- **Modalità host-less**: il dongle esegue internamente la connessione cellulare e presenta al router un’interfaccia Ethernet USB virtuale. Il router lo riconosce come una WAN in tethering anziché come un modem controllabile; la connessione viene quindi stabilità tramite l’interfaccia Tethering e non tramite Cellular. Sul router non sono disponibili metriche cellulari di basso livello e tutte le configurazioni APN e SIM devono essere completate tramite l’interfaccia web integrata del dongle.
 
 Consulta la sezione corrispondente alla modalità operativa del dongle USB.
 

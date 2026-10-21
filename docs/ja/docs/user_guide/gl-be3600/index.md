@@ -48,7 +48,7 @@ Slate 7 の開封動画は以下をご覧ください。
 Slate 7の設定には、Ethernet、Repeater、Tethering、Cellularの4つのインターネット接続方法が使えます。設定動画を見るか、以下の手順に従ってください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YMHQK8wSQGM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<small>(この動画では、Slate 7 を Repeater として設定する方法を紹介しています。その他のインターネット接続方法で設定する場合は、以下の手順を参照してください。)</small>
+<small>（この動画では、Slate 7 を Repeater として設定する方法を紹介しています。その他のインターネット接続方法で設定する場合は、以下の手順を参照してください。）</small>
 
 ### 1. Slate 7の電源を入れる {#1-power-on}
 

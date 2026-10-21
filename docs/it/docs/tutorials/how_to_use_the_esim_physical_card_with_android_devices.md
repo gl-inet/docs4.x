@@ -17,7 +17,7 @@ I principali vantaggi della eSIM Physical Card sono i seguenti:
 - Permette di selezionare e acquistare in qualsiasi momento i pacchetti dati preferiti dalla maggior parte degli store eSIM nel mondo.
 - Funziona con i profili eSIM della maggior parte degli store eSIM globali.
 - Consente di acquistare profili eSIM online senza fornire informazioni personali, riducendo il rischio di violazioni della privacy.
-- Include un seed profile con 1 GB di dati gratuiti per Stati Uniti ed Europa, piu 100 MB di dati globali, validi per 1 anno dalla data di attivazione.
+- Include un seed profile con 1 GB di dati gratuiti per Stati Uniti ed Europa, più 100 MB di dati globali, validi per 1 anno dalla data di attivazione.
 - E compatibile con la maggior parte dei dispositivi Android.
 
 ## Configurare la eSIM Physical Card su dispositivi Android {#set-up-the-esim-physical-card-on-android-devices}
@@ -87,7 +87,7 @@ Per aggiungere un profilo eSIM, puoi fare clic direttamente sul pulsante **Add**
 
 ### Metodo 1: aggiungere un profilo eSIM acquistato {#method-1-add-a-purchased-esim-profile}
 
-Se hai gia acquistato un profilo eSIM dal tuo store eSIM preferito, segui questi passaggi per aggiungerlo:
+Se hai già acquistato un profilo eSIM dal tuo store eSIM preferito, segui questi passaggi per aggiungerlo:
 
 #### 1. Toccare il pulsante Add {#1-tap-the-add-button}
 
@@ -119,7 +119,7 @@ Puoi acquistare e aggiungere un profilo direttamente da eSIM Shop all'interno de
 
 #### 1. Scegliere il pacchetto dati {#1-choose-your-data-package}
 
-Seleziona il pacchetto dati piu adatto alle tue esigenze: Local, Regional oppure Global.
+Seleziona il pacchetto dati più adatto alle tue esigenze: Local, Regional oppure Global.
 
 ![Choose Your Data Package](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_esim_physical_card_with_android_devices/121314-choose-your-data-package.jpg){class="glboxshadow"}
 

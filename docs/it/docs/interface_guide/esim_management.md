@@ -50,9 +50,9 @@ Questa sezione mostra le informazioni di base e i dettagli del profilo eSIM attu
 - **EID:** identificatore univoco globale della eUICC (chip eSIM), usato per l'identificazione e la gestione dei profili.
 - **ICCID:** Integrated Circuit Card Identifier del profilo eSIM attualmente attivo.
 - **IMSI:** International Mobile Subscriber Identity del profilo eSIM attualmente attivo.
-- **eSIM OS Version:** versione del sistema operativo della eUICC, che ne definisce compatibilita e capacita supportate.
-- **eSIM Storage (remain/total):** capacita disponibile e totale della eUICC per memorizzare i profili eSIM.
-- **eSIM Profile Number:** numero di profili eSIM attualmente memorizzati sulla eUICC. Tieni presente che i profili eSIM offerti da operatori diversi possono avere dimensioni differenti, quindi puo variare anche il numero di profili memorizzabili sulla eUICC.
+- **eSIM OS Version:** versione del sistema operativo della eUICC, che ne definisce compatibilità e capacità supportate.
+- **eSIM Storage (remain/total):** capacità disponibile e totale della eUICC per memorizzare i profili eSIM.
+- **eSIM Profile Number:** numero di profili eSIM attualmente memorizzati sulla eUICC. Tieni presente che i profili eSIM offerti da operatori diversi possono avere dimensioni differenti, quindi può variare anche il numero di profili memorizzabili sulla eUICC.
 
 ## eSIM Profile List {#esim-profile-list}
 
@@ -60,7 +60,7 @@ Questa sezione mostra le informazioni relative al Seed Profile e ai profili norm
 
 ![esim profile list](https://static.gl-inet.com/docs/router/en/4/interface_guide/esim_management/esim_profile_list.png){class="glboxshadow"}
 
-- **Seed Profile**: il Seed Profile e precaricato con 1 GB di dati gratuiti per Stati Uniti ed Europa, piu 100 MB di dati globali, validi per 1 anno dalla data di attivazione. Questi dati consentono di scaricare altri profili in tutto il mondo. Puoi anche monitorarne l'utilizzo, inclusi dati residui, volume totale e data di scadenza.
+- **Seed Profile**: il Seed Profile e precaricato con 1 GB di dati gratuiti per Stati Uniti ed Europa, più 100 MB di dati globali, validi per 1 anno dalla data di attivazione. Questi dati consentono di scaricare altri profili in tutto il mondo. Puoi anche monitorarne l'utilizzo, inclusi dati residui, volume totale e data di scadenza.
 
 - **Normal Profile**: se acquisti un profilo eSIM e lo carichi tramite QR code o codice di attivazione, il profilo verra visualizzato qui.
 
@@ -68,7 +68,7 @@ Questa sezione mostra le informazioni relative al Seed Profile e ai profili norm
 
 GL.iNet fornisce un Seed Profile precaricato con 100 MB di dati globali e 1 GB di dati validi in Europa e negli Stati Uniti per la configurazione iniziale e l'attivazione dei profili eSIM. Questo piano e pensato per scaricare nuovi profili eSIM quando arrivi a destinazione senza accesso a Internet.
 
-Se hai gia consumato i dati gratuiti precaricati, oppure se sono scaduti e vuoi continuare a usare il servizio, puoi ricaricare il Seed Profile.
+Se hai già consumato i dati gratuiti precaricati, oppure se sono scaduti e vuoi continuare a usare il servizio, puoi ricaricare il Seed Profile.
 
 Nella sezione **Seed Profile**, fai clic sul pulsante **Top-up** a destra.
 
@@ -100,13 +100,13 @@ Puoi acquistare profili eSIM nei nostri store consigliati, in store testati oppu
 
     Consulta [questo link](https://forum.gl-inet.com/t/carriers-supported-by-gl-inet-physical-esim/54164){target="_blank"} per visualizzare l'elenco degli store testati da GL.iNet.
 
-    **Nota**: non possiamo garantire la piena compatibilita con i router GL.iNet per tutti i profili o pacchetti offerti da questi store. Poiche GL.iNet non ha partnership con essi, non possiamo fornire supporto post-vendita ne assistere per i rimborsi.
+    **Nota**: non possiamo garantire la piena compatibilità con i router GL.iNet per tutti i profili o pacchetti offerti da questi store. Poiché GL.iNet non ha partnership con essi, non possiamo fornire supporto post-vendita ne assistere per i rimborsi.
 
 ??? note "Opzione 3: acquisto da altri provider eSIM di terze parti"
 
     Puoi anche scegliere di acquistare profili eSIM da altri provider di tua scelta.
 
-    Tuttavia, non possiamo garantire la piena compatibilita con i router GL.iNet per i profili eSIM acquistati da altri provider di terze parti. Acquista a tua discrezione. GL.iNet non e responsabile di eventuali problemi di incompatibilita.
+    Tuttavia, non possiamo garantire la piena compatibilità con i router GL.iNet per i profili eSIM acquistati da altri provider di terze parti. Acquista a tua discrezione. GL.iNet non e responsabile di eventuali problemi di incompatibilita.
 
     Per supporto post-vendita o rimborsi, contatta il provider eSIM corrispondente.
 
@@ -124,7 +124,7 @@ Dopo aver acquistato un profilo eSIM, di solito riceverai un QR code o un codice
 
     **Nota:**
 
-    1. La maggior parte dei profili eSIM puo essere scaricata e installata una sola volta.
+    1. La maggior parte dei profili eSIM può essere scaricata e installata una sola volta.
 
     2. Un QR code correttamente formattato mostrera un codice di attivazione che inizia con **LPA:**. Tuttavia, alcuni QR code non standard possono fornire solo un codice grezzo senza il prefisso LPA. In questo caso, aggiungi manualmente `LPA:` all'inizio del codice prima di fare clic su **Install**.
 

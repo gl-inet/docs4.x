@@ -109,7 +109,7 @@ Per configurarla, fai riferimento a [Wireless](../../interface_guide/wireless.md
 
 ## Client {#clients}
 
-La pagina Clients mostra informazioni sui dispositivi collegati. Per ogni client visualizza nome, indirizzi IP e MAC, velocita di download e upload, traffico totale e offre la possibilita di bloccare il client o eseguire altre azioni.
+La pagina Clients mostra informazioni sui dispositivi collegati. Per ogni client visualizza nome, indirizzi IP e MAC, velocità di download e upload, traffico totale e offre la possibilità di bloccare il client o eseguire altre azioni.
 
 Per configurarla, fai riferimento a [Clients](../../interface_guide/clients.md).
 
@@ -144,7 +144,7 @@ Una VPN (rete privata virtuale) crea una connessione sicura e crittografata tra 
 
 === "WireGuard"
 
-    Mango 2, come gli altri router GL.iNet, supporta il protocollo WireGuard, che offre ottima velocita e praticita. Per configurare WireGuard, segui questi tutorial:
+    Mango 2, come gli altri router GL.iNet, supporta il protocollo WireGuard, che offre ottima velocità e praticita. Per configurare WireGuard, segui questi tutorial:
 
     * [Come configurare un client WireGuard](../../interface_guide/wireguard_client.md)
     * [Come configurare un server WireGuard](../../interface_guide/wireguard_server.md)
@@ -153,7 +153,7 @@ Una VPN (rete privata virtuale) crea una connessione sicura e crittografata tra 
 
 === "Multi-WAN"
 
-    Multi-WAN e una funzione di rete che consente di configurare il router con piu connessioni Internet, ad esempio cellular, repeater ed ethernet, contemporaneamente. Se la connessione Internet attuale si interrompe, il router passera automaticamente a un'altra connessione Internet. In questo modo l'accesso a Internet rimane fluido e ininterrotto.
+    Multi-WAN e una funzione di rete che consente di configurare il router con più connessioni Internet, ad esempio cellular, repeater ed ethernet, contemporaneamente. Se la connessione Internet attuale si interrompe, il router passera automaticamente a un'altra connessione Internet. In questo modo l'accesso a Internet rimane fluido e ininterrotto.
 
     Per configurarlo, fai riferimento a [Multi-WAN](../../interface_guide/multi-wan.md).
 
@@ -173,13 +173,13 @@ Una VPN (rete privata virtuale) crea una connessione sicura e crittografata tra 
 
 === "DNS"
 
-    La pagina DNS consente di impostare server DNS personalizzati, abilitare la protezione dagli attacchi DNS rebinding e sovrascrivere le impostazioni DNS di tutti i client, consentire ai DNS personalizzati di sovrascrivere i DNS della VPN e configurare la modalita delle impostazioni del server DNS su automatica oppure specificare manualmente i server DNS dalla connessione Ethernet.
+    La pagina DNS consente di impostare server DNS personalizzati, abilitare la protezione dagli attacchi DNS rebinding e sovrascrivere le impostazioni DNS di tutti i client, consentire ai DNS personalizzati di sovrascrivere i DNS della VPN e configurare la modalità delle impostazioni del server DNS su automatica oppure specificare manualmente i server DNS dalla connessione Ethernet.
 
     Per configurarla, fai riferimento a [DNS](../../interface_guide/dns.md).
 
 === "IPv6"
 
-    IPv6, o Internet Protocol version 6, e la versione piu recente del protocollo Internet progettata per sostituire IPv4. Offre uno spazio di indirizzamento molto piu ampio, permettendo un numero virtualmente illimitato di indirizzi IP univoci, elemento essenziale per il crescente numero di dispositivi collegati a Internet.
+    IPv6, o Internet Protocol version 6, e la versione più recente del protocollo Internet progettata per sostituire IPv4. Offre uno spazio di indirizzamento molto più ampio, permettendo un numero virtualmente illimitato di indirizzi IP univoci, elemento essenziale per il crescente numero di dispositivi collegati a Internet.
 
     Per configurarlo, fai riferimento a [IPV6](../../interface_guide/ipv6.md).
 
@@ -199,7 +199,7 @@ Una VPN (rete privata virtuale) crea una connessione sicura e crittografata tra 
 
 === "Network Acceleration"
 
-    Network acceleration puo ridurre il carico della CPU e accelerare l'inoltro dei pacchetti di traffico.
+    Network acceleration può ridurre il carico della CPU e accelerare l'inoltro dei pacchetti di traffico.
 
     Per configurarla, fai riferimento a [Network Acceleration](../../interface_guide/network_acceleration.md).
 
@@ -235,7 +235,7 @@ Una VPN (rete privata virtuale) crea una connessione sicura e crittografata tra 
 
 === "Plug-ins"
 
-    Un plug-in e un componente software che aggiunge funzioni o funzionalita specifiche a un programma informatico esistente, consentendo personalizzazione e ampliamento delle sue capacita.
+    Un plug-in e un componente software che aggiunge funzioni o funzionalità specifiche a un programma informatico esistente, consentendo personalizzazione e ampliamento delle sue capacità.
 
     Per configurarli, fai riferimento a [Plug-ins](../../interface_guide/plugins.md).
 
@@ -247,7 +247,7 @@ Una VPN (rete privata virtuale) crea una connessione sicura e crittografata tra 
 
 === "Network Storage"
 
-    Network storage indica una soluzione centralizzata di archiviazione dati che consente a piu utenti e dispositivi di accedere e condividere file tramite una rete.
+    Network storage indica una soluzione centralizzata di archiviazione dati che consente a più utenti e dispositivi di accedere e condividere file tramite una rete.
 
     Per configurarlo, fai riferimento a [Network Storage](../../interface_guide/network_storage.md).
 
@@ -286,7 +286,7 @@ Una VPN (rete privata virtuale) crea una connessione sicura e crittografata tra 
 
 === "Upgrade"
 
-    La pagina Upgrade viene usata per aggiornare il firmware del router alla versione piu recente, garantendo prestazioni migliori, maggiore sicurezza e nuove funzioni. Questa pagina offre due opzioni di aggiornamento:
+    La pagina Upgrade viene usata per aggiornare il firmware del router alla versione più recente, garantendo prestazioni migliori, maggiore sicurezza e nuove funzioni. Questa pagina offre due opzioni di aggiornamento:
 
     * Firmware Online Upgrade: verifica automaticamente sul server del produttore la disponibilità della versione firmware più recente. Se disponibile online, è possibile installarla.
     * Firmware Local Upgrade: consente di caricare manualmente un file firmware dal computer per aggiornare il router, offrendo controllo sulla versione e sul momento dell'aggiornamento.
@@ -302,8 +302,8 @@ Una VPN (rete privata virtuale) crea una connessione sicura e crittografata tra 
     La pagina Scheduled Tasks consente di automatizzare diverse funzioni del router in base a una pianificazione predefinita, migliorando praticita ed efficienza. Le funzioni principali di questa pagina includono:
 
     * LED Control: attiva o disattiva i LED del router, personalizzando gli indicatori visivi del dispositivo.
-    * Schedule Reboot: configura il riavvio automatico del router a intervalli specifici per mantenere prestazioni e stabilita ottimali.
-    * Wi-Fi Status Schedule: imposta una pianificazione per controllare la banda Wi-Fi a 5 GHz / 2,4 GHz , gestendo meglio disponibilita della rete e consumo energetico.
+    * Schedule Reboot: configura il riavvio automatico del router a intervalli specifici per mantenere prestazioni e stabilità ottimali.
+    * Wi-Fi Status Schedule: imposta una pianificazione per controllare la banda Wi-Fi a 5 GHz / 2,4 GHz , gestendo meglio disponibilità della rete e consumo energetico.
 
     Queste opzioni di pianificazione offrono maggiore controllo sul funzionamento del router, garantendo che soddisfi esigenze e preferenze specifiche.
 
@@ -311,13 +311,13 @@ Una VPN (rete privata virtuale) crea una connessione sicura e crittografata tra 
 
 === "Time Zone"
 
-    La pagina Time Zone consente di impostare il fuso orario corretto per il router, assicurando che tutte le attivita pianificate, i log e gli eventi di sistema riportino timestamp accurati in base all'ora locale. Questa impostazione e essenziale per mantenere registrazioni precise e per la corretta esecuzione delle configurazioni basate sull'orario.
+    La pagina Time Zone consente di impostare il fuso orario corretto per il router, assicurando che tutte le attività pianificate, i log e gli eventi di sistema riportino timestamp accurati in base all'ora locale. Questa impostazione e essenziale per mantenere registrazioni precise e per la corretta esecuzione delle configurazioni basate sull'orario.
 
     Per istruzioni dettagliate, fai riferimento a [Time Zone](../../interface_guide/time_zone.md).
 
 === "Toggle Button Settings"
 
-    La pagina Toggle Button Settings consente di configurare il pulsante fisico del router, permettendo di assegnargli funzioni specifiche per un accesso e un controllo rapidi. Questa funzione offre scorciatoie pratiche per attivita e impostazioni comuni, migliorando l'esperienza d'uso e semplificando la gestione del router.
+    La pagina Toggle Button Settings consente di configurare il pulsante fisico del router, permettendo di assegnargli funzioni specifiche per un accesso e un controllo rapidi. Questa funzione offre scorciatoie pratiche per attività e impostazioni comuni, migliorando l'esperienza d'uso e semplificando la gestione del router.
 
     Per istruzioni dettagliate, fai riferimento a [Toggle Button Settings](../../interface_guide/toggle_button_settings.md).
 
@@ -325,18 +325,18 @@ Una VPN (rete privata virtuale) crea una connessione sicura e crittografata tra 
 
 === "Reset Firmware"
 
-    La pagina Reset Firmware consente di ripristinare le impostazioni predefinite della versione firmware attualmente installata sul router, cancellando tutte le configurazioni personalizzate. Questo processo riporta il router alle impostazioni di default della versione firmware corrente. Puo essere utile per risolvere problemi persistenti o per ricominciare da zero con la configurazione predefinita del firmware attuale.
+    La pagina Reset Firmware consente di ripristinare le impostazioni predefinite della versione firmware attualmente installata sul router, cancellando tutte le configurazioni personalizzate. Questo processo riporta il router alle impostazioni di default della versione firmware corrente. Può essere utile per risolvere problemi persistenti o per ricominciare da zero con la configurazione predefinita del firmware attuale.
 
     Per istruzioni dettagliate, fai riferimento a [Reset Firmware](../../interface_guide/reset_firmware.md).
 
 === "Log"
 
-    La pagina Log offre accesso a vari registri che memorizzano attivita ed eventi del router, aiutando nella risoluzione dei problemi e nel monitoraggio delle prestazioni. Questa pagina include:
+    La pagina Log offre accesso a vari registri che memorizzano attività ed eventi del router, aiutando nella risoluzione dei problemi e nel monitoraggio delle prestazioni. Questa pagina include:
 
-    * System Log: log dettagliati relativi a eventi e attivita a livello di sistema.
+    * System Log: log dettagliati relativi a eventi e attività a livello di sistema.
     * Kernel Log: log relativi alle operazioni e agli eventi del kernel.
     * Crash Log: registrazioni di arresti anomali ed errori di sistema, utili per diagnosticare problemi critici.
-    * Cloud Log: log delle interazioni e delle attivita legate ai servizi GoodCloud integrati nel router.
+    * Cloud Log: log delle interazioni e delle attività legate ai servizi GoodCloud integrati nel router.
     * Nginx Log: log del server web Nginx, se usato dal router, che riportano traffico web e operazioni del server.
 
     Inoltre, la pagina include il pulsante Export Log, che consente di esportare tutti i log raccolti per l'analisi da parte del supporto tecnico. Questa funzione e molto utile per diagnosticare problemi complessi e ottenere assistenza professionale.

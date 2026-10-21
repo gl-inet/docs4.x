@@ -146,7 +146,7 @@ Regardez cette vidéo pour vous connecter à votre routeur via Bitvise.
 
     ![Setup Putty 3](https://static.gl-inet.com/docs/router/en/4/tutorials/ssh_log_in_to_the_router/setup_putty_3.png){class="glboxshadow"}
 
-    login as: `root`
+    `login as:` `root`
 
     Saisissez ensuite votre mot de passe administrateur. **Pour des raisons de sécurité, le mot de passe ne s’affiche pas à l’écran**.
 

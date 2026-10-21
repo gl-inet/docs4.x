@@ -17,7 +17,7 @@ Beryl (GL-MT1300) は、パワフルなハードウェアと優れたサイバ�
 - 1 x Ethernet ケーブル
 - 1 x サンキューカード
 - 1 x 保証書
-- 1 x 電源アダプター (選択されたプラグタイプ)
+- 1 x 電源アダプター（選択されたプラグタイプ）
 
 ![gl-mt1300 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt1300/first_time_setup/mt1300_unboxing.jpg){class="glboxshadow"}
 
@@ -71,7 +71,7 @@ USB ケーブルを使用して、ルーターの USB ポートをモバイル�
 
 ### Multi-WAN {#multi-wan}
 
-Multi-WAN は、複数のインターネット接続 (例: Ethernet、Repeater) を同時にルーターに設定できるネットワーク機能です。最優先のインターネット接続に障害が発生した場合、ルーターは自動的に別のインターネット接続へ切り替えます。これはフェイルオーバーとも呼ばれ、安定した中断の少ないインターネット接続を維持します。
+Multi-WAN は、複数のインターネット接続（例: Ethernet、Repeater）を同時にルーターに設定できるネットワーク機能です。最優先のインターネット接続に障害が発生した場合、ルーターは自動的に別のインターネット接続へ切り替えます。これはフェイルオーバーとも呼ばれ、安定した中断の少ないインターネット接続を維持します。
 
 各インターネット接続の優先順位は、[Multi-WAN](../../interface_guide/multi-wan.md) で設定します。
 

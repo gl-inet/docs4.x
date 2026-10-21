@@ -2,7 +2,7 @@
 
 ## Informazioni hardware {#hardware-info}
 
-GL-M2 e una scheda di sviluppo 5G per appassionati di fai-da-te che desiderano costruire il proprio router o modem. Grazie al modulo 5G di GL-M2 e alle antenne 5G, offre una rete cellulare 5G di alta qualita.
+GL-M2 e una scheda di sviluppo 5G per appassionati di fai-da-te che desiderano costruire il proprio router o modem. Grazie al modulo 5G di GL-M2 e alle antenne 5G, offre una rete cellulare 5G di alta qualità.
 
 ![gl-2 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-m2/hardware_info/gl-m2_interface.jpg){class="glboxshadow"}
 
@@ -66,7 +66,7 @@ GL-M2, con modulo 5G RM520N-GL installato, e compatibile con i seguenti modelli:
 - Slate AX (GL-AXT1800)
 - Brume 2 (GL-MT2500)
 
-**Nota**: l'elenco sopra e stato verificato con il modulo 5G **RM520N-GL**. La compatibilita con altri moduli non e garantita.
+**Nota**: l'elenco sopra e stato verificato con il modulo 5G **RM520N-GL**. La compatibilità con altri moduli non e garantita.
 
 Segui i passaggi riportati di seguito per collegare M2 al tuo router GL.iNet.
 

@@ -17,7 +17,7 @@ Convexa-B (GL-B1300) は、商用および家庭ユーザーのワイヤレス�
 - 1 x イーサネットケーブル
 - 1 x サンキューカード
 - 1 x 保証書
-- 1 x 電源アダプター (選択されたプラグタイプ)
+- 1 x 電源アダプター（選択されたプラグタイプ）
 
 ![gl-b1300 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-b1300/first_time_setup/b1300_unboxing.jpg){class="glboxshadow"}
 

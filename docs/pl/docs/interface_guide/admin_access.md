@@ -44,7 +44,7 @@ Pomaga zapobiegać skanowaniu i próbom włamania na domyślny port oraz unikać
 
 ### Niedozwolone porty {#prohibited-port}
 
-Jeśli przypiszesz numer portu, który koliduje z portem zarezerwowanym (lub z portem zarezerwowanym dla określonych usług przez przeglądarki albo konwencje sieciowe), pojawi się komunikat „This port is forbidden by the browser”.
+Jeśli przypiszesz numer portu, który koliduje z portem zarezerwowanym (lub z portem zarezerwowanym dla określonych usług przez przeglądarki albo konwencje sieciowe), pojawi się komunikat "This port is forbidden by the browser".
 
 ![http_https_port_forbidden](https://static.gl-inet.com/docs/router/en/4/interface_guide/admin_access/http_https_port_forbidden.png){class="glboxshadow"}
 

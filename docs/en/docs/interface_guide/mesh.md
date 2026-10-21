@@ -2,13 +2,15 @@
 
 **Note**: This feature was introduced in firmware v4.10.
 
-Mango 2 (GL-MG1300) and Mudi 7 (GL-E5800) do not support Mesh even with firmware v4.10 or later. Please refer to [Supported Models](#supported-models) for details.
+Mango 2 (GL-MG1300) and Mudi 7 (GL-E5800) do not support Mesh even with firmware v4.10 or later. See [Supported Models](#supported-models) for details.
 
 ---
 
 On the left side of the web Admin Panel, go to **MESH**.
 
 Mesh is a feature based on the Wi-Fi EasyMesh™ standard that extends whole-home Wi‑Fi coverage and enables seamless roaming. If you have multiple GL.iNet routers, set one as the main router and the rest as mesh nodes for seamless Wi-Fi roaming around your home.
+
+Not sure which mode to choose? See [Mesh vs. Expander vs. Access Point Mode](#mesh-vs-extender-vs-access-point-mode).
 
 ## Supported Models
 

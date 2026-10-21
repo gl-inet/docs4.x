@@ -346,9 +346,15 @@ extra:
     - name: Italiano
       link: /router/it/4/
       lang: it
+    - name: Nederlands
+      link: /router/nl/4/
+      lang: nl
     - name: Polski
       link: /router/pl/4/
       lang: pl
+    - name: Svenska
+      link: /router/sv/4/
+      lang: sv
     - name: Українська
       link: /router/uk/4/
       lang: uk

@@ -347,9 +347,15 @@ extra:
     - name: 日本語
       link: /router/ja/4/
       lang: ja
+    - name: Nederlands
+      link: /router/nl/4/
+      lang: nl
     - name: Polski
       link: /router/pl/4/
       lang: pl
+    - name: Svenska
+      link: /router/sv/4/
+      lang: sv
     - name: Українська
       link: /router/uk/4/
       lang: uk

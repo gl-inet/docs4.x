@@ -51,6 +51,7 @@ from anchors import (
     Page,
     front_matter_end,
     load_lang,
+    load_page,
     resolve_target,
     translated_headings,
 )
@@ -433,6 +434,35 @@ def check_files(lang: str, pages: dict[str, Page], en_pages: dict[str, Page], is
 # --------------------------------------------------------------------------
 
 
+def split_allowed(issues: list[Issue], allowlist: list[AllowEntry]) -> tuple[list[Issue], list[tuple[Issue, AllowEntry]]]:
+    errors, allowed = [], []
+    for issue in issues:
+        entry = next((e for e in allowlist if e.matches(issue)), None)
+        if entry:
+            entry.used = True
+            allowed.append((issue, entry))
+        else:
+            errors.append(issue)
+    return errors, allowed
+
+
+def check_page(lang: str, rel: str) -> list[Issue]:
+    """Return the errors of one localized page (used by translation_delta.py mark)."""
+    path = DOCS_ROOT / lang / "docs" / rel
+    if not path.exists():
+        return [Issue(lang, rel, "missing-page", "English page has no translation")]
+    issues: list[Issue] = []
+    check_structure(lang, load_page(lang, path), load_page(SOURCE_LANG, DOCS_ROOT / SOURCE_LANG / "docs" / rel), issues)
+    return split_allowed(issues, load_allowlist(ALLOWLIST_PATH))[0]
+
+
+def check_language_files(lang: str) -> list[Issue]:
+    """Return the file and redirect errors of one language (used by translation_delta.py mark)."""
+    issues: list[Issue] = []
+    check_files(lang, load_lang(lang), load_lang(SOURCE_LANG), issues)
+    return split_allowed(issues, load_allowlist(ALLOWLIST_PATH))[0]
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--lang", nargs="+", default=list(LANGS), choices=LANGS)
@@ -457,14 +487,7 @@ def main(argv: list[str] | None = None) -> int:
                 continue
             check_structure(lang, page, en_pages[rel], issues)
 
-    errors, allowed = [], []
-    for issue in issues:
-        entry = next((e for e in allowlist if e.matches(issue)), None)
-        if entry:
-            entry.used = True
-            allowed.append((issue, entry))
-        else:
-            errors.append(issue)
+    errors, allowed = split_allowed(issues, allowlist)
 
     if args.show_allowed:
         for issue, entry in allowed:

@@ -70,15 +70,16 @@ LINK_RES = (
     re.compile(r"<a\b[^>]*?\bhref=\"([^\"]+)\""),
 )
 ADMONITION_RE = re.compile(r"^[ \t]*(!!!|\?\?\?\+?|===\+?)[ \t]*(\S*)")
-TABLE_SEPARATOR_RE = re.compile(r"^\|?[ \t]*:?-{3,}:?[ \t]*(\|[ \t]*:?-{3,}:?[ \t]*)*\|?$")
+TABLE_SEPARATOR_RE = re.compile(r"^\|?[ \t]*:?-+:?[ \t]*(\|[ \t]*:?-+:?[ \t]*)*\|?$")
 HTML_ROW_RE = re.compile(r"<tr\b", re.I)
-# ASCII boundaries, because Japanese text has no spaces around numbers.
+# ASCII boundaries, because Japanese text has no spaces around numbers;
+# "ver.4.8.4" still counts.
 # Decimal numbers like 2.4 GHz are written 2,4 in several languages, so only
 # values that never change in translation are compared.
 VALUE_RES = (
-    re.compile(r"(?<![A-Za-z0-9_.])\d{1,3}(?:\.\d{1,3}){3}(?:/\d{1,2})?(?::\d+)?(?![A-Za-z0-9_]|\.[A-Za-z0-9])"),
-    re.compile(r"(?<![A-Za-z0-9_.])[vV]?\d+\.\d+\.\d+(?:\.\d+)?(?![A-Za-z0-9_]|\.[A-Za-z0-9])"),
-    re.compile(r"(?<![A-Za-z0-9_.])[vV]\d+\.\d+(?:\.[xX\d]+)?(?![A-Za-z0-9_]|\.[A-Za-z0-9])"),
+    re.compile(r"(?<![A-Za-z0-9_])(?<!\d\.)\d{1,3}(?:\.\d{1,3}){3}(?:/\d{1,2})?(?::\d+)?(?![A-Za-z0-9_]|\.[A-Za-z0-9])"),
+    re.compile(r"(?<![A-Za-z0-9_])(?<!\d\.)[vV]?\d+\.\d+\.\d+(?:\.\d+)?(?![A-Za-z0-9_]|\.[A-Za-z0-9])"),
+    re.compile(r"(?<![A-Za-z0-9_])(?<!\d\.)[vV]\d+\.\d+(?:\.[xX\d]+)?(?![A-Za-z0-9_]|\.[A-Za-z0-9])"),
 )
 # Full-line comments in code blocks may be translated.
 COMMENT_RE = re.compile(r"^\s*(#|//)(?!!)")
@@ -376,7 +377,7 @@ def check_structure(lang: str, page: Page, en_page: Page, issues: list[Issue]) -
 
 
 def mentions(section: Section, value: str) -> bool:
-    pattern = re.compile(r"(?<![A-Za-z0-9_.])[vV]?" + re.escape(value) + r"(?![A-Za-z0-9_]|\.[A-Za-z0-9])")
+    pattern = re.compile(r"(?<![A-Za-z0-9_])(?<!\d\.)[vV]?" + re.escape(value) + r"(?![A-Za-z0-9_]|\.[A-Za-z0-9])")
     return any(pattern.search(line) for line in section.prose)
 
 

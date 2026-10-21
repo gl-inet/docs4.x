@@ -22,7 +22,7 @@
 
 Prenons comme exemple la mise à niveau du module RM520N.
 
-1. Connectez-vous à votre routeur en SSH. Veuillez consulter [ce lien](https://docs.gl-inet.com/router/en/4/tutorials/ssh_log_in_to_the_router/).
+1. Connectez-vous à votre routeur en SSH. Veuillez consulter [ce lien](ssh_log_in_to_the_router.md).
 
 2. Saisissez la commande ci-dessous pour télécharger le firmware de module.
 
@@ -70,7 +70,7 @@ Prenons comme exemple la mise à niveau du module EM060K.
 
 1. Préparez une clé USB. Téléchargez le firmware de module correspondant sur la clé USB depuis le bas de ce tutoriel, puis décompressez le fichier .zip et placez-le dans le répertoire racine de la clé USB.
 
-2. Branchez la clé USB sur votre routeur. Consultez ensuite [ce lien](https://docs.gl-inet.com/router/en/4/tutorials/ssh_log_in_to_the_router/) pour vous connecter à votre routeur en SSH.
+2. Branchez la clé USB sur votre routeur. Consultez ensuite [ce lien](ssh_log_in_to_the_router.md) pour vous connecter à votre routeur en SSH.
 
 3. Saisissez la commande `df -h` pour vérifier le chemin de montage de la clé USB, puis notez ce chemin.
 

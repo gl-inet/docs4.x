@@ -2,7 +2,7 @@
 
 **WinSCP** を使うと、**GL-Routers** のファイル共有機能で共有ファイルにアクセスできます。
 
-ネットワークストレージのタブで **WebDAV** リンクを設定してください。設定の詳細については、[WebDAV](https://docs.gl-inet.com/router/en/4/interface_guide/network_storage/#set-up-webdav) のセットアップを参照してください。
+ネットワークストレージのタブで **WebDAV** リンクを設定してください。設定の詳細については、[WebDAV](../interface_guide/network_storage.md#set-up-webdav) のセットアップを参照してください。
 
 ## WinSCPでリンクを設定する {#setup-links-in-winscp}
 

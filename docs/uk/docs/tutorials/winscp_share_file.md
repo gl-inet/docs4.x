@@ -2,7 +2,7 @@
 
 За допомогою **WinSCP** можна отримати доступ до спільних файлів через функцію спільного доступу до файлів на **GL-Routers**.
 
-Налаштуйте посилання **WebDAV** у розділі мережевого сховища. Докладніше див. [інструкцію з налаштування WebDAV](https://docs.gl-inet.com/router/en/4/interface_guide/network_storage/#set-up-webdav).
+Налаштуйте посилання **WebDAV** у розділі мережевого сховища. Докладніше див. [інструкцію з налаштування WebDAV](../interface_guide/network_storage.md#set-up-webdav).
 
 ## Налаштування посилань у WinSCP {#setup-links-in-winscp}
 

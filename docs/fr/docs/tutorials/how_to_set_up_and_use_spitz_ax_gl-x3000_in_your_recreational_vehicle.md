@@ -71,7 +71,7 @@ Pour saisir votre APN, suivez ces étapes :
 3. À côté de **APN**, saisissez l’APN.
 4. Cliquez sur **Apply**.
 
-Si vous utilisez deux cartes SIM, notez qu’une seule carte SIM fonctionne à la fois. Vous pouvez sélectionner manuellement la carte SIM à utiliser à chaque fois. Vous pouvez également activer la [fonction Auto Switch](https://docs.gl-inet.com/router/en/4/interface_guide/internet_cellular/#setup-for-dual-sim-models). Si le routeur détecte que l’une des cartes SIM ne peut pas accéder correctement à Internet, il basculera automatiquement vers l’autre carte SIM. La commutation prend environ 1 minute.
+Si vous utilisez deux cartes SIM, notez qu’une seule carte SIM fonctionne à la fois. Vous pouvez sélectionner manuellement la carte SIM à utiliser à chaque fois. Vous pouvez également activer la [fonction Auto Switch](../interface_guide/internet_cellular.md#setup-for-dual-sim-models). Si le routeur détecte que l’une des cartes SIM ne peut pas accéder correctement à Internet, il basculera automatiquement vers l’autre carte SIM. La commutation prend environ 1 minute.
 
 ---
 
@@ -87,7 +87,7 @@ Lorsque vous roulez, vous devriez pouvoir vous connecter à Internet via la ou l
 
 ![campground](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/rv-connectivity_scene_repeater.png){class="glboxshadow"}
 
-Si vous faites une halte dans un camping pendant votre voyage, vous pouvez utiliser le réseau Wi-Fi public fourni sur place afin d’économiser vos données cellulaires. [Découvrez comment vous connecter à un réseau Wi-Fi existant.](https://docs.gl-inet.com/router/en/4/interface_guide/internet_repeater/)
+Si vous faites une halte dans un camping pendant votre voyage, vous pouvez utiliser le réseau Wi-Fi public fourni sur place afin d’économiser vos données cellulaires. [Découvrez comment vous connecter à un réseau Wi-Fi existant.](../interface_guide/internet_repeater.md)
 
 Après vous être connecté une première fois au réseau Wi-Fi, Spitz AX peut mémoriser le nom du réseau et le mot de passe. Il se reconnectera automatiquement au réseau la prochaine fois que vous serez à proximité.
 
@@ -109,7 +109,7 @@ Spitz AX prend en charge le multi-WAN (basculement et équilibrage de charge). V
 | Au camping (connecté à son réseau Wi-Fi via le mode répéteur)    | <p>Attribuez une priorité plus élevée au répéteur qu’au réseau cellulaire.</p> <p>Dès que vous quittez le camping, votre routeur basculera automatiquement vers le réseau cellulaire.</p>|
 | Starlink (Ethernet) + réseau cellulaire | Attribuez une priorité plus élevée au réseau cellulaire qu’à Ethernet. <p>Dans les zones avec couverture cellulaire, votre routeur utilisera votre réseau cellulaire.</p> <p>Lorsque vous arrivez dans des zones sans couverture cellulaire, votre routeur basculera automatiquement vers Starlink via Ethernet.</p>|
 
-Pour configurer le basculement, consultez la section [Failover](https://docs.gl-inet.com/router/en/4/interface_guide/multi-wan/).
+Pour configurer le basculement, consultez la section [Failover](../interface_guide/multi-wan.md).
 
 ---
 

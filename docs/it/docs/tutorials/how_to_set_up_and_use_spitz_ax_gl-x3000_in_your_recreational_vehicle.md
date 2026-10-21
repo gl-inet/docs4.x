@@ -71,7 +71,7 @@ Per inserire il tuo APN, segui questi passaggi:
 3. Accanto a **APN**, inserisci l'APN.
 4. Fai clic su **Apply**.
 
-Se usi due SIM card, tieni presente che solo una SIM funziona alla volta. Puoi selezionare manualmente quale SIM usare ogni volta. In alternativa, abilita la [funzione Auto Switch](https://docs.gl-inet.com/router/en/4/interface_guide/internet_cellular/#setup-for-dual-sim-models). Se il router rileva che una delle SIM non riesce ad accedere correttamente a Internet, passerà automaticamente all'altra SIM. Il passaggio richiede circa 1 minuto.
+Se usi due SIM card, tieni presente che solo una SIM funziona alla volta. Puoi selezionare manualmente quale SIM usare ogni volta. In alternativa, abilita la [funzione Auto Switch](../interface_guide/internet_cellular.md#setup-for-dual-sim-models). Se il router rileva che una delle SIM non riesce ad accedere correttamente a Internet, passerà automaticamente all'altra SIM. Il passaggio richiede circa 1 minuto.
 
 ---
 
@@ -87,7 +87,7 @@ Quando stai guidando, dovresti poterti collegare a Internet tramite la SIM card 
 
 ![campground](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/rv-connectivity_scene_repeater.png){class="glboxshadow"}
 
-Se durante il viaggio ti fermi in un campeggio, puoi usare la rete Wi-Fi pubblica fornita dal sito e risparmiare i tuoi dati cellulari. [Scopri come collegarti a una rete Wi-Fi esistente.](https://docs.gl-inet.com/router/en/4/interface_guide/internet_repeater/)
+Se durante il viaggio ti fermi in un campeggio, puoi usare la rete Wi-Fi pubblica fornita dal sito e risparmiare i tuoi dati cellulari. [Scopri come collegarti a una rete Wi-Fi esistente.](../interface_guide/internet_repeater.md)
 
 Dopo esserti collegato una volta alla rete Wi-Fi, Spitz AX può ricordarne nome e password. Si collegherà automaticamente alla rete la prossima volta che sarai nelle vicinanze.
 
@@ -110,7 +110,7 @@ Spitz AX supporta multi-WAN, failover e load balancing. Puoi impostare priorità
 | In campeggio, connesso alla rete Wi-Fi del campeggio tramite repeater | <p>Assegna al repeater una priorità superiore rispetto alla rete cellulare.</p> <p>Non appena lascerai il campeggio, il router passerà automaticamente alla rete cellulare.</p> |
 | Starlink, ethernet + rete cellulare | Assegna alla rete cellulare una priorità superiore rispetto a ethernet. <p>Nelle aree con copertura cellulare, il router userà la rete cellulare.</p> <p>Quando arriverai in aree senza copertura cellulare, il router passerà automaticamente a Starlink tramite ethernet.</p> |
 
-Per configurare il failover, leggi la sezione [Failover](https://docs.gl-inet.com/router/en/4/interface_guide/multi-wan/).
+Per configurare il failover, leggi la sezione [Failover](../interface_guide/multi-wan.md).
 
 ---
 

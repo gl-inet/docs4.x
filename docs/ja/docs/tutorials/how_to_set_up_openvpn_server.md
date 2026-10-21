@@ -6,11 +6,11 @@
 
     **パブリックIPアドレス**
 
-    OpenVPNサーバーを設定するには、パブリックIPアドレスが必要です。所有しているか確認するには、[こちらのリンク](https://docs.gl-inet.com/router/en/4/tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address/)を参照してください。
+    OpenVPNサーバーを設定するには、パブリックIPアドレスが必要です。所有しているか確認するには、[こちらのリンク](how_to_check_if_isp_assigns_you_a_public_ip_address.md)を参照してください。
 
     **ポートフォワーディング**
 
-    GL.iNetルーターが上位ルーターの配下に接続されている場合は、[上位ルーターでポートフォワーディングを設定](https://docs.gl-inet.com/router/en/4/tutorials/how_to_set_up_port_forwarding/)してください。
+    GL.iNetルーターが上位ルーターの配下に接続されている場合は、[上位ルーターでポートフォワーディングを設定](how_to_set_up_port_forwarding.md)してください。
 
 ## 1. ルーターにログインする {#1-log-in-to-your-router}
 

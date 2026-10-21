@@ -22,7 +22,7 @@
 
 Take the upgrade of the RM520N module as an example.
 
-1. SSH log in to your router. Please refer to [this link](https://docs.gl-inet.com/router/en/4/tutorials/ssh_log_in_to_the_router/).
+1. SSH log in to your router. Please refer to [this link](ssh_log_in_to_the_router.md).
 
 2. Enter the command below to download the module firmware.
 
@@ -70,7 +70,7 @@ Take the upgrade of the EM060K module as an example.
 
 1. Prepare a USB flash drive. Download the corresponding module firmware to the USB flash drive from the bottom of this tutorial, then decompress the. zip file and place it in the root directory of the USB drive.
 
-2. Plug the USB flash drive into your router. Then refer to [this link](https://docs.gl-inet.com/router/en/4/tutorials/ssh_log_in_to_the_router/) to SSH log in to your router.
+2. Plug the USB flash drive into your router. Then refer to [this link](ssh_log_in_to_the_router.md) to SSH log in to your router.
 
 3. Enter the command `df -h` to check the USB drive mounting path, and record the path.
 

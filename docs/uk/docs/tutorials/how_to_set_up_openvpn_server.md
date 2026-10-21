@@ -6,11 +6,11 @@
 
     **Публічна IP-адреса**
 
-    Для налаштування сервера OpenVPN потрібна публічна IP-адреса. Перевірте її наявність за [цією інструкцією](https://docs.gl-inet.com/router/en/4/tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address/).
+    Для налаштування сервера OpenVPN потрібна публічна IP-адреса. Перевірте її наявність за [цією інструкцією](how_to_check_if_isp_assigns_you_a_public_ip_address.md).
 
     **Перенаправлення портів**
 
-    Якщо GL.iNet підключено за основним маршрутизатором, [налаштуйте перенаправлення портів на основному маршрутизаторі](https://docs.gl-inet.com/router/en/4/tutorials/how_to_set_up_port_forwarding/).
+    Якщо GL.iNet підключено за основним маршрутизатором, [налаштуйте перенаправлення портів на основному маршрутизаторі](how_to_set_up_port_forwarding.md).
 
 ## 1. Увійдіть у маршрутизатор {#1-log-in-to-your-router}
 

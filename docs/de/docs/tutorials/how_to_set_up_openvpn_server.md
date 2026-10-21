@@ -6,11 +6,11 @@ In diesem Tutorial erfahren Sie, wie Sie einen OpenVPN-Server auf GL.iNet-Router
     
     **Öffentliche IP-Adresse**
 
-    Zum Einrichten eines OpenVPN-Servers ist eine öffentliche IP-Adresse erforderlich. Unter [diesem Link](https://docs.gl-inet.com/router/en/4/tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address/) erfahren Sie, wie Sie prüfen können, ob Sie eine besitzen.
+    Zum Einrichten eines OpenVPN-Servers ist eine öffentliche IP-Adresse erforderlich. Unter [diesem Link](how_to_check_if_isp_assigns_you_a_public_ip_address.md) erfahren Sie, wie Sie prüfen können, ob Sie eine besitzen.
 
     **Portweiterleitung**
 
-    Wenn Ihr GL.iNet-Router hinter einem primären Router verbunden ist, [richten Sie auf dem primären Router eine Portweiterleitung ein](https://docs.gl-inet.com/router/en/4/tutorials/how_to_set_up_port_forwarding/).
+    Wenn Ihr GL.iNet-Router hinter einem primären Router verbunden ist, [richten Sie auf dem primären Router eine Portweiterleitung ein](how_to_set_up_port_forwarding.md).
 
 ## 1. Am Router anmelden {#1-log-in-to-your-router}
 

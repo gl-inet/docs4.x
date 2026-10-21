@@ -106,7 +106,7 @@ GL.iNet ルーター上の WireGuard サーバーが正常に動作しない場�
 
     **可能な原因2: パブリックIPアドレスを持っていない可能性がある**
 
-    持っているかどうかを確認するには、[このページ](https://docs.gl-inet.com/router/en/4/tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address/)に従ってください。
+    持っているかどうかを確認するには、[このページ](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md)に従ってください。
 
     **可能な原因3: WireGuardサーバーとWireGuardクライアントの両方がGL.iNetルーターに設定されている場合、LAN IPアドレスが競合している**
 
@@ -148,7 +148,7 @@ GL.iNet ルーター上の WireGuard サーバーが正常に動作しない場�
 
     **可能な原因1: WireGuardサーバーを設置した場所で電源障害が発生している可能性があります**
 
-    状況1の解決手順に従うか、[GoodCloud](https://docs.gl-inet.com/router/en/4/interface_guide/cloud/)（以前ルーターを接続していた場合）を通じてWireGuardサーバーがまだオンラインかどうかを確認します。
+    状況1の解決手順に従うか、[GoodCloud](../interface_guide/cloud.md)（以前ルーターを接続していた場合）を通じてWireGuardサーバーがまだオンラインかどうかを確認します。
 
     **可能な原因2: ダイナミックDNS（DDNS）を有効にしなかった**
 
@@ -156,7 +156,7 @@ GL.iNet ルーター上の WireGuard サーバーが正常に動作しない場�
 
     **可能な原因3: ポート転送が不明な理由で動作しなくなった**
 
-    [別のポートでポート転送を再度設定](https://docs.gl-inet.com/router/en/4/tutorials/how_to_set_up_port_forwarding/)してください。
+    [別のポートでポート転送を再度設定](../tutorials/how_to_set_up_port_forwarding.md)してください。
 
 ---
 

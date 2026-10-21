@@ -10,7 +10,7 @@ Connect a laptop to the router's Wi-Fi (find the SSID and password on the device
 
 ## 2. SSH log in to your router {#2-ssh-log-in-to-your-router}
 
-Please refer to [this link](https://docs.gl-inet.com/router/en/4/tutorials/ssh_log_in_to_the_router/).
+Please refer to [this link](ssh_log_in_to_the_router.md).
 
 ## 3. Get modem logs {#3-get-modem-logs}
 

@@ -30,9 +30,9 @@ ChromeまたはMicrosoft Edgeでアップグレードしてみてください。
 
 !!! Note "注意"
 
-    U-Bootブートローダーをアップグレードする方法については、[こちら](https://docs.gl-inet.com/router/en/4/faq/upgrade_uboot_version/){target="_blank"}をご覧ください。
+    U-Bootブートローダーをアップグレードする方法については、[こちら](upgrade_uboot_version.md)をご覧ください。
 
-    ファームウェアをアップグレードする方法については、[こちら](https://docs.gl-inet.com/router/en/4/tutorials/how_to_upgrade_downgrade_router/){target="_blank"}をご覧ください。
+    ファームウェアをアップグレードする方法については、[こちら](../tutorials/how_to_upgrade_downgrade_router.md)をご覧ください。
 
 <br>
 ご不便をおかけしましたこと、心よりお詫び申し上げます。これからは、製品とファームウェアをさらに注意深く向上させることに尽力してまいります。

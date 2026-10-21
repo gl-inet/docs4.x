@@ -153,7 +153,7 @@ Mudi 7 に Nano-SIM カードを挿入します。eSIM を使用する場合は�
     2. モバイルデバイスでSettingsを開き、**USB Tethering**を有効にします。iPhoneを使用する場合は、表示される場合は「Trust This Device」をタップします。
     3. タッチスクリーンにUSBモードの選択が表示されたら、**Host (USB OTG) mode** を選択します。Mudi 7はデバイスに自動的に接続します。接続しない場合は、上記の手順を繰り返すか、Web管理パネルにログインし、INTERNETページでTethering接続を確認してください。
 
-        USBモードの違いについては、[こちら](https://docs.gl-inet.com/router/en/4/tutorials/what_is_usb-c_otg_and_how_to_share_your_network_via_usb-c_otg)を参照してください。
+        USBモードの違いについては、[こちら](../../tutorials/what_is_usb-c_otg_and_how_to_share_your_network_via_usb-c_otg.md)を参照してください。
     4. インターネットに正常に接続されると、タッチスクリーンの右上にチェーンリンクアイコンが表示されます。Web管理パネルで接続の詳細を確認することもできます。
 
     詳細な手順については、[USBテザリングでインターネットに接続する](../../interface_guide/internet_tethering.md)を参照してください。

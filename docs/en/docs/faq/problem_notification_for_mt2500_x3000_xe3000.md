@@ -30,9 +30,9 @@ Please try upgrading with Chrome or Microsoft Edge. DO NOT use Mozilla/Firefox.
 
 !!! Note
 
-    For the methods to upgrade the U-Boot bootloader, you can refer to [this link](https://docs.gl-inet.com/router/en/4/faq/upgrade_uboot_version/){target="_blank"}.
+    For the methods to upgrade the U-Boot bootloader, you can refer to [this link](upgrade_uboot_version.md).
 
-    For the methods to upgrade the firmware, you can refer to [this link](https://docs.gl-inet.com/router/en/4/tutorials/how_to_upgrade_downgrade_router/){target="_blank"}.
+    For the methods to upgrade the firmware, you can refer to [this link](../tutorials/how_to_upgrade_downgrade_router.md).
 
 <br>
 We sincerely apologize for any inconvenience this may have caused. Moving forward, we are committed to enhancing our products and firmware with greater diligence and care.

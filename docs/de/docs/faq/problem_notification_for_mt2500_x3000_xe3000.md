@@ -30,9 +30,9 @@ Bitte führen Sie das Upgrade mit Chrome oder Microsoft Edge durch. Verwenden Si
 
 !!! Note
 
-    Informationen zu den Methoden zum Upgrade des U-Boot-Bootloaders finden Sie unter [diesem Link](https://docs.gl-inet.com/router/en/4/faq/upgrade_uboot_version/){target="_blank"}.
+    Informationen zu den Methoden zum Upgrade des U-Boot-Bootloaders finden Sie unter [diesem Link](upgrade_uboot_version.md).
 
-    Informationen zu den Methoden zum Firmware-Upgrade finden Sie unter [diesem Link](https://docs.gl-inet.com/router/en/4/tutorials/how_to_upgrade_downgrade_router/){target="_blank"}.
+    Informationen zu den Methoden zum Firmware-Upgrade finden Sie unter [diesem Link](../tutorials/how_to_upgrade_downgrade_router.md).
 
 <br>
 Wir entschuldigen uns aufrichtig für alle dadurch entstandenen Unannehmlichkeiten. Künftig werden wir unsere Produkte und unsere Firmware noch sorgfältiger und gewissenhafter weiter verbessern.

@@ -30,9 +30,9 @@ Veuillez effectuer la mise à niveau avec Chrome ou Microsoft Edge. N'utilisez P
 
 !!! Note
 
-    Pour la méthode de mise à niveau du chargeur de démarrage U-Boot, vous pouvez consulter [ce lien](https://docs.gl-inet.com/router/en/4/faq/upgrade_uboot_version/){target="_blank"}.
+    Pour la méthode de mise à niveau du chargeur de démarrage U-Boot, vous pouvez consulter [ce lien](upgrade_uboot_version.md).
 
-    Pour la méthode de mise à niveau du firmware, vous pouvez consulter [ce lien](https://docs.gl-inet.com/router/en/4/tutorials/how_to_upgrade_downgrade_router/){target="_blank"}.
+    Pour la méthode de mise à niveau du firmware, vous pouvez consulter [ce lien](../tutorials/how_to_upgrade_downgrade_router.md).
 
 <br>
 Nous vous présentons nos sincères excuses pour la gêne occasionnée. À l'avenir, nous nous engageons à améliorer nos produits et nos firmwares avec encore plus de rigueur et de soin.

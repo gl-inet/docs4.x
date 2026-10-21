@@ -10,7 +10,7 @@ Verbinden Sie einen Laptop mit dem WLAN des Routers (SSID und Passwort finden Si
 
 ## 2. Melden Sie sich per SSH an Ihrem Router an {#2-ssh-log-in-to-your-router}
 
-Bitte beachten Sie [diesen Link](https://docs.gl-inet.com/router/en/4/tutorials/ssh_log_in_to_the_router/).
+Bitte beachten Sie [diesen Link](ssh_log_in_to_the_router.md).
 
 ## 3. Modemprotokolle abrufen {#3-get-modem-logs}
 

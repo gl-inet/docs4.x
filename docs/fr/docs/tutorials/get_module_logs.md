@@ -10,7 +10,7 @@ Connectez un ordinateur portable au Wi-Fi du routeur (vous trouverez le SSID et 
 
 ## 2. Se connecter au routeur en SSH {#2-ssh-log-in-to-your-router}
 
-Veuillez consulter [ce lien](https://docs.gl-inet.com/router/en/4/tutorials/ssh_log_in_to_the_router/).
+Veuillez consulter [ce lien](ssh_log_in_to_the_router.md).
 
 ## 3. Obtenir les journaux du modem {#3-get-modem-logs}
 

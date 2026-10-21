@@ -106,7 +106,7 @@ Follow the troubleshooting steps below according to your specific issue.
 
     **Possible cause 2: You may not have a public IP address**
 
-    To check if you have one, follow this [page](https://docs.gl-inet.com/router/en/4/tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address/). 
+    To check if you have one, follow this [page](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md). 
 
     **Possible cause 3: If both your WireGuard server and WireGuard client were set up on GL.iNet routers, their LAN IP addersses are in conflict**
 
@@ -148,7 +148,7 @@ Follow the troubleshooting steps below according to your specific issue.
 
     **Possible cause 1: There may be a power outage in where you set up your WireGuard server**
 
-    Check whether your WireGuard server is still online by following the resolution steps in Situation 1 or via [GoodCloud](https://docs.gl-inet.com/router/en/4/interface_guide/cloud/) (if you previously connected your router to it).
+    Check whether your WireGuard server is still online by following the resolution steps in Situation 1 or via [GoodCloud](../interface_guide/cloud.md) (if you previously connected your router to it).
 
     **Possible cause 2: You did not enable the Dynamic DNS (DDNS)**
 
@@ -156,7 +156,7 @@ Follow the troubleshooting steps below according to your specific issue.
 
     **Possible cause 3: The port forwarding stopped working for unknown reasons**
 
-    [Set up port forwarding](https://docs.gl-inet.com/router/en/4/tutorials/how_to_set_up_port_forwarding/) again with another port. 
+    [Set up port forwarding](../tutorials/how_to_set_up_port_forwarding.md) again with another port. 
 
 ---
 

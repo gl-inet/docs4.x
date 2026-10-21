@@ -22,7 +22,7 @@
 
 Prendiamo come esempio l'aggiornamento del modulo RM520N.
 
-1. Accedi al router tramite SSH. Fai riferimento a [questo link](https://docs.gl-inet.com/router/en/4/tutorials/ssh_log_in_to_the_router/).
+1. Accedi al router tramite SSH. Fai riferimento a [questo link](ssh_log_in_to_the_router.md).
 
 2. Inserisci il comando seguente per scaricare il firmware del modulo.
 
@@ -70,7 +70,7 @@ Prendiamo come esempio l'aggiornamento del modulo EM060K.
 
 1. Prepara una chiavetta USB. Scarica il firmware del modulo corrispondente dal fondo di questo tutorial sulla chiavetta USB, poi decomprimi il file `.zip` e posizionalo nella directory principale dell'unita USB.
 
-2. Inserisci la chiavetta USB nel router. Quindi fai riferimento a [questo link](https://docs.gl-inet.com/router/en/4/tutorials/ssh_log_in_to_the_router/) per accedere al router tramite SSH.
+2. Inserisci la chiavetta USB nel router. Quindi fai riferimento a [questo link](ssh_log_in_to_the_router.md) per accedere al router tramite SSH.
 
 3. Inserisci il comando `df -h` per controllare il percorso di montaggio dell'unita USB e annota il percorso.
 

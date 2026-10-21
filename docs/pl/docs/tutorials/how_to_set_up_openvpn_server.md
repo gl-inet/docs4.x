@@ -6,11 +6,11 @@ Ten poradnik pokaże Ci, jak skonfigurować serwer OpenVPN na routerach GL.iNet.
     
     **Publiczny adres IP**
 
-    Konfiguracja serwera OpenVPN wymaga publicznego adresu IP. Aby sprawdzić, czy go masz, zapoznaj się z [tym linkiem](https://docs.gl-inet.com/router/en/4/tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address/).
+    Konfiguracja serwera OpenVPN wymaga publicznego adresu IP. Aby sprawdzić, czy go masz, zapoznaj się z [tym linkiem](how_to_check_if_isp_assigns_you_a_public_ip_address.md).
 
     **Przekierowanie portów**
 
-    Jeśli router GL.iNet jest podłączony za głównym routerem, [skonfiguruj przekierowanie portów na głównym routerze](https://docs.gl-inet.com/router/en/4/tutorials/how_to_set_up_port_forwarding/).
+    Jeśli router GL.iNet jest podłączony za głównym routerem, [skonfiguruj przekierowanie portów na głównym routerze](how_to_set_up_port_forwarding.md).
 
 ## 1. Zaloguj się do routera {#1-log-in-to-your-router}
 

@@ -22,7 +22,7 @@
 
 Jako przykład posłuży aktualizacja modułu RM520N.
 
-1. Zaloguj się do routera przez SSH. Zapoznaj się z [tym linkiem](https://docs.gl-inet.com/router/en/4/tutorials/ssh_log_in_to_the_router/).
+1. Zaloguj się do routera przez SSH. Zapoznaj się z [tym linkiem](ssh_log_in_to_the_router.md).
 
 2. Wprowadź poniższą komendę, aby pobrać oprogramowanie modułu.
 
@@ -70,7 +70,7 @@ Jako przykład posłuży aktualizacja modułu EM060K.
 
 1. Przygotuj pendrive USB. Pobierz odpowiednie oprogramowanie modułu na pendrive z dolnej części tego poradnika, rozpakuj plik .zip i umieść go w katalogu głównym pendrive'a.
 
-2. Podłącz pendrive do routera. Następnie zapoznaj się z [tym linkiem](https://docs.gl-inet.com/router/en/4/tutorials/ssh_log_in_to_the_router/), aby zalogować się do routera przez SSH.
+2. Podłącz pendrive do routera. Następnie zapoznaj się z [tym linkiem](ssh_log_in_to_the_router.md), aby zalogować się do routera przez SSH.
 
 3. Wprowadź komendę `df -h`, aby sprawdzić ścieżkę montowania pendrive'a i zanotuj ją.
 

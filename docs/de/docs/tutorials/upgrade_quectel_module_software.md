@@ -22,7 +22,7 @@
 
 Das Upgrade des RM520N-Moduls wird hier als Beispiel verwendet.
 
-1. Melden Sie sich per SSH an Ihrem Router an. Bitte beachten Sie [diesen Link](https://docs.gl-inet.com/router/en/4/tutorials/ssh_log_in_to_the_router/).
+1. Melden Sie sich per SSH an Ihrem Router an. Bitte beachten Sie [diesen Link](ssh_log_in_to_the_router.md).
 
 2. Geben Sie den folgenden Befehl ein, um die Modul-Firmware herunterzuladen.
 
@@ -70,7 +70,7 @@ Das Upgrade des EM060K-Moduls wird hier als Beispiel verwendet.
 
 1. Bereiten Sie einen USB-Stick vor. Laden Sie die passende Modul-Firmware am Ende dieses Tutorials auf den USB-Stick herunter, entpacken Sie die .zip-Datei und legen Sie sie im Stammverzeichnis des USB-Sticks ab.
 
-2. Stecken Sie den USB-Stick in Ihren Router ein. Melden Sie sich dann gemäß [diesem Link](https://docs.gl-inet.com/router/en/4/tutorials/ssh_log_in_to_the_router/) per SSH an Ihrem Router an.
+2. Stecken Sie den USB-Stick in Ihren Router ein. Melden Sie sich dann gemäß [diesem Link](ssh_log_in_to_the_router.md) per SSH an Ihrem Router an.
 
 3. Geben Sie den Befehl `df -h` ein, um den Einhängepfad des USB-Sticks zu prüfen, und notieren Sie sich den Pfad.
 

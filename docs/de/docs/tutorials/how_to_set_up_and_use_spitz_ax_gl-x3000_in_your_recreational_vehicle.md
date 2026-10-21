@@ -48,7 +48,7 @@ Für ein besseres Signal verwenden Sie eine Dachantenne für Ihren Spitz AX. Emp
 
 Um eine Signaldämpfung zu vermeiden, sollte das HF-Kabel von der Dachantenne zu Ihrem Spitz AX nicht länger als 5 Meter sein. (Wenn das HF-Kabel von MobileMark beispielsweise 5 Meter lang ist, wird die Signalstärke bei 3000 MHz um 3 dB reduziert, also auf die Hälfte. Je höher die Signalfrequenz, desto größer die Dämpfung.)
 
-[Erfahren Sie, wie Sie die Antennen am Spitz AX austauschen.](https://docs.gl-inet.com/router/en/4/tutorials/how_to_change_x3000_and_xe3000_antennas/)
+[Erfahren Sie, wie Sie die Antennen am Spitz AX austauschen.](how_to_install_or_change_antennas.md)
 
 ---
 
@@ -71,7 +71,7 @@ Gehen Sie wie folgt vor, um Ihren APN einzugeben:
 3. Geben Sie neben **APN** den APN ein.
 4. Klicken Sie auf **Apply**.
 
-Wenn Sie zwei SIM-Karten verwenden, beachten Sie bitte, dass immer nur eine SIM-Karte gleichzeitig aktiv ist. Sie können jedes Mal manuell auswählen, welche SIM-Karte verwendet werden soll. Alternativ können Sie die Funktion [Auto Switch](https://docs.gl-inet.com/router/en/4/interface_guide/internet_cellular/#setup-for-dual-sim-models) aktivieren. Wenn der Router erkennt, dass eine der SIM-Karten nicht ordnungsgemäß auf das Internet zugreifen kann, wechselt er automatisch zur anderen SIM-Karte. Der Wechsel dauert etwa 1 Minute.
+Wenn Sie zwei SIM-Karten verwenden, beachten Sie bitte, dass immer nur eine SIM-Karte gleichzeitig aktiv ist. Sie können jedes Mal manuell auswählen, welche SIM-Karte verwendet werden soll. Alternativ können Sie die Funktion [Auto Switch](../interface_guide/internet_cellular.md#setup-for-dual-sim-models) aktivieren. Wenn der Router erkennt, dass eine der SIM-Karten nicht ordnungsgemäß auf das Internet zugreifen kann, wechselt er automatisch zur anderen SIM-Karte. Der Wechsel dauert etwa 1 Minute.
 
 ---
 
@@ -87,7 +87,7 @@ Während der Fahrt sollten Sie über die SIM-Karte(n), die Sie im vorherigen Sch
 
 ![Campingplatz](https://static.gl-inet.com/docs/router/de/4/tutorials/set_up_and_use_in_recreational_vehicle/rv-connectivity_scene_repeater.png){class="glboxshadow"}
 
-Wenn Sie während Ihrer Reise auf einem Campingplatz anhalten, können Sie das dort bereitgestellte öffentliche WLAN nutzen und Ihre Mobilfunkdaten sparen. [Erfahren Sie, wie Sie sich mit einem vorhandenen WLAN-Netzwerk verbinden.](https://docs.gl-inet.com/router/en/4/interface_guide/internet_repeater/)
+Wenn Sie während Ihrer Reise auf einem Campingplatz anhalten, können Sie das dort bereitgestellte öffentliche WLAN nutzen und Ihre Mobilfunkdaten sparen. [Erfahren Sie, wie Sie sich mit einem vorhandenen WLAN-Netzwerk verbinden.](../interface_guide/internet_repeater.md)
 
 Nachdem Sie sich einmal mit dem WLAN verbunden haben, kann Spitz AX den Netzwerknamen und das Passwort speichern. Beim nächsten Aufenthalt in der Nähe verbindet sich das Gerät automatisch mit dem Netzwerk.
 
@@ -109,7 +109,7 @@ Spitz AX unterstützt Multi-WAN (Failover und Load Balance). Sie können für un
 | Auf dem Campingplatz (über Repeater mit dem WLAN des Platzes verbunden)    | <p>Weisen Sie dem Repeater eine höhere Priorität als Mobilfunk zu.</p> <p>Sobald Sie den Campingplatz verlassen, wechselt Ihr Router automatisch zurück auf Mobilfunk.</p>|
 | Starlink (Ethernet) + Mobilfunk | <p>Weisen Sie Mobilfunk eine höhere Priorität als Ethernet zu.</p> <p>In Gebieten mit Mobilfunkabdeckung nutzt Ihr Router Ihr Mobilfunknetz.</p> <p>Wenn Sie in Gebiete ohne Mobilfunkabdeckung kommen, wechselt Ihr Router automatisch über Ethernet zu Starlink.</p>|
 
-Informationen zum Einrichten von Failover finden Sie im Abschnitt [Failover](https://docs.gl-inet.com/router/en/4/interface_guide/multi-wan/).
+Informationen zum Einrichten von Failover finden Sie im Abschnitt [Failover](../interface_guide/multi-wan.md).
 
 ---
 

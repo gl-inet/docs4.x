@@ -2,7 +2,7 @@
 
 Puede usar **WinSCP** para acceder a sus archivos compartidos mediante la función de uso compartido de archivos de los routers **GL.iNet**.
 
-Primero configure sus enlaces de **WebDAV** en la pestaña de almacenamiento en red. Para ver la configuración detallada, consulte [WebDAV](https://docs.gl-inet.com/router/en/4/interface_guide/network_storage/#set-up-webdav).
+Primero configure sus enlaces de **WebDAV** en la pestaña de almacenamiento en red. Para ver la configuración detallada, consulte [WebDAV](../interface_guide/network_storage.md#set-up-webdav).
 
 ## Configurar enlaces en WinSCP {#setup-links-in-winscp}
 

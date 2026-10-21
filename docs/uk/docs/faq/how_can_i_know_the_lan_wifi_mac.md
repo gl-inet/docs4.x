@@ -18,7 +18,7 @@
 
 ## Спосіб 2. SSH {#method-2-via-ssh}
 
-Використання SSH описано [тут](https://docs.gl-inet.com/router/en/4/tutorials/ssh_log_in_to_the_router/).
+Використання SSH описано [тут](../tutorials/ssh_log_in_to_the_router.md).
 
 Виконайте **ifconfig** через SSH. У результаті послідовно відобразяться інтерфейси, наприклад br-lan, ethx, wlanx тощо.
 

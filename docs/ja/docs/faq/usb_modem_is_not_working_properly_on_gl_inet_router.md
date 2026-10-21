@@ -28,7 +28,7 @@ USBプロトコルがUSB 2.0と表示されると、切り替えに成功した�
 
 関連記事
 
-- [互換モデム](https://docs.gl-inet.com/router/en/4/interface_guide/internet_cellular/#compatible-modems)
+- [互換モデム](../interface_guide/internet_cellular.md#compatible-modems)
 
 ---
 

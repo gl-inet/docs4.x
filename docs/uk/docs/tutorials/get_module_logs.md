@@ -10,7 +10,7 @@
 
 ## 2. Вхід до маршрутизатора через SSH {#2-ssh-log-in-to-your-router}
 
-Див. [цю інструкцію](https://docs.gl-inet.com/router/en/4/tutorials/ssh_log_in_to_the_router/).
+Див. [цю інструкцію](ssh_log_in_to_the_router.md).
 
 ## 3. Отримання журналів модема {#3-get-modem-logs}
 

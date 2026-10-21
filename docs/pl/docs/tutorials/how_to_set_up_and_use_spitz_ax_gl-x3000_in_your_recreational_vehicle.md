@@ -48,7 +48,7 @@ Aby uzyskać lepszy sygnał, użyj anteny dachowej do Spitz AX. Zalecamy [wielop
 
 Aby uniknąć tłumienia sygnału, kabel radiowy łączący antenę dachową ze Spitz AX nie powinien przekraczać 5 metrów. (Na przykład gdy kabel radiowy MobileMark ma długość 5 metrów, odbiór sygnału przy 3000MHz spada o 3dB, czyli do połowy mocy. Im wyższa częstotliwość sygnału, tym większe tłumienie).
 
-[Dowiedz się, jak wymienić anteny w Spitz AX.](https://docs.gl-inet.com/router/en/4/tutorials/how_to_change_x3000_and_xe3000_antennas/) 
+[Dowiedz się, jak wymienić anteny w Spitz AX.](how_to_install_or_change_antennas.md) 
 
 ---
 
@@ -71,7 +71,7 @@ Aby wprowadzić APN, wykonaj poniższe kroki:
 3. Obok **APN** wpisz APN. 
 4. Kliknij **Apply**. 
 
-Jeśli korzystasz z dwóch kart SIM, pamiętaj, że w danym momencie działa tylko jedna karta SIM. Za każdym razem możesz ręcznie wybrać, której karty SIM chcesz używać. Możesz też włączyć funkcję [Auto Switch](https://docs.gl-inet.com/router/en/4/interface_guide/internet_cellular/#setup-for-dual-sim-models). Jeśli router wykryje, że jedna z kart SIM nie ma prawidłowego dostępu do internetu, automatycznie przełączy się na drugą kartę SIM. Przełączenie trwa około 1 minuty. 
+Jeśli korzystasz z dwóch kart SIM, pamiętaj, że w danym momencie działa tylko jedna karta SIM. Za każdym razem możesz ręcznie wybrać, której karty SIM chcesz używać. Możesz też włączyć funkcję [Auto Switch](../interface_guide/internet_cellular.md#setup-for-dual-sim-models). Jeśli router wykryje, że jedna z kart SIM nie ma prawidłowego dostępu do internetu, automatycznie przełączy się na drugą kartę SIM. Przełączenie trwa około 1 minuty. 
 
 ---
 
@@ -87,7 +87,7 @@ Podczas jazdy powinieneś mieć możliwość połączenia z internetem za pomoc�
 
 ![campground](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/rv-connectivity_scene_repeater.png){class="glboxshadow"}
 
-Jeśli podczas podróży zatrzymasz się na kempingu, możesz skorzystać z publicznej sieci Wi-Fi udostępnianej na miejscu i oszczędzać dane komórkowe. [Dowiedz się, jak połączyć się z istniejącą siecią Wi-Fi.](https://docs.gl-inet.com/router/en/4/interface_guide/internet_repeater/) 
+Jeśli podczas podróży zatrzymasz się na kempingu, możesz skorzystać z publicznej sieci Wi-Fi udostępnianej na miejscu i oszczędzać dane komórkowe. [Dowiedz się, jak połączyć się z istniejącą siecią Wi-Fi.](../interface_guide/internet_repeater.md) 
 
 Po jednorazowym połączeniu z siecią Wi-Fi Spitz AX zapamięta nazwę sieci i hasło. Następnym razem, gdy znajdziesz się w pobliżu, połączy się z nią automatycznie.
 
@@ -109,7 +109,7 @@ Spitz AX obsługuje multi-WAN (przełączenie awaryjne i równoważenie obciąż
 | Na kempingu (połączenie z jego siecią Wi-Fi przez repeater)    | <p> Ustaw repeater z wyższym priorytetem niż sieć komórkową.</p> <p>Gdy tylko opuścisz kemping, router automatycznie przełączy się na sieć komórkową.</p>|
 | Starlink (ethernet) + sieć komórkowa | Ustaw sieć komórkową z wyższym priorytetem niż ethernet. <p>W obszarach z zasięgiem sieci komórkowej router będzie korzystał z sieci komórkowej.</p> <p>Gdy dotrzesz do obszarów bez zasięgu sieci komórkowej, router automatycznie przełączy się na Starlink przez ethernet.</p>|
 
-Aby skonfigurować przełączenie awaryjne, przeczytaj sekcję [Failover](https://docs.gl-inet.com/router/en/4/interface_guide/multi-wan/).
+Aby skonfigurować przełączenie awaryjne, przeczytaj sekcję [Failover](../interface_guide/multi-wan.md).
 
 ---
 

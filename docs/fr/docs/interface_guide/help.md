@@ -4,7 +4,7 @@ Dans le panneau d'administration web, cliquez sur l'icône en forme de point d'i
 
 ![help](https://static.gl-inet.com/docs/router/en/4/interface_guide/help/help.png){class="glboxshadow"}
 
-Vous y trouverez la [documentation d'assistance des routeurs](https://docs.gl-inet.com/router/en/4){target="_blank"}.
+Vous y trouverez la [documentation d'assistance des routeurs](../index.md).
 
 Depuis le firmware v4.8, vous pouvez contacter le support technique en un seul clic, ce qui facilite l'obtention d'une assistance.
 

@@ -22,7 +22,7 @@
 
 ここでは RM520N モジュールのアップグレードを例にします。
 
-1. ルーターへSSHログインします。詳細は[このリンク](https://docs.gl-inet.com/router/en/4/tutorials/ssh_log_in_to_the_router/)を参照してください。
+1. ルーターへSSHログインします。詳細は[このリンク](ssh_log_in_to_the_router.md)を参照してください。
 
 2. 以下のコマンドを入力してモジュールファームウェアをダウンロードします。
 
@@ -70,7 +70,7 @@
 
 1. USBメモリを用意します。このチュートリアルの末尾から対応するモジュールファームウェアをUSBメモリにダウンロードし、.zip ファイルを解凍してUSBドライブのルートディレクトリに配置します。
 
-2. USBメモリをルーターに挿します。その後、[このリンク](https://docs.gl-inet.com/router/en/4/tutorials/ssh_log_in_to_the_router/)を参照してルーターへSSHログインします。
+2. USBメモリをルーターに挿します。その後、[このリンク](ssh_log_in_to_the_router.md)を参照してルーターへSSHログインします。
 
 3. `df -h` コマンドを入力してUSBドライブのマウントパスを確認し、そのパスを控えます。
 

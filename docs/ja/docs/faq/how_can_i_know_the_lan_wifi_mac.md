@@ -18,7 +18,7 @@ GL.iNet デバイスの MAC アドレスは、WAN 1、WAN 2、LAN ポート、2.
 
 ## 方法 2. SSH で確認する {#method-2-via-ssh}
 
-SSH の使用方法については、[こちら](https://docs.gl-inet.com/router/en/4/tutorials/ssh_log_in_to_the_router/)を参照してください。
+SSH の使用方法については、[こちら](../tutorials/ssh_log_in_to_the_router.md)を参照してください。
 
 SSH で **ifconfig** を入力すると、br-lan、ethx、wlanx などのインターフェースが順に表示されます。
 

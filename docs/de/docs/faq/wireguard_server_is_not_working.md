@@ -408,7 +408,7 @@ Folgen Sie den folgenden Schritten zur Fehlerbehebung entsprechend Ihrem konkret
 
 
 
-    Um dies zu prüfen, folgen Sie dieser [Seite](https://docs.gl-inet.com/router/en/4/tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address/).
+    Um dies zu prüfen, folgen Sie dieser [Seite](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md).
 
 
 
@@ -576,7 +576,7 @@ Folgen Sie den folgenden Schritten zur Fehlerbehebung entsprechend Ihrem konkret
 
 
 
-    Prüfen Sie mithilfe der in Situation 1 beschriebenen Lösungsschritte oder über [GoodCloud](https://docs.gl-inet.com/router/en/4/interface_guide/cloud/) (falls Sie Ihren Router zuvor damit verbunden haben), ob Ihr WireGuard-Server noch online ist.
+    Prüfen Sie mithilfe der in Situation 1 beschriebenen Lösungsschritte oder über [GoodCloud](../interface_guide/cloud.md) (falls Sie Ihren Router zuvor damit verbunden haben), ob Ihr WireGuard-Server noch online ist.
 
 
 
@@ -608,7 +608,7 @@ Folgen Sie den folgenden Schritten zur Fehlerbehebung entsprechend Ihrem konkret
 
 
 
-    [Richten Sie die Portweiterleitung](https://docs.gl-inet.com/router/en/4/tutorials/how_to_set_up_port_forwarding/) mit einem anderen Port erneut ein.
+    [Richten Sie die Portweiterleitung](../tutorials/how_to_set_up_port_forwarding.md) mit einem anderen Port erneut ein.
 
 
 

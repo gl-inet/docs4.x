@@ -30,9 +30,9 @@ Do aktualizacji użyj przeglądarki Chrome lub Microsoft Edge. NIE używaj Mozil
 
 !!! Note
 
-    Metody aktualizacji bootloadera U-Boot opisano [pod tym linkiem](https://docs.gl-inet.com/router/en/4/faq/upgrade_uboot_version/){target="_blank"}.
+    Metody aktualizacji bootloadera U-Boot opisano [pod tym linkiem](upgrade_uboot_version.md).
 
-    Metody aktualizacji firmware opisano [pod tym linkiem](https://docs.gl-inet.com/router/en/4/tutorials/how_to_upgrade_downgrade_router/){target="_blank"}.
+    Metody aktualizacji firmware opisano [pod tym linkiem](../tutorials/how_to_upgrade_downgrade_router.md).
 
 <br>
 Szczerze przepraszamy za wszelkie niedogodności, jakie mogła spowodować ta sytuacja. W przyszłości dołożymy jeszcze większej staranności do ulepszania naszych produktów i firmware.

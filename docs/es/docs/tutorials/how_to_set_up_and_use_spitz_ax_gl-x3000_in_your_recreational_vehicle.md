@@ -49,7 +49,7 @@ Para obtener una mejor señal, use una antena de techo para su Spitz AX. Se reco
 
 Para evitar la atenuación de la señal, el cable de radiofrecuencia entre la antena de techo y su Spitz AX no debe superar los 5 metros. Por ejemplo, cuando el cable de radiofrecuencia de MobileMark tiene una longitud de 5 metros, la recepción de la señal a 3000MHz se reduce en 3dB, lo que equivale a la mitad de la intensidad. Cuanto mayor sea la frecuencia de la señal, mayor será la atenuación.
 
-[Aprenda a instalar o cambiar las antenas externas de routers celulares.](https://docs.gl-inet.com/router/en/4/tutorials/how_to_install_or_change_antennas/)
+[Aprenda a instalar o cambiar las antenas externas de routers celulares.](how_to_install_or_change_antennas.md)
 
 ---
 
@@ -72,7 +72,7 @@ Para introducir su APN, siga estos pasos:
 3. Junto a **APN**, introduzca el APN.
 4. Haga clic en **Apply**.
 
-Si utiliza dos tarjetas SIM, tenga en cuenta que solo una de ellas funciona cada vez. Puede seleccionar manualmente qué tarjeta SIM usar en cada momento. También puede activar la función [Auto Switch](https://docs.gl-inet.com/router/en/4/interface_guide/internet_cellular/#setup-for-dual-sim-models). Si el router detecta que una de las tarjetas SIM no puede acceder correctamente a Internet, cambiará automáticamente a la otra tarjeta. El cambio tarda aproximadamente 1 minuto en completarse.
+Si utiliza dos tarjetas SIM, tenga en cuenta que solo una de ellas funciona cada vez. Puede seleccionar manualmente qué tarjeta SIM usar en cada momento. También puede activar la función [Auto Switch](../interface_guide/internet_cellular.md#setup-for-dual-sim-models). Si el router detecta que una de las tarjetas SIM no puede acceder correctamente a Internet, cambiará automáticamente a la otra tarjeta. El cambio tarda aproximadamente 1 minuto en completarse.
 
 ---
 
@@ -88,7 +88,7 @@ Mientras conduce por carretera, debería poder conectarse a Internet mediante la
 
 ![campground](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/rv-connectivity_scene_repeater.png){class="glboxshadow"}
 
-Si hace una parada en un camping durante su viaje, puede usar la red Wi-Fi pública que ofrezca el lugar y ahorrar datos móviles. [Aprenda a conectarse a una red Wi-Fi existente.](https://docs.gl-inet.com/router/en/4/interface_guide/internet_repeater/)
+Si hace una parada en un camping durante su viaje, puede usar la red Wi-Fi pública que ofrezca el lugar y ahorrar datos móviles. [Aprenda a conectarse a una red Wi-Fi existente.](../interface_guide/internet_repeater.md)
 
 Después de conectarse una vez a la red Wi-Fi, Spitz AX podrá recordar el nombre de la red y la contraseña. Se conectará automáticamente la próxima vez que se encuentre cerca.
 
@@ -111,7 +111,7 @@ Spitz AX admite multi-WAN, incluyendo failover y balanceo de carga. Puede establ
 | En el camping, conectado a su red Wi-Fi mediante repetidor | <p>Asigne al repetidor una prioridad superior a la conexión celular.</p> <p>En cuanto salga del camping, su router cambiará automáticamente a la conexión celular.</p>                                                                                                    |
 | Starlink (ethernet) + celular                              | <p>Asigne a la conexión celular una prioridad superior a ethernet.</p> <p>En las zonas con cobertura celular, su router usará la red celular.</p> <p>Cuando llegue a zonas sin cobertura celular, su router cambiará automáticamente a Starlink a través de ethernet.</p> |
 
-Para configurar el failover, consulte la sección [Failover](https://docs.gl-inet.com/router/en/4/interface_guide/multi-wan/).
+Para configurar el failover, consulte la sección [Failover](../interface_guide/multi-wan.md).
 
 ---
 

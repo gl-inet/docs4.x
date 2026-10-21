@@ -18,7 +18,7 @@ Im folgenden Bild ist die WAN-MAC beispielsweise **E4:95:6E:40:DB:A9**.
 
 ## Methode 2: per SSH {#method-2-via-ssh}
 
-Wie Sie SSH verwenden, erfahren Sie [hier](https://docs.gl-inet.com/router/en/4/tutorials/ssh_log_in_to_the_router/).
+Wie Sie SSH verwenden, erfahren Sie [hier](../tutorials/ssh_log_in_to_the_router.md).
 
 Geben Sie in SSH **ifconfig** ein. Anschließend erhalten Sie eine Datenausgabe, in der nacheinander Schnittstellen wie br-lan, ethx, wlanx usw. angezeigt werden.
 

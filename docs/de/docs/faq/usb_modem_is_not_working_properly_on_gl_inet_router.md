@@ -28,7 +28,7 @@ Prüfen Sie anschließend, ob sich die Internetverbindung verbessert hat.
 
 Verwandte Artikel
 
-- [Kompatible Modems](https://docs.gl-inet.com/router/en/4/interface_guide/internet_cellular/#compatible-modems)
+- [Kompatible Modems](../interface_guide/internet_cellular.md#compatible-modems)
 
 ---
 

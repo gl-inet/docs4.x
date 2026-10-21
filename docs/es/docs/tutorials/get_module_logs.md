@@ -10,7 +10,7 @@ Conecte un portátil al Wi-Fi del router, localizando el SSID y la contraseña e
 
 ## 2. Inicie sesión en el router por SSH {#2-ssh-log-in-to-your-router}
 
-Consulte [este enlace](https://docs.gl-inet.com/router/en/4/tutorials/ssh_log_in_to_the_router/).
+Consulte [este enlace](ssh_log_in_to_the_router.md).
 
 ## 3. Obtener registros del módem {#3-get-modem-logs}
 

@@ -4,7 +4,7 @@ Web管理パネルで、タイトルバー右側の疑問符アイコンをク�
 
 ![help](https://static.gl-inet.com/docs/router/en/4/interface_guide/help/help.png){class="glboxshadow"}
 
-[Router Support Docs](https://docs.gl-inet.com/router/en/4){target="_blank"} を参照できます。
+[Router Support Docs](../index.md) を参照できます。
 
 ファームウェア v4.8 以降では、ワンクリックで Tech Support に連絡できるようになり、サポートを受けやすくなりました。
 

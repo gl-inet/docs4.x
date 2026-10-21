@@ -48,7 +48,7 @@ Spitz AXを壁に取り付ける方法は2つあります:
 
 信号の減衰を避けるため、ルーフアンテナからSpitz AXまでの高周波ケーブルは 5 メートルを超えないようにしてください。（たとえば、MobileMarkの高周波ケーブルが 5 メートルの場合、3000MHz における受信信号は 3dB 低下し、信号強度は半分になります。信号の周波数が高いほど、減衰も大きくなります。）
 
-[Spitz AXのアンテナ交換方法はこちらをご覧ください。](https://docs.gl-inet.com/router/en/4/tutorials/how_to_change_x3000_and_xe3000_antennas/)
+[Spitz AXのアンテナ交換方法はこちらをご覧ください。](how_to_install_or_change_antennas.md)
 
 ---
 
@@ -71,7 +71,7 @@ APNを入力するには、以下の手順に従ってください。
 3. **APN** の横にAPNを入力します。
 4. **Apply** をクリックします。
 
-2枚のSIMカードを使用する場合でも、同時に動作するのは1枚だけです。その都度、使用するSIMカードを手動で選択できます。あるいは、[Auto Switch feature](https://docs.gl-inet.com/router/en/4/interface_guide/internet_cellular/#setup-for-dual-sim-models) を有効にしてください。ルーターが一方のSIMカードでインターネットに正常にアクセスできないことを検知すると、もう一方のSIMカードへ自動的に切り替わります。切り替えには約 1 分かかります。
+2枚のSIMカードを使用する場合でも、同時に動作するのは1枚だけです。その都度、使用するSIMカードを手動で選択できます。あるいは、[Auto Switch feature](../interface_guide/internet_cellular.md#setup-for-dual-sim-models) を有効にしてください。ルーターが一方のSIMカードでインターネットに正常にアクセスできないことを検知すると、もう一方のSIMカードへ自動的に切り替わります。切り替えには約 1 分かかります。
 
 ---
 
@@ -87,7 +87,7 @@ APNを入力するには、以下の手順に従ってください。
 
 ![campground](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/rv-connectivity_scene_repeater.png){class="glboxshadow"}
 
-旅行中にキャンプ場へ立ち寄った場合は、施設が提供する公衆Wi-Fiネットワークを利用してセルラーデータの消費を抑えられます。[既存のWi-Fiネットワークへの接続方法はこちら。](https://docs.gl-inet.com/router/en/4/interface_guide/internet_repeater/)
+旅行中にキャンプ場へ立ち寄った場合は、施設が提供する公衆Wi-Fiネットワークを利用してセルラーデータの消費を抑えられます。[既存のWi-Fiネットワークへの接続方法はこちら。](../interface_guide/internet_repeater.md)
 
 一度Wi-Fiネットワークに接続すると、Spitz AXはネットワーク名とパスワードを記憶します。次にその場所の近くへ行ったとき、自動的に接続されます。
 
@@ -109,7 +109,7 @@ Spitz AXはmulti-WAN（フェイルオーバーとロードバランシング）
 | キャンプ場（repeater を使ってそのWi-Fiネットワークに接続）    | <p> Cellular より repeater の優先順位を高く設定します。</p> <p>キャンプ場を離れると、ルーターは自動的に Cellular に切り替わります。</p>|
 | Starlink (ethernet) + cellular | Cellular の優先順位を ethernet より高く設定します。 <p>セルラー通信圏内では、ルーターは cellular ネットワークを使用します。</p> <p>セルラー通信圏外に入ると、ルーターは自動的に ethernet 経由のStarlinkへ切り替わります。</p>|
 
-フェイルオーバーを設定するには、[Failover](https://docs.gl-inet.com/router/en/4/interface_guide/multi-wan/) を参照してください。
+フェイルオーバーを設定するには、[Failover](../interface_guide/multi-wan.md) を参照してください。
 
 ---
 

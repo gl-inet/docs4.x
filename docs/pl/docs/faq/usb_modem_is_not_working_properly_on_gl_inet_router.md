@@ -28,7 +28,7 @@ Następnie sprawdź, czy połączenie internetowe działa lepiej.
 
 Powiązane artykuły
 
-- [Kompatybilne modemy](https://docs.gl-inet.com/router/en/4/interface_guide/internet_cellular/#compatible-modems)
+- [Kompatybilne modemy](../interface_guide/internet_cellular.md#compatible-modems)
 
 ---
 

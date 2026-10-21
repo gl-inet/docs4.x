@@ -153,7 +153,7 @@ Configura Mudi 7 usando uno dei metodi di connessione Internet supportati: Cellu
     2. Sul dispositivo mobile, vai nelle impostazioni e abilita **USB Tethering**. Se usi un iPhone, tocca **Trust This Device** quando richiesto.
     3. Quando sul touchscreen viene richiesto di selezionare la modalità USB, scegli **Host (USB OTG) mode**. Mudi 7 si collegherà automaticamente al dispositivo. Se non si connette, ripeti i passaggi precedenti oppure accedi al pannello di amministrazione web e controlla la connessione Tethering nella pagina INTERNET.
 
-        Per saperne di più sulle differenze tra le modalità USB, fai clic [qui](https://docs.gl-inet.com/router/en/4/tutorials/what_is_usb-c_otg_and_how_to_share_your_network_via_usb-c_otg).
+        Per saperne di più sulle differenze tra le modalità USB, fai clic [qui](../../tutorials/what_is_usb-c_otg_and_how_to_share_your_network_via_usb-c_otg.md).
     4. Quando la connessione a Internet va a buon fine, un'icona a forma di catena comparira nell'angolo superiore destro del touchscreen. Puoi anche controllare i dettagli della connessione nel pannello di amministrazione web.
 
     Per istruzioni dettagliate, fai riferimento a [Collegarsi a Internet tramite USB tethering](../../interface_guide/internet_tethering.md).

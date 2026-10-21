@@ -4,7 +4,7 @@ In the web Admin Panel, click the question mark icon on the right side of the ti
 
 ![help](https://static.gl-inet.com/docs/router/en/4/interface_guide/help/help.png){class="glboxshadow"}
 
-You can find the [Router Support Docs](https://docs.gl-inet.com/router/en/4){target="_blank"}.
+You can find the [Router Support Docs](../index.md).
 
 Since firmware v4.8, you can contact Tech Support with just one click, making it easier to obtain assistance.
 

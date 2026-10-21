@@ -69,6 +69,8 @@ jobs:
     needs: prepare
     if: needs.prepare.outputs.has_delta == 'true'
     runs-on: ubuntu-latest
+    # The Codex secrets are environment secrets of the OpenAI environment.
+    environment: OpenAI
     outputs:
       has_changes: ${{ steps.diff.outputs.has_changes }}
     permissions:
@@ -103,11 +105,11 @@ jobs:
         run: |
           missing=0
           if [ -z "$CODEX_API_KEY" ]; then
-            echo "::error::Repository secret OPENAI_API_KEY is not set."
+            echo "::error::Secret OPENAI_API_KEY is not available to this job (OpenAI environment)."
             missing=1
           fi
           if [ -z "$CODEX_RESPONSES_API_ENDPOINT" ]; then
-            echo "::error::Repository secret CODEX_RESPONSES_API_ENDPOINT is not set."
+            echo "::error::Secret CODEX_RESPONSES_API_ENDPOINT is not available to this job (OpenAI environment)."
             missing=1
           fi
           exit "$missing"

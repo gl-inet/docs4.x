@@ -54,6 +54,34 @@ jobs:
           path: site/${{ matrix.lang }}
           if-no-files-found: error
 
+  # Report-only: a failure marks the run red and notifies the pusher, but
+  # deploy does not wait for this job, so the site is still published.
+  strict:
+    runs-on: ubuntu-latest
+    needs: prepare
+    strategy:
+      fail-fast: false
+      matrix:
+        lang: ${{ fromJSON(needs.prepare.outputs.langs_json) }}
+    steps:
+      - name: Checkout docs4.x
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.10.4"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Strict build ${{ matrix.lang }}
+        working-directory: docs/${{ matrix.lang }}
+        run: mkdocs build --strict --site-dir "$RUNNER_TEMP/strict-site"
+
   deploy:
     runs-on: ubuntu-latest
     needs:

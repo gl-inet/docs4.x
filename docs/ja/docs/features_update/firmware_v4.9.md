@@ -70,7 +70,7 @@ Flow Control モジュールには、DPI Engine、Data Statistics、Content Filt
 
 ### 再設計されたダッシュボード {#redesigned-dashboard}
 
-[VPN Dashboard](../interface_guide/vpn_dashboard.md)は、より直感的なレイアウトに全面的に再設計されました。トンネルの状態、接続の詳細、設定項目が見やすく表示され、日常の操作と管理を効率化します。また、新しいアーキテクチャでは、トラフィックを常に保護するために、すべての VPN トンネルでキルスイッチがデフォルトで有効になります。
+ファームウェア v4.9 の[VPN Dashboard](../interface_guide/vpn_dashboard.md)は、より直感的なレイアウトに全面的に再設計されました。トンネルの状態、接続の詳細、設定項目が見やすく表示され、日常の操作と管理を効率化します。また、新しいアーキテクチャでは、トラフィックを常に保護するために、すべての VPN トンネルでキルスイッチがデフォルトで有効になります。
 
 ![vpn dashboard](https://static.gl-inet.com/docs/router/en/4/features_update/4.9/vpn_dashboard.png){class="glboxshadow"}
 

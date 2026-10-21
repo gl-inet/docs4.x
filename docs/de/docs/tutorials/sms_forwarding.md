@@ -45,11 +45,11 @@ GL.iNet-Mobilfunkrouter unterstützen die SMS-Weiterleitung und leiten eingehend
 
 Nehmen wir den GL-XE3000 (Puli AX) als Beispiel.
 
-Gehen Sie auf der linken Seite des Web-Admin-Panels zum Bereich **INTERNET** -> **Cellular**.
+1. Konfigurieren Sie zunächst Ihren Mobilfunkrouter wie unter [diesem Link](../interface_guide/internet_cellular.md) beschrieben.
 
-Klicken Sie oben rechts auf das Umschlag-Symbol, um die SMS-Seite zu öffnen. Dort finden Sie die Einstellungen für SMS Forwarding.
+2. Melden Sie sich im Web-Admin-Panel des Routers an und gehen Sie zu **INTERNET** -> **Cellular**. Klicken Sie oben rechts auf das Umschlag-Symbol, um die SMS-Seite zu öffnen. Dort finden Sie die Einstellungen für SMS Forwarding.
 
-![SMS-Einstellung](https://static.gl-inet.com/docs/router/de/4/tutorials/sms_forwarding/sms.png){class="glboxshadow"}
+    ![SMS-Einstellung](https://static.gl-inet.com/docs/router/de/4/tutorials/sms_forwarding/sms.png){class="glboxshadow"}
 
 ### Über E-Mail weiterleiten {#forward-via-email}
 

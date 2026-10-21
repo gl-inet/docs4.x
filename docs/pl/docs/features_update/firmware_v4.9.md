@@ -70,7 +70,7 @@ Jedna grupa tuneli VPN może zawierać wiele profili konfiguracji. Użytkownicy 
 
 ### Przeprojektowany panel {#redesigned-dashboard}
 
-[VPN Dashboard](../interface_guide/vpn_dashboard.md) został całkowicie przeprojektowany i ma bardziej intuicyjny układ. Stan tuneli, szczegóły połączeń i wpisy konfiguracji są prezentowane czytelniej, co znacznie usprawnia codzienną obsługę i zarządzanie. Ponadto w nowej architekturze Kill Switch jest domyślnie włączony dla wszystkich tuneli VPN, aby stale chronić ruch.
+[VPN Dashboard](../interface_guide/vpn_dashboard.md) w firmware v4.9 został całkowicie przeprojektowany i ma bardziej intuicyjny układ. Stan tuneli, szczegóły połączeń i wpisy konfiguracji są prezentowane czytelniej, co znacznie usprawnia codzienną obsługę i zarządzanie. Ponadto w nowej architekturze Kill Switch jest domyślnie włączony dla wszystkich tuneli VPN, aby stale chronić ruch.
 
 ![vpn dashboard](https://static.gl-inet.com/docs/router/en/4/features_update/4.9/vpn_dashboard.png){class="glboxshadow"}
 

@@ -296,9 +296,7 @@ Si el proveedor de servicios al que está suscrito no aparece en la lista siguie
 ??? "ExpressVPN"
     ### ExpressVPN {#expressvpn}
 
-    [Sitio web oficial](https://go.expressvpn.com/c/4130682/1645813/16063){target="_blank"}
-
-    Información citada de la [instrucción oficial de ExpressVPN](https://www.expressvpn.com/support/vpn-setup/manual-config-for-linux-with-openvpn/#download){rel="sponsored" target="_blank"}
+    [Sitio web oficial](https://go.expressvpn.com/c/4130682/1645813/16063){target="_blank"} | [Obtenga 30 días gratis](https://www.expressvpn.com/refer-a-friend/30-days-free?referrer_id=97477587){rel="sponsored" target="_blank"}
 
     1. Vaya al sitio web de [ExpressVPN](https://go.expressvpn.com/c/4130682/1645813/16063){rel="sponsored" target="_blank"} e inicie sesión con sus credenciales de ExpressVPN.
 
@@ -730,7 +728,7 @@ Si el proveedor de servicios al que está suscrito no aparece en la lista siguie
 
     ![zoogvpn openvpn configuration files](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/zoogvpn/zoogvpn_openvpn_config_files.png)
 
-    Después, siga la [guía para configurar el cliente OpenVPN en un router GL.iNet](#set-up-openvpn-client-on-glinet-routers); el nombre de usuario y la contraseña son los mismos que utiliza para iniciar sesión en el sitio web de ZoogVPN.
+    Después, siga la [guía para configurar el cliente OpenVPN en un router GL.iNet](#set-up-openvpn-client-manually-for-other-providers); el nombre de usuario y la contraseña son los mismos que utiliza para iniciar sesión en el sitio web de ZoogVPN.
 
 ---
 

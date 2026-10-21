@@ -45,11 +45,11 @@ GL.iNetのセルラールーターはSMS転送をサポートしており、受�
 
 ここでは GL-XE3000 (Puli AX) を例に説明します。
 
-Web管理パネルの左側で **INTERNET** -> **Cellular** セクションに移動します。
+1. まず、[こちら](../interface_guide/internet_cellular.md)を参照してセルラールーターを設定します。
 
-右上の封筒アイコンをクリックしてSMSページに入り、SMS Forwarding の設定を確認します。
+2. ルーターのWeb管理パネルにログインし、**INTERNET** -> **Cellular** に移動します。右上の封筒アイコンをクリックしてSMSページに入ると、SMS Forwarding の設定が表示されます。
 
-![sms setting](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms.png){class="glboxshadow"}
+    ![sms setting](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms.png){class="glboxshadow"}
 
 ### メールで転送する {#forward-via-email}
 

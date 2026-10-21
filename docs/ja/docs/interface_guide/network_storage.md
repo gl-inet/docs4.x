@@ -21,7 +21,7 @@ GL.iNet の一部モデルには MicroSD(TF) カードスロットがあり、�
 フラッシュストレージが 32MB 以下のデバイスでは、ネットワークストレージ機能はまだサポートされていません。
 
 | ルーターモデル                           | Samba | WebDAV | DLNA | USBポート | MicroSDカード |
-| :--------------------------------------- | :---: | :----: | :--: | :-------: | :-----------: |
+| :--------------------------------------- | :---: | :----: | :---: | :-------: | :-----------: |
 | GL-MT6000 (Fortify) | √ | √ | √ | √ | - |
 | GL-MG1300 (Mango 2) | √ | - | - | √ | - |
 | GL-BE14000 (Flint 4) | √ | √ | √ | √ | - |
@@ -33,7 +33,7 @@ GL.iNet の一部モデルには MicroSD(TF) カードスロットがあり、�
 | GL-BE6500 (Flint 3e)                   | √     | √     | √     | √        | -            |
 | GL-BE3600 (Slate 7)                    | √     | √     | √     | √        | -            |
 | GL-X2000 (Spitz Plus)                  | √     | √     | √     | √        | -            |
-| GL-MT6000 (Flint2)                    | √     | √     | √     | √        | -            |
+| GL-MT6000 (Flint 2)                    | √     | √     | √     | √        | -            |
 | GL-XE3000 (Puli AX)                    | √     | √     | √     | √        | √            |
 | GL-X3000 (Spitz AX)                    | √     | √     | √     | √        | √            |
 | GL-MT3000 (Beryl AX)                   | √     | √     | √     | √        | -            |
@@ -244,7 +244,7 @@ USB Drive はそのまま USB ポートに接続できます。ポータブル�
 
         ![ios files set up SMB](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios_files_smb_1.png){class="glboxshadow" width="560"}
 
-        メニュー上部の **Connect to Server** をタップします。次の画面でサーバーの接続 URL を入力します。URL は共有リンクで確認できます。右上の **Next** をタップします。
+        メニュー上部の **Connect to Server** をタップします。次の画面でサーバーの接続 URL を入力します。URL は[共有リンク](#set-up-samba)で確認できます。右上の **Next** をタップします。
 
         ![ios files set up SMB](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios_files_smb_2.png){class="glboxshadow" width="560"}
 

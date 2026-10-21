@@ -296,9 +296,7 @@ Si le fournisseur auquel vous êtes abonné n'est pas listé ci-dessous, veuille
 ??? "ExpressVPN"
     ### ExpressVPN {#expressvpn}
 
-    [Site officiel](https://go.expressvpn.com/c/4130682/1645813/16063){target="_blank"}
-
-    Informations extraites des [instructions officielles d'Expressvpn](https://www.expressvpn.com/support/vpn-setup/manual-config-for-linux-with-openvpn/#download){rel="sponsored" target="_blank"}
+    [Site officiel](https://go.expressvpn.com/c/4130682/1645813/16063){target="_blank"} | [Obtenir 30 jours gratuits](https://www.expressvpn.com/refer-a-friend/30-days-free?referrer_id=97477587){rel="sponsored" target="_blank"}
 
     1. Accédez au site [ExpressVPN](https://go.expressvpn.com/c/4130682/1645813/16063){rel="sponsored" target="_blank"} et connectez-vous avec vos identifiants ExpressVPN.
 

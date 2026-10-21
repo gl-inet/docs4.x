@@ -13,3 +13,7 @@ Web管理パネルで、SYSTEM -> Upgradeに移動し、ファームウェアを
 ファームウェアアップグレード後、Web管理パネルにログインし、**NETWORK** -> **Network Acceleration**に移動し、無効にします。
 
 ![networkacc](https://static.gl-inet.com/docs/router/en/4/faq/wifi_call/netacc.jpg){class="glboxshadow"}
+
+---
+
+まだ質問がありますか？ [コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}または[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}をご覧ください。

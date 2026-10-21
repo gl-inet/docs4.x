@@ -18,7 +18,7 @@ Hier können Sie Ethernet-Portrollen (WAN/LAN) verwalten und Portdetails wie MAC
 
 In diesem Abschnitt werden die Portrolle (WAN oder LAN), die MAC-Adresse und die ausgehandelte Geschwindigkeit angezeigt. 
 
-![wan](https://static.gl-inet.com/docs/router/de/4/interface_guide/internet_ethernet/wan.png){class="glboxshadow"}
+![wan](https://static.gl-inet.com/docs/router/de/4/interface_guide/ethernet_port/wan.png){class="glboxshadow"}
 
 - **WAN/LAN**: Der aktuelle Betriebsmodus des physischen WAN-Ports. Sie können ihn bei Bedarf auf LAN einstellen.
 

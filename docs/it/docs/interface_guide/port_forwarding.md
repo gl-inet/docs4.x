@@ -1,12 +1,12 @@
 # Port Forwarding {#port-forwarding}
 
-Questa guida si applica al firmware v4.6 e versioni successive. Per le versioni precedenti, fare riferimento a [Firewall](firewall.md).
+**Nota**: questa guida si applica al firmware v4.6 e versioni successive. Per le versioni precedenti, fai riferimento a [Firewall](firewall.md).
+
+---
 
 Sul lato sinistro del pannello di amministrazione web, vai su **NETWORK** -> **Port Forwarding** oppure su **SECURITY** -> **Port Forwarding** (per firmware v4.9 e versioni successive).
 
 Questa pagina consente di impostare regole firewall, incluse DMZ e port forwarding.
-
-Nota: per aprire le porte del router, vai su SYSTEM -> [Security](security.md), oppure su SECURITY -> [Admin Access](admin_access.md) (per firmware v4.9 e versioni successive).
 
 ## DMZ {#dmz}
 

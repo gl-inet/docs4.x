@@ -4,7 +4,7 @@ W lewym panelu bocznym panelu administracyjnego przejdź do **SYSTEM** -> **Upgr
 
 W przypadku niektórych modeli komórkowych możesz również w razie potrzeby zaktualizować wersję modułu.
 
-!!! Note
+!!! Warning
 
     Podczas aktualizacji nie odłączaj zasilania. **NIE** wyłączaj routera. Po zakończeniu aktualizacji urządzenie automatycznie uruchomi się ponownie, co może potrwać kilka minut.
 
@@ -12,7 +12,9 @@ W przypadku niektórych modeli komórkowych możesz również w razie potrzeby z
 
 ### Aktualizacja online {#online-upgrade}
 
-Tutaj możesz sprawdzić aktualną wersję firmware.
+Aktualizacja online automatycznie sprawdza przez Internet dostępność najnowszego oficjalnego firmware, a następnie pobiera je i instaluje bezpośrednio na routerze. Jest to wygodny sposób aktualizacji oficjalnego firmware jednym kliknięciem, o ile router jest połączony z Internetem.
+
+Aktualną wersję firmware znajdziesz w sekcji **Firmware Online Upgrade**.
 
 ![upgrade](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/online_upgrade.png){class="glboxshadow"}
 

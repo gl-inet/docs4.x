@@ -49,7 +49,3 @@ AnyDesk を起動すると、数字のアドレス（通常は「123 456 789」�
 - AnyDesk アプリケーションを完全に終了する（最小化するだけではなく終了する）。
 - 残留プロセスが気になる場合は、コンピューターを再起動する。
 - リモートアクセス権限が有効なまま残っていないことを確認するため、システム設定を確認する。
-
----
-
-ご不明な点がある場合は、[Community Forum](https://forum.gl-inet.com){target="_blank"} をご利用いただくか、[Contact us](https://www.gl-inet.com/contacts/){target="_blank"} からお問い合わせください。

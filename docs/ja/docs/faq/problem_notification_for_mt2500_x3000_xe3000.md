@@ -28,7 +28,7 @@ ChromeまたはMicrosoft Edgeでアップグレードしてみてください。
 
 2. ファームウェアを[バージョン4.7.4](https://fw.gl-inet.com/firmware/xe3000/release/openwrt-xe3000-4.7.4-0317-1742206184.bin)にダウンロードしてアップグレードします
 
-!!! 注意
+!!! Note "注意"
 
     U-Bootブートローダーをアップグレードする方法については、[こちら](https://docs.gl-inet.com/router/en/4/faq/upgrade_uboot_version/){target="_blank"}をご覧ください。
 

@@ -18,7 +18,7 @@ Ethernet ポートの役割（WAN/LAN）を管理し、MAC アドレスやネゴ
 
 このセクションには、ポートの役割（WAN または LAN）、MAC アドレス、ネゴシエート速度が表示されます。
 
-![wan](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/wan.png){class="glboxshadow"}
+![wan](https://static.gl-inet.com/docs/router/en/4/interface_guide/ethernet_port/wan.png){class="glboxshadow"}
 
 - **WAN/LAN**: 物理 WAN ポートの現在の動作モードです。必要に応じて LAN に設定できます。
 

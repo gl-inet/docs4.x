@@ -8,31 +8,24 @@ Marble（GL-B3000）は、フォトフレームとしても使えるデザイン
 
 ## パッケージコンテンツ {#package-contents}
 
-パッケージ内のアダプターは発送国によって異なることに注意してください。
-
-パッケージには以下が含まれます：
-
-- 1 x ユーザーマニュアル
 - 1 x Marble (GL-B3000)
-- 1 x Ethernetケーブル
+- 1 x ユーザーマニュアル
 - 1 x サンキューカード
+- 1 x Ethernetケーブル
 - 1 x 壁掛けキット
-- 1 x 電源アダプター（選択したプラグタイプ）
-- 1 x クッションパッド
+- 1 x 粘着パッド
 - 1 x ルータースタンド
 - 1 x フォトフレーム（オプション）
+- 1 x 電源アダプター
+- 1 x 変換プラグ（発送先の国に応じたもの）
 
 ![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-b3000/first_time_setup/b3000_unboxing.jpg){class="glboxshadow"}
 
-## 仕様 {#specifications}
-
-[仕様](https://www.gl-inet.com/products/gl-b3000/#specs){target="_blank"}を参照してください。
-
 ## Marbleの設定方法 {#how-to-set-up-marble}
 
-すべての GL.iNet ルーターは、ほぼ共通のシンプルな手順で設定できます。[初回セットアップはこちら](../../faq/first_time_setup.md)。
+以下のインストール・設定動画を見るか、次の手順に従ってください。
 
-Marbleを設定するには、2つのサポートされているインターネット接続方法（EthernetとRepeater）のいずれかを使用します。以下の設定動画を見るか、手順に従ってください。
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AiIC_HdJfws" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-U2WTVYRkPU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

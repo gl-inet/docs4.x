@@ -6,8 +6,6 @@ Web Admin Panel の左側で、**NETWORK** -> **Port Forwarding**、または (�
 
 このページでは、**DMZ** や **Port Forwarding** を含むファイアウォールルールを設定できます。
 
-注: ルーターでポートを開放する必要がある場合は、SYSTEM -> [Security](security.md)、または SECURITY -> [Admin Access](admin_access.md)（ファームウェア v4.9 以降）に移動してください。
-
 ## DMZ {#dmz}
 
 DMZ を使うと、1 台のコンピューターをインターネットに公開でき、すべての受信パケットがそのコンピューターにリダイレクトされます。

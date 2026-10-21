@@ -1,12 +1,12 @@
 # Port Forwarding {#port-forwarding}
 
-> Ce guide s’applique aux firmwares v4.6 et versions ultérieures. Pour les versions antérieures, veuillez consulter [Firewall](firewall.md).
+**Remarque** : ce guide s’applique aux firmwares v4.6 et versions ultérieures. Pour les versions antérieures, veuillez consulter [Firewall](firewall.md).
+
+---
 
 Sur le panneau d’administration web, sur la gauche, allez dans **NETWORK** -> **Port Forwarding** ou **SECURITY** -> **Port Forwarding** (pour les firmwares v4.9 et versions ultérieures).
 
 Cette page vous permet de configurer des règles de pare-feu, notamment la DMZ et la redirection de port.
-
-Remarque : pour ouvrir les ports du routeur, allez dans SYSTEM -> [Security](security.md) ou SECURITY -> [Admin Access](admin_access.md) (pour les firmwares v4.9 et versions ultérieures).
 
 ## DMZ {#dmz}
 

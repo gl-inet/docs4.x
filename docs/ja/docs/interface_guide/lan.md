@@ -8,6 +8,8 @@ LAN は、デバイスがメイン Wi-Fi または Ethernet ケーブルで接�
 
 ## 基本設定 {#basic-settings}
 
+サブネットは、IPv4 プライベートアドレス範囲 `192.168.0.0/16`、`172.16.0.0/12`、`10.0.0.0/8` の中で設定できます。
+
 ![lan basic settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/lan/basic_settings.jpg){class="glboxshadow"}
 
 - **Router IP Address**

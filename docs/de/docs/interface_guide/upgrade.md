@@ -4,7 +4,7 @@ Gehen Sie auf der linken Seite des Web-Admin-Panels zu **SYSTEM** -> **Upgrade**
 
 Bei einigen Mobilfunkmodellen können Sie bei Bedarf auch die Modulversion aktualisieren.
 
-!!! Note
+!!! Warning
 
     Bitte lassen Sie den Router während des Upgrades eingeschaltet. Schalten Sie den Router **NICHT** aus. Das Gerät startet nach dem Upgrade automatisch neu, was einige Minuten dauern kann.
 
@@ -12,7 +12,9 @@ Bei einigen Mobilfunkmodellen können Sie bei Bedarf auch die Modulversion aktua
 
 ### Online-Upgrade {#online-upgrade}
 
-Hier finden Sie die aktuelle Firmware-Version.
+Online Upgrade sucht automatisch über das Internet nach der neuesten offiziellen Firmware und führt Download und Flashen direkt auf dem Router durch. Dies ermöglicht bequeme Aktualisierungen der offiziellen Firmware per Klick, sofern der Router mit dem Internet verbunden ist.
+
+Die aktuelle Firmware-Version finden Sie unter **Firmware Online Upgrade**.
 
 ![upgrade](https://static.gl-inet.com/docs/router/de/4/interface_guide/upgrade/online_upgrade.png){class="glboxshadow"}
 
@@ -28,11 +30,13 @@ Hier finden Sie die aktuelle Firmware-Version.
 
 ### Lokales Upgrade {#local-upgrade}
 
-Wählen Sie eine Firmware-Datei aus oder ziehen Sie sie per Drag-and-drop hinein, um das Upgrade durchzuführen. Sie können die Firmware aus unserem [Download-Center](https://dl.gl-inet.com){target="_blank"} herunterladen.
+Local Upgrade unterstützt das manuelle Hochladen einer Firmware-Datei zum Flashen. So können Sie bestimmte Firmware-Versionen installieren, ein Upgrade oder Downgrade durchführen oder Beta-Firmware installieren, um neu hinzugefügte Funktionen zu testen.
+
+Laden Sie zunächst die Firmware-Datei aus unserem [Download-Center](https://dl.gl-inet.com){target="_blank"} herunter und gehen Sie dann zu **Firmware Local Upgrade**.
 
 ![local upgrade](https://static.gl-inet.com/docs/router/de/4/interface_guide/upgrade/local_upgrade.png){class="glboxshadow"}
 
-Nach dem Hochladen wird die Firmware verifiziert.
+Wählen Sie die Datei aus oder ziehen Sie sie per Drag-and-drop in den Upload-Bereich. Das System verifiziert anschließend die Firmware.
 
 ![local upgrade uploaded](https://static.gl-inet.com/docs/router/de/4/interface_guide/upgrade/local_upgrade_uploaded.png){class="glboxshadow"}
 

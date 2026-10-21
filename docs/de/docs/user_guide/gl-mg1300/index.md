@@ -238,7 +238,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt eine sichere, verschlüsselte Ve
 
     Parental Control hilft Ihnen dabei, die Geräte Ihrer Kinder zu verwalten und zu kontrollieren. Dazu gehören die Begrenzung der Bildschirmzeit und die Einschränkung des Zugriffs auf bestimmte Inhalte.
 
-    Informationen zur Einrichtung von Parental Control finden Sie unter [Parental controls](../../interface_guide/parental_control.md).
+    Informationen zur Einrichtung von Parental Control finden Sie unter [Parental Control](../../interface_guide/parental_control_v4.9.md).
 
 ## Sicherheit {#security}
 

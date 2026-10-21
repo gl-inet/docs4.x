@@ -52,6 +52,7 @@ Klicken Sie auf die folgenden Tabs, um mehr über die Einstellungen für MLO Mai
 
 | Unterstützte Modelle            |           |
 | :------------------------------ | :-------: |
+| Flint 4 (GL-BE14000)            | √         |
 | Slate 7 Pro (GL-BE10000)        | √         |
 | Mudi 7 (GL-E5800)               | √         |
 | Flint 3 (GL-BE9300)             | √         |

@@ -1,8 +1,10 @@
 # NAT Settings {#nat-settings}
 
-Esta función está disponible desde la versión v4.5.16.
+Esta función está disponible desde el firmware v4.5 y pasó a llamarse NAT Mode en la v4.9.
 
-En el lado izquierdo del panel de administración web, vaya a **NETWORK** -> **NAT Settings**, o a **SECURITY** -> **NAT Mode** (para firmware v4.9 y posteriores).
+---
+
+En el lado izquierdo del panel de administración web, vaya a **NETWORK** -> **NAT Settings**, o a **SECURITY** -> **NAT Mode**.
 
 Esta página le permite habilitar **Full Cone NAT** para mejorar la estabilidad de las conexiones peer-to-peer en aplicaciones como juegos o streaming, y **SIP ALG** para corregir problemas de compatibilidad con servicios telefónicos basados en VoIP/SIP.
 

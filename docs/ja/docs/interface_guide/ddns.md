@@ -26,7 +26,7 @@ Web 管理画面の左側メニューで、**APPLICATIONS** -> **Dynamic DNS** �
 
 DNS サーバー間のレコード同期には、最大 10 分程度の遅延が発生する場合があります。そのため、有効化直後やパブリックIPアドレスが変更された直後は、DDNS ドメイン名ですぐにアクセスできないことがあります。
 
-**Note**: DDNS と VPN Client を同時に有効にする場合は、**Services From GL.iNet Use VPN** が無効になっていることを確認してください。この機能は、VPN Dashboard の [VPN Client Options](vpn_dashboard_v4.8.md#tunnel-options_1) にあります。
+**Note**: DDNS と VPN Client を同時に有効にする場合は、**Services From GL.iNet Use VPN** が無効になっていることを確認してください。この機能は、VPN Dashboard の [VPN Client Options](vpn_dashboard_v4.8.md#tunnel-options) にあります。
 
 ## DDNSが機能しているか確認する {#check-if-ddns-works}
 

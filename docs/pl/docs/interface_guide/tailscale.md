@@ -13,6 +13,8 @@ Funkcja Tailscale w routerach GL.iNet, dostępna od wersji oprogramowania v4.2, 
 3. Niektóre modele, mimo że działają na oprogramowaniu v4.2 lub nowszym, nie obsługują Tailscale z powodu niewystarczającej ilości pamięci.
 
 ## Obsługiwane modele {#supported-models}
+
+??? "Obsługiwane modele"
     - GL-MT6000 (Fortify)
     - GL-BE14000 (Flint 4)
     - GL-BE10000 (Slate 7 Pro)

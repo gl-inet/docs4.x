@@ -209,7 +209,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
     Parental Controlは、子どものデバイスを管理および制御するために設計されています。スクリーン時間の制限や特定コンテンツへのアクセス制限が含まれます。
 
-    保護者による制御の設定については、[Parental controls](../../interface_guide/parental_control.md)を参照してください。
+    ペアレンタルコントロールの設定については、[Parental Control](../../interface_guide/parental_control_v4.9.md)を参照してください。
 
 ## セキュリティ {#security}
 
@@ -227,9 +227,9 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
 === "NAT Mode"
 
-    NAT Settingsページでは、Full Cone NATとSIP ALG（Application Layer Gateway）機能を有効または無効にできます。
+    NAT Modeページでは、Full Cone NATとSIP ALG（Application Layer Gateway）機能を有効または無効にできます。
 
-    NAT設定については、[NAT Settings](../../interface_guide/nat_settings.md)を参照してください。
+    NAT設定については、[NAT Mode](../../interface_guide/nat_settings.md)を参照してください。
 
 ## アプリケーション {#applications}
 

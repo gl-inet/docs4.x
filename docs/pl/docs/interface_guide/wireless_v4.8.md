@@ -20,7 +20,7 @@ Ta strona umożliwia konfigurację oddzielnych sieci Wi‑Fi, w tym 2.4 GHz, 5 G
 ## MLO Wi-Fi {#mlo-wi-fi}
 
 | Obsługiwane modele          |   |
-| :-------------------------- |:-:|
+| :-------------------------- | :---: |
 | Flint 4 (GL-BE14000)           | √         |
 | Slate 7 Pro (GL-BE10000)    | √ |
 | Beryl 7 (GL-MT3600BE)       | √ |
@@ -52,6 +52,7 @@ Kliknij poniższe karty, aby dowiedzieć się więcej o ustawieniach głównej s
 
 | Obsługiwane modele       |   |
 | :----------------------- |:-:|
+| Flint 4 (GL-BE14000)     | √ |
 | Slate 7 Pro (GL-BE10000) | √ |
 | Mudi 7 (GL-E5800)        | √ |
 | Flint 3 (GL-BE9300)      | √ |

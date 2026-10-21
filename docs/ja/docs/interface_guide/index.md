@@ -15,7 +15,6 @@ hide:
 * [リピーターでインターネットに接続する方法](internet_repeater.md)
 * [USBテザリングでインターネットに接続する方法](internet_tethering.md)
 * [セルラーでインターネットに接続する方法](internet_cellular_v4.10.md)
-* [デュアルイーサネットWAN](ethernet_port.md#dual-ethernet-wan)
 
 ## ワイヤレス {#wireless}
 
@@ -45,27 +44,6 @@ hide:
 * [WireGuardクライアントを設定する](wireguard_client.md)
 * [WireGuardサーバーを設定する](wireguard_server.md)
 * [ExpressVPNアクティベーションガイド](expressvpn_activation_guide.md)
-* [VPNポリシー（ファームウェア v4.7 以前）](vpn_dashboard_v4.7.md#proxy-mode)
-* [VPNポリシー（ファームウェア v4.8 以降）](vpn_dashboard_v4.8.md#policy-mode)
-* [ルーターで NordVPN を設定する方法](openvpn_client.md#set-up-nordvpn)
-* [ルーターで AzireVPN を設定する方法](wireguard_client.md#set-up-azirevpn)
-* [ルーターで Mullvad VPN を設定する方法](wireguard_client.md#set-up-mullvad)
-* [OpenVPN では TCP と UDP のどちらを選ぶべきですか？](../faq/openvpn_tcp_udp.md)
-* [VPNキルスイッチ](../faq/block_non_vpn_traffic.md)
-* [VPNカスケード](../tutorials/how_to_use_vpn_cascading_on_glinet_routers.md)
-
-## アプリケーション {#applications}
-
-* [プラグイン](plugins.md)
-* [DDNS](ddns.md) - 動的IPアドレスに関連する問題を解消します。
-* [AdGuard Home](adguardhome.md)
-* [ネットワークストレージ](network_storage.md)
-* [ペアレンタルコントロール](parental_control.md)
-* [Bark](bark.md)
-* [Tailscale](tailscale.md)
-* [ZeroTier](zerotier.md)
-* [Tor](tor.md) - 個人のプライバシーを保護します。
-* [eSIM管理](esim_management.md)
 
 ## ネットワーク {#network}
 
@@ -78,11 +56,11 @@ hide:
 * [IoTネットワーク](iot_network.md)
 * [DNS](dns.md)
 * [イーサネットポート](ethernet_port.md)
-* [ネットワークモード](network_mode.md)
 * [IPv6](ipv6.md)
 * [MACアドレス](mac_address.md)
+* [IGMPスヌーピング](igmp_snooping.md) - ルーターでマルチキャスト機能を利用します。
+* [ネットワークモード](network_mode.md)
 * [ドロップインゲートウェイ](drop-in_gateway.md)
-* [IGMPスヌーピング](igmp_snooping.md) - ルーターでマルチキャスト機能を利用します
 * [ハードウェアアクセラレーション](hardware_acceleration.md)
 * [ネットワークアクセラレーション](network_acceleration.md)
 * [NAT設定](nat_settings.md)
@@ -105,22 +83,32 @@ hide:
 * [管理者アクセス](admin_access.md)
 * [NATモード](nat_settings.md)
 
+## アプリケーション {#applications}
+
+* [プラグイン](plugins.md)
+* [DDNS](ddns.md) - 動的IPアドレスに関連する問題を解消します。
+* [AdGuard Home](adguardhome.md)
+* [ネットワークストレージ](network_storage.md)
+* [ペアレンタルコントロール](parental_control.md)
+* [Bark](bark.md)
+* [Tailscale](tailscale.md)
+* [ZeroTier](zerotier.md)
+* [Tor](tor.md) - 個人のプライバシーを保護します。
+* [eSIM管理](esim_management.md)
+
 ## システム {#system}
 
-* [UI言語](ui_languages.md)
 * [システム概要](system_overview.md) - ハードウェアの状態やシステム情報を表示します。
-* Upgrade
-    * [Upgrade](upgrade.md)
-    * [公式ファームウェアのダウンロード方法](../faq/how_to_download_firmware.md)
-    * [3.x からファームウェア 4.x にアップグレードする方法](../faq/upgrade_to_4.md)
-* [スケジュールタスク](scheduled_tasks.md) - LED表示、Wi-Fi状態、再起動のスケジュールを設定します。
 * [管理者パスワードの変更](admin_password.md)
+* [Upgrade](upgrade.md)
+* [スケジュールタスク](scheduled_tasks.md) - LED表示、Wi-Fi状態、再起動のスケジュールを設定します。
 * [ディスプレイ管理](display_management.md)
 * [USB & Power](usb_power.md)
 * [タイムゾーン](time_zone.md)
 * [トグルボタン設定](toggle_button_settings.md)
-* [ログ](log.md)
 * [セキュリティ](security.md)
 * [ファームウェアのリセット](reset_firmware.md)
+* [ログ](log.md)
 * [詳細設定](advanced_settings.md)
+* [UI言語](ui_languages.md)
 * [ヘルプ](help.md)

@@ -252,10 +252,7 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 
     Drop-in Gateway amplía la funcionalidad del router principal, incluyendo AdGuard Home, DNS cifrado y cliente VPN.
 
-    Para configurar drop-in gateway, consulte estos enlaces:
-
-    - [Drop-in Gateway](../../interface_guide/drop-in_gateway.md)
-    - [Cómo configurar Drop-in Gateway](../../tutorials/how_to_set_up_drop_in_gateway.md)
+    Para configurar drop-in gateway, consulte [Cómo configurar Drop-in Gateway](../../tutorials/how_to_set_up_drop_in_gateway.md).
 
 ---
 

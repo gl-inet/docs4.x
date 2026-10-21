@@ -249,14 +249,11 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il disp
     
     Per configurarlo, fai riferimento a [IPV6](../../interface_guide/ipv6.md).
 
-=== "Drop-in gateway"
+=== "Drop-in Gateway"
 
-    Drop-in gateway estende le funzionalita del router principale, inclusi AdGuard Home, DNS crittografato e client VPN.
+    Drop-in Gateway estende le funzionalità del router principale con funzioni che potrebbe non avere, tra cui AdGuard Home, DNS crittografato e VPN.
     
-    Per configurarlo, fai riferimento ai seguenti link:
-    
-    - [Drop-in Gateway](../../interface_guide/drop-in_gateway.md)
-    - [Come configurare Drop-in Gateway](../../tutorials/how_to_set_up_drop_in_gateway.md)
+    Per configurarlo, fai riferimento a [Come configurare Drop-in Gateway](../../tutorials/how_to_set_up_drop_in_gateway.md).
 
 ---
 
@@ -320,12 +317,6 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il disp
 
     Per istruzioni dettagliate, fai riferimento a [Time Zone](../../interface_guide/time_zone.md).
 
-=== "Toggle Button Settings"
-
-    La pagina Toggle Button Settings consente di configurare il pulsante fisico del router, permettendo di assegnargli funzioni specifiche per un accesso e un controllo rapidi. Questa funzione offre scorciatoie pratiche per attivita e impostazioni comuni, migliorando l'esperienza d'uso e semplificando la gestione del router.
-
-    Per istruzioni dettagliate, fai riferimento a [Toggle Button Settings](../../interface_guide/toggle_button_settings.md).
-
 === "Log"
 
     La pagina Log offre accesso a vari registri che memorizzano attivita ed eventi del router, aiutando nella risoluzione dei problemi e nel monitoraggio delle prestazioni. Questa pagina include:
@@ -340,8 +331,6 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il disp
 
     Per istruzioni dettagliate, fai riferimento a [Log](../../interface_guide/log.md).
 
----
-
 === "Security"
 
     La pagina Security consente di configurare varie impostazioni di sicurezza per proteggere la rete e il router da accessi non autorizzati. Questa pagina include opzioni per:
@@ -354,6 +343,8 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il disp
     Queste impostazioni aiutano a mantenere un ambiente di rete sicuro, proteggendo sia il router sia i dispositivi collegati.
 
     Per istruzioni dettagliate, fai riferimento a [Security](../../interface_guide/security.md).
+
+---
 
 === "Reset Firmware"
 

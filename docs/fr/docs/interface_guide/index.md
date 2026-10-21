@@ -15,7 +15,6 @@ Découvrez comment utiliser nos appareils et leurs fonctionnalités complémenta
 * [Comment se connecter à Internet via Repeater](internet_repeater.md)
 * [Comment se connecter à Internet via le partage de connexion USB](internet_tethering.md)
 * [Comment se connecter à Internet via le réseau cellulaire](internet_cellular_v4.10.md)
-* [Dual-Ethernet WAN](ethernet_port.md#dual-ethernet-wan)
 
 ## Sans fil {#wireless}
 
@@ -45,27 +44,6 @@ Découvrez comment utiliser nos appareils et leurs fonctionnalités complémenta
 * [Configurer WireGuard Client](wireguard_client.md)
 * [Configurer WireGuard Server](wireguard_server.md)
 * [Guide d'activation d'ExpressVPN](expressvpn_activation_guide.md)
-* [Politique VPN (pour le firmware v4.7 et antérieur)](vpn_dashboard_v4.7.md#proxy-mode)
-* [Politique VPN (pour le firmware v4.8 et ultérieur)](vpn_dashboard_v4.8.md#policy-mode)
-* [Comment configurer NordVPN sur le routeur ?](openvpn_client.md#set-up-nordvpn)
-* [Comment configurer AzireVPN sur le routeur ?](wireguard_client.md#set-up-azirevpn)
-* [Comment configurer Mullvad VPN sur le routeur ?](wireguard_client.md#set-up-mullvad)
-* [Pour OpenVPN, quel protocole choisir : TCP ou UDP ?](../faq/openvpn_tcp_udp.md)
-* [Kill Switch VPN](../faq/block_non_vpn_traffic.md)
-* [Chaînage VPN](../tutorials/how_to_use_vpn_cascading_on_glinet_routers.md)
-
-## Applications {#applications}
-
-* [Plug-ins](plugins.md)
-* [DDNS](ddns.md) - pour contourner les problèmes liés aux adresses IP dynamiques.
-* [AdGuard Home](adguardhome.md)
-* [Stockage réseau](network_storage.md)
-* [Parental Control](parental_control.md)
-* [Bark](bark.md)
-* [Tailscale](tailscale.md)
-* [ZeroTier](zerotier.md)
-* [Tor](tor.md) - pour protéger la vie privée.
-* [Gestion de l'eSIM](esim_management.md)
 
 ## Réseau {#network}
 
@@ -78,11 +56,11 @@ Découvrez comment utiliser nos appareils et leurs fonctionnalités complémenta
 * [Réseau IoT](iot_network.md)
 * [DNS](dns.md)
 * [Port Ethernet](ethernet_port.md)
-* [Mode réseau](network_mode.md)
 * [IPv6](ipv6.md)
 * [Adresse MAC](mac_address.md)
+* [IGMP Snooping](igmp_snooping.md) - pour utiliser la fonction multicast sur le routeur.
+* [Mode réseau](network_mode.md)
 * [Drop-in Gateway](drop-in_gateway.md)
-* [IGMP Snooping](igmp_snooping.md) - pour utiliser la fonction multicast sur le routeur
 * [Accélération matérielle](hardware_acceleration.md)
 * [Accélération réseau](network_acceleration.md)
 * [Paramètres NAT](nat_settings.md)
@@ -105,22 +83,32 @@ Découvrez comment utiliser nos appareils et leurs fonctionnalités complémenta
 * [Accès administrateur](admin_access.md)
 * [Mode NAT](nat_settings.md)
 
+## Applications {#applications}
+
+* [Plug-ins](plugins.md)
+* [DDNS](ddns.md) - pour contourner les problèmes liés aux adresses IP dynamiques.
+* [AdGuard Home](adguardhome.md)
+* [Stockage réseau](network_storage.md)
+* [Parental Control](parental_control.md)
+* [Bark](bark.md)
+* [Tailscale](tailscale.md)
+* [ZeroTier](zerotier.md)
+* [Tor](tor.md) - pour protéger la vie privée.
+* [Gestion de l'eSIM](esim_management.md)
+
 ## Système {#system}
 
-* [Langues de l'interface](ui_languages.md)
 * [Vue d'ensemble du système](system_overview.md) - affiche certains états matériels et informations système.
-* Mise à jour
-    * [Mise à jour du firmware](upgrade.md)
-    * [Comment télécharger le firmware officiel ?](../faq/how_to_download_firmware.md)
-    * [Comment passer de la version 3.x au firmware 4.x ?](../faq/upgrade_to_4.md)
-* [Tâches planifiées](scheduled_tasks.md) - pour définir la planification de l'affichage LED, de l'état du Wi-Fi et du redémarrage.
 * [Changer le mot de passe administrateur](admin_password.md)
+* [Mise à jour du firmware](upgrade.md)
+* [Tâches planifiées](scheduled_tasks.md) - pour définir la planification de l'affichage LED, de l'état du Wi-Fi et du redémarrage.
 * [Gestion de l'affichage](display_management.md)
 * [USB et alimentation](usb_power.md)
 * [Fuseau horaire](time_zone.md)
 * [Paramètres du bouton à bascule](toggle_button_settings.md)
-* [Journal](log.md)
 * [Sécurité](security.md)
 * [Réinitialisation du firmware](reset_firmware.md)
+* [Journal](log.md)
 * [Paramètres avancés](advanced_settings.md)
+* [Langues de l'interface](ui_languages.md)
 * [Aide](help.md)

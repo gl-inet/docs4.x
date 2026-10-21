@@ -18,7 +18,7 @@ Questa pagina consente di gestire le funzioni delle porte Ethernet, WAN/LAN, e d
 
 Questa sezione mostra la funzione della porta, WAN o LAN, l'indirizzo MAC e la velocità negoziata.
 
-![wan](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/wan.png){class="glboxshadow"}
+![wan](https://static.gl-inet.com/docs/router/en/4/interface_guide/ethernet_port/wan.png){class="glboxshadow"}
 
 - **WAN/LAN**: la modalità operativa corrente della porta WAN fisica. Se necessario, puoi impostarla su LAN.
 

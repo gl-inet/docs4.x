@@ -18,7 +18,7 @@ Esta página le permite gestionar las funciones de los puertos Ethernet, WAN o L
 
 Esta sección muestra la función del puerto, WAN o LAN, la dirección MAC y la velocidad negociada.
 
-![wan](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/wan.png){class="glboxshadow"}
+![wan](https://static.gl-inet.com/docs/router/en/4/interface_guide/ethernet_port/wan.png){class="glboxshadow"}
 
 - **WAN/LAN**: El modo de funcionamiento actual del puerto WAN físico. Puede cambiarlo a LAN según sea necesario.
 

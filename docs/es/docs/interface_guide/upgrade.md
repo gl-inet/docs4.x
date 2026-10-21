@@ -4,7 +4,7 @@ En el lado izquierdo del panel de administración web, vaya a **SYSTEM** -> **Up
 
 En algunos modelos celulares, también puede actualizar la versión del módulo si es necesario.
 
-!!! Note
+!!! Warning
 
     Mantenga el router encendido durante la actualización. **NO** apague el router. El dispositivo se reiniciará automáticamente después de la actualización, lo que puede tardar unos minutos.
 
@@ -12,7 +12,9 @@ En algunos modelos celulares, también puede actualizar la versión del módulo 
 
 ### Actualización en línea {#online-upgrade}
 
-Aquí puede consultar la versión actual del firmware.
+La actualización en línea busca automáticamente el firmware oficial más reciente a través de Internet y completa la descarga y la instalación directamente en el router, lo que permite actualizar el firmware oficial con un solo clic siempre que el router esté conectado a Internet.
+
+Puede consultar la versión actual del firmware en **Firmware Online Upgrade**.
 
 ![upgrade](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/online_upgrade.png){class="glboxshadow"}
 
@@ -28,7 +30,9 @@ Aquí puede consultar la versión actual del firmware.
 
 ### Actualización local {#local-upgrade}
 
-Seleccione un archivo de firmware o arrástrelo y suéltelo para actualizar. Puede descargar el firmware desde nuestro [centro de descargas](https://dl.gl-inet.com){target="_blank"}.
+La actualización local permite cargar manualmente un archivo de firmware para instalarlo, de modo que puede actualizar, volver a una versión anterior o instalar firmware beta de versiones específicas para probar nuevas funciones.
+
+Primero descargue el archivo de firmware desde nuestro [centro de descargas](https://dl.gl-inet.com){target="_blank"} y, a continuación, vaya a **Firmware Local Upgrade**.
 
 ![local upgrade](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/local_upgrade.png){class="glboxshadow"}
 

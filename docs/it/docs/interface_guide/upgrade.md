@@ -4,22 +4,23 @@ Sul lato sinistro del pannello di amministrazione web, vai su **SYSTEM** -> **Up
 
 Per alcuni modelli cellulari, se necessario puoi anche aggiornare la versione del modulo.
 
-!!! Note
+!!! Warning
 
-    Mantieni l'alimentazione attiva durante l'aggiornamento. NON spegnere il router. Il dispositivo si riavvierà automaticamente dopo l'upgrade e l'operazione potrebbe richiedere alcuni minuti.
+    Mantieni l'alimentazione attiva durante l'aggiornamento. **NON** spegnere il router. Il dispositivo si riavvierà automaticamente dopo l'upgrade e l'operazione potrebbe richiedere alcuni minuti.
 
 ## Aggiornamento firmware {#firmware-upgrade}
 
 ### Aggiornamento online {#online-upgrade}
 
-Qui puoi trovare la versione firmware corrente.
+Online Upgrade verifica automaticamente via Internet la disponibilità del firmware ufficiale più recente e ne completa il download e il flashing direttamente sul router: è un modo pratico per aggiornare il firmware ufficiale con un clic, a condizione che il router sia connesso a Internet.
+
+Puoi trovare la versione firmware corrente in **Firmware Online Upgrade**.
 
 ![upgrade](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/online_upgrade.png){class="glboxshadow"}
 
 - **Accept Preview Plan**
 
     Se abilitata, questa opzione consente di provare nuove funzioni prima del rilascio della versione definitiva e inviare un feedback. Questi aggiornamenti potrebbero non essere stabili.
-
 
 **Nota**: se durante un aggiornamento online compare **Download Failed**, vai su System -> Time Zone e correggi l'errore del fuso orario, sincronizzazione con il browser.
 
@@ -29,11 +30,13 @@ Qui puoi trovare la versione firmware corrente.
 
 ### Aggiornamento locale {#local-upgrade}
 
-Seleziona un file firmware oppure trascinalo qui per eseguire l'upgrade. Puoi scaricare il firmware dal nostro [download center](https://dl.gl-inet.com){target="_blank"}.
+Local Upgrade consente di caricare manualmente un file firmware per il flashing, permettendo di eseguire l'upgrade, il downgrade o l'installazione di firmware beta di versioni specifiche per provare le nuove funzioni.
+
+Scarica prima il file firmware dal nostro [download center](https://dl.gl-inet.com){target="_blank"}, quindi vai su **Firmware Local Upgrade**.
 
 ![local upgrade](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/local_upgrade.png){class="glboxshadow"}
 
-Dopo il caricamento, verrà verificato il firmware.
+Seleziona il file oppure trascinalo nell'area di caricamento. Il sistema verificherà il firmware.
 
 ![local upgrade uploaded](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/local_upgrade_uploaded.png){class="glboxshadow"}
 

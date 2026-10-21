@@ -1,12 +1,12 @@
 # Port Forwarding {#port-forwarding}
 
-> Diese Anleitung gilt für Firmware v4.6 und höher. Für frühere Versionen lesen Sie bitte [Firewall](firewall.md).
+**Hinweis**: Diese Anleitung gilt für Firmware v4.6 und höher. Für frühere Versionen lesen Sie bitte [Firewall](firewall.md).
+
+---
 
 Gehen Sie auf der linken Seite des Web-Admin-Panels zu **NETWORK** -> **Port Forwarding**, oder zu **SECURITY** -> **Port Forwarding** (für Firmware v4.9 und höher).
 
 Auf dieser Seite können Sie Firewall-Regeln konfigurieren, darunter DMZ und Portweiterleitung.
-
-Hinweis: Um Router-Ports zu öffnen, navigieren Sie zu SYSTEM -> [Security](security.md), oder zu SECURITY -> [Admin Access](admin_access.md) (für Firmware v4.9 und höher).
 
 ## DMZ {#dmz}
 

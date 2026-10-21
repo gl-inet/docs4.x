@@ -176,6 +176,7 @@ Configurez votre Mudi 7 à l'aide de l'une des méthodes de connexion Internet p
     3. Le Mudi 7 se connectera ensuite automatiquement à votre appareil. Si ce n'est pas le cas, répétez les étapes ci-dessus, ou connectez-vous au panneau d'administration web et vérifiez la connexion USB Ethernet sur la page INTERNET.
     4. Une fois la connexion Internet établie, une icône USB et une icône de port Ethernet s'affichent dans l'angle supérieur droit de l'écran tactile. Vous pouvez également consulter les détails de la connexion dans le panneau d'administration web.
 
+    Pour en savoir plus sur l'USB-C OTG du Mudi 7, cliquez [ici](../../tutorials/what_is_usb-c_otg_and_how_to_share_your_network_via_usb-c_otg.md).
 
 ## Mise à niveau du firmware {#firmware-upgrade}
 

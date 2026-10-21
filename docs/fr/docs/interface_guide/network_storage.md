@@ -21,7 +21,7 @@ En général, les modèles équipés de ports USB ou d'emplacements MicroSD(TF) 
 Pour les appareils dotés d'une mémoire flash de 32MB ou moins, la fonction Network Storage n'est pas encore prise en charge.
 
 | Modèle de routeur                       | Samba | WebDAV | DLNA | Port USB | Carte MicroSD |
-| :------------------------------------- | :---: | :----: | :--: | :------: | :-----------: |
+| :------------------------------------- | :---: | :----: | :---: | :------: | :-----------: |
 | GL-MT6000 (Fortify)                    | √     | √     | √     | √        | -            |
 | GL-MG1300 (Mango 2)                    | √     | -     | -     | √        | -            |
 | GL-BE14000 (Flint 4)                   | √     | √     | √     | √        | -            |

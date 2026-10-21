@@ -15,7 +15,6 @@ Dowiedz się, jak korzystać z naszych urządzeń i dodatkowych funkcji, dzięki
 * [Jak połączyć się z Internetem przez Repeater](internet_repeater.md)
 * [Jak połączyć się z Internetem przez tethering USB](internet_tethering.md)
 * [Jak połączyć się z Internetem przez sieć komórkową](internet_cellular_v4.10.md)
-* [Dual-Ethernet WAN](ethernet_port.md#dual-ethernet-wan)
 
 ## Sieć bezprzewodowa {#wireless}
 
@@ -45,27 +44,6 @@ Dowiedz się, jak korzystać z naszych urządzeń i dodatkowych funkcji, dzięki
 * [Konfiguracja WireGuard Client](wireguard_client.md)
 * [Konfiguracja WireGuard Server](wireguard_server.md)
 * [Przewodnik aktywacji ExpressVPN](expressvpn_activation_guide.md)
-* [Polityka VPN (dla firmware v4.7 i wcześniejszych)](vpn_dashboard_v4.7.md#proxy-mode)
-* [Polityka VPN (dla firmware v4.8 i nowszych)](vpn_dashboard_v4.8.md#policy-mode)
-* [Jak skonfigurować NordVPN na routerze?](openvpn_client.md#set-up-nordvpn)
-* [Jak skonfigurować AzireVPN na routerze?](wireguard_client.md#set-up-azirevpn)
-* [Jak skonfigurować Mullvad VPN na routerze?](wireguard_client.md#set-up-mullvad)
-* [Który protokół wybrać dla OpenVPN: TCP czy UDP?](../faq/openvpn_tcp_udp.md)
-* [VPN Kill Switch](../faq/block_non_vpn_traffic.md)
-* [VPN Cascading](../tutorials/how_to_use_vpn_cascading_on_glinet_routers.md)
-
-## Aplikacje {#applications}
-
-* [Wtyczki](plugins.md)
-* [DDNS](ddns.md) - aby rozwiązać problemy związane z dynamicznymi adresami IP.
-* [AdGuard Home](adguardhome.md)
-* [Pamięć sieciowa](network_storage.md)
-* [Kontrola rodzicielska](parental_control.md)
-* [Bark](bark.md)
-* [Tailscale](tailscale.md)
-* [ZeroTier](zerotier.md)
-* [Tor](tor.md) - aby chronić prywatność użytkownika.
-* [Zarządzanie eSIM](esim_management.md)
 
 ## Sieć {#network}
 
@@ -78,11 +56,11 @@ Dowiedz się, jak korzystać z naszych urządzeń i dodatkowych funkcji, dzięki
 * [Sieć IoT](iot_network.md)
 * [DNS](dns.md)
 * [Port Ethernet](ethernet_port.md)
-* [Tryb sieci](network_mode.md)
 * [IPv6](ipv6.md)
 * [Adres MAC](mac_address.md)
-* [Drop-in Gateway](drop-in_gateway.md)
 * [IGMP Snooping](igmp_snooping.md) - aby korzystać z funkcji multicast na routerze
+* [Tryb sieci](network_mode.md)
+* [Drop-in Gateway](drop-in_gateway.md)
 * [Akceleracja sprzętowa](hardware_acceleration.md)
 * [Network Acceleration](network_acceleration.md)
 * [Ustawienia NAT](nat_settings.md)
@@ -105,22 +83,32 @@ Dowiedz się, jak korzystać z naszych urządzeń i dodatkowych funkcji, dzięki
 * [Dostęp administratora](admin_access.md)
 * [Tryb NAT](nat_settings.md)
 
+## Aplikacje {#applications}
+
+* [Wtyczki](plugins.md)
+* [DDNS](ddns.md) - aby rozwiązać problemy związane z dynamicznymi adresami IP.
+* [AdGuard Home](adguardhome.md)
+* [Pamięć sieciowa](network_storage.md)
+* [Kontrola rodzicielska](parental_control.md)
+* [Bark](bark.md)
+* [Tailscale](tailscale.md)
+* [ZeroTier](zerotier.md)
+* [Tor](tor.md) - aby chronić prywatność użytkownika.
+* [Zarządzanie eSIM](esim_management.md)
+
 ## System {#system}
 
-* [Języki interfejsu](ui_languages.md)
 * [Przegląd systemu](system_overview.md) - wyświetla część stanu sprzętu i informacje systemowe.
-* Aktualizacja
-    * [Aktualizacja](upgrade.md)
-    * [Jak pobrać oficjalne firmware?](../faq/how_to_download_firmware.md)
-    * [Jak zaktualizować firmware z wersji 3.x do 4.x?](../faq/upgrade_to_4.md)
-* [Zaplanowane zadania](scheduled_tasks.md) - umożliwia ustawienie harmonogramów dla wyświetlacza LED, stanu Wi-Fi i restartu.
 * [Zmiana hasła administratora](admin_password.md)
+* [Aktualizacja](upgrade.md)
+* [Zaplanowane zadania](scheduled_tasks.md) - umożliwia ustawienie harmonogramów dla wyświetlacza LED, stanu Wi-Fi i restartu.
 * [Zarządzanie wyświetlaczem](display_management.md)
 * [USB i zasilanie](usb_power.md)
 * [Strefa czasowa](time_zone.md)
 * [Ustawienia przycisku przełączania](toggle_button_settings.md)
-* [Log](log.md)
 * [Bezpieczeństwo](security.md)
 * [Reset firmware](reset_firmware.md)
+* [Log](log.md)
 * [Ustawienia zaawansowane](advanced_settings.md)
+* [Języki interfejsu](ui_languages.md)
 * [Pomoc](help.md)

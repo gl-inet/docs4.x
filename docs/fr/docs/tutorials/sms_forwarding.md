@@ -46,11 +46,11 @@ Les routeurs cellulaires GL.iNet prennent en charge le transfert de SMS, en envo
 
 Prenons le GL-XE3000 (Puli AX) comme exemple.
 
-Dans le panneau d'administration web, dans la barre latérale gauche, accédez à **INTERNET** -> **Cellular**.
+1. Consultez [ce lien](../interface_guide/internet_cellular.md) pour configurer d'abord votre routeur cellulaire.
 
-Cliquez sur l'icône d'enveloppe en haut à droite pour accéder à la page SMS, où vous trouverez les paramètres de transfert de SMS (**SMS Forwarding**).
+2. Connectez-vous au panneau d'administration web du routeur et accédez à **INTERNET** -> **Cellular**. Cliquez sur l'icône d'enveloppe en haut à droite pour accéder à la page SMS, où vous trouverez les paramètres de transfert de SMS (**SMS Forwarding**).
 
-![sms setting](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms.png){class="glboxshadow"}
+    ![sms setting](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms.png){class="glboxshadow"}
 
 ### Transfert par e-mail {#forward-via-email}
 

@@ -296,9 +296,7 @@ OpenVPN サーバーの設定方法は [こちら](openvpn_server.md) を参照�
 ??? "ExpressVPN"
     ### ExpressVPN {#expressvpn}
 
-    [公式サイト](https://go.expressvpn.com/c/4130682/1645813/16063){target="_blank"}
-
-    情報は [ExpressVPN 公式手順](https://www.expressvpn.com/support/vpn-setup/manual-config-for-linux-with-openvpn/#download){rel="sponsored" target="_blank"} を参照しています。
+    [公式サイト](https://go.expressvpn.com/c/4130682/1645813/16063){target="_blank"} | [30日間無料で試す](https://www.expressvpn.com/refer-a-friend/30-days-free?referrer_id=97477587){rel="sponsored" target="_blank"}
 
     1. [ExpressVPN](https://go.expressvpn.com/c/4130682/1645813/16063){rel="sponsored" target="_blank"} のサイトへアクセスし、ExpressVPN の認証情報でログインします。
 

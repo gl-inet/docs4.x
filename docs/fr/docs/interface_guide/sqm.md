@@ -2,7 +2,7 @@
 
 **Remarque** : cette fonction a été introduite dans le firmware v4.9.
 
-Certains modèles, notamment Mango 2 (GL-MG1300), ne prennent pas en charge den SQM en raison d’une mémoire insuffisante, même avec le firmware v4.9 ou une version ultérieure. Consultez les [modèles pris en charge](#supported-models) pour plus de détails.
+Certains modèles, notamment Mango 2 (GL-MG1300), ne prennent pas en charge le SQM en raison d’une mémoire insuffisante, même avec le firmware v4.9 ou une version ultérieure.
 
 ---
 

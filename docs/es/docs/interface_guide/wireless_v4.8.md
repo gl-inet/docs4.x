@@ -20,7 +20,7 @@ La página Wireless permite configurar redes Wi-Fi independientes, incluidas 2.4
 ## Wi-Fi MLO {#mlo-wi-fi}
 
 | Modelos compatibles      |     |
-| :----------------------- | :-: |
+| :----------------------- | :---: |
 | Flint 4 (GL-BE14000)           | √         |
 | Slate 7 Pro (GL-BE10000) |  √  |
 | Beryl 7 (GL-MT3600BE)    |  √  |
@@ -51,7 +51,8 @@ Haga clic en las pestañas siguientes para consultar la configuración de la Wi-
 ## Wi-Fi de 6 GHz {#6-ghz-wi-fi}
 
 | Modelos compatibles      |     |
-| :----------------------- | :-: |
+| :----------------------- | :---: |
+| Flint 4 (GL-BE14000)     |  √  |
 | Slate 7 Pro (GL-BE10000) |  √  |
 | Mudi 7 (GL-E5800)        |  √  |
 | Flint 3 (GL-BE9300)      |  √  |

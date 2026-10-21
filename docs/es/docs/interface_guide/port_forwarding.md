@@ -6,8 +6,6 @@ En el lado izquierdo del Panel de administración web, vaya a **NETWORK** -> **P
 
 Esta página le permite configurar reglas de firewall, incluidas **DMZ** y **Port Forwarding**.
 
-Nota: Para abrir puertos del router, vaya a SYSTEM -> [Security](security.md), o a SECURITY -> [Admin Access](admin_access.md) (para firmware v4.9 y versiones posteriores).
-
 ## DMZ {#dmz}
 
 La DMZ le permite exponer un equipo a Internet, por lo que todos los paquetes entrantes se redirigirán a ese equipo.

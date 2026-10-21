@@ -45,11 +45,11 @@ I router cellulari GL.iNet supportano l'inoltro SMS, inviando automaticamente i 
 
 Prendiamo come esempio il GL-XE3000 (Puli AX).
 
-Nel lato sinistro del pannello di amministrazione web, vai alla sezione **INTERNET** -> **Cellular**.
+1. Consulta [questo link](../interface_guide/internet_cellular.md) per configurare prima il router cellulare.
 
-Fai clic sull'icona della busta in alto a destra per entrare nella pagina SMS, dove troverai le impostazioni di inoltro SMS.
+2. Accedi al pannello di amministrazione web del router e vai su **INTERNET** -> **Cellular**. Fai clic sull'icona della busta in alto a destra per entrare nella pagina SMS, dove troverai le impostazioni di inoltro SMS.
 
-![sms setting](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms.png){class="glboxshadow"}
+    ![sms setting](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms.png){class="glboxshadow"}
 
 ### Inoltrare via email {#forward-via-email}
 

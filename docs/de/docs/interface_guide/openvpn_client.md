@@ -298,9 +298,6 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
 
     [Official Website](https://go.expressvpn.com/c/4130682/1645813/16063){target="_blank"} | [Get 30 days free](https://www.expressvpn.com/refer-a-friend/30-days-free?referrer_id=97477587){rel="sponsored" target="_blank"}
 
-
-    Informationen zitiert aus der [offiziellen ExpressVPN-Anleitung](https://www.expressvpn.com/support/vpn-setup/manual-config-for-linux-with-openvpn/#download){rel="sponsored" target="_blank"}
-
     1. Besuchen Sie die [ExpressVPN](https://go.expressvpn.com/c/4130682/1645813/16063){rel="sponsored" target="_blank"}-Website und melden Sie sich mit Ihren ExpressVPN-Zugangsdaten an.
 
         ![expressvpn account click sign in](https://static.gl-inet.com/docs/router/de/4/interface_guide/openvpn_client/expressvpn/expressvpn-account-click-sign-in.jpg){target="_blank"}
@@ -731,7 +728,7 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
 
     ![zoogvpn openvpn configuration files](https://static.gl-inet.com/docs/router/de/4/interface_guide/openvpn_client/zoogvpn/zoogvpn_openvpn_config_files.png)
 
-    Folgen Sie anschließend der [Anleitung zum Einrichten von OpenVPN Client auf einem GL.iNet-Router](#set-up-openvpn-client-on-glinet-routers). Benutzername und Passwort sind dieselben wie für die Anmeldung auf der ZoogVPN-Website.
+    Folgen Sie anschließend der [Anleitung zum Einrichten von OpenVPN Client auf einem GL.iNet-Router](#set-up-openvpn-client-manually-for-other-providers). Benutzername und Passwort sind dieselben wie für die Anmeldung auf der ZoogVPN-Website.
 
 ---
 

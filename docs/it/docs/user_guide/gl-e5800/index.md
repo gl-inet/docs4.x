@@ -173,6 +173,8 @@ Configura Mudi 7 usando uno dei metodi di connessione Internet supportati: Cellu
 
     3. Mudi 7 si colleghera quindi automaticamente al dispositivo. Se non si connette, ripeti i passaggi sopra oppure accedi al pannello di amministrazione web e controlla la connessione USB Ethernet nella pagina INTERNET.
     4. Quando la connessione a Internet va a buon fine, un'icona USB e un'icona della porta Ethernet compariranno nell'angolo superiore destro del touchscreen. Puoi anche controllare i dettagli della connessione nel pannello di amministrazione web.
+    
+    Per i dettagli sulla porta USB-C OTG di Mudi 7, fai clic [qui](../../tutorials/what_is_usb-c_otg_and_how_to_share_your_network_via_usb-c_otg.md).
 
 ## Aggiornamento firmware {#firmware-upgrade}
 

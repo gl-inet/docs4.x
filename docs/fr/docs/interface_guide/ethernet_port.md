@@ -18,7 +18,7 @@ Cette page vous permet de gérer le rôle des ports Ethernet (WAN/LAN) et d'affi
 
 Cette section affiche le rôle du port (WAN ou LAN), l'adresse MAC et la vitesse négociée. 
 
-![wan](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/wan.png){class="glboxshadow"}
+![wan](https://static.gl-inet.com/docs/router/en/4/interface_guide/ethernet_port/wan.png){class="glboxshadow"}
 
 - **WAN/LAN** : mode de fonctionnement actuel du port WAN physique. Vous pouvez le définir en LAN si nécessaire.
 

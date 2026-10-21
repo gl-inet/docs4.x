@@ -209,7 +209,7 @@ Una VPN (rete privata virtuale) crea una connessione sicura e crittografata tra 
 
     Parental Control e progettato per aiutarti a gestire e controllare i dispositivi dei tuoi figli. Include la limitazione del tempo di utilizzo dello schermo e la restrizione dell'accesso a determinati contenuti.
 
-    Per configurarlo, fai riferimento a [Parental controls](../../interface_guide/parental_control.md).
+    Per configurarlo, fai riferimento a [Parental Control](../../interface_guide/parental_control_v4.9.md).
 
 ## Sicurezza {#security}
 

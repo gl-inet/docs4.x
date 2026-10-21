@@ -70,7 +70,7 @@ Un singolo gruppo di tunnel VPN può contenere più profili di configurazione. G
 
 ### Dashboard ridisegnata {#redesigned-dashboard}
 
-La [VPN Dashboard](../interface_guide/vpn_dashboard.md) è stata completamente ridisegnata con un layout più intuitivo. Lo stato dei tunnel, i dettagli della connessione e le voci di configurazione sono presentati con maggiore chiarezza, migliorando notevolmente le attività quotidiane di gestione e amministrazione. Inoltre, nella nuova architettura, Kill Switch è abilitato per impostazione predefinita per tutti i tunnel VPN, in modo da proteggere sempre il traffico.
+Nel firmware v4.9, la [VPN Dashboard](../interface_guide/vpn_dashboard.md) è stata completamente ridisegnata con un layout più intuitivo. Lo stato dei tunnel, i dettagli della connessione e le voci di configurazione sono presentati con maggiore chiarezza, migliorando notevolmente le attività quotidiane di gestione e amministrazione. Inoltre, nella nuova architettura, Kill Switch è abilitato per impostazione predefinita per tutti i tunnel VPN, in modo da proteggere sempre il traffico.
 
 ![vpn dashboard](https://static.gl-inet.com/docs/router/en/4/features_update/4.9/vpn_dashboard.png){class="glboxshadow"}
 

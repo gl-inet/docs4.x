@@ -45,11 +45,11 @@ Los routers celulares GL.iNet admiten el reenvío de SMS y envían automáticame
 
 Tomemos el GL-XE3000 (Puli AX) como ejemplo.
 
-En el lado izquierdo del panel de administración web, vaya a **INTERNET** -> **Cellular**.
+1. Consulte [este enlace](../interface_guide/internet_cellular.md) para configurar primero su router celular.
 
-Haga clic en el icono del sobre situado en la esquina superior derecha para entrar en la página de SMS. Allí encontrará la configuración de **SMS Forwarding**.
+2. Inicie sesión en el panel de administración web del router y vaya a **INTERNET** -> **Cellular**. Haga clic en el icono del sobre situado en la esquina superior derecha para entrar en la página de SMS. Allí encontrará la configuración de **SMS Forwarding**.
 
-![sms setting](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms.png){class="glboxshadow"}
+    ![sms setting](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms.png){class="glboxshadow"}
 
 ### Reenviar por correo electrónico {#forward-via-email}
 

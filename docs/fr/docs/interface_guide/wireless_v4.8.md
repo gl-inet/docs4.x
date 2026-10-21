@@ -52,6 +52,7 @@ Cliquez sur les onglets ci-dessous pour en savoir plus sur les paramètres de Ma
 
 | Modèles pris en charge          |           |
 | :----------------------------- | :-------: |
+| Flint 4 (GL-BE14000)           | √         |
 | Slate 7 Pro (GL-BE10000)       | √         |
 | Mudi 7 (GL-E5800)              | √         |
 | Flint 3 (GL-BE9300)            | √         |

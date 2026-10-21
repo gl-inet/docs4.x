@@ -219,6 +219,8 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     Ces paramètres vous permettent d'optimiser les performances et la sécurité DNS de votre réseau selon vos besoins.
 
+    Pour obtenir des instructions de configuration détaillées et plus d'informations, consultez [DNS](../../interface_guide/dns.md).
+
 === "Network Mode"
 
     La page Network Mode vous permet de configurer votre routeur pour qu'il fonctionne selon différents modes, afin de répondre à divers besoins réseau. Les modes disponibles sont les suivants :

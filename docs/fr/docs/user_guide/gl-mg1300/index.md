@@ -209,7 +209,7 @@ Un VPN (réseau privé virtuel) crée une connexion sécurisée et chiffrée ent
 
     Parental Control est conçu pour vous aider à gérer et contrôler les appareils de vos enfants. Il permet notamment de limiter leur temps d'écran et de restreindre l'accès à certains contenus.
 
-    Pour configurer le contrôle parental, consultez [contrôle parental](../../interface_guide/parental_control.md).
+    Pour configurer le contrôle parental, consultez [contrôle parental](../../interface_guide/parental_control_v4.9.md).
 
 ## Sécurité {#security}
 

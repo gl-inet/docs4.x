@@ -245,74 +245,44 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il disp
 
 === "Network Mode"
 
-    La pagina Network Mode consente di configurare il router per operare in diverse modalita, offrendo flessibilita per soddisfare varie esigenze di rete. Le modalita disponibili includono:
-
-    * Router: funziona come router standard, gestendo il traffico tra la rete locale e Internet e fornendo funzionalita come NAT, firewall e DHCP.
-    * Access Point: funziona come punto di accesso, estendendo la rete cablata esistente tramite connettivita wireless senza instradare il traffico.
-    * Extender: funziona come range extender, ampliando il segnale della rete wireless esistente per coprire un'area piu ampia ed eliminare le zone d'ombra.
-    * WDS (Wireless Distribution System): simile alla modalita Extender; scegli WDS se il router principale supporta la modalita WDS.
-
-    Per istruzioni dettagliate e ulteriori informazioni, fai riferimento a [Network Mode](../../interface_guide/network_mode.md).
-
----
+    Network mode indica le impostazioni di configurazione che determinano come un dispositivo si connette a una rete e comunica con altri dispositivi.
+    
+    Per configurarlo, fai riferimento a [Network Mode](../../interface_guide/network_mode.md).
 
 === "IPv6"
 
-    La pagina IPv6 consente di configurare le impostazioni IPv6 della rete, offrendo supporto per il piu recente protocollo Internet. In questa pagina puoi abilitare IPv6 e scegliere tra quattro modalita diverse in base alle esigenze della rete:
-
-    * Native: ottiene un indirizzo IPv6 direttamente dal provider Internet, consentendo una connettivita IPv6 nativa semplice ed efficiente.
-    * Passthrough: permette al traffico IPv6 di attraversare il router fino ai dispositivi della rete, facendo di fatto da ponte senza che il router gestisca direttamente l'instradamento IPv6.
-    * NAT6: utilizza il Network Address Translation per IPv6 (NAT6) per tradurre tra indirizzi IPv6 interni ed esterni, in modo simile a quanto avviene con NAT per IPv4.
-    * Static IPv6: consente di configurare manualmente un indirizzo IPv6 statico per il router, offrendo un indirizzo fisso per una connettivita costante e una gestione piu semplice dei servizi di rete.
-
-    Queste impostazioni aiutano a sfruttare i vantaggi di IPv6, tra cui uno spazio di indirizzamento maggiore, funzionalita di sicurezza migliorate e prestazioni migliori.
-
-    Per istruzioni dettagliate e ulteriori informazioni, fai riferimento a [IPv6](../../interface_guide/ipv6.md).
-
-=== "MAC Address"
-
-    La pagina MAC Address consente di visualizzare e gestire gli indirizzi Media Access Control (MAC) associati al router. Le funzioni principali disponibili in questa pagina includono:
-
-    * Factory Default: mostra gli indirizzi MAC predefiniti del router per le modalita Ethernet e Repeater, fornendo un riferimento per le impostazioni hardware originali.
-    * Clone: clona l'indirizzo MAC di uno specifico dispositivo client. Questa funzione e particolarmente utile negli scenari in cui l'accesso alla rete e limitato a determinati dispositivi.
-    * Manual: consente di specificare manualmente un indirizzo MAC personalizzato per il router. Inoltre, puoi usare il pulsante Random per generare un indirizzo MAC casuale, offrendo maggiore flessibilita e privacy.
-
-    Queste funzioni consentono di gestire in modo efficace gli indirizzi MAC del router, garantendo compatibilita e flessibilita in diversi ambienti di rete.
-
-    Per istruzioni dettagliate e ulteriori informazioni, fai riferimento a [MAC Address](../../interface_guide/mac_address.md).
+    IPv6, o Internet Protocol version 6, è la versione più recente del protocollo Internet progettata per sostituire IPv4. Offre uno spazio di indirizzamento molto più ampio, permettendo un numero virtualmente illimitato di indirizzi IP univoci, elemento essenziale per il crescente numero di dispositivi collegati a Internet.
+    
+    Per configurarlo, fai riferimento a [IPV6](../../interface_guide/ipv6.md).
 
 === "Drop-in Gateway"
 
-    Drop-in Gateway estende le funzionalita del router principale con caratteristiche che potrebbe non avere, tra cui AdGuard Home, DNS crittografato e VPN. Per configurarlo, fai riferimento a [Come configurare Drop-in Gateway](../../tutorials/how_to_set_up_drop_in_gateway.md).
+    Drop-in Gateway estende le funzionalità del router principale, tra cui AdGuard Home, DNS crittografato e client VPN.
+    
+    Per configurarlo, fai riferimento ai seguenti link:
+    
+    - [Drop-in Gateway](../../interface_guide/drop-in_gateway.md)
+    - [Come configurare Drop-in Gateway](../../tutorials/how_to_set_up_drop_in_gateway.md)
 
 ---
 
 === "IGMP Snooping"
 
-    La pagina IGMP Snooping consente di configurare impostazioni che ottimizzano la gestione del traffico multicast nella rete. IGMP Snooping ascolta ed estrae informazioni dai pacchetti del protocollo IGMP, creando e mantenendo tabelle di inoltro multicast di livello 2. In questo modo, i dati dei gruppi multicast vengono inoltrati solo agli host che hanno aderito al gruppo multicast, evitando che traffico multicast indesiderato raggiunga altri host.
-
-    Queste impostazioni contribuiscono a ottimizzare prestazioni ed efficienza della rete, in particolare in ambienti con molto traffico multicast, ad esempio streaming video o giochi online.
-
-    Per istruzioni dettagliate e ulteriori informazioni, fai riferimento a [IGMP Snooping](../../interface_guide/igmp_snooping.md).
+    IGMP snooping è una tecnica di ottimizzazione della rete usata negli switch Ethernet per gestire e controllare il traffico multicast.
+    
+    Per configurarlo, fai riferimento a [IGMP Snooping](../../interface_guide/igmp_snooping.md).
 
 === "Network Acceleration"
 
-    La pagina Network Acceleration consente di abilitare funzioni che riducono il carico della CPU e accelerano l'inoltro dei pacchetti di traffico, migliorando le prestazioni complessive della rete. Tuttavia, l'abilitazione della network acceleration puo entrare in conflitto con alcune funzioni.
-
-    Per istruzioni dettagliate e ulteriori informazioni, fai riferimento a [Network Acceleration](../../interface_guide/network_acceleration.md).
+    Network acceleration può ridurre il carico della CPU e velocizzare l'inoltro dei pacchetti di traffico.
+    
+    Per configurarla, fai riferimento a [Network Acceleration](../../interface_guide/network_acceleration.md).
 
 === "NAT Settings"
 
-    La pagina NAT Settings consente di configurare opzioni di Network Address Translation (NAT) per ottimizzare applicazioni specifiche e migliorare le prestazioni di rete. Le principali impostazioni disponibili in questa pagina includono:
+    La pagina NAT Settings consente di abilitare o disabilitare le funzionalità Full Cone NAT e SIP ALG (Application Layer Gateway).
 
-    * Enable Full Cone NAT: Full Cone NAT puo essere usato per ridurre la latenza nei giochi, offrendo un percorso piu diretto e meno restrittivo per il traffico di rete. Tuttavia, puo essere meno sicuro, poiche consente agli host esterni di avviare piu facilmente connessioni verso i dispositivi interni.
-    * Enable SIP ALG: il Session Initiation Protocol Application Layer Gateway (SIP ALG) puo aiutare a mitigare i problemi causati da NAT multipli, che possono influire sui servizi VoIP. Tuttavia, nella maggior parte dei casi SIP ALG potrebbe non essere utile e puo causare problemi come audio unidirezionale, telefoni che non squillano, chiamate che cadono o che finiscono direttamente in segreteria.
-
-    Queste impostazioni consentono di adattare il comportamento NAT del router alle esigenze della rete, bilanciando miglioramenti di prestazione con considerazioni su sicurezza e funzionalita.
-
-    Per istruzioni dettagliate e ulteriori informazioni, fai riferimento a [NAT Settings](../../interface_guide/nat_settings.md).
-
----
+    Per configurarla, fai riferimento a [NAT Settings](../../interface_guide/nat_settings.md).
 
 ## Impostazioni di sistema {#system-settings}
 

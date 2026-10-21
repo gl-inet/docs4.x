@@ -52,6 +52,7 @@ Fai clic sulle schede qui sotto per conoscere le impostazioni di MLO Main Wi-Fi 
 
 | Modelli supportati              |           |
 | :------------------------------ | :-------: |
+| Flint 4 (GL-BE14000)            | √         |
 | Slate 7 Pro (GL-BE10000)        | √         |
 | Mudi 7 (GL-E5800)               | √         |
 | Flint 3 (GL-BE9300)             | √         |

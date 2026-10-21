@@ -66,7 +66,7 @@ Si sí tiene acceso a Internet, el problema puede estar relacionado con la confi
 A continuación se muestra información de ISP por región recopilada por GL.iNet a partir de comentarios de clientes, foros y recursos de OpenWrt, solo como referencia.
 
 | País/Región | ISP | Tipo de conexión | ID de VLAN | ¿Requiere clonación MAC? | Requisitos adicionales |
-| :---------- | :-- | :--------------- | :--------- | :----------------------- | :--------------------- |
+| :---------- | :--- | :--------------- | :--------- | :----------------------- | :--------------------- |
 | Estados Unidos | AT&T Fiber | DHCP (IP Passthrough) | N/A | No | Debe habilitar IP Passthrough; se requiere omitir la autenticación EAP |
 | Estados Unidos | Spectrum | DHCP | N/A | Sí (en algunas zonas) | Vinculación MAC estricta (requiere reiniciar el módem) |
 | Estados Unidos | Verizon Fios | DHCP | N/A | No | |

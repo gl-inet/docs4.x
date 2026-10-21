@@ -298,9 +298,6 @@ Se il provider a cui sei abbonato non è elencato di seguito, contatta il relati
 
     [Official Website](https://go.expressvpn.com/c/4130682/1645813/16063){target="_blank"} | [Get 30 days free](https://www.expressvpn.com/refer-a-friend/30-days-free?referrer_id=97477587){rel="sponsored" target="_blank"}
 
-
-    Informazioni tratte dalle [istruzioni ufficiali ExpressVPN](https://www.expressvpn.com/support/vpn-setup/manual-config-for-linux-with-openvpn/#download){rel="sponsored" target="_blank"}
-
     1. Vai sul sito [ExpressVPN](https://go.expressvpn.com/c/4130682/1645813/16063){rel="sponsored" target="_blank"} e accedi con le credenziali ExpressVPN.
 
         ![expressvpn account click sign in](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/expressvpn/expressvpn-account-click-sign-in.jpg){target="_blank"}

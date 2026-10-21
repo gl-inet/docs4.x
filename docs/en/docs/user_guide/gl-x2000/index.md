@@ -29,7 +29,7 @@ The following describes the LED states for different events. To see all statuses
 | Internet connected                    | Green                     | Green               | Green  | Green | Green    |
 | No internet                           | Green                     | Off                 | Green  | Green | Green    |
 | Firmware updating                     | Green                     | Blinking every 0.5s | Blinking every 0.5s | Blinking every 0.5s | Green    | 
-| Network reset (press "reset" for 5s)  | Blinkng every 1s          | Green               | Green  | Green | Green    |
+| Network reset (press "reset" for 5s)  | Blinking every 1s         | Green               | Green  | Green | Green    |
 | Factory reset (press "reset" for 10s) | Fast blinking every 0.25s | Green               | Green  | Green | Green    | 
 
 ## How to set up Spitz Plus {#how-to-set-up-spitz-plus}

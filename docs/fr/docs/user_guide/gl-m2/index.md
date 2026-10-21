@@ -4,7 +4,7 @@
 
 Le GL-M2 est une carte de développement 5G destinée aux passionnés de DIY qui souhaitent créer leurs propres routeurs et modems. Grâce à son module 5G et à ses antennes 5G, il fournit une connexion cellulaire 5G de qualité.
 
-![gl-2 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-m2/hardware_info/gl-m2_interface.jpg){class="glboxshadow"}
+![gl-m2 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-m2/hardware_info/gl-m2_interface.jpg){class="glboxshadow"}
 
 [Spécifications du GL-M2](https://www.gl-inet.com/products/gl-m2/#specs){target="_blank"}
 

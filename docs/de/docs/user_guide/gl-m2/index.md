@@ -4,7 +4,7 @@
 
 GL-M2 ist ein 5G-Entwicklungsboard für DIY-Enthusiasten, die ihre eigenen Router und Modems bauen möchten. Mit dem 5G-Modul und den 5G-Antennen des GL-M2 stellt es eine hochwertige 5G-Mobilfunkverbindung bereit.
 
-![gl-2 interface](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-m2/hardware_info/gl-m2_interface.jpg){class="glboxshadow"}
+![gl-m2 interface](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-m2/hardware_info/gl-m2_interface.jpg){class="glboxshadow"}
 
 [GL-M2 specifications](https://www.gl-inet.com/products/gl-m2/#specs){target="_blank"}
 

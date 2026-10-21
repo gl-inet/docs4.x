@@ -4,7 +4,7 @@
 
 GL-M2 es una placa de desarrollo 5G para entusiastas del DIY que desean construir sus propios routers y módems. Con el módulo 5G y las antenas 5G de GL-M2, ofrece una red celular 5G de alta calidad.
 
-![gl-2 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-m2/hardware_info/gl-m2_interface.jpg){class="glboxshadow"}
+![gl-m2 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-m2/hardware_info/gl-m2_interface.jpg){class="glboxshadow"}
 
 [Especificaciones del GL-M2](https://www.gl-inet.com/products/gl-m2/#specs){target="_blank"}
 

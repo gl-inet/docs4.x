@@ -4,7 +4,7 @@
 
 GL-M2 — плата розробки 5G для ентузіастів, які хочуть створювати власні маршрутизатори й модеми. Модуль 5G та антени 5G на GL-M2 забезпечують якісне стільникове підключення 5G.
 
-![Інтерфейси gl-2](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-m2/hardware_info/gl-m2_interface.jpg){class="glboxshadow"}
+![Інтерфейси gl-m2](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-m2/hardware_info/gl-m2_interface.jpg){class="glboxshadow"}
 
 [Технічні характеристики GL-M2](https://www.gl-inet.com/products/gl-m2/#specs){target="_blank"}
 

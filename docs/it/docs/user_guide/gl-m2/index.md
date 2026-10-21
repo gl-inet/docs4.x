@@ -4,7 +4,7 @@
 
 GL-M2 e una scheda di sviluppo 5G per appassionati di fai-da-te che desiderano costruire il proprio router o modem. Grazie al modulo 5G di GL-M2 e alle antenne 5G, offre una rete cellulare 5G di alta qualità.
 
-![gl-2 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-m2/hardware_info/gl-m2_interface.jpg){class="glboxshadow"}
+![gl-m2 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-m2/hardware_info/gl-m2_interface.jpg){class="glboxshadow"}
 
 [Specifiche GL-M2](https://www.gl-inet.com/products/gl-m2/#specs){target="_blank"}
 

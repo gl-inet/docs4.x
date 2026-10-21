@@ -4,7 +4,7 @@
 
 GL-M2は、ルーターやモデムを自作したいDIY愛好家向けの5G開発ボードです。GL-M2の5Gモジュールと5Gアンテナにより、高品質な5Gセルラーネットワークを提供します。
 
-![gl-2 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-m2/hardware_info/gl-m2_interface.jpg){class="glboxshadow"}
+![gl-m2 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-m2/hardware_info/gl-m2_interface.jpg){class="glboxshadow"}
 
 [GL-M2 仕様](https://www.gl-inet.com/products/gl-m2/#specs){target="_blank"}
 

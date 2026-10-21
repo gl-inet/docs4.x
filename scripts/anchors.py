@@ -39,7 +39,7 @@ from markdown.extensions.toc import slugify
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DOCS_ROOT = REPO_ROOT / "docs"
 SOURCE_LANG = "en"
-LANGS = ("en", "de", "es", "fr", "it", "ja", "pl", "uk")
+LANGS = ("en", "de", "es", "fr", "it", "ja", "nl", "pl", "sv", "uk")
 
 # Keep in sync with markdown_extensions in docs/<lang>/mkdocs.yml.
 MD_EXTENSIONS = [

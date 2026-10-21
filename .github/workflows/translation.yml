@@ -190,7 +190,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          for lang in de es fr it ja pl uk; do
+          for lang in de es fr it ja nl pl sv uk; do
             echo "BUILD $lang"
             mkdocs build -f "docs/$lang/mkdocs.yml" --strict
           done
@@ -212,7 +212,7 @@ jobs:
         if: always()
         shell: bash
         run: |
-          for lang in de es fr it ja pl uk; do
+          for lang in de es fr it ja nl pl sv uk; do
             rm -rf "docs/$lang/site"
           done
 

@@ -43,7 +43,7 @@ from dataclasses import dataclass, field
 from typing import Iterable
 
 
-DEFAULT_LANGS = ("de", "es", "fr", "it", "ja", "pl", "uk")
+DEFAULT_LANGS = ("de", "es", "fr", "it", "ja", "nl", "pl", "sv", "uk")
 DEFAULT_EXTENSIONS = (".md", ".yml", ".yaml", ".html", ".js", ".css")
 DEFAULT_EXCLUDE_DIRS = {"site", ".git", "__pycache__"}
 EXCLUDED_SOURCE_PATHS = {"docs/en/docs/downloads/index.md"}

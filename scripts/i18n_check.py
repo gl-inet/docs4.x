@@ -402,7 +402,7 @@ PROSE_STRIP_RES = (
     re.compile(r"\]\([^)]*\)"),  # link targets
     re.compile(r"`[^`\n]+`"),  # inline code
     re.compile(r"\*\*[^*\n]+\*\*"),  # bold UI labels
-    re.compile(r'"[^"\n]*"|„[^“”\n]*[“”]|“[^”\n]*”|«[^»\n]*»|「[^」\n]*」|『[^』\n]*』'),  # quoted messages
+    re.compile(r'"[^"\n]*"|„[^“”\n]*[“”]|“[^”\n]*”|”[^”\n]*”|‘[^’\n]*’|«[^»\n]*»|「[^」\n]*」|『[^』\n]*』'),  # quoted messages
     re.compile(r"(?<![*\w])\*[^*\n]+\*(?![*\w])|(?<!\w)_[^_\n]+_(?!\w)"),  # italics
     re.compile(r"<[^>]+>"),  # HTML tags
     re.compile(r"https?://\S+"),
@@ -418,6 +418,10 @@ ENGLISH_MARKERS = frozenset(
     "if is of for can be not has have been".split()
 )
 HEADING_MARKERS = (ENGLISH_MARKERS - {"of", "for"}) | {"how", "what", "why"}
+ENGLISH_MARKER_EXCLUSIONS = {
+    "nl": {"is", "of", "been", "have"},
+    "sv": {"is", "be", "for"},
+}
 # ASCII text that does not continue into a non-ASCII letter (Polish "hasło").
 ASCII_RUN_RE = re.compile(r"(?<![^\W\d_])[A-Za-z][A-Za-z0-9'’.,()/&+ -]*[A-Za-z0-9)](?![^\W\d_])")
 ASCII_WORD_RE = re.compile(r"(?<![\w-])[A-Za-z]+(?:['’][a-z]+)?(?![\w-])")
@@ -431,9 +435,9 @@ ITALIAN_ACCENT_WORDS = (
 ).split()
 # (check, languages, pattern, message)
 TEXT_RULES = (
-    ("foreign-script", {"de", "es", "fr", "it", "pl", "uk"}, re.compile(r"[぀-ヿ㐀-鿿가-힯]+"),
+    ("foreign-script", {"de", "es", "fr", "it", "nl", "pl", "sv", "uk"}, re.compile(r"[぀-ヿ㐀-鿿가-힯]+"),
      "Chinese, Japanese or Korean characters"),
-    ("foreign-script", {"de", "es", "fr", "it", "pl", "ja"}, re.compile(r"[Ѐ-ӿ]+"), "Cyrillic characters"),
+    ("foreign-script", {"de", "es", "fr", "it", "nl", "pl", "sv", "ja"}, re.compile(r"[Ѐ-ӿ]+"), "Cyrillic characters"),
     ("foreign-script", {"ja"}, re.compile(r"[가-힯]+"), "Korean characters"),
     ("spelling", {"uk"}, re.compile(r"\w*[ыэъёЫЭЪЁ]\w*"), "Russian letter; use Ukrainian spelling"),
     ("spelling", {"ja"}, re.compile(r"隧道"), "use トンネル"),
@@ -489,12 +493,15 @@ def prose_lines(page: Page):
 
 
 def check_text(lang: str, page: Page, issues: list[Issue]) -> None:
+    exclusions = ENGLISH_MARKER_EXCLUSIONS.get(lang, set())
+    english_markers = ENGLISH_MARKERS - exclusions
+    heading_markers = HEADING_MARKERS - exclusions
     for line, text in prose_lines(page):
         heading = text.lstrip().startswith("#")
         for run in ASCII_RUN_RE.findall(text):
             words = [w.lower() for w in ASCII_WORD_RE.findall(run)]
-            markers = {w for w in words if w in ENGLISH_MARKERS}
-            if len(words) >= 4 and len(markers) >= 2 or heading and len(words) >= 3 and markers & HEADING_MARKERS:
+            markers = {w for w in words if w in english_markers}
+            if len(words) >= 4 and len(markers) >= 2 or heading and len(words) >= 3 and markers & heading_markers:
                 issues.append(Issue(lang, page.rel, "english-text", f"untranslated English: {short(run.strip(), 90)}", line=line))
         for check, langs, regex, message in TEXT_RULES:
             if lang in langs:

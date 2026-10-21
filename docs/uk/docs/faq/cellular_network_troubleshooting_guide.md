@@ -10,7 +10,7 @@
 
     ![Відомості про модем](https://static.gl-inet.com/docs/router/en/4/faq/cellular_troubleshoot/no_sim.png){class="glboxshadow"}
 
-    У прошивці ver.4.8 і новіших версіях натисніть **View More Information**, щоб знайти SIM ICCID.
+    У прошивці v4.8 і новіших версіях натисніть **View More Information**, щоб знайти SIM ICCID.
 
     Якщо цих відомостей немає, перезапустіть маршрутизатор. Якщо назва модема та IMEI й далі не розпізнаються, напишіть на [support@gl-inet.com](mailto:support@gl-inet.com).
 
@@ -30,13 +30,13 @@
 
     **2.2** Для деяких операторів потрібен **протокол 3G**. Перейдіть на 3G і повторіть перевірку.
 
-    У прошивці ver.4.7 і попередніх версіях відкрийте **Manual Setup** -> **Protocol**, виберіть **3G** і натисніть **Apply**.
+    У прошивці v4.7 і попередніх версіях відкрийте **Manual Setup** -> **Protocol**, виберіть **3G** і натисніть **Apply**.
 
     ![Налаштування стільникового підключення](https://static.gl-inet.com/docs/router/en/4/faq/cellular_troubleshoot/3.png){class="glboxshadow gl-90-desktop"}
 
     ![Налаштування стільникового підключення](https://static.gl-inet.com/docs/router/en/4/faq/cellular_troubleshoot/4.png){class="glboxshadow gl-90-desktop"}
 
-    У прошивці ver.4.8 і новіших версіях відкрийте **SIM Card Settings** -> **Protocol**, виберіть **3G** і натисніть **Apply**.
+    У прошивці v4.8 і новіших версіях відкрийте **SIM Card Settings** -> **Protocol**, виберіть **3G** і натисніть **Apply**.
 
     ![Налаштування стільникового підключення](https://static.gl-inet.com/docs/router/en/4/faq/cellular_troubleshoot/sim_settings_protocol.png){class="glboxshadow gl-90-desktop"}
 
@@ -46,7 +46,7 @@
 
     ![Налаштування стільникового підключення](https://static.gl-inet.com/docs/router/en/4/faq/cellular_troubleshoot/sim_settings_apn.png){class="glboxshadow gl-90-desktop"}
 
-    **2.4** Увімкніть **Band Masking** і повторіть перевірку. Для прошивки ver.4.7 і попередніх версій див. [цю інструкцію](../interface_guide/internet_cellular_v4.7.md#band-masking), для ver.4.8 і новіших — [цю інструкцію](../interface_guide/internet_cellular.md#band-masking).
+    **2.4** Увімкніть **Band Masking** і повторіть перевірку. Для прошивки v4.7 і попередніх версій див. [цю інструкцію](../interface_guide/internet_cellular_v4.7.md#band-masking), для v4.8 і новіших — [цю інструкцію](../interface_guide/internet_cellular.md#band-masking).
 
     **2.5** Зафіксуйте базову станцію або скасуйте її фіксацію та повторіть перевірку. Ця функція доступна лише на GL-X3000 (Spitz AX), GL-XE3000 (Puli AX) і GL-X2000 (Spitz Plus). Докладні інструкції наведено [тут](../interface_guide/internet_cellular.md#lock-tower).
 

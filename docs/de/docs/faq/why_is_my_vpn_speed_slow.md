@@ -53,7 +53,7 @@ Einige Internetdienstanbieter (ISPs), insbesondere Mobilfunkanbieter, können di
 
 Für Firmware v4.8 und höher siehe bitte [hier](../interface_guide/vpn_dashboard_v4.8.md#tunnel-options).
 
-Für Firmware v4.7 und früher siehe bitte [hier](../interface_guide/vpn_dashboard_v4.7.md#vpn-client).
+Für Firmware v4.7 und früher siehe bitte [hier](../interface_guide/vpn_dashboard_v4.7.md#client-options).
 
 ---
 

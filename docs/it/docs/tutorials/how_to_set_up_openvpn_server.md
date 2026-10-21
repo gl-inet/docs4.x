@@ -73,11 +73,11 @@ Per connetterti al server OpenVPN ti serve un client OpenVPN. Puoi configurarlo 
     1. Su un altro dispositivo, collegati a una rete Wi-Fi diversa, oppure alla rete cellulare se stai usando un dispositivo mobile.
     2. Invia al dispositivo il file di configurazione scaricato in precedenza, ad esempio via email, poi scaricalo sul dispositivo.
     3. Scarica OpenVPN Connect per il sistema operativo del tuo dispositivo:
-        * [Windows](https://openvpn.net/client/client-connect-vpn-for-windows/)
-        * [Mac](https://openvpn.net/client-connect-vpn-for-mac-os/)
+        * [Windows](https://openvpn.net/client/)
+        * [Mac](https://openvpn.net/client/)
         * [Android](https://play.google.com/store/apps/details?id=net.openvpn.openvpn&hl=en&gl=US&pli=1)
         * [iOS](https://apps.apple.com/us/app/openvpn-connect-openvpn-app/id590379981)
-        * [Linux](https://openvpn.net/openvpn-client-for-linux/)
+        * [Linux](https://openvpn.net/client/)
     4. Nell'app, leggi termini e condizioni, poi seleziona **Agree**.
     5. Seleziona **Upload File**.
     ![upload file](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/tap-upload-file.png){class="glboxshadow"}

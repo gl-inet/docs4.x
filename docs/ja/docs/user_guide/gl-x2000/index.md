@@ -167,15 +167,15 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
     
     Spitz Plus（および他のGL.iNetルーター）は、強度なセキュリティを提供するOpenVPNプロトコルをサポートしています。OpenVPNを設定するには、以下のチュートリアルに従ってください：
 
-    * [OpenVPNクライアントの設定方法](https://docs.gl-inet.com/router/en/4/interface_guide/openvpn_client/)
-    * [OpenVPNサーバーの設定方法](https://docs.gl-inet.com/router/en/4/interface_guide/openvpn_server/)
+    * [OpenVPNクライアントの設定方法](../../interface_guide/openvpn_client.md)
+    * [OpenVPNサーバーの設定方法](../../interface_guide/openvpn_server.md)
 
 === "WireGuard"
     
     Spitz Plus（および他のGL.iNetルーター）は、高速性と利便性を提供するWireGuardプロトコルをサポートしています。WireGuardを設定するには、以下のチュートリアルに従ってください：
 
-    * [WireGuardクライアントの設定方法](https://docs.gl-inet.com/router/en/4/interface_guide/wireguard_client/)
-    * [WireGuardサーバーの設定方法](https://docs.gl-inet.com/router/en/4/interface_guide/wireguard_server/)
+    * [WireGuardクライアントの設定方法](../../interface_guide/wireguard_client.md)
+    * [WireGuardサーバーの設定方法](../../interface_guide/wireguard_server.md)
 
 ## アプリケーション {#applications}
 
@@ -201,7 +201,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
 === "AdGuard Home"
 
-    AdGuard Homeは、広告をブロックして追跡をブロックし安全に保つサードパーティツールです。AdGuard Homeを有効にする方法については、[AdGuard Home](https://docs.gl-inet.com/router/en/4/interface_guide/adguardhome/)を参照してください。
+    AdGuard Homeは、広告をブロックして追跡をブロックし安全に保つサードパーティツールです。AdGuard Homeを有効にする方法については、[AdGuard Home](../../interface_guide/adguardhome.md)を参照してください。
 
 === "ペアレンタルコントロール"
 
@@ -229,13 +229,13 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
 === "ポート転送"
 
-    ポート転送により、リモートサーバーとインターネット上のデバイスがプライベートネットワーク上のデバイスにアクセスできます。ポート転送の設定については、[ポート転送](https://docs.gl-inet.com/router/en/4/interface_guide/firewall/#port-forwards)を参照してください。
+    ポート転送により、リモートサーバーとインターネット上のデバイスがプライベートネットワーク上のデバイスにアクセスできます。ポート転送の設定については、[ポート転送](../../interface_guide/port_forwarding.md)を参照してください。
 
 === "Multi-WAN"
 
     Multi-WANは、ルーターを同時に複数のインターネット接続（セルラー、Repeater、Ethernetなど）で設定できるネットワーク機能です。現在のインターネット接続が失敗した場合、ルーターは自動的に別のインターネット接続に切り替えします。これにより、滑らかで途切れないインターネットアクセスが確保されます。
     
-    Multi-WANの設定については、[Multi-WAN](https://docs.gl-inet.com/router/en/4/interface_guide/multi-wan/)を参照してください。
+    Multi-WANの設定については、[Multi-WAN](../../interface_guide/multi-wan.md)を参照してください。
 
 === "LAN"
 
@@ -279,7 +279,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
 === "Drop-in Gateway"
 
-    Drop-in Gatewayは、AdGuard Home、暗号化されたDNS、VPNなど、メインルーターにことのない機能を拡張します。Drop-in Gatewayの設定については、[Drop-in Gatewayの設定方法](https://docs.gl-inet.com/router/en/4/tutorials/how_to_set_up_drop_in_gateway/)を参照してください。
+    Drop-in Gatewayは、AdGuard Home、暗号化されたDNS、VPNなど、メインルーターにことのない機能を拡張します。Drop-in Gatewayの設定については、[Drop-in Gatewayの設定方法](../../tutorials/how_to_set_up_drop_in_gateway.md)を参照してください。
 
 ---
 

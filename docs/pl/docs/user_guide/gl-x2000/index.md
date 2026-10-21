@@ -163,15 +163,15 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie międz
     
     Spitz Plus (oraz inne routery GL.iNet) obsługuje protokół OpenVPN, który zapewnia wysoki poziom bezpieczeństwa. Aby skonfigurować OpenVPN, skorzystaj z poniższych poradników:
 
-    * [Jak skonfigurować klienta OpenVPN](https://docs.gl-inet.com/router/en/4/interface_guide/openvpn_client/)
-    * [Jak skonfigurować serwer OpenVPN](https://docs.gl-inet.com/router/en/4/interface_guide/openvpn_server/)
+    * [Jak skonfigurować klienta OpenVPN](../../interface_guide/openvpn_client.md)
+    * [Jak skonfigurować serwer OpenVPN](../../interface_guide/openvpn_server.md)
 
 === "WireGuard"
     
     Spitz Plus (oraz inne routery GL.iNet) obsługuje protokół WireGuard, który oferuje wysoką szybkość i wygodę. Aby skonfigurować WireGuard, skorzystaj z poniższych poradników:
 
-    * [Jak skonfigurować klienta WireGuard](https://docs.gl-inet.com/router/en/4/interface_guide/wireguard_client/)
-    * [Jak skonfigurować serwer WireGuard](https://docs.gl-inet.com/router/en/4/interface_guide/wireguard_server/)
+    * [Jak skonfigurować klienta WireGuard](../../interface_guide/wireguard_client.md)
+    * [Jak skonfigurować serwer WireGuard](../../interface_guide/wireguard_server.md)
 
 ## Aplikacje {#applications}
 
@@ -197,7 +197,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie międz
 
 === "AdGuard Home"
 
-    AdGuard Home to narzędzie firm trzecich, które blokuje reklamy i śledzenie, zapewniając Ci bezpieczeństwo. Aby dowiedzieć się, jak włączyć AdGuard Home, zobacz [AdGuard Home](https://docs.gl-inet.com/router/en/4/interface_guide/adguardhome/). 
+    AdGuard Home to narzędzie firm trzecich, które blokuje reklamy i śledzenie, zapewniając Ci bezpieczeństwo. Aby dowiedzieć się, jak włączyć AdGuard Home, zobacz [AdGuard Home](../../interface_guide/adguardhome.md). 
 
 === "Parental Control"
 
@@ -225,13 +225,13 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie międz
 
 === "Port forwarding"
 
-    Przekierowanie portów umożliwia zdalnym serwerom i urządzeniom w internecie dostęp do urządzeń w sieci prywatnej. Aby skonfigurować przekierowanie portów, zobacz [Port Forwards](https://docs.gl-inet.com/router/en/4/interface_guide/firewall/#port-forwards). 
+    Przekierowanie portów umożliwia zdalnym serwerom i urządzeniom w internecie dostęp do urządzeń w sieci prywatnej. Aby skonfigurować przekierowanie portów, zobacz [Port Forwards](../../interface_guide/port_forwarding.md). 
 
 === "Multi-WAN"
 
     Multi-WAN to funkcja sieciowa, która umożliwia jednoczesne skonfigurowanie routera z wieloma połączeniami internetowymi (np. cellular, repeater i ethernet). Jeśli bieżące połączenie internetowe przestanie działać, router automatycznie przełączy się na inne połączenie internetowe. Dzięki temu dostęp do internetu pozostaje płynny i nieprzerwany. 
 
-    Aby skonfigurować Multi-WAN, zobacz [Multi-WAN](https://docs.gl-inet.com/router/en/4/interface_guide/multi-wan/). 
+    Aby skonfigurować Multi-WAN, zobacz [Multi-WAN](../../interface_guide/multi-wan.md). 
 
 === "LAN"
 
@@ -275,7 +275,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie międz
 
 === "Drop-in Gateway"
 
-    Drop-in Gateway rozszerza funkcjonalność głównego routera o funkcje, których może on nie mieć, w tym AdGuard Home, szyfrowany DNS i VPN. Aby skonfigurować Drop-in Gateway, zobacz [Jak skonfigurować Drop-in Gateway](https://docs.gl-inet.com/router/en/4/tutorials/how_to_set_up_drop_in_gateway/). 
+    Drop-in Gateway rozszerza funkcjonalność głównego routera o funkcje, których może on nie mieć, w tym AdGuard Home, szyfrowany DNS i VPN. Aby skonfigurować Drop-in Gateway, zobacz [Jak skonfigurować Drop-in Gateway](../../tutorials/how_to_set_up_drop_in_gateway.md). 
 
 ---
 

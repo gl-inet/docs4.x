@@ -53,7 +53,7 @@ Certains fournisseurs d'accès Internet (FAI), en particulier les opérateurs mo
 
 Pour le firmware v4.8 et supérieur, veuillez consulter [ici](../interface_guide/vpn_dashboard_v4.8.md#tunnel-options).
 
-Pour le firmware v4.7 et antérieur, veuillez consulter [ici](../interface_guide/vpn_dashboard_v4.7.md#vpn-client).
+Pour le firmware v4.7 et antérieur, veuillez consulter [ici](../interface_guide/vpn_dashboard_v4.7.md#client-options).
 
 ---
 

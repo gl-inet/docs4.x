@@ -74,11 +74,11 @@ OpenVPNサーバーに接続するには、OpenVPNクライアントが必要で
     1. 別のデバイスで別のWi-Fiネットワークに接続します（モバイルデバイスを使用している場合はモバイル通信でも構いません）。
     2. 先ほどダウンロードした設定ファイルを、そのデバイスに送信し（例: メール）、ダウンロードします。
     3. 使用するOS向けの OpenVPN Connect をダウンロードします。
-        * [Windows](https://openvpn.net/client/client-connect-vpn-for-windows/)
-        * [Mac](https://openvpn.net/client-connect-vpn-for-mac-os/)
+        * [Windows](https://openvpn.net/client/)
+        * [Mac](https://openvpn.net/client/)
         * [Android](https://play.google.com/store/apps/details?id=net.openvpn.openvpn&hl=en&gl=US&pli=1)
         * [iOS](https://apps.apple.com/us/app/openvpn-connect-openvpn-app/id590379981)
-        * [Linux](https://openvpn.net/openvpn-client-for-linux/)
+        * [Linux](https://openvpn.net/client/)
     4. アプリで利用規約を読み、**Agree** を選択します。
     5. **Upload File** を選択します。
     ![upload file](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/tap-upload-file.png){class="glboxshadow"}

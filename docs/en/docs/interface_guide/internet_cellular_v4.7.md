@@ -264,7 +264,7 @@ Choose the profiles you need.
 
 ## Lock Tower {#lock-tower}
 
-This feature is available only on selected models, such as GL-X3000, GL-XE3000, and GL-X2000 (firmware ver.4.7 or later).
+This feature is available only on selected models, such as GL-X3000, GL-XE3000, and GL-X2000 (firmware v4.7 or later).
 
 If you want to receive a high-quality signal and ensure a stable cellular connection, you can try locking tower.
 

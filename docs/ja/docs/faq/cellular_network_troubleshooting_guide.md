@@ -10,7 +10,7 @@
 
     ![modem name](https://static.gl-inet.com/docs/router/en/4/faq/cellular_troubleshoot/no_sim.png){class="glboxshadow"}
     
-    ファームウェアver.4.8以降では、**View More Information**をクリックしてSIM ICCIDを確認できます。
+    ファームウェアv4.8以降では、**View More Information**をクリックしてSIM ICCIDを確認できます。
 
     これらが表示されない場合は、ルーターを再起動してください。モデム名とIMEIが認識されない場合は、[support@gl-inet.com](mailto:support@gl-inet.com)までお問い合わせください。
     
@@ -30,13 +30,13 @@
     
     **2.2** 一部の通信事業者では**3Gプロトコル**での接続が必要な場合があります。3Gプロトコルに切り替え、再テストしてください。
 
-    ファームウェアver.4.7以前では、**Manual Setup** -> **Protocol**に移動し、**3G**を選択して**Apply**をクリックしてください。
+    ファームウェアv4.7以前では、**Manual Setup** -> **Protocol**に移動し、**3G**を選択して**Apply**をクリックしてください。
     
     ![](https://static.gl-inet.com/docs/router/en/4/faq/cellular_troubleshoot/3.png){class="glboxshadow gl-90-desktop"}
     
     ![](https://static.gl-inet.com/docs/router/en/4/faq/cellular_troubleshoot/4.png){class="glboxshadow gl-90-desktop"}
 
-    ファームウェアver.4.8以降では、**SIM Card Settings** -> **Protocol**に移動し、**3G**を選択して**Apply**をクリックしてください。
+    ファームウェアv4.8以降では、**SIM Card Settings** -> **Protocol**に移動し、**3G**を選択して**Apply**をクリックしてください。
 
     ![](https://static.gl-inet.com/docs/router/en/4/faq/cellular_troubleshoot/sim_settings_protocol.png){class="glboxshadow gl-90-desktop"}
 
@@ -46,7 +46,7 @@
 
     ![](https://static.gl-inet.com/docs/router/en/4/faq/cellular_troubleshoot/sim_settings_apn.png){class="glboxshadow gl-90-desktop"}
     
-    **2.4** **Band Masking**を有効にして再テストしてください。ファームウェアver.4.7以前については、[このリンク](../interface_guide/internet_cellular_v4.7.md#band-masking)を参照してください。ファームウェアver.4.8以降については、[このリンク](../interface_guide/internet_cellular.md#band-masking)を参照してください。
+    **2.4** **Band Masking**を有効にして再テストしてください。ファームウェアv4.7以前については、[このリンク](../interface_guide/internet_cellular_v4.7.md#band-masking)を参照してください。ファームウェアv4.8以降については、[このリンク](../interface_guide/internet_cellular.md#band-masking)を参照してください。
 
     **2.5** 通信基地局をロックまたはロック解除して再テストしてください。この機能はGL-X3000 (Spitz AX)、GL-XE3000 (Puli AX)、GL-X2000 (Spitz Plus)でのみ利用可能です。詳細については[ここ](../interface_guide/internet_cellular.md#lock-tower)をクリックしてください。
     

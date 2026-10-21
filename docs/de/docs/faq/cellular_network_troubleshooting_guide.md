@@ -10,7 +10,7 @@ Wenn Sie keine Mobilfunkverbindung herstellen können, prüfen Sie bitte die fol
 
     ![modem name](https://static.gl-inet.com/docs/router/de/4/faq/cellular_troubleshoot/no_sim.png){class="glboxshadow"}
     
-    Klicken Sie bei Firmware ver.4.8 und höher auf **View More Information**, um die SIM ICCID zu finden.
+    Klicken Sie bei Firmware v4.8 und höher auf **View More Information**, um die SIM ICCID zu finden.
 
     Wenn Sie diese Angaben nicht finden können, starten Sie Ihren Router neu. Wenn **Modem name** und IMEI weiterhin nicht erkannt werden, kontaktieren Sie uns bitte unter [support@gl-inet.com](mailto:support@gl-inet.com).
     
@@ -30,13 +30,13 @@ Wenn Sie keine Mobilfunkverbindung herstellen können, prüfen Sie bitte die fol
     
     **2.2** Einige Netzbetreiber erfordern möglicherweise das **3G**-Protokoll, um eine Verbindung herzustellen. Wechseln Sie zum 3G-Protokoll und testen Sie erneut.
 
-    Gehen Sie bei Firmware ver.4.7 und früher zu **Manual Setup** -> **Protocol**, wählen Sie **3G** aus und klicken Sie dann auf **Apply**.
+    Gehen Sie bei Firmware v4.7 und früher zu **Manual Setup** -> **Protocol**, wählen Sie **3G** aus und klicken Sie dann auf **Apply**.
     
     ![](https://static.gl-inet.com/docs/router/de/4/faq/cellular_troubleshoot/3.png){class="glboxshadow gl-90-desktop"}
     
     ![](https://static.gl-inet.com/docs/router/de/4/faq/cellular_troubleshoot/4.png){class="glboxshadow gl-90-desktop"}
 
-    Gehen Sie bei Firmware ver.4.8 und höher zu **SIM Card Settings** -> **Protocol**, wählen Sie **3G** aus und klicken Sie dann auf **Apply**.
+    Gehen Sie bei Firmware v4.8 und höher zu **SIM Card Settings** -> **Protocol**, wählen Sie **3G** aus und klicken Sie dann auf **Apply**.
 
     ![](https://static.gl-inet.com/docs/router/de/4/faq/cellular_troubleshoot/sim_settings_protocol.png){class="glboxshadow gl-90-desktop"}
 
@@ -46,7 +46,7 @@ Wenn Sie keine Mobilfunkverbindung herstellen können, prüfen Sie bitte die fol
 
     ![](https://static.gl-inet.com/docs/router/de/4/faq/cellular_troubleshoot/sim_settings_apn.png){class="glboxshadow gl-90-desktop"}
     
-    **2.4** Aktivieren Sie **Band Masking** und testen Sie erneut. Informationen für Firmware ver.4.7 und früher finden Sie [unter diesem Link](../interface_guide/internet_cellular_v4.7.md#band-masking). Informationen für Firmware ver.4.8 und höher finden Sie [unter diesem Link](../interface_guide/internet_cellular.md#band-masking).
+    **2.4** Aktivieren Sie **Band Masking** und testen Sie erneut. Informationen für Firmware v4.7 und früher finden Sie [unter diesem Link](../interface_guide/internet_cellular_v4.7.md#band-masking). Informationen für Firmware v4.8 und höher finden Sie [unter diesem Link](../interface_guide/internet_cellular.md#band-masking).
 
     **2.5** Sperren oder entsperren Sie einen Sendemast und testen Sie erneut. Diese Funktion ist nur auf GL-X3000 (Spitz AX), GL-XE3000 (Puli AX) und GL-X2000 (Spitz Plus) verfügbar. Klicken Sie [hier](../interface_guide/internet_cellular.md#lock-tower) für weitere Anweisungen.
     

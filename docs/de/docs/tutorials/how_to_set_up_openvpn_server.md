@@ -74,11 +74,11 @@ Um eine Verbindung mit dem OpenVPN-Server herzustellen, benötigen Sie einen Ope
     1. Verbinden Sie ein anderes Gerät mit einem anderen WLAN-Netzwerk (oder mit dem Mobilfunknetz, wenn Sie ein mobiles Gerät verwenden).
     2. Senden Sie die zuvor heruntergeladene Konfigurationsdatei an dieses Gerät (z. B. per E-Mail) und laden Sie die Datei dort herunter.
     3. Laden Sie OpenVPN Connect für das Betriebssystem Ihres Geräts herunter:
-        * [Windows](https://openvpn.net/client/client-connect-vpn-for-windows/)
-        * [Mac](https://openvpn.net/client/client-connect-vpn-for-mac-os/)
+        * [Windows](https://openvpn.net/client/)
+        * [Mac](https://openvpn.net/client/)
         * [Android](https://play.google.com/store/apps/details?id=net.openvpn.openvpn&hl=en&gl=US&pli=1)
         * [iOS](https://apps.apple.com/us/app/openvpn-connect-openvpn-app/id590379981)
-        * [Linux](https://openvpn.net/openvpn-client-for-linux/)
+        * [Linux](https://openvpn.net/client/)
     4. Lesen Sie in der App die Nutzungsbedingungen und wählen Sie dann **Agree**.
     5. Wählen Sie **Upload File**.
     ![upload file](https://static.gl-inet.com/docs/router/de/4/tutorials/build_your_own_openvpn_server/tap-upload-file.png){class="glboxshadow"}

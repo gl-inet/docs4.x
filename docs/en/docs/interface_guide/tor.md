@@ -54,7 +54,7 @@ Tor (derived from **The Onion Router**) is a free and open-source software for e
 
 On the left side of the web Admin Panel, go to **VPN** -> **Tor**. 
 
-For firmware ver.4.8.4 and later, go to **APPLICATIONS** -> **Tor**.
+For firmware v4.8.4 and later, go to **APPLICATIONS** -> **Tor**.
 
 Click the toggle switch to enable it, enable **Custom Exit Nodes** if required, then click **Apply**.
 

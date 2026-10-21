@@ -53,7 +53,7 @@ Alcuni Internet Service Provider (ISP), specialmente gli operatori mobili, posso
 
 Per firmware v4.8 e successivi, fai riferimento [qui](../interface_guide/vpn_dashboard_v4.8.md#tunnel-options).
 
-Per firmware v4.7 e precedenti, fai riferimento [qui](../interface_guide/vpn_dashboard_v4.7.md#vpn-client).
+Per firmware v4.7 e precedenti, fai riferimento [qui](../interface_guide/vpn_dashboard_v4.7.md#client-options).
 
 ---
 

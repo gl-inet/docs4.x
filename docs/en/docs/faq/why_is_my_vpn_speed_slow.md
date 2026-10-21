@@ -53,7 +53,7 @@ Some Internet Service Providers (ISPs), especially mobile carriers, may limit th
 
 For firmware v4.8 and above, please refer to [here](../interface_guide/vpn_dashboard_v4.8.md#tunnel-options). 
 
-For firmware v4.7 and earlier, please refer to [here](../interface_guide/vpn_dashboard_v4.7.md#vpn-client).
+For firmware v4.7 and earlier, please refer to [here](../interface_guide/vpn_dashboard_v4.7.md#client-options).
 
 ---
 

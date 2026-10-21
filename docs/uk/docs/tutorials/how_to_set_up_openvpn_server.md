@@ -74,11 +74,11 @@
     1. На іншому пристрої підключіться до іншої мережі Wi-Fi або до стільникової мережі, якщо це мобільний пристрій.
     2. Передайте отриманий файл конфігурації на пристрій, наприклад електронною поштою, і завантажте його на цей пристрій.
     3. Завантажте OpenVPN Connect для операційної системи пристрою:
-        * [Windows](https://openvpn.net/client/client-connect-vpn-for-windows/)
-        * [Mac](https://openvpn.net/client-connect-vpn-for-mac-os/)
+        * [Windows](https://openvpn.net/client/)
+        * [Mac](https://openvpn.net/client/)
         * [Android](https://play.google.com/store/apps/details?id=net.openvpn.openvpn&hl=en&gl=US&pli=1)
         * [iOS](https://apps.apple.com/us/app/openvpn-connect-openvpn-app/id590379981)
-        * [Linux](https://openvpn.net/openvpn-client-for-linux/)
+        * [Linux](https://openvpn.net/client/)
     4. У застосунку прочитайте умови та виберіть **Agree**.
     5. Виберіть **Upload File**.
     ![Імпорт файла в OpenVPN Connect](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/tap-upload-file.png){class="glboxshadow"}

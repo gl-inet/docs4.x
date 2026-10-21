@@ -53,7 +53,7 @@ OpenVPNやWireGuardなど、異なるVPNプロトコルはセキュリティと�
 
 ファームウェアv4.8以降の場合、[こちら](../interface_guide/vpn_dashboard_v4.8.md#tunnel-options)をご参照ください。
 
-ファームウェアv4.7以前の場合、[こちら](../interface_guide/vpn_dashboard_v4.7.md#vpn-client)をご参照ください。
+ファームウェアv4.7以前の場合、[こちら](../interface_guide/vpn_dashboard_v4.7.md#client-options)をご参照ください。
 
 ---
 

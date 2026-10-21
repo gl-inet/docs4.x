@@ -53,7 +53,7 @@ Algunos proveedores de servicios de Internet, ISP, especialmente los operadores 
 
 Para el firmware v4.8 y superior, consulte [aquí](../interface_guide/vpn_dashboard_v4.8.md#tunnel-options).
 
-Para el firmware v4.7 y anteriores, consulte [aquí](../interface_guide/vpn_dashboard_v4.7.md#vpn-client).
+Para el firmware v4.7 y anteriores, consulte [aquí](../interface_guide/vpn_dashboard_v4.7.md#client-options).
 
 ---
 

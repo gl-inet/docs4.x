@@ -53,7 +53,7 @@ Niektórzy dostawcy internetu (ISP), zwłaszcza operatorzy komórkowi, mogą ogr
 
 Dla firmware v4.8 i nowszego zobacz [tutaj](../interface_guide/vpn_dashboard_v4.8.md#tunnel-options).
 
-Dla firmware v4.7 i wcześniejszego zobacz [tutaj](../interface_guide/vpn_dashboard_v4.7.md#vpn-client).
+Dla firmware v4.7 i wcześniejszego zobacz [tutaj](../interface_guide/vpn_dashboard_v4.7.md#client-options).
 
 ---
 

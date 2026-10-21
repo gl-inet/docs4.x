@@ -6,9 +6,9 @@ Nel pannello di amministrazione web, fai clic sull'icona del punto interrogativo
 
 Puoi trovare i [Router Support Docs](https://docs.gl-inet.com/router/en/4){target="_blank"}.
 
-Dal firmware v4.8 puoi contattare il supporto tecnico con un solo clic, rendendo piu' semplice ottenere assistenza.
+Dal firmware v4.8 puoi contattare il supporto tecnico con un solo clic, rendendo più semplice ottenere assistenza.
 
-Fai clic su **Contact Tech Support** e verrai portato alla pagina Log; sulla destra apparira' una finestra pop-up.
+Fai clic su **Contact Tech Support** e verrai portato alla pagina Log; sulla destra apparirà una finestra pop-up.
 
 ![contact support](https://static.gl-inet.com/docs/router/en/4/interface_guide/help/contact_support.png){class="glboxshadow"}
 

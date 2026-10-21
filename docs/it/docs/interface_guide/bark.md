@@ -2,13 +2,13 @@
 
 > Questa guida si applica al firmware v4.9 e successivi. Per le versioni precedenti, fai clic [qui](parental_control.md#bark-version).
 
-Il servizio [Bark](https://www.bark.us/){target="_blank"} puo' aiutarti a proteggere il mondo digitale dei tuoi figli e a offrire una protezione online completa. In genere richiede un abbonamento a pagamento. Tuttavia, grazie alla nostra partnership con Bark, GL.iNet offre gratuitamente il piano Bark Home **su modelli di router selezionati**, fornendo monitoraggio avanzato e avvisi senza costi aggiuntivi.
+Il servizio [Bark](https://www.bark.us/){target="_blank"} può aiutarti a proteggere il mondo digitale dei tuoi figli e a offrire una protezione online completa. In genere richiede un abbonamento a pagamento. Tuttavia, grazie alla nostra partnership con Bark, GL.iNet offre gratuitamente il piano Bark Home **su modelli di router selezionati**, fornendo monitoraggio avanzato e avvisi senza costi aggiuntivi.
 
 **Nota**:
 
-1. Il servizio Bark e' disponibile **solo negli Stati Uniti, in Australia e in Sudafrica**. Fai clic [qui](https://support.bark.us/hc/en-us/articles/360049965072-International-availability){target="_blank"} per i dettagli.
+1. Il servizio Bark è disponibile **solo negli Stati Uniti, in Australia e in Sudafrica**. Fai clic [qui](https://support.bark.us/hc/en-us/articles/360049965072-International-availability){target="_blank"} per i dettagli.
 
-2. Bark e GL.iNet Parental Control non possono essere abilitati contemporaneamente, poiche' potrebbero verificarsi conflitti.
+2. Bark e GL.iNet Parental Control non possono essere abilitati contemporaneamente, poiché potrebbero verificarsi conflitti.
 
 ## Modelli supportati {#supported-models}
 
@@ -75,12 +75,12 @@ Verrai reindirizzato al sito web di Bark. Segui le istruzioni sullo schermo per 
 ![bark setup](https://static.gl-inet.com/docs/router/en/4/interface_guide/bark/bark7.png){class="glboxshadow"}
 <small>(Creazione di un profilo)</small>
 
-Una volta che il dispositivo si connette ai servizi Bark Cloud ed e' associato al tuo account, il pannello di amministrazione web del router verra' visualizzato come segue.
+Una volta che il dispositivo si connette ai servizi Bark Cloud ed è associato al tuo account, il pannello di amministrazione web del router verrà visualizzato come segue.
 
 ![bark status](https://static.gl-inet.com/docs/router/en/4/interface_guide/bark/bark8.png){class="glboxshadow"}
 
 Fai clic su **Go to Bark** oppure [qui](https://www.bark.us/app/children/?ref=glinet&home=glinet){target="_blank"} per accedere alla dashboard di Bark e configurare le regole di parental control.
 
-Poiche' GL.iNet non e' il fornitore di questo servizio, se riscontri problemi durante l'uso di Bark, contatta direttamente il [supporto tecnico di Bark](https://www.bark.us/contact-us/?ref=glinet&home=glinet){target="_blank"} per assistenza.
+Poiché GL.iNet non è il fornitore di questo servizio, se riscontri problemi durante l'uso di Bark, contatta direttamente il [supporto tecnico di Bark](https://www.bark.us/contact-us/?ref=glinet&home=glinet){target="_blank"} per assistenza.
 
 ---

@@ -1,8 +1,8 @@
 # Network Acceleration {#network-acceleration}
 
-L'accelerazione di rete riduce il carico della CPU e velocizza l'inoltro dei pacchetti di traffico, ma puo' entrare in conflitto con alcune funzioni.
+L'accelerazione di rete riduce il carico della CPU e velocizza l'inoltro dei pacchetti di traffico, ma può entrare in conflitto con alcune funzioni.
 
-Quando Network Acceleration e' abilitata, le seguenti funzioni non funzioneranno correttamente: Client Speed and Traffic Statistics, Client Speed Limit.
+Quando Network Acceleration è abilitata, le seguenti funzioni non funzioneranno correttamente: Client Speed and Traffic Statistics, Client Speed Limit.
 
 ## Modelli supportati {#supported-models}
 
@@ -46,23 +46,23 @@ Sul lato sinistro del pannello di amministrazione web, vai su **NETWORK** -> **N
 
 ![Network Acceleration](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_acceleration/network_acceleration.png){class="glboxshadow"}
 
-Sono disponibili tre modalita'.
+Sono disponibili tre modalità.
 
 - **Auto**
 
-    La modalita' Auto passera' automaticamente tra le due modalita' di accelerazione in base all'uso effettivo.
+    La modalità Auto passerà automaticamente tra le due modalità di accelerazione in base all'uso effettivo.
 
 - **Hardware Acceleration**
 
     L'accelerazione hardware funziona con <u>Ethernet</u> e <u>Repeater</u>.
 
-    L'accelerazione hardware delega attivita' di rete ad alta frequenza, ad esempio NAT, inoltro dei pacchetti e verifica del checksum, a hardware dedicato come NPU o chip HWNAT. Funziona in particolare su connessioni Ethernet, WAN/LAN cablate, e Repeater, offrendo ottime prestazioni in scenari con percorsi fissi e regole semplici, con throughput elevato, bassa latenza e carico minimo della CPU per la trasmissione dati a velocita' di linea.
+    L'accelerazione hardware delega attività di rete ad alta frequenza, ad esempio NAT, inoltro dei pacchetti e verifica del checksum, a hardware dedicato come NPU o chip HWNAT. Funziona in particolare su connessioni Ethernet, WAN/LAN cablate, e Repeater, offrendo ottime prestazioni in scenari con percorsi fissi e regole semplici, con throughput elevato, bassa latenza e carico minimo della CPU per la trasmissione dati a velocità di linea.
 
 - **Software Acceleration**
 
     L'accelerazione software funziona con <u>Cellular</u>.
 
-    L'accelerazione software si basa sulla CPU generale del router, affiancata da kernel o driver ottimizzati, ad esempio SWNAT. Funziona su accessi Cellular, 4G/5G, tipicamente lo scenario principale in cui l'accelerazione hardware non e' disponibile, offrendo una forte compatibilita' e supporto per protocolli complessi. Pur essendo flessibile, puo' raggiungere colli di bottiglia della CPU con carichi ad alta larghezza di banda, specialmente quando sono in uso funzioni avanzate come DPI, QoS o port forwarding.
+    L'accelerazione software si basa sulla CPU generale del router, affiancata da kernel o driver ottimizzati, ad esempio SWNAT. Funziona su accessi Cellular, 4G/5G, tipicamente lo scenario principale in cui l'accelerazione hardware non è disponibile, offrendo una forte compatibilità e supporto per protocolli complessi. Pur essendo flessibile, può raggiungere colli di bottiglia della CPU con carichi ad alta larghezza di banda, specialmente quando sono in uso funzioni avanzate come DPI, QoS o port forwarding.
 
 ---
 

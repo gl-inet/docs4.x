@@ -2,7 +2,7 @@
 
 Sul lato sinistro del pannello di amministrazione web, vai su **CLIENTS**.
 
-La pagina Client mostra le informazioni sui dispositivi connessi, inclusi nome del dispositivo, tipo di connessione, indirizzo IP, indirizzo MAC, velocita' e traffico, disposte da sinistra a destra.
+La pagina Client mostra le informazioni sui dispositivi connessi, inclusi nome del dispositivo, tipo di connessione, indirizzo IP, indirizzo MAC, velocità e traffico, disposte da sinistra a destra.
 
 ## Nome del dispositivo {#device-name}
 
@@ -20,7 +20,7 @@ Per modificare il nome e il tipo del dispositivo, fai clic sull'icona con i tre 
 
 L'icona blu sul lato destro del nome del dispositivo rappresenta il tipo/metodo di connessione del dispositivo.
 
-Indica come il dispositivo e' collegato alla rete, cioe' tramite Wi-Fi oppure tramite cavo Ethernet.
+Indica come il dispositivo è collegato alla rete, cioè tramite Wi-Fi oppure tramite cavo Ethernet.
 
 ![connection type](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/connection_type.png){class="glboxshadow"}
 
@@ -30,13 +30,13 @@ La seconda colonna elenca gli indirizzi IP e MAC del dispositivo connesso.
 
 ![ip and mac](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/ip_mac.png){class="glboxshadow"}
 
-Molti dispositivi utilizzano indirizzi MAC casuali. Se i dispositivi connessi usano indirizzi MAC casuali, verra' visualizzato il seguente avviso.
+Molti dispositivi utilizzano indirizzi MAC casuali. Se i dispositivi connessi usano indirizzi MAC casuali, verrà visualizzato il seguente avviso.
 
 ![random mac prompt](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/randomized_mac.png){class="glboxshadow"}
 
-**Nota**: la regola utilizzata qui e' che, se il secondo carattere dell'indirizzo MAC e' 2, 6, A oppure E (senza distinzione tra maiuscole e minuscole), viene considerato un indirizzo MAC casuale. Tuttavia, alcuni dispositivi possono usare regole diverse per generare un indirizzo MAC casuale, quindi questo metodo di rilevamento potrebbe non essere accurato.
+**Nota**: la regola utilizzata qui è che, se il secondo carattere dell'indirizzo MAC è 2, 6, A oppure E (senza distinzione tra maiuscole e minuscole), viene considerato un indirizzo MAC casuale. Tuttavia, alcuni dispositivi possono usare regole diverse per generare un indirizzo MAC casuale, quindi questo metodo di rilevamento potrebbe non essere accurato.
 
-## Velocita' {#speed}
+## Velocità {#speed}
 
 La terza colonna mostra la velocità Internet del dispositivo connesso. Questo dato rappresenta la velocità media degli ultimi 3 minuti.
 
@@ -54,7 +54,7 @@ La quarta colonna mostra il traffico Internet del dispositivo connesso.
 
 Nella quinta colonna puoi riservare un indirizzo IP per uno specifico dispositivo connesso con un solo clic. Questa funzione è stata introdotta nel firmware v4.8.
 
-Quando specifichi un indirizzo IP riservato per un client all'interno della LAN, il client ricevera' sempre lo stesso indirizzo IP ogni volta che accede al server DHCP del router.
+Quando specifichi un indirizzo IP riservato per un client all'interno della LAN, il client riceverà sempre lo stesso indirizzo IP ogni volta che accede al server DHCP del router.
 
 Puoi assegnare indirizzi IP riservati a computer o server che richiedono impostazioni IP permanenti.
 
@@ -64,7 +64,7 @@ Puoi assegnare indirizzi IP riservati a computer o server che richiedono imposta
 
 Nella sesta colonna puoi bloccare specifici dispositivi connessi con un solo clic.
 
-Per impostazione predefinita, la regola di controllo accessi e' Blocklist, ma se necessario puoi cambiarla in Allowlist dalla parte superiore.
+Per impostazione predefinita, la regola di controllo accessi è Blocklist, ma se necessario puoi cambiarla in Allowlist dalla parte superiore.
 
 ![blocklist](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/blocklist.jpg){class="glboxshadow"}
 
@@ -106,7 +106,7 @@ Nella pagina Access Control, inserisci manualmente l'indirizzo MAC dei dispositi
 
 ![input mac manually](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/input_mac_manually.png){class="glboxshadow"}
 
-**Nota**: il blocco del client si basa sull'indirizzo MAC del dispositivo. Se il dispositivo bloccato utilizza un indirizzo MAC diverso la volta successiva, potra' comunque connettersi al router.
+**Nota**: il blocco del client si basa sull'indirizzo MAC del dispositivo. Se il dispositivo bloccato utilizza un indirizzo MAC diverso la volta successiva, potrà comunque connettersi al router.
 
 ## Azione {#action}
 
@@ -128,7 +128,7 @@ Fai clic sull'icona con i tre puntini nella colonna Action e, nel menu a discesa
 
 ![modify client device](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/modify_client_device.png){class="glboxshadow"}
 
-### Limita velocita' {#limit-speed}
+### Limita velocità {#limit-speed}
 
 Fai clic sull'icona con i tre puntini nella colonna Action e, nel menu a discesa, fai clic su **Limit Speed**.
 
@@ -136,15 +136,15 @@ Fai clic sull'icona con i tre puntini nella colonna Action e, nel menu a discesa
 
 ![limit speed settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/clients_limit_speed_settings.png){class="glboxshadow"}
 
-Se a un client e' stata applicata una limitazione della velocita', le frecce su e giu' della velocita' diventeranno gialle.
+Se a un client è stata applicata una limitazione della velocità, le frecce su e giù della velocità diventeranno gialle.
 
 ![limited speed](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/limit_speed2.png){class="glboxshadow"}
 
-Fai clic sull'icona con i tre puntini nella colonna Action per disabilitare il limite di velocita'.
+Fai clic sull'icona con i tre puntini nella colonna Action per disabilitare il limite di velocità.
 
 ### Usa tunnel VPN {#use-vpn-tunnel}
 
-**Nota**: questa opzione e' disponibile a partire dal firmware v4.8 e apparira' nel menu Action solo se e' configurata una policy basata su MAC.
+**Nota**: questa opzione è disponibile a partire dal firmware v4.8 e apparirà nel menu Action solo se è configurata una policy basata su MAC.
 
 Aggiungi un client all'elenco del tunnel VPN con una policy basata su MAC. Se hai bisogno di regolare in dettaglio i tunnel, vai al VPN Dashboard per gestirli.
 
@@ -152,11 +152,11 @@ Aggiungi un client all'elenco del tunnel VPN con una policy basata su MAC. Se ha
 
 ## Ordinamento {#sort}
 
-Il tipo di ordinamento corrente e' mostrato nell'angolo superiore destro e puoi passare ad altri tipi di ordinamento.
+Il tipo di ordinamento corrente è mostrato nell'angolo superiore destro e puoi passare ad altri tipi di ordinamento.
 
 ![sort](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/sort.jpg){class="glboxshadow"}
 
-Il tipo di ordinamento predefinito e' il seguente:
+Il tipo di ordinamento predefinito è il seguente:
 
 - Il dispositivo in uso, cioè quello con cui si accede al pannello di amministrazione, viene sempre visualizzato in cima.
 - Nella sezione Online Clients, i dispositivi connessi da più tempo vengono visualizzati più in alto.

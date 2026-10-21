@@ -2,25 +2,25 @@
 
 Sul lato sinistro del pannello di amministrazione web, vai su **NETWORK** -> **Drop-in Gateway**.
 
-Drop-in Gateway e' una funzione di estensione che consente di ampliare le capacita' di un router principale esistente senza sostituirlo o riconfigurarlo. Collegando il router GL.iNet al router principale tramite un cavo Ethernet, gli utenti possono aggiungere funzioni di rete avanzate all'infrastruttura di rete esistente, ad esempio:
+Drop-in Gateway è una funzione di estensione che consente di ampliare le capacità di un router principale esistente senza sostituirlo o riconfigurarlo. Collegando il router GL.iNet al router principale tramite un cavo Ethernet, gli utenti possono aggiungere funzioni di rete avanzate all'infrastruttura di rete esistente, ad esempio:
 
-- Filtrare la pubblicita' tramite AdGuard Home
+- Filtrare la pubblicità tramite AdGuard Home
 - Abilitare il client VPN
 - Usare DNS crittografato
 
-Si consiglia di usare un router o un security gateway con prestazioni piu' elevate e memoria sufficiente, ad esempio GL-MT2500 o GL-MT5000, e di installare strumenti aggiuntivi per l'inoltro e il controllo del traffico secondo necessita'.
+Si consiglia di usare un router o un security gateway con prestazioni più elevate e memoria sufficiente, ad esempio GL-MT2500 o GL-MT5000, e di installare strumenti aggiuntivi per l'inoltro e il controllo del traffico secondo necessità.
 
 ## Topologia di rete {#network-topology}
 
-Drop-in Gateway funziona come un sistema di rete intermedio, instradando il traffico dati dei dispositivi client attraverso il router GL.iNet per l'elaborazione prima di trasmetterlo tramite il router principale. Durante questo processo non solo preserva le impostazioni di rete esistenti, ad esempio SSID e password, per garantire una connettivita' ininterrotta a tutti i dispositivi connessi, ma consente anche di gestire il traffico di rete per tutti o per specifici dispositivi client secondo necessita'.
+Drop-in Gateway funziona come un sistema di rete intermedio, instradando il traffico dati dei dispositivi client attraverso il router GL.iNet per l'elaborazione prima di trasmetterlo tramite il router principale. Durante questo processo non solo preserva le impostazioni di rete esistenti, ad esempio SSID e password, per garantire una connettività ininterrotta a tutti i dispositivi connessi, ma consente anche di gestire il traffico di rete per tutti o per specifici dispositivi client secondo necessità.
 
 ![drop-in gateway mode typology](https://static.gl-inet.com/docs/router/en/4/interface_guide/drop-in_gateway/drop-in_gateway_mode_topology.svg){class="glboxshadow gl-60-desktop"}
 
-Il diagramma sopra e' composto da due tipi di linee: linee grigie e linee verdi contrassegnate da tre frecce, ciascuna etichettata con un numero corrispondente.
+Il diagramma sopra è composto da due tipi di linee: linee grigie e linee verdi contrassegnate da tre frecce, ciascuna etichettata con un numero corrispondente.
 
-1. Le **linee grigie** illustrano la topologia di connessione fisica: i dispositivi client, ad esempio computer e laptop, si collegano al router principale e la porta LAN del router principale e' collegata tramite cavo Ethernet alla porta WAN del router GL.iNet, con Drop-in Gateway abilitato.
+1. Le **linee grigie** illustrano la topologia di connessione fisica: i dispositivi client, ad esempio computer e laptop, si collegano al router principale e la porta LAN del router principale è collegata tramite cavo Ethernet alla porta WAN del router GL.iNet, con Drop-in Gateway abilitato.
 
-2. Le **linee verdi** mostrano il percorso sequenziale di trasmissione dei dati quando Drop-in Gateway e' attivo; le frecce numerate indicano l'ordine del flusso del traffico:
+2. Le **linee verdi** mostrano il percorso sequenziale di trasmissione dei dati quando Drop-in Gateway è attivo; le frecce numerate indicano l'ordine del flusso del traffico:
 
     1. Il traffico dei dispositivi client viene prima instradato verso il router principale;
 
@@ -30,23 +30,23 @@ Il diagramma sopra e' composto da due tipi di linee: linee grigie e linee verdi 
 
 ## Configurazione {#setup}
 
-Sono disponibili due modalita' di deployment per diversi scenari applicativi: tutti i dispositivi client sono collegati tramite Drop-in Gateway oppure solo specifici dispositivi client sono collegati tramite Drop-in Gateway.
+Sono disponibili due modalità di deployment per diversi scenari applicativi: tutti i dispositivi client sono collegati tramite Drop-in Gateway oppure solo specifici dispositivi client sono collegati tramite Drop-in Gateway.
 
-Nell'esempio seguente, l'indirizzo gateway del router principale e' `192.168.1.1`.
+Nell'esempio seguente, l'indirizzo gateway del router principale è `192.168.1.1`.
 
 ### Tutti i dispositivi sono collegati tramite Drop-in Gateway {#all-devices-managed-by-the-drop-in-gateway}
 
 1. Collega la porta LAN del router principale alla porta WAN del router GL.iNet tramite un cavo Ethernet.
 
-2. Accedi al pannello di amministrazione web del router GL.iNet, abilita Drop-in Gateway e il sistema generera' automaticamente i parametri di configurazione corrispondenti.
+2. Accedi al pannello di amministrazione web del router GL.iNet, abilita Drop-in Gateway e il sistema genererà automaticamente i parametri di configurazione corrispondenti.
 
     ![drop-in gateway generated settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/drop-in_gateway/drop-in_gateway_all_device_enabled.png){class="glboxshadow"}
 
-    - **IP Address** si riferisce all'indirizzo IP WAN del router GL.iNet, assegnato dinamicamente dal router principale. Questo IP WAN puo' essere visualizzato nella sezione Ethernet della pagina [INTERNET](internet_ethernet.md).
+    - **IP Address** si riferisce all'indirizzo IP WAN del router GL.iNet, assegnato dinamicamente dal router principale. Questo IP WAN può essere visualizzato nella sezione Ethernet della pagina [INTERNET](internet_ethernet.md).
 
-    - I campi **Gateway** e **DNS Server 1** vengono compilati automaticamente con l'indirizzo IP del router principale per impostazione predefinita. Se questi parametri sono configurati in modo errato, puoi regolarli manualmente secondo necessita'.
+    - I campi **Gateway** e **DNS Server 1** vengono compilati automaticamente con l'indirizzo IP del router principale per impostazione predefinita. Se questi parametri sono configurati in modo errato, puoi regolarli manualmente secondo necessità.
 
-    Annota questo indirizzo IP, perche' verra' usato nei passaggi successivi.
+    Annota questo indirizzo IP, perché verrà usato nei passaggi successivi.
 
     Seleziona il primo metodo di configurazione e fai clic su **Apply**.
 
@@ -54,7 +54,7 @@ Nell'esempio seguente, l'indirizzo gateway del router principale e' `192.168.1.1
 
     ??? "GL.iNet"
 
-        Se il tuo router principale e' GL.iNet e usa firmware v4.2 o superiore, segui i passaggi sotto.
+        Se il tuo router principale è GL.iNet e usa firmware v4.2 o superiore, segui i passaggi sotto.
 
         Accedi al pannello di amministrazione web -> NETWORK -> LAN -> DHCP Server -> Advanced
 
@@ -68,7 +68,7 @@ Nell'esempio seguente, l'indirizzo gateway del router principale e' `192.168.1.1
 
     ??? "TP-Link"
 
-        Se il tuo router principale e' TP-Link, segui i passaggi sotto, usando TP-LINK Archer C3150 come esempio.
+        Se il tuo router principale è TP-Link, segui i passaggi sotto, usando TP-LINK Archer C3150 come esempio.
 
         Accedi alla pagina di amministrazione TP-Link, vai su **Advanced** -> **Network** -> **DHCP Server**, quindi disabilita **DHCP**.
 
@@ -80,7 +80,7 @@ Nell'esempio seguente, l'indirizzo gateway del router principale e' `192.168.1.1
 
     ??? "Linksys"
 
-        Se il tuo router principale e' Linksys, segui i passaggi sotto, usando Linksys WHW01 come esempio.
+        Se il tuo router principale è Linksys, segui i passaggi sotto, usando Linksys WHW01 come esempio.
 
         Accedi alla pagina di amministrazione Linksys, vai su **Router Settings** -> **Connectivity**.
 
@@ -90,7 +90,7 @@ Nell'esempio seguente, l'indirizzo gateway del router principale e' `192.168.1.1
 
         ![linksys admin, local network, disable dhcp](https://static.gl-inet.com/docs/router/en/4/interface_guide/drop-in_gateway/linksys/linksys_disable_dhcp.png){class="glboxshadow"}
 
-        Comparira' un avviso. Fai clic su **OK**.
+        Comparirà un avviso. Fai clic su **OK**.
 
         ![linksys admin, apply changes](https://static.gl-inet.com/docs/router/en/4/interface_guide/drop-in_gateway/linksys/linksys_apply_changes.png){class="glboxshadow"}
 
@@ -104,15 +104,15 @@ Nell'esempio seguente, l'indirizzo gateway del router principale e' `192.168.1.1
 
 1. Collega la porta LAN del router principale alla porta WAN del router GL.iNet tramite un cavo Ethernet.
 
-2. Accedi al pannello di amministrazione web del router GL.iNet, abilita Drop-in Gateway e il sistema generera' automaticamente i parametri di configurazione corrispondenti.
+2. Accedi al pannello di amministrazione web del router GL.iNet, abilita Drop-in Gateway e il sistema genererà automaticamente i parametri di configurazione corrispondenti.
 
     ![drop-in gateway generated settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/drop-in_gateway/drop-in_gateway_some_device_enabled.png){class="glboxshadow"}
 
-    - **IP Address** si riferisce all'indirizzo IP WAN del router GL.iNet, assegnato dinamicamente dal router principale. Questo IP WAN puo' essere visualizzato nella sezione Ethernet della pagina [INTERNET](internet_ethernet.md).
+    - **IP Address** si riferisce all'indirizzo IP WAN del router GL.iNet, assegnato dinamicamente dal router principale. Questo IP WAN può essere visualizzato nella sezione Ethernet della pagina [INTERNET](internet_ethernet.md).
 
-    - I campi **Gateway** e **DNS Server 1** vengono compilati automaticamente con l'indirizzo IP del router principale per impostazione predefinita. Se questi parametri sono configurati in modo errato, puoi regolarli manualmente secondo necessita'.
+    - I campi **Gateway** e **DNS Server 1** vengono compilati automaticamente con l'indirizzo IP del router principale per impostazione predefinita. Se questi parametri sono configurati in modo errato, puoi regolarli manualmente secondo necessità.
 
-    Annota questo indirizzo IP, perche' verra' usato nei passaggi successivi.
+    Annota questo indirizzo IP, perché verrà usato nei passaggi successivi.
 
     Seleziona il secondo metodo di configurazione e fai clic su **Apply**.
 
@@ -120,7 +120,7 @@ Nell'esempio seguente, l'indirizzo gateway del router principale e' `192.168.1.1
 
     ??? "Windows"
 
-        Questo e' un esempio per Windows 11; Windows 10 e' simile. Assicurati che il PC sia collegato al router principale. Qui si presume che il computer sia collegato al router principale tramite cavo di rete; la configurazione e' simile anche se ti colleghi via Wi-Fi.
+        Questo è un esempio per Windows 11; Windows 10 è simile. Assicurati che il PC sia collegato al router principale. Qui si presume che il computer sia collegato al router principale tramite cavo di rete; la configurazione è simile anche se ti colleghi via Wi-Fi.
 
         1. Apri Settings.
 
@@ -144,7 +144,7 @@ Nell'esempio seguente, l'indirizzo gateway del router principale e' `192.168.1.1
 
     ??? "Android"
 
-        Questo e' un esempio con Samsung S21. Assicurati che lo smartphone sia collegato al router principale.
+        Questo è un esempio con Samsung S21. Assicurati che lo smartphone sia collegato al router principale.
 
         1. Apri Settings e fai clic su Connections.
 
@@ -174,7 +174,7 @@ Nell'esempio seguente, l'indirizzo gateway del router principale e' `192.168.1.1
 
     ??? "iOS"
 
-        Questo e' un esempio di iOS 16.3 su iPhone 8. Assicurati che lo smartphone sia collegato al router principale.
+        Questo è un esempio di iOS 16.3 su iPhone 8. Assicurati che lo smartphone sia collegato al router principale.
 
         1. Apri Settings e fai clic su Wi-Fi.
 
@@ -204,7 +204,7 @@ Nell'esempio seguente, l'indirizzo gateway del router principale e' `192.168.1.1
 
 1. L'abilitazione di Drop-in Gateway aumenta la latenza di rete.
 
-2. Quando Drop-in Gateway e' abilitato, anche la trasmissione dati tra i dispositivi LAN selezionati viene instradata tramite il drop-in gateway. La larghezza di banda tra il router principale e il drop-in gateway influisce quindi sulla larghezza di banda complessiva della LAN.
+2. Quando Drop-in Gateway è abilitato, anche la trasmissione dati tra i dispositivi LAN selezionati viene instradata tramite il drop-in gateway. La larghezza di banda tra il router principale e il drop-in gateway influisce quindi sulla larghezza di banda complessiva della LAN.
 
 ---
 

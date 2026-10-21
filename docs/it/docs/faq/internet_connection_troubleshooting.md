@@ -67,11 +67,11 @@ Di seguito trovi informazioni specifiche per area geografica sugli ISP, raccolte
 
 | Country/Region   | ISP   | Connection Type | VLAN ID | MAC Clone Required | Additional Requirements |
 | :--------------- | :---- | :-------------- | :------ | :-------- | :---------------------- |
-| United States    | AT&T Fiber | DHCP (IP Passthrough) | N/A | No | E' necessario abilitare IP Passthrough; richiesto il bypass dell'autenticazione EAP |
+| United States    | AT&T Fiber | DHCP (IP Passthrough) | N/A | No | È necessario abilitare IP Passthrough; richiesto il bypass dell'autenticazione EAP |
 | United States | Spectrum | DHCP | N/A | Yes (in some areas) | Associazione MAC rigorosa (riavvio del modem necessario) |
 | United States | Verizon Fios | DHCP | N/A | No | |
-| United States | Comcast Xfinity | DHCP | N/A | Yes (common) | E' necessario riavviare il modem quando si cambia router (rilascio MAC) |
-| United States | Cox Communications | DHCP | N/A | Yes | E' necessario riavviare il modem quando si cambia router (rilascio MAC) |
+| United States | Comcast Xfinity | DHCP | N/A | Yes (common) | È necessario riavviare il modem quando si cambia router (rilascio MAC) |
+| United States | Cox Communications | DHCP | N/A | Yes | È necessario riavviare il modem quando si cambia router (rilascio MAC) |
 | United States | Frontier Fiber | DHCP | N/A | No | |
 | United States | CenturyLink / Lumen | PPPoE | 201 | No | Le VLAN sono richieste in alcune aree. |
 | Canada | Bell Canada Fibe | PPPoE | 35 | No | |
@@ -82,7 +82,7 @@ Di seguito trovi informazioni specifiche per area geografica sugli ISP, raccolte
 | Germany | o2(UGG) | PPPoE | 7 | No | |
 | United Kingdom | BT Broadband | PPPoE | 101 | No | VLAN 101 richiesta; accesso PPPoE necessario |
 | United Kingdom | Sky Broadband | DHCP (Option 61) | 101 | No | Richiede DHCP Option 61 (identificatore client) |
-| United Kingdom | Virgin | DHCP | N/A | Yes | Il modem e' in modalita bridge e richiede la clonazione MAC. |
+| United Kingdom | Virgin | DHCP | N/A | Yes | Il modem è in modalita bridge e richiede la clonazione MAC. |
 | France | Orange | DHCP / PPPoE | 832 | No | VLAN 832 richiesta; potrebbe richiedere l'autenticazione Option 90 |
 | France | Free (Freebox) | DHCP | N/A | No | |
 | France | Bouygues Telecom | DHCP | 100 | Yes | Clonare il MAC del Bbox |
@@ -118,7 +118,7 @@ Di seguito trovi informazioni specifiche per area geografica sugli ISP, raccolte
 | Greece | DEI/PPC | DHCP | 835 | No | |
 | Japan | NTT (FLET'S) | PPPoE / IPoE (MAP-E) | N/A | No | IPoE richiede un router compatibile con MAP-E/DS-Lite |
 | Japan | SoftBank Hikari | PPPoE / IPoE | N/A | No | Servizio BBIX IPoE comunemente utilizzato |
-| India | Airtel | PPPoE / DHCP | N/A | No | In alcune regioni e' richiesto PPPoE |
+| India | Airtel | PPPoE / DHCP | N/A | No | In alcune regioni è richiesto PPPoE |
 | India | JioFiber | DHCP | N/A | No | ONT bloccato in molti casi |
 | Singapore | Singtel | PPPoE | 10 | No | VLAN 10 richiesta; IPTV su VLAN separata |
 | Singapore | StarHub | DHCP | N/A | No | Connessione basata su DHCP |

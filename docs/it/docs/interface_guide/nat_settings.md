@@ -1,10 +1,10 @@
 # NAT Settings {#nat-settings}
 
-Questa funzione e' disponibile dalla v4.5.16.
+Questa funzione è disponibile dalla v4.5.16.
 
 Sul lato sinistro del pannello di amministrazione web, vai su **NETWORK** -> **NAT Settings** oppure su **SECURITY** -> **NAT Mode** (per firmware v4.9 e successivi).
 
-Questa pagina consente di abilitare **Full Cone NAT** per migliorare la stabilita' delle connessioni peer-to-peer per app come gaming o streaming, e **SIP ALG** per risolvere problemi di compatibilita' con servizi telefonici VoIP/SIP.
+Questa pagina consente di abilitare **Full Cone NAT** per migliorare la stabilità delle connessioni peer-to-peer per app come gaming o streaming, e **SIP ALG** per risolvere problemi di compatibilità con servizi telefonici VoIP/SIP.
 
 ![nat settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/nat_settings/nat_settings.png){class="glboxshadow"}
 
@@ -51,17 +51,17 @@ Questa pagina consente di abilitare **Full Cone NAT** per migliorare la stabilit
 
 Full Cone NAT agisce come una "scorciatoia diretta" per dispositivi come console di gioco o telefoni quando si collegano ad altri dispositivi online, ad esempio in giochi multiplayer o videochiamate.
 
-Consentendo ai dispositivi esterni di raggiungere direttamente i dispositivi locali attraverso il router, invece di nasconderli dietro piu' livelli, migliora la stabilita' delle connessioni peer-to-peer (P2P), riduce la latenza e risolve i fallimenti di connessione nelle applicazioni P2P.
+Consentendo ai dispositivi esterni di raggiungere direttamente i dispositivi locali attraverso il router, invece di nasconderli dietro più livelli, migliora la stabilità delle connessioni peer-to-peer (P2P), riduce la latenza e risolve i fallimenti di connessione nelle applicazioni P2P.
 
-**Nota**: abilitare questa funzione puo' ridurre la sicurezza rispetto ad altri tipi di NAT, poiche' espone le porte del dispositivo alla rete pubblica.
+**Nota**: abilitare questa funzione può ridurre la sicurezza rispetto ad altri tipi di NAT, poiché espone le porte del dispositivo alla rete pubblica.
 
 ## SIP ALG {#sip-alg}
 
 SIP ALG (Application Layer Gateway) funziona come un "traduttore" del router per i servizi di comunicazione basati su VoIP/SIP, ad esempio telefoni da ufficio o chiamate tramite app.
 
-Progettato per affrontare le difficolta' di attraversamento del NAT, regola i dati delle chiamate per garantire una trasmissione senza interruzioni attraverso piu' livelli NAT, situazione comune nelle reti con piu' router, ad esempio un router principale e un router GL.iNet, mitigando cosi' i conflitti e prevenendo interruzioni nelle chiamate.
+Progettato per affrontare le difficoltà di attraversamento del NAT, regola i dati delle chiamate per garantire una trasmissione senza interruzioni attraverso più livelli NAT, situazione comune nelle reti con più router, ad esempio un router principale e un router GL.iNet, mitigando così i conflitti e prevenendo interruzioni nelle chiamate.
 
-**Nota**: un'implementazione SIP ALG incompatibile o poco curata puo' peggiorare la qualita' delle chiamate, causando problemi tra cui audio unidirezionale, squillo senza risposta, chiamate interrotte o chiamate inoltrate direttamente alla segreteria.
+**Nota**: un'implementazione SIP ALG incompatibile o poco curata può peggiorare la qualità delle chiamate, causando problemi tra cui audio unidirezionale, squillo senza risposta, chiamate interrotte o chiamate inoltrate direttamente alla segreteria.
 
 ---
 

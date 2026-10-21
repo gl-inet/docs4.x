@@ -2,7 +2,7 @@
 
 Questa guida si applica al firmware v4.5 e precedenti.
 
-Dalla v4.6, la pagina Firewall e' stata suddivisa. Le funzioni Port Forwarding e DMZ sono state spostate in [Port Forwarding](port_forwarding.md). La funzione Open Ports e' stata spostata in [Security](security.md).
+Dalla v4.6, la pagina Firewall è stata suddivisa. Le funzioni Port Forwarding e DMZ sono state spostate in [Port Forwarding](port_forwarding.md). La funzione Open Ports è stata spostata in [Security](security.md).
 
 ---
 
@@ -62,7 +62,7 @@ Nella finestra pop-up, apri una nuova porta e fai clic su **Apply**.
 
 DMZ consente di esporre un computer a Internet, quindi tutti i pacchetti in ingresso verranno reindirizzati a questo computer.
 
-Attiva **Enable DMZ**. Seleziona l'indirizzo IP interno del dispositivo host che dovra' ricevere tutti i pacchetti in ingresso.
+Attiva **Enable DMZ**. Seleziona l'indirizzo IP interno del dispositivo host che dovrà ricevere tutti i pacchetti in ingresso.
 
 ![Port Forwards](https://static.gl-inet.com/docs/router/en/4/interface_guide/firewall/dmz.png){class="glboxshadow"}
 

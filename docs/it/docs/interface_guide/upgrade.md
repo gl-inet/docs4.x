@@ -6,7 +6,7 @@ Per alcuni modelli cellulari, se necessario puoi anche aggiornare la versione de
 
 !!! Note
 
-    Mantieni l'alimentazione attiva durante l'aggiornamento. NON spegnere il router. Il dispositivo si riavviera' automaticamente dopo l'upgrade e l'operazione potrebbe richiedere alcuni minuti.
+    Mantieni l'alimentazione attiva durante l'aggiornamento. NON spegnere il router. Il dispositivo si riavvierà automaticamente dopo l'upgrade e l'operazione potrebbe richiedere alcuni minuti.
 
 ## Aggiornamento firmware {#firmware-upgrade}
 
@@ -33,11 +33,11 @@ Seleziona un file firmware oppure trascinalo qui per eseguire l'upgrade. Puoi sc
 
 ![local upgrade](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/local_upgrade.png){class="glboxshadow"}
 
-Dopo il caricamento, verra' verificato il firmware.
+Dopo il caricamento, verrà verificato il firmware.
 
 ![local upgrade uploaded](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/local_upgrade_uploaded.png){class="glboxshadow"}
 
-- **Keep Settings:** se questa opzione e' abilitata, le impostazioni correnti verranno mantenute e ti verra' chiesto di reinstallare eventuali pacchetti installati dall'utente dopo il completamento dell'upgrade. NON selezionare questa opzione quando esegui un downgrade del firmware.
+- **Keep Settings:** se questa opzione è abilitata, le impostazioni correnti verranno mantenute e ti verrà chiesto di reinstallare eventuali pacchetti installati dall'utente dopo il completamento dell'upgrade. NON selezionare questa opzione quando esegui un downgrade del firmware.
 
 Fai clic su **Install** per eseguire l'upgrade.
 
@@ -45,11 +45,11 @@ Fai clic su **Install** per eseguire l'upgrade.
 
 I router cellulari GL.iNet consentono agli utenti di aggiornare il firmware del modem cellulare tramite il pannello di amministrazione web.
 
-Puoi provare un aggiornamento del modulo cellulare quando la rete cellulare non funziona o mostra instabilita'. Prima di eseguire l'upgrade del modem, consigliamo di contattare il supporto tecnico per il troubleshooting.
+Puoi provare un aggiornamento del modulo cellulare quando la rete cellulare non funziona o mostra instabilità. Prima di eseguire l'upgrade del modem, consigliamo di contattare il supporto tecnico per il troubleshooting.
 
 ### Aggiornamento online {#online-upgrade_1}
 
-Qui puoi trovare la versione corrente del modem cellulare. Se il router e' connesso a Internet, controllera' automaticamente l'ultima versione del modem cellulare dal server del produttore, semplificando il processo di aggiornamento.
+Qui puoi trovare la versione corrente del modem cellulare. Se il router è connesso a Internet, controllerà automaticamente l'ultima versione del modem cellulare dal server del produttore, semplificando il processo di aggiornamento.
 
 ![modem online upgrade](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/modem_online_upgrade.png){class="glboxshadow"}
 

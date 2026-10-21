@@ -6,7 +6,7 @@ Questo tutorial mostra **come aggiornare o eseguire manualmente il downgrade del
 
     **Upgrade:** i router GL.iNet con firmware versione 4.x non offrono la funzione di aggiornamento automatico.
 
-    Quando e' disponibile una nuova versione firmware, dopo il login nel pannello di amministrazione del router vedrai il prompt "Upgrade Reminder". Puoi fare clic sul pulsante **Upgrade** per installare l'ultima versione firmware elencata. Se vuoi passare a una specifica versione firmware, segui i passaggi riportati di seguito per aggiornare manualmente il router.
+    Quando è disponibile una nuova versione firmware, dopo il login nel pannello di amministrazione del router vedrai il prompt "Upgrade Reminder". Puoi fare clic sul pulsante **Upgrade** per installare l'ultima versione firmware elencata. Se vuoi passare a una specifica versione firmware, segui i passaggi riportati di seguito per aggiornare manualmente il router.
 
     **Downgrade:** puoi eseguire il downgrade del firmware del router per risolvere alcuni problemi.
 
@@ -37,9 +37,9 @@ Le istruzioni seguenti sono state scritte per il caricamento del firmware tramit
 
         d. Fai clic su **System** > **Backup / Flash Firmware**.
 
-        e. In **Backup**, fai clic su **Generate archive**. Sul dispositivo verra' scaricato un file contenente le impostazioni correnti.
+        e. In **Backup**, fai clic su **Generate archive**. Sul dispositivo verrà scaricato un file contenente le impostazioni correnti.
 
-        **Tieni presente che questo file e' valido solo per la versione firmware al momento del backup e non per altre versioni firmware.**
+        **Tieni presente che questo file è valido solo per la versione firmware al momento del backup e non per altre versioni firmware.**
 
 3. Dalla barra laterale sinistra, fai clic su **SYSTEM** > **Upgrade**.
 4. Fai clic su **Local Upgrade** e seleziona il file scaricato in precedenza.

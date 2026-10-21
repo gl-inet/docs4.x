@@ -4,7 +4,7 @@
 
 Sul lato sinistro del pannello di amministrazione web, vai su **APPLICATIONS** -> **Parental Control**.
 
-Il parental control e' un modo per proteggere i bambini online bloccando siti web inappropriati e limitando il tempo di utilizzo dei dispositivi. Aiuta a impedire l'accesso a contenuti dannosi, a gestire il tempo davanti allo schermo e a garantire un uso responsabile di Internet da parte dei bambini.
+Il parental control è un modo per proteggere i bambini online bloccando siti web inappropriati e limitando il tempo di utilizzo dei dispositivi. Aiuta a impedire l'accesso a contenuti dannosi, a gestire il tempo davanti allo schermo e a garantire un uso responsabile di Internet da parte dei bambini.
 
 **Nota**: alcuni modelli non supportano Parental Control a causa della memoria insufficiente, ad esempio Mango (GL-MT300N-V2) e Shadow (serie GL-AR300M).
 
@@ -14,7 +14,7 @@ Guarda questo video oppure segui i passaggi qui sotto per configurare Parental C
 
 ## Versione locale {#local-version}
 
-La versione locale e' fornita da GL.iNet. Al momento e' in beta e non ha costi aggiuntivi. In questa versione, se hai bisogno di filtrare le richieste per applicazione, devi inserire manualmente il dominio.
+La versione locale è fornita da GL.iNet. Al momento è in beta e non ha costi aggiuntivi. In questa versione, se hai bisogno di filtrare le richieste per applicazione, devi inserire manualmente il dominio.
 
 ### Modelli supportati {#supported-models}
 
@@ -73,7 +73,7 @@ Poi segui la procedura guidata per impostare Parental Control.
 
 Di seguito trovi un caso d'uso di riferimento. Puoi adattare le impostazioni alle tue esigenze.
 
-**Scenario**: i dispositivi del profilo possono accedere a Internet solo per studio dalle 8:00 alle 11:00 nei giorni feriali e per il gaming dalle 18:00 alle 20:00 nei fine settimana. In tutti gli altri orari, l'accesso a Internet e' bloccato per impostazione predefinita.
+**Scenario**: i dispositivi del profilo possono accedere a Internet solo per studio dalle 8:00 alle 11:00 nei giorni feriali e per il gaming dalle 18:00 alle 20:00 nei fine settimana. In tutti gli altri orari, l'accesso a Internet è bloccato per impostazione predefinita.
 
 Segui i passaggi qui sotto per configurare Parental Control.
 
@@ -121,7 +121,7 @@ Segui i passaggi qui sotto per configurare Parental Control.
 
     ![profile created](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_10_profile_created.png){class="glboxshadow"}
 
-    Scorri verso il basso e vedrai che e' stata creata una pianificazione. Fai clic sull'icona dell'ingranaggio in alto a destra e seleziona **Add Schedule**.
+    Scorri verso il basso e vedrai che è stata creata una pianificazione. Fai clic sull'icona dell'ingranaggio in alto a destra e seleziona **Add Schedule**.
 
     ![profile add schedule](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_11_add_schedule.png){class="glboxshadow"}
 
@@ -129,7 +129,7 @@ Segui i passaggi qui sotto per configurare Parental Control.
 
     ![add schedule play](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_12_schedule_play.png){class="glboxshadow"}
 
-    Il ruleset **Play** verra' quindi aggiunto alla pianificazione.
+    Il ruleset **Play** verrà quindi aggiunto alla pianificazione.
 
     ![schedules](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_13_schedules.png){class="glboxshadow"}
 
@@ -143,7 +143,7 @@ Segui i passaggi qui sotto per configurare Parental Control.
 
     ![parental control page](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_15_parental_control.png){class="glboxshadow"}
 
-    Vedrai la configurazione finale. Il parental control e' ora attivo in base alla pianificazione. Puoi modificare i profili e i ruleset esistenti oppure aggiungerne di nuovi secondo necessita'.
+    Vedrai la configurazione finale. Il parental control è ora attivo in base alla pianificazione. Puoi modificare i profili e i ruleset esistenti oppure aggiungerne di nuovi secondo necessità.
 
     ![final configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_16_final_config.png){class="glboxshadow"}
 
@@ -159,27 +159,27 @@ Se le impostazioni configurate non hanno effetto, verifica le seguenti possibili
 
       * [Svuotare la cache DNS in Edge desktop](https://www.microsoft.com/en-us/edge/learning-center/how-to-manage-and-clear-your-cache-and-cookies?form=MA13I2){target="_blank"}
 
-2. La pianificazione del profilo non e' ancora iniziata.
+2. La pianificazione del profilo non è ancora iniziata.
 
 3. Il nome di dominio inserito potrebbe essere errato.
 
-    Il dominio pubblico di un sito web e' facile da trovare, ma i domini API usati dalle app spesso non sono pubblici. Per individuare il dominio corretto, usa uno strumento di cattura pacchetti come Wireshark oppure cerca le informazioni di dominio pertinenti.
+    Il dominio pubblico di un sito web è facile da trovare, ma i domini API usati dalle app spesso non sono pubblici. Per individuare il dominio corretto, usa uno strumento di cattura pacchetti come Wireshark oppure cerca le informazioni di dominio pertinenti.
 
-    Ad esempio, per bloccare `www.google.com`, usare `google.com` e' piu' efficace che usare `www.google.com`.
+    Ad esempio, per bloccare `www.google.com`, usare `google.com` è più efficace che usare `www.google.com`.
 
 4. Il dispositivo di destinazione usa un indirizzo MAC casuale per ogni connessione di rete, impedendo l'applicazione delle regole di accesso. Disattiva l'indirizzo MAC casuale sul dispositivo di destinazione, quindi aggiungi di nuovo il dispositivo al tuo profilo.
 
 ## Versione Bark {#bark-version}
 
-> Questa guida si applica al firmware v4.8 e precedenti. Per le versioni piu' recenti, fai clic [qui](bark.md).
+> Questa guida si applica al firmware v4.8 e precedenti. Per le versioni più recenti, fai clic [qui](bark.md).
 
-Il servizio [Bark](https://www.bark.us/){target="_blank"} puo' aiutarti a proteggere il mondo digitale dei tuoi figli e a offrire una protezione online completa. In genere richiede un abbonamento a pagamento. Tuttavia, grazie alla nostra partnership con Bark, GL.iNet offre gratuitamente il piano Bark Home **su modelli di router selezionati**, fornendo monitoraggio avanzato e avvisi senza costi aggiuntivi.
+Il servizio [Bark](https://www.bark.us/){target="_blank"} può aiutarti a proteggere il mondo digitale dei tuoi figli e a offrire una protezione online completa. In genere richiede un abbonamento a pagamento. Tuttavia, grazie alla nostra partnership con Bark, GL.iNet offre gratuitamente il piano Bark Home **su modelli di router selezionati**, fornendo monitoraggio avanzato e avvisi senza costi aggiuntivi.
 
 **Nota**:
 
-1. Il servizio Bark e' disponibile **solo negli Stati Uniti, in Australia e in Sudafrica**. Fai clic [qui](https://support.bark.us/hc/en-us/articles/360049965072-International-availability){target="_blank"} per i dettagli.
+1. Il servizio Bark è disponibile **solo negli Stati Uniti, in Australia e in Sudafrica**. Fai clic [qui](https://support.bark.us/hc/en-us/articles/360049965072-International-availability){target="_blank"} per i dettagli.
 
-2. Le due versioni di Parental Control non possono essere abilitate contemporaneamente. Abilitandone una, l'altra verra' disattivata automaticamente.
+2. Le due versioni di Parental Control non possono essere abilitate contemporaneamente. Abilitandone una, l'altra verrà disattivata automaticamente.
 
 ### Modelli supportati {#supported-models_1}
 
@@ -244,13 +244,13 @@ Verrai reindirizzato al sito web di Bark. Segui le istruzioni sullo schermo per 
 ![bark_set_up](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/bark_get_started.png){class="glboxshadow"}
 <small>(Configurazione iniziale)</small>
 
-Una volta che il dispositivo si connette ai servizi Bark Cloud ed e' associato al tuo account, il pannello di amministrazione web del router verra' visualizzato come segue.
+Una volta che il dispositivo si connette ai servizi Bark Cloud ed è associato al tuo account, il pannello di amministrazione web del router verrà visualizzato come segue.
 
 ![bark_paired](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/bark_paired.png){class="glboxshadow"}
 
 Fai clic su **Go to Bark** oppure [qui](https://www.bark.us/app/children/?ref=glinet&home=glinet){target="_blank"} per accedere alla dashboard di Bark e configurare le regole di parental control.
 
-Poiche' GL.iNet non e' il fornitore di questo servizio, se riscontri problemi durante l'uso di Bark, contatta direttamente il [supporto tecnico di Bark](https://www.bark.us/contact-us/?ref=glinet&home=glinet){target="_blank"} per assistenza.
+Poiché GL.iNet non è il fornitore di questo servizio, se riscontri problemi durante l'uso di Bark, contatta direttamente il [supporto tecnico di Bark](https://www.bark.us/contact-us/?ref=glinet&home=glinet){target="_blank"} per assistenza.
 
 ---
 

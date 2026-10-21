@@ -30,7 +30,7 @@ Guarda questo video di configurazione oppure segui i passaggi riportati di segui
 
 ### 1. Installa la scheda SIM {#1-install-sim-card}
 
-Installa una o piu' Nano-SIM su Mudi 7. Se preferisci usare eSIM, salta questo passaggio e passa al passaggio 2.
+Installa una o più Nano-SIM su Mudi 7. Se preferisci usare eSIM, salta questo passaggio e passa al passaggio 2.
 
 !!! Warning
 
@@ -42,7 +42,7 @@ Per prima cosa, usa la piccola tacca nell'angolo inferiore destro del coperchio 
 
 ![remove battery](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/first_time_setup/battery1.png){class="glboxshadow"}
 
-Successivamente, inserisci la o le Nano-SIM. Se usi una sola scheda, dai priorita' alla SIM 1.
+Successivamente, inserisci la o le Nano-SIM. Se usi una sola scheda, dai priorità alla SIM 1.
 
 ![sim slots](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/first_time_setup/sim-slots.png){class="glboxshadow"}
 

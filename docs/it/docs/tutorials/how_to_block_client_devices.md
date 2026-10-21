@@ -2,7 +2,7 @@
 
 Questo tutorial mostra come bloccare dispositivi client specifici su un router GL.iNet. Bloccando i dispositivi client, impedisci accessi non autorizzati alla rete. Questo aiuta a migliorare la sicurezza della rete o a controllare l'accesso a Internet della tua famiglia.
 
-I router GL.iNet bloccano i dispositivi client in base ai loro indirizzi MAC, un identificatore univoco di 12 caratteri assegnato ai singoli dispositivi in rete. Questo metodo e' chiamato anche filtro degli indirizzi MAC.
+I router GL.iNet bloccano i dispositivi client in base ai loro indirizzi MAC, un identificatore univoco di 12 caratteri assegnato ai singoli dispositivi in rete. Questo metodo è chiamato anche filtro degli indirizzi MAC.
 
 Esistono due metodi per bloccare i dispositivi client sul router GL.iNet: tramite [pannello di amministrazione del router](#block-client-devices-via-the-admin-panel) oppure tramite [app mobile GL.iNet](#block-client-devices-via-the-glinet-mobile-app).
 

@@ -1,6 +1,6 @@
 # Connettersi a Internet tramite un cavo Ethernet {#connect-to-the-internet-via-an-ethernet-cable}
 
-Collega il router a una rete a banda larga tramite un cavo Ethernet inserito nella porta WAN. Di solito acquisisce automaticamente un indirizzo IP, DHCP. Gli utenti possono anche configurare manualmente IP statico o PPPoE. Questo metodo offre elevata stabilita' e velocita' elevata, rendendolo ideale per ambienti domestici e d'ufficio con accesso a banda larga fissa.
+Collega il router a una rete a banda larga tramite un cavo Ethernet inserito nella porta WAN. Di solito acquisisce automaticamente un indirizzo IP, DHCP. Gli utenti possono anche configurare manualmente IP statico o PPPoE. Questo metodo offre elevata stabilità e velocità elevata, rendendolo ideale per ambienti domestici e d'ufficio con accesso a banda larga fissa.
 
 Segui i passaggi sotto per collegare il router a Internet tramite un cavo Ethernet.
 
@@ -8,7 +8,7 @@ Segui i passaggi sotto per collegare il router a Internet tramite un cavo Ethern
 
 2. Accedi al pannello di amministrazione web del router e vai alla sezione **INTERNET** -> **Ethernet**.
 
-    Se la connessione e' riuscita, la sezione Ethernet mostrera' i dettagli di rete, inclusi Protocol, IP Address, Gateway e DNS Server.
+    Se la connessione è riuscita, la sezione Ethernet mostrerà i dettagli di rete, inclusi Protocol, IP Address, Gateway e DNS Server.
 
     ![ethernet](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/ethernet_1.png){class="glboxshadow"}
 
@@ -22,19 +22,19 @@ Esistono 3 tipi di protocollo: DHCP, Static e PPPoE. Fai clic su **Modify** per 
 
 * DHCP
 
-    DHCP e' il protocollo predefinito e piu' comune e assegna automaticamente indirizzi IP e altri parametri di comunicazione ai dispositivi di rete tramite un'architettura client-server su reti IP.
+    DHCP è il protocollo predefinito e più comune e assegna automaticamente indirizzi IP e altri parametri di comunicazione ai dispositivi di rete tramite un'architettura client-server su reti IP.
 
     ![ethernet dhcp](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/ethernet_3.png){class="glboxshadow"}
 
 * Static
 
-    Static e' necessario se il tuo ISP, Internet Service Provider, fornisce un indirizzo IP fisso oppure se vuoi configurare manualmente le informazioni di rete, come indirizzo IP, Gateway e Netmask.
+    Static è necessario se il tuo ISP, Internet Service Provider, fornisce un indirizzo IP fisso oppure se vuoi configurare manualmente le informazioni di rete, come indirizzo IP, Gateway e Netmask.
 
     ![ethernet static](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/ethernet_4.png){class="glboxshadow"}
 
 * PPPoE
 
-    PPPoE e' un protocollo usato dalla maggior parte degli ISP. In genere forniscono un modem e un nome utente con password, necessari per la configurazione di Internet.
+    PPPoE è un protocollo usato dalla maggior parte degli ISP. In genere forniscono un modem e un nome utente con password, necessari per la configurazione di Internet.
 
     ![ethernet pppoe](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/ethernet_5.png){class="glboxshadow"}
 
@@ -42,15 +42,15 @@ Esistono 3 tipi di protocollo: DHCP, Static e PPPoE. Fai clic su **Modify** per 
 
 Oltre alle impostazioni essenziali, per i tre protocolli sopra sono disponibili anche alcune impostazioni avanzate opzionali.
 
-* **VLAN ID**: questa impostazione e' necessaria solo se il server del provider richiede che l'interfaccia utilizzi uno specifico VLAN ID tagged.
+* **VLAN ID**: questa impostazione è necessaria solo se il server del provider richiede che l'interfaccia utilizzi uno specifico VLAN ID tagged.
 
-* **TTL**: TTL (Time To Live) definisce il tempo massimo per cui i pacchetti possono rimanere nella rete. Per impostazione predefinita, il router riduce di 1 il TTL dei pacchetti in ingresso dai dispositivi client prima di inoltrarli. L'impostazione TTL e' valida solo per IPv4.
+* **TTL**: TTL (Time To Live) definisce il tempo massimo per cui i pacchetti possono rimanere nella rete. Per impostazione predefinita, il router riduce di 1 il TTL dei pacchetti in ingresso dai dispositivi client prima di inoltrarli. L'impostazione TTL è valida solo per IPv4.
 
     **Nota**: se devi sovrascrivere o falsificare il TTL, imposta qui un valore fisso. Per la maggior parte dei modelli, inserisci il TTL effettivo desiderato più 1 per compensare la riduzione automatica. Mudi 7 (GL-E5800) applica il valore inserito senza modificarlo.
 
 * **HL**: in IPv6, il campo HL, Hop Limit, limita il numero di hop di trasmissione dei pacchetti nella rete e corrisponde al TTL in IPv4.
 
-* **MTU**: il valore MTU predefinito e' 1500 byte.
+* **MTU**: il valore MTU predefinito è 1500 byte.
 
 ## Porta Ethernet {#ethernet-port}
 
@@ -58,11 +58,11 @@ Fai clic sull'icona a forma di ingranaggio nell'angolo superiore destro per acce
 
 ![ethernet port 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/ethernet_6.png){class="glboxshadow"}
 
-La pagina **WAN** mostra la funzione della porta, cioe' uso come WAN o LAN, MAC mode e MAC address, oltre alla velocita' negoziata della porta di rete.
+La pagina **WAN** mostra la funzione della porta, cioè uso come WAN o LAN, MAC mode e MAC address, oltre alla velocità negoziata della porta di rete.
 
 ![ethernet port 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/wan.png){class="glboxshadow"}
 
-La pagina **LAN** mostra la funzione della porta e la velocita' negoziata della porta di rete.
+La pagina **LAN** mostra la funzione della porta e la velocità negoziata della porta di rete.
 
 ![ethernet port 3](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/lan.png){class="glboxshadow"}
 
@@ -70,7 +70,7 @@ Per i dettagli, consulta [Ethernet Port](ethernet_port.md).
 
 ## Risoluzione dei problemi {#troubleshooting}
 
-Se un cavo Ethernet e' inserito nella porta WAN ma Internet non e' disponibile, verra' visualizzato un messaggio giallo come mostrato di seguito.
+Se un cavo Ethernet è inserito nella porta WAN ma Internet non è disponibile, verrà visualizzato un messaggio giallo come mostrato di seguito.
 
 **"The interface is connected, but the Internet can't be accessed."**
 
@@ -87,8 +87,8 @@ Per risolvere il problema:
 Articoli correlati
 
 - [Pagina Internet](internet.md)
-- [Come impostare la priorita' di ciascun metodo di accesso a Internet?](multi-wan.md)
-- [Come impostare il bilanciamento del carico quando vengono usati contemporaneamente piu' metodi di accesso a Internet?](multi-wan.md)
+- [Come impostare la priorità di ciascun metodo di accesso a Internet?](multi-wan.md)
+- [Come impostare il bilanciamento del carico quando vengono usati contemporaneamente più metodi di accesso a Internet?](multi-wan.md)
 
 ---
 

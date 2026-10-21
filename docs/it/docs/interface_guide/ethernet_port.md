@@ -12,25 +12,25 @@ Il contenuto di questa pagina si basa sulle versioni firmware v4.7-4.9. Se il di
 
 Sul lato sinistro del pannello di amministrazione web, vai su **NETWORK** -> **Ethernet Port** oppure **Port Management**.
 
-Questa pagina consente di gestire le funzioni delle porte Ethernet, WAN/LAN, e di visualizzare i dettagli della porta, come indirizzo MAC e velocita' negoziata.
+Questa pagina consente di gestire le funzioni delle porte Ethernet, WAN/LAN, e di visualizzare i dettagli della porta, come indirizzo MAC e velocità negoziata.
 
 ## WAN {#wan}
 
-Questa sezione mostra la funzione della porta, WAN o LAN, l'indirizzo MAC e la velocita' negoziata.
+Questa sezione mostra la funzione della porta, WAN o LAN, l'indirizzo MAC e la velocità negoziata.
 
 ![wan](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/wan.png){class="glboxshadow"}
 
-- **WAN/LAN**: la modalita' operativa corrente della porta WAN fisica. Se necessario, puoi impostarla su LAN.
+- **WAN/LAN**: la modalità operativa corrente della porta WAN fisica. Se necessario, puoi impostarla su LAN.
 
-- **MAC Mode**: per impostazione predefinita e' Factory Mode. Puoi cambiarla in Clone Mode oppure Random Mode.
+- **MAC Mode**: per impostazione predefinita è Factory Mode. Puoi cambiarla in Clone Mode oppure Random Mode.
 
 - **MAC Address**: l'indirizzo MAC dell'interfaccia WAN.
 
-- **Negotiated Network Port Rate**: la velocita' di collegamento negoziata dell'interfaccia WAN, mostrata solo quando viene rilevato un collegamento valido.
+- **Negotiated Network Port Rate**: la velocità di collegamento negoziata dell'interfaccia WAN, mostrata solo quando viene rilevato un collegamento valido.
 
 ## LAN {#lan}
 
-Questa sezione mostra la velocita' negoziata della porta LAN. Viene visualizzata solo quando viene rilevato un collegamento valido.
+Questa sezione mostra la velocità negoziata della porta LAN. Viene visualizzata solo quando viene rilevato un collegamento valido.
 
 ![lan1](https://static.gl-inet.com/docs/router/en/4/interface_guide/ethernet_port/lan1.png){class="glboxshadow"}
 

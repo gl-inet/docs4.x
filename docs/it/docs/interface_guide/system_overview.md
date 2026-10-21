@@ -5,7 +5,7 @@ Sul lato sinistro del pannello di amministrazione web, vai su **SYSTEM** -> **Ov
 La pagina Overview mostra lo stato di alcuni componenti hardware e supporta alcuni controlli semplici, inclusi i seguenti:
 
 - Stato di CPU, memoria, flash e dispositivi di archiviazione esterni.
-- Stato di componenti hardware come ventola, batteria e cosi' via.
+- Stato di componenti hardware come ventola, batteria e così via.
 - Controllo di LED e ventola.
 - Informazioni sul dispositivo.
 
@@ -49,7 +49,7 @@ Fai clic sull'icona della ventola nell'angolo in alto a destra per entrare in Fa
 
 Passa il mouse sul grafico per mostrare i valori specifici.
 
-**Nota**: la memoria mostrata qui e' la memoria disponibile per il sistema Linux. La memoria totale qui sara' inferiore alla memoria fisica perche' una parte viene allocata al sottosistema Wi-Fi o ad altre aree di boot.
+**Nota**: la memoria mostrata qui è la memoria disponibile per il sistema Linux. La memoria totale qui sarà inferiore alla memoria fisica perché una parte viene allocata al sottosistema Wi-Fi o ad altre aree di boot.
 
 ![system overview, memory usage](https://static.gl-inet.com/docs/router/en/4/interface_guide/system_overview/memory_usage.png){class="glboxshadow gl-70-desktop"}
 
@@ -75,7 +75,7 @@ Device ID, MAC del dispositivo e S/N del dispositivo sono stati aggiunti dal fir
 
 ## Archiviazione esterna {#external-storage}
 
-Questa sezione, disponibile dalla v4.5, mostra la capacita' totale e disponibile del disco USB.
+Questa sezione, disponibile dalla v4.5, mostra la capacità totale e disponibile del disco USB.
 
 Alcuni modelli con firmware v4.7 e successivi supportano il cambio del protocollo USB.
 

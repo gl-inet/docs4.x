@@ -4,7 +4,7 @@ Questo articolo illustra i passaggi per configurare una connessione NordVPN con 
 
 Usiamo GL-AXT1800 come esempio.
 
-1. Accedi al tuo account Nord e controlla i dettagli dell'IP dedicato. Come mostrato di seguito, l'IP assegnato e' **193.32.211.142** e il server e' **United Kingdom #1625**.
+1. Accedi al tuo account Nord e controlla i dettagli dell'IP dedicato. Come mostrato di seguito, l'IP assegnato è **193.32.211.142** e il server è **United Kingdom #1625**.
 
     ![nordvpn dedicated ip info](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_nordvpn_dedicated_ip/dedicated_ip_info.png){class="glboxshadow"}
 
@@ -22,7 +22,7 @@ Usiamo GL-AXT1800 come esempio.
 
     ![set up nordvpn on glinet router](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_nordvpn_dedicated_ip/set_up_nordvpn_on_glinet_router.png){class="glboxshadow"}
 
-    Come mostrato sopra, e' stato rilevato un file di configurazione valido. Inserisci le service credentials di NordVPN.
+    Come mostrato sopra, è stato rilevato un file di configurazione valido. Inserisci le service credentials di NordVPN.
 
 5. Fai clic sull'icona con tre puntini a destra per connetterti. In alternativa puoi andare su **VPN Dashboard**, selezionare il file di configurazione e fare clic su **Apply** per stabilire la connessione.
 

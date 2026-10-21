@@ -2,7 +2,7 @@
 
 Puoi configurare un accesso WAN Ethernet cablato duale su un router con una sola porta WAN usando un adattatore Ethernet-USB-A.
 
-I router GL.iNet supportano i comuni adattatori Ethernet-USB-A, consentendoti di convertire l'accesso Ethernet cablato dal router ISP in una connessione USB tramite la porta USB del router, fornendo cosi' al router un accesso Ethernet cablato aggiuntivo oltre alla porta WAN.
+I router GL.iNet supportano i comuni adattatori Ethernet-USB-A, consentendoti di convertire l'accesso Ethernet cablato dal router ISP in una connessione USB tramite la porta USB del router, fornendo così al router un accesso Ethernet cablato aggiuntivo oltre alla porta WAN.
 
 ## Topologia {#topology}
 
@@ -10,7 +10,7 @@ I router GL.iNet supportano i comuni adattatori Ethernet-USB-A, consentendoti di
 
 ## Passaggi di configurazione {#setup-steps}
 
-1. Collega l'adattatore Ethernet-USB-A alla porta USB del router GL.iNet e collega l'altra estremita' al router ISP.
+1. Collega l'adattatore Ethernet-USB-A alla porta USB del router GL.iNet e collega l'altra estremità al router ISP.
 
 2. Installa il driver USB.
 
@@ -28,11 +28,11 @@ I router GL.iNet supportano i comuni adattatori Ethernet-USB-A, consentendoti di
 
     Una volta completata l'installazione del driver, vai su **INTERNET** -> sezione **Tethering**.
 
-    La connessione USB verra' rilevata, consentendoti di collegarti al router ISP.
+    La connessione USB verrà rilevata, consentendoti di collegarti al router ISP.
 
     ![detected](https://static.gl-inet.com/docs/router/en/4/tutorials/multiwan_wire/detected.png){class="glboxshadow"}
 
-    Fai clic su **Connect** e attendi circa un minuto. Quando si accende un punto verde e la pagina mostra informazioni come l'indirizzo IP, significa che la connessione USB Tethering e' riuscita.
+    Fai clic su **Connect** e attendi circa un minuto. Quando si accende un punto verde e la pagina mostra informazioni come l'indirizzo IP, significa che la connessione USB Tethering è riuscita.
 
     ![tether](https://static.gl-inet.com/docs/router/en/4/tutorials/multiwan_wire/tether.png){class="glboxshadow"}
 

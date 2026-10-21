@@ -1,6 +1,6 @@
 # Come verificare se hai un indirizzo IP pubblico {#how-to-check-if-you-have-a-public-ip-address}
 
-Un indirizzo pubblico, a differenza di un indirizzo IP privato, e' un identificatore numerico univoco assegnato ai dispositivi connessi a Internet. Ti serve un IP pubblico se vuoi ospitare un sito web, configurare un server VPN o offrire altri servizi online. In genere viene fornito dal tuo Internet Service Provider.
+Un indirizzo pubblico, a differenza di un indirizzo IP privato, è un identificatore numerico univoco assegnato ai dispositivi connessi a Internet. Ti serve un IP pubblico se vuoi ospitare un sito web, configurare un server VPN o offrire altri servizi online. In genere viene fornito dal tuo Internet Service Provider.
 
 Se non sei sicuro di avere un indirizzo IP pubblico, segui uno di questi metodi per verificarlo.
 
@@ -10,7 +10,7 @@ Se non sei sicuro di avere un indirizzo IP pubblico, segui uno di questi metodi 
 
 1. Accedi al pannello di amministrazione del router.
     * Per i router GL.iNet, inserisci `192.168.8.1` in un browser web ed effettua l'accesso.
-    * Se nella tua configurazione hai piu' di un router, accedi al pannello di amministrazione del router principale.
+    * Se nella tua configurazione hai più di un router, accedi al pannello di amministrazione del router principale.
 2. Nel pannello di amministrazione del router, individua il tuo indirizzo WAN IP, ad esempio `42.XXX.XX.`.
 ![locate ip address](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address/locate-ip-address.png){class="glboxshadow"}
 3. In un browser web, cerca `what is my ip`.

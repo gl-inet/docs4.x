@@ -2,7 +2,7 @@
 
 Questo tutorial mostra come configurare una rete Wi-Fi guest sui router GL.iNet.
 
-Una rete Wi-Fi guest e' una rete separata sul router per i dispositivi che vuoi isolare dai tuoi dispositivi principali. Questi includono i dispositivi degli ospiti e i dispositivi smart home. Creando una rete guest, puoi prevenire accessi non autorizzati e potenziali attacchi alla rete principale, migliorando la sicurezza della rete.
+Una rete Wi-Fi guest è una rete separata sul router per i dispositivi che vuoi isolare dai tuoi dispositivi principali. Questi includono i dispositivi degli ospiti e i dispositivi smart home. Creando una rete guest, puoi prevenire accessi non autorizzati e potenziali attacchi alla rete principale, migliorando la sicurezza della rete.
 
 Esistono due metodi per configurare una rete Wi-Fi guest sul router GL.iNet: tramite [pannello di amministrazione del router](#set-up-a-guest-network-via-the-admin-panel) oppure tramite [app mobile GL.iNet](#set-up-a-guest-network-via-the-glinet-mobile-app).
 

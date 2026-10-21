@@ -2,7 +2,7 @@
 
 Questa guida si applica al firmware v4.5 e precedenti.
 
-La pagina MAC Address in precedenza era intitolata MAC Clone ed e' stata rinominata in MAC Address a partire dalla v4.2.
+La pagina MAC Address in precedenza era intitolata MAC Clone ed è stata rinominata in MAC Address a partire dalla v4.2.
 
 Dalla v4.6, le impostazioni dell'indirizzo MAC per le interfacce Ethernet e Repeater sono state spostate rispettivamente in [Ethernet Port](ethernet_port.md) e [Repeater](internet_repeater.md).
 
@@ -12,7 +12,7 @@ Sul lato sinistro del pannello di amministrazione web, vai su **NETWORK** -> **M
 
 Puoi trovare l'indirizzo MAC predefinito del router, clonare l'indirizzo MAC di un client, inserire manualmente un indirizzo MAC oppure generarne uno casuale.
 
-Se il dispositivo supporta l'impostazione di piu' porte Ethernet da usare come porte WAN, puoi impostare separatamente l'indirizzo MAC per ciascuna porta. Tieni presente che l'impostazione dell'indirizzo MAC e' valida solo quando la porta Ethernet viene usata come porta WAN.
+Se il dispositivo supporta l'impostazione di più porte Ethernet da usare come porte WAN, puoi impostare separatamente l'indirizzo MAC per ciascuna porta. Tieni presente che l'impostazione dell'indirizzo MAC è valida solo quando la porta Ethernet viene usata come porta WAN.
 
 ![default mac address](https://static.gl-inet.com/docs/router/en/4/interface_guide/mac_address/mac_address.png){class="glboxshadow"}
 
@@ -24,7 +24,7 @@ Se il dispositivo supporta l'impostazione di piu' porte Ethernet da usare come p
 
     ![clone mac address](https://static.gl-inet.com/docs/router/en/4/interface_guide/mac_address/clone.png){class="glboxshadow"}
 
-    **Nota:** molti dispositivi recenti usano indirizzi MAC casuali diversi per connettersi a reti Wi-Fi differenti, quindi l'indirizzo MAC mostrato qui potrebbe non essere il vero indirizzo MAC del dispositivo dell'utente. Il MAC casuale puo' anche essere chiamato Private Wi-Fi Address o random hardware address su dispositivi diversi.
+    **Nota:** molti dispositivi recenti usano indirizzi MAC casuali diversi per connettersi a reti Wi-Fi differenti, quindi l'indirizzo MAC mostrato qui potrebbe non essere il vero indirizzo MAC del dispositivo dell'utente. Il MAC casuale può anche essere chiamato Private Wi-Fi Address o random hardware address su dispositivi diversi.
 
 * Inserimento manuale o generazione di un indirizzo MAC casuale.
 

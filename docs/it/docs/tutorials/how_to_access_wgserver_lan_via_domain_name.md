@@ -1,6 +1,6 @@
 # Come accedere ai dispositivi LAN di WireGuard Server dal client tramite nomi di dominio? {#how-to-access-wireguard-server-lan-devices-from-the-client-via-domain-names}
 
-Questo tutorial spiega come accedere ai dispositivi di casa, come NAS, telecamere IP e cosi' via, presenti nella LAN del server WireGuard dal client usando nomi di dominio.
+Questo tutorial spiega come accedere ai dispositivi di casa, come NAS, telecamere IP e così via, presenti nella LAN del server WireGuard dal client usando nomi di dominio.
 
 ## Topologia {#topology}
 
@@ -34,7 +34,7 @@ Inserisci l'IP e il nome di dominio dei dispositivi di casa a cui vuoi accedere,
 
     ![server allow access lan 4.8](https://static.gl-inet.com/docs/router/en/4/tutorials/access_server_lan_via_domain_names/server-allow-access-lan-4.8.png){class="glboxshadow"}
 
-    **Quando e' abilitato, questo router e i dispositivi LAN possono essere raggiunti da remoto tramite VPN.**
+    **Quando è abilitato, questo router e i dispositivi LAN possono essere raggiunti da remoto tramite VPN.**
 
 ??? "Per router server con firmware v4.7 e precedenti"
 
@@ -46,7 +46,7 @@ Inserisci l'IP e il nome di dominio dei dispositivi di casa a cui vuoi accedere,
 
     ![server allow access lan 4.7](https://static.gl-inet.com/docs/router/en/4/tutorials/access_server_lan_via_domain_names/server-allow-access-lan-4.7.png){class="glboxshadow"}
 
-    **Quando e' abilitato, questo router e i dispositivi LAN possono essere raggiunti da remoto tramite VPN.**
+    **Quando è abilitato, questo router e i dispositivi LAN possono essere raggiunti da remoto tramite VPN.**
 
 ### 3. Esportare la configurazione VPN {#3-export-vpn-configuration}
 
@@ -96,7 +96,7 @@ Fai clic sull'icona con tre puntini per avviare la connessione VPN.
 
 ![start client](https://static.gl-inet.com/docs/router/en/4/tutorials/access_server_lan_via_domain_names/start_client.png){class="glboxshadow"}
 
-Quando il punto grigio diventa verde, il client WireGuard si e' connesso correttamente al server.
+Quando il punto grigio diventa verde, il client WireGuard si è connesso correttamente al server.
 
 ![wgclient connected](https://static.gl-inet.com/docs/router/en/4/tutorials/access_server_lan_via_domain_names/wg_client_connected.png){class="glboxshadow"}
 

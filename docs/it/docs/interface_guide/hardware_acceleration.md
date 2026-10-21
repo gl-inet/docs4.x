@@ -1,12 +1,12 @@
 # Accelerazione hardware {#hardware-acceleration}
 
-**Nota**: questa guida si applica al firmware v4.2 e precedenti. Per le versioni piu' recenti, fai riferimento a [Network Acceleration](network_acceleration.md).
+**Nota**: questa guida si applica al firmware v4.2 e precedenti. Per le versioni più recenti, fai riferimento a [Network Acceleration](network_acceleration.md).
 
 ---
 
 L'accelerazione hardware, a volte chiamata *hardware NAT, flow offloading o offloading*, riduce il carico della CPU spostando l'inoltro dei pacchetti dalla CPU all'hardware SoC/NIC del router. In genere questo aumenta il throughput massimo e riduce l'utilizzo della CPU, ma comporta compromessi importanti, soprattutto per le funzioni che si basano sullo stack di rete Linux, netfilter/iptables/nftables, oppure sulle discipline di coda del kernel, qdisc, usate da SQM (Smart Queue Management).
 
-Quando l'accelerazione hardware e' abilitata, le seguenti funzioni non funzioneranno correttamente: Client Speed, Traffic Statistics e Client Speed Limit.
+Quando l'accelerazione hardware è abilitata, le seguenti funzioni non funzioneranno correttamente: Client Speed, Traffic Statistics e Client Speed Limit.
 
 ## Modelli supportati {#supported-models}
 

@@ -1,6 +1,6 @@
 # Come accedere ai dispositivi LAN di OpenVPN Server dal client tramite nomi di dominio? {#how-to-access-openvpn-server-lan-devices-from-the-client-via-domain-names}
 
-Questo tutorial spiega come accedere ai dispositivi di casa, come NAS, telecamere IP e cosi' via, presenti nella LAN del server OpenVPN dal client usando nomi di dominio.
+Questo tutorial spiega come accedere ai dispositivi di casa, come NAS, telecamere IP e così via, presenti nella LAN del server OpenVPN dal client usando nomi di dominio.
 
 ## Topologia {#topology}
 
@@ -32,7 +32,7 @@ Abilita **Allow Remote Access the LAN Subnet**, quindi fai clic su **Apply**.
 
 ![ovpnserver allow access lan 4.8](https://static.gl-inet.com/docs/router/en/4/tutorials/access_ovpnserver_lan_via_domain_names/allow_remote_access_lan.png){class="glboxshadow"}
 
-Quando e' abilitato, il router e i dispositivi LAN possono essere raggiunti da remoto tramite VPN.
+Quando è abilitato, il router e i dispositivi LAN possono essere raggiunti da remoto tramite VPN.
 
 ### 3. Esportare la configurazione VPN {#3-export-vpn-configuration}
 
@@ -42,7 +42,7 @@ Nel pannello di amministrazione del server, vai su **VPN** -> **OpenVPN Server**
 
 Nella finestra pop-up, fai clic su **Export**.
 
-**Nota**: se l'indirizzo IP pubblico del server e' dinamico e cambia nel tempo, vai prima su **APPLICATIONS** -> **Dynamic DNS** per abilitare **DDNS**, poi esporta la configurazione client.
+**Nota**: se l'indirizzo IP pubblico del server è dinamico e cambia nel tempo, vai prima su **APPLICATIONS** -> **Dynamic DNS** per abilitare **DDNS**, poi esporta la configurazione client.
 
 ![export config](https://static.gl-inet.com/docs/router/en/4/tutorials/access_ovpnserver_lan_via_domain_names/export2.png){class="glboxshadow"}
 
@@ -50,7 +50,7 @@ Otterrai quindi un file **.ovpn**, come mostrato di seguito.
 
 ![downloads](https://static.gl-inet.com/docs/router/en/4/tutorials/access_ovpnserver_lan_via_domain_names/download.png){class="glboxshadow"}
 
-Se il router server usa firmware v4.8 o successivo, non e' necessario modificare il file di configurazione; passa al passaggio successivo.
+Se il router server usa firmware v4.8 o successivo, non è necessario modificare il file di configurazione; passa al passaggio successivo.
 
 Se il router server usa firmware v4.7 o precedente, apri questo file, aggiungi la riga seguente per impostare il server DNS sull'IP del tunnel del tuo server OpenVPN, quindi salva le modifiche.
 
@@ -92,7 +92,7 @@ Fai clic sull'icona con tre puntini per avviare la connessione VPN.
 
 ![start client](https://static.gl-inet.com/docs/router/en/4/tutorials/access_ovpnserver_lan_via_domain_names/ovpnclient_start.png){class="glboxshadow"}
 
-Quando il punto grigio diventa verde, il client OpenVPN si e' connesso correttamente al server.
+Quando il punto grigio diventa verde, il client OpenVPN si è connesso correttamente al server.
 
 ![ovpnclient connected](https://static.gl-inet.com/docs/router/en/4/tutorials/access_ovpnserver_lan_via_domain_names/ovpnclient_connected.png){class="glboxshadow"}
 

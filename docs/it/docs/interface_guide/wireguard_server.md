@@ -1,6 +1,6 @@
 # Configurare WireGuard Server sui router GL.iNet {#set-up-wireguard-server-on-glinet-routers}
 
-WireGuard® e' una VPN estremamente semplice, veloce e moderna che utilizza crittografia all'avanguardia. Punta a essere piu' veloce, piu' semplice, piu' leggera e piu' utile di IPSec, evitando al tempo stesso una complessita' eccessiva. In generale offre prestazioni nettamente migliori rispetto a OpenVPN.
+WireGuard® è una VPN estremamente semplice, veloce e moderna che utilizza crittografia all'avanguardia. Punta a essere più veloce, più semplice, più leggera e più utile di IPSec, evitando al tempo stesso una complessità eccessiva. In generale offre prestazioni nettamente migliori rispetto a OpenVPN.
 
 Per configurare WireGuard server su un router GL.iNet, guarda questo video oppure segui i passaggi riportati di seguito.
 
@@ -10,27 +10,27 @@ Per configurare WireGuard server su un router GL.iNet, guarda questo video oppur
 
 Fai clic [qui](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md) per verificare se il tuo Internet Service Provider ti assegna un indirizzo IP pubblico.
 
-**In caso contrario, il router non puo' essere configurato come WireGuard Server.**
+**In caso contrario, il router non può essere configurato come WireGuard Server.**
 
 Metodi alternativi:
 
 1. Se hai un router principale, accedi ad esso e verifica se riceve un IP pubblico dal tuo ISP.
 2. Chiedi al tuo ISP un indirizzo IP pubblico. Potrebbe essere previsto un costo aggiuntivo.
-3. Se i due metodi precedenti non funzionano, ad esempio se la rete e' dietro CGNAT, puoi provare la nostra soluzione SD-WAN [AstroWarp](https://www.astrowarp.net/){target="_blank"}.
+3. Se i due metodi precedenti non funzionano, ad esempio se la rete è dietro CGNAT, puoi provare la nostra soluzione SD-WAN [AstroWarp](https://www.astrowarp.net/){target="_blank"}.
 
-## Verifica se e' necessario il Port Forwarding {#confirm-if-port-forwarding-is-required}
+## Verifica se è necessario il Port Forwarding {#confirm-if-port-forwarding-is-required}
 
 **Topologia di rete**
 
-??? "GL.iNet e' il router principale"
+??? "GL.iNet è il router principale"
 
-    * Se il router GL.iNet e' il router principale della tua rete, non e' necessario configurare il port forwarding. Passa al [passaggio successivo](#set-up-wireguard-server).
+    * Se il router GL.iNet è il router principale della tua rete, non è necessario configurare il port forwarding. Passa al [passaggio successivo](#set-up-wireguard-server).
 
-??? "GL.iNet e' il router secondario"
+??? "GL.iNet è il router secondario"
 
-    * Se e' gia' presente un router principale e il router GL.iNet e' configurato come router secondario, dovrai configurare il [port forwarding](../tutorials/how_to_set_up_port_forwarding.md) sul router principale.
+    * Se è già presente un router principale e il router GL.iNet è configurato come router secondario, dovrai configurare il [port forwarding](../tutorials/how_to_set_up_port_forwarding.md) sul router principale.
 
-    * Se e' gia' presente un router principale e il router GL.iNet si trova diversi livelli sotto il router principale, configura il [port forwarding](../tutorials/how_to_set_up_port_forwarding.md) su ciascun livello intermedio.
+    * Se è già presente un router principale e il router GL.iNet si trova diversi livelli sotto il router principale, configura il [port forwarding](../tutorials/how_to_set_up_port_forwarding.md) su ciascun livello intermedio.
 
 ## Configurare WireGuard Server {#set-up-wireguard-server}
 
@@ -42,11 +42,11 @@ Accedi al pannello di amministrazione web e vai su **VPN** -> **WireGuard Server
 
 2. Controlla la configurazione.
 
-    La configurazione predefinita funziona nella maggior parte dei casi, come mostrato di seguito. Non e' necessario modificare l'indirizzo IPv4 se non entra in conflitto con il gateway del router a monte.
+    La configurazione predefinita funziona nella maggior parte dei casi, come mostrato di seguito. Non è necessario modificare l'indirizzo IPv4 se non entra in conflitto con il gateway del router a monte.
 
     ![check configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/check_configuration.png){class="glboxshadow"}
 
-    (IPv6 su GL.iNet e' disabilitato per impostazione predefinita. Se vuoi usare un indirizzo IPv6, abilita IPv6 sul router.)
+    (IPv6 su GL.iNet è disabilitato per impostazione predefinita. Se vuoi usare un indirizzo IPv6, abilita IPv6 sul router.)
 
     L'indirizzo IPv4 è l'IP del tunnel del server WireGuard. Se entra in conflitto con il gateway del router a monte, modificarlo, ad esempio in **10.1.0.1/24**, quindi fare clic su **Apply**. Assicurarsi di includere la notazione CIDR "/24" per evitare problemi di connettività.
 
@@ -72,7 +72,7 @@ Accedi al pannello di amministrazione web e vai su **VPN** -> **WireGuard Server
 
     ??? "Aggiungi regole di route se necessario"
 
-        Nella maggior parte dei casi non e' necessario aggiungere regole di route.
+        Nella maggior parte dei casi non è necessario aggiungere regole di route.
 
         Se vuoi accedere dal server ai dispositivi LAN del client WireGuard, passa alla scheda **Route Rules** nella pagina **WireGuard Server** per configurare le regole di route. Fai clic [qui](../tutorials/wireguard_server_access_to_client_lan_side.md) per ulteriori istruzioni.
 
@@ -82,9 +82,9 @@ Accedi al pannello di amministrazione web e vai su **VPN** -> **WireGuard Server
 
 4. Scarica la configurazione.
 
-    Dopo aver aggiunto un profilo e aver fatto clic su Apply, verra' generato un file di configurazione in tre formati: codice QR, testo semplice e file `.conf`. Scegli il metodo che preferisci per ottenere il file di configurazione.
+    Dopo aver aggiunto un profilo e aver fatto clic su Apply, verrà generato un file di configurazione in tre formati: codice QR, testo semplice e file `.conf`. Scegli il metodo che preferisci per ottenere il file di configurazione.
 
-    - **QR code**: adatto ai dispositivi terminali, ad esempio smartphone, tablet e laptop, con l'app WireGuard installata. Se vuoi configurare un determinato dispositivo come client WireGuard, apri semplicemente l'app WireGuard, scansiona il codice QR e la configurazione verra' importata automaticamente.
+    - **QR code**: adatto ai dispositivi terminali, ad esempio smartphone, tablet e laptop, con l'app WireGuard installata. Se vuoi configurare un determinato dispositivo come client WireGuard, apri semplicemente l'app WireGuard, scansiona il codice QR e la configurazione verrà importata automaticamente.
 
         ![client configuration qrcode](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/download_config_qrcode.png){class="glboxshadow"}
 
@@ -92,11 +92,11 @@ Accedi al pannello di amministrazione web e vai su **VPN** -> **WireGuard Server
 
         ![client configuration plain text](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/download_config_text.png){class="glboxshadow"}
 
-    - **.conf file**: fai clic sul pulsante **Download** per salvare il file `.conf` sul tuo dispositivo locale. E' altrettanto pratico e puo' essere caricato direttamente nell'app WireGuard o in un router GL.iNet.
+    - **.conf file**: fai clic sul pulsante **Download** per salvare il file `.conf` sul tuo dispositivo locale. È altrettanto pratico e può essere caricato direttamente nell'app WireGuard o in un router GL.iNet.
 
         ![client configuration file](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/download_config_file.png){class="glboxshadow"}
 
-    Se necessario, puoi specificare l'indirizzo del server scegliendo tra IP pubblico, dominio DDNS e WAN IP corrente. Questa funzione e' disponibile dal firmware v4.8. Una volta modificata, anche l'indirizzo del server nel file di configurazione verra' aggiornato.
+    Se necessario, puoi specificare l'indirizzo del server scegliendo tra IP pubblico, dominio DDNS e WAN IP corrente. Questa funzione è disponibile dal firmware v4.8. Una volta modificata, anche l'indirizzo del server nel file di configurazione verrà aggiornato.
 
     Ad esempio, si consiglia di abilitare [DDNS](ddns.md) e usare il dominio DDNS come indirizzo del server se l'IP pubblico della tua rete cambia frequentemente.
 
@@ -108,7 +108,7 @@ Accedi al pannello di amministrazione web e vai su **VPN** -> **WireGuard Server
 
     ![start wireguard server](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/start_wgserver.png){class="glboxshadow"}
 
-    Lo stato della connessione verra' mostrato nella stessa pagina.
+    Lo stato della connessione verrà mostrato nella stessa pagina.
 
     ![wireguard server status](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/wgserver_status.png){class="glboxshadow"}
 
@@ -118,11 +118,11 @@ Accedi al pannello di amministrazione web e vai su **VPN** -> **WireGuard Server
 
 Dal firmware v4.8 puoi controllare lo stato della connessione server nella pagina **WireGuard Server**.
 
-Se vengono mostrate statistiche del traffico upload/download e dispositivi connessi online, significa che il server WireGuard e' in esecuzione e che ci sono client WireGuard collegati.
+Se vengono mostrate statistiche del traffico upload/download e dispositivi connessi online, significa che il server WireGuard è in esecuzione e che ci sono client WireGuard collegati.
 
 ![wireguard server connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/wgserver_status.png){class="glboxshadow"}
 
-Se vengono mostrati 0 traffico e 0 client, significa che non c'e' alcun client WireGuard connesso.
+Se vengono mostrati 0 traffico e 0 client, significa che non c'è alcun client WireGuard connesso.
 
 ![wireguard server no client](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/wgserver_status_no_client.png){class="glboxshadow"}
 
@@ -130,15 +130,15 @@ Per il firmware v4.7 e precedenti, controlla lo stato della connessione server n
 
 ### Verificare l'IP del client {#verify-clients-ip}
 
-Per verificare una connessione riuscita al server, importa la configurazione WireGuard precedentemente esportata su un dispositivo che si trovi in una rete diversa da quella locale del server. Poi apri un browser web e cerca il tuo indirizzo IP e la tua posizione. Se corrispondono all'IP del server VPN, invece che all'IP del tuo provider Internet, e alla relativa posizione, la connessione VPN e' riuscita.
+Per verificare una connessione riuscita al server, importa la configurazione WireGuard precedentemente esportata su un dispositivo che si trovi in una rete diversa da quella locale del server. Poi apri un browser web e cerca il tuo indirizzo IP e la tua posizione. Se corrispondono all'IP del server VPN, invece che all'IP del tuo provider Internet, e alla relativa posizione, la connessione VPN è riuscita.
 
-Il metodo piu' semplice e' usare uno smartphone con l'[app WireGuard](https://www.wireguard.com/install){target="_blank"} ufficiale installata. Per prima cosa disattiva il Wi-Fi dello smartphone e collegati a Internet esclusivamente tramite rete cellulare 4G/5G. Poi apri l'app WireGuard, importa il file di configurazione e avvia la connessione. Verifica se lo smartphone riesce ad accedere a Internet e se il suo indirizzo IP corrisponde a quello del WireGuard Server.
+Il metodo più semplice è usare uno smartphone con l'[app WireGuard](https://www.wireguard.com/install){target="_blank"} ufficiale installata. Per prima cosa disattiva il Wi-Fi dello smartphone e collegati a Internet esclusivamente tramite rete cellulare 4G/5G. Poi apri l'app WireGuard, importa il file di configurazione e avvia la connessione. Verifica se lo smartphone riesce ad accedere a Internet e se il suo indirizzo IP corrisponde a quello del WireGuard Server.
 
-Se la connessione fallisce, le cause piu' comuni sono:
+Se la connessione fallisce, le cause più comuni sono:
 
 * Il provider Internet non ti assegna un indirizzo IP pubblico. Controlla [qui](#make-sure-you-have-a-public-ip-address).
 * Potrebbe essere necessario configurare il port forwarding. Controlla [qui](#confirm-if-port-forwarding-is-required).
-* La porta usata da WireGuard Server e' bloccata dal tuo provider Internet. Cambia porta oppure contatta il provider per ulteriore assistenza.
+* La porta usata da WireGuard Server è bloccata dal tuo provider Internet. Cambia porta oppure contatta il provider per ulteriore assistenza.
 * In alcuni paesi o regioni la connessione VPN potrebbe essere bloccata.
 
 ## Opzioni del server {#server-options}
@@ -173,7 +173,7 @@ Scarica l'app WireGuard dal [sito ufficiale di WireGuard](https://www.wireguard.
 
 ---
 
-WireGuard® e' un marchio registrato di Jason A.Donenfeld.
+WireGuard® è un marchio registrato di Jason A.Donenfeld.
 
 ---
 

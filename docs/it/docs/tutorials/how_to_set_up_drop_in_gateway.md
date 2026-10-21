@@ -1,10 +1,10 @@
 # Come configurare drop-in gateway su un router GL.iNet {#how-to-set-up-drop-in-gateway-on-a-glinet-router}
 
-GL.iNet offre la funzione drop-in gateway, che migliora le funzionalita' del router principale aggiungendo caratteristiche che potrebbe non avere, tra cui AdGuard Home, DNS crittografato e VPN. Usando questa funzione, puoi continuare a usare il router principale come sempre, beneficiando al tempo stesso di funzioni aggiuntive.
+GL.iNet offre la funzione drop-in gateway, che migliora le funzionalità del router principale aggiungendo caratteristiche che potrebbe non avere, tra cui AdGuard Home, DNS crittografato e VPN. Usando questa funzione, puoi continuare a usare il router principale come sempre, beneficiando al tempo stesso di funzioni aggiuntive.
 
 Puoi abilitare drop-in gateway per [tutti i dispositivi](#enable-drop-in-gateway-for-all-devices) oppure per [dispositivi specifici](#enable-drop-in-gateway-for-specific-devices) collegati al router principale. Segui la sezione appropriata per la tua configurazione.
 
-**Nota**: i modelli con firmware inferiore alla versione v4.5.0 supportano solo l'abilitazione del drop-in gateway per tutti i dispositivi. Quando il drop-in gateway e' abilitato, tutti i dispositivi client passeranno in rete attraverso il drop-in gateway, il che significa che tutto il traffico dei client connessi verra' gestito prima da questo router.
+**Nota**: i modelli con firmware inferiore alla versione v4.5.0 supportano solo l'abilitazione del drop-in gateway per tutti i dispositivi. Quando il drop-in gateway è abilitato, tutti i dispositivi client passeranno in rete attraverso il drop-in gateway, il che significa che tutto il traffico dei client connessi verrà gestito prima da questo router.
 
 ---
 
@@ -96,7 +96,7 @@ Esistono due metodi per abilitare drop-in gateway: tramite pannello di amministr
 
     6. Fai clic su **Apply**.
 
-    **Nota**: NON chiudere questa scheda. Ti servira' inserire l'indirizzo IP mostrato sullo schermo nel passaggio successivo.
+    **Nota**: NON chiudere questa scheda. Ti servirà inserire l'indirizzo IP mostrato sullo schermo nel passaggio successivo.
 
 ??? "Uso dell'app mobile GL.iNet"
 
@@ -114,7 +114,7 @@ Esistono due metodi per abilitare drop-in gateway: tramite pannello di amministr
 
     4. Tocca **Done**.
 
-    **Nota**: NON chiudere questa scheda. Ti servira' inserire l'indirizzo IP mostrato sullo schermo nel passaggio successivo.
+    **Nota**: NON chiudere questa scheda. Ti servirà inserire l'indirizzo IP mostrato sullo schermo nel passaggio successivo.
 
 ### 3. Imposta gateway e DNS sul dispositivo specifico {#3-set-gateway-and-dns-on-specific-device}
 

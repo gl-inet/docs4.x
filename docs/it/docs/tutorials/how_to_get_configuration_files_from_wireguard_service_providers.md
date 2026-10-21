@@ -26,15 +26,15 @@
 
     1. Collegati al router tramite [SSH](https://docs.gl-inet.com/router/en/3/tutorials/ssh/){target="_blank"}.
 
-    2. Copia l'URL di installazione riportato sotto, incollalo nel terminale e premi Invio. Il clic destro del mouse incollera' il testo.
+    2. Copia l'URL di installazione riportato sotto, incollalo nel terminale e premi Invio. Il clic destro del mouse incollerà il testo.
 
         `curl -fsSL https://raw.githubusercontent.com/eventure/hide.client.routers/master/glinet_v4/hidemevpn | sh -s install`
 
-    3. L'installazione verra' avviata e poi verranno richiesti nome utente e password. Quando digiti o incolli la password, nel terminale non verra' mostrato alcun cambiamento; premi semplicemente Invio dopo averla digitata.
+    3. L'installazione verrà avviata e poi verranno richiesti nome utente e password. Quando digiti o incolli la password, nel terminale non verrà mostrato alcun cambiamento; premi semplicemente Invio dopo averla digitata.
 
-    4. Al termine, vai nel pannello di amministrazione web e vedrai che e' stato creato un gruppo hide.me VPN con i file di configurazione gia' presenti. Ti basta connetterti come faresti con qualsiasi altro file di configurazione.
+    4. Al termine, vai nel pannello di amministrazione web e vedrai che è stato creato un gruppo hide.me VPN con i file di configurazione già presenti. Ti basta connetterti come faresti con qualsiasi altro file di configurazione.
 
-    **Nota**: la chiave nel file di configurazione Hide.me VPN viene rigenerata prima di ogni connessione e diventa non valida dopo la disconnessione, quindi copiare questo file di configurazione su altri dispositivi non permettera' di connettersi correttamente.
+    **Nota**: la chiave nel file di configurazione Hide.me VPN viene rigenerata prima di ogni connessione e diventa non valida dopo la disconnessione, quindi copiare questo file di configurazione su altri dispositivi non permetterà di connettersi correttamente.
 
     [Link di riferimento](https://github.com/eventure/hide.client.routers){target="_blank"}
 
@@ -54,7 +54,7 @@
 
     [Sito ufficiale](https://privateinternetaccess.com/offer/GLiNET_71dx4t8bl){target="_blank"}
 
-    Non e' possibile scaricare le configurazioni WireGuard dal sito web; usa la [app mobile](../faq/mobile_app.md) per configurare PIA VPN.
+    Non è possibile scaricare le configurazioni WireGuard dal sito web; usa la [app mobile](../faq/mobile_app.md) per configurare PIA VPN.
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/Fc7NTdQ9QFo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -100,7 +100,7 @@
 
         ![airvpn protocols](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/airvpn/airvpn_protocols.png){class="glboxshadow" width="600"}
 
-    3. Seleziona un server, scorri fino in fondo e fai clic su **Generate**. Il file di configurazione verra' scaricato.
+    3. Seleziona un server, scorri fino in fondo e fai clic su **Generate**. Il file di configurazione verrà scaricato.
 
         ![airvpn select server](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/airvpn/airvpn_select_server.png){class="glboxshadow" width="600"}
 
@@ -150,7 +150,7 @@
 
     3. Apri la configurazione con un editor di testo e copia il contenuto.
 
-        La configurazione puo' contenere contenuti IPv6; poiche' i router GL.iNet non supportano IPv6 in modo sufficientemente completo, elimina il contenuto IPv6. Nell'esempio seguente, la parte evidenziata e' il contenuto IPv6.
+        La configurazione può contenere contenuti IPv6; poiché i router GL.iNet non supportano IPv6 in modo sufficientemente completo, elimina il contenuto IPv6. Nell'esempio seguente, la parte evidenziata è il contenuto IPv6.
 
         ![remove wireguard ipv6 content](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/ovpn/remove_wireguard_ipv6_content.jpg){class="glboxshadow"}
 
@@ -212,7 +212,7 @@
 
         ![purevpn manual1](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/purevpn/purevpn-manual-1.png){class="glboxshadow"}
 
-    2. Seleziona la citta' di destinazione e fai clic su **Download** sulla destra.
+    2. Seleziona la città di destinazione e fai clic su **Download** sulla destra.
 
         ![purevpn manual2](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/purevpn/purevpn-manual-2.png){class="glboxshadow"}
 
@@ -220,7 +220,7 @@
 
         ![purevpn manual3](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/purevpn/purevpn-manual-3.png){class="glboxshadow"}
 
-    4. Seleziona **Linux** come tipo di dispositivo, quindi fai clic su **Generate Configuration**. Il file di configurazione verra' scaricato sul tuo dispositivo locale.
+    4. Seleziona **Linux** come tipo di dispositivo, quindi fai clic su **Generate Configuration**. Il file di configurazione verrà scaricato sul tuo dispositivo locale.
 
         ![purevpn manual4](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/purevpn/purevpn-manual-4.png){class="glboxshadow"}
 
@@ -252,7 +252,7 @@
 
     1. **Registra un account StarVPN**
 
-        Vai alle opzioni del [piano tariffario](https://www.starvpn.com/#pricing){target="_blank"} e scegli il piano VPN piu' adatto alle tue esigenze. Puoi registrarti durante il checkout oppure direttamente [qui](https://www.starvpn.com/dashboard/register.php){target="_blank"}.
+        Vai alle opzioni del [piano tariffario](https://www.starvpn.com/#pricing){target="_blank"} e scegli il piano VPN più adatto alle tue esigenze. Puoi registrarti durante il checkout oppure direttamente [qui](https://www.starvpn.com/dashboard/register.php){target="_blank"}.
 
     2. **Scarica la configurazione WireGuard**
 
@@ -266,7 +266,7 @@
 
     3. **Modifica il file di configurazione, opzionale**
 
-        La configurazione puo' contenere un indirizzo IPv6. Per evitare problemi di compatibilita' e connettivita', apri il file `.conf` e rimuovi l'indirizzo IPv6, come mostrato di seguito.
+        La configurazione può contenere un indirizzo IPv6. Per evitare problemi di compatibilità e connettività, apri il file `.conf` e rimuovi l'indirizzo IPv6, come mostrato di seguito.
 
         ![startvpn wireguard configuration remove ipv6 content](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/starvpn/remove_ipv6.jpg){class="glboxshadow"}
 

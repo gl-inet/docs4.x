@@ -69,7 +69,7 @@ Fai riferimento alla sezione corrispondente al provider di servizi VPN che stai 
 
 ## 3. Verificare la connessione VPN {#3-verify-vpn-connection}
 
-Apri un browser web e cerca il tuo indirizzo IP e la tua posizione. Se corrispondono all'IP e alla posizione del server VPN, invece che a quelli del tuo Internet service provider, allora la connessione VPN e' riuscita.
+Apri un browser web e cerca il tuo indirizzo IP e la tua posizione. Se corrispondono all'IP e alla posizione del server VPN, invece che a quelli del tuo Internet service provider, allora la connessione VPN è riuscita.
 
 ---
 

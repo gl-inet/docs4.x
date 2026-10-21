@@ -1,6 +1,6 @@
 # Accesso amministratore {#admin-access}
 
-> Questa pagina e' stata introdotta nel firmware v4.9.
+> Questa pagina è stata introdotta nel firmware v4.9.
 
 Sul lato sinistro del pannello di amministrazione web, vai su **SECURITY** -> **Admin Access**.
 
@@ -10,7 +10,7 @@ Questa pagina consente di configurare varie impostazioni di sicurezza per proteg
 
 Access Control, chiamato anche Local Access Control nel firmware v4.7 e precedenti, gestisce l'accesso alle diverse interfacce di gestione del router.
 
-Puo' impedire scansioni e tentativi di intrusione sulla porta predefinita ed evitare problemi di rete causati da conflitti di porta.
+Può impedire scansioni e tentativi di intrusione sulla porta predefinita ed evitare problemi di rete causati da conflitti di porta.
 
 **Nota**: se il numero di porta viene modificato nel firmware, devi inserire il numero di porta corretto per accedere al pannello di amministrazione. Se dimentichi il numero di porta, ripristina il router al numero di porta predefinito.
 
@@ -18,33 +18,33 @@ Puo' impedire scansioni e tentativi di intrusione sulla porta predefinita ed evi
 
 ### Admin Panel {#admin-panel}
 
-- **HTTP Port**: il valore predefinito e' 80 ed e' usato per l'accesso HTTP non crittografato al pannello di amministrazione web.
+- **HTTP Port**: il valore predefinito è 80 ed è usato per l'accesso HTTP non crittografato al pannello di amministrazione web.
 
-- **HTTPS Port**: il valore predefinito e' 443 ed e' usato per l'accesso HTTPS sicuro al pannello di amministrazione web.
+- **HTTPS Port**: il valore predefinito è 443 ed è usato per l'accesso HTTPS sicuro al pannello di amministrazione web.
 
 - **Force HTTPS**: se abilitato, l'accesso al pannello di amministrazione web viene forzato a usare una connessione HTTPS sicura.
 
-- **Auto-Logout Time**: il valore predefinito e' 5 minuti; disconnette automaticamente le sessioni admin inattive dopo questo intervallo per motivi di sicurezza. Puoi personalizzare il tempo di auto-logout da 1 minuto a 3 ore.
+- **Auto-Logout Time**: il valore predefinito è 5 minuti; disconnette automaticamente le sessioni admin inattive dopo questo intervallo per motivi di sicurezza. Puoi personalizzare il tempo di auto-logout da 1 minuto a 3 ore.
 
 ### LuCI {#luci}
 
 > Nota: installa LuCI in **Advanced Settings** prima di configurarne il controllo accessi.
 
-- **HTTP Port**: il valore predefinito e' 8080, per l'accesso HTTP non crittografato all'interfaccia LuCI.
+- **HTTP Port**: il valore predefinito è 8080, per l'accesso HTTP non crittografato all'interfaccia LuCI.
 
-- **HTTPS Port**: il valore predefinito e' 8443, per l'accesso HTTPS sicuro all'interfaccia LuCI.
+- **HTTPS Port**: il valore predefinito è 8443, per l'accesso HTTPS sicuro all'interfaccia LuCI.
 
 - **Force HTTPS**: se abilitato, l'accesso all'interfaccia LuCI viene forzato a usare una connessione HTTPS sicura.
 
 ### SSH {#ssh}
 
-- **Enable SSH**: controlla se l'accesso SSH al router e' consentito. E' abilitato per impostazione predefinita.
+- **Enable SSH**: controlla se l'accesso SSH al router è consentito. È abilitato per impostazione predefinita.
 
-- **SSH Port**: il valore predefinito e' 22, la porta usata per l'accesso SSH al router.
+- **SSH Port**: il valore predefinito è 22, la porta usata per l'accesso SSH al router.
 
 ### Prohibited Port {#prohibited-port}
 
-Se assegni un numero di porta in conflitto con una porta riservata, o riservata a servizi specifici in base alle convenzioni di browser o rete, comparira' il messaggio "This port is forbidden by the browser".
+Se assegni un numero di porta in conflitto con una porta riservata, o riservata a servizi specifici in base alle convenzioni di browser o rete, comparirà il messaggio "This port is forbidden by the browser".
 
 ![http_https_port_forbidden](https://static.gl-inet.com/docs/router/en/4/interface_guide/admin_access/http_https_port_forbidden.png){class="glboxshadow"}
 
@@ -135,17 +135,17 @@ Se assegni un numero di porta in conflitto con una porta riservata, o riservata 
 
 ## Remote Access Control {#remote-access-control}
 
-Dopo aver abilitato l'accesso remoto, e' possibile impostare posizioni specifiche da cui consentire l'accesso, ad esempio permettendo l'accesso remoto ai dispositivi di casa solo dall'ufficio, sacrificando comodita' in favore di una maggiore sicurezza.
+Dopo aver abilitato l'accesso remoto, è possibile impostare posizioni specifiche da cui consentire l'accesso, ad esempio permettendo l'accesso remoto ai dispositivi di casa solo dall'ufficio, sacrificando comodità in favore di una maggiore sicurezza.
 
 ![security_remote_access_control](https://static.gl-inet.com/docs/router/en/4/interface_guide/admin_access/security_remote_access_control.png){class="glboxshadow"}
 
-- **Allow Ping from WAN**: quando si verifica un problema di rete, consentire il Ping dalla porta WAN puo' aiutare utenti o amministratori di rete a verificare se il router e' collegato correttamente, oltre a determinare latenza di rete e perdita di pacchetti.
+- **Allow Ping from WAN**: quando si verifica un problema di rete, consentire il Ping dalla porta WAN può aiutare utenti o amministratori di rete a verificare se il router è collegato correttamente, oltre a determinare latenza di rete e perdita di pacchetti.
 
-- **HTTPS Remote Access**: il protocollo HTTPS viene usato principalmente per la comunicazione tra browser web e server web, fornendo una trasmissione sicura dei dati. Pertanto, quando gli utenti devono gestire server da remoto o accedere ad applicazioni web tramite browser, il protocollo HTTPS puo' essere usato per garantire la sicurezza e l'affidabilita' della trasmissione dei dati.
+- **HTTPS Remote Access**: il protocollo HTTPS viene usato principalmente per la comunicazione tra browser web e server web, fornendo una trasmissione sicura dei dati. Pertanto, quando gli utenti devono gestire server da remoto o accedere ad applicazioni web tramite browser, il protocollo HTTPS può essere usato per garantire la sicurezza e l'affidabilità della trasmissione dei dati.
 
-- **SSH Remote Access**: il protocollo SSH viene usato principalmente per accedere e gestire in modo sicuro computer e server remoti, oltre a eseguire trasferimenti di file. Quando gli utenti devono accedere da remoto ai server tramite righe di comando o script per gestione del sistema, trasferimento file e altre operazioni, il protocollo SSH puo' essere usato per creare un tunnel sicuro e garantire sicurezza e privacy dei dati.
+- **SSH Remote Access**: il protocollo SSH viene usato principalmente per accedere e gestire in modo sicuro computer e server remoti, oltre a eseguire trasferimenti di file. Quando gli utenti devono accedere da remoto ai server tramite righe di comando o script per gestione del sistema, trasferimento file e altre operazioni, il protocollo SSH può essere usato per creare un tunnel sicuro e garantire sicurezza e privacy dei dati.
 
-- **Allow Remote Access from Specific IPs**: questa funzione viene usata insieme a **Allow Ping from WAN**, **HTTPS Remote Access** o **SSH Remote Access**. Puoi aggiungere piu' indirizzi IP specifici per gestire da remoto i router da dispositivi con tali IP specifici.
+- **Allow Remote Access from Specific IPs**: questa funzione viene usata insieme a **Allow Ping from WAN**, **HTTPS Remote Access** o **SSH Remote Access**. Puoi aggiungere più indirizzi IP specifici per gestire da remoto i router da dispositivi con tali IP specifici.
 
 ![add_ip_address_1](https://static.gl-inet.com/docs/router/en/4/interface_guide/admin_access/add_ip_address_1.png){class="glboxshadow"}
 

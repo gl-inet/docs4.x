@@ -1,6 +1,6 @@
 # Dynamic DNS {#dynamic-dns}
 
-Dynamic Domain Name Service (Dynamic DNS o DDNS) e' un servizio usato per associare un nome di dominio all'indirizzo IP dinamico di un dispositivo di rete. Con Dynamic DNS puoi accedere al router da remoto. Per questa funzione e' richiesto un indirizzo IP pubblico Internet.
+Dynamic Domain Name Service (Dynamic DNS o DDNS) è un servizio usato per associare un nome di dominio all'indirizzo IP dinamico di un dispositivo di rete. Con Dynamic DNS puoi accedere al router da remoto. Per questa funzione è richiesto un indirizzo IP pubblico Internet.
 
 ## Abilitare DDNS {#enable-ddns}
 
@@ -24,7 +24,7 @@ Abilita il protocollo di accesso remoto desiderato e fai clic su **Apply**.
 
 ![security remote access](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/remote_access_enabled.jpg){class="glboxshadow"}
 
-Potrebbe esserci un ritardo fino a 10 minuti nella sincronizzazione dei record tra i server DNS. Questo puo' impedirti di accedere immediatamente tramite il nome di dominio DDNS dopo l'attivazione o quando cambia il tuo IP pubblico.
+Potrebbe esserci un ritardo fino a 10 minuti nella sincronizzazione dei record tra i server DNS. Questo può impedirti di accedere immediatamente tramite il nome di dominio DDNS dopo l'attivazione o quando cambia il tuo IP pubblico.
 
 **Nota**: se abiliti DDNS e VPN Client contemporaneamente, assicurati che **Services From GL.iNet Use VPN** sia disabilitato. Questa funzione si trova nelle [VPN Client Options](vpn_dashboard_v4.8.md#tunnel-options) del VPN Dashboard.
 
@@ -40,7 +40,7 @@ Puoi verificare se DDNS funziona usando lo strumento di test DDNS oppure control
 
     Assicurati che l'indirizzo IP ottenuto dalla risoluzione del dominio DDNS corrisponda all'IP WAN del router.
 
-    In caso contrario, nella parte superiore apparira' un avviso giallo che indica che il router potrebbe trovarsi dietro NAT e che devi configurare il port forwarding sul router a monte.
+    In caso contrario, nella parte superiore apparirà un avviso giallo che indica che il router potrebbe trovarsi dietro NAT e che devi configurare il port forwarding sul router a monte.
 
     ![ddns test prompt](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/ddns_test_no_public_ip.png){class="glboxshadow"}
 
@@ -66,7 +66,7 @@ Puoi verificare se DDNS funziona usando lo strumento di test DDNS oppure control
 
 !!! Note
 
-    1. Per l'accesso remoto HTTPS e' necessario un indirizzo **Public IP**.
+    1. Per l'accesso remoto HTTPS è necessario un indirizzo **Public IP**.
 
         Fai clic [qui](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md) per verificare se il tuo Internet Provider Service (ISP) ti assegna un indirizzo IP pubblico.
 
@@ -88,9 +88,9 @@ Segui i passaggi seguenti per abilitare l'accesso remoto HTTPS per il router.
 
 Una volta abilitato, potrai accedere al pannello di amministrazione del router da qualsiasi luogo usando il nome host DDNS tramite **HTTPS** (ad esempio `https://xxxxxxx.glddns.com`).
 
-Se il port forwarding e' configurato, accedi usando `https://xxxxxxx.glddns.com:external_port` (sostituisci `external_port` con il numero di porta effettivo).
+Se il port forwarding è configurato, accedi usando `https://xxxxxxx.glddns.com:external_port` (sostituisci `external_port` con il numero di porta effettivo).
 
-**Nota**: questa funzione usa certificati autofirmati, quindi i browser mostreranno **Your connection is not private** quando accedi al pannello di amministrazione del router tramite il nome host DDNS su **HTTPS**, come mostrato di seguito (la porta 8001 e' usata sotto come esempio).
+**Nota**: questa funzione usa certificati autofirmati, quindi i browser mostreranno **Your connection is not private** quando accedi al pannello di amministrazione del router tramite il nome host DDNS su **HTTPS**, come mostrato di seguito (la porta 8001 è usata sotto come esempio).
 
 ![HTTPS-Remote-Access-on-Android-Chrome](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/https_remote_access_android_chrome_0.jpg){class="glboxshadow" width="400"}
 
@@ -110,7 +110,7 @@ A questo punto potrai accedere al pannello di amministrazione web usando il nome
 
 !!! Note
 
-    1. Per l'accesso remoto SSH e' necessario un indirizzo **Public IP**.
+    1. Per l'accesso remoto SSH è necessario un indirizzo **Public IP**.
 
         Fai clic [qui](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md) per verificare se il tuo Internet Provider Service (ISP) ti assegna un indirizzo IP pubblico.
 
@@ -132,7 +132,7 @@ Segui i passaggi seguenti per abilitare l'accesso remoto SSH per il router.
 
 Una volta abilitato, potrai accedere da remoto al terminale del router usando il nome host DDNS tramite **SSH** (ad esempio `ssh root@xxxxxxx.glddns.com`).
 
-Se il port forwarding e' configurato, accedi usando `ssh -p external_port root@xxxxxxx.glddns.com` (sostituisci `external_port` con il numero di porta effettivo).
+Se il port forwarding è configurato, accedi usando `ssh -p external_port root@xxxxxxx.glddns.com` (sostituisci `external_port` con il numero di porta effettivo).
 
 ---
 

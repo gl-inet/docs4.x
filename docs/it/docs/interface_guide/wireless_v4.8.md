@@ -13,7 +13,7 @@ Il contenuto di questa pagina si basa sulla versione firmware v4.8.x e precedent
 
 Sul lato sinistro del pannello di amministrazione web, vai su **WIRELESS**.
 
-La pagina Wireless consente di configurare reti Wi-Fi separate, incluse 2.4 GHz, 5 GHz, 6 GHz e Wi-Fi MLO, a seconda del modello. Ogni banda puo' essere configurata come Main Wi-Fi oppure Guest Wi-Fi per una gestione wireless flessibile.
+La pagina Wireless consente di configurare reti Wi-Fi separate, incluse 2.4 GHz, 5 GHz, 6 GHz e Wi-Fi MLO, a seconda del modello. Ogni banda può essere configurata come Main Wi-Fi oppure Guest Wi-Fi per una gestione wireless flessibile.
 
 **Nota**: alcuni modelli non supportano il Wi-Fi a 5 GHz, come GL-MT300N-V2 (Mango), GL-X300B (Collie) e GL-XE300 (Puli); alcuni invece non hanno alcuna funzione Wi-Fi, come GL-MT5000 (Brume 3) e GL-MT2500/GL-MT2500A (Brume 2).
 
@@ -28,23 +28,23 @@ La pagina Wireless consente di configurare reti Wi-Fi separate, incluse 2.4 GHz,
 | Flint 3 (GL-BE9300)             | √         |
 | Slate 7 (GL-BE3600)             | √         |
 
-MLO (Multi-Link Operation) e' una delle funzionalita' chiave del Wi-Fi 7 (802.11be), progettata per migliorare le prestazioni della rete, ridurre sensibilmente la latenza e aumentare la stabilita' della connessione utilizzando contemporaneamente piu' bande di frequenza, come 2.4 GHz, 5 GHz e 6 GHz.
+MLO (Multi-Link Operation) è una delle funzionalità chiave del Wi-Fi 7 (802.11be), progettata per migliorare le prestazioni della rete, ridurre sensibilmente la latenza e aumentare la stabilità della connessione utilizzando contemporaneamente più bande di frequenza, come 2.4 GHz, 5 GHz e 6 GHz.
 
 Fai clic sulle schede qui sotto per conoscere le impostazioni di MLO Main Wi-Fi e MLO Guest Wi-Fi.
 
 === "MLO Wi-Fi"
 
-    MLO Main Wi-Fi consente di configurare diverse impostazioni, tra cui abilitazione/disabilitazione del Wi-Fi, selezione delle bande radio, almeno due, abilitazione/disabilitazione del BSSID casuale, nome Wi-Fi SSID, sicurezza Wi-Fi, password Wi-Fi e visibilita' dell'SSID.
+    MLO Main Wi-Fi consente di configurare diverse impostazioni, tra cui abilitazione/disabilitazione del Wi-Fi, selezione delle bande radio, almeno due, abilitazione/disabilitazione del BSSID casuale, nome Wi-Fi SSID, sicurezza Wi-Fi, password Wi-Fi e visibilità dell'SSID.
 
     ![MLO Main Wi-Fi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/main_wifi_mlo.png){class="glboxshadow"}
 
-    - Se le bande radio del Wi-Fi MLO includono 6 GHz, il BSSID del Wi-Fi MLO verra' sincronizzato quando cambia il BSSID del Wi-Fi a 6 GHz.
+    - Se le bande radio del Wi-Fi MLO includono 6 GHz, il BSSID del Wi-Fi MLO verrà sincronizzato quando cambia il BSSID del Wi-Fi a 6 GHz.
 
-    - La sicurezza Wi-Fi predefinita per MLO Wi-Fi e' WPA3-SAE, adatta alla maggior parte dei dispositivi che supportano MLO.
+    - La sicurezza Wi-Fi predefinita per MLO Wi-Fi è WPA3-SAE, adatta alla maggior parte dei dispositivi che supportano MLO.
 
 === "MLO Guest Wi-Fi"
 
-    MLO Guest Wi-Fi consente di configurare impostazioni semplificate, tra cui abilitazione/disabilitazione del Wi-Fi, selezione delle bande radio, almeno due, nome Wi-Fi SSID, sicurezza Wi-Fi, password e visibilita' dell'SSID.
+    MLO Guest Wi-Fi consente di configurare impostazioni semplificate, tra cui abilitazione/disabilitazione del Wi-Fi, selezione delle bande radio, almeno due, nome Wi-Fi SSID, sicurezza Wi-Fi, password e visibilità dell'SSID.
 
     ![MLO Guest Wi-Fi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/guest_wifi_mlo.png){class="glboxshadow"}
 
@@ -56,21 +56,21 @@ Fai clic sulle schede qui sotto per conoscere le impostazioni di MLO Main Wi-Fi 
 | Mudi 7 (GL-E5800)               | √         |
 | Flint 3 (GL-BE9300)             | √         |
 
-Il Wi-Fi a 6 GHz offre connettivita' wireless piu' veloce e stabile, con minore congestione rispetto alle bande 2.4 GHz e 5 GHz.
+Il Wi-Fi a 6 GHz offre connettività wireless più veloce e stabile, con minore congestione rispetto alle bande 2.4 GHz e 5 GHz.
 
 Fai clic sulle schede qui sotto per conoscere le impostazioni di 6 GHz Main Wi-Fi e 6 GHz Guest Wi-Fi.
 
 === "6 GHz Wi-Fi"
 
-    6 GHz Main Wi-Fi consente di configurare diverse impostazioni, tra cui abilitazione/disabilitazione del Wi-Fi, potenza TX, abilitazione/disabilitazione del BSSID casuale, nome Wi-Fi SSID, sicurezza Wi-Fi, password Wi-Fi, visibilita' dell'SSID, modalita' Wi-Fi, larghezza di banda e canale.
+    6 GHz Main Wi-Fi consente di configurare diverse impostazioni, tra cui abilitazione/disabilitazione del Wi-Fi, potenza TX, abilitazione/disabilitazione del BSSID casuale, nome Wi-Fi SSID, sicurezza Wi-Fi, password Wi-Fi, visibilità dell'SSID, modalità Wi-Fi, larghezza di banda e canale.
 
     ![6G Main Wi-Fi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/main_wifi_6g.png){class="glboxshadow"}
 
-    - Enable PSC: quando PSC, Preferred Scanning Channel, e' abilitato, verranno riservati solo i canali con migliore connettivita' per garantire la connessione dei dispositivi a 6 GHz.
+    - Enable PSC: quando PSC, Preferred Scanning Channel, è abilitato, verranno riservati solo i canali con migliore connettività per garantire la connessione dei dispositivi a 6 GHz.
 
 === "6 GHz Guest Wi-Fi"
 
-    6 GHz Guest Wi-Fi consente di configurare impostazioni semplificate, tra cui abilitazione/disabilitazione del Wi-Fi, nome Wi-Fi SSID, sicurezza Wi-Fi, password e visibilita' dell'SSID.
+    6 GHz Guest Wi-Fi consente di configurare impostazioni semplificate, tra cui abilitazione/disabilitazione del Wi-Fi, nome Wi-Fi SSID, sicurezza Wi-Fi, password e visibilità dell'SSID.
 
     ![6G Guest Wi-Fi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/guest_wifi_6g.png){class="glboxshadow"}
 
@@ -80,13 +80,13 @@ Fai clic sulle schede qui sotto per conoscere le impostazioni di 5 GHz Main Wi-F
 
 === "5 GHz Wi-Fi"
 
-    5 GHz Main Wi-Fi consente di configurare diverse impostazioni, tra cui abilitazione/disabilitazione del Wi-Fi, potenza TX, abilitazione/disabilitazione del BSSID casuale, nome Wi-Fi SSID, sicurezza Wi-Fi, password Wi-Fi, visibilita' dell'SSID, modalita' Wi-Fi, larghezza di banda e canale.
+    5 GHz Main Wi-Fi consente di configurare diverse impostazioni, tra cui abilitazione/disabilitazione del Wi-Fi, potenza TX, abilitazione/disabilitazione del BSSID casuale, nome Wi-Fi SSID, sicurezza Wi-Fi, password Wi-Fi, visibilità dell'SSID, modalità Wi-Fi, larghezza di banda e canale.
 
     ![5G Main Wi-Fi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/main_wifi_5g.jpg){class="glboxshadow"}
 
 === "5 GHz Guest Wi-Fi"
 
-    5 GHz Guest Wi-Fi consente di configurare impostazioni semplificate, tra cui abilitazione/disabilitazione del Wi-Fi, nome Wi-Fi SSID, sicurezza Wi-Fi, password e visibilita' dell'SSID.
+    5 GHz Guest Wi-Fi consente di configurare impostazioni semplificate, tra cui abilitazione/disabilitazione del Wi-Fi, nome Wi-Fi SSID, sicurezza Wi-Fi, password e visibilità dell'SSID.
 
     ![5G Guest Wi-Fi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/guest_wifi_5g.png){class="glboxshadow"}
 
@@ -96,13 +96,13 @@ Fai clic sulle schede qui sotto per conoscere le impostazioni di 2.4 GHz Main Wi
 
 === "2.4 GHz Wi-Fi"
 
-    2.4 GHz Main Wi-Fi consente di configurare diverse impostazioni, tra cui abilitazione/disabilitazione del Wi-Fi, potenza TX, abilitazione/disabilitazione del BSSID casuale, nome Wi-Fi SSID, sicurezza Wi-Fi, password Wi-Fi, visibilita' dell'SSID, modalita' Wi-Fi, larghezza di banda e canale.
+    2.4 GHz Main Wi-Fi consente di configurare diverse impostazioni, tra cui abilitazione/disabilitazione del Wi-Fi, potenza TX, abilitazione/disabilitazione del BSSID casuale, nome Wi-Fi SSID, sicurezza Wi-Fi, password Wi-Fi, visibilità dell'SSID, modalità Wi-Fi, larghezza di banda e canale.
 
     ![2.4G Main Wi-Fi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/main_wifi_2.4g.png){class="glboxshadow"}
 
 === "2.4 GHz Guest Wi-Fi"
 
-    2.4 GHz Guest Wi-Fi consente di configurare impostazioni semplificate, tra cui abilitazione/disabilitazione del Wi-Fi, nome Wi-Fi SSID, sicurezza Wi-Fi, password e visibilita' dell'SSID.
+    2.4 GHz Guest Wi-Fi consente di configurare impostazioni semplificate, tra cui abilitazione/disabilitazione del Wi-Fi, nome Wi-Fi SSID, sicurezza Wi-Fi, password e visibilità dell'SSID.
 
     ![2.4G Guest Wi-Fi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/guest_wifi_2.4g.png){class="glboxshadow"}
 
@@ -114,15 +114,15 @@ Fai clic sulle schede qui sotto per conoscere le impostazioni di 2.4 GHz Main Wi
 
 * **Randomized BSSID**: abilitata per impostazione predefinita, impedisce di tracciare il router tramite un BSSID fisso. Per i dettagli, consulta [Randomized BSSID](#randomized-bssid).
 
-* **Bandwidth** e **Channel** non possono essere modificati quando il router funziona come [repeater](internet_repeater.md), poiche' seguono quelli della rete ripetuta.
+* **Bandwidth** e **Channel** non possono essere modificati quando il router funziona come [repeater](internet_repeater.md), poiché seguono quelli della rete ripetuta.
 
-* Quando **Channel** e' impostato su **Auto**, il Wi-Fi del router non passera' automaticamente ai canali DFS.
+* Quando **Channel** è impostato su **Auto**, il Wi-Fi del router non passerà automaticamente ai canali DFS.
 
-* Quando si cambia **Channel** da un canale non-DFS a un canale DFS, verra' visualizzato un avviso come segue.
+* Quando si cambia **Channel** da un canale non-DFS a un canale DFS, verrà visualizzato un avviso come segue.
 
     ![dfs channel caution](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/switch_to_dfs_caution.png){class="glboxshadow"}
 
-* Quando **Bandwidth** e' impostata su **160 MHz**, disponibile solo su alcuni modelli, il Wi-Fi utilizzera' sempre un canale DFS, anche se nelle impostazioni del canale scegli un canale non-DFS oppure Auto.
+* Quando **Bandwidth** è impostata su **160 MHz**, disponibile solo su alcuni modelli, il Wi-Fi utilizzerà sempre un canale DFS, anche se nelle impostazioni del canale scegli un canale non-DFS oppure Auto.
 
 ## Randomized BSSID {#randomized-bssid}
 

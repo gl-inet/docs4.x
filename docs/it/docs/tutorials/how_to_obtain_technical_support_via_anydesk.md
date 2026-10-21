@@ -22,13 +22,13 @@ Avvia AnyDesk dopo l'installazione.
 
 ## 4. Ottieni l'indirizzo AnyDesk {#4-obtain-anydesk-address}
 
-Una volta in esecuzione, AnyDesk mostrera' un indirizzo numerico, di solito nel formato `123 456 789`. Questo e' l'indirizzo che devi condividere con il tecnico del supporto.
+Una volta in esecuzione, AnyDesk mostrerà un indirizzo numerico, di solito nel formato `123 456 789`. Questo è l'indirizzo che devi condividere con il tecnico del supporto.
 
 ![get anydesk address](https://static.gl-inet.com/docs/router/en/4/tutorials/remote_support_via_anydesk/anydesk_address.png){class="glboxshadow"}
 
 ## 5. Condividi l'indirizzo AnyDesk {#5-share-anydesk-address}
 
-Invia il tuo indirizzo AnyDesk al personale di supporto, cosi' potra' collegarsi al tuo dispositivo.
+Invia il tuo indirizzo AnyDesk al personale di supporto, così potrà collegarsi al tuo dispositivo.
 
 ## 6. Accetta la richiesta di connessione {#6-accept-connection-request}
 
@@ -44,7 +44,7 @@ Durante tutta la sessione di supporto, sentiti libero di comunicare tramite audi
 
 ## 8. Termina la sessione {#8-end-the-session}
 
-Quando la sessione di supporto e' conclusa, termina la connessione facendo clic sul pulsante rosso **End Session** nell'interfaccia AnyDesk. Questo revochera' tutte le autorizzazioni di accesso remoto. Per garantire la massima tutela della privacy, ti consigliamo inoltre di:
+Quando la sessione di supporto è conclusa, termina la connessione facendo clic sul pulsante rosso **End Session** nell'interfaccia AnyDesk. Questo revocherà tutte le autorizzazioni di accesso remoto. Per garantire la massima tutela della privacy, ti consigliamo inoltre di:
 
 - chiudere completamente l'applicazione AnyDesk, non soltanto ridurla a icona;
 - riavviare il computer se temi la presenza di processi residui;

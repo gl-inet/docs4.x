@@ -71,7 +71,7 @@ Dal firmware v4.8 sono state introdotte altre opzioni, come Repeater, Wi‑Fi e 
 
 Quando applichi le impostazioni, puoi decidere se abilitare o disabilitare subito la funzione selezionata in base alla posizione on/off, sinistra/destra, dell'interruttore.
 
-**Nota**: dopo il riavvio del dispositivo, il sistema applichera' automaticamente lo stato della funzione in base alla posizione dell'interruttore a levetta.
+**Nota**: dopo il riavvio del dispositivo, il sistema applicherà automaticamente lo stato della funzione in base alla posizione dell'interruttore a levetta.
 
 Ad esempio, se configuri WireGuard Client perché sia controllato dall'interruttore a levetta, quando l'interruttore è a SINISTRA (ON) WireGuard Client si avvia automaticamente. Quando l'interruttore è a DESTRA (OFF), WireGuard Client resta disabilitato.
 

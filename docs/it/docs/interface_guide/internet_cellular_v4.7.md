@@ -11,7 +11,7 @@ Il contenuto di questa pagina si basa sulle versioni firmware v4.7 e precedenti.
 
 ---
 
-La maggior parte dei router GL.iNet supporta la connettivita' cellulare. Questa guida copre tre tipi di modelli:
+La maggior parte dei router GL.iNet supporta la connettività cellulare. Questa guida copre tre tipi di modelli:
 
 1. **Modelli 4G single-SIM integrati**
 
@@ -19,13 +19,13 @@ La maggior parte dei router GL.iNet supporta la connettivita' cellulare. Questa 
 
 2. **Modelli compatibili con modem USB**
 
-    Alcuni modelli dispongono di una porta USB e supportano la connettivita' cellulare tramite modem USB, come GL-AXT1800 (Slate AX). I passaggi di configurazione sono simili a quelli dei modelli 4G single-SIM integrati. Fai riferimento a [Setup for Single-SIM models](#setup-for-single-sim-models).
+    Alcuni modelli dispongono di una porta USB e supportano la connettività cellulare tramite modem USB, come GL-AXT1800 (Slate AX). I passaggi di configurazione sono simili a quelli dei modelli 4G single-SIM integrati. Fai riferimento a [Setup for Single-SIM models](#setup-for-single-sim-models).
 
 3. **Modelli 5G dual-SIM integrati**
 
     Alcuni modelli includono un modulo 5G integrato con due slot SIM, come GL-X3000 (Spitz AX). Le impostazioni cellulari nel pannello di amministrazione web possono differire leggermente. Fai riferimento a [Setup for Dual-SIM models](#setup-for-dual-sim-models).
 
-**Nota:** alcune SIM richiedono l'attivazione prima del primo utilizzo. Per garantire la compatibilita', attiva la SIM in uno smartphone prima di inserirla nel router.
+**Nota:** alcune SIM richiedono l'attivazione prima del primo utilizzo. Per garantire la compatibilità, attiva la SIM in uno smartphone prima di inserirla nel router.
 
 ## Configurazione per modelli single-SIM {#setup-for-single-sim-models}
 
@@ -33,7 +33,7 @@ I passaggi seguenti si applicano ai modelli con modem cellulare integrato e uno 
 
 Qui usiamo **GL-AXT1800 (Slate AX)** con un modem USB esterno come esempio.
 
-Ti consigliamo di spegnere prima il router. Inserisci una SIM gia' attivata nel modem USB, quindi collega il modem alla porta USB del router. Dopodiche', accendi il router.
+Ti consigliamo di spegnere prima il router. Inserisci una SIM già attivata nel modem USB, quindi collega il modem alla porta USB del router. Dopodiché, accendi il router.
 
 Se colleghi il modem USB dopo l'avvio del router, il pannello di amministrazione web potrebbe non aggiornarsi automaticamente. In tal caso, aggiorna la pagina o riavvia il router.
 
@@ -47,17 +47,17 @@ Accedi al pannello di amministrazione web del router e vai su **INTERNET** -> **
 
     ![usb modem auto setup](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/usb_modem_auto_setup.png){class="glboxshadow"}
 
-2. Iniziera' la connessione.
+2. Inizierà la connessione.
 
     **Nota:** alcune SIM possono avere restrizioni d'uso particolari, ad esempio la richiesta di un APN specifico. Se la SIM non riesce a registrarsi, contatta il tuo operatore per verificare eventuali restrizioni speciali.
 
     ![usb modem connecting](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/usb_modem_connecting.png){class="glboxshadow"}
 
-3. Una volta connesso, la pagina mostrera' i dettagli della rete con un punto verde, a indicare una connessione riuscita.
+3. Una volta connesso, la pagina mostrerà i dettagli della rete con un punto verde, a indicare una connessione riuscita.
 
     ![usb modem connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/usb_modem_connected.png){class="glboxshadow"}
 
-    **Nota:** dopo la configurazione iniziale, se riavvii il router con il modem USB collegato o lo ricolleghi, il modem USB verra' riconosciuto automaticamente e la connessione di rete verra' stabilita senza dover fare di nuovo clic sul pulsante Auto Setup.
+    **Nota:** dopo la configurazione iniziale, se riavvii il router con il modem USB collegato o lo ricolleghi, il modem USB verrà riconosciuto automaticamente e la connessione di rete verrà stabilita senza dover fare di nuovo clic sul pulsante Auto Setup.
 
 Se Auto Setup non riesce, prova [Manual Setup](#manual-setup).
 
@@ -67,7 +67,7 @@ Nella sezione Cellular, fai clic su **Manual Setup** per visualizzare o modifica
 
 **Nota**: alcune SIM possono richiedere un APN specifico. Se la SIM non riesce a registrarsi, contatta il tuo operatore per verificare eventuali restrizioni. Se necessario, configura l'APN corretto sul router.
 
-L'applicazione delle modifiche attivera' una nuova connessione.
+L'applicazione delle modifiche attiverà una nuova connessione.
 
 ![4g modem manual setup](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/cellular_settings.png){class="glboxshadow"}
 
@@ -75,25 +75,25 @@ L'applicazione delle modifiche attivera' una nuova connessione.
 
 - **Port**: la porta seriale usata per comunicare con il modem cellulare. Di solito viene rilevata automaticamente e non richiede regolazioni manuali.
 
-- **APN**: APN, Access Point Name, e' un parametro gateway necessario per una connessione di rete cellulare. Consente al router di connettersi a Internet tramite il tuo operatore mobile. Puoi usare l'APN predefinito oppure impostarne uno personalizzato fornito dal tuo operatore.
+- **APN**: APN, Access Point Name, è un parametro gateway necessario per una connessione di rete cellulare. Consente al router di connettersi a Internet tramite il tuo operatore mobile. Puoi usare l'APN predefinito oppure impostarne uno personalizzato fornito dal tuo operatore.
 
-- **PIN**: se la SIM e' protetta da un codice PIN, inseriscilo qui. Questo campo e' facoltativo se non e' impostato alcun PIN.
+- **PIN**: se la SIM è protetta da un codice PIN, inseriscilo qui. Questo campo è facoltativo se non è impostato alcun PIN.
 
-- **TTL**: TTL (Time To Live) definisce il tempo massimo per cui i pacchetti possono rimanere nella rete. Per impostazione predefinita, il router riduce di 1 il TTL dei pacchetti in ingresso dai dispositivi client prima di inoltrarli. L'impostazione TTL e' valida solo per IPv4.
+- **TTL**: TTL (Time To Live) definisce il tempo massimo per cui i pacchetti possono rimanere nella rete. Per impostazione predefinita, il router riduce di 1 il TTL dei pacchetti in ingresso dai dispositivi client prima di inoltrarli. L'impostazione TTL è valida solo per IPv4.
 
     **Nota**: se devi sovrascrivere o falsificare il TTL, imposta qui un valore fisso. Per la maggior parte dei modelli, inserisci il TTL effettivo desiderato più 1 per compensare la riduzione automatica. Mudi 7 (GL-E5800) applica il valore inserito senza modificarlo.
 
-- **Service**: seleziona il tipo di servizio cellulare per definire le tecnologie di rete che il modem usera'.
+- **Service**: seleziona il tipo di servizio cellulare per definire le tecnologie di rete che il modem userà.
 
-- **Dial Number**: inserisci il numero di composizione fornito dal tuo operatore. Spesso e' preconfigurato e, nella maggior parte delle reti moderne, puo' essere lasciato vuoto.
+- **Dial Number**: inserisci il numero di composizione fornito dal tuo operatore. Spesso è preconfigurato e, nella maggior parte delle reti moderne, può essere lasciato vuoto.
 
-- **Authentication**: scegli il metodo di autenticazione richiesto dal tuo operatore, ad esempio NONE, PAP o CHAP. Di solito e' impostato su NONE se non sono necessarie credenziali.
+- **Authentication**: scegli il metodo di autenticazione richiesto dal tuo operatore, ad esempio NONE, PAP o CHAP. Di solito è impostato su NONE se non sono necessarie credenziali.
 
 ### Modem compatibili {#compatible-modems}
 
 Ecco un elenco dei modem supportati che sono stati testati in precedenza.
 
-**SIMPoYo uFi** e' un dongle USB plug-and-play compatto con hotspot Wi-Fi, progettato per una connettivita' rapida e affidabile ovunque. Funziona perfettamente con la maggior parte dei router GL.iNet, cosi' come con laptop, power bank, porte USB per auto e altre fonti di alimentazione USB. Include 10 GB di dati gratuiti per 30 giorni, validi nel Regno Unito e in 34 paesi europei.
+**SIMPoYo uFi** è un dongle USB plug-and-play compatto con hotspot Wi-Fi, progettato per una connettività rapida e affidabile ovunque. Funziona perfettamente con la maggior parte dei router GL.iNet, così come con laptop, power bank, porte USB per auto e altre fonti di alimentazione USB. Include 10 GB di dati gratuiti per 30 giorni, validi nel Regno Unito e in 34 paesi europei.
 
 | Model | Cellular | Type | Tested by | Comments* |
 | --- | --- | --- | --- | --- |
@@ -116,29 +116,29 @@ Ecco un elenco dei modem supportati che sono stati testati in precedenza.
 | MeiG O4H13 (Qualcomm MDM9207) | 4G | USB Dongle | GL.iNet | Host-less |
 | XTRONS 4G LTE USB Dongle | 4G | USB Dongle | GL.iNet | Host-less |
 
-- **QMI**: questo modem supporta la modalita' QMI. Seleziona QMI come protocollo e **/dev/cdc-wdm0** come porta seriale per il tuo router cellulare.
+- **QMI**: questo modem supporta la modalità QMI. Seleziona QMI come protocollo e **/dev/cdc-wdm0** come porta seriale per il tuo router cellulare.
 
-- **Host-less**: questo modem supporta la modalita' Tethering. Gestisci la connessione tramite l'interfaccia Tethering del router anziche' tramite l'interfaccia Cellular.
+- **Host-less**: questo modem supporta la modalità Tethering. Gestisci la connessione tramite l'interfaccia Tethering del router anziché tramite l'interfaccia Cellular.
 
 ## Configurazione per modelli dual-SIM {#setup-for-dual-sim-models}
 
-I passaggi seguenti si applicano ai modelli con modem cellulare integrato che supporta due SIM. Il pannello di amministrazione web puo' differire leggermente rispetto ai modelli single-SIM.
+I passaggi seguenti si applicano ai modelli con modem cellulare integrato che supporta due SIM. Il pannello di amministrazione web può differire leggermente rispetto ai modelli single-SIM.
 
-Qui usiamo **GL-X3000 (Spitz AX)** come esempio. Supporta Dual SIM, Single Standby, cioe' puo' contenere due SIM per l'accesso cellulare, ma solo una SIM puo' essere attiva alla volta. Puoi passare manualmente da una SIM all'altra.
+Qui usiamo **GL-X3000 (Spitz AX)** come esempio. Supporta Dual SIM, Single Standby, cioè può contenere due SIM per l'accesso cellulare, ma solo una SIM può essere attiva alla volta. Puoi passare manualmente da una SIM all'altra.
 
-Ti consigliamo di spegnere prima il router, inserire le SIM gia' attivate negli slot e poi riaccenderlo. Se inserisci la SIM dopo l'avvio del router, il pannello di amministrazione web potrebbe non aggiornarsi automaticamente. In tal caso, aggiorna la pagina o riavvia il router.
+Ti consigliamo di spegnere prima il router, inserire le SIM già attivate negli slot e poi riaccenderlo. Se inserisci la SIM dopo l'avvio del router, il pannello di amministrazione web potrebbe non aggiornarsi automaticamente. In tal caso, aggiorna la pagina o riavvia il router.
 
 ### Configurazione automatica {#auto-setup_1}
 
 Accedi al pannello di amministrazione web del router e vai su **INTERNET** -> **Cellular**.
 
-1. Quando non e' inserita alcuna SIM, la pagina viene visualizzata come segue.
+1. Quando non è inserita alcuna SIM, la pagina viene visualizzata come segue.
 
     ![dual-sim, no sim](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/dual_sim/no_sim.png){class="glboxshadow"}
 
-2. Quando e' inserita una SIM, il router iniziera' a connettersi automaticamente.
+2. Quando è inserita una SIM, il router inizierà a connettersi automaticamente.
 
-    Se la connessione riesce, la pagina verra' visualizzata come segue.
+    Se la connessione riesce, la pagina verrà visualizzata come segue.
 
     ![dual-sim, 5g sim](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/dual_sim/5g_sim.png){class="glboxshadow"}
 
@@ -166,27 +166,27 @@ Se sono inserite due SIM, puoi abilitare **Auto Switch**.
 
 ![dual-sim, auto switch](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/dual_sim/auto_switch.png){class="glboxshadow"}
 
-- **Auto Switch**: abilita il passaggio automatico tra SIM 1 e SIM 2. Il metodo di rilevamento della rete per SIM Auto Switch e' lo stesso configurato nella pagina Multi-WAN.
+- **Auto Switch**: abilita il passaggio automatico tra SIM 1 e SIM 2. Il metodo di rilevamento della rete per SIM Auto Switch è lo stesso configurato nella pagina Multi-WAN.
 
 - **Preferred SIM Card Slot**: imposta la SIM preferita su SIM 1 oppure SIM 2.
 
 - **Failover Interval**: i valori disponibili vanno da 5 minuti a 24 ore.
 
-    Se la connessione Internet non e' ancora disponibile dopo un failover, il dispositivo tornera' allo slot SIM preferito e attendera' questo intervallo prima di riprovare il failover.
+    Se la connessione Internet non è ancora disponibile dopo un failover, il dispositivo tornerà allo slot SIM preferito e attenderà questo intervallo prima di riprovare il failover.
 
-    Questa opzione si applica quando sia la SIM preferita sia la SIM di backup non hanno segnale. Il dispositivo passera' tra le SIM finche' una di esse non ottiene un segnale valido.
+    Questa opzione si applica quando sia la SIM preferita sia la SIM di backup non hanno segnale. Il dispositivo passerà tra le SIM finché una di esse non ottiene un segnale valido.
 
     ![failover interval](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/sim_failover_interval.png){class="glboxshadow"}
 
 - **Checking Preferred Slot Status Scheduled**
 
-    Quando e' abilitata, il dispositivo controllera' quotidianamente lo slot SIM preferito all'ora configurata e tentera' di tornare a esso se la SIM preferita riacquista l'accesso a Internet.
+    Quando è abilitata, il dispositivo controllerà quotidianamente lo slot SIM preferito all'ora configurata e tenterà di tornare a esso se la SIM preferita riacquista l'accesso a Internet.
 
-    Questo evita che la SIM di backup consumi una quantita' eccessiva di dati. Se la SIM preferita continua a non avere segnale, il dispositivo continuera' a usare la SIM di backup.
+    Questo evita che la SIM di backup consumi una quantità eccessiva di dati. Se la SIM preferita continua a non avere segnale, il dispositivo continuerà a usare la SIM di backup.
 
     ![checking preferred slot status scheduled](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/check_preferred_slot_status.png){class="glboxshadow"}
 
-**Nota**: la funzione Auto Switch non passa immediatamente a un'altra SIM. Prima, il dispositivo ha bisogno di tempo per confermare che la SIM corrente non puo' accedere a Internet. Inoltre, l'altra SIM non e' in modalita' standby e richiede tempo per attivarsi.
+**Nota**: la funzione Auto Switch non passa immediatamente a un'altra SIM. Prima, il dispositivo ha bisogno di tempo per confermare che la SIM corrente non può accedere a Internet. Inoltre, l'altra SIM non è in modalità standby e richiede tempo per attivarsi.
 
 ## Statistiche del traffico {#traffic-statistics}
 
@@ -218,7 +218,7 @@ Include due sezioni: **Modem Info** e **AT Command**.
 
 I comandi AT sono istruzioni standard usate per comunicare con il modem cellulare.
 
-Quando Shortcut e' impostato su **Manual command**, digita il comando desiderato nel campo AT Command per controllare lo stato del modem.
+Quando Shortcut è impostato su **Manual command**, digita il comando desiderato nel campo AT Command per controllare lo stato del modem.
 
 Puoi anche fare clic sul menu a discesa Shortcut per selezionare da un elenco di **preset commands**.
 
@@ -234,7 +234,7 @@ Sono disponibili i seguenti comandi preimpostati:
 * Operator Names
 * Request SIM card status
 
-Come esempio, qui e' selezionata la scorciatoia "Request IMEI". Fai clic su "Send" e otterrai il risultato mostrato di seguito.
+Come esempio, qui è selezionata la scorciatoia "Request IMEI". Fai clic su "Send" e otterrai il risultato mostrato di seguito.
 
 ![shortcut example](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/at_command_3.png){class="glboxshadow"}
 
@@ -266,7 +266,7 @@ Scegli i profili necessari.
 
 Questa funzione è disponibile solo su alcuni modelli, ad esempio GL-X3000, GL-XE3000 e GL-X2000 (firmware v4.7 o successivo).
 
-Se vuoi ricevere un segnale di alta qualita' e garantire una connessione cellulare stabile, puoi provare il lock tower.
+Se vuoi ricevere un segnale di alta qualità e garantire una connessione cellulare stabile, puoi provare il lock tower.
 
 **Nota:** la torre bloccata deve corrispondere alle bande di frequenza supportate dal tuo operatore e dal dispositivo; in caso contrario, la connessione potrebbe non riuscire.
 
@@ -282,27 +282,27 @@ Fai clic su una torre per visualizzarne i dettagli e bloccarla.
 
 ![signal_tower_lock2](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/signal_tower_lock_3.jpg){class="glboxshadow"}
 
-Lo stato della torre, ad esempio Locked o Unlocked, verra' visualizzato nella parte superiore.
+Lo stato della torre, ad esempio Locked o Unlocked, verrà visualizzato nella parte superiore.
 
 ![signal_tower_lock3](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/signal_tower_lock_4.jpg){class="glboxshadow"}
 
 **Nota**:
 
-1. Il dispositivo potrebbe non riuscire a scansionare tutte le torri quando l'interfaccia Cellular e' abilitata.
+1. Il dispositivo potrebbe non riuscire a scansionare tutte le torri quando l'interfaccia Cellular è abilitata.
 
-2. Se la torre bloccata non corrisponde ai parametri di band masking o APN delle impostazioni cellulari, il router non potra' connettersi alla rete cellulare.
+2. Se la torre bloccata non corrisponde ai parametri di band masking o APN delle impostazioni cellulari, il router non potrà connettersi alla rete cellulare.
 
-3. Dopo aver bloccato una torre cellulare, se sposti il router in un'altra posizione, il router continuera' a tentare di riconnettersi alla torre bloccata dopo il riavvio. Questo potrebbe impedire al router di connettersi automaticamente alla rete cellulare nella nuova posizione. In tal caso, devi sbloccare la torre cellulare corrente oppure bloccarla manualmente su una nuova torre.
+3. Dopo aver bloccato una torre cellulare, se sposti il router in un'altra posizione, il router continuerà a tentare di riconnettersi alla torre bloccata dopo il riavvio. Questo potrebbe impedire al router di connettersi automaticamente alla rete cellulare nella nuova posizione. In tal caso, devi sbloccare la torre cellulare corrente oppure bloccarla manualmente su una nuova torre.
 
 ## Historical Signal Record {#historical-signal-record}
 
-Nella sezione Cellular, fai clic sull'icona **Signal** nell'angolo superiore destro per controllare la cronologia dell'intensita' del segnale.
+Nella sezione Cellular, fai clic sull'icona **Signal** nell'angolo superiore destro per controllare la cronologia dell'intensità del segnale.
 
 ![historical_signal_record](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/historical_signal_record_1.jpg){class="glboxshadow"}
 
-Questo ti aiuta a determinare la qualita' della connessione cellulare. Se il segnale e' debole, prova a cambiare torre per ottenerne uno migliore.
+Questo ti aiuta a determinare la qualità della connessione cellulare. Se il segnale è debole, prova a cambiare torre per ottenerne uno migliore.
 
-Puoi visualizzare la cronologia dell'intensita' del segnale cellulare selezionando diversi intervalli di tempo.
+Puoi visualizzare la cronologia dell'intensità del segnale cellulare selezionando diversi intervalli di tempo.
 
 ![historical_signal_record1](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/historical_signal_record_2.jpg){class="glboxshadow"}
 
@@ -314,7 +314,7 @@ Vedrai le bande attualmente in uso e il relativo stato del segnale.
 
 ![cellinfo](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/band_masking/cell_info.jpg){class="glboxshadow"}
 
-Se il segnale e' debole, puoi abilitare Band Masking per bloccare alcune bande. In alternativa, se il segnale e' buono, puoi consentire al router di usare solo specifiche bande cellulari.
+Se il segnale è debole, puoi abilitare Band Masking per bloccare alcune bande. In alternativa, se il segnale è buono, puoi consentire al router di usare solo specifiche bande cellulari.
 
 Fai clic su **Manual Setup** per accedere alla pagina Cellular Settings, quindi abilita **Band Masking**.
 
@@ -328,7 +328,7 @@ Se non riesci a stabilire una connessione cellulare, fai clic sul messaggio di e
 
 ??? note "No SIM / Your SIM card has not been detected"
 
-    1. Aggiorna la pagina e attendi qualche minuto per controllare se la SIM puo' essere rilevata.
+    1. Aggiorna la pagina e attendi qualche minuto per controllare se la SIM può essere rilevata.
 
     2. Assicurati che la SIM sia installata correttamente. Allinea il taglio della SIM con il segno corrispondente sullo slot per confermare il corretto orientamento di inserimento.
 
@@ -352,13 +352,13 @@ Se non riesci a stabilire una connessione cellulare, fai clic sul messaggio di e
 
         ![manual setup, sim protocol](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/cellular_settings.png){class="glboxshadow"}
 
-        Il dispositivo si ricolleghera' automaticamente. Attendi qualche minuto per controllare se la connessione e' riuscita.
+        Il dispositivo si ricollegherà automaticamente. Attendi qualche minuto per controllare se la connessione è riuscita.
 
     6. Alcune SIM possono avere restrizioni d'uso particolari, ad esempio la richiesta di un APN specifico. Se la SIM non riesce a registrarsi, contatta il tuo operatore per verificare eventuali restrizioni.
 
         Se necessario, vai su **Manual Setup** -> **Cellular Settings** -> **APN**, configura l'APN corretto sul router, quindi fai clic su **Apply**.
 
-    7. Fai clic su **View More** e seleziona **Cells Info** per controllare l'intensita' del segnale cellulare. Se il segnale e' debole, assicurati che l'antenna sia installata correttamente. Sposta il router in una posizione aperta e senza ostacoli per migliorare la ricezione del segnale.
+    7. Fai clic su **View More** e seleziona **Cells Info** per controllare l'intensità del segnale cellulare. Se il segnale è debole, assicurati che l'antenna sia installata correttamente. Sposta il router in una posizione aperta e senza ostacoli per migliorare la ricezione del segnale.
 
     8. Controlla se **Band Masking** o **Lock Tower** sono abilitati. In tal caso, disabilita la funzione e prova a riconnetterti.
 
@@ -385,8 +385,8 @@ Fai clic sul link [t-mobile device certification](https://www.t-mobile.com/busin
 Articoli correlati
 
 - [Pagina Internet](internet.md)
-- [Come impostare la priorita' di ciascun metodo di accesso a Internet?](multi-wan.md)
-- [Come impostare il bilanciamento del carico quando vengono usati contemporaneamente piu' metodi di accesso a Internet?](multi-wan.md)
+- [Come impostare la priorità di ciascun metodo di accesso a Internet?](multi-wan.md)
+- [Come impostare il bilanciamento del carico quando vengono usati contemporaneamente più metodi di accesso a Internet?](multi-wan.md)
 
 ---
 

@@ -1,12 +1,12 @@
 # Come cambiare il tipo di NAT per il gaming {#how-to-change-the-nat-type-on-gaming}
 
-La maggior parte dei produttori di videogiochi chiede di abilitare UPnP sul router per ottenere un tipo di NAT migliore; tuttavia, gli studi mostrano che UPnP non e' un protocollo sicuro.
+La maggior parte dei produttori di videogiochi chiede di abilitare UPnP sul router per ottenere un tipo di NAT migliore; tuttavia, gli studi mostrano che UPnP non è un protocollo sicuro.
 
-Puoi ottenere lo stesso risultato in modo piu' sicuro, usando la funzione DMZ oppure il port forwarding.
+Puoi ottenere lo stesso risultato in modo più sicuro, usando la funzione DMZ oppure il port forwarding.
 
 ## Controlla l'IP del tuo dispositivo di gioco {#check-your-game-ip}
 
-Vai all'elenco client e controlla l'IP assegnato al tuo dispositivo di gioco. Ti servira' questo indirizzo IP nella configurazione seguente.
+Vai all'elenco client e controlla l'IP assegnato al tuo dispositivo di gioco. Ti servirà questo indirizzo IP nella configurazione seguente.
 
 ![gameip](https://static.gl-inet.com/docs/router/en/4/tutorials/gamling/gameip.png){class="glboxshadow"}
 
@@ -46,7 +46,7 @@ Puoi abilitare **Full Cone NAT** in **Network > NAT Settings** per migliorare la
 
 ![conenat](https://static.gl-inet.com/docs/router/en/4/tutorials/gamling/conenat.png){class="glboxshadow"}
 
-* Questa funzione e' disponibile con firmware 4.5 o superiore.
+* Questa funzione è disponibile con firmware 4.5 o superiore.
 
 ---
 

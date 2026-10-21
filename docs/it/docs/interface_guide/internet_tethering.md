@@ -1,6 +1,6 @@
 # Connettersi a Internet tramite USB tethering {#connect-to-the-internet-via-usb-tethering}
 
-Usare un cavo USB per condividere la rete dallo smartphone al router si chiama Tethering. Anche i modem host-less funzionano in modalita' Tethering durante la configurazione del modem.
+Usare un cavo USB per condividere la rete dallo smartphone al router si chiama Tethering. Anche i modem host-less funzionano in modalità Tethering durante la configurazione del modem.
 
 **Nota:** alcuni operatori mobili limitano il tethering o applicano costi aggiuntivi. Ti consigliamo di verificarlo con il tuo operatore.
 
@@ -8,7 +8,7 @@ Usare un cavo USB per condividere la rete dallo smartphone al router si chiama T
 
 === "iPhone"
 
-    1. Collega un iPhone alla porta USB del router tramite un cavo USB. Apparira' una finestra di sistema che chiede se fidarsi del dispositivo. Tocca **Trust** per procedere. 
+    1. Collega un iPhone alla porta USB del router tramite un cavo USB. Apparirà una finestra di sistema che chiede se fidarsi del dispositivo. Tocca **Trust** per procedere. 
 
         ![ios trust device](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_tethering/iphone_trust_this_computer.png){class="glboxshadow"}
 
@@ -24,7 +24,7 @@ Usare un cavo USB per condividere la rete dallo smartphone al router si chiama T
 
         ![ios advanced](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_tethering/ios_advanced.png){class="glboxshadow"}
 
-        Iniziera' la connessione.
+        Inizierà la connessione.
 
         ![ios connecting](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_tethering/ios_connecting.png){class="glboxshadow"}
 
@@ -32,7 +32,7 @@ Usare un cavo USB per condividere la rete dallo smartphone al router si chiama T
 
         ![personal hotspot status](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_tethering/iphone_hotspot_1_connection.png){class="glboxshadow" width=400}
 
-        Anche il pannello di amministrazione web mostrera' lo stato della connessione Tethering.
+        Anche il pannello di amministrazione web mostrerà lo stato della connessione Tethering.
 
         ![ios tethering connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_tethering/ios_connected.png){class="glboxshadow"}
 
@@ -56,13 +56,13 @@ Usare un cavo USB per condividere la rete dallo smartphone al router si chiama T
 
         ![android advanced](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_tethering/android_advanced.png){class="glboxshadow"}
 
-        Iniziera' la connessione.
+        Inizierà la connessione.
 
         ![android connecting](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_tethering/android_connecting.png){class="glboxshadow"}
 
     4. Una volta connesso, lo stato dell'hotspot personale, ad esempio il numero di dispositivi collegati, appare nella barra di stato nella parte superiore dello schermo del telefono.
 
-        Anche il pannello di amministrazione web mostrera' lo stato della connessione Tethering.
+        Anche il pannello di amministrazione web mostrerà lo stato della connessione Tethering.
 
         ![android connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_tethering/android_connected.png){class="glboxshadow"}
 
@@ -70,7 +70,7 @@ Usare un cavo USB per condividere la rete dallo smartphone al router si chiama T
 
 ## Avviso {#warning}
 
-Quando l'accesso a Internet non e' disponibile, verra' visualizzato il seguente avviso:
+Quando l'accesso a Internet non è disponibile, verrà visualizzato il seguente avviso:
 
 **"The interface is connected, but the Internet can't be accessed."**
 
@@ -96,8 +96,8 @@ Se la connessione non riesce, prova questi passaggi di risoluzione dei problemi:
 Articoli correlati
 
 - [Pagina Internet](internet.md)
-- [Come impostare la priorita' di ciascun metodo di accesso a Internet?](multi-wan.md)
-- [Come impostare il bilanciamento del carico quando vengono usati contemporaneamente piu' metodi di accesso a Internet?](multi-wan.md)
+- [Come impostare la priorità di ciascun metodo di accesso a Internet?](multi-wan.md)
+- [Come impostare il bilanciamento del carico quando vengono usati contemporaneamente più metodi di accesso a Internet?](multi-wan.md)
 
 ---
 

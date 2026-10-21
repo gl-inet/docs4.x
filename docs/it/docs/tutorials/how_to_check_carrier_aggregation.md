@@ -1,8 +1,8 @@
 # Come controllare lo stato della carrier aggregation sul router cellulare {#how-to-check-the-carrier-aggregation-status-on-your-cellular-router}
 
-La carrier aggregation combina piu' bande di rete per offrire maggiore larghezza di banda e velocita' piu' elevate alla connessione cellulare.
+La carrier aggregation combina più bande di rete per offrire maggiore larghezza di banda e velocità più elevate alla connessione cellulare.
 
-Questa funzione non puo' essere abilitata dal pannello di amministrazione web del router, poiche' dipende dal supporto del gestore della SIM.
+Questa funzione non può essere abilitata dal pannello di amministrazione web del router, poiché dipende dal supporto del gestore della SIM.
 
 Tuttavia, puoi controllare lo stato della carrier aggregation usando i comandi AT nel pannello di amministrazione web del router.
 
@@ -28,7 +28,7 @@ Segui i passaggi seguenti per controllare lo stato della carrier aggregation.
 
 4. Nella finestra pop-up, inserisci **AT+QCAINFO** e fai clic su **Send**.
 
-    Se la carrier aggregation e' attiva, vedrai piu' bande di rete mostrate nell'elenco.
+    Se la carrier aggregation è attiva, vedrai più bande di rete mostrate nell'elenco.
 
     ![atcainfo](https://static.gl-inet.com/docs/router/en/4/tutorials/carrier_aggregation/carrier-aggregation-info.png){class="glboxshadow"}
 

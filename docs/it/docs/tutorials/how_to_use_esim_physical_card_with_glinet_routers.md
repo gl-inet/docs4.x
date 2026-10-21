@@ -13,7 +13,7 @@ I punti principali della scheda eSIM fisica sono i seguenti:
 - Permette di selezionare e acquistare in qualsiasi momento i pacchetti dati preferiti dalla maggior parte degli store eSIM nel mondo.
 - Funziona con profili eSIM della maggior parte degli store eSIM globali.
 - Consente di acquistare profili eSIM online senza fornire informazioni personali, riducendo il rischio di violazioni della privacy.
-- Include un seed profile con 1 GB di dati gratuiti per Stati Uniti ed Europa, piu' 100 MB di dati globali, validi per 1 anno dalla data di attivazione.
+- Include un seed profile con 1 GB di dati gratuiti per Stati Uniti ed Europa, più 100 MB di dati globali, validi per 1 anno dalla data di attivazione.
 - Compatibile con dispositivi GL.iNet selezionati.
 
 ## Modelli supportati {#supported-models}
@@ -63,25 +63,25 @@ Se usi la eSIM Physical Card per la prima volta, guarda questo video di configur
 
 **Passaggio 3:** collega il dispositivo a Internet.
 
-Vai su **INTERNET** e fai clic su **Connect**, oppure **Auto Setup** nelle versioni firmware piu' basse, per connetterti a Internet tramite rete cellulare.
+Vai su **INTERNET** e fai clic su **Connect**, oppure **Auto Setup** nelle versioni firmware più basse, per connetterti a Internet tramite rete cellulare.
 
-*Questa scheda eSIM fisica include un seed profile con 1 GB di dati gratuiti per Stati Uniti ed Europa, piu' 100 MB di dati globali, validi per 1 anno dalla data di attivazione. Tieni presente che questi dati servono solo per acquistare e scaricare profili eSIM e non sono destinati al normale accesso Internet.*
+*Questa scheda eSIM fisica include un seed profile con 1 GB di dati gratuiti per Stati Uniti ed Europa, più 100 MB di dati globali, validi per 1 anno dalla data di attivazione. Tieni presente che questi dati servono solo per acquistare e scaricare profili eSIM e non sono destinati al normale accesso Internet.*
 
 ![initial setup connect](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/initial-setup-connect.jpg){class="glboxshadow"}
 
-Se la connessione Internet va a buon fine, lo schermo apparira' come segue.
+Se la connessione Internet va a buon fine, lo schermo apparirà come segue.
 
 ![initial setup connected](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/initial-setup-connected.jpg){class="glboxshadow"}
 
 ## Gestire il profilo eSIM {#manage-your-esim-profile}
 
-**Passaggio 1:** assicurati che il dispositivo GL.iNet abbia installato il firmware piu' recente.
+**Passaggio 1:** assicurati che il dispositivo GL.iNet abbia installato il firmware più recente.
 
 Assicurati che la Version sia 4.0 o superiore e che il numero Firmware Type sia 0319 o maggiore.
 
 ![auto setup successfully](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/latest-firmware.png){class="glboxshadow"}
 
-Se il firmware **non e' aggiornato**, puoi aggiornarlo automaticamente online oppure manualmente.
+Se il firmware **non è aggiornato**, puoi aggiornarlo automaticamente online oppure manualmente.
 
 <u>Opzione 1</u>: aggiornamento firmware online
 
@@ -93,7 +93,7 @@ Se il firmware **non e' aggiornato**, puoi aggiornarlo automaticamente online op
 
 <u>Opzione 2</u>: aggiornamento firmware manuale
 
-1. Scarica da [qui](https://dl.gl-inet.com/){target="_blank"} il firmware del modello corrispondente che supporta la funzionalita' eSIM.
+1. Scarica da [qui](https://dl.gl-inet.com/){target="_blank"} il firmware del modello corrispondente che supporta la funzionalità eSIM.
 
 2. Nel pannello di amministrazione web, vai su **SYSTEM** > **Upgrade** > **Local Upgrade**. Seleziona il file firmware oppure trascinalo nell'area dedicata per aggiornare all'ultima versione.
 
@@ -103,7 +103,7 @@ Se il firmware **non e' aggiornato**, puoi aggiornarlo automaticamente online op
 
     1. Alcuni modelli, come Mudi (GL-E750), Puli (GL-XE300) e Spitz (GL-X750), non supportano la eSIM se equipaggiati con moduli Quectel EP06-A, a causa della mancanza di supporto per specifici comandi AT nel software Qualcomm.
 
-    2. Se hanno installato moduli EP06-E, fai riferimento a [questo link](https://forum.gl-inet.com/t/48907){target="_blank"} per aggiornare il modulo all'ultima versione software per la funzionalita' eSIM.
+    2. Se hanno installato moduli EP06-E, fai riferimento a [questo link](https://forum.gl-inet.com/t/48907){target="_blank"} per aggiornare il modulo all'ultima versione software per la funzionalità eSIM.
 
 **Passaggio 2:** vai a eSIM Management.
 

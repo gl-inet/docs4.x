@@ -139,6 +139,10 @@ In the pop-up window, you will see the following features.
 
 - **IP Masquerading**: If enabled, the source IP addresses of LAN clients will be rewritten to the router's VPN tunnel IP. Disable this only for Site-to-Site setups where the remote peer knows your LAN subnets.
 
+    As shown below, if IP masquerading is enabled, when the NAS (192.168.8.100) on the home LAN sends traffic across the tunnel to the travel Laptop (192.168.10.200), the home router rewrites the source IP from `192.168.8.100` to the VPN server's tunnel address `10.1.0.1`, so the remote side sees that traffic originated from the server instead of the server's local LAN.
+
+    ![ovpnserver ip masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/ip_masquerading.png){class="glboxshadow"}
+
 - **MTU**: Short for Maximum Transmission Unit. The MTU value you set for the tunnel will override the MTU settings in the configuration file.
 
 ## Client to Client {#client-to-client}

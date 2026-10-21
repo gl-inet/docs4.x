@@ -6,7 +6,7 @@ Clients ページには、接続されているデバイスのデバイス名、
 
 ## デバイス名 {#device-name}
 
-1列目には、デバイス名とデバイスタイプが表示されます。これはデバイスの使用者が設定したホスト名によって異なります。
+1列目には、デバイス名とデバイスタイプが表示されます。これはデバイスのホスト名によって異なります。
 
 ![device name](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/device_name.png){class="glboxshadow"}
 
@@ -74,7 +74,7 @@ LAN 内のクライアントに予約 IP アドレスを指定すると、その
 
 - **Allowlist**: 指定した MAC アドレスを持つデバイスだけが接続を許可されます。IoT デバイスや企業ネットワークの管理に適しています。
 
-ブロックリストを作成するには、**(1)** で Excel 形式のブロックリストをアップロードするか、**(2)** で MAC アドレスを手動入力します。
+ブロックリストを作成するには、**(1)** でファイルから MAC アドレスの一覧をインポートするか、**(2)** で MAC アドレスを手動入力します。
 
 ![create blocklist](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/create_blocklist.png){class="glboxshadow"}
 
@@ -84,7 +84,7 @@ Access Control ページで、**Import Clients** をクリックします。
 
 ![import clients](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/import_clients.png){class="glboxshadow"}
 
-**Download Import Template** をクリックすると、"mac-template.csv" という名前の XLS ワークシートがダウンロードされます。
+**Download Import Template** をクリックすると、"mac-template.csv" という名前のテンプレートファイルがダウンロードされます。
 
 ![download template](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/download_template.png){class="glboxshadow"}
 

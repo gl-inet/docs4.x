@@ -65,7 +65,7 @@ Wykonaj poniższe kroki, aby dodać tunel VPN i skonfigurować polityki VPN. W r
 
     ![select profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/select_profile.png){class="glboxshadow"}
 
-    **Uwaga**: Gdy wybrano wiele profili, tunel będzie próbował połączyć się przy użyciu kolejnych profili zgodnie z kolejnością priorytetów, aż połączenie zostanie nawiązane. Jeśli wszystkie profile w jednym tunelu nie połączą się, system zdecyduje, czy przełączyć ruch na sieć lokalną routera (WAN), na podstawie stanu funkcji Kill Switch w sekcji [Opcje tunelu](#tunnel-options) oraz ustawień [Cały pozostały ruch](#all-other-traffic).
+    **Uwaga**: Gdy wybrano wiele profili, tunel będzie próbował połączyć się przy użyciu kolejnych profili zgodnie z kolejnością priorytetów, aż połączenie zostanie nawiązane. Jeśli wszystkie profile w jednym tunelu nie połączą się, system zdecyduje, czy przełączyć ruch na lokalny WAN routera, na podstawie stanu funkcji Kill Switch w sekcji [Opcje tunelu](#tunnel-options) oraz ustawień [Cały pozostały ruch](#all-other-traffic).
 
 3. Wybierz źródło ruchu klienta, a następnie kliknij **Next**.
 

@@ -65,7 +65,7 @@ Segui i passaggi seguenti per aggiungere il tuo tunnel VPN e configurare i crite
 
     ![select profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/select_profile.png){class="glboxshadow"}
 
-    **Nota**: quando sono selezionati più profili, il tunnel tenterà di connettersi usando ciascun profilo in ordine di priorità finché non viene stabilita correttamente una connessione. Se tutti i profili di un singolo tunnel non riescono a connettersi, il sistema determinerà se passare alla rete locale del router (WAN) in base allo stato del Kill Switch nelle impostazioni [Opzioni del tunnel](#tunnel-options) e [All Other Traffic](#all-other-traffic).
+    **Nota**: quando sono selezionati più profili, il tunnel tenterà di connettersi usando ciascun profilo in ordine di priorità finché non viene stabilita correttamente una connessione. Se tutti i profili di un singolo tunnel non riescono a connettersi, il sistema determinerà se passare alla WAN locale del router in base allo stato del Kill Switch nelle impostazioni [Opzioni del tunnel](#tunnel-options) e [All Other Traffic](#all-other-traffic).
 
 3. Seleziona l'origine client, quindi fai clic su **Next**.
 

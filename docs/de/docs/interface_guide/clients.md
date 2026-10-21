@@ -74,7 +74,7 @@ Standardmäßig ist die Zugriffskontrollregel auf Blocklist eingestellt. Bei Bed
 
 - **Allowlist**: Nur Geräte mit bestimmten MAC-Adressen dürfen sich verbinden. Das eignet sich für IoT-Geräte und das Management von Unternehmensnetzwerken.
 
-Um eine Blocklist zu erstellen, können Sie bei **(1)** eine Sperrliste im Excel-Format hochladen oder bei **(2)** MAC-Adressen manuell eingeben.
+Um eine Blocklist zu erstellen, können Sie bei **(1)** eine Liste mit MAC-Adressen aus einer Datei importieren oder bei **(2)** MAC-Adressen manuell eingeben.
 
 ![create blocklist](https://static.gl-inet.com/docs/router/de/4/interface_guide/clients/create_blocklist.png){class="glboxshadow"}
 
@@ -84,7 +84,7 @@ Klicken Sie auf der Seite Access Control auf **Import Clients**.
 
 ![import clients](https://static.gl-inet.com/docs/router/de/4/interface_guide/clients/import_clients.png){class="glboxshadow"}
 
-Klicken Sie auf **Download Import Template**. Dadurch laden Sie ein XLS-Arbeitsblatt mit dem Namen "mac-template.csv" herunter.
+Klicken Sie auf **Download Import Template**. Dadurch laden Sie eine Vorlagendatei mit dem Namen "mac-template.csv" herunter.
 
 ![download template](https://static.gl-inet.com/docs/router/de/4/interface_guide/clients/download_template.png){class="glboxshadow"}
 

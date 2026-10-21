@@ -54,7 +54,7 @@ Connect the router's USB port to a smartphone with active mobile data via a USB 
  
 Insert a SIM card into the router's SIM card slot to connect it to the internet. This method is useful for sharing internet access from a single SIM card to all connected devices.
 
-[Click here to learn how to connect to the internet via callular](../../interface_guide/internet_cellular.md)
+[Click here to learn how to connect to the internet via cellular](../../interface_guide/internet_cellular.md)
 
 ![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x750/internet/x750_cellular.png){class="glboxshadow"}
 

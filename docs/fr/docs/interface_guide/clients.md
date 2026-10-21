@@ -74,7 +74,7 @@ La règle de contrôle d’accès est **Blocklist** par défaut ; vous pouvez la
 
 - **Allowlist** : seuls les appareils avec des adresses MAC spécifiques sont autorisés à se connecter ; cette option convient aux appareils IoT et à la gestion de réseaux d’entreprise.
 
-Pour créer une Blocklist, vous pouvez importer une liste de blocage au format Excel à **(1)**, ou saisir manuellement des adresses MAC à **(2)**.
+Pour créer une Blocklist, vous pouvez importer une liste d’adresses MAC depuis un fichier à **(1)**, ou saisir manuellement des adresses MAC à **(2)**.
 
 ![create blocklist](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/create_blocklist.png){class="glboxshadow"}
 
@@ -84,7 +84,7 @@ Dans la page Access Control, cliquez sur **Import Clients**.
 
 ![import clients](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/import_clients.png){class="glboxshadow"}
 
-Cliquez sur **Download Import Template** pour télécharger une feuille XLS nommée "mac-template.csv".
+Cliquez sur **Download Import Template** pour télécharger un fichier modèle nommé "mac-template.csv".
 
 ![download template](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/download_template.png){class="glboxshadow"}
 

@@ -6,7 +6,7 @@ Strona **Clients** wyświetla informacje o podłączonych urządzeniach. Od lewe
 
 ## Nazwa urządzenia {#device-name}
 
-Pierwsza kolumna wyświetla nazwę i typ urządzenia, określane na podstawie nazwy hosta ustawionej przez użytkownika urządzenia.
+Pierwsza kolumna wyświetla nazwę i typ urządzenia, określane na podstawie nazwy hosta urządzenia.
 
 ![device name](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/device_name.png){class="glboxshadow"}
 
@@ -74,7 +74,7 @@ Domyślną regułą kontroli dostępu jest Blocklist, a w razie potrzeby można 
 
 - **Allowlist**: Łączyć się mogą tylko urządzenia z określonymi adresami MAC; rozwiązanie to nadaje się do urządzeń IoT i zarządzania siecią firmową.
 
-Aby utworzyć Blocklist, możesz przesłać listę blokowanych urządzeń w pliku Excel w **(1)** albo ręcznie wprowadzić adresy MAC w **(2)**.
+Aby utworzyć Blocklist, możesz zaimportować listę adresów MAC z pliku w **(1)** albo ręcznie wprowadzić adresy MAC w **(2)**.
 
 ![create blocklist](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/create_blocklist.png){class="glboxshadow"}
 

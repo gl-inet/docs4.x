@@ -65,7 +65,7 @@ Folgen Sie den nachstehenden Schritten, um Ihren VPN-Tunnel hinzuzufügen und VP
 
     ![select profile](https://static.gl-inet.com/docs/router/de/4/interface_guide/vpn_dashboard/4.9/select_profile.png){class="glboxshadow"}
 
-    **Hinweis**: Wenn mehrere Profile ausgewählt werden, versucht der Tunnel, sich mit jedem Profil in Prioritätsreihenfolge zu verbinden, bis eine Verbindung erfolgreich hergestellt wurde. Wenn alle Profile innerhalb eines einzelnen Tunnels keine Verbindung herstellen können, bestimmt das System basierend auf dem Status des Kill Switch in den Einstellungen unter [Tunnel-Optionen](#tunnel-options) und [All Other Traffic](#all-other-traffic), ob auf das lokale Netzwerk (WAN) des Routers umgeschaltet werden soll.
+    **Hinweis**: Wenn mehrere Profile ausgewählt werden, versucht der Tunnel, sich mit jedem Profil in Prioritätsreihenfolge zu verbinden, bis eine Verbindung erfolgreich hergestellt wurde. Wenn alle Profile innerhalb eines einzelnen Tunnels keine Verbindung herstellen können, bestimmt das System basierend auf dem Status des Kill Switch in den Einstellungen unter [Tunnel-Optionen](#tunnel-options) und [All Other Traffic](#all-other-traffic), ob auf das lokale WAN des Routers umgeschaltet werden soll.
 
 3. Wählen Sie die Client-Quelle und klicken Sie dann auf **Next**.
 

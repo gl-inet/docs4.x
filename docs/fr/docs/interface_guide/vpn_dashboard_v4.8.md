@@ -82,6 +82,10 @@ Cliquez sur l'icône d'engrenage en haut à droite.
 
 - **IP Masquerading** : si cette option est activée, les adresses IP source des clients LAN seront réécrites avec l'adresse IP du tunnel VPN du routeur. Désactivez cette option uniquement pour les configurations site à site où le pair distant connaît vos sous-réseaux LAN.
 
+    Comme illustré ci-dessous, lorsque le masquage IP est activé et que l'ordinateur portable (192.168.10.200) du LAN de voyage envoie du trafic à travers le tunnel vers le NAS domestique (192.168.8.100), le routeur de voyage remplace l'adresse IP source `192.168.10.200` par l'adresse du tunnel du client VPN, `10.1.0.2`. Le côté serveur voit ainsi le trafic comme provenant du client et non du LAN local du client.
+
+    ![ip masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/ip_masquerading.png){class="glboxshadow"}
+
 - **MTU** : abréviation de Maximum Transmission Unit. La valeur MTU que vous définissez pour le tunnel remplacera la valeur définie dans le fichier de configuration.
 
 ### Mode de stratégie {#policy-mode}
@@ -293,6 +297,10 @@ Cliquez sur l'icône d'engrenage à côté du nom d'un tunnel, puis sélectionne
 - **Allow Remote Access the LAN Subnet** : si cette option est activée, l'accès à distance à ce routeur et à ses appareils LAN via le VPN sera autorisé. Le serveur VPN doit annoncer une route vers le sous-réseau LAN de ce routeur.
 
 - **IP Masquerading** : si cette option est activée, les adresses IP source des clients LAN seront réécrites avec l'adresse IP du tunnel VPN du routeur. Désactivez cette option uniquement pour les configurations site à site où le pair distant connaît vos sous-réseaux LAN.
+
+    Comme illustré ci-dessous, lorsque le masquage IP est activé et que l'ordinateur portable (192.168.10.200) du LAN de voyage envoie du trafic à travers le tunnel vers le NAS domestique (192.168.8.100), le routeur de voyage remplace l'adresse IP source `192.168.10.200` par l'adresse du tunnel du client VPN, `10.1.0.2`. Le côté serveur voit ainsi le trafic comme provenant du client et non du LAN local du client.
+
+    ![ip masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/ip_masquerading.png){class="glboxshadow"}
 
 - **MTU** : abréviation de Maximum Transmission Unit. La valeur MTU que vous définissez pour le tunnel remplacera la valeur définie dans le fichier de configuration.
 

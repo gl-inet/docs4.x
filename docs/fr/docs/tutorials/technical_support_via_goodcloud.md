@@ -10,7 +10,7 @@ Connectez-vous ensuite au panneau d’administration Web du routeur pour activer
 
 Veuillez sélectionner le tutoriel qui correspond à la version du firmware de votre appareil pour activer GoodCloud et l'accès à distance.
 
-??? "Pour le firmware version 4.10"
+??? "Pour le firmware version 4.10 ou ultérieure"
 
     Accédez à **CLOUD SERVICES** -> **GoodCloud**, puis cliquez sur **Get Started**.
 

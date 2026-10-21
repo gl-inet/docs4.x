@@ -50,6 +50,10 @@ Le opzioni del client WireGuard vengono mostrate come segue.
 
 - **IP Masquerading**: se abilitato, gli indirizzi IP sorgente dei client LAN verranno riscritti con l'IP del tunnel VPN del router. Disabilita questa opzione solo per configurazioni Site-to-Site in cui il peer remoto conosce le tue subnet LAN.
 
+    Come mostrato di seguito, se il mascheramento IP è abilitato, quando il portatile (192.168.10.200) della LAN del router da viaggio invia traffico attraverso il tunnel al NAS di casa (192.168.8.100), il router da viaggio riscrive l'IP sorgente da `192.168.10.200` all'indirizzo del tunnel del client VPN `10.1.0.2`, quindi il lato server vede il traffico come proveniente dal client anziché dalla LAN locale del client.
+
+    ![ip masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/ip_masquerading.png){class="glboxshadow"}
+
 - **MTU**: abbreviazione di Maximum Transmission Unit. Questa impostazione facoltativa consente di personalizzare l'MTU del tunnel VPN, sovrascrivendo il valore definito nel file di configurazione.
 
 ### Proxy Mode {#proxy-mode}
@@ -151,6 +155,10 @@ Le opzioni del server WireGuard vengono mostrate come segue.
 * **Remote Access LAN**: se abilitato, le risorse all'interno della subnet LAN del server possono essere raggiunte attraverso il tunnel VPN.
 
 * **IP Masquerading**: se abilitato, gli indirizzi IP sorgente dei client LAN verranno riscritti con l'IP del tunnel VPN del router. Disabilita questa opzione solo per configurazioni Site-to-Site in cui il peer remoto conosce le tue subnet LAN.
+
+    Come mostrato di seguito, se il mascheramento IP è abilitato, quando il NAS (192.168.8.100) della LAN di casa invia traffico attraverso il tunnel al portatile (192.168.10.200) della LAN del router da viaggio, il router di casa riscrive l'IP sorgente da `192.168.8.100` all'indirizzo del tunnel del server VPN `10.1.0.1`, quindi il lato remoto vede il traffico come proveniente dal server anziché dalla LAN locale del server.
+
+    ![ip masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/ip_masquerading.png){class="glboxshadow"}
 
 * **MTU**: abbreviazione di Maximum Transmission Unit. Il valore MTU impostato per il tunnel sovrascriverà le impostazioni MTU nel file di configurazione.
 

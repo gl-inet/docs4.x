@@ -10,7 +10,7 @@ Melden Sie sich dann im Web-Admin-Panel des Routers an, um GoodCloud und den Fer
 
 Bitte wählen Sie die Anleitung aus, die zur Firmware-Version Ihres Geräts passt, um GoodCloud und den Fernzugriff zu aktivieren.
 
-??? "Für Firmware-Version 4.10"
+??? "Für Firmware-Version 4.10 und höher"
 
     Gehen Sie bitte zu **CLOUD SERVICES** -> **GoodCloud** und klicken Sie auf **Get Started**.
 

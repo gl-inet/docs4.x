@@ -160,6 +160,10 @@ En la ventana emergente aparecen las siguientes funciones.
 
 - **IP Masquerading**: Si se activa, las direcciones IP de origen de los clientes LAN se reescribirán con la IP del túnel VPN del router. Desactive esta opción únicamente en configuraciones site-to-site en las que el par remoto conozca sus subredes LAN.
 
+    Como se muestra a continuación, si el enmascaramiento de IP está activado, cuando el NAS (192.168.8.100) de la LAN doméstica envía tráfico a través del túnel al portátil de viaje (192.168.10.200), el router doméstico reescribe la IP de origen `192.168.8.100` con la dirección de túnel del servidor VPN, `10.1.0.1`, por lo que el lado remoto ve que el tráfico procede del servidor y no de la LAN local del servidor.
+
+    ![wgserver ip masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/ip_masquerading.png){class="glboxshadow"}
+
 - **MTU**: Abreviatura de Maximum Transmission Unit. El valor MTU establecido para el túnel anula los ajustes MTU del archivo de configuración.
 
 - **Client to Client**: Si se activa, los clientes VPN conectados a este servidor podrán acceder entre sí mediante sus respectivas direcciones IP del túnel VPN.

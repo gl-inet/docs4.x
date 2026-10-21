@@ -82,6 +82,10 @@ Kliknij ikonę koła zębatego w prawym górnym rogu.
 
 - **Maskowanie IP**: Jeśli opcja jest włączona, źródłowe adresy IP klientów LAN zostaną przepisane na adres IP tunelu VPN routera. Wyłącz tę opcję tylko w konfiguracjach site-to-site, w których zdalny węzeł zna Twoje podsieci LAN.
 
+    Jak pokazano poniżej, jeśli maskowanie IP jest włączone, gdy laptop (192.168.10.200) w sieci LAN routera podróżnego wysyła ruch przez tunel do domowego serwera NAS (192.168.8.100), router podróżny przepisuje źródłowy adres IP z `192.168.10.200` na adres tunelu klienta VPN `10.1.0.2`. Dzięki temu strona serwera widzi ruch jako pochodzący od klienta, a nie z lokalnej sieci LAN klienta.
+
+    ![ip masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/ip_masquerading.png){class="glboxshadow"}
+
 - **MTU**: Skrót od Maximum Transmission Unit. Wartość MTU ustawiona dla tunelu nadpisze wartość zdefiniowaną w pliku konfiguracyjnym.
 
 ### Tryb polityk {#policy-mode}
@@ -293,6 +297,10 @@ Kliknij ikonę koła zębatego obok nazwy tunelu i wybierz **Options**.
 - **Allow Remote Access the LAN Subnet**: Jeśli opcja jest włączona, zdalny dostęp do tego routera i jego urządzeń LAN przez VPN będzie dozwolony. Serwer VPN musi rozgłaszać trasę do podsieci LAN tego routera.
 
 - **Maskowanie IP**: Jeśli opcja jest włączona, źródłowe adresy IP klientów LAN zostaną przepisane na adres IP tunelu VPN routera. Wyłącz tę opcję tylko w konfiguracjach site-to-site, w których zdalny węzeł zna Twoje podsieci LAN.
+
+    Jak pokazano poniżej, jeśli maskowanie IP jest włączone, gdy laptop (192.168.10.200) w sieci LAN routera podróżnego wysyła ruch przez tunel do domowego serwera NAS (192.168.8.100), router podróżny przepisuje źródłowy adres IP z `192.168.10.200` na adres tunelu klienta VPN `10.1.0.2`. Dzięki temu strona serwera widzi ruch jako pochodzący od klienta, a nie z lokalnej sieci LAN klienta.
+
+    ![ip masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/ip_masquerading.png){class="glboxshadow"}
 
 - **MTU**: Skrót od Maximum Transmission Unit. Wartość MTU ustawiona dla tunelu nadpisze wartość zdefiniowaną w pliku konfiguracyjnym.
 

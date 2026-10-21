@@ -139,6 +139,10 @@ Nella finestra popup sono disponibili le funzioni seguenti.
 
 - **IP Masquerading**: se abilitato, gli indirizzi IP di origine dei client LAN vengono riscritti con l'IP del tunnel VPN del router. Disabilitare questa opzione solo nelle configurazioni site-to-site in cui il peer remoto conosce le sottoreti LAN del router.
 
+    Come mostrato di seguito, se il mascheramento IP è abilitato, quando il NAS (192.168.8.100) della LAN di casa invia traffico attraverso il tunnel al portatile (192.168.10.200) della LAN del router da viaggio, il router di casa riscrive l'IP di origine da `192.168.8.100` all'indirizzo del tunnel del server VPN `10.1.0.1`, quindi il lato remoto vede il traffico come proveniente dal server anziché dalla LAN locale del server.
+
+    ![ovpnserver ip masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/ip_masquerading.png){class="glboxshadow"}
+
 - **MTU**: abbreviazione di Maximum Transmission Unit. Il valore MTU impostato per il tunnel sostituisce l'impostazione MTU contenuta nel file di configurazione.
 
 ## Client to Client {#client-to-client}

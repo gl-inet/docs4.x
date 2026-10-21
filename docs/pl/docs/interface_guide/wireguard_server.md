@@ -161,6 +161,10 @@ W wyskakującym oknie zobaczysz następujące funkcje.
 
 - **IP Masquerading**: Po włączeniu tej opcji źródłowe adresy IP klientów LAN są zastępowane adresem IP tunelu VPN routera. Wyłącz ją tylko w konfiguracjach Site-to-Site, w których zdalny peer zna podsieci LAN routera.
 
+    Jak pokazano poniżej, jeśli maskowanie IP jest włączone, gdy serwer NAS (192.168.8.100) w domowej sieci LAN wysyła ruch przez tunel do laptopa (192.168.10.200) w sieci LAN routera podróżnego, router domowy przepisuje źródłowy adres IP z `192.168.8.100` na adres tunelu serwera VPN `10.1.0.1`. Dzięki temu strona zdalna widzi ruch jako pochodzący od serwera, a nie z lokalnej sieci LAN serwera.
+
+    ![wgserver ip masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/ip_masquerading.png){class="glboxshadow"}
+
 - **MTU**: Skrót od Maximum Transmission Unit. Wartość MTU ustawiona dla tunelu zastępuje ustawienie MTU w pliku konfiguracyjnym.
 
 - **Client to Client**: Po włączeniu tej opcji klienci VPN połączeni z tym serwerem mogą uzyskiwać wzajemny dostęp za pomocą swoich adresów IP tunelu VPN.

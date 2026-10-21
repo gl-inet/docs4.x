@@ -50,6 +50,10 @@ Las opciones de WireGuard Client se muestran a continuación.
 
 - **IP Masquerading**: Si está habilitado, las direcciones IP de origen de los clientes LAN se reescribirán con la IP del túnel VPN del router. Deshabilite esta opción solo en configuraciones site-to-site donde el par remoto conozca sus subredes LAN.
 
+    Como se muestra a continuación, si el enmascaramiento de IP está habilitado, cuando el portátil (192.168.10.200) de la LAN de viaje envía tráfico a través del túnel al NAS doméstico (192.168.8.100), el router de viaje reescribe la IP de origen `192.168.10.200` con la dirección de túnel del cliente VPN, `10.1.0.2`, por lo que el lado del servidor ve que el tráfico procede del cliente y no de la LAN local del cliente.
+
+    ![ip masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/ip_masquerading.png){class="glboxshadow"}
+
 - **MTU**: Abreviatura de Maximum Transmission Unit. Esta opción le permite personalizar el MTU del túnel VPN, sobrescribiendo el valor definido en el archivo de configuración.
 
 ### Modo proxy {#proxy-mode}
@@ -151,6 +155,10 @@ Las opciones de WireGuard Server se muestran a continuación.
 * **Remote Access LAN**: Si está habilitado, se podrá acceder a los recursos de la subred LAN del servidor a través del túnel VPN.
 
 * **IP Masquerading**: Si está habilitado, las direcciones IP de origen de los clientes LAN se reescribirán con la IP del túnel VPN del router. Deshabilite esta opción solo en configuraciones site-to-site donde el par remoto conozca sus subredes LAN.
+
+    Como se muestra a continuación, si el enmascaramiento de IP está habilitado, cuando el NAS (192.168.8.100) de la LAN doméstica envía tráfico a través del túnel al portátil de viaje (192.168.10.200), el router doméstico reescribe la IP de origen `192.168.8.100` con la dirección de túnel del servidor VPN, `10.1.0.1`, por lo que el lado remoto ve que el tráfico procede del servidor y no de la LAN local del servidor.
+
+    ![ip masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/ip_masquerading.png){class="glboxshadow"}
 
 * **MTU**: Abreviatura de Maximum Transmission Unit. El valor MTU que establezca para el túnel sobrescribirá los ajustes MTU del archivo de configuración.
 

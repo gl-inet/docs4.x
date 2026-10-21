@@ -139,6 +139,10 @@ Server Optionsには、サーバーのLANへのリモートアクセスやIPマ�
 
 - **IP Masquerading**：有効にすると、LANクライアントの送信元IPアドレスがルーターのVPNトンネルIPへ書き換えられます。この設定は、リモートピアがルーターのLANサブネットを認識しているサイトツーサイト構成の場合にのみ無効にしてください。
 
+    下図のように、IPマスカレーディングが有効な場合、自宅LAN上のNAS（192.168.8.100）がトンネル経由でトラベルルーター側のノートパソコン（192.168.10.200）へトラフィックを送信すると、自宅ルーターは送信元IPを`192.168.8.100`からVPNサーバーのトンネルアドレス`10.1.0.1`に書き換えます。そのため、リモート側では、このトラフィックはサーバーのローカルLANからではなく、サーバーから送信されたものとして認識されます。
+
+    ![ovpnserver ip masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/ip_masquerading.png){class="glboxshadow"}
+
 - **MTU**：Maximum Transmission Unitの略です。トンネルに設定したMTU値は、設定ファイル内のMTU設定を上書きします。
 
 ## Client to Client {#client-to-client}

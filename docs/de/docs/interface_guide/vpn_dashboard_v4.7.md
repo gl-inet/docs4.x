@@ -50,6 +50,10 @@ Die Optionen des WireGuard-Clients werden wie folgt angezeigt.
 
 - **IP Masquerading**: Wenn aktiviert, werden die Quell-IP-Adressen von LAN-Clients auf die VPN-Tunnel-IP des Routers umgeschrieben. Deaktivieren Sie dies nur bei Site-to-Site-Setups, in denen der entfernte Peer Ihre LAN-Subnetze kennt.
 
+    Wie unten dargestellt: Wenn IP-Maskierung aktiviert ist und der Laptop (192.168.10.200) im Reise-LAN Datenverkehr über den Tunnel an das NAS (192.168.8.100) im Heim-LAN sendet, schreibt der Reiserouter die Quell-IP von `192.168.10.200` in die Tunneladresse des VPN-Clients `10.1.0.2` um. Die Serverseite sieht dadurch, dass der Datenverkehr vom Client stammt und nicht aus dessen lokalem LAN.
+
+    ![ip masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/ip_masquerading.png){class="glboxshadow"}
+
 - **MTU**: Kurz für Maximum Transmission Unit. Mit dieser optionalen Einstellung können Sie die MTU des VPN-Tunnels anpassen; sie überschreibt den in der Konfigurationsdatei definierten Wert.
 
 ### Proxy-Modus {#proxy-mode}
@@ -151,6 +155,10 @@ Die Optionen des WireGuard-Servers werden wie folgt angezeigt.
 * **Remote Access LAN**: Wenn aktiviert, kann über den VPN-Tunnel auf Ressourcen innerhalb des LAN-Subnetzes des Servers zugegriffen werden.
 
 * **IP Masquerading**: Wenn aktiviert, werden die Quell-IP-Adressen von LAN-Clients auf die VPN-Tunnel-IP des Routers umgeschrieben. Deaktivieren Sie dies nur bei Site-to-Site-Setups, in denen der entfernte Peer Ihre LAN-Subnetze kennt.
+
+    Wie unten dargestellt: Wenn IP-Maskierung aktiviert ist und das NAS (192.168.8.100) im Heim-LAN Datenverkehr über den Tunnel an den Laptop (192.168.10.200) im Reise-LAN sendet, schreibt der Heimrouter die Quell-IP von `192.168.8.100` in die Tunneladresse des VPN-Servers `10.1.0.1` um. Die Gegenseite sieht dadurch, dass der Datenverkehr vom Server stammt und nicht aus dessen lokalem LAN.
+
+    ![ip masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/ip_masquerading.png){class="glboxshadow"}
 
 * **MTU**: Kurz für Maximum Transmission Unit. Der MTU-Wert, den Sie für den Tunnel festlegen, überschreibt die MTU-Einstellungen in der Konfigurationsdatei.
 

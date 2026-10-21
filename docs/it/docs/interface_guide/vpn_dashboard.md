@@ -296,6 +296,10 @@ Fai clic sull'icona dell'ingranaggio in un gruppo di tunnel e seleziona **Option
 
 - **IP Masquerading**: se abilitato, gli indirizzi IP di origine dei client LAN verranno riscritti con l'IP del tunnel VPN del router. Disabilita questa opzione solo per configurazioni site-to-site in cui il peer remoto conosce le tue subnet LAN.
 
+    Come mostrato di seguito, se il mascheramento IP è abilitato, quando il portatile (192.168.10.200) della LAN del router da viaggio invia traffico attraverso il tunnel al NAS di casa (192.168.8.100), il router da viaggio riscrive l'IP di origine da `192.168.10.200` all'indirizzo del tunnel del client VPN `10.1.0.2`, quindi il lato server vede il traffico come proveniente dal client anziché dalla LAN locale del client.
+
+    ![ip masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/ip_masquerading.png){class="glboxshadow"}
+
 - **MTU**: il valore MTU impostato per il tunnel sovrascriverà le impostazioni MTU del file di configurazione.
 
 ## Priorità dei tunnel {#tunnel-priority}

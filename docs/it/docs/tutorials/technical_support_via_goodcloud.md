@@ -10,7 +10,7 @@ Quindi accedi al pannello di amministrazione web del router per abilitare GoodCl
 
 Selezionare il tutorial corrispondente alla versione firmware del dispositivo per abilitare GoodCloud e l'accesso remoto.
 
-??? "Per firmware versione 4.10"
+??? "Per firmware versione 4.10 e successive"
 
     Vai a **CLOUD SERVICES** -> **GoodCloud** e fai clic su **Get Started**.
 

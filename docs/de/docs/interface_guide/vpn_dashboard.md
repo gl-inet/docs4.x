@@ -296,6 +296,10 @@ Klicken Sie auf das Zahnrad-Symbol in einer Tunnel-Gruppe und wählen Sie **Opti
 
 - **IP Masquerading**: Falls aktiviert, werden die Quell-IP-Adressen von LAN-Clients auf die VPN-Tunnel-IP des Routers umgeschrieben. Deaktivieren Sie diese Option nur bei Site-to-Site-Setups, bei denen die Gegenstelle Ihre LAN-Subnetze kennt.
 
+    Wie unten dargestellt: Wenn IP-Maskierung aktiviert ist und der Laptop (192.168.10.200) im Reise-LAN Datenverkehr über den Tunnel an das NAS (192.168.8.100) im Heim-LAN sendet, schreibt der Reiserouter die Quell-IP von `192.168.10.200` in die Tunneladresse des VPN-Clients `10.1.0.2` um. Die Serverseite sieht dadurch, dass der Datenverkehr vom Client stammt und nicht aus dessen lokalem LAN.
+
+    ![ip masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/ip_masquerading.png){class="glboxshadow"}
+
 - **MTU**: Der MTU-Wert, den Sie für den Tunnel festlegen, überschreibt die MTU-Einstellungen in der Konfigurationsdatei.
 
 ## Tunnel-Priorität {#tunnel-priority}

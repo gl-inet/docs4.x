@@ -10,7 +10,7 @@ On the left side of the web Admin Panel, go to **MESH**.
 
 Mesh is a feature based on the Wi-Fi EasyMesh™ standard that extends whole-home Wi‑Fi coverage and enables seamless roaming. If you have multiple GL.iNet routers, set one as the main router and the rest as mesh nodes for seamless Wi-Fi roaming around your home.
 
-Not sure which mode to choose? See [Mesh vs. Expander vs. Access Point Mode](#mesh-vs-extender-vs-access-point-mode).
+Not sure which mode to choose? See [Mesh vs. Extender vs. Access Point Mode](#mesh-vs-extender-vs-access-point-mode).
 
 ## Supported Models {#supported-models}
 

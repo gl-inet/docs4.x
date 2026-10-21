@@ -296,6 +296,10 @@ Haga clic en el icono de engranaje de un grupo de túneles y seleccione **Option
 
 - **IP Masquerading**: si está habilitado, las direcciones IP de origen de los clientes LAN se reescribirán con la IP del túnel VPN del router. Deshabilite esta opción solo en configuraciones site-to-site en las que el par remoto conozca sus subredes LAN.
 
+    Como se muestra a continuación, si el enmascaramiento de IP está habilitado, cuando el portátil (192.168.10.200) de la LAN de viaje envía tráfico a través del túnel al NAS doméstico (192.168.8.100), el router de viaje reescribe la IP de origen `192.168.10.200` con la dirección de túnel del cliente VPN, `10.1.0.2`, por lo que el lado del servidor ve que el tráfico procede del cliente y no de la LAN local del cliente.
+
+    ![ip masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/ip_masquerading.png){class="glboxshadow"}
+
 - **MTU**: el valor MTU que defina para el túnel anulará la configuración MTU del archivo de configuración.
 
 ## Prioridad de los túneles {#tunnel-priority}

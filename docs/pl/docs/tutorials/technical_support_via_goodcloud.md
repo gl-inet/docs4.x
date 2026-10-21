@@ -10,7 +10,7 @@ Następnie zaloguj się do panelu administracyjnego WWW routera, aby włączyć 
 
 Wybierz instrukcję odpowiadającą wersji firmware urządzenia, aby włączyć GoodCloud i zdalny dostęp.
 
-??? "Dla firmware w wersji 4.10"
+??? "Dla firmware w wersji 4.10 i nowszej"
 
     Przejdź do **CLOUD SERVICES** -> **GoodCloud** i kliknij **Get Started**.
 

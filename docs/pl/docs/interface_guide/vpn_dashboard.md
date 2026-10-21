@@ -296,6 +296,10 @@ Kliknij ikonę koła zębatego w grupie tunelu i wybierz **Options**.
 
 - **IP Masquerading**: jeśli opcja jest włączona, źródłowe adresy IP klientów LAN zostaną przepisane na adres IP tunelu VPN routera. Wyłącz tę opcję tylko w konfiguracjach site-to-site, w których zdalny węzeł zna Twoje podsieci LAN.
 
+    Jak pokazano poniżej, jeśli maskowanie IP jest włączone, gdy laptop (192.168.10.200) w sieci LAN routera podróżnego wysyła ruch przez tunel do domowego serwera NAS (192.168.8.100), router podróżny przepisuje źródłowy adres IP z `192.168.10.200` na adres tunelu klienta VPN `10.1.0.2`. Dzięki temu strona serwera widzi ruch jako pochodzący od klienta, a nie z lokalnej sieci LAN klienta.
+
+    ![ip masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/ip_masquerading.png){class="glboxshadow"}
+
 - **MTU**: wartość MTU ustawiona dla tunelu zastąpi ustawienia MTU w pliku konfiguracyjnym.
 
 ## Priorytet tunelu {#tunnel-priority}

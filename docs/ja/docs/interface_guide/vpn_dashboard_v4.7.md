@@ -50,6 +50,10 @@ WireGuard Client Options は次のように表示されます。
 
 - **IP Masquerading**: 有効にすると、LAN クライアントの送信元IPアドレスはルーターのVPNトンネルIPに書き換えられます。リモートピアがLANサブネットを認識しているサイトツーサイト構成の場合にのみ無効にしてください。
 
+    下図のように、IPマスカレーディングが有効な場合、トラベルルーターのLAN上にあるノートパソコン（192.168.10.200）がトンネル経由で自宅のNAS（192.168.8.100）へトラフィックを送信すると、トラベルルーターは送信元IPを`192.168.10.200`からVPNクライアントのトンネルアドレス`10.1.0.2`に書き換えます。そのため、サーバー側では、このトラフィックはクライアントのローカルLANからではなく、クライアントから送信されたものとして認識されます。
+
+    ![ip masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/ip_masquerading.png){class="glboxshadow"}
+
 - **MTU**: Maximum Transmission Unit の略です。このオプション設定ではVPNトンネルの MTU をカスタマイズでき、設定ファイル内で定義された値を上書きします。
 
 ### プロキシモード {#proxy-mode}
@@ -151,6 +155,10 @@ WireGuard Server Options は次のように表示されます。
 * **Remote Access LAN**: 有効にすると、サーバー側LANサブネット内のリソースへVPNトンネル経由でアクセスできるようになります。
 
 * **IP Masquerading**: 有効にすると、LAN クライアントの送信元IPアドレスはルーターのVPNトンネルIPに書き換えられます。リモートピアがLANサブネットを認識しているサイトツーサイト構成の場合にのみ無効にしてください。
+
+    下図のように、IPマスカレーディングが有効な場合、自宅LAN上のNAS（192.168.8.100）がトンネル経由でトラベルルーター側のノートパソコン（192.168.10.200）へトラフィックを送信すると、自宅ルーターは送信元IPを`192.168.8.100`からVPNサーバーのトンネルアドレス`10.1.0.1`に書き換えます。そのため、リモート側では、このトラフィックはサーバーのローカルLANからではなく、サーバーから送信されたものとして認識されます。
+
+    ![ip masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/ip_masquerading.png){class="glboxshadow"}
 
 * **MTU**: Maximum Transmission Unit の略です。ここで設定したトンネルの MTU 値は、設定ファイル内の MTU 設定を上書きします。
 

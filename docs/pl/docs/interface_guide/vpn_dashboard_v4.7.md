@@ -50,6 +50,10 @@ Opcje klienta WireGuard są wyświetlane jak poniżej.
 
 - **Maskowanie IP**: Jeśli ta opcja jest włączona, źródłowe adresy IP klientów LAN zostaną przepisane na adres IP tunelu VPN routera. Wyłącz tę opcję tylko w konfiguracjach site-to-site, w których zdalny węzeł zna Twoje podsieci LAN.
 
+    Jak pokazano poniżej, jeśli maskowanie IP jest włączone, gdy laptop (192.168.10.200) w sieci LAN routera podróżnego wysyła ruch przez tunel do domowego serwera NAS (192.168.8.100), router podróżny przepisuje źródłowy adres IP z `192.168.10.200` na adres tunelu klienta VPN `10.1.0.2`. Dzięki temu strona serwera widzi ruch jako pochodzący od klienta, a nie z lokalnej sieci LAN klienta.
+
+    ![ip masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/ip_masquerading.png){class="glboxshadow"}
+
 - **MTU**: Skrót od Maximum Transmission Unit. To opcjonalne ustawienie pozwala dostosować MTU tunelu VPN, nadpisując wartość zdefiniowaną w pliku konfiguracyjnym.
 
 ### Tryb proxy {#proxy-mode}
@@ -151,6 +155,10 @@ Opcje serwera WireGuard są wyświetlane jak poniżej.
 - **Zdalny dostęp do LAN**: Jeśli ta opcja jest włączona, zasoby w podsieci LAN serwera mogą być dostępne przez tunel VPN.
 
 - **Maskowanie IP**: Jeśli ta opcja jest włączona, źródłowe adresy IP klientów LAN zostaną przepisane na adres IP tunelu VPN routera. Wyłącz tę opcję tylko w konfiguracjach site-to-site, w których zdalny węzeł zna Twoje podsieci LAN.
+
+    Jak pokazano poniżej, jeśli maskowanie IP jest włączone, gdy serwer NAS (192.168.8.100) w domowej sieci LAN wysyła ruch przez tunel do laptopa (192.168.10.200) w sieci LAN routera podróżnego, router domowy przepisuje źródłowy adres IP z `192.168.8.100` na adres tunelu serwera VPN `10.1.0.1`. Dzięki temu strona zdalna widzi ruch jako pochodzący od serwera, a nie z lokalnej sieci LAN serwera.
+
+    ![ip masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/ip_masquerading.png){class="glboxshadow"}
 
 - **MTU**: Skrót od Maximum Transmission Unit. Wartość MTU ustawiona dla tunelu nadpisze ustawienia MTU w pliku konfiguracyjnym.
 

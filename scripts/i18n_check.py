@@ -17,6 +17,14 @@ section (a section is the content between two headings, matched by heading ID):
   links            link targets differ (order within a section is ignored)
   values           IP addresses or version numbers differ
 
+Text checks look at localized prose, without code, URLs, bold UI labels,
+quoted messages, italics, and titles of external links:
+
+  english-text     an untranslated English sentence or heading
+  foreign-script   characters of another writing system
+  spelling         language rules, e.g. Italian accents, Russian letters in Ukrainian
+  punctuation      language rules, e.g. French spaces before : ; ? !
+
 File checks:
 
   orphan           a localized page has no English page
@@ -383,6 +391,119 @@ def mentions(section: Section, value: str) -> bool:
 
 
 # --------------------------------------------------------------------------
+# text
+
+# Removed from prose before the text checks: not prose, or allowed to stay in
+# English (UI labels, quoted messages, titles of external pages).
+PROSE_STRIP_RES = (
+    re.compile(r"\{[#.:][^}\n]*\}"),  # attribute blocks
+    re.compile(r"!\[[^\]]*\]\([^)]*\)"),  # images
+    re.compile(r"\[[^\]]*\]\(https?://[^)]*\)"),  # external links
+    re.compile(r"\]\([^)]*\)"),  # link targets
+    re.compile(r"`[^`\n]+`"),  # inline code
+    re.compile(r"\*\*[^*\n]+\*\*"),  # bold UI labels
+    re.compile(r'"[^"\n]*"|„[^“”\n]*[“”]|“[^”\n]*”|«[^»\n]*»|「[^」\n]*」|『[^』\n]*』'),  # quoted messages
+    re.compile(r"(?<![*\w])\*[^*\n]+\*(?![*\w])|(?<!\w)_[^_\n]+_(?!\w)"),  # italics
+    re.compile(r"<[^>]+>"),  # HTML tags
+    re.compile(r"https?://\S+"),
+    re.compile(r"^[ \t]*(?:!!!|\?\?\?\+?|===\+?)[ \t]*\w*"),  # admonition markers; titles stay
+)
+HTML_BLOCK_RE = re.compile(r"^\s*<(style|script)\b", re.I)
+TABLE_RULE_RE = re.compile(r"^\s*\|?[\s:|-]+$")
+# English words that are not words in the target languages; an ASCII run with
+# several of them is an English sentence. Headings are short, so one marker is
+# enough there, but "of" is left out ("Quality of Service").
+ENGLISH_MARKERS = frozenset(
+    "the and with your you this that are from which when then please click "
+    "if is of for can be not has have been".split()
+)
+HEADING_MARKERS = (ENGLISH_MARKERS - {"of", "for"}) | {"how", "what", "why"}
+# ASCII text that does not continue into a non-ASCII letter (Polish "hasło").
+ASCII_RUN_RE = re.compile(r"(?<![^\W\d_])[A-Za-z][A-Za-z0-9'’.,()/&+ -]*[A-Za-z0-9)](?![^\W\d_])")
+ASCII_WORD_RE = re.compile(r"(?<![\w-])[A-Za-z]+(?:['’][a-z]+)?(?![\w-])")
+JAPANESE = "぀-ヿ㐀-鿿"
+# Italian words that are always written with a final accent. Ambiguous forms
+# such as stabilita (participle) and necessita (verb) are left out.
+ITALIAN_ACCENT_WORDS = (
+    "puo piu gia perche poiche sara potra cosi funzionalita modalita possibilita velocita "
+    "compatibilita qualita priorita capacita disponibilita attivita connettivita utilita "
+    "novita identita entita comunita affidabilita visibilita quantita responsabilita flessibilita"
+).split()
+# (check, languages, pattern, message)
+TEXT_RULES = (
+    ("foreign-script", {"de", "es", "fr", "it", "pl", "uk"}, re.compile(r"[぀-ヿ㐀-鿿가-힯]+"),
+     "Chinese, Japanese or Korean characters"),
+    ("foreign-script", {"de", "es", "fr", "it", "pl", "ja"}, re.compile(r"[Ѐ-ӿ]+"), "Cyrillic characters"),
+    ("foreign-script", {"ja"}, re.compile(r"[가-힯]+"), "Korean characters"),
+    ("spelling", {"uk"}, re.compile(r"\w*[ыэъёЫЭЪЁ]\w*"), "Russian letter; use Ukrainian spelling"),
+    ("spelling", {"ja"}, re.compile(r"隧道"), "use トンネル"),
+    ("spelling", {"ja"}, re.compile(r"[Ａ-Ｚａ-ｚ０-９]+"), "use half-width letters and digits"),
+    ("punctuation", {"ja"}, re.compile(rf"(?<=[{JAPANESE}])[()?!]|\((?=[{JAPANESE}])"),
+     "use full-width （） ？ ！ next to Japanese text"),
+    ("spelling", {"it"}, re.compile(r"(?<![A-Za-z'‘])(?!(?:po|Po)')[A-Za-z]*[aeiouAEIOU]'(?=[\s.,;:!?)]|$)"),
+     "use an accented letter instead of an apostrophe"),
+    ("spelling", {"it"}, re.compile(r"\b(?:" + "|".join(w + "|" + w.capitalize() for w in ITALIAN_ACCENT_WORDS) + r")\b"),
+     "missing accent"),
+    ("punctuation", {"fr"}, re.compile(r"(?<=[A-Za-zÀ-ÿ0-9)»])[:;!?](?=\s|$)"),
+     "add a space (or no-break space) before : ; ? !"),
+)
+
+
+def prose_lines(page: Page):
+    """Yield (line number, prose) for the parts of a localized page that are translated."""
+    lines = page.lines
+    skip_until: int | None = None
+    skipped = set()
+    # Localized-only legal sections keep their approved wording.
+    for position, heading in enumerate(page.headings):
+        if heading.explicit_id in LOCALIZED_ONLY_IDS:
+            end = next(
+                (h.index for h in page.headings[position + 1:] if h.level <= heading.level), len(lines)
+            )
+            skipped.update(range(heading.index, end))
+    fence: str | None = None
+    for index in range(front_matter_end(lines), len(lines)):
+        raw = lines[index].rstrip("\r\n")
+        fence_match = FENCE_RE.match(raw)
+        if fence is not None:
+            if fence_match and fence_match.group(1)[0] == fence[0] and len(fence_match.group(1)) >= len(fence):
+                fence = None
+            continue
+        if fence_match:
+            fence = fence_match.group(1)
+            continue
+        if skip_until is not None:
+            if re.search(rf"</{skip_until}>", raw, re.I):
+                skip_until = None
+            continue
+        block = HTML_BLOCK_RE.match(raw)
+        if block and not re.search(rf"</{block.group(1)}>", raw, re.I):
+            skip_until = block.group(1)
+            continue
+        if index in skipped or TABLE_RULE_RE.match(raw):
+            continue
+        text = raw
+        for regex in PROSE_STRIP_RES:
+            text = regex.sub(" ", text)
+        yield index + 1, text
+
+
+def check_text(lang: str, page: Page, issues: list[Issue]) -> None:
+    for line, text in prose_lines(page):
+        heading = text.lstrip().startswith("#")
+        for run in ASCII_RUN_RE.findall(text):
+            words = [w.lower() for w in ASCII_WORD_RE.findall(run)]
+            markers = {w for w in words if w in ENGLISH_MARKERS}
+            if len(words) >= 4 and len(markers) >= 2 or heading and len(words) >= 3 and markers & HEADING_MARKERS:
+                issues.append(Issue(lang, page.rel, "english-text", f"untranslated English: {short(run.strip(), 90)}", line=line))
+        for check, langs, regex, message in TEXT_RULES:
+            if lang in langs:
+                for match in regex.finditer(text):
+                    excerpt = text[max(0, match.start() - 25): match.end() + 25].strip()
+                    issues.append(Issue(lang, page.rel, check, f"{message}: …{excerpt}…", line=line))
+
+
+# --------------------------------------------------------------------------
 # files and redirects
 
 
@@ -452,7 +573,9 @@ def check_page(lang: str, rel: str) -> list[Issue]:
     if not path.exists():
         return [Issue(lang, rel, "missing-page", "English page has no translation")]
     issues: list[Issue] = []
-    check_structure(lang, load_page(lang, path), load_page(SOURCE_LANG, DOCS_ROOT / SOURCE_LANG / "docs" / rel), issues)
+    page = load_page(lang, path)
+    check_structure(lang, page, load_page(SOURCE_LANG, DOCS_ROOT / SOURCE_LANG / "docs" / rel), issues)
+    check_text(lang, page, issues)
     return split_allowed(issues, load_allowlist(ALLOWLIST_PATH))[0]
 
 
@@ -486,6 +609,7 @@ def main(argv: list[str] | None = None) -> int:
             if rel in EXCLUDED_PAGES or rel not in en_pages or (only and rel not in only):
                 continue
             check_structure(lang, page, en_pages[rel], issues)
+            check_text(lang, page, issues)
 
     errors, allowed = split_allowed(issues, allowlist)
 

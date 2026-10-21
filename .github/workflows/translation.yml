@@ -99,9 +99,18 @@ jobs:
         env:
           CODEX_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           CODEX_RESPONSES_API_ENDPOINT: ${{ secrets.CODEX_RESPONSES_API_ENDPOINT }}
+        shell: bash
         run: |
-          test -n "$CODEX_API_KEY"
-          test -n "$CODEX_RESPONSES_API_ENDPOINT"
+          missing=0
+          if [ -z "$CODEX_API_KEY" ]; then
+            echo "::error::Repository secret OPENAI_API_KEY is not set."
+            missing=1
+          fi
+          if [ -z "$CODEX_RESPONSES_API_ENDPOINT" ]; then
+            echo "::error::Repository secret CODEX_RESPONSES_API_ENDPOINT is not set."
+            missing=1
+          fi
+          exit "$missing"
 
       - name: Run Codex translation
         uses: openai/codex-action@v1
@@ -183,6 +192,13 @@ jobs:
             echo "BUILD $lang"
             mkdocs build -f "docs/$lang/mkdocs.yml" --strict
           done
+
+      - name: Check localized structure and anchors
+        shell: bash
+        run: |
+          set -euo pipefail
+          python scripts/i18n_check.py
+          python scripts/anchors.py check
 
       - name: Verify translation cache
         shell: bash

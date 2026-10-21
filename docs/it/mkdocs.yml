@@ -52,7 +52,6 @@ plugins:
         'faq/amnezia_obfuscation_parameters.md': 'faq/amneziawg_obfuscation.md'
         'faq/amneziawg_obfuscation_parameters.md': 'faq/amneziawg_obfuscation.md'
         'tutorials/how_to_use_simpoyo_ufi.md': 'user_guide/simpoyo-4g-ufi/index.md'
-        'interface_guide/sms.md': 'tutorials/sms.md'
         'faq/block_no_vpn_traffic.md': 'faq/block_non_vpn_traffic.md'
         'tutorials/openthread_border_router_codelabs.md': 'https://docs.gl-inet.com/iot/en/thread_board_router/gl-s200/openthread_border_router_codelabs/'
         'tutorials/mac_clone.md': 'interface_guide/mac_address.md'

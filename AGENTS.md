@@ -45,3 +45,5 @@ This repository contains GL.iNet router documentation built with MkDocs. These r
 ## Translation Work
 
 Use the `glinet-docs-translation` skill for translation-specific tasks, including translating English docs into localized docs, syncing English changes into localized files, or reviewing localized translation quality. Keep detailed translation workflow and language terminology rules in that skill, not in this default repository guidance.
+
+After adding, renaming, or deleting pages, editing `redirect_maps`, or changing localized pages, run `python scripts/i18n_check.py`. It compares each localized page with the English page section by section (images, admonitions, code blocks, tables, links, IP addresses, and version numbers) and reports orphan pages and broken redirects. Fix the translation; add an entry to `scripts/i18n_allowlist.yml` only for intentional differences, with a reason.

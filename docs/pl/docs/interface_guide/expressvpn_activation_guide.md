@@ -82,7 +82,7 @@ Teraz możesz dodawać tunele VPN i konfigurować zasady VPN zgodnie ze swoimi p
 
 ### Ogólne kroki {#general-steps}
 
-Wykonaj poniższe czynności, aby dodać tunel VPN i skonfigurować zasady VPN. Jeśli to konieczne, zobacz [Odniesienie do sprawy](#case-reference).
+Wykonaj poniższe czynności, aby dodać tunel VPN i skonfigurować zasady VPN. Jeśli to konieczne, zobacz [Przykłady konfiguracji](#case-reference).
 
 1. W internetowym panelu administracyjnym Fortify przejdź do **VPN** -> **ExpressVPN Dashboard**. Kliknij **Add VPN Tunnel**.
 
@@ -129,7 +129,7 @@ Wykonaj poniższe czynności, aby dodać tunel VPN i skonfigurować zasady VPN. 
 
 5. Tunel VPN został pomyślnie dodany. Zostaniesz przekierowany do **ExpressVPN Dashboard**. W razie potrzeby dodaj więcej tuneli VPN.
 
-### Odniesienie do sprawy {#case-reference}
+### Przykłady konfiguracji {#case-reference}
 
 Oto dwa typowe przypadki konfiguracji zasad VPN wraz z instrukcjami konfiguracji krok po kroku.
 

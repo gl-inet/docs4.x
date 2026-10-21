@@ -10485,11 +10485,11 @@
         "target_hash": "b927d8982322c30dea8b1445d8e2803a4dedf8ae0bb2dfea339bc5f7df9c1975"
       },
       "uk": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792551786,
         "source_hash": "73a709ed58124c65497ce49993bf7868c3a1c8e072d757d45a7b24a661820729",
         "source_blob": "4955a8cf02010db82e33c29b15ff540179a24f48",
-        "target_hash": "cbb4aa6d869454e5e92ebed2e86aea10bd838a96de8dfd3816a82595702e36c8"
+        "target_hash": "d7d59313d590418f91068586182c819a6e51f70b4e2ed785de287155e7a30fae",
+        "model": "claude-opus-5-5",
+        "updated_at": 1792570449
       }
     }
   },

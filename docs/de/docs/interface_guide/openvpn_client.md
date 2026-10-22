@@ -649,7 +649,7 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
 
     [Download](https://vpn.ac/ovpn/).
 
-    <img class="glboxshadow" alt="vpn.ac donwoad configuration" src="https://static.gl-inet.com/docs/router/de/4/interface_guide/openvpn_client/vpn.ac/vpn.ac1.png" />
+    <img class="glboxshadow" alt="vpn.ac download configuration" src="https://static.gl-inet.com/docs/router/de/4/interface_guide/openvpn_client/vpn.ac/vpn.ac1.png" />
 
 ??? "VPNGate"
     ### VPNGate {#vpngate}

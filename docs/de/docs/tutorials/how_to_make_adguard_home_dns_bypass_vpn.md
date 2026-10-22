@@ -14,7 +14,7 @@ Standardmäßig wird der gesamte ausgehende Datenverkehr über den VPN-Tunnel ge
 
 Damit AdGuard Home weiterhin funktioniert, während das VPN aktiv ist, können Sie in LuCI eine statische Route hinzufügen, um den Upstream-DNS-Datenverkehr an das reguläre WAN-Gateway weiterzuleiten und den VPN-Tunnel zu umgehen. Gehen Sie folgendermaßen vor:
 
-1. Melden Sie sich im Web-Admin-Panel Ihres Routers an und gehen Sie zu **SYSTEM** -> **Advanced Settings** ->** Go to LuCI**.
+1. Melden Sie sich im Web-Admin-Panel Ihres Routers an und gehen Sie zu **SYSTEM** -> **Advanced Settings** -> **Go to LuCI**.
 
     ![luci login 1](https://static.gl-inet.com/docs/router/de/4/tutorials/make_adguard_home_dns_bypass_vpn/luci1.png){class="glboxshadow"}
 

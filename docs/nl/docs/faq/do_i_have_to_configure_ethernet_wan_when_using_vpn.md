@@ -6,7 +6,7 @@ Nee. Wanneer je de GL.iNet-router als VPN-client instelt, kun je elke WAN-bron c
 
 Je kunt de GL.iNet-router die als VPN-client is ingesteld draadloos met je primaire router verbinden. De GL.iNet-router werkt dan als wifi-repeater.
 
-![repater](https://static.gl-inet.com/docs/router/en/4/faq/wan_source_vpn/repeater.jpg){class="glboxshadow"}
+![repeater](https://static.gl-inet.com/docs/router/en/4/faq/wan_source_vpn/repeater.jpg){class="glboxshadow"}
 
 ## Configure by Ethernet cable {#configure-by-ethernet-cable}
 

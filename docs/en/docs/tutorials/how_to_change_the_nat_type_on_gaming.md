@@ -42,7 +42,7 @@ Some games may need other ports to be forwarded, you can refer to this website f
 
 ## Full Cone NAT {#full-cone-nat}
 
-You can enable the Full Cone NAT at **Network > NAT Settings** to imporve the latency.
+You can enable the Full Cone NAT at **Network > NAT Settings** to improve the latency.
 
 ![conenat](https://static.gl-inet.com/docs/router/en/4/tutorials/gamling/conenat.png){class="glboxshadow"}
 

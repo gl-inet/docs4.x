@@ -14,7 +14,7 @@ By default, all outbound traffic is routed through the VPN tunnel. This forces A
 
 To keep AdGuard Home functional while VPN is active, you can add a static route in LuCI to forward upstream DNS traffic to the regular WAN gateway and bypass the VPN tunnel. Follow the steps below.
 
-1. Log in to your router's web Admin Panel and go to **SYSTEM** -> **Advanced Settings** ->** Go to LuCI**.
+1. Log in to your router's web Admin Panel and go to **SYSTEM** -> **Advanced Settings** -> **Go to LuCI**.
 
     ![luci login 1](https://static.gl-inet.com/docs/router/en/4/tutorials/make_adguard_home_dns_bypass_vpn/luci1.png){class="glboxshadow"}
 

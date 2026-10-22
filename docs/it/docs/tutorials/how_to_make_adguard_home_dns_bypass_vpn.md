@@ -14,7 +14,7 @@ Per impostazione predefinita, tutto il traffico in uscita viene instradato attra
 
 Per mantenere AdGuard Home funzionante mentre la VPN è attiva, puoi aggiungere una rotta statica in LuCI per inoltrare il traffico DNS a monte al gateway WAN regolare e bypassare il tunnel VPN. Segui i passaggi seguenti.
 
-1. Accedi al pannello di amministrazione web del router e vai su **SYSTEM** -> **Advanced Settings** ->** Go to LuCI**.
+1. Accedi al pannello di amministrazione web del router e vai su **SYSTEM** -> **Advanced Settings** -> **Go to LuCI**.
 
     ![luci login 1](https://static.gl-inet.com/docs/router/en/4/tutorials/make_adguard_home_dns_bypass_vpn/luci1.png){class="glboxshadow"}
 

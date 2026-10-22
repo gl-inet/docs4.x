@@ -36,7 +36,7 @@ Try solving this issue by the following methods.
 
 5. **Reconnect the storage device.**
 
-    If using an external drive such as a USB drive, eject it first before unpluging it, wait 10 seconds, then plug it back in. You can also try different USB port.
+    If using an external drive such as a USB drive, eject it first before unplugging it, wait 10 seconds, then plug it back in. You can also try different USB port.
 
 6. **Repair disk errors with First Aid.**
 

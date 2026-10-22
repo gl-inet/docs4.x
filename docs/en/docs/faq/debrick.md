@@ -92,7 +92,7 @@ Refer to this video tutorial or follow the procedures below to access the U-Boot
             
             The leftmost Power LED stays on the whole time while the rightmost Wi-Fi LED flashes 4 times, then the middle Mesh LED turns solid on.
             
-            (For some old GL-B1300, the leftmost Power LED stays on the whole time, and both the middle LED and the rightmost LED flash 5 times simutaneously, then stay on.)
+            (For some old GL-B1300, the leftmost Power LED stays on the whole time, and both the middle LED and the rightmost LED flash 5 times simultaneously, then stay on.)
 
         - For **GL-B2200 (Velica)**: The two LEDs start blue, then turn white and flash 5 times, then turn solid blue.
 

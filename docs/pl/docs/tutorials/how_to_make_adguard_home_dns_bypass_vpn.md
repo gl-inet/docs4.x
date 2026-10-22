@@ -14,7 +14,7 @@ Domyślnie cały ruch wychodzący jest kierowany przez tunel VPN. Wymusza to, ż
 
 Aby AdGuard Home działał poprawnie, gdy VPN jest aktywny, możesz dodać trasę statyczną w LuCI, która przekieruje ruch DNS do serwerów nadrzędnych na zwykłą bramę WAN i ominie tunel VPN. Postępuj zgodnie z poniższymi krokami.
 
-1. Zaloguj się do panelu administracyjnego routera przez przeglądarkę i przejdź do **SYSTEM** -> **Advanced Settings** ->** Go to LuCI**.
+1. Zaloguj się do panelu administracyjnego routera przez przeglądarkę i przejdź do **SYSTEM** -> **Advanced Settings** -> **Go to LuCI**.
 
     ![luci login 1](https://static.gl-inet.com/docs/router/en/4/tutorials/make_adguard_home_dns_bypass_vpn/luci1.png){class="glboxshadow"}
 

@@ -44,7 +44,7 @@ Please select the tutorial that matches your device's firmware version to enable
 
 ## Log in Cloud account and bind device {#log-in-cloud-account-and-bind-device}
 
-If your router runs firmware v4.7 or higher, you can register an accout in the router's web Admin Panel and log in directly. Once logged in, the current device will be bound to your Cloud account automatically. 
+If your router runs firmware v4.7 or higher, you can register an account in the router's web Admin Panel and log in directly. Once logged in, the current device will be bound to your Cloud account automatically. 
 
 If your router runs firmware v4.6 or earlier, follow the steps below to log in to your account and bind your device.
 
@@ -86,7 +86,7 @@ After sharing the device, please provide your router's **MAC address** and **adm
 
     Here are steps to send a private message in the forum.
 
-    1. Go to the [offical forum](https://forum.gl-inet.com){target="_blank"}.
+    1. Go to the [official forum](https://forum.gl-inet.com){target="_blank"}.
     2. Click on the username of the GL.iNet support staff you are in contact with.
     3. Click on the **Message** button to send a private message.
 

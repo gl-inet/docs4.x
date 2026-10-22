@@ -6,7 +6,7 @@ Die Antwort lautet: Nein. Sie können jede beliebige WAN-Quelle für Ihren GL.iN
 
 Sie können den GL.iNet Router (als VPN-Client eingerichtet) drahtlos mit Ihrem primären Router verbinden. Auf diese Weise funktioniert der GL.iNet Router als Wi-Fi Repeater.
 
-![repater](https://static.gl-inet.com/docs/router/de/4/faq/wan_source_vpn/repeater.jpg){class="glboxshadow"}
+![repeater](https://static.gl-inet.com/docs/router/de/4/faq/wan_source_vpn/repeater.jpg){class="glboxshadow"}
 
 ## Über Ethernet-Kabel konfigurieren {#configure-by-ethernet-cable}
 

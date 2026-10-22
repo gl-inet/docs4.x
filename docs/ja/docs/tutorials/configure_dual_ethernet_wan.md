@@ -22,7 +22,7 @@ GL.iNetルーターは一般的な Ethernet to USB-A アダプターをサポー
 
     インストールが完了するまで待ちます。
 
-    ![installation suceeded](https://static.gl-inet.com/docs/router/en/4/tutorials/multiwan_wire/suceeded.png){class="glboxshadow"}
+    ![installation succeeded](https://static.gl-inet.com/docs/router/en/4/tutorials/multiwan_wire/suceeded.png){class="glboxshadow"}
 
 3. USB Tethering で接続します。
 

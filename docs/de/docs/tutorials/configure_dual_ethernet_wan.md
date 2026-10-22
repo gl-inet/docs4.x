@@ -22,7 +22,7 @@ GL.iNet-Router unterstützen gängige Ethernet-auf-USB-A-Adapter. Damit können 
 
     Warten Sie, bis die Installation abgeschlossen ist.
 
-    ![installation suceeded](https://static.gl-inet.com/docs/router/de/4/tutorials/multiwan_wire/suceeded.png){class="glboxshadow"}
+    ![installation succeeded](https://static.gl-inet.com/docs/router/de/4/tutorials/multiwan_wire/suceeded.png){class="glboxshadow"}
 
 3. Über USB Tethering verbinden.
 

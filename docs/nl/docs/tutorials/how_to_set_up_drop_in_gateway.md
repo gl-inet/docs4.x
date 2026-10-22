@@ -63,7 +63,7 @@ Volg deze handleidingen om de gewenste functies op je GL.iNet-router in te schak
 * [AdGuard Home](../interface_guide/adguardhome.md){target="_blank"}
 * [Versleutelde DNS](../interface_guide/dns.md){target="_blank"}
 * [Ouderlijk toezicht](../interface_guide/parental_control.md){target="_blank"}
-* [WireGaurd-client](../interface_guide/wireguard_client.md){target="_blank"}
+* [WireGuard-client](../interface_guide/wireguard_client.md){target="_blank"}
 * [OpenVPN-client](../interface_guide/openvpn_client.md){target="_blank"}
 
 ---
@@ -182,7 +182,7 @@ Volg deze handleidingen om de gewenste functies op je GL.iNet-router in te schak
 * [AdGuard Home](../interface_guide/adguardhome.md){target="_blank"}
 * [Versleutelde DNS](../interface_guide/dns.md){target="_blank"}
 * [Ouderlijk toezicht](../interface_guide/parental_control.md){target="_blank"}
-* [WireGaurd-client](../interface_guide/wireguard_client.md){target="_blank"}
+* [WireGuard-client](../interface_guide/wireguard_client.md){target="_blank"}
 * [OpenVPN-client](../interface_guide/openvpn_client.md){target="_blank"}
 
 ---

@@ -6,7 +6,7 @@ The answer is No. You can configure any WAN source for your GL.iNet router when 
 
 You can connect the GL.iNet router (set as VPN client) to your primary router wirelessly, in this way the GL.iNet router will function as a Wi-Fi Repeater.
 
-![repater](https://static.gl-inet.com/docs/router/en/4/faq/wan_source_vpn/repeater.jpg){class="glboxshadow"}
+![repeater](https://static.gl-inet.com/docs/router/en/4/faq/wan_source_vpn/repeater.jpg){class="glboxshadow"}
 
 ## Configure by Ethernet cable {#configure-by-ethernet-cable}
 

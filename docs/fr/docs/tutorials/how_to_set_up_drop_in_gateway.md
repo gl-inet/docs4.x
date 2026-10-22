@@ -63,7 +63,7 @@ Suivez ces guides pour activer les fonctionnalités souhaitées sur votre routeu
 * [AdGuard Home](../interface_guide/adguardhome.md){target="_blank"}
 * [Encrypted DNS](../interface_guide/dns.md){target="_blank"}
 * [Parental Control](../interface_guide/parental_control.md){target="_blank"}
-* [WireGaurd Client](../interface_guide/wireguard_client.md){target="_blank"}
+* [WireGuard Client](../interface_guide/wireguard_client.md){target="_blank"}
 * [OpenVPN Client](../interface_guide/openvpn_client.md){target="_blank"}
 
 ---
@@ -182,7 +182,7 @@ Suivez ces guides pour activer les fonctionnalités souhaitées sur votre routeu
 * [AdGuard Home](../interface_guide/adguardhome.md){target="_blank"}
 * [Encrypted DNS](../interface_guide/dns.md){target="_blank"}
 * [Parental Control](../interface_guide/parental_control.md){target="_blank"}
-* [WireGaurd Client](../interface_guide/wireguard_client.md){target="_blank"}
+* [WireGuard Client](../interface_guide/wireguard_client.md){target="_blank"}
 * [OpenVPN Client](../interface_guide/openvpn_client.md){target="_blank"}
 
 ---

@@ -6,7 +6,7 @@ Nej. Du kan konfigurera valfri WAN-källa för GL.iNet-routern när den används
 
 Du kan ansluta GL.iNet-routern (konfigurerad som VPN-klient) trådlöst till din primära router. GL.iNet-routern fungerar då som en Wi-Fi-repeater.
 
-![repater](https://static.gl-inet.com/docs/router/en/4/faq/wan_source_vpn/repeater.jpg){class="glboxshadow"}
+![repeater](https://static.gl-inet.com/docs/router/en/4/faq/wan_source_vpn/repeater.jpg){class="glboxshadow"}
 
 ## Konfigurera via Ethernet-kabel {#configure-by-ethernet-cable}
 

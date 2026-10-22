@@ -6,7 +6,7 @@ Nie. Gdy skonfigurujesz router GL.iNet jako klient VPN, możesz użyć dowolnego
 
 Możesz połączyć router GL.iNet (skonfigurowany jako klient VPN) z głównym routerem bezprzewodowo. W takiej konfiguracji router GL.iNet będzie działał jako repeater Wi-Fi.
 
-![repater](https://static.gl-inet.com/docs/router/en/4/faq/wan_source_vpn/repeater.jpg){class="glboxshadow"}
+![repeater](https://static.gl-inet.com/docs/router/en/4/faq/wan_source_vpn/repeater.jpg){class="glboxshadow"}
 
 ## Konfiguracja przez kabel Ethernet {#configure-by-ethernet-cable}
 

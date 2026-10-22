@@ -76,7 +76,7 @@ Follow the troubleshooting steps below according to your specific issue.
     3. In the **Configuration** tab, for the **IPv4 Address** field, enter a new IP address (e.g., 10.1.0.1/24). 
     4. Click **Apply**. 
 
-    **Possible cause 3: If both your WireGuard server and WireGuard client were set up on GL.iNet routers, their LAN IP addersses are in conflict**
+    **Possible cause 3: If both your WireGuard server and WireGuard client were set up on GL.iNet routers, their LAN IP addresses are in conflict**
 
     Try to change the LAN IP address on either router by following these steps:     
 
@@ -108,7 +108,7 @@ Follow the troubleshooting steps below according to your specific issue.
 
     To check if you have one, follow this [page](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md). 
 
-    **Possible cause 3: If both your WireGuard server and WireGuard client were set up on GL.iNet routers, their LAN IP addersses are in conflict**
+    **Possible cause 3: If both your WireGuard server and WireGuard client were set up on GL.iNet routers, their LAN IP addresses are in conflict**
 
     Change the LAN IP address on either router by following these steps: 
 

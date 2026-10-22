@@ -6,7 +6,7 @@ La risposta è no. Quando imposti il router GL.iNet come client VPN, puoi config
 
 Puoi collegare il router GL.iNet (impostato come client VPN) al router principale in modalità wireless; in questo modo il router GL.iNet funzionerà come Wi-Fi Repeater.
 
-![repater](https://static.gl-inet.com/docs/router/en/4/faq/wan_source_vpn/repeater.jpg){class="glboxshadow"}
+![repeater](https://static.gl-inet.com/docs/router/en/4/faq/wan_source_vpn/repeater.jpg){class="glboxshadow"}
 
 ## Configurazione tramite cavo Ethernet {#configure-by-ethernet-cable}
 

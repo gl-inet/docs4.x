@@ -37,7 +37,7 @@ The following describes the LED states for different events. To see all statuses
 To set up Spitz Plus, you will use one of the four supported internet connection methods: Cellular (SIM required), Ethernet, Repeater, and Tethering. Watch this setup video or follow the steps below. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-_K3xuAj4UA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<small>(This video demonstrates the Cellular setup of Spitz Plus. If you need to configure Spitz Plus by other Internet connetion methods, please refer to the steps below.)</small>
+<small>(This video demonstrates the Cellular setup of Spitz Plus. If you need to configure Spitz Plus by other Internet connection methods, please refer to the steps below.)</small>
 
 !!! note "Before you start, follow these steps (if connecting via the cellular method):"
 

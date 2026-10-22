@@ -1,6 +1,6 @@
 # Aktualizacja oprogramowania modułu Quectel {#upgrade-quectel-module-firmware}
 
-## Przygotowanie {#preperation}
+## Przygotowanie {#preparation}
 
 1. Upewnij się, że router ma skonfigurowany dostęp do Internetu.
 

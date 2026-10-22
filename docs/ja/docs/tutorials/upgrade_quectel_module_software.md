@@ -1,6 +1,6 @@
 # Quectelモジュールのファームウェアをアップグレードする {#upgrade-quectel-module-firmware}
 
-## 準備 {#preperation}
+## 準備 {#preparation}
 
 1. ルーターがインターネットにアクセスできるよう設定されていることを確認します。
 

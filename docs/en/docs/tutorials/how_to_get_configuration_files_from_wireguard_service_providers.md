@@ -75,7 +75,7 @@
 
         ![surfshark wireguard manual setup](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/surfshark/surfshark_wireguard_manual_setup_3.png){class="glboxshadow"}
 
-    4. Once the key has been generatd, select **Choose a location**.
+    4. Once the key has been generated, select **Choose a location**.
 
         ![surfshark wireguard manual setup](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/surfshark/surfshark_wireguard_manual_setup_4.png){class="glboxshadow"}
 

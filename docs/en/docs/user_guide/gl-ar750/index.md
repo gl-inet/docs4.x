@@ -71,7 +71,7 @@ In a web browser's address bar, enter `192.168.8.1`. Choose your language, then 
 
     ![tethering](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar750/internet_setup/tethering.png){class="glboxshadow"}
 
-    1. Connect your smartphone to the router via USB cable and enable network shareing in Personal hotspot of the setting.
+    1. Connect your smartphone to the router via USB cable and enable network sharing in Personal hotspot of the setting.
     2. On the main screen of the web admin panel, locate the "Tethering" section, then click **Connect**.
     3. If you are connected to the internet successfully, a green dot appears next to "Tethering".
 

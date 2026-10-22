@@ -8,7 +8,7 @@ For the newer models, the bottom label is similar to the image below, where it d
 
 ![label of gl-x750](https://static.gl-inet.com/docs/router/en/4/faq/where_to_find_the_device_id_mac_sn/back_label_new.png){class="glboxshadow"}
 
-For older models, there's no Device ID on the bottom label, but you can find the DDNS, and the first 7 characters of the DDNS is the Device ID. Take the image below as an example, its MAC is **E4:95:6E:40:DB:A1**, Devicd ID is **hh0dba1**, and Serial Number is **7c0be4bb45d96057**.
+For older models, there's no Device ID on the bottom label, but you can find the DDNS, and the first 7 characters of the DDNS is the Device ID. Take the image below as an example, its MAC is **E4:95:6E:40:DB:A1**, Device ID is **hh0dba1**, and Serial Number is **7c0be4bb45d96057**.
 
 ![label of gl-ar150](https://static.gl-inet.com/docs/router/en/4/faq/where_to_find_the_device_id_mac_sn/back_label_old.png){class="glboxshadow"}
 

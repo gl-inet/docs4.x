@@ -1,6 +1,6 @@
 # Mettre à niveau le firmware du module Quectel {#upgrade-quectel-module-firmware}
 
-## Préparation {#preperation}
+## Préparation {#preparation}
 
 1. Assurez-vous que votre routeur est configuré pour accéder à Internet.
 

@@ -1,6 +1,6 @@
 # Firmware van een Quectel-module upgraden {#upgrade-quectel-module-firmware}
 
-## Voorbereiding {#preperation}
+## Voorbereiding {#preparation}
 
 1. Zorg dat je router is geconfigureerd voor internettoegang.
 

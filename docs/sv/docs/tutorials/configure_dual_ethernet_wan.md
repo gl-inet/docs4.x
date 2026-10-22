@@ -22,7 +22,7 @@ GL.iNet-routrar stöder vanliga Ethernet-till-USB-A-adaptrar. Det gör att du ka
 
     Vänta tills installationen är klar.
 
-    ![installation suceeded](https://static.gl-inet.com/docs/router/en/4/tutorials/multiwan_wire/suceeded.png){class="glboxshadow"}
+    ![installation succeeded](https://static.gl-inet.com/docs/router/en/4/tutorials/multiwan_wire/suceeded.png){class="glboxshadow"}
 
 3. Anslut med internetdelning via USB.
 

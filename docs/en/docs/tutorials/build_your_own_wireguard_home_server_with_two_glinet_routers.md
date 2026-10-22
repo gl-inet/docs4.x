@@ -122,7 +122,7 @@ In the pop-up window, slide to enable DDNS Domain (marked as 3, which is optiona
 
 Then you can scan the QR using the WireGuard [mobile app](https://www.wireguard.com/install/) to test the server. For details please click [here](../interface_guide/wireguard_server.md#check-if-wireguard-server-is-working-properly).
 
-Alternatively, you can export a text format configuration for VPN client connetcion.
+Alternatively, you can export a text format configuration for VPN client connection.
 
 Switch the configuration from QR code to text format by clicking **Configuration File** tab. 
 
@@ -182,7 +182,7 @@ Turn to **VPN Dashboard**, and you will see that your client is connecting to th
 
 ![clientup](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/wgclientup.jpg){class="glboxshadow"}
 
-Log in back to the web Admin Panel of GL-MT6000 (the WireGuard server), go to **VPN** -> **WireGuard Server** (or go to **VPN** -> **VPN Dashboard** if you use firmware v.4.7 and earlier), and you will also see the connnection status, indicating that the client is connected.
+Log in back to the web Admin Panel of GL-MT6000 (the WireGuard server), go to **VPN** -> **WireGuard Server** (or go to **VPN** -> **VPN Dashboard** if you use firmware v.4.7 and earlier), and you will also see the connection status, indicating that the client is connected.
 
 ![servercon](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/wgservercon-4.8.png){class="glboxshadow"}
 <small>(WireGuard Server page in FW v4.8)</small>

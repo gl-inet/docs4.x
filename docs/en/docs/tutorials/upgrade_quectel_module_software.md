@@ -1,6 +1,6 @@
 # Upgrade Quectel Module Firmware {#upgrade-quectel-module-firmware}
 
-## Preperation {#preperation}
+## Preparation {#preparation}
 
 1. Ensure your router is configured to Internet access.
 

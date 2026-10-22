@@ -538,134 +538,134 @@
   "docs/en/docs/faq/debrick.md": {
     "targets": {
       "de": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
-        "source_hash": "556a4947cb83c108018a405f58a8883357a5e2e7cf097c9ffa710f2f1b70bd80",
-        "source_blob": "2ee1e9dc55e060673b6cc23b62f68909ff85ae4e",
-        "target_hash": "d3a5c9beda9c85d3a281cb679b4a86b6877a3567b355a9e82fc2dcb24dd1efd7"
+        "source_hash": "68b9e3a2da4e2632146432315fc049263c25ebc8301e9228f72f1f771472d1ab",
+        "source_blob": "d936cf757006617ab7aae564757887cf9ff7913f",
+        "target_hash": "d3a5c9beda9c85d3a281cb679b4a86b6877a3567b355a9e82fc2dcb24dd1efd7",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657033
       },
       "es": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
-        "source_hash": "556a4947cb83c108018a405f58a8883357a5e2e7cf097c9ffa710f2f1b70bd80",
-        "source_blob": "2ee1e9dc55e060673b6cc23b62f68909ff85ae4e",
-        "target_hash": "e9c140a526550d15f654faa780eecebfc1dbcb66e8be2ccbd10d1120ddadfe15"
+        "source_hash": "68b9e3a2da4e2632146432315fc049263c25ebc8301e9228f72f1f771472d1ab",
+        "source_blob": "d936cf757006617ab7aae564757887cf9ff7913f",
+        "target_hash": "e9c140a526550d15f654faa780eecebfc1dbcb66e8be2ccbd10d1120ddadfe15",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657033
       },
       "fr": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
-        "source_hash": "556a4947cb83c108018a405f58a8883357a5e2e7cf097c9ffa710f2f1b70bd80",
-        "source_blob": "2ee1e9dc55e060673b6cc23b62f68909ff85ae4e",
-        "target_hash": "91594b969fb86f04dc428b3a7d267c53bcc486e489f23a2b4dbd12db1ddbfd81"
+        "source_hash": "68b9e3a2da4e2632146432315fc049263c25ebc8301e9228f72f1f771472d1ab",
+        "source_blob": "d936cf757006617ab7aae564757887cf9ff7913f",
+        "target_hash": "91594b969fb86f04dc428b3a7d267c53bcc486e489f23a2b4dbd12db1ddbfd81",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657033
       },
       "it": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
-        "source_hash": "556a4947cb83c108018a405f58a8883357a5e2e7cf097c9ffa710f2f1b70bd80",
-        "source_blob": "2ee1e9dc55e060673b6cc23b62f68909ff85ae4e",
-        "target_hash": "cd9694c454a2d7585a6dcbcf19ad89c5afe8a2699b129a6b7c7aa45365500b64"
+        "source_hash": "68b9e3a2da4e2632146432315fc049263c25ebc8301e9228f72f1f771472d1ab",
+        "source_blob": "d936cf757006617ab7aae564757887cf9ff7913f",
+        "target_hash": "cd9694c454a2d7585a6dcbcf19ad89c5afe8a2699b129a6b7c7aa45365500b64",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657033
       },
       "ja": {
-        "source_hash": "556a4947cb83c108018a405f58a8883357a5e2e7cf097c9ffa710f2f1b70bd80",
-        "source_blob": "2ee1e9dc55e060673b6cc23b62f68909ff85ae4e",
+        "source_hash": "68b9e3a2da4e2632146432315fc049263c25ebc8301e9228f72f1f771472d1ab",
+        "source_blob": "d936cf757006617ab7aae564757887cf9ff7913f",
         "target_hash": "f3f6c3b1809265739cfd3f30675e76e8fe08fea694de04617c421b28dfe5c8bf",
-        "model": "claude-opus-5-5-ja-review",
-        "updated_at": 1792655214
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657033
       },
       "pl": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
-        "source_hash": "556a4947cb83c108018a405f58a8883357a5e2e7cf097c9ffa710f2f1b70bd80",
-        "source_blob": "2ee1e9dc55e060673b6cc23b62f68909ff85ae4e",
-        "target_hash": "13107e293e4f47ded0251ab88f451afe764ff26b5b6840af2a633f59c8db5b58"
+        "source_hash": "68b9e3a2da4e2632146432315fc049263c25ebc8301e9228f72f1f771472d1ab",
+        "source_blob": "d936cf757006617ab7aae564757887cf9ff7913f",
+        "target_hash": "13107e293e4f47ded0251ab88f451afe764ff26b5b6840af2a633f59c8db5b58",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657033
       },
       "uk": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
-        "source_hash": "556a4947cb83c108018a405f58a8883357a5e2e7cf097c9ffa710f2f1b70bd80",
-        "source_blob": "2ee1e9dc55e060673b6cc23b62f68909ff85ae4e",
-        "target_hash": "d5c255179f30ea8cd860e957b21f1f949e02d58529db191daeec4e1b22046ab3"
+        "source_hash": "68b9e3a2da4e2632146432315fc049263c25ebc8301e9228f72f1f771472d1ab",
+        "source_blob": "d936cf757006617ab7aae564757887cf9ff7913f",
+        "target_hash": "d5c255179f30ea8cd860e957b21f1f949e02d58529db191daeec4e1b22046ab3",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657033
       },
       "nl": {
-        "source_hash": "556a4947cb83c108018a405f58a8883357a5e2e7cf097c9ffa710f2f1b70bd80",
-        "source_blob": "2ee1e9dc55e060673b6cc23b62f68909ff85ae4e",
+        "source_hash": "68b9e3a2da4e2632146432315fc049263c25ebc8301e9228f72f1f771472d1ab",
+        "source_blob": "d936cf757006617ab7aae564757887cf9ff7913f",
         "target_hash": "2c35b9bcf68c18fb7b229c12be7f83dd9904b58c6151990f9fb1dee5bfd9275c",
-        "model": "gpt-5.6-sol",
-        "updated_at": 1792584245
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657033
       },
       "sv": {
-        "source_hash": "556a4947cb83c108018a405f58a8883357a5e2e7cf097c9ffa710f2f1b70bd80",
-        "source_blob": "2ee1e9dc55e060673b6cc23b62f68909ff85ae4e",
+        "source_hash": "68b9e3a2da4e2632146432315fc049263c25ebc8301e9228f72f1f771472d1ab",
+        "source_blob": "d936cf757006617ab7aae564757887cf9ff7913f",
         "target_hash": "b58dc7649bd2e3bfa563e6a9ea86d49487df859e5b3674738936494864b1db32",
-        "model": "gpt-5.6-sol",
-        "updated_at": 1792583652
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657033
       }
     }
   },
   "docs/en/docs/faq/do_i_have_to_configure_ethernet_wan_when_using_vpn.md": {
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801,
-        "source_hash": "262b4b1f1008c261c86d819e6af26b9141718a052e2982196db3c2cb6cc5d710",
-        "source_blob": "25fb0c12b58b26e5315d8d4b2d98ccfef276cf7a",
-        "target_hash": "9dce10529543a174b66b1629c954ed9da669b2fcd7a3b67847bc0e9ab9f51cea"
+        "source_hash": "102578073f66908037adc28c5d933dd37cd4848023b21d93c8b7740536ce7f07",
+        "source_blob": "b7937d2f60fa98c71e478a05820dbfbe2ec345ba",
+        "target_hash": "9cf9f234b547f603dffeab745d2ca37aca94ab210b8d0afc4e69ef041cd6f4e4",
+        "model": "typo-fix",
+        "updated_at": 1792657034
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246,
-        "source_hash": "262b4b1f1008c261c86d819e6af26b9141718a052e2982196db3c2cb6cc5d710",
-        "source_blob": "25fb0c12b58b26e5315d8d4b2d98ccfef276cf7a",
-        "target_hash": "edd4f10057a290f303cda02551341c7af2407e8c8e66ddc7c657e6f85b479ef3"
+        "source_hash": "102578073f66908037adc28c5d933dd37cd4848023b21d93c8b7740536ce7f07",
+        "source_blob": "b7937d2f60fa98c71e478a05820dbfbe2ec345ba",
+        "target_hash": "cd93648ce3988d473b7bfc7efc80a1f1f17e3394e8bcb450ec35231496989e83",
+        "model": "typo-fix",
+        "updated_at": 1792657034
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141,
-        "source_hash": "262b4b1f1008c261c86d819e6af26b9141718a052e2982196db3c2cb6cc5d710",
-        "source_blob": "25fb0c12b58b26e5315d8d4b2d98ccfef276cf7a",
-        "target_hash": "bb0dafd166e9d8fa98e8593915b2cc4edf1e8ef4335c56f124e32e51ebf86073"
+        "source_hash": "102578073f66908037adc28c5d933dd37cd4848023b21d93c8b7740536ce7f07",
+        "source_blob": "b7937d2f60fa98c71e478a05820dbfbe2ec345ba",
+        "target_hash": "7f6cf1294deed837648cf0678311beab47ad3da58479711f3885bb859013e07d",
+        "model": "typo-fix",
+        "updated_at": 1792657034
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1774576317,
-        "source_hash": "262b4b1f1008c261c86d819e6af26b9141718a052e2982196db3c2cb6cc5d710",
-        "source_blob": "25fb0c12b58b26e5315d8d4b2d98ccfef276cf7a",
-        "target_hash": "6bdc4a6ed3e36864f6613f41ccc99eda9428d6e6c386a1b91d4768702b9fca11"
+        "source_hash": "102578073f66908037adc28c5d933dd37cd4848023b21d93c8b7740536ce7f07",
+        "source_blob": "b7937d2f60fa98c71e478a05820dbfbe2ec345ba",
+        "target_hash": "9ac23e5949c094b55bc9d78e9d72576ab08a5e64664f029597ef1a12c94c914a",
+        "model": "typo-fix",
+        "updated_at": 1792657034
       },
       "ja": {
-        "source_hash": "262b4b1f1008c261c86d819e6af26b9141718a052e2982196db3c2cb6cc5d710",
-        "source_blob": "25fb0c12b58b26e5315d8d4b2d98ccfef276cf7a",
-        "target_hash": "d2d9404818ba6b8ca9927dd5959bc3be5caf5cafc3250fa29172c26a4ecbf373",
-        "model": "claude-opus-5-5-ja-review",
-        "updated_at": 1792655214
+        "source_hash": "102578073f66908037adc28c5d933dd37cd4848023b21d93c8b7740536ce7f07",
+        "source_blob": "b7937d2f60fa98c71e478a05820dbfbe2ec345ba",
+        "target_hash": "6fd3e25a63977821ef2205f530011a838b4d305b7ed7f062406a4a569cfd0c6e",
+        "model": "typo-fix",
+        "updated_at": 1792657034
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775605937,
-        "source_hash": "262b4b1f1008c261c86d819e6af26b9141718a052e2982196db3c2cb6cc5d710",
-        "source_blob": "25fb0c12b58b26e5315d8d4b2d98ccfef276cf7a",
-        "target_hash": "7a03bc2ba21a11ae741aafec508ab172e4581cd4d5bf6daeee1afa881b89d65e"
+        "source_hash": "102578073f66908037adc28c5d933dd37cd4848023b21d93c8b7740536ce7f07",
+        "source_blob": "b7937d2f60fa98c71e478a05820dbfbe2ec345ba",
+        "target_hash": "f7df4dfccecd92645cafb2d0286c888d01ee22de749b334caf58eccb7148e3a5",
+        "model": "typo-fix",
+        "updated_at": 1792657034
       },
       "uk": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792143745,
-        "source_hash": "262b4b1f1008c261c86d819e6af26b9141718a052e2982196db3c2cb6cc5d710",
-        "source_blob": "25fb0c12b58b26e5315d8d4b2d98ccfef276cf7a",
-        "target_hash": "9064fb5948a46b3c3625a6ea7d93615f73bf44179b0b8dba9eea576b1c86fecc"
+        "source_hash": "102578073f66908037adc28c5d933dd37cd4848023b21d93c8b7740536ce7f07",
+        "source_blob": "b7937d2f60fa98c71e478a05820dbfbe2ec345ba",
+        "target_hash": "9064fb5948a46b3c3625a6ea7d93615f73bf44179b0b8dba9eea576b1c86fecc",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657035
       },
       "nl": {
-        "source_hash": "262b4b1f1008c261c86d819e6af26b9141718a052e2982196db3c2cb6cc5d710",
-        "source_blob": "25fb0c12b58b26e5315d8d4b2d98ccfef276cf7a",
-        "target_hash": "a46c0208ef144e32d8d5f025fbce1bb4338512af60998750b22947b5ffbe0941",
-        "model": "gpt-5.6-sol",
-        "updated_at": 1792583652
+        "source_hash": "102578073f66908037adc28c5d933dd37cd4848023b21d93c8b7740536ce7f07",
+        "source_blob": "b7937d2f60fa98c71e478a05820dbfbe2ec345ba",
+        "target_hash": "3c6f604203bbc28d978da13054a568d3a628635972a307ac7b04fdd9e448f2a5",
+        "model": "typo-fix",
+        "updated_at": 1792657034
       },
       "sv": {
-        "source_hash": "262b4b1f1008c261c86d819e6af26b9141718a052e2982196db3c2cb6cc5d710",
-        "source_blob": "25fb0c12b58b26e5315d8d4b2d98ccfef276cf7a",
-        "target_hash": "e3b70c5fe1b28f3598abc118ea1a0acd9f27e7d34314e50b6c02eb87a1be1ea8",
-        "model": "gpt-5.6-sol",
-        "updated_at": 1792583652
+        "source_hash": "102578073f66908037adc28c5d933dd37cd4848023b21d93c8b7740536ce7f07",
+        "source_blob": "b7937d2f60fa98c71e478a05820dbfbe2ec345ba",
+        "target_hash": "e614e78d09e3042204d4aec81e09cb227abc54f999bce099e9ff91ac7b7cf0ee",
+        "model": "typo-fix",
+        "updated_at": 1792657034
       }
     }
   },
@@ -1409,67 +1409,67 @@
   "docs/en/docs/faq/macos_cannot_write_samba.md": {
     "targets": {
       "de": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
-        "source_hash": "76acc20d38d854781d1369043c34a5f5598328df6ae816a95a96c32f2b8070d0",
-        "source_blob": "99d9b346ab1f32ea06f887dd99d42a18e10204a3",
-        "target_hash": "8f8f5a11ec3806dbcccb5169b4118c5f0123680e8030290f00b080866cd9e5c7"
+        "source_hash": "23aa5478fa4a42a2ccef6d7958390d57286a9f90fa960d032e2d883e32927aa0",
+        "source_blob": "a92ca7b499892356a07bbc05833d9ff758125669",
+        "target_hash": "8f8f5a11ec3806dbcccb5169b4118c5f0123680e8030290f00b080866cd9e5c7",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657035
       },
       "es": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
-        "source_hash": "76acc20d38d854781d1369043c34a5f5598328df6ae816a95a96c32f2b8070d0",
-        "source_blob": "99d9b346ab1f32ea06f887dd99d42a18e10204a3",
-        "target_hash": "6af88a114f67f2bf13d92e91081ed5af93d434f21865a395aa30dad85ab92af6"
+        "source_hash": "23aa5478fa4a42a2ccef6d7958390d57286a9f90fa960d032e2d883e32927aa0",
+        "source_blob": "a92ca7b499892356a07bbc05833d9ff758125669",
+        "target_hash": "6af88a114f67f2bf13d92e91081ed5af93d434f21865a395aa30dad85ab92af6",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657035
       },
       "fr": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
-        "source_hash": "76acc20d38d854781d1369043c34a5f5598328df6ae816a95a96c32f2b8070d0",
-        "source_blob": "99d9b346ab1f32ea06f887dd99d42a18e10204a3",
-        "target_hash": "cbeaf2427305c17a809eb4b30f924f83b37b6b7bf455292df7b69f92300a998f"
+        "source_hash": "23aa5478fa4a42a2ccef6d7958390d57286a9f90fa960d032e2d883e32927aa0",
+        "source_blob": "a92ca7b499892356a07bbc05833d9ff758125669",
+        "target_hash": "cbeaf2427305c17a809eb4b30f924f83b37b6b7bf455292df7b69f92300a998f",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657035
       },
       "it": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
-        "source_hash": "76acc20d38d854781d1369043c34a5f5598328df6ae816a95a96c32f2b8070d0",
-        "source_blob": "99d9b346ab1f32ea06f887dd99d42a18e10204a3",
-        "target_hash": "bf377790feb8e5d8817b469699d59d75a3acb13bc8481cd642bf556e8a641434"
+        "source_hash": "23aa5478fa4a42a2ccef6d7958390d57286a9f90fa960d032e2d883e32927aa0",
+        "source_blob": "a92ca7b499892356a07bbc05833d9ff758125669",
+        "target_hash": "bf377790feb8e5d8817b469699d59d75a3acb13bc8481cd642bf556e8a641434",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657035
       },
       "ja": {
-        "source_hash": "76acc20d38d854781d1369043c34a5f5598328df6ae816a95a96c32f2b8070d0",
-        "source_blob": "99d9b346ab1f32ea06f887dd99d42a18e10204a3",
+        "source_hash": "23aa5478fa4a42a2ccef6d7958390d57286a9f90fa960d032e2d883e32927aa0",
+        "source_blob": "a92ca7b499892356a07bbc05833d9ff758125669",
         "target_hash": "53ada8fbbcabcf925f54a97cd303d0cc807de0719fcc897d9b4549cc45935427",
-        "model": "claude-opus-5-5-ja-review",
-        "updated_at": 1792655214
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657035
       },
       "pl": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
-        "source_hash": "76acc20d38d854781d1369043c34a5f5598328df6ae816a95a96c32f2b8070d0",
-        "source_blob": "99d9b346ab1f32ea06f887dd99d42a18e10204a3",
-        "target_hash": "54719890908daaff0908b36cac077709b106e8893c8c1ab429426c7766368409"
+        "source_hash": "23aa5478fa4a42a2ccef6d7958390d57286a9f90fa960d032e2d883e32927aa0",
+        "source_blob": "a92ca7b499892356a07bbc05833d9ff758125669",
+        "target_hash": "54719890908daaff0908b36cac077709b106e8893c8c1ab429426c7766368409",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657035
       },
       "uk": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
-        "source_hash": "76acc20d38d854781d1369043c34a5f5598328df6ae816a95a96c32f2b8070d0",
-        "source_blob": "99d9b346ab1f32ea06f887dd99d42a18e10204a3",
-        "target_hash": "5a5d8168cc7669df1f2b763277284e5c207c9433b635116d31a68bc7a035c09f"
+        "source_hash": "23aa5478fa4a42a2ccef6d7958390d57286a9f90fa960d032e2d883e32927aa0",
+        "source_blob": "a92ca7b499892356a07bbc05833d9ff758125669",
+        "target_hash": "5a5d8168cc7669df1f2b763277284e5c207c9433b635116d31a68bc7a035c09f",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657035
       },
       "nl": {
-        "source_hash": "76acc20d38d854781d1369043c34a5f5598328df6ae816a95a96c32f2b8070d0",
-        "source_blob": "99d9b346ab1f32ea06f887dd99d42a18e10204a3",
+        "source_hash": "23aa5478fa4a42a2ccef6d7958390d57286a9f90fa960d032e2d883e32927aa0",
+        "source_blob": "a92ca7b499892356a07bbc05833d9ff758125669",
         "target_hash": "c9b234972e0ac50e904f31060b0c9b0522eaea611c13accda8e2d4e21964fe5b",
-        "model": "gpt-5.6-sol",
-        "updated_at": 1792584245
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657035
       },
       "sv": {
-        "source_hash": "76acc20d38d854781d1369043c34a5f5598328df6ae816a95a96c32f2b8070d0",
-        "source_blob": "99d9b346ab1f32ea06f887dd99d42a18e10204a3",
+        "source_hash": "23aa5478fa4a42a2ccef6d7958390d57286a9f90fa960d032e2d883e32927aa0",
+        "source_blob": "a92ca7b499892356a07bbc05833d9ff758125669",
         "target_hash": "007670a46a4ab02cabf65905daff379b989d22fe876d3142a0b4889673b4f197",
-        "model": "gpt-5.6-sol",
-        "updated_at": 1792583652
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657035
       }
     }
   },
@@ -2213,67 +2213,67 @@
   "docs/en/docs/faq/upgrade_to_4.md": {
     "targets": {
       "de": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220,
-        "source_hash": "b4985f02c73d6557bf621e777a56ffc661803a47a81375ffdfbc3e5314223357",
-        "source_blob": "63f29a1475b6c0ebfc447f1d36e1e315e72f9e06",
-        "target_hash": "f6bd7c0a3e4aeace94e14549a101f8b3f35d066f04d48dbf2360aa4aca8c0de9"
+        "source_hash": "c2df050c3a92f63bed0648971c03bda15ab1b0e0c207efdd2ebd8d0272a4e238",
+        "source_blob": "afe2b355ee5cc949b6b9278409dd6168db233ffa",
+        "target_hash": "f6bd7c0a3e4aeace94e14549a101f8b3f35d066f04d48dbf2360aa4aca8c0de9",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657036
       },
       "es": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220,
-        "source_hash": "b4985f02c73d6557bf621e777a56ffc661803a47a81375ffdfbc3e5314223357",
-        "source_blob": "63f29a1475b6c0ebfc447f1d36e1e315e72f9e06",
-        "target_hash": "bb628072f8a53ebbe0496b6e542577839ddd29689e313a85b3c00114913c940f"
+        "source_hash": "c2df050c3a92f63bed0648971c03bda15ab1b0e0c207efdd2ebd8d0272a4e238",
+        "source_blob": "afe2b355ee5cc949b6b9278409dd6168db233ffa",
+        "target_hash": "bb628072f8a53ebbe0496b6e542577839ddd29689e313a85b3c00114913c940f",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657036
       },
       "fr": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220,
-        "source_hash": "b4985f02c73d6557bf621e777a56ffc661803a47a81375ffdfbc3e5314223357",
-        "source_blob": "63f29a1475b6c0ebfc447f1d36e1e315e72f9e06",
-        "target_hash": "a0a076e107ef0694804a3a53da15f354bd99e60a593bea0f012c79c5c7cc20fe"
+        "source_hash": "c2df050c3a92f63bed0648971c03bda15ab1b0e0c207efdd2ebd8d0272a4e238",
+        "source_blob": "afe2b355ee5cc949b6b9278409dd6168db233ffa",
+        "target_hash": "a0a076e107ef0694804a3a53da15f354bd99e60a593bea0f012c79c5c7cc20fe",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657036
       },
       "it": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220,
-        "source_hash": "b4985f02c73d6557bf621e777a56ffc661803a47a81375ffdfbc3e5314223357",
-        "source_blob": "63f29a1475b6c0ebfc447f1d36e1e315e72f9e06",
-        "target_hash": "77f31fb7b8df0fbd5c388eeba174b935fa572531f28adebbe41558b3b810aec4"
+        "source_hash": "c2df050c3a92f63bed0648971c03bda15ab1b0e0c207efdd2ebd8d0272a4e238",
+        "source_blob": "afe2b355ee5cc949b6b9278409dd6168db233ffa",
+        "target_hash": "77f31fb7b8df0fbd5c388eeba174b935fa572531f28adebbe41558b3b810aec4",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657036
       },
       "ja": {
-        "source_hash": "b4985f02c73d6557bf621e777a56ffc661803a47a81375ffdfbc3e5314223357",
-        "source_blob": "63f29a1475b6c0ebfc447f1d36e1e315e72f9e06",
+        "source_hash": "c2df050c3a92f63bed0648971c03bda15ab1b0e0c207efdd2ebd8d0272a4e238",
+        "source_blob": "afe2b355ee5cc949b6b9278409dd6168db233ffa",
         "target_hash": "e4157981f6800b3f6124a99f7229a03779838f11bbcc5ffd75966cb0cb166212",
-        "model": "claude-opus-5-5-ja-review",
-        "updated_at": 1792655214
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657036
       },
       "pl": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220,
-        "source_hash": "b4985f02c73d6557bf621e777a56ffc661803a47a81375ffdfbc3e5314223357",
-        "source_blob": "63f29a1475b6c0ebfc447f1d36e1e315e72f9e06",
-        "target_hash": "9d04ff6e32fd6fd97a6fc413b89cdd7e4aabdc95382f833064aa38978e56da1c"
+        "source_hash": "c2df050c3a92f63bed0648971c03bda15ab1b0e0c207efdd2ebd8d0272a4e238",
+        "source_blob": "afe2b355ee5cc949b6b9278409dd6168db233ffa",
+        "target_hash": "9d04ff6e32fd6fd97a6fc413b89cdd7e4aabdc95382f833064aa38978e56da1c",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657036
       },
       "uk": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792143745,
-        "source_hash": "b4985f02c73d6557bf621e777a56ffc661803a47a81375ffdfbc3e5314223357",
-        "source_blob": "63f29a1475b6c0ebfc447f1d36e1e315e72f9e06",
-        "target_hash": "0c4dd905006704408b3f205e89a162a6844a025b9c1a6f2cdfd6ad3f49d4c7dc"
+        "source_hash": "c2df050c3a92f63bed0648971c03bda15ab1b0e0c207efdd2ebd8d0272a4e238",
+        "source_blob": "afe2b355ee5cc949b6b9278409dd6168db233ffa",
+        "target_hash": "0c4dd905006704408b3f205e89a162a6844a025b9c1a6f2cdfd6ad3f49d4c7dc",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657036
       },
       "nl": {
-        "source_hash": "b4985f02c73d6557bf621e777a56ffc661803a47a81375ffdfbc3e5314223357",
-        "source_blob": "63f29a1475b6c0ebfc447f1d36e1e315e72f9e06",
+        "source_hash": "c2df050c3a92f63bed0648971c03bda15ab1b0e0c207efdd2ebd8d0272a4e238",
+        "source_blob": "afe2b355ee5cc949b6b9278409dd6168db233ffa",
         "target_hash": "a17c9d3b3af6b21f905574bfd65e5fe073cb613be3f0ea41ef3b379a63e6a3d7",
-        "model": "gpt-5.6-sol",
-        "updated_at": 1792584245
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657036
       },
       "sv": {
-        "source_hash": "b4985f02c73d6557bf621e777a56ffc661803a47a81375ffdfbc3e5314223357",
-        "source_blob": "63f29a1475b6c0ebfc447f1d36e1e315e72f9e06",
+        "source_hash": "c2df050c3a92f63bed0648971c03bda15ab1b0e0c207efdd2ebd8d0272a4e238",
+        "source_blob": "afe2b355ee5cc949b6b9278409dd6168db233ffa",
         "target_hash": "a10bfee9c19c3b5362de351978a362d8dbb1f5d3b7efb4368b9244460c6677af",
-        "model": "gpt-5.6-sol",
-        "updated_at": 1792583652
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657036
       }
     }
   },
@@ -2749,67 +2749,67 @@
   "docs/en/docs/faq/where_to_find_the_device_id_mac_sn.md": {
     "targets": {
       "de": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220,
-        "source_hash": "7a94cfff31a17078658a3f0e21921acb2abbf4f16a8765123aa1940b22c10968",
-        "source_blob": "89999776cb41169ef7e601c0b286bafd2fdb188f",
-        "target_hash": "3e873a9bf943f676992497535b73695437b5c749180ea2c369b08c299569876a"
+        "source_hash": "628deb65ed7ea2d85bdfb53a4eff0a0d33b2be46e9bac9d8747b8a7fe37017fe",
+        "source_blob": "e168ba0bed93872a5d7bd9a908ec756ef165dbf9",
+        "target_hash": "3e873a9bf943f676992497535b73695437b5c749180ea2c369b08c299569876a",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657037
       },
       "es": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220,
-        "source_hash": "7a94cfff31a17078658a3f0e21921acb2abbf4f16a8765123aa1940b22c10968",
-        "source_blob": "89999776cb41169ef7e601c0b286bafd2fdb188f",
-        "target_hash": "ab3825303273c62e001ec6a4d4206b4504ef814388e9fc2721dac9ce5d03ee92"
+        "source_hash": "628deb65ed7ea2d85bdfb53a4eff0a0d33b2be46e9bac9d8747b8a7fe37017fe",
+        "source_blob": "e168ba0bed93872a5d7bd9a908ec756ef165dbf9",
+        "target_hash": "ab3825303273c62e001ec6a4d4206b4504ef814388e9fc2721dac9ce5d03ee92",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657037
       },
       "fr": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220,
-        "source_hash": "7a94cfff31a17078658a3f0e21921acb2abbf4f16a8765123aa1940b22c10968",
-        "source_blob": "89999776cb41169ef7e601c0b286bafd2fdb188f",
-        "target_hash": "eae7a2bd4bfd7a79811e9c5e3ec2832c6bd9d966c21659a061ec8e87f2e2aead"
+        "source_hash": "628deb65ed7ea2d85bdfb53a4eff0a0d33b2be46e9bac9d8747b8a7fe37017fe",
+        "source_blob": "e168ba0bed93872a5d7bd9a908ec756ef165dbf9",
+        "target_hash": "eae7a2bd4bfd7a79811e9c5e3ec2832c6bd9d966c21659a061ec8e87f2e2aead",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657037
       },
       "it": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220,
-        "source_hash": "7a94cfff31a17078658a3f0e21921acb2abbf4f16a8765123aa1940b22c10968",
-        "source_blob": "89999776cb41169ef7e601c0b286bafd2fdb188f",
-        "target_hash": "9d28332da80d86fb6c06a8dec19889d466731dc5ed5067476c92157464538f38"
+        "source_hash": "628deb65ed7ea2d85bdfb53a4eff0a0d33b2be46e9bac9d8747b8a7fe37017fe",
+        "source_blob": "e168ba0bed93872a5d7bd9a908ec756ef165dbf9",
+        "target_hash": "9d28332da80d86fb6c06a8dec19889d466731dc5ed5067476c92157464538f38",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657037
       },
       "ja": {
-        "source_hash": "7a94cfff31a17078658a3f0e21921acb2abbf4f16a8765123aa1940b22c10968",
-        "source_blob": "89999776cb41169ef7e601c0b286bafd2fdb188f",
+        "source_hash": "628deb65ed7ea2d85bdfb53a4eff0a0d33b2be46e9bac9d8747b8a7fe37017fe",
+        "source_blob": "e168ba0bed93872a5d7bd9a908ec756ef165dbf9",
         "target_hash": "4355a8b848809d23ae0a946d4d7009adeae2a1d958d6a1a52e9ae3ed54a17af7",
-        "model": "claude-opus-5-5-ja-review",
-        "updated_at": 1792655214
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657037
       },
       "pl": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220,
-        "source_hash": "7a94cfff31a17078658a3f0e21921acb2abbf4f16a8765123aa1940b22c10968",
-        "source_blob": "89999776cb41169ef7e601c0b286bafd2fdb188f",
-        "target_hash": "aa0373537c4f0f013452b028f0889a0328c5250f434a43c6be421b59c412e568"
+        "source_hash": "628deb65ed7ea2d85bdfb53a4eff0a0d33b2be46e9bac9d8747b8a7fe37017fe",
+        "source_blob": "e168ba0bed93872a5d7bd9a908ec756ef165dbf9",
+        "target_hash": "aa0373537c4f0f013452b028f0889a0328c5250f434a43c6be421b59c412e568",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657037
       },
       "uk": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792143745,
-        "source_hash": "7a94cfff31a17078658a3f0e21921acb2abbf4f16a8765123aa1940b22c10968",
-        "source_blob": "89999776cb41169ef7e601c0b286bafd2fdb188f",
-        "target_hash": "12836a2008ac1bbcb6a7706de19af4334e0270f62ee4a9f385dacad9ea1ed62c"
+        "source_hash": "628deb65ed7ea2d85bdfb53a4eff0a0d33b2be46e9bac9d8747b8a7fe37017fe",
+        "source_blob": "e168ba0bed93872a5d7bd9a908ec756ef165dbf9",
+        "target_hash": "12836a2008ac1bbcb6a7706de19af4334e0270f62ee4a9f385dacad9ea1ed62c",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657037
       },
       "nl": {
-        "source_hash": "7a94cfff31a17078658a3f0e21921acb2abbf4f16a8765123aa1940b22c10968",
-        "source_blob": "89999776cb41169ef7e601c0b286bafd2fdb188f",
+        "source_hash": "628deb65ed7ea2d85bdfb53a4eff0a0d33b2be46e9bac9d8747b8a7fe37017fe",
+        "source_blob": "e168ba0bed93872a5d7bd9a908ec756ef165dbf9",
         "target_hash": "39cf694f2283a16e98e2eb825cdd62312b93cddb45f8df8e9239d8d2daf5a9ce",
-        "model": "gpt-5.6-sol",
-        "updated_at": 1792584245
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657037
       },
       "sv": {
-        "source_hash": "7a94cfff31a17078658a3f0e21921acb2abbf4f16a8765123aa1940b22c10968",
-        "source_blob": "89999776cb41169ef7e601c0b286bafd2fdb188f",
+        "source_hash": "628deb65ed7ea2d85bdfb53a4eff0a0d33b2be46e9bac9d8747b8a7fe37017fe",
+        "source_blob": "e168ba0bed93872a5d7bd9a908ec756ef165dbf9",
         "target_hash": "482d07a4e43e1bda683b27911d2a1d5fadfb2a8644687e9a617c0094754dce82",
-        "model": "gpt-5.6-sol",
-        "updated_at": 1792583652
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657037
       }
     }
   },
@@ -5563,134 +5563,134 @@
   "docs/en/docs/interface_guide/network_storage.md": {
     "targets": {
       "de": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333,
-        "source_hash": "0f89ff49cf53a35fa09ecd686b2aea12ffa3b4b7351c66bf35ea85e57c8050ba",
-        "source_blob": "7f965cba28d02fddafb16c8a930789a5101da7d5",
-        "target_hash": "89449c526098331c921eb3df04f233222ccf13755d114e5d71f970d8ac382a98"
+        "source_hash": "8ba3550c5cda31cf418f8aed749026f5063a9eedf790d032e455c0fa7b0e6c2b",
+        "source_blob": "523b3399ccc9431c0a042bf18eec6ec0de912206",
+        "target_hash": "89449c526098331c921eb3df04f233222ccf13755d114e5d71f970d8ac382a98",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657038
       },
       "es": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333,
-        "source_hash": "0f89ff49cf53a35fa09ecd686b2aea12ffa3b4b7351c66bf35ea85e57c8050ba",
-        "source_blob": "7f965cba28d02fddafb16c8a930789a5101da7d5",
-        "target_hash": "d44760dbb37910f3a3431dc27eea25f2fe94dfcac9f3ccb457bebe784e34e0d6"
+        "source_hash": "8ba3550c5cda31cf418f8aed749026f5063a9eedf790d032e455c0fa7b0e6c2b",
+        "source_blob": "523b3399ccc9431c0a042bf18eec6ec0de912206",
+        "target_hash": "d44760dbb37910f3a3431dc27eea25f2fe94dfcac9f3ccb457bebe784e34e0d6",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657038
       },
       "fr": {
-        "source_hash": "0f89ff49cf53a35fa09ecd686b2aea12ffa3b4b7351c66bf35ea85e57c8050ba",
-        "source_blob": "7f965cba28d02fddafb16c8a930789a5101da7d5",
+        "source_hash": "8ba3550c5cda31cf418f8aed749026f5063a9eedf790d032e455c0fa7b0e6c2b",
+        "source_blob": "523b3399ccc9431c0a042bf18eec6ec0de912206",
         "target_hash": "1e0bfa4580d83e0f7d7918396bce1f7c18c009d726ff0779d6e39ce765ed5333",
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792567823
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657038
       },
       "it": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792546921,
-        "source_hash": "0f89ff49cf53a35fa09ecd686b2aea12ffa3b4b7351c66bf35ea85e57c8050ba",
-        "source_blob": "7f965cba28d02fddafb16c8a930789a5101da7d5",
-        "target_hash": "924259e1bb1cc1918da2c12180c1302add43ebec9a33c8ce80e134fd589ec356"
+        "source_hash": "8ba3550c5cda31cf418f8aed749026f5063a9eedf790d032e455c0fa7b0e6c2b",
+        "source_blob": "523b3399ccc9431c0a042bf18eec6ec0de912206",
+        "target_hash": "924259e1bb1cc1918da2c12180c1302add43ebec9a33c8ce80e134fd589ec356",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657038
       },
       "ja": {
-        "source_hash": "0f89ff49cf53a35fa09ecd686b2aea12ffa3b4b7351c66bf35ea85e57c8050ba",
-        "source_blob": "7f965cba28d02fddafb16c8a930789a5101da7d5",
+        "source_hash": "8ba3550c5cda31cf418f8aed749026f5063a9eedf790d032e455c0fa7b0e6c2b",
+        "source_blob": "523b3399ccc9431c0a042bf18eec6ec0de912206",
         "target_hash": "4db324a532f242e0c5fcc9fc73417ffc4fb2c326be059f078c3169d7f87599b4",
-        "model": "claude-opus-5-5-ja-review",
-        "updated_at": 1792655214
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657038
       },
       "pl": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333,
-        "source_hash": "0f89ff49cf53a35fa09ecd686b2aea12ffa3b4b7351c66bf35ea85e57c8050ba",
-        "source_blob": "7f965cba28d02fddafb16c8a930789a5101da7d5",
-        "target_hash": "4511d29377cc205c8ad22ae1d313b51cfeff1bc6bfdd076d2aa26be3055b6568"
+        "source_hash": "8ba3550c5cda31cf418f8aed749026f5063a9eedf790d032e455c0fa7b0e6c2b",
+        "source_blob": "523b3399ccc9431c0a042bf18eec6ec0de912206",
+        "target_hash": "4511d29377cc205c8ad22ae1d313b51cfeff1bc6bfdd076d2aa26be3055b6568",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657038
       },
       "uk": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792143745,
-        "source_hash": "0f89ff49cf53a35fa09ecd686b2aea12ffa3b4b7351c66bf35ea85e57c8050ba",
-        "source_blob": "7f965cba28d02fddafb16c8a930789a5101da7d5",
-        "target_hash": "19489bae0c7520d4c2abb4a1f37ae90108d65533fe11740fa317e4607c905420"
+        "source_hash": "8ba3550c5cda31cf418f8aed749026f5063a9eedf790d032e455c0fa7b0e6c2b",
+        "source_blob": "523b3399ccc9431c0a042bf18eec6ec0de912206",
+        "target_hash": "19489bae0c7520d4c2abb4a1f37ae90108d65533fe11740fa317e4607c905420",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657038
       },
       "nl": {
-        "source_hash": "0f89ff49cf53a35fa09ecd686b2aea12ffa3b4b7351c66bf35ea85e57c8050ba",
-        "source_blob": "7f965cba28d02fddafb16c8a930789a5101da7d5",
+        "source_hash": "8ba3550c5cda31cf418f8aed749026f5063a9eedf790d032e455c0fa7b0e6c2b",
+        "source_blob": "523b3399ccc9431c0a042bf18eec6ec0de912206",
         "target_hash": "4640540c3fa87dc85b53656e3cb40b90bbc4b4f92bc71d807475500d5ad2f4f6",
-        "model": "gpt-5.6-sol",
-        "updated_at": 1792584238
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657038
       },
       "sv": {
-        "source_hash": "0f89ff49cf53a35fa09ecd686b2aea12ffa3b4b7351c66bf35ea85e57c8050ba",
-        "source_blob": "7f965cba28d02fddafb16c8a930789a5101da7d5",
+        "source_hash": "8ba3550c5cda31cf418f8aed749026f5063a9eedf790d032e455c0fa7b0e6c2b",
+        "source_blob": "523b3399ccc9431c0a042bf18eec6ec0de912206",
         "target_hash": "da567d3ff527ffac2329e037cd18c9693a45ac0bbe3f2bf6b9adb2b1f2f2fbcd",
-        "model": "gpt-5.6-sol",
-        "updated_at": 1792584238
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657038
       }
     }
   },
   "docs/en/docs/interface_guide/openvpn_client.md": {
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036,
-        "source_hash": "f6c91c5058a342bc1fef1f3f660542bf25499df1e4c480dac25cf5a09028af3b",
-        "source_blob": "dcadf1dbc4dbdcfac39c41f4008915202c4feee3",
-        "target_hash": "cc8076fe469f623e323c3222ba54bf775ed869eeb9ad2b769a4b48583dce2912"
+        "source_hash": "af8db5ecf5848b747203d1c939fd43dc7133379803018b80d3a7d824c02931f1",
+        "source_blob": "67da999912b916d7b49e9759e3dd1fafa018de54",
+        "target_hash": "c29d500a58d075b463ccc84244041a1dc6a7c20f50a54f06705b581a7aeab5a9",
+        "model": "typo-fix",
+        "updated_at": 1792657040
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036,
-        "source_hash": "f6c91c5058a342bc1fef1f3f660542bf25499df1e4c480dac25cf5a09028af3b",
-        "source_blob": "dcadf1dbc4dbdcfac39c41f4008915202c4feee3",
-        "target_hash": "798f2d76d43bdc46d5140f50882a65acb3f0f773a2d4519e1d94e221647e7570"
+        "source_hash": "af8db5ecf5848b747203d1c939fd43dc7133379803018b80d3a7d824c02931f1",
+        "source_blob": "67da999912b916d7b49e9759e3dd1fafa018de54",
+        "target_hash": "0bf9de9fd97306bc994b9c869e838fe6b8ffdbe67e6ee8cf01a19cc2602807c3",
+        "model": "typo-fix",
+        "updated_at": 1792657040
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036,
-        "source_hash": "f6c91c5058a342bc1fef1f3f660542bf25499df1e4c480dac25cf5a09028af3b",
-        "source_blob": "dcadf1dbc4dbdcfac39c41f4008915202c4feee3",
-        "target_hash": "cf4b65e1462329c588611f1a30875dbbc88100d56788d59216666d2696284131"
+        "source_hash": "af8db5ecf5848b747203d1c939fd43dc7133379803018b80d3a7d824c02931f1",
+        "source_blob": "67da999912b916d7b49e9759e3dd1fafa018de54",
+        "target_hash": "b37ab21933e2fac67c0806a062634c56c5ab60528a99e2b460e52a88f8ef24f2",
+        "model": "typo-fix",
+        "updated_at": 1792657040
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036,
-        "source_hash": "f6c91c5058a342bc1fef1f3f660542bf25499df1e4c480dac25cf5a09028af3b",
-        "source_blob": "dcadf1dbc4dbdcfac39c41f4008915202c4feee3",
-        "target_hash": "89f98cdf2c271e3b0b0f63ff09a0b7c85c424bce5c040e2d2859c91fe40526f0"
+        "source_hash": "af8db5ecf5848b747203d1c939fd43dc7133379803018b80d3a7d824c02931f1",
+        "source_blob": "67da999912b916d7b49e9759e3dd1fafa018de54",
+        "target_hash": "58db751d78d5d7c265177c116151649cdf439a343ced26585d8a0fba08a19b82",
+        "model": "typo-fix",
+        "updated_at": 1792657040
       },
       "ja": {
-        "source_hash": "f6c91c5058a342bc1fef1f3f660542bf25499df1e4c480dac25cf5a09028af3b",
-        "source_blob": "dcadf1dbc4dbdcfac39c41f4008915202c4feee3",
-        "target_hash": "1beb11996766869cab04f8c7a29e896606cdaa8fa36295ff84a7d7e1e73304a1",
-        "model": "claude-opus-5-5-ja-review",
-        "updated_at": 1792655214
+        "source_hash": "af8db5ecf5848b747203d1c939fd43dc7133379803018b80d3a7d824c02931f1",
+        "source_blob": "67da999912b916d7b49e9759e3dd1fafa018de54",
+        "target_hash": "41f96f4dd448de498cf7f588b75849e3fffdb9b9a72c3134de231e0f488f9e9f",
+        "model": "typo-fix",
+        "updated_at": 1792657040
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036,
-        "source_hash": "f6c91c5058a342bc1fef1f3f660542bf25499df1e4c480dac25cf5a09028af3b",
-        "source_blob": "dcadf1dbc4dbdcfac39c41f4008915202c4feee3",
-        "target_hash": "ebf1846d99e10989a2085b2f5a774c294b3bbfd94b5cfc32fd2bae483001dae0"
+        "source_hash": "af8db5ecf5848b747203d1c939fd43dc7133379803018b80d3a7d824c02931f1",
+        "source_blob": "67da999912b916d7b49e9759e3dd1fafa018de54",
+        "target_hash": "78c0b384be6a04581548758fb2888892e53dc1e9ecdbf2108c71c9a9502b6bc8",
+        "model": "typo-fix",
+        "updated_at": 1792657040
       },
       "uk": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792143745,
-        "source_hash": "f6c91c5058a342bc1fef1f3f660542bf25499df1e4c480dac25cf5a09028af3b",
-        "source_blob": "dcadf1dbc4dbdcfac39c41f4008915202c4feee3",
-        "target_hash": "afce5c0a163bb04fe6c3648a8af1882c03ad8121a458750873a243d5d712103c"
+        "source_hash": "af8db5ecf5848b747203d1c939fd43dc7133379803018b80d3a7d824c02931f1",
+        "source_blob": "67da999912b916d7b49e9759e3dd1fafa018de54",
+        "target_hash": "afce5c0a163bb04fe6c3648a8af1882c03ad8121a458750873a243d5d712103c",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657041
       },
       "nl": {
-        "source_hash": "f6c91c5058a342bc1fef1f3f660542bf25499df1e4c480dac25cf5a09028af3b",
-        "source_blob": "dcadf1dbc4dbdcfac39c41f4008915202c4feee3",
-        "target_hash": "33aec266edd771a91d0592ebd408df1e43facd313c5c6ee2b9fc39c38abe28ff",
-        "model": "gpt-5.6-sol",
-        "updated_at": 1792584238
+        "source_hash": "af8db5ecf5848b747203d1c939fd43dc7133379803018b80d3a7d824c02931f1",
+        "source_blob": "67da999912b916d7b49e9759e3dd1fafa018de54",
+        "target_hash": "18a99aa97adc9ca56c09b740c282b6d65d6e1f453695b15c6364e72afa964bb7",
+        "model": "typo-fix",
+        "updated_at": 1792657040
       },
       "sv": {
-        "source_hash": "f6c91c5058a342bc1fef1f3f660542bf25499df1e4c480dac25cf5a09028af3b",
-        "source_blob": "dcadf1dbc4dbdcfac39c41f4008915202c4feee3",
-        "target_hash": "7f9b4f5f0c2b3ff34ce64e02395a441a667ef24de7c11350e7d8f1ebf4a4bd60",
-        "model": "gpt-5.6-sol",
-        "updated_at": 1792584238
+        "source_hash": "af8db5ecf5848b747203d1c939fd43dc7133379803018b80d3a7d824c02931f1",
+        "source_blob": "67da999912b916d7b49e9759e3dd1fafa018de54",
+        "target_hash": "a8872ed0f7d3aa4cf2329a807d99893694a5cc799421498356ab5ec55b9ac3da",
+        "model": "typo-fix",
+        "updated_at": 1792657040
       }
     }
   },
@@ -7439,134 +7439,134 @@
   "docs/en/docs/tutorials/build_your_own_wireguard_home_server_with_two_glinet_routers.md": {
     "targets": {
       "de": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
-        "source_hash": "05e5868b45f360b5f81f4ff15348c8144e580599fa87b476a2512499ebc18e72",
-        "source_blob": "99cc098bb18ca87526594cadb278ff244ccc0361",
-        "target_hash": "5b2d272b531246d673624683916a263fc8d5aceefe7bc0a35c94d24c115ee619"
+        "source_hash": "3d9931731f72e11236f350dab97d24d00de67c4abca7c194932cd5fbb038d18f",
+        "source_blob": "877509e2893b1b2d2eece35eb411987c4d8d610b",
+        "target_hash": "5b2d272b531246d673624683916a263fc8d5aceefe7bc0a35c94d24c115ee619",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657041
       },
       "es": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
-        "source_hash": "05e5868b45f360b5f81f4ff15348c8144e580599fa87b476a2512499ebc18e72",
-        "source_blob": "99cc098bb18ca87526594cadb278ff244ccc0361",
-        "target_hash": "8509f4d8e8562a04f13d6f2e4cc0c5d1cec8341a365629775f08568502997cde"
+        "source_hash": "3d9931731f72e11236f350dab97d24d00de67c4abca7c194932cd5fbb038d18f",
+        "source_blob": "877509e2893b1b2d2eece35eb411987c4d8d610b",
+        "target_hash": "8509f4d8e8562a04f13d6f2e4cc0c5d1cec8341a365629775f08568502997cde",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657041
       },
       "fr": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
-        "source_hash": "05e5868b45f360b5f81f4ff15348c8144e580599fa87b476a2512499ebc18e72",
-        "source_blob": "99cc098bb18ca87526594cadb278ff244ccc0361",
-        "target_hash": "edb3982fc097ba546d2d20ba069833aeebdb534b0dd4ac57d24c54da94394be8"
+        "source_hash": "3d9931731f72e11236f350dab97d24d00de67c4abca7c194932cd5fbb038d18f",
+        "source_blob": "877509e2893b1b2d2eece35eb411987c4d8d610b",
+        "target_hash": "edb3982fc097ba546d2d20ba069833aeebdb534b0dd4ac57d24c54da94394be8",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657041
       },
       "it": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792546921,
-        "source_hash": "05e5868b45f360b5f81f4ff15348c8144e580599fa87b476a2512499ebc18e72",
-        "source_blob": "99cc098bb18ca87526594cadb278ff244ccc0361",
-        "target_hash": "9fef5b2429e71c05a38b0df14755ca557c38d00dde8d72a7c871be810347b901"
+        "source_hash": "3d9931731f72e11236f350dab97d24d00de67c4abca7c194932cd5fbb038d18f",
+        "source_blob": "877509e2893b1b2d2eece35eb411987c4d8d610b",
+        "target_hash": "9fef5b2429e71c05a38b0df14755ca557c38d00dde8d72a7c871be810347b901",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657041
       },
       "ja": {
-        "source_hash": "05e5868b45f360b5f81f4ff15348c8144e580599fa87b476a2512499ebc18e72",
-        "source_blob": "99cc098bb18ca87526594cadb278ff244ccc0361",
+        "source_hash": "3d9931731f72e11236f350dab97d24d00de67c4abca7c194932cd5fbb038d18f",
+        "source_blob": "877509e2893b1b2d2eece35eb411987c4d8d610b",
         "target_hash": "b37dd0fcdaa4ff1f26ece90535e185c96f4b90eddf6b71c68421b5b6baafaf3c",
-        "model": "claude-opus-5-5-ja-review",
-        "updated_at": 1792655214
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657041
       },
       "pl": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
-        "source_hash": "05e5868b45f360b5f81f4ff15348c8144e580599fa87b476a2512499ebc18e72",
-        "source_blob": "99cc098bb18ca87526594cadb278ff244ccc0361",
-        "target_hash": "e4f2e5bef044411b0ded1752ee1d7bf93cb6c149714dc1e0841cb6b1c8780e84"
+        "source_hash": "3d9931731f72e11236f350dab97d24d00de67c4abca7c194932cd5fbb038d18f",
+        "source_blob": "877509e2893b1b2d2eece35eb411987c4d8d610b",
+        "target_hash": "e4f2e5bef044411b0ded1752ee1d7bf93cb6c149714dc1e0841cb6b1c8780e84",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657041
       },
       "uk": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
-        "source_hash": "05e5868b45f360b5f81f4ff15348c8144e580599fa87b476a2512499ebc18e72",
-        "source_blob": "99cc098bb18ca87526594cadb278ff244ccc0361",
-        "target_hash": "f912537ab2e34a37790b77e3bda44c3d5e71dbf554b8bed065e19a4f720eb07a"
+        "source_hash": "3d9931731f72e11236f350dab97d24d00de67c4abca7c194932cd5fbb038d18f",
+        "source_blob": "877509e2893b1b2d2eece35eb411987c4d8d610b",
+        "target_hash": "f912537ab2e34a37790b77e3bda44c3d5e71dbf554b8bed065e19a4f720eb07a",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657041
       },
       "nl": {
-        "source_hash": "05e5868b45f360b5f81f4ff15348c8144e580599fa87b476a2512499ebc18e72",
-        "source_blob": "99cc098bb18ca87526594cadb278ff244ccc0361",
+        "source_hash": "3d9931731f72e11236f350dab97d24d00de67c4abca7c194932cd5fbb038d18f",
+        "source_blob": "877509e2893b1b2d2eece35eb411987c4d8d610b",
         "target_hash": "4b78c7d0f765e607344213626ca963968922240b6896f2af948c7e9bb37ba5d7",
-        "model": "gpt-5.6-sol",
-        "updated_at": 1792584248
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657041
       },
       "sv": {
-        "source_hash": "05e5868b45f360b5f81f4ff15348c8144e580599fa87b476a2512499ebc18e72",
-        "source_blob": "99cc098bb18ca87526594cadb278ff244ccc0361",
+        "source_hash": "3d9931731f72e11236f350dab97d24d00de67c4abca7c194932cd5fbb038d18f",
+        "source_blob": "877509e2893b1b2d2eece35eb411987c4d8d610b",
         "target_hash": "a42f3d0768726a962839b5a425548477d5ce538527b2e1bdb3eb811e65751704",
-        "model": "gpt-5.6-sol",
-        "updated_at": 1792584248
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657041
       }
     }
   },
   "docs/en/docs/tutorials/configure_dual_ethernet_wan.md": {
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801,
-        "source_hash": "9a63d811e48a0380cfe90f9eda511bdeb0a272e111389ab53ffce2b79fcef027",
-        "source_blob": "fa1b08e60a7ceb46f08bfb1b087d3a049f395e3b",
-        "target_hash": "30dbbca5701b0900b5f7c79a279add3bb02d4ec968fea6fd209fc1226c53e8db"
+        "source_hash": "647dfa25bf6788c678b1e40088d19a0d47006d664e26286a5dca178a3067932f",
+        "source_blob": "c527e534ed785cc2ef8ebd353120fccd9a4ca433",
+        "target_hash": "4feb92c2f7082338ded992c6791e8853d423472b54f0efff7cfd2942ea6e2f5c",
+        "model": "typo-fix",
+        "updated_at": 1792657042
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1773902571,
-        "source_hash": "9a63d811e48a0380cfe90f9eda511bdeb0a272e111389ab53ffce2b79fcef027",
-        "source_blob": "fa1b08e60a7ceb46f08bfb1b087d3a049f395e3b",
-        "target_hash": "20ed4e439726c3cdf4b19cc87de5ee2c7dc00392ab2daf33c52226b865aedc41"
+        "source_hash": "647dfa25bf6788c678b1e40088d19a0d47006d664e26286a5dca178a3067932f",
+        "source_blob": "c527e534ed785cc2ef8ebd353120fccd9a4ca433",
+        "target_hash": "68438d4486dcd24b8b66b52e196dacc58e50064d46143f340dc3150016468ec5",
+        "model": "typo-fix",
+        "updated_at": 1792657042
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141,
-        "source_hash": "9a63d811e48a0380cfe90f9eda511bdeb0a272e111389ab53ffce2b79fcef027",
-        "source_blob": "fa1b08e60a7ceb46f08bfb1b087d3a049f395e3b",
-        "target_hash": "7a11156be7a791568ebbdff4b46a278937fef6334b258fca4db7bf99915f5d2e"
+        "source_hash": "647dfa25bf6788c678b1e40088d19a0d47006d664e26286a5dca178a3067932f",
+        "source_blob": "c527e534ed785cc2ef8ebd353120fccd9a4ca433",
+        "target_hash": "8c5e9f235f0c8e7a78c581f6804085e66db9a05a1dca7362c0924db0eda8a96c",
+        "model": "typo-fix",
+        "updated_at": 1792657042
       },
       "it": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792546921,
-        "source_hash": "9a63d811e48a0380cfe90f9eda511bdeb0a272e111389ab53ffce2b79fcef027",
-        "source_blob": "fa1b08e60a7ceb46f08bfb1b087d3a049f395e3b",
-        "target_hash": "223652f2e66d40348703660f740f51a7bf8953dd9ac1b0908b584f48ae4571e1"
+        "source_hash": "647dfa25bf6788c678b1e40088d19a0d47006d664e26286a5dca178a3067932f",
+        "source_blob": "c527e534ed785cc2ef8ebd353120fccd9a4ca433",
+        "target_hash": "f4c29abc76b84bebfc019dd0e2c18413960bf09087f6ca0f0ed2b20fec1be74b",
+        "model": "typo-fix",
+        "updated_at": 1792657042
       },
       "ja": {
-        "source_hash": "9a63d811e48a0380cfe90f9eda511bdeb0a272e111389ab53ffce2b79fcef027",
-        "source_blob": "fa1b08e60a7ceb46f08bfb1b087d3a049f395e3b",
-        "target_hash": "7471ceb4acf01554206f644ec63ac0a75e47d405e672d8131e2e74742b918427",
-        "model": "claude-opus-5-5-ja-review",
-        "updated_at": 1792655214
+        "source_hash": "647dfa25bf6788c678b1e40088d19a0d47006d664e26286a5dca178a3067932f",
+        "source_blob": "c527e534ed785cc2ef8ebd353120fccd9a4ca433",
+        "target_hash": "d4a0b371350d026054107d8a84792382cbc7485fe406b99e84d7526275dd7e5d",
+        "model": "typo-fix",
+        "updated_at": 1792657042
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775606750,
-        "source_hash": "9a63d811e48a0380cfe90f9eda511bdeb0a272e111389ab53ffce2b79fcef027",
-        "source_blob": "fa1b08e60a7ceb46f08bfb1b087d3a049f395e3b",
-        "target_hash": "ed06b9a9d47f1b45ccadbaf55ecc065af84fa3081d3bc4868ad3ea1e66f5dfa2"
+        "source_hash": "647dfa25bf6788c678b1e40088d19a0d47006d664e26286a5dca178a3067932f",
+        "source_blob": "c527e534ed785cc2ef8ebd353120fccd9a4ca433",
+        "target_hash": "dd15de4acff06474bbf349c6df6263efa92643b695b9409010313b2df16edcf3",
+        "model": "typo-fix",
+        "updated_at": 1792657042
       },
       "uk": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792143745,
-        "source_hash": "9a63d811e48a0380cfe90f9eda511bdeb0a272e111389ab53ffce2b79fcef027",
-        "source_blob": "fa1b08e60a7ceb46f08bfb1b087d3a049f395e3b",
-        "target_hash": "bac7ff9359e175a81aa3d23fc95a01769bee0fef58cb604b19ff72d869d3e7ab"
+        "source_hash": "647dfa25bf6788c678b1e40088d19a0d47006d664e26286a5dca178a3067932f",
+        "source_blob": "c527e534ed785cc2ef8ebd353120fccd9a4ca433",
+        "target_hash": "bac7ff9359e175a81aa3d23fc95a01769bee0fef58cb604b19ff72d869d3e7ab",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657042
       },
       "nl": {
-        "source_hash": "9a63d811e48a0380cfe90f9eda511bdeb0a272e111389ab53ffce2b79fcef027",
-        "source_blob": "fa1b08e60a7ceb46f08bfb1b087d3a049f395e3b",
-        "target_hash": "dfca0c27bca3967d1165c8bd91442285c51205bb3f040b73cf195b4b6cfa2e69",
-        "model": "gpt-5.6-sol",
-        "updated_at": 1792584248
+        "source_hash": "647dfa25bf6788c678b1e40088d19a0d47006d664e26286a5dca178a3067932f",
+        "source_blob": "c527e534ed785cc2ef8ebd353120fccd9a4ca433",
+        "target_hash": "e3607a4a070c702e59ce3c849a89de2a408d2ef6807360bb29e8321f8e6d3755",
+        "model": "typo-fix",
+        "updated_at": 1792657042
       },
       "sv": {
-        "source_hash": "9a63d811e48a0380cfe90f9eda511bdeb0a272e111389ab53ffce2b79fcef027",
-        "source_blob": "fa1b08e60a7ceb46f08bfb1b087d3a049f395e3b",
-        "target_hash": "1ad75fb5a603fcc20f145465edb8d558542c5fc4ec24a541ed11d3c635fe9778",
-        "model": "gpt-5.6-sol",
-        "updated_at": 1792583654
+        "source_hash": "647dfa25bf6788c678b1e40088d19a0d47006d664e26286a5dca178a3067932f",
+        "source_blob": "c527e534ed785cc2ef8ebd353120fccd9a4ca433",
+        "target_hash": "90cbf3426ac409778995944f98f5ff7f86027898af38d79712b8cb75a06a921a",
+        "model": "typo-fix",
+        "updated_at": 1792657042
       }
     }
   },
@@ -8109,67 +8109,67 @@
   "docs/en/docs/tutorials/how_to_change_the_nat_type_on_gaming.md": {
     "targets": {
       "de": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
-        "source_hash": "b66493af2be2c6ca1a9dc8922fd18659b291b4ea4e991adfa83ec763a3870675",
-        "source_blob": "8d157b770fde4230925fcf088ce57034403fbe21",
-        "target_hash": "88c4ed95693742781085a2dbb101808aba8aee8a0b5d01e1a11870777614ae97"
+        "source_hash": "2980ca964da62e55e6644785cd79ee300be6db6fd5e494b582e780713ecc471b",
+        "source_blob": "1c1efe70e21cf279371c594ea99c5a50895b5991",
+        "target_hash": "88c4ed95693742781085a2dbb101808aba8aee8a0b5d01e1a11870777614ae97",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657043
       },
       "es": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
-        "source_hash": "b66493af2be2c6ca1a9dc8922fd18659b291b4ea4e991adfa83ec763a3870675",
-        "source_blob": "8d157b770fde4230925fcf088ce57034403fbe21",
-        "target_hash": "6bf422810ec39bc58ba0944bf2d95f76553d602d309cab89bda0f75ea8cd0909"
+        "source_hash": "2980ca964da62e55e6644785cd79ee300be6db6fd5e494b582e780713ecc471b",
+        "source_blob": "1c1efe70e21cf279371c594ea99c5a50895b5991",
+        "target_hash": "6bf422810ec39bc58ba0944bf2d95f76553d602d309cab89bda0f75ea8cd0909",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657043
       },
       "fr": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
-        "source_hash": "b66493af2be2c6ca1a9dc8922fd18659b291b4ea4e991adfa83ec763a3870675",
-        "source_blob": "8d157b770fde4230925fcf088ce57034403fbe21",
-        "target_hash": "15e20c7a1ae331b01feb44958536bf7f9e578cc8e3e85400cdce73cf3220b26f"
+        "source_hash": "2980ca964da62e55e6644785cd79ee300be6db6fd5e494b582e780713ecc471b",
+        "source_blob": "1c1efe70e21cf279371c594ea99c5a50895b5991",
+        "target_hash": "15e20c7a1ae331b01feb44958536bf7f9e578cc8e3e85400cdce73cf3220b26f",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657043
       },
       "it": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792546921,
-        "source_hash": "b66493af2be2c6ca1a9dc8922fd18659b291b4ea4e991adfa83ec763a3870675",
-        "source_blob": "8d157b770fde4230925fcf088ce57034403fbe21",
-        "target_hash": "537b827d8f050474e17e7c0d2c4bcbbfaa9b05ccf52ed612de7a3cfed845bf18"
+        "source_hash": "2980ca964da62e55e6644785cd79ee300be6db6fd5e494b582e780713ecc471b",
+        "source_blob": "1c1efe70e21cf279371c594ea99c5a50895b5991",
+        "target_hash": "537b827d8f050474e17e7c0d2c4bcbbfaa9b05ccf52ed612de7a3cfed845bf18",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657043
       },
       "ja": {
-        "source_hash": "b66493af2be2c6ca1a9dc8922fd18659b291b4ea4e991adfa83ec763a3870675",
-        "source_blob": "8d157b770fde4230925fcf088ce57034403fbe21",
+        "source_hash": "2980ca964da62e55e6644785cd79ee300be6db6fd5e494b582e780713ecc471b",
+        "source_blob": "1c1efe70e21cf279371c594ea99c5a50895b5991",
         "target_hash": "e53ce14d99759fe7b4730c48961ce054783642aa295d6fdc335a676ee4ed7a7e",
-        "model": "claude-opus-5-5-ja-review",
-        "updated_at": 1792655214
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657043
       },
       "pl": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
-        "source_hash": "b66493af2be2c6ca1a9dc8922fd18659b291b4ea4e991adfa83ec763a3870675",
-        "source_blob": "8d157b770fde4230925fcf088ce57034403fbe21",
-        "target_hash": "d98e86d4424148081242aa653b73c0550b2fa0fdae3f62af527a92d8e0b9038a"
+        "source_hash": "2980ca964da62e55e6644785cd79ee300be6db6fd5e494b582e780713ecc471b",
+        "source_blob": "1c1efe70e21cf279371c594ea99c5a50895b5991",
+        "target_hash": "d98e86d4424148081242aa653b73c0550b2fa0fdae3f62af527a92d8e0b9038a",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657043
       },
       "uk": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
-        "source_hash": "b66493af2be2c6ca1a9dc8922fd18659b291b4ea4e991adfa83ec763a3870675",
-        "source_blob": "8d157b770fde4230925fcf088ce57034403fbe21",
-        "target_hash": "3a4152c9b3c5bef46a36c06fa9e9c475cce2e08aa0ada541ffa08ad31dee4224"
+        "source_hash": "2980ca964da62e55e6644785cd79ee300be6db6fd5e494b582e780713ecc471b",
+        "source_blob": "1c1efe70e21cf279371c594ea99c5a50895b5991",
+        "target_hash": "3a4152c9b3c5bef46a36c06fa9e9c475cce2e08aa0ada541ffa08ad31dee4224",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657043
       },
       "nl": {
-        "source_hash": "b66493af2be2c6ca1a9dc8922fd18659b291b4ea4e991adfa83ec763a3870675",
-        "source_blob": "8d157b770fde4230925fcf088ce57034403fbe21",
+        "source_hash": "2980ca964da62e55e6644785cd79ee300be6db6fd5e494b582e780713ecc471b",
+        "source_blob": "1c1efe70e21cf279371c594ea99c5a50895b5991",
         "target_hash": "44f08a852bf6e9f67e07409e7ca3377cbfc9ac4642dacddee048774863c55f45",
-        "model": "gpt-5.6-sol",
-        "updated_at": 1792583654
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657043
       },
       "sv": {
-        "source_hash": "b66493af2be2c6ca1a9dc8922fd18659b291b4ea4e991adfa83ec763a3870675",
-        "source_blob": "8d157b770fde4230925fcf088ce57034403fbe21",
+        "source_hash": "2980ca964da62e55e6644785cd79ee300be6db6fd5e494b582e780713ecc471b",
+        "source_blob": "1c1efe70e21cf279371c594ea99c5a50895b5991",
         "target_hash": "7fd92e8ce23cc3f2e3440e755106c4b0104c7b70543e147bfd32c4a6ce2b043b",
-        "model": "gpt-5.6-sol",
-        "updated_at": 1792583654
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657043
       }
     }
   },
@@ -8243,67 +8243,67 @@
   "docs/en/docs/tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md": {
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1784884582,
-        "source_hash": "7c09477b92602eefd5d231c50e09416a835f4e7c029441f7c6cafee3d8c9aaed",
-        "source_blob": "dd5222bc238530da801eca5e1dd93b9e214c9c8b",
-        "target_hash": "7a5a7483d556044bdd9f8bc6a5ec3404f209b9cccd2419c8a3fb923ee1069bd1"
+        "source_hash": "8acabfb57630db4f5e341c494686591450dcbdfe7e2bac27f3724e92504a1aa2",
+        "source_blob": "68f4b3b2f1d1c7c75ffd79b08e1dbb6a6be6a508",
+        "target_hash": "7a5a7483d556044bdd9f8bc6a5ec3404f209b9cccd2419c8a3fb923ee1069bd1",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657044
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1784884582,
-        "source_hash": "7c09477b92602eefd5d231c50e09416a835f4e7c029441f7c6cafee3d8c9aaed",
-        "source_blob": "dd5222bc238530da801eca5e1dd93b9e214c9c8b",
-        "target_hash": "44a640689bb1c17bc70081fb5fab60f1e0d2d22e238b6e31ba6af0eab530855b"
+        "source_hash": "8acabfb57630db4f5e341c494686591450dcbdfe7e2bac27f3724e92504a1aa2",
+        "source_blob": "68f4b3b2f1d1c7c75ffd79b08e1dbb6a6be6a508",
+        "target_hash": "44a640689bb1c17bc70081fb5fab60f1e0d2d22e238b6e31ba6af0eab530855b",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657044
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1784884582,
-        "source_hash": "7c09477b92602eefd5d231c50e09416a835f4e7c029441f7c6cafee3d8c9aaed",
-        "source_blob": "dd5222bc238530da801eca5e1dd93b9e214c9c8b",
-        "target_hash": "ed5901db9e5342f72da15b47a8cdcd05855185c31651eb6f6a93a4c504fb713a"
+        "source_hash": "8acabfb57630db4f5e341c494686591450dcbdfe7e2bac27f3724e92504a1aa2",
+        "source_blob": "68f4b3b2f1d1c7c75ffd79b08e1dbb6a6be6a508",
+        "target_hash": "ed5901db9e5342f72da15b47a8cdcd05855185c31651eb6f6a93a4c504fb713a",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657044
       },
       "it": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792546921,
-        "source_hash": "7c09477b92602eefd5d231c50e09416a835f4e7c029441f7c6cafee3d8c9aaed",
-        "source_blob": "dd5222bc238530da801eca5e1dd93b9e214c9c8b",
-        "target_hash": "702cbde926c99e97ff068ce3fc32928ee067876ca0a7b9195936160d6bb4f630"
+        "source_hash": "8acabfb57630db4f5e341c494686591450dcbdfe7e2bac27f3724e92504a1aa2",
+        "source_blob": "68f4b3b2f1d1c7c75ffd79b08e1dbb6a6be6a508",
+        "target_hash": "702cbde926c99e97ff068ce3fc32928ee067876ca0a7b9195936160d6bb4f630",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657044
       },
       "ja": {
-        "source_hash": "7c09477b92602eefd5d231c50e09416a835f4e7c029441f7c6cafee3d8c9aaed",
-        "source_blob": "dd5222bc238530da801eca5e1dd93b9e214c9c8b",
+        "source_hash": "8acabfb57630db4f5e341c494686591450dcbdfe7e2bac27f3724e92504a1aa2",
+        "source_blob": "68f4b3b2f1d1c7c75ffd79b08e1dbb6a6be6a508",
         "target_hash": "fa82a0b580dafd0f6a759470019ad4405b355aa3f7383ba43e16a9bdeb2e7146",
-        "model": "claude-opus-5-5-ja-review",
-        "updated_at": 1792655214
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657044
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1784884582,
-        "source_hash": "7c09477b92602eefd5d231c50e09416a835f4e7c029441f7c6cafee3d8c9aaed",
-        "source_blob": "dd5222bc238530da801eca5e1dd93b9e214c9c8b",
-        "target_hash": "7841ad01a30553d7368d40c21922a4f6a677f64ab8652bba1b519bbff4505a34"
+        "source_hash": "8acabfb57630db4f5e341c494686591450dcbdfe7e2bac27f3724e92504a1aa2",
+        "source_blob": "68f4b3b2f1d1c7c75ffd79b08e1dbb6a6be6a508",
+        "target_hash": "7841ad01a30553d7368d40c21922a4f6a677f64ab8652bba1b519bbff4505a34",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657044
       },
       "uk": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792143745,
-        "source_hash": "7c09477b92602eefd5d231c50e09416a835f4e7c029441f7c6cafee3d8c9aaed",
-        "source_blob": "dd5222bc238530da801eca5e1dd93b9e214c9c8b",
-        "target_hash": "4d567a7f0461170247c1de9c5ef5c54802a1d4254ede5d0ef13c31388e345e98"
+        "source_hash": "8acabfb57630db4f5e341c494686591450dcbdfe7e2bac27f3724e92504a1aa2",
+        "source_blob": "68f4b3b2f1d1c7c75ffd79b08e1dbb6a6be6a508",
+        "target_hash": "4d567a7f0461170247c1de9c5ef5c54802a1d4254ede5d0ef13c31388e345e98",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657044
       },
       "nl": {
-        "source_hash": "7c09477b92602eefd5d231c50e09416a835f4e7c029441f7c6cafee3d8c9aaed",
-        "source_blob": "dd5222bc238530da801eca5e1dd93b9e214c9c8b",
+        "source_hash": "8acabfb57630db4f5e341c494686591450dcbdfe7e2bac27f3724e92504a1aa2",
+        "source_blob": "68f4b3b2f1d1c7c75ffd79b08e1dbb6a6be6a508",
         "target_hash": "73ab64645a6fb419d875a1427fb0d7a5e2d95f728cd4b69651c40f8cdb77e7ea",
-        "model": "gpt-5.6-sol",
-        "updated_at": 1792584248
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657044
       },
       "sv": {
-        "source_hash": "7c09477b92602eefd5d231c50e09416a835f4e7c029441f7c6cafee3d8c9aaed",
-        "source_blob": "dd5222bc238530da801eca5e1dd93b9e214c9c8b",
+        "source_hash": "8acabfb57630db4f5e341c494686591450dcbdfe7e2bac27f3724e92504a1aa2",
+        "source_blob": "68f4b3b2f1d1c7c75ffd79b08e1dbb6a6be6a508",
         "target_hash": "f3024db038430b05418ece5bea950abca7e96d432a5cdc0b95537279b4294a6a",
-        "model": "gpt-5.6-sol",
-        "updated_at": 1792583654
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657044
       }
     }
   },
@@ -8578,67 +8578,67 @@
   "docs/en/docs/tutorials/how_to_get_configuration_files_from_wireguard_service_providers.md": {
     "targets": {
       "de": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
-        "source_hash": "5414c30f1dfeef3fc27f688c5a00b2e14733af7de7a61c4c135ce81f36cf5190",
-        "source_blob": "96818481d2d966812d7e370d8539b5ed6f5440ee",
-        "target_hash": "d8516520e13d27797ee9db845b6a3c0fdd62391d976255571b85f1c674f43774"
+        "source_hash": "0ed69e52bacf9a671a04ca6dac73663e814103df08d9ab155fa374bf32b3cc1d",
+        "source_blob": "79e917ad751c94fb90e1272d1db98c461769a11f",
+        "target_hash": "d8516520e13d27797ee9db845b6a3c0fdd62391d976255571b85f1c674f43774",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657044
       },
       "es": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
-        "source_hash": "5414c30f1dfeef3fc27f688c5a00b2e14733af7de7a61c4c135ce81f36cf5190",
-        "source_blob": "96818481d2d966812d7e370d8539b5ed6f5440ee",
-        "target_hash": "e836259fbc4498eee175d178c56bd6a1b3cbac75db810b0214a6021bd8c94e44"
+        "source_hash": "0ed69e52bacf9a671a04ca6dac73663e814103df08d9ab155fa374bf32b3cc1d",
+        "source_blob": "79e917ad751c94fb90e1272d1db98c461769a11f",
+        "target_hash": "e836259fbc4498eee175d178c56bd6a1b3cbac75db810b0214a6021bd8c94e44",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657044
       },
       "fr": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
-        "source_hash": "5414c30f1dfeef3fc27f688c5a00b2e14733af7de7a61c4c135ce81f36cf5190",
-        "source_blob": "96818481d2d966812d7e370d8539b5ed6f5440ee",
-        "target_hash": "2194b394f2b0088719a71d782b3c21a1300c42ef6c882e3ed707971b819a5dd4"
+        "source_hash": "0ed69e52bacf9a671a04ca6dac73663e814103df08d9ab155fa374bf32b3cc1d",
+        "source_blob": "79e917ad751c94fb90e1272d1db98c461769a11f",
+        "target_hash": "2194b394f2b0088719a71d782b3c21a1300c42ef6c882e3ed707971b819a5dd4",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657044
       },
       "it": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792546921,
-        "source_hash": "5414c30f1dfeef3fc27f688c5a00b2e14733af7de7a61c4c135ce81f36cf5190",
-        "source_blob": "96818481d2d966812d7e370d8539b5ed6f5440ee",
-        "target_hash": "23b4143e96df553787da4c3a7123e9c642b62b2341243e39dcebc1d06dbc86f3"
+        "source_hash": "0ed69e52bacf9a671a04ca6dac73663e814103df08d9ab155fa374bf32b3cc1d",
+        "source_blob": "79e917ad751c94fb90e1272d1db98c461769a11f",
+        "target_hash": "23b4143e96df553787da4c3a7123e9c642b62b2341243e39dcebc1d06dbc86f3",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657044
       },
       "ja": {
-        "source_hash": "5414c30f1dfeef3fc27f688c5a00b2e14733af7de7a61c4c135ce81f36cf5190",
-        "source_blob": "96818481d2d966812d7e370d8539b5ed6f5440ee",
+        "source_hash": "0ed69e52bacf9a671a04ca6dac73663e814103df08d9ab155fa374bf32b3cc1d",
+        "source_blob": "79e917ad751c94fb90e1272d1db98c461769a11f",
         "target_hash": "85b5376fcbbf7003f9f42a2729bcedb9a39c6b588e864a2ee7f2b4e647299943",
-        "model": "claude-opus-5-5-ja-review",
-        "updated_at": 1792655214
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657044
       },
       "pl": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
-        "source_hash": "5414c30f1dfeef3fc27f688c5a00b2e14733af7de7a61c4c135ce81f36cf5190",
-        "source_blob": "96818481d2d966812d7e370d8539b5ed6f5440ee",
-        "target_hash": "7bce11ef0ead6dff2aa75daf5ac99cc8413557b7268ac69a64111dece4dce68c"
+        "source_hash": "0ed69e52bacf9a671a04ca6dac73663e814103df08d9ab155fa374bf32b3cc1d",
+        "source_blob": "79e917ad751c94fb90e1272d1db98c461769a11f",
+        "target_hash": "7bce11ef0ead6dff2aa75daf5ac99cc8413557b7268ac69a64111dece4dce68c",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657044
       },
       "uk": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
-        "source_hash": "5414c30f1dfeef3fc27f688c5a00b2e14733af7de7a61c4c135ce81f36cf5190",
-        "source_blob": "96818481d2d966812d7e370d8539b5ed6f5440ee",
-        "target_hash": "d5e8617573e79a739a0e6a54450c64aa0de749cbebcfcd2ac89ed092f5a74388"
+        "source_hash": "0ed69e52bacf9a671a04ca6dac73663e814103df08d9ab155fa374bf32b3cc1d",
+        "source_blob": "79e917ad751c94fb90e1272d1db98c461769a11f",
+        "target_hash": "d5e8617573e79a739a0e6a54450c64aa0de749cbebcfcd2ac89ed092f5a74388",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657044
       },
       "nl": {
-        "source_hash": "5414c30f1dfeef3fc27f688c5a00b2e14733af7de7a61c4c135ce81f36cf5190",
-        "source_blob": "96818481d2d966812d7e370d8539b5ed6f5440ee",
+        "source_hash": "0ed69e52bacf9a671a04ca6dac73663e814103df08d9ab155fa374bf32b3cc1d",
+        "source_blob": "79e917ad751c94fb90e1272d1db98c461769a11f",
         "target_hash": "c39e32d61c812558c627227464fc48a05ea95d181db44371a6a157463b0013df",
-        "model": "gpt-5.6-sol",
-        "updated_at": 1792584248
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657044
       },
       "sv": {
-        "source_hash": "5414c30f1dfeef3fc27f688c5a00b2e14733af7de7a61c4c135ce81f36cf5190",
-        "source_blob": "96818481d2d966812d7e370d8539b5ed6f5440ee",
+        "source_hash": "0ed69e52bacf9a671a04ca6dac73663e814103df08d9ab155fa374bf32b3cc1d",
+        "source_blob": "79e917ad751c94fb90e1272d1db98c461769a11f",
         "target_hash": "40c7aec83f0e10c8b069b48aa05077c0fc18b7deeaabe77ddd907eaa7043cadc",
-        "model": "gpt-5.6-sol",
-        "updated_at": 1792584248
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657044
       }
     }
   },
@@ -9047,67 +9047,67 @@
   "docs/en/docs/tutorials/how_to_set_up_drop_in_gateway.md": {
     "targets": {
       "de": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333,
-        "source_hash": "372ac74d208e14be68a9f7b2ac980fef058b29e845a49ddab2e3312b970d6eff",
-        "source_blob": "43fbe12852a8aef64904b01bff9967aa0f1cbe8f",
-        "target_hash": "3fd8ce4559924b30e984ff7f95d4bdc980b770d95b0186a561c4e6fd543023e4"
+        "source_hash": "c452219f19adc9afd3427e6df6346dd784fcf5a910d5067f5a37e00b4a656ba8",
+        "source_blob": "4c41e04b1791695f5f46a7cbab17a39beb3eb258",
+        "target_hash": "3fd8ce4559924b30e984ff7f95d4bdc980b770d95b0186a561c4e6fd543023e4",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657047
       },
       "es": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792143662,
-        "source_hash": "372ac74d208e14be68a9f7b2ac980fef058b29e845a49ddab2e3312b970d6eff",
-        "source_blob": "43fbe12852a8aef64904b01bff9967aa0f1cbe8f",
-        "target_hash": "9ef56c5dd368e28de5e5b6f45030d2ebd8f79378bd899938eaf0489d924c02a5"
+        "source_hash": "c452219f19adc9afd3427e6df6346dd784fcf5a910d5067f5a37e00b4a656ba8",
+        "source_blob": "4c41e04b1791695f5f46a7cbab17a39beb3eb258",
+        "target_hash": "9ef56c5dd368e28de5e5b6f45030d2ebd8f79378bd899938eaf0489d924c02a5",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657047
       },
       "fr": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333,
-        "source_hash": "372ac74d208e14be68a9f7b2ac980fef058b29e845a49ddab2e3312b970d6eff",
-        "source_blob": "43fbe12852a8aef64904b01bff9967aa0f1cbe8f",
-        "target_hash": "1650a51cb8b221fbb8ab69cea0e4664d3536aa14f315b2e560a9140810f30c00"
+        "source_hash": "c452219f19adc9afd3427e6df6346dd784fcf5a910d5067f5a37e00b4a656ba8",
+        "source_blob": "4c41e04b1791695f5f46a7cbab17a39beb3eb258",
+        "target_hash": "083aee7a0285974fb3e67b25d53a71900d5b0a0a25203576d79fb997c8e1c4ba",
+        "model": "typo-fix",
+        "updated_at": 1792657047
       },
       "it": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792546921,
-        "source_hash": "372ac74d208e14be68a9f7b2ac980fef058b29e845a49ddab2e3312b970d6eff",
-        "source_blob": "43fbe12852a8aef64904b01bff9967aa0f1cbe8f",
-        "target_hash": "2b4e3c9cd129351129580c5c8452a9d068075d9d3b188fc5b76c8ca1587e4566"
+        "source_hash": "c452219f19adc9afd3427e6df6346dd784fcf5a910d5067f5a37e00b4a656ba8",
+        "source_blob": "4c41e04b1791695f5f46a7cbab17a39beb3eb258",
+        "target_hash": "1bdc8c24ec280861853da8501d43e5c5f5ac33551b878e71500743edc00fd3a3",
+        "model": "typo-fix",
+        "updated_at": 1792657047
       },
       "ja": {
-        "source_hash": "372ac74d208e14be68a9f7b2ac980fef058b29e845a49ddab2e3312b970d6eff",
-        "source_blob": "43fbe12852a8aef64904b01bff9967aa0f1cbe8f",
+        "source_hash": "c452219f19adc9afd3427e6df6346dd784fcf5a910d5067f5a37e00b4a656ba8",
+        "source_blob": "4c41e04b1791695f5f46a7cbab17a39beb3eb258",
         "target_hash": "04bc0b0e8d251f35a754a107e245e767ed06e9c61d930c3cfa1848750bedc1a8",
-        "model": "claude-opus-5-5-ja-review",
-        "updated_at": 1792655214
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657047
       },
       "pl": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333,
-        "source_hash": "372ac74d208e14be68a9f7b2ac980fef058b29e845a49ddab2e3312b970d6eff",
-        "source_blob": "43fbe12852a8aef64904b01bff9967aa0f1cbe8f",
-        "target_hash": "98c8346e1c7703046d6aa16885f4f290e4251d17284b01d18f389cd5d981f691"
+        "source_hash": "c452219f19adc9afd3427e6df6346dd784fcf5a910d5067f5a37e00b4a656ba8",
+        "source_blob": "4c41e04b1791695f5f46a7cbab17a39beb3eb258",
+        "target_hash": "98c8346e1c7703046d6aa16885f4f290e4251d17284b01d18f389cd5d981f691",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657047
       },
       "uk": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792143745,
-        "source_hash": "372ac74d208e14be68a9f7b2ac980fef058b29e845a49ddab2e3312b970d6eff",
-        "source_blob": "43fbe12852a8aef64904b01bff9967aa0f1cbe8f",
-        "target_hash": "78237283e7750a8555b1e58873ea23ecf32139bf120c217280b1af1477d30d1a"
+        "source_hash": "c452219f19adc9afd3427e6df6346dd784fcf5a910d5067f5a37e00b4a656ba8",
+        "source_blob": "4c41e04b1791695f5f46a7cbab17a39beb3eb258",
+        "target_hash": "78237283e7750a8555b1e58873ea23ecf32139bf120c217280b1af1477d30d1a",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657047
       },
       "nl": {
-        "source_hash": "372ac74d208e14be68a9f7b2ac980fef058b29e845a49ddab2e3312b970d6eff",
-        "source_blob": "43fbe12852a8aef64904b01bff9967aa0f1cbe8f",
-        "target_hash": "07111db2468d756ad512349a7ec58bc849b22f158499a4eb05b846297a99fc67",
-        "model": "gpt-5.6-sol",
-        "updated_at": 1792584248
+        "source_hash": "c452219f19adc9afd3427e6df6346dd784fcf5a910d5067f5a37e00b4a656ba8",
+        "source_blob": "4c41e04b1791695f5f46a7cbab17a39beb3eb258",
+        "target_hash": "d966d0e11071bbcc2023e30d3aef1dfd7a39d19394690e053da23c37d75b101b",
+        "model": "typo-fix",
+        "updated_at": 1792657047
       },
       "sv": {
-        "source_hash": "372ac74d208e14be68a9f7b2ac980fef058b29e845a49ddab2e3312b970d6eff",
-        "source_blob": "43fbe12852a8aef64904b01bff9967aa0f1cbe8f",
+        "source_hash": "c452219f19adc9afd3427e6df6346dd784fcf5a910d5067f5a37e00b4a656ba8",
+        "source_blob": "4c41e04b1791695f5f46a7cbab17a39beb3eb258",
         "target_hash": "ce94d9f47c681a9894366adbd0f1ab2431ba99edd66f7e032478967f3b5dada3",
-        "model": "gpt-5.6-sol",
-        "updated_at": 1792584248
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657047
       }
     }
   },
@@ -10186,134 +10186,134 @@
   "docs/en/docs/tutorials/technical_support_via_goodcloud.md": {
     "targets": {
       "de": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792552594,
-        "source_hash": "6a105ec83c67c88785fab3d7764c9f4ee6a2956d8d5c005675d664a3b20914cb",
-        "source_blob": "b4c8c7c47b4e7297f7bed6f14348aaa95b6c35a5",
-        "target_hash": "07e3419ba320b75301b7e1a0a39205a89fd99535c14ef2deef2f77dbf2b5371a"
+        "source_hash": "f6235c12980ab87ae595cef058aabb06aa835ef0a91157360f205737e13777bb",
+        "source_blob": "c047de36d25b7afbf91c9a9cf8d951b041ec5a88",
+        "target_hash": "07e3419ba320b75301b7e1a0a39205a89fd99535c14ef2deef2f77dbf2b5371a",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657048
       },
       "es": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792552594,
-        "source_hash": "6a105ec83c67c88785fab3d7764c9f4ee6a2956d8d5c005675d664a3b20914cb",
-        "source_blob": "b4c8c7c47b4e7297f7bed6f14348aaa95b6c35a5",
-        "target_hash": "1cffa34c00883bfb4956d63e7ac32e7e269aaebf6fb87ea5ec1f78c3b92c29bc"
+        "source_hash": "f6235c12980ab87ae595cef058aabb06aa835ef0a91157360f205737e13777bb",
+        "source_blob": "c047de36d25b7afbf91c9a9cf8d951b041ec5a88",
+        "target_hash": "1cffa34c00883bfb4956d63e7ac32e7e269aaebf6fb87ea5ec1f78c3b92c29bc",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657048
       },
       "fr": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792552594,
-        "source_hash": "6a105ec83c67c88785fab3d7764c9f4ee6a2956d8d5c005675d664a3b20914cb",
-        "source_blob": "b4c8c7c47b4e7297f7bed6f14348aaa95b6c35a5",
-        "target_hash": "90254c91248df413e1fa1d756fa56228403aa94bd98303e310e59c11d4aa9a1c"
+        "source_hash": "f6235c12980ab87ae595cef058aabb06aa835ef0a91157360f205737e13777bb",
+        "source_blob": "c047de36d25b7afbf91c9a9cf8d951b041ec5a88",
+        "target_hash": "90254c91248df413e1fa1d756fa56228403aa94bd98303e310e59c11d4aa9a1c",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657048
       },
       "it": {
-        "source_hash": "6a105ec83c67c88785fab3d7764c9f4ee6a2956d8d5c005675d664a3b20914cb",
-        "source_blob": "b4c8c7c47b4e7297f7bed6f14348aaa95b6c35a5",
+        "source_hash": "f6235c12980ab87ae595cef058aabb06aa835ef0a91157360f205737e13777bb",
+        "source_blob": "c047de36d25b7afbf91c9a9cf8d951b041ec5a88",
         "target_hash": "3e9bd4a82a419bd0d58fcd721a7b0d677549d6070ceb3cbac61419fb458ce7c5",
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792567824
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657048
       },
       "ja": {
-        "source_hash": "6a105ec83c67c88785fab3d7764c9f4ee6a2956d8d5c005675d664a3b20914cb",
-        "source_blob": "b4c8c7c47b4e7297f7bed6f14348aaa95b6c35a5",
+        "source_hash": "f6235c12980ab87ae595cef058aabb06aa835ef0a91157360f205737e13777bb",
+        "source_blob": "c047de36d25b7afbf91c9a9cf8d951b041ec5a88",
         "target_hash": "8a47b85a0ff85157901a130398a2bc6cb0bc1c4bf46ead4633738a673c9e560a",
-        "model": "claude-opus-5-5-ja-review",
-        "updated_at": 1792655214
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657048
       },
       "pl": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792552594,
-        "source_hash": "6a105ec83c67c88785fab3d7764c9f4ee6a2956d8d5c005675d664a3b20914cb",
-        "source_blob": "b4c8c7c47b4e7297f7bed6f14348aaa95b6c35a5",
-        "target_hash": "97015fb33ec584e8faf7b03596bbdfd0cc39325d0b4ac9327c34c1e39dbccf34"
+        "source_hash": "f6235c12980ab87ae595cef058aabb06aa835ef0a91157360f205737e13777bb",
+        "source_blob": "c047de36d25b7afbf91c9a9cf8d951b041ec5a88",
+        "target_hash": "97015fb33ec584e8faf7b03596bbdfd0cc39325d0b4ac9327c34c1e39dbccf34",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657048
       },
       "uk": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792552594,
-        "source_hash": "6a105ec83c67c88785fab3d7764c9f4ee6a2956d8d5c005675d664a3b20914cb",
-        "source_blob": "b4c8c7c47b4e7297f7bed6f14348aaa95b6c35a5",
-        "target_hash": "5f4addc8d147443a062c8061bd3012e321b8a2a2a7bc536c02f543cc91d64805"
+        "source_hash": "f6235c12980ab87ae595cef058aabb06aa835ef0a91157360f205737e13777bb",
+        "source_blob": "c047de36d25b7afbf91c9a9cf8d951b041ec5a88",
+        "target_hash": "5f4addc8d147443a062c8061bd3012e321b8a2a2a7bc536c02f543cc91d64805",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657048
       },
       "nl": {
-        "source_hash": "6a105ec83c67c88785fab3d7764c9f4ee6a2956d8d5c005675d664a3b20914cb",
-        "source_blob": "b4c8c7c47b4e7297f7bed6f14348aaa95b6c35a5",
+        "source_hash": "f6235c12980ab87ae595cef058aabb06aa835ef0a91157360f205737e13777bb",
+        "source_blob": "c047de36d25b7afbf91c9a9cf8d951b041ec5a88",
         "target_hash": "77d6d5fd72fb01e1e7e269101f24f2b2d77da8af18814a203600e840459a4b6a",
-        "model": "gpt-5.6-sol",
-        "updated_at": 1792584248
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657048
       },
       "sv": {
-        "source_hash": "6a105ec83c67c88785fab3d7764c9f4ee6a2956d8d5c005675d664a3b20914cb",
-        "source_blob": "b4c8c7c47b4e7297f7bed6f14348aaa95b6c35a5",
+        "source_hash": "f6235c12980ab87ae595cef058aabb06aa835ef0a91157360f205737e13777bb",
+        "source_blob": "c047de36d25b7afbf91c9a9cf8d951b041ec5a88",
         "target_hash": "86cd42402e1937a228780db431db49767eada6ffb18b3d1708001d360552f5c5",
-        "model": "gpt-5.6-sol",
-        "updated_at": 1792584248
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657048
       }
     }
   },
   "docs/en/docs/tutorials/upgrade_quectel_module_software.md": {
     "targets": {
       "de": {
-        "source_hash": "52d43750ef8b56de19b94e13ca00e08909adef1256ec41c990f24e2a00411544",
-        "source_blob": "b9bacdf570074905826789ef2c7574d406ef666f",
-        "target_hash": "46953f4df9fa5077018c24d407cd98c602c1a3f12dcd5534f9c76ba4e99da49f",
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792565157
+        "source_hash": "e3ed842a6f4ea448b2f689e17d5d8ceba4d5ff12ad36e7e6609c4664335d81aa",
+        "source_blob": "cdf99ff5d0423177d262f18b90ec99f499b057c5",
+        "target_hash": "4c2fc641061fb693499111548db516db80fd8d9bccce911ef8733f535c7d56ca",
+        "model": "typo-fix",
+        "updated_at": 1792658280
       },
       "es": {
-        "source_hash": "52d43750ef8b56de19b94e13ca00e08909adef1256ec41c990f24e2a00411544",
-        "source_blob": "b9bacdf570074905826789ef2c7574d406ef666f",
-        "target_hash": "d8a55322c0ff6ddb34fc241f4a0a9c655915deb68ed4c594525d3b34f0c39753",
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792565157
+        "source_hash": "e3ed842a6f4ea448b2f689e17d5d8ceba4d5ff12ad36e7e6609c4664335d81aa",
+        "source_blob": "cdf99ff5d0423177d262f18b90ec99f499b057c5",
+        "target_hash": "25c70aacc854366bff2ee24796335b3f4d6c07527132900d3fcefed89ab61fef",
+        "model": "typo-fix",
+        "updated_at": 1792658280
       },
       "fr": {
-        "source_hash": "52d43750ef8b56de19b94e13ca00e08909adef1256ec41c990f24e2a00411544",
-        "source_blob": "b9bacdf570074905826789ef2c7574d406ef666f",
-        "target_hash": "b61ad91e7cbc8dfeaa94a8917985195ddbbb6c6d991a70082e2579416d8352d9",
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792567823
+        "source_hash": "e3ed842a6f4ea448b2f689e17d5d8ceba4d5ff12ad36e7e6609c4664335d81aa",
+        "source_blob": "cdf99ff5d0423177d262f18b90ec99f499b057c5",
+        "target_hash": "1e32eb8ba54a1ac0ddfc9180315c2fc7dcd96825337e5aeda7b3e8e48a3632de",
+        "model": "typo-fix",
+        "updated_at": 1792658280
       },
       "it": {
-        "source_hash": "52d43750ef8b56de19b94e13ca00e08909adef1256ec41c990f24e2a00411544",
-        "source_blob": "b9bacdf570074905826789ef2c7574d406ef666f",
-        "target_hash": "90c30e2c479bfc6c22a81f63dc3db42bfbc24dda49f236ec2c2d9c08246538bf",
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792565157
+        "source_hash": "e3ed842a6f4ea448b2f689e17d5d8ceba4d5ff12ad36e7e6609c4664335d81aa",
+        "source_blob": "cdf99ff5d0423177d262f18b90ec99f499b057c5",
+        "target_hash": "e586a2e798a107c33ecccd25293adc39e9bb4c2e0bef4ba825856f99fd634265",
+        "model": "typo-fix",
+        "updated_at": 1792658280
       },
       "ja": {
-        "source_hash": "52d43750ef8b56de19b94e13ca00e08909adef1256ec41c990f24e2a00411544",
-        "source_blob": "b9bacdf570074905826789ef2c7574d406ef666f",
-        "target_hash": "81a53a496dc373c2e1eaa76dccbab3a23699286f1f4c0092d76a6f7346225175",
-        "model": "claude-opus-5-5-ja-review",
-        "updated_at": 1792655214
+        "source_hash": "e3ed842a6f4ea448b2f689e17d5d8ceba4d5ff12ad36e7e6609c4664335d81aa",
+        "source_blob": "cdf99ff5d0423177d262f18b90ec99f499b057c5",
+        "target_hash": "2e4179ccda62330de842ee59488804f0d4f2df09e968e4275de77144442d505d",
+        "model": "typo-fix",
+        "updated_at": 1792658280
       },
       "pl": {
-        "source_hash": "52d43750ef8b56de19b94e13ca00e08909adef1256ec41c990f24e2a00411544",
-        "source_blob": "b9bacdf570074905826789ef2c7574d406ef666f",
-        "target_hash": "a48bb5d17ea5ad0ad35a51fdbd24a7acb212b226966e7449663a2e58d6558d76",
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792565157
+        "source_hash": "e3ed842a6f4ea448b2f689e17d5d8ceba4d5ff12ad36e7e6609c4664335d81aa",
+        "source_blob": "cdf99ff5d0423177d262f18b90ec99f499b057c5",
+        "target_hash": "3db203779c6a4cc0a09ac89c3f327e2f345f2a1cbf494a624d45ec73043ab6aa",
+        "model": "typo-fix",
+        "updated_at": 1792658280
       },
       "uk": {
-        "source_hash": "52d43750ef8b56de19b94e13ca00e08909adef1256ec41c990f24e2a00411544",
-        "source_blob": "b9bacdf570074905826789ef2c7574d406ef666f",
-        "target_hash": "64bfd68c6adcd58b99956b38db57fd1318ce3f5c8a544c52223fba9f2378d151",
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792565157
+        "source_hash": "e3ed842a6f4ea448b2f689e17d5d8ceba4d5ff12ad36e7e6609c4664335d81aa",
+        "source_blob": "cdf99ff5d0423177d262f18b90ec99f499b057c5",
+        "target_hash": "081a188a65e8b8ee75004ddafe9c5ac8c97063f4778034542adbd5981b0ff827",
+        "model": "typo-fix",
+        "updated_at": 1792658280
       },
       "nl": {
-        "source_hash": "52d43750ef8b56de19b94e13ca00e08909adef1256ec41c990f24e2a00411544",
-        "source_blob": "b9bacdf570074905826789ef2c7574d406ef666f",
-        "target_hash": "73c089078842e69817a40f30c20b34e1c06cb3b52e7e4d3830e365bdee2c6324",
-        "model": "gpt-5.6-sol",
-        "updated_at": 1792584248
+        "source_hash": "e3ed842a6f4ea448b2f689e17d5d8ceba4d5ff12ad36e7e6609c4664335d81aa",
+        "source_blob": "cdf99ff5d0423177d262f18b90ec99f499b057c5",
+        "target_hash": "69e0a129d74c28c4a8b729d6c7771d70055e84098b88cb51a0ce1310abcf8e6f",
+        "model": "typo-fix",
+        "updated_at": 1792658280
       },
       "sv": {
-        "source_hash": "52d43750ef8b56de19b94e13ca00e08909adef1256ec41c990f24e2a00411544",
-        "source_blob": "b9bacdf570074905826789ef2c7574d406ef666f",
-        "target_hash": "9b637ffa8530fbcc99f22d600980949c0bf4d4ccf47ed747eb83fd898a5e3462",
-        "model": "gpt-5.6-sol",
-        "updated_at": 1792584248
+        "source_hash": "e3ed842a6f4ea448b2f689e17d5d8ceba4d5ff12ad36e7e6609c4664335d81aa",
+        "source_blob": "cdf99ff5d0423177d262f18b90ec99f499b057c5",
+        "target_hash": "78869093f8b34c9cb0a3d2e73d8d64f8879d6732267f0b03db9a339c3a2aecda",
+        "model": "typo-fix",
+        "updated_at": 1792658280
       }
     }
   },
@@ -10655,67 +10655,67 @@
   "docs/en/docs/user_guide/gl-ar750/index.md": {
     "targets": {
       "de": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333,
-        "source_hash": "b544c3b953ad94e90c2ec3b9d118aa3d3c23340de80600d4774f4a964e85a333",
-        "source_blob": "04d9a60f279c19792580550052100569acc5f5f5",
-        "target_hash": "f9d6dd0cd3bbb1c984aba9ae097248249e01e692c135aab3f35c4aecdbf6ab13"
+        "source_hash": "9e7d6bb237a515765613ce8307496358b3a320c922aff52a1d43470745176b4f",
+        "source_blob": "2f0cceb6adb8cbc75bbb41af8cd2b599aaaf8f72",
+        "target_hash": "f9d6dd0cd3bbb1c984aba9ae097248249e01e692c135aab3f35c4aecdbf6ab13",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657049
       },
       "es": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333,
-        "source_hash": "b544c3b953ad94e90c2ec3b9d118aa3d3c23340de80600d4774f4a964e85a333",
-        "source_blob": "04d9a60f279c19792580550052100569acc5f5f5",
-        "target_hash": "e930067024b159589c12761eeca57fb24e296da60dade4e3625c4e6e4cac91f7"
+        "source_hash": "9e7d6bb237a515765613ce8307496358b3a320c922aff52a1d43470745176b4f",
+        "source_blob": "2f0cceb6adb8cbc75bbb41af8cd2b599aaaf8f72",
+        "target_hash": "e930067024b159589c12761eeca57fb24e296da60dade4e3625c4e6e4cac91f7",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657049
       },
       "fr": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333,
-        "source_hash": "b544c3b953ad94e90c2ec3b9d118aa3d3c23340de80600d4774f4a964e85a333",
-        "source_blob": "04d9a60f279c19792580550052100569acc5f5f5",
-        "target_hash": "3dece314721fa59521fe8bad20dde5c76926c20a7c45221ce52e4ef1455fb8d0"
+        "source_hash": "9e7d6bb237a515765613ce8307496358b3a320c922aff52a1d43470745176b4f",
+        "source_blob": "2f0cceb6adb8cbc75bbb41af8cd2b599aaaf8f72",
+        "target_hash": "3dece314721fa59521fe8bad20dde5c76926c20a7c45221ce52e4ef1455fb8d0",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657049
       },
       "it": {
-        "source_hash": "b544c3b953ad94e90c2ec3b9d118aa3d3c23340de80600d4774f4a964e85a333",
-        "source_blob": "04d9a60f279c19792580550052100569acc5f5f5",
+        "source_hash": "9e7d6bb237a515765613ce8307496358b3a320c922aff52a1d43470745176b4f",
+        "source_blob": "2f0cceb6adb8cbc75bbb41af8cd2b599aaaf8f72",
         "target_hash": "b540f45341273f77081941939a28b1a0a7425197a33d1143d7ac6c65b53c9f63",
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792567824
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657049
       },
       "ja": {
-        "source_hash": "b544c3b953ad94e90c2ec3b9d118aa3d3c23340de80600d4774f4a964e85a333",
-        "source_blob": "04d9a60f279c19792580550052100569acc5f5f5",
+        "source_hash": "9e7d6bb237a515765613ce8307496358b3a320c922aff52a1d43470745176b4f",
+        "source_blob": "2f0cceb6adb8cbc75bbb41af8cd2b599aaaf8f72",
         "target_hash": "ecd4026aa209e42430a8746d0bbea2c5adf6df28dbe551ae08bc76588ca0b259",
-        "model": "claude-opus-5-5-ja-review",
-        "updated_at": 1792655214
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657049
       },
       "pl": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333,
-        "source_hash": "b544c3b953ad94e90c2ec3b9d118aa3d3c23340de80600d4774f4a964e85a333",
-        "source_blob": "04d9a60f279c19792580550052100569acc5f5f5",
-        "target_hash": "3bb4a2304ffae5116071f61a419ced74430728e3d6f9de8d9ea1b0b09bc4290a"
+        "source_hash": "9e7d6bb237a515765613ce8307496358b3a320c922aff52a1d43470745176b4f",
+        "source_blob": "2f0cceb6adb8cbc75bbb41af8cd2b599aaaf8f72",
+        "target_hash": "3bb4a2304ffae5116071f61a419ced74430728e3d6f9de8d9ea1b0b09bc4290a",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657049
       },
       "uk": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792143745,
-        "source_hash": "b544c3b953ad94e90c2ec3b9d118aa3d3c23340de80600d4774f4a964e85a333",
-        "source_blob": "04d9a60f279c19792580550052100569acc5f5f5",
-        "target_hash": "b9edf61abc38249384369e11a308007540e38340fbb8381322864815e203e8c0"
+        "source_hash": "9e7d6bb237a515765613ce8307496358b3a320c922aff52a1d43470745176b4f",
+        "source_blob": "2f0cceb6adb8cbc75bbb41af8cd2b599aaaf8f72",
+        "target_hash": "b9edf61abc38249384369e11a308007540e38340fbb8381322864815e203e8c0",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657049
       },
       "nl": {
-        "source_hash": "b544c3b953ad94e90c2ec3b9d118aa3d3c23340de80600d4774f4a964e85a333",
-        "source_blob": "04d9a60f279c19792580550052100569acc5f5f5",
+        "source_hash": "9e7d6bb237a515765613ce8307496358b3a320c922aff52a1d43470745176b4f",
+        "source_blob": "2f0cceb6adb8cbc75bbb41af8cd2b599aaaf8f72",
         "target_hash": "38fbf5dc371e71ad81d7e2058a0b77e784801a48d446daa32d083f532531a482",
-        "model": "gpt-5.6-sol",
-        "updated_at": 1792584233
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657049
       },
       "sv": {
-        "source_hash": "b544c3b953ad94e90c2ec3b9d118aa3d3c23340de80600d4774f4a964e85a333",
-        "source_blob": "04d9a60f279c19792580550052100569acc5f5f5",
+        "source_hash": "9e7d6bb237a515765613ce8307496358b3a320c922aff52a1d43470745176b4f",
+        "source_blob": "2f0cceb6adb8cbc75bbb41af8cd2b599aaaf8f72",
         "target_hash": "3f0137bcfdb4151b1082bff05111b87752f51759ce2674cbc591203816ae83b0",
-        "model": "gpt-5.6-sol",
-        "updated_at": 1792584233
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657049
       }
     }
   },
@@ -11124,67 +11124,67 @@
   "docs/en/docs/user_guide/gl-be3600/index.md": {
     "targets": {
       "de": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
-        "source_hash": "2cb5fa89b0a1cd4e47ca4c9baa818ec0b50645c895d0039069e7986b381898f4",
-        "source_blob": "3a520424342e51a16e4a6ce0635b5504abe06335",
-        "target_hash": "def05bb041e9e45316932855f3a6a91fe3e63ef5dd1f8f3114a90682b98ab675"
+        "source_hash": "5325d097b476841f25da56a3d8b58d02d43aa2785259917cb287686dbe6136c5",
+        "source_blob": "d606bb9fe7d04a885c2041de3bd0eb906396880b",
+        "target_hash": "def05bb041e9e45316932855f3a6a91fe3e63ef5dd1f8f3114a90682b98ab675",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657051
       },
       "es": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
-        "source_hash": "2cb5fa89b0a1cd4e47ca4c9baa818ec0b50645c895d0039069e7986b381898f4",
-        "source_blob": "3a520424342e51a16e4a6ce0635b5504abe06335",
-        "target_hash": "f916737990ea673e40e9dbc089a17c60865f43163a39e7dc195ca6f0da3f0c06"
+        "source_hash": "5325d097b476841f25da56a3d8b58d02d43aa2785259917cb287686dbe6136c5",
+        "source_blob": "d606bb9fe7d04a885c2041de3bd0eb906396880b",
+        "target_hash": "f916737990ea673e40e9dbc089a17c60865f43163a39e7dc195ca6f0da3f0c06",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657051
       },
       "fr": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
-        "source_hash": "2cb5fa89b0a1cd4e47ca4c9baa818ec0b50645c895d0039069e7986b381898f4",
-        "source_blob": "3a520424342e51a16e4a6ce0635b5504abe06335",
-        "target_hash": "2c4390eaa2bd7bd37bb0189001411fa7e976998d5299c5d55a0c609a54cb9edd"
+        "source_hash": "5325d097b476841f25da56a3d8b58d02d43aa2785259917cb287686dbe6136c5",
+        "source_blob": "d606bb9fe7d04a885c2041de3bd0eb906396880b",
+        "target_hash": "2c4390eaa2bd7bd37bb0189001411fa7e976998d5299c5d55a0c609a54cb9edd",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657051
       },
       "it": {
-        "source_hash": "2cb5fa89b0a1cd4e47ca4c9baa818ec0b50645c895d0039069e7986b381898f4",
-        "source_blob": "3a520424342e51a16e4a6ce0635b5504abe06335",
+        "source_hash": "5325d097b476841f25da56a3d8b58d02d43aa2785259917cb287686dbe6136c5",
+        "source_blob": "d606bb9fe7d04a885c2041de3bd0eb906396880b",
         "target_hash": "737e38bfd7ed5d6b911ad635fef453d9dee0f0586fcccc854364d6c29347b939",
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792567824
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657051
       },
       "ja": {
-        "source_hash": "2cb5fa89b0a1cd4e47ca4c9baa818ec0b50645c895d0039069e7986b381898f4",
-        "source_blob": "3a520424342e51a16e4a6ce0635b5504abe06335",
+        "source_hash": "5325d097b476841f25da56a3d8b58d02d43aa2785259917cb287686dbe6136c5",
+        "source_blob": "d606bb9fe7d04a885c2041de3bd0eb906396880b",
         "target_hash": "39df24e712264b436a9d7ee5434d4741165595ad81f70a761df3e52060675aa2",
-        "model": "claude-opus-5-5-ja-review",
-        "updated_at": 1792655214
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657051
       },
       "pl": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
-        "source_hash": "2cb5fa89b0a1cd4e47ca4c9baa818ec0b50645c895d0039069e7986b381898f4",
-        "source_blob": "3a520424342e51a16e4a6ce0635b5504abe06335",
-        "target_hash": "244b062cf4e6d9758530a90bad2e31e379f130cd3865d38b071aedda8aeac6d8"
+        "source_hash": "5325d097b476841f25da56a3d8b58d02d43aa2785259917cb287686dbe6136c5",
+        "source_blob": "d606bb9fe7d04a885c2041de3bd0eb906396880b",
+        "target_hash": "244b062cf4e6d9758530a90bad2e31e379f130cd3865d38b071aedda8aeac6d8",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657051
       },
       "uk": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
-        "source_hash": "2cb5fa89b0a1cd4e47ca4c9baa818ec0b50645c895d0039069e7986b381898f4",
-        "source_blob": "3a520424342e51a16e4a6ce0635b5504abe06335",
-        "target_hash": "4381a276d74c9c4673fb0b62ae669f5a3cb71b7ebeea1fd2680f2ee650a7eaad"
+        "source_hash": "5325d097b476841f25da56a3d8b58d02d43aa2785259917cb287686dbe6136c5",
+        "source_blob": "d606bb9fe7d04a885c2041de3bd0eb906396880b",
+        "target_hash": "4381a276d74c9c4673fb0b62ae669f5a3cb71b7ebeea1fd2680f2ee650a7eaad",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657051
       },
       "nl": {
-        "source_hash": "2cb5fa89b0a1cd4e47ca4c9baa818ec0b50645c895d0039069e7986b381898f4",
-        "source_blob": "3a520424342e51a16e4a6ce0635b5504abe06335",
+        "source_hash": "5325d097b476841f25da56a3d8b58d02d43aa2785259917cb287686dbe6136c5",
+        "source_blob": "d606bb9fe7d04a885c2041de3bd0eb906396880b",
         "target_hash": "2175b6b3cf2ef52435f989cb4ba4d50ba7a40c4b5e92d752e47c68948dc4beb2",
-        "model": "gpt-5.6-sol",
-        "updated_at": 1792584233
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657051
       },
       "sv": {
-        "source_hash": "2cb5fa89b0a1cd4e47ca4c9baa818ec0b50645c895d0039069e7986b381898f4",
-        "source_blob": "3a520424342e51a16e4a6ce0635b5504abe06335",
+        "source_hash": "5325d097b476841f25da56a3d8b58d02d43aa2785259917cb287686dbe6136c5",
+        "source_blob": "d606bb9fe7d04a885c2041de3bd0eb906396880b",
         "target_hash": "3342f175ab08bb3531051767ac5ab8047d7e036c33b70ab939cf74c9b01a1ad4",
-        "model": "gpt-5.6-sol",
-        "updated_at": 1792584233
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657051
       }
     }
   },
@@ -12397,67 +12397,67 @@
   "docs/en/docs/user_guide/gl-x2000/index.md": {
     "targets": {
       "de": {
-        "source_hash": "865a4108be9814791f60dcbf31e9b2c0c8920da20b026c0312fff72a9ef3ec29",
-        "source_blob": "83273d9f4753f1b688c7bef59510ea5e19d37dc5",
+        "source_hash": "7c90728aaed9ab6d7790657af327b7d98a7b89c728ddf4b84bf8269e6a216c43",
+        "source_blob": "2655e72bc1e3b550852827fe7bf666920dc021bf",
         "target_hash": "c13f1903762760057a8ca8e5f830046d254c51357ef427774f78f69753cc0f60",
         "model": "reviewed-no-target-change",
-        "updated_at": 1792569614
+        "updated_at": 1792657052
       },
       "es": {
-        "source_hash": "865a4108be9814791f60dcbf31e9b2c0c8920da20b026c0312fff72a9ef3ec29",
-        "source_blob": "83273d9f4753f1b688c7bef59510ea5e19d37dc5",
+        "source_hash": "7c90728aaed9ab6d7790657af327b7d98a7b89c728ddf4b84bf8269e6a216c43",
+        "source_blob": "2655e72bc1e3b550852827fe7bf666920dc021bf",
         "target_hash": "f9d9153f64be8fb5da167720da229f03bcced7f112ee24cad110ad59880f2b2e",
         "model": "reviewed-no-target-change",
-        "updated_at": 1792569614
+        "updated_at": 1792657052
       },
       "fr": {
-        "source_hash": "865a4108be9814791f60dcbf31e9b2c0c8920da20b026c0312fff72a9ef3ec29",
-        "source_blob": "83273d9f4753f1b688c7bef59510ea5e19d37dc5",
+        "source_hash": "7c90728aaed9ab6d7790657af327b7d98a7b89c728ddf4b84bf8269e6a216c43",
+        "source_blob": "2655e72bc1e3b550852827fe7bf666920dc021bf",
         "target_hash": "93bc4317963b9951cbe832b10ed80dc5745060e1aafd3cc47e35955c2d83f2d5",
         "model": "reviewed-no-target-change",
-        "updated_at": 1792569614
+        "updated_at": 1792657052
       },
       "it": {
-        "source_hash": "865a4108be9814791f60dcbf31e9b2c0c8920da20b026c0312fff72a9ef3ec29",
-        "source_blob": "83273d9f4753f1b688c7bef59510ea5e19d37dc5",
+        "source_hash": "7c90728aaed9ab6d7790657af327b7d98a7b89c728ddf4b84bf8269e6a216c43",
+        "source_blob": "2655e72bc1e3b550852827fe7bf666920dc021bf",
         "target_hash": "bee0fa00bce2db1dbc85e08b399d7bfcac88377d5f9b49d8564ad141300f422a",
         "model": "reviewed-no-target-change",
-        "updated_at": 1792569614
+        "updated_at": 1792657052
       },
       "ja": {
-        "source_hash": "865a4108be9814791f60dcbf31e9b2c0c8920da20b026c0312fff72a9ef3ec29",
-        "source_blob": "83273d9f4753f1b688c7bef59510ea5e19d37dc5",
+        "source_hash": "7c90728aaed9ab6d7790657af327b7d98a7b89c728ddf4b84bf8269e6a216c43",
+        "source_blob": "2655e72bc1e3b550852827fe7bf666920dc021bf",
         "target_hash": "1448a329f49cae5c00549765bedef03d871820971219eb3b2746267fd78343b9",
-        "model": "claude-opus-5-5-ja-review",
-        "updated_at": 1792655214
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657052
       },
       "pl": {
-        "source_hash": "865a4108be9814791f60dcbf31e9b2c0c8920da20b026c0312fff72a9ef3ec29",
-        "source_blob": "83273d9f4753f1b688c7bef59510ea5e19d37dc5",
+        "source_hash": "7c90728aaed9ab6d7790657af327b7d98a7b89c728ddf4b84bf8269e6a216c43",
+        "source_blob": "2655e72bc1e3b550852827fe7bf666920dc021bf",
         "target_hash": "1a3adf8d80b9a54bcbf2b90f5296b41e5f675728782676f45bd60555d8567334",
         "model": "reviewed-no-target-change",
-        "updated_at": 1792569614
+        "updated_at": 1792657052
       },
       "uk": {
-        "source_hash": "865a4108be9814791f60dcbf31e9b2c0c8920da20b026c0312fff72a9ef3ec29",
-        "source_blob": "83273d9f4753f1b688c7bef59510ea5e19d37dc5",
+        "source_hash": "7c90728aaed9ab6d7790657af327b7d98a7b89c728ddf4b84bf8269e6a216c43",
+        "source_blob": "2655e72bc1e3b550852827fe7bf666920dc021bf",
         "target_hash": "d2f963abc021be26762b8cbfc16b7a1514a646940a6f586d34ae8696c052ca94",
         "model": "reviewed-no-target-change",
-        "updated_at": 1792569614
+        "updated_at": 1792657052
       },
       "nl": {
-        "source_hash": "865a4108be9814791f60dcbf31e9b2c0c8920da20b026c0312fff72a9ef3ec29",
-        "source_blob": "83273d9f4753f1b688c7bef59510ea5e19d37dc5",
+        "source_hash": "7c90728aaed9ab6d7790657af327b7d98a7b89c728ddf4b84bf8269e6a216c43",
+        "source_blob": "2655e72bc1e3b550852827fe7bf666920dc021bf",
         "target_hash": "845de75669858557494b1f6f393bb0938eb79199ef06261087a6fd83cd6b2381",
-        "model": "gpt-5.6-sol",
-        "updated_at": 1792584233
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657052
       },
       "sv": {
-        "source_hash": "865a4108be9814791f60dcbf31e9b2c0c8920da20b026c0312fff72a9ef3ec29",
-        "source_blob": "83273d9f4753f1b688c7bef59510ea5e19d37dc5",
+        "source_hash": "7c90728aaed9ab6d7790657af327b7d98a7b89c728ddf4b84bf8269e6a216c43",
+        "source_blob": "2655e72bc1e3b550852827fe7bf666920dc021bf",
         "target_hash": "dd4347524a0e66c9f1704bad9448c2d1eca90b00ad2989eb5e7bd5845342e5c9",
-        "model": "gpt-5.6-sol",
-        "updated_at": 1792584233
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657052
       }
     }
   },
@@ -13804,134 +13804,134 @@
   "docs/en/docs/tutorials/how_to_make_adguard_home_dns_bypass_vpn.md": {
     "targets": {
       "de": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780970091,
-        "source_hash": "55cd76718043a0e92b54beb12be3995dbd8077948944528d3cff6e490b3ec83c",
-        "source_blob": "4772824aed142f5f002bdf480d0a2c2fea8f9497",
-        "target_hash": "cca92763763f71c3021a3b6d14ec4816f356185d414d27910f3d45309d2b3050"
+        "source_hash": "3c727a86382a8c6129083a47c45535078bdb019a7c830c984cdb5e95f6e8848d",
+        "source_blob": "8edc6300fa6c9a616cd2591a8a2913e264812746",
+        "target_hash": "9a35d0d7bad774649657216c73e5676ab03cdae6c5b427c3c0c4516b70e1fb11",
+        "model": "typo-fix",
+        "updated_at": 1792657046
       },
       "es": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780970146,
-        "source_hash": "55cd76718043a0e92b54beb12be3995dbd8077948944528d3cff6e490b3ec83c",
-        "source_blob": "4772824aed142f5f002bdf480d0a2c2fea8f9497",
-        "target_hash": "c2de0ad9d84a652f7fb129e5c5d4b0dded4611e54303a51593da063702a30cb9"
+        "source_hash": "3c727a86382a8c6129083a47c45535078bdb019a7c830c984cdb5e95f6e8848d",
+        "source_blob": "8edc6300fa6c9a616cd2591a8a2913e264812746",
+        "target_hash": "c2de0ad9d84a652f7fb129e5c5d4b0dded4611e54303a51593da063702a30cb9",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657046
       },
       "fr": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780970194,
-        "source_hash": "55cd76718043a0e92b54beb12be3995dbd8077948944528d3cff6e490b3ec83c",
-        "source_blob": "4772824aed142f5f002bdf480d0a2c2fea8f9497",
-        "target_hash": "132032a8c7953cd68ff5451972995f1b2d0e90f659bbbe100eed4ddd0be25dc0"
+        "source_hash": "3c727a86382a8c6129083a47c45535078bdb019a7c830c984cdb5e95f6e8848d",
+        "source_blob": "8edc6300fa6c9a616cd2591a8a2913e264812746",
+        "target_hash": "132032a8c7953cd68ff5451972995f1b2d0e90f659bbbe100eed4ddd0be25dc0",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657046
       },
       "it": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780970267,
-        "source_hash": "55cd76718043a0e92b54beb12be3995dbd8077948944528d3cff6e490b3ec83c",
-        "source_blob": "4772824aed142f5f002bdf480d0a2c2fea8f9497",
-        "target_hash": "40721ce0f905cf9ea10820b7e36c951b2fd544d02076fafd65b235c3612cbfd6"
+        "source_hash": "3c727a86382a8c6129083a47c45535078bdb019a7c830c984cdb5e95f6e8848d",
+        "source_blob": "8edc6300fa6c9a616cd2591a8a2913e264812746",
+        "target_hash": "bd219d46f05b44a50f3db1f440964c8874b2589e10219c369850189a149295b1",
+        "model": "typo-fix",
+        "updated_at": 1792657046
       },
       "ja": {
-        "source_hash": "55cd76718043a0e92b54beb12be3995dbd8077948944528d3cff6e490b3ec83c",
-        "source_blob": "4772824aed142f5f002bdf480d0a2c2fea8f9497",
+        "source_hash": "3c727a86382a8c6129083a47c45535078bdb019a7c830c984cdb5e95f6e8848d",
+        "source_blob": "8edc6300fa6c9a616cd2591a8a2913e264812746",
         "target_hash": "23efdce0ec559c16f90888a8d79f72993806a36243b068b1264dffe37ad9e471",
-        "model": "claude-opus-5-5-ja-review",
-        "updated_at": 1792655214
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657046
       },
       "pl": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780970386,
-        "source_hash": "55cd76718043a0e92b54beb12be3995dbd8077948944528d3cff6e490b3ec83c",
-        "source_blob": "4772824aed142f5f002bdf480d0a2c2fea8f9497",
-        "target_hash": "4825d9e32a8931484ef1e00072ebe90a294004c8ed97ebad54bcb9a3e06d1613"
+        "source_hash": "3c727a86382a8c6129083a47c45535078bdb019a7c830c984cdb5e95f6e8848d",
+        "source_blob": "8edc6300fa6c9a616cd2591a8a2913e264812746",
+        "target_hash": "4b1dfb9de1f10387e30921e60eadd458b139358d9be077310d635000c0b9febc",
+        "model": "typo-fix",
+        "updated_at": 1792657046
       },
       "uk": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792143745,
-        "source_hash": "55cd76718043a0e92b54beb12be3995dbd8077948944528d3cff6e490b3ec83c",
-        "source_blob": "4772824aed142f5f002bdf480d0a2c2fea8f9497",
-        "target_hash": "293ecda6c4607c455a01dbd66347e17d6535a46569a7832ada5589865815b87d"
+        "source_hash": "3c727a86382a8c6129083a47c45535078bdb019a7c830c984cdb5e95f6e8848d",
+        "source_blob": "8edc6300fa6c9a616cd2591a8a2913e264812746",
+        "target_hash": "293ecda6c4607c455a01dbd66347e17d6535a46569a7832ada5589865815b87d",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657046
       },
       "nl": {
-        "source_hash": "55cd76718043a0e92b54beb12be3995dbd8077948944528d3cff6e490b3ec83c",
-        "source_blob": "4772824aed142f5f002bdf480d0a2c2fea8f9497",
-        "target_hash": "2ee8e46c08f7e39b30b22537a56926f33716990c66989b8cd1e4433b1429ca95",
-        "model": "gpt-5.6-sol",
-        "updated_at": 1792584248
+        "source_hash": "3c727a86382a8c6129083a47c45535078bdb019a7c830c984cdb5e95f6e8848d",
+        "source_blob": "8edc6300fa6c9a616cd2591a8a2913e264812746",
+        "target_hash": "27b28f574018a721c34c11bfbce031b020c6cb2a7fa070240e8ac3dc89005ef1",
+        "model": "typo-fix",
+        "updated_at": 1792657046
       },
       "sv": {
-        "source_hash": "55cd76718043a0e92b54beb12be3995dbd8077948944528d3cff6e490b3ec83c",
-        "source_blob": "4772824aed142f5f002bdf480d0a2c2fea8f9497",
+        "source_hash": "3c727a86382a8c6129083a47c45535078bdb019a7c830c984cdb5e95f6e8848d",
+        "source_blob": "8edc6300fa6c9a616cd2591a8a2913e264812746",
         "target_hash": "719c26a65188327973bd77f9e6605c45bd043e435c1d1c472eb14c0eae7b0450",
-        "model": "gpt-5.6-sol",
-        "updated_at": 1792583654
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657046
       }
     }
   },
   "docs/en/docs/faq/wireguard_server_is_not_working.md": {
     "targets": {
       "de": {
-        "source_hash": "115f7af4857ad4064c7a5396c9b83937c4d49d1ec6bb10c951a0cab77704bd8b",
-        "source_blob": "98237dff8e68673a17a3822ff6ef6ab3e78cc670",
+        "source_hash": "dc76a89c88438de19e77908cb03a0dafe71732fd44659b79e4fdff2eb4ad3566",
+        "source_blob": "ddc06b499b991451d2041f6a6a1683030a1c1507",
         "target_hash": "52bc26de675ba74f4a8ef07ab13cde8a7e36475adc38ba30d50f0f9fb378e94f",
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792565157
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657038
       },
       "es": {
-        "source_hash": "115f7af4857ad4064c7a5396c9b83937c4d49d1ec6bb10c951a0cab77704bd8b",
-        "source_blob": "98237dff8e68673a17a3822ff6ef6ab3e78cc670",
+        "source_hash": "dc76a89c88438de19e77908cb03a0dafe71732fd44659b79e4fdff2eb4ad3566",
+        "source_blob": "ddc06b499b991451d2041f6a6a1683030a1c1507",
         "target_hash": "a9cefa2cfa73ae4daf669a2c86fe8d6d19ac28085ee77534f7b7f64f01de2873",
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792565157
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657038
       },
       "fr": {
-        "source_hash": "115f7af4857ad4064c7a5396c9b83937c4d49d1ec6bb10c951a0cab77704bd8b",
-        "source_blob": "98237dff8e68673a17a3822ff6ef6ab3e78cc670",
+        "source_hash": "dc76a89c88438de19e77908cb03a0dafe71732fd44659b79e4fdff2eb4ad3566",
+        "source_blob": "ddc06b499b991451d2041f6a6a1683030a1c1507",
         "target_hash": "09fc7f0aacea5ef82f8eda214d14aaebd79f2e3b29188d66464e641595454dab",
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792565157
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657038
       },
       "it": {
-        "source_hash": "115f7af4857ad4064c7a5396c9b83937c4d49d1ec6bb10c951a0cab77704bd8b",
-        "source_blob": "98237dff8e68673a17a3822ff6ef6ab3e78cc670",
+        "source_hash": "dc76a89c88438de19e77908cb03a0dafe71732fd44659b79e4fdff2eb4ad3566",
+        "source_blob": "ddc06b499b991451d2041f6a6a1683030a1c1507",
         "target_hash": "9cde2a5e3ad69715448139ccba19babfc05e2954a64b13964d0b35bbd6b5e297",
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792565157
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657038
       },
       "ja": {
-        "source_hash": "115f7af4857ad4064c7a5396c9b83937c4d49d1ec6bb10c951a0cab77704bd8b",
-        "source_blob": "98237dff8e68673a17a3822ff6ef6ab3e78cc670",
+        "source_hash": "dc76a89c88438de19e77908cb03a0dafe71732fd44659b79e4fdff2eb4ad3566",
+        "source_blob": "ddc06b499b991451d2041f6a6a1683030a1c1507",
         "target_hash": "e07cc27641ce66ccc9c408c141766b56a6878b6a3875b60e462be45b6a34b867",
-        "model": "claude-opus-5-5-ja-review",
-        "updated_at": 1792655214
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657038
       },
       "pl": {
-        "source_hash": "115f7af4857ad4064c7a5396c9b83937c4d49d1ec6bb10c951a0cab77704bd8b",
-        "source_blob": "98237dff8e68673a17a3822ff6ef6ab3e78cc670",
+        "source_hash": "dc76a89c88438de19e77908cb03a0dafe71732fd44659b79e4fdff2eb4ad3566",
+        "source_blob": "ddc06b499b991451d2041f6a6a1683030a1c1507",
         "target_hash": "d1bb59ff89f4c0d8272e817f0d71aaf8ab625c35957fd4822eb50ce76010d3d6",
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792565157
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657038
       },
       "uk": {
-        "source_hash": "115f7af4857ad4064c7a5396c9b83937c4d49d1ec6bb10c951a0cab77704bd8b",
-        "source_blob": "98237dff8e68673a17a3822ff6ef6ab3e78cc670",
+        "source_hash": "dc76a89c88438de19e77908cb03a0dafe71732fd44659b79e4fdff2eb4ad3566",
+        "source_blob": "ddc06b499b991451d2041f6a6a1683030a1c1507",
         "target_hash": "5142476414b0afb7936b6c9c81ea50b3acab5429b7a7d15514b0b941b43f636e",
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792565157
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657038
       },
       "nl": {
-        "source_hash": "115f7af4857ad4064c7a5396c9b83937c4d49d1ec6bb10c951a0cab77704bd8b",
-        "source_blob": "98237dff8e68673a17a3822ff6ef6ab3e78cc670",
-        "target_hash": "c87d37bc0a48bf7619f4ed5569a017b20e9bded2cba7e776c00d4614effe5e50",
-        "model": "gpt-5.6-sol",
-        "updated_at": 1792584245
+        "source_hash": "dc76a89c88438de19e77908cb03a0dafe71732fd44659b79e4fdff2eb4ad3566",
+        "source_blob": "ddc06b499b991451d2041f6a6a1683030a1c1507",
+        "target_hash": "7a1c5522c704707700ba2fe031affe15155a730558bb05669acc8c9581c8f42e",
+        "model": "claude-opus-5-5",
+        "updated_at": 1792658281
       },
       "sv": {
-        "source_hash": "115f7af4857ad4064c7a5396c9b83937c4d49d1ec6bb10c951a0cab77704bd8b",
-        "source_blob": "98237dff8e68673a17a3822ff6ef6ab3e78cc670",
+        "source_hash": "dc76a89c88438de19e77908cb03a0dafe71732fd44659b79e4fdff2eb4ad3566",
+        "source_blob": "ddc06b499b991451d2041f6a6a1683030a1c1507",
         "target_hash": "d41a679e9e221af45d66970746ed3601115c3daaa25a5473ee3cd999bf5b7633",
-        "model": "gpt-5.6-sol",
-        "updated_at": 1792583652
+        "model": "reviewed-no-target-change",
+        "updated_at": 1792657038
       }
     }
   },

@@ -20,7 +20,7 @@ You can upgrade the firmware via web Admin Panel.
 
 2. Download the 4.x firmware [here](https://dl.gl-inet.com){target="_blank"}. Make sure you **download the one for common upgrade**.
 
-3. Log in to the web Admin Panel, go to **Upgrade** -> **Local Upgrade**. Upload the firmware file you just donwloaded.
+3. Log in to the web Admin Panel, go to **Upgrade** -> **Local Upgrade**. Upload the firmware file you just downloaded.
 
     **Note:** 4.x firmware is not compatible with 3.x firmware. When upgrading from 3.x firmware, do **NOT** keep settings.
 

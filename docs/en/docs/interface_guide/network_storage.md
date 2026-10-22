@@ -314,7 +314,7 @@ Connect the storage device. When it is detected, the page is displayed as below.
 
     ![FE File Explorer WebDAV](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav_client/fe_file_explorer_webdav.png){class="glboxshadow"}
 
-    Enter connection settings. If is anonymous access, just leave **User Name** and **Password** empty. Then clidk **Save & Connect**.
+    Enter connection settings. If is anonymous access, just leave **User Name** and **Password** empty. Then click **Save & Connect**.
 
     ![FE File Explorer WebDAV](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav_client/fe_file_explorer_webdav_connection_setting.png){class="glboxshadow"}
 

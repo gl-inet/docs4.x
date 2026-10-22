@@ -6,7 +6,7 @@ La réponse est non. Lorsque vous configurez votre routeur GL.iNet comme client 
 
 Vous pouvez connecter le routeur GL.iNet (configuré comme client VPN) à votre routeur principal sans fil ; de cette manière, le routeur GL.iNet fonctionnera comme un répéteur Wi-Fi.
 
-![repater](https://static.gl-inet.com/docs/router/en/4/faq/wan_source_vpn/repeater.jpg){class="glboxshadow"}
+![repeater](https://static.gl-inet.com/docs/router/en/4/faq/wan_source_vpn/repeater.jpg){class="glboxshadow"}
 
 ## Configuration via un câble Ethernet {#configure-by-ethernet-cable}
 

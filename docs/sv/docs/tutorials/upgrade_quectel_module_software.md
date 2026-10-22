@@ -1,6 +1,6 @@
 # Uppgradera firmware för Quectel-modulen {#upgrade-quectel-module-firmware}
 
-## Förberedelser {#preperation}
+## Förberedelser {#preparation}
 
 1. Kontrollera att routern är konfigurerad för internetåtkomst.
 

@@ -1,4 +1,4 @@
-# Upgrade
+# Upgrade {#upgrade}
 
 On the left side of the web Admin Panel, go to **SYSTEM** -> **Upgrade** to update your router's firmware.
 
@@ -8,9 +8,9 @@ For some cellular models, you can also upgrade the module version if needed.
 
     Please keep the power on during the upgrade. Do **NOT** power off the router. The device will automatically reboot after upgrade, which may take a few minutes.
 
-## Firmware Upgrade
+## Firmware Upgrade {#firmware-upgrade}
 
-### Online Upgrade
+### Online Upgrade {#online-upgrade}
 
 Online Upgrade automatically checks for the latest official firmware over the internet and completes downloading and flashing directly on the router, which is convenient for one-click official firmware updates as long as the router is connected to the Internet.
 
@@ -28,7 +28,7 @@ You can find the current firmware version in the **Firmware Online Upgrade**.
 
 ![time zone](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/time_zone.png){class="glboxshadow"}
 
-### Local Upgrade
+### Local Upgrade {#local-upgrade}
 
 Local Upgrade supports manual firmware file upload for flashing, enabling users to upgrade, downgrade, or install beta firmware of specific versions to test newly added features.
 
@@ -44,25 +44,25 @@ Select the file or drag and drop it into the upload area. The system will verify
 
 Click **Install** to upgrade. 
 
-## Modem Upgrade
+## Modem Upgrade {#modem-upgrade}
 
 GL.iNet cellular routers allow users to upgrade the cellular modem firmware through the web Admin Panel. 
 
 You may try a cellular module upgrade when cellular networking fails or experiences instability. We recommend contacting technical support for troubleshooting before performing the modem upgrade.
 
-### Online Upgrade
+### Online Upgrade {#online-upgrade_1}
 
 You can find the current cellular modem version here. If your router is connected to the Internet, it will automatically check for the latest cellular modem version from the manufacturer's server, simplifying the update process.
 
 ![modem online upgrade](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/modem_online_upgrade.png){class="glboxshadow"}
 
-### Local Upgrade
+### Local Upgrade {#local-upgrade_1}
 
 Manually upload a modem firmware file from your computer to update the cellular modem if needed.
 
 ![modem local upgrade](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/modem_local_upgrade.png){class="glboxshadow"}
 
-## DPI Online Upgrade
+## DPI Online Upgrade {#dpi-online-upgrade}
 
 The DPI Online Upgrade checks for and updates the DPI engine and its signature database, ensuring accurate traffic identification for Data Statistics, Content Filter, and other DPI-related features.
 

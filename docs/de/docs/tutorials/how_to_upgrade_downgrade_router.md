@@ -1,4 +1,4 @@
-# So aktualisieren oder downgraden Sie die Firmware Ihres Routers manuell (von v4.x auf v4.x)
+# So aktualisieren oder downgraden Sie die Firmware Ihres Routers manuell (von v4.x auf v4.x) {#how-to-manually-upgrade-or-downgrade-your-router-firmware-from-v4x-to-v4x}
 
 In diesem Tutorial erfahren Sie, **wie Sie die Firmware Ihres Routers manuell aktualisieren oder downgraden (von v4.x auf v4.x)**. Die Schritte für das manuelle Upgrade und Downgrade der Router-Firmware sind identisch.
 
@@ -10,17 +10,17 @@ In diesem Tutorial erfahren Sie, **wie Sie die Firmware Ihres Routers manuell ak
 
     **Downgrade:** Sie können die Firmware Ihres Routers downgraden, um bestimmte Probleme zu beheben.
 
-## 1. Prüfen, ob auf Ihrem Router die neueste Firmware-Version läuft (nur für ein Upgrade)
+## 1. Prüfen, ob auf Ihrem Router die neueste Firmware-Version läuft (nur für ein Upgrade) {#1-check-if-your-router-is-running-the-latest-firmware-version-only-for-upgrade}
 
 1. Geben Sie in einem Webbrowser die URL zum Admin-Panel Ihres Routers ein (z. B. 192.168.8.1) und melden Sie sich an.
 2. Wählen Sie in der linken Seitenleiste **SYSTEM** > **Upgrade**.
 
-## 2. Die Firmware-Datei herunterladen
+## 2. Die Firmware-Datei herunterladen {#2-download-the-firmware-file}
 
 1. Suchen Sie in der Suchleiste des [Firmware Download Center](https://dl.gl-inet.com/) nach Ihrem Router-Modell und wählen Sie es aus.
 2. Wählen Sie im Reiter **Stable** oder in einem anderen Reiter neben der Firmware-Version, die Sie herunterladen möchten, **DOWNLOAD FOR COMMON UPGRADE AND U-BOOT** aus.
 
-## 3. Die Firmware hochladen
+## 3. Die Firmware hochladen {#3-upload-the-firmware}
 
 Die folgenden Anweisungen beschreiben das Hochladen Ihrer Firmware über das Admin-Panel des Routers. (Wenn Sie Ihre Firmware über die GL.iNet-App hochladen möchten, [laden Sie die App herunter](https://www.gl-inet.com/app/) und richten Sie sie ein.)
 

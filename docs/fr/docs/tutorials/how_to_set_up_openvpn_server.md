@@ -1,4 +1,4 @@
-# Comment configurer un serveur OpenVPN sur les routeurs GL.iNet
+# Comment configurer un serveur OpenVPN sur les routeurs GL.iNet {#how-to-set-up-openvpn-server-on-glinet-routers}
 
 Ce tutoriel explique comment configurer un serveur OpenVPN sur les routeurs GL.iNet. Un serveur VPN vous permet d'établir à distance une connexion sécurisée à votre réseau domestique ou professionnel. Avec un routeur GL.iNet, vous pouvez configurer un serveur OpenVPN en quelques minutes.
 
@@ -6,19 +6,19 @@ Ce tutoriel explique comment configurer un serveur OpenVPN sur les routeurs GL.i
     
     **Adresse IP publique**
 
-    La configuration d'un serveur OpenVPN nécessite une adresse IP publique. Pour vérifier si vous en avez une, consultez [ce lien](https://docs.gl-inet.com/router/en/4/tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address/).
+    La configuration d'un serveur OpenVPN nécessite une adresse IP publique. Pour vérifier si vous en avez une, consultez [ce lien](how_to_check_if_isp_assigns_you_a_public_ip_address.md).
 
     **Redirection de port**
 
-    Si votre routeur GL.iNet est connecté derrière un routeur principal, [configurez la redirection de port sur le routeur principal](https://docs.gl-inet.com/router/en/4/tutorials/how_to_set_up_port_forwarding/).
+    Si votre routeur GL.iNet est connecté derrière un routeur principal, [configurez la redirection de port sur le routeur principal](how_to_set_up_port_forwarding.md).
 
-## 1. Connectez-vous à votre routeur
+## 1. Connectez-vous à votre routeur {#1-log-in-to-your-router}
 
 Ouvrez un navigateur Web et accédez au panneau d'administration Web du routeur (IP par défaut : 192.168.8.1). Connectez-vous avec votre mot de passe administrateur.
 
 ![log in](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/router-login.jpeg){class="glboxshadow"}
 
-## 2. Activer le DNS dynamique (facultatif)
+## 2. Activer le DNS dynamique (facultatif) {#2-enable-dynamic-dns-optional}
 
 La configuration d'un serveur OpenVPN nécessite généralement une **adresse IP publique statique**, qui fournit un point de terminaison fixe permettant aux autres appareils d'accéder à votre serveur VPN.
 
@@ -31,7 +31,7 @@ Suivez les étapes ci-dessous pour activer le DNS dynamique :
 2. Activez **Enable DDNS**, lisez et acceptez les **Terms of Service & Privacy Policy**, puis cliquez sur **Apply**.
 ![apply](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/dynamic-dns-click-apply.png){class="glboxshadow"}
 
-## 3. Télécharger le fichier de configuration
+## 3. Télécharger le fichier de configuration {#3-download-configuration-file}
 
 1. Dans le panneau d'administration Web du routeur, accédez à **VPN** > **OpenVPN Server**.
 2. Cliquez sur **Generate Configuration**.
@@ -63,7 +63,7 @@ Suivez les étapes ci-dessous pour activer le DNS dynamique :
         ![remote access lan](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/enable-remote-access-lan-4.8.png){class="glboxshadow"}
 
 
-## 4. Se connecter au serveur OpenVPN
+## 4. Se connecter au serveur OpenVPN {#4-connect-to-openvpn-server}
 
 Pour vous connecter au serveur OpenVPN, vous aurez besoin d'un client OpenVPN. Vous pouvez le configurer en utilisant l'une des méthodes ci-dessous :
 
@@ -74,11 +74,11 @@ Pour vous connecter au serveur OpenVPN, vous aurez besoin d'un client OpenVPN. V
     1. Sur un autre appareil, connectez-vous à un réseau Wi-Fi différent (ou à un réseau cellulaire si vous utilisez un appareil mobile).
     2. Envoyez le fichier de configuration téléchargé précédemment vers l'appareil (par exemple par e-mail), puis téléchargez-le sur cet appareil.
     3. Téléchargez OpenVPN Connect pour le système d'exploitation de votre appareil :
-        * [Windows](https://openvpn.net/client/client-connect-vpn-for-windows/)
-        * [Mac](https://openvpn.net/client/client-connect-vpn-for-mac-os/)
+        * [Windows](https://openvpn.net/client/)
+        * [Mac](https://openvpn.net/client/)
         * [Android](https://play.google.com/store/apps/details?id=net.openvpn.openvpn&hl=en&gl=US&pli=1)
         * [iOS](https://apps.apple.com/us/app/openvpn-connect-openvpn-app/id590379981)
-        * [Linux](https://openvpn.net/openvpn-client-for-linux/)
+        * [Linux](https://openvpn.net/client/)
     4. Dans l'application, lisez les termes et conditions, puis sélectionnez **Agree**.
     5. Sélectionnez **Upload File**.
     ![upload file](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/tap-upload-file.png){class="glboxshadow"}
@@ -108,7 +108,7 @@ Pour vous connecter au serveur OpenVPN, vous aurez besoin d'un client OpenVPN. V
     9. Cliquez sur l'icône à trois points, puis sur **Start**.
     10. Connectez un appareil au routeur qui exécute le client OpenVPN.
 
-## 5. Vérifier la connexion VPN
+## 5. Vérifier la connexion VPN {#5-verify-vpn-connection}
 
 Ouvrez un navigateur Web et recherchez votre adresse IP ainsi que votre emplacement. S'ils correspondent à l'adresse IP du serveur VPN (et non à celle de votre fournisseur d'accès à Internet) et à son emplacement, la connexion VPN est établie avec succès.
 

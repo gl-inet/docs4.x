@@ -1,10 +1,10 @@
-# Connecter un routeur GL.iNet à des points d'accès publics avec un portail captif
+# Connecter un routeur GL.iNet à des points d'accès publics avec un portail captif {#connect-a-glinet-router-to-public-hotspots-with-a-captive-portal}
 
-## Qu'est-ce qu'un portail captif ?
+## Qu'est-ce qu'un portail captif ? {#what-is-a-captive-portal}
 
 Un portail captif est une page web sur laquelle les points d'accès publics demandent aux utilisateurs d'afficher la page et d'interagir avec elle avant d'autoriser l'accès à Internet.
 
-## Pourquoi utiliser un routeur avec des points d'accès publics ?
+## Pourquoi utiliser un routeur avec des points d'accès publics ? {#why-use-a-router-for-public-hotspots}
 
 * Le Wi-Fi public n'est pas sûr
 
@@ -14,7 +14,7 @@ Un portail captif est une page web sur laquelle les points d'accès publics dema
 
     En outre, certains réseaux Wi-Fi publics (par exemple le Wi-Fi d'hôtel) limitent l'accès à un certain nombre d'appareils, par exemple deux. Lors d'un voyage en groupe, cela n'est pas pratique. Vous pouvez à la place connecter un routeur de voyage au Wi-Fi de l'hôtel et l'utiliser comme répéteur pour diffuser un signal Wi-Fi vers tous vos appareils, notamment ordinateurs portables, smartphones, tablettes, etc. Le Wi-Fi de l'hôtel ne verra que le routeur de voyage comme un seul appareil, alors que vous pourrez connecter autant d'appareils que vous le souhaitez au Wi-Fi gratuit.
 
-## Comment connecter un routeur à des points d'accès publics avec portail captif ?
+## Comment connecter un routeur à des points d'accès publics avec portail captif ? {#how-to-connect-router-to-public-hotspots-with-captive-portal}
 
 Regardez cette vidéo ou suivez les étapes ci-dessous.
 
@@ -32,11 +32,11 @@ Regardez cette vidéo ou suivez les étapes ci-dessous.
 
 3. Connectez votre routeur au point d'accès public. Veuillez consulter le tutoriel [Repeater](../interface_guide/internet_repeater.md/).
 
-## Dépannage
+## Dépannage {#troubleshooting}
 
 Si vous n'arrivez pas à ouvrir le portail captif, il est possible que votre routeur ne puisse pas accéder à Internet. Essayez les méthodes de dépannage suivantes.
 
-### Méthode 1 : activer le mode de connexion pour hotspots publics et le camouflage
+### Méthode 1 : activer le mode de connexion pour hotspots publics et le camouflage {#method-1-enable-public-hotspot-login-mode-camouflage}
 
 **Remarque** : ces deux fonctionnalités sont disponibles uniquement à partir du firmware v4.6.
 
@@ -54,7 +54,7 @@ Lorsque vous connectez le routeur à un point d'accès public, l'activation des 
 
 ---
 
-### Méthode 2 : modifier les paramètres du routeur
+### Méthode 2 : modifier les paramètres du routeur {#method-2-change-router-settings}
 
 1. Connectez-vous au panneau d'administration web, puis accédez à **NETWORK -> DNS**. Assurez-vous que **DNS Rebinding Attack Protection** est désactivé et que **Mode** est réglé sur **Automatic**.
 
@@ -82,7 +82,7 @@ Lorsque vous connectez le routeur à un point d'accès public, l'activation des 
 
 ---
 
-### Méthode 3 : clonage d'adresse MAC
+### Méthode 3 : clonage d'adresse MAC {#method-3mac-clone}
 
 Certains hôtels limitent le nombre d'appareils que chaque client peut connecter au Wi-Fi de l'hôtel en identifiant leurs adresses MAC, et enregistrent l'adresse MAC du premier appareil connecté. Dans ce cas, vous pouvez cloner vers le routeur l'adresse MAC utilisée par votre téléphone pour se connecter au Wi-Fi de l'hôtel, afin que le routeur utilise cette adresse MAC pour accéder au Wi-Fi de l'hôtel.
 
@@ -114,7 +114,7 @@ Certains hôtels limitent le nombre d'appareils que chaque client peut connecter
 
 ---
 
-### Méthode 4 : demander de l'aide au personnel de l'hôtel
+### Méthode 4 : demander de l'aide au personnel de l'hôtel {#method-4seek-help-from-hotel-staff}
 
 Certains hôtels appliquent des politiques de vérification très strictes à leur réseau. Si aucune des méthodes ci-dessus ne fonctionne, essayez de demander au personnel de l'hôtel d'ajouter directement l'adresse MAC de votre routeur (utilisez l'adresse MAC d'usine par défaut, et non une adresse aléatoire) à la liste blanche du réseau de l'hôtel.
 

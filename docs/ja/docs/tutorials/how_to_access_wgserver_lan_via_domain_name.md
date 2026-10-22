@@ -1,20 +1,20 @@
-# ドメイン名を使用してクライアントから WireGuard サーバーの LAN デバイスにアクセスする方法
+# ドメイン名を使用してクライアントから WireGuard サーバーの LAN デバイスにアクセスする方法 {#how-to-access-wireguard-server-lan-devices-from-the-client-via-domain-names}
 
 このチュートリアルでは、クライアントから、WireGuard サーバーの LAN 上にある家庭内デバイス（NAS、IP カメラなど）へドメイン名を使ってアクセスする方法を説明します。
 
-## トポロジー
+## トポロジー {#topology}
 
 以下のように、クライアント側 LAN の PC から、それぞれのドメイン名を使って WireGuard サーバー側 LAN の NAS や IP カメラなどのデバイスにアクセスできます。
 
 ![topology](https://static.gl-inet.com/docs/router/en/4/tutorials/access_server_lan_via_domain_names/topology_be9300_be3600.png){class="glboxshadow"}
 
-## 設定手順
+## 設定手順 {#setup-steps}
 
-### 1. サーバー側で Hosts を編集する（任意）
+### 1. サーバー側で Hosts を編集する（任意） {#1-edit-hosts-on-server-optional}
 
 この手順は、VPN サーバーがローカルのドメイン名を正しく解決できない場合に行います。必要かどうかわからない場合は、この手順をスキップしてください。
 
-VPN サーバールーターの Web 管理画面にログインし、**NETWORK** -> **DNS** -> **Edit Hosts** に移動します。
+VPN サーバールーターの Web 管理パネルにログインし、**NETWORK** -> **DNS** -> **Edit Hosts** に移動します。
 
 ![edit hosts](https://static.gl-inet.com/docs/router/en/4/tutorials/access_server_lan_via_domain_names/edit_hosts.png){class="glboxshadow"}
 
@@ -22,11 +22,11 @@ VPN サーバールーターの Web 管理画面にログインし、**NETWORK**
 
 ![input ip domain](https://static.gl-inet.com/docs/router/en/4/tutorials/access_server_lan_via_domain_names/input_ip_domain.png){class="glboxshadow gl-80-desktop"}
 
-### 2. サーバー側で LAN へのリモートアクセスを許可する
+### 2. サーバー側で LAN へのリモートアクセスを許可する {#2-allow-remote-access-lan-on-server}
 
 ??? "ファームウェア v4.8 のサーバールーターの場合"
 
-    サーバーの Web 管理画面で、**VPN** -> **WireGuard Server** に移動し、右上の **Options** をクリックします。
+    サーバーの Web 管理パネルで、**VPN** -> **WireGuard Server** に移動し、右上の **Options** をクリックします。
 
     ![server options 4.8](https://static.gl-inet.com/docs/router/en/4/tutorials/access_server_lan_via_domain_names/server_options_4.8.png){class="glboxshadow gl-90-desktop"}
 
@@ -38,7 +38,7 @@ VPN サーバールーターの Web 管理画面にログインし、**NETWORK**
 
 ??? "ファームウェア v4.7 以前のサーバールーターの場合"
 
-    サーバーの Web 管理画面で、**VPN** -> **VPN Dashboard** -> **VPN Server** セクションに移動し、WireGuard サーバー右側の歯車アイコンをクリックします。
+    サーバーの Web 管理パネルで、**VPN** -> **VPN Dashboard** -> **VPN Server** セクションに移動し、WireGuard サーバー右側の歯車アイコンをクリックします。
 
     ![server options 4.7](https://static.gl-inet.com/docs/router/en/4/tutorials/access_server_lan_via_domain_names/server_options_4.7.png){class="glboxshadow gl-90-desktop"}
 
@@ -48,9 +48,9 @@ VPN サーバールーターの Web 管理画面にログインし、**NETWORK**
 
     **有効にすると、このルーターおよび LAN 上のデバイスに VPN 経由でリモートアクセスできるようになります。**
 
-### 3. VPN 設定をエクスポートする
+### 3. VPN 設定をエクスポートする {#3-export-vpn-configuration}
 
-サーバーの管理画面で、**VPN** -> **WireGuard Server** -> **Profiles** タブに移動し、**Add** をクリックして設定プロファイルをエクスポートします。
+サーバーの管理パネルで、**VPN** -> **WireGuard Server** -> **Profiles** タブに移動し、**Add** をクリックして設定プロファイルをエクスポートします。
 
 ![export config](https://static.gl-inet.com/docs/router/en/4/tutorials/access_server_lan_via_domain_names/export_config.png){class="glboxshadow"}
 
@@ -64,17 +64,17 @@ VPN サーバールーターの Web 管理画面にログインし、**NETWORK**
 
 ![wg tunnel ip](https://static.gl-inet.com/docs/router/en/4/tutorials/access_server_lan_via_domain_names/wg_tunnel_ip.png){class="glboxshadow"}
 
-**Note**: WireGuard サーバーのトンネル IP はファームウェアのバージョンによって異なります。サーバーで実際に使われているトンネル IP を確認してください。
+**注意**: WireGuard サーバーのトンネル IP はファームウェアのバージョンによって異なります。サーバーで実際に使われているトンネル IP を確認してください。
 
-### 4. VPN サーバーを有効にする
+### 4. VPN サーバーを有効にする {#4-enable-vpn-server}
 
 **WireGuard Server** ページで、右上の **Start** ボタンをクリックしてサーバーを起動します。
 
 ![start server](https://static.gl-inet.com/docs/router/en/4/tutorials/access_server_lan_via_domain_names/start_server.png){class="glboxshadow"}
 
-### 5. VPN 設定をアップロードする
+### 5. VPN 設定をアップロードする {#5-upload-vpn-configuration}
 
-VPN クライアントルーターの Web 管理画面にログインし、**VPN** -> **WireGuard Client** に移動して、**Add Manually** をクリックします。
+VPN クライアントルーターの Web 管理パネルにログインし、**VPN** -> **WireGuard Client** に移動して、**Add Manually** をクリックします。
 
 ![add manually](https://static.gl-inet.com/docs/router/en/4/tutorials/access_server_lan_via_domain_names/wgclient_add_manually.png){class="glboxshadow"}
 
@@ -90,7 +90,7 @@ VPN クライアントルーターの Web 管理画面にログインし、**VPN
 
 ![applied](https://static.gl-inet.com/docs/router/en/4/tutorials/access_server_lan_via_domain_names/wgclient_add_applied.png){class="glboxshadow"}
 
-### 6. VPN クライアント接続を開始する
+### 6. VPN クライアント接続を開始する {#6-start-vpn-client-connection}
 
 三点アイコンをクリックして VPN 接続を開始します。
 
@@ -106,4 +106,4 @@ VPN クライアントルーターの Web 管理画面にログインし、**VPN
 
 ---
 
-まだご不明な点がありますか？ [Community Forum](https://forum.gl-inet.com){target="_blank"} または [Contact us](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

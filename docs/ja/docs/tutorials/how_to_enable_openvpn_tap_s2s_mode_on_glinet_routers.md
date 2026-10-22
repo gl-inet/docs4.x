@@ -1,10 +1,10 @@
-# GL.iNetルーターでOpenVPN TAP-S2Sモードを有効にする方法
+# GL.iNetルーターでOpenVPN TAP-S2Sモードを有効にする方法 {#how-to-enable-openvpn-tap-s2s-mode-on-glinet-routers}
 
-## 利用シナリオ
+## 利用シナリオ {#usage-scenarios}
 
 TAP-S2S モードを有効にすると、OpenVPN クライアント側のデバイスから OpenVPN サーバー側のデバイスへリモートアクセスでき、OpenVPN サーバー側のデバイスから OpenVPN クライアント側のデバイスへもリモートアクセスできます。ただし、TAP-S2S モードを有効にすると、OpenVPN クライアント側で設定した VPN ルールは適用されなくなります。
 
-## TAP-S2S と TUN モード
+## TAP-S2S と TUN モード {#tap-s2s-vs-tun-mode}
 
 ネットワークトポロジー
 
@@ -14,12 +14,12 @@ TAP-S2S モードを有効にすると、OpenVPN クライアント側のデバ�
 
 TAP-S2S モードと TUN モードは物理的な接続方法は同じですが、論理的な接続方法が異なります。違いは次のとおりです。
 
-1. GL-X3000 の LAN 側デバイスが GL-MT6000 の管理画面にアクセスする場合、TAP-S2S モードでは仮想 IP を使用しませんが、TUN モードでは使用します。
-2. GL-X3000 の LAN 側デバイスが GL-X3000 自身の管理画面にアクセスする場合、TAP-S2S モードでは仮想 IP を使用しますが、TUN モードでは使用しません。
+1. GL-X3000 の LAN 側デバイスが GL-MT6000 の管理パネルにアクセスする場合、TAP-S2S モードでは仮想 IP を使用しませんが、TUN モードでは使用します。
+2. GL-X3000 の LAN 側デバイスが GL-X3000 自身の管理パネルにアクセスする場合、TAP-S2S モードでは仮想 IP を使用しますが、TUN モードでは使用しません。
 3. GL-X3000 の LAN 側デバイスが GL-MT6000 の LAN 側にあるデバイスの IP アドレスを把握している場合、TAP-S2S モードでは直接リモートアクセスできますが、TUN モードでは追加設定を有効にしないと直接アクセスできません。
 4. TAP-S2S モードでは、GL-X3000 は GL-MT6000 を経由してインターネットにアクセスする必要があります。一方、TUN モードでは、GL-X3000 は直接インターネットにアクセスできます。そのため、TAP-S2S モードでは GL-X3000 で設定した VPN ルールは適用されず、GL-MT6000 で設定した VPN ルールに従う必要があります。
 
-## チュートリアル
+## チュートリアル {#tutorials}
 
 まず、パブリック IP を持つルーター（ここでは GL-MT6000 とします）で OpenVPN Server を有効にし、デバイスモードを **TAP-S2S** に設定して **Apply** をクリックし、続いて **Export Client Configuration** をクリックします。
 
@@ -43,8 +43,8 @@ GL-MT6000 のネットワーク接続が失われた場合、OpenVPN Server を�
 
 - 両方のデバイスを v4.5 にアップグレードする必要があります。そうしないと接続できません。
 - TAP-S2S は Global Proxy Mode でのみ動作し、OpenVPN を有効にすると自動的に調整されます。
-- この機能を有効にすると、次の機能は使用できません: VPN server、Adguard Home、Parental Control、ZeroTier、Tailscale、Tor、Firewall、Multi-WAN、LAN、DNS、Network Mode、IPv6、MAC Address、Drop-in Gateway、IGMP Snooping など。
+- この機能を有効にすると、次の機能は使用できません: VPN サーバー、Adguard Home、Parental Control、ZeroTier、Tailscale、Tor、Firewall、Multi-WAN、LAN、DNS、Network Mode、IPv6、MAC Address、Drop-in Gateway、IGMP Snooping など。
 
 ---
 
-ご不明な点がある場合は、[Community Forum](https://forum.gl-inet.com){target="_blank"} をご利用いただくか、[Contact us](https://www.gl-inet.com/contacts/){target="_blank"} からお問い合わせください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

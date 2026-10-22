@@ -1,14 +1,14 @@
-# Konfiguracja podwójnego przewodowego portu WAN Ethernet przez adapter Ethernet na USB-A
+# Konfiguracja podwójnego przewodowego portu WAN Ethernet przez adapter Ethernet na USB-A {#configure-dual-wired-ethernet-wan-via-an-ethernet-to-usb-a-adapter}
 
 Możesz skonfigurować podwójny przewodowy dostęp WAN Ethernet na routerze z pojedynczym portem WAN za pomocą adaptera Ethernet na USB-A. 
 
 Routery GL.iNet obsługują popularne adaptery Ethernet na USB-A, umożliwiając konwersję przewodowego dostępu Ethernet z routera ISP na połączenie USB przez port USB routera, zapewniając routerowi dodatkowy przewodowy dostęp Ethernet obok portu WAN.
 
-## Topologia
+## Topologia {#topology}
 
 ![Topology](https://static.gl-inet.com/docs/router/en/4/tutorials/multiwan_wire/adaptor.png){class="glboxshadow"}
 
-## Kroki konfiguracji
+## Kroki konfiguracji {#setup-steps}
 
 1. Podłącz adapter Ethernet na USB-A do portu USB routera GL.iNet i podłącz drugi koniec do routera ISP.
 
@@ -22,7 +22,7 @@ Routery GL.iNet obsługują popularne adaptery Ethernet na USB-A, umożliwiając
 
     Poczekaj na zakończenie instalacji.
 
-    ![installation suceeded](https://static.gl-inet.com/docs/router/en/4/tutorials/multiwan_wire/suceeded.png){class="glboxshadow"}
+    ![installation succeeded](https://static.gl-inet.com/docs/router/en/4/tutorials/multiwan_wire/suceeded.png){class="glboxshadow"}
 
 3. Połącz przez USB Tethering.
 

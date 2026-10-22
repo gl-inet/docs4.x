@@ -1,10 +1,10 @@
-# セキュリティスキャン
+# セキュリティスキャン {#security-scan}
 
 **注**：この機能はファームウェアv4.11で導入されました。
 
 ---
 
-Web管理画面の左側で、**SECURITY** -> **Security Scan**に移動します。
+Web管理パネルの左側で、**SECURITY** -> **Security Scan**に移動します。
 
 セキュリティスキャンは、ルーターのセキュリティを確認します。ルーターのセキュリティ設定を評価し、セキュリティスコア、リスク警告、最適化の提案を表示します。スキャン結果に基づいて設定を調整し、ルーターのセキュリティを強化できます。
 
@@ -38,4 +38,4 @@ Web管理画面の左側で、**SECURITY** -> **Security Scan**に移動しま�
 
 ---
 
-ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} をご利用いただくか、[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} からお問い合わせください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

@@ -1,12 +1,12 @@
-# Przewodnik użytkownika Opal (GL-SFT1200)
+# Przewodnik użytkownika Opal (GL-SFT1200) {#opal-gl-sft1200-user-guide}
 
-## Przegląd produktu
+## Przegląd produktu {#product-overview}
 
 Opal (GL-SFT1200) to kieszonkowy router podróżny obsługujący bezprzewodową prędkość transmisji 1200 Mb/s. Został zaprojektowany w kompaktowej formie do użytku przenośnego i może spełnić potrzeby bezprzewodowego dostępu do Internetu małych firm, małych mieszkań lub podróżujących służbowo.
 
 ![gl-sft1200 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-sft1200/first_time_setup/gl-sft1200.jpg){class="glboxshadow"}
 
-## Zawartość opakowania
+## Zawartość opakowania {#package-contents}
 
 - 1 x Opal (GL-SFT1200)
 - 1 x Instrukcja obsługi
@@ -18,18 +18,18 @@ Opal (GL-SFT1200) to kieszonkowy router podróżny obsługujący bezprzewodową 
 
 ![gl-sft1200 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-sft1200/first_time_setup/sft1200_unboxing.jpg){class="glboxshadow"}
 
-## Jak skonfigurować Opal
+## Jak skonfigurować Opal {#how-to-set-up-opal}
 
 Obejrzyj poniższy film instruktażowy lub postępuj zgodnie z poniższymi krokami.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZAVn92F5RV8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <small>(W tym filmie wykorzystano inny router GL.iNet do demonstracji konfiguracji, ale kroki są takie same dla Opal i innych modeli routerów.)</small>
 
-### 1. Włączenie zasilania
+### 1. Włączenie zasilania {#1-power-on}
 
 Złóż dwuczęściowy zasilacz. Podłącz go do routera i włóż do gniazdka. Router uruchomi się automatycznie.
 
-### 2. Podłączenie urządzenia
+### 2. Podłączenie urządzenia {#2-connect-device}
 
 Podłącz urządzenie (np. komputer, laptop lub smartfon) do routera za pomocą Wi-Fi lub kabla Ethernet.
 
@@ -41,13 +41,13 @@ Podłącz urządzenie (np. komputer, laptop lub smartfon) do routera za pomocą 
 
     Na urządzeniu przejdź do Ustawienia -> WLAN, znajdź nazwę sieci Wi-Fi routera na liście dostępnych sieci i wprowadź hasło. Domyślną nazwę sieci i hasło znajdziesz na etykiecie na spodzie routera.
 
-### 3. Logowanie do panelu administracyjnego
+### 3. Logowanie do panelu administracyjnego {#3-log-in-to-web-admin-panel}
 
 Otwórz przeglądarkę internetową, wpisz `192.168.8.1` w pasku adresu i zaloguj się. Wybierz język i ustaw hasło administratora, a następnie kliknij **Apply**.
 
 Pamiętaj, że jeśli zmienisz dane sieci Wi-Fi, konieczne będzie ponowne połączenie urządzenia z siecią Wi-Fi routera przy użyciu zaktualizowanych danych.
 
-### 4. Konfiguracja Internetu
+### 4. Konfiguracja Internetu {#4-internet-setup}
 
 **Uwaga:** Poniższe instrukcje dotyczą użytkowników konfigurujących router za pomocą panelu administracyjnego GL.iNet. Jeśli wolisz korzystać z aplikacji GL.iNet, [pobierz aplikację](https://www.gl-inet.com/app/){target="_blank"} i postępuj zgodnie z instrukcjami wyświetlanymi na ekranie.
 
@@ -97,7 +97,7 @@ Skonfiguruj router Opal za pomocą jednej z obsługiwanych metod połączenia: E
 
     Szczegółowe instrukcje znajdziesz w artykule [Połączenie z Internetem przez sieć komórkową](../../interface_guide/internet_cellular.md).
 
-## Jak skonfigurować VPN
+## Jak skonfigurować VPN {#how-to-set-up-a-vpn}
 
 VPN (wirtualna sieć prywatna) tworzy bezpieczny, zaszyfrowany ruch między Twoim urządzeniem a serwerem VPN. Zapewnia dodatkową warstwę prywatności i bezpieczeństwa (klient VPN) oraz umożliwia dostęp do sieci zdalnej (serwer VPN). Opal obsługuje OpenVPN, WireGuard i Tor*.
 
@@ -121,7 +121,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, zaszyfrowany ruch między Twoi
 
     **Uwaga:** Opal nie obsługuje Tor natywnie, ale użytkownicy mogą zainstalować Tor ręcznie za pomocą wtyczki. Kliknij [tutaj](../../interface_guide/tor.md#manual-install), aby uzyskać szczegóły.
 
-## Sieć bezprzewodowa i klienci
+## Sieć bezprzewodowa i klienci {#wireless-and-clients}
 
 === "Wireless"
 
@@ -135,7 +135,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, zaszyfrowany ruch między Twoi
 
     Aby zarządzać klientami, zapoznaj się z poradnikiem [Clients](../../interface_guide/clients.md).
 
-## Usługi chmurowe
+## Usługi chmurowe {#cloud-services}
 
 === "GoodCloud"
 
@@ -149,9 +149,9 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, zaszyfrowany ruch między Twoi
     
     Aby skonfigurować AstroWarp, zapoznaj się z poradnikiem [AstroWarp](../../interface_guide/astrowarp.md).
 
-    **Uwaga:** Przed skorzystaniem z tej funkcji zaktualizuj firmware routera do wersji 1.7 lub nowszej.
+    **Uwaga:** Przed skorzystaniem z tej funkcji zaktualizuj firmware routera do wersji 4.8 lub nowszej.
 
-## Aplikacje
+## Aplikacje {#applications}
 
 === "Plug-ins"
 
@@ -171,9 +171,9 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, zaszyfrowany ruch między Twoi
     
     Aby skonfigurować sieciową pamięć masową, zapoznaj się z poradnikiem [Network Storage](../../interface_guide/network_storage.md).
 
-    **Uwaga:** Przed skorzystaniem z tej funkcji zaktualizuj firmware routera do wersji 1.7 lub nowszej.
+    **Uwaga:** Przed skorzystaniem z tej funkcji zaktualizuj firmware routera do wersji 4.8 lub nowszej.
 
-## Ustawienia sieciowe
+## Ustawienia sieciowe {#network-settings}
 
 === "Port Forwarding"
 
@@ -255,7 +255,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, zaszyfrowany ruch między Twoi
 
     Aby skonfigurować ustawienia NAT, zapoznaj się z poradnikiem [NAT Settings](../../interface_guide/nat_settings.md).
 
-## Ustawienia systemowe
+## Ustawienia systemowe {#system-settings}
 
 === "Overview"
 
@@ -350,6 +350,6 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, zaszyfrowany ruch między Twoi
 
     Szczegółowe instrukcje znajdziesz w artykule [Advanced Settings](../../interface_guide/advanced_settings.md).
 
-## Deklaracja zgodności
+## Deklaracja zgodności {#declaration-of-conformity}
 
 Niniejszym GL TECHNOLOGIES (HONG KONG) LIMITED oświadcza, że typ urządzenia radiowego [AC1200 Wireless Travel Router, GL-SFT1200] jest zgodny z zasadniczymi wymaganiami oraz innymi odpowiednimi postanowieniami dyrektywy 2014/53/UE. Pełny tekst deklaracji zgodności UE jest dostępny pod następującym adresem internetowym: [https://www.gl-inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}.

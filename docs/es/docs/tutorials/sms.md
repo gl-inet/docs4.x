@@ -1,10 +1,10 @@
-# SMS
+# SMS {#sms}
 
 Los routers celulares GL.iNet están equipados con un módem integrado que admite el envío y la recepción de mensajes SMS una vez insertada una tarjeta SIM.
 
 **Nota**: Esta función solo funciona en los modelos GL.iNet 4G/5G con el módulo original 4G LTE/5G NR y no es compatible con otros módulos ni con ningún otro módulo USB.
 
-## Modelos compatibles
+## Modelos compatibles {#supported-models}
 
 ??? "Modelos compatibles"
     - GL-E5800 (Mudi 7)
@@ -41,7 +41,7 @@ Los routers celulares GL.iNet están equipados con un módem integrado que admit
     - GL-B1300 (Convexa-B)
     - GL-AP1300 (Cirrus)
 
-## Configuración rápida
+## Configuración rápida {#quick-setup}
 
 Tomemos como ejemplo el GL-X3000 (Spitz AX).
 

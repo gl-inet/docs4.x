@@ -1,4 +1,4 @@
-# AVISO LEGAL DE SOPORTE REMOTO
+# AVISO LEGAL DE SOPORTE REMOTO {#remote-support-disclaimer}
 
 Estimado usuario:
 
@@ -10,7 +10,7 @@ Antes de proceder con cualquier conexión remota, lea detenidamente esta declara
 
 Si no está de acuerdo con los términos de este aviso legal, no se iniciará el acceso remoto. Al continuar con la conexión remota, usted reconoce que comprende plenamente y acepta estos términos.
 
-## I. Finalidad de la conexión remota
+## I. Finalidad de la conexión remota {#i-purpose-of-remote-connection}
 
 Utilizamos la conexión remota exclusivamente para ayudarle a resolver problemas técnicos relacionados con los productos y servicios de GL.iNet, incluidos, entre otros:
 
@@ -20,7 +20,7 @@ Utilizamos la conexión remota exclusivamente para ayudarle a resolver problemas
 
 Nos comprometemos a no ver, recopilar, almacenar ni divulgar ninguno de sus datos personales o privados, archivos ni ningún otro dato no relacionado con el soporte técnico de los productos y servicios de GL.iNet. Tampoco instalaremos ningún software sin su consentimiento.
 
-## II. Alcance autorizado
+## II. Alcance autorizado {#ii-authorized-scope}
 
 Para facilitar la resolución de problemas, usted nos autoriza a:
 
@@ -36,7 +36,7 @@ Para facilitar la resolución de problemas, usted nos autoriza a:
 
    Tras la prestación de nuestro servicio mediante AnyDesk, AnyDesk puede conservar registros de operación. Para más detalles, consulte la [Política de privacidad de AnyDesk](https://anydesk.com.cn/en/privacy){target="blank"}.
 
-## III. Derechos y obligaciones del usuario
+## III. Derechos y obligaciones del usuario {#iii-user-rights-and-obligations}
 
 1. **Derecho de supervisión y finalización**
 
@@ -54,7 +54,7 @@ Para facilitar la resolución de problemas, usted nos autoriza a:
 
    No debe solicitarnos que tratemos o resolvamos problemas que excedan el alcance autorizado o que no estén relacionados con nuestros productos o servicios.
 
-## IV. Exención de responsabilidad
+## IV. Exención de responsabilidad {#iv-disclaimer}
 
 GL.iNet y su personal de soporte técnico no serán responsables en las siguientes situaciones:
 
@@ -82,11 +82,11 @@ GL.iNet y su personal de soporte técnico no serán responsables en las siguient
 
    Usted entiende y acepta que la conexión remota es solo un método auxiliar de resolución de problemas. GL.iNet no garantiza la resolución de todos los problemas técnicos ni que vaya a satisfacer todas sus necesidades.
 
-## V. Resolución de disputas
+## V. Resolución de disputas {#v-dispute-resolution}
 
 La formación, validez, ejecución e interpretación de esta declaración, así como cualquier disputa relacionada, se regirán por las leyes de Hong Kong, China, con exclusión de sus normas sobre conflicto de leyes. En caso de controversia entre usted y nosotros, ambas partes intentarán primero resolverla mediante negociación amistosa. Si las negociaciones no prosperan, usted acepta someter la disputa a la jurisdicción de los tribunales de Hong Kong, China.
 
-## VI. Otros
+## VI. Otros {#vi-other}
 
 1. GL.iNet se reserva el derecho de modificar este aviso legal conforme a las circunstancias reales y de publicar dichas modificaciones en su sitio web oficial sin notificación por separado.
 

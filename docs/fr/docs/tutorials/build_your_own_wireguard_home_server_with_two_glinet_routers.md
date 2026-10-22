@@ -1,4 +1,4 @@
-# Créez votre propre serveur domestique WireGuard avec deux routeurs GL.iNet
+# Créez votre propre serveur domestique WireGuard avec deux routeurs GL.iNet {#build-your-own-wireguard-home-server-with-two-glinet-routers}
 
 Cet article explique comment configurer votre routeur domestique comme serveur VPN WireGuard et votre routeur de voyage comme client VPN WireGuard afin qu'ils se connectent à distance. Vous pourrez ainsi utiliser l'adresse IP de votre domicile avec le routeur de voyage, où que vous soyez.
 
@@ -13,16 +13,16 @@ Dans les étapes suivantes, nous prenons les modèles GL-MT6000 (Flint 2) et GL-
 
 - Le GL-MT3000, un routeur de voyage, sera configuré comme client VPN WireGuard pour se connecter à distance au serveur VPN situé à votre domicile.
 
-## Pourquoi créer votre propre serveur domestique WireGuard
+## Pourquoi créer votre propre serveur domestique WireGuard {#why-you-need-to-build-your-own-wireguard-home-server}
 
 1. Utilisez l'adresse IP de votre domicile comme adresse Internet, comme si vous étiez chez vous.
 2. Aucuns frais mensuels à payer, contrairement à un service VPN tiers.
 3. Faites passer tout le trafic Internet par votre réseau domestique via un tunnel VPN chiffré et protégez votre confidentialité.
 4. Accédez facilement à vos ressources internes et à votre streaming local.
 
-## Préparatifs
+## Préparatifs {#preparations}
 
-### Vérifier si vous disposez d'une adresse IP publique
+### Vérifier si vous disposez d'une adresse IP publique {#check-if-you-have-a-public-ip}
 
 Tout d'abord, assurez-vous que le GL-MT6000 dispose d'une adresse IP publique sur son interface WAN, afin qu'il soit accessible depuis Internet. Sinon, votre routeur de voyage ne pourra pas établir de connexion VPN avec lui pendant vos déplacements.
 
@@ -38,7 +38,7 @@ Si vous ne disposez pas d'une adresse IP publique, voici quelques méthodes poss
 2. Demandez une adresse IP publique à votre FAI. Cela peut entraîner des frais supplémentaires.
 3. Si les deux méthodes ci-dessus ne fonctionnent pas (par exemple si votre réseau est derrière un CGNAT), vous pouvez essayer notre solution SD-WAN [AstroWarp](../interface_guide/astrowarp.md){target="_blank"}.
 
-### Vérifier si une redirection de port est nécessaire
+### Vérifier si une redirection de port est nécessaire {#check-if-port-forwarding-is-required}
 
 ??? "GL.iNet comme routeur principal" 
 
@@ -94,9 +94,9 @@ Si vous ne disposez pas d'une adresse IP publique, voici quelques méthodes poss
 
     **Autres exemples de [Port Forward](how_to_set_up_port_forwarding.md)**
 
-## Configurer le serveur WireGuard
+## Configurer le serveur WireGuard {#set-up-wireguard-server}
 
-### Activer DDNS (facultatif)
+### Activer DDNS (facultatif) {#enable-ddns-optional}
 
 Activez la fonction DDNS si vous n'avez pas d'adresse IP publique statique mais uniquement une adresse IP publique dynamique.
 
@@ -110,7 +110,7 @@ Allez ensuite dans l'onglet **Configuration** de **WireGuard Server**, assurez-v
 
 ![wgserver](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/wgserver-apply.png){class="glboxshadow"}
 
-### Générer la configuration
+### Générer la configuration {#generate-configuration}
 
 Sur la même page, cliquez sur l'onglet **Profiles** à côté de l'onglet **Configuration**, puis cliquez sur **Add** (repéré par le numéro 1 dans l'image ci-dessous).
 
@@ -120,7 +120,7 @@ Dans la fenêtre contextuelle, activez **DDNS Domain** (repéré par le numéro 
 
 ![wgservergen](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/wgconfiggen.jpg){class="glboxshadow"}
 
-Vous pouvez ensuite scanner le code QR à l'aide de l'[application mobile](https://www.wireguard.com/install/) WireGuard pour tester le serveur. Pour plus de détails, cliquez [ici](../interface_guide/wireguard_server.md/#check-if-wireguard-server-is-working-properly).
+Vous pouvez ensuite scanner le code QR à l'aide de l'[application mobile](https://www.wireguard.com/install/) WireGuard pour tester le serveur. Pour plus de détails, cliquez [ici](../interface_guide/wireguard_server.md#check-if-wireguard-server-is-working-properly).
 
 Vous pouvez aussi exporter une configuration au format texte pour la connexion du client VPN.
 
@@ -130,9 +130,9 @@ Copiez le texte destiné au client, ou cliquez sur le bouton Download et enregis
 
 ![configload](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/configload.jpg){class="glboxshadow"}
 
-## Configurer le client VPN WireGuard
+## Configurer le client VPN WireGuard {#set-up-wireguard-client}
 
-### Changer l'adresse IP LAN
+### Changer l'adresse IP LAN {#change-the-lan-ip}
 
 Dans ce tutoriel, nous utilisons les GL-MT6000 et GL-MT3000 comme exemples. Leur adresse IP LAN par défaut est **192.168.8.1** pour les deux, nous devons donc modifier l'une d'elles afin d'éviter un conflit. 
 
@@ -144,7 +144,7 @@ Connectez-vous au panneau d'administration Web du GL-MT3000, puis allez dans **N
 
 Pour plus de détails sur l'interface LAN, cliquez [ici](../interface_guide/lan.md).
 
-### Ajouter la configuration
+### Ajouter la configuration {#add-the-configuration}
 
 Dans le panneau d'administration Web du GL-MT3000, allez dans **VPN** -> **WireGuard Client**, puis cliquez sur **Add Manually**.
 
@@ -168,7 +168,7 @@ Le fichier de configuration s'affichera sur la page **WireGuard Client** une foi
 
 ![addwgclient6](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/addwgclient-6.png){class="glboxshadow"}
 
-### Démarrer la connexion
+### Démarrer la connexion {#start-the-connection}
 
 Cliquez sur l'icône à trois points puis sur **Start**.
 
@@ -190,7 +190,7 @@ Reconnectez-vous au panneau d'administration web du GL-MT6000 (le serveur WireGu
 ![servercon](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/wgservercon-4.7.jpg){class="glboxshadow"}
 <small>(Page VPN Dashboard dans le firmware v4.7 et antérieur)</small>
 
-## Préparer le dépannage VPN à distance
+## Préparer le dépannage VPN à distance {#prep-for-remote-vpn-fixes-ahead}
 
 En cas de problème imprévu pendant vos déplacements, associez à l'avance les deux routeurs à votre compte GoodCloud afin de faciliter le dépannage VPN à distance.
 

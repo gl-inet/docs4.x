@@ -1,6 +1,6 @@
-# Network Storage
+# Network Storage {#network-storage}
 
-## Einführung
+## Einführung {#introduction}
 
 Mit Network Storage können Dateien drahtlos zwischen Geräten freigegeben werden, indem Sie ein USB-Laufwerk oder eine SD-Karte an Ihren Router anschließen. Der Router stellt das Speichergerät als freigegebenes Netzlaufwerk bereit, auf das alle über Wi-Fi verbundenen Geräte zugreifen können.
 
@@ -14,7 +14,7 @@ Einige GL.iNet-Modelle verfügen über einen MicroSD(TF)-Kartenslot, andere übe
 
     3. Im webbasierten Admin Panel können Sie nur freigegebene Ordner verwalten. Um Dateien auf Ihrem Speichergerät zu verwalten, verwenden Sie bitte die [mobile app](https://www.gl-inet.com/app/#download-app-glinet){target="_blank"}.
 
-## Unterstützte Modelle
+## Unterstützte Modelle {#supported-models}
 
 In der Regel unterstützen Modelle mit USB-Port oder MicroSD(TF)-Slot Network Storage, also die Dateifreigabe.
 
@@ -160,7 +160,7 @@ Schließen Sie das Speichergerät an. Sobald es erkannt wurde, wird die Seite wi
 
 ---
 
-## Samba-Client
+## Samba-Client {#samba-client}
 
 === "Windows"
 
@@ -244,7 +244,7 @@ Schließen Sie das Speichergerät an. Sobald es erkannt wurde, wird die Seite wi
 
         ![ios files set up SMB](https://static.gl-inet.com/docs/router/de/4/interface_guide/network_storage/samba_client/ios_files_smb_1.png){class="glboxshadow" width="560"}
 
-        Tippen Sie oben im Menü auf **Connect to Server**. Geben Sie auf dem nächsten Bildschirm die URL für die Serververbindung ein. Sie finden die URL unter [Shared Link](#shared-link). Tippen Sie oben rechts auf **Next**, um fortzufahren.
+        Tippen Sie oben im Menü auf **Connect to Server**. Geben Sie auf dem nächsten Bildschirm die URL für die Serververbindung ein. Sie finden die URL unter [Shared Link](#set-up-samba). Tippen Sie oben rechts auf **Next**, um fortzufahren.
 
         ![ios files set up SMB](https://static.gl-inet.com/docs/router/de/4/interface_guide/network_storage/samba_client/ios_files_smb_2.png){class="glboxshadow" width="560"}
 
@@ -280,7 +280,7 @@ Schließen Sie das Speichergerät an. Sobald es erkannt wurde, wird die Seite wi
 
         ![documents samba](https://static.gl-inet.com/docs/router/de/4/interface_guide/network_storage/samba_client/documents_4_samba.png){class="glboxshadow" width="560"}
 
-## WebDAV-Client
+## WebDAV-Client {#webdav-client}
 
 === "Windows"
 
@@ -366,7 +366,7 @@ Schließen Sie das Speichergerät an. Sobald es erkannt wurde, wird die Seite wi
 
     ![documents WebDAV](https://static.gl-inet.com/docs/router/de/4/interface_guide/network_storage/webdav_client/documents_4_webdav.png){class="glboxshadow" width="560"}
 
-## Mobile App verwenden
+## Mobile App verwenden {#using-mobile-app}
 
 Im webbasierten Admin Panel können Sie nur freigegebene Ordner verwalten. Um Dateien auf Ihrem Speichergerät zu verwalten, verwenden Sie bitte die [mobile app](https://www.gl-inet.com/app/#download-app-glinet){target="_blank"}.
 

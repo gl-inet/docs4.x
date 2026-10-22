@@ -1,10 +1,10 @@
-# AmneziaWG Obfuscation
+# AmneziaWG Obfuscation {#amneziawg-obfuscation}
 
 AmneziaWG is a WireGuard-based VPN protocol featuring built-in traffic obfuscation. Its obfuscation parameters control how traffic is disguised to evade detection under restrictive network inspection.
 
 Below is a detailed introduction of AmneziaWG, version differences, AmneziaWG on GL.iNet routers, and parameters overview.
 
-## Why AmneziaWG?
+## Why AmneziaWG? {#why-amneziawg}
 
 The predecessor of AmneziaWG, WireGuard, has established itself as a fast and reliable VPN protocol thanks to its compact codebase and high efficiency. However, its fixed packet headers and predictable packet sizes create an easily recognizable signature. DPI systems can effortlessly identify these packets and immediately terminate connections — a critical issue in countries with strict internet censorship.
 
@@ -16,7 +16,7 @@ In short:
 
 - It makes your VPN connection appear as standard web traffic, improving connection stability and success rate in restricted networks.
 
-## AmneziaWG V2.0
+## AmneziaWG V2.0 {#amneziawg-v20}
 
 Compared with AmneziaWG v1.0, v2.0 provides stronger obfuscation by adding new parameters (**S3~S4**) and using dynamic headers for packet types (**H1~H4** as ranges instead of fixed values). In addition, AmneziaWG 2.0 supports the **I1~I5** parameters, which send formatted UDP packets before each handshake to disguise AmneziaWG traffic as ordinary non‑VPN traffic, effectively bypassing deep packet inspection and enhancing connectivity in restricted networks. 
 
@@ -36,13 +36,13 @@ These enhancements make VPN traffic more difficult to detect while preserving Wi
             
     > Note: I1-I5 are not auto-generated. Users can manually add them as extra lines in the configuration file to make AmneziaWG traffic look like other common protocols, such as QUIC or WebRTC.
 
-## Supported Model
+## Supported Model {#supported-model}
 
 AmneziaWG 2.0 is available on GL.iNet routers with firmware v4.9 or later.
 
 To set up VPN obfuscation on GL.iNet routers, refer to [this tutorial](../tutorials/how_to_set_up_vpn_obfuscation_on_glinet_routers.md).
 
-## Parameter Overview
+## Parameter Overview {#parameter-overview}
 
 | Parameter    | Description                    | Constraints     | Auto-generated   |
 | ------------ | ------------------------------ | --------------- | ---------------- |

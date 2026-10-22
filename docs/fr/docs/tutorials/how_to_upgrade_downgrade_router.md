@@ -1,4 +1,4 @@
-# Comment mettre à niveau ou rétrograder manuellement le firmware de votre routeur (de v4.x à v4.x) ?
+# Comment mettre à niveau ou rétrograder manuellement le firmware de votre routeur (de v4.x à v4.x) ? {#how-to-manually-upgrade-or-downgrade-your-router-firmware-from-v4x-to-v4x}
 
 Ce tutoriel vous montre **comment mettre à niveau ou rétrograder manuellement le firmware de votre routeur (de v4.x à v4.x)**. Les étapes pour mettre à niveau et rétrograder manuellement le firmware de votre routeur sont identiques.
 
@@ -10,17 +10,17 @@ Ce tutoriel vous montre **comment mettre à niveau ou rétrograder manuellement 
 
     **Rétrogradation :** Vous pouvez rétrograder le firmware de votre routeur pour résoudre certains problèmes.
 
-## 1. Vérifier si votre routeur exécute la dernière version du firmware (uniquement pour la mise à niveau)
+## 1. Vérifier si votre routeur exécute la dernière version du firmware (uniquement pour la mise à niveau) {#1-check-if-your-router-is-running-the-latest-firmware-version-only-for-upgrade}
 
 1. Dans un navigateur web, entrez l'URL du panneau d'administration de votre routeur (par exemple, 192.168.8.1) et connectez-vous.
 2. Dans la barre latérale gauche, sélectionnez **SYSTEM** > **Upgrade**.  
 
-## 2. Télécharger le fichier de firmware
+## 2. Télécharger le fichier de firmware {#2-download-the-firmware-file}
 
 1. Dans la barre de recherche du [centre de téléchargement de firmware](https://dl.gl-inet.com/), recherchez et sélectionnez le modèle de votre routeur.
 2. Dans l'onglet **Stable** ou d'autres onglets, sélectionnez **DOWNLOAD FOR COMMON UPGRADE AND U-BOOT** à côté de la version de firmware que vous souhaitez télécharger. 
 
-## 3. Téléverser le firmware
+## 3. Téléverser le firmware {#3-upload-the-firmware}
 
 Les instructions suivantes ont été rédigées pour téléverser votre firmware via le panneau d'administration du routeur. (Pour téléverser votre firmware via l'application mobile GL.iNet, [téléchargez l'application](https://www.gl-inet.com/app/) et configurez-la.)
 

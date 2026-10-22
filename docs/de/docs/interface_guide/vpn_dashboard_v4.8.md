@@ -1,4 +1,4 @@
-# VPN Dashboard (Firmware v4.8)
+# VPN Dashboard (Firmware v4.8) {#vpn-dashboard-firmware-v48}
 
 Der Inhalt dieser Seite basiert auf Firmwareversion v4.8.x. Wenn auf Ihrem Gerät eine andere Firmwareversion ausgeführt wird, verwenden Sie die folgende Auswahl, um zur entsprechenden Anleitung zu wechseln.
 
@@ -16,7 +16,7 @@ Das VPN Dashboard zeigt Verbindungsdetails wie Tunnel-Regeln, Serveradresse, Dat
 
 Sie können außerdem mehrere VPN-Verbindungen für Multi-Tunnel-Szenarien aktivieren.
 
-## Einrichtungsassistent
+## Einrichtungsassistent {#setup-wizard}
 
 Klicken Sie oben links auf das Buchsymbol und folgen Sie dem VPN Setup Wizard, um die VPN-Konfiguration schnell abzuschließen.
 
@@ -44,7 +44,7 @@ Alle verbundenen Clients greifen über diesen VPN-Tunnel auf das Internet zu.
 
 Wenn Sie VPN-Richtlinien konfigurieren möchten, lesen Sie bitte [Policy Mode](#policy-mode).
 
-## VPN Mode
+## VPN Mode {#vpn-mode}
 
 Klicken Sie im VPN Dashboard oben rechts auf die Schaltfläche, um zwischen den VPN-Modi zu wechseln.
 
@@ -54,7 +54,7 @@ Es stehen zwei Modi zur Verfügung: **Global Mode** und **Policy Mode**.
 
 ![vpn mode](https://static.gl-inet.com/docs/router/de/4/interface_guide/vpn_dashboard/4.8/global_mode.png){class="glboxshadow"}
 
-### Global Mode
+### Global Mode {#global-mode}
 
 In diesem Modus wird der gesamte Datenverkehr durch den VPN-Tunnel geleitet, und es kann nur eine VPN-Client-Instanz aktiviert werden.
 
@@ -64,7 +64,7 @@ Im folgenden Beispiel verbindet sich der Router per WireGuard mit einem australi
 
 ![connected global mode](https://static.gl-inet.com/docs/router/de/4/interface_guide/vpn_dashboard/4.8/connected-global-mode.png){class="glboxshadow"}
 
-#### Tunnel Options
+#### Tunnel Options {#tunnel-options}
 
 Sie können für Ihren VPN-Tunnel erweiterte Einstellungen wie VPN Kill Switch, IP-Maskierung und MTU konfigurieren.
 
@@ -82,9 +82,13 @@ Klicken Sie oben rechts auf das Zahnradsymbol.
 
 - **IP Masquerading**: Wenn aktiviert, werden die Quell-IP-Adressen von LAN-Clients auf die VPN-Tunnel-IP des Routers umgeschrieben. Deaktivieren Sie dies nur bei Site-to-Site-Setups, in denen der entfernte Peer Ihre LAN-Subnetze kennt.
 
+    Wie unten dargestellt: Wenn IP-Maskierung aktiviert ist und der Laptop (192.168.10.200) im Reise-LAN Datenverkehr über den Tunnel an das NAS (192.168.8.100) im Heim-LAN sendet, schreibt der Reiserouter die Quell-IP von `192.168.10.200` in die Tunneladresse des VPN-Clients `10.1.0.2` um. Die Serverseite sieht dadurch, dass der Datenverkehr vom Client stammt und nicht aus dessen lokalem LAN.
+
+    ![ip masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/ip_masquerading.png){class="glboxshadow"}
+
 - **MTU**: Kurz für Maximum Transmission Unit. Der MTU-Wert, den Sie für den Tunnel festlegen, überschreibt den in der Konfigurationsdatei definierten Wert.
 
-### Policy Mode
+### Policy Mode {#policy-mode}
 
 In diesem Modus kann sich der Router mit mehreren VPN-Servern verbinden, und Sie können benutzerdefinierte Routing-Regeln für verschiedene Clients oder Datenverkehrsziele festlegen.
 
@@ -104,7 +108,7 @@ Klicken Sie auf den entsprechenden Bereich, um mehr zu erfahren.
 - [Add Tunnel](#add-tunnel)
 - [All Other Traffic](#all-other-traffic)
 
-#### Primary Tunnel
+#### Primary Tunnel {#primary-tunnel}
 
 Der Primary Tunnel ist ein <u>voreingestellter</u> Tunnel im Policy Mode. Er hat die höchste Priorität. Wenn es mehr als einen Tunnel gibt, können Sie die [Tunnel-Priorität](#tunnel-priority) ändern.
 
@@ -214,7 +218,7 @@ Im folgenden Beispiel lautet die Primary-Tunnel-Regel: Alle Clients verwenden da
 
 **Hinweis**: Prüfen Sie aus Sicherheitsgründen vor dem Aktivieren der Tunnel bitte die Einstellungen unter [All Other Traffic](#all-other-traffic) und [Tunnel Options](#tunnel-options_1).
 
-#### Add Tunnel
+#### Add Tunnel {#add-tunnel}
 
 Um zusätzliche Tunnel für mehrere VPN-Instanzen zu erstellen, klicken Sie unter dem Primary Tunnel auf **Add Tunnel** und konfigurieren benutzerdefinierte Regeln.
 
@@ -234,7 +238,7 @@ Passen Sie die Tunnel-Regeln an, indem Sie Datenverkehrsquelle, Ziele und Routin
 
 **Hinweis**: Prüfen Sie aus Sicherheitsgründen vor dem Aktivieren der Tunnel bitte die Einstellungen unter [All Other Traffic](#all-other-traffic) und [Tunnel Options](#tunnel-options_1).
 
-#### All Other Traffic
+#### All Other Traffic {#all-other-traffic}
 
 Im Policy Mode wird am unteren Rand des VPN Dashboard ein <u>voraktivierter</u> Tunnel angezeigt.
 
@@ -250,7 +254,7 @@ Dieser Tunnel steuert, ob Datenverkehr, der keiner der oben genannten VPN-Tunnel
 
     ![all other traffic off](https://static.gl-inet.com/docs/router/de/4/interface_guide/vpn_dashboard/4.9/all_other_traffic_off.png){class="glboxshadow"}
 
-#### Tunnel Priority
+#### Tunnel Priority {#tunnel-priority}
 
 Standardmäßig hat der voreingestellte Primary Tunnel die höchste Priorität, gefolgt von manuell hinzugefügten Tunneln (falls vorhanden) und danach dem Tunnel All Other Traffic, um die lokale Netzwerkverbindung über das lokale WAN sicherzustellen.
 
@@ -276,7 +280,7 @@ Klicken Sie rechts auf das Symbol mit den drei Linien und halten Sie es gedrück
     - Wenn aktiviert, leitet er nicht zugeordneten oder per Failover übernommenen Datenverkehr über das lokale WAN.
     - Wenn deaktiviert, verstärkt er die Wirkung des Kill Switch und blockiert den normalen Internetzugang, um IP-Lecks zu verhindern.
 
-#### Tunnel Options
+#### Tunnel Options {#tunnel-options_1}
 
 Sie können für jeden VPN-Tunnel erweiterte Einstellungen wie VPN Kill Switch, IP-Maskierung und MTU konfigurieren.
 
@@ -293,6 +297,10 @@ Klicken Sie auf das Zahnradsymbol neben einem Tunnelnamen und wählen Sie **Opti
 - **Allow Remote Access the LAN Subnet**: Wenn aktiviert, ist der Fernzugriff auf diesen Router und seine LAN-Geräte über VPN erlaubt. Der VPN-Server muss eine Route zum LAN-Subnetz dieses Routers bekanntgeben.
 
 - **IP Masquerading**: Wenn aktiviert, werden die Quell-IP-Adressen von LAN-Clients auf die VPN-Tunnel-IP des Routers umgeschrieben. Deaktivieren Sie dies nur bei Site-to-Site-Setups, in denen der entfernte Peer Ihre LAN-Subnetze kennt.
+
+    Wie unten dargestellt: Wenn IP-Maskierung aktiviert ist und der Laptop (192.168.10.200) im Reise-LAN Datenverkehr über den Tunnel an das NAS (192.168.8.100) im Heim-LAN sendet, schreibt der Reiserouter die Quell-IP von `192.168.10.200` in die Tunneladresse des VPN-Clients `10.1.0.2` um. Die Serverseite sieht dadurch, dass der Datenverkehr vom Client stammt und nicht aus dessen lokalem LAN.
+
+    ![ip masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/ip_masquerading.png){class="glboxshadow"}
 
 - **MTU**: Kurz für Maximum Transmission Unit. Der MTU-Wert, den Sie für den Tunnel festlegen, überschreibt den in der Konfigurationsdatei definierten Wert.
 

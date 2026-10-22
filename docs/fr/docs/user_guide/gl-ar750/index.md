@@ -1,23 +1,23 @@
-# Guide d'utilisation du Creta (GL-AR750)
+# Guide d'utilisation du Creta (GL-AR750) {#creta-gl-ar750-user-guide}
 
-## Aperçu du produit
+## Aperçu du produit {#product-overview}
 
 Creta (GL-AR750) est un routeur de voyage AC double bande. La double bande simultanée prend en charge un débit sans fil allant jusqu'à 733Mbps (2.4GHz : 300Mbps + 5GHz : 433Mbps). Creta peut transformer un réseau public en Wi‑Fi privé pour une navigation sécurisée. Le stockage externe prend en charge les cartes MicroSD jusqu'à 128GB. OpenWrt/LEDE et OpenVPN sont préinstallés. Creta offre ainsi aux utilisateurs soucieux de leur confidentialité une solution VPN rapide et simple basée sur une cryptographie de pointe.
 
 ![ar750 overview](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar750/product_info/ar750_overview.png){class="glboxshadow"}
 
-### Spécifications
+### Spécifications {#specifications}
 
 [Spécifications du GL-AR750](https://www.gl-inet.com/products/gl-ar750/#specs){target="_blank"}
 
-## Configuration initiale du Creta
+## Configuration initiale du Creta {#how-to-set-up-creta}
 
 Pour configurer le Creta, utilisez l'une des quatre méthodes de connexion Internet prises en charge : Ethernet, Repeater, Tethering et Cellular. Regardez cette vidéo de configuration ou suivez les étapes ci-dessous.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3dm0w5kjAlc?si=3YykOcaz_YK_vp28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <small>(Cette vidéo utilise un autre routeur GL.iNet pour illustrer la configuration, mais les étapes sont identiques pour le Creta et les autres modèles de routeurs.)</small>
 
-### 1. Mettre Creta sous tension
+### 1. Mettre Creta sous tension {#1-power-on-creta}
 
 Branchez le câble d'alimentation Micro USB sur le port d'alimentation du routeur. Assurez-vous d'utiliser un adaptateur secteur standard 5V/2A.
 
@@ -25,7 +25,7 @@ Branchez le câble d'alimentation Micro USB sur le port d'alimentation du routeu
 
     Le branchement à chaud des cartes TF n'est pas pris en charge. Si vous souhaitez utiliser une carte TF, insérez-la avant de mettre le routeur sous tension.
 
-### 2. Connecter votre appareil à Creta
+### 2. Connecter votre appareil à Creta {#2-connect-your-device-to-creta}
 
 Connectez votre ordinateur ou votre appareil mobile au routeur via le Wi‑Fi ou Ethernet.
 
@@ -37,15 +37,15 @@ Connectez votre ordinateur ou votre appareil mobile au routeur via le Wi‑Fi ou
 
     Connectez votre appareil au port LAN du routeur à l'aide d'un câble Ethernet.
 
-### 3. Connecter Creta à Internet
+### 3. Connecter Creta à Internet {#3-connect-creta-to-the-internet}
 
 **Note:** Les instructions ci-dessous s'adressent aux utilisateurs qui connectent le routeur à Internet via le panneau d'administration web. Si vous préférez utiliser l'application GL.iNet plutôt que le panneau d'administration web, [téléchargez l'application](https://www.gl-inet.com/app/){target="_blank"} et suivez les instructions à l'écran.
 
-#### 1. Se connecter au panneau d'administration web du routeur
+#### 1. Se connecter au panneau d'administration web du routeur {#1-log-in-to-the-router-web-admin-panel}
 
 Dans la barre d'adresse d'un navigateur web, saisissez `192.168.8.1`. Choisissez votre langue, puis cliquez sur **Next**. Définissez votre mot de passe administrateur, puis cliquez sur **Apply**.
 
-#### 2. Configurer la ou les méthodes de connexion Internet
+#### 2. Configurer la ou les méthodes de connexion Internet {#2-set-up-your-internet-connection-methods}
 
 === "Ethernet"
 
@@ -91,7 +91,7 @@ Dans la barre d'adresse d'un navigateur web, saisissez `192.168.8.1`. Choisissez
 
 ---
 
-## Configurer un VPN
+## Configurer un VPN {#how-to-set-up-a-vpn}
 
 Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre votre appareil et le serveur VPN. Il ajoute une couche supplémentaire de confidentialité et de sécurité (client VPN) et permet d'accéder à un réseau distant (serveur VPN). Creta, comme les autres routeurs GL.iNet, prend en charge OpenVPN et WireGuard.
 
@@ -111,7 +111,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
 ---
 
-## Applications supplémentaires
+## Applications supplémentaires {#more-applications}
 
 === "Plug-ins"
 
@@ -127,7 +127,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
 ---
 
-## Paramètres réseau
+## Paramètres réseau {#network-settings}
 
 === "Firewall"
 
@@ -220,7 +220,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     Pour des instructions détaillées et plus d'informations, consultez [IGMP Snooping](../../interface_guide/igmp_snooping.md).
 
-## Paramètres système
+## Paramètres système {#system-settings}
 
 === "Overview"
 

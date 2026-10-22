@@ -1,4 +1,4 @@
-# Impossible de se connecter à un serveur WireGuard obfusqué
+# Impossible de se connecter à un serveur WireGuard obfusqué {#cannot-connect-to-an-obfuscated-wireguard-server}
 
 L'obfuscation VPN est une technique qui fait ressembler le trafic VPN à du trafic Internet ordinaire. Certains routeurs GL.iNet prennent actuellement en charge le protocole AmneziaWG, ce qui permet de configurer un serveur WireGuard avec obfuscation du trafic activée.
 

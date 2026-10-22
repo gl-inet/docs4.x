@@ -1,6 +1,6 @@
-# Guide d'utilisation de Beryl 7 (GL-MT3600BE)
+# Guide d'utilisation de Beryl 7 (GL-MT3600BE) {#beryl-7-gl-mt3600be-user-guide}
 
-## Aperçu du produit
+## Aperçu du produit {#product-overview}
 
 Beryl 7 (GL-MT3600BE) est un routeur de voyage portable bi-bande Wi‑Fi 7, spécialement conçu pour les usages mobiles comme les voyages d'affaires et les vacances. Version améliorée du Beryl AX, il prend en charge les technologies Wi‑Fi 7 telles que le Multi-Link Operation (MLO) et le 4K QAM, avec des débits théoriques bi-bande atteignant 688 Mbps (2,4 GHz) + 2882 Mbps (5 GHz), suffisants pour répondre à des besoins très rapides comme le streaming 8K et le jeu mobile.
 
@@ -8,7 +8,7 @@ Beryl 7 (GL-MT3600BE) est un routeur de voyage portable bi-bande Wi‑Fi 7, spé
 
 ![gl-mt3600be interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3600be/hardware_info/mt3600be_interface.png){class="glboxshadow"}
 
-## Contenu du colis
+## Contenu du colis {#package-contents}
 
 - 1 x Beryl 7 (GL-MT3600BE)
 - 1 x Adaptateur secteur
@@ -21,17 +21,17 @@ Regardez ci-dessous la vidéo de déballage du Beryl 7.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xZHmP3B8VlA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Comment configurer Beryl 7
+## Comment configurer Beryl 7 {#how-to-set-up-beryl-7}
 
 Regardez cette vidéo de configuration ou suivez les étapes ci-dessous. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ey-Z3MEOPpw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Mise sous tension
+### 1. Mise sous tension {#1-power-on}
 
 Assemblez les deux parties de l'adaptateur secteur. Branchez-le à votre routeur puis sur une prise électrique. Il démarre automatiquement.
 
-### 2. Connecter un appareil
+### 2. Connecter un appareil {#2-connect-device}
 
 Connectez votre ordinateur ou votre appareil mobile au routeur via le Wi-Fi ou Ethernet.
 
@@ -43,11 +43,11 @@ Connectez votre ordinateur ou votre appareil mobile au routeur via le Wi-Fi ou E
 
     Sur votre appareil, accédez à Settings -> WLAN, repérez le nom du réseau Wi-Fi du routeur dans la liste des réseaux disponibles, puis saisissez le mot de passe pour vous y connecter. (Vous trouverez le nom de réseau et le mot de passe par défaut imprimés sur l'étiquette.)
 
-### 3. Se connecter au panneau d'administration web
+### 3. Se connecter au panneau d'administration web {#3-log-in-to-web-admin-panel}
 
 Ouvrez un navigateur web, saisissez `192.168.8.1` dans la barre d'adresse et connectez-vous. Choisissez une langue, définissez votre mot de passe administrateur, puis cliquez sur **Apply**.
 
-### 4. Configuration de la connexion Internet
+### 4. Configuration de la connexion Internet {#4-internet-setup}
 
 **Remarque :** Les instructions suivantes s'appliquent aux utilisateurs qui configurent le routeur via le panneau d'administration web GL.iNet. Si vous préférez utiliser l'application GL.iNet, [téléchargez l'application](https://www.gl-inet.com/app/){target="_blank"} et suivez les instructions à l'écran.
 
@@ -101,7 +101,7 @@ Configurez votre Beryl 7 en utilisant l'une des méthodes de connexion Internet 
 
 Vous trouverez ci-dessous un aperçu des fonctionnalités du panneau d'administration web du Beryl 7.
 
-## Réseau sans fil
+## Réseau sans fil {#wireless}
 
 La page Wireless vous permet de configurer les réseaux Wi-Fi 5 GHz et 2.4 GHz, notamment l'activation du Wi-Fi, le réglage de la puissance TX, le nom du Wi-Fi (SSID), l'activation du BSSID aléatoire, le mode de sécurité Wi-Fi et le mot de passe, la visibilité du SSID, ainsi que le mode Wi-Fi, la bande passante et le canal.
 
@@ -109,13 +109,13 @@ En outre, Beryl 7 prend en charge le Wi‑Fi MLO, c'est-à-dire Multi-Link Opera
 
 Pour configurer le réseau sans fil, consultez [Réseau sans fil](../../interface_guide/wireless.md).
 
-## Clients
+## Clients {#clients}
 
 La page Clients affiche des informations sur les appareils connectés. Pour chaque client, elle indique le nom, les adresses IP et MAC, les vitesses de téléchargement et d'envoi, le trafic total, et permet également de bloquer le client ou d'effectuer d'autres actions.
 
 Pour configurer les clients, consultez [Clients](../../interface_guide/clients.md).
 
-## Services Cloud
+## Services Cloud {#cloud-services}
 
 === "GoodCloud"
 
@@ -129,7 +129,7 @@ Pour configurer les clients, consultez [Clients](../../interface_guide/clients.m
     
     Pour configurer AstroWarp, consultez [AstroWarp](../../interface_guide/astrowarp.md).
 
-## VPN 
+## VPN {#vpn}
 
 Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre votre appareil et le serveur VPN. Il ajoute une couche supplémentaire de confidentialité et de sécurité (client VPN) et vous permet d'accéder à un réseau distant (serveur VPN). Le Beryl 7 prend en charge OpenVPN, WireGuard et Tor.
 
@@ -153,7 +153,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
     
     * [Comment configurer Tor](../../interface_guide/tor.md)
 
-## Applications
+## Applications {#applications}
 
 === "Plug-ins"
 
@@ -199,7 +199,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
     
     Pour configurer Tailscale, consultez [Tailscale](../../interface_guide/tailscale.md).
 
-## Réseau
+## Réseau {#network}
 
 === "Redirection de ports"
 
@@ -282,7 +282,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     Pour configurer les paramètres NAT, consultez [Paramètres NAT](../../interface_guide/nat_settings.md).
 
-## Système
+## Système {#system}
 
 === "Aperçu"
 
@@ -377,6 +377,6 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     Veuillez consulter [Advanced Settings](../../interface_guide/advanced_settings.md) pour des instructions détaillées.
 
-## Déclaration UE de conformité
+## Déclaration UE de conformité {#declaration-of-conformity}
 
 Par la présente, GL TECHNOLOGIES (HONG KONG) LIMITED déclare que l'équipement radio de type [BE3600 Dual-band Wi-Fi7 Travel Router, GL-MT3600BE] est conforme aux exigences essentielles et aux autres dispositions pertinentes de la directive 2014/53/UE. Le texte complet de la déclaration UE de conformité est disponible à l'adresse internet suivante: [https://www.gl-inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}.

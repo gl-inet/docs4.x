@@ -60,9 +60,7 @@
 2. У розділі **Settings** увімкніть перемикач **Block**.
 ![Увімкнення перемикача Block](https://static.gl-inet.com/docs/router/en/4/tutorials/how-to-block-client-devices/settings-toggle-block-to-on.jpeg){class="glboxshadow"}
 
-Якщо потрібних пристроїв немає у списках, [додайте їхні MAC-адреси до списку блокування](#method-2-block-devices-with-their-mac-addresses-1).
-
-<span id="method-2-block-devices-with-their-mac-addresses-1"></span>
+Якщо потрібних пристроїв немає у списках, [додайте їхні MAC-адреси до списку блокування](#mobile-2).
 
 ### Спосіб 2: блокування за MAC-адресами пристроїв {#mobile-2}
 

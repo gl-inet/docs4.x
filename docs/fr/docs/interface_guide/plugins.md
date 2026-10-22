@@ -1,4 +1,4 @@
-# Plug-ins
+# Plug-ins {#plug-ins}
 
 Dans le panneau d'administration web, accédez à **APPLICATIONS** -> **Plug-ins**.
 

@@ -1,15 +1,15 @@
-# Tor
+# Tor {#tor}
 
-Tor, derivato da **The Onion Router**, e' un software gratuito e open-source per consentire comunicazioni anonime. Aiuta gli utenti a esplorare Internet con maggiore privacy. [Scopri di piu' su Tor](https://www.torproject.org/){target="_blank"}.
+Tor, derivato da **The Onion Router**, è un software gratuito e open-source per consentire comunicazioni anonime. Aiuta gli utenti a esplorare Internet con maggiore privacy. [Scopri di più su Tor](https://www.torproject.org/){target="_blank"}.
 
-**Nota**: questa funzione e' attualmente in beta e puo' risultare problematica in alcuni paesi. Quando Tor e' abilitato, le seguenti funzioni non opereranno correttamente:
+**Nota**: questa funzione è attualmente in beta e può risultare problematica in alcuni paesi. Quando Tor è abilitato, le seguenti funzioni non opereranno correttamente:
 
   - VPN
   - DNS
   - IPv6
   - ADGuard Home.
 
-## Modelli supportati
+## Modelli supportati {#supported-models}
 
 ??? "Modelli supportati"
     - GL-MT6000 (Fortify)
@@ -49,23 +49,23 @@ Tor, derivato da **The Onion Router**, e' un software gratuito e open-source per
     - GL-B1300 (Convexa-B)
     - GL-X300B (Collie)
 
-## Configurazione rapida
+## Configurazione rapida {#quick-setup}
 
 Sul lato sinistro del pannello di amministrazione web, vai su **VPN** -> **Tor**.
 
-Per il firmware ver.4.8.4 e successivi, vai su **APPLICATIONS** -> **Tor**.
+Per il firmware v4.8.4 e successivi, vai su **APPLICATIONS** -> **Tor**.
 
 Fai clic sull'interruttore per abilitarlo, abilita **Custom Exit Nodes** se necessario, quindi fai clic su **Apply**.
 
 ![enable tor](https://static.gl-inet.com/docs/router/en/4/interface_guide/tor/enable_tor.png){class="glboxshadow"}
 
-Iniziera' a connettersi. Se la tua rete soddisfa i requisiti, verra' mostrato lo stato di connessione riuscita.
+Inizierà a connettersi. Se la tua rete soddisfa i requisiti, verrà mostrato lo stato di connessione riuscita.
 
 ![tor connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/tor/connected.png){class="glboxshadow" width="672"}
 
 ## Installazione manuale {#manual-install}
 
-**Nota**: su alcuni modelli Tor puo' essere installato manualmente tramite plug-in, ma questo puo' aumentare il carico della CPU e rallentare la risposta del sistema.
+**Nota**: su alcuni modelli Tor può essere installato manualmente tramite plug-in, ma questo può aumentare il carico della CPU e rallentare la risposta del sistema.
 
 Sul lato sinistro del pannello di amministrazione web, vai su **APPLICATIONS** -> **Plug-ins**.
 

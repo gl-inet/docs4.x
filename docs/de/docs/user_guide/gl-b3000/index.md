@@ -1,6 +1,6 @@
-# Marble (GL-B3000) Benutzerhandbuch
+# Marble (GL-B3000) Benutzerhandbuch {#marble-gl-b3000-user-guide}
 
-## Sicherheitshinweise
+## Sicherheitshinweise {#safety-information}
 
 Lesen Sie vor der Verwendung des Geräts alle nachstehenden Sicherheitsinformationen sorgfältig durch. Die nachfolgenden Sicherheitsempfehlungen können nicht sämtliche möglicherweise auftretenden Gefahrensituationen abdecken.
 
@@ -30,13 +30,13 @@ Unsachgemäßes Öffnen oder unsachgemäße Instandsetzung kann den Benutzer des
 
 Schalten Sie bei einem Störfall zuerst den Netzschalter aus.
 
-## Produktübersicht
+## Produktübersicht {#product-overview}
 
 Der Router Marble (GL-B3000) ist ein eigenständiges Designobjekt und kann geschickt als Bilderrahmen genutzt werden, um Ihr Lieblingsmotiv zu präsentieren und Ihren Wohnraum aufzuwerten. Marble (GL-B3000) ist nicht nur optisch ansprechend, sondern bietet dank Wi-Fi 6 und Unterstützung für VPN-Funktionen auch erstklassige Leistung.
 
 ![gl-b3000 interface](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-b3000/hardware_info/b3000_interface.png){class="glboxshadow"}
 
-## Lieferumfang
+## Lieferumfang {#package-contents}
 
 - 1 x Marble (GL-B3000)
 - 1 x Benutzerhandbuch
@@ -51,7 +51,7 @@ Der Router Marble (GL-B3000) ist ein eigenständiges Designobjekt und kann gesch
 
 ![package contents](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-b3000/first_time_setup/b3000_unboxing.jpg){class="glboxshadow"}
 
-## So richten Sie Marble ein
+## So richten Sie Marble ein {#how-to-set-up-marble}
 
 Sehen Sie sich diese Installations- und Einrichtungsvideos an oder folgen Sie den untenstehenden Schritten.
 
@@ -59,11 +59,11 @@ Sehen Sie sich diese Installations- und Einrichtungsvideos an oder folgen Sie de
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-U2WTVYRkPU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Einschalten
+### 1. Einschalten {#1-power-on}
 
 Setzen Sie den zweiteiligen Netzadapter zusammen. Schließen Sie ihn an Ihren Router an und stecken Sie ihn in eine Steckdose. Das Gerät startet automatisch.
 
-### 2. Gerät verbinden
+### 2. Gerät verbinden {#2-connect-device}
 
 Verbinden Sie ein Gerät, z. B. einen Computer, Laptop oder ein Smartphone, per Wi-Fi oder Ethernet-Kabel mit dem Router.
 
@@ -75,11 +75,11 @@ Verbinden Sie ein Gerät, z. B. einen Computer, Laptop oder ein Smartphone, per 
 
   Öffnen Sie auf Ihrem Gerät Einstellungen -> WLAN, suchen Sie in der Liste der verfügbaren Netzwerke den Wi-Fi-Netzwerknamen Ihres Routers und geben Sie das Passwort ein. Den Standard-Netzwerknamen und das Standard-Passwort finden Sie auf dem Etikett Ihres Routers.
 
-### 3. Im Web-Admin-Panel anmelden
+### 3. Im Web-Admin-Panel anmelden {#3-log-in-to-web-admin-panel}
 
 Öffnen Sie einen Webbrowser, geben Sie `192.168.8.1` in die Adressleiste ein und melden Sie sich an. Wählen Sie Ihre Sprache aus und legen Sie Ihr Admin-Passwort fest. Klicken Sie anschließend auf **Apply**.
 
-### 4. Internet einrichten
+### 4. Internet einrichten {#4-internet-setup}
 
 **Hinweis:** Die folgenden Anweisungen gelten für Benutzer, die den Router über das GL.iNet Web-Admin-Panel konfigurieren. Wenn Sie lieber die GL.iNet-App verwenden möchten, [laden Sie die App herunter](https://www.gl-inet.com/app/){target="_blank"} und folgen Sie den Anweisungen auf dem Bildschirm.
 
@@ -109,7 +109,7 @@ Richten Sie Marble mit einer der unterstützten Internetverbindungsmethoden ein:
 
 ---
 
-## So richten Sie ein VPN ein
+## So richten Sie ein VPN ein {#how-to-set-up-a-vpn}
 
 Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten Datenverkehr zwischen Ihrem Gerät und dem VPN-Server. Es bietet eine zusätzliche Ebene für Datenschutz und Sicherheit (VPN-Client) und ermöglicht Ihnen den Zugriff auf ein entferntes Netzwerk (VPN-Server). Marble und andere GL.iNet-Router unterstützen OpenVPN, WireGuard und zusätzlich auch Tor.
 
@@ -135,7 +135,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
 ---
 
-## WLAN und Clients
+## WLAN und Clients {#wireless-and-clients}
 
 === "Wireless"
 
@@ -149,7 +149,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     Zum Einrichten von Clients lesen Sie bitte [Clients](../../interface_guide/clients.md).
 
-## Cloud-Dienste
+## Cloud-Dienste {#cloud-services}
 
 === "GoodCloud"
 
@@ -163,7 +163,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     AstroWarp ist eine fortschrittliche Netzwerkplattform für nahtlose Remote-Vernetzung und Fernverwaltung von Geräten. AstroWarp wurde speziell für die Integration mit GL.iNet-Routern entwickelt und unterstützt ein umfassendes Gerätemanagement über ganze Netzwerke hinweg, einschließlich der Verwaltung über- und untergeordneter Geräte. Mit seinem Fokus auf netzwerkweites Management und zukünftiger Unterstützung für Hardware-Steuerung bietet AstroWarp eine robuste und verlässliche Lösung für die Geräteverwaltung sowie für sichere und stabile Netzwerke.
 
-## Anwendungen
+## Anwendungen {#applications}
 
 === "Plug-ins"
 
@@ -197,7 +197,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
 ---
 
-## Netzwerkeinstellungen
+## Netzwerkeinstellungen {#network-settings}
 
 === "Firewall"
 
@@ -211,7 +211,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
 === "Multi-WAN"
 
-    Multi-WAN ist eine Netzwerkfunktion, mit der Sie Ihren Router gleichzeitig mit mehreren Internetverbindungen, z. B. Cellular, Repeater und Ethernet, konfigurieren können. Fällt Ihre aktuelle Internetverbindung aus, wechselt der Router automatisch zu einer anderen Internetverbindung. So bleibt Ihr Internetzugang stabil und unterbrechungsfrei.
+    Multi-WAN ist eine Netzwerkfunktion, mit der Sie Ihren Router gleichzeitig mit mehreren Internetverbindungen, z. B. Ethernet und Repeater, konfigurieren können. Fällt Ihre aktuelle Internetverbindung aus, wechselt der Router automatisch zu einer anderen Internetverbindung. So bleibt Ihr Internetzugang stabil und unterbrechungsfrei.
 
     Zum Einrichten von Multi-WAN lesen Sie bitte [Multi-WAN](../../interface_guide/multi-wan.md).
 
@@ -322,7 +322,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
 ---
 
-## Systemeinstellungen
+## Systemeinstellungen {#system-settings}
 
 === "Overview"
 

@@ -2,7 +2,7 @@
 title: Understanding Wi-Fi Coverage, Access Points, and Transmit Power
 ---
 
-# Understanding Wi-Fi Coverage, Access Points, and Transmit Power
+# Understanding Wi-Fi Coverage, Access Points, and Transmit Power {#understanding-wi-fi-coverage-access-points-and-transmit-power}
 
 Many users assume that increasing a router's transmit power always improves Wi-Fi coverage and performance.
 
@@ -10,9 +10,9 @@ While higher transmit power generally increases the coverage of a single router,
 
 Understanding coverage cells, roaming, channel planning, and transmit power can help improve wireless performance.
 
-## Single router vs. multiple access points
+## Single router vs. multiple access points {#single-router-vs-multiple-access-points}
 
-### Single router
+### Single router {#single-router}
 
 If you have only one router providing Wi-Fi coverage:
 
@@ -24,7 +24,7 @@ For most users with a single router, leaving transmit power at its default or au
 
 Lowering your router's transmit power does not reduce the RF energy transmitted by neighboring Wi-Fi networks. Their routers and APs continue transmitting at the same power.
 
-### Multiple access points
+### Multiple access points {#multiple-access-points}
 
 When multiple APs are deployed, the goal is not necessarily to maximize the coverage area of every AP.
 
@@ -32,7 +32,7 @@ Instead, the objective is to create several smaller, well-defined coverage cells
 
 Appropriate AP placement, transmit power, and channel selection are all important.
 
-## Coverage cell overlap
+## Coverage cell overlap {#coverage-cell-overlap}
 
 If every AP transmits at maximum power, their coverage areas may overlap excessively.
 
@@ -48,7 +48,7 @@ A client connected to the wrong AP may experience:
 
 Reducing AP transmit power can shrink the coverage cells and encourage client devices to roam sooner.
 
-## Understanding client roaming
+## Understanding client roaming {#understanding-client-roaming}
 
 In most Wi-Fi networks, the client device decides when to roam.
 
@@ -58,7 +58,7 @@ Different client devices use different roaming thresholds and algorithms. A devi
 
 Reducing excessive coverage overlap can help clients make better roaming decisions.
 
-## Spatial reuse
+## Spatial reuse {#spatial-reuse}
 
 Wi-Fi is a shared medium.
 
@@ -70,11 +70,11 @@ Appropriately reducing transmit power can allow APs using the same channel in di
 
 Spatial reuse does not mean that lowering your AP's transmit power reduces the interference transmitted by neighboring networks. Instead, properly sized coverage cells can reduce unnecessary contention and allow the same channel to be reused in sufficiently separated areas.
 
-## Channel planning
+## Channel planning {#channel-planning}
 
 Transmit power and channel selection should be considered together.
 
-### 2.4 GHz
+### 2.4 GHz {#24-ghz}
 
 The 2.4 GHz band has relatively few non-overlapping channels.
 
@@ -82,7 +82,7 @@ In many regulatory regions, channels 1, 6, and 11 are commonly used with a 20 MH
 
 Whenever possible, nearby APs should use different non-overlapping channels.
 
-### 5 GHz and 6 GHz
+### 5 GHz and 6 GHz {#5-ghz-and-6-ghz}
 
 The 5 GHz and 6 GHz bands provide more available channels, making it easier to assign different channels to nearby APs.
 
@@ -90,21 +90,21 @@ Using non-overlapping channels reduces co-channel contention, although excessive
 
 Available channels depend on the router model, country or region, channel width, and local regulations.
 
-## Wired APs and mesh networks
+## Wired APs and mesh networks {#wired-aps-and-mesh-networks}
 
-### Wired access points
+### Wired access points {#wired-access-points}
 
 A wired Ethernet connection between the main router and additional APs is generally the preferred deployment.
 
 Because the wired connection carries the backhaul traffic, Wi-Fi transmit power can be adjusted primarily for client coverage, roaming, and spatial reuse.
 
-### Mesh with wired backhaul
+### Mesh with wired backhaul {#mesh-with-wired-backhaul}
 
 Mesh nodes using wired backhaul can be optimized in a similar way to wired APs.
 
 Transmit power can be adjusted to reduce excessive cell overlap while maintaining continuous coverage.
 
-### Mesh with wireless backhaul
+### Mesh with wireless backhaul {#mesh-with-wireless-backhaul}
 
 In a wireless mesh deployment, the Wi-Fi radios may also carry traffic between mesh nodes.
 
@@ -112,7 +112,7 @@ Reducing transmit power too aggressively can weaken the wireless backhaul connec
 
 When using wireless backhaul, ensure that mesh nodes maintain a strong and stable connection to one another.
 
-## Example multi-AP deployment
+## Example multi-AP deployment {#example-multi-ap-deployment}
 
 Consider two GL.iNet routers connected by Ethernet:
 
@@ -126,25 +126,25 @@ The ideal transmit power depends on building materials, AP placement, client dev
 
 There is no single transmit-power value that is correct for every deployment.
 
-## Common misconceptions
+## Common misconceptions {#common-misconceptions}
 
-### Maximum transmit power always provides the best Wi-Fi
+### Maximum transmit power always provides the best Wi-Fi {#maximum-transmit-power-always-provides-the-best-wi-fi}
 
 Maximum power generally provides the largest coverage area, but it may create excessive overlap and poor roaming behavior in multi-AP deployments.
 
-### Lower transmit power reduces incoming interference
+### Lower transmit power reduces incoming interference {#lower-transmit-power-reduces-incoming-interference}
 
 Lowering your AP's transmit power reduces the signal generated by your own AP. It does not reduce the power transmitted by neighboring routers or APs.
 
-### Lower transmit power makes the AP receiver more sensitive
+### Lower transmit power makes the AP receiver more sensitive {#lower-transmit-power-makes-the-ap-receiver-more-sensitive}
 
 Transmit power and receiver sensitivity are separate characteristics. Lowering transmit power does not inherently improve the AP's ability to receive client transmissions.
 
-### Client devices always connect to the closest AP
+### Client devices always connect to the closest AP {#client-devices-always-connect-to-the-closest-ap}
 
 Client devices normally select and roam between APs using their own internal algorithms. They may remain connected to a more distant AP even when a closer AP is available.
 
-## Recommended starting points
+## Recommended starting points {#recommended-starting-points}
 
 | Deployment | Recommendation |
 | --- | --- |

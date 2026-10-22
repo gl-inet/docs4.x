@@ -1,14 +1,14 @@
-# Come accedere dal server alla LAN del client OpenVPN
+# Come accedere dal server alla LAN del client OpenVPN {#how-to-access-openvpn-client-lan-side-from-server}
 
-Questo tutorial illustra i passaggi per accedere, dal lato server OpenVPN, alla sottorete LAN del client OpenVPN, ad esempio NAS, telecamera IP e cosi via.
+Questo tutorial illustra i passaggi per accedere, dal lato server OpenVPN, alla sottorete LAN del client OpenVPN, ad esempio NAS, telecamera IP e così via.
 
-## Topologia
+## Topologia {#topology}
 
 Come mostrato sotto, il GL-AXT1800 e un server OpenVPN e il GL-MT2500 e un client OpenVPN collegato ad esso. Dal lato server puoi accedere ai dispositivi presenti nella LAN del GL-MT2500, ad esempio un NAS o il GL-MT3000, un router secondario.
 
 ![topology](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server-access_client_lan_side/ovpnlantop.jpg){class="glboxshadow"}
 
-## 1. Aggiungere una regola di instradamento sul server
+## 1. Aggiungere una regola di instradamento sul server {#1-add-route-rule-on-server}
 
 ??? "Per firmware v4.7 e precedenti"
 
@@ -28,7 +28,7 @@ Come mostrato sotto, il GL-AXT1800 e un server OpenVPN e il GL-MT2500 e un clien
 
     ![ovpnserver route rule](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server-access_client_lan_side/4.7-ovpn-route-rule-3.jpg){class="glboxshadow"}
 
-    Nota: se hai piu client OpenVPN le cui sottoreti LAN devono essere raggiungibili, fai riferimento a [questo link](reserve_fixed_IP_for_ovpn_client.md) per riservare un Client IP per ciascun client OpenVPN prima di configurare le regole di instradamento.
+    Nota: se hai più client OpenVPN le cui sottoreti LAN devono essere raggiungibili, fai riferimento a [questo link](reserve_fixed_IP_for_ovpn_client.md) per riservare un Client IP per ciascun client OpenVPN prima di configurare le regole di instradamento.
 
 ??? "Per firmware v4.8 e successivi"
 
@@ -48,9 +48,9 @@ Come mostrato sotto, il GL-AXT1800 e un server OpenVPN e il GL-MT2500 e un clien
 
     ![ovpnserver route rule](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server-access_client_lan_side/4.8-ovpn-route-rule-3.jpg){class="glboxshadow"}
 
-    Nota: se hai piu client OpenVPN le cui sottoreti LAN devono essere raggiungibili, fai riferimento a [questo link](reserve_fixed_IP_for_ovpn_client.md) per riservare un Client IP per ciascun client OpenVPN prima di configurare le regole di instradamento.
+    Nota: se hai più client OpenVPN le cui sottoreti LAN devono essere raggiungibili, fai riferimento a [questo link](reserve_fixed_IP_for_ovpn_client.md) per riservare un Client IP per ciascun client OpenVPN prima di configurare le regole di instradamento.
 
-## 2. Consentire l'accesso remoto alla LAN del client
+## 2. Consentire l'accesso remoto alla LAN del client {#2-allow-remote-access-to-client-lan}
 
 ??? "Per firmware v4.7 e precedenti"
 
@@ -88,7 +88,7 @@ Come mostrato sotto, il GL-AXT1800 e un server OpenVPN e il GL-MT2500 e un clien
 
     ![allow remote access lan](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server-access_client_lan_side/4.9-allow-remote-access-lan.png){class="glboxshadow" width=600}
 
-## 3. Testare la connessione
+## 3. Testare la connessione {#3-test-connection}
 
 Ecco un esempio di accesso al GL-MT3000, un dispositivo nella LAN del client OpenVPN, con IP **192.168.48.211**.
 

@@ -1,32 +1,32 @@
-# Internet
+# Internet {#internet}
 
 Accedi al pannello di amministrazione web e vai su **INTERNET**.
 
-La meta' superiore mostra un diagramma dello stato Internet, mentre la meta' inferiore elenca fino a quattro metodi di accesso a Internet (la disponibilita' varia in base al modello).
+La metà superiore mostra un diagramma dello stato Internet, mentre la metà inferiore elenca fino a quattro metodi di accesso a Internet (la disponibilità varia in base al modello).
 
-## Diagramma di stato
+## Diagramma di stato {#status-diagram}
 
 ![status diagram](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet/status_diagram.png){class="glboxshadow"}
 
 **Il lato sinistro** del diagramma mostra lo stato Internet corrente.
 
-- Una linea verde continua indica che la connessione di rete e' attiva.
-- Una linea grigia tratteggiata indica che non c'e' connessione di rete.
-- Una linea bianca continua con un punto esclamativo giallo indica che la connessione e' presente ma non c'e' accesso a Internet.
+- Una linea verde continua indica che la connessione di rete è attiva.
+- Una linea grigia tratteggiata indica che non c'è connessione di rete.
+- Una linea bianca continua con un punto esclamativo giallo indica che la connessione è presente ma non c'è accesso a Internet.
 
 **La parte centrale** del diagramma mostra il modello attuale del router, lo stato delle funzioni principali (ad esempio [AdGuard Home](adguardhome.md), [IPv6](ipv6.md), [VPN](vpn_dashboard.md), [Tor](tor.md)) e lo stato [wireless](wireless.md).
 
-- Il verde indica che la funzione e' abilitata, il grigio indica che e' disabilitata. Per VPN e Tor, il bianco significa che la connessione e' in corso.
+- Il verde indica che la funzione è abilitata, il grigio indica che è disabilitata. Per VPN e Tor, il bianco significa che la connessione è in corso.
 - Passa il cursore sopra un'icona Wi-Fi abilitata per visualizzare il relativo codice QR Wi-Fi. Puoi scansionarlo con il telefono o il tablet per collegarti rapidamente alla rete Wi-Fi corrispondente.
 
     ![wifi qr code](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet/wifi_qrcode.png){class="glboxshadow"}
 
 **Il lato destro** del diagramma mostra i dispositivi, [Clients](clients.md), collegati al router.
 
-- I dispositivi collegati in modalita' wireless sono mostrati nella sezione superiore, mentre quelli cablati nella sezione inferiore.
+- I dispositivi collegati in modalità wireless sono mostrati nella sezione superiore, mentre quelli cablati nella sezione inferiore.
 - I numeri accanto a ciascuna sezione indicano il numero di dispositivi collegati.
 
-## Metodi di accesso a Internet
+## Metodi di accesso a Internet {#internet-access-methods}
 
 Sono disponibili fino a quattro metodi di accesso a Internet. Fai riferimento alle guide corrispondenti qui sotto oppure inizia con il [Setup Wizard](#setup-wizard).
 
@@ -35,9 +35,9 @@ Sono disponibili fino a quattro metodi di accesso a Internet. Fai riferimento al
 - [Tethering](internet_tethering.md)
 - [Cellular](internet_cellular.md)
 
-## Setup Wizard
+## Setup Wizard {#setup-wizard}
 
-Il setup wizard e' disponibile dal firmware v4.7.
+Il setup wizard è disponibile dal firmware v4.7.
 
 Nella pagina INTERNET, fai clic sull'icona del libro nell'angolo superiore destro.
 

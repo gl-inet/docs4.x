@@ -1,6 +1,6 @@
-# Попередження браузера: Your Connection is not Private {#warning-from-your-browser-your-connection-is-not-private}
+# Попередження браузера: «Your Connection is not Private» {#warning-from-your-browser-your-connection-is-not-private}
 
-Під час першого налаштування маршрутизатора GL.iNet браузер може показати попередження: Your Connection is not Private.
+Під час першого налаштування маршрутизатора GL.iNet браузер може показати попередження «Your Connection is not Private».
 
 ![Попередження браузера про конфіденційність з’єднання](https://static.gl-inet.com/docs/router/en/4/faq/warning_from_your_browser/alert.jpg){class="glboxshadow"}
 

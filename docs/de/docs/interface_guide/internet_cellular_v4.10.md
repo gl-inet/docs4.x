@@ -1,4 +1,4 @@
-# Verbindung mit dem Internet über Mobilfunk (v4.10)
+# Verbindung mit dem Internet über Mobilfunk (v4.10) {#connect-to-the-internet-via-cellular-v410}
 
 Der Inhalt dieser Seite basiert auf Firmwareversion v4.10 und höher. Wenn auf Ihrem Gerät eine andere Firmwareversion ausgeführt wird, verwenden Sie die folgende Auswahl, um zur entsprechenden Anleitung zu wechseln.
 
@@ -15,21 +15,21 @@ Die meisten GL.iNet-Router unterstützen Mobilfunkverbindungen. Diese Anleitung 
 
 1. **Mobilfunkrouter**
 
-    GL.iNet-Mobilfunkrouter verfügen über ein integriertes 4G-/5G-Modul und einen oder zwei SIM-Kartensteckplätze, beispielsweise Spitz AX (GL-X3000) und Mudi 7 (GL-E5800). Die Mobilfunkeinstellungen im Web-Admin-Panel können je nach Modell und Firmwareversion leicht variieren. Informationen zur Einrichtung dieser Modelle finden Sie unter [Mobilfunkrouter](#mobilfunkrouter).
+    GL.iNet-Mobilfunkrouter verfügen über ein integriertes 4G-/5G-Modul und einen oder zwei SIM-Kartensteckplätze, beispielsweise Spitz AX (GL-X3000) und Mudi 7 (GL-E5800). Die Mobilfunkeinstellungen im Web-Admin-Panel können je nach Modell und Firmwareversion leicht variieren. Informationen zur Einrichtung dieser Modelle finden Sie unter [Mobilfunkrouter](#cellular-routers).
 
 2. **Router ohne Mobilfunkmodul**
 
-    Hierzu gehören andere Routertypen wie Heim-, Reise- und Mini-Router sowie Sicherheits-Gateways. Sie verfügen üblicherweise über einen USB-Port, an den ein USB-Dongle (nicht im Lieferumfang enthalten) für Mobilfunkverbindungen angeschlossen werden kann. Informationen zur Einrichtung dieser Modelle finden Sie unter [Router ohne Mobilfunkmodul](#router-ohne-mobilfunkmodul).
+    Hierzu gehören andere Routertypen wie Heim-, Reise- und Mini-Router sowie Sicherheits-Gateways. Sie verfügen üblicherweise über einen USB-Port, an den ein USB-Dongle (nicht im Lieferumfang enthalten) für Mobilfunkverbindungen angeschlossen werden kann. Informationen zur Einrichtung dieser Modelle finden Sie unter [Router ohne Mobilfunkmodul](#non-cellular-routers).
 
 **Hinweis:** Manche SIM-Karten müssen vor der ersten Verwendung aktiviert werden. Um die Kompatibilität sicherzustellen, aktivieren Sie die SIM-Karte in einem Smartphone, bevor Sie sie in den Router einsetzen.
 
-## Mobilfunkrouter
+## Mobilfunkrouter {#cellular-routers}
 
 In diesem Abschnitt wird **Mudi 7 (GL-E5800)** als Beispiel verwendet, um die Mobilfunkeinrichtung und die zugehörigen Funktionen zu erläutern.
 
 Da Mudi 7 über eine integrierte eSIM und zwei Nano-SIM-Steckplätze verfügt und Dual SIM Dual Standby unterstützt, kann sich sein Web-Admin-Panel geringfügig von dem anderer Mobilfunkrouter unterscheiden, insbesondere von Modellen mit nur einem SIM-Steckplatz.
 
-### Netzwerkeinrichtung
+### Netzwerkeinrichtung {#network-setup}
 
 Melden Sie sich im Web-Admin-Panel des Routers an und navigieren Sie zu **INTERNET** -> **Cellular**.
 
@@ -77,7 +77,7 @@ Melden Sie sich im Web-Admin-Panel des Routers an und navigieren Sie zu **INTERN
 
     - **Authentication**: Wenn keine Anmeldedaten erforderlich sind, ist normalerweise NONE ausgewählt. Sie können PAP, CHAP oder PAP/CHAP festlegen.
 
-### Datenverkehrsstatistiken
+### Datenverkehrsstatistiken {#traffic-statistics}
 
 Klicken Sie auf **Data Usage**, um die Datenverkehrsstatistiken anzuzeigen.
 
@@ -99,7 +99,7 @@ Legen Sie Data Cap Amount, Data Reset Period, Start Day und Start Hour fest und 
 
 3. Start Day: Die maximal auswählbare Anzahl von Tagen entspricht der tatsächlichen Anzahl der Tage im aktuellen Monat.
 
-### Mobilfunkdetails
+### Mobilfunkdetails {#cellular-details}
 
 Klicken Sie auf **Details & Configuration**, um die Mobilfunkdetails anzuzeigen.
 
@@ -129,7 +129,7 @@ Unter **Cellular Information** werden Network Type, TAC, Cell ID, Band und Signa
 
     ![signal history](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/signal_history.png){class="glboxshadow"}
 
-### Band Masking
+### Band Masking {#band-masking}
 
 Mit Band Masking können Sie bestimmte Mobilfunkbänder verwenden, um das Mobilfunksignal zu verbessern.
 
@@ -141,7 +141,7 @@ Aktivieren Sie unter **Cellular Settings** die Option **Band Masking**, wählen 
 
 ![band masking](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/band_masking.png){class="glboxshadow"}
 
-### Lock Operator
+### Lock Operator {#lock-operator}
 
 !!! note "Unterstützte Modelle"
 
@@ -182,7 +182,7 @@ Das Mobilfunksignal wird daraufhin auf den ausgewählten Anbieter festgelegt.
 
 ![lock operator](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/lock_operator4.jpg){class="glboxshadow"}
 
-### Lock Tower
+### Lock Tower {#lock-tower}
 
 !!! note "Unterstützte Modelle"
 
@@ -227,21 +227,21 @@ Das Mobilfunksignal wird daraufhin auf den ausgewählten Mast festgelegt.
 
 3. Wenn Sie den Router nach dem Sperren eines Mobilfunkmasts an einen anderen Standort versetzen, versucht er nach einem Neustart weiterhin, sich mit dem gesperrten Mast zu verbinden. Dadurch kann verhindert werden, dass er am neuen Standort automatisch eine Mobilfunkverbindung herstellt. Entsperren Sie in diesem Fall den aktuellen Mast oder sperren Sie den Router manuell auf einen neuen Mast.
 
-### SMS
+### SMS {#sms}
 
 Lesen Sie [SMS](../tutorials/sms.md).
 
-### SMS Forwarding
+### SMS Forwarding {#sms-forwarding}
 
 Lesen Sie [SMS Forwarding](../tutorials/sms_forwarding.md).
 
-### Airplane Mode
+### Airplane Mode {#airplane-mode}
 
 Um Airplane Mode zu aktivieren, klicken Sie oben rechts auf das Zahnradsymbol und aktivieren Sie **Airplane Mode**.
 
 ![settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/settings.png){class="glboxshadow"}
 
-### Modem Information
+### Modem Information {#modem-information}
 
 Um die Modemdetails anzuzeigen, klicken Sie oben rechts auf das Zahnradsymbol und wählen Sie **Modem Information**.
 
@@ -249,7 +249,7 @@ Um die Modemdetails anzuzeigen, klicken Sie oben rechts auf das Zahnradsymbol un
 
 ![modem info](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/modem_info.png){class="glboxshadow"}
 
-### SIM Failover
+### SIM Failover {#sim-failover}
 
 Diese Funktion ist nur auf Mobilfunkroutern verfügbar, die Dual-SIM unterstützen.
 
@@ -267,7 +267,7 @@ Wenn der Router zu einer bestimmten Tageszeit zur bevorzugten SIM-Karte zurückw
 
 ![sim failover](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/sim_failover.png){class="glboxshadow"}
 
-### AT Command
+### AT Command {#at-command}
 
 AT-Befehle sind Standardanweisungen zur Kommunikation mit dem Mobilfunkmodem. Mit dieser Funktion können Sie Befehle senden und den Modemstatus prüfen.
 
@@ -291,7 +291,7 @@ Klicken Sie oben rechts auf das Zahnradsymbol und wählen Sie **AT Command**.
 
 - **AT Command**: Geben Sie den gewünschten Befehl in dieses Feld ein, wenn Shortcut auf „Manual command“ gesetzt ist.
 
-## Router ohne Mobilfunkmodul
+## Router ohne Mobilfunkmodul {#non-cellular-routers}
 
 Auch Router ohne integriertes Mobilfunkmodem können eine Mobilfunkverbindung herstellen, wenn Sie einen externen USB-Dongle (nicht im Lieferumfang enthalten) an den USB-Port anschließen.
 
@@ -303,7 +303,7 @@ USB-Dongles und -Modems können in unterschiedlichen Modi arbeiten: als Standard
 
 Wählen Sie je nach Betriebsmodus Ihres USB-Dongles den entsprechenden Abschnitt aus.
 
-### Standard-USB-Modem
+### Standard-USB-Modem {#standard-usb-modem}
 
 In diesem Abschnitt werden **Mango 2 (GL-MG1300)** und das 5G-Entwicklungsboard [GL-M2](https://www.gl-inet.com/products/gl-m2){target="_blank"} (5G-NR-Modul: RM520N-GL) als Beispiel verwendet, um die Mobilfunkeinrichtung und die zugehörigen Funktionen zu erläutern.
 
@@ -381,7 +381,7 @@ In diesem Abschnitt werden **Mango 2 (GL-MG1300)** und das 5G-Entwicklungsboard 
 
     - **AT Command**: Geben Sie den gewünschten Befehl in dieses Feld ein, wenn Shortcut auf „Manual command“ gesetzt ist.
 
-### Host-less-Dongle
+### Host-less-Dongle {#hostless-dongle}
 
 In diesem Abschnitt werden **Flint 3 (GL-BE9300)** und der externe USB-Dongle [SIMPoYo uFi](https://www.gl-inet.com/products/simpoyo-ufi){target="_blank"} als Beispiel für die Mobilfunkeinrichtung verwendet.
 
@@ -399,7 +399,7 @@ In diesem Abschnitt werden **Flint 3 (GL-BE9300)** und der externe USB-Dongle [S
 
     ![tethering 3](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/tethering3.png){class="glboxshadow"}
 
-4. Informationen zur Konfiguration der APN- und SIM-bezogenen Einstellungen für die SIM-Karte im SIMPoYo uFi finden Sie unter [SIMPoYo uFi verwalten](../user_guide/simpoyo-4g-ufi/index.md#simpoyo-ufi-verwalten).
+4. Informationen zur Konfiguration der APN- und SIM-bezogenen Einstellungen für die SIM-Karte im SIMPoYo uFi finden Sie unter [SIMPoYo uFi verwalten](../user_guide/simpoyo-4g-ufi/index.md#manage-simpoyo-ufi).
 
 ---
 

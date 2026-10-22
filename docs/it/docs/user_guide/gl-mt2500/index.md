@@ -1,12 +1,12 @@
-# Guida utente di Brume 2 (GL-MT2500/GL-MT2500A)
+# Guida utente di Brume 2 (GL-MT2500/GL-MT2500A) {#brume-2-gl-mt2500gl-mt2500a-user-guide}
 
-## Panoramica del prodotto
+## Panoramica del prodotto {#product-overview}
 
 Brume 2 (GL-MT2500/GL-MT2500A) e un gateway VPN leggero e potente basato su sistema operativo OpenWrt v21.02. Ha un design compatto ed e ideale per ospitare un server VPN a casa oppure per eseguire SD-WAN, Site-to-Site, in piccole e medie imprese. È disponibile in due varianti: GL-MT2500 con chassis in plastica e GL-MT2500A con chassis in alluminio.
 
 ![gl-mt2500 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/hardware_info/mt2500_interface.jpg){class="glboxshadow"}
 
-## Contenuto della confezione
+## Contenuto della confezione {#package-contents}
 
 - 1 x Brume 2 (GL-MT2500/GL-MT2500A)
 - 1 x Manuale utente
@@ -20,25 +20,25 @@ La figura seguente mostra il modello GL-MT2500A come esempio.
 
 ![gl-mt2500 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/first_time_setup/mt2500a_unboxing.jpg){class="glboxshadow"}
 
-## Come configurare Brume 2
+## Come configurare Brume 2 {#how-to-set-up-brume-2}
 
-Per configurare Brume 2, puoi usare uno dei metodi di connessione Internet supportati: Ethernet, Tethering e Cellular. Repeater non e supportato perche Brume 2 non dispone di un modulo Wi-Fi. Guarda questo video di configurazione oppure segui i passaggi riportati di seguito.
+Per configurare Brume 2, puoi usare uno dei metodi di connessione Internet supportati: Ethernet, Tethering e Cellular. Repeater non e supportato perché Brume 2 non dispone di un modulo Wi-Fi. Guarda questo video di configurazione oppure segui i passaggi riportati di seguito.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rpi_loOwUQM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Accendi il router
+### 1. Accendi il router {#1-power-on}
 
 Assembla l'alimentatore in due parti. Collegalo al router e inseriscilo in una presa di corrente. Il router si avviera automaticamente.
 
-### 2. Collega un dispositivo
+### 2. Collega un dispositivo {#2-connect-device}
 
 Collega il dispositivo, ad esempio un computer o un laptop, alla porta LAN del router tramite un cavo Ethernet.
 
-### 3. Accedi al pannello di amministrazione web
+### 3. Accedi al pannello di amministrazione web {#3-log-in-to-web-admin-panel}
 
 Apri un browser web, inserisci `192.168.8.1` nella barra degli indirizzi ed effettua l'accesso. Scegli la lingua e imposta la password di amministrazione, quindi fai clic su **Apply**.
 
-### 4. Configurazione della connessione Internet
+### 4. Configurazione della connessione Internet {#4-internet-setup}
 
 === "Ethernet"
 
@@ -72,9 +72,9 @@ Apri un browser web, inserisci `192.168.8.1` nella barra degli indirizzi ed effe
 
     Per istruzioni dettagliate, fai riferimento a [Collegarsi a Internet tramite rete cellulare](../../interface_guide/internet_cellular.md).
 
-**Note:** se desideri usare la funzione [Multi-WAN](../../interface_guide/multi-wan.md), configura piu di un metodo di connessione Internet.
+**Note:** se desideri usare la funzione [Multi-WAN](../../interface_guide/multi-wan.md), configura più di un metodo di connessione Internet.
 
-## Come configurare una VPN
+## Come configurare una VPN {#how-to-set-up-a-vpn}
 
 Una VPN crea traffico sicuro e crittografato tra il dispositivo e il server VPN. Offre un ulteriore livello di privacy e sicurezza come client VPN e consente di accedere a una rete remota come server VPN. Brume 2, come gli altri router GL.iNet, supporta OpenVPN e WireGuard. Inoltre supporta anche Tor.
 
@@ -87,24 +87,24 @@ Una VPN crea traffico sicuro e crittografato tra il dispositivo e il server VPN.
 
 === "WireGuard"
 
-    Brume 2, come gli altri router GL.iNet, supporta il protocollo WireGuard, che offre ottima velocita e praticita. Per configurare WireGuard, segui questi tutorial:
+    Brume 2, come gli altri router GL.iNet, supporta il protocollo WireGuard, che offre ottima velocità e praticita. Per configurare WireGuard, segui questi tutorial:
 
     * [Come configurare un client WireGuard](../../interface_guide/wireguard_client.md)
     * [Come configurare un server WireGuard](../../interface_guide/wireguard_server.md)
 
 === "Tor"
 
-    Tor, abbreviazione di The Onion Router, e una rete orientata alla privacy che consente comunicazioni anonime su Internet. Instrada il traffico Internet attraverso una serie di server gestiti da volontari per nascondere posizione e utilizzo dell'utente, rendendo difficile tracciare le attivita online.
+    Tor, abbreviazione di The Onion Router, e una rete orientata alla privacy che consente comunicazioni anonime su Internet. Instrada il traffico Internet attraverso una serie di server gestiti da volontari per nascondere posizione e utilizzo dell'utente, rendendo difficile tracciare le attività online.
 
     * [Come configurare Tor](../../interface_guide/tor.md).
 
-## Client
+## Client {#clients}
 
-La pagina Clients mostra informazioni sui dispositivi collegati. Per ogni client visualizza il nome del dispositivo, indirizzi IP e MAC, velocita di download e upload, traffico totale e offre la possibilita di riservare un IP, bloccare il client o eseguire altre azioni.
+La pagina Clients mostra informazioni sui dispositivi collegati. Per ogni client visualizza il nome del dispositivo, indirizzi IP e MAC, velocità di download e upload, traffico totale e offre la possibilità di riservare un IP, bloccare il client o eseguire altre azioni.
 
 Per configurarla, fai riferimento a [Clients](../../interface_guide/clients.md).
 
-## Servizi cloud
+## Servizi cloud {#cloud-services}
 
 === "GoodCloud"
 
@@ -114,15 +114,15 @@ Per configurarla, fai riferimento a [Clients](../../interface_guide/clients.md).
 
 === "AstroWarp"
 
-    AstroWarp e una piattaforma di rete avanzata progettata per offrire networking remoto senza interruzioni e gestione remota dei dispositivi. Sviluppata specificamente per l'integrazione con i router GL.iNet, AstroWarp supporta una gestione completa dei dispositivi sull'intera rete, consentendo il controllo sia dei dispositivi a monte sia di quelli a valle. Con un focus sulla gestione dell'intera rete e sul futuro supporto al controllo a livello hardware, AstroWarp offre una soluzione piu robusta e affidabile per la gestione dei dispositivi e il mantenimento di reti sicure e stabili.
+    AstroWarp e una piattaforma di rete avanzata progettata per offrire networking remoto senza interruzioni e gestione remota dei dispositivi. Sviluppata specificamente per l'integrazione con i router GL.iNet, AstroWarp supporta una gestione completa dei dispositivi sull'intera rete, consentendo il controllo sia dei dispositivi a monte sia di quelli a valle. Con un focus sulla gestione dell'intera rete e sul futuro supporto al controllo a livello hardware, AstroWarp offre una soluzione più robusta e affidabile per la gestione dei dispositivi e il mantenimento di reti sicure e stabili.
 
     Per configurarla, fai riferimento a [AstroWarp](../../interface_guide/astrowarp.md).
 
-## Applicazioni
+## Applicazioni {#applications}
 
 === "Plug-ins"
 
-    Un plug-in e un componente software che aggiunge funzioni o funzionalita specifiche a un programma informatico esistente, consentendo personalizzazione e ampliamento delle sue capacita.
+    Un plug-in e un componente software che aggiunge funzioni o funzionalità specifiche a un programma informatico esistente, consentendo personalizzazione e ampliamento delle sue capacità.
 
     Per configurarli, fai riferimento a [Plug-ins](../../interface_guide/plugins.md).
 
@@ -134,7 +134,7 @@ Per configurarla, fai riferimento a [Clients](../../interface_guide/clients.md).
 
 === "Network Storage"
 
-    Network storage indica una soluzione centralizzata di archiviazione dati che consente a piu utenti e dispositivi di accedere e condividere file tramite una rete.
+    Network storage indica una soluzione centralizzata di archiviazione dati che consente a più utenti e dispositivi di accedere e condividere file tramite una rete.
 
     Per configurarlo, fai riferimento a [Network Storage](../../interface_guide/network_storage.md).
 
@@ -148,7 +148,7 @@ Per configurarla, fai riferimento a [Clients](../../interface_guide/clients.md).
 
 === "Parental Control"
 
-    Parental control e un insieme di impostazioni progettate per aiutarti a gestire e controllare i dispositivi dei tuoi figli. Include la limitazione del tempo di utilizzo dello schermo e la restrizione dell'accesso a determinati contenuti. Brume 2 offre due opzioni di parental control: la versione locale sviluppata da GL.iNet e la versione integrata di Bark, un'app dedicata al controllo parentale.
+    Parental control e un insieme di impostazioni progettate per aiutarti a gestire e controllare i dispositivi dei tuoi figli. Include la limitazione del tempo di utilizzo dello schermo e la restrizione dell'accesso a determinati contenuti.
 
     Per configurarlo, fai riferimento a [Parental controls](../../interface_guide/parental_control.md).
 
@@ -166,7 +166,7 @@ Per configurarla, fai riferimento a [Clients](../../interface_guide/clients.md).
 
     Per configurarlo, fai riferimento a [Tailscale](../../interface_guide/tailscale.md).
 
-## Impostazioni di rete
+## Impostazioni di rete {#network-settings}
 
 === "Port forwarding"
 
@@ -174,13 +174,13 @@ Per configurarla, fai riferimento a [Clients](../../interface_guide/clients.md).
 
 === "Multi-WAN"
 
-    Multi-WAN e una funzione di rete che consente di configurare il router con piu connessioni Internet, ad esempio cellular, repeater ed ethernet, contemporaneamente. Se la connessione Internet attuale si interrompe, il router passera automaticamente a un'altra connessione Internet. In questo modo l'accesso a Internet rimane fluido e ininterrotto.
+    Multi-WAN e una funzione di rete che consente di configurare il router con più connessioni Internet, ad esempio Ethernet, Tethering e Cellular, contemporaneamente. Se la connessione Internet attuale si interrompe, il router passera automaticamente a un'altra connessione Internet. In questo modo l'accesso a Internet rimane fluido e ininterrotto.
 
     Per configurarlo, fai riferimento a [Multi-WAN](../../interface_guide/multi-wan.md).
 
 === "LAN"
 
-    LAN, o Local Area Network, e una rete che collega computer e dispositivi all'interno di un'area geografica limitata, ad esempio una casa o un ufficio. Consente trasferimento dati ad alta velocita e condivisione delle risorse, permettendo ai dispositivi di comunicare tra loro in modo efficiente.
+    LAN, o Local Area Network, e una rete che collega computer e dispositivi all'interno di un'area geografica limitata, ad esempio una casa o un ufficio. Consente trasferimento dati ad alta velocità e condivisione delle risorse, permettendo ai dispositivi di comunicare tra loro in modo efficiente.
 
     Per configurarla, fai riferimento a [LAN](../../interface_guide/lan.md).
 
@@ -188,13 +188,13 @@ Per configurarla, fai riferimento a [Clients](../../interface_guide/clients.md).
 
 === "DNS"
 
-    La pagina DNS consente di impostare server DNS personalizzati, abilitare la protezione dagli attacchi DNS rebinding e sovrascrivere le impostazioni DNS di tutti i client, consentire ai DNS personalizzati di sovrascrivere i DNS della VPN e configurare la modalita delle impostazioni del server DNS su automatica oppure specificare manualmente i server DNS dalla connessione Ethernet.
+    La pagina DNS consente di impostare server DNS personalizzati, abilitare la protezione dagli attacchi DNS rebinding e sovrascrivere le impostazioni DNS di tutti i client, consentire ai DNS personalizzati di sovrascrivere i DNS della VPN e configurare la modalità delle impostazioni del server DNS su automatica oppure specificare manualmente i server DNS dalla connessione Ethernet.
 
     Per configurarla, fai riferimento a [DNS](../../interface_guide/dns.md).
 
 === "Network Port Management"
 
-    La pagina Network Port Management consente di configurare le porte WAN e LAN, impostare l'interfaccia WAN/LAN su Ethernet, specificare la modalita MAC e l'indirizzo MAC per l'interfaccia WAN e visualizzare la velocita negoziata della porta di rete.
+    La pagina Network Port Management consente di configurare le porte WAN e LAN, impostare l'interfaccia WAN/LAN su Ethernet, specificare la modalità MAC e l'indirizzo MAC per l'interfaccia WAN e visualizzare la velocità negoziata della porta di rete.
 
 ---
 
@@ -206,13 +206,13 @@ Per configurarla, fai riferimento a [Clients](../../interface_guide/clients.md).
 
 === "IPv6"
 
-    IPv6, o Internet Protocol version 6, e la versione piu recente del protocollo Internet progettata per sostituire IPv4. Offre uno spazio di indirizzamento molto piu ampio, permettendo un numero virtualmente illimitato di indirizzi IP univoci, elemento essenziale per il crescente numero di dispositivi collegati a Internet.
+    IPv6, o Internet Protocol version 6, e la versione più recente del protocollo Internet progettata per sostituire IPv4. Offre uno spazio di indirizzamento molto più ampio, permettendo un numero virtualmente illimitato di indirizzi IP univoci, elemento essenziale per il crescente numero di dispositivi collegati a Internet.
 
     Per configurarlo, fai riferimento a [IPV6](../../interface_guide/ipv6.md).
 
 === "Drop-in Gateway"
 
-    Drop-in Gateway estende le funzionalita del router principale con caratteristiche che potrebbe non avere, tra cui AdGuard Home, DNS crittografato e VPN.
+    Drop-in Gateway estende le funzionalità del router principale con caratteristiche che potrebbe non avere, tra cui AdGuard Home, DNS crittografato e VPN.
 
     Per configurarlo, fai riferimento a [Come configurare Drop-in Gateway](../../tutorials/how_to_set_up_drop_in_gateway.md).
 
@@ -226,9 +226,9 @@ Per configurarla, fai riferimento a [Clients](../../interface_guide/clients.md).
 
 === "Network Acceleration"
 
-    Hardware acceleration indica l'uso di componenti hardware specializzati per eseguire compiti specifici in modo piu efficiente rispetto alle CPU generiche.
+    Hardware acceleration indica l'uso di componenti hardware specializzati per eseguire compiti specifici in modo più efficiente rispetto alle CPU generiche.
 
-    Per configurare la network acceleration, fai riferimento a questo tutorial [Network Acceleration](../../interface_guide/network_acceleration.md).
+    Per configurare l’accelerazione di rete, fai riferimento a questo tutorial [Network Acceleration](../../interface_guide/network_acceleration.md).
 
 === "NAT Settings"
 
@@ -236,7 +236,7 @@ Per configurarla, fai riferimento a [Clients](../../interface_guide/clients.md).
 
     Per configurarla, fai riferimento a [NAT Settings](../../interface_guide/nat_settings.md).
 
-## Impostazioni di sistema
+## Impostazioni di sistema {#system-settings}
 
 === "Overview"
 
@@ -255,7 +255,7 @@ Per configurarla, fai riferimento a [Clients](../../interface_guide/clients.md).
 
 === "Upgrade"
 
-    La pagina Upgrade viene usata per aggiornare il firmware del router alla versione piu recente, garantendo prestazioni migliori, maggiore sicurezza e nuove funzioni. Questa pagina offre due opzioni di aggiornamento:
+    La pagina Upgrade viene usata per aggiornare il firmware del router alla versione più recente, garantendo prestazioni migliori, maggiore sicurezza e nuove funzioni. Questa pagina offre due opzioni di aggiornamento:
 
     * Firmware Online Upgrade: verifica automaticamente sul server del produttore la disponibilità della versione firmware più recente. Se disponibile online, è possibile installarla.
     * Firmware Local Upgrade: consente di caricare manualmente un file firmware dal computer per aggiornare il router, offrendo controllo sulla versione e sul momento dell'aggiornamento.
@@ -269,7 +269,7 @@ Per configurarla, fai riferimento a [Clients](../../interface_guide/clients.md).
     La pagina Scheduled Tasks consente di automatizzare le funzioni del router in base a una pianificazione predefinita, migliorando praticita ed efficienza. Le funzioni principali di questa pagina includono:
 
     * LED Display Schedule: imposta una pianificazione per accendere o spegnere automaticamente i LED del router, riducendo l'inquinamento luminoso in determinati orari.
-    * Schedule Reboot: configura il riavvio automatico del router a intervalli specifici per mantenere prestazioni e stabilita ottimali.
+    * Schedule Reboot: configura il riavvio automatico del router a intervalli specifici per mantenere prestazioni e stabilità ottimali.
 
     Queste opzioni di pianificazione offrono maggiore controllo sul funzionamento del router, garantendo che soddisfi esigenze e preferenze specifiche.
 
@@ -279,18 +279,18 @@ Per configurarla, fai riferimento a [Clients](../../interface_guide/clients.md).
 
 === "Time Zone"
 
-    La pagina Time Zone consente di impostare il fuso orario corretto per il router, assicurando che tutte le attivita pianificate, i log e gli eventi di sistema riportino timestamp accurati in base all'ora locale. Questa impostazione e essenziale per mantenere registrazioni precise e per la corretta esecuzione delle configurazioni basate sull'orario.
+    La pagina Time Zone consente di impostare il fuso orario corretto per il router, assicurando che tutte le attività pianificate, i log e gli eventi di sistema riportino timestamp accurati in base all'ora locale. Questa impostazione e essenziale per mantenere registrazioni precise e per la corretta esecuzione delle configurazioni basate sull'orario.
 
     Per istruzioni dettagliate, fai riferimento a [Time Zone](../../interface_guide/time_zone.md).
 
 === "Log"
 
-    La pagina Log offre accesso a vari registri che memorizzano attivita ed eventi del router, aiutando nella risoluzione dei problemi e nel monitoraggio delle prestazioni. Questa pagina include:
+    La pagina Log offre accesso a vari registri che memorizzano attività ed eventi del router, aiutando nella risoluzione dei problemi e nel monitoraggio delle prestazioni. Questa pagina include:
 
-    * System Log: log dettagliati relativi a eventi e attivita a livello di sistema.
+    * System Log: log dettagliati relativi a eventi e attività a livello di sistema.
     * Kernel Log: log relativi alle operazioni e agli eventi del kernel.
     * Crash Log: registrazioni di arresti anomali ed errori di sistema, utili per diagnosticare problemi critici.
-    * Cloud Log: log delle interazioni e delle attivita legate ai servizi GoodCloud integrati nel router.
+    * Cloud Log: log delle interazioni e delle attività legate ai servizi GoodCloud integrati nel router.
     * Nginx Log: log del server web Nginx, se usato dal router, che riportano traffico web e operazioni del server.
 
     Inoltre, la pagina include il pulsante Export Log, che consente di esportare tutti i log raccolti per l'analisi da parte del supporto tecnico. Questa funzione e molto utile per diagnosticare problemi complessi e ottenere assistenza professionale.
@@ -314,7 +314,7 @@ Per configurarla, fai riferimento a [Clients](../../interface_guide/clients.md).
 
 === "Reset Firmware"
 
-    La pagina Reset Firmware consente di ripristinare le impostazioni predefinite della versione firmware attualmente installata sul router, cancellando tutte le configurazioni personalizzate. Questo processo riporta il router alle impostazioni di default della versione firmware corrente. Puo essere utile per risolvere problemi persistenti o per ricominciare da zero con la configurazione predefinita del firmware attuale.
+    La pagina Reset Firmware consente di ripristinare le impostazioni predefinite della versione firmware attualmente installata sul router, cancellando tutte le configurazioni personalizzate. Questo processo riporta il router alle impostazioni di default della versione firmware corrente. Può essere utile per risolvere problemi persistenti o per ricominciare da zero con la configurazione predefinita del firmware attuale.
 
     Per istruzioni dettagliate, fai riferimento a [Reset Firmware](../../interface_guide/reset_firmware.md).
 

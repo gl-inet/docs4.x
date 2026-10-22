@@ -1,4 +1,4 @@
-# USB & Power
+# USB & Power {#usb-power}
 
 **Note**: This page is only available on **GL-E5800 (Mudi 7)**.
 
@@ -6,7 +6,7 @@ On the left side of the web Admin Panel, go to **SYSTEM** -> **USB & Power**.
 
 This page allows you to configure USB-related settings and power management for your router, such as USB protocol, power direction, idle timeouts, and standby behavior.
 
-## USB Settings
+## USB Settings {#usb-settings}
 
 This section lets you customize the behavior of your router's USB ports.
 
@@ -22,7 +22,7 @@ This section lets you customize the behavior of your router's USB ports.
 
 - **Power Threshold**: Set a specific power threshold percentage for the USB port to control the minimum power level required for USB operations, helping to preserve battery life.
 
-## Power Settings
+## Power Settings {#power-settings}
 
 This section enables you to optimize power consumption and device behavior.
 

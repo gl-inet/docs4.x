@@ -1,12 +1,12 @@
-# Guide d'utilisation de Flint 2 (GL-MT6000)
+# Guide d'utilisation de Flint 2 (GL-MT6000) {#flint-2-gl-mt6000-user-guide}
 
-## Aperçu du produit
+## Aperçu du produit {#product-overview}
 
 Flint 2 (GL-MT6000) est un routeur Wi‑Fi 6 pour la maison et le bureau, parfaitement adapté aux transferts de données intensifs, à la connexion simultanée d'un grand nombre d'appareils ou aux environnements de jeu à très faible latence. Flint 2 offre des vitesses WireGuard pouvant atteindre 900 Mbps. Il prend également en charge des fonctions avancées de redondance réseau, notamment le Multi-WAN, la conmutation par erreur et l'équilibrage de charge, afin de garantir un réseau ininterrompu.
 
 ![gl-mt6000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000/hardware_info/gl-mt6000_interface.jpg){class="glboxshadow"}
 
-## Contenu du colis
+## Contenu du colis {#package-contents}
 
 - 1 x Flint 2 (GL-MT6000)
 - 1 x Manuel d'utilisation
@@ -21,18 +21,18 @@ Découvrez ci-dessous la vidéo de déballage du Flint 2.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ru1O-zxKgKg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Comment configurer Flint 2
+## Comment configurer Flint 2 {#how-to-set-up-flint-2}
 
 Regardez cette vidéo de configuration ou suivez les étapes ci-dessous. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZAVn92F5RV8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <small>(Cette vidéo utilise un autre routeur GL.iNet pour illustrer la configuration, mais les étapes sont identiques pour le Flint 2 et les autres modèles de routeurs.)</small>
 
-### 1. Mise sous tension
+### 1. Mise sous tension {#1-power-on}
 
 Assemblez les deux parties de l'adaptateur secteur. Branchez-le à votre routeur puis sur une prise électrique. Il démarre automatiquement.
 
-### 2. Connecter un appareil
+### 2. Connecter un appareil {#2-connect-device}
 
 Connectez un appareil (par exemple un ordinateur, un ordinateur portable ou un smartphone) au routeur via Wi‑Fi ou Ethernet.
 
@@ -44,13 +44,13 @@ Connectez un appareil (par exemple un ordinateur, un ordinateur portable ou un s
 
     Sur votre appareil, accédez à Settings -> WLAN, repérez le nom du réseau Wi-Fi du routeur dans la liste des réseaux disponibles, puis saisissez le mot de passe pour vous y connecter. Vous trouverez le nom de réseau et le mot de passe par défaut sur l'étiquette du routeur.
 
-### 3. Se connecter au panneau d'administration web
+### 3. Se connecter au panneau d'administration web {#3-log-in-to-web-admin-panel}
 
 Ouvrez un navigateur web, saisissez `192.168.8.1` dans la barre d'adresse et connectez-vous. Choisissez votre langue et définissez votre mot de passe administrateur, puis cliquez sur **Apply**. 
 
 Lors de la confirmation des paramètres Wi‑Fi, veuillez noter que si vous modifiez les informations Wi‑Fi, vous devrez reconnecter votre appareil au Wi‑Fi du routeur avec les nouveaux identifiants.
 
-### 4. Configuration de la connexion Internet
+### 4. Configuration de la connexion Internet {#4-internet-setup}
 
 **Remarque :** Les instructions suivantes s'appliquent aux utilisateurs qui configurent le routeur via le panneau d'administration web GL.iNet. Si vous préférez utiliser l'application GL.iNet, [téléchargez l'application](https://www.gl-inet.com/app/){target="_blank"} et suivez les instructions à l'écran.
 
@@ -102,7 +102,7 @@ Configurez votre Flint 2 en utilisant l'une des méthodes de connexion Internet 
 
 ---
 
-## Comment configurer un VPN 
+## Comment configurer un VPN {#how-to-set-up-a-vpn}
 
 Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre votre appareil et le serveur VPN. Il ajoute une couche supplémentaire de confidentialité et de sécurité (client VPN) et vous permet d'accéder à un réseau distant (serveur VPN). Flint 2 (comme les autres routeurs GL.iNet) prend en charge OpenVPN et WireGuard. Il prend également en charge Tor.
 
@@ -126,7 +126,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
     
     * [Comment configurer Tor](../../interface_guide/tor.md).
 
-## Réseau sans fil et clients
+## Réseau sans fil et clients {#wireless-and-clients}
 
 === "Réseau sans fil"
 
@@ -140,7 +140,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     Pour configurer les clients, consultez [Clients](../../interface_guide/clients.md).
 
-## Services Cloud
+## Services Cloud {#cloud-services}
 
 === "GoodCloud"
 
@@ -154,7 +154,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
     
     Pour configurer AstroWarp, consultez [AstroWarp](../../interface_guide/astrowarp.md).
 
-## Applications
+## Applications {#applications}
 
 === "Plug-ins"
 
@@ -204,7 +204,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
 ---
 
-## Paramètres réseau
+## Paramètres réseau {#network-settings}
 
 === "Redirection de ports"
 
@@ -284,7 +284,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
 ---
 
-## Paramètres système
+## Paramètres système {#system-settings}
 
 === "Aperçu"
 
@@ -373,6 +373,6 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     Veuillez consulter [Advanced Settings](../../interface_guide/advanced_settings.md) pour des instructions détaillées.
 
-## Déclaration UE de conformité
+## Déclaration UE de conformité {#declaration-of-conformity}
 
 Par la présente, GL TECHNOLOGIES (HONG KONG) LIMITED déclare que l'équipement radio de type [AX6000 Wireless Router, GL-MT6000] est conforme aux exigences essentielles et aux autres dispositions pertinentes de la directive 2014/53/UE. Le texte complet de la déclaration de conformité UE est disponible à l'adresse internet suivante: [https://www.gl-inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}.

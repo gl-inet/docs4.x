@@ -1,12 +1,12 @@
-# Slate 7 Pro (GL-BE10000) ユーザーガイド
+# Slate 7 Pro (GL-BE10000) ユーザーガイド {#slate-7-pro-gl-be10000-user-guide}
 
-## 製品概要
+## 製品概要 {#product-overview}
 
 Slate 7 Pro (GL-BE10000) は、トライバンド Wi-Fi 7 対応のポータブルトラベルルーターです。Slate 7 (GL-BE3600) の上位モデルとして、上面に大型タッチスクリーンを搭載し、1GB DDR4 RAM と 512MB NAND フラッシュストレージにより、安定した動作とプラグイン互換性を実現します。WireGuard® は最大 1,100 Mbps、OpenVPN-DCO は最大 1,000 Mbps の高速 VPN に対応し、2× 2.5G Ethernet ポート（1 WAN + 1 LAN）、1× USB-C 3.0 ポート、PD 給電を備えているため、旅行やモバイル用途でも高い接続性と利便性を提供します。
 
 ![gl-be10000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/hardware/be10000_interface.png){class="glboxshadow"}
 
-## パッケージ内容
+## パッケージ内容 {#package-contents}
 
 パッケージには以下が含まれます。
 
@@ -24,7 +24,7 @@ Slate 7 Proの開封動画を以下でご覧いただけます。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zNxb5gl2tfg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## タッチスクリーン
+## タッチスクリーン {#touchscreen}
 
 | 画面表示 | 説明 |
 | :------- | :--- |
@@ -34,13 +34,13 @@ Slate 7 Proの開封動画を以下でご覧いただけます。
 | ![home](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/home.png){width="400"} | ホーム画面<br>**左側**: システム時刻、ネットワーク速度、および Wi-Fi、Clients、VPN、その他の機能へのショートカット。<br>**右側**: Ethernet、Repeater、Tethering、Cellular の 4 つの接続モード |
 | ![internet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/internet.png){width="400"} | ネットワーク状態<br>**青**: アクティブ / インターネットに接続済み<br>**黄**: 接続中 / ネットワーク障害<br>**白**: 非アクティブな接続 |
 
-## Slate 7 Pro の設定方法
+## Slate 7 Pro の設定方法 {#how-to-set-up-slate-7-pro}
 
-### 1. 電源を入れる
+### 1. 電源を入れる {#1-power-on}
 
 2 ピース構成の電源アダプターを組み立てます。ルーターに接続し、コンセントに差し込みます。自動的に起動します。
 
-### 2. デバイスを接続する
+### 2. デバイスを接続する {#2-connect-device}
 
 デバイス（パソコン、ノート PC、スマートフォンなど）を Wi-Fi または Ethernet でルーターに接続します。
 
@@ -52,11 +52,11 @@ Slate 7 Proの開封動画を以下でご覧いただけます。
 
     デバイスで利用可能なネットワーク一覧からルーターの Wi-Fi ネットワーク名を探し、パスワードを入力して接続します。デフォルトのネットワーク名（SSID）とパスワードは、ルーターのラベルに記載されています。
 
-### 3. Web 管理パネルにログインする
+### 3. Web 管理パネルにログインする {#3-log-in-to-web-admin-panel}
 
 Web ブラウザーを開き、アドレスバーに `192.168.8.1` を入力してログインします。言語を選択し、管理者パスワードを設定してから **Apply** をクリックします。
 
-### 4. インターネットを設定する
+### 4. インターネットを設定する {#4-internet-setup}
 
 対応しているインターネット接続方式（Ethernet、Repeater、Tethering、Cellular）のいずれかで Slate 7 Pro を設定します。[Multi-WAN](../../interface_guide/multi-wan.md) 機能を使用する場合は、複数のインターネット接続を設定してください。
 === "Ethernet"
@@ -85,7 +85,7 @@ Web ブラウザーを開き、アドレスバーに `192.168.8.1` を入力し�
     3. Slate 7 Proのタッチスクリーンで**Tethering**を選択し、**Connect**をタップします。ルーターがデバイスへ接続します。
     4. インターネット接続に成功すると、タッチスクリーンのホーム画面にあるTetheringセクションが青色（アクティブ）になります。タッチスクリーンでTetheringをタップするか、Web管理パネルにログインして接続の詳細を確認できます。
 
-    **Note**: 接続に失敗する場合は、電源の供給電圧が 9V 3A を上回っていることを確認してください。電力が不足していると、USB ポートへ給電できないことがあります。上記の手順をやり直すか、Web 管理パネルにログインして Tethering の接続状態を確認してください。
+    **注：** 接続に失敗する場合は、電源の供給電圧が 9V 3A を上回っていることを確認してください。電力が不足していると、USB ポートへ給電できないことがあります。上記の手順をやり直すか、Web 管理パネルにログインして Tethering の接続状態を確認してください。
 
 === "Cellular"
 
@@ -98,7 +98,7 @@ Web ブラウザーを開き、アドレスバーに `192.168.8.1` を入力し�
 
 以下は、Slate 7 Pro Web 管理パネルの主な機能の概要です。
 
-## Wireless
+## Wireless {#wireless}
 
 Wireless ページでは、6GHz、5GHz、2.4GHz Wi-Fi ネットワークの設定を構成できます。Wi-Fi の有効化、TX 電力の設定、Wi-Fi 名（SSID）の指定、ランダム BSSID の有効化、Wi-Fi セキュリティモードとパスワードの選択、SSID 表示設定、Wi-Fi モード、帯域幅、チャネルの選択などが含まれます。
 
@@ -106,13 +106,13 @@ Wireless ページでは、6GHz、5GHz、2.4GHz Wi-Fi ネットワークの設�
 
 Wireless の設定については、[Wireless](../../interface_guide/wireless.md) を参照してください。
 
-## Clients
+## Clients {#clients}
 
 Clients ページには、接続中のデバイスに関する情報が表示されます。各クライアントについて、名前、IP アドレス、MAC アドレス、ダウンロード速度、アップロード速度、合計トラフィックを確認でき、クライアントをブロックしたり、その他の操作を実行したりできます。
 
 Clients の設定については、[Clients](../../interface_guide/clients.md) を参照してください。
 
-## クラウドサービス
+## クラウドサービス {#cloud-services}
 
 === "GoodCloud"
 
@@ -122,11 +122,11 @@ Clients の設定については、[Clients](../../interface_guide/clients.md) �
 
 === "AstroWarp"
 
-    AstroWarp は、GL.iNet ルーターに統合された高度なネットワーク機能です。登録やログインなしで自宅ネットワークへシームレスにリモートアクセスでき、トラフィック難読化を内蔵した AmneziaWG プロトコルにより、どこからでも安定かつ安全な接続を実現します。ルーター同士をアクセスコードでペアリングするだけで、トラベルルーターを自宅ネットワークへ数秒で安全に接続できます。
+    AstroWarp は、GL.iNet ルーターに統合された高度なネットワーク機能です。登録やログインなしで自宅ネットワークへシームレスにリモートアクセスでき、トラフィック難読化を内蔵した AmneziaWG プロトコルにより、どこからでも安定かつ安全な接続を実現します。AstroWarp ネットワークは GL.iNet ルーターの管理パネルから直接設定できます。ルーター同士をアクセスコードでペアリングするだけで、トラベルルーターを自宅ネットワークへ数秒で安全に接続できます。
 
     AstroWarp の設定については、[AstroWarp](../../interface_guide/astrowarp.md) を参照してください。
 
-## VPN
+## VPN {#vpn}
 
 VPN（仮想プライベートネットワーク）は、デバイスと VPN サーバー間に安全な暗号化トラフィックを作成します。VPN クライアントとしてプライバシーとセキュリティを強化できるほか、VPN サーバーとしてリモートネットワークへアクセスすることもできます。Slate 7 Pro は OpenVPN と WireGuard をサポートしています。
 
@@ -144,11 +144,11 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
     * [WireGuard クライアントの設定方法](../../interface_guide/wireguard_client.md)
     * [WireGuard サーバーの設定方法](../../interface_guide/wireguard_server.md)
 
-## ネットワーク
+## ネットワーク {#network}
 
 === "Multi-WAN"
 
-    Multi-WAN は、ルーターに複数のインターネット接続（cellular、repeater、ethernet など）を同時に設定できるネットワーク機能です。現在のインターネット接続に障害が発生すると、ルーターは自動的に別のインターネット接続へ切り替え、安定したインターネットアクセスを維持します。
+    Multi-WAN は、ルーターに複数のインターネット接続（Cellular、Repeater、Ethernet など）を同時に設定できるネットワーク機能です。現在のインターネット接続に障害が発生すると、ルーターは自動的に別のインターネット接続へ切り替え、安定したインターネットアクセスを維持します。
 
     Multi-WAN の設定については、[Multi-WAN](../../interface_guide/multi-wan.md) を参照してください。
 
@@ -180,7 +180,7 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
 === "IPv6"
 
-    IPv6（Internet Protocol version 6）は、IPv4 を置き換えるために設計された最新のインターネットプロトコルです。非常に広いアドレス空間を持ち、インターネットに接続されるデバイス数の増加に対応するために不可欠です。
+    IPv6（Internet Protocol version 6）は、IPv4 を置き換えるために設計された最新のインターネットプロトコルです。非常に大きなアドレス空間を提供し、インターネットに接続されるデバイス数の増加に対応するために不可欠な、ほぼ無制限の一意な IP アドレスを利用できます。
 
     IPV6 の設定については、[IPV6](../../interface_guide/ipv6.md) を参照してください。
 
@@ -194,7 +194,7 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
 === "Network Mode"
 
-    Network Modeは、ネットワークの導入要件に応じてルーターが担う各種の動作上の役割と機能を指します。一般的なモードには、Router Mode、Extender Mode、Access Point Modeがあります。
+    ネットワークモードとは、さまざまなネットワーク導入要件に対応するためにルーターが担う動作上の役割や機能を指します。ルーターの一般的なネットワークモードには、ルーターモード、エクステンダーモード、アクセスポイントモードがあります。
 
     ネットワークモードの設定については、[Network Mode](../../interface_guide/network_mode.md) を参照してください。
 
@@ -209,11 +209,11 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
 === "Network Acceleration"
 
-    Network Acceleration は、CPU 負荷を軽減し、トラフィックパケット転送を高速化できます。
+    ネットワークアクセラレーションは、CPU 負荷を軽減し、トラフィックパケット転送を高速化できます。
 
-    Network Acceleration の設定については、[Network Acceleration](../../interface_guide/network_acceleration.md) を参照してください。
+    ネットワークアクセラレーションの設定については、[Network Acceleration](../../interface_guide/network_acceleration.md) を参照してください。
 
-## フロー制御
+## フロー制御 {#flow-control}
 
 === "DPI Engine"
 
@@ -255,7 +255,7 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
     詳細は[SQM](../../interface_guide/sqm.md)を参照してください。
 
-## セキュリティ
+## セキュリティ {#security}
 
 === "Port Forwarding"
 
@@ -267,8 +267,8 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
     Admin Accessでは、不正アクセスからネットワークとルーターを保護するための各種セキュリティ設定を行えます。このページには次の項目があります。
 
-    * Local Access Control: ローカルネットワークに接続されたデバイスから、ルーターの管理画面へアクセスできる範囲を管理・制限します。
-    * Remote Access Control: インターネット経由でのリモートアクセスを構成・制限し、外部からの脅威に対するセキュリティを強化します。
+    * Local Access Control: ローカルネットワークに接続されたデバイスから、ルーターのインターフェースへのアクセスを管理・制限します。
+    * Remote Access Control: インターネット経由でリモートからルーターのインターフェースへのアクセスを構成・制限し、外部からの脅威に対するセキュリティを強化します。
     * Open Ports on Router: ルーター上で開放するポートを管理し、潜在的な脆弱性や不正アクセスのリスクを抑えます。
 
     詳細は[Admin Access](../../interface_guide/admin_access.md)を参照してください。
@@ -279,7 +279,7 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
     詳細は[NAT Mode](../../interface_guide/nat_settings.md)を参照してください。
 
-## アプリケーション
+## アプリケーション {#applications}
 
 === "Plug-ins"
 
@@ -325,7 +325,7 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
     Torの設定方法は[Tor](../../interface_guide/tor.md)を参照してください。
 
-## システム
+## システム {#system}
 
 === "Overview"
 
@@ -384,7 +384,7 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
 === "Time Zone"
 
-    Time Zone ページでは、ルーターのタイムゾーンを正しく設定できます。これにより、スケジュールタスク、ログ、システムイベントに記録される時刻が現地時間に合わせて正確になります。
+    Time Zone ページでは、ルーターのタイムゾーンを正しく設定できます。これにより、すべてのスケジュールタスク、ログ、システムイベントに記録される時刻が現地時間に合わせて正確になります。この設定は、正確な記録の維持と、時間ベースの設定を正しく実行するために重要です。
 
     詳細は[Time Zone](../../interface_guide/time_zone.md)を参照してください。
 
@@ -398,7 +398,7 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
 === "Reset Firmware"
 
-    Reset Firmware ページでは、現在インストールされているファームウェアバージョンの設定を初期状態に戻し、すべてのカスタム設定を消去できます。現在のファームウェアのままでトラブルシューティングしたい場合や、まっさらな状態からやり直したい場合に便利です。
+    Reset Firmware ページでは、ルーターの現在のファームウェアバージョンをデフォルト設定にリセットし、すべてのカスタム設定を消去できます。この処理により、ルーターは現在インストールされているファームウェアバージョンのデフォルト設定に戻ります。継続的な問題のトラブルシューティングや、現在のファームウェアのデフォルト設定からやり直す場合に便利です。
 
     詳細は[Reset Firmware](../../interface_guide/reset_firmware.md)を参照してください。
 
@@ -412,7 +412,7 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
     * Cloud Log: ルーターに統合された GoodCloud サービスに関する操作ログ
     * Nginx Log: ルーターで使用されている場合、Nginx Web サーバーのアクセスや動作に関するログ
 
-    さらに、Export Log ボタンにより収集したログをまとめてエクスポートでき、技術サポートによる分析にも活用できます。
+    さらに、このページには Export Log ボタンがあり、収集したすべてのログをテクニカルサポートの分析用にエクスポートできます。この機能は、複雑な問題の診断や専門的なサポートを受ける際に非常に役立ちます。
 
     詳細は[Log](../../interface_guide/log.md)を参照してください。
 

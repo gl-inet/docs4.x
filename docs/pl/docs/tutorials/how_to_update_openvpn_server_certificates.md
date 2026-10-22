@@ -1,4 +1,4 @@
-# Jak zaktualizować certyfikaty serwera OpenVPN?
+# Jak zaktualizować certyfikaty serwera OpenVPN? {#how-to-update-openvpn-server-certificates}
 
 W tym poradniku wyjaśniamy, jak zaktualizować certyfikaty serwera OpenVPN na routerach GL.iNet.
 

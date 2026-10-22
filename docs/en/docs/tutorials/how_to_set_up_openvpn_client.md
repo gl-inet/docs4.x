@@ -1,4 +1,4 @@
-# How to set up OpenVPN client on GL.iNet routers
+# How to set up OpenVPN client on GL.iNet routers {#how-to-set-up-openvpn-client-on-glinet-routers}
 
 This tutorial will show you how to set up an OpenVPN client on GL.iNet routers. 
 
@@ -12,13 +12,13 @@ Before you start, ensure you have an active subscription with a VPN service prov
 
 Below are steps to set up an OpenVPN client via the router's web admin panel.
 
-## 1. Log in to your router
+## 1. Log in to your router {#1-log-in-to-your-router}
 
 Open a web browser and access the router's web admin panel (default IP: 192.168.8.1). Log in with your admin password.
 
 ![log in](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_openvpn_client/router-login.jpeg){class="glboxshadow"}
 
-## 2. Set up VPN client
+## 2. Set up VPN client {#2-set-up-vpn-client}
 
 Refer to the section corresponding to the VPN service provider you are using. 
 
@@ -67,7 +67,7 @@ Refer to the section corresponding to the VPN service provider you are using.
 
         ![start](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_openvpn_client/openvpn-manual-click-start.png){class="glboxshadow"}
 
-## 3. Verify VPN connection
+## 3. Verify VPN connection {#3-verify-vpn-connection}
 
 Open a web browser and search for your IP address and location. If they match the VPN server's IP (instead of your Internet service provider's IP) and location, the VPN connection is successful.
 

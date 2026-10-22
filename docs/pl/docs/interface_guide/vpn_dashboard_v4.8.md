@@ -1,4 +1,4 @@
-# VPN Dashboard (Firmware v4.8)
+# VPN Dashboard (Firmware v4.8) {#vpn-dashboard-firmware-v48}
 
 Treść tej strony dotyczy wersji firmware v4.8.x. Jeśli urządzenie używa innej wersji firmware, użyj poniższego selektora, aby przejść do odpowiedniego przewodnika.
 
@@ -16,7 +16,7 @@ VPN Dashboard wyświetla szczegóły połączenia VPN, takie jak reguły tunelu,
 
 Możesz również aktywować wiele połączeń VPN w scenariuszach z wieloma tunelami.
 
-## Kreator konfiguracji {#vpn-setup-wizard}
+## Kreator konfiguracji {#setup-wizard}
 
 Kliknij ikonę książki w lewym górnym rogu i postępuj zgodnie z Kreatorem konfiguracji VPN, aby szybko ukończyć konfigurację VPN.
 
@@ -44,7 +44,7 @@ Wszyscy podłączeni klienci będą uzyskiwać dostęp do Internetu przez ten tu
 
 Aby skonfigurować politykę VPN, zapoznaj się z sekcją [Tryb polityk](#policy-mode).
 
-## Tryb VPN
+## Tryb VPN {#vpn-mode}
 
 Na VPN Dashboard kliknij przycisk w prawym górnym rogu, aby przełączyć tryb VPN.
 
@@ -54,7 +54,7 @@ Dostępne są dwa tryby: tryb globalny (**Global Mode**) i tryb polityk (**Polic
 
 ![vpn mode](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/global_mode.png){class="glboxshadow"}
 
-### Tryb globalny
+### Tryb globalny {#global-mode}
 
 W tym trybie cały ruch jest kierowany przez tunel VPN. Może być aktywna tylko jedna instancja klienta VPN.
 
@@ -64,7 +64,7 @@ W poniższym przykładzie router łączy się z serwerem australijskim za pomoc�
 
 ![connected global mode](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/connected-global-mode.png){class="glboxshadow"}
 
-#### Opcje tunelu
+#### Opcje tunelu {#tunnel-options}
 
 Możesz skonfigurować zaawansowane ustawienia tunelu VPN, takie jak VPN Kill Switch, maskowanie IP i MTU.
 
@@ -81,6 +81,10 @@ Kliknij ikonę koła zębatego w prawym górnym rogu.
 - **Allow Remote Access the LAN Subnet**: Jeśli opcja jest włączona, zdalny dostęp do tego routera i jego urządzeń LAN przez VPN będzie dozwolony. Serwer VPN musi rozgłaszać trasę do podsieci LAN tego routera.
 
 - **Maskowanie IP**: Jeśli opcja jest włączona, źródłowe adresy IP klientów LAN zostaną przepisane na adres IP tunelu VPN routera. Wyłącz tę opcję tylko w konfiguracjach site-to-site, w których zdalny węzeł zna Twoje podsieci LAN.
+
+    Jak pokazano poniżej, jeśli maskowanie IP jest włączone, gdy laptop (192.168.10.200) w sieci LAN routera podróżnego wysyła ruch przez tunel do domowego serwera NAS (192.168.8.100), router podróżny przepisuje źródłowy adres IP z `192.168.10.200` na adres tunelu klienta VPN `10.1.0.2`. Dzięki temu strona serwera widzi ruch jako pochodzący od klienta, a nie z lokalnej sieci LAN klienta.
+
+    ![ip masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/ip_masquerading.png){class="glboxshadow"}
 
 - **MTU**: Skrót od Maximum Transmission Unit. Wartość MTU ustawiona dla tunelu nadpisze wartość zdefiniowaną w pliku konfiguracyjnym.
 
@@ -196,7 +200,7 @@ W tym tunelu możesz dostosować regułę tunelu, ustawiając trzy parametry:
 
     - **Use VPN**: po wybraniu tej opcji ruch pasujący do tej reguły będzie kierowany do wybranych celów przez VPN.
 
-        Aby rozpocząć, skonfiguruj router jako klienta VPN. Użyj [Kreatora konfiguracji VPN](#vpn-setup-wizard), aby szybko ukończyć konfigurację, lub przejdź do Klienta OpenVPN / Klienta WireGuard na lewym pasku bocznym, aby skonfigurować ją ręcznie.
+        Aby rozpocząć, skonfiguruj router jako klienta VPN. Użyj [Kreatora konfiguracji VPN](#setup-wizard), aby szybko ukończyć konfigurację, lub przejdź do Klienta OpenVPN / Klienta WireGuard na lewym pasku bocznym, aby skonfigurować ją ręcznie.
 
         Po skonfigurowaniu routera jako klienta VPN wybierz plik konfiguracyjny VPN dla tego tunelu i kliknij **Apply**.
 
@@ -212,7 +216,7 @@ W poniższym przykładzie reguła tunelu podstawowego jest następująca: wszysc
 
 ![connected policy mode](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/connected-policy-mode.jpg){class="glboxshadow"}
 
-**Uwaga**: Ze względów bezpieczeństwa przed włączeniem tuneli przejdź do sekcji [Cały pozostały ruch](#all-other-traffic) i [Opcje tunelu](#tunnel-options), aby sprawdzić pozostałe ustawienia.
+**Uwaga**: Ze względów bezpieczeństwa przed włączeniem tuneli przejdź do sekcji [Cały pozostały ruch](#all-other-traffic) i [Opcje tunelu](#tunnel-options_1), aby sprawdzić pozostałe ustawienia.
 
 #### Dodaj tunel {#add-tunnel}
 
@@ -232,7 +236,7 @@ W razie potrzeby możesz dodać więcej tuneli. Można utworzyć maksymalnie 5 t
 
 Skonfiguruj reguły tunelu, ustawiając źródło ruchu, cele ruchu i metodę routingu. Zapoznaj się z sekcją [Tunel podstawowy](#primary-tunnel).
 
-**Uwaga**: Ze względów bezpieczeństwa przed włączeniem tuneli przejdź do sekcji [Cały pozostały ruch](#all-other-traffic) i [Opcje tunelu](#tunnel-options), aby sprawdzić pozostałe ustawienia.
+**Uwaga**: Ze względów bezpieczeństwa przed włączeniem tuneli przejdź do sekcji [Cały pozostały ruch](#all-other-traffic) i [Opcje tunelu](#tunnel-options_1), aby sprawdzić pozostałe ustawienia.
 
 #### Cały pozostały ruch {#all-other-traffic}
 
@@ -276,7 +280,7 @@ Kliknij i przytrzymaj ikonę trzech linii po prawej stronie, aby zmienić kolejn
     - Gdy jest włączony, kieruje niedopasowany ruch lub ruch po przełączeniu awaryjnym przez lokalny WAN.
     - Gdy jest wyłączony, wzmacnia działanie Kill Switch i blokuje zwykły dostęp do Internetu, zapobiegając wyciekom adresu IP.
 
-#### Opcje tunelu {#tunnel-options}
+#### Opcje tunelu {#tunnel-options_1}
 
 Możesz skonfigurować zaawansowane ustawienia każdego tunelu VPN, takie jak Kill Switch VPN, maskowanie IP i MTU.
 
@@ -293,6 +297,10 @@ Kliknij ikonę koła zębatego obok nazwy tunelu i wybierz **Options**.
 - **Allow Remote Access the LAN Subnet**: Jeśli opcja jest włączona, zdalny dostęp do tego routera i jego urządzeń LAN przez VPN będzie dozwolony. Serwer VPN musi rozgłaszać trasę do podsieci LAN tego routera.
 
 - **Maskowanie IP**: Jeśli opcja jest włączona, źródłowe adresy IP klientów LAN zostaną przepisane na adres IP tunelu VPN routera. Wyłącz tę opcję tylko w konfiguracjach site-to-site, w których zdalny węzeł zna Twoje podsieci LAN.
+
+    Jak pokazano poniżej, jeśli maskowanie IP jest włączone, gdy laptop (192.168.10.200) w sieci LAN routera podróżnego wysyła ruch przez tunel do domowego serwera NAS (192.168.8.100), router podróżny przepisuje źródłowy adres IP z `192.168.10.200` na adres tunelu klienta VPN `10.1.0.2`. Dzięki temu strona serwera widzi ruch jako pochodzący od klienta, a nie z lokalnej sieci LAN klienta.
+
+    ![ip masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/ip_masquerading.png){class="glboxshadow"}
 
 - **MTU**: Skrót od Maximum Transmission Unit. Wartość MTU ustawiona dla tunelu nadpisze wartość zdefiniowaną w pliku konfiguracyjnym.
 

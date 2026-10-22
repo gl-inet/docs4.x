@@ -1,4 +1,4 @@
-# VPN Dashboard (Firmware v4.7 and earlier)
+# VPN Dashboard（ファームウェア v4.7 以前） {#vpn-dashboard-firmware-v47-and-earlier}
 
 このページの内容は、ファームウェア v4.7.x 以前に基づいています。デバイスで別のファームウェアバージョンを使用している場合は、以下のセレクターで該当するガイドに切り替えてください。
 
@@ -9,7 +9,6 @@
 
 </div>
 
----
 Web管理パネルにログインし、**VPN** -> **VPN Dashboard** に移動します。
 
 VPN Dashboard ページでは、サーバーアドレス、トラフィック統計、クライアント仮想IP、接続ログなどのVPN接続情報を確認できるほか、VPNキルスイッチ、VPNポリシー、IPマスカレーディング、MTU、VPN Cascading などの詳細設定も行えます。
@@ -28,7 +27,7 @@ VPN Dashboard ページでは、サーバーアドレス、トラフィック統
 
 ![configuration files](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/vpnclient_config.png){class="glboxshadow"}
 
-### クライアントオプション
+### クライアントオプション {#client-options}
 
 右側の歯車アイコンをクリックすると、OpenVPN または WireGuard のクライアントオプションを開けます。
 
@@ -50,9 +49,13 @@ WireGuard Client Options は次のように表示されます。
 
 - **IP Masquerading**: 有効にすると、LAN クライアントの送信元IPアドレスはルーターのVPNトンネルIPに書き換えられます。リモートピアがLANサブネットを認識しているサイトツーサイト構成の場合にのみ無効にしてください。
 
+    下図のように、IPマスカレーディングが有効な場合、トラベルルーターのLAN上にあるノートパソコン（192.168.10.200）がトンネル経由で自宅のNAS（192.168.8.100）へトラフィックを送信すると、トラベルルーターは送信元IPを`192.168.10.200`からVPNクライアントのトンネルアドレス`10.1.0.2`に書き換えます。そのため、サーバー側では、このトラフィックはクライアントのローカルLANからではなく、クライアントから送信されたものとして認識されます。
+
+    ![ip masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/ip_masquerading.png){class="glboxshadow"}
+
 - **MTU**: Maximum Transmission Unit の略です。このオプション設定ではVPNトンネルの MTU をカスタマイズでき、設定ファイル内で定義された値を上書きします。
 
-### プロキシモード
+### プロキシモード {#proxy-mode}
 
 VPN接続の既定のプロキシモードは **Global Proxy** です。右上のボックスをクリックすると、別のプロキシモードへ切り替えられます。
 
@@ -90,7 +93,7 @@ VPN接続の既定のプロキシモードは **Global Proxy** です。右上�
 
         各VPNクライアントインスタンスごとに、ルーティングルールを手動で設定できます。
 
-### グローバルオプション
+### グローバルオプション {#global-options}
 
 右上の **Global Options** をクリックすると、VPNクライアントの詳細設定を行えます。
 
@@ -100,19 +103,19 @@ VPN接続の既定のプロキシモードは **Global Proxy** です。右上�
 
 - **Block Non-VPN Traffic**: 有効にすると、すべてのインターネットトラフィックはVPNトンネルのみを通過するよう強制され、ローカルISPのWANなど他のインターフェース経由ではルーティングされません。VPN接続が予期せず切断された場合も、通常のWANへのフォールバックを防ぐため、すべてのインターネットトラフィックが完全にブロックされます。これにより、VPN障害やクライアントのDNS設定ミスなどに起因するVPNリークを防げます。
 
-    この機能は [VPN Kill Switch](https://cybernews.com/what-is-vpn/vpn-kill-switch/){target="_blank"} とも呼ばれます。ユーザーデータがオンライン上に漏れるのを防ぐ機能です。一般的な Kill Switch は、VPN接続が失敗した際にインターネット接続を自動的に遮断します。GL.iNet ルーターの Block Non-VPN Traffic 機能は、より広範なリーク保護を提供し、次のシナリオに対応します。
+    この機能は [VPNキルスイッチ](https://cybernews.com/what-is-vpn/vpn-kill-switch/){target="_blank"} とも呼ばれます。ユーザーデータがオンライン上に漏れるのを防ぐ機能です。一般的なキルスイッチは、VPN接続が失敗した際にインターネット接続を自動的に遮断します。GL.iNet ルーターの Block Non-VPN Traffic 機能は、より広範なリーク保護を提供し、次のシナリオに対応します。
 
-    1. DNS Leak
+    1. DNSリーク
 
-    2. IPv6 Leak
+    2. IPv6リーク
 
-    3. WebRTC Leak
+    3. WebRTCリーク
 
-    4. VPN Connection Drop
+    4. VPN接続の切断
 
-    5. Applications Launched Before VPN Establishment
+    5. VPN接続の確立前に起動したアプリケーション
 
-    6. Per-Application Traffic Leaks
+    6. アプリケーション単位のトラフィックリーク
 
 - **Allow Access WAN**: 有効にすると、VPN接続中でもローカルクライアントデバイスは WAN 側のサービス（上位サブネット内のプリンター、NAS など）へアクセスできます。
 
@@ -134,7 +137,7 @@ OpenVPN Server または WireGuard Server を有効にすると、ページに�
 
 ![vpn server enabled](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/vpnserver_connected.png){class="glboxshadow"}
 
-### サーバーオプション
+### サーバーオプション {#server-options}
 
 右側の歯車アイコンをクリックすると、OpenVPN または WireGuard のサーバーオプションを開けます。
 
@@ -152,11 +155,15 @@ WireGuard Server Options は次のように表示されます。
 
 * **IP Masquerading**: 有効にすると、LAN クライアントの送信元IPアドレスはルーターのVPNトンネルIPに書き換えられます。リモートピアがLANサブネットを認識しているサイトツーサイト構成の場合にのみ無効にしてください。
 
+    下図のように、IPマスカレーディングが有効な場合、自宅LAN上のNAS（192.168.8.100）がトンネル経由でトラベルルーター側のノートパソコン（192.168.10.200）へトラフィックを送信すると、自宅ルーターは送信元IPを`192.168.8.100`からVPNサーバーのトンネルアドレス`10.1.0.1`に書き換えます。そのため、リモート側では、このトラフィックはサーバーのローカルLANからではなく、サーバーから送信されたものとして認識されます。
+
+    ![ip masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/ip_masquerading.png){class="glboxshadow"}
+
 * **MTU**: Maximum Transmission Unit の略です。ここで設定したトンネルの MTU 値は、設定ファイル内の MTU 設定を上書きします。
 
 * **Client to Client**: 有効にすると、このサーバーに接続したVPNクライアント同士が、それぞれのVPNトンネルIP経由で相互にアクセスできます。クライアントから互いのLANサブネットにもアクセスできるようにするには、VPNサーバーにルーティングルールを追加し、それらのリモートLANサブネットを通知する必要があります。
 
-### サーバールートルール
+### サーバールートルール {#server-route-rule}
 
 右側のルートアイコンをクリックすると、必要に応じて OpenVPN または WireGuard のルートルールをカスタマイズできます。
 
@@ -170,9 +177,9 @@ WireGuard Server Route Rule は次のように表示されます。**Add Route R
 
 ![wg server route rule](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/vpnserver_route_rule_wg.png){class="glboxshadow"}
 
-**Note**: カスタムルートモードでは、VPNクライアントは設定ファイルおよびサーバーから配布されたルーティング設定を無視します。任意のネットワークセグメントへアクセスする際にVPN暗号化トンネルを使用するかどうかは、手動で設定したルートルールによって決まります。
+**注意**: カスタムルートモードでは、VPNクライアントは設定ファイルおよびサーバーから配布されたルーティング設定を無視します。任意のネットワークセグメントへアクセスする際にVPN暗号化トンネルを使用するかどうかは、手動で設定したルートルールによって決まります。
 
-### グローバルオプション
+### グローバルオプション {#global-options_1}
 
 右上の **Global Options** をクリックすると、VPNサーバーの詳細設定を行えます。
 
@@ -184,4 +191,4 @@ WireGuard Server Route Rule は次のように表示されます。**Add Route R
 
 ---
 
-まだご不明な点がある場合は、[Community Forum](https://forum.gl-inet.com){target="_blank"} をご利用いただくか、[Contact us](https://www.gl-inet.com/contacts/){target="_blank"} からお問い合わせください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

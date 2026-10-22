@@ -1,0 +1,77 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
+# Tutorials {#tutorials}
+
+Learn how to use our devices correctly with detailed steps.
+
+## VPN {#vpn}
+
+* [How to set up OpenVPN client on GL.iNet routers](how_to_set_up_openvpn_client.md)
+* [How to set up OpenVPN server on GL.iNet routers](how_to_set_up_openvpn_server.md)
+* [Je eigen WireGuard-thuisserver bouwen met twee GL.iNet-routers](build_your_own_wireguard_home_server_with_two_glinet_routers.md)
+* [How to set up VPN Obfuscation on GL.iNet routers](how_to_set_up_vpn_obfuscation_on_glinet_routers.md)
+* [How to configure AmneziaWG Obfuscation Parameters](../faq/amneziawg_obfuscation.md)
+* [How to connect to NordVPN with a dedicated IP on GL.iNet routers](how_to_connect_to_nordvpn_with_dedicated_ip_on_glinet_routers.md)
+* [How to connect to Surfshark with a dedicated IP on GL.iNet routers](how_to_connect_to_surfshark_with_dedicated_ip_on_glinet_routers.md)
+* [How to access OpenVPN Client LAN subnet from server](openvpn_server_access_client_lan_side.md)
+* [How to access WireGuard Client LAN subnet from server](wireguard_server_access_to_client_lan_side.md)
+* [How to access OpenVPN Server LAN subnet from client via domain name](how_to_access_ovpnserver_lan_via_domain_name.md)
+* [How to access WireGuard Server LAN subnet from client via domain name](how_to_access_wgserver_lan_via_domain_name.md)
+* [How to enable OpenVPN TAP-S2S mode on GL.iNet routers](how_to_enable_openvpn_tap_s2s_mode_on_glinet_routers.md)
+* [How to enable VPN Cascading on GL.iNet routers](how_to_use_vpn_cascading_on_glinet_routers.md)
+* [RDP vanaf een extern netwerk beveiligen met WireGuard](secure_rdp_with_wireguard.md)
+* [How to get configuration files from WireGuard service providers](how_to_get_configuration_files_from_wireguard_service_providers.md)
+* [How to reserve fixed IP for OpenVPN client in a self built OpenVPN connection](reserve_fixed_IP_for_ovpn_client.md)
+* [How to allow access to WAN when VPN client is enabled?](how_to_allow_access_to_wan_when_vpn_client_enabled.md)
+* [How to route VPN Client DNS queries to the VPN Server's Upstream DNS](route_vpn_client_dns_to_server_upstream_dns.md)
+* [How to update OpenVPN server certificates](how_to_update_openvpn_server_certificates.md)
+* [How to make AdGuard Home DNS bypass VPN](how_to_make_adguard_home_dns_bypass_vpn.md)
+
+## Cellular {#cellular}
+
+* [SMS](sms.md)
+* [SMS Forwarding](sms_forwarding.md)
+* [How to use qlog to capture modem logs](get_module_logs.md)
+* [How to upgrade quectel module firmware](upgrade_quectel_module_software.md)
+* [Carrier aggregation op je mobiele router controleren](how_to_check_carrier_aggregation.md)
+* [Spitz AX (GL-X3000) instellen en gebruiken in je camper](how_to_set_up_and_use_spitz_ax_gl-x3000_in_your_recreational_vehicle.md)
+* [How to install or change external antennas for cellular routers](how_to_install_or_change_antennas.md)
+* [Understanding external cellular antennas](understanding_external_cellular_antennas.md)
+
+## eSIM {#esim}
+
+* [De fysieke eSIM-kaart gebruiken met GL.iNet-routers](how_to_use_esim_physical_card_with_glinet_routers.md)
+* [De fysieke eSIM-kaart gebruiken met Android-apparaten](how_to_use_the_esim_physical_card_with_android_devices.md)
+
+## GoodCloud {#goodcloud}
+
+* [GoodCloud Site to Site](goodcloud_site_to_site.md)
+* [How to access the LuCI interface via GoodCloud](how_to_access_the_luci_interface_via_goodcloud.md)
+
+## Network {#network}
+
+* [How to connect to an EAP (Extensible Authentication Protocol) network](eap.md)
+* [How to set up a guest Wi-Fi network on GL.iNet routers](how_to_set_up_a_guest_network.md)
+* [Understanding Wi-Fi Coverage, Access Points, and Transmit Power](understanding_wifi_coverage_access_points_and_transmit_power.md)
+* [How to set up drop-in gateway on GL.iNet routers](how_to_set_up_drop_in_gateway.md)
+* [How to set up port forwarding on your primary router](how_to_set_up_port_forwarding.md)
+* [How to configure dual wired WAN access on a single-WAN-port router](configure_dual_ethernet_wan.md)
+* [Wat is USB-C OTG en hoe deel je een netwerk via USB-C OTG?](what_is_usb-c_otg_and_how_to_share_your_network_via_usb-c_otg.md)
+
+## Others {#others}
+
+* [How to block client devices](how_to_block_client_devices.md)
+* [How to manually configure static IP on the client devices](manually_configure_static_ip.md)
+* [Controleren of je een openbaar IP-adres hebt](how_to_check_if_isp_assigns_you_a_public_ip_address.md)
+* [De firmware van je router upgraden of downgraden (van v4.x naar v4.x)](how_to_upgrade_downgrade_router.md)
+* [How to SSH log in to the router](ssh_log_in_to_the_router.md)
+* [How to use WinSCP to access your share files](winscp_share_file.md)
+* [How to use WinSCP to modify files on GL.iNet routers](how_to_use_winscp_to_modify_files_on_glinet_routers.md)
+* [How to change the NAT type on Gaming](how_to_change_the_nat_type_on_gaming.md)
+* [How to retrieve the mobile App log](how_to_retrieve_the_mobile_app_log.md)
+* [Regels voor domein- en IP-filtering via een online tekstbestand configureren](how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md)
+* [Technical Support via GoodCloud](technical_support_via_goodcloud.md)

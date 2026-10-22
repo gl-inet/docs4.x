@@ -1,18 +1,18 @@
-# Upgrade U-Boot Version
+# Upgrade U-Boot Version {#upgrade-u-boot-version}
 
-## Warning
+## Warning {#warning}
 
 **Upgrading U-Boot is very dangerous and generally not recommended. Once it fails, your device will be bricked and there will be no way to restore it. Only do this when necessary or instructed by GL.iNet support**.
 
 **Do NOT turn off the power during the upgrade process, otherwise it may cause the upgrade to fail and the device to be bricked**.
 
-## Preparation
+## Preparation {#preparation}
 
 - A computer with an ethernet port. If not, please prepare an additional USB Ethernet Adapter.
 - An Ethernet cable.
 - Download the U-Boot file as per the instructions of the GL-iNet support staff. Make sure you are using the correct U-Boot file. If you don't know how to download the U-Boot file, contact us via email at support@gl-inet.com.
 
-## Upgrade Steps
+## Upgrade Steps {#upgrade-steps}
 
 Please follow the procedures below to access the U-Boot upgrade page.
 

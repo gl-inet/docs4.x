@@ -1,10 +1,10 @@
-# SMS
+# SMS {#sms}
 
 GL.iNet のセルラールーターにはモデムが内蔵されており、SIM カードを挿入すると SMS メッセージを送受信できます。
 
 **注意**: この機能は、純正の 4G LTE/5G NR モジュールを搭載した GL.iNet 4G/5G モデルでのみ動作し、その他のモジュールや USB モジュールではサポートされません。
 
-## 対応モデル
+## 対応モデル {#supported-models}
 
 ??? "対応モデル"
     - GL-E5800 (Mudi 7)
@@ -41,7 +41,7 @@ GL.iNet のセルラールーターにはモデムが内蔵されており、SIM
     - GL-B1300 (Convexa-B)
     - GL-AP1300 (Cirrus)
 
-## クイックセットアップ
+## クイックセットアップ {#quick-setup}
 
 ここでは **GL-X3000 (Spitz AX)** を例に説明します。
 
@@ -81,8 +81,8 @@ GL.iNet のセルラールーターにはモデムが内蔵されており、SIM
 
 関連記事
 
-- [SMS Forwarding](../tutorials/sms_forwarding.md)
+- [SMS転送](../tutorials/sms_forwarding.md)
 
 ---
 
-ご不明な点がありましたら、[コミュニティ・フォーラム](https://forum.gl-inet.com){target="_blank"}または[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}をご利用ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

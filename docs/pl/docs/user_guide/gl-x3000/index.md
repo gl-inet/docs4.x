@@ -1,12 +1,12 @@
-# Przewodnik użytkownika Spitz AX (GL-X3000)
+# Przewodnik użytkownika Spitz AX (GL-X3000) {#spitz-ax-gl-x3000-user-guide}
 
-## Przegląd produktu
+## Przegląd produktu {#product-overview}
 
 Spitz AX (GL-X3000) to bramka komórkowa Wi-Fi 6 z obsługą dwóch kart SIM, zaprojektowana z myślą o szybkim i niezawodnym połączeniu, szczególnie w odległych lokalizacjach i podczas podróży. Oferuje cztery metody dostępu do Internetu: Cellular (karty SIM), Ethernet, Repeater i Tethering. Obsługuje Multi-WAN (przełączenie awaryjne i równoważenie obciążenia), VPN (OpenVPN i WireGuard), kontrolę rodzicielską, AdGuard Home, przekierowanie portów, Tailscale i wiele więcej.
 
 ![x3000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x3000/hardware_info/gl-x3000_interface.jpg){class="glboxshadow"}
 
-## Zawartość opakowania
+## Zawartość opakowania {#package-contents}
 
 - 1 x Spitz AX (GL-X3000)
 - 1 x instrukcja obsługi
@@ -18,7 +18,9 @@ Spitz AX (GL-X3000) to bramka komórkowa Wi-Fi 6 z obsługą dwóch kart SIM, za
 
 ![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x3000/first_time_setup/x3000_unboxing.jpg){class="glboxshadow"}
 
-## Wskaźniki LED
+## Wskaźniki LED {#led-indicators}
+
+Poniżej opisano stany diod LED dla różnych zdarzeń. Wszystkie stany poszczególnych diod opisano w sekcji [Stan wskaźników LED GL-X3000](../../faq/led.md#gl-x3000){target="_blank"}.
 
 | Stan urządzenia                                  | Power                  | Internet               | 2.4GHz                 | 5GHz                   | Cellular               | 
 | ------------------------------------------------ | ---------------------- | ---------------------- | ---------------------- | ---------------------- | ---------------------- |
@@ -26,12 +28,12 @@ Spitz AX (GL-X3000) to bramka komórkowa Wi-Fi 6 z obsługą dwóch kart SIM, za
 | Połączenie z Internetem (Cellular nieaktywny)     | Zielona — świeci       | Zielona — świeci       | Zielona — świeci       | Zielona — świeci       | Wyłączona              |
 | Brak połączenia z Internetem                      | Zielona — świeci       | Wyłączona              | Zielona — świeci       | Zielona — świeci       | Wyłączona              |
 | Aktualizacja firmware                             | Zielona — świeci       | Miga co 0,5 s         | Miga co 0,5 s         | Miga co 0,5 s         | Zielona — świeci       | 
-| Reset sieci (przytrzymaj reset < 3 s)             | Miga co 1 s           | Zielona — świeci       | Zielona — świeci       | Zielona — świeci       | Zielona — świeci       |
+| Reset sieci (przytrzymaj reset przez 5 s)             | Miga co 1 s           | Zielona — świeci       | Zielona — świeci       | Zielona — świeci       | Zielona — świeci       |
 | Reset fabryczny (przytrzymaj reset przez 10 s)    | Miga co 0,25 s        | Zielona — świeci       | Zielona — świeci       | Zielona — świeci       | Zielona — świeci       | 
 
 **Wskazówka**: Gdy router jest połączony z Internetem, migająca dioda 2.4GHz lub 5GHz oznacza, że urządzenia Wi-Fi są podłączone i aktywnie przesyłają dane.
 
-## Jak skonfigurować Spitz AX
+## Jak skonfigurować Spitz AX {#how-to-set-up-spitz-ax}
 
 Obejrzyj ten film konfiguracyjny lub wykonaj poniższe kroki.
 
@@ -45,11 +47,11 @@ Obejrzyj ten film konfiguracyjny lub wykonaj poniższe kroki.
     2. Wyłącz router.
     3. Włóż kartę (karty) SIM do gniazd kart SIM. (**Uwaga:** W danym momencie aktywna jest tylko jedna karta SIM. Druga karta pełni jedynie funkcję zapasową.)
 
-### 1. Włącz zasilanie
+### 1. Włącz zasilanie {#1-power-on}
 
 Złóż dwuczęściowy zasilacz. Podłącz go do routera, a następnie do gniazdka elektrycznego. Urządzenie uruchomi się automatycznie.
 
-### 2. Podłącz urządzenie
+### 2. Podłącz urządzenie {#2-connect-device}
 
 Połącz urządzenie (np. komputer, laptop lub smartfon) z routerem przez Wi-Fi albo Ethernet.
 
@@ -61,13 +63,13 @@ Połącz urządzenie (np. komputer, laptop lub smartfon) z routerem przez Wi-Fi 
 
     Na urządzeniu przejdź do Settings -> WLAN, znajdź nazwę sieci Wi-Fi routera na liście dostępnych sieci i wpisz hasło. Domyślną nazwę sieci i hasło znajdziesz na etykiecie routera.
 
-### 3. Zaloguj się do webowego panelu administracyjnego
+### 3. Zaloguj się do webowego panelu administracyjnego {#3-log-in-to-web-admin-panel}
 
 Otwórz przeglądarkę internetową, wpisz w pasku adresu `192.168.8.1` i zaloguj się. Wybierz język, ustaw hasło administratora, a następnie kliknij **Apply**.
 
 Podczas potwierdzania ustawień Wi‑Fi pamiętaj, że po zmianie danych sieci Wi‑Fi trzeba będzie ponownie połączyć urządzenie z routerem przy użyciu zaktualizowanych danych logowania.
 
-### 4. Konfiguracja Internetu
+### 4. Konfiguracja Internetu {#4-internet-setup}
 
 **Uwaga:** Poniższe instrukcje dotyczą użytkowników konfigurujących router za pomocą webowego panelu administracyjnego GL.iNet. Jeśli wolisz korzystać z aplikacji GL.iNet, [pobierz aplikację](https://www.gl-inet.com/app/){target="_blank"} i postępuj zgodnie z instrukcjami wyświetlanymi na ekranie.
 
@@ -121,7 +123,7 @@ Skonfiguruj Spitz AX, korzystając z jednej z obsługiwanych metod połączenia 
 
     Szczegółowe instrukcje znajdziesz w poradniku [Jak połączyć się z Internetem przez tethering USB](../../interface_guide/internet_tethering.md).
 
-## Jak skonfigurować VPN
+## Jak skonfigurować VPN {#how-to-set-up-a-vpn}
 
 VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany tunel między Twoim urządzeniem a serwerem VPN. Zapewnia dodatkową warstwę prywatności i bezpieczeństwa (klient VPN), a także umożliwia dostęp do sieci zdalnej (serwer VPN). Spitz AX (podobnie jak inne routery GL.iNet) obsługuje OpenVPN i WireGuard. Dodatkowo obsługuje także Tor.
 
@@ -145,7 +147,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany tunel między Twoim
     
     * [Jak skonfigurować Tor](../../interface_guide/tor.md).
 
-## Ustawienia sieci bezprzewodowej i klienci
+## Ustawienia sieci bezprzewodowej i klienci {#wireless-and-clients}
 
 === "Wireless"
 
@@ -159,7 +161,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany tunel między Twoim
 
     Aby skonfigurować Clients, zapoznaj się z poradnikiem [Clients](../../interface_guide/clients.md).
 
-## Usługi chmurowe
+## Usługi chmurowe {#cloud-services}
 
 === "GoodCloud"
 
@@ -173,7 +175,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany tunel między Twoim
     
     Aby skonfigurować AstroWarp, zapoznaj się z poradnikiem [AstroWarp](../../interface_guide/astrowarp.md).
 
-## Aplikacje
+## Aplikacje {#applications}
 
 === "Plug-ins"
 
@@ -227,7 +229,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany tunel między Twoim
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/hyHh8pAxgVw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Ustawienia sieci
+## Ustawienia sieci {#network-settings}
 
 === "Przekierowanie portów"
 
@@ -305,7 +307,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany tunel między Twoim
 
     Aby skonfigurować ustawienia NAT, zapoznaj się z poradnikiem [NAT Settings](../../interface_guide/nat_settings.md).
 
-## Ustawienia systemu
+## Ustawienia systemu {#system-settings}
 
 === "Przegląd"
 
@@ -397,6 +399,6 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany tunel między Twoim
 
     Szczegółowe instrukcje znajdziesz w poradniku [Advanced Settings](../../interface_guide/advanced_settings.md).
 
-## Deklaracja zgodności
+## Deklaracja zgodności {#declaration-of-conformity}
 
 Niniejszym GL TECHNOLOGIES (HONG KONG) LIMITED deklaruje, że typ urządzenia radiowego [Router Wi-Fi 6 5G NR, GL-X3000NR / Router Wi-Fi 6 4G LTE, GL-X3000C16] jest zgodny z zasadniczymi wymaganiami i innymi stosownymi postanowieniami dyrektywy 2014/53/UE. Pełny tekst deklaracji zgodności UE jest dostępny pod następującym adresem internetowym: [https://www.gl-inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}.

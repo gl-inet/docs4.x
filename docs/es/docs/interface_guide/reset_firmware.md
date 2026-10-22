@@ -1,4 +1,4 @@
-# Restablecer el firmware
+# Restablecer el firmware {#reset-firmware}
 
 En el lado izquierdo del panel de administración web, vaya a **SYSTEM** -> **Reset Firmware**.
 

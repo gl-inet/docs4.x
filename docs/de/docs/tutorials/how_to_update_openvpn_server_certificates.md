@@ -1,4 +1,4 @@
-# Wie aktualisiert man OpenVPN-Serverzertifikate?
+# Wie aktualisiert man OpenVPN-Serverzertifikate? {#how-to-update-openvpn-server-certificates}
 
 Dieses Tutorial erklärt, wie Sie die Zertifikate des OpenVPN-Servers auf Ihren GL.iNet-Routern aktualisieren.
 

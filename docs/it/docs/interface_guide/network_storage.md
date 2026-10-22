@@ -1,24 +1,24 @@
-# Network Storage
+# Network Storage {#network-storage}
 
-## Introduction
+## Introduction {#introduction}
 
-Network storage consente la condivisione wireless dei file tra dispositivi collegando un'unita' USB o una scheda SD al router. Il router converte il dispositivo di archiviazione in un'unita' di rete condivisa, accessibile a tutti i dispositivi connessi al Wi-Fi.
+Network storage consente la condivisione wireless dei file tra dispositivi collegando un'unità USB o una scheda SD al router. Il router converte il dispositivo di archiviazione in un'unità di rete condivisa, accessibile a tutti i dispositivi connessi al Wi-Fi.
 
 Alcuni modelli GL.iNet dispongono di slot per schede MicroSD(TF), mentre altri dispongono di porte USB e supportano chiavette USB e hard disk esterni portatili. Puoi configurare Samba, WebDAV e DLNA per questi dispositivi di archiviazione, che supportano formati comuni come NTFS, FAT32 ed EXT4.
 
 !!! Note
 
-    1. Il consumo energetico di un hard disk USB e' piuttosto elevato. Usalo con un'alimentazione esterna, altrimenti potrebbe causare malfunzionamenti.
+    1. Il consumo energetico di un hard disk USB è piuttosto elevato. Usalo con un'alimentazione esterna, altrimenti potrebbe causare malfunzionamenti.
 
     2. Alcuni modelli hanno una porta USB o uno slot MicroSD ma dispongono di uno spazio di archiviazione limitato e non supportano Network Storage.
 
     3. Il pannello di amministrazione web consente solo di gestire le cartelle condivise. Per gestire i file sul dispositivo di archiviazione, usa la [mobile app](https://www.gl-inet.com/app/#download-app-glinet){target="_blank"}.
 
-## Supported Models
+## Supported Models {#supported-models}
 
-Di solito, i modelli con porte USB o slot MicroSD(TF) supportano Network Storage, cioe' la condivisione dei file.
+Di solito, i modelli con porte USB o slot MicroSD(TF) supportano Network Storage, cioè la condivisione dei file.
 
-Per i dispositivi con memoria flash di 32 MB o inferiore, la funzione Network Storage non e' ancora supportata.
+Per i dispositivi con memoria flash di 32 MB o inferiore, la funzione Network Storage non è ancora supportata.
 
 | Router Model                           | Samba | Webdav | DLNA | USB Port | MicroSD Card |
 | :------------------------------------- | :---: | :---: | :---: | :------: | :----------: |
@@ -50,13 +50,13 @@ Per i dispositivi con memoria flash di 32 MB o inferiore, la funzione Network St
 
 Per una scheda TF, devi prima spegnere il router, inserire la scheda TF e poi riaccendere il router.
 
-Per un'unita' USB, puoi inserirla direttamente nella porta USB. Per un hard disk esterno portatile, se disponi di un'alimentazione separata, collegalo all'alimentazione.
+Per un'unità USB, puoi inserirla direttamente nella porta USB. Per un hard disk esterno portatile, se disponi di un'alimentazione separata, collegalo all'alimentazione.
 
 Accedi al pannello di amministrazione web del router e vai su **APPLICATIONS** -> **Network Storage**.
 
 ![network storage](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/network_storage_init.png){class="glboxshadow"}
 
-Collega il dispositivo di archiviazione. Quando viene rilevato, la pagina verra' visualizzata come mostrato di seguito.
+Collega il dispositivo di archiviazione. Quando viene rilevato, la pagina verrà visualizzata come mostrato di seguito.
 
 ![network storage, disk found](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/disk_found.png){class="glboxshadow"}
 
@@ -73,7 +73,7 @@ Collega il dispositivo di archiviazione. Quando viene rilevato, la pagina verra'
 
     ![samba quick setup share](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba2.png){class="glboxshadow"}
 
-3. Aggiungi un utente e fai clic su **Next**. Questo passaggio verra' saltato se hai gia' un account.
+3. Aggiungi un utente e fai clic su **Next**. Questo passaggio verrà saltato se hai già un account.
 
     ![samba quick setup share, add a user](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba3.png){class="glboxshadow"}
 
@@ -83,15 +83,15 @@ Collega il dispositivo di archiviazione. Quando viene rilevato, la pagina verra'
 
 5. Configura la cartella condivisa.
 
-    Per motivi di sicurezza, non e' consigliato abilitare **Anonymous Access**.
+    Per motivi di sicurezza, non è consigliato abilitare **Anonymous Access**.
 
-    L'utente creato nel passaggio precedente verra' aggiunto per impostazione predefinita a **Read-Only User**. Se vuoi che questo utente possa scrivere o eliminare file, rimuovilo da Read-Only User e aggiungilo a **Read-Write User**, quindi fai clic su **Apply**.
+    L'utente creato nel passaggio precedente verrà aggiunto per impostazione predefinita a **Read-Only User**. Se vuoi che questo utente possa scrivere o eliminare file, rimuovilo da Read-Only User e aggiungilo a **Read-Write User**, quindi fai clic su **Apply**.
 
     ![samba quick setup share, shared folder settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba5.png){class="glboxshadow"}
 
 6. Ottieni il link di accesso alla cartella.
 
-    La pagina mostrera' il link per Windows e per sistemi operativi di tipo Unix. I sistemi di tipo Unix includono Android, iOS, macOS, Ubuntu, ecc.
+    La pagina mostrerà il link per Windows e per sistemi operativi di tipo Unix. I sistemi di tipo Unix includono Android, iOS, macOS, Ubuntu, ecc.
 
     Ora puoi accedere alla cartella condivisa tramite il servizio Samba usando questi link. Fai clic [qui](#samba-client) per i dettagli.
 
@@ -109,16 +109,16 @@ Collega il dispositivo di archiviazione. Quando viene rilevato, la pagina verra'
 
     * Allow Access WebDAV from WAN: abilitalo se vuoi che i dispositivi a monte possano accedere a WebDAV.
 
-    * WebDAV Protocol: **HTTP** non e' crittografato; usalo a tuo rischio. **HTTPS** e' crittografato e usa un certificato autofirmato.
+    * WebDAV Protocol: **HTTP** non è crittografato; usalo a tuo rischio. **HTTPS** è crittografato e usa un certificato autofirmato.
 
-    * WebDAV Port: non e' necessario modificare il numero di porta a meno che non ci sia un conflitto. L'intervallo di porte consigliato e' 1024 - 65535.
+    * WebDAV Port: non è necessario modificare il numero di porta a meno che non ci sia un conflitto. L'intervallo di porte consigliato è 1024 - 65535.
 
 
 2. Fai clic su **Quick Setup Share** per impostare il link di condivisione.
 
     ![enable webdav](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav2.png){class="glboxshadow"}
 
-3. Aggiungi un utente e fai clic su **Next**. Questo passaggio verra' saltato se hai gia' un account.
+3. Aggiungi un utente e fai clic su **Next**. Questo passaggio verrà saltato se hai già un account.
 
     ![webdav quick setup share, add a user](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav3.png){class="glboxshadow"}
 
@@ -128,15 +128,15 @@ Collega il dispositivo di archiviazione. Quando viene rilevato, la pagina verra'
 
 5. Configura la cartella condivisa.
 
-    Per motivi di sicurezza, non e' consigliato abilitare **Anonymous Access**.
+    Per motivi di sicurezza, non è consigliato abilitare **Anonymous Access**.
 
-    L'utente creato nel passaggio precedente verra' aggiunto per impostazione predefinita a **Read-Only User**. Se vuoi che questo utente possa scrivere o eliminare file, rimuovilo da Read-Only User e aggiungilo a **Read-Write User**, quindi fai clic su **Apply**.
+    L'utente creato nel passaggio precedente verrà aggiunto per impostazione predefinita a **Read-Only User**. Se vuoi che questo utente possa scrivere o eliminare file, rimuovilo da Read-Only User e aggiungilo a **Read-Write User**, quindi fai clic su **Apply**.
 
     ![webdav quick setup share, shared folder settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav5.png){class="glboxshadow"}
 
 6. Ottieni il link di accesso alla cartella.
 
-    La pagina mostrera' il link per Windows e per sistemi operativi di tipo Unix. I sistemi di tipo Unix includono Android, iOS, macOS, Ubuntu, ecc.
+    La pagina mostrerà il link per Windows e per sistemi operativi di tipo Unix. I sistemi di tipo Unix includono Android, iOS, macOS, Ubuntu, ecc.
 
     Ora puoi accedere alla cartella condivisa tramite il servizio WebDAV usando questi link. Fai clic [qui](#webdav-client) per i dettagli.
 
@@ -160,7 +160,7 @@ Collega il dispositivo di archiviazione. Quando viene rilevato, la pagina verra'
 
 ---
 
-## Samba Client
+## Samba Client {#samba-client}
 
 === "Windows"
 
@@ -186,7 +186,7 @@ Collega il dispositivo di archiviazione. Quando viene rilevato, la pagina verra'
 
     ![windows 11 add network location](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/windows11_add_network_location_5.png){class="glboxshadow"}
 
-    Se sono necessari nome utente e password, ti verra' chiesto di inserire le credenziali. Poi fai clic su **OK**.
+    Se sono necessari nome utente e password, ti verrà chiesto di inserire le credenziali. Poi fai clic su **OK**.
 
     ![windows 11 add network location](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/windows11_add_network_location_6.png){class="glboxshadow"}
 
@@ -198,13 +198,13 @@ Collega il dispositivo di archiviazione. Quando viene rilevato, la pagina verra'
 
     ![network storage, mac os finder connect to server](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/finder_connect_to_server.png){class="glboxshadow"}
 
-    Ti verra' chiesto il nome utente e la password; il nome utente e' quello impostato quando hai configurato **Shared Folder Settings**.
+    Ti verrà chiesto il nome utente e la password; il nome utente è quello impostato quando hai configurato **Shared Folder Settings**.
 
     Se hai configurato l'accesso anonimo, scegli **Guest** nell'immagine qui sotto.
 
     ![network storage, mac os finder connect to server username password](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/finder_username_password.png){class="glboxshadow"}
 
-    Fai clic su **Continue** e Samba verra' mostrato nella barra laterale del Finder.
+    Fai clic su **Continue** e Samba verrà mostrato nella barra laterale del Finder.
 
     ![network storage, mac os finder samba connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/finder_samba_connected.png){class="glboxshadow"}
 
@@ -236,7 +236,7 @@ Collega il dispositivo di archiviazione. Quando viene rilevato, la pagina verra'
 
     - Guida alla connessione a un server Samba tramite l'app [Files](https://apps.apple.com/us/app/files/id1232058109){target="_blank"}.
 
-        Apri l'app **Files**. E' installata per impostazione predefinita, quindi dovresti trovarla nella schermata Home. Poiche' **Files** ora e' un'app rimovibile, potresti doverla reinstallare dall'App Store se non compare.
+        Apri l'app **Files**. È installata per impostazione predefinita, quindi dovresti trovarla nella schermata Home. Poiché **Files** ora è un'app rimovibile, potresti doverla reinstallare dall'App Store se non compare.
 
         ![search files on iphone](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios15-iphone-12-pro-home-screen-search-files.jpg){class="glboxshadow" width="300"}
 
@@ -244,7 +244,7 @@ Collega il dispositivo di archiviazione. Quando viene rilevato, la pagina verra'
 
         ![ios files set up SMB](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios_files_smb_1.png){class="glboxshadow" width="560"}
 
-        Tocca l'opzione **Connect to Server** nella parte superiore del menu. Nella schermata successiva, inserisci l'URL di connessione del server. Puoi trovare l'URL in [Shared Link](#shared-link). Tocca il pulsante **Next** in alto a destra per continuare.
+        Tocca l'opzione **Connect to Server** nella parte superiore del menu. Nella schermata successiva, inserisci l'URL di connessione del server. Puoi trovare l'URL in [Shared Link](#set-up-samba). Tocca il pulsante **Next** in alto a destra per continuare.
 
         ![ios files set up SMB](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios_files_smb_2.png){class="glboxshadow" width="560"}
 
@@ -256,13 +256,13 @@ Collega il dispositivo di archiviazione. Quando viene rilevato, la pagina verra'
 
         ![ios files set up SMB](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios_files_smb_4.png){class="glboxshadow" width="560"}
 
-        La condivisione Samba verra' elencata nella parte inferiore del menu, sotto l'intestazione **Shared**.
+        La condivisione Samba verrà elencata nella parte inferiore del menu, sotto l'intestazione **Shared**.
 
         ![ios files set up SMB](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios_files_smb_5.png){class="glboxshadow" width="560"}
 
     - Guida alla connessione a un server Samba tramite l'app [Documents](https://apps.apple.com/us/app/documents-file-reader-browser/id364901807){target="_blank"}.
 
-        Fai clic sul pulsante piu' nell'angolo inferiore destro.
+        Fai clic sul pulsante più nell'angolo inferiore destro.
 
         ![documents samba](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav_client/documents_1.png){class="glboxshadow" width="560"}
 
@@ -274,13 +274,13 @@ Collega il dispositivo di archiviazione. Quando viene rilevato, la pagina verra'
 
         ![documents samba](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav_client/documents_3.png){class="glboxshadow" width="560"}
 
-        **Title** e' il nome di questa connessione. **URL** e' il link di accesso. **Login** e' il nome utente. Se si tratta di accesso anonimo, lascia semplicemente vuoti **Login** e **Password**.
+        **Title** è il nome di questa connessione. **URL** è il link di accesso. **Login** è il nome utente. Se si tratta di accesso anonimo, lascia semplicemente vuoti **Login** e **Password**.
 
         Fai clic sul pulsante **Done** per completare la configurazione.
 
         ![documents samba](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/documents_4_samba.png){class="glboxshadow" width="560"}
 
-## WebDAV Client
+## WebDAV Client {#webdav-client}
 
 === "Windows"
 
@@ -298,7 +298,7 @@ Collega il dispositivo di archiviazione. Quando viene rilevato, la pagina verra'
 
     Nell'area **Account**, inserisci nome utente e password oppure seleziona **Anonymous**.
 
-    Infine, fai clic su **Connect**: verra' aggiunta un'unita' X in Esplora file.
+    Infine, fai clic su **Connect**: verrà aggiunta un'unità X in Esplora file.
 
     ![RaiDrive WebDAV](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav_client/raidrive_new_drive_webdav.png){class="glboxshadow"}
 
@@ -320,7 +320,7 @@ Collega il dispositivo di archiviazione. Quando viene rilevato, la pagina verra'
 
     ![FE File Explorer WebDAV](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav_client/fe_file_explorer_webdav_connection_setting.png){class="glboxshadow"}
 
-    Potrebbe comparire un avviso come *The following secure server (null) uses an untrusted certificate. Trust this server?*, perche' viene usato un certificato autofirmato; in questo caso, consideralo attendibile.
+    Potrebbe comparire un avviso come *The following secure server (null) uses an untrusted certificate. Trust this server?*, perché viene usato un certificato autofirmato; in questo caso, consideralo attendibile.
 
 === "Android"
 
@@ -348,7 +348,7 @@ Collega il dispositivo di archiviazione. Quando viene rilevato, la pagina verra'
 
     Esistono molte app iOS che supportano WebDAV; ecco un esempio con [Documents](https://apps.apple.com/us/app/documents-file-reader-browser/id364901807){target="_blank"}.
 
-    Fai clic sul pulsante piu' nell'angolo inferiore destro.
+    Fai clic sul pulsante più nell'angolo inferiore destro.
 
     ![documents WebDAV](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav_client/documents_1.png){class="glboxshadow" width="560"}
 
@@ -360,19 +360,19 @@ Collega il dispositivo di archiviazione. Quando viene rilevato, la pagina verra'
 
     ![documents WebDAV](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav_client/documents_3.png){class="glboxshadow" width="560"}
 
-    **Title** e' il nome di questa connessione. **URL** e' il link di accesso. **Login** e' il nome utente.
+    **Title** è il nome di questa connessione. **URL** è il link di accesso. **Login** è il nome utente.
 
     Fai clic sul pulsante **Done** per completare la configurazione.
 
     ![documents WebDAV](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav_client/documents_4_webdav.png){class="glboxshadow" width="560"}
 
-## Using Mobile App
+## Using Mobile App {#using-mobile-app}
 
 Il pannello di amministrazione web consente solo di gestire le cartelle condivise. Per gestire i file sul dispositivo di archiviazione, usa la [mobile app](https://www.gl-inet.com/app/#download-app-glinet){target="_blank"}.
 
-- Quando accedi all'app tramite la **rete locale**, vengono mostrati il dispositivo di archiviazione e la sua capacita', ed e' supportato l'accesso in lettura/scrittura.
+- Quando accedi all'app tramite la **rete locale**, vengono mostrati il dispositivo di archiviazione e la sua capacità, ed è supportato l'accesso in lettura/scrittura.
 
-- Quando accedi all'app tramite il **cloud**, vengono mostrati il dispositivo di archiviazione e la sua capacita', ma l'accesso in lettura/scrittura non e' supportato.
+- Quando accedi all'app tramite il **cloud**, vengono mostrati il dispositivo di archiviazione e la sua capacità, ma l'accesso in lettura/scrittura non è supportato.
 
 ---
 

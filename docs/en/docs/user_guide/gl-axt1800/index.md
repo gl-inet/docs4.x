@@ -1,12 +1,12 @@
-# Slate AX (GL-AXT1800) User Guide
+# Slate AX (GL-AXT1800) User Guide {#slate-ax-gl-axt1800-user-guide}
 
-## Product overview
+## Product overview {#product-overview}
 
 Slate AX (GL-AXT1800) is the first Wi-Fi 6 travel router designed by GL.iNet. It comes with an IPQ6000 1.2GHz quad-core processor and runs on OpenWrt 23.05. With the latest Wi-Fi 6 technology, you can enjoy more capacity for connected devices and faster wireless speed on the road or at home.
 
 ![gl-axt1800 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-axt1800/hardware_info/gl-axt1800_interface.jpg){class="glboxshadow"}
 
-## Package contents
+## Package contents {#package-contents}
 
 - 1 x Slate AX (GL-AXT1800)
 - 1 x User manual
@@ -18,17 +18,17 @@ Slate AX (GL-AXT1800) is the first Wi-Fi 6 travel router designed by GL.iNet. It
 
 ![gl-axt1800 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-axt1800/first_time_setup/axt1800_unboxing.jpg){class="glboxshadow"}
 
-## How to set up Slate AX
+## How to set up Slate AX {#how-to-set-up-slate-ax}
 
 Watch this setup video or follow the steps below. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/f7DYULL6ZSI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Power on
+### 1. Power on {#1-power-on}
 
 Put the two-piece power adapter together. Connect it to your router and plug it into an outlet. It will start up automatically.
 
-### 2. Connect device
+### 2. Connect device {#2-connect-device}
 
 Connect a device (e.g., computer, laptop or smartphone) to the router using Wi-Fi or Ethernet.
 
@@ -40,13 +40,13 @@ Connect a device (e.g., computer, laptop or smartphone) to the router using Wi-F
 
     On your device, go to Settings -> WLAN, locate your router's Wi-Fi network name in the available networks list and enter the password. You can find the default network name and password printed on the router's bottom label.
 
-### 3. Log in to web Admin Panel
+### 3. Log in to web Admin Panel {#3-log-in-to-web-admin-panel}
 
 Open a web browser, enter `192.168.8.1` in the address bar and log in. Choose your language and set your admin password, then click **Apply**. 
 
 When confirming the Wi‑Fi details, please note that if you change the Wi‑Fi information, you will need to reconnect your device to the router's Wi‑Fi using the updated credentials.
 
-### 4. Internet setup
+### 4. Internet setup {#4-internet-setup}
 
 **Note:** The following instructions apply to users configuring the router via the GL.iNet Web Admin Panel. If you prefer using the GL.iNet app, [download the app](https://www.gl-inet.com/app/){target="_blank"} and follow the on-screen instructions.
 
@@ -96,7 +96,7 @@ Configure your Slate AX using one of the supported internet connection methods: 
 
     Please refer to [Connect to the Internet via cellular](../../interface_guide/internet_cellular.md) for detailed instructions.
 
-## How to set up a VPN 
+## How to set up a VPN {#how-to-set-up-a-vpn}
 
 A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Slate AX (and other GL.iNet routers) supports OpenVPN and WireGuard. Additionally, it supports Tor.
 
@@ -122,7 +122,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 ---
 
-## Wireless and clients
+## Wireless and clients {#wireless-and-clients}
 
 === "Wireless"
 
@@ -136,7 +136,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     To set up Clients, refer to [Clients](../../interface_guide/clients.md).
 
-## Cloud services
+## Cloud services {#cloud-services}
 
 === "GoodCloud"
 
@@ -150,7 +150,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     To set up AstroWarp, refer to [AstroWarp](../../interface_guide/astrowarp.md).
 
-## Applications
+## Applications {#applications}
 
 === "Plug-ins"
 
@@ -196,7 +196,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     To set up Tailscale, refer to [Tailscale](../../interface_guide/tailscale.md). 
 
-## Network settings
+## Network settings {#network-settings}
 
 === "Port Forwarding"
 
@@ -273,7 +273,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     To set up NAT settings, refer to [NAT Settings](../../interface_guide/nat_settings.md).
 
-## System settings
+## System settings {#system-settings}
 
 === "Overview"
 
@@ -368,7 +368,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     Please refer to [Advanced Settings](../../interface_guide/advanced_settings.md) for detailed instructions.
 
-## Regulatory Statements
+## Regulatory Statements {#regulatory-statements}
 
 **FCC ID: 2AFIW-AXT1800**  
 

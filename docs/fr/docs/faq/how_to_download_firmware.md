@@ -1,4 +1,4 @@
-# Comment télécharger le firmware de mon routeur GL.iNet ?
+# Comment télécharger le firmware de mon routeur GL.iNet ? {#how-to-download-the-firmware-for-my-glinet-router}
 
 Si vous souhaitez mettre à jour votre routeur (ou le restaurer via U-Boot), téléchargez les fichiers du firmware en suivant les étapes ci-dessous :
 

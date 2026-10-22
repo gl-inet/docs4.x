@@ -1,4 +1,4 @@
-# SQM (Smart Queue Management)
+# SQM (Smart Queue Management) {#sqm-smart-queue-management}
 
 **Hinweis**: Diese Funktion wurde mit Firmware v4.9 eingeführt.
 
@@ -61,7 +61,7 @@ SQM (Smart Queue Management) verwaltet den Netzwerkverkehr Ihres Routers intelli
     - GL-S1300 (Convexa-S)
 
 
-## Für Firmware v4.11 und höher
+## Für Firmware v4.11 und höher {#for-firmware-v411-and-above}
 
 Aktivieren Sie SQM mit dem Schalter und führen Sie anschließend die folgenden Schritte aus.
 
@@ -104,7 +104,7 @@ Aktivieren Sie SQM mit dem Schalter und führen Sie anschließend die folgenden 
 
     - **fq_codel**: Einfaches, effizientes Fair Queueing mit grundlegender Latenzreduzierung.
 
-## Für Firmware v4.9 bis v4.10
+## Für Firmware v4.9 bis v4.10 {#for-firmware-v49-to-v410}
 
 Schalten Sie den Schalter um, um SQM zu aktivieren, und legen Sie Ihre maximale Upload- und Download-Geschwindigkeit fest (Eingabebereich: 1 - 10000), damit der Datenverkehr geplant werden kann. Stimmen Sie die Werte für optimale Ergebnisse auf Ihre tatsächliche Internetbandbreite ab.
 

@@ -1,4 +1,4 @@
-# OpenVPN-Client auf GL.iNet-Routern einrichten
+# OpenVPN-Client auf GL.iNet-Routern einrichten {#set-up-openvpn-client-on-glinet-routers}
 
 OpenVPN ist ein Open-Source-VPN-Protokoll, das mithilfe von Techniken für virtuelle private Netzwerke sichere Site-to-Site- oder Point-to-Point-Verbindungen aufbaut.
 
@@ -132,7 +132,7 @@ In den folgenden Schritten verwenden wir [PIA (Private Internet Access)](https:/
 
     Sie können die Details der VPN-Verbindung auch im **VPN Dashboard** prüfen.
 
-## OpenVPN-Server auf dem GL.iNet-Router einrichten
+## OpenVPN-Server auf dem GL.iNet-Router einrichten {#set-up-openvpn-server-on-glinet-router}
 
 Wenn Sie zwei GL.iNet-Router besitzen, können Sie einen als OpenVPN-Server (eine öffentliche IP ist erforderlich) und den anderen als OpenVPN-Client verwenden. Auf diese Weise können Sie Ihre eigene VPN-Verbindung aufbauen, ohne einen VPN-Dienst eines Drittanbieters abonnieren zu müssen.
 
@@ -145,7 +145,7 @@ Wir haben über 30 OpenVPN-Anbieter getestet und die Schritte zum Abrufen der Ko
 Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte an dessen Support.
 
 ??? "NordVPN"
-    ### NordVPN
+    ### NordVPN {#nordvpn}
 
     [Official Website](https://go.nordvpn.net/aff_c?offer_id=15&amp;aff_id=12016&amp;url_id=902){target="_blank"}
 
@@ -184,7 +184,7 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
     Sie können NordVPN auch mit der [mobile App](../faq/mobile_app.md) einrichten.
 
 ??? "AirVPN"
-    ### AirVPN
+    ### AirVPN {#airvpn}
 
     [Official Website](https://airvpn.org/?referred_by=402389){target="_blank"}
 
@@ -201,7 +201,7 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
         ![download config](https://static.gl-inet.com/docs/router/de/4/interface_guide/openvpn_client/airvpn/airvpn3.png){class="glboxshadow"}
 
 ??? "Astrill"
-    ### Astrill
+    ### Astrill {#astrill}
 
     [Official Website](https://www.astrill.com/a/dik2masnw6ig){target="_blank"}
 
@@ -224,7 +224,7 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
         ![download certificate](https://static.gl-inet.com/docs/router/de/4/interface_guide/openvpn_client/astrillvpn/astrill4.png){class="glboxshadow"}
 
 ??? "BolehVPN"
-    ### BolehVPN
+    ### BolehVPN {#bolehvpn}
 
     [Official Website](https://www.bolehvpn.net/){target="_blank"}
 
@@ -235,7 +235,7 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
     [Referenzlink](https://www.bolehvpn.net/clients-installations/#1487691248224-0c435dba-d612){target="_blank"}
 
 ??? "CactusVPN"
-    ### CactusVPN
+    ### CactusVPN {#cactusvpn}
 
     [Official Website](https://billing.cactusvpn.com/aff.php?aff=2310){target="_blank"}
 
@@ -244,14 +244,14 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
     ![download cactusvpn openvpn profiles](https://static.gl-inet.com/docs/router/de/4/interface_guide/openvpn_client/cactusvpn/cactusvpn1.jpg){class="glboxshadow"}
 
 ??? "Cryptostorm"
-    ### Cryptostorm
+    ### Cryptostorm {#cryptostorm}
 
     [Official Website](https://cryptostorm.is/){target="_blank"}
 
     [Download](https://cryptostorm.is/configs/ecc/){target="_blank"} direkt.
 
 ??? "CyberGhost"
-    ### CyberGhost
+    ### CyberGhost {#cyberghost}
 
     [Official Website](https://www.cyberghostvpn.com/offer/GLiNet_rem6fdij){target="_blank"}
 
@@ -294,12 +294,9 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
         ![save config](https://static.gl-inet.com/docs/router/de/4/interface_guide/openvpn_client/cyberghost/cyberghost5.png){class="glboxshadow"}
 
 ??? "ExpressVPN"
-    ### ExpressVPN
+    ### ExpressVPN {#expressvpn}
 
     [Official Website](https://go.expressvpn.com/c/4130682/1645813/16063){target="_blank"} | [Get 30 days free](https://www.expressvpn.com/refer-a-friend/30-days-free?referrer_id=97477587){rel="sponsored" target="_blank"}
-
-
-    Informationen zitiert aus der [offiziellen ExpressVPN-Anleitung](https://www.expressvpn.com/support/vpn-setup/manual-config-for-linux-with-openvpn/#download){rel="sponsored" target="_blank"}
 
     1. Besuchen Sie die [ExpressVPN](https://go.expressvpn.com/c/4130682/1645813/16063){rel="sponsored" target="_blank"}-Website und melden Sie sich mit Ihren ExpressVPN-Zugangsdaten an.
 
@@ -326,7 +323,7 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
     [Referenzlink](https://www.expressvpn.com/support/vpn-setup/manual-config-for-linux-with-openvpn/#download){rel="sponsored" target="_blank"}
 
 ??? "FastestVPN"
-    ### FastestVPN
+    ### FastestVPN {#fastestvpn}
 
     [Official Website](https://go.fastestvpn.com/affiliate/pap?a_aid=5ffd2a3e9d687){target="_blank"}
 
@@ -337,7 +334,7 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
     [Referenzlink](https://support.fastestvpn.com/tutorials/routers/gl-inet/openvpn){target="_blank"}
 
 ??? "FinchVPN"
-    ### FinchVPN
+    ### FinchVPN {#finchvpn}
 
     [Official Website](https://www.finchvpn.com/){target="_blank"}
 
@@ -362,7 +359,7 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
         ![finchvpn](https://static.gl-inet.com/docs/router/de/4/interface_guide/openvpn_client/finchvpn/finchvpn5.jpg){class="glboxshadow"}
 
 ??? "HideIPVPN"
-    ### HideIPVPN
+    ### HideIPVPN {#hideipvpn}
 
     [Official Website](https://www.hideipvpn.com/){target="_blank"}
 
@@ -381,7 +378,7 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
         ![hideipvpn client area](https://static.gl-inet.com/docs/router/de/4/interface_guide/openvpn_client/hideipvpn/openvpn_config_files.jpg){class="glboxshadow"}
 
 ??? "Hide.me VPN"
-    ### Hide.me VPN
+    ### Hide.me VPN {#hideme-vpn}
 
     [Official Website](https://hide.me/?friend=glinet){target="_blank"}
 
@@ -392,7 +389,7 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
         ![hide.me vpn dashboard](https://static.gl-inet.com/docs/router/de/4/interface_guide/openvpn_client/hideme/hideme_dashboard.jpg){class="glboxshadow"}
 
 ??? "Hotspot Shield"
-    ### Hotspot Shield
+    ### Hotspot Shield {#hotspot-shield}
 
     [Official Website](https://trk.aclktrkr.com/aff_c?offer_id=59&aff_id=3722){target="_blank"}
 
@@ -411,7 +408,7 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
     [Referenzlink](https://support.hotspotshield.com/hc/en-us/articles/360038538012-How-do-I-install-Hotspot-Shield-on-my-GL-iNet-router){target="_blank"}
 
 ??? "IPVANISH"
-    ### IPVANISH
+    ### IPVANISH {#ipvanish}
 
     [Official Website](https://affiliate.ipvanish.com/aff_c?offer_id=1&aff_id=3073){target="_blank"}
 
@@ -426,7 +423,7 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
     [Referenzlink](https://support.ipvanish.com/hc/en-us/articles/360001329813-Android-OpenVPN-Setup){target="_blank"}
 
 ??? "IVACY"
-    ### IVACY
+    ### IVACY {#ivacy}
 
     [Official Website](https://billing.ivacy.com/page/22852){target="_blank"}
 
@@ -440,7 +437,7 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
     [Referenzlink](https://support.ivacy.com/setup_guide/how-to-setup-ivacy-on-gl-inet-router/){target="_blank"}
 
 ??? "IVPN"
-    ### IVPN
+    ### IVPN {#ivpn}
 
     [Official Website](https://www.ivpn.net/){target="_blank"}
 
@@ -455,7 +452,7 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
     [Referenzlink](https://www.ivpn.net/setup/gnu-linux-terminal.html){target="_blank"}
 
 ??? "OVPN"
-    ### OVPN
+    ### OVPN {#ovpn}
 
     [Official Website](https://www.ovpn.com/en?ref=glinet){target="_blank"}
 
@@ -470,7 +467,7 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
     Benutzername und Passwort sind dieselben wie für die Anmeldung bei OVPN.
 
 ??? "OysterVPN"
-    ### OysterVPN
+    ### OysterVPN {#oystervpn}
 
     [Official Website](https://go.oystervpn.net?a_aid=glinet){target="_blank"}
 
@@ -483,7 +480,7 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
     Tipp: Wenn die ZIP-Datei zu groß für den Upload ist, können Sie einige `.ovpn`-Dateien daraus löschen oder nur eine einzelne `.ovpn`-Datei hochladen.
 
 ??? "PIA (Private Internet Access)"
-    ### PIA
+    ### PIA {#pia}
 
     [Official Website](https://privateinternetaccess.com/offer/GLiNET_71dx4t8bl){target="_blank"}
 
@@ -492,7 +489,7 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
     Tipp: Wenn die ZIP-Datei zu groß für den Upload ist, können Sie einige `.ovpn`-Dateien daraus löschen oder nur eine einzelne `.ovpn`-Datei hochladen.
 
 ??? "PrivadoVPN"
-    ### PrivadoVPN
+    ### PrivadoVPN {#privadovpn}
 
     [Official Website](https://privadovpn.com/#a_aid=GLINET){target="_blank"}
 
@@ -503,7 +500,7 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
     Tipp: Wenn die ZIP-Datei zu groß für den Upload ist, können Sie einige `.ovpn`-Dateien daraus löschen oder nur eine einzelne `.ovpn`-Datei hochladen.
 
 ??? "PrivateVPN"
-    ### PrivateVPN
+    ### PrivateVPN {#privatevpn}
 
     [Official Website](https://affiliate.privatevpn.com/scripts/click.php?a_aid=5e3a511658bc3){target="_blank"}
 
@@ -514,11 +511,11 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
     Tipp: Wenn die ZIP-Datei zu groß für den Upload ist, können Sie einige `.ovpn`-Dateien daraus löschen oder nur eine einzelne `.ovpn`-Datei hochladen.
 
 ??? "Proton VPN"
-    ### Proton VPN
+    ### Proton VPN {#proton-vpn}
 
     [Official Website](https://go.getproton.me/aff_c?offer_id=26&aff_id=1612){target="_blank"}
 
-    **Proton VPN bietet WireGuard an. Wir empfehlen daher die Verwendung von WireGuard. Mehr dazu [hier](wireguard_client.md#wireguard-providers).**
+    **Proton VPN bietet WireGuard an. Wir empfehlen daher die Verwendung von WireGuard. Mehr dazu [hier](wireguard_client.md).**
 
     1. Melden Sie sich bei Ihrem [Proton VPN](https://go.getproton.me/aff_c?offer_id=26&aff_id=1612){target="_blank"}-Konto an.
 
@@ -533,7 +530,7 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
         ![protonvpn openvpn credential](https://static.gl-inet.com/docs/router/de/4/interface_guide/openvpn_client/protonvpn/protonvpn_openvpn_credential.jpg){class="glboxshadow"}
 
 ??? "PureVPN"
-    ### PureVPN
+    ### PureVPN {#purevpn}
 
     [Official Website](https://billing.purevpn.com/aff.php?aff=35535){target="_blank"}
 
@@ -551,7 +548,7 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
     GL.iNet-Router unterstützen die [dedicated IP](https://www.purevpn.com/dedicated-ip){target="_blank"}-Funktion von PureVPN nicht, da sie PPTP benötigt.
 
 ??? "SaferVPN"
-    ### SaferVPN
+    ### SaferVPN {#safervpn}
 
     [Official Website](https://safervpn.com/?a_aid=563){target="_blank"}
 
@@ -560,11 +557,11 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
     ![safervpn openvpn config](https://static.gl-inet.com/docs/router/de/4/interface_guide/openvpn_client/safervpn/safervpn1.png){class="glboxshadow"}
 
 ??? "StarVPN"
-    ### StarVPN
+    ### StarVPN {#starvpn}
 
     [Official Website](https://www.starvpn.com/dashboard/aff.php?aff=91){target="_blank"}
 
-    StarVPN bietet VPN-Dienste mit den Protokollen OpenVPN und WireGuard an. Wir empfehlen WireGuard, da es in der Regel schneller als OpenVPN ist. Weitere Informationen finden Sie [hier](wireguard_client.md#starvpn).
+    StarVPN bietet VPN-Dienste mit den Protokollen OpenVPN und WireGuard an. Wir empfehlen WireGuard, da es in der Regel schneller als OpenVPN ist. Weitere Informationen finden Sie [hier](wireguard_client.md#set-up-wireguard-client-manually-for-other-providers).
 
     Wenn Sie lieber das OpenVPN-Protokoll verwenden möchten, führen Sie die folgenden Schritte aus, um die Konfigurationsdatei herunterzuladen.
 
@@ -589,7 +586,7 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
         ![remove ipv6](https://static.gl-inet.com/docs/router/de/4/interface_guide/openvpn_client/starvpn/remove_ipv6.png){class="glboxshadow"}
 
 ??? "StreamVPN"
-    ### StreamVPN
+    ### StreamVPN {#streamvpn}
 
     [Official Website](https://billing.streamvpn.com/account/signup?aff_t=aaf341756f7b94ed3f040f78292b80f1db1adf3318eacb87dd9c4ad4e08fde11a%3A2%3A%7Bs%3A6%3A%22aff_id%22%3Bs%3A6%3A%22645311%22%3Bs%3A6%3A%22off_id%22%3Bi%3A10%3B%7D){target="_blank"}
 
@@ -604,7 +601,7 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
     **Hinweis:** Es funktionieren nur Konfigurationsdateien, deren Dateiname „Primary“ enthält.
 
 ??? "StrongVPN"
-    ### StrongVPN
+    ### StrongVPN {#strongvpn}
 
     [Official Website](https://strongvpn.com/?tr_aid=5ac44bd241ca7){target="_blank"}
 
@@ -617,7 +614,7 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
         ![strongvpn get config](https://static.gl-inet.com/docs/router/de/4/interface_guide/openvpn_client/strongvpn/strong_vpn_setup_02.jpg){class="glboxshadow"}
 
 ??? "Surfshark"
-    ### Surfshark
+    ### Surfshark {#surfshark}
 
     [Official Website](https://get.surfshark.net/aff_c?offer_id=926&aff_id=1400){target="_blank"}
 
@@ -646,16 +643,16 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
     [Referenzlink](https://support.surfshark.com/hc/en-us/articles/360011856259-How-to-set-up-Surfshark-on-GL-iNet-router-3-x-firmware-){target="_blank"}
 
 ??? "VPN.AC"
-    ### VPN.AC
+    ### VPN.AC {#vpnac}
 
     [Official Website](https://vpn.ac/aff.php?aff=1424){target="_blank"}
 
     [Download](https://vpn.ac/ovpn/).
 
-    <img class="glboxshadow" alt="vpn.ac donwoad configuration" src="https://static.gl-inet.com/docs/router/de/4/interface_guide/openvpn_client/vpn.ac/vpn.ac1.png" />
+    <img class="glboxshadow" alt="vpn.ac download configuration" src="https://static.gl-inet.com/docs/router/de/4/interface_guide/openvpn_client/vpn.ac/vpn.ac1.png" />
 
 ??? "VPNGate"
-    ### VPNGate
+    ### VPNGate {#vpngate}
 
     [Official Website](https://www.vpngate.net/en/){target="_blank"}
 
@@ -670,7 +667,7 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
         ![VPNGate download page](https://static.gl-inet.com/docs/router/de/4/interface_guide/openvpn_client/vpngate/vpngate2.png){class="glboxshadow"}
 
 ??? "VPN Unlimited(KeepSolid)"
-    ### VPN Unlimited(KeepSolid)
+    ### VPN Unlimited(KeepSolid) {#vpn-unlimitedkeepsolid}
 
     [Official Website](https://keepsolid.g2afse.com/click?pid=270&offer_id=7){target="_blank"}
 
@@ -701,14 +698,14 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
         ![vpn unlimited generate configuration](https://static.gl-inet.com/docs/router/de/4/interface_guide/openvpn_client/vpnunlimited/keepsolid3.png){class="glboxshadow"}
 
 ??? "VyprVPN"
-    ### VyprVPN
+    ### VyprVPN {#vyprvpn}
 
     VyprVPN stellt die OpenVPN-Dateien hier bereit: [Where can I find the OpenVPN files? – VyprVPN Support](https://support.vyprvpn.com/hc/en-us/articles/360038096131-Where-can-I-find-the-OpenVPN-files-){target="_blank"}
 
     Die bereitgestellte ZIP-Datei enthält zwei Ordner mit `.ovpn`-Dateien: einen mit dem Namen `OpenVPN160` und einen mit dem Namen `OpenVPN256`. Löschen Sie einfach den Ordner `OpenVPN160` aus der ZIP-Datei und laden Sie die Datei dann wie gewohnt auf den GL.iNet-Router hoch.
 
 ??? "Windscribe"
-    ### Windscribe
+    ### Windscribe {#windscribe}
 
     [Official Website](https://windscribe.com/yo/1u2h9ndl){target="_blank"}
 
@@ -723,7 +720,7 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
     4. Folgen Sie anschließend [dieser Anleitung](../interface_guide/openvpn_client.md#set-up-openvpn-client-manually-for-other-providers), um fortzufahren.
 
 ??? "ZoogVPN"
-    ### ZoogVPN
+    ### ZoogVPN {#zoogvpn}
 
     [Official Website](https://zoogvpn.com/pricing?ref=xrsyzx){target="_blank"}
 
@@ -731,7 +728,7 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
 
     ![zoogvpn openvpn configuration files](https://static.gl-inet.com/docs/router/de/4/interface_guide/openvpn_client/zoogvpn/zoogvpn_openvpn_config_files.png)
 
-    Folgen Sie anschließend der [Anleitung zum Einrichten von OpenVPN Client auf einem GL.iNet-Router](#openvpn-client-auf-glinet-routern-einrichten). Benutzername und Passwort sind dieselben wie für die Anmeldung auf der ZoogVPN-Website.
+    Folgen Sie anschließend der [Anleitung zum Einrichten von OpenVPN Client auf einem GL.iNet-Router](#set-up-openvpn-client-manually-for-other-providers). Benutzername und Passwort sind dieselben wie für die Anmeldung auf der ZoogVPN-Website.
 
 ---
 

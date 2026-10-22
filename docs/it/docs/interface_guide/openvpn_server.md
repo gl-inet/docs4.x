@@ -1,6 +1,6 @@
-# Configurare OpenVPN Server sui router GL.iNet
+# Configurare OpenVPN Server sui router GL.iNet {#set-up-openvpn-server-on-glinet-routers}
 
-OpenVPN e' un protocollo VPN open-source che usa tecniche di rete privata virtuale per stabilire connessioni sicure site-to-site o point-to-point.
+OpenVPN è un protocollo VPN open-source che usa tecniche di rete privata virtuale per stabilire connessioni sicure site-to-site o point-to-point.
 
 Per configurare OpenVPN server su un router GL.iNet, guarda questo video oppure segui i passaggi qui sotto.
 
@@ -10,27 +10,27 @@ Per configurare OpenVPN server su un router GL.iNet, guarda questo video oppure 
 
 Fai clic [qui](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md) per verificare se il tuo Internet Service Provider ti assegna un indirizzo IP pubblico.
 
-**In caso contrario, il router non puo' essere impostato come OpenVPN Server.**
+**In caso contrario, il router non può essere impostato come OpenVPN Server.**
 
 Metodi alternativi:
 
 1. Se hai un router principale, accedi e verifica se riceve un IP pubblico dal tuo ISP.
 2. Chiedi al tuo ISP un indirizzo IP pubblico. Potrebbe comportare un costo aggiuntivo.
-3. Se i due metodi sopra non funzionano, ad esempio se la tua rete e' dietro CGNAT, puoi provare la nostra soluzione SD-WAN [AstroWarp](../interface_guide/astrowarp.md){target="_blank"}.
+3. Se i due metodi sopra non funzionano, ad esempio se la tua rete è dietro CGNAT, puoi provare la nostra soluzione SD-WAN [AstroWarp](../interface_guide/astrowarp.md){target="_blank"}.
 
-## Verifica se e' necessario il Port Forwarding {#confirm-if-port-forwarding-is-required}
+## Verifica se è necessario il Port Forwarding {#confirm-if-port-forwarding-is-required}
 
 **Topologia di rete**
 
-??? "GL.iNet e' il router principale"
+??? "GL.iNet è il router principale"
 
-    * Se il router GL.iNet e' il router principale della tua rete, non e' necessario alcun port forwarding. Passa al [passaggio successivo](#set-up-openvpn-server).
+    * Se il router GL.iNet è il router principale della tua rete, non è necessario alcun port forwarding. Passa al [passaggio successivo](#set-up-openvpn-server).
 
-??? " GL.iNet e' il router secondario"
+??? " GL.iNet è il router secondario"
 
-    * Se e' gia' in uso un router principale e il router GL.iNet e' configurato come router secondario, dovrai configurare il [port forwarding](../tutorials/how_to_set_up_port_forwarding.md) sul router principale.
+    * Se è già in uso un router principale e il router GL.iNet è configurato come router secondario, dovrai configurare il [port forwarding](../tutorials/how_to_set_up_port_forwarding.md) sul router principale.
 
-    * Se e' gia' in uso un router principale e il router GL.iNet si trova a piu' livelli sotto il router principale, configura il [port forwarding](../tutorials/how_to_set_up_port_forwarding.md) su ogni livello intermedio.
+    * Se è già in uso un router principale e il router GL.iNet si trova a più livelli sotto il router principale, configura il [port forwarding](../tutorials/how_to_set_up_port_forwarding.md) su ogni livello intermedio.
 
 ## Configurare OpenVPN Server {#set-up-openvpn-server}
 
@@ -50,17 +50,17 @@ Accedi al pannello di amministrazione web e vai su **VPN** -> **OpenVPN Server**
 
     ![openvpnserver configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/ovpnserver_configuration.png){class="glboxshadow"}
 
-    * **Device Mode:** TAP-S2S oppure Tun. Fai clic [qui](../tutorials/how_to_enable_openvpn_tap_s2s_mode_on_glinet_routers.md/#tap-s2s-vs-tun-mode) per vedere le differenze.
+    * **Device Mode:** TAP-S2S oppure Tun. Fai clic [qui](../tutorials/how_to_enable_openvpn_tap_s2s_mode_on_glinet_routers.md#tap-s2s-vs-tun-mode) per vedere le differenze.
 
     * **Protocol:** UDP oppure TCP. Fai clic [qui](../faq/openvpn_tcp_udp.md) per vedere le differenze.
 
     * **Authentication Mode:** determina il metodo di autenticazione usato quando il client si collega al server. Sono disponibili tre opzioni.
 
-        - **Certificate Only**: se selezionato, il router generera' automaticamente i certificati server e client e incorporera' il certificato e la chiave client nel file di configurazione client. Quando carichi la configurazione sul client, non saranno necessarie credenziali aggiuntive.
+        - **Certificate Only**: se selezionato, il router genererà automaticamente i certificati server e client e incorporerà il certificato e la chiave client nel file di configurazione client. Quando carichi la configurazione sul client, non saranno necessarie credenziali aggiuntive.
 
-        - **Username/Password Only**: se selezionato, il router generera' una configurazione client senza chiavi di certificato. Devi prima aggiungere username e password nella scheda Users prima di esportare la configurazione client. Quando carichi la configurazione sul client, dovrai inserire queste credenziali per l'autenticazione.
+        - **Username/Password Only**: se selezionato, il router genererà una configurazione client senza chiavi di certificato. Devi prima aggiungere username e password nella scheda Users prima di esportare la configurazione client. Quando carichi la configurazione sul client, dovrai inserire queste credenziali per l'autenticazione.
 
-        - **Username/Password and Certificate**: se selezionato, devi prima aggiungere username e password nella scheda Users prima di esportare la configurazione client; inoltre, il router generera' automaticamente i certificati server e client e incorporera' il certificato e la chiave client nel file di configurazione. Quando carichi la configurazione sul client, verra' prima verificato il certificato, seguito dall'autenticazione username/password per una sicurezza a due fattori.
+        - **Username/Password and Certificate**: se selezionato, devi prima aggiungere username e password nella scheda Users prima di esportare la configurazione client; inoltre, il router genererà automaticamente i certificati server e client e incorporerà il certificato e la chiave client nel file di configurazione. Quando carichi la configurazione sul client, verrà prima verificato il certificato, seguito dall'autenticazione username/password per una sicurezza a due fattori.
 
         Ecco un esempio di creazione di un utente.
 
@@ -72,13 +72,13 @@ Accedi al pannello di amministrazione web e vai su **VPN** -> **OpenVPN Server**
 
 3. Esporta la configurazione client.
 
-    Fai clic su **Export Client Configuration** in fondo alla scheda Configuration, oppure applica prima la configurazione modificata, quindi comparira' una finestra come mostrato di seguito.
+    Fai clic su **Export Client Configuration** in fondo alla scheda Configuration, oppure applica prima la configurazione modificata, quindi comparirà una finestra come mostrato di seguito.
 
     ![openvpn export config](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/ovpnserver_export_config.png){class="glboxshadow"}
 
     - Se l'IP pubblico della tua rete cambia spesso, puoi abilitare [DDNS](ddns.md) per usare il dominio DDNS come indirizzo del server.
 
-    - Dal firmware v4.8 puoi specificare l'indirizzo del server scegliendo tra IP pubblico, dominio DDNS e IP WAN corrente. Una volta modificato, l'indirizzo del server nel file di configurazione verra' aggiornato contemporaneamente.
+    - Dal firmware v4.8 puoi specificare l'indirizzo del server scegliendo tra IP pubblico, dominio DDNS e IP WAN corrente. Una volta modificato, l'indirizzo del server nel file di configurazione verrà aggiornato contemporaneamente.
 
     Poi fai clic su **Download** per esportare la configurazione.
 
@@ -88,13 +88,13 @@ Accedi al pannello di amministrazione web e vai su **VPN** -> **OpenVPN Server**
 
     ![start openvpn server](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/start_ovpnserver.png){class="glboxshadow"}
 
-## Verificare se OpenVPN Server funziona correttamente
+## Verificare se OpenVPN Server funziona correttamente {#check-if-openvpn-server-is-working-properly}
 
-### Verificare lo stato del server
+### Verificare lo stato del server {#verify-server-status}
 
 Dal firmware v4.8 puoi controllare lo stato della connessione server nella pagina **OpenVPN Server**.
 
-Se vengono mostrate le statistiche di traffico upload/download, significa che OpenVPN server e' in esecuzione.
+Se vengono mostrate le statistiche di traffico upload/download, significa che OpenVPN server è in esecuzione.
 
 ![openvpn server connected v4.8](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/ovpnserver_status.jpg){class="glboxshadow"}
 
@@ -102,13 +102,13 @@ Per il firmware v4.7 e precedenti, controlla lo stato della connessione server n
 
 ![openvpn server connected v4.7](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/openserverup.jpg){class="glboxshadow"}
 
-### Verificare l'IP del client
+### Verificare l'IP del client {#verify-clients-ip}
 
-Per verificare che la connessione al server sia riuscita: importa la configurazione OpenVPN precedentemente esportata su un dispositivo che si trovi in una rete diversa, non la stessa rete locale del server. Poi apri un browser web e cerca il tuo indirizzo IP e la tua posizione. Se corrispondono all'IP del server VPN, anziche' a quello del provider Internet, e alla sua posizione, allora la connessione VPN e' riuscita.
+Per verificare che la connessione al server sia riuscita: importa la configurazione OpenVPN precedentemente esportata su un dispositivo che si trovi in una rete diversa, non la stessa rete locale del server. Poi apri un browser web e cerca il tuo indirizzo IP e la tua posizione. Se corrispondono all'IP del server VPN, anziché a quello del provider Internet, e alla sua posizione, allora la connessione VPN è riuscita.
 
-Il metodo piu' semplice e' usare uno smartphone con l'[app OpenVPN ufficiale](https://openvpn.net/vpn-client/){target="_blank"} installata. Per prima cosa, disattiva il Wi-Fi dello smartphone e collega il telefono a Internet solo tramite dati cellulari, 4G o 5G. Poi apri l'app OpenVPN, importa il file di configurazione e avvia la connessione. Verifica se lo smartphone puo' accedere a Internet e se il suo indirizzo IP corrisponde a quello di OpenVPN Server.
+Il metodo più semplice è usare uno smartphone con l'[app OpenVPN ufficiale](https://openvpn.net/vpn-client/){target="_blank"} installata. Per prima cosa, disattiva il Wi-Fi dello smartphone e collega il telefono a Internet solo tramite dati cellulari, 4G o 5G. Poi apri l'app OpenVPN, importa il file di configurazione e avvia la connessione. Verifica se lo smartphone può accedere a Internet e se il suo indirizzo IP corrisponde a quello di OpenVPN Server.
 
-Quando importi il file di configurazione nell'app OpenVPN, potrebbe comparire un promemoria come mostrato di seguito. Fai clic su **CONTINUE** per procedere, poiche' il certificato e' gia' incorporato nel file di configurazione.
+Quando importi il file di configurazione nell'app OpenVPN, potrebbe comparire un promemoria come mostrato di seguito. Fai clic su **CONTINUE** per procedere, poiché il certificato è già incorporato nel file di configurazione.
 
 ![openvpn app select certificate](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/select_certificate.png){class="glboxshadow" width="360"}
 
@@ -116,10 +116,10 @@ Se la connessione non riesce, esistono diverse cause comuni:
 
 * Il provider Internet non ti assegna un indirizzo IP pubblico. Verifica [qui](#make-sure-you-have-a-public-ip-address).
 * Potrebbe essere necessario configurare il port forwarding. Verifica [qui](#confirm-if-port-forwarding-is-required).
-* La porta usata per OpenVPN Server e' bloccata dal tuo provider Internet. Cambia porta oppure contatta il provider per ulteriore assistenza.
+* La porta usata per OpenVPN Server è bloccata dal tuo provider Internet. Cambia porta oppure contatta il provider per ulteriore assistenza.
 * Alcuni paesi o regioni potrebbero bloccare la connessione VPN.
 
-## Opzioni del server
+## Opzioni del server {#server-options}
 
 Le opzioni del server includono impostazioni avanzate lato server, quali l'accesso remoto alla LAN del server e il mascheramento IP. Configurarle in base alle proprie esigenze.
 
@@ -139,9 +139,13 @@ Nella finestra popup sono disponibili le funzioni seguenti.
 
 - **IP Masquerading**: se abilitato, gli indirizzi IP di origine dei client LAN vengono riscritti con l'IP del tunnel VPN del router. Disabilitare questa opzione solo nelle configurazioni site-to-site in cui il peer remoto conosce le sottoreti LAN del router.
 
+    Come mostrato di seguito, se il mascheramento IP è abilitato, quando il NAS (192.168.8.100) della LAN di casa invia traffico attraverso il tunnel al portatile (192.168.10.200) della LAN del router da viaggio, il router di casa riscrive l'IP di origine da `192.168.8.100` all'indirizzo del tunnel del server VPN `10.1.0.1`, quindi il lato remoto vede il traffico come proveniente dal server anziché dalla LAN locale del server.
+
+    ![ovpnserver ip masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/ip_masquerading.png){class="glboxshadow"}
+
 - **MTU**: abbreviazione di Maximum Transmission Unit. Il valore MTU impostato per il tunnel sostituisce l'impostazione MTU contenuta nel file di configurazione.
 
-## Client to Client
+## Client to Client {#client-to-client}
 
 Client to Client è una funzione VPN lato server. Quando è abilitata, i client VPN connessi possono comunicare tra loro utilizzando i rispettivi indirizzi IP del tunnel VPN.
 
@@ -161,7 +165,7 @@ Se necessario, procedere come segue per abilitare Client to Client sul server Op
 
 **Suggerimento**: Client to Client pubblicizza esclusivamente l'indirizzo IP del tunnel di ciascun client. Non rende automaticamente accessibili le sottoreti LAN locali dietro ogni client VPN. Per consentire ai client di accedere alle sottoreti LAN reciproche, aggiungere sul server VPN regole di instradamento che pubblicizzino tali sottoreti LAN remote.
 
-## Installazione dell'app OpenVPN
+## Installazione dell'app OpenVPN {#openvpn-app-install}
 
 Scarica l'app OpenVPN dal [sito ufficiale OpenVPN](https://openvpn.net/vpn-client/){target="_blank"}.
 

@@ -53,7 +53,7 @@ VPN шифрує дані для захисту конфіденційності
 
 Для прошивки v4.8 та новіших версій дивіться інструкції [тут](../interface_guide/vpn_dashboard_v4.8.md#tunnel-options).
 
-Для прошивки v4.7 та раніших версій дивіться інструкції [тут](../interface_guide/vpn_dashboard_v4.7.md#vpn-client-options).
+Для прошивки v4.7 та раніших версій дивіться інструкції [тут](../interface_guide/vpn_dashboard_v4.7.md#client-options).
 
 ---
 

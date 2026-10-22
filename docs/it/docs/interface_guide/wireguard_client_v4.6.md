@@ -1,4 +1,4 @@
-# Configurare WireGuard Client sui router GL.iNet
+# Configurare WireGuard Client sui router GL.iNet {#set-up-wireguard-client-on-glinet-routers}
 
 Il contenuto di questa pagina si basa sul firmware v4.6 e versioni precedenti. Se il dispositivo utilizza una versione firmware diversa, usare il selettore seguente per passare alla guida corrispondente.
 
@@ -10,15 +10,15 @@ Il contenuto di questa pagina si basa sul firmware v4.6 e versioni precedenti. S
 
 ---
 
-WireGuard® e' una VPN estremamente semplice, veloce e moderna che utilizza crittografia all'avanguardia. Punta a essere piu' veloce, piu' semplice, piu' leggera e piu' utile di IPsec, evitando al tempo stesso una complessita' eccessiva. In generale offre prestazioni nettamente migliori rispetto a OpenVPN.
+WireGuard® è una VPN estremamente semplice, veloce e moderna che utilizza crittografia all'avanguardia. Punta a essere più veloce, più semplice, più leggera e più utile di IPsec, evitando al tempo stesso una complessità eccessiva. In generale offre prestazioni nettamente migliori rispetto a OpenVPN.
 
-Se hai gia' acquistato un servizio WireGuard da un provider ma non sai come ottenere i file di configurazione, fai riferimento a [ottenere i file di configurazione dai provider di servizi WireGuard](../tutorials/how_to_get_configuration_files_from_wireguard_service_providers.md) oppure contatta il loro supporto.
+Se hai già acquistato un servizio WireGuard da un provider ma non sai come ottenere i file di configurazione, fai riferimento a [ottenere i file di configurazione dai provider di servizi WireGuard](../tutorials/how_to_get_configuration_files_from_wireguard_service_providers.md) oppure contatta il loro supporto.
 
 Puoi configurare WireGuard Client tramite il pannello di amministrazione web oppure tramite [app mobile](../faq/mobile_app.md).
 
 - L'app mobile integra diversi provider di servizi WireGuard, come AzireVPN, Mullvad, OVPN, StrongVPN e PIA VPN.
 
-- Il pannello di amministrazione web supporta meno provider WireGuard, ad esempio AzireVPN e Mullvad, ma offre pagine piu' intuitive e dettagliate.
+- Il pannello di amministrazione web supporta meno provider WireGuard, ad esempio AzireVPN e Mullvad, ma offre pagine più intuitive e dettagliate.
 
 Di seguito trovi i passaggi per la configurazione tramite il pannello di amministrazione web.
 
@@ -30,9 +30,9 @@ Se hai un abbonamento **AzireVPN** o **Mullvad**, puoi effettuare direttamente i
 
 ![wireguard client no initialized](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client_v4.6/wireguard_client_no_initialized.png){class="glboxshadow"}
 
-## Configurare AzireVPN
+## Configurare AzireVPN {#set-up-azirevpn}
 
-[AzireVPN](https://www.azirevpn.com/aff/9x7wisg4){target="_blank"} e' un servizio VPN orientato alla privacy che offre tunnel sicuri, moderni e robusti come WireGuard.
+[AzireVPN](https://www.azirevpn.com/aff/9x7wisg4){target="_blank"} è un servizio VPN orientato alla privacy che offre tunnel sicuri, moderni e robusti come WireGuard.
 
 ![azirevpn](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client_v4.6/azirevpn.png){class="glboxshadow"}
 
@@ -50,7 +50,7 @@ Se hai un abbonamento **AzireVPN** o **Mullvad**, puoi effettuare direttamente i
 
 3. Aggiornare i server
 
-    AzireVPN puo' mettere alcuni server in manutenzione o dismetterli, causando errori di connessione. Puoi usare **Update Servers** per ottenere l'elenco piu' recente dei server disponibili.
+    AzireVPN può mettere alcuni server in manutenzione o dismetterli, causando errori di connessione. Puoi usare **Update Servers** per ottenere l'elenco più recente dei server disponibili.
 
     ![azirevpn update servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client_v4.6/azirevpn_update_servers.png){class="glboxshadow"}
 
@@ -66,9 +66,9 @@ Se hai un abbonamento **AzireVPN** o **Mullvad**, puoi effettuare direttamente i
 
     ![azirevpn delete all configuration files](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client_v4.6/azirevpn_delete_all_configuration_file.png){class="glboxshadow"}
 
-## Configurare Mullvad
+## Configurare Mullvad {#set-up-mullvad}
 
-[Mullvad](https://mullvad.net/){target="_blank"} e' un servizio VPN che aiuta a mantenere private la tua attivita' online, la tua identita' e la tua posizione.
+[Mullvad](https://mullvad.net/){target="_blank"} è un servizio VPN che aiuta a mantenere private la tua attività online, la tua identità e la tua posizione.
 
 Il firmware 4.x integra il servizio Mullvad WireGuard.
 
@@ -76,15 +76,15 @@ Il firmware 4.x integra il servizio Mullvad WireGuard.
 
 1. Inserisci **Account**, quindi fai clic su **Save Credentials & Get Servers**.
 
-    Il numero account Mullvad e' un valore decimale di 16 cifre compreso tra "1000 0000 0000 0000" e "9999 9999 9999 9999".
+    Il numero account Mullvad è un valore decimale di 16 cifre compreso tra "1000 0000 0000 0000" e "9999 9999 9999 9999".
 
-    Si aprira' una finestra di dialogo per selezionare una posizione.
+    Si aprirà una finestra di dialogo per selezionare una posizione.
 
     ![mullvad vpn](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client_v4.6/mullvad_select_servers.png){class="glboxshadow"}
 
     Verranno quindi generati i file di configurazione per il server della posizione selezionata.
 
-    La **Public Key** e' la chiave pubblica WireGuard inviata al server Mullvad. Puoi avere fino a cinque chiavi contemporaneamente e gestire le chiavi WireGuard nella [pagina di Mullvad](https://mullvad.net/en/account/#/ports){target="_blank"}.
+    La **Public Key** è la chiave pubblica WireGuard inviata al server Mullvad. Puoi avere fino a cinque chiavi contemporaneamente e gestire le chiavi WireGuard nella [pagina di Mullvad](https://mullvad.net/en/account/#/ports){target="_blank"}.
 
     ![mullvad vpn](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client_v4.6/mullvad_generated_profiles.png){class="glboxshadow"}
 
@@ -98,7 +98,7 @@ Il firmware 4.x integra il servizio Mullvad WireGuard.
 
 3. Aggiornare i server
 
-    Mullvad puo' mettere alcuni server in manutenzione o dismetterli, causando errori di connessione. Puoi usare **Update Servers** per ottenere l'elenco piu' recente dei server disponibili.
+    Mullvad può mettere alcuni server in manutenzione o dismetterli, causando errori di connessione. Puoi usare **Update Servers** per ottenere l'elenco più recente dei server disponibili.
 
     ![mullvad vpn](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client_v4.6/mullvad_update_servers.png){class="glboxshadow"}
 
@@ -118,15 +118,15 @@ Il firmware 4.x integra il servizio Mullvad WireGuard.
 
     ![mullvad vpn](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client_v4.6/wgclient_delete_all_configuration_file.png){class="glboxshadow"}
 
-## Configurare manualmente WireGuard Client
+## Configurare manualmente WireGuard Client {#set-up-wireguard-client}
 
-Dal firmware 4.0 e' stata introdotta la gestione dei profili WireGuard tramite gruppi.
+Dal firmware 4.0 è stata introdotta la gestione dei profili WireGuard tramite gruppi.
 
 1. Fai clic su **Add Manually**.
 
     ![add manually](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client_v4.6/set_up_wireguard_client/wireguard_client_add_manually.png){class="glboxshadow"}
 
-2. Verra' creato un gruppo.
+2. Verrà creato un gruppo.
 
     ![add a new group](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client_v4.6/set_up_wireguard_client/add_a_new_group.png){class="glboxshadow"}
 
@@ -166,7 +166,7 @@ Dal firmware 4.0 e' stata introdotta la gestione dei profili WireGuard tramite g
 
 ---
 
-WireGuard® e' un marchio registrato di Jason A.Donenfeld.
+WireGuard® è un marchio registrato di Jason A.Donenfeld.
 
 ---
 

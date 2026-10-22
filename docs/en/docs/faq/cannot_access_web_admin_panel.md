@@ -1,10 +1,10 @@
-# Cannot access web Admin Panel
+# Cannot access web Admin Panel {#cannot-access-web-admin-panel}
 
 Sometimes you may be unable to access [http://192.168.8.1](http://192.168.8.1) and thus fail to log in to the web Admin Panel. There may be several reasons.
 
 ![can't access admin](https://static.gl-inet.com/docs/router/en/4/faq/cannot_access_web_admin_panel/cantaccessadmin.jpg){class="glboxshadow"}
 
-## The possible causes
+## The possible causes {#the-possible-causes}
 
 * Your computer or mobile phone is not connected to the router.
 * `192.168.8.1` is the default IP address of the router. You may have changed this IP.
@@ -12,7 +12,7 @@ Sometimes you may be unable to access [http://192.168.8.1](http://192.168.8.1) a
 * The VPN or proxy software handles your traffic, which may cause the admin panel inaccessible.
 * The router is bricked.
 
-## Check the general steps to access web Admin Panel 
+## Check the general steps to access web Admin Panel {#check-the-general-steps-to-access-web-admin-panel}
 
 1. Power up the router without connecting to any device.
 2. Connect your mobile/laptop to the router's Wi-Fi and input the Wi-Fi key printed on the router label.
@@ -21,7 +21,7 @@ Sometimes you may be unable to access [http://192.168.8.1](http://192.168.8.1) a
 
 Or you can use [the app](mobile_app.md) to access the router.
 
-## Other steps to fix this issue
+## Other steps to fix this issue {#other-steps-to-fix-this-issue}
 
 1. [Check the connection](#check-the-connection)
 2. [Check router's IP address](#check-routers-ip-address)
@@ -29,7 +29,7 @@ Or you can use [the app](mobile_app.md) to access the router.
 
 ---
 
-### Check the connection
+### Check the connection {#check-the-connection}
 
 If connected by Ethernet cable, make sure the router's WAN/LAN port connection is correct:
 
@@ -38,7 +38,7 @@ If connected by Ethernet cable, make sure the router's WAN/LAN port connection i
 
 If connected by Wi-Fi, make sure you selected the correct SSID on your device to connect, and input the correct password.
 
-### Check router's IP address
+### Check router's IP address {#check-routers-ip-address}
 
 Follow the steps below to check the router's IP address.
 
@@ -98,7 +98,7 @@ Follow the steps below to check the router's IP address.
     3. Tap on the Advanced dropdown. If it offers you options for Static or Dynamic IPs, select Static
     4. Either way, you should see your router's IP under Gateway.
 
-### Access the router's IP address
+### Access the router's IP address {#access-the-routers-ip-address}
 
 1. Use Chrome/Edge/Safari to access your router's admin panel for better compatibility.
 

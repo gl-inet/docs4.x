@@ -1,4 +1,4 @@
-# IPv6
+# IPv6 {#ipv6}
 
 IPv6 (Internet Protocol version 6) is the latest Internet Protocol designed to replace IPv4. It offers a larger pool of unique IPs, solving the address exhaustion issue of IPv4 and supporting the growing number of connected devices globally.
 

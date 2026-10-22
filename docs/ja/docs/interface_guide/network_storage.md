@@ -1,10 +1,10 @@
-# ネットワークストレージ
+# ネットワークストレージ {#network-storage}
 
 ## はじめに {#introduction}
 
 ネットワークストレージを使うと、USB ドライブや SD カードをルーターに接続して、デバイス間でワイヤレスにファイル共有できます。ルーターがストレージデバイスを共有ネットワークドライブに変換し、Wi-Fi に接続しているすべてのデバイスからアクセスできるようにします。
 
-GL.iNet の一部モデルには MicroSD(TF) カードスロットがあり、一部のモデルには USB ポートがあります。これらのストレージデバイスに対して Samba、WebDAV、DLNA を設定でき、NTFS、FAT32、EXT4 などの一般的なフォーマットに対応しています。
+GL.iNet の一部モデルには MicroSD(TF) カードスロットがあり、一部のモデルには USB ポートがあり、USB フラッシュドライブやポータブル外付けハードドライブに対応しています。これらのストレージデバイスに対して Samba、WebDAV、DLNA を設定でき、NTFS、FAT32、EXT4 などの一般的なフォーマットに対応しています。
 
 !!! Note
 
@@ -12,7 +12,7 @@ GL.iNet の一部モデルには MicroSD(TF) カードスロットがあり、�
 
     2. USB ポートまたは MicroSD スロットを搭載していても、ストレージ容量の制限によりネットワークストレージに対応していないモデルがあります。
 
-    3. Web Admin Panel では共有フォルダーのみ管理できます。ストレージデバイス上のファイルを管理するには、[モバイルアプリ](https://www.gl-inet.com/app/#download-app-glinet){target="_blank"} を使用してください。
+    3. Web 管理パネルでは共有フォルダーのみ管理できます。ストレージデバイス上のファイルを管理するには、[モバイルアプリ](https://www.gl-inet.com/app/#download-app-glinet){target="_blank"} を使用してください。
 
 ## 対応モデル {#supported-models}
 
@@ -21,7 +21,7 @@ GL.iNet の一部モデルには MicroSD(TF) カードスロットがあり、�
 フラッシュストレージが 32MB 以下のデバイスでは、ネットワークストレージ機能はまだサポートされていません。
 
 | ルーターモデル                           | Samba | WebDAV | DLNA | USBポート | MicroSDカード |
-| :--------------------------------------- | :---: | :----: | :--: | :-------: | :-----------: |
+| :--------------------------------------- | :---: | :----: | :---: | :-------: | :-----------: |
 | GL-MT6000 (Fortify) | √ | √ | √ | √ | - |
 | GL-MG1300 (Mango 2) | √ | - | - | √ | - |
 | GL-BE14000 (Flint 4) | √ | √ | √ | √ | - |
@@ -33,7 +33,7 @@ GL.iNet の一部モデルには MicroSD(TF) カードスロットがあり、�
 | GL-BE6500 (Flint 3e)                   | √     | √     | √     | √        | -            |
 | GL-BE3600 (Slate 7)                    | √     | √     | √     | √        | -            |
 | GL-X2000 (Spitz Plus)                  | √     | √     | √     | √        | -            |
-| GL-MT6000 (Flint2)                    | √     | √     | √     | √        | -            |
+| GL-MT6000 (Flint 2)                    | √     | √     | √     | √        | -            |
 | GL-XE3000 (Puli AX)                    | √     | √     | √     | √        | √            |
 | GL-X3000 (Spitz AX)                    | √     | √     | √     | √        | √            |
 | GL-MT3000 (Beryl AX)                   | √     | √     | √     | √        | -            |
@@ -50,9 +50,9 @@ GL.iNet の一部モデルには MicroSD(TF) カードスロットがあり、�
 
 TF カードを使う場合は、まずルーターの電源を切り、TF カードを挿入してから電源を入れてください。
 
-USB Drive はそのまま USB ポートに接続できます。ポータブル外付けハードドライブを使う場合は、別電源があるなら電源にも接続してください。
+USB ドライブはそのまま USB ポートに接続できます。ポータブル外付けハードドライブを使う場合は、別電源があるなら電源にも接続してください。
 
-ルーターの Web Admin Panel にログインし、**APPLICATIONS** -> **Network Storage** に移動します。
+ルーターの Web 管理パネルにログインし、**APPLICATIONS** -> **Network Storage** に移動します。
 
 ![network storage](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/network_storage_init.png){class="glboxshadow"}
 
@@ -66,7 +66,6 @@ USB Drive はそのまま USB ポートに接続できます。ポータブル�
 
     ![enable samba](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba1.png){class="glboxshadow"}
 
-
     * Allow Access Samba from WAN: 上位ネットワーク側のデバイスから Samba へアクセスさせたい場合は有効にします。
 
 2. **Quick Setup Share** をクリックして共有リンクを設定します。
@@ -77,15 +76,15 @@ USB Drive はそのまま USB ポートに接続できます。ポータブル�
 
     ![samba quick setup share, add a user](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba3.png){class="glboxshadow"}
 
-4. 三角アイコンをクリックしてすべてのフォルダーを表示します。共有するフォルダーを選ぶか、ディスク全体を共有したい場合はディスク名（disk1_part1）をクリックして、**Next** をクリックします。
+4. 三角アイコンをクリックしてすべてのフォルダーを表示します。共有するフォルダーを選択し、**Next** をクリックします。ディスク全体を共有したい場合は、ディスク名（例: disk1_part1）をクリックします。
 
     ![samba quick setup share, add shared folder](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba4.png){class="glboxshadow"}
 
 5. 共有フォルダーを設定します。
 
-    セキュリティ上の理由から、**Anonymous Access** を有効にすることは推奨されません。
-
     前の手順で作成したユーザーは、デフォルトで **Read-Only User** に追加されます。このユーザーに書き込みや削除を許可したい場合は、**Read-Only User** から削除して **Read-Write User** に追加し、**Apply** をクリックしてください。
+
+    セキュリティ上の理由から、**Anonymous Access** を有効にすることは推奨されません。
 
     ![samba quick setup share, shared folder settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba5.png){class="glboxshadow"}
 
@@ -97,7 +96,7 @@ USB Drive はそのまま USB ポートに接続できます。ポータブル�
 
     ![samba quick setup share, folder access link](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba6.png){class="glboxshadow"}
 
-    **Note:** **Allow Access Samba from WAN** を有効にして上位ネットワークから共有フォルダーへアクセスする場合は、アクセスリンク内のルーター IP（デフォルトは 192.168.8.1）を、Web admin panel の **INTERNET** ページで確認できる WAN IP に置き換えてください。
+    **注意:** **Allow Access Samba from WAN** を有効にして上位ネットワークから共有フォルダーへアクセスする場合は、アクセスリンク内のルーター IP（デフォルトは 192.168.8.1）を、Web 管理パネルの **INTERNET** ページで確認できる WAN IP に置き換えてください。
 
 ---
 
@@ -113,7 +112,6 @@ USB Drive はそのまま USB ポートに接続できます。ポータブル�
 
     * WebDAV Port: ポート番号は競合がない限り変更不要です。推奨ポート範囲は 1024 - 65535 です。
 
-
 2. **Quick Setup Share** をクリックして共有リンクを設定します。
 
     ![enable webdav](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav2.png){class="glboxshadow"}
@@ -122,15 +120,15 @@ USB Drive はそのまま USB ポートに接続できます。ポータブル�
 
     ![webdav quick setup share, add a user](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav3.png){class="glboxshadow"}
 
-4. 三角アイコンをクリックしてすべてのフォルダーを表示します。共有するフォルダーを選ぶか、ディスク全体を共有したい場合はディスク名（disk1_part1）をクリックして、**Next** をクリックします。
+4. 三角アイコンをクリックしてすべてのフォルダーを表示します。共有するフォルダーを選択し、**Next** をクリックします。ディスク全体を共有したい場合は、ディスク名（例: disk1_part1）をクリックします。
 
     ![webdav quick setup share, add shared folder](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav4.png){class="glboxshadow"}
 
 5. 共有フォルダーを設定します。
 
-    セキュリティ上の理由から、**Anonymous Access** を有効にすることは推奨されません。
-
     前の手順で作成したユーザーは、デフォルトで **Read-Only User** に追加されます。このユーザーに書き込みや削除を許可したい場合は、**Read-Only User** から削除して **Read-Write User** に追加し、**Apply** をクリックしてください。
+
+    セキュリティ上の理由から、**Anonymous Access** を有効にすることは推奨されません。
 
     ![webdav quick setup share, shared folder settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav5.png){class="glboxshadow"}
 
@@ -142,7 +140,7 @@ USB Drive はそのまま USB ポートに接続できます。ポータブル�
 
     ![webdav quick setup share, folder access link](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav6.png){class="glboxshadow"}
 
-    **Note:** **Allow Access WebDAV from WAN** を有効にして上位ネットワークから共有フォルダーへアクセスする場合は、アクセスリンク内のルーター IP（デフォルトは 192.168.8.1）を、Web admin panel の **INTERNET** ページで確認できる WAN IP に置き換えてください。
+    **注意:** **Allow Access WebDAV from WAN** を有効にして上位ネットワークから共有フォルダーへアクセスする場合は、アクセスリンク内のルーター IP（デフォルトは 192.168.8.1）を、Web 管理パネルの **INTERNET** ページで確認できる WAN IP に置き換えてください。
 
 ---
 
@@ -244,7 +242,7 @@ USB Drive はそのまま USB ポートに接続できます。ポータブル�
 
         ![ios files set up SMB](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios_files_smb_1.png){class="glboxshadow" width="560"}
 
-        メニュー上部の **Connect to Server** をタップします。次の画面でサーバーの接続 URL を入力します。URL は共有リンクで確認できます。右上の **Next** をタップします。
+        メニュー上部の **Connect to Server** をタップします。次の画面でサーバーの接続 URL を入力します。URL は[共有リンク](#set-up-samba)で確認できます。右上の **Next** をタップします。
 
         ![ios files set up SMB](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios_files_smb_2.png){class="glboxshadow" width="560"}
 
@@ -326,7 +324,7 @@ USB Drive はそのまま USB ポートに接続できます。ポータブル�
 
     WebDAV に対応した Android アプリは多数あります。ここでは [Cx File Explorer](https://play.google.com/store/apps/details?id=com.cxinventor.file.explorer&hl=en&gl=US){target="_blank"} を例に説明します。
 
-    Note: Cx File Explorer は匿名アクセスに対応していません。
+    注意: Cx File Explorer は匿名アクセスに対応していません。
 
     ホーム画面で **NETWORK** をタップします。
 
@@ -366,9 +364,9 @@ USB Drive はそのまま USB ポートに接続できます。ポータブル�
 
     ![documents WebDAV](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav_client/documents_4_webdav.png){class="glboxshadow" width="560"}
 
-## モバイルアプリを使う
+## モバイルアプリを使う {#using-mobile-app}
 
-Web Admin Panel では共有フォルダーのみ管理できます。ストレージデバイス上のファイルを管理するには、[モバイルアプリ](https://www.gl-inet.com/app/#download-app-glinet){target="_blank"} を使用してください。
+Web 管理パネルでは共有フォルダーのみ管理できます。ストレージデバイス上のファイルを管理するには、[モバイルアプリ](https://www.gl-inet.com/app/#download-app-glinet){target="_blank"} を使用してください。
 
 - **ローカルネットワーク** 経由でアプリにアクセスすると、ストレージデバイスとその容量が表示され、読み書きに対応します。
 
@@ -376,4 +374,4 @@ Web Admin Panel では共有フォルダーのみ管理できます。ストレ�
 
 ---
 
-ご不明な点がある場合は、[Community Forum](https://forum.gl-inet.com){target="_blank"} または [Contact us](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

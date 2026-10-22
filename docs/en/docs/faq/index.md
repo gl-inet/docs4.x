@@ -4,11 +4,11 @@ hide:
   - toc
 ---
 
-# FAQ
+# FAQ {#faq}
 
 Learn how to use our devices and how to solve some common problems.
 
-## Network Connection
+## Network Connection {#network-connection}
 
 * [First time setup](first_time_setup.md)
 * [Warning from your browser](warning_from_your_browser_during_setup.md)
@@ -17,12 +17,12 @@ Learn how to use our devices and how to solve some common problems.
 * [How to connect an Ethernet-only device to Wi-Fi with a GL.iNet router?](produce_a_wired_connection.md)
 * [How to connect the 10G SFP+ port on Flint 4?](connecting_10g_sfp_plus_port_on_flint4.md)
 
-## Problem Notification
+## Problem Notification {#problem-notification}
 
 * [Problem Notification for GL-MT2500/GL-X3000/GL-XE3000](problem_notification_for_mt2500_x3000_xe3000.md)
 * [Problem Notification and Solutions for GL-X3000/GL-X2000 Failure to Work with EE SIM Cards](problem_notification_and_solutions_for_x3000_x2000_failure_to_work_with_ee_sim_cards.md)
 
-## Troubleshooting
+## Troubleshooting {#troubleshooting}
 
 * [Cannot access the router through 192.168.8.1](cannot_access_web_admin_panel.md)
 * [Cannot Scan Android 5G Hotspot](cannot_scan_android_5g_hotspot.md)
@@ -46,7 +46,7 @@ Learn how to use our devices and how to solve some common problems.
 * [What is the wireless coverage of my router?](what_is_the_wireless_coverage_of_my_router.md)
 * [Upgrade Uboot version](upgrade_uboot_version.md)
 
-## VPN
+## VPN {#vpn}
 
 * [How to set up OpenVPN client?](../interface_guide/openvpn_client.md)
 * [How to set up WireGuard client?](../interface_guide/wireguard_client.md)
@@ -57,12 +57,12 @@ Learn how to use our devices and how to solve some common problems.
 * [Cannot connect to an obfuscated WireGuard server](cannot_connect_to_obfuscated_wireguard_server.md)
 * [Do I have to configure Ethernet WAN when using VPN?](do_i_have_to_configure_ethernet_wan_when_using_vpn.md)
 
-## Upgrade
+## Upgrade {#upgrade}
 
 * [How to download the firmware for my router?](how_to_download_firmware.md)
 * [How to manually upgrade or downgrade router's firmware?](../tutorials/how_to_upgrade_downgrade_router.md)
 
-## Other
+## Other {#other}
 
 * [LED indicator status](led.md)
 * [GL.iNet Mobile App](mobile_app.md)

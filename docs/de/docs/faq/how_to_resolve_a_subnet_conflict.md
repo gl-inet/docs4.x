@@ -1,4 +1,4 @@
-# Wie behebe ich einen LAN-Subnetzkonflikt?
+# Wie behebe ich einen LAN-Subnetzkonflikt? {#how-to-resolve-a-lan-subnet-conflict}
 
 Wenn Sie ein Ethernet-Kabel von Ihrem Heimrouter mit dem WAN-Port eines GL.iNet-Routers verbinden, wird manchmal folgende Meldung angezeigt:
 
@@ -10,7 +10,7 @@ Das liegt daran, dass Ihr Heimrouter dieselbe LAN-IP wie der GL.iNet-Router verw
 
 Befolgen Sie die folgenden Schritte, um das LAN-Subnetz zu ändern.
 
-## 1. LAN-Subnetz ändern
+## 1. LAN-Subnetz ändern {#1-change-lan-subnet}
 
 Klicken Sie bitte auf den Link **Change LAN Subnet**. Sie werden dann zur Einrichtungsseite **LAN** weitergeleitet.
 
@@ -22,7 +22,7 @@ Nach der Änderung warten Sie einige Sekunden. Die Seite wird aktualisiert und a
 
 Wenn die Seite nicht umgeleitet wird, fahren Sie mit dem nächsten Schritt fort.
 
-## 2. Mit der neuen LAN-IP anmelden
+## 2. Mit der neuen LAN-IP anmelden {#2-login-with-new-lan-ip}
 
 Geben Sie die geänderte LAN-IP manuell in die Adressleiste ein und drücken Sie die Eingabetaste.
 

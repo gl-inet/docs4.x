@@ -1,8 +1,8 @@
-# AdGuard Home
+# AdGuard Home {#adguard-home}
 
 AdGuard Home is a network-wide software for blocking ads and tracking. Once set up, it covers all devices on your home network with no need for additional client-side software.
 
-## Supported Models
+## Supported Models {#supported-models}
 
 ??? "Supported Models"
     - GL-MT6000 (Fortify)
@@ -40,7 +40,7 @@ AdGuard Home is a network-wide software for blocking ads and tracking. Once set 
     - GL-B1300 (Convexa-B)
     - GL-X300B (Collie)
 
-## Setup
+## Setup {#setup}
 
 Log in to the router's web Admin Panel and go to **APPLICATIONS** -> **AdGuard Home**. 
 

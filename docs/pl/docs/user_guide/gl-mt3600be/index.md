@@ -1,6 +1,6 @@
-# Przewodnik użytkownika Beryl 7 (GL-MT3600BE)
+# Przewodnik użytkownika Beryl 7 (GL-MT3600BE) {#beryl-7-gl-mt3600be-user-guide}
 
-## Przegląd produktu
+## Przegląd produktu {#product-overview}
 
 Beryl 7 (GL-MT3600BE) to dwupasmowy przenośny router podróżny Wi-Fi 7, zaprojektowany specjalnie z myślą o zastosowaniach mobilnych, takich jak podróże służbowe i wakacje. Jako ulepszona wersja Beryl AX obsługuje technologie Wi-Fi 7, w tym Multi-Link Operation (MLO) oraz 4K QAM, osiągając teoretyczne dwupasmowe prędkości 688Mbps (2.4GHz) + 2882Mbps (5GHz), co pozwala sprostać wymaganiom szybkich zastosowań, takich jak streaming 8K i gry mobilne.
 
@@ -8,7 +8,7 @@ Router napędzany jest czterordzeniowym procesorem MediaTek i wyposażony w 512M
 
 ![gl-mt3600be interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3600be/hardware_info/mt3600be_interface.png){class="glboxshadow"}
 
-## Zawartość opakowania
+## Zawartość opakowania {#package-contents}
 
 - 1 x Beryl 7 (GL-MT3600BE)
 - 1 x Zasilacz
@@ -21,17 +21,17 @@ Obejrzyj poniższy film z rozpakowania Beryl 7.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xZHmP3B8VlA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Jak skonfigurować Beryl 7
+## Jak skonfigurować Beryl 7 {#how-to-set-up-beryl-7}
 
 Obejrzyj ten film instruktażowy lub wykonaj poniższe kroki. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ey-Z3MEOPpw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Włączenie zasilania
+### 1. Włączenie zasilania {#1-power-on}
 
 Złóż dwuczęściowy zasilacz. Podłącz go do routera i do gniazdka elektrycznego. Urządzenie uruchomi się automatycznie.
 
-### 2. Podłączenie urządzenia
+### 2. Podłączenie urządzenia {#2-connect-device}
 
 Podłącz komputer lub urządzenie mobilne do routera przez Wi-Fi lub Ethernet.
 
@@ -43,11 +43,11 @@ Podłącz komputer lub urządzenie mobilne do routera przez Wi-Fi lub Ethernet.
 
     Na swoim urządzeniu przejdź do Settings -> WLAN, znajdź nazwę sieci Wi-Fi routera na liście dostępnych sieci i wprowadź hasło, aby połączyć się z siecią. (Domyślną nazwę sieci i hasło znajdziesz na etykiecie.)
 
-### 3. Logowanie do panelu administracyjnego
+### 3. Logowanie do panelu administracyjnego {#3-log-in-to-web-admin-panel}
 
 Otwórz przeglądarkę internetową, wpisz `192.168.8.1` w pasku adresu i zaloguj się. Wybierz język i ustaw hasło administratora, a następnie kliknij **Apply**.
 
-### 4. Konfiguracja Internetu
+### 4. Konfiguracja Internetu {#4-internet-setup}
 
 **Note:** Poniższe instrukcje dotyczą użytkowników konfigurujących router przez webowy panel administracyjny GL.iNet. Jeśli wolisz korzystać z aplikacji GL.iNet, [pobierz aplikację](https://www.gl-inet.com/app/){target="_blank"} i postępuj zgodnie z instrukcjami wyświetlanymi na ekranie.
 
@@ -101,7 +101,7 @@ Skonfiguruj Beryl 7, korzystając z jednej z obsługiwanych metod połączenia z
 
 Poniżej znajdziesz przegląd funkcji dostępnych w webowym panelu administracyjnym Beryl 7.
 
-## Wireless
+## Wireless {#wireless}
 
 Strona Wireless umożliwia konfigurację ustawień sieci Wi-Fi 5GHz i 2.4GHz, w tym włączanie Wi-Fi, ustawianie mocy TX, określanie nazwy sieci Wi-Fi (SSID), włączanie losowego BSSID, wybór trybu zabezpieczeń Wi-Fi i hasła, konfigurację widoczności SSID oraz wybór trybu Wi-Fi, szerokości pasma i kanału.
 
@@ -109,13 +109,13 @@ Dodatkowo Beryl 7 obsługuje Wi-Fi MLO, czyli Multi-Link Operation, łącząc je
 
 Zapoznaj się z poradnikiem [Wireless](../../interface_guide/wireless.md).
 
-## Clients
+## Clients {#clients}
 
 Strona Clients wyświetla informacje o podłączonych urządzeniach. Dla każdego klienta pokazuje nazwę, adresy IP i MAC, prędkości pobierania i wysyłania, całkowity transfer oraz umożliwia zablokowanie klienta lub wykonanie innych działań.
 
 Zapoznaj się z poradnikiem [Clients](../../interface_guide/clients.md).
 
-## Usługi chmurowe
+## Usługi chmurowe {#cloud-services}
 
 === "GoodCloud"
 
@@ -129,7 +129,7 @@ Zapoznaj się z poradnikiem [Clients](../../interface_guide/clients.md).
     
     Zapoznaj się z poradnikiem [AstroWarp](../../interface_guide/astrowarp.md).
 
-## VPN 
+## VPN {#vpn}
 
 VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany tunel dla ruchu między Twoim urządzeniem a serwerem VPN. Zapewnia dodatkową warstwę prywatności i bezpieczeństwa (klient VPN) oraz umożliwia dostęp do sieci zdalnej (serwer VPN). Beryl 7 obsługuje OpenVPN, WireGuard i Tor.
 
@@ -153,7 +153,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany tunel dla ruchu mi�
     
     * [How to set up Tor](../../interface_guide/tor.md)
 
-## Applications
+## Applications {#applications}
 
 === "Plug-ins"
 
@@ -199,7 +199,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany tunel dla ruchu mi�
     
     Zapoznaj się z poradnikiem [Tailscale](../../interface_guide/tailscale.md).
 
-## Network
+## Network {#network}
 
 === "Port forwarding"
 
@@ -282,7 +282,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany tunel dla ruchu mi�
 
     Zapoznaj się z poradnikiem [NAT Settings](../../interface_guide/nat_settings.md).
 
-## System
+## System {#system}
 
 === "Overview"
 
@@ -377,6 +377,6 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany tunel dla ruchu mi�
 
     Szczegółowe instrukcje znajdziesz w poradniku [Advanced Settings](../../interface_guide/advanced_settings.md).
 
-## Deklaracja zgodności
+## Deklaracja zgodności {#declaration-of-conformity}
 
 Niniejszym GL TECHNOLOGIES (HONG KONG) LIMITED oświadcza, że typ urządzenia radiowego [BE3600 Dual-band Wi-Fi 7 Travel Router, GL-MT3600BE] jest zgodny z zasadniczymi wymaganiami i innymi stosownymi postanowieniami dyrektywy 2014/53/UE. Pełny tekst deklaracji zgodności UE jest dostępny pod następującym adresem internetowym: [https://www.gl-inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}.

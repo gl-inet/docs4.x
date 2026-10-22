@@ -1,8 +1,8 @@
-# AmneziaWG-Verschleierungsparameter
+# AmneziaWG-Verschleierungsparameter {#amneziawg-obfuscation}
 
 AmneziaWG ist ein WireGuard-basiertes VPN-Protokoll mit integrierter Verschleierung des Datenverkehrs. Seine Verschleierungsparameter steuern, wie der Datenverkehr getarnt wird, um einer Erkennung durch strenge Netzwerkinspektion zu entgehen. Nachfolgend finden Sie eine ausführliche Einführung in AmneziaWG, die Versionsunterschiede, AmneziaWG auf GL.iNet-Routern sowie einen Überblick über die Parameter.
 
-## Warum AmneziaWG?
+## Warum AmneziaWG? {#why-amneziawg}
 
 Der Vorgänger von AmneziaWG, WireGuard, hat sich dank seines kompakten Codebestands und seiner hohen Effizienz als schnelles und zuverlässiges VPN-Protokoll etabliert. Seine festen Paket-Header und vorhersagbaren Paketgrößen erzeugen jedoch ein leicht erkennbares Signaturmuster. DPI-Systeme können diese Pakete mühelos identifizieren und Verbindungen sofort beenden – ein kritisches Problem in Ländern mit strenger Internetzensur.
 
@@ -13,7 +13,7 @@ Kurz gesagt:
 - Es maskiert VPN-Merkmale, um eine Erkennung durch ISPs, Firewalls oder Deep Packet Inspection (DPI) zu verhindern.
 - Es lässt Ihre VPN-Verbindung wie gewöhnlichen Web-Datenverkehr erscheinen, was die Verbindungsstabilität und Erfolgsquote in eingeschränkten Netzwerken verbessert.
 
-## AmneziaWG V2.0
+## AmneziaWG V2.0 {#amneziawg-v20}
 
 Im Vergleich zu AmneziaWG v1.0 bietet v2.0 eine stärkere Verschleierung, indem neue Parameter (**S3~S4**) hinzugefügt und dynamische Header für Pakettypen verwendet werden (**H1~H4** als Bereiche statt als feste Werte). Darüber hinaus unterstützt AmneziaWG 2.0 die Parameter **I1~I5**, die vor jedem Handshake formatierte UDP-Pakete senden, um AmneziaWG-Datenverkehr als gewöhnlichen Nicht-VPN-Datenverkehr zu tarnen. So lässt sich Deep Packet Inspection wirksam umgehen und die Konnektivität in eingeschränkten Netzwerken verbessern.
 
@@ -33,7 +33,7 @@ Diese Erweiterungen erschweren die Erkennung des VPN-Datenverkehrs und bewahren 
             
     > Hinweis: I1-I5 werden nicht automatisch generiert. Benutzer können sie manuell als zusätzliche Zeilen in der Konfigurationsdatei ergänzen, damit AmneziaWG-Datenverkehr wie andere gängige Protokolle wie QUIC oder WebRTC aussieht.
 
-## Unterstützte Modelle
+## Unterstützte Modelle {#supported-model}
 
 AmneziaWG 2.0 ist auf GL.iNet-Routern mit Firmware v4.9 oder höher verfügbar.
 

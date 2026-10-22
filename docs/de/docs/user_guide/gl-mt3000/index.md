@@ -1,6 +1,6 @@
-# Beryl AX (GL-MT3000) Benutzerhandbuch
+# Beryl AX (GL-MT3000) Benutzerhandbuch {#beryl-ax-gl-mt3000-user-guide}
 
-## Sicherheitshinweise
+## Sicherheitshinweise {#safety-information}
  
 Lesen Sie vor der Verwendung des Geräts alle nachstehenden Sicherheitsinformationen sorgfältig durch. Die nachfolgenden Sicherheitsempfehlungen können nicht sämtliche möglicherweise auftretenden Gefahrensituationen abdecken.
 
@@ -30,13 +30,13 @@ Unsachgemäßes Öffnen oder unsachgemäße Instandsetzung kann den Benutzer des
 
 Schalten Sie bei einem Störfall zuerst den Netzschalter aus.
 
-## Produktübersicht
+## Produktübersicht {#product-overview}
 
 Beryl AX (GL-MT3000) ist ein kompakter AX3000-Reiserouter im Taschenformat, der das Wi-Fi-6-Protokoll nutzt. Er ist eine verbesserte Version des Beryl (GL-MT1300). Ausgestattet mit einem MT7981B-Dual-Core-Prozessor mit 1,3 GHz bietet er mehr als die doppelte gesamte Wi-Fi-Geschwindigkeit. Er wurde für Familien mit intensiver Wi-Fi-Nutzung entwickelt und ist zugleich kompakt genug für den Einsatz auf Reisen.
 
 ![gl-mt3000 interface](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-mt3000/hardware_info/mt3000_interface.jpg){class="glboxshadow"}
 
-## Lieferumfang
+## Lieferumfang {#package-contents}
 
 - 1 x Beryl AX (GL-MT3000)
 - 1 x Benutzerhandbuch
@@ -48,17 +48,17 @@ Beryl AX (GL-MT3000) ist ein kompakter AX3000-Reiserouter im Taschenformat, der 
 
 ![gl-MT3000 unboxing](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-mt3000/first_time_setup/mt3000_unboxing.jpg){class="glboxshadow"}
 
-## So richten Sie Beryl AX ein
+## So richten Sie Beryl AX ein {#how-to-set-up-beryl-ax}
 
 Sehen Sie sich dieses Einrichtungsvideo an oder folgen Sie den untenstehenden Schritten.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZAVn92F5RV8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Einschalten
+### 1. Einschalten {#1-power-on}
 
 Setzen Sie den zweiteiligen Netzadapter zusammen. Schließen Sie ihn an Ihren Router an und stecken Sie ihn in eine Steckdose. Das Gerät startet automatisch.
 
-### 2. Gerät verbinden
+### 2. Gerät verbinden {#2-connect-device}
 
 Verbinden Sie ein Gerät (z. B. Computer, Laptop oder Smartphone) per Wi-Fi oder Ethernet mit dem Router.
 
@@ -70,13 +70,13 @@ Verbinden Sie ein Gerät (z. B. Computer, Laptop oder Smartphone) per Wi-Fi oder
 
   Suchen Sie auf Ihrem Gerät in der Liste der verfügbaren Netzwerke den Wi-Fi-Netzwerknamen Ihres Routers und geben Sie das Passwort ein. Den Standard-Netzwerknamen und das Standard-Passwort finden Sie auf dem Etikett Ihres Routers.
 
-### 3. Im Web-Admin-Panel anmelden
+### 3. Im Web-Admin-Panel anmelden {#3-log-in-to-web-admin-panel}
 
 Öffnen Sie einen Webbrowser, geben Sie `192.168.8.1` in die Adressleiste ein und melden Sie sich an. Wählen Sie Ihre Sprache aus und legen Sie Ihr Admin-Passwort fest. Klicken Sie anschließend auf **Apply**.
 
 Beachten Sie beim Bestätigen der Wi‑Fi-Daten: Wenn Sie die Wi‑Fi-Informationen ändern, müssen Sie Ihr Gerät mit den aktualisierten Zugangsdaten erneut mit dem Wi‑Fi des Routers verbinden.
 
-### 4. Internet einrichten
+### 4. Internet einrichten {#4-internet-setup}
 
 **Hinweis:** Die folgenden Anweisungen gelten für Benutzer, die den Router über das GL.iNet Web-Admin-Panel konfigurieren. Wenn Sie lieber die GL.iNet-App verwenden möchten, [laden Sie die App herunter](https://www.gl-inet.com/app/){target="_blank"} und folgen Sie den Anweisungen auf dem Bildschirm.
 
@@ -126,7 +126,7 @@ Richten Sie Beryl AX mit einer der unterstützten Internetverbindungsmethoden ei
 
     Detaillierte Anweisungen finden Sie unter [Über Cellular eine Verbindung zum Internet herstellen](../../interface_guide/internet_cellular.md).
 
-## So richten Sie ein VPN ein
+## So richten Sie ein VPN ein {#how-to-set-up-a-vpn}
 
 Ein VPN (Virtual Private Network) erstellt einen sicheren, verschlüsselten Datenverkehr zwischen Ihrem Gerät und dem VPN-Server. Es bietet eine zusätzliche Ebene an Datenschutz und Sicherheit (VPN-Client) und ermöglicht den Zugriff auf ein entferntes Netzwerk (VPN-Server). Beryl AX (und andere GL.iNet-Router) unterstützt OpenVPN und WireGuard. Zusätzlich wird Tor unterstützt.
 
@@ -150,7 +150,7 @@ Ein VPN (Virtual Private Network) erstellt einen sicheren, verschlüsselten Date
 
     * [So richten Sie Tor ein](../../interface_guide/tor.md)
 
-## WLAN und Clients
+## WLAN und Clients {#wireless-and-clients}
 
 === "Wireless"
 
@@ -164,7 +164,7 @@ Ein VPN (Virtual Private Network) erstellt einen sicheren, verschlüsselten Date
 
     Zum Einrichten von Clients lesen Sie bitte [Clients](../../interface_guide/clients.md).
 
-## Cloud-Dienste
+## Cloud-Dienste {#cloud-services}
 
 === "GoodCloud"
 
@@ -178,7 +178,7 @@ Ein VPN (Virtual Private Network) erstellt einen sicheren, verschlüsselten Date
 
     Zum Einrichten von AstroWarp lesen Sie bitte [AstroWarp](../../interface_guide/astrowarp.md).
 
-## Anwendungen
+## Anwendungen {#applications}
 
 === "Plug-ins"
 
@@ -224,7 +224,7 @@ Ein VPN (Virtual Private Network) erstellt einen sicheren, verschlüsselten Date
 
     Zum Einrichten von Tailscale lesen Sie bitte [Tailscale](../../interface_guide/tailscale.md).
 
-## Netzwerkeinstellungen
+## Netzwerkeinstellungen {#network-settings}
 
 === "Portweiterleitung"
 
@@ -304,7 +304,7 @@ Ein VPN (Virtual Private Network) erstellt einen sicheren, verschlüsselten Date
 
     Zum Einrichten der NAT-Einstellungen lesen Sie bitte [NAT Settings](../../interface_guide/nat_settings.md).
 
-## Systemeinstellungen
+## Systemeinstellungen {#system-settings}
 
 === "Overview"
 
@@ -399,7 +399,7 @@ Ein VPN (Virtual Private Network) erstellt einen sicheren, verschlüsselten Date
 
     Detaillierte Anweisungen finden Sie unter [Advanced Settings](../../interface_guide/advanced_settings.md).
 
-## Konformitätserklärung
+## Konformitätserklärung {#declaration-of-conformity}
 
 Hiermit erklärt GL TECHNOLOGIES (HONG KONG) LIMITED, dass der Funkanlagentyp [AX3000 Wi-Fi-6-Router, GL-MT3000] den grundlegenden Anforderungen und anderen relevanten Bestimmungen der Richtlinie 2014/53/EU entspricht. Der vollständige Text der EU-Konformitätserklärung ist unter folgender Internetadresse verfügbar: [https://www.gl-inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}.
 

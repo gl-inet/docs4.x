@@ -1,4 +1,4 @@
-# Guida all'attivazione di ExpressVPN
+# Guida all'attivazione di ExpressVPN {#expressvpn-activation-guide}
 
 **Nota:** Questa guida si applica solo al router co-branded GL.iNet x ExpressVPN **Fortify (GL-MT6000)**.
 
@@ -6,11 +6,11 @@
 
 [ExpressVPN](https://www.expressvpn.com/){target="_blank"} è uno dei servizi VPN premium leader a livello mondiale progettato per proteggere la tua privacy online, proteggere la tua connessione Internet e consentire lo streaming sicuro da qualsiasi luogo. Offre velocità elevatissime, crittografia di livello militare e accesso a server in oltre 100 paesi. Che tu voglia eseguire lo streaming, navigare in privato o proteggere i tuoi dati sul Wi-Fi pubblico, ExpressVPN ti offre un'esperienza veloce e sicura.
 
-**Fortify (GL-MT6000)** è un router in co-branding rilasciato congiuntamente da GL.iNet ed ExpressVPN. Ogni unità viene fornita con un abbonamento ExpressVPN gratuito di un anno. Gli utenti possono riscattare l'abbonamento e connettere i propri account direttamente sul pannello di amministrazione web del router. Una volta attivato, tutto il traffico che passa attraverso il router sfrutterà la rete ad alta velocità di ExpressVPN e la solida crittografia per proteggere l'intera connessione di rete e la privacy online.
+**Fortify (GL-MT6000)** è un router in co-branding rilasciato congiuntamente da GL.iNet ed ExpressVPN. Ogni unità viene fornita con un abbonamento ExpressVPN gratuito di un anno. Gli utenti possono riscattare l'abbonamento e connettere i propri account direttamente sul pannello di amministrazione web del router. Quando un tunnel ExpressVPN è connesso, il router crittografa e instrada il traffico attraverso quel tunnel secondo le impostazioni dei criteri VPN.
 
 Questa guida ti guida attraverso il riscatto del piano ExpressVPN di 12 mesi nel pannello di amministrazione web del router. Copre anche la personalizzazione delle policy VPN in base ai tuoi scenari e requisiti di utilizzo, aiutandoti a usufruire senza sforzo di una connettività Internet crittografata, sicura e ad alta velocità.
 
-## Riscatta il piano ExpressVPN
+## Riscatta il piano ExpressVPN {#redeem-expressvpn-plan}
 
 Accedi al pannello di amministrazione web di Fortify e vai a **VPN** -> **VPN Client Profile**.
 
@@ -40,7 +40,7 @@ Il tuo piano è stato attivato. Torna al pannello di amministrazione web del tuo
 
 ![expressvpn checkout2](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/expressvpn_checkout2.png){class="glboxshadow"}
 
-## Accedi a ExpressVPN
+## Accedi a ExpressVPN {#log-in-to-expressvpn}
 
 Nel pannello di amministrazione web di Fortify, vai su **VPN** -> **VPN Client Profile**.
 
@@ -78,9 +78,9 @@ Ora puoi aggiungere tunnel VPN e configurare le policy VPN in base alle tue esig
 
 ![expressvpn dashboard](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/expressvpn_dashboard.png){class="glboxshadow"}
 
-## Aggiungi tunnel VPN
+## Aggiungi tunnel VPN {#add-vpn-tunnel}
 
-### Passaggi generali
+### Passaggi generali {#general-steps}
 
 Segui i passaggi seguenti per aggiungere il tuo tunnel VPN e configurare i criteri VPN. Se necessario, vedere [Riferimento caso](#case-reference).
 
@@ -129,7 +129,7 @@ Segui i passaggi seguenti per aggiungere il tuo tunnel VPN e configurare i crite
 
 5. Un tunnel VPN è stato aggiunto correttamente. Verrai indirizzato allo **ExpressVPN Dashboard**. Aggiungi altri tunnel VPN se necessario.
 
-### Riferimento al caso
+### Riferimento al caso {#case-reference}
 
 Di seguito sono riportati due casi tipici di configurazione della policy VPN con istruzioni dettagliate per la configurazione come riferimento.
 
@@ -275,11 +275,13 @@ Di seguito sono riportati due casi tipici di configurazione della policy VPN con
 
         Ora tutti i dispositivi utilizzeranno **VPN Tunnel 1** quando accedono a domini specifici e utilizzeranno **VPN Tunnel 2** per tutti gli altri accessi a Internet. Se i tunnel VPN si disconnettono inaspettatamente, l'accesso a Internet per tutti i dispositivi verrà bloccato per impedire perdite DNS e tracciamento IP.
 
-## Kill Switch
+## Kill Switch {#kill-switch}
 
-Kill Switch è una funzionalità di sicurezza per le connessioni VPN. Interrompe automaticamente tutti gli accessi a Internet per la tua rete locale se la connessione VPN si interrompe inaspettatamente, impedendo che il tuo indirizzo IP reale e i tuoi dati online vengano esposti e garantendo privacy e sicurezza continue. Questa funzionalità è particolarmente utile per mantenere un accesso Internet sicuro e anonimo, ad esempio quando si utilizzano reti pubbliche, si elaborano dati sensibili o si nasconde il proprio indirizzo IP reale.
+Il Kill Switch VPN aiuta a impedire che il traffico passi a una connessione Internet non crittografata quando la connessione VPN si interrompe.
 
-Se abilitato, blocca qualsiasi traffico client che tenta di bypassare il tunnel VPN, bloccando in modo efficace le perdite VPN causate da problemi di configurazione DNS, disconnessioni impreviste, richieste IP dirette e altri scenari simili.
+Per un singolo tunnel, l’attivazione di **Kill Switch** blocca l’accesso a Internet del traffico assegnato a quel tunnel se la connessione si interrompe. Il resto del traffico segue le impostazioni di **All Other Traffic**.
+
+**Enhanced Kill Switch** blocca il traffico Internet che non corrisponde ad alcun tunnel VPN. Non sostituisce l’impostazione **Kill Switch** di ciascun tunnel.
 
 Fortify supporta la configurazione Kill Switch per la connessione VPN globale, nonché per ogni singolo tunnel VPN.
 
@@ -287,7 +289,7 @@ Fortify supporta la configurazione Kill Switch per la connessione VPN globale, n
 
 - Per impostare il Kill Switch per ogni singolo tunnel VPN, fare riferimento a [Opzioni tunnel](#tunnel-options).
 
-## Tutto il resto del traffico
+## Tutto il resto del traffico {#all-other-traffic}
 
 Fai clic sull'icona a forma di ingranaggio in alto a destra per impostare la policy per il traffico che non corrisponde al tunnel VPN.
 
@@ -303,7 +305,7 @@ Questa policy controlla se il traffico che non corrisponde a nessuno dei tuoi gr
 
     ![enhanced killswitch](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/enhanced_killswitch.png){class="glboxshadow"}
 
-## Opzioni del tunnel
+## Opzioni del tunnel {#tunnel-options}
 
 Puoi configurare impostazioni avanzate per ciascun tunnel VPN, come VPN Kill Switch, IP Masquerading e MTU.
 
@@ -323,7 +325,7 @@ Fare clic sull'icona a forma di ingranaggio in un gruppo di tunnel e selezionare
 
 - **MTU**: il valore MTU impostato per il tunnel sovrascriverà le impostazioni MTU nel file di configurazione.
 
-## Priorità al tunnel
+## Priorità al tunnel {#tunnel-priority}
 
 Per regolare la priorità del tunnel, fai clic sull'icona a forma di ingranaggio in un gruppo di tunnel e seleziona **Priority**.
 

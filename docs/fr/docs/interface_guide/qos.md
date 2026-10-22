@@ -1,4 +1,4 @@
-# QoS (Quality of Service)
+# QoS (Quality of Service) {#qos-quality-of-service}
 
 **Remarque** : cette fonction a été introduite dans le firmware v4.9.
 
@@ -56,7 +56,7 @@ La QoS (Quality of Service) optimise l’allocation de la bande passante en donn
     - GL-S1300 (Convexa-S)
 
 
-## Pour le firmware v4.11 et les versions ultérieures
+## Pour le firmware v4.11 et les versions ultérieures {#for-firmware-v411-and-above}
 
 Activez l’interrupteur pour activer la QoS, puis effectuez la configuration en suivant les étapes ci-dessous.
 
@@ -112,7 +112,7 @@ Activez l’interrupteur pour activer la QoS, puis effectuez la configuration en
 
         ![advanced qos rule](https://static.gl-inet.com/docs/router/en/4/interface_guide/qos/advanced_qos_rule.png){class="glboxshadow" width=500}
 
-## Pour les firmwares v4.9 à v4.10
+## Pour les firmwares v4.9 à v4.10 {#for-firmware-v49-to-v410}
 
 Activez l’interrupteur pour activer la QoS ; la page s’affichera comme ci-dessous.
 

@@ -1,4 +1,4 @@
-# Wireless
+# Wireless {#wireless}
 
 El contenido de esta página se basa en la versión de firmware v4.9 y posteriores. Si su dispositivo ejecuta otra versión de firmware, use el selector siguiente para cambiar a la guía correspondiente.
 
@@ -14,7 +14,7 @@ En el lado izquierdo del panel de administración web, vaya a **WIRELESS**.
 
 La página Wireless le permite configurar varias redes Wi‑Fi, incluidas MLO Wi‑Fi (disponible en determinados modelos), Main Network, Guest Network e IoT Network. Las bandas Wi‑Fi compatibles varían según el modelo.
 
-## Multi-Link Operation (MLO)
+## Multi-Link Operation (MLO) {#multi-link-operation-mlo}
 
 ??? "Modelos compatibles"
     - GL-BE14000 (Flint 4)
@@ -70,7 +70,7 @@ Una vez habilitada, la página se mostrará de la siguiente manera.
 
 ![mlo3](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/mlo3.png){class="glboxshadow"}
 
-## Main Network
+## Main Network {#main-network}
 
 Main Network es su red Wi‑Fi principal y admite difusión simultánea en distintas bandas de radio, todas habilitadas de forma predeterminada. Puede configurar ajustes independientes para cada banda, como SSID Wi‑Fi, modo de seguridad, contraseña, BSSID aleatorio, potencia TX, ancho de banda y canal.
 
@@ -90,7 +90,7 @@ Haga clic en el icono de engranaje de la derecha para ver o modificar la configu
 
     ![main 2.4g](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/main_2.4g.png){class="glboxshadow"}
 
-## Guest Network
+## Guest Network {#guest-network}
 
 Guest Network es una red Wi‑Fi dedicada para visitantes, con todas las bandas deshabilitadas de forma predeterminada. Puede habilitar y configurar los ajustes básicos de red para cada banda, como SSID Wi‑Fi, modo de seguridad, contraseña y BSSID aleatorio.
 
@@ -104,7 +104,7 @@ Una vez habilitada, la página se mostrará de la siguiente manera.
 
 ![guest3](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/guest3.png){class="glboxshadow"}
 
-## IoT Network
+## IoT Network {#iot-network}
 
 IoT Network es una red Wi‑Fi dedicada para dispositivos inteligentes, con todas las bandas deshabilitadas de forma predeterminada. Puede habilitar y configurar los ajustes básicos de red para cada banda, como SSID Wi‑Fi, modo de seguridad, contraseña y BSSID aleatorio.
 

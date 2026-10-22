@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-# Podręcznik użytkownika
+# Podręcznik użytkownika {#user-manual}
 
 Ta strona zawiera obecnie podręczniki PDF tylko dla wybranych modeli. Instrukcje dla kolejnych modeli będą dodawane regularnie.
 

@@ -1,6 +1,6 @@
-# ドロップインゲートウェイ
+# ドロップインゲートウェイ {#drop-in-gateway}
 
-Web Admin Panel の左側で、**NETWORK** -> **Drop-in Gateway** に移動します。
+Web 管理パネルの左側で、**NETWORK** -> **Drop-in Gateway** に移動します。
 
 Drop-in Gateway は、既存のプライマリルーターを置き換えたり再設定したりせずに、機能を拡張できる仕組みです。GL.iNet ルーターをプライマリルーターに Ethernet ケーブルで接続することで、既存のネットワーク構成に次のような高度な機能を追加できます。
 
@@ -10,7 +10,7 @@ Drop-in Gateway は、既存のプライマリルーターを置き換えたり�
 
 十分なメモリを搭載した高性能ルーターまたはセキュリティゲートウェイ（例: GL-MT2500、GL-MT5000）の使用を推奨します。必要に応じて、追加のトラフィック転送・制御ツールをインストールしてください。
 
-## ネットワークトポロジー
+## ネットワークトポロジー {#network-topology}
 
 Drop-in Gateway は中間ネットワークとして動作し、クライアントデバイスからのトラフィックを GL.iNet ルーターで処理した後、プライマリルーター経由で送信します。この過程では、既存のネットワーク設定（SSID やパスワードなど）を維持して接続済みデバイスの継続利用を可能にしつつ、必要に応じてすべての、または特定のクライアントデバイスのトラフィックを管理できます。
 
@@ -28,17 +28,17 @@ Drop-in Gateway は中間ネットワークとして動作し、クライアン�
 
     3. 処理後のトラフィックはプライマリルーターへ戻され、最終的に元のクライアントデバイスへ届けられるか、インターネットへ送信されます。
 
-## セットアップ
+## セットアップ {#setup}
 
 用途に応じて 2 つの展開方法があります。すべてのクライアントデバイスを Drop-in Gateway 経由にする方法と、特定のクライアントデバイスだけを Drop-in Gateway 経由にする方法です。
 
 以下の例では、プライマリルーターのゲートウェイアドレスを `192.168.1.1` としています。
 
-### すべてのデバイスを Drop-in Gateway 経由にする {all-devices-managed-by-the-drop-in-gateway}
+### すべてのデバイスを Drop-in Gateway 経由にする {#all-devices-managed-by-the-drop-in-gateway}
 
 1. プライマリルーターの LAN ポートを、GL.iNet ルーターの WAN ポートへ Ethernet ケーブルで接続します。
 
-2. GL.iNet ルーターの Web Admin Panel にログインし、Drop-in Gateway を有効にします。対応する設定パラメーターが自動生成されます。
+2. GL.iNet ルーターの Web 管理パネルにログインし、Drop-in Gateway を有効にします。対応する設定パラメーターが自動生成されます。
 
     ![drop-in gateway generated settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/drop-in_gateway/drop-in_gateway_all_device_enabled.png){class="glboxshadow"}
 
@@ -50,13 +50,13 @@ Drop-in Gateway は中間ネットワークとして動作し、クライアン�
 
     最初の設定方法を選択し、**Apply** をクリックします。
 
-3. プライマリルーターの Web 管理画面にログインします。
+3. プライマリルーターの Web 管理パネルにログインします。
 
     ??? "GL.iNet"
 
         プライマリルーターが GL.iNet 製で、ファームウェア v4.2 以降の場合は、以下の手順に従ってください。
 
-        Web Admin Panel -> NETWORK -> LAN -> DHCP Server -> Advanced に移動します。
+        Web 管理パネルにログインし、NETWORK -> LAN -> DHCP Server -> Advanced に移動します。
 
         ![glinet lan advanced](https://static.gl-inet.com/docs/router/en/4/interface_guide/drop-in_gateway/glinet/lan_advanced.png){class="glboxshadow"}
 
@@ -94,17 +94,17 @@ Drop-in Gateway は中間ネットワークとして動作し、クライアン�
 
         ![linksys admin, apply changes](https://static.gl-inet.com/docs/router/en/4/interface_guide/drop-in_gateway/linksys/linksys_apply_changes.png){class="glboxshadow"}
 
-    ??? "Others"
+    ??? "その他"
 
         プライマリルーターの管理画面で DHCP Server を無効にしてください。必要に応じて、各メーカーのユーザーマニュアルやサポート情報を参照してください。
 
-4. GL.iNet ルーターに戻り、必要に応じて [AdGuard Home](adguardhome.md)、[encrypted DNS](dns.md)、[WireGuard Client](wireguard_client.md)、[OpenVPN Client](openvpn_client.md) などを設定します。
+4. GL.iNet ルーターに戻り、必要に応じて [AdGuard Home](adguardhome.md)、[暗号化 DNS](dns.md)、[WireGuard クライアント](wireguard_client.md)、[OpenVPN クライアント](openvpn_client.md) などを設定します。
 
-### 特定のデバイスのみを Drop-in Gateway 経由にする {some-devices-managed-by-the-drop-in-gateway}
+### 特定のデバイスのみを Drop-in Gateway 経由にする {#some-devices-managed-by-the-drop-in-gateway}
 
 1. プライマリルーターの LAN ポートを、GL.iNet ルーターの WAN ポートへ Ethernet ケーブルで接続します。
 
-2. GL.iNet ルーターの Web Admin Panel にログインし、Drop-in Gateway を有効にします。対応する設定パラメーターが自動生成されます。
+2. GL.iNet ルーターの Web 管理パネルにログインし、Drop-in Gateway を有効にします。対応する設定パラメーターが自動生成されます。
 
     ![drop-in gateway generated settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/drop-in_gateway/drop-in_gateway_some_device_enabled.png){class="glboxshadow"}
 
@@ -198,9 +198,9 @@ Drop-in Gateway は中間ネットワークとして動作し、クライアン�
 
             ![wifi set dns](https://static.gl-inet.com/docs/router/en/4/interface_guide/drop-in_gateway/iphone/set_dns.jpg){class="glboxshadow gl-60-desktop"}
 
-4. GL.iNet ルーターの Web Admin Panel に戻り、必要に応じて [AdGuard Home](adguardhome.md)、[encrypted DNS](dns.md)、[WireGuard Client](wireguard_client.md)、[OpenVPN Client](openvpn_client.md) などを設定します。
+4. GL.iNet ルーターの Web 管理パネルに戻り、必要に応じて [AdGuard Home](adguardhome.md)、[暗号化 DNS](dns.md)、[WireGuard クライアント](wireguard_client.md)、[OpenVPN クライアント](openvpn_client.md) などを設定します。
 
-## 注意事項
+## 注意事項 {#cautions}
 
 1. Drop-in Gateway を有効にすると、ネットワーク遅延は増加します。
 
@@ -208,9 +208,9 @@ Drop-in Gateway は中間ネットワークとして動作し、クライアン�
 
 ---
 
-Related Article:
+関連記事:
 
-- [How to set up drop-in gateway on a GL.iNet router](../tutorials/how_to_set_up_drop_in_gateway.md)
+- [GL.iNet ルーターでドロップインゲートウェイを設定する方法](../tutorials/how_to_set_up_drop_in_gateway.md)
 
 ---
 

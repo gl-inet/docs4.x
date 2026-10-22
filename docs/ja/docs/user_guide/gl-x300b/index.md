@@ -1,8 +1,8 @@
-# Collie (GL-X300B) ユーザーガイド
+# Collie (GL-X300B) ユーザーガイド {#collie-gl-x300b-user-guide}
 
-## 製品概要
+## 製品概要 {#product-overview}
 
-Collie（GL-X300B）は、高温環境や物理的リスクのある環境での利用を想定して設計された産業用セルラーゲートウェイです。Collie には 3 つのバージョンがあり、屋内の固定設備向け（GL-X300B-RS485 / GL-X300B-BLE）と、車載利用向け（GL-X300B-GPS）に分かれています。電気ノイズの多い環境における機器間通信にも適しています。
+Collie（GL-X300B）は、高温環境や物理的リスクのある環境での利用を想定して設計された産業用セルラーゲートウェイです。Collie には 3 つのバージョンがあり、屋内の固定設備向け（GL-X300B-RS485 / GL-X300B-BLE）と、車載利用向け（GL-X300B-GPS）に分かれています。Collie は、電気ノイズの多い環境における電気機器間のマシンツーマシン（M2M）通信に最適です。
 
 ![gl-x300b interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/hardware_info/gl-x300b_interface.jpg){class="glboxshadow"}
 
@@ -30,7 +30,7 @@ Collie（GL-X300B）は、高温環境や物理的リスクのある環境での
    
     アンテナは対応する嵌合タイプのコネクタを使用する必要があります。デバイスポートがオスの場合はメスコネクタのアンテナを使用し、デバイスポートがメスの場合はオスコネクタのアンテナを使用してください。
 
-## パッケージ内容
+## パッケージ内容 {#package-contents}
 
 - 1 x ユーザーマニュアル
 - 1 x Collie (GL-X300B-RS485)（2 年保証）
@@ -45,11 +45,11 @@ Collie（GL-X300B）は、高温環境や物理的リスクのある環境での
 
 ![gl-x300b package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/hardware_info/x300b-rs485_package.jpg){class="glboxshadow"}
 
-## 仕様
+## 仕様 {#specifications}
 
 [GL-X300B の仕様](https://www.gl-inet.com/products/gl-x300b/#specs){target="_blank"}
 
-## アンテナの取り付け
+## アンテナの取り付け {#antenna-installation}
 
 !!! note "GL-X300B-RS485"
 
@@ -111,19 +111,19 @@ Collie（GL-X300B）は、高温環境や物理的リスクのある環境での
 
         ![x300b gps antennas](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/antenna_installation/x300b-gps.jpg){class="glboxshadow"}
 
-## 初回設定
+## 初回設定 {#first-time-setup}
 
 GL.iNet のすべてのルーターは、ほぼ共通の手順でセットアップできます。[初回セットアップはこちら](../../faq/first_time_setup.md)。
 
-## INTERNET
+## INTERNET {#internet}
 
-ルーターの Web Admin Panel にログインし、左側メニューの **INTERNET** に移動します。
+ルーターの Web 管理パネルにログインし、左側メニューの **INTERNET** に移動します。
 
 このページでは、モデルに応じて Ethernet、Repeater、Tethering、Cellular などの接続方法を選択できます。
 
 Collie（GL-X300B）では、Ethernet、Repeater、Cellular の 3 種類の接続方式を利用できます。
 
-### Ethernet
+### Ethernet {#ethernet}
 
 Ethernet ケーブルでルーターをモデムや上位ネットワーク機器に接続し、インターネットへアクセスします。通常、この方法が最も高速で安定した接続を提供します。
 
@@ -131,7 +131,7 @@ Ethernet ケーブルでルーターをモデムや上位ネットワーク機�
 
 ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/internet/x300b_ethernet.png){class="glboxshadow"}
 
-### Repeater
+### Repeater {#repeater}
 
 ルーターをリピーターとして設定すると、既存の Wi‑Fi ネットワークの電波を受信して再送信し、カバー範囲を広げられます。1 台のルーターだけでは利用エリア全体を十分にカバーできない場合に便利です。
 
@@ -139,7 +139,7 @@ Ethernet ケーブルでルーターをモデムや上位ネットワーク機�
 
 ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/internet/x300b_repeater.png){class="glboxshadow"}
 
-### Cellular
+### Cellular {#cellular}
 
 SIM カードをルーターの SIM カードスロットに挿入してインターネットに接続します。1 枚の SIM カードの回線を、接続されたすべてのデバイスで共有したい場合に便利です。
 
@@ -147,7 +147,7 @@ SIM カードをルーターの SIM カードスロットに挿入してイン�
 
 ![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/internet/x300b_cellular.png){class="glboxshadow"}
 
-### Multi-WAN
+### Multi-WAN {#multi-wan}
 
 Multi-WAN は、ルーターに複数のインターネット接続（例: Ethernet、Repeater、Cellular）を同時に設定できる機能です。最優先の接続が失われた場合、ルーターは自動的に別の接続へ切り替えます。これは Failover とも呼ばれ、通信を途切れにくくします。
 
@@ -157,38 +157,38 @@ Multi-WAN は、ルーターに複数のインターネット接続（例: Ether
 
 ---
 
-## WIRELESS
+## WIRELESS {#wireless}
 
-Wireless 設定では、メイン Wi‑Fi と Guest Wi‑Fi のネットワークセキュリティを管理できます。左側メニューの **WIRELESS** からアクセスします。
+ワイヤレス設定では、メイン Wi‑Fi とゲスト Wi‑Fi のネットワークセキュリティを管理できます。左側メニューの **WIRELESS** からアクセスします。
 
 [ワイヤレス設定の詳細はこちら](../../interface_guide/wireless.md)
 
 ---
 
-## CLIENTS
+## CLIENTS {#clients}
 
-Clients はルーターに接続されているデバイスです。クライアントのブロックやネットワーク速度の制限を行えます。ルーターの Admin Panel で左側メニューの **CLIENTS** をクリックすると利用できます。
+クライアントとは、ルーターに接続されているデバイスのことです。クライアントのブロックやネットワーク速度の制限を行えます。ルーターの Web 管理パネルで左側メニューの **CLIENTS** をクリックすると利用できます。
 
 [クライアント管理の詳細はこちら](../../interface_guide/clients.md)
 
 ---
 
-## VPN
+## VPN {#vpn}
 
 GL.iNet ルーターには、30 以上の VPN サービスに対応した OpenVPN と WireGuard® がプリインストールされています。VPNクライアントを有効にすると、ルーターはVPNポリシー設定に従って、VPNアプリを実行できないデバイスを含むネットワーク上のデバイスのトラフィックを暗号化できます。また、ルーターを VPN サーバーとして動作させ、離れた場所にあるクライアントデバイスのトラフィックを VPN トンネル経由で VPN サーバーへ転送してからパブリックインターネットへ接続することもできます。
 
-### VPN Dashboard
+### VPN Dashboard {#vpn-dashboard}
 
 - [**VPN Dashboard**](../../interface_guide/vpn_dashboard_v4.7.md)
 
-### OpenVPN
+### OpenVPN {#openvpn}
 
 セットアップ手順については、以下のリンクを参照してください。
 
 - [**OpenVPN クライアントの設定**](../../interface_guide/openvpn_client.md)
 - [**OpenVPN サーバーの設定**](../../interface_guide/openvpn_server.md)
 
-### WireGuard
+### WireGuard {#wireguard}
 
 セットアップ手順については、以下のリンクを参照してください。
 
@@ -197,108 +197,108 @@ GL.iNet ルーターには、30 以上の VPN サービスに対応した OpenVP
 
 ---
 
-## APPLICATIONS
+## APPLICATIONS {#applications}
 
 GL.iNet ルーターには、デバイス管理の簡素化、インターネット利用体験の向上、ファームウェアアップデートの自動化などに役立つ、さまざまな追加機能が用意されています。
 
-### Plug-ins
+### Plug-ins {#plug-ins}
 
 [**Plug-ins**](../../interface_guide/plugins.md) チュートリアルを参照してください。
 
-### Dynamic DNS
+### Dynamic DNS {#dynamic-dns}
 
 [**Dynamic DNS**](../../interface_guide/ddns.md) チュートリアルを参照してください。
 
-### GoodCloud
+### GoodCloud {#goodcloud}
 
 [**GoodCloud**](../../interface_guide/cloud.md) チュートリアルを参照してください。
 
 ---
 
-## NETWORK
+## NETWORK {#network}
 
-### Firewall
+### Firewall {#firewall}
 
 GL.iNet ルーターには、安全な接続とユーザーによる十分な管理を実現するための複数のファイアウォール機能が用意されています。Port Forwarding、Open Ports、DMZ などのファイアウォールルールを設定できます。
 
 [GL.iNet ルーターのファイアウォールについて詳しくはこちら](../../interface_guide/firewall.md)
 
-### Multi-WAN
+### Multi-WAN {#multi-wan_1}
 
 [**Multi-WAN**](../../interface_guide/multi-wan.md) チュートリアルを参照してください。
 
-### LAN
+### LAN {#lan}
 
 [**LAN**](../../interface_guide/lan.md) チュートリアルを参照してください。
 
-### DNS
+### DNS {#dns}
 
 [**DNS**](../../interface_guide/dns.md) チュートリアルを参照してください。
 
-### Network Mode
+### Network Mode {#network-mode}
 
 [**Network Mode**](../../interface_guide/network_mode.md) チュートリアルを参照してください。
 
-### IPv6
+### IPv6 {#ipv6}
 
 [**IPv6**](../../interface_guide/ipv6.md) チュートリアルを参照してください。
 
-### MAC Address
+### MAC Address {#mac-address}
 
 MAC Address ページは、以前は Mac Clone と呼ばれていましたが、v4.2 以降は MAC Address に変更されています。
 
 [**MAC Address**](../../interface_guide/mac_address.md) チュートリアルを参照してください。
 
-### Drop-in Gateway
+### Drop-in Gateway {#drop-in-gateway}
 
 [**Drop-in Gateway**](../../interface_guide/drop-in_gateway.md) チュートリアルを参照してください。
 
-### IGMP Snooping
+### IGMP Snooping {#igmp-snooping}
 
 [**IGMP Snooping**](../../interface_guide/igmp_snooping.md) チュートリアルを参照してください。
 
 ---
 
-## SYSTEM
+## SYSTEM {#system}
 
-### Overview
+### Overview {#overview}
 
 [**System Overview**](../../interface_guide/system_overview.md) チュートリアルを参照してください。
 
-### Upgrade
+### Upgrade {#upgrade}
 
 GL.iNet は、性能向上、バグ修正、脆弱性対策のために、ルーターのファームウェアを定期的に更新しています。
 
 [**Upgrade**](../../interface_guide/upgrade.md) チュートリアルを参照してください。
 
-### Scheduled Tasks
+### Scheduled Tasks {#scheduled-tasks}
 
 [**Scheduled Tasks**](../../interface_guide/scheduled_tasks.md) チュートリアルを参照してください。
 
-### Admin Password
+### Admin Password {#admin-password}
 
 この機能は v4.5 から [**Security**](../../interface_guide/security.md) に移動しました。
 
 [**Admin Password**](../../interface_guide/admin_password.md) チュートリアルを参照してください。
 
-### Time Zone
+### Time Zone {#time-zone}
 
 [**Time Zone**](../../interface_guide/time_zone.md) チュートリアルを参照してください。
 
-### Log
+### Log {#log}
 
 [**Log**](../../interface_guide/log.md) チュートリアルを参照してください。
 
-### Security
+### Security {#security}
 
 この機能は v4.5 から利用できます。
 
 [**Security**](../../interface_guide/security.md) チュートリアルを参照してください。
 
-### Reset Firmware
+### Reset Firmware {#reset-firmware}
 
 [**Reset Firmware**](../../interface_guide/reset_firmware.md) チュートリアルを参照してください。
 
-### Advanced Settings
+### Advanced Settings {#advanced-settings}
 
 [**Advanced Settings**](../../interface_guide/advanced_settings.md) チュートリアルを参照してください。

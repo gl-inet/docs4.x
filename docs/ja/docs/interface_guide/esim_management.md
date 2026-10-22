@@ -1,4 +1,4 @@
-# eSIM 管理
+# eSIM 管理 {#esim-management}
 
 **注意**:
 
@@ -6,7 +6,7 @@
 
 2. GL-E5800 (Mudi 7) は eSIM を内蔵しているため、GL.iNet の物理 eSIM カードには対応していません。Mudi 7 では、物理 eSIM カードは eSIM 機能のない通常の SIM カードとして認識されます。
 
-## 対応モデル
+## 対応モデル {#supported-models}
 
 !!! note "対応モデル"
 
@@ -33,15 +33,15 @@
 
     3. **GL-E5800 (Mudi 7)** には eSIM が内蔵されています。そのため、Mudi 7 では物理 eSIM カードが eSIM 機能のない通常の SIM カードとして認識されます。
 
-## eSIM 管理
+## eSIM 管理 {#esim-management_1}
 
-Web Admin Panel の左側で、**APPLICATIONS** -> **eSIM Management** に移動します。
+Web 管理パネルの左側で、**APPLICATIONS** -> **eSIM Management** に移動します。
 
 このページでは、物理 eSIM カードの状態確認と eSIM プロファイルの管理ができます。内容は **Current eSIM Status** と **eSIM Profile List** の 2 つの部分で構成されています。
 
 ![esim detected](https://static.gl-inet.com/docs/router/en/4/interface_guide/esim_management/esim_detected.png){class="glboxshadow"}
 
-## Current eSIM Status
+## Current eSIM Status {#current-esim-status}
 
 このセクションには、現在有効な eSIM プロファイルの基本情報と詳細が表示されます。
 
@@ -54,17 +54,17 @@ Web Admin Panel の左側で、**APPLICATIONS** -> **eSIM Management** に移動
 - **eSIM Storage (remain/total):** eSIM プロファイル保存用の eUICC 上の空き容量と総容量です。
 - **eSIM Profile Number:** 現在 eUICC に保存されている eSIM プロファイル数です。通信事業者ごとに eSIM プロファイルのサイズが異なるため、保存できるプロファイル数も異なります。
 
-## eSIM Profile List
+## eSIM Profile List {#esim-profile-list}
 
 このセクションには、シードプロファイルと通常プロファイルの情報が表示されます。
 
 ![esim profile list](https://static.gl-inet.com/docs/router/en/4/interface_guide/esim_management/esim_profile_list.png){class="glboxshadow"}
 
-- **Seed Profile**: シードプロファイルには、アクティベーション日から 1 年間有効な米国およびヨーロッパ向け 1GB の無料データと、100MB のグローバルデータが事前に読み込まれています。このデータを利用して、世界中で他のプロファイルをダウンロードできます。残量、総量、有効期限などの利用状況も確認できます。
+- **Seed Profile**: シードプロファイルには、米国およびヨーロッパ向けの 1GB の無料データと 100MB のグローバルデータがあらかじめ含まれており、アクティベーション日から 1 年間有効です。このデータを利用して、世界中で他のプロファイルをダウンロードできます。残量、総量、有効期限などの利用状況も確認できます。
 
 - **Normal Profile**: eSIM プロファイルを購入し、QR コードまたはアクティベーションコードでアップロードすると、ここに表示されます。
 
-### シードプロファイルをチャージする
+### シードプロファイルをチャージする {#top-up-seed-profile}
 
 GL.iNet は、初期設定と eSIM プロファイルの有効化向けに、100MB のグローバルデータと、ヨーロッパおよび米国向け 1GB のデータを含むシードプロファイルを事前に提供しています。このプランは、インターネット接続のない場所に到着した際に新しい eSIM プロファイルをダウンロードするためのものです。
 
@@ -78,7 +78,7 @@ GL.iNet は、初期設定と eSIM プロファイルの有効化向けに、100
 
 ![top-up seed profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/esim_management/top-up_seed2.png){class="glboxshadow" width="400"}
 
-### eSIM プロファイルを購入する
+### eSIM プロファイルを購入する {#purchase-esim-profile}
 
 eSIM プロファイルは、推奨ストア、テスト済みストア、またはその他のサードパーティ eSIM プロバイダーから購入できます。
 
@@ -110,7 +110,7 @@ eSIM プロファイルは、推奨ストア、テスト済みストア、また
 
     アフターサポートや返金については、該当する eSIM プロバイダーへお問い合わせください。
 
-### eSIM プロファイルをアップロードする
+### eSIM プロファイルをアップロードする {#upload-esim-profile}
 
 eSIM プロファイルを購入すると、通常は QR コードまたはアクティベーションコードを受け取ります。この QR コードをローカルに保存し、以下の手順で eSIM プロファイルをアップロードしてください。
 
@@ -122,7 +122,7 @@ eSIM プロファイルを購入すると、通常は QR コードまたはア�
 
     ![add esim profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/esim_management/add_esim_profile2.png){class="glboxshadow"}
 
-    **Note:**
+    **注意:**
 
     1. ほとんどの eSIM プロファイルは 1 回しかダウンロードおよびインストールできません。
 
@@ -130,7 +130,7 @@ eSIM プロファイルを購入すると、通常は QR コードまたはア�
 
         ![esim activation code](https://static.gl-inet.com/docs/router/en/4/interface_guide/esim_management/activation_code.jpg){class="glboxshadow" width="550"}
 
-    3. まだ eSIM プロファイルを購入していない場合は、**eSIM Profile Recommended Store** から購入できます。詳細は [こちら](#esim-プロファイルを購入する) を参照してください。
+    3. まだ eSIM プロファイルを購入していない場合は、**eSIM Profile Recommended Store** から購入できます。詳細は [こちら](#purchase-esim-profile) を参照してください。
 
 3. eSIM プロファイルを有効にします。
 
@@ -150,7 +150,7 @@ eSIM プロファイルを購入すると、通常は QR コードまたはア�
 
     ![esim connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/esim_management/esim_connected.png){class="glboxshadow"}
 
-### サポート用ログをエクスポートする
+### サポート用ログをエクスポートする {#export-log-for-support}
 
 **Export Log for Support** をクリックすると、eSIM 関連のログをすべて確認できます。問題が発生して技術サポートが必要な場合は、eSIM ログをエクスポートし、[support@gl-inet.com](mailto:support@gl-inet.com) 宛てにメールでサポートチームへ共有してください。
 
@@ -160,9 +160,9 @@ eSIM プロファイルを購入すると、通常は QR コードまたはア�
 
 関連記事:
 
-- [GL.iNetルーターでeSIM Physical Cardを使用する方法](../tutorials/how_to_use_esim_physical_card_with_glinet_routers.md)
-- [Android デバイスで eSIM Physical Card を使用する方法](../tutorials/how_to_use_the_esim_physical_card_with_android_devices.md)
+- [GL.iNet ルーターで物理 eSIM カードを使用する方法](../tutorials/how_to_use_esim_physical_card_with_glinet_routers.md)
+- [Android デバイスで物理 eSIM カードを使用する方法](../tutorials/how_to_use_the_esim_physical_card_with_android_devices.md)
 
 ---
 
-ご不明な点がある場合は、[Community Forum](https://forum.gl-inet.com){target="_blank"} をご覧いただくか、[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

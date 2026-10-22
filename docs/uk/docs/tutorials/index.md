@@ -23,7 +23,7 @@ hide:
 * [Як отримати доступ до локальної підмережі сервера WireGuard із клієнта за доменним ім’ям](how_to_access_wgserver_lan_via_domain_name.md)
 * [Як увімкнути режим OpenVPN TAP-S2S на маршрутизаторах GL.iNet](how_to_enable_openvpn_tap_s2s_mode_on_glinet_routers.md)
 * [Як увімкнути каскадне підключення VPN на маршрутизаторах GL.iNet](how_to_use_vpn_cascading_on_glinet_routers.md)
-* [Як захистити RDP через WireGuard під час доступу із зовнішньої мережі](use_wireguard_to_secure_rdp_from_outside_network.md)
+* [Захист RDP за допомогою WireGuard](secure_rdp_with_wireguard.md)
 * [Як отримати файли конфігурації від постачальників послуг WireGuard](how_to_get_configuration_files_from_wireguard_service_providers.md)
 * [Як зарезервувати фіксовану IP-адресу клієнта OpenVPN у власному з’єднанні OpenVPN](reserve_fixed_IP_for_ovpn_client.md)
 * [Як дозволити доступ до WAN із увімкненим клієнтом VPN](how_to_allow_access_to_wan_when_vpn_client_enabled.md)

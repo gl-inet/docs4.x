@@ -1,18 +1,18 @@
-# Come configurare e usare Spitz AX (GL-X3000) nel tuo veicolo ricreazionale
+# Come configurare e usare Spitz AX (GL-X3000) nel tuo veicolo ricreazionale {#how-to-set-up-and-use-spitz-ax-gl-x3000-in-your-recreational-vehicle}
 
 Questa guida mostra come configurare e usare Spitz AX nel tuo veicolo ricreazionale. Prima di iniziare, dovrai o potresti dover preparare le seguenti attrezzature e servizi aggiuntivi:
 
-- SIM card oppure cavo USB, per il tethering, a seconda del metodo di connessione Internet che usi. Se usi una o piu' SIM card, chiedi al tuo operatore l'APN.
+- SIM card oppure cavo USB, per il tethering, a seconda del metodo di connessione Internet che usi. Se usi una o più SIM card, chiedi al tuo operatore l'APN.
 - Un'antenna da tetto, se desideri una copertura migliore.
 - [Un abbonamento a Starlink](https://www.starlink.com/roam), se vai in aree senza copertura cellulare.
 
 ---
 
-## 1. Installa Spitz AX e le altre apparecchiature
+## 1. Installa Spitz AX e le altre apparecchiature {#1-install-your-spitz-ax-and-other-equipment}
 
 Prima di iniziare il viaggio, configura Spitz AX seguendo questi passaggi.
 
-### Passaggio 1: scegli una posizione per Spitz AX
+### Passaggio 1: scegli una posizione per Spitz AX {#step-1-choose-a-location-for-your-spitz-ax}
 
 Si consiglia di scegliere una posizione centrale e libera da ostacoli per ottenere la massima copertura. Assicurati che la posizione si trovi entro 1 metro dalla fonte di alimentazione, che corrisponde alla lunghezza del cavo dell'alimentatore.
 
@@ -20,7 +20,7 @@ Si consiglia di scegliere una posizione centrale e libera da ostacoli per ottene
 
 Puoi posizionare Spitz AX su una superficie piana oppure montarlo a parete. Se scegli il montaggio a parete, segui il passaggio successivo.
 
-### Passaggio 2, opzionale: installa Spitz AX a parete
+### Passaggio 2, opzionale: installa Spitz AX a parete {#optional-step-2-install-your-spitz-ax-on-the-wall}
 
 Esistono due modi per installare Spitz AX a parete:
 - usa il pad adesivo in dotazione
@@ -33,7 +33,7 @@ I supporti da parete sono inclusi nella confezione. Per montare Spitz AX a paret
 
 ![wall mount](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/x3000-with-screws.jpg){class="glboxshadow"}
 
-### Passaggio 3, opzionale: installa l'antenna da tetto per RV
+### Passaggio 3, opzionale: installa l'antenna da tetto per RV {#optional-step-3-install-the-rv-roof-antenna}
 
 ![roof](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/x3000-with-roof-antenna.jpg){class="glboxshadow"}
 
@@ -44,15 +44,15 @@ Per ottenere un segnale migliore, usa un'antenna da tetto per Spitz AX. Consigli
 
 ![antennas](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/x3000-with-six-antennas.jpg){class="glboxshadow"}
 
-**Nota**: puoi usare un'antenna 7-in-1, che include anche un'antenna GPS, ma dovrai collegare solo le sei antenne di Spitz AX. L'interfaccia DIV/GNSS di Spitz AX supporta i segnali GPS perche' l'antenna cellulare, che riceve frequenze 600M~6GHz, copre anche la frequenza GPS. Spitz AX supporta la visualizzazione della posizione GPS tramite riga di comando, ma attualmente non supporta la visualizzazione della posizione sulla mappa.
+**Nota**: puoi usare un'antenna 7-in-1, che include anche un'antenna GPS, ma dovrai collegare solo le sei antenne di Spitz AX. L'interfaccia DIV/GNSS di Spitz AX supporta i segnali GPS perché l'antenna cellulare, che riceve frequenze 600M~6GHz, copre anche la frequenza GPS. Spitz AX supporta la visualizzazione della posizione GPS tramite riga di comando, ma attualmente non supporta la visualizzazione della posizione sulla mappa.
 
-Per evitare attenuazione del segnale, il cavo a radiofrequenza dall'antenna da tetto a Spitz AX non dovrebbe superare i 5 metri. Ad esempio, quando il cavo radiofrequenza MobileMark e' lungo 5 metri, la ricezione del segnale a 3000MHz si riduce di 3dB, cioe' a meta' della potenza. Maggiore e' la frequenza del segnale, maggiore sara' l'attenuazione.
+Per evitare attenuazione del segnale, il cavo a radiofrequenza dall'antenna da tetto a Spitz AX non dovrebbe superare i 5 metri. Ad esempio, quando il cavo radiofrequenza MobileMark è lungo 5 metri, la ricezione del segnale a 3000MHz si riduce di 3dB, cioè a metà della potenza. Maggiore è la frequenza del segnale, maggiore sarà l'attenuazione.
 
 [Scopri come installare o sostituire le antenne esterne per router cellulari.](how_to_install_or_change_antennas.md)
 
 ---
 
-## 2. Configura Internet per Spitz AX
+## 2. Configura Internet per Spitz AX {#2-set-up-the-internet-for-your-spitz-ax}
 
 Per assicurarti l'accesso a Internet durante il viaggio, configura Internet usando le SIM card.
 
@@ -71,27 +71,27 @@ Per inserire il tuo APN, segui questi passaggi:
 3. Accanto a **APN**, inserisci l'APN.
 4. Fai clic su **Apply**.
 
-Se usi due SIM card, tieni presente che solo una SIM funziona alla volta. Puoi selezionare manualmente quale SIM usare ogni volta. In alternativa, abilita la [funzione Auto Switch](https://docs.gl-inet.com/router/en/4/interface_guide/internet_cellular/#setup-for-dual-sim-models). Se il router rileva che una delle SIM non riesce ad accedere correttamente a Internet, passera' automaticamente all'altra SIM. Il passaggio richiede circa 1 minuto.
+Se usi due SIM card, tieni presente che solo una SIM funziona alla volta. Puoi selezionare manualmente quale SIM usare ogni volta. In alternativa, abilita la [funzione Auto Switch](../interface_guide/internet_cellular.md#setup-for-dual-sim-models). Se il router rileva che una delle SIM non riesce ad accedere correttamente a Internet, passerà automaticamente all'altra SIM. Il passaggio richiede circa 1 minuto.
 
 ---
 
-## 3. Usa Spitz AX in scenari diversi
+## 3. Usa Spitz AX in scenari diversi {#3-use-spitz-ax-in-different-scenarios}
 
-### In viaggio
+### In viaggio {#on-the-road}
 
 ![on the road](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/rv-connectivity_scene_rv-antennas.png){class="glboxshadow"}
 
 Quando stai guidando, dovresti poterti collegare a Internet tramite la SIM card o le SIM card configurate nel passaggio precedente.
 
-### In campeggio
+### In campeggio {#at-a-campground}
 
 ![campground](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/rv-connectivity_scene_repeater.png){class="glboxshadow"}
 
-Se durante il viaggio ti fermi in un campeggio, puoi usare la rete Wi-Fi pubblica fornita dal sito e risparmiare i tuoi dati cellulari. [Scopri come collegarti a una rete Wi-Fi esistente.](https://docs.gl-inet.com/router/en/4/interface_guide/internet_repeater/)
+Se durante il viaggio ti fermi in un campeggio, puoi usare la rete Wi-Fi pubblica fornita dal sito e risparmiare i tuoi dati cellulari. [Scopri come collegarti a una rete Wi-Fi esistente.](../interface_guide/internet_repeater.md)
 
-Dopo esserti collegato una volta alla rete Wi-Fi, Spitz AX puo' ricordarne nome e password. Si colleghera' automaticamente alla rete la prossima volta che sarai nelle vicinanze.
+Dopo esserti collegato una volta alla rete Wi-Fi, Spitz AX può ricordarne nome e password. Si collegherà automaticamente alla rete la prossima volta che sarai nelle vicinanze.
 
-### In aree senza copertura cellulare
+### In aree senza copertura cellulare {#in-areas-without-cellular-coverage}
 
 ![cellular](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/rv-connectivity_scene_starlink.png){class="glboxshadow"}
 
@@ -101,16 +101,16 @@ Quando configuri l'antenna Starlink, assicurati che non ci siano ostacoli. Gli o
 
 ---
 
-## 4. Imposta le priorita' di failover
+## 4. Imposta le priorità di failover {#4-set-failover-priorities}
 
-Spitz AX supporta multi-WAN, failover e load balancing. Puoi impostare priorita' di failover diverse per le varie reti in base al tuo scenario.
+Spitz AX supporta multi-WAN, failover e load balancing. Puoi impostare priorità di failover diverse per le varie reti in base al tuo scenario.
 
-| Scenario | Priorita' |
+| Scenario | Priorità |
 | -------- | --------- |
-| In campeggio, connesso alla rete Wi-Fi del campeggio tramite repeater | <p>Assegna al repeater una priorita' superiore rispetto alla rete cellulare.</p> <p>Non appena lascerai il campeggio, il router passera' automaticamente alla rete cellulare.</p> |
-| Starlink, ethernet + rete cellulare | Assegna alla rete cellulare una priorita' superiore rispetto a ethernet. <p>Nelle aree con copertura cellulare, il router usera' la rete cellulare.</p> <p>Quando arriverai in aree senza copertura cellulare, il router passera' automaticamente a Starlink tramite ethernet.</p> |
+| In campeggio, connesso alla rete Wi-Fi del campeggio tramite repeater | <p>Assegna al repeater una priorità superiore rispetto alla rete cellulare.</p> <p>Non appena lascerai il campeggio, il router passerà automaticamente alla rete cellulare.</p> |
+| Starlink, ethernet + rete cellulare | Assegna alla rete cellulare una priorità superiore rispetto a ethernet. <p>Nelle aree con copertura cellulare, il router userà la rete cellulare.</p> <p>Quando arriverai in aree senza copertura cellulare, il router passerà automaticamente a Starlink tramite ethernet.</p> |
 
-Per configurare il failover, leggi la sezione [Failover](https://docs.gl-inet.com/router/en/4/interface_guide/multi-wan/).
+Per configurare il failover, leggi la sezione [Failover](../interface_guide/multi-wan.md).
 
 ---
 

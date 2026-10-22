@@ -1,6 +1,6 @@
-# Magazyn sieciowy
+# Magazyn sieciowy {#network-storage}
 
-## Wprowadzenie
+## Wprowadzenie {#introduction}
 
 Magazyn sieciowy umożliwia bezprzewodowe udostępnianie plików między urządzeniami poprzez podłączenie dysku USB lub karty SD do routera. Router przekształca urządzenie pamięci masowej w udostępniony dysk sieciowy, dostępny dla wszystkich urządzeń połączonych przez Wi-Fi.
 
@@ -14,7 +14,7 @@ Niektóre modele GL.iNet mają gniazda kart MicroSD(TF), inne zaś porty USB obs
 
     3. Panel administratora umożliwia tylko zarządzanie folderami udostępnionymi. Do zarządzania plikami na urządzeniu pamięci masowej użyj [aplikacji mobilnej](https://www.gl-inet.com/app/#download-app-glinet){target="_blank"}.
 
-## Obsługiwane modele
+## Obsługiwane modele {#supported-models}
 
 Zazwyczaj modele z portami USB lub gniazdami MicroSD(TF) obsługują magazyn sieciowy (tj. udostępnianie plików).
 
@@ -160,7 +160,7 @@ Podłącz urządzenie pamięci masowej. Po jego wykryciu strona wyświetli się 
 
 ---
 
-## Klient Samba
+## Klient Samba {#samba-client}
 
 === "Windows"
 
@@ -244,7 +244,7 @@ Podłącz urządzenie pamięci masowej. Po jego wykryciu strona wyświetli się 
         
         ![ios files set up SMB](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios_files_smb_1.png){class="glboxshadow" width="560"}
 
-        Stuknij opcję **Connect to Server** przy górze menu. Na następnym ekranie wprowadź adres URL połączenia z serwerem. Adres URL znajdziesz w sekcji [Shared Link](#shared-link). Stuknij przycisk **Next** w prawym górnym rogu, aby kontynuować.
+        Stuknij opcję **Connect to Server** przy górze menu. Na następnym ekranie wprowadź adres URL połączenia z serwerem. Adres URL znajdziesz w sekcji [Shared Link](#set-up-samba). Stuknij przycisk **Next** w prawym górnym rogu, aby kontynuować.
 
         ![ios files set up SMB](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios_files_smb_2.png){class="glboxshadow" width="560"}
 
@@ -280,7 +280,7 @@ Podłącz urządzenie pamięci masowej. Po jego wykryciu strona wyświetli się 
 
         ![documents samba](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/documents_4_samba.png){class="glboxshadow" width="560"}
 
-## Klient WebDAV
+## Klient WebDAV {#webdav-client}
 
 === "Windows"
 
@@ -366,7 +366,7 @@ Podłącz urządzenie pamięci masowej. Po jego wykryciu strona wyświetli się 
 
     ![documents WebDAV](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav_client/documents_4_webdav.png){class="glboxshadow" width="560"}
 
-## Korzystanie z aplikacji mobilnej
+## Korzystanie z aplikacji mobilnej {#using-mobile-app}
 
 Panel administratora umożliwia tylko zarządzanie folderami udostępnionymi. Do zarządzania plikami na urządzeniu pamięci masowej użyj [aplikacji mobilnej](https://www.gl-inet.com/app/#download-app-glinet){target="_blank"}.
 

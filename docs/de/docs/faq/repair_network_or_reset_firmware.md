@@ -1,4 +1,4 @@
-# Wie repariere ich das Netzwerk oder setze den Router auf Werkseinstellungen zurück?
+# Wie repariere ich das Netzwerk oder setze den Router auf Werkseinstellungen zurück? {#how-to-repair-network-or-factory-reset}
 
 Alle GL.iNet-Router sind mit einem physischen Zurücksetzmechanismus ausgestattet (entweder einer Reset-Taste oder einer kleinen Öffnung für einen Pin). Das Drücken der Taste oder das Betätigen der Öffnung mit einem Pin hat dieselbe Wirkung: die Netzwerkkonnektivität wiederherzustellen oder den Router auf die Werkseinstellungen zurückzusetzen.
 
@@ -6,7 +6,7 @@ Verwenden Sie bei Modellen mit einer kleinen Öffnung einen Stift, eine aufgebog
 
 Stellen Sie sicher, dass der Router vollständig hochgefahren ist, bevor Sie ein Zurücksetzen durchführen. Drücken Sie die Reset-Taste **NICHT** direkt nach dem Einschalten, da dies den U-Boot-Failsafe-Modus auslösen kann.
 
-## Netzwerk reparieren
+## Netzwerk reparieren {#repair-network}
 
 Halten Sie die Reset-Taste **4 Sekunden** lang gedrückt und lassen Sie sie dann los, um einen Soft-Reset durchzuführen, der Ihr Netzwerk reparieren kann.
 
@@ -18,7 +18,7 @@ Dabei wird die Netzwerkschnittstelle neu gestartet und die Internetschnittstelle
 
 2. Ein Soft-Reset kann auch verwendet werden, um schnell vom Nicht-Router-Modus in den Router-Modus zu wechseln.
 
-## Auf Werkseinstellungen zurücksetzen
+## Auf Werkseinstellungen zurücksetzen {#reset-to-factory}
 
 **Bei Modellen ohne Touchscreen** kann die Firmware auf zwei Arten zurückgesetzt werden: über die Reset-Taste oder das Web-Admin-Panel. Sehen Sie sich dieses Video an oder folgen Sie den unten stehenden Schritten.
 

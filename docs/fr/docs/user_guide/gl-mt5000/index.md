@@ -1,12 +1,12 @@
-# Guide d'utilisation de Brume 3 (GL-MT5000)
+# Guide d'utilisation de Brume 3 (GL-MT5000) {#brume-3-gl-mt5000-user-guide}
 
-## Aperçu du produit
+## Aperçu du produit {#product-overview}
 
 Brume 3 (GL-MT5000) est une passerelle de sécurité hautes performances fonctionnant sous OpenWrt v21.02, équipée d'un processeur MediaTek Cortex-A53 quadricœur, de 1 Go de RAM et de 8 Go de stockage eMMC pour l'extension par plug-ins. Son design compact est idéal pour les déploiements dans des espaces restreints. Il prend en charge l'hébergement VPN à domicile, le SD-WAN site-to-site, ainsi que plus de 30 services VPN pour une connectivité sécurisée entre différents sites. En outre, il intègre la fonction DPI de GL.iNet, ainsi que le contrôle parental et AdGuard Home, afin de répondre aux besoins variés des passionnés de technologie et des utilisateurs professionnels.
 
 ![gl-mt5000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt5000/hardware_info/mt5000_interface.png){class="glboxshadow"}
 
-## Contenu du colis
+## Contenu du colis {#package-contents}
 
 - 1 x Brume 3 (GL-MT5000)
 - 1 x Adaptateur secteur
@@ -21,27 +21,27 @@ Regardez ci-dessous la vidéo de déballage du Brume 3.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PupxjK_u8O8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Comment configurer Brume 3
+## Comment configurer Brume 3 {#how-to-set-up-brume-3}
 
 Regardez cette vidéo de configuration ou suivez les étapes ci-dessous.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RwbdUy79WHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Mise sous tension
+### 1. Mise sous tension {#1-power-on}
 
 Assemblez les deux parties de l'adaptateur secteur. Branchez-le à votre Brume 3 puis sur une prise électrique. Il démarre automatiquement.
 
-### 2. Connecter un appareil
+### 2. Connecter un appareil {#2-connect-device}
 
 Connectez un appareil filaire (par exemple un ordinateur de bureau ou un ordinateur portable) au port LAN du Brume 3 à l'aide d'un câble Ethernet.
 
-### 3. Se connecter au panneau d'administration web
+### 3. Se connecter au panneau d'administration web {#3-log-in-to-web-admin-panel}
 
 **Remarque :** Les instructions suivantes s'appliquent aux utilisateurs qui configurent le routeur via le panneau d'administration web GL.iNet.
 
 Ouvrez un navigateur web, saisissez `192.168.8.1` dans la barre d'adresse et connectez-vous. Choisissez votre langue et définissez votre mot de passe administrateur, puis cliquez sur **Apply**.
 
-### 4. Configuration de la connexion Internet
+### 4. Configuration de la connexion Internet {#4-internet-setup}
 
 Configurez votre Brume 3 en utilisant l'une des méthodes de connexion Internet prises en charge : Ethernet, Tethering et Cellular (optionnel). Si vous souhaitez utiliser la fonction [Multi-WAN](../../interface_guide/multi-wan.md), veuillez configurer plus d'une connexion Internet.
 
@@ -81,13 +81,13 @@ Configurez votre Brume 3 en utilisant l'une des méthodes de connexion Internet 
 
 Vous trouverez ci-dessous un aperçu des fonctionnalités disponibles dans le panneau d'administration web du Brume 3.
 
-## Clients
+## Clients {#clients}
 
 La page Clients affiche des informations sur les appareils connectés. Pour chaque client, elle indique le nom, les adresses IP et MAC, les vitesses de téléchargement et d'envoi, le trafic total, et permet également de bloquer le client ou d'effectuer d'autres actions.
 
 Pour configurer les clients, consultez [Clients](../../interface_guide/clients.md).
 
-## Services Cloud
+## Services Cloud {#cloud-services}
 
 === "GoodCloud"
 
@@ -101,7 +101,7 @@ Pour configurer les clients, consultez [Clients](../../interface_guide/clients.m
 
     Pour configurer AstroWarp, consultez [AstroWarp](../../interface_guide/astrowarp.md).
 
-## VPN
+## VPN {#vpn}
 
 Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre votre appareil et le serveur VPN. Il ajoute une couche supplémentaire de confidentialité et de sécurité (client VPN) et vous permet d'accéder à un réseau distant (serveur VPN). Le Brume 3 prend en charge OpenVPN et WireGuard.
 
@@ -119,11 +119,11 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
     * [Comment configurer un client WireGuard](../../interface_guide/wireguard_client.md)
     * [Comment configurer un serveur WireGuard](../../interface_guide/wireguard_server.md)
 
-## Réseau
+## Réseau {#network}
 
 === "Multi-WAN"
 
-    Multi-WAN est une fonctionnalité réseau qui permet de configurer le routeur avec plusieurs connexions Internet simultanées (par ex. cellular, repeater et ethernet). Si votre connexion Internet actuelle tombe en panne, le routeur bascule automatiquement vers une autre connexion. Cela garantit un accès Internet fluide et ininterrompu.
+    Multi-WAN est une fonctionnalité réseau qui permet de configurer le routeur avec plusieurs connexions Internet simultanées (par ex. Ethernet, Tethering et Cellular). Si votre connexion Internet actuelle tombe en panne, le routeur bascule automatiquement vers une autre connexion. Cela garantit un accès Internet fluide et ininterrompu.
 
     Pour configurer le Multi-WAN, consultez [Multi-WAN](../../interface_guide/multi-wan.md).
 
@@ -182,7 +182,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     Pour configurer l'accélération réseau, consultez [Accélération réseau](../../interface_guide/network_acceleration.md).
 
-## Contrôle du flux
+## Contrôle du flux {#flow-control}
 
 === "DPI Engine"
 
@@ -224,7 +224,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     Veuillez consulter [SQM](../../interface_guide/sqm.md) pour des instructions détaillées.
 
-## Sécurité
+## Sécurité {#security}
 
 === "Redirection de ports"
 
@@ -250,7 +250,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     Pour configurer les paramètres NAT, consultez [Mode NAT](../../interface_guide/nat_settings.md).
 
-## Applications
+## Applications {#applications}
 
 === "Plug-ins"
 
@@ -296,7 +296,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     * [Comment configurer Tor](../../interface_guide/tor.md)
 
-## Système
+## Système {#system}
 
 === "Aperçu"
 

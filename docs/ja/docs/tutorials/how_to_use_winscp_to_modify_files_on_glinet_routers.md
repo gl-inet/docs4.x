@@ -1,4 +1,4 @@
-# WinSCPを使ってGL.iNetルーター上のファイルを編集する方法
+# WinSCPを使ってGL.iNetルーター上のファイルを編集する方法 {#how-to-use-winscp-to-modify-files-on-glinet-routers}
 
 WinSCP は、ルーター上のファイルやディレクトリを簡単に編集、コピー、ダウンロードできる便利なツールです。FTP、SCP、SFTP、WebDAV、S3 などのファイル転送プロトコルを使って、ローカルコンピューターとルーターの間でファイルをやり取りできます。このガイドは Windows 向けです。
 

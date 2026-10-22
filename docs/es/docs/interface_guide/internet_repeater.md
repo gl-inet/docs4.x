@@ -1,4 +1,4 @@
-# Conectarse a Internet mediante una red Wi-Fi existente con Repeater
+# Conectarse a Internet mediante una red Wi-Fi existente con Repeater {#connect-to-the-internet-via-an-existing-wi-fi-by-repeater}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7mZtz8u8--E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -6,7 +6,7 @@ Usar Repeater significa conectar el router a otra red inalámbrica existente, po
 
 Funciona en modo WISP (Wireless Internet Service Provider) de forma predeterminada, lo que significa que el router creará su propia subred y actuará como firewall para protegerle de la red pública.
 
-## Pasos básicos
+## Pasos básicos {#basic-steps}
 
 Inicie sesión en el panel web de administración del router, vaya a la sección **INTERNET** -> **Repeater** y haga clic en **Connect**.
 
@@ -95,7 +95,7 @@ Al unirse a la red, hay algunas opciones adicionales.
 
 - **MTU**: El valor predeterminado es 1500.
 
-## Opciones de Repeater
+## Opciones de Repeater {#repeater-options}
 
 Haga clic en el icono de engranaje de la esquina superior derecha para configurar las opciones de Repeater.
 
@@ -109,7 +109,7 @@ La página puede variar según la versión del firmware.
 
 - **Band Selection**: Si selecciona manualmente una banda, el router solo escaneará y se conectará a redes Wi-Fi de esa banda de frecuencia.
 
-## Gestionar redes conocidas
+## Gestionar redes conocidas {#manage-known-network}
 
 Para gestionar las redes conocidas, haga clic en **Switch Network**.
 
@@ -143,7 +143,7 @@ En la configuración de **Security**, hay dos o tres opciones, según el modelo.
 
   Para obtener una guía detallada sobre cómo repetir redes EAP, haga clic [aquí](../tutorials/eap.md){target="_blank"}.
 
-## Reconexión
+## Reconexión {#reconnection}
 
 En los siguientes casos, el router intentará reconectarse automáticamente a la red Wi-Fi de vez en cuando. Puede desactivar esta función manualmente si es necesario. Para errores de SSID o contraseña, elimine la red de **Known Networks** para resolver el problema.
 
@@ -163,7 +163,7 @@ El proceso de reconexión tiene tres fases diferenciadas: fase de espera, fase d
 
 **Nota**: Los problemas suelen surgir en las fases de escaneo y conexión.
 
-## Solución de problemas
+## Solución de problemas {#troubleshooting}
 
 Cuando el router está conectado a una red Wi-Fi como repetidor y no hay acceso a Internet, se mostrará un mensaje amarillo como el siguiente.
 
@@ -177,7 +177,7 @@ Para solucionar este problema:
 
 2. Vaya a la página [Multi-WAN](multi-wan.md) para comprobar el estado de la interfaz del repetidor.
 
-## DFS
+## DFS {#dfs}
 
 Al conectarse a una red Wi-Fi ascendente de 5 GHz, la Wi-Fi del router seguirá a la red ascendente para usar o no el canal DFS.
 

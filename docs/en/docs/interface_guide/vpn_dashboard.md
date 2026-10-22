@@ -1,4 +1,4 @@
-# VPN Dashboard
+# VPN Dashboard {#vpn-dashboard}
 
 The content on this page is based on firmware version v4.9.x and above. If your device is running a different firmware version, use the selector below to switch to the corresponding guide.
 
@@ -21,7 +21,7 @@ Compared to firmware v4.8, v4.9 includes the following improvements to the VPN D
 
 2. **Each tunnel group operates independently and does not perform failover between groups**. If all profiles in a single tunnel fail to connect, the system will determine whether to switch to the local WAN based on the status of the Tunnel Kill Switch and the All Other Traffic tunnel.
 
-## Upload VPN Profile
+## Upload VPN Profile {#upload-vpn-profile}
 
 When entering this page for the first time, if no tunnels have been created, the page appears as follows. Click **Add VPN Tunnel** to get started.
 
@@ -49,9 +49,9 @@ You will obtain a list of VPN profiles. For some VPN service providers, you may 
 
 Click **Go to Dashboard** at the bottom. You will be directed to the VPN Dashboard to add your VPN tunnel and configure VPN policies.
 
-## Add VPN Tunnel
+## Add VPN Tunnel {#add-vpn-tunnel}
 
-### General Steps
+### General Steps {#general-steps}
 
 Follow the steps below to add your VPN tunnel and configure VPN policies. See [Case Reference](#case-reference) if necessary.
 
@@ -65,7 +65,7 @@ Follow the steps below to add your VPN tunnel and configure VPN policies. See [C
 
     ![select profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/select_profile.png){class="glboxshadow"}
 
-    **Note**: When multiple profiles are selected, the tunnel will attempt to connect using each profile in priority order until a connection is successfully established. If all profiles within a single tunnel fail to connect, the system will determine whether to switch to the router's local network (WAN) based on the status of the Kill Switch in the [Tunnel Options](#tunnel-options) and [All Other Traffic](#all-other-traffic) settings.
+    **Note**: When multiple profiles are selected, the tunnel will attempt to connect using each profile in priority order until a connection is successfully established. If all profiles within a single tunnel fail to connect, the system will determine whether to switch to the router's local WAN based on the status of the Kill Switch in the [Tunnel Options](#tunnel-options) and [All Other Traffic](#all-other-traffic) settings.
 
 3. Select client source, then click **Next**.
 
@@ -96,11 +96,11 @@ Follow the steps below to add your VPN tunnel and configure VPN policies. See [C
     - **Exclude specified Domain / IP List**: If selected, traffic matching this rule will not be routed to specified domains or IP addresses. You need to enter them manually.
     ![exclude specified domain ip](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/exclude_specified_domain_ip.png){class="glboxshadow"}
 
-5. A VPN tunnel is added successfully. You will be directed to the **VPN Dashboard**. Add more VPN tunnels if needed.
+5. The VPN tunnel has been added successfully. You will be directed to the **VPN Dashboard**. Add more VPN tunnels if needed.
 
     For security, please go to [All Other Traffic](#all-other-traffic) and [Tunnel Options](#tunnel-options) to check **Kill Switch** status before enabling your VPN tunnel.
 
-### Case Reference
+### Case Reference {#case-reference}
 
 Here are two typical VPN policy configuration cases with step-by-step setup instructions for your reference.
 
@@ -144,7 +144,7 @@ Here are two typical VPN policy configuration cases with step-by-step setup inst
 
         ![case 1 kill switch2](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/1_killswitch2.png){class="glboxshadow"}
         
-    6. Make sure the **Allow Non-VPN Traffic** is enabled. This is enabled by default to ensure that traffic not matching the VPN tunnel can still access the Internet through the local WAN.
+    6. Make sure **Allow Non-VPN Traffic** is enabled. This is enabled by default to ensure that traffic not matching the VPN tunnel can still access the Internet through the local WAN.
 
         ![case 1 allow non-vpn traffic](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/1_allow_nonvpn.png){class="glboxshadow"}
 
@@ -230,7 +230,7 @@ Here are two typical VPN policy configuration cases with step-by-step setup inst
 
         ![tunnel 2 kill switch](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/2_killswitch4.png){class="glboxshadow"}
 
-    12. Click the gear icon at the upper right and enable **Enhanced Kill Switch**. This ensures that all traffic must access Internet via the VPN.
+    12. Click the gear icon at the upper right and enable **Enhanced Kill Switch**. This ensures that all traffic must access the Internet via the VPN.
 
         ![enhanced killswitch1](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/2_enhanced_killswitch1.png){class="glboxshadow"}
 
@@ -246,7 +246,7 @@ Here are two typical VPN policy configuration cases with step-by-step setup inst
 
         Now, all devices will use **VPN Tunnel 1** when accessing specified domains, and use **VPN Tunnel 2** for all other Internet access. If the VPN tunnels disconnect unexpectedly, Internet access for all devices will be blocked to prevent DNS leaks and IP tracking.
 
-## Kill Switch
+## Kill Switch {#kill-switch}
 
 !!! Tip "What is Kill Switch?"
 
@@ -256,15 +256,15 @@ Here are two typical VPN policy configuration cases with step-by-step setup inst
 
     **Enhanced Kill Switch** blocks Internet traffic that does not match any VPN tunnel. It does not override each tunnel's **Kill Switch** setting.
 
-Since firmware v4.8, GL.iNet routers supports Kill Switch configuration for the global VPN connection, as well as for each individual VPN tunnel.
+Since firmware v4.8, GL.iNet routers support Kill Switch configuration for the global VPN connection, as well as for each individual VPN tunnel.
 
 - To set up Kill Switch for the global VPN connection (i.e., Enhanced Kill Switch), refer to [All Other Traffic](#all-other-traffic).
 
 - To set up Kill Switch for each individual VPN tunnel, refer to [Tunnel Options](#tunnel-options).
 
-## All Other Traffic
+## All Other Traffic {#all-other-traffic}
 
-Click the gear icon at the upper right to set up policy for those traffic not matching VPN tunnel.
+Click the gear icon at the upper right to set up a policy for traffic that does not match any VPN tunnel.
 
 ![all other traffic](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/all_other_traffic.png){class="glboxshadow"}
 
@@ -278,7 +278,7 @@ This policy controls whether traffic that does not match any of your VPN tunnel 
 
     ![enhanced killswitch](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/enhanced_killswitch.png){class="glboxshadow"}
 
-## Tunnel Options
+## Tunnel Options {#tunnel-options}
 
 You can configure advanced settings for each VPN tunnel, such as the VPN Kill Switch, IP Masquerading, and MTU.
 
@@ -296,9 +296,13 @@ Click the gear icon in a tunnel group, and select **Options**.
 
 - **IP Masquerading**: If enabled, the source IP addresses of LAN clients will be rewritten to the router's VPN tunnel IP. Disable this only for Site-to-Site setups where the remote peer knows your LAN subnets.
 
+    As shown below, if IP masquerading is enabled, when the Laptop (192.168.10.200) on the travel LAN sends traffic across the tunnel to the home NAS (192.168.8.100), the travel router rewrites the source IP from `192.168.10.200` to the VPN client's tunnel address `10.1.0.2`, so the server side sees that traffic originated from the client instead of the client's local LAN.
+
+    ![ip masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/ip_masquerading.png){class="glboxshadow"}
+
 - **MTU**: The MTU value you set for the tunnel will override the MTU settings in the configuration file.
 
-## Tunnel Priority
+## Tunnel Priority {#tunnel-priority}
 
 To adjust tunnel priority, click the gear icon in a tunnel group and select **Priority**.
 

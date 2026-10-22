@@ -1,6 +1,6 @@
-# Wie finde ich alle MAC-Adressen meines Geräts?
+# Wie finde ich alle MAC-Adressen meines Geräts? {#how-can-i-find-all-mac-addresses-of-my-device}
 
-## Einsatzszenario
+## Einsatzszenario {#usage-scenario}
 
 Die MAC-Adressen eines GL.iNet Geräts sind für jede Netzwerkschnittstelle eindeutig, z. B. WAN 1, WAN 2, LAN-Ports, 2,4G Wi-Fi und 5G Wi-Fi.
 
@@ -8,7 +8,7 @@ Wenn Sie sich mit bestimmten Hotels, Campingplätzen oder Campus-Netzwerken verb
 
 Sie können die genaue(n) MAC-Adresse(n) Ihres Geräts mit den folgenden Methoden nachschlagen.
 
-## Methode 1: über das Produktetikett (nur für WAN-MAC)
+## Methode 1: über das Produktetikett (nur für WAN-MAC) {#method-1-via-product-label-for-wan-mac-only}
 
 Suchen Sie die **WAN-MAC-Adresse** auf dem Etikett an der Unterseite.
 
@@ -16,13 +16,13 @@ Im folgenden Bild ist die WAN-MAC beispielsweise **E4:95:6E:40:DB:A9**.
 
 ![wan_lan_wifi](https://static.gl-inet.com/docs/router/de/4/faq/how_can_i_know_the_lan_wifi_mac/wan_lan_wifi.png){class="glboxshadow"}
 
-## Methode 2: per SSH
+## Methode 2: per SSH {#method-2-via-ssh}
 
-Wie Sie SSH verwenden, erfahren Sie [hier](https://docs.gl-inet.com/router/en/4/tutorials/ssh_log_in_to_the_router/).
+Wie Sie SSH verwenden, erfahren Sie [hier](../tutorials/ssh_log_in_to_the_router.md).
 
 Geben Sie in SSH **ifconfig** ein. Anschließend erhalten Sie eine Datenausgabe, in der nacheinander Schnittstellen wie br-lan, ethx, wlanx usw. angezeigt werden.
 
-### Die MAC-Adresse der Ethernet-Ports finden
+### Die MAC-Adresse der Ethernet-Ports finden {#find-the-mac-of-ethernet-ports}
 
 Nehmen Sie das folgende Bild als Beispiel.
 
@@ -36,7 +36,7 @@ Nehmen Sie das folgende Bild als Beispiel.
 
     Es gibt nur eine MAC-Adresse, auch wenn mehr als ein LAN-Port vorhanden ist.
 
-### Die MAC-Adresse der WLAN-Schnittstellen finden
+### Die MAC-Adresse der WLAN-Schnittstellen finden {#find-the-mac-of-wireless-ports}
 
 Nehmen Sie das folgende Bild als Beispiel.
 

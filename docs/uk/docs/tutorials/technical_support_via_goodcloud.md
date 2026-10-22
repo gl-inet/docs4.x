@@ -10,7 +10,7 @@
 
 Виберіть інструкцію для своєї версії прошивки, щоб увімкнути GoodCloud і віддалений доступ.
 
-??? "Для прошивки версії 4.10"
+??? "Для прошивки версії 4.10 або новішої"
 
     Перейдіть до **CLOUD SERVICES** -> **GoodCloud** і натисніть **Get Started**.
 
@@ -50,7 +50,7 @@
 
 1. Відкрийте [GoodCloud](https://www.goodcloud.xyz){target="_blank"} і ввійдіть до свого облікового запису. Якщо у вас немає облікового запису, спочатку зареєструйте його.
 
-2. Прив’яжіть пристрій до GoodCloud за [цією інструкцією](../interface_guide/cloud.md#add-device-in-your-account).
+2. Прив’яжіть пристрій до GoodCloud. Див. [Прив’язування пристроїв до хмари](../interface_guide/cloud.md#bind-devices-to-cloud).
 
 ## Надання доступу до пристрою службі технічної підтримки GL.iNet {#share-device-with-glinet-technical-support}
 

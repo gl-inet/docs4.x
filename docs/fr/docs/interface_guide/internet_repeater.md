@@ -1,4 +1,4 @@
-# Se connecter à Internet via un Wi‑Fi existant en mode Repeater
+# Se connecter à Internet via un Wi‑Fi existant en mode Repeater {#connect-to-the-internet-via-an-existing-wi-fi-by-repeater}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7mZtz8u8--E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -6,7 +6,7 @@ Le mode Repeater permet de connecter le routeur à un autre réseau sans fil exi
 
 Par défaut, il fonctionne en mode WISP (Wireless Internet Service Provider), ce qui signifie que le routeur crée son propre sous-réseau et agit comme pare-feu pour vous protéger du réseau public.
 
-## Étapes de base
+## Étapes de base {#basic-steps}
 
 Connectez-vous au panneau d'administration web du routeur, accédez à la section **INTERNET** -> **Repeater**, puis cliquez sur **Connect**.
 
@@ -96,7 +96,7 @@ Lors de la connexion au réseau, quelques options supplémentaires sont disponib
 
 * **MTU** : la valeur par défaut est 1500.
 
-## Options Repeater
+## Options Repeater {#repeater-options}
 
 Cliquez sur l’icône d’engrenage en haut à droite pour configurer les options de Repeater.
 
@@ -110,7 +110,7 @@ La page peut varier selon la version du firmware.
 
 * **Band Selection** : si vous sélectionnez manuellement une bande, le routeur analyse uniquement les réseaux Wi‑Fi de cette bande de fréquences et s’y connecte uniquement.
 
-## Gérer les réseaux connus
+## Gérer les réseaux connus {#manage-known-network}
 
 Pour gérer les réseaux connus, cliquez sur **Switch Network**.
 
@@ -144,7 +144,7 @@ Pour les paramètres **Security**, deux ou trois options sont disponibles, selon
 
     Pour des instructions détaillées sur la répétition des réseaux EAP, cliquez [ici](../tutorials/eap.md){target="_blank"}.
 
-## Reconnexion
+## Reconnexion {#reconnection}
 
 Dans les cas suivants, le routeur essaiera automatiquement de se reconnecter au Wi‑Fi à intervalles réguliers. Vous pouvez désactiver cette fonction manuellement si nécessaire. En cas d'erreur de SSID ou de mot de passe, supprimez le réseau des Known Networks pour résoudre le problème.
 
@@ -164,7 +164,7 @@ Le processus de reconnexion comporte trois phases distinctes : phase d'attente, 
 
 **Remarque** : les problèmes surviennent généralement pendant les phases d'analyse et de connexion.
 
-## Dépannage
+## Dépannage {#troubleshooting}
 
 Lorsque le routeur est connecté à un réseau Wi‑Fi en mode Repeater, si Internet n'est pas disponible, un message jaune s'affiche comme ci-dessous.
 
@@ -178,7 +178,7 @@ Pour résoudre ce problème :
 
 2. Accédez à la page [Multi-WAN](multi-wan.md) pour vérifier l'état de l'interface Repeater.
 
-## DFS
+## DFS {#dfs}
 
 **DFS** (Dynamic Frequency Selection) est un mécanisme qui change automatiquement de canal Wi‑Fi afin d'éviter les interférences avec les signaux radar. Lors de la connexion à un Wi‑Fi 5G en amont, le Wi‑Fi du routeur suivra le Wi‑Fi en amont pour utiliser ou non le canal DFS.
 

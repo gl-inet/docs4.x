@@ -24,7 +24,7 @@ GoodCloud Site to Site встановлює захищені інтернет-з
 
 ## Створення мережі Site to Site {#build-a-site-to-site-network}
 
-1. Прив’яжіть маршрутизатори до облікового запису GoodCloud. [Інструкція](../interface_guide/cloud.md/#setup-your-goodcloud-account).
+1. Прив’яжіть маршрутизатори до облікового запису GoodCloud. Див. [Прив’язування пристроїв до хмари](../interface_guide/cloud.md#bind-devices-to-cloud).
 
 2. Увійдіть у [GoodCloud](https://www.goodcloud.xyz/#/login){target="_blank"}, відкрийте **Site to Site** у лівому меню та натисніть **Create Network** у верхньому правому куті.
 

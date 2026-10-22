@@ -3,7 +3,7 @@ hide:
   - navigation
 ---
 
-# Funktionsupdates
+# Funktionsupdates {#features-update}
 
 Informationen zu den wichtigsten neuen Funktionen, Funktionsverbesserungen und strukturellen Anpassungen der aktuellen Firmware-Version.
 

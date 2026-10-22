@@ -1,4 +1,4 @@
-# Sicherheit
+# Sicherheit {#security}
 
 > Diese Seite wurde mit Firmware v4.5 eingeführt.
 
@@ -6,7 +6,7 @@ Gehen Sie auf der linken Seite des Web-Admin-Panels zu **SYSTEM** -> **Security*
 
 Auf dieser Seite können Sie verschiedene Sicherheitseinstellungen konfigurieren, um Ihr Netzwerk und Ihren Router vor unbefugtem Zugriff zu schützen.
 
-## Admin-Passwort
+## Admin-Passwort {#admin-password}
 
 Hier können Sie das Anmeldepasswort des Web-Admin-Panels ändern.
 
@@ -18,7 +18,7 @@ Das Admin-Passwort muss die folgenden Anforderungen erfüllen:
 - Buchstaben (Groß-/Kleinschreibung wird unterschieden), Zahlen und Symbole `` ! @ # $ % ^ & * ( ) _ + - = , . > < | ? / \ [ ] { } : ; " ' ` ~ `` sind erlaubt.
 - Mindestens zwei der folgenden Kategorien sind erforderlich: Großbuchstaben, Kleinbuchstaben, Zahlen und Symbole.
 
-## Zugriffskontrolle
+## Zugriffskontrolle {#access-control}
 
 Die Zugriffskontrolle, in Firmware v4.7 und früher auch als Local Access Control bezeichnet, verwaltet den Zugriff auf die verschiedenen Verwaltungsschnittstellen des Routers.
 
@@ -28,7 +28,7 @@ Sie kann Scan- und Eindringversuche auf dem Standardport verhindern und Netzwerk
 
 ![security_access_control](https://static.gl-inet.com/docs/router/de/4/interface_guide/security/access_control_4.8.png){class="glboxshadow"}
 
-### Admin Panel
+### Admin Panel {#admin-panel}
 
 - **HTTP Port**: Standardmäßig 80; wird für unverschlüsselten HTTP-Zugriff auf das Web-Admin-Panel verwendet.
 
@@ -38,7 +38,7 @@ Sie kann Scan- und Eindringversuche auf dem Standardport verhindern und Netzwerk
 
 - **Auto-Logout Time**: Standardmäßig auf 5 Minuten eingestellt. Nach dieser Zeit werden inaktive Admin-Sitzungen aus Sicherheitsgründen automatisch abgemeldet. Sie können die automatische Abmeldezeit anpassen; der Bereich reicht von 1 Minute bis 3 Stunden.
 
-### LuCI
+### LuCI {#luci}
 
 > Hinweis: Bitte installieren Sie LuCI unter **Erweiterte Einstellungen**, bevor Sie die Zugriffskontrolle dafür konfigurieren.
 
@@ -48,7 +48,7 @@ Sie kann Scan- und Eindringversuche auf dem Standardport verhindern und Netzwerk
 
 - **Force HTTPS**: Wenn aktiviert, wird der Zugriff auf die LuCI-Oberfläche zur Verwendung einer sicheren HTTPS-Verbindung erzwungen.
 
-### SSH
+### SSH {#ssh}
 
 - **Enable SSH**: Legt fest, ob SSH-Zugriff auf den Router erlaubt ist. Standardmäßig ist diese Option aktiviert.
 
@@ -145,7 +145,7 @@ Wenn Sie eine Portnummer zuweisen, die mit einem reservierten Port kollidiert (o
     | 6697  | IRC + TLS                               |
     | 10080 | Amanda                                  |
 
-## Fernzugriffskontrolle
+## Fernzugriffskontrolle {#remote-access-control}
 
 Nach dem Aktivieren des Fernzugriffs können bestimmte Orte für den Zugriff festgelegt werden, z. B. indem Fernzugriff auf Geräte zu Hause nur vom Büro aus erlaubt wird. Das ist weniger bequem, erhöht aber die Sicherheit.
 
@@ -165,7 +165,7 @@ Nach dem Aktivieren des Fernzugriffs können bestimmte Orte für den Zugriff fes
 
 ---
 
-## Offene Ports auf dem Router
+## Offene Ports auf dem Router {#open-ports-on-router}
 
 Damit Dienste des Routers wie Web und FTP öffentlich erreichbar sind, müssen die jeweiligen Ports auf dem Router geöffnet werden.
 

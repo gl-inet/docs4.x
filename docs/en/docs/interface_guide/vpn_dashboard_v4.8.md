@@ -1,4 +1,4 @@
-# VPN Dashboard (Firmware v4.8)
+# VPN Dashboard (Firmware v4.8) {#vpn-dashboard-firmware-v48}
 
 The content on this page is based on firmware version v4.8.x. If your device is running a different firmware version, use the selector below to switch to the corresponding guide.
 
@@ -15,7 +15,7 @@ The VPN dashboard displays VPN connection details, such as tunnel rules, server 
 
 You can also activate multiple VPN connections for multi-tunnel scenarios.
 
-## Setup Wizard
+## Setup Wizard {#setup-wizard}
 
 Click the book icon in the upper left and follow the VPN Setup Wizard to complete the VPN configuration quickly.
 
@@ -43,7 +43,7 @@ All connected clients will access the Internet via this VPN tunnel.
 
 If you want to configure VPN policy, please refer to [Policy Mode](#policy-mode).
 
-## VPN Mode
+## VPN Mode {#vpn-mode}
 
 On the VPN Dashboard, click the button in the upper right corner to switch VPN modes.
 
@@ -53,7 +53,7 @@ Two modes are available: **Global Mode** and **Policy Mode**.
 
 ![vpn mode](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/global_mode.png){class="glboxshadow"}
 
-### Global Mode
+### Global Mode {#global-mode}
 
 In this mode, all traffic is routed through the VPN tunnel, and only one VPN client instance can be activated.
 
@@ -63,7 +63,7 @@ In the following example, the router connects to an Australian server using the 
 
 ![connected global mode](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/connected-global-mode.png){class="glboxshadow"}
 
-#### Tunnel Options
+#### Tunnel Options {#tunnel-options}
 
 You can configure advanced settings for your VPN tunnel, such as the VPN Kill Switch, IP Masquerading, and MTU.
 
@@ -81,9 +81,13 @@ Click the gear icon in the upper right corner.
 
 - **IP Masquerading**: If enabled, the source IP addresses of LAN clients will be rewritten to the router's VPN tunnel IP. Disable this only for Site-to-Site setups where the remote peer knows your LAN subnets.
 
+    As shown below, if IP masquerading is enabled, when the Laptop (192.168.10.200) on the travel LAN sends traffic across the tunnel to the home NAS (192.168.8.100), the travel router rewrites the source IP from `192.168.10.200` to the VPN client's tunnel address `10.1.0.2`, so the server side sees that traffic originated from the client instead of the client's local LAN.
+
+    ![ip masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/ip_masquerading.png){class="glboxshadow"}
+
 - **MTU**: Short for Maximum Transmission Unit. The MTU value you set for the tunnel will override the value defined in the configuration file.
 
-### Policy Mode
+### Policy Mode {#policy-mode}
 
 In this mode, the router can connect to multiple VPN servers, and you can customize routing rules for different clients or traffic destinations.
 
@@ -103,7 +107,7 @@ Click the corresponding section to learn more.
 - [Add Tunnel](#add-tunnel)
 - [All Other Traffic](#all-other-traffic)
 
-#### Primary Tunnel
+#### Primary Tunnel {#primary-tunnel}
 
 The primary tunnel is a <u>preset</u> tunnel in Policy Mode. It has the top priority, and you can modify [tunnel priority](#tunnel-priority) if there is more than one tunnel.
 
@@ -195,7 +199,7 @@ In this tunnel, you can customize the tunnel rule by setting three factors:
 
     - **Use VPN**: If selected, traffic matching this rule will be routed to the selected destinations through VPN.
         
-        To begin with, you need to configure your router as a VPN client. Use the [VPN Setup Wizard](#vpn-setup-wizard) to quickly complete the configuration, or navigate to OpenVPN Client / WireGuard Client in the left sidebar to configure manually.
+        To begin with, you need to configure your router as a VPN client. Use the [VPN Setup Wizard](#setup-wizard) to quickly complete the configuration, or navigate to OpenVPN Client / WireGuard Client in the left sidebar to configure manually.
 
         Once you set the router as a VPN client, select a VPN configuration file for this tunnel, and click **Apply**.
 
@@ -213,7 +217,7 @@ In the following example, the Primary Tunnel rule is: All clients use the VPN to
 
 **Note**: For security, please go to [All Other Traffic](#all-other-traffic) and [Tunnel Options](#tunnel-options_1) to check other settings before enabling the tunnels.
 
-#### Add Tunnel
+#### Add Tunnel {#add-tunnel}
 
 To create additional tunnels for multiple VPN instances, click **Add Tunnel** below the Primary Tunnel and configure custom rules.
 
@@ -233,7 +237,7 @@ Customize the tunnel rules by setting the traffic source, destinations and routi
 
 **Note**: For security, please go to [All Other Traffic](#all-other-traffic) and [Tunnel Options](#tunnel-options_1) to check other settings before enabling the tunnels.
 
-#### All Other Traffic
+#### All Other Traffic {#all-other-traffic}
 
 In Policy Mode, a <u>pre-enabled</u> tunnel is displayed at the bottom of the VPN Dashboard.
 
@@ -249,7 +253,7 @@ This tunnel controls whether traffic that does not match any of the above VPN tu
 
     ![all other traffic off](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/all_other_traffic_off.png){class="glboxshadow"}
 
-#### Tunnel Priority
+#### Tunnel Priority {#tunnel-priority}
 
 By default, the preset Primary Tunnel has the top priority, followed by other manual-added tunnel (if any), then the All Other Traffic tunnel to ensure local network connectivity (via local WAN).
 
@@ -275,7 +279,7 @@ Click and hold the three-line icon on the right to reorder the tunnels, and clic
     - If enabled, it routes unmatched or failover traffic through the local WAN.
     - If disabled, it strengthens the Kill Switch and blocks regular Internet access to prevent IP leaks.
 
-#### Tunnel Options
+#### Tunnel Options {#tunnel-options_1}
 
 You can configure advanced settings for each VPN tunnel, such as the VPN Kill Switch, IP Masquerading, and MTU.
 
@@ -292,6 +296,10 @@ Click the gear icon next to a tunnel name and select **Options**.
 - **Allow Remote Access the LAN Subnet**: If enabled, remote access to this router and its LAN devices via VPN will be allowed. The VPN server must advertise a route to the LAN subnet of this router.
 
 - **IP Masquerading**: If enabled, the source IP addresses of LAN clients will be rewritten to the router's VPN tunnel IP. Disable this only for Site-to-Site setups where the remote peer knows your LAN subnets.
+
+    As shown below, if IP masquerading is enabled, when the Laptop (192.168.10.200) on the travel LAN sends traffic across the tunnel to the home NAS (192.168.8.100), the travel router rewrites the source IP from `192.168.10.200` to the VPN client's tunnel address `10.1.0.2`, so the server side sees that traffic originated from the client instead of the client's local LAN.
+
+    ![ip masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/ip_masquerading.png){class="glboxshadow"}
 
 - **MTU**: Short for Maximum Transmission Unit. The MTU value you set for the tunnel will override the value defined in the configuration file.
 

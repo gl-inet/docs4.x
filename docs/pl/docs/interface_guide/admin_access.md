@@ -1,4 +1,4 @@
-# Dostęp administratora
+# Dostęp administratora {#admin-access}
 
 > Ta strona została wprowadzona w firmware v4.9.
 
@@ -6,7 +6,7 @@ Po lewej stronie panelu administracyjnego przejdź do **SECURITY** -> **Admin Ac
 
 Ta strona umożliwia konfigurację różnych ustawień zabezpieczeń chroniących sieć i router przed nieautoryzowanym dostępem.
 
-## Kontrola dostępu
+## Kontrola dostępu {#access-control}
 
 Kontrola dostępu, nazywana **Local Access Control** w firmware v4.7 i starszym, zarządza dostępem do różnych interfejsów zarządzania routerem.
 
@@ -16,7 +16,7 @@ Pomaga zapobiegać skanowaniu i próbom włamania na domyślny port oraz unikać
 
 ![security_access_control](https://static.gl-inet.com/docs/router/en/4/interface_guide/admin_access/access_control_4.8.png){class="glboxshadow"}
 
-### Admin Panel
+### Admin Panel {#admin-panel}
 
 - **HTTP Port**: Domyślnie 80; używany do niezaszyfrowanego dostępu HTTP do panelu administracyjnego.
 
@@ -26,7 +26,7 @@ Pomaga zapobiegać skanowaniu i próbom włamania na domyślny port oraz unikać
 
 - **Auto-Logout Time**: Domyślnie ustawiony na 5 minut; automatycznie wylogowuje nieaktywne sesje administratora po upływie tego czasu ze względów bezpieczeństwa. Możesz dostosować czas automatycznego wylogowania w zakresie od 1 minuty do 3 godzin.
 
-### LuCI
+### LuCI {#luci}
 
 > Uwaga: Zainstaluj LuCI w **Advanced Settings** przed skonfigurowaniem kontroli dostępu dla tego interfejsu.
 
@@ -36,7 +36,7 @@ Pomaga zapobiegać skanowaniu i próbom włamania na domyślny port oraz unikać
 
 - **Force HTTPS**: Po włączeniu dostęp do interfejsu LuCI będzie wymuszony przez bezpieczne połączenie HTTPS.
 
-### SSH
+### SSH {#ssh}
 
 - **Enable SSH**: Określa, czy dostęp SSH do routera jest dozwolony. Domyślnie jest włączony.
 
@@ -44,7 +44,7 @@ Pomaga zapobiegać skanowaniu i próbom włamania na domyślny port oraz unikać
 
 ### Niedozwolone porty {#prohibited-port}
 
-Jeśli przypiszesz numer portu, który koliduje z portem zarezerwowanym (lub z portem zarezerwowanym dla określonych usług przez przeglądarki albo konwencje sieciowe), pojawi się komunikat „This port is forbidden by the browser”.
+Jeśli przypiszesz numer portu, który koliduje z portem zarezerwowanym (lub z portem zarezerwowanym dla określonych usług przez przeglądarki albo konwencje sieciowe), pojawi się komunikat "This port is forbidden by the browser".
 
 ![http_https_port_forbidden](https://static.gl-inet.com/docs/router/en/4/interface_guide/admin_access/http_https_port_forbidden.png){class="glboxshadow"}
 
@@ -133,7 +133,7 @@ Jeśli przypiszesz numer portu, który koliduje z portem zarezerwowanym (lub z p
     | 6697  | IRC + TLS                                |
     | 10080 | Amanda                                   |
 
-## Kontrola zdalnego dostępu
+## Kontrola zdalnego dostępu {#remote-access-control}
 
 Po włączeniu zdalnego dostępu możesz określić, z jakich lokalizacji będzie on dozwolony. Na przykład możesz zezwolić na zdalny dostęp do urządzeń domowych tylko z biura, rezygnując z części wygody na rzecz większego bezpieczeństwa.
 
@@ -153,7 +153,7 @@ Po włączeniu zdalnego dostępu możesz określić, z jakich lokalizacji będzi
 
 ---
 
-## Otwarte porty na routerze
+## Otwarte porty na routerze {#open-ports-on-router}
 
 Aby usługi routera, takie jak WWW i FTP, były publicznie dostępne, odpowiednie porty muszą być otwarte na routerze.
 

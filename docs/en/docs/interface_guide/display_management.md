@@ -1,4 +1,4 @@
-# Display Management
+# Display Management {#display-management}
 
 **Note**: This page is only available on models equipped with touchscreen.
 
@@ -6,7 +6,7 @@ On the left side of the web Admin Panel, go to **SYSTEM** -> **Display Managemen
 
 This page lets you manage the touchscreen display and its related settings.
 
-## GL-BE14000
+## GL-BE14000 {#gl-be14000}
 
 ![be14000 display](https://static.gl-inet.com/docs/router/en/4/interface_guide/display_management/be14000_display.png){class="glboxshadow"}
 
@@ -17,7 +17,7 @@ This page lets you manage the touchscreen display and its related settings.
 - **Screen Always On**: Toggle this option to decide if the touchscreen stays on continuously or turns off after inactivity.
 - **Enable Screen Passcode**: Enable a passcode (4-digit number only) for the touchscreen if needed.
 
-## GL-BE10000
+## GL-BE10000 {#gl-be10000}
 
 ![be10000 display](https://static.gl-inet.com/docs/router/en/4/interface_guide/display_management/be10000_display.png){class="glboxshadow"}
 
@@ -28,7 +28,7 @@ This page lets you manage the touchscreen display and its related settings.
 - **Screen Always On**: Toggle this option to decide if the touchscreen stays on continuously or turns off after inactivity.
 - **Enable Screen Passcode**: Enable a passcode (4-digit number only) for the touchscreen if needed.
 
-## GL-BE3600
+## GL-BE3600 {#gl-be3600}
 
 ![be3600 display](https://static.gl-inet.com/docs/router/en/4/interface_guide/display_management/be3600_display.png){class="glboxshadow"}
 
@@ -49,7 +49,7 @@ This page lets you manage the touchscreen display and its related settings.
 - **Screen Always On**: Toggle this option to decide if the touchscreen stays on continuously or turns off after inactivity.
 - **Enable Screen Passcode**: Enable a passcode (4-digit number only) for the touchscreen if needed.
 
-## GL-E5800
+## GL-E5800 {#gl-e5800}
 
 ![e5800 display](https://static.gl-inet.com/docs/router/en/4/interface_guide/display_management/e5800_display.png){class="glboxshadow"}
 

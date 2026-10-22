@@ -1,4 +1,4 @@
-# Jak naprawić sieć lub przywrócić ustawienia fabryczne?
+# Jak naprawić sieć lub przywrócić ustawienia fabryczne? {#how-to-repair-network-or-factory-reset}
 
 Wszystkie routery GL.iNet są wyposażone w fizyczny mechanizm resetowania (przycisk resetowania lub otwór na szpilkę). Naciśnięcie przycisku lub użycie otworu na szpilkę daje ten sam efekt: przywrócenie łączności sieciowej albo zresetowanie routera do ustawień fabrycznych.
 
@@ -6,7 +6,7 @@ W modelach z otworem na szpilkę użyj szpilki, wyprostowanego spinacza lub podo
 
 Przed wykonaniem resetu upewnij się, że router całkowicie się uruchomił. **NIE** naciskaj przycisku resetowania bezpośrednio po włączeniu zasilania, ponieważ może to uruchomić tryb U-Boot failsafe.
 
-## Naprawa sieci
+## Naprawa sieci {#repair-network}
 
 Naciśnij i przytrzymaj przycisk resetowania przez **4 sekundy**, a następnie puść go, aby wykonać miękki reset, który może naprawić sieć.
 

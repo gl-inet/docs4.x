@@ -1,6 +1,6 @@
-# GoodCloud Site-to-Site
+# GoodCloud Site-to-Site {#goodcloud-site-to-site}
 
-## Einführung
+## Einführung {#introduction}
 
 GoodCloud Site-to-Site ermöglicht es Büros an mehreren Standorten, sichere Verbindungen über das Internet miteinander aufzubauen. Dadurch wird das Unternehmensnetzwerk erweitert, sodass Computerressourcen eines Standorts für Mitarbeiter an anderen Standorten im Netzwerk verfügbar sind.
 
@@ -12,7 +12,7 @@ GoodCloud Site-to-Site ermöglicht es Büros an mehreren Standorten, sichere Ver
 
 **Szenario 3**: Für Familien mit IP-Kameras ermöglicht Site-to-Site den Fernzugriff auf die Geräte, wenn Familienmitglieder nicht zu Hause sind, und sorgt so für eine einfache Überwachung von überall.
 
-## Voraussetzungen
+## Voraussetzungen {#conditions}
 
 1. Zum Aufbau eines Site-to-Site-Netzwerks werden mindestens zwei GL.iNet-Router benötigt.
 
@@ -22,9 +22,9 @@ GoodCloud Site-to-Site ermöglicht es Büros an mehreren Standorten, sichere Ver
 
 3. Es wird **NICHT** empfohlen, Site-to-Site zu betreiben, während die Unterknoten gleichzeitig einen VPN-Client / Tailscale / ZeroTier / AstroWarp verwenden, da dies die Netzwerkkonfiguration besonders komplex machen kann.
 
-## Ein Site-to-Site-Netzwerk aufbauen
+## Ein Site-to-Site-Netzwerk aufbauen {#build-a-site-to-site-network}
 
-1. Verbinden Sie Ihre Router mit Ihrem GoodCloud-Konto. [Wie](../interface_guide/cloud.md/#setup-your-goodcloud-account)?
+1. Verknüpfen Sie Ihre Router mit Ihrem GoodCloud-Konto. Siehe [Geräte mit Cloud verknüpfen](../interface_guide/cloud.md#bind-devices-to-cloud).
 
 2. Melden Sie sich bei [GoodCloud](https://www.goodcloud.xyz/#/login) an, navigieren Sie in der linken Seitenleiste zu **Site to Site** und klicken Sie oben rechts auf **Create Network**.
 
@@ -72,13 +72,13 @@ GoodCloud Site-to-Site ermöglicht es Büros an mehreren Standorten, sichere Ver
 
     ![detail s2s](https://static.gl-inet.com/goodcloud/docs/detail-s2s-01.png){class="glboxshadow"}
 
-## Die Site-to-Site-Verbindung testen
+## Die Site-to-Site-Verbindung testen {#testing-the-site-to-site-connection}
 
 1. Verbinden Sie Ihren PC oder Ihr Smartphone mit einem der Knoten in diesem Site-to-Site-Netzwerk.
 
 2. Öffnen Sie einen Webbrowser und greifen Sie auf die LAN-IP eines anderen Knotens zu. Wenn Sie die Anmeldeseite aufrufen können, funktioniert die Verbindung zwischen diesen beiden Knoten.
 
-## Routen und weitere Optionen
+## Routen und weitere Optionen {#route-and-other-options}
 
 Standardmäßig kann jeder Knoten auf das LAN anderer Knoten zugreifen. Aus Sicherheitsgründen empfehlen wir, nur die IP-Adressen bestimmter Dienste freizugeben.
 

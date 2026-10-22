@@ -1,4 +1,4 @@
-# Jak sprawdzić status agregacji operatora na routerze komórkowym
+# Jak sprawdzić status agregacji operatora na routerze komórkowym {#how-to-check-the-carrier-aggregation-status-on-your-cellular-router}
 
 Agregacja operatora łączy wiele pasm sieci, aby zapewnić większą przepustowość i wyższe prędkości dla połączenia komórkowego.
 

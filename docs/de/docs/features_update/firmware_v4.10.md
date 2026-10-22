@@ -1,22 +1,22 @@
-# Firmware v4.10
+# Firmware v4.10 {#firmware-v410}
 
 Diese Version führt Mesh, das GL.iNet-Konto und native VLAN-Unterstützung ein. Außerdem verbessert sie die GoodCloud-Kontoverwaltung und bietet eine benutzerfreundlichere Oberfläche.
 
 Die aktuelle Firmware erhalten Sie im [Firmware Download Center](https://dl.gl-inet.com/){target="_blank"}.
 
-## Mesh
+## Mesh {#mesh}
 
 [Mesh](../interface_guide/mesh.md) basiert auf dem Wi-Fi EasyMesh™-Standard, erweitert die WLAN-Abdeckung im gesamten Zuhause und ermöglicht nahtloses Roaming. Wenn Sie mehrere GL.iNet-Router verwenden, legen Sie einen als Hauptrouter und die übrigen als Mesh-Knoten fest, um sich im gesamten Zuhause ohne Unterbrechung zwischen den WLAN-Zugangspunkten zu bewegen.
 
 ![mesh](https://static.gl-inet.com/docs/router/en/4/features_update/4.10/mesh.png){class="glboxshadow"}
 
-## GL.iNet Account
+## GL.iNet Account {#glinet-account}
 
 [GL.iNet Account](../interface_guide/glinet_account.md) bietet eine zentrale Seite, auf der Sie Ihre Geräte verbinden oder verwalten und auf Cloud-Dienste zugreifen können. Mit einem einzigen GL.iNet-Konto können Sie GoodCloud und die GL.iNet App nahtlos nutzen und Ihr Netzwerk sowie Ihre Geräte komfortabler verwalten. Außerdem können Sie die GoodPAS-Seite (in v4.10 auf anderen Modellen als GL-MG1300 als AstroWarp bezeichnet) schnell aufrufen, um eine sichere Verbindung zwischen Ihrem Reiserouter und Ihrem Heimnetzwerk herzustellen.
 
 ![gl.inet account](https://static.gl-inet.com/docs/router/en/4/features_update/4.10/account.png){class="glboxshadow"}
 
-## GoodCloud
+## GoodCloud {#goodcloud}
 
 [GoodCloud](../interface_guide/cloud.md) ist eine Cloud-Plattform für die Remote-Bereitstellung und -Verwaltung von GL.iNet-Routern. Sie fasst Geräte an mehreren Standorten zusammen und unterstützt die gebündelte Konfiguration sowie Firmware-Upgrades. Darüber hinaus ermöglicht sie den Fernzugriff auf das webbasierte Admin-Panel und per SSH auf das Geräteterminal.
 
@@ -24,7 +24,7 @@ In Firmware v4.10 vereinfacht GoodCloud die Kontobindung und ermöglicht es, Clo
 
 ![goodcloud](https://static.gl-inet.com/docs/router/en/4/features_update/4.10/goodcloud.png){class="glboxshadow"}
 
-## Subnetz
+## Subnetz {#subnet}
 
 Die Seite [Subnetz](../interface_guide/subnet.md) fasst die Konfiguration von LAN, Gastnetzwerk, IoT-Netzwerk und benutzerdefinierten VLAN-Netzwerken in einer einheitlichen Ansicht zusammen. Über diese zentrale Oberfläche können Sie alle subnetzbezogenen Einstellungen verwalten sowie mehrere Subnetze erstellen und verwalten, um verschiedene Gerätetypen oder Datenverkehr voneinander zu isolieren.
 
@@ -32,7 +32,7 @@ Die folgende Abbildung zeigt die Subnetzseite auf dem Flint 3 (GL-BE9300).
 
 ![subnet](https://static.gl-inet.com/docs/router/en/4/features_update/4.10/subnet.png){class="glboxshadow"}
 
-## Ethernet-Port
+## Ethernet-Port {#ethernet-port}
 
 Die Seite [Ethernet-Port](../interface_guide/ethernet_port_v4.10.md) zeigt alle Ethernet-Schnittstellen des Routers an. Sie können den Verbindungsstatus prüfen, Ports zwischen WAN- und LAN-Rollen umschalten und Details wie MAC-Adresse, ausgehandelte Geschwindigkeit und Verbindungsstatus anzeigen. Zusätzlich können Sie physische Schnittstellen beliebigen von Ihnen erstellten Subnetzen zuweisen, was sich besonders für VLAN-Konfigurationen (Virtual Local Area Network) eignet.
 

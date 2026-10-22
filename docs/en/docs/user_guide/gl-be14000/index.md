@@ -1,12 +1,12 @@
-# Flint 4 (GL-BE14000) User Guide
+# Flint 4 (GL-BE14000) User Guide {#flint-4-gl-be14000-user-guide}
 
-## Product overview
+## Product overview {#product-overview}
 
 Flint 4 (GL-BE14000) redefines what a home router can be. It features tri-band Wi-Fi 7 with MLO, delivering peak rates of 688 Mbps (2.4 GHz) + 4323 Mbps (5 GHz) + 8646 Mbps (6 GHz). For wired connectivity, it comes with a full multi-gig wired backbone, including one 10G SFP+ WAN/LAN port, one 10GE WAN/LAN port, one 2.5GE WAN/LAN port, three 2.5GE LAN ports and four 1GE LAN ports. Supporting high-performance VPN, it achieves throughput up to 1.5 Gbps for both WireGuard® and OpenVPN DCO. A 2.4-inch touchscreen display is also equipped on-board, enabling real-time network-status monitoring and allowing users to view key network metrics directly on the hardware device.
 
 ![be14000 interfaces](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be14000/hardware/be14000_interfaces.png){class="glboxshadow"}
 
-## Package contents
+## Package contents {#package-contents}
 
 - 1 x Flint 4 (GL-BE14000)
 - 1 x Power adapter
@@ -19,17 +19,17 @@ Check out Flint 4's unboxing video below.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/x48iKZaLaN0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## How to set up Flint 4
+## How to set up Flint 4 {#how-to-set-up-flint-4}
 
 Watch this setup video or follow the steps below. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/N3zw02XGFSU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Power on
+### 1. Power on {#1-power-on}
 
 Put the two-piece power adapter together. Connect it to your router and plug it into an outlet. It will start up automatically.
 
-### 2. Connect device
+### 2. Connect device {#2-connect-device}
 
 Connect a device (e.g., computer, laptop or smartphone) to the router using Wi-Fi or Ethernet.
 
@@ -41,11 +41,11 @@ Connect a device (e.g., computer, laptop or smartphone) to the router using Wi-F
 
     On your device, locate your router's Wi-Fi network name in the available networks list, and enter the password to join the network. You can find the default network name (SSID) and password printed on the router's label.
 
-### 3. Log in to web Admin Panel
+### 3. Log in to web Admin Panel {#3-log-in-to-web-admin-panel}
 
 Open a web browser, enter `192.168.8.1` in the address bar and log in. Set your admin password and Wi-Fi details, then click **Apply**.
 
-### 4. Internet setup
+### 4. Internet setup {#4-internet-setup}
 
 Configure your Flint 4 using one of the supported internet connection methods: Ethernet (SFP+), Ethernet (RJ45), Repeater, Tethering, and Cellular. If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, please set up more than one internet connection.
 
@@ -100,19 +100,19 @@ Configure your Flint 4 using one of the supported internet connection methods: E
 
 Below is an overview of the features in the Flint 4 web Admin Panel.
 
-## Wireless 
+## Wireless {#wireless}
 
 The Wireless page allows you to configure various Wi-Fi networks for your Flint 4, including MLO Wi-Fi, Main Network, Guest Network and IoT Network.
 
 Please refer to [Wireless](../../interface_guide/wireless.md) for details.
 
-## Clients
+## Clients {#clients}
 
 The Clients page displays information about connected devices. For each client, it shows the name, IP and MAC addresses, download and upload speeds, total traffic, and provides the ability to block the client or perform other actions.
 
 Please refer to [Clients](../../interface_guide/clients.md) for details.
 
-## Cloud Services
+## Cloud Services {#cloud-services}
 
 === "GoodCloud"
 
@@ -126,7 +126,7 @@ Please refer to [Clients](../../interface_guide/clients.md) for details.
     
     Please refer to [AstroWarp](../../interface_guide/astrowarp.md) for details.
 
-## VPN 
+## VPN {#vpn}
 
 A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Flint 4 supports OpenVPN and WireGuard protocols. 
 
@@ -144,7 +144,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     * [How to set up a WireGuard client](../../interface_guide/wireguard_client.md)
     * [How to set up a WireGuard server](../../interface_guide/wireguard_server.md)
 
-## Network
+## Network {#network}
 
 === "Multi-WAN"
 
@@ -207,7 +207,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     Please refer to [Network Acceleration](../../interface_guide/network_acceleration.md) for details.
 
-## Flow Control
+## Flow Control {#flow-control}
 
 === "DPI Engine"
 
@@ -249,7 +249,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     Please refer to [Parental Control](../../interface_guide/parental_control_v4.9.md) for details.
 
-## Security
+## Security {#security}
 
 === "Port Forwarding"
 
@@ -279,7 +279,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     Please refer to [NAT Mode](../../interface_guide/nat_settings.md) for details.
 
-## Applications
+## Applications {#applications}
 
 === "Plug-ins"
 
@@ -331,7 +331,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     Please refer to [Tor](../../interface_guide/tor.md) for details.
 
-## System
+## System {#system}
 
 === "Overview"
 
@@ -422,7 +422,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     Please refer to [Advanced Settings](../../interface_guide/advanced_settings.md) for details.
 
-## Regulatory Statements
+## Regulatory Statements {#regulatory-statements}
 
 GL TECHNOLOGIES (HONG KONG) LIMITED declares that the radio equipment type [BE14000 Wi-Fi 7 Router, GL-BE14000] is in compliance with the essential requirements and other relevant provisions of Directive 2014/53/EU. The full text of the EU declaration of conformity is available at [https://www.gl-inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}.
 

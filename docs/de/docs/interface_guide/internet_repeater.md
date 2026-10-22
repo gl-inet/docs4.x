@@ -1,4 +1,4 @@
-# Über Repeater mit einem vorhandenen Wi-Fi eine Internetverbindung herstellen
+# Über Repeater mit einem vorhandenen Wi-Fi eine Internetverbindung herstellen {#connect-to-the-internet-via-an-existing-wi-fi-by-repeater}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7mZtz8u8--E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -6,7 +6,7 @@ Die Verwendung von Repeater bedeutet, dass der Router mit einem anderen vorhande
 
 Standardmäßig arbeitet dies im WISP-Modus (Wireless Internet Service Provider). Das bedeutet, dass der Router ein eigenes Subnetz erstellt und als Firewall fungiert, um Sie vor dem öffentlichen Netzwerk zu schützen.
 
-## Grundlegende Schritte
+## Grundlegende Schritte {#basic-steps}
 
 Melden Sie sich im Web-Admin-Panel des Routers an, öffnen Sie den Bereich **INTERNET** -> **Repeater** und klicken Sie auf **Connect**.
 
@@ -96,7 +96,7 @@ Beim Verbinden mit dem Netzwerk stehen einige zusätzliche Optionen zur Verfügu
 
 * **MTU**: Der Standardwert ist 1500.
 
-## Repeater-Optionen
+## Repeater-Optionen {#repeater-options}
 
 Klicken Sie oben rechts auf das Zahnradsymbol, um die Repeater-Optionen zu konfigurieren.
 
@@ -110,7 +110,7 @@ Die Seite kann je nach Firmwareversion unterschiedlich aussehen.
 
 * **Band Selection**: Wenn Sie ein Band manuell auswählen, scannt der Router nur Wi-Fi-Netzwerke in diesem Frequenzband und verbindet sich nur mit diesen.
 
-## Bekannte Netzwerke verwalten
+## Bekannte Netzwerke verwalten {#manage-known-network}
 
 Um bekannte Netzwerke zu verwalten, klicken Sie auf **Switch Network**.
 
@@ -144,7 +144,7 @@ Für die **Security**-Einstellungen gibt es je nach Modell zwei oder drei Option
 
     Eine ausführliche Anleitung zum Repeater-Betrieb in EAP-Netzwerken finden Sie [hier](../tutorials/eap.md){target="_blank"}.
 
-## Erneute Verbindung
+## Erneute Verbindung {#reconnection}
 
 In den folgenden Fällen versucht der Router in regelmäßigen Abständen automatisch, die Wi-Fi-Verbindung erneut herzustellen. Sie können dies bei Bedarf manuell deaktivieren. Bei SSID-/Passwortfehlern entfernen Sie das Netzwerk aus **Known Networks**, um das Problem zu beheben.
 
@@ -164,7 +164,7 @@ Der Wiederverbindungsprozess hat drei unterschiedliche Phasen: Wartephase, Scanp
 
 **Hinweis**: Probleme treten typischerweise in der Scanphase und in der Verbindungsphase auf.
 
-## Fehlerbehebung
+## Fehlerbehebung {#troubleshooting}
 
 Wenn der Router als Repeater mit einem Wi-Fi-Netzwerk verbunden ist, aber kein Internet verfügbar ist, wird wie unten gezeigt eine gelbe Meldung angezeigt.
 
@@ -178,7 +178,7 @@ So beheben Sie dieses Problem:
 
 2. Öffnen Sie die Seite [Multi-WAN](multi-wan.md), um den Status der Repeater-Schnittstelle zu prüfen.
 
-## DFS
+## DFS {#dfs}
 
 Wenn eine Verbindung zu einem Upstream-5G-Wi-Fi hergestellt wird, übernimmt das Wi-Fi des Routers vom Upstream-Wi-Fi, ob ein DFS-Kanal verwendet wird oder nicht.
 

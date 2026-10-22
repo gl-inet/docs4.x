@@ -1,4 +1,4 @@
-# Verbindung mit dem Internet über Mobilfunk (v4.8–v4.9)
+# Verbindung mit dem Internet über Mobilfunk (v4.8–v4.9) {#connect-to-the-internet-via-cellular-v48-v49}
 
 Der Inhalt dieser Seite basiert auf den Firmwareversionen v4.8 bis v4.9. Wenn auf Ihrem Gerät eine andere Firmwareversion ausgeführt wird, verwenden Sie die folgende Auswahl, um zur entsprechenden Anleitung zu wechseln.
 
@@ -15,19 +15,19 @@ Die meisten GL.iNet-Router unterstützen Mobilfunkverbindungen. Diese Anleitung 
 
 1. **Modelle mit integriertem 4G-Modem und Single-SIM**
 
-    Einige Modelle verfügen über ein integriertes 4G-Modul mit einem einzelnen SIM-Kartensteckplatz, z. B. der GL-E750 (Mudi). Lesen Sie dazu bitte [Einrichtung für Single-SIM-Modelle](#einrichtung-für-single-sim-modelle).
+    Einige Modelle verfügen über ein integriertes 4G-Modul mit einem einzelnen SIM-Kartensteckplatz, z. B. der GL-E750 (Mudi). Lesen Sie dazu bitte [Einrichtung für Single-SIM-Modelle](#setup-for-single-sim-models).
 
 2. **Modelle mit integriertem 5G-Modem und Dual-SIM**
 
-    Einige Modelle verfügen über ein integriertes 5G-Modul mit zwei SIM-Kartensteckplätzen, z. B. der GL-X3000 (Spitz AX). Die Mobilfunkeinstellungen im webbasierten Admin Panel können sich leicht unterscheiden. Lesen Sie dazu bitte [Einrichtung für Dual-SIM-Modelle](#einrichtung-für-dual-sim-modelle).
+    Einige Modelle verfügen über ein integriertes 5G-Modul mit zwei SIM-Kartensteckplätzen, z. B. der GL-X3000 (Spitz AX). Die Mobilfunkeinstellungen im webbasierten Admin Panel können sich leicht unterscheiden. Lesen Sie dazu bitte [Einrichtung für Dual-SIM-Modelle](#setup-for-dual-sim-models).
 
 3. **Modelle mit Unterstützung für USB-Modems**
 
-    Einige Modelle besitzen keinen integrierten SIM-Kartensteckplatz, verfügen aber über einen USB-Port und unterstützen Mobilfunkverbindungen über ein USB-Modem, z. B. der GL-MT3000 (Beryl AX). Lesen Sie dazu bitte [Einrichtung für USB-Modem](#einrichtung-für-usb-modem).
+    Einige Modelle besitzen keinen integrierten SIM-Kartensteckplatz, verfügen aber über einen USB-Port und unterstützen Mobilfunkverbindungen über ein USB-Modem, z. B. der GL-MT3000 (Beryl AX). Lesen Sie dazu bitte [Einrichtung für USB-Modem](#setup-for-usb-modem).
 
 **Hinweis:** Manche SIM-Karten müssen vor der ersten Verwendung aktiviert werden. Um die Kompatibilität sicherzustellen, aktivieren Sie die SIM-Karte in einem Smartphone, bevor Sie sie in den Router einsetzen.
 
-## Einrichtung für Single-SIM-Modelle
+## Einrichtung für Single-SIM-Modelle {#setup-for-single-sim-models}
 
 Die folgenden Schritte gelten für Modelle mit integriertem Mobilfunkmodem und einem einzelnen SIM-Kartensteckplatz.
 
@@ -35,7 +35,7 @@ Hier verwenden wir den **GL-E750 (Mudi)** als Beispiel.
 
 Wir empfehlen, den Router zunächst auszuschalten, eine bereits aktivierte SIM-Karte in den Steckplatz einzusetzen und ihn dann einzuschalten. Wenn Sie die SIM-Karte erst nach dem Start des Routers einsetzen, wird das webbasierte Admin Panel möglicherweise nicht automatisch aktualisiert. Aktualisieren Sie in diesem Fall die Seite oder starten Sie den Router neu.
 
-### Automatische Einrichtung
+### Automatische Einrichtung {#auto-setup}
 
 Melden Sie sich am webbasierten Admin Panel des Routers an und navigieren Sie zu **INTERNET** -> **Cellular**.
 
@@ -89,7 +89,7 @@ Durch das Anwenden der Änderungen wird die Verbindung neu aufgebaut.
 
 - **Band Masking**: Sie können Band Masking aktivieren, wenn der Router bestimmte Bänder blockieren oder nur bestimmte Mobilfunkbänder verwenden soll. Details finden Sie [hier](#band-masking).
 
-## Einrichtung für Dual-SIM-Modelle
+## Einrichtung für Dual-SIM-Modelle {#setup-for-dual-sim-models}
 
 Die folgenden Schritte gelten für Modelle mit integriertem Mobilfunkmodem und Unterstützung für zwei SIM-Karten. Die Seiten können sich leicht von Single-SIM-Modellen unterscheiden.
 
@@ -97,7 +97,7 @@ Hier verwenden wir den **GL-X3000 (Spitz AX)** als Beispiel. Er unterstützt Dua
 
 Wir empfehlen, den Router zunächst auszuschalten, die bereits aktivierte(n) SIM-Karte(n) in die Steckplätze einzusetzen und ihn dann einzuschalten. Wenn Sie die SIM-Karte erst nach dem Start des Routers einsetzen, wird das webbasierte Admin Panel möglicherweise nicht automatisch aktualisiert. Aktualisieren Sie in diesem Fall die Seite oder starten Sie den Router neu.
 
-### Automatische Einrichtung
+### Automatische Einrichtung {#auto-setup_1}
 
 Melden Sie sich am webbasierten Admin Panel des Routers an und navigieren Sie zu **INTERNET** -> **Cellular**.
 
@@ -155,7 +155,7 @@ Durch das Anwenden der Änderungen wird die Verbindung neu aufgebaut.
 
 - **Band Masking**: Sie können Band Masking aktivieren, wenn der Router bestimmte Bänder blockieren oder nur bestimmte Mobilfunkbänder verwenden soll. Details finden Sie [hier](#band-masking).
 
-### Einstellungen für SIM-Kartensteckplätze
+### Einstellungen für SIM-Kartensteckplätze {#sim-card-slot-settings}
 
 Navigieren Sie im webbasierten Admin Panel des Routers zu **INTERNET** -> **Cellular** und klicken Sie dann auf **SIM Card Switch**.
 
@@ -191,7 +191,7 @@ Wenn zwei SIM-Karten eingesetzt sind, können Sie **Auto Switch** aktivieren.
 
 **Hinweis**: Die Funktion **Auto Switch** schaltet nicht sofort auf eine andere SIM-Karte um. Erstens benötigt das Gerät Zeit, um zu bestätigen, dass die aktuelle SIM keinen Internetzugang hat. Zweitens befindet sich die andere SIM nicht im Standby-Modus und benötigt Zeit zur Aktivierung.
 
-## Einrichtung für USB-Modem
+## Einrichtung für USB-Modem {#setup-for-usb-modem}
 
 Die folgenden Schritte gelten für Modelle ohne integrierten SIM-Kartensteckplatz, die jedoch einen USB-Port zum Anschluss eines externen USB-Modems besitzen.
 
@@ -199,7 +199,7 @@ Hier verwenden wir den **GL-MT3000 (Beryl AX)** mit dem externen USB-Modem **SIM
 
 Wir empfehlen, den Router zunächst auszuschalten, eine bereits aktivierte SIM-Karte in das USB-Modem einzusetzen, das Modem in den USB-Port des Routers zu stecken und den Router anschließend einzuschalten. Wenn Sie das USB-Modem erst nach dem Start des Routers anschließen, wird das webbasierte Admin Panel möglicherweise nicht automatisch aktualisiert. Aktualisieren Sie in diesem Fall die Seite oder starten Sie den Router neu.
 
-### Schnelleinrichtung
+### Schnelleinrichtung {#quick-setup}
 
 1. Schalten Sie zunächst den Router aus. Setzen Sie eine SIM-Karte in das USB-Modem ein, stecken Sie das Modem in den USB-Port des Routers und schalten Sie den Router anschließend ein.
 
@@ -221,39 +221,38 @@ Wir empfehlen, den Router zunächst auszuschalten, eine bereits aktivierte SIM-K
 
     **Hinweis:** Nach der Ersteinrichtung wird das USB-Modem automatisch erkannt, wenn Sie den Router mit eingestecktem Modem neu starten oder das Modem erneut einstecken. Die Netzwerkverbindung wird dann hergestellt, ohne dass Sie erneut auf **Connect** klicken müssen.
 
-### Kompatible Modems
+### Kompatible Modems {#compatible-modems}
 
 Hier ist eine Liste unterstützter Modems, die wir bereits getestet haben.
 
 **SIMPoYo uFi** ist ein kompakter Plug-and-Play-USB-Dongle mit Wi-Fi-Hotspot, der für schnelle und zuverlässige Konnektivität unterwegs entwickelt wurde. Er funktioniert nahtlos mit den meisten GL.iNet-Routern sowie mit Laptops, Powerbanks, USB-Anschlüssen im Auto und anderen USB-Stromquellen. Er enthält 10 GB kostenloses Datenvolumen für 30 Tage, gültig im Vereinigten Königreich und in 34 europäischen Ländern.
 
-| Modell                                 | Mobilfunk | Getestet | Getestet von    | Hinweise* |
-| -------------------------------------- | --------- | -------- | --------------- | --------- |
-| [SIMPoYo SP-N150C4](https://www.gl-inet.com/campaign/simpoyo-ufi/) | 4G        | Ja       | GL.iNet         |           |
-| Quectel RM520N-GL                      | 5G        | Ja       | GL.iNet         |           |
-| Quectel EC20-E, EC20-A, EC20-C         | 4G        | Ja       | GL.iNet         |           |
-| Quectel EC25-E, EC25-A, EC25-V, EC25-C | 4G        | Ja       | GL.iNet         |           |
-| Quectel EC200A series                  | 4G        | Ja       | akw2312         | Host-less |
-| Quectel EP06-E, EP06-A                 | 4G        | Ja       | anonymous       |           |
-| Quectel EM060K-GL, EM120K-GL           | 4G        | Ja       | anonymous       |           |
-| Quectel EM120R-GL, EM160R-GL           | 4G        | Ja       | anonymous       |           |
-| Huawei E3276                           | 4G        | Ja       | GL.iNet         |           |
-| Huawei E3372                           | 4G        | Ja       | anonymous       |           |
-| Huawei E3372h-153                      | 4G        | Ja       | GL.iNet         | Host-less |
-| Huawei E3372h-320 (Ukraine)            | 4G        | Ja       | anonymous       | Host-less |
-| Huawei E3372h-607                      | 4G        | Ja       | GL.iNet         |           |
-| Huawei K5161h                          | 4G        | Ja       | anonymous       |           |
-| ZTE MF833U1                            | 4G        | Ja       | anonymous       | Host-less |
-| ZTE MF79U                              | 4G        | Ja       | GL.iNet         | Host-less |
-| ZTE M823                               | 4G        | Ja       | Arnas Risqianto |           |
-| MeiG O4H13 (Qualcomm MDM9207)          | 4G        | Ja       | GL.iNet         | Host-less |
-| XTRONS 4G LTE USB Dongle               | 4G        | Ja       | GL.iNet         | Host-less |
+| Modell                                 | Mobilfunk | Typ        | Getestet von    | Hinweise* |
+| -------------------------------------- | --------- | ---------- | --------------- | --------- |
+| [SIMPoYo SP-N150C4](https://www.gl-inet.com/campaign/simpoyo-ufi/)  | 4G    | USB-Dongle | GL.iNet |           |
+| Quectel RM520N-GL                      | 5G       | Modul      | GL.iNet         |           |
+| Quectel EC20-E, EC20-A, EC20-C         | 4G       | Modul      | GL.iNet         |           |
+| Quectel EC25-E, EC25-A, EC25-V, EC25-C | 4G       | Modul      | GL.iNet         |           |
+| Quectel EC200A series                  | 4G       | Modul      | akw2312         | Host-less |
+| Quectel EP06-E, EP06-A                 | 4G       | Modul      | anonymous       |           |
+| Quectel EM060K-GL, EM120K-GL           | 4G       | Modul      | anonymous       |           |
+| Quectel EM120R-GL, EM160R-GL           | 4G       | Modul      | anonymous       |           |
+| Huawei E3276                           | 4G       | USB-Dongle | GL.iNet         |           |
+| Huawei E3372h-153                      | 4G       | USB-Dongle | GL.iNet         | Host-less |
+| Huawei E3372h-320 (Ukraine)            | 4G       | USB-Dongle | anonymous       | Host-less |
+| Huawei E3372h-607                      | 4G       | USB-Dongle | GL.iNet         |           |
+| Huawei K5161h                          | 4G       | USB-Dongle | anonymous       |           |
+| ZTE MF833U1                            | 4G       | USB-Dongle | anonymous       | Host-less |
+| ZTE MF79U                              | 4G       | USB-Dongle | GL.iNet         | Host-less |
+| ZTE M823                               | 4G       | USB-Dongle | Arnas Risqianto |           |
+| MeiG O4H13 (Qualcomm MDM9207)          | 4G       | USB-Dongle | GL.iNet         | Host-less |
+| XTRONS 4G LTE USB Dongle               | 4G       | USB-Dongle | GL.iNet         | Host-less |
 
 - **QMI**: Dieses Modem unterstützt den QMI-Modus. Wählen Sie bitte QMI als Mobilfunk-Kommunikationsprotokoll und **/dev/cdc-wdm0** als seriellen Port in den SIM-Karteneinstellungen.
 
 - **Host-less**: Dieses Modem unterstützt den Tethering-Modus. Verwalten Sie die Verbindung in diesem Fall über die Tethering-Oberfläche des Routers und nicht über die Cellular-Oberfläche.
 
-## Verkehrsstatistiken
+## Verkehrsstatistiken {#traffic-statistics}
 
 Navigieren Sie im webbasierten Admin Panel des Routers zu **INTERNET** -> **Cellular** und klicken Sie dann auf **Data Used**.
 
@@ -287,7 +286,7 @@ Wenn **Data Used** den Wert von **Data Cap Amount** überschreitet, passen Sie b
 
 Bei Dual-SIM-Modellen empfehlen wir, gleichzeitig **SIM Card Slot Auto Switch** zu aktivieren. Wenn für SIM 1 ein **Data Cap Amount** gesetzt ist und **SIM Card Slot Auto Switch** aktiviert ist, schaltet SIM 1 automatisch auf SIM 2 um, sobald das Datenvolumen von SIM 1 den Wert von **Data Cap Amount** überschreitet, und SIM 1 wird deaktiviert.
 
-## Signalverlauf
+## Signalverlauf {#historical-signal-record}
 
 Navigieren Sie im webbasierten Admin Panel des Routers zu **INTERNET** -> **Cellular** und klicken Sie dann auf **Historical Signal Record**.
 
@@ -303,7 +302,7 @@ Den Verlauf der Signalstärke können Sie anzeigen, indem Sie oben rechts unters
 
 ![historical signal record 3](https://static.gl-inet.com/docs/router/de/4/interface_guide/internet_cellular/4.8/historical_signal_record_3.png){class="glboxshadow"}
 
-## Band Masking
+## Band Masking {#band-masking}
 
 Mit Band Masking können Sie bestimmte Bänder blockieren oder nur bevorzugte Mobilfunkbänder verwenden, um ein schwaches Mobilfunksignal zu verbessern.
 
@@ -313,15 +312,15 @@ Navigieren Sie im webbasierten Admin Panel des Routers zu **INTERNET** -> **Cell
 
 Wählen Sie den **Masking Mode** (Block oder Open) und anschließend die LTE-Bänder, 5G-NSA-Bänder und 5G-SA-Bänder aus.
 
-## SMS
+## SMS {#sms}
 
 Bitte lesen Sie [SMS](../tutorials/sms.md).
 
-## SMS Forwarding
+## SMS Forwarding {#sms-forwarding}
 
 Bitte lesen Sie [SMS Forwarding](../tutorials/sms_forwarding.md).
 
-## Lock Tower
+## Lock Tower {#lock-tower}
 
 !!! note "Unterstützte Modelle"
 
@@ -360,7 +359,7 @@ Klicken Sie auf einen Mast, um die Details anzuzeigen und ihn zu sperren.
 
 3. Wenn Sie nach dem Sperren eines Mobilfunkmasts den Router an einen anderen Standort versetzen, versucht er nach einem Neustart weiterhin, sich mit dem gesperrten Mast zu verbinden. Dadurch kann verhindert werden, dass sich der Router am neuen Standort automatisch mit dem Mobilfunknetz verbindet. In diesem Fall müssen Sie entweder den aktuellen Mobilfunkmast entsperren oder ihn manuell auf einen neuen Mast sperren.
 
-## Lock Operator
+## Lock Operator {#lock-operator}
 
 !!! note "Unterstützte Modelle"
 
@@ -385,7 +384,7 @@ Es gibt drei Sperrmodi:
 
 ![lock operator 1](https://static.gl-inet.com/docs/router/de/4/interface_guide/internet_cellular/4.8/lock_operator_1.png){class="glboxshadow"}
 
-## Modem AT Command
+## Modem AT Command {#modem-at-command}
 
 AT-Befehle für das Modem sind Standardanweisungen zur Kommunikation mit dem Mobilfunkmodem. Mit dieser Funktion können Sie Befehle senden und den Modemstatus prüfen.
 
@@ -421,7 +420,7 @@ Unten rechts können Sie auf **Export Debug Info** klicken, um eine `.json`-Date
 
 ![AT command 4](https://static.gl-inet.com/docs/router/de/4/interface_guide/internet_cellular/4.8/at_command_4.png){class="glboxshadow"}
 
-## Fehlerbehebung
+## Fehlerbehebung {#troubleshooting}
 
 Wenn Sie keine Mobilfunkverbindung herstellen können, klicken Sie auf die folgende Fehlermeldung, um passende Lösungen anzuzeigen.
 
@@ -445,11 +444,11 @@ Wenn Sie keine Mobilfunkverbindung herstellen können, klicken Sie auf die folge
 
     Dieses Problem kann mit zwei Arten von Fehlermeldungen auftreten:
 
-    - SIM card not registered
+    - „SIM card not registered“
 
         ![sim not registered](https://static.gl-inet.com/docs/router/de/4/interface_guide/internet_cellular/4.8/troubleshoot/sim_not_registered.png){class="glboxshadow"}
 
-    - The interface is connected, but the Internet can't be accessed
+    - „The interface is connected, but the Internet can't be accessed“
 
         ![connected no internet](https://static.gl-inet.com/docs/router/de/4/interface_guide/internet_cellular/4.8/troubleshoot/connected_no_internet.png){class="glboxshadow"}
 
@@ -491,7 +490,7 @@ Wenn Sie keine Mobilfunkverbindung herstellen können, klicken Sie auf die folge
 
 ## IoT-Zertifizierung {#iot-certification}
 
-### AT&T-Zertifizierung
+### AT&T-Zertifizierung {#att-certification}
 
 Klicken Sie auf den Link [att device certification](https://iotdevices.att.com/certified-devices.aspx#) und geben Sie den Gerätenamen ein; dort können Sie das Gerät finden.
 
@@ -499,7 +498,7 @@ Klicken Sie auf den Link [att device certification](https://iotdevices.att.com/c
 
 ![bandmasking](https://static.gl-inet.com/docs/router/de/4/interface_guide/internet_cellular/certification/at&t_certification_2.png){class="glboxshadow"}
 
-### T-Mobile-Zertifizierung
+### T-Mobile-Zertifizierung {#t-mobile-certification}
 
 Klicken Sie auf den Link [t-mobile device certification](https://www.t-mobile.com/business/solutions/iot/device-certification){target="_blank"} und wählen Sie bei **Filter** die Option **5G** aus; dort können Sie das Gerät finden.
 

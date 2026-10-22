@@ -1,4 +1,4 @@
-# LAN
+# LAN {#lan}
 
 Dans la partie gauche du panneau d'administration web, accédez à **NETWORK** -> **LAN**.
 
@@ -6,7 +6,7 @@ Le LAN est le réseau auquel votre appareil est connecté lorsqu'il utilise le W
 
 Il comprend les paramètres de base, les paramètres du serveur DHCP et la réservation d'adresses.
 
-## Paramètres de base
+## Paramètres de base {#basic-settings}
 
 Vous pouvez définir le sous-réseau dans les plages d'adresses privées IPv4 suivantes : `192.168.0.0/16`, `172.16.0.0/12`, `10.0.0.0/8`.
 
@@ -26,7 +26,7 @@ Vous pouvez définir le sous-réseau dans les plages d'adresses privées IPv4 su
 
     Vous pouvez isoler les appareils clients dans un segment réseau distinct. Ces appareils ne pourront pas communiquer avec les autres appareils du même réseau.
 
-## Serveur DHCP
+## Serveur DHCP {#dhcp-server}
 
 Le **DHCP Server** est activé par défaut. Le serveur DHCP attribue automatiquement à chaque appareil client une adresse IP et d'autres paramètres de communication.
 
@@ -52,7 +52,7 @@ Cliquez sur **Advanced** pour effectuer une configuration supplémentaire si né
 
 - **LPR Server** : (Line Printer Remote Server) service qui gère les tâches d'impression et permet aux appareils du réseau d'envoyer des demandes d'impression à des imprimantes distantes. Plusieurs ports d'imprimante LPR peuvent être configurés.
 
-## Réservation d'adresses
+## Réservation d'adresses {#address-reservation}
 
 Lorsque vous attribuez une adresse IP réservée à un client dans le LAN, ce client reçoit toujours la même adresse IP à chaque fois qu'il accède au serveur DHCP du routeur. Vous pouvez attribuer des adresses IP réservées aux ordinateurs ou aux serveurs qui nécessitent des paramètres IP permanents.
 

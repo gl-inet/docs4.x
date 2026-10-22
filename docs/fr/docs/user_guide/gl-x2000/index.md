@@ -1,12 +1,12 @@
-# Guide d'utilisation de Spitz Plus (GL-X2000)
+# Guide d'utilisation de Spitz Plus (GL-X2000) {#spitz-plus-gl-x2000-user-guide}
 
-## Aperçu du produit
+## Aperçu du produit {#product-overview}
 
 Spitz Plus (GL-X2000) est une passerelle cellulaire Wi‑Fi 6 4G LTE double SIM conçue pour fournir des connexions rapides et fiables, en particulier dans les zones éloignées et lors des déplacements sur la route. Grâce à l'agrégation de 3 porteuses, le routeur transmet des données simultanément sur trois bandes opérateur, offrant une bande passante disponible 3 fois supérieure pour éviter la congestion. Il propose quatre méthodes d'accès à Internet : Cellular (cartes SIM), Ethernet, Repeater et Tethering. Il prend en charge le Multi-WAN (conmutation par erreur et équilibrage de charge), les VPN (OpenVPN et WireGuard), le contrôle parental, AdGuard Home, la redirection de ports, Tailscale et bien plus encore.
 
 ![gl-x2000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/hardware_info/x2000_interface.jpg){class="glboxshadow"}
 
-## Contenu du colis
+## Contenu du colis {#package-contents}
 
 - 1 x Spitz Plus (GL-X2000)
 - 1 x Manuel d'utilisation
@@ -20,17 +20,19 @@ Spitz Plus (GL-X2000) est une passerelle cellulaire Wi‑Fi 6 4G LTE double SIM 
 
 ![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/first_time_setup/x2000_package.png){class="glboxshadow"}
 
-## Indicateurs LED
+## Indicateurs LED {#led-indicators}
 
-| État de fonctionnement                                                      | Alimentation                         | Internet                    | 2.4GHz                      | 5GHz                        | Cellular | 
-| ----------------------------------------------------------------------------- | ------------------------------------ | --------------------------- | --------------------------- | --------------------------- | ------- |
-| Fonctionnement normal (connecté à Internet)                                  | Vert                                 | Vert                        | Vert                        | Vert                        | Vert     |
-| Non connecté à Internet                                                      | Vert                                 | Éteint                      | Vert                        | Vert                        | Vert     |
-| Mise à jour du firmware                                                      | Vert                                 | Vert clignotant (toutes les 0,5 s) | Vert clignotant (toutes les 0,5 s) | Vert clignotant (toutes les 0,5 s) | Vert     | 
-| Réinitialisation réseau (maintenez le bouton "reset" enfoncé pendant > 3 s) | Vert clignotant (toutes les 1 s)     | Vert                        | Vert                        | Vert                        | Vert     |
-| Restauration des paramètres d'usine (maintenez le bouton "reset" enfoncé pendant 10 s) | Vert clignotant rapidement (toutes les 0,25 s) | Vert | Vert | Vert | Vert | 
+Les états des LED lors de différents événements sont décrits ci-dessous. Pour consulter tous les états de chaque LED, reportez-vous à [État des indicateurs LED du GL-X2000](../../faq/led.md#gl-x2000){target="_blank"}.
 
-## Comment configurer Spitz Plus
+| État de l’appareil | Alimentation | Internet | 2.4GHz | 5GHz | Cellular |
+| --- | --- | --- | --- | --- | --- |
+| Connecté à Internet | Vert | Vert | Vert | Vert | Vert |
+| Pas de connexion Internet | Vert | Éteint | Vert | Vert | Vert |
+| Mise à jour du firmware | Vert | Clignote toutes les 0,5 s | Clignote toutes les 0,5 s | Clignote toutes les 0,5 s | Vert |
+| Réinitialisation réseau (maintenez reset enfoncé pendant 5 s) | Clignote toutes les 1 s | Vert | Vert | Vert | Vert |
+| Restauration des paramètres d’usine (maintenez reset enfoncé pendant 10 s) | Clignote rapidement toutes les 0,25 s | Vert | Vert | Vert | Vert |
+
+## Comment configurer Spitz Plus {#how-to-set-up-spitz-plus}
 
 Pour configurer Spitz Plus, utilisez l'une des quatre méthodes de connexion Internet prises en charge : Cellular (carte SIM requise), Ethernet, Repeater et Tethering. Regardez cette vidéo de configuration ou suivez les étapes ci-dessous. 
 
@@ -45,11 +47,11 @@ Pour configurer Spitz Plus, utilisez l'une des quatre méthodes de connexion Int
     2. Éteignez votre routeur.
     3. Insérez la ou les cartes SIM dans les emplacements SIM. (**Remarque :** une seule carte SIM est active à la fois. L'autre sert uniquement de secours.)
 
-### 1. Mise sous tension
+### 1. Mise sous tension {#1-power-on}
 
 Assemblez les deux parties de l'adaptateur secteur. Branchez-le à votre routeur puis sur une prise électrique. Il démarre automatiquement.
 
-### 2. Connecter un appareil
+### 2. Connecter un appareil {#2-connect-device}
 
 Connectez un appareil (par exemple un ordinateur, un ordinateur portable ou un smartphone) au routeur via Wi‑Fi ou Ethernet.
 
@@ -63,11 +65,11 @@ Connectez un appareil (par exemple un ordinateur, un ordinateur portable ou un s
 
     Sur votre appareil, repérez le nom du réseau Wi‑Fi de votre routeur dans la liste des réseaux disponibles, puis saisissez le mot de passe pour rejoindre le réseau. Le nom du réseau et le mot de passe par défaut sont imprimés sur l'étiquette du routeur.
 
-### 3. Se connecter au panneau d'administration web
+### 3. Se connecter au panneau d'administration web {#3-log-in-to-web-admin-panel}
 
 Ouvrez un navigateur web, saisissez `192.168.8.1` dans la barre d'adresse pour accéder au panneau d'administration web GL.iNet. Choisissez une langue et définissez votre mot de passe administrateur, puis cliquez sur **Apply**. 
 
-### 4. Configuration de la connexion Internet
+### 4. Configuration de la connexion Internet {#4-internet-setup}
 
 **Remarque :** Les instructions suivantes s'appliquent aux utilisateurs qui configurent le routeur via le panneau d'administration web GL.iNet. Si vous préférez utiliser l'application GL.iNet, [téléchargez l'application](https://www.gl-inet.com/app/){target="_blank"} et suivez les instructions à l'écran.
 
@@ -125,19 +127,19 @@ Configurez votre Spitz Plus en utilisant l'une des méthodes de connexion Intern
 
 Vous trouverez ci-dessous un aperçu des fonctionnalités disponibles dans le panneau d'administration web du Spitz Plus.
 
-## Réseau sans fil
+## Réseau sans fil {#wireless}
 
 La page Réseau sans fil vous permet de configurer les paramètres des réseaux Wi‑Fi 5 GHz et 2,4 GHz, notamment l'activation/la désactivation du Wi‑Fi, le réglage de la puissance TX, la définition du nom du réseau Wi‑Fi (SSID), l'activation/la désactivation du BSSID aléatoire, le choix du mode de sécurité Wi‑Fi, la définition du mot de passe Wi‑Fi, la configuration de la visibilité du SSID, ainsi que le choix du mode Wi‑Fi, de la bande passante et du canal.
 
 Pour configurer le réseau sans fil, consultez [Réseau sans fil](../../interface_guide/wireless.md).
 
-## Clients
+## Clients {#clients}
 
 La page Clients affiche des informations sur les appareils connectés. Pour chaque client, elle indique le nom de l'appareil, le type de connexion (Ethernet ou Wi‑Fi), les adresses IP et MAC, les vitesses de téléchargement et d'envoi, le trafic total, et permet de réserver une IP, de bloquer le client ou d'effectuer d'autres actions.
 
 Pour configurer les clients, consultez [Clients](../../interface_guide/clients.md).
 
-## Services Cloud
+## Services Cloud {#cloud-services}
 
 === "GoodCloud"
 
@@ -153,7 +155,7 @@ Pour configurer les clients, consultez [Clients](../../interface_guide/clients.m
 
     **Remarque** : veuillez mettre à niveau votre Spitz Plus vers le firmware v4.8 ou supérieur pour utiliser AstroWarp.
 
-## VPN 
+## VPN {#vpn}
 
 Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre votre appareil et le serveur VPN. Il ajoute une couche supplémentaire de confidentialité et de sécurité (client VPN) et vous permet d'accéder à un réseau distant (serveur VPN). Spitz Plus prend en charge OpenVPN et WireGuard. 
 
@@ -161,17 +163,17 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
     
     Spitz Plus (comme les autres routeurs GL.iNet) prend en charge le protocole OpenVPN, qui offre une sécurité renforcée. Pour configurer OpenVPN, suivez ces tutoriels :
 
-    * [Comment configurer un client OpenVPN](https://docs.gl-inet.com/router/en/4/interface_guide/openvpn_client/)
-    * [Comment configurer un serveur OpenVPN](https://docs.gl-inet.com/router/en/4/interface_guide/openvpn_server/)
+    * [Comment configurer un client OpenVPN](../../interface_guide/openvpn_client.md)
+    * [Comment configurer un serveur OpenVPN](../../interface_guide/openvpn_server.md)
 
 === "WireGuard"
     
     Spitz Plus (comme les autres routeurs GL.iNet) prend en charge le protocole WireGuard, qui offre d'excellentes vitesses et une grande simplicité d'utilisation. Pour configurer WireGuard, suivez ces tutoriels :
 
-    * [Comment configurer un client WireGuard](https://docs.gl-inet.com/router/en/4/interface_guide/wireguard_client/)
-    * [Comment configurer un serveur WireGuard](https://docs.gl-inet.com/router/en/4/interface_guide/wireguard_server/)
+    * [Comment configurer un client WireGuard](../../interface_guide/wireguard_client.md)
+    * [Comment configurer un serveur WireGuard](../../interface_guide/wireguard_server.md)
 
-## Applications
+## Applications {#applications}
 
 === "Plug-ins"
 
@@ -195,11 +197,11 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
 === "AdGuard Home"
 
-    AdGuard Home est un outil tiers qui bloque les publicités et le pistage pour vous protéger. Pour savoir comment activer AdGuard Home, consultez [AdGuard Home](https://docs.gl-inet.com/router/en/4/interface_guide/adguardhome/).
+    AdGuard Home est un outil tiers qui bloque les publicités et le pistage pour vous protéger. Pour savoir comment activer AdGuard Home, consultez [AdGuard Home](../../interface_guide/adguardhome.md).
 
 === "Contrôle parental"
 
-    Le contrôle parental est un ensemble de paramètres conçu pour vous aider à gérer et à contrôler les appareils de vos enfants. Il comprend notamment la limitation du temps d'écran et la restriction de l'accès à certains contenus. Spitz Plus propose deux options de contrôle parental : une version locale développée par GL.iNet et une version intégrée de Bark, une application de contrôle parental.
+    Le contrôle parental est un ensemble de paramètres conçu pour vous aider à gérer et à contrôler les appareils de vos enfants. Il comprend notamment la limitation du temps d'écran et la restriction de l'accès à certains contenus.
 
     Pour configurer le contrôle parental, consultez [contrôle parental](../../interface_guide/parental_control.md).
 
@@ -219,17 +221,17 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/hyHh8pAxgVw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     
-## Réseau
+## Réseau {#network}
 
 === "Redirection de ports"
 
-    La redirection de ports permet à des serveurs et appareils distants sur Internet d'accéder aux appareils d'un réseau privé. Pour configurer la redirection de ports, consultez [Redirection de ports](https://docs.gl-inet.com/router/en/4/interface_guide/firewall/#port-forwards).
+    La redirection de ports permet à des serveurs et appareils distants sur Internet d'accéder aux appareils d'un réseau privé. Pour configurer la redirection de ports, consultez [Redirection de ports](../../interface_guide/port_forwarding.md).
 
 === "Multi-WAN"
 
     Multi-WAN est une fonctionnalité réseau qui vous permet de configurer simultanément plusieurs connexions Internet sur votre routeur (par exemple Cellular, Repeater et Ethernet). Si votre connexion Internet actuelle échoue, le routeur bascule automatiquement vers une autre connexion. Cela garantit un accès Internet fluide et ininterrompu.
 
-    Pour configurer le Multi-WAN, consultez [Multi-WAN](https://docs.gl-inet.com/router/en/4/interface_guide/multi-wan/).
+    Pour configurer le Multi-WAN, consultez [Multi-WAN](../../interface_guide/multi-wan.md).
 
 === "LAN"
 
@@ -273,7 +275,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
 === "Drop-in Gateway"
 
-    Drop-in Gateway étend les fonctionnalités de votre routeur principal avec des fonctions qu'il peut ne pas posséder, notamment AdGuard Home, le DNS chiffré et le VPN. Pour configurer Drop-in Gateway, consultez [Comment configurer Drop-in Gateway](https://docs.gl-inet.com/router/en/4/tutorials/how_to_set_up_drop_in_gateway/).
+    Drop-in Gateway étend les fonctionnalités de votre routeur principal avec des fonctions qu'il peut ne pas posséder, notamment AdGuard Home, le DNS chiffré et le VPN. Pour configurer Drop-in Gateway, consultez [Comment configurer Drop-in Gateway](../../tutorials/how_to_set_up_drop_in_gateway.md).
 
 ---
 
@@ -295,7 +297,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     Pour configurer les paramètres NAT, consultez [Paramètres NAT](../../interface_guide/nat_settings.md).
 
-## Système
+## Système {#system}
 
 === "Aperçu"
 

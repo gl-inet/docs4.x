@@ -1,12 +1,12 @@
-# Guida utente di Puli AX (GL-XE3000)
+# Guida utente di Puli AX (GL-XE3000) {#puli-ax-gl-xe3000-user-guide}
 
-## Panoramica del prodotto
+## Panoramica del prodotto {#product-overview}
 
-Puli AX (GL-XE3000) e il router cellulare 5G Wi-Fi 6 definitivo, progettato per portare la velocita Internet a un livello superiore. Grazie alla potente batteria integrata da 6400mAh/7.4V/47.4Wh, puoi usufruire di una connettivita Internet continua per periodi ancora piu lunghi. Offre velocita Wi-Fi elevate fino a 574 Mbps (2.4GHz) e 2402 Mbps (5GHz), con una velocita Wi-Fi massima combinata di 3000 Mbps. E dotato di connettivita cellulare 5G NR, che garantisce accesso a Internet senza interruzioni anche in caso di guasto della connessione Ethernet.
+Puli AX (GL-XE3000) e il router cellulare 5G Wi-Fi 6 definitivo, progettato per portare la velocità Internet a un livello superiore. Grazie alla potente batteria integrata da 6400mAh/7.4V/47.4Wh, puoi usufruire di una connettività Internet continua per periodi ancora più lunghi. Offre velocità Wi-Fi elevate fino a 574 Mbps (2.4GHz) e 2402 Mbps (5GHz), con una velocità Wi-Fi massima combinata di 3000 Mbps. E dotato di connettività cellulare 5G NR, che garantisce accesso a Internet senza interruzioni anche in caso di guasto della connessione Ethernet.
 
 ![xe3000_interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe3000/hardware_info/xe3000_interface.jpg){class="glboxshadow"}
 
-## Contenuto della confezione
+## Contenuto della confezione {#package-contents}
 
 - 1 x Puli AX (GL-XE3000)
 - 1 x Manuale utente
@@ -18,11 +18,22 @@ Puli AX (GL-XE3000) e il router cellulare 5G Wi-Fi 6 definitivo, progettato per 
 
 ![xe3000_unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe3000/first_time_setup/xe3000_unboxing.jpg){class="glboxshadow"}
 
-## Indicatori LED
+## Indicatori LED {#led-indicators}
 
-[Stato degli indicatori LED](../../faq/led.md#gl-xe3000){target="_blank"}
+Di seguito sono descritti gli stati dei LED per diversi eventi. Per consultare tutti gli stati di ciascun LED, fare riferimento a [Stato degli indicatori LED del GL-XE3000](../../faq/led.md#gl-xe3000){target="_blank"}.
 
-## Come configurare Puli AX
+| Stato del dispositivo | Alimentazione | Internet | 2.4GHz | 5GHz | Cellular |
+| --- | --- | --- | --- | --- | --- |
+| Connesso a Internet (Cellular attivo) | Verde acceso | Verde acceso | Verde acceso | Verde acceso | Verde acceso |
+| Connesso a Internet (Cellular inattivo) | Verde acceso | Verde acceso | Verde acceso | Verde acceso | Spento |
+| Nessuna connessione Internet | Verde acceso | Spento | Verde acceso | Verde acceso | Spento |
+| Aggiornamento firmware | Verde acceso | Lampeggia ogni 0,5 s | Lampeggia ogni 0,5 s | Lampeggia ogni 0,5 s | Verde acceso |
+| Ripristino rete (tieni premuto reset per 5 s) | Lampeggia ogni 1 s | Verde acceso | Verde acceso | Verde acceso | Verde acceso |
+| Ripristino di fabbrica (tieni premuto reset per 10 s) | Lampeggia ogni 0,25 s | Verde acceso | Verde acceso | Verde acceso | Verde acceso |
+
+**Suggerimento**: quando la connessione Internet è attiva, un LED 2.4GHz o 5GHz lampeggiante indica che dispositivi Wi-Fi sono connessi e stanno trasmettendo dati.
+
+## Come configurare Puli AX {#how-to-set-up-puli-ax}
 
 Guarda questo video di configurazione oppure segui i passaggi qui sotto.
 
@@ -36,11 +47,11 @@ Guarda questo video di configurazione oppure segui i passaggi qui sotto.
     2. Spegni il router.
     3. Inserisci la SIM negli slot SIM. (**Nota:** solo una SIM e attiva alla volta. L'altra funziona solo come backup.)
 
-### 1. Accensione
+### 1. Accensione {#1-power-on}
 
 Assembla l'alimentatore in due parti. Collegalo al router e inseriscilo in una presa di corrente. Il dispositivo si avviera automaticamente.
 
-### 2. Collegare un dispositivo
+### 2. Collegare un dispositivo {#2-connect-device}
 
 Collega un dispositivo, ad esempio un computer, un portatile o uno smartphone, al router tramite Wi-Fi o Ethernet.
 
@@ -52,23 +63,23 @@ Collega un dispositivo, ad esempio un computer, un portatile o uno smartphone, a
 
     Sul dispositivo, individua il nome della rete Wi-Fi del router nell'elenco delle reti disponibili e inserisci la password. Il nome di rete e la password predefiniti sono stampati sull'etichetta del router.
 
-### 3. Accedere al pannello di amministrazione web
+### 3. Accedere al pannello di amministrazione web {#3-log-in-to-web-admin-panel}
 
 Apri un browser web, inserisci `192.168.8.1` nella barra degli indirizzi ed effettua l'accesso. Scegli la lingua, imposta la password di amministrazione e fai clic su **Apply**.
 
 Quando confermi i dettagli del Wi-Fi, tieni presente che se modifichi le informazioni Wi-Fi dovrai ricollegare il dispositivo alla rete Wi-Fi del router utilizzando le credenziali aggiornate.
 
-### 4. Configurazione di Internet
+### 4. Configurazione di Internet {#4-internet-setup}
 
 **Nota:** Le istruzioni seguenti si applicano agli utenti che configurano il router tramite il pannello di amministrazione web GL.iNet. Se preferisci utilizzare l'app GL.iNet, [scarica l'app](https://www.gl-inet.com/app/){target="_blank"} e segui le istruzioni visualizzate sullo schermo.
 
-Configura Puli AX utilizzando uno dei metodi di connessione Internet supportati: Cellular, Ethernet, Repeater e Tethering. Se vuoi utilizzare la funzione [Multi-WAN](../../interface_guide/multi-wan.md), configura piu di una connessione Internet.
+Configura Puli AX utilizzando uno dei metodi di connessione Internet supportati: Cellular, Ethernet, Repeater e Tethering. Se vuoi utilizzare la funzione [Multi-WAN](../../interface_guide/multi-wan.md), configura più di una connessione Internet.
 
 === "Cellular"
 
     ![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe3000/internet/xe3000_cellular.png){class="glboxshadow"}
 
-    Se hai gia inserito la SIM nel router, la connessione Internet dovrebbe attivarsi automaticamente. Dovresti vedere il nome dell'operatore della SIM e un punto verde comparire nella sezione Cellular.
+    Se hai già inserito la SIM nel router, la connessione Internet dovrebbe attivarsi automaticamente. Dovresti vedere il nome dell'operatore della SIM e un punto verde comparire nella sezione Cellular.
     
     In caso contrario, spegni il router, reinserisci la SIM e riaccendilo.
     
@@ -84,7 +95,7 @@ Configura Puli AX utilizzando uno dei metodi di connessione Internet supportati:
     
     Collega un cavo Ethernet tra la porta WAN del router e un dispositivo a monte, ad esempio un modem.
 
-    Una volta stabilita correttamente la connessione a Internet, nella sezione Ethernet della pagina INTERNET comparira un punto verde.
+    Una volta stabilità correttamente la connessione a Internet, nella sezione Ethernet della pagina INTERNET comparira un punto verde.
 
     Per istruzioni dettagliate, fai riferimento a [Connessione a Internet tramite cavo Ethernet](../../interface_guide/internet_ethernet.md).
 
@@ -96,7 +107,7 @@ Configura Puli AX utilizzando uno dei metodi di connessione Internet supportati:
     2. Seleziona una rete Wi-Fi tra quelle disponibili.
     3. Inserisci la password, quindi fai clic su **Apply**.
     
-    Una volta stabilita correttamente la connessione a Internet, nella sezione Repeater della pagina INTERNET comparira un punto verde.
+    Una volta stabilità correttamente la connessione a Internet, nella sezione Repeater della pagina INTERNET comparira un punto verde.
 
     Per istruzioni dettagliate, fai riferimento a [Connessione a Internet tramite una rete Wi-Fi esistente](../../interface_guide/internet_repeater.md).
 
@@ -108,13 +119,13 @@ Configura Puli AX utilizzando uno dei metodi di connessione Internet supportati:
     2. Sul dispositivo mobile, vai nelle impostazioni e abilita il tethering USB.
     3. Nella pagina INTERNET del pannello di amministrazione web, fai clic su **Connect** nella sezione Tethering.
     
-    Una volta stabilita correttamente la connessione a Internet, nella sezione Tethering della pagina INTERNET comparira un punto verde.
+    Una volta stabilità correttamente la connessione a Internet, nella sezione Tethering della pagina INTERNET comparira un punto verde.
 
     Per istruzioni dettagliate, fai riferimento a [Connessione a Internet tramite tethering USB](../../interface_guide/internet_tethering.md).
 
 ---
 
-## Come configurare una VPN
+## Come configurare una VPN {#how-to-set-up-a-vpn}
 
 Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il tuo dispositivo e il server VPN. Offre un ulteriore livello di privacy e sicurezza, nel caso del client VPN, e permette di accedere a una rete remota, nel caso del server VPN. Puli AX, come gli altri router GL.iNet, supporta OpenVPN e WireGuard. Inoltre supporta Tor.
 
@@ -127,32 +138,32 @@ Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il t
 
 === "WireGuard"
 
-    Puli AX, come gli altri router GL.iNet, supporta il protocollo WireGuard, che offre ottime velocita e praticita. Per configurare WireGuard, segui queste guide:
+    Puli AX, come gli altri router GL.iNet, supporta il protocollo WireGuard, che offre ottime velocità e praticita. Per configurare WireGuard, segui queste guide:
 
     * [Come configurare un client WireGuard](../../interface_guide/wireguard_client.md)
     * [Come configurare un server WireGuard](../../interface_guide/wireguard_server.md)
 
 === "Tor"
 
-    Tor, abbreviazione di The Onion Router, e una rete incentrata sulla privacy che consente comunicazioni anonime su Internet. Instrada il traffico Internet attraverso una serie di server volontari, chiamati nodi, per oscurare la posizione e l'utilizzo dell'utente, rendendo difficile tracciare le attivita online.
+    Tor, abbreviazione di The Onion Router, e una rete incentrata sulla privacy che consente comunicazioni anonime su Internet. Instrada il traffico Internet attraverso una serie di server volontari, chiamati nodi, per oscurare la posizione e l'utilizzo dell'utente, rendendo difficile tracciare le attività online.
     
     * [Come configurare Tor](../../interface_guide/tor.md).
 
-## Wi-Fi e client
+## Wi-Fi e client {#wireless-and-clients}
 
 === "Wi-Fi"
 
-    La pagina Wireless consente di configurare le impostazioni delle reti Wi-Fi sia a 5 GHz sia a 2,4 GHz, tra cui abilitazione del Wi-Fi, impostazione della potenza TX, definizione del nome della rete Wi-Fi (SSID), abilitazione del BSSID casuale, selezione della modalita di sicurezza Wi-Fi e della password, configurazione della visibilita dell'SSID, scelta della modalita Wi-Fi, della larghezza di banda e del canale.
+    La pagina Wireless consente di configurare le impostazioni delle reti Wi-Fi sia a 5 GHz sia a 2,4 GHz, tra cui abilitazione del Wi-Fi, impostazione della potenza TX, definizione del nome della rete Wi-Fi (SSID), abilitazione del BSSID casuale, selezione della modalità di sicurezza Wi-Fi e della password, configurazione della visibilità dell'SSID, scelta della modalità Wi-Fi, della larghezza di banda e del canale.
 
     Per configurare Wireless, fai riferimento a [Wireless](../../interface_guide/wireless.md).
 
 === "Client"
 
-    La pagina Client mostra le informazioni sui dispositivi connessi. Per ogni client visualizza nome, indirizzi IP e MAC, velocita di download e upload, traffico totale e offre la possibilita di bloccare il client o eseguire altre azioni.
+    La pagina Client mostra le informazioni sui dispositivi connessi. Per ogni client visualizza nome, indirizzi IP e MAC, velocità di download e upload, traffico totale e offre la possibilità di bloccare il client o eseguire altre azioni.
 
     Per configurare i client, fai riferimento a [Clients](../../interface_guide/clients.md).
 
-## Servizi cloud
+## Servizi cloud {#cloud-services}
 
 === "GoodCloud"
 
@@ -162,15 +173,15 @@ Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il t
 
 === "AstroWarp"
 
-    AstroWarp e una piattaforma di rete avanzata progettata per offrire networking remoto senza interruzioni e gestione remota dei dispositivi. Sviluppata appositamente per l'integrazione con i router GL.iNet, AstroWarp supporta una gestione completa dei dispositivi in intere reti, consentendo il controllo sia dei dispositivi a monte sia di quelli a valle. Grazie all'attenzione alla gestione dell'intera rete e al futuro supporto per il controllo a livello hardware, AstroWarp offre una soluzione piu solida e affidabile per la gestione dei dispositivi e il mantenimento di reti sicure e stabili.
+    AstroWarp e una piattaforma di rete avanzata progettata per offrire networking remoto senza interruzioni e gestione remota dei dispositivi. Sviluppata appositamente per l'integrazione con i router GL.iNet, AstroWarp supporta una gestione completa dei dispositivi in intere reti, consentendo il controllo sia dei dispositivi a monte sia di quelli a valle. Grazie all'attenzione alla gestione dell'intera rete e al futuro supporto per il controllo a livello hardware, AstroWarp offre una soluzione più solida e affidabile per la gestione dei dispositivi e il mantenimento di reti sicure e stabili.
     
     Per configurare AstroWarp, fai riferimento a [AstroWarp](../../interface_guide/astrowarp.md).
 
-## Applicazioni
+## Applicazioni {#applications}
 
 === "Plug-in"
 
-    Un plug-in e un componente software che aggiunge funzionalita specifiche a un programma esistente, consentendo la personalizzazione e l'ampliamento delle sue capacita.
+    Un plug-in e un componente software che aggiunge funzionalità specifiche a un programma esistente, consentendo la personalizzazione e l'ampliamento delle sue capacità.
     
     Per configurare i plug-in, fai riferimento a [Plug-ins](../../interface_guide/plugins.md).
 
@@ -182,7 +193,7 @@ Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il t
 
 === "Archiviazione di rete"
 
-    L'archiviazione di rete e una soluzione di archiviazione dati centralizzata che consente a piu utenti e dispositivi di accedere ai file e condividerli tramite una rete.
+    L'archiviazione di rete e una soluzione di archiviazione dati centralizzata che consente a più utenti e dispositivi di accedere ai file e condividerli tramite una rete.
     
     Per configurare l'archiviazione di rete, fai riferimento a [Network Storage](../../interface_guide/network_storage.md).
 
@@ -220,7 +231,7 @@ Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il t
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/hyHh8pAxgVw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Impostazioni di rete
+## Impostazioni di rete {#network-settings}
 
 === "Port forwarding"
 
@@ -228,13 +239,13 @@ Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il t
 
 === "Multi-WAN"
 
-    Multi-WAN e una funzione di rete che consente di configurare il router con piu connessioni Internet contemporaneamente, ad esempio rete cellulare, repeater ed Ethernet. Se la connessione Internet corrente si interrompe, il router passera automaticamente a un'altra connessione Internet. Questo garantisce un accesso a Internet fluido e senza interruzioni.
+    Multi-WAN e una funzione di rete che consente di configurare il router con più connessioni Internet contemporaneamente, ad esempio rete cellulare, repeater ed Ethernet. Se la connessione Internet corrente si interrompe, il router passera automaticamente a un'altra connessione Internet. Questo garantisce un accesso a Internet fluido e senza interruzioni.
 
     Per configurare Multi-WAN, fai riferimento a [Multi-WAN](../../interface_guide/multi-wan.md).
 
 === "LAN"
 
-    La LAN, o Local Area Network, e una rete che collega computer e dispositivi all'interno di un'area geografica limitata, ad esempio una casa o un ufficio. Consente trasferimenti dati ad alta velocita e la condivisione delle risorse, permettendo ai dispositivi di comunicare tra loro in modo efficiente.
+    La LAN, o Local Area Network, e una rete che collega computer e dispositivi all'interno di un'area geografica limitata, ad esempio una casa o un ufficio. Consente trasferimenti dati ad alta velocità e la condivisione delle risorse, permettendo ai dispositivi di comunicare tra loro in modo efficiente.
     
     Per configurare la LAN, fai riferimento a [LAN](../../interface_guide/lan.md).
 
@@ -248,33 +259,33 @@ Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il t
 
 === "DNS"
 
-    La pagina DNS consente di impostare server DNS personalizzati, abilitare la protezione contro gli attacchi di DNS rebinding, sovrascrivere le impostazioni DNS di tutti i client, consentire ai DNS personalizzati di sovrascrivere i DNS della VPN e configurare la modalita delle impostazioni del server DNS su automatica oppure specificare manualmente i server DNS della connessione Ethernet.
+    La pagina DNS consente di impostare server DNS personalizzati, abilitare la protezione contro gli attacchi di DNS rebinding, sovrascrivere le impostazioni DNS di tutti i client, consentire ai DNS personalizzati di sovrascrivere i DNS della VPN e configurare la modalità delle impostazioni del server DNS su automatica oppure specificare manualmente i server DNS della connessione Ethernet.
 
     Per configurare il DNS, fai riferimento a [DNS](../../interface_guide/dns.md).
 
 === "Porta Ethernet"
 
-    La pagina Porta Ethernet consente di configurare le porte WAN e LAN, impostare l'interfaccia WAN/LAN su Ethernet, specificare la modalita MAC e l'indirizzo MAC per l'interfaccia WAN e mostrare la velocita negoziata della porta di rete.
+    La pagina Porta Ethernet consente di configurare le porte WAN e LAN, impostare l'interfaccia WAN/LAN su Ethernet, specificare la modalità MAC e l'indirizzo MAC per l'interfaccia WAN e mostrare la velocità negoziata della porta di rete.
 
     Per gestire le porte Ethernet, fai riferimento a [Ethernet Port](../../interface_guide/ethernet_port.md).
 
 ---
 
-=== "Modalita di rete"
+=== "Modalità di rete"
 
-    La modalita di rete si riferisce alle impostazioni di configurazione che determinano come un dispositivo si connette a una rete e comunica con altri dispositivi.
+    La modalità di rete si riferisce alle impostazioni di configurazione che determinano come un dispositivo si connette a una rete e comunica con altri dispositivi.
     
-    Per configurare la modalita di rete, fai riferimento a [Network Mode](../../interface_guide/network_mode.md).
+    Per configurare la modalità di rete, fai riferimento a [Network Mode](../../interface_guide/network_mode.md).
 
 === "IPv6"
 
-    IPv6, o Internet Protocol versione 6, e la versione piu recente del protocollo Internet, progettata per sostituire IPv4. Offre uno spazio di indirizzamento molto piu ampio, consentendo un numero virtualmente illimitato di indirizzi IP univoci, indispensabile per supportare il numero crescente di dispositivi connessi a Internet.
+    IPv6, o Internet Protocol versione 6, e la versione più recente del protocollo Internet, progettata per sostituire IPv4. Offre uno spazio di indirizzamento molto più ampio, consentendo un numero virtualmente illimitato di indirizzi IP univoci, indispensabile per supportare il numero crescente di dispositivi connessi a Internet.
     
     Per configurare IPv6, fai riferimento a [IPv6](../../interface_guide/ipv6.md).
 
 === "Drop-in Gateway"
 
-    Drop-in Gateway estende le funzionalita del router principale con caratteristiche che potrebbe non avere, tra cui AdGuard Home, DNS crittografato e VPN.
+    Drop-in Gateway estende le funzionalità del router principale con caratteristiche che potrebbe non avere, tra cui AdGuard Home, DNS crittografato e VPN.
     
     Per configurare Drop-in Gateway, fai riferimento a [Come configurare Drop-in Gateway](../../tutorials/how_to_set_up_drop_in_gateway.md).
 
@@ -288,17 +299,17 @@ Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il t
 
 === "Accelerazione di rete"
 
-    L'accelerazione hardware si riferisce all'uso di componenti hardware specializzati per eseguire attivita specifiche in modo piu efficiente rispetto alle CPU generiche.
+    L'accelerazione hardware si riferisce all'uso di componenti hardware specializzati per eseguire attività specifiche in modo più efficiente rispetto alle CPU generiche.
     
     Per configurare l'accelerazione di rete, fai riferimento alla guida [Network Acceleration](../../interface_guide/network_acceleration.md).
 
 === "Impostazioni NAT"
 
-    La pagina Impostazioni NAT consente di abilitare o disabilitare le funzionalita Full Cone NAT e SIP ALG (Application Layer Gateway).
+    La pagina Impostazioni NAT consente di abilitare o disabilitare le funzionalità Full Cone NAT e SIP ALG (Application Layer Gateway).
 
     Per configurare le impostazioni NAT, fai riferimento a [NAT Settings](../../interface_guide/nat_settings.md).
 
-## Impostazioni di sistema
+## Impostazioni di sistema {#system-settings}
 
 === "Panoramica"
 
@@ -328,14 +339,14 @@ Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il t
 
     Per istruzioni dettagliate, fai riferimento a [Upgrade](../../interface_guide/upgrade.md).
 
-=== "Attivita pianificate"
+=== "Attività pianificate"
 
-    La pagina Attivita pianificate consente di automatizzare diverse funzioni del router in base a una pianificazione predefinita, migliorando comodita ed efficienza. Le principali funzioni di questa pagina includono:
+    La pagina Attività pianificate consente di automatizzare diverse funzioni del router in base a una pianificazione predefinita, migliorando comodita ed efficienza. Le principali funzioni di questa pagina includono:
 
     * Pianificazione LED: imposta una pianificazione per accendere o spegnere automaticamente i LED del router, riducendo l'inquinamento luminoso in orari specifici.
-    * Riavvio pianificato: configura il router affinche si riavvii automaticamente a intervalli specifici, contribuendo a mantenere prestazioni e stabilita ottimali.
-    * Pianificazione stato Wi-Fi 5GHz: imposta una pianificazione per controllare la banda Wi-Fi a 5GHz, consentendo una migliore gestione della disponibilita di rete e del consumo energetico.
-    * Pianificazione stato Wi-Fi 2.4GHz: imposta una pianificazione per controllare la banda Wi-Fi a 2.4GHz, consentendo una migliore gestione della disponibilita di rete e del consumo energetico.
+    * Riavvio pianificato: configura il router affinche si riavvii automaticamente a intervalli specifici, contribuendo a mantenere prestazioni e stabilità ottimali.
+    * Pianificazione stato Wi-Fi 5GHz: imposta una pianificazione per controllare la banda Wi-Fi a 5GHz, consentendo una migliore gestione della disponibilità di rete e del consumo energetico.
+    * Pianificazione stato Wi-Fi 2.4GHz: imposta una pianificazione per controllare la banda Wi-Fi a 2.4GHz, consentendo una migliore gestione della disponibilità di rete e del consumo energetico.
     
     Queste opzioni di pianificazione ti offrono un maggiore controllo sul funzionamento del router, assicurando che risponda alle tue esigenze e preferenze specifiche.
 
@@ -345,18 +356,18 @@ Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il t
 
 === "Fuso orario"
 
-    La pagina Fuso orario consente di impostare il fuso orario corretto del router, garantendo che tutte le attivita pianificate, i log e gli eventi di sistema vengano registrati correttamente in base all'ora locale. Questa impostazione e fondamentale per mantenere registrazioni precise e per il corretto funzionamento delle configurazioni basate sul tempo.
+    La pagina Fuso orario consente di impostare il fuso orario corretto del router, garantendo che tutte le attività pianificate, i log e gli eventi di sistema vengano registrati correttamente in base all'ora locale. Questa impostazione e fondamentale per mantenere registrazioni precise e per il corretto funzionamento delle configurazioni basate sul tempo.
 
     Per istruzioni dettagliate, fai riferimento a [Time Zone](../../interface_guide/time_zone.md).
 
 === "Log"
 
-    La pagina Log fornisce accesso a vari registri che documentano attivita ed eventi del router, aiutando nella risoluzione dei problemi e nel monitoraggio delle prestazioni. Questa pagina include:
+    La pagina Log fornisce accesso a vari registri che documentano attività ed eventi del router, aiutando nella risoluzione dei problemi e nel monitoraggio delle prestazioni. Questa pagina include:
 
-    * Log di sistema: registri dettagliati di eventi e attivita a livello di sistema.
+    * Log di sistema: registri dettagliati di eventi e attività a livello di sistema.
     * Log del kernel: registri relativi alle operazioni e agli eventi del kernel.
     * Log di crash: registrazioni di arresti anomali ed errori di sistema, utili per diagnosticare problemi critici.
-    * Log cloud: registri delle interazioni e delle attivita relative ai servizi GoodCloud integrati nel router.
+    * Log cloud: registri delle interazioni e delle attività relative ai servizi GoodCloud integrati nel router.
     * Log Nginx: registri del server web Nginx, se utilizzato dal router, che descrivono il traffico web e le operazioni del server.
     
     Inoltre, la pagina include un pulsante Export Log che consente di esportare tutti i log raccolti per l'analisi da parte del supporto tecnico. Questa funzione e preziosa per diagnosticare problemi complessi e ottenere assistenza professionale.
@@ -380,12 +391,12 @@ Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il t
 
 === "Ripristino firmware"
 
-    La pagina Ripristino firmware consente di reimpostare il firmware attualmente installato alle impostazioni predefinite, cancellando tutte le configurazioni personalizzate. Questo processo ripristina il router alle impostazioni predefinite della versione firmware attualmente installata. Puo essere utile per risolvere problemi persistenti o per ripartire da una configurazione pulita con le impostazioni predefinite del firmware corrente.
+    La pagina Ripristino firmware consente di reimpostare il firmware attualmente installato alle impostazioni predefinite, cancellando tutte le configurazioni personalizzate. Questo processo ripristina il router alle impostazioni predefinite della versione firmware attualmente installata. Può essere utile per risolvere problemi persistenti o per ripartire da una configurazione pulita con le impostazioni predefinite del firmware corrente.
 
     Per istruzioni dettagliate, fai riferimento a [Reset Firmware](../../interface_guide/reset_firmware.md).
 
 === "Impostazioni avanzate"
 
-    La pagina Impostazioni avanzate fornisce accesso a opzioni di configurazione avanzata tramite l'interfaccia OpenWrt LuCI, consentendo agli utenti esperti di regolare in dettaglio le impostazioni e le funzionalita del router oltre le opzioni di base dell'interfaccia. Cio include configurazioni di rete dettagliate, impostazioni del firewall e altre personalizzazioni avanzate del sistema.
+    La pagina Impostazioni avanzate fornisce accesso a opzioni di configurazione avanzata tramite l'interfaccia OpenWrt LuCI, consentendo agli utenti esperti di regolare in dettaglio le impostazioni e le funzionalità del router oltre le opzioni di base dell'interfaccia. Cio include configurazioni di rete dettagliate, impostazioni del firewall e altre personalizzazioni avanzate del sistema.
 
     Per istruzioni dettagliate, fai riferimento a [Advanced Settings](../../interface_guide/advanced_settings.md).

@@ -1,4 +1,4 @@
-# Resumen del sistema
+# Resumen del sistema {#system-overview}
 
 En el lado izquierdo del panel de administración web, vaya a **SYSTEM** -> **Overview**.
 
@@ -13,7 +13,7 @@ Aquí se muestra un ejemplo del GL-MT3000.
 
 ![system overview](https://static.gl-inet.com/docs/router/en/4/interface_guide/system_overview/overview.png){class="glboxshadow"}
 
-## Carga media de la CPU
+## Carga media de la CPU {#cpu-average-load}
 
 En la mayoría de los modelos sin ventilador, la carga media de la CPU se muestra como se indica a continuación.
 
@@ -45,7 +45,7 @@ Haga clic en el icono del ventilador, situado en la esquina superior derecha, pa
     - GL-MT3000 (Beryl AX)
     - GL-AXT1800 (Slate AX)
 
-## Uso de memoria
+## Uso de memoria {#memory-usage}
 
 Pase el cursor sobre el gráfico para mostrar valores concretos.
 
@@ -53,19 +53,19 @@ Pase el cursor sobre el gráfico para mostrar valores concretos.
 
 ![system overview, memory usage](https://static.gl-inet.com/docs/router/en/4/interface_guide/system_overview/memory_usage.png){class="glboxshadow gl-70-desktop"}
 
-## LED
+## LED {#led}
 
 Al hacer clic en el icono de engranaje, irá a [Scheduled Tasks](scheduled_tasks.md) del LED.
 
 ![system overview, memory usage](https://static.gl-inet.com/docs/router/en/4/interface_guide/system_overview/led.png){class="glboxshadow gl-70-desktop"}
 
-## Flash
+## Flash {#flash}
 
 Muestra la memoria flash total, incluida la utilizada por el sistema, la utilizada por las aplicaciones y la disponible restante.
 
 ![system overview, flash](https://static.gl-inet.com/docs/router/en/4/interface_guide/system_overview/flash.png){class="glboxshadow"}
 
-## Información del dispositivo
+## Información del dispositivo {#device-info}
 
 Esta sección muestra la información básica del dispositivo.
 
@@ -73,7 +73,7 @@ Device ID, device MAC y device S/N se añadieron en el firmware v4.7 y versiones
 
 ![system overview, device info](https://static.gl-inet.com/docs/router/en/4/interface_guide/system_overview/device_info.jpg){class="glboxshadow gl-80-desktop"}
 
-## Almacenamiento externo
+## Almacenamiento externo {#external-storage}
 
 Esta sección, disponible desde la versión v4.5, muestra la capacidad total y disponible del disco USB.
 

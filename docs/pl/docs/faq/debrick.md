@@ -1,4 +1,4 @@
-# Użycie U-Boot do odbrickowania routera
+# Użycie U-Boot do odbrickowania routera {#using-uboot-to-unbrick-your-router}
 
 Jeśli router został uszkodzony po własnych modyfikacjach lub wgraniu niewłaściwego firmware, dostęp do niego może być niemożliwy. W takim przypadku możesz ponownie zainstalować firmware za pomocą trybu awaryjnego U-Boot.
 
@@ -6,13 +6,13 @@ Jeśli router został uszkodzony po własnych modyfikacjach lub wgraniu niewła�
 
 ---
 
-## Przygotowanie
+## Przygotowanie {#preparation}
 
 Przygotuj komputer lub laptop z portem Ethernet. Jeśli komputer nie ma portu Ethernet, potrzebny będzie dodatkowy adapter USB-Ethernet.
 
 **Uwaga**: GL-E5800 (Mudi 7) obecnie nie obsługuje wgrywania firmware przez U-Boot.
 
-## Kroki odbrickowania
+## Kroki odbrickowania {#unbrick-steps}
 
 Obejrzyj ten samouczek wideo lub wykonaj poniższe czynności, aby uzyskać dostęp do interfejsu U-Boot Web UI i ponownie zainstalować firmware.
 

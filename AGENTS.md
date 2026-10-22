@@ -16,8 +16,15 @@ This repository contains GL.iNet router documentation built with MkDocs. These r
 - Keep headings, callouts, numbered steps, bullet lists, tables, image references, links, and separators coherent with nearby pages.
 - Preserve admonition blocks such as `!!! Note` and keep their content complete.
 - Keep image URLs and relative links unchanged unless the target file or path intentionally changes.
-- Preserve explicit custom heading anchors and hash IDs exactly as written, such as `{#example-anchor}` or `{custom-anchor}`.
-- After changing headings, check same-page and cross-page anchor links when practical.
+
+## Heading IDs and Anchor Links
+
+- Every Markdown heading in every language, including English, carries an explicit ID, for example `## Port Forwards {#port-forwards}`. Always include the `#`; `{port-forwards}` without `#` does not set an ID.
+- English is the source of heading IDs. A localized heading uses the same ID as the matching English heading: translate the heading text, never the ID.
+- IDs are lowercase ASCII kebab-case and unique within the page. For a new heading, derive the ID from the English heading text. For a heading that exists only in a localized page, derive the ID from an English rendering of that heading.
+- Do not change an existing ID when heading wording changes, because links and bookmarks depend on it. If an ID must change, update it in every language and update every link that uses it.
+- Anchor links use the shared ID in every language, for example `[Tunnel-Optionen](vpn_dashboard.md#tunnel-options)`. Do not add `<a id>` or `<span id>` placeholders for headings.
+- After adding or editing headings or anchor links, run `python scripts/anchors.py check`.
 
 ## UI Labels and Navigation
 
@@ -38,3 +45,7 @@ This repository contains GL.iNet router documentation built with MkDocs. These r
 ## Translation Work
 
 Use the `glinet-docs-translation` skill for translation-specific tasks, including translating English docs into localized docs, syncing English changes into localized files, or reviewing localized translation quality. Keep detailed translation workflow and language terminology rules in that skill, not in this default repository guidance.
+
+After adding, renaming, or deleting pages, editing `redirect_maps`, or changing localized pages, run `python scripts/i18n_check.py`. It compares each localized page with the English page section by section (images, admonitions, code blocks, tables, links, IP addresses, and version numbers) and reports orphan pages and broken redirects. It also flags untranslated English and language rules such as Italian accents, Russian letters in Ukrainian, and French spaces before `: ; ? !`. Fix the translation; add an entry to `scripts/i18n_allowlist.yml` only for intentional differences, with a reason.
+
+The pre-commit hook in `.githooks/` runs these checks on staged files; enable it with `git config core.hooksPath .githooks`.

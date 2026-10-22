@@ -1,12 +1,12 @@
-# Podręcznik użytkownika Marble (GL-B3000)
+# Podręcznik użytkownika Marble (GL-B3000) {#marble-gl-b3000-user-guide}
 
-## Przegląd produktu
+## Przegląd produktu {#product-overview}
 
 Router Marble (GL-B3000) to wyjątkowe urządzenie zaprojektowane w formie ramki na zdjęcie, dzięki czemu może eksponować ulubioną grafikę i jednocześnie stanowić ozdobę wnętrza. Oprócz atrakcyjnego wyglądu Marble (GL-B3000) zapewnia wysoką wydajność dzięki Wi-Fi 6 i obsłudze funkcji VPN.
 
 ![gl-b3000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-b3000/hardware_info/b3000_interface.png){class="glboxshadow"}
 
-## Zawartość opakowania
+## Zawartość opakowania {#package-contents}
 
 - 1 x Marble (GL-B3000)
 - 1 x instrukcja obsługi
@@ -21,7 +21,7 @@ Router Marble (GL-B3000) to wyjątkowe urządzenie zaprojektowane w formie ramki
 
 ![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-b3000/first_time_setup/b3000_unboxing.jpg){class="glboxshadow"}
 
-## Jak skonfigurować Marble
+## Jak skonfigurować Marble {#how-to-set-up-marble}
 
 Obejrzyj filmy dotyczące montażu i konfiguracji lub wykonaj poniższe kroki.
 
@@ -29,11 +29,11 @@ Obejrzyj filmy dotyczące montażu i konfiguracji lub wykonaj poniższe kroki.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-U2WTVYRkPU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Włączenie zasilania
+### 1. Włączenie zasilania {#1-power-on}
 
 Złóż dwuczęściowy zasilacz. Podłącz go do routera i włóż do gniazdka. Router uruchomi się automatycznie.
 
-### 2. Podłączenie urządzenia
+### 2. Podłączenie urządzenia {#2-connect-device}
 
 Podłącz urządzenie (np. komputer, laptop lub smartfon) do routera za pomocą Wi-Fi lub kabla Ethernet.
 
@@ -45,11 +45,11 @@ Podłącz urządzenie (np. komputer, laptop lub smartfon) do routera za pomocą 
 
     Na urządzeniu przejdź do Settings -> WLAN, odszukaj nazwę sieci Wi-Fi routera na liście dostępnych sieci i wpisz hasło. (Domyślną nazwę sieci i hasło znajdziesz na etykiecie routera).
 
-### 3. Logowanie do panelu administracyjnego
+### 3. Logowanie do panelu administracyjnego {#3-log-in-to-web-admin-panel}
 
 Otwórz przeglądarkę internetową, wpisz `192.168.8.1` w pasku adresu i zaloguj się. Wybierz język i ustaw hasło administratora, a następnie kliknij **Apply**.
 
-### 4. Konfiguracja internetu
+### 4. Konfiguracja internetu {#4-internet-setup}
 
 **Uwaga:** Poniższe instrukcje dotyczą użytkowników konfigurujących router przez panel GL.iNet Web Admin Panel. Jeśli wolisz użyć aplikacji GL.iNet, [pobierz aplikację](https://www.gl-inet.com/app/){target="_blank"} i postępuj zgodnie z instrukcjami wyświetlanymi na ekranie.
 
@@ -79,7 +79,7 @@ Skonfiguruj Marble, korzystając z jednej z obsługiwanych metod połączenia z 
 
 ---
 
-## Jak skonfigurować VPN
+## Jak skonfigurować VPN {#how-to-set-up-a-vpn}
 
 VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między Twoim urządzeniem a serwerem VPN. Zapewnia dodatkową warstwę prywatności i bezpieczeństwa jako klient VPN oraz umożliwia dostęp do zdalnej sieci jako serwer VPN. Marble (i inne routery GL.iNet) obsługuje OpenVPN i WireGuard. Dodatkowo obsługuje również Tor.
 
@@ -105,7 +105,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między Twoim 
 
 ---
 
-## Sieć bezprzewodowa i klienci
+## Sieć bezprzewodowa i klienci {#wireless-and-clients}
 
 === "Wireless"
 
@@ -119,7 +119,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między Twoim 
 
     Aby skonfigurować Clients, zapoznaj się z [Clients](../../interface_guide/clients.md).
 
-## Usługi chmurowe
+## Usługi chmurowe {#cloud-services}
 
 === "GoodCloud"
 
@@ -133,7 +133,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między Twoim 
 
     AstroWarp to zaawansowana platforma sieciowa zaprojektowana z myślą o płynnej pracy sieci zdalnych i zdalnym zarządzaniu urządzeniami. Została stworzona specjalnie do integracji z routerami GL.iNet i obsługuje kompleksowe zarządzanie urządzeniami w całych sieciach, umożliwiając kontrolę urządzeń nadrzędnych i podrzędnych. Koncentrując się na zarządzaniu całosieciowym i przyszłym wsparciu sterowania na poziomie sprzętowym, AstroWarp oferuje solidniejsze i bardziej niezawodne rozwiązanie do zarządzania urządzeniami oraz utrzymywania bezpiecznych, stabilnych sieci.
 
-## Aplikacje
+## Aplikacje {#applications}
 
 === "Plug-ins"
 
@@ -167,7 +167,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między Twoim 
 
 ---
 
-## Ustawienia sieciowe
+## Ustawienia sieciowe {#network-settings}
 
 === "Firewall"
 
@@ -181,7 +181,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między Twoim 
 
 === "Multi-WAN"
 
-    Multi-WAN to funkcja sieciowa pozwalająca skonfigurować router z wieloma połączeniami internetowymi jednocześnie (np. cellular, repeater i ethernet). Jeśli bieżące połączenie internetowe przestanie działać, router automatycznie przełączy się na inne połączenie. Zapewnia to płynny i nieprzerwany dostęp do internetu.
+    Multi-WAN to funkcja sieciowa pozwalająca skonfigurować router z wieloma połączeniami internetowymi jednocześnie (np. Ethernet i Repeater). Jeśli bieżące połączenie internetowe przestanie działać, router automatycznie przełączy się na inne połączenie. Zapewnia to płynny i nieprzerwany dostęp do internetu.
 
     Aby skonfigurować Multi-WAN, zapoznaj się z [Multi-WAN](../../interface_guide/multi-wan.md).
 
@@ -292,7 +292,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między Twoim 
 
 ---
 
-## Ustawienia systemowe
+## Ustawienia systemowe {#system-settings}
 
 === "Overview"
 

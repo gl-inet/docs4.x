@@ -1,12 +1,12 @@
-# Przewodnik użytkownika Mango 2 (GL-MG1300)
+# Przewodnik użytkownika Mango 2 (GL-MG1300) {#mango-2-gl-mg1300-user-guide}
 
-## Przegląd produktu
+## Przegląd produktu {#product-overview}
 
 Mango 2 (GL-MG1300) to pierwszy dwupasmowy minirouter podróżny Wi-Fi 5 firmy GL.iNet, wyróżniający się wyjątkowo cienką i przenośną konstrukcją. Oferuje teoretyczne prędkości 400 Mb/s (2,4 GHz) i 866 Mb/s (5 GHz) w konfiguracji MIMO 2×2. Ma fabrycznie zainstalowane OpenVPN i WireGuard, obsługuje ponad 30 usług VPN do szyfrowania ruchu sieciowego, gdy klient VPN jest włączony, i umożliwia zdalne zarządzanie przez GoodCloud, łącząc wydajność, funkcjonalność i bezpieczeństwo.
 
 ![mg1300 illustration](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mg1300/product_info/mg1300_overview.jpg){class="glboxshadow"}
 
-## Zawartość opakowania
+## Zawartość opakowania {#package-contents}
 
 - 1 x Mango 2 (GL-MG1300)
 - 1 x Instrukcja obsługi
@@ -19,15 +19,15 @@ Obejrzyj poniżej film z rozpakowania Mango 2.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xwHgLdWPwPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Jak skonfigurować Mango 2
+## Jak skonfigurować Mango 2 {#how-to-set-up-mango-2}
 
 Aby skonfigurować Mango 2, użyj jednej z czterech obsługiwanych metod połączenia z Internetem: Ethernet, Repeater, Tethering lub Cellular. Wykonaj poniższe czynności.
 
-### 1. Włączenie zasilania
+### 1. Włączenie zasilania {#1-power-on}
 
 Podłącz przewód zasilający USB Type-C do portu zasilania routera. Drugi koniec podłącz do zasilacza 5 V/2 A (brak w zestawie), a następnie do gniazdka elektrycznego.
 
-### 2. Podłączenie urządzenia
+### 2. Podłączenie urządzenia {#2-connect-device}
 
 Połącz urządzenie (np. komputer, laptop lub smartfon) z routerem przez Wi-Fi lub Ethernet.
 
@@ -39,13 +39,13 @@ Połącz urządzenie (np. komputer, laptop lub smartfon) z routerem przez Wi-Fi 
 
     Na urządzeniu przejdź do Settings -> WLAN, znajdź nazwę sieci Wi-Fi routera na liście dostępnych sieci i wprowadź hasło. Domyślna nazwa sieci i hasło są wydrukowane na etykiecie na spodzie routera.
 
-### 3. Logowanie do panelu administracyjnego
+### 3. Logowanie do panelu administracyjnego {#3-log-in-to-web-admin-panel}
 
 Otwórz przeglądarkę, wpisz `192.168.8.1` w pasku adresu i zaloguj się. Wybierz język, ustaw hasło administratora, a następnie kliknij **Apply**.
 
 Jeśli zmienisz dane Wi-Fi, połącz urządzenie ponownie z siecią Wi-Fi routera przy użyciu zaktualizowanych danych logowania.
 
-### 4. Konfiguracja Internetu
+### 4. Konfiguracja Internetu {#4-internet-setup}
 
 **Uwaga:** Poniższe instrukcje dotyczą konfiguracji routera za pomocą GL.iNet Web Admin Panel. Jeśli wolisz używać aplikacji GL.iNet, [pobierz aplikację](https://www.gl-inet.com/app/){target="_blank"} i postępuj zgodnie z instrukcjami na ekranie.
 
@@ -101,19 +101,19 @@ Skonfiguruj Mango 2 za pomocą jednej z obsługiwanych metod połączenia z Inte
 
 Poniżej przedstawiono funkcje panelu administracyjnego Mango 2.
 
-## Wireless
+## Wireless {#wireless}
 
 Strona Wireless umożliwia konfigurację sieci Main Network, Guest Network i IoT Network. Dla każdego typu sieci Wi-Fi można niezależnie skonfigurować pasma 5 GHz i 2,4 GHz. Można też włączyć i określić podstawowe ustawienia każdego pasma, takie jak SSID Wi-Fi, tryb zabezpieczeń, hasło i losowy BSSID.
 
 Zapoznaj się z poradnikiem [Wireless](../../interface_guide/wireless.md).
 
-## Clients
+## Clients {#clients}
 
 Strona Clients wyświetla informacje o podłączonych urządzeniach. Dla każdego klienta pokazuje nazwę, adresy IP i MAC, prędkości pobierania i wysyłania, całkowity transfer oraz umożliwia zablokowanie klienta lub wykonanie innych działań.
 
 Zapoznaj się z poradnikiem [Clients](../../interface_guide/clients.md).
 
-## Usługi chmurowe
+## Usługi chmurowe {#cloud-services}
 
 === "GL.iNet Account"
 
@@ -127,11 +127,11 @@ Zapoznaj się z poradnikiem [Clients](../../interface_guide/clients.md).
 
 === "GoodPAS"
 
-    GoodPAS to zaawansowana funkcja sieciowa zapewniająca płynny zdalny dostęp i zarządzanie urządzeniami. Rozwiązanie zaprojektowano specjalnie do integracji z routerami GL.iNet i wykorzystuje ono protokół AmneziaWG z wbudowanym maskowaniem ruchu, aby zapewnić bezpieczne i stabilne połączenia. Bezpiecznie udostępnia sieć domową z dowolnego miejsca na świecie, umożliwiając dostęp do zasobów domowych, podczas gdy cały ruch wygląda tak, jakby pochodził z publicznego adresu IP domu.
+    GoodPAS to zaawansowana funkcja sieciowa zapewniająca płynny zdalny dostęp i zarządzanie urządzeniami. Rozwiązanie zaprojektowano specjalnie do integracji z routerami GL.iNet i wykorzystuje ono protokół AmneziaWG z wbudowanym maskowaniem ruchu, aby zapewnić bezpieczne i stabilne połączenia. GoodPAS umożliwia zdalny dostęp do sieci domowej. Gdy router domowy pełni funkcję węzła wyjściowego GoodPAS, ruch internetowy wysyłany przez GoodPAS korzysta z publicznego adresu IP WAN tego routera.
 
     Instrukcje konfiguracji zawiera strona [GoodPAS](../../interface_guide/goodpas.md).
 
-## VPN
+## VPN {#vpn}
 
 VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie między urządzeniem a serwerem VPN. Zapewnia dodatkową warstwę prywatności i bezpieczeństwa (klient VPN) oraz umożliwia dostęp do sieci zdalnej (serwer VPN). Mango 2 obsługuje OpenVPN i WireGuard.
 
@@ -149,7 +149,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie międz
     * [Jak skonfigurować klienta WireGuard](../../interface_guide/wireguard_client.md)
     * [Jak skonfigurować serwer WireGuard](../../interface_guide/wireguard_server.md)
 
-## Sieć
+## Sieć {#network}
 
 === "Multi-WAN"
 
@@ -203,15 +203,15 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie międz
 
     Zapoznaj się z poradnikiem [Network Acceleration](../../interface_guide/network_acceleration.md).
 
-## Kontrola przepływu
+## Kontrola przepływu {#flow-control}
 
 === "Parental Control"
 
     Parental Control pomaga zarządzać urządzeniami dzieci i kontrolować ich użycie. Obejmuje to ograniczanie czasu korzystania z ekranu oraz blokowanie dostępu do określonych treści.
 
-    Zapoznaj się z poradnikiem [Parental controls](../../interface_guide/parental_control.md).
+    Aby skonfigurować kontrolę rodzicielską, zapoznaj się z sekcją [Parental Control](../../interface_guide/parental_control_v4.9.md).
 
-## Bezpieczeństwo
+## Bezpieczeństwo {#security}
 
 === "Port Forwarding"
 
@@ -231,7 +231,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie międz
 
     Zapoznaj się z poradnikiem [NAT Settings](../../interface_guide/nat_settings.md).
 
-## Aplikacje
+## Aplikacje {#applications}
 
 === "Plug-ins"
 
@@ -257,7 +257,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie międz
 
     Zapoznaj się z poradnikiem [Tailscale](../../interface_guide/tailscale.md).
 
-## System
+## System {#system}
 
 === "Overview"
 
@@ -349,6 +349,6 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie międz
 
     Szczegółowe instrukcje znajdziesz w poradniku [Advanced Settings](../../interface_guide/advanced_settings.md).
 
-## Deklaracja zgodności
+## Deklaracja zgodności {#declaration-of-conformity}
 
 Niniejszym GL TECHNOLOGIES (HONG KONG) LIMITED oświadcza, że typ urządzenia radiowego [Dwuzakresowy mini router podróżny, GL‑MG1300] jest zgodny z zasadniczymi wymaganiami i innymi odpowiednimi przepisami dyrektywy 2014/53/UE. Pełny tekst deklaracji zgodności UE jest dostępny pod następującym adresem internetowym: [https://www.gl-inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}.

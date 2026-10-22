@@ -1,18 +1,18 @@
-# Mettre à niveau la version d'U-Boot
+# Mettre à niveau la version d'U-Boot {#upgrade-u-boot-version}
 
-## Avertissement
+## Avertissement {#warning}
 
 **La mise à niveau d'U-Boot est très dangereuse et n'est généralement pas recommandée. En cas d'échec, votre appareil sera briqué et il n'y aura aucun moyen de le restaurer. Ne procédez ainsi que lorsque c'est nécessaire ou sur instruction du support GL.iNet.**
 
 **NE coupez PAS l'alimentation pendant le processus de mise à niveau, sinon la mise à niveau peut échouer et l'appareil peut être briqué.**
 
-## Préparation
+## Préparation {#preparation}
 
 - Un ordinateur avec un port Ethernet. Si ce n'est pas le cas, préparez un adaptateur USB vers Ethernet.
 - Un câble Ethernet.
 - Téléchargez le fichier U-Boot conformément aux instructions du support GL.iNet. Assurez-vous d'utiliser le bon fichier U-Boot. Si vous ne savez pas comment télécharger le fichier U-Boot, contactez-nous par e-mail à support@gl-inet.com.
 
-## Étapes de mise à niveau
+## Étapes de mise à niveau {#upgrade-steps}
 
 Veuillez suivre la procédure ci-dessous pour accéder à la page de mise à niveau d'U-Boot.
 

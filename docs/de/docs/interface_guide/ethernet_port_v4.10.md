@@ -1,4 +1,4 @@
-# Ethernet-Port (Firmware v4.10)
+# Ethernet-Port (Firmware v4.10) {#ethernet-port-firmware-v410}
 
 **Hinweis**: Der Inhalt dieser Seite wurde erstmals auf Flint 4 (GL-BE14000) eingeführt und wird mit Firmware v4.10 für weitere Modelle bereitgestellt.
 
@@ -34,7 +34,7 @@ Auf dieser Seite werden alle Schnittstellen des Routers angezeigt. Sie können d
 
 - **Settings**: Klicken Sie hier, um die Konfigurationsseite des jeweiligen Ports aufzurufen.
 
-## WAN
+## WAN {#wan}
 
 In diesem Abschnitt werden der Portmodus (WAN oder LAN), die MAC-Adresse und die ausgehandelte Geschwindigkeit angezeigt.
 
@@ -48,11 +48,11 @@ In diesem Abschnitt werden der Portmodus (WAN oder LAN), die MAC-Adresse und die
 
 - **Negotiated Network Port Rate**: Die ausgehandelte Verbindungsgeschwindigkeit der WAN-Schnittstelle. Sie wird nur angezeigt, wenn eine gültige Verbindung erkannt wurde.
 
-## LAN
+## LAN {#lan}
 
 In diesem Abschnitt wird die Konfiguration der LAN-Ports angezeigt. Sie können den Ethernet Mode je nach Bedarf auf **Standard** oder **Multiple VLANs** einstellen.
 
-### Standardmodus
+### Standardmodus {#standard-mode}
 
 Im Standardmodus ist nur ein VLAN (Untagged) zulässig. Dieser Modus dient zum Anschließen von Endgeräten.
 
@@ -66,7 +66,7 @@ Im Standardmodus ist nur ein VLAN (Untagged) zulässig. Dieser Modus dient zum A
 
 Nach Abschluss der Konfiguration können Sie zur Seite Ethernet Port zurückkehren und die Einstellungen überprüfen.
 
-### Modus Multiple VLANs
+### Modus Multiple VLANs {#multiple-vlans-mode}
 
 Der Modus Multiple VLANs erlaubt mehrere VLANs (Tagged) an einem Port und wird in der Regel zum Anschließen von APs oder weiteren Switches verwendet.
 
@@ -84,7 +84,7 @@ Nach Abschluss der Konfiguration können Sie zur Seite Ethernet Port zurückkehr
 
 Einige Modelle unterstützen für Dual-Ethernet-WAN-Szenarien das Umschalten von LAN 1 auf einen WAN-Port. Weitere Informationen finden Sie unter [Dual-Ethernet WAN](#dual-ethernet-wan).
 
-## Dual-Ethernet WAN
+## Dual-Ethernet WAN {#dual-ethernet-wan}
 
 Mit der Funktion Dual-Ethernet WAN kann ein standardmäßiger LAN-Ethernet-Port in einen zweiten WAN-Port für Dual-Ethernet-Internetzugang umgeschaltet werden. Das sorgt für eine zuverlässige Backup-Verbindung und unterstützt, sofern kompatibel, die Bandbreitenbündelung für bandbreitenintensive Anwendungen. Außerdem können Sie gleichzeitig zwei unabhängige Netzwerke, beispielsweise ein berufliches und ein privates Netzwerk, verwenden, ohne zusätzliche Hardware zu benötigen.
 
@@ -100,7 +100,7 @@ Mit der Funktion Dual-Ethernet WAN kann ein standardmäßiger LAN-Ethernet-Port 
     - GL-BE9300 (Flint 3)
     - GL-BE3600 (Slate 7)
     - GL-X2000 (Spitz Plus)
-    - GL-MT6000 (Flint2)
+    - GL-MT6000 (Flint 2)
     - GL-X3000 (Spitz AX)
     - GL-XE3000 (Puli AX)
 

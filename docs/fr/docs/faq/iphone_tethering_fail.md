@@ -1,4 +1,4 @@
-# Échec du partage de connexion de l'iPhone
+# Échec du partage de connexion de l'iPhone {#iphone-tethering-failed}
 
 Si vous rencontrez un échec du partage de connexion avec un iPhone, essayez les étapes suivantes pour résoudre le problème.
 

@@ -1,4 +1,4 @@
-# Advanced Settings
+# Advanced Settings {#advanced-settings}
 
 On the left side of the web Admin Panel, go to **SYSTEM** -> **Advanced Settings**.
 

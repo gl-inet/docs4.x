@@ -1,4 +1,4 @@
-# Bloqueado en "Reverting" durante el restablecimiento del firmware
+# Bloqueado en "Reverting" durante el restablecimiento del firmware {#stuck-on-reverting-during-firmware-reset}
 
 Si su router se queda bloqueado en "Reverting" durante un restablecimiento de firmware, siga los pasos que se indican a continuación para resolver el problema.
 
@@ -16,7 +16,7 @@ Después de cada paso, compruebe si el problema se ha resuelto. Si se resuelve, 
 
 5. Use un navegador diferente, por ejemplo, Chrome, Edge o Safari, para acceder a `192.168.8.1`. Si el proceso de reversión se completó correctamente, se le dirigirá a la guía de configuración.
 
-6. Si aún no puede acceder al panel de administración web del router o el router no funciona correctamente, intente restablecerlo a los valores de fábrica siguiendo [esta](repair_network_or_reset_firmware.md/#reset-to-factory) guía.
+6. Si aún no puede acceder al panel de administración web del router o el router no funciona correctamente, intente restablecerlo a los valores de fábrica siguiendo [esta](repair_network_or_reset_firmware.md#reset-to-factory) guía.
 
 ---
 

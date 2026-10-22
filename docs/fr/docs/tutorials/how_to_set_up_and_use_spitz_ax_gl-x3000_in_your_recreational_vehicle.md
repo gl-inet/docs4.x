@@ -1,4 +1,4 @@
-# Comment configurer et utiliser Spitz AX (GL-X3000) dans votre véhicule de loisirs
+# Comment configurer et utiliser Spitz AX (GL-X3000) dans votre véhicule de loisirs {#how-to-set-up-and-use-spitz-ax-gl-x3000-in-your-recreational-vehicle}
 
 Ce guide vous montre comment configurer et utiliser Spitz AX dans votre véhicule de loisirs. Avant de commencer, vous aurez peut-être besoin de préparer les équipements et services supplémentaires suivants :
 
@@ -8,11 +8,11 @@ Ce guide vous montre comment configurer et utiliser Spitz AX dans votre véhicul
 
 ---
 
-## 1. Installez votre Spitz AX et les autres équipements
+## 1. Installez votre Spitz AX et les autres équipements {#1-install-your-spitz-ax-and-other-equipment}
 
 Avant de prendre la route, configurez votre Spitz AX en suivant ces étapes.
 
-### Étape 1 : Choisir l’emplacement de votre Spitz AX
+### Étape 1 : Choisir l’emplacement de votre Spitz AX {#step-1-choose-a-location-for-your-spitz-ax}
 
 Il est recommandé de choisir un emplacement central et dégagé afin d’obtenir une couverture maximale. Assurez-vous que l’emplacement se trouve à moins d’un mètre de la source d’alimentation, ce qui correspond à la longueur du câble de l’adaptateur secteur.
 
@@ -20,7 +20,7 @@ Il est recommandé de choisir un emplacement central et dégagé afin d’obteni
 
 Vous pouvez placer votre Spitz AX sur une surface plane ou le fixer au mur. Si vous choisissez de le fixer au mur, suivez l’étape suivante.
 
-### (Facultatif) Étape 2 : Installer votre Spitz AX au mur
+### (Facultatif) Étape 2 : Installer votre Spitz AX au mur {#optional-step-2-install-your-spitz-ax-on-the-wall}
 
 Il existe deux façons d’installer votre Spitz AX au mur :
 - Utiliser le patin adhésif fourni
@@ -33,7 +33,7 @@ Les supports muraux sont fournis dans l’emballage. Pour fixer votre Spitz AX a
 
 ![wall mount](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/x3000-with-screws.jpg){class="glboxshadow"}
 
-### (Facultatif) Étape 3 : Installer l’antenne de toit du véhicule de loisirs
+### (Facultatif) Étape 3 : Installer l’antenne de toit du véhicule de loisirs {#optional-step-3-install-the-rv-roof-antenna}
 
 ![roof](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/x3000-with-roof-antenna.jpg){class="glboxshadow"}
 
@@ -52,7 +52,7 @@ Pour éviter l’atténuation du signal, le câble radiofréquence reliant l’a
 
 ---
 
-## 2. Configurer Internet pour votre Spitz AX
+## 2. Configurer Internet pour votre Spitz AX {#2-set-up-the-internet-for-your-spitz-ax}
 
 Pour vous assurer d’avoir un accès à Internet pendant votre trajet, configurez Internet à l’aide de cartes SIM.
 
@@ -71,27 +71,27 @@ Pour saisir votre APN, suivez ces étapes :
 3. À côté de **APN**, saisissez l’APN.
 4. Cliquez sur **Apply**.
 
-Si vous utilisez deux cartes SIM, notez qu’une seule carte SIM fonctionne à la fois. Vous pouvez sélectionner manuellement la carte SIM à utiliser à chaque fois. Vous pouvez également activer la [fonction Auto Switch](https://docs.gl-inet.com/router/en/4/interface_guide/internet_cellular/#setup-for-dual-sim-models). Si le routeur détecte que l’une des cartes SIM ne peut pas accéder correctement à Internet, il basculera automatiquement vers l’autre carte SIM. La commutation prend environ 1 minute.
+Si vous utilisez deux cartes SIM, notez qu’une seule carte SIM fonctionne à la fois. Vous pouvez sélectionner manuellement la carte SIM à utiliser à chaque fois. Vous pouvez également activer la [fonction Auto Switch](../interface_guide/internet_cellular.md#setup-for-dual-sim-models). Si le routeur détecte que l’une des cartes SIM ne peut pas accéder correctement à Internet, il basculera automatiquement vers l’autre carte SIM. La commutation prend environ 1 minute.
 
 ---
 
-## 3. Utiliser Spitz AX dans différents scénarios
+## 3. Utiliser Spitz AX dans différents scénarios {#3-use-spitz-ax-in-different-scenarios}
 
-### Sur la route
+### Sur la route {#on-the-road}
 
 ![on the road](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/rv-connectivity_scene_rv-antennas.png){class="glboxshadow"}
 
 Lorsque vous roulez, vous devriez pouvoir vous connecter à Internet via la ou les cartes SIM que vous avez configurées à l’étape précédente.
 
-### Au camping
+### Au camping {#at-a-campground}
 
 ![campground](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/rv-connectivity_scene_repeater.png){class="glboxshadow"}
 
-Si vous faites une halte dans un camping pendant votre voyage, vous pouvez utiliser le réseau Wi-Fi public fourni sur place afin d’économiser vos données cellulaires. [Découvrez comment vous connecter à un réseau Wi-Fi existant.](https://docs.gl-inet.com/router/en/4/interface_guide/internet_repeater/)
+Si vous faites une halte dans un camping pendant votre voyage, vous pouvez utiliser le réseau Wi-Fi public fourni sur place afin d’économiser vos données cellulaires. [Découvrez comment vous connecter à un réseau Wi-Fi existant.](../interface_guide/internet_repeater.md)
 
 Après vous être connecté une première fois au réseau Wi-Fi, Spitz AX peut mémoriser le nom du réseau et le mot de passe. Il se reconnectera automatiquement au réseau la prochaine fois que vous serez à proximité.
 
-### Dans les zones sans couverture cellulaire
+### Dans les zones sans couverture cellulaire {#in-areas-without-cellular-coverage}
 
 ![cellular](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/rv-connectivity_scene_starlink.png){class="glboxshadow"}
 
@@ -101,7 +101,7 @@ Lorsque vous installez l’antenne Starlink, assurez-vous qu’elle n’est pas 
 
 ---
 
-## 4. Définir les priorités de basculement
+## 4. Définir les priorités de basculement {#4-set-failover-priorities}
 Spitz AX prend en charge le multi-WAN (basculement et équilibrage de charge). Vous pouvez définir des priorités de basculement pour différents réseaux selon votre scénario.
 
 | Scénario| Priorité |
@@ -109,7 +109,7 @@ Spitz AX prend en charge le multi-WAN (basculement et équilibrage de charge). V
 | Au camping (connecté à son réseau Wi-Fi via le mode répéteur)    | <p>Attribuez une priorité plus élevée au répéteur qu’au réseau cellulaire.</p> <p>Dès que vous quittez le camping, votre routeur basculera automatiquement vers le réseau cellulaire.</p>|
 | Starlink (Ethernet) + réseau cellulaire | Attribuez une priorité plus élevée au réseau cellulaire qu’à Ethernet. <p>Dans les zones avec couverture cellulaire, votre routeur utilisera votre réseau cellulaire.</p> <p>Lorsque vous arrivez dans des zones sans couverture cellulaire, votre routeur basculera automatiquement vers Starlink via Ethernet.</p>|
 
-Pour configurer le basculement, consultez la section [Failover](https://docs.gl-inet.com/router/en/4/interface_guide/multi-wan/).
+Pour configurer le basculement, consultez la section [Failover](../interface_guide/multi-wan.md).
 
 ---
 

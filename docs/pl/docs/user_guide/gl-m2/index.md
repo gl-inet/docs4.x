@@ -1,14 +1,14 @@
-# Przewodnik użytkownika GL-M2
+# Przewodnik użytkownika GL-M2 {#gl-m2-user-guide}
 
-## Informacje o sprzęcie
+## Informacje o sprzęcie {#hardware-info}
 
 GL-M2 to płyta rozwojowa 5G dla entuzjastów DIY, którzy chcą budować własne routery i modemy. Dzięki modułowi 5G i antenom 5G urządzenie GL-M2 zapewnia wysokiej jakości komórkowe połączenie 5G.
 
-![gl-2 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-m2/hardware_info/gl-m2_interface.jpg){class="glboxshadow"}
+![gl-m2 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-m2/hardware_info/gl-m2_interface.jpg){class="glboxshadow"}
 
 [Specyfikacja GL-M2](https://www.gl-inet.com/products/gl-m2/#specs){target="_blank"}
 
-## Zawartość opakowania
+## Zawartość opakowania {#package-contents}
 
 ![gl-m2 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-m2/first_time_setup/m2_unboxing.jpg){class="glboxshadow"}
 
@@ -23,7 +23,7 @@ W opakowaniu znajdują się:
 - 1 x moduł 5G (opcjonalnie)
 - 1 x kabel Type-C
 
-## Pierwsza konfiguracja
+## Pierwsza konfiguracja {#first-time-setup}
 
 Obejrzyj ten film lub wykonaj poniższe kroki.
 
@@ -41,7 +41,7 @@ Obejrzyj ten film lub wykonaj poniższe kroki.
 
 3. Włącz zasilanie.
 
-    Podłącz urządzenie do zasilania DC i użyj kabla danych Type-C do USB 3.0, aby [połączyć z routerem](#connect-gl-m2-to-glinet-routers) lub innym urządzeniem.
+    Podłącz urządzenie do zasilania DC i użyj kabla danych Type-C do USB 3.0, aby [połączyć z routerem](#connect-m2-to-glinet-routers) lub innym urządzeniem.
 
     ![gl-m2 setup](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-m2/first_time_setup/m2_setup_3.jpg){class="glboxshadow"}
 
@@ -51,7 +51,7 @@ Obejrzyj ten film lub wykonaj poniższe kroki.
 
   - Gdy wskaźnik zasilania świeci na czerwono, oznacza to prawidłowe działanie zasilania.
 
-## Podłącz M2 do routerów GL.iNet {#connect-gl-m2-to-glinet-routers}
+## Podłącz M2 do routerów GL.iNet {#connect-m2-to-glinet-routers}
 
 GL-M2 (z zainstalowanym modułem 5G RM520N-GL) jest kompatybilny z następującymi modelami:
 

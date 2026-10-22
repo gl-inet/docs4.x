@@ -1,4 +1,4 @@
-# Przegląd systemu
+# Przegląd systemu {#system-overview}
 
 W lewym panelu bocznym panelu administracyjnego przejdź do **SYSTEM** -> **Overview**.
 
@@ -13,7 +13,7 @@ Poniżej znajduje się przykład dla modelu GL-MT3000.
 
 ![system overview](https://static.gl-inet.com/docs/router/en/4/interface_guide/system_overview/overview.png){class="glboxshadow"}
 
-## Średnie obciążenie procesora (CPU)
+## Średnie obciążenie procesora (CPU) {#cpu-average-load}
 
 W większości modeli bez wentylatora średnie obciążenie procesora jest wyświetlane jak poniżej.
 
@@ -45,7 +45,7 @@ Kliknij ikonę wentylatora w prawym górnym rogu, aby przejść do **Fan Setting
     - GL-MT3000 (Beryl AX)
     - GL-AXT1800 (Slate AX)
 
-## Użycie pamięci
+## Użycie pamięci {#memory-usage}
 
 Najedź kursorem na wykres, aby wyświetlić szczegółowe wartości.
 
@@ -53,19 +53,19 @@ Najedź kursorem na wykres, aby wyświetlić szczegółowe wartości.
 
 ![system overview, memory usage](https://static.gl-inet.com/docs/router/en/4/interface_guide/system_overview/memory_usage.png){class="glboxshadow gl-70-desktop"}
 
-## LED
+## LED {#led}
 
 Kliknij ikonę koła zębatego, aby przejść do sekcji [Zaplanowane zadania](scheduled_tasks.md) dla diody LED.
 
 ![system overview, memory usage](https://static.gl-inet.com/docs/router/en/4/interface_guide/system_overview/led.png){class="glboxshadow gl-70-desktop"}
 
-## Flash
+## Flash {#flash}
 
 Wyświetla całkowitą pamięć flash, w tym przestrzeń zajętą przez system (System), aplikacje (Apps) oraz pozostałą dostępną przestrzeń (Available).
 
 ![system overview, flash](https://static.gl-inet.com/docs/router/en/4/interface_guide/system_overview/flash.png){class="glboxshadow"}
 
-## Informacje o urządzeniu
+## Informacje o urządzeniu {#device-info}
 
 Ta sekcja wyświetla podstawowe informacje o urządzeniu.
 
@@ -73,7 +73,7 @@ Identyfikator urządzenia (Device ID), adres MAC urządzenia oraz numer seryjny 
 
 ![system overview, device info](https://static.gl-inet.com/docs/router/en/4/interface_guide/system_overview/device_info.jpg){class="glboxshadow gl-80-desktop"}
 
-## Pamięć zewnętrzna
+## Pamięć zewnętrzna {#external-storage}
 
 Ta sekcja, dostępna od wersji v4.5, wyświetla całkowitą i dostępną pojemność dysku USB.
 

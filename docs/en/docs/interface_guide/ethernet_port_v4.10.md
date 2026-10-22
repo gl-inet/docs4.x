@@ -1,4 +1,4 @@
-# Ethernet Port (Firmware v4.10)
+# Ethernet Port (Firmware v4.10) {#ethernet-port-firmware-v410}
 
 **Note**: The content on this page was first introduced in Flint 4 (GL-BE14000) and will be rolled out to other models in firmware v4.10.
 
@@ -34,7 +34,7 @@ This page displays all router interfaces. You can view the connection status of 
 
 - **Settings**: Click to access the configuration page for each individual port.
 
-## WAN
+## WAN {#wan}
 
 This section displays the Port Mode (WAN or LAN), MAC address, and negotiated rate.
 
@@ -48,11 +48,11 @@ This section displays the Port Mode (WAN or LAN), MAC address, and negotiated ra
 
 - **Negotiated Network Port Rate**: The negotiated link speed of the WAN interface, displayed only when a valid link is detected.
 
-## LAN
+## LAN {#lan}
 
 This section displays the LAN port configuration. You can set the Ethernet Mode to either **Standard** or **Multiple VLANs** as needed.
 
-### Standard Mode
+### Standard Mode {#standard-mode}
 
 Standard Mode allows only one VLAN (Untagged), used for connecting end devices. 
 
@@ -66,7 +66,7 @@ Standard Mode allows only one VLAN (Untagged), used for connecting end devices.
 
 Once configured, you can return to the Ethernet Port page to verify the settings.
 
-### Multiple VLANs Mode
+### Multiple VLANs Mode {#multiple-vlans-mode}
 
 Multiple VLANs mode allows multiple VLANs (Tagged) on one port, typically for connecting APs or other switches.
 
@@ -84,7 +84,7 @@ Once configured, you can return to the Ethernet Port page to verify the settings
 
 Some models support switching LAN 1 to a WAN port for dual-Ethernet WAN scenario. Click [Dual-Ethernet WAN](#dual-ethernet-wan) for details.
 
-## Dual-Ethernet WAN
+## Dual-Ethernet WAN {#dual-ethernet-wan}
 
 The Dual-Ethernet WAN feature lets you switch a default LAN Ethernet port to a secondary WAN port for dual Ethernet internet access, providing reliable backup connectivity and supporting bandwidth aggregation (where compatible) for bandwidth-heavy workloads. It also lets you connect to two independent networks (e.g., work and personal) simultaneously, enhancing flexibility without extra hardware.
 

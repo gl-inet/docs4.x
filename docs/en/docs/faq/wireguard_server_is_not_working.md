@@ -1,10 +1,10 @@
-# What should I do if the WireGuard server is not working properly
+# What should I do if the WireGuard server is not working properly {#what-should-i-do-if-the-wireguard-server-is-not-working-properly}
 
 There are multiple potential causes when the WireGuard server on your GL.iNet router is not working properly.
 
 Follow the troubleshooting steps below according to your specific issue.
 
-## Situation 1. The WireGuard server is starting but can't be connected
+## Situation 1. The WireGuard server is starting but can't be connected {#situation-1-the-wireguard-server-is-starting-but-cant-be-connected}
 
 ??? "Follow these steps"
 
@@ -51,7 +51,7 @@ Follow the troubleshooting steps below according to your specific issue.
 
     If you do not see the login screen of your GL.iNet router (secondary router), port forwarding is not working properly. Set up port forwarding again or make sure to use a router with functioning port forwarding ability as your primary router. 
 
-## Situation 2. The WireGuard server shows connected client, but the VPN client cannot access the Internet
+## Situation 2. The WireGuard server shows connected client, but the VPN client cannot access the Internet {#situation-2-the-wireguard-server-shows-connected-client-but-the-vpn-client-cannot-access-the-internet}
 
 ??? "Follow these steps"
 
@@ -76,7 +76,7 @@ Follow the troubleshooting steps below according to your specific issue.
     3. In the **Configuration** tab, for the **IPv4 Address** field, enter a new IP address (e.g., 10.1.0.1/24). 
     4. Click **Apply**. 
 
-    **Possible cause 3: If both your WireGuard server and WireGuard client were set up on GL.iNet routers, their LAN IP addersses are in conflict**
+    **Possible cause 3: If both your WireGuard server and WireGuard client were set up on GL.iNet routers, their LAN IP addresses are in conflict**
 
     Try to change the LAN IP address on either router by following these steps:     
 
@@ -94,7 +94,7 @@ Follow the troubleshooting steps below according to your specific issue.
     3. In the **Configuration** tab, for the **IPv4 Address** field, add **/24** after **10.0.0.1**. 
     4. Click **Apply**. 
 
-## Situation 3. The WireGuard server is running but VPN client cannot connect to it
+## Situation 3. The WireGuard server is running but VPN client cannot connect to it {#situation-3-the-wireguard-server-is-running-but-vpn-client-cannot-connect-to-it}
 
 ??? "Follow these steps"
 
@@ -106,9 +106,9 @@ Follow the troubleshooting steps below according to your specific issue.
 
     **Possible cause 2: You may not have a public IP address**
 
-    To check if you have one, follow this [page](https://docs.gl-inet.com/router/en/4/tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address/). 
+    To check if you have one, follow this [page](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md). 
 
-    **Possible cause 3: If both your WireGuard server and WireGuard client were set up on GL.iNet routers, their LAN IP addersses are in conflict**
+    **Possible cause 3: If both your WireGuard server and WireGuard client were set up on GL.iNet routers, their LAN IP addresses are in conflict**
 
     Change the LAN IP address on either router by following these steps: 
 
@@ -125,7 +125,7 @@ Follow the troubleshooting steps below according to your specific issue.
 
     Upload your configuration information again. 
 
-## Situation 4. The WireGuard server is connected but the connection is not stable
+## Situation 4. The WireGuard server is connected but the connection is not stable {#situation-4-the-wireguard-server-is-connected-but-the-connection-is-not-stable}
 
 ??? "Follow these steps"
 
@@ -140,7 +140,7 @@ Follow the troubleshooting steps below according to your specific issue.
         4. For **DNS Server 1**, select **Google Public DNS**. 
         5. Click **Apply**. 
 
-## Situation 5. The WireGuard server suddenly stopped working
+## Situation 5. The WireGuard server suddenly stopped working {#situation-5-the-wireguard-server-suddenly-stopped-working}
 
 ??? "Follow these steps"
 
@@ -148,7 +148,7 @@ Follow the troubleshooting steps below according to your specific issue.
 
     **Possible cause 1: There may be a power outage in where you set up your WireGuard server**
 
-    Check whether your WireGuard server is still online by following the resolution steps in Situation 1 or via [GoodCloud](https://docs.gl-inet.com/router/en/4/interface_guide/cloud/) (if you previously connected your router to it).
+    Check whether your WireGuard server is still online by following the resolution steps in Situation 1 or via [GoodCloud](../interface_guide/cloud.md) (if you previously connected your router to it).
 
     **Possible cause 2: You did not enable the Dynamic DNS (DDNS)**
 
@@ -156,7 +156,7 @@ Follow the troubleshooting steps below according to your specific issue.
 
     **Possible cause 3: The port forwarding stopped working for unknown reasons**
 
-    [Set up port forwarding](https://docs.gl-inet.com/router/en/4/tutorials/how_to_set_up_port_forwarding/) again with another port. 
+    [Set up port forwarding](../tutorials/how_to_set_up_port_forwarding.md) again with another port. 
 
 ---
 

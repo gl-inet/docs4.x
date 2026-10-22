@@ -1,4 +1,4 @@
-# Port Ethernet (micrologiciel v4.10)
+# Port Ethernet (micrologiciel v4.10) {#ethernet-port-firmware-v410}
 
 **Remarque** : le contenu de cette page a été introduit pour la première fois sur Flint 4 (GL-BE14000) et sera déployé sur d’autres modèles avec le firmware v4.10.
 
@@ -34,7 +34,7 @@ Cette page affiche toutes les interfaces du routeur. Vous pouvez consulter l’�
 
 - **Settings** : cliquez pour accéder à la page de configuration de chaque port.
 
-## WAN
+## WAN {#wan}
 
 Cette section affiche le mode du port (WAN ou LAN), l’adresse MAC et le débit négocié.
 
@@ -48,11 +48,11 @@ Cette section affiche le mode du port (WAN ou LAN), l’adresse MAC et le débit
 
 - **Negotiated Network Port Rate** : débit de liaison négocié de l’interface WAN, affiché uniquement lorsqu’une liaison valide est détectée.
 
-## LAN
+## LAN {#lan}
 
 Cette section affiche la configuration du port LAN. Vous pouvez définir Ethernet Mode sur **Standard** ou **Multiple VLANs** selon vos besoins.
 
-### Mode Standard
+### Mode Standard {#standard-mode}
 
 Le mode Standard n’autorise qu’un seul VLAN (non balisé) et sert à connecter des appareils terminaux.
 
@@ -66,7 +66,7 @@ Le mode Standard n’autorise qu’un seul VLAN (non balisé) et sert à connect
 
 Une fois la configuration terminée, vous pouvez revenir à la page Ethernet Port pour vérifier les paramètres.
 
-### Mode Multiple VLANs
+### Mode Multiple VLANs {#multiple-vlans-mode}
 
 Le mode Multiple VLANs autorise plusieurs VLAN (balisés) sur un même port, généralement pour connecter des points d’accès ou d’autres commutateurs.
 
@@ -84,7 +84,7 @@ Une fois la configuration terminée, vous pouvez revenir à la page Ethernet Por
 
 Certains modèles permettent de convertir le port LAN 1 en port WAN pour utiliser deux connexions WAN Ethernet. Pour plus de détails, cliquez sur [Double WAN Ethernet](#dual-ethernet-wan).
 
-## Dual-Ethernet WAN
+## Dual-Ethernet WAN {#dual-ethernet-wan}
 
 La fonction Double WAN Ethernet permet de convertir un port Ethernet LAN par défaut en port WAN secondaire afin d’utiliser deux accès Internet Ethernet. Elle fournit une connexion de secours fiable et prend en charge l’agrégation de bande passante, lorsqu’elle est compatible, pour les usages exigeants. Elle permet également de se connecter simultanément à deux réseaux indépendants (par exemple professionnel et personnel), pour plus de flexibilité sans matériel supplémentaire.
 
@@ -100,7 +100,7 @@ La fonction Double WAN Ethernet permet de convertir un port Ethernet LAN par dé
     - GL-BE9300 (Flint 3)
     - GL-BE3600 (Slate 7)
     - GL-X2000 (Spitz Plus)
-    - GL-MT6000 (Flint2)
+    - GL-MT6000 (Flint 2)
     - GL-X3000 (Spitz AX)
     - GL-XE3000 (Puli AX)
 

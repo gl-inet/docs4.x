@@ -1,20 +1,20 @@
-# Shadow (GL-AR300M Series) User Guide
+# Shadow (GL-AR300M Series) User Guide {#shadow-gl-ar300m-series-user-guide}
 
-## Product overview
+## Product overview {#product-overview}
 
 Shadow (GL-AR300M series) is a pocket-size mini router, designed to be Portable and Travel-Friendly, supporting up to 300Mbps wireless transmission rate. Shadow offers advanced security features, including support for OpenVPN, WireGuard®, and a DNS server. It not only allows you to convert a public network to a private Wi-Fi for secure surfing, but also allows you to upload vpn configuration files from over 30 VPN service providers, set it as vpn client, providing an added layer of privacy and security to create an encrypted traffic between your device and the VPN server.
 
 ![ar300m overview](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar300m/product_info/overview.png){class="glboxshadow"}
 
-## How to set up Shadow
+## How to set up Shadow {#how-to-set-up-shadow}
 
 To set up Shadow, you will use one of the four supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular. Follow the steps below. 
 
-### 1. Power on
+### 1. Power on {#1-power-on}
 
 Plug the Micro USB power cable into the router's power port, then connect the other end to a 5V/2A power adapter (not included) and plug it into a power outlet. 
 
-### 2. Connect device
+### 2. Connect device {#2-connect-device}
 
 Connect a device (e.g., computer, laptop or smartphone) to the router using Wi-Fi or Ethernet.
 
@@ -26,13 +26,13 @@ Connect a device (e.g., computer, laptop or smartphone) to the router using Wi-F
 
     On your device, go to Settings -> WLAN, locate your router's Wi-Fi network name in the available networks list and enter the password. You can find the default network name and password printed on the router's bottom label.
 
-### 3. Log in to web Admin Panel
+### 3. Log in to web Admin Panel {#3-log-in-to-web-admin-panel}
 
 Open a web browser, enter `192.168.8.1` in the address bar and log in. Choose your language and set your admin password, then click **Apply**. 
 
 Please note that if you change the Wi‑Fi information, you will need to reconnect your device to the router's Wi‑Fi using the updated credentials.
 
-### 4. Internet setup
+### 4. Internet setup {#4-internet-setup}
 
 **Note:** The following instructions apply to users configuring the router via the GL.iNet Web Admin Panel. If you prefer using the GL.iNet app, [download the app](https://www.gl-inet.com/app/){target="_blank"} and follow the on-screen instructions.
 
@@ -84,7 +84,7 @@ Configure your Shadow using one of the supported internet connection methods: Et
 
     Please refer to [Connect to the Internet via a USB modem](../../interface_guide/internet_cellular.md) for detailed instructions.
 
-## How to set up a VPN 
+## How to set up a VPN {#how-to-set-up-a-vpn}
 
 A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Shadow (and other GL.iNet routers) supports OpenVPN and WireGuard.
 
@@ -102,7 +102,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     * [How to set up a WireGuard client](../../interface_guide/wireguard_client.md)
     * [How to set up a WireGuard server](../../interface_guide/wireguard_server.md)
 
-## Applications
+## Applications {#applications}
 
 === "Plug-ins"
 
@@ -122,7 +122,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     To set up GoodCloud, refer to [GoodCloud](../../interface_guide/cloud.md).
 
-## Network settings
+## Network settings {#network-settings}
 
 === "Firewall"
 
@@ -217,7 +217,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     To set up IGMP snooping, refer to [IGMP Snooping](../../interface_guide/igmp_snooping.md).
 
-## System settings
+## System settings {#system-settings}
 
 === "Overview"
 

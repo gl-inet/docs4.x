@@ -1,6 +1,6 @@
-# Site to Site de GoodCloud
+# Site to Site de GoodCloud {#goodcloud-site-to-site}
 
-## Introducción
+## Introducción {#introduction}
 
 GoodCloud Site to Site permite que oficinas ubicadas en distintos lugares establezcan conexiones seguras entre sí a través de Internet. Amplía la red de la empresa y hace que los recursos informáticos de una ubicación estén disponibles para los empleados de otras ubicaciones a través de la red.
 ![site to site](https://static.gl-inet.com/goodcloud/docs/tutorials/site_to_site/s2s-main.png){class="glboxshadow"}
@@ -8,7 +8,7 @@ GoodCloud Site to Site permite que oficinas ubicadas en distintos lugares establ
 **Escenario 2**: Cuando dos empresas con una colaboración estrecha necesitan trabajar juntas, Site to Site facilita esa colaboración en un entorno de red compartido y seguro.
 **Escenario 3**: Para familias con cámaras IP, Site to Site permite acceder remotamente al dispositivo cuando los miembros están fuera de casa y supervisarlo con facilidad desde cualquier lugar.
 
-## Condiciones
+## Condiciones {#conditions}
 
 1. Se requieren al menos dos routers GL.iNet para crear una red Site to Site.
 
@@ -18,9 +18,9 @@ GoodCloud Site to Site permite que oficinas ubicadas en distintos lugares establ
 
 3. **NO** se recomienda ejecutar Site to Site mientras los subnodos también estén usando un cliente VPN / Tailscale / ZeroTier / AstroWarp, ya que esto puede hacer que la configuración de red sea especialmente compleja.
 
-## Crear una red Site to Site
+## Crear una red Site to Site {#build-a-site-to-site-network}
 
-1. Vincule sus routers a su cuenta de GoodCloud. [Cómo hacerlo](../interface_guide/cloud.md/#setup-your-goodcloud-account)?
+1. Vincule sus routers a su cuenta de GoodCloud. Consulte [Vincular dispositivos a la nube](../interface_guide/cloud.md#bind-devices-to-cloud).
 
 2. Inicie sesión en [GoodCloud](https://www.goodcloud.xyz/#/login), vaya a **Site to Site** en la barra lateral izquierda y haga clic en **Create Network** en la esquina superior derecha.
 
@@ -68,13 +68,13 @@ GoodCloud Site to Site permite que oficinas ubicadas en distintos lugares establ
 
     ![detail s2s](https://static.gl-inet.com/goodcloud/docs/detail-s2s-01.png){class="glboxshadow"}
 
-## Probar la conexión Site to Site
+## Probar la conexión Site to Site {#testing-the-site-to-site-connection}
 
 1. Conecte su PC o smartphone a uno de los nodos de esta red Site to Site.
 
 2. Abra un navegador web para acceder a la IP LAN de otro nodo. Si puede acceder a la página de inicio de sesión, la conexión entre esos dos nodos funciona correctamente.
 
-## Rutas y otras opciones
+## Rutas y otras opciones {#route-and-other-options}
 
 De forma predeterminada, cada nodo puede acceder a la LAN de los demás nodos. Por motivos de seguridad, recomendamos abrir solo las direcciones IP de servicios concretos.
 

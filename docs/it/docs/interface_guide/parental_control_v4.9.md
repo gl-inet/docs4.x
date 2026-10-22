@@ -1,4 +1,4 @@
-# Controllo genitori (Firmware v4.9)
+# Controllo genitori (Firmware v4.9) {#parental-control-firmware-v49}
 
 > Questa guida si applica al firmware v4.9 e successivi. Per le versioni precedenti, fai clic [qui](parental_control.md).
 

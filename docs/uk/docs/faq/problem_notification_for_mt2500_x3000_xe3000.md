@@ -30,9 +30,9 @@
 
 !!! Note
 
-    Інструкції з оновлення завантажувача U-Boot наведено [за цим посиланням](https://docs.gl-inet.com/router/en/4/faq/upgrade_uboot_version/){target="_blank"}.
+    Інструкції з оновлення завантажувача U-Boot наведено [за цим посиланням](upgrade_uboot_version.md).
 
-    Інструкції з оновлення прошивки наведено [за цим посиланням](https://docs.gl-inet.com/router/en/4/tutorials/how_to_upgrade_downgrade_router/){target="_blank"}.
+    Інструкції з оновлення прошивки наведено [за цим посиланням](../tutorials/how_to_upgrade_downgrade_router.md).
 
 <br>
 Щиро перепрошуємо за можливі незручності. Надалі ми докладатимемо більше зусиль і уваги для вдосконалення наших продуктів та прошивки.

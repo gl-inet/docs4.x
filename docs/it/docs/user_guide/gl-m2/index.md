@@ -1,14 +1,14 @@
-# Guida utente di GL-M2
+# Guida utente di GL-M2 {#gl-m2-user-guide}
 
-## Informazioni hardware
+## Informazioni hardware {#hardware-info}
 
-GL-M2 e una scheda di sviluppo 5G per appassionati di fai-da-te che desiderano costruire il proprio router o modem. Grazie al modulo 5G di GL-M2 e alle antenne 5G, offre una rete cellulare 5G di alta qualita.
+GL-M2 e una scheda di sviluppo 5G per appassionati di fai-da-te che desiderano costruire il proprio router o modem. Grazie al modulo 5G di GL-M2 e alle antenne 5G, offre una rete cellulare 5G di alta qualità.
 
-![gl-2 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-m2/hardware_info/gl-m2_interface.jpg){class="glboxshadow"}
+![gl-m2 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-m2/hardware_info/gl-m2_interface.jpg){class="glboxshadow"}
 
 [Specifiche GL-M2](https://www.gl-inet.com/products/gl-m2/#specs){target="_blank"}
 
-## Contenuto della confezione
+## Contenuto della confezione {#package-contents}
 
 ![gl-m2 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-m2/first_time_setup/m2_unboxing.jpg){class="glboxshadow"}
 
@@ -23,7 +23,7 @@ La confezione include:
 - 1 x Modulo 5G (opzionale)
 - 1 x Cavo Type-C
 
-## Configurazione iniziale
+## Configurazione iniziale {#first-time-setup}
 
 Guarda questo video oppure segui i passaggi riportati di seguito.
 
@@ -41,7 +41,7 @@ Guarda questo video oppure segui i passaggi riportati di seguito.
 
 3. Accendi il dispositivo.
 
-    Collegalo a un'alimentazione DC e usa un cavo dati Type-C to USB 3.0 per [collegarti al router](#collega-gl-m2-ai-router-glinet) o a un altro dispositivo.
+    Collegalo a un'alimentazione DC e usa un cavo dati Type-C to USB 3.0 per [collegarti al router](#connect-m2-to-glinet-routers) o a un altro dispositivo.
 
     ![gl-m2 setup](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-m2/first_time_setup/m2_setup_3.jpg){class="glboxshadow"}
 
@@ -50,7 +50,7 @@ Guarda questo video oppure segui i passaggi riportati di seguito.
 - Durante l'uso e necessario collegarlo a un'alimentazione DC per garantire una sorgente stabile.
 - Quando l'indicatore di alimentazione e rosso, significa che l'alimentazione sta funzionando correttamente.
 
-## Collega GL-M2 ai router GL.iNet
+## Collega GL-M2 ai router GL.iNet {#connect-m2-to-glinet-routers}
 
 GL-M2, con modulo 5G RM520N-GL installato, e compatibile con i seguenti modelli:
 
@@ -66,7 +66,7 @@ GL-M2, con modulo 5G RM520N-GL installato, e compatibile con i seguenti modelli:
 - Slate AX (GL-AXT1800)
 - Brume 2 (GL-MT2500)
 
-**Nota**: l'elenco sopra e stato verificato con il modulo 5G **RM520N-GL**. La compatibilita con altri moduli non e garantita.
+**Nota**: l'elenco sopra e stato verificato con il modulo 5G **RM520N-GL**. La compatibilità con altri moduli non e garantita.
 
 Segui i passaggi riportati di seguito per collegare M2 al tuo router GL.iNet.
 

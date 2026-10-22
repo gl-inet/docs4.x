@@ -1,10 +1,10 @@
-# Reenvío de SMS
+# Reenvío de SMS {#sms-forwarding}
 
 Los routers celulares GL.iNet admiten el reenvío de SMS y envían automáticamente los mensajes entrantes a los destinatarios designados.
 
 **Nota**: Esta función solo funciona en routers celulares GL.iNet con el módulo 4G LTE/5G NR original. No es compatible con otros módulos ni con ningún otro módulo USB.
 
-## Modelos compatibles
+## Modelos compatibles {#supported-models}
 
 ??? "Modelos compatibles"
     - GL-E5800 (Mudi 7)
@@ -41,24 +41,24 @@ Los routers celulares GL.iNet admiten el reenvío de SMS y envían automáticame
     - GL-B1300 (Convexa-B)
     - GL-AP1300 (Cirrus)
 
-## Configuración
+## Configuración {#quick-setup}
 
 Tomemos el GL-XE3000 (Puli AX) como ejemplo.
 
-En el lado izquierdo del panel de administración web, vaya a **INTERNET** -> **Cellular**.
+1. Consulte [este enlace](../interface_guide/internet_cellular.md) para configurar primero su router celular.
 
-Haga clic en el icono del sobre situado en la esquina superior derecha para entrar en la página de SMS. Allí encontrará la configuración de **SMS Forwarding**.
+2. Inicie sesión en el panel de administración web del router y vaya a **INTERNET** -> **Cellular**. Haga clic en el icono del sobre situado en la esquina superior derecha para entrar en la página de SMS. Allí encontrará la configuración de **SMS Forwarding**.
 
-![sms setting](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms.png){class="glboxshadow"}
+    ![sms setting](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms.png){class="glboxshadow"}
 
-### Reenviar por correo electrónico
+### Reenviar por correo electrónico {#forward-via-email}
 
 ![sms forwarding email](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms_forward_email.png){class="glboxshadow"}
 
-- **SMTP Server Address**: En la lista desplegable hay direcciones de servidor predefinidas para Gmail, Outlook, iCloud y Yahoo. Para otros proveedores de correo, consulte su documentación o contacte con su soporte.
+- **SMTP Server Address**: En la lista desplegable hay direcciones de servidor predefinidas para Gmail, Outlook, iCloud y Yahoo. Una dirección predefinida no garantiza la compatibilidad con los requisitos de autenticación del proveedor. Para otros proveedores de correo, consulte su documentación o contacte con su soporte.
 - **Encryption Method**: Hay tres opciones disponibles: none, SSL/TLS y STARTTLS.
 - **Username**: Introduzca aquí la dirección de correo electrónico.
-- **Password**: Use una contraseña específica de la aplicación o la contraseña de la cuenta de inicio de sesión. Para Gmail, Outlook, iCloud y Yahoo, consulte la guía siguiente.
+- **Password**: Introduzca la contraseña SMTP que requiera su proveedor de correo, como una contraseña específica de la aplicación. Consulte los requisitos de cada proveedor a continuación.
 - **Subject**: Defina aquí el asunto del correo.
 
 ??? "Gmail"
@@ -67,9 +67,13 @@ Haga clic en el icono del sobre situado en la esquina superior derecha para entr
 
     Se pueden usar los puertos 465 y 587.
 
-??? "Outlook"
+??? "Outlook.com"
 
-    Para Outlook, puede usar la contraseña directamente sin ninguna configuración adicional, y es compatible con el puerto 587. Consulte la guía oficial [POP, IMAP, and SMTP settings for Outlook.com](https://support.microsoft.com/en-us/office/pop-imap-and-smtp-settings-for-outlook-com-d088b986-291d-42b8-9564-9c414e2aa040){target="_blank"}.
+    Outlook.com requiere OAuth2 (Modern Authentication) para la autenticación SMTP. Su servidor SMTP es `smtp-mail.outlook.com`, con el puerto `587` y `STARTTLS`.
+
+    Antes de usar una cuenta de Outlook.com para enviar SMS reenviados, confirme que el firmware de su router admite este método de autenticación.
+
+    Consulte la documentación de Microsoft sobre [la configuración POP, IMAP y SMTP de Outlook.com](https://support.microsoft.com/en-us/outlook/pop-imap-and-smtp-settings-for-outlook-com){target="_blank"}.
 
 ??? "iCloud"
 
@@ -83,7 +87,7 @@ Haga clic en el icono del sobre situado en la esquina superior derecha para entr
 
 Puede añadir hasta 10 direcciones de correo electrónico.
 
-### Reenviar por SMS
+### Reenviar por SMS {#forward-via-sms}
 
 ![sms forwarding phone](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms_forward_phone.png){class="glboxshadow"}
 

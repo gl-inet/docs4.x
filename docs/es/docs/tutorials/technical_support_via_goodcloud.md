@@ -1,8 +1,8 @@
-# Soporte técnico a través de GoodCloud
+# Soporte técnico a través de GoodCloud {#technical-support-via-goodcloud}
 
 A veces es necesario compartir su dispositivo a través de GoodCloud para recibir soporte técnico de GL.iNet. Esta guía le mostrará cómo compartir su dispositivo con el soporte técnico de GL.iNet.
 
-## Habilitar GoodCloud y el acceso remoto
+## Habilitar GoodCloud y el acceso remoto {#enable-goodcloud-and-remote-access}
 
 Antes de compartir su dispositivo con el soporte técnico de GL.iNet, asegúrese de que su router tenga una conexión a Internet adicional para mejorar la estabilidad. Configure una conexión Ethernet o Repeater como copia de seguridad de conmutación por error y asegúrese de que funcione correctamente.
 
@@ -10,7 +10,7 @@ Después, inicie sesión en el panel de administración web del router para habi
 
 Seleccione el tutorial que coincida con la versión de firmware de su dispositivo para habilitar GoodCloud y el acceso remoto.
 
-??? "Para la versión de firmware 4.10"
+??? "Para la versión de firmware 4.10 y posteriores"
 
     Vaya a **CLOUD SERVICES** -> **GoodCloud** y haga clic en **Get Started**.
 
@@ -42,7 +42,7 @@ Seleccione el tutorial que coincida con la versión de firmware de su dispositiv
 
     ![enable GoodCloud 4.6](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/enable_goodcloud_v4.6.x.png){class="glboxshadow"}
 
-## Iniciar sesión en la cuenta Cloud y vincular el dispositivo
+## Iniciar sesión en la cuenta Cloud y vincular el dispositivo {#log-in-cloud-account-and-bind-device}
 
 Si su router ejecuta el firmware v4.7 o superior, puede registrar una cuenta en el panel de administración web del router e iniciar sesión directamente. Una vez iniciada la sesión, el dispositivo actual quedará vinculado automáticamente a su cuenta Cloud.
 
@@ -50,9 +50,9 @@ Si su router ejecuta el firmware v4.6 o anterior, siga los pasos siguientes para
 
 1. Visite [GoodCloud](https://www.goodcloud.xyz){target="_blank"} e inicie sesión en su cuenta. Si no tiene una cuenta, regístrela primero.
 
-2. Vincule su dispositivo a GoodCloud. Consulte [este enlace](../interface_guide/cloud.md#add-device-in-your-account).
+2. Vincule su dispositivo a GoodCloud. Consulte [Vincular dispositivos a la nube](../interface_guide/cloud.md#bind-devices-to-cloud).
 
-## Compartir el dispositivo con el soporte técnico de GL.iNet
+## Compartir el dispositivo con el soporte técnico de GL.iNet {#share-device-with-glinet-technical-support}
 
 1. Visite [GoodCloud](https://www.goodcloud.xyz){target="_blank"} e inicie sesión.
 
@@ -74,7 +74,7 @@ Luego comparta su dispositivo con el soporte técnico de GL.iNet. Para proteger 
 
 2. Para garantizar la seguridad de la contraseña, recomendamos cambiar la contraseña de inicio de sesión del panel de administración web por una temporal antes de compartir el dispositivo con el soporte de GL.iNet. Puede volver a su contraseña habitual una vez finalizado el diagnóstico.
 
-## Proporcionar información al soporte técnico de GL.iNet
+## Proporcionar información al soporte técnico de GL.iNet {#provide-information-to-glinet-technical-support}
 
 Después de compartir el dispositivo, proporcione la **dirección MAC** y la **contraseña de administrador** de su router al miembro correspondiente del soporte técnico de GL.iNet por correo electrónico o por mensaje privado del foro para la resolución remota del problema.
 

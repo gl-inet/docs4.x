@@ -1,10 +1,10 @@
-# ¿Cómo usar la eSIM Physical Card con routers GL.iNet?
+# ¿Cómo usar la eSIM Physical Card con routers GL.iNet? {#how-to-use-the-esim-physical-card-with-glinet-routers}
 
 Esta guía le muestra cómo usar con routers GL.iNet la eSIM Physical Card adquirida en la tienda en línea de GL.iNet.
 
 ![eSIM Physical Card](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/simpoyo-esim-physical-card.png){class="glboxshadow"}
 
-## Características
+## Características {#features}
 
 Los puntos destacados de la eSIM Physical Card son los siguientes:
 
@@ -16,7 +16,7 @@ Los puntos destacados de la eSIM Physical Card son los siguientes:
 - Incluye un perfil inicial con 1 GB de datos gratuitos para EE. UU. y Europa, además de 100 MB de Global Data, válidos durante 1 año a partir de la fecha de activación.
 - Es compatible con determinados dispositivos GL.iNet.
 
-## Modelos compatibles
+## Modelos compatibles {#supported-models}
 
 !!! note "Modelos compatibles"
 
@@ -43,7 +43,7 @@ Los puntos destacados de la eSIM Physical Card son los siguientes:
 
     3. **GL-E5800 (Mudi 7)** incorpora una eSIM integrada. Por lo tanto, en Mudi 7 la tarjeta eSIM física se reconocerá como una tarjeta SIM normal, sin funcionalidad eSIM.
 
-## Configurar la eSIM Physical Card
+## Configurar la eSIM Physical Card {#set-up-esim-physical-card}
 
 Si usa la eSIM Physical Card por primera vez, vea este vídeo de configuración o siga los pasos indicados a continuación para configurarla en su router GL.iNet.
 
@@ -73,7 +73,7 @@ Si la conexión a Internet se establece correctamente, la pantalla aparecerá de
 
 ![initial setup connected](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/initial-setup-connected.jpg){class="glboxshadow"}
 
-## Gestionar su perfil eSIM
+## Gestionar su perfil eSIM {#manage-your-esim-profile}
 
 **Paso 1:** Asegúrese de que su dispositivo GL.iNet tenga instalado el firmware más reciente.
 

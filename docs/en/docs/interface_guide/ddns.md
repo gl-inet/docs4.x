@@ -1,8 +1,8 @@
-# Dynamic DNS
+# Dynamic DNS {#dynamic-dns}
 
 Dynamic Domain Name Service (Dynamic DNS or DDNS) is a service used to map a domain name to the dynamic IP address of a network device. With Dynamic DNS, you can access your router remotely. An Internet public IP address is required for this functionality.
 
-## Enable DDNS
+## Enable DDNS {#enable-ddns}
 
 On the left side of the web Admin Panel, go to **APPLICATIONS** -> **Dynamic DNS**.
 
@@ -28,7 +28,7 @@ There may be a delay of up to 10 minutes in record synchronization between DNS s
 
 **Note**: If you enable DDNS and VPN Client at the same time, make sure that **Services From GL.iNet Use VPN** is disabled. This feature can be found in the [VPN Client Options](vpn_dashboard_v4.8.md#tunnel-options) of the VPN Dashboard.
 
-## Check If DDNS Works
+## Check If DDNS Works {#check-if-ddns-works}
 
 You can check if DDNS works using the DDNS test tool or check it manually using commands.
 
@@ -64,7 +64,7 @@ You can check if DDNS works using the DDNS test tool or check it manually using 
     
     3. Log in to your router's web Admin Panel and go to **INTERNET**. Find your router's WAN IP address in the currently active interface. Compare this IP address with the public IP address obtained above. If they are the same, the DDNS is in effect, otherwise it is not.
 
-## HTTPS Remote Access
+## HTTPS Remote Access {#https-remote-access}
 
 !!! Note
 
@@ -108,7 +108,7 @@ You will then be able to access the web admin panel using the DDNS host name ove
 
 ![HTTPS-Remote-Access-on-Android-Chrome](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/https_remote_access_android_chrome_3.png){class="glboxshadow" width="400"}
 
-## SSH Remote Access
+## SSH Remote Access {#ssh-remote-access}
 
 !!! Note
 

@@ -1,20 +1,20 @@
-# Come configurare drop-in gateway su un router GL.iNet
+# Come configurare drop-in gateway su un router GL.iNet {#how-to-set-up-drop-in-gateway-on-a-glinet-router}
 
-GL.iNet offre la funzione drop-in gateway, che migliora le funzionalita' del router principale aggiungendo caratteristiche che potrebbe non avere, tra cui AdGuard Home, DNS crittografato e VPN. Usando questa funzione, puoi continuare a usare il router principale come sempre, beneficiando al tempo stesso di funzioni aggiuntive.
+GL.iNet offre la funzione drop-in gateway, che migliora le funzionalità del router principale aggiungendo caratteristiche che potrebbe non avere, tra cui AdGuard Home, DNS crittografato e VPN. Usando questa funzione, puoi continuare a usare il router principale come sempre, beneficiando al tempo stesso di funzioni aggiuntive.
 
-Puoi abilitare drop-in gateway per [tutti i dispositivi](#abilitare-drop-in-gateway-per-tutti-i-dispositivi) oppure per [dispositivi specifici](#abilitare-drop-in-gateway-per-dispositivi-specifici) collegati al router principale. Segui la sezione appropriata per la tua configurazione.
+Puoi abilitare drop-in gateway per [tutti i dispositivi](#enable-drop-in-gateway-for-all-devices) oppure per [dispositivi specifici](#enable-drop-in-gateway-for-specific-devices) collegati al router principale. Segui la sezione appropriata per la tua configurazione.
 
-**Nota**: i modelli con firmware inferiore alla versione v4.5.0 supportano solo l'abilitazione del drop-in gateway per tutti i dispositivi. Quando il drop-in gateway e' abilitato, tutti i dispositivi client passeranno in rete attraverso il drop-in gateway, il che significa che tutto il traffico dei client connessi verra' gestito prima da questo router.
+**Nota**: i modelli con firmware inferiore alla versione v4.5.0 supportano solo l'abilitazione del drop-in gateway per tutti i dispositivi. Quando il drop-in gateway è abilitato, tutti i dispositivi client passeranno in rete attraverso il drop-in gateway, il che significa che tutto il traffico dei client connessi verrà gestito prima da questo router.
 
 ---
 
-## Abilitare drop-in gateway per tutti i dispositivi
+## Abilitare drop-in gateway per tutti i dispositivi {#enable-drop-in-gateway-for-all-devices}
 
-### 1. Collega il router GL.iNet al router principale
+### 1. Collega il router GL.iNet al router principale {#1-connect-glinet-router-to-the-main-router}
 
 Collega la porta WAN del router GL.iNet alla porta LAN del router principale con un cavo Ethernet.
 
-### 2. Abilita drop-in gateway
+### 2. Abilita drop-in gateway {#2-enable-drop-in-gateway}
 
 Esistono due metodi per abilitare drop-in gateway: tramite pannello di amministrazione del router oppure tramite app mobile GL.iNet.
 
@@ -52,31 +52,31 @@ Esistono due metodi per abilitare drop-in gateway: tramite pannello di amministr
 
     4. Tocca **Done**.
 
-### 3. Disabilita il server DHCP sul router principale
+### 3. Disabilita il server DHCP sul router principale {#3-disable-dhcp-server-on-the-main-router}
 
 Accedi al router principale per disabilitare il server DHCP. Puoi fare riferimento alle istruzioni fornite dal produttore del router oppure contattare il relativo supporto.
 
-### 4. Configura AdGuard, DNS, VPN e altre funzioni
+### 4. Configura AdGuard, DNS, VPN e altre funzioni {#4-set-up-adguard-dns-vpn-and-other-features}
 
 Segui queste guide per abilitare le funzioni che desideri sul router GL.iNet.
 
 * [AdGuard Home](../interface_guide/adguardhome.md){target="_blank"}
 * [Encrypted DNS](../interface_guide/dns.md){target="_blank"}
 * [Parental Control](../interface_guide/parental_control.md){target="_blank"}
-* [WireGaurd Client](../interface_guide/wireguard_client.md){target="_blank"}
+* [WireGuard Client](../interface_guide/wireguard_client.md){target="_blank"}
 * [OpenVPN Client](../interface_guide/openvpn_client.md){target="_blank"}
 
 ---
 
-## Abilitare drop-in gateway per dispositivi specifici
+## Abilitare drop-in gateway per dispositivi specifici {#enable-drop-in-gateway-for-specific-devices}
 
-### 1. Collega il router GL.iNet al router principale
+### 1. Collega il router GL.iNet al router principale {#1-connect-glinet-router-to-the-main-router_1}
 
 Collega la porta WAN del router GL.iNet alla porta LAN del router principale con un cavo Ethernet.
 
-### 2. Abilita drop-in gateway
+### 2. Abilita drop-in gateway {#2-enable-drop-in-gateway_1}
 
-Esistono due metodi per abilitare drop-in gateway: tramite [pannello di amministrazione del router](#uso-del-pannello-di-amministrazione-web) oppure tramite [app mobile GL.iNet](#uso-dellapp-mobile-glinet).
+Esistono due metodi per abilitare drop-in gateway: tramite pannello di amministrazione del router oppure tramite app mobile GL.iNet.
 
 ??? "Uso del pannello di amministrazione web"
 
@@ -96,7 +96,7 @@ Esistono due metodi per abilitare drop-in gateway: tramite [pannello di amminist
 
     6. Fai clic su **Apply**.
 
-    **Nota**: NON chiudere questa scheda. Ti servira' inserire l'indirizzo IP mostrato sullo schermo nel passaggio successivo.
+    **Nota**: NON chiudere questa scheda. Ti servirà inserire l'indirizzo IP mostrato sullo schermo nel passaggio successivo.
 
 ??? "Uso dell'app mobile GL.iNet"
 
@@ -114,9 +114,9 @@ Esistono due metodi per abilitare drop-in gateway: tramite [pannello di amminist
 
     4. Tocca **Done**.
 
-    **Nota**: NON chiudere questa scheda. Ti servira' inserire l'indirizzo IP mostrato sullo schermo nel passaggio successivo.
+    **Nota**: NON chiudere questa scheda. Ti servirà inserire l'indirizzo IP mostrato sullo schermo nel passaggio successivo.
 
-### 3. Imposta gateway e DNS sul dispositivo specifico
+### 3. Imposta gateway e DNS sul dispositivo specifico {#3-set-gateway-and-dns-on-specific-device}
 
 ??? "Windows"
 
@@ -175,14 +175,14 @@ Esistono due metodi per abilitare drop-in gateway: tramite [pannello di amminist
         * **Router:** inserisci l'indirizzo IP mostrato nella pagina **Drop-in Gateway**.
     9. Fai clic su **OK** > **OK**.
 
-### 4. Configura AdGuard, DNS, VPN e altre funzioni
+### 4. Configura AdGuard, DNS, VPN e altre funzioni {#4-set-up-adguard-dns-vpn-and-other-features_1}
 
 Segui queste guide per abilitare le funzioni che desideri sul router GL.iNet.
 
 * [AdGuard Home](../interface_guide/adguardhome.md){target="_blank"}
 * [Encrypted DNS](../interface_guide/dns.md){target="_blank"}
 * [Parental Control](../interface_guide/parental_control.md){target="_blank"}
-* [WireGaurd Client](../interface_guide/wireguard_client.md){target="_blank"}
+* [WireGuard Client](../interface_guide/wireguard_client.md){target="_blank"}
 * [OpenVPN Client](../interface_guide/openvpn_client.md){target="_blank"}
 
 ---

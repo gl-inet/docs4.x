@@ -1,6 +1,6 @@
-# GL.iNet ルーターで WireGuard サーバーを設定する
+# GL.iNet ルーターで WireGuard サーバーを設定する {#set-up-wireguard-server-on-glinet-routers}
 
-WireGuard® は、最先端の暗号技術を利用した、非常にシンプルで高速かつモダンな VPN です。IPSec よりも高速・簡潔・軽量で使いやすいことを目指しており、OpenVPN よりも大幅に高いパフォーマンスを期待できます。
+WireGuard® は、最先端の暗号技術を利用した、非常にシンプルで高速かつモダンな VPN です。IPSec の煩雑さを避けつつ、IPSec よりも高速・簡潔・軽量で使いやすいことを目指しています。また、OpenVPN よりも大幅に高いパフォーマンスを目指しています。
 
 GL.iNet ルーターで WireGuard サーバーを設定するには、以下の動画を見るか、下記の手順に従ってください。
 
@@ -20,7 +20,7 @@ GL.iNet ルーターで WireGuard サーバーを設定するには、以下の�
 
 ## ポートフォワーディングが必要か確認する {#confirm-if-port-forwarding-is-required}
 
-**Network Topology**
+**ネットワーク構成**
 
 ??? "GL.iNet がメインルーターの場合"
 
@@ -28,9 +28,9 @@ GL.iNet ルーターで WireGuard サーバーを設定するには、以下の�
 
 ??? "GL.iNet がサブルーターの場合"
 
-    * すでにメインルーターがあり、GL.iNet ルーターをサブルーターとして使用している場合は、メインルーター側で [port forwarding](../tutorials/how_to_set_up_port_forwarding.md) を設定する必要があります。
+    * すでにメインルーターがあり、GL.iNet ルーターをサブルーターとして使用している場合は、メインルーター側で [ポートフォワーディング](../tutorials/how_to_set_up_port_forwarding.md) を設定する必要があります。
 
-    * すでにメインルーターがあり、GL.iNet ルーターがさらに下位階層にある場合は、途中の各ルーターで [port forwarding](../tutorials/how_to_set_up_port_forwarding.md) を設定してください。
+    * すでにメインルーターがあり、GL.iNet ルーターがさらに下位階層にある場合は、途中の各ルーターで [ポートフォワーディング](../tutorials/how_to_set_up_port_forwarding.md) を設定してください。
 
 ## WireGuard サーバーを設定する {#set-up-wireguard-server}
 
@@ -112,9 +112,9 @@ Web 管理パネルにログインし、**VPN** -> **WireGuard Server** を開�
 
     ![wireguard server status](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/wgserver_status.png){class="glboxshadow"}
 
-## WireGuard サーバーが正常に動作しているか確認する
+## WireGuard サーバーが正常に動作しているか確認する {#check-if-wireguard-server-is-working-properly}
 
-### サーバー状態を確認する
+### サーバー状態を確認する {#verify-server-status}
 
 ファームウェア v4.8 以降では、**WireGuard Server** ページでサーバー接続状態を確認できます。
 
@@ -128,7 +128,7 @@ Web 管理パネルにログインし、**VPN** -> **WireGuard Server** を開�
 
 ファームウェア v4.7 以前では、**VPN Dashboard** ページでサーバー接続状態を確認してください。
 
-### クライアント側の IP を確認する
+### クライアント側の IP を確認する {#verify-clients-ip}
 
 サーバーへの接続が成功しているか確認するには、先ほどエクスポートした WireGuard 設定を別ネットワーク上のデバイス（サーバーと同じローカルネットワークではないデバイス）にインポートします。その後 Web ブラウザで自身の IP アドレスと位置情報を確認し、インターネットサービスプロバイダーの IP ではなく VPN サーバーの IP と位置情報が表示されれば、VPN 接続は成功です。
 
@@ -141,9 +141,9 @@ Web 管理パネルにログインし、**VPN** -> **WireGuard Server** を開�
 * WireGuard Server で使用しているポートがインターネットサービスプロバイダーによってブロックされている。別のポートに変更するか、ISP に問い合わせてください。
 * 一部の国や地域では VPN 接続がブロックされる場合があります。
 
-## Server Options
+## サーバーオプション {#server-options}
 
-Server Optionsには、サーバーのLANへのリモートアクセスやIPマスカレーディングなど、サーバー側の高度な設定があります。必要に応じて設定してください。
+サーバーオプションには、サーバーのLANへのリモートアクセスやIPマスカレーディングなど、サーバー側の高度な設定があります。必要に応じて設定してください。
 
 ファームウェアv4.8以降では、**WireGuard Server**ページを開き、右上の**Options**をクリックします。
 
@@ -161,13 +161,17 @@ Server Optionsには、サーバーのLANへのリモートアクセスやIPマ�
 
 - **IP Masquerading**：有効にすると、LANクライアントの送信元IPアドレスがルーターのVPNトンネルIPへ書き換えられます。この設定は、リモートピアがルーターのLANサブネットを認識しているサイトツーサイト構成の場合にのみ無効にしてください。
 
+    下図のように、IPマスカレーディングが有効な場合、自宅LAN上のNAS（192.168.8.100）がトンネル経由でトラベルルーター側のノートパソコン（192.168.10.200）へトラフィックを送信すると、自宅ルーターは送信元IPを`192.168.8.100`からVPNサーバーのトンネルアドレス`10.1.0.1`に書き換えます。そのため、リモート側では、このトラフィックはサーバーのローカルLANからではなく、サーバーから送信されたものとして認識されます。
+
+    ![wgserver ip masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/ip_masquerading.png){class="glboxshadow"}
+
 - **MTU**：Maximum Transmission Unitの略です。トンネルに設定したMTU値は、設定ファイル内のMTU設定を上書きします。
 
 - **Client to Client**：有効にすると、このサーバーに接続したVPNクライアント同士が、それぞれのVPNトンネルIP経由で相互にアクセスできます。
 
     Client to Clientが通知するのは、各クライアントのトンネルIPアドレスだけです。各VPNクライアントの背後にあるローカルLANサブネットは、自動的には公開されません。クライアントから互いのLANサブネットへアクセスできるようにするには、VPNサーバーにルーティングルールを追加し、それらのリモートLANサブネットを通知してください。
 
-## WireGuard App のインストール
+## WireGuard App のインストール {#wireguard-app-install}
 
 [WireGuard 公式サイト](https://www.wireguard.com/install){target="_blank"} から WireGuard App をダウンロードしてください。
 
@@ -177,4 +181,4 @@ WireGuard® は Jason A.Donenfeld の登録商標です。
 
 ---
 
-ご不明な点がある場合は、[Community Forum](https://forum.gl-inet.com){target="_blank"} または [Contact us](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

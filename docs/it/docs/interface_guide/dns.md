@@ -1,4 +1,4 @@
-# DNS
+# DNS {#dns}
 
 **Nota**: il contenuto di questa pagina si basa sul firmware v4.10 e precedenti.
 
@@ -14,33 +14,33 @@ Se il dispositivo esegue una versione firmware diversa, usa il selettore seguent
 
 Sul lato sinistro del pannello di amministrazione web, vai su **NETWORK** -> **DNS**.
 
-Le impostazioni DNS del router controllano come i nomi di dominio vengono tradotti in indirizzi IP. Questa pagina consente di usare automaticamente i server DNS ottenuti dai dispositivi a monte, oppure di impostarne di personalizzati e configurare le priorita' DNS.
+Le impostazioni DNS del router controllano come i nomi di dominio vengono tradotti in indirizzi IP. Questa pagina consente di usare automaticamente i server DNS ottenuti dai dispositivi a monte, oppure di impostarne di personalizzati e configurare le priorità DNS.
 
-Se imposti server DNS personalizzati, tutte le query DNS verranno risolte tramite i server specificati anziche' tramite i server DNS ottenuti dalle singole interfacce di rete. In caso contrario, verranno usate le impostazioni DNS configurate per ciascuna interfaccia.
+Se imposti server DNS personalizzati, tutte le query DNS verranno risolte tramite i server specificati anziché tramite i server DNS ottenuti dalle singole interfacce di rete. In caso contrario, verranno usate le impostazioni DNS configurate per ciascuna interfaccia.
 
 ![dns](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/dns_page.png){class="glboxshadow"}
 
-- **DNS Rebinding Attack Protection:** l'attivazione di questa opzione puo' causare errori nella risoluzione DNS privata. Se la tua rete usa un captive portal, disabilita questa opzione.
+- **DNS Rebinding Attack Protection:** l'attivazione di questa opzione può causare errori nella risoluzione DNS privata. Se la tua rete usa un captive portal, disabilita questa opzione.
 
-- **Override DNS Settings for All Clients:** se abilitata, il router sovrascrivera' le impostazioni DNS non crittografate per tutti i client.
+- **Override DNS Settings for All Clients:** se abilitata, il router sovrascriverà le impostazioni DNS non crittografate per tutti i client.
 
-- **Allow Custom DNS to Override VPN DNS:** se abilitata, dopo aver impostato un DNS personalizzato, i pacchetti trasmessi attraverso il tunnel VPN verranno risolti usando il DNS personalizzato anziche' le impostazioni DNS delle connessioni VPN.
+- **Allow Custom DNS to Override VPN DNS:** se abilitata, dopo aver impostato un DNS personalizzato, i pacchetti trasmessi attraverso il tunnel VPN verranno risolti usando il DNS personalizzato anziché le impostazioni DNS delle connessioni VPN.
 
-## Impostazioni del server DNS
+## Impostazioni del server DNS {#dns-server-settings}
 
-Sono disponibili quattro modalita': Automatic, Encrypted DNS, Manual DNS e DNS Proxy.
+Sono disponibili quattro modalità: Automatic, Encrypted DNS, Manual DNS e DNS Proxy.
 
-### Automatic
+### Automatic {#automatic}
 
-In questa modalita', il router usera' automaticamente il server DNS fornito dal dispositivo a monte, ad esempio modem ISP o router principale, oppure le impostazioni DNS corrispondenti a ciascuna interfaccia di rete.
+In questa modalità, il router userà automaticamente il server DNS fornito dal dispositivo a monte, ad esempio modem ISP o router principale, oppure le impostazioni DNS corrispondenti a ciascuna interfaccia di rete.
 
 ![automatic](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/dns_auto.png){class="glboxshadow"}
 
-### Encrypted DNS
+### Encrypted DNS {#encrypted-dns}
 
 Fai riferimento alle istruzioni seguenti in base alla versione del firmware.
 
-#### Per il firmware v4.8 e precedenti
+#### Per il firmware v4.8 e precedenti {#for-firmware-v48-and-earlier}
 
 Sono disponibili quattro tipi di crittografia: DNS over TLS, DNSCrypt-Proxy, DNS over HTTPS e Oblivious DNS over HTTPS.
 
@@ -52,19 +52,19 @@ Seleziona prima **Encryption Type**. Le opzioni rimanenti cambieranno in base al
 
     ![dns over tls](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/encrypted_tls.png){class="glboxshadow"}
 
-- Per gli altri tre, cioe' **DNSCrypt-Proxy**, **DNS over HTTPS** e **Oblivious DNS over HTTPS**, seleziona almeno un server DNS dal repository.
+- Per gli altri tre, cioè **DNSCrypt-Proxy**, **DNS over HTTPS** e **Oblivious DNS over HTTPS**, seleziona almeno un server DNS dal repository.
 
     ![dnscrypt-proxy](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/dnscrypt-proxy.png){class="glboxshadow"}
 
-#### Per il firmware da v4.9 a v4.10
+#### Per il firmware da v4.9 a v4.10 {#for-firmware-v49-to-v410}
 
-Oltre a Control D, NextDNS e Cloudflare, la modalita' Encrypted DNS supporta anche altri provider DNS, tra cui **Quad9**, **CleanBrowsing**, **AdGuard DNS**, **Google DNS** e **OpenDNS**. Se necessario, puoi anche specificare manualmente un server DNS crittografato.
+Oltre a Control D, NextDNS e Cloudflare, la modalità Encrypted DNS supporta anche altri provider DNS, tra cui **Quad9**, **CleanBrowsing**, **AdGuard DNS**, **Google DNS** e **OpenDNS**. Se necessario, puoi anche specificare manualmente un server DNS crittografato.
 
 Seleziona prima **DNS Provider**. Le opzioni rimanenti cambieranno in base alla selezione effettuata.
 
 ![encrypted dns providers](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/dns_providers.png){class="glboxshadow"}
 
-- Se selezioni un provider DNS specifico, ad esempio NextDNS, scegli un tipo di crittografia tra **DNS over TLS (DoT)**, **DNS over HTTPS (DoH)** e **DNS over QUIC (DoQ)**. Tieni presente che **DNS over QUIC (DoQ)** e' stato introdotto nel firmware v4.9 ed e' disponibile solo quando usi Control D, NextDNS o AdGuard DNS come provider DNS.
+- Se selezioni un provider DNS specifico, ad esempio NextDNS, scegli un tipo di crittografia tra **DNS over TLS (DoT)**, **DNS over HTTPS (DoH)** e **DNS over QUIC (DoQ)**. Tieni presente che **DNS over QUIC (DoQ)** è stato introdotto nel firmware v4.9 ed è disponibile solo quando usi Control D, NextDNS o AdGuard DNS come provider DNS.
 
     ![nextdns](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/nextdns.png){class="glboxshadow"}
 
@@ -76,15 +76,15 @@ Seleziona prima **DNS Provider**. Le opzioni rimanenti cambieranno in base alla 
 
     ![encrypted manual2](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/encrypted_manual2.png){class="glboxshadow"}
 
-#### Confronto tra i tipi di crittografia
+#### Confronto tra i tipi di crittografia {#encryption-type-comparison}
 
 1. **DNS over TLS (DoT)**
 
-    Crittografa le query DNS tramite una porta TLS dedicata. Separa il traffico DNS dal normale traffico web ed e' facilmente identificabile dagli operatori di rete.
+    Crittografa le query DNS tramite una porta TLS dedicata. Separa il traffico DNS dal normale traffico web ed è facilmente identificabile dagli operatori di rete.
 
 2. **DNS over HTTPS (DoH)**
 
-    Trasmette i dati DNS all'interno del normale traffico HTTPS. Mescola le richieste DNS con il traffico web ordinario per offrire una maggiore privacy e aggirare i filtri del traffico piu' semplici.
+    Trasmette i dati DNS all'interno del normale traffico HTTPS. Mescola le richieste DNS con il traffico web ordinario per offrire una maggiore privacy e aggirare i filtri del traffico più semplici.
 
 3. **DNS over QUIC (DoQ)**
 
@@ -92,31 +92,31 @@ Seleziona prima **DNS Provider**. Le opzioni rimanenti cambieranno in base alla 
 
 4. **Oblivious DNS over HTTPS (ODoH)**
 
-    Una versione avanzata di DoH. Separa l'IP dell'utente dalle query DNS, impedendo sia al server sia ai provider di rete di tracciare l'attivita' di navigazione.
+    Una versione avanzata di DoH. Separa l'IP dell'utente dalle query DNS, impedendo sia al server sia ai provider di rete di tracciare l'attività di navigazione.
 
 5. **DNSCrypt**
 
-    Un protocollo di crittografia DNS maturo. Autentica e crittografa il traffico DNS, con particolare attenzione alla protezione dalle manomissioni e alla compatibilita' con ambienti di rete legacy.
+    Un protocollo di crittografia DNS maturo. Autentica e crittografa il traffico DNS, con particolare attenzione alla protezione dalle manomissioni e alla compatibilità con ambienti di rete legacy.
 
-### Manual DNS
+### Manual DNS {#manual-dns}
 
-In questa modalita', puoi personalizzare il server DNS del router. Seleziona dall'elenco a discesa almeno un **DNS Server** per il router.
+In questa modalità, puoi personalizzare il server DNS del router. Seleziona dall'elenco a discesa almeno un **DNS Server** per il router.
 
 ![manual dns](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/manual_dns.png){class="glboxshadow"}
 
-### DNS Proxy
+### DNS Proxy {#dns-proxy}
 
-In questa modalita', il router instradera' tutte le query DNS della LAN verso l'indirizzo del server proxy che specifichi, ad esempio `8.8.8.8#53`. Questa opzione puo' essere utile se nella tua rete e' in esecuzione un altro server DNS o Pi-hole.
+In questa modalità, il router instraderà tutte le query DNS della LAN verso l'indirizzo del server proxy che specifichi, ad esempio `8.8.8.8#53`. Questa opzione può essere utile se nella tua rete è in esecuzione un altro server DNS o Pi-hole.
 
 ![dns proxy](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/dns_proxy.png){class="glboxshadow"}
 
-## Modifica Hosts
+## Modifica Hosts {#edit-hosts}
 
 Puoi fare clic sul pulsante **Edit Hosts** in alto a destra per personalizzare le regole host statiche.
 
 ![edit hosts1](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/edit_hosts1.png){class="glboxshadow"}
 
-Il router dara' priorita' a queste regole host durante la risoluzione delle richieste dei client connessi.
+Il router darà priorità a queste regole host durante la risoluzione delle richieste dei client connessi.
 
 ![edit hosts2](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/edit_hosts2.png){class="glboxshadow"}
 

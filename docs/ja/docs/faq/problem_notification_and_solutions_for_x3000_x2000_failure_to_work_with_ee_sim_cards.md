@@ -1,10 +1,10 @@
-# GL-X3000/GL-XE3000/GL-X2000がEE SIMカードで動作しない問題のお知らせと解決策
+# GL-X3000/GL-XE3000/GL-X2000がEE SIMカードで動作しない問題のお知らせと解決策 {#problem-notification-and-solutions-for-gl-x3000gl-xe3000gl-x2000-failure-to-work-with-ee-sim-cards}
 
 お客様各位
 
 最近、GL-X3000/GL-XE3000/GL-X2000でEE SIMカードを使用する際に接続の問題が発生しているお客様がいることがわかりました。さらにトラブルシューティングを行ったところ、特定のEE SIMカードはIPv4プロトコルのみをサポートしていることがわかりました。しかし、GL.iNetセルラールーターのデフォルト設定ではIPv4とIPv6の両方が同時に有効になっているため、この問題が発生しています。
 
-## 解決策と回避策
+## 解決策と回避策 {#solutions-workarounds}
 
 1. **ファームウェアアップデート**
 

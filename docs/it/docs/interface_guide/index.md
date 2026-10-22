@@ -4,39 +4,38 @@ hide:
   - toc
 ---
 
-# Guida all'interfaccia
+# Guida all'interfaccia {#interface-guide}
 
 Scopri come usare i nostri dispositivi e le funzioni aggiuntive con le nostre guide passo dopo passo.
 
-## Connessione Internet
+## Connessione Internet {#internet-connection}
 
 * [La pagina Internet](internet.md)
 * [Come connettersi a Internet tramite cavo Ethernet](internet_ethernet.md)
 * [Come connettersi a Internet tramite Repeater](internet_repeater.md)
 * [Come connettersi a Internet tramite USB tethering](internet_tethering.md)
 * [Come connettersi a Internet tramite rete cellulare](internet_cellular_v4.10.md)
-* [Dual-Ethernet WAN](ethernet_port.md#dual-ethernet-wan)
 
-## Wireless
+## Wireless {#wireless}
 
 * [Wireless](wireless.md)
 
-## Mesh
+## Mesh {#mesh}
 
 * [Mesh](mesh.md)
 
-## Client
+## Client {#clients}
 
 * [Client](clients.md)
 
-## Servizi cloud
+## Servizi cloud {#cloud-services}
 
 * [Account GL.iNet](glinet_account.md)
 * [GoodCloud](cloud.md) - il servizio cloud ufficiale.
 * [GoodPAS](goodpas.md)
 * [AstroWarp](astrowarp.md)
 
-## VPN
+## VPN {#vpn}
 
 * [VPN Dashboard](vpn_dashboard.md)
 * [Profilo client VPN](vpn_client_profile.md)
@@ -45,16 +44,46 @@ Scopri come usare i nostri dispositivi e le funzioni aggiuntive con le nostre gu
 * [Configurare WireGuard Client](wireguard_client.md)
 * [Configurare WireGuard Server](wireguard_server.md)
 * [Guida all'attivazione di ExpressVPN](expressvpn_activation_guide.md)
-* [VPN Policy (per firmware v4.7 e precedenti)](vpn_dashboard_v4.7.md#proxy-mode)
-* [VPN Policy (per firmware v4.8 e successivi)](vpn_dashboard_v4.8.md#policy-mode)
-* [Come configurare NordVPN sul router?](openvpn_client.md#set-up-nordvpn)
-* [Come configurare AzireVPN sul router?](wireguard_client.md#set-up-azirevpn)
-* [Come configurare Mullvad VPN sul router?](wireguard_client.md#set-up-mullvad)
-* [Per OpenVPN, quale protocollo dovrei scegliere: TCP o UDP?](../faq/openvpn_tcp_udp.md)
-* [VPN Kill Switch](../faq/block_non_vpn_traffic.md)
-* [VPN Cascading](../tutorials/how_to_use_vpn_cascading_on_glinet_routers.md)
 
-## Applicazioni
+## Rete {#network}
+
+* [Firewall](firewall.md)
+* [Port Forwarding](port_forwarding.md)
+* [Multi-WAN](multi-wan.md) - abilita il failover verso un'altra connessione Internet oppure l'uso simultaneo di più interfacce per aumentare la larghezza di banda totale.
+* [Sottorete](subnet.md)
+* [LAN](lan.md)
+* [Guest Network](guest_network.md)
+* [Rete IoT](iot_network.md)
+* [DNS](dns.md)
+* [Ethernet Port](ethernet_port.md)
+* [IPv6](ipv6.md)
+* [MAC Address](mac_address.md)
+* [IGMP Snooping](igmp_snooping.md) - per usare la funzione multicast sul router
+* [Network Mode](network_mode.md)
+* [Drop-in Gateway](drop-in_gateway.md)
+* [Hardware Acceleration](hardware_acceleration.md)
+* [Network Acceleration](network_acceleration.md)
+* [NAT Settings](nat_settings.md)
+
+## Controllo del traffico {#flow-control}
+
+* [Qualità della rete](network_quality.md)
+* [DPI Engine](dpi_engine.md)
+* [Data Statistics](data_statistics.md)
+* [Content Filter](content_filter.md)
+* [QoS (Quality of Service)](qos.md)
+* [SQM (Smart Queue Management)](sqm.md)
+* [Controllo genitori (v4.9)](parental_control_v4.9.md)
+
+## Sicurezza {#security}
+
+* [Scansione di sicurezza](security_scan.md)
+* [Port Forwarding](port_forwarding.md)
+* [ACL (lista di controllo accessi)](acl.md)
+* [Accesso amministratore](admin_access.md)
+* [Modalità NAT](nat_settings.md)
+
+## Applicazioni {#applications}
 
 * [Plug-in](plugins.md)
 * [DDNS](ddns.md) - per superare i problemi legati agli indirizzi IP dinamici.
@@ -67,60 +96,19 @@ Scopri come usare i nostri dispositivi e le funzioni aggiuntive con le nostre gu
 * [Tor](tor.md) - per proteggere la privacy personale.
 * [Gestione eSIM](esim_management.md)
 
-## Rete
+## Sistema {#system}
 
-* [Firewall](firewall.md)
-* [Port Forwarding](port_forwarding.md)
-* [Multi-WAN](multi-wan.md) - abilita il failover verso un'altra connessione Internet oppure l'uso simultaneo di più interfacce per aumentare la larghezza di banda totale.
-* [Sottorete](subnet.md)
-* [LAN](lan.md)
-* [Guest Network](guest_network.md)
-* [Rete IoT](iot_network.md)
-* [DNS](dns.md)
-* [Ethernet Port](ethernet_port.md)
-* [Network Mode](network_mode.md)
-* [IPv6](ipv6.md)
-* [MAC Address](mac_address.md)
-* [Drop-in Gateway](drop-in_gateway.md)
-* [IGMP Snooping](igmp_snooping.md) - per usare la funzione multicast sul router
-* [Hardware Acceleration](hardware_acceleration.md)
-* [Network Acceleration](network_acceleration.md)
-* [NAT Settings](nat_settings.md)
-
-## Controllo del traffico
-
-* [Qualità della rete](network_quality.md)
-* [DPI Engine](dpi_engine.md)
-* [Data Statistics](data_statistics.md)
-* [Content Filter](content_filter.md)
-* [QoS (Quality of Service)](qos.md)
-* [SQM (Smart Queue Management)](sqm.md)
-* [Controllo genitori (v4.9)](parental_control_v4.9.md)
-
-## Sicurezza
-
-* [Scansione di sicurezza](security_scan.md)
-* [Port Forwarding](port_forwarding.md)
-* [ACL (lista di controllo accessi)](acl.md)
-* [Accesso amministratore](admin_access.md)
-* [Modalita' NAT](nat_settings.md)
-
-## Sistema
-
-* [Lingue dell'interfaccia](ui_languages.md)
 * [Panoramica del sistema](system_overview.md) - mostra alcuni stati hardware e informazioni di sistema.
-* Upgrade
-    * [Upgrade](upgrade.md)
-    * [Come scaricare il firmware ufficiale?](../faq/how_to_download_firmware.md)
-    * [Come aggiornare dal firmware 3.x al firmware 4.x?](../faq/upgrade_to_4.md)
-* [Attività pianificate](scheduled_tasks.md) - per impostare pianificazioni per visualizzazione LED, stato Wi-Fi e riavvio.
 * [Cambiare la password amministratore](admin_password.md)
+* [Upgrade](upgrade.md)
+* [Attività pianificate](scheduled_tasks.md) - per impostare pianificazioni per visualizzazione LED, stato Wi-Fi e riavvio.
 * [Display Management](display_management.md)
 * [USB & Power](usb_power.md)
 * [Time Zone](time_zone.md)
 * [Toggle Button Settings](toggle_button_settings.md)
-* [Log](log.md)
 * [Security](security.md)
 * [Reset Firmware](reset_firmware.md)
+* [Log](log.md)
 * [Advanced Settings](advanced_settings.md)
+* [Lingue dell'interfaccia](ui_languages.md)
 * [Help](help.md)

@@ -1,18 +1,20 @@
-# Mise à niveau
+# Mise à niveau {#upgrade}
 
 Dans la partie gauche du panneau d'administration web, accédez à **SYSTEM** -> **Upgrade** pour mettre à jour le firmware de votre routeur.
 
 Pour certains modèles cellulaires, vous pouvez également mettre à niveau la version du module si nécessaire.
 
-!!! Note
+!!! Warning
 
     Veuillez laisser l'appareil sous tension pendant la mise à niveau. N'éteignez **PAS** le routeur. L'appareil redémarrera automatiquement après la mise à niveau, ce qui peut prendre quelques minutes.
 
-## Mise à niveau du firmware
+## Mise à niveau du firmware {#firmware-upgrade}
 
-### Mise à niveau en ligne
+### Mise à niveau en ligne {#online-upgrade}
 
-Vous pouvez consulter ici la version actuelle du firmware.
+La mise à niveau en ligne recherche automatiquement le dernier firmware officiel via Internet, puis effectue le téléchargement et le flashage directement sur le routeur. Vous pouvez ainsi mettre à jour le firmware officiel en un clic, à condition que le routeur soit connecté à Internet.
+
+Vous trouverez la version actuelle du firmware dans **Firmware Online Upgrade**.
 
 ![upgrade](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/online_upgrade.png){class="glboxshadow"}
 
@@ -26,9 +28,11 @@ Vous pouvez consulter ici la version actuelle du firmware.
 
 ![time zone](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/time_zone.png){class="glboxshadow"}
 
-### Mise à niveau locale
+### Mise à niveau locale {#local-upgrade}
 
-Sélectionnez un fichier de firmware ou glissez-déposez-le pour effectuer la mise à jour. Vous pouvez télécharger le firmware depuis notre [centre de téléchargement](https://dl.gl-inet.com){target="_blank"}.
+La mise à niveau locale permet de téléverser manuellement un fichier de firmware à flasher. Vous pouvez ainsi effectuer une mise à niveau ou une rétrogradation, ou installer un firmware bêta d'une version précise pour tester les nouvelles fonctionnalités.
+
+Téléchargez d'abord le fichier de firmware depuis notre [centre de téléchargement](https://dl.gl-inet.com){target="_blank"}, puis accédez à **Firmware Local Upgrade**.
 
 ![local upgrade](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/local_upgrade.png){class="glboxshadow"}
 
@@ -40,25 +44,25 @@ Après le téléversement, le système vérifiera le firmware.
 
 Cliquez sur **Install** pour lancer la mise à niveau.
 
-## Mise à niveau du modem
+## Mise à niveau du modem {#modem-upgrade}
 
 Les routeurs cellulaires GL.iNet permettent de mettre à jour le firmware du modem cellulaire via le panneau d'administration web.
 
 Vous pouvez essayer une mise à niveau du module cellulaire en cas d'échec ou d'instabilité de la connexion cellulaire. Nous recommandons de contacter d'abord l'assistance technique pour le dépannage avant d'effectuer cette mise à niveau.
 
-### Mise à niveau en ligne
+### Mise à niveau en ligne {#online-upgrade_1}
 
 Vous pouvez consulter ici la version actuelle du modem cellulaire. Si votre routeur est connecté à Internet, il recherchera automatiquement la dernière version disponible sur le serveur du fabricant, ce qui simplifie le processus de mise à jour.
 
 ![modem online upgrade](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/modem_online_upgrade.png){class="glboxshadow"}
 
-### Mise à niveau locale
+### Mise à niveau locale {#local-upgrade_1}
 
 Téléversez manuellement depuis votre ordinateur un fichier de firmware modem afin de mettre à jour le modem cellulaire si nécessaire.
 
 ![modem local upgrade](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/modem_local_upgrade.png){class="glboxshadow"}
 
-## Mise à niveau en ligne de DPI
+## Mise à niveau en ligne de DPI {#dpi-online-upgrade}
 
 DPI Online Upgrade recherche et installe les mises à jour du moteur DPI et de sa base de signatures, afin de garantir une identification précise du trafic pour Data Statistics, Content Filter et les autres fonctionnalités liées au DPI.
 

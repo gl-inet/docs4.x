@@ -1,4 +1,4 @@
-# Nie można połączyć się z maskowanym serwerem WireGuard
+# Nie można połączyć się z maskowanym serwerem WireGuard {#cannot-connect-to-an-obfuscated-wireguard-server}
 
 Maskowanie VPN to technika, która sprawia, że ruch VPN wygląda jak zwykły ruch internetowy. Obecnie niektóre routery GL.iNet obsługują protokół AmneziaWG, co pozwala skonfigurować serwer WireGuard z włączonym maskowaniem ruchu.
 

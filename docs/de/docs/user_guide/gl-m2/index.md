@@ -1,14 +1,14 @@
-# GL-M2 Benutzerhandbuch
+# GL-M2 Benutzerhandbuch {#gl-m2-user-guide}
 
-## Hardwareinformationen
+## Hardwareinformationen {#hardware-info}
 
 GL-M2 ist ein 5G-Entwicklungsboard für DIY-Enthusiasten, die ihre eigenen Router und Modems bauen möchten. Mit dem 5G-Modul und den 5G-Antennen des GL-M2 stellt es eine hochwertige 5G-Mobilfunkverbindung bereit.
 
-![gl-2 interface](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-m2/hardware_info/gl-m2_interface.jpg){class="glboxshadow"}
+![gl-m2 interface](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-m2/hardware_info/gl-m2_interface.jpg){class="glboxshadow"}
 
 [GL-M2 specifications](https://www.gl-inet.com/products/gl-m2/#specs){target="_blank"}
 
-## Lieferumfang
+## Lieferumfang {#package-contents}
 
 ![gl-m2 unboxing](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-m2/first_time_setup/m2_unboxing.jpg){class="glboxshadow"}
 
@@ -23,7 +23,7 @@ Der Lieferumfang umfasst:
 - 1 x 5G-Modul (optional)
 - 1 x Type-C-Kabel
 
-## Erste Einrichtung
+## Erste Einrichtung {#first-time-setup}
 
 Sehen Sie sich dieses Video an oder folgen Sie den untenstehenden Schritten.
 
@@ -41,7 +41,7 @@ Sehen Sie sich dieses Video an oder folgen Sie den untenstehenden Schritten.
 
 3. Einschalten.
 
-    Schließen Sie das Board an eine Gleichstromversorgung an und verwenden Sie ein Type-C-auf-USB-3.0-Datenkabel, um es mit dem [Router](#connect-gl-m2-to-glinet-routers) oder einem anderen Gerät zu verbinden.
+    Schließen Sie das Board an eine Gleichstromversorgung an und verwenden Sie ein Type-C-auf-USB-3.0-Datenkabel, um es mit dem [Router](#connect-m2-to-glinet-routers) oder einem anderen Gerät zu verbinden.
 
     ![gl-m2 setup](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-m2/first_time_setup/m2_setup_3.jpg){class="glboxshadow"}
 
@@ -51,7 +51,7 @@ Sehen Sie sich dieses Video an oder folgen Sie den untenstehenden Schritten.
 
   - Wenn die Betriebsanzeige rot leuchtet, zeigt dies eine funktionierende Stromversorgung an.
 
-## M2 mit GL.iNet-Routern verbinden
+## M2 mit GL.iNet-Routern verbinden {#connect-m2-to-glinet-routers}
 
 GL-M2 (mit installiertem 5G-Modul RM520N-GL) ist mit den folgenden Modellen kompatibel:
 

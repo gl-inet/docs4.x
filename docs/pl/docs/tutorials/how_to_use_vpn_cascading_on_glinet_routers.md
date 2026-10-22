@@ -1,6 +1,6 @@
-# Jak używać kaskadowania VPN na routerach GL.iNet?
+# Jak używać kaskadowania VPN na routerach GL.iNet? {#how-to-use-vpn-cascading-on-glinet-routers}
 
-## Wprowadzenie
+## Wprowadzenie {#introduction}
 
 Kaskadowanie VPN jest często określane jako „podwójny VPN" w niektórych kontekstach, ale może się nieznacznie różnić na routerach GL.iNet. Podstawowa koncepcja jest zilustrowana poniżej.
 
@@ -12,9 +12,9 @@ Kaskadowanie VPN jest często określane jako „podwójny VPN" w niektórych ko
 
 **Kaskadowanie VPN**: Router będzie przekierowywać ruch z tunelu VPN 1 do tunelu VPN 2, umożliwiając urządzeniom podłączonym do routera przez VPN 1 dostęp do Internetu za pośrednictwem usługi VPN innej firmy (VPN 2) zamiast sieci ISP routera.
 
-## Jak włączyć kaskadowanie VPN
+## Jak włączyć kaskadowanie VPN {#how-to-enable-vpn-cascading}
 
-### Dla firmware v4.7 i wcześniejszych
+### Dla firmware v4.7 i wcześniejszych {#for-firmware-v47-and-earlier}
 
 1. Najpierw ustaw router jako serwer VPN. Protokół WireGuard jest zalecany dla większej prędkości. Zapoznaj się z [tym linkiem](../interface_guide/wireguard_server.md){target="_blank"}.
 
@@ -36,7 +36,7 @@ Kaskadowanie VPN jest często określane jako „podwójny VPN" w niektórych ko
 
 5. Kaskadowanie VPN jest włączone. Urządzenia podłączone do routera przez VPN będą uzyskiwać dostęp do Internetu za pośrednictwem usługi VPN innej firmy, zamiast sieci ISP routera.
 
-### Dla firmware v4.8 i nowszych
+### Dla firmware v4.8 i nowszych {#for-firmware-v48-and-higher}
 
 1. Najpierw ustaw router jako serwer VPN. Protokół WireGuard jest zalecany dla większej prędkości. Zapoznaj się z [tym linkiem](../interface_guide/wireguard_server.md){target="_blank"}.
 

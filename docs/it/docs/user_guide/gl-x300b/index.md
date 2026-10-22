@@ -1,6 +1,6 @@
-# Guida utente di Collie (GL-X300B)
+# Guida utente di Collie (GL-X300B) {#collie-gl-x300b-user-guide}
 
-## Panoramica del prodotto
+## Panoramica del prodotto {#product-overview}
 
 Collie (GL-X300B) è un gateway cellulare industriale progettato per funzionare ad alte temperature e in scenari con potenziali rischi fisici. Esistono tre versioni di Collie, progettate per operare in impianti fissi al chiuso (GL-X300B-RS485 / GL-X300B-BLE) oppure in veicoli di trasporto (GL-X300B-GPS). Collie è ideale per la comunicazione machine-to-machine tra dispositivi elettrici in ambienti con elevato rumore elettrico.
 
@@ -30,7 +30,7 @@ Collie (GL-X300B) è un gateway cellulare industriale progettato per funzionare 
    
     L'antenna deve usare un connettore complementare. Usa un'antenna con connettore femmina quando la porta del dispositivo è maschio e un'antenna con connettore maschio quando la porta del dispositivo è femmina.
 
-## Contenuto della confezione
+## Contenuto della confezione {#package-contents}
 
 La confezione include:
 
@@ -47,11 +47,11 @@ La confezione include:
 
 ![gl-x300b package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/hardware_info/x300b-rs485_package.jpg){class="glboxshadow"}
 
-## Specifiche
+## Specifiche {#specifications}
 
 [Specifiche di GL-X300B](https://www.gl-inet.com/products/gl-x300b/#specs){target="_blank"}
 
-## Installazione delle antenne
+## Installazione delle antenne {#antenna-installation}
 
 !!! note "GL-X300B-RS485"
 
@@ -113,11 +113,11 @@ La confezione include:
 
         ![x300b gps antennas](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/antenna_installation/x300b-gps.jpg){class="glboxshadow"}
 
-## Configurazione iniziale
+## Configurazione iniziale {#first-time-setup}
 
 Tutti i router GL.iNet seguono un processo di configurazione simile. [Fai clic qui per sapere come eseguire la configurazione iniziale](../../faq/first_time_setup.md).
 
-## INTERNET
+## INTERNET {#internet}
 
 Accedi al pannello di amministrazione web del router e, dal menu laterale, vai a **INTERNET**.
 
@@ -125,7 +125,7 @@ Questa pagina consente di selezionare il tipo di connessione Internet, ad esempi
 
 Per Collie (GL-X300B) sono supportati tre tipi di connessione: Ethernet, Repeater e Cellular.
 
-### Ethernet
+### Ethernet {#ethernet}
 
 Collega il router a un modem attivo o a un dispositivo di rete attivo tramite un cavo Ethernet per accedere a Internet. In genere questo metodo offre la connessione Internet più veloce e affidabile.
 
@@ -133,7 +133,7 @@ Collega il router a un modem attivo o a un dispositivo di rete attivo tramite un
 
 ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/internet/x300b_ethernet.png){class="glboxshadow"}
 
-### Repeater
+### Repeater {#repeater}
 
 Configura il router come repeater per estendere la copertura Wi-Fi di una rete Wi-Fi esistente. In qualità di repeater, riceve e ritrasmette i segnali wireless entro il proprio raggio d'azione, estendendone così la copertura. Questo metodo è utile quando un singolo router non riesce a coprire l'intera area di utilizzo.
 
@@ -141,7 +141,7 @@ Configura il router come repeater per estendere la copertura Wi-Fi di una rete W
 
 ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/internet/x300b_repeater.png){class="glboxshadow"}
 
-### Cellular
+### Cellular {#cellular}
 
 Inserisci una SIM nello slot SIM del router per connetterlo a Internet. Questo metodo è utile per condividere l'accesso a Internet di una singola SIM con tutti i dispositivi collegati.
 
@@ -149,7 +149,7 @@ Inserisci una SIM nello slot SIM del router per connetterlo a Internet. Questo m
 
 ![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/internet/x300b_cellular.png){class="glboxshadow"}
 
-### Multi-WAN
+### Multi-WAN {#multi-wan}
 
 Multi-WAN è una funzione di rete che consente di configurare il router con più connessioni Internet contemporaneamente, ad esempio Ethernet, Repeater e Cellular. Se la connessione Internet con priorità più alta si interrompe, il router passerà automaticamente a un'altra connessione Internet. Questa funzione è chiamata anche failover e garantisce un accesso a Internet fluido e senza interruzioni.
 
@@ -159,7 +159,7 @@ In alternativa, puoi cambiare la modalità Multi-WAN da Failover a Load Balance,
 
 ---
 
-## Wi-Fi
+## Wi-Fi {#wireless}
 
 Le impostazioni wireless consentono agli utenti di gestire la sicurezza della rete Wi-Fi principale e del Wi-Fi ospite. È possibile accedervi andando su **WIRELESS** nel menu laterale.
 
@@ -167,7 +167,7 @@ Le impostazioni wireless consentono agli utenti di gestire la sicurezza della re
 
 ---
 
-## Client
+## Client {#clients}
 
 I client sono i dispositivi collegati al router; puoi bloccarli o limitarne la velocità di rete. L'interfaccia è accessibile facendo clic su **CLIENTS** nel menu laterale del pannello di amministrazione del router.
 
@@ -175,22 +175,22 @@ I client sono i dispositivi collegati al router; puoi bloccarli o limitarne la v
 
 ---
 
-## VPN
+## VPN {#vpn}
 
 I router GL.iNet sono preinstallati con OpenVPN e WireGuard® e supportano più di 30 servizi VPN. Quando il client VPN è abilitato, il router può crittografare il traffico dei dispositivi della rete, inclusi quelli che non possono eseguire app VPN, in base alle impostazioni dei criteri VPN. I nostri router possono anche funzionare come server VPN, reindirizzando il traffico dei dispositivi client in posizioni remote verso il server VPN tramite un tunnel VPN prima dell'accesso a Internet pubblico.
 
-### Dashboard VPN
+### Dashboard VPN {#vpn-dashboard}
 
 - [**VPN Dashboard**](../../interface_guide/vpn_dashboard_v4.7.md)
 
-### OpenVPN
+### OpenVPN {#openvpn}
 
 Fai riferimento ai link seguenti per una guida passo dopo passo:
 
 - [**Configurare il client OpenVPN**](../../interface_guide/openvpn_client.md)
 - [**Configurare il server OpenVPN**](../../interface_guide/openvpn_server.md)
 
-### WireGuard
+### WireGuard {#wireguard}
 
 Fai riferimento ai link seguenti per una guida passo dopo passo:
 
@@ -199,108 +199,108 @@ Fai riferimento ai link seguenti per una guida passo dopo passo:
 
 ---
 
-## Applicazioni
+## Applicazioni {#applications}
 
 I router GL.iNet includono un'ampia gamma di funzioni aggiuntive che semplificano la gestione dei dispositivi, migliorano l'esperienza Internet dell'utente, automatizzano l'aggiornamento del firmware e molto altro.
 
-### Plug-in
+### Plug-in {#plug-ins}
 
 Consulta la guida [**Plug-ins**](../../interface_guide/plugins.md).
 
-### Dynamic DNS
+### Dynamic DNS {#dynamic-dns}
 
 Consulta la guida [**Dynamic DNS**](../../interface_guide/ddns.md).
 
-### GoodCloud
+### GoodCloud {#goodcloud}
 
 Consulta la guida [**GoodCloud**](../../interface_guide/cloud.md).
 
 ---
 
-## Rete
+## Rete {#network}
 
-### Firewall
+### Firewall {#firewall}
 
 I router GL.iNet includono numerose funzioni firewall per garantire una connessione sicura e un controllo completo da parte dell'utente. Consentono di configurare regole firewall, tra cui port forwarding, porte aperte e DMZ.
 
 [Fai clic qui per saperne di più sul firewall dei router GL.iNet](../../interface_guide/firewall.md)
 
-### Multi-WAN
+### Multi-WAN {#multi-wan_1}
 
 Consulta la guida [**Multi-WAN**](../../interface_guide/multi-wan.md).
 
-### LAN
+### LAN {#lan}
 
 Consulta la guida [**LAN**](../../interface_guide/lan.md).
 
-### DNS
+### DNS {#dns}
 
 Consulta la guida [**DNS**](../../interface_guide/dns.md).
 
-### Modalità di rete
+### Modalità di rete {#network-mode}
 
 Consulta la guida [**Network Mode**](../../interface_guide/network_mode.md).
 
-### IPv6
+### IPv6 {#ipv6}
 
 Consulta la guida [**IPv6**](../../interface_guide/ipv6.md).
 
-### Indirizzo MAC
+### Indirizzo MAC {#mac-address}
 
 La pagina Mac Address in precedenza si chiamava Mac Clone ed è stata rinominata Mac Address dalla versione v4.2.
 
 Consulta la guida [**MAC Address**](../../interface_guide/mac_address.md).
 
-### Drop-in Gateway
+### Drop-in Gateway {#drop-in-gateway}
 
 Consulta la guida [**Drop-in Gateway**](../../interface_guide/drop-in_gateway.md).
 
-### IGMP Snooping
+### IGMP Snooping {#igmp-snooping}
 
 Consulta la guida [**IGMP Snooping**](../../interface_guide/igmp_snooping.md).
 
 ---
 
-## Sistema
+## Sistema {#system}
 
-### Panoramica
+### Panoramica {#overview}
 
 Consulta la guida [**System Overview**](../../interface_guide/system_overview.md).
 
-### Upgrade
+### Upgrade {#upgrade}
 
 GL.iNet fornisce aggiornamenti regolari del firmware dei propri router per migliorare le prestazioni, risolvere bug e correggere vulnerabilità.
 
 Consulta la guida [**Upgrade**](../../interface_guide/upgrade.md).
 
-### Attività pianificate
+### Attività pianificate {#scheduled-tasks}
 
 Consulta la guida [**Scheduled Tasks**](../../interface_guide/scheduled_tasks.md).
 
-### Password amministratore
+### Password amministratore {#admin-password}
 
 Questa funzione è stata spostata in [**Security**](../../interface_guide/security.md) dalla versione v4.5.
 
 Consulta la guida [**Admin Password**](../../interface_guide/admin_password.md).
 
-### Fuso orario
+### Fuso orario {#time-zone}
 
 Consulta la guida [**Time Zone**](../../interface_guide/time_zone.md).
 
-### Log
+### Log {#log}
 
 Consulta la guida [**Log**](../../interface_guide/log.md).
 
-### Sicurezza
+### Sicurezza {#security}
 
 Questa funzione è disponibile dalla versione v4.5.
 
 Consulta la guida [**Security**](../../interface_guide/security.md).
 
-### Ripristino firmware
+### Ripristino firmware {#reset-firmware}
 
 Consulta la guida [**Reset Firmware**](../../interface_guide/reset_firmware.md).
 
-### Impostazioni avanzate
+### Impostazioni avanzate {#advanced-settings}
 
 Consulta la guida [**Advanced Settings**](../../interface_guide/advanced_settings.md).

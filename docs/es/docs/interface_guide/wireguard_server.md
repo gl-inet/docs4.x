@@ -1,4 +1,4 @@
-# Configurar el servidor WireGuard en routers GL.iNet
+# Configurar el servidor WireGuard en routers GL.iNet {#set-up-wireguard-server-on-glinet-routers}
 
 WireGuard® es una VPN extremadamente simple, rápida y moderna que utiliza criptografía de última generación. Está diseñada para ser más rápida, más sencilla, más ligera y más útil que IPSec, evitando al mismo tiempo su gran complejidad. Su rendimiento previsto es considerablemente superior al de OpenVPN.
 
@@ -6,7 +6,7 @@ Para configurar el servidor WireGuard en un router GL.iNet, vea este vídeo o si
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jvc-CNmXfuM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Asegúrese de tener una dirección IP pública
+## Asegúrese de tener una dirección IP pública {#make-sure-you-have-a-public-ip-address}
 
 Haga clic [aquí](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md) para comprobar si su proveedor de servicios de Internet le asigna una dirección IP pública.
 
@@ -18,13 +18,13 @@ Métodos alternativos:
 2. Solicite a su ISP una dirección IP pública. Esto puede implicar un coste adicional.
 3. Si los dos métodos anteriores no funcionan, por ejemplo, si su red está detrás de CGNAT, puede probar nuestra solución SD-WAN [AstroWarp](https://www.astrowarp.net/){target="_blank"}.
 
-## Confirme si es necesario configurar el reenvío de puertos
+## Confirme si es necesario configurar el reenvío de puertos {#confirm-if-port-forwarding-is-required}
 
 **Topología de red**
 
 ??? "GL.iNet es el router principal"
 
-    * Si el router GL.iNet es el router principal de su red, no es necesario configurar el reenvío de puertos. Pase al [siguiente paso](#configurar-el-servidor-wireguard).
+    * Si el router GL.iNet es el router principal de su red, no es necesario configurar el reenvío de puertos. Pase al [siguiente paso](#set-up-wireguard-server).
 
 ??? "GL.iNet es el router secundario"
 
@@ -32,7 +32,7 @@ Métodos alternativos:
 
     * Si ya hay un router principal en uso y el router GL.iNet está varios niveles por debajo del router principal, configure el [reenvío de puertos](../tutorials/how_to_set_up_port_forwarding.md) en cada nivel intermedio.
 
-## Configurar el servidor WireGuard
+## Configurar el servidor WireGuard {#set-up-wireguard-server}
 
 Inicie sesión en el panel de administración web y vaya a **VPN** -> **WireGuard Server**.
 
@@ -111,9 +111,9 @@ Inicie sesión en el panel de administración web y vaya a **VPN** -> **WireGuar
 
     ![wireguard server status](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/wgserver_status.png){class="glboxshadow"}
 
-## Compruebe si el servidor WireGuard funciona correctamente
+## Compruebe si el servidor WireGuard funciona correctamente {#check-if-wireguard-server-is-working-properly}
 
-### Verifique el estado del servidor
+### Verifique el estado del servidor {#verify-server-status}
 
 Desde el firmware v4.8, puede consultar el estado de conexión del servidor en la página **WireGuard Server**.
 
@@ -127,7 +127,7 @@ Si se muestran 0 de tráfico y 0 clientes, significa que no hay ningún cliente 
 
 En el firmware v4.7 y versiones anteriores, consulte el estado de conexión del servidor en la página **VPN Dashboard**.
 
-### Verifique la IP del cliente
+### Verifique la IP del cliente {#verify-clients-ip}
 
 Para verificar que la conexión al servidor se haya realizado correctamente, importe la configuración de WireGuard exportada anteriormente en un dispositivo de otra red, es decir, que no esté en la misma red local que el servidor. Luego abra un navegador web y busque su dirección IP y ubicación. Si coinciden con la IP y la ubicación del servidor VPN, en lugar de las de su proveedor de servicios de Internet, la conexión VPN se ha realizado correctamente.
 
@@ -135,12 +135,12 @@ El método más sencillo es usar un smartphone con la [WireGuard App](https://ww
 
 Si la conexión falla, estas son algunas causas habituales:
 
-- Su proveedor de servicios de Internet no le asigna una dirección IP pública. Consúltelo [aquí](#asegurese-de-tener-una-direccion-ip-publica).
-- Puede que necesite configurar el reenvío de puertos. Consúltelo [aquí](#confirme-si-es-necesario-configurar-el-reenvio-de-puertos).
+- Su proveedor de servicios de Internet no le asigna una dirección IP pública. Consúltelo [aquí](#make-sure-you-have-a-public-ip-address).
+- Puede que necesite configurar el reenvío de puertos. Consúltelo [aquí](#confirm-if-port-forwarding-is-required).
 - El puerto utilizado por el servidor WireGuard está bloqueado por su proveedor de servicios de Internet. Cámbielo por otro puerto o póngase en contacto con el proveedor para obtener más ayuda.
 - En algunos países o regiones, la conexión VPN puede estar bloqueada.
 
-## Opciones del servidor
+## Opciones del servidor {#server-options}
 
 Las opciones del servidor incluyen ajustes avanzados del lado del servidor, como el acceso remoto a la LAN del servidor y el enmascaramiento de IP. Configure estos ajustes según sus necesidades.
 
@@ -160,13 +160,17 @@ En la ventana emergente aparecen las siguientes funciones.
 
 - **IP Masquerading**: Si se activa, las direcciones IP de origen de los clientes LAN se reescribirán con la IP del túnel VPN del router. Desactive esta opción únicamente en configuraciones site-to-site en las que el par remoto conozca sus subredes LAN.
 
+    Como se muestra a continuación, si el enmascaramiento de IP está activado, cuando el NAS (192.168.8.100) de la LAN doméstica envía tráfico a través del túnel al portátil de viaje (192.168.10.200), el router doméstico reescribe la IP de origen `192.168.8.100` con la dirección de túnel del servidor VPN, `10.1.0.1`, por lo que el lado remoto ve que el tráfico procede del servidor y no de la LAN local del servidor.
+
+    ![wgserver ip masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/ip_masquerading.png){class="glboxshadow"}
+
 - **MTU**: Abreviatura de Maximum Transmission Unit. El valor MTU establecido para el túnel anula los ajustes MTU del archivo de configuración.
 
 - **Client to Client**: Si se activa, los clientes VPN conectados a este servidor podrán acceder entre sí mediante sus respectivas direcciones IP del túnel VPN.
 
     Tenga en cuenta que Client to Client solo anuncia la dirección IP del túnel de cada cliente. No expone automáticamente las subredes LAN locales situadas detrás de cada cliente VPN. Si necesita que los clientes accedan a las subredes LAN de los demás, añada reglas de enrutamiento en el servidor VPN para anunciar esas subredes LAN remotas.
 
-## Instalar la WireGuard App
+## Instalar la WireGuard App {#wireguard-app-install}
 
 Descargue la WireGuard App desde el [sitio web oficial de WireGuard](https://www.wireguard.com/install){target="_blank"}.
 

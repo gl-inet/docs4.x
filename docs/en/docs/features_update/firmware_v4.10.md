@@ -1,22 +1,22 @@
-# Firmware v4.10
+# Firmware v4.10 {#firmware-v410}
 
 This release introduces Mesh, GL.iNet Account, and native VLAN support. It also improves GoodCloud account management and offers a more user-friendly interface for a better overall experience.
 
 Get the latest firmware from the [Firmware Download Center](https://dl.gl-inet.com/){target="_blank"}.
 
-## Mesh
+## Mesh {#mesh}
 
 [Mesh](../interface_guide/mesh.md) is a feature based on the Wi-Fi EasyMesh™ standard that extends whole-home Wi‑Fi coverage and enables seamless roaming. If you have multiple GL.iNet routers, set one as the main router and the rest as mesh nodes for seamless Wi-Fi roaming around your home. 
 
 ![mesh](https://static.gl-inet.com/docs/router/en/4/features_update/4.10/mesh.png){class="glboxshadow"}
 
-## GL.iNet Account
+## GL.iNet Account {#glinet-account}
 
 [GL.iNet Account](../interface_guide/glinet_account.md) provides a centralized page where you can connect or manage your devices and access cloud services. With a single GL.iNet Account, you can seamlessly access GoodCloud and the GL.iNet App for more convenient network and device management. You can also quickly access the GoodPAS page (named AstroWarp in v4.10 on models other than GL-MG1300) to establish a secure connection between your travel router and home network.
 
 ![gl.inet account](https://static.gl-inet.com/docs/router/en/4/features_update/4.10/account.png){class="glboxshadow"}
 
-## GoodCloud
+## GoodCloud {#goodcloud}
 
 [GoodCloud](../interface_guide/cloud.md) is a cloud platform for remotely deploying and managing GL.iNet routers. It centralizes devices across multiple locations and supports batch configuration and firmware upgrades. It also provides remote access to the web Admin Panel and the device terminal via SSH, making it easier to manage routers remotely.
 
@@ -24,7 +24,7 @@ In firmware v4.10, GoodCloud simplifies account binding and lets you clear cloud
 
 ![goodcloud](https://static.gl-inet.com/docs/router/en/4/features_update/4.10/goodcloud.png){class="glboxshadow"}
 
-## Subnet
+## Subnet {#subnet}
 
 The [Subnet](../interface_guide/subnet.md) page consolidates the configuration of LAN, Guest Network, IoT Network, and custom VLAN Networks into a single unified view. It provides a centralized management interface for all subnet-related settings, allowing you to create and manage multiple subnets to isolate different types of devices or traffic.
 
@@ -32,7 +32,7 @@ The following figure shows the Subnet on the Flint 3 (GL-BE9300).
 
 ![subnet](https://static.gl-inet.com/docs/router/en/4/features_update/4.10/subnet.png){class="glboxshadow"}
 
-## Ethernet Port
+## Ethernet Port {#ethernet-port}
 
 The [Ethernet Port](../interface_guide/ethernet_port_v4.10.md) page displays all Ethernet interfaces on the router. It allows you to check connection status, switch ports between WAN and LAN roles, and view details such as the MAC address, negotiated speed, and link status. Additionally, you can assign physical interfaces to any subnets you have created, which is ideal for VLAN (Virtual Local Area Network) configurations.
 

@@ -1,4 +1,4 @@
-# Utiliser U-Boot pour débricker votre routeur
+# Utiliser U-Boot pour débricker votre routeur {#using-uboot-to-unbrick-your-router}
 
 Si votre routeur est devenu inutilisable à cause de certains projets DIY ou du flash d’un mauvais firmware, vous risquez de ne plus pouvoir y accéder. Dans ce cas, vous pouvez réinstaller le firmware à l’aide du mode failsafe U-Boot.
 
@@ -6,13 +6,13 @@ Si votre routeur est devenu inutilisable à cause de certains projets DIY ou du 
 
 ---
 
-## Préparation
+## Préparation {#preparation}
 
 Préparez un ordinateur avec un port Ethernet. Si votre ordinateur ne dispose pas d’un port Ethernet, prévoyez un adaptateur USB-Ethernet supplémentaire.
 
 **Remarque** : le GL-E5800 (Mudi 7) ne prend actuellement pas en charge le flash du firmware via U-Boot.
 
-## Étapes pour débricker
+## Étapes pour débricker {#unbrick-steps}
 
 Reportez-vous à ce tutoriel vidéo ou suivez les procédures ci-dessous pour accéder à l’interface Web U-Boot et réinstaller le firmware.
 

@@ -1,4 +1,4 @@
-# Tor
+# Tor {#tor}
 
 Tor (od **The Onion Router**) to darmowe oprogramowanie open-source umożliwiające anonimową komunikację. Pozwala użytkownikom przeglądać internet z zachowaniem prywatności. [Dowiedz się więcej o sieci Tor](https://www.torproject.org/){target="_blank"}.
 
@@ -9,7 +9,7 @@ Tor (od **The Onion Router**) to darmowe oprogramowanie open-source umożliwiaj�
   - IPv6
   - ADGuard Home.
 
-## Obsługiwane modele
+## Obsługiwane modele {#supported-models}
 
 ??? "Obsługiwane modele"
     - GL-MT6000 (Fortify)
@@ -49,7 +49,7 @@ Tor (od **The Onion Router**) to darmowe oprogramowanie open-source umożliwiaj�
     - GL-B1300 (Convexa-B)
     - GL-X300B (Collie)
 
-## Szybka konfiguracja
+## Szybka konfiguracja {#quick-setup}
 
 W lewym panelu bocznym interfejsu administracyjnego przejdź do **VPN** -> **Tor**.
 

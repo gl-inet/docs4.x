@@ -1,4 +1,4 @@
-# Perché ricevo un messaggio dal test DDNS?
+# Perché ricevo un messaggio dal test DDNS? {#why-do-i-get-a-message-from-ddns-test}
 
 Quando esegui il test DDNS nella pagina Dynamic DNS, potresti ricevere un messaggio come quello mostrato di seguito.
 

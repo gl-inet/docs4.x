@@ -1,20 +1,20 @@
-# Do I have to configure Ethernet WAN when using VPN?
+# Do I have to configure Ethernet WAN when using VPN? {#do-i-have-to-configure-ethernet-wan-when-using-vpn}
 
 The answer is No. You can configure any WAN source for your GL.iNet router when setting it as VPN client. Your LAN and WLAN will be covered by VPN tunnel.
 
-## Configure by Wi-Fi Repeater
+## Configure by Wi-Fi Repeater {#configure-by-wi-fi-repeater}
 
 You can connect the GL.iNet router (set as VPN client) to your primary router wirelessly, in this way the GL.iNet router will function as a Wi-Fi Repeater.
 
-![repater](https://static.gl-inet.com/docs/router/en/4/faq/wan_source_vpn/repeater.jpg){class="glboxshadow"}
+![repeater](https://static.gl-inet.com/docs/router/en/4/faq/wan_source_vpn/repeater.jpg){class="glboxshadow"}
 
-## Configure by Ethernet cable
+## Configure by Ethernet cable {#configure-by-ethernet-cable}
 
 You can connect the GL.iNet router (set as VPN client) to your primary router via an Ethernet cable.
 
 ![ethernet](https://static.gl-inet.com/docs/router/en/4/faq/wan_source_vpn/ethernet.jpg){class="glboxshadow"}
 
-## Configure by USB Tethering
+## Configure by USB Tethering {#configure-by-usb-tethering}
 
 You can connect the GL.iNet router (set as VPN client) to your phone via a USB cable, which is also known as USB Tethering.
 

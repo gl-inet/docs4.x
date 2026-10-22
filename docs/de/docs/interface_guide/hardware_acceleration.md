@@ -1,4 +1,4 @@
-# Hardware-Beschleunigung
+# Hardware-Beschleunigung {#hardware-acceleration}
 
 **Hinweis**: Diese Anleitung gilt für Firmware v4.2 und früher. Für neuere Versionen lesen Sie bitte [Network Acceleration](network_acceleration.md). 
 
@@ -8,7 +8,7 @@ Die Hardware-Beschleunigung (manchmal auch *Hardware NAT, Flow Offloading oder O
 
 Wenn die Hardware-Beschleunigung aktiviert ist, funktionieren die folgenden Funktionen nicht ordnungsgemäß: Client Speed and Traffic Statistics, Client Speed Limit.
 
-## Unterstützte Modelle
+## Unterstützte Modelle {#supported-models}
 
 ??? "Unterstützte Modelle"
     - GL-MT6000 (Fortify)
@@ -44,7 +44,7 @@ Wenn die Hardware-Beschleunigung aktiviert ist, funktionieren die folgenden Funk
     - GL-B1300 (Convexa-B)
     - GL-X300B (Collie)
 
-## Schnelleinrichtung
+## Schnelleinrichtung {#quick-setup}
 
 Gehen Sie auf der linken Seite des Web-Admin-Panels zu **NETWORK** -> **Hardware Acceleration**.
 
@@ -54,7 +54,7 @@ Aktivieren Sie den Schalter und klicken Sie auf Apply.
 
 ---
 
-## Hardware NAT vs. Software NAT
+## Hardware NAT vs. Software NAT {#hardware-nat-vs-software-nat}
 
 * Wenn für Sie der Durchsatz am wichtigsten ist (z. B. bei Multi-Gigabit-Breitband) und Sie weder SQM auf dem Router noch eine Begrenzung pro Client benötigen → aktivieren Sie Hardware NAT / Network Acceleration. Dadurch erhalten Sie den höchsten Durchsatz und die geringste CPU-Auslastung.
 

@@ -1,4 +1,4 @@
-# How to check the carrier aggregation status on your cellular router
+# How to check the carrier aggregation status on your cellular router {#how-to-check-the-carrier-aggregation-status-on-your-cellular-router}
 
 Carrier aggregation combines multiple network bands to provide greater bandwidth and faster speeds for your cellular connection.
 

@@ -1,6 +1,6 @@
-# GL.iNetルーターでVPN Cascadingを使う方法
+# GL.iNetルーターでVPN Cascadingを使う方法 {#how-to-use-vpn-cascading-on-glinet-routers}
 
-## はじめに
+## はじめに {#introduction}
 
 VPN Cascading は、一部の文脈では「Double VPN」とも呼ばれますが、GL.iNetルーターでの動作は少し異なります。基本的な考え方は次のとおりです。
 
@@ -12,9 +12,9 @@ VPN Cascading は、一部の文脈では「Double VPN」とも呼ばれます�
 
 **VPN Cascading**: ルーターは VPN 1 のトンネルから VPN 2 のトンネルへトラフィックを転送します。これにより、VPN 1 経由でルーターに接続したデバイスは、ルーターのISPネットワークではなく、サードパーティのVPNサービス（VPN 2）経由でインターネットにアクセスできます。
 
-## VPN Cascadingを有効にする方法
+## VPN Cascadingを有効にする方法 {#how-to-enable-vpn-cascading}
 
-### ファームウェア v4.7 以前
+### ファームウェア v4.7 以前 {#for-firmware-v47-and-earlier}
 
 1. まず、ルーターをVPNサーバーとして設定します。より高速に利用するには WireGuard プロトコルを推奨します。詳しくは[こちら](../interface_guide/wireguard_server.md){target="_blank"}をご覧ください。
 
@@ -36,7 +36,7 @@ VPN Cascading は、一部の文脈では「Double VPN」とも呼ばれます�
 
 5. これで VPN Cascading が有効になります。VPN経由でルーターに接続したデバイスは、ルーターのISPネットワークではなく、サードパーティのVPNサービス経由でインターネットにアクセスします。
 
-### ファームウェア v4.8 以降
+### ファームウェア v4.8 以降 {#for-firmware-v48-and-higher}
 
 1. まず、ルーターをVPNサーバーとして設定します。より高速に利用するには WireGuard プロトコルを推奨します。詳しくは[こちら](../interface_guide/wireguard_server.md){target="_blank"}をご覧ください。
 

@@ -1,4 +1,4 @@
-# LAN
+# LAN {#lan}
 
 Po lewej stronie panelu administracyjnego WWW przejdź do **NETWORK** -> **LAN**.
 
@@ -6,7 +6,7 @@ LAN to sieć, z którą urządzenie jest połączone, gdy korzysta z głównej s
 
 Ta strona obejmuje ustawienia podstawowe, ustawienia serwera DHCP oraz rezerwację adresów.
 
-## Ustawienia podstawowe
+## Ustawienia podstawowe {#basic-settings}
 
 Możesz ustawić podsieć w obrębie prywatnych zakresów adresów IPv4: `192.168.0.0/16`, `172.16.0.0/12`, `10.0.0.0/8`.
 
@@ -26,7 +26,7 @@ Możesz ustawić podsieć w obrębie prywatnych zakresów adresów IPv4: `192.16
 
     Możesz odizolować urządzenia klienckie w oddzielnym segmencie sieci. Urządzenia te nie będą mogły komunikować się z innymi urządzeniami w tej samej sieci.
 
-## Serwer DHCP
+## Serwer DHCP {#dhcp-server}
 
 **DHCP Server** jest włączony domyślnie. Serwer DHCP automatycznie przydziela każdemu urządzeniu klienckiemu adresy IP oraz inne parametry komunikacyjne.
 
@@ -52,7 +52,7 @@ Jeśli potrzebujesz dodatkowej konfiguracji, kliknij **Advanced**.
 
 - **LPR Server**: (Line Printer Remote Server) Usługa zarządzająca zadaniami drukowania i umożliwiająca urządzeniom sieciowym wysyłanie żądań drukowania do drukarek zdalnych. Można skonfigurować wiele portów drukarki LPR.
 
-## Rezerwacja adresów
+## Rezerwacja adresów {#address-reservation}
 
 Po określeniu zarezerwowanego adresu IP dla klienta w sieci LAN klient będzie zawsze otrzymywał ten sam adres IP przy każdym połączeniu z serwerem DHCP routera. Możesz przypisać zarezerwowane adresy IP komputerom lub serwerom, które wymagają stałych ustawień IP.
 

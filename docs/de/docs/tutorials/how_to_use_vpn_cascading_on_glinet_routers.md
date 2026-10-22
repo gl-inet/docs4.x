@@ -1,6 +1,6 @@
-# So verwenden Sie VPN Cascading auf GL.iNet-Routern
+# So verwenden Sie VPN Cascading auf GL.iNet-Routern {#how-to-use-vpn-cascading-on-glinet-routers}
 
-## Einführung
+## Einführung {#introduction}
 
 VPN Cascading wird in manchen Zusammenhängen auch als „Double VPN“ bezeichnet, kann sich auf GL.iNet-Routern jedoch leicht unterscheiden. Das Grundprinzip ist unten dargestellt.
 
@@ -12,9 +12,9 @@ VPN Cascading wird in manchen Zusammenhängen auch als „Double VPN“ bezeichn
 
 **VPN Cascading**: Der Router leitet den Datenverkehr aus dem Tunnel von VPN 1 in den Tunnel von VPN 2 weiter. Dadurch greifen Geräte, die per VPN 1 mit dem Router verbunden sind, über den VPN-Dienst des Drittanbieters (VPN 2) statt über das ISP-Netzwerk des Routers auf das Internet zu.
 
-## So aktivieren Sie VPN Cascading
+## So aktivieren Sie VPN Cascading {#how-to-enable-vpn-cascading}
 
-### Für Firmware v4.7 und früher
+### Für Firmware v4.7 und früher {#for-firmware-v47-and-earlier}
 
 1. Richten Sie Ihren Router zunächst als VPN-Server ein. Für höhere Geschwindigkeiten wird das WireGuard-Protokoll empfohlen. Weitere Informationen finden Sie unter [diesem Link](../interface_guide/wireguard_server.md){target="_blank"}.
 
@@ -36,7 +36,7 @@ VPN Cascading wird in manchen Zusammenhängen auch als „Double VPN“ bezeichn
 
 5. VPN Cascading ist nun aktiviert. Geräte, die per VPN mit Ihrem Router verbunden sind, greifen jetzt über den VPN-Dienst des Drittanbieters auf das Internet zu, statt über das ISP-Netzwerk des Routers.
 
-### Für Firmware v4.8 und höher
+### Für Firmware v4.8 und höher {#for-firmware-v48-and-higher}
 
 1. Richten Sie Ihren Router zunächst als VPN-Server ein. Für höhere Geschwindigkeiten wird das WireGuard-Protokoll empfohlen. Weitere Informationen finden Sie unter [diesem Link](../interface_guide/wireguard_server.md){target="_blank"}.
 

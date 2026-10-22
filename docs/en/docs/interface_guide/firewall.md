@@ -1,4 +1,4 @@
-# Firewall
+# Firewall {#firewall}
 
 This guide applies to firmware v4.5 and earlier.
 
@@ -10,7 +10,7 @@ On the left side of the web Admin Panel, go to **NETWORK** -> **Firewall**.
 
 The Firewall page allows you to set firewall rules like **Port Forwarding**, **Open Ports on Router** and **DMZ**.
 
-## Port Forwards
+## Port Forwards {#port-forwards}
 
 Port Forwarding lets remote computers connect to a local computer or server behind the router's firewall in the LAN (such as web servers, FTP servers).
 
@@ -38,7 +38,7 @@ In the pop-up window, add a port forward rule and click **Apply**.
 
 **Enable:** Toggle to enable or disable the rule.
 
-## Open Ports on Router
+## Open Ports on Router {#open-ports-on-router}
 
 The router's services, such as web and FTP, requires their respective ports to be opened on the router in order to be publicly reachable.
 
@@ -58,7 +58,7 @@ In the pop-up window, open a new port and click **Apply**.
 
 **Enable:** Enable or disable the rule.
 
-## DMZ
+## DMZ {#dmz}
 
 DMZ lets you to expose one computer to the Internet, so all inbound packets will be redirected to this computer.
 

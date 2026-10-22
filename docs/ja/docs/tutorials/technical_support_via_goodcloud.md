@@ -1,8 +1,8 @@
-# GoodCloud経由で技術サポートを受ける
+# GoodCloud経由で技術サポートを受ける {#technical-support-via-goodcloud}
 
 GL.iNetから技術サポートを受けるために、GoodCloud経由でデバイスを共有する必要がある場合があります。このガイドでは、GL.iNet技術サポートへデバイスを共有する方法を紹介します。
 
-## GoodCloudとリモートアクセスを有効にする
+## GoodCloudとリモートアクセスを有効にする {#enable-goodcloud-and-remote-access}
 
 GL.iNet技術サポートへデバイスを共有する前に、安定性のためにルーターに追加のインターネット接続があることを確認してください。Ethernet 接続または Repeater 接続をフェイルオーバー用バックアップとして設定し、正常に動作することを確認してください。
 
@@ -10,13 +10,13 @@ GL.iNet技術サポートへデバイスを共有する前に、安定性のた�
 
 GoodCloud とリモートアクセスを有効にするには、デバイスのファームウェアバージョンに合った手順を選択してください。
 
-??? "ファームウェアバージョン 4.10"
+??? "ファームウェアバージョン 4.10 以降"
 
     **CLOUD SERVICES** -> **GoodCloud** に移動し、**Get Started** をクリックします。
 
     ![GoodCloud 4.10 1](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/goodcloud_v4.10_1.png){class="glboxshadow"}
 
-    ページに URL が表示されます。**link** をクリックして GL.iNet Account ページからログインするか、リモートバインド用にコピーします。アカウントがない場合は、先に登録してください。
+    ページに URL が表示されます。**リンク**をクリックして GL.iNet Account ページからログインするか、リモートバインド用にコピーします。アカウントがない場合は、先に登録してください。
 
     ![GoodCloud 4.10 2](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/goodcloud_v4.10_2.png){class="glboxshadow"}
 
@@ -42,7 +42,7 @@ GoodCloud とリモートアクセスを有効にするには、デバイスの�
 
     ![enable GoodCloud 4.6](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/enable_goodcloud_v4.6.x.png){class="glboxshadow"}
 
-## Cloudアカウントにログインしてデバイスを紐付ける
+## Cloudアカウントにログインしてデバイスを紐付ける {#log-in-cloud-account-and-bind-device}
 
 ルーターがファームウェア v4.7 以降で動作している場合は、ルーターのWeb管理パネルでアカウントを登録して直接ログインできます。ログインすると、現在のデバイスは自動的にCloudアカウントへ紐付けられます。
 
@@ -50,9 +50,9 @@ GoodCloud とリモートアクセスを有効にするには、デバイスの�
 
 1. [GoodCloud](https://www.goodcloud.xyz){target="_blank"} にアクセスしてアカウントへログインします。アカウントがない場合は、先に登録してください。
 
-2. デバイスをGoodCloudに紐付けます。詳細は[このリンク](../interface_guide/cloud.md#add-device-in-your-account)を参照してください。
+2. デバイスをGoodCloudにバインドします。[デバイスをクラウドにバインドする方法](../interface_guide/cloud.md#bind-devices-to-cloud)を参照してください。
 
-## GL.iNet技術サポートとデバイスを共有する
+## GL.iNet技術サポートとデバイスを共有する {#share-device-with-glinet-technical-support}
 
 1. [GoodCloud](https://www.goodcloud.xyz){target="_blank"} にアクセスしてログインします。
 
@@ -64,19 +64,19 @@ GoodCloud とリモートアクセスを有効にするには、デバイスの�
 
     ![share device](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/share_device.png){class="glboxshadow"}
 
-    その後、GL.iNet Technical Support とデバイスを共有します。個人ネットワークを保護するため、**Auto Expire Sharing** を有効にして有効期限を7日に設定してください。その後、**Confirm** をクリックします。
+    その後、GL.iNet 技術サポートとデバイスを共有します。個人ネットワークを保護するため、**Auto Expire Sharing** を有効にして有効期限を7日に設定してください。その後、**Confirm** をクリックします。
 
     ![share device with GL.iNet support](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/share_device_confirm.png){class="glboxshadow"}
 
-**Privacy Protection Statement**
+**プライバシー保護に関する声明**
 
-1. GL.iNet Technical Support と共有されたデバイスは、トラブルシューティング目的でのみ使用されます。GL.iNet Support が個人情報を保持、バックアップ、または閲覧することはありません。
+1. GL.iNet 技術サポートと共有されたデバイスは、トラブルシューティングの目的に**のみ**使用されます。GL.iNet サポートがお客様の個人情報を保持、バックアップ、または閲覧することはありません。
 
-2. パスワード保護のため、デバイスをGL.iNet Supportと共有する前に、Web管理パネルのログインパスワードを一時的なものへ変更することを推奨します。トラブルシューティング完了後に元のパスワードへ戻せます。
+2. パスワードの安全を確保するため、デバイスを GL.iNet サポートと共有する前に、Web管理パネルのログインパスワードを一時的なものへ変更することを推奨します。トラブルシューティング完了後に元のパスワードへ戻せます。
 
-## GL.iNet技術サポートへ情報を提供する
+## GL.iNet技術サポートへ情報を提供する {#provide-information-to-glinet-technical-support}
 
-デバイス共有後、リモートトラブルシューティングのために、ルーターの **MAC address** と **admin password** を、担当のGL.iNet技術サポートスタッフへメールまたはフォーラムPMで送ってください。
+デバイス共有後、リモートトラブルシューティングのために、ルーターの **MAC アドレス**と**管理者パスワード**を、担当のGL.iNet技術サポートスタッフへメールまたはフォーラムPMで送ってください。
 
 **メールとPMの両方へ同時に送信しないでください。**
 
@@ -94,10 +94,10 @@ GoodCloud とリモートアクセスを有効にするには、デバイスの�
 
 フォーラムの新規ユーザーは、GL.iNet技術サポートへプライベートメッセージを送れないことがあります。その場合は、やり取りしている同じスレッドで返信し、先にサポートスタッフからプライベートメッセージを送ってもらうよう依頼してください。
 
-デバイス情報は公開の場で共有せず、必ず PM で GL.iNet技術サポートにのみ共有してください。
+デバイスの情報は公開の場で**共有しないでください**。PM で GL.iNet 技術サポートにのみ共有してください。
 
 問題が解決したら、共有を解除し、ルーターの管理者パスワードを変更してください。
 
 ---
 
-ご不明な点がありましたら、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}をご覧いただくか、[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

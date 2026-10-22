@@ -1,7 +1,7 @@
-# So erhalten Sie Konfigurationsdateien von WireGuard-Dienstanbietern
+# So erhalten Sie Konfigurationsdateien von WireGuard-Dienstanbietern {#how-to-get-configuration-files-from-wireguard-service-providers}
 
 ??? "AzireVPN"
-    ### AzireVPN
+    ### AzireVPN {#azirevpn}
 
     [Offizielle Website](https://www.azirevpn.com/aff/9x7wisg4){target="_blank"}
 
@@ -18,7 +18,7 @@
     4. Sie können AzireVPN auch über die [Mobile App](../faq/mobile_app.md) einrichten.
 
 ??? "Hide.me VPN"
-    ### Hide.me VPN
+    ### Hide.me VPN {#hideme-vpn}
 
     [Offizielle Website](https://hide.me/?friend=glinet){target="_blank"}
 
@@ -39,18 +39,18 @@
     [Weiterführender Link](https://github.com/eventure/hide.client.routers){target="_blank"}
 
 ??? "Mullvad"
-    ### Mullvad
+    ### Mullvad {#mullvad}
 
     [Offizielle Website](https://mullvad.net/){target="_blank"}
 
     1. Rufen Sie die [offizielle Website von Mullvad](https://mullvad.net/){target="_blank"} auf und melden Sie sich an. Öffnen Sie anschließend den [Generator für WireGuard-Konfigurationsdateien](https://mullvad.net/en/account/#/wireguard-config){target="_blank"}.
 
-    2. Folgen Sie dann [dieser Anleitung](../interface_guide/wireguard_client.md/#set-up-mullvad), um fortzufahren.
+    2. Folgen Sie dann [dieser Anleitung](../interface_guide/wireguard_client.md#set-up-mullvad), um fortzufahren.
 
     3. Sie können Mullvad auch über die [Mobile App](../faq/mobile_app.md) einrichten.
 
 ??? "PIA (Private Internet Access)"
-    ### PIA (Private Internet Access)
+    ### PIA (Private Internet Access) {#pia-private-internet-access}
 
     [Offizielle Website](https://privateinternetaccess.com/offer/GLiNET_71dx4t8bl){target="_blank"}
 
@@ -59,7 +59,7 @@
     <iframe width="560" height="315" src="https://www.youtube.com/embed/Fc7NTdQ9QFo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ??? "Surfshark"
-    ### Surfshark
+    ### Surfshark {#surfshark}
 
     [Offizielle Website](https://get.surfshark.net/aff_c?offer_id=926&aff_id=1400){target="_blank"}
 
@@ -88,7 +88,7 @@
     [Weiterführender Link](https://support.surfshark.com/hc/en-us/articles/6585805139474-How-to-set-up-a-manual-WireGuard-connection-on-Android-){target="_blank"}
 
 ??? "AirVPN"
-    ### AirVPN
+    ### AirVPN {#airvpn}
 
     [Offizielle Website](https://airvpn.org/?referred_by=402389){target="_blank"}
 
@@ -107,7 +107,7 @@
     4. Folgen Sie dann [dieser Anleitung](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers), um fortzufahren.
 
 ??? "Astrill"
-    ### Astrill
+    ### Astrill {#astrill}
 
     [Offizielle Website](https://www.astrill.com/a/dik2masnw6ig){target="_blank"}
 
@@ -116,7 +116,7 @@
     Folgen Sie dann [dieser Anleitung](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers), um fortzufahren.
 
 ??? "IVPN"
-    ### IVPN
+    ### IVPN {#ivpn}
 
     [Offizielle Website](https://www.ivpn.net/){target="_blank"}
 
@@ -127,7 +127,7 @@
     Folgen Sie dann [dieser Anleitung](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers), um fortzufahren.
 
 ??? "NVPN"
-    ### NVPN
+    ### NVPN {#nvpn}
 
     [Offizielle Website](https://www.nvpn.net/){target="_blank"}
 
@@ -136,7 +136,7 @@
     Folgen Sie dann [dieser Anleitung](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers), um fortzufahren.
 
 ??? "OVPN"
-    ### OVPN
+    ### OVPN {#ovpn}
 
     [Offizielle Website](https://www.ovpn.com/en?ref=glinet){target="_blank"}
 
@@ -159,7 +159,7 @@
     5. Sie können OVPN auch über die [Mobile App](../faq/mobile_app.md) einrichten.
 
 ??? "PrivateVPN"
-    ### PrivateVPN
+    ### PrivateVPN {#privatevpn}
 
     [Offizielle Website](https://affiliate.privatevpn.com/scripts/click.php?a_aid=5e3a511658bc3){target="_blank"}
 
@@ -178,7 +178,7 @@
     4. Folgen Sie dann [dieser Anleitung](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers), um fortzufahren.
 
 ??? "PrivadoVPN"
-    ### PrivadoVPN
+    ### PrivadoVPN {#privadovpn}
 
     [Offizielle Website](https://privadovpn.com/#a_aid=GLINET){target="_blank"}
 
@@ -193,7 +193,7 @@
     Folgen Sie dann [dieser Anleitung](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers), um fortzufahren.
 
 ??? "Proton VPN"
-    ### Proton VPN
+    ### Proton VPN {#proton-vpn}
 
     [Offizielle Website](https://go.getproton.me/aff_c?offer_id=26&aff_id=1612){target="_blank"}
 
@@ -202,7 +202,7 @@
     Folgen Sie dann [dieser Anleitung](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers), um fortzufahren.
 
 ??? "PureVPN"
-    ### PureVPN
+    ### PureVPN {#purevpn}
 
     [Offizielle Website](https://billing.purevpn.com/aff.php?aff=35535){target="_blank"}
 
@@ -231,7 +231,7 @@
     [Weiterführender Link](https://support.purevpn.com/router/how-to-setup-purevpn-on-glinet-router){target="_blank"}
 
 ??? "SpiderVPN"
-    ### SpiderVPN
+    ### SpiderVPN {#spidervpn}
 
     [Offizielle Website](https://spidervpn.org/#a_aid=5ddfa0372e7ff){target="_blank"}
 
@@ -246,7 +246,7 @@
     3. Folgen Sie dann [dieser Anleitung](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers), um fortzufahren.
 
 ??? "StarVPN"
-    ### StarVPN
+    ### StarVPN {#starvpn}
 
     [Offizielle Website](https://www.starvpn.com/dashboard/aff.php?aff=91){target="_blank"}
 
@@ -278,7 +278,7 @@
     - [AmneziaWG VPN Setup with StarVPN](https://www.starvpn.com/amnezia-vpn-setup-with-starvpn){target="_blank"}
 
 ??? "StrongVPN"
-    ### StrongVPN
+    ### StrongVPN {#strongvpn}
 
     [Offizielle Website](https://strongvpn.com/?tr_aid=5ac44bd241ca7){target="_blank"}
 
@@ -293,7 +293,7 @@
     4. Sie können StrongVPN auch über die [Mobile App](../faq/mobile_app.md) einrichten.
 
 ??? "TRUST.ZONE"
-    ### TRUST.ZONE
+    ### TRUST.ZONE {#trustzone}
 
     [Offizielle Website](https://trustzonevpn.info/r.php?RID=B-byr1v-MDAxNzE3NjgxMjM4){target="_blank"}
 
@@ -304,7 +304,7 @@
     3. Folgen Sie dann [dieser Anleitung](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers), um fortzufahren.
 
 ??? "VPN.AC"
-    ### VPN.AC
+    ### VPN.AC {#vpnac}
 
     [Offizielle Website](https://vpn.ac/aff.php?aff=1424){target="_blank"}
 
@@ -319,7 +319,7 @@
     3. Folgen Sie dann [dieser Anleitung](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers), um fortzufahren.
 
 ??? "VPN Unlimited(KeepSolid)"
-    ### VPN Unlimited(KeepSolid)
+    ### VPN Unlimited(KeepSolid) {#vpn-unlimitedkeepsolid}
 
     [Offizielle Website](https://keepsolid.g2afse.com/click?pid=270&offer_id=7){target="_blank"}
 
@@ -358,7 +358,7 @@
     [Weiterführender Link 2](https://www.vpnunlimited.com/help/manuals/wireguard/windows){target="_blank"}
 
 ??? "Windscribe"
-    ### Windscribe
+    ### Windscribe {#windscribe}
 
     [Offizielle Website](https://windscribe.com/yo/1u2h9ndl){target="_blank"}
 
@@ -371,7 +371,7 @@
     3. Folgen Sie [dieser Anleitung](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers), um fortzufahren.
 
 ??? "X-VPN"
-    ### X-VPN
+    ### X-VPN {#x-vpn}
 
     [Offizielle Website](https://xvpn.io/go?aff_id=nk5bu995){target="_blank"}
 
@@ -398,7 +398,7 @@
     Folgen Sie dann [dieser Anleitung](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers), um fortzufahren.
 
 ??? "12VPX"
-    ### 12VPX
+    ### 12VPX {#12vpx}
 
     [Offizielle Website](https://12vpx.com/?aff=1174){target="_blank"}
 

@@ -1,4 +1,4 @@
-# Bark
+# Bark {#bark}
 
 > Diese Anleitung gilt für Firmware v4.9 und höher. Für frühere Versionen klicken Sie bitte [hier](parental_control.md#bark-version).
 
@@ -10,7 +10,7 @@ Der Dienst [Bark](https://www.bark.us/){target="_blank"} kann helfen, die digita
 
 2. Bark und GL.iNet Parental Control können nicht gleichzeitig aktiviert werden, da dies zu Konflikten führen kann.
 
-## Unterstützte Modelle
+## Unterstützte Modelle {#supported-models}
 
 ??? "Unterstützte Modelle"
     - GL-MT6000 (Fortify)
@@ -47,7 +47,7 @@ Der Dienst [Bark](https://www.bark.us/){target="_blank"} kann helfen, die digita
     - GL-AP1300 (Cirrus)
     - GL-X300B (Collie)
 
-## Schnelleinrichtung
+## Schnelleinrichtung {#quick-setup}
 
 Melden Sie sich am webbasierten Admin Panel des Routers an und navigieren Sie zu **APPLICATIONS** -> **Bark**.
 

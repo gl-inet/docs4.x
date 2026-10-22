@@ -1,4 +1,4 @@
-# Jak zarezerwować stały adres IP dla klienta OpenVPN w samodzielnie utworzonym połączeniu OpenVPN?
+# Jak zarezerwować stały adres IP dla klienta OpenVPN w samodzielnie utworzonym połączeniu OpenVPN? {#how-to-reserve-a-fixed-ip-for-openvpn-client-in-a-self-built-openvpn-connection}
 
 Ten przewodnik pokaże, jak zarezerwować stały adres IP dla klienta OpenVPN łączącego się z serwerem. Przed wykonaniem poniższych kroków skonfiguruj router GL.iNet jako serwer OpenVPN.
 

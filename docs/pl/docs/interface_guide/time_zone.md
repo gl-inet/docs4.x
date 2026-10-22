@@ -1,4 +1,4 @@
-# Strefa czasowa
+# Strefa czasowa {#time-zone}
 
 W lewym panelu bocznym interfejsu administracyjnego przejdź do **SYSTEM** -> **Time Zone**.
 

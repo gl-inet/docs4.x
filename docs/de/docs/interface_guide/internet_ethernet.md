@@ -1,4 +1,4 @@
-# Mit einem Ethernet-Kabel eine Verbindung zum Internet herstellen
+# Mit einem Ethernet-Kabel eine Verbindung zum Internet herstellen {#connect-to-the-internet-via-an-ethernet-cable}
 
 Verbinden Sie den Router über ein Ethernet-Kabel, das am WAN-Port angeschlossen ist, mit einem Breitbandnetzwerk. In der Regel erhält er automatisch eine IP-Adresse (DHCP). Benutzer können Static oder PPPoE auch manuell konfigurieren. Diese Methode bietet hohe Stabilität und schnelle Geschwindigkeiten und ist daher ideal für Wohn- und Büroumgebungen mit festem Breitbandzugang.
 
@@ -14,7 +14,7 @@ Führen Sie die folgenden Schritte aus, um Ihren Router über ein Ethernet-Kabel
 
 **Tipp**: Sie können die Rolle des WAN-Ports bei Bedarf zu LAN ändern. Das ist nützlich, wenn Sie den Router als [Repeater](internet_repeater.md) verwenden, da der physische WAN-Port dann ungenutzt bleibt. Wenn Sie den WAN-Port zu LAN ändern, erhalten Sie einen zusätzlichen LAN-Port.
 
-## Protokoll
+## Protokoll {#protocol}
 
 Es gibt 3 Protokolltypen: DHCP, Static und PPPoE. Klicken Sie auf **Modify**, um den Typ zu ändern.
 
@@ -38,7 +38,7 @@ Es gibt 3 Protokolltypen: DHCP, Static und PPPoE. Klicken Sie auf **Modify**, um
 
     ![ethernet pppoe](https://static.gl-inet.com/docs/router/de/4/interface_guide/internet_ethernet/ethernet_5.png){class="glboxshadow"}
 
-## Erweitert
+## Erweitert {#advanced}
 
 Zusätzlich zu den grundlegenden Einstellungen gibt es für die drei oben genannten Protokolle einige optionale erweiterte Einstellungen.
 
@@ -52,7 +52,7 @@ Zusätzlich zu den grundlegenden Einstellungen gibt es für die drei oben genann
 
 * **MTU**: Der Standardwert für MTU beträgt 1500 Byte.
 
-## Ethernet Port
+## Ethernet Port {#ethernet-port}
 
 Klicken Sie oben rechts auf das Zahnradsymbol, um zur Seite [Ethernet Port](ethernet_port.md) zu gelangen und die Ethernet-Ports Ihres Routers zu verwalten.
 
@@ -68,7 +68,7 @@ Auf der Seite **LAN** werden die Portrolle und die ausgehandelte Geschwindigkeit
 
 Weitere Details finden Sie unter [Ethernet Port](ethernet_port.md).
 
-## Fehlerbehebung
+## Fehlerbehebung {#troubleshooting}
 
 Wenn ein Ethernet-Kabel am WAN-Port angeschlossen ist, aber kein Internet verfügbar ist, wird eine gelbe Meldung wie unten angezeigt.
 
@@ -86,9 +86,9 @@ So beheben Sie das Problem:
 
 Verwandte Artikel
 
-- [Internet page](internet.md)
-- [How to set the priority of each Internet access method?](multi-wan.md)
-- [How to set the load balance when multiple Internet access methods are used at the same time?](multi-wan.md)
+- [Internet-Seite](internet.md)
+- [Wie legt man die Priorität der einzelnen Internetzugangsmethoden fest?](multi-wan.md)
+- [Wie richtet man Lastausgleich ein, wenn mehrere Internetzugangsmethoden gleichzeitig verwendet werden?](multi-wan.md)
 
 ---
 

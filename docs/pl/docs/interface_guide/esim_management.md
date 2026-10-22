@@ -1,4 +1,4 @@
-# Zarzadzanie eSIM
+# Zarzadzanie eSIM {#esim-management}
 
 **Uwaga**:
 
@@ -6,7 +6,7 @@
 
 2. GL-E5800 (Mudi 7) ma wbudowaną kartę eSIM i nie obsługuje fizycznej karty eSIM GL.iNet. Na Mudi 7 fizyczna karta eSIM zostanie rozpoznana jako zwykła karta SIM bez funkcji eSIM.
 
-## Obsługiwane modele
+## Obsługiwane modele {#supported-models}
 
 !!! note "Obsługiwane modele"
 
@@ -33,7 +33,7 @@
 
     3. **GL-E5800 (Mudi 7)** ma wbudowaną kartę eSIM. W związku z tym fizyczna karta eSIM zostanie rozpoznana na Mudi 7 jako zwykła karta SIM bez funkcji eSIM.
 
-## Zarządzanie eSIM
+## Zarządzanie eSIM {#esim-management_1}
 
 W Web Admin Panel po lewej stronie przejdź do **APPLICATIONS** -> **eSIM Management**.
 
@@ -41,7 +41,7 @@ Ta strona pozwala sprawdzić stan fizycznej karty eSIM i zarządzać profilami e
 
 ![esim detected](https://static.gl-inet.com/docs/router/en/4/interface_guide/esim_management/esim_detected.png){class="glboxshadow"}
 
-## Current eSIM Status
+## Current eSIM Status {#current-esim-status}
 
 Ta sekcja wyswietla podstawowe informacje i szczegoly aktualnie aktywnego profilu eSIM.
 
@@ -54,7 +54,7 @@ Ta sekcja wyswietla podstawowe informacje i szczegoly aktualnie aktywnego profil
 - **eSIM Storage (remain/total):** Dostepna i calkowita pojemnosc eUICC do przechowywania profili eSIM.
 - **eSIM Profile Number:** Liczba profili eSIM aktualnie zapisanych na eUICC. Pamietaj, ze profile eSIM oferowane przez roznych operatorow moga miec rozne rozmiary, dlatego liczba profili, ktore mozna zapisac na eUICC, takze bedzie sie roznic.
 
-## eSIM Profile List
+## eSIM Profile List {#esim-profile-list}
 
 Ta sekcja wyswietla informacje o profilu startowym i profilach standardowych.
 
@@ -64,7 +64,7 @@ Ta sekcja wyswietla informacje o profilu startowym i profilach standardowych.
 
 - **Normal Profile**: Jesli kupisz profil eSIM i wgrasz go za pomoca kodu QR lub kodu aktywacyjnego, profil zostanie wyswietlony tutaj.
 
-### Doladowanie profilu startowego
+### Doladowanie profilu startowego {#top-up-seed-profile}
 
 GL.iNet udostepnia fabrycznie zaladowany profil startowy z 100 MB danych globalnych oraz 1 GB danych waznych w Europie i USA na potrzeby poczatkowej konfiguracji i aktywacji profili eSIM. Ten pakiet jest przeznaczony do pobierania nowych profili eSIM po przybyciu do miejsca bez dostepu do Internetu.
 
@@ -78,7 +78,7 @@ W wyskakujacym oknie zeskanuj kod QR i postepuj zgodnie z instrukcjami, aby zako
 
 ![top-up seed profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/esim_management/top-up_seed2.png){class="glboxshadow" width="400"}
 
-### Zakup profilu eSIM
+### Zakup profilu eSIM {#purchase-esim-profile}
 
 Profile eSIM mozna kupic w naszych polecanych sklepach, sklepach przetestowanych lub u innych zewnetrznych dostawcow eSIM.
 
@@ -110,7 +110,7 @@ Profile eSIM mozna kupic w naszych polecanych sklepach, sklepach przetestowanych
 
     W sprawie wsparcia posprzedazowego lub zwrotu skontaktuj sie z odpowiednim dostawca eSIM.
 
-### Wgrywanie profilu eSIM
+### Wgrywanie profilu eSIM {#upload-esim-profile}
 
 Po zakupie profilu eSIM zwykle otrzymasz kod QR lub kod aktywacyjny. Zapisz ten kod QR lokalnie, a nastepnie wykonaj ponizsze kroki, aby wgrac profil eSIM.
 
@@ -130,7 +130,7 @@ Po zakupie profilu eSIM zwykle otrzymasz kod QR lub kod aktywacyjny. Zapisz ten 
 
         ![esim activation code](https://static.gl-inet.com/docs/router/en/4/interface_guide/esim_management/activation_code.jpg){class="glboxshadow" width="550"}
 
-    3. Jesli nie kupiles jeszcze zadnego profilu eSIM, mozesz kupic go w **eSIM Profile Recommended Store**. Kliknij [tutaj](#zakup-profilu-esim), aby zobaczyc szczegoly.
+    3. Jesli nie kupiles jeszcze zadnego profilu eSIM, mozesz kupic go w **eSIM Profile Recommended Store**. Kliknij [tutaj](#purchase-esim-profile), aby zobaczyc szczegoly.
 
 3. Wlacz swoj profil eSIM.
 
@@ -150,7 +150,7 @@ Po zakupie profilu eSIM zwykle otrzymasz kod QR lub kod aktywacyjny. Zapisz ten 
 
     ![esim connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/esim_management/esim_connected.png){class="glboxshadow"}
 
-### Eksport logu dla wsparcia
+### Eksport logu dla wsparcia {#export-log-for-support}
 
 Kliknij **Export Log for Support**, aby zobaczyc wszystkie logi zwiazane z eSIM. Jesli napotkasz problemy i potrzebujesz wsparcia technicznego, wyeksportuj logi eSIM i udostepnij je naszemu zespolowi wsparcia mailowo pod adresem [support@gl-inet.com](mailto:support@gl-inet.com).
 

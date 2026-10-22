@@ -1,12 +1,12 @@
-# ヘルプ
+# ヘルプ {#help}
 
 Web管理パネルで、タイトルバー右側の疑問符アイコンをクリックします。
 
 ![help](https://static.gl-inet.com/docs/router/en/4/interface_guide/help/help.png){class="glboxshadow"}
 
-[Router Support Docs](https://docs.gl-inet.com/router/en/4){target="_blank"} を参照できます。
+[Router Support Docs](../index.md) を参照できます。
 
-ファームウェア v4.8 以降では、ワンクリックで Tech Support に連絡できるようになり、サポートを受けやすくなりました。
+ファームウェア v4.8 以降では、ワンクリックで技術サポートに連絡できるようになり、サポートを受けやすくなりました。
 
 **Contact Tech Support** をクリックすると Log ページへ移動し、右側にポップアップウィンドウが表示されます。
 
@@ -20,4 +20,4 @@ Web管理パネルで、タイトルバー右側の疑問符アイコンをク�
 
 ---
 
-ご不明な点がありましたら、[Community Forum](https://forum.gl-inet.com){target="_blank"} または [Contact us](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

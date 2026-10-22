@@ -1,10 +1,10 @@
-# Jak skierować cały ruch przez VPN?
+# Jak skierować cały ruch przez VPN? {#how-to-let-all-data-go-through-vpn}
 
 Jeśli chcesz, aby cały ruch sieciowy routera był kierowany przez VPN, a po awarii VPN wszystkie połączenia z Internetem zostały zablokowane, wykonaj poniższe kroki, aby włączyć **VPN Kill Switch**.
 
 **Uwaga**: Przed włączeniem VPN Kill Switch najpierw skonfiguruj klient VPN na routerze GL.iNet.
 
-## Dla firmware v4.7 lub starszego
+## Dla firmware v4.7 lub starszego {#for-firmware-v47-or-earlier}
 
 Zaloguj się do panelu administracyjnego routera, przejdź do sekcji **VPN** -> **VPN Dashboard** -> **VPN Client**, a następnie kliknij **Global Options**.
 
@@ -16,7 +16,7 @@ Włącz **Block Non-VPN Traffic** (w niektórych wersjach firmware funkcja ta na
 
 **Uwaga:** Gdy **Block Non-VPN Traffic** / Kill Switch jest włączony, a VPN zostanie wyłączony lub rozłączony, wszystkie urządzenia podłączone do routera utracą dostęp do Internetu, aby zapobiec wyciekom DNS.
 
-## Dla firmware v4.8 lub nowszego
+## Dla firmware v4.8 lub nowszego {#for-firmware-v48-or-later}
 
 W firmware v4.8 VPN Kill Switch został podzielony na dwa tryby.
 
@@ -24,7 +24,7 @@ W firmware v4.8 VPN Kill Switch został podzielony na dwa tryby.
 
 - **Enhanced Kill Switch (in Policy Mode)**: jest domyślnie wyłączony, aby cały ruch nieobjęty powyższymi tunelami VPN i zasadami nadal miał dostęp do Internetu. Krótko mówiąc, utrzymuje normalny dostęp do Internetu dla ruchu spoza VPN.
 
-### Kill Switch tunelu
+### Kill Switch tunelu {#tunnel-kill-switch}
 
 W panelu administracyjnym routera przejdź do **VPN** -> **VPN Dashboard**.
 
@@ -44,7 +44,7 @@ Kill Switch dla tego tunelu jest domyślnie włączony.
 
 ![tunnel options 2](https://static.gl-inet.com/docs/router/en/4/faq/block_non_vpn_traffic/4.8-global-mode-options2.png){class="glboxshadow"}
 
-### Rozszerzony Kill Switch
+### Rozszerzony Kill Switch {#enhanced-kill-switch}
 
 Ta funkcja jest dostępna w **Policy Mode** (trybie polityk).
 

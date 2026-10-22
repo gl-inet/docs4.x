@@ -1,4 +1,4 @@
-# Log
+# Log {#log}
 
 Po lewej stronie panelu administracyjnego WWW przejdź do **SYSTEM** -> **Log**.
 

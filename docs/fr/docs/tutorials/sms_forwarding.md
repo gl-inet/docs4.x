@@ -1,11 +1,11 @@
-# Transfert de SMS
+# Transfert de SMS {#sms-forwarding}
 
 Les routeurs cellulaires GL.iNet prennent en charge le transfert de SMS, en envoyant automatiquement les messages entrants vers des destinataires désignés.
 
 **Remarque** : cette fonctionnalité ne fonctionne qu'avec les routeurs cellulaires GL.iNet équipés du module 4G LTE/5G NR d'origine, et n'est pas prise en charge avec d'autres modules ou modules USB.
 
 
-## Modèles pris en charge
+## Modèles pris en charge {#supported-models}
 
 ??? "Modèles pris en charge"
     - GL-E5800 (Mudi 7)
@@ -42,25 +42,25 @@ Les routeurs cellulaires GL.iNet prennent en charge le transfert de SMS, en envo
     - GL-B1300 (Convexa-B)
     - GL-AP1300 (Cirrus)
 
-## Configuration
+## Configuration {#quick-setup}
 
 Prenons le GL-XE3000 (Puli AX) comme exemple.
 
-Dans le panneau d'administration web, dans la barre latérale gauche, accédez à **INTERNET** -> **Cellular**.
+1. Consultez [ce lien](../interface_guide/internet_cellular.md) pour configurer d'abord votre routeur cellulaire.
 
-Cliquez sur l'icône d'enveloppe en haut à droite pour accéder à la page SMS, où vous trouverez les paramètres de transfert de SMS (**SMS Forwarding**).
+2. Connectez-vous au panneau d'administration web du routeur et accédez à **INTERNET** -> **Cellular**. Cliquez sur l'icône d'enveloppe en haut à droite pour accéder à la page SMS, où vous trouverez les paramètres de transfert de SMS (**SMS Forwarding**).
 
-![sms setting](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms.png){class="glboxshadow"}
+    ![sms setting](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms.png){class="glboxshadow"}
 
-### Transfert par e-mail
+### Transfert par e-mail {#forward-via-email}
 
 ![sms forwarding email](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms_forward_email.png){class="glboxshadow"}
 
-- **SMTP Server Address** : des adresses de serveur préconfigurées pour Gmail, Outlook, iCloud et Yahoo sont disponibles dans la liste déroulante. Pour les autres fournisseurs de messagerie, consultez leur documentation ou contactez leur support.
+- **SMTP Server Address** : Des adresses de serveur prédéfinies pour Gmail, Outlook, iCloud et Yahoo sont disponibles dans la liste déroulante. Une adresse prédéfinie ne garantit pas la compatibilité avec les exigences d’authentification du fournisseur. Pour les autres fournisseurs de messagerie, consultez leur documentation ou contactez leur assistance.
 
 - **Encryption Method** : trois options sont proposées : none, SSL/TLS et STARTTLS.
 - **Username** : saisissez l'adresse e-mail ici.
-- **Password** : utilisez un mot de passe d'application ou le mot de passe du compte de connexion. Pour Gmail, Outlook, iCloud et Yahoo, consultez le guide ci-dessous.
+- **Password** : Saisissez le mot de passe SMTP requis par votre fournisseur de messagerie, par exemple un mot de passe spécifique à une application. Consultez les exigences de chaque fournisseur ci-dessous.
 - **Subject** : définissez l'objet de l'e-mail ici.
 
 ??? "Gmail"
@@ -69,9 +69,13 @@ Cliquez sur l'icône d'enveloppe en haut à droite pour accéder à la page SMS,
 
     Les ports 465 et 587 peuvent tous deux être utilisés.
 
-??? "Outlook"
+??? "Outlook.com"
 
-    Pour Outlook, vous pouvez utiliser directement le mot de passe sans configuration supplémentaire, et le port 587 est pris en charge. Consultez le guide officiel [POP, IMAP, and SMTP settings for Outlook.com](https://support.microsoft.com/en-us/office/pop-imap-and-smtp-settings-for-outlook-com-d088b986-291d-42b8-9564-9c414e2aa040){target="_blank"}
+    Outlook.com exige OAuth2 (Modern Authentication) pour l’authentification SMTP. Son serveur SMTP est `smtp-mail.outlook.com`, sur le port `587` avec `STARTTLS`.
+
+    Avant d’utiliser un compte Outlook.com pour envoyer des SMS transférés, vérifiez que le firmware de votre routeur prend en charge cette méthode d’authentification.
+
+    Consultez la documentation Microsoft sur les [paramètres POP, IMAP et SMTP pour Outlook.com](https://support.microsoft.com/en-us/outlook/pop-imap-and-smtp-settings-for-outlook-com){target="_blank"}.
 
 ??? "iCloud"
 
@@ -85,7 +89,7 @@ Cliquez sur l'icône d'enveloppe en haut à droite pour accéder à la page SMS,
 
 Vous pouvez ajouter jusqu'à 10 adresses e-mail.
 
-### Transfert par SMS
+### Transfert par SMS {#forward-via-sms}
 
 ![sms forwarding phone](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms_forward_phone.png){class="glboxshadow"}
 

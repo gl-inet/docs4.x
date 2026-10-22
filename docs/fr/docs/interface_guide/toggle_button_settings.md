@@ -1,10 +1,10 @@
-# Paramètres du bouton à bascule
+# Paramètres du bouton à bascule {#toggle-button-settings}
 
 Les paramètres du bouton à bascule vous permettent d’assigner des fonctions spécifiques à l’interrupteur physique de votre routeur (également appelé sélecteur de mode sur certains modèles) pour un accès et un contrôle rapides, avec des raccourcis pratiques pour les opérations courantes.
 
 Vous pouvez personnaliser le comportement de cet interrupteur dans le panneau d’administration web.
 
-## Modèles pris en charge
+## Modèles pris en charge {#supported-models}
 
 ??? "Modèles pris en charge"
     - GL-BE10000 (Slate 7 Pro)
@@ -43,7 +43,7 @@ Vous pouvez personnaliser le comportement de cet interrupteur dans le panneau d�
     - GL-AP1300 (Cirrus)
     - GL-X300B (Collie)
 
-## Configuration
+## Configuration {#setup}
 
 Dans la partie gauche du panneau d’administration web, accédez à **SYSTEM** -> **Toggle Button Settings**.
 

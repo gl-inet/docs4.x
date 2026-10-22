@@ -1,14 +1,14 @@
-# Mudi 7 (GL-E5800) ユーザーガイド
+# Mudi 7 (GL-E5800) ユーザーガイド {#mudi-7-gl-e5800-user-guide}
 
-## 製品概要
+## 製品概要 {#product-overview}
 
-Mudi 7は、ロードウォリアーとビジネス旅行者向けのポータブル5G NR Wi-Fi 7トラベルルーターです。5Gハイスピード、デュアルSIM自動切替（フェイルオーバー）、Wi-Fi 7（320MHzチャンネルと4K QAM）を特徴とし、安定した高速接続を実現します。高速ダウンロード、4Kストリーミング、混雑した地域でも遅延のないビデオ会議をサポートします。
+Mudi 7は、ロードウォリアーとビジネス旅行者向けのポータブル5G NR Wi-Fi 7トラベルルーターで、信頼性の高いプライベートネットワークを提供し、サイバー脅威からデータを保護します。5Gハイスピード、デュアルSIM自動切替（フェイルオーバー）、Wi-Fi 7（320MHzチャンネルと4K QAM）を特徴とし、安定した高速接続を実現します。高速ダウンロード、4Kストリーミング、混雑した地域でも遅延のないビデオ会議をサポートします。
 
 タッチスクリーンを備えたMudi 7では、リアルタイムのデータ使用量、信号強度、接続中のデバイス、クライアントの通信速度を確認できます。簡単なタップ操作で設定を調整でき、直感的に操作できます。
 
 ![gl-e5800 overview](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/gl-e5800_overview.png){class="glboxshadow"}
 
-## パッケージコンテンツ
+## パッケージ内容 {#package-contents}
 
 - 1 x Mudi 7 (GL-E5800)
 - 1 x バッテリーパック
@@ -22,21 +22,21 @@ Mudi 7は、ロードウォリアーとビジネス旅行者向けのポータ�
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sCEIReC70Fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Mudi 7の設定方法
+## Mudi 7のセットアップ方法 {#how-to-set-up-mudi-7}
 
 このセットアップ動画を視聴するか、以下の手順に従ってください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6xg8I0ohAMM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Nano-SIMカードのインストール
+### 1. SIMカードを取り付ける {#1-install-sim-card}
 
 Mudi 7 に Nano-SIM カードを挿入します。eSIM を使用する場合は、この手順を飛ばして手順 2 に進んでください。
 
+まず、本体背面カバー右下の小さな切り欠きを支点にし、すき間に沿ってこじ開けて背面カバーを外し、Mudi 7 のバッテリーを取り出します。
+
 !!! Warning
 
-    バッテリーが膨張している、液漏れしている、異常に熱い、損傷している、または取り外しにくい場合は、デバイスの使用を中止し、バッテリーを取り外そうとしないでください。[バッテリーの安全性と膨張したバッテリーの取り扱い](#battery-safety-and-swollen-battery-handling)を参照してください。
-
-まず、本体背面カバー右下の小さな切り欠きを支点にし、すき間に沿ってこじ開けて背面カバーを外し、Mudi 7 のバッテリーを取り出します。
+    バッテリーが膨張している、液漏れしている、異常に熱い、損傷している、または取り外しにくい場合は、デバイスの使用を中止し、バッテリーを取り外そうとしないでください。[バッテリーの安全性](#battery-safety)を参照してください。
 
 ![small notch](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/first_time_setup/notch.png){class="glboxshadow"}
 
@@ -50,19 +50,19 @@ Mudi 7 に Nano-SIM カードを挿入します。eSIM を使用する場合は�
 
 ![restore battery](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/first_time_setup/battery2.png){class="glboxshadow"}
 
-### 2. 電源を入れる
+### 2. 電源を入れる {#2-power-on}
 
-**3秒間**電源ボタンを長押しするか、電源アダプターを挿します。
+**3秒間**電源ボタンを長押しするか、電源アダプターを接続します。
 
 ![power on](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/first_time_setup/power-button.png){class="glboxshadow"}
 
-### 3. 基本設定
+### 3. 基本設定 {#3-basic-settings}
 
 画面の指示に従い、**画面のパスコード**、**管理者パスワード**、**Wi-Fi名**、**Wi-Fiパスワード**、**周波数帯**などの基本設定を行います。
 
 **ヒント**: デフォルトの管理者パスワードは、デバイスのS/Nの末尾9文字に「#」を追加したものです。デフォルトのパスワードを使うか、独自のパスワードを設定できます。
 
-### 4. インターネットの設定
+### 4. インターネットの設定 {#4-internet-setup}
 
 サポートされているインターネット接続方法（Cellular、Ethernet、Repeater、Tethering、USB Ethernet）のいずれかを使用してMudi 7を設定します。[Multi-WAN](../../interface_guide/multi-wan.md)機能を使用する場合は、複数のインターネット接続を設定してください。
 
@@ -70,7 +70,7 @@ Mudi 7 に Nano-SIM カードを挿入します。eSIM を使用する場合は�
 
     ![cellular connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/e5800_cellular.jpg){class="glboxshadow"}
     
-    Mudi 7 には**組み込み eSIM**と**デュアル Nano‑SIM**スロットが備わっています。eSIM パッケージを購入して（物理 SIM カード不要）インターネットへ接続することも、Nano‑SIM カードを挿入して 5G モバイルネットワークへアクセスすることもできます。
+    Mudi 7 には**内蔵 eSIM**と**デュアル Nano‑SIM**スロットが備わっています。eSIM パッケージを購入して（物理 SIM カード不要）インターネットへ接続することも、Nano‑SIM カードを挿入して 5G モバイルネットワークへアクセスすることもできます。
 
     **eSIM を設定する**:
 
@@ -92,7 +92,7 @@ Mudi 7 に Nano-SIM カードを挿入します。eSIM を使用する場合は�
 
         ![add esim profile](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/add_esim_profile2.png){class="glboxshadow"}
 
-        **Tips**: まだ eSIM プロファイルを購入していない場合は、eSIM Profile Recommended Store で購入できます。
+        **ヒント**: まだ eSIM プロファイルを購入していない場合は、eSIM Profile Recommended Store で購入できます。
 
         ![recommended store](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/recommended_store.png){class="glboxshadow" width="590"}
 
@@ -112,27 +112,27 @@ Mudi 7 に Nano-SIM カードを挿入します。eSIM を使用する場合は�
 
     7. ルーターはこの Nano‑SIM カードで自動的に接続を開始します。しばらく待って、接続に成功したか確認してください。
 
-    インターネットに正常に接続されると、タッチスクリーンの右上にシグナルバーとcellularステータスが表示されます。Web管理パネルで接続の詳細を確認することもできます。
+    インターネットに正常に接続されると、タッチスクリーンの右上にシグナルバーとセルラーステータスが表示されます。Web管理パネルで接続の詳細を確認することもできます。
 
     詳細な手順については、[Cellularでインターネットに接続する](../../interface_guide/internet_cellular.md)を参照してください。
 
     !!! note
 
-        1. 組み込みeSIMとSIM 2は相互に排他的であり、同時にアクティブにできません。eSIMはデフォルトで無効です。eSIMを有効にすると、SIMカードが挿入されていてもSIM 2は機能しません。
-        2. Mudi 7には組み込みeSIMが備わっているため、SIMPoYo eSIM物理カードはMudi 7ではeSIM機能なしで通常のSIMカードとして認識されます。
+        1. 内蔵eSIMとSIM 2は相互に排他的であり、同時にアクティブにできません。eSIMはデフォルトで無効です。eSIMを有効にすると、SIMカードが挿入されていてもSIM 2は機能しません。
+        2. Mudi 7にはeSIMが内蔵されているため、SIMPoYo eSIM物理カードはMudi 7ではeSIM機能なしで通常のSIMカードとして認識されます。
 
 === "Ethernet"
     
     ![ethernet connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/e5800_ethernet.jpg){class="glboxshadow"}
 
-    1. お使いの Mudi 7 のEthernetポートをEthernetケーブルで上流のネットワークソース（ISPモデム、ネットワークスイッチ、または壁のEthernetジャック）に接続します。
+    1. お使いの Mudi 7 のEthernetポートをEthernetケーブルで上流のネットワークソース（ISPモデム、ネットワークスイッチ、壁のEthernetジャックなど）に接続します。
     2. タッチスクリーンまたはWeb管理パネルで、**Network** -> **Ethernet Ports**に移動し、ポートの役割を**WAN**に設定し、**Apply**をクリックします。
 
         ![touchscreen ethernet wan](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/ts-ethernet-wan.png){class="glboxshadow"}
 
     3. インターネットに正常に接続されると、タッチスクリーンの右上にEthernetポートアイコンが表示されます。Web管理パネルで接続の詳細を確認することもできます。
 
-    詳細な手順については、[Ethernet cableでインターネットに接続する](../../interface_guide/internet_ethernet.md)を参照してください。
+    詳細な手順については、[Ethernetケーブルでインターネットに接続する](../../interface_guide/internet_ethernet.md)を参照してください。
 
 === "Repeater"
     
@@ -149,11 +149,12 @@ Mudi 7 に Nano-SIM カードを挿入します。eSIM を使用する場合は�
 
     ![tethering connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/e5800_tethering.jpg){class="glboxshadow"}
 
-    1. モバイルデバイス（スマートフォンやUSB dongleなど）をUSB cableでMudi 7のUSB-Cポートに接続します。
-    2. モバイルデバイスでSettingsを開き、**USB Tethering**を有効にします。iPhoneを使用する場合は、表示される場合は「Trust This Device」をタップします。
+    1. モバイルデバイス（スマートフォンやUSBドングルなど）をUSBケーブルでMudi 7のUSB-Cポートに接続します。
+    2. モバイルデバイスでSettingsを開き、**USB Tethering**を有効にします。iPhoneを使用している場合は、確認画面が表示されたら **Trust This Device** をタップします。
     3. タッチスクリーンにUSBモードの選択が表示されたら、**Host (USB OTG) mode** を選択します。Mudi 7はデバイスに自動的に接続します。接続しない場合は、上記の手順を繰り返すか、Web管理パネルにログインし、INTERNETページでTethering接続を確認してください。
 
-        USBモードの違いについては、[こちら](https://docs.gl-inet.com/router/en/4/tutorials/what_is_usb-c_otg_and_how_to_share_your_network_via_usb-c_otg)を参照してください。
+        USBモードの違いについては、[こちら](../../tutorials/what_is_usb-c_otg_and_how_to_share_your_network_via_usb-c_otg.md)を参照してください。
+
     4. インターネットに正常に接続されると、タッチスクリーンの右上にチェーンリンクアイコンが表示されます。Web管理パネルで接続の詳細を確認することもできます。
 
     詳細な手順については、[USBテザリングでインターネットに接続する](../../interface_guide/internet_tethering.md)を参照してください。
@@ -162,11 +163,11 @@ Mudi 7 に Nano-SIM カードを挿入します。eSIM を使用する場合は�
 
     ![usb ethernet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/e5800_usb_ethernet.png){class="glboxshadow"}
 
-    Mudi 7は**OTG対応**USB-Cポートを備えており、**別途販売されているUSB‑C‑to‑Ethernetアダプター**を使用して2番目のEthernetポートを追加し、Dual-Ethernet WANを可能にします。
+    Mudi 7は**OTG対応**のUSB-Cポートを備えており、2つ目のEthernetポートを追加してデュアルEthernet WANを構成できます。これには**別売りのUSB‑C‑to‑Ethernetアダプター**が必要です。
 
-    <small>*USB OTG（On-The-Go）は、ルーターなどの互換性のあるデバイスがホストと周辺機器の役割を切り替えて、個別のホストデバイスなしで直接データ伝送と電力交互作用を可能にするUSB標準です。</small>
+    <small>*USB OTG（On-The-Go）は、ルーターなどの互換性のあるデバイスがホストと周辺機器の役割を切り替えて、別途ホストデバイスを介さずに直接データ転送や電力のやり取りを行えるようにするUSB規格です。</small>
 
-    1. 上流のネットワークソース（ISPモデム、ネットワークスイッチ、または壁のEthernetジャック）をUSB C-to-Ethernetアダプター経由でMudi 7のUSB-Cポートに接続します。
+    1. 上流のネットワークソース（ISPモデム、ネットワークスイッチ、壁のEthernetジャックなど）をUSB C-to-Ethernetアダプター経由でMudi 7のUSB-Cポートに接続します。
     2. タッチスクリーンまたはWeb管理パネルで、**Network** -> **Ethernet Ports** -> **USB Ethernet Port**に移動し、ポートの役割を**WAN**に設定し、**Apply**をクリックします。
 
         ![touchscreen usb eth wan](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/ts-usb-eth-wan.png){class="glboxshadow"}
@@ -178,7 +179,7 @@ Mudi 7 に Nano-SIM カードを挿入します。eSIM を使用する場合は�
     Mudi 7 の USB-C OTG の詳細については、[こちら](../../tutorials/what_is_usb-c_otg_and_how_to_share_your_network_via_usb-c_otg.md)をクリックしてください。
 
 
-## ファームウェアのアップグレード
+## ファームウェアのアップグレード {#firmware-upgrade}
 
 !!! note "アップグレード前の注意"
 
@@ -188,7 +189,7 @@ Mudi 7 に Nano-SIM カードを挿入します。eSIM を使用する場合は�
 
 Mudi 7 のファームウェアは、タッチスクリーンまたは Web 管理パネルからアップグレードできます。
 
-### タッチスクリーンからアップグレードする
+### タッチスクリーンからアップグレードする {#upgrade-via-touchscreen}
 
 1. Mudi 7 をインターネットへ接続します。
 
@@ -200,13 +201,13 @@ Mudi 7 のファームウェアは、タッチスクリーンまたは Web 管�
 
     ![download & upgrade](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/screen_upgrade2.png){class="glboxshadow" width="300"}
 
-### Web からアップグレードする
+### Web からアップグレードする {#upgrade-via-web}
 
 Web管理パネルにログインし、**SYSTEM** -> **Upgrade** に移動します。ルーターのファームウェアは、オンラインまたはローカルでアップグレードできます。
 
 詳細は[こちら](../../interface_guide/upgrade.md)を参照してください。
 
-## 工場出荷時設定へのリセット
+## 工場出荷時設定へのリセット {#factory-reset}
 
 Mudi 7 をリセットする方法は 3 つあります。タッチスクリーン上で直接行う方法、Reset ボタンを使う方法、Web 管理パネルから行う方法です。
 
@@ -216,7 +217,7 @@ Mudi 7 をリセットする方法は 3 つあります。タッチスクリー�
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3Kx_StIFLqo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### タッチスクリーンでリセットする
+### タッチスクリーンでリセットする {#reset-via-touchscreen}
 
 1. ホーム画面で **More** をタップします。
 
@@ -230,7 +231,7 @@ Mudi 7 をリセットする方法は 3 つあります。タッチスクリー�
 
     ![LCD reset](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/lcd_reset3.png){class="glboxshadow" width="300"}
 
-### ボタンでリセットする
+### ボタンでリセットする {#reset-via-button}
 
 1. 背面カバーを外すと、下図のように Reset ボタンがあります。
 
@@ -242,7 +243,7 @@ Mudi 7 をリセットする方法は 3 つあります。タッチスクリー�
 
     - **工場出荷時設定へのリセット**: Reset ボタンを **10 秒間**長押ししてから離すと、ハードリセットが実行されます。押している間は画面上の案内を確認し、指示に従って操作してください。これにより、すべての設定が削除されます。十分ご注意ください。
 
-### Web からリセットする
+### Web からリセットする {#reset-via-web}
 
 1. Web 管理パネルにログインし、**SYSTEM** -> **Reset Firmware** に移動します。
 
@@ -271,14 +272,14 @@ Mudi 7のWeb管理パネルにログインすると、より多くの設定を�
 
 次に、Webブラウザーを開き、アドレスバーに `192.168.8.1` を入力してログインページにアクセスします。言語を選択し、管理者パスワードを設定して **Apply** をクリックします。
 
-Mudi 7のWeb管理パネルにログインします。
+これでMudi 7のWeb管理パネルにログインできます。
 
 以下は、Mudi 7のWeb管理パネルの機能概要です。
 
 
-## Wireless
+## Wireless {#wireless}
 
-Wirelessページでは、6 GHz、5 GHz、2.4 GHz Wi-Fiネットワークの設定を構成できます。Wi-Fiの有効化、TX電力の設定、Wi-Fi名（SSID）の指定、ランダムBSSIDの有効化、Wi-Fiセキュリティモードとパスワードの選択、SSID可視性の設定、Wi-Fiモード、帯域幅、チャネルの選択が含まれます。
+Wirelessページでは、6 GHz、5 GHz、2.4 GHzのWi-Fiネットワークの設定を行えます。Wi-Fiの有効化、送信出力（TX power）の設定、Wi-Fi名（SSID）の指定、ランダム化BSSIDの有効化、Wi-Fiセキュリティモードとパスワードの設定、SSIDの表示設定、Wi-Fiモード、帯域幅、チャンネルの選択が含まれます。
 
 Wirelessの設定については、[Wireless](../../interface_guide/wireless.md)を参照してください。
 
@@ -286,19 +287,19 @@ Wirelessの設定については、[Wireless](../../interface_guide/wireless.md)
 
 1. チップセットのハードウェア制約により、5 GHzと6 GHz Wi-Fiを同時に有効にできません。
 2. Repeaterが有効になっている場合、Guest Networkは自動的に無効になります。
-3. 規制により、屋外で使用する場合はWi-FiをOutdoorモードに切り替えする必要があります。これにより、カバー範囲が減少する可能性があります。Wirelessページの上部で、使用環境（IndoorまたはOutdoor）を切り替えることができます。
+3. 規制により、屋外で使用する場合はWi-FiをOutdoorモードに切り替える必要があります。これにより、通信範囲が狭くなる可能性があります。Wirelessページの上部で、使用環境（IndoorまたはOutdoor）を切り替えることができます。
 
-## Clients
+## Clients {#clients}
 
 Clients ページには、接続中のデバイスに関する情報が表示されます。各クライアントについて、名前、IPアドレス、MACアドレス、ダウンロード速度、アップロード速度、合計トラフィックを確認でき、クライアントをブロックしたり、その他の操作を実行したりできます。
 
 Clientsの設定については、[Clients](../../interface_guide/clients.md)を参照してください。
 
-## クラウドサービス
+## クラウドサービス {#cloud-services}
 
 === "GoodCloud"
 
-    GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"}クラウド管理サービスは、GL.iNetルーターに簡単かつシンプルにリモートアクセスと管理を提供します。
+    GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"}クラウド管理サービスは、GL.iNetルーターへ簡単にリモートアクセスして管理する方法を提供します。
     
     GoodCloudの設定については、[GoodCloud](../../interface_guide/cloud.md)を参照してください。
 
@@ -308,7 +309,7 @@ Clientsの設定については、[Clients](../../interface_guide/clients.md)を
     
     AstroWarpの設定については、[AstroWarp](../../interface_guide/astrowarp.md)を参照してください。
 
-## VPN
+## VPN {#vpn}
 
 VPN（仮想プライベートネットワーク）は、デバイスとVPNサーバー間の安全で暗号化されたトラフィックを作成します。VPNクライアントとしてプライバシーとセキュリティの追加レイヤーを提供し、VPNサーバーとしてリモートネットワークにアクセスできます。Mudi 7はOpenVPNとWireGuardをサポートしています。
 
@@ -326,11 +327,11 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
     * [WireGuardクライアントの設定方法](../../interface_guide/wireguard_client.md)
     * [WireGuardサーバーの設定方法](../../interface_guide/wireguard_server.md)
 
-## ネットワーク
+## ネットワーク {#network}
 
 === "Multi-WAN"
 
-    Multi-WANは、ルーターに複数のインターネット接続（ethernet、repeater、tethering、cellular、USB ethernetなど）を同時に設定できるネットワーキング機能です。現在のインターネット接続が失敗すると、ルーターは自動的に別のインターネット接続に切り替えます。これにより、スムーズで途切れないインターネットアクセスが確保されます。
+    Multi-WANは、ルーターに複数のインターネット接続（Ethernet、Repeater、Tethering、Cellular、USB Ethernetなど）を同時に設定できるネットワーク機能です。現在のインターネット接続に障害が発生すると、ルーターは自動的に別のインターネット接続に切り替えます。これにより、スムーズで途切れないインターネットアクセスが確保されます。
 
     Multi-WANの設定については、[Multi-WAN](../../interface_guide/multi-wan.md)を参照してください。
 
@@ -350,17 +351,17 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
 === "DNS"
 
-    DNSページでは、カスタムDNSサーバーを設定し、DNSリバインディング攻撃保護を有効にしてすべてのクライアントのDNS設定を上書きし、カスタムDNSがVPN DNSを上書きできるようにし、Ethernet接続からDNSサーバーを自動的に指定するか手動で指定するモードを構成できます。
+    DNSページでは、カスタムDNSサーバーの設定、DNSリバインディング攻撃保護の有効化、すべてのクライアントのDNS設定の上書き、カスタムDNSによるVPN DNSの上書き許可を行えるほか、DNSサーバー設定モードを自動にするか、Ethernet接続のDNSサーバーを手動で指定するかを設定できます。
 
     DNSの設定については、[DNS](../../interface_guide/dns.md)を参照してください。
 
 === "Ethernet Port"
 
-    Ethernet Portページでは、Ethernetポートの役割（WAN/LANとして使用）の設定、WANインターフェースのMACモードとMACアドレスの切り替え、ネゴシエーション済みポート速度の表示を行うことができます。
+    Ethernet Portページでは、Ethernetポートの役割（WAN/LANとして使用）の設定、WANインターフェースのMACモードとMACアドレスの切り替え、ネゴシエート速度の表示を行えます。
 
-    Mudi 7には単一のEthernetポートが備わっており、デフォルトでLANです。必要に応じて、タッチスクリーンまたはWeb管理パネルでWANポートに切り替えできます。
+    Mudi 7には単一のEthernetポートが備わっており、デフォルトでLANです。必要に応じて、タッチスクリーンまたはWeb管理パネルでWANポートに切り替えられます。
 
-    Ethernetポートの管理については、[Port Management](../../interface_guide/ethernet_port.md)を参照してください。
+    Ethernetポートの管理については、[Ethernet Port](../../interface_guide/ethernet_port.md)を参照してください。
 
 === "IPv6"
 
@@ -399,15 +400,15 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
     
     ネットワークアクセラレーションの設定については、[Network Acceleration](../../interface_guide/network_acceleration.md)を参照してください。
 
-## フロー制御
+## フロー制御 {#flow-control}
 
 === "Parental Control"
 
     Parental Controlは、子どものデバイスを管理および制御するために設計されています。スクリーン時間の制限や特定コンテンツへのアクセス制限が含まれます。
 
-    保護者による制御の設定については、[Parental Control](../../interface_guide/parental_control.md)を参照してください。
+    Parental Controlの設定については、[Parental Control](../../interface_guide/parental_control.md)を参照してください。
 
-## セキュリティ
+## セキュリティ {#security}
 
 === "Port Forwarding"
 
@@ -420,7 +421,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
     Management Controlでは、ネットワークとルーターを不正アクセスから保護するためのさまざまなセキュリティ設定を構成できます。このページには以下のオプションがあります：
 
     * ローカルアクセス制御：ローカルネットワークに接続されたデバイスからルーターのインターフェースへのアクセスを管理および制限します。
-    * リモートアクセス制御：インターネット上のリモート場所からルーターのインターフェースへのアクセスを構成および制限し、外部脅威に対するセキュリティを強化します。
+    * リモートアクセス制御：インターネット経由のリモートの場所からルーターのインターフェースへのアクセスを構成および制限し、外部脅威に対するセキュリティを強化します。
     * ルーターで開いているポート：ルーター上で開いているポートを制御し、潜在的な脆弱性と不正アクセスを制限します。
 
     これらの設定は、ネットワーク環境を安全に保ち、ルーターと接続されたデバイスを保護するのに役立ちます。
@@ -433,11 +434,11 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
     NAT設定については、[NAT Mode](../../interface_guide/nat_settings.md)を参照してください。
 
-## アプリケーション
+## アプリケーション {#applications}
 
 === "Plug-ins"
 
-    プラグインは、既存のコンピュータプログラムに特定の機能または機能を追加するソフトウェアコンポーネントであり、カスタマイズと機能拡張を可能にします。
+    プラグインは、既存のコンピュータープログラムに特定の機能を追加するソフトウェアコンポーネントであり、カスタマイズと機能拡張を可能にします。
     
     プラグインの設定については、[Plug-ins](../../interface_guide/plugins.md)を参照してください。
 
@@ -475,38 +476,36 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
 === "Tor"
 
-    Tor（The Onion Routerのやや称）は、匿名通信を可能にするプライバシー重視のネットワークです。ユーザーの位置情報と使用状況を不明瞭にするために、一連のボランティアが運用するサーバー（ノード）を介してインターネットトラフィックをルーティングします。
+    TorはThe Onion Routerの略で、インターネット上で匿名通信を可能にするプライバシー重視のネットワークです。インターネットトラフィックを複数のボランティア運営サーバー（ノード）経由でルーティングし、ユーザーの場所や利用状況を分かりにくくすることで、オンライン活動の追跡を困難にします。
     
-    * [Torの設定方法](../../interface_guide/tor.md)
+    Torの設定については、[Tor](../../interface_guide/tor.md)を参照してください。
 
-## システム
+## システム {#system}
 
 === "Overview"
 
-    Overviewページは、ルーターの現在のパフォーマンス指標とステータスのを含むスナップショットを提供します。このページでは以下を表示できます：
+    Overviewページでは、ルーターの現在の状態とパフォーマンス指標をまとめて確認できます。このページでは次の情報を確認できます。
 
     * CPU平均負荷：ルーターのCPUの平均負荷を監視し、パフォーマンスの評価と潜在的なボトルネックの特定に役立ちます。
     * メモリ使用量：ルーターのメモリ使用量を確認し、リソース管理に役立ちます。
     * LEDコントロール：ルーターのLEDライトのオン/オフを切り替え、デバイスの視覚インジケーターのカスタマイズを可能にします。
     * フラッシュ使用量：ルーターのフラッシュストレージの使用率を確認し、ファームウェアと設定データのための十分な空間を確保します。
-    * デバイス情報：ルーターのシステムに関する詳細情報（アップタイム、ホスト名、モデル、アーキテクチャ、OpenWrtバージョン、カーネルバージョン、デバイスID、デバイスMAC、デバイスS/N）にアクセスします。
+    * デバイス情報：ルーターのシステムに関する詳細情報（稼働時間、ホスト名、モデル、アーキテクチャ、OpenWrtバージョン、カーネルバージョン、デバイスID、デバイスMAC、デバイスS/N）にアクセスします。
     * 外部ストレージ：ルーターに接続されたUSBドライブやTFカードなどの外部ストレージデバイスの状態を確認します。
     
     これらの機能は、ルーターの操作を効果的に管理および監視するのに役立つ重要な洞察とコントロールを提供します。
 
-    詳細な設定手順と詳細については、[Overview](../../interface_guide/system_overview.md)を参照してください。
+    詳細な手順については、[Overview](../../interface_guide/system_overview.md)を参照してください。
 
 === "Admin Password"
 
-    Admin Passwordページでは、ルーターの管理インターフェースのパスワードを設定または変更でき、許可されたユーザーのみが設定を変更できるようにします。
+    Admin Passwordページでは、ルーターの管理インターフェースのパスワードを設定または変更できます。
 
-    セキュリティ上の理由から、**Prevent Weak Password**をオンにすることをお勧めします。
+    管理者パスワードは、次の要件を満たす必要があります。
 
-    **Prevent Weak Password**をオンにすると、新しいパスワードの要件は以下の通りです：
-
-    * 5文字で上63文字以下。
-    * 文字（大文字小文字を区別）、数字、記号`` ! @ # $ % ^ & * ( ) _ + - = , . > < | ? / \ [ ] { } : ; " ' ` ~ ``が許可されています。
-    * 大文字、小文字、数字、記号のうち2種類で上が必要です。
+    * 10文字以上63文字以下。
+    * 文字（大文字小文字を区別）、数字、記号`` ! @ # $ % ^ & * ( ) _ + - = , . > < | ? / \ [ ] { } : ; " ' ` ~ ``を使用できます。
+    * 大文字、小文字、数字、記号のうち少なくとも2種類が必要です。
 
 === "Upgrade"
 
@@ -517,7 +516,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
     これらのオプションにより、最新の改善や修正を適用した状態にルーターを保てます。
 
-    詳細な設定手順と詳細については、[Upgrade](../../interface_guide/upgrade.md)を参照してください。
+    詳細な手順については、[Upgrade](../../interface_guide/upgrade.md)を参照してください。
 
 ---
 
@@ -525,7 +524,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
     Scheduled Tasksページでは、ルーターを指定した間隔で自動的に再起動するように設定でき、最適なパフォーマンスと安定性の維持に役立ちます。
 
-    詳細な設定手順と詳細については、[Scheduled Tasks](../../interface_guide/scheduled_tasks.md)を参照してください。
+    詳細な手順については、[Scheduled Tasks](../../interface_guide/scheduled_tasks.md)を参照してください。
 
     **注意**: Mudi 7はLED表示スケジュールとWi-Fiステータススケジュールをサポートしていません。
 
@@ -534,45 +533,32 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
     Display Managementページでは、タッチスクリーン表示とその関連設定を管理できます。
     
     - 壁紙：壁紙とウェイク表示スタイルをカスタマイズします。
-    - 明るさ：タッチスクリーンの明るさを調整します。スライダーを使用するか、特定のレベル（1〜10の範囲）を入力して、さまざまな照明条件に合わせます。
+    - 明るさ：タッチスクリーンの明るさを調整します。スライダーを使用するか、パーセンテージを入力して、さまざまな照明条件に合わせます。
     - パーソナル署名：タッチスクリーンにカスタムテキストを追加して、独自のスタイルを表示したり簡単な識別を可能にします。
     - 自動ロック：アクティビティがない場合にスクリーンが自動的にロックされるまでの遅延時間を設定します。範囲は15秒から5分です。
     - パスコード：セキュリティのレイヤーを追加するために、タッチスクリーンにパスコードを設定します。
 
-    詳細な設定手順と詳細については、[Display Management](../../interface_guide/display_management.md)を参照してください。
+    詳細な手順については、[Display Management](../../interface_guide/display_management.md)を参照してください。
 
 === "USB & Power"
 
-    USB & Powerページでは、ルーターのUSB機能と電源関連設定を含む管理を提供します。
-    
-    **USB**
+    USB & Powerページでは、USBプロトコル、給電方向、アイドルタイムアウト、スタンバイ動作など、ルーターのUSB関連設定と電源管理を設定できます。
 
-    - USBプロトコル切替：USBポートのUSB 2.0とUSB 3.1プロトコルを切り替えます。
-    - デュアルロールUSBモード：ドロップダウンメニューからUSB動作モードを選択します。DeviceまたはHostに設定できます。
-    - 電力方へ：ドロップダウンメニューからUSBポートの電力優先度を設定します。Input PriorityまたはOutput Priorityに設定できます。
-    - 電力しきい値：USBポートの特定の電力しきい値パーセンテージを設定します。
-    
-    **Power**
-    
-    - Wi-Fiアイドルタイムアウト：Wi-Fiがスタンバイに入るまでのアイドル時間を設定します（10分から2時間の範囲、またはNever）。
-    - Ethernetアイドルタイムアウト：Ethernetがスタンバイに切り替えられるまでのアイドル時間を設定します（10分から2時間の範囲、またはNever）。
-    - 電源オフタイムアウト：アイドル時にルーターが自動的に電源オフになるまでの遅延時間を設定します（1時間から12時間の範囲、またはNever）。
-    - 充電器での電源オン：充電器に接続したときにルーターが自動的に電源オンになるを有効/無効にする切り替え。
-    - 自動スタンバイ：省電力のための自動システムスタンバイを有効/無効にする切り替え。
+    詳細な手順については、[USB & Power](../../interface_guide/usb_power.md)を参照してください。
 
 ---
 
 === "Time Zone"
 
-    Time Zoneページでは、ルーターの正しいタイムゾーンを設定でき、すべてのスケジュールタスク、ログ、システムイベントが現地時間に従って正確にタイムスタンプ付けられます。この設定は、正確な記録の維持と、時間ベースの構成の適切な実行に不可欠です。
+    Time Zoneページでは、ルーターに正しいタイムゾーンを設定し、すべてのスケジュールタスク、ログ、システムイベントが現地時間に基づいて正確に記録されるようにします。この設定は、正確な記録の維持と、時間ベースの構成の適切な実行に不可欠です。
 
-    詳細な設定手順と詳細については、[Time Zone](../../interface_guide/time_zone.md)を参照してください。
+    詳細な手順については、[Time Zone](../../interface_guide/time_zone.md)を参照してください。
 
 === "Reset Firmware"
 
-    Reset Firmwareページでは、ルーターの現在のファームウェアバージョンをデフォルト設定にリセットし、すべてのカスタム設定を消去できます。このプロセスは、現にインストールされているファームウェアバージョンのデフォルト設定にルーターを復元します。持続的な問題のトラブルシューティングや現在のファームウェアのデフォルト設定で新鮮に開始するのに便利です。
+    Reset Firmwareページでは、ルーターの現在のファームウェアバージョンをデフォルト設定にリセットし、すべてのカスタム設定を消去できます。この処理により、ルーターは現在インストールされているファームウェアバージョンのデフォルト設定に戻ります。継続的な問題のトラブルシューティングや、現在のファームウェアのデフォルト設定からやり直す場合に便利です。
 
-    詳細な設定手順と詳細については、[Reset Firmware](../../interface_guide/reset_firmware.md)を参照してください。
+    詳細な手順については、[Reset Firmware](../../interface_guide/reset_firmware.md)を参照してください。
 
 === "Log"
 
@@ -584,17 +570,17 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
     * クラウドログ：ルーターに統合されたGoodCloudサービスに関連するインタラクションとアクティビティのログ。
     * Nginxログ：ルーターで使用されている場合は、Nginx Webサーバーからのログ。Webトラフィックとサーバー操作の詳細。
     
-    さらに、ページにはExport Logボタンがあり、収集したすべてのログをエクスポートして技術サポートの分析にできます。この機能は、複雑な問題の診断と専門のサポートの取得に非常に便利です。
+    さらに、このページにはExport Logボタンがあり、収集されたすべてのログをテクニカルサポート分析用にエクスポートできます。この機能は、複雑な問題の診断や専門的な支援を受ける際に役立ちます。
 
-    詳細な設定手順と詳細については、[Log](../../interface_guide/log.md)を参照してください。
+    詳細な手順については、[Log](../../interface_guide/log.md)を参照してください。
 
 === "Advanced Settings"
 
-    Advanced Settings ページでは、OpenWrt LuCI インターフェースを通じて高度な設定オプションにアクセスできます。経験豊富なユーザーは、基本インターフェースの範囲を超えて、詳細なネットワーク設定、ファイアウォール設定、その他の高度なシステムカスタマイズを行えます。
+    Advanced Settings ページでは、OpenWrt LuCI インターフェースを通じて高度な設定オプションにアクセスできます。経験豊富なユーザーは、基本インターフェースの範囲を超えてルーターの設定や機能を細かく調整できます。詳細なネットワーク設定、ファイアウォール設定、その他の高度なシステムカスタマイズが含まれます。
 
-    詳細な設定手順と詳細については、[Advanced Settings](../../interface_guide/advanced_settings.md)を参照してください。
+    詳細な手順については、[Advanced Settings](../../interface_guide/advanced_settings.md)を参照してください。
 
-## バッテリーの安全性と膨張したバッテリーの取り扱い {#battery-safety-and-swollen-battery-handling}
+## バッテリーの安全性 {#battery-safety}
 
 バッテリーが膨張している、液漏れしている、異常に熱い、損傷している、または異臭がする場合は、Mudi 7 の使用と充電を中止してください。
 

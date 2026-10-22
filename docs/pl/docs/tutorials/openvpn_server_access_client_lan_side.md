@@ -1,14 +1,14 @@
-# Jak uzyskać dostęp do podsieci LAN klienta OpenVPN z serwera
+# Jak uzyskać dostęp do podsieci LAN klienta OpenVPN z serwera {#how-to-access-openvpn-client-lan-side-from-server}
 
 Ten samouczek wprowadza kroki umożliwiające dostęp do podsieci LAN klienta OpenVPN (takiego jak NAS, kamera IP itp.) ze strony serwera OpenVPN.
 
-## Topologia
+## Topologia {#topology}
 
 Jak pokazano poniżej, GL-AXT1800 jest serwerem OpenVPN, a GL-MT2500 jest klientem OpenVPN podłączonym do niego. Możesz uzyskać dostęp do urządzeń po stronie LAN GL-MT2500 (takich jak NAS lub GL-MT3000, router podrzędny) ze strony serwera.
 
 ![topology](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server-access_client_lan_side/ovpnlantop.jpg){class="glboxshadow"}
 
-## 1. Dodaj regułę trasy na serwerze
+## 1. Dodaj regułę trasy na serwerze {#1-add-route-rule-on-server}
 
 ??? "Dla firmware v4.7 i wcześniejszych"
 
@@ -50,7 +50,7 @@ Jak pokazano poniżej, GL-AXT1800 jest serwerem OpenVPN, a GL-MT2500 jest klient
 
     Uwaga: Jeśli masz wielu klientów OpenVPN, których podsieci LAN wymagają dostępu, zapoznaj się z [tym linkiem](reserve_fixed_IP_for_ovpn_client.md), aby zarezerwować adres IP klienta dla każdego klienta OpenVPN przed ustawieniem reguł tras.
 
-## 2. Zezwól na zdalny dostęp do LAN klienta
+## 2. Zezwól na zdalny dostęp do LAN klienta {#2-allow-remote-access-to-client-lan}
 
 ??? "Dla firmware v4.7 i wcześniejszych"
 
@@ -88,7 +88,7 @@ Jak pokazano poniżej, GL-AXT1800 jest serwerem OpenVPN, a GL-MT2500 jest klient
 
     ![allow remote access lan](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server-access_client_lan_side/4.9-allow-remote-access-lan.png){class="glboxshadow" width=600}
 
-## 3. Przetestuj połączenie
+## 3. Przetestuj połączenie {#3-test-connection}
 
 Oto przykład uzyskania dostępu do GL-MT3000 (urządzenie w sieci LAN klienta OpenVPN) z adresem IP **192.168.48.211**.
 

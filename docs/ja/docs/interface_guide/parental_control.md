@@ -1,22 +1,24 @@
-# ペアレンタルコントロール
+# ペアレンタルコントロール {#parental-control}
 
-> このガイドはファームウェア v4.8 以前に適用されます。新しいバージョンについては、[こちら](parental_control_v4.9.md) をクリックしてください。
+**注意**: このガイドはファームウェア v4.8 以前に適用されます。新しいバージョンについては、[こちら](parental_control_v4.9.md) をクリックしてください。
 
-Web Admin Panel の左側で、**APPLICATIONS** -> **Parental Control** に移動します。
+---
+
+Web 管理パネルの左側で、**APPLICATIONS** -> **Parental Control** に移動します。
 
 ペアレンタルコントロールは、不適切な Web サイトをブロックし、デバイスの利用時間を制限することで、子どもが安全にインターネットを利用できるようにする機能です。有害なコンテンツへのアクセスを防ぎ、スクリーンタイムを管理し、インターネットを適切に利用できるよう支援します。
 
 **注意**: 一部のモデルはメモリ不足のため Parental Control をサポートしていません。たとえば Mango (GL-MT300N-V2) や Shadow (GL-AR300M series) が該当します。
 
-GL.iNet ルーターの Parental Control については、以下の動画、またはその下の手順をご覧ください。
+GL.iNet ルーターで Parental Control を設定するには、以下の動画を見るか、下記の手順に従ってください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pOyDwQRc3io" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## ローカル版
+## ローカル版 {#local-version}
 
 ローカル版は GL.iNet が提供するバージョンです。現在はベータ版で、追加料金はかかりません。このバージョンでは、アプリケーション単位でリクエストをフィルタリングしたい場合、ドメインを手動で入力する必要があります。
 
-### 対応モデル
+### 対応モデル {#supported-models}
 
 ??? "対応モデル"
     - GL-MT6000 (Fortify)
@@ -53,9 +55,9 @@ GL.iNet ルーターの Parental Control については、以下の動画、ま
     - GL-AP1300 (Cirrus)
     - GL-X300B (Collie)
 
-### セットアップ手順
+### セットアップ手順 {#setup-steps}
 
-ルーターの Web 管理画面にログインし、**APPLICATIONS** -> **Parental Control** に移動します。
+ルーターの Web 管理パネルにログインし、**APPLICATIONS** -> **Parental Control** に移動します。
 
 ルーターの時刻が正確であることを確認してください。正しくない場合は、先に **SYSTEM** -> **Time Zone** で同期します。
 
@@ -73,7 +75,7 @@ Parental Control を有効にして、**Apply** をクリックします。
 
 以下に参考用の利用例を 1 つ示します。必要に応じて設定を調整してください。
 
-**Scenario**: このプロファイル内のデバイスは、平日の午前 8 時から午前 11 時までは学習目的でのみインターネットにアクセスでき、週末の午後 6 時から午後 8 時まではゲーム目的で利用できます。それ以外の時間帯は、デフォルトでインターネットアクセスがブロックされます。
+**シナリオ**: このプロファイル内のデバイスは、平日の午前 8 時から午前 11 時までは学習目的でのみインターネットにアクセスでき、週末の午後 6 時から午後 8 時まではゲーム目的で利用できます。それ以外の時間帯は、デフォルトでインターネットアクセスがブロックされます。
 
 以下の手順に従って Parental Control を設定してください。
 
@@ -81,7 +83,7 @@ Parental Control を有効にして、**Apply** をクリックします。
 
     ![create a profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_1_create_profile.png){class="glboxshadow"}
 
-2. 管理したいデバイスを選択します。先にそれらをルーターへ接続しておく必要があります。まだルーターに接続していない場合は、MAC アドレスを入力して手動で追加します。
+2. 管理したいデバイスを選択します。事前にルーターへ接続しておいてください。まだルーターに接続していない場合は、MAC アドレスを入力して手動で追加します。
 
     ![select devices](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_2_select_device.png){class="glboxshadow"}
 
@@ -147,7 +149,7 @@ Parental Control を有効にして、**Apply** をクリックします。
 
     ![final configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_16_final_config.png){class="glboxshadow"}
 
-### Troubleshooting
+### トラブルシューティング {#troubleshooting}
 
 設定内容が反映されない場合は、以下の原因が考えられます。
 
@@ -159,35 +161,35 @@ Parental Control を有効にして、**Apply** をクリックします。
       
       * [デスクトップ版 Edge の DNS キャッシュをクリアする](https://www.microsoft.com/en-us/edge/learning-center/how-to-manage-and-clear-your-cache-and-cookies?form=MA13I2){target="_blank"}
 
-2. プロファイルのスケジュールがまだ開始されていません。
+2. プロファイルのスケジュールがまだ開始されていない。
 
-3. 入力したドメイン名が正しくない可能性があります。
+3. 入力したドメイン名が正しくない。
 
     Web サイトの公開ドメインは見つけやすい一方で、アプリが使用する API ドメインは公開されていないことがよくあります。正しいドメインを特定するには、Wireshark などのパケットキャプチャツールを使うか、関連するドメイン情報を調べてください。
 
     たとえば `www.google.com` をブロックしたい場合は、`www.google.com` よりも `google.com` を使用する方が効果的です。
 
-4. 対象デバイスがネットワーク接続ごとにランダムな MAC アドレスを使用しているため、アクセスルールが適用されない可能性があります。対象デバイスでランダム MAC アドレスを無効にし、その後デバイスをプロファイルに再追加してください。
+4. 対象デバイスがネットワーク接続ごとにランダムな MAC アドレスを使用しているため、アクセスルールが適用されない。対象デバイスでランダム MAC アドレスを無効にし、その後デバイスをプロファイルに再追加してください。
 
-## Bark版
+## Bark版 {#bark-version}
 
-> このガイドはファームウェア v4.8 以前に適用されます。新しいバージョンについては [こちら](bark.md) をご覧ください。
+このガイドはファームウェア v4.8 以前に適用されます。新しいバージョンについては [こちら](bark.md) をクリックしてください。
 
 [Bark](https://www.bark.us/){target="_blank"} サービスは、お子さまのデジタル環境を保護し、包括的なオンライン保護を提供するのに役立ちます。通常は有料サブスクリプションが必要ですが、Bark との提携の一環として、GL.iNet は**一部のルーターモデル**で Bark Home プランを無料提供しており、追加費用なしで高度な監視機能とアラートを利用できます。
 
-**Note**:
+**注意**:
 
 1. Bark サービスは **米国、オーストラリア、南アフリカでのみ** 利用できます。詳細は [こちら](https://support.bark.us/hc/en-us/articles/360049965072-International-availability){target="_blank"} をご確認ください。
 
 2. 2 種類の Parental Control を同時に有効にすることはできません。片方を有効にすると、もう一方は自動的に無効になります。
 
-### 対応モデル
+### 対応モデル {#supported-models_1}
 
 ??? "対応モデル"
     - GL-BE6500 (Flint 3e)
     - GL-BE9300 (Flint 3)
     - GL-B3000 (Marble)
-    - GL-MT6000 (Flint2)
+    - GL-MT6000 (Flint 2)
 
 ??? "非対応モデル"
     - GL-E5800 (Mudi 7)
@@ -214,9 +216,9 @@ Parental Control を有効にして、**Apply** をクリックします。
     - GL-AP1300 (Cirrus)
     - GL-X300B (Collie)
 
-### セットアップ手順
+### セットアップ手順 {#setup-steps_1}
 
-ルーターの Web 管理画面にログインし、**APPLICATIONS** -> **Parental Control** に移動して、Bark 版を選択します。
+ルーターの Web 管理パネルにログインし、**APPLICATIONS** -> **Parental Control** に移動して、Bark 版を選択します。
 
 ![switch_versions](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/switch_versions.png){class="glboxshadow"}
 
@@ -242,14 +244,14 @@ Bark の Web サイトにリダイレクトされます。画面の案内に従�
 ![bark_set_up](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/bark_get_started.png){class="glboxshadow"}
 <small>(Initial setup)</small>
 
-デバイスが Bark Cloud Services に接続され、アカウントとのペアリングが完了すると、ルーターの Web Admin Panel は次のように表示されます。
+デバイスが Bark Cloud Services に接続され、アカウントとのペアリングが完了すると、ルーターの Web 管理パネルは次のように表示されます。
 
 ![bark_paired](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/bark_paired.png){class="glboxshadow"}
 
 **Go to Bark** または [こちら](https://www.bark.us/app/children/?ref=glinet&home=glinet){target="_blank"} をクリックして Bark ダッシュボードにログインし、ペアレンタルコントロールのルールを設定してください。
 
-GL.iNet はこのサービスの提供元ではないため、Bark の利用中に問題が発生した場合は、[Bark's Technical Support](https://www.bark.us/contact-us/?ref=glinet&home=glinet){target="_blank"} へ直接お問い合わせください。
+GL.iNet はこのサービスの提供元ではないため、Bark の利用中に問題が発生した場合は、[Bark のテクニカルサポート](https://www.bark.us/contact-us/?ref=glinet&home=glinet){target="_blank"} へ直接お問い合わせください。
 
 ---
 
-ご不明な点がある場合は、[Community Forum](https://forum.gl-inet.com){target="_blank"} をご覧いただくか、[Contact us](https://www.gl-inet.com/contacts/){target="_blank"} からお問い合わせください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

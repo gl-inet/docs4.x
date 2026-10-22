@@ -1,8 +1,8 @@
-# Assistance technique via GoodCloud
+# Assistance technique via GoodCloud {#technical-support-via-goodcloud}
 
 Il est parfois nécessaire de partager votre appareil via GoodCloud afin que GL.iNet puisse vous fournir une assistance technique. Ce guide vous explique comment partager votre appareil avec l’assistance technique GL.iNet.
 
-## Activer GoodCloud et l’accès à distance
+## Activer GoodCloud et l’accès à distance {#enable-goodcloud-and-remote-access}
 
 Avant de partager votre appareil avec l’assistance technique GL.iNet, assurez-vous que votre routeur dispose d’une connexion Internet supplémentaire pour plus de stabilité. Configurez une connexion Ethernet ou Répéteur comme sauvegarde de basculement et vérifiez qu’elle fonctionne correctement.
 
@@ -10,7 +10,7 @@ Connectez-vous ensuite au panneau d’administration Web du routeur pour activer
 
 Veuillez sélectionner le tutoriel qui correspond à la version du firmware de votre appareil pour activer GoodCloud et l'accès à distance.
 
-??? "Pour le firmware version 4.10"
+??? "Pour le firmware version 4.10 ou ultérieure"
 
     Accédez à **CLOUD SERVICES** -> **GoodCloud**, puis cliquez sur **Get Started**.
 
@@ -42,7 +42,7 @@ Veuillez sélectionner le tutoriel qui correspond à la version du firmware de v
 
     ![enable GoodCloud 4.6](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/enable_goodcloud_v4.6.x.png){class="glboxshadow"}
 
-## Se connecter au compte Cloud et lier l’appareil
+## Se connecter au compte Cloud et lier l’appareil {#log-in-cloud-account-and-bind-device}
 
 Si votre routeur exécute le firmware v4.7 ou une version supérieure, vous pouvez créer un compte dans le panneau d’administration Web du routeur et vous connecter directement. Une fois connecté, l’appareil actuel sera automatiquement lié à votre compte Cloud.
 
@@ -50,9 +50,9 @@ Si votre routeur exécute le firmware v4.6 ou une version antérieure, suivez le
 
 1. Visitez [GoodCloud](https://www.goodcloud.xyz){target="_blank"} et connectez-vous à votre compte. Si vous n’avez pas de compte, créez-en un d’abord.
 
-2. Liez votre appareil à GoodCloud. Veuillez consulter [ce lien](../interface_guide/cloud.md#add-device-in-your-account).
+2. Liez votre appareil à GoodCloud. Consultez [Lier des appareils au cloud](../interface_guide/cloud.md#bind-devices-to-cloud).
 
-## Partager l’appareil avec l’assistance technique GL.iNet
+## Partager l’appareil avec l’assistance technique GL.iNet {#share-device-with-glinet-technical-support}
 
 1. Visitez [GoodCloud](https://www.goodcloud.xyz){target="_blank"} et connectez-vous.
 
@@ -74,7 +74,7 @@ Si votre routeur exécute le firmware v4.6 ou une version antérieure, suivez le
 
 2. Pour garantir la sécurité du mot de passe, nous vous recommandons de remplacer le mot de passe de connexion du panneau d’administration Web par un mot de passe temporaire avant de partager l’appareil avec l’assistance GL.iNet. Vous pourrez rétablir votre mot de passe habituel une fois le dépannage terminé.
 
-## Fournir des informations à l’assistance technique GL.iNet
+## Fournir des informations à l’assistance technique GL.iNet {#provide-information-to-glinet-technical-support}
 
 Après avoir partagé l’appareil, veuillez fournir l’**adresse MAC** et le **mot de passe administrateur** de votre routeur au membre correspondant de l’assistance technique GL.iNet par e-mail ou par PM sur le forum afin de permettre le dépannage à distance.
 

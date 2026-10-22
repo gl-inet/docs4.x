@@ -1,10 +1,10 @@
-# États des voyants LED
+# États des voyants LED {#led-indicator-status}
 
 Ce document décrit les états des voyants LED et leur signification pour différents modèles de routeurs GL.iNet. 
 
-## Routeur de voyage
+## Routeur de voyage {#travel-router}
 
-### GL-MG1300
+### GL-MG1300 {#gl-mg1300}
 
 ![gl-mg1300 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/mg1300_interface.png){class="glboxshadow"}
 
@@ -13,7 +13,7 @@ Ce document décrit les états des voyants LED et leur signification pour diffé
 - Bleu clignotant rapidement : mise à niveau du firmware
 - Blanc fixe : fonctionnement normal
 
-### GL-MT3600BE
+### GL-MT3600BE {#gl-mt3600be}
 
 ![gl-mt3600be interface](https://static.gl-inet.com/docs/router/en/4/faq/led/mt3600be_interface.png){class="glboxshadow"}
 
@@ -22,7 +22,7 @@ Ce document décrit les états des voyants LED et leur signification pour diffé
 - Bleu clignotant rapidement : mise à niveau du firmware
 - Blanc fixe : fonctionnement normal
 
-### GL-MT3000
+### GL-MT3000 {#gl-mt3000}
 
 ![gl-mt3000 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/mt3000_interface.jpg){class="glboxshadow"}
 
@@ -31,7 +31,7 @@ Ce document décrit les états des voyants LED et leur signification pour diffé
 - Bleu clignotant rapidement : mise à niveau du firmware
 - Blanc fixe : fonctionnement normal
 
-### GL-AXT1800
+### GL-AXT1800 {#gl-axt1800}
 
 ![gl-axt1800 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/gl-axt1800_interface.jpg){class="glboxshadow"}
 
@@ -40,7 +40,7 @@ Ce document décrit les états des voyants LED et leur signification pour diffé
 - Bleu clignotant rapidement : mise à niveau du firmware
 - Blanc fixe : fonctionnement normal
 
-### GL-SFT1200
+### GL-SFT1200 {#gl-sft1200}
 
 ![gl-sft1200 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/sft1200_interface.jpg){class="glboxshadow"}
 
@@ -49,7 +49,7 @@ Ce document décrit les états des voyants LED et leur signification pour diffé
 - Bleu clignotant rapidement : mise à niveau du firmware
 - Blanc fixe : fonctionnement normal
 
-### GL-MT1300
+### GL-MT1300 {#gl-mt1300}
 
 ![gl-mt1300 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/mt1300_interface.jpg){class="glboxshadow"}
 
@@ -58,7 +58,7 @@ Ce document décrit les états des voyants LED et leur signification pour diffé
 - Bleu clignotant rapidement : mise à niveau du firmware
 - Blanc fixe : fonctionnement normal
 
-### GL-A1300
+### GL-A1300 {#gl-a1300}
 
 ![gl-a1300 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/gl-a1300_interface.jpg){class="glboxshadow"}
 
@@ -67,9 +67,9 @@ Ce document décrit les états des voyants LED et leur signification pour diffé
 - Bleu clignotant rapidement : mise à niveau du firmware
 - Blanc fixe : fonctionnement normal
 
-## Routeur cellulaire
+## Routeur cellulaire {#cellular-router}
 
-### GL-XE3000
+### GL-XE3000 {#gl-xe3000}
 
 ![gl-xe3000 led](https://static.gl-inet.com/docs/router/en/4/faq/led/xe3000led.jpg){class="glboxshadow gl-70-desktop"}
 
@@ -106,7 +106,7 @@ Ce document décrit les états des voyants LED et leur signification pour diffé
 * LED cellulaire
 	* Connexion au réseau mobile établie
 
-### GL-X3000
+### GL-X3000 {#gl-x3000}
 
 ![gl-x3000 led](https://static.gl-inet.com/docs/router/en/4/faq/led/gl-x3000_led.png){class="glboxshadow"}
 
@@ -129,7 +129,7 @@ Ce document décrit les états des voyants LED et leur signification pour diffé
 * LED cellulaire
 	* Connexion au réseau mobile établie
 
-### GL-X2000
+### GL-X2000 {#gl-x2000}
 
 ![gl-x2000 led](https://static.gl-inet.com/docs/router/en/4/faq/led/gl-x2000_led.jpg){class="glboxshadow"}
 
@@ -152,7 +152,7 @@ Ce document décrit les états des voyants LED et leur signification pour diffé
 * LED cellulaire
 	* Connexion au réseau mobile établie
 
-### GL-X750-V2
+### GL-X750-V2 {#gl-x750-v2}
 
 ![gl-x750v2 led](https://static.gl-inet.com/docs/router/en/4/faq/led/x750v2_led.jpg){class="glboxshadow"}
 
@@ -175,7 +175,7 @@ Ce document décrit les états des voyants LED et leur signification pour diffé
 * LED cellulaire
 	* Connexion au réseau mobile établie
 
-### GL-XE300
+### GL-XE300 {#gl-xe300}
 
 ![gl-xe300 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/gl-xe300_led.png){class="glboxshadow gl-70-desktop"}
 
@@ -216,9 +216,9 @@ Ce document décrit les états des voyants LED et leur signification pour diffé
 * LED cellulaire
 	* Connexion au réseau mobile établie
 
-## Wi-Fi domestique
+## Wi-Fi domestique {#home-wi-fi}
 
-### GL-BE9300
+### GL-BE9300 {#gl-be9300}
 
 ![gl-be9300 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/be9300_interface.jpg){class="glboxshadow"}
 
@@ -227,7 +227,7 @@ Ce document décrit les états des voyants LED et leur signification pour diffé
 - Bleu clignotant rapidement : mise à niveau du firmware
 - Blanc fixe : fonctionnement normal
 
-### GL-BE6500
+### GL-BE6500 {#gl-be6500}
 
 ![gl-be6500 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/be6500_interface.jpg){class="glboxshadow"}
 
@@ -236,7 +236,7 @@ Ce document décrit les états des voyants LED et leur signification pour diffé
 - Bleu clignotant rapidement : mise à niveau du firmware
 - Blanc fixe : fonctionnement normal
 
-### GL-MT6000
+### GL-MT6000 {#gl-mt6000}
 
 ![gl-mt6000 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/gl-mt6000_interface.jpg){class="glboxshadow"}
 
@@ -245,7 +245,7 @@ Ce document décrit les états des voyants LED et leur signification pour diffé
 - Bleu clignotant rapidement : mise à niveau du firmware
 - Blanc fixe : fonctionnement normal
 
-### GL-AX1800
+### GL-AX1800 {#gl-ax1800}
 
 ![gl-ax1800 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/gl-ax1800_interface.jpg){class="glboxshadow"}
 
@@ -254,7 +254,7 @@ Ce document décrit les états des voyants LED et leur signification pour diffé
 - Bleu clignotant rapidement : mise à niveau du firmware
 - Blanc fixe : fonctionnement normal
 
-### GL-B3000
+### GL-B3000 {#gl-b3000}
 
 ![gl-b3000 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/b3000_interface.jpg){class="glboxshadow"}
 
@@ -263,9 +263,9 @@ Ce document décrit les états des voyants LED et leur signification pour diffé
 - Bleu clignotant rapidement : mise à niveau du firmware
 - Blanc fixe : fonctionnement normal
 
-## Passerelles de sécurité et mini-routeurs
+## Passerelles de sécurité et mini-routeurs {#security-gateway-mini-routers}
 
-### GL-MT5000
+### GL-MT5000 {#gl-mt5000}
 
 ![gl-mt5000 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/mt5000_interface.png){class="glboxshadow"}
 
@@ -280,7 +280,7 @@ Ce document décrit les états des voyants LED et leur signification pour diffé
 	
 Remarque : l'état du serveur VPN n'est pas affiché sur la LED.
 
-### GL-MT2500/GL-MT2500A
+### GL-MT2500/GL-MT2500A {#gl-mt2500gl-mt2500a}
 
 ![gl-mt2500 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/mt2500_interface.jpg){class="glboxshadow"}
 
@@ -295,7 +295,7 @@ Remarque : l'état du serveur VPN n'est pas affiché sur la LED.
 	
 Remarque : l'état du serveur VPN n'est pas affiché sur la LED.
 
-### GL-MT300N-V2
+### GL-MT300N-V2 {#gl-mt300n-v2}
 
 ![gl-mt300n-v2 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/mt300n-v2_interface.png){class="glboxshadow"}
 
@@ -314,7 +314,7 @@ Remarque : l'état du serveur VPN n'est pas affiché sur la LED.
 
 	Pour les premiers lots, la LED sans fil peut s'afficher en rouge au lieu de blanc en fonctionnement normal.
 
-### Série GL-AR300M
+### Série GL-AR300M {#gl-ar300m-series}
 
 ![gl-ar300m interface](https://static.gl-inet.com/docs/router/en/4/faq/led/ar300m_interface.png){class="glboxshadow"}
 

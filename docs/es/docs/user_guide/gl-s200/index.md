@@ -1,12 +1,12 @@
-# Guía de usuario del GL-S200
+# Guía de usuario del GL-S200 {#gl-s200-user-guide}
 
-## Descripción general del producto
+## Descripción general del producto {#product-overview}
 
 GL-S200 es una pasarela Thread miniaturizada compatible con el protocolo BLE, que funciona con un sistema operativo OpenWrt altamente personalizable y admite gestión de dispositivos en la nube. Tiene un diseño versátil para conectar distintos dispositivos domésticos inteligentes o para la conectividad masiva de dispositivos en edificios inteligentes.
 
 ![gl-s200 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-s200/hardware_info/gl-s200_interface.jpg){class="glboxshadow"}
 
-## Contenido del paquete
+## Contenido del paquete {#package-contents}
 
 Tenga en cuenta que el adaptador incluido en el paquete depende del país de envío.
 
@@ -23,11 +23,11 @@ El paquete incluye:
 
 Vea el [video de unboxing](../../video_library/unboxing_first_set_up.md#gl-s200) del GL-S200.
 
-## Especificaciones
+## Especificaciones {#specifications}
 
 [Especificaciones del GL-S200](https://www.gl-inet.com/products/gl-s200/#specs){target="_blank"}
 
-## Distribución de pines de la PCB
+## Distribución de pines de la PCB {#pcb-pinout}
 
 <div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
   <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
@@ -37,19 +37,19 @@ Vea el [video de unboxing](../../video_library/unboxing_first_set_up.md#gl-s200)
   </figure>
 </div>
 
-## Distribución de pines de la GL Thread Dev Board
+## Distribución de pines de la GL Thread Dev Board {#gl-thread-dev-board-pinout}
 
 ![gl thread dev board pinout](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-s200/hardware_info/gl_thread_dev_board_pinout.jpg){class="glboxshadow"}
 
 ---
 
-## Configuración inicial
+## Configuración inicial {#first-time-setup}
 
 Todos los routers GL.iNet tienen un proceso de configuración similar. [Haga clic aquí para conocer la configuración inicial](../../faq/first_time_setup.md).
 
 ---
 
-## INTERNET
+## INTERNET {#internet}
 
 Inicie sesión en el panel de administración web del router y vaya a **INTERNET** desde el menú lateral izquierdo.
 
@@ -57,7 +57,7 @@ Esta página le permite seleccionar el tipo de conexión a Internet, como Ethern
 
 En el caso del GL-S200, admite dos tipos de conexión: Ethernet y Repeater.
 
-### Ethernet
+### Ethernet {#ethernet}
 
 Conecte el router a un módem activo o a un dispositivo de red activo mediante un cable Ethernet para acceder a Internet. Este método suele ofrecer la conexión a Internet más rápida y fiable.
 
@@ -65,7 +65,7 @@ Conecte el router a un módem activo o a un dispositivo de red activo mediante u
 
 ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-s200/internet/s200_ethernet.png){class="glboxshadow"}
 
-### Repeater
+### Repeater {#repeater}
 
 Configure el router como repetidor para ampliar la cobertura Wi-Fi de una red Wi-Fi existente. Como repetidor, recibe y retransmite señales inalámbricas dentro de su alcance, ampliando así la cobertura. Este método resulta útil cuando un solo router no puede cubrir toda el área de uso.
 
@@ -73,7 +73,7 @@ Configure el router como repetidor para ampliar la cobertura Wi-Fi de una red Wi
 
 ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-s200/internet/s200_repeater.png){class="glboxshadow"}
 
-### Multi-WAN
+### Multi-WAN {#multi-wan}
 
 Multi-WAN es una función de red que le permite configurar el router con varias conexiones a Internet, por ejemplo Ethernet y Repeater, al mismo tiempo. Si falla la conexión a Internet con mayor prioridad, el router cambiará automáticamente a otra conexión. Esto también se denomina Failover y garantiza un acceso a Internet fluido e ininterrumpido.
 
@@ -83,7 +83,7 @@ Como alternativa, puede cambiar el modo Multi-WAN de Failover a Load Balance, lo
 
 ---
 
-## WIRELESS
+## WIRELESS {#wireless}
 
 La configuración inalámbrica permite gestionar la seguridad de red del Wi-Fi principal y del Guest Wi-Fi. Puede acceder a ella desde **WIRELESS** en el menú lateral.
 
@@ -91,7 +91,7 @@ La configuración inalámbrica permite gestionar la seguridad de red del Wi-Fi p
 
 ---
 
-## CLIENTS
+## CLIENTS {#clients}
 
 Los clientes son los dispositivos conectados al router. Puede bloquear clientes o limitar su velocidad de red. La interfaz está disponible haciendo clic en **CLIENTS** en el menú lateral del panel de administración del router.
 
@@ -99,40 +99,40 @@ Los clientes son los dispositivos conectados al router. Puede bloquear clientes 
 
 ---
 
-## Thread Mesh
+## Thread Mesh {#thread-mesh}
 
 Consulte [Thread Mesh](https://docs.gl-inet.com/iot/en/thread_board_router/gl-s200/thread_mesh/) en la documentación de IoT.
 
 ---
 
-## GL Dev Board
+## GL Dev Board {#gl-dev-board}
 
 Consulte [GL Dev Board](https://docs.gl-inet.com/iot/en/iot_dev_board/) en la documentación de IoT.
 
 ---
 
-## Bluetooth
+## Bluetooth {#bluetooth}
 
 Consulte [Bluetooth](https://docs.gl-inet.com/iot/en/thread_board_router/gl-s200/bluetooth/) en la documentación de IoT.
 
 ---
 
-## VPN
+## VPN {#vpn}
 
 Los routers GL.iNet vienen preinstalados con OpenVPN y WireGuard®, compatibles con más de 30 servicios VPN. Cuando el cliente VPN está habilitado, el router puede cifrar el tráfico de los dispositivos de la red, incluidos los que no pueden ejecutar aplicaciones VPN, según la configuración de sus políticas VPN. Nuestros routers también pueden actuar como servidores VPN, redirigiendo el tráfico de dispositivos cliente ubicados en lugares remotos al servidor VPN a través de un túnel VPN antes de acceder a Internet pública.
 
-### VPN Dashboard
+### VPN Dashboard {#vpn-dashboard}
 
 - [**VPN Dashboard**](../../interface_guide/vpn_dashboard_v4.7.md)
 
-### OpenVPN
+### OpenVPN {#openvpn}
 
 Consulte los siguientes enlaces para ver una guía de configuración paso a paso:
 
 - [**Setup OpenVPN Client**](../../interface_guide/openvpn_client.md)
 - [**Setup OpenVPN Server**](../../interface_guide/openvpn_server.md)
 
-### WireGuard
+### WireGuard {#wireguard}
 
 Consulte los siguientes enlaces para ver una guía de configuración paso a paso:
 
@@ -141,104 +141,104 @@ Consulte los siguientes enlaces para ver una guía de configuración paso a paso
 
 ---
 
-## APPLICATIONS
+## APPLICATIONS {#applications}
 
 Los routers GL.iNet incluyen una amplia variedad de funciones adicionales que simplifican la gestión del dispositivo, mejoran la experiencia de Internet del usuario, automatizan las actualizaciones de firmware y mucho más.
 
-### Plug-ins
+### Plug-ins {#plug-ins}
 
 Visite el tutorial [**Plug-ins**](../../interface_guide/plugins.md).
 
-### Dynamic DNS
+### Dynamic DNS {#dynamic-dns}
 
 Visite el tutorial [**Dynamic DNS**](../../interface_guide/ddns.md).
 
-### GoodCloud
+### GoodCloud {#goodcloud}
 
 Visite el tutorial [**GoodCloud**](../../interface_guide/cloud.md).
 
 ---
 
-## NETWORK
+## NETWORK {#network}
 
-### Firewall
+### Firewall {#firewall}
 
 Los routers GL.iNet incluyen varias funciones de firewall para garantizar una conexión segura y un control completo por parte de los usuarios. Permiten configurar reglas de firewall, incluidas Port Forwarding, Open Ports y DMZ.
 
 [Haga clic aquí para obtener más información sobre el firewall de los routers GL.iNet](../../interface_guide/firewall.md)
 
-### Multi-WAN
+### Multi-WAN {#multi-wan_1}
 
 Visite el tutorial [**Multi-WAN**](../../interface_guide/multi-wan.md).
 
-### LAN
+### LAN {#lan}
 
 Visite el tutorial [**LAN**](../../interface_guide/lan.md).
 
-### DNS
+### DNS {#dns}
 
 Visite el tutorial [**DNS**](../../interface_guide/dns.md).
 
-### IPv6
+### IPv6 {#ipv6}
 
 Visite el tutorial [**IPv6**](../../interface_guide/ipv6.md).
 
-### MAC Address
+### MAC Address {#mac-address}
 
 La página Mac Address se llamaba anteriormente Mac Clone y pasó a llamarse Mac Address a partir de la versión 4.2.
 
 Visite el tutorial [**MAC Address**](../../interface_guide/mac_address.md).
 
-### IGMP Snooping
+### IGMP Snooping {#igmp-snooping}
 
 Visite el tutorial [**IGMP Snooping**](../../interface_guide/igmp_snooping.md).
 
 ---
 
-## SYSTEM
+## SYSTEM {#system}
 
-### Overview
+### Overview {#overview}
 
 Visite el tutorial [**System Overview**](../../interface_guide/system_overview.md).
 
-### Upgrade
+### Upgrade {#upgrade}
 
 GL.iNet proporciona actualizaciones periódicas del firmware de sus routers para mejorar el rendimiento, resolver errores y corregir vulnerabilidades.
 
 Visite el tutorial [**Upgrade**](../../interface_guide/upgrade.md).
 
-### Scheduled Tasks
+### Scheduled Tasks {#scheduled-tasks}
 
 Visite el tutorial [**Scheduled Tasks**](../../interface_guide/scheduled_tasks.md).
 
-### Admin Password
+### Admin Password {#admin-password}
 
 Esta función se trasladó a [**Security**](../../interface_guide/security.md) a partir de la versión 4.5.
 
 Visite el tutorial [**Admin Password**](../../interface_guide/admin_password.md).
 
-### Time Zone
+### Time Zone {#time-zone}
 
 Visite el tutorial [**Time Zone**](../../interface_guide/time_zone.md).
 
-### Toggle Button Settings
+### Toggle Button Settings {#toggle-button-settings}
 
 Visite el tutorial [**Toggle Button Settings**](../../interface_guide/toggle_button_settings.md).
 
-### Log
+### Log {#log}
 
 Visite el tutorial [**Log**](../../interface_guide/log.md).
 
-### Security
+### Security {#security}
 
 Esta función está disponible a partir de la versión 4.5.
 
 Visite el tutorial [**Security**](../../interface_guide/security.md).
 
-### Reset Firmware
+### Reset Firmware {#reset-firmware}
 
 Visite el tutorial [**Reset Firmware**](../../interface_guide/reset_firmware.md).
 
-### Advanced Settings
+### Advanced Settings {#advanced-settings}
 
 Visite el tutorial [**Advanced Settings**](../../interface_guide/advanced_settings.md).

@@ -1,4 +1,4 @@
-# Se connecter à Internet via un câble Ethernet
+# Se connecter à Internet via un câble Ethernet {#connect-to-the-internet-via-an-ethernet-cable}
 
 Connectez le routeur à un réseau haut débit au moyen d'un câble Ethernet branché sur le port WAN. En général, il obtient automatiquement une adresse IP (DHCP). Les utilisateurs peuvent également configurer manuellement une IP statique ou PPPoE. Cette méthode offre une grande stabilité et un débit élevé, ce qui la rend idéale pour les environnements domestiques et professionnels disposant d'un accès haut débit fixe.
 
@@ -14,7 +14,7 @@ Suivez les étapes ci-dessous pour connecter votre routeur à Internet via un c�
 
 **Conseil** : vous pouvez changer le rôle du port WAN pour l'utiliser comme port LAN si nécessaire. Cela est utile lorsque vous utilisez le routeur comme [répéteur](internet_repeater.md), car le port WAN physique reste inactif. En convertissant le port WAN en port LAN, vous disposez d'un port LAN supplémentaire.
 
-## Protocole
+## Protocole {#protocol}
 
 Trois types de protocoles sont disponibles : DHCP, Static et PPPoE. Cliquez sur **Modify** pour en changer.
 
@@ -38,7 +38,7 @@ Trois types de protocoles sont disponibles : DHCP, Static et PPPoE. Cliquez sur 
 
     ![ethernet pppoe](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/ethernet_5.png){class="glboxshadow"}
 
-## Avancé
+## Avancé {#advanced}
 
 Outre les paramètres essentiels, certains paramètres avancés facultatifs sont également disponibles pour les trois protocoles ci-dessus.
 
@@ -52,7 +52,7 @@ Outre les paramètres essentiels, certains paramètres avancés facultatifs sont
 
 * **MTU** : la valeur MTU par défaut est de 1500 octets.
 
-## Port Ethernet
+## Port Ethernet {#ethernet-port}
 
 Cliquez sur l'icône en forme d'engrenage en haut à droite pour accéder à la page [Ethernet Port](ethernet_port.md) et gérer les ports Ethernet de votre routeur.
 
@@ -68,7 +68,7 @@ La page **LAN** affiche le rôle du port et la vitesse négociée du port résea
 
 Veuillez consulter [Ethernet Port](ethernet_port.md) pour plus de détails.
 
-## Dépannage
+## Dépannage {#troubleshooting}
 
 Si un câble Ethernet est branché sur le port WAN mais qu'Internet n'est pas disponible, un message jaune s'affichera comme ci-dessous.
 

@@ -52,7 +52,6 @@ plugins:
         'faq/amnezia_obfuscation_parameters.md': 'faq/amneziawg_obfuscation.md'
         'faq/amneziawg_obfuscation_parameters.md': 'faq/amneziawg_obfuscation.md'
         'tutorials/how_to_use_simpoyo_ufi.md': 'user_guide/simpoyo-4g-ufi/index.md'
-        'interface_guide/sms.md': 'tutorials/sms.md'
         'faq/block_no_vpn_traffic.md': 'faq/block_non_vpn_traffic.md'
         'tutorials/openthread_border_router_codelabs.md': 'https://docs.gl-inet.com/iot/en/thread_board_router/gl-s200/openthread_border_router_codelabs/'
         'tutorials/mac_clone.md': 'interface_guide/mac_address.md'
@@ -117,16 +116,16 @@ plugins:
         'tutorials/wireguard_server.md': 'interface_guide/wireguard_server.md'
         'tutorials/wireless.md': 'interface_guide/wireless.md'
         'tutorials/zerotier.md': 'interface_guide/zerotier.md'
-        'user_guide/gl-xe3000/hardware_info.md': 'user_guide/gl-xe3000/index.md#hardware-info'
-        'user_guide/gl-xe3000/first_time_setup.md': 'user_guide/gl-xe3000/index.md#first-time-setup'
-        'user_guide/gl-xe3000/internet.md': 'user_guide/gl-xe3000/index.md#internet'
-        'user_guide/gl-xe3000/wireless.md': 'user_guide/gl-xe3000/index.md#wireless'
-        'user_guide/gl-xe3000/clients.md': 'user_guide/gl-xe3000/index.md#clients'
-        'user_guide/gl-xe3000/vpn.md': 'user_guide/gl-xe3000/index.md#vpn'
+        'user_guide/gl-xe3000/hardware_info.md': 'user_guide/gl-xe3000/index.md#product-overview'
+        'user_guide/gl-xe3000/first_time_setup.md': 'user_guide/gl-xe3000/index.md#how-to-set-up-puli-ax'
+        'user_guide/gl-xe3000/internet.md': 'user_guide/gl-xe3000/index.md#4-internet-setup'
+        'user_guide/gl-xe3000/wireless.md': 'user_guide/gl-xe3000/index.md#wireless-and-clients'
+        'user_guide/gl-xe3000/clients.md': 'user_guide/gl-xe3000/index.md#wireless-and-clients'
+        'user_guide/gl-xe3000/vpn.md': 'user_guide/gl-xe3000/index.md#how-to-set-up-a-vpn'
         'user_guide/gl-xe3000/applications.md': 'user_guide/gl-xe3000/index.md#applications'
-        'user_guide/gl-xe3000/network.md': 'user_guide/gl-xe3000/index.md#network'
-        'user_guide/gl-xe3000/system.md': 'user_guide/gl-xe3000/index.md#system'
-        'user_guide/gl-s200/hardware_info.md': 'user_guide/gl-s200/index.md#hardware-info'
+        'user_guide/gl-xe3000/network.md': 'user_guide/gl-xe3000/index.md#network-settings'
+        'user_guide/gl-xe3000/system.md': 'user_guide/gl-xe3000/index.md#system-settings'
+        'user_guide/gl-s200/hardware_info.md': 'user_guide/gl-s200/index.md#product-overview'
         'user_guide/gl-s200/first_time_setup.md': 'user_guide/gl-s200/index.md#first-time-setup'
         'user_guide/gl-s200/internet.md': 'user_guide/gl-s200/index.md#internet'
         'user_guide/gl-s200/wireless.md': 'user_guide/gl-s200/index.md#wireless'
@@ -138,38 +137,38 @@ plugins:
         'user_guide/gl-s200/thread_mesh.md': 'user_guide/gl-s200/index.md#thread-mesh'
         'user_guide/gl-s200/gl_dev_board.md': 'user_guide/gl-s200/index.md#gl-dev-board'
         'user_guide/gl-s200/bluetooth.md': 'user_guide/gl-s200/index.md#bluetooth'
-        'user_guide/gl-s10/hardware_info.md': 'user_guide/gl-s200/index.md#hardware-info'
+        'user_guide/gl-s10/hardware_info.md': 'user_guide/gl-s200/index.md#product-overview'
         'user_guide/gl-s10/first_time_setup.md': 'user_guide/gl-s10/index.md#first-time-setup'
         'user_guide/gl-s10/user_manual.md': 'user_guide/gl-s10/index.md#user-manual'
         'user_guide/gl-s10/firmware_compilation_guide.md': 'user_guide/gl-s10/index.md#firmware-compilation-guide'
-        'user_guide/gl-x3000/hardware_info.md': 'user_guide/gl-x3000/index.md#hardware-info'
-        'user_guide/gl-x3000/first_time_setup.md': 'user_guide/gl-x3000/index.md#first-time-setup'
-        'user_guide/gl-x3000/internet.md': 'user_guide/gl-x3000/index.md#internet'
-        'user_guide/gl-x3000/wireless.md': 'user_guide/gl-x3000/index.md#wireless'
-        'user_guide/gl-x3000/clients.md': 'user_guide/gl-x3000/index.md#clients'
-        'user_guide/gl-x3000/vpn.md': 'user_guide/gl-x3000/index.md#vpn'
+        'user_guide/gl-x3000/hardware_info.md': 'user_guide/gl-x3000/index.md#product-overview'
+        'user_guide/gl-x3000/first_time_setup.md': 'user_guide/gl-x3000/index.md#how-to-set-up-spitz-ax'
+        'user_guide/gl-x3000/internet.md': 'user_guide/gl-x3000/index.md#4-internet-setup'
+        'user_guide/gl-x3000/wireless.md': 'user_guide/gl-x3000/index.md#wireless-and-clients'
+        'user_guide/gl-x3000/clients.md': 'user_guide/gl-x3000/index.md#wireless-and-clients'
+        'user_guide/gl-x3000/vpn.md': 'user_guide/gl-x3000/index.md#how-to-set-up-a-vpn'
         'user_guide/gl-x3000/applications.md': 'user_guide/gl-x3000/index.md#applications'
-        'user_guide/gl-x3000/network.md': 'user_guide/gl-x3000/index.md#network'
-        'user_guide/gl-x3000/system.md': 'user_guide/gl-x3000/index.md#system'
-        'user_guide/gl-mt3000/hardware_info.md': 'user_guide/gl-mt3000/index.md#hardware-info'
-        'user_guide/gl-mt3000/first_time_setup.md': 'user_guide/gl-mt3000/index.md#first-time-setup'
-        'user_guide/gl-mt3000/internet.md': 'user_guide/gl-mt3000/index.md#internet'
-        'user_guide/gl-mt3000/wireless.md': 'user_guide/gl-mt3000/index.md#wireless'
-        'user_guide/gl-mt3000/clients.md': 'user_guide/gl-mt3000/index.md#clients'
-        'user_guide/gl-mt3000/vpn.md': 'user_guide/gl-mt3000/index.md#vpn'
+        'user_guide/gl-x3000/network.md': 'user_guide/gl-x3000/index.md#network-settings'
+        'user_guide/gl-x3000/system.md': 'user_guide/gl-x3000/index.md#system-settings'
+        'user_guide/gl-mt3000/hardware_info.md': 'user_guide/gl-mt3000/index.md#product-overview'
+        'user_guide/gl-mt3000/first_time_setup.md': 'user_guide/gl-mt3000/index.md#how-to-set-up-beryl-ax'
+        'user_guide/gl-mt3000/internet.md': 'user_guide/gl-mt3000/index.md#4-internet-setup'
+        'user_guide/gl-mt3000/wireless.md': 'user_guide/gl-mt3000/index.md#wireless-and-clients'
+        'user_guide/gl-mt3000/clients.md': 'user_guide/gl-mt3000/index.md#wireless-and-clients'
+        'user_guide/gl-mt3000/vpn.md': 'user_guide/gl-mt3000/index.md#how-to-set-up-a-vpn'
         'user_guide/gl-mt3000/applications.md': 'user_guide/gl-mt3000/index.md#applications'
-        'user_guide/gl-mt3000/network.md': 'user_guide/gl-mt3000/index.md#network'
-        'user_guide/gl-mt3000/system.md': 'user_guide/gl-mt3000/index.md#system'
-        'user_guide/gl-axt1800/hardware_info.md': 'user_guide/gl-axt1800/index.md#hardware-info'
-        'user_guide/gl-axt1800/first_time_setup.md': 'user_guide/gl-axt1800/index.md#first-time-setup'
-        'user_guide/gl-axt1800/internet.md': 'user_guide/gl-axt1800/index.md#internet'
-        'user_guide/gl-axt1800/wireless.md': 'user_guide/gl-axt1800/index.md#wireless'
-        'user_guide/gl-axt1800/clients.md': 'user_guide/gl-axt1800/index.md#clients'
-        'user_guide/gl-axt1800/vpn.md': 'user_guide/gl-axt1800/index.md#vpn'
+        'user_guide/gl-mt3000/network.md': 'user_guide/gl-mt3000/index.md#network-settings'
+        'user_guide/gl-mt3000/system.md': 'user_guide/gl-mt3000/index.md#system-settings'
+        'user_guide/gl-axt1800/hardware_info.md': 'user_guide/gl-axt1800/index.md#product-overview'
+        'user_guide/gl-axt1800/first_time_setup.md': 'user_guide/gl-axt1800/index.md#how-to-set-up-slate-ax'
+        'user_guide/gl-axt1800/internet.md': 'user_guide/gl-axt1800/index.md#4-internet-setup'
+        'user_guide/gl-axt1800/wireless.md': 'user_guide/gl-axt1800/index.md#wireless-and-clients'
+        'user_guide/gl-axt1800/clients.md': 'user_guide/gl-axt1800/index.md#wireless-and-clients'
+        'user_guide/gl-axt1800/vpn.md': 'user_guide/gl-axt1800/index.md#how-to-set-up-a-vpn'
         'user_guide/gl-axt1800/applications.md': 'user_guide/gl-axt1800/index.md#applications'
-        'user_guide/gl-axt1800/network.md': 'user_guide/gl-axt1800/index.md#network'
-        'user_guide/gl-axt1800/system.md': 'user_guide/gl-axt1800/index.md#system'
-        'user_guide/gl-a1300/hardware_info.md': 'user_guide/gl-a1300/index.md#hardware-info'
+        'user_guide/gl-axt1800/network.md': 'user_guide/gl-axt1800/index.md#network-settings'
+        'user_guide/gl-axt1800/system.md': 'user_guide/gl-axt1800/index.md#system-settings'
+        'user_guide/gl-a1300/hardware_info.md': 'user_guide/gl-a1300/index.md#product-overview'
         'user_guide/gl-a1300/first_time_setup.md': 'user_guide/gl-a1300/index.md#first-time-setup'
         'user_guide/gl-a1300/internet.md': 'user_guide/gl-a1300/index.md#internet'
         'user_guide/gl-a1300/wireless.md': 'user_guide/gl-a1300/index.md#wireless'
@@ -178,36 +177,36 @@ plugins:
         'user_guide/gl-a1300/applications.md': 'user_guide/gl-a1300/index.md#applications'
         'user_guide/gl-a1300/network.md': 'user_guide/gl-a1300/index.md#network'
         'user_guide/gl-a1300/system.md': 'user_guide/gl-a1300/index.md#system'
-        'user_guide/gl-ax1800/hardware_info.md': 'user_guide/gl-ax1800/index.md#hardware-info'
-        'user_guide/gl-ax1800/first_time_setup.md': 'user_guide/gl-ax1800/index.md#first-time-setup'
-        'user_guide/gl-ax1800/internet.md': 'user_guide/gl-ax1800/index.md#internet'
-        'user_guide/gl-ax1800/wireless.md': 'user_guide/gl-ax1800/index.md#wireless'
-        'user_guide/gl-ax1800/clients.md': 'user_guide/gl-ax1800/index.md#clients'
-        'user_guide/gl-ax1800/vpn.md': 'user_guide/gl-ax1800/index.md#vpn'
+        'user_guide/gl-ax1800/hardware_info.md': 'user_guide/gl-ax1800/index.md#product-overview'
+        'user_guide/gl-ax1800/first_time_setup.md': 'user_guide/gl-ax1800/index.md#how-to-set-up-flint'
+        'user_guide/gl-ax1800/internet.md': 'user_guide/gl-ax1800/index.md#4-internet-setup'
+        'user_guide/gl-ax1800/wireless.md': 'user_guide/gl-ax1800/index.md#wireless-and-clients'
+        'user_guide/gl-ax1800/clients.md': 'user_guide/gl-ax1800/index.md#wireless-and-clients'
+        'user_guide/gl-ax1800/vpn.md': 'user_guide/gl-ax1800/index.md#how-to-set-up-a-vpn'
         'user_guide/gl-ax1800/applications.md': 'user_guide/gl-ax1800/index.md#applications'
-        'user_guide/gl-ax1800/network.md': 'user_guide/gl-ax1800/index.md#network'
-        'user_guide/gl-ax1800/system.md': 'user_guide/gl-ax1800/index.md#system'
-        'user_guide/gl-mt2500/hardware_info.md': 'user_guide/gl-mt2500/index.md#hardware-info'
-        'user_guide/gl-mt2500/first_time_setup.md': 'user_guide/gl-mt2500/index.md#first-time-setup'
-        'user_guide/gl-mt2500/internet.md': 'user_guide/gl-mt2500/index.md#internet'
-        'user_guide/gl-mt2500/wireless.md': 'user_guide/gl-mt2500/index.md#wireless'
+        'user_guide/gl-ax1800/network.md': 'user_guide/gl-ax1800/index.md#network-settings'
+        'user_guide/gl-ax1800/system.md': 'user_guide/gl-ax1800/index.md#system-settings'
+        'user_guide/gl-mt2500/hardware_info.md': 'user_guide/gl-mt2500/index.md#product-overview'
+        'user_guide/gl-mt2500/first_time_setup.md': 'user_guide/gl-mt2500/index.md#how-to-set-up-brume-2'
+        'user_guide/gl-mt2500/internet.md': 'user_guide/gl-mt2500/index.md#4-internet-setup'
+        'user_guide/gl-mt2500/wireless.md': 'user_guide/gl-mt2500/index.md'
         'user_guide/gl-mt2500/clients.md': 'user_guide/gl-mt2500/index.md#clients'
-        'user_guide/gl-mt2500/vpn.md': 'user_guide/gl-mt2500/index.md#vpn'
+        'user_guide/gl-mt2500/vpn.md': 'user_guide/gl-mt2500/index.md#how-to-set-up-a-vpn'
         'user_guide/gl-mt2500/applications.md': 'user_guide/gl-mt2500/index.md#applications'
-        'user_guide/gl-mt2500/network.md': 'user_guide/gl-mt2500/index.md#network'
-        'user_guide/gl-mt2500/system.md': 'user_guide/gl-mt2500/index.md#system'
-        'user_guide/gl-sft1200/hardware_info.md': 'user_guide/gl-sft1200/index.md#hardware-info'
-        'user_guide/gl-sft1200/first_time_setup.md': 'user_guide/gl-sft1200/index.md#first-time-setup'
-        'user_guide/gl-sft1200/internet.md': 'user_guide/gl-sft1200/index.md#internet'
-        'user_guide/gl-sft1200/wireless.md': 'user_guide/gl-sft1200/index.md#wireless'
-        'user_guide/gl-sft1200/clients.md': 'user_guide/gl-sft1200/index.md#clients'
-        'user_guide/gl-sft1200/vpn.md': 'user_guide/gl-sft1200/index.md#vpn'
+        'user_guide/gl-mt2500/network.md': 'user_guide/gl-mt2500/index.md#network-settings'
+        'user_guide/gl-mt2500/system.md': 'user_guide/gl-mt2500/index.md#system-settings'
+        'user_guide/gl-sft1200/hardware_info.md': 'user_guide/gl-sft1200/index.md#product-overview'
+        'user_guide/gl-sft1200/first_time_setup.md': 'user_guide/gl-sft1200/index.md#how-to-set-up-opal'
+        'user_guide/gl-sft1200/internet.md': 'user_guide/gl-sft1200/index.md#4-internet-setup'
+        'user_guide/gl-sft1200/wireless.md': 'user_guide/gl-sft1200/index.md#wireless-and-clients'
+        'user_guide/gl-sft1200/clients.md': 'user_guide/gl-sft1200/index.md#wireless-and-clients'
+        'user_guide/gl-sft1200/vpn.md': 'user_guide/gl-sft1200/index.md#how-to-set-up-a-vpn'
         'user_guide/gl-sft1200/applications.md': 'user_guide/gl-sft1200/index.md#applications'
-        'user_guide/gl-sft1200/network.md': 'user_guide/gl-sft1200/index.md#network'
-        'user_guide/gl-sft1200/system.md': 'user_guide/gl-sft1200/index.md#system'
+        'user_guide/gl-sft1200/network.md': 'user_guide/gl-sft1200/index.md#network-settings'
+        'user_guide/gl-sft1200/system.md': 'user_guide/gl-sft1200/index.md#system-settings'
         'user_guide/gl-m2/hardware_info.md': 'user_guide/gl-m2/index.md#hardware-info'
         'user_guide/gl-m2/first_time_setup.md': 'user_guide/gl-m2/index.md#first-time-setup'
-        'user_guide/gl-mt1300/hardware_info.md': 'user_guide/gl-mt1300/index.md#hardware-info'
+        'user_guide/gl-mt1300/hardware_info.md': 'user_guide/gl-mt1300/index.md#product-overview'
         'user_guide/gl-mt1300/first_time_setup.md': 'user_guide/gl-mt1300/index.md#first-time-setup'
         'user_guide/gl-mt1300/internet.md': 'user_guide/gl-mt1300/index.md#internet'
         'user_guide/gl-mt1300/wireless.md': 'user_guide/gl-mt1300/index.md#wireless'
@@ -216,7 +215,7 @@ plugins:
         'user_guide/gl-mt1300/applications.md': 'user_guide/gl-mt1300/index.md#applications'
         'user_guide/gl-mt1300/network.md': 'user_guide/gl-mt1300/index.md#network'
         'user_guide/gl-mt1300/system.md': 'user_guide/gl-mt1300/index.md#system'
-        'user_guide/gl-ap1300/hardware_info.md': 'user_guide/gl-ap1300/index.md#hardware-info'
+        'user_guide/gl-ap1300/hardware_info.md': 'user_guide/gl-ap1300/index.md#product-overview'
         'user_guide/gl-ap1300/first_time_setup.md': 'user_guide/gl-ap1300/index.md#first-time-setup'
         'user_guide/gl-ap1300/internet.md': 'user_guide/gl-ap1300/index.md#internet'
         'user_guide/gl-ap1300/wireless.md': 'user_guide/gl-ap1300/index.md#wireless'
@@ -225,7 +224,7 @@ plugins:
         'user_guide/gl-ap1300/applications.md': 'user_guide/gl-ap1300/index.md#applications'
         'user_guide/gl-ap1300/network.md': 'user_guide/gl-ap1300/index.md#network'
         'user_guide/gl-ap1300/system.md': 'user_guide/gl-ap1300/index.md#system'
-        'user_guide/gl-x750/hardware_info.md': 'user_guide/gl-x750/index.md#hardware-info'
+        'user_guide/gl-x750/hardware_info.md': 'user_guide/gl-x750/index.md#product-overview'
         'user_guide/gl-x750/first_time_setup.md': 'user_guide/gl-x750/index.md#first-time-setup'
         'user_guide/gl-x750/internet.md': 'user_guide/gl-x750/index.md#internet'
         'user_guide/gl-x750/wireless.md': 'user_guide/gl-x750/index.md#wireless'
@@ -234,7 +233,7 @@ plugins:
         'user_guide/gl-x750/applications.md': 'user_guide/gl-x750/index.md#applications'
         'user_guide/gl-x750/network.md': 'user_guide/gl-x750/index.md#network'
         'user_guide/gl-x750/system.md': 'user_guide/gl-x750/index.md#system'
-        'user_guide/gl-xe300/hardware_info.md': 'user_guide/gl-xe300/index.md#hardware-info'
+        'user_guide/gl-xe300/hardware_info.md': 'user_guide/gl-xe300/index.md#product-overview'
         'user_guide/gl-xe300/first_time_setup.md': 'user_guide/gl-xe300/index.md#first-time-setup'
         'user_guide/gl-xe300/internet.md': 'user_guide/gl-xe300/index.md#internet'
         'user_guide/gl-xe300/wireless.md': 'user_guide/gl-xe300/index.md#wireless'
@@ -243,7 +242,7 @@ plugins:
         'user_guide/gl-xe300/applications.md': 'user_guide/gl-xe300/index.md#applications'
         'user_guide/gl-xe300/network.md': 'user_guide/gl-xe300/index.md#network'
         'user_guide/gl-xe300/system.md': 'user_guide/gl-xe300/index.md#system'
-        'user_guide/gl-x300b/hardware_info.md': 'user_guide/gl-x300b/index.md#hardware-info'
+        'user_guide/gl-x300b/hardware_info.md': 'user_guide/gl-x300b/index.md#product-overview'
         'user_guide/gl-x300b/first_time_setup.md': 'user_guide/gl-x300b/index.md#first-time-setup'
         'user_guide/gl-x300b/internet.md': 'user_guide/gl-x300b/index.md#internet'
         'user_guide/gl-x300b/wireless.md': 'user_guide/gl-x300b/index.md#wireless'
@@ -252,7 +251,7 @@ plugins:
         'user_guide/gl-x300b/applications.md': 'user_guide/gl-x300b/index.md#applications'
         'user_guide/gl-x300b/network.md': 'user_guide/gl-x300b/index.md#network'
         'user_guide/gl-x300b/system.md': 'user_guide/gl-x300b/index.md#system'
-        'user_guide/gl-ar750s/hardware_info.md': 'user_guide/gl-ar750s/index.md#hardware-info'
+        'user_guide/gl-ar750s/hardware_info.md': 'user_guide/gl-ar750s/index.md#product-overview'
         'user_guide/gl-ar750s/first_time_setup.md': 'user_guide/gl-ar750s/index.md#first-time-setup'
         'user_guide/gl-ar750s/internet.md': 'user_guide/gl-ar750s/index.md#internet'
         'user_guide/gl-ar750s/wireless.md': 'user_guide/gl-ar750s/index.md#wireless'
@@ -261,7 +260,7 @@ plugins:
         'user_guide/gl-ar750s/applications.md': 'user_guide/gl-ar750s/index.md#applications'
         'user_guide/gl-ar750s/network.md': 'user_guide/gl-ar750s/index.md#network'
         'user_guide/gl-ar750s/system.md': 'user_guide/gl-ar750s/index.md#system'
-        'user_guide/gl-b1300/hardware_info.md': 'user_guide/gl-b1300/index.md#hardware-info'
+        'user_guide/gl-b1300/hardware_info.md': 'user_guide/gl-b1300/index.md#product-overview'
         'user_guide/gl-b1300/first_time_setup.md': 'user_guide/gl-b1300/index.md#first-time-setup'
         'user_guide/gl-b1300/internet.md': 'user_guide/gl-b1300/index.md#internet'
         'user_guide/gl-b1300/wireless.md': 'user_guide/gl-b1300/index.md#wireless'
@@ -270,7 +269,7 @@ plugins:
         'user_guide/gl-b1300/applications.md': 'user_guide/gl-b1300/index.md#applications'
         'user_guide/gl-b1300/network.md': 'user_guide/gl-b1300/index.md#network'
         'user_guide/gl-b1300/system.md': 'user_guide/gl-b1300/index.md#system'
-        'user_guide/gl-s1300/hardware_info.md': 'user_guide/gl-s1300/index.md#hardware-info'
+        'user_guide/gl-s1300/hardware_info.md': 'user_guide/gl-s1300/index.md#product-overview'
         'user_guide/gl-s1300/first_time_setup.md': 'user_guide/gl-s1300/index.md#first-time-setup'
         'user_guide/gl-s1300/internet.md': 'user_guide/gl-s1300/index.md#internet'
         'user_guide/gl-s1300/wireless.md': 'user_guide/gl-s1300/index.md#wireless'
@@ -279,10 +278,10 @@ plugins:
         'user_guide/gl-s1300/applications.md': 'user_guide/gl-s1300/index.md#applications'
         'user_guide/gl-s1300/network.md': 'user_guide/gl-s1300/index.md#network'
         'user_guide/gl-s1300/system.md': 'user_guide/gl-s1300/index.md#system'
-        'user_guide/gl-mv1000/hardware_info.md': 'user_guide/gl-mv1000/index.md#hardware-info'
+        'user_guide/gl-mv1000/hardware_info.md': 'user_guide/gl-mv1000/index.md#product-overview'
         'user_guide/gl-mv1000/first_time_setup.md': 'user_guide/gl-mv1000/index.md#first-time-setup'
         'user_guide/gl-mv1000/internet.md': 'user_guide/gl-mv1000/index.md#internet'
-        'user_guide/gl-mv1000/wireless.md': 'user_guide/gl-mv1000/index.md#wireless'
+        'user_guide/gl-mv1000/wireless.md': 'user_guide/gl-mv1000/index.md'
         'user_guide/gl-mv1000/clients.md': 'user_guide/gl-mv1000/index.md#clients'
         'user_guide/gl-mv1000/vpn.md': 'user_guide/gl-mv1000/index.md#vpn'
         'user_guide/gl-mv1000/applications.md': 'user_guide/gl-mv1000/index.md#applications'
@@ -290,6 +289,7 @@ plugins:
         'user_guide/gl-mv1000/system.md': 'user_guide/gl-mv1000/index.md#system'
         'tutorials/index/index.md': 'interface_guide/index.md'
         'tutorials/how_to_activate_top_up_sim_cards.md': 'index.md'
+        'tutorials/use_wireguard_to_secure_rdp_from_outside_network.md': 'tutorials/secure_rdp_with_wireguard.md'
 
 hooks:
   - ../../scripts/alternate_links.py
@@ -346,9 +346,15 @@ extra:
     - name: Italiano
       link: /router/it/4/
       lang: it
+    - name: Nederlands
+      link: /router/nl/4/
+      lang: nl
     - name: Polski
       link: /router/pl/4/
       lang: pl
+    - name: Svenska
+      link: /router/sv/4/
+      lang: sv
     - name: Українська
       link: /router/uk/4/
       lang: uk
@@ -434,27 +440,27 @@ nav:
           - GL-MT2500/GL-X3000/GL-XE3000 の問題通知: faq/problem_notification_for_mt2500_x3000_xe3000.md
           - GL-X3000/GL-X2000のEE SIMカード動作不能の通知と解決策: faq/problem_notification_and_solutions_for_x3000_x2000_failure_to_work_with_ee_sim_cards.md
       - トラブルシューティング:
-          - ウェブ管理パネルにアクセスできません: faq/cannot_access_web_admin_panel.md
+          - Web 管理パネルにアクセスできない: faq/cannot_access_web_admin_panel.md
           - Android 5G ホットスポットのスキャンができない: faq/cannot_scan_android_5g_hotspot.md
           - iPhone 5G ホットスポットのスキャンができない: faq/cannot_scan_iphone_5g_hotspot.md
-          - iPhone テザリング失敗: faq/iphone_tethering_fail.md
-          - セルラーネットワークのトラブルシューティングガイド: faq/cellular_network_troubleshooting_guide.md
+          - iPhone テザリングに失敗する: faq/iphone_tethering_fail.md
+          - モバイルネットワークのトラブルシューティングガイド: faq/cellular_network_troubleshooting_guide.md
           - eSIMプロファイルのインストールに失敗する: faq/esim_profile_installation_failed.md
-          - 古いルーターを GL.iNet に置き換えた後にインターネットがない: faq/no_internet_after_replacing_the_old_router_with_glinet.md
+          - 古いルーターを GL.iNet に交換した後インターネットに接続できない: faq/no_internet_after_replacing_the_old_router_with_glinet.md
           - USB モデムが正常に動作しない: faq/usb_modem_is_not_working_properly_on_gl_inet_router.md
           - 修復またはリセット: faq/repair_network_or_reset_firmware.md
           - ルーターが文鎮化した場合の対処法: faq/debrick.md
-          - MacOSはSambaに書き込めない: faq/macos_cannot_write_samba.md
+          - macOS で Samba 共有に書き込めない: faq/macos_cannot_write_samba.md
           - WireGuard サーバーが正常に動作しない: faq/wireguard_server_is_not_working.md
-          - ファームウェア更新中に「インストール中」で止まる: faq/stuck_on_installing_during_firmware_update.md
-          - ファームウェアリセット中に「元に戻しています」で止まる: faq/stuck_on_reverting_during_firmware_reset.md
-          - 再起動中に「再起動中」で止まる: faq/stuck_on_rebooting_during_firmware_reboot.md
+          - ファームウェア更新中に「Installing」のまま進まない: faq/stuck_on_installing_during_firmware_update.md
+          - ファームウェアリセット中に「Reverting」のまま進まない: faq/stuck_on_reverting_during_firmware_reset.md
+          - 再起動中に「Rebooting」のまま進まない: faq/stuck_on_rebooting_during_firmware_reboot.md
           - サブネット競合の解決方法: faq/how_to_resolve_a_subnet_conflict.md
           - DDNS テストのメッセージについて: faq/why_do_I_get_a_message_from_ddns_test.md
           - VPN 速度が遅い理由: faq/why_is_my_vpn_speed_slow.md
-          - ルーターのデバイス容量について: faq/what_is_the_device_capacity_of_my_router.md
+          - ルーターに接続できるデバイス数: faq/what_is_the_device_capacity_of_my_router.md
           - ルーターの無線カバレッジについて: faq/what_is_the_wireless_coverage_of_my_router.md
-          - Uboot バージョンのアップグレード: faq/upgrade_uboot_version.md
+          - U-Boot バージョンのアップグレード: faq/upgrade_uboot_version.md
       - VPN:
           - OpenVPN の設定方法: interface_guide/openvpn_client.md
           - WireGuard の設定方法: interface_guide/wireguard_client.md
@@ -474,7 +480,7 @@ nav:
           - WAN を LAN に変更: faq/change_wan_to_lan.md
           - HTTPS で GL.iNet と AdGuard Home にアクセス: faq/use_https_for_adh.md
           - Starlink への接続: faq/connect_glinetrouter_to_starlink.md
-          - Web Admin へのリモートアクセス: faq/remote_access_web_admin_panel.md
+          - Web 管理パネルへのリモートアクセス: faq/remote_access_web_admin_panel.md
           - パブリック IP 確認: tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md
           - Opal で Wi-Fi 通話を機能させる方法: faq/how_to_make_wifi_calling_work_on_opal.md
           - すべての MAC アドレスを確認する: faq/how_can_i_know_the_lan_wifi_mac.md
@@ -495,7 +501,7 @@ nav:
           - ドメイン名で WireGuard サーバー LAN にアクセスする: tutorials/how_to_access_wgserver_lan_via_domain_name.md
           - OpenVPN TAP-S2S を有効にする: tutorials/how_to_enable_openvpn_tap_s2s_mode_on_glinet_routers.md
           - VPN カスケードを有効にする: tutorials/how_to_use_vpn_cascading_on_glinet_routers.md
-          - WireGuard で外部ネットワークからの RDP を保護する: tutorials/use_wireguard_to_secure_rdp_from_outside_network.md
+          - WireGuardでRDPを保護する: tutorials/secure_rdp_with_wireguard.md
           - WireGuard サービスプロバイダーから設定ファイルを取得する: tutorials/how_to_get_configuration_files_from_wireguard_service_providers.md
           - OpenVPN クライアントに固定 IP を予約する: tutorials/reserve_fixed_IP_for_ovpn_client.md
           - VPN クライアント有効時に WAN アクセスを許可する: tutorials/how_to_allow_access_to_wan_when_vpn_client_enabled.md
@@ -522,18 +528,18 @@ nav:
           - ゲストネットワークの設定方法: tutorials/how_to_set_up_a_guest_network.md
           - Wi-Fi カバレッジ、アクセスポイント、送信出力を理解する: tutorials/understanding_wifi_coverage_access_points_and_transmit_power.md
           - ドロップインゲートウェイの設定方法: tutorials/how_to_set_up_drop_in_gateway.md
-          - プライマリルーターでポート転送を設定する方法: tutorials/how_to_set_up_port_forwarding.md
+          - メインルーターでポートフォワーディングを設定する方法: tutorials/how_to_set_up_port_forwarding.md
           - デュアル有線 WAN アクセスの設定: tutorials/configure_dual_ethernet_wan.md
           - USB-C OTG とは何か、使い方: tutorials/what_is_usb-c_otg_and_how_to_share_your_network_via_usb-c_otg.md
       - その他:
           - クライアントデバイスをブロックする方法: tutorials/how_to_block_client_devices.md
-          - クライアントデバイスに静的 IP を手動で設定する: tutorials/manually_configure_static_ip.md
+          - クライアントデバイスに固定 IP を手動で設定する: tutorials/manually_configure_static_ip.md
           - パブリック IP を持っているかどうかを確認する: tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md
           - ルーターをアップグレードまたはダウングレードする方法: tutorials/how_to_upgrade_downgrade_router.md
           - SSH でルーターにログインする: tutorials/ssh_log_in_to_the_router.md
           - WinSCP を使用して共有ファイルにアクセスする: tutorials/winscp_share_file.md
           - WinSCP を使用してファイルを変更する: tutorials/how_to_use_winscp_to_modify_files_on_glinet_routers.md
-          - ゲーミング NAT タイプを変更する: tutorials/how_to_change_the_nat_type_on_gaming.md
+          - ゲームの NAT タイプを変更する: tutorials/how_to_change_the_nat_type_on_gaming.md
           - モバイルアプリのログを取得する: tutorials/how_to_retrieve_the_mobile_app_log.md
           - ドメインおよび IP フィルタリングルールの設定: tutorials/how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md
           - GoodCloud 経由でテクニカルサポートを受ける: tutorials/technical_support_via_goodcloud.md
@@ -542,7 +548,7 @@ nav:
       - インターネット接続:
           - インターネット: interface_guide/internet.md
           - イーサネット: interface_guide/internet_ethernet.md
-          - リピータ: interface_guide/internet_repeater.md
+          - リピーター: interface_guide/internet_repeater.md
           - テザリング: interface_guide/internet_tethering.md
           - セルラー: interface_guide/internet_cellular_v4.10.md
       - ワイヤレス:
@@ -558,7 +564,7 @@ nav:
           - AstroWarp: interface_guide/astrowarp.md
       - VPN:
           - VPN ダッシュボード: interface_guide/vpn_dashboard.md
-          - VPN クライアントプロフィール: interface_guide/vpn_client_profile.md
+          - VPN クライアントプロファイル: interface_guide/vpn_client_profile.md
           - OpenVPN クライアント: interface_guide/openvpn_client.md
           - OpenVPN サーバー: interface_guide/openvpn_server.md
           - WireGuard クライアント: interface_guide/wireguard_client.md
@@ -577,7 +583,7 @@ nav:
           - eSIM 管理: interface_guide/esim_management.md
       - ネットワーク:
           - ファイアウォール: interface_guide/firewall.md
-          - ポート転送: interface_guide/port_forwarding.md
+          - ポートフォワーディング: interface_guide/port_forwarding.md
           - マルチ WAN: interface_guide/multi-wan.md
           - サブネット: interface_guide/subnet.md
           - LAN: interface_guide/lan.md
@@ -629,6 +635,6 @@ nav:
       - Firmware v4.9: features_update/firmware_v4.9.md
   - ビデオライブラリ:
       - 概要: video_library/index.md
-      - 新製品をご紹介します: video_library/products.md
+      - 新製品のご紹介: video_library/products.md
       - 開梱と初回セットアップ: video_library/unboxing_first_set_up.md
       - 動画チュートリアル: video_library/tutorials.md

@@ -1,12 +1,12 @@
-# Come aggiornare i certificati del server OpenVPN?
+# Come aggiornare i certificati del server OpenVPN? {#how-to-update-openvpn-server-certificates}
 
 Questo tutorial spiega come aggiornare i certificati del server OpenVPN sui router GL.iNet.
 
-**Nota**: questo processo richiede l'aggiornamento del certificato Root CA, che rendera' non validi tutti i certificati client esistenti, incorporati nei file di configurazione. Dovrai riesportare tutti i file di configurazione per consentire ai client OpenVPN di riconnettersi al server.
+**Nota**: questo processo richiede l'aggiornamento del certificato Root CA, che renderà non validi tutti i certificati client esistenti, incorporati nei file di configurazione. Dovrai riesportare tutti i file di configurazione per consentire ai client OpenVPN di riconnettersi al server.
 
 1. Accedi al pannello di amministrazione web del router e vai su **VPN** -> **OpenVPN Server**.
 
-    Se il server OpenVPN e' in esecuzione, arresta il servizio.
+    Se il server OpenVPN è in esecuzione, arresta il servizio.
 
 2. Nella scheda Configuration, fai clic su **Advanced Configuration** per espandere le impostazioni.
 

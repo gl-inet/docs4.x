@@ -1,12 +1,12 @@
-# Guía de usuario de Marble (GL-B3000)
+# Guía de usuario de Marble (GL-B3000) {#marble-gl-b3000-user-guide}
 
-## Descripción general del producto
+## Descripción general del producto {#product-overview}
 
 El router Marble (GL-B3000) es una pieza decorativa en sí misma, ingeniosamente presentada como un marco de fotos para exhibir su obra favorita y realzar su espacio. Además de ser visualmente atractivo, el router Marble (GL-B3000) ofrece un rendimiento de primer nivel gracias a Wi-Fi 6 y a su compatibilidad con funciones VPN.
 
 ![gl-b3000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-b3000/hardware_info/b3000_interface.png){class="glboxshadow"}
 
-## Contenido del paquete
+## Contenido del paquete {#package-contents}
 
 - 1 x Marble (GL-B3000)
 - 1 x Manual del usuario
@@ -21,7 +21,7 @@ El router Marble (GL-B3000) es una pieza decorativa en sí misma, ingeniosamente
 
 ![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-b3000/first_time_setup/b3000_unboxing.jpg){class="glboxshadow"}
 
-## Cómo configurar Marble
+## Cómo configurar Marble {#how-to-set-up-marble}
 
 Vea estos vídeos de instalación y configuración, o siga los pasos que se indican a continuación.
 
@@ -29,11 +29,11 @@ Vea estos vídeos de instalación y configuración, o siga los pasos que se indi
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-U2WTVYRkPU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Encender
+### 1. Encender {#1-power-on}
 
 Ensamble las dos piezas del adaptador de corriente. Conéctelo al router y enchúfelo a una toma de corriente. El router se iniciará automáticamente.
 
-### 2. Conectar un dispositivo
+### 2. Conectar un dispositivo {#2-connect-device}
 
 Conecte un dispositivo, por ejemplo un ordenador, un portátil o un smartphone, al router mediante Wi-Fi o un cable Ethernet.
 
@@ -45,11 +45,11 @@ Conecte un dispositivo, por ejemplo un ordenador, un portátil o un smartphone, 
 
     En su dispositivo, vaya a Settings -> WLAN, localice el nombre de la red Wi-Fi del router en la lista de redes disponibles e introduzca la contraseña. (Puede encontrar el nombre de red y la contraseña predeterminados impresos en la etiqueta del router).
 
-### 3. Iniciar sesión en el panel de administración web
+### 3. Iniciar sesión en el panel de administración web {#3-log-in-to-web-admin-panel}
 
 Abra un navegador web, introduzca `192.168.8.1` en la barra de direcciones e inicie sesión. Elija su idioma, establezca la contraseña de administrador y haga clic en **Apply**.
 
-### 4. Configuración de Internet
+### 4. Configuración de Internet {#4-internet-setup}
 
 **Nota:** Las siguientes instrucciones se aplican a los usuarios que configuran el router desde el panel de administración web de GL.iNet. Si prefiere usar la aplicación de GL.iNet, [descargue la aplicación](https://www.gl-inet.com/app/){target="_blank"} y siga las instrucciones que aparecen en pantalla.
 
@@ -79,7 +79,7 @@ Configure su Marble con uno de los métodos de conexión a Internet compatibles:
 
 ---
 
-## Cómo configurar una VPN
+## Cómo configurar una VPN {#how-to-set-up-a-vpn}
 
 Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositivo y el servidor VPN. Proporciona una capa adicional de privacidad y seguridad cuando se usa como cliente VPN y permite acceder a una red remota cuando se usa como servidor VPN. Marble, al igual que otros routers GL.iNet, es compatible con OpenVPN y WireGuard. Además, también es compatible con Tor.
 
@@ -105,7 +105,7 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 
 ---
 
-## Red inalámbrica y clientes
+## Red inalámbrica y clientes {#wireless-and-clients}
 
 === "Wireless"
 
@@ -119,7 +119,7 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 
     Para configurar Clients, consulte [Clients](../../interface_guide/clients.md).
 
-## Servicios en la nube
+## Servicios en la nube {#cloud-services}
 
 === "GoodCloud"
 
@@ -133,7 +133,7 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 
     AstroWarp es una plataforma de red avanzada diseñada para ofrecer redes remotas y gestión remota de dispositivos sin interrupciones. Creada específicamente para integrarse con routers GL.iNet, AstroWarp admite una gestión integral de dispositivos en redes completas, lo que permite controlar tanto los dispositivos superiores como los inferiores. Con un enfoque centrado en la gestión de toda la red y compatibilidad futura con control a nivel de hardware, AstroWarp ofrece una solución más sólida y fiable para gestionar dispositivos y mantener redes seguras y estables.
 
-## Aplicaciones
+## Aplicaciones {#applications}
 
 === "Plug-ins"
 
@@ -167,7 +167,7 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 
 ---
 
-## Configuración de red
+## Configuración de red {#network-settings}
 
 === "Firewall"
 
@@ -181,7 +181,7 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 
 === "Multi-WAN"
 
-    Multi-WAN es una función de red que le permite configurar el router con varias conexiones a Internet, por ejemplo cellular, repeater y ethernet, al mismo tiempo. Si falla la conexión a Internet actual, el router cambiará automáticamente a otra conexión. Esto garantiza un acceso a Internet fluido e ininterrumpido.
+    Multi-WAN es una función de red que le permite configurar el router con varias conexiones a Internet, por ejemplo Ethernet y Repeater, al mismo tiempo. Si falla la conexión a Internet actual, el router cambiará automáticamente a otra conexión. Esto garantiza un acceso a Internet fluido e ininterrumpido.
 
     Para configurar Multi-WAN, consulte [Multi-WAN](../../interface_guide/multi-wan.md).
 
@@ -292,7 +292,7 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 
 ---
 
-## Configuración del sistema
+## Configuración del sistema {#system-settings}
 
 === "Overview"
 

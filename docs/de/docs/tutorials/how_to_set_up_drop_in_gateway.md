@@ -1,20 +1,20 @@
-# So richten Sie Drop-in Gateway auf einem GL.iNet-Router ein
+# So richten Sie Drop-in Gateway auf einem GL.iNet-Router ein {#how-to-set-up-drop-in-gateway-on-a-glinet-router}
 
 GL.iNet bietet die Funktion Drop-in Gateway, die die Funktionalität Ihres primären Routers um Features erweitert, die er möglicherweise nicht besitzt, darunter AdGuard Home, verschlüsseltes DNS und VPN. Mit dieser Funktion können Sie Ihren primären Router wie gewohnt weiterverwenden und gleichzeitig zusätzliche Funktionen nutzen.
 
-Sie können Drop-in Gateway für [alle Ihre Geräte](#drop-in-gateway-fur-alle-gerate-aktivieren) oder [bestimmte Geräte](#drop-in-gateway-fur-bestimmte-gerate-aktivieren) aktivieren, die mit Ihrem primären Router verbunden sind. Folgen Sie dem passenden Abschnitt für Ihre Einrichtung.
+Sie können Drop-in Gateway für [alle Ihre Geräte](#enable-drop-in-gateway-for-all-devices) oder [bestimmte Geräte](#enable-drop-in-gateway-for-specific-devices) aktivieren, die mit Ihrem primären Router verbunden sind. Folgen Sie dem passenden Abschnitt für Ihre Einrichtung.
 
 **Hinweis**: Modelle mit Firmware-Versionen unter v4.5.0 unterstützen nur die Aktivierung von Drop-in Gateway für alle Geräte. Wenn Drop-in Gateway aktiviert ist, werden alle Client-Geräte über Drop-in Gateway ins Netzwerk eingebunden. Das bedeutet, dass der gesamte Datenverkehr verbundener Clients zuerst von diesem Router verarbeitet wird.
 
 ---
 
-## Drop-in Gateway für alle Geräte aktivieren
+## Drop-in Gateway für alle Geräte aktivieren {#enable-drop-in-gateway-for-all-devices}
 
-### 1. GL.iNet-Router mit dem Hauptrouter verbinden
+### 1. GL.iNet-Router mit dem Hauptrouter verbinden {#1-connect-glinet-router-to-the-main-router}
 
 Verbinden Sie den WAN-Port des GL.iNet-Routers mit einem Ethernet-Kabel mit dem LAN-Port des Hauptrouters.
 
-### 2. Drop-in Gateway aktivieren
+### 2. Drop-in Gateway aktivieren {#2-enable-drop-in-gateway}
 
 Es gibt zwei Methoden, um Drop-in Gateway zu aktivieren: über das Router-Admin-Panel oder über die GL.iNet Mobile App.
 
@@ -52,11 +52,11 @@ Es gibt zwei Methoden, um Drop-in Gateway zu aktivieren: über das Router-Admin-
 
     4. Tippen Sie auf **Done**.
 
-### 3. DHCP-Server auf dem Hauptrouter deaktivieren
+### 3. DHCP-Server auf dem Hauptrouter deaktivieren {#3-disable-dhcp-server-on-the-main-router}
 
 Melden Sie sich bitte an Ihrem primären Router an, um den DHCP-Server zu deaktivieren. Sie können sich an den Anweisungen Ihres Routerherstellers orientieren oder dessen Support kontaktieren.
 
-### 4. AdGuard, DNS, VPN und andere Funktionen einrichten
+### 4. AdGuard, DNS, VPN und andere Funktionen einrichten {#4-set-up-adguard-dns-vpn-and-other-features}
 
 Befolgen Sie diese Anleitungen, um die gewünschten Funktionen auf Ihrem GL.iNet-Router zu aktivieren.
 
@@ -68,13 +68,13 @@ Befolgen Sie diese Anleitungen, um die gewünschten Funktionen auf Ihrem GL.iNet
 
 ---
 
-## Drop-in Gateway für bestimmte Geräte aktivieren
+## Drop-in Gateway für bestimmte Geräte aktivieren {#enable-drop-in-gateway-for-specific-devices}
 
-### 1. GL.iNet-Router mit dem Hauptrouter verbinden
+### 1. GL.iNet-Router mit dem Hauptrouter verbinden {#1-connect-glinet-router-to-the-main-router_1}
 
 Verbinden Sie den WAN-Port des GL.iNet-Routers mit einem Ethernet-Kabel mit dem LAN-Port des Hauptrouters.
 
-### 2. Drop-in Gateway aktivieren
+### 2. Drop-in Gateway aktivieren {#2-enable-drop-in-gateway_1}
 
 Es gibt zwei Methoden, um Drop-in Gateway zu aktivieren: über das Router-Admin-Panel oder über die GL.iNet Mobile App.
 
@@ -116,7 +116,7 @@ Es gibt zwei Methoden, um Drop-in Gateway zu aktivieren: über das Router-Admin-
 
     **Hinweis:** Bitte schließen Sie diese Registerkarte **NICHT**. Sie müssen im nächsten Schritt die angezeigte IP-Adresse eingeben.
 
-### 3. Gateway und DNS auf einem bestimmten Gerät festlegen
+### 3. Gateway und DNS auf einem bestimmten Gerät festlegen {#3-set-gateway-and-dns-on-specific-device}
 
 ??? "Windows"
     
@@ -175,7 +175,7 @@ Es gibt zwei Methoden, um Drop-in Gateway zu aktivieren: über das Router-Admin-
         * **Router:** Geben Sie die IP-Adresse ein, die auf der Seite **Drop-in Gateway** angezeigt wird.
     9. Klicken Sie auf **OK** > **OK**.
 
-### 4. AdGuard, DNS, VPN und andere Funktionen einrichten
+### 4. AdGuard, DNS, VPN und andere Funktionen einrichten {#4-set-up-adguard-dns-vpn-and-other-features_1}
 
 Befolgen Sie diese Anleitungen, um die gewünschten Funktionen auf Ihrem GL.iNet-Router zu aktivieren.
 

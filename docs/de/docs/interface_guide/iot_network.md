@@ -1,4 +1,4 @@
-# IoT-Netzwerk
+# IoT-Netzwerk {#iot-network}
 
 > Die Funktion IoT-Netzwerk wurde mit Firmware v4.9 eingeführt.
 
@@ -10,7 +10,7 @@ Diese Seite ermöglicht es Ihnen, ein dediziertes Wi-Fi-Netzwerk für IoT-Gerät
 
 Es gibt zwei Bereiche: Grundeinstellungen und DHCP-Server-Einstellungen.
 
-## Grundeinstellungen
+## Grundeinstellungen {#basic-settings}
 
 Sie können das Subnetz innerhalb der privaten IPv4-Adressbereiche festlegen: `192.168.0.0/16`, `172.16.0.0/12`, `10.0.0.0/8`
 
@@ -36,7 +36,7 @@ Sie können das Subnetz innerhalb der privaten IPv4-Adressbereiche festlegen: `1
 
     Wenn sie aktiviert ist, kann das IoT-Netzwerk nicht auf das Upstream-Netzwerk und dessen Subnetz zugreifen.
 
-## DHCP-Server
+## DHCP-Server {#dhcp-server}
 
 Wenn das IoT-Netzwerk aktiviert ist, wird dessen DHCP-Server entsprechend ebenfalls aktiviert.
 

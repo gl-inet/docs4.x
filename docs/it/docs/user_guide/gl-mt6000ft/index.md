@@ -1,12 +1,12 @@
-# Guida per l'utente Fortify (GL-MT6000)
+# Guida per l'utente Fortify (GL-MT6000) {#fortify-gl-mt6000-user-guide}
 
-## Panoramica del prodotto
+## Panoramica del prodotto {#product-overview}
 
-Fortify (GL-MT6000) è un router Wi-Fi 6 in co-branding rilasciato congiuntamente da GL.iNet ed ExpressVPN. Ogni unità viene fornita con un abbonamento ExpressVPN gratuito di un anno. Gli utenti possono riscattare l'abbonamento e connettere i propri account direttamente sul pannello di amministrazione web del router. Una volta attivato, tutto il traffico che passa attraverso il router sfrutterà la rete ad alta velocità di ExpressVPN e la solida crittografia per proteggere l'intera connessione di rete e la privacy online.
+Fortify (GL-MT6000) è un router Wi-Fi 6 in co-branding rilasciato congiuntamente da GL.iNet ed ExpressVPN. Ogni unità viene fornita con un abbonamento ExpressVPN gratuito di un anno. Gli utenti possono riscattare l'abbonamento e connettere i propri account direttamente sul pannello di amministrazione web del router. Quando un tunnel ExpressVPN è connesso, il router crittografa e instrada il traffico attraverso quel tunnel in base alle impostazioni dei criteri VPN.
 
 ![fortify gl-mt6000](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000-fortify/mt6000-fortify_interface.png){class="glboxshadow"}
 
-## Contenuto della confezione
+## Contenuto della confezione {#package-contents}
 
 - 1 x Fortify (GL-MT6000)
 - 1 x Manuale utente
@@ -22,17 +22,17 @@ Guarda il video di unboxing di Fortify qui sotto.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IQEfj7Hff7U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Come impostare Fortify
+## Come impostare Fortify {#how-to-set-up-fortify}
 
 Guarda questo video di configurazione o segui i passaggi indicati di seguito.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FymI3LCRMTA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Accendere
+### 1. Accendere {#1-power-on}
 
 Metti insieme l'alimentatore in due pezzi. Collegalo al router Fortify e collegalo a una presa. Si avvierà automaticamente.
 
-### 2. Connetti il dispositivo
+### 2. Connetti il dispositivo {#2-connect-device}
 
 Collega un dispositivo (ad esempio un computer, un portatile o uno smartphone) al router tramite Wi-Fi o Ethernet.
 
@@ -44,7 +44,7 @@ Collega un dispositivo (ad esempio un computer, un portatile o uno smartphone) a
 
     Sul tuo dispositivo, vai su Impostazioni -> WLAN, individua il nome della rete Wi-Fi del tuo router nell'elenco delle reti disponibili e inserisci la password per accedere alla rete. È possibile trovare il nome di rete e la password predefiniti stampati sull'etichetta del router.
 
-### 3. Accedi al pannello di amministrazione web
+### 3. Accedi al pannello di amministrazione web {#3-log-in-to-web-admin-panel}
 
 Apri un browser web, inserisci `192.168.8.1` nella barra degli indirizzi ed effettua l'accesso. Scegli la lingua nell'angolo in alto a destra, imposta la password dell'amministratore, quindi fai clic su **Next**. La password deve contenere da 10 a 63 caratteri e contenere almeno due dei seguenti elementi: lettere maiuscole, lettere minuscole, numeri e simboli speciali.
 
@@ -54,7 +54,7 @@ Configura la tua connessione Wi-Fi. Tieni presente che se modifichi le informazi
 
 ![fortify login2](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000-fortify/login2.png){class="glboxshadow"}
 
-### 4. Configurazione di Internet
+### 4. Configurazione di Internet {#4-internet-setup}
 
 **Nota:** Le seguenti istruzioni si applicano agli utenti che configurano il router tramite il pannello di amministrazione web GL.iNet. Se preferisci l'[app GL.iNet](https://www.gl-inet.com/pages/app#download-app-glinet){target="_blank"}, scaricala e segui le istruzioni visualizzate sullo schermo.
 
@@ -108,19 +108,19 @@ Configura il tuo Fortify utilizzando uno dei metodi di connessione Internet supp
 
 Di seguito è riportata una panoramica delle funzionalità del pannello di amministrazione web di Fortify.
 
-## Senza fili
+## Senza fili {#wireless}
 
 La pagina Wireless ti consente di configurare le reti Wi-Fi di Fortify, tra cui Rete principale, Rete ospite e Rete IoT. Ciascuna rete supporta entrambe le bande da 2,4 GHz e 5 GHz.
 
 Per impostare la modalità wireless, fare riferimento a [Wireless](../../interface_guide/wireless.md).
 
-## Clienti
+## Clienti {#clients}
 
 La pagina Client visualizza informazioni sui dispositivi connessi, inclusi nome del dispositivo, tipo di connessione, indirizzi IP e MAC, velocità di download e upload, traffico e offre la possibilità di bloccare client specifici con un clic o eseguire altre azioni.
 
 Per i dettagli fare riferimento a [Clienti](../../interface_guide/clients.md).
 
-## Servizi cloud
+## Servizi cloud {#cloud-services}
 
 === "GoodCloud"
 
@@ -134,11 +134,11 @@ Per i dettagli fare riferimento a [Clienti](../../interface_guide/clients.md).
 
     Fare riferimento a [AstroWarp](../../interface_guide/astrowarp.md) per i dettagli.
 
-## VPN
+## VPN {#vpn}
 
 Una VPN (virtual private network) stabilisce tunnel di traffico sicuri e crittografati tra il tuo dispositivo locale e il server VPN. Aggiunge un ulteriore livello di privacy e sicurezza al client VPN e consente l'accesso alla rete di server VPN remota.
 
-Fortify si integra con [ExpressVPN](https://www.expressvpn.com/){target="_blank"}, consentendoti di attivare una connessione ExpressVPN in pochi minuti. Ogni dispositivo Fortify viene fornito con un abbonamento ExpressVPN gratuito di un anno. Puoi riscattare l'abbonamento e connettere il tuo account ExpressVPN direttamente sul pannello di amministrazione web del router. Una volta abilitata la connessione VPN, tutto il traffico instradato attraverso il router utilizzerà i server ad alta velocità di ExpressVPN e la solida crittografia per proteggere l'intera rete e la privacy online.
+Fortify si integra con [ExpressVPN](https://www.expressvpn.com/){target="_blank"}, consentendoti di attivare una connessione ExpressVPN in pochi minuti. Ogni dispositivo Fortify viene fornito con un abbonamento ExpressVPN gratuito di un anno. Puoi riscattare l'abbonamento e connettere il tuo account ExpressVPN direttamente sul pannello di amministrazione web del router. Quando un tunnel ExpressVPN è connesso, il router crittografa e instrada il traffico attraverso quel tunnel in base alle impostazioni dei criteri VPN.
 
 Per riscattare l'abbonamento gratuito e configurare il tunnel VPN, fare riferimento alla [Guida all'attivazione di ExpressVPN](../../interface_guide/expressvpn_activation_guide.md).
 
@@ -146,7 +146,7 @@ Per configurare un server OpenVPN, fare riferimento a [Server OpenVPN](../../int
 
 Per configurare un server WireGuard, fare riferimento a [WireGuard Server](../../interface_guide/wireguard_server.md).
 
-## Rete
+## Rete {#network}
 
 === "Multi-WAN"
 
@@ -218,7 +218,7 @@ Per configurare un server WireGuard, fare riferimento a [WireGuard Server](../..
 
     Per impostare l'accelerazione di rete, fare riferimento a [Accelerazione di rete](../../interface_guide/network_acceleration.md).
 
-## Controllo del flusso
+## Controllo del flusso {#flow-control}
 
 === "DPI Engine"
 
@@ -260,7 +260,7 @@ Per configurare un server WireGuard, fare riferimento a [WireGuard Server](../..
 
     Per i dettagli fare riferimento a [Controllo genitoriale](../../interface_guide/parental_control_v4.9.md).
 
-## Sicurezza
+## Sicurezza {#security}
 
 === "Port forwarding"
 
@@ -290,7 +290,7 @@ Per configurare un server WireGuard, fare riferimento a [WireGuard Server](../..
 
     Fare riferimento a [Modalità NAT](../../interface_guide/nat_settings.md) per i dettagli.
 
-## Applicazioni
+## Applicazioni {#applications}
 
 === "Plug-ins"
 
@@ -344,7 +344,7 @@ Per configurare un server WireGuard, fare riferimento a [WireGuard Server](../..
 
     Fare riferimento a [Tor](../../interface_guide/tor.md) per i dettagli.
 
-## Sistema
+## Sistema {#system}
 
 === "Overview"
 

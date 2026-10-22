@@ -1,4 +1,4 @@
-# QoS (Quality of Service)
+# QoS (Quality of Service) {#qos-quality-of-service}
 
 **Uwaga**: Ta funkcja została wprowadzona w firmware v4.9.
 
@@ -55,7 +55,7 @@ QoS (Quality of Service) optymalizuje alokację przepustowości, nadając priory
     - GL-AP1300 (Cirrus)
     - GL-S1300 (Convexa-S)
 
-## Dla oprogramowania sprzętowego w wersji 4.11 i nowszych
+## Dla oprogramowania sprzętowego w wersji 4.11 i nowszych {#for-firmware-v411-and-above}
 
 Przełącz przełącznik, aby włączyć funkcję QoS, a następnie zakończ konfigurację, wykonując poniższe czynności.
 
@@ -111,7 +111,7 @@ Przełącz przełącznik, aby włączyć funkcję QoS, a następnie zakończ kon
 
         ![advanced qos rule](https://static.gl-inet.com/docs/router/en/4/interface_guide/qos/advanced_qos_rule.png){class="glboxshadow" width=500}
 
-## Dla oprogramowania sprzętowego v4.9 do v4.10
+## Dla oprogramowania sprzętowego v4.9 do v4.10 {#for-firmware-v49-to-v410}
 
 Przełącz przełącznik, aby włączyć QoS, a strona wyświetli się w następujący sposób.
 

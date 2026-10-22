@@ -1,4 +1,4 @@
-# ¿Qué es LuCI?
+# ¿Qué es LuCI? {#what-is-luci}
 
 LuCI es la interfaz web de usuario de OpenWrt, donde puede realizar algunos ajustes avanzados.
 

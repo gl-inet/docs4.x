@@ -1,4 +1,4 @@
-# Display Management
+# Display Management {#display-management}
 
 **Nota**: Esta página solo está disponible en los modelos equipados con pantalla táctil.
 
@@ -6,7 +6,7 @@ En el lado izquierdo del panel de administración web, vaya a **SYSTEM** -> **Di
 
 Esta página le permite gestionar la pantalla táctil y sus ajustes relacionados.
 
-## GL-BE14000
+## GL-BE14000 {#gl-be14000}
 
 ![be14000 display](https://static.gl-inet.com/docs/router/en/4/interface_guide/display_management/be14000_display.png){class="glboxshadow"}
 
@@ -17,7 +17,7 @@ Esta página le permite gestionar la pantalla táctil y sus ajustes relacionados
 - **Screen Always On**: active o desactive esta opción para decidir si la pantalla táctil permanece encendida de forma continua o se apaga tras un periodo de inactividad.
 - **Enable Screen Passcode**: habilite un código de acceso para la pantalla táctil cuando sea necesario (solo un número de 4 dígitos).
 
-## GL-BE10000
+## GL-BE10000 {#gl-be10000}
 
 ![be10000 display](https://static.gl-inet.com/docs/router/en/4/interface_guide/display_management/be10000_display.png){class="glboxshadow"}
 
@@ -28,7 +28,7 @@ Esta página le permite gestionar la pantalla táctil y sus ajustes relacionados
 - **Screen Always On**: active o desactive esta opción para decidir si la pantalla táctil permanece encendida de forma continua o se apaga tras un periodo de inactividad.
 - **Enable Screen Passcode**: habilite un código de acceso para la pantalla táctil cuando sea necesario (solo un número de 4 dígitos).
 
-## GL-BE3600
+## GL-BE3600 {#gl-be3600}
 
 ![be3600 display](https://static.gl-inet.com/docs/router/en/4/interface_guide/display_management/be3600_display.png){class="glboxshadow"}
 
@@ -49,7 +49,7 @@ Esta página le permite gestionar la pantalla táctil y sus ajustes relacionados
 - **Screen Always On**: active o desactive esta opción para decidir si la pantalla táctil permanece encendida de forma continua o se apaga tras un periodo de inactividad.
 - **Enable Screen Passcode**: habilite un código de acceso para la pantalla táctil cuando sea necesario (solo un número de 4 dígitos).
 
-## GL-E5800
+## GL-E5800 {#gl-e5800}
 
 ![e5800 display](https://static.gl-inet.com/docs/router/en/4/interface_guide/display_management/e5800_display.png){class="glboxshadow"}
 

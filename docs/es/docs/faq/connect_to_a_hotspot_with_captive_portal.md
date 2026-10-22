@@ -1,10 +1,10 @@
-# Conectar un router GL.iNet a puntos de acceso públicos con portal cautivo
+# Conectar un router GL.iNet a puntos de acceso públicos con portal cautivo {#connect-a-glinet-router-to-public-hotspots-with-a-captive-portal}
 
-## ¿Qué es un portal cautivo?
+## ¿Qué es un portal cautivo? {#what-is-a-captive-portal}
 
 Un portal cautivo es una página web en la que los puntos de acceso públicos requieren que los usuarios vean e interactúen con la página antes de que se les conceda acceso a Internet.
 
-## ¿Por qué usar un router para puntos de acceso públicos?
+## ¿Por qué usar un router para puntos de acceso públicos? {#why-use-a-router-for-public-hotspots}
 
 - El Wi-Fi público no es seguro
 
@@ -14,7 +14,7 @@ Un portal cautivo es una página web en la que los puntos de acceso públicos re
 
   Además, algunas redes Wi-Fi públicas, como el Wi-Fi de hotel, limitan el acceso, por ejemplo, a dos dispositivos. Cuando se viaja en grupo, esto resulta poco práctico. En su lugar, puede conectar un router de viaje al Wi-Fi del hotel y usarlo como repetidor para emitir una señal Wi-Fi a todos sus dispositivos, incluidos portátiles, teléfonos inteligentes, tabletas, etc. El Wi-Fi del hotel solo reconocerá el router de viaje como un único dispositivo, pero usted podrá conectar tantos dispositivos como quiera al Wi-Fi gratuito.
 
-## ¿Cómo conectar el router a puntos de acceso públicos con portal cautivo?
+## ¿Cómo conectar el router a puntos de acceso públicos con portal cautivo? {#how-to-connect-router-to-public-hotspots-with-captive-portal}
 
 Vea este vídeo o siga los pasos que se indican a continuación.
 
@@ -32,11 +32,11 @@ Vea este vídeo o siga los pasos que se indican a continuación.
 
 3. Conecte su router al punto de acceso público. Consulte el tutorial de [Repeater](../interface_guide/internet_repeater.md/).
 
-## Solución de problemas
+## Solución de problemas {#troubleshooting}
 
 Si no puede entrar en el portal cautivo, es posible que el router no pueda acceder a Internet. Pruebe los siguientes métodos de solución de problemas.
 
-### Método 1: Activar Public Hotspot Login Mode y Camouflage
+### Método 1: Activar Public Hotspot Login Mode y Camouflage {#method-1-enable-public-hotspot-login-mode-camouflage}
 
 **Nota**: Estas dos funciones solo están disponibles en el firmware v4.6 y posteriores.
 
@@ -54,7 +54,7 @@ Al conectar el router a un punto de acceso público, en la página **Join Networ
 
 ---
 
-### Método 2: Cambiar la configuración del router
+### Método 2: Cambiar la configuración del router {#method-2-change-router-settings}
 
 1. Inicie sesión en el panel de administración web y vaya a NETWORK -> DNS. Asegúrese de que **DNS Rebinding Attack Protection** esté desactivado y de que **Mode** esté configurado en **Automatic**.
 
@@ -82,7 +82,7 @@ Al conectar el router a un punto de acceso público, en la página **Join Networ
 
 ---
 
-### Método 3: Clonación de MAC
+### Método 3: Clonación de MAC {#method-3mac-clone}
 
 Algunos hoteles limitan la cantidad de dispositivos que cada cliente puede conectar al Wi-Fi del hotel reconociendo sus direcciones MAC, y registran la dirección MAC del dispositivo cuando se conecta por primera vez. En este caso, puede clonar en el router la dirección MAC que su teléfono utiliza para conectarse al Wi-Fi del hotel, permitiendo que el router use esa dirección MAC para acceder al Wi-Fi del hotel.
 
@@ -114,7 +114,7 @@ Algunos hoteles limitan la cantidad de dispositivos que cada cliente puede conec
 
 ---
 
-### Método 4: Pedir ayuda al personal del hotel
+### Método 4: Pedir ayuda al personal del hotel {#method-4seek-help-from-hotel-staff}
 
 Algunos hoteles tienen políticas de verificación muy estrictas para sus redes. Si ninguno de los métodos anteriores funciona, intente pedir al personal del hotel que agregue directamente la dirección MAC de su router, use la dirección MAC predeterminada de fábrica, no una aleatoria, a la lista blanca de la red del hotel.
 

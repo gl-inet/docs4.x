@@ -1,4 +1,4 @@
-# Wireless
+# Wireless {#wireless}
 
 The content on this page is based on firmware version v4.9 and above. If your device is running a different firmware version, use the selector below to switch to the corresponding guide.
 
@@ -14,7 +14,7 @@ On the left side of the web Admin Panel, go to **WIRELESS**.
 
 The Wireless page lets you configure various Wi-Fi networks, including MLO Wi-Fi (available on selected models), Main Network, Guest Network and IoT Network. The supported Wi-Fi bands vary by model.
 
-## Multi-Link Operation (MLO)
+## Multi-Link Operation (MLO) {#multi-link-operation-mlo}
 
 ??? "Supported Models"
     - GL-BE14000 (Flint 4)
@@ -70,7 +70,7 @@ Once enabled, the page appears as shown below.
 
 ![mlo3](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/mlo3.png){class="glboxshadow"}
 
-## Main Network
+## Main Network {#main-network}
 
 The Main Network is your primary Wi-Fi network, supporting simultaneous broadcasts across different radio bands, all enabled by default. You can configure separate settings for each band, such as the Wi-Fi SSID, security mode, password, randomized BSSID, TX power, bandwidth, and channel.
 
@@ -92,7 +92,7 @@ Click the gear icon on the right to view or modify Wi-Fi settings for each band.
 
     ![main 2.4g](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/main_2.4g.png){class="glboxshadow"}
 
-## Guest Network
+## Guest Network {#guest-network}
 
 The Guest Network is a dedicated Wi-Fi network for visitors, with all bands disabled by default. You can enable and configure basic network settings for each band, such as the Wi-Fi SSID, security mode, password, and enable randomized BSSID. 
 
@@ -108,7 +108,7 @@ Once enabled, the page appears as shown below.
 
 ![guest3](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/guest3.png){class="glboxshadow"}
 
-## IoT Network
+## IoT Network {#iot-network}
 
 The IoT Network is a dedicated Wi-Fi network for smart devices, with all bands disabled by default. You can enable and configure basic network settings for each band, such as the Wi-Fi SSID, security mode, password, and enable randomized BSSID.
 

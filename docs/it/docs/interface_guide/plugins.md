@@ -1,4 +1,4 @@
-# Plug-ins
+# Plug-ins {#plug-ins}
 
 Sul lato sinistro del pannello di amministrazione web, vai su **APPLICATIONS** -> **Plug-ins**.
 
@@ -8,7 +8,7 @@ Si consiglia di fare clic sul pulsante **Update** prima di usare plug-in di terz
 
 ![Plug-ins](https://static.gl-inet.com/docs/router/en/4/interface_guide/plug-ins/plug-ins.png){class="glboxshadow"}
 
-I plug-in di terze parti installati manualmente dagli utenti possono essere aggiornati; tuttavia GL.iNet non e' responsabile di eventuali problemi di sicurezza causati da plug-in di terze parti. Per domande, contatta gli autori del relativo plug-in di terze parti.
+I plug-in di terze parti installati manualmente dagli utenti possono essere aggiornati; tuttavia GL.iNet non è responsabile di eventuali problemi di sicurezza causati da plug-in di terze parti. Per domande, contatta gli autori del relativo plug-in di terze parti.
 
 ---
 

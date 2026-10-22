@@ -1,6 +1,6 @@
-# GoodCloud site à site
+# GoodCloud site à site {#goodcloud-site-to-site}
 
-## Présentation
+## Présentation {#introduction}
 
 La fonctionnalité **Site to Site** de GoodCloud permet à des bureaux situés à différents endroits d'établir des connexions sécurisées entre eux via Internet. Elle étend le réseau de l'entreprise afin de rendre les ressources informatiques d'un site accessibles aux employés d'autres sites du réseau.
 
@@ -12,7 +12,7 @@ La fonctionnalité **Site to Site** de GoodCloud permet à des bureaux situés �
 
 **Scénario 3** : pour les familles disposant de caméras IP, le site à site permet l'accès à distance à l'appareil lorsque les membres sont absents du domicile, pour une surveillance simple depuis n'importe où.
 
-## Conditions
+## Conditions {#conditions}
 
 1. Au moins deux routeurs GL.iNet sont nécessaires pour créer un réseau site à site.
 
@@ -22,9 +22,9 @@ La fonctionnalité **Site to Site** de GoodCloud permet à des bureaux situés �
 
 3. Il n'est **PAS** recommandé d'utiliser **Site to Site** pendant que les nœuds secondaires utilisent également un client VPN / Tailscale / ZeroTier / AstroWarp, car cela peut rendre la configuration réseau particulièrement complexe.
 
-## Créer un réseau site à site
+## Créer un réseau site à site {#build-a-site-to-site-network}
 
-1. Associez vos routeurs à votre compte GoodCloud. [Comment faire](../interface_guide/cloud.md/#setup-your-goodcloud-account) ?
+1. Liez vos routeurs à votre compte GoodCloud. Consultez [Lier des appareils au cloud](../interface_guide/cloud.md#bind-devices-to-cloud).
 
 2. Connectez-vous à [GoodCloud](https://www.goodcloud.xyz/#/login), puis accédez à **Site to Site** dans la barre latérale gauche. Cliquez sur **Create Network** en haut à droite.
 
@@ -72,13 +72,13 @@ La fonctionnalité **Site to Site** de GoodCloud permet à des bureaux situés �
 
     ![detail s2s](https://static.gl-inet.com/goodcloud/docs/detail-s2s-01.png){class="glboxshadow"}
 
-## Tester la connexion site à site
+## Tester la connexion site à site {#testing-the-site-to-site-connection}
 
 1. Connectez votre PC ou votre smartphone à l'un des nœuds de ce réseau site à site.
 
 2. Ouvrez un navigateur Web pour accéder à l'adresse IP LAN d'un autre nœud. Si vous pouvez accéder à la page de connexion, cela signifie que la connexion entre ces deux nœuds fonctionne.
 
-## Routes et autres options
+## Routes et autres options {#route-and-other-options}
 
 Par défaut, chaque nœud peut accéder au LAN des autres nœuds. Pour des raisons de sécurité, nous recommandons de n'ouvrir que les adresses IP des services spécifiques.
 

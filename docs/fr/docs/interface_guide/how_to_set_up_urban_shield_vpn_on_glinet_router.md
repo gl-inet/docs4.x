@@ -1,22 +1,22 @@
-# Comment configurer Urban Shield VPN sur un routeur GL.iNet
+# Comment configurer Urban Shield VPN sur un routeur GL.iNet {#how-to-set-up-urban-shield-vpn-on-glinet-router}
 
 [Urban Shield VPN](https://urbanshieldvpn.com/) est un fournisseur VPN dédié à des solutions VPN à la fois hautement sécurisées et performantes pour les utilisateurs du monde entier. Il propose des routeurs VPN GL.iNet préconfigurés ainsi que des formules d'abonnement flexibles, afin d'assurer une navigation sécurisée et privée. Il suffit d'activer Urban Shield VPN sur votre routeur pour bénéficier de l'accès à ses serveurs mondiaux et naviguer ou diffuser du contenu en toute tranquillité.
 
-## Guide de configuration
+## Guide de configuration {#setup-guide}
 
 L'exemple ci-dessous utilise un GL-B3000 pour activer Urban Shield VPN en le configurant comme client WireGuard. 
 
-### 1. Créer un compte Urban Shield VPN
+### 1. Créer un compte Urban Shield VPN {#1-sign-up-urban-shield-vpn}
 
 Rendez-vous sur le [site officiel d'Urban Shield VPN](https://urbanshieldvpn.com/){target="_blank"} pour créer un compte Urban Shield VPN.
 
 ![Urban Shield VPN signup](https://static.gl-inet.com/docs/router/en/4/interface_guide/setup_urban_shield_vpn/sign_in.png){class="glboxshadow"}
 
-### 2. Mise sous tension et connexion
+### 2. Mise sous tension et connexion {#2-power-on-router}
 
 Allumez votre routeur. Connectez ensuite un appareil au routeur à l'aide d'un câble Ethernet ou via le Wi-Fi.
 
-### 3. Accéder au panneau d'administration web
+### 3. Accéder au panneau d'administration web {#3-access-web-admin-panel}
 
 Suivez les étapes ci-dessous pour accéder au panneau d'administration web. Si vous êtes déjà connecté, passez à la [partie suivante](#4-network-setup).
 
@@ -36,7 +36,7 @@ Un **Network Setup Wizard** est disponible dans l'angle supérieur droit (à par
 
 ![network setup](https://static.gl-inet.com/docs/router/en/4/interface_guide/setup_urban_shield_vpn/network_setup_wizard.jpg){class="glboxshadow"}
 
-### 5. Activer Urban Shield VPN
+### 5. Activer Urban Shield VPN {#5-activate-urban-shield-vpn}
 
 Dans le menu de gauche, sélectionnez **VPN** -> **WireGuard Client**. Vous verrez alors la page de connexion Urban Shield VPN.
 
@@ -66,7 +66,7 @@ Vous pouvez également vérifier l'état de la connexion dans le VPN Dashboard.
 
 ![vpn dashboard](https://static.gl-inet.com/docs/router/en/4/interface_guide/setup_urban_shield_vpn/vpn_dashboard.png){class="glboxshadow"}
 
-## Modifier les informations du compte ou se déconnecter
+## Modifier les informations du compte ou se déconnecter {#edit-account-info-or-logout}
 
 Cliquez sur l'icône en forme d'engrenage pour modifier les informations du compte ou vous déconnecter.
 
@@ -74,13 +74,13 @@ Cliquez sur l'icône en forme d'engrenage pour modifier les informations du comp
 
 ![edit account or logout 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/setup_urban_shield_vpn/edit_account_or_logout_2.jpg){class="glboxshadow"}
 
-## Renouveler
+## Renouveler {#go-renew}
 
 Si vous cliquez sur **Go Renew**, vous serez redirigé vers le site officiel pour renouveler votre abonnement.
 
 ![go renew](https://static.gl-inet.com/docs/router/en/4/interface_guide/setup_urban_shield_vpn/go_renew.jpg){class="glboxshadow"}
 
-## Supprimer 
+## Supprimer {#delete}
 
 Vous pouvez supprimer tous les fichiers de configuration en un seul clic, ainsi que la clé privée et la clé publique.
 

@@ -1,10 +1,10 @@
-# Hilfe
+# Hilfe {#help}
 
 Klicken Sie im Web-Admin-Panel auf das Fragezeichen-Symbol auf der rechten Seite der Titelleiste.
 
 ![help](https://static.gl-inet.com/docs/router/de/4/interface_guide/help/help.png){class="glboxshadow"}
 
-Dort finden Sie die [Router Support Docs](https://docs.gl-inet.com/router/en/4){target="_blank"}.
+Dort finden Sie die [Router Support Docs](../index.md).
 
 Seit Firmware v4.8 können Sie den Tech Support mit nur einem Klick kontaktieren, wodurch es einfacher ist, Unterstützung zu erhalten.
 

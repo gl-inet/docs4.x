@@ -1,4 +1,4 @@
-# Cannot Scan Android 5G Hotspot
+# Cannot Scan Android 5G Hotspot {#cannot-scan-android-5g-hotspot}
 
 Connecting the GL.iNet router as a repeater to an Android phone's 5G hotspot is one of the common ways to access the Internet.
 

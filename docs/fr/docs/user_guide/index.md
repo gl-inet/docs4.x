@@ -1,6 +1,6 @@
-# Guide d'utilisation
+# Guide d'utilisation {#user-guide}
 
-### Routeur de voyage
+### Routeur de voyage {#travel-router}
 
 <div class="gl-product-row">
   <div class="gl-product-row-box">
@@ -71,7 +71,7 @@
   </div>
 </div>
 
-### Routeur cellulaire
+### Routeur cellulaire {#cellular-router}
 
 <div class="gl-product-row">
   <div class="gl-product-row-box">
@@ -134,7 +134,7 @@
   </div>
 </div>
 
-### Routeur domestique
+### Routeur domestique {#home-router}
 
 <div class="gl-product-row">
   <div class="gl-product-row-box">
@@ -190,7 +190,7 @@
   </div>
 </div>
 
-### Passerelle de sécurité et mini-routeurs
+### Passerelle de sécurité et mini-routeurs {#security-gateway-mini-routers}
 
 <div class="gl-product-row">
   <div class="gl-product-row-box">
@@ -225,7 +225,7 @@
   </div>
 </div>
 
-### Dongle USB 4G/5G
+### Dongle USB 4G/5G {#4g5g-usb-dongle}
 
 <div class="gl-product-row">
   <div class="gl-product-row-box">
@@ -238,7 +238,7 @@
   </div>
 </div>
 
-### Carte et module
+### Carte et module {#board-module}
 
 <div class="gl-product-row">
   <div class="gl-product-row-box">
@@ -251,7 +251,7 @@
   </div>
 </div>
 
-### Passerelle IoT
+### Passerelle IoT {#iot-gateway}
 
 <div class="gl-product-row">
   <div class="gl-product-row-box">
@@ -279,7 +279,7 @@
   </div>
 </div>
 
-### Anciens modèles
+### Anciens modèles {#legacy-models}
 
 <div class="gl-product-row">
   <div class="gl-product-row-box">

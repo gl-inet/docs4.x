@@ -1,16 +1,16 @@
-# Jak uzyskać dostęp do interfejsu LuCI przez GoodCloud
+# Jak uzyskać dostęp do interfejsu LuCI przez GoodCloud {#how-to-access-the-luci-interface-via-goodcloud}
 
 GL.iNet [GoodCloud](https://www.goodcloud.xyz/){target="_blank"} przełamuje ograniczenia geograficzne i zapewnia wygodny sposób zdalnego zarządzania routerem. Przez GoodCloud możesz uzyskać dostęp do interfejsu LuCI routera w dowolnym czasie i miejscu, wykonywać różne ustawienia na routerze i łatwo zarządzać siecią.
 
-## Przygotowanie
+## Przygotowanie {#preparation}
 
 - Sprzęt: Router GL.iNet skonfigurowany z dostępem do Internetu i działający normalnie.
 - Środowisko sieciowe: Sieć, do której podłączony jest router, jest stabilna i może normalnie uzyskać dostęp do Internetu.
-- Powiązanie urządzenia: Musisz [powiązać router GL.iNet z kontem GoodCloud](../interface_guide/cloud.md/#setup-your-goodcloud-account). Jeśli nie masz konta GoodCloud, [zarejestruj](https://www.goodcloud.xyz/){target="_blank"} je.
+- Powiązanie urządzenia: Musisz [powiązać router GL.iNet z kontem GoodCloud](../interface_guide/cloud.md#bind-devices-to-cloud). Jeśli nie masz konta GoodCloud, [zarejestruj](https://www.goodcloud.xyz/){target="_blank"} je.
 
-## Kroki dostępu do interfejsu LuCI przez GoodCloud
+## Kroki dostępu do interfejsu LuCI przez GoodCloud {#steps-to-access-the-luci-interface-via-goodcloud}
 
-### Dla firmware w wersji 4.7 lub nowszej
+### Dla firmware w wersji 4.7 lub nowszej {#for-firmware-version-47-or-above}
 
 Począwszy od v4.7, użytkownicy mogą bezpośrednio uzyskać dostęp do strony LuCI z platformy GoodCloud bez przechodzenia przez panel administratora routera.
 
@@ -32,7 +32,7 @@ Począwszy od v4.7, użytkownicy mogą bezpośrednio uzyskać dostęp do strony 
 
     ![luci interface](https://static.gl-inet.com/docs/router/en/4/tutorials/access_luci_via_goodcloud/log_in_luci_mt6000.png){class="glboxshadow"}    
 
-### Dla firmware w wersji 4.6 lub starszej
+### Dla firmware w wersji 4.6 lub starszej {#for-firmware-version-46-or-below}
 
 1. Zaloguj się do swojego konta GoodCloud [tutaj](https://www.goodcloud.xyz/){target="_blank"}.
 

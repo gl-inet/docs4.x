@@ -1,4 +1,4 @@
-# Network Mode
+# Network Mode {#network-mode}
 
 On the left side of the web Admin Panel, go to **NETWORK** -> **Network Mode**.
 
@@ -12,7 +12,7 @@ Network mode refers to the various operational roles and functions that a router
 
     3. **In Non-Router mode, the following features will be unavailable**: Access Control (Allowlist and Blocklist), AstroWarp, VPN, AdGuard Home, Parental Control, ZeroTier, Tailscale, Port Forwarding, Multi-WAN, DHCP Server, Address Reservation, Guest Network, DNS, Port Management, IPv6, Drop-in Gateway, IGMP Snooping, Network Acceleration, NAT Settings.
 
-## For models with Wi-Fi
+## For models with Wi-Fi {#for-models-with-wi-fi}
 
 Except for specific models, most GL.iNet wireless routers have Wi-Fi functionality.
 
@@ -56,7 +56,7 @@ Models with Wi-Fi functionality usually support four network modes: Router, Acce
 
     After switching to WDS mode, you will not be able to access the web admin panel using the original LAN IP address. Instead, you need to log in to the upstream router to find the IP address it has assigned to this WDS router, then use this IP address to access the web admin panel. If you do not have access to the upstream router, press and hold the reset button for 4 seconds to revert it to the default Router mode.
 
-## For models without Wi-Fi
+## For models without Wi-Fi {#for-models-without-wi-fi}
 
 Models lacking Wi-Fi functionality (e.g., GL-MT5000, GL-MT2500, and GL-MT2500A) do not support Access Point, Extender, or WDS modes; but they support Router mode and Bridge mode.
 

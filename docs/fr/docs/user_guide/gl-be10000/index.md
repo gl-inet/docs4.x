@@ -1,12 +1,12 @@
-# Guide d'utilisation du Slate 7 Pro (GL-BE10000)
+# Guide d'utilisation du Slate 7 Pro (GL-BE10000) {#slate-7-pro-gl-be10000-user-guide}
 
-## Aperçu du produit
+## Aperçu du produit {#product-overview}
 
 Le Slate 7 Pro (GL-BE10000) est un routeur de voyage portable tri-bande Wi‑Fi 7. Version améliorée du Slate 7 (GL-BE3600), il dispose d’un écran tactile plus grand sur le dessus et embarque 1 Go de RAM DDR4 ainsi que 512 Mo de stockage flash NAND pour des performances stables et une bonne compatibilité avec les plug-ins. Il offre des vitesses VPN élevées allant jusqu’à 1 100 Mbps avec WireGuard® et 1 000 Mbps avec OpenVPN-DCO. Avec 2 ports Ethernet 2,5G (1 WAN + 1 LAN), 1 port USB-C 3.0 et la prise en charge de l’alimentation PD, il garantit une connectivité solide et une utilisation pratique en déplacement.
 
 ![gl-be10000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/hardware/be10000_interface.png){class="glboxshadow"}
 
-## Contenu du colis
+## Contenu du colis {#package-contents}
 
 Le colis comprend :
 
@@ -24,7 +24,7 @@ Regardez ci-dessous la vidéo de déballage de Slate 7 Pro.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zNxb5gl2tfg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Écran tactile
+## Écran tactile {#touchscreen}
 
 | Affichage à l’écran | Description |
 | :------------------ | :---------- |
@@ -34,13 +34,13 @@ Regardez ci-dessous la vidéo de déballage de Slate 7 Pro.
 | ![home](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/home.png){width="400"} | Écran d’accueil<br>**Gauche** : heure système, vitesse du réseau et raccourcis vers Wi-Fi, Clients, VPN et d’autres fonctions.<br>**Droite** : quatre modes de connexion : Ethernet, Repeater, Tethering et Cellular |
 | ![internet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/internet.png){width="400"} | État du réseau<br>**Bleu** : actif / connecté à Internet<br>**Jaune** : connexion en cours / échec réseau<br>**Blanc** : connexion inactive |
 
-## Comment configurer le Slate 7 Pro
+## Comment configurer le Slate 7 Pro {#how-to-set-up-slate-7-pro}
 
-### 1. Mise sous tension
+### 1. Mise sous tension {#1-power-on}
 
 Assemblez les deux parties de l’adaptateur secteur. Connectez-le au routeur et branchez-le à une prise. Le routeur démarre automatiquement.
 
-### 2. Connecter un appareil
+### 2. Connecter un appareil {#2-connect-device}
 
 Connectez un appareil (par exemple un ordinateur, un ordinateur portable ou un smartphone) au routeur via Wi-Fi ou Ethernet.
 
@@ -52,11 +52,11 @@ Connectez un appareil (par exemple un ordinateur, un ordinateur portable ou un s
 
     Sur votre appareil, trouvez le nom du réseau Wi-Fi du routeur dans la liste des réseaux disponibles, puis saisissez le mot de passe pour rejoindre le réseau. Le nom de réseau (SSID) et le mot de passe par défaut sont indiqués sur l’étiquette du routeur.
 
-### 3. Se connecter au panneau d’administration web
+### 3. Se connecter au panneau d’administration web {#3-log-in-to-web-admin-panel}
 
 Ouvrez un navigateur web, saisissez `192.168.8.1` dans la barre d’adresse et connectez-vous. Choisissez une langue et définissez votre mot de passe administrateur, puis cliquez sur **Apply**.
 
-### 4. Configuration Internet
+### 4. Configuration Internet {#4-internet-setup}
 
 Configurez votre Slate 7 Pro avec l’une des méthodes de connexion Internet prises en charge : Ethernet, Repeater, Tethering et Cellular. Si vous souhaitez utiliser la fonction [Multi-WAN](../../interface_guide/multi-wan.md), configurez plusieurs connexions Internet.
 === "Ethernet"
@@ -98,7 +98,7 @@ Configurez votre Slate 7 Pro avec l’une des méthodes de connexion Internet pr
 
 Vous trouverez ci-dessous un aperçu des fonctionnalités du panneau d’administration web du Slate 7 Pro.
 
-## Réseau sans fil
+## Réseau sans fil {#wireless}
 
 La page Wireless permet de configurer les paramètres des réseaux Wi‑Fi 6 GHz, 5 GHz et 2,4 GHz, notamment l’activation du Wi‑Fi, le réglage de la puissance TX, le nom du réseau Wi‑Fi (SSID), l’activation d’un BSSID aléatoire, le choix du mode de sécurité Wi‑Fi et du mot de passe, la visibilité du SSID, ainsi que le mode Wi‑Fi, la bande passante et le canal.
 
@@ -106,13 +106,13 @@ En outre, le Slate 7 Pro prend en charge le Wi‑Fi MLO (Multi-Link Operation), 
 
 Pour configurer le Wi‑Fi, consultez [Wireless](../../interface_guide/wireless.md).
 
-## Clients
+## Clients {#clients}
 
 La page Clients affiche les informations sur les appareils connectés. Pour chaque client, elle indique le nom, les adresses IP et MAC, les vitesses de téléchargement et d’envoi, le trafic total, et permet également de bloquer le client ou d’effectuer d’autres actions.
 
 Pour configurer les Clients, consultez [Clients](../../interface_guide/clients.md).
 
-## Services Cloud
+## Services Cloud {#cloud-services}
 
 === "GoodCloud"
 
@@ -126,7 +126,7 @@ Pour configurer les Clients, consultez [Clients](../../interface_guide/clients.m
     
     Pour configurer AstroWarp, consultez [AstroWarp](../../interface_guide/astrowarp.md).
 
-## VPN
+## VPN {#vpn}
 
 Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre votre appareil et le serveur VPN. Il ajoute une couche supplémentaire de confidentialité et de sécurité (client VPN) et vous permet d’accéder à un réseau distant (serveur VPN). Le Slate 7 Pro prend en charge OpenVPN et WireGuard.
 
@@ -144,7 +144,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
     * [Comment configurer un client WireGuard](../../interface_guide/wireguard_client.md)
     * [Comment configurer un serveur WireGuard](../../interface_guide/wireguard_server.md)
 
-## Réseau
+## Réseau {#network}
 
 === "Multi-WAN"
 
@@ -213,7 +213,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
     
     Pour configurer l’accélération réseau, consultez [Accélération réseau](../../interface_guide/network_acceleration.md).
 
-## Contrôle du flux
+## Contrôle du flux {#flow-control}
 
 === "DPI Engine"
 
@@ -255,7 +255,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     Veuillez consulter [SQM](../../interface_guide/sqm.md) pour des instructions détaillées.
 
-## Sécurité
+## Sécurité {#security}
 
 === "Redirection de port"
 
@@ -279,7 +279,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     Pour configurer les paramètres NAT, consultez [NAT Mode](../../interface_guide/nat_settings.md).
 
-## Applications
+## Applications {#applications}
 
 === "Plug-ins"
 
@@ -325,7 +325,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
     
     Pour plus de détails, consultez [Tor](../../interface_guide/tor.md).
 
-## Système
+## Système {#system}
 
 === "Vue d’ensemble"
 
@@ -422,6 +422,6 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     Veuillez consulter [Paramètres avancés](../../interface_guide/advanced_settings.md) pour des instructions détaillées.
 
-## Déclaration UE de conformité
+## Déclaration UE de conformité {#declaration-of-conformity}
 
 Par la présente, GL TECHNOLOGIES (HONG KONG) LIMITED déclare que l'équipement radio de type [BE10000 Wi-Fi 7 Router, GL-BE10000] est conforme aux exigences essentielles et aux autres dispositions pertinentes de la directive 2014/53/UE. Le texte complet de la déclaration UE de conformité est disponible à l'adresse internet suivante: [https://www.gl-inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}.

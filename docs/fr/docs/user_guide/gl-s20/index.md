@@ -1,10 +1,10 @@
-# Guide d'utilisation du GL-S20
+# Guide d'utilisation du GL-S20 {#gl-s20-user-guide}
 
-## Informations matérielles
+## Informations matérielles {#hardware-info}
 
 [Spécifications du GL-S20](https://www.gl-inet.com/products/gl-s20/#specs){target="_blank"}
 
-## Liste des GPIO
+## Liste des GPIO {#gpio-list}
 
 | Désignation GPIO ESP32-WROOM-32U | SIGNAL         | FONCTION                                                    |
 | -------------------------------- | -------------- | ----------------------------------------------------------- |
@@ -39,13 +39,13 @@
 | GPIO41                           | PTA_PRIORITY   | utilisé pour PTA                                            |
 | GPIO42                           | PTA_GRANT      | utilisé pour PTA                                            |
 | GPIO43                           | UART0 TX       | utilisé pour la sortie du port série de débogage            |
-| GPIO44                           | UART0 RX       | utilisé pour la sortie du port série de débogage            |
+| GPIO44                           | UART0 RX       | utilisé pour l’entrée du port série de débogage |
 | GPIO45                           | PTA_TX_LINE    | utilisé pour PTA                                            |
 | GPIO46                           | GPIO46         | NC                                                          |
 | GPIO47                           | UART1 CTS      | utilisé pour se connecter au RTS uart0 de h2                |
 | GPIO48                           | UART1 TX       | utilisé pour se connecter au RX uart0 de h2                 |
 
-## Brochage du PCB
+## Brochage du PCB {#pcb-pinout}
 
 <div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
   <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
@@ -57,18 +57,18 @@
 
 ---
 
-## Configuration initiale
+## Configuration initiale {#first-time-setup}
 
 Veuillez consulter [GL-S20](https://docs.gl-inet.com/iot/en/thread_board_router/gl-s20/){target="_blank"} dans la documentation IoT.
 
 ---
 
-## Manuel de l'utilisateur
+## Manuel de l'utilisateur {#user-manual}
 
 Veuillez consulter le [manuel de l'utilisateur](https://docs.gl-inet.com/iot/en/thread_board_router/gl-s20/user_manual/){target="_blank"} dans la documentation IoT.
 
 ---
 
-## Guide de compilation du firmware
+## Guide de compilation du firmware {#firmware-compilation-guide}
 
 Veuillez consulter le [guide de compilation du firmware](https://docs.gl-inet.com/iot/en/thread_board_router/gl-s20/user_manual/gl-s20-tbr_firmware_compilation_guide/){target="_blank"} dans la documentation IoT.

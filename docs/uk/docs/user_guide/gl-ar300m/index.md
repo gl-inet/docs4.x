@@ -4,7 +4,7 @@
 
 Shadow (серія GL-AR300M) — компактний міні-маршрутизатор, зручний для перенесення й подорожей, із підтримкою швидкості бездротового передавання до 300Mbps. Shadow має розширені функції безпеки, зокрема підтримку OpenVPN, WireGuard® і сервера DNS. Він дає змогу перетворити публічну мережу на приватну мережу Wi-Fi для захищеного перегляду вебсторінок. Ви також можете завантажувати файли конфігурації від понад 30 постачальників VPN і налаштувати пристрій як клієнт VPN. Це забезпечує додатковий рівень приватності та безпеки, шифруючи трафік між вашим пристроєм і сервером VPN.
 
-![Ілюстрація ar300m](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar300m/product_info/mt300n_v2_overview.png){class="glboxshadow"}
+![Огляд ar300m](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar300m/product_info/overview.png){class="glboxshadow"}
 
 ## Налаштування Shadow {#how-to-set-up-shadow}
 

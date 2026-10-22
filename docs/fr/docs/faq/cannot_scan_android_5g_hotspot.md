@@ -1,4 +1,4 @@
-# Impossible de détecter le point d'accès 5G d'Android
+# Impossible de détecter le point d'accès 5G d'Android {#cannot-scan-android-5g-hotspot}
 
 Connecter le routeur GL.iNet comme répéteur au point d'accès 5G d'un téléphone Android est l'une des méthodes courantes pour accéder à Internet.
 

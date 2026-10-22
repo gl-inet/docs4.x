@@ -1,4 +1,4 @@
-# Port Ethernet
+# Port Ethernet {#ethernet-port}
 
 Treść tej strony dotyczy wersji firmware v4.7–v4.9. Jeśli urządzenie używa innej wersji firmware, użyj poniższego selektora, aby przejść do odpowiedniego przewodnika.
 
@@ -14,11 +14,11 @@ Po lewej stronie webowego panelu administracyjnego przejdź do **NETWORK** -> **
 
 Ta strona umożliwia zarządzanie rolami portów Ethernet (WAN/LAN) oraz wyświetlanie szczegółów portów, takich jak adres MAC i wynegocjowana prędkość.
 
-## WAN
+## WAN {#wan}
 
 Ta sekcja wyświetla rolę portu (WAN lub LAN), adres MAC oraz wynegocjowaną prędkość.
 
-![wan](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/wan.png){class="glboxshadow"}
+![wan](https://static.gl-inet.com/docs/router/en/4/interface_guide/ethernet_port/wan.png){class="glboxshadow"}
 
 - **WAN/LAN**: Bieżący tryb pracy fizycznego portu WAN. W razie potrzeby możesz ustawić go jako LAN.
 
@@ -28,7 +28,7 @@ Ta sekcja wyświetla rolę portu (WAN lub LAN), adres MAC oraz wynegocjowaną pr
 
 - **Negotiated Network Port Rate**: Wynegocjowana prędkość łącza interfejsu WAN. Jest wyświetlana tylko wtedy, gdy wykryto prawidłowe połączenie.
 
-## LAN
+## LAN {#lan}
 
 Ta sekcja wyświetla wynegocjowaną prędkość portu LAN. Jest ona widoczna tylko wtedy, gdy wykryto prawidłowe połączenie.
 
@@ -36,7 +36,7 @@ Ta sekcja wyświetla wynegocjowaną prędkość portu LAN. Jest ona widoczna tyl
 
 Niektóre modele obsługują przełączenie LAN 1 na port WAN w scenariuszu Dual-Ethernet WAN. Szczegóły znajdziesz w sekcji [Dual-Ethernet WAN](#dual-ethernet-wan).
 
-## Dual-Ethernet WAN
+## Dual-Ethernet WAN {#dual-ethernet-wan}
 
 Funkcja Dual-Ethernet WAN pozwala przełączyć domyślny port Ethernet LAN na dodatkowy port WAN, aby korzystać z podwójnego dostępu do Internetu przez Ethernet. Zapewnia to niezawodne łącze zapasowe i obsługuje agregację przepustowości (jeśli jest obsługiwana) w zastosowaniach wymagających dużej przepustowości. Pozwala też jednocześnie połączyć się z dwiema niezależnymi sieciami, np. służbową i prywatną, zwiększając elastyczność bez dodatkowego sprzętu.
 
@@ -51,7 +51,7 @@ Funkcja Dual-Ethernet WAN pozwala przełączyć domyślny port Ethernet LAN na d
     - GL-BE9300 (Flint 3)
     - GL-BE3600 (Slate 7)
     - GL-X2000 (Spitz Plus)
-    - GL-MT6000 (Flint2)
+    - GL-MT6000 (Flint 2)
     - GL-X3000 (Spitz AX)
     - GL-XE3000 (Puli AX)
 

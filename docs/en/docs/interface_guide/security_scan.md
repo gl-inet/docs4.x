@@ -1,4 +1,4 @@
-# Security Scan
+# Security Scan {#security-scan}
 
 **Note**: This feature was introduced in firmware v4.11.
 

@@ -1,36 +1,36 @@
-# クライアントデバイスで固定IPを手動設定する方法
+# クライアントデバイスで固定IPを手動設定する方法 {#how-to-manually-configure-static-ip-on-the-client-devices}
 
 === "Windows 11"
 
-    Windows 11 では、設定アプリから無線および有線アダプターの固定IPアドレス設定を行えます。
+    Windows 11では、無線および有線アダプターに固定IPアドレスを設定できます。
 
     **Wi-Fiアダプターで固定IPアドレスを設定する**
 
-    Wi-Fiアダプターに固定IPアドレス設定を割り当てるには、以下の手順を実行します。
+    1. Windows 11のPCで、**Settings** -> **Network & internet** -> **Wi-Fi**と進み、現在接続中のWi-Fi接続を選択します。
 
-    1. Windows 11 の Settings を開き、Network & Internet -> Wi-Fi タブ -> 現在接続中のネットワーク接続を選択します。
-
-    2. 「IP settings」セクションで Edit ボタンをクリックします。
+    2. **IP assignment**を見つけ、**Edit**ボタンをクリックします。
 
         ![Windows 11 edit IP address](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/Windows_11_edit_IP_address.png){class="glboxshadow"}
 
-    3. 以下の手順で設定します。
+    3. ポップアップウィンドウで**Manual**を選択し、**IPv4**を有効にします。
+
+        ![IPの手動設定](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/manual.jpg){class="glboxshadow"}
+
+    4. 以下の手順でIP設定を編集します。
 
         ![Settings_app_set_static_IP_address](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/Settings_app_set_static_IP_address.png){class="glboxshadow"}
 
-        - Manual を選択し、IPv4 のトグルスイッチをオンにします。
+        - IP address: 固定IPアドレスを設定します。例: `10.1.4.119`。
 
-        - Windows 11 に固定IPアドレスを設定します。例: 10.1.4.119。
+        - Subnet mask: サブネットマスクを指定します。例: `255.255.255.0`。
 
-        - サブネットマスクを指定します。例: 255.255.255.0。
+        - Gateway: ゲートウェイアドレスを入力します。通常は同じサブネットにあるルーターのLAN IPアドレスです。たとえば、IPアドレスが`10.1.4.119`の場合、ゲートウェイは通常`10.1.4.1`です。
 
-        - Default Gateway アドレスを指定します。
+        - Preferred DNS: 優先DNSアドレスを指定します（必須）。GoogleのDNSサーバー`8.8.8.8`などのパブリックDNSサーバーを指定できます。
 
-        - Preferred DNS アドレスを指定します（必須）。
+        - Alternate DNS: 代替DNSアドレスを指定します（任意）。
 
-        - （任意）「Alternate DNS」アドレスを指定します。
-
-        - 「DNS over HTTPS」ドロップダウンメニューで、Preferred DNS と Alternate DNS の両方に対して Off を選択します。必要に応じて、以下のオプションで DoH を有効にすることもできます。
+        - DNS over HTTPS: "Off"を選択します。次の3つのオプションがあります。
 
             - Off: すべてのDNSトラフィックを暗号化せず送信します。
 
@@ -38,161 +38,138 @@
 
             - On (manual template): 特定のテンプレートを指定できます。DNSサービスが自動で動作しない場合や、想定どおりに動作するテンプレートがある場合にのみ必要です。
 
-        - 「Fallback to plaintext」トグルスイッチをオフにします（DoHを有効にした場合）。
+        - DNS over HTTPSを有効にする場合は、"Fallback to plaintext"トグルスイッチをオフにします。
 
-            - Quick tip: この機能を有効にすると、システムはDNSトラフィックを暗号化しますが、暗号化なしのクエリ送信も許可します。
+            **ヒント**: この機能を有効にすると、システムはDNSトラフィックを暗号化しますが、暗号化なしのクエリ送信も許可します。
 
-    4. Save ボタンをクリックします。
+    5. **Save**をクリックして設定を適用します。
 
         手順が完了すると、固定ネットワーク設定がコンピューターに適用されます。Webブラウザを開いてWebサイトを表示し、新しい設定をテストできます。
 
+    ---
 
-    ## **Ethernetアダプターで固定IPアドレスを設定する**
+    **Ethernetアダプターで固定IPアドレスを設定する**
 
-    Windows 11 の Ethernet（有線）アダプターに固定IPアドレスを割り当てるには、以下の手順を実行します。
+    1. Windows 11のPCで、**Settings** -> **Network & internet** -> **Ethernet**と進みます。
 
-    1. Settings -> Network & Internet -> Ethernet タブを開きます。
-
-    2. 「IP settings」セクションで Edit ボタンをクリックします。
+    2. **IP assignment**を見つけ、**Edit**ボタンをクリックします。
 
         ![Edit_TCP/IP_Ethernet_settings](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/Edit_TCP_IP_Ethernet_settings.png){class="glboxshadow"}
 
-    3. 以下の手順で設定します。
+    3. ポップアップウィンドウで**Manual**を選択し、**IPv4**を有効にします。
+
+        ![IPの手動設定](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/manual.jpg){class="glboxshadow"}
+
+    4. 以下の手順でIP設定を編集します。
 
         ![Settings_app_set_static_IP_address](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/Settings_app_set_static_IP_address.png){class="glboxshadow"}
 
-        - Manual を選択します。
+        - IP address: 固定IPアドレスを設定します。例: `10.1.4.119`。
 
-        - IPv4 のトグルスイッチをオンにします。
+        - Subnet mask: サブネットマスクを指定します。例: `255.255.255.0`。
 
-        - Windows 11 に固定IPアドレスを設定します。例: 10.1.4.119。
+        - Gateway: ゲートウェイアドレスを入力します。通常は同じサブネットにあるルーターのLAN IPアドレスです。たとえば、IPアドレスが`10.1.4.119`の場合、ゲートウェイは通常`10.1.4.1`です。
 
-        - サブネットマスクを指定します。例: 255.255.255.0。
+        - Preferred DNS: 優先DNSアドレスを指定します（必須）。GoogleのDNSサーバー`8.8.8.8`などのパブリックDNSサーバーを指定できます。
 
-        - Default Gateway アドレスを指定します。
+        - Alternate DNS: 代替DNSアドレスを指定します（任意）。
 
-        - Preferred DNS アドレスを指定します（必須）。
+        - DNS over HTTPS: "Off"を選択します。次の3つのオプションがあります。
 
-        - （任意）「Alternate DNS」アドレスを指定します。
+            - Off: すべてのDNSトラフィックを暗号化せず送信します。
 
-        - 「DNS over HTTPS」ドロップダウンメニューで、Preferred DNS と Alternate DNS の両方に対して Off を選択します。必要に応じて、以下のオプションで DoH を有効にできます。
+            - On (automatic template): すべてのDNSトラフィックを暗号化して送信します。
 
-            * Off: すべてのDNSトラフィックを暗号化せず送信します。
+            - On (manual template): 特定のテンプレートを指定できます。DNSサービスが自動で動作しない場合や、想定どおりに動作するテンプレートがある場合にのみ必要です。
 
-            * On (automatic template): すべてのDNSトラフィックを暗号化して送信します。
+        - DNS over HTTPSを有効にする場合は、"Fallback to plaintext"トグルスイッチをオフにします。
 
-            * On (manual template): 特定のテンプレートを指定できます。DNSサービスが自動で動作しない場合や、想定どおりに動作するテンプレートがある場合にのみ必要です。
+            **ヒント**: この機能を有効にすると、システムはDNSトラフィックを暗号化しますが、暗号化なしのクエリ送信も許可します。
 
-        - 「Fallback to plaintext」トグルスイッチをオフにします（DoHを有効にした場合）。
+    5. **Save**をクリックして設定を適用します。
 
-    4. Save ボタンをクリックします。
-
-        手順が完了したら、WebブラウザでWebサイトを開いて設定をテストできます。
-
+        手順が完了すると、固定ネットワーク設定がコンピューターに適用されます。Webブラウザを開いてWebサイトを表示し、新しい設定をテストできます。
 
 === "macOS"
 
     macOSで固定IPアドレスを設定する方法は次のとおりです。
 
-    MacBookを使用している場合は、新しいネットワークロケーションを作成しておくと便利です。これにより、特定のネットワークでのみ固定IPアドレスを使い、他のネットワークでは使わない設定ができます。
+    Appleメニューから**System Preferences**を選択します。
 
-    Appleメニューから System Preferences を選択します。
-
-    Network を選択します。以下のようなウィンドウが表示されます。
+    **Network**を選択すると、以下のページが表示されます。サイドバーから、**Wi-Fi**などの有効なネットワークインターフェースを選択します。
 
     ![Mac_network_settings](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/Mac_network_settings.png){class="glboxshadow"}
 
-    サイドバーから有効なネットワークインターフェースを選択します。この例では無線ネットワークに接続しているため、Wi-Fi を選択します。
+    Macに現在割り当てられているIPアドレスを控えておきます。表示されているプライベートIPアドレス範囲内から、新しいIPアドレスを選ぶ必要があります。
 
-    Mac に現在割り当てられているIPアドレスを控えておきます。このあと、表示されているプライベートIPアドレス範囲内から新しいIPアドレスを選ぶ必要があります。詳細は次の手順で説明します。
+    右下の**Advanced**をクリックします。
 
-    Advanced をクリックします。
-
-    TCP/IP を選択します。以下のようなウィンドウが表示されます。
+    次に**TCP/IP**を選択すると、以下のページが表示されます。
 
     ![Mac_Wi-Fi_settings](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/Mac_Wi-Fi_settings.png){class="glboxshadow"}
 
-    Configure IPv4 メニューから Manually を選択します。
+    - Configure IPv4: "Manually"を選択します。
 
-    IPv4 Addressフィールドに固定IPアドレスを入力します。現在のIPアドレスの末尾を変更する方法があります。192.168.7.0/24ネットワークでは、192.168.7.1から192.168.7.254までの未使用のホストアドレスを選択してください。ネットワークアドレスやブロードキャストアドレスは使用しないでください。
+    - IPv4 Address: 固定IPアドレスを入力します。現在のIPアドレスの最初の3オクテットをそのままにし、最後のオクテットを未使用の値に変更します。たとえば、`192.168.7.0/24`ネットワークでは、`192.168.7.2`から`192.168.7.254`までの未使用のアドレスを選択します（ルーターのアドレスである`.1`は避けてください）。`192.168.7.0`と`192.168.7.255`は使用しないでください。
 
-    OK -> Apply をクリックします。
+    - Subnet Mask: `255.255.255.0`（またはネットワーク管理者が指定したサブネットマスク）を入力します。
 
+    - Router: ルーターのLAN IPアドレスを入力します。例: `192.168.7.1`。
+
+    **OK**をクリックし、次に**Apply**をクリックします。
+
+=== "iOS"
+
+    手順はiOSのバージョンによって異なる場合があります。以下の手順はiOS 26.2.2を基準にしています。
+
+    1. **Settings** -> **WLAN**と進みます。現在接続しているWi-Fiネットワークの横にある青い情報アイコン（i）をタップします。
+
+        ![iOSの固定IP設定](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/ios1.png){class="glboxshadow" width="360"}
+
+    2. 下にスクロールして**IPv4 Address**を見つけ、**Configure IP**を**Manual**に設定します。
+
+        ![iOSの固定IP設定](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/ios2.png){class="glboxshadow" width="360"}
+
+    3. iPhone/iPadで使用する**IP Address**、**Subnet Mask**、**Router IP**を指定し、右上の**Save**をタップします。
+
+        ![iOSの固定IP設定](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/ios3.png){class="glboxshadow" width="360"}
 
 === "Android"
 
-    手順はAndroidのバージョンによって異なります。このドキュメントは Android 11 を基準にしています。
+    手順はAndroidのバージョンによって異なる場合があります。以下の手順はAndroid 11を基準にしています。
 
-    1. Settings -> Network & Internet -> Wi-Fi と進み、現在接続しているネットワークをタップして設定メニューを開きます。
+    1. **Settings** -> **Network & Internet** -> **Wi-Fi**と進みます。現在接続しているネットワークをタップして設定メニューを開きます。
 
-    ![list_available_networks](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/list_available_networks.png){class="gl-50-desktop"}
-    {class="glboxshadow"}
+        ![list_available_networks](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/list_available_networks.png){class="gl-50-desktop"}
+        {class="glboxshadow"}
 
-    2. 固定IPアドレスを設定するには、以下を実行します。
-
-    - 右上の鉛筆アイコンを選択してネットワーク設定にアクセスします。
+    2. 右上の鉛筆アイコンをタップしてネットワーク設定にアクセスします。
 
         ![pencil_icon](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/pencil_icon.png){class="gl-50-desktop"}
         {class="glboxshadow"}
 
-    - Advanced Options を選択します。
+    3. **Advanced options**をタップします。
 
         ![advanced_options](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/advanced_options.png){class="gl-50-desktop"}
         {class="glboxshadow"}
 
-    - IP Settings を選択します。
-
-    - 設定を DHCP から Static に変更します。
+    4. **IP Settings**をタップし、**Static**を選択します。
 
         ![DHCP_to_Static](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/DHCP_to_Static.png){class="gl-50-desktop"}
         {class="glboxshadow"}
 
-    - 自宅やその他のプライベートネットワークで固定IPアドレスを使う場合は、現在のサブネット内で未使用のホストアドレスを選択してください。標準的なプライベートIPアドレスの範囲は次のとおりです: 10.0.0.0 ～ 10.255.255.255、172.16.0.0 ～ 172.31.255.255、192.168.0.0 ～ 192.168.255.255
+    5. **IP address**を入力します。**Gateway**はIPアドレスに基づいて自動的に入力されます。入力されない場合は、ネットワークのゲートウェイを入力してください。ゲートウェイは通常、同じサブネットにあるルーターのLAN IPアドレスです。
 
-    - ここでIPアドレスを入力します。
-        - この手順はネットワークごとに異なります。例: 192.168.1.128
+        **ヒント**: 自宅やその他のプライベートネットワークで固定IPアドレスを使う場合は、現在のサブネット内で未使用のホストアドレスを選択してください。標準的なプライベートIPアドレスの範囲は次のとおりです。
 
-    - ゲートウェイはIPアドレスに基づいて自動的に入力されます。入力されない場合は、ネットワークのゲートウェイのIPアドレスを入力してください。
-        - 例: ルーターのIPアドレスが192.168.1.1の場合は、192.168.1.1と入力します。
+        ```
+        10.0.0.0 ~ 10.255.255.255
+        172.16.0.0 ~ 172.31.255.255
+        192.168.0.0 ~ 192.168.255.255
+        ```
 
-    3. Save をタップし、ネットワークが再接続されるのを待ちます。
-
-=== "iOS"
-
-    自宅やその他のプライベートネットワークで固定IPアドレスを使う場合は、現在のサブネット内で未使用のホストアドレスを選択してください。標準的なプライベートIPアドレスの範囲は次のとおりです:
-
-    10.0.0.0 ～ 10.255.255.255
-    172.16.0.0 ～ 172.31.255.255
-    192.168.0.0 ～ 192.168.255.255
-
-    固定IPアドレスを設定するには、以下を実行します。
-
-    - Settings アイコンをタップします。
-
-    - Wi-Fi に移動します。
-
-    - Wi-Fiネットワーク名の横にある青い情報アイコン (i) をタップします。
-         - iOS 7 より古いバージョンでは、青いエラーアイコンの場合があります。
-
-    - 以下のように Static タブへ移動します。
-
-
-    ![IP_Settings_Screen_iOS](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/IP_Settings_Screen_iOS.png){class="glboxshadow"}
-
-    - IP Address フィールドをタップします。
-
-    - iPhone/iPad で使用したい固定IPアドレスを入力します。
-
-    - Router フィールドをタップします。
-
-    - ルーターのIPアドレスを入力します。
-
-    - Subnet Mask をタップして情報を入力します。
-
-        - 接続しているネットワークのサブネットマスクを使用してください。
-
-    - 画面左上の Wi-Fi ボタンをタップして設定を保存します。
+    6. **Save**をタップし、ネットワークが再接続されるのを待ちます。
 
 ---
 
-ご不明な点がありましたら、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}をご覧いただくか、[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

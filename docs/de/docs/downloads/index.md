@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-# Benutzerhandbuch
+# Benutzerhandbuch {#user-manual}
 
 Diese Seite enthält derzeit PDF-Handbücher nur für ausgewählte Modelle. Weitere Modellanleitungen werden regelmäßig hinzugefügt.
 

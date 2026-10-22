@@ -1,4 +1,4 @@
-# Tailscale
+# Tailscale {#tailscale}
 
 Tailscale ist ein VPN-Dienst, mit dem die Geräte und Anwendungen, die Ihnen gehören, überall auf der Welt sicher und mühelos erreichbar werden. Weitere Informationen zu Tailscale finden Sie auf der [offiziellen Tailscale-Website](https://tailscale.com/){target="_blank"}.
 
@@ -12,7 +12,7 @@ Die Tailscale-Funktion auf GL.iNet-Routern, verfügbar seit Firmware V4.2, ermö
 
 3. Einige Modelle unterstützen Tailscale trotz Firmware v4.2 oder höher aufgrund unzureichenden Arbeitsspeichers nicht.
 
-## Unterstützte Modelle
+## Unterstützte Modelle {#supported-models}
 
 ??? "Unterstützte Modelle"
     - GL-MT6000 (Fortify)
@@ -50,7 +50,7 @@ Die Tailscale-Funktion auf GL.iNet-Routern, verfügbar seit Firmware V4.2, ermö
     - GL-S1300 (Convexa-S)
     - GL-X300B (Collie)
 
-## Tailscale-Netzwerk einrichten
+## Tailscale-Netzwerk einrichten {#set-up-tailscale-network}
 
 Im folgenden Beispiel wird der GL-MT2500 verwendet.
 
@@ -104,7 +104,7 @@ Im folgenden Beispiel wird der GL-MT2500 verwendet.
 
         ![web admin panel](https://static.gl-inet.com/docs/router/de/4/interface_guide/tailscale/web_admin_panel.png){class="glboxshadow gl-80-desktop"}
 
-## Fernzugriff auf WAN erlauben
+## Fernzugriff auf WAN erlauben {#allow-remote-access-wan}
 
 > Diese Funktion wurde in Firmware v4.9 und höher in **Advertise WAN Subnets** umbenannt.
 
@@ -136,7 +136,7 @@ Die Schritte sind wie folgt.
 
     ![tailscale access axt1800](https://static.gl-inet.com/docs/router/de/4/interface_guide/tailscale/tailscale_access_axt1800.jpg){class="glboxshadow gl-50-desktop"}
 
-## Fernzugriff auf LAN erlauben
+## Fernzugriff auf LAN erlauben {#allow-remote-access-lan}
 
 > Diese Funktion wurde in Firmware v4.9 und höher in **Advertise LAN Subnets** umbenannt.
 
@@ -168,7 +168,7 @@ Die Schritte sind wie folgt.
 
     ![tailscale access ubuntu](https://static.gl-inet.com/docs/router/de/4/interface_guide/tailscale/tailscale_access_ubuntu.png){class="glboxshadow gl-80-desktop"}
 
-## Benutzerdefinierte Exit Nodes
+## Benutzerdefinierte Exit Nodes {#custom-exit-nodes}
 
 Standardmäßig arbeitet Tailscale als Overlay-Netzwerk: Es leitet nur Datenverkehr zwischen Geräten weiter, auf denen Tailscale ausgeführt wird, und verarbeitet keinen öffentlichen Internetverkehr, etwa beim Aufrufen von Websites wie Google.
 
@@ -224,7 +224,7 @@ Im folgenden Beispiel befinden sich ein GL.iNet-Router **GL-MT2500** und ein **L
 
     Aktivieren Sie zur Behebung die Subnetzrouten des Routers in der Tailscale Admin Console wie in **Schritt 1** oben beschrieben.
 
-## Run Exit Node
+## Run Exit Node {#run-exit-node}
 
 > Diese Funktion wurde mit Firmware v4.9 eingeführt.
 

@@ -1,10 +1,10 @@
-# Akceleracja sieci
+# Akceleracja sieci {#network-acceleration}
 
 Akceleracja sieci zmniejsza obciążenie procesora i przyspiesza przekazywanie pakietów ruchu sieciowego, jednak może kolidować z niektórymi funkcjami.
 
 Po włączeniu akceleracji sieci następujące funkcje przestają działać prawidłowo: Statystyki prędkości i ruchu klienta, Limit prędkości klienta.
 
-## Obsługiwane modele
+## Obsługiwane modele {#supported-models}
 
 ??? "Obsługiwane modele"
     - GL-MT6000 (Fortify)
@@ -40,7 +40,7 @@ Po włączeniu akceleracji sieci następujące funkcje przestają działać praw
     - GL-B1300 (Convexa-B)
     - GL-X300B (Collie)
 
-## Konfiguracja
+## Konfiguracja {#setup}
 
 W lewym panelu administratora przejdź do **NETWORK** -> **Network Acceleration**.
 

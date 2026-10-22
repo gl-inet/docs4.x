@@ -1,4 +1,4 @@
-# HAFTUNGSAUSSCHLUSS FÜR DEN FERNZUGRIFF
+# HAFTUNGSAUSSCHLUSS FÜR DEN FERNZUGRIFF {#remote-support-disclaimer}
 
 Sehr geehrte Nutzerin, sehr geehrter Nutzer,
 
@@ -10,7 +10,7 @@ Bevor eine Fernverbindung hergestellt wird, lesen Sie diese Erklärung bitte sor
 
 Wenn Sie mit den Bedingungen dieses Haftungsausschlusses nicht einverstanden sind, wird kein Fernzugriff eingeleitet. Indem Sie der Fernverbindung zustimmen, bestätigen Sie, dass Sie diese Bedingungen vollständig verstanden haben und akzeptieren.
 
-## I. Zweck der Fernverbindung
+## I. Zweck der Fernverbindung {#i-purpose-of-remote-connection}
 
 Wir verwenden die Fernverbindung ausschließlich, um Sie bei der Lösung technischer Probleme im Zusammenhang mit Produkten und Dienstleistungen von GL.iNet zu unterstützen, einschließlich, aber nicht beschränkt auf:
 
@@ -20,7 +20,7 @@ Wir verwenden die Fernverbindung ausschließlich, um Sie bei der Lösung technis
 
 Wir verpflichten uns, keine persönlichen oder privaten Daten, Dateien oder sonstigen Daten einzusehen, zu erfassen, zu speichern oder weiterzugeben, die nicht mit dem technischen Support für Produkte und Dienstleistungen von GL.iNet zusammenhängen. Ebenso installieren wir keine Software ohne Ihre Zustimmung.
 
-## II. Umfang der Autorisierung
+## II. Umfang der Autorisierung {#ii-authorized-scope}
 
 Zur Erleichterung der Fehlerbehebung autorisieren Sie uns zu Folgendem:
 
@@ -36,7 +36,7 @@ Zur Erleichterung der Fehlerbehebung autorisieren Sie uns zu Folgendem:
 
     Nach der Nutzung unseres Supports über AnyDesk kann AnyDesk Betriebsprotokolle speichern. Weitere Informationen finden Sie in der [Datenschutzerklärung von AnyDesk](https://anydesk.com.cn/en/privacy){target="blank"}.
 
-## III. Rechte und Pflichten der Nutzer
+## III. Rechte und Pflichten der Nutzer {#iii-user-rights-and-obligations}
 
 1. **Recht auf Überwachung und Beendigung**
 
@@ -54,7 +54,7 @@ Zur Erleichterung der Fehlerbehebung autorisieren Sie uns zu Folgendem:
 
     Sie dürfen uns nicht auffordern, Probleme zu bearbeiten oder zu lösen, die über den autorisierten Umfang hinausgehen oder nicht mit unseren Produkten oder Dienstleistungen zusammenhängen.
 
-## IV. Haftungsausschluss
+## IV. Haftungsausschluss {#iv-disclaimer}
 
 GL.iNet und seine Mitarbeitenden im technischen Support haften nicht für die folgenden Situationen:
 
@@ -82,11 +82,11 @@ GL.iNet und seine Mitarbeitenden im technischen Support haften nicht für die fo
 
     Sie verstehen und akzeptieren, dass die Fernverbindung lediglich eine unterstützende Methode zur Fehlerbehebung ist. GL.iNet garantiert weder die Lösung aller technischen Probleme noch, dass alle Ihre Anforderungen erfüllt werden.
 
-## V. Streitbeilegung
+## V. Streitbeilegung {#v-dispute-resolution}
 
 Für das Zustandekommen, die Gültigkeit, die Erfüllung und die Auslegung dieser Erklärung sowie für alle damit zusammenhängenden Streitigkeiten gilt das Recht von Hongkong, China (unter Ausschluss kollisionsrechtlicher Bestimmungen). Im Falle von Streitigkeiten zwischen Ihnen und uns werden beide Parteien zunächst versuchen, diese durch freundschaftliche Verhandlungen beizulegen. Scheitern die Verhandlungen, erklären Sie sich damit einverstanden, die Streitigkeit der Gerichtsbarkeit der Gerichte von Hongkong, China zu unterwerfen.
 
-## VI. Sonstiges
+## VI. Sonstiges {#vi-other}
 
 1. GL.iNet behält sich das Recht vor, diesen Haftungsausschluss entsprechend den tatsächlichen Umständen zu ändern und solche Änderungen ohne gesonderte Benachrichtigung auf seiner offiziellen Website zu veröffentlichen.
 

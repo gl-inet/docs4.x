@@ -1,12 +1,12 @@
-# Przewodnik użytkownika Flint (GL-AX1800)
+# Przewodnik użytkownika Flint (GL-AX1800) {#flint-gl-ax1800-user-guide}
 
-## Omówienie produktu
+## Omówienie produktu {#product-overview}
 
 Flint (GL-AX1800) to dwuzakresowy router Wi-Fi 6 z prędkością połączenia do 600 Mbps (2,4 GHz) + 1200 Mbps (5 GHz). Prędkość szyfrowania VPN sięga 667 Mbps, a urządzenie może działać jako serwer VPN. Flint idealnie sprawdza się przy intensywnym przesyłaniu danych, jednoczesnym podłączeniu wielu urządzeń oraz grach wymagających ultraniskich opóźnień.
 
 ![gl-ax1800 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/hardware_info/gl-ax1800_interface.jpg){class="glboxshadow"}
 
-## Zawartość opakowania
+## Zawartość opakowania {#package-contents}
 
 - 1 x Flint (GL-AX1800)
 - 1 x instrukcja obsługi
@@ -18,18 +18,18 @@ Flint (GL-AX1800) to dwuzakresowy router Wi-Fi 6 z prędkością połączenia do
 
 ![gl-ax1800 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/first_time_setup/ax1800_unboxing.jpg){class="glboxshadow"}
 
-## Jak skonfigurować Flint
+## Jak skonfigurować Flint {#how-to-set-up-flint}
 
 Obejrzyj ten film konfiguracyjny lub wykonaj poniższe kroki.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZAVn92F5RV8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <small>(W tym filmie do prezentacji konfiguracji użyto innego routera GL.iNet, ale kroki są takie same dla Flint i pozostałych modeli.)</small>
 
-### 1. Włączenie zasilania
+### 1. Włączenie zasilania {#1-power-on}
 
 Złóż dwuczęściowy zasilacz. Podłącz go do routera i włóż do gniazdka elektrycznego. Urządzenie uruchomi się automatycznie.
 
-### 2. Podłączenie urządzenia
+### 2. Podłączenie urządzenia {#2-connect-device}
 
 Połącz urządzenie (np. komputer, laptop lub smartfon) z routerem przez Wi-Fi albo Ethernet.
 
@@ -41,13 +41,13 @@ Połącz urządzenie (np. komputer, laptop lub smartfon) z routerem przez Wi-Fi 
 
     Na urządzeniu przejdź do Settings -> WLAN, znajdź nazwę sieci Wi-Fi routera na liście dostępnych sieci i wpisz hasło. Domyślną nazwę sieci i hasło znajdziesz na etykiecie na spodzie routera.
 
-### 3. Logowanie do panelu administracyjnego
+### 3. Logowanie do panelu administracyjnego {#3-log-in-to-web-admin-panel}
 
 Otwórz przeglądarkę internetową, wpisz `192.168.8.1` w pasku adresu i zaloguj się. Wybierz język i ustaw hasło administratora, a następnie kliknij **Apply**.
 
 Podczas potwierdzania ustawień Wi‑Fi pamiętaj, że jeśli zmienisz dane sieci Wi‑Fi, konieczne będzie ponowne połączenie urządzenia z siecią routera przy użyciu zaktualizowanych danych logowania.
 
-### 4. Konfiguracja połączenia z Internetem
+### 4. Konfiguracja połączenia z Internetem {#4-internet-setup}
 
 **Uwaga:** Poniższe instrukcje dotyczą użytkowników konfigurujących router za pomocą panelu GL.iNet Web Admin Panel. Jeśli wolisz użyć aplikacji GL.iNet, [pobierz aplikację](https://www.gl-inet.com/app/){target="_blank"} i postępuj zgodnie z instrukcjami wyświetlanymi na ekranie.
 
@@ -97,7 +97,7 @@ Skonfiguruj Flint, korzystając z jednej z obsługiwanych metod połączenia z I
 
     Szczegółowe instrukcje znajdziesz w [Połącz z Internetem przez sieć komórkową](../../interface_guide/internet_cellular.md).
 
-## Jak skonfigurować VPN
+## Jak skonfigurować VPN {#how-to-set-up-a-vpn}
 
 Sieć VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie między urządzeniem a serwerem VPN. Zapewnia dodatkową warstwę prywatności i bezpieczeństwa (klient VPN) oraz umożliwia dostęp do sieci zdalnej (serwer VPN). Flint obsługuje OpenVPN, WireGuard i Tor.
 
@@ -119,9 +119,9 @@ Sieć VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie 
 
     Tor, czyli The Onion Router, to sieć nastawiona na ochronę prywatności, która umożliwia anonimową komunikację w Internecie. Kieruje ruch internetowy przez serię serwerów (węzłów) obsługiwanych przez wolontariuszy, aby ukryć lokalizację i sposób korzystania z sieci przez użytkownika, co utrudnia śledzenie aktywności online.
     
-    *[Jak skonfigurować Tor](../../interface_guide/tor.md).
+    * [Jak skonfigurować Tor](../../interface_guide/tor.md).
 
-## Sieć bezprzewodowa i klienci
+## Sieć bezprzewodowa i klienci {#wireless-and-clients}
 
 === "Wireless"
 
@@ -135,7 +135,7 @@ Sieć VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie 
 
     Aby skonfigurować Clients, zapoznaj się z [Clients](../../interface_guide/clients.md).
 
-## Usługi chmurowe
+## Usługi chmurowe {#cloud-services}
 
 === "GoodCloud"
 
@@ -149,7 +149,7 @@ Sieć VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie 
 
     Aby skonfigurować AstroWarp, zapoznaj się z [AstroWarp](../../interface_guide/astrowarp.md).
 
-## Aplikacje
+## Aplikacje {#applications}
 
 === "Plug-ins"
 
@@ -195,7 +195,7 @@ Sieć VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie 
     
     Aby skonfigurować Tailscale, zapoznaj się z [Tailscale](../../interface_guide/tailscale.md). 
 
-## Ustawienia sieciowe
+## Ustawienia sieciowe {#network-settings}
 
 === "Port forwarding"
 
@@ -269,7 +269,7 @@ Sieć VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie 
 
     Aby skonfigurować ustawienia NAT, zapoznaj się z [NAT Settings](../../interface_guide/nat_settings.md).
 
-## Ustawienia systemowe
+## Ustawienia systemowe {#system-settings}
 
 === "Overview"
 

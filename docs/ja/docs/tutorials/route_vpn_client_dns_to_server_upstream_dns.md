@@ -1,8 +1,8 @@
-# VPNクライアントのDNSクエリをVPNサーバー上流のDNSへルーティングする方法
+# VPNクライアントのDNSクエリをVPNサーバー上流のDNSへルーティングする方法 {#how-to-route-vpn-client-dns-queries-to-the-vpn-servers-upstream-dns}
 
-このチュートリアルでは、VPNクライアントからのすべてのDNSクエリを、VPNサーバーの上流側であるプライマリルーターのLAN側に設置した自前のDNS Serverへ転送する手順を紹介します。
+このチュートリアルでは、VPNクライアントからのすべてのDNSクエリを、VPNサーバーの上流側であるプライマリルーターのLAN側に設置した自前のDNSサーバーへ転送する手順を紹介します。
 
-## トポロジー
+## トポロジー {#topology}
 
 このチュートリアルでは、**Flint 3 (GL-BE9300)** と **Slate 7 (GL-BE3600)** を例として使用します。
 
@@ -12,13 +12,13 @@ VPNサーバーとクライアントの間にVPNトンネルが確立される�
 
 ![topology 1](https://static.gl-inet.com/docs/router/en/4/tutorials/route_vpn_dns_to_server_upstream_dns/topology-1.jpg){class="glboxshadow"}
 
-しかし、プライマリルーター側に自前のDNS Server（IPアドレス `192.168.1.13`）を構築している場合は、DNSクエリをそのDNS Serverへ送るために追加設定が必要です。
+しかし、プライマリルーター側に自前のDNSサーバー（IPアドレス `192.168.1.13`）を構築している場合は、DNSクエリをそのDNSサーバーへ送るために追加設定が必要です。
 
 ![topology 2](https://static.gl-inet.com/docs/router/en/4/tutorials/route_vpn_dns_to_server_upstream_dns/topology-2.jpg){class="glboxshadow"}
 
-## 設定
+## 設定 {#setup}
 
-1. Flint 3 のWeb管理パネルにログインし、**NETWORK** -> **DNS** に移動します。DNS Server Mode を **Manual DNS** に切り替え、DNS Server のIPアドレスを入力します。
+1. Flint 3 のWeb管理パネルにログインし、**NETWORK** -> **DNS** に移動します。DNSサーバー Mode を **Manual DNS** に切り替え、DNSサーバー のIPアドレスを入力します。
 
     ![manual dns](https://static.gl-inet.com/docs/router/en/4/tutorials/route_vpn_dns_to_server_upstream_dns/manual_dns.png){class="glboxshadow"}
 
@@ -30,7 +30,7 @@ VPNサーバーとクライアントの間にVPNトンネルが確立される�
 
     ![add profile](https://static.gl-inet.com/docs/router/en/4/tutorials/route_vpn_dns_to_server_upstream_dns/add_profile.png){class="glboxshadow"}
 
-4. プロファイルを開き、DNS が Step 2 で取得した VPN Server IP address になっていることを確認します。
+4. プロファイルを開き、DNS が手順 2 で確認した VPN サーバーの IP アドレスになっていることを確認します。
 
     DNS解決に失敗しないよう、もし "64.6.64.6" が含まれていれば削除し、変更を保存してください。
 
@@ -50,16 +50,16 @@ VPNサーバーとクライアントの間にVPNトンネルが確立される�
 
     ![start client](https://static.gl-inet.com/docs/router/en/4/tutorials/route_vpn_dns_to_server_upstream_dns/start_client.png){class="glboxshadow"}
 
-## DNS解決を確認する
+## DNS解決を確認する {#verify-dns-resolution}
 
 VPNクライアントで次のコマンドを実行してDNSトラフィックをキャプチャします。これにより、VPNクライアントのDNSトラフィックがすべてVPNサーバー（この例では `10.0.0.1`）へ送られていることがわかります。
 
 ![client dns traffic](https://static.gl-inet.com/docs/router/en/4/tutorials/route_vpn_dns_to_server_upstream_dns/client_dns_traffic.png){class="glboxshadow"}
 
-VPNサーバーで次のコマンドを実行してDNSトラフィックをキャプチャします。これにより、VPNクライアントのDNSトラフィックが最終的に自前のDNS Server（この例では `192.168.1.13`）へ送られていることがわかります。
+VPNサーバーで次のコマンドを実行してDNSトラフィックをキャプチャします。これにより、VPNクライアントのDNSトラフィックが最終的に自前のDNSサーバー（この例では `192.168.1.13`）へ送られていることがわかります。
 
 ![server dns traffic](https://static.gl-inet.com/docs/router/en/4/tutorials/route_vpn_dns_to_server_upstream_dns/server_dns_traffic.png){class="glboxshadow"}
 
 ---
 
-ご不明な点がありましたら、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}をご覧いただくか、[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

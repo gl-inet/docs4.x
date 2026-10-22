@@ -1,4 +1,4 @@
-# UI言語
+# UI言語 {#ui-languages}
 
 この機能はファームウェア v4.6 以降で追加されました。
 
@@ -6,7 +6,7 @@
 
 右上の言語ボタンをクリックすると、UI 言語の切り替えや追加ができます。
 
-追加の UI 言語を追加したり、UI テキストを更新したりするには、**Add Languages** をクリックします。
+UI 言語を追加したり、UI テキストを更新したりするには、**Add Languages** をクリックします。
 
 ![languages list](https://static.gl-inet.com/docs/router/en/4/interface_guide/ui_languages/add_languages.jpg){class="glboxshadow"}
 
@@ -18,4 +18,4 @@
 
 ---
 
-ご不明な点がありましたら、[Community Forum](https://forum.gl-inet.com){target="_blank"} または [Contact us](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

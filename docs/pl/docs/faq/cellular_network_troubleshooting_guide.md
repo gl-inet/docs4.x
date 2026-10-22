@@ -1,4 +1,4 @@
-# Przewodnik rozwiązywania problemów z siecią komórkową
+# Przewodnik rozwiązywania problemów z siecią komórkową {#cellular-network-troubleshooting-guide}
 
 Jeśli nie możesz nawiązać połączenia komórkowego, sprawdź poniższe kwestie.
 
@@ -10,7 +10,7 @@ Jeśli nie możesz nawiązać połączenia komórkowego, sprawdź poniższe kwes
 
     ![modem name](https://static.gl-inet.com/docs/router/en/4/faq/cellular_troubleshoot/no_sim.png){class="glboxshadow"}
     
-    W firmware ver.4.8 i nowszym kliknij **View More Information**, aby znaleźć **SIM ICCID**.
+    W firmware v4.8 i nowszym kliknij **View More Information**, aby znaleźć **SIM ICCID**.
 
     Jeśli nie możesz ich znaleźć, uruchom router ponownie. Jeśli nazwa modemu i IMEI nadal nie są wykrywane, skontaktuj się z nami pod adresem [support@gl-inet.com](mailto:support@gl-inet.com).
     
@@ -30,13 +30,13 @@ Jeśli nie możesz nawiązać połączenia komórkowego, sprawdź poniższe kwes
     
     **2.2** Niektórzy operatorzy mogą wymagać użycia protokołu 3G do nawiązania połączenia. Przełącz na protokół 3G i sprawdź ponownie.
 
-    W firmware ver.4.7 i starszym przejdź do **Manual Setup** -> **Protocol**, wybierz **3G**, a następnie kliknij **Apply**.
+    W firmware v4.7 i starszym przejdź do **Manual Setup** -> **Protocol**, wybierz **3G**, a następnie kliknij **Apply**.
     
     ![](https://static.gl-inet.com/docs/router/en/4/faq/cellular_troubleshoot/3.png){class="glboxshadow gl-90-desktop"}
     
     ![](https://static.gl-inet.com/docs/router/en/4/faq/cellular_troubleshoot/4.png){class="glboxshadow gl-90-desktop"}
 
-    W firmware ver.4.8 i nowszym przejdź do **SIM Card Settings** -> **Protocol**, wybierz **3G**, a następnie kliknij **Apply**.
+    W firmware v4.8 i nowszym przejdź do **SIM Card Settings** -> **Protocol**, wybierz **3G**, a następnie kliknij **Apply**.
 
     ![](https://static.gl-inet.com/docs/router/en/4/faq/cellular_troubleshoot/sim_settings_protocol.png){class="glboxshadow gl-90-desktop"}
 
@@ -46,9 +46,9 @@ Jeśli nie możesz nawiązać połączenia komórkowego, sprawdź poniższe kwes
 
     ![](https://static.gl-inet.com/docs/router/en/4/faq/cellular_troubleshoot/sim_settings_apn.png){class="glboxshadow gl-90-desktop"}
     
-    **2.4** Włącz **Band Masking** i sprawdź ponownie. W przypadku firmware ver.4.7 i starszego zobacz [ten link](../interface_guide/internet_cellular_v4.7.md/#band-masking). W przypadku firmware ver.4.8 i nowszego zobacz [ten link](../interface_guide/internet_cellular.md/#band-masking).
+    **2.4** Włącz **Band Masking** i sprawdź ponownie. W przypadku firmware v4.7 i starszego zobacz [ten link](../interface_guide/internet_cellular_v4.7.md#band-masking). W przypadku firmware v4.8 i nowszego zobacz [ten link](../interface_guide/internet_cellular.md#band-masking).
 
-    **2.5** Zablokuj lub odblokuj stację bazową i sprawdź ponownie. Ta funkcja jest dostępna tylko w GL-X3000 (Spitz AX), GL-XE3000 (Puli AX) i GL-X2000 (Spitz Plus). Kliknij [tutaj](../interface_guide/internet_cellular.md/#lock-tower), aby uzyskać więcej instrukcji.
+    **2.5** Zablokuj lub odblokuj stację bazową i sprawdź ponownie. Ta funkcja jest dostępna tylko w GL-X3000 (Spitz AX), GL-XE3000 (Puli AX) i GL-X2000 (Spitz Plus). Kliknij [tutaj](../interface_guide/internet_cellular.md#lock-tower), aby uzyskać więcej instrukcji.
     
     Zablokowanie konkretnej stacji bazowej pozwala routerowi korzystać z wysokiej jakości zasobów sieciowych i utrzymywać stabilne połączenie komórkowe.
     

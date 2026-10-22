@@ -1,4 +1,4 @@
-# Parental Control
+# Parental Control {#parental-control}
 
 **Note**: This guide applies to firmware v4.8 and earlier. For newer versions, please click [here](parental_control_v4.9.md).
 
@@ -14,11 +14,11 @@ Watch this video or follow the steps below to set up Parental Control on GL.iNet
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pOyDwQRc3io" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Local Version
+## Local Version {#local-version}
 
 The local version is provided by GL.iNet. It is currently in beta and has no additional cost. In this version, if you need to filter requests by application, you need to enter the domain manually.
 
-### Supported Models
+### Supported Models {#supported-models}
 
 ??? "Supported Models"
     - GL-MT6000 (Fortify)
@@ -55,7 +55,7 @@ The local version is provided by GL.iNet. It is currently in beta and has no add
     - GL-AP1300 (Cirrus)
     - GL-X300B (Collie)
 
-### Setup Steps
+### Setup Steps {#setup-steps}
 
 Log in to the router's web Admin Panel and go to **APPLICATIONS** -> **Parental Control**.
 
@@ -150,7 +150,7 @@ Follow the steps below to set up Parental Control.
 
     ![final configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_16_final_config.png){class="glboxshadow"}
 
-### Troubleshooting
+### Troubleshooting {#troubleshooting}
 
 If your configured settings fail to take effect, check the following possible causes.
 
@@ -168,7 +168,7 @@ If your configured settings fail to take effect, check the following possible ca
 
 4. The target device uses a randomized MAC address for each network connection, which prevents access rules from taking effect. Disable random MAC address on the target device, then re-add the device to your profile.
 
-## Bark Version
+## Bark Version {#bark-version}
 
 This guide applies to firmware v4.8 and earlier. For newer versions, please click [here](bark.md).
 
@@ -180,7 +180,7 @@ The [Bark](https://www.bark.us/){target="_blank"} service can help protect your 
 
 2. The two Parental Control versions cannot be enabled at the same time. Enabling one will automatically disable the other.
 
-### Supported Models
+### Supported Models {#supported-models_1}
 
 ??? "Supported Models"
     - GL-BE6500 (Flint 3e)
@@ -213,7 +213,7 @@ The [Bark](https://www.bark.us/){target="_blank"} service can help protect your 
     - GL-AP1300 (Cirrus)
     - GL-X300B (Collie)
 
-### Setup Steps
+### Setup Steps {#setup-steps_1}
 
 Log in to the router's web admin panel, and navigate to **APPLICATIONS** -> **Parental Control**. Select the Bark version.
 

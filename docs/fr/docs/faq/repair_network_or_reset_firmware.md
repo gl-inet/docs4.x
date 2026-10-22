@@ -1,4 +1,4 @@
-# Comment réparer le réseau ou réinitialiser aux paramètres d'usine ?
+# Comment réparer le réseau ou réinitialiser aux paramètres d'usine ? {#how-to-repair-network-or-factory-reset}
 
 Tous les routeurs GL.iNet sont équipés d'un mécanisme physique de réinitialisation (soit un bouton Reset, soit un trou de réinitialisation). Appuyer sur le bouton ou utiliser le trou de réinitialisation produit le même effet : restaurer la connectivité réseau ou réinitialiser le routeur à ses paramètres d'usine.
 
@@ -6,7 +6,7 @@ Pour les modèles avec un trou de réinitialisation, utilisez une épingle, un t
 
 Assurez-vous que le routeur a complètement démarré avant d'effectuer une réinitialisation. **N'appuyez PAS** sur le bouton Reset immédiatement après la mise sous tension, car cela peut déclencher le mode failsafe U-Boot.
 
-## Réparer le réseau
+## Réparer le réseau {#repair-network}
 
 Maintenez le bouton Reset enfoncé pendant **4 secondes**, puis relâchez-le pour effectuer une réinitialisation logicielle, ce qui peut réparer votre réseau.
 

@@ -1,4 +1,4 @@
-# Cellular Network Troubleshooting Guide
+# Cellular Network Troubleshooting Guide {#cellular-network-troubleshooting-guide}
 
 If you cannot establish a cellular connection, please check for the following issues.
 
@@ -10,7 +10,7 @@ If you cannot establish a cellular connection, please check for the following is
 
     ![modem name](https://static.gl-inet.com/docs/router/en/4/faq/cellular_troubleshoot/no_sim.png){class="glboxshadow"}
     
-    For firmware ver.4.8 and later, click **View More Information** to find the SIM ICCID.
+    For firmware v4.8 and later, click **View More Information** to find the SIM ICCID.
 
     If you cannot find them, restart your router. If the modem name and IMEI still cannot be recognized, please contact us at [support@gl-inet.com](mailto:support@gl-inet.com).
     
@@ -30,13 +30,13 @@ If you cannot establish a cellular connection, please check for the following is
     
     **2.2** Some network carriers may require the **3G protocol** to connect. Switch to 3G protocol and test again.
 
-    For firmware ver.4.7 and earlier, go to **Manual Setup** -> **Protocol**, select **3G**, then click **Apply**.
+    For firmware v4.7 and earlier, go to **Manual Setup** -> **Protocol**, select **3G**, then click **Apply**.
     
     ![](https://static.gl-inet.com/docs/router/en/4/faq/cellular_troubleshoot/3.png){class="glboxshadow gl-90-desktop"}
     
     ![](https://static.gl-inet.com/docs/router/en/4/faq/cellular_troubleshoot/4.png){class="glboxshadow gl-90-desktop"}
 
-    For firmware ver.4.8 and later, go to **SIM Card Settings** -> **Protocol**, select **3G**, then click **Apply**.
+    For firmware v4.8 and later, go to **SIM Card Settings** -> **Protocol**, select **3G**, then click **Apply**.
 
     ![](https://static.gl-inet.com/docs/router/en/4/faq/cellular_troubleshoot/sim_settings_protocol.png){class="glboxshadow gl-90-desktop"}
 
@@ -46,7 +46,7 @@ If you cannot establish a cellular connection, please check for the following is
 
     ![](https://static.gl-inet.com/docs/router/en/4/faq/cellular_troubleshoot/sim_settings_apn.png){class="glboxshadow gl-90-desktop"}
     
-    **2.4** Enable **Band Masking** and test again. For firmware ver.4.7 and earlier, refer to [this link](../interface_guide/internet_cellular_v4.7.md#band-masking). For firmware ver.4.8 and later, refer to [this link](../interface_guide/internet_cellular.md#band-masking).
+    **2.4** Enable **Band Masking** and test again. For firmware v4.7 and earlier, refer to [this link](../interface_guide/internet_cellular_v4.7.md#band-masking). For firmware v4.8 and later, refer to [this link](../interface_guide/internet_cellular.md#band-masking).
 
     **2.5** Lock or unlock a signal tower and test again. This feature is available on GL-E5800 (Mudi 7), GL-X3000 (Spitz AX), GL-XE3000 (Puli AX), and GL-X2000 (Spitz Plus). Note that the GL-X2000 (Spitz Plus) supports this feature on firmware v4.7 and above. Click [here](../interface_guide/internet_cellular.md#lock-tower) for more instructions. 
 

@@ -1,4 +1,4 @@
-# Data Statistics
+# Data Statistics {#data-statistics}
 
 **Note**: This feature was introduced in firmware v4.9. 
 
@@ -16,7 +16,7 @@ Data Statistics provides an intuitive traffic dashboard that identifies network 
 2. Data Statistics cannot work with Network Acceleration. Enabling Data Statistics will automatically disable Network Acceleration to ensure stable performance.
 3. Data Statistics only tracks traffic usage for devices listed on the Client page. If a device connects to the router via a tunnel interface (e.g., VPN Client, Tailscale, or AstroWarp), traffic originating from that device and forwarded through the router is excluded from these statistics.
 
-## Supported Models
+## Supported Models {#supported-models}
 
 ??? "Supported Models"
     - GL-MT6000 (Fortify)
@@ -54,7 +54,7 @@ Data Statistics provides an intuitive traffic dashboard that identifies network 
     - GL-AP1300 (Cirrus)
     - GL-S1300 (Convexa-S)
 
-## For firmware v4.11 and above
+## For firmware v4.11 and above {#for-firmware-v411-and-above}
 
 Toggle the switch in the upper right corner to view the **Application Total Data**.
 
@@ -74,7 +74,7 @@ This page consists of two parts:
 
     ![app traffic stat](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/app_traffic_stat.png){class="glboxshadow"}
 
-### Data Storage Rules
+### Data Storage Rules {#data-storage-rules}
 
 1. Traffic statistics are saved to RAM every 15 seconds and stored in flash every 1 hour. Frequent flash writes are avoided to protect flash memory lifespan.
 
@@ -82,7 +82,7 @@ This page consists of two parts:
 
 3. A hard reboot (unplugging and replugging the power) or a firmware upgrade (retaining settings) may result in data loss of up to the most recent hour.
 
-### Client Selector
+### Client Selector {#client-selector}
 
 The Client Selector lets you select a specific client or keep the default All clients. The chart and statistics table will automatically refresh to display traffic data only for the selected device.
 
@@ -90,7 +90,7 @@ The Client Selector lets you select a specific client or keep the default All cl
 
 ![client selector](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/client_selector.png){class="glboxshadow"}
 
-### Switch Chart Views
+### Switch Chart Views {#switch-chart-views}
 
 You can switch the chart type as needed when viewing the App Traffic Statistics.
 
@@ -110,7 +110,7 @@ You can switch the chart type as needed when viewing the App Traffic Statistics.
 
     ![pie chart](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/pie_chart.png){class="glboxshadow"}
 
-### Switch Time Range
+### Switch Time Range {#switch-time-range}
 
 You can switch the time range between Past hour, Past day, and Past week as needed.
 
@@ -126,7 +126,7 @@ The time range you choose determines how the data is displayed:
 
     ![past week](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/past-week.png){class="glboxshadow"}
 
-### Clear Statistics
+### Clear Statistics {#clear-statistics}
 
 Click the broom icon in the upper left corner to clear statistics as needed.
 
@@ -136,7 +136,7 @@ After clearing, the page will update as shown below. You may need to wait a mome
 
 ![clear data 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/clear_data_2.png){class="glboxshadow"}
 
-## For firmware v4.9 to v4.10
+## For firmware v4.9 to v4.10 {#for-firmware-v49-to-v410}
 
 Toggle the switch in the upper right corner to view the **Application Total Data**.
 
@@ -156,7 +156,7 @@ This page consists of two parts:
 
     ![app traffic stat](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/app_traffic_stat1.png){class="glboxshadow"}
 
-### Data Storage Rules
+### Data Storage Rules {#data-storage-rules_1}
 
 1. Traffic statistics are saved to RAM every 15 seconds and stored in flash every 1 hour. Frequent flash writes are avoided to protect flash memory lifespan.
 
@@ -164,7 +164,7 @@ This page consists of two parts:
 
 3. A hard reboot (unplugging and replugging the power) or a firmware upgrade (retaining settings) may result in data loss of up to the most recent hour.
 
-### Switch Time Range
+### Switch Time Range {#switch-time-range_1}
 
 You can switch the time range between Past hour, Past day, and Past week as needed.
 
@@ -180,7 +180,7 @@ The time range you choose determines how the data is displayed:
 
     ![past week](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/past_week.png){class="glboxshadow"}
 
-### Clear Statistics
+### Clear Statistics {#clear-statistics_1}
 
 Click the broom icon in the upper left corner to clear statistics as needed.
 

@@ -1,4 +1,4 @@
-# Guía de activación de ExpressVPN
+# Guía de activación de ExpressVPN {#expressvpn-activation-guide}
 
 **Nota:** Esta guía solo se aplica al router de marca compartida de GL.iNet y ExpressVPN **Fortify (GL-MT6000)**.
 
@@ -6,11 +6,11 @@
 
 [ExpressVPN](https://www.expressvpn.com/){target="_blank"} es uno de los servicios VPN premium líderes en el mundo diseñado para proteger su privacidad en línea, asegurar su conexión a Internet y permitir la transmisión segura desde cualquier lugar. Ofrece velocidades ultrarrápidas, cifrado de nivel militar y acceso a servidores en más de 100 países. Ya sea que desee transmitir, navegar de forma privada o proteger sus datos en una red Wi-Fi pública, ExpressVPN le brinda una experiencia rápida y segura.
 
-**Fortify (GL-MT6000)** es un enrutador de marca compartida lanzado conjuntamente por GL.iNet y ExpressVPN. Cada unidad viene con una suscripción gratuita a ExpressVPN por un año. Los usuarios pueden canjear la suscripción y conectar sus cuentas directamente en el Panel de administración web del enrutador. Una vez activado, todo el tráfico que pase a través del enrutador aprovechará la red de alta velocidad y el cifrado sólido de ExpressVPN para proteger toda su conexión de red y su privacidad en línea.
+**Fortify (GL-MT6000)** es un enrutador de marca compartida lanzado conjuntamente por GL.iNet y ExpressVPN. Cada unidad viene con una suscripción gratuita a ExpressVPN por un año. Los usuarios pueden canjear la suscripción y conectar sus cuentas directamente en el Panel de administración web del enrutador. Cuando se conecta un túnel ExpressVPN, el enrutador cifra y dirige el tráfico a través de ese túnel según la configuración de sus políticas VPN.
 
 Esta guía lo guía para canjear el plan ExpressVPN de 12 meses dentro del Panel de administración web del enrutador. También cubre la personalización de políticas de VPN según sus escenarios y requisitos de uso, ayudándolo a disfrutar sin esfuerzo de una conectividad a Internet cifrada, segura y de alta velocidad.
 
-## Canjear el plan ExpressVPN
+## Canjear el plan ExpressVPN {#redeem-expressvpn-plan}
 
 Inicie sesión en el panel de administración web de Fortify y navegue hasta **VPN** -> **VPN Client Profile**.
 
@@ -40,7 +40,7 @@ Tu plan ha sido activado. Regrese al Panel de administración web de su enrutado
 
 ![expressvpn checkout2](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/expressvpn_checkout2.png){class="glboxshadow"}
 
-## Inicie sesión en ExpressVPN
+## Inicie sesión en ExpressVPN {#log-in-to-expressvpn}
 
 En el panel de administración web de Fortify, vaya a **VPN** -> **VPN Client Profile**.
 
@@ -78,9 +78,9 @@ Ahora puedes agregar túneles VPN y configurar políticas VPN según tus necesid
 
 ![expressvpn dashboard](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/expressvpn_dashboard.png){class="glboxshadow"}
 
-## Agregar túnel VPN
+## Agregar túnel VPN {#add-vpn-tunnel}
 
-### Pasos generales
+### Pasos generales {#general-steps}
 
 Siga los pasos a continuación para agregar su túnel VPN y configurar políticas VPN. Consulte la [Referencia del caso](#case-reference) si es necesario.
 
@@ -275,11 +275,13 @@ A continuación se muestran dos casos típicos de configuración de políticas V
 
         Ahora, todos los dispositivos usarán **VPN Tunnel 1** al acceder a dominios específicos y usarán **VPN Tunnel 2** para todo el acceso restante a Internet. Si los túneles VPN se desconectan inesperadamente, se bloqueará el acceso a Internet de todos los dispositivos para evitar fugas de DNS y seguimiento de IP.
 
-## Kill Switch
+## Kill Switch {#kill-switch}
 
-Kill Switch es una característica de seguridad para conexiones VPN. Corta automáticamente todo el acceso a Internet para su red local si la conexión VPN se cae inesperadamente, evitando que su dirección IP real y sus datos en línea queden expuestos y garantizando privacidad y seguridad continuas. Esta función es particularmente útil para mantener un acceso a Internet seguro y anónimo, como cuando se utilizan redes públicas, se procesan datos confidenciales o se oculta su dirección IP real.
+El Kill Switch de VPN ayuda a evitar que el tráfico pase a una conexión a Internet sin cifrar cuando falla la conexión VPN.
 
-Cuando está habilitado, bloquea cualquier tráfico de cliente que intente evitar el túnel VPN, deteniendo efectivamente las fugas de VPN causadas por problemas de configuración de DNS, desconexiones inesperadas, solicitudes de IP directas y otros escenarios similares.
+Al activar **Kill Switch** para un túnel individual, se bloquea el acceso a Internet del tráfico asignado a ese túnel si falla su conexión. El resto del tráfico sigue la configuración de **All Other Traffic**.
+
+**Enhanced Kill Switch** bloquea el tráfico de Internet que no coincide con ningún túnel VPN. No anula la configuración de **Kill Switch** de cada túnel.
 
 Fortify admite la configuración Kill Switch para la conexión VPN global, así como para cada túnel VPN individual.
 
@@ -287,7 +289,7 @@ Fortify admite la configuración Kill Switch para la conexión VPN global, así 
 
 - Para configurar Kill Switch para cada túnel VPN individual, consulte [Opciones de túnel](#tunnel-options).
 
-## All Other Traffic
+## All Other Traffic {#all-other-traffic}
 
 Haga clic en el ícono de ajustes en la esquina superior derecha para configurar la política para el tráfico que no coincide con el túnel VPN.
 
@@ -323,7 +325,7 @@ Haga clic en el ícono de ajustes en un grupo de túneles y seleccione **Options
 
 - **MTU**: el valor de MTU que establezca para el túnel anulará la configuración de MTU en el archivo de configuración.
 
-## Prioridad del túnel
+## Prioridad del túnel {#tunnel-priority}
 
 Para ajustar la prioridad del túnel, haga clic en el ícono de ajustes en un grupo de túneles y seleccione **Priority**.
 

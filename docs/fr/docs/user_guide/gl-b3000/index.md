@@ -1,12 +1,12 @@
-# Guide d'utilisation du Marble (GL-B3000)
+# Guide d'utilisation du Marble (GL-B3000) {#marble-gl-b3000-user-guide}
 
-## Aperçu du produit
+## Aperçu du produit {#product-overview}
 
 Le routeur Marble (GL-B3000) se distingue par son design faisant office de cadre photo pour mettre en valeur l'œuvre de votre choix et sublimer votre intérieur. Au-delà de son aspect esthétique, le Marble (GL-B3000) offre d'excellentes performances grâce au Wi‑Fi 6 et à la prise en charge des VPN.
 
 ![gl-b3000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-b3000/hardware_info/b3000_interface.png){class="glboxshadow"}
 
-## Contenu du colis
+## Contenu du colis {#package-contents}
 
 - 1 x Marble (GL-B3000)
 - 1 x Manuel d'utilisation
@@ -21,7 +21,7 @@ Le routeur Marble (GL-B3000) se distingue par son design faisant office de cadre
 
 ![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-b3000/first_time_setup/b3000_unboxing.jpg){class="glboxshadow"}
 
-## Configuration initiale du Marble
+## Configuration initiale du Marble {#how-to-set-up-marble}
 
 Regardez ces vidéos d'installation et de configuration ou suivez les étapes ci-dessous.
 
@@ -29,11 +29,11 @@ Regardez ces vidéos d'installation et de configuration ou suivez les étapes ci
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-U2WTVYRkPU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Mise sous tension
+### 1. Mise sous tension {#1-power-on}
 
 Assemblez l'adaptateur secteur en deux parties. Connectez-le au routeur, puis branchez-le sur une prise électrique. Le routeur démarre automatiquement.
 
-### 2. Connecter un appareil
+### 2. Connecter un appareil {#2-connect-device}
 
 Connectez un appareil (par exemple un ordinateur, un ordinateur portable ou un smartphone) au routeur via le Wi‑Fi ou un câble Ethernet.
 
@@ -45,11 +45,11 @@ Connectez un appareil (par exemple un ordinateur, un ordinateur portable ou un s
 
     Sur votre appareil, accédez à Paramètres -> WLAN, repérez le nom du réseau Wi‑Fi du routeur dans la liste des réseaux disponibles, puis saisissez le mot de passe. (Le nom du réseau et le mot de passe par défaut sont imprimés sur l'étiquette du routeur.)
 
-### 3. Se connecter au panneau d'administration web
+### 3. Se connecter au panneau d'administration web {#3-log-in-to-web-admin-panel}
 
 Ouvrez un navigateur web, saisissez `192.168.8.1` dans la barre d'adresse, puis connectez-vous. Choisissez votre langue, définissez votre mot de passe administrateur, puis cliquez sur **Apply**.
 
-### 4. Configuration Internet
+### 4. Configuration Internet {#4-internet-setup}
 
 **Note:** Les instructions ci-dessous s'appliquent aux utilisateurs qui configurent le routeur via le panneau d'administration web GL.iNet. Si vous préférez utiliser l'application GL.iNet, [téléchargez l'application](https://www.gl-inet.com/app/){target="_blank"} et suivez les instructions à l'écran.
 
@@ -79,7 +79,7 @@ Configurez votre Marble à l'aide des méthodes de connexion Internet prises en 
 
 ---
 
-## Configurer un VPN
+## Configurer un VPN {#how-to-set-up-a-vpn}
 
 Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre votre appareil et le serveur VPN. Il ajoute une couche supplémentaire de confidentialité et de sécurité (client VPN) et permet d'accéder à un réseau distant (serveur VPN). Marble, comme les autres routeurs GL.iNet, prend en charge OpenVPN et WireGuard. Il prend également en charge Tor.
 
@@ -105,7 +105,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
 ---
 
-## Réseau sans fil et clients
+## Réseau sans fil et clients {#wireless-and-clients}
 
 === "Wireless"
 
@@ -119,7 +119,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     Pour configurer les clients, consultez [Clients](../../interface_guide/clients.md).
 
-## Services cloud
+## Services cloud {#cloud-services}
 
 === "GoodCloud"
 
@@ -133,7 +133,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     AstroWarp est une plateforme réseau avancée conçue pour offrir une mise en réseau à distance fluide et une gestion à distance des appareils. Spécialement conçue pour l'intégration avec les routeurs GL.iNet, AstroWarp prend en charge une gestion complète des appareils à l'échelle de réseaux entiers, permettant le contrôle des équipements en amont comme en aval. En mettant l'accent sur la gestion réseau globale et sur une future prise en charge du contrôle au niveau matériel, AstroWarp offre une solution plus robuste et plus fiable pour gérer les appareils et maintenir des réseaux sûrs et stables.
 
-## Applications
+## Applications {#applications}
 
 === "Plug-ins"
 
@@ -167,7 +167,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
 ---
 
-## Paramètres réseau
+## Paramètres réseau {#network-settings}
 
 === "Firewall"
 
@@ -181,7 +181,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
 === "Multi-WAN"
 
-    Multi-WAN est une fonctionnalité réseau qui permet d'utiliser plusieurs connexions Internet sur votre routeur en même temps (par exemple Cellular, Repeater et Ethernet). Si votre connexion Internet actuelle tombe en panne, le routeur bascule automatiquement vers une autre connexion. Cela garantit un accès Internet fluide et ininterrompu.
+    Multi-WAN est une fonctionnalité réseau qui permet d'utiliser plusieurs connexions Internet sur votre routeur en même temps (par exemple Ethernet et Repeater). Si votre connexion Internet actuelle tombe en panne, le routeur bascule automatiquement vers une autre connexion. Cela garantit un accès Internet fluide et ininterrompu.
 
     Pour configurer Multi-WAN, consultez [Multi-WAN](../../interface_guide/multi-wan.md).
 
@@ -218,6 +218,8 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
     * DNS Proxy : activez le proxy DNS afin d'acheminer les requêtes DNS de vos appareils via un serveur DNS spécifié, ce qui ajoute une couche de contrôle supplémentaire sur le trafic DNS.
 
     Ces paramètres vous permettent d'optimiser les performances et la sécurité DNS de votre réseau selon vos besoins.
+
+    Pour obtenir des instructions de configuration détaillées et plus d'informations, consultez [DNS](../../interface_guide/dns.md).
 
 === "Network Mode"
 
@@ -290,7 +292,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
 ---
 
-## Paramètres système
+## Paramètres système {#system-settings}
 
 === "Overview"
 

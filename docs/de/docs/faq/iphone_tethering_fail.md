@@ -1,4 +1,4 @@
-# iPhone-Tethering fehlgeschlagen
+# iPhone-Tethering fehlgeschlagen {#iphone-tethering-failed}
 
 Wenn beim iPhone-Tethering ein Fehler auftritt, können Sie die folgenden Schritte versuchen, um das Problem zu beheben.
 

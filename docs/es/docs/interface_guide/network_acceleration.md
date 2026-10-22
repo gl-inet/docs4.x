@@ -1,10 +1,10 @@
-# Aceleración de red
+# Aceleración de red {#network-acceleration}
 
 La aceleración de red reduce la carga de la CPU y acelera el reenvío de paquetes de tráfico, pero puede entrar en conflicto con algunas funciones.
 
 Cuando la aceleración de red está habilitada, las siguientes funciones no funcionarán correctamente: la velocidad del cliente y las estadísticas de tráfico, y el límite de velocidad del cliente.
 
-## Modelos compatibles
+## Modelos compatibles {#supported-models}
 
 ??? "Modelos compatibles"
     - GL-MT6000 (Fortify)
@@ -40,7 +40,7 @@ Cuando la aceleración de red está habilitada, las siguientes funciones no func
     - GL-B1300 (Convexa-B)
     - GL-X300B (Collie)
 
-## Configuración
+## Configuración {#setup}
 
 En el lado izquierdo del panel de administración web, vaya a **NETWORK** -> **Network Acceleration**.
 

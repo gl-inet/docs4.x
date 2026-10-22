@@ -1,4 +1,4 @@
-# Bark
+# Bark {#bark}
 
 This guide applies to firmware v4.9 and later. For earlier versions, please click [here](parental_control.md#bark-version).
 
@@ -12,7 +12,7 @@ The [Bark](https://www.bark.us/){target="_blank"} service can help protect your 
 
 2. Bark and GL.iNet Parental Control cannot be enabled simultaneously, as this may trigger conflicts.
 
-## Supported Models
+## Supported Models {#supported-models}
 
 ??? "Supported Models"
     - GL-MT6000 (Fortify)
@@ -49,7 +49,7 @@ The [Bark](https://www.bark.us/){target="_blank"} service can help protect your 
     - GL-AP1300 (Cirrus)
     - GL-X300B (Collie)
 
-## Quick Setup
+## Quick Setup {#quick-setup}
 
 Log in to the router's web admin panel and navigate to **APPLICATIONS** -> **Bark**.
 

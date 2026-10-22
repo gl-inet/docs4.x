@@ -1,4 +1,4 @@
-# Statistiques de données
+# Statistiques de données {#data-statistics}
 
 **Remarque** : cette fonction a été introduite dans le firmware v4.9.
 
@@ -55,7 +55,7 @@ Data Statistics fournit un tableau de bord de trafic intuitif qui identifie l’
     - GL-S1300 (Convexa-S)
 
 
-## Pour le firmware v4.11 et les versions ultérieures
+## Pour le firmware v4.11 et les versions ultérieures {#for-firmware-v411-and-above}
 
 Activez l’interrupteur dans l’angle supérieur droit pour afficher **Application Total Data**.
 
@@ -75,7 +75,7 @@ Cette page se compose de deux parties :
 
     ![app traffic stat](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/app_traffic_stat.png){class="glboxshadow"}
 
-### Règles de stockage des données
+### Règles de stockage des données {#data-storage-rules}
 
 1. Les statistiques de trafic sont enregistrées en RAM toutes les 15 secondes et dans la mémoire flash toutes les heures. Les écritures fréquentes dans la mémoire flash sont évitées afin d’en préserver la durée de vie.
 
@@ -83,7 +83,7 @@ Cette page se compose de deux parties :
 
 3. Un redémarrage forcé (débrancher puis rebrancher l’alimentation) ou une mise à niveau du firmware qui conserve les paramètres peut entraîner la perte des données de la dernière heure au maximum.
 
-### Sélecteur de clients
+### Sélecteur de clients {#client-selector}
 
 Le sélecteur de clients permet de choisir un client précis ou de conserver l’option par défaut **All clients**. Le graphique et le tableau de statistiques s’actualisent automatiquement pour afficher uniquement les données de trafic de l’appareil sélectionné.
 
@@ -91,7 +91,7 @@ Le sélecteur de clients permet de choisir un client précis ou de conserver l�
 
 ![client selector](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/client_selector.png){class="glboxshadow"}
 
-### Changer le type de graphique
+### Changer le type de graphique {#switch-chart-views}
 
 Vous pouvez changer le type de graphique selon vos besoins lorsque vous consultez **App Traffic Statistics**.
 
@@ -111,7 +111,7 @@ Vous pouvez changer le type de graphique selon vos besoins lorsque vous consulte
 
     ![pie chart](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/pie_chart.png){class="glboxshadow"}
 
-### Changer la plage horaire
+### Changer la plage horaire {#switch-time-range}
 
 Vous pouvez choisir **Past hour**, **Past day** ou **Past week** selon vos besoins.
 
@@ -127,7 +127,7 @@ La plage choisie détermine la manière dont les données sont affichées :
 
     ![past week](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/past-week.png){class="glboxshadow"}
 
-### Effacer les statistiques
+### Effacer les statistiques {#clear-statistics}
 
 Cliquez sur l’icône en forme de balai dans l’angle supérieur gauche pour effacer les statistiques si nécessaire.
 
@@ -137,7 +137,7 @@ Après l’effacement, la page s’actualise comme ci-dessous. Vous devrez peut-
 
 ![clear data 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/clear_data_2.png){class="glboxshadow"}
 
-## Pour les firmwares v4.9 à v4.10
+## Pour les firmwares v4.9 à v4.10 {#for-firmware-v49-to-v410}
 
 Activez l’interrupteur dans l’angle supérieur droit pour afficher **Application Total Data**.
 
@@ -157,7 +157,7 @@ Cette page se compose de deux parties :
 
     ![app traffic stat](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/app_traffic_stat1.png){class="glboxshadow"}
 
-### Règles de stockage des données
+### Règles de stockage des données {#data-storage-rules_1}
 
 1. Les statistiques de trafic sont enregistrées en RAM toutes les 15 secondes et écrites dans la mémoire flash toutes les 1 heure. Les écritures fréquentes en mémoire flash sont évitées afin d’en préserver la durée de vie.
 
@@ -165,7 +165,7 @@ Cette page se compose de deux parties :
 
 3. Un redémarrage forcé (débrancher puis rebrancher l’alimentation) ou une mise à niveau du firmware (en conservant les paramètres) peut entraîner une perte de données allant jusqu’à la dernière heure.
 
-### Changer la plage horaire
+### Changer la plage horaire {#switch-time-range_1}
 
 Vous pouvez changer la plage horaire entre **Past hour**, **Past day** et **Past week** selon vos besoins.
 
@@ -181,7 +181,7 @@ La plage horaire choisie détermine la manière dont les données sont affichée
 
     ![past week](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/past_week.png){class="glboxshadow"}
 
-### Effacer les statistiques
+### Effacer les statistiques {#clear-statistics_1}
 
 Cliquez sur l’icône en forme de balai dans l’angle supérieur gauche pour effacer les statistiques si nécessaire.
 

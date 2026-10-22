@@ -1,6 +1,6 @@
-# Mango 2 (GL-MG1300) Benutzerhandbuch
+# Mango 2 (GL-MG1300) Benutzerhandbuch {#mango-2-gl-mg1300-user-guide}
 
-## Sicherheitshinweise
+## Sicherheitshinweise {#safety-information}
 
 Lesen Sie vor der Verwendung des Geräts alle nachstehenden Sicherheitsinformationen sorgfältig durch. Die nachfolgenden Sicherheitsempfehlungen können nicht sämtliche möglicherweise auftretenden Gefahrensituationen abdecken.
 
@@ -29,13 +29,13 @@ Um den einwandfreien Betrieb des Geräts zu gewährleisten, beachten Sie die in 
 Unsachgemäßes Öffnen oder unsachgemäße Instandsetzung kann den Benutzer des Geräts gefährden.
 
 Schalten Sie bei einem Störfall zuerst den Netzschalter aus.
-## Produktübersicht
+## Produktübersicht {#product-overview}
 
 Mango 2 (GL-MG1300) ist der erste Dualband-Wi-Fi-5-Mini-Reiserouter von GL.iNet und zeichnet sich durch ein ultraflaches, tragbares Design aus. Er erreicht theoretische Dualband-Geschwindigkeiten von 400 Mbit/s (2,4 GHz) und 866 Mbit/s (5 GHz) bei einer 2×2-MIMO-Konfiguration. OpenVPN und WireGuard sind vorinstalliert; der Router unterstützt mehr als 30 VPN-Dienste, mit denen der Netzwerkverkehr bei aktiviertem VPN-Client verschlüsselt wird, und ermöglicht die Fernverwaltung über GoodCloud. Damit vereint er Leistung, Praxistauglichkeit und Sicherheit.
 
 ![mg1300 illustration](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mg1300/product_info/mg1300_overview.jpg){class="glboxshadow"}
 
-## Lieferumfang
+## Lieferumfang {#package-contents}
 
 - 1 x Mango 2 (GL-MG1300)
 - 1 x Benutzerhandbuch
@@ -48,15 +48,15 @@ Sehen Sie sich unten das Unboxing-Video von Mango 2 an.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xwHgLdWPwPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## So richten Sie Mango 2 ein
+## So richten Sie Mango 2 ein {#how-to-set-up-mango-2}
 
 Zur Einrichtung von Mango 2 können Sie eine der vier unterstützten Internetverbindungsmethoden verwenden: Ethernet, Repeater, Tethering oder Cellular. Führen Sie die folgenden Schritte aus.
 
-### 1. Einschalten
+### 1. Einschalten {#1-power-on}
 
 Schließen Sie das USB-Type-C-Stromkabel an den Stromanschluss des Routers an. Verbinden Sie das andere Ende mit einem 5-V-/2-A-Netzteil (nicht im Lieferumfang enthalten) und stecken Sie dieses in eine Steckdose.
 
-### 2. Gerät verbinden
+### 2. Gerät verbinden {#2-connect-device}
 
 Verbinden Sie ein Gerät (z. B. Computer, Laptop oder Smartphone) über WLAN oder Ethernet mit dem Router.
 
@@ -68,13 +68,13 @@ Verbinden Sie ein Gerät (z. B. Computer, Laptop oder Smartphone) über WLAN ode
 
     Öffnen Sie auf Ihrem Gerät Einstellungen -> WLAN, wählen Sie den WLAN-Netzwerknamen Ihres Routers aus der Liste der verfügbaren Netzwerke und geben Sie das Passwort ein. Den standardmäßigen Netzwerknamen und das Passwort finden Sie auf dem Etikett an der Unterseite des Routers.
 
-### 3. Im Web-Admin-Panel anmelden
+### 3. Im Web-Admin-Panel anmelden {#3-log-in-to-web-admin-panel}
 
 Öffnen Sie einen Webbrowser, geben Sie `192.168.8.1` in die Adressleiste ein und melden Sie sich an. Wählen Sie Ihre Sprache, legen Sie das Admin-Passwort fest und klicken Sie anschließend auf **Apply**.
 
 Wenn Sie die WLAN-Daten ändern, müssen Sie Ihr Gerät anschließend mit den aktualisierten Zugangsdaten erneut mit dem WLAN des Routers verbinden.
 
-### 4. Internet einrichten
+### 4. Internet einrichten {#4-internet-setup}
 
 **Hinweis:** Die folgenden Anweisungen gelten für Benutzer, die den Router über das GL.iNet Web Admin Panel konfigurieren. Wenn Sie stattdessen die GL.iNet-App verwenden möchten, [laden Sie die App herunter](https://www.gl-inet.com/app/){target="_blank"} und folgen Sie den Anweisungen auf dem Bildschirm.
 
@@ -130,19 +130,19 @@ Konfigurieren Sie Mango 2 über eine der unterstützten Internetverbindungsmetho
 
 Nachfolgend finden Sie eine Übersicht über die Funktionen im Web-Admin-Panel von Mango 2.
 
-## WLAN
+## WLAN {#wireless}
 
 Auf der Seite Wireless können Sie Main Network, Guest Network und IoT Network konfigurieren. Für jeden WLAN-Netzwerktyp lassen sich das 5-GHz- und das 2,4-GHz-Band unabhängig voneinander konfigurieren. Außerdem können Sie für jedes Band grundlegende Einstellungen wie WLAN-SSID, Sicherheitsmodus, Passwort und eine zufällige BSSID festlegen.
 
 Informationen zur Einrichtung von Wireless finden Sie unter [Wireless](../../interface_guide/wireless.md).
 
-## Clients
+## Clients {#clients}
 
 Auf der Seite Clients werden Informationen zu verbundenen Geräten angezeigt. Für jeden Client werden Name, IP- und MAC-Adresse, Download- und Upload-Geschwindigkeit sowie das gesamte Datenvolumen angezeigt. Außerdem können Sie den Client blockieren oder weitere Aktionen ausführen.
 
 Informationen zur Einrichtung von Clients finden Sie unter [Clients](../../interface_guide/clients.md).
 
-## Cloud-Dienste
+## Cloud-Dienste {#cloud-services}
 
 === "GL.iNet Account"
 
@@ -156,11 +156,11 @@ Informationen zur Einrichtung von Clients finden Sie unter [Clients](../../inter
 
 === "GoodPAS"
 
-    GoodPAS ist eine erweiterte Netzwerkfunktion für nahtlosen Fernzugriff und die Geräteverwaltung. GoodPAS wurde speziell für die Integration mit GL.iNet-Routern entwickelt und verwendet das AmneziaWG-Protokoll mit integrierter Datenverkehrsverschleierung, um sichere und stabile Verbindungen bereitzustellen. Es erweitert Ihr Heimnetzwerk sicher auf weltweiter Ebene, sodass Sie auf Ressourcen zu Hause zugreifen können, während der gesamte Datenverkehr so erscheint, als stamme er von der öffentlichen IP-Adresse Ihres Zuhauses.
+    GoodPAS ist eine erweiterte Netzwerkfunktion für nahtlosen Fernzugriff und die Geräteverwaltung. GoodPAS wurde speziell für die Integration mit GL.iNet-Routern entwickelt und verwendet das AmneziaWG-Protokoll mit integrierter Datenverkehrsverschleierung, um sichere und stabile Verbindungen bereitzustellen. GoodPAS ermöglicht Ihnen den Fernzugriff auf Ihr Heimnetzwerk. Wenn Ihr Heimrouter als GoodPAS-Ausgangsknoten dient, verwendet der über GoodPAS gesendete Internetverkehr die öffentliche WAN-IP-Adresse dieses Routers.
 
     Informationen zur Einrichtung von GoodPAS finden Sie unter [GoodPAS](../../interface_guide/goodpas.md).
 
-## VPN
+## VPN {#vpn}
 
 Ein VPN (virtuelles privates Netzwerk) erstellt eine sichere, verschlüsselte Verbindung zwischen Ihrem Gerät und dem VPN-Server. Es bietet zusätzliche Privatsphäre und Sicherheit (VPN-Client) und ermöglicht den Zugriff auf ein entferntes Netzwerk (VPN-Server). Mango 2 unterstützt OpenVPN und WireGuard.
 
@@ -178,7 +178,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt eine sichere, verschlüsselte Ve
     * [So richten Sie einen WireGuard-Client ein](../../interface_guide/wireguard_client.md)
     * [So richten Sie einen WireGuard-Server ein](../../interface_guide/wireguard_server.md)
 
-## Netzwerk
+## Netzwerk {#network}
 
 === "Multi-WAN"
 
@@ -232,15 +232,15 @@ Ein VPN (virtuelles privates Netzwerk) erstellt eine sichere, verschlüsselte Ve
 
     Informationen zur Einrichtung der Netzwerkbeschleunigung finden Sie unter [Network Acceleration](../../interface_guide/network_acceleration.md).
 
-## Datenverkehrssteuerung
+## Datenverkehrssteuerung {#flow-control}
 
 === "Parental Control"
 
     Parental Control hilft Ihnen dabei, die Geräte Ihrer Kinder zu verwalten und zu kontrollieren. Dazu gehören die Begrenzung der Bildschirmzeit und die Einschränkung des Zugriffs auf bestimmte Inhalte.
 
-    Informationen zur Einrichtung von Parental Control finden Sie unter [Parental controls](../../interface_guide/parental_control.md).
+    Informationen zur Einrichtung von Parental Control finden Sie unter [Parental Control](../../interface_guide/parental_control_v4.9.md).
 
-## Sicherheit
+## Sicherheit {#security}
 
 === "Port Forwarding"
 
@@ -260,7 +260,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt eine sichere, verschlüsselte Ve
 
     Informationen zur Einrichtung der NAT-Einstellungen finden Sie unter [NAT Settings](../../interface_guide/nat_settings.md).
 
-## Anwendungen
+## Anwendungen {#applications}
 
 === "Plug-ins"
 
@@ -286,7 +286,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt eine sichere, verschlüsselte Ve
 
     Informationen zur Einrichtung von Tailscale finden Sie unter [Tailscale](../../interface_guide/tailscale.md).
 
-## System
+## System {#system}
 
 === "Overview"
 
@@ -378,6 +378,6 @@ Ein VPN (virtuelles privates Netzwerk) erstellt eine sichere, verschlüsselte Ve
 
     Detaillierte Anweisungen finden Sie unter [Advanced Settings](../../interface_guide/advanced_settings.md).
 
-## Konformitätserklärung
+## Konformitätserklärung {#declaration-of-conformity}
 
 Hiermit erklärt GL TECHNOLOGIES (HONG KONG) LIMITED, dass der Funkanlagentyp [Dualband‑Mini‑Reise‑Router, GL‑MG1300] den grundlegenden Anforderungen und anderen einschlägigen Bestimmungen der Richtlinie 2014/53/EU entspricht. Der vollständige Text der EU‑Konformitätserklärung ist unter der folgenden Internetadresse verfügbar: [https://www.gl-inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}.

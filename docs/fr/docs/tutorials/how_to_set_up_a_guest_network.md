@@ -1,4 +1,4 @@
-# Comment configurer un réseau Wi-Fi invité sur les routeurs GL.iNet
+# Comment configurer un réseau Wi-Fi invité sur les routeurs GL.iNet {#how-to-set-up-a-guest-wi-fi-network-on-glinet-routers}
 
 Ce tutoriel vous montre comment configurer un réseau Wi-Fi invité sur les routeurs GL.iNet. 
 
@@ -8,7 +8,7 @@ Il existe deux méthodes pour configurer un réseau Wi-Fi invité sur votre rout
 
 ## Configurer un réseau invité via le panneau d’administration {#set-up-a-guest-network-via-the-admin-panel}
 
-### 1. Activer le réseau Wi-Fi invité
+### 1. Activer le réseau Wi-Fi invité {#1-enable-the-guest-wi-fi-network}
 
 1. Dans un navigateur web, saisissez `192.168.8.1`. 
 2. Saisissez votre mot de passe, puis cliquez sur **Login**. 
@@ -18,7 +18,7 @@ Il existe deux méthodes pour configurer un réseau Wi-Fi invité sur votre rout
 ![click guest](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_a_guest_network/click-guest-wifi.jpeg){class="glboxshadow"}
 5. À côté de **Enable Wi-Fi**, activez l’interrupteur. 
 
-### 2. Définir un nouveau mot de passe pour le réseau Wi-Fi invité
+### 2. Définir un nouveau mot de passe pour le réseau Wi-Fi invité {#2-set-a-new-guest-wi-fi-network-password}
 
 Pour renforcer votre sécurité, il est recommandé de définir un nouveau mot de passe pour votre réseau Wi-Fi invité. Suivez ces étapes : 
 
@@ -33,14 +33,14 @@ Vous avez maintenant configuré un réseau Wi-Fi invité. Pour y connecter vos a
 
 **Note:** Avant de commencer, installez et configurez l’application mobile GL.iNet sur votre appareil. 
 
-### 1. Activer le réseau Wi-Fi invité
+### 1. Activer le réseau Wi-Fi invité {#1-enable-the-guest-wi-fi-network_1}
 
 1. Sur l’écran principal de l’application, appuyez sur l’onglet **Network** > **Wireless**.
 2. Repérez **Guest Network**. 
 3. Pour le réseau sur lequel vous souhaitez configurer un réseau Wi-Fi invité, activez l’interrupteur. 
 ![toggle the switch](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_a_guest_network/toggle-on-guest-network.jpeg){class="glboxshadow"}
 
-### 2. Définir un nouveau mot de passe pour le réseau Wi-Fi invité
+### 2. Définir un nouveau mot de passe pour le réseau Wi-Fi invité {#2-set-a-new-guest-wi-fi-network-password_1}
 
 Pour renforcer votre sécurité, il est recommandé de définir un nouveau mot de passe pour votre réseau Wi-Fi invité. Suivez ces étapes : 
 

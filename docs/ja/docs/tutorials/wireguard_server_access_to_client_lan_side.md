@@ -1,14 +1,14 @@
-# サーバー側からWireGuardクライアントのLAN側へアクセスする方法
+# サーバー側からWireGuardクライアントのLAN側へアクセスする方法 {#how-to-access-wireguard-client-lan-side-from-server}
 
 このチュートリアルでは、WireGuardサーバー側から、WireGuardクライアントのLANサブネット（IPカメラ、NAS など）へアクセスする手順を紹介します。
 
-## トポロジー
+## トポロジー {#topology}
 
 以下の図のように、GL-MT2500 がWireGuardサーバー、GL-AXT1800 が接続先のWireGuardクライアントです。サーバー側から GL-AXT1800 のLAN側にあるデバイス（IPカメラやNASなど）へアクセスできます。
 
 ![Topology](https://static.gl-inet.com/docs/router/en/4/tutorials/wiregaurd_server_access_client_lan_side/Topology.jpg){class="glboxshadow"}
 
-## 1. サーバーでルートルールを追加する
+## 1. サーバーでルートルールを追加する {#1-add-route-rule-on-server}
 
 ??? "ファームウェア v4.7 以前"
 
@@ -54,7 +54,7 @@
 
     ![add route rule 3](https://static.gl-inet.com/docs/router/en/4/tutorials/wiregaurd_server_access_client_lan_side/4.8-route-rule-3.png){class="glboxshadow"}
 
-## 2. クライアントLANへのリモートアクセスを許可する
+## 2. クライアントLANへのリモートアクセスを許可する {#2-allow-remote-access-to-client-lan}
 
 ??? "ファームウェア v4.7 以前"
 
@@ -92,7 +92,7 @@
 
     ![allow remote access lan](https://static.gl-inet.com/docs/router/en/4/tutorials/wiregaurd_server_access_client_lan_side/4.9-allow-remote-access-lan.png){class="glboxshadow" width=600}
 
-## 3. 接続をテストする
+## 3. 接続をテストする {#3-test-connection}
 
 サーバー側からWireGuardクライアントのLANデバイスへアクセスできるかテストします。
 
@@ -102,4 +102,4 @@ ping でテストできます。たとえば、WireGuardサーバー（GL-MT2500
 
 ---
 
-ご不明な点がありましたら、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}をご覧いただくか、[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

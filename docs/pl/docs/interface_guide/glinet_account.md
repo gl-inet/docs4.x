@@ -1,4 +1,4 @@
-# Konto GL.iNet
+# Konto GL.iNet {#glinet-account}
 
 **Uwaga**: ten przewodnik dotyczy firmware v4.10 i nowszych wersji.
 
@@ -10,7 +10,7 @@ Konto GL.iNet umożliwia łączenie urządzeń i usług chmurowych oraz zarządz
 
 Ponadto GoodPAS pozwala szybko utworzyć bezpieczne połączenie między routerem podróżnym a siecią domową, zapewniając zdalny dostęp podczas nieobecności w domu.
 
-## Włączanie konta GL.iNet
+## Włączanie konta GL.iNet {#enable-glinet-account}
 
 Aby powiązać konto GL.iNet, wykonaj następujące czynności.
 
@@ -32,17 +32,17 @@ Aby powiązać konto GL.iNet, wykonaj następujące czynności.
 
     Na tej stronie można sprawdzić stan każdej usługi. GoodCloud i aplikacja GL.iNet są domyślnie włączone, a GoodPAS jest wyłączony. Aby włączyć GoodPAS, przejdź do jego strony i skonfiguruj usługę.
 
-## Usługi
+## Usługi {#services}
 
 Możesz wybrać usługi odpowiednie do zarządzania urządzeniem.
 
-### GoodCloud
+### GoodCloud {#goodcloud}
 
 Kliknij **Go** w prawym dolnym rogu sekcji GoodCloud, aby otworzyć platformę GoodCloud i zdalnie zarządzać urządzeniem. Szczegółowe informacje zawiera strona [GoodCloud](./cloud.md).
 
 ![account 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/glinet_account/account_2.png){class="glboxshadow"}
 
-### GoodPAS
+### GoodPAS {#goodpas}
 
 Kliknij **Go** w prawym dolnym rogu sekcji GoodPAS, aby otworzyć stronę GoodPAS i utworzyć bezpieczną sieć między routerem podróżnym a siecią domową. Zapewnia to zdalny dostęp do sieci domowej oraz możliwość korzystania z domowego adresu IP podczas dostępu do Internetu. Szczegółowe informacje zawiera strona [GoodPAS](./goodpas.md). W firmware v4.10 na modelach innych niż GL-MG1300 ta sekcja nosi nazwę AstroWarp; zapoznaj się ze stroną [AstroWarp](./astrowarp.md).
 
@@ -50,7 +50,7 @@ Kliknij **Go** w prawym dolnym rogu sekcji GoodPAS, aby otworzyć stronę GoodPA
 
 ![goodpas 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/glinet_account/goodpas_page.png){class="glboxshadow"}
 
-### Aplikacja GL.iNet
+### Aplikacja GL.iNet {#glinet-app}
 
 Kliknij **GO** w prawym dolnym rogu sekcji GL.iNet, aby przejść do centrum pobierania aplikacji. Aplikacja GL.iNet ułatwia zarządzanie routerem z telefonu.
 
@@ -58,7 +58,7 @@ Kliknij **GO** w prawym dolnym rogu sekcji GL.iNet, aby przejść do centrum pob
 
 ![glinet download](https://static.gl-inet.com/docs/router/en/4/interface_guide/glinet_account/glinet_app_download.png){class="glboxshadow" width=500}
 
-## Odłączanie konta GL.iNet
+## Odłączanie konta GL.iNet {#unbind-glinet-account}
 
 Aby odłączyć urządzenie od konta GL.iNet, kliknij **Unbind**.
 

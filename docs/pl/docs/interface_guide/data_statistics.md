@@ -1,4 +1,4 @@
-# Statystyki danych
+# Statystyki danych {#data-statistics}
 
 **Uwaga**: Ta funkcja została wprowadzona w firmware v4.9.
 
@@ -54,7 +54,7 @@ Data Statistics zapewnia intuicyjny pulpit nawigacyjny ruchu, który identyfikuj
     - GL-AP1300 (Cirrus)
     - GL-S1300 (Convexa-S)
 
-## Dla oprogramowania sprzętowego w wersji 4.11 i nowszych
+## Dla oprogramowania sprzętowego w wersji 4.11 i nowszych {#for-firmware-v411-and-above}
 
 Przełącz przełącznik w prawym górnym rogu, aby wyświetlić **Application Total Data**.
 
@@ -74,7 +74,7 @@ Ta strona składa się z dwóch części:
 
     ![app traffic stat](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/app_traffic_stat.png){class="glboxshadow"}
 
-### Zasady przechowywania danych
+### Zasady przechowywania danych {#data-storage-rules}
 
 1. Statystyki ruchu są zapisywane w pamięci RAM co 15 sekund i zapisywane w pamięci flash co 1 godzinę. Aby chronić żywotność pamięci flash, unika się częstych zapisów w pamięci flash.
 
@@ -82,7 +82,7 @@ Ta strona składa się z dwóch części:
 
 3. Twardy restart (odłączenie i ponowne podłączenie zasilania) lub aktualizacja oprogramowania sprzętowego (z zachowaniem ustawień) może spowodować utratę danych aż do ostatniej godziny.
 
-### Selektor Klienta
+### Selektor Klienta {#client-selector}
 
 Selektor klientów pozwala wybrać konkretnego klienta lub zachować domyślnych wszystkich klientów. Wykres i tabela statystyk zostaną automatycznie odświeżone, aby wyświetlić dane o ruchu tylko dla wybranego urządzenia.
 
@@ -90,7 +90,7 @@ Selektor klientów pozwala wybrać konkretnego klienta lub zachować domyślnych
 
 ![client selector](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/client_selector.png){class="glboxshadow"}
 
-### Przełącz widoki wykresów
+### Przełącz widoki wykresów {#switch-chart-views}
 
 W razie potrzeby możesz zmienić typ wykresu podczas przeglądania statystyk ruchu w aplikacji.
 
@@ -110,7 +110,7 @@ W razie potrzeby możesz zmienić typ wykresu podczas przeglądania statystyk ru
 
     ![pie chart](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/pie_chart.png){class="glboxshadow"}
 
-### Przełącz zakres czasu
+### Przełącz zakres czasu {#switch-time-range}
 
 W razie potrzeby możesz przełączać zakres czasu między ostatnią godziną, ostatnim dniem i ostatnim tygodniem.
 
@@ -126,7 +126,7 @@ Wybrany zakres czasu określa sposób wyświetlania danych:
 
     ![past week](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/past-week.png){class="glboxshadow"}
 
-### Wyczyść statystyki
+### Wyczyść statystyki {#clear-statistics}
 
 Kliknij ikonę miotły w lewym górnym rogu, aby w razie potrzeby wyczyścić statystyki.
 
@@ -136,7 +136,7 @@ Po wyczyszczeniu strona zostanie zaktualizowana, jak pokazano poniżej. Być mo�
 
 ![clear data 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/clear_data_2.png){class="glboxshadow"}
 
-## Dla oprogramowania sprzętowego v4.9 do v4.10
+## Dla oprogramowania sprzętowego v4.9 do v4.10 {#for-firmware-v49-to-v410}
 
 Przełącz przełącznik w prawym górnym rogu, aby wyświetlić **Application Total Data**.
 
@@ -156,7 +156,7 @@ Ta strona składa się z dwóch części:
 
     ![app traffic stat](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/app_traffic_stat1.png){class="glboxshadow"}
 
-### Zasady przechowywania danych
+### Zasady przechowywania danych {#data-storage-rules_1}
 
 1. Statystyki ruchu są zapisywane w pamięci RAM co 15 sekund i zapisywane w pamięci flash co 1 godzinę. Aby chronić żywotność pamięci flash, unika się częstych zapisów w pamięci flash.
 
@@ -164,7 +164,7 @@ Ta strona składa się z dwóch części:
 
 3. Twardy restart (odłączenie i ponowne podłączenie zasilania) lub aktualizacja oprogramowania sprzętowego (z zachowaniem ustawień) może spowodować utratę danych aż do ostatniej godziny.
 
-### Przełącz zakres czasu
+### Przełącz zakres czasu {#switch-time-range_1}
 
 W razie potrzeby możesz przełączać zakres czasu między ostatnią godziną, ostatnim dniem i ostatnim tygodniem.
 
@@ -180,7 +180,7 @@ Wybrany zakres czasu określa sposób wyświetlania danych:
 
     ![past week](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/past_week.png){class="glboxshadow"}
 
-### Wyczyść statystyki
+### Wyczyść statystyki {#clear-statistics_1}
 
 Kliknij ikonę miotły w lewym górnym rogu, aby w razie potrzeby wyczyścić statystyki.
 

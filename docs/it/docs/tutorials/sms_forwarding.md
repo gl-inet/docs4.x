@@ -1,10 +1,10 @@
-# Inoltro SMS
+# Inoltro SMS {#sms-forwarding}
 
 I router cellulari GL.iNet supportano l'inoltro SMS, inviando automaticamente i messaggi in arrivo ai destinatari designati.
 
 **Nota**: questa funzione funziona solo sui router cellulari GL.iNet con modulo originale 4G LTE/5G NR e non e supportata su altri moduli o su qualsiasi altro modulo USB.
 
-## Modelli supportati
+## Modelli supportati {#supported-models}
 
 ??? "Modelli supportati"
     - GL-E5800 (Mudi 7)
@@ -41,25 +41,25 @@ I router cellulari GL.iNet supportano l'inoltro SMS, inviando automaticamente i 
     - GL-B1300 (Convexa-B)
     - GL-AP1300 (Cirrus)
 
-## Configurazione
+## Configurazione {#quick-setup}
 
 Prendiamo come esempio il GL-XE3000 (Puli AX).
 
-Nel lato sinistro del pannello di amministrazione web, vai alla sezione **INTERNET** -> **Cellular**.
+1. Consulta [questo link](../interface_guide/internet_cellular.md) per configurare prima il router cellulare.
 
-Fai clic sull'icona della busta in alto a destra per entrare nella pagina SMS, dove troverai le impostazioni di inoltro SMS.
+2. Accedi al pannello di amministrazione web del router e vai su **INTERNET** -> **Cellular**. Fai clic sull'icona della busta in alto a destra per entrare nella pagina SMS, dove troverai le impostazioni di inoltro SMS.
 
-![sms setting](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms.png){class="glboxshadow"}
+    ![sms setting](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms.png){class="glboxshadow"}
 
-### Inoltrare via email
+### Inoltrare via email {#forward-via-email}
 
 ![sms forwarding email](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms_forward_email.png){class="glboxshadow"}
 
-- **SMTP Server Address**: nel menu a discesa sono disponibili indirizzi server preimpostati per Gmail, Outlook, iCloud e Yahoo. Per altri provider email, consulta la loro documentazione o contatta il supporto.
+- **SMTP Server Address**: Nel menu a discesa sono disponibili indirizzi server preimpostati per Gmail, Outlook, iCloud e Yahoo. Un indirizzo preimpostato non garantisce la compatibilità con i requisiti di autenticazione del provider. Per altri provider di posta, consulta la loro documentazione o contatta la loro assistenza.
 
 - **Encryption Method**: sono disponibili tre opzioni, none, SSL/TLS e STARTTLS.
 - **Username**: inserisci qui l'indirizzo email.
-- **Password**: usa una password specifica per l'app oppure la password dell'account di accesso. Per Gmail, Outlook, iCloud e Yahoo, consulta la guida sotto.
+- **Password**: Inserisci la password SMTP richiesta dal tuo provider di posta, ad esempio una password specifica per l’app. Consulta i requisiti dei singoli provider riportati di seguito.
 - **Subject**: imposta qui l'oggetto dell'email.
 
 ??? "Gmail"
@@ -68,9 +68,13 @@ Fai clic sull'icona della busta in alto a destra per entrare nella pagina SMS, d
 
     Sono utilizzabili sia la porta 465 sia la 587.
 
-??? "Outlook"
+??? "Outlook.com"
 
-    Per Outlook, puoi usare direttamente la password senza configurazioni aggiuntive e la porta supportata e la 587. Consulta la guida ufficiale [POP, IMAP, and SMTP settings for Outlook.com](https://support.microsoft.com/en-us/office/pop-imap-and-smtp-settings-for-outlook-com-d088b986-291d-42b8-9564-9c414e2aa040){target="_blank"}
+    Outlook.com richiede OAuth2 (Modern Authentication) per l’autenticazione SMTP. Il server SMTP è `smtp-mail.outlook.com`, con porta `587` e `STARTTLS`.
+
+    Prima di usare un account Outlook.com per inviare SMS inoltrati, verifica che il firmware del router supporti questo metodo di autenticazione.
+
+    Consulta la documentazione Microsoft sulle [impostazioni POP, IMAP e SMTP per Outlook.com](https://support.microsoft.com/en-us/outlook/pop-imap-and-smtp-settings-for-outlook-com){target="_blank"}.
 
 ??? "iCloud"
 
@@ -80,11 +84,11 @@ Fai clic sull'icona della busta in alto a destra per entrare nella pagina SMS, d
 
     Per Yahoo, devi impostare una password per app per effettuare l'accesso e sono supportate sia la porta 465 sia la 587. Consulta la guida ufficiale [POP access settings and instructions for Yahoo Mail](https://help.yahoo.com/kb/SLN4724.html){target="_blank"} e [Generate and manage third-party app passwords](https://help.yahoo.com/kb/SLN15241.html){target="_blank"}.
 
-**Nota**: ogni mittente email puo essere soggetto a limiti di invio SMTP, ad esempio un limite giornaliero sul numero di email inviate. Consulta il tuo provider di servizi.
+**Nota**: ogni mittente email può essere soggetto a limiti di invio SMTP, ad esempio un limite giornaliero sul numero di email inviate. Consulta il tuo provider di servizi.
 
 Puoi aggiungere fino a 10 indirizzi email.
 
-### Inoltrare via SMS
+### Inoltrare via SMS {#forward-via-sms}
 
 ![sms forwarding phone](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms_forward_phone.png){class="glboxshadow"}
 

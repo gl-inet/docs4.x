@@ -1,4 +1,4 @@
-# Cómo hacer que el DNS de AdGuard Home evite el túnel VPN
+# Cómo hacer que el DNS de AdGuard Home evite el túnel VPN {#how-to-make-adguard-home-dns-bypass-the-vpn-tunnel}
 
 Normalmente, la VPN y AdGuard Home pueden funcionar simultáneamente en los routers GL.iNet. No surgen problemas cuando AdGuard Home no está configurado para manejar las solicitudes DNS.
 

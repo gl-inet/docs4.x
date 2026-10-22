@@ -1,4 +1,4 @@
-# DNS
+# DNS {#dns}
 
 **Uwaga**: zawartość tej strony dotyczy firmware v4.10 i wcześniejszych wersji.
 
@@ -26,21 +26,21 @@ Jeśli ustawisz własne serwery DNS, wszystkie zapytania DNS będą rozwiązywan
 
 - **Allow Custom DNS to Override VPN DNS:** Po włączeniu tej opcji, jeśli ustawisz własny DNS, pakiety przesyłane przez tunel VPN będą rozwiązywane przy użyciu niestandardowego DNS zamiast ustawień DNS pochodzących z połączeń VPN.
 
-## Ustawienia serwerów DNS
+## Ustawienia serwerów DNS {#dns-server-settings}
 
 Dostępne są cztery tryby: Automatic, Encrypted DNS, Manual DNS i DNS Proxy.
 
-### Automatic
+### Automatic {#automatic}
 
 W tym trybie router będzie automatycznie używał serwera DNS dostarczonego przez urządzenie nadrzędne (np. modem ISP, router główny) albo ustawień DNS odpowiadających poszczególnym interfejsom sieciowym.
 
 ![automatic](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/dns_auto.png){class="glboxshadow"}
 
-### Encrypted DNS
+### Encrypted DNS {#encrypted-dns}
 
 Zapoznaj się z poniższymi instrukcjami odpowiednimi dla swojej wersji firmware.
 
-#### Dla firmware v4.8 i wcześniejszych
+#### Dla firmware v4.8 i wcześniejszych {#for-firmware-v48-and-earlier}
 
 Dostępne są cztery typy szyfrowania: DNS over TLS, DNSCrypt-Proxy, DNS over HTTPS i Oblivious DNS over HTTPS.
 
@@ -56,7 +56,7 @@ Najpierw wybierz **Encryption Type**. Pozostałe opcje zmienią się w zależno�
 
     ![dnscrypt-proxy](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/dnscrypt-proxy.png){class="glboxshadow"}
 
-#### Dla firmware v4.9–v4.10
+#### Dla firmware v4.9–v4.10 {#for-firmware-v49-to-v410}
 
 Oprócz Control D, NextDNS i Cloudflare w trybie Encrypted DNS dostępnych jest teraz więcej dostawców DNS, w tym **Quad9**, **CleanBrowsing**, **AdGuard DNS**, **Google DNS** i **OpenDNS**. W razie potrzeby możesz też ręcznie określić szyfrowany serwer DNS.
 
@@ -76,7 +76,7 @@ Najpierw wybierz **DNS Provider**. Pozostałe opcje zmienią się w zależności
 
     ![encrypted manual2](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/encrypted_manual2.png){class="glboxshadow"}
 
-#### Porównanie typów szyfrowania
+#### Porównanie typów szyfrowania {#encryption-type-comparison}
 
 1. **DNS over TLS (DoT)**
 
@@ -98,19 +98,19 @@ Najpierw wybierz **DNS Provider**. Pozostałe opcje zmienią się w zależności
 
     Dojrzały protokół szyfrowania DNS. Uwierzytelnia i szyfruje ruch DNS, koncentrując się na ochronie przed manipulacją i kompatybilności ze starszymi środowiskami sieciowymi.
 
-### Manual DNS
+### Manual DNS {#manual-dns}
 
 W tym trybie możesz dostosować serwer DNS routera. Z listy rozwijanej wybierz co najmniej jeden **DNS Server** dla routera.
 
 ![manual dns](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/manual_dns.png){class="glboxshadow"}
 
-### DNS Proxy
+### DNS Proxy {#dns-proxy}
 
 W tym trybie router będzie kierować wszystkie zapytania DNS z sieci LAN na wskazany adres serwera proxy (np. `8.8.8.8#53`). Może to być przydatne, jeśli w Twojej sieci działa inny serwer DNS lub Pi-hole.
 
 ![dns proxy](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/dns_proxy.png){class="glboxshadow"}
 
-## Edycja Hosts
+## Edycja Hosts {#edit-hosts}
 
 Możesz kliknąć przycisk **Edit Hosts** w prawym górnym rogu, aby dostosować statyczne reguły hostów.
 

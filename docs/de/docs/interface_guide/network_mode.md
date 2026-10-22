@@ -1,4 +1,4 @@
-# Netzwerkmodus
+# Netzwerkmodus {#network-mode}
 
 Öffnen Sie auf der linken Seite des Web-Admin-Panels **NETWORK** -> **Network Mode**.
 
@@ -12,7 +12,7 @@ Der Netzwerkmodus bezeichnet die verschiedenen Betriebsrollen und Funktionen, di
 
     3. **Im Non-Router-Modus sind die folgenden Funktionen nicht verfügbar**: Access Control (Allowlist und Blocklist), AstroWarp, VPN, AdGuard Home, Parental Control, ZeroTier, Tailscale, Port Forwarding, Multi-WAN, DHCP Server, Address Reservation, Guest Network, DNS, Port Management, IPv6, Drop-in Gateway, IGMP Snooping, Network Acceleration, NAT Settings.
 
-## Für Modelle mit Wi-Fi
+## Für Modelle mit Wi-Fi {#for-models-with-wi-fi}
 
 Mit Ausnahme einiger spezieller Modelle verfügen die meisten GL.iNet-WLAN-Router über Wi-Fi-Funktionalität.
 
@@ -32,6 +32,8 @@ Modelle mit Wi-Fi-Funktion unterstützen in der Regel vier Netzwerkmodi: Router,
 
     Nach dem Wechsel in den Access-Point-Modus können Sie nicht mehr über die ursprüngliche LAN-IP-Adresse auf das Web-Admin-Panel zugreifen. Stattdessen müssen Sie sich am Upstream-Router anmelden, um die IP-Adresse zu finden, die er diesem AP zugewiesen hat, und diese IP-Adresse anschließend für den Zugriff auf das Web-Admin-Panel verwenden. Wenn Sie keinen Zugriff auf den Upstream-Router haben, halten Sie die Reset-Taste 4 Sekunden lang gedrückt, um zum Standardmodus Router zurückzukehren.
 
+    Einen Vergleich von Verbindungsarten, Leistung und Verwaltung finden Sie unter [Mesh, Extender und Access-Point-Modus im Vergleich](mesh.md#mesh-vs-extender-vs-access-point-mode).
+
     !!! tip
 
         Wenn Sie mehrere Access Points bereitstellen, können AP-Positionierung, Kanalauswahl, Abdeckungsüberlappung und Sendeleistung Roaming und Leistung beeinflussen. Weitere Hinweise zur Bereitstellung finden Sie unter [Wi-Fi-Abdeckung, Access Points und Sendeleistung verstehen](../tutorials/understanding_wifi_coverage_access_points_and_transmit_power.md).
@@ -40,7 +42,9 @@ Modelle mit Wi-Fi-Funktion unterstützen in der Regel vier Netzwerkmodi: Router,
 
 - **Extender**: Dieser Modus wurde entwickelt, um die Wi-Fi-Abdeckung eines bestehenden Drahtlosnetzwerks zu erweitern und Funklöcher in Bereichen mit schlechter Verbindung zu beseitigen.
 
-    Er ermöglicht es dem Router, Signale vom Hauptrouter drahtlos zu empfangen, zu verstärken und erneut auszusenden. Im Gegensatz zum Access-Point-Modus ist dafür keine Kabelverbindung zum Hauptrouter erforderlich. Allerdings kann sich die verfügbare Bandbreite halbieren, da das Gerät gleichzeitig Signale empfangen und senden muss.
+    Im Extender-Modus verbindet sich das Gerät mit einem bestehenden Wi-Fi-Netzwerk und leitet Datenverkehr weiter, um die Abdeckung ohne Ethernet-Verbindung zum Hauptrouter zu erweitern. Wenn die Upstream-Verbindung und die verbundenen Clients dasselbe Wi-Fi-Funkmodul und denselben Kanal nutzen, beanspruchen Empfang und erneute Übertragung zusätzliche Sendezeit und können den Durchsatz verringern.
+
+    Einen Vergleich von Verbindungsarten, Leistung und Verwaltung finden Sie unter [Mesh, Extender und Access-Point-Modus im Vergleich](mesh.md#mesh-vs-extender-vs-access-point-mode).
 
     Im Extender-Modus können Sie weiterhin über die ursprüngliche LAN-IP-Adresse auf das Web-Admin-Panel zugreifen.
 
@@ -52,7 +56,7 @@ Modelle mit Wi-Fi-Funktion unterstützen in der Regel vier Netzwerkmodi: Router,
 
     Nach dem Wechsel in den WDS-Modus können Sie nicht mehr über die ursprüngliche LAN-IP-Adresse auf das Web-Admin-Panel zugreifen. Stattdessen müssen Sie sich am Upstream-Router anmelden, um die IP-Adresse zu finden, die er diesem WDS-Router zugewiesen hat, und diese IP-Adresse anschließend für den Zugriff auf das Web-Admin-Panel verwenden. Wenn Sie keinen Zugriff auf den Upstream-Router haben, halten Sie die Reset-Taste 4 Sekunden lang gedrückt, um zum Standardmodus Router zurückzukehren.
 
-## Für Modelle ohne Wi-Fi
+## Für Modelle ohne Wi-Fi {#for-models-without-wi-fi}
 
 GL-MT2500/GL-MT2500A unterstützt weder Access Point, Extender noch WDS, da diese Modelle keine Wi-Fi-Funktion besitzen. Unterstützt werden jedoch Router und Bridge.
 

@@ -1,12 +1,12 @@
-# Przewodnik użytkownika Puli AX (GL-XE3000)
+# Przewodnik użytkownika Puli AX (GL-XE3000) {#puli-ax-gl-xe3000-user-guide}
 
-## Przegląd produktu
+## Przegląd produktu {#product-overview}
 
 Puli AX (GL-XE3000) to najwyższej klasy router komórkowy 5G z Wi-Fi 6, który przenosi szybkość internetu na zupełnie nowy poziom! Dzięki wbudowanemu akumulatorowi o pojemności 6400 mAh / 7,4 V / 47,4 Wh możesz cieszyć się nieprzerwanym połączeniem internetowym jeszcze dłużej. Osiąga błyskawiczne prędkości Wi-Fi do 574 Mbps (2.4GHz) i 2402 Mbps (5GHz), z łączną maksymalną prędkością Wi-Fi wynoszącą 3000 Mbps. Wyposażony w moduł 5G NR zapewnia ciągłość połączenia z internetem, nawet w przypadku awarii łącza Ethernet.
 
 ![xe3000_interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe3000/hardware_info/xe3000_interface.jpg){class="glboxshadow"}
 
-## Zawartość opakowania
+## Zawartość opakowania {#package-contents}
 
 - 1 x Puli AX (GL-XE3000)
 - 1 x Instrukcja obsługi
@@ -18,11 +18,22 @@ Puli AX (GL-XE3000) to najwyższej klasy router komórkowy 5G z Wi-Fi 6, który 
 
 ![xe3000_unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe3000/first_time_setup/xe3000_unboxing.jpg){class="glboxshadow"}
 
-## Wskaźniki LED 
+## Wskaźniki LED {#led-indicators}
 
-[Stan wskaźników LED](../../faq/led.md#gl-xe3000){target="_blank"}
+Poniżej opisano stany diod LED dla różnych zdarzeń. Wszystkie stany poszczególnych diod opisano w sekcji [Stan wskaźników LED GL-XE3000](../../faq/led.md#gl-xe3000){target="_blank"}.
 
-## Jak skonfigurować Puli AX
+| Stan urządzenia | Zasilanie | Internet | 2.4GHz | 5GHz | Cellular |
+| --- | --- | --- | --- | --- | --- |
+| Połączenie z internetem (Cellular aktywny) | Świeci na zielono | Świeci na zielono | Świeci na zielono | Świeci na zielono | Świeci na zielono |
+| Połączenie z internetem (Cellular nieaktywny) | Świeci na zielono | Świeci na zielono | Świeci na zielono | Świeci na zielono | Wyłączona |
+| Brak połączenia z internetem | Świeci na zielono | Wyłączona | Świeci na zielono | Świeci na zielono | Wyłączona |
+| Aktualizacja firmware | Świeci na zielono | Miga co 0,5 s | Miga co 0,5 s | Miga co 0,5 s | Świeci na zielono |
+| Reset sieci (przytrzymaj reset przez 5 s) | Miga co 1 s | Świeci na zielono | Świeci na zielono | Świeci na zielono | Świeci na zielono |
+| Reset fabryczny (przytrzymaj reset przez 10 s) | Miga co 0,25 s | Świeci na zielono | Świeci na zielono | Świeci na zielono | Świeci na zielono |
+
+**Wskazówka**: Gdy router jest połączony z internetem, migająca dioda 2.4GHz lub 5GHz oznacza, że urządzenia Wi-Fi są podłączone i aktywnie przesyłają dane.
+
+## Jak skonfigurować Puli AX {#how-to-set-up-puli-ax}
 
 Obejrzyj ten film instruktażowy lub wykonaj poniższe kroki. 
 
@@ -36,11 +47,11 @@ Obejrzyj ten film instruktażowy lub wykonaj poniższe kroki.
     2. Wyłącz router.
     3. Włóż kartę(-y) SIM do gniazd SIM. (**Uwaga:** W danym momencie aktywna jest tylko jedna karta SIM. Druga karta SIM pełni jedynie funkcję zapasową.)
 
-### 1. Włącz zasilanie
+### 1. Włącz zasilanie {#1-power-on}
 
 Złóż dwuczęściowy zasilacz. Podłącz go do routera i włóż do gniazdka elektrycznego. Router uruchomi się automatycznie.
 
-### 2. Podłącz urządzenie
+### 2. Podłącz urządzenie {#2-connect-device}
 
 Podłącz urządzenie (np. komputer, laptop lub smartfon) do routera przez Wi-Fi lub Ethernet.
 
@@ -52,13 +63,13 @@ Podłącz urządzenie (np. komputer, laptop lub smartfon) do routera przez Wi-Fi
 
     Na urządzeniu znajdź nazwę sieci Wi-Fi routera na liście dostępnych sieci i wprowadź hasło. Domyślną nazwę sieci i hasło znajdziesz na etykiecie routera.
 
-### 3. Zaloguj się do panelu administracyjnego
+### 3. Zaloguj się do panelu administracyjnego {#3-log-in-to-web-admin-panel}
 
 Otwórz przeglądarkę internetową, wpisz `192.168.8.1` w pasku adresu i zaloguj się. Wybierz język i ustaw hasło administratora, a następnie kliknij **Apply**. 
 
 Podczas potwierdzania danych Wi‑Fi pamiętaj, że jeśli zmienisz informacje o Wi‑Fi, musisz ponownie połączyć urządzenie z siecią Wi‑Fi routera, używając zaktualizowanych danych logowania.
 
-### 4. Konfiguracja internetu
+### 4. Konfiguracja internetu {#4-internet-setup}
 
 **Uwaga:** Poniższe instrukcje dotyczą użytkowników konfigurujących router za pomocą panelu GL.iNet Web Admin Panel. Jeśli wolisz używać aplikacji GL.iNet, [pobierz aplikację](https://www.gl-inet.com/app/){target="_blank"} i postępuj zgodnie z instrukcjami wyświetlanymi na ekranie.
 
@@ -114,7 +125,7 @@ Skonfiguruj Puli AX, korzystając z jednej z obsługiwanych metod połączenia z
 
 ---
 
-## Jak skonfigurować VPN
+## Jak skonfigurować VPN {#how-to-set-up-a-vpn}
 
 VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie między Twoim urządzeniem a serwerem VPN. Zapewnia dodatkową warstwę prywatności i bezpieczeństwa (klient VPN) oraz umożliwia dostęp do sieci zdalnej (serwer VPN). Puli AX (oraz inne routery GL.iNet) obsługuje OpenVPN i WireGuard. Dodatkowo obsługuje Tor.
 
@@ -138,7 +149,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie międz
     
     * [Jak skonfigurować Tor](../../interface_guide/tor.md).
 
-## Sieć bezprzewodowa i klienci
+## Sieć bezprzewodowa i klienci {#wireless-and-clients}
 
 === "Wireless"
 
@@ -152,7 +163,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie międz
 
     Aby skonfigurować ustawienia Clients, zobacz [Clients](../../interface_guide/clients.md).
 
-## Usługi chmurowe
+## Usługi chmurowe {#cloud-services}
 
 === "GoodCloud"
 
@@ -166,7 +177,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie międz
     
     Aby skonfigurować AstroWarp, zobacz [AstroWarp](../../interface_guide/astrowarp.md).
 
-## Aplikacje
+## Aplikacje {#applications}
 
 === "Plug-ins"
 
@@ -220,7 +231,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie międz
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/hyHh8pAxgVw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Ustawienia sieci
+## Ustawienia sieci {#network-settings}
 
 === "Port forwarding"
 
@@ -298,7 +309,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie międz
 
     Aby skonfigurować ustawienia NAT, zobacz [NAT Settings](../../interface_guide/nat_settings.md).
 
-## Ustawienia systemu
+## Ustawienia systemu {#system-settings}
 
 === "Overview"
 

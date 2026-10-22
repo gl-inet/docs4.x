@@ -1,6 +1,6 @@
-# Flint 2 (GL-MT6000) Benutzerhandbuch
+# Flint 2 (GL-MT6000) Benutzerhandbuch {#flint-2-gl-mt6000-user-guide}
 
-## Sicherheitshinweise
+## Sicherheitshinweise {#safety-information}
 
 Lesen Sie vor der Verwendung des Geräts alle nachstehenden Sicherheitsinformationen sorgfältig durch. Die nachfolgenden Sicherheitsempfehlungen können nicht sämtliche möglicherweise auftretenden Gefahrensituationen abdecken.
 
@@ -30,13 +30,13 @@ Unsachgemäßes Öffnen oder unsachgemäße Instandsetzung kann den Benutzer des
 
 Schalten Sie bei einem Störfall zuerst den Netzschalter aus.
 
-## Produktübersicht
+## Produktübersicht {#product-overview}
 
 Flint 2 (GL-MT6000) ist ein Wi-Fi-6-Router für Zuhause und Büro, der sich ideal für datenintensive Übertragungen, viele gleichzeitig verbundene Geräte oder Gaming-Umgebungen mit extrem geringer Latenz eignet. Flint 2 bietet besonders schnelle WireGuard-VPN-Geschwindigkeiten von bis zu 900 Mbit/s. Darüber hinaus unterstützt er erweiterte Netzwerkredundanzen wie Multi-WAN, Failover und Lastverteilung, um ein unterbrechungsfreies Netzwerk sicherzustellen.
 
 ![gl-mt6000 interface](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-mt6000/hardware_info/gl-mt6000_interface.jpg){class="glboxshadow"}
 
-## Lieferumfang
+## Lieferumfang {#package-contents}
 
 - 1 x Flint 2 (GL-MT6000)
 - 1 x Benutzerhandbuch
@@ -51,18 +51,18 @@ Sehen Sie sich unten das Unboxing-Video von Flint 2 an.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ru1O-zxKgKg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## So richten Sie Flint 2 ein
+## So richten Sie Flint 2 ein {#how-to-set-up-flint-2}
 
 Sehen Sie sich dieses Einrichtungsvideo an oder folgen Sie den untenstehenden Schritten.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZAVn92F5RV8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <small>(Dieses Video verwendet einen anderen GL.iNet-Router zur Demonstration der Einrichtung, die Schritte sind jedoch bei Flint 2 und anderen Routermodellen identisch.)</small>
 
-### 1. Einschalten
+### 1. Einschalten {#1-power-on}
 
 Setzen Sie den zweiteiligen Netzadapter zusammen. Schließen Sie ihn an Ihren Router an und stecken Sie ihn in eine Steckdose. Das Gerät startet automatisch.
 
-### 2. Gerät verbinden
+### 2. Gerät verbinden {#2-connect-device}
 
 Verbinden Sie ein Gerät (z. B. Computer, Laptop oder Smartphone) per Wi-Fi oder Ethernet mit dem Router.
 
@@ -74,13 +74,13 @@ Verbinden Sie ein Gerät (z. B. Computer, Laptop oder Smartphone) per Wi-Fi oder
 
   Suchen Sie auf Ihrem Gerät in der Liste der verfügbaren Netzwerke den Wi-Fi-Netzwerknamen Ihres Routers und geben Sie das Passwort ein. Den Standard-Netzwerknamen und das Standard-Passwort finden Sie auf dem Etikett des Routers.
 
-### 3. Im Web-Admin-Panel anmelden
+### 3. Im Web-Admin-Panel anmelden {#3-log-in-to-web-admin-panel}
 
 Öffnen Sie einen Webbrowser, geben Sie `192.168.8.1` in die Adressleiste ein und melden Sie sich an. Wählen Sie Ihre Sprache aus und legen Sie Ihr Admin-Passwort fest. Klicken Sie anschließend auf **Apply**.
 
 Beachten Sie beim Bestätigen der Wi‑Fi-Daten: Wenn Sie die Wi‑Fi-Informationen ändern, müssen Sie Ihr Gerät mit den aktualisierten Zugangsdaten erneut mit dem Wi‑Fi des Routers verbinden.
 
-### 4. Internet einrichten
+### 4. Internet einrichten {#4-internet-setup}
 
 **Hinweis:** Die folgenden Anweisungen gelten für Benutzer, die den Router über das GL.iNet Web-Admin-Panel konfigurieren. Wenn Sie lieber die GL.iNet-App verwenden möchten, [laden Sie die App herunter](https://www.gl-inet.com/app/){target="_blank"} und folgen Sie den Anweisungen auf dem Bildschirm.
 
@@ -132,7 +132,7 @@ Richten Sie Flint 2 mit einer der unterstützten Internetverbindungsmethoden ein
 
 ---
 
-## So richten Sie ein VPN ein
+## So richten Sie ein VPN ein {#how-to-set-up-a-vpn}
 
 Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten Datenverkehr zwischen Ihrem Gerät und dem VPN-Server. Es bietet eine zusätzliche Ebene für Datenschutz und Sicherheit (VPN-Client) und ermöglicht Ihnen den Zugriff auf ein entferntes Netzwerk (VPN-Server). Flint 2 und andere GL.iNet-Router unterstützen OpenVPN und WireGuard. Zusätzlich wird Tor unterstützt.
 
@@ -156,7 +156,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     * [So richten Sie Tor ein](../../interface_guide/tor.md).
 
-## WLAN und Clients
+## WLAN und Clients {#wireless-and-clients}
 
 === "Wireless"
 
@@ -170,7 +170,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     Zum Einrichten von Clients lesen Sie bitte [Clients](../../interface_guide/clients.md).
 
-## Cloud-Dienste
+## Cloud-Dienste {#cloud-services}
 
 === "GoodCloud"
 
@@ -184,7 +184,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     Zum Einrichten von AstroWarp lesen Sie bitte [AstroWarp](../../interface_guide/astrowarp.md).
 
-## Anwendungen
+## Anwendungen {#applications}
 
 === "Plug-ins"
 
@@ -234,7 +234,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
 ---
 
-## Netzwerkeinstellungen
+## Netzwerkeinstellungen {#network-settings}
 
 === "Portweiterleitung"
 
@@ -314,7 +314,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
 ---
 
-## Systemeinstellungen
+## Systemeinstellungen {#system-settings}
 
 === "Overview"
 
@@ -403,6 +403,6 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     Detaillierte Anweisungen finden Sie unter [Advanced Settings](../../interface_guide/advanced_settings.md).
 
-## Konformitätserklärung
+## Konformitätserklärung {#declaration-of-conformity}
 
 Hiermit erklärt GL TECHNOLOGIES (HONG KONG) LIMITED, dass der Funkanlagetyp [AX6000 Wireless Router, GL-MT6000] den grundlegenden Anforderungen und den übrigen einschlägigen Bestimmungen der Richtlinie 2014/53/EU entspricht. Der vollständige Text der EU-Konformitätserklärung ist unter der folgenden Internetadresse verfügbar: [https://www.gl-inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}.

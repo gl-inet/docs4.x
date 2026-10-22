@@ -1,12 +1,12 @@
-# Guide d'utilisation de Brume 2 (GL-MT2500/GL-MT2500A)
+# Guide d'utilisation de Brume 2 (GL-MT2500/GL-MT2500A) {#brume-2-gl-mt2500gl-mt2500a-user-guide}
 
-## Aperçu du produit
+## Aperçu du produit {#product-overview}
 
 Brume 2 (GL-MT2500/GL-MT2500A) est une passerelle VPN légère et puissante qui fonctionne sous OpenWrt v21.02. Son format compact est idéal pour héberger un serveur VPN à domicile ou exécuter un SD-WAN (site-to-site) pour les petites et moyennes entreprises. Il existe en deux variantes : le GL-MT2500 avec un boîtier en plastique et le GL-MT2500A avec un boîtier en aluminium.
 
 ![gl-mt2500 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/hardware_info/mt2500_interface.jpg){class="glboxshadow"}
 
-## Contenu du colis
+## Contenu du colis {#package-contents}
 
 - 1 x Brume 2 (GL-MT2500/GL-MT2500A)
 - 1 x Manuel d'utilisation
@@ -20,25 +20,25 @@ La figure suivante montre le GL-MT2500A à titre d'exemple.
 
 ![gl-mt2500 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/first_time_setup/mt2500a_unboxing.jpg){class="glboxshadow"}
 
-## Comment configurer Brume 2
+## Comment configurer Brume 2 {#how-to-set-up-brume-2}
 
 Pour configurer Brume 2, utilisez l'une des méthodes de connexion Internet prises en charge : Ethernet, Tethering et Cellular. Repeater n'est pas pris en charge, car Brume 2 ne dispose pas de module Wi‑Fi. Regardez cette vidéo de configuration ou suivez les étapes ci-dessous.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rpi_loOwUQM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Mise sous tension
+### 1. Mise sous tension {#1-power-on}
 
 Assemblez les deux parties de l'adaptateur secteur. Branchez-le à votre routeur puis sur une prise électrique. Il démarre automatiquement.
 
-### 2. Connecter un appareil
+### 2. Connecter un appareil {#2-connect-device}
 
 Connectez votre appareil (par exemple un ordinateur de bureau ou un ordinateur portable) au port LAN du routeur à l'aide d'un câble Ethernet.
 
-### 3. Se connecter au panneau d'administration web
+### 3. Se connecter au panneau d'administration web {#3-log-in-to-web-admin-panel}
 
 Ouvrez un navigateur web, saisissez `192.168.8.1` dans la barre d'adresse et connectez-vous. Choisissez votre langue et définissez votre mot de passe administrateur, puis cliquez sur **Apply**. 
 
-### 4. Configuration de la connexion Internet
+### 4. Configuration de la connexion Internet {#4-internet-setup}
 
 === "Ethernet"
 
@@ -74,7 +74,7 @@ Ouvrez un navigateur web, saisissez `192.168.8.1` dans la barre d'adresse et con
 
 **Remarque :** si vous souhaitez utiliser la fonctionnalité [Multi-WAN](../../interface_guide/multi-wan.md), veuillez configurer plusieurs méthodes de connexion Internet.
 
-## Comment configurer un VPN 
+## Comment configurer un VPN {#how-to-set-up-a-vpn}
 
 Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre votre appareil et le serveur VPN. Il ajoute une couche supplémentaire de confidentialité et de sécurité (client VPN) et vous permet d'accéder à un réseau distant (serveur VPN). Brume 2 (comme les autres routeurs GL.iNet) prend en charge OpenVPN et WireGuard. Il prend également en charge Tor.
 
@@ -98,13 +98,13 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
     
     * [Comment configurer Tor](../../interface_guide/tor.md).
 
-## Clients
+## Clients {#clients}
 
 La page Clients affiche des informations sur les appareils connectés. Pour chaque client, elle indique le nom de l'appareil, les adresses IP et MAC, les vitesses de téléchargement et d'envoi, le trafic total, et permet de réserver une IP, de bloquer le client ou d'effectuer d'autres actions.
 
 Pour configurer les clients, consultez [Clients](../../interface_guide/clients.md).
 
-## Services Cloud
+## Services Cloud {#cloud-services}
 
 === "GoodCloud"
 
@@ -118,7 +118,7 @@ Pour configurer les clients, consultez [Clients](../../interface_guide/clients.m
     
     Pour configurer AstroWarp, consultez [AstroWarp](../../interface_guide/astrowarp.md).
 
-## Applications
+## Applications {#applications}
 
 === "Plug-ins"
 
@@ -148,7 +148,7 @@ Pour configurer les clients, consultez [Clients](../../interface_guide/clients.m
 
 === "Contrôle parental"
 
-    Le contrôle parental est un ensemble de paramètres conçu pour vous aider à gérer et à contrôler les appareils de vos enfants. Il comprend notamment la limitation du temps d'écran et la restriction de l'accès à certains contenus. Brume 2 propose deux options de contrôle parental : une version locale développée par GL.iNet et une version intégrée de Bark, une application de contrôle parental.
+    Le contrôle parental est un ensemble de paramètres conçu pour vous aider à gérer et à contrôler les appareils de vos enfants. Il comprend notamment la limitation du temps d'écran et la restriction de l'accès à certains contenus.
 
     Pour configurer le contrôle parental, consultez [contrôle parental](../../interface_guide/parental_control.md).
 
@@ -166,7 +166,7 @@ Pour configurer les clients, consultez [Clients](../../interface_guide/clients.m
     
     Pour configurer Tailscale, consultez [Tailscale](../../interface_guide/tailscale.md).
 
-## Paramètres réseau
+## Paramètres réseau {#network-settings}
 
 === "Redirection de ports"
 
@@ -174,7 +174,7 @@ Pour configurer les clients, consultez [Clients](../../interface_guide/clients.m
 
 === "Multi-WAN"
 
-    Multi-WAN est une fonctionnalité réseau qui vous permet de configurer simultanément plusieurs connexions Internet sur votre routeur (par exemple Cellular, Repeater et Ethernet). Si votre connexion Internet actuelle échoue, le routeur bascule automatiquement vers une autre connexion. Cela garantit un accès Internet fluide et ininterrompu.
+    Multi-WAN est une fonctionnalité réseau qui vous permet de configurer simultanément plusieurs connexions Internet sur votre routeur (par exemple Ethernet, Tethering et Cellular). Si votre connexion Internet actuelle échoue, le routeur bascule automatiquement vers une autre connexion. Cela garantit un accès Internet fluide et ininterrompu.
 
     Pour configurer le Multi-WAN, consultez [Multi-WAN](../../interface_guide/multi-wan.md).
 
@@ -236,7 +236,7 @@ Pour configurer les clients, consultez [Clients](../../interface_guide/clients.m
 
     Pour configurer les paramètres NAT, consultez [Paramètres NAT](../../interface_guide/nat_settings.md).
 
-## Paramètres système
+## Paramètres système {#system-settings}
 
 === "Aperçu"
 

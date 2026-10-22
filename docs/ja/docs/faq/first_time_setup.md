@@ -1,4 +1,4 @@
-# 初めてのセットアップ
+# 初回セットアップ {#first-time-setup}
 
 GL.iNetルーターの初回セットアップ手順は、どのモデルでもほぼ同じです。ほとんどのモデルにはWi-Fiモジュールが搭載されていますが、一部のモデルには搭載されていません。
 
@@ -105,4 +105,4 @@ GL.iNetルーターの初回セットアップ手順は、どのモデルでも�
 
 ---
 
-まだご質問はありますか？[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}または[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}をご覧ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

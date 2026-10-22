@@ -1,4 +1,4 @@
-# Tailscale
+# Tailscale {#tailscale}
 
 Tailscale est un service VPN qui permet d'accéder à vos appareils et applications partout dans le monde, de manière sécurisée et simple. Pour plus d'informations sur Tailscale, veuillez consulter le [site officiel de Tailscale](https://tailscale.com/){target="_blank"}.
 
@@ -12,7 +12,7 @@ La fonctionnalité Tailscale des routeurs GL.iNet, disponible depuis le firmware
 
 3. Certains modèles, bien qu'ils exécutent le firmware v4.2 ou une version ultérieure, ne prennent pas en charge Tailscale en raison d'une mémoire insuffisante.
 
-## Modèles pris en charge
+## Modèles pris en charge {#supported-models}
 
 ??? "Modèles pris en charge"
     - GL-MT6000 (Fortify)
@@ -50,7 +50,7 @@ La fonctionnalité Tailscale des routeurs GL.iNet, disponible depuis le firmware
     - GL-S1300 (Convexa-S)
     - GL-X300B (Collie)
 
-## Configurer un réseau Tailscale
+## Configurer un réseau Tailscale {#set-up-tailscale-network}
 
 L'exemple ci-dessous utilise le GL-MT2500.
 
@@ -104,7 +104,7 @@ L'exemple ci-dessous utilise le GL-MT2500.
 
         ![web admin panel](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/web_admin_panel.png){class="glboxshadow gl-80-desktop"}
 
-## Autoriser l'accès à distance au WAN
+## Autoriser l'accès à distance au WAN {#allow-remote-access-wan}
 
 > Cette fonction a été renommée **Advertise WAN Subnets** dans le firmware v4.9 et les versions ultérieures.
 
@@ -136,7 +136,7 @@ Les étapes sont les suivantes.
 
     ![accès à l'AXT1800 via Tailscale](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/tailscale_access_axt1800.jpg){class="glboxshadow gl-50-desktop"}
 
-## Autoriser l'accès à distance au LAN
+## Autoriser l'accès à distance au LAN {#allow-remote-access-lan}
 
 > Cette fonction a été renommée **Advertise LAN Subnets** dans le firmware v4.9 et les versions ultérieures.
 
@@ -168,7 +168,7 @@ Les étapes sont les suivantes.
 
     ![accès à Ubuntu via Tailscale](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/tailscale_access_ubuntu.png){class="glboxshadow gl-80-desktop"}
 
-## Nœuds de sortie personnalisés
+## Nœuds de sortie personnalisés {#custom-exit-nodes}
 
 Par défaut, Tailscale fonctionne comme un réseau superposé : il achemine uniquement le trafic entre les appareils exécutant Tailscale et ne traite pas votre trafic Internet public, par exemple lorsque vous consultez des sites web comme Google.
 
@@ -224,7 +224,7 @@ Dans l’exemple suivant, un routeur GL.iNet **GL-MT2500** et un **Leo-Desktop**
 
     Pour résoudre ce problème, activez les routes de sous-réseau du routeur dans la console d’administration Tailscale comme indiqué à l’**étape 1** ci-dessus.
 
-## Run Exit Node
+## Run Exit Node {#run-exit-node}
 
 > Cette fonction est introduite avec le firmware v4.9.
 

@@ -1,4 +1,4 @@
-# Conectarse a Internet mediante red celular (v4.10)
+# Conectarse a Internet mediante red celular (v4.10) {#connect-to-the-internet-via-cellular-v410}
 
 El contenido de esta página se basa en las versiones de firmware v4.10 y posteriores. Si su dispositivo ejecuta otra versión de firmware, use el selector siguiente para cambiar a la guía correspondiente.
 
@@ -15,21 +15,21 @@ La mayoría de los routers GL.iNet admiten conectividad celular. Esta guía pres
 
 1. **Routers celulares**
 
-    Los routers celulares GL.iNet incluyen un módulo 4G/5G integrado y una o dos ranuras para tarjetas SIM, como Spitz AX (GL-X3000) y Mudi 7 (GL-E5800). La configuración celular del panel de administración web puede variar ligeramente según el modelo y la versión de firmware. Para configurar la conexión celular de estos modelos, consulte [Routers celulares](#routers-celulares).
+    Los routers celulares GL.iNet incluyen un módulo 4G/5G integrado y una o dos ranuras para tarjetas SIM, como Spitz AX (GL-X3000) y Mudi 7 (GL-E5800). La configuración celular del panel de administración web puede variar ligeramente según el modelo y la versión de firmware. Para configurar la conexión celular de estos modelos, consulte [Routers celulares](#cellular-routers).
 
 2. **Routers no celulares**
 
-    Son otros tipos de routers, como los routers domésticos, de viaje y mini, además de las puertas de enlace de seguridad. Suelen disponer de un puerto USB al que puede conectarse un dongle USB (no incluido) para obtener conectividad celular. Para configurar la conexión celular de estos modelos, consulte [Routers no celulares](#routers-no-celulares).
+    Son otros tipos de routers, como los routers domésticos, de viaje y mini, además de las puertas de enlace de seguridad. Suelen disponer de un puerto USB al que puede conectarse un dongle USB (no incluido) para obtener conectividad celular. Para configurar la conexión celular de estos modelos, consulte [Routers no celulares](#non-cellular-routers).
 
 **Nota:** Algunas tarjetas SIM deben activarse antes del primer uso. Para garantizar la compatibilidad, active la tarjeta SIM en un smartphone antes de insertarla en el router.
 
-## Routers celulares
+## Routers celulares {#cellular-routers}
 
 En esta sección se usa **Mudi 7 (GL-E5800)** como ejemplo para explicar los pasos de configuración celular y las funciones relacionadas.
 
 Como Mudi 7 dispone de una eSIM integrada y dos ranuras Nano-SIM, y admite Dual SIM Dual Standby, su panel de administración web puede diferir ligeramente del de otros routers celulares, especialmente de los que solo tienen una ranura SIM.
 
-### Configuración de red
+### Configuración de red {#network-setup}
 
 Inicie sesión en el panel de administración web del router y vaya a **INTERNET** -> **Cellular**.
 
@@ -77,7 +77,7 @@ Inicie sesión en el panel de administración web del router y vaya a **INTERNET
 
     - **Authentication**: Normalmente se establece en NONE si no se requieren credenciales. Puede seleccionar PAP, CHAP o PAP/CHAP.
 
-### Estadísticas de tráfico
+### Estadísticas de tráfico {#traffic-statistics}
 
 Para ver las estadísticas de tráfico, haga clic en **Data Usage**.
 
@@ -99,7 +99,7 @@ Defina Data Cap Amount, Data Reset Period, Start Day y Start Hour y, a continuac
 
 3. Start Day: El número máximo de días corresponde al número real de días del mes actual.
 
-### Detalles de la conexión celular
+### Detalles de la conexión celular {#cellular-details}
 
 Para ver los detalles de la conexión celular, haga clic en **Details & Configuration**.
 
@@ -129,7 +129,7 @@ En **Cellular Information** puede ver Network Type, TAC, Cell ID, Band y Signal 
 
     ![signal history](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/signal_history.png){class="glboxshadow"}
 
-### Enmascaramiento de bandas
+### Enmascaramiento de bandas {#band-masking}
 
 Band Masking permite usar bandas celulares específicas para mejorar la señal celular.
 
@@ -141,7 +141,7 @@ En **Cellular Settings**, habilite **Band Masking**, seleccione las bandas que d
 
 ![band masking](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/band_masking.png){class="glboxshadow"}
 
-### Bloqueo de operador
+### Bloqueo de operador {#lock-operator}
 
 !!! note "Modelos compatibles"
 
@@ -182,7 +182,7 @@ La señal celular quedará bloqueada en el operador seleccionado.
 
 ![lock operator](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/lock_operator4.jpg){class="glboxshadow"}
 
-### Bloqueo de torre
+### Bloqueo de torre {#lock-tower}
 
 !!! note "Modelos compatibles"
 
@@ -227,21 +227,21 @@ La señal celular quedará bloqueada en la torre seleccionada.
 
 3. Si mueve el router a otra ubicación después de bloquear una torre, seguirá intentando conectarse a ella tras reiniciarse. Esto puede impedir que se conecte automáticamente a la red celular en la nueva ubicación. En ese caso, desbloquee la torre actual o bloquee manualmente una nueva.
 
-### SMS
+### SMS {#sms}
 
 Consulte [SMS](../tutorials/sms.md).
 
-### Reenvío de SMS
+### Reenvío de SMS {#sms-forwarding}
 
 Consulte [SMS Forwarding](../tutorials/sms_forwarding.md).
 
-### Modo avión
+### Modo avión {#airplane-mode}
 
 Para habilitar Airplane Mode, haga clic en el icono de engranaje de la esquina superior derecha y active **Airplane Mode**.
 
 ![settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/settings.png){class="glboxshadow"}
 
-### Información del módem
+### Información del módem {#modem-information}
 
 Para ver los detalles del módem, haga clic en el icono de engranaje de la esquina superior derecha y seleccione **Modem Information**.
 
@@ -249,7 +249,7 @@ Para ver los detalles del módem, haga clic en el icono de engranaje de la esqui
 
 ![modem info](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/modem_info.png){class="glboxshadow"}
 
-### Conmutación por error de SIM
+### Conmutación por error de SIM {#sim-failover}
 
 Esta función solo está disponible en routers celulares compatibles con Dual-SIM.
 
@@ -267,7 +267,7 @@ Si desea que el router vuelva a la SIM preferida a una hora determinada del día
 
 ![sim failover](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/sim_failover.png){class="glboxshadow"}
 
-### Comando AT
+### Comando AT {#at-command}
 
 Los comandos AT son instrucciones estándar para comunicarse con el módem celular. Con esta función puede enviar comandos y comprobar el estado del módem.
 
@@ -291,7 +291,7 @@ Haga clic en el icono de engranaje de la esquina superior derecha y seleccione *
 
 - **AT Command**: Introduzca el comando deseado en este campo cuando Shortcut esté configurado como «Manual command».
 
-## Routers no celulares
+## Routers no celulares {#non-cellular-routers}
 
 Aunque los routers no celulares no disponen de un módem celular integrado, puede conectar un dongle USB externo (no incluido) a su puerto USB para obtener conectividad celular.
 
@@ -303,7 +303,7 @@ Los distintos dongles o módems USB pueden funcionar en modos diferentes: modo d
 
 Consulte el apartado correspondiente según el modo de funcionamiento del dongle USB.
 
-### Módem USB estándar
+### Módem USB estándar {#standard-usb-modem}
 
 En esta sección se usan **Mango 2 (GL-MG1300)** y la placa de desarrollo 5G [GL-M2](https://www.gl-inet.com/products/gl-m2){target="_blank"} (módulo 5G NR: RM520N-GL) como ejemplo para explicar los pasos de configuración celular y las funciones relacionadas.
 
@@ -381,7 +381,7 @@ En esta sección se usan **Mango 2 (GL-MG1300)** y la placa de desarrollo 5G [GL
 
     - **AT Command**: Introduzca el comando deseado en este campo cuando Shortcut esté configurado como «Manual command».
 
-### Dongle host-less
+### Dongle host-less {#hostless-dongle}
 
 En esta sección se usan **Flint 3 (GL-BE9300)** y el dongle USB externo [SIMPoYo uFi](https://www.gl-inet.com/products/simpoyo-ufi){target="_blank"} como ejemplo para explicar la configuración celular.
 
@@ -399,7 +399,7 @@ En esta sección se usan **Flint 3 (GL-BE9300)** y el dongle USB externo [SIMPoY
 
     ![tethering 3](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/tethering3.png){class="glboxshadow"}
 
-4. Si necesita configurar el APN y otros ajustes de la SIM instalada en SIMPoYo uFi, consulte [Gestionar SIMPoYo uFi](../user_guide/simpoyo-4g-ufi/index.md#gestionar-simpoyo-ufi).
+4. Si necesita configurar el APN y otros ajustes de la SIM instalada en SIMPoYo uFi, consulte [Gestionar SIMPoYo uFi](../user_guide/simpoyo-4g-ufi/index.md#manage-simpoyo-ufi).
 
 ---
 

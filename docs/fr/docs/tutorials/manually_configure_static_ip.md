@@ -1,197 +1,174 @@
-# Comment configurer manuellement une IP statique sur les appareils clients ?
+# Comment configurer manuellement une IP statique sur les appareils clients ? {#how-to-manually-configure-static-ip-on-the-client-devices}
 
 === "Windows 11"
 
-    Sous Windows 11, vous pouvez définir une configuration d'adresse IP statique à partir de l'application Paramètres pour les adaptateurs sans fil et filaires.
+    Sous Windows 11, vous pouvez définir une adresse IP statique pour les adaptateurs sans fil et filaires.
 
-    **Définir une adresse IP statique sur l'adaptateur Wi-Fi**
+    **Définir une adresse IP statique sur l’adaptateur Wi-Fi**
 
-    Pour attribuer une configuration d'adresse IP statique à un adaptateur Wi-Fi, procédez comme suit :
+    1. Sur un PC Windows 11, accédez à **Settings** -> **Network & internet** -> **Wi-Fi** et sélectionnez la connexion Wi-Fi actuelle.
 
-    1. Ouvrez les Paramètres sous Windows 11 -> Réseau et Internet -> l'onglet Wi-Fi -> sélectionnez la connexion réseau actuelle.
-
-    2. Dans la section « Paramètres IP », cliquez sur le bouton Modifier.
+    2. Recherchez **IP assignment** et cliquez sur le bouton **Edit**.
 
         ![Windows 11 edit IP address](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/Windows_11_edit_IP_address.png){class="glboxshadow"}
 
-    3. Suivez les étapes ci-dessous pour le configurer :
+    3. Dans la fenêtre contextuelle, sélectionnez **Manual** et activez **IPv4**.
+
+        ![Configuration IP manuelle](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/manual.jpg){class="glboxshadow"}
+
+    4. Suivez les étapes ci-dessous pour modifier les paramètres IP.
 
         ![Settings_app_set_static_IP_address](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/Settings_app_set_static_IP_address.png){class="glboxshadow"}
 
-        - Sélectionnez l'option Manuel et activez le bouton bascule IPv4.
+        - IP address : définissez une adresse IP statique, par exemple `10.1.4.119`.
 
-        - Définissez une adresse IP statique pour Windows 11 – par exemple, 10.1.4.119.
+        - Subnet mask : spécifiez un masque de sous-réseau, par exemple `255.255.255.0`.
 
-        - Spécifiez un Masque de sous-réseau – par exemple, 255.255.255.0.
+        - Gateway : saisissez l’adresse de la passerelle, généralement l’adresse IP LAN de votre routeur sur le même sous-réseau. Par exemple, si votre adresse IP est `10.1.4.119`, la passerelle est généralement `10.1.4.1`.
 
-        - Spécifiez une adresse Passerelle par défaut.
+        - Preferred DNS : spécifiez une adresse DNS préférée (obligatoire). Vous pouvez utiliser un serveur DNS public, comme le serveur DNS de Google `8.8.8.8`.
 
-        - Spécifiez une adresse DNS préférée (obligatoire).
+        - Alternate DNS : spécifiez une adresse DNS secondaire (facultatif).
 
-        - (Facultatif) Spécifiez une adresse « DNS secondaire ».
+        - DNS over HTTPS : sélectionnez "Off". Trois options sont disponibles :
 
-        - Utilisez le menu déroulant « DNS sur HTTPS » et sélectionnez l'option Désactivé pour les adresses préférée et secondaire, mais vous pouvez activer DoH avec ces options :
+            - Off : transmet tout le trafic DNS sans chiffrement.
 
-            - Désactivé : transmet tout le trafic DNS sans chiffrement.
+            - On (automatic template) : envoie tout le trafic DNS avec chiffrement.
 
-            - Activé (modèle automatique) : envoie tout le trafic DNS avec chiffrement.
+            - On (manual template) : permet de spécifier un modèle particulier. Cela n’est nécessaire que si le service DNS ne fonctionne pas automatiquement ou possède un modèle qui fonctionne comme prévu.
 
-            - Activé (modèle manuel) : permet de spécifier un modèle particulier. Cela n'est nécessaire que si le service DNS ne fonctionne pas automatiquement ou possède un modèle qui fonctionne comme prévu.
+        - Désactivez le bouton bascule "Fallback to plaintext" si vous activez DNS over HTTPS.
 
-        - Désactivez le bouton bascule « Basculer vers texte en clair » (si vous activez DoH).
+            **Conseil** : si vous activez cette fonctionnalité, le système chiffrera le trafic DNS, mais autorisera l’envoi de requêtes sans chiffrement.
 
-            - Conseil : si vous activez cette fonctionnalité, le système chiffrera le trafic DNS, mais autorisera l'envoi de requêtes sans chiffrement.
+    5. Cliquez sur **Save** pour appliquer les paramètres.
 
-    4. Cliquez sur le bouton Enregistrer.
+        Une fois les étapes terminées, la configuration réseau statique sera appliquée à l’ordinateur. Vous pouvez tester les nouveaux paramètres en ouvrant le navigateur web et en chargeant un site web.
 
-        Une fois les étapes terminées, la configuration réseau statique sera appliquée à l'ordinateur. Vous pouvez tester les nouveaux paramètres en ouvrant le navigateur web et en chargeant un site web.
+    ---
 
+    **Définir une adresse IP statique sur l’adaptateur Ethernet**
 
-    ## **Définir une adresse IP statique sur l'adaptateur Ethernet**
+    1. Sur un PC Windows 11, accédez à **Settings** -> **Network & internet** -> **Ethernet**.
 
-    Pour attribuer une adresse IP statique à un adaptateur Ethernet (filaire) sous Windows 11, procédez comme suit :
-
-    1. Ouvrez les Paramètres -> Réseau et Internet -> l'onglet Ethernet.
-    
-    2. Dans la section « Paramètres IP », cliquez sur le bouton Modifier.
+    2. Recherchez **IP assignment** et cliquez sur le bouton **Edit**.
 
         ![Edit_TCP/IP_Ethernet_settings](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/Edit_TCP_IP_Ethernet_settings.png){class="glboxshadow"}
 
-    3. Suivez les étapes ci-dessous pour le configurer :
+    3. Dans la fenêtre contextuelle, sélectionnez **Manual** et activez **IPv4**.
+
+        ![Configuration IP manuelle](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/manual.jpg){class="glboxshadow"}
+
+    4. Suivez les étapes ci-dessous pour modifier les paramètres IP.
 
         ![Settings_app_set_static_IP_address](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/Settings_app_set_static_IP_address.png){class="glboxshadow"}
-        
-        - Sélectionnez l'option Manuel.
 
-        - Activez le bouton bascule IPv4.
+        - IP address : définissez une adresse IP statique, par exemple `10.1.4.119`.
 
-        - Définissez une adresse IP statique pour Windows 11 – par exemple, 10.1.4.119.
+        - Subnet mask : spécifiez un masque de sous-réseau, par exemple `255.255.255.0`.
 
-        - Spécifiez un Masque de sous-réseau – par exemple, 255.255.255.0.
+        - Gateway : saisissez l’adresse de la passerelle, généralement l’adresse IP LAN de votre routeur sur le même sous-réseau. Par exemple, si votre adresse IP est `10.1.4.119`, la passerelle est généralement `10.1.4.1`.
 
-        - Spécifiez une adresse Passerelle par défaut.
+        - Preferred DNS : spécifiez une adresse DNS préférée (obligatoire). Vous pouvez utiliser un serveur DNS public, comme le serveur DNS de Google `8.8.8.8`.
 
-        - Spécifiez une adresse DNS préférée (obligatoire).
+        - Alternate DNS : spécifiez une adresse DNS secondaire (facultatif).
 
-        - (Facultatif) Spécifiez une adresse « DNS secondaire ».
+        - DNS over HTTPS : sélectionnez "Off". Trois options sont disponibles :
 
-        - Utilisez le menu déroulant « DNS sur HTTPS » et sélectionnez l'option Désactivé pour les adresses préférée et secondaire, mais vous pouvez activer DoH avec ces options :
+            - Off : transmet tout le trafic DNS sans chiffrement.
 
-            * Désactivé : transmet tout le trafic DNS sans chiffrement.
+            - On (automatic template) : envoie tout le trafic DNS avec chiffrement.
 
-            * Activé (modèle automatique) : envoie tout le trafic DNS avec chiffrement.
+            - On (manual template) : permet de spécifier un modèle particulier. Cela n’est nécessaire que si le service DNS ne fonctionne pas automatiquement ou possède un modèle qui fonctionne comme prévu.
 
-            * Activé (modèle manuel) : permet de spécifier un modèle particulier. Cela n'est nécessaire que si le service DNS ne fonctionne pas automatiquement ou possède un modèle qui fonctionne comme prévu.
-            
-        - Désactivez le bouton bascule « Basculer vers texte en clair » (si vous activez DoH).
+        - Désactivez le bouton bascule "Fallback to plaintext" si vous activez DNS over HTTPS.
 
-    4. Cliquez sur le bouton Enregistrer.
+            **Conseil** : si vous activez cette fonctionnalité, le système chiffrera le trafic DNS, mais autorisera l’envoi de requêtes sans chiffrement.
 
-        Une fois les étapes terminées, vous pouvez tester vos paramètres en ouvrant un site web dans votre navigateur.
+    5. Cliquez sur **Save** pour appliquer les paramètres.
 
+        Une fois les étapes terminées, la configuration réseau statique sera appliquée à l’ordinateur. Vous pouvez tester les nouveaux paramètres en ouvrant le navigateur web et en chargeant un site web.
 
 === "macOS"
 
-    Voici comment définir une adresse IP statique sous macOS :
+    Voici comment définir une adresse IP statique sous macOS.
 
-    Si vous possédez un MacBook, vous souhaiterez peut-être créer un nouvel emplacement réseau. Cela vous permettra d'utiliser l'adresse IP statique pour certains réseaux seulement. 
+    Dans le menu Apple, sélectionnez **System Preferences**.
 
-    Dans le menu Apple, sélectionnez Préférences Système.
-
-    Sélectionnez Réseau. La fenêtre ci-dessous s'affiche.
+    Sélectionnez **Network** pour afficher la page suivante. Dans la barre latérale, sélectionnez une interface réseau active, telle que **Wi-Fi**.
 
     ![Mac_network_settings](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/Mac_network_settings.png){class="glboxshadow"}
 
-    Dans la barre latérale, sélectionnez une interface réseau active. Dans cet exemple, connecté à un réseau sans fil, sélectionnez Wi-Fi.
+    Notez l’adresse IP actuelle attribuée à votre Mac. Vous devrez sélectionner une nouvelle adresse IP dans la plage d’adresses IP privées indiquée.
 
-    Notez l'adresse IP actuelle attribuée à votre Mac. Vous devrez sélectionner une nouvelle adresse IP dans la plage d'adresses IP privées listée. Plus d'informations à ce sujet dans un instant.
+    Cliquez sur **Advanced** dans le coin inférieur droit.
 
-    Cliquez sur Avancé.
+    Sélectionnez ensuite **TCP/IP** pour afficher la page suivante.
 
-    Sélectionnez TCP/IP. La fenêtre ci-dessous s'affiche.
-    
     ![Mac_Wi-Fi_settings](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/Mac_Wi-Fi_settings.png){class="glboxshadow"}
 
-    Dans le menu Configurer IPv4, sélectionnez Manuellement.
+    - Configure IPv4 : sélectionnez "Manually".
 
-    Saisissez une adresse IP statique dans le champ Adresse IPv4. Une méthode consiste à prendre votre adresse IP actuelle et à modifier sa dernière partie. Pour un réseau 192.168.7.0/24, choisissez une adresse d’hôte inutilisée entre 192.168.7.1 et 192.168.7.254. N’utilisez ni l’adresse réseau ni l’adresse de diffusion.
+    - IPv4 Address : saisissez une adresse IP statique. Conservez les trois premiers octets de votre adresse IP actuelle et remplacez le dernier par une valeur inutilisée. Par exemple, sur le réseau `192.168.7.0/24`, choisissez une adresse de `192.168.7.2` à `192.168.7.254` qui n’est pas déjà utilisée (évitez `.1`, qui correspond au routeur). N’utilisez ni `192.168.7.0` ni `192.168.7.255`.
 
-    Cliquez sur OK -> Cliquez sur Appliquer.
-   
+    - Subnet Mask : saisissez `255.255.255.0` (ou le masque de sous-réseau fourni par votre administrateur réseau).
 
-=== "Android"
+    - Router : saisissez l’adresse IP LAN de votre routeur, par exemple `192.168.7.1`.
 
-    Les étapes varient selon les versions d'Android. Cette documentation est basée sur Android version 11.
-
-    1. Accédez aux Paramètres -> sélectionnez Réseau et Internet, puis Wi-Fi -> appuyez sur le réseau actuellement connecté pour ouvrir le menu des paramètres.
-    
-    ![list_available_networks](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/list_available_networks.png){class="gl-50-desktop"}
-    {class="glboxshadow"}
-
-    2. Pour définir une adresse IP statique, procédez comme suit :
-
-    - Sélectionnez l'icône en forme de crayon en haut à droite pour accéder aux paramètres réseau.
-        
-        ![pencil_icon](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/pencil_icon.png){class="gl-50-desktop"}
-        {class="glboxshadow"}
-
-    - Sélectionnez Options avancées.
-        
-        ![advanced_options](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/advanced_options.png){class="gl-50-desktop"}
-        {class="glboxshadow"}
-
-    - Sélectionnez Paramètres IP.
-        
-    - Changez le paramètre de DHCP à Statique.
-        
-        ![DHCP_to_Static](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/DHCP_to_Static.png){class="gl-50-desktop"}
-        {class="glboxshadow"}
-
-    - Lorsque vous utilisez des adresses IP statiques sur des réseaux domestiques ou d’autres réseaux privés, choisissez une adresse d’hôte inutilisée dans votre sous-réseau actuel. Les plages d’adresses IP privées standard sont : 10.0.0.0 – 10.255.255.255, 172.16.0.0 – 172.31.255.255, 192.168.0.0 – 192.168.255.255
-
-    - Saisissez maintenant l'adresse IP.
-        - Cette étape est spécifique à chaque réseau. Exemple : 192.168.1.128
-        
-    - La passerelle devrait se renseigner automatiquement en fonction de l’adresse IP. Sinon, saisissez l’adresse IP de la passerelle de votre réseau.
-        - Exemple : si l’adresse IP de votre routeur est 192.168.1.1, saisissez 192.168.1.1.
-
-    3. Appuyez sur Enregistrer et laissez le réseau se reconnecter.
+    Cliquez sur **OK**, puis sur **Apply**.
 
 === "iOS"
 
-    Lorsque vous utilisez des adresses IP statiques sur des réseaux domestiques ou d’autres réseaux privés, choisissez une adresse d’hôte inutilisée dans votre sous-réseau actuel. Les plages d’adresses IP privées standard sont :
+    Les étapes peuvent varier selon la version d’iOS. Les étapes suivantes sont basées sur iOS 26.2.2.
 
-    10.0.0.0 à 10.255.255.255
-    172.16.0.0 à 172.31.255.255
-    192.168.0.0 à 192.168.255.255
+    1. Accédez à **Settings** -> **WLAN**. Appuyez sur l’icône d’information bleue (i) à côté du réseau Wi-Fi actuellement connecté.
 
-    Pour définir une adresse IP statique, procédez comme suit :
+        ![Adresse IP statique sous iOS](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/ios1.png){class="glboxshadow" width="360"}
 
-    - Appuyez sur l'icône Réglages.
+    2. Faites défiler l’écran jusqu’à **IPv4 Address** et définissez **Configure IP** sur **Manual**.
 
-    - Accédez à Wi-Fi.
+        ![Adresse IP statique sous iOS](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/ios2.png){class="glboxshadow" width="360"}
 
-    - Appuyez sur l'icône d'information bleue (i) à côté du nom du réseau Wi-Fi
-         - Il peut s'agir d'une erreur bleue si vous utilisez une version antérieure à iOS 7.
+    3. Spécifiez les valeurs **IP Address**, **Subnet Mask** et **Router IP** à utiliser sur votre iPhone/iPad, puis appuyez sur **Save** dans le coin supérieur droit.
 
-    - Accédez à l'onglet Statique, illustré ci-dessous.
+        ![Adresse IP statique sous iOS](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/ios3.png){class="glboxshadow" width="360"}
 
-        
-    ![IP_Settings_Screen_iOS](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/IP_Settings_Screen_iOS.png){class="glboxshadow"}
+=== "Android"
 
-    - Appuyez sur le champ Adresse IP.
+    Les étapes peuvent varier selon la version d’Android. Les étapes suivantes sont basées sur Android 11.
 
-    - Saisissez l'adresse IP statique que vous souhaitez utiliser sur votre iPhone/iPad.
+    1. Accédez à **Settings** -> **Network & Internet** -> **Wi-Fi**. Appuyez sur le réseau actuellement connecté pour ouvrir le menu des paramètres.
 
-    - Appuyez sur le champ Routeur.
+        ![list_available_networks](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/list_available_networks.png){class="gl-50-desktop"}
+        {class="glboxshadow"}
 
-    - Saisissez l'adresse IP du routeur.
-        
-    - Appuyez sur Masque de sous-réseau et saisissez vos informations
+    2. Appuyez sur l’icône en forme de crayon dans le coin supérieur droit pour accéder aux paramètres réseau.
 
-        - Utilisez le masque de sous-réseau du réseau auquel vous êtes connecté.
+        ![pencil_icon](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/pencil_icon.png){class="gl-50-desktop"}
+        {class="glboxshadow"}
 
-    - Appuyez sur le bouton Wi-Fi dans l'angle supérieur gauche de l'écran pour enregistrer les paramètres.
+    3. Appuyez sur **Advanced options**.
+
+        ![advanced_options](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/advanced_options.png){class="gl-50-desktop"}
+        {class="glboxshadow"}
+
+    4. Appuyez sur **IP Settings** et sélectionnez **Static**.
+
+        ![DHCP_to_Static](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/DHCP_to_Static.png){class="gl-50-desktop"}
+        {class="glboxshadow"}
+
+    5. Saisissez l’**IP address**. Le champ **Gateway** devrait se renseigner automatiquement en fonction de l’adresse IP. Sinon, saisissez la passerelle de votre réseau. Il s’agit généralement de l’adresse IP LAN de votre routeur sur le même sous-réseau.
+
+        **Conseil** : lorsque vous utilisez des adresses IP statiques sur des réseaux domestiques ou d’autres réseaux privés, choisissez une adresse d’hôte inutilisée dans votre sous-réseau actuel. Les plages d’adresses IP privées standard sont :
+
+        ```
+        10.0.0.0 ~ 10.255.255.255
+        172.16.0.0 ~ 172.31.255.255
+        192.168.0.0 ~ 192.168.255.255
+        ```
+
+    6. Appuyez sur **Save** et attendez que le réseau se reconnecte.
 
 ---
 

@@ -1,10 +1,10 @@
-# Przekazywanie SMS
+# Przekazywanie SMS {#sms-forwarding}
 
 Routery komórkowe GL.iNet obsługują przekazywanie wiadomości SMS, automatycznie przesyłając przychodzące wiadomości do wyznaczonych odbiorców.
 
 **Uwaga**: Ta funkcja działa tylko na routerach komórkowych GL.iNet z oryginalnym modułem 4G LTE/5G NR i nie jest obsługiwana na innych modułach ani żadnych modułach USB.
 
-## Obsługiwane modele
+## Obsługiwane modele {#supported-models}
 
 ??? "Obsługiwane modele"
     - GL-E5800 (Mudi 7)
@@ -41,25 +41,25 @@ Routery komórkowe GL.iNet obsługują przekazywanie wiadomości SMS, automatycz
     - GL-B1300 (Convexa-B)
     - GL-AP1300 (Cirrus)
 
-## Konfiguracja
+## Konfiguracja {#quick-setup}
 
 Jako przykład użyjemy GL-XE3000 (Puli AX).
 
-Po lewej stronie panelu administracyjnego przejdź do sekcji **INTERNET** -> **Cellular**. 
+1. Najpierw skonfiguruj router komórkowy zgodnie z [tym przewodnikiem](../interface_guide/internet_cellular.md).
 
-Kliknij ikonę koperty w prawym górnym rogu, aby wejść na stronę SMS, gdzie znajdziesz ustawienia przekazywania SMS.
+2. Zaloguj się do panelu administracyjnego routera i przejdź do **INTERNET** -> **Cellular**. Kliknij ikonę koperty w prawym górnym rogu, aby wejść na stronę SMS, gdzie znajdziesz ustawienia przekazywania SMS.
 
-![sms setting](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms.png){class="glboxshadow"}
+    ![sms setting](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms.png){class="glboxshadow"}
 
-### Przekazywanie przez e-mail
+### Przekazywanie przez e-mail {#forward-via-email}
 
 ![sms forwarding email](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms_forward_email.png){class="glboxshadow"}
 
-- **SMTP Server Address**: Wstępnie ustawione adresy serwerów dla Gmail, Outlook, iCloud i Yahoo są dostępne na liście rozwijanej. W przypadku innych dostawców poczty zapoznaj się z ich dokumentacją lub skontaktuj się z ich wsparciem.
+- **SMTP Server Address**: Wstępnie ustawione adresy serwerów Gmail, Outlook, iCloud i Yahoo są dostępne na liście rozwijanej. Wstępnie ustawiony adres nie gwarantuje zgodności z wymaganiami dostawcy dotyczącymi uwierzytelniania. W przypadku innych dostawców poczty zapoznaj się z ich dokumentacją lub skontaktuj się z pomocą techniczną.
 
 - **Encryption Method**: Dostępne są trzy opcje: brak, SSL/TLS i STARTTLS.
 - **Username**: Wprowadź tutaj adres e-mail.
-- **Password**: Użyj hasła specyficznego dla aplikacji lub hasła do konta logowania. W przypadku Gmail, Outlook, iCloud i Yahoo sprawdź poniższy przewodnik.
+- **Password**: Wprowadź hasło SMTP wymagane przez dostawcę poczty, na przykład hasło aplikacji. Zapoznaj się z wymaganiami poszczególnych dostawców poniżej.
 - **Subject**: Ustaw tutaj temat e-maila.
 
 ??? "Gmail"
@@ -68,9 +68,13 @@ Kliknij ikonę koperty w prawym górnym rogu, aby wejść na stronę SMS, gdzie 
 
     Można używać zarówno portu 465, jak i 587.
 
-??? "Outlook"
+??? "Outlook.com"
 
-    W przypadku Outlook możesz użyć hasła bezpośrednio bez żadnych ustawień i obsługuje port 587. Sprawdź oficjalny przewodnik [Ustawienia POP, IMAP i SMTP dla Outlook.com](https://support.microsoft.com/pl-pl/office/pop-imap-and-smtp-settings-for-outlook-com-d088b986-291d-42b8-9564-9c414e2aa040){target="_blank"}
+    Outlook.com wymaga OAuth2 (Modern Authentication) do uwierzytelniania SMTP. Serwer SMTP to `smtp-mail.outlook.com`, z portem `587` i `STARTTLS`.
+
+    Przed użyciem konta Outlook.com do wysyłania przekazywanych wiadomości SMS sprawdź, czy firmware routera obsługuje tę metodę uwierzytelniania.
+
+    Zapoznaj się z dokumentacją Microsoft: [Ustawienia POP, IMAP i SMTP dla Outlook.com](https://support.microsoft.com/en-us/outlook/pop-imap-and-smtp-settings-for-outlook-com){target="_blank"}.
 
 ??? "iCloud"
 
@@ -84,7 +88,7 @@ Kliknij ikonę koperty w prawym górnym rogu, aby wejść na stronę SMS, gdzie 
 
 Możesz dodać maksymalnie 10 adresów e-mail.
 
-### Przekazywanie przez SMS
+### Przekazywanie przez SMS {#forward-via-sms}
 
 ![sms forwarding phone](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms_forward_phone.png){class="glboxshadow"}
 

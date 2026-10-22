@@ -1,4 +1,4 @@
-# SQM (Smart Queue Management)
+# SQM (Smart Queue Management) {#sqm-smart-queue-management}
 
 **Nota**: Esta función se introdujo en el firmware v4.9.
 
@@ -58,7 +58,7 @@ SQM (Smart Queue Management) gestiona de forma inteligente el tráfico de red de
     - GL-S1300 (Convexa-S)
 
 
-## Para firmware v4.11 y versiones posteriores
+## Para firmware v4.11 y versiones posteriores {#for-firmware-v411-and-above}
 
 Active el interruptor para habilitar SQM y complete la configuración siguiendo estos pasos.
 
@@ -106,7 +106,7 @@ Active el interruptor para habilitar SQM y complete la configuración siguiendo 
 
     - **fq_codel**: encolado justo simple y eficiente con una reducción básica de la latencia.
 
-## Para firmware v4.9 a v4.10
+## Para firmware v4.9 a v4.10 {#for-firmware-v49-to-v410}
 
 Active el interruptor para habilitar SQM y defina las velocidades máximas de subida y bajada (rango de entrada: 1 - 10000) para la programación del tráfico. Ajústelas al ancho de banda real de su conexión a Internet para obtener los mejores resultados.
 

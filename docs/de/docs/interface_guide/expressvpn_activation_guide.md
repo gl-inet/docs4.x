@@ -1,4 +1,4 @@
-# ExpressVPN-Aktivierungsanleitung
+# ExpressVPN-Aktivierungsanleitung {#expressvpn-activation-guide}
 
 **Hinweis:** Diese Anleitung gilt ausschließlich für den gemeinsam von GL.iNet und ExpressVPN angebotenen Router **Fortify (GL-MT6000)**.
 
@@ -6,11 +6,11 @@
 
 [ExpressVPN](https://www.expressvpn.com/){target="_blank"} ist einer der weltweit führenden Premium-VPN-Dienste, der Ihre Online-Privatsphäre schützt, Ihre Internetverbindung sichert und sicheres Streaming von überall aus ermöglicht. Es bietet blitzschnelle Geschwindigkeiten, Verschlüsselung auf Militärniveau und Zugriff auf Server in über 100 Ländern. Egal, ob Sie streamen, privat surfen oder Ihre Daten im öffentlichen WLAN schützen möchten, ExpressVPN bietet Ihnen ein schnelles und sicheres Erlebnis.
 
-**Fortify (GL-MT6000)** ist ein Co-Branding-Router, der gemeinsam von GL.iNet und ExpressVPN herausgebracht wird. Zu jeder Einheit gehört ein kostenloses einjähriges ExpressVPN-Abonnement. Benutzer können das Abonnement einlösen und ihre Konten direkt im Web-Admin-Panel des Routers verbinden. Nach der Aktivierung nutzt der gesamte Datenverkehr, der über den Router läuft, das Hochgeschwindigkeitsnetzwerk und die robuste Verschlüsselung von ExpressVPN, um Ihre gesamte Netzwerkverbindung und Ihre Online-Privatsphäre zu schützen.
+**Fortify (GL-MT6000)** ist ein Co-Branding-Router, der gemeinsam von GL.iNet und ExpressVPN herausgebracht wird. Zu jeder Einheit gehört ein kostenloses einjähriges ExpressVPN-Abonnement. Benutzer können das Abonnement einlösen und ihre Konten direkt im Web-Admin-Panel des Routers verbinden. Wenn ein ExpressVPN-Tunnel verbunden ist, verschlüsselt der Router den Datenverkehr und leitet ihn gemäß Ihren VPN-Richtlinieneinstellungen durch diesen Tunnel.
 
 Dieser Leitfaden führt Sie durch die Einlösung des 12-monatigen ExpressVPN-Plans im Web-Admin-Panel des Routers. Es umfasst auch die Anpassung von VPN-Richtlinien basierend auf Ihren Nutzungsszenarien und Anforderungen, damit Sie mühelos verschlüsselte, sichere und schnelle Internetverbindungen genießen können.
 
-## ExpressVPN-Plan einlösen
+## ExpressVPN-Plan einlösen {#redeem-expressvpn-plan}
 
 Melden Sie sich im Web-Admin-Panel von Fortify an und navigieren Sie zu **VPN** -> **VPN Client Profile**.
 
@@ -40,7 +40,7 @@ Ihr Plan wurde aktiviert. Kehren Sie zum Web-Admin-Panel Ihres Fortify-Routers z
 
 ![expressvpn checkout2](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/expressvpn_checkout2.png){class="glboxshadow"}
 
-## Melden Sie sich bei ExpressVPN an
+## Melden Sie sich bei ExpressVPN an {#log-in-to-expressvpn}
 
 Gehen Sie im Web-Admin-Panel Ihres Fortify zu **VPN** -> **VPN Client Profile**.
 
@@ -78,9 +78,9 @@ Jetzt können Sie VPN-Tunnel hinzufügen und VPN-Richtlinien entsprechend Ihren 
 
 ![expressvpn dashboard](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/expressvpn_dashboard.png){class="glboxshadow"}
 
-## VPN-Tunnel hinzufügen
+## VPN-Tunnel hinzufügen {#add-vpn-tunnel}
 
-### Allgemeine Schritte
+### Allgemeine Schritte {#general-steps}
 
 Führen Sie die folgenden Schritte aus, um Ihren VPN-Tunnel hinzuzufügen und VPN-Richtlinien zu konfigurieren. Siehe ggf. [Fallreferenz](#case-reference).
 
@@ -275,11 +275,13 @@ Hier sind zwei typische Konfigurationsfälle für VPN-Richtlinien mit schrittwei
 
         Jetzt verwenden alle Geräte **VPN Tunnel 1** beim Zugriff auf bestimmte Domänen und **VPN Tunnel 2** für den gesamten verbleibenden Internetzugriff. Wenn die VPN-Tunnel unerwartet getrennt werden, wird der Internetzugriff für alle Geräte blockiert, um DNS-Lecks und IP-Tracking zu verhindern.
 
-## Kill Switch
+## Kill Switch {#kill-switch}
 
-Kill Switch ist eine Sicherheitsfunktion für VPN-Verbindungen. Es unterbricht automatisch den gesamten Internetzugang für Ihr lokales Netzwerk, wenn die VPN-Verbindung unerwartet unterbrochen wird. Dadurch wird verhindert, dass Ihre echte IP-Adresse und Online-Daten preisgegeben werden, und gewährleistet kontinuierliche Privatsphäre und Sicherheit. Diese Funktion ist besonders nützlich, um einen sicheren, anonymen Internetzugang zu gewährleisten, beispielsweise bei der Nutzung öffentlicher Netzwerke, der Verarbeitung sensibler Daten oder dem Verbergen Ihrer echten IP-Adresse.
+Ein VPN-Kill-Switch hilft zu verhindern, dass Datenverkehr bei einem Ausfall der VPN-Verbindung auf eine unverschlüsselte Internetverbindung ausweicht.
 
-Wenn es aktiviert ist, blockiert es jeglichen Client-Datenverkehr, der versucht, den VPN-Tunnel zu umgehen, und verhindert so effektiv VPN-Lecks, die durch DNS-Konfigurationsprobleme, unerwartete Verbindungsabbrüche, direkte IP-Anfragen und andere ähnliche Szenarien verursacht werden.
+Wenn **Kill Switch** für einen einzelnen Tunnel aktiviert ist, wird bei einem Verbindungsausfall der Internetzugang für den diesem Tunnel zugewiesenen Datenverkehr blockiert. Für anderen Datenverkehr gelten die Einstellungen unter **All Other Traffic**.
+
+**Enhanced Kill Switch** blockiert Internetdatenverkehr, der keinem VPN-Tunnel entspricht. Die **Kill Switch**-Einstellung der einzelnen Tunnel wird dadurch nicht außer Kraft gesetzt.
 
 Fortify unterstützt die Kill-Switch-Konfiguration für die globale VPN-Verbindung sowie für jeden einzelnen VPN-Tunnel.
 
@@ -287,7 +289,7 @@ Fortify unterstützt die Kill-Switch-Konfiguration für die globale VPN-Verbindu
 
 – Informationen zum Einrichten des Kill Switch für jeden einzelnen VPN-Tunnel finden Sie unter [Tunneloptionen](#tunnel-options).
 
-## All Other Traffic
+## All Other Traffic {#all-other-traffic}
 
 Klicken Sie oben rechts auf das Zahnradsymbol, um Richtlinien für den Datenverkehr einzurichten, der nicht mit dem VPN-Tunnel übereinstimmt.
 
@@ -323,7 +325,7 @@ Klicken Sie in einer Tunnelgruppe auf das Zahnradsymbol und wählen Sie **Option
 
 - **MTU**: Der MTU-Wert, den Sie für den Tunnel festlegen, überschreibt die MTU-Einstellungen in der Konfigurationsdatei.
 
-## Tunnelpriorität
+## Tunnelpriorität {#tunnel-priority}
 
 Um die Tunnelpriorität anzupassen, klicken Sie in einer Tunnelgruppe auf das Zahnradsymbol und wählen Sie **Priority** aus.
 

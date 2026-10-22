@@ -1,12 +1,12 @@
-# Przewodnik użytkownika Flint 4 (GL-BE14000)
+# Przewodnik użytkownika Flint 4 (GL-BE14000) {#flint-4-gl-be14000-user-guide}
 
-## Opis produktu
+## Opis produktu {#product-overview}
 
 Flint 4 (GL‑BE14000) rozszerza możliwości routera domowego. Obsługuje trójzakresowe Wi‑Fi 7 z MLO i zapewnia maksymalne szybkości 688 Mbps (2.4 GHz) + 4323 Mbps (5 GHz) + 8646 Mbps (6 GHz). Do połączeń przewodowych służy kompletna, wielogigabitowa sieć szkieletowa: jeden port 10G SFP+ WAN/LAN, jeden port 10GE WAN/LAN, jeden port 2.5GE WAN/LAN, trzy porty 2.5GE LAN i cztery porty 1GE LAN. Wysokowydajna obsługa VPN zapewnia przepustowość do 1.5 Gbps zarówno dla WireGuard®, jak i OpenVPN DCO. Router ma również 2.4-calowy ekran dotykowy, który umożliwia monitorowanie stanu sieci w czasie rzeczywistym i wyświetlanie najważniejszych parametrów bezpośrednio na urządzeniu.
 
 ![be14000 interfaces](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be14000/hardware/be14000_interfaces.png){class="glboxshadow"}
 
-## Zawartość opakowania
+## Zawartość opakowania {#package-contents}
 
 - 1 x Flint 4 (GL-BE14000)
 - 1 x Zasilacz
@@ -19,17 +19,17 @@ Poniżej można obejrzeć film z rozpakowania Flint 4.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/x48iKZaLaN0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Konfiguracja Flint 4
+## Konfiguracja Flint 4 {#how-to-set-up-flint-4}
 
 Obejrzyj film przedstawiający konfigurację lub wykonaj poniższe czynności.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/N3zw02XGFSU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Włączanie zasilania
+### 1. Włączanie zasilania {#1-power-on}
 
 Połącz dwie części zasilacza. Podłącz go do routera i gniazdka elektrycznego. Router uruchomi się automatycznie.
 
-### 2. Podłączanie urządzenia
+### 2. Podłączanie urządzenia {#2-connect-device}
 
 Połącz urządzenie, na przykład komputer, laptop lub smartfon, z routerem przez Wi-Fi albo Ethernet.
 
@@ -41,11 +41,11 @@ Połącz urządzenie, na przykład komputer, laptop lub smartfon, z routerem prz
 
     Na urządzeniu znajdź nazwę sieci Wi-Fi routera na liście dostępnych sieci i wpisz hasło. Domyślna nazwa sieci (SSID) i hasło są wydrukowane na etykiecie routera.
 
-### 3. Logowanie do panelu administracyjnego
+### 3. Logowanie do panelu administracyjnego {#3-log-in-to-web-admin-panel}
 
 Otwórz przeglądarkę, wpisz `192.168.8.1` na pasku adresu i zaloguj się. Ustaw hasło administratora oraz parametry Wi-Fi, a następnie kliknij **Apply**.
 
-### 4. Konfiguracja Internetu
+### 4. Konfiguracja Internetu {#4-internet-setup}
 
 Skonfiguruj Flint 4, korzystając z jednej z obsługiwanych metod połączenia: Ethernet (SFP+), Ethernet (RJ45), Repeater, Tethering lub Cellular. Aby korzystać z funkcji [Multi-WAN](../../interface_guide/multi-wan.md), skonfiguruj więcej niż jedno połączenie internetowe.
 
@@ -100,19 +100,19 @@ Skonfiguruj Flint 4, korzystając z jednej z obsługiwanych metod połączenia: 
 
 Poniżej przedstawiono funkcje dostępne w panelu administracyjnym Flint 4.
 
-## Wireless
+## Wireless {#wireless}
 
 Strona Wireless umożliwia skonfigurowanie różnych sieci Wi-Fi routera Flint 4, w tym MLO Wi-Fi, Main Network, Guest Network i IoT Network.
 
 Szczegółowe informacje zawiera strona [Wireless](../../interface_guide/wireless.md).
 
-## Klienci
+## Klienci {#clients}
 
 Strona Clients wyświetla informacje o podłączonych urządzeniach. Dla każdego klienta pokazuje nazwę, adres IP i MAC, szybkość pobierania i wysyłania oraz całkowity ruch. Umożliwia również zablokowanie klienta lub wykonanie innych działań.
 
 Szczegółowe informacje zawiera strona [Clients](../../interface_guide/clients.md).
 
-## Usługi chmurowe
+## Usługi chmurowe {#cloud-services}
 
 === "GoodCloud"
 
@@ -126,7 +126,7 @@ Szczegółowe informacje zawiera strona [Clients](../../interface_guide/clients.
     
     Szczegółowe informacje zawiera strona [AstroWarp](../../interface_guide/astrowarp.md).
 
-## VPN
+## VPN {#vpn}
 
 VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie między urządzeniem a serwerem VPN. Zapewnia dodatkową warstwę prywatności i bezpieczeństwa (klient VPN) oraz umożliwia dostęp do sieci zdalnej (serwer VPN). Flint 4 obsługuje protokoły OpenVPN i WireGuard.
 
@@ -144,7 +144,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie międz
     * [Konfiguracja klienta WireGuard](../../interface_guide/wireguard_client.md)
     * [Konfiguracja serwera WireGuard](../../interface_guide/wireguard_server.md)
 
-## Sieć
+## Sieć {#network}
 
 === "Multi-WAN"
 
@@ -207,7 +207,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie międz
     
     Szczegółowe informacje zawiera strona [Network Acceleration](../../interface_guide/network_acceleration.md).
 
-## Kontrola ruchu
+## Kontrola ruchu {#flow-control}
 
 === "DPI Engine"
 
@@ -249,7 +249,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie międz
 
     Szczegółowe informacje zawiera strona [Parental Control](../../interface_guide/parental_control_v4.9.md).
 
-## Bezpieczeństwo
+## Bezpieczeństwo {#security}
 
 === "Port Forwarding"
 
@@ -279,7 +279,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie międz
 
     Szczegółowe informacje zawiera strona [NAT Mode](../../interface_guide/nat_settings.md).
 
-## Aplikacje
+## Aplikacje {#applications}
 
 === "Plug-ins"
 
@@ -331,7 +331,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie międz
     
     Szczegółowe informacje zawiera strona [Tor](../../interface_guide/tor.md).
 
-## System
+## System {#system}
 
 === "Overview"
 
@@ -422,7 +422,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie międz
 
     Szczegółowe informacje zawiera strona [Advanced Settings](../../interface_guide/advanced_settings.md).
 
-## Deklaracja zgodności
+## Deklaracja zgodności {#declaration-of-conformity}
 
 Niniejszym GL TECHNOLOGIES (HONG KONG) LIMITED oświadcza, że typ urządzenia radiowego [BE14000 Wi-Fi 7 Router, GL-BE14000] jest zgodny z zasadniczymi wymaganiami i innymi stosownymi postanowieniami dyrektywy 2014/53/UE. Pełny tekst deklaracji zgodności UE jest dostępny pod następującym adresem internetowym: [https://www.gl-inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}.
 

@@ -1,4 +1,4 @@
-# Połączenie z Internetem przez sieć komórkową (v4.10)
+# Połączenie z Internetem przez sieć komórkową (v4.10) {#connect-to-the-internet-via-cellular-v410}
 
 Treść tej strony dotyczy firmware w wersji v4.10 i nowszych. Jeśli urządzenie korzysta z innej wersji firmware, użyj poniższego selektora, aby przejść do odpowiedniego przewodnika.
 
@@ -29,7 +29,7 @@ W tej sekcji użyto modelu **Mudi 7 (GL-E5800)** jako przykładu do opisania kon
 
 Mudi 7 ma wbudowaną kartę eSIM i dwa gniazda Nano-SIM oraz obsługuje Dual SIM Dual Standby. Dlatego jego webowy panel administracyjny może się nieznacznie różnić od panelu innych routerów komórkowych, zwłaszcza modeli z jednym gniazdem SIM.
 
-### Konfiguracja sieci
+### Konfiguracja sieci {#network-setup}
 
 Zaloguj się do webowego panelu administracyjnego routera i przejdź do **INTERNET** -> **Cellular**.
 
@@ -77,7 +77,7 @@ Zaloguj się do webowego panelu administracyjnego routera i przejdź do **INTERN
 
     - **Authentication**: jeśli dane logowania nie są wymagane, zwykle ustawiona jest wartość NONE. Możesz wybrać PAP, CHAP lub PAP/CHAP.
 
-### Statystyki ruchu
+### Statystyki ruchu {#traffic-statistics}
 
 Aby wyświetlić statystyki ruchu, kliknij **Data Usage**.
 
@@ -99,7 +99,7 @@ Ustaw Data Cap Amount, Data Reset Period, Start Day i Start Hour, a następnie k
 
 3. Start Day: maksymalna liczba dni odpowiada rzeczywistej liczbie dni w bieżącym miesiącu.
 
-### Szczegóły połączenia komórkowego
+### Szczegóły połączenia komórkowego {#cellular-details}
 
 Aby wyświetlić szczegóły połączenia komórkowego, kliknij **Details & Configuration**.
 
@@ -129,7 +129,7 @@ W sekcji **Cellular Information** można sprawdzić Network Type, TAC, Cell ID, 
 
     ![signal history](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/signal_history.png){class="glboxshadow"}
 
-### Maskowanie pasm
+### Maskowanie pasm {#band-masking}
 
 Band Masking pozwala używać określonych pasm komórkowych w celu poprawy sygnału.
 
@@ -141,7 +141,7 @@ W sekcji **Cellular Settings** włącz **Band Masking**, wybierz pasma, których
 
 ![band masking](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/band_masking.png){class="glboxshadow"}
 
-### Blokada operatora
+### Blokada operatora {#lock-operator}
 
 !!! note "Obsługiwane modele"
 
@@ -182,7 +182,7 @@ Sygnał komórkowy zostanie zablokowany na wybranym operatorze.
 
 ![lock operator](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/lock_operator4.jpg){class="glboxshadow"}
 
-### Blokada stacji bazowej
+### Blokada stacji bazowej {#lock-tower}
 
 !!! note "Obsługiwane modele"
 
@@ -227,21 +227,21 @@ Sygnał komórkowy zostanie zablokowany na wybranej stacji bazowej.
 
 3. Jeśli po zablokowaniu stacji bazowej przeniesiesz router w inne miejsce, po ponownym uruchomieniu nadal będzie próbował połączyć się z zablokowaną stacją. Może to uniemożliwić automatyczne połączenie z siecią komórkową w nowej lokalizacji. W takim przypadku odblokuj bieżącą stację albo ręcznie zablokuj nową.
 
-### SMS
+### SMS {#sms}
 
 Zapoznaj się z [SMS](../tutorials/sms.md).
 
-### Przekazywanie SMS
+### Przekazywanie SMS {#sms-forwarding}
 
 Zapoznaj się z [Przekazywaniem SMS](../tutorials/sms_forwarding.md).
 
-### Tryb samolotowy
+### Tryb samolotowy {#airplane-mode}
 
 Aby włączyć Airplane Mode, kliknij ikonę koła zębatego w prawym górnym rogu i włącz **Airplane Mode**.
 
 ![settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/settings.png){class="glboxshadow"}
 
-### Informacje o modemie
+### Informacje o modemie {#modem-information}
 
 Aby wyświetlić szczegóły modemu, kliknij ikonę koła zębatego w prawym górnym rogu i wybierz **Modem Information**.
 
@@ -267,7 +267,7 @@ Aby router wracał do preferowanej karty SIM o określonej porze dnia, włącz *
 
 ![sim failover](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/sim_failover.png){class="glboxshadow"}
 
-### Polecenia AT
+### Polecenia AT {#at-command}
 
 Polecenia AT to standardowe instrukcje używane do komunikacji z modemem komórkowym. Ta funkcja umożliwia wysyłanie poleceń i sprawdzanie stanu modemu.
 
@@ -303,7 +303,7 @@ Modemy USB mogą działać w różnych trybach: standardowego modemu USB lub hos
 
 Przejdź do sekcji odpowiadającej trybowi pracy modemu USB.
 
-### Standardowy modem USB
+### Standardowy modem USB {#standard-usb-modem}
 
 Ta sekcja przedstawia konfigurację połączenia komórkowego i powiązane funkcje na przykładzie routera **Mango 2 (GL-MG1300)** oraz płytki deweloperskiej 5G [GL-M2](https://www.gl-inet.com/products/gl-m2){target="_blank"} (moduł 5G NR: RM520N-GL).
 
@@ -381,7 +381,7 @@ Ta sekcja przedstawia konfigurację połączenia komórkowego i powiązane funkc
 
     - **AT Command**: wprowadź polecenie w tym polu, gdy Shortcut ma wartość „Manual command”.
 
-### Modem host-less
+### Modem host-less {#hostless-dongle}
 
 Ta sekcja przedstawia konfigurację połączenia komórkowego na przykładzie routera **Flint 3 (GL-BE9300)** i zewnętrznego modemu USB [SIMPoYo uFi](https://www.gl-inet.com/products/simpoyo-ufi){target="_blank"}.
 

@@ -1,4 +1,4 @@
-# Cosa devo fare se non ho Internet dopo aver sostituito il vecchio router con un router GL.iNet
+# Cosa devo fare se non ho Internet dopo aver sostituito il vecchio router con un router GL.iNet {#what-should-i-do-if-i-have-no-internet-after-replacing-the-old-router-with-a-glinet-router}
 
 Se non riesci ad accedere a Internet dopo aver sostituito il vecchio router con un router GL.iNet, il nuovo router potrebbe non riuscire a ottenere un indirizzo IP (tramite DHCP o PPPoE) quando la porta WAN è collegata al modem.
 

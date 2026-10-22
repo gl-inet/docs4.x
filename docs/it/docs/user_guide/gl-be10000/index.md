@@ -1,12 +1,12 @@
-# Guida utente di Slate 7 Pro (GL-BE10000)
+# Guida utente di Slate 7 Pro (GL-BE10000) {#slate-7-pro-gl-be10000-user-guide}
 
-## Panoramica del prodotto
+## Panoramica del prodotto {#product-overview}
 
 Slate 7 Pro (GL-BE10000) è un router da viaggio portatile tri-band Wi-Fi 7. Come versione aggiornata di Slate 7 (GL-BE3600), integra un touchscreen più grande nella parte superiore ed è dotato di 1 GB di RAM DDR4 e 512 MB di memoria flash NAND per prestazioni stabili e compatibilità con i plug-in. Offre velocità VPN elevate, fino a 1.100 Mbps con WireGuard® e 1.000 Mbps con OpenVPN-DCO. Con 2 porte Ethernet da 2,5G (1 WAN + 1 LAN), 1 porta USB-C 3.0 e supporto all'alimentazione PD, garantisce connettività affidabile e praticità durante i viaggi e l'uso in mobilità.
 
 ![gl-be10000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/hardware/be10000_interface.png){class="glboxshadow"}
 
-## Contenuto della confezione
+## Contenuto della confezione {#package-contents}
 
 La confezione include:
 
@@ -24,7 +24,7 @@ Di seguito è disponibile il video di unboxing di Slate 7 Pro.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zNxb5gl2tfg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Touchscreen
+## Touchscreen {#touchscreen}
 
 | Schermata | Descrizione |
 | :-------- | :---------- |
@@ -34,13 +34,13 @@ Di seguito è disponibile il video di unboxing di Slate 7 Pro.
 | ![home](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/home.png){width="400"} | Schermata Home<br>**Sinistra**: ora di sistema, velocità di rete e scorciatoie per Wi-Fi, Clients, VPN e altre funzioni.<br>**Destra**: quattro modalità di connessione: Ethernet, Repeater, Tethering e Cellular |
 | ![internet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/internet.png){width="400"} | Stato della rete<br>**Blu**: attiva / connessa a Internet<br>**Giallo**: connessione in corso / errore di rete<br>**Bianco**: connessione inattiva |
 
-## Come configurare Slate 7 Pro
+## Come configurare Slate 7 Pro {#how-to-set-up-slate-7-pro}
 
-### 1. Accensione
+### 1. Accensione {#1-power-on}
 
 Assembla le due parti dell’alimentatore. Collegalo al router e inseriscilo in una presa. Il router si avvierà automaticamente.
 
-### 2. Collegare un dispositivo
+### 2. Collegare un dispositivo {#2-connect-device}
 
 Collega un dispositivo (ad esempio computer, laptop o smartphone) al router tramite Wi-Fi o Ethernet.
 
@@ -52,11 +52,11 @@ Collega un dispositivo (ad esempio computer, laptop o smartphone) al router tram
 
     Sul dispositivo, trova il nome della rete Wi-Fi del router nell’elenco delle reti disponibili e inserisci la password per connetterti. Il nome di rete (SSID) e la password predefiniti sono riportati sull’etichetta del router.
 
-### 3. Accedere al pannello di amministrazione web
+### 3. Accedere al pannello di amministrazione web {#3-log-in-to-web-admin-panel}
 
 Apri un browser web, inserisci `192.168.8.1` nella barra degli indirizzi e accedi. Scegli una lingua e imposta la password amministratore, quindi fai clic su **Apply**.
 
-### 4. Configurazione di Internet
+### 4. Configurazione di Internet {#4-internet-setup}
 
 Configura Slate 7 Pro usando uno dei metodi di connessione a Internet supportati: Ethernet, Repeater, Tethering e Cellular. Se vuoi usare la funzione [Multi-WAN](../../interface_guide/multi-wan.md), configura più di una connessione Internet.
 === "Ethernet"
@@ -98,7 +98,7 @@ Configura Slate 7 Pro usando uno dei metodi di connessione a Internet supportati
 
 Di seguito trovi una panoramica delle funzioni disponibili nel pannello di amministrazione web di Slate 7 Pro.
 
-## Wireless
+## Wireless {#wireless}
 
 La pagina Wireless consente di configurare le impostazioni delle reti Wi-Fi a 6 GHz, 5 GHz e 2,4 GHz, inclusi attivazione del Wi-Fi, potenza TX, nome della rete Wi-Fi (SSID), attivazione del BSSID casuale, modalità di sicurezza Wi-Fi e password, visibilità dell'SSID, modalità Wi-Fi, larghezza di banda e canale.
 
@@ -106,13 +106,13 @@ Inoltre, Slate 7 Pro supporta il Wi-Fi MLO, cioè Multi-Link Operation, che comb
 
 Per configurarla, fai riferimento a [Wireless](../../interface_guide/wireless.md).
 
-## Client
+## Client {#clients}
 
 La pagina Client mostra le informazioni sui dispositivi connessi. Per ogni client vengono visualizzati nome, indirizzi IP e MAC, velocità di download e upload, traffico totale, oltre alla possibilità di bloccare il client o eseguire altre azioni.
 
 Per configurarla, fai riferimento a [Clients](../../interface_guide/clients.md).
 
-## Servizi cloud
+## Servizi cloud {#cloud-services}
 
 === "GoodCloud"
 
@@ -126,7 +126,7 @@ Per configurarla, fai riferimento a [Clients](../../interface_guide/clients.md).
 
     Per configurarlo, fai riferimento a [AstroWarp](../../interface_guide/astrowarp.md).
 
-## VPN
+## VPN {#vpn}
 
 Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il tuo dispositivo e il server VPN. Fornisce un ulteriore livello di privacy e sicurezza (client VPN) e consente di accedere a una rete remota (server VPN). Slate 7 Pro supporta i protocolli OpenVPN e WireGuard.
 
@@ -144,7 +144,7 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il tuo 
     * [Come configurare un client WireGuard](../../interface_guide/wireguard_client.md)
     * [Come configurare un server WireGuard](../../interface_guide/wireguard_server.md)
 
-## Rete
+## Rete {#network}
 
 === "Multi-WAN"
 
@@ -213,7 +213,7 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il tuo 
 
     Per configurarla, fai riferimento a [Network Acceleration](../../interface_guide/network_acceleration.md).
 
-## Controllo del traffico
+## Controllo del traffico {#flow-control}
 
 === "DPI Engine"
 
@@ -255,7 +255,7 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il tuo 
 
     Per maggiori dettagli, consultare [SQM](../../interface_guide/sqm.md).
 
-## Sicurezza
+## Sicurezza {#security}
 
 === "Port Forwarding"
 
@@ -279,7 +279,7 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il tuo 
 
     Per maggiori dettagli, consultare [NAT Mode](../../interface_guide/nat_settings.md).
 
-## Applicazioni
+## Applicazioni {#applications}
 
 === "Plug-ins"
 
@@ -325,7 +325,7 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il tuo 
 
     Per configurare Tor, consultare [Tor](../../interface_guide/tor.md).
 
-## Sistema
+## Sistema {#system}
 
 === "Overview"
 

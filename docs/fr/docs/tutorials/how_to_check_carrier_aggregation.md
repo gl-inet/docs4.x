@@ -1,4 +1,4 @@
-# Comment vérifier l'état de l'agrégation de porteuses sur votre routeur cellulaire
+# Comment vérifier l'état de l'agrégation de porteuses sur votre routeur cellulaire {#how-to-check-the-carrier-aggregation-status-on-your-cellular-router}
 
 L'agrégation de porteuses combine plusieurs bandes réseau pour offrir une bande passante plus élevée et des vitesses plus rapides à votre connexion cellulaire.
 

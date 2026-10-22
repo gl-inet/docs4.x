@@ -1,4 +1,4 @@
-# Android 5G-Hotspot kann nicht gefunden werden
+# Android 5G-Hotspot kann nicht gefunden werden {#cannot-scan-android-5g-hotspot}
 
 Die Verbindung eines GL.iNet Routers als Repeater mit dem 5G-Hotspot eines Android-Smartphones ist eine der gängigen Möglichkeiten, auf das Internet zuzugreifen.
 

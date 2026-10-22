@@ -1,4 +1,4 @@
-# Pare-feu
+# Pare-feu {#firewall}
 
 Ce guide s'applique au firmware v4.5 et aux versions antérieures.
 
@@ -10,7 +10,7 @@ Dans le panneau d'administration web, accédez à **NETWORK** -> **Firewall**.
 
 La page Pare-feu permet de définir des règles telles que **Port Forwarding**, **Open Ports on Router** et **DMZ**.
 
-## Redirection de port
+## Redirection de port {#port-forwards}
 
 Le **Port Forwarding** permet à des ordinateurs distants de se connecter à un ordinateur local ou à un serveur situé derrière le pare-feu du routeur sur le LAN (par exemple un serveur web ou un serveur FTP).
 
@@ -18,27 +18,27 @@ Pour configurer une redirection de port, cliquez sur l'onglet **Port Forwards**,
 
 ![firewall page](https://static.gl-inet.com/docs/router/en/4/interface_guide/firewall/firewall.png){class="glboxshadow"}
 
-Dans la fenêtre contextuelle, ajoutez une nouvelle règle de redirection de port, puis cliquez sur **Apply**.
+Dans la fenêtre contextuelle, ajoutez une règle de redirection de port et cliquez sur **Apply**.
 
 ![add new port forward rule](https://static.gl-inet.com/docs/router/en/4/interface_guide/firewall/add_new_port_forward_rule.png){class="glboxshadow"}
 
-**Name:** Nom de la règle.
+**Name:** Saisissez un nom pour la règle.
 
-**Protocol:** Protocole utilisé ; vous pouvez choisir TCP, UDP ou à la fois TCP et UDP.
+**Protocol:** Sélectionnez le protocole : TCP, UDP ou les deux.
 
-**External Zone:** Les options disponibles pour la zone externe sont `WAN`, `wgclient`, `wgserver`, `ovpnclient`, `ovpnserver`.
+**External Zone:** Sélectionnez l’interface par laquelle arrive le trafic entrant. Les options sont `LAN`, `WAN`, `guest`, `ovpnclient`, `ovpnserver`, `wgclient` et `wgserver`. Les options liées au VPN n’apparaissent qu’après la configuration d’une connexion VPN.
 
-**External Port:** Numéro du port externe. Vous pouvez saisir ici un numéro de port précis.
+**External Port:** Saisissez le numéro de port externe.
 
-**Internal Zone:** Les options disponibles pour la zone interne sont `WAN`, `wgclient`, `wgserver`, `ovpnclient`, `ovpnserver`.
+**Internal Zone:** Sélectionnez l’interface vers laquelle le trafic est redirigé. Les options sont `LAN`, `WAN`, `guest`, `ovpnclient`, `ovpnserver`, `wgclient` et `wgserver`. Les options liées au VPN n’apparaissent qu’après la configuration d’une connexion VPN.
 
-**Internal IP:** Adresse IP attribuée par le routeur à l'appareil qui doit être accessible à distance.
+**Internal IP:** Saisissez l’adresse IP LAN de l’appareil auquel vous souhaitez accéder à distance.
 
-**Internal Port:** Numéro du port interne de l'appareil. Vous pouvez saisir un numéro de port précis. Laissez ce champ vide s'il est identique au port externe.
+**Internal Port:** Saisissez le numéro de port interne de l’appareil. Laissez ce champ vide s’il est identique au port externe.
 
-**Enable:** Active ou désactive la règle.
+**Enable:** Utilisez l’interrupteur pour activer ou désactiver la règle.
 
-## Ouverture de ports sur le routeur
+## Ouverture de ports sur le routeur {#open-ports-on-router}
 
 Les services du routeur, comme le web et le FTP, nécessitent que leurs ports respectifs soient ouverts sur le routeur afin d'être accessibles publiquement.
 
@@ -58,7 +58,7 @@ Dans la fenêtre contextuelle, ouvrez un nouveau port puis cliquez sur **Apply**
 
 **Enable:** Active ou désactive la règle.
 
-## DMZ
+## DMZ {#dmz}
 
 La DMZ permet d'exposer un ordinateur à Internet ; tous les paquets entrants seront alors redirigés vers cet ordinateur.
 

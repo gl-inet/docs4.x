@@ -1,4 +1,4 @@
-# Ethernet Port（ファームウェアv4.10）
+# Ethernet Port（ファームウェアv4.10） {#ethernet-port-firmware-v410}
 
 **注**：このページの内容はFlint 4（GL-BE14000）で初めて導入され、ファームウェアv4.10で他のモデルにも順次提供されます。
 
@@ -34,7 +34,7 @@ Web管理パネルの左側で、**NETWORK** -> **Ethernet Port** の順に移�
 
 - **Settings**：クリックすると、各ポートの設定ページが開きます。
 
-## WAN
+## WAN {#wan}
 
 このセクションには、ポートモード（WANまたはLAN）、MACアドレス、ネゴシエート速度が表示されます。
 
@@ -48,11 +48,11 @@ Web管理パネルの左側で、**NETWORK** -> **Ethernet Port** の順に移�
 
 - **Negotiated Network Port Rate**：WANインターフェースのネゴシエート速度です。有効なリンクが検出された場合にのみ表示されます。
 
-## LAN
+## LAN {#lan}
 
 このセクションにはLANポートの設定が表示されます。必要に応じてEthernet Modeを**Standard**または**Multiple VLANs**に設定できます。
 
-### Standardモード
+### Standardモード {#standard-mode}
 
 Standardモードでは、端末の接続に使用する1つのVLAN（Untagged）のみを設定できます。
 
@@ -66,7 +66,7 @@ Standardモードでは、端末の接続に使用する1つのVLAN（Untagged�
 
 設定後、Ethernet Portページに戻って設定内容を確認できます。
 
-### Multiple VLANsモード
+### Multiple VLANsモード {#multiple-vlans-mode}
 
 Multiple VLANsモードでは、1つのポートで複数のVLAN（Tagged）を使用できます。通常はAPや他のスイッチを接続する場合に使用します。
 
@@ -84,7 +84,7 @@ Multiple VLANsモードでは、1つのポートで複数のVLAN（Tagged）を�
 
 一部のモデルでは、デュアルEthernet WAN構成でLAN 1をWANポートに切り替えることができます。詳細は[Dual-Ethernet WAN](#dual-ethernet-wan)を参照してください。
 
-## Dual-Ethernet WAN
+## Dual-Ethernet WAN {#dual-ethernet-wan}
 
 Dual-Ethernet WAN機能では、デフォルトのLAN Ethernetポートを2つ目のWANポートへ切り替えて、2本のEthernet回線でインターネットに接続できます。信頼性の高いバックアップ接続を提供し、対応する構成では、帯域幅を多く使用する処理向けに帯域幅の集約もサポートします。また、仕事用と個人用など、独立した2つのネットワークへ同時に接続できるため、追加のハードウェアを使用せずに柔軟性を高められます。
 
@@ -100,7 +100,7 @@ Dual-Ethernet WAN機能では、デフォルトのLAN Ethernetポートを2つ�
     - GL-BE9300 (Flint 3)
     - GL-BE3600 (Slate 7)
     - GL-X2000 (Spitz Plus)
-    - GL-MT6000 (Flint2)
+    - GL-MT6000 (Flint 2)
     - GL-X3000 (Spitz AX)
     - GL-XE3000 (Puli AX)
 
@@ -140,4 +140,4 @@ Dual-Ethernet WAN機能では、デフォルトのLAN Ethernetポートを2つ�
 
 ---
 
-ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}または[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}をご利用ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

@@ -1,10 +1,10 @@
-# SMS
+# SMS {#sms}
 
 I router cellulari GL.iNet sono dotati di un modem integrato che supporta l'invio e la ricezione di messaggi SMS dopo l'inserimento di una scheda SIM.
 
-**Nota**: questa funzione funziona solo sui modelli GL.iNet 4G/5G con modulo originale 4G LTE/5G NR e non e' supportata su altri moduli o su altri moduli USB.
+**Nota**: questa funzione funziona solo sui modelli GL.iNet 4G/5G con modulo originale 4G LTE/5G NR e non è supportata su altri moduli o su altri moduli USB.
 
-## Modelli supportati
+## Modelli supportati {#supported-models}
 
 ??? "Modelli supportati"
     - GL-E5800 (Mudi 7)
@@ -41,7 +41,7 @@ I router cellulari GL.iNet sono dotati di un modem integrato che supporta l'invi
     - GL-B1300 (Convexa-B)
     - GL-AP1300 (Cirrus)
 
-## Configurazione rapida
+## Configurazione rapida {#quick-setup}
 
 Prendiamo GL-X3000, Spitz AX, come esempio.
 
@@ -75,7 +75,7 @@ Prendiamo GL-X3000, Spitz AX, come esempio.
 
     * SMS Contents
 
-        Ogni SMS puo' contenere fino a 160 caratteri.
+        Ogni SMS può contenere fino a 160 caratteri.
 
 ---
 

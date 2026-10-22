@@ -1,12 +1,12 @@
-# Puli AX (GL-XE3000) User Guide
+# Puli AX (GL-XE3000) User Guide {#puli-ax-gl-xe3000-user-guide}
 
-## Product overview
+## Product overview {#product-overview}
 
 Puli AX (GL-XE3000) is a Wi-Fi 6 5G Cellular Router delivering fast internet speeds. With a powerful built-in 6400mAh/7.4V/47.4Wh battery, you can enjoy internet connectivity for even longer periods. Experience lightning-fast Wi-Fi speeds of up to 574Mbps (2.4GHz) and 2402Mbps (5GHz). It is equipped with a 5G NR cellular connection. When Multi-WAN failover is configured, it can maintain connectivity even in the event of an Ethernet failure.
 
 ![xe3000_interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe3000/hardware_info/xe3000_interface.jpg){class="glboxshadow"}
 
-## Package contents
+## Package contents {#package-contents}
 
 - 1 x Puli AX (GL-XE3000)
 - 1 x User manual
@@ -18,7 +18,7 @@ Puli AX (GL-XE3000) is a Wi-Fi 6 5G Cellular Router delivering fast internet spe
 
 ![xe3000_unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe3000/first_time_setup/xe3000_unboxing.jpg){class="glboxshadow"}
 
-## LED indicators 
+## LED indicators {#led-indicators}
 
 The following describes the LED states for different events. To see all statuses of each LED, refer to [GL-XE3000 LED Indicator Status](../../faq/led.md#gl-xe3000){target="_blank"}.
 
@@ -33,7 +33,7 @@ The following describes the LED states for different events. To see all statuses
 
 **Tip**: When connected to the Internet, a flashing 2.4GHz or 5GHz LED means that Wi-Fi devices are connected and actively transmitting data.
 
-## How to set up Puli AX
+## How to set up Puli AX {#how-to-set-up-puli-ax}
 
 Watch this setup video or follow the steps below. 
 
@@ -47,11 +47,11 @@ Watch this setup video or follow the steps below.
     2. Power off your router.
     3. Insert the SIM card(s) into the SIM card slots. (**Note:** Only one SIM card is active at one time. The other SIM card functions only as a backup.)
 
-### 1. Power on
+### 1. Power on {#1-power-on}
 
 Put the two-piece power adapter together. Connect it to your router and plug it into an outlet. It will start up automatically.
 
-### 2. Connect device
+### 2. Connect device {#2-connect-device}
 
 Connect a device (e.g., computer, laptop or smartphone) to the router via Wi-Fi or Ethernet.
 
@@ -63,13 +63,13 @@ Connect a device (e.g., computer, laptop or smartphone) to the router via Wi-Fi 
 
     On your device, locate your router's Wi-Fi network name in the available networks list and enter the password. You can find the default network name and password printed on your router's label.
 
-### 3. Log in to web Admin Panel
+### 3. Log in to web Admin Panel {#3-log-in-to-web-admin-panel}
 
 Open a web browser, enter `192.168.8.1` in the address bar and log in. Choose your language and set your admin password, then click **Apply**. 
 
 When confirming the Wi‑Fi details, please note that if you change the Wi‑Fi information, you will need to reconnect your device to the router's Wi‑Fi using the updated credentials.
 
-### 4. Internet setup
+### 4. Internet setup {#4-internet-setup}
 
 **Note:** The following instructions apply to users configuring the router via the GL.iNet Web Admin Panel. If you prefer using the GL.iNet app, [download the app](https://www.gl-inet.com/app/){target="_blank"} and follow the on-screen instructions.
 
@@ -125,7 +125,7 @@ Configure your Puli AX using one of the supported internet connection methods: C
 
 ---
 
-## How to set up a VPN
+## How to set up a VPN {#how-to-set-up-a-vpn}
 
 A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an additional layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Puli AX (and other GL.iNet routers) supports OpenVPN and WireGuard. Additionally, it supports Tor.
 
@@ -149,7 +149,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     * [How to set up Tor](../../interface_guide/tor.md).
 
-## Wireless and clients
+## Wireless and clients {#wireless-and-clients}
 
 === "Wireless"
 
@@ -163,7 +163,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     To set up Clients, refer to [Clients](../../interface_guide/clients.md).
 
-## Cloud services
+## Cloud services {#cloud-services}
 
 === "GoodCloud"
 
@@ -177,7 +177,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     To set up AstroWarp, refer to [AstroWarp](../../interface_guide/astrowarp.md).
 
-## Applications
+## Applications {#applications}
 
 === "Plug-ins"
 
@@ -231,7 +231,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/hyHh8pAxgVw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Network settings
+## Network settings {#network-settings}
 
 === "Port forwarding"
 
@@ -309,7 +309,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     To set up NAT settings, refer to [NAT Settings](../../interface_guide/nat_settings.md).
 
-## System settings
+## System settings {#system-settings}
 
 === "Overview"
 

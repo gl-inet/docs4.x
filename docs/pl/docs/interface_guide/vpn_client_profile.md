@@ -1,4 +1,4 @@
-# Profil klienta VPN
+# Profil klienta VPN {#vpn-client-profile}
 
 > Ten przewodnik dotyczy firmware v4.9 i nowszego.
 
@@ -8,7 +8,7 @@ Od firmware v4.9 strony [OpenVPN Client](openvpn_client.md) i [WireGuard Client]
 
 Ta strona umożliwia logowanie do niektórych zintegrowanych usług VPN i łatwe pobieranie ich profili do połączeń VPN albo ręczne przesyłanie plików konfiguracyjnych wyeksportowanych ze strony innego dostawcy VPN. W razie potrzeby możesz przełączać protokoły VPN w prawym górnym rogu.
 
-## WireGuard
+## WireGuard {#wireguard}
 
 WireGuard® to lekki, wydajny i nowoczesny VPN oparty na najnowszej kryptografii. Zapewnia lepszą szybkość, prostotę i praktyczność niż IPsec, a także znacznie przewyższa OpenVPN pod względem wydajności.
 
@@ -72,9 +72,9 @@ Weźmy [AzireVPN](https://www.azirevpn.com/aff/9x7wisg4){target="_blank"} jako p
 
             ![azirevpn5](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_client_profile/azirevpn5.png){class="glboxshadow"}
 
-        2. Zostaniesz przekierowany do **VPN Dashboard**, aby skonfigurować politykę VPN. Szczegóły znajdziesz [tutaj](vpn_dashboard.md#set-up-vpn-policy).
+        2. Zostaniesz przekierowany do **VPN Dashboard**, aby skonfigurować politykę VPN. Szczegóły znajdziesz [tutaj](vpn_dashboard.md#add-vpn-tunnel).
 
-## OpenVPN
+## OpenVPN {#openvpn}
 
 OpenVPN to otwartoźródłowy protokół VPN, który wykorzystuje techniki wirtualnych sieci prywatnych do ustanawiania bezpiecznych połączeń site-to-site lub punkt-punkt.
 

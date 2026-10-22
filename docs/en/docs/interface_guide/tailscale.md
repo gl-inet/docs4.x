@@ -1,4 +1,4 @@
-# Tailscale
+# Tailscale {#tailscale}
 
 Tailscale is a VPN service that makes the devices and applications you own accessible anywhere in the world, securely and effortlessly. For more information about Tailscale, please visit [Tailscale official website](https://tailscale.com/){target="_blank"}.
 
@@ -12,7 +12,7 @@ The Tailscale feature on GL.iNet routers, available since firmware v4.2, allows 
 
 3. Some models, although running firmware v4.2 or higher, do not support Tailscale due to insufficient memory.
 
-## Supported Models
+## Supported Models {#supported-models}
 
 ??? "Supported Models"
     - GL-MT6000 (Fortify)
@@ -50,7 +50,7 @@ The Tailscale feature on GL.iNet routers, available since firmware v4.2, allows 
     - GL-S1300 (Convexa-S)
     - GL-X300B (Collie)
 
-## Set up Tailscale network
+## Set up Tailscale network {#set-up-tailscale-network}
 
 The following is an example of the GL-MT2500.
 
@@ -104,7 +104,7 @@ The following is an example of the GL-MT2500.
 
         ![web admin panel](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/web_admin_panel.png){class="glboxshadow gl-80-desktop"}
 
-## Allow Remote Access WAN
+## Allow Remote Access WAN {#allow-remote-access-wan}
 
 **Note**: This feature was renamed to **Advertise WAN Subnets** in firmware v4.9 and later.
 
@@ -136,7 +136,7 @@ Here are the steps to set up this feature.
 
     ![tailscale access axt1800](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/tailscale_access_axt1800.jpg){class="glboxshadow gl-50-desktop"}
 
-## Allow Remote Access LAN
+## Allow Remote Access LAN {#allow-remote-access-lan}
 
 **Note**: This feature was renamed to **Advertise LAN Subnets** in firmware v4.9 and later.
 
@@ -168,7 +168,7 @@ Here are the steps to set up this feature.
 
     ![tailscale access ubuntu](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/tailscale_access_ubuntu.png){class="glboxshadow gl-80-desktop"}
 
-## Custom Exit Nodes
+## Custom Exit Nodes {#custom-exit-nodes}
 
 By default, Tailscale acts as an overlay network: it only routes traffic between devices running Tailscale, and does not process your public Internet traffic — such as when browsing websites like Google.
 
@@ -226,7 +226,7 @@ Here are the steps to set Leo-Desktop as an Exit Node. For an alternative custom
 
     To resolve this, enable the router's subnet routes in the Tailscale Admin console as outlined in **Step 1** above.
 
-## Run Exit Node
+## Run Exit Node {#run-exit-node}
 
 **Note**: This feature was introduced in firmware v4.9.
 
@@ -305,7 +305,7 @@ Here are the steps to set the GL-BE9300 as an Exit Node.
 
 For more information, you can refer to [Exit Nodes (route all traffic)](https://tailscale.com/kb/1103/exit-nodes/){target="_blank"}.
 
-## IP Masquerading
+## IP Masquerading {#ip-masquerading}
 
 **Note**: This feature was introduced in firmware v4.9.
 

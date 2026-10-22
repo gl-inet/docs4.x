@@ -1,4 +1,4 @@
-# Network Mode
+# Network Mode {#network-mode}
 
 Dans la partie gauche du panneau d'administration Web, allez dans **NETWORK** -> **Network Mode**.
 
@@ -12,7 +12,7 @@ Le mode réseau désigne les différents rôles et fonctions opérationnels qu'u
 
     3. **En mode Non-Router, les fonctionnalités suivantes ne seront pas disponibles** : Access Control (Allowlist and Blocklist), AstroWarp, VPN, AdGuard Home, Parental Control, ZeroTier, Tailscale, Port Forwarding, Multi-WAN, DHCP Server, Address Reservation, Guest Network, DNS, Port Management, IPv6, Drop-in Gateway, IGMP Snooping, Network Acceleration, NAT Settings.
 
-## Pour les modèles avec Wi-Fi
+## Pour les modèles avec Wi-Fi {#for-models-with-wi-fi}
 
 À l'exception de certains modèles spécifiques, la plupart des routeurs sans fil GL.iNet disposent de la fonctionnalité Wi-Fi.
 
@@ -32,6 +32,8 @@ Les modèles équipés du Wi-Fi prennent généralement en charge quatre modes r
 
     Après être passé en mode Access Point, vous ne pourrez plus accéder au panneau d'administration Web en utilisant l'adresse IP LAN d'origine. Vous devez à la place vous connecter au routeur en amont pour trouver l'adresse IP qu'il a attribuée à cet AP, puis utiliser cette adresse IP pour accéder au panneau d'administration Web. Si vous n'avez pas accès au routeur en amont, maintenez le bouton de réinitialisation enfoncé pendant 4 secondes pour revenir au mode Router par défaut.
 
+    Pour comparer la connectivité, les performances et la gestion, consultez [Comparaison des modes Mesh, Extender et Access Point](mesh.md#mesh-vs-extender-vs-access-point-mode).
+
     !!! tip
 
         Lors du déploiement de plusieurs points d'accès, l'emplacement des AP, le choix des canaux, le chevauchement de couverture et la puissance d'émission peuvent affecter le roaming et les performances. Consultez [Comprendre la couverture Wi-Fi, les points d'accès et la puissance d'émission](../tutorials/understanding_wifi_coverage_access_points_and_transmit_power.md) pour obtenir des conseils de déploiement.
@@ -40,7 +42,9 @@ Les modèles équipés du Wi-Fi prennent généralement en charge quatre modes r
 
 - **Extender** : ce mode est conçu pour étendre la couverture Wi-Fi d'un réseau sans fil existant et éliminer les zones mortes dans les endroits où la connectivité est faible.
 
-    Il permet au routeur de recevoir sans fil les signaux du routeur principal, de les amplifier, puis de retransmettre le signal renforcé. Contrairement au mode Access Point, il ne nécessite aucune connexion filaire au routeur principal, mais il peut entraîner une division par deux de la bande passante, car l'appareil doit gérer simultanément la réception et la transmission du signal.
+    En mode Extender, l’appareil se connecte à un réseau Wi-Fi existant et transfère le trafic pour étendre la couverture sans connexion Ethernet au routeur principal. Lorsque la connexion montante et les clients connectés partagent la même radio et le même canal Wi-Fi, la réception et la retransmission du trafic consomment du temps d’antenne supplémentaire et peuvent réduire le débit.
+
+    Pour comparer la connectivité, les performances et la gestion, consultez [Comparaison des modes Mesh, Extender et Access Point](mesh.md#mesh-vs-extender-vs-access-point-mode).
 
     En mode Extender, vous pourrez toujours accéder au panneau d'administration Web en utilisant son adresse IP LAN d'origine.
 
@@ -52,7 +56,7 @@ Les modèles équipés du Wi-Fi prennent généralement en charge quatre modes r
 
     Après être passé en mode WDS, vous ne pourrez plus accéder au panneau d'administration Web en utilisant l'adresse IP LAN d'origine. Vous devez à la place vous connecter au routeur en amont pour trouver l'adresse IP qu'il a attribuée à ce routeur WDS, puis utiliser cette adresse IP pour accéder au panneau d'administration Web. Si vous n'avez pas accès au routeur en amont, maintenez le bouton de réinitialisation enfoncé pendant 4 secondes pour revenir au mode Router par défaut.
 
-## Pour les modèles sans Wi-Fi
+## Pour les modèles sans Wi-Fi {#for-models-without-wi-fi}
 
 Le GL-MT2500/GL-MT2500A ne prend pas en charge les modes Access Point, Extender ni WDS, car il ne dispose pas de la fonctionnalité Wi-Fi. En revanche, il prend en charge les modes Router et Bridge.
 

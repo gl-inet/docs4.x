@@ -1,4 +1,4 @@
-# Guide de dépannage du réseau cellulaire
+# Guide de dépannage du réseau cellulaire {#cellular-network-troubleshooting-guide}
 
 Si vous ne parvenez pas à établir une connexion cellulaire, veuillez vérifier les points suivants.
 
@@ -46,9 +46,9 @@ Si vous ne parvenez pas à établir une connexion cellulaire, veuillez vérifier
 
     ![](https://static.gl-inet.com/docs/router/en/4/faq/cellular_troubleshoot/sim_settings_apn.png){class="glboxshadow gl-90-desktop"}
     
-    **2.4** Activez **Band Masking** et réessayez. Pour le firmware version 4.7 et antérieure, reportez-vous à [ce lien](../interface_guide/internet_cellular_v4.7.md/#band-masking). Pour le firmware version 4.8 et ultérieure, reportez-vous à [ce lien](../interface_guide/internet_cellular.md/#band-masking).
+    **2.4** Activez **Band Masking** et réessayez. Pour le firmware version 4.7 et antérieure, reportez-vous à [ce lien](../interface_guide/internet_cellular_v4.7.md#band-masking). Pour le firmware version 4.8 et ultérieure, reportez-vous à [ce lien](../interface_guide/internet_cellular.md#band-masking).
 
-    **2.5** Verrouillez ou déverrouillez une antenne relais et réessayez. Cette fonctionnalité est disponible uniquement sur les GL-X3000 (Spitz AX), GL-XE3000 (Puli AX) et GL-X2000 (Spitz Plus). Cliquez [ici](../interface_guide/internet_cellular.md/#lock-tower) pour plus d'instructions.
+    **2.5** Verrouillez ou déverrouillez une antenne relais et réessayez. Cette fonctionnalité est disponible uniquement sur les GL-X3000 (Spitz AX), GL-XE3000 (Puli AX) et GL-X2000 (Spitz Plus). Cliquez [ici](../interface_guide/internet_cellular.md#lock-tower) pour plus d'instructions.
     
     Le verrouillage sur une antenne relais spécifique permet au routeur d'accéder à une ressource réseau de haute qualité et de maintenir une connectivité cellulaire stable.
     

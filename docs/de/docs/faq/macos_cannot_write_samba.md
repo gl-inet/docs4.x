@@ -1,4 +1,4 @@
-# macOS kann nicht auf eine Samba-Freigabe schreiben
+# macOS kann nicht auf eine Samba-Freigabe schreiben {#macos-cannot-write-to-a-samba-share}
 
 Wenn Sie ein mit exFAT formatiertes Speichergerät für eine Samba-Freigabe verwenden, können auf einigen macOS-Geräten beim Versuch, Dateien in die Freigabe zu schreiben, eine der folgenden Fehlermeldungen auftreten.
 
@@ -63,7 +63,7 @@ Versuchen Sie, dieses Problem mit den folgenden Methoden zu beheben.
             ext4 wird in erster Linie von Linux-Systemen unterstützt. Nach der Formatierung in ext4 ist das Speichergerät möglicherweise nicht mit Windows-Betriebssystemen kompatibel, was dazu führen kann, dass das Laufwerk auf Windows-Geräten nicht erkannt wird oder nicht beschrieben werden kann.
         
         1. Sichern Sie alle Daten auf dem Laufwerk, da bei der Formatierung alles gelöscht wird.
-        2. Verwenden Sie ein Tool wie Disk Utility oder ein Linux-System, um das Laufwerk in ext4 zu formatieren.
+        2. Verwenden Sie ein Linux-System oder Drittanbieter-Tools, um das Laufwerk als ext4 zu formatieren.
 
 8. **Aktualisieren Sie macOS und leeren Sie die Caches.**
 

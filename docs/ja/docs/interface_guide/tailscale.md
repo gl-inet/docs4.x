@@ -1,4 +1,4 @@
-# Tailscale
+# Tailscale {#tailscale}
 
 Tailscale は、所有しているデバイスやアプリケーションに世界中のどこからでも、安全かつ簡単にアクセスできるようにするVPNサービスです。詳細については、[Tailscale公式サイト](https://tailscale.com/){target="_blank"} を参照してください。
 
@@ -6,13 +6,13 @@ Tailscale は、所有しているデバイスやアプリケーションに世�
 
 **注**:
 
-1. Tailscale は WireGuard をベースとしているため、ルーティング競合を引き起こす可能性があります。OpenVPN Client、WireGuard Client、GoodCloud Site to Site、ZeroTier、AstroWarp と同時に使用することは推奨されません。
+1. Tailscale は WireGuard をベースとしているため、OpenVPN Client、WireGuard Client、GoodCloud Site to Site、ZeroTier、AstroWarp のいずれかの機能やサービスと同時に使用すると、ルーティングの競合が発生する可能性があります。これらとの同時使用は推奨されません。
 
 2. この機能は現在ベータ版であり、不具合が含まれる可能性があります。
 
 3. 一部のモデルでは、ファームウェア v4.2 以降を実行していても、メモリ不足のため Tailscale をサポートしていません。
 
-## 対応モデル
+## 対応モデル {#supported-models}
 
 ??? "対応モデル"
     - GL-MT6000 (Fortify)
@@ -50,7 +50,7 @@ Tailscale は、所有しているデバイスやアプリケーションに世�
     - GL-S1300 (Convexa-S)
     - GL-X300B (Collie)
 
-## Tailscaleネットワークを設定する
+## Tailscaleネットワークを設定する {#set-up-tailscale-network}
 
 以下は GL-MT2500 を例にした手順です。
 
@@ -64,7 +64,7 @@ Tailscale は、所有しているデバイスやアプリケーションに世�
 
 2. GL.iNetルーターでTailscaleを有効にします。
 
-    ルーターのWeb管理画面にログインし、**APPLICATIONS** -> **Tailscale** に移動します。
+    ルーターのWeb管理パネルにログインし、**APPLICATIONS** -> **Tailscale** に移動します。
 
     ![glinet tailscale disabled](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/tailscale_disabled.png){class="glboxshadow"}
 
@@ -100,13 +100,13 @@ Tailscale は、所有しているデバイスやアプリケーションに世�
 
         ![ssh](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/ssh.png){class="glboxshadow"}
 
-    * Web管理画面にアクセスする
+    * Web管理パネルにアクセスする
 
         ![web admin panel](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/web_admin_panel.png){class="glboxshadow gl-80-desktop"}
 
-## WAN からのリモートアクセスを許可する
+## WAN からのリモートアクセスを許可する {#allow-remote-access-wan}
 
-> この機能は firmware v4.9 以降で **Advertise WAN Subnets** に名称変更されました。
+**注**: この機能はファームウェア v4.9 以降で **Advertise WAN Subnets** に名称変更されました。
 
 このオプションを有効にすると、デバイスの WAN 側リソースへ Tailscale 仮想ネットワーク経由でアクセスできます。ルートは Tailscale Admin Console で承認された後に有効になります。
 
@@ -116,7 +116,7 @@ Tailscale は、所有しているデバイスやアプリケーションに世�
 
 操作手順は次のとおりです。
 
-1. ルーターのWeb管理画面にログインし、**APPLICATIONS** -> **Tailscale** に移動します。
+1. ルーターのWeb管理パネルにログインし、**APPLICATIONS** -> **Tailscale** に移動します。
 
     **Allow Remote Access WAN** を有効にして、**Apply** をクリックします。
 
@@ -136,9 +136,9 @@ Tailscale は、所有しているデバイスやアプリケーションに世�
 
     ![tailscale access axt1800](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/tailscale_access_axt1800.jpg){class="glboxshadow gl-50-desktop"}
 
-## LAN へのリモートアクセスを許可する
+## LAN へのリモートアクセスを許可する {#allow-remote-access-lan}
 
-> この機能は firmware v4.9 以降で **Advertise LAN Subnets** に名称変更されました。
+**注**: この機能はファームウェア v4.9 以降で **Advertise LAN Subnets** に名称変更されました。
 
 このオプションを有効にすると、デバイスの LAN 側リソースへ Tailscale 仮想ネットワーク経由でアクセスできます。ルートは Tailscale Admin Console で承認された後に有効になります。
 
@@ -148,7 +148,7 @@ Tailscale は、所有しているデバイスやアプリケーションに世�
 
 操作手順は次のとおりです。
 
-1. ルーターのWeb管理画面にログインし、**APPLICATIONS** -> **Tailscale** に移動します。
+1. ルーターのWeb管理パネルにログインし、**APPLICATIONS** -> **Tailscale** に移動します。
 
     **Allow Remote Access LAN** を有効にして、**Apply** をクリックします。
 
@@ -168,23 +168,25 @@ Tailscale は、所有しているデバイスやアプリケーションに世�
 
     ![tailscale access ubuntu](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/tailscale_access_ubuntu.png){class="glboxshadow gl-80-desktop"}
 
-## カスタム Exit Node
+## カスタム出口ノード {#custom-exit-nodes}
 
-デフォルトでは、Tailscale はオーバーレイネットワークとして動作し、Tailscale を実行しているデバイス間の通信のみをルーティングします。Google のようなWebサイト閲覧時のような、通常のパブリックインターネットトラフィックは処理しません。
+デフォルトでは、Tailscale はオーバーレイネットワークとして動作し、Tailscale を実行しているデバイス間の通信のみをルーティングします。Google などのWebサイトを閲覧する際のパブリックインターネットトラフィックは処理しません。
 
-ただし、Tailscale にパブリックインターネットトラフィックもルーティングさせたい場面があります。たとえば、外出先や海外旅行中に、自国からしか利用できないオンラインサービス（銀行など）へアクセスしたい場合、自宅にあるパブリックIPを持つデスクトップPCを Exit node として設定し、同じ Tailnet 上にある他のデバイス（下図の GL-AXT1800 や GL-MT3000 など）のトラフィックをそこへ送るようにできます。これにより、すべてのパブリックインターネットトラフィックを Exit Node 経由で転送できます。
+ただし、Tailscale にパブリックインターネットトラフィックもルーティングさせたい場面があります。たとえば、外出先や海外旅行中に、自国からしか利用できないオンラインサービス（銀行など）へアクセスしたい場合、自宅にあるパブリックIPを持つデスクトップPCを出口ノードとして設定し、同じ Tailnet 上にある他のデバイス（下図の GL-AXT1800 や GL-MT3000 など）のトラフィックをそこへ送るようにできます。これにより、すべてのパブリックインターネットトラフィックを出口ノード経由で転送できます。
 
 ![exitnode](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/custom_exit_nodes/exitnode.jpg){class="glboxshadow"}
 
-すべてのトラフィックを Exit Node 経由にすると、実質的にデフォルトルート（0.0.0.0/0, ::/0）を利用することになり、通常のVPN接続と似た動作になります。
+すべてのトラフィックを出口ノード経由にすると、実質的にデフォルトルート（0.0.0.0/0, ::/0）を利用することになり、通常のVPN接続と似た動作になります。
 
-要するに、Exit node は Tailnet 上のデバイスからの外向きインターネットトラフィックをルーティングする役割を持ち、事実上VPN Serverのように動作します。Exit node に接続すると、Tailscale以外のインターネットトラフィックはその設置場所から送信されているように見えるため、地域制限のあるコンテンツへのアクセスやオンラインプライバシーの強化に役立ちます。このトラフィック転送を担当するデバイスが "exit node" です。
+要するに、出口ノードは Tailnet 上のデバイスからの外向きインターネットトラフィックをルーティングする役割を持ち、事実上VPNサーバーのように動作します。出口ノードに接続すると、Tailscale以外のインターネットトラフィックはその設置場所から送信されているように見えるため、地域制限のあるコンテンツへのアクセスやオンラインプライバシーの強化に役立ちます。このトラフィック転送を担当するデバイスを「出口ノード」（exit node）と呼びます。
 
-**注**: ルーターのDNSサーバーがローカルネットワーク内でのみ到達可能なプライベートIPアドレスを使用している場合、Exit Node 使用時にインターネット接続を失うことがあります。この場合はルーターにログインし、**NETWORK** -> **DNS** に移動して、8.8.8.8 などのパブリックDNSサーバーを手動で設定してください。
+**注**: ルーターのDNSサーバーがローカルネットワーク内でのみ到達可能なプライベートIPアドレスを使用している場合、出口ノード使用時にインターネット接続を失うことがあります。この場合はルーターにログインし、**NETWORK** -> **DNS** に移動して、8.8.8.8 などのパブリックDNSサーバーを手動で設定してください。
 
 ---
 
-以下の例では、GL.iNetルーター **GL-MT2500** と **Leo-Desktop** が同じ Tailnet 上にあります。Leo-Desktop を Exit Node として設定する手順は以下のとおりです。カスタム Exit Node の別の設定方法については、[IPマスカレーディング](#ip-masquerading)を参照してください。
+以下の例では、GL.iNetルーター **GL-MT2500** と **Leo-Desktop** が同じ Tailnet 上にあります。
+
+Leo-Desktop を出口ノードとして設定する手順は以下のとおりです。カスタム出口ノードの別の設定方法については、[IPマスカレーディング](#ip-masquerading)を参照してください。
 
 1. Tailscale Admin console で GL-MT2500 のサブネットルートを有効にします。
 
@@ -196,7 +198,7 @@ Tailscale は、所有しているデバイスやアプリケーションに世�
 
     ![tailcale enable subnet route](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/tailscale_enable_subnet_routes.png){class="glboxshadow"}
 
-2. Exit node として使いたいデバイス（この例では Leo-Desktop）で **Run exit node** を選択します。以下は Windows OS での例です。
+2. 出口ノードとして使いたいデバイス（この例では Leo-Desktop）で **Run exit node** を選択します。以下は Windows OS での例です。
 
     ![tailscale windows run exit node](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/custom_exit_nodes/tailscale_run_exit_node.png){class="glboxshadow"}
 
@@ -204,29 +206,29 @@ Tailscale は、所有しているデバイスやアプリケーションに世�
 
     ![tailscale windows run exit ndoe](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/custom_exit_nodes/tailscale_run_exit_node_alert.png){class="glboxshadow"}
 
-3. Tailscale Admin console で、Leo-Desktop を Exit node として設定します。
+3. Tailscale Admin console で、Leo-Desktop を出口ノードとして設定します。
 
     ![tailscale edit route settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/custom_exit_nodes/tailscale_exit_node_alert.png){class="glboxshadow"}
 
     ![tailscale use as exit node](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/custom_exit_nodes/tailscale_use_as_exit_node.png){class="glboxshadow"}
 
-4. GL-MT2500 の Web管理画面 にログインし、**APPLICATIONS** -> **Tailscale** に移動して **Custom Exit Nodes** を有効にします。更新ボタンをクリックし、ドロップダウンメニューから Leo-Desktop のIPアドレスを選択して、**Apply** をクリックします。
+4. GL-MT2500 の Web管理パネルにログインし、**APPLICATIONS** -> **Tailscale** に移動して **Custom Exit Nodes** を有効にします。更新ボタンをクリックし、ドロップダウンメニューから Leo-Desktop のIPアドレスを選択して、**Apply** をクリックします。
 
     ![glinet tailscale custom exit node](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/custom_exit_nodes/custom_exit_node.png){class="glboxshadow"}
 
-    その後、ルーターに接続されたデバイスは Exit Node 経由でインターネットへアクセスするようになり、すべてのインターネットトラフィックが Exit Node の場所から送信されているように見えます。
+    その後、ルーターに接続されたデバイスは出口ノード経由でインターネットへアクセスするようになり、すべてのインターネットトラフィックが出口ノードの場所から送信されているように見えます。
 
-5. **トラブルシューティング**: Custom Exit Nodes を有効にした後、GL.iNet ルーターに接続されたデバイスがインターネットへアクセスできない場合は、Tailscale Admin console でルーターのサブネットルートが有効になっているか確認してください。
+5. **トラブルシューティング**: **Custom Exit Nodes** を有効にした後、GL.iNet ルーターに接続されたデバイスがインターネットへアクセスできない場合は、Tailscale Admin console でルーターのサブネットルートが有効になっているか確認してください。
 
-    以下のような案内が、ルーターの Web 管理画面に表示される場合があります。
+    以下のような案内が、ルーターの Web 管理パネルに表示される場合があります。
 
     ![exit node troubleshooting](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/custom_exit_nodes/troubleshooting.jpg){class="glboxshadow"}
 
     この場合は、上記 **手順1** を参照し、Tailscale Admin console でルーターのサブネットルートを有効にしてください。
 
-## Run Exit Node
+## 出口ノードの実行 {#run-exit-node}
 
-> この機能は firmware v4.9 で導入されました。
+**注**: この機能はファームウェア v4.9 で導入されました。
 
 ルーターで出口ノードを実行すると、tailnet 内の他のデバイスがすべての外向きインターネットトラフィックをこのルーターのパブリック IP 経由でルーティングできます。
 
@@ -236,13 +238,13 @@ Tailscale は、所有しているデバイスやアプリケーションに世�
 
 ***ヒント**: 認証キーの期限切れによる接続中断を避けるため、出口ノードのキー有効期限を無効にすることを推奨します。*
 
-GL-BE9300 を Exit Node として設定するには、以下の手順を行います。
+GL-BE9300 を出口ノードとして設定するには、以下の手順を行います。
 
 1. GL-BE9300 とトラベル用ノート PC を同じ Tailscale tailnet に追加します。
 
     ![tailnet](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node/tailnet.png){class="glboxshadow"}
 
-2. GL-BE9300 の Web Admin Panel で **Run Exit Node** を有効にし、**Apply** をクリックします。
+2. GL-BE9300 の Web 管理パネルで **Run Exit Node** を有効にし、**Apply** をクリックします。
 
     ![run exit node1](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node/run_exit_node1.png){class="glboxshadow"}
 
@@ -254,7 +256,7 @@ GL-BE9300 を Exit Node として設定するには、以下の手順を行い�
 
     ![run exit node3](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node/run_exit_node3.png){class="glboxshadow"}
 
-5. **Use as exit node** にチェックを入れ、**Save** をクリックします。
+5. ポップアップウィンドウで **Use as exit node** にチェックを入れ、**Save** をクリックします。
 
     ![run exit node4](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node/run_exit_node4.png){class="glboxshadow"}
 
@@ -266,7 +268,7 @@ GL-BE9300 を Exit Node として設定するには、以下の手順を行い�
 
     ![disable key expiry1](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node/disable_key_expiry1.png){class="glboxshadow"}
 
-    その後、"Expiry disabled" タグが表示されます。
+    設定が適用されると、GL-BE9300 の下に "Expiry disabled" タグが表示されます。
 
     ![disable key expiry2](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node/disable_key_expiry2.png){class="glboxshadow"}
 
@@ -286,7 +288,7 @@ GL-BE9300 を Exit Node として設定するには、以下の手順を行い�
 
         ![ip hk](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node/ip_hk.png){class="glboxshadow"}
 
-    2. `Win+R` を押し、`cmd` と入力してコマンドプロンプトを起動し、`tracert google.com` を実行して外向きトラフィックの経路を確認します。コマンド出力にはインターネットトラフィックのすべてのルーティングホップが表示されます。正しく設定されていれば、最初の外部ホップは以下のように出口ノード経由になります。
+    2. `Win+R` を押し、`cmd` と入力してコマンドプロンプトを起動し、`tracert google.com` を実行して外向きトラフィックの経路を確認します。コマンド出力にはインターネットトラフィックのすべてのルーティングホップが表示されます。正しく設定されていれば、以下のように最初の外部ホップが出口ノードを経由し、すべての外向きインターネットトラフィックがこのルーターから出ていることを確認できます。
 
         ![tracert](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node/tracert.png){class="glboxshadow"}
 
@@ -304,13 +306,13 @@ GL-BE9300 を Exit Node として設定するには、以下の手順を行い�
 
 ## IPマスカレーディング {#ip-masquerading}
 
-**Note**: この機能はファームウェア v4.9 で導入されました。
+**注**: この機能はファームウェア v4.9 で導入されました。
 
 IPマスカレーディングは、ネットワークアドレスをマスカレードする仕組みです。ルーターでこのオプションを有効にすると、LANクライアントから送信されるパケットの送信元IPアドレスが、ルーターのTailscaleインターフェースのIPアドレスに自動的に書き換えられます。そのため、Tailscaleネットワーク内の他のノードは、サブネットルーターが転送するすべてのトラフィックを、元のLANクライアントではなくルーター自身からのトラフィックとして認識します。
 
 IPマスカレーディングは、次の場合に推奨されます。
 
-- カスタム Exit Node を設定する際に、Tailscale Admin console でサブネットルートを設定せず、より簡単な方法でルーターにすべてのクライアントトラフィックを転送させたい場合。
+- カスタム出口ノードを設定する際に、Tailscale Admin console でサブネットルートを設定せず、より簡単な方法でルーターにすべてのクライアントトラフィックを転送させたい場合。
 
 - LANデバイスにTailscaleをインストールできないものの、ルーター経由でTailscaleネットワークにアクセスする必要がある場合。
 
@@ -318,19 +320,19 @@ IPマスカレーディングは、次の場合に推奨されます。
 
 ![tailnet](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/tailnet.png){class="glboxshadow"}
 
-GL-BE9300 で **カスタム Exit Node** を設定するには、次の手順を実行します。
+GL-BE9300 で **カスタム出口ノード** を設定するには、次の手順を実行します。
 
-1. GL-BE9300 の Web Admin Panel にログインし、**APPLICATIONS** -> **Tailscale** に移動して **IP Masquerading** を有効にし、**Apply** をクリックします。
+1. GL-BE9300 の Web 管理パネルにログインし、**APPLICATIONS** -> **Tailscale** に移動して **IP Masquerading** を有効にし、**Apply** をクリックします。
 
     ![iP masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/ip_masquerading.png){class="glboxshadow"}
 
     IPマスカレーディングを有効にすると、Tailscale Admin console でサブネットルートを設定する必要はありません。ルーターに接続されたLANクライアントは、ルーターのTailscale仮想IP経由でTailscaleネットワークに直接アクセスできます。
 
-    この例では、GL-BE9300（`100.115.61.35`）とGL-MG1300（`100.113.50.89`）にTailscale仮想IPが割り当てられています。PCがGL-BE9300に接続されている場合、GL-BE9300のTailscaleインターフェースIP経由でGL-MG1300のWeb Admin Panelに直接アクセスできます。
+    この例では、GL-BE9300（`100.115.61.35`）とGL-MG1300（`100.113.50.89`）にTailscale仮想IPが割り当てられています。PCがGL-BE9300に接続されている場合、GL-BE9300のTailscaleインターフェースIP経由でGL-MG1300のWeb管理パネルに直接アクセスできます。
 
     ![test iP masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/test_ip_masquerading.png){class="glboxshadow"}
 
-2. Exit Node として使用するデバイス（この例では GL-MG1300）を選択し、**Run exit node** を有効にします。
+2. 出口ノードとして使用するデバイス（この例では GL-MG1300）を選択し、**Run exit node** を有効にします。
 
     ![run exit node 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node_1.png){class="glboxshadow" width=600}
 
@@ -338,24 +340,24 @@ GL-BE9300 で **カスタム Exit Node** を設定するには、次の手順を
 
     ![run exit node 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node_2.png){class="glboxshadow"}
 
-3. Tailscale Admin console で、GL-MG1300 を Exit Node として設定します。
+3. Tailscale Admin console で、GL-MG1300 を出口ノードとして設定します。
 
     ![tailscale exit node 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/tailscale_exit_node_1.png){class="glboxshadow"}
 
     ![tailscale exit node 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/tailscale_exit_node_2.png){class="glboxshadow" width=500}
 
-    Exit Node の認証キーが期限切れになったときの接続中断を避けるため、**Disable Key Expiry** を有効にできます。
+    出口ノードの認証キーが期限切れになったときの接続中断を避けるため、**Disable Key Expiry** を有効にできます。
 
     ![disable key expirty 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/disable_key_expiry_1.png){class="glboxshadow"}
 
     ![disable key expirty 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/disable_key_expiry_2.png){class="glboxshadow"}
 
-4. GL-BE9300 の Web Admin Panel に戻り、**APPLICATIONS** -> **Tailscale** に移動して **Custom Exit Nodes** を有効にします。更新ボタンをクリックし、ドロップダウンメニューからGL-MG1300のIPアドレスを選択して、**Apply** をクリックします。
+4. GL-BE9300 の Web 管理パネルに戻り、**APPLICATIONS** -> **Tailscale** に移動して **Custom Exit Nodes** を有効にします。更新ボタンをクリックし、ドロップダウンメニューからGL-MG1300のIPアドレスを選択して、**Apply** をクリックします。
 
     ![custom exit nodes 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/custom_exit_nodes_1.png){class="glboxshadow"}
 
-設定後、GL-BE9300に接続されたデバイスは、Exit NodeのGL-MG1300経由でトラフィックをルーティングしてインターネットにアクセスします。すべてのインターネットトラフィックは、Exit Nodeの所在地から送信されたように見えます。
+設定後、GL-BE9300に接続されたデバイスは、出口ノードのGL-MG1300経由でトラフィックをルーティングしてインターネットにアクセスします。すべてのインターネットトラフィックは、出口ノードの所在地から送信されたように見えます。
 
 ---
 
-ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} をご覧いただくか、[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} までご連絡ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

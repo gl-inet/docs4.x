@@ -1,4 +1,4 @@
-# Wireless (firmware v4.8 y anteriores)
+# Wireless (firmware v4.8 y anteriores) {#wireless-firmware-v48-and-earlier}
 
 El contenido de esta página se basa en la versión de firmware v4.8.x y anteriores. Si su dispositivo ejecuta otra versión de firmware, use el selector siguiente para cambiar a la guía correspondiente.
 
@@ -17,10 +17,10 @@ La página Wireless permite configurar redes Wi-Fi independientes, incluidas 2.4
 
 **Nota**: Algunos modelos no admiten Wi-Fi de 5 GHz, como GL-MT300N-V2 (Mango), GL-X300B (Collie) y GL-XE300 (Puli); otros no tienen función Wi-Fi, como GL-MT5000 (Brume 3) y GL-MT2500/GL-MT2500A (Brume 2).
 
-## Wi-Fi MLO
+## Wi-Fi MLO {#mlo-wi-fi}
 
 | Modelos compatibles      |     |
-| :----------------------- | :-: |
+| :----------------------- | :---: |
 | Flint 4 (GL-BE14000)           | √         |
 | Slate 7 Pro (GL-BE10000) |  √  |
 | Beryl 7 (GL-MT3600BE)    |  √  |
@@ -48,10 +48,11 @@ Haga clic en las pestañas siguientes para consultar la configuración de la Wi-
 
     ![MLO Guest Wi-Fi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/guest_wifi_mlo.png){class="glboxshadow"}
 
-## Wi-Fi de 6 GHz
+## Wi-Fi de 6 GHz {#6-ghz-wi-fi}
 
 | Modelos compatibles      |     |
-| :----------------------- | :-: |
+| :----------------------- | :---: |
+| Flint 4 (GL-BE14000)     |  √  |
 | Slate 7 Pro (GL-BE10000) |  √  |
 | Mudi 7 (GL-E5800)        |  √  |
 | Flint 3 (GL-BE9300)      |  √  |
@@ -74,7 +75,7 @@ Haga clic en las pestañas siguientes para consultar la configuración de la Wi-
 
     ![6G Guest Wi-Fi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/guest_wifi_6g.png){class="glboxshadow"}
 
-## Wi-Fi de 5 GHz
+## Wi-Fi de 5 GHz {#5-ghz-wi-fi}
 
 Haga clic en las pestañas siguientes para consultar la configuración de la Wi-Fi principal de 5 GHz y la Wi-Fi de invitados de 5 GHz.
 
@@ -90,7 +91,7 @@ Haga clic en las pestañas siguientes para consultar la configuración de la Wi-
 
     ![5G Guest Wi-Fi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/guest_wifi_5g.png){class="glboxshadow"}
 
-## Wi-Fi de 2.4 GHz
+## Wi-Fi de 2.4 GHz {#24-ghz-wi-fi}
 
 Haga clic en las pestañas siguientes para consultar la configuración de la Wi-Fi principal de 2.4 GHz y la Wi-Fi de invitados de 2.4 GHz.
 
@@ -106,7 +107,7 @@ Haga clic en las pestañas siguientes para consultar la configuración de la Wi-
 
     ![2.4G Guest Wi-Fi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/guest_wifi_2.4g.png){class="glboxshadow"}
 
-## Ajustes comunes de Wi-Fi
+## Ajustes comunes de Wi-Fi {#general-wi-fi-settings}
 
 - Pase el cursor sobre el icono del código QR situado junto al SSID de la Wi-Fi para mostrar su código QR. Puede escanearlo con su teléfono o tableta para conectarse rápidamente a la red Wi-Fi correspondiente.
 

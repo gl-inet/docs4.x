@@ -1,4 +1,4 @@
-# Tareas programadas
+# Tareas programadas {#scheduled-tasks}
 
 En el lado izquierdo del panel de administración web, vaya a **SYSTEM** -> **Scheduled Tasks**.
 
@@ -6,7 +6,7 @@ Scheduled Tasks le permite configurar programaciones diarias para operaciones b�
 
 **Nota**: Sincronice primero la hora en [Time Zone](time_zone.md) antes de utilizar esta función. Si el dispositivo está apagado en la hora programada, la tarea no se ejecutará.
 
-## Programación de la pantalla LED
+## Programación de la pantalla LED {#led-display-schedule}
 
 Esta función le permite establecer una programación de encendido y apagado para la luz LED del router.
 
@@ -18,7 +18,7 @@ En los modelos con pantalla táctil, como el GL-BE3600 Slate 7, la programación
 
 ![LCD display schedule](https://static.gl-inet.com/docs/router/en/4/interface_guide/scheduled_tasks/lcd_display_schedule.png){class="glboxshadow"}
 
-## Reinicio programado
+## Reinicio programado {#schedule-reboot}
 
 Esta función le permite establecer una programación para reiniciar automáticamente el router.
 
@@ -26,7 +26,7 @@ Cuando esté habilitada, establezca las horas de reinicio, seleccione los días 
 
 ![Schedule Reboot](https://static.gl-inet.com/docs/router/en/4/interface_guide/scheduled_tasks/schedule_reboot.png){class="glboxshadow gl-90-desktop"}
 
-## Programación del Wi-Fi
+## Programación del Wi-Fi {#wi-fi-schedule}
 
 Esta función le permite configurar horarios del Wi-Fi según las bandas de frecuencia compatibles con su router, como 2.4 GHz, 5 GHz, 6 GHz y MLO Wi-Fi.
 
@@ -36,7 +36,7 @@ Excepto MLO Wi-Fi, que solo admite el modo de programación de encendido y apaga
 
 - **Switch TX Power**: Se refiere a ajustar automáticamente la potencia de transmisión inalámbrica, que determina la intensidad de la señal y la cobertura, en momentos concretos, equilibrando así el rendimiento y la eficiencia energética, por ejemplo reduciendo la potencia cuando el uso es bajo.
 
-### Programación de MLO Wi-Fi
+### Programación de MLO Wi-Fi {#mlo-wi-fi-schedule}
 
 | Modelos compatibles         |         |
 | :-------------------------- | :-----: |
@@ -53,7 +53,7 @@ Habilite la programación del Main o Guest Wi-Fi, establezca las horas de encend
 
 ![MLO Wi-Fi turn on/off](https://static.gl-inet.com/docs/router/en/4/interface_guide/scheduled_tasks/mlo_turn_on_off.png){class="glboxshadow"}
 
-### Programación de Wi-Fi de 6 GHz
+### Programación de Wi-Fi de 6 GHz {#6-ghz-wi-fi-schedule}
 
 | Modelos compatibles         |         |
 | :-------------------------- | :-----: |
@@ -78,7 +78,7 @@ Habilite la programación del Main Wi-Fi, establezca dos acciones temporizadas p
 - **Restore**: Restaura la potencia TX a otro nivel, por ejemplo Max, en otra hora, por ejemplo 07:00.
 - **days**: Selecciona los días efectivos de la semana para estos ajustes.
 
-### Programación de Wi-Fi de 5 GHz
+### Programación de Wi-Fi de 5 GHz {#5-ghz-wi-fi-schedule}
 
 Cuando el modo de programación del Wi-Fi es **Turn On/Off**, puede establecer un horario de encendido y apagado tanto para el 5 GHz Main Wi-Fi como para el Guest Wi-Fi.
 
@@ -96,7 +96,7 @@ Habilite la programación del Main Wi-Fi, establezca dos acciones temporizadas p
 - **Restore**: Restaura la potencia TX a otro nivel, por ejemplo Max, en otra hora, por ejemplo 07:00.
 - **days**: Selecciona los días efectivos de la semana para estos ajustes.
 
-### Programación de Wi-Fi de 2.4 GHz
+### Programación de Wi-Fi de 2.4 GHz {#24-ghz-wi-fi-schedule}
 
 Cuando el modo de programación del Wi-Fi es **Turn On/Off**, puede establecer un horario de encendido y apagado tanto para el 2.4 GHz Main Wi-Fi como para el Guest Wi-Fi.
 

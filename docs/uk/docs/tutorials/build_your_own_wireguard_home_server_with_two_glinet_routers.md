@@ -120,7 +120,7 @@
 
 ![Створення профілю WireGuard](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/wgconfiggen.jpg){class="glboxshadow"}
 
-Відскануйте QR-код [мобільним застосунком WireGuard](https://www.wireguard.com/install/), щоб перевірити сервер. Докладніше див. [цей розділ](../interface_guide/wireguard_server.md/#check-if-wireguard-server-is-working-properly).
+Відскануйте QR-код [мобільним застосунком WireGuard](https://www.wireguard.com/install/), щоб перевірити сервер. Докладніше див. [цей розділ](../interface_guide/wireguard_server.md#check-if-wireguard-server-is-working-properly).
 
 Також можна експортувати текстову конфігурацію для підключення клієнта VPN.
 

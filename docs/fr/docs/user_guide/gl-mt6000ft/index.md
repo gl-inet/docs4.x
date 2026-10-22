@@ -1,12 +1,12 @@
-# Guide de l'utilisateur de Fortify (GL-MT6000)
+# Guide de l'utilisateur de Fortify (GL-MT6000) {#fortify-gl-mt6000-user-guide}
 
-## Présentation du produit
+## Présentation du produit {#product-overview}
 
-Fortify (GL-MT6000) est un routeur Wi-Fi 6 co-marqué publié conjointement par GL.iNet et ExpressVPN. Chaque unité est livrée avec un abonnement ExpressVPN gratuit d'un an. Les utilisateurs peuvent utiliser l'abonnement et connecter leurs comptes directement sur le panneau d'administration Web du routeur. Une fois activé, tout le trafic passant par le routeur exploitera le réseau haut débit d'ExpressVPN et le cryptage robuste pour protéger l'ensemble de votre connexion réseau et votre confidentialité en ligne.
+Fortify (GL-MT6000) est un routeur Wi-Fi 6 co-marqué publié conjointement par GL.iNet et ExpressVPN. Chaque unité est livrée avec un abonnement ExpressVPN gratuit d'un an. Les utilisateurs peuvent utiliser l'abonnement et connecter leurs comptes directement sur le panneau d'administration Web du routeur. Lorsqu’un tunnel ExpressVPN est connecté, le routeur chiffre et achemine le trafic via ce tunnel conformément à vos paramètres de politique VPN.
 
 ![fortify gl-mt6000](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000-fortify/mt6000-fortify_interface.png){class="glboxshadow"}
 
-## Contenu du colis
+## Contenu du colis {#package-contents}
 
 - 1 x Fortify (GL-MT6000)
 - 1 x Manuel d’utilisation
@@ -22,17 +22,17 @@ Regardez ci-dessous la vidéo de déballage de Fortify.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IQEfj7Hff7U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Comment configurer Fortify
+## Comment configurer Fortify {#how-to-set-up-fortify}
 
 Regardez cette vidéo de configuration ou suivez les étapes ci-dessous.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FymI3LCRMTA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Allumer
+### 1. Allumer {#1-power-on}
 
 Assemblez l'adaptateur secteur en deux parties. Connectez-le à votre routeur Fortify et branchez-le sur une prise. Il démarrera automatiquement.
 
-### 2. Connecter l'appareil
+### 2. Connecter l'appareil {#2-connect-device}
 
 Connectez un appareil (par exemple, un ordinateur, un ordinateur portable ou un smartphone) au routeur via Wi-Fi ou Ethernet.
 
@@ -44,7 +44,7 @@ Connectez un appareil (par exemple, un ordinateur, un ordinateur portable ou un 
 
     Sur votre appareil, accédez à Paramètres -> WLAN, localisez le nom du réseau Wi-Fi de votre routeur dans la liste des réseaux disponibles et saisissez le mot de passe pour rejoindre le réseau. Vous pouvez trouver le nom de réseau et le mot de passe par défaut imprimés sur l'étiquette du routeur.
 
-### 3. Connectez-vous au panneau d'administration Web
+### 3. Connectez-vous au panneau d'administration Web {#3-log-in-to-web-admin-panel}
 
 Ouvrez un navigateur Web, saisissez `192.168.8.1` dans la barre d'adresse et connectez-vous. Choisissez votre langue dans le coin supérieur droit, définissez votre mot de passe administrateur, puis cliquez sur **Next**. Le mot de passe doit comporter entre 10 et 63 caractères et contenir au moins deux des éléments suivants : des lettres majuscules, des lettres minuscules, des chiffres et des symboles spéciaux.
 
@@ -54,7 +54,7 @@ Configurez votre Wi-Fi. Veuillez noter que si vous modifiez les informations Wi�
 
 ![fortify login2](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000-fortify/login2.png){class="glboxshadow"}
 
-### 4. Configuration Internet
+### 4. Configuration Internet {#4-internet-setup}
 
 **Remarque :** les instructions suivantes s'appliquent aux utilisateurs qui configurent le routeur depuis le panneau d'administration Web de GL.iNet. Si vous préférez l'[application GL.iNet](https://www.gl-inet.com/pages/app#download-app-glinet){target="_blank"}, téléchargez-la et suivez les instructions affichées.
 
@@ -108,19 +108,19 @@ Configurez votre Fortify à l'aide de l'une des méthodes de connexion Internet 
 
 Vous trouverez ci-dessous un aperçu des fonctionnalités du panneau d'administration Web Fortify.
 
-## Sans fil
+## Sans fil {#wireless}
 
 La page Sans fil vous permet de configurer les réseaux Wi-Fi de Fortify, y compris le réseau principal, le réseau invité et le réseau IoT. Chaque réseau prend en charge les bandes 2,4 GHz et 5 GHz.
 
 Pour configurer le sans fil, reportez-vous à [Sans fil](../../interface_guide/wireless.md).
 
-## Clients
+## Clients {#clients}
 
 La page Clients affiche des informations sur les appareils connectés, notamment le nom de l'appareil, le type de connexion, les adresses IP et MAC, les vitesses de téléchargement et de téléchargement, le trafic, et offre la possibilité de bloquer un client spécifique en un seul clic ou d'effectuer d'autres actions.
 
 Veuillez vous référer à [Clients](../../interface_guide/clients.md) pour plus de détails.
 
-## Services cloud
+## Services cloud {#cloud-services}
 
 === "GoodCloud"
 
@@ -134,11 +134,11 @@ Veuillez vous référer à [Clients](../../interface_guide/clients.md) pour plus
 
     Veuillez vous référer à [AstroWarp](../../interface_guide/astrowarp.md) pour plus de détails.
 
-## VPN
+## VPN {#vpn}
 
 Un VPN (réseau privé virtuel) établit des tunnels de trafic sécurisés et cryptés entre votre appareil local et le serveur VPN. Il ajoute une couche supplémentaire de confidentialité et de sécurité au client VPN et permet d'accéder au réseau du serveur VPN distant.
 
-Fortify s'intègre à [ExpressVPN](https://www.expressvpn.com/){target="_blank"}, vous permettant d'activer une connexion ExpressVPN en quelques minutes. Chaque appareil Fortify est livré avec un abonnement ExpressVPN gratuit d'un an. Vous pouvez utiliser l'abonnement et connecter votre compte ExpressVPN directement sur le panneau d'administration Web du routeur. Une fois la connexion VPN activée, tout le trafic acheminé via le routeur utilisera les serveurs haut débit d'ExpressVPN et un cryptage robuste pour sécuriser l'ensemble de votre réseau et votre confidentialité en ligne.
+Fortify s'intègre à [ExpressVPN](https://www.expressvpn.com/){target="_blank"}, vous permettant d'activer une connexion ExpressVPN en quelques minutes. Chaque appareil Fortify est livré avec un abonnement ExpressVPN gratuit d'un an. Vous pouvez utiliser l'abonnement et connecter votre compte ExpressVPN directement sur le panneau d'administration Web du routeur. Lorsqu’un tunnel ExpressVPN est connecté, le routeur chiffre et achemine le trafic via ce tunnel conformément à vos paramètres de politique VPN.
 
 Pour bénéficier d'un abonnement gratuit et configurer un tunnel VPN, reportez-vous au [Guide d'activation ExpressVPN](../../interface_guide/expressvpn_activation_guide.md).
 
@@ -146,7 +146,7 @@ Pour configurer un serveur OpenVPN, reportez-vous à [OpenVPN Server](../../inte
 
 Pour configurer un serveur WireGuard, reportez-vous à [WireGuard Server](../../interface_guide/wireguard_server.md).
 
-## Réseau
+## Réseau {#network}
 
 === "Multi-WAN"
 
@@ -218,7 +218,7 @@ Veuillez vous référer à [Multi-WAN](../../interface_guide/multi-wan.md) pour 
 
     Pour configurer l'accélération réseau, reportez-vous à [Accélération réseau](../../interface_guide/network_acceleration.md).
 
-## Contrôle de flux
+## Contrôle de flux {#flow-control}
 
 === "DPI Engine"
 
@@ -260,7 +260,7 @@ DPI (Deep Packet Inspection) est une fonctionnalité essentielle de la gestion i
 
     Veuillez vous référer à [Contrôle parental](../../interface_guide/parental_control_v4.9.md) pour plus de détails.
 
-## Sécurité
+## Sécurité {#security}
 
 === "Port forwarding"
 
@@ -290,7 +290,7 @@ DPI (Deep Packet Inspection) est une fonctionnalité essentielle de la gestion i
 
     Veuillez vous référer à [Mode NAT](../../interface_guide/nat_settings.md) pour plus de détails.
 
-## Applications
+## Applications {#applications}
 
 === "Plug-ins"
 
@@ -344,7 +344,7 @@ DPI (Deep Packet Inspection) est une fonctionnalité essentielle de la gestion i
 
     Veuillez vous référer à [Tor](../../interface_guide/tor.md) pour plus de détails.
 
-## Système
+## Système {#system}
 
 === "Overview"
 

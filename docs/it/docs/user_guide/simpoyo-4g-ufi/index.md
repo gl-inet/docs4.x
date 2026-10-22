@@ -1,4 +1,4 @@
-# Guida utente di SIMPoYo 4G uFi
+# Guida utente di SIMPoYo 4G uFi {#simpoyo-4g-ufi-user-guide}
 
 SIMPoYo 4G uFi è la nostra serie di dongle USB Plug & Play compatti con hotspot Wi-Fi, progettata per offrire una connettività rapida e affidabile ovunque. Funziona perfettamente con la maggior parte dei router GL.iNet, oltre che con laptop, power bank, porte USB per auto e altre fonti di alimentazione USB. Include 10 GB di traffico gratuito per 30 giorni, validi nel Regno Unito e in altri 34 Paesi europei.
 <br><small>*Disponibile solo negli store [EU](https://store-eu.gl-inet.com/) e [UK](https://store-uk.gl-inet.com/)*</small>
@@ -7,7 +7,7 @@ Questa guida mostra come utilizzare il dongle USB SIMPoYo uFi (SP-N150C4), inclu
 
 ![SIMPoYo uFi](https://static.gl-inet.com/docs/router/en/4/user_guide/simpoyo-4g-ufi/sp-n150c4.jpg){class="glboxshadow"}
 
-## Indicazioni LED
+## Indicazioni LED {#led-indication}
 
 <!DOCTYPE html>
 <html lang="it">
@@ -80,7 +80,7 @@ Questa guida mostra come utilizzare il dongle USB SIMPoYo uFi (SP-N150C4), inclu
 </body>
 </html>
 
-## Attivare la scheda SIM
+## Attivare la scheda SIM {#activate-sim-card}
 
 SIMPoYo uFi viene fornito con una scheda SIM preinstallata, che deve essere attivata prima dell'uso.
 
@@ -94,9 +94,9 @@ Guarda questo video oppure segui i passaggi sotto per attivare la scheda SIM di 
 
 **Passaggio 3**. Goditi 10 GB di traffico gratuito. Come nuovo utente riceverai immediatamente 10 GB di dati 4G gratuiti, validi per 30 giorni nel Regno Unito e in altri 34 Paesi europei.
 
-## Configurazione Internet
+## Configurazione Internet {#internet-setup}
 
-### Collegarsi a un router GL.iNet
+### Collegarsi a un router GL.iNet {#connect-to-a-glinet-router}
 
 SIMPoYo uFi funziona perfettamente con la maggior parte dei router GL.iNet da viaggio e domestici: basta collegarlo al router per ottenere subito l'accesso 4G LTE, sempre e ovunque.
 
@@ -136,7 +136,7 @@ Ora puoi collegare i tuoi dispositivi al router via cavo o Wi-Fi, oppure collega
 
     2. Prova un altro alimentatore con le stesse specifiche di quello originale.
 
-### Collegarsi a un computer
+### Collegarsi a un computer {#connect-to-a-computer}
 
 **Passaggio 1**. Collega SIMPoYo uFi alla porta USB del computer (ad esempio desktop o laptop). Verrà riconosciuto automaticamente come dispositivo Ethernet USB, portando subito online il tuo dispositivo.
 
@@ -144,7 +144,7 @@ Ora puoi collegare i tuoi dispositivi al router via cavo o Wi-Fi, oppure collega
 
 ![multi-device](https://static.gl-inet.com/docs/router/en/4/user_guide/simpoyo-4g-ufi/multi-device.jpg){class="glboxshadow"}
 
-### Collegarsi a una fonte di alimentazione USB
+### Collegarsi a una fonte di alimentazione USB {#connect-to-a-usb-power-source}
 
 **Passaggio 1**. Collega SIMPoYo uFi a qualsiasi fonte di alimentazione USB, come caricatore da parete, power bank o caricatore per auto.
 
@@ -152,7 +152,7 @@ Ora puoi collegare i tuoi dispositivi al router via cavo o Wi-Fi, oppure collega
 
 **Passaggio 3**. Individua la password Wi-Fi (Key) sull'etichetta del dispositivo. Usa questa password per collegare smartphone, tablet, laptop o altri dispositivi al Wi-Fi di SIMPoYo uFi e accedere a Internet.
 
-## Ricaricare i piani SIMPoYo
+## Ricaricare i piani SIMPoYo {#top-up-simpoyo-plans}
 
 Quando il traffico dati termina o scade, basta scansionare il codice QR presente su SIMPoYo uFi oppure visitare [https://w.simpoyo.com](https://w.simpoyo.com){target="_blank"} per ricaricare il piano.
 
@@ -172,11 +172,11 @@ Quando il traffico dati termina o scade, basta scansionare il codice QR presente
 
         Indonesia, Giappone, Pakistan, Filippine, Singapore, Corea del Sud, Turchia, Vietnam, Cina continentale, Hong Kong (Cina), Taiwan (Cina).
 
-## Gestire SIMPoYo uFi
+## Gestire SIMPoYo uFi {#manage-simpoyo-ufi}
 
 Puoi accedere al pannello di amministrazione di SIMPoYo uFi per gestire le impostazioni di rete.
 
-### Accedere al pannello di amministrazione
+### Accedere al pannello di amministrazione {#log-in-admin-panel}
 
 1. Collega un dispositivo alla rete Wi-Fi di SIMPoYo uFi.
 
@@ -192,7 +192,7 @@ Puoi accedere al pannello di amministrazione di SIMPoYo uFi per gestire le impos
 2. Inserisci uno spillo nel foro Reset per circa 2 secondi, poi rilascialo.
 3. Attendi 8-10 secondi. L'indicatore LED si spegnerà prima, poi si accenderanno due luci bianche, indicando che il ripristino è riuscito.
 
-### Controllare i dettagli di rete
+### Controllare i dettagli di rete {#check-network-details}
 
 1. Seleziona **Status** dal menu superiore e vai su **Device & Network**. Entrerai nella home page dove viene mostrato lo stato della rete del dispositivo.
 
@@ -202,7 +202,7 @@ Puoi accedere al pannello di amministrazione di SIMPoYo uFi per gestire le impos
 
     ![cellular network](https://static.gl-inet.com/docs/router/en/4/user_guide/simpoyo-4g-ufi/1.2-cellular-network.png){class="glboxshadow"}
 
-### Controllare l'utilizzo dei dati
+### Controllare l'utilizzo dei dati {#check-data-usage}
 
 1. Seleziona **Data Usage** dal menu superiore e vedrai download, upload, consumo totale di dati e durata.
 
@@ -212,7 +212,7 @@ Puoi accedere al pannello di amministrazione di SIMPoYo uFi per gestire le impos
 
 2. Se vuoi azzerare l'utilizzo dei dati, fai clic sul pulsante **Clear History**.
 
-### Modificare le impostazioni Wi-Fi
+### Modificare le impostazioni Wi-Fi {#change-wi-fi-settings}
 
 1. Seleziona **Settings** dal menu superiore e vai su **Wi-Fi Settings**.
 
@@ -220,7 +220,7 @@ Puoi accedere al pannello di amministrazione di SIMPoYo uFi per gestire le impos
 
 2. Personalizza nome e password della rete Wi-Fi di SIMPoYo uFi, quindi fai clic su **Apply**.
 
-### Impostare l'APN
+### Impostare l'APN {#set-apn}
 
 Se la tua scheda SIM richiede una configurazione manuale dell'APN, segui i passaggi sotto.
 
@@ -232,7 +232,7 @@ Se la tua scheda SIM richiede una configurazione manuale dell'APN, segui i passa
 
 3. Inserisci le informazioni fornite dal tuo operatore mobile, quindi fai clic su **Apply**.
 
-### Abilitare il roaming
+### Abilitare il roaming {#enable-roaming}
 
 Il roaming consente alla tua SIM di funzionare con operatori locali in altre regioni o Paesi, così rimani connesso anche lontano dalla tua rete domestica.
 
@@ -244,7 +244,7 @@ Segui i passaggi sotto per abilitare il roaming.
 
 2. Seleziona **Enable** e fai clic su **Apply**.
 
-### Abilitare il codice PIN
+### Abilitare il codice PIN {#enable-pin-code}
 
 Il codice PIN è una password di sicurezza breve, di solito da 4 a 8 cifre, per la tua scheda SIM, che la blocca per impedire usi non autorizzati. Se la SIM viene rubata o inserita in un altro dispositivo, non potrà essere attivata o utilizzata senza il codice PIN.
 
@@ -256,7 +256,7 @@ Segui i passaggi sotto per abilitare il codice PIN.
 
 2. Seleziona **Enable**, imposta il codice PIN e fai clic su **Apply**.
 
-### Cambiare la password amministratore
+### Cambiare la password amministratore {#change-admin-password}
 
 La password amministratore predefinita è uguale alla password Wi-Fi. Per motivi di sicurezza, cambiala durante la configurazione iniziale.
 
@@ -268,7 +268,7 @@ La password amministratore predefinita è uguale alla password Wi-Fi. Per motivi
 
 3. Se vuoi ripristinare SIMPoYo uFi alle impostazioni predefinite, fai clic sul pulsante **Factory Default Setting**.
 
-### Reimpostare la password amministratore
+### Reimpostare la password amministratore {#reset-admin-password}
 
 Se hai dimenticato la password amministratore di SIMPoYo uFi, segui i passaggi sotto per reimpostarla:
 
@@ -276,7 +276,7 @@ Se hai dimenticato la password amministratore di SIMPoYo uFi, segui i passaggi s
 2. Inserisci uno spillo nel foro Reset per circa 2 secondi, poi rilascialo.
 3. Attendi 8-10 secondi. L'indicatore LED si spegnerà prima, poi si accenderanno due luci bianche, indicando che il ripristino è riuscito.
 
-### Impostazioni DHCP
+### Impostazioni DHCP {#dhcp-settings}
 
 Per impostazione predefinita, l'indirizzo IP di SIMPoYo uFi è `192.168.1.1`, con il server DHCP attivo per assegnare indirizzi IP ai dispositivi collegati.
 
@@ -288,7 +288,7 @@ Se vuoi cambiare l'indirizzo IP o personalizzare le impostazioni DHCP, segui i p
 
 2. Qui puoi cambiare l'indirizzo IP del dispositivo, abilitare o disabilitare il server DHCP e impostare l'intervallo IP e la durata del lease. Configura le impostazioni DHCP e fai clic su **Apply**.
 
-### Filtro MAC
+### Filtro MAC {#mac-filter}
 
 Il filtro MAC consente di controllare quali dispositivi possono accedere alla tua WLAN gestendo i relativi indirizzi MAC, migliorando la sicurezza della rete.
 
@@ -306,7 +306,7 @@ Il filtro MAC è disattivato per impostazione predefinita. Se vuoi abilitarlo, s
 
 3. Copia l'indirizzo MAC del dispositivo che vuoi bloccare o consentire nell'elenco e fai clic su **Apply**.
 
-### Aggiornamento
+### Aggiornamento {#upgrade}
 
 1. Seleziona **Upgrade** dal menu superiore, vai su **Device Info** e vedrai le informazioni del dispositivo SIMPoYo uFi, incluse:
 
@@ -326,7 +326,7 @@ Il filtro MAC è disattivato per impostazione predefinita. Se vuoi abilitarlo, s
 
     ![local upgrade](https://static.gl-inet.com/docs/router/en/4/user_guide/simpoyo-4g-ufi/4.3-local-update.png){class="glboxshadow"}
 
-## Guida agli accessori
+## Guida agli accessori {#accessories-guide}
 
 Nella confezione sono inclusi i seguenti accessori:
 

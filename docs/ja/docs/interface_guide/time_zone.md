@@ -1,4 +1,4 @@
-# タイムゾーン
+# タイムゾーン {#time-zone}
 
 Web管理パネルの左側で、**SYSTEM** -> **Time Zone** に移動します。
 
@@ -14,4 +14,4 @@ Web管理パネルの左側で、**SYSTEM** -> **Time Zone** に移動します�
 
 ---
 
-ご不明な点がありましたら、[Community Forum](https://forum.gl-inet.com){target="_blank"} または [Contact us](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

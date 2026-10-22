@@ -1,6 +1,4 @@
-# Як записати журнали модема за допомогою qlog {#get-module-logs}
-
-<span id="how-to-use-qlog-to-capture-modem-logs"></span>
+# Як записати журнали модема за допомогою qlog {#how-to-use-qlog-to-capture-modem-logs}
 
 Деякі маршрутизатори GL.iNet мають вбудовані модеми 3G/4G/5G. Якщо мережеве з’єднання нестабільне, може знадобитися експорт журналів модема для аналізу.
 
@@ -12,11 +10,9 @@
 
 ## 2. Вхід до маршрутизатора через SSH {#2-ssh-log-in-to-your-router}
 
-Див. [цю інструкцію](https://docs.gl-inet.com/router/en/4/tutorials/ssh_log_in_to_the_router/).
+Див. [цю інструкцію](ssh_log_in_to_the_router.md).
 
-## 3. Отримання журналів модема {#3-get-module-logs}
-
-<span id="3-get-modem-logs"></span>
+## 3. Отримання журналів модема {#3-get-modem-logs}
 
 Виберіть відповідні кроки для моделі вашого пристрою.
 
@@ -112,9 +108,7 @@
     ![Файли журналів qlog](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/X2000_qlogs_files.png){class="glboxshadow"}
 
 
-### GL-XE300/GL-X750/GL-X300B {#for-gl-xe300gl-x750gl-x300b}
-
-<span id="gl-xe300gl-x750gl-x300b"></span>
+### GL-XE300/GL-X750/GL-X300B {#gl-xe300gl-x750gl-x300b}
 
 1. Вставте USB-флешнакопичувач, визначте його точку монтування командою `df -h` і запишіть шлях.
 
@@ -160,9 +154,7 @@
 
     ![Файли журналів qlog](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/ar9531_qlogs_files.png){class="glboxshadow"}
 
-### GL-X3000/GL-XE3000 {#for-gl-x3000gl-xe3000}
-
-<span id="gl-x3000gl-xe3000"></span>
+### GL-X3000/GL-XE3000 {#gl-x3000gl-xe3000}
 
 1. Вставте USB-флешнакопичувач, визначте його точку монтування командою `df -h` і запишіть шлях.
 

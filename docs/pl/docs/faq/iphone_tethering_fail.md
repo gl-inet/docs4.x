@@ -1,4 +1,4 @@
-# Tethering iPhone'a nie działa
+# Tethering iPhone'a nie działa {#iphone-tethering-failed}
 
 Jeśli tethering iPhone'a nie działa, wypróbuj poniższe kroki, aby rozwiązać problem.
 

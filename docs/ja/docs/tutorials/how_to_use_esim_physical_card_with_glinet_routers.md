@@ -1,10 +1,10 @@
-# GL.iNetルーターでeSIM Physical Cardを使用する方法
+# GL.iNetルーターでeSIM Physical Cardを使用する方法 {#how-to-use-the-esim-physical-card-with-glinet-routers}
 
 このガイドでは、GL.iNetオンラインストアで購入したeSIM Physical CardをGL.iNetルーターで使用する方法を紹介します。
 
 ![eSIM Physical Card](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/simpoyo-esim-physical-card.png){class="glboxshadow"}
 
-## 特長
+## 特長 {#features}
 
 eSIM Physical Cardの主な特長は以下のとおりです。
 
@@ -16,7 +16,7 @@ eSIM Physical Cardの主な特長は以下のとおりです。
 - シードプロファイルが付属し、アクティベーション日から1年間有効な米国およびヨーロッパ向け1GBの無料データと、100MBのグローバルデータが含まれます。
 - 一部のGL.iNetデバイスに対応しています。
 
-## 対応モデル
+## 対応モデル {#supported-models}
 
 !!! note "対応モデル"
 
@@ -43,13 +43,13 @@ eSIM Physical Cardの主な特長は以下のとおりです。
 
     3. **GL-E5800 (Mudi 7)** には eSIM が内蔵されています。そのため、Mudi 7 では物理 eSIM カードが eSIM 機能のない通常の SIM カードとして認識されます。
 
-## eSIM Physical Cardを設定する
+## eSIM Physical Cardを設定する {#set-up-esim-physical-card}
 
 初めてeSIM Physical Cardを使用する場合は、この設定動画を見るか、以下の手順に従ってGL.iNetルーターで設定してください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SCex_vuvgNQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-**Step 1:** eSIM Physical Cardをルーターに挿入します。詳しくは以下の画像を参照してください。
+**手順 1:** eSIM Physical Cardをルーターに挿入します。詳しくは以下の画像を参照してください。
 
 ![E750V2](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/e750v2-sim-card.jpg){class="glboxshadow"}
 
@@ -57,13 +57,17 @@ eSIM Physical Cardの主な特長は以下のとおりです。
 
 ![XE3000](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/xe3000-sim-card.jpg){class="glboxshadow"}
 
-**Step 2:** ブラウザを開き、アドレスバーに "192.168.8.1" と入力してGL.iNet管理パネルにログインします。
+**手順 2:** ブラウザを開き、アドレスバーに `192.168.8.1` と入力してGL.iNet管理パネルにログインします。
 
 ![log in to the GL.iNet Admin Panel](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/login-admin-panel.jpg){class="glboxshadow"}
 
-**Step 3:** デバイスをインターネットに接続します。
+**手順 3:** デバイスをインターネットに接続します。
 
-**INTERNET** に移動し、**Connect**（古いファームウェアでは **Auto Setup**）をクリックしてCellular経由でインターネットに接続します。
+ログイン後、**INTERNET** -> **Cellular** に移動します。
+
+デュアルSIMルーターの場合は、物理eSIMカードを挿入したスロットが **Active SIM Card** に設定されていることを確認してください。設定されていない場合は、**SIM Card Switch** をクリックし、物理eSIMカードを挿入したSIMスロットを選択します。
+
+次に **Connect**（古いファームウェアでは **Auto Setup**）をクリックし、セルラーネットワーク経由でインターネットに接続します。
 
 *このeSIM Physical Cardには、アクティベーション日から1年間有効な米国およびヨーロッパ向け1GBの無料データと、100MBのグローバルデータを含むシードプロファイルが付属しています。このデータはeSIMプロファイルの購入とダウンロード専用であり、一般的なインターネット利用を目的としたものではありません。*
 
@@ -73,9 +77,9 @@ eSIM Physical Cardの主な特長は以下のとおりです。
 
 ![initial setup connected](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/initial-setup-connected.jpg){class="glboxshadow"}
 
-## eSIMプロファイルを管理する
+## eSIMプロファイルを管理する {#manage-your-esim-profile}
 
-**Step 1:** GL.iNetデバイスに最新のファームウェアがインストールされていることを確認します。
+**手順 1:** GL.iNetデバイスに最新のファームウェアがインストールされていることを確認します。
 
 Version が 4.0 以上で、Firmware Type 番号が 0319 以上であることを確認してください。
 
@@ -83,7 +87,7 @@ Version が 4.0 以上で、Firmware Type 番号が 0319 以上であること�
 
 ファームウェアが**最新でない**場合は、オンライン自動更新または手動更新でアップグレードできます。
 
-<u>Option 1</u>: オンラインファームウェア更新
+<u>オプション 1</u>: オンラインファームウェア更新
 
 1. デバイスがインターネットに接続されていることを確認します。
 
@@ -91,7 +95,7 @@ Version が 4.0 以上で、Firmware Type 番号が 0319 以上であること�
 
     ![online upgrade](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/online-upgrade.png){class="glboxshadow"}
 
-<u>Option 2</u>: 手動ファームウェア更新
+<u>オプション 2</u>: 手動ファームウェア更新
 
 1. eSIM機能に対応した対象モデルのファームウェアを[こちら](https://dl.gl-inet.com/){target="_blank"}からダウンロードします。
 
@@ -105,15 +109,13 @@ Version が 4.0 以上で、Firmware Type 番号が 0319 以上であること�
 
     2. EP06-E モジュールを搭載している場合は、eSIM機能を利用するために、[このリンク](https://forum.gl-inet.com/t/48907){target="_blank"}を参照してモジュールを最新ソフトウェアへアップグレードしてください。
 
-**Step 2:** eSIM管理画面に移動します。
+**手順 2:** eSIM Management に移動します。
 
 ファームウェアの更新後、デバイスが再起動するのを待ってからGL.iNet管理パネルにログインします。
 
-**APPLICATIONS** > **eSIM Management** に移動します。ここで現在のeSIMステータスを確認できます。
+**APPLICATIONS** > **eSIM Management** に移動します。ここで eSIM の状態を確認し、eSIM プロファイルを管理できます。
 
 ![eSIM manage](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/esim-manage-status.jpg){class="glboxshadow"}
-
-ここでは eSIM の状態を確認し、eSIM プロファイルを管理できます。
 
 同時に有効化できるeSIMプロファイルは1つだけです。緑の点は、選択したeSIMプロファイルが現在有効であることを示します。
 
@@ -125,4 +127,4 @@ Version が 4.0 以上で、Firmware Type 番号が 0319 以上であること�
 
 ---
 
-ご不明な点がありましたら、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}をご覧いただくか、[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

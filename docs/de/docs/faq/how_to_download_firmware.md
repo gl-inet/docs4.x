@@ -1,4 +1,4 @@
-# Wie lade ich die Firmware für meinen GL.iNet-Router herunter?
+# Wie lade ich die Firmware für meinen GL.iNet-Router herunter? {#how-to-download-the-firmware-for-my-glinet-router}
 
 Wenn Sie Ihren Router aktualisieren möchten (oder ihn über U-Boot wiederherstellen möchten), laden Sie die Firmware-Dateien mit den folgenden Schritten herunter:
 

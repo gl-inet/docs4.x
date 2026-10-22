@@ -1,4 +1,4 @@
-# What should I do if I have no Internet after replacing the old router with a GL.iNet router
+# What should I do if I have no Internet after replacing the old router with a GL.iNet router {#what-should-i-do-if-i-have-no-internet-after-replacing-the-old-router-with-a-glinet-router}
 
 If you cannot access the internet after replacing your old router with a GL.iNet router, your new router may fail to obtain an IP address (via DHCP or PPPoE) when its WAN port is connected to the modem.
 

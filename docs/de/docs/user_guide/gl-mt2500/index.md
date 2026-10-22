@@ -1,6 +1,6 @@
-# Brume 2 (GL-MT2500/GL-MT2500A) Benutzerhandbuch
+# Brume 2 (GL-MT2500/GL-MT2500A) Benutzerhandbuch {#brume-2-gl-mt2500gl-mt2500a-user-guide}
 
-## Sicherheitshinweise
+## Sicherheitshinweise {#safety-information}
 
 Lesen Sie vor der Verwendung des Geräts alle nachstehenden Sicherheitsinformationen sorgfältig durch. Die nachfolgenden Sicherheitsempfehlungen können nicht sämtliche möglicherweise auftretenden Gefahrensituationen abdecken.
 
@@ -30,13 +30,13 @@ Unsachgemäßes Öffnen oder unsachgemäße Instandsetzung kann den Benutzer des
 
 Schalten Sie bei einem Störfall zuerst den Netzschalter aus.
 
-## Produktübersicht
+## Produktübersicht {#product-overview}
 
 Brume 2 (GL-MT2500/GL-MT2500A) ist ein leichtes und leistungsstarkes VPN-Gateway mit dem Betriebssystem OpenWrt v21.02. Es ist kompakt konzipiert, um zu Hause einen VPN-Server zu hosten oder SD-WAN (Site-to-Site) für kleine und mittlere Unternehmen zu betreiben. Es ist in zwei Varianten erhältlich: GL-MT2500 mit Kunststoffgehäuse und GL-MT2500A mit Aluminiumgehäuse.
 
 ![gl-mt2500 interface](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-mt2500/hardware_info/mt2500_interface.jpg){class="glboxshadow"}
 
-## Lieferumfang
+## Lieferumfang {#package-contents}
 
 - 1 x Brume 2 (GL-MT2500/GL-MT2500A)
 - 1 x Benutzerhandbuch
@@ -50,25 +50,25 @@ Die folgende Abbildung zeigt den GL-MT2500A als Beispiel.
 
 ![gl-mt2500 unboxing](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-mt2500/first_time_setup/mt2500a_unboxing.jpg){class="glboxshadow"}
 
-## So richten Sie Brume 2 ein
+## So richten Sie Brume 2 ein {#how-to-set-up-brume-2}
 
 Um Brume 2 einzurichten, verwenden Sie eine der unterstützten Internetverbindungsmethoden: Ethernet, Tethering und Cellular. Repeater wird nicht unterstützt, da Brume 2 über kein Wi-Fi-Modul verfügt. Sehen Sie sich dieses Einrichtungsvideo an oder folgen Sie den untenstehenden Schritten.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rpi_loOwUQM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Einschalten
+### 1. Einschalten {#1-power-on}
 
 Setzen Sie den zweiteiligen Netzadapter zusammen. Schließen Sie ihn an Ihren Router an und stecken Sie ihn in eine Steckdose. Das Gerät startet automatisch.
 
-### 2. Gerät verbinden
+### 2. Gerät verbinden {#2-connect-device}
 
 Verbinden Sie Ihr Gerät, z. B. einen Computer oder Laptop, per Ethernet-Kabel mit dem LAN-Port des Routers.
 
-### 3. Im Web-Admin-Panel anmelden
+### 3. Im Web-Admin-Panel anmelden {#3-log-in-to-web-admin-panel}
 
 Öffnen Sie einen Webbrowser, geben Sie `192.168.8.1` in die Adressleiste ein und melden Sie sich an. Wählen Sie Ihre Sprache aus und legen Sie Ihr Admin-Passwort fest. Klicken Sie anschließend auf **Apply**.
 
-### 4. Internet einrichten
+### 4. Internet einrichten {#4-internet-setup}
 
 === "Ethernet"
 
@@ -104,7 +104,7 @@ Verbinden Sie Ihr Gerät, z. B. einen Computer oder Laptop, per Ethernet-Kabel m
 
 **Hinweis:** Wenn Sie die Funktion [Multi-WAN](../../interface_guide/multi-wan.md) verwenden möchten, richten Sie bitte mehr als eine Internetverbindungsmethode ein.
 
-## So richten Sie ein VPN ein
+## So richten Sie ein VPN ein {#how-to-set-up-a-vpn}
 
 Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten Datenverkehr zwischen Ihrem Gerät und dem VPN-Server. Es bietet eine zusätzliche Ebene für Datenschutz und Sicherheit (VPN-Client) und ermöglicht Ihnen den Zugriff auf ein entferntes Netzwerk (VPN-Server). Brume 2 und andere GL.iNet-Router unterstützen OpenVPN und WireGuard. Zusätzlich wird Tor unterstützt.
 
@@ -128,13 +128,13 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
     
     * [So richten Sie Tor ein](../../interface_guide/tor.md).
 
-## Clients
+## Clients {#clients}
 
 Die Seite Clients zeigt Informationen zu verbundenen Geräten an. Für jeden Client werden der Gerätename, die IP- und MAC-Adresse, Download- und Upload-Geschwindigkeiten sowie das gesamte Datenvolumen angezeigt. Außerdem können Sie eine IP reservieren, den Client blockieren oder weitere Aktionen ausführen.
 
 Informationen zur Einrichtung von Clients finden Sie unter [Clients](../../interface_guide/clients.md).
 
-## Cloud-Dienste
+## Cloud-Dienste {#cloud-services}
 
 === "GoodCloud"
 
@@ -148,7 +148,7 @@ Informationen zur Einrichtung von Clients finden Sie unter [Clients](../../inter
     
     Informationen zur Einrichtung finden Sie unter [AstroWarp](../../interface_guide/astrowarp.md).
 
-## Anwendungen
+## Anwendungen {#applications}
 
 === "Plug-ins"
 
@@ -178,7 +178,7 @@ Informationen zur Einrichtung von Clients finden Sie unter [Clients](../../inter
 
 === "Parental Control"
 
-    Parental Control ist eine Gruppe von Einstellungen, die Ihnen dabei hilft, die Geräte Ihrer Kinder zu verwalten und zu kontrollieren. Dazu gehören die Begrenzung der Bildschirmzeit und die Einschränkung des Zugriffs auf bestimmte Inhalte. Brume 2 bietet zwei Optionen für die Kindersicherung: die lokal von GL.iNet entwickelte Version und die integrierte Version von Bark, einer App für Kindersicherung.
+    Parental Control ist eine Gruppe von Einstellungen, die Ihnen dabei hilft, die Geräte Ihrer Kinder zu verwalten und zu kontrollieren. Dazu gehören die Begrenzung der Bildschirmzeit und die Einschränkung des Zugriffs auf bestimmte Inhalte.
 
     Informationen zur Einrichtung finden Sie unter [Parental controls](../../interface_guide/parental_control.md).
 
@@ -196,7 +196,7 @@ Informationen zur Einrichtung von Clients finden Sie unter [Clients](../../inter
     
     Informationen zur Einrichtung finden Sie unter [Tailscale](../../interface_guide/tailscale.md).
 
-## Netzwerkeinstellungen
+## Netzwerkeinstellungen {#network-settings}
 
 === "Portweiterleitung"
 
@@ -204,7 +204,7 @@ Informationen zur Einrichtung von Clients finden Sie unter [Clients](../../inter
 
 === "Multi-WAN"
 
-    Multi-WAN ist eine Netzwerkfunktion, mit der Sie Ihren Router gleichzeitig mit mehreren Internetverbindungen, z. B. Cellular, Repeater und Ethernet, einrichten können. Wenn Ihre aktuelle Internetverbindung ausfällt, wechselt der Router automatisch zu einer anderen Internetverbindung. So bleibt der Internetzugang reibungslos und unterbrechungsfrei.
+    Multi-WAN ist eine Netzwerkfunktion, mit der Sie Ihren Router gleichzeitig mit mehreren Internetverbindungen, z. B. Ethernet, Tethering und Cellular, einrichten können. Wenn Ihre aktuelle Internetverbindung ausfällt, wechselt der Router automatisch zu einer anderen Internetverbindung. So bleibt der Internetzugang reibungslos und unterbrechungsfrei.
 
     Informationen zur Einrichtung finden Sie unter [Multi-WAN](../../interface_guide/multi-wan.md).
 
@@ -266,7 +266,7 @@ Informationen zur Einrichtung von Clients finden Sie unter [Clients](../../inter
 
     Informationen zur Einrichtung finden Sie unter [NAT Settings](../../interface_guide/nat_settings.md).
 
-## Systemeinstellungen
+## Systemeinstellungen {#system-settings}
 
 === "Overview"
 

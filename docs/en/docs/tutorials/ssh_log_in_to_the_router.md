@@ -1,14 +1,14 @@
-# SSH Log in to the Router
+# SSH Log in to the Router {#ssh-log-in-to-the-router}
 
 Secure Shell (SSH) is a cryptographic network protocol for operating network services securely over an unsecured network. The best known example application is for remote login to computer systems by users. Sometime you need to have basic tools to SSH to the server. This guide is about how to SSH login to the GL.iNet routers.
 
 ---
 
-## For Windows User
+## For Windows User {#for-windows-user}
 
 There are ways to access the router terminal on Windows, including via Windows Cmd, PowerShell, Bitvise, or PuTTY.
 
-### Using Windows Cmd
+### Using Windows Cmd {#using-windows-cmd}
 
 1. Open Command Prompt
 
@@ -46,7 +46,7 @@ There are ways to access the router terminal on Windows, including via Windows C
 
         Ensure you type the correct admin password. If you forgot the password, reset the router by pressing the RESET button for 10 seconds.
 
-### Using PowerShell
+### Using PowerShell {#using-powershell}
 
 1. Open Windows PowerShell
 
@@ -102,13 +102,13 @@ There are ways to access the router terminal on Windows, including via Windows C
         
         ``ssh -p [new port number] [username]@[router IP address]``
 
-### Using Bitvise
+### Using Bitvise {#using-bitvise}
 
 Watch this video to log in to your router via Bitvise.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7yVd5UkKJ74" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Using PuTTY
+### Using PuTTY {#using-putty}
 
 1. Download PuTTY
 
@@ -156,11 +156,11 @@ Watch this video to log in to your router via Bitvise.
 
 ---
 
-## For Linux/Mac User
+## For Linux/Mac User {#for-linuxmac-user}
 
 The process on Linux and Mac OS are generally the same. Below we use Ubuntu as an example.
 
-### Using Ubuntu
+### Using Ubuntu {#using-ubuntu}
 
 1. Launch Terminal.
 

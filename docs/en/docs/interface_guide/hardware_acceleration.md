@@ -1,4 +1,4 @@
-# Hardware Acceleration
+# Hardware Acceleration {#hardware-acceleration}
 
 **Note**: This guide applies to firmware v4.2 and earlier. For newer versions, please refer to [Network Acceleration](network_acceleration.md). 
 
@@ -8,7 +8,7 @@ Hardware acceleration (sometimes called *hardware NAT, flow offloading, or offlo
 
 When hardware acceleration is enabled, the following functions will not work properly: Client Speed and Traffic Statistics, Client Speed Limit.
 
-## Supported Models
+## Supported Models {#supported-models}
 
 ??? "Supported Models"
     - GL-MT6000 (Fortify)
@@ -44,7 +44,7 @@ When hardware acceleration is enabled, the following functions will not work pro
     - GL-B1300 (Convexa-B)
     - GL-X300B (Collie)
 
-## Quick Setup
+## Quick Setup {#quick-setup}
 
 On the left side of the web Admin Panel, go to **NETWORK** -> **Hardware Acceleration**.
 
@@ -54,7 +54,7 @@ Toggle the switch to enable, and click Apply.
 
 ---
 
-## Hardware NAT vs. Software NAT
+## Hardware NAT vs. Software NAT {#hardware-nat-vs-software-nat}
 
 * You care most about throughput (e.g., multi‑gigabit broadband) and don't need on‑router SQM or per‑client shaping → enable Hardware NAT / Network Acceleration. This delivers the highest throughput and lowest CPU usage.
 

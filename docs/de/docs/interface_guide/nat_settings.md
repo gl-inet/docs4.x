@@ -1,4 +1,4 @@
-# NAT-Einstellungen
+# NAT-Einstellungen {#nat-settings}
 
 Diese Funktion ist seit v4.5 verfügbar.
 
@@ -8,7 +8,7 @@ Auf dieser Seite können Sie **Full Cone NAT** aktivieren, um die Stabilität vo
 
 ![nat settings](https://static.gl-inet.com/docs/router/de/4/interface_guide/nat_settings/nat_settings.png){class="glboxshadow"}
 
-## Unterstützte Modelle
+## Unterstützte Modelle {#supported-models}
 
 ??? "Unterstützte Modelle"
     - GL-MT6000 (Fortify)
@@ -47,7 +47,7 @@ Auf dieser Seite können Sie **Full Cone NAT** aktivieren, um die Stabilität vo
     - GL-XE300 (Puli)
     - GL-B1300 (Convexa-B)
 
-## Full Cone NAT
+## Full Cone NAT {#full-cone-nat}
 
 Full Cone NAT fungiert als „direkte Abkürzung“ für Geräte wie Spielkonsolen oder Smartphones, wenn sie online Verbindungen zu anderen Geräten aufbauen, zum Beispiel in Multiplayer-Spielen oder Videoanrufen.
 
@@ -55,7 +55,7 @@ Indem externe Geräte lokale Geräte direkt über den Router erreichen können, 
 
 **Hinweis**: Das Aktivieren dieser Funktion kann die Sicherheit im Vergleich zu anderen NAT-Typen verringern, da Geräteports dem öffentlichen Netzwerk stärker offengelegt werden.
 
-## SIP ALG
+## SIP ALG {#sip-alg}
 
 SIP ALG (Application Layer Gateway) fungiert als „Übersetzer“ des Routers für VoIP-/SIP-basierte Kommunikationsdienste, zum Beispiel Bürotelefone oder anwendungsbasierte Anrufe.
 

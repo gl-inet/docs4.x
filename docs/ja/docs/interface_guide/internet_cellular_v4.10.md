@@ -1,4 +1,4 @@
-# セルラーでインターネットに接続する（v4.10）
+# セルラーでインターネットに接続する（v4.10） {#connect-to-the-internet-via-cellular-v410}
 
 このページの内容は、ファームウェア v4.10 以降に基づいています。デバイスで別のファームウェアバージョンを使用している場合は、以下のセレクターで該当するガイドに切り替えてください。
 
@@ -29,7 +29,7 @@
 
 Mudi 7 は eSIM と2つの Nano-SIM スロットを内蔵し、Dual SIM Dual Standby に対応しています。そのため、Web 管理パネルは他のセルラールーター、特に SIM スロットが1つのモデルとは若干異なる場合があります。
 
-### ネットワーク設定
+### ネットワーク設定 {#network-setup}
 
 ルーターの Web 管理パネルにログインし、**INTERNET** -> **Cellular** に移動します。
 
@@ -77,7 +77,7 @@ Mudi 7 は eSIM と2つの Nano-SIM スロットを内蔵し、Dual SIM Dual Sta
 
     - **Authentication**: 認証情報が不要な場合は通常 NONE に設定します。PAP、CHAP、PAP/CHAP も選択できます。
 
-### トラフィック統計
+### トラフィック統計 {#traffic-statistics}
 
 トラフィック統計を表示するには、**Data Usage** をクリックします。
 
@@ -99,7 +99,7 @@ Data Cap Amount、Data Reset Period、Start Day、Start Hour を設定し、**Ap
 
 3. Start Day で設定できる最大日数は、現在の月の実際の日数です。
 
-### セルラー詳細
+### セルラー詳細 {#cellular-details}
 
 セルラー接続の詳細を表示するには、**Details & Configuration** をクリックします。
 
@@ -129,7 +129,7 @@ Data Cap Amount、Data Reset Period、Start Day、Start Hour を設定し、**Ap
 
     ![signal history](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/signal_history.png){class="glboxshadow"}
 
-### バンドマスキング
+### バンドマスキング {#band-masking}
 
 Band Masking を使うと、使用するセルラーバンドを指定してセルラー信号の改善を図れます。
 
@@ -141,7 +141,7 @@ Band Masking を有効にするには、**Details & Configuration** をクリッ
 
 ![band masking](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/band_masking.png){class="glboxshadow"}
 
-### 通信事業者ロック
+### 通信事業者ロック {#lock-operator}
 
 !!! note "対応モデル"
 
@@ -182,7 +182,7 @@ Band Masking を有効にするには、**Details & Configuration** をクリッ
 
 ![lock operator](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/lock_operator4.jpg){class="glboxshadow"}
 
-### 基地局ロック
+### 基地局ロック {#lock-tower}
 
 !!! note "対応モデル"
 
@@ -227,21 +227,21 @@ Band Masking を有効にするには、**Details & Configuration** をクリッ
 
 3. 基地局をロックした後にルーターを別の場所へ移動すると、再起動後も以前ロックした基地局への再接続を試みます。その結果、新しい場所でセルラーネットワークへ自動接続できない場合があります。この場合は、現在の基地局ロックを解除するか、新しい基地局へ手動でロックし直してください。
 
-### SMS
+### SMS {#sms}
 
 [SMS](../tutorials/sms.md) を参照してください。
 
-### SMS 転送
+### SMS 転送 {#sms-forwarding}
 
 [SMS 転送](../tutorials/sms_forwarding.md) を参照してください。
 
-### 機内モード
+### 機内モード {#airplane-mode}
 
 Airplane Mode を有効にするには、右上の歯車アイコンをクリックし、**Airplane Mode** をオンにします。
 
 ![settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/settings.png){class="glboxshadow"}
 
-### モデム情報
+### モデム情報 {#modem-information}
 
 モデムの詳細を表示するには、右上の歯車アイコンをクリックして **Modem Information** を選択します。
 
@@ -267,7 +267,7 @@ SIM Failover を有効にするには、右上の歯車アイコンをクリッ�
 
 ![sim failover](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/sim_failover.png){class="glboxshadow"}
 
-### AT コマンド
+### AT コマンド {#at-command}
 
 AT コマンドは、セルラーモデムと通信するための標準命令です。この機能を使うと、コマンドを送信してモデムの状態を確認できます。
 
@@ -303,13 +303,13 @@ USB ドングル／モデムの動作モードには、標準 USB モデムモ�
 
 USB ドングルの動作モードに対応するセクションを参照してください。
 
-### 標準 USB モデム
+### 標準 USB モデム {#standard-usb-modem}
 
 このセクションでは、**Mango 2 (GL-MG1300)** と 5G 開発ボード [GL-M2](https://www.gl-inet.com/products/gl-m2){target="_blank"}（5G NR モジュール: RM520N-GL）を例に、セルラー接続の設定手順と関連機能を説明します。
 
 1. SIM カードを GL-M2 ボードに挿入し、GL-M2 をルーターの USB ポートに接続します。
 
-2. ルーターの Web Admin Panel にログインし、**INTERNET** -> **Cellular** に移動します。
+2. ルーターの Web 管理パネルにログインし、**INTERNET** -> **Cellular** に移動します。
 
     ルーターは自動的にインターネットへの接続を試みます。接続に成功すると、ページにネットワーク情報と緑のドットが表示されます。
 
@@ -381,13 +381,13 @@ USB ドングルの動作モードに対応するセクションを参照して�
 
     - **AT Command**: Shortcut が「Manual command」の場合に、任意のコマンドを入力します。
 
-### ホストレスドングル
+### ホストレスドングル {#hostless-dongle}
 
 このセクションでは、**Flint 3 (GL-BE9300)** と外付け USB ドングル [SIMPoYo uFi](https://www.gl-inet.com/products/simpoyo-ufi){target="_blank"} を例に、セルラー接続の設定手順を説明します。
 
 1. USB ドングルをルーターの USB ポートに接続します。
 
-2. ルーターの Web Admin Panel にログインし、**INTERNET** -> **Tethering** に移動して **Connect** をクリックします。
+2. ルーターの Web 管理パネルにログインし、**INTERNET** -> **Tethering** に移動して **Connect** をクリックします。
 
     ![tethering 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/tethering1.png){class="glboxshadow"}
 
@@ -403,4 +403,4 @@ USB ドングルの動作モードに対応するセクションを参照して�
 
 ---
 
-ご不明な点がありましたら、[Community Forum](https://forum.gl-inet.com){target="_blank"} をご利用いただくか、[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

@@ -1,4 +1,4 @@
-# Stockage réseau
+# Stockage réseau {#network-storage}
 
 ## Introduction {#introduction}
 
@@ -21,7 +21,7 @@ En général, les modèles équipés de ports USB ou d'emplacements MicroSD(TF) 
 Pour les appareils dotés d'une mémoire flash de 32MB ou moins, la fonction Network Storage n'est pas encore prise en charge.
 
 | Modèle de routeur                       | Samba | WebDAV | DLNA | Port USB | Carte MicroSD |
-| :------------------------------------- | :---: | :----: | :--: | :------: | :-----------: |
+| :------------------------------------- | :---: | :----: | :---: | :------: | :-----------: |
 | GL-MT6000 (Fortify)                    | √     | √     | √     | √        | -            |
 | GL-MG1300 (Mango 2)                    | √     | -     | -     | √        | -            |
 | GL-BE14000 (Flint 4)                   | √     | √     | √     | √        | -            |
@@ -109,9 +109,9 @@ Connectez le périphérique de stockage. Lorsqu'il est détecté, la page s'affi
 
     * **Allow Access WebDAV from WAN**: Activez cette option si vous souhaitez que les appareils du réseau amont accèdent au service WebDAV.
 
-    * WebDAV Protocol: **HTTP** n'est pas chiffré ; utilisez-le à vos risques. **HTTPS** est chiffré et utilise un certificat auto-signé.
+    * WebDAV Protocol : **HTTP** n'est pas chiffré ; utilisez-le à vos risques. **HTTPS** est chiffré et utilise un certificat auto-signé.
 
-    * WebDAV Port: Il n'est pas nécessaire de modifier le numéro de port, sauf en cas de conflit. La plage de ports recommandée est 1024 - 65535.
+    * WebDAV Port : Il n'est pas nécessaire de modifier le numéro de port, sauf en cas de conflit. La plage de ports recommandée est 1024 - 65535.
 
 
 2. Cliquez sur **Quick Setup Share** pour définir le lien de partage.
@@ -244,7 +244,7 @@ Connectez le périphérique de stockage. Lorsqu'il est détecté, la page s'affi
         
         ![ios files set up SMB](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios_files_smb_1.png){class="glboxshadow" width="560"}
 
-        Touchez l'option **Connect to Server** en haut du menu. Sur l'écran suivant, saisissez l'URL de connexion de votre serveur. Vous trouverez cette URL dans le [lien partagé](#shared-link). Touchez le bouton **Next** en haut à droite pour continuer.
+        Touchez l'option **Connect to Server** en haut du menu. Sur l'écran suivant, saisissez l'URL de connexion de votre serveur. Vous trouverez cette URL dans le [lien partagé](#set-up-samba). Touchez le bouton **Next** en haut à droite pour continuer.
 
         ![ios files set up SMB](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios_files_smb_2.png){class="glboxshadow" width="560"}
 
@@ -366,7 +366,7 @@ Connectez le périphérique de stockage. Lorsqu'il est détecté, la page s'affi
 
     ![documents WebDAV](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav_client/documents_4_webdav.png){class="glboxshadow" width="560"}
 
-## Utiliser l'application mobile
+## Utiliser l'application mobile {#using-mobile-app}
 
 Le panneau d'administration web permet uniquement de gérer les dossiers partagés. Pour gérer les fichiers sur votre périphérique de stockage, veuillez utiliser l'[application mobile](https://www.gl-inet.com/app/#download-app-glinet){target="_blank"}.
 

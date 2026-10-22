@@ -1,10 +1,10 @@
-# Notifica di problema e soluzioni per il malfunzionamento con schede SIM EE su GL-X3000/GL-XE3000/GL-X2000
+# Notifica di problema e soluzioni per il malfunzionamento con schede SIM EE su GL-X3000/GL-XE3000/GL-X2000 {#problem-notification-and-solutions-for-gl-x3000gl-xe3000gl-x2000-failure-to-work-with-ee-sim-cards}
 
 Gentili clienti GL.iNet,
 
 Di recente abbiamo notato che alcuni clienti riscontrano problemi di connettività su GL-X3000/GL-XE3000/GL-X2000 quando usano schede SIM EE. Dopo ulteriori verifiche, abbiamo scoperto che alcune schede SIM EE supportano solo il protocollo IPv4. Tuttavia, le impostazioni predefinite dei router cellulari GL.iNet abilitano contemporaneamente IPv4 e IPv6, causando questo problema.
 
-## Soluzioni e workaround
+## Soluzioni e workaround {#solutions-workarounds}
 
 1. **Aggiornamento firmware**
 

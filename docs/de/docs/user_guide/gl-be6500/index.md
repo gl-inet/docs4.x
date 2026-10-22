@@ -1,6 +1,6 @@
-# Flint 3e (GL-BE6500) Benutzerhandbuch
+# Flint 3e (GL-BE6500) Benutzerhandbuch {#flint-3e-gl-be6500-user-guide}
 
-## Sicherheitshinweise
+## Sicherheitshinweise {#safety-information}
 
 Lesen Sie vor der Verwendung des Geräts alle nachstehenden Sicherheitsinformationen sorgfältig durch. Die nachfolgenden Sicherheitsempfehlungen können nicht sämtliche möglicherweise auftretenden Gefahrensituationen abdecken.
 
@@ -30,7 +30,7 @@ Unsachgemäßes Öffnen oder unsachgemäße Instandsetzung kann den Benutzer des
 
 Schalten Sie bei einem Störfall zuerst den Netzschalter aus.
 
-## Produktübersicht
+## Produktübersicht {#product-overview}
 
 Flint 3e (GL-BE6500) ist ein Dualband-Wi-Fi-7-Desktop-Router für Heimanwender und kleine Büros. Er unterstützt Wi-Fi 7 Multi-Link Operation (MLO) und kombiniert 2.4GHz- und 5GHz-Kanäle intelligent zu einer einzigen Verbindung. Die gleichzeitige Nutzung beider Frequenzbänder reduziert Interferenzen und Überlastung, während 4K QAM eine kombinierte Dualband-Geschwindigkeit von 6453 Mbit/s liefert, also 20 % mehr als Wi-Fi 6. Das aufgerüstete 5GHz-Band (4x4 MIMO, 160MHz) verbessert zudem die Reichweite deutlich.
 
@@ -40,7 +40,7 @@ Ausgestattet mit 5× 2.5G-Ethernet-Ports und 1× USB-3.0-Port unterstützt er sc
 
 **Hinweis**: Der Unterschied im Erscheinungsbild zwischen Flint 3e und Flint 3 liegt im Siebdruck: Der Siebdruck auf Flint 3e ist blau, der auf Flint 3 ist weiß.
 
-## Lieferumfang
+## Lieferumfang {#package-contents}
 
 - 1 x Flint 3e (GL-BE6500)
 - 1 x Netzadapter
@@ -53,17 +53,17 @@ Sehen Sie sich unten das Unboxing-Video von Flint 3e an.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6-E0LtWqshk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## So richten Sie Flint 3e ein
+## So richten Sie Flint 3e ein {#how-to-set-up-flint-3e}
 
 Sehen Sie sich dieses Einrichtungsvideo an oder folgen Sie den untenstehenden Schritten.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/R40QsUFYuUk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Einschalten
+### 1. Einschalten {#1-power-on}
 
 Setzen Sie den zweiteiligen Netzadapter zusammen. Schließen Sie ihn an Ihren Router an und stecken Sie ihn in eine Steckdose. Das Gerät startet automatisch.
 
-### 2. Gerät verbinden
+### 2. Gerät verbinden {#2-connect-device}
 
 Verbinden Sie ein Gerät, z. B. einen Computer, Laptop oder ein Smartphone, per Wi-Fi oder Ethernet mit dem Router.
 
@@ -75,11 +75,11 @@ Verbinden Sie ein Gerät, z. B. einen Computer, Laptop oder ein Smartphone, per 
 
   Öffnen Sie auf Ihrem Gerät Einstellungen -> WLAN, suchen Sie in der Liste der verfügbaren Netzwerke den Wi-Fi-Netzwerknamen Ihres Routers und geben Sie das Passwort ein, um dem Netzwerk beizutreten. Den Standard-Netzwerknamen und das Standard-Passwort finden Sie auf dem Etikett des Routers.
 
-### 3. Im Web-Admin-Panel anmelden
+### 3. Im Web-Admin-Panel anmelden {#3-log-in-to-web-admin-panel}
 
 Öffnen Sie einen Webbrowser, geben Sie `192.168.8.1` in die Adressleiste ein und melden Sie sich an. Wählen Sie Ihre Sprache aus und legen Sie Ihr Admin-Passwort fest. Klicken Sie anschließend auf **Apply**.
 
-### 4. Internet einrichten
+### 4. Internet einrichten {#4-internet-setup}
 
 **Hinweis:** Die folgenden Anweisungen gelten für Benutzer, die den Router über das GL.iNet Web-Admin-Panel konfigurieren. Wenn Sie lieber die GL.iNet-App verwenden möchten, [laden Sie die App herunter](https://www.gl-inet.com/app/){target="_blank"} und folgen Sie den Anweisungen auf dem Bildschirm.
 
@@ -133,7 +133,7 @@ Richten Sie Flint 3e mit einer der unterstützten Internetverbindungsmethoden ei
 
 Nachfolgend finden Sie eine Übersicht über die Funktionen des Flint-3e-Web-Admin-Panels.
 
-## WLAN
+## WLAN {#wireless}
 
 Auf der Seite Wireless können Sie Einstellungen für die 5GHz- und 2.4GHz-Wi-Fi-Netzwerke konfigurieren, darunter das Aktivieren von Wi-Fi, das Festlegen der TX-Leistung, das Definieren des Wi-Fi-Namens (SSID), das Aktivieren randomisierter BSSID, die Auswahl des Wi-Fi-Sicherheitsmodus und Passworts sowie die Konfiguration von SSID-Sichtbarkeit, Wi-Fi-Modus, Bandbreite und Kanal.
 
@@ -141,13 +141,13 @@ Zusätzlich unterstützt Flint 3e MLO-Wi-Fi, also Multi-Link Operation, wobei me
 
 Informationen zur Einrichtung von Wireless finden Sie unter [Wireless](../../interface_guide/wireless.md).
 
-## Clients
+## Clients {#clients}
 
 Auf der Seite Clients werden Informationen zu verbundenen Geräten angezeigt. Für jeden Client werden Name, IP- und MAC-Adressen, Download- und Upload-Geschwindigkeiten sowie das gesamte Datenvolumen angezeigt. Außerdem können Sie den Client blockieren oder weitere Aktionen ausführen.
 
 Informationen zur Einrichtung von Clients finden Sie unter [Clients](../../interface_guide/clients.md).
 
-## Cloud-Dienste
+## Cloud-Dienste {#cloud-services}
 
 === "GoodCloud"
 
@@ -161,7 +161,7 @@ Informationen zur Einrichtung von Clients finden Sie unter [Clients](../../inter
 
     Zum Einrichten von AstroWarp lesen Sie bitte [AstroWarp](../../interface_guide/astrowarp.md).
 
-## VPN
+## VPN {#vpn}
 
 Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten Datenverkehr zwischen Ihrem Gerät und dem VPN-Server. Es bietet eine zusätzliche Ebene für Datenschutz und Sicherheit (VPN-Client) und ermöglicht Ihnen den Zugriff auf ein entferntes Netzwerk (VPN-Server). Flint 3e unterstützt OpenVPN, WireGuard und Tor.
 
@@ -185,7 +185,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     * [So richten Sie Tor ein](../../interface_guide/tor.md)
 
-## Anwendungen
+## Anwendungen {#applications}
 
 === "Plug-ins"
 
@@ -231,7 +231,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     Zum Einrichten von Tailscale lesen Sie bitte [Tailscale](../../interface_guide/tailscale.md).
 
-## Netzwerkeinstellungen
+## Netzwerkeinstellungen {#network-settings}
 
 === "Portweiterleitung"
 
@@ -314,7 +314,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     Zum Einrichten der NAT-Einstellungen lesen Sie bitte [NAT Settings](../../interface_guide/nat_settings.md).
 
-## Systemeinstellungen
+## Systemeinstellungen {#system-settings}
 
 === "Overview"
 
@@ -403,6 +403,6 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     Detaillierte Anweisungen finden Sie unter [Advanced Settings](../../interface_guide/advanced_settings.md).
 
-## Konformitätserklärung
+## Konformitätserklärung {#declaration-of-conformity}
 
 Hiermit erklärt GL TECHNOLOGIES (HONG KONG) LIMITED, dass der Funkanlagentyp [BE6500 Wi-Fi 7 Router, GL-BE6500] den wesentlichen Anforderungen und anderen relevanten Bestimmungen der Richtlinie 2014/53/EU entspricht. Der vollständige Text der EU-Konformitätserklärung ist unter der folgenden Internetadresse verfügbar: [https://www.gl-inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}.

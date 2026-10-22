@@ -4,11 +4,11 @@ hide:
   - toc
 ---
 
-# Poradniki
+# Poradniki {#tutorials}
 
 Dowiedz się, jak prawidłowo używać naszych urządzeń, korzystając ze szczegółowych instrukcji.
 
-## VPN
+## VPN {#vpn}
 
 * [Jak skonfigurować klienta OpenVPN na routerach GL.iNet](how_to_set_up_openvpn_client.md)
 * [Jak skonfigurować serwer OpenVPN na routerach GL.iNet](how_to_set_up_openvpn_server.md)
@@ -23,7 +23,7 @@ Dowiedz się, jak prawidłowo używać naszych urządzeń, korzystając ze szcze
 * [Jak uzyskać dostęp do podsieci LAN serwera WireGuard z klienta przez nazwę domenową](how_to_access_wgserver_lan_via_domain_name.md)
 * [Jak włączyć tryb OpenVPN TAP-S2S na routerach GL.iNet](how_to_enable_openvpn_tap_s2s_mode_on_glinet_routers.md)
 * [Jak włączyć VPN Cascading na routerach GL.iNet](how_to_use_vpn_cascading_on_glinet_routers.md)
-* [Użyj WireGuard do zabezpieczenia RDP spoza sieci](use_wireguard_to_secure_rdp_from_outside_network.md)
+* [Zabezpieczanie RDP za pomocą WireGuard](secure_rdp_with_wireguard.md)
 * [Jak uzyskać pliki konfiguracyjne od dostawców usług WireGuard](how_to_get_configuration_files_from_wireguard_service_providers.md)
 * [Jak zarezerwować stały adres IP dla klienta OpenVPN we własnym połączeniu OpenVPN](reserve_fixed_IP_for_ovpn_client.md)
 * [Jak zezwolić na dostęp do WAN, gdy klient VPN jest włączony?](how_to_allow_access_to_wan_when_vpn_client_enabled.md)
@@ -31,7 +31,7 @@ Dowiedz się, jak prawidłowo używać naszych urządzeń, korzystając ze szcze
 * [Jak zaktualizować certyfikaty serwera OpenVPN](how_to_update_openvpn_server_certificates.md)
 * [Jak sprawić, by AdGuard Home DNS omijał VPN](how_to_make_adguard_home_dns_bypass_vpn.md)
 
-## Łączność komórkowa
+## Łączność komórkowa {#cellular}
 
 * [SMS](sms.md)
 * [Przekazywanie SMS-ów](sms_forwarding.md)
@@ -42,17 +42,17 @@ Dowiedz się, jak prawidłowo używać naszych urządzeń, korzystając ze szcze
 * [Jak zainstalować lub wymienić zewnętrzne anteny w routerach komórkowych](how_to_install_or_change_antennas.md)
 * [Zrozumienie zewnętrznych anten komórkowych](understanding_external_cellular_antennas.md)
 
-## eSIM
+## eSIM {#esim}
 
 * [Jak używać karty eSIM Physical Card z routerami GL.iNet](how_to_use_esim_physical_card_with_glinet_routers.md)
 * [Jak używać karty eSIM Physical Card z urządzeniami Android](how_to_use_the_esim_physical_card_with_android_devices.md)
 
-## GoodCloud
+## GoodCloud {#goodcloud}
 
 * [GoodCloud Site to Site](goodcloud_site_to_site.md)
 * [Jak uzyskać dostęp do interfejsu LuCI przez GoodCloud](how_to_access_the_luci_interface_via_goodcloud.md)
 
-## Sieć
+## Sieć {#network}
 
 * [Jak połączyć się z siecią EAP (Extensible Authentication Protocol)](eap.md)
 * [Jak skonfigurować sieć gościnną Wi-Fi na routerach GL.iNet](how_to_set_up_a_guest_network.md)
@@ -62,7 +62,7 @@ Dowiedz się, jak prawidłowo używać naszych urządzeń, korzystając ze szcze
 * [Jak skonfigurować podwójne przewodowe połączenie WAN na routerze z jednym portem WAN](configure_dual_ethernet_wan.md)
 * [Czym jest USB-C OTG i jak udostępnić sieć przez USB-C OTG](what_is_usb-c_otg_and_how_to_share_your_network_via_usb-c_otg.md)
 
-## Inne
+## Inne {#others}
 
 * [Jak blokować urządzenia klienckie](how_to_block_client_devices.md)
 * [Jak ręcznie skonfigurować statyczny adres IP na urządzeniach klienckich](manually_configure_static_ip.md)

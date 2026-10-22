@@ -1,10 +1,10 @@
-# ¿Cuál es la cobertura inalámbrica de mi router?
+# ¿Cuál es la cobertura inalámbrica de mi router? {#what-is-the-wireless-coverage-of-my-router}
 
 La cobertura inalámbrica teórica del router es un valor de referencia probado en un entorno abierto y sin interferencias. En escenarios reales de hogar u oficina, el alcance de cobertura se reducirá debido a obstáculos del entorno e interferencias, y la intensidad de la señal puede variar según la zona.
 
 A continuación se indican algunos factores clave que afectan al alcance de la cobertura inalámbrica.
 
-## Chipset inalámbrico
+## Chipset inalámbrico {#wireless-chipset}
 
 Como unidad central de procesamiento para las funciones Wi-Fi, el chipset inalámbrico es responsable de la codificación, descodificación y control de transmisión de la señal.
 
@@ -12,11 +12,11 @@ Los routers equipados con chipsets de alto rendimiento, como los compatibles con
 
 Los chipsets más antiguos o de gama baja, en cambio, están limitados por sus capacidades de procesamiento, lo que perjudica la distancia y la estabilidad de la transmisión de la señal.
 
-## Banda inalámbrica
+## Banda inalámbrica {#wireless-band}
 
 El Wi-Fi de 2.4 GHz tiene mayor penetración y un alcance más amplio, pero menor ancho de banda, mientras que el Wi-Fi de 5 GHz ofrece mayor velocidad, pero menor penetración, lo que se traduce en un alcance más corto.
 
-## TX power
+## TX power {#tx-power}
 
 La TX power del router, potencia del transmisor inalámbrico, es el parámetro básico para la transmisión de señal.
 
@@ -24,15 +24,15 @@ En entornos con varios routers, algunos usuarios pueden reducir la TX power para
 
 Puede ajustar la TX power de su router según sea necesario en la página [WIRELESS](../interface_guide/wireless.md) del panel de administración web.
 
-## Ubicación del router
+## Ubicación del router {#router-location}
 
 Colocar el router en un lugar céntrico y elevado, por ejemplo, en una estantería o armario, minimiza las obstrucciones. Evite colocarlo cerca de esquinas, detrás de muebles o junto a fuentes de interferencia para obtener una cobertura óptima.
 
-## Obstáculos físicos
+## Obstáculos físicos {#physical-obstacles}
 
 Las paredes sólidas, especialmente las de hormigón, ladrillo o metal, los suelos y los muebles grandes bloquean o debilitan las señales Wi-Fi. Los edificios de varias plantas o los espacios divididos reducirán significativamente la cobertura en comparación con zonas abiertas.
 
-## Interferencias inalámbricas
+## Interferencias inalámbricas {#wireless-interference}
 
 Otros dispositivos inalámbricos, por ejemplo, routers cercanos, hubs domóticos o cámaras inteligentes, y electrodomésticos, por ejemplo, microondas, pueden causar interferencias y reducir la cobertura Wi-Fi efectiva.
 

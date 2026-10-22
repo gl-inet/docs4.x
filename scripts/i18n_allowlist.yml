@@ -1,0 +1,18 @@
+# Intentional differences between localized and English pages, used by
+# scripts/i18n_check.py. Only list differences that should stay; fix the
+# translation for everything else.
+#
+# Each entry:
+#   lang:    language code, a list of codes, or "*"
+#   page:    path relative to docs/<lang>/docs, or mkdocs.yml for redirect checks
+#   check:   check name as printed in brackets, e.g. images, section-order
+#   section: optional heading ID; omit to allow the check for the whole page
+#   reason:  required; why the difference is intentional
+#
+# Example:
+# - lang: fr
+#   page: interface_guide/cloud.md
+#   check: section-order
+#   reason: ...
+
+[]

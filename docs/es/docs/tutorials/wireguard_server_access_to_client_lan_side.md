@@ -1,14 +1,14 @@
-# Cómo acceder al lado LAN del cliente WireGuard desde el servidor
+# Cómo acceder al lado LAN del cliente WireGuard desde el servidor {#how-to-access-wireguard-client-lan-side-from-server}
 
 Este tutorial presenta los pasos para acceder, desde el lado de su servidor WireGuard, a la subred LAN del cliente WireGuard, por ejemplo cámaras IP, NAS, etc.
 
-## Topología
+## Topología {#topology}
 
 Como se muestra a continuación, el GL-MT2500 es un servidor WireGuard y el GL-AXT1800 es un cliente WireGuard conectado a él. Puede acceder desde el lado del servidor a los dispositivos del lado LAN del GL-AXT1800, por ejemplo una cámara IP o un NAS.
 
 ![Topology](https://static.gl-inet.com/docs/router/en/4/tutorials/wiregaurd_server_access_client_lan_side/Topology.jpg){class="glboxshadow"}
 
-## 1. Añadir una regla de ruta en el servidor
+## 1. Añadir una regla de ruta en el servidor {#1-add-route-rule-on-server}
 
 ??? "Para firmware v4.7 y anteriores"
 
@@ -54,7 +54,7 @@ Como se muestra a continuación, el GL-MT2500 es un servidor WireGuard y el GL-A
 
     ![add route rule 3](https://static.gl-inet.com/docs/router/en/4/tutorials/wiregaurd_server_access_client_lan_side/4.8-route-rule-3.png){class="glboxshadow"}
 
-## 2. Permitir el acceso remoto a la LAN del cliente
+## 2. Permitir el acceso remoto a la LAN del cliente {#2-allow-remote-access-to-client-lan}
 
 ??? "Para firmware v4.7 y anteriores"
 
@@ -92,7 +92,7 @@ Como se muestra a continuación, el GL-MT2500 es un servidor WireGuard y el GL-A
 
     ![allow remote access lan](https://static.gl-inet.com/docs/router/en/4/tutorials/wiregaurd_server_access_client_lan_side/4.9-allow-remote-access-lan.png){class="glboxshadow" width=600}
 
-## 3. Probar la conexión
+## 3. Probar la conexión {#3-test-connection}
 
 Compruebe si puede acceder desde el lado del servidor a los dispositivos LAN de su cliente WireGuard.
 

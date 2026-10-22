@@ -1,16 +1,16 @@
-# ルーターへSSHログインする
+# ルーターへSSHログインする {#ssh-log-in-to-the-router}
 
 Secure Shell（SSH）は、安全でないネットワーク上でもネットワークサービスを安全に利用するための暗号化ネットワークプロトコルです。もっともよく知られている用途は、ユーザーがコンピューターシステムへリモートログインすることです。サーバーへSSH接続するための基本的なツールが必要になることがあります。このガイドでは、GL.iNetルーターへSSHログインする方法を紹介します。
 
 ---
 
-## Windowsユーザー向け
+## Windowsユーザー向け {#for-windows-user}
 
 Windows では、Windows Cmd、PowerShell、Bitvise、PuTTY などの方法でルーターのターミナルへアクセスできます。
 
-### Windows Cmdを使う
+### Windows Cmdを使う {#using-windows-cmd}
 
-1. Command Prompt を開く
+1. コマンドプロンプトを開く
 
     **Win** + **R**（Windowsキー + Rキー）を押して「ファイル名を指定して実行」を開きます。**cmd** と入力し、Enter を押します。
 
@@ -46,7 +46,7 @@ Windows では、Windows Cmd、PowerShell、Bitvise、PuTTY などの方法で�
 
         正しい管理者パスワードを入力していることを確認してください。パスワードを忘れた場合は、RESET ボタンを10秒間押してルーターをリセットしてください。
 
-### PowerShellを使う
+### PowerShellを使う {#using-powershell}
 
 1. Windows PowerShell を開く
 
@@ -102,13 +102,13 @@ Windows では、Windows Cmd、PowerShell、Bitvise、PuTTY などの方法で�
 
         ``ssh -p [new port number] [username]@[router IP address]``
 
-### Bitviseを使う
+### Bitviseを使う {#using-bitvise}
 
 Bitvise経由でルーターにログインするには、この動画を参照してください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7yVd5UkKJ74" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### PuTTYを使う
+### PuTTYを使う {#using-putty}
 
 1. PuTTYをダウンロードする
 
@@ -156,11 +156,11 @@ Bitvise経由でルーターにログインするには、この動画を参照�
 
 ---
 
-## Linux/Macユーザー向け
+## Linux/Macユーザー向け {#for-linuxmac-user}
 
 Linux と Mac OS での手順は概ね同じです。ここでは Ubuntu を例に説明します。
 
-### Ubuntuを使う
+### Ubuntuを使う {#using-ubuntu}
 
 1. Terminal を起動する
 
@@ -214,4 +214,4 @@ Linux と Mac OS での手順は概ね同じです。ここでは Ubuntu を例�
 
 ---
 
-ご不明な点がありましたら、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}をご覧いただくか、[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

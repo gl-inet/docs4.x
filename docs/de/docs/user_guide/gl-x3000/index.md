@@ -1,6 +1,6 @@
-# Spitz AX (GL-X3000) Benutzerhandbuch
+# Spitz AX (GL-X3000) Benutzerhandbuch {#spitz-ax-gl-x3000-user-guide}
 
-## Sicherheitshinweise
+## Sicherheitshinweise {#safety-information}
 
 Lesen Sie vor der Verwendung des Geräts alle nachstehenden Sicherheitsinformationen sorgfältig durch. Die nachfolgenden Sicherheitsempfehlungen können nicht sämtliche möglicherweise auftretenden Gefahrensituationen abdecken.
 
@@ -30,13 +30,13 @@ Unsachgemäßes Öffnen oder unsachgemäße Instandsetzung kann den Benutzer des
 
 Schalten Sie bei einem Störfall zuerst den Netzschalter aus.
 
-## Produktübersicht
+## Produktübersicht {#product-overview}
 
 Spitz AX (GL-X3000) ist ein Dual-SIM-Wi-Fi-6-Cellular-Gateway, das besonders in abgelegenen Gebieten und auf Reisen schnelle und zuverlässige Verbindungen bietet. Es unterstützt vier Methoden für den Internetzugang: Cellular (SIM-Karten), Ethernet, Repeater und Tethering. Darüber hinaus werden Multi-WAN (Failover und Lastverteilung), VPN (OpenVPN und WireGuard), Parental Control, AdGuard Home, Portweiterleitung, Tailscale und weitere Funktionen unterstützt.
 
 ![x3000 interface](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-x3000/hardware_info/gl-x3000_interface.jpg){class="glboxshadow"}
 
-## Lieferumfang
+## Lieferumfang {#package-contents}
 
 - 1 x Spitz AX (GL-X3000)
 - 1 x Benutzerhandbuch
@@ -48,7 +48,9 @@ Spitz AX (GL-X3000) ist ein Dual-SIM-Wi-Fi-6-Cellular-Gateway, das besonders in 
 
 ![package contents](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-x3000/first_time_setup/x3000_unboxing.jpg){class="glboxshadow"}
 
-## LED-Anzeigen
+## LED-Anzeigen {#led-indicators}
+
+Die folgenden Angaben beschreiben die LED-Zustände bei verschiedenen Ereignissen. Alle Zustände der einzelnen LEDs finden Sie unter [GL-X3000: LED-Status](../../faq/led.md#gl-x3000){target="_blank"}.
 
 | Gerätestatus                                             | Stromversorgung    | Internet          | 2.4GHz            | 5GHz              | Cellular |
 | -------------------------------------------------------- | ------------------ | ----------------- | ----------------- | ----------------- | -------- |
@@ -56,12 +58,12 @@ Spitz AX (GL-X3000) ist ein Dual-SIM-Wi-Fi-6-Cellular-Gateway, das besonders in 
 | Mit dem Internet verbunden (Cellular inaktiv)            | Grün an            | Grün an           | Grün an           | Grün an           | Aus      |
 | Keine Internetverbindung                                 | Grün an            | Aus               | Grün an           | Grün an           | Aus      |
 | Firmware wird aktualisiert                               | Grün an            | Blinkt alle 0,5 s | Blinkt alle 0,5 s | Blinkt alle 0,5 s | Grün an  |
-| Netzwerk zurücksetzen (Reset < 3 s drücken)              | Blinkt jede 1 s    | Grün an           | Grün an           | Grün an           | Grün an  |
+| Netzwerk zurücksetzen (Reset 5 s gedrückt halten)              | Blinkt jede 1 s    | Grün an           | Grün an           | Grün an           | Grün an  |
 | Auf Werkseinstellungen zurücksetzen (Reset 10 s drücken) | Blinkt alle 0,25 s | Grün an           | Grün an           | Grün an           | Grün an  |
 
 **Hinweis:** Wenn eine Internetverbindung besteht und die 2.4GHz- oder 5GHz-LED blinkt, bedeutet dies, dass Wi-Fi-Geräte verbunden sind und aktiv Daten übertragen.
 
-## So richten Sie Spitz AX ein
+## So richten Sie Spitz AX ein {#how-to-set-up-spitz-ax}
 
 Sehen Sie sich dieses Einrichtungsvideo an oder folgen Sie den untenstehenden Schritten.
 
@@ -75,11 +77,11 @@ Sehen Sie sich dieses Einrichtungsvideo an oder folgen Sie den untenstehenden Sc
     2. Schalten Sie Ihren Router aus.
     3. Setzen Sie die SIM-Karte(n) in die SIM-Kartensteckplätze ein. (**Hinweis:** Es ist jeweils nur eine SIM-Karte aktiv. Die andere SIM-Karte dient ausschließlich als Backup.)
 
-### 1. Einschalten
+### 1. Einschalten {#1-power-on}
 
 Setzen Sie den zweiteiligen Netzadapter zusammen. Schließen Sie ihn an Ihren Router an und stecken Sie ihn in eine Steckdose. Das Gerät startet automatisch.
 
-### 2. Gerät verbinden
+### 2. Gerät verbinden {#2-connect-device}
 
 Verbinden Sie ein Gerät (z. B. Computer, Laptop oder Smartphone) per Wi-Fi oder Ethernet mit dem Router.
 
@@ -91,13 +93,13 @@ Verbinden Sie ein Gerät (z. B. Computer, Laptop oder Smartphone) per Wi-Fi oder
 
   Suchen Sie auf Ihrem Gerät in der Liste der verfügbaren Netzwerke den Wi-Fi-Netzwerknamen Ihres Routers und geben Sie das Passwort ein. Den Standard-Netzwerknamen und das Standard-Passwort finden Sie auf dem Etikett Ihres Routers.
 
-### 3. Im Web-Admin-Panel anmelden
+### 3. Im Web-Admin-Panel anmelden {#3-log-in-to-web-admin-panel}
 
 Öffnen Sie einen Webbrowser, geben Sie `192.168.8.1` in die Adressleiste ein und melden Sie sich an. Wählen Sie Ihre Sprache aus und legen Sie Ihr Admin-Passwort fest. Klicken Sie anschließend auf **Apply**.
 
 Beachten Sie beim Bestätigen der Wi‑Fi-Daten: Wenn Sie die Wi‑Fi-Informationen ändern, müssen Sie Ihr Gerät mit den aktualisierten Zugangsdaten erneut mit dem Wi‑Fi des Routers verbinden.
 
-### 4. Internet einrichten
+### 4. Internet einrichten {#4-internet-setup}
 
 **Hinweis:** Die folgenden Anweisungen gelten für Benutzer, die den Router über das GL.iNet Web-Admin-Panel konfigurieren. Wenn Sie lieber die GL.iNet-App verwenden möchten, [laden Sie die App herunter](https://www.gl-inet.com/app/){target="_blank"} und folgen Sie den Anweisungen auf dem Bildschirm.
 
@@ -151,7 +153,7 @@ Richten Sie Spitz AX mit einer der unterstützten Internetverbindungsmethoden ei
 
     Detaillierte Anweisungen finden Sie unter [Über USB-Tethering eine Verbindung zum Internet herstellen](../../interface_guide/internet_tethering.md).
 
-## So richten Sie ein VPN ein
+## So richten Sie ein VPN ein {#how-to-set-up-a-vpn}
 
 Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten Datenverkehr zwischen Ihrem Gerät und dem VPN-Server. Es bietet eine zusätzliche Ebene für Datenschutz und Sicherheit (VPN-Client) und ermöglicht Ihnen den Zugriff auf ein entferntes Netzwerk (VPN-Server). Spitz AX und andere GL.iNet-Router unterstützen OpenVPN und WireGuard. Zusätzlich wird Tor unterstützt.
 
@@ -175,7 +177,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     * [So richten Sie Tor ein](../../interface_guide/tor.md).
 
-## WLAN und Clients
+## WLAN und Clients {#wireless-and-clients}
 
 === "Wireless"
 
@@ -189,7 +191,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     Zum Einrichten von Clients lesen Sie bitte [Clients](../../interface_guide/clients.md).
 
-## Cloud-Dienste
+## Cloud-Dienste {#cloud-services}
 
 === "GoodCloud"
 
@@ -203,7 +205,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     Zum Einrichten von AstroWarp lesen Sie bitte [AstroWarp](../../interface_guide/astrowarp.md).
 
-## Anwendungen
+## Anwendungen {#applications}
 
 === "Plug-ins"
 
@@ -257,7 +259,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/hyHh8pAxgVw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Netzwerkeinstellungen
+## Netzwerkeinstellungen {#network-settings}
 
 === "Portweiterleitung"
 
@@ -335,7 +337,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     Zum Einrichten der NAT-Einstellungen lesen Sie bitte [NAT Settings](../../interface_guide/nat_settings.md).
 
-## Systemeinstellungen
+## Systemeinstellungen {#system-settings}
 
 === "Overview"
 
@@ -427,6 +429,6 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     Detaillierte Anweisungen finden Sie unter [Advanced Settings](../../interface_guide/advanced_settings.md).
 
-## Konformitätserklärung
+## Konformitätserklärung {#declaration-of-conformity}
 
 Hiermit erklärt GL TECHNOLOGIES (HONG KONG) LIMITED, dass der Funkanlagentyp [5G NR Wi-Fi 6-Router, GL-X3000NR / 4G LTE Wi-Fi 6-Router, GL-X3000C16] den grundlegenden Anforderungen und anderen relevanten Bestimmungen der Richtlinie 2014/53/EU entspricht. Der vollständige Text der EU-Konformitätserklärung ist unter folgender Internetadresse verfügbar: [https://www.gl-inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}.

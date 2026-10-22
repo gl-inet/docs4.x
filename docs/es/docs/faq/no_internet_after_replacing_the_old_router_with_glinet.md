@@ -1,4 +1,4 @@
-# ¿Qué debo hacer si no tengo Internet después de sustituir mi router antiguo por un router GL.iNet?
+# ¿Qué debo hacer si no tengo Internet después de sustituir mi router antiguo por un router GL.iNet? {#what-should-i-do-if-i-have-no-internet-after-replacing-the-old-router-with-a-glinet-router}
 
 Si no puede acceder a Internet después de sustituir su router antiguo por un router GL.iNet, es posible que el nuevo router no pueda obtener una dirección IP, mediante DHCP o PPPoE, cuando su puerto WAN está conectado al módem.
 
@@ -6,7 +6,7 @@ Es posible que su proveedor de servicios de Internet tenga habilitado **MAC bind
 
 Pruebe los siguientes métodos para resolver este problema.
 
-- Clone la dirección MAC de su router antiguo en su nuevo router GL.iNet. Consulte [este apartado](./internet_connection_troubleshooting.md#p2-cuando-debo-clonar-una-direccion-mac) para obtener más información.
+- Clone la dirección MAC de su router antiguo en su nuevo router GL.iNet. Consulte [este apartado](./internet_connection_troubleshooting.md#q2-when-should-i-clone-a-mac-address) para obtener más información.
 - Reinicie el módem. Si el problema persiste, apáguelo durante 30 minutos y vuelva a encenderlo.
 - Póngase en contacto con su proveedor de servicios de Internet para restablecer el módem.
 

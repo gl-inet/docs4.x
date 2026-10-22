@@ -1,14 +1,14 @@
-# Upgrade Quectel Module Firmware
+# Upgrade Quectel Module Firmware {#upgrade-quectel-module-firmware}
 
-## Preperation
+## Preparation {#preparation}
 
 1. Ensure your router is configured to Internet access.
 
 2. Connect a computer or laptop to the router via Wi-Fi or Ethernet cable.
 
-## Upgrade steps
+## Upgrade steps {#upgrade-steps}
 
-### For GL-X3000/GL-XE3000
+### For GL-X3000/GL-XE3000 {#for-gl-x3000gl-xe3000}
 
 **Method 1. Upgrade via GL.iNet GUI**
 
@@ -22,7 +22,7 @@
 
 Take the upgrade of the RM520N module as an example.
 
-1. SSH log in to your router. Please refer to [this link](https://docs.gl-inet.com/router/en/4/tutorials/ssh_log_in_to_the_router/).
+1. SSH log in to your router. Please refer to [this link](ssh_log_in_to_the_router.md).
 
 2. Enter the command below to download the module firmware.
 
@@ -64,13 +64,13 @@ Take the upgrade of the RM520N module as an example.
 
     ![mtk7981a_check_version](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/x3000_xe3000/check_module_version.png){class="glboxshadow"}
 
-### For GL-MiFi/GL-XE300/GL-X750/GL-E750
+### For GL-MiFi/GL-XE300/GL-X750/GL-E750 {#for-gl-mifigl-xe300gl-x750gl-e750}
 
 Take the upgrade of the EM060K module as an example.
 
 1. Prepare a USB flash drive. Download the corresponding module firmware to the USB flash drive from the bottom of this tutorial, then decompress the. zip file and place it in the root directory of the USB drive.
 
-2. Plug the USB flash drive into your router. Then refer to [this link](https://docs.gl-inet.com/router/en/4/tutorials/ssh_log_in_to_the_router/) to SSH log in to your router.
+2. Plug the USB flash drive into your router. Then refer to [this link](ssh_log_in_to_the_router.md) to SSH log in to your router.
 
 3. Enter the command `df -h` to check the USB drive mounting path, and record the path.
 
@@ -117,7 +117,7 @@ Take the upgrade of the EM060K module as an example.
     ```
     ![check module version](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/other_model/check_module_version.png){class="glboxshadow"}
 
-## Quectel module firmware download URL
+## Quectel module firmware download URL {#quectel-module-firmware-download-url}
 
 EP06-A: [https://fw.gl-inet.com/download/EP06A-modem-firmware/EP06ALAR02A08M4G_01.009.01.009.zip](https://fw.gl-inet.com/download/EP06A-modem-firmware/EP06ALAR02A08M4G_01.009.01.009.zip)
 

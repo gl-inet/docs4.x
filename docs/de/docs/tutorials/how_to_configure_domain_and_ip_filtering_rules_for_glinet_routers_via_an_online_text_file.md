@@ -1,4 +1,4 @@
-# So konfigurieren Sie Domain- und IP-Filterregeln für GL.iNet-Router über eine Online-Textdatei
+# So konfigurieren Sie Domain- und IP-Filterregeln für GL.iNet-Router über eine Online-Textdatei {#how-to-configure-domain-and-ip-filtering-rules-for-glinet-routers-via-an-online-text-file}
 
 Ab Firmware v4.7 unterstützen die folgenden Funktionen den Import von Regeln über eine Online-Textdatei-URL:
 
@@ -7,7 +7,7 @@ Ab Firmware v4.7 unterstützen die folgenden Funktionen den Import von Regeln ü
 
 Dieses Tutorial erklärt, wie Sie eine Online-Textdatei verwenden, um Domain- und IP-Filterregeln für GL.iNet-Router zu importieren.
 
-## Unterstützte URL- und Dateiformate
+## Unterstützte URL- und Dateiformate {#supported-url-file-formats}
 
 Die unterstützten URL-Formate sind die folgenden:
 
@@ -18,7 +18,7 @@ Die unterstützten Dateitypen sind `.txt`, `.conf`, `.log` und andere Klartextfo
 
 **Hinweis**: Binärdateien werden nicht unterstützt, z. B. `.exe`, `.zip`, `.jpg`, `.png` usw.
 
-## GitHub zum Hosten der Textdatei verwenden
+## GitHub zum Hosten der Textdatei verwenden {#use-github-to-host-text-file}
 
 Wenn Sie die Textdatei in einem öffentlichen GitHub-Repository hosten, stellen Sie sicher, dass Sie die Raw-Content-URL anstelle der normalen GitHub-URL verwenden.
 
@@ -32,7 +32,7 @@ Damit der Router den richtigen Inhalt herunterlädt, verwenden Sie die Raw-Conte
 
 Auf diese Weise kann der Router den Klartextinhalt der Datei abrufen.
 
-## Filterformate für VPN-Richtlinie (Domain/IP)
+## Filterformate für VPN-Richtlinie (Domain/IP) {#filter-formats-for-vpn-policy-domainip}
 
 Die Funktion „VPN-Richtlinie basierend auf Ziel-Domain oder IP“ unterstützt in der Online-Textdatei die folgenden Filterformate:
 
@@ -41,7 +41,7 @@ Die Funktion „VPN-Richtlinie basierend auf Ziel-Domain oder IP“ unterstützt
 * CIDR-Bereich: Verwenden Sie die CIDR-Notation, um IP-Adressbereiche anzugeben, z. B. `192.168.10.0/24`.
 * IPv4-Adresse: Geben Sie einzelne IPv4-Adressen an, z. B. `192.168.10.10`.
 
-## Filterformate für Parental Control (Ruleset)
+## Filterformate für Parental Control (Ruleset) {#filter-formats-for-parental-control-ruleset}
 
 Die Funktion „Add a New Ruleset“ in Parental Control unterstützt in der Online-Textdatei die folgenden Filterformate:
 

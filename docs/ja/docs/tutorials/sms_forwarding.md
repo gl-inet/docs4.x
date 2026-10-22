@@ -1,10 +1,10 @@
-# SMS転送
+# SMS転送 {#sms-forwarding}
 
 GL.iNetのセルラールーターはSMS転送をサポートしており、受信したメッセージを指定した宛先へ自動的に送信できます。
 
 **注意**: この機能は、純正の4G LTE / 5G NRモジュールを搭載したGL.iNetセルラールーターでのみ動作します。他のモジュールやUSBモジュールではサポートされません。
 
-## 対応モデル
+## 対応モデル {#supported-models}
 
 ??? "対応モデル"
     - GL-E5800 (Mudi 7)
@@ -41,25 +41,25 @@ GL.iNetのセルラールーターはSMS転送をサポートしており、受�
     - GL-B1300 (Convexa-B)
     - GL-AP1300 (Cirrus)
 
-## 設定
+## 設定 {#quick-setup}
 
 ここでは GL-XE3000 (Puli AX) を例に説明します。
 
-Web管理パネルの左側で **INTERNET** -> **Cellular** セクションに移動します。
+1. まず、[こちら](../interface_guide/internet_cellular.md)を参照してセルラールーターを設定します。
 
-右上の封筒アイコンをクリックしてSMSページに入り、SMS Forwarding の設定を確認します。
+2. ルーターのWeb管理パネルにログインし、**INTERNET** -> **Cellular** に移動します。右上の封筒アイコンをクリックしてSMSページに入ると、SMS Forwarding の設定が表示されます。
 
-![sms setting](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms.png){class="glboxshadow"}
+    ![sms setting](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms.png){class="glboxshadow"}
 
-### メールで転送する
+### メールで転送する {#forward-via-email}
 
 ![sms forwarding email](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms_forward_email.png){class="glboxshadow"}
 
-- **SMTP Server Address**: Gmail、Outlook、iCloud、Yahoo のサーバーアドレスはドロップダウンリストから選択できます。他のメールプロバイダーについては、各社のドキュメントまたはサポートを参照してください。
+- **SMTP Server Address**: Gmail、Outlook、iCloud、Yahooのサーバーアドレスはドロップダウンリストから選択できます。プリセットのサーバーアドレスがあっても、プロバイダーの認証要件への対応が保証されるわけではありません。他のメールプロバイダーについては、各社のドキュメントまたはサポートを参照してください。
 
 - **Encryption Method**: none、SSL/TLS、STARTTLS の3つのオプションがあります。
 - **Username**: ここにメールアドレスを入力します。
-- **Password**: アプリ専用パスワード、またはログインアカウントのパスワードを使用します。Gmail、Outlook、iCloud、Yahoo については以下のガイドを参照してください。
+- **Password**: アプリ専用パスワードなど、メールプロバイダーが指定するSMTPパスワードを入力します。各プロバイダーの要件は以下を参照してください。
 - **Subject**: ここでメール件名を設定します。
 
 ??? "Gmail"
@@ -68,9 +68,13 @@ Web管理パネルの左側で **INTERNET** -> **Cellular** セクションに�
 
     465 と 587 の両方のポートを使用できます。
 
-??? "Outlook"
+??? "Outlook.com"
 
-    Outlook では追加設定なしで通常のパスワードを直接使用でき、ポート 587 をサポートしています。公式ガイド [POP, IMAP, and SMTP settings for Outlook.com](https://support.microsoft.com/en-us/office/pop-imap-and-smtp-settings-for-outlook-com-d088b986-291d-42b8-9564-9c414e2aa040){target="_blank"} を参照してください。
+    Outlook.comのSMTP認証にはOAuth2（Modern Authentication）が必要です。SMTPサーバーは `smtp-mail.outlook.com` で、ポート `587` と `STARTTLS` を使用します。
+
+    Outlook.comアカウントでSMSをメール転送する前に、ルーターのファームウェアがこの認証方式に対応していることを確認してください。
+
+    Microsoftの[Outlook.comのPOP、IMAP、SMTP設定](https://support.microsoft.com/en-us/outlook/pop-imap-and-smtp-settings-for-outlook-com){target="_blank"}を参照してください。
 
 ??? "iCloud"
 
@@ -84,7 +88,7 @@ Web管理パネルの左側で **INTERNET** -> **Cellular** セクションに�
 
 追加できるメールアドレスは最大10件です。
 
-### SMSで転送する
+### SMSで転送する {#forward-via-sms}
 
 ![sms forwarding phone](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms_forward_phone.png){class="glboxshadow"}
 
@@ -100,4 +104,4 @@ Web管理パネルの左側で **INTERNET** -> **Cellular** セクションに�
 
 ---
 
-ご不明な点がありましたら、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}をご覧いただくか、[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

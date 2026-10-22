@@ -1,4 +1,4 @@
-# macOS no puede escribir en un recurso compartido Samba
+# macOS no puede escribir en un recurso compartido Samba {#macos-cannot-write-to-a-samba-share}
 
 Al utilizar un dispositivo de almacenamiento formateado en exFAT para un recurso compartido Samba, algunos dispositivos macOS pueden encontrar uno de los siguientes errores al intentar escribir archivos en el recurso.
 
@@ -60,7 +60,7 @@ Intente resolver este problema con los siguientes métodos.
             ext4 es compatible principalmente con sistemas Linux. Después de formatear a ext4, el dispositivo de almacenamiento puede volverse incompatible con sistemas Windows, lo que podría provocar problemas como que Windows no reconozca la unidad o no pueda escribir en ella.
 
       1. Haga una copia de seguridad de todos los datos de la unidad, ya que el formateo los borrará.
-      2. Use una herramienta como Disk Utility o un sistema Linux para formatear la unidad en ext4.
+      2. Use un sistema Linux o herramientas de terceros para formatear la unidad en ext4.
 
 8.  **Actualice macOS y limpie las cachés.**
 

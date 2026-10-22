@@ -1,4 +1,4 @@
-# Contrôle parental (firmware v4.9)
+# Contrôle parental (firmware v4.9) {#parental-control-firmware-v49}
 
 > Ce guide s'applique au firmware v4.9 et aux versions ultérieures. Pour les versions antérieures, veuillez cliquer [ici](parental_control.md).
 

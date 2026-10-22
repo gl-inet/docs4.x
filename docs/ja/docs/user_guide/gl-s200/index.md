@@ -1,14 +1,33 @@
-# GL-S200 ユーザーガイド
+# GL-S200 ユーザーガイド {#gl-s200-user-guide}
 
-## ハードウェア情報
+## 製品概要 {#product-overview}
 
-GL-S200はBLEプロトコルをサポートする小型スレッドゲートウェイで、高度にカスタマイズ可能なOpenWrtオペレーティングシステム上で動作し、クラウドデバイス管理をサポートします。様々なスマートホームデバイスへの接続や、スマートビルディングの大量デバイス接続に対応する多機能設計です。
+GL-S200 は、BLE プロトコルに対応した小型の Thread ゲートウェイです。高度にカスタマイズ可能な OpenWrt オペレーティングシステムで動作し、クラウドによるデバイス管理に対応しています。さまざまなスマートホームデバイスとの接続や、スマートビルディングにおける大量のデバイス接続に対応できる多用途な設計です。
 
 ![gl-s200 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-s200/hardware_info/gl-s200_interface.jpg){class="glboxshadow"}
 
-[GL-s200 仕様](https://www.gl-inet.com/products/gl-s200/#specs){target="_blank"}
+## パッケージ内容 {#package-contents}
 
-### GL-S200 PCB ピン設定
+パッケージに含まれるアダプターは、配送先の国によって異なります。
+
+パッケージには以下が含まれます。
+
+- 1 x ユーザーマニュアル
+- 1 x GL-S200
+- 1 x イーサネットケーブル
+- 1 x サンキューカード
+- 1 x 保証書
+- 1 x 電源アダプター（選択したプラグタイプ）
+
+![gl-s200 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-s200/first_time_setup/s200_unboxing.jpg){class="glboxshadow"}
+
+GL-S200 の[開封動画](../../video_library/unboxing_first_set_up.md#gl-s200)もご覧ください。
+
+## 仕様 {#specifications}
+
+[GL-S200 仕様](https://www.gl-inet.com/products/gl-s200/#specs){target="_blank"}
+
+## PCB ピン配置 {#pcb-pinout}
 
 <div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
   <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
@@ -18,221 +37,208 @@ GL-S200はBLEプロトコルをサポートする小型スレッドゲートウ�
   </figure>
 </div>
 
-### GLスレッド開発ボードのピン設定
+## GL Thread Dev Board のピン配置 {#gl-thread-dev-board-pinout}
 
 ![gl thread dev board pinout](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-s200/hardware_info/gl_thread_dev_board_pinout.jpg){class="glboxshadow"}
 
 ---
 
-## 初回設定
+## 初回設定 {#first-time-setup}
 
-GL.iNetのすべてのデバイスは、シンプルでほぼ同じセットアッププロセスを持っています。 [初回セットアップについてはここをクリックしてください](../../faq/first_time_setup.md)。
-
-パッケージ内のアダプターは配送国によって異なることにご注意してください。
-
-パッケージの中には何が入っていますか？
-
-![gl-s200 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-s200/first_time_setup/s200_unboxing.jpg){class="glboxshadow"}
-
-同梱物：
-
-- 1 x ユーザーマニュアル
-- 1 x GL-S200
-- 1 x イーサネットケーブル
-- 1 x サンキューカード
-- 1 x 保証書
-- 1 x 電源アダプター (選択されたプラグタイプ)
-
-Check out GL-S200's [unboxing video](../../video_library/unboxing_first_set_up.md#gl-s200).
+すべての GL.iNet ルーターは、ほぼ共通のセットアップ手順で設定できます。[初回セットアップの詳細はこちら](../../faq/first_time_setup.md)。
 
 ---
 
-## インターネット
+## インターネット {#internet}
 
-インターネット設定画面では、ルーターがサポートしてるインターネット接続タイプを選択できます。
+ルーターの Web 管理パネルにログインし、左側のメニューから **INTERNET** に移動します。
 
-ルータのWeb管理パネル内のサイドメニューで**インターネット**を選択して、インターネットネットワークを設定します。
+このページでは、モデルに応じて Ethernet、Repeater、Tethering、Cellular などのインターネット接続タイプを選択できます。
 
-インターネットへの接続は以下2つの方法がサポートされています:
+GL-S200 は、Ethernet と Repeater の 2 種類の接続タイプに対応しています。
 
-### イーサネット
+### イーサネット {#ethernet}
 
-イーサネットケーブルを使用して、ルーターをアクティブなモデムまたはネットワークデバイスに接続してインターネットにアクセスします。この方法は通常、最も高速で信頼性の高いインターネット接続を提供します。
+イーサネットケーブルを使用して、ルーターを稼働中のモデムまたはネットワーク機器に接続し、インターネットにアクセスします。通常、この方法は最も高速で信頼性の高いインターネット接続を提供します。
 
-[イーサネット ケーブル経由でインターネットに接続する方法については、ここをクリックしてください。](../../interface_guide/internet_ethernet.md)
+[イーサネットケーブルでインターネットに接続する方法はこちら](../../interface_guide/internet_ethernet.md)
 
 ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-s200/internet/s200_ethernet.png){class="glboxshadow"}
 
-### リピーター
+### リピーター {#repeater}
 
-ルーターをリピーターとして使用し、既存の Wi-Fi ネットワークのカバーエリアを拡大します。リピーターは範囲内の無線信号を受信して再送信し、カバーエリアを延長します。この方法は、1 台のルーターだけでは使用エリア全体をカバーできない場合に役立ちます。
+ルーターをリピーターとして設定し、既存の Wi-Fi ネットワークのカバー範囲を拡張します。リピーターとして動作する場合、ルーターは範囲内の無線信号を受信して再送信し、カバー範囲を広げます。1 台のルーターでは利用エリア全体をカバーできない場合に便利です。
 
-[既存の Wi-Fi 経由でインターネットに接続する方法については、ここをクリックしてください。](../../interface_guide/internet_repeater.md)
+[既存の Wi-Fi 経由でインターネットに接続する方法はこちら](../../interface_guide/internet_repeater.md)
 
 ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-s200/internet/s200_repeater.png){class="glboxshadow"}
 
-### 優先順位とロードバランス
+### Multi-WAN {#multi-wan}
 
-[マルチWAN](../../interface_guide/multi-wan.md) では、各インターネットアクセス方式の優先順位や、複数のインターネットアクセス方式を同時に使用する場合のロードバランスを設定します。
+Multi-WAN は、複数のインターネット接続（例: Ethernet、Repeater）を同時にルーターに設定できるネットワーク機能です。最優先のインターネット接続に障害が発生した場合、ルーターは自動的に別のインターネット接続へ切り替えます。これはフェイルオーバーとも呼ばれ、スムーズで途切れのないインターネットアクセスを確保します。
 
----
+各インターネット接続の優先順位は、[Multi-WAN](../../interface_guide/multi-wan.md) で設定します。
 
-## ワイヤレス
-
-ワイヤレス設定では、ユーザーはプライマリ Wi-Fi とゲスト Wi-Fi のネットワーク セキュリティを管理することができます。サイド メニューの **ワイヤレス** に移動するとアクセスできます。
-
-[ワイヤレス設定の詳細については、こちらをクリックしてください](../../interface_guide/wireless.md)
+また、Multi-WAN モードを Failover から Load Balance に切り替えることもできます。Load Balance では、複数のネットワークインターフェースを同時に使用して、ルーターの総帯域幅を増やすことができます。
 
 ---
 
-## クライアント
+## ワイヤレス {#wireless}
 
-クライアントはルーターに接続されているデバイスで あり、クライアントをブロックしたり、ネットワーク速度を制限したりすることができます。このインターフェイスには、ルーターの管理パネルのサイドメニューにある **クライアント** をクリックしてアクセスできます。
+ワイヤレス設定では、メイン Wi-Fi とゲスト Wi-Fi のネットワークセキュリティを管理できます。サイドメニューの **WIRELESS** からアクセスできます。
 
-[デバイスクライアントの管理については、こちらをクリックしてください。](../../interface_guide/clients.md)
-
----
-
-## Thread Mesh
-
-Please refer to [Thread Mesh](https://docs.gl-inet.com/iot/en/thread_board_router/gl-s200/thread_mesh/) on IoT Docs.
+[ワイヤレス設定の詳細はこちら](../../interface_guide/wireless.md)
 
 ---
 
-## GL Dev Board
+## クライアント {#clients}
 
-Please refer to [GL Dev Board](https://docs.gl-inet.com/iot/en/iot_dev_board/) on IoT Docs.
+クライアントとは、ルーターに接続されているデバイスのことです。クライアントをブロックしたり、ネットワーク速度を制限したりできます。この画面は、ルーターの Web 管理パネルのサイドメニューで **CLIENTS** をクリックすると表示されます。
 
----
-
-## Bluetooth
-
-Please refer to [Bluetooth](https://docs.gl-inet.com/iot/en/thread_board_router/gl-s200/bluetooth/) on IoT Docs.
+[デバイスクライアントの管理の詳細はこちら](../../interface_guide/clients.md)
 
 ---
 
-## VPN
+## Thread Mesh {#thread-mesh}
 
-GL.iNetルーターには、30以上のVPNサービスをサポートするOpenVPNとWireGuard®がプリインストールされています。VPNクライアントを有効にすると、ルーターはVPNポリシー設定に従って、VPNアプリを実行できないデバイスを含むネットワーク上のデバイスのトラフィックを暗号化できます。また、当社のルーターはVPNサーバーとしても機能し、パブリックのインターネットにアクセスする前に、遠隔にあるクライアントデバイスからのトラフィックをVPNトンネル経由でVPNサーバーにリダイレクトします。
+IoT Docs の [Thread Mesh](https://docs.gl-inet.com/iot/en/thread_board_router/gl-s200/thread_mesh/) を参照してください。
 
-### VPN ダッシュボード
+---
+
+## GL Dev Board {#gl-dev-board}
+
+IoT Docs の [GL Dev Board](https://docs.gl-inet.com/iot/en/iot_dev_board/) を参照してください。
+
+---
+
+## Bluetooth {#bluetooth}
+
+IoT Docs の [Bluetooth](https://docs.gl-inet.com/iot/en/thread_board_router/gl-s200/bluetooth/) を参照してください。
+
+---
+
+## VPN {#vpn}
+
+GL.iNet ルーターには、30 以上の VPN サービスに対応した OpenVPN と WireGuard® がプリインストールされています。VPN クライアントを有効にすると、ルーターは VPN ポリシー設定に従って、VPN アプリを実行できないデバイスを含むネットワーク上のデバイスのトラフィックを暗号化できます。また、GL.iNet ルーターは VPN サーバーとしても動作し、リモート拠点にあるクライアントデバイスからのトラフィックを、公開インターネットへアクセスする前に VPN トンネル経由で VPN サーバーへ転送できます。
+
+### VPN ダッシュボード {#vpn-dashboard}
 
 - [**VPN ダッシュボード**](../../interface_guide/vpn_dashboard_v4.7.md)
 
-### OpenVPN
+### OpenVPN {#openvpn}
 
-セットアップの手順については、以下のリンクをご参照ください：
+セットアップ手順については、以下のリンクを参照してください。
 
 - [**OpenVPN クライアントのセットアップ**](../../interface_guide/openvpn_client.md)
 - [**OpenVPN サーバーのセットアップ**](../../interface_guide/openvpn_server.md)
 
-### WireGuard
+### WireGuard {#wireguard}
 
-セットアップの手順については、以下のリンクをご参照ください：
+セットアップ手順については、以下のリンクを参照してください。
 
 - [**WireGuard クライアントのセットアップ**](../../interface_guide/wireguard_client.md)
 - [**WireGuard サーバーのセットアップ**](../../interface_guide/wireguard_server.md)
 
 ---
 
-## アプリケーション
+## アプリケーション {#applications}
 
-GL.iNetルーターには、デバイス管理の簡素化、ユーザーのインターネット体験の向上、ファームウェアの自動更新など、幅広いアドオン機能が含まれています。
+GL.iNet ルーターには、デバイス管理の簡素化、インターネット利用体験の向上、ファームウェア更新の自動化などに役立つ、幅広い追加機能が用意されています。
 
-### プラグイン
+### プラグイン {#plug-ins}
 
-[**プラグイン**](../../interface_guide/plugins.md)チュートリアルにアクセスしてください。
+[**プラグイン**](../../interface_guide/plugins.md) チュートリアルを参照してください。
 
-### ダイナミックDNS
+### ダイナミックDNS {#dynamic-dns}
 
- [**ダイナミックDNS**](../../interface_guide/ddns.md)チュートリアルにアクセスしてください。
+[**ダイナミックDNS**](../../interface_guide/ddns.md) チュートリアルを参照してください。
 
-### GoodCloud
+### GoodCloud {#goodcloud}
 
- [**GoodCloud**](../../interface_guide/cloud.md)チュートリアルにアクセスしてください。
-
----
-
-## ネットワーク
-
-### ファイアウォール
-
-GL.iNetのルーターは、安全な接続とユーザーによる完全な監視を保証するため、複数のファイヤーウォール機能を備えています。ポート転送、オープンポート、DMZなどのファイアウォールルールを設定することができます。
-
-[GL.iNetルーターのファイアウォールについて詳しくはこちら](../../interface_guide/firewall.md)
-
-### Multi-WAN
-
- [**Multi-WAN**](../../interface_guide/multi-wan.md)チュートリアルにアクセスしてください。
-
-### LAN
-
- [**LAN**](../../interface_guide/lan.md) チュートリアルにアクセスしてください。
-
-### DNS
-
- [**DNS**](../../interface_guide/dns.md) チュートリアルにアクセスしてください。
-
-### IPv6
-
- [**IPv6**](../../interface_guide/ipv6.md) チュートリアルにアクセスしてください。
-
-### MACアドレス
-
-Mac アドレスページは、以前はMacクローンと呼ばれていましたが、v4.2からMacアドレスに変更されました。
-
- [**MACアドレス**](../../interface_guide/mac_address.md)チュートリアルにアクセスしてください。
-
-### IGMPスヌーピング
-
- [**IGMPスヌーピング**](../../interface_guide/igmp_snooping.md) チュートリアルにアクセスしてください。
+[**GoodCloud**](../../interface_guide/cloud.md) チュートリアルを参照してください。
 
 ---
 
-## システム
+## ネットワーク {#network}
 
-### 概要
+### ファイアウォール {#firewall}
 
- [**システム概要**](../../interface_guide/system_overview.md) チュートリアルにアクセスしてください。
+GL.iNet ルーターには、安全な接続を確保し、ユーザーがネットワークを十分に管理できるよう、複数のファイアウォール機能が搭載されています。ポート転送、オープンポート、DMZ などのファイアウォールルールを設定できます。
 
-### アップグレード
+[GL.iNet ルーターのファイアウォールの詳細はこちら](../../interface_guide/firewall.md)
 
-GL.iNet は、パフォーマンスを向上させ、バグを解決し、脆弱性を修正するために、ルーターのファームウェアを定期的にアップデートします。
+### Multi-WAN {#multi-wan_1}
 
- [**アップグレード**](../../interface_guide/upgrade.md) チュートリアルにアクセスしてください。
+[**Multi-WAN**](../../interface_guide/multi-wan.md) チュートリアルを参照してください。
 
-### スケジュールされたタスク
+### LAN {#lan}
 
- [**スケジュールされたタスク**](../../interface_guide/scheduled_tasks.md) チュートリアルにアクセスしてください。
+[**LAN**](../../interface_guide/lan.md) チュートリアルを参照してください。
 
-### 管理者パスワード
+### DNS {#dns}
 
-この機能はv4.5から[**セキュリティ**](../../interface_guide/security.md) に移動されました。
+[**DNS**](../../interface_guide/dns.md) チュートリアルを参照してください。
 
- [**管理者パスワード**](../../interface_guide/admin_password.md) チュートリアルにアクセスしてください。
+### IPv6 {#ipv6}
 
-### タイムゾーン
+[**IPv6**](../../interface_guide/ipv6.md) チュートリアルを参照してください。
 
-  [**タイムゾーン**](../../interface_guide/time_zone.md) チュートリアルにアクセスしてください。
+### MACアドレス {#mac-address}
 
-### トグルボタンの設定
+MAC アドレスページは、以前は「MAC Clone」という名称でしたが、v4.2 以降は「MAC Address」に変更されました。
 
- [**トグルボタンの設定**](../../interface_guide/toggle_button_settings.md) チュートリアルにアクセスしてください。
+[**MACアドレス**](../../interface_guide/mac_address.md) チュートリアルを参照してください。
 
-### ログ
+### IGMPスヌーピング {#igmp-snooping}
 
- [**ログ**](../../interface_guide/log.md) チュートリアルにアクセスしてください。
+[**IGMPスヌーピング**](../../interface_guide/igmp_snooping.md) チュートリアルを参照してください。
 
-### セキュリティ
+---
 
-この機能はv4.5から利用可能です。
+## システム {#system}
 
- [**セキュリティ**](../../interface_guide/security.md) チュートリアルにアクセスしてください。
+### 概要 {#overview}
 
-### ファームウェアをリセット
+[**システム概要**](../../interface_guide/system_overview.md) チュートリアルを参照してください。
 
- [**ファームウェアのリセット**](../../interface_guide/reset_firmware.md) チュートリアルにアクセスしてください。
+### アップグレード {#upgrade}
 
-### 詳細設定
+GL.iNet は、パフォーマンスの向上、バグの修正、脆弱性への対処のため、ルーターのファームウェアを定期的に更新しています。
 
- [**詳細設定**](../../interface_guide/advanced_settings.md) チュートリアルにアクセスしてください。
+[**アップグレード**](../../interface_guide/upgrade.md) チュートリアルを参照してください。
+
+### スケジュールされたタスク {#scheduled-tasks}
+
+[**スケジュールされたタスク**](../../interface_guide/scheduled_tasks.md) チュートリアルを参照してください。
+
+### 管理者パスワード {#admin-password}
+
+この機能は、v4.5 以降 [**セキュリティ**](../../interface_guide/security.md) に移動しました。
+
+[**管理者パスワード**](../../interface_guide/admin_password.md) チュートリアルを参照してください。
+
+### タイムゾーン {#time-zone}
+
+[**タイムゾーン**](../../interface_guide/time_zone.md) チュートリアルを参照してください。
+
+### トグルボタンの設定 {#toggle-button-settings}
+
+[**トグルボタンの設定**](../../interface_guide/toggle_button_settings.md) チュートリアルを参照してください。
+
+### ログ {#log}
+
+[**ログ**](../../interface_guide/log.md) チュートリアルを参照してください。
+
+### セキュリティ {#security}
+
+この機能は v4.5 以降で利用できます。
+
+[**セキュリティ**](../../interface_guide/security.md) チュートリアルを参照してください。
+
+### ファームウェアのリセット {#reset-firmware}
+
+[**ファームウェアのリセット**](../../interface_guide/reset_firmware.md) チュートリアルを参照してください。
+
+### 詳細設定 {#advanced-settings}
+
+[**詳細設定**](../../interface_guide/advanced_settings.md) チュートリアルを参照してください。

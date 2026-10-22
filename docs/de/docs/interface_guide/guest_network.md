@@ -1,4 +1,4 @@
-# Gastnetzwerk
+# Gastnetzwerk {#guest-network}
 
 Die Einstellungen für das Gastnetzwerk wurden seit Firmware v4.5 von [LAN](lan.md) getrennt.
 
@@ -10,7 +10,7 @@ Diese Seite ermöglicht es Ihnen, ein dediziertes Wi-Fi-Netzwerk für Besucher z
 
 Es gibt zwei Bereiche: Grundeinstellungen und DHCP-Server-Einstellungen.
 
-## Grundeinstellungen
+## Grundeinstellungen {#basic-settings}
 
 Sie können das Subnetz innerhalb der privaten IPv4-Adressbereiche festlegen: `192.168.0.0/16`, `172.16.0.0/12`, `10.0.0.0/8`.
 
@@ -36,7 +36,7 @@ Sie können das Subnetz innerhalb der privaten IPv4-Adressbereiche festlegen: `1
 
     Wenn sie aktiviert ist, kann das Gastnetzwerk nicht auf das Upstream-Netzwerk und dessen Subnetz zugreifen.
 
-## DHCP-Server
+## DHCP-Server {#dhcp-server}
 
 Wenn das Gastnetzwerk aktiviert ist, wird dessen DHCP-Server entsprechend ebenfalls aktiviert.
 

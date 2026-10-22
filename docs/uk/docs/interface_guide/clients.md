@@ -6,7 +6,7 @@
 
 ## Назва пристрою {#device-name}
 
-У першому стовпці відображаються назва та тип пристрою, які залежать від імені хоста, заданого користувачем пристрою.
+У першому стовпці відображаються назва та тип пристрою, які залежать від імені хоста пристрою.
 
 ![Назва пристрою](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/device_name.png){class="glboxshadow"}
 
@@ -74,7 +74,7 @@
 
 - **Allowlist**: Підключатися можуть лише пристрої з визначеними MAC-адресами. Цей варіант підходить для пристроїв IoT і керування корпоративними мережами.
 
-Щоб створити список блокування, завантажте його у форматі таблиці Excel у ділянці **(1)** або введіть MAC-адреси вручну в ділянці **(2)**.
+Щоб створити список блокування, імпортуйте список MAC-адрес із файлу в ділянці **(1)** або введіть MAC-адреси вручну в ділянці **(2)**.
 
 ![Створення списку блокування](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/create_blocklist.png){class="glboxshadow"}
 
@@ -84,7 +84,7 @@
 
 ![Імпорт клієнтів](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/import_clients.png){class="glboxshadow"}
 
-Натисніть **Download Import Template**, щоб завантажити таблицю XLS із назвою «mac-template.csv».
+Натисніть **Download Import Template**, щоб завантажити файл шаблону з назвою «mac-template.csv».
 
 ![Завантаження шаблону](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/download_template.png){class="glboxshadow"}
 

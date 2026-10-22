@@ -1,6 +1,6 @@
-# GL.iNetルーターのファームウェアをダウンロードする方法
+# GL.iNetルーターのファームウェアをダウンロードする方法 {#how-to-download-the-firmware-for-my-glinet-router}
 
-ルーターをアップデートしたい場合（またはU-Boot経由でブリック問題を解決したい場合）、以下の手順でファームウェアファイルをダウンロードします：
+ルーターをアップデートする場合（またはU-Bootでデブリックする場合）は、以下の手順でファームウェアファイルをダウンロードします。
 
 1. [GL.iNetファームウェアダウンロードセンター](https://dl.gl-inet.com)で、検索バーからルーターモデルを選択します。
 2. 上部のタブを選択します：
@@ -11,4 +11,4 @@
 
 ---
 
-まだご質問はありますか？[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}または[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}をご覧ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

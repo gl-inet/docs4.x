@@ -1,4 +1,4 @@
-# ¿Qué debo hacer si falla la instalación del perfil eSIM?
+# ¿Qué debo hacer si falla la instalación del perfil eSIM? {#what-should-i-do-if-esim-profile-installation-fails}
 
 Si intenta añadir un perfil eSIM en su router GL.iNet pero la instalación falla, consulte los siguientes pasos de solución de problemas:
 

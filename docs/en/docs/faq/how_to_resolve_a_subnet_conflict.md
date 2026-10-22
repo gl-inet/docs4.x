@@ -1,4 +1,4 @@
-# How to resolve a LAN subnet conflict?
+# How to resolve a LAN subnet conflict? {#how-to-resolve-a-lan-subnet-conflict}
 
 When you plug an ethernet cable from home router to the WAN port of GL.iNet router, sometimes you might see this message:
 
@@ -10,7 +10,7 @@ It is because your home router is using the same LAN IP of GL.iNet router, and t
 
 Follow the steps below to change the LAN subnet.
 
-## 1. Change LAN Subnet
+## 1. Change LAN Subnet {#1-change-lan-subnet}
 
 Please click the hyperlink **Change LAN Subnet** and it will re-direct you to the **LAN** setup page.
 
@@ -22,7 +22,7 @@ After changing, wait a few seconds and the page will be refreshed and automatica
 
 If the page is not redirected, proceed to the next step.
 
-## 2. Login with New LAN IP
+## 2. Login with New LAN IP {#2-login-with-new-lan-ip}
 
 Manually enter the changed LAN IP in the address bar and press Enter.
 

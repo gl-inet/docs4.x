@@ -1,4 +1,4 @@
-# ESCLUSIONE DI RESPONSABILITÀ PER IL SUPPORTO REMOTO
+# ESCLUSIONE DI RESPONSABILITÀ PER IL SUPPORTO REMOTO {#remote-support-disclaimer}
 
 Gentile utente,
 
@@ -10,7 +10,7 @@ Prima di procedere con qualsiasi connessione remota, leggi attentamente questa d
 
 Se non accetti i termini della presente esclusione di responsabilità, l'accesso remoto non verrà avviato. Proseguendo con la connessione remota, dichiari di aver compreso pienamente e di accettare questi termini.
 
-## I. Finalità della connessione remota
+## I. Finalità della connessione remota {#i-purpose-of-remote-connection}
 
 Utilizziamo la connessione remota esclusivamente per assisterti nella risoluzione di problemi tecnici relativi ai prodotti e ai servizi GL.iNet, inclusi, a titolo esemplificativo ma non esaustivo:
 
@@ -20,7 +20,7 @@ Utilizziamo la connessione remota esclusivamente per assisterti nella risoluzion
 
 Ci impegniamo a non visualizzare, raccogliere, archiviare o diffondere i tuoi dati personali e riservati, file o qualsiasi altro dato non correlato al supporto tecnico per i prodotti e i servizi GL.iNet, né installeremo software senza il tuo consenso.
 
-## II. Ambito dell'autorizzazione
+## II. Ambito dell'autorizzazione {#ii-authorized-scope}
 
 Per facilitare la risoluzione dei problemi, ci autorizzi a:
 
@@ -36,7 +36,7 @@ Per facilitare la risoluzione dei problemi, ci autorizzi a:
 
     Dopo l'erogazione del servizio tramite AnyDesk, AnyDesk potrebbe conservare i log delle operazioni. Per maggiori dettagli, consulta [Anydesk Privacy Policy](https://anydesk.com.cn/en/privacy){target="blank"}.
 
-## III. Diritti e obblighi dell'utente
+## III. Diritti e obblighi dell'utente {#iii-user-rights-and-obligations}
 
 1. **Diritto di monitoraggio e interruzione**
 
@@ -54,7 +54,7 @@ Per facilitare la risoluzione dei problemi, ci autorizzi a:
 
     Non devi richiederci di gestire o risolvere problemi che vadano oltre l'ambito autorizzato o che non siano correlati ai nostri prodotti o servizi.
 
-## IV. Esclusione di responsabilità
+## IV. Esclusione di responsabilità {#iv-disclaimer}
 
 GL.iNet e il suo personale di supporto tecnico non potranno essere ritenuti responsabili nelle seguenti situazioni:
 
@@ -82,11 +82,11 @@ GL.iNet e il suo personale di supporto tecnico non potranno essere ritenuti resp
 
     Comprendi e accetti che la connessione remota è soltanto un metodo di supporto ausiliario per la risoluzione dei problemi. GL.iNet non garantisce la risoluzione di tutti i problemi tecnici né che il servizio soddisfi tutte le tue esigenze.
 
-## V. Risoluzione delle controversie
+## V. Risoluzione delle controversie {#v-dispute-resolution}
 
 La costituzione, la validità, l'esecuzione e l'interpretazione della presente dichiarazione, nonché eventuali controversie correlate, saranno disciplinate dalle leggi di Hong Kong, Cina (escluse le norme sul conflitto di leggi). In caso di controversia tra te e noi, entrambe le parti cercheranno innanzitutto di risolverla tramite negoziazione amichevole. Se la negoziazione non avrà esito positivo, accetti di sottoporre la controversia alla giurisdizione dei tribunali di Hong Kong, Cina.
 
-## VI. Altro
+## VI. Altro {#vi-other}
 
 1. GL.iNet si riserva il diritto di modificare la presente esclusione di responsabilità in base alle circostanze effettive e di pubblicare tali modifiche sul proprio sito web ufficiale senza ulteriore preavviso.
 

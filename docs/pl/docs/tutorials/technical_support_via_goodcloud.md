@@ -1,8 +1,8 @@
-# Wsparcie techniczne przez GoodCloud
+# Wsparcie techniczne przez GoodCloud {#technical-support-via-goodcloud}
 
 Czasami konieczne jest udostępnienie urządzenia przez GoodCloud, aby uzyskać wsparcie techniczne od GL.iNet. Ten przewodnik pokazuje, jak udostępnić urządzenie zespołowi wsparcia technicznego GL.iNet.
 
-## Włącz GoodCloud i zdalny dostęp
+## Włącz GoodCloud i zdalny dostęp {#enable-goodcloud-and-remote-access}
 
 Przed udostępnieniem urządzenia zespołowi wsparcia technicznego GL.iNet upewnij się, że router ma dodatkowe połączenie z internetem zapewniające stabilność. Skonfiguruj połączenie Ethernet lub Repeater jako zapasowe połączenie failover i sprawdź, czy działa prawidłowo.
 
@@ -10,7 +10,7 @@ Następnie zaloguj się do panelu administracyjnego WWW routera, aby włączyć 
 
 Wybierz instrukcję odpowiadającą wersji firmware urządzenia, aby włączyć GoodCloud i zdalny dostęp.
 
-??? "Dla firmware w wersji 4.10"
+??? "Dla firmware w wersji 4.10 i nowszej"
 
     Przejdź do **CLOUD SERVICES** -> **GoodCloud** i kliknij **Get Started**.
 
@@ -42,7 +42,7 @@ Wybierz instrukcję odpowiadającą wersji firmware urządzenia, aby włączyć 
 
     ![enable GoodCloud 4.6](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/enable_goodcloud_v4.6.x.png){class="glboxshadow"}
 
-## Zaloguj się do konta Cloud i powiąż urządzenie
+## Zaloguj się do konta Cloud i powiąż urządzenie {#log-in-cloud-account-and-bind-device}
 
 Jeśli router działa z firmware v4.7 lub nowszym, możesz zarejestrować konto w panelu administracyjnym WWW routera i zalogować się bezpośrednio. Po zalogowaniu bieżące urządzenie zostanie automatycznie powiązane z Twoim kontem Cloud. 
 
@@ -50,9 +50,9 @@ Jeśli router działa z firmware v4.6 lub starszym, wykonaj poniższe kroki, aby
 
 1. Otwórz [GoodCloud](https://www.goodcloud.xyz){target="_blank"} i zaloguj się do swojego konta. Jeśli nie masz konta, najpierw je zarejestruj.
 
-2. Powiąż urządzenie z GoodCloud. Skorzystaj z [tego linku](../interface_guide/cloud.md#add-device-in-your-account).
+2. Powiąż urządzenie z GoodCloud. Zobacz [Powiązywanie urządzeń z chmurą](../interface_guide/cloud.md#bind-devices-to-cloud).
 
-## Udostępnij urządzenie zespołowi wsparcia technicznego GL.iNet
+## Udostępnij urządzenie zespołowi wsparcia technicznego GL.iNet {#share-device-with-glinet-technical-support}
 
 1. Otwórz [GoodCloud](https://www.goodcloud.xyz){target="_blank"} i zaloguj się.
 
@@ -74,7 +74,7 @@ Jeśli router działa z firmware v4.6 lub starszym, wykonaj poniższe kroki, aby
 
 2. Aby zwiększyć bezpieczeństwo hasła, zalecamy zmianę hasła logowania do panelu administracyjnego WWW na tymczasowe przed udostępnieniem urządzenia zespołowi wsparcia GL.iNet. Po zakończeniu diagnostyki możesz przywrócić swoje zwykłe hasło.
 
-## Przekaż informacje zespołowi wsparcia technicznego GL.iNet
+## Przekaż informacje zespołowi wsparcia technicznego GL.iNet {#provide-information-to-glinet-technical-support}
 
 Po udostępnieniu urządzenia przekaż odpowiedniemu pracownikowi wsparcia technicznego GL.iNet przez e-mail lub prywatną wiadomość na forum **adres MAC** routera oraz **hasło administratora**, aby umożliwić zdalną diagnostykę. 
 

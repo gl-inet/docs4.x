@@ -1,10 +1,10 @@
-# Comprendre les antennes cellulaires externes
+# Comprendre les antennes cellulaires externes {#understanding-external-cellular-antennas}
 
 Les antennes cellulaires externes peuvent améliorer la qualité de votre connexion cellulaire dans certaines situations, mais elles ne garantissent pas une augmentation des débits de téléchargement ou d’envoi.
 
 Ce guide explique quand une antenne externe peut être utile, comment choisir une antenne compatible et quels facteurs influencent les performances cellulaires.
 
-## Quand utiliser une antenne externe ?
+## Quand utiliser une antenne externe ? {#when-should-i-use-an-external-antenna}
 
 Une antenne externe peut améliorer votre connexion si le routeur est installé dans un endroit où les signaux cellulaires sont affaiblis avant d’atteindre l’appareil.
 
@@ -19,7 +19,7 @@ Exemples courants :
 
 Avant d’acheter une antenne, essayez de déplacer le routeur près d’une fenêtre ou dans un emplacement plus élevé. Dans de nombreux cas, le simple déplacement du routeur peut améliorer nettement la qualité du signal.
 
-## Quand une antenne externe n’est-elle pas utile ?
+## Quand une antenne externe n’est-elle pas utile ? {#when-wont-an-external-antenna-help}
 
 Une antenne externe ne peut pas résoudre tous les problèmes de connectivité cellulaire.
 
@@ -34,7 +34,7 @@ Elle peut apporter peu ou pas d’amélioration si :
 
 Un signal plus fort n’entraîne pas toujours des vitesses Internet plus élevées.
 
-## Choisir la bonne antenne
+## Choisir la bonne antenne {#choosing-the-right-antenna}
 
 Avant d’acheter une antenne, assurez-vous qu’elle est compatible avec votre routeur et avec votre opérateur mobile.
 
@@ -47,7 +47,7 @@ Vérifiez les points suivants :
 
 Consultez la documentation produit de votre routeur pour connaître le type de connecteur d’antenne approprié.
 
-## Comprendre le MIMO
+## Comprendre le MIMO {#understanding-mimo}
 
 La plupart des réseaux LTE et 5G modernes utilisent la technologie **Multiple Input Multiple Output (MIMO)** pour améliorer le débit et la fiabilité de la connexion.
 
@@ -61,7 +61,7 @@ Pour obtenir les meilleures performances :
 
 Utiliser une seule antenne sur un routeur conçu pour plusieurs antennes peut réduire les performances globales.
 
-## Gain d’antenne et perte de câble
+## Gain d’antenne et perte de câble {#antenna-gain-and-cable-loss}
 
 Le gain d’antenne est généralement mesuré en **dBi**.
 
@@ -77,9 +77,9 @@ Pour de meilleurs résultats :
 - Évitez les adaptateurs inutiles.
 - Utilisez un câble coaxial à faible perte pour les longues distances.
 
-## Antennes omnidirectionnelles et directionnelles
+## Antennes omnidirectionnelles et directionnelles {#omnidirectional-vs-directional-antennas}
 
-### Antennes omnidirectionnelles
+### Antennes omnidirectionnelles {#omnidirectional-antennas}
 
 Les antennes omnidirectionnelles reçoivent les signaux depuis toutes les directions.
 
@@ -90,7 +90,7 @@ Elles sont généralement recommandées pour :
 - Les installations mobiles
 - Les zones avec plusieurs stations proches
 
-### Antennes directionnelles
+### Antennes directionnelles {#directional-antennas}
 
 Les antennes directionnelles concentrent la réception vers une direction précise.
 
@@ -103,7 +103,7 @@ Elles sont généralement recommandées lorsque :
 
 Les antennes directionnelles nécessitent généralement un alignement précis pour offrir les meilleures performances.
 
-## Mesurer l’amélioration
+## Mesurer l’amélioration {#measuring-improvement}
 
 Ne vous fiez pas uniquement aux barres de signal affichées dans l’interface du routeur.
 
@@ -119,27 +119,27 @@ Mesures utiles :
 
 Effectuez plusieurs tests de débit dans des conditions similaires, car les performances cellulaires varient naturellement au cours de la journée.
 
-## Questions fréquentes
+## Questions fréquentes {#frequently-asked-questions}
 
-### Puis-je utiliser n’importe quelle antenne cellulaire ?
+### Puis-je utiliser n’importe quelle antenne cellulaire ? {#can-i-use-any-cellular-antenna}
 
 Non.
 
 L’antenne doit utiliser le bon type de connecteur et prendre en charge les bandes de fréquence cellulaires utilisées par votre routeur et votre opérateur mobile.
 
-### Dois-je acheter l’antenne ayant le gain le plus élevé ?
+### Dois-je acheter l’antenne ayant le gain le plus élevé ? {#should-i-buy-the-highest-gain-antenna-available}
 
 Pas nécessairement.
 
 Choisissez une antenne adaptée à votre installation plutôt qu’en fonction uniquement du gain annoncé.
 
-### Une antenne externe augmente-t-elle toujours ma vitesse Internet ?
+### Une antenne externe augmente-t-elle toujours ma vitesse Internet ? {#will-an-external-antenna-always-increase-my-internet-speed}
 
 Non.
 
 Les performances dépendent de nombreux facteurs, notamment la qualité du signal, l’agrégation de porteuses, la congestion de la station cellulaire, les conditions du réseau et votre opérateur mobile.
 
-### Les antennes cellulaires internes restent-elles utilisées lorsque des antennes externes sont connectées ?
+### Les antennes cellulaires internes restent-elles utilisées lorsque des antennes externes sont connectées ? {#will-the-internal-cellular-antennas-still-be-used-when-external-antennas-are-connected}
 
 Non.
 
@@ -147,7 +147,7 @@ Sur les routeurs cellulaires GL.iNet dotés de ports d’antenne cellulaire exte
 
 Pour obtenir les meilleures performances, connectez tous les câbles d’antenne externe requis. Connecter un seul câble à un routeur conçu pour plusieurs antennes cellulaires peut réduire les performances MIMO et la qualité globale de la connexion.
 
-### Puis-je connecter une antenne Wi-Fi à un port d’antenne cellulaire ?
+### Puis-je connecter une antenne Wi-Fi à un port d’antenne cellulaire ? {#can-i-connect-a-wi-fi-antenna-to-a-cellular-antenna-port}
 
 Non.
 
@@ -155,7 +155,7 @@ Les antennes Wi-Fi et cellulaires sont conçues pour des systèmes radio différ
 
 ---
 
-## Tutoriels associés
+## Tutoriels associés {#related-tutorials}
 
 - [Installer ou remplacer des antennes externes](how_to_install_or_change_antennas.md)
 - [Vérifier l’état de l’agrégation de porteuses](how_to_check_carrier_aggregation.md)

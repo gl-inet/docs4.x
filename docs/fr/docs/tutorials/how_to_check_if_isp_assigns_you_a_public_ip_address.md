@@ -1,4 +1,4 @@
-# Comment vérifier si vous avez une adresse IP publique
+# Comment vérifier si vous avez une adresse IP publique {#how-to-check-if-you-have-a-public-ip-address}
 
 Une adresse IP publique, contrairement à une adresse IP privée, est un identifiant numérique unique attribué à vos appareils connectés à Internet. Vous aurez besoin d'une adresse IP publique si vous souhaitez héberger un site web, configurer un serveur VPN ou fournir des services en ligne. Votre fournisseur d'accès à Internet vous en attribue généralement une. 
 

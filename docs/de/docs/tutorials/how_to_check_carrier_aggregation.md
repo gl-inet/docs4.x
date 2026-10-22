@@ -1,4 +1,4 @@
-# So prüfen Sie den Carrier-Aggregation-Status an Ihrem Mobilfunkrouter
+# So prüfen Sie den Carrier-Aggregation-Status an Ihrem Mobilfunkrouter {#how-to-check-the-carrier-aggregation-status-on-your-cellular-router}
 
 Carrier Aggregation kombiniert mehrere Netzbänder, um für Ihre Mobilfunkverbindung mehr Bandbreite und höhere Geschwindigkeiten bereitzustellen.
 

@@ -1,4 +1,4 @@
-# Se connecter à Internet via le réseau cellulaire (v4.7 et versions antérieures)
+# Se connecter à Internet via le réseau cellulaire (v4.7 et versions antérieures) {#connect-to-the-internet-via-cellular-v47-and-earlier}
 
 Le contenu de cette page est basé sur les versions de firmware v4.7 et antérieures. Si votre appareil utilise une autre version de firmware, utilisez le sélecteur ci-dessous pour passer au guide correspondant.
 
@@ -37,7 +37,7 @@ Nous vous recommandons d'éteindre d'abord le routeur. Insérez une carte SIM pr
 
 Si vous branchez le modem USB après le démarrage du routeur, le panneau d'administration web peut ne pas se mettre à jour automatiquement. Dans ce cas, actualisez la page ou redémarrez le routeur.
 
-### Configuration automatique
+### Configuration automatique {#auto-setup}
 
 Connectez-vous au panneau d'administration web du routeur, puis accédez à **INTERNET** -> **Cellular**.
 
@@ -89,33 +89,32 @@ L'application des modifications déclenchera une reconnexion.
 
 - **Authentication** : choisissez la méthode d'authentification requise par votre opérateur (par exemple NONE, PAP, CHAP). Elle est généralement définie sur NONE si aucun identifiant n'est nécessaire.
 
-### Modems compatibles
+### Modems compatibles {#compatible-modems}
 
 Voici la liste des modems pris en charge que nous avons déjà testés.
 
 **SIMPoYo uFi** est une clé USB plug & play compacte avec hotspot Wi‑Fi intégrée, conçue pour offrir une connectivité rapide et fiable partout. Elle fonctionne de manière transparente avec la plupart des routeurs GL.iNet, ainsi qu'avec les ordinateurs portables, batteries externes, ports USB de voiture et autres sources d'alimentation USB. Elle comprend 10 Go de données gratuites pendant 30 jours, valables au Royaume-Uni et dans 34 pays européens.
 
-| Modèle                                 | Cellulaire | Testé | Testé par       | Commentaires* |
-| -------------------------------------- | ---------- | ----- | --------------- | ------------- |
-| [SIMPoYo SP-N150C4](https://www.gl-inet.com/campaign/simpoyo-ufi/) | 4G    | Oui   | GL.iNet         |           |
-| Quectel RM520N-GL                      | 5G    | Oui   | GL.iNet         |           |
-| Quectel EC20-E, EC20-A, EC20-C         | 4G    | Oui   | GL.iNet         |           |
-| Quectel EC25-E, EC25-A, EC25-V, EC25-C | 4G    | Oui   | GL.iNet         |           |
-| Quectel EC200A series                  | 4G    | Oui   | akw2312         | Host-less |
-| Quectel EP06-E, EP06-A                 | 4G    | Oui   | anonymous       |           |
-| Quectel EM060K-GL, EM120K-GL           | 4G    | Oui   | anonymous       |           |
-| Quectel EM120R-GL, EM160R-GL           | 4G    | Oui   | anonymous       |           |
-| Huawei E3276                           | 4G    | Oui   | GL.iNet         |           |
-| Huawei E3372                           | 4G    | Oui   | anonymous       |           |
-| Huawei E3372h-153                      | 4G    | Oui   | GL.iNet         | Host-less |
-| Huawei E3372h-320 (Ukraine)            | 4G    | Oui   | anonymous       | Host-less |
-| Huawei E3372h-607                      | 4G    | Oui   | GL.iNet         |           |
-| Huawei K5161h                          | 4G    | Oui   | anonymous       |           |
-| ZTE MF833U1                            | 4G    | Oui   | anonymous       | Host-less |
-| ZTE MF79U                              | 4G    | Oui   | GL.iNet         | Host-less |
-| ZTE M823                               | 4G    | Oui   | Arnas Risqianto |           |
-| MeiG O4H13 (Qualcomm MDM9207)          | 4G    | Oui   | GL.iNet         | Host-less |
-| XTRONS 4G LTE USB Dongle               | 4G    | Oui   | GL.iNet         | Host-less |
+| Modèle                                 | Cellulaire | Type       | Testé par       | Commentaires* |
+| -------------------------------------- | ---------- | ---------- | --------------- | ------------- |
+| [SIMPoYo SP-N150C4](https://www.gl-inet.com/campaign/simpoyo-ufi/)  | 4G    | Clé USB    | GL.iNet |           |
+| Quectel RM520N-GL                      | 5G       | Module     | GL.iNet         |           |
+| Quectel EC20-E, EC20-A, EC20-C         | 4G       | Module     | GL.iNet         |           |
+| Quectel EC25-E, EC25-A, EC25-V, EC25-C | 4G       | Module     | GL.iNet         |           |
+| Quectel EC200A series                  | 4G       | Module     | akw2312         | Host-less |
+| Quectel EP06-E, EP06-A                 | 4G       | Module     | anonymous       |           |
+| Quectel EM060K-GL, EM120K-GL           | 4G       | Module     | anonymous       |           |
+| Quectel EM120R-GL, EM160R-GL           | 4G       | Module     | anonymous       |           |
+| Huawei E3276                           | 4G       | Clé USB    | GL.iNet         |           |
+| Huawei E3372h-153                      | 4G       | Clé USB    | GL.iNet         | Host-less |
+| Huawei E3372h-320 (Ukraine)            | 4G       | Clé USB    | anonymous       | Host-less |
+| Huawei E3372h-607                      | 4G       | Clé USB    | GL.iNet         |           |
+| Huawei K5161h                          | 4G       | Clé USB    | anonymous       |           |
+| ZTE MF833U1                            | 4G       | Clé USB    | anonymous       | Host-less |
+| ZTE MF79U                              | 4G       | Clé USB    | GL.iNet         | Host-less |
+| ZTE M823                               | 4G       | Clé USB    | Arnas Risqianto |           |
+| MeiG O4H13 (Qualcomm MDM9207)          | 4G       | Clé USB    | GL.iNet         | Host-less |
+| XTRONS 4G LTE USB Dongle               | 4G       | Clé USB    | GL.iNet         | Host-less |
 
 - **QMI** : ce modem prend en charge le mode QMI. Veuillez sélectionner QMI comme protocole et **/dev/cdc-wdm0** comme port série sur votre routeur cellulaire.
 
@@ -129,7 +128,7 @@ Nous prenons ici le **GL-X3000 (Spitz AX)** comme exemple. Il prend en charge le
 
 Nous vous recommandons d'éteindre d'abord le routeur, d'insérer vos cartes SIM préactivées dans les emplacements, puis de le rallumer. Si vous insérez la carte SIM après le démarrage du routeur, le panneau d'administration web peut ne pas se mettre à jour automatiquement. Dans ce cas, actualisez la page ou redémarrez le routeur.
 
-### Configuration automatique
+### Configuration automatique {#auto-setup_1}
 
 Connectez-vous au panneau d'administration web du routeur, puis accédez à **INTERNET** -> **Cellular**.
 
@@ -145,7 +144,7 @@ Connectez-vous au panneau d'administration web du routeur, puis accédez à **IN
 
 S'il ne se connecte pas automatiquement, cliquez sur **Auto Setup** et attendez que le routeur se connecte, ou essayez **Manual Setup**.
 
-### Configuration manuelle
+### Configuration manuelle {#manual-setup_1}
 
 Dans la section Cellular, cliquez sur **Manual Setup** pour accéder à Cellular Settings.
 
@@ -153,7 +152,7 @@ Dans la section Cellular, cliquez sur **Manual Setup** pour accéder à Cellular
 
 Vous pouvez afficher ou modifier les paramètres cellulaires de la carte SIM actuelle. La page stocke également certains profils préconfigurés et vous permet d'ajouter manuellement des configurations dans **Saved Settings**.
 
-### Paramètres des emplacements de carte SIM
+### Paramètres des emplacements de carte SIM {#sim-card-slot-settings}
 
 Dans la section Cellular, cliquez sur **Current SIM Card**.
 
@@ -189,7 +188,7 @@ Si deux cartes SIM sont insérées, vous pouvez activer **Auto Switch**.
 
 **Remarque** : la fonction **Auto Switch** ne bascule pas immédiatement vers une autre carte SIM. D'une part, l'appareil a besoin de temps pour confirmer que la carte SIM actuelle ne peut pas accéder à Internet. D'autre part, l'autre carte SIM n'est pas en veille et nécessite un certain temps pour s'activer.
 
-## Statistiques de trafic
+## Statistiques de trafic {#traffic-statistics}
 
 Dans la section Cellular, cliquez sur **Traffic Statistics**.
 
@@ -199,15 +198,15 @@ Vous accéderez à la page Traffic Statistics.
 
 ![traffic statistics](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/dual_sim/traffic_statistics.png){class="glboxshadow gl-90-desktop"}
 
-## SMS
+## SMS {#sms}
 
 Veuillez consulter [SMS](../tutorials/sms.md).
 
-## SMS Forwarding
+## SMS Forwarding {#sms-forwarding}
 
 Veuillez consulter [SMS Forwarding](../tutorials/sms_forwarding.md).
 
-## Modem Management
+## Modem Management {#modem-management}
 
 Dans la section Cellular, cliquez sur le bouton **Tool** en haut à droite pour accéder à la page Modem Management.
 
@@ -239,7 +238,7 @@ Les commandes prédéfinies suivantes sont disponibles :
 
 ![shortcut example](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/at_command_3.png){class="glboxshadow"}
 
-## Profil d'opérateur
+## Profil d'opérateur {#carrier-profile}
 
 Vous pouvez enregistrer différents profils pour un même opérateur ou pour des opérateurs différents.
 
@@ -263,7 +262,7 @@ Choisissez les profils dont vous avez besoin.
 
 ![chooseprofile](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/carrier_profile/choose_profile.jpg){class="glboxshadow"}
 
-## Verrouillage d'antenne relais
+## Verrouillage d'antenne relais {#lock-tower}
 
 Cette fonctionnalité est disponible uniquement sur certains modèles, notamment GL-X3000, GL-XE3000 et GL-X2000 (firmware v4.7 ou version ultérieure).
 
@@ -295,7 +294,7 @@ L'état de l'antenne relais (par exemple Locked/Unlocked) s'affichera en haut.
 
 3. Après avoir verrouillé une antenne relais, si vous déplacez le routeur vers un autre emplacement, il tentera toujours de se reconnecter à l'antenne relais verrouillée après redémarrage. Cela peut empêcher le routeur de se connecter automatiquement au réseau cellulaire dans le nouvel emplacement. Dans ce cas, vous devrez soit déverrouiller l'antenne relais actuelle, soit la verrouiller manuellement sur une nouvelle antenne relais.
 
-## Historique du signal
+## Historique du signal {#historical-signal-record}
 
 Dans la section Cellular, cliquez sur l'icône **Signal** en haut à droite pour consulter l'historique de la puissance du signal.
 
@@ -307,7 +306,7 @@ Vous pouvez afficher l'historique de la puissance du signal cellulaire en sélec
 
 ![historical_signal_record1](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/historical_signal_record_2.jpg){class="glboxshadow"}
 
-## Masquage de bandes
+## Masquage de bandes {#band-masking}
 
 Dans la section Cellular, cliquez sur **View More** et sélectionnez **Cells Info** pour vérifier les détails des cellules.
 
@@ -323,7 +322,7 @@ Cliquez sur **Manual Setup** pour accéder à la page Cellular Settings, puis ac
 
 Sélectionnez le **Masking Mode** (Block ou Open), puis choisissez les bandes LTE, les bandes 5G NSA et les bandes 5G SA.
 
-## Dépannage
+## Dépannage {#troubleshooting}
 
 Si vous ne parvenez pas à établir une connexion cellulaire, cliquez sur le message d'erreur ci-dessous pour consulter les solutions correspondantes.
 
@@ -365,9 +364,9 @@ Si vous ne parvenez pas à établir une connexion cellulaire, cliquez sur le mes
 
     Si le problème persiste, téléchargez les journaux et envoyez-les à [support@gl-inet.com](mailto:support@gl-inet.com).
 
-## Certification IoT
+## Certification IoT {#iot-certification}
 
-### Certification AT&T
+### Certification AT&T {#att-certification}
 
 Cliquez sur le lien [att device certification](https://iotdevices.att.com/certified-devices.aspx#) et saisissez le nom de l'appareil pour le trouver. 
 
@@ -375,7 +374,7 @@ Cliquez sur le lien [att device certification](https://iotdevices.att.com/certif
 
 ![bandmasking](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/certification/at&t_certification_2.png){class="glboxshadow"}
 
-### Certification T-Mobile
+### Certification T-Mobile {#t-mobile-certification}
 
 Cliquez sur le lien [t-mobile device certification](https://www.t-mobile.com/business/solutions/iot/device-certification){target="_blank"} et choisissez 5G dans **Filter** pour le trouver.
 

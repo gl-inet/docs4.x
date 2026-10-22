@@ -1,6 +1,6 @@
-# GL.iNet ルーターで OpenVPN クライアントを設定する {#setup-openvpn-client}
+# GL.iNet ルーターで OpenVPN クライアントを設定する {#set-up-openvpn-client-on-glinet-routers}
 
-OpenVPN は、仮想プライベートネットワーク技術を用いて安全な site-to-site 接続または point-to-point 接続を確立する、オープンソースの VPN プロトコルです。
+OpenVPN は、仮想プライベートネットワーク技術を用いて安全なサイトツーサイト接続またはポイントツーポイント接続を確立する、オープンソースの VPN プロトコルです。
 
 GL.iNet ルーターで OpenVPN クライアントを設定するには、以下の動画を見るか、下記の手順を参照してください。
 
@@ -132,7 +132,7 @@ GL.iNet ルーターの管理パネルには NordVPN のクイック設定が統
 
     接続の詳細は **VPN Dashboard** でも確認できます。
 
-## GL.iNet ルーターで OpenVPN サーバーを設定する
+## GL.iNet ルーターで OpenVPN サーバーを設定する {#set-up-openvpn-server-on-glinet-router}
 
 GL.iNet ルーターが 2 台ある場合は、1 台を OpenVPN サーバー（パブリック IP が必要）、もう 1 台を OpenVPN クライアントとして設定できます。これにより、サードパーティーの VPN サービスを契約しなくても、自分専用の VPN 接続を構築できます。
 
@@ -145,7 +145,7 @@ OpenVPN サーバーの設定方法は [こちら](openvpn_server.md) を参照�
 契約しているサービスプロバイダーが以下にない場合は、プロバイダーのサポートへお問い合わせください。
 
 ??? "NordVPN"
-    ### NordVPN
+    ### NordVPN {#nordvpn}
 
     [公式サイト](https://go.nordvpn.net/aff_c?offer_id=15&amp;aff_id=12016&amp;url_id=902){target="_blank"}
 
@@ -184,7 +184,7 @@ OpenVPN サーバーの設定方法は [こちら](openvpn_server.md) を参照�
     [モバイルアプリ](../faq/mobile_app.md) を使って NordVPN を設定することもできます。
 
 ??? "AirVPN"
-    ### AirVPN
+    ### AirVPN {#airvpn}
 
     [公式サイト](https://airvpn.org/?referred_by=402389){target="_blank"}
 
@@ -201,7 +201,7 @@ OpenVPN サーバーの設定方法は [こちら](openvpn_server.md) を参照�
         ![download config](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/airvpn/airvpn3.png){class="glboxshadow"}
 
 ??? "Astrill"
-    ### Astrill
+    ### Astrill {#astrill}
 
     [公式サイト](https://www.astrill.com/a/dik2masnw6ig){target="_blank"}
 
@@ -224,7 +224,7 @@ OpenVPN サーバーの設定方法は [こちら](openvpn_server.md) を参照�
         ![download certificate](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/astrillvpn/astrill4.png){class="glboxshadow"}
 
 ??? "BolehVPN"
-    ### BolehVPN
+    ### BolehVPN {#bolehvpn}
 
     [公式サイト](https://www.bolehvpn.net/){target="_blank"}
 
@@ -235,7 +235,7 @@ OpenVPN サーバーの設定方法は [こちら](openvpn_server.md) を参照�
     [参考リンク](https://www.bolehvpn.net/clients-installations/#1487691248224-0c435dba-d612){target="_blank"}
 
 ??? "CactusVPN"
-    ### CactusVPN
+    ### CactusVPN {#cactusvpn}
 
     [公式サイト](https://billing.cactusvpn.com/aff.php?aff=2310){target="_blank"}
 
@@ -244,14 +244,14 @@ OpenVPN サーバーの設定方法は [こちら](openvpn_server.md) を参照�
     ![download cactusvpn openvpn profiles](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/cactusvpn/cactusvpn1.jpg){class="glboxshadow"}
 
 ??? "Cryptostorm"
-    ### Cryptostorm
+    ### Cryptostorm {#cryptostorm}
 
     [公式サイト](https://cryptostorm.is/){target="_blank"}
 
     [こちら](https://cryptostorm.is/configs/ecc/){target="_blank"} から直接ダウンロードします。
 
 ??? "CyberGhost"
-    ### CyberGhost
+    ### CyberGhost {#cyberghost}
 
     [公式サイト](https://www.cyberghostvpn.com/offer/GLiNet_rem6fdij){target="_blank"}
 
@@ -294,11 +294,9 @@ OpenVPN サーバーの設定方法は [こちら](openvpn_server.md) を参照�
         ![save config](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/cyberghost/cyberghost5.png){class="glboxshadow"}
 
 ??? "ExpressVPN"
-    ### ExpressVPN
+    ### ExpressVPN {#expressvpn}
 
-    [公式サイト](https://go.expressvpn.com/c/4130682/1645813/16063){target="_blank"}
-
-    情報は [ExpressVPN 公式手順](https://www.expressvpn.com/support/vpn-setup/manual-config-for-linux-with-openvpn/#download){rel="sponsored" target="_blank"} を参照しています。
+    [公式サイト](https://go.expressvpn.com/c/4130682/1645813/16063){target="_blank"} | [30日間無料で試す](https://www.expressvpn.com/refer-a-friend/30-days-free?referrer_id=97477587){rel="sponsored" target="_blank"}
 
     1. [ExpressVPN](https://go.expressvpn.com/c/4130682/1645813/16063){rel="sponsored" target="_blank"} のサイトへアクセスし、ExpressVPN の認証情報でログインします。
 
@@ -325,7 +323,7 @@ OpenVPN サーバーの設定方法は [こちら](openvpn_server.md) を参照�
     [参考リンク](https://www.expressvpn.com/support/vpn-setup/manual-config-for-linux-with-openvpn/#download){rel="sponsored" target="_blank"}
 
 ??? "FastestVPN"
-    ### FastestVPN
+    ### FastestVPN {#fastestvpn}
 
     [公式サイト](https://go.fastestvpn.com/affiliate/pap?a_aid=5ffd2a3e9d687){target="_blank"}
 
@@ -336,7 +334,7 @@ OpenVPN サーバーの設定方法は [こちら](openvpn_server.md) を参照�
     [参考リンク](https://support.fastestvpn.com/tutorials/routers/gl-inet/openvpn){target="_blank"}
 
 ??? "FinchVPN"
-    ### FinchVPN
+    ### FinchVPN {#finchvpn}
 
     [公式サイト](https://www.finchvpn.com/){target="_blank"}
 
@@ -361,7 +359,7 @@ OpenVPN サーバーの設定方法は [こちら](openvpn_server.md) を参照�
         ![finchvpn](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/finchvpn/finchvpn5.jpg){class="glboxshadow"}
 
 ??? "HideIPVPN"
-    ### HideIPVPN
+    ### HideIPVPN {#hideipvpn}
 
     [公式サイト](https://www.hideipvpn.com/){target="_blank"}
 
@@ -380,7 +378,7 @@ OpenVPN サーバーの設定方法は [こちら](openvpn_server.md) を参照�
         ![hideipvpn client area](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/hideipvpn/openvpn_config_files.jpg){class="glboxshadow"}
 
 ??? "Hide.me VPN"
-    ### Hide.me VPN
+    ### Hide.me VPN {#hideme-vpn}
 
     [公式サイト](https://hide.me/?friend=glinet){target="_blank"}
 
@@ -391,7 +389,7 @@ OpenVPN サーバーの設定方法は [こちら](openvpn_server.md) を参照�
         ![hide.me vpn dashboard](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/hideme/hideme_dashboard.jpg){class="glboxshadow"}
 
 ??? "Hotspot Shield"
-    ### Hotspot Shield
+    ### Hotspot Shield {#hotspot-shield}
 
     [公式サイト](https://trk.aclktrkr.com/aff_c?offer_id=59&aff_id=3722){target="_blank"}
 
@@ -410,7 +408,7 @@ OpenVPN サーバーの設定方法は [こちら](openvpn_server.md) を参照�
     [参考リンク](https://support.hotspotshield.com/hc/en-us/articles/360038538012-How-do-I-install-Hotspot-Shield-on-my-GL-iNet-router){target="_blank"}
 
 ??? "IPVANISH"
-    ### IPVANISH
+    ### IPVANISH {#ipvanish}
 
     [公式サイト](https://affiliate.ipvanish.com/aff_c?offer_id=1&aff_id=3073){target="_blank"}
 
@@ -425,7 +423,7 @@ OpenVPN サーバーの設定方法は [こちら](openvpn_server.md) を参照�
     [参考リンク](https://support.ipvanish.com/hc/en-us/articles/360001329813-Android-OpenVPN-Setup){target="_blank"}
 
 ??? "IVACY"
-    ### IVACY
+    ### IVACY {#ivacy}
 
     [公式サイト](https://billing.ivacy.com/page/22852){target="_blank"}
 
@@ -439,7 +437,7 @@ OpenVPN サーバーの設定方法は [こちら](openvpn_server.md) を参照�
     [参考リンク](https://support.ivacy.com/setup_guide/how-to-setup-ivacy-on-gl-inet-router/){target="_blank"}
 
 ??? "IVPN"
-    ### IVPN
+    ### IVPN {#ivpn}
 
     [公式サイト](https://www.ivpn.net/){target="_blank"}
 
@@ -454,7 +452,7 @@ OpenVPN サーバーの設定方法は [こちら](openvpn_server.md) を参照�
     [参考リンク](https://www.ivpn.net/setup/gnu-linux-terminal.html){target="_blank"}
 
 ??? "OVPN"
-    ### OVPN
+    ### OVPN {#ovpn}
 
     [公式サイト](https://www.ovpn.com/en?ref=glinet){target="_blank"}
 
@@ -469,7 +467,7 @@ OpenVPN サーバーの設定方法は [こちら](openvpn_server.md) を参照�
     ユーザー名とパスワードは、OVPN へのログインに使用するものと同じです。
 
 ??? "OysterVPN"
-    ### OysterVPN
+    ### OysterVPN {#oystervpn}
 
     [公式サイト](https://go.oystervpn.net?a_aid=glinet){target="_blank"}
 
@@ -482,7 +480,7 @@ OpenVPN サーバーの設定方法は [こちら](openvpn_server.md) を参照�
     ヒント: ZIP ファイルが大きすぎてアップロードできない場合は、`.zip` ファイルから一部の `.ovpn` ファイルを削除するか、単一の `.ovpn` ファイルをアップロードしてください。
 
 ??? "PIA (Private Internet Access)"
-    ### PIA
+    ### PIA {#pia}
 
     [公式サイト](https://privateinternetaccess.com/offer/GLiNET_71dx4t8bl){target="_blank"}
 
@@ -491,7 +489,7 @@ OpenVPN サーバーの設定方法は [こちら](openvpn_server.md) を参照�
     ヒント: ZIP ファイルが大きすぎてアップロードできない場合は、`.zip` ファイルから一部の `.ovpn` ファイルを削除するか、単一の `.ovpn` ファイルをアップロードしてください。
 
 ??? "PrivadoVPN"
-    ### PrivadoVPN
+    ### PrivadoVPN {#privadovpn}
 
     [公式サイト](https://privadovpn.com/#a_aid=GLINET){target="_blank"}
 
@@ -502,22 +500,22 @@ OpenVPN サーバーの設定方法は [こちら](openvpn_server.md) を参照�
     ヒント: ZIP ファイルが大きすぎてアップロードできない場合は、`.zip` ファイルから一部の `.ovpn` ファイルを削除するか、単一の `.ovpn` ファイルをアップロードしてください。
 
 ??? "PrivateVPN"
-    ### PrivateVPN
+    ### PrivateVPN {#privatevpn}
 
     [公式サイト](https://affiliate.privatevpn.com/scripts/click.php?a_aid=5e3a511658bc3){target="_blank"}
 
     [こちら](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/privatevpn/PrivateVPN-TUN.zip){target="_blank"} から直接ダウンロードします。
 
-    [Here](https://privatevpn.com/client/PrivateVPN-TUN.zip) は公式ダウンロードリンクです。ルーターへのインポート時の不具合により、zip 内のファイル名に `Bogotá` という特殊文字が含まれていたため、名前を変更したファイルを上記リンクで提供しています。今後のバージョンで修正予定です。
+    [こちら](https://privatevpn.com/client/PrivateVPN-TUN.zip) は公式ダウンロードリンクです。ルーターへのインポート時の不具合により、zip 内のファイル名に `Bogotá` という特殊文字が含まれていたため、名前を変更したファイルを上記リンクで提供しています。今後のバージョンで修正予定です。
 
     ヒント: ZIP ファイルが大きすぎてアップロードできない場合は、`.zip` ファイルから一部の `.ovpn` ファイルを削除するか、単一の `.ovpn` ファイルをアップロードしてください。
 
 ??? "Proton VPN"
-    ### Proton VPN
+    ### Proton VPN {#proton-vpn}
 
     [公式サイト](https://go.getproton.me/aff_c?offer_id=26&aff_id=1612){target="_blank"}
 
-    **Proton VPN は WireGuard サービスも提供しているため、WireGuard の利用を推奨します。[こちら](wireguard_client.md#wireguard-providers) を参照してください。**
+    **Proton VPN は WireGuard サービスも提供しているため、WireGuard の利用を推奨します。[こちら](wireguard_client.md) を参照してください。**
 
     1. [Proton VPN](https://go.getproton.me/aff_c?offer_id=26&aff_id=1612){target="_blank"} のアカウントへログインします。
 
@@ -532,7 +530,7 @@ OpenVPN サーバーの設定方法は [こちら](openvpn_server.md) を参照�
         ![protonvpn openvpn credential](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/protonvpn/protonvpn_openvpn_credential.jpg){class="glboxshadow"}
 
 ??? "PureVPN"
-    ### PureVPN
+    ### PureVPN {#purevpn}
 
     [公式サイト](https://billing.purevpn.com/aff.php?aff=35535){target="_blank"}
 
@@ -550,7 +548,7 @@ OpenVPN サーバーの設定方法は [こちら](openvpn_server.md) を参照�
     GL.iNet ルーターは PureVPN の [dedicated IP](https://www.purevpn.com/dedicated-ip){target="_blank"} 機能をサポートしていません。これは PPTP を必要とするためです。
 
 ??? "SaferVPN"
-    ### SaferVPN
+    ### SaferVPN {#safervpn}
 
     [公式サイト](https://safervpn.com/?a_aid=563){target="_blank"}
 
@@ -559,11 +557,11 @@ OpenVPN サーバーの設定方法は [こちら](openvpn_server.md) を参照�
     ![safervpn openvpn config](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/safervpn/safervpn1.png){class="glboxshadow"}
 
 ??? "StarVPN"
-    ### StarVPN
+    ### StarVPN {#starvpn}
 
     [公式サイト](https://www.starvpn.com/dashboard/aff.php?aff=91){target="_blank"}
 
-    StarVPN は OpenVPN と WireGuard の両方を提供しています。通常は OpenVPN より WireGuard の方が高速なため、WireGuard の利用を推奨します。[こちら](wireguard_client.md#starvpn) を参照してください。
+    StarVPN は OpenVPN と WireGuard の両方を提供しています。通常は OpenVPN より WireGuard の方が高速なため、WireGuard の利用を推奨します。[こちら](wireguard_client.md#set-up-wireguard-client-manually-for-other-providers) を参照してください。
 
     OpenVPN を使いたい場合は、以下の手順で設定ファイルをダウンロードしてください。
 
@@ -588,7 +586,7 @@ OpenVPN サーバーの設定方法は [こちら](openvpn_server.md) を参照�
         ![remove ipv6](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/starvpn/remove_ipv6.png){class="glboxshadow"}
 
 ??? "StreamVPN"
-    ### StreamVPN
+    ### StreamVPN {#streamvpn}
 
     [公式サイト](https://billing.streamvpn.com/account/signup?aff_t=aaf341756f7b94ed3f040f78292b80f1db1adf3318eacb87dd9c4ad4e08fde11a%3A2%3A%7Bs%3A6%3A%22aff_id%22%3Bs%3A6%3A%22645311%22%3Bs%3A6%3A%22off_id%22%3Bi%3A10%3B%7D){target="_blank"}
 
@@ -600,10 +598,10 @@ OpenVPN サーバーの設定方法は [こちら](openvpn_server.md) を参照�
 
         ![streamvpn guide, vpn router](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/streamvpn/streamvpn_guide_router.png){class="glboxshadow"}
 
-    **Note:** ファイル名に "Primary" を含む設定ファイルのみ動作します。
+    **注意:** ファイル名に "Primary" を含む設定ファイルのみ動作します。
 
 ??? "StrongVPN"
-    ### StrongVPN
+    ### StrongVPN {#strongvpn}
 
     [公式サイト](https://strongvpn.com/?tr_aid=5ac44bd241ca7){target="_blank"}
 
@@ -616,7 +614,7 @@ OpenVPN サーバーの設定方法は [こちら](openvpn_server.md) を参照�
         ![strongvpn get config](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/strongvpn/strong_vpn_setup_02.jpg){class="glboxshadow"}
 
 ??? "Surfshark"
-    ### Surfshark
+    ### Surfshark {#surfshark}
 
     [公式サイト](https://get.surfshark.net/aff_c?offer_id=926&aff_id=1400){target="_blank"}
 
@@ -645,16 +643,16 @@ OpenVPN サーバーの設定方法は [こちら](openvpn_server.md) を参照�
     [参考リンク](https://support.surfshark.com/hc/en-us/articles/360011856259-How-to-set-up-Surfshark-on-GL-iNet-router-3-x-firmware-){target="_blank"}
 
 ??? "VPN.AC"
-    ### VPN.AC
+    ### VPN.AC {#vpnac}
 
     [公式サイト](https://vpn.ac/aff.php?aff=1424){target="_blank"}
 
     [こちら](https://vpn.ac/ovpn/) からダウンロードします。
 
-    <img class="glboxshadow" alt="vpn.ac donwoad configuration" src="https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/vpn.ac/vpn.ac1.png" />
+    <img class="glboxshadow" alt="vpn.ac download configuration" src="https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/vpn.ac/vpn.ac1.png" />
 
 ??? "VPNGate"
-    ### VPNGate
+    ### VPNGate {#vpngate}
 
     [公式サイト](https://www.vpngate.net/en/){target="_blank"}
 
@@ -669,7 +667,7 @@ OpenVPN サーバーの設定方法は [こちら](openvpn_server.md) を参照�
         ![VPNGate download page](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/vpngate/vpngate2.png){class="glboxshadow"}
 
 ??? "VPN Unlimited(KeepSolid)"
-    ### VPN Unlimited(KeepSolid)
+    ### VPN Unlimited(KeepSolid) {#vpn-unlimitedkeepsolid}
 
     [公式サイト](https://keepsolid.g2afse.com/click?pid=270&offer_id=7){target="_blank"}
 
@@ -700,14 +698,14 @@ OpenVPN サーバーの設定方法は [こちら](openvpn_server.md) を参照�
         ![vpn unlimited generate configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/vpnunlimited/keepsolid3.png){class="glboxshadow"}
 
 ??? "VyprVPN"
-    ### VyprVPN
+    ### VyprVPN {#vyprvpn}
 
     VyprVPN の OpenVPN ファイルは [こちら](https://support.vyprvpn.com/hc/en-us/articles/360038096131-Where-can-I-find-the-OpenVPN-files-){target="_blank"} から取得できます。
 
     提供される zip には `.ovpn` ファイルを含む 2 つのフォルダー（OpenVPN160 と OpenVPN256）が入っています。zip から OpenVPN160 フォルダーを削除し、通常どおり GL.iNet ルーターへアップロードしてください。
 
 ??? "Windscribe"
-    ### Windscribe
+    ### Windscribe {#windscribe}
 
     [公式サイト](https://windscribe.com/yo/1u2h9ndl){target="_blank"}
 
@@ -722,7 +720,7 @@ OpenVPN サーバーの設定方法は [こちら](openvpn_server.md) を参照�
     4. その後、[こちらのガイド](../interface_guide/openvpn_client.md#set-up-openvpn-client-manually-for-other-providers) に従って続行してください。
 
 ??? "ZoogVPN"
-    ### ZoogVPN
+    ### ZoogVPN {#zoogvpn}
 
     [公式サイト](https://zoogvpn.com/pricing?ref=xrsyzx){target="_blank"}
 
@@ -730,7 +728,7 @@ OpenVPN サーバーの設定方法は [こちら](openvpn_server.md) を参照�
 
     ![zoogvpn openvpn configuration files](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/zoogvpn/zoogvpn_openvpn_config_files.png)
 
-    その後、[GL.iNet ルーターで OpenVPN クライアントを設定するガイド](#setup-openvpn-client) に従って続行してください。ユーザー名とパスワードは ZoogVPN サイトへのログインに使用するものと同じです。
+    その後、[GL.iNet ルーターで OpenVPN クライアントを設定するガイド](#set-up-openvpn-client-manually-for-other-providers) に従って続行してください。ユーザー名とパスワードは ZoogVPN サイトへのログインに使用するものと同じです。
 
 ---
 

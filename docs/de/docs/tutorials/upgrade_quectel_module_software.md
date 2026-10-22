@@ -1,14 +1,14 @@
-# Quectel-Modul-Firmware aktualisieren
+# Quectel-Modul-Firmware aktualisieren {#upgrade-quectel-module-firmware}
 
-## Vorbereitung
+## Vorbereitung {#preparation}
 
 1. Stellen Sie sicher, dass Ihr Router für den Internetzugang eingerichtet ist.
 
 2. Verbinden Sie einen Computer oder Laptop per WLAN oder Ethernet-Kabel mit dem Router.
 
-## Schritte für das Upgrade
+## Schritte für das Upgrade {#upgrade-steps}
 
-### Für GL-X3000/GL-XE3000
+### Für GL-X3000/GL-XE3000 {#for-gl-x3000gl-xe3000}
 
 **Methode 1. Upgrade über die GL.iNet-GUI**
 
@@ -22,7 +22,7 @@
 
 Das Upgrade des RM520N-Moduls wird hier als Beispiel verwendet.
 
-1. Melden Sie sich per SSH an Ihrem Router an. Bitte beachten Sie [diesen Link](https://docs.gl-inet.com/router/en/4/tutorials/ssh_log_in_to_the_router/).
+1. Melden Sie sich per SSH an Ihrem Router an. Bitte beachten Sie [diesen Link](ssh_log_in_to_the_router.md).
 
 2. Geben Sie den folgenden Befehl ein, um die Modul-Firmware herunterzuladen.
 
@@ -64,13 +64,13 @@ Das Upgrade des RM520N-Moduls wird hier als Beispiel verwendet.
 
     ![Version prüfen](https://static.gl-inet.com/docs/router/de/4/tutorials/upgrade_quectel_module_software/x3000_xe3000/check_module_version.png){class="glboxshadow"}
 
-### Für GL-MiFi/GL-XE300/GL-X750/GL-E750
+### Für GL-MiFi/GL-XE300/GL-X750/GL-E750 {#for-gl-mifigl-xe300gl-x750gl-e750}
 
 Das Upgrade des EM060K-Moduls wird hier als Beispiel verwendet.
 
 1. Bereiten Sie einen USB-Stick vor. Laden Sie die passende Modul-Firmware am Ende dieses Tutorials auf den USB-Stick herunter, entpacken Sie die .zip-Datei und legen Sie sie im Stammverzeichnis des USB-Sticks ab.
 
-2. Stecken Sie den USB-Stick in Ihren Router ein. Melden Sie sich dann gemäß [diesem Link](https://docs.gl-inet.com/router/en/4/tutorials/ssh_log_in_to_the_router/) per SSH an Ihrem Router an.
+2. Stecken Sie den USB-Stick in Ihren Router ein. Melden Sie sich dann gemäß [diesem Link](ssh_log_in_to_the_router.md) per SSH an Ihrem Router an.
 
 3. Geben Sie den Befehl `df -h` ein, um den Einhängepfad des USB-Sticks zu prüfen, und notieren Sie sich den Pfad.
 
@@ -117,7 +117,7 @@ Das Upgrade des EM060K-Moduls wird hier als Beispiel verwendet.
     ```
     ![Modulversion prüfen](https://static.gl-inet.com/docs/router/de/4/tutorials/upgrade_quectel_module_software/other_model/check_module_version.png){class="glboxshadow"}
 
-## Download-URLs für Quectel-Modul-Firmware
+## Download-URLs für Quectel-Modul-Firmware {#quectel-module-firmware-download-url}
 
 EP06-A: [https://fw.gl-inet.com/download/EP06A-modem-firmware/EP06ALAR02A08M4G_01.009.01.009.zip](https://fw.gl-inet.com/download/EP06A-modem-firmware/EP06ALAR02A08M4G_01.009.01.009.zip)
 

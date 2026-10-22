@@ -1,4 +1,4 @@
-# ¿Cómo reparar la red o restablecer a fábrica?
+# ¿Cómo reparar la red o restablecer a fábrica? {#how-to-repair-network-or-factory-reset}
 
 Todos los routers GL.iNet están equipados con un mecanismo físico de restablecimiento, ya sea un botón de reset o un orificio para pin. Pulsar el botón o insertar el pin produce el mismo efecto: restaurar la conectividad de red o restablecer el router a los valores de fábrica.
 
@@ -6,7 +6,7 @@ En los modelos con orificio para pin, use un pin, un clip enderezado o una herra
 
 Asegúrese de que el router haya arrancado completamente antes de realizar el restablecimiento. **NO** pulse el botón de reset inmediatamente después de encenderlo, ya que esto puede activar el modo failsafe de U-Boot.
 
-## Reparar la red
+## Reparar la red {#repair-network}
 
 Mantenga pulsado el botón de reset durante **4 segundos** y luego suéltelo para realizar un restablecimiento suave, que puede reparar la red.
 
@@ -18,7 +18,7 @@ Esta operación reiniciará la interfaz de red y restaurará la interfaz de Inte
 
 2. Un restablecimiento suave también puede utilizarse para cambiar rápidamente del modo no router al modo router.
 
-## Restablecer a fábrica
+## Restablecer a fábrica {#reset-to-factory}
 
 **Para los modelos sin pantalla táctil**, el firmware se puede restablecer de dos formas: mediante el botón de reset o desde el panel de administración web. Vea este vídeo o siga los pasos que se indican a continuación.
 

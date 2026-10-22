@@ -1,16 +1,16 @@
-# How to access OpenVPN Server LAN devices from the client via domain names?
+# How to access OpenVPN Server LAN devices from the client via domain names? {#how-to-access-openvpn-server-lan-devices-from-the-client-via-domain-names}
 
 This tutorial explains how to access home devices (such as NAS, IP camera, etc.) on the OpenVPN server's LAN from a client using domain names.
 
-## Topology
+## Topology {#topology}
 
 As shown below, you can access devices such as NAS and IP camera on the OpenVPN server's LAN from a PC on the client's LAN using their respective domain names.
 
 ![topology](https://static.gl-inet.com/docs/router/en/4/tutorials/access_ovpnserver_lan_via_domain_names/topology_be9300_be3600.png){class="glboxshadow"}
 
-## Setup steps
+## Setup steps {#setup-steps}
 
-### 1. Edit Hosts on Server (Optional)
+### 1. Edit Hosts on Server (Optional) {#1-edit-hosts-on-server-optional}
 
 This step applies when your VPN server cannot resolve local domain names properly. Skip this step if you are unsure.
 
@@ -22,7 +22,7 @@ Input the IP and domain name of the home devices you want to access, then click 
 
 ![input ip domain](https://static.gl-inet.com/docs/router/en/4/tutorials/access_ovpnserver_lan_via_domain_names/input_ip_domain.png){class="glboxshadow gl-80-desktop"}
 
-### 2. Allow Remote Access LAN on Server
+### 2. Allow Remote Access LAN on Server {#2-allow-remote-access-lan-on-server}
 
 On the server's web admin panel, navigate to **VPN** -> **OpenVPN Server**. Click **Options** at the upper right corner.
 
@@ -34,7 +34,7 @@ Enable **Allow Remote Access the LAN Subnet**, and click **Apply**.
 
 When enabled, the router and LAN devices can be accessed remotely via the VPN.
 
-### 3. Export VPN Configuration
+### 3. Export VPN Configuration {#3-export-vpn-configuration}
 
 On the server's admin panel, navigate to **VPN** -> **OpenVPN Server** -> **Configuration** tab, click **Export Client Configuration** at the bottom. 
 
@@ -62,13 +62,13 @@ Tip: The OpenVPN server's tunnel IPv4 subnet can be found under the **Configurat
 
 ![ovpnserver tunnel ip](https://static.gl-inet.com/docs/router/en/4/tutorials/access_ovpnserver_lan_via_domain_names/ovpnserver_tunnel_ip.png){class="glboxshadow"}
 
-### 4. Enable VPN Server
+### 4. Enable VPN Server {#4-enable-vpn-server}
 
 On the **OpenVPN Server** page, click the **Start** button in the upper right corner to start the server.
 
 ![start server](https://static.gl-inet.com/docs/router/en/4/tutorials/access_ovpnserver_lan_via_domain_names/ovpnserver_start.png){class="glboxshadow"}
 
-### 5. Upload VPN Configuration
+### 5. Upload VPN Configuration {#5-upload-vpn-configuration}
 
 Log in to the web admin panel of your VPN client router, navigate to **VPN** -> **OpenVPN Client**, then click **Add Manually**.
 
@@ -86,7 +86,7 @@ You will get a configuration file listed here.
 
 ![applied](https://static.gl-inet.com/docs/router/en/4/tutorials/access_ovpnserver_lan_via_domain_names/ovpnclient_upload4.png){class="glboxshadow"}
 
-### 6. Start VPN Client Connection
+### 6. Start VPN Client Connection {#6-start-vpn-client-connection}
 
 Click the three-dot icon to initiate the VPN connection. 
 

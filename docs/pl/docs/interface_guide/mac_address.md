@@ -1,4 +1,4 @@
-# Adres MAC
+# Adres MAC {#mac-address}
 
 Ten przewodnik dotyczy firmware v4.5 i starszych wersji.
 
@@ -30,7 +30,7 @@ Jeśli urządzenie obsługuje ustawienie wielu portów Ethernet jako portów WAN
 
     ![Manual input or generate a random mac address](https://static.gl-inet.com/docs/router/en/4/interface_guide/mac_address/manual.png){class="glboxshadow"}
 
-## Scenariusze użycia
+## Scenariusze użycia {#usage-scenarios}
 
 Podczas łączenia z publicznym hotspotem użyj losowego adresu MAC, jeśli nie chcesz, aby hotspot znał Twój rzeczywisty adres MAC lub ograniczał na jego podstawie dostęp do Internetu. Przeczytaj poradnik [Łączenie z hotspotem z captive portalem](../faq/connect_to_a_hotspot_with_captive_portal.md).
 

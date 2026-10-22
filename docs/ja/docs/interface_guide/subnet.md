@@ -1,14 +1,14 @@
-# サブネット
+# サブネット {#subnet}
 
 **注記**: このページは現在 Flint 4 (GL-BE14000) で利用できます。ファームウェア v4.10 により、今後ほかのモデルにも展開される予定です。
 
 ---
 
-Web Admin Panel の左側で、**NETWORK** -> **Subnet** に移動します。
+Web 管理パネルの左側で、**NETWORK** -> **Subnet** に移動します。
 
 このページでは、**LAN**、**Guest Network**、**IoT Network**、およびカスタム **VLAN Networks** の設定を 1 つの統合ビューにまとめています。サブネット関連の設定を一元管理でき、複数のサブネットを作成、管理して、異なる種類のデバイスやトラフィックを分離できます。
 
-## メインネットワーク
+## メインネットワーク {#main-network}
 
 **Main Network** は、メイン Wi-Fi または Ethernet ケーブルでデバイスが接続されるネットワークです。
 
@@ -20,9 +20,9 @@ Main Network では、すべてのインターフェース状態、VLAN ID、ル
 
 ![main network 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/main-network-2.png){class="glboxshadow"}
 
-設定ページには、Basic settings、DHCP server settings、Address Reservation が含まれます。
+設定ページには、基本設定、DHCP サーバー設定、アドレス予約が含まれます。
 
-### 基本設定
+### 基本設定 {#basic-settings}
 
 IPv4 プライベートアドレス範囲 `192.168.0.0/16`、`172.16.0.0/12`、`10.0.0.0/8` 内でサブネットを設定できます。
 
@@ -46,7 +46,7 @@ IPv4 プライベートアドレス範囲 `192.168.0.0/16`、`172.16.0.0/12`、`
 
     クライアントデバイスを別のネットワークセグメントに分離できます。これらのデバイスは同じネットワーク上のほかのデバイスと通信できなくなります。
 
-### DHCP Server
+### DHCP Server {#dhcp-server}
 
 **DHCP Server** はデフォルトで有効です。DHCP サーバーは、各クライアントデバイスに IP アドレスやその他の通信パラメーターを自動的に割り当てます。
 
@@ -72,7 +72,7 @@ DHCP サーバーを無効にした場合、クライアントデバイスのネ
 
 - **LPR Server** (Line Printer Remote Server): 印刷ジョブを管理し、ネットワークデバイスがリモートプリンターへ印刷要求を送信できるようにするサービスです。複数の LPR プリンターポートを設定できます。
 
-### アドレス予約
+### アドレス予約 {#address-reservation}
 
 LAN 内のクライアントに予約 IP アドレスを指定すると、そのクライアントはルーターの DHCP サーバーにアクセスするたびに同じ IP アドレスを受け取ります。恒久的な IP 設定が必要なコンピューターやサーバーに、予約 IP アドレスを割り当てることができます。
 
@@ -94,11 +94,11 @@ IP を予約するには **Add** をクリックします。
 
 ![main network address Reservation 4](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/address-reservation-4.png){class="glboxshadow" width=650}
 
-## ゲストネットワーク
+## ゲストネットワーク {#guest-network}
 
 **Guest Network** は、訪問者向けの専用 Wi-Fi ネットワークを提供します。プライマリネットワークから分離されるため、セキュリティを高めながら便利なインターネットアクセスを提供できます。
 
-**注記**: 一部のモデル（例: GL-MT5000、GL-MT2500/GL-MT2500A）は Wi-Fi 機能を搭載していないため、Web Admin Panel に Guest Network 設定は表示されません。
+**注記**: 一部のモデル（例: GL-MT5000、GL-MT2500/GL-MT2500A）は Wi-Fi 機能を搭載していないため、Web 管理パネルに Guest Network 設定は表示されません。
 
 Guest Network では、インターフェース状態、VLAN ID、Gateway、DHCP Range を直接確認できます。
 
@@ -108,9 +108,9 @@ Guest Network では、インターフェース状態、VLAN ID、Gateway、DHCP
 
 ![guest network 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/guest-network-2.png){class="glboxshadow"}
 
-設定ページには Basic settings と DHCP server settings が含まれます。
+設定ページには、基本設定と DHCP サーバー設定が含まれます。
 
-### 基本設定
+### 基本設定 {#basic-settings_1}
 
 IPv4 プライベートアドレス範囲 `192.168.0.0/16`、`172.16.0.0/12`、`10.0.0.0/8` 内でサブネットを設定できます。
 
@@ -146,7 +146,7 @@ IPv4 プライベートアドレス範囲 `192.168.0.0/16`、`172.16.0.0/12`、`
 
     - **Block Internet Access**: インターネットおよび WAN 側サブネットを含む、すべての外向きアクセスをブロックします。
 
-### DHCP Server
+### DHCP Server {#dhcp-server_1}
 
 **DHCP Server** はデフォルトで有効です。DHCP サーバーは、各クライアントデバイスに IP アドレスやその他の通信パラメーターを自動的に割り当てます。
 
@@ -172,21 +172,21 @@ DHCP サーバーを無効にした場合、クライアントデバイスのネ
 
 - **LPR Server** (Line Printer Remote Server): 印刷ジョブを管理し、ネットワークデバイスがリモートプリンターへ印刷要求を送信できるようにするサービスです。複数の LPR プリンターポートを設定できます。
 
-## IoT Network
+## IoT Network {#iot-network}
 
 IoT Network は、IoT デバイス専用の Wi-Fi ネットワークを作成します。プライマリネットワークから分離されるため、互換性とセキュリティが向上します。
 
-**注記**: 一部のモデル（例: GL-MT5000、GL-MT2500/GL-MT2500A）は Wi-Fi 機能を搭載していないため、Web Admin Panel に IoT Network 設定は表示されません。
+**注記**: 一部のモデル（例: GL-MT5000、GL-MT2500/GL-MT2500A）は Wi-Fi 機能を搭載していないため、Web 管理パネルに IoT Network 設定は表示されません。
 
 IoT Network では、インターフェース状態、VLAN ID、Gateway、DHCP Range を直接確認できます。
 
 ![iot network 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/iot-network-1.png){class="glboxshadow"}
 
-右下の **Edit** をクリックすると、IoT Network の設定パネルがページ右側に開きます。このパネルでは Basic Settings と DHCP Server Settings を設定できます。
+右下の **Edit** をクリックすると、IoT Network の設定パネルがページ右側に開きます。このパネルでは、基本設定と DHCP サーバー設定を構成できます。
 
 ![iot network 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/iot-network-2.png){class="glboxshadow"}
 
-### 基本設定
+### 基本設定 {#basic-settings_2}
 
 IPv4 プライベートアドレス範囲 `192.168.0.0/16`、`172.16.0.0/12`、`10.0.0.0/8` 内でサブネットを設定できます。
 
@@ -222,7 +222,7 @@ IPv4 プライベートアドレス範囲 `192.168.0.0/16`、`172.16.0.0/12`、`
 
     - **Block Internet Access**: インターネットおよび WAN 側サブネットを含む、すべての外向きアクセスをブロックします。
 
-### DHCP Server
+### DHCP Server {#dhcp-server_2}
 
 **DHCP Server** はデフォルトで有効です。DHCP サーバーは、各クライアントデバイスに IP アドレスやその他の通信パラメーターを自動的に割り当てます。
 
@@ -248,7 +248,7 @@ DHCP サーバーを無効にした場合、クライアントデバイスのネ
 
 - **LPR Server** (Line Printer Remote Server): 印刷ジョブを管理し、ネットワークデバイスがリモートプリンターへ印刷要求を送信できるようにするサービスです。複数の LPR プリンターポートを設定できます。
 
-## VLAN Networks
+## VLAN Networks {#vlan-networks}
 
 メインページの上部で、必要に応じて追加の **VLAN networks** を作成し、異なる種類のデバイスや訪問者トラフィックを分離できます。
 
@@ -258,7 +258,7 @@ DHCP サーバーを無効にした場合、クライアントデバイスのネ
 
 ![vlan networks 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/vlan-networks-2.png){class="glboxshadow"}
 
-### 基本設定
+### 基本設定 {#basic-settings_3}
 
 このページでは、**VLAN Networks** の基本情報を設定できます。
 
@@ -298,7 +298,7 @@ DHCP サーバーを無効にした場合、クライアントデバイスのネ
 
     - **Block Internet Access**: インターネットおよび WAN 側サブネットを含む、すべての外向きアクセスをブロックします。
 
-### DHCP Server
+### DHCP Server {#dhcp-server_3}
 
 **DHCP Server** はデフォルトで有効です。DHCP サーバーは、各クライアントデバイスに IP アドレスやその他の通信パラメーターを自動的に割り当てます。
 
@@ -328,5 +328,5 @@ DHCP サーバーを無効にした場合、クライアントデバイスのネ
 
 ---
 
-ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}にアクセスするか、[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。
 

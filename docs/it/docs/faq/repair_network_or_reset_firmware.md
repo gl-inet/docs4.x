@@ -1,4 +1,4 @@
-# Come riparare la rete o ripristinare le impostazioni di fabbrica?
+# Come riparare la rete o ripristinare le impostazioni di fabbrica? {#how-to-repair-network-or-factory-reset}
 
 Tutti i router GL.iNet sono dotati di un meccanismo di reset fisico (pulsante reset o foro pinhole). Premere il pulsante o inserire un perno nel foro produce lo stesso effetto: ripristinare la connettività di rete oppure riportare il router alle impostazioni di fabbrica.
 
@@ -6,7 +6,7 @@ Per i modelli dotati di foro pinhole, usa uno spillo, una graffetta raddrizzata 
 
 Assicurati che il router abbia completato l'avvio prima di eseguire un reset. **NON** premere il pulsante reset subito dopo l'accensione, perché potresti attivare la modalità failsafe U-Boot.
 
-## Riparare la rete
+## Riparare la rete {#repair-network}
 
 Tieni premuto il pulsante reset per **4 secondi**, quindi rilascialo per eseguire un soft reset, che può riparare la rete.
 
@@ -18,7 +18,7 @@ Questa operazione riavvia l'interfaccia di rete e ripristina l'interfaccia Inter
 
 2. Un soft reset può essere usato anche per passare rapidamente dalla modalità non-router alla modalità router.
 
-## Ripristino di fabbrica
+## Ripristino di fabbrica {#reset-to-factory}
 
 **Per i modelli senza touchscreen**, il firmware può essere ripristinato in due modi: tramite il pulsante reset oppure dal pannello di amministrazione web. Guarda questo video oppure segui i passaggi seguenti.
 

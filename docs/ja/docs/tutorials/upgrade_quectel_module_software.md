@@ -1,14 +1,14 @@
-# Quectelモジュールのファームウェアをアップグレードする
+# Quectelモジュールのファームウェアをアップグレードする {#upgrade-quectel-module-firmware}
 
-## 準備
+## 準備 {#preparation}
 
 1. ルーターがインターネットにアクセスできるよう設定されていることを確認します。
 
 2. コンピューターまたはノートPCをWi-FiまたはEthernetケーブルでルーターに接続します。
 
-## アップグレード手順
+## アップグレード手順 {#upgrade-steps}
 
-### GL-X3000 / GL-XE3000 の場合
+### GL-X3000 / GL-XE3000 の場合 {#for-gl-x3000gl-xe3000}
 
 **方法1. GL.iNet GUIからアップグレードする**
 
@@ -22,7 +22,7 @@
 
 ここでは RM520N モジュールのアップグレードを例にします。
 
-1. ルーターへSSHログインします。詳細は[このリンク](https://docs.gl-inet.com/router/en/4/tutorials/ssh_log_in_to_the_router/)を参照してください。
+1. ルーターへSSHログインします。詳細は[このリンク](ssh_log_in_to_the_router.md)を参照してください。
 
 2. 以下のコマンドを入力してモジュールファームウェアをダウンロードします。
 
@@ -64,13 +64,13 @@
 
     ![mtk7981a_check_version](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/x3000_xe3000/check_module_version.png){class="glboxshadow"}
 
-### GL-MiFi / GL-XE300 / GL-X750 / GL-E750 の場合
+### GL-MiFi / GL-XE300 / GL-X750 / GL-E750 の場合 {#for-gl-mifigl-xe300gl-x750gl-e750}
 
 ここでは EM060K モジュールのアップグレードを例にします。
 
 1. USBメモリを用意します。このチュートリアルの末尾から対応するモジュールファームウェアをUSBメモリにダウンロードし、.zip ファイルを解凍してUSBドライブのルートディレクトリに配置します。
 
-2. USBメモリをルーターに挿します。その後、[このリンク](https://docs.gl-inet.com/router/en/4/tutorials/ssh_log_in_to_the_router/)を参照してルーターへSSHログインします。
+2. USBメモリをルーターに挿します。その後、[このリンク](ssh_log_in_to_the_router.md)を参照してルーターへSSHログインします。
 
 3. `df -h` コマンドを入力してUSBドライブのマウントパスを確認し、そのパスを控えます。
 
@@ -117,7 +117,7 @@
     ```
     ![check module version](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/other_model/check_module_version.png){class="glboxshadow"}
 
-## QuectelモジュールファームウェアのダウンロードURL
+## QuectelモジュールファームウェアのダウンロードURL {#quectel-module-firmware-download-url}
 
 EP06-A: [https://fw.gl-inet.com/download/EP06A-modem-firmware/EP06ALAR02A08M4G_01.009.01.009.zip](https://fw.gl-inet.com/download/EP06A-modem-firmware/EP06ALAR02A08M4G_01.009.01.009.zip)
 
@@ -129,4 +129,4 @@ RM520N-GL_AA: [https://fw.gl-inet.com/download/RM520GL-modem_firmware/RM520NGLAA
 
 ---
 
-ご不明な点がありましたら、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}をご覧いただくか、[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

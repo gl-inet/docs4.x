@@ -27,9 +27,6 @@
 
 ![Вибір файлу конфігурації](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/vpnclient_config.png){class="glboxshadow"}
 
-<span id="vpn-client-options"></span>
-<span id="vpn-clinet-options"></span>
-
 ### Параметри клієнта {#client-options}
 
 Натисніть піктограму шестерні праворуч, щоб відкрити параметри клієнта OpenVPN або WireGuard.
@@ -51,6 +48,10 @@
     ![Віддалений доступ до LAN через VPN](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/allow_remote_access_lan_diagram.png){class="glboxshadow gl-80-desktop"}
 
 - **IP Masquerading**: якщо увімкнено, IP-адреси джерела трафіку клієнтів LAN замінюються IP-адресою тунелю VPN маршрутизатора. Вимикайте цей параметр лише для з’єднань між мережами (site-to-site), коли віддалений вузол знає ваші підмережі LAN.
+
+    Як показано нижче, якщо маскарадинг IP увімкнено і ноутбук (192.168.10.200) у дорожній мережі LAN надсилає трафік через тунель на домашній NAS (192.168.8.100), дорожній маршрутизатор замінює IP-адресу джерела `192.168.10.200` на адресу тунелю клієнта VPN `10.1.0.2`. Тому сторона сервера бачить, що трафік надходить від клієнта, а не з локальної мережі LAN клієнта.
+
+    ![Маскарадинг IP](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/ip_masquerading.png){class="glboxshadow"}
 
 - **MTU**: Maximum Transmission Unit — максимальний розмір одиниці передавання. За потреби задайте власний MTU тунелю VPN; він перевизначає значення у файлі конфігурації.
 
@@ -146,8 +147,6 @@
 
 ![Параметри сервера OpenVPN](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/vpnserver_options_ovpn.png){class="glboxshadow"}
 
-<span id="wireguard-server-options"></span>
-
 Параметри сервера WireGuard мають такий вигляд.
 
 ![Параметри сервера WireGuard](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/vpnserver_options_wg.png){class="glboxshadow"}
@@ -155,6 +154,10 @@
 * **Remote Access LAN**: якщо увімкнено, ресурси підмережі LAN сервера доступні через тунель VPN.
 
 * **IP Masquerading**: якщо увімкнено, IP-адреси джерела трафіку клієнтів LAN замінюються IP-адресою тунелю VPN маршрутизатора. Вимикайте цей параметр лише для з’єднань між мережами (site-to-site), коли віддалений вузол знає ваші підмережі LAN.
+
+    Як показано нижче, якщо маскарадинг IP увімкнено і NAS (192.168.8.100) у домашній мережі LAN надсилає трафік через тунель на ноутбук (192.168.10.200) у дорожній мережі, домашній маршрутизатор замінює IP-адресу джерела `192.168.8.100` на адресу тунелю сервера VPN `10.1.0.1`. Тому віддалена сторона бачить, що трафік надходить від сервера, а не з локальної мережі LAN сервера.
+
+    ![Маскарадинг IP](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/ip_masquerading.png){class="glboxshadow"}
 
 * **MTU**: Maximum Transmission Unit — максимальний розмір одиниці передавання. Задане для тунелю значення MTU перевизначає налаштування MTU у файлі конфігурації.
 

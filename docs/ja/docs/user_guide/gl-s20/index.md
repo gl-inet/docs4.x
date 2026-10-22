@@ -1,10 +1,10 @@
-# GL-S20 ユーザーガイド
+# GL-S20 ユーザーガイド {#gl-s20-user-guide}
 
-## ハードウェア情報
+## ハードウェア情報 {#hardware-info}
 
 [GL-S20 仕様](https://www.gl-inet.com/products/gl-s20/#specs){target="_blank"}
 
-## GPIOリスト
+## GPIOリスト {#gpio-list}
 
 | ESP32-WROOM-32U GPIO Labeling | SIGNAL         | FUNCTION                                                     |
 | ----------------------------- | -------------- | ------------------------------------------------------------ |
@@ -12,7 +12,7 @@
 | GPIO1                         | BUTTON         | ボタン入力（リセット用） |
 | GPIO2                         | GPIO2          | h2リセットIO制御用 |
 | GPIO3                         | GPIO3          | h2ブートIO制御用 |
-| GPIO4                         | PHY_SPI_INT    | SPI EthernetモジュールのGPIO割り込み番号 |
+| GPIO4                         | PHY_SPI_INT    | SPI Ethernetモジュールの割り込みGPIO番号 |
 | GPIO5                         | PHY_RESET      | SPI EthernetモジュールのPHYリセットGPIO番号 |
 | GPIO6                         | NETWORK_LED    | ネットワークLED制御（緑） |
 | GPIO7                         | NETWORK_LED    | ネットワークLED制御（赤） |
@@ -39,13 +39,13 @@
 | GPIO41                        | PTA_PRIORITY   | PTA用 |
 | GPIO42                        | PTA_GRANT      | PTA用 |
 | GPIO43                        | UART0 TX       | デバッグ用シリアルポート出力 |
-| GPIO44                        | UART0 RX       | デバッグ用シリアルポート出力 |
+| GPIO44                        | UART0 RX       | デバッグ用シリアルポート入力 |
 | GPIO45                        | PTA_TX_LINE    | PTA用 |
 | GPIO46                        | GPIO46         | NC |
 | GPIO47                        | UART1 CTS      | h2 uart0 rtsへの接続用 |
 | GPIO48                        | UART1 TX       | h2 uart0 rxへの接続用 |
 
-## PCBピン設定
+## PCBピン配置 {#pcb-pinout}
 
 <div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
   <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
@@ -57,18 +57,18 @@
 
 ---
 
-## 初回セットアップ
+## 初回セットアップ {#first-time-setup}
 
 IoTドキュメントの[GL-S20](https://docs.gl-inet.com/iot/en/thread_board_router/gl-s20/){target="_blank"}をご参照ください。
 
 ---
 
-## ユーザーマニュアル
+## ユーザーマニュアル {#user-manual}
 
 IoTドキュメントの[ユーザーマニュアル](https://docs.gl-inet.com/iot/en/thread_board_router/gl-s20/user_manual/){target="_blank"}をご参照ください。
 
 ---
 
-## ファームウェアコンパイルガイド
+## ファームウェアコンパイルガイド {#firmware-compilation-guide}
 
 IoTドキュメントの[ファームウェアコンパイルガイド](https://docs.gl-inet.com/iot/en/thread_board_router/gl-s20/user_manual/gl-s20-tbr_firmware_compilation_guide/){target="_blank"}をご参照ください。

@@ -1,4 +1,4 @@
-# Firewall
+# Firewall {#firewall}
 
 Ten przewodnik dotyczy firmware v4.5 i wcześniejszych wersji.
 
@@ -10,7 +10,7 @@ Po lewej stronie webowego panelu administracyjnego przejdź do **NETWORK** -> **
 
 Strona Firewall umożliwia konfigurację reguł zapory, takich jak **Port Forwarding**, **Open Ports on Router** i **DMZ**.
 
-## Port Forwards
+## Port Forwards {#port-forwards}
 
 Port Forwarding umożliwia zdalnym komputerom łączenie się z lokalnym komputerem lub serwerem znajdującym się za zaporą routera w sieci LAN (na przykład z serwerem WWW lub FTP).
 
@@ -18,27 +18,27 @@ Aby skonfigurować przekierowanie portów, kliknij kartę **Port Forwards**, a n
 
 ![firewall page](https://static.gl-inet.com/docs/router/en/4/interface_guide/firewall/firewall.png){class="glboxshadow"}
 
-W wyskakującym oknie dodaj nową regułę przekierowania portu i kliknij **Apply**.
+W wyskakującym oknie dodaj regułę przekierowania portów i kliknij **Apply**.
 
 ![add new port forward rule](https://static.gl-inet.com/docs/router/en/4/interface_guide/firewall/add_new_port_forward_rule.png){class="glboxshadow"}
 
-**Name:** Nazwa reguły.
+**Name:** Wprowadź nazwę reguły.
 
-**Protocol:** Używany protokół. Możesz wybrać TCP, UDP albo jednocześnie TCP i UDP.
+**Protocol:** Wybierz protokół: TCP, UDP lub oba.
 
-**External Zone:** Dostępne opcje strefy zewnętrznej to `WAN`, `wgclient`, `wgserver`, `ovpnclient`, `ovpnserver`.
+**External Zone:** Wybierz interfejs, przez który przychodzi ruch. Dostępne opcje to `LAN`, `WAN`, `guest`, `ovpnclient`, `ovpnserver`, `wgclient` i `wgserver`. Opcje związane z VPN pojawiają się dopiero po skonfigurowaniu połączenia VPN.
 
-**External Port:** Numer lub numery portów zewnętrznych. Możesz wpisać tutaj konkretny numer portu.
+**External Port:** Wprowadź numer portu zewnętrznego.
 
-**Internal Zone:** Dostępne opcje strefy wewnętrznej to `WAN`, `wgclient`, `wgserver`, `ovpnclient`, `ovpnserver`.
+**Internal Zone:** Wybierz interfejs, do którego przekazywany jest ruch. Dostępne opcje to `LAN`, `WAN`, `guest`, `ovpnclient`, `ovpnserver`, `wgclient` i `wgserver`. Opcje związane z VPN pojawiają się dopiero po skonfigurowaniu połączenia VPN.
 
-**Internal IP:** Adres IP przypisany przez router do urządzenia, do którego ma być możliwy zdalny dostęp.
+**Internal IP:** Wprowadź adres IP w sieci LAN urządzenia, do którego chcesz uzyskać zdalny dostęp.
 
-**Internal Port:** Wewnętrzny numer portu urządzenia. Możesz wpisać konkretny numer portu. Pozostaw to pole puste, jeśli ma być taki sam jak port zewnętrzny.
+**Internal Port:** Wprowadź numer portu wewnętrznego urządzenia. Pozostaw pole puste, jeśli jest taki sam jak port zewnętrzny.
 
-**Enable:** Włącza lub wyłącza regułę.
+**Enable:** Użyj przełącznika, aby włączyć lub wyłączyć regułę.
 
-## Open Ports on Router
+## Open Ports on Router {#open-ports-on-router}
 
 Aby usługi routera, takie jak web i FTP, były publicznie dostępne, odpowiednie porty muszą zostać otwarte na routerze.
 
@@ -58,7 +58,7 @@ W wyskakującym oknie otwórz nowy port i kliknij **Apply**.
 
 **Enable:** Włącza lub wyłącza regułę.
 
-## DMZ
+## DMZ {#dmz}
 
 DMZ umożliwia wystawienie jednego komputera do Internetu, dzięki czemu wszystkie przychodzące pakiety będą przekierowywane do tego komputera.
 

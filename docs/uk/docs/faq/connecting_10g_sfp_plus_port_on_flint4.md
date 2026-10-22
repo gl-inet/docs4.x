@@ -34,7 +34,7 @@ Flint 4 (GL-BE14000) має порт 10G SFP+, який працює в режи
 
 ### 1.4 Застереження {#14-precautions}
 
-- Підтримуються лише стандартні оптичні трансивери 10G Ethernet. Модулі PON не можна використовувати в цьому варіанті.
+- Модулі PON не можна використовувати в цьому варіанті.
 
 - Виберіть одномодові або багатомодові оптичні модулі й кабелі відповідно до потрібної відстані, щоб уникнути зниження швидкості або втрати з’єднання.
 
@@ -65,10 +65,8 @@ Flint 4 (GL-BE14000) має порт 10G SFP+, який працює в режи
 |HUAWEI 6G-850nm-120m-MM-SFP+ MTRS-6A11-01|GL.iNet|
 |HUAWEI 2.5G-1310nm-SM-ESFP MXPD-483II|GL.iNet|
 |netLINK 10G/850nm/300m/DDM HTB-10G-SR|GL.iNet|
-|H!Fiber ASF-GE2-T 10/100/1000Base-T SFP SGMII RJ-45 100m|GL.iNet|
 |H!Fiber ASF85-24-X2-D 1000Base-SX 850nm 550m|GL.iNet|
 |Cisco GLC-SX-MMD 10-2626-01 CLASS 1 21CFR1040.10 LN#50|Учасник спільноти|
-|ONTI OBT-C2GE-R10 SFP 2500Base-TX RJ45 100m|Учасник спільноти|
 
 ## Варіант 2. Модуль SFP+–RJ45 (SFP-10G-T) {#solution-2-sfp-to-rj45-module-sfp-10g-t}
 
@@ -118,6 +116,8 @@ Flint 4 (GL-BE14000) має порт 10G SFP+, який працює в режи
 |10Gtek ASF-10G2-T 1G/2.5G/5G/10GBase-T RJ-45 30m|Учасник спільноти|
 |HUAWEI SFP-1000BASE-T-RJ45-100m SFP-1000Base-T|Учасник спільноти|
 |Xicom SFP-2.5G-T 100/1000M/2.5G RJ45 100m|Учасник спільноти|
+|ONTI OBT-C2GE-R10 SFP 2500Base-TX RJ45 100m|Учасник спільноти|
+|H!Fiber ASF-GE2-T 10/100/1000Base-T SFP SGMII RJ-45 100m|GL.iNet|
 
 ## Варіант 3. Модуль PON-ONU SFP+ {#solution-3-pon-onu-sfp-stick}
 

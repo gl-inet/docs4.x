@@ -1,4 +1,4 @@
-# 新製品のご紹介
+# 新製品のご紹介 {#meet-our-new-products}
 
 今後の製品のご紹介と、最新の開発状況をお届けします。
 
@@ -26,61 +26,61 @@ ExpressVPN 内蔵の高性能 Wi-Fi 6 ルーター
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZIt4UZXAmgA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-MT3600BE (Beryl 7)
+## GL-MT3600BE (Beryl 7) {#gl-mt3600be-beryl-7}
 
 ポケットサイズのデュアルバンド Wi-Fi 7 トラベルルーター
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2jqG2ckihCE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-MT5000 (Brume 3)
+## GL-MT5000 (Brume 3) {#gl-mt5000-brume-3}
 
 高速 VPN セキュリティゲートウェイ
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bAxAgkzC1vU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-BE9300 (Flint 3)
+## GL-BE9300 (Flint 3) {#gl-be9300-flint-3}
 
 トライバンドWi-Fi 7ホームルーター
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/X87yCZkvJ4E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-BE3600 (Slate 7)
+## GL-BE3600 (Slate 7) {#gl-be3600-slate-7}
 
 タッチスクリーン搭載デュアルバンド Wi-Fi 7 トラベルルーター
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5u0bzFlL-3c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-X2000 (Spitz Plus)
+## GL-X2000 (Spitz Plus) {#gl-x2000-spitz-plus}
 
 4G LTE Wi-Fi 6ルーター
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_C6pMc9UMSQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-B3000 (Marble)
+## GL-B3000 (Marble) {#gl-b3000-marble}
 
 家庭向けデコラティブWi-Fi 6ルーター
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/eV2AuTpZx3c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-MT6000 (Flint 2)
+## GL-MT6000 (Flint 2) {#gl-mt6000-flint-2}
 
 高性能Wi-Fi 6ホームルーター
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wOm1PS4Z-fY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-XE3000 (Puli AX)
+## GL-XE3000 (Puli AX) {#gl-xe3000-puli-ax}
 
 バッテリー搭載Wi-Fi 6 5Gセルラールーター
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XrMDpWNEscM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-X3000 (Spitz AX)
+## GL-X3000 (Spitz AX) {#gl-x3000-spitz-ax}
 
 5G NR対応Wi-Fi 6デュアルSIMルーター
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uBz8QOp_Do4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-MT3000 (Beryl AX)
+## GL-MT3000 (Beryl AX) {#gl-mt3000-beryl-ax}
 
 家庭・旅行向けポケットサイズWi-Fi 6ルーター
 
@@ -90,73 +90,73 @@ Beryl AX (GL-MT3000) VS Beryl (GL-MT1300) 比較
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/roOFAFT4cjs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-MT2500/GL-MT2500A (Brume 2)
+## GL-MT2500/GL-MT2500A (Brume 2) {#gl-mt2500gl-mt2500a-brume-2}
 
 リモートアクセス向けセキュリティゲートウェイ
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9czDvi2irME" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-MV1000 (Brume)
+## GL-MV1000 (Brume) {#gl-mv1000-brume}
 
 高い安全性と信頼性を備えたインフラ向けエッジコンピューティングゲートウェイ
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4mVs6V_sHnI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-MV1000W (Brume-W)
+## GL-MV1000W (Brume-W) {#gl-mv1000w-brume-w}
 
 セキュアなエッジコンピューティング向けポケットサイズワイヤレスゲートウェイ
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pR7rfVzAZzs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-AP1300 (Cirrus)
+## GL-AP1300 (Cirrus) {#gl-ap1300-cirrus}
 
 企業向け天井設置型ワイヤレスアクセスポイント
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wYTVenxLgQA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-S1300 (Convexa-S)
+## GL-S1300 (Convexa-S) {#gl-s1300-convexa-s}
 
 スマートホームワイヤレスデバイス向けOpenWrtゲートウェイ
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wRA22wQxd48" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-AX1800 (Flint)
+## GL-AX1800 (Flint) {#gl-ax1800-flint}
 
 家庭・オフィス向け安全かつ超高速Wi-Fi 6ワイヤレスルーター
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/aXEIS3keP24" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-E750 (Mudi)
+## GL-E750 (Mudi) {#gl-e750-mudi}
 
 モバイルユーザー向け4G LTEプライバシールーター
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Y52aAzkWvQ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-SFT1200 (Opal)
+## GL-SFT1200 (Opal) {#gl-sft1200-opal}
 
 セキュリティ重視の旅行者向けギガビットワイヤレスルーター
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VkglWuItuXw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-XE300 (Puli)
+## GL-XE300 (Puli) {#gl-xe300-puli}
 
 4G LTEポータブルワイヤレスIoTゲートウェイ
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4falAJFN9ww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-AR750S (Slate)
+## GL-AR750S (Slate) {#gl-ar750s-slate}
 
 セキュリティ重視の旅行者にギガビットインターネットを提供
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ze1HRRyuiQw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-AXT1800 (Slate AX)
+## GL-AXT1800 (Slate AX) {#gl-axt1800-slate-ax}
 
 Wi-Fi 6ギガビットワイヤレスルーター
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/U94OkJfbTws" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-B2200 (Velica)
+## GL-B2200 (Velica) {#gl-b2200-velica}
 
 オープンテクノロジーを採用した統合型トライバンドワイヤレスメッシュシステム
 
@@ -164,7 +164,7 @@ Wi-Fi 6ギガビットワイヤレスルーター
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Zr0ToJ68Pdw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Cloud
+## Cloud {#cloud}
 
 リモートデバイス管理ソリューション、GoodCloudのご紹介
 

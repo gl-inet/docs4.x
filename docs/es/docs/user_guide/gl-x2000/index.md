@@ -1,12 +1,12 @@
-# Spitz Plus (GL-X2000) Guía del usuario
+# Spitz Plus (GL-X2000) Guía del usuario {#spitz-plus-gl-x2000-user-guide}
 
-## Descripción general del producto
+## Descripción general del producto {#product-overview}
 
 Spitz Plus (GL-X2000) es una puerta de enlace celular 4G LTE Wi-Fi 6 con doble SIM diseñada para proporcionar conexiones rápidas y fiables, especialmente en zonas remotas y durante viajes por carretera. Con agregación de 3 portadoras, el router transmite datos en tres bandas de operador simultáneamente, proporcionando 3 veces más ancho de banda disponible para evitar la congestión. Ofrece cuatro métodos de acceso a Internet: Cellular (tarjetas SIM), Ethernet, Repeater y Tethering. Es compatible con multi-WAN (failover y balanceo de carga), VPN (OpenVPN y WireGuard), control parental, AdGuard Home, reenvío de puertos, Tailscale y mucho más.
 
 ![gl-x2000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/hardware_info/x2000_interface.jpg){class="glboxshadow"}
 
-## Contenido del paquete
+## Contenido del paquete {#package-contents}
 
 - 1 x Spitz Plus (GL-X2000)
 - 1 x Manual del usuario
@@ -20,17 +20,19 @@ Spitz Plus (GL-X2000) es una puerta de enlace celular 4G LTE Wi-Fi 6 con doble S
 
 ![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/first_time_setup/x2000_package.png){class="glboxshadow"}
 
-## Indicadores LED
+## Indicadores LED {#led-indicators}
 
-| Estado de funcionamiento                                                      | Power                               | Internet                    | 2.4GHz                      | 5GHz                        | Cellular |
-| ----------------------------------------------------------------------------- | ----------------------------------- | --------------------------- | --------------------------- | --------------------------- | -------- |
-| Normal (conectado a Internet)                                                 | Green                               | Green                       | Green                       | Green                       | Green    |
-| No conectado a Internet                                                       | Green                               | Off                         | Green                       | Green                       | Green    |
-| Actualizando firmware                                                         | Green                               | Blinking green (every 0.5s) | Blinking green (every 0.5s) | Blinking green (every 0.5s) | Green    |
-| Restableciendo el router (mantenga pulsado el botón "reset" durante > 3 s)   | Blinking green (every 1s)           | Green                       | Green                       | Green                       | Green    |
-| Restaurando el router a valores de fábrica (mantenga pulsado "reset" 10 s)   | Fast blinking green (every 0.25s)   | Green                       | Green                       | Green                       | Green    |
+A continuación se describen los estados de los LED para distintos eventos. Para consultar todos los estados de cada LED, consulte [Estado de los indicadores LED del GL-X2000](../../faq/led.md#gl-x2000){target="_blank"}.
 
-## Cómo configurar Spitz Plus
+| Estado del dispositivo | Alimentación | Internet | 2.4GHz | 5GHz | Cellular |
+| --- | --- | --- | --- | --- | --- |
+| Conectado a Internet | Verde | Verde | Verde | Verde | Verde |
+| Sin conexión a Internet | Verde | Apagado | Verde | Verde | Verde |
+| Actualización de firmware | Verde | Parpadea cada 0,5 s | Parpadea cada 0,5 s | Parpadea cada 0,5 s | Verde |
+| Restablecimiento de red (mantenga pulsado reset durante 5 s) | Parpadea cada 1 s | Verde | Verde | Verde | Verde |
+| Restablecimiento de fábrica (mantenga pulsado reset durante 10 s) | Parpadea rápidamente cada 0,25 s | Verde | Verde | Verde | Verde |
+
+## Cómo configurar Spitz Plus {#how-to-set-up-spitz-plus}
 
 Para configurar Spitz Plus, utilizará uno de los cuatro métodos de conexión a Internet admitidos: Cellular (requiere SIM), Ethernet, Repeater y Tethering. Vea este video de configuración o siga los pasos a continuación.
 
@@ -45,11 +47,11 @@ Para configurar Spitz Plus, utilizará uno de los cuatro métodos de conexión a
     2. Apague el router.
     3. Inserte la(s) tarjeta(s) SIM en las ranuras correspondientes. (**Nota:** Solo una tarjeta SIM está activa a la vez. La otra solo funciona como respaldo).
 
-### 1. Encendido
+### 1. Encendido {#1-power-on}
 
 Monte las dos piezas del adaptador de corriente. Conéctelo al router y enchúfelo a una toma de corriente. Se iniciará automáticamente.
 
-### 2. Conecte un dispositivo
+### 2. Conecte un dispositivo {#2-connect-device}
 
 Conecte un dispositivo (por ejemplo, un ordenador, un portátil o un smartphone) al router mediante Wi-Fi o Ethernet.
 
@@ -61,11 +63,11 @@ Conecte un dispositivo (por ejemplo, un ordenador, un portátil o un smartphone)
 
     En su dispositivo, vaya a Settings -> WLAN, localice el nombre de la red Wi-Fi del router en la lista de redes disponibles e introduzca la contraseña. (Puede encontrar el nombre de red y la contraseña predeterminados impresos en la etiqueta del router).
 
-### 3. Inicie sesión en el panel de administración web
+### 3. Inicie sesión en el panel de administración web {#3-log-in-to-web-admin-panel}
 
 Abra un navegador web, introduzca `192.168.8.1` en la barra de direcciones y accederá al panel de administración web de GL.iNet. Elija un idioma y establezca la contraseña de administrador; después, haga clic en **Apply**.
 
-### 4. Configuración de Internet
+### 4. Configuración de Internet {#4-internet-setup}
 
 **Nota:** Las siguientes instrucciones se aplican a los usuarios que configuran el router mediante el panel de administración web de GL.iNet. Si prefiere usar la aplicación GL.iNet, [descargue la app](https://www.gl-inet.com/app/){target="_blank"} y siga las instrucciones en pantalla.
 
@@ -123,19 +125,19 @@ Configure su Spitz Plus usando uno de los métodos de conexión a Internet admit
 
 A continuación se muestra un resumen de las funciones del panel de administración web de Spitz Plus.
 
-## Wireless
+## Wireless {#wireless}
 
 La página Wireless le permite configurar ajustes para las redes Wi-Fi de 5 GHz y 2,4 GHz, incluida la activación o desactivación del Wi-Fi, el ajuste de la potencia TX, la especificación del nombre de la red Wi-Fi (SSID), la activación o desactivación del BSSID aleatorio, la selección del modo de seguridad Wi-Fi, la configuración de la contraseña Wi-Fi, la visibilidad del SSID, el modo Wi-Fi, el ancho de banda y el canal.
 
 Para configurar Wireless, consulte [Wireless](../../interface_guide/wireless.md).
 
-## Clients
+## Clients {#clients}
 
 La página Clients muestra información sobre los dispositivos conectados. Para cada cliente, muestra el nombre del dispositivo, el tipo de conexión (es decir, mediante ethernet o Wi-Fi), las direcciones IP y MAC, las velocidades de descarga y carga, el tráfico total, y ofrece la posibilidad de reservar IP, bloquear el cliente o realizar otras acciones.
 
 Para configurar Clients, consulte [Clients](../../interface_guide/clients.md).
 
-## Servicios en la nube
+## Servicios en la nube {#cloud-services}
 
 === "GoodCloud"
 
@@ -151,7 +153,7 @@ Para configurar Clients, consulte [Clients](../../interface_guide/clients.md).
 
     **Nota**: Actualice su Spitz Plus al firmware v4.8 o superior para usar AstroWarp.
 
-## VPN
+## VPN {#vpn}
 
 Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositivo y el servidor VPN. Proporciona una capa adicional de privacidad y seguridad (cliente VPN) y le permite acceder a una red remota (servidor VPN). Spitz Plus es compatible con OpenVPN y WireGuard.
 
@@ -169,7 +171,7 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
     * [Cómo configurar un cliente WireGuard](../../interface_guide/wireguard_client.md)
     * [Cómo configurar un servidor WireGuard](../../interface_guide/wireguard_server.md)
 
-## Aplicaciones
+## Aplicaciones {#applications}
 
 === "Plug-ins"
 
@@ -197,7 +199,7 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 
 === "Parental Control"
 
-    El control parental es un conjunto de ajustes diseñado para ayudarle a administrar y controlar los dispositivos de sus hijos. Incluye limitar su tiempo de pantalla y restringir el acceso a determinados contenidos. Spitz Plus ofrece dos opciones de control parental: la versión local desarrollada por GL.iNet y la versión integrada de Bark, una aplicación de control parental.
+    El control parental es un conjunto de ajustes diseñado para ayudarle a administrar y controlar los dispositivos de sus hijos. Incluye limitar su tiempo de pantalla y restringir el acceso a determinados contenidos.
 
     Para configurar el control parental, consulte [Parental controls](../../interface_guide/parental_control.md).
 
@@ -217,7 +219,7 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/hyHh8pAxgVw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Red
+## Red {#network}
 
 === "Port forwarding"
 
@@ -293,7 +295,7 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 
     Para configurar los ajustes NAT, consulte [NAT Settings](../../interface_guide/nat_settings.md).
 
-## Sistema
+## Sistema {#system}
 
 === "Overview"
 

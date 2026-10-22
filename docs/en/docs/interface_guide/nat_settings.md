@@ -1,4 +1,4 @@
-# NAT Settings
+# NAT Settings {#nat-settings}
 
 This feature has been available since firmware v4.5 and was renamed to NAT Mode in v4.9.
 
@@ -10,7 +10,7 @@ This page lets you enable **Full Cone NAT** to improve peer-to-peer connection s
 
 ![nat settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/nat_settings/nat_settings.png){class="glboxshadow"}
 
-## Supported Models
+## Supported Models {#supported-models}
 
 ??? "Supported Models"
     - GL-MT6000 (Fortify)
@@ -49,7 +49,7 @@ This page lets you enable **Full Cone NAT** to improve peer-to-peer connection s
     - GL-XE300 (Puli)
     - GL-B1300 (Convexa-B)
 
-## Full Cone NAT
+## Full Cone NAT {#full-cone-nat}
 
 Full Cone NAT acts as a "direct shortcut" for devices like game consoles or phones when connecting to others online (e.g., in multiplayer games or video calls). 
 
@@ -57,7 +57,7 @@ By allowing external devices to directly reach local devices through the router 
 
 **Note**: Enabling this feature may lower security compared to other NAT types, as it exposes device ports to the public network.
 
-## SIP ALG
+## SIP ALG {#sip-alg}
 
 SIP ALG (Application Layer Gateway) functions as a router "translator" for VoIP/SIP-based communication services, such as business desk phones or app-based calls. 
 

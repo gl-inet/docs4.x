@@ -1,4 +1,4 @@
-# Zaplanowane zadania
+# Zaplanowane zadania {#scheduled-tasks}
 
 W lewym panelu bocznym panelu administracyjnego przejdź do **SYSTEM** -> **Scheduled Tasks**.
 
@@ -6,7 +6,7 @@ Funkcja Zaplanowane zadania umożliwia skonfigurowanie codziennych harmonogramó
 
 **Uwaga**: Przed użyciem tej funkcji najpierw zsynchronizuj czas w sekcji [Time Zone](time_zone.md). Jeśli urządzenie będzie wyłączone o zaplanowanej godzinie, zadanie nie zostanie wykonane.
 
-## Harmonogram wyświetlacza LED
+## Harmonogram wyświetlacza LED {#led-display-schedule}
 
 Ta funkcja umożliwia ustawienie harmonogramu włączania i wyłączania diody LED routera.
 
@@ -18,7 +18,7 @@ W modelach z ekranem dotykowym (np. GL-BE3600 Slate 7) harmonogram wyświetlacza
 
 ![LCD display schedule](https://static.gl-inet.com/docs/router/en/4/interface_guide/scheduled_tasks/lcd_display_schedule.png){class="glboxshadow"}
 
-## Zaplanowany restart
+## Zaplanowany restart {#schedule-reboot}
 
 Ta funkcja umożliwia ustawienie harmonogramu automatycznego ponownego uruchamiania routera.
 
@@ -26,7 +26,7 @@ Po jej włączeniu ustaw godzinę restartu, wybierz dni tygodnia, w których har
 
 ![Schedule Reboot](https://static.gl-inet.com/docs/router/en/4/interface_guide/scheduled_tasks/schedule_reboot.png){class="glboxshadow gl-90-desktop"}
 
-## Harmonogram Wi‑Fi
+## Harmonogram Wi‑Fi {#wi-fi-schedule}
 
 Ta funkcja umożliwia ustawienie harmonogramów Wi‑Fi zależnie od pasm obsługiwanych przez router, takich jak 2.4 GHz, 5 GHz, 6 GHz i MLO Wi‑Fi.
 
@@ -36,7 +36,7 @@ Z wyjątkiem MLO Wi‑Fi, które obsługuje wyłącznie tryb planowania włącza
 
 - **Switch TX Power**: Oznacza automatyczne dostosowywanie mocy nadawania bezprzewodowego (która wpływa na siłę sygnału i zasięg) o określonych godzinach, tak aby zrównoważyć wydajność i efektywność energetyczną (np. obniżyć moc przy małym obciążeniu).
 
-### Harmonogram MLO Wi‑Fi
+### Harmonogram MLO Wi‑Fi {#mlo-wi-fi-schedule}
 
 | Obsługiwane modele       |         |
 | :----------------------- | :-----: |
@@ -53,7 +53,7 @@ Włącz harmonogram dla głównej sieci Wi‑Fi lub sieci dla gości, ustaw godz
 
 ![MLO Wi-Fi turn on/off](https://static.gl-inet.com/docs/router/en/4/interface_guide/scheduled_tasks/mlo_turn_on_off.png){class="glboxshadow"}
 
-### Harmonogram Wi‑Fi 6 GHz
+### Harmonogram Wi‑Fi 6 GHz {#6-ghz-wi-fi-schedule}
 
 | Obsługiwane modele       |         |
 | :----------------------- | :-----: |
@@ -78,7 +78,7 @@ Włącz harmonogram dla głównej sieci Wi‑Fi, ustaw dwie akcje czasowe przeł
 - **Restore**: Przywraca moc TX do innego poziomu (np. Max) o innej godzinie (np. 07:00).
 - **days**: Wybierz dni tygodnia, w których te ustawienia mają obowiązywać.
 
-### Harmonogram Wi‑Fi 5 GHz
+### Harmonogram Wi‑Fi 5 GHz {#5-ghz-wi-fi-schedule}
 
 Gdy tryb harmonogramu Wi‑Fi to **Turn On/Off**, możesz ustawić harmonogram włączania i wyłączania zarówno dla głównej sieci Wi‑Fi 5 GHz, jak i sieci Wi‑Fi dla gości.
 
@@ -96,7 +96,7 @@ Włącz harmonogram dla głównej sieci Wi‑Fi, ustaw dwie akcje czasowe przeł
 - **Restore**: Przywraca moc TX do innego poziomu (np. Max) o innej godzinie (np. 07:00).
 - **days**: Wybierz dni tygodnia, w których te ustawienia mają obowiązywać.
 
-### Harmonogram Wi‑Fi 2.4 GHz
+### Harmonogram Wi‑Fi 2.4 GHz {#24-ghz-wi-fi-schedule}
 
 Gdy tryb harmonogramu Wi‑Fi to **Turn On/Off**, możesz ustawić harmonogram włączania i wyłączania zarówno dla głównej sieci Wi‑Fi 2.4 GHz, jak i sieci Wi‑Fi dla gości.
 

@@ -1,10 +1,10 @@
-# How to let all data go through VPN?
+# How to let all data go through VPN? {#how-to-let-all-data-go-through-vpn}
 
 If you want all network traffic on the router to be routed through the VPN, and block all Internet connections when the VPN fails, please follow the steps below to enable the **VPN Kill Switch**.
 
 **Note**: Set up VPN client on your GL.iNet router first before enabling VPN Kill Switch.
 
-## For firmware v4.7 or earlier
+## For firmware v4.7 or earlier {#for-firmware-v47-or-earlier}
 
 Log in to your router's web Admin Panel, navigate to **VPN** -> **VPN Dashboard** -> **VPN Client** section, and click **Global Options**.
 
@@ -16,7 +16,7 @@ Toggle on **Block Non-VPN Traffic** (also called Kill Switch in some firmware ve
 
 **Note:** When Block Non-VPN Traffic / Kill Switch is enabled, if your VPN is disabled or disconnected, all devices connected to the router will be restricted from accessing the Internet to prevent DNS leaks.
 
-## For firmware v4.8 or later
+## For firmware v4.8 or later {#for-firmware-v48-or-later}
 
 In firmware v4.8, the VPN Kill Switch has been split into two modes.
 
@@ -24,7 +24,7 @@ In firmware v4.8, the VPN Kill Switch has been split into two modes.
 
 - **Enhanced Kill Switch (in Policy Mode)**: It is disabled by default to ensure that all traffic not covered by the VPN tunnels and policies above can still access the Internet. In short, it maintains normal Internet access for non-VPN traffic.
 
-### Tunnel Kill Switch
+### Tunnel Kill Switch {#tunnel-kill-switch}
 
 On the router's web Admin Panel, navigate to **VPN** -> **VPN Dashboard**.
 
@@ -44,7 +44,7 @@ The Kill Switch for this tunnel is enabled by default.
 
 ![tunnel options 2](https://static.gl-inet.com/docs/router/en/4/faq/block_non_vpn_traffic/4.8-global-mode-options2.png){class="glboxshadow"}
 
-### Enhanced Kill Switch
+### Enhanced Kill Switch {#enhanced-kill-switch}
 
 This is available in Policy Mode.
 

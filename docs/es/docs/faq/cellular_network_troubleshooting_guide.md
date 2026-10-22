@@ -1,4 +1,4 @@
-# Guía de solución de problemas de red celular
+# Guía de solución de problemas de red celular {#cellular-network-troubleshooting-guide}
 
 Si no puede establecer una conexión celular, compruebe los siguientes puntos.
 
@@ -46,9 +46,9 @@ Si no puede establecer una conexión celular, compruebe los siguientes puntos.
 
     ![](https://static.gl-inet.com/docs/router/en/4/faq/cellular_troubleshoot/sim_settings_apn.png){class="glboxshadow gl-90-desktop"}
 
-    **2.4** Active **Band Masking** y vuelva a probar. Para la versión de firmware 4.7 y anteriores, consulte [este enlace](../interface_guide/internet_cellular_v4.7.md/#band-masking). Para la versión de firmware 4.8 y posteriores, consulte [este enlace](../interface_guide/internet_cellular.md/#band-masking).
+    **2.4** Active **Band Masking** y vuelva a probar. Para la versión de firmware 4.7 y anteriores, consulte [este enlace](../interface_guide/internet_cellular_v4.7.md#band-masking). Para la versión de firmware 4.8 y posteriores, consulte [este enlace](../interface_guide/internet_cellular.md#band-masking).
 
-    **2.5** Bloquee o desbloquee una torre de señal y vuelva a probar. Esta función solo está disponible en GL-X3000 (Spitz AX), GL-XE3000 (Puli AX) y GL-X2000 (Spitz Plus). Haga clic [aquí](../interface_guide/internet_cellular.md/#lock-tower) para ver más instrucciones.
+    **2.5** Bloquee o desbloquee una torre de señal y vuelva a probar. Esta función solo está disponible en GL-X3000 (Spitz AX), GL-XE3000 (Puli AX) y GL-X2000 (Spitz Plus). Haga clic [aquí](../interface_guide/internet_cellular.md#lock-tower) para ver más instrucciones.
 
     Bloquear una torre de señal concreta permite que el router acceda a un recurso de red de alta calidad y mantenga una conectividad celular estable.
 

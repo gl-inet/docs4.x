@@ -1,4 +1,4 @@
-# Connect GL.iNet routers to an EAP network
+# Connect GL.iNet routers to an EAP network {#connect-glinet-routers-to-an-eap-network}
 
 Some GL.iNet routers support connecting to EAP (Extensible Authentication Protocol) Wi-Fi networks.
 
@@ -6,7 +6,7 @@ EAP is an authentication framework commonly used with **802.1X authentication** 
 
 This guide will introduce two ways to connect GL.iNet routers to an EAP Wi-Fi network: via GL.iNet Web Admin Panel and via LuCI.
 
-## Supported Models
+## Supported Models {#supported-models}
 
 ??? "Supported Models"
     - GL-MG1300 (Mango 2)
@@ -53,7 +53,7 @@ This guide will introduce two ways to connect GL.iNet routers to an EAP Wi-Fi ne
     - GL-MT1300 (Beryl)
     - GL-MT300N-V2 (Mango)
 
-## Connect via Web Admin Panel
+## Connect via Web Admin Panel {#connect-via-web-admin-panel}
 
 1. Log in to the web Admin Panel, go to **INTERNET** -> **Repeater** section, then click **Connect**.
 
@@ -79,7 +79,7 @@ This guide will introduce two ways to connect GL.iNet routers to an EAP Wi-Fi ne
 
     ![input username and Password](https://static.gl-inet.com/docs/router/en/4/tutorials/eap/username_and_password.jpg){class="glboxshadow"}
 
-## Connect via LuCI
+## Connect via LuCI {#connect-via-luci}
 
 The GL.iNet web Admin Panel supports only a limited number of EAP types.
 
@@ -103,7 +103,7 @@ If your target EAP network cannot be connected via the web Admin Panel, please t
 
     ![join network](https://static.gl-inet.com/docs/router/en/4/tutorials/eap/luci_join_network.png){class="glboxshadow"}
 
-## Troubleshooting
+## Troubleshooting {#troubleshooting}
 
 If the target EAP network requires additional parameters, such as EAP type (e.g., PEAP, TTLS), domain suffix match, identity, anonymous identity, etc., the EAP connection via web Admin Panel may fail.
 

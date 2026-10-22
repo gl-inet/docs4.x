@@ -1,4 +1,4 @@
-# GL.iNet GoodCloud
+# GL.iNet GoodCloud {#glinet-goodcloud}
 
 ## はじめに {#introduction}
 
@@ -377,4 +377,4 @@ GoodCloud を VPN 経由でルーティングすると、特に次のような�
 
 ---
 
-まだご質問がありますか？[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}をご覧いただくか、[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

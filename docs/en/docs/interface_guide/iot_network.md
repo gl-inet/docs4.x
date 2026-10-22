@@ -1,4 +1,4 @@
-# IoT Network
+# IoT Network {#iot-network}
 
 **Note**: The IoT Network feature was introduced in firmware v4.9.
 
@@ -12,7 +12,7 @@ This page allows you to create a dedicated Wi-Fi network for IoT devices. Isolat
 
 It includes two sections: Basic Settings and DHCP Server Settings.
 
-## Basic Settings
+## Basic Settings {#basic-settings}
 
 You can set the subnet within the IPv4 private address ranges: `192.168.0.0/16`, `172.16.0.0/12`, `10.0.0.0/8`
 
@@ -38,7 +38,7 @@ You can set the subnet within the IPv4 private address ranges: `192.168.0.0/16`,
 
     When enabled, the IoT network cannot access the upstream network and its subnet.
 
-## DHCP Server
+## DHCP Server {#dhcp-server}
 
 If IoT Network is enabled, its DHCP server will be enabled accordingly.
 

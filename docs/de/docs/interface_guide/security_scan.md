@@ -1,4 +1,4 @@
-# Sicherheitsprüfung
+# Sicherheitsprüfung {#security-scan}
 
 **Hinweis**: Diese Funktion wurde mit Firmware v4.11 eingeführt.
 

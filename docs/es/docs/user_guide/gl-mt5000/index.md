@@ -1,12 +1,12 @@
-# Brume 3 (GL-MT5000) Guía del usuario
+# Brume 3 (GL-MT5000) Guía del usuario {#brume-3-gl-mt5000-user-guide}
 
-## Descripción general del producto
+## Descripción general del producto {#product-overview}
 
 Brume 3 (GL-MT5000) es una puerta de enlace de seguridad de alto rendimiento que ejecuta OpenWrt v21.02, equipada con una CPU MediaTek Cortex-A53 de cuatro núcleos, 1 GB de RAM y 8 GB de almacenamiento eMMC para ampliar complementos. Tiene un diseño compacto, ideal para implementaciones con espacio limitado, y admite alojamiento VPN doméstico, SD-WAN site-to-site, así como más de 30 servicios VPN para una conectividad segura entre ubicaciones. Además, incorpora la función DPI de GL.iNet, así como Control parental y AdGuard Home, para cubrir las distintas necesidades de entusiastas de la tecnología y usuarios empresariales.
 
 ![gl-mt5000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt5000/hardware_info/mt5000_interface.png){class="glboxshadow"}
 
-## Contenido del paquete
+## Contenido del paquete {#package-contents}
 
 - 1 x Brume 3 (GL-MT5000)
 - 1 x Adaptador de corriente
@@ -21,27 +21,27 @@ Vea a continuación el video de unboxing de Brume 3.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PupxjK_u8O8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Cómo configurar Brume 3
+## Cómo configurar Brume 3 {#how-to-set-up-brume-3}
 
 Vea este video de configuración o siga los pasos a continuación.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RwbdUy79WHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Encendido
+### 1. Encendido {#1-power-on}
 
 Monte las dos piezas del adaptador de corriente. Conéctelo a su Brume 3 y enchúfelo a una toma de corriente. Se iniciará automáticamente.
 
-### 2. Conecte un dispositivo
+### 2. Conecte un dispositivo {#2-connect-device}
 
 Conecte un dispositivo con cable (por ejemplo, un ordenador o un portátil) al puerto LAN de Brume 3 mediante un cable Ethernet.
 
-### 3. Inicie sesión en el panel de administración web
+### 3. Inicie sesión en el panel de administración web {#3-log-in-to-web-admin-panel}
 
 **Nota:** Las siguientes instrucciones se aplican a los usuarios que configuran el router mediante el panel de administración web de GL.iNet.
 
 Abra un navegador web, introduzca `192.168.8.1` en la barra de direcciones e inicie sesión. Elija su idioma y establezca la contraseña de administrador; después, haga clic en **Apply**.
 
-### 4. Configuración de Internet
+### 4. Configuración de Internet {#4-internet-setup}
 
 Configure su Brume 3 usando uno de los métodos de conexión a Internet admitidos: Ethernet, Tethering y Cellular (opcional). Si desea usar la función [Multi-WAN](../../interface_guide/multi-wan.md), configure más de una conexión a Internet.
 
@@ -81,13 +81,13 @@ Configure su Brume 3 usando uno de los métodos de conexión a Internet admitido
 
 A continuación se muestra un resumen de las funciones del panel de administración web de Brume 3.
 
-## Clients
+## Clients {#clients}
 
 La página Clients muestra información sobre los dispositivos conectados. Para cada cliente, muestra el nombre, las direcciones IP y MAC, las velocidades de descarga y carga, el tráfico total, y ofrece la posibilidad de bloquear el cliente o realizar otras acciones.
 
 Para configurar Clients, consulte [Clients](../../interface_guide/clients.md).
 
-## Servicios en la nube
+## Servicios en la nube {#cloud-services}
 
 === "GoodCloud"
 
@@ -101,7 +101,7 @@ Para configurar Clients, consulte [Clients](../../interface_guide/clients.md).
 
     Para configurar AstroWarp, consulte [AstroWarp](../../interface_guide/astrowarp.md).
 
-## VPN
+## VPN {#vpn}
 
 Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositivo y el servidor VPN. Proporciona una capa adicional de privacidad y seguridad (cliente VPN) y le permite acceder a una red remota (servidor VPN). Brume 3 es compatible con OpenVPN y WireGuard.
 
@@ -119,11 +119,11 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
     * [Cómo configurar un cliente WireGuard](../../interface_guide/wireguard_client.md)
     * [Cómo configurar un servidor WireGuard](../../interface_guide/wireguard_server.md)
 
-## Red
+## Red {#network}
 
 === "Multi-WAN"
 
-    Multi-WAN es una función de red que le permite configurar el router con varias conexiones a Internet (por ejemplo, cellular, repeater y ethernet) al mismo tiempo. Si la conexión a Internet actual falla, el router cambiará automáticamente a otra conexión. Esto garantiza un acceso a Internet fluido e ininterrumpido.
+    Multi-WAN es una función de red que le permite configurar el router con varias conexiones a Internet (por ejemplo, Ethernet, Tethering y Cellular) al mismo tiempo. Si la conexión a Internet actual falla, el router cambiará automáticamente a otra conexión. Esto garantiza un acceso a Internet fluido e ininterrumpido.
 
     Para configurar Multi-WAN, consulte [Multi-WAN](../../interface_guide/multi-wan.md).
 
@@ -182,7 +182,7 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 
     Para configurar la aceleración de red, consulte [Network Acceleration](../../interface_guide/network_acceleration.md).
 
-## Control de flujo
+## Control de flujo {#flow-control}
 
 === "DPI Engine"
 
@@ -224,7 +224,7 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 
     Consulte [SQM](../../interface_guide/sqm.md) para ver instrucciones detalladas.
 
-## Seguridad
+## Seguridad {#security}
 
 === "Port Forwarding"
 
@@ -250,7 +250,7 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 
     Para configurar los ajustes NAT, consulte [NAT Mode](../../interface_guide/nat_settings.md).
 
-## Aplicaciones
+## Aplicaciones {#applications}
 
 === "Plug-ins"
 
@@ -296,7 +296,7 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 
     * [Cómo configurar Tor](../../interface_guide/tor.md)
 
-## Sistema
+## Sistema {#system}
 
 === "Overview"
 

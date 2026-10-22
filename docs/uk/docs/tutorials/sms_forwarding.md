@@ -55,11 +55,11 @@
 
 ![Пересилання SMS електронною поштою](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms_forward_email.png){class="glboxshadow"}
 
-- **SMTP Server Address**: У розкривному списку доступні попередньо задані адреси серверів Gmail, Outlook, iCloud і Yahoo. Для інших поштових сервісів зверніться до їхньої документації або служби підтримки.
+- **SMTP Server Address**: У розкривному списку доступні попередньо задані адреси серверів Gmail, Outlook, iCloud і Yahoo. Наявність заданої адреси не гарантує сумісності з вимогами провайдера до автентифікації. Для інших поштових сервісів зверніться до їхньої документації або служби підтримки.
 
 - **Encryption Method**: Доступні три варіанти: none, SSL/TLS і STARTTLS.
 - **Username**: Введіть адресу електронної пошти.
-- **Password**: Використовуйте пароль програми або пароль облікового запису. Для Gmail, Outlook, iCloud і Yahoo див. інструкції нижче.
+- **Password**: Введіть пароль SMTP, якого вимагає ваш поштовий провайдер, наприклад пароль програми. Див. вимоги окремих провайдерів нижче.
 - **Subject**: Укажіть тему листа.
 
 ??? "Gmail"
@@ -68,9 +68,13 @@
 
     Можна використовувати як порт 465, так і порт 587.
 
-??? "Outlook"
+??? "Outlook.com"
 
-    Для Outlook можна використовувати пароль облікового запису напряму без додаткових налаштувань; підтримується порт 587. Див. офіційний посібник [Налаштування POP, IMAP і SMTP для Outlook.com](https://support.microsoft.com/en-us/office/pop-imap-and-smtp-settings-for-outlook-com-d088b986-291d-42b8-9564-9c414e2aa040){target="_blank"}.
+    Outlook.com вимагає OAuth2 (Modern Authentication) для автентифікації SMTP. Його SMTP-сервер — `smtp-mail.outlook.com`, порт — `587`, шифрування — `STARTTLS`.
+
+    Перш ніж використовувати обліковий запис Outlook.com для надсилання переадресованих SMS, переконайтеся, що прошивка маршрутизатора підтримує цей метод автентифікації.
+
+    Див. документацію Microsoft: [Налаштування POP, IMAP і SMTP для Outlook.com](https://support.microsoft.com/en-us/outlook/pop-imap-and-smtp-settings-for-outlook-com){target="_blank"}.
 
 ??? "iCloud"
 

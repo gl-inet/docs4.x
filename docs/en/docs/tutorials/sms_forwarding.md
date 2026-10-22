@@ -1,10 +1,10 @@
-# SMS Forwarding
+# SMS Forwarding {#sms-forwarding}
 
 GL.iNet cellular routers support SMS forwarding, automatically pushing incoming messages to designated recipients.
 
 **Note**: This feature only works on GL.iNet cellular routers with the original 4G LTE/5G NR module, and is not supported on other modules or any other USB modules.
 
-## Supported Models
+## Supported Models {#supported-models}
 
 ??? "Supported Models"
     - GL-E5800 (Mudi 7)
@@ -41,7 +41,7 @@ GL.iNet cellular routers support SMS forwarding, automatically pushing incoming 
     - GL-B1300 (Convexa-B)
     - GL-AP1300 (Cirrus)
 
-## Quick Setup
+## Quick Setup {#quick-setup}
 
 Take the GL-XE3000 (Puli AX) as an example.
 
@@ -51,7 +51,7 @@ Take the GL-XE3000 (Puli AX) as an example.
 
     ![sms setting](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms.png){class="glboxshadow"}
 
-### Forward via Email
+### Forward via Email {#forward-via-email}
 
 ![sms forwarding email](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms_forward_email.png){class="glboxshadow"}
 
@@ -88,7 +88,7 @@ Take the GL-XE3000 (Puli AX) as an example.
 
 You can add up to 10 email addresses.
 
-### Forward via SMS
+### Forward via SMS {#forward-via-sms}
 
 ![sms forwarding phone](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms_forward_phone.png){class="glboxshadow"}
 

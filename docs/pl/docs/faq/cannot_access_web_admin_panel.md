@@ -1,10 +1,10 @@
-# Nie można uzyskać dostępu do web Admin Panel
+# Nie można uzyskać dostępu do web Admin Panel {#cannot-access-web-admin-panel}
 
 Czasami dostęp do [http://192.168.8.1](http://192.168.8.1) może być niemożliwy, przez co nie da się zalogować do web Admin Panel. Przyczyn może być kilka.
 
 ![can't access admin](https://static.gl-inet.com/docs/router/en/4/faq/cannot_access_web_admin_panel/cantaccessadmin.jpg){class="glboxshadow"}
 
-## Możliwe przyczyny
+## Możliwe przyczyny {#the-possible-causes}
 
 * Komputer lub telefon nie jest połączony z routerem.
 * `192.168.8.1` to domyślny adres IP routera. Być może został zmieniony.
@@ -12,7 +12,7 @@ Czasami dostęp do [http://192.168.8.1](http://192.168.8.1) może być niemożli
 * Oprogramowanie VPN lub proxy przejmuje ruch sieciowy, co może blokować dostęp do panelu administracyjnego.
 * Router został uszkodzony programowo.
 
-## Sprawdź podstawowe kroki dostępu do web Admin Panel
+## Sprawdź podstawowe kroki dostępu do web Admin Panel {#check-the-general-steps-to-access-web-admin-panel}
 
 1. Włącz router bez podłączania go do innych urządzeń.
 2. Połącz telefon lub laptop z Wi-Fi routera i wpisz klucz Wi-Fi wydrukowany na etykiecie routera.
@@ -21,7 +21,7 @@ Czasami dostęp do [http://192.168.8.1](http://192.168.8.1) może być niemożli
 
 Możesz też użyć [aplikacji](mobile_app.md), aby uzyskać dostęp do routera.
 
-## Inne sposoby rozwiązania problemu
+## Inne sposoby rozwiązania problemu {#other-steps-to-fix-this-issue}
 
 1. [Sprawdź połączenie](#check-the-connection)
 2. [Sprawdź adres IP routera](#check-routers-ip-address)

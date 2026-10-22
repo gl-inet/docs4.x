@@ -1,12 +1,12 @@
-# Guida utente di Marble (GL-B3000)
+# Guida utente di Marble (GL-B3000) {#marble-gl-b3000-user-guide}
 
-## Panoramica del prodotto
+## Panoramica del prodotto {#product-overview}
 
-Il router Marble (GL-B3000) e un vero oggetto di design, concepito come una cornice fotografica per ospitare la tua opera preferita e valorizzare l'ambiente domestico. Oltre al suo aspetto elegante, Marble (GL-B3000) offre prestazioni di alto livello grazie al supporto Wi-Fi 6 e alle funzionalita VPN.
+Il router Marble (GL-B3000) e un vero oggetto di design, concepito come una cornice fotografica per ospitare la tua opera preferita e valorizzare l'ambiente domestico. Oltre al suo aspetto elegante, Marble (GL-B3000) offre prestazioni di alto livello grazie al supporto Wi-Fi 6 e alle funzionalità VPN.
 
 ![gl-b3000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-b3000/hardware_info/b3000_interface.png){class="glboxshadow"}
 
-## Contenuto della confezione
+## Contenuto della confezione {#package-contents}
 
 - 1 x Marble (GL-B3000)
 - 1 x Manuale utente
@@ -21,7 +21,7 @@ Il router Marble (GL-B3000) e un vero oggetto di design, concepito come una corn
 
 ![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-b3000/first_time_setup/b3000_unboxing.jpg){class="glboxshadow"}
 
-## Come configurare Marble
+## Come configurare Marble {#how-to-set-up-marble}
 
 Guarda questi video di installazione e configurazione oppure segui i passaggi riportati di seguito.
 
@@ -29,11 +29,11 @@ Guarda questi video di installazione e configurazione oppure segui i passaggi ri
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-U2WTVYRkPU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Accendi il router
+### 1. Accendi il router {#1-power-on}
 
 Assembla l'alimentatore in due parti. Collegalo al router e inseriscilo in una presa di corrente. Il router si avviera automaticamente.
 
-### 2. Collega un dispositivo
+### 2. Collega un dispositivo {#2-connect-device}
 
 Collega un dispositivo, ad esempio un computer, un laptop o uno smartphone, al router tramite Wi-Fi o cavo Ethernet.
 
@@ -45,11 +45,11 @@ Collega un dispositivo, ad esempio un computer, un laptop o uno smartphone, al r
 
     Sul dispositivo, vai in Settings -> WLAN, individua il nome della rete Wi-Fi del router nell'elenco delle reti disponibili e inserisci la password. Il nome di rete e la password predefiniti sono stampati sull'etichetta del router.
 
-### 3. Accedi al pannello di amministrazione web
+### 3. Accedi al pannello di amministrazione web {#3-log-in-to-web-admin-panel}
 
 Apri un browser web, inserisci `192.168.8.1` nella barra degli indirizzi ed effettua l'accesso. Scegli la lingua e imposta la password di amministrazione, quindi fai clic su **Apply**.
 
-### 4. Configurazione della connessione Internet
+### 4. Configurazione della connessione Internet {#4-internet-setup}
 
 **Note:** Le istruzioni seguenti si applicano agli utenti che configurano il router tramite il pannello di amministrazione web GL.iNet. Se preferisci usare l'app GL.iNet, [scarica l'app](https://www.gl-inet.com/app/){target="_blank"} e segui le istruzioni mostrate sullo schermo.
 
@@ -79,7 +79,7 @@ Configura Marble usando uno dei metodi di connessione Internet supportati: Ether
 
 ---
 
-## Come configurare una VPN
+## Come configurare una VPN {#how-to-set-up-a-vpn}
 
 Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il dispositivo e il server VPN. Offre un ulteriore livello di privacy e sicurezza come client VPN e consente di accedere a una rete remota come server VPN. Marble, come gli altri router GL.iNet, supporta OpenVPN e WireGuard. Inoltre supporta anche Tor.
 
@@ -92,7 +92,7 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il disp
 
 === "WireGuard"
 
-    Marble, come gli altri router GL.iNet, supporta il protocollo WireGuard, che offre ottima velocita e praticita. Per configurare WireGuard, segui questi tutorial:
+    Marble, come gli altri router GL.iNet, supporta il protocollo WireGuard, che offre ottima velocità e praticita. Per configurare WireGuard, segui questi tutorial:
 
     * [Come configurare un client WireGuard](../../interface_guide/wireguard_client.md)
     * [Come configurare un server WireGuard](../../interface_guide/wireguard_server.md)
@@ -105,21 +105,21 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il disp
 
 ---
 
-## Wireless e client
+## Wireless e client {#wireless-and-clients}
 
 === "Wireless"
 
-    La pagina Wireless consente di configurare le impostazioni delle reti Wi-Fi a 5 GHz e 2,4 GHz, tra cui attivazione/disattivazione del Wi-Fi, potenza TX, nome della rete Wi-Fi (SSID), BSSID casuale, modalita di sicurezza Wi-Fi, password Wi-Fi, visibilita dell'SSID, modalita Wi-Fi, larghezza di banda e canale.
+    La pagina Wireless consente di configurare le impostazioni delle reti Wi-Fi a 5 GHz e 2,4 GHz, tra cui attivazione/disattivazione del Wi-Fi, potenza TX, nome della rete Wi-Fi (SSID), BSSID casuale, modalità di sicurezza Wi-Fi, password Wi-Fi, visibilità dell'SSID, modalità Wi-Fi, larghezza di banda e canale.
 
     Per configurarla, fai riferimento a [Wireless](../../interface_guide/wireless.md).
 
 === "Clients"
 
-    La pagina Clients mostra informazioni sui dispositivi collegati. Per ogni client visualizza nome del dispositivo, tipo di connessione (cioe via Ethernet o Wi-Fi), indirizzi IP e MAC, velocita di download e upload, traffico totale e offre la possibilita di bloccare il client o eseguire altre azioni.
+    La pagina Clients mostra informazioni sui dispositivi collegati. Per ogni client visualizza nome del dispositivo, tipo di connessione (cioe via Ethernet o Wi-Fi), indirizzi IP e MAC, velocità di download e upload, traffico totale e offre la possibilità di bloccare il client o eseguire altre azioni.
 
     Per configurarla, fai riferimento a [Clients](../../interface_guide/clients.md).
 
-## Servizi cloud
+## Servizi cloud {#cloud-services}
 
 === "GoodCloud"
 
@@ -131,13 +131,13 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il disp
 
     Questa funzione e disponibile a partire dal firmware v4.7.
 
-    AstroWarp e una piattaforma di rete avanzata progettata per offrire networking remoto senza interruzioni e gestione remota dei dispositivi. Sviluppata specificamente per l'integrazione con i router GL.iNet, AstroWarp supporta una gestione completa dei dispositivi sull'intera rete, consentendo il controllo sia dei dispositivi a monte sia di quelli a valle. Con un focus sulla gestione dell'intera rete e sul futuro supporto al controllo a livello hardware, AstroWarp offre una soluzione piu robusta e affidabile per la gestione dei dispositivi e il mantenimento di reti sicure e stabili.
+    AstroWarp e una piattaforma di rete avanzata progettata per offrire networking remoto senza interruzioni e gestione remota dei dispositivi. Sviluppata specificamente per l'integrazione con i router GL.iNet, AstroWarp supporta una gestione completa dei dispositivi sull'intera rete, consentendo il controllo sia dei dispositivi a monte sia di quelli a valle. Con un focus sulla gestione dell'intera rete e sul futuro supporto al controllo a livello hardware, AstroWarp offre una soluzione più robusta e affidabile per la gestione dei dispositivi e il mantenimento di reti sicure e stabili.
 
-## Applicazioni
+## Applicazioni {#applications}
 
 === "Plug-ins"
 
-    I plug-in sono funzionalita aggiuntive che ampliano le capacita del router. Per configurarli, fai riferimento a [Plug-ins](../../interface_guide/plugins.md).
+    I plug-in sono funzionalità aggiuntive che ampliano le capacità del router. Per configurarli, fai riferimento a [Plug-ins](../../interface_guide/plugins.md).
 
 === "Dynamic DNS"
 
@@ -167,7 +167,7 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il disp
 
 ---
 
-## Impostazioni di rete
+## Impostazioni di rete {#network-settings}
 
 === "Firewall"
 
@@ -181,7 +181,7 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il disp
 
 === "Multi-WAN"
 
-    Multi-WAN e una funzione di rete che consente di configurare il router con piu connessioni Internet, ad esempio cellular, repeater ed ethernet, contemporaneamente. Se la connessione Internet attuale si interrompe, il router passera automaticamente a un'altra connessione Internet. In questo modo l'accesso a Internet rimane fluido e ininterrotto.
+    Multi-WAN e una funzione di rete che consente di configurare il router con più connessioni Internet, ad esempio Ethernet e Repeater, contemporaneamente. Se la connessione Internet attuale si interrompe, il router passera automaticamente a un'altra connessione Internet. In questo modo l'accesso a Internet rimane fluido e ininterrotto.
 
     Per configurarlo, fai riferimento a [Multi-WAN](../../interface_guide/multi-wan.md).
 
@@ -214,7 +214,7 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il disp
     La pagina DNS offre opzioni per personalizzare le impostazioni del Domain Name System del router, migliorando sia la sicurezza sia le prestazioni. Le funzioni principali disponibili in questa pagina includono:
 
     * Encrypted DNS: configura DNS crittografato per proteggere i dati di navigazione da monitoraggio o manomissioni, garantendo privacy e sicurezza.
-    * Manual DNS: imposta manualmente i server DNS desiderati, ottenendo un controllo personalizzato sulle query DNS e, potenzialmente, tempi di risoluzione piu rapidi.
+    * Manual DNS: imposta manualmente i server DNS desiderati, ottenendo un controllo personalizzato sulle query DNS e, potenzialmente, tempi di risoluzione più rapidi.
     * DNS Proxy: abilita il proxy DNS per instradare le richieste DNS dei dispositivi tramite un server DNS specificato, fornendo un ulteriore livello di controllo sul traffico DNS.
 
     Queste impostazioni consentono di ottimizzare le prestazioni e la sicurezza DNS della rete in base alle proprie esigenze.
@@ -223,12 +223,12 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il disp
 
 === "Network Mode"
 
-    La pagina Network Mode consente di configurare il router per operare in diverse modalita, offrendo flessibilita per soddisfare varie esigenze di rete. Le modalita disponibili includono:
+    La pagina Network Mode consente di configurare il router per operare in diverse modalità, offrendo flessibilità per soddisfare varie esigenze di rete. Le modalità disponibili includono:
 
-    * Router: funziona come router standard, gestendo il traffico tra la rete locale e Internet e fornendo funzionalita come NAT, firewall e DHCP.
-    * Access Point: funziona come punto di accesso, estendendo la rete cablata esistente tramite connettivita wireless senza instradare il traffico.
-    * Extender: funziona come range extender, ampliando il segnale della rete wireless esistente per coprire un'area piu ampia ed eliminare le zone d'ombra.
-    * WDS (Wireless Distribution System): simile alla modalita Extender; scegli WDS se il router principale supporta la modalita WDS.
+    * Router: funziona come router standard, gestendo il traffico tra la rete locale e Internet e fornendo funzionalità come NAT, firewall e DHCP.
+    * Access Point: funziona come punto di accesso, estendendo la rete cablata esistente tramite connettività wireless senza instradare il traffico.
+    * Extender: funziona come range extender, ampliando il segnale della rete wireless esistente per coprire un'area più ampia ed eliminare le zone d'ombra.
+    * WDS (Wireless Distribution System): simile alla modalità Extender; scegli WDS se il router principale supporta la modalità WDS.
 
     Per istruzioni dettagliate e ulteriori informazioni, fai riferimento a [Network Mode](../../interface_guide/network_mode.md).
 
@@ -236,14 +236,14 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il disp
 
 === "IPv6"
 
-    La pagina IPv6 consente di configurare le impostazioni IPv6 della rete, offrendo supporto per il piu recente protocollo Internet. In questa pagina puoi abilitare IPv6 e scegliere tra quattro modalita diverse in base alle esigenze della rete:
+    La pagina IPv6 consente di configurare le impostazioni IPv6 della rete, offrendo supporto per il più recente protocollo Internet. In questa pagina puoi abilitare IPv6 e scegliere tra quattro modalità diverse in base alle esigenze della rete:
 
-    * Native: ottiene un indirizzo IPv6 direttamente dal provider Internet, consentendo una connettivita IPv6 nativa semplice ed efficiente.
+    * Native: ottiene un indirizzo IPv6 direttamente dal provider Internet, consentendo una connettività IPv6 nativa semplice ed efficiente.
     * Passthrough: permette al traffico IPv6 di attraversare il router fino ai dispositivi della rete, facendo di fatto da ponte senza che il router gestisca direttamente l'instradamento IPv6.
     * NAT6: utilizza il Network Address Translation per IPv6 (NAT6) per tradurre tra indirizzi IPv6 interni ed esterni, in modo simile a quanto avviene con NAT per IPv4.
-    * Static IPv6: consente di configurare manualmente un indirizzo IPv6 statico per il router, offrendo un indirizzo fisso per una connettivita costante e una gestione piu semplice dei servizi di rete.
+    * Static IPv6: consente di configurare manualmente un indirizzo IPv6 statico per il router, offrendo un indirizzo fisso per una connettività costante e una gestione più semplice dei servizi di rete.
 
-    Queste impostazioni aiutano a sfruttare i vantaggi di IPv6, tra cui uno spazio di indirizzamento maggiore, funzionalita di sicurezza migliorate e prestazioni migliori.
+    Queste impostazioni aiutano a sfruttare i vantaggi di IPv6, tra cui uno spazio di indirizzamento maggiore, funzionalità di sicurezza migliorate e prestazioni migliori.
 
     Per istruzioni dettagliate e ulteriori informazioni, fai riferimento a [IPv6](../../interface_guide/ipv6.md).
 
@@ -251,17 +251,17 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il disp
 
     La pagina MAC Address consente di visualizzare e gestire gli indirizzi Media Access Control (MAC) associati al router. Le funzioni principali disponibili in questa pagina includono:
 
-    * Factory Default: mostra gli indirizzi MAC predefiniti del router per le modalita Ethernet e Repeater, fornendo un riferimento per le impostazioni hardware originali.
+    * Factory Default: mostra gli indirizzi MAC predefiniti del router per le modalità Ethernet e Repeater, fornendo un riferimento per le impostazioni hardware originali.
     * Clone: clona l'indirizzo MAC di uno specifico dispositivo client. Questa funzione e particolarmente utile negli scenari in cui l'accesso alla rete e limitato a determinati dispositivi.
-    * Manual: consente di specificare manualmente un indirizzo MAC personalizzato per il router. Inoltre, puoi usare il pulsante Random per generare un indirizzo MAC casuale, offrendo maggiore flessibilita e privacy.
+    * Manual: consente di specificare manualmente un indirizzo MAC personalizzato per il router. Inoltre, puoi usare il pulsante Random per generare un indirizzo MAC casuale, offrendo maggiore flessibilità e privacy.
 
-    Queste funzioni consentono di gestire in modo efficace gli indirizzi MAC del router, garantendo compatibilita e flessibilita in diversi ambienti di rete.
+    Queste funzioni consentono di gestire in modo efficace gli indirizzi MAC del router, garantendo compatibilità e flessibilità in diversi ambienti di rete.
 
     Per istruzioni dettagliate e ulteriori informazioni, fai riferimento a [MAC Address](../../interface_guide/mac_address.md).
 
 === "Drop-in Gateway"
 
-    Drop-in Gateway estende le funzionalita del router principale con caratteristiche che potrebbe non avere, tra cui AdGuard Home, DNS crittografato e VPN. Per configurarlo, fai riferimento a [Come configurare Drop-in Gateway](../../tutorials/how_to_set_up_drop_in_gateway.md).
+    Drop-in Gateway estende le funzionalità del router principale con caratteristiche che potrebbe non avere, tra cui AdGuard Home, DNS crittografato e VPN. Per configurarlo, fai riferimento a [Come configurare Drop-in Gateway](../../tutorials/how_to_set_up_drop_in_gateway.md).
 
 ---
 
@@ -275,7 +275,7 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il disp
 
 === "Network Acceleration"
 
-    La pagina Network Acceleration consente di abilitare funzioni che riducono il carico della CPU e accelerano l'inoltro dei pacchetti di traffico, migliorando le prestazioni complessive della rete. Tuttavia, l'abilitazione della network acceleration puo entrare in conflitto con alcune funzionalita.
+    La pagina Network Acceleration consente di abilitare funzioni che riducono il carico della CPU e accelerano l'inoltro dei pacchetti di traffico, migliorando le prestazioni complessive della rete. Tuttavia, l'abilitazione della network acceleration può entrare in conflitto con alcune funzionalità.
 
     Per istruzioni dettagliate e ulteriori informazioni, fai riferimento a [Network Acceleration](../../interface_guide/network_acceleration.md).
 
@@ -283,16 +283,16 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il disp
 
     La pagina NAT Settings consente di configurare opzioni di Network Address Translation (NAT) per ottimizzare applicazioni specifiche e migliorare le prestazioni di rete. Le principali impostazioni disponibili includono:
 
-    * Enable Full Cone NAT: Full Cone NAT puo essere usato per ridurre la latenza nei giochi, offrendo un percorso piu diretto e meno restrittivo per il traffico di rete. Tuttavia, puo essere meno sicuro, poiche consente agli host esterni di avviare piu facilmente connessioni verso i dispositivi interni.
-    * Enable SIP ALG: il Session Initiation Protocol Application Layer Gateway (SIP ALG) puo aiutare a mitigare i problemi causati da NAT multipli, che possono influire sui servizi VoIP. Tuttavia, nella maggior parte dei casi SIP ALG potrebbe non essere utile e puo causare problemi come audio unidirezionale, telefoni che non squillano, chiamate che cadono o che finiscono direttamente in segreteria.
+    * Enable Full Cone NAT: Full Cone NAT può essere usato per ridurre la latenza nei giochi, offrendo un percorso più diretto e meno restrittivo per il traffico di rete. Tuttavia, può essere meno sicuro, poiché consente agli host esterni di avviare più facilmente connessioni verso i dispositivi interni.
+    * Enable SIP ALG: il Session Initiation Protocol Application Layer Gateway (SIP ALG) può aiutare a mitigare i problemi causati da NAT multipli, che possono influire sui servizi VoIP. Tuttavia, nella maggior parte dei casi SIP ALG potrebbe non essere utile e può causare problemi come audio unidirezionale, telefoni che non squillano, chiamate che cadono o che finiscono direttamente in segreteria.
 
-    Queste impostazioni consentono di adattare il comportamento NAT del router alle esigenze della rete, bilanciando miglioramenti di prestazione con considerazioni su sicurezza e funzionalita.
+    Queste impostazioni consentono di adattare il comportamento NAT del router alle esigenze della rete, bilanciando miglioramenti di prestazione con considerazioni su sicurezza e funzionalità.
 
     Per istruzioni dettagliate e ulteriori informazioni, fai riferimento a [NAT Settings](../../interface_guide/nat_settings.md).
 
 ---
 
-## Impostazioni di sistema
+## Impostazioni di sistema {#system-settings}
 
 === "Overview"
 
@@ -310,7 +310,7 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il disp
 
 === "Upgrade"
 
-    La pagina Upgrade viene usata per aggiornare il firmware del router alla versione piu recente, garantendo prestazioni migliori, maggiore sicurezza e nuove funzioni. Questa pagina offre due opzioni di aggiornamento:
+    La pagina Upgrade viene usata per aggiornare il firmware del router alla versione più recente, garantendo prestazioni migliori, maggiore sicurezza e nuove funzioni. Questa pagina offre due opzioni di aggiornamento:
 
     * Online Upgrade: verifica automaticamente sul server del produttore la disponibilità della versione firmware più recente. Se disponibile online, è possibile installarla.
     * Local Upgrade: consente di caricare manualmente un file firmware dal computer per aggiornare il router, offrendo controllo sulla versione e sul momento dell'aggiornamento.
@@ -324,9 +324,9 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il disp
     La pagina Scheduled Tasks consente di automatizzare diverse funzioni del router in base a una pianificazione predefinita, migliorando praticita ed efficienza. Le funzioni principali di questa pagina includono:
 
     * LED Display Schedule: imposta una pianificazione per accendere o spegnere automaticamente i LED del router, riducendo l'inquinamento luminoso in determinati orari.
-    * Schedule Reboot: configura il riavvio automatico del router a intervalli specifici per mantenere prestazioni e stabilita ottimali.
+    * Schedule Reboot: configura il riavvio automatico del router a intervalli specifici per mantenere prestazioni e stabilità ottimali.
     * 5GHz Wi-Fi Status Schedule: crea una pianificazione per abilitare o disabilitare la banda Wi-Fi a 5 GHz in orari specifici, ottimizzando l'uso della rete e l'efficienza energetica.
-    * 2.4GHz Wi-Fi Status Schedule: imposta una pianificazione per controllare la banda Wi-Fi a 2,4 GHz, gestendo meglio disponibilita della rete e consumo energetico.
+    * 2.4GHz Wi-Fi Status Schedule: imposta una pianificazione per controllare la banda Wi-Fi a 2,4 GHz, gestendo meglio disponibilità della rete e consumo energetico.
 
     Queste opzioni di pianificazione offrono maggiore controllo sul funzionamento del router, garantendo che soddisfi esigenze e preferenze specifiche.
 
@@ -336,18 +336,18 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il disp
 
 === "Time Zone"
 
-    La pagina Time Zone consente di impostare il fuso orario corretto per il router, assicurando che tutte le attivita pianificate, i log e gli eventi di sistema riportino timestamp accurati in base all'ora locale. Questa impostazione e essenziale per mantenere registrazioni precise e per la corretta esecuzione delle configurazioni basate sull'orario.
+    La pagina Time Zone consente di impostare il fuso orario corretto per il router, assicurando che tutte le attività pianificate, i log e gli eventi di sistema riportino timestamp accurati in base all'ora locale. Questa impostazione e essenziale per mantenere registrazioni precise e per la corretta esecuzione delle configurazioni basate sull'orario.
 
     Per istruzioni dettagliate e ulteriori informazioni, fai riferimento a [Time Zone](../../interface_guide/time_zone.md).
 
 === "Log"
 
-    La pagina Log offre accesso a vari registri che memorizzano attivita ed eventi del router, aiutando nella risoluzione dei problemi e nel monitoraggio delle prestazioni. Questa pagina include:
+    La pagina Log offre accesso a vari registri che memorizzano attività ed eventi del router, aiutando nella risoluzione dei problemi e nel monitoraggio delle prestazioni. Questa pagina include:
 
-    * System Log: log dettagliati relativi a eventi e attivita a livello di sistema.
+    * System Log: log dettagliati relativi a eventi e attività a livello di sistema.
     * Kernel Log: log relativi alle operazioni e agli eventi del kernel.
     * Crash Log: registrazioni di arresti anomali ed errori di sistema, utili per diagnosticare problemi critici.
-    * Cloud Log: log delle interazioni e delle attivita legate ai servizi GoodCloud integrati nel router.
+    * Cloud Log: log delle interazioni e delle attività legate ai servizi GoodCloud integrati nel router.
     * Nginx Log: log del server web Nginx, se usato dal router, che riportano traffico web e operazioni del server.
 
     Inoltre, la pagina include il pulsante Export Log, che consente di esportare tutti i log raccolti per l'analisi da parte del supporto tecnico. Questa funzione e molto utile per diagnosticare problemi complessi e ottenere assistenza professionale.
@@ -370,7 +370,7 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il disp
 
 === "Reset Firmware"
 
-    La pagina Reset Firmware consente di ripristinare le impostazioni predefinite della versione firmware attualmente installata sul router, cancellando tutte le configurazioni personalizzate. Questo processo riporta il router alle impostazioni di default della versione firmware corrente. Puo essere utile per risolvere problemi persistenti o per ricominciare da zero con la configurazione predefinita del firmware attuale.
+    La pagina Reset Firmware consente di ripristinare le impostazioni predefinite della versione firmware attualmente installata sul router, cancellando tutte le configurazioni personalizzate. Questo processo riporta il router alle impostazioni di default della versione firmware corrente. Può essere utile per risolvere problemi persistenti o per ricominciare da zero con la configurazione predefinita del firmware attuale.
 
     Per istruzioni dettagliate e ulteriori informazioni, fai riferimento a [Reset Firmware](../../interface_guide/reset_firmware.md).
 

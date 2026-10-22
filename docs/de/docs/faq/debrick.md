@@ -1,4 +1,4 @@
-# U-Boot verwenden, um Ihren Router wiederherzustellen
+# U-Boot verwenden, um Ihren Router wiederherzustellen {#using-uboot-to-unbrick-your-router}
 
 Wenn Sie Ihren Router aufgrund von DIY-Projekten oder dem Flashen einer falschen Firmware beschädigt haben, kann der Zugriff fehlschlagen. In diesem Fall können Sie die Firmware über das U-Boot-Failsafe neu installieren.
 
@@ -6,13 +6,13 @@ Wenn Sie Ihren Router aufgrund von DIY-Projekten oder dem Flashen einer falschen
 
 ---
 
-## Vorbereitung
+## Vorbereitung {#preparation}
 
 Bitte bereiten Sie einen Computer oder Laptop mit einem Ethernet-Port vor. Falls Ihr Computer keinen Ethernet-Port besitzt, wird ein zusätzlicher USB-Ethernet-Adapter benötigt.
 
 **Hinweis**: GL-E5800 (Mudi 7) unterstützt derzeit kein Firmware-Flashen über U-Boot.
 
-## Schritte zur Wiederherstellung
+## Schritte zur Wiederherstellung {#unbrick-steps}
 
 Sehen Sie sich dieses Video-Tutorial an oder folgen Sie den nachstehenden Schritten, um auf die U-Boot-Web-Oberfläche zuzugreifen und die Firmware neu zu installieren.
 

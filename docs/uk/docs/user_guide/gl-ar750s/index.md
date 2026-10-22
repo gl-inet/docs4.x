@@ -1,7 +1,5 @@
 # Посібник користувача Slate (GL-AR750S) {#slate-gl-ar750s-user-guide}
 
-<span id="hardware-info"></span>
-
 ## Огляд виробу {#product-overview}
 
 Slate (GL-AR750S) — наш перший дводіапазонний дорожній маршрутизатор стандарту AC із гігабітними портами. Завдяки 3 портам Gigabit Ethernet він забезпечує вищу швидкість під час подорожей. Крім того, флешпам’ять обсягом 128MB із подвійною організацією забезпечує більше місця для зберігання та швидшу роботу. Слот MicroSD (TF) дає змогу збільшити обсяг пам’яті до 128GB.
@@ -23,19 +21,13 @@ Slate (GL-AR750S) — наш перший дводіапазонний доро�
 
 ![Комплект gl-ar750s](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar750s/first_time_setup/ar750s_unboxing.jpg){class="glboxshadow"}
 
-Перегляньте [відео розпакування](../../video_library/unboxing_first_set_up.md#slategl-ar750s-ext) Slate.
-
 ## Технічні характеристики {#specifications}
 
 [Технічні характеристики GL-AR750S](https://www.gl-inet.com/products/gl-ar750s/#specs){target="_blank"}
 
----
-
 ## Перше налаштування {#first-time-setup}
 
 Процедура налаштування всіх маршрутизаторів GL.iNet подібна. Див. [посібник із першого налаштування](../../faq/first_time_setup.md).
-
----
 
 ## Інтернет {#internet}
 

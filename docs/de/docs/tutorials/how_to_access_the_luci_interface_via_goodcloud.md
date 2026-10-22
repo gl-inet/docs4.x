@@ -1,16 +1,16 @@
-# So greifen Sie über GoodCloud auf die LuCI-Oberfläche zu
+# So greifen Sie über GoodCloud auf die LuCI-Oberfläche zu {#how-to-access-the-luci-interface-via-goodcloud}
 
 GL.iNet [GoodCloud](https://www.goodcloud.xyz/){target="_blank"} überwindet geografische Einschränkungen und bietet eine praktische Möglichkeit zur Remote-Verwaltung von Routern. Über GoodCloud können Sie jederzeit und von überall auf die LuCI-Oberfläche des Routers zugreifen, verschiedene Einstellungen am Router vornehmen und das Netzwerk einfach verwalten.
 
-## Vorbereitung
+## Vorbereitung {#preparation}
 
 - Hardware: Ein GL.iNet-Router, der mit dem Internet verbunden wurde und ordnungsgemäß funktioniert.
 - Netzwerkumgebung: Das Netzwerk, mit dem der Router verbunden ist, ist stabil und hat normalen Internetzugang.
-- Gerätebindung: Sie müssen [Ihren GL.iNet-Router mit Ihrem GoodCloud-Konto verknüpfen](../interface_guide/cloud.md/#setup-your-goodcloud-account). Wenn Sie noch kein GoodCloud-Konto haben, [registrieren](https://www.goodcloud.xyz/){target="_blank"} Sie sich bitte.
+- Gerätebindung: Sie müssen [Ihren GL.iNet-Router mit Ihrem GoodCloud-Konto verknüpfen](../interface_guide/cloud.md#bind-devices-to-cloud). Wenn Sie noch kein GoodCloud-Konto haben, [registrieren](https://www.goodcloud.xyz/){target="_blank"} Sie sich bitte.
 
-## Schritte für den Zugriff auf die LuCI-Oberfläche über GoodCloud
+## Schritte für den Zugriff auf die LuCI-Oberfläche über GoodCloud {#steps-to-access-the-luci-interface-via-goodcloud}
 
-### Für Firmware-Version 4.7 oder höher
+### Für Firmware-Version 4.7 oder höher {#for-firmware-version-47-or-above}
 
 Ab v4.7 können Benutzer direkt über die GoodCloud-Plattform auf die LuCI-Seite zugreifen, ohne den Web-Adminbereich des Routers aufzurufen.
 
@@ -32,7 +32,7 @@ Ab v4.7 können Benutzer direkt über die GoodCloud-Plattform auf die LuCI-Seite
 
     ![luci interface](https://static.gl-inet.com/docs/router/de/4/tutorials/access_luci_via_goodcloud/log_in_luci_mt6000.png){class="glboxshadow"}    
 
-### Für Firmware-Version 4.6 oder niedriger
+### Für Firmware-Version 4.6 oder niedriger {#for-firmware-version-46-or-below}
 
 1. Melden Sie sich [hier](https://www.goodcloud.xyz/){target="_blank"} bei Ihrem GoodCloud-Konto an.
 

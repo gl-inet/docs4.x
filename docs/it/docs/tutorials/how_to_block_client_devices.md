@@ -1,25 +1,25 @@
-# Come bloccare dispositivi client specifici su un router GL.iNet
+# Come bloccare dispositivi client specifici su un router GL.iNet {#how-to-block-specific-client-devices-on-a-glinet-router}
 
 Questo tutorial mostra come bloccare dispositivi client specifici su un router GL.iNet. Bloccando i dispositivi client, impedisci accessi non autorizzati alla rete. Questo aiuta a migliorare la sicurezza della rete o a controllare l'accesso a Internet della tua famiglia.
 
-I router GL.iNet bloccano i dispositivi client in base ai loro indirizzi MAC, un identificatore univoco di 12 caratteri assegnato ai singoli dispositivi in rete. Questo metodo e' chiamato anche filtro degli indirizzi MAC.
+I router GL.iNet bloccano i dispositivi client in base ai loro indirizzi MAC, un identificatore univoco di 12 caratteri assegnato ai singoli dispositivi in rete. Questo metodo è chiamato anche filtro degli indirizzi MAC.
 
-Esistono due metodi per bloccare i dispositivi client sul router GL.iNet: tramite [pannello di amministrazione del router](#bloccare-i-dispositivi-client-tramite-il-pannello-di-amministrazione) oppure tramite [app mobile GL.iNet](#bloccare-i-dispositivi-client-tramite-lapp-mobile-glinet).
+Esistono due metodi per bloccare i dispositivi client sul router GL.iNet: tramite [pannello di amministrazione del router](#block-client-devices-via-the-admin-panel) oppure tramite [app mobile GL.iNet](#block-client-devices-via-the-glinet-mobile-app).
 
-## Bloccare i dispositivi client tramite il pannello di amministrazione
+## Bloccare i dispositivi client tramite il pannello di amministrazione {#block-client-devices-via-the-admin-panel}
 
-### 1. Accedi al pannello di amministrazione
+### 1. Accedi al pannello di amministrazione {#1-sign-in-to-the-admin-panel}
 
 In un browser web, inserisci `192.168.8.1`. Inserisci la password, poi fai clic su **Login**.
 
-### 2. Blocca i dispositivi client
+### 2. Blocca i dispositivi client {#2-block-client-devices}
 
 Esistono due modi per bloccare i dispositivi client, a seconda che tu abbia o meno i loro indirizzi MAC:
 
-* Se non hai i loro indirizzi MAC, usa il [primo metodo](#metodo-1-bloccare-dispositivi-senza-conoscere-i-loro-indirizzi-mac), che consente di bloccare i dispositivi che appaiono negli elenchi.
-* Se hai i loro indirizzi MAC, usa il [secondo metodo](#metodo-2-bloccare-dispositivi-con-i-loro-indirizzi-mac).
+* Se non hai i loro indirizzi MAC, usa il [primo metodo](#method-1-block-devices-without-their-mac-addresses), che consente di bloccare i dispositivi che appaiono negli elenchi.
+* Se hai i loro indirizzi MAC, usa il [secondo metodo](#method-2-block-devices-with-their-mac-addresses).
 
-#### Metodo 1: bloccare dispositivi senza conoscere i loro indirizzi MAC
+#### Metodo 1: bloccare dispositivi senza conoscere i loro indirizzi MAC {#method-1-block-devices-without-their-mac-addresses}
 
 1. Nella barra laterale sinistra, fai clic su **Clients**.
 ![click clients](https://static.gl-inet.com/docs/router/en/4/tutorials/how-to-block-client-devices/click-clients.jpeg){class="glboxshadow"}
@@ -27,9 +27,9 @@ Esistono due modi per bloccare i dispositivi client, a seconda che tu abbia o me
 2. Accanto al dispositivo, attiva l'interruttore.
 ![toggle switch](https://static.gl-inet.com/docs/router/en/4/tutorials/how-to-block-client-devices/toggle-block.jpeg){class="glboxshadow"}
 
-Se non vedi negli elenchi i dispositivi che vuoi bloccare, dovrai bloccarli [aggiungendo i loro indirizzi MAC alla blocklist](#metodo-2-bloccare-dispositivi-con-i-loro-indirizzi-mac).
+Se non vedi negli elenchi i dispositivi che vuoi bloccare, dovrai bloccarli [aggiungendo i loro indirizzi MAC alla blocklist](#method-2-block-devices-with-their-mac-addresses).
 
-#### Metodo 2: bloccare dispositivi con i loro indirizzi MAC
+#### Metodo 2: bloccare dispositivi con i loro indirizzi MAC {#method-2-block-devices-with-their-mac-addresses}
 
 Per usare questo metodo, devi prima ottenere l'indirizzo MAC del dispositivo. Fai riferimento alle istruzioni fornite dal produttore del dispositivo.
 Una volta ottenuto l'indirizzo MAC del dispositivo, segui questi passaggi:
@@ -43,7 +43,7 @@ Una volta ottenuto l'indirizzo MAC del dispositivo, segui questi passaggi:
 4. Fai clic su **Apply**.
 ![click apply](https://static.gl-inet.com/docs/router/en/4/tutorials/how-to-block-client-devices/click-apply.jpeg){class="glboxshadow"}
 
-## Bloccare i dispositivi client tramite l'app mobile GL.iNet
+## Bloccare i dispositivi client tramite l'app mobile GL.iNet {#block-client-devices-via-the-glinet-mobile-app}
 
 **Nota**: prima di iniziare, installa e configura l'app mobile GL.iNet sul tuo dispositivo.
 
@@ -60,7 +60,7 @@ Esistono due modi per bloccare i dispositivi client, a seconda che tu abbia o me
 2. In **Settings**, attiva l'interruttore **Block**.
 ![toggle block](https://static.gl-inet.com/docs/router/en/4/tutorials/how-to-block-client-devices/settings-toggle-block-to-on.jpeg){class="glboxshadow"}
 
-Se non vedi negli elenchi i dispositivi che vuoi bloccare, dovrai bloccarli [aggiungendo i loro indirizzi MAC alla blocklist](#method-2-block-devices-with-their-mac-addresses-1)
+Se non vedi negli elenchi i dispositivi che vuoi bloccare, dovrai bloccarli [aggiungendo i loro indirizzi MAC alla blocklist](#mobile-2)
 
 ### Metodo 2: bloccare dispositivi con i loro indirizzi MAC {#mobile-2}
 

@@ -1,4 +1,4 @@
-# Guest Network
+# Guest Network {#guest-network}
 
 The guest network settings have been separated from [LAN](lan.md) since firmware v4.5.
 
@@ -10,7 +10,7 @@ This page lets you create a dedicated Wi-Fi network for visitors. Isolated from 
 
 It includes two sections: Basic Settings and DHCP Server Settings.
 
-## Basic Settings
+## Basic Settings {#basic-settings}
 
 You can set the subnet within the IPv4 private address ranges: `192.168.0.0/16`, `172.16.0.0/12`, `10.0.0.0/8`.
 
@@ -36,7 +36,7 @@ You can set the subnet within the IPv4 private address ranges: `192.168.0.0/16`,
 
     When enabled, the guest network cannot access the upstream network and its subnet.
 
-## DHCP Server
+## DHCP Server {#dhcp-server}
 
 If Guest Network is enabled, its DHCP server will be enabled accordingly.
 

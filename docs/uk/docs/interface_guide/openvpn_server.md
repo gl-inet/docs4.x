@@ -24,15 +24,13 @@ OpenVPN — протокол VPN із відкритим вихідним код
 
 ??? "GL.iNet — головний маршрутизатор"
 
-    * Якщо маршрутизатор GL.iNet є головним у вашій мережі, перенаправлення портів не потрібне. Перейдіть до [наступного кроку](#setup-openvpn-server).
+    * Якщо маршрутизатор GL.iNet є головним у вашій мережі, перенаправлення портів не потрібне. Перейдіть до [наступного кроку](#set-up-openvpn-server).
 
 ??? "GL.iNet — додатковий маршрутизатор"
 
     * Якщо в мережі вже є головний маршрутизатор, а GL.iNet працює як додатковий, налаштуйте [перенаправлення портів](../tutorials/how_to_set_up_port_forwarding.md) на головному маршрутизаторі.
 
     * Якщо маршрутизатор GL.iNet розташований на кілька рівнів нижче головного, налаштуйте [перенаправлення портів](../tutorials/how_to_set_up_port_forwarding.md) на кожному проміжному рівні.
-
-<span id="setup-openvpn-server"></span>
 
 ## Налаштування сервера OpenVPN {#set-up-openvpn-server}
 
@@ -52,7 +50,7 @@ OpenVPN — протокол VPN із відкритим вихідним код
 
     ![Конфігурація сервера OpenVPN](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/ovpnserver_configuration.png){class="glboxshadow"}
 
-    * **Device Mode:** TAP-S2S або Tun. Відмінності описано [тут](../tutorials/how_to_enable_openvpn_tap_s2s_mode_on_glinet_routers.md/#tap-s2s-vs-tun-mode).
+    * **Device Mode:** TAP-S2S або Tun. Відмінності описано [тут](../tutorials/how_to_enable_openvpn_tap_s2s_mode_on_glinet_routers.md#tap-s2s-vs-tun-mode).
 
     * **Protocol:** UDP або TCP. Відмінності описано [тут](../faq/openvpn_tcp_udp.md).
 
@@ -140,6 +138,10 @@ OpenVPN — протокол VPN із відкритим вихідним код
 - **Allow Remote Access to the LAN Subnet**: якщо увімкнено, ресурси підмережі LAN сервера доступні через тунель VPN.
 
 - **IP Masquerading**: якщо увімкнено, IP-адреси джерела трафіку клієнтів LAN замінюються IP-адресою тунелю VPN маршрутизатора. Вимикайте цей параметр лише для з’єднань між мережами (site-to-site), коли віддалений вузол знає ваші підмережі LAN.
+
+    Як показано нижче, якщо маскарадинг IP увімкнено і NAS (192.168.8.100) у домашній мережі LAN надсилає трафік через тунель на ноутбук (192.168.10.200) у дорожній мережі, домашній маршрутизатор замінює IP-адресу джерела `192.168.8.100` на адресу тунелю сервера VPN `10.1.0.1`. Тому віддалена сторона бачить, що трафік надходить від сервера, а не з локальної мережі LAN сервера.
+
+    ![Маскарадинг IP на сервері OpenVPN](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/ip_masquerading.png){class="glboxshadow"}
 
 - **MTU**: Maximum Transmission Unit — максимальний розмір одиниці передавання. Задане для тунелю значення MTU перевизначає налаштування MTU у файлі конфігурації.
 

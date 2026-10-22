@@ -1,6 +1,6 @@
-# 2台のGL.iNetルーターで独自のWireGuardホームサーバーを構築する方法
+# 2台のGL.iNetルーターで独自のWireGuardホームサーバーを構築する方法 {#build-your-own-wireguard-home-server-with-two-glinet-routers}
 
-この記事では、自宅のルーターをWireGuard VPNサーバーとして設定し、旅行用ルーターをWireGuard VPNクライアントとしてリモート接続する方法を紹介します。これにより、どこにいても旅行用ルーターで自宅のIPアドレスを利用できます。
+この記事では、自宅のルーターをWireGuard VPNサーバーとして設定し、トラベルルーターをWireGuard VPNクライアントとしてリモート接続する方法を紹介します。これにより、どこにいてもトラベルルーターで自宅のIPアドレスを利用できます。
 
 以下の動画を見るか、その下の手順を参照してください。
 
@@ -11,20 +11,20 @@
 
 - GL-MT6000 は自宅用ルーターとして使用し、WireGuard VPNサーバーとして設定します。無線機能が不要な場合は、セキュリティゲートウェイ GL-MT2500 やその他のモデルも選択肢になります。
 
-- GL-MT3000 は旅行用ルーターとして使用し、自宅のVPNサーバーにリモート接続する WireGuard VPNクライアントとして設定します。
+- GL-MT3000 はトラベルルーターとして使用し、自宅のVPNサーバーにリモート接続する WireGuard VPNクライアントとして設定します。
 
-## 独自のWireGuardホームサーバーを構築する理由
+## 独自のWireGuardホームサーバーを構築する理由 {#why-you-need-to-build-your-own-wireguard-home-server}
 
 1. 自宅のIPアドレスをインターネット上のアドレスとして使えるため、自宅からアクセスしているように見せられます。
 2. サードパーティーのVPNサービスのような月額料金は不要です。
 3. すべてのインターネットトラフィックを暗号化されたVPNトンネル経由で自宅ネットワークにルーティングし、プライバシーを保護できます。
 4. 自宅内のリソースやローカルストリーミングに簡単にアクセスできます。
 
-## 準備
+## 準備 {#preparations}
 
-### パブリックIPがあるか確認する
+### パブリックIPがあるか確認する {#check-if-you-have-a-public-ip}
 
-まず、GL-MT6000 の WAN 側にパブリックIPアドレスがあることを確認してください。そうでない場合、旅行中に旅行用ルーターからVPN接続を確立できません。
+まず、GL-MT6000 の WAN 側にパブリックIPアドレスがあることを確認してください。そうでない場合、旅行中にトラベルルーターからVPN接続を確立できません。
 
 パブリックIPアドレスを確認するには、Webブラウザーを開き、アドレスバーに [what is my ip](https://whatismyipaddress.com/){target="_blank"} と入力します。
 
@@ -34,13 +34,13 @@
 
 パブリックIPアドレスがない場合は、以下を参考にしてください。
 
-1. メインルーターがある場合は、その管理画面にログインし、ISP からパブリックIPを取得しているか確認します。
+1. メインルーターがある場合は、その管理パネルにログインし、ISP からパブリックIPを取得しているか確認します。
 2. ISP にパブリックIPアドレスの提供を依頼します。追加料金が必要な場合があります。
 3. 上記 2 つの方法が使えない場合（ネットワークが CGNAT 配下にある場合など）は、SD-WAN ソリューション [AstroWarp](../interface_guide/astrowarp.md){target="_blank"} の利用をご検討ください。
 
-### Port Forwarding が必要か確認する
+### ポートフォワーディングが必要か確認する {#check-if-port-forwarding-is-required}
 
-??? "GL.iNet as Main Router"
+??? "GL.iNet ルーターがメインルーターの場合"
 
     GL.iNetルーターが Ethernet ケーブルで ISP モデムに直接接続されている場合、その GL.iNetルーターはメインルーターです。
 
@@ -48,7 +48,7 @@
 
     手順:
 
-    1. GL.iNet 管理画面にログインします。
+    1. GL.iNet の Web 管理パネルにログインします。
 
     2. 左側のサイドバーで INTERNET を選択し、トポロジーと接続の詳細を確認します。
 
@@ -60,21 +60,21 @@
 
         この WAN IP はパブリックIPアドレスです。つまり、この GL.iNetルーターはメインルーターとして動作しており、**Port Forwarding を設定する必要はありません**。
 
-        この GL.iNetルーターを WireGuard Server として設定し、旅行用ルーターを WireGuard Client として接続するだけで、両者の間に VPNトンネルが構築されます。
+        この GL.iNetルーターを WireGuard Server として設定し、トラベルルーターを WireGuard Client として接続するだけで、両者の間に VPNトンネルが構築されます。
 
         ![topologywg](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/topologywg.jpg){class="glboxshadow"}
 
-??? "GL.iNet as Sub-Router"
+??? "GL.iNet ルーターがサブルーターの場合"
 
     GL.iNetルーターが NAT 配下にある場合は、メインルーター側で GL.iNetルーター向けに **Port Forwarding** を設定します。
 
-    Topology
+    トポロジー
 
     ![togologywgtp](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/topologywgtp.jpg){class="glboxshadow"}
 
     例: 自宅のメインルーターが TP-Link ルーターの場合。
 
-    自宅ルーターの Wi-Fi または LAN に接続して Web 管理画面にログインします。ISP から取得している WAN IP アドレスを確認してください。下の画像では、パブリックIP が **42.200.00.00** であることが分かります。
+    自宅ルーターの Wi-Fi または LAN に接続して Web 管理パネルにログインします。ISP から取得している WAN IP アドレスを確認してください。下の画像では、パブリックIP が **42.200.00.00** であることが分かります。
 
     ![tp_home](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/tp_home.png){class="glboxshadow"}
 
@@ -92,15 +92,15 @@
 
     ![tp_port1](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/tp_port1.jpg){class="glboxshadow"}
 
-    **参考: [Port Forward](how_to_set_up_port_forwarding.md) の例**
+    **その他の[ポートフォワーディング](how_to_set_up_port_forwarding.md)の例**
 
-## WireGuardサーバーを設定する
+## WireGuardサーバーを設定する {#set-up-wireguard-server}
 
-### DDNS を有効にする（任意）
+### DDNS を有効にする（任意） {#enable-ddns-optional}
 
 固定パブリックIPアドレスではなく、動的パブリックIPアドレスのみを使っている場合は、DDNS 機能を有効にしてください。
 
-GL-MT6000 の Web 管理画面にログインし、**APPLICATIONS** -> **Dynamic DNS** に移動します。**Enable DDNS** のスイッチをオンにします。
+GL-MT6000 の Web 管理パネルにログインし、**APPLICATIONS** -> **Dynamic DNS** に移動します。**Enable DDNS** のスイッチをオンにします。
 
 **Terms of Service & Privacy Policy** にチェックを入れ、**Apply** をクリックします。
 
@@ -110,7 +110,7 @@ GL-MT6000 の Web 管理画面にログインし、**APPLICATIONS** -> **Dynamic
 
 ![wgserver](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/wgserver-apply.png){class="glboxshadow"}
 
-### 設定を生成する
+### 設定を生成する {#generate-configuration}
 
 同じページで、Configuration タブの横にある **Profiles** タブをクリックし、**Add** をクリックします（下図の 1）。
 
@@ -120,7 +120,7 @@ GL-MT6000 の Web 管理画面にログインし、**APPLICATIONS** -> **Dynamic
 
 ![wgservergen](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/wgconfiggen.jpg){class="glboxshadow"}
 
-その後、WireGuard の [mobile app](https://www.wireguard.com/install/){target="_blank"} で QR を読み取り、サーバーをテストできます。詳細は [こちら](../interface_guide/wireguard_server.md/#check-if-wireguard-server-is-working-properly) を参照してください。
+その後、WireGuard の [mobile app](https://www.wireguard.com/install/){target="_blank"} で QR を読み取り、サーバーをテストできます。詳細は [こちら](../interface_guide/wireguard_server.md#check-if-wireguard-server-is-working-properly) を参照してください。
 
 また、VPNクライアント接続用にテキスト形式の設定をエクスポートすることもできます。
 
@@ -130,23 +130,23 @@ GL-MT6000 の Web 管理画面にログインし、**APPLICATIONS** -> **Dynamic
 
 ![configload](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/configload.jpg){class="glboxshadow"}
 
-## WireGuardクライアントを設定する
+## WireGuardクライアントを設定する {#set-up-wireguard-client}
 
-### LAN IP を変更する
+### LAN IP を変更する {#change-the-lan-ip}
 
 このチュートリアルでは GL-MT6000 と GL-MT3000 を例に使用していますが、どちらのデフォルト LAN IP も **192.168.8.1** です。競合を避けるため、どちらか一方を別の LAN IP に変更する必要があります。
 
 ここでは、GL-MT3000（WireGuard クライアント）の LAN IP を変更する手順を説明します。
 
-GL-MT3000 の Web 管理画面にログインし、左側のサイドバーで **NETWORK** -> **LAN** に移動して LAN IP を変更します。たとえば、デフォルトの 192.168.8.1 を `192.168.10.1` に変更できます。
+GL-MT3000 の Web 管理パネルにログインし、左側のサイドバーで **NETWORK** -> **LAN** に移動して LAN IP を変更します。たとえば、デフォルトの 192.168.8.1 を `192.168.10.1` に変更できます。
 
 ![change lan](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/change_lan_ip.png){class="glboxshadow"}
 
 LAN インターフェースの詳細については [こちら](../interface_guide/lan.md) を参照してください。
 
-### 設定を追加する
+### 設定を追加する {#add-the-configuration}
 
-GL-MT3000 の Web 管理画面で **VPN** -> **WireGuard Client** に移動し、**Add Manually** をクリックします。
+GL-MT3000 の Web 管理パネルで **VPN** -> **WireGuard Client** に移動し、**Add Manually** をクリックします。
 
 ![addwgclient1](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/addwgclient-1.png){class="glboxshadow"}
 
@@ -168,7 +168,7 @@ GL-MT3000 の Web 管理画面で **VPN** -> **WireGuard Client** に移動し�
 
 ![addwgclient6](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/addwgclient-6.png){class="glboxshadow"}
 
-### 接続を開始する
+### 接続を開始する {#start-the-connection}
 
 三点アイコンをクリックし、**Start** をクリックします。
 
@@ -182,7 +182,7 @@ GL-MT3000 の Web 管理画面で **VPN** -> **WireGuard Client** に移動し�
 
 ![clientup](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/wgclientup.jpg){class="glboxshadow"}
 
-GL-MT6000（WireGuard サーバー）の Web 管理画面に戻り、**VPN** -> **WireGuard Server** に移動します（ファームウェア v4.7 以前を使用している場合は **VPN** -> **VPN Dashboard** に移動します）。クライアントが接続されていることを示す接続状態も確認できます。
+GL-MT6000（WireGuard サーバー）の Web 管理パネルに戻り、**VPN** -> **WireGuard Server** に移動します（ファームウェア v4.7 以前を使用している場合は **VPN** -> **VPN Dashboard** に移動します）。クライアントが接続されていることを示す接続状態も確認できます。
 
 ![servercon](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/wgservercon-4.8.png){class="glboxshadow"}
 <small>（FW v4.8 の WireGuard Server ページ）</small>
@@ -190,7 +190,7 @@ GL-MT6000（WireGuard サーバー）の Web 管理画面に戻り、**VPN** -> 
 ![servercon](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/wgservercon-4.7.jpg){class="glboxshadow"}
 <small>（FW v4.7 以前の VPN Dashboard ページ）</small>
 
-## 外出前にリモートVPNトラブル対応の準備をする
+## 外出前にリモートVPNトラブル対応の準備をする {#prep-for-remote-vpn-fixes-ahead}
 
 旅行中に予期しない問題が発生した場合に備えて、VPN のリモートトラブルシューティング用に、両方のルーターを事前に GoodCloud アカウントへバインドしておくことをおすすめします。
 
@@ -204,4 +204,4 @@ GL-MT6000（WireGuard サーバー）の Web 管理画面に戻り、**VPN** -> 
 
 ---
 
-ご不明な点がある場合は、[Community Forum](https://forum.gl-inet.com){target="_blank"} をご利用いただくか、[Contact us](https://www.gl-inet.com/contacts/){target="_blank"} からお問い合わせください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

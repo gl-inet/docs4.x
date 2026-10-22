@@ -1,10 +1,10 @@
-# Understanding external cellular antennas
+# Understanding external cellular antennas {#understanding-external-cellular-antennas}
 
 External cellular antennas can improve the quality of your cellular connection in certain situations, but they are not guaranteed to increase download or upload speeds.
 
 This guide explains when an external antenna may help, how to choose a compatible antenna, and what factors affect cellular performance.
 
-## When should I use an external antenna?
+## When should I use an external antenna? {#when-should-i-use-an-external-antenna}
 
 An external antenna may improve your connection if your router is installed in a location where cellular signals are weakened before reaching the device.
 
@@ -19,7 +19,7 @@ Typical examples include:
 
 Before purchasing an antenna, try moving the router closer to a window or to a higher location. In many cases, relocating the router alone can significantly improve signal quality.
 
-## When won't an external antenna help?
+## When won't an external antenna help? {#when-wont-an-external-antenna-help}
 
 An external antenna cannot solve every cellular connectivity issue.
 
@@ -34,7 +34,7 @@ It may provide little or no improvement if:
 
 A stronger signal does not always result in faster internet speeds.
 
-## Choosing the right antenna
+## Choosing the right antenna {#choosing-the-right-antenna}
 
 Before purchasing an antenna, make sure it is compatible with both your router and your mobile carrier.
 
@@ -47,7 +47,7 @@ Verify the following:
 
 Refer to your router's product documentation for the correct antenna connector type.
 
-## Understanding MIMO
+## Understanding MIMO {#understanding-mimo}
 
 Most modern LTE and 5G networks use **Multiple Input Multiple Output (MIMO)** technology to improve throughput and connection reliability.
 
@@ -61,7 +61,7 @@ For the best performance:
 
 Using only one antenna on a router designed for multiple antennas may reduce overall performance.
 
-## Antenna gain and cable loss
+## Antenna gain and cable loss {#antenna-gain-and-cable-loss}
 
 Antenna gain is typically measured in **dBi**.
 
@@ -77,9 +77,9 @@ For best results:
 - Avoid unnecessary adapters.
 - Use low-loss coaxial cable for longer cable runs.
 
-## Omnidirectional vs. directional antennas
+## Omnidirectional vs. directional antennas {#omnidirectional-vs-directional-antennas}
 
-### Omnidirectional antennas
+### Omnidirectional antennas {#omnidirectional-antennas}
 
 Omnidirectional antennas receive signals from all directions.
 
@@ -90,7 +90,7 @@ They are generally recommended for:
 - Mobile installations
 - Areas with multiple nearby towers
 
-### Directional antennas
+### Directional antennas {#directional-antennas}
 
 Directional antennas concentrate reception toward a specific direction.
 
@@ -103,7 +103,7 @@ They are generally recommended when:
 
 Directional antennas usually require careful alignment for the best performance.
 
-## Measuring improvement
+## Measuring improvement {#measuring-improvement}
 
 Do not rely only on the signal bars shown in the router interface.
 
@@ -119,27 +119,27 @@ Useful measurements include:
 
 Run several speed tests under similar conditions, as cellular performance naturally changes throughout the day.
 
-## Frequently asked questions
+## Frequently asked questions {#frequently-asked-questions}
 
-### Can I use any cellular antenna?
+### Can I use any cellular antenna? {#can-i-use-any-cellular-antenna}
 
 No.
 
 The antenna must use the correct connector type and support the cellular frequency bands used by your router and mobile carrier.
 
-### Should I buy the highest-gain antenna available?
+### Should I buy the highest-gain antenna available? {#should-i-buy-the-highest-gain-antenna-available}
 
 Not necessarily.
 
 Choose an antenna that is appropriate for your installation rather than selecting one based only on its advertised gain.
 
-### Will an external antenna always increase my internet speed?
+### Will an external antenna always increase my internet speed? {#will-an-external-antenna-always-increase-my-internet-speed}
 
 No.
 
 Performance depends on many factors, including signal quality, carrier aggregation, tower congestion, network conditions, and your mobile carrier.
 
-### Will the internal cellular antennas still be used when external antennas are connected?
+### Will the internal cellular antennas still be used when external antennas are connected? {#will-the-internal-cellular-antennas-still-be-used-when-external-antennas-are-connected}
 
 No.
 
@@ -147,7 +147,7 @@ On GL.iNet cellular routers with external cellular antenna ports, connecting com
 
 For the best performance, connect all required external antenna leads. Connecting only one lead to a router designed for multiple cellular antennas may reduce MIMO performance and overall connection quality.
 
-### Can I connect a Wi-Fi antenna to a cellular antenna port?
+### Can I connect a Wi-Fi antenna to a cellular antenna port? {#can-i-connect-a-wi-fi-antenna-to-a-cellular-antenna-port}
 
 No.
 
@@ -155,7 +155,7 @@ Wi-Fi and cellular antennas are designed for different radio systems and are not
 
 ---
 
-## Related tutorials
+## Related tutorials {#related-tutorials}
 
 - [Install or change external antennas](how_to_install_or_change_antennas.md)
 - [Check carrier aggregation status](how_to_check_carrier_aggregation.md)

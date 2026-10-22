@@ -1,12 +1,12 @@
-# Mango 2 (GL-MG1300) User Guide
+# Mango 2 (GL-MG1300) User Guide {#mango-2-gl-mg1300-user-guide}
 
-## Product overview
+## Product overview {#product-overview}
 
 Mango 2 (GL-MG1300) is GL.iNet's first dual-band Wi‑Fi 5 mini travel router, featuring an ultra‑thin and portable design. It delivers theoretical dual-band speeds of 400 Mbps (2.4 GHz) and 866 Mbps (5 GHz), with a 2×2 MIMO configuration. Additionally, it comes pre-installed with OpenVPN and WireGuard, supports 30+ VPN services to encrypt network traffic when the VPN client is enabled, and enables remote management via GoodCloud — perfectly balancing performance, practicality, and security.
 
 ![mg1300 illustration](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mg1300/product_info/mg1300_overview.jpg){class="glboxshadow"}
 
-## Package contents
+## Package contents {#package-contents}
 
 - 1 x Mango 2 (GL-MG1300)
 - 1 x User manual
@@ -19,15 +19,15 @@ Check out Mango 2's unboxing video below.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xwHgLdWPwPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## How to set up Mango 2
+## How to set up Mango 2 {#how-to-set-up-mango-2}
 
 To set up Mango 2, you will use one of the four supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular. Follow the steps below. 
 
-### 1. Power on
+### 1. Power on {#1-power-on}
 
 Plug the USB Type-C power cable into the router's power port, then connect the other end to a 5V/2A power adapter (not included) and plug it into a power outlet. 
 
-### 2. Connect device
+### 2. Connect device {#2-connect-device}
 
 Connect a device (e.g., computer, laptop or smartphone) to the router using Wi-Fi or Ethernet.
 
@@ -39,13 +39,13 @@ Connect a device (e.g., computer, laptop or smartphone) to the router using Wi-F
 
     On your device, go to Settings -> WLAN, locate your router's Wi-Fi network name in the available networks list and enter the password. You can find the default network name and password printed on the router's bottom label.
 
-### 3. Log in to web Admin Panel
+### 3. Log in to web Admin Panel {#3-log-in-to-web-admin-panel}
 
 Open a web browser, enter `192.168.8.1` in the address bar and log in. Choose your language and set your admin password, then click **Apply**. 
 
 Please note that if you change the Wi‑Fi information, you will need to reconnect your device to the router's Wi‑Fi using the updated credentials.
 
-### 4. Internet setup
+### 4. Internet setup {#4-internet-setup}
 
 **Note:** The following instructions apply to users configuring the router via the GL.iNet Web Admin Panel. If you prefer using the GL.iNet app, [download the app](https://www.gl-inet.com/app/){target="_blank"} and follow the on-screen instructions.
 
@@ -101,19 +101,19 @@ Configure your Mango 2 using one of the supported internet connection methods: E
 
 Below is an overview of the features in the Mango 2 web Admin Panel.
 
-## Wireless
+## Wireless {#wireless}
 
 The Wireless page allows you to configure various Wi-Fi networks, including Main Network, Guest Network and IoT Network. For each Wi-Fi network type, you can independently configure both 5 GHz and 2.4 GHz bands. You can also enable and configure basic settings for each band, such as the Wi-Fi SSID, security mode, password, and enable randomized BSSID.
 
 To set up Wireless, refer to [Wireless](../../interface_guide/wireless.md).
 
-## Clients
+## Clients {#clients}
 
 The Clients page displays information about connected devices. For each client, it shows the name, IP and MAC addresses, download and upload speeds, total traffic, and provides the ability to block the client or perform other actions.
 
 To set up Clients, refer to [Clients](../../interface_guide/clients.md).
 
-## Cloud Services
+## Cloud Services {#cloud-services}
 
 === "GL.iNet Account"
 
@@ -131,7 +131,7 @@ To set up Clients, refer to [Clients](../../interface_guide/clients.md).
 
     To set up GoodPAS, refer to [GoodPAS](../../interface_guide/goodpas.md).
 
-## VPN 
+## VPN {#vpn}
 
 A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Mango 2 supports OpenVPN and WireGuard.
 
@@ -149,7 +149,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     * [How to set up a WireGuard client](../../interface_guide/wireguard_client.md)
     * [How to set up a WireGuard server](../../interface_guide/wireguard_server.md)
 
-## Network
+## Network {#network}
 
 === "Multi-WAN"
 
@@ -203,7 +203,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     To set up network acceleration, refer to [Network Acceleration](../../interface_guide/network_acceleration.md).
 
-## Flow Control
+## Flow Control {#flow-control}
 
 === "Parental Control"
 
@@ -211,7 +211,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     To set up parental control, refer to [Parental Control](../../interface_guide/parental_control_v4.9.md).
 
-## Security
+## Security {#security}
 
 === "Port Forwarding"
 
@@ -231,7 +231,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     To set up NAT settings, refer to [NAT Mode](../../interface_guide/nat_settings.md).
 
-## Applications
+## Applications {#applications}
 
 === "Plug-ins"
 
@@ -257,7 +257,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     To set up Tailscale, refer to [Tailscale](../../interface_guide/tailscale.md).
 
-## System
+## System {#system}
 
 === "Overview"
 
@@ -349,7 +349,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     Please refer to [Advanced Settings](../../interface_guide/advanced_settings.md) for detailed instructions.
 
-## Regulatory Statements
+## Regulatory Statements {#regulatory-statements}
 
 This device contains licence-exempt transmitter(s)/receiver(s) that comply with Innovation,Science and Economic Development Canada's licence-exempt RSS(s). Operation is subject to the following two conditions:  
 (1) This device may not cause interference.  

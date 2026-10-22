@@ -1,6 +1,6 @@
-# Flint 3e (GL-BE6500) User Guide
+# Flint 3e (GL-BE6500) User Guide {#flint-3e-gl-be6500-user-guide}
 
-## Product overview
+## Product overview {#product-overview}
 
 Flint 3e (GL-BE6500) is a dual-band Wi-Fi 7 desktop router built for home users and small offices. It supports Multi-Link Operation (MLO), allowing compatible devices to use links on both the 2.4 GHz and 5 GHz bands to help mitigate the effects of interference and congestion. Its 4K-QAM modulation offers up to 20% higher theoretical data rates than Wi-Fi 6's 1024-QAM under otherwise identical conditions. The router supports a combined theoretical dual-band rate of up to 6452 Mbps, with 4×4 MIMO and a 160 MHz channel width on the 5 GHz band. Actual speeds depend on client capabilities and network conditions.
 
@@ -10,7 +10,7 @@ Packed with 5× 2.5G Ethernet ports and 1× USB 3.0 port, it supports high-speed
 
 **Note**: The difference in appearance between Flint 3e and Flint 3 lies in the silk-screen printing: the silk-screen on Flint 3e is blue, while that on Flint 3 is white.
 
-## Package contents
+## Package contents {#package-contents}
 
 - 1 x Flint 3e (GL-BE6500)
 - 1 x Power adapter
@@ -23,17 +23,17 @@ Check out Flint 3e's unboxing video below.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6-E0LtWqshk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## How to set up Flint 3e
+## How to set up Flint 3e {#how-to-set-up-flint-3e}
 
 Watch this setup video or follow the steps below. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/R40QsUFYuUk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Power on
+### 1. Power on {#1-power-on}
 
 Put the two-piece power adapter together. Connect it to your router and plug it into an outlet. It will start up automatically.
 
-### 2. Connect device
+### 2. Connect device {#2-connect-device}
 
 Connect a device (e.g., computer, laptop or smartphone) to the router using Wi-Fi or Ethernet.
 
@@ -45,11 +45,11 @@ Connect a device (e.g., computer, laptop or smartphone) to the router using Wi-F
 
     On your device, go to Settings -> WLAN, locate your router's Wi-Fi network name in the available networks list, and enter the password to join the network. You can find the default network name and password printed on the router's label.
 
-### 3. Log in to web Admin Panel
+### 3. Log in to web Admin Panel {#3-log-in-to-web-admin-panel}
 
 Open a web browser, enter `192.168.8.1` in the address bar and log in. Choose your language and set your admin password, then click **Apply**.
 
-### 4. Internet setup
+### 4. Internet setup {#4-internet-setup}
 
 **Note:** The following instructions apply to users configuring the router via the GL.iNet Web Admin Panel. If you prefer using the GL.iNet app, [download the app](https://www.gl-inet.com/app/){target="_blank"} and follow the on-screen instructions. 
 
@@ -103,7 +103,7 @@ Configure your Flint 3e using one of the supported internet connection methods: 
 
 Below is an overview of the features in the Flint 3e web Admin Panel.
 
-## Wireless
+## Wireless {#wireless}
 
 The Wireless page allows you to configure settings for the 5 GHz and 2.4 GHz Wi-Fi networks, including enabling Wi-Fi, setting TX power, specifying the Wi-Fi name (SSID), enabling randomized BSSID, selecting Wi-Fi security mode and password, configuring SSID visibility, choosing the Wi-Fi mode, bandwidth, and channel. 
     
@@ -111,13 +111,13 @@ In addition, Flint 3e supports MLO Wi-Fi, i.e. Multi-Link Operation, combining m
 
 To set up Wireless, refer to [Wireless](../../interface_guide/wireless.md).
 
-## Clients
+## Clients {#clients}
 
 The Clients page displays information about connected devices. For each client, it shows the name, IP and MAC addresses, download and upload speeds, total traffic, and provides the ability to block the client or perform other actions.
 
 To set up Clients, refer to [Clients](../../interface_guide/clients.md).
 
-## Cloud services
+## Cloud services {#cloud-services}
 
 === "GoodCloud"
 
@@ -131,7 +131,7 @@ To set up Clients, refer to [Clients](../../interface_guide/clients.md).
     
     To set up AstroWarp, refer to [AstroWarp](../../interface_guide/astrowarp.md).
 
-## VPN 
+## VPN {#vpn}
 
 A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Flint 3e supports OpenVPN, WireGuard, and Tor. 
 
@@ -155,7 +155,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     * [How to set up Tor](../../interface_guide/tor.md)
 
-## Applications
+## Applications {#applications}
 
 === "Plug-ins"
 
@@ -201,7 +201,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     To set up Tailscale, refer to [Tailscale](../../interface_guide/tailscale.md).
 
-## Network settings
+## Network settings {#network-settings}
 
 === "Port forwarding"
 
@@ -284,7 +284,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     To set up NAT settings, refer to [NAT Settings](../../interface_guide/nat_settings.md).
 
-## System settings
+## System settings {#system-settings}
 
 === "Overview"
 
@@ -373,7 +373,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     Please refer to [Advanced Settings](../../interface_guide/advanced_settings.md) for detailed instructions.
 
-## Regulatory Statements
+## Regulatory Statements {#regulatory-statements}
 
 **FCC ID: 2AFIW-BE6500**  
 

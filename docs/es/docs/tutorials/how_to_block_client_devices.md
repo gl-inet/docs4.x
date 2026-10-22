@@ -1,4 +1,4 @@
-# Cómo bloquear dispositivos cliente específicos en un router GL.iNet
+# Cómo bloquear dispositivos cliente específicos en un router GL.iNet {#how-to-block-specific-client-devices-on-a-glinet-router}
 
 Este tutorial le mostrará cómo bloquear dispositivos cliente específicos en un router GL.iNet. Al bloquear dispositivos cliente, evita accesos no autorizados a su red. Esto ayuda a reforzar la seguridad de la red o a controlar el acceso de su familia a Internet.
 Los routers GL.iNet bloquean dispositivos cliente en función de sus direcciones MAC, que son identificadores únicos de 12 caracteres asignados a cada dispositivo dentro de una red. Este método también se conoce como filtrado por dirección MAC.
@@ -6,11 +6,11 @@ Hay dos formas de bloquear dispositivos cliente en su router GL.iNet: mediante e
 
 ## Bloquear dispositivos cliente mediante el panel de administración {#block-client-devices-via-the-admin-panel}
 
-### 1. Iniciar sesión en el panel de administración
+### 1. Iniciar sesión en el panel de administración {#1-sign-in-to-the-admin-panel}
 
 En un navegador web, introduzca `192.168.8.1`. Introduzca su contraseña y haga clic en **Login**.
 
-### 2. Bloquear dispositivos cliente
+### 2. Bloquear dispositivos cliente {#2-block-client-devices}
 
 Hay dos formas de bloquear dispositivos cliente, según disponga o no de sus direcciones MAC:
 
@@ -53,7 +53,7 @@ Hay dos formas de bloquear dispositivos cliente, según disponga o no de sus dir
 ![tap a device](https://static.gl-inet.com/docs/router/en/4/tutorials/how-to-block-client-devices/tap-a-device.jpeg){class="glboxshadow"}
 2. En **Settings**, active el interruptor **Block**.
 ![toggle block](https://static.gl-inet.com/docs/router/en/4/tutorials/how-to-block-client-devices/settings-toggle-block-to-on.jpeg){class="glboxshadow"}
-Si no ve en las listas los dispositivos que desea bloquear, tendrá que bloquearlos [añadiendo sus direcciones MAC a la lista de bloqueo](#method-2-block-devices-with-their-mac-addresses-1).
+Si no ve en las listas los dispositivos que desea bloquear, tendrá que bloquearlos [añadiendo sus direcciones MAC a la lista de bloqueo](#mobile-2).
 
 ### Método 2: Bloquear dispositivos con sus direcciones MAC {#mobile-2}
 

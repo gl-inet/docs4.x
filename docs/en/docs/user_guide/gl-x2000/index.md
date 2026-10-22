@@ -2,7 +2,7 @@
 
 ## Product overview
 
-Spitz Plus (GL-X2000) is a dual-SIM 4G LTE Wi-Fi 6 cellular gateway designed to provide fast, reliable connections especially in remote areas and during road trips. Featuring 3-Carrier Aggregation, the router streams data on three carrier bands simultaneously, providing 3x available bandwidth to avoid congestion. It offers four internet access methods: Cellular (SIM cards), ethernet, repeater, and tethering. It supports multi-WAN (failover and load-balancing), VPN (OpenVPN and WireGuard), parental controls, AdGuard Home, port forwarding, Tailscale, and more. 
+Spitz Plus (GL-X2000) is a dual-SIM 4G LTE Wi-Fi 6 cellular gateway designed to provide fast, reliable connections especially in remote areas and during road trips. Featuring three-carrier aggregation (3CA), the router can deliver up to three times the theoretical channel bandwidth of a Cat 4 single-carrier connection, depending on the aggregated carrier bandwidths and LTE 3CA support from your carrier and local base stations. It offers four internet access methods: Cellular (SIM cards), Ethernet, Repeater, and Tethering. It supports multi-WAN (failover and load-balancing), VPN (OpenVPN and WireGuard), parental controls, AdGuard Home, port forwarding, Tailscale, and more. 
 
 ![gl-x2000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/hardware_info/x2000_interface.jpg){class="glboxshadow"}
 
@@ -61,9 +61,7 @@ Connect a device (e.g., computer, laptop or smartphone) to the router using Wi-F
 
 - Wi-Fi
 
-    On your device, go to Settings -> WLAN, locate your router's Wi-Fi network name in the list of available networks and enter the password. (You can find the default network name and password printed on your router's label.)
-
-    On your device, locate your router's Wi-Fi network name in the available networks list, and enter the password to join the network. You can find the default network name and password printed on your router's label.
+    On your device, go to Settings -> WLAN, locate your router's Wi-Fi network name in the list of available networks and enter the password. You can find the default network name and password printed on your router's label.
 
 ### 3. Log in to web Admin Panel
 
@@ -225,7 +223,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "Port forwarding"
 
-    Port forwarding allows remote servers and devices on the internet to access devices on a private network. To set up port forwarding, refer to [Port Forwards](https://docs.gl-inet.com/router/en/4/interface_guide/firewall/#port-forwards). 
+    Port forwarding allows remote servers and devices on the internet to access devices on a private network. To set up port forwarding, refer to [Port Forwards](https://docs.gl-inet.com/router/en/4/interface_guide/port_forwarding). 
 
 === "Multi-WAN"
 
@@ -249,7 +247,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "DNS"
 
-    The DNS page allows you to set custom DNS servers, enable DNS rebinding attack protection and override DNS settings of all clients, allow custom DNS to override VPN DNS, and configure the DNS server settings mode to automatic or manually specify DNS servers from the Ethernet connection.
+    The DNS page allows you to set custom DNS servers, enable DNS rebinding attack protection, override the DNS settings of all clients, and allow custom DNS to override VPN DNS. You can use DNS servers automatically obtained from upstream devices or manually specify custom DNS servers.
 
     To set up DNS, refer to [DNS](../../interface_guide/dns.md).
 

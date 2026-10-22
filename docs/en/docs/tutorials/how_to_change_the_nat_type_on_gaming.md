@@ -1,10 +1,8 @@
 # How to change the NAT type on Gaming
 
-Most of the game makers will ask you to turn on the UPnP on the router to get a better NAT type, however studies show UPnP is a non-secure protocol.
+Some game developers recommend enabling UPnP on your router to get a better NAT type. However, UPnP carries potential security risks.
 
-You can achieve the same purpose in a more secure way, either by the function of DMZ or port forward.
-
-## Check your Game IP
+You can configure DMZ or port forwarding on your router to achieve the same purpose. Before enabling either feature, make sure you understand how it works and the associated security risks.
 
 Go to the client list and check the IP assigned to your game. You need to use this IP address on the following setup
 

@@ -48,7 +48,7 @@ Follow the steps below.
 
     ![exclude target](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/exclude-target.png){class="glboxshadow"}
 
-    Here we take the subnet 192.168.0.1/24 as an example. Input this subnet and apply, and the VPN tunnel will be displayed as below.
+    Here we take the subnet 192.168.1.0/24 as an example. Input this subnet and apply, and the VPN tunnel will be displayed as below.
 
     ![exclude target apply](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/target-apply.png){class="glboxshadow"}
 

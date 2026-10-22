@@ -150,7 +150,7 @@
 
     3. Open the config by text edit software, copy the content.
 
-        The config may contain IPv6 content, as GL.iNet routers is not support IPv6 good enough, so please delete the IPv6 content. I have a example show below, the highlight content is the IPv6 content.
+        The config may contain IPv6 address. To avoid compatibility and connectivity issues, open the .conf file and remove IPv6 address. The highlighted content is the IPv6 content, as shown below.
 
         ![remove wireguard ipv6 content](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/ovpn/remove_wireguard_ipv6_content.jpg){class="glboxshadow"}
     

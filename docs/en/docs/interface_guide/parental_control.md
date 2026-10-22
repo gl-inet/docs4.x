@@ -157,10 +157,6 @@ If your configured settings fail to take effect, check the following possible ca
 1. DNS cache issue.
   
     Browsers and operating systems maintain DNS caches, which may delay the application of configuration changes. Clear the DNS cache to apply changes immediately.
-  
-      * [Clear DNS cache on desktop Chrome](https://support.google.com/accounts/answer/32050){target="_blank"}
-      
-      * [Clear DNS cache on desktop Edge](https://www.microsoft.com/en-us/edge/learning-center/how-to-manage-and-clear-your-cache-and-cookies?form=MA13I2){target="_blank"}
 
 2. The profile schedule has not yet started.
 

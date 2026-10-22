@@ -6,7 +6,7 @@ GoodCloud Site to Site allows offices in multiple locations to establish secure 
 
 ![site to site](https://static.gl-inet.com/goodcloud/docs/tutorials/site_to_site/s2s-main.png){class="glboxshadow"}
 
-**Scenario 1**: Dozens of branch offices under the same company need to be integrated into a unified private network, enabling seamless resource sharing across all locations.
+**Scenario 1**: Multiple branch offices under the same company need to be integrated into a unified private network, enabling seamless resource sharing across all locations.
 
 **Scenario 2**: When two companies with close partnerships require business collaboration, Site to Site facilitates their work in a shared and secure network environment.
 

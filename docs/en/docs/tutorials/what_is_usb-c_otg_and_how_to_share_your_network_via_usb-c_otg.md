@@ -15,7 +15,7 @@ The OTG-enabled USB‑C port of the Mudi 7 operates in either **Device** or **Ho
 
 ### Connect to a Computer  
 
-Most computers operate as hosts only and do not support OTG. When a computer is connected to the router via USB, the router shows a mode selection window. You can select any mode, and the Mudi 7 will auto-negotiate the role. The computer then recognizes it as a USB adapter for direct internet access, no extra drivers needed.
+Most computers operate as hosts only and do not support OTG. When a computer is connected to the router via USB, the router shows a mode selection window. You can select any mode. Mudi 7 will attempt to auto-negotiate the role, depending on the connected device's system and driver support. After successful role negotiation, the computer recognizes Mudi 7 as a USB network adapter for Internet access. In most cases, no extra drivers are needed. 
 
 ### Connect to a Smartphone
    
@@ -27,9 +27,9 @@ Most computers operate as hosts only and do not support OTG. When a computer is 
 
     1. When you are using the phone's OTG function to interconnect, ensure the phone supports OTG and use a data-capable USB cable. Charge-only cables cannot transmit network signals.   
     
-    2. When Device Mode is enabled, the phone will not display a network connection notification. To verify functionality, check the network status in the phone's settings or run a connectivity test.   
+    2. When Device Mode is enabled, a network connection notification may not appear on the phone. To verify functionality, check the network status in the phone's settings or run a connectivity test.
    
-        For example, if you are sharing the Mudi 7's network to a phone via **Device Mode** (e.g., iPhone 17 Pro), verify that Device Mode is active by following the steps below.
+        For example, if you are sharing the Mudi 7's network with a phone via **Device Mode** (e.g., iPhone 17 Pro), verify that Device Mode is active by following the steps below.
 
         1. Use a USB cable that supports OTG to connect the USB 3.1 port on the Mudi 7 to your iPhone 17 Pro.  
    

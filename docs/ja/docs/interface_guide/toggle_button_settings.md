@@ -6,7 +6,7 @@ Toggle Button Settings では、ルーター本体の物理トグルスイッチ
 
 ## 対応モデル {#supported-models}
 
-??? "Supported Models"
+??? "対応モデル"
     - GL-BE10000 (Slate 7 Pro)
     - GL-MG1300 (Mango 2)
     - GL-MT3600BE (Beryl 7)
@@ -23,7 +23,7 @@ Toggle Button Settings では、ルーター本体の物理トグルスイッチ
     - GL-AR750S (Slate)
     - GL-AR750 (Creta)
 
-??? "Unsupported Models"
+??? "非対応モデル"
     - GL-MT6000 (Fortify)
     - GL-BE14000 (Flint 4)
     - GL-E5800 (Mudi 7)
@@ -43,7 +43,7 @@ Toggle Button Settings では、ルーター本体の物理トグルスイッチ
     - GL-AP1300 (Cirrus)
     - GL-X300B (Collie)
 
-## Setup {#setup}
+## 設定 {#setup}
 
 Web管理パネルの左側で、**SYSTEM** -> **Toggle Button Settings** に移動します。
 
@@ -71,10 +71,10 @@ Web管理パネルの左側で、**SYSTEM** -> **Toggle Button Settings** に移
 
 設定を適用するときは、トグルスイッチの on / off（left / right）位置に応じて、選択した機能をすぐに有効化または無効化するかどうかを決められます。
 
-**Note**: デバイスを再起動すると、システムはトグルスイッチの位置に応じて機能の状態を自動的に適用します。
+**注意**: デバイスを再起動すると、システムはトグルスイッチの位置に応じて機能の状態を自動的に適用します。
 
 たとえば、WireGuard Client をトグルスイッチで制御するよう設定した場合、スイッチが LEFT (ON) なら WireGuard Client は自動的に起動します。スイッチが RIGHT (OFF) なら WireGuard Client は無効のままです。
 
 ---
 
-ご不明な点がありましたら、[Community Forum](https://forum.gl-inet.com){target="_blank"} または [Contact us](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

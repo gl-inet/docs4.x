@@ -4,23 +4,23 @@
 
 ## セットアップガイド {#setup-guide}
 
-ここでは、GL-B3000をWireGuard Clientとして設定してUrban Shield VPNを有効化する例を紹介します。
+ここでは、GL-B3000をWireGuardクライアントとして設定し、Urban Shield VPNに接続する例を紹介します。
 
-### 1. Sign Up Urban Shield VPN {#1-sign-up-urban-shield-vpn}
+### 1. Urban Shield VPNに登録する {#1-sign-up-urban-shield-vpn}
 
 [Urban Shield VPN公式サイト](https://urbanshieldvpn.com/){target="_blank"} にアクセスしてUrban Shield VPNアカウントを登録します。
 
 ![Urban Shield VPN signup](https://static.gl-inet.com/docs/router/en/4/interface_guide/setup_urban_shield_vpn/sign_in.png){class="glboxshadow"}
 
-### 2. Power on Router {#2-power-on-router}
+### 2. ルーターの電源を入れる {#2-power-on-router}
 
 ルーターの電源を入れ、ノートパソコンやスマートフォンなどのデバイスをEthernetケーブルまたはWi-Fiでルーターに接続します。
 
-### 3. Access Web Admin Panel {#3-access-web-admin-panel}
+### 3. Web管理パネルにアクセスする {#3-access-web-admin-panel}
 
-以下の手順に従ってWeb Admin Panelにアクセスします。すでにログイン済みの場合は、[次の手順](#4-network-setup)に進んでください。
+以下の手順に従ってWeb管理パネルにアクセスします。すでにログイン済みの場合は、[次の手順](#4-network-setup)に進んでください。
 
-Webブラウザ（Chrome、Edge、Safari推奨）を開き、[192.168.8.1](http://192.168.8.1){target="_blank"} にアクセスします。下図のようにWeb Admin Panelの初期設定画面が表示されます。管理者パスワードを設定し、**Next** をクリックして続行します。
+Webブラウザ（Chrome、Edge、Safari推奨）を開き、[192.168.8.1](http://192.168.8.1){target="_blank"} にアクセスします。下図のようにWeb管理パネルの初期設定画面が表示されます。管理者パスワードを設定し、**Next** をクリックして続行します。
 
 ![set up admin password](https://static.gl-inet.com/docs/router/en/4/interface_guide/setup_urban_shield_vpn/web_panel_signup.png){class="glboxshadow"}
 
@@ -30,13 +30,13 @@ Wi-Fiネットワークを設定します。ページには出荷時のWi-Fi情�
 
 続いて **Next** をクリックし、管理者パスワードでログインします。
 
-### 4. Network Setup {#4-network-setup}
+### 4. ネットワーク設定 {#4-network-setup}
 
 右上に **Network Setup Wizard** があります（ファームウェア v4.7 以降で利用可能）。VPNを設定する前に、このウィザードに従ってルーターのインターネット接続を設定してください。
 
 ![network setup](https://static.gl-inet.com/docs/router/en/4/interface_guide/setup_urban_shield_vpn/network_setup_wizard.jpg){class="glboxshadow"}
 
-### 5. Activate Urban Shield VPN {#5-activate-urban-shield-vpn}
+### 5. Urban Shield VPNを有効化する {#5-activate-urban-shield-vpn}
 
 左側メニューから **VPN** -> **WireGuard Client** を選択します。Urban Shield VPNのログインページが表示されます。
 
@@ -80,7 +80,7 @@ VPN Dashboard でも接続状態を確認できます。
 
 ![go renew](https://static.gl-inet.com/docs/router/en/4/interface_guide/setup_urban_shield_vpn/go_renew.jpg){class="glboxshadow"}
 
-## Delete {#delete}
+## 削除 {#delete}
 
 ワンクリックで、すべての設定ファイルと秘密鍵・公開鍵を削除できます。
 

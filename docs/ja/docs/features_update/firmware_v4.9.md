@@ -2,7 +2,7 @@
 
 このリリースでは、より精密なネットワーク制御、改善されたトラフィック管理、強化されたネットワークセキュリティ、刷新されたユーザーインターフェースに重点を置き、全体的なユーザー体験の向上を目指しています。
 
-最新のファームウェアは [Firmware Download Center](https://dl.gl-inet.com/){target="_blank"} から入手できます。
+最新のファームウェアは [ファームウェアダウンロードセンター](https://dl.gl-inet.com/){target="_blank"} から入手できます。
 
 ## Flow Control {#flow-control}
 
@@ -76,7 +76,7 @@ Flow Control モジュールには、DPI Engine、Data Statistics、Content Filt
 
 ## AmneziaWG 2.0 {#amneziawg-20}
 
-ファームウェア v4.9 では、複数の新しいトラフィック難読化パラメータを備えた AmneziaWG 2.0 プロトコルが正式に導入されました。アップグレードされたプロトコルは、DPI やその他のトラフィック識別システムによる検出を効果的に回避し、接続の秘匿性と耐干渉性を大幅に向上させます。これにより、ネットワーク制限のある地域や複雑なネットワーク環境でも、安定した信頼性の高い VPN 接続を確立できます。
+ファームウェア v4.9 では、複数の新しいトラフィック難読化パラメーターを備えた AmneziaWG 2.0 プロトコルが正式に導入されました。アップグレードされたプロトコルは、DPI やその他のトラフィック識別システムによる検出を効果的に回避し、接続の秘匿性と耐干渉性を大幅に向上させます。これにより、ネットワーク制限のある地域や複雑なネットワーク環境でも、安定した信頼性の高い VPN 接続を確立できます。
 
 ![amneziawg](https://static.gl-inet.com/docs/router/en/4/features_update/4.9/amneziawg.png){class="glboxshadow"}
 
@@ -118,4 +118,4 @@ GL.iNet ルーターは、Tailscale Exit Node として動作できるように�
 
 ---
 
-ご不明な点がありましたら、[Community Forum](https://forum.gl-inet.com){target="_blank"} をご利用いただくか、[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

@@ -15,7 +15,7 @@ Web 管理パネルの左側で、**WIRELESS** に移動します。
 
 Wireless ページでは、2.4 GHz、5 GHz、6 GHz、MLO Wi-Fi など、個別の Wi-Fi ネットワークを設定できます（利用可否はモデルによって異なります）。各バンドは、メイン Wi‑Fi またはゲスト Wi‑Fi として設定でき、柔軟にワイヤレス管理を行えます。
 
-**注意**: 5 GHz Wi-Fi に対応していないモデル（GL-MT300N-V2 (Mango)、GL-X300B (Collie) など）や、Wi‑Fi 機能自体を搭載していないモデル（GL-MT5000 (Brume 3)、GL-MT2500/GL-MT2500A (Brume 2) など）があります。
+**注意**: 5 GHz Wi-Fi に対応していないモデル（GL-MT300N-V2 (Mango)、GL-X300B (Collie)、GL-XE300 (Puli) など）や、Wi‑Fi 機能自体を搭載していないモデル（GL-MT5000 (Brume 3)、GL-MT2500/GL-MT2500A (Brume 2) など）があります。
 
 ## MLO Wi-Fi {#mlo-wi-fi}
 

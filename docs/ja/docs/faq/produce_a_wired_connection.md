@@ -1,8 +1,8 @@
-# Ethernet専用のデバイスをWi-FiにGL.iNetルーターで接続する方法 {#how-to-connect-an-ethernet-only-device-to-wi-fi-with-a-glinet-router}
+# GL.iNetルーターを使用してEthernet専用デバイスをWi-Fiに接続する方法 {#how-to-connect-an-ethernet-only-device-to-wi-fi-with-a-glinet-router}
 
-デバイスがEthernet接続のみをサポートしているが無線ネットワークに接続する必要がある場合、GL.iNetルーターがこのギャップを埋めることができます。
+Ethernet接続にのみ対応したデバイスを無線ネットワークに接続する必要がある場合は、GL.iNetルーターを利用できます。
 
-GL.iNetルーターは、有線接続のみを持つデバイスのEthernet-to-Wi-Fiブリッジとして機能し、無線ネットワークに参加できるようになります。これは、ルーターをリピーターとして設定することで実現されます。
+GL.iNetルーターは、有線接続にのみ対応したデバイス向けのEthernet-Wi-Fiブリッジとして機能し、それらのデバイスを無線ネットワークに接続できるようにします。これは、ルーターをリピーターとして設定することで実現できます。
 
 デバイスをルーターのLANポートに接続し、[リピーター](../interface_guide/internet_repeater.md)を設定してください。
 
@@ -10,4 +10,4 @@ GL.iNetルーターは、有線接続のみを持つデバイスのEthernet-to-W
 
 ---
 
-まだご質問はありますか？[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}または[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}をご覧ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

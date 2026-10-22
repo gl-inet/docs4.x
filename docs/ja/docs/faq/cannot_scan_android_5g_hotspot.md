@@ -1,8 +1,8 @@
 # Android 5Gホットスポットをスキャンできない {#cannot-scan-android-5g-hotspot}
 
-GL.iNetルーターをAndroidスマホの5Gホットスポットにリピーターとして接続することは、インターネットにアクセスする一般的な方法の1つです。
+GL.iNetルーターをリピーターとしてAndroidスマートフォンの5Gホットスポットに接続することは、インターネットにアクセスする一般的な方法の1つです。
 
-ただし、Androidスマホの5Gホットスポットをスキャンできない場合、Wi-Fiチャンネルが原因である可能性があります。
+ただし、Androidスマートフォンの5Gホットスポットをスキャンできない場合は、Wi-Fiチャンネルが原因である可能性があります。
 
 一部の Android スマートフォンでは、5G ホットスポットがデフォルトで米国のチャンネルに設定されています。GL.iNet ルーターを米国以外で購入した場合、この問題が発生する可能性があります。
 
@@ -26,8 +26,8 @@ GL.iNetルーターをAndroidスマホの5Gホットスポットにリピータ�
 
     ![saveapply](https://static.gl-inet.com/docs/router/en/4/faq/cannot_scan_android_5g_hotspot/saveapply.jpg){class="glboxshadow"}
 
-    その後、Androidスマホの5Gホットスポットを再度スキャンしてみてください。
+    その後、Androidスマートフォンの5Gホットスポットを再度スキャンしてみてください。
 
 ---
 
-まだ質問がありますか？[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}または[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}を訪問してください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

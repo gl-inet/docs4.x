@@ -14,7 +14,7 @@
 
 この手順は、VPN サーバーがローカルのドメイン名を正しく解決できない場合に適用されます。必要かどうか分からない場合は、この手順をスキップしてください。
 
-VPN サーバールーターの Web 管理画面にログインし、**NETWORK** -> **DNS** -> **Edit Hosts** に移動します。
+VPN サーバールーターの Web 管理パネルにログインし、**NETWORK** -> **DNS** -> **Edit Hosts** に移動します。
 
 ![edit hosts](https://static.gl-inet.com/docs/router/en/4/tutorials/access_ovpnserver_lan_via_domain_names/edit_hosts.png){class="glboxshadow"}
 
@@ -24,7 +24,7 @@ VPN サーバールーターの Web 管理画面にログインし、**NETWORK**
 
 ### 2. サーバー側でLANへのリモートアクセスを許可する {#2-allow-remote-access-lan-on-server}
 
-サーバーの Web 管理画面で、**VPN** -> **OpenVPN Server** に移動します。右上の **Options** をクリックします。
+サーバーの Web 管理パネルで、**VPN** -> **OpenVPN Server** に移動します。右上の **Options** をクリックします。
 
 ![ovpnserver options 4.8](https://static.gl-inet.com/docs/router/en/4/tutorials/access_ovpnserver_lan_via_domain_names/ovpnserver_options.png){class="glboxshadow"}
 
@@ -36,13 +36,13 @@ VPN サーバールーターの Web 管理画面にログインし、**NETWORK**
 
 ### 3. VPN設定をエクスポートする {#3-export-vpn-configuration}
 
-サーバーの管理画面で、**VPN** -> **OpenVPN Server** -> **Configuration** タブに移動し、下部の **Export Client Configuration** をクリックします。
+サーバーの管理パネルで、**VPN** -> **OpenVPN Server** -> **Configuration** タブに移動し、下部の **Export Client Configuration** をクリックします。
 
 ![export config](https://static.gl-inet.com/docs/router/en/4/tutorials/access_ovpnserver_lan_via_domain_names/export1.png){class="glboxshadow"}
 
 ポップアップウィンドウで **Export** をクリックします。
 
-**Note**: サーバーのパブリックIPアドレスが動的で時々変わる場合は、クライアント設定をエクスポートする前に **APPLICATIONS** -> **Dynamic DNS** に移動して **DDNS** を有効にしてください。
+**注意**: サーバーのパブリックIPアドレスが動的で時々変わる場合は、クライアント設定をエクスポートする前に **APPLICATIONS** -> **Dynamic DNS** に移動して **DDNS** を有効にしてください。
 
 ![export config](https://static.gl-inet.com/docs/router/en/4/tutorials/access_ovpnserver_lan_via_domain_names/export2.png){class="glboxshadow"}
 
@@ -70,7 +70,7 @@ VPN サーバールーターの Web 管理画面にログインし、**NETWORK**
 
 ### 5. VPN設定をアップロードする {#5-upload-vpn-configuration}
 
-VPN クライアントルーターの Web 管理画面にログインし、**VPN** -> **OpenVPN Client** に移動して **Add Manually** をクリックします。
+VPN クライアントルーターの Web 管理パネルにログインし、**VPN** -> **OpenVPN Client** に移動して **Add Manually** をクリックします。
 
 ![add manually](https://static.gl-inet.com/docs/router/en/4/tutorials/access_ovpnserver_lan_via_domain_names/ovpnclient_upload1.png){class="glboxshadow"}
 
@@ -102,4 +102,4 @@ VPN クライアントルーターの Web 管理画面にログインし、**VPN
 
 ---
 
-ご不明な点がある場合は、[Community Forum](https://forum.gl-inet.com){target="_blank"} をご利用いただくか、[Contact us](https://www.gl-inet.com/contacts/){target="_blank"} からお問い合わせください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

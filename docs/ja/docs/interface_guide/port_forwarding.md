@@ -1,8 +1,10 @@
 # ポートフォワーディング {#port-forwarding}
 
-> このガイドはファームウェア v4.6 以降を対象としています。古いバージョンについては、[Firewall](firewall.md) を参照してください。
+**注意**: このガイドはファームウェア v4.6 以降を対象としています。それ以前のバージョンについては、[ファイアウォール](firewall.md) を参照してください。
 
-Web Admin Panel の左側で、**NETWORK** -> **Port Forwarding**、または（ファームウェア v4.9 以降では） **SECURITY** -> **Port Forwarding** に移動します。
+---
+
+Web 管理パネルの左側で、**NETWORK** -> **Port Forwarding**、または（ファームウェア v4.9 以降では） **SECURITY** -> **Port Forwarding** に移動します。
 
 このページでは、**DMZ** や **Port Forwarding** を含むファイアウォールルールを設定できます。
 
@@ -12,19 +14,19 @@ DMZ を使うと、1 台のコンピューターをインターネットに公�
 
 **Enable DMZ** をオンにし、すべての受信パケットを受け取るホストデバイスの内部 IP アドレスを選択します。
 
-DMZ の優先度を設定できます。DMZ の優先度が Port Forwarding ルールより高い場合、すべての Port Forwarding ルールは無効になります。それ以外の場合は、アクセスされたポートに対応する Port Forwarding ルールがないときのみ、リクエストが DMZ Host デバイスへ転送されます。
+DMZ の優先度を設定できます。DMZ の優先度がポートフォワーディングルールより高い場合、すべてのポートフォワーディングルールは無効になります。それ以外の場合は、アクセスされたポートに対応するポートフォワーディングルールがないときのみ、リクエストが DMZ ホストデバイスへ転送されます。
 
 ![dmz](https://static.gl-inet.com/docs/router/en/4/interface_guide/port_forwarding/dmz.png){class="glboxshadow"}
 
 ## ポートフォワーディング {#port-forwarding_1}
 
-Port Forwarding を使うと、リモートコンピューターから LAN 内のルーターのファイアウォール背後にあるローカルコンピューターやサーバー（Web サーバー、FTP サーバーなど）へ接続できます。
+ポートフォワーディングを使うと、リモートコンピューターから LAN 内のルーターのファイアウォール背後にあるローカルコンピューターやサーバー（Web サーバー、FTP サーバーなど）へ接続できます。
 
-Port Forwarding を設定するには、Port Forwarding セクションで **Add** をクリックします。
+ポートフォワーディングを設定するには、Port Forwarding セクションで **Add** をクリックします。
 
 ![port forwarding add](https://static.gl-inet.com/docs/router/en/4/interface_guide/port_forwarding/port_forwarding_add1.png){class="glboxshadow"}
 
-ポップアップウィンドウで新しい Port Forwarding ルールを追加し、**Apply** をクリックします。
+ポップアップウィンドウで新しいポートフォワーディングルールを追加し、**Apply** をクリックします。
 
 ![add new port forwarding rule](https://static.gl-inet.com/docs/router/en/4/interface_guide/port_forwarding/port_forwarding_add2.png){class="glboxshadow"}
 

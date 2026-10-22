@@ -4,9 +4,9 @@
 
 ゲストWi-Fiネットワークは、メインのデバイスから分離したい端末のための別ネットワークです。これには、ゲスト用デバイスやスマートホーム機器などが含まれます。ゲストネットワークを作成することで、メインネットワークへの不正アクセスや潜在的な攻撃を防ぎ、ネットワークのセキュリティを高めることができます。
 
-GL.iNetルーターでゲストWi-Fiネットワークを設定する方法は2つあります。[ルーターの管理画面](#set-up-a-guest-network-via-the-admin-panel)を使う方法と、[GL.iNet mobile app](#set-up-a-guest-network-via-the-glinet-mobile-app)を使う方法です。
+GL.iNetルーターでゲストWi-Fiネットワークを設定する方法は2つあります。[ルーターの管理パネル](#set-up-a-guest-network-via-the-admin-panel)を使う方法と、[GL.iNet モバイルアプリ](#set-up-a-guest-network-via-the-glinet-mobile-app)を使う方法です。
 
-## 管理画面からゲストネットワークを設定する {#set-up-a-guest-network-via-the-admin-panel}
+## 管理パネルからゲストネットワークを設定する {#set-up-a-guest-network-via-the-admin-panel}
 
 ### 1. ゲストWi-Fiネットワークを有効にする {#1-enable-the-guest-wi-fi-network}
 
@@ -29,9 +29,9 @@ GL.iNetルーターでゲストWi-Fiネットワークを設定する方法は2�
 
 これでゲストWi-Fiネットワークの設定は完了です。デバイスを接続するには、利用可能なネットワーク一覧からゲストネットワーク名を探し、パスワードを入力してください。
 
-## GL.iNet mobile appからゲストネットワークを設定する {#set-up-a-guest-network-via-the-glinet-mobile-app}
+## GL.iNet モバイルアプリからゲストネットワークを設定する {#set-up-a-guest-network-via-the-glinet-mobile-app}
 
-**Note:** 開始前に、GL.iNet mobile app をデバイスにインストールして設定してください。
+**注意:** 開始前に、GL.iNet モバイルアプリをデバイスにインストールして設定してください。
 
 ### 1. ゲストWi-Fiネットワークを有効にする {#1-enable-the-guest-wi-fi-network_1}
 
@@ -55,8 +55,8 @@ GL.iNetルーターでゲストWi-Fiネットワークを設定する方法は2�
 
 関連記事:
 
-- [Guest Network](../interface_guide/guest_network.md)
+- [ゲストネットワーク](../interface_guide/guest_network.md)
 
 ---
 
-ご不明な点がある場合は、[Community Forum](https://forum.gl-inet.com){target="_blank"} または [Contact us](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

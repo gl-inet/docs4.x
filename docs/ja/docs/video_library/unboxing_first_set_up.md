@@ -1,4 +1,4 @@
-# 開梱＆初回セットアップ {#unboxing-first-time-setup}
+# 開梱と初回セットアップ {#unboxing-first-time-setup}
 
 デバイスを初めて手に取った際の開梱体験と、セットアップの流れをご紹介します。
 

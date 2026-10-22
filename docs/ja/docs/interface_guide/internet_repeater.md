@@ -180,7 +180,7 @@ SSID を入力し、Security を選択して、必要に応じてパスワード
 
 ## DFS {#dfs}
 
-上流の 5G Wi-Fi に接続すると、ルーターの Wi-Fi も上流 Wi-Fi に合わせて DFS チャネルを使用するかどうかが決まります。
+**DFS**（Dynamic Frequency Selection）は、レーダー信号との干渉を避けるために Wi-Fi チャネルを自動的に切り替える仕組みです。上流の 5G Wi-Fi に接続すると、ルーターの Wi-Fi も上流 Wi-Fi に合わせて DFS チャネルを使用するかどうかが決まります。
 
 * 上流 Wi-Fi が DFS チャネルを使用していてスキャン可能な場合、ルーターの 5G Wi-Fi も同じチャネルを使用します。
 
@@ -235,4 +235,4 @@ SSID を入力し、Security を選択して、必要に応じてパスワード
 
 ---
 
-ご不明な点がありましたら、[コミュニティ・フォーラム](https://forum.gl-inet.com){target="_blank"}または[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}をご利用ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

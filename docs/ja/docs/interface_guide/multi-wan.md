@@ -2,7 +2,7 @@
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/D1s1WScLP4s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Web Admin Panel の左側で、**NETWORK** -> **Multi-WAN** に移動します。
+Web 管理パネルの左側で、**NETWORK** -> **Multi-WAN** に移動します。
 
 ルーターに複数のインターネット接続方法を設定できます。ある接続方法が利用できなくなった場合、短時間で自動的に別の接続方法へ切り替えられます。また、複数の接続方法を同時に使い、一定の比率で新しい接続を割り当てることもできます。
 
@@ -14,7 +14,7 @@ GL.iNet ルーターは、[Ethernet](internet_ethernet.md)、[Repeater](internet
 
     2. USB ポートのないモデル（例: GL-B3000）は、Ethernet と Repeater のみをサポートします。
 
-    3. 一部モデルは [Dual-Ethernet WAN](ethernet_port.md#dual-ethernet-wan) をサポートしており、UI 上に追加の Ethernet インターフェースが表示されます。
+    3. 一部モデルは [Dual-Ethernet WAN](ethernet_port.md#dual-ethernet-wan) をサポートしており、Multi-WAN ページに Ethernet インターフェースが追加で表示されます。
 
 ## インターフェース状態追跡 {#interface-status-track}
 
@@ -61,13 +61,13 @@ GL.iNet ルーターは最大 5 つの仮想ネットワークインターフェ
 - ネットワークが安定していて、動画視聴、ライブ配信、ゲームなどの用途では、切断時に素早く切り替えられるよう高感度を推奨します。
 - ネットワークが不安定で、キャッシュされるファイルをダウンロードしているような用途では、頻繁な切り替えや接続失敗を防ぐため低感度を推奨します。
 
-**Tips**: 高感度へ切り替えるとネットワーク切断が発生する場合があります。慎重に調整してください。
+**ヒント**: 高感度へ切り替えるとネットワーク切断が発生する場合があります。慎重に調整してください。
 
 ## Multi-WANモード {#multi-wan-mode}
 
 Multi-WANには**Failover**と**Load Balance**の2つのモードがあります。これらは排他的であり、同時には使用できません。
 
-### Failover {#failover}
+### フェイルオーバー {#failover}
 
 複数のWAN接続がある場合、Failoverがデフォルトのモードです。使用中のリンクで障害が発生すると、ルーターはインターネットアクセスに使用する別のネットワークインターフェースへ自動的に切り替わります。
 
@@ -93,7 +93,7 @@ Load Balanceでは、複数のネットワークリンクを同時に使用し�
 
     Ethernetの帯域幅が200 Mbps、Repeater Wi-Fiの帯域幅が100 Mbpsで、TetheringとCellularが接続されていない場合、Ethernetを2、Repeaterを1、Tethering/Cellularを0に設定できます。システムは2:1の比率に従って新しい接続を割り当てるため、EthernetはRepeaterの約2倍の接続を処理します。Failoverモードと比べて、利用可能なインターフェース間で負荷を分散することで、全体のスループット効率を向上させます。
 
-**Note:** 既存の接続やトラフィックが load ratio と正確に一致することは保証されません。長時間使用するほど、この比率に近づきます。
+**注意:** 既存の接続やトラフィックが load ratio と正確に一致することは保証されません。長時間使用するほど、この比率に近づきます。
 
 ## 使用シナリオ {#usage-scenarios}
 

@@ -11,7 +11,7 @@
 
 ---
 
-Web Admin Panel の左側で、**VPN** -> **VPN Dashboard** に移動します。
+Web 管理パネルの左側で、**VPN** -> **VPN Dashboard** に移動します。
 
 VPN Dashboard では、ルーティングルール、接続中のサーバー、トラフィック統計、クライアント仮想 IP、接続ログなどの VPN 接続情報を確認できるほか、VPN キルスイッチ、IP マスカレーディング、MTU などの詳細設定も行えます。
 
@@ -33,7 +33,7 @@ VPN Dashboard では、ルーティングルール、接続中のサーバー、
 
 !!! Tip
 
-    1. 上の画像に表示されている VPN プロバイダーは、GL.iNet ルーターの Web Admin Panel に統合されています。有効なサブスクリプションがあれば、認証情報を入力するだけですぐにログインし、VPN 接続用の設定ファイルを取得できます。
+    1. 上の画像に表示されている VPN プロバイダーは、GL.iNet ルーターの Web 管理パネルに統合されています。有効なサブスクリプションがあれば、認証情報を入力するだけですぐにログインし、VPN 接続用の設定ファイルを取得できます。
     
     2. 他の VPN プロバイダーを契約している場合や、独自の VPN 設定をアップロードしたい場合は、**Add Manually** をクリックして設定ファイルをアップロードしてください。
 
@@ -333,4 +333,4 @@ VPN プロファイルの一覧が表示されます。VPN サービスプロバ
 
 ---
 
-ご不明な点がある場合は、[Community Forum](https://forum.gl-inet.com){target="_blank"} をご利用いただくか、[Contact us](https://www.gl-inet.com/contacts/){target="_blank"} からお問い合わせください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

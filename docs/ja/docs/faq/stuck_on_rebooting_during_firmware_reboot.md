@@ -1,10 +1,10 @@
-# ファームウェア再起動中に「Rebooting」でスタックする {#stuck-on-rebooting-during-firmware-reboot}
+# ファームウェア再起動中に「Rebooting」のまま進まない {#stuck-on-rebooting-during-firmware-reboot}
 
-ルーターがファームウェア再起動中に「Rebooting」でスタックする場合は、以下の手順に従って問題を解決してください。
+ファームウェアの再起動中にルーターが「Rebooting」のまま進まない場合は、以下の手順に従って問題を解決してください。
 
 ![stuck on rebooting](https://static.gl-inet.com/docs/router/en/4/faq/troubleshooting/stuck_on_rebooting/rebooting.png){class="glboxshadow"}
 
-各手順の後、問題が解決したかどうかを確認します。解決した場合は、残りの手順をスキップできます。
+各手順の後に、問題が解決したかどうかを確認してください。解決した場合は、残りの手順は不要です。
 
 1. 再起動プロセスが自動的に完了するかどうかを確認するため、少なくとも5分間待ちます。特にファームウェアアップデート後は、再起動プロセスに想定より時間がかかることがあります。
 
@@ -20,4 +20,4 @@
 
 ---
 
-まだ質問がありますか？ [コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}または[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}をご覧ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

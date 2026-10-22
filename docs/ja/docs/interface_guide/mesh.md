@@ -8,7 +8,7 @@ Mango 2（GL-MG1300）とMudi 7（GL-E5800）は、ファームウェアv4.10以
 
 Web管理パネルの左側で**MESH**に移動します。
 
-MeshはWi-Fi EasyMesh™規格に基づく機能で、家全体のWi‑Fiカバレッジを拡張し、シームレスなローミングを可能にします。複数のGL.iNetルーターがある場合、1台をメインルーター、残りをMeshノードに設定します。
+MeshはWi-Fi EasyMesh™規格に基づく機能で、家全体のWi‑Fiカバレッジを拡張し、シームレスなローミングを可能にします。複数のGL.iNetルーターがある場合、1台をメインルーター、残りをMeshノードに設定すると、家中でシームレスにWi-Fiローミングできます。
 
 どのモードを選ぶべきか迷っている場合は、[Mesh・Extender・Access Pointモードの比較](#mesh-vs-extender-vs-access-point-mode)をご覧ください。
 
@@ -62,7 +62,7 @@ MeshはWi-Fi EasyMesh™規格に基づく機能で、家全体のWi‑Fiカバ�
 
 1. Meshノードの電源を入れ、メインルーターの近くに置きます。
 
-    初回設定時は、すばやくスキャンできるようにMeshノードをメインルーターの隣に置きます。設定後、Wi-Fiの圏外を補うため、両者の中間付近に移動できます。
+    初回設定時は、すばやくスキャンできるようにMeshノードをメインルーターの隣に置きます。設定が完了したら、Wi-Fiカバレッジを拡張するため、メインルーターとWi-Fiの届かない場所の中間付近に移動できます。
 
 2. MeshノードのWeb管理パネルにログインし、**MESH**に移動して**Mesh Node**をクリックします。
 
@@ -150,7 +150,7 @@ MeshはWi-Fi EasyMesh™規格に基づく機能で、家全体のWi‑Fiカバ�
 
 ![mesh node actions](https://static.gl-inet.com/docs/router/en/4/interface_guide/mesh/access_mesh_node1.png){class="glboxshadow"}
 
-メインルーターから割り当てられたIPアドレスにあるMeshノードのログインページへ移動します。
+メインルーターから割り当てられたIPアドレスにあるMeshノードのログインページへ移動します。ここからMeshノードにログインできます。
 
 ![mesh admin login](https://static.gl-inet.com/docs/router/en/4/interface_guide/mesh/access_mesh_node2.png){class="glboxshadow"}
 
@@ -225,4 +225,4 @@ MeshはEthernetバックホールを優先し、適切な無線接続が利用�
 
 ---
 
-ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}または[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}をご利用ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

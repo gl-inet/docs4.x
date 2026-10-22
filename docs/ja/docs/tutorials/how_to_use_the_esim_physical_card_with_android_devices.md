@@ -1,6 +1,6 @@
 # AndroidデバイスでeSIM Physical Cardを使用する方法 {#how-to-use-the-esim-physical-card-with-android-devices}
 
-**注記**：開始する前に、[対応デバイス一覧](https://www.eiotclub.com/blogs/community/physical-esim-compatible-devices){target="_blank"}を確認し、お使いのAndroidデバイスがeSIM Physical Cardに対応していることを確認してください。
+**注意**：開始する前に、[対応デバイス一覧](https://www.eiotclub.com/blogs/community/physical-esim-compatible-devices){target="_blank"}を確認し、お使いのAndroidデバイスがeSIM Physical Cardに対応していることを確認してください。
 
 ---
 
@@ -75,7 +75,7 @@ c. **Remote**: eSIMプロファイルの追加、削除、更新を行うため�
 
 AndroidデバイスでeSIMの設定が完了すると、GL.iNetによる以下の事前読み込みデータパッケージを利用できます。
 
-- 100MB Global Data
+- 100MB グローバルデータ
 - ヨーロッパおよび米国向け 1GB データ
 
 これらのパッケージは、インターネット接続がない場所に到着した際に、新しいeSIMプロファイルをダウンロードするのに便利です。
@@ -215,4 +215,4 @@ eSIM名をクリックしてSIM Card Settingsにアクセスします。
 
 ---
 
-ご不明な点がありましたら、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}をご覧いただくか、[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

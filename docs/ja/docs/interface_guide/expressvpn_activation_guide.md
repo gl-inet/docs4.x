@@ -8,9 +8,9 @@
 
 **Fortify (GL-MT6000)** は、GL.iNet と ExpressVPN が共同でリリースした共同ブランドのルーターです。すべてのユニットには、1 年間の ExpressVPN サブスクリプションが無料で付属しています。ユーザーはサブスクリプションを引き換えて、ルーターの Web 管理パネルでアカウントに直接接続できます。ExpressVPNトンネルが接続されている場合、ルーターはVPNポリシー設定に従ってトラフィックを暗号化し、そのトンネル経由で転送します。
 
-このガイドでは、ルーターの Web 管理パネル内で 12 か月の ExpressVPN プランを利用する手順を説明します。また、使用シナリオや要件に基づいた VPN ポリシーのカスタマイズについても説明しており、暗号化された安全な高速インターネット接続を簡単に楽しむことができます。
+このガイドでは、ルーターの Web 管理パネルで 12 か月の ExpressVPN プランを引き換える手順を説明します。また、使用シナリオや要件に基づいた VPN ポリシーのカスタマイズについても説明しており、暗号化された安全な高速インターネット接続を簡単に楽しむことができます。
 
-## ExpressVPN プランを利用する {#redeem-expressvpn-plan}
+## ExpressVPN プランを引き換える {#redeem-expressvpn-plan}
 
 Fortify の Web 管理パネルにログインし、**VPN** -> **VPN Client Profile** に移動します。
 
@@ -24,7 +24,7 @@ Fortify の Web 管理パネルにログインし、**VPN** -> **VPN Client Prof
 
 ![claim 12-month plan](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/claim_plan.png){class="glboxshadow"}
 
-ポップアップ ウィンドウに、**Order ID** を入力します。このルーターを GL.iNet ストアから購入した場合は、**Order Email** がさらに必要です。次に、「**Continue to ExpressVPN**」をクリックします。
+ポップアップウィンドウに、**Order ID** を入力します。このルーターを GL.iNet ストアから購入した場合は、**Order Email** がさらに必要です。次に、「**Continue to ExpressVPN**」をクリックします。
 
 ![claim 12-month plan amazon](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/amazon_order.png){class="glboxshadow"}
 
@@ -32,23 +32,23 @@ Fortify の Web 管理パネルにログインし、**VPN** -> **VPN Client Prof
 
 ExpressVPN チェックアウトに移動します。右側に引き換えコードが適用されており、追加料金なしで 12 か月のサブスクリプションを有効にできます。
 
-上部にメール アドレスを入力し、支払い方法を追加して、最初の期間の終了時に中断のない VPN アクセスを確保します。次に、「**Subscribe with Card**」をクリックします。
+上部にメールアドレスを入力し、支払い方法を追加して、初回期間の終了後も VPN を中断なく利用できるようにします。次に、「**Subscribe with Card**」をクリックします。
 
 ![expressvpn checkout1](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/expressvpn_checkout1.png){class="glboxshadow"}
 
-プランが有効になりました。 Fortify ルーターの Web 管理パネルに戻り、アカウントでログインします。
+プランが有効になりました。Fortify ルーターの Web 管理パネルに戻り、アカウントでログインします。
 
 ![expressvpn checkout2](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/expressvpn_checkout2.png){class="glboxshadow"}
 
-## ExpressVPNにログインします {#log-in-to-expressvpn}
+## ExpressVPN にログインする {#log-in-to-expressvpn}
 
 Fortify の Web 管理パネルで、**VPN** -> **VPN Client Profile** に移動します。
 
-[**Log in to ExpressVPN**] をクリックすると、ExpressVPN の安全なサインイン ページが表示されます。
+**Log in to ExpressVPN** をクリックすると、ExpressVPN の安全なサインインページが表示されます。
 
 ![expressvpn login 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/expressvpn_login1.png){class="glboxshadow"}
 
-メールアドレスを入力し、「**Send Code**」をクリックします。 6 桁の確認コードがメールに送信されます。
+メールアドレスを入力し、「**Send Code**」をクリックします。6 桁の確認コードがメールに送信されます。
 
 ![expressvpn login 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/expressvpn_login2.png){class="glboxshadow"}
 
@@ -64,13 +64,13 @@ Fortify の Web 管理パネルで、**VPN** -> **VPN Client Profile** に移動
 
 ![expressvpn login 5](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/expressvpn_login5.png){class="glboxshadow"}
 
-ログインに成功しました。このブラウザ ウィンドウを閉じて、デバイスに戻ってください。
+ログインに成功しました。このブラウザウィンドウを閉じて、デバイスに戻ってください。
 
 ![expressvpn login 6](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/expressvpn_login6.png){class="glboxshadow"}
 
 Fortify の Web 管理パネルで、**VPN** -> **VPN Client Profile** に移動します。
 
-このルーターではExpressVPNにサインインしています。 「**Go to ExpressVPN Dashboard**」をクリックします。
+このルーターではExpressVPNにサインインしています。「**Go to ExpressVPN Dashboard**」をクリックします。
 
 ![expressvpn signed in](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/expressvpn_signed_in.png){class="glboxshadow"}
 
@@ -82,15 +82,15 @@ Fortify の Web 管理パネルで、**VPN** -> **VPN Client Profile** に移動
 
 ### 一般的な手順 {#general-steps}
 
-以下の手順に従って、VPN トンネルを追加し、VPN ポリシーを構成します。必要に応じて、[ケースリファレンス](#case-reference)を参照してください。
+以下の手順に従って、VPN トンネルを追加し、VPN ポリシーを構成します。必要に応じて、[設定例](#case-reference)を参照してください。
 
-1. Fortify の Web 管理パネルで、**VPN** -> **ExpressVPN Dashboard** に移動します。 「**Add VPN Tunnel**」をクリックします。
+1. Fortify の Web 管理パネルで、**VPN** -> **ExpressVPN Dashboard** に移動します。「**Add VPN Tunnel**」をクリックします。
 
     ![dashboard](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/dashboard_initial.png){class="glboxshadow"}
 
 2. VPN プロファイルを選択し、**Next** をクリックします。
 
-    ExpressVPN プロファイルのリストを取得します。 1 つまたは複数のプロファイルを選択し、必要に応じて右側で優先度を調整します。
+    ExpressVPN プロファイルの一覧が表示されます。1 つまたは複数のプロファイルを選択し、必要に応じて右側で優先度を調整します。
 
     ![select profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/select-profile.png){class="glboxshadow"}
 
@@ -98,7 +98,7 @@ Fortify の Web 管理パネルで、**VPN** -> **VPN Client Profile** に移動
 
         複数のプロファイルを選択した場合、トンネルは優先順位に従って各プロファイルで接続を試み、接続に成功すると停止します。1つのトンネル内のすべてのプロファイルが接続に失敗した場合、[トンネルオプション](#tunnel-options)および[その他のすべてのトラフィック](#all-other-traffic)設定のキルスイッチの状態に基づいて、ルーターのローカルネットワーク（WAN）へ切り替えるかどうかが決まります。
 
-3. クライアント ソースを選択し、**Next** をクリックします。
+3. クライアントソースを選択し、**Next** をクリックします。
 
     次の 4 つのオプションがあります。
 
@@ -127,9 +127,9 @@ Fortify の Web 管理パネルで、**VPN** -> **VPN Client Profile** に移動
     - **Exclude specified Domain / IP List**: 選択すると、このルールに一致するトラフィックは、指定されたドメインまたは IP アドレスにルーティングされません。手動で入力する必要があります。
     ![exclude specified domain ip](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/exclude-specified-domain-ip.png){class="glboxshadow"}
 
-5. VPN トンネルが正常に追加されました。 **ExpressVPN Dashboard** に移動します。必要に応じて、VPN トンネルをさらに追加します。
+5. VPN トンネルが正常に追加されました。**ExpressVPN Dashboard** に移動します。必要に応じて、VPN トンネルをさらに追加します。
 
-### 事例紹介 {#case-reference}
+### 設定例 {#case-reference}
 
 ここでは、参考用に 2 つの典型的な VPN ポリシー構成ケースと段階的なセットアップ手順を示します。
 
@@ -139,7 +139,7 @@ Fortify の Web 管理パネルで、**VPN** -> **VPN Client Profile** に移動
 
     1. このルーターに接続されている特定のデバイスのみが VPN 経由でインターネットにアクセスします。他のすべてのデバイスは、ローカル WAN 経由でインターネットにアクセスします。
 
-    2. 選択したデバイスは VPN 接続のみを使用する必要があります。 VPN が予期せず切断された場合、DNS リークと IP 追跡を防ぐために、これらのデバイスのインターネット アクセスはブロックされます。
+    2. 選択したデバイスは VPN 接続のみを使用する必要があります。VPN が予期せず切断された場合、DNS リークと IP 追跡を防ぐために、これらのデバイスのインターネットアクセスはブロックされます。
 
     **設定手順：**
 
@@ -151,13 +151,13 @@ Fortify の Web 管理パネルで、**VPN** -> **VPN Client Profile** に移動
 
     2. クライアントソースを選択します。
 
-        [**Specified Devices**] タブをクリックし、VPN を使用するデバイスを選択して、[**Next**] をクリックします。
+        **Specified Devices** タブをクリックし、VPN を使用するデバイスを選択して、**Next** をクリックします。
 
         ![case 1 source](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case1-specified-devices.png){class="glboxshadow"}
 
     3. 対象の宛先を選択します。
 
-        [**All Targets**] タブをクリックしてトラフィックの宛先として設定し、[**Apply**] をクリックします。
+        **All Targets** タブをクリックしてトラフィックの宛先として設定し、**Apply** をクリックします。
 
         ![case 1 target](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case1-all-targets.png){class="glboxshadow"}
 
@@ -165,7 +165,7 @@ Fortify の Web 管理パネルで、**VPN** -> **VPN Client Profile** に移動
 
         ![case 1 dashboard](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case1-tunnel-apply.png){class="glboxshadow"}
 
-    5. このトンネルの **Kill Switch** が有効になっていることを確認してください。 VPN が予期せず切断されると、DNS リークと IP 追跡を防ぐために、このトンネルに一致するトラフィックのインターネット アクセスがブロックされます。
+    5. このトンネルの **Kill Switch** が有効になっていることを確認してください。VPN が予期せず切断されると、DNS リークと IP 追跡を防ぐために、このトンネルに一致するトラフィックのインターネットアクセスがブロックされます。
 
         ![case 1 kill switch1](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case1-killswitch1.png){class="glboxshadow"}
 
@@ -179,19 +179,19 @@ Fortify の Web 管理パネルで、**VPN** -> **VPN Client Profile** に移動
 
         ![case 1 connect](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case1-start-vpn.png){class="glboxshadow"}
 
-    8. 接続すると、ページには VPN ポリシー、クライアント仮想 IP、サーバー アドレス、リッスン ポート、トラフィック統計などの VPN 接続の詳細が表示されます。
+    8. 接続すると、ページには VPN ポリシー、クライアント仮想 IP、サーバーアドレス、リスニングポート、トラフィック統計などの VPN 接続の詳細が表示されます。
 
         ![case 1 connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case1-connected.png){class="glboxshadow"}
 
-        現在、指定された 2 台のデバイスのみが VPN 経由でインターネットにアクセスします。 VPN が予期せず切断された場合、DNS リークと IP 追跡を防ぐために、これらのデバイスのインターネット アクセスはブロックされます。他のすべてのデバイスは、代わりにローカル WAN ネットワーク経由でインターネットにアクセスします。
+        これで、指定した 2 台のデバイスのみが VPN 経由でインターネットにアクセスします。VPN が予期せず切断された場合、DNS リークと IP 追跡を防ぐために、これらのデバイスのインターネットアクセスはブロックされます。他のすべてのデバイスは、代わりにローカル WAN ネットワーク経由でインターネットにアクセスします。
 
 ??? note "ケース2：特定のWebサイトでは全デバイスをVPN 1経由、残りのトラフィックをVPN 2経由でルーティングする"
 
     **要件：**
 
-    1. すべてのデバイスは、特定のソーシャル メディアやストリーミング サービスの Web サイトにアクセスするときに VPN トンネル 1 を使用し、残りのすべてのインターネット アクセスには VPN トンネル 2 を使用します。
+    1. すべてのデバイスは、特定のソーシャルメディアやストリーミングサービスの Web サイトにアクセスするときに VPN トンネル 1 を使用し、残りのすべてのインターネットアクセスには VPN トンネル 2 を使用します。
 
-    2. VPN トンネルが予期せず切断されると、DNS リークと IP 追跡を防ぐために、すべてのデバイスのインターネット アクセスがブロックされます。
+    2. VPN トンネルが予期せず切断されると、DNS リークと IP 追跡を防ぐために、すべてのデバイスのインターネットアクセスがブロックされます。
 
     **設定手順：**
 
@@ -203,13 +203,13 @@ Fortify の Web 管理パネルで、**VPN** -> **VPN Client Profile** に移動
 
     2. クライアントソースを選択します。
 
-        [**All Clients**] タブをクリックし、それをトンネル 1 のクライアント ソースとして設定し、[**Next**] をクリックします。
+        **All Clients** タブをクリックし、それをトンネル 1 のクライアントソースとして設定し、**Next** をクリックします。
 
         ![case 2 source1](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case2-all-clients.png){class="glboxshadow"}
 
     3. 対象の宛先を選択します。
 
-        [**Specified Domain / IP List**] タブをクリックし、以下に示すように特定のソーシャル メディアとストリーミング サービスのドメインを入力し、[**Apply**] をクリックします。
+        **Specified Domain / IP List** タブをクリックし、以下に示すように特定のソーシャルメディアとストリーミングサービスのドメインを入力し、**Apply** をクリックします。
 
         ![case 2 target1](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case2-specified-domain.png){class="glboxshadow"}
 
@@ -217,13 +217,13 @@ Fortify の Web 管理パネルで、**VPN** -> **VPN Client Profile** に移動
 
         ![case 2 tunnel 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case2-tunnel1.png){class="glboxshadow"}
 
-    5. トンネル 1 の **Kill Switch** が有効になっていることを確認してください。 VPN が予期せず切断されると、DNS リークと IP 追跡を防ぐために、このトンネルに一致するトラフィックのインターネット アクセスがブロックされます。
+    5. トンネル 1 の **Kill Switch** が有効になっていることを確認してください。VPN が予期せず切断されると、DNS リークと IP 追跡を防ぐために、このトンネルに一致するトラフィックのインターネットアクセスがブロックされます。
 
         ![kill switch1](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case2-killswitch1.png){class="glboxshadow"}
 
         ![kill switch2](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case2-killswitch2.png){class="glboxshadow"}
 
-    6. [**Add New Tunnel**] をクリックしてトンネル 2 を追加します。
+    6. **Add New Tunnel** をクリックしてトンネル 2 を追加します。
 
         ![case 2 add tunnel](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case2-add-tunnel2.png){class="glboxshadow"}
 
@@ -235,13 +235,13 @@ Fortify の Web 管理パネルで、**VPN** -> **VPN Client Profile** に移動
 
     8. クライアントソースを選択します。
 
-        [**All Clients**] タブをクリックし、それをトンネル 2 のクライアント ソースとして設定し、[**Next**] をクリックします。
+        **All Clients** タブをクリックし、それをトンネル 2 のクライアントソースとして設定し、**Next** をクリックします。
 
         ![case 2 source2](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case2-all-clients.png){class="glboxshadow"}
 
     9. 対象の宛先を選択します。
 
-        [**All Targets**] タブをクリックし、トンネル 2 のトラフィック宛先として設定し、[**Apply**] をクリックします。
+        **All Targets** タブをクリックし、トンネル 2 のトラフィック宛先として設定し、**Apply** をクリックします。
 
         ![case 2 target2](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case2-all-targets.png){class="glboxshadow"}
 
@@ -249,7 +249,7 @@ Fortify の Web 管理パネルで、**VPN** -> **VPN Client Profile** に移動
 
         ![case 2 tunnel 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case2-tunnel2.png){class="glboxshadow"}
 
-    11. トンネル 2 の **Kill Switch** が有効になっていることを確認してください。 VPN が予期せず切断されると、DNS リークと IP 追跡を防ぐために、このトンネルに一致するトラフィックのインターネット アクセスがブロックされます。
+    11. トンネル 2 の **Kill Switch** が有効になっていることを確認してください。VPN が予期せず切断されると、DNS リークと IP 追跡を防ぐために、このトンネルに一致するトラフィックのインターネットアクセスがブロックされます。
 
         ![kill switch3](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case2-killswitch3.png){class="glboxshadow"}
 
@@ -269,11 +269,11 @@ Fortify の Web 管理パネルで、**VPN** -> **VPN Client Profile** に移動
 
         ![case 2 connect](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case2-start-vpn.png){class="glboxshadow"}
 
-    14. 接続すると、ページには VPN ポリシー、クライアント仮想 IP、サーバー アドレス、リッスン ポート、トラフィック統計などの VPN 接続の詳細が表示されます。
+    14. 接続すると、ページには VPN ポリシー、クライアント仮想 IP、サーバーアドレス、リスニングポート、トラフィック統計などの VPN 接続の詳細が表示されます。
 
         ![case 2 connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case2-connected.png){class="glboxshadow"}
 
-        これで、すべてのデバイスは、指定されたドメインにアクセスするときに **VPN Tunnel 1** を使用し、残りのすべてのインターネット アクセスに **VPN Tunnel 2** を使用するようになります。 VPN トンネルが予期せず切断されると、DNS リークと IP 追跡を防ぐために、すべてのデバイスのインターネット アクセスがブロックされます。
+        これで、すべてのデバイスは、指定されたドメインにアクセスするときに **VPN Tunnel 1** を使用し、残りのすべてのインターネットアクセスに **VPN Tunnel 2** を使用するようになります。VPN トンネルが予期せず切断されると、DNS リークと IP 追跡を防ぐために、すべてのデバイスのインターネットアクセスがブロックされます。
 
 ## キルスイッチ {#kill-switch}
 
@@ -283,33 +283,33 @@ VPNのキルスイッチは、VPN接続に障害が発生したときに、ト�
 
 **Enhanced Kill Switch** は、どのVPNトンネルにも一致しないインターネットトラフィックをブロックします。各トンネルの **Kill Switch** 設定を上書きすることはありません。
 
-Fortify は、グローバル VPN 接続および個々の VPN トンネルのキル スイッチ構成をサポートしています。
+Fortify は、グローバル VPN 接続および個々の VPN トンネルのキルスイッチ設定をサポートしています。
 
 - グローバルVPN接続（Enhanced Kill Switch）のキルスイッチを設定するには、[その他のすべてのトラフィック](#all-other-traffic)を参照してください。
 
-- 個別の VPN トンネルごとに Kill Switch を設定するには、[トンネル オプション](#tunnel-options) を参照してください。
+- 個別の VPN トンネルごとにキルスイッチを設定するには、[トンネルオプション](#tunnel-options) を参照してください。
 
-## その他すべてのトラフィック {#all-other-traffic}
+## その他のすべてのトラフィック {#all-other-traffic}
 
 右上の歯車アイコンをクリックして、VPN トンネルと一致しないトラフィックに対するポリシーを設定します。
 
 ![all other traffic](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/all_other_traffic.png){class="glboxshadow"}
 
-このポリシーは、どの VPN トンネル グループにも一致しないトラフィックがインターネットにアクセスできるかどうかを制御します。 **Allow Non-VPN Traffic** と **Enhanced Kill Switch** の 2 つのオプションが利用可能です。
+このポリシーは、どの VPN トンネルグループにも一致しないトラフィックがインターネットにアクセスできるかどうかを制御します。**Allow Non-VPN Traffic** と **Enhanced Kill Switch** の 2 つのオプションが利用可能です。
 
-- **Allow Non-VPN Traffic**: VPN 以外のトラフィックに対する通常のインターネット アクセスを保証するためにデフォルトで有効になっています。
+- **Allow Non-VPN Traffic**: VPN 以外のトラフィックに対する通常のインターネットアクセスを保証するためにデフォルトで有効になっています。
 
     ![allow non-vpn traffic](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/allow_non-vpn_traffic.png){class="glboxshadow"}
 
-- **Enhanced Kill Switch**: すべてのデバイスが VPN 経由でインターネットにアクセスするように強制します。 VPN トンネルに一致しないトラフィックはブロックされます。このグローバル設定は、個々の VPN トンネルに構成された Kill Switch をオーバーライドしません。
+- **Enhanced Kill Switch**: すべてのデバイスが VPN 経由でインターネットにアクセスするように強制します。VPN トンネルに一致しないトラフィックはブロックされます。このグローバル設定は、個々の VPN トンネルに設定されたキルスイッチを上書きしません。
 
     ![enhanced killswitch](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/enhanced_killswitch.png){class="glboxshadow"}
 
 ## トンネルオプション {#tunnel-options}
 
-VPN キル スイッチ、IP マスカレード、MTU などの詳細設定を VPN トンネルごとに構成できます。
+VPN キルスイッチ、IPマスカレーディング、MTU などの詳細設定を VPN トンネルごとに構成できます。
 
-トンネル グループの歯車アイコンをクリックし、**Options** を選択します。
+トンネルグループの歯車アイコンをクリックし、**Options** を選択します。
 
 ![tunnel options1](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/tunnel_options1.png){class="glboxshadow"}
 
@@ -319,15 +319,15 @@ VPN キル スイッチ、IP マスカレード、MTU などの詳細設定を V
 
 - **Services from GL.iNet Use VPN**: 有効にすると、GoodCloud、DDNS、および rtty サービスが VPN トンネル経由でパケットを送信します。これらのサービスが正常に動作するには通常、デバイスの実際の IP アドレスが必要であるため、このオプションはデフォルトでは無効になっています。
 
-- **Allow Remote Access to the LAN Subnet**: 有効にすると、VPN を介したこのルーターとその LAN デバイスへのリモート アクセスが許可されます。これには、VPN サーバーが LAN サブネットに戻るルートをアドバタイズする必要があります。
+- **Allow Remote Access to the LAN Subnet**: 有効にすると、VPN を介したこのルーターとその LAN デバイスへのリモートアクセスが許可されます。これには、VPN サーバーが LAN サブネットへの戻りルートをアドバタイズしている必要があります。
 
-- **IP Masquerading**: 有効にすると、LAN クライアントの送信元 IP アドレスがルーターの VPN トンネル IP に書き換えられます。これを無効にするのは、リモート ピアが LAN サブネットを認識しているサイト間セットアップの場合のみです。
+- **IP Masquerading**: 有効にすると、LAN クライアントの送信元 IP アドレスがルーターの VPN トンネル IP に書き換えられます。これを無効にするのは、リモートピアがお使いの LAN サブネットを認識しているサイトツーサイト構成の場合のみにしてください。
 
-- **MTU**: トンネルに設定した MTU 値は、構成ファイルの MTU 設定をオーバーライドします。
+- **MTU**: トンネルに設定した MTU 値は、設定ファイルの MTU 設定より優先されます。
 
 ## トンネルの優先順位 {#tunnel-priority}
 
-トンネルの優先順位を調整するには、トンネル グループの歯車アイコンをクリックし、**Priority** を選択します。
+トンネルの優先順位を調整するには、トンネルグループの歯車アイコンをクリックし、**Priority** を選択します。
 
 ![priority1](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/priority1.png){class="glboxshadow"}
 
@@ -337,23 +337,23 @@ VPN キル スイッチ、IP マスカレード、MTU などの詳細設定を V
 
 **複数のトンネルが有効な場合、ルーターは次のルールに従ってトラフィックをルーティングします**：
 
-1. トラフィックはまず、最も優先度の高いトンネル ルールとの一致を試みます。一致した場合、そのトンネルを介してルーティングされます。それ以外の場合は、次の優先順位のトンネルが試行されます。
+1. トラフィックはまず、最も優先度の高いトンネルルールとの一致を試みます。一致した場合、そのトンネルを介してルーティングされます。それ以外の場合は、次の優先順位のトンネルが試行され、以下同様に続きます。
 
-2. 各トンネル グループは独立して動作します。トラフィックがトンネル ルールに一致すると、そのトンネルを介してルーティングされ、トンネル グループ間でフェールオーバーしません。
+2. 各トンネルグループは独立して動作します。トラフィックがトンネルルールに一致すると、そのトンネルを介してルーティングされ、トンネルグループ間でフェイルオーバーしません。
 
-3. 各トンネル グループ内で複数のプロファイルを選択して、トンネル内フェールオーバーを有効にすることができます。トンネル グループ内の最も優先度の高いプロファイルがダウンすると、トンネルは 2 番目に優先度の高いプロファイルを使用して自動的に接続され、以下同様になります。
+3. 各トンネルグループ内で複数のプロファイルを選択して、トンネル内フェイルオーバーを有効にすることができます。トンネルグループ内の最も優先度の高いプロファイルがダウンすると、トンネルは 2 番目に優先度の高いプロファイルを使用して自動的に接続され、以下同様になります。
 
-4. VPN トンネルが予期せず切断された場合、システムは、このトンネルの **Kill Switch** が有効かどうかに基づいて、トラフィックを他のすべてのトラフィック トンネルにフェイルオーバーするかどうかを決定します。
+4. VPN トンネルが予期せず切断された場合、システムは、このトンネルの **Kill Switch** が有効かどうかに基づいて、トラフィックを All Other Traffic トンネルにフェイルオーバーするかどうかを決定します。
 
-    - Kill Switch が有効になっている場合、トラフィックはブロックされ、他のすべてのトラフィック トンネルにはフェイルオーバーされません。
-    - Kill Switch が無効になっている場合、トラフィックは他のすべてのトラフィック トンネルにフェイルオーバーされます。
+    - キルスイッチが有効な場合、トラフィックはブロックされ、All Other Traffic トンネルにはフェイルオーバーされません。
+    - キルスイッチが無効な場合、トラフィックは All Other Traffic トンネルにフェイルオーバーされます。
 
-5. **All Other Traffic** トンネルでは、VPN トンネルに一致しないトラフィックがインターネットにアクセスできるかどうかは、さまざまなモードによって決まります。
+5. **All Other Traffic** トンネルでは、VPN トンネルに一致しないトラフィックがインターネットにアクセスできるかどうかは、選択したモードによって決まります。
 
     - **Allow Non-VPN Traffic**: VPN トンネルに一致しないトラフィックでもローカル WAN 経由でインターネットにアクセスできるようにするため、デフォルトで有効になっています。
 
-    - **Enhanced Kill Switch**: すべてのデバイスが VPN 経由でインターネットにアクセスするように強制されます。 VPN トンネルに一致しないトラフィックはブロックされます。このグローバル設定は、個々の VPN トンネルに構成された Kill Switch をオーバーライドしません。つまり、キルスイッチを強化し、通常のインターネットアクセスをブロックしてIP漏洩を防ぎます。
+    - **Enhanced Kill Switch**: すべてのデバイスが VPN 経由でインターネットにアクセスするように強制されます。VPN トンネルに一致しないトラフィックはブロックされます。このグローバル設定は、個々の VPN トンネルに設定されたキルスイッチを上書きしません。つまり、キルスイッチを強化し、通常のインターネットアクセスをブロックしてIP漏洩を防ぎます。
 
 ---
 
-ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}をご利用いただくか、[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}からお問い合わせください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

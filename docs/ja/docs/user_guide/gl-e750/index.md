@@ -1,10 +1,10 @@
 # Mudi V2 (GL-E750V2) ユーザーガイド {#mudi-v2-gl-e750v2-user-guide}
 
-**注意：** Mudi V2 (GL-E750V2) と Mudi (GL-E750) は同じファームウェアで動作します。Mudi (GL-E750) を使用している場合、最新の機能を使用するには[ファームウェアをアップグレード](https://dl.gl-inet.com/?model=e750)してください。
+**注：** Mudi V2 (GL-E750V2) と Mudi (GL-E750) は同じファームウェアで動作します。Mudi (GL-E750) を使用している場合、最新の機能を使用するには[ファームウェアをアップグレード](https://dl.gl-inet.com/?model=e750)してください。
 
 ## 製品概要 {#product-overview}
 
-Mudi V2 (GL-E750V2) は、世界中の通信事業者に対応する携帯式4G LTE旅行用ルーターです。OpenWrtとGL.iNetのSDK 4.0で完全にオープンソースで動作し、カスタマイズ機能と一連の機能を提供します。Mudi V2 (GL-E750V2) は300Mbps (2.4GHz) と433Mbps (5GHz) のWi-Fi速度をサポートし、最大1TBのMicroSDカードをサポートします。7000mAhの内蔵バッテリーがあります。また、すべての機器のためのスムーズな接続を確保するためにMulti-WAN（フェイルオーバーとロードバランス）をサポートします。
+Mudi V2 (GL-E750V2) は、世界各国の通信事業者に対応したポータブル4G LTEトラベルルーターです。OpenWrtとGL.iNetのSDK 4.0上で完全にオープンソースで動作し、高いカスタマイズ性と豊富な機能を備えています。Mudi V2 (GL-E750V2) は300Mbps (2.4GHz) と433Mbps (5GHz) のWi-Fi速度に対応し、最大1TBのMicroSDカードを使用できます。7000mAhのバッテリーを内蔵しています。また、Multi-WAN（フェイルオーバーとロードバランス）に対応しており、すべてのデバイスで安定した接続を確保できます。
 
 ![gl-e750v2 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e750/hardware_info/e750_interface.jpg){class="glboxshadow"}
 
@@ -16,7 +16,7 @@ Mudi V2 (GL-E750V2) は、世界中の通信事業者に対応する携帯式4G 
 
 - 電源ボタンを**5秒以上押す**：デバイスの電源を切る
 
-    （3秒間押すと、OLED画面に「Standby Mode On」が最初に表示されます。「Shut Down」が「Standby Mode On」の下に表示されるまで電源ボタンを押し続けてください。3秒のカウントダウンがあり、デバイスの電源が切れます。）
+    （3秒間押すと、まずOLED画面に「Standby Mode On」が表示されます。そのまま、「Standby Mode On」の下に「Shut Down」が表示されるまで電源ボタンを押し続けてください。3秒のカウントダウンの後、デバイスの電源が切れます。）
 
 ## スタンバイモード {#standby-mode}
 
@@ -24,42 +24,42 @@ Mudi V2 (GL-E750V2) は、世界中の通信事業者に対応する携帯式4G 
 
 スタンバイモードをオンまたはオフにするには、電源ボタンを3秒間押します。OLED画面に「Standby Mode On」または「Standby Mode Off」が表示されます。
 
-## パッケージコンテンツ {#package-contents}
+## パッケージ内容 {#package-contents}
 
 ![gl-e750v2 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e750/first_time_setup/e750v2_unboxing.jpg){class="glboxshadow"}
 
 - 1 x Mudi V2 (GL-E750V2) 携帯式4G LTEルーター
 - 1 x 電源アダプター
-- 4 x コンバーター（米国、EU、英国、オーストラリアプラグ）
+- 4 x 変換プラグ（US、EU、UK、AUプラグ）
 - 1 X ユーザーマニュアル
-- 1 x 保証カード
+- 1 x 保証書
 - 1 x Ethernetケーブル
 - 1 x USB-Cポートレプリケーター
 - 1 x USB-C to USB-Cケーブル
 - 1 x USB-A to USB-Cケーブル
-- 1 x ポーチバッグ
+- 1 x 収納ポーチ
 - 1 x サンキューカード
 
 ---
 
 ## 初期設定 {#first-time-setup}
 
-設定動画を見るか、手順に従ってMudi V2を設定します。
+動画を視聴するか、以下の手順に従ってMudi V2をセットアップしてください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4FzEgmYyy7k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. SIMカードを挿入 {#1-insert-a-sim-card}
+### 1. SIMカードを挿入する {#1-insert-a-sim-card}
 
 SIMカードとオプションのMicroSDカードをMudi V2 (GL-E750V2) に挿入します。
 
-注意：SIMカードを使用する場合は、電源を入れる前にデバイスに挿入する必要があります。
+注：SIMカードを使用する場合は、電源を入れる前にデバイスに挿入する必要があります。
 
-1. Mudi V2 (GL-E750V2) の裏面を向けます。
-2. カバーの端の近くに指を穴に差し込みます。
-3. 端に沿ってスライドします。
-4. カバーが少し（上から約25度から30度くらい）上がったら、引いて開きます。
-5. 角の近くのシンボルの指示に従って、カードをカードスロットに挿入します。
-6. ふたを押してカバープレートを閉じます。
+1. Mudi V2 (GL-E750V2) を裏返します。
+2. カバーの縁の近くにある穴に指を入れます。
+3. 縁に沿って指をスライドさせます。
+4. カバーが少し（約25～30度）持ち上がったら、引き上げて開きます。
+5. 角の近くにある記号の向きに従って、カードをカードスロットに挿入します。
+6. カバーを押し下げて閉じます。
 
 ### 2. 電源を入れる {#2-power-on}
 
@@ -71,7 +71,7 @@ Mudi V2 (GL-E750V2) の電源が切れている場合でも、電源ボタンを
 
 ![gl-e750v2 battery](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e750/internet/e750v2_battery.png){class="glboxshadow"}
 
-標準の5V/2A電源アダプターを使用していることを確認してください。 そうでない場合は 故障が発生する可能性があります.
+必ず標準の5V/2A電源アダプターを使用してください。それ以外のアダプターを使用すると、故障の原因となる場合があります。
 
 ![gl-e750v2 battery](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e750/internet/e750v2_charge.png){class="glboxshadow"}
 
@@ -79,13 +79,13 @@ Mudi V2 (GL-E750V2) の電源が切れている場合でも、電源ボタンを
 
 ## インターネット {#internet}
 
-ルーターWeb管理パネルにログインし、左側メニューから**INTERNET**に移動します。
+ルーターのWeb管理パネルにログインし、左側のメニューから**INTERNET**に移動します。
 
 このページでは、Ethernet、Repeater、Tethering、Cellularなどのインターネット接続タイプを選択できます。
 
 ### Ethernet {#ethernet}
 
-アクティブなモデムまたはアクティブなネットワーク機器にEthernetケーブルを接続してインターネットにアクセスします。この方法は、通常、最も速く最も信頼性の高いインターネット接続を提供します。
+Ethernetケーブルを使用して、ルーターを稼働中のモデムまたはネットワーク機器に接続し、インターネットにアクセスします。通常、この方法は最も高速で信頼性の高いインターネット接続を提供します。
 
 [Ethernetケーブルでインターネットに接続する方法についてはこちらをクリック](../../interface_guide/internet_ethernet.md)
 
@@ -93,7 +93,7 @@ Mudi V2 (GL-E750V2) の電源が切れている場合でも、電源ボタンを
 
 ### Repeater {#repeater}
 
-ルーターをRepeaterとして設定して、既存のWi-FiネットワークのWi-Fiカバー範囲を拡張します。Repeaterとして、範囲内でWi-Fiシグナルを受信して再送信し、カバレッジを拡張します。この方法は、単一のルーターが全体の使用エリアをカバーできない場合に便利です。
+ルーターをリピーターとして設定し、既存のWi-Fiネットワークのカバー範囲を拡張します。リピーターとして動作する場合、範囲内の無線信号を受信して再送信し、カバー範囲を広げます。この方法は、1台のルーターでは利用エリア全体をカバーできない場合に便利です。
 
 [既存のWi-Fiでインターネットに接続する方法についてはこちらをクリック](../../interface_guide/internet_repeater.md)
 
@@ -101,7 +101,7 @@ Mudi V2 (GL-E750V2) の電源が切れている場合でも、電源ボタンを
 
 ### Tethering {#tethering}
 
-ルーターUSBポートをUSBケーブルでアクティブなモバイルデータを持つスマートフォンに接続してインターネットにアクセスします。この方法により，ルーターに接続された複数の機器がスマートフォンのモバイルデータを使用してインターネットにアクセスできます。
+モバイルデータ通信が有効なスマートフォンをUSBケーブルでルーターのUSBポートに接続し、インターネットにアクセスします。この方法により、ルーターに接続された複数のデバイスがスマートフォンのモバイルデータを使ってインターネットにアクセスできます。
 
 [USBテザリングでインターネットに接続する方法についてはこちらをクリック](../../interface_guide/internet_tethering.md)
 
@@ -109,35 +109,35 @@ Mudi V2 (GL-E750V2) の電源が切れている場合でも、電源ボタンを
 
 ### Cellular {#cellular}
 
-Mudi V2から背面カバーを外し，SIMカードをSIMカードスロットに挿入してインターネットに接続します。この方法は，単一のSIMカードからすべての接続機器にインターネットアクセスを共有するのに便利です。
+Mudi V2の背面カバーを外し、SIMカードをSIMカードスロットに挿入してインターネットに接続します。この方法は、1枚のSIMカードのインターネット接続を、接続中のすべてのデバイスで共有する場合に便利です。
 
 [セルラーでインターネットに接続する方法についてはこちらをクリック](../../interface_guide/internet_cellular.md)
 
 ![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e750/internet/e750v2_cellular.png){class="glboxshadow"}
 
-GL.iNetルーターでeSIM物理カードを使用するには，ここをクリックしてください：[GL.iNetルーターでeSIM物理カードを使用する方法](../../tutorials/how_to_use_esim_physical_card_with_glinet_routers.md)
+GL.iNetルーターでeSIM物理カードを使用する方法については、こちらを参照してください：[GL.iNetルーターでeSIM物理カードを使用する方法](../../tutorials/how_to_use_esim_physical_card_with_glinet_routers.md)
 
 ---
 
-## Wi-Fi {#wireless}
+## ワイヤレス {#wireless}
 
-Wi-Fi設定では、側面メニューから**WIRELESS**に移動して、プライマリWi-FiとGuest Wi-Fiのネットワークセキュリティを管理できます。
+ワイヤレス設定では、メインWi-FiとゲストWi-Fiのネットワークセキュリティを管理できます。サイドメニューの**WIRELESS**からアクセスできます。
 
-[Wi-Fi設定の詳細についてはこちらをクリック](../../interface_guide/wireless.md)
+[ワイヤレス設定の詳細についてはこちらをクリック](../../interface_guide/wireless.md)
 
 ---
 
 ## クライアント {#clients}
 
-クライアントはルーターに接続された機器で、クライアントをブロックしたり、ネットワーク速度を制限したりできます。インターフェースは、ルーター管理パネルの側面メニューの**CLIENTS**をクリックしてアクセスできます。
+クライアントとは、ルーターに接続されているデバイスのことです。クライアントをブロックしたり、ネットワーク速度を制限したりできます。この画面は、ルーターのWeb管理パネルのサイドメニューで**CLIENTS**をクリックすると表示されます。
 
-[機器クライアントの管理の詳細についてはこちらをクリック](../../interface_guide/clients.md)
+[デバイスクライアントの管理の詳細についてはこちらをクリック](../../interface_guide/clients.md)
 
 ---
 
 ## VPN {#vpn}
 
-GL.iNetルーターにはOpenVPNとWireGuard®がプレインストールされており，30以上のVPNサービスをサポートします。VPNクライアントを有効にすると、ルーターはVPNポリシー設定に従って、VPNアプリを実行できないデバイスを含むネットワーク上のデバイスのトラフィックを暗号化できます。私たちのルーターはVPNサーバーとして機能し，パブリックインターネットにアクセスする前に，リモートロケーションのクライアント機器からのトラフィックをVPNトンネルを経てVPNサーバーにリダイレクトできます。
+GL.iNetルーターには、30以上のVPNサービスに対応したOpenVPNとWireGuard®がプリインストールされています。VPNクライアントを有効にすると、ルーターはVPNポリシー設定に従って、VPNアプリを実行できないデバイスを含むネットワーク上のデバイスのトラフィックを暗号化できます。また、GL.iNetルーターはVPNサーバーとしても動作し、リモート拠点にあるクライアントデバイスからのトラフィックを、公開インターネットへアクセスする前にVPNトンネル経由でVPNサーバーへ転送できます。
 
 ### VPNダッシュボード {#vpn-dashboard}
 
@@ -145,14 +145,14 @@ GL.iNetルーターにはOpenVPNとWireGuard®がプレインストールされ�
 
 ### OpenVPN {#openvpn}
 
-段階的な設定ガイドについては、以下のリンクを参照してください：
+セットアップ手順については、以下のリンクを参照してください。
 
 - [**OpenVPNクライアントの設定**](../../interface_guide/openvpn_client.md)
 - [**OpenVPNサーバーの設定**](../../interface_guide/openvpn_server.md)
 
 ### WireGuard {#wireguard}
 
-段階的な設定ガイドについては、以下のリンクを参照してください：
+セットアップ手順については、以下のリンクを参照してください。
 
 - [**WireGuardクライアントの設定**](../../interface_guide/wireguard_client.md)
 - [**WireGuardサーバーの設定**](../../interface_guide/wireguard_server.md)
@@ -165,7 +165,7 @@ GL.iNetルーターにはOpenVPNとWireGuard®がプレインストールされ�
 
 ## アプリケーション {#applications}
 
-GL.iNetルーターには、機器管理をシンプル化し、ユーザーのインターネット体験を向上させ、ファームウェアアップデートを自動化等、幅広い追加機能が含まれています。
+GL.iNetルーターには、デバイス管理の簡素化、インターネット利用体験の向上、ファームウェア更新の自動化などに役立つ、幅広い追加機能が用意されています。
 
 ### プラグイン {#plug-ins}
 
@@ -185,7 +185,7 @@ GL.iNetルーターには、機器管理をシンプル化し、ユーザーの�
 
 ### ファイアウォール {#firewall}
 
-GL.iNetルーターには、安全な接続とユーザーの完全な監視を確保するための複数のファイアウォール機能が含まれています。Port Forwarding、Open Ports、DMZを含むファイアウォールルールを設定できます。
+GL.iNetルーターには、安全な接続を確保し、ユーザーがネットワークを十分に管理できるよう、複数のファイアウォール機能が搭載されています。Port Forwarding、Open Ports、DMZなどのファイアウォールルールを設定できます。
 
 [GL.iNetルーターのファイアウォールの詳細についてはこちらをクリック](../../interface_guide/firewall.md)
 
@@ -211,7 +211,7 @@ GL.iNetルーターには、安全な接続とユーザーの完全な監視を�
 
 ### MACアドレス {#mac-address}
 
-Macアドレスページは以前はMac Cloneと呼ばれていましたが、v4.2以降Macアドレスに変更されました。
+MACアドレスページは、以前は「Mac Clone」という名称でしたが、v4.2以降は「Mac Address」に変更されました。
 
 [**MACアドレス**](../../interface_guide/mac_address.md)チュートリアルを参照してください。
 
@@ -229,7 +229,7 @@ Macアドレスページは以前はMac Cloneと呼ばれていましたが、v4
 
 ### アップグレード {#upgrade}
 
-GL.iNetは、パフォーマンスを向上させ、バグを解決し、脆弱性を修正するために、ルーターファームウェアの定期的なアップデートを提供します。
+GL.iNetは、パフォーマンスの向上、バグの修正、脆弱性への対処のため、ルーターのファームウェアを定期的に更新しています。
 
 [**アップグレード**](../../interface_guide/upgrade.md)チュートリアルを参照してください。
 
@@ -243,7 +243,7 @@ GL.iNetは、パフォーマンスを向上させ、バグを解決し、脆弱�
 
 ### 管理者パスワード {#admin-password}
 
-この機能はv4.5以降[**セキュリティ**](../../interface_guide/security.md)に移りました。
+この機能はv4.5以降[**セキュリティ**](../../interface_guide/security.md)に移動しました。
 
 [**管理者パスワード**](../../interface_guide/admin_password.md)チュートリアルを参照してください。
 
@@ -263,6 +263,6 @@ GL.iNetは、パフォーマンスを向上させ、バグを解決し、脆弱�
 
 [**ファームウェアリセット**](../../interface_guide/reset_firmware.md)チュートリアルを参照してください。
 
-### 高度設定 {#advanced-settings}
+### 詳細設定 {#advanced-settings}
 
-[**高度設定**](../../interface_guide/advanced_settings.md)チュートリアルを参照してください。
+[**詳細設定**](../../interface_guide/advanced_settings.md)チュートリアルを参照してください。

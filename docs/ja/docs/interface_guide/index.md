@@ -38,7 +38,7 @@ hide:
 ## VPN {#vpn}
 
 * [VPNダッシュボード](vpn_dashboard.md)
-* [VPNクライアントプロフィール](vpn_client_profile.md)
+* [VPNクライアントプロファイル](vpn_client_profile.md)
 * [OpenVPNクライアントを設定する](openvpn_client.md)
 * [OpenVPNサーバーを設定する](openvpn_server.md)
 * [WireGuardクライアントを設定する](wireguard_client.md)
@@ -100,7 +100,7 @@ hide:
 
 * [システム概要](system_overview.md) - ハードウェアの状態やシステム情報を表示します。
 * [管理者パスワードの変更](admin_password.md)
-* [Upgrade](upgrade.md)
+* [アップグレード](upgrade.md)
 * [スケジュールタスク](scheduled_tasks.md) - LED表示、Wi-Fi状態、再起動のスケジュールを設定します。
 * [ディスプレイ管理](display_management.md)
 * [USB & Power](usb_power.md)

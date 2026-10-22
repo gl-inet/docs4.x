@@ -9,7 +9,6 @@
 
 </div>
 
----
 Web管理パネルの左側で、**VPN** -> **VPN Dashboard** に移動します。
 
 VPN Dashboard では、トンネルルール、サーバーアドレス、トラフィック統計、クライアント仮想IP、接続ログなどのVPN接続情報を確認できるほか、VPNキルスイッチ、IPマスカレーディング、MTU などの詳細設定も行えます。
@@ -104,13 +103,13 @@ VPN Mode を Policy Mode に切り替えて、**Apply** をクリックします
 
 各セクションをクリックすると、詳細を確認できます。
 
-- [Primary Tunnel](#primary-tunnel)
-- [Add Tunnel](#add-tunnel)
-- [All Other Traffic](#all-other-traffic)
+- [プライマリートンネル](#primary-tunnel)
+- [トンネルを追加](#add-tunnel)
+- [その他のすべてのトラフィック](#all-other-traffic)
 
 #### プライマリートンネル {#primary-tunnel}
 
-Primary Tunnel は、Policy Mode における<u>プリセット</u>のトンネルです。最優先で使用され、複数のトンネルがある場合は [tunnel priority](#tunnel-priority) を変更できます。
+Primary Tunnel は、Policy Mode における<u>プリセット</u>のトンネルです。最優先で使用され、複数のトンネルがある場合は [トンネル優先度](#tunnel-priority) を変更できます。
 
 このトンネルでは、次の3つの要素を設定してトンネルルールをカスタマイズできます。
 
@@ -170,7 +169,7 @@ Primary Tunnel は、Policy Mode における<u>プリセット</u>のトンネ�
 
             - Subscribe URL を選択すると、そのURL内のドメイン名またはIPが毎日自動的に更新されます。
 
-            - 正しいURLを入力してください。URL detection により、ドメイン名またはIPアドレスの有効性が検証されます。[詳細はこちら](../tutorials/how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md){target="_blank"}
+            - 正しいURLを入力してください。URL検出により、ドメイン名またはIPアドレスの有効性が検証されます。[詳細はこちら](../tutorials/how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md){target="_blank"}
 
     - **Exclude Specified Domain / IP List**: 選択すると、このルールに一致するトラフィックは、指定したドメインまたはIPアドレスへ **ルーティングされません**。内容は手動で入力する必要があります。
 
@@ -188,7 +187,7 @@ Primary Tunnel は、Policy Mode における<u>プリセット</u>のトンネ�
 
             - Subscribe URL を選択すると、そのURL内のドメイン名またはIPが毎日自動的に更新されます。
 
-            - 正しいURLを入力してください。URL detection により、ドメイン名またはIPアドレスの有効性が検証されます。[詳細はこちら](../tutorials/how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md){target="_blank"}
+            - 正しいURLを入力してください。URL検出により、ドメイン名またはIPアドレスの有効性が検証されます。[詳細はこちら](../tutorials/how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md){target="_blank"}
 
 3. **Via**: トラフィックのルーティング方法、つまりVPNを使用するかどうかを指定します。
 
@@ -216,7 +215,7 @@ Primary Tunnel は、Policy Mode における<u>プリセット</u>のトンネ�
 
 ![connected policy mode](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/connected-policy-mode.jpg){class="glboxshadow"}
 
-**注意**: セキュリティ確保のため、トンネルを有効にする前に [All Other Traffic](#all-other-traffic) と [Tunnel Options](#tunnel-options_1) で他の設定も確認してください。
+**注意**: セキュリティ確保のため、トンネルを有効にする前に [その他のすべてのトラフィック](#all-other-traffic) と [トンネルオプション](#tunnel-options_1) で他の設定も確認してください。
 
 #### トンネルを追加 {#add-tunnel}
 
@@ -234,9 +233,9 @@ VPN Dashboard にもう1つトンネルが追加されます。
 
 必要に応じてさらにトンネルを追加できます。作成できるのは最大5つのトンネルです（プリセットの Primary Tunnel を含む）。
 
-トラフィック送信元、宛先、ルーティング方法を設定してトンネルルールをカスタマイズしてください。詳細は [Primary Tunnel](#primary-tunnel) を参照してください。
+トラフィック送信元、宛先、ルーティング方法を設定してトンネルルールをカスタマイズしてください。詳細は [プライマリートンネル](#primary-tunnel) を参照してください。
 
-**注意**: セキュリティ確保のため、トンネルを有効にする前に [All Other Traffic](#all-other-traffic) と [Tunnel Options](#tunnel-options_1) で他の設定も確認してください。
+**注意**: セキュリティ確保のため、トンネルを有効にする前に [その他のすべてのトラフィック](#all-other-traffic) と [トンネルオプション](#tunnel-options_1) で他の設定も確認してください。
 
 #### その他のすべてのトラフィック {#all-other-traffic}
 
@@ -258,7 +257,7 @@ Policy Mode では、VPN Dashboard の下部に<u>あらかじめ有効になっ
 
 デフォルトでは、プリセットの Primary Tunnel が最優先で、その次に手動で追加したトンネル（ある場合）が続き、最後にローカルネットワーク接続（ローカルWAN経由）を確保するための All Other Traffic トンネルが続きます。
 
-トンネル優先度を変更するには、上部の情報バーで **Modify Priority** をクリックするか、任意のトンネル左上にある **priority label**（例: Priority 1 / Priority 2）をクリックします。
+トンネル優先度を変更するには、上部の情報バーで **Modify Priority** をクリックするか、任意のトンネル左上にある **優先度ラベル**（例: Priority 1 / Priority 2）をクリックします。
 
 ![modify priority](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/modify_priority_1.png){class="glboxshadow"}
 
@@ -291,11 +290,12 @@ Policy Mode では、VPN Dashboard の下部に<u>あらかじめ有効になっ
 ![tunnel options](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/tunnel_options_2.png){class="glboxshadow"}
 
 - **Kill Switch**: 有効にすると、このVPNトンネルを経由するすべてのトラフィックは、VPN接続が失敗すると自動的にブロックされます。無効にすると、トラフィックは次順位のトンネルまたはローカルWANへフェイルオーバーします。
+
 - **Services from GL.iNet Use VPN**: 有効にすると、GoodCloud、DDNS、rtty の各サービスはVPNトンネル経由でパケットを送信します。これらのサービスは通常デバイスの実IPアドレスを必要とするため、このオプションはデフォルトで無効です。
 
-- **Allow Remote Access the LAN Subnet**: 有効にすると、VPN経由でこのルーターおよびそのLANデバイスにリモートアクセスできます。VPNサーバー側で、そのLANサブネットへの戻りルートが通知されている必要があります。
+- **Allow Remote Access the LAN Subnet**: 有効にすると、VPN経由でこのルーターおよびそのLANデバイスへリモートアクセスできるようになります。VPNサーバー側では、このルーターのLANサブネットへのルートを通知している必要があります。
 
-- **IP Masquerading**: 有効にすると、LANクライアントの送信元IPアドレスはルーターのVPNトンネルIPに書き換えられます。リモートピアがLANサブネットを認識している Site-to-Site 構成の場合にのみ無効にしてください。
+- **IP Masquerading**: 有効にすると、LANクライアントの送信元IPアドレスはルーターのVPNトンネルIPに書き換えられます。リモートピアがLANサブネットを認識しているサイトツーサイト構成の場合にのみ無効にしてください。
 
     下図のように、IPマスカレーディングが有効な場合、トラベルルーターのLAN上にあるノートパソコン（192.168.10.200）がトンネル経由で自宅のNAS（192.168.8.100）へトラフィックを送信すると、トラベルルーターは送信元IPを`192.168.10.200`からVPNクライアントのトンネルアドレス`10.1.0.2`に書き換えます。そのため、サーバー側では、このトラフィックはクライアントのローカルLANからではなく、クライアントから送信されたものとして認識されます。
 
@@ -305,4 +305,4 @@ Policy Mode では、VPN Dashboard の下部に<u>あらかじめ有効になっ
 
 ---
 
-まだご不明な点がある場合は、[Community Forum](https://forum.gl-inet.com){target="_blank"} をご利用いただくか、[Contact us](https://www.gl-inet.com/contacts/){target="_blank"} からお問い合わせください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

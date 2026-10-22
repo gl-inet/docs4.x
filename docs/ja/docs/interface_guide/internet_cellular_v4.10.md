@@ -309,7 +309,7 @@ USB ドングルの動作モードに対応するセクションを参照して�
 
 1. SIM カードを GL-M2 ボードに挿入し、GL-M2 をルーターの USB ポートに接続します。
 
-2. ルーターの Web Admin Panel にログインし、**INTERNET** -> **Cellular** に移動します。
+2. ルーターの Web 管理パネルにログインし、**INTERNET** -> **Cellular** に移動します。
 
     ルーターは自動的にインターネットへの接続を試みます。接続に成功すると、ページにネットワーク情報と緑のドットが表示されます。
 
@@ -387,7 +387,7 @@ USB ドングルの動作モードに対応するセクションを参照して�
 
 1. USB ドングルをルーターの USB ポートに接続します。
 
-2. ルーターの Web Admin Panel にログインし、**INTERNET** -> **Tethering** に移動して **Connect** をクリックします。
+2. ルーターの Web 管理パネルにログインし、**INTERNET** -> **Tethering** に移動して **Connect** をクリックします。
 
     ![tethering 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/tethering1.png){class="glboxshadow"}
 
@@ -403,4 +403,4 @@ USB ドングルの動作モードに対応するセクションを参照して�
 
 ---
 
-ご不明な点がありましたら、[Community Forum](https://forum.gl-inet.com){target="_blank"} をご利用いただくか、[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

@@ -22,7 +22,8 @@ Spitz AXは平らな場所に置くことも、壁に取り付けることもで
 
 ### （任意）手順2: Spitz AXを壁に取り付ける {#optional-step-2-install-your-spitz-ax-on-the-wall}
 
-Spitz AXを壁に取り付ける方法は2つあります:
+Spitz AXを壁に取り付ける方法は2つあります。
+
 - 付属の粘着パッドを使う
 - 壁面取付用マウントを使う
 
@@ -44,7 +45,7 @@ Spitz AXを壁に取り付ける方法は2つあります:
 
 ![antennas](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/x3000-with-six-antennas.jpg){class="glboxshadow"}
 
-**Note:** GPSアンテナを含む 7-in-1 アンテナも使用できますが、Spitz AXに接続する必要があるのは6本のアンテナだけです。Spitz AXのDIV/GNSSインターフェースは、セルラーアンテナ（受信周波数 600M~6GHz）がGPSの周波数帯もカバーしているため、GPS信号に対応しています。Spitz AXはコマンドラインでGPS位置情報を確認できますが、現時点では地図上への表示には対応していません。
+**注意:** GPSアンテナを含む 7-in-1 アンテナも使用できますが、Spitz AXに接続する必要があるのは6本のアンテナだけです。Spitz AXのDIV/GNSSインターフェースは、セルラーアンテナ（受信周波数 600M~6GHz）がGPSの周波数帯もカバーしているため、GPS信号に対応しています。Spitz AXはコマンドラインでGPS位置情報を確認できますが、現時点では地図上への表示には対応していません。
 
 信号の減衰を避けるため、ルーフアンテナからSpitz AXまでの高周波ケーブルは 5 メートルを超えないようにしてください。（たとえば、MobileMarkの高周波ケーブルが 5 メートルの場合、3000MHz における受信信号は 3dB 低下し、信号強度は半分になります。信号の周波数が高いほど、減衰も大きくなります。）
 
@@ -56,7 +57,7 @@ Spitz AXを壁に取り付ける方法は2つあります:
 
 移動中もインターネットへ接続できるように、SIMカードを使ってインターネットを設定してください。
 
-Spitz AXには5GNRモジュールが内蔵されており、デュアルSIMカードに対応しています。モバイル通信事業者によってSIMカード向けの通信プランやAPNが異なります。設定でAPNを入力する必要があるため、通信事業者にAPNを確認してください。
+Spitz AXには5G NRモジュールが内蔵されており、デュアルSIMカードに対応しています。モバイル通信事業者によってSIMカード向けの通信プランやAPNが異なります。設定でAPNを入力する必要があるため、通信事業者にAPNを確認してください。
 
 SIMカードを設定するには、以下の手順に従ってください。
 
@@ -71,7 +72,7 @@ APNを入力するには、以下の手順に従ってください。
 3. **APN** の横にAPNを入力します。
 4. **Apply** をクリックします。
 
-2枚のSIMカードを使用する場合でも、同時に動作するのは1枚だけです。その都度、使用するSIMカードを手動で選択できます。あるいは、[Auto Switch feature](../interface_guide/internet_cellular.md#setup-for-dual-sim-models) を有効にしてください。ルーターが一方のSIMカードでインターネットに正常にアクセスできないことを検知すると、もう一方のSIMカードへ自動的に切り替わります。切り替えには約 1 分かかります。
+2枚のSIMカードを使用する場合でも、同時に動作するのは1枚だけです。その都度、使用するSIMカードを手動で選択できます。あるいは、[Auto Switch 機能](../interface_guide/internet_cellular.md#setup-for-dual-sim-models)を有効にしてください。ルーターが一方のSIMカードでインターネットに正常にアクセスできないことを検知すると、もう一方のSIMカードへ自動的に切り替わります。切り替えには約 1 分かかります。
 
 ---
 
@@ -102,15 +103,15 @@ Starlinkアンテナを設置するときは、周囲に遮るものがないこ
 ---
 
 ## 4. フェイルオーバーの優先順位を設定する {#4-set-failover-priorities}
-Spitz AXはmulti-WAN（フェイルオーバーとロードバランシング）に対応しています。利用シーンに応じて、各ネットワークのフェイルオーバー優先順位を設定できます。
+Spitz AXはMulti-WAN（フェイルオーバーとロードバランシング）に対応しています。利用シーンに応じて、各ネットワークのフェイルオーバー優先順位を設定できます。
 
-| Scenario| Priority |
+| シナリオ | 優先順位 |
 | --------| ------- |
-| キャンプ場（repeater を使ってそのWi-Fiネットワークに接続）    | <p> Cellular より repeater の優先順位を高く設定します。</p> <p>キャンプ場を離れると、ルーターは自動的に Cellular に切り替わります。</p>|
-| Starlink (ethernet) + cellular | Cellular の優先順位を ethernet より高く設定します。 <p>セルラー通信圏内では、ルーターは cellular ネットワークを使用します。</p> <p>セルラー通信圏外に入ると、ルーターは自動的に ethernet 経由のStarlinkへ切り替わります。</p>|
+| キャンプ場（リピーターでキャンプ場のWi-Fiネットワークに接続）    | <p>リピーターの優先順位をセルラーより高く設定します。</p> <p>キャンプ場を離れると、ルーターは自動的にセルラーに切り替わります。</p>|
+| Starlink（Ethernet）+ セルラー | セルラーの優先順位をEthernetより高く設定します。 <p>セルラー通信圏内では、ルーターはセルラーネットワークを使用します。</p> <p>セルラー通信圏外に入ると、ルーターは自動的にEthernet経由のStarlinkへ切り替わります。</p>|
 
-フェイルオーバーを設定するには、[Failover](../interface_guide/multi-wan.md) を参照してください。
+フェイルオーバーを設定するには、[フェイルオーバー](../interface_guide/multi-wan.md)のセクションを参照してください。
 
 ---
 
-ご不明な点がある場合は、[Community Forum](https://forum.gl-inet.com){target="_blank"} または [Contact us](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

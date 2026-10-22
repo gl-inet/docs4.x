@@ -1,6 +1,6 @@
 # GL.iNet ルーターで OpenVPN クライアントを設定する {#set-up-openvpn-client-on-glinet-routers}
 
-OpenVPN は、仮想プライベートネットワーク技術を用いて安全な site-to-site 接続または point-to-point 接続を確立する、オープンソースの VPN プロトコルです。
+OpenVPN は、仮想プライベートネットワーク技術を用いて安全なサイトツーサイト接続またはポイントツーポイント接続を確立する、オープンソースの VPN プロトコルです。
 
 GL.iNet ルーターで OpenVPN クライアントを設定するには、以下の動画を見るか、下記の手順を参照してください。
 
@@ -506,7 +506,7 @@ OpenVPN サーバーの設定方法は [こちら](openvpn_server.md) を参照�
 
     [こちら](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/privatevpn/PrivateVPN-TUN.zip){target="_blank"} から直接ダウンロードします。
 
-    [Here](https://privatevpn.com/client/PrivateVPN-TUN.zip) は公式ダウンロードリンクです。ルーターへのインポート時の不具合により、zip 内のファイル名に `Bogotá` という特殊文字が含まれていたため、名前を変更したファイルを上記リンクで提供しています。今後のバージョンで修正予定です。
+    [こちら](https://privatevpn.com/client/PrivateVPN-TUN.zip) は公式ダウンロードリンクです。ルーターへのインポート時の不具合により、zip 内のファイル名に `Bogotá` という特殊文字が含まれていたため、名前を変更したファイルを上記リンクで提供しています。今後のバージョンで修正予定です。
 
     ヒント: ZIP ファイルが大きすぎてアップロードできない場合は、`.zip` ファイルから一部の `.ovpn` ファイルを削除するか、単一の `.ovpn` ファイルをアップロードしてください。
 
@@ -598,7 +598,7 @@ OpenVPN サーバーの設定方法は [こちら](openvpn_server.md) を参照�
 
         ![streamvpn guide, vpn router](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/streamvpn/streamvpn_guide_router.png){class="glboxshadow"}
 
-    **Note:** ファイル名に "Primary" を含む設定ファイルのみ動作します。
+    **注意:** ファイル名に "Primary" を含む設定ファイルのみ動作します。
 
 ??? "StrongVPN"
     ### StrongVPN {#strongvpn}

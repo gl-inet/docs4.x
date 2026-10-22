@@ -12,7 +12,7 @@
 | GPIO1                         | BUTTON         | ボタン入力（リセット用） |
 | GPIO2                         | GPIO2          | h2リセットIO制御用 |
 | GPIO3                         | GPIO3          | h2ブートIO制御用 |
-| GPIO4                         | PHY_SPI_INT    | SPI EthernetモジュールのGPIO割り込み番号 |
+| GPIO4                         | PHY_SPI_INT    | SPI Ethernetモジュールの割り込みGPIO番号 |
 | GPIO5                         | PHY_RESET      | SPI EthernetモジュールのPHYリセットGPIO番号 |
 | GPIO6                         | NETWORK_LED    | ネットワークLED制御（緑） |
 | GPIO7                         | NETWORK_LED    | ネットワークLED制御（赤） |
@@ -45,7 +45,7 @@
 | GPIO47                        | UART1 CTS      | h2 uart0 rtsへの接続用 |
 | GPIO48                        | UART1 TX       | h2 uart0 rxへの接続用 |
 
-## PCBピン設定 {#pcb-pinout}
+## PCBピン配置 {#pcb-pinout}
 
 <div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
   <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">

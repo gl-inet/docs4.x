@@ -4,7 +4,7 @@
 
 ---
 
-Web管理画面の左側で、**FLOW CONTROL** -> **Network Quality**に移動します。
+Web管理パネルの左側で、**FLOW CONTROL** -> **Network Quality**に移動します。
 
 ネットワーク品質ダッシュボードは、インターネット接続の品質をリアルタイムで監視します。応答性、遅延、DNSパフォーマンスを評価し、接続の切断やパケット損失を検出します。これらの指標は、帯域幅テストだけではわからないネットワークの不安定性や接続の問題を特定するのに役立ちます。
 
@@ -50,4 +50,4 @@ Web管理画面の左側で、**FLOW CONTROL** -> **Network Quality**に移動�
 
 ---
 
-ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} をご利用いただくか、[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} からお問い合わせください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

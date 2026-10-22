@@ -12,7 +12,7 @@ GL.iNet [GoodCloud](https://www.goodcloud.xyz/){target="_blank"} は地理的な
 
 ### ファームウェアバージョン 4.7 以降 {#for-firmware-version-47-or-above}
 
-v4.7 以降では、ルーターの Web 管理画面を経由せずに、GoodCloud プラットフォームから直接 LuCI ページへアクセスできます。
+v4.7 以降では、ルーターの Web 管理パネルを経由せずに、GoodCloud プラットフォームから直接 LuCI ページへアクセスできます。
 
 1. [こちら](https://www.goodcloud.xyz/){target="_blank"} から GoodCloud アカウントにログインします。
 
@@ -62,4 +62,4 @@ v4.7 以降では、ルーターの Web 管理画面を経由せずに、GoodClo
 
 ---
 
-ご不明な点がある場合は、[Community Forum](https://forum.gl-inet.com){target="_blank"} をご利用いただくか、[Contact us](https://www.gl-inet.com/contacts/){target="_blank"} からお問い合わせください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

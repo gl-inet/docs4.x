@@ -183,7 +183,7 @@ SIM カードを2枚挿入している場合は、**Auto Switch** を有効に�
 
 - **Checking Preferred Slot Status Scheduled**
 
-    有効にすると、デバイスは毎日設定した時刻に優先 SIM スロットの状態を確認し、優先 SIM が再びインターネット接続を利用できるようになっていれば自動的に戻します。
+    有効にすると、デバイスは毎日設定した時刻に優先 SIM スロットの状態を確認し、優先 SIM が再びインターネットに接続できるようになっていれば、優先 SIM への切り替えを試みます。
 
     これにより、バックアップ SIM のデータ消費が過剰になるのを防げます。優先 SIM に引き続き信号がない場合は、バックアップ SIM の使用が継続されます。
 
@@ -316,7 +316,7 @@ Band Masking を使うと、特定のバンドをブロックしたり、優先�
 
 [SMS](../tutorials/sms.md) を参照してください。
 
-## SMS転送 {#sms-forwarding}
+## SMS 転送 {#sms-forwarding}
 
 [SMS Forwarding](../tutorials/sms_forwarding.md) を参照してください。
 
@@ -386,7 +386,7 @@ Band Masking を使うと、特定のバンドをブロックしたり、優先�
 
 ## モデムATコマンド {#modem-at-command}
 
-Modem AT Command は、セルラーモデムと通信するための標準命令です。この機能を使うと、コマンドを送信してモデムの状態を確認できます。
+モデム AT コマンドは、セルラーモデムと通信するための標準的な命令です。この機能を使うと、コマンドを送信してモデムの状態を確認できます。
 
 ルーターの Web 管理パネルで **INTERNET** -> **Cellular** に移動します。右上の三点アイコンをクリックし、**Modem AT Command** を選択します。
 
@@ -398,7 +398,7 @@ AT Command ページが開きます。
 
 Shortcut が **Manual command** に設定されている場合は、AT Command フィールドに任意のコマンドを入力できます。
 
-Shortcut のドロップダウンをクリックすると、**preset commands** の一覧から選択することもできます。
+Shortcut のドロップダウンをクリックすると、**プリセットコマンド**の一覧から選択することもできます。
 
 ![AT command 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/at_command_2.png){class="glboxshadow"}
 
@@ -428,7 +428,7 @@ Shortcut のドロップダウンをクリックすると、**preset commands** 
 
     ![no sim](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/troubleshoot/no_sim.png){class="glboxshadow"}
 
-    トラブルシューティングの候補は次のとおりです。
+    以下の対処方法をお試しください。
 
     1. ページを更新し、数分待ってから SIM カードが検出されるか確認します。
 
@@ -452,7 +452,7 @@ Shortcut のドロップダウンをクリックすると、**preset commands** 
 
         ![connected no internet](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/troubleshoot/connected_no_internet.png){class="glboxshadow"}
 
-    トラブルシューティングの候補は次のとおりです。
+    以下の対処方法をお試しください。
 
     1. ページを更新し、数分待ってエラーが消えるか確認します。
 
@@ -514,4 +514,4 @@ Shortcut のドロップダウンをクリックすると、**preset commands** 
 
 ---
 
-ご不明な点がありましたら、[コミュニティ・フォーラム](https://forum.gl-inet.com){target="_blank"}または[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}をご利用ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

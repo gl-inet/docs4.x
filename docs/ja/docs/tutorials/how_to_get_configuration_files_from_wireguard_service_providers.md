@@ -32,9 +32,9 @@
 
     3. インストールが開始されると、ユーザー名とパスワードの入力を求められます。パスワードを入力または貼り付けてもターミナル上には表示されませんが、そのまま Enter キーを押してください。
 
-    4. 完了したら Web 管理画面に移動すると、設定ファイルがすでに入った hide.me VPN グループが作成されていることが分かります。ほかの設定ファイルと同じように接続するだけです。
+    4. 完了したら Web 管理パネルに移動すると、設定ファイルがすでに入った hide.me VPN グループが作成されていることが分かります。ほかの設定ファイルと同じように接続するだけです。
 
-    **Note:** Hide.me VPN の設定ファイル内のキーは接続のたびに再生成され、切断後は無効になります。そのため、この設定ファイルを他のデバイスにコピーしても正常に接続できません。
+    **注意:** Hide.me VPN の設定ファイル内のキーは接続のたびに再生成され、切断後は無効になります。そのため、この設定ファイルを他のデバイスにコピーしても正常に接続できません。
 
     [参考リンク](https://github.com/eventure/hide.client.routers){target="_blank"}
 
@@ -260,7 +260,7 @@
 
         ![starvpn wireguard config download](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/starvpn/wgconfigdl.png){class="glboxshadow"}
 
-        **Tips**: AmneziaWG の難読化技術を使いたい場合は、**AmneziaWG Config** をクリックして設定ファイルをダウンロードしてください。各スロットには固有の AmneziaWG 設定ファイルが含まれます。
+        **ヒント**: AmneziaWG の難読化技術を使いたい場合は、**AmneziaWG Config** をクリックして設定ファイルをダウンロードしてください。各スロットには固有の AmneziaWG 設定ファイルが含まれます。
 
         ![starvpn amneziawg config download](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/starvpn/amneziawgdl.png){class="glboxshadow"}
 
@@ -331,7 +331,7 @@
 
         ![vpn unlimited setup on gl.inet router](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/vpnunlimited/02.jpg){class="glboxshadow"}
 
-    3. すると、設定パラメータが以下のようなテキスト形式で表示されます。
+    3. すると、設定パラメーターが以下のようなテキスト形式で表示されます。
 
         ![vpn unlimited setup on gl.inet router](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/vpnunlimited/03.jpg){class="glboxshadow"}
 
@@ -377,7 +377,7 @@
 
     X-VPNはファームウェアv4.11以降のGL.iNetルーターに統合されています。
 
-    ファームウェアv4.11以降では、ログイントークンを使ってGL.iNet Web管理画面からX-VPNへ直接ログインできます。詳しくは[こちら](../interface_guide/wireguard_client.md#set-up-x-vpn)を参照してください。
+    ファームウェアv4.11以降では、ログイントークンを使ってGL.iNet Web管理パネルからX-VPNへ直接ログインできます。詳しくは[こちら](../interface_guide/wireguard_client.md#set-up-x-vpn)を参照してください。
 
     ファームウェアがv4.11より前の場合、またはX-VPN設定ファイルを手動でダウンロードする場合は、次の手順に従います。
 
@@ -408,4 +408,4 @@
 
 ---
 
-ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} をご利用いただくか、[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} からお問い合わせください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

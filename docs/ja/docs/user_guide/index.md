@@ -133,7 +133,7 @@
   </div>
 </div>
 
-### ホームWi-Fi {#home-router}
+### ホームルーター {#home-router}
 
 <div class="gl-product-row">
   <div class="gl-product-row-box">

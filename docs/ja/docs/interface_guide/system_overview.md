@@ -27,7 +27,7 @@ Overview ページには一部のハードウェア状態が表示され、次�
 
 右側の温度表示をクリックすると、摂氏と華氏を切り替えられます。
 
-右上の Fan アイコンをクリックすると、Fan Settings に入れます。
+右上の Fan アイコンをクリックすると、Fan Settings を開けます。
 
 ![system overview, fan settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/system_overview/fan_settings.png){class="glboxshadow gl-70-desktop"}
 
@@ -49,7 +49,7 @@ Overview ページには一部のハードウェア状態が表示され、次�
 
 グラフにマウスカーソルを合わせると、具体的な値を確認できます。
 
-**Note**: ここに表示されるメモリは Linux システムで利用可能なメモリです。一部は Wi-Fi サブシステムやその他のブート領域に割り当てられるため、ここに表示される合計メモリは物理メモリより少なくなります。
+**注意**: ここに表示されるメモリは Linux システムで利用可能なメモリです。一部は Wi-Fi サブシステムやその他のブート領域に割り当てられるため、ここに表示される合計メモリは物理メモリより少なくなります。
 
 ![system overview, memory usage](https://static.gl-inet.com/docs/router/en/4/interface_guide/system_overview/memory_usage.png){class="glboxshadow gl-70-desktop"}
 
@@ -83,4 +83,4 @@ Device ID、device MAC、device S/N は、ファームウェア v4.7 以降で�
 
 ---
 
-ご不明な点がありましたら、[Community Forum](https://forum.gl-inet.com){target="_blank"} または [Contact us](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

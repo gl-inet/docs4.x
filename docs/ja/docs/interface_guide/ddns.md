@@ -4,7 +4,7 @@ Dynamic Domain Name Service（Dynamic DNS または DDNS）は、ドメイン名
 
 ## DDNSを有効にする {#enable-ddns}
 
-Web 管理画面の左側メニューで、**APPLICATIONS** -> **Dynamic DNS** に移動します。
+Web 管理パネルの左側で、**APPLICATIONS** -> **Dynamic DNS** に移動します。
 
 ![ddns](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/ddns.png){class="glboxshadow"}
 
@@ -26,13 +26,13 @@ Web 管理画面の左側メニューで、**APPLICATIONS** -> **Dynamic DNS** �
 
 DNS サーバー間のレコード同期には、最大 10 分程度の遅延が発生する場合があります。そのため、有効化直後やパブリックIPアドレスが変更された直後は、DDNS ドメイン名ですぐにアクセスできないことがあります。
 
-**Note**: DDNS と VPN Client を同時に有効にする場合は、**Services From GL.iNet Use VPN** が無効になっていることを確認してください。この機能は、VPN Dashboard の [VPN Client Options](vpn_dashboard_v4.8.md#tunnel-options) にあります。
+**注意**: DDNS と VPN Client を同時に有効にする場合は、**Services From GL.iNet Use VPN** が無効になっていることを確認してください。この機能は、VPN Dashboard の [VPN Client Options](vpn_dashboard_v4.8.md#tunnel-options) にあります。
 
 ## DDNSが機能しているか確認する {#check-if-ddns-works}
 
 DDNS が機能しているかどうかは、DDNS テストツールを使用するか、コマンドで手動確認できます。
 
-=== "Using the DDNS Test tool"
+=== "DDNS Test ツールで確認する"
 
     Dynamic DNS ページで、**DDNS Test** をクリックします。
 
@@ -58,9 +58,9 @@ DDNS が機能しているかどうかは、DDNS テストツールを使用す�
     2. 応答結果を見て、DDNS ドメインがパブリック IP アドレスに関連付けられているか確認します。
 
         - 画像の "183.178.10.100" のようなパブリック IP アドレスが表示された場合、ドメインはパブリック IP アドレスに関連付けられています。
-        - "server can't find xxxxxxx.glddns.com" と表示された場合、名前解決に失敗している可能性があります。次の手順で確認してください。
+        - "server can't find xxxxxxx.glddns.com" と表示された場合、名前解決に失敗しており、DDNS ドメインがパブリック IP アドレスに関連付けられていない可能性があります。次の手順で確認してください。
 
-    3. ルーターの Web Admin Panel にログインして **INTERNET** に移動します。現在有効なインターフェースの WAN IP アドレスを確認し、上で取得したパブリック IP アドレスと比較します。一致すれば DDNS は有効です。一致しなければ有効ではありません。
+    3. ルーターの Web 管理パネルにログインして **INTERNET** に移動します。現在有効なインターフェースの WAN IP アドレスを確認し、上で取得したパブリック IP アドレスと比較します。一致すれば DDNS は有効です。一致しなければ有効ではありません。
 
 ## HTTPS リモートアクセス {#https-remote-access}
 
@@ -78,7 +78,7 @@ DDNS が機能しているかどうかは、DDNS テストツールを使用す�
 
     ![enable ddns](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/enable_ddns.png){class="glboxshadow"}
 
-2. Web 管理画面で、SYSTEM -> Security -> Remote Access Control に移動します。
+2. Web 管理パネルで、SYSTEM -> Security -> Remote Access Control に移動します。
 
     ![remote access control](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/remote_access_disabled.png){class="glboxshadow"}
 
@@ -86,11 +86,11 @@ DDNS が機能しているかどうかは、DDNS テストツールを使用す�
 
     ![enable https remote access](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/enable_https_remote_access.png){class="glboxshadow"}
 
-有効にすると、**HTTPS** 経由で DDNS ホスト名（例: `https://xxxxxxx.glddns.com`）を使用し、どこからでもルーターの管理画面にアクセスできるようになります。
+有効にすると、**HTTPS** 経由で DDNS ホスト名（例: `https://xxxxxxx.glddns.com`）を使用し、どこからでもルーターの Web 管理パネルにアクセスできるようになります。
 
 ポートフォワーディングを設定している場合は、`https://xxxxxxx.glddns.com:external_port ` としてアクセスします（external_port は実際のポート番号に置き換えてください）。
 
-**注意**: この機能では自己署名証明書を使用するため、下図のように DDNS ホスト名を使用して **HTTPS** でルーターの管理画面にアクセスすると、ブラウザに **Your connection is not private** と表示されます（下の例ではポート 8001 を使用しています）。
+**注意**: この機能では自己署名証明書を使用するため、下図のように DDNS ホスト名を使用して **HTTPS** でルーターの Web 管理パネルにアクセスすると、ブラウザに **Your connection is not private** と表示されます（下の例ではポート 8001 を使用しています）。
 
 ![HTTPS-Remote-Access-on-Android-Chrome](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/https_remote_access_android_chrome_0.jpg){class="glboxshadow" width="400"}
 
@@ -102,7 +102,7 @@ HTTPS リモートアクセスを続行するには、下部の **Advanced** を
 
 ![HTTPS-Remote-Access-on-Android-Chrome](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/https_remote_access_android_chrome_2.png){class="glboxshadow" width="400"}
 
-これで、DDNS ホスト名を使って HTTPS で Web 管理画面にアクセスできるようになります。
+これで、DDNS ホスト名を使って HTTPS で Web 管理パネルにアクセスできるようになります。
 
 ![HTTPS-Remote-Access-on-Android-Chrome](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/https_remote_access_android_chrome_3.png){class="glboxshadow" width="400"}
 
@@ -122,7 +122,7 @@ HTTPS リモートアクセスを続行するには、下部の **Advanced** を
 
     ![enable ddns](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/enable_ddns.png){class="glboxshadow"}
 
-2. Web 管理画面で、SYSTEM -> Security -> Remote Access Control に移動します。
+2. Web 管理パネルで、SYSTEM -> Security -> Remote Access Control に移動します。
 
     ![remote access control](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/remote_access_disabled.png){class="glboxshadow"}
 
@@ -136,4 +136,4 @@ HTTPS リモートアクセスを続行するには、下部の **Advanced** を
 
 ---
 
-ご不明な点がある場合は、[Community Forum](https://forum.gl-inet.com){target="_blank"} または [Contact us](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

@@ -40,7 +40,7 @@ Slate AX（GL-AXT1800）は、GL.iNet初のWi-Fi 6対応トラベルルーター
 
     デバイスで Settings -> WLAN に移動し、利用可能なネットワーク一覧からルーターの Wi-Fi ネットワーク名を探してパスワードを入力します。デフォルトのネットワーク名とパスワードは、ルーター底面のラベルに印刷されています。
 
-### 3. Web Admin Panel にログインする {#3-log-in-to-web-admin-panel}
+### 3. Web 管理パネルにログインする {#3-log-in-to-web-admin-panel}
 
 Web ブラウザを開き、アドレスバーに `192.168.8.1` と入力してログインします。言語を選択し、管理者パスワードを設定して **Apply** をクリックします。
 
@@ -48,9 +48,9 @@ Wi-Fi 情報を確認する際、Wi-Fi 情報を変更した場合は、更新�
 
 ### 4. インターネット設定 {#4-internet-setup}
 
-**Note:** 以下の手順は、GL.iNet Web Admin Panel でルーターを設定するユーザー向けです。GL.iNet アプリを使用する場合は、[アプリをダウンロード](https://www.gl-inet.com/app/){target="_blank"}し、画面の指示に従ってください。
+**注：** 以下の手順は、GL.iNet Web 管理パネルでルーターを設定するユーザー向けです。GL.iNet アプリを使用する場合は、[アプリをダウンロード](https://www.gl-inet.com/app/){target="_blank"}し、画面の指示に従ってください。
 
-Slate AX は、Ethernet、Repeater、Tethering、Cellular の対応するインターネット接続方式で設定できます。[Multi-WAN](../../interface_guide/multi-wan.md) 機能を使用する場合は、複数のインターネット接続を設定してください。
+対応しているインターネット接続方式（Ethernet、Repeater、Tethering、Cellular）のいずれかを使用して、Slate AX を設定します。[Multi-WAN](../../interface_guide/multi-wan.md) 機能を使用する場合は、複数のインターネット接続を設定してください。
 
 === "Ethernet"
 
@@ -66,7 +66,7 @@ Slate AX は、Ethernet、Repeater、Tethering、Cellular の対応するイン�
 
     ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-axt1800/internet/axt1800_repeater.png){class="glboxshadow"}
 
-    1. Web Admin Panel の INTERNET ページで Repeater セクションを探し、**Connect** をクリックします。
+    1. Web 管理パネルの INTERNET ページで Repeater セクションを探し、**Connect** をクリックします。
     2. 利用可能なネットワークから Wi-Fi ネットワークを選択します。
     3. パスワードを入力し、**Apply** をクリックします。
     
@@ -80,7 +80,7 @@ Slate AX は、Ethernet、Repeater、Tethering、Cellular の対応するイン�
 
     1. スマートフォンや USB ドングルなどのモバイルデバイスを USB ケーブルでルーターの USB ポートに接続します。
     2. モバイルデバイスで Settings に移動し、USB Tethering を有効にします。
-    3. Web Admin Panel の INTERNET ページで、Tethering セクションの **Connect** をクリックします。
+    3. Web 管理パネルの INTERNET ページで、Tethering セクションの **Connect** をクリックします。
     
     インターネットへの接続に成功すると、INTERNET ページの Tethering セクションに緑のドットが表示されます。
 
@@ -166,7 +166,7 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
 === "Network Storage"
 
-    Network storage は、複数のユーザーやデバイスがネットワーク経由でファイルへアクセスし共有できる、集中型のデータストレージソリューションです。
+    ネットワークストレージは、複数のユーザーやデバイスがネットワーク経由でファイルへアクセスし共有できる、集中型のデータストレージソリューションです。
     
     Network Storage の設定については、[Network Storage](../../interface_guide/network_storage.md)を参照してください。
 
@@ -200,9 +200,9 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
 === "Port Forwarding"
 
-    Port forwarding は、インターネット上のリモートサーバーやデバイスからプライベートネットワーク内のデバイスへアクセスできるようにします。
+    ポートフォワーディングは、インターネット上のリモートサーバーやデバイスからプライベートネットワーク内のデバイスへアクセスできるようにします。
     
-    Port forwarding の設定については、[Port Forwarding](../../interface_guide/port_forwarding.md)を参照してください。
+    ポートフォワーディングの設定については、[Port Forwarding](../../interface_guide/port_forwarding.md)を参照してください。
 
 === "Multi-WAN"
 
@@ -226,13 +226,13 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
 === "DNS"
 
-    DNS ページでは、カスタム DNS サーバーの設定、DNS rebinding attack protection の有効化、すべてのクライアントの DNS 設定の上書き、カスタム DNS による VPN DNS の上書き許可、DNS サーバー設定モードの自動または Ethernet 接続からの手動指定を設定できます。
+    DNS ページでは、カスタム DNS サーバーの設定、DNS rebinding attack protection の有効化、すべてのクライアントの DNS 設定の上書き、カスタム DNS による VPN DNS の上書き許可、DNS サーバー設定モードを自動にするか、Ethernet 接続の DNS サーバーを手動で指定するかを設定できます。
 
     DNS の設定については、[DNS](../../interface_guide/dns.md)を参照してください。
 
 === "Port Management"
 
-    Port Management ページでは、WAN/LAN ポートの設定、WAN/LAN インターフェースの Ethernet 設定、WAN インターフェースの MAC mode と MAC address の指定、ネットワークポートのネゴシエート速度の確認を行えます。
+    Port Management ページでは、WAN/LAN ポートの設定、WAN/LAN インターフェースの Ethernet への設定、WAN インターフェースの MAC モードと MAC アドレスの指定、ネットワークポートのネゴシエート速度の確認を行えます。
 
     Ethernet ポートの管理については、[Port Management](../../interface_guide/ethernet_port.md)を参照してください。
 
@@ -240,7 +240,7 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
 === "Network Mode"
 
-    Network mode は、デバイスがネットワークへ接続し、他のデバイスと通信する方法を決定する設定です。
+    ネットワークモードは、デバイスがネットワークへ接続し、他のデバイスと通信する方法を決定する設定です。
     
     Network Mode の設定については、[Network Mode](../../interface_guide/network_mode.md)を参照してください。
 
@@ -263,7 +263,7 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
 === "IGMP Snooping"
 
-    IGMP snooping は、Ethernet スイッチでマルチキャストトラフィックを管理・制御するためのネットワーク最適化技術です。
+    IGMP スヌーピングは、Ethernet スイッチでマルチキャストトラフィックを管理・制御するためのネットワーク最適化技術です。
     
     IGMP Snooping の設定については、[IGMP Snooping](../../interface_guide/igmp_snooping.md)を参照してください。
 
@@ -271,7 +271,7 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
     NAT Settings ページでは、Full Cone NAT と SIP ALG（Application Layer Gateway）機能の有効化または無効化を設定できます。
 
-    NAT settings の設定については、[NAT Settings](../../interface_guide/nat_settings.md)を参照してください。
+    NAT 設定については、[NAT Settings](../../interface_guide/nat_settings.md)を参照してください。
 
 ## システム設定 {#system-settings}
 
@@ -283,7 +283,7 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
     * Memory Usage: ルーターのメモリ使用量を確認し、リソース管理に役立ちます。
     * LED Control: ルーターの LED ライトをオンまたはオフに切り替え、表示をカスタマイズできます。
     * Flash Usage: ルーターのフラッシュストレージ使用量を確認し、ファームウェアや設定データ用の空き容量を把握できます。
-    * Device Info: uptime、hostname、model、architecture、OpenWrt version、kernel version、device ID、device MAC、device S/N など、ルーターのシステム情報にアクセスできます。
+    * Device Info: 稼働時間、ホスト名、モデル、アーキテクチャ、OpenWrt バージョン、カーネルバージョン、デバイス ID、デバイス MAC、デバイス S/N など、ルーターのシステム情報にアクセスできます。
     * External Storage: USB ドライブや TF カードなど、ルーターに接続された外部ストレージデバイスの状態を確認できます。
     
     これらの機能により、ルーターの動作を効果的に管理・監視するための重要な情報と制御を利用できます。

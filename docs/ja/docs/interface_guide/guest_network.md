@@ -2,11 +2,11 @@
 
 Guest Network の設定は、ファームウェア v4.5 以降 [LAN](lan.md) から分離されました。
 
-Web Admin Panel の左側で、**NETWORK** -> **Guest Network** に移動します。
+Web 管理パネルの左側で、**NETWORK** -> **Guest Network** に移動します。
 
 このページでは、来訪者向けの専用 Wi-Fi ネットワークを作成できます。メインネットワークから分離されるため、利便性を保ちながらセキュリティを高められます。
 
-**Note**: 一部のモデル（例: GL-MT5000、GL-MT2500/GL-MT2500A）は Wi-Fi 機能を備えていないため、Web Admin Panel に Guest Network の設定は表示されません。
+**注意**: 一部のモデル（例: GL-MT5000、GL-MT2500/GL-MT2500A）は Wi-Fi 機能を備えていないため、Web 管理パネルに Guest Network の設定は表示されません。
 
 基本設定と DHCP サーバー設定の 2 つのセクションがあります。
 
@@ -18,11 +18,11 @@ IPv4 プライベートアドレス範囲 `192.168.0.0/16`、`172.16.0.0/12`、`
 
 - **Gateway**
 
-    Guest Network の **default gateway** は **192.168.9.1** です。ローカルネットワークと競合する場合は別のアドレスに変更してください。
+    Guest Network の **デフォルトゲートウェイ**は **192.168.9.1** です。ローカルネットワークと競合する場合は別のアドレスに変更してください。
 
 - **Netmask**
 
-    デフォルトは **255.255.255.0** です。より多くの IP アドレスが必要な大きなサブネットが必要な場合は、**255.255.0.0** も選択できます。
+    デフォルトは **255.255.255.0** です。より多くの IP アドレスを使用できる大きなサブネットが必要な場合は、**255.255.0.0** も選択できます。
 
 - **AP Isolation**
 
@@ -64,9 +64,9 @@ DHCP サーバーは Guest Network に接続した各クライアントデバイ
 
 ---
 
-Related Articles:
+関連記事:
 
-- [How to set up a guest Wi-Fi network on GL.iNet routers](../tutorials/how_to_set_up_a_guest_network.md)
+- [GL.iNet ルーターでゲスト Wi-Fi ネットワークを設定する方法](../tutorials/how_to_set_up_a_guest_network.md)
 
 ---
 

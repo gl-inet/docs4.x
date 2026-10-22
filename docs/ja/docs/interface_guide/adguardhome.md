@@ -58,7 +58,7 @@ AdGuard Homeは、広告とトラッキングをブロックするネットワ�
 
 ![adguard home started](https://static.gl-inet.com/docs/router/en/4/interface_guide/adguard_home/settings_page.png){class="glboxshadow"}
 
-AdGuard Home の公式設定ページへリダイレクトされ、フィルタルールなどの高度な設定を行えます。
+AdGuard Home の公式設定ページへリダイレクトされ、高度なフィルタールールを設定できます。
 
 ![adguard home settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/adguard_home/adguardhome_dashboard.png){class="glboxshadow"}
 

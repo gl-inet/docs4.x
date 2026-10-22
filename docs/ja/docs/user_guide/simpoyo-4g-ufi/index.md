@@ -1,7 +1,7 @@
 # SIMPoYo 4G uFi ユーザーガイド {#simpoyo-4g-ufi-user-guide}
 
-SIMPoYo 4G uFi は、Wi‑Fi ホットスポット機能を備えたコンパクトな Plug & Play USB ドングルシリーズです。ほとんどの GL.iNet ルーターに加え、ノート PC、モバイルバッテリー、車載 USB ポートなど、さまざまな USB 電源で手軽に利用できます。英国およびその他 34 のヨーロッパ諸国で 30 日間有効な 10GB の無料データが付属します。
-<br><small>*販売地域: [EU](https://store-eu.gl-inet.com/){target="_blank"} と [UK Stores](https://store-uk.gl-inet.com/){target="_blank"} のみ</small>
+SIMPoYo 4G uFi は、Wi‑Fi ホットスポット機能を備えたコンパクトな Plug & Play USB ドングルシリーズで、どこでも高速かつ安定した接続を実現するよう設計されています。ほとんどの GL.iNet ルーターに加え、ノート PC、モバイルバッテリー、車載 USB ポートなど、さまざまな USB 電源で手軽に利用できます。英国およびその他 34 のヨーロッパ諸国で 30 日間有効な 10GB の無料データが付属します。
+<br><small>*販売地域: [EU](https://store-eu.gl-inet.com/){target="_blank"} と [UK ストア](https://store-uk.gl-inet.com/){target="_blank"} のみ</small>
 
 このガイドでは、SIMPoYo uFi USB ドングル（SP-N150C4）の使い方を説明します。LED 表示、内蔵 SIM カードのアクティベーション方法、各種デバイスでの利用方法、データのチャージ方法、uFi 設定の管理方法を含みます。
 
@@ -51,7 +51,7 @@ SIMPoYo 4G uFi は、Wi‑Fi ホットスポット機能を備えたコンパク
             </tr>
             <tr>
                 <td>赤点滅</td>
-                <td>圏外 / SIM カード未挿入 / サービス圏外</td>
+                <td>信号なし / SIM カードなし / サービス圏外</td>
             </tr>
             <tr>
                 <td rowspan="3">Wi‑Fi LED</td>
@@ -88,11 +88,11 @@ SIMPoYo uFi には SIM カードがあらかじめ装着されており、使用
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0UokDjzp7Ek" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-**Step 1**. SIMPoYo uFi 背面の情報ラベルで ICCID 番号を確認します。
+**ステップ 1**. SIMPoYo uFi 背面の情報ラベルで ICCID 番号を確認します。
 
-**Step 2**. QR コードをスキャンするか、[https://w.simpoyo.com/activate/](https://w.simpoyo.com/activate/){target="_blank"} にアクセスし、ICCID 番号を入力して登録します。
+**ステップ 2**. QR コードをスキャンするか、[https://w.simpoyo.com/activate/](https://w.simpoyo.com/activate/){target="_blank"} にアクセスし、ICCID 番号を入力して登録します。
 
-**Step 3**. 10GB の無料データを利用します。新規ユーザーには、英国およびその他 34 のヨーロッパ諸国で 30 日間有効な 10GB の無料 4G データがすぐに付与されます。
+**ステップ 3**. 10GB の無料データを利用します。新規ユーザーには、英国およびその他 34 のヨーロッパ諸国で 30 日間有効な 10GB の無料 4G データがすぐに付与されます。
 
 ## インターネット設定 {#internet-setup}
 
@@ -104,19 +104,19 @@ SIMPoYo uFi は、ほとんどの GL.iNet トラベルルーターおよびホ�
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sU2u4En04so" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-**Step 1**. SIMPoYo uFi を GL.iNet ルーターの USB ポートに挿します。
+**ステップ 1**. SIMPoYo uFi を GL.iNet ルーターの USB ポートに挿します。
 
 ![setup1](https://static.gl-inet.com/docs/router/en/4/user_guide/simpoyo-4g-ufi/setup1.png){class="glboxshadow"}
 
-**Step 2**. デバイスをルーターに接続し、ブラウザで `192.168.8.1` にアクセスしてルーターのWeb管理画面にログインします。ルーターの IP アドレスを変更している場合は、新しい IP でログインしてください。
+**ステップ 2**. デバイスをルーターに接続し、ブラウザで `192.168.8.1` にアクセスしてルーターの Web 管理パネルにログインします。ルーターの IP アドレスを変更している場合は、新しい IP でログインしてください。
 
 ![setup2](https://static.gl-inet.com/docs/router/en/4/user_guide/simpoyo-4g-ufi/setup2.png){class="glboxshadow"}
 
-**Step 3**. 管理パネルで **INTERNET** -> **Tethering** に移動し、**Connect** をクリックします。
+**ステップ 3**. Web 管理パネルで **INTERNET** -> **Tethering** に移動し、**Connect** をクリックします。
 
 ![setup3](https://static.gl-inet.com/docs/router/en/4/user_guide/simpoyo-4g-ufi/setup3.png){class="glboxshadow"}
 
-**Step 4**. 接続が完了すると、左上に青い点が表示され、ネットワーク詳細を確認できます。
+**ステップ 4**. 接続が完了すると、左上に青い点が表示され、ネットワーク詳細を確認できます。
 
 ![setup4](https://static.gl-inet.com/docs/router/en/4/user_guide/simpoyo-4g-ufi/setup4.png){class="glboxshadow"}
 
@@ -138,19 +138,19 @@ SIMPoYo uFi は、ほとんどの GL.iNet トラベルルーターおよびホ�
 
 ### コンピューターに接続する {#connect-to-a-computer}
 
-**Step 1**. SIMPoYo uFi をコンピューター（デスクトップ PC やノート PC など）の USB ポートに挿します。USB Ethernet デバイスとして自動認識され、すぐにオンラインになります。
+**ステップ 1**. SIMPoYo uFi をコンピューター（デスクトップ PC やノート PC など）の USB ポートに挿します。USB Ethernet デバイスとして自動認識され、すぐにオンラインになります。
 
-**Step 2**. 他のデバイス（スマートフォン、タブレットなど）も、SIMPoYo uFi の 2.4 GHz Wi‑Fi ネットワークに接続して同時にインターネットを利用できます。
+**ステップ 2**. 他のデバイス（スマートフォン、タブレットなど）も、SIMPoYo uFi の 2.4 GHz Wi‑Fi ネットワークに接続して同時にインターネットを利用できます。
 
 ![multi-device](https://static.gl-inet.com/docs/router/en/4/user_guide/simpoyo-4g-ufi/multi-device.jpg){class="glboxshadow"}
 
 ### USB電源に接続する {#connect-to-a-usb-power-source}
 
-**Step 1**. SIMPoYo uFi を AC アダプター、モバイルバッテリー、車載充電器などの USB 電源に挿します。
+**ステップ 1**. SIMPoYo uFi を AC アダプター、モバイルバッテリー、車載充電器などの USB 電源に挿します。
 
-**Step 2**. 電源が入ると、SIMPoYo uFi は **SIMPoYo-XXX** という SSID の Wi‑Fi ネットワークをブロードキャストします。
+**ステップ 2**. 電源が入ると、SIMPoYo uFi は **SIMPoYo-XXX** という SSID の Wi‑Fi ネットワークをブロードキャストします。
 
-**Step 3**. 本体ラベルに記載された Wi‑Fi パスワード（Key）を確認します。このパスワードを使ってスマートフォン、タブレット、ノート PC などを SIMPoYo uFi の Wi‑Fi に接続し、インターネットを利用します。
+**ステップ 3**. 本体ラベルに記載された Wi‑Fi パスワード（Key）を確認します。このパスワードを使ってスマートフォン、タブレット、ノート PC などを SIMPoYo uFi の Wi‑Fi に接続し、インターネットを利用します。
 
 ## SIMPoYoプランをチャージする {#top-up-simpoyo-plans}
 
@@ -158,19 +158,19 @@ SIMPoYo uFi は、ほとんどの GL.iNet トラベルルーターおよびホ�
 
 !!! note "対応国・地域"
 
-    - **United Kingdom**
+    - **英国**
 
-    - **Europe**
+    - **ヨーロッパ**
 
-        Andorra, Austria, Belgium, Bulgaria, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Germany, Gibraltar (UK), Greece, Hungary, Iceland, Ireland, Italy, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Netherlands, Norway, Poland, Portugal, Réunion (France), Romania, Slovakia, Slovenia, Spain, Sweden, Switzerland.
+        アンドラ、オーストリア、ベルギー、ブルガリア、クロアチア、キプロス、チェコ、デンマーク、エストニア、フィンランド、フランス、ドイツ、ジブラルタル（英国）、ギリシャ、ハンガリー、アイスランド、アイルランド、イタリア、ラトビア、リヒテンシュタイン、リトアニア、ルクセンブルク、マルタ、オランダ、ノルウェー、ポーランド、ポルトガル、レユニオン（フランス）、ルーマニア、スロバキア、スロベニア、スペイン、スウェーデン、スイス。
 
-    - **Middle East & North Africa**
+    - **中東・北アフリカ**
 
-        Egypt, Iran, Israel, Kuwait, Qatar, Saudi Arabia, United Arab Emirates.
+        エジプト、イラン、イスラエル、クウェート、カタール、サウジアラビア、アラブ首長国連邦。
 
-    - **Asia**
+    - **アジア**
 
-        Indonesia, Japan, Pakistan, Philippines, Singapore, South Korea, Turkey, Vietnam, China Mainland, Hong Kong (China), Taiwan (China).
+        インドネシア、日本、パキスタン、フィリピン、シンガポール、韓国、トルコ、ベトナム、中国本土、香港（中国）、台湾（中国）。
 
 ## SIMPoYo uFiを管理する {#manage-simpoyo-ufi}
 
@@ -338,4 +338,4 @@ MAC Filter はデフォルトで無効です。有効にする場合は、以下
 
 ---
 
-ご不明な点がありましたら、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}をご覧いただくか、[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

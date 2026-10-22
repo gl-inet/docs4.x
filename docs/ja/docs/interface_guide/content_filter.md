@@ -8,7 +8,7 @@ Mango 2 (GL-MG1300) など一部のモデルは、メモリ不足のため、フ
 
 コンテンツフィルターは、DPI ベースの分類によって動作するスマートなオンライン保護機能です。有害または悪意のある Web サイトを自動的にブロックしてネットワークを安全でクリーンな状態に保ち、さらに特定のアプリ、ドメイン、IP アドレスをブロックするカスタムルールにも対応しています。
 
-**Note**:
+**注意**:
 
 1. コンテンツフィルターは、ルーターが Drop-in Gateway モードのときは動作しません。
 2. コンテンツフィルターは **Network Acceleration** と併用できません。有効にすると、安定したパフォーマンスを確保するため **Network Acceleration** は自動的に無効になります。
@@ -53,7 +53,7 @@ Mango 2 (GL-MG1300) など一部のモデルは、メモリ不足のため、フ
 
 ## クイックセットアップ {#quick-setup}
 
-Web Admin Panel の左側で、**FLOW CONTROL** -> **Content Filter** に移動します。
+Web 管理パネルの左側で、**FLOW CONTROL** -> **Content Filter** に移動します。
 
 右上のスイッチをオンにし、ブロックしたいコンテンツ（アプリ、ドメイン、IP アドレスなど）を設定して、**Apply** をクリックします。
 
@@ -75,9 +75,9 @@ Web Admin Panel の左側で、**FLOW CONTROL** -> **Content Filter** に移動�
 
     ![edit app 3](https://static.gl-inet.com/docs/router/en/4/interface_guide/content_filter/edit_app3.png){class="glboxshadow" width="667"}
 
-    ![blocked app list](https://static.gl-inet.com/docs/router/en/4/interface_guide/content_filter/blocked_app_list.jpg){class="glboxshadow"}
-
     その後、選択したアプリが Blocked App List に表示されます。
+
+    ![blocked app list](https://static.gl-inet.com/docs/router/en/4/interface_guide/content_filter/blocked_app_list.jpg){class="glboxshadow"}
 
 - **Blocked Domain / IP List**: このセクションでは、特定のドメイン（例: google.com）、CIDR 範囲（例: 192.168.8.0/24）、または IP アドレス（例: 192.168.10.10）を手動で入力してブロックできます。リストは最大 10000 件のエントリーに対応しています。
 
@@ -95,10 +95,10 @@ Web Admin Panel の左側で、**FLOW CONTROL** -> **Content Filter** に移動�
 
 ![filter test2](https://static.gl-inet.com/docs/router/en/4/interface_guide/content_filter/nintendo_test2.png){class="glboxshadow"}
 
-ルーターの Web Admin Panel では、ブロックされたアクセスリクエスト数も確認できます。
+ルーターの Web 管理パネルでは、ブロックされたアクセスリクエスト数も確認できます。
 
 ![filter test3](https://static.gl-inet.com/docs/router/en/4/interface_guide/content_filter/nintendo_test3.png){class="glboxshadow"}
 
 ---
 
-ご不明な点がある場合は、[Community Forum](https://forum.gl-inet.com){target="_blank"} をご利用いただくか、[Contact us](https://www.gl-inet.com/contacts/){target="_blank"} からお問い合わせください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

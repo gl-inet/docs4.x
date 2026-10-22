@@ -41,7 +41,7 @@
 | GPIO36                        | GPIO36        | NC |
 | GPIO39                        | GPIO39        | NC |
 
-## PCBピン設定 {#pcb-pinout}
+## PCBピン配置 {#pcb-pinout}
 
 <div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
   <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">

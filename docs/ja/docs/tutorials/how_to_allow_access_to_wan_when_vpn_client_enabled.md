@@ -8,7 +8,7 @@ GL.iNet ルーターで VPN クライアントを有効にすると、デフォ�
 
 ## ファームウェア v4.7 以前の場合 {#for-firmware-v47-and-earlier}
 
-VPN クライアントの Web 管理画面にログインし、**VPN** -> **VPN Dashboard** -> **VPN Client** に移動します。右上の **Global Options** をクリックします。
+VPN クライアントの Web 管理パネルにログインし、**VPN** -> **VPN Dashboard** -> **VPN Client** に移動します。右上の **Global Options** をクリックします。
 
 ![global options](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/4.7-global-options.png){class="glboxshadow"}
 
@@ -24,7 +24,7 @@ VPN クライアントの Web 管理画面にログインし、**VPN** -> **VPN 
 
 以下の手順に従って設定してください。
 
-1. VPN クライアントの Web 管理画面にログインし、**VPN** -> **VPN Dashboard** に移動します。
+1. VPN クライアントの Web 管理パネルにログインし、**VPN** -> **VPN Dashboard** に移動します。
 
     右上のモードをクリックします。
 
@@ -56,11 +56,11 @@ VPN クライアントの Web 管理画面にログインし、**VPN** -> **VPN 
 
         GL.iNet ルーターの WAN サブネットは通常 **INTERNET** ページで確認できます。これは、ルーターの WAN インターフェースが接続している上位側デバイス（ISP モデムや上位ゲートウェイなど）によって決まります。
 
-        たとえば、ルーターが二次ルーターとして動作しており、その WAN ポートが ISP モデムやメインルーターの LAN ポートなど別のローカルネットワークに接続されているとします。このとき、ルーターの WAN IP が 192.168.1.165、Gateway が 192.168.1.1、Subnet Mask が 255.255.255.0（小規模ネットワークで一般的なマスク）であれば、対応する WAN サブネットは 192.168.1.0/24 です。これは上位側デバイスの LAN サブネットでもあります。
+        たとえば、ルーターがセカンダリールーターとして動作しており、その WAN ポートが ISP モデムやメインルーターの LAN ポートなど別のローカルネットワークに接続されているとします。このとき、ルーターの WAN IP が 192.168.1.165、Gateway が 192.168.1.1、Subnet Mask が 255.255.255.0（小規模ネットワークで一般的なマスク）であれば、対応する WAN サブネットは 192.168.1.0/24 です。これは上位側デバイスの LAN サブネットでもあります。
 
         ![check wan subnet](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/local-wan-details.png){class="glboxshadow gl-80-desktop"}
 
-        **Note**: 192.168.1.0/24 のプレフィックス長は 24 で、これはサブネットマスク 255.255.255.0 に対応します。ルーターの WAN Subnet Mask が 255.255.255.0 でない場合、WAN サブネットのプレフィックス長は "/24" ではありません。実際の WAN 設定に基づいて WAN サブネットを確認してください。
+        **注意**: 192.168.1.0/24 のプレフィックス長は 24 で、これはサブネットマスク 255.255.255.0 に対応します。ルーターの WAN Subnet Mask が 255.255.255.0 でない場合、WAN サブネットのプレフィックス長は "/24" ではありません。実際の WAN 設定に基づいて WAN サブネットを確認してください。
 
 3. 右側のボックスをクリックして、トンネルの動作（VPN を使うか使わないか）を設定します。
 
@@ -92,4 +92,4 @@ VPN クライアントの Web 管理画面にログインし、**VPN** -> **VPN 
 
 ---
 
-まだご不明な点がありますか？ [Community Forum](https://forum.gl-inet.com){target="_blank"} または [Contact us](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

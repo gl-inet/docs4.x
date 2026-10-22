@@ -6,11 +6,11 @@ GoodCloud Site to Site を使用すると、複数の拠点にあるオフィス
 
 ![site to site](https://static.gl-inet.com/goodcloud/docs/tutorials/site_to_site/s2s-main.png){class="glboxshadow"}
 
-**Scenario 1**: 同じ会社に属する多数の支店を、1つの統合されたプライベートネットワークにまとめ、全拠点でシームレスにリソース共有したい場合。
+**シナリオ 1**: 同じ会社に属する多数の支店を、1つの統合されたプライベートネットワークにまとめ、全拠点でシームレスにリソース共有したい場合。
 
-**Scenario 2**: 密接に連携する2社が、業務コラボレーションのために、共有された安全なネットワーク環境を必要とする場合。
+**シナリオ 2**: 密接に連携する2社が、業務コラボレーションのために、共有された安全なネットワーク環境を必要とする場合。
 
-**Scenario 3**: 自宅に IP カメラがある家庭で、外出中の家族がそのデバイスへリモートアクセスし、どこからでも簡単に監視したい場合。
+**シナリオ 3**: 自宅に IP カメラがある家庭で、外出中の家族がそのデバイスへリモートアクセスし、どこからでも簡単に監視したい場合。
 
 ## 条件 {#conditions}
 
@@ -96,4 +96,4 @@ GoodCloud Site to Site を使用すると、複数の拠点にあるオフィス
 
 ---
 
-ご不明な点がある場合は、[Community Forum](https://forum.gl-inet.com){target="_blank"} をご利用いただくか、[Contact us](https://www.gl-inet.com/contacts/){target="_blank"} からお問い合わせください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

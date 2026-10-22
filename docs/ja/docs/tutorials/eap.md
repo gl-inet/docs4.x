@@ -2,9 +2,9 @@
 
 一部の GL.iNet ルーターは、EAP（Extensible Authentication Protocol）Wi-Fi ネットワークへの接続をサポートしています。
 
-EAP は、**802.1X authentication** を使用する **WPA2‑Enterprise / WPA3‑Enterprise** ネットワークで一般的に利用される認証フレームワークです。代表的な例として、802.1X と EAP に基づく教育・研究向けのグローバル Wi‑Fi ローミングサービス **eduroam** があります。
+EAP は、**802.1X 認証**を使用する **WPA2‑Enterprise / WPA3‑Enterprise** ネットワークで一般的に利用される認証フレームワークです。代表的な例として、802.1X と EAP に基づく教育・研究向けのグローバル Wi‑Fi ローミングサービス **eduroam** があります。
 
-このガイドでは、GL.iNet ルーターを EAP Wi-Fi ネットワークに接続する 2 つの方法を紹介します。1 つは GL.iNet Web Admin Panel、もう 1 つは LuCI を使用する方法です。
+このガイドでは、GL.iNet ルーターを EAP Wi-Fi ネットワークに接続する 2 つの方法を紹介します。1 つは GL.iNet Web 管理パネル、もう 1 つは LuCI を使用する方法です。
 
 ## 対応モデル {#supported-models}
 
@@ -37,7 +37,7 @@ EAP は、**802.1X authentication** を使用する **WPA2‑Enterprise / WPA3�
 
     ---
 
-    **Footnote:**  
+    **脚注:**  
     
     1. WPA/WPA2/WPA3-Enterpriseネットワークに接続する場合、GL-BE10000 (Slate 7 Pro)、GL-MT3600BE (Beryl 7)、GL-BE3600 (Slate 7) はPEAP認証ネットワークのみ対応しています。その他のEAP方式（EAP-TLS、EAP-TTLS、EAP-MD5など）はサポートされていません。
     
@@ -53,9 +53,9 @@ EAP は、**802.1X authentication** を使用する **WPA2‑Enterprise / WPA3�
     - GL-MT1300 (Beryl)
     - GL-MT300N-V2 (Mango)
 
-## Web 管理画面から接続する {#connect-via-web-admin-panel}
+## Web 管理パネルから接続する {#connect-via-web-admin-panel}
 
-1. Web 管理画面にログインし、**INTERNET** -> **Repeater** に移動して **Connect** をクリックします。
+1. Web 管理パネルにログインし、**INTERNET** -> **Repeater** に移動して **Connect** をクリックします。
 
     ![repeater connect](https://static.gl-inet.com/docs/router/en/4/tutorials/eap/repeater_connect.png){class="glboxshadow"}
 
@@ -81,13 +81,13 @@ EAP は、**802.1X authentication** を使用する **WPA2‑Enterprise / WPA3�
 
 ## LuCI から接続する {#connect-via-luci}
 
-GL.iNet の Web 管理画面で対応している EAP タイプは限られています。
+GL.iNet の Web 管理パネルで対応している EAP タイプは限られています。
 
-接続したい EAP ネットワークに Web 管理画面から接続できない場合は、LuCI インターフェースから接続してみてください。
+接続したい EAP ネットワークに Web 管理パネルから接続できない場合は、LuCI インターフェースから接続してみてください。
 
 > **注意**: 以下の手順はあくまで参考です。実際のデバイスの LuCI ページをご参照ください。
 
-1. Web 管理画面にログインし、**SYSTEM** -> **Advanced Settings** に移動します。LuCI をインストールし、**Go to LuCI** をクリックします。
+1. Web 管理パネルにログインし、**SYSTEM** -> **Advanced Settings** に移動します。LuCI をインストールし、**Go to LuCI** をクリックします。
 
     ![gotoluci](https://static.gl-inet.com/docs/router/en/4/tutorials/eap/gotoluci.png){class="glboxshadow"}
 
@@ -105,7 +105,7 @@ GL.iNet の Web 管理画面で対応している EAP タイプは限られて�
 
 ## トラブルシューティング {#troubleshooting}
 
-接続先の EAP ネットワークで、EAP type（PEAP、TTLS など）、domain suffix match、identity、anonymous identity などの追加パラメータが必要な場合、Web 管理画面からの EAP 接続は失敗することがあります。
+接続先の EAP ネットワークで、EAP type（PEAP、TTLS など）、domain suffix match、identity、anonymous identity などの追加パラメーターが必要な場合、Web 管理パネルからの EAP 接続は失敗することがあります。
 
 ![connection failed](https://static.gl-inet.com/docs/router/en/4/tutorials/eap/connection_failed.png){class="glboxshadow"}
 
@@ -113,7 +113,7 @@ GL.iNet の Web 管理画面で対応している EAP タイプは限られて�
 
 1. 設定情報を取得します。
 
-    接続先の EAP ネットワークに必要な設定パラメータを事前に確認してください。例:
+    接続先の EAP ネットワークに必要な設定パラメーターを事前に確認してください。例:
 
     - EAP Type（例: PEAP、TTLS、TLS）
     - Authentication domain suffix（例: @company.com）
@@ -128,7 +128,7 @@ GL.iNet の Web 管理画面で対応している EAP タイプは限られて�
 
 2. LuCI にログインします。
 
-    ルーターの Web 管理画面にログインします。ログイン後、以前に WebGUI から対象の EAP ネットワークへの接続を試して失敗している場合は、その接続を中止してください。
+    ルーターの Web 管理パネルにログインします。ログイン後、以前に WebGUI から対象の EAP ネットワークへの接続を試して失敗している場合は、その接続を中止してください。
 
     ![abort connection](https://static.gl-inet.com/docs/router/en/4/tutorials/eap/abort_connection.png){class="glboxshadow"}
 
@@ -160,7 +160,7 @@ GL.iNet の Web 管理画面で対応している EAP タイプは限られて�
 
     ![wireless security](https://static.gl-inet.com/docs/router/en/4/tutorials/eap/wireless_security.jpg){class="glboxshadow"}
 
-    以下のように、対象の EAP ネットワークに合わせて正しい設定パラメータを選択または入力します。**まだ Save はクリックしないでください**。
+    以下のように、対象の EAP ネットワークに合わせて正しい設定パラメーターを選択または入力します。**まだ Save はクリックしないでください**。
 
     ![wireless security example](https://static.gl-inet.com/docs/router/en/4/tutorials/eap/wireless_security_example.png){class="glboxshadow"}
 
@@ -200,4 +200,4 @@ GL.iNet の Web 管理画面で対応している EAP タイプは限られて�
 
 ---
 
-ご不明な点がある場合は、[Community Forum](https://forum.gl-inet.com){target="_blank"} をご利用いただくか、[Contact us](https://www.gl-inet.com/contacts/){target="_blank"} からお問い合わせください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

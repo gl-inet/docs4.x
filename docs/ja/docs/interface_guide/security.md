@@ -1,8 +1,8 @@
 # セキュリティ {#security}
 
-> このページはファームウェア v4.5 で導入されました。
+**注意**: このページはファームウェア v4.5 で導入されました。
 
-Web管理パネルの左側で、**SYSTEM** -> **Security** に移動します。
+Web 管理パネルの左側で、**SYSTEM** -> **Security** に移動します。
 
 このページでは、不正アクセスからネットワークとルーターを保護するための各種セキュリティ設定を構成できます。
 
@@ -165,7 +165,7 @@ Access Control は、ファームウェア v4.7 以前では Local Access Contro
 
 ---
 
-## ルーターで開いているポート {#open-ports-on-router}
+## ルーターのポート開放 {#open-ports-on-router}
 
 Web や FTP などのルーターサービスを公開するには、それぞれのポートをルーター上で開放する必要があります。
 
@@ -185,4 +185,4 @@ Web や FTP などのルーターサービスを公開するには、それぞ�
 
 ---
 
-ご不明な点がありましたら、[Community Forum](https://forum.gl-inet.com){target="_blank"} または [Contact us](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

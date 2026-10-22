@@ -12,13 +12,13 @@
 
 ## GL.iNetアカウント {#glinet-account}
 
-[GL.iNetアカウント](../interface_guide/glinet_account.md)には、デバイスの接続や管理、クラウドサービスへのアクセスを一元的に行うページがあります。1つのGL.iNetアカウントでGoodCloudとGL.iNetアプリを利用でき、ネットワークとデバイスをより簡単に管理できます。また、GoodPASページ（v4.10のGL-MG1300以外のモデルではAstroWarpという名称）へすばやくアクセスし、旅行用ルーターと自宅ネットワークの間に安全な接続を確立できます。
+[GL.iNetアカウント](../interface_guide/glinet_account.md)には、デバイスの接続や管理、クラウドサービスへのアクセスを一元的に行うページがあります。1つのGL.iNetアカウントでGoodCloudとGL.iNetアプリを利用でき、ネットワークとデバイスをより簡単に管理できます。また、GoodPASページ（v4.10のGL-MG1300以外のモデルではAstroWarpという名称）へすばやくアクセスし、トラベルルーターと自宅ネットワークの間に安全な接続を確立できます。
 
 ![gl.inet account](https://static.gl-inet.com/docs/router/en/4/features_update/4.10/account.png){class="glboxshadow"}
 
 ## GoodCloud {#goodcloud}
 
-[GoodCloud](../interface_guide/cloud.md)は、GL.iNetルーターをリモートで展開・管理するためのクラウドプラットフォームです。複数拠点のデバイスを一元管理し、設定やファームウェア更新を一括で行えます。また、Web管理画面へのリモートアクセスや、SSHによるデバイス端末へのアクセスにも対応しています。
+[GoodCloud](../interface_guide/cloud.md)は、GL.iNetルーターをリモートで展開・管理するためのクラウドプラットフォームです。複数拠点のデバイスを一元管理し、設定やファームウェア更新を一括で行えます。また、Web管理パネルやSSHによるデバイスのターミナルへのリモートアクセスにも対応しており、ルーターをリモートで簡単に管理できます。
 
 ファームウェアv4.10では、GoodCloudのアカウント連携が簡素化され、工場出荷時設定へのリセット時にクラウドアカウントデータを消去できるようになりました。
 
@@ -42,4 +42,4 @@
 
 ---
 
-ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} をご利用いただくか、[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} からお問い合わせください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

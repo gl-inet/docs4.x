@@ -1,6 +1,6 @@
 # GL.iNet ルーターで WireGuard サーバーを設定する {#set-up-wireguard-server-on-glinet-routers}
 
-WireGuard® は、最先端の暗号技術を利用した、非常にシンプルで高速かつモダンな VPN です。IPSec よりも高速・簡潔・軽量で使いやすいことを目指しており、OpenVPN よりも大幅に高いパフォーマンスを期待できます。
+WireGuard® は、最先端の暗号技術を利用した、非常にシンプルで高速かつモダンな VPN です。IPSec の煩雑さを避けつつ、IPSec よりも高速・簡潔・軽量で使いやすいことを目指しています。また、OpenVPN よりも大幅に高いパフォーマンスを目指しています。
 
 GL.iNet ルーターで WireGuard サーバーを設定するには、以下の動画を見るか、下記の手順に従ってください。
 
@@ -20,7 +20,7 @@ GL.iNet ルーターで WireGuard サーバーを設定するには、以下の�
 
 ## ポートフォワーディングが必要か確認する {#confirm-if-port-forwarding-is-required}
 
-**Network Topology**
+**ネットワーク構成**
 
 ??? "GL.iNet がメインルーターの場合"
 
@@ -28,9 +28,9 @@ GL.iNet ルーターで WireGuard サーバーを設定するには、以下の�
 
 ??? "GL.iNet がサブルーターの場合"
 
-    * すでにメインルーターがあり、GL.iNet ルーターをサブルーターとして使用している場合は、メインルーター側で [port forwarding](../tutorials/how_to_set_up_port_forwarding.md) を設定する必要があります。
+    * すでにメインルーターがあり、GL.iNet ルーターをサブルーターとして使用している場合は、メインルーター側で [ポートフォワーディング](../tutorials/how_to_set_up_port_forwarding.md) を設定する必要があります。
 
-    * すでにメインルーターがあり、GL.iNet ルーターがさらに下位階層にある場合は、途中の各ルーターで [port forwarding](../tutorials/how_to_set_up_port_forwarding.md) を設定してください。
+    * すでにメインルーターがあり、GL.iNet ルーターがさらに下位階層にある場合は、途中の各ルーターで [ポートフォワーディング](../tutorials/how_to_set_up_port_forwarding.md) を設定してください。
 
 ## WireGuard サーバーを設定する {#set-up-wireguard-server}
 
@@ -141,9 +141,9 @@ Web 管理パネルにログインし、**VPN** -> **WireGuard Server** を開�
 * WireGuard Server で使用しているポートがインターネットサービスプロバイダーによってブロックされている。別のポートに変更するか、ISP に問い合わせてください。
 * 一部の国や地域では VPN 接続がブロックされる場合があります。
 
-## Server Options {#server-options}
+## サーバーオプション {#server-options}
 
-Server Optionsには、サーバーのLANへのリモートアクセスやIPマスカレーディングなど、サーバー側の高度な設定があります。必要に応じて設定してください。
+サーバーオプションには、サーバーのLANへのリモートアクセスやIPマスカレーディングなど、サーバー側の高度な設定があります。必要に応じて設定してください。
 
 ファームウェアv4.8以降では、**WireGuard Server**ページを開き、右上の**Options**をクリックします。
 
@@ -181,4 +181,4 @@ WireGuard® は Jason A.Donenfeld の登録商標です。
 
 ---
 
-ご不明な点がある場合は、[Community Forum](https://forum.gl-inet.com){target="_blank"} または [Contact us](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

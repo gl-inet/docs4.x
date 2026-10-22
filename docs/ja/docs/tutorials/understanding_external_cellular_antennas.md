@@ -162,5 +162,5 @@ Wi-Fi アンテナとセルラーアンテナは異なる無線システム向�
 
 ---
 
-ご不明な点がある場合は、[Community Forum](https://forum.gl-inet.com) をご利用いただくか、[Contact us](https://www.gl-inet.com/contact-us) からお問い合わせください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com) または [お問い合わせ](https://www.gl-inet.com/contact-us) をご利用ください。
 

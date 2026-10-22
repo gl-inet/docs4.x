@@ -2,58 +2,56 @@
 
 ## 製品概要 {#product-overview}
 
-Flint 3e (GL-BE6500) は、家庭ユーザーとスモールオフィス向けのWi-Fi 7デュアランディングデスクトップルーターです。Wi-Fi 7 Multi-Link Operation (MLO)技術をサポートし、2.4GHzと5GHzチャンネルをインテリジェントに単一接続にマージします。 same 時デュアランディングリソース使用により、干渉と輻輳を削減し、4K QAMは6453Mbpsの合計デュアランディング速度を実現します—Wi-Fi 6と比較して20%の向上。アップグレードされた5GHzバンド（4x4 MIMO、160MHz）は、長距離パフォーマンスも大幅に向上させます。
+Flint 3e (GL-BE6500) は、家庭ユーザーとスモールオフィス向けに設計されたデュアルバンドWi-Fi 7デスクトップルーターです。Wi-Fi 7のMulti-Link Operation（MLO）技術に対応し、2.4GHzと5GHzのチャンネルをインテリジェントに1つの接続に統合します。デュアルバンドのリソースを同時に使用することで干渉や混雑を軽減し、4K QAMによりデュアルバンド合計6453Mbpsの速度を実現します。これはWi-Fi 6と比べて20%の向上です。また、強化された5GHzバンド（4x4 MIMO、160MHz）により、長距離でのパフォーマンスも大幅に向上しています。
 
-5× 2.5G Ethernetポートと1× USB 3.0ポートを備え、高速有線接続とストレージ拡張をサポートします。さらに、30以上のVPNサービスに対応しており、WireGuard®とOpenVPN-DCOで最大680Mbpsの強力なVPNパフォーマンスを提供します。Bark Parental Controlが含まれており、パフォーマンス、実用性、セキュリティの完璧なバランスを実現しています。
+2.5G Ethernetポートを5基、USB 3.0ポートを1基搭載し、高速な有線接続とストレージ拡張に対応します。さらに、30以上のVPNサービスに対応し、WireGuard®とOpenVPN-DCOで最大680Mbpsの強力なVPNパフォーマンスを発揮します。無料のBark Parental Controlも利用でき、パフォーマンス、実用性、セキュリティを高いレベルで両立しています。
 
 ![gl-be6500 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be6500/hardware_info/be6500_interface.jpg){class="glboxshadow"}
 
-**注意**: Flint 3eとFlint 3の外見の違いはシルクスクリーンにあります：Flint 3eのシルクスクリーンは青、Flint 3は白です。
+**注：** Flint 3eとFlint 3の外観上の違いはシルク印刷の色です。Flint 3eは青、Flint 3は白です。
 
-## パッケージコンテンツ {#package-contents}
-
-パッケージには以下が含まれます：
+## パッケージ内容 {#package-contents}
 
 - 1 x Flint 3e (GL-BE6500)
 - 1 x 電源アダプター
-- 1 x Ethernet cable
-- 1 x ユーザーガイド
+- 1 x Ethernetケーブル
+- 1 x ユーザーマニュアル
 - 1 x サンキューカード
-- 1 x コンバーター（発送国により異なります）
+- 1 x 変換プラグ（配送先の国に応じたもの）
 
-Flint 3eの開栓動画については 以下を参照してください.
+Flint 3eの開封動画は以下をご覧ください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6-E0LtWqshk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Flint 3eの設定方法 {#how-to-set-up-flint-3e}
 
-Flint 3eの設定には、Ethernet、Repeater、Tethering、Cellularの4つのインターネット接続方法が使えます。設定動画を見るか、以下の手順に従ってください。
+以下のセットアップ動画を見るか、次の手順に従ってください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/R40QsUFYuUk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### 1. Flint 3eの電源を入れる {#1-power-on}
 
-二分割の電源アダプターを組み合わせます。ルーター器に接続し、コンセントに挿すと自動的に起動します。
+2ピース式の電源アダプターを組み立てます。ルーターに接続し、コンセントに挿すと自動的に起動します。
 
-### 2. Flint 3eに接続する {#2-connect-device}
+### 2. デバイスを接続する {#2-connect-device}
 
-Wi-FiまたはEthernetを使用してデバイス（コンピュータ、ラップトップ、スマートフォンなど）をルーター器に接続します。
+Wi-FiまたはEthernetを使用してデバイス（コンピュータ、ラップトップ、スマートフォンなど）をルーターに接続します。
 
 - Ethernet
 
-    Ethernet cableを使用してデバイスをルーターのLANポートに接続します。
+    Ethernetケーブルを使用してデバイスをルーターのLANポートに接続します。
 
 - Wi-Fi
 
-    デバイスで、Settings -> WLANを開き，利用可能なネットワークリストからルーターのWi-Fiネットワーク名を見つけ、パスワードを入力してネットワークに参加します。デフォルトのネットワーク名とパスワードはルーターのラベルに印刷されています。
+    デバイスで、Settings -> WLANを開き、利用可能なネットワークリストからルーターのWi-Fiネットワーク名を見つけ、パスワードを入力してネットワークに参加します。デフォルトのネットワーク名とパスワードはルーターのラベルに印刷されています。
 
-### 3. WebGUIにログインする {#3-log-in-to-web-admin-panel}
+### 3. Web管理パネルにログインする {#3-log-in-to-web-admin-panel}
 
-Webブラウザーでアドレスバーに`192.168.8.1`を入力してログインします。言語を選択し，管理者パスワードを設定して、**Apply**をクリックします。
+Webブラウザーでアドレスバーに`192.168.8.1`を入力してログインします。言語を選択し、管理者パスワードを設定して、**Apply**をクリックします。
 
 ### 4. Flint 3eをインターネットに接続する {#4-internet-setup}
 
-**注意:** 以下の説明は、GL.iNet Web管理パネルでルーターを設定するユーザーに適用されます。GL.iNetアプリを使用する場合は，[アプリをダウンロード](https://www.gl-inet.com/app/){target="_blank"}して画面の説明に従ってください。
+**注：** 以下の説明は、GL.iNet Web管理パネルでルーターを設定するユーザーに適用されます。GL.iNetアプリを使用する場合は、[アプリをダウンロード](https://www.gl-inet.com/app/){target="_blank"}して画面の説明に従ってください。
 
 サポートされているインターネット接続方法（Ethernet、Repeater、Tethering、Cellular）のいずれかを使用してFlint 3eを設定します。[Multi-WAN](../../interface_guide/multi-wan.md)機能を使用する場合は、複数のインターネット接続を設定してください。
 
@@ -61,11 +59,11 @@ Webブラウザーでアドレスバーに`192.168.8.1`を入力してログイ�
     
     ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be6500/internet/be6500_ethernet.jpg){class="glboxshadow"}
 
-    Flint 3eのWANポートをEthernet cableで上位デバイス（モデムなど）に接続します。
+    Flint 3eのWANポートをEthernetケーブルで上位デバイス（モデムなど）に接続します。
     
     インターネットに正常に接続されると、INTERNETページのEthernetセクションに緑色のドットが表示されます。
 
-    詳細な手順については、[Ethernet cableでインターネットに接続する](../../interface_guide/internet_ethernet.md)を参照してください。
+    詳細な手順については、[Ethernetケーブルでインターネットに接続する](../../interface_guide/internet_ethernet.md)を参照してください。
 
 === "Repeater"
 
@@ -83,7 +81,7 @@ Webブラウザーでアドレスバーに`192.168.8.1`を入力してログイ�
 
     ![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be6500/internet/be6500_tethering.jpg){class="glboxshadow"}
 
-    1. モバイルデバイス（スマートフォンやUSB dongleなど）をUSB cableでルーターのUSBポートに接続します。
+    1. モバイルデバイス（スマートフォンやUSBドングルなど）をUSBケーブルでルーターのUSBポートに接続します。
     2. モバイルデバイスでSettingsを開き、USB Tetheringを有効にします。
     3. Web管理パネルのINTERNETページで、Tetheringセクションの**Connect**をクリックします。
     
@@ -95,7 +93,7 @@ Webブラウザーでアドレスバーに`192.168.8.1`を入力してログイ�
 
     ![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be6500/internet/be6500_cellular.jpg){class="glboxshadow"}
 
-    Flint 3eのUSBポートにCellular USBモデムを挿します。これは、USBモデムからすべての接続クライアントデバイスにインターネットを共有するのに便利です。
+    Flint 3eのUSBポートにセルラーUSBモデムを挿入します。USBモデムのインターネット接続を、接続中のすべてのデバイスで共有する場合に便利です。
 
     インターネットに正常に接続されると、INTERNETページのCellularセクションに緑色のドットが表示されます。
 
@@ -103,11 +101,11 @@ Webブラウザーでアドレスバーに`192.168.8.1`を入力してログイ�
 
 ---
 
-以下はFlint 3e WebGUI機能の概要です。
+以下は、Flint 3eのWeb管理パネルの機能の概要です。
 
 ## Wireless {#wireless}
 
-Wirelessページでは、5 GHzと2.4 GHz Wi-Fiネットワークの設定を構成できます。Wi-Fiの有効化、TX電力の設定、Wi-Fi名（SSID）の指定、ランダムBSSIDの有効化、Wi-Fiセキュリティモードとパスワードの選択、SSID可視性の設定、Wi-Fiモード、帯域幅、チャネルの選択が含まれます。
+Wirelessページでは、5 GHzと2.4 GHz Wi-Fiネットワークの設定を構成できます。Wi-Fiの有効化、送信出力（TX power）の設定、Wi-Fi名（SSID）の指定、ランダムBSSIDの有効化、Wi-Fiセキュリティモードとパスワードの選択、SSIDの表示/非表示の設定、Wi-Fiモード、帯域幅、チャネルの選択が含まれます。
 
 また、Flint 3eはMLO Wi-Fi（Multi-Link Operation）をサポートしており、複数のWi-Fiネットワークを同時に組み合わせて、より高い帯域幅とより信頼性の高い接続を実現します。
 
@@ -115,7 +113,7 @@ Wirelessの設定については、[Wireless](../../interface_guide/wireless.md)
 
 ## Clients {#clients}
 
-Clientsページには、接続されたデバイスに関する情報が表示されます。各クライアントについて、名前、IPアドレスとMACアドレス、ダウンロード速度とアップロード速度、合計トラフィックが表示されクライアントをブロックしたりその他のアクションを実行したりできます。
+Clientsページには、接続されたデバイスに関する情報が表示されます。各クライアントについて、名前、IPアドレスとMACアドレス、ダウンロード速度とアップロード速度、合計トラフィックが表示され、クライアントをブロックしたりその他のアクションを実行したりできます。
 
 Clientsの設定については、[Clients](../../interface_guide/clients.md)を参照してください。
 
@@ -123,7 +121,7 @@ Clientsの設定については、[Clients](../../interface_guide/clients.md)を
 
 === "GoodCloud"
 
-    GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"}は、GL.iNetルーターに簡単かつシンプルにリモートアクセスと管理を提供します。
+    GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"}は、GL.iNetルーターにリモートでアクセスして管理するための簡単な方法を提供します。
     
     GoodCloudの設定については、[GoodCloud](../../interface_guide/cloud.md)を参照してください。
 
@@ -153,7 +151,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
 === "Tor"
 
-    Tor（The Onion Routerのやや称）は、匿名通信を可能にするプライバシー重視のネットワークです。ユーザーの位置情報と使用状況を不明瞭にするために、一連のボランティアが運用するサーバー（ノード）をを通じてインターネットトラフィックをルーティングします。
+    Tor（The Onion Routerの略）は、インターネット上での匿名通信を可能にするプライバシー重視のネットワークです。インターネットトラフィックをボランティアが運営する一連のサーバー（ノード）経由でルーティングしてユーザーの位置情報や利用状況を隠し、オンライン活動の追跡を困難にします。
     
     * [Torの設定方法](../../interface_guide/tor.md)
 
@@ -161,7 +159,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
 === "Plug-ins"
 
-    プラグインは、既存のコンピュータプログラムに特定の機能または機能を追加するソフトウェアコンポーネントであり、カスタマイズと機能拡張を可能にします。
+    プラグインは、既存のコンピュータープログラムに特定の機能を追加するソフトウェアコンポーネントで、機能のカスタマイズや拡張を可能にします。
     
     プラグインの設定については、[Plug-ins](../../interface_guide/plugins.md)を参照してください。
 
@@ -189,7 +187,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
     Parental Controlは、子どものデバイスを管理および制御するために設計されています。スクリーン時間の制限や特定コンテンツへのアクセス制限が含まれます。
 
-    保護者による制御の設定については、[Parental Control](../../interface_guide/parental_control.md)を参照してください。
+    ペアレンタルコントロールの設定については、[Parental Control](../../interface_guide/parental_control.md)を参照してください。
 
 === "ZeroTier"
 
@@ -213,7 +211,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
 === "Multi-WAN"
 
-    Multi-WANは、ルーターに複数のインターネット接続（cellular、repeater、ethernetなど）を同時に設定できるネットワーキング機能です。現在のインターネット接続が失敗すると、ルーターは自動的に別のインターネット接続に切り替えます。これにより、スムーズで途切れないインターネットアクセスが確保されます。
+    Multi-WANは、ルーターに複数のインターネット接続（Cellular、Repeater、Ethernetなど）を同時に設定できるネットワーク機能です。現在のインターネット接続に障害が発生すると、ルーターは自動的に別のインターネット接続に切り替えます。これにより、スムーズで途切れないインターネットアクセスが確保されます。
 
     Multi-WANの設定については、[Multi-WAN](../../interface_guide/multi-wan.md)を参照してください。
 
@@ -233,15 +231,15 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
 === "DNS"
 
-    DNSページでは、カスタムDNSサーバーを設定し、DNSリバインディング攻撃保護を有効にしてすべてのクライアントのDNS設定を上書きし、カスタムDNSがVPN DNSを上書きできるようにし、Ethernet接続からDNSサーバーを自動的に指定するか手動で指定するモードを構成できます。
+    DNSページでは、カスタムDNSサーバーの設定、DNSリバインディング攻撃保護の有効化、すべてのクライアントのDNS設定の上書き、カスタムDNSによるVPN DNSの上書きの許可を行えます。また、DNSサーバー設定モードを自動にするか、Ethernet接続のDNSサーバーを手動で指定するかを設定できます。
 
     DNSの設定については、[DNS](../../interface_guide/dns.md)を参照してください。
 
-=== "Port Management"
+=== "Ethernet Port"
 
-    Port Managementページでは、WANとLANポートの設定、WAN/LANインターフェースをEthernetに設定、WANインターフェースのMACモードとMACアドレスの指定、ネットワークポートのネゴシエート速度の確認を行うことができます。
+    Ethernet Portページでは、WANポートとLANポートの設定、WAN/LANインターフェースのEthernetへの設定、WANインターフェースのMACモードとMACアドレスの指定、ネットワークポートのネゴシエート速度の確認を行えます。
 
-    Ethernetポートの管理については、[Port Management](../../interface_guide/ethernet_port.md)を参照してください。
+    Ethernetポートの管理については、[Ethernet Port](../../interface_guide/ethernet_port.md)を参照してください。
 
 ---
 
@@ -253,7 +251,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
 === "IPv6"
 
-    IPv6（Internet Protocol version 6）は、IPv4を置き換えるために設計されたインターネットプロトコルの最新バージョンです。ほぼ無限の数の固有のIPアドレスを可能にする大幅なアドレス空間を提供し、インターネットに接続するデバイスの増加に対応するために不可欠です。
+    IPv6（Internet Protocol version 6）は、IPv4を置き換えるために設計された最新のインターネットプロトコルです。非常に大きなアドレス空間を提供し、インターネットに接続されるデバイス数の増加に対応するために不可欠な、ほぼ無制限の一意なIPアドレスを利用できます。
     
     IPV6の設定については、[IPV6](../../interface_guide/ipv6.md)を参照してください。
 
@@ -290,7 +288,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
 === "Overview"
 
-    Overviewページは、ルーターの現在のパフォーマンス指標とステータスのを含むスナップショットを提供します。このページでは以下を表示できます：
+    Overviewページでは、ルーターの現在の状態とパフォーマンス指標をまとめて確認できます。このページでは以下を表示できます：
 
     * CPU平均負荷：ルーターのCPUの平均負荷を監視し、パフォーマンスの評価と潜在的なボトルネックの特定に役立ちます。
     * メモリ使用量：ルーターのメモリ使用量を確認し、リソース管理に役立ちます。
@@ -308,7 +306,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
     Upgradeページは、ルーターのファームウェアを最新バージョンにアップデートするために使用され、パフォーマンス、セキュリティ、新機能の向上を確保します。このページには2つのアップグレードオプションがあります：
 
     * ファームウェアオンラインアップグレード：メーカーのサーバーで最新のファームウェアバージョンを自動的に確認します。オンラインで利用できる場合はインストールできます。
-    * ファームウェアローカルアップグレード：コンピューターからファームウェアファイルをアップロードしてルーターをアップデートし、アップグレードバージョンとタイミングを制御できます。
+    * ファームウェアローカルアップグレード：コンピューターからファームウェアファイルを手動でアップロードしてルーターをアップデートし、アップグレードバージョンとタイミングを制御できます。
 
     これらのオプションにより、最新の改善と修正でルーターを最新の状態に保つことができます。
 
@@ -324,7 +322,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
     
     これらのスケジューリングオプションは、ルーターの操作をより詳細に制御し、特定のニーズと好みに合わせることができます。
 
-    詳細な手順については，[Scheduled Tasks](../../interface_guide/scheduled_tasks.md)を参照してください。
+    詳細な手順については、[Scheduled Tasks](../../interface_guide/scheduled_tasks.md)を参照してください。
 
 ---
 
@@ -344,7 +342,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
     * クラウドログ：ルーターに統合されたGoodCloudサービスに関連するインタラクションとアクティビティのログ。
     * Nginxログ：ルーターで使用されている場合は、Nginx Webサーバーからのログ。Webトラフィックとサーバー操作の詳細。
     
-    さらに、ページにはExport Logボタンがあり、収集したすべてのログをエクスポートして技術サポートの分析にできます。この機能は、複雑な問題の診断と専門のサポートの取得に非常に便利です。
+    さらに、ページにはExport Logボタンがあり、収集したすべてのログをテクニカルサポートの分析用にエクスポートできます。この機能は、複雑な問題の診断や専門的なサポートを受ける際に非常に役立ちます。
 
     詳細な手順については、[Log](../../interface_guide/log.md)を参照してください。
 
@@ -356,7 +354,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
     * 管理者パスワード：ルーターの管理インターフェースのパスワードを設定または変更し、許可されたユーザーのみが設定を変更できるようにします。
     * ローカルアクセス制御：ローカルネットワークに接続されたデバイスからルーターのインターフェースへのアクセスを管理および制限します。
-    * リモートアクセス制御：インターネット上のリモート場所からルーターのインターフェースへのアクセスを構成および制限し、外部脅威に対するセキュリティを強化します。
+    * リモートアクセス制御：インターネット経由でリモートの場所からルーターのインターフェースへのアクセスを構成および制限し、外部脅威に対するセキュリティを強化します。
     * ルーターで開いているポート：ルーター上で開いているポートを制御し、潜在的な脆弱性と不正アクセスを制限します。
 
     これらの設定は、ネットワーク環境を安全に保ち、ルーターと接続されたデバイスを保護するのに役立ちます。
@@ -365,7 +363,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
 === "Reset Firmware"
 
-    Reset Firmwareページでは、ルーターの現在のファームウェアバージョンをデフォルト設定にリセットし、すべてのカスタム設定を消去できます。このプロセスは、現にインストールされているファームウェアバージョンのデフォルト設定にルーターを復元します。持続的な問題のトラブルシューティングや現在のファームウェアのデフォルト設定で新鮮に開始するのに便利です。
+    Reset Firmwareページでは、ルーターの現在のファームウェアバージョンをデフォルト設定にリセットし、すべてのカスタム設定を消去できます。この処理により、ルーターは現在インストールされているファームウェアバージョンのデフォルト設定に戻ります。継続的な問題のトラブルシューティングや、現在のファームウェアのデフォルト設定からやり直す場合に便利です。
 
     詳細な手順については、[Reset Firmware](../../interface_guide/reset_firmware.md)を参照してください。
 

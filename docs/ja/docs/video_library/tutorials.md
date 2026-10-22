@@ -1,4 +1,4 @@
-# チュートリアル {#video-tutorials}
+# 動画チュートリアル {#video-tutorials}
 
 製品やサービスに追加された新機能と、その使い方に関する詳細なチュートリアルをご覧いただけます。
 
@@ -50,7 +50,7 @@
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7mZtz8u8--E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Mudi / Mudi V2のUboot方法 {#how-to-uboot-mudi-mudi-v2}
+## Mudi / Mudi V2 で U-Boot を使用する方法 {#how-to-uboot-mudi-mudi-v2}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pz0DidfIXRk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

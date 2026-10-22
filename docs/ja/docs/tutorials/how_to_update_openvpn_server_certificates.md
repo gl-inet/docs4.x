@@ -2,9 +2,9 @@
 
 このチュートリアルでは、GL.iNetルーターでOpenVPNサーバー証明書を更新する方法を説明します。
 
-**Note**: この作業ではRoot CA証明書を更新するため、既存のすべてのクライアント証明書（設定ファイルに埋め込まれている証明書）が無効になります。OpenVPNクライアントがサーバーへ再接続するには、すべての設定ファイルを再エクスポートする必要があります。
+**注意**: この作業ではRoot CA証明書を更新するため、既存のすべてのクライアント証明書（設定ファイルに埋め込まれている証明書）が無効になります。OpenVPNクライアントがサーバーへ再接続するには、すべての設定ファイルを再エクスポートする必要があります。
 
-1. ルーターのWeb Admin Panelにログインし、**VPN** -> **OpenVPN Server** に移動します。
+1. ルーターのWeb 管理パネルにログインし、**VPN** -> **OpenVPN Server** に移動します。
 
     OpenVPNサーバーが動作中の場合は、サービスを停止してください。
 
@@ -28,4 +28,4 @@
 
 ---
 
-ご不明な点がある場合は、[Community Forum](https://forum.gl-inet.com){target="_blank"} または [Contact us](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

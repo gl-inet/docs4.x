@@ -1,14 +1,16 @@
 # 管理者アクセス {#admin-access}
 
-> このページは firmware v4.9 で追加されました。
+**注意**: このページはファームウェア v4.9 で導入されました。
 
-Web Admin Panel の左側で、**SECURITY** -> **Admin Access** に移動します。
+---
+
+Web 管理パネルの左側で、**SECURITY** -> **Admin Access** に移動します。
 
 このページでは、不正アクセスからネットワークとルーターを保護するための各種セキュリティ設定を構成できます。
 
 ## アクセス制御 {#access-control}
 
-Access Control は、firmware v4.7 以前では Local Access Control とも呼ばれ、ルーターの各種管理インターフェースへのアクセスを管理します。
+Access Control は、ファームウェア v4.7 以前では Local Access Control とも呼ばれ、ルーターの各種管理インターフェースへのアクセスを管理します。
 
 これにより、デフォルトポートへのスキャンや侵入の試みを防ぎ、ポート競合によるネットワーク問題を回避できます。
 
@@ -153,7 +155,7 @@ Access Control は、firmware v4.7 以前では Local Access Control とも呼�
 
 ---
 
-## ルーターで開いているポート {#open-ports-on-router}
+## ルーターのポート開放 {#open-ports-on-router}
 
 Web や FTP などのルーターサービスをインターネット上から利用可能にするには、それぞれのポートをルーター上で開放する必要があります。
 

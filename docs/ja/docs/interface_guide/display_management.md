@@ -1,6 +1,6 @@
 # ディスプレイ管理 {#display-management}
 
-**Note**: このページはタッチスクリーン搭載モデルでのみ利用できます。
+**注意**: このページはタッチスクリーン搭載モデルでのみ利用できます。
 
 Web管理パネルの左側で、**SYSTEM** -> **Display Management** に移動します。
 
@@ -62,4 +62,4 @@ Web管理パネルの左側で、**SYSTEM** -> **Display Management** に移動�
 
 ---
 
-ご不明な点がありましたら、[Community Forum](https://forum.gl-inet.com){target="_blank"} または [Contact us](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

@@ -1,35 +1,35 @@
 # LANサブネットの競合を解決する方法 {#how-to-resolve-a-lan-subnet-conflict}
 
-ホームルーターからGL.iNetルーターのWANポートにイーサネットケーブルを接続のとき、このメッセージが表示される場合があります：
+自宅のルーターからGL.iNetルーターのWANポートにイーサネットケーブルを接続すると、次のメッセージが表示される場合があります。
 
-「LANサブネットがWANサブネットと競合しています。別のアドレスにLANサブネットを変更してください。」
+**"LAN subnet is in conflict with the WAN subnet. Please Change LAN Subnet to a different address."**（LANサブネットがWANサブネットと競合しています。LANサブネットを別のアドレスに変更してください。）
 
 ![conflict](https://static.gl-inet.com/docs/router/en/4/faq/what_should_i_do_with_subnet_conflict/conflict.jpg){class="glboxshadow"}
 
-これは、ホームルーターがGL.iNetルーターと同じLAN IPを使用しているためです。これをLAN競合と言います。
+これは、自宅のルーターがGL.iNetルーターと同じLAN IPを使用しているためで、LAN競合と呼ばれます。
 
 以下の手順に従ってLANサブネットを変更します。
 
 ## 1. LANサブネットを変更する {#1-change-lan-subnet}
 
-ハイパーリンク「LANサブネットを変更する」をクリックすると、LAN設定ページにリダイレクトされます。
+**Change LAN Subnet** のリンクをクリックすると、**LAN** 設定ページに移動します。
 
 ![change lan ip](https://static.gl-inet.com/docs/router/en/4/faq/what_should_i_do_with_subnet_conflict/change_lan_ip.png){class="glboxshadow"}
 
-2番目のピリオド後の番号（デフォルトでは8）を別の番号に変更します。例えば192.168.10.1として、「適用」をクリックします。
+2番目のドットの後の数字（デフォルトは **8**）を別の数字に変更します。たとえば192.168.10.1に変更し、**Apply** をクリックします。
 
-変更後、数秒待るとページがアップデートされ、変更されたIPアドレス192.168.10.1に自動的にリダイレクトされます。サブネット競合のプロンプトが消えたことがわかります。
+変更後、数秒待つとページが更新され、変更後のIPアドレス **192.168.10.1** に自動的にリダイレクトされます。サブネット競合のメッセージは表示されなくなります。
 
 ページがリダイレクトされない場合は、次の手順に進みます。
 
 ## 2. 新しいLAN IPでログインする {#2-login-with-new-lan-ip}
 
-アドレスバーに新しいLAN IPを入力してEnterキーを押します。
+アドレスバーに変更後のLAN IPを手動で入力し、Enterキーを押します。
 
 ![login](https://static.gl-inet.com/docs/router/en/4/faq/what_should_i_do_with_subnet_conflict/login.png){class="glboxshadow gl-90-desktop"}
 
-管理者パスワードでログインすると、サブネット競合のプロンプトが消えます。
+管理者パスワードでログインすると、サブネット競合のメッセージは表示されなくなります。
 
 ---
 
-まだ質問がありますか？ [コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}または[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}をご覧ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

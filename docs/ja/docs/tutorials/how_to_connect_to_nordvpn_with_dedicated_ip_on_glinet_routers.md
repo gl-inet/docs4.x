@@ -18,7 +18,7 @@
 
     ![nordvpn manual setup service credential](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_nordvpn_dedicated_ip/nordvpn_manual_setup_service_credential.png){class="glboxshadow"}
 
-4. ルーターの Web 管理画面にログインし、**VPN** > **OpenVPN Client** に移動します。新しいグループを作成し、手順 2 でダウンロードした設定ファイルをアップロードしてから、手順 3 で取得した service credentials を入力します。
+4. ルーターの Web 管理パネルにログインし、**VPN** > **OpenVPN Client** に移動します。新しいグループを作成し、手順 2 でダウンロードした設定ファイルをアップロードしてから、手順 3 で取得した service credentials を入力します。
 
     ![set up nordvpn on glinet router](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_nordvpn_dedicated_ip/set_up_nordvpn_on_glinet_router.png){class="glboxshadow"}
 
@@ -32,4 +32,4 @@
 
 ---
 
-ご不明な点がある場合は、[Community Forum](https://forum.gl-inet.com){target="_blank"} をご利用いただくか、[Contact us](https://www.gl-inet.com/contacts/){target="_blank"} からお問い合わせください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

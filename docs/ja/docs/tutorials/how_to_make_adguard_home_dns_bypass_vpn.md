@@ -14,7 +14,7 @@
 
 VPNがアクティブな間もAdGuard Homeを機能させるには、LuCIでスタティックルートを追加し、上流DNSトラフィックを通常のWANゲートウェイに転送してVPNトンネルをバイパスします。以下の手順に従ってください。
 
-1. ルーターのWeb管理パネルにログインし、**SYSTEM** -> **Advanced Settings** ->** Go to LuCI**の順に進みます。
+1. ルーターのWeb管理パネルにログインし、**SYSTEM** -> **Advanced Settings** -> **Go to LuCI** の順に進みます。
 
     ![luci login 1](https://static.gl-inet.com/docs/router/en/4/tutorials/make_adguard_home_dns_bypass_vpn/luci1.png){class="glboxshadow"}
 
@@ -75,4 +75,4 @@ cp -r /rom/etc/init.d/adguardhome /etc/init.d/adguardhome
 
 ---
 
-ご不明な点がございますか？[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}をご覧いただくか、[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

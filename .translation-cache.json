@@ -30,11 +30,11 @@
         "target_hash": "996e3a4024772bb22358abb847f3518ba8c5e8d876cea38b4cfb065b05a95556"
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1780110246,
         "source_hash": "c876afa1384081f7ad498f925e8fa6ab152ce341200c32e08f9d244c7309c238",
         "source_blob": "9c493f22906ba9a820a79fbded9e02d99e13ed90",
-        "target_hash": "838067c9ae3614a40e4a2ea1e1e242b7681d0cb2b18d37056f02b67f2751cd07"
+        "target_hash": "d2cd1f738671680e99270f2cad886f882329861ad4f676b8bda0a18e339cb84e",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "pre-existing",
@@ -97,11 +97,11 @@
         "target_hash": "887e072d03170a1e9fd92ed38db905650113ccd4b02ead6bbef8459e1a2aceb5"
       },
       "ja": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333,
         "source_hash": "f49b174422ef639aad00ba6d155f09a13d6ea5fb6ab81d83f386b279df28b90c",
         "source_blob": "118904e8c03f2bf70ced531a3ecdea9823b202a0",
-        "target_hash": "3184df186223d17a19fee789f6d8087a7a7833dafa242c4832e6fbc48fc2d936"
+        "target_hash": "21c20dc4623a1409ab9696206de16bf902ecd8e436a3a61adaaa137c6a6b66fb",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -164,11 +164,11 @@
         "target_hash": "6656781853e345ebb8f053139ce1cc54be154709a98dd0578d58aeca8edb117d"
       },
       "ja": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220,
         "source_hash": "9b7704924c464f9d9fa2c24f889f5ecc360a9b5be1fb494bfe7c15f248b76ea1",
         "source_blob": "4d0050f978a2a8120d91f82d8097f12771bf415a",
-        "target_hash": "e974185a8187efe9a313d817907185545d1dc736a632c0495158d0c301e7576b"
+        "target_hash": "1eaf92dc89f91c1554b819e59bec3c8c1af4aeddfa6b774c06871050b4d8edd3",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "manual-structural-sync",
@@ -231,11 +231,11 @@
         "target_hash": "155f7f3ed12c9744fe391b614756ad135dd803e218e2d472297b93b8e389663c"
       },
       "ja": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220,
         "source_hash": "be233a16e7c1fcaf50b224cb9bdd4c4a6e42607c79d543c4dea08d3a8927fc1a",
         "source_blob": "a2db581d22d814ad0d6778850195c3dd703a389a",
-        "target_hash": "53407a8cf6bfe7e6db7b20ae2fab7d1f0161938822e3da7de4a4913f61bdaafb"
+        "target_hash": "97b65dee0a5b7d71ec39fa61d337a2c6ededd9bafd6c4f299cc1d8f6ba951619",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "manual-structural-sync",
@@ -300,9 +300,9 @@
       "ja": {
         "source_hash": "1b68f613961d64d1928844db676ac83592e455f4eb1ea22efbafab2cc1dcfeda",
         "source_blob": "e9b3d08435e0522d576cc1a300bad3a3f662d28d",
-        "target_hash": "92ae0f76b38f37898437e703144172ff2df1832be0128469ab0e2a2fd6fd1016",
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792565157
+        "target_hash": "e4cbf15bd8737d2d0a1bb06f817970fa38f606f662c5fefaf9f1468747a504d6",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "source_hash": "1b68f613961d64d1928844db676ac83592e455f4eb1ea22efbafab2cc1dcfeda",
@@ -365,11 +365,11 @@
         "target_hash": "6d7ffe1982f21f486c23cc26bc2a9967ed82430750e2bc84bcdbce48cb7146d2"
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033,
         "source_hash": "9586bafea7dcbd334bbab31b7648e81d470f843ba3a5a137ef36e3872e4016c3",
         "source_blob": "b3ef7d60187f05a9c64f234d997f58f1cd9fdd7c",
-        "target_hash": "d1d98514c892bd9c59997405bb530e20c4d330d6cda2a64ccfbeab964a5f4b35"
+        "target_hash": "b0dec4872bf11528b3807f04d7ceffcd1e50b790decafa98c75e4b88408bddd7",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "manual-incremental-sync",
@@ -432,11 +432,11 @@
         "target_hash": "61146e71856882351c88d6c4bc04240f74a91b6d1a42efb03147262caa87a23f"
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1779027869,
         "source_hash": "7450b586f7fd209466647511a93c3256c5bf81c63aa047be555d7a874d2707dd",
         "source_blob": "7ae2f6116ab8b05167519b15722b2a504cfadefd",
-        "target_hash": "b4120bbdb3614b910779ccea84c8a6fb5748fb9c2282641ed0edf364ac98e930"
+        "target_hash": "ccbc710b34516b29466fce54c4fa96cd8c702c14ad8ff0c5a1ee239c4085f300",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "pre-existing",
@@ -499,11 +499,11 @@
         "target_hash": "03b99e9afb18b62a548f2f215711a91bdcd6ac31e0443da18d8582f57935f754"
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787799497,
         "source_hash": "b818ef6441825422308ab5fb5692fcaac434681709ceccdcdff38e3b19d62720",
         "source_blob": "4f8dd2d28e27c1be23fc3aa7e10537aec59ad4ac",
-        "target_hash": "1e44fe4a39c7a8bcc5979854d318f029ad2958bf278f5640120fc76dca738a9e"
+        "target_hash": "541a133b46d26f5d0966e96862fd4d4c3e734a9263bb14ea24a866f1d81fca8e",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "manual-incremental-sync",
@@ -566,11 +566,11 @@
         "target_hash": "cd9694c454a2d7585a6dcbcf19ad89c5afe8a2699b129a6b7c7aa45365500b64"
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
         "source_hash": "556a4947cb83c108018a405f58a8883357a5e2e7cf097c9ffa710f2f1b70bd80",
         "source_blob": "2ee1e9dc55e060673b6cc23b62f68909ff85ae4e",
-        "target_hash": "e153e04e5d20b871be354b00a808cd0e2bb2a8422970b802b61cc968fc793a1f"
+        "target_hash": "f3f6c3b1809265739cfd3f30675e76e8fe08fea694de04617c421b28dfe5c8bf",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-manual-sync",
@@ -633,11 +633,11 @@
         "target_hash": "6bdc4a6ed3e36864f6613f41ccc99eda9428d6e6c386a1b91d4768702b9fca11"
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1775567637,
         "source_hash": "262b4b1f1008c261c86d819e6af26b9141718a052e2982196db3c2cb6cc5d710",
         "source_blob": "25fb0c12b58b26e5315d8d4b2d98ccfef276cf7a",
-        "target_hash": "2e7dfc2a30834a586d70c55d4e9b7d7a13f5e89bb8d8a307e992c529946cad30"
+        "target_hash": "d2d9404818ba6b8ca9927dd5959bc3be5caf5cafc3250fa29172c26a4ecbf373",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "pre-existing",
@@ -767,11 +767,11 @@
         "target_hash": "bcc334602c78cbf98bc94eee3e162d868e82e1a6c091346734562269eb176cf2"
       },
       "ja": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220,
         "source_hash": "347c6d6e2238084bfed7e2470543c172340331f3bb813cc0b9656b226570152c",
         "source_blob": "17a2bf660ade9f4a4ed9ee44efc914ca3dcb98f8",
-        "target_hash": "c9806ac3f050b9db9b514a8c9a7f98cf6ec98ff63945bb8e60d2438f62ca0e8e"
+        "target_hash": "11e4feb353bee7f004827d63f949674b1f26d4f39bfd0648046708cc471267fc",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "manual-structural-sync",
@@ -836,9 +836,9 @@
       "ja": {
         "source_hash": "66926ad5f9290ee5ff31588956af29e4c9eeec2ce93162391f31f38404e7e368",
         "source_blob": "d6b48e6ae099ef9e556b4cdcbcdc0952faa26c0c",
-        "target_hash": "ba0acbac48493a5cdc6923f447adab697636e2ef9dc2ac70a98ac021dc3c3cad",
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792565157
+        "target_hash": "6870ed0fa9c9458da68d7dfe2d25f67d6eb81a5165c068a15e0ea8ad43c8153e",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "source_hash": "66926ad5f9290ee5ff31588956af29e4c9eeec2ce93162391f31f38404e7e368",
@@ -901,11 +901,11 @@
         "target_hash": "98318b15030399de25ddc256331c92452170f0ec39e3528a4965c7ed5d2662ff"
       },
       "ja": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220,
         "source_hash": "c3e04825ca3bfa173f9ce9668f4b40812f71a1272255e23676421366228dda11",
         "source_blob": "56a0e3cd843c43d6067a3d671789c31d27bf988f",
-        "target_hash": "a51d9b425639eae848a124b5bcb7e97eac96163dea17babe853d1d8e4272edf8"
+        "target_hash": "dd184e07ff30911025522d4c9cd60957f55e86e3ad4e85558ff8ac27c55b6796",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "manual-structural-sync",
@@ -968,11 +968,11 @@
         "target_hash": "2ea2ad4274f4dae849473f5269e2221d96e6fc40652978a065ce61afbd1825e1"
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1775603329,
         "source_hash": "a5ed4e2c46d28ff81f2044eeba7c5141189d59a4a645bff9efa719c8d4f593f9",
         "source_blob": "19120d5fb7e9d0b22f0d251a5812d933bb3b571f",
-        "target_hash": "ffdc80350ccfcb23c60ee9faf97d5b2688c0c3d9f95ae48e393d4a1833789ba7"
+        "target_hash": "7214de781e03079fad0c72557a12bf853f45135c85a2a5040b647099c6987b14",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "pre-existing",
@@ -1035,11 +1035,11 @@
         "target_hash": "a359a93b38bfb6ee63702888f20207e9fe9036c4b5a34fde758566bf413a1d57"
       },
       "ja": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333,
         "source_hash": "629e441f29083406d7cebfe8de13e4b0b90b4b1ace8587e93fca09c654d2f78f",
         "source_blob": "705fbc1d6536aa50922c1fa49307f33546ffcf28",
-        "target_hash": "16297d589300b3a7cafde6d39315ba849a2084531be4972f9a2eaf3f0a0863a3"
+        "target_hash": "97ab71b0969adf20d5355f69816b449315f64bed053b782dfb591d8429471f1e",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -1102,11 +1102,11 @@
         "target_hash": "436f73255ca1bea294dfd194772f053efd5e92fabbc8b37edd4d23e5d2e9e4a9"
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1775567637,
         "source_hash": "ddac290a34f70e6d13398311ee36632426aa074f30245c31804ee27ea822cff0",
         "source_blob": "9e75ba1e6e6248deb05d181c3f49bcf07f1e80da",
-        "target_hash": "d2ff2e7b3f84693afe00a07c7254a2123302c573e419d4c65ba3d9eacda97128"
+        "target_hash": "0ca81faebc3d1ab8dff0a6e91098df77f9fc98a66d50f7ee7133308b842aae42",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "pre-existing",
@@ -1169,11 +1169,11 @@
         "target_hash": "c615db01ddada573498d5fef32ff26686ac1ff9ab5ff9f7bbbbfd919d6ce683d"
       },
       "ja": {
-        "model": "manual-structural-sync",
-        "updated_at": 1787569060,
         "source_hash": "5f09f79067a1610e48569116c6ab360bfc5fb50e3bc6f6ba97f575afae85a6d3",
         "source_blob": "080bae6384ffd5ca0750f78966d7cf564bc79cbe",
-        "target_hash": "ef7278e31f30ca11b8c08513857020c2a5660f18dbef1c3d1cbc23b5c4ff1b18"
+        "target_hash": "69416185e2413b61fba918c4bd7698239aab028783d3fa5a82b8a041bacf86cc",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "manual-structural-sync",
@@ -1236,11 +1236,11 @@
         "updated_at": 1792567824
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790927814,
         "source_hash": "237ab4101419598c1191122008fe76245521fe601e2a55b764d37180915a4f1d",
         "source_blob": "5e251770817646ecb203a30bbfe786ead27081e1",
-        "target_hash": "9effac7db55de21e5c33c47a920ef808a9423ee96fe4d5b71bf7bd236aef7f52"
+        "target_hash": "1d4ad772e036a708e0b7d6640760117301a4416c152394a6763df7c27c5f836e",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "source_hash": "237ab4101419598c1191122008fe76245521fe601e2a55b764d37180915a4f1d",
@@ -1303,11 +1303,11 @@
         "target_hash": "6d019c6a55b949ad8133ad1409c7d2f56a1ea392c4eda1dc99a0724fc05980ca"
       },
       "ja": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220,
         "source_hash": "f7ea28b431aa5f6b06380c4ea36fabbc7db9a1dbae934365988f7515fe311006",
         "source_blob": "4d30872799e81c6d91f0fea679e12b51e5fd53cd",
-        "target_hash": "e77d4b7708d5adc5575b41b8ceea7431c2eaecc4af869312001fcf60d7486487"
+        "target_hash": "0fae29cdf1c704dee84dd0b0783baa2b6e74215f39fc64ddb0ed39f1aee11683",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "manual-structural-sync",
@@ -1370,11 +1370,11 @@
         "target_hash": "4db82f8921ef27656bbed1cff7befd01c056e3e82996b775a478e97fd03354ad"
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790927814,
         "source_hash": "ebed0e14bd21162c24e4dfed7866481b3e2f7be4b8e6f45dc8e5c6364e0e83d7",
         "source_blob": "0454786f3e94105cab1ef4840b8c1a4c692d3b7e",
-        "target_hash": "02bffb2fa54d93414b878d1663cc8fe36717e8aad4eb66e0c84958358691751d"
+        "target_hash": "da1bbe5c9a11b192a0500175284664707bc4661ca0a2fc6552c21a6221d090db",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-manual-sync",
@@ -1437,11 +1437,11 @@
         "target_hash": "bf377790feb8e5d8817b469699d59d75a3acb13bc8481cd642bf556e8a641434"
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
         "source_hash": "76acc20d38d854781d1369043c34a5f5598328df6ae816a95a96c32f2b8070d0",
         "source_blob": "99d9b346ab1f32ea06f887dd99d42a18e10204a3",
-        "target_hash": "82f6d4d6cbfe0b5c6c897d4ff521ebf52a2d6e40c61ebc9dd1885e0d77ff23d9"
+        "target_hash": "53ada8fbbcabcf925f54a97cd303d0cc807de0719fcc897d9b4549cc45935427",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-manual-sync",
@@ -1504,11 +1504,11 @@
         "target_hash": "b082f18c94fe63786ebec91cb1380c39d16dbec3257bbddb7799917815348760"
       },
       "ja": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780889417,
         "source_hash": "ebcda9fb6c97e78cd27d1ad1067f1d487f0cfdaa395ce5ab929b24e263b91804",
         "source_blob": "18c81710323fb3ab3e391876483474ec0d20cf09",
-        "target_hash": "e367b386bb4d4409470ca3877172cd74d87b33d43c3c5d7b9b8a61e99744e917"
+        "target_hash": "c545abc01e973260a596710c930d577c33effc25b22b9d0ebd94abbae30c698c",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "deepseek-v4-pro",
@@ -1571,11 +1571,11 @@
         "target_hash": "f3bec119a390d28c54f030ce3838fb64d600fdd85f17dc58ae7f6c52f9a125b4"
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1789091540,
         "source_hash": "34652b474888751701acd889a1cbefa5835d0018ffb4b71d8aef92c633439ed3",
         "source_blob": "848b30814f151e5622695caa2bd6648a0a3b3961",
-        "target_hash": "1565f3b81491c5946222de4eeaf85e788fdf891a1ef6a94fba3455e58b429339"
+        "target_hash": "8f14a3de702ae2ff696198c1ab3db05217322ace1fab7c9c5c1eb12f742c4993",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "manual-incremental-sync",
@@ -1638,11 +1638,11 @@
         "target_hash": "e046a5b75e06363605a1a1d65490edfb780e286d25512960e07ba2d4c65ecd5a"
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1775567637,
         "source_hash": "fe77fcbbfa3316e5949f864a7c18e8ee19b4f6caff893faa4d9fff3e56f90ca4",
         "source_blob": "fb38f169795ad838c556ae2bcd3f592ac9de207d",
-        "target_hash": "cf767b0c16ecd0125d9bfa66516cfc1b8acadc4f9f1e00979218c6053b4bfdbd"
+        "target_hash": "f8063cc1e5006c78eee88593bb9b727e9caa216d01d33c1d3b1da039356c96e9",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "pre-existing",
@@ -1774,9 +1774,9 @@
       "ja": {
         "source_hash": "146ae1f452f8980c7a463e7796e0607f928546ecafc2a12549e667ab4d17e618",
         "source_blob": "48348ddd5a386e7a8b768b40290d11f520dfb8e3",
-        "target_hash": "2413ea9d99fe16eff14ab6380d5e55a2b408dabb23f77c0bb3a1efc7b2550fee",
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792565157
+        "target_hash": "a4b55635b96da5ea35c5b8df5a541b3072a8e61b84e6c48e689473c85e4feba0",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "source_hash": "146ae1f452f8980c7a463e7796e0607f928546ecafc2a12549e667ab4d17e618",
@@ -1839,11 +1839,11 @@
         "target_hash": "c4e52bbe6f285fa333b04079a24f00f0febded898b00c8962283566e19951723"
       },
       "ja": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333,
         "source_hash": "b59b59273de5c1077b4b163d26d109f8a18c8be9be823230756cc1078c62613b",
         "source_blob": "36a7909192b419d55a10f67a88d1213ffcda1b57",
-        "target_hash": "63f4eb7e09ef5386e479343d65324d35286398a072a2ea692fb6ff7d0fae4fb9"
+        "target_hash": "864d88b29b17c8fa1ecfd821122fafa526ba0a9aa3faf6e9f599dd031247603b",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -1906,11 +1906,11 @@
         "target_hash": "f60cbd01676a50101007b6f0e89b13f8bc68544a7024e8d24a23e3f5bd263891"
       },
       "ja": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220,
         "source_hash": "f26f240cfef3eb86c16c6780474fcec76e2ce86ab27e927e4fba87249ff19d71",
         "source_blob": "d2f4196e688297e7d2e5e44c1b3fdfc78eb96589",
-        "target_hash": "4f7f7360ceb8e2db6ff71c7fc4a114767e1f122142d493192b24ceec82c8e3ef"
+        "target_hash": "e8c8c258e1efd18b98b4453ddef03c3861fe9cdbe08e2948d18ffdef699d828e",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "manual-structural-sync",
@@ -1973,11 +1973,11 @@
         "target_hash": "5120ba9a43022b89e84a0a8dc0f36067c26c18bddfb46a1520fb9266ec6e2966"
       },
       "ja": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333,
         "source_hash": "9ccc6981a995a31a7664cc700d898646f1f543826fa12fbc09e91073bcf3d163",
         "source_blob": "4609027b825b83be73383b0eb6c50b5db330850d",
-        "target_hash": "e3b3d835df81be953396ff06507c236379be5db8f7116fc9b39079f40ace496a"
+        "target_hash": "07fd1c9400643c847dac391ab47b160466244b722ea01b82ff17454b10c76575",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -2040,11 +2040,11 @@
         "target_hash": "baf928bbfb2e0835384c1318d873368ea256705ef99915e11d17a012c187dc47"
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1775567637,
         "source_hash": "3ed6272c2621a85d9f7c0e3c44bc85ac9aa86d8801943a8232a92a6878e7bbda",
         "source_blob": "b9c93d4f6bdd0ba2a3e81f65748a3c4135b151d3",
-        "target_hash": "a04a08e5d85db8568cd0400132598f2da1530a017f0f3bac32fa8b5015be7dbf"
+        "target_hash": "f4a8d7489fc5f914f80587da93175f445b48000a4bd9b7ecad6032d4753e8816",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "pre-existing",
@@ -2107,11 +2107,11 @@
         "target_hash": "e79216303b94db045470c5f1f92a2625e65cbb5d0563469927561a5e9931dae0"
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
         "source_hash": "abb52a641b7ab3af7dc260383e29c7a77070c81cac75e231ca6f0dfdca6033ef",
         "source_blob": "2f8bf439462178f8975d29a341cfc17e8c146a01",
-        "target_hash": "ba166face83248a9f6abb506e826ab9f8c14779e61803376050a9a06caec3f71"
+        "target_hash": "6b1ba8e23b86031b5c9abf725a73642b6cba7bfa04fb535a3b308dc84e51b775",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-manual-sync",
@@ -2174,11 +2174,11 @@
         "target_hash": "779acb9d03435818e0bf577bb3a67185f1cb506f2f6d0a39f13016718788dd71"
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
         "source_hash": "197158dbe56b50b8edea202c187fc25b52479681c8e5bf25d654e74b04297aa0",
         "source_blob": "c188b2cff9461d40bfda0705147f6a3f2ea7be8d",
-        "target_hash": "30f29fc2deb3e3384d6d0cc00ac4d1d2ac15e100641d17af8f4720d3110b72f8"
+        "target_hash": "407318e52fe199563734b06031b45f10338d30dd9c8cbd5e3789d508d8a665e3",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-manual-sync",
@@ -2241,11 +2241,11 @@
         "target_hash": "77f31fb7b8df0fbd5c388eeba174b935fa572531f28adebbe41558b3b810aec4"
       },
       "ja": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220,
         "source_hash": "b4985f02c73d6557bf621e777a56ffc661803a47a81375ffdfbc3e5314223357",
         "source_blob": "63f29a1475b6c0ebfc447f1d36e1e315e72f9e06",
-        "target_hash": "b57c8d54946df325490318e6745a972882f038457d9a34103d472dcc059f2a29"
+        "target_hash": "e4157981f6800b3f6124a99f7229a03779838f11bbcc5ffd75966cb0cb166212",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "manual-structural-sync",
@@ -2308,11 +2308,11 @@
         "target_hash": "40d2e7b217c4f31a38d4d59e64963034bfde84e7cf7a1c7f00debbaa4844c8c3"
       },
       "ja": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333,
         "source_hash": "813d1bea5873082abf539081cebd4b073f23e349f1917cf0b762deafa2ca85d7",
         "source_blob": "fffcb22843e5dcebb18ae951bd0dc27dc1c98884",
-        "target_hash": "6a130f2e5e0e7980f55c838cc7052c8256f90ce767a06607642541b5789be208"
+        "target_hash": "9afd6bf7203a9ab1b097491e0af57d5d321331344636653fb5647c1f74f2c133",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -2377,9 +2377,9 @@
       "ja": {
         "source_hash": "b4015a377d40deabd3e7db4bb00b1e220e51642f10e5b796078a2e93eda42dbc",
         "source_blob": "6e3f3741af8018edc39ecd1928589a637dc1105d",
-        "target_hash": "f0db3f6dfad7347cfb71fb2efc1db503cca92a2ea001e85001f09e66c4513109",
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792565157
+        "target_hash": "2487ff4cbcd5001d535864539590776e7f4e56338b3d8ddb87be419d3004dbb6",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "source_hash": "b4015a377d40deabd3e7db4bb00b1e220e51642f10e5b796078a2e93eda42dbc",
@@ -2442,11 +2442,11 @@
         "target_hash": "e26a0aa41317bbe4debdae7fc57da209a94aeddb295a3b4760f7b477d6ac457d"
       },
       "ja": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220,
         "source_hash": "d2145be0df6e535972e841978c35335631d0d4e1e0a5de2b6d2f676d4b6b5541",
         "source_blob": "a1417f8aa76c6b780dd1494b098c7fd8828eba1d",
-        "target_hash": "1fcab4e90356b3804b74b52c963c2261e66733a05d01acc78f19b0ea1dca25ce"
+        "target_hash": "c5b24106f72d6b3924d36c1d05ef3f320f8662cebb070f3541bc8bab441c3cba",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "manual-structural-sync",
@@ -2509,11 +2509,11 @@
         "updated_at": 1792567824
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1775567637,
         "source_hash": "130478e733dfe72ab7e098a9f4a0c79908682c7d5b3428330b74e36c8c3c1f26",
         "source_blob": "db08b98adcf771e236b3ea92fc397de295097502",
-        "target_hash": "fb8f82ce87a5cad391cf75ecf7ef4917e4b1297601e58ad0f66183bc544ee1d5"
+        "target_hash": "31728b554c531441c87ff8a986a4073574aecce9a4879b59eae65c6ae2371138",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "source_hash": "130478e733dfe72ab7e098a9f4a0c79908682c7d5b3428330b74e36c8c3c1f26",
@@ -2576,11 +2576,11 @@
         "target_hash": "74756f5beb6cb4daa3b1e3261753cd4f743e4da4a4db3124f61aa846f9e52ac4"
       },
       "ja": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220,
         "source_hash": "e0287ca76fdb7f1dc8791b231e300264839716949f98c0b4b3df33bb8d84b477",
         "source_blob": "64356098f803f4e14b0d60500ffc2246dddb4d9f",
-        "target_hash": "3c52ab5793a7f5778ae4229387fac452cf2c17171e6b7d613bf8ef195d6299be"
+        "target_hash": "04f7988a59ef628c335ccf454239c6e34f4a9fa7b77bb3c0a85732302b2a4d6e",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "manual-structural-sync",
@@ -2643,11 +2643,11 @@
         "target_hash": "dec9058b0a484285bf7b56ef2f77f9a46f5f3db8a0b91611bc8cb39257d424cd"
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1775567637,
         "source_hash": "056a8f80e79f68a9add18d25ece339a9ea2ebe5d4d058faf6ac0ef8048fd5873",
         "source_blob": "592edddabea325375823197627c927693a7a195d",
-        "target_hash": "51cc780d73bd1e0298357c522fde85dd347ae2ee4d8c09d49baa614027a20ea5"
+        "target_hash": "a9ec606024876f572a70102212e5e6d13b40822903bda69061afbc2eebd6d367",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "pre-existing",
@@ -2710,11 +2710,11 @@
         "target_hash": "38f451e9648a02ff2746cda373dad0bc1a042630b7fdd39ddb286c088f28a4c0"
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1775603470,
         "source_hash": "148a8092bdfde8a89a130ee19ae177be4e8bbdd4b4c3c6e50bb5353c00139e74",
         "source_blob": "933b579e26cfbc6259c2f758a8cb4115c099829d",
-        "target_hash": "b43735d3322d833041c72c0e7603ec58bc4e6fe007d0945613dccd7a8bd25bb3"
+        "target_hash": "002d79a6c1ccde696c9b75ed8d0f393edb809aabc3fd7ec0227066c731f03930",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "pre-existing",
@@ -2777,11 +2777,11 @@
         "target_hash": "9d28332da80d86fb6c06a8dec19889d466731dc5ed5067476c92157464538f38"
       },
       "ja": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220,
         "source_hash": "7a94cfff31a17078658a3f0e21921acb2abbf4f16a8765123aa1940b22c10968",
         "source_blob": "89999776cb41169ef7e601c0b286bafd2fdb188f",
-        "target_hash": "a22b8881d36de54f79fdddd9f86b6489fb5f9c2f7e6d9dd9d74ae60fb9161af0"
+        "target_hash": "4355a8b848809d23ae0a946d4d7009adeae2a1d958d6a1a52e9ae3ed54a17af7",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "manual-structural-sync",
@@ -2844,11 +2844,11 @@
         "target_hash": "39f0ff0d4a50c3b923ad61364fa88f4512ab4e7ef6f9f8bffa04b3e61a62eb47"
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1775567637,
         "source_hash": "d0c7b1cbcde327b11a47e91ca2853682c6cf1fb2274a66e47ff864be0186715f",
         "source_blob": "0748597dd22448bfabd68dd2b464f813b6101be2",
-        "target_hash": "8e035d1811a198a515f29c350d39228703dc5f71f22a3c8cade3963e5bfe1100"
+        "target_hash": "cf024830a767c265cfcf618ba51bb6f331af7e30182c3c9ac9149c7d47d498cd",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "pre-existing",
@@ -2913,9 +2913,9 @@
       "ja": {
         "source_hash": "53fc693ce169c4187e16a8dd2f63a1c466d81961d503da8d75c1465384f99b4f",
         "source_blob": "warning: in the working copy of 'docs\\en\\docs\\faq\\why_is_my_vpn_speed_slow.md', LF will be replaced by CRLF the next time Git touches it\n2ab4467cca1455da8d853fc1d5c94b9224e19d0a",
-        "target_hash": "6aab23de651be2c826f0a78cda87983901875a5ebedcfb30b068d9f743c84a7f",
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792565157
+        "target_hash": "6ad165b19f4d07e1285d5523c2e1fac247924315e527a0ced9734d19dd6887ab",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "source_hash": "53fc693ce169c4187e16a8dd2f63a1c466d81961d503da8d75c1465384f99b4f",
@@ -3045,11 +3045,11 @@
         "target_hash": "92a33e55ac03a40314600e5a75f9e9ef0de95d3bdf4754b17a138b91d0111eff"
       },
       "ja": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333,
         "source_hash": "bb95f21fc3f6c74b3e14eb0538675fe11dd9a8ba1bc024a22f8dbdb7a9a3a413",
         "source_blob": "aad6384a7d3600eeb355b4ab195d19b83a167e11",
-        "target_hash": "8a3fbcf346b19485342a2a7fac7d3940018dff163fbb65b9fd840329b14a6ce7"
+        "target_hash": "5660011eb8e913ac34d57326ad982306652b8af5c57641b496be67d14052b30d",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -3112,11 +3112,11 @@
         "target_hash": "9f53c8ff52e3e124bb18ddf2e81f0e165d200da1f3910fad85a07b807fdd3421"
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997,
         "source_hash": "07c38e1b10fa65d001690d2c3e6d2e7de24fabc70314ae98f29a6a2665a9201f",
         "source_blob": "3a2f8e0bb71abcbca3b35a5be25c5efcfa3653f6",
-        "target_hash": "35a03b9b6f32b1dbb5ffd0794463604a7a4cbdfffccc9a24266d948aa4645362"
+        "target_hash": "a3b043c8bf6fb2e2786a8469448a39e43b9363560e0ffd84f8bbcb42254ed7c6",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-manual-sync",
@@ -3179,11 +3179,11 @@
         "target_hash": "a902b5b52fd827da3abdc6a2b1e0571a553c03a67c754904a0e226e769c4acaf"
       },
       "ja": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220,
         "source_hash": "308349bd57d64974a840aac06f71ff959b1411e10d03270535061f794e18b54b",
         "source_blob": "7019ceea5cc17f7b13312cec4ce51da38d2915d6",
-        "target_hash": "fbf20de273c5ae26782d6a3f5c1a30c8f745cc39de760160011851ac7974c71a"
+        "target_hash": "1f6cb89c2704d590eb6cc2cb568f20a1777f59f6f4726883a846445f0194ac0d",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "manual-structural-sync",
@@ -3246,11 +3246,11 @@
         "target_hash": "5aedd80874a9c7033a6069ff652b600fb2b8e4aba397c6bc4d1304ed838d9a20"
       },
       "ja": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333,
         "source_hash": "54635468e93817d6c8eccdc0c43a03350ad8f1e29943042541c2f12633b7e74a",
         "source_blob": "769746ffa88381d565278a51eacf8784e4c20fce",
-        "target_hash": "cc9ac3883e726a4140b13deb88858da27165e1896e295c016d77212ee12d104e"
+        "target_hash": "abf87bd6015236e12de366cb1c9b628a267246142a6594149ced154308d59753",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -3313,11 +3313,11 @@
         "target_hash": "cbd75b70c314aba6aed96d50210b8997b932c510b2df957ea7f76ebb3999bacb"
       },
       "ja": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333,
         "source_hash": "146c9110fc8712483c1fb52d580c5639cfafcc39a22333f067d533af6150e3cc",
         "source_blob": "79787215a0d982c64dc5e4a8b363fd4b768f823c",
-        "target_hash": "430508e10a2190bae276f70c312988eadaa37ceaa07901349ecebbc41ca487a7"
+        "target_hash": "87148ef89f70727826b77df6f4c8e36e65d93beed107450c9b3129f6ce3d7ec5",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -3380,11 +3380,11 @@
         "target_hash": "b1bab8118ddb9de93321c84428427ed83fc53a55dd9fbcf1cc24aa4d715bfb5b"
       },
       "ja": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792546768,
         "source_hash": "deda0499bb83917370a5c7b425944d2770a1da5e51a3e4f63414586129de99da",
         "source_blob": "7d9ecafe44f767f65c1bead1a80f9b1dd6375018",
-        "target_hash": "79915c2cd34c7a84a6391ba3e64a04579916317bc5be67b2c1520297958a0d75"
+        "target_hash": "9dbfc2de331678132f644f7402bd8a4cd3f2ee0f1cf546f081c2b86540b3429f",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -3447,11 +3447,11 @@
         "target_hash": "f697da8ebb243d79a3f39e284c3886bb230f7f449cfbfb9c847e30803512769e"
       },
       "ja": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792143662,
         "source_hash": "e0ec9079b7a295264d06aa95e98fe02c9fa3988840cbaf3d92c08b427b89376c",
         "source_blob": "238457cfb9086e815bde17074d7872e7dfed51ad",
-        "target_hash": "e9389695d60180acaa9ccb1b99bccfa721983d7d6bf6f5a8e4be8cfb6fa62a49"
+        "target_hash": "421b898f10a0d639d01394e86dc3451eca74a9486d688d2ef5b2724b43eec03c",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -3514,11 +3514,11 @@
         "target_hash": "7555a306926e217847685693d015f0dd21fe3fdb776e726653f7c01ca62def3e"
       },
       "ja": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333,
         "source_hash": "373787e83115d728755cc8541831df14f1dbc695466fc7c48eb6bfda8c2109ca",
         "source_blob": "d2f4ce7cc0b2527ff3d0a49aa9b2a7d882b58c04",
-        "target_hash": "ea0b95f91d67ba020e739c5040b6e1d758c2c4b105c156a5a6d36067831bab8b"
+        "target_hash": "724f66382459c96c83612b21f08d90e54a9a4c7e108095c25fc8d3a50c8e0333",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -3583,9 +3583,9 @@
       "ja": {
         "source_hash": "8866d8ad343f3b15d806aad9ce8ccc8f275e2ff3aecdf4cec462ed0bdfa23ffd",
         "source_blob": "d64b883068fe3da468b70375a2320405fcdca490",
-        "target_hash": "e615fa4996657447fd708ddb9981bb5bc54ae6aef8eb2e1028fbf7b4e678d04a",
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792567827
+        "target_hash": "387b5341a6e429df65db62de079d369f23b3ae2d1f99b4237a664adabbae8369",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -3648,11 +3648,11 @@
         "target_hash": "808fb7fa835231dbf1020d60cda81e3585b02d5305a1f879d2ac6abc9ba1dd2c"
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792139333,
         "source_hash": "5cbd4cfdb1dccb07874898795283c97892f4820d33322acc116a021943c8157e",
         "source_blob": "29f44d977adbbe85eb211f1b65c8416a4afb2cd6",
-        "target_hash": "16b7f715db84963beb65752aab608f6f87ebd7b885b775f0b92ec2471ecf3289"
+        "target_hash": "b397b6084cc3fb3fdb63f79658dfd1fb53c582f01cc160968d88313531fa9dbe",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-manual-sync",
@@ -3715,11 +3715,11 @@
         "target_hash": "37b228da241d557479296ecc2b08535287907b8d0b80a2f021ce49e55b0d1015"
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787801285,
         "source_hash": "beaff68ac551076bbc64382117b7759db4ab4125026cfd42e15055426361d30b",
         "source_blob": "22c7d8be06b70d526d7080824a728147032ed20a",
-        "target_hash": "8b223a9c70201fc819bd6830ca329ec5fe8ab75b824d6afad928f566ca62bff2"
+        "target_hash": "108fedd3f46a7e5f8adb40111f18fe82b0b73ecb4ac1a71a3a70c797f1be421a",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "manual-incremental-sync",
@@ -3782,11 +3782,11 @@
         "target_hash": "2156f2221cd20212fa22308a57511bd26e456f879f0587c57b749fb656fca3a6"
       },
       "ja": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896,
         "source_hash": "9198a682d333272838b99d6be35f52d783ca46b0bb7eff8d5ff08a16d4d6b0df",
         "source_blob": "0f8e6850e40cbd5e68b005cf7fc6c8341d8f4a1c",
-        "target_hash": "34027ffa4177254656430587a7dba28bb048c2be54ff744f0d734d67649877d9"
+        "target_hash": "4af15a5fea760500151d4ada73e865c4e74572c3c4e458938e94769affe87dea",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-gpt-5-manual-sync",
@@ -3849,11 +3849,11 @@
         "target_hash": "19e392e7a67e88ea50331997c9f55f9421d110c09b8e60b1679c84da3305b264"
       },
       "ja": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333,
         "source_hash": "1386665669507cfb87c87d54aaf01b4a7bf2a3d4ae4ed0d88e161ec79857f56e",
         "source_blob": "f9070765ffa97d391cff13fa312e27d30a9a757a",
-        "target_hash": "255097ba6a5e76fa89d44ea0b1e64420894a166349ead93614bb27ab4c4e6561"
+        "target_hash": "3ba06d176449147044ee5c51b1e6b1636e7c2635bc8056fdcabdb2e189309072",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -3916,11 +3916,11 @@
         "target_hash": "6e14c1b660d23c3416268063d6728d5fcf4bef4355a591860019d2f62d824ddd"
       },
       "ja": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333,
         "source_hash": "e4c866e32fb5969f3305579a980e49d362909028a34a4f533a6d9868458eb434",
         "source_blob": "88431250009a8c30a3d54d8d0464f464029687b7",
-        "target_hash": "f01a7acdb10327849d56f4d4d2375f00165afb7c2f6bbd1191b60a17759f783c"
+        "target_hash": "3bd113530559f427147ce3d8d2ea40c7fb059dbc57f223b19a490470f0e3f1af",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -3983,11 +3983,11 @@
         "updated_at": 1792567824
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1789091540,
         "source_hash": "f9d1925aa9f3cb8989c73345bf9d9a4137bc99dfce6a85f388da83452bd9477a",
         "source_blob": "6ca5297345123a50db4cfaa5ec66d7d6171aa2a0",
-        "target_hash": "70946d9b7014129643f9109232c66a2da0eee78cfc59b4d6e80f425e2578cd67"
+        "target_hash": "f5c5a6d3fd0c5601d1f7f71a2aa2cb0cfe057a9af5475089eeca9417a8ce9703",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "manual-incremental-sync",
@@ -4050,11 +4050,11 @@
         "target_hash": "70c2ce432581586fee85bd5b7670073d448f1cea4b02d92b24bd93ff680a17ef"
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
         "source_hash": "8f1381fd7389afde582a15e382b1f5f71a11725ce81f42b512224f2aeb1f8d19",
         "source_blob": "909c5e88ee962e1747e9c5c41a41ab83ac0458e6",
-        "target_hash": "926f9808eebe2748a0fbdcd523514a37d127c0b093fbb8938321bcd7173e2f3f"
+        "target_hash": "b0e8ee33eb1743713978d3ac2293468574d819c21bcebb55836758801a998265",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-manual-sync",
@@ -4117,11 +4117,11 @@
         "target_hash": "4d7b55098602663f7730857f8a5d86f755718e01d87f5618fb03702d389a58a5"
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
         "source_hash": "97cf5d14deb422f8782638c9120e683236dd8cacc3ebd1eb8ffba1130e50bdf2",
         "source_blob": "c7110141cc4755ee08f534bb7212431c5f22304a",
-        "target_hash": "610bcbe86ecbcec28e095a344e1066ea02c45d867a6e4d7bbe48820fe909de56"
+        "target_hash": "192d3ab8925e36a84a61eb5c691dec052968c7f8142235d4a64a83c63ff06fdd",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-manual-sync",
@@ -4184,11 +4184,11 @@
         "target_hash": "9b2e3988dd410dbb948b5d1a5ebc71c8049d7638042d839908c8f228e1a2f700"
       },
       "ja": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896,
         "source_hash": "6013bc0fea247cb1f0146b69014cca9bc291ae2b8163a667631fa916bdcd957e",
         "source_blob": "7884524c1c91d887f73d034042e831fcba18616f",
-        "target_hash": "528a3911b1591268a15040dbda88c2cf9e1ec7b1b361d9f69116a0b78a645232"
+        "target_hash": "42329d474081cd2cae3075769d39ba60988c3224d3c26b9fb8d71b6ed9551848",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-gpt-5-manual-sync",
@@ -4251,11 +4251,11 @@
         "target_hash": "99056baf63db77d0aafea456aba50f3dfffdfbf99fd7b6449983493edac4687d"
       },
       "ja": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333,
         "source_hash": "ca0ae94321ca723993581b5d97f62d7636d877bfc6ee881408674920c4665780",
         "source_blob": "c4a25410cde70ddc504c7eb44c163c56d34bfddf",
-        "target_hash": "d9e3ae83d0faf0fae58cfd15dab4380b7f284eaa441517dbdfb959e45bb1ac69"
+        "target_hash": "6faec5f32abd55de8ef781a0c8df2d9a8db7a9f35790da61655907330a4390f7",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -4320,9 +4320,9 @@
       "ja": {
         "source_hash": "f6cd32a046bcf37ba0d1f4df7e7518fa3d3e44e317db5bf721d4ff164f531429",
         "source_blob": "3649c2a35241444b2113131145edbc00fa5b2f55",
-        "target_hash": "29a997068ecc38492e37f08fc8838b58dfcdb4c3003951f9d575e52b8fd49ac4",
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792565157
+        "target_hash": "b5bc7981a2d545802847093e60a09b56cc55e5014b752d01007a83602c83aabc",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "source_hash": "f6cd32a046bcf37ba0d1f4df7e7518fa3d3e44e317db5bf721d4ff164f531429",
@@ -4385,11 +4385,11 @@
         "target_hash": "c5b3f3b04abccec2d8230550ceafbcbb20f338e2fa6260c4f78084592419a8a7"
       },
       "ja": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780989322,
         "source_hash": "65aa2a79e8274f1da5dfee77f498233ded3d830ebda0e42a765fba56c06139e8",
         "source_blob": "eccbcbc5c31c51f04357db26eefe0da55091dee4",
-        "target_hash": "6d08cecd8f489519baace83bf74fdef12b20a1af83711239c7df8b245a056f00"
+        "target_hash": "e34a2d5d446a8d7ef156273f400bed1e1e97177cb6840ff3cefcfbf287fd132b",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "deepseek-v4-pro",
@@ -4452,11 +4452,11 @@
         "target_hash": "e4975f34f1eeef1db60fd82eadf1e11bdcbec1605e6bbfe7ef0133556515b937"
       },
       "ja": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333,
         "source_hash": "c8f99159110a17288b195f1fe18a6f52b2c75500af4c7e6bf83e26928f040c4a",
         "source_blob": "8d5dd788c1eb19967c6553e82544fdda9f0da0ea",
-        "target_hash": "f8a1fbb2ce600fa3ac945e4fc00e1a879ecac059df8264eafff39fd1d97e2da8"
+        "target_hash": "db22026d982618684e3b2e0c71c04546bb709adad62e012cd80f75331eb2c9df",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -4519,11 +4519,11 @@
         "target_hash": "e8e8e9b3e908daeee0b05e5b9bdb3cc764329c8e0002e4cda9423c890ff2391e"
       },
       "ja": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896,
         "source_hash": "877b46b97ad65872ead2c7002224a72e7853dab8a87e5a424ac8cae7f881a866",
         "source_blob": "0a696b5b7a2762239f2bc526c07c5f11bfd08912",
-        "target_hash": "1f391f2d68e99e3610bcefe6d2ba9b7fa83888a99ade0643ff540b6b57fc7cc6"
+        "target_hash": "a5084657c87d99a85bb464bcdfec0ac7493810a99f8100c9e62894f9c9cc0b7d",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-gpt-5-manual-sync",
@@ -4586,11 +4586,11 @@
         "target_hash": "356a304fdf0d17a29389a293f67bee661e058d6263507d033a98089feefdc67d"
       },
       "ja": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333,
         "source_hash": "ed2886191d9023fb1cb1f82bf09ede2fb778eff93f4abe99bd2e3e198761f71a",
         "source_blob": "5dafeddc098328aa37217a62dc95a484c4a564d4",
-        "target_hash": "2208d46f72b58188795a8c62587bff9610e1f4f8ebb47b00e615a918871493b0"
+        "target_hash": "58a507006bf1c0c5917f8e7fca57d88a86b441a181cc783d2459214b43a66174",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -4655,9 +4655,9 @@
       "ja": {
         "source_hash": "b3abd511c3e7aaaad9e34b436651fa529cd8178c415145611e98494da1353fc2",
         "source_blob": "77fd32132f384feefa2741d419b0462324f9e4ba",
-        "target_hash": "aa5ed2a661f47b444fb81094a8d08fe423b509b34134fc27bcc72c7ca7c0db7b",
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792567827
+        "target_hash": "0872d9d5dc851761502eeaab870eeda20b11af66b2243787307f11427a015604",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "source_hash": "b3abd511c3e7aaaad9e34b436651fa529cd8178c415145611e98494da1353fc2",
@@ -4722,9 +4722,9 @@
       "ja": {
         "source_hash": "0be3b3a83c978f58ef94869bdf55d9f15c090344eab1de1ee2411c5edef2ed7a",
         "source_blob": "7dd4beec6710effb3e16ab5f7ee34beed90eddd9",
-        "target_hash": "e8dab96223f29365c98647ba5efca6751b0ba22a6e99ed0d4204f8e8a43039f6",
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792565157
+        "target_hash": "48386e2e3005e77252c1ffce9c51dc9bf3aea4a978afaf0a7050e633e6b1f6dc",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "source_hash": "0be3b3a83c978f58ef94869bdf55d9f15c090344eab1de1ee2411c5edef2ed7a",
@@ -4787,11 +4787,11 @@
         "target_hash": "1de86ae3de3d8aee0be4e36b13a6130ac7d3338d20912192891e1663aa020bfe"
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790927814,
         "source_hash": "efc6a0f54c07e3e244ea07e8db00c30812ccd37481aadbda3b32a531321eb7cc",
         "source_blob": "e4b7c6ee5e9d4c0fe39d7ab01f68c797c168c304",
-        "target_hash": "3f86b3da7cbfae846a31861993273bb5768b03f448b6146d587aac60cee64690"
+        "target_hash": "5c695410bbaa3cb461d2aeb68f8f3491cdf36279e7544ba6f9e0e4548a59c4c2",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-manual-sync",
@@ -4854,11 +4854,11 @@
         "target_hash": "593f95276744a64a916ee284160788cfd3833093760a48d43e0f74081385a9c5"
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792139333,
         "source_hash": "957a781df978c9e9907c1f986b15373b42dad4a89dee3a1044d82599f28d47c3",
         "source_blob": "ffc047c94156f4dfb39437c86b5048df2ec44a46",
-        "target_hash": "8e744e3c924fd5ce33dd992f6bee92cdc1d3094787dba704cf1a768daecd38d9"
+        "target_hash": "c76227acd70482562fd6fd9e3a888825f321800ec7a146050b44c1452c1e9e0a",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-manual-sync",
@@ -4921,11 +4921,11 @@
         "target_hash": "c9e6cc15ad5da6e173313709390bd4e6611a7379dffb594ba3d19b85caf1058c"
       },
       "ja": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220,
         "source_hash": "ec818543ce54a76d1172c73b4ff3284ea752e0c8ac074afab6cee1beafde4013",
         "source_blob": "a3c164b23545ac9f326cd21eed685efbe1688dfa",
-        "target_hash": "522b925129970fd86b2a232e4d928fb0da325ef72f7c8cdf4a38a0011f5a5329"
+        "target_hash": "4ea8042e603e81bfc870071fbe16df50f6043202e4c3d976fd084c1e2c86f863",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "manual-structural-sync",
@@ -4988,11 +4988,11 @@
         "target_hash": "fc407edd428c4ab19869ec5730a8f60a023e24c653ca8ab7799067b9b7e67f50"
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033,
         "source_hash": "695339f380f3e363b465e9a232a25c50412dd0d150b8e1facaa672a6a0b64c18",
         "source_blob": "ebd78d6ba0117775fb09472cd2d29867d578be92",
-        "target_hash": "3af362ee4760d42e3cfd7c6bfc9c4cee6596009189eac01155c6711c083ce753"
+        "target_hash": "2225e4e177fe5b606d166aa7e66b17005db2670b4bb56a517c86f88129d0cd68",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "manual-incremental-sync",
@@ -5055,11 +5055,11 @@
         "target_hash": "c20bd19d15ff311c82ae57bdaf8c884c0ef17ad21f399dc163f57736cb71e67e"
       },
       "ja": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220,
         "source_hash": "3aabd3cf19bb425f33fa704c60863579df6ae6db530ac2f4dfe707ef095c42d5",
         "source_blob": "d57d230d83023d4fd6e0eacedd4391bbeee10d0b",
-        "target_hash": "859102e0a8d4b6a4883ada9643b1c9e1b1b03498a0bded1d0b229302c7eeee93"
+        "target_hash": "3541d2133c417f1e17dee6869d5323da89cd72b140937636fc92473b1dc32101",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "manual-structural-sync",
@@ -5122,11 +5122,11 @@
         "target_hash": "c44fbb5c9da85f4891991c2f6a3be7f0215c0c6dc75c73401e7ead010b449605"
       },
       "ja": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896,
         "source_hash": "58c202223d554b42422dacc29783a009430d9b9da1b3e5db9f398de3249fec7f",
         "source_blob": "e422e83dad9a07bb3525e976d81852afb9a1da6a",
-        "target_hash": "3aa075cbd6d70b9c21088d2144bc67b661a5080ead1d6e8840a9060fe949dd6c"
+        "target_hash": "6c1baa1cfbc0d22d6c802f7fcf463663c8a9f82200f7207eada64fa924b0c06f",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-gpt-5-manual-sync",
@@ -5189,11 +5189,11 @@
         "target_hash": "49161ef5a9248968c89ae3958126b90df9bfe9f9883f7719b29fbaa04d70d454"
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1775566332,
         "source_hash": "1d12489b9f86e836c5e0356ec8b617163ea5417045f46475671a44270c21d14c",
         "source_blob": "025c170b22936300f8ca0bd61ecd584dc26d9464",
-        "target_hash": "26dc3086e08a68a560ca0843825fb3bff6ac14b444ba389f2674657d7188b8d0"
+        "target_hash": "1dc582c9bafa49062c1e771559fdfe2033c7d20aea89c59fb430cd20a47f5f76",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "pre-existing",
@@ -5256,11 +5256,11 @@
         "target_hash": "0fa4e6d046daa27c04f56e4bdab37a37e95cc8707a5644c1ef43b426609e4c75"
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1775566388,
         "source_hash": "2956ce7ce94915c22045ce883672e4f72e3dc32ff79620e9b5b4008afaa9450e",
         "source_blob": "1f20ddc623410a6e4f4a08e56cdd62380e61825e",
-        "target_hash": "635545b86e4c8160fc9e90c38dfe5f4a9641e9abcea87a1e978a251f94c225ad"
+        "target_hash": "aa72d2df28c7a651b1684b9e2c4813d24ac11969849bb5ecc60a3f964e17c0a5",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "pre-existing",
@@ -5323,11 +5323,11 @@
         "target_hash": "9766631c34b0821f7e303dbc5c628d791cb065fa7c4f1177a29c127286039f54"
       },
       "ja": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333,
         "source_hash": "956125ce4b01c562c0bf73f37a37b604ec3fe9c81dfa96ad9b8b37c447199917",
         "source_blob": "35ed1e62b8f76482a33fe0578c5c87cce381b41e",
-        "target_hash": "40dd3f45f1b4928a637b4658cc144af37d086592d1a62076ada3d166a385dffa"
+        "target_hash": "6709f0d14269a5a9be82a2c9170f8a3f863da61231bfd9cb296cf5d08959abab",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -5390,11 +5390,11 @@
         "target_hash": "090bcc73d365050e5fcfab39eace1d80c1bcd6fa9b7f0902ff421d7678eafb9b"
       },
       "ja": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333,
         "source_hash": "df744e271f112e61b701564a4a993149d85f7a2e71dad095560276a15090dabc",
         "source_blob": "8c99d833b980a7b12382f8c144ad7aee3f3463a4",
-        "target_hash": "ab8945f208d56e87f89c4ae79738e55f08a8bcd6f37698b0807576605058821e"
+        "target_hash": "88278b545d224b006866d8c512ce67ff3258713c1e565b0947fbc2218105e223",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -5457,11 +5457,11 @@
         "target_hash": "284bf0167c33a54661142e9da80aaa1afb8c56b4062ee9c071e3b05053d4e215"
       },
       "ja": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333,
         "source_hash": "277581d0da93d8a46db6557616a710c847df7ee0839031d562e2bbcdc4dc0add",
         "source_blob": "d03d809793450683d5ac3735c1f0a26f57c7a3bc",
-        "target_hash": "1e60492b28348d91341356bd78020dd48146316b7104f02a8a982dbac993ec75"
+        "target_hash": "d4f59044b350feed3341d1d0980b3243a739f32fe5766d8ed9d662397683aefd",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -5524,11 +5524,11 @@
         "target_hash": "8223459981bea7efa3c91ff8bf4c5100ca6098133af9dbb18e02c6ce4f7deecf"
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
         "source_hash": "d6a20f0e17efc608ae23903e04e689bd454f4d8cc9e72771e5e164b16fd1d5d0",
         "source_blob": "017b4ba8b214d0854fa538f9b1453d7127af7a1e",
-        "target_hash": "b78fb152681753e9253188ed9b99ac59fee933eea2148183743ad5c50d16283f"
+        "target_hash": "ea71a63c664d3ad7d4009bd41915934b0e6756874432aa8c2f69584b4192205a",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-manual-sync",
@@ -5591,11 +5591,11 @@
         "target_hash": "924259e1bb1cc1918da2c12180c1302add43ebec9a33c8ce80e134fd589ec356"
       },
       "ja": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333,
         "source_hash": "0f89ff49cf53a35fa09ecd686b2aea12ffa3b4b7351c66bf35ea85e57c8050ba",
         "source_blob": "7f965cba28d02fddafb16c8a930789a5101da7d5",
-        "target_hash": "cbbdd1a6932da768b3bdf082ca87120f145da63270ba395894b790de879fd372"
+        "target_hash": "4db324a532f242e0c5fcc9fc73417ffc4fb2c326be059f078c3169d7f87599b4",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -5658,11 +5658,11 @@
         "target_hash": "89f98cdf2c271e3b0b0f63ff09a0b7c85c424bce5c040e2d2859c91fe40526f0"
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036,
         "source_hash": "f6c91c5058a342bc1fef1f3f660542bf25499df1e4c480dac25cf5a09028af3b",
         "source_blob": "dcadf1dbc4dbdcfac39c41f4008915202c4feee3",
-        "target_hash": "aac11c8c0f1c2876212f7e457d1b941ede75891d67e8388355476676d6c0e0a9"
+        "target_hash": "1beb11996766869cab04f8c7a29e896606cdaa8fa36295ff84a7d7e1e73304a1",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "manual-incremental-sync",
@@ -5725,11 +5725,11 @@
         "target_hash": "252b035275a812efca3f35973ee3563236b6e3bdcc9010b71c1df5f44a60403d"
       },
       "ja": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792552594,
         "source_hash": "cbecd35fc466c23d95a2d49d9e40116ce8d17b708f0863a0d440bdba3781da46",
         "source_blob": "af2079d75f183777be07b0ef1a60de26c2fc6762",
-        "target_hash": "b8a2006c7aeb140dd9f48be2f8b151d6f7971ec44fab1928376ef43928890b69"
+        "target_hash": "ef63800bd9bed53962cc9f174401b48daff7483b5573d14f86fd3224854848bc",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -5792,11 +5792,11 @@
         "target_hash": "357f138e426af262d0a117e06456b167b63ff3e30739a451ca0f8273d37d9a76"
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
         "source_hash": "97d1f589f102a7d337e2e5138c17ba980c8dfc277d01bcb7514544bbd5117e7a",
         "source_blob": "dca706b23a38570b8f22d768b86cbad0dc56326d",
-        "target_hash": "75eb8671704c27f082ff8aee9d7d48c1697eaccfb51e0e46949ef09b9b815f60"
+        "target_hash": "7659d32fb29b76e0186579e0b48e8d0a362c2dd3344375988820ce87e47ad3b3",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-manual-sync",
@@ -5859,11 +5859,11 @@
         "target_hash": "34c63f52880db4a7b41c4dc4ed256f6c3f9b484b0e4ebf530503616c34ee4013"
       },
       "ja": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220,
         "source_hash": "a990e308afc2bcbe81726f2b53b13085cd2e8767b677d0ad2b0f1eb714bce108",
         "source_blob": "6c8cd3db578dea9e6010eb8c34e3f7d152c5f9a7",
-        "target_hash": "aa2a6e07ff7b262c9907f6dfb9a80f1db455f7d884eb778f5c4a4e88c1cf2d00"
+        "target_hash": "2fed030a7330609e7242686b450cdc0ba7887cc917393aca069f4fc11e79a548",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "manual-structural-sync",
@@ -5928,9 +5928,9 @@
       "ja": {
         "source_hash": "d278b5b5baef324aae5682da5e09519b92c823b33d28321be8a825696ca02d52",
         "source_blob": "ce5544d1ab26bfb3fb9e0baa3f89b8c80864248b",
-        "target_hash": "7fa6358fcd0eb05d1ff560e6096729c4ad139466e725deca8b82b7052e7755ef",
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792567827
+        "target_hash": "cd78ed1b851762487213f5f2d52dd99eabde0f0d9fbf253445aefeb0b89f6558",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -5995,9 +5995,9 @@
       "ja": {
         "source_hash": "10cd8eb19cfeb6427e8cdbd8f45955f00fda462314a2e0bedf3017d1f9ab64d3",
         "source_blob": "e1e9c12e2757014c9e230c6a752b507a5c24eb90",
-        "target_hash": "145b44ab03b80ca5ca12a9a60b282bf201cb761192c7331ebb617d4ba1dd64ed",
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792567827
+        "target_hash": "2ef65ec047fe31ba3ab883776ecfb28a0daea5abf2da1f219e1e31b495fa9ec4",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -6060,11 +6060,11 @@
         "target_hash": "2fdbf363c9581c02254c89dbfdbf6f65471b9ec034a845777fedf743343b53fa"
       },
       "ja": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220,
         "source_hash": "2a04e6ed90aa4be832f0caa103d57255ecb2d6ba11b463caaa6e21509b49df58",
         "source_blob": "5cdcae7766b90a9b3107334ca2fff2882e713d5a",
-        "target_hash": "8f4793ec3224c273f44d33cfd88bc465c343b171838f68b0a1b2ce3363ff7154"
+        "target_hash": "97b68b7f0ca42cdf3ba3812d3ae7506241b7e920d6bc7c84b03040f52fafb1b3",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "manual-structural-sync",
@@ -6127,11 +6127,11 @@
         "target_hash": "cb1063c5da9bfa0760bc9f263cb67639a4f675bfb26d2b6caecbe7af2b5b841a"
       },
       "ja": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220,
         "source_hash": "9b68d24a691c069334c86170c5789fcdccf2fec105ae5eed7e56a221b0cb3dc6",
         "source_blob": "ca9389c0c1be1f4c6b32740b9dafb66d39cb9373",
-        "target_hash": "9b8e14df0cabb3a26465fa3a2c7862e34a3e69a9e619025ce0428c6c87a8c055"
+        "target_hash": "62eb1e49c338169d7f894990005c4ba3354f4fd4c9b91f16c6aca3c59745886f",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "manual-structural-sync",
@@ -6194,11 +6194,11 @@
         "target_hash": "2143fec174221e9093805344d28ca7a12088833b3cb18fdd0af768af87cdd387"
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997,
         "source_hash": "a166441c9439daae2a4304b215c2749512b53161325c871be56e7a3cc8590886",
         "source_blob": "1ba1e481cbcb484fe27644af8aeb7c848efa5502",
-        "target_hash": "99faa7ee495791b4b81a7dc29df0a12d51025629fa1ab0061a884c910e26626a"
+        "target_hash": "3ff29da3b880233ba66f990989040a5bd0260bd6ffb9c36da3823658ef18bce0",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "source_hash": "a166441c9439daae2a4304b215c2749512b53161325c871be56e7a3cc8590886",
@@ -6263,9 +6263,9 @@
       "ja": {
         "source_hash": "ce2d8226e033b3f7a497dbe5a9ab738b53e1bd635a2ce9b437b832e74de0fe70",
         "source_blob": "dcd2f26145b6f636d9bc66c8a23915ab40b42d6d",
-        "target_hash": "f4a50924471cd3575e50d0da7d564d03f8dd3705195a46bb71fa95755d98b247",
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792567827
+        "target_hash": "d0f84ad30b4c1b0a600457583d58b6576348669915ee2385665a0a1a40beeed3",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -6328,11 +6328,11 @@
         "target_hash": "9adc97afca7284e7b009f78a8d58db36a2c4e33fda3ffea50dad4284452e1a47"
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036,
         "source_hash": "4d06f4cfb771abb1cd6d2edfe06a3f75d1b20fd5c3948b7473ad7795afe7bb7f",
         "source_blob": "b41839d8db0fd65fc9836b8aa51c1746bf7aeadc",
-        "target_hash": "1f18659634aa0c6d1e76bdd126fd84cc9460f8019a03d943cc56ee2808782b41"
+        "target_hash": "5f321d01d6bc732441fedb968b23fa4a6f06a1a4dac82835c9c6f7013cc142bf",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "manual-incremental-sync",
@@ -6395,11 +6395,11 @@
         "target_hash": "96d393b24cc06c887f853dc5c763caf653f9afbae35d7d69160b76f654236459"
       },
       "ja": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333,
         "source_hash": "0a876a892e05cf076c11360911ccb52cbec77a9ce314634c1304fa066696d143",
         "source_blob": "5d9252faf0a0a8c1caee22d7a4182ea5f6b21c99",
-        "target_hash": "2829e7a47609f5f371ca8e923389eb0c884c0d629fdeabe08e8fa6ee0957a035"
+        "target_hash": "1233d712a1e4e314738b685e714e5b0c6bbc01e1e2d5c4fb36f8d20edc3c199c",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -6462,11 +6462,11 @@
         "target_hash": "e3cc928821975567a19b85e0931597f35cefcc5f27a69a8cd289a6156b6eeb3d"
       },
       "ja": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220,
         "source_hash": "fa4cd4bfea65ff97585e056223536db9b6cac4b8ac7b65222f3c03e6c969c568",
         "source_blob": "53031089aa2508c56ca4a3cb5c9d1c68fdcda575",
-        "target_hash": "ae9d3915e81a6601a5b7ada270038db0371a9de5cb60d23c8d75d559b5d33b5d"
+        "target_hash": "91bcc59152f6b0dd512b0d19e490b9ae4903110d7d7dfa7e55ea8dd9a87df5ff",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "manual-structural-sync",
@@ -6529,11 +6529,11 @@
         "target_hash": "cec738aada927e23a3704a7c0c6beb5f0622ed5d399f511a6fa362b508bb19ef"
       },
       "ja": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333,
         "source_hash": "e52548583f3aaedc42b436640fdf5a70660b1894139b602fe6ece781398c2cab",
         "source_blob": "c4e2744de7f0c1e24a9eda9cad97564f4024fac2",
-        "target_hash": "a4c9544fa22ac382c207c9b07f46f3abd27e41ccc8bb8575795bcdf482bc3144"
+        "target_hash": "021efa84b1060f6b875af92b66e5e0800090e1123be93c3f1bead76ca22e46f9",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -6598,9 +6598,9 @@
       "ja": {
         "source_hash": "a5d82413947d6c61e25c51689b66e562e3965224b5e41b73dc8b6fc7f44c8da8",
         "source_blob": "36db9acb7a64b11b4827631643f2c925a717a687",
-        "target_hash": "4b57d92d38b2d407f2bd04749486f67c71b421b9e416d788882d6fd40ab7f373",
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792565157
+        "target_hash": "c24b79ad7c288a533fdad512f1826c95a8f6180f91285eb72431c9a2cfa50eac",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "source_hash": "a5d82413947d6c61e25c51689b66e562e3965224b5e41b73dc8b6fc7f44c8da8",
@@ -6663,11 +6663,11 @@
         "target_hash": "f6d2673777081b086e28ab067ce840592d66f10134c8e1a69785b6c8bfb196ff"
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1775566459,
         "source_hash": "3ef0fc36cf10aa96906217e364bc095373c758e213a69204b4e5a06aa0c75980",
         "source_blob": "38eb6dec0c9fab453004ee07889cf83c64b70fd3",
-        "target_hash": "0e1a15b9ca761bcb58edbc9230ec230a4023007630a35ef90fb40ded596e8042"
+        "target_hash": "a7659d8e67b7f651240996c0a354426663e559b592b156ab3995995d4b6e6448",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "pre-existing",
@@ -6730,11 +6730,11 @@
         "target_hash": "806c86d8dcee554ef7c0d3024ef11d8d4117dee9646a8e294b8a9904ae929872"
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484,
         "source_hash": "5ed7eff874cf6e86f822276f01deaed3af5f1a317905ec44fd2fc57c61cc9332",
         "source_blob": "a78fcedc356462ab0101a2f60d8b2520c1be7733",
-        "target_hash": "5cd1d2b170fde7a7f11a74b04b7acccd63274f0497e7f7ac6307714fcc8569ed"
+        "target_hash": "c60340ff726a1bb84a64b0618295ac22536f8967406cdd7374628dedb14a3e95",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "manual-incremental-sync",
@@ -6797,11 +6797,11 @@
         "target_hash": "39892811b1b9f14ab9151aa99407391ea20a0fb60940350dbcbb6ac4f737d195"
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1775567791,
         "source_hash": "82803aa98804f14c7767fac2d022dafca9a23802f77970893bdba528a2e737fb",
         "source_blob": "f2a4be7abd49b1ab3d36cebe13f36be8664808df",
-        "target_hash": "ed5d59cbe527db1855898bb548484cc7b40f6211d799138bf4a4e4887f78e9a5"
+        "target_hash": "5241c740a60dd3862cbeee5f3a9c42cca6863eacbec7fc73f9caaf85aa9b6fc9",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "pre-existing",
@@ -6864,11 +6864,11 @@
         "target_hash": "0a41c046644804212115e7676fd03b4aadb68d8599b1039a742523c5fbe5f0a4"
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033,
         "source_hash": "04a0bfe4a40b575ff8c17dc780f7a45f857f16b3044a7fea48b17bcf67dfa2af",
         "source_blob": "dbe7f1173dbed69d220aea4821384e2acebff176",
-        "target_hash": "256a3007a7401164bb66555e9dc1835b363d83ea80380856a62e4f5a0272dfec"
+        "target_hash": "7e22d972a0fb201db848bbd8b9152efc10cd96f8db8bb7f2f5f48b8956f669c9",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "manual-incremental-sync",
@@ -6933,9 +6933,9 @@
       "ja": {
         "source_hash": "1e4624010f202198d9d08b7ec00be43f59f29032d48f6d551108df8e3c568397",
         "source_blob": "283a328ac5fd95f21336c6b3d5f968f180d66e57",
-        "target_hash": "e467d8bdf8a1ab9946c8642c3642cc0a89ecfbd1a34b85985dde1b4d3b42493f",
-        "model": "manual-sync",
-        "updated_at": 1792567561
+        "target_hash": "79912feb71000e2390c7c42a116c12358541eb9f3c55ffaa76a90155d03c3f91",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -7000,9 +7000,9 @@
       "ja": {
         "source_hash": "4db2f204814533cf727d63dd6e0f754e79b1e6ffc2ca790a6391b727e9379498",
         "source_blob": "3bbd7ffe2cfc85d011e22ee92f179fbea2f8b9fb",
-        "target_hash": "3257fc8407d83d78e802565e9f0c797b7ddcc7eb4db9643240b264d3fa26bb82",
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792567827
+        "target_hash": "00ebd732b56eef0060ffe4664f030ec7cde03b3f679369954cea66ba03a9559e",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -7065,11 +7065,11 @@
         "target_hash": "af4134eeacbef404ef4c00c45add96079899df39b13b515229a278ec86413cef"
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787569060,
         "source_hash": "681834a5e1e4cf7701b5cf0c70d006641153bba36e1586b854d5c8f2286887a1",
         "source_blob": "e8974e0c77c0c102fec868d224354c41a0a0bba5",
-        "target_hash": "03b8ff2c5fb57df93b9e644d724797dd03ff36adefe8aa0d07ec9253e9c15a26"
+        "target_hash": "091d9010bef9cd46a0a08462c35c617fc20e26dea974428edc272b5b7b743792",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "manual-incremental-sync",
@@ -7132,11 +7132,11 @@
         "target_hash": "ec758cb2bd163a7ca721386fb08c6d232cdb74ccbf78bd12082ac43214ac8c58"
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792139333,
         "source_hash": "7caf1576fa673cf6ac7449df35c53fe13fc9afac53034ec43eafac6775d2bb47",
         "source_blob": "5b358f6031af4b0fe3891cf31fa0c54233a7e6dd",
-        "target_hash": "e86160bf19ab8eb0f13788ec3b0ad0592574d3a93c05732823bddd240a426e03"
+        "target_hash": "2eeea147fcf68af968924b1946c23622a7776acbd4449cf573a2ece0aad86569",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-manual-sync",
@@ -7199,11 +7199,11 @@
         "target_hash": "e1f7933f86195e512fb56f9fc06def23c4f3649de794b1b738ecef19b8734df0"
       },
       "ja": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792552594,
         "source_hash": "ae9b3e6157c5f683b40383211eeb5b44684a4741ea7f99eacd628474ec293f0c",
         "source_blob": "0101a0f0307dc050198e90b59caa770826564241",
-        "target_hash": "98927e850654bc330c7fb3c2178ced6657fcbd769cfa05e1bef88c2409b0d17c"
+        "target_hash": "c613927193846fc045dc3a3097222c086f274dac72d867705c326939dc7687cd",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -7266,11 +7266,11 @@
         "target_hash": "d05f24ff9f927f4920fc2ef453813dbe83fd1c81715af6acc3b2393f391e93f7"
       },
       "ja": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333,
         "source_hash": "8f0d81bfa2c6900cd4081e5c9f5c1438e1a141bb0543e71ff5b20befaa702a9f",
         "source_blob": "33a4c16b3e9c868e1689becad04502f015629a7f",
-        "target_hash": "f41f133c02128d6e86d5dcf1b51a16d58c97af388dab99c7bf868b1f8539d400"
+        "target_hash": "8d8175b18bf549ff57dcf55a91818ba1a99b709c27fcbf34c057a03aadcb1392",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -7333,11 +7333,11 @@
         "target_hash": "efaf8eca3cec19efe5ba7e581bc5f5bea500e195fe83d9c1533ba303f30e0f86"
       },
       "ja": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333,
         "source_hash": "579fa5b2a6fa3151c5ae7386854208b9b777971e1fc2221e5a60c851b84c6727",
         "source_blob": "18f80e6f4837c30ac7df27cc8078c3c65d8a017c",
-        "target_hash": "b8bae3e2d1c1a7cbfe2a0bc8cbf0d017e14e4e8fa98f177e1deece8d33a7d0fa"
+        "target_hash": "6745f881b080663a068296917cb68b934b6c7bd3985a8bba7abf55a6447cda4d",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -7400,11 +7400,11 @@
         "target_hash": "a7b72be3a2fcc77992b4e4be9a92babf10f20e0877c200ee43f40f91d0be6b4f"
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1775601901,
         "source_hash": "b338dcdce63446a8638307b3440c68fe85974c61efd2246a38a390e149d7d44b",
         "source_blob": "79c0c43638978c33fe2c59dfea6d86606089f41d",
-        "target_hash": "0ad61791fc04740de8e18b22d61d6d5f43572e15ee024e6a241f6c57b14bafbf"
+        "target_hash": "6544ce34576dac0805239cf64d2843a50baa04ae949dff26985f36d20794f91f",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "pre-existing",
@@ -7467,11 +7467,11 @@
         "target_hash": "9fef5b2429e71c05a38b0df14755ca557c38d00dde8d72a7c871be810347b901"
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
         "source_hash": "05e5868b45f360b5f81f4ff15348c8144e580599fa87b476a2512499ebc18e72",
         "source_blob": "99cc098bb18ca87526594cadb278ff244ccc0361",
-        "target_hash": "066e8482ea447a5256faf3aeb32d21628b0b831d17f4f19ebad4ec3261f075fb"
+        "target_hash": "b37dd0fcdaa4ff1f26ece90535e185c96f4b90eddf6b71c68421b5b6baafaf3c",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-manual-sync",
@@ -7534,11 +7534,11 @@
         "target_hash": "223652f2e66d40348703660f740f51a7bf8953dd9ac1b0908b584f48ae4571e1"
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1775569415,
         "source_hash": "9a63d811e48a0380cfe90f9eda511bdeb0a272e111389ab53ffce2b79fcef027",
         "source_blob": "fa1b08e60a7ceb46f08bfb1b087d3a049f395e3b",
-        "target_hash": "6b486a67cce593085a0e71bec098a7eb6eae605d9ef28321b85593a0d704e6fa"
+        "target_hash": "7471ceb4acf01554206f644ec63ac0a75e47d405e672d8131e2e74742b918427",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "pre-existing",
@@ -7601,11 +7601,11 @@
         "target_hash": "b3ac1dfa6935231b417d5ae3e2cff01c96e204800a8ecce959f3f6c0b14c1c23"
       },
       "ja": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333,
         "source_hash": "a52751e95a1b1b11eddc75086968198ff57d4020c37a47e7ac5f9cf46474b70b",
         "source_blob": "00ea0f0c007fc2a2f37d139aaa11085eec78f4b9",
-        "target_hash": "2a3b37234a01d3d2fc730b1a04a3e9703d05d9700a86d87fda235ecea5ca5383"
+        "target_hash": "4952409774ae0844500664cf3656ea5cd52ca671c0f490bff80f3a755dc51a74",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -7670,9 +7670,9 @@
       "ja": {
         "source_hash": "d3fe24b14e0f3d813aa0e23bfd1527f03befa97018311f9cfa51854b8e0ef90e",
         "source_blob": "1b54584b78480016316b1b7b5d8093e60b3fbdc5",
-        "target_hash": "1c2ba760b14c1232f7c2c8584ede32078e278fbd9b74aff9d3fe3bc17395791b",
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792565157
+        "target_hash": "2fbb7045111a8bafa50036bf6dbdc33a06e83c60fc41ccbeb01bd6facb9a6b1d",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "source_hash": "d3fe24b14e0f3d813aa0e23bfd1527f03befa97018311f9cfa51854b8e0ef90e",
@@ -7735,11 +7735,11 @@
         "target_hash": "0366705fd79e2af4c90992c136a20ba252950ea1c9756cb4bd1690125d50c265"
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
         "source_hash": "d248e1a8f034a81186938cc9931efd4b7a30a367888d06b048b799378ce440e1",
         "source_blob": "ff4110e85162da64057174bf2c3eddf2c4684513",
-        "target_hash": "dfb5cc957143309e92301a5f611b7bd9e815fbccac96a67bf071509a04a4b7e3"
+        "target_hash": "7dc9c853a09593425d8df774db017b5525b7e99b88dd7bae030a6ae779f61ad2",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-manual-sync",
@@ -7802,11 +7802,11 @@
         "target_hash": "4f94ec029281eebe6aaf7a7ae489feb3e62e41471ef0d54d02c13666dcfc64c4"
       },
       "ja": {
-        "model": "manual-sync",
-        "updated_at": 1783760121,
         "source_hash": "4eb737d18784f1ce646069c27f3e30ec1334cf4cd2ec5ae6cbc350bf743329ce",
         "source_blob": "9ff0e090385e58535df11779acb86ff3abebbeb3",
-        "target_hash": "e73594f1b30653f7d414d17d301e3f8719ebbbaad4a9d902e6ab98f80671c7d6"
+        "target_hash": "8dc852298e435937277d1c49e442592d5f4837bd01d1a7f28c0e5d2958492453",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "manual-sync",
@@ -7869,11 +7869,11 @@
         "target_hash": "17330d411dc93125e1970295ab24e2e4ac2172dca99bd94f8ffe4e4d261da55d"
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
         "source_hash": "2b7a93230ed80a7e8ec35a547ee36d4c77bfcd4b0223499aa4239e5243f7b53a",
         "source_blob": "6b90d78da25f115d5d6d6ffb4e193b1f324fbf2b",
-        "target_hash": "da7ff228c55343640c27ea3aa95349233194bfd1b62d4dd62eb6f1d9c52d0b61"
+        "target_hash": "1f1e40ec8aa09a40dd389880d0306b3555dc6d613206410a37420a3609a0b132",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-manual-sync",
@@ -7936,11 +7936,11 @@
         "target_hash": "401e09737a8db789d3f82e32b3a2c1a69edf1435b34b00a15335f9101d15b3f7"
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1775569415,
         "source_hash": "6dd24942a2de2fd06940861b5d6a283870ad5a8853cfcc253b82bec31a642f53",
         "source_blob": "53918352376c7b4cce2c439d2640337b21bb099a",
-        "target_hash": "e2fa283bfb28924f3ead18107db5422658fa69e09f6be8d2018d59a23d9dabc0"
+        "target_hash": "b4f5f3f5ae6937afc87159cb8b4a1263757a4a8dbdddd51e61828c18ff145117",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "pre-existing",
@@ -8003,11 +8003,11 @@
         "target_hash": "aa09bc7d61bd7ab3d52ff86b66fea8022df12cf9cffa78d7fea4f3766294cbc3"
       },
       "ja": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333,
         "source_hash": "4d599605aca609f19211f99555baadbd8d34f8c190c888a3700696b90ec0d637",
         "source_blob": "11b15048aaaeb837e470ddb02a476ab79fca902a",
-        "target_hash": "700116ea66fa325412a0fa6c1ecf93054c437cfc8ff8fa6cf6c68b3e05ccccf3"
+        "target_hash": "c5a4e1a63edac3f3556ce0e2b59ab550acb12f96b5d1024f578b432458f606f2",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -8070,11 +8070,11 @@
         "target_hash": "13aa735fd02fd9fa0829e4596d24c740e972c72e1c1a550062390871a2d678c9"
       },
       "ja": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333,
         "source_hash": "f1a20434f140f76481fd9a53e30a8349ffbd0050dc288626cf3f4edb50942e28",
         "source_blob": "c3dacb877e5cb3555cb5baeb977431bfeaf52d21",
-        "target_hash": "03e0d76a6f2c91d1bff1f851560c76847af84e66149f386057f83418934a9d57"
+        "target_hash": "487e40125db6496dc77ebc612bcb117d0fcdd6e6ffd42f937ffc6b93dc84a8d9",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -8137,11 +8137,11 @@
         "target_hash": "537b827d8f050474e17e7c0d2c4bcbbfaa9b05ccf52ed612de7a3cfed845bf18"
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
         "source_hash": "b66493af2be2c6ca1a9dc8922fd18659b291b4ea4e991adfa83ec763a3870675",
         "source_blob": "8d157b770fde4230925fcf088ce57034403fbe21",
-        "target_hash": "d891aef625e015f9aa3264cc1b9e9b483fc89dff241ec60bca3ed8f5e1c9aeea"
+        "target_hash": "e53ce14d99759fe7b4730c48961ce054783642aa295d6fdc335a676ee4ed7a7e",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-manual-sync",
@@ -8204,11 +8204,11 @@
         "target_hash": "955409cfb9a6c72558298afe27019f6f4245081ce05493c2e3c27c2a58dd36be"
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1775569415,
         "source_hash": "e31f7514aa218357e5898a53599c9b704839fb45da49a201133e4bf6dfcf54a7",
         "source_blob": "b97b25375e1bed69fd97e2e094d3d19916869c98",
-        "target_hash": "fcdff5582a3aad541166e26c6db9ca1b3a46a14499a5fc74578d8cac387811ac"
+        "target_hash": "922a40ed40b49b626b267d3944426f507bc392f472195264923f90757195232f",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "pre-existing",
@@ -8271,11 +8271,11 @@
         "target_hash": "702cbde926c99e97ff068ce3fc32928ee067876ca0a7b9195936160d6bb4f630"
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1784884582,
         "source_hash": "7c09477b92602eefd5d231c50e09416a835f4e7c029441f7c6cafee3d8c9aaed",
         "source_blob": "dd5222bc238530da801eca5e1dd93b9e214c9c8b",
-        "target_hash": "6871149a62143afc74ef0c14b6dccecdb1e86002395c85426e5b87884f4d5e6d"
+        "target_hash": "fa82a0b580dafd0f6a759470019ad4405b355aa3f7383ba43e16a9bdeb2e7146",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "pre-existing",
@@ -8338,11 +8338,11 @@
         "target_hash": "da439a39039a3b27f92a133e273c3771f55cc2af6d1d3d971c82175756fc7845"
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1776046613,
         "source_hash": "585d8672a6283a2315ec7b034eba1fc860e1405c9a2fa9d58648b0a6189887fc",
         "source_blob": "b068b50219a0d449f85257bc7502de9f445a7f46",
-        "target_hash": "834180aaab81590d0924cdd58ad979623afe59fb904014df5fa8ec2e15e15a4a"
+        "target_hash": "b8d0dac56e490907275cb1cea86c17dff66ff5b5efd65b8af21cfeef33dd98ed",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "pre-existing",
@@ -8405,11 +8405,11 @@
         "target_hash": "51f1e44898bbe55d0ff2ed167121369983fb71e63ce6469b5d6f5938a5cd63c0"
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033,
         "source_hash": "d13e7c656c857676c29943b72d1b94ff1dbf9c6d31a6c94fba8b9cde633de246",
         "source_blob": "ad33e5fc5700d3e41624609676bb803d62e8ce37",
-        "target_hash": "b9cb70b320d465c46bc46d85163ef67c4bb75dbed90c519ad3564b0472512ad2"
+        "target_hash": "7b54ab5dce7af934860a2e53964e3075dcbf5154ed214f232113ae2f2f8c509a",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "manual-incremental-sync",
@@ -8472,11 +8472,11 @@
         "target_hash": "2ecd81a79f516b8365e27b592ed2166a28d987342db0a2381050b396fdc98ee8"
       },
       "ja": {
-        "model": "manual-sync",
-        "updated_at": 1783760121,
         "source_hash": "0fdcca7c8c484f18711e039fd8ce5d9b2fe739d875c2a71e2b5182e3709e771b",
         "source_blob": "13cbb787a68e384ae0084f7e06fdcee5cca80a4a",
-        "target_hash": "474605f31b0b512169a2e8cd0af46e14bc29589dbaa6eb3b77f972a8a4e5537b"
+        "target_hash": "03cfa9a2728e1910ef69b9d8b3ade3bf6ab35c12cb7e6c94639bfa08f201f125",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "manual-sync",
@@ -8539,11 +8539,11 @@
         "target_hash": "9677c8e1d74c4cc6706d22349828254d02eacfebda4b503fb4fab8a16176cc01"
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1775569415,
         "source_hash": "1fcc8f039abe4a21b04a80010cbf7873bfc1ee27a1d53bec2c347b738d6666e0",
         "source_blob": "9ee0f2a29c81b1df94bb04b1676a30c93ca2804b",
-        "target_hash": "cb67c52b8944dbdffb1434742804aaf9f7043c7a84cb47547f292b2ff1de1571"
+        "target_hash": "868435207ca0c6e5ea322a107d51df319ccbd8e00030ada129f25ed75d6d2699",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "pre-existing",
@@ -8606,11 +8606,11 @@
         "target_hash": "23b4143e96df553787da4c3a7123e9c642b62b2341243e39dcebc1d06dbc86f3"
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
         "source_hash": "5414c30f1dfeef3fc27f688c5a00b2e14733af7de7a61c4c135ce81f36cf5190",
         "source_blob": "96818481d2d966812d7e370d8539b5ed6f5440ee",
-        "target_hash": "2ba42a381afca5ea1a1f3ed931e340080b4ef9495ebbbf8ceb7276e0149d59ad"
+        "target_hash": "85b5376fcbbf7003f9f42a2729bcedb9a39c6b588e864a2ee7f2b4e647299943",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-manual-sync",
@@ -8673,11 +8673,11 @@
         "target_hash": "87d531e58ff44b2841f2f2429484d4e95b6e25666545db4c557bc1efa23cf1a4"
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1777158886,
         "source_hash": "d129826a5067121637fcf4b5f736421334fd8c49a499fb504c3071728ec58471",
         "source_blob": "965c08933a4fb2e2f903f6483700bfc0c0fc857a",
-        "target_hash": "58fadc57f350b5494c85efd031f026e300d7068bb07306502bd183597530d343"
+        "target_hash": "7b650c35720bbe53bf4132e139002c77afe45bcab63a1e267a74150d8f3a7c0e",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "pre-existing",
@@ -8740,11 +8740,11 @@
         "target_hash": "c376541e804b4e09c4fca38be0a3c0a3d4cce5528122de4bc684138f9c521064"
       },
       "ja": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1784131200,
         "source_hash": "5d9358349e605ceec78bb16e3894c3d641e3ced05c36e1927b7eed7b776bd41f",
         "source_blob": "4f7f379eba2b0ceb83ff7d1a57cbeff5f48f5335",
-        "target_hash": "61388b7bee3395ae35d6a178d9d527012fb99922f69345019ea048cdbaef2c06"
+        "target_hash": "68c7b001f6f3c65bfb234dc46e389abd75cb55700a783e53c2a317f5aa63e427",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-gpt-5-manual-sync",
@@ -8807,11 +8807,11 @@
         "target_hash": "33e0d9494459cc9f8bb3f37660a54df0f4f5a333e88b962923da23a710028826"
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1775569415,
         "source_hash": "64698d4e5f97ecedca7c02a0d0645f0a3e3ec3b08944d9f651643ffa72d05ac5",
         "source_blob": "36dd26284729cbff8bde2485c9db62a13e5f6709",
-        "target_hash": "44de7fe23074fefffe72fe73b46e4a41a04dc051b8aa01e4f08d9cf91288e7b7"
+        "target_hash": "c3e00e65327d53af65564a8a7b6c907ec5be664f02ed410272bb79001182f2f4",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "pre-existing",
@@ -8874,11 +8874,11 @@
         "target_hash": "a6364ac0584dda051a6a6f97809ad249a551537fd3bcd9a0442c104e0e60cfec"
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1775569415,
         "source_hash": "b66a0365f075567dc4a624c58821ffcd7dea427177c1985b7478e4a26498b66e",
         "source_blob": "f4cf8df1a7895cf37aba714da9fc62a514a13426",
-        "target_hash": "d7418c71067c8fd95b591e8007db1e4015461aa3989cf54c77f813e084c0e01a"
+        "target_hash": "070315688d4f711d7358d1cab7776af9818e0b075ef7aab19c61070f55e58e9b",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "pre-existing",
@@ -8941,11 +8941,11 @@
         "target_hash": "be1831fdda0db3208ec3b706c7f261e41466222331ef967fff443bbe01761e4f"
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1775569415,
         "source_hash": "05b96521565ceb568a95a3f06fa2e821174750256bde2a3a0536c82a1f691d59",
         "source_blob": "3a9e06a426f594d4993498cce88bcf6875c440ea",
-        "target_hash": "ebaf803089c8fb893d240cd5f7b098155c3e7f389e60befae1717760a329e846"
+        "target_hash": "663533b696442e0ca8cc826bc76ff2b866ae869e49a251d54ebdc5cad571ac7c",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "pre-existing",
@@ -9010,9 +9010,9 @@
       "ja": {
         "source_hash": "70efecde7b432016788675f0b3c08af9ff77a6a430bb1ab4daeaba0e48e8bca5",
         "source_blob": "d41aa6e008b2c2d51d2ce00f71c899e5c0a725aa",
-        "target_hash": "c1e80dd5894ea3fd6b22f64a8f70e91d3de39f80350f2bcdc966efcd6bc496d6",
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792565157
+        "target_hash": "3d5768505d75692b82e7fff81d00aefc7d0e601867c4d0fefa441eec701028b9",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "source_hash": "70efecde7b432016788675f0b3c08af9ff77a6a430bb1ab4daeaba0e48e8bca5",
@@ -9075,11 +9075,11 @@
         "target_hash": "2b4e3c9cd129351129580c5c8452a9d068075d9d3b188fc5b76c8ca1587e4566"
       },
       "ja": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333,
         "source_hash": "372ac74d208e14be68a9f7b2ac980fef058b29e845a49ddab2e3312b970d6eff",
         "source_blob": "43fbe12852a8aef64904b01bff9967aa0f1cbe8f",
-        "target_hash": "5e273cd4160eff28f16110849a9a856f474130f8aee8d5fd1548306995525fe6"
+        "target_hash": "04bc0b0e8d251f35a754a107e245e767ed06e9c61d930c3cfa1848750bedc1a8",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -9142,11 +9142,11 @@
         "target_hash": "c732c9ea213c93c52605b2692d308affec2a52c5aea16043c73017db40a3c9b4"
       },
       "ja": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220,
         "source_hash": "40c8fe0c8ef9ef5d6a47a29721eacb38c39922c52b804f51ecd36945fd413a1e",
         "source_blob": "d06f88b9ba3b5c4f0ed9d3137fc829ccf0fed258",
-        "target_hash": "d939646a0785145ab3ebf5352a0cde18be980928ffdde4748affab2907547527"
+        "target_hash": "44021fb1dc42c8ce0dd2eaccdba2c0ce7f359bf588149b3bdbd461d826468cc5",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "manual-structural-sync",
@@ -9211,9 +9211,9 @@
       "ja": {
         "source_hash": "85e203210af1802786731121b68876dc3f64aceb2bec223daaeaace7897fde3c",
         "source_blob": "warning: in the working copy of 'docs\\en\\docs\\tutorials\\how_to_set_up_openvpn_server.md', LF will be replaced by CRLF the next time Git touches it\ne9e8e30a246f33f782bcebe287a4c348ffae777f",
-        "target_hash": "deb3c36730d9ba417cb5ca950f4c070893294dad9b6914d8e775f2fdeebde4cd",
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792565157
+        "target_hash": "460fa5580388437044ccbe0a78f46e41c3426f38f1131723bab71b7c5ffd476f",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "source_hash": "85e203210af1802786731121b68876dc3f64aceb2bec223daaeaace7897fde3c",
@@ -9276,11 +9276,11 @@
         "target_hash": "9770c579d15495fa64de64fb1e0cd07f2125f3d1e1272d417b2a734435970685"
       },
       "ja": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333,
         "source_hash": "ac47a1eebddc0db663b621c767010d54e7b5db8c864a4454a8eadef2a621d701",
         "source_blob": "67b6d155affb1542103e2c779d5fca6c3e079b54",
-        "target_hash": "1a8e12321d5b8cfdccc48bf5a440a3ad56807f3d5266fb00a11e44f19b76133a"
+        "target_hash": "bf84ac5f32b3d94e456b4415fc96d46b47e198505e7bb0616906a13fc5303390",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -9343,11 +9343,11 @@
         "target_hash": "4dd7ea5a3f14c8f3f7b870624f34c90b6b04892c5afc8a01a5eeb8b4683542e9"
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1775569415,
         "source_hash": "d4ab30b95213a071d45bfc898768664c6426b9b88da18fccf3eeba9aa718175c",
         "source_blob": "9894239c9a4f55333de4963b9cc6d843031a2e4e",
-        "target_hash": "174cf3982bb39eaa91f54a0ade3ec813f9cffc7dbb3acf6cf3983b6675e53982"
+        "target_hash": "979dfc4abfd18e64d4ed3aca886e9df061cb9d8e37502c40b16cbf9ac38ee6ee",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "pre-existing",
@@ -9410,11 +9410,11 @@
         "target_hash": "5d4c492605ef8ce6fda1b672aa29685419d0416e35cab9c5d931a4e41cf231d1"
       },
       "ja": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333,
         "source_hash": "354197eee6546ac0436e20bb9af9a0fed9244f9ab4b3208ffb5fed4ebfdf63b6",
         "source_blob": "7dd11f32706e5ae01c096301fdfe6cca659396aa",
-        "target_hash": "1d777a81a0e48940eed6d47416d32b43c0caa7f7d4a0e1d09afb367a651b3a48"
+        "target_hash": "64fba5549631c834e340a89a9eb3bedfdafbb917baa51b997e6afd0302a7f13f",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -9477,11 +9477,11 @@
         "target_hash": "51ed885646074f8dc02bea4513756fbe6ed0ffe546ef4be3f7cd567723272006"
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1788752427,
         "source_hash": "a29bcf08bcb92499f4a64eddb73efffdca890c105dab3dd6d965cb72b5a08ed7",
         "source_blob": "c25ced97c9d4ae886a0cc7bb5841ed662e0e2b38",
-        "target_hash": "7d90b0037476bb5da2f0a21b5f0b829d4d9137d9d7286a607b6c22300728d3cb"
+        "target_hash": "3c8f6d8f4ed4d6f921926418f72f2dddc3df0e17c0b8152539977ba3f64ef142",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "manual-incremental-sync",
@@ -9544,11 +9544,11 @@
         "updated_at": 1792567824
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787799497,
         "source_hash": "bf5aab1daedeb1f4d9e20ceaf80020214d4e674656b7bfdb2b84bb563fdef1a7",
         "source_blob": "31df0b3a2f458f162544bdeb8ea2c761fd32517a",
-        "target_hash": "11cc37e8e3dffb0589d000b543ed6e6f014a55cce80f139300ef9c155b766f7d"
+        "target_hash": "bdda11b6802d753a96e6a5a6a123b1874e935209160d442155c32b4265567b9b",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "manual-incremental-sync",
@@ -9745,11 +9745,11 @@
         "updated_at": 1792567824
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
         "source_hash": "d3ae8f75de8c74225e5f3dbda021ccaba3ffbeac7aa56ffee0d1d95da506cb2d",
         "source_blob": "57c25538cb2fe247e891e831e6a9a96f952570d8",
-        "target_hash": "6ec8f66d4968498ee54552a2a34997caedf94483e773fa96f4da4771850455a7"
+        "target_hash": "4180a13232b1521034643fa1930f70837849459e83327ee3b6e4de121a323b14",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-manual-sync",
@@ -9812,11 +9812,11 @@
         "target_hash": "f4040628c20033943d59ee33684169a641f7945dc3e9aa143a5cda29d8b238c5"
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
         "source_hash": "a3a823fb9c8736011899f2ae4a4d6cf557941dd4689a38c56d3724829f4ec9d4",
         "source_blob": "8e33a4ee8bee55579406b8125362bfd7d50cbe41",
-        "target_hash": "c142e84592130ad74334c1dff23ee9427bbbd82dffc21f32713abe4318b2e68f"
+        "target_hash": "71671ef0a56ee7c1e9aa9fcab00255afde9fc58234909462eb2259f009ef0aa1",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-manual-sync",
@@ -9948,9 +9948,9 @@
       "ja": {
         "source_hash": "de91ae1b71be31ae0f01b0589b3a710f526dcd742ef945b3667885ab7ca5129f",
         "source_blob": "b7c42b83579f8c18671cb214a16c22befc82fc01",
-        "target_hash": "463a24972f407c3278416feb8859de10077189b565a682fb8f8c420218aff27f",
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792567827
+        "target_hash": "ef39b1a8f74728b5441e29dc678a27c184309905ca87dcf6f6453d3aff0fef67",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-manual-sync",
@@ -10013,11 +10013,11 @@
         "target_hash": "7f17b1c93d82b653f073116340669a56e1754c659c837a5fd6ff97fb993e8c8c"
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1775568476,
         "source_hash": "7aafcb899f68e541e58f1c1037c3f3c17bd5641611dffbe9ebc9a8e8d4d1229f",
         "source_blob": "317f5edb90b4c3db7ed508d3dfd0a95e50c0464f",
-        "target_hash": "5a76c0d06f747b1b02465ba3e1b1bbf6122cf06289339e871df15c51c69c70f4"
+        "target_hash": "9f4ae2d248c101ede16c187d1ffe8b0cbd318ade231401d18bac0e0b05f49492",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "pre-existing",
@@ -10080,11 +10080,11 @@
         "updated_at": 1792567824
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
         "source_hash": "9cb5dc5ad632abc842d5f67b0016367f187f41147a737b26557379da8c0830fd",
         "source_blob": "cf458b124f8c6d5d9222a6c71ea7a52484f7df5d",
-        "target_hash": "72dbcd6a32164a60dab1978efeee8b634c21cf15ecf8aef139de736ab5f4632f"
+        "target_hash": "e31bc401f69e9f8b3cd58da5c12f420ab492f784187cdf4c880cb80a523fb644",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-manual-sync",
@@ -10147,11 +10147,11 @@
         "updated_at": 1792567824
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792139333,
         "source_hash": "062a36002ed2c24f5e6f785cb20fb3a4397d601cb57bf617c3c4a65080006ff8",
         "source_blob": "aead4d34edf4157c54dc5b5d7c49a44f3be9a52e",
-        "target_hash": "c4d8ababb1dbcc18c7129676c6c3b464d2aa0c8db05c969c78bed7f14e10974b"
+        "target_hash": "9ad1328a795efdbf59f3d9ecab028ebfc938f27302b37897c310b76be3fdc3c4",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-manual-sync",
@@ -10214,11 +10214,11 @@
         "updated_at": 1792567824
       },
       "ja": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792552594,
         "source_hash": "6a105ec83c67c88785fab3d7764c9f4ee6a2956d8d5c005675d664a3b20914cb",
         "source_blob": "b4c8c7c47b4e7297f7bed6f14348aaa95b6c35a5",
-        "target_hash": "d3030f73fdbf83e3ee4deb6a6767d41d3bc491b232f7cbe853bdffca4de4d7d0"
+        "target_hash": "8a47b85a0ff85157901a130398a2bc6cb0bc1c4bf46ead4633738a673c9e560a",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -10283,9 +10283,9 @@
       "ja": {
         "source_hash": "52d43750ef8b56de19b94e13ca00e08909adef1256ec41c990f24e2a00411544",
         "source_blob": "b9bacdf570074905826789ef2c7574d406ef666f",
-        "target_hash": "cc31bb3b7fc766e508ae6d526b727b7d683bbbf22803f83253621a48a6e0fb28",
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792565157
+        "target_hash": "81a53a496dc373c2e1eaa76dccbab3a23699286f1f4c0092d76a6f7346225175",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "source_hash": "52d43750ef8b56de19b94e13ca00e08909adef1256ec41c990f24e2a00411544",
@@ -10415,11 +10415,11 @@
         "updated_at": 1792567824
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792139333,
         "source_hash": "4fcdfe1a6ad4e0d0ff931a1128effebdd742b3c3735cdd4dedc88db506dfbca6",
         "source_blob": "8c869b208acf8a61df54b0507afa8e8593a6d263",
-        "target_hash": "94f3f9f421607bfe5ab1823988738399eb8280433eae0e88363cb3862143bfba"
+        "target_hash": "8b3f3a2001f07f73590d9901142fde7be696fb886c2590f60694040714f5fc64",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-manual-sync",
@@ -10482,11 +10482,11 @@
         "updated_at": 1792567824
       },
       "ja": {
-        "model": "reviewed-no-target-change",
-        "updated_at": 1792546768,
         "source_hash": "3c607efaaafe2f930bceb1abaa602c9b27d501fabb673487bb3547ee23fed1a1",
         "source_blob": "b122f412313c26e659e021c479c817eb8fe717d0",
-        "target_hash": "3e4a8e599cee3f3b76a47d91c53205ba03e9776a4750b839517b224cc2927163"
+        "target_hash": "6c7217fbd555ff077a1f33a42fe74e66d654b621668d518421e6bd90bc337862",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "reviewed-no-target-change",
@@ -10551,9 +10551,9 @@
       "ja": {
         "source_hash": "a7584dd5bc963fa63e6f3cad1c35e2460becb54a84a132dd790866b662af0b43",
         "source_blob": "5c8b663d542898889f9d66ce0b63dcafe5ca0c2a",
-        "target_hash": "6c30f688e8095ccdda12298e66eb4c028f5d01ef8ad1f479524fe27b257cb48f",
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792567827
+        "target_hash": "c06f49ab5a9adb047918b4340697d2a9dc343b1903ddd9fc5b2e1ab990637b0e",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -10616,11 +10616,11 @@
         "updated_at": 1792567824
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
         "source_hash": "50b519f7d1d0159e50171a776e3f7e007f5bfbf024ee043de5e779b489cd0bb0",
         "source_blob": "b3df7e818a2e7550fb49d29548058fa398b4c94f",
-        "target_hash": "70e930ca05ed2dfae85dea3d974a3fac204db3c36b521efaed8339b30c3a6daa"
+        "target_hash": "dce2db789b878b47a19a3f4002e2f133d7e226162f04bf75e0f151746c19b733",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-manual-sync",
@@ -10683,11 +10683,11 @@
         "updated_at": 1792567824
       },
       "ja": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333,
         "source_hash": "b544c3b953ad94e90c2ec3b9d118aa3d3c23340de80600d4774f4a964e85a333",
         "source_blob": "04d9a60f279c19792580550052100569acc5f5f5",
-        "target_hash": "dcfb42604bf71afa1af52fc401c15dff32715221d2d7988702fa9152d061f52a"
+        "target_hash": "ecd4026aa209e42430a8746d0bbea2c5adf6df28dbe551ae08bc76588ca0b259",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -10750,11 +10750,11 @@
         "updated_at": 1792567824
       },
       "ja": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792490647,
         "source_hash": "c1302214a38aa4fb1e35bd0fc43da1035da492c680bb9e994296176b09984c62",
         "source_blob": "5b34076af1f000b82ae158c30b88047edf217532",
-        "target_hash": "4634eff01711188411e706e7766a80cac2b20c6dec25f0a57f86757572be22ea"
+        "target_hash": "d8d47965d174fcd03e08d099552089f2cc7b7001ba046fb83441f27991e944d3",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-manual-sync",
@@ -10817,11 +10817,11 @@
         "updated_at": 1792567824
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
         "source_hash": "b9a828dd1fac5686222d448af4a3e4ee891516a2485e8fd8293c3b7e75bcb308",
         "source_blob": "7a28a5d6b76d8f6fcfc10b9068923f0eea93bde8",
-        "target_hash": "a770b33cfa47391bfe4219988e8123d1db6d692835a5daa177de7e981792b6b5"
+        "target_hash": "2c7f07699f216cedc63ca0771c81cbd102d59aee99b6aca6acffe55014fc61c0",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-manual-sync",
@@ -10884,11 +10884,11 @@
         "updated_at": 1792567824
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
         "source_hash": "a78ced5c55aa2623c1b3b55e2032da175396aaa2cad8dbdc216de5949b58785e",
         "source_blob": "544e7488c7a91e7f4087a674fc4a9ad221dc43b6",
-        "target_hash": "1b259a7859030ca288f09498e02b3b592c79c68b69a25736c09e31d1399abf3f"
+        "target_hash": "c0eac5fd4db72cdb6a1c60d2c6a84996adcfe02b0f97846027e7d42955bf255b",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-manual-sync",
@@ -10953,9 +10953,9 @@
       "ja": {
         "source_hash": "fd0e5fea9cba6e3b42ee37a3d9df3761c9652f7e85324b045ea395f0c7d0e6a6",
         "source_blob": "5f6e06e3c214a3a83fe5f0f900721aa13543d321",
-        "target_hash": "4f12783211c670ae9dae224da5315b77d59ddf6df7de5ee5963dde2753617a95",
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792567827
+        "target_hash": "14bdbe7ceb75e5f08c305cd4740726593c842214387487d3e71712f9e47b22af",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -11018,11 +11018,11 @@
         "updated_at": 1792567824
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
         "source_hash": "22529995509ca16b6cde90a62195a7070667ce581202f352418715e46a47cf57",
         "source_blob": "a0217f6416ec5ec9a29023c33313720881706ade",
-        "target_hash": "24c73d35c13b3d921d7d0be1b486ff3a49f2bb791e46e54d229ebc5eb0bad724"
+        "target_hash": "04043bb01c77b1620f684a955aed328e0ca1d47fcfb21e4d7ed04a4b840bc610",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-manual-sync",
@@ -11085,11 +11085,11 @@
         "target_hash": "47abff8d17dd10abf3820b928b4f043030d45d352ac050c67b66b110bdc0d457"
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
         "source_hash": "81bc0c8e18a2ab4805651c32ffad7ace582ca3278a38c60c71a60caf3ca7da80",
         "source_blob": "1613dd96b6e37257c7286f69d1d3353c7755e7bb",
-        "target_hash": "eb8b656d207224986f6bf35e176e383e0144bc42e1fa64bccb6a04fff9bdc638"
+        "target_hash": "3da9bbb756b109abee1d5ef354184b5d760cce34df381bf9733ab398ecb9b9c9",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-manual-sync",
@@ -11154,9 +11154,9 @@
       "ja": {
         "source_hash": "2cb5fa89b0a1cd4e47ca4c9baa818ec0b50645c895d0039069e7986b381898f4",
         "source_blob": "3a520424342e51a16e4a6ce0635b5504abe06335",
-        "target_hash": "d68fc3636393540023a826f4fe9a1965135dc22310d84bdadc67c9eedb356c15",
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792567827
+        "target_hash": "39df24e712264b436a9d7ee5434d4741165595ad81f70a761df3e52060675aa2",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-manual-sync",
@@ -11219,11 +11219,11 @@
         "updated_at": 1792567824
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
         "source_hash": "b60f99322202cda0bfbb75fa83f2aebe130fd8e91980430d89df2390079f5af1",
         "source_blob": "aedaac01bcf6582fa2e2d07a80526e2fb32bb290",
-        "target_hash": "67b2e0557d6185cbec05218cbb610014500033b105e0516bd4b5fd41b711a5fe"
+        "target_hash": "0fc2f4aadbb19019dce28ef514b905e1935da82e25b88309a394d3506a5a7711",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-manual-sync",
@@ -11286,11 +11286,11 @@
         "updated_at": 1792567824
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
         "source_hash": "7469a7bd0e7a7238daec9c097a35686e82657afa17a1f3eb3f27d79f7e8627c6",
         "source_blob": "583ac4d99aa0eacd2d8053dd56f73c2eec81117d",
-        "target_hash": "bf3fba4b5ce28543036a98886c043c72522eb151b09ee3cdb993efecf643909a"
+        "target_hash": "09e6f05b1933c3582d5cf8a2d51c1c3a6ac377409f13f49654fe2691971e40c5",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-manual-sync",
@@ -11355,9 +11355,9 @@
       "ja": {
         "source_hash": "d1fcf856181ceec3791010a9de05e77fa1237d46dfef0f610478f0432f6b0510",
         "source_blob": "ce3b92fa167efb1188af972478199527f86e1e26",
-        "target_hash": "d78013a7e1d4c9ad748aac046775bb3ae0cba211800502fe02fb09ca245b5d10",
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792565157
+        "target_hash": "ef86d767d00c85777043faf389a42bbdc967b3cebcf3a68ef991632a51f19db6",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "source_hash": "d1fcf856181ceec3791010a9de05e77fa1237d46dfef0f610478f0432f6b0510",
@@ -11420,11 +11420,11 @@
         "updated_at": 1792567824
       },
       "ja": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333,
         "source_hash": "28fb9420a752117c760768dc4cd72bfb8e402d606737e276433db74c2ae9c091",
         "source_blob": "8f4bfd0815f9758b8d75a3cf0cab4662cc7ff1fa",
-        "target_hash": "3cf0989c186f9dc1a82254faf1012b6e11ae56007ac82e0c305b847e34f60d7f"
+        "target_hash": "3cd97a73e10a4e2628efe70bdeda0c092d91ff7d87d3354c108792c20bdf2d1b",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -11556,9 +11556,9 @@
       "ja": {
         "source_hash": "ec5f136f0137111f884e88530babd389c5a20167882d8715c9863e332daac44b",
         "source_blob": "bd33e353c1ac570a357cb82a7e6c7a1bfe2f5d3e",
-        "target_hash": "412f97082d914e4950c8c521abee56e0d2699befafd7621e11c0fadae56bcd2d",
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792567827
+        "target_hash": "b5f7bee634d0df89df82cf911a15e2f6d7a5875fb0d6f0fd56e1af56d0bcd0c0",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -11621,11 +11621,11 @@
         "updated_at": 1792567824
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
         "source_hash": "fee7a0e842b0f79bef801f48c63437779a7ad831e119492e9572f881b98726bb",
         "source_blob": "fa52ea58c475c0649fdd0bc82ca86585039c4e1c",
-        "target_hash": "a9da5863f35531aeabbc10caa4b0488c8b547d99afb008c8ba884daccf19559a"
+        "target_hash": "02faec13fa094c2990f3ce92152a1ea733888a42c3ff0c841cca2e9db7d37b3f",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-manual-sync",
@@ -11688,11 +11688,11 @@
         "updated_at": 1792567824
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
         "source_hash": "2961cddb467f09c7f20bb20e53e85e1b557a2386f84ff4202c5803f55982dee0",
         "source_blob": "0102891f9d6418aec23922cc0e591d47b1685667",
-        "target_hash": "bcf876ff52d9ed675a10335a12a353443935927df722fcf781c4c12669faa175"
+        "target_hash": "784c8c6ec3af728dd9a8f2ca7bede4c0e2df77fdd373d45e0d1630195282543c",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-manual-sync",
@@ -11755,11 +11755,11 @@
         "updated_at": 1792567824
       },
       "ja": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333,
         "source_hash": "2e6654d8c5fab72d66f134900ba31265924c2f5c6d1655272ba269cc6f6fdaf5",
         "source_blob": "ed01e8612bffc50650f58837021f7feba3f09535",
-        "target_hash": "219ede168ed266945d2dc1f0a7687e4518b084e27e4955d9f832278e18b582df"
+        "target_hash": "0dc33b44033a3487804bceb03bfb3bd4af7ac5e1659c301608b68df08ae857ed",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -11822,11 +11822,11 @@
         "updated_at": 1792567824
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
         "source_hash": "b2e092779ffcdcc19a314c145ef6d84d66c9c78db4ee0a184b320aa897b6d3ab",
         "source_blob": "8d52d680100deefbbb3aafd9156ff7518b1b1f1e",
-        "target_hash": "c68a34a1f7967e72eea0532ec68845c4fa3cfda64600ef773f169b411b2f5444"
+        "target_hash": "ab1ce6678f9910cdac24eb9f01fd5ade6866a89dac48506b7267065b616b9c65",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-manual-sync",
@@ -11889,11 +11889,11 @@
         "target_hash": "1c8d0a6afd7e61ca9cae79cdb0846e9da7d3eca12c41792f4bbe1045f415454f"
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
         "source_hash": "d72044d1064f93a14bc3b266097c4204a098f06a088509f22b7a13e49260b016",
         "source_blob": "c546865da5d49ff5167e761826743b932da58aa9",
-        "target_hash": "75d4bec7bf8f9b607b3824454be4109c9f9ced20cb71bae9fc556c12b908c388"
+        "target_hash": "795c596930d220017a103ba5a0eb030aef1abd71246d6cae1978c649f21434a5",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-manual-sync",
@@ -11956,11 +11956,11 @@
         "updated_at": 1792567824
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
         "source_hash": "a3ea3bd0953eed33beb7ea061d29a08af2cbfc3c308286487a27fb70dee52ba1",
         "source_blob": "23af3fa731f01c7104d84718161b6519b99710ed",
-        "target_hash": "966c333cf21068834990a940e3a9d350e8151c47bd3510dd14c2d3a22967a31f"
+        "target_hash": "3132af7af1b4121a35aceeaeba694b5df2571df349f54e679420edf3cb2182e7",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-manual-sync",
@@ -12025,9 +12025,9 @@
       "ja": {
         "source_hash": "433b9b9e0c9d9c09f95b4020d7cd211b473aaa2fe02cfa580ce8362fc47d9910",
         "source_blob": "f953b7059d9f7715b2c4c853e6a5d2926f4b64fb",
-        "target_hash": "99821cfbfbe6d02936c98d7bdc2617c16e3e39c19d2ed2ad464bcac71ff96da2",
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792567827
+        "target_hash": "5fb27476c9429e37e7da16386d66c93b461ea17f8308d686c9fab56a80e73807",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -12090,11 +12090,11 @@
         "target_hash": "7fff231c20cf2437810a1797b40f95614b7c2f6f6eeedbc4fd0a9a68f117b36a"
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1775567859,
         "source_hash": "e5ec812cae296cbae7fcc5f1a02bbeea697b78ba3cd1d0481fb739d528e3e29a",
         "source_blob": "2235e4c797aa4e004ad0c6d3151c7354f116620b",
-        "target_hash": "90f25dd957e154cdf0714ab289cbfac1267565713f8df149d9a414bdbff6f3d2"
+        "target_hash": "ea35b61399f5ce924c0e1f9d871fac1c95df70a1538d7bc15f1f31567d792d42",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "pre-existing",
@@ -12159,9 +12159,9 @@
       "ja": {
         "source_hash": "dda8b8a2bc8887dd7ec6622fdb2b88aa6b644f62080a715ae790db8ae421605a",
         "source_blob": "149a1523b18de8c9b135f1ef0a5997a5a704f968",
-        "target_hash": "28e8c4e7e864948f3ead8ba8596ba43dc60ae789391998a033a8d17fd5ba4f62",
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792567827
+        "target_hash": "82aa0322d5e5a286426cbb670d15461836f0b1b13c83b515faa8308190288a40",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -12224,11 +12224,11 @@
         "target_hash": "099c8adc3fd99f4a500c1ab1d82bab4821921ca41d9125aa5847c4930ed77e2a"
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
         "source_hash": "c97aa0de43a8fc82a9dfd0b734e0e64e8fd22ddc2abeacb0d5567f2d01e01ff9",
         "source_blob": "5c8abc308426e0b9b2e81e0373415629bfa99302",
-        "target_hash": "f7f3085ab7a938b9eef384a1ee3b501ab7c3941d6a1b12d420e4939353a921c5"
+        "target_hash": "267170249105038958ecb51d05f07891aa5f9e470d94a51ec2aef0fa7604d063",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-manual-sync",
@@ -12291,11 +12291,11 @@
         "target_hash": "1f456b9dde881331a4122208c7f16b99963cee6825baa1bd6e96e5ed63121f70"
       },
       "ja": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792490647,
         "source_hash": "207d2975362d7fd6f6e27efb3162420ddbe158155e7c1813e024b7bc11554d5b",
         "source_blob": "c2d01ac3862e22031af5644f47aa9f641e866672",
-        "target_hash": "c7253b1265e7c9cc983016e01de31e381454ae7383228eb237fa8929bd933bfa"
+        "target_hash": "e645678423e1a42868c3306f32bb928d0ebd8bb60242341a0229f167ea626c7c",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -12360,9 +12360,9 @@
       "ja": {
         "source_hash": "b4a536ec3e7ac1b034057b0278da18b6610fe65addeaecfd71067ecb2c4f1e4d",
         "source_blob": "69a879ab46d1c2c8735c51a2fffd1daae30c896b",
-        "target_hash": "0ca55b48115125292b0c095681efa5cd2176ec59292ba6a9bf5425caeec8993b",
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792567827
+        "target_hash": "b366d80776b5bf507ed9f99e4e353b81047fea658fe8a1dc3ffd9236c66470b9",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-manual-sync",
@@ -12427,9 +12427,9 @@
       "ja": {
         "source_hash": "865a4108be9814791f60dcbf31e9b2c0c8920da20b026c0312fff72a9ef3ec29",
         "source_blob": "83273d9f4753f1b688c7bef59510ea5e19d37dc5",
-        "target_hash": "08891d3954f6fbfd1f8bccefef16f9a210db999f8f61478b0e1b4e065300668d",
-        "model": "reviewed-no-target-change",
-        "updated_at": 1792569614
+        "target_hash": "1448a329f49cae5c00549765bedef03d871820971219eb3b2746267fd78343b9",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "source_hash": "865a4108be9814791f60dcbf31e9b2c0c8920da20b026c0312fff72a9ef3ec29",
@@ -12492,11 +12492,11 @@
         "updated_at": 1792567824
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
         "source_hash": "eec9f829c437ab0e7e451ddf9824ef7bd157a3b73531b7c71eca933235585f9a",
         "source_blob": "14f85f3e1c29a0a29c4c96dd95afe38f4d3e7768",
-        "target_hash": "b5dd6b89efe2f261cc4f0608037851be1d7d37db42584411c90d2317569e692c"
+        "target_hash": "81d88400a7009ce3b445b7516edcd30b8b09ca8ac08734355c776987ac506ce0",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-manual-sync",
@@ -12559,11 +12559,11 @@
         "target_hash": "311111a7e1fb4c62c4198ac939da0cb014076afaf06082b7e356e55e485eabe9"
       },
       "ja": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333,
         "source_hash": "4f0aa662b0cad33828c26ede981adee7b855615893b58181419a9e6275ae4b5a",
         "source_blob": "c586e6696887895ce117ffd872143530bac16491",
-        "target_hash": "95a3329cc52cc20f0728ef05a84a257b40f97836532b4f7e564ab2990511629e"
+        "target_hash": "425b38d603e5f3a09b15f917a736151fd821f3efad4323b9489b7cbc3d3a209a",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -12626,11 +12626,11 @@
         "target_hash": "f3202739b49e9c69a26fd912bfc8366742cfd0f2b9209a21197f68454cbf5596"
       },
       "ja": {
-        "model": "reviewed-no-target-change",
-        "updated_at": 1792546768,
         "source_hash": "3150e9c2e68b003b5ac0b742217952fa40371ab5cbc973658e859a1cbd06b21f",
         "source_blob": "342f252fc3b1ae1338a8101720f871ac7b2ef5c4",
-        "target_hash": "b35f24c0782b3e532bcaf8451864429b303a2442ce14de5b01fcea13be00e922"
+        "target_hash": "52225297ddaca8688913f6b2ec926bb1c0b5c3dd9fbbb56e82d46101ad4fca1c",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "reviewed-no-target-change",
@@ -12693,11 +12693,11 @@
         "updated_at": 1792567824
       },
       "ja": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792490647,
         "source_hash": "a067b08dbda5359171909449b3ee2310d8f8f54366d40f80635417a5d5de119a",
         "source_blob": "e078ed838ff96839383eb97036e19bbe95a0794a",
-        "target_hash": "858e97ad39c56d49fbb6c6f1fffdf94400289795aa903749a4056af929f66e9c"
+        "target_hash": "d081cf337af32fe5ce24dc782cbd001151383c08e912a6bf9af4a2ce85389ee4",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -12760,11 +12760,11 @@
         "updated_at": 1792567824
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
         "source_hash": "dab5e065914d01df6d64053c8afefaa6c9f7e40743d153691ce0fb18fa8a44f5",
         "source_blob": "576117eb231f635c7e8b5ea788c4621728d3bbb0",
-        "target_hash": "2b548e5b4c3d6e62356228a597f9b68a8951f41716a9e8c30774437b405429da"
+        "target_hash": "7bf5e7603949a9f21bca9d55427841879ad1bd9219b36b271e030eeb08cd6474",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-manual-sync",
@@ -12827,11 +12827,11 @@
         "target_hash": "86834882159aa6cafed9cfb0ad652db4cce932116af889d59425fb894e6f567f"
       },
       "ja": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896,
         "source_hash": "b27aaa67c74203a36a0c46ab8cbc82542f0fcd3dd7e2332ad0af769806957637",
         "source_blob": "5c32e93357ea5ddc1c190117fd5ebeacfcdb4881",
-        "target_hash": "ce9105dba19de776935eb56ac4735c34c598396bd2185e45e6d088b1c7395f1e"
+        "target_hash": "e4db7e329e1272d78fb02521de0f4b641401c415ba584fbd8090956226612b78",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-gpt-5-manual-sync",
@@ -12894,11 +12894,11 @@
         "target_hash": "5aee4431f13be9d594746a85a03a90a2db1f84bc001796a5cd05c194a22557d7"
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
         "source_hash": "710e5ec1f4f6d6fa4993e1641eabc24fa806b27abf7bf6b4a6be7dc02206476d",
         "source_blob": "9e8d85fab9b0447cc5c8db8ab95839948a965ce9",
-        "target_hash": "d987dd7b21ad1438f828c7dd5a1ab3c6ef1ab25e6a417052cce1ad4ce261135a"
+        "target_hash": "cf6c319961f3eb11cc558ca070b2fb05dab73bd4be2e6aae7c48c31e3f493628",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-manual-sync",
@@ -12961,11 +12961,11 @@
         "target_hash": "aa7542593e86e6ec807313365857af2998d68d03cee356afd79365c37899ae5f"
       },
       "ja": {
-        "model": "reviewed-no-target-change",
-        "updated_at": 1792546768,
         "source_hash": "8d0e2adbc5760e611121abf5b8d21dd202f3633823dc9c52152e0a576bb568a8",
         "source_blob": "62416a5994fc37a1ce82ac4606c5c87ee6cd512a",
-        "target_hash": "2d12439ee4040314100018e170bab22ccf06b37d73061a47759351d309f16f8c"
+        "target_hash": "7dfb1c7bb5807cda3d7c0f33a00ccea1c89fb996edfdbb4f862a37b6539d9064",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "reviewed-no-target-change",
@@ -13095,11 +13095,11 @@
         "updated_at": 1792567824
       },
       "ja": {
-        "model": "reviewed-no-target-change",
-        "updated_at": 1790151519,
         "source_hash": "b194c7658f26c7214ca8f2fa3a8608b60f3f114bcb12e55cf3c0add241846d61",
         "source_blob": "000aedfa15c6ea74ec27df30a65b0e485cd70c1b",
-        "target_hash": "3b820682262231431238d98cbfd7b5f0508faa3d33eacfb1e6386f9f42e2e1b6"
+        "target_hash": "9ceda812c55cd52062becd0e5ae6c6e83d979c19d4f19e59d4f271bfef3e1802",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "reviewed-no-target-change",
@@ -13162,11 +13162,11 @@
         "target_hash": "3afa6319dc48f83732cdb4dc4f0fabf6875445cd836ce0300312fc595f5c319c"
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792139333,
         "source_hash": "b5dd762104bb7f0c1da8fbb66adf141d9bc38d96730774b15213515d5d3bc6ab",
         "source_blob": "1b7f28207dcd7ac3fe6effa41ebfa02b42665f45",
-        "target_hash": "6dd4101e6c6d8f21542d5112b506b165e8032d78baf99f2935f58eb973c68382"
+        "target_hash": "97b624178c1de15686e2782f9fd9a5eb9a9398c42632e03caa6fe34d7515d2c9",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-manual-sync",
@@ -13231,9 +13231,9 @@
       "ja": {
         "source_hash": "a5117659a224a63bcf0873e018b8e9895539929d7bb949d6e915ac9a7d2e6369",
         "source_blob": "26989a28c9176197f154c372fca30f617873ea40",
-        "target_hash": "72000f40903b95b58bf34647e4f80b15ebfb789078268d30002911efb0e78afd",
-        "model": "codex",
-        "updated_at": 1792571073
+        "target_hash": "1fbc64815996fe9adbaa6aa030abf61c525efe4c6885c39de80636951ea7b7ca",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "source_hash": "a5117659a224a63bcf0873e018b8e9895539929d7bb949d6e915ac9a7d2e6369",
@@ -13363,11 +13363,11 @@
         "target_hash": "358fd997c9696720f738dcee535e16abb75fe46d724c69abd17989c3bb947baf"
       },
       "ja": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896,
         "source_hash": "5da3ea27f70ec630e5f9dac493faf0f24ac1bc564eb2ba44d771bd0c4f8f0864",
         "source_blob": "62fb428e3ee3e9acd62036ee8e7721aa2c83a981",
-        "target_hash": "e8af47d4bc790c25bb20f4a9c6d8e41f3fcd232acee3991980a83051a1932f70"
+        "target_hash": "ef02ed257a94334a076c6e48ecf30ff3a54d63b22e88fd3877d90bb21611c18b",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-gpt-5-manual-sync",
@@ -13564,11 +13564,11 @@
         "target_hash": "0f393322a4a8d22075a610ea02faef2e48b83a0e5465992c56361293378b8aa2"
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033,
         "source_hash": "a7c5b0a23f516aa23fe3dc50645edd871ff8cb49f7b5405fa78ee05e16a256c3",
         "source_blob": "338a417f50185b5e8733c83fc910fc24ed093904",
-        "target_hash": "4e055e3f29e561fce076b45b6111cac4f1bbb913a7ae668725914cb27b7e4d02"
+        "target_hash": "dc7978e59fda218330213ed1f09e29795b60789dad06147a4456125a412ecd45",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "manual-incremental-sync",
@@ -13631,11 +13631,11 @@
         "target_hash": "5eedc7914414548d83eddf969114970b88f83e72e79e70cf8a658fcf50eb057d"
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033,
         "source_hash": "dfa19166665f2972e58cea1e89ffa6dedb9514076bf48cf83375d5e2180c6fd1",
         "source_blob": "27e5b4de63b1a1e9d47f6a2aef5e22ebde3c1b58",
-        "target_hash": "5979bf8308b41fce5cd0dbba1b1ce0671c07bc151390a7bbacb1819e0ff39e9c"
+        "target_hash": "68158301ea65497c832860905eb9e1f2c91d930e85d33084e96ed55819e57881",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "source_hash": "dfa19166665f2972e58cea1e89ffa6dedb9514076bf48cf83375d5e2180c6fd1",
@@ -13698,11 +13698,11 @@
         "target_hash": "53e168fc2ca47c20371300e95e9f583160710018e45ea6450461372962266ad7"
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1789095838,
         "source_hash": "157c72e1a8971effbed44a5218199066b3b8d17a0db6fe0433fd364c7aba0e74",
         "source_blob": "8479bc974c8189096bf43bde62cb4d9ca303a9f8",
-        "target_hash": "d0e1165f65f5bfffdcb527e6ac089755f86ed790153e461d10256c4695da8d27"
+        "target_hash": "b5d8a7da6e10fb34188b355e4c1a411c100a118a166cc235a44c4fdfc2e29dc0",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "manual-incremental-sync",
@@ -13765,11 +13765,11 @@
         "target_hash": "78b60319b58621cc9a7f74554b0ccc8ca567214209ab8bffc52d49efd563ea63"
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
         "source_hash": "9514463977c31c208f4982cae0b0b934b68c83dc2a9b8632bf8ba06b01d2db10",
         "source_blob": "548788566bfd85896f0098e0712d04238c4142dc",
-        "target_hash": "a38c8cacc76e1a8a5facb929dcd1f3464fb7d781df33ff1f9f92ba44a4b6e573"
+        "target_hash": "c3c01f77934156bc22e3d97344a53105cdebb609f81ed4a6d70fb4872f52313a",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-manual-sync",
@@ -13834,9 +13834,9 @@
       "ja": {
         "source_hash": "55cd76718043a0e92b54beb12be3995dbd8077948944528d3cff6e490b3ec83c",
         "source_blob": "4772824aed142f5f002bdf480d0a2c2fea8f9497",
-        "target_hash": "d3dc3874c65ce36f556f930dd71b99ff4b2955e872fc1ecca5217d4655f36c65",
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792567827
+        "target_hash": "23efdce0ec559c16f90888a8d79f72993806a36243b068b1264dffe37ad9e471",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "deepseek-v4-pro",
@@ -13901,9 +13901,9 @@
       "ja": {
         "source_hash": "115f7af4857ad4064c7a5396c9b83937c4d49d1ec6bb10c951a0cab77704bd8b",
         "source_blob": "98237dff8e68673a17a3822ff6ef6ab3e78cc670",
-        "target_hash": "2fbea237eeffdb0e248e2c52fc490e4eadfb0d6f2e97aaedcf311be46890545f",
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792565157
+        "target_hash": "e07cc27641ce66ccc9c408c141766b56a6878b6a3875b60e462be45b6a34b867",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "source_hash": "115f7af4857ad4064c7a5396c9b83937c4d49d1ec6bb10c951a0cab77704bd8b",
@@ -13966,11 +13966,11 @@
         "target_hash": "967fec7b3d1c44c9bfa9ee1a22592349355e50511a74bfcc0d11a108cda1eb27"
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
         "source_hash": "a33a259a8087f3c205d583747747a2b491fd825434ed9eeb94b94dc2f8dab976",
         "source_blob": "c00fb1a4832de3970ba9c908c1db0b028b2b6910",
-        "target_hash": "b724665b5a2341b87f71de05a1ef50a268b11bfe2ccac2ca0462eb04230502f1"
+        "target_hash": "2f7b3af0fc17b6c7a35257ac225760b3fbfba742ed59c5d88621afa97deb76d6",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-manual-sync",
@@ -14033,11 +14033,11 @@
         "target_hash": "a10b3d4b1359a853debf489f6e1b8e5f986374c36b1cb86fd6abf04fa385e2db"
       },
       "ja": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333,
         "source_hash": "972dd2241a858a18c999c2b7275ce801f35c3694526c88fbf341bbf13f66bd29",
         "source_blob": "7b2000c04aa4907a2a351b9ffd02189acd29d147",
-        "target_hash": "2ab01d9b8c1d4c1bb85f488e14f5f4bc4110a5d10e81fb448d3771e4db423d09"
+        "target_hash": "1dfe3df9e1bad1356ad581628278db6782080c04a468fd78d431a016263bb50a",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -14144,11 +14144,11 @@
         "updated_at": 1792567824
       },
       "ja": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792552594,
         "source_hash": "4ae93ab53a444ccf431c6fe020919dc585633efeb11f8a4330a74cf015d6ed73",
         "source_blob": "21bdef12c36f27d3600b838edea5a40aca8c2e84",
-        "target_hash": "a2cc24760c99daef161473e00a7226c60a95e316c24c181a0b18a90bf003ce36"
+        "target_hash": "95f073fe86a592b91531a96ba6e4c494f9eea58383f7af0caab815bb6477c241",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -14412,11 +14412,11 @@
         "target_hash": "923e6a7020e4d1634c57fd5d5cf4ba8b3961911ab0e7118316da349fac3f7ce1"
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1784522575,
         "source_hash": "d47a808e6f36ab47ecf57ef32e49587badf2bffb63d5081e7733ed49e97a646a",
         "source_blob": "9c3fc4946cbd9305945a1213e5489ac6fe13ccf6",
-        "target_hash": "e5de4273c5a9661785eb1405922d9466dcc6508da8f6afb4ff00475a2a280e2a"
+        "target_hash": "50a1e3bdb1c3617ec70685d5d2d5f15ced75718322eeb6e47d4c2a0970c063f1",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "manual-incremental-sync",
@@ -14479,11 +14479,11 @@
         "target_hash": "b45dcdaf1205e2caca61fc8afed60cf3b6b0886e3eda108b95698e20585e83a1"
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792139333,
         "source_hash": "634dc4de1224114d4cf85b9b61021d0e082cfaf2ef8ad6b2bc66180798ee1136",
         "source_blob": "2ee845a6ad32fc8bb4c76d9a7c332e13cc9a416a",
-        "target_hash": "32e1fd7cbc86effe4e8aedad7cabf936ae5922ddd816103633abbd644408a022"
+        "target_hash": "f8919f6d186dc01a0039cc5f3d95f2dc2f37d361e27ae3fb43e1e28673c5f5cb",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-manual-sync",
@@ -14546,11 +14546,11 @@
         "updated_at": 1792567824
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036,
         "source_hash": "3bdf05a613cc5694fd7dd2baa34b3fc4e1d037f95249269e9211f9ebfe27b5d0",
         "source_blob": "efcffdb5e0c7027227966a28016a1fc584634a64",
-        "target_hash": "30df7df7ff8d57beade78b9932ecd2d462ad2b0bf79fd24c71343c36c2501cce"
+        "target_hash": "9edde5a91983604e77d4405e6836e37b72a746830112ec2ebf767fa969e3bba4",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "manual-incremental-sync",
@@ -14613,11 +14613,11 @@
         "target_hash": "afa26325a290f67dcc4a8f2e0d0e4ef996f1e6d7378ac4653115479808391195"
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792139333,
         "source_hash": "f3abc9c052c746496a401523422d1ea556a2f6ecbe2921e9fdbb285da3637389",
         "source_blob": "2c476ee3d7f2904c9ee998ff23655be3d796c37c",
-        "target_hash": "7159fbe250b6c58bf3da186e04d331088b49e56f7cee985f4f7f33b5b6e2c6cd"
+        "target_hash": "e061308c0fb21ba3a68937d228f7b554a26388cb0abf8708303241fa41e0a1ce",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-manual-sync",
@@ -14680,11 +14680,11 @@
         "target_hash": "efe5f32f10c4a9add9a0706b99a777965b06215a475bedb31cf0174cc2f6972b"
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
         "source_hash": "847fae20fd9756f299ac1443ed27b246d8e5958743b258dab9dc37104ef30dce",
         "source_blob": "9ce31f095932c66c207d5b80c046dea89e1d6ce1",
-        "target_hash": "32ab6d66d713ee015b14660b57046bb01e8f04537c5d24a87abef296dd084423"
+        "target_hash": "06edb3a3b9a6a5a876641651a63404f764aa29f8df1fc093237f3ba32f24892a",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-manual-sync",
@@ -14747,11 +14747,11 @@
         "target_hash": "d94c54abe3788e6ec2356b490972b38378f6fcfbe12db495dc5630c628de888f"
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
         "source_hash": "44d3647d10002d1bc3ecd8b7ee244412cd17750948ff69fa710413113b2ddc9c",
         "source_blob": "404c845a544536a0a1e3c0d1d5ca1d7e97c85cb2",
-        "target_hash": "fff86f0f300c18eef6fab63e7ab8ffb81313d54d4aec6cbdeb41d299b65e2323"
+        "target_hash": "7986803b3000aee740a8daba80bc678b16aa1b3a6fbbebae53b85f44cfad887a",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-manual-sync",
@@ -14814,11 +14814,11 @@
         "target_hash": "348718ee07a01726fbc1f34ece9f199614175e32c502bd89e2e0d12c14a99807"
       },
       "ja": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333,
         "source_hash": "40abf89fb0ea129d2d35bc55cbf52567dea12d739d5f521afdf6c98e15261481",
         "source_blob": "a0486e1f366bcc07338c9918ffb5af81c118eeac",
-        "target_hash": "812c35afd2336afb64d7a651bf2d0b16b1d2e6aa72797d1323bdfdb834fa01eb"
+        "target_hash": "5598b1af110f89e4d1a5c9dc12219eada504f82ad7408ceca5b53183c5b9b911",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -14881,11 +14881,11 @@
         "target_hash": "08363dd519c0d9e83280c5b3903927b5406a56d6b853cba7aff8db091358f005"
       },
       "ja": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792552594,
         "source_hash": "64d82b1b35f687337aea873886bbe368f11762eedb0046d9d4c438fa33146ecc",
         "source_blob": "warning: in the working copy of 'docs\\en\\docs\\interface_guide\\mesh.md', LF will be replaced by CRLF the next time Git touches it\n9a53e7e90447d3e0610fb96a1a8ef97adcf1db97",
-        "target_hash": "1f4d7b4d279a5ac1395dc6fdd24409c7ae98961ac4caec42943da9a72ccd8153"
+        "target_hash": "c68907963418fd95f64a558f79902e2804dc3f9c6d66fbcb3f335b4d20eea488",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -14948,11 +14948,11 @@
         "updated_at": 1792567824
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
         "source_hash": "2dd0fbcbedba46a95221470dbb7ea3e9a174dee683c8377bf5f73a1c4df6656b",
         "source_blob": "1ed5a7045aeb9b8d46bb295bc1e054ebef458adf",
-        "target_hash": "d74faa98c509ab6e001de2c867b33a28af19dc8ede4f1a567a5eed3c445feb57"
+        "target_hash": "e4e417c1071960f3773d994cea58d4dddcdf337a46ac1523b61aae9520801fb7",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792656928
       },
       "pl": {
         "model": "codex-manual-sync",
@@ -15015,11 +15015,11 @@
         "updated_at": 1792567824
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
         "source_hash": "9399d4d15fe4903744c67e220441e7b219bb33a712383204194d209cb7fcc3aa",
         "source_blob": "dda8b3c58a9289c2d9ebd24b48cb150994368e8e",
-        "target_hash": "aecae5866803b35831ad3af58a4bb450db7b30164acb1dff661e25071917ae4d"
+        "target_hash": "3867e0d916e189b050e0da8145949561024952e7479f3e15ff482b99a152b809",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-manual-sync",
@@ -15149,11 +15149,11 @@
         "target_hash": "a6fc805f93aa83cfe7cd7088a5f9e3fa4228e74b1b0d7e0144a0628c02ccec14"
       },
       "ja": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333,
         "source_hash": "2d0244e5e6280847a9d6e45f2b5b25edfab54d00caaec801f4e4d13f72e7a2fa",
         "source_blob": "1ed9bbb99b38c55fca7b72a7137ede769bf786e1",
-        "target_hash": "2c0b7fc56d4a5881a024d67579d34938f15f6e659345b6333aa6686c91a73833"
+        "target_hash": "f4d925c2e37b92ebee074ea99243e6e4e2510004b9e990734e2484fa674baa83",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -15216,11 +15216,11 @@
         "updated_at": 1792567824
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790927814,
         "source_hash": "a9600a672cda81a2598ce0a16da6b251afe4e39a673c6fdbbddcf7ca4cea4161",
         "source_blob": "a70f54aa39a026e31d8117989a31512966de7c7d",
-        "target_hash": "9500f81ef9a2e9bf0f09b2add12cc7b1b2432263019ac744c6302bb9c4ec317d"
+        "target_hash": "c8d2e1916dbc67efa4e03c55774324359eb2a77741cbd2257d4d24c0fff2e605",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-manual-sync",
@@ -15350,11 +15350,11 @@
         "target_hash": "d3137cc033d5e60ba53d7d2962bfe342bdb3222e239aba465f67ed5572c070ca"
       },
       "ja": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333,
         "source_hash": "c329c427ada4ed486f978a619e018a736662e57595e3fcd3799b3e1cb0436612",
         "source_blob": "1dada317b19b9d39b62bf2bbf98165874c445554",
-        "target_hash": "0f31eceac3777a9a041685c9d7c5cbdd1ec4af83c07a5e13f3663146eecd52f8"
+        "target_hash": "be3f754324bce5ac564ed92e7d25f232b0ccc817046255e4c5d9e6941f0b3f80",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -15417,11 +15417,11 @@
         "target_hash": "30a884f1b2d33a418cd6ed7c2b892f4bef6b5f4c2f7fa4495df3af2db62bf93b"
       },
       "ja": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896,
         "source_hash": "74594616e1b012b02f97eb88306268520711d4b6451ecab3df47d11e4f07603e",
         "source_blob": "09443da6f45c8b678725b833480993d18939ebaf",
-        "target_hash": "f225cc3f18755c2a54cb160c5607e0a919f8b09395471e86f667a9cf1b7c08e1"
+        "target_hash": "4c4d3f7f3b4250486e5191630dac0f3a337153c386d55997434a8e8f717f9445",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-gpt-5-manual-sync",
@@ -15484,11 +15484,11 @@
         "target_hash": "330a8505f30305ba01000f1fabcddbea126700c5cfe4ee1b0fca4c2edb46d994"
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
         "source_hash": "0d8a8005501ac4c0d7d4945be134f5c52104e538f8a9db4ac1cc7bb4c6d10c31",
         "source_blob": "e4074093a14ea96a98391af735996581776b9c1e",
-        "target_hash": "74bb3e1fba39bb835d531a98bbe410b5434a5367f979c8bf7461c0658ce7889c"
+        "target_hash": "8cce48cb93c99c45f1149b4a2b07494dd2eaef279191c2c33f0fbffb916f7856",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -15551,11 +15551,11 @@
         "target_hash": "4293018d1f5fb83043fb4a41965c49fb96e764c0dd19ccf2ce9f6a17612a8f95"
       },
       "ja": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896,
         "source_hash": "84c4c6ef75cb96b93c50dfb6b80df4f16a78d2041938a57d77fe3f16c25bd770",
         "source_blob": "44ae71f4f8011d82a9b604d58b683e61a1d18174",
-        "target_hash": "5ecfce74428a7cb804b9dc926168dbc464830851a5fc9378243dd579aaf13f86"
+        "target_hash": "64099521b9854d69927b033de5fee7955d98d26e1199a6ee5d3c3588bffa2cab",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-gpt-5-manual-sync",
@@ -15618,11 +15618,11 @@
         "target_hash": "8d1fb0f631b95965b802858124bc80f6de3fc10db1094f7431de2eb5c09de3bc"
       },
       "ja": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896,
         "source_hash": "d8540106faee94e7c3272be90ecc0b04ab5d1b90d5322c5c38687a8e117ce42e",
         "source_blob": "844f3f67330826528cf287189d893927a3de1543",
-        "target_hash": "032b2b356052ec41c3d7d2df70e4593a724f695237bef2ad6c83f1ff140ebae2"
+        "target_hash": "70b8edfcecdcaffbf10d529fca2a32fe44cf0916bd88e24c3a61ef9b33be5071",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-gpt-5-manual-sync",
@@ -15685,11 +15685,11 @@
         "target_hash": "ec4859a989ae686c20f962b34d221c6a1cc3490c491428cbd13b13e30311a5ab"
       },
       "ja": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789983243,
         "source_hash": "8d2e862694d5802a1e494ac81805b9da52fcef3ac975163b3561c6e10c98f304",
         "source_blob": "1c209dc86996593802c7982259c229a4f67e0701",
-        "target_hash": "1e7c410336d7f8ccd22465dfe6e12aa14cdd67c6f977df19a3c36399992e56c0"
+        "target_hash": "1b25d144bdb5e37c45cb3c7026c65665388bde4f177f53be4fffa0f9299a5cf1",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-gpt-5-manual-sync",
@@ -15754,9 +15754,9 @@
       "ja": {
         "source_hash": "215638f7991ce510136314c579991699fe42f8c3544217955df434d8b7258821",
         "source_blob": "a69b0abc2e76cf3c0e6aa018ceca7891bf5baecd",
-        "target_hash": "deac090d0986e9ad0e53291eefcdef3580725de52ad330748e178bf54a195371",
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792567827
+        "target_hash": "b9689e8e5c58a952798cb00b9bba2abf7209e3b94ce20aae143d956ea2a3d6cd",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-manual-sync",
@@ -15819,11 +15819,11 @@
         "target_hash": "c0a2702dae103336881fb8e0c5f248efe8e834782c4bde3b614424b4e535a0d6"
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792139333,
         "source_hash": "8ef2a128edcccc60bb47385e2241e593beafa0c5cc33ecf55d9fb471ba4d8a99",
         "source_blob": "c6f924f52679385d86f8a669f49cc19ffc35ad82",
-        "target_hash": "b8a8cf314151da28d4e69cf06d937bb8c96fd8669f1a8fb50f6f9d9711dee482"
+        "target_hash": "6e6177981646623ae7e14c3c6e238267b6390b3a9327561a91c89d9dec7de3f9",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-manual-sync",
@@ -15886,11 +15886,11 @@
         "target_hash": "1e88852319e2cf4635f0f44d353ad0f373fe43d73bc0410eac04dba960496743"
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
         "source_hash": "ed3e0db21dc0c295c3d5ed79bf1669db45f3f334764b2cefa10645d99f2d6ba1",
         "source_blob": "0b312b95dbb29cb9a65e9ef352f327578dd8dbbb",
-        "target_hash": "be68c91e6dd9b558f97c91df6059d0c18104e0e4a12bbee95151075000160a67"
+        "target_hash": "b151d2ab0ee08db8d956bd1e2cb3f3ce06c56d389bb4838e645f1d2e1ed6046c",
+        "model": "claude-opus-5-5-ja-review",
+        "updated_at": 1792655214
       },
       "pl": {
         "model": "codex-manual-sync",

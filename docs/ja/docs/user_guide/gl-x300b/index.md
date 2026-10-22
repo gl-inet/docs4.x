@@ -2,7 +2,7 @@
 
 ## 製品概要 {#product-overview}
 
-Collie（GL-X300B）は、高温環境や物理的リスクのある環境での利用を想定して設計された産業用セルラーゲートウェイです。Collie には 3 つのバージョンがあり、屋内の固定設備向け（GL-X300B-RS485 / GL-X300B-BLE）と、車載利用向け（GL-X300B-GPS）に分かれています。電気ノイズの多い環境における機器間通信にも適しています。
+Collie（GL-X300B）は、高温環境や物理的リスクのある環境での利用を想定して設計された産業用セルラーゲートウェイです。Collie には 3 つのバージョンがあり、屋内の固定設備向け（GL-X300B-RS485 / GL-X300B-BLE）と、車載利用向け（GL-X300B-GPS）に分かれています。Collie は、電気ノイズの多い環境における電気機器間のマシンツーマシン（M2M）通信に最適です。
 
 ![gl-x300b interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/hardware_info/gl-x300b_interface.jpg){class="glboxshadow"}
 
@@ -117,7 +117,7 @@ GL.iNet のすべてのルーターは、ほぼ共通の手順でセットアッ
 
 ## INTERNET {#internet}
 
-ルーターの Web Admin Panel にログインし、左側メニューの **INTERNET** に移動します。
+ルーターの Web 管理パネルにログインし、左側メニューの **INTERNET** に移動します。
 
 このページでは、モデルに応じて Ethernet、Repeater、Tethering、Cellular などの接続方法を選択できます。
 
@@ -159,7 +159,7 @@ Multi-WAN は、ルーターに複数のインターネット接続（例: Ether
 
 ## WIRELESS {#wireless}
 
-Wireless 設定では、メイン Wi‑Fi と Guest Wi‑Fi のネットワークセキュリティを管理できます。左側メニューの **WIRELESS** からアクセスします。
+ワイヤレス設定では、メイン Wi‑Fi とゲスト Wi‑Fi のネットワークセキュリティを管理できます。左側メニューの **WIRELESS** からアクセスします。
 
 [ワイヤレス設定の詳細はこちら](../../interface_guide/wireless.md)
 
@@ -167,7 +167,7 @@ Wireless 設定では、メイン Wi‑Fi と Guest Wi‑Fi のネットワー�
 
 ## CLIENTS {#clients}
 
-Clients はルーターに接続されているデバイスです。クライアントのブロックやネットワーク速度の制限を行えます。ルーターの Admin Panel で左側メニューの **CLIENTS** をクリックすると利用できます。
+クライアントとは、ルーターに接続されているデバイスのことです。クライアントのブロックやネットワーク速度の制限を行えます。ルーターの Web 管理パネルで左側メニューの **CLIENTS** をクリックすると利用できます。
 
 [クライアント管理の詳細はこちら](../../interface_guide/clients.md)
 

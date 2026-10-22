@@ -4,11 +4,11 @@
 
 新しい AstroWarp は GL.iNet ルーター SDK に統合されており、トラフィック難読化を内蔵した AmneziaWG プロトコルを採用しています。これにより、安定かつ安全な接続を実現し、いつでもどこでも信頼性の高いリモートアクセスを提供します。
 
-この機能により、自宅ネットワークへシームレスにリモートアクセスできます。Web Admin Panel からダイナミックアクセスコードを使ってデバイスを直接設定・ペアリングでき、登録やログインなしで、旅行用ルーターと自宅ネットワークの安全な接続を数秒で確立できます。
+この機能により、自宅ネットワークへシームレスにリモートアクセスできます。Web 管理パネル からダイナミックアクセスコードを使ってデバイスを直接設定・ペアリングでき、登録やログインなしで、旅行用ルーターと自宅ネットワークの安全な接続を数秒で確立できます。
 
-従来の AstroWarp は Web Admin Panel 上に表示されていましたが、リモートネットワーク接続を確立するには独立した AstroWarp プラットフォームが必要でした。従来版 AstroWarp のドキュメントについては、[こちら](https://docs.astrowarp.net/){target="_blank"} をクリックしてください。
+従来の AstroWarp は Web 管理パネル 上に表示されていましたが、リモートネットワーク接続を確立するには独立した AstroWarp プラットフォームが必要でした。従来版 AstroWarp のドキュメントについては、[こちら](https://docs.astrowarp.net/){target="_blank"} をクリックしてください。
 
-**Note:**
+**注意:**
 
 1. OpenVPN Client、WireGuard Client、GoodCloud Site to Site、ZeroTier、Tailscale、Tor のいずれかの機能と AstroWarp を同時に使用すると、ルーティングの競合が発生する可能性があるため、推奨されません。
 2. AstroWarp を有効にすると、Network Mode は使用できません。
@@ -141,11 +141,11 @@ Flint 3 はホームルーターとして動作し、Slate 7 は旅行用ルー�
 
 2. **Q: ホームルーター側で接続を終了すると、旅行用ルーターはどうなりますか。**
 
-    A: 旅行用ルーターは切断され、ネットワークにアクセスできない pending 状態になります。ホームルーター側で接続が再開されると、アクセスコードを再入力しなくても旅行用ルーターは自動的に再接続できます。
+    A: 旅行用ルーターは切断され、ネットワークにアクセスできない待機（pending）状態になります。ホームルーター側で接続が再開されると、アクセスコードを再入力しなくても旅行用ルーターは自動的に再接続できます。
 
-3. **Q: どのような場合に旅行用ルーターは pending 状態になりますか。**
+3. **Q: どのような場合に旅行用ルーターは待機（pending）状態になりますか。**
 
-    A: ホームルーターが次のいずれかの条件に当てはまると、旅行用ルーターは pending 状態になります。
+    A: ホームルーターが次のいずれかの条件に当てはまると、旅行用ルーターは待機（pending）状態になります。
 
     - AstroWarp 接続を終了した場合
     - インターネット接続を失った場合
@@ -158,9 +158,9 @@ Flint 3 はホームルーターとして動作し、Slate 7 は旅行用ルー�
 
     A: ホームルーター側で AstroWarp をリセットすると、リモート接続されているデバイスは AstroWarp ネットワークから切断され、インターネット接続にはローカルネットワークへ戻ります。
 
-6. **Q: ルーターの Web Admin Panel で新しい AstroWarp を有効にした場合、どうすれば無効にして従来版 AstroWarp に戻せますか。**
+6. **Q: ルーターの Web 管理パネル で新しい AstroWarp を有効にした場合、どうすれば無効にして従来版 AstroWarp に戻せますか。**
 
-    A: ルーターの Web Admin Panel で **CLOUD SERVICES** -> **AstroWarp** に移動し、右上の **Reset** をクリックします。
+    A: ルーターの Web 管理パネル で **CLOUD SERVICES** -> **AstroWarp** に移動し、右上の **Reset** をクリックします。
 
     ![reset](https://static.gl-inet.com/docs/router/en/4/interface_guide/astrowarp/reset.png){class="glboxshadow"}
 
@@ -170,4 +170,4 @@ Flint 3 はホームルーターとして動作し、Slate 7 は旅行用ルー�
 
 ---
 
-ご不明な点がある場合は、[Community Forum](https://forum.gl-inet.com){target="_blank"} にアクセスするか、[Contact us](https://www.gl-inet.com/contacts/){target="_blank"} までお問い合わせください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

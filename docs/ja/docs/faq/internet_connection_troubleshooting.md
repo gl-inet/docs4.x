@@ -82,7 +82,7 @@ VLAN ID を設定する手順は以下のとおりです。
 | ドイツ | o2(UGG) | PPPoE | 7 | いいえ | |
 | イギリス | BT Broadband | PPPoE | 101 | いいえ | VLAN 101 が必要で、PPPoE ログインが必要です。 |
 | イギリス | Sky Broadband | DHCP（Option 61） | 101 | いいえ | DHCP Option 61（クライアント識別子）が必要です。 |
-| イギリス | Virgin | DHCP | N/A | はい | モデムをブリッジモードにし、MAC クローンが必要です。 |
+| イギリス | Virgin | DHCP | N/A | はい | モデムはブリッジモードで動作しており、MAC クローンが必要です。 |
 | フランス | Orange | DHCP / PPPoE | 832 | いいえ | VLAN 832 が必要で、Option 90 認証が必要な場合があります。 |
 | フランス | Free (Freebox) | DHCP | N/A | いいえ | |
 | フランス | Bouygues Telecom | DHCP | 100 | はい | Bbox の MAC をクローンします。 |

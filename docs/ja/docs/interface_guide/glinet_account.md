@@ -60,7 +60,7 @@ GL.iNetセクション右下の**GO**をクリックしてアプリのダウン�
 
 ## GL.iNetアカウントの関連付けを解除する {#unbind-glinet-account}
 
-このデバイスとGL.iNetアカウントの関連付けを解除するには、**Unbind**をクリックします。
+このデバイスとGL.iNetアカウントの関連付けを解除するには、**Unbind**をクリックします。デバイスの関連付けが解除されます。
 
 ![unbind device](https://static.gl-inet.com/docs/router/en/4/interface_guide/glinet_account/unbind_account.png){class="glboxshadow"}
 
@@ -70,4 +70,4 @@ GoodCloudでデバイスを管理している場合は、**Devices** -> **Bound 
 
 ---
 
-ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}または[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}をご利用ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

@@ -10,7 +10,7 @@
 
 ---
 
-WireGuard® は、最先端の暗号技術を利用した、非常にシンプルで高速かつモダンな VPN です。IPsec よりも高速・簡潔・軽量で使いやすいことを目指しており、OpenVPN よりも大幅に高いパフォーマンスを期待できます。
+WireGuard® は、最先端の暗号技術を利用した、非常にシンプルで高速かつモダンな VPN です。IPsec の煩雑さを避けながら、IPsec よりも高速・簡潔・軽量で使いやすいことを目指しており、OpenVPN よりも大幅に高いパフォーマンスを期待できます。
 
 GL.iNet ルーターで WireGuard クライアントを設定するには、以下の動画を見るか、下記の手順に従ってください。
 
@@ -507,7 +507,7 @@ Web 管理パネルで **VPN** -> **WireGuard Client** -> **Windscribe** を開�
 
 [公式サイト](https://xvpn.io/){target="_blank"}
 
-**Note**: X-VPN はファームウェア v4.11 以降の GL.iNet ルーターに統合されています。
+**注意**: X-VPN はファームウェア v4.11 以降の GL.iNet ルーターに統合されています。
 
 1. まず、公式サイトで X-VPN トークンを取得します。
 
@@ -523,7 +523,7 @@ Web 管理パネルで **VPN** -> **WireGuard Client** -> **Windscribe** を開�
 
     ![xvpn generate token](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn3.png){class="glboxshadow"}
 
-2. GL.iNet ルーターの Web Admin Panel にログインし、**VPN** -> **VPN Client Profile** に移動します。**X-VPN** をクリックします。
+2. GL.iNet ルーターの Web 管理パネルにログインし、**VPN** -> **VPN Client Profile** に移動します。**X-VPN** をクリックします。
 
     ![xvpn enter token](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn4.png){class="glboxshadow"}
 
@@ -551,13 +551,13 @@ Web 管理パネルで **VPN** -> **WireGuard Client** -> **Windscribe** を開�
 
     **VPN Dashboard** では、VPN 接続の詳細確認、VPN トンネルやポリシーの作成と管理もできます。
 
-5. サーバーを更新します。
+5. サーバー一覧を更新します。
 
     **Update Servers** をクリックすると、利用可能な最新のサーバーリストを取得し、サーバーメンテナンスや停止による接続失敗を避けられます。
 
     ![xvpn update servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn10.png){class="glboxshadow"}
 
-6. 更新します。
+6. 契約を更新します。
 
     **Go Renew** をクリックすると、サブスクリプション更新のため公式サイトに移動します。
 

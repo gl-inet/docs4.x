@@ -6,7 +6,7 @@ v4.6 以降、Firewall ページは分割されました。Port Forwarding と D
 
 ---
 
-Web Admin Panel の左側で、**NETWORK** -> **Firewall** に移動します。
+Web 管理パネルの左側で、**NETWORK** -> **Firewall** に移動します。
 
 このページでは、**Port Forwarding**、**Open Ports on Router**、**DMZ** などのファイアウォールルールを設定できます。
 
@@ -38,7 +38,7 @@ Port Forwarding を設定するには、**Port Forwards** タブをクリック�
 
 **Enable:** スイッチでルールを有効または無効にします。
 
-## ルーターで開いているポート {#open-ports-on-router}
+## ルーターのポート開放 {#open-ports-on-router}
 
 Web や FTP などのルーターサービスを外部から利用できるようにするには、それぞれのポートをルーター上で開放する必要があります。
 

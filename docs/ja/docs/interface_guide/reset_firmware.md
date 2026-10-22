@@ -4,7 +4,7 @@ Web管理パネルの左側で、**SYSTEM** -> **Reset Firmware** に移動し�
 
 ルーターが正常に動作しない場合は、ファームウェアをリセットすることで問題を解決できることがあります。**Delete All and Reboot** ボタンをクリックしてファームウェアをリセットします。
 
-**Note:** 現在の設定、アプリケーション、データはすべて失われます。処理には約 2 分かかります。この間はルーターの電源を **切らないでください**。
+**注意:** 現在の設定、アプリケーション、データはすべて失われます。処理には約 2 分かかります。この間はルーターの電源を **切らないでください**。
 
 ![reset firmware](https://static.gl-inet.com/docs/router/en/4/interface_guide/reset_firmware/reset_firmware_4.8.png){class="glboxshadow"}
 
@@ -20,4 +20,4 @@ Web管理パネルにアクセスできない場合は、以下の動画を参�
 
 ---
 
-ご不明な点がありましたら、[Community Forum](https://forum.gl-inet.com){target="_blank"} または [Contact us](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

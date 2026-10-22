@@ -1,4 +1,4 @@
-# Ethernet Port {#ethernet-port}
+# イーサネットポート {#ethernet-port}
 
 このページの内容はファームウェアv4.7-4.9に基づいています。デバイスで別のファームウェアバージョンを使用している場合は、次の選択メニューから対応するガイドへ切り替えてください。
 
@@ -26,7 +26,7 @@ Ethernet ポートの役割（WAN/LAN）を管理し、MAC アドレスやネゴ
 
 - **MAC Address**: WAN インターフェースの MAC アドレスです。
 
-- **Negotiated Network Port Rate**: WAN インターフェースのリンク速度交渉結果です。有効なリンクが検出された場合にのみ表示されます。
+- **Negotiated Network Port Rate**: WAN インターフェースのネゴシエートされたリンク速度です。有効なリンクが検出された場合にのみ表示されます。
 
 ## LAN {#lan}
 
@@ -89,4 +89,4 @@ LAN ポートを WAN ポートへ切り替えるには、以下の手順を実�
 
 ---
 
-ご不明な点がありましたら、[コミュニティ・フォーラム](https://forum.gl-inet.com){target="_blank"}または[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}をご利用ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

@@ -10,11 +10,11 @@
 
 ## 2. 安定したネットワーク環境を確保する {#2-ensure-network-stable}
 
-リモートサポート中の切断や遅延を避けるため、可能であればコンピューターで Wi-Fi と有線接続の両方を利用することを推奨します。
+リモートサポート中の切断や遅延を避けるため、コンピューターで Wi-Fi と有線接続の両方を利用することを推奨します。
 
 ## 3. AnyDeskをダウンロードしてインストールする {#3-download-and-install-anydesk}
 
-公式の [AnyDesk website](https://anydesk.com/) にアクセスし、お使いの Operating System に適したバージョンをダウンロードしてください。
+[AnyDesk 公式サイト](https://anydesk.com/)にアクセスし、お使いの OS に適したバージョンをダウンロードしてください。
 
 ![download anydesk](https://static.gl-inet.com/docs/router/en/4/tutorials/remote_support_via_anydesk/install_anydesk.png){class="glboxshadow"}
 

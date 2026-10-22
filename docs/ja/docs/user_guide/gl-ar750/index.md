@@ -39,9 +39,9 @@ Wi-Fi またはイーサネットを使用して、パソコンまたはモバ�
 
 ### 3. Creta をインターネットに接続する {#3-connect-creta-to-the-internet}
 
-**Note:** 以下の説明は、Web 管理画面からルーターをインターネットへ接続する場合の手順です。Web 管理画面の代わりに GL.iNet アプリを使う場合は、[アプリをダウンロード](https://www.gl-inet.com/app/){target="_blank"}して、画面の案内に従ってください。
+**注：** 以下の説明は、Web 管理パネルからルーターをインターネットへ接続する場合の手順です。Web 管理パネルの代わりに GL.iNet アプリを使う場合は、[アプリをダウンロード](https://www.gl-inet.com/app/){target="_blank"}して、画面の案内に従ってください。
 
-#### 1. ルーターの Web 管理画面にログインする {#1-log-in-to-the-router-web-admin-panel}
+#### 1. ルーターの Web 管理パネルにログインする {#1-log-in-to-the-router-web-admin-panel}
 
 Web ブラウザのアドレスバーに `192.168.8.1` を入力します。言語を選択して **Next** をクリックします。管理者パスワードを設定してから **Apply** をクリックします。
 
@@ -59,7 +59,7 @@ Web ブラウザのアドレスバーに `192.168.8.1` を入力します。言�
 
     ![repeater](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar750/internet_setup/repeater.png){class="glboxshadow"}
 
-    1. Web 管理画面のメイン画面で "Repeater" セクションを見つけ、**Connect** をクリックします。
+    1. Web 管理パネルのメイン画面で "Repeater" セクションを見つけ、**Connect** をクリックします。
     2. Wi-Fi ネットワークを選択します。
     3. ネットワークのパスワードを入力し、**Apply** をクリックします。
 
@@ -72,7 +72,7 @@ Web ブラウザのアドレスバーに `192.168.8.1` を入力します。言�
     ![tethering](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar750/internet_setup/tethering.png){class="glboxshadow"}
 
     1. スマートフォンを USB ケーブルでルーターに接続し、設定のパーソナルホットスポットでネットワーク共有を有効にします。
-    2. Web 管理画面のメイン画面で "Tethering" セクションを見つけ、**Connect** をクリックします。
+    2. Web 管理パネルのメイン画面で "Tethering" セクションを見つけ、**Connect** をクリックします。
     3. インターネット接続に成功すると、"Tethering" の横に緑色の点が表示されます。
 
     詳しい手順は、[USB テザリングでインターネットに接続する](../../interface_guide/internet_tethering.md)をご参照ください。
@@ -82,12 +82,12 @@ Web ブラウザのアドレスバーに `192.168.8.1` を入力します。言�
     ![cellular](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar750/internet_setup/usb_modem.png){class="glboxshadow"}
 
     1. セルラー通信対応の USB モデムをルーターの USB ポートに挿入します。
-    2. Web 管理画面のメイン画面で "Cellular" セクションを見つけ、**Connect** をクリックします。
+    2. Web 管理パネルのメイン画面で "Cellular" セクションを見つけ、**Connect** をクリックします。
     3. インターネット接続に成功すると、"Cellular" の横に緑色の点が表示されます。
 
     詳しい手順は、[USB モデムでインターネットに接続する](../../interface_guide/internet_cellular.md)をご参照ください。
 
-**Note:** マルチWAN機能を使用する場合は、2 つ以上のインターネット接続方法を設定する必要があります。
+**注：** マルチWAN機能を使用する場合は、2 つ以上のインターネット接続方法を設定する必要があります。
 
 ---
 
@@ -264,7 +264,7 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
 === "管理者パスワード"
 
-    管理者パスワードのページでは、ルーターの管理画面に使用するパスワードを設定または変更できます。これにより、許可されたユーザーだけがルーターの設定にアクセスして変更できるようになります。このパスワードは、ネットワークの安全性と設定の完全性を保ち、不正アクセスや不正な設定変更を防ぐうえで非常に重要です。
+    管理者パスワードのページでは、ルーターの管理インターフェースに使用するパスワードを設定または変更できます。これにより、許可されたユーザーだけがルーターの設定にアクセスして変更できるようになります。このパスワードは、ネットワークの安全性と設定の完全性を保ち、不正アクセスや不正な設定変更を防ぐうえで非常に重要です。
 
     詳しい設定手順と詳細情報は、[管理者パスワード](../../interface_guide/admin_password.md)をご参照ください。
 

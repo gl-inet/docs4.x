@@ -4,11 +4,11 @@
 
 GL.iNet ルーターは、クライアントデバイスの MAC アドレス（ネットワーク上の各デバイスに割り当てられた 12 文字の一意の識別子）に基づいてデバイスをブロックします。この方法は MAC アドレスフィルタリングとも呼ばれます。
 
-GL.iNet ルーターでクライアントデバイスをブロックする方法は 2 つあります。[ルーターの管理画面](#block-client-devices-via-the-admin-panel)を使う方法と、[GL.iNet モバイルアプリ](#block-client-devices-via-the-glinet-mobile-app)を使う方法です。
+GL.iNet ルーターでクライアントデバイスをブロックする方法は 2 つあります。[ルーターの管理パネル](#block-client-devices-via-the-admin-panel)を使う方法と、[GL.iNet モバイルアプリ](#block-client-devices-via-the-glinet-mobile-app)を使う方法です。
 
-## 管理画面からクライアントデバイスをブロックする {#block-client-devices-via-the-admin-panel}
+## 管理パネルからクライアントデバイスをブロックする {#block-client-devices-via-the-admin-panel}
 
-### 1. 管理画面にサインインする {#1-sign-in-to-the-admin-panel}
+### 1. 管理パネルにサインインする {#1-sign-in-to-the-admin-panel}
 
 Web ブラウザで `192.168.8.1` を入力します。パスワードを入力し、**Login** をクリックします。
 
@@ -45,7 +45,7 @@ MAC アドレスを把握しているかどうかによって、次の 2 通り�
 
 ## GL.iNet モバイルアプリからクライアントデバイスをブロックする {#block-client-devices-via-the-glinet-mobile-app}
 
-**Note:** 開始する前に、デバイスに GL.iNet モバイルアプリをインストールして初期設定を完了してください。
+**注意:** 開始する前に、デバイスに GL.iNet モバイルアプリをインストールして初期設定を完了してください。
 
 MAC アドレスを把握しているかどうかによって、次の 2 通りの方法があります。
 
@@ -79,4 +79,4 @@ MAC アドレスを把握しているかどうかによって、次の 2 通り�
 
 ---
 
-まだご不明な点がありますか？ [Community Forum](https://forum.gl-inet.com){target="_blank"} または [Contact us](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

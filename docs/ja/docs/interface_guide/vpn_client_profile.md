@@ -1,8 +1,10 @@
-# VPN クライアントプロフィール {#vpn-client-profile}
+# VPN クライアントプロファイル {#vpn-client-profile}
 
-> このガイドはファームウェア v4.9 以降に適用されます。
+**注意**: このページはファームウェア v4.9 で導入されました。
 
-Web Admin Panel の左側で、**VPN** -> **VPN Client Profile** に移動します。
+---
+
+Web 管理パネルの左側で、**VPN** -> **VPN Client Profile** に移動します。
 
 ファームウェア v4.9 以降では、[OpenVPN Client](openvpn_client.md) と [WireGuard Client](wireguard_client.md) が 1 つの **VPN Client Profile** ページに統合され、より簡単に管理できるようになりました。レイアウトは多少調整されていますが、基本機能は変わっていません。必要に応じて個別ガイドも参照できます。
 
@@ -26,15 +28,17 @@ GL.iNet ルーターでは、以下の VPN プロバイダー向けに WireGuard
 
 ![wireguard](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_client_profile/wg.png){class="glboxshadow"}
 
-別の WireGuard サービスプロバイダーを利用している場合は、プロバイダーの Web サイトから設定ファイルをダウンロードし、**Add Manually** をクリックしてルーターへアップロードしてください。設定ファイルのダウンロード方法が分からない場合は、[こちら](../tutorials/how_to_get_configuration_files_from_wireguard_service_providers.md) を参照するか、プロバイダーのサポートへお問い合わせください。
+別の WireGuard サービスプロバイダーを利用している場合は、プロバイダーの Web サイトから設定ファイルをダウンロードし、**Add Manually** をクリックしてファイルをルーターへアップロードし、VPN 接続に使用します。
 
 ![wireguard add manually](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_client_profile/wg_manual.png){class="glboxshadow"}
+
+設定ファイルのダウンロード方法が分からない場合は、[こちら](../tutorials/how_to_get_configuration_files_from_wireguard_service_providers.md) を参照するか、プロバイダーのサポートへお問い合わせください。
 
 ---
 
 [AzireVPN](https://www.azirevpn.com/aff/9x7wisg4){target="_blank"} を例に説明します。
 
-1. **AzireVPN** をクリックします。
+1. **VPN Client Profile** ページで **AzireVPN** をクリックします。
 
     ![wg azirevpn](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_client_profile/wg_azirevpn.png){class="glboxshadow"}
 
@@ -62,9 +66,9 @@ GL.iNet ルーターでは、以下の VPN プロバイダー向けに WireGuard
 
         3. （オプション）VPN 接続が予期せず失敗した場合に、ローカルネットワークのすべてのインターネットアクセスを自動的に遮断し、実際の IP アドレスやオンラインデータが漏洩するのを防ぎ、継続的なプライバシーとセキュリティを確保したい場合は、**VPN Dashboard** に移動して **Kill Switch** を有効にします。
 
-            * 個々の VPN トンネルごとに Kill Switch を設定する方法については、[こちら](vpn_dashboard.md#tunnel-options) を参照してください。
+            * 個々の VPN トンネルごとにキルスイッチを設定する方法については、[こちら](vpn_dashboard.md#tunnel-options) を参照してください。
 
-            * グローバル VPN 接続（拡張 Kill Switch）の Kill Switch を設定する方法については、[こちら](vpn_dashboard.md#all-other-traffic) を参照してください。
+            * グローバル VPN 接続のキルスイッチ（Enhanced Kill Switch）を設定する方法については、[こちら](vpn_dashboard.md#all-other-traffic) を参照してください。
 
     !!! note "Case 2. 代わりに VPN ポリシーをカスタマイズしたい場合は、以下の手順を実行してください。"
 
@@ -82,9 +86,11 @@ GL.iNet ルーターでは、[NordVPN](https://go.nordvpn.net/aff_c?offer_id=15&
 
 ![ovpn](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_client_profile/ovpn.png){class="glboxshadow"}
 
-別の OpenVPN サービスプロバイダーを利用している場合は、プロバイダーの Web サイトから設定ファイルをダウンロードし、**Add Manually** をクリックしてルーターへアップロードしてください。設定ファイルのダウンロード方法が分からない場合は、[こちら](openvpn_client.md#get-configuration-files-from-openvpn-service-providers) を参照するか、プロバイダーのサポートへお問い合わせください。
+別の OpenVPN サービスプロバイダーを利用している場合は、プロバイダーの Web サイトから設定ファイルをダウンロードし、**Add Manually** をクリックしてファイルをルーターへアップロードし、VPN 接続に使用します。
 
 ![ovpn add manually](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_client_profile/ovpn_manual.png){class="glboxshadow"}
+
+設定ファイルのダウンロード方法が分からない場合は、[こちら](openvpn_client.md#get-configuration-files-from-openvpn-service-providers) を参照するか、プロバイダーのサポートへお問い合わせください。
 
 ---
 

@@ -4,7 +4,7 @@
 
 ---
 
-Web Admin Panel の左側で、**NETWORK** -> **Subnet** に移動します。
+Web 管理パネルの左側で、**NETWORK** -> **Subnet** に移動します。
 
 このページでは、**LAN**、**Guest Network**、**IoT Network**、およびカスタム **VLAN Networks** の設定を 1 つの統合ビューにまとめています。サブネット関連の設定を一元管理でき、複数のサブネットを作成、管理して、異なる種類のデバイスやトラフィックを分離できます。
 
@@ -20,7 +20,7 @@ Main Network では、すべてのインターフェース状態、VLAN ID、ル
 
 ![main network 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/main-network-2.png){class="glboxshadow"}
 
-設定ページには、Basic settings、DHCP server settings、Address Reservation が含まれます。
+設定ページには、基本設定、DHCP サーバー設定、アドレス予約が含まれます。
 
 ### 基本設定 {#basic-settings}
 
@@ -98,7 +98,7 @@ IP を予約するには **Add** をクリックします。
 
 **Guest Network** は、訪問者向けの専用 Wi-Fi ネットワークを提供します。プライマリネットワークから分離されるため、セキュリティを高めながら便利なインターネットアクセスを提供できます。
 
-**注記**: 一部のモデル（例: GL-MT5000、GL-MT2500/GL-MT2500A）は Wi-Fi 機能を搭載していないため、Web Admin Panel に Guest Network 設定は表示されません。
+**注記**: 一部のモデル（例: GL-MT5000、GL-MT2500/GL-MT2500A）は Wi-Fi 機能を搭載していないため、Web 管理パネルに Guest Network 設定は表示されません。
 
 Guest Network では、インターフェース状態、VLAN ID、Gateway、DHCP Range を直接確認できます。
 
@@ -108,7 +108,7 @@ Guest Network では、インターフェース状態、VLAN ID、Gateway、DHCP
 
 ![guest network 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/guest-network-2.png){class="glboxshadow"}
 
-設定ページには Basic settings と DHCP server settings が含まれます。
+設定ページには、基本設定と DHCP サーバー設定が含まれます。
 
 ### 基本設定 {#basic-settings_1}
 
@@ -176,13 +176,13 @@ DHCP サーバーを無効にした場合、クライアントデバイスのネ
 
 IoT Network は、IoT デバイス専用の Wi-Fi ネットワークを作成します。プライマリネットワークから分離されるため、互換性とセキュリティが向上します。
 
-**注記**: 一部のモデル（例: GL-MT5000、GL-MT2500/GL-MT2500A）は Wi-Fi 機能を搭載していないため、Web Admin Panel に IoT Network 設定は表示されません。
+**注記**: 一部のモデル（例: GL-MT5000、GL-MT2500/GL-MT2500A）は Wi-Fi 機能を搭載していないため、Web 管理パネルに IoT Network 設定は表示されません。
 
 IoT Network では、インターフェース状態、VLAN ID、Gateway、DHCP Range を直接確認できます。
 
 ![iot network 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/iot-network-1.png){class="glboxshadow"}
 
-右下の **Edit** をクリックすると、IoT Network の設定パネルがページ右側に開きます。このパネルでは Basic Settings と DHCP Server Settings を設定できます。
+右下の **Edit** をクリックすると、IoT Network の設定パネルがページ右側に開きます。このパネルでは、基本設定と DHCP サーバー設定を構成できます。
 
 ![iot network 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/iot-network-2.png){class="glboxshadow"}
 
@@ -328,5 +328,5 @@ DHCP サーバーを無効にした場合、クライアントデバイスのネ
 
 ---
 
-ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}にアクセスするか、[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。
 

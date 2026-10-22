@@ -1,6 +1,6 @@
 # 管理者パスワード {#admin-password}
 
-**Note**: Admin Password ページは firmware v4.3 以降 [Security](security.md) に統合され、firmware v4.9 以降は独立したページとして復元されました。
+**注意**: このページはファームウェア v4.3 以降 [Security](security.md) に統合され、ファームウェア v4.9 以降は独立したページとして復元されました。
 
 このページでは、ルーターの管理インターフェース用パスワードを設定または変更できます。
 
@@ -20,4 +20,4 @@ Web管理パネルの左側で、**SYSTEM** > **Admin Password** に移動しま
 
 ---
 
-ご不明な点がありましたら、[Community Forum](https://forum.gl-inet.com){target="_blank"} または [Contact us](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

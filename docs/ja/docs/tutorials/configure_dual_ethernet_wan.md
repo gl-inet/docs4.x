@@ -14,7 +14,7 @@ GL.iNetルーターは一般的な Ethernet to USB-A アダプターをサポー
 
 2. USB ドライバーをインストールします。
 
-    ルーターの Web 管理画面にログインし、**Application** -> **Plug-ins** に移動して、お使いのアダプター用の USB ネットワークドライバーをインストールします。
+    ルーターの Web 管理パネルにログインし、**Application** -> **Plug-ins** に移動して、お使いのアダプター用の USB ネットワークドライバーをインストールします。
 
     たとえば Realtek アダプターを使用している場合は、**kmod-usb-net-rtl8152** ドライバーをインストールしてください。
 
@@ -38,4 +38,4 @@ GL.iNetルーターは一般的な Ethernet to USB-A アダプターをサポー
 
 ---
 
-ご不明な点がある場合は、[Community Forum](https://forum.gl-inet.com){target="_blank"} をご利用いただくか、[Contact us](https://www.gl-inet.com/contacts/){target="_blank"} からお問い合わせください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

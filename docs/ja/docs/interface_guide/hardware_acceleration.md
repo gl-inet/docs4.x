@@ -46,11 +46,11 @@
 
 ## クイック設定 {#quick-setup}
 
-Web Admin Panel の左側で、**NETWORK** -> **Hardware Acceleration** に移動します。
+Web 管理パネルの左側で、**NETWORK** -> **Hardware Acceleration** に移動します。
 
 ![Hardware Acceleration](https://static.gl-inet.com/docs/router/en/4/interface_guide/hardware_acceleration/hardware_acceleration.png){class="glboxshadow"}
 
-スイッチをオンにして、**Apply** をクリックします。
+スイッチをオンにして有効にし、**Apply** をクリックします。
 
 ---
 
@@ -58,7 +58,7 @@ Web Admin Panel の左側で、**NETWORK** -> **Hardware Acceleration** に移�
 
 * スループット（例: マルチギガビット回線）を最優先し、ルーター上で SQM やクライアントごとの帯域制御を使わない場合は、Hardware NAT / Network Acceleration を有効にしてください。最も高いスループットと低い CPU 使用率を実現できます。
 
-* 低遅延、一貫した QoS、クライアント単位の制限が重要で、SQM（cake/fq_codel）を利用する場合は、Software NAT（ハードウェアオフロード無効）を使用してください。SQM と QoS はパケットがカーネルの qdisc スタックを通過する必要がありますが、オフロードされたパケットはこの経路を通らないため、帯域制御されません。
+* 低遅延、一貫した QoS、クライアント単位の制限が重要な場合、または SQM（cake/fq_codel）を利用する場合は、Software NAT（ハードウェアオフロード無効）を使用してください。SQM と QoS はパケットがカーネルの qdisc スタックを通過する必要がありますが、オフロードされたパケットはこの経路を通らないため、帯域制御されません。
 
 ---
 

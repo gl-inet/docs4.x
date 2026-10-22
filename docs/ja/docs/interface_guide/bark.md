@@ -1,10 +1,12 @@
 # Bark {#bark}
 
-> このガイドはファームウェア v4.9 以降に適用されます。以前のバージョンについては [こちら](parental_control.md#bark-version) をクリックしてください。
+このガイドはファームウェア v4.9 以降に適用されます。以前のバージョンについては [こちら](parental_control.md#bark-version) をクリックしてください。
+
+---
 
 [Bark](https://www.bark.us/){target="_blank"} サービスは、お子さまのデジタル環境を保護し、包括的なオンライン保護を提供するのに役立ちます。通常は有料サブスクリプションが必要ですが、Bark との提携の一環として、GL.iNet は**一部のルーターモデル**で Bark Home プランを無料提供しており、追加費用なしで高度な監視機能とアラートを利用できます。
 
-**Note**:
+**注意**:
 
 1. Bark サービスは **米国、オーストラリア、南アフリカでのみ** 利用できます。詳細は [こちら](https://support.bark.us/hc/en-us/articles/360049965072-International-availability){target="_blank"} をご確認ください。
 
@@ -49,7 +51,7 @@
 
 ## クイックセットアップ {#quick-setup}
 
-ルーターの Web 管理画面にログインし、**APPLICATIONS** -> **Bark** に移動します。
+ルーターの Web 管理パネルにログインし、**APPLICATIONS** -> **Bark** に移動します。
 
 ![bark](https://static.gl-inet.com/docs/router/en/4/interface_guide/bark/bark1.png){class="glboxshadow"}
 
@@ -75,12 +77,12 @@ Bark の Web サイトにリダイレクトされます。画面の案内に従�
 ![bark setup](https://static.gl-inet.com/docs/router/en/4/interface_guide/bark/bark7.png){class="glboxshadow"}
 <small>(Create a profile)</small>
 
-デバイスが Bark Cloud Services に接続され、アカウントとのペアリングが完了すると、ルーターの Web Admin Panel は次のように表示されます。
+デバイスが Bark Cloud Services に接続され、アカウントとのペアリングが完了すると、ルーターの Web 管理パネルは次のように表示されます。
 
 ![bark status](https://static.gl-inet.com/docs/router/en/4/interface_guide/bark/bark8.png){class="glboxshadow"}
 
 **Go to Bark** または [こちら](https://www.bark.us/app/children/?ref=glinet&home=glinet){target="_blank"} をクリックして Bark ダッシュボードにログインし、ペアレンタルコントロールのルールを設定してください。
 
-GL.iNet はこのサービスの提供元ではないため、Bark の利用中に問題が発生した場合は、[Bark's Technical Support](https://www.bark.us/contact-us/?ref=glinet&home=glinet){target="_blank"} へ直接お問い合わせください。
+GL.iNet はこのサービスの提供元ではないため、Bark の利用中に問題が発生した場合は、[Bark のテクニカルサポート](https://www.bark.us/contact-us/?ref=glinet&home=glinet){target="_blank"} へ直接お問い合わせください。
 
 ---

@@ -33,7 +33,7 @@
 
 ここでは、外付け USB モデムを接続した **GL-AXT1800 (Slate AX)** を例に説明します。
 
-最初にルーターの電源を切り、事前に有効化した SIM カードを USB モデムへ挿入してから、モデムをルーターの USB ポートへ接続してください。その後、ルーターの電源を入れます。
+まずルーターの電源を切ることをおすすめします。事前に有効化した SIM カードを USB モデムへ挿入してから、モデムをルーターの USB ポートへ接続し、その後ルーターの電源を入れてください。
 
 ルーターの起動後に USB モデムを接続した場合、Web 管理パネルが自動更新されないことがあります。その場合はページを更新するか、ルーターを再起動してください。
 
@@ -142,7 +142,7 @@ Cellular セクションで **Manual Setup** をクリックすると、現在�
 
     ![dual-sim, 5g sim](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/dual_sim/5g_sim.png){class="glboxshadow"}
 
-自動的に接続されない場合は、**Auto Setup** をクリックして接続を待つか、**手動セットアップ** を試してください。
+自動的に接続されない場合は、**Auto Setup** をクリックして接続を待つか、**Manual Setup** を試してください。
 
 ### 手動セットアップ {#manual-setup_1}
 
@@ -180,7 +180,7 @@ SIM カードを2枚挿入している場合は、**Auto Switch** を有効に�
 
 - **Checking Preferred Slot Status Scheduled**
 
-    有効にすると、デバイスは毎日設定した時刻に優先 SIM スロットを確認し、優先 SIM が再びインターネットへ接続できる状態になっていれば自動で戻します。
+    有効にすると、デバイスは毎日設定した時刻に優先 SIM スロットを確認し、優先 SIM が再びインターネットへ接続できる状態になっていれば、優先 SIM への切り替えを試みます。
 
     これにより、バックアップ SIM のデータ消費が過剰になるのを防げます。優先 SIM に引き続き信号がない場合は、バックアップ SIM の使用が継続されます。
 
@@ -316,7 +316,7 @@ Cellular セクションで **View More** をクリックし、**Cells Info** �
 
 信号が弱い場合は、Band Masking を有効にして特定のバンドをブロックできます。逆に信号が良好な場合は、ルーターが特定のセルラーバンドのみを使用するよう制限することもできます。
 
-**手動セットアップ** をクリックして Cellular Settings ページに入り、**Band Masking** を有効にします。
+**Manual Setup** をクリックして Cellular Settings ページに入り、**Band Masking** を有効にします。
 
 ![bandmasking](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/band_masking/band_masking.jpg){class="glboxshadow"}
 
@@ -348,7 +348,7 @@ Cellular セクションで **View More** をクリックし、**Cells Info** �
 
     4. SIM カードの状態を確認し、有効化されていることを確認します。SIM カードをスマートフォンに挿して、モバイルデータ通信プランが有効な状態で正常にインターネットへ接続できるかテストするか、通信事業者へ確認してください。
 
-    5. 一部の通信事業者では、接続に 3G プロトコルが必要な場合があります。**手動セットアップ** -> **Cellular Settings** -> **Protocol** に移動し、**3G** を選択して **Apply** をクリックしてください。
+    5. 一部の通信事業者では、接続に 3G プロトコルが必要な場合があります。**Manual Setup** -> **Cellular Settings** -> **Protocol** に移動し、**3G** を選択して **Apply** をクリックしてください。
 
         ![manual setup, sim protocol](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/cellular_settings.png){class="glboxshadow"}
 
@@ -356,7 +356,7 @@ Cellular セクションで **View More** をクリックし、**Cells Info** �
 
     6. 一部の SIM カードには特別な利用制限（特定の APN が必要など）がある場合があります。SIM カードが登録に失敗する場合は、制限がないか通信事業者へ確認してください。
 
-        必要に応じて、**手動セットアップ** -> **Cellular Settings** -> **APN** に移動し、ルーター上で正しい APN を設定してから **Apply** をクリックしてください。
+        必要に応じて、**Manual Setup** -> **Cellular Settings** -> **APN** に移動し、ルーター上で正しい APN を設定してから **Apply** をクリックしてください。
 
     7. **View More** をクリックして **Cells Info** を選択し、セルラー信号強度を確認します。信号が弱い場合は、アンテナが正しく取り付けられているか確認してください。より良い受信のため、ルーターを開けた障害物の少ない場所へ移動してください。
 
@@ -390,4 +390,4 @@ Cellular セクションで **View More** をクリックし、**Cells Info** �
 
 ---
 
-ご不明な点がありましたら、[コミュニティ・フォーラム](https://forum.gl-inet.com){target="_blank"}または[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}をご利用ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

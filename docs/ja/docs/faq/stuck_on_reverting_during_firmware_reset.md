@@ -1,10 +1,10 @@
-# ファームウェアリセット中に「Reverting」でスタックする {#stuck-on-reverting-during-firmware-reset}
+# ファームウェアリセット中に「Reverting」のまま進まない {#stuck-on-reverting-during-firmware-reset}
 
-ルーターがファームウェアリセット中に「Reverting」でスタックする場合は、以下の手順に従って問題を解決してください。
+ファームウェアのリセット中にルーターが「Reverting」のまま進まない場合は、以下の手順に従って問題を解決してください。
 
 ![stuck on reverting](https://static.gl-inet.com/docs/router/en/4/faq/troubleshooting/stuck_on_reverting/reverting.png){class="glboxshadow"}
 
-各手順の後、問題が解決したかどうかを確認します。解決した場合は、残りの手順をスキップできます。
+各手順の後に、問題が解決したかどうかを確認してください。解決した場合は、残りの手順は不要です。
 
 1. リセット（Reverting）プロセスが自動的に完了するかどうかを確認するため、少なくとも10分間待ちます。リセットプロセスには想定より時間がかかることがあります。
 
@@ -20,4 +20,4 @@
 
 ---
 
-まだ質問がありますか？ [コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}または[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}をご覧ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

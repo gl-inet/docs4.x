@@ -35,7 +35,7 @@
 
 ## eSIM 管理 {#esim-management_1}
 
-Web Admin Panel の左側で、**APPLICATIONS** -> **eSIM Management** に移動します。
+Web 管理パネルの左側で、**APPLICATIONS** -> **eSIM Management** に移動します。
 
 このページでは、物理 eSIM カードの状態確認と eSIM プロファイルの管理ができます。内容は **Current eSIM Status** と **eSIM Profile List** の 2 つの部分で構成されています。
 
@@ -60,7 +60,7 @@ Web Admin Panel の左側で、**APPLICATIONS** -> **eSIM Management** に移動
 
 ![esim profile list](https://static.gl-inet.com/docs/router/en/4/interface_guide/esim_management/esim_profile_list.png){class="glboxshadow"}
 
-- **Seed Profile**: シードプロファイルには、アクティベーション日から 1 年間有効な米国およびヨーロッパ向け 1GB の無料データと、100MB のグローバルデータが事前に読み込まれています。このデータを利用して、世界中で他のプロファイルをダウンロードできます。残量、総量、有効期限などの利用状況も確認できます。
+- **Seed Profile**: シードプロファイルには、米国およびヨーロッパ向けの 1GB の無料データと 100MB のグローバルデータがあらかじめ含まれており、アクティベーション日から 1 年間有効です。このデータを利用して、世界中で他のプロファイルをダウンロードできます。残量、総量、有効期限などの利用状況も確認できます。
 
 - **Normal Profile**: eSIM プロファイルを購入し、QR コードまたはアクティベーションコードでアップロードすると、ここに表示されます。
 
@@ -122,7 +122,7 @@ eSIM プロファイルを購入すると、通常は QR コードまたはア�
 
     ![add esim profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/esim_management/add_esim_profile2.png){class="glboxshadow"}
 
-    **Note:**
+    **注意:**
 
     1. ほとんどの eSIM プロファイルは 1 回しかダウンロードおよびインストールできません。
 
@@ -160,9 +160,9 @@ eSIM プロファイルを購入すると、通常は QR コードまたはア�
 
 関連記事:
 
-- [GL.iNetルーターでeSIM Physical Cardを使用する方法](../tutorials/how_to_use_esim_physical_card_with_glinet_routers.md)
-- [Android デバイスで eSIM Physical Card を使用する方法](../tutorials/how_to_use_the_esim_physical_card_with_android_devices.md)
+- [GL.iNet ルーターで物理 eSIM カードを使用する方法](../tutorials/how_to_use_esim_physical_card_with_glinet_routers.md)
+- [Android デバイスで物理 eSIM カードを使用する方法](../tutorials/how_to_use_the_esim_physical_card_with_android_devices.md)
 
 ---
 
-ご不明な点がある場合は、[Community Forum](https://forum.gl-inet.com){target="_blank"} をご覧いただくか、[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

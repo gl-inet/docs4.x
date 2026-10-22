@@ -1,6 +1,6 @@
 # GL.iNet ルーターで OpenVPN サーバーを設定する {#set-up-openvpn-server-on-glinet-routers}
 
-OpenVPN は、仮想プライベートネットワーク技術を用いて安全な site-to-site 接続または point-to-point 接続を確立する、オープンソースの VPN プロトコルです。
+OpenVPN は、仮想プライベートネットワーク技術を用いて安全なサイトツーサイト接続またはポイントツーポイント接続を確立する、オープンソースの VPN プロトコルです。
 
 GL.iNet ルーターで OpenVPN サーバーを設定するには、以下の動画を見るか、下記の手順に従ってください。
 
@@ -10,7 +10,7 @@ GL.iNet ルーターで OpenVPN サーバーを設定するには、以下の動
 
 インターネットサービスプロバイダーからパブリック IP アドレスが割り当てられているかどうかは、[こちら](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md) で確認してください。
 
-**割り当てられていない場合、このルーターを OpenVPN Server として設定することはできません。**
+**割り当てられていない場合、このルーターを OpenVPN サーバーとして設定することはできません。**
 
 代替手段:
 
@@ -20,7 +20,7 @@ GL.iNet ルーターで OpenVPN サーバーを設定するには、以下の動
 
 ## ポートフォワーディングが必要か確認する {#confirm-if-port-forwarding-is-required}
 
-**Network Topology**
+**ネットワークトポロジー**
 
 ??? "GL.iNet がメインルーターの場合"
 
@@ -28,9 +28,9 @@ GL.iNet ルーターで OpenVPN サーバーを設定するには、以下の動
 
 ??? "GL.iNet がサブルーターの場合"
 
-    * すでにメインルーターがあり、GL.iNet ルーターをサブルーターとして使用している場合は、メインルーター側で [port forwarding](../tutorials/how_to_set_up_port_forwarding.md) を設定する必要があります。
+    * すでにメインルーターがあり、GL.iNet ルーターをサブルーターとして使用している場合は、メインルーター側で [ポートフォワーディング](../tutorials/how_to_set_up_port_forwarding.md) を設定する必要があります。
 
-    * すでにメインルーターがあり、GL.iNet ルーターがさらに下位階層にある場合は、途中の各ルーターで [port forwarding](../tutorials/how_to_set_up_port_forwarding.md) を設定してください。
+    * すでにメインルーターがあり、GL.iNet ルーターがさらに下位階層にある場合は、途中の各ルーターで [ポートフォワーディング](../tutorials/how_to_set_up_port_forwarding.md) を設定してください。
 
 ## OpenVPN サーバーを設定する {#set-up-openvpn-server}
 
@@ -171,4 +171,4 @@ Client to Clientはサーバー側のVPN機能です。有効にすると、接�
 
 ---
 
-ご不明な点がある場合は、[Community Forum](https://forum.gl-inet.com){target="_blank"} または [Contact us](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

@@ -10,15 +10,15 @@
 
 ---
 
-WireGuard® は、最先端の暗号技術を利用した、非常にシンプルで高速かつモダンな VPN です。IPsec よりも高速・簡潔・軽量で使いやすいことを目指しており、OpenVPN よりも大幅に高いパフォーマンスを期待できます。
+WireGuard® は、最先端の暗号技術を利用した、非常にシンプルで高速かつモダンな VPN です。IPsec の煩雑さを避けつつ、IPsec よりも高速・簡潔・軽量で実用的であることを目指しており、OpenVPN よりも大幅に高いパフォーマンスを目標としています。
 
 すでにプロバイダーの WireGuard サービスを契約しているものの、設定ファイルの取得方法が分からない場合は、[WireGuard サービスプロバイダーから設定ファイルを取得する方法](../tutorials/how_to_get_configuration_files_from_wireguard_service_providers.md) を参照するか、プロバイダーのサポートへお問い合わせください。
 
-WireGuard Client は、Web 管理パネルまたは [モバイルアプリ](../faq/mobile_app.md) から設定できます。
+WireGuard クライアントは、Web 管理パネルまたは [モバイルアプリ](../faq/mobile_app.md) から設定できます。
 
 - モバイルアプリには、AzireVPN、Mullvad、OVPN、StrongVPN、PIA VPN など複数の WireGuard サービスプロバイダーが統合されています。
 
-- Web 管理パネルでは対応している WireGuard サービスプロバイダーはやや少ないものの、より直感的で詳細な設定画面を利用できます。
+- Web 管理パネルで対応している WireGuard サービスプロバイダーは少ない（AzireVPN、Mullvad など）ものの、より直感的で詳細な設定画面を利用できます。
 
 以下では、Web 管理パネルから設定する手順を説明します。
 
@@ -172,4 +172,4 @@ WireGuard® は Jason A.Donenfeld の登録商標です。
 
 ---
 
-ご不明な点がある場合は、[Community Forum](https://forum.gl-inet.com){target="_blank"} または [Contact us](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

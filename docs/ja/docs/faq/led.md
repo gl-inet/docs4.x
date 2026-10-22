@@ -1,6 +1,6 @@
-# LEDインジケーターステータス {#led-indicator-status}
+# LEDインジケーターの状態 {#led-indicator-status}
 
-本書では、さまざまなGL.iNetルーターモデルのLEDインジケーターのステータスとその意味について説明します。
+このドキュメントでは、GL.iNetルーターの各モデルにおけるLEDインジケーターの状態とその意味について説明します。
 
 ## トラベルルーター {#travel-router}
 

@@ -10,7 +10,7 @@ Windows では、Windows Cmd、PowerShell、Bitvise、PuTTY などの方法で�
 
 ### Windows Cmdを使う {#using-windows-cmd}
 
-1. Command Prompt を開く
+1. コマンドプロンプトを開く
 
     **Win** + **R**（Windowsキー + Rキー）を押して「ファイル名を指定して実行」を開きます。**cmd** と入力し、Enter を押します。
 
@@ -214,4 +214,4 @@ Linux と Mac OS での手順は概ね同じです。ここでは Ubuntu を例�
 
 ---
 
-ご不明な点がありましたら、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}をご覧いただくか、[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

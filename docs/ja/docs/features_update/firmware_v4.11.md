@@ -36,13 +36,13 @@
 
 ## SQM {#sqm}
 
-[SQM](../interface_guide/sqm.md)（Smart Queue Management）には、WAN帯域幅向けの **Run Speedtest** オプションがあり、ダウンロード速度とアップロード速度を測定して対応する欄に自動入力します。**cake** と **fq_codel** の2つのキュー規律を利用できます。
+[SQM](../interface_guide/sqm.md)（Smart Queue Management）には、WAN帯域幅向けの **Run Speedtest** オプションがあり、ダウンロード速度とアップロード速度を測定して対応する欄に自動入力します。**cake** と **fq_codel** の2つのキューイング方式を利用できます。
 
 ![sqm](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/sqm.png){class="glboxshadow" width=600}
 
 - **cake**: 全体的な遅延制御に最も優れた、インテリジェントな自動トラフィック整形です（推奨）。
 
-    このキュー規律では、新たに追加された **Cake Autorate** が、プローブのRTTに基づいて設定済みの帯域幅を動的に調整します。能動的な速度テストではなく軽量なpingを使用するため、帯域幅が変動するWAN接続に推奨されます。
+    このキューイング方式では、新たに追加された **Cake Autorate** が、プローブのRTTに基づいて設定済みの帯域幅を動的に調整します。能動的な速度テストではなく軽量なpingを使用するため、帯域幅が変動するWAN接続に推奨されます。
 
     ![sqm cake autorate](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/sqm_cake_autorate.png){class="glboxshadow" width=600}
 
@@ -56,4 +56,4 @@
 
 ---
 
-ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}をご覧いただくか、[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

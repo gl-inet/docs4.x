@@ -4,7 +4,7 @@ ZeroTier は、インターネットを介してデバイス間の安全な暗�
 
 ファームウェア v4.2 以降で利用できる GL.iNetルーターのZeroTier機能を使うと、ルーターをZeroTier仮想ネットワークに参加させることができます。接続後は、ルーター本体だけでなく、WAN側およびLAN側のリソースにもリモートアクセスできます。
 
-**Note**:
+**注意**:
 
 1. ZeroTier は、OpenVPN Client、WireGuard Client、GoodCloud Site to Site、Tailscale、AstroWarp と同時に使用すると、ルーティング競合が発生する可能性があるため推奨されません。
 
@@ -58,7 +58,7 @@ ZeroTier Central には、New Central と Legacy Central の2つのバージョ�
 
 - **Legacy Central**: 2025年11月以前に作成されたアカウント向けです。既存ユーザーは引き続きネットワーク管理に利用できます。
 
-現時点では両方を並行して利用できますが、直接の移行パスはありません。
+両方のバージョンを並行して利用できますが、現時点では直接移行する方法はありません。
 
 使用するバージョンを選んで進めてください。
 
@@ -66,7 +66,7 @@ ZeroTier Central には、New Central と Legacy Central の2つのバージョ�
 
 以下は GL-MT3600BE を例にした手順です。
 
-1. [ZeroTier official website](https://www.zerotier.com/){target="_blank"} にアクセスし、アカウントでサインインします。
+1. [ZeroTier公式サイト](https://www.zerotier.com/){target="_blank"} にアクセスし、アカウントでサインインします。
 
     ![zerotier login](https://static.gl-inet.com/docs/router/en/4/interface_guide/zerotier/new_central/zerotier_login.jpg){class="glboxshadow"}
 
@@ -74,7 +74,7 @@ ZeroTier Central には、New Central と Legacy Central の2つのバージョ�
 
     ![create organization](https://static.gl-inet.com/docs/router/en/4/interface_guide/zerotier/new_central/create_org.png){class="glboxshadow"}
 
-3. プランを選択します。ここでは例として Personal plan を選びます。このプランには、10台のデバイス、1人のネットワーク管理者、1つのネットワークが含まれます。さらに多くのネットワーク作成、デバイス追加、カスタムルートやDNS設定が必要な場合は、Essential または Scale plan を選択してください。
+3. プランを選択します。ここでは例として Personal プランを選びます。このプランには、10台のデバイス、1人のネットワーク管理者、1つのネットワークが含まれます。さらに多くのネットワーク作成、デバイス追加、カスタムルートやDNS設定が必要な場合は、Essential プランまたは Scale プランを選択してください。
 
     ![select plan](https://static.gl-inet.com/docs/router/en/4/interface_guide/zerotier/new_central/select_plan.png){class="glboxshadow"}
 
@@ -84,7 +84,7 @@ ZeroTier Central には、New Central と Legacy Central の2つのバージョ�
 
 5. GL.iNetルーターでZeroTierを有効にします。
 
-    ルーターのWeb Admin Panelにログインし、**APPLICATIONS** -> **ZeroTier** に移動します。
+    ルーターのWeb管理パネルにログインし、**APPLICATIONS** -> **ZeroTier** に移動します。
 
     ZeroTier を有効にし、同じページで Network ID を入力して **Apply** をクリックします。
 
@@ -96,7 +96,7 @@ ZeroTier Central には、New Central と Legacy Central の2つのバージョ�
 
 6. ZeroTier Central でデバイスを認証します。
 
-    ZeroTier Central で Pending device を見つけ、認証します。
+    ZeroTier Central で保留中（Pending）のデバイスを見つけ、認証します。
 
     ![authorize 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/zerotier/new_central/authorize2.png){class="glboxshadow"}
 
@@ -116,7 +116,7 @@ ZeroTier Central には、New Central と Legacy Central の2つのバージョ�
 
         ![laptop join network](https://static.gl-inet.com/docs/router/en/4/interface_guide/zerotier/new_central/laptop_join_network.png){class="glboxshadow"}
 
-        続いて ZeroTier Central に戻り、Pending device を見つけて認証します。
+        続いて ZeroTier Central に戻り、保留中（Pending）のデバイスを見つけて認証します。
 
         ![authorize 3](https://static.gl-inet.com/docs/router/en/4/interface_guide/zerotier/new_central/authorize3.png){class="glboxshadow"}
 
@@ -124,7 +124,7 @@ ZeroTier Central には、New Central と Legacy Central の2つのバージョ�
 
         ![authorized 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/zerotier/new_central/authorized2.png){class="glboxshadow"}
 
-        **Tips**: 右側の三点アイコンをクリックすると、デバイス名、Managed IP(s)、詳細設定など、メンバーデバイス設定を編集できます。
+        **ヒント**: 右側の三点アイコンをクリックすると、デバイス名、Managed IP(s)、詳細設定など、メンバーデバイス設定を編集できます。
 
 8. ルーターの **Managed IP** をクリックしてコピーします。この Managed IP を使って、同じZeroTierネットワーク上のノートPCからルーターへアクセスできます。
 
@@ -134,7 +134,7 @@ ZeroTier Central には、New Central と Legacy Central の2つのバージョ�
 
     同じZeroTierネットワークに接続したノートPCでWebブラウザを開き、前の手順で取得したルーターの Managed IP を入力します。
 
-    ルーターのWeb Admin Panel にアクセスできれば、ZeroTier接続は成功です。
+    ルーターのWeb管理パネルにアクセスできれば、ZeroTier接続は成功です。
 
     ![web admin panel](https://static.gl-inet.com/docs/router/en/4/interface_guide/zerotier/new_central/connectivity_test1.png){class="glboxshadow"}
 
@@ -154,7 +154,7 @@ ZeroTier Central には、New Central と Legacy Central の2つのバージョ�
 
 2. GL.iNetルーターでZeroTierを有効にします。
 
-    ルーターのWeb Admin Panelにログインし、**APPLICATIONS** -> **ZeroTier** に移動します。
+    ルーターのWeb管理パネルにログインし、**APPLICATIONS** -> **ZeroTier** に移動します。
 
     ZeroTier を有効にし、同じページで Network ID を入力して **Apply** をクリックします。
 
@@ -182,13 +182,13 @@ ZeroTier Central には、New Central と Legacy Central の2つのバージョ�
 
     同じZeroTierネットワークに接続された別のデバイスでWebブラウザを開き、前の手順で取得したルーターの ZeroTier Managed IP を入力します。
 
-    ルーターのWeb Admin Panel にアクセスできます。
+    ルーターのWeb管理パネルにアクセスできます。
 
     ![web admin panel](https://static.gl-inet.com/docs/router/en/4/interface_guide/zerotier/web_admin_panel.png)
 
     `ping` コマンドを使って接続確認することもできます。詳細は ZeroTier の [Quickstart Guide](https://docs.zerotier.com/quickstart/#6-test-your-connection){target="_blank"} を参照してください。
 
-## WAN からのリモートアクセスを許可する {#allow-remote-access-wan}
+## WAN 側へのリモートアクセスを許可する {#allow-remote-access-wan}
 
 このオプションを有効にすると、デバイスのWAN側にあるリソースへZeroTier仮想ネットワーク経由でアクセスできます。
 
@@ -196,11 +196,11 @@ ZeroTier Central には、New Central と Legacy Central の2つのバージョ�
 
 ![remote access wan topology](https://static.gl-inet.com/docs/router/en/4/interface_guide/zerotier/zerotier_access_wan_topology.png){class="glboxshadow"}
 
-**注意**: この機能を有効にするには、ZeroTierネットワークにルーティングルールを追加する必要があります。Legacy Central ではカスタムルートを1つ無料で追加できますが、New Central では Essential plan 以上でのみカスタムルートを設定できます。詳細は [こちら](https://www.zerotier.com/pricing/) を参照してください。
+**注意**: この機能を有効にするには、ZeroTierネットワークにルーティングルールを追加する必要があります。Legacy Central ではカスタムルートを1つ無料で追加できますが、New Central では Essential プラン以上でのみカスタムルートを設定できます。詳細は [こちら](https://www.zerotier.com/pricing/) を参照してください。
 
 以下の手順では Legacy Central を例に説明します。
 
-1. ルーターのWeb Admin Panelにログインし、**APPLICATIONS** -> **ZeroTier** に移動します。
+1. ルーターのWeb管理パネルにログインし、**APPLICATIONS** -> **ZeroTier** に移動します。
 
     **Allow Remote Access WAN** を有効にし、**Apply** をクリックします。
 
@@ -224,7 +224,7 @@ ZeroTier Central には、New Central と Legacy Central の2つのバージョ�
 
     ![access axt1800](https://static.gl-inet.com/docs/router/en/4/interface_guide/zerotier/zerotier_access_axt1800.jpg){class="glboxshadow gl-50-desktop"}
 
-## LAN へのリモートアクセスを許可する {#allow-remote-access-lan}
+## LAN 側へのリモートアクセスを許可する {#allow-remote-access-lan}
 
 このオプションを有効にすると、デバイスのLAN側にあるリソースへZeroTier仮想ネットワーク経由でアクセスできます。
 
@@ -232,11 +232,11 @@ ZeroTier Central には、New Central と Legacy Central の2つのバージョ�
 
 ![remote access lan topology](https://static.gl-inet.com/docs/router/en/4/interface_guide/zerotier/zerotier_access_lan_topology.png){class="glboxshadow"}
 
-**注意**: この機能を有効にするには、ZeroTierネットワークにルーティングルールを追加する必要があります。Legacy Central ではカスタムルートを1つ無料で追加できますが、New Central では Essential plan 以上でのみカスタムルートを設定できます。詳細は [こちら](https://www.zerotier.com/pricing/) を参照してください。
+**注意**: この機能を有効にするには、ZeroTierネットワークにルーティングルールを追加する必要があります。Legacy Central ではカスタムルートを1つ無料で追加できますが、New Central では Essential プラン以上でのみカスタムルートを設定できます。詳細は [こちら](https://www.zerotier.com/pricing/) を参照してください。
 
 以下の手順では Legacy Central を例に説明します。
 
-1. ルーターのWeb Admin Panelにログインし、**APPLICATIONS** -> **ZeroTier** に移動します。
+1. ルーターのWeb管理パネルにログインし、**APPLICATIONS** -> **ZeroTier** に移動します。
 
     **Allow Remote Access LAN** を有効にし、**Apply** をクリックします。
 
@@ -262,4 +262,4 @@ ZeroTier Central には、New Central と Legacy Central の2つのバージョ�
 
 ---
 
-ご不明な点がある場合は、[Community Forum](https://forum.gl-inet.com){target="_blank"} をご覧いただくか、[お問い合わせページ](https://www.gl-inet.com/contacts/){target="_blank"} からご連絡ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

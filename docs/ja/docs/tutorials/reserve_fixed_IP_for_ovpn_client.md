@@ -36,7 +36,7 @@
 
     - "255.255.255.0" はサブネットマスクです。OpenVPNサーバーのサブネットマスクに置き換えることもできます。
 
-    **Note**: 複数のOpenVPNクライアントに固定IPを設定したい場合は、Step 2 で複数のユーザー名とパスワードを作成し、その後 Step 5 を繰り返して、CCDフォルダーに user_1、user_2、user_3 のようにユーザーごとのファイルを追加し、それぞれに "ifconfig-push" コマンドと対応する固定IPおよびサブネットマスクを記述してください。
+    **注意**: 複数のOpenVPNクライアントに固定IPを設定したい場合は、手順 2 で複数のユーザー名とパスワードを作成し、その後手順 5 を繰り返して、CCDフォルダーに user_1、user_2、user_3 のようにユーザーごとのファイルを追加し、それぞれに "ifconfig-push" コマンドと対応する固定IPおよびサブネットマスクを記述してください。
 
     例: `ifconfig-push 10.8.0.20 255.255.255.0`、`ifconfig-push 10.8.0.30 255.255.255.0`、`ifconfig-push 10.8.0.40 255.255.255.0`
 
@@ -52,4 +52,4 @@
 
 ---
 
-ご不明な点がありましたら、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}をご覧いただくか、[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

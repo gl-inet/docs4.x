@@ -55,7 +55,7 @@ Take [AzireVPN](https://www.azirevpn.com/aff/9x7wisg4){target="_blank"} as an ex
 
 3. Refer to the corresponding guidance below based on your actual needs.
 
-    !!! note "Case 1. If you want all connected clients to use VPN for internet access, follow these steps." 
+    ??? note "Case 1. If you want all connected clients to use VPN for internet access, follow these steps." 
     
         1. Select your preferred server, and click the three-dot icon on the right to start a connection.
 
@@ -73,7 +73,7 @@ Take [AzireVPN](https://www.azirevpn.com/aff/9x7wisg4){target="_blank"} as an ex
             
             * To set up Kill Switch for the global VPN connection (i.e., Enhanced Kill Switch), refer to [here](vpn_dashboard.md#all-other-traffic).
 
-    !!! note "Case 2. If you prefer to customize VPN policy instead, follow these steps."
+    ??? note "Case 2. If you prefer to customize VPN policy instead, follow these steps."
     
         1. Click **Go to Dashboard** at the bottom.
 

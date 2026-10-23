@@ -39,7 +39,7 @@ This guide will introduce two ways to connect GL.iNet routers to an EAP Wi-Fi ne
 
     **Footnote:** 
     
-    1. When connecting to WPA/WPA2/WPA3-Enterprise networks, GL-BE10000 (Slate 7 Pro), GL-MT3600BE (Beryl 7), and GL-BE3600 (Slate 7) support only PEAP-authenticated networks. Other EAP methods (EAP-TLS, EAP-TTLS, EAP-MD5, etc.) are not supported.
+    1. When connecting to WPA/WPA2/WPA3-Enterprise networks, GL-BE14000 (Flint 4), GL-BE10000 (Slate 7 Pro), GL-MT3600BE (Beryl 7), and GL-BE3600 (Slate 7) support only PEAP-authenticated networks. Other EAP methods (EAP-TLS, EAP-TTLS, EAP-MD5, etc.) are not supported.
     
     2. GL-MT6000 (Fortify), GL-MT6000 (Flint 2) and GL-MT3000 (Beryl AX) do not support connecting to EAP networks on the default firmware. However, GL.iNet provides native OpenWrt 24 firmware for these models, which adds EAP support. Please search the model in the [Download Center](https://dl.gl-inet.com/){target="_blank"} and refer to the OPENWRT 24 tab for details.
 

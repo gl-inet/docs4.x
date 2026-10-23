@@ -190,7 +190,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     * NAT6: Utilize Network Address Translation for IPv6 (NAT6) to translate between internal and external IPv6 addresses, similar to how NAT works for IPv4.
     * Static IPv6: Manually configure a static IPv6 address for your router, providing a fixed address for consistent connectivity and easier management of network services.
 
-    These settings help you leverage the benefits of IPv6, including improved address space, enhanced security features, and better performance.
+    These modes provide flexible IPv6 configuration options to suit different network environments.
 
     For detailed setup instructions and more information, please refer to [IPv6](../../interface_guide/ipv6.md).
 

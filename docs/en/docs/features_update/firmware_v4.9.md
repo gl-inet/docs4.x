@@ -57,7 +57,6 @@ The detailed adjustments are as follows.
 ### Isolated VPN Tunnel {#isolated-vpn-tunnel}
 
 Each VPN tunnel operates as an independent group without cross-group failover. Once the network traffic matches to a specific VPN group, it will not automatically switch to other VPN groups even if the current tunnel fails, ensuring stable and predictable traffic routing.
-
 **Note**: The traditional "Not Use VPN" policy is removed in firmware v4.9, eliminating redundant configuration to avoid routing conflicts caused by multiple and complex tunnel rules.
 
 ![vpn tunnels](https://static.gl-inet.com/docs/router/en/4/features_update/4.9/vpn_tunnels.png){class="glboxshadow"}
@@ -76,13 +75,13 @@ The [VPN Dashboard](../interface_guide/vpn_dashboard.md) in firmware v4.9 featur
 
 ## AmneziaWG 2.0 {#amneziawg-20}
 
-Firmware v4.9 officially introduces the AmneziaWG 2.0 protocol, equipped with multiple new traffic obfuscation parameters. The upgraded protocol effectively evades detection by DPI and other traffic identification systems, significantly improving connection concealment and anti-interference capabilities. This enables stable and reliable VPN connection establishment in network-restricted regions and complex network environments.
+Firmware v4.9 officially introduces the AmneziaWG 2.0 protocol, equipped with multiple new traffic obfuscation parameters. The upgraded protocol is designed to make VPN traffic harder for DPI and other traffic identification systems to recognize. These enhancements can help establish and maintain VPN connections in network-restricted regions and complex network environments.
 
 ![amneziawg](https://static.gl-inet.com/docs/router/en/4/features_update/4.9/amneziawg.png){class="glboxshadow"}
 
 ## IoT Network {#iot-network}
 
-The [IoT Network](../interface_guide/iot_network.md) in firmware v4.9 allows you to create an independent dedicated Wi-Fi network for IoT smart devices. Physically and logically isolated from the primary network, it avoids network resource occupation and security risks brought by IoT device access to the main network. This optimization delivers broader device compatibility for various smart IoT clients and overall enhances the home network security system.
+The [IoT Network](../interface_guide/iot_network.md) in firmware v4.9 allows you to create a dedicated Wi-Fi network for IoT devices. Logically separated from the primary network, it helps reduce the potential security impact of IoT devices on your main network. Its configurable network settings provide greater flexibility for managing IoT devices.
 
 ![iot network](https://static.gl-inet.com/docs/router/en/4/features_update/4.9/iot_network.png){class="glboxshadow"}
 

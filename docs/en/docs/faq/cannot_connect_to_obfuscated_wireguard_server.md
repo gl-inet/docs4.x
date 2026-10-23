@@ -30,13 +30,13 @@ If you fail to establish a connection to an obfuscated WireGuard server, follow 
         
         > Note: I1-I5 are not auto-generated. Users can manually add them as extra lines in the configuration file to make AmneziaWG traffic look like other common protocols, such as QUIC or WebRTC.
     
-    If your WireGuard client is a GL.iNet router, check its AmneziaWG version by the following two methods.
+    If your WireGuard Server is a GL.iNet router, check its AmneziaWG version by the following two methods.
 
     ??? note "Check via Router Web Admin Panel"
 
         1. Log in to your router's web Admin Panel.
 
-        2. Navigate to **VPN** -> **WireGuard Server** -> **Configuration** and verify the obfuscation parameters. If the configuration includes **S3-S4** and **H1–H4** as variable ranges (instead of fixed values), your router is running AmneziaWG 2.0, as shown below.
+        2. Navigate to **VPN** -> **WireGuard Server** -> **Configuration** and verify the obfuscation parameters. If the configuration includes **S3-S4** or **H1–H4** as variable ranges (instead of fixed values), your router is running AmneziaWG 2.0, as shown below.
         
             ![awg 2.0 web](https://static.gl-inet.com/docs/router/en/4/faq/cannot_connect_to_obfuscated_wgserver/awg_2.0_web.png){class="glboxshadow"}
 
@@ -68,7 +68,7 @@ If you fail to establish a connection to an obfuscated WireGuard server, follow 
 
     - If the connection succeeds in the official app, the configuration file is valid. The problem may lie with your original client device. Verify its network connectivity or reach out to support for further assistance.
     
-    - If the connection still fails, the problem originates from the router server configuration. Check the server settings and obfuscation parameters.
+    - If the connection still fails, the issue may be related to the router's VPN server configuration, network connectivity, or firewall settings. Check these settings and the obfuscation parameters.
 
 ---
 

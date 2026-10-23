@@ -25,6 +25,9 @@ GL.iNet routers offer built-in WireGuard support for the following VPN providers
 * PureVPN
 * Surfshark
 * Windscribe
+* X-VPN
+
+**Note**: X-VPN was introduced in firmware v4.11.
 
 ![wireguard](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_client_profile/wg.png){class="glboxshadow"}
 

@@ -25,6 +25,9 @@ GL.iNet ルーターでは、以下の VPN プロバイダー向けに WireGuard
 * PureVPN
 * Surfshark
 * Windscribe
+* X-VPN
+
+**注意**: X-VPN はファームウェア v4.11 で導入されました。
 
 ![wireguard](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_client_profile/wg.png){class="glboxshadow"}
 
@@ -52,7 +55,7 @@ GL.iNet ルーターでは、以下の VPN プロバイダー向けに WireGuard
 
 3. 実際の利用目的に応じて、以下の案内を参照してください。
 
-    !!! note "Case 1. 接続中のすべてのクライアントに VPN 経由でインターネットアクセスさせたい場合、以下の手順を実行してください。"
+    ??? note "Case 1. 接続中のすべてのクライアントに VPN 経由でインターネットアクセスさせたい場合、以下の手順を実行してください。"
 
         1. 使用したいサーバーを選択し、右側の三点アイコンをクリックして接続を開始します。
 
@@ -70,7 +73,7 @@ GL.iNet ルーターでは、以下の VPN プロバイダー向けに WireGuard
 
             * グローバル VPN 接続のキルスイッチ（Enhanced Kill Switch）を設定する方法については、[こちら](vpn_dashboard.md#all-other-traffic) を参照してください。
 
-    !!! note "Case 2. 代わりに VPN ポリシーをカスタマイズしたい場合は、以下の手順を実行してください。"
+    ??? note "Case 2. 代わりに VPN ポリシーをカスタマイズしたい場合は、以下の手順を実行してください。"
 
         1. 下部の **Go to Dashboard** をクリックします。
 

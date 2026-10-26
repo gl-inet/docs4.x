@@ -25,6 +25,9 @@ GL.iNet-routrar har inbyggt WireGuard-stöd för följande leverantörer. Ange t
 * PureVPN
 * Surfshark
 * Windscribe
+* X-VPN
+
+**Obs**: X-VPN infördes i firmware v4.11.
 
 ![wireguard](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_client_profile/wg.png){class="glboxshadow"}
 
@@ -52,7 +55,7 @@ Take [AzireVPN](https://www.azirevpn.com/aff/9x7wisg4){target="_blank"} as an ex
 
 3. Följ anvisningarna nedan efter behov.
 
-    !!! note "Case 1. If you want all connected clients to use VPN for internet access, follow these steps."
+    ??? note "Case 1. If you want all connected clients to use VPN for internet access, follow these steps."
 
         1. Välj server och klicka på ikonen med tre punkter till höger för att ansluta.
 
@@ -70,7 +73,7 @@ Take [AzireVPN](https://www.azirevpn.com/aff/9x7wisg4){target="_blank"} as an ex
 
             * To set up Kill Switch for the global VPN connection (i.e., Enhanced Kill Switch), refer to [here](vpn_dashboard.md#all-other-traffic).
 
-    !!! note "Case 2. If you prefer to customize VPN policy instead, follow these steps."
+    ??? note "Case 2. If you prefer to customize VPN policy instead, follow these steps."
 
         1. Klicka på **Go to Dashboard** längst ned.
 

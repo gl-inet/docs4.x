@@ -23,6 +23,9 @@ I router GL.iNet offrono il supporto WireGuard integrato per i seguenti provider
 * PureVPN
 * Surfshark
 * Windscribe
+* X-VPN
+
+**Nota**: X-VPN è stato introdotto nel firmware v4.11.
 
 ![wireguard](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_client_profile/wg.png){class="glboxshadow"}
 
@@ -48,7 +51,7 @@ Prendiamo [AzireVPN](https://www.azirevpn.com/aff/9x7wisg4){target="_blank"} com
 
 3. Segui la guida corrispondente qui sotto in base alle tue esigenze.
 
-    !!! note "Caso 1. Se vuoi che tutti i client connessi usino la VPN per accedere a Internet, segui questi passaggi."
+    ??? note "Caso 1. Se vuoi che tutti i client connessi usino la VPN per accedere a Internet, segui questi passaggi."
 
         1. Seleziona il server che preferisci e fai clic sull'icona con tre puntini sulla destra per avviare la connessione.
 
@@ -66,7 +69,7 @@ Prendiamo [AzireVPN](https://www.azirevpn.com/aff/9x7wisg4){target="_blank"} com
             
             * Per configurare il Kill Switch per la connessione VPN globale (ovvero l'Enhanced Kill Switch), fai riferimento [qui](vpn_dashboard.md#all-other-traffic).
 
-    !!! note "Caso 2. Se preferisci personalizzare i criteri VPN, segui questi passaggi."
+    ??? note "Caso 2. Se preferisci personalizzare i criteri VPN, segui questi passaggi."
 
         1. Fai clic su **Go to Dashboard** in basso.
 

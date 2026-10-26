@@ -25,6 +25,9 @@ GL.iNet-routers bieden ingebouwde WireGuard-ondersteuning voor de volgende VPN-p
 * PureVPN
 * Surfshark
 * Windscribe
+* X-VPN
+
+**Opmerking**: X-VPN is geïntroduceerd in firmware v4.11.
 
 ![wireguard](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_client_profile/wg.png){class="glboxshadow"}
 
@@ -52,7 +55,7 @@ Raadpleeg [deze handleiding](../tutorials/how_to_get_configuration_files_from_wi
 
 3. Volg de onderstaande instructies die bij je behoeften passen.
 
-    !!! note "Situatie 1. Alle verbonden clients gebruiken VPN voor internettoegang"
+    ??? note "Situatie 1. Alle verbonden clients gebruiken VPN voor internettoegang"
 
         1. Selecteer de gewenste server en klik rechts op het pictogram met drie stippen om verbinding te maken.
 
@@ -70,7 +73,7 @@ Raadpleeg [deze handleiding](../tutorials/how_to_get_configuration_files_from_wi
 
             * Raadpleeg [deze instructies](vpn_dashboard.md#all-other-traffic) om Enhanced Kill Switch voor de globale VPN-verbinding in te stellen.
 
-    !!! note "Situatie 2. Aangepast VPN-beleid configureren"
+    ??? note "Situatie 2. Aangepast VPN-beleid configureren"
 
         1. Klik onderaan op **Go to Dashboard**.
 

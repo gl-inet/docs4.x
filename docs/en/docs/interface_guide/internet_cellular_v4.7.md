@@ -79,7 +79,9 @@ Applying the changes will trigger a reconnection.
 
 - **PIN**: If your SIM card is protected by a PIN code, enter it here. This field is optional if no PIN is set.
 
-- **TTL**: TTL (Time To Live) defines the maximum time packets can survive in the network. By default, the router decrements the TTL of incoming packets from client devices by 1 before forwarding them. The TTL setting is valid only for IPv4.  
+- **TTL**: TTL (Time To Live) defines the maximum time packets can survive in the network. By default, the router decrements the TTL of incoming packets from client devices by 1 before forwarding them. The TTL setting is valid only for IPv4.
+
+    **Note**: If you need to override/spoof the TTL, set a fixed value here. For most models, enter the desired effective TTL plus 1 to compensate for the automatic decrement.
 
 - **Service**: Select the cellular service type to define the network technologies the modem will use.
 

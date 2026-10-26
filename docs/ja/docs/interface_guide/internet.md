@@ -1,10 +1,10 @@
-# インターネット
+# インターネット {#internet}
 
 Web管理パネルにログインし、**INTERNET** に移動します。
 
 上部にはインターネットの状態を示す図が表示され、下部には最大4つのインターネット接続方法が表示されます（利用できる方法はモデルによって異なります）。
 
-## ステータス図
+## ステータス図 {#status-diagram}
 
 ![status diagram](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet/status_diagram.png){class="glboxshadow"}
 
@@ -14,7 +14,7 @@ Web管理パネルにログインし、**INTERNET** に移動します。
 - 灰色の破線は、ネットワーク接続がないことを示します。
 - 黄色の感嘆符が付いた白い実線は、接続はされているもののインターネットにアクセスできないことを示します。
 
-図の**中央**には、現在のルーターモデル、主要機能の状態（例: [AdGuard Home](adguardhome.md)、[IPv6](ipv6.md)、[VPN](vpn_dashboard.md)、[Tor](tor.md)）、および [wireless](wireless.md) の状態が表示されます。
+図の**中央**には、現在のルーターモデル、主要機能の状態（例: [AdGuard Home](adguardhome.md)、[IPv6](ipv6.md)、[VPN](vpn_dashboard.md)、[Tor](tor.md)）、および[ワイヤレス](wireless.md)の状態が表示されます。
 
 - 緑は有効、灰色は無効を示します。VPN と Tor では、白は接続中を示します。
 - 有効な Wi‑Fi アイコンにカーソルを合わせると、その Wi‑Fi の QR コードが表示されます。スマートフォンやタブレットで読み取ることで、対応する Wi‑Fi ネットワークにすばやく接続できます。
@@ -26,7 +26,7 @@ Web管理パネルにログインし、**INTERNET** に移動します。
 - 無線接続のデバイスは上段に、有線接続のデバイスは下段に表示されます。
 - 各セクションの横にある数字は、接続中のデバイス数を示します。
 
-## インターネット接続方法
+## インターネット接続方法 {#internet-access-methods}
 
 利用できるインターネット接続方法は最大4種類です。以下の各チュートリアルを参照するか、[セットアップウィザード](#setup-wizard)から開始してください。
 
@@ -51,4 +51,4 @@ Web管理パネルにログインし、**INTERNET** に移動します。
 
 ---
 
-ご不明な点がありましたら、[コミュニティ・フォーラム](https://forum.gl-inet.com){target="_blank"}または[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}をご利用ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

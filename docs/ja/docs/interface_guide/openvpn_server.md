@@ -1,6 +1,6 @@
-# GL.iNet ルーターで OpenVPN サーバーを設定する
+# GL.iNet ルーターで OpenVPN サーバーを設定する {#set-up-openvpn-server-on-glinet-routers}
 
-OpenVPN は、仮想プライベートネットワーク技術を用いて安全な site-to-site 接続または point-to-point 接続を確立する、オープンソースの VPN プロトコルです。
+OpenVPN は、仮想プライベートネットワーク技術を用いて安全なサイトツーサイト接続またはポイントツーポイント接続を確立する、オープンソースの VPN プロトコルです。
 
 GL.iNet ルーターで OpenVPN サーバーを設定するには、以下の動画を見るか、下記の手順に従ってください。
 
@@ -10,7 +10,7 @@ GL.iNet ルーターで OpenVPN サーバーを設定するには、以下の動
 
 インターネットサービスプロバイダーからパブリック IP アドレスが割り当てられているかどうかは、[こちら](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md) で確認してください。
 
-**割り当てられていない場合、このルーターを OpenVPN Server として設定することはできません。**
+**割り当てられていない場合、このルーターを OpenVPN サーバーとして設定することはできません。**
 
 代替手段:
 
@@ -20,19 +20,19 @@ GL.iNet ルーターで OpenVPN サーバーを設定するには、以下の動
 
 ## ポートフォワーディングが必要か確認する {#confirm-if-port-forwarding-is-required}
 
-**Network Topology**
+**ネットワークトポロジー**
 
 ??? "GL.iNet がメインルーターの場合"
 
-    * GL.iNet ルーターがネットワークのメインルーターであれば、ポートフォワーディングは不要です。[次の手順](#setup-openvpn-server) に進んでください。
+    * GL.iNet ルーターがネットワークのメインルーターであれば、ポートフォワーディングは不要です。[次の手順](#set-up-openvpn-server) に進んでください。
 
 ??? "GL.iNet がサブルーターの場合"
 
-    * すでにメインルーターがあり、GL.iNet ルーターをサブルーターとして使用している場合は、メインルーター側で [port forwarding](../tutorials/how_to_set_up_port_forwarding.md) を設定する必要があります。
+    * すでにメインルーターがあり、GL.iNet ルーターをサブルーターとして使用している場合は、メインルーター側で [ポートフォワーディング](../tutorials/how_to_set_up_port_forwarding.md) を設定する必要があります。
 
-    * すでにメインルーターがあり、GL.iNet ルーターがさらに下位階層にある場合は、途中の各ルーターで [port forwarding](../tutorials/how_to_set_up_port_forwarding.md) を設定してください。
+    * すでにメインルーターがあり、GL.iNet ルーターがさらに下位階層にある場合は、途中の各ルーターで [ポートフォワーディング](../tutorials/how_to_set_up_port_forwarding.md) を設定してください。
 
-## OpenVPN サーバーを設定する {#setup-openvpn-server}
+## OpenVPN サーバーを設定する {#set-up-openvpn-server}
 
 Web 管理パネルにログインし、**VPN** -> **OpenVPN Server** を開きます。
 
@@ -50,7 +50,7 @@ Web 管理パネルにログインし、**VPN** -> **OpenVPN Server** を開き�
 
     ![openvpnserver configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/ovpnserver_configuration.png){class="glboxshadow"}
 
-    * **Device Mode:** TAP-S2S または Tun。違いについては [こちら](../tutorials/how_to_enable_openvpn_tap_s2s_mode_on_glinet_routers.md#tap-s2s-tun) を参照してください。
+    * **Device Mode:** TAP-S2S または Tun。違いについては [こちら](../tutorials/how_to_enable_openvpn_tap_s2s_mode_on_glinet_routers.md#tap-s2s-vs-tun-mode) を参照してください。
 
     * **Protocol:** UDP または TCP。違いについては [こちら](../faq/openvpn_tcp_udp.md) を参照してください。
 
@@ -88,9 +88,9 @@ Web 管理パネルにログインし、**VPN** -> **OpenVPN Server** を開き�
 
     ![start openvpn server](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/start_ovpnserver.png){class="glboxshadow"}
 
-## OpenVPN サーバーが正常に動作しているか確認する
+## OpenVPN サーバーが正常に動作しているか確認する {#check-if-openvpn-server-is-working-properly}
 
-### サーバー状態を確認する
+### サーバー状態を確認する {#verify-server-status}
 
 ファームウェア v4.8 以降では、**OpenVPN Server** ページでサーバー接続状態を確認できます。
 
@@ -102,7 +102,7 @@ Web 管理パネルにログインし、**VPN** -> **OpenVPN Server** を開き�
 
 ![openvpn server connected v4.7](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/openserverup.jpg){class="glboxshadow"}
 
-### クライアント側の IP を確認する
+### クライアント側の IP を確認する {#verify-clients-ip}
 
 サーバーへの接続が成功しているか確認するには、先ほどエクスポートした OpenVPN 設定を別ネットワーク上のデバイス（サーバーと同じローカルネットワークではないデバイス）にインポートします。その後 Web ブラウザで自身の IP アドレスと位置情報を確認し、インターネットサービスプロバイダーの IP ではなく VPN サーバーの IP と位置情報が表示されれば、VPN 接続は成功です。
 
@@ -119,7 +119,7 @@ OpenVPN App に設定ファイルをインポートすると、以下のよう�
 * OpenVPN Server で使用しているポートがインターネットサービスプロバイダーによってブロックされている。別のポートに変更するか、ISP に問い合わせてください。
 * 一部の国や地域では VPN 接続がブロックされる場合があります。
 
-## Server Options
+## Server Options {#server-options}
 
 Server Optionsには、サーバーのLANへのリモートアクセスやIPマスカレーディングなど、サーバー側の高度な設定があります。必要に応じて設定してください。
 
@@ -139,9 +139,13 @@ Server Optionsには、サーバーのLANへのリモートアクセスやIPマ�
 
 - **IP Masquerading**：有効にすると、LANクライアントの送信元IPアドレスがルーターのVPNトンネルIPへ書き換えられます。この設定は、リモートピアがルーターのLANサブネットを認識しているサイトツーサイト構成の場合にのみ無効にしてください。
 
+    下図のように、IPマスカレーディングが有効な場合、自宅LAN上のNAS（192.168.8.100）がトンネル経由でトラベルルーター側のノートパソコン（192.168.10.200）へトラフィックを送信すると、自宅ルーターは送信元IPを`192.168.8.100`からVPNサーバーのトンネルアドレス`10.1.0.1`に書き換えます。そのため、リモート側では、このトラフィックはサーバーのローカルLANからではなく、サーバーから送信されたものとして認識されます。
+
+    ![ovpnserver ip masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/ip_masquerading.png){class="glboxshadow"}
+
 - **MTU**：Maximum Transmission Unitの略です。トンネルに設定したMTU値は、設定ファイル内のMTU設定を上書きします。
 
-## Client to Client
+## Client to Client {#client-to-client}
 
 Client to Clientはサーバー側のVPN機能です。有効にすると、接続中のVPNクライアント同士が、それぞれのVPNトンネルIPアドレスを使用して通信できます。
 
@@ -161,10 +165,10 @@ Client to Clientはサーバー側のVPN機能です。有効にすると、接�
 
 **ヒント**：Client to Clientが通知するのは、各クライアントのトンネルIPアドレスだけです。各VPNクライアントの背後にあるローカルLANサブネットは、自動的には公開されません。クライアントから互いのLANサブネットへアクセスできるようにするには、VPNサーバーにルーティングルールを追加し、それらのリモートLANサブネットを通知してください。
 
-## OpenVPN App のインストール
+## OpenVPN App のインストール {#openvpn-app-install}
 
 [OpenVPN 公式サイト](https://openvpn.net/vpn-client/){target="_blank"} から OpenVPN App をダウンロードしてください。
 
 ---
 
-ご不明な点がある場合は、[Community Forum](https://forum.gl-inet.com){target="_blank"} または [Contact us](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

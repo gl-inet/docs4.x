@@ -1,6 +1,6 @@
-# Slate 7 (GL-BE3600) User Guide
+# Slate 7 (GL-BE3600) User Guide {#slate-7-gl-be3600-user-guide}
 
-## Product overview
+## Product overview {#product-overview}
 
 Slate 7 (GL-BE3600) is GL.iNet's first dual-band Wi-Fi 7 portable travel router, built with flagship Wi-Fi 7 technologies including Multi-Link Operation and 4K QAM. It delivers theoretical dual-band speeds of 688Mbps (2.4GHz) and 2882Mbps (5GHz), enabling seamless 8K streaming and mobile gaming experiences. Its touchscreen allows one-glance network status checks and intuitive basic operations.
 
@@ -8,7 +8,7 @@ Equipped with 2× 2.5G Ethernet ports (1 WAN + 1 LAN) and 1× USB 3.0 port, the 
 
 ![gl-be3600 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/hardware_info/be3600_interface.jpg){class="glboxshadow"}
 
-## Package contents
+## Package contents {#package-contents}
 
 - 1 x Slate 7 (GL-BE3600)
 - 1 x User manual
@@ -25,7 +25,7 @@ Check out Slate 7's unboxing video below.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bEuwGm0hQ5k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-## Touchscreen
+## Touchscreen {#touchscreen}
 
 | Screen Display                    | Description         |
 | :-------------------------------- | :------------------ |
@@ -42,18 +42,18 @@ Check out Slate 7's unboxing video below.
 | ![unlock](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/slide-to-unlock.png){width="400"} | Tap the screen to wake it up, and slide from left to right to unlock it |
 | ![reboot](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/slide-to-reboot.png){width="400"} | After clicking "Reboot", slide from left to right to confirm |
 
-## How to set up Slate 7
+## How to set up Slate 7 {#how-to-set-up-slate-7}
 
 Watch this setup video or follow the steps below. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YMHQK8wSQGM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<small>(In this video we demonstrate the setup by configuring Slate 7 as Repeater. If you need to configure Slate 7 by other Internet connetion methods, please refer to the steps below.)</small>
+<small>(In this video we demonstrate the setup by configuring Slate 7 as Repeater. If you need to configure Slate 7 by other Internet connection methods, please refer to the steps below.)</small>
 
-### 1. Power on
+### 1. Power on {#1-power-on}
 
 Put the two-piece power adapter together. Connect it to your router and plug it into an outlet. It will start up automatically.
 
-### 2. Connect device
+### 2. Connect device {#2-connect-device}
 
 Connect a device (e.g., computer, laptop or smartphone) to the router using Wi-Fi or Ethernet.
 
@@ -65,11 +65,11 @@ Connect a device (e.g., computer, laptop or smartphone) to the router using Wi-F
 
     On your device, locate your router's Wi-Fi network name in the available networks list, and enter the password to join the network. You can find the default network name and password printed on your router's label.
 
-### 3. Log in to web Admin Panel
+### 3. Log in to web Admin Panel {#3-log-in-to-web-admin-panel}
 
 Open a web browser, enter `192.168.8.1` in the address bar and log in. Choose a language and set your admin password, then click **Apply**. 
 
-### 4. Internet setup
+### 4. Internet setup {#4-internet-setup}
 
 **Note:** The following instructions apply to users configuring the router via the GL.iNet Web Admin Panel. If you prefer using the GL.iNet app, [download the app](https://www.gl-inet.com/app/){target="_blank"} and follow the on-screen instructions.
 
@@ -123,7 +123,7 @@ Configure your Slate 7 using one of the supported internet connection methods: E
 
 Below is an overview of the features in the Slate 7 web Admin Panel.
 
-## Wireless
+## Wireless {#wireless}
 
 The Wireless page allows you to configure settings for both the 5 GHz and 2.4 GHz Wi-Fi networks, including enabling Wi-Fi, setting TX power, specifying the Wi-Fi name (SSID), enabling randomized BSSID, selecting Wi-Fi security mode and password, configuring SSID visibility, choosing the Wi-Fi mode, bandwidth, and channel.
 
@@ -131,13 +131,13 @@ In addition, Slate 7 supports MLO Wi-Fi, i.e. Multi-Link Operation, combining mu
 
 To set up Wireless, refer to [Wireless](../../interface_guide/wireless.md).
 
-## Clients
+## Clients {#clients}
 
 The Clients page displays information about connected devices. For each client, it shows the name, IP and MAC addresses, download and upload speeds, total traffic, and provides the ability to block the client or perform other actions.
 
 To set up Clients, refer to [Clients](../../interface_guide/clients.md).
 
-## Cloud services
+## Cloud services {#cloud-services}
 
 === "GoodCloud"
 
@@ -151,7 +151,7 @@ To set up Clients, refer to [Clients](../../interface_guide/clients.md).
     
     To set up AstroWarp, refer to [AstroWarp](../../interface_guide/astrowarp.md).
 
-## VPN 
+## VPN {#vpn}
 
 A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Slate 7 supports OpenVPN, WireGuard, and Tor.
 
@@ -175,7 +175,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     * [How to set up Tor](../../interface_guide/tor.md)
 
-## Applications
+## Applications {#applications}
 
 === "Plug-ins"
 
@@ -221,7 +221,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     To set up Tailscale, refer to [Tailscale](../../interface_guide/tailscale.md).
 
-## Network
+## Network {#network}
 
 === "Port forwarding"
 
@@ -304,7 +304,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     To set up NAT settings, refer to [NAT Settings](../../interface_guide/nat_settings.md).
 
-## System
+## System {#system}
 
 === "Overview"
 
@@ -412,7 +412,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     Please refer to [Advanced Settings](../../interface_guide/advanced_settings.md) for detailed instructions.
 
-## Regulatory Statements
+## Regulatory Statements {#regulatory-statements}
 
 **FCC ID: 2AFIW-BE3600**  
 

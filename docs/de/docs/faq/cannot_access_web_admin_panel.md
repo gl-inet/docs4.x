@@ -1,10 +1,10 @@
-# Kein Zugriff auf das web Admin Panel
+# Kein Zugriff auf das web Admin Panel {#cannot-access-web-admin-panel}
 
 Manchmal können Sie [http://192.168.8.1](http://192.168.8.1) nicht aufrufen und sich daher nicht am web Admin Panel anmelden. Dafür kann es mehrere Gründe geben.
 
 ![can't access admin](https://static.gl-inet.com/docs/router/de/4/faq/cannot_access_web_admin_panel/cantaccessadmin.jpg){class="glboxshadow"}
 
-## Mögliche Ursachen
+## Mögliche Ursachen {#the-possible-causes}
 
 * Ihr Computer oder Mobiltelefon ist nicht mit dem Router verbunden.
 * `192.168.8.1` ist die Standard-IP-Adresse des Routers. Möglicherweise haben Sie diese IP geändert.
@@ -12,7 +12,7 @@ Manchmal können Sie [http://192.168.8.1](http://192.168.8.1) nicht aufrufen und
 * VPN- oder Proxy-Software verarbeitet Ihren Datenverkehr, wodurch das Admin Panel möglicherweise nicht erreichbar ist.
 * Der Router ist gebrickt.
 
-## Allgemeine Schritte für den Zugriff auf das web Admin Panel prüfen
+## Allgemeine Schritte für den Zugriff auf das web Admin Panel prüfen {#check-the-general-steps-to-access-web-admin-panel}
 
 1. Schalten Sie den Router ein, ohne ein Gerät damit zu verbinden.
 2. Verbinden Sie Ihr Mobiltelefon oder Ihren Laptop mit dem Wi-Fi des Routers und geben Sie den auf dem Routeretikett aufgedruckten Wi-Fi Key ein.
@@ -21,15 +21,15 @@ Manchmal können Sie [http://192.168.8.1](http://192.168.8.1) nicht aufrufen und
 
 Oder Sie können [die App](mobile_app.md) verwenden, um auf den Router zuzugreifen.
 
-## Weitere Schritte zur Behebung dieses Problems
+## Weitere Schritte zur Behebung dieses Problems {#other-steps-to-fix-this-issue}
 
-1. [Verbindung prüfen](#verbindung-prüfen)
-2. [IP-Adresse des Routers prüfen](#ip-adresse-des-routers-prüfen)
-3. [Auf die IP-Adresse des Routers zugreifen](#auf-die-ip-adresse-des-routers-zugreifen)
+1. [Verbindung prüfen](#check-the-connection)
+2. [IP-Adresse des Routers prüfen](#check-routers-ip-address)
+3. [Auf die IP-Adresse des Routers zugreifen](#access-the-routers-ip-address)
 
 ---
 
-### Verbindung prüfen
+### Verbindung prüfen {#check-the-connection}
 
 Wenn Sie über ein Ethernet-Kabel verbunden sind, stellen Sie sicher, dass die WAN/LAN-Port-Verbindung des Routers korrekt ist:
 
@@ -38,7 +38,7 @@ Wenn Sie über ein Ethernet-Kabel verbunden sind, stellen Sie sicher, dass die W
 
 Wenn Sie über Wi-Fi verbunden sind, stellen Sie sicher, dass Sie auf Ihrem Gerät die richtige SSID ausgewählt und das richtige Passwort eingegeben haben.
 
-### IP-Adresse des Routers prüfen
+### IP-Adresse des Routers prüfen {#check-routers-ip-address}
 
 Befolgen Sie die folgenden Schritte, um die IP-Adresse des Routers zu prüfen.
 
@@ -98,7 +98,7 @@ Befolgen Sie die folgenden Schritte, um die IP-Adresse des Routers zu prüfen.
     3. Tippen Sie auf das Dropdown-Menü Advanced. Wenn Ihnen dort Optionen für Static oder Dynamic IPs angeboten werden, wählen Sie Static.
     4. In jedem Fall sollten Sie die IP-Adresse Ihres Routers unter Gateway sehen.
 
-### Auf die IP-Adresse des Routers zugreifen
+### Auf die IP-Adresse des Routers zugreifen {#access-the-routers-ip-address}
 
 1. Verwenden Sie für eine bessere Kompatibilität Chrome/Edge/Safari, um auf das Admin Panel Ihres Routers zuzugreifen.
 

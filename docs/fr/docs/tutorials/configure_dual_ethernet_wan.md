@@ -1,14 +1,14 @@
-# Configurer un double WAN Ethernet filaire via un adaptateur Ethernet vers USB-A
+# Configurer un double WAN Ethernet filaire via un adaptateur Ethernet vers USB-A {#configure-dual-wired-ethernet-wan-via-an-ethernet-to-usb-a-adapter}
 
 Vous pouvez configurer un double accès WAN Ethernet filaire sur un routeur disposant d'un seul port WAN à l'aide d'un adaptateur Ethernet vers USB-A. 
 
 Les routeurs GL.iNet prennent en charge les adaptateurs Ethernet vers USB-A courants. Vous pouvez ainsi convertir l'accès Ethernet filaire provenant du routeur de votre FAI en connexion USB via le port USB du routeur, afin de lui fournir un accès Ethernet filaire supplémentaire en plus du port WAN.
 
-## Topologie
+## Topologie {#topology}
 
 ![Topology](https://static.gl-inet.com/docs/router/en/4/tutorials/multiwan_wire/adaptor.png){class="glboxshadow"}
 
-## Étapes de configuration
+## Étapes de configuration {#setup-steps}
 
 1. Branchez l'adaptateur Ethernet vers USB-A sur le port USB de votre routeur GL.iNet, puis connectez l'autre extrémité à votre routeur FAI.
 
@@ -22,7 +22,7 @@ Les routeurs GL.iNet prennent en charge les adaptateurs Ethernet vers USB-A cour
 
     Attendez la fin de l'installation.
 
-    ![installation suceeded](https://static.gl-inet.com/docs/router/en/4/tutorials/multiwan_wire/suceeded.png){class="glboxshadow"}
+    ![installation succeeded](https://static.gl-inet.com/docs/router/en/4/tutorials/multiwan_wire/suceeded.png){class="glboxshadow"}
 
 3. Connectez-vous via USB Tethering.
 

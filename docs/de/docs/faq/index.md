@@ -4,11 +4,11 @@ hide:
   - toc
 ---
 
-# FAQ
+# FAQ {#faq}
 
 Erfahren Sie, wie Sie unsere Geräte verwenden und einige häufige Probleme lösen.
 
-## Netzwerkverbindung
+## Netzwerkverbindung {#network-connection}
 
 * [Ersteinrichtung](first_time_setup.md)
 * [Warnung vom Browser](warning_from_your_browser_during_setup.md)
@@ -17,12 +17,12 @@ Erfahren Sie, wie Sie unsere Geräte verwenden und einige häufige Probleme lös
 * [Wie verbinde ich ein Gerät nur mit Ethernet über einen GL.iNet-Router mit Wi-Fi?](produce_a_wired_connection.md)
 * [Wie verbinde ich den 10G-SFP+-Port am Flint 4?](connecting_10g_sfp_plus_port_on_flint4.md)
 
-## Problemhinweise
+## Problemhinweise {#problem-notification}
 
 * [Problemhinweis für GL-MT2500/GL-X3000/GL-XE3000](problem_notification_for_mt2500_x3000_xe3000.md)
 * [Problemhinweis und Lösungen für GL-X3000/GL-X2000 bei fehlender Funktion mit EE-SIM-Karten](problem_notification_and_solutions_for_x3000_x2000_failure_to_work_with_ee_sim_cards.md)
 
-## Fehlerbehebung
+## Fehlerbehebung {#troubleshooting}
 
 * [Kein Zugriff auf den Router über 192.168.8.1](cannot_access_web_admin_panel.md)
 * [Android-5G-Hotspot kann nicht gescannt werden](cannot_scan_android_5g_hotspot.md)
@@ -46,7 +46,7 @@ Erfahren Sie, wie Sie unsere Geräte verwenden und einige häufige Probleme lös
 * [Wie groß ist die WLAN-Abdeckung meines Routers?](what_is_the_wireless_coverage_of_my_router.md)
 * [U-Boot-Version aktualisieren](upgrade_uboot_version.md)
 
-## VPN
+## VPN {#vpn}
 
 * [Wie richte ich den OpenVPN-Client ein?](../interface_guide/openvpn_client.md)
 * [Wie richte ich den WireGuard-Client ein?](../interface_guide/wireguard_client.md)
@@ -57,12 +57,12 @@ Erfahren Sie, wie Sie unsere Geräte verwenden und einige häufige Probleme lös
 * [Verbindung zu einem verschleierten WireGuard-Server nicht möglich](cannot_connect_to_obfuscated_wireguard_server.md)
 * [Muss ich Ethernet WAN konfigurieren, wenn ich VPN verwende?](do_i_have_to_configure_ethernet_wan_when_using_vpn.md)
 
-## Aktualisierung
+## Aktualisierung {#upgrade}
 
 * [Wie lade ich die Firmware für meinen Router herunter?](how_to_download_firmware.md)
 * [Wie kann ich die Router-Firmware manuell aktualisieren oder downgraden?](../tutorials/how_to_upgrade_downgrade_router.md)
 
-## Sonstiges
+## Sonstiges {#other}
 
 * [Status der LED-Anzeige](led.md)
 * [GL.iNet Mobile App](mobile_app.md)

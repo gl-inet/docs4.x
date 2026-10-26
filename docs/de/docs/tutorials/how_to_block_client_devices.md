@@ -1,4 +1,4 @@
-# So blockieren Sie bestimmte Client-Geräte auf einem GL.iNet-Router
+# So blockieren Sie bestimmte Client-Geräte auf einem GL.iNet-Router {#how-to-block-specific-client-devices-on-a-glinet-router}
 
 In diesem Tutorial erfahren Sie, wie Sie bestimmte Client-Geräte auf einem GL.iNet-Router blockieren. Durch das Blockieren von Client-Geräten verhindern Sie unbefugten Zugriff auf Ihr Netzwerk. Das erhöht die Netzwerksicherheit und hilft Ihnen dabei, den Internetzugang Ihrer Familie zu steuern.
 
@@ -8,11 +8,11 @@ Sie können Client-Geräte auf Ihrem GL.iNet-Router auf zwei Arten blockieren: �
 
 ## Client-Geräte über das Admin-Panel blockieren {#block-client-devices-via-the-admin-panel}
 
-### 1. Im Admin-Panel anmelden
+### 1. Im Admin-Panel anmelden {#1-sign-in-to-the-admin-panel}
 
 Geben Sie in einem Webbrowser `192.168.8.1` ein. Geben Sie Ihr Passwort ein und klicken Sie dann auf **Login**.
 
-### 2. Client-Geräte blockieren
+### 2. Client-Geräte blockieren {#2-block-client-devices}
 
 Je nachdem, ob Ihnen die MAC-Adressen vorliegen, gibt es zwei Möglichkeiten, Client-Geräte zu blockieren:
 

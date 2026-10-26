@@ -1,6 +1,6 @@
-# GL.iNetルーターでDrop-in Gatewayを設定する方法
+# GL.iNetルーターでDrop-in Gatewayを設定する方法 {#how-to-set-up-drop-in-gateway-on-a-glinet-router}
 
-GL.iNetはDrop-in Gateway機能を提供しており、AdGuard Home、暗号化DNS、VPNなど、メインルーターにない機能を追加できます。この機能を使うことで、メインルーターをこれまでどおり使いながら、追加機能も利用できます。
+GL.iNetはDrop-in Gateway機能を提供しており、AdGuard Home、暗号化DNS、VPNなど、メインルーターにない場合がある機能を追加できます。この機能を使うことで、メインルーターをこれまでどおり使いながら、追加機能も利用できます。
 
 Drop-in Gatewayは、メインルーターに接続されている[すべてのデバイス](#enable-drop-in-gateway-for-all-devices)または[特定のデバイス](#enable-drop-in-gateway-for-specific-devices)に対して有効にできます。利用する構成に応じて、該当するセクションの手順に従ってください。
 
@@ -10,13 +10,13 @@ Drop-in Gatewayは、メインルーターに接続されている[すべての�
 
 ## すべてのデバイスでDrop-in Gatewayを有効にする {#enable-drop-in-gateway-for-all-devices}
 
-### 1. GL.iNetルーターをメインルーターに接続する
+### 1. GL.iNetルーターをメインルーターに接続する {#1-connect-glinet-router-to-the-main-router}
 
 GL.iNetルーターのWANポートを、メインルーターのLANポートにイーサネットケーブルで接続します。
 
-### 2. Drop-in Gatewayを有効にする
+### 2. Drop-in Gatewayを有効にする {#2-enable-drop-in-gateway}
 
-Drop-in Gatewayを有効にする方法は2つあります。ルーターの管理画面を使う方法と、GL.iNet mobile app を使う方法です。
+Drop-in Gatewayを有効にする方法は2つあります。ルーターの管理パネルを使う方法と、GL.iNet モバイルアプリ を使う方法です。
 
 ??? "Web 管理パネルを使用する"
 
@@ -38,7 +38,7 @@ Drop-in Gatewayを有効にする方法は2つあります。ルーターの管�
 
 ??? "GL.iNet モバイルアプリを使用する"
 
-    **注意:** 開始前に、デバイスにGL.iNet mobile app をインストールしてください。
+    **注意:** 開始前に、デバイスにGL.iNet モバイルアプリ をインストールしてください。
 
     1. アプリのメイン画面で、**System** タブ > **Drop-in Gateway** をタップします。
 
@@ -52,31 +52,31 @@ Drop-in Gatewayを有効にする方法は2つあります。ルーターの管�
 
     4. **Done** をタップします。
 
-### 3. メインルーターのDHCPサーバーを無効にする
+### 3. メインルーターのDHCPサーバーを無効にする {#3-disable-dhcp-server-on-the-main-router}
 
 メインルーターにログインして、DHCPサーバーを無効にしてください。ルーターメーカーが提供する手順を参照するか、サポートにお問い合わせください。
 
-### 4. AdGuard、DNS、VPN、その他の機能を設定する
+### 4. AdGuard、DNS、VPN、その他の機能を設定する {#4-set-up-adguard-dns-vpn-and-other-features}
 
 GL.iNetルーターで利用したい機能を有効にするには、以下のガイドを参照してください。
 
 * [AdGuard Home](../interface_guide/adguardhome.md){target="_blank"}
-* [Encrypted DNS](../interface_guide/dns.md){target="_blank"}
-* [Parental Control](../interface_guide/parental_control.md){target="_blank"}
-* [WireGaurd Client](../interface_guide/wireguard_client.md){target="_blank"}
-* [OpenVPN Client](../interface_guide/openvpn_client.md){target="_blank"}
+* [暗号化DNS](../interface_guide/dns.md){target="_blank"}
+* [ペアレンタルコントロール](../interface_guide/parental_control.md){target="_blank"}
+* [WireGuard クライアント](../interface_guide/wireguard_client.md){target="_blank"}
+* [OpenVPN クライアント](../interface_guide/openvpn_client.md){target="_blank"}
 
 ---
 
 ## 特定のデバイスでDrop-in Gatewayを有効にする {#enable-drop-in-gateway-for-specific-devices}
 
-### 1. GL.iNetルーターをメインルーターに接続する
+### 1. GL.iNetルーターをメインルーターに接続する {#1-connect-glinet-router-to-the-main-router_1}
 
 GL.iNetルーターのWANポートを、メインルーターのLANポートにイーサネットケーブルで接続します。
 
-### 2. Drop-in Gatewayを有効にする
+### 2. Drop-in Gatewayを有効にする {#2-enable-drop-in-gateway_1}
 
-Drop-in Gatewayを有効にする方法は2つあります。 [ルーターの管理画面](#using-web-admin-panel)を使う方法と、[GL.iNet mobile app](#using-glinet-mobile-app)を使う方法です。
+Drop-in Gatewayを有効にする方法は2つあります。 ルーターの管理パネルを使う方法と、GL.iNet モバイルアプリを使う方法です。
 
 ??? "Web 管理パネルを使用する"
 
@@ -100,7 +100,7 @@ Drop-in Gatewayを有効にする方法は2つあります。 [ルーターの�
 
 ??? "GL.iNet モバイルアプリを使用する"
 
-    **注意:** 開始前に、デバイスにGL.iNet mobile app をインストールしてください。
+    **注意:** 開始前に、デバイスにGL.iNet モバイルアプリ をインストールしてください。
 
     1. アプリのメイン画面で、**System** タブ > **Drop-in Gateway** をタップします。
 
@@ -116,7 +116,7 @@ Drop-in Gatewayを有効にする方法は2つあります。 [ルーターの�
 
     **注意:** このタブは閉じないでください。次の手順で、画面に表示されているIPアドレスを入力する必要があります。
 
-### 3. 特定のデバイスでゲートウェイとDNSを設定する
+### 3. 特定のデバイスでゲートウェイとDNSを設定する {#3-set-gateway-and-dns-on-specific-device}
 
 ??? "Windows"
 
@@ -175,22 +175,22 @@ Drop-in Gatewayを有効にする方法は2つあります。 [ルーターの�
         * **Router:** **Drop-in Gateway** ページに表示されているIPアドレスを入力します。
     9. **OK** > **OK** をクリックします。
 
-### 4. AdGuard、DNS、VPN、その他の機能を設定する
+### 4. AdGuard、DNS、VPN、その他の機能を設定する {#4-set-up-adguard-dns-vpn-and-other-features_1}
 
 GL.iNetルーターで利用したい機能を有効にするには、以下のガイドを参照してください。
 
 * [AdGuard Home](../interface_guide/adguardhome.md){target="_blank"}
-* [Encrypted DNS](../interface_guide/dns.md){target="_blank"}
-* [Parental Control](../interface_guide/parental_control.md){target="_blank"}
-* [WireGaurd Client](../interface_guide/wireguard_client.md){target="_blank"}
-* [OpenVPN Client](../interface_guide/openvpn_client.md){target="_blank"}
+* [暗号化DNS](../interface_guide/dns.md){target="_blank"}
+* [ペアレンタルコントロール](../interface_guide/parental_control.md){target="_blank"}
+* [WireGuard クライアント](../interface_guide/wireguard_client.md){target="_blank"}
+* [OpenVPN クライアント](../interface_guide/openvpn_client.md){target="_blank"}
 
 ---
 
-Related Article:
+関連記事:
 
 - [Drop-in Gateway](../interface_guide/drop-in_gateway.md)
 
 ---
 
-ご不明な点がある場合は、[Community Forum](https://forum.gl-inet.com){target="_blank"} または [Contact us](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

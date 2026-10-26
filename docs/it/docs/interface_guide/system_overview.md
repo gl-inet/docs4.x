@@ -1,11 +1,11 @@
-# System Overview
+# System Overview {#system-overview}
 
 Sul lato sinistro del pannello di amministrazione web, vai su **SYSTEM** -> **Overview**.
 
 La pagina Overview mostra lo stato di alcuni componenti hardware e supporta alcuni controlli semplici, inclusi i seguenti:
 
 - Stato di CPU, memoria, flash e dispositivi di archiviazione esterni.
-- Stato di componenti hardware come ventola, batteria e cosi' via.
+- Stato di componenti hardware come ventola, batteria e così via.
 - Controllo di LED e ventola.
 - Informazioni sul dispositivo.
 
@@ -13,7 +13,7 @@ Ecco un esempio con GL-MT3000.
 
 ![system overview](https://static.gl-inet.com/docs/router/en/4/interface_guide/system_overview/overview.png){class="glboxshadow"}
 
-## Carico medio della CPU
+## Carico medio della CPU {#cpu-average-load}
 
 Per la maggior parte dei modelli senza ventola, il carico medio della CPU viene visualizzato come segue.
 
@@ -45,27 +45,27 @@ Fai clic sull'icona della ventola nell'angolo in alto a destra per entrare in Fa
     - GL-MT3000 (Beryl AX)
     - GL-AXT1800 (Slate AX)
 
-## Utilizzo della memoria
+## Utilizzo della memoria {#memory-usage}
 
 Passa il mouse sul grafico per mostrare i valori specifici.
 
-**Nota**: la memoria mostrata qui e' la memoria disponibile per il sistema Linux. La memoria totale qui sara' inferiore alla memoria fisica perche' una parte viene allocata al sottosistema Wi-Fi o ad altre aree di boot.
+**Nota**: la memoria mostrata qui è la memoria disponibile per il sistema Linux. La memoria totale qui sarà inferiore alla memoria fisica perché una parte viene allocata al sottosistema Wi-Fi o ad altre aree di boot.
 
 ![system overview, memory usage](https://static.gl-inet.com/docs/router/en/4/interface_guide/system_overview/memory_usage.png){class="glboxshadow gl-70-desktop"}
 
-## LED
+## LED {#led}
 
 Facendo clic sull'icona dell'ingranaggio andrai alla sezione [Scheduled Tasks](scheduled_tasks.md) del LED.
 
 ![system overview, memory usage](https://static.gl-inet.com/docs/router/en/4/interface_guide/system_overview/led.png){class="glboxshadow gl-70-desktop"}
 
-## Flash
+## Flash {#flash}
 
 Mostra la memoria flash totale, incluse la parte usata dal sistema, quella usata dalle app e quella ancora disponibile.
 
 ![system overview, flash](https://static.gl-inet.com/docs/router/en/4/interface_guide/system_overview/flash.png){class="glboxshadow"}
 
-## Informazioni sul dispositivo
+## Informazioni sul dispositivo {#device-info}
 
 Questa sezione mostra le informazioni di base del dispositivo.
 
@@ -73,9 +73,9 @@ Device ID, MAC del dispositivo e S/N del dispositivo sono stati aggiunti dal fir
 
 ![system overview, device info](https://static.gl-inet.com/docs/router/en/4/interface_guide/system_overview/device_info.jpg){class="glboxshadow gl-80-desktop"}
 
-## Archiviazione esterna
+## Archiviazione esterna {#external-storage}
 
-Questa sezione, disponibile dalla v4.5, mostra la capacita' totale e disponibile del disco USB.
+Questa sezione, disponibile dalla v4.5, mostra la capacità totale e disponibile del disco USB.
 
 Alcuni modelli con firmware v4.7 e successivi supportano il cambio del protocollo USB.
 

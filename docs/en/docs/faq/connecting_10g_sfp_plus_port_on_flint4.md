@@ -1,25 +1,25 @@
-# Connecting the 10G SFP+ Port on Flint 4
+# Connecting the 10G SFP+ Port on Flint 4 {#connecting-the-10g-sfp-port-on-flint-4}
 
 Flint 4 (GL-BE14000) has a 10G SFP+ port that can operate in either WAN or LAN mode. The port supports multiple types of SFP+ modules and cables for fiber-optic and copper Ethernet connections, including long-distance fiber links, conventional twisted-pair cabling, and advanced PON fiber termination.
 
 This article describes three connection options for the SFP+ port on Flint 4 (GL-BE14000), including their use cases, connection topologies, advantages and disadvantages, precautions, and compatible models.
 
-## Solution 1. Optical Transceiver + Fiber Cable
+## Solution 1. Optical Transceiver + Fiber Cable {#solution-1-optical-transceiver-fiber-cable}
 
-### 1.1 Scenarios
+### 1.1 Scenarios {#11-scenarios}
 
 This solution is intended for long-distance, reliable 10G Ethernet connections. Typical uses include:
 
 - Connecting to an ISP's 10G fiber Ethernet uplink for high-speed residential or commercial broadband access.
 - Deploying long-distance indoor or outdoor network links, such as connecting Flint 4 to a remote 10G switch, cabling between floors in a home, or deploying a small-office backbone network.
 
-### 1.2 Topology
+### 1.2 Topology {#12-topology}
 
 Flint 4 10G SFP+ port → Standard 10G SFP+ optical transceiver (SR/MR/LR) → Fiber-optic cable → Remote 10G network switch / ISP fiber Ethernet terminal
 
 ![](https://static.gl-inet.com/docs/router/en/4/faq/connecting_10g_sfp+_port_on_flint4/topology1.png){class="glboxshadow"}
 
-### 1.3 Pros and Cons
+### 1.3 Pros and Cons {#13-pros-and-cons}
 
 The table below evaluates key performance and usability aspects of the optical transceiver and fiber-optic cable option, with star ratings and detailed notes for reference:
 
@@ -32,7 +32,7 @@ The table below evaluates key performance and usability aspects of the optical t
 |Ease of Deployment|★★★☆☆|Requires knowledge of basic fiber connection requirements. Improper handling may cause signal attenuation, so deployment is more complex than with copper cabling.|
 |Cost|★★★☆☆|Requires additional optical transceivers and fiber cables, resulting in a higher overall cost than traditional twisted-pair solutions.|
 
-### 1.4 Precautions
+### 1.4 Precautions {#14-precautions}
 
 - PON modules cannot be used with this option.
 
@@ -40,7 +40,7 @@ The table below evaluates key performance and usability aspects of the optical t
 
 - This option supports only ISP 10G Ethernet-over-fiber services and cannot connect directly to traditional GPON/XGS-PON residential fiber lines.
 
-### 1.5 Compatible Models
+### 1.5 Compatible Models {#15-compatible-models}
 
 The following standard optical transceivers have been tested by GL.iNet or community members and found to be compatible with Flint 4. This list is for reference only.
 
@@ -68,19 +68,19 @@ The following standard optical transceivers have been tested by GL.iNet or commu
 |H!Fiber ASF85-24-X2-D 1000Base-SX 850nm 550m|GL.iNet|
 |Cisco GLC-SX-MMD 10-2626-01 CLASS 1 21CFR1040.10 LN#50|Community member|
 
-## Solution 2. SFP+ to RJ45 Module (SFP-10G-T)
+## Solution 2. SFP+ to RJ45 Module (SFP-10G-T) {#solution-2-sfp-to-rj45-module-sfp-10g-t}
 
-### 2.1 Scenarios
+### 2.1 Scenarios {#21-scenarios}
 
 The SFP-10G-T module converts the SFP+ slot into a standard RJ45 twisted-pair interface, making it suitable for short-distance 10G networks that use conventional Ethernet cables. Typical applications include connecting Flint 4 to a nearby 10G switch or NAS, adding a 10G RJ45 port without installing fiber, and building a high-speed home or SOHO LAN with existing twisted-pair cabling. This option is suitable for users who need 10G Ethernet but do not have fiber cabling.
 
-### 2.2 Topology
+### 2.2 Topology {#22-topology}
 
 Flint 4 10G SFP+ port → SFP+ to RJ45 module (SFP-10G-T) → CAT6A/CAT7 twisted-pair cable → 10G switch / 10G wired terminal device
 
 ![](https://static.gl-inet.com/docs/router/en/4/faq/connecting_10g_sfp+_port_on_flint4/topology2.png){class="glboxshadow"}
 
-### 2.3 Pros and Cons
+### 2.3 Pros and Cons {#23-pros-and-cons}
 
 The table below evaluates key performance and usability aspects of the SFP+ to RJ45 (SFP-10G-T) module option, with star ratings and detailed notes for reference:
 
@@ -93,7 +93,7 @@ The table below evaluates key performance and usability aspects of the SFP+ to R
 |Ease of Deployment|★★★★★|Offers plug-and-play deployment with no optical-path configuration required and works with conventional Ethernet cabling.|
 |Cost|★★★★☆|Can reuse existing RJ45 cabling without installing fiber, although a separate 10GBASE-T module is required.|
 
-### 2.4 Precautions
+### 2.4 Precautions {#24-precautions}
 
 - Use CAT6A or higher-category Ethernet cables for stable 10G transmission. Lower-category cables may reduce speeds or cause packet loss.
 
@@ -101,7 +101,7 @@ The table below evaluates key performance and usability aspects of the SFP+ to R
 
 - Provide adequate airflow around the SFP-10G-T module to prevent failures caused by overheating.
 
-### 2.5 Compatible Models
+### 2.5 Compatible Models {#25-compatible-models}
 
 The following SFP+ to RJ45 modules have been tested by GL.iNet or community members and found to be compatible with Flint 4. This list is for reference only.
 
@@ -119,19 +119,19 @@ The following SFP+ to RJ45 modules have been tested by GL.iNet or community memb
 |ONTI OBT-C2GE-R10 SFP 2500Base-TX RJ45 100m|Community member|
 |H!Fiber ASF-GE2-T 10/100/1000Base-T SFP SGMII RJ-45 100m|GL.iNet|
 
-## Solution 3. PON-ONU SFP+ Stick
+## Solution 3. PON-ONU SFP+ Stick {#solution-3-pon-onu-sfp-stick}
 
-### 3.1 Scenarios
+### 3.1 Scenarios {#31-scenarios}
 
 The PON-ONU SFP+ stick provides the functions of an ONU optical modem, allowing Flint 4's SFP+ port to terminate traditional GPON/XGS-PON residential fiber lines directly. This option eliminates the need for a separate external optical modem by combining fiber access and routing in one device. It is intended for advanced, enthusiast-level deployments, particularly for users who want to reduce the number of devices in their home network and connect the router directly to an ISP's PON fiber line.
 
-### 3.2 Topology
+### 3.2 Topology {#32-topology}
 
 Flint 4 10G SFP+ port → PON-ONU SFP+ stick → ISP GPON/XGS-PON fiber line (including drop cable, PON splitter, and ISP OLT)
 
 ![](https://static.gl-inet.com/docs/router/en/4/faq/connecting_10g_sfp+_port_on_flint4/topology3.png){class="glboxshadow"}
 
-### 3.3 Pros and Cons
+### 3.3 Pros and Cons {#33-pros-and-cons}
 
 The table below evaluates key performance and usability aspects of the PON-ONU SFP+ stick option, with star ratings and detailed notes for reference:
 
@@ -144,7 +144,7 @@ The table below evaluates key performance and usability aspects of the PON-ONU S
 |Ease of Deployment|★★☆☆☆|Requires prior confirmation from the ISP, SN/PLOAM authentication configuration, and adequate cooling. Deployment is relatively complex.|
 |Cost|★★★☆☆|Eliminates the cost of a separate optical modem but may affect services such as IPTV and voice and does not include official technical support.|
 
-### 3.4 Precautions
+### 3.4 Precautions {#34-precautions}
 
 - **Confirm ISP permission in advance**: Ask the ISP whether customer-owned third-party ONU hardware is allowed on its PON network, and obtain the required authentication parameters, including the SN registration code and PLOAM password.
 
@@ -154,7 +154,7 @@ The table below evaluates key performance and usability aspects of the PON-ONU S
 
 - Module whitelisting rules vary by ISP. Confirm which PON stick models the ISP supports before purchase.
 
-### 3.5 Compatible Models
+### 3.5 Compatible Models {#35-compatible-models}
 
 The following PON-ONU SFP+ sticks have been tested by GL.iNet or community members and found to be compatible with Flint 4. This list is for reference only.
 

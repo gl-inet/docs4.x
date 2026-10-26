@@ -1,14 +1,14 @@
-# Aggiornare il firmware del modulo Quectel
+# Aggiornare il firmware del modulo Quectel {#upgrade-quectel-module-firmware}
 
-## Preparazione
+## Preparazione {#preparation}
 
 1. Assicurati che il router abbia accesso a Internet.
 
 2. Collega un computer o un laptop al router tramite Wi-Fi o cavo Ethernet.
 
-## Passaggi di aggiornamento
+## Passaggi di aggiornamento {#upgrade-steps}
 
-### Per GL-X3000/GL-XE3000
+### Per GL-X3000/GL-XE3000 {#for-gl-x3000gl-xe3000}
 
 **Metodo 1. Aggiornamento tramite GUI GL.iNet**
 
@@ -22,7 +22,7 @@
 
 Prendiamo come esempio l'aggiornamento del modulo RM520N.
 
-1. Accedi al router tramite SSH. Fai riferimento a [questo link](https://docs.gl-inet.com/router/en/4/tutorials/ssh_log_in_to_the_router/).
+1. Accedi al router tramite SSH. Fai riferimento a [questo link](ssh_log_in_to_the_router.md).
 
 2. Inserisci il comando seguente per scaricare il firmware del modulo.
 
@@ -64,13 +64,13 @@ Prendiamo come esempio l'aggiornamento del modulo RM520N.
 
     ![mtk7981a_check_version](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/x3000_xe3000/check_module_version.png){class="glboxshadow"}
 
-### Per GL-MiFi/GL-XE300/GL-X750/GL-E750
+### Per GL-MiFi/GL-XE300/GL-X750/GL-E750 {#for-gl-mifigl-xe300gl-x750gl-e750}
 
 Prendiamo come esempio l'aggiornamento del modulo EM060K.
 
 1. Prepara una chiavetta USB. Scarica il firmware del modulo corrispondente dal fondo di questo tutorial sulla chiavetta USB, poi decomprimi il file `.zip` e posizionalo nella directory principale dell'unita USB.
 
-2. Inserisci la chiavetta USB nel router. Quindi fai riferimento a [questo link](https://docs.gl-inet.com/router/en/4/tutorials/ssh_log_in_to_the_router/) per accedere al router tramite SSH.
+2. Inserisci la chiavetta USB nel router. Quindi fai riferimento a [questo link](ssh_log_in_to_the_router.md) per accedere al router tramite SSH.
 
 3. Inserisci il comando `df -h` per controllare il percorso di montaggio dell'unita USB e annota il percorso.
 
@@ -117,7 +117,7 @@ Prendiamo come esempio l'aggiornamento del modulo EM060K.
     ```
     ![check module version](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/other_model/check_module_version.png){class="glboxshadow"}
 
-## URL di download del firmware del modulo Quectel
+## URL di download del firmware del modulo Quectel {#quectel-module-firmware-download-url}
 
 EP06-A: [https://fw.gl-inet.com/download/EP06A-modem-firmware/EP06ALAR02A08M4G_01.009.01.009.zip](https://fw.gl-inet.com/download/EP06A-modem-firmware/EP06ALAR02A08M4G_01.009.01.009.zip)
 

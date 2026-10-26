@@ -1,4 +1,4 @@
-# Jak zezwolić na dostęp do WAN, gdy klient VPN jest włączony?
+# Jak zezwolić na dostęp do WAN, gdy klient VPN jest włączony? {#how-to-allow-access-to-wan-when-vpn-client-is-enabled}
 
 Gdy klient VPN jest włączony na routerach GL.iNet, w domyślnym trybie globalnym urządzenia LAN nie mogą uzyskać dostępu do lokalnych urządzeń lub usług WAN, ponieważ cały ruch z sieci LAN jest kierowany przez tunel VPN, a nie przez sieć nadrzędną (WAN), aby uniknąć wycieków DNS.
 
@@ -6,7 +6,7 @@ Ten samouczek wprowadza kroki umożliwiające udostępnienie lokalnych usług WA
 
 ![allow access wan diagram](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/allow_access_wan_diagram.jpg){class="glboxshadow gl-90-desktop"}
 
-## Dla firmware v4.7 i wcześniejszych
+## Dla firmware v4.7 i wcześniejszych {#for-firmware-v47-and-earlier}
 
 Zaloguj się do panelu administracyjnego swojego klienta VPN i przejdź do **VPN** -> **VPN Dashboard** -> **VPN Client**. Kliknij **Global Options** w prawym górnym rogu.
 
@@ -18,7 +18,7 @@ Włącz **Allow Access WAN** i kliknij **Apply**.
 
 Jeśli ta opcja jest włączona, podczas gdy VPN jest podłączony, urządzenia klienckie nadal będą mogły uzyskać dostęp do usług WAN w podsieci nadrzędnej, np. drukarki, NAS itp.
 
-## Dla firmware v4.8 i nowszych
+## Dla firmware v4.8 i nowszych {#for-firmware-v48-and-higher}
 
 Opcja **Allow Access WAN** została usunięta z VPN Dashboard w firmware v4.8. Ale możesz uzyskać dostęp do lokalnej sieci WAN za pomocą polityki VPN.
 

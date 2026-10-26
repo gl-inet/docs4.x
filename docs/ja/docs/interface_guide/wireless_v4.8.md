@@ -1,4 +1,4 @@
-# ワイヤレス（ファームウェア v4.8 以前）
+# ワイヤレス（ファームウェア v4.8 以前） {#wireless-firmware-v48-and-earlier}
 
 このページの内容は、ファームウェア v4.8.x 以前に基づいています。デバイスで別のファームウェアバージョンを使用している場合は、以下のセレクターで該当するガイドに切り替えてください。
 
@@ -15,9 +15,9 @@ Web 管理パネルの左側で、**WIRELESS** に移動します。
 
 Wireless ページでは、2.4 GHz、5 GHz、6 GHz、MLO Wi-Fi など、個別の Wi-Fi ネットワークを設定できます（利用可否はモデルによって異なります）。各バンドは、メイン Wi‑Fi またはゲスト Wi‑Fi として設定でき、柔軟にワイヤレス管理を行えます。
 
-**注意**: 5 GHz Wi-Fi に対応していないモデル（GL-MT300N-V2 (Mango)、GL-X300B (Collie) など）や、Wi‑Fi 機能自体を搭載していないモデル（GL-MT5000 (Brume 3)、GL-MT2500/GL-MT2500A (Brume 2) など）があります。
+**注意**: 5 GHz Wi-Fi に対応していないモデル（GL-MT300N-V2 (Mango)、GL-X300B (Collie)、GL-XE300 (Puli) など）や、Wi‑Fi 機能自体を搭載していないモデル（GL-MT5000 (Brume 3)、GL-MT2500/GL-MT2500A (Brume 2) など）があります。
 
-## MLO Wi-Fi
+## MLO Wi-Fi {#mlo-wi-fi}
 
 | 対応モデル               |           |
 | :----------------------- | :-------: |
@@ -48,10 +48,11 @@ MLO（Multi-Link Operation）は Wi-Fi 7（802.11be）の中核機能の1つで�
 
     ![MLO Guest Wi-Fi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/guest_wifi_mlo.png){class="glboxshadow"}
 
-## 6 GHz Wi-Fi
+## 6 GHz Wi-Fi {#6-ghz-wi-fi}
 
 | 対応モデル               |           |
 | :----------------------- | :-------: |
+| Flint 4 (GL-BE14000)     | √         |
 | Slate 7 Pro (GL-BE10000) | √         |
 | Mudi 7 (GL-E5800)        | √         |
 | Flint 3 (GL-BE9300)      | √         |
@@ -74,7 +75,7 @@ MLO（Multi-Link Operation）は Wi-Fi 7（802.11be）の中核機能の1つで�
 
     ![6G Guest Wi-Fi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/guest_wifi_6g.png){class="glboxshadow"}
 
-## 5 GHz Wi-Fi
+## 5 GHz Wi-Fi {#5-ghz-wi-fi}
 
 以下のタブをクリックすると、5 GHz メイン Wi-Fi と 5 GHz ゲスト Wi-Fi の設定を確認できます。
 
@@ -90,7 +91,7 @@ MLO（Multi-Link Operation）は Wi-Fi 7（802.11be）の中核機能の1つで�
 
     ![5G Guest Wi-Fi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/guest_wifi_5g.png){class="glboxshadow"}
 
-## 2.4 GHz Wi-Fi
+## 2.4 GHz Wi-Fi {#24-ghz-wi-fi}
 
 以下のタブをクリックすると、2.4 GHz メイン Wi-Fi と 2.4 GHz ゲスト Wi-Fi の設定を確認できます。
 
@@ -106,7 +107,7 @@ MLO（Multi-Link Operation）は Wi-Fi 7（802.11be）の中核機能の1つで�
 
     ![2.4G Guest Wi-Fi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/guest_wifi_2.4g.png){class="glboxshadow"}
 
-## 一般的な Wi-Fi 設定
+## 一般的な Wi-Fi 設定 {#general-wi-fi-settings}
 
 * Wi-Fi SSID の横にある QR コードアイコンにカーソルを合わせると、Wi‑Fi の QR コードが表示されます。スマートフォンやタブレットで読み取ることで、対応する Wi‑Fi ネットワークにすばやく接続できます。
 

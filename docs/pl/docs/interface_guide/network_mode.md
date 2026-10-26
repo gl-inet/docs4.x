@@ -1,4 +1,4 @@
-# Tryb sieciowy
+# Tryb sieciowy {#network-mode}
 
 W lewym panelu administratora przejdź do **NETWORK** -> **Network Mode**.
 
@@ -12,7 +12,7 @@ Tryb sieciowy określa różne role i funkcje operacyjne, jakie może przyjąć 
 
     3. **W trybie Non-Router następujące funkcje będą niedostępne**: Access Control (Allowlist i Blocklist), AstroWarp, VPN, AdGuard Home, Parental Control, ZeroTier, Tailscale, Port Forwarding, Multi-WAN, DHCP Server, Address Reservation, Guest Network, DNS, Port Management, IPv6, Drop-in Gateway, IGMP Snooping, Network Acceleration, NAT Settings.
 
-## Modele z Wi-Fi
+## Modele z Wi-Fi {#for-models-with-wi-fi}
 
 Z wyjątkiem określonych modeli większość bezprzewodowych routerów GL.iNet posiada funkcję Wi-Fi.
 
@@ -56,7 +56,7 @@ Modele z funkcją Wi-Fi zazwyczaj obsługują cztery tryby sieciowe: Router, Acc
 
     Po przełączeniu w tryb WDS dostęp do panelu administratora za pomocą oryginalnego adresu IP sieci LAN nie będzie możliwy. Zamiast tego należy zalogować się do routera nadrzędnego, aby znaleźć adres IP przypisany temu routerowi WDS, a następnie użyć go do uzyskania dostępu do panelu administratora. Jeśli nie masz dostępu do routera nadrzędnego, naciśnij i przytrzymaj przycisk reset przez 4 sekundy, aby przywrócić domyślny tryb Router.
 
-## Modele bez Wi-Fi
+## Modele bez Wi-Fi {#for-models-without-wi-fi}
 
 GL-MT2500/GL-MT2500A nie obsługuje trybów Access Point, Extender ani WDS, ponieważ nie posiada funkcji Wi-Fi. Obsługuje jednak tryb Router i tryb Bridge.
 

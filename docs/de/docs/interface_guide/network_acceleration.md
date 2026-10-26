@@ -1,10 +1,10 @@
-# Netzwerkbeschleunigung
+# Netzwerkbeschleunigung {#network-acceleration}
 
 Die Netzwerkbeschleunigung reduziert die CPU-Last und beschleunigt die Weiterleitung von Datenpaketen, kann jedoch mit einigen Funktionen in Konflikt geraten.
 
 Wenn die Netzwerkbeschleunigung aktiviert ist, funktionieren die folgenden Funktionen nicht korrekt: **Client Speed and Traffic Statistics**, **Client Speed Limit**.
 
-## Unterstützte Modelle
+## Unterstützte Modelle {#supported-models}
 
 ??? "Unterstützte Modelle"
     - GL-MT6000 (Fortify)
@@ -40,7 +40,7 @@ Wenn die Netzwerkbeschleunigung aktiviert ist, funktionieren die folgenden Funkt
     - GL-B1300 (Convexa-B)
     - GL-X300B (Collie)
 
-## Einrichtung
+## Einrichtung {#setup}
 
 Gehen Sie auf der linken Seite des Web-Admin-Panels zu **NETWORK** -> **Network Acceleration**.
 

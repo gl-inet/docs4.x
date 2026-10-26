@@ -1,12 +1,12 @@
-# Przewodnik użytkownika Brume 3 (GL-MT5000)
+# Przewodnik użytkownika Brume 3 (GL-MT5000) {#brume-3-gl-mt5000-user-guide}
 
-## Przegląd produktu
+## Przegląd produktu {#product-overview}
 
 Brume 3 (GL-MT5000) to wydajna brama bezpieczeństwa działająca na systemie OpenWrt v21.02, wyposażona w czterordzeniowy procesor MediaTek Cortex-A53, 1 GB RAM i 8 GB pamięci eMMC do rozbudowy za pomocą wtyczek. Ma kompaktową konstrukcję, idealną do wdrożeń w miejscach o ograniczonej przestrzeni, i obsługuje domowe hostowanie VPN, site-to-site SD-WAN, a także ponad 30 usług VPN zapewniających bezpieczną łączność między lokalizacjami. Dodatkowo oferuje funkcję DPI od GL.iNet, a także Parental Control i AdGuard Home, odpowiadając na zróżnicowane potrzeby entuzjastów technologii i użytkowników biznesowych.
 
 ![gl-mt5000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt5000/hardware_info/mt5000_interface.png){class="glboxshadow"}
 
-## Zawartość opakowania
+## Zawartość opakowania {#package-contents}
 
 - 1 x Brume 3 (GL-MT5000)
 - 1 x zasilacz
@@ -21,27 +21,27 @@ Obejrzyj poniżej film z rozpakowania Brume 3.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PupxjK_u8O8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Jak skonfigurować Brume 3
+## Jak skonfigurować Brume 3 {#how-to-set-up-brume-3}
 
 Obejrzyj ten film instruktażowy lub wykonaj poniższe kroki.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RwbdUy79WHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Włączenie zasilania
+### 1. Włączenie zasilania {#1-power-on}
 
 Połącz dwuczęściowy zasilacz. Podłącz go do Brume 3 i do gniazdka elektrycznego. Urządzenie uruchomi się automatycznie.
 
-### 2. Podłączenie urządzenia
+### 2. Podłączenie urządzenia {#2-connect-device}
 
 Podłącz urządzenie przewodowe (np. komputer lub laptop) do portu LAN routera Brume 3 za pomocą kabla Ethernet.
 
-### 3. Logowanie do panelu administracyjnego
+### 3. Logowanie do panelu administracyjnego {#3-log-in-to-web-admin-panel}
 
 **Note:** Poniższe instrukcje dotyczą użytkowników konfigurujących router przez panel GL.iNet Web Admin Panel.
 
 Otwórz przeglądarkę internetową, wpisz `192.168.8.1` w pasku adresu i zaloguj się. Wybierz język i ustaw hasło administratora, a następnie kliknij **Apply**.
 
-### 4. Konfiguracja Internetu
+### 4. Konfiguracja Internetu {#4-internet-setup}
 
 Skonfiguruj Brume 3 za pomocą jednej z obsługiwanych metod połączenia z Internetem: Ethernet, Tethering i Cellular (opcjonalnie). Jeśli chcesz korzystać z funkcji [Multi-WAN](../../interface_guide/multi-wan.md), skonfiguruj więcej niż jedno połączenie internetowe.
 
@@ -81,13 +81,13 @@ Skonfiguruj Brume 3 za pomocą jednej z obsługiwanych metod połączenia z Inte
 
 Poniżej znajdziesz przegląd funkcji dostępnych w webowym panelu administracyjnym Brume 3.
 
-## CLIENTS
+## CLIENTS {#clients}
 
 Strona Clients wyświetla informacje o podłączonych urządzeniach. Dla każdego klienta pokazuje nazwę, adresy IP i MAC, prędkość pobierania i wysyłania, całkowity ruch oraz umożliwia blokowanie klienta i wykonywanie innych działań.
 
 Zapoznaj się z poradnikiem [Clients](../../interface_guide/clients.md).
 
-## Usługi w chmurze
+## Usługi w chmurze {#cloud-services}
 
 === "GoodCloud"
 
@@ -101,7 +101,7 @@ Zapoznaj się z poradnikiem [Clients](../../interface_guide/clients.md).
 
     Zapoznaj się z poradnikiem [AstroWarp](../../interface_guide/astrowarp.md).
 
-## VPN
+## VPN {#vpn}
 
 VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między urządzeniem a serwerem VPN. Zapewnia dodatkową warstwę prywatności i bezpieczeństwa (klient VPN) oraz umożliwia dostęp do sieci zdalnej (serwer VPN). Brume 3 obsługuje OpenVPN i WireGuard.
 
@@ -119,7 +119,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między urząd
     * [Jak skonfigurować klienta WireGuard](../../interface_guide/wireguard_client.md)
     * [Jak skonfigurować serwer WireGuard](../../interface_guide/wireguard_server.md)
 
-## NETWORK
+## NETWORK {#network}
 
 === "Multi-WAN"
 
@@ -182,7 +182,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między urząd
 
     Zapoznaj się z poradnikiem [Network Acceleration](../../interface_guide/network_acceleration.md).
 
-## FLOW CONTROL
+## FLOW CONTROL {#flow-control}
 
 === "DPI Engine"
 
@@ -224,7 +224,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między urząd
 
     Szczegółowe instrukcje znajdziesz w [SQM](../../interface_guide/sqm.md).
 
-## SECURITY
+## SECURITY {#security}
 
 === "Port Forwarding"
 
@@ -250,7 +250,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między urząd
 
     Zapoznaj się z poradnikiem [NAT Mode](../../interface_guide/nat_settings.md).
 
-## APPLICATIONS
+## APPLICATIONS {#applications}
 
 === "Plug-ins"
 
@@ -296,7 +296,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między urząd
 
     * [How to set up Tor](../../interface_guide/tor.md)
 
-## SYSTEM
+## SYSTEM {#system}
 
 === "Overview"
 

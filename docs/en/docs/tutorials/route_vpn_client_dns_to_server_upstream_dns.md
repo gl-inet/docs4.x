@@ -1,8 +1,8 @@
-# How to route VPN Client DNS queries to the VPN Server's Upstream DNS?
+# How to route VPN Client DNS queries to the VPN Server's Upstream DNS? {#how-to-route-vpn-client-dns-queries-to-the-vpn-servers-upstream-dns}
 
 This tutorial introduces the steps to redirect all DNS queries from VPN clients to your self-hosted DNS Server on the LAN side of your primary router, upstream of the VPN server.
 
-## Topology
+## Topology {#topology}
 
 In this tutorial, we use **Flint 3 (GL-BE9300)** and **Slate 7 (GL-BE3600)** as examples. 
 
@@ -16,7 +16,7 @@ However, if you have deployed a self-hosted DNS Server (IP address `192.168.1.13
 
 ![topology 2](https://static.gl-inet.com/docs/router/en/4/tutorials/route_vpn_dns_to_server_upstream_dns/topology-2.jpg){class="glboxshadow"}
 
-## Setup
+## Setup {#setup}
 
 1. Log in to the Flint 3's web Admin Panel, navigate to **NETWORK** -> **DNS**. Switch the DNS Server Mode to **Manual DNS**, and enter the IP address of your DNS Server.
 
@@ -50,7 +50,7 @@ However, if you have deployed a self-hosted DNS Server (IP address `192.168.1.13
 
     ![start client](https://static.gl-inet.com/docs/router/en/4/tutorials/route_vpn_dns_to_server_upstream_dns/start_client.png){class="glboxshadow"}
 
-## Verify DNS resolution
+## Verify DNS resolution {#verify-dns-resolution}
 
 Run the following command to capture DNS traffic on the VPN client. It will show that all VPN client DNS traffic goes to the VPN server (i.e., `10.0.0.1` in this example).
 

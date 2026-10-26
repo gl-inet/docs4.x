@@ -1,14 +1,14 @@
-# Guida utente di Mudi 7 (GL-E5800)
+# Guida utente di Mudi 7 (GL-E5800) {#mudi-7-gl-e5800-user-guide}
 
-## Panoramica del prodotto
+## Panoramica del prodotto {#product-overview}
 
-Mudi 7 e un router da viaggio 5G NR Wi-Fi 7 portatile progettato per chi viaggia spesso e per utenti business, offrendo reti private affidabili per proteggere i dati dalle minacce informatiche. Integra 5G ad alta velocita, doppia SIM con commutazione automatica in caso di failover e Wi-Fi 7 (canali da 320 MHz e 4K QAM) per una connettivita stabile e veloce, adatta a download rapidi, streaming 4K e videoconferenze fluide anche in ambienti affollati.
+Mudi 7 e un router da viaggio 5G NR Wi-Fi 7 portatile progettato per chi viaggia spesso e per utenti business, offrendo reti private affidabili per proteggere i dati dalle minacce informatiche. Integra 5G ad alta velocità, doppia SIM con commutazione automatica in caso di failover e Wi-Fi 7 (canali da 320 MHz e 4K QAM) per una connettività stabile e veloce, adatta a download rapidi, streaming 4K e videoconferenze fluide anche in ambienti affollati.
 
-Dotato di touchscreen, Mudi 7 consente di monitorare in tempo reale l'utilizzo dei dati, la potenza del segnale, i dispositivi collegati e la velocita dei client, oltre a regolare le impostazioni con semplici tocchi per un controllo intuitivo e pratico.
+Dotato di touchscreen, Mudi 7 consente di monitorare in tempo reale l'utilizzo dei dati, la potenza del segnale, i dispositivi collegati e la velocità dei client, oltre a regolare le impostazioni con semplici tocchi per un controllo intuitivo e pratico.
 
 ![gl-e5800 overview](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/gl-e5800_overview.png){class="glboxshadow"}
 
-## Contenuto della confezione
+## Contenuto della confezione {#package-contents}
 
 - 1 x Mudi 7 (GL-E5800)
 - 1 x Pacco batteria
@@ -22,15 +22,15 @@ Guarda qui sotto il video di unboxing di Mudi 7.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sCEIReC70Fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Come configurare Mudi 7
+## Come configurare Mudi 7 {#how-to-set-up-mudi-7}
 
 Guarda questo video di configurazione oppure segui i passaggi riportati di seguito.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6xg8I0ohAMM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Installa la scheda SIM
+### 1. Installa la scheda SIM {#1-install-sim-card}
 
-Installa una o piu' Nano-SIM su Mudi 7. Se preferisci usare eSIM, salta questo passaggio e passa al passaggio 2.
+Installa una o più Nano-SIM su Mudi 7. Se preferisci usare eSIM, salta questo passaggio e passa al passaggio 2.
 
 !!! Warning
 
@@ -42,7 +42,7 @@ Per prima cosa, usa la piccola tacca nell'angolo inferiore destro del coperchio 
 
 ![remove battery](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/first_time_setup/battery1.png){class="glboxshadow"}
 
-Successivamente, inserisci la o le Nano-SIM. Se usi una sola scheda, dai priorita' alla SIM 1.
+Successivamente, inserisci la o le Nano-SIM. Se usi una sola scheda, dai priorità alla SIM 1.
 
 ![sim slots](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/first_time_setup/sim-slots.png){class="glboxshadow"}
 
@@ -50,21 +50,21 @@ Infine, rimetti la batteria e richiudi il coperchio.
 
 ![restore battery](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/first_time_setup/battery2.png){class="glboxshadow"}
 
-### 2. Accendi il dispositivo
+### 2. Accendi il dispositivo {#2-power-on}
 
 Tieni premuto il pulsante di accensione per **3 secondi**, oppure collega un alimentatore.
 
 ![power on](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/first_time_setup/power-button.png){class="glboxshadow"}
 
-### 3. Impostazioni di base
+### 3. Impostazioni di base {#3-basic-settings}
 
 Segui le istruzioni sullo schermo per configurare le impostazioni di base, inclusi **screen passcode**, **admin password**, **Wi-Fi name**, **Wi-Fi password** e **frequency bands**.
 
 **Suggerimento**: La password amministratore predefinita corrisponde agli ultimi 9 caratteri del numero di serie del dispositivo, seguiti dal carattere `#`. Puoi usare la password predefinita oppure impostarne una personalizzata.
 
-### 4. Configurazione della connessione Internet
+### 4. Configurazione della connessione Internet {#4-internet-setup}
 
-Configura Mudi 7 usando uno dei metodi di connessione Internet supportati: Cellular, Ethernet, Repeater, Tethering e USB Ethernet. Se desideri usare la funzione [Multi-WAN](../../interface_guide/multi-wan.md), configura piu di una connessione Internet.
+Configura Mudi 7 usando uno dei metodi di connessione Internet supportati: Cellular, Ethernet, Repeater, Tethering e USB Ethernet. Se desideri usare la funzione [Multi-WAN](../../interface_guide/multi-wan.md), configura più di una connessione Internet.
 
 === "Cellular"
 
@@ -78,7 +78,7 @@ Configura Mudi 7 usando uno dei metodi di connessione Internet supportati: Cellu
 
         ![enable esim](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/lcd_enable_esim.png){class="glboxshadow" width="590"}
 
-    2. Accedi al [pannello di amministrazione web](./index.md#accedi-al-pannello-di-amministrazione-web) e vai su **INTERNET** -> **Cellular** -> **eSIM Management**.
+    2. Accedi al [pannello di amministrazione web](./index.md#log-in-to-web-admin-panel) e vai su **INTERNET** -> **Cellular** -> **eSIM Management**.
 
         ![esim management](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/esim_management.png){class="glboxshadow" width="590"}
 
@@ -119,7 +119,7 @@ Configura Mudi 7 usando uno dei metodi di connessione Internet supportati: Cellu
     !!! note
 
         1. L'eSIM integrata e la SIM 2 sono mutuamente esclusive e non possono essere attivate contemporaneamente. L'eSIM e disabilitata per impostazione predefinita. Se abiliti l'eSIM, la SIM 2 non funzionera anche se e inserita una scheda SIM.
-        2. Poiche Mudi 7 dispone di eSIM integrata, una scheda eSIM fisica SIMPoYo verra riconosciuta come una normale scheda SIM senza funzionalita eSIM su Mudi 7.
+        2. Poiché Mudi 7 dispone di eSIM integrata, una scheda eSIM fisica SIMPoYo verra riconosciuta come una normale scheda SIM senza funzionalità eSIM su Mudi 7.
 
 === "Ethernet"
 
@@ -153,7 +153,7 @@ Configura Mudi 7 usando uno dei metodi di connessione Internet supportati: Cellu
     2. Sul dispositivo mobile, vai nelle impostazioni e abilita **USB Tethering**. Se usi un iPhone, tocca **Trust This Device** quando richiesto.
     3. Quando sul touchscreen viene richiesto di selezionare la modalità USB, scegli **Host (USB OTG) mode**. Mudi 7 si collegherà automaticamente al dispositivo. Se non si connette, ripeti i passaggi precedenti oppure accedi al pannello di amministrazione web e controlla la connessione Tethering nella pagina INTERNET.
 
-        Per saperne di più sulle differenze tra le modalità USB, fai clic [qui](https://docs.gl-inet.com/router/en/4/tutorials/what_is_usb-c_otg_and_how_to_share_your_network_via_usb-c_otg).
+        Per saperne di più sulle differenze tra le modalità USB, fai clic [qui](../../tutorials/what_is_usb-c_otg_and_how_to_share_your_network_via_usb-c_otg.md).
     4. Quando la connessione a Internet va a buon fine, un'icona a forma di catena comparira nell'angolo superiore destro del touchscreen. Puoi anche controllare i dettagli della connessione nel pannello di amministrazione web.
 
     Per istruzioni dettagliate, fai riferimento a [Collegarsi a Internet tramite USB tethering](../../interface_guide/internet_tethering.md).
@@ -173,8 +173,10 @@ Configura Mudi 7 usando uno dei metodi di connessione Internet supportati: Cellu
 
     3. Mudi 7 si colleghera quindi automaticamente al dispositivo. Se non si connette, ripeti i passaggi sopra oppure accedi al pannello di amministrazione web e controlla la connessione USB Ethernet nella pagina INTERNET.
     4. Quando la connessione a Internet va a buon fine, un'icona USB e un'icona della porta Ethernet compariranno nell'angolo superiore destro del touchscreen. Puoi anche controllare i dettagli della connessione nel pannello di amministrazione web.
+    
+    Per i dettagli sulla porta USB-C OTG di Mudi 7, fai clic [qui](../../tutorials/what_is_usb-c_otg_and_how_to_share_your_network_via_usb-c_otg.md).
 
-## Aggiornamento firmware
+## Aggiornamento firmware {#firmware-upgrade}
 
 !!! note "Prima di eseguire l'aggiornamento, tieni presente quanto segue:"
 
@@ -184,7 +186,7 @@ Configura Mudi 7 usando uno dei metodi di connessione Internet supportati: Cellu
 
 Puoi aggiornare il firmware di Mudi 7 tramite touchscreen o pannello di amministrazione web.
 
-### Aggiornamento tramite touchscreen
+### Aggiornamento tramite touchscreen {#upgrade-via-touchscreen}
 
 1. Collega Mudi 7 a Internet.
 
@@ -196,13 +198,13 @@ Puoi aggiornare il firmware di Mudi 7 tramite touchscreen o pannello di amminist
 
     ![download & upgrade](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/screen_upgrade2.png){class="glboxshadow" width="300"}
 
-### Aggiornamento via web
+### Aggiornamento via web {#upgrade-via-web}
 
 Accedi al pannello di amministrazione web e vai su **SYSTEM** -> **Upgrade**. Puoi aggiornare il firmware del router online o localmente.
 
 Per i dettagli, consulta [questa pagina](../../interface_guide/upgrade.md).
 
-## Ripristino delle impostazioni di fabbrica
+## Ripristino delle impostazioni di fabbrica {#factory-reset}
 
 Esistono tre modi per ripristinare Mudi 7: direttamente dal touchscreen, con il pulsante Reset e tramite il pannello di amministrazione web.
 
@@ -212,7 +214,7 @@ Guarda questo video oppure segui i passaggi riportati di seguito.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3Kx_StIFLqo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Ripristino tramite touchscreen
+### Ripristino tramite touchscreen {#reset-via-touchscreen}
 
 1. Nella schermata iniziale, tocca **More**.
 
@@ -226,7 +228,7 @@ Guarda questo video oppure segui i passaggi riportati di seguito.
 
     ![LCD reset](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/lcd_reset3.png){class="glboxshadow" width="300"}
 
-### Ripristino tramite pulsante
+### Ripristino tramite pulsante {#reset-via-button}
 
 1. Rimuovi il coperchio posteriore e troverai il pulsante Reset come mostrato di seguito.
 
@@ -238,7 +240,7 @@ Guarda questo video oppure segui i passaggi riportati di seguito.
 
     - **Ripristino delle impostazioni di fabbrica**: tieni premuto il pulsante Reset per **10 secondi**, quindi rilascialo per eseguire un hard reset. Durante la pressione, presta attenzione ai messaggi sullo schermo e segui le istruzioni. Questa operazione cancellerà tutte le impostazioni. Procedi con cautela.
 
-### Ripristino tramite web
+### Ripristino tramite web {#reset-via-web}
 
 1. Accedi al pannello di amministrazione web e vai su **SYSTEM** -> **Reset Firmware**.
 
@@ -246,7 +248,7 @@ Guarda questo video oppure segui i passaggi riportati di seguito.
 
     ![web reset](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/web_reset.png){class="glboxshadow"}
 
-## Accedi al pannello di amministrazione web
+## Accedi al pannello di amministrazione web {#log-in-to-web-admin-panel}
 
 Puoi accedere al pannello di amministrazione web di Mudi 7 per configurare o controllare altre impostazioni.
 
@@ -271,9 +273,9 @@ Verrrai quindi autenticato nel pannello di amministrazione web di Mudi 7.
 
 Di seguito trovi una panoramica delle funzioni presenti nel pannello di amministrazione web di Mudi 7.
 
-## Wireless
+## Wireless {#wireless}
 
-La pagina Wireless consente di configurare le impostazioni delle reti Wi-Fi a 6 GHz, 5 GHz e 2,4 GHz, tra cui attivazione del Wi-Fi, potenza TX, nome della rete Wi-Fi (SSID), BSSID casuale, modalita di sicurezza Wi-Fi e password, visibilita dell'SSID, modalita Wi-Fi, larghezza di banda e canale.
+La pagina Wireless consente di configurare le impostazioni delle reti Wi-Fi a 6 GHz, 5 GHz e 2,4 GHz, tra cui attivazione del Wi-Fi, potenza TX, nome della rete Wi-Fi (SSID), BSSID casuale, modalità di sicurezza Wi-Fi e password, visibilità dell'SSID, modalità Wi-Fi, larghezza di banda e canale.
 
 Per configurarla, fai riferimento a [Wireless](../../interface_guide/wireless.md).
 
@@ -281,15 +283,15 @@ Per configurarla, fai riferimento a [Wireless](../../interface_guide/wireless.md
 
 1. A causa dei vincoli hardware del chipset, il Wi-Fi a 5 GHz e quello a 6 GHz non possono essere abilitati contemporaneamente.
 2. Quando il Repeater e abilitato, la Guest Network verra disabilitata automaticamente.
-3. Come richiesto dalle normative, passa il Wi-Fi alla modalita Outdoor quando lo usi all'aperto. Questo puo ridurre l'area di copertura. Puoi cambiare Usage Environment, Indoor oppure Outdoor, nella parte superiore della pagina Wireless.
+3. Come richiesto dalle normative, passa il Wi-Fi alla modalità Outdoor quando lo usi all'aperto. Questo può ridurre l'area di copertura. Puoi cambiare Usage Environment, Indoor oppure Outdoor, nella parte superiore della pagina Wireless.
 
-## Client
+## Client {#clients}
 
-La pagina Clients mostra informazioni sui dispositivi collegati. Per ogni client visualizza nome, indirizzi IP e MAC, velocita di download e upload, traffico totale e offre la possibilita di bloccare il client o eseguire altre azioni.
+La pagina Clients mostra informazioni sui dispositivi collegati. Per ogni client visualizza nome, indirizzi IP e MAC, velocità di download e upload, traffico totale e offre la possibilità di bloccare il client o eseguire altre azioni.
 
 Per configurarla, fai riferimento a [Clients](../../interface_guide/clients.md).
 
-## Servizi cloud
+## Servizi cloud {#cloud-services}
 
 === "GoodCloud"
 
@@ -299,11 +301,11 @@ Per configurarla, fai riferimento a [Clients](../../interface_guide/clients.md).
 
 === "AstroWarp"
 
-    AstroWarp e una piattaforma di rete avanzata progettata per offrire networking remoto senza interruzioni e gestione remota dei dispositivi. Sviluppata specificamente per l'integrazione con i router GL.iNet, AstroWarp supporta una gestione completa dei dispositivi sull'intera rete, consentendo il controllo sia dei dispositivi a monte sia di quelli a valle. Con un focus sulla gestione dell'intera rete e sul futuro supporto al controllo a livello hardware, AstroWarp offre una soluzione piu robusta e affidabile per la gestione dei dispositivi e il mantenimento di reti sicure e stabili.
+    AstroWarp e una piattaforma di rete avanzata progettata per offrire networking remoto senza interruzioni e gestione remota dei dispositivi. Sviluppata specificamente per l'integrazione con i router GL.iNet, AstroWarp supporta una gestione completa dei dispositivi sull'intera rete, consentendo il controllo sia dei dispositivi a monte sia di quelli a valle. Con un focus sulla gestione dell'intera rete e sul futuro supporto al controllo a livello hardware, AstroWarp offre una soluzione più robusta e affidabile per la gestione dei dispositivi e il mantenimento di reti sicure e stabili.
 
     Per configurarla, fai riferimento a [AstroWarp](../../interface_guide/astrowarp.md).
 
-## VPN
+## VPN {#vpn}
 
 Una VPN crea traffico sicuro e crittografato tra il dispositivo e il server VPN. Offre un ulteriore livello di privacy e sicurezza come client VPN e consente di accedere a una rete remota come server VPN. Mudi 7 supporta OpenVPN e WireGuard.
 
@@ -316,22 +318,22 @@ Una VPN crea traffico sicuro e crittografato tra il dispositivo e il server VPN.
 
 === "WireGuard"
 
-    Mudi 7, come gli altri router GL.iNet, supporta il protocollo WireGuard, che offre ottima velocita e praticita. Per configurare WireGuard, segui questi tutorial:
+    Mudi 7, come gli altri router GL.iNet, supporta il protocollo WireGuard, che offre ottima velocità e praticita. Per configurare WireGuard, segui questi tutorial:
 
     * [Come configurare un client WireGuard](../../interface_guide/wireguard_client.md)
     * [Come configurare un server WireGuard](../../interface_guide/wireguard_server.md)
 
-## Rete
+## Rete {#network}
 
 === "Multi-WAN"
 
-    Multi-WAN e una funzione di rete che consente di configurare il router con piu connessioni Internet, ad esempio ethernet, repeater, tethering, cellular e USB ethernet, contemporaneamente. Se la connessione Internet attuale si interrompe, il router passera automaticamente a un'altra connessione Internet. In questo modo l'accesso a Internet rimane fluido e ininterrotto.
+    Multi-WAN e una funzione di rete che consente di configurare il router con più connessioni Internet, ad esempio ethernet, repeater, tethering, cellular e USB ethernet, contemporaneamente. Se la connessione Internet attuale si interrompe, il router passera automaticamente a un'altra connessione Internet. In questo modo l'accesso a Internet rimane fluido e ininterrotto.
 
     Per configurarlo, fai riferimento a [Multi-WAN](../../interface_guide/multi-wan.md).
 
 === "LAN"
 
-    LAN, o Local Area Network, e una rete che collega computer e dispositivi all'interno di un'area geografica limitata, ad esempio una casa o un ufficio. Consente trasferimento dati ad alta velocita e condivisione delle risorse, permettendo ai dispositivi di comunicare tra loro in modo efficiente.
+    LAN, o Local Area Network, e una rete che collega computer e dispositivi all'interno di un'area geografica limitata, ad esempio una casa o un ufficio. Consente trasferimento dati ad alta velocità e condivisione delle risorse, permettendo ai dispositivi di comunicare tra loro in modo efficiente.
 
     Per configurarla, fai riferimento a [Lan](../../interface_guide/lan.md).
 
@@ -345,13 +347,13 @@ Una VPN crea traffico sicuro e crittografato tra il dispositivo e il server VPN.
 
 === "DNS"
 
-    La pagina DNS consente di impostare server DNS personalizzati, abilitare la protezione dagli attacchi DNS rebinding e sovrascrivere le impostazioni DNS di tutti i client, consentire ai DNS personalizzati di sovrascrivere i DNS della VPN e configurare la modalita delle impostazioni del server DNS su automatica oppure specificare manualmente i server DNS dalla connessione Ethernet.
+    La pagina DNS consente di impostare server DNS personalizzati, abilitare la protezione dagli attacchi DNS rebinding e sovrascrivere le impostazioni DNS di tutti i client, consentire ai DNS personalizzati di sovrascrivere i DNS della VPN e configurare la modalità delle impostazioni del server DNS su automatica oppure specificare manualmente i server DNS dalla connessione Ethernet.
 
     Per configurarla, fai riferimento a [DNS](../../interface_guide/dns.md).
 
 === "Ethernet Port"
 
-    La pagina Ethernet Port consente di impostare il ruolo della porta Ethernet, cioe usarla come WAN o LAN, cambiare la modalita MAC e l'indirizzo MAC per l'interfaccia WAN e visualizzare la velocita negoziata della porta.
+    La pagina Ethernet Port consente di impostare il ruolo della porta Ethernet, cioe usarla come WAN o LAN, cambiare la modalità MAC e l'indirizzo MAC per l'interfaccia WAN e visualizzare la velocità negoziata della porta.
 
     Mudi 7 dispone di una singola porta Ethernet, che per impostazione predefinita e LAN. Se necessario, puoi cambiarla in WAN dal touchscreen oppure dal pannello di amministrazione web.
 
@@ -359,7 +361,7 @@ Una VPN crea traffico sicuro e crittografato tra il dispositivo e il server VPN.
 
 === "IPv6"
 
-    IPv6, abbreviazione di Internet Protocol version 6, e la versione piu recente del protocollo Internet progettata per sostituire IPv4. Offre uno spazio di indirizzamento molto piu ampio, permettendo un numero virtualmente illimitato di indirizzi IP univoci, elemento essenziale per il crescente numero di dispositivi collegati a Internet.
+    IPv6, abbreviazione di Internet Protocol version 6, e la versione più recente del protocollo Internet progettata per sostituire IPv4. Offre uno spazio di indirizzamento molto più ampio, permettendo un numero virtualmente illimitato di indirizzi IP univoci, elemento essenziale per il crescente numero di dispositivi collegati a Internet.
 
     Per configurarlo, fai riferimento a [IPV6](../../interface_guide/ipv6.md).
 
@@ -377,11 +379,11 @@ Una VPN crea traffico sicuro e crittografato tra il dispositivo e il server VPN.
 
     Per configurarlo, fai riferimento a [Network Mode](../../interface_guide/network_mode.md).
 
-    **Nota**: Mudi 7 supporta le modalita Router, Access Point ed Extender. Non supporta la modalita WDS.
+    **Nota**: Mudi 7 supporta le modalità Router, Access Point ed Extender. Non supporta la modalità WDS.
 
 === "Drop-in gateway"
 
-    Drop-in gateway estende le funzionalita del router principale, inclusi AdGuard Home, DNS crittografato e client VPN.
+    Drop-in gateway estende le funzionalità del router principale, inclusi AdGuard Home, DNS crittografato e client VPN.
 
     Per configurarlo, fai riferimento ai seguenti link:
 
@@ -390,11 +392,11 @@ Una VPN crea traffico sicuro e crittografato tra il dispositivo e il server VPN.
 
 === "Network Acceleration"
 
-    Network acceleration puo ridurre il carico della CPU e accelerare l'inoltro dei pacchetti di traffico.
+    Network acceleration può ridurre il carico della CPU e accelerare l'inoltro dei pacchetti di traffico.
 
     Per configurarla, fai riferimento a [Network Acceleration](../../interface_guide/network_acceleration.md).
 
-## Controllo del traffico
+## Controllo del traffico {#flow-control}
 
 === "Parental Control"
 
@@ -402,7 +404,7 @@ Una VPN crea traffico sicuro e crittografato tra il dispositivo e il server VPN.
 
     Per configurarlo, fai riferimento a [Parental Control](../../interface_guide/parental_control.md).
 
-## Sicurezza
+## Sicurezza {#security}
 
 === "Port Forwarding"
 
@@ -428,11 +430,11 @@ Una VPN crea traffico sicuro e crittografato tra il dispositivo e il server VPN.
 
     Per configurarla, fai riferimento a [NAT Mode](../../interface_guide/nat_settings.md).
 
-## Applicazioni
+## Applicazioni {#applications}
 
 === "Plug-ins"
 
-    Un plug-in e un componente software che aggiunge funzioni o funzionalita specifiche a un programma informatico esistente, consentendo personalizzazione e ampliamento delle sue capacita.
+    Un plug-in e un componente software che aggiunge funzioni o funzionalità specifiche a un programma informatico esistente, consentendo personalizzazione e ampliamento delle sue capacità.
 
     Per configurarli, fai riferimento a [Plug-ins](../../interface_guide/plugins.md).
 
@@ -444,7 +446,7 @@ Una VPN crea traffico sicuro e crittografato tra il dispositivo e il server VPN.
 
 === "Network Storage"
 
-    Network storage indica una soluzione centralizzata di archiviazione dati che consente a piu utenti e dispositivi di accedere e condividere file tramite una rete.
+    Network storage indica una soluzione centralizzata di archiviazione dati che consente a più utenti e dispositivi di accedere e condividere file tramite una rete.
 
     Per configurarlo, fai riferimento a [Network Storage](../../interface_guide/network_storage.md).
 
@@ -470,11 +472,11 @@ Una VPN crea traffico sicuro e crittografato tra il dispositivo e il server VPN.
 
 === "Tor"
 
-    Tor, abbreviazione di The Onion Router, e una rete orientata alla privacy che consente comunicazioni anonime su Internet. Instrada il traffico Internet attraverso una serie di server gestiti da volontari per nascondere posizione e utilizzo dell'utente, rendendo difficile tracciare le attivita online.
+    Tor, abbreviazione di The Onion Router, e una rete orientata alla privacy che consente comunicazioni anonime su Internet. Instrada il traffico Internet attraverso una serie di server gestiti da volontari per nascondere posizione e utilizzo dell'utente, rendendo difficile tracciare le attività online.
 
     Per configurarlo, fai riferimento a [Tor](../../interface_guide/tor.md).
 
-## Sistema
+## Sistema {#system}
 
 === "Overview"
 
@@ -503,7 +505,7 @@ Una VPN crea traffico sicuro e crittografato tra il dispositivo e il server VPN.
 
 === "Upgrade"
 
-    La pagina Upgrade viene usata per aggiornare il firmware del router alla versione piu recente, garantendo prestazioni migliori, maggiore sicurezza e nuove funzioni. Questa pagina offre due opzioni di aggiornamento:
+    La pagina Upgrade viene usata per aggiornare il firmware del router alla versione più recente, garantendo prestazioni migliori, maggiore sicurezza e nuove funzioni. Questa pagina offre due opzioni di aggiornamento:
 
     * Firmware Online Upgrade: verifica automaticamente sul server del produttore la disponibilità della versione firmware più recente. Se disponibile online, è possibile installarla.
     * Firmware Local Upgrade: consente di caricare manualmente un file firmware dal computer per aggiornare il router, offrendo controllo sulla versione e sul momento dell'aggiornamento.
@@ -516,7 +518,7 @@ Una VPN crea traffico sicuro e crittografato tra il dispositivo e il server VPN.
 
 === "Scheduled Tasks"
 
-    La pagina Scheduled Tasks consente di configurare il riavvio automatico del router a intervalli specifici, contribuendo a mantenere prestazioni e stabilita ottimali.
+    La pagina Scheduled Tasks consente di configurare il riavvio automatico del router a intervalli specifici, contribuendo a mantenere prestazioni e stabilità ottimali.
 
     Per istruzioni dettagliate, fai riferimento a [Scheduled Tasks](../../interface_guide/scheduled_tasks.md).
 
@@ -529,7 +531,7 @@ Una VPN crea traffico sicuro e crittografato tra il dispositivo e il server VPN.
     - Wallpaper: personalizza lo sfondo e lo stile di attivazione del display.
     - Brightness: regola la luminosita del touchscreen. Usa il cursore oppure inserisci una percentuale per adattarla a diverse condizioni di luce.
     - Personalised Signature: aggiungi un testo personalizzato al touchscreen per mostrare il tuo stile o per un riconoscimento rapido.
-    - Auto Lock: imposta il tempo di attesa per il blocco automatico dello schermo in assenza di attivita. L'intervallo va da 15 secondi a 5 minuti.
+    - Auto Lock: imposta il tempo di attesa per il blocco automatico dello schermo in assenza di attività. L'intervallo va da 15 secondi a 5 minuti.
     - Passcode: imposta un codice per il touchscreen per un ulteriore livello di sicurezza.
 
     Per istruzioni dettagliate, fai riferimento a [Display Management](../../interface_guide/display_management.md).
@@ -544,24 +546,24 @@ Una VPN crea traffico sicuro e crittografato tra il dispositivo e il server VPN.
 
 === "Time Zone"
 
-    La pagina Time Zone consente di impostare il fuso orario corretto per il router, assicurando che tutte le attivita pianificate, i log e gli eventi di sistema riportino timestamp accurati in base all'ora locale. Questa impostazione e essenziale per mantenere registrazioni precise e per la corretta esecuzione delle configurazioni basate sull'orario.
+    La pagina Time Zone consente di impostare il fuso orario corretto per il router, assicurando che tutte le attività pianificate, i log e gli eventi di sistema riportino timestamp accurati in base all'ora locale. Questa impostazione e essenziale per mantenere registrazioni precise e per la corretta esecuzione delle configurazioni basate sull'orario.
 
     Per istruzioni dettagliate, fai riferimento a [Time Zone](../../interface_guide/time_zone.md).
 
 === "Reset Firmware"
 
-    La pagina Reset Firmware consente di ripristinare le impostazioni predefinite della versione firmware attualmente installata sul router, cancellando tutte le configurazioni personalizzate. Questo processo riporta il router alle impostazioni di default della versione firmware corrente. Puo essere utile per risolvere problemi persistenti o per ricominciare da zero con la configurazione predefinita del firmware attuale.
+    La pagina Reset Firmware consente di ripristinare le impostazioni predefinite della versione firmware attualmente installata sul router, cancellando tutte le configurazioni personalizzate. Questo processo riporta il router alle impostazioni di default della versione firmware corrente. Può essere utile per risolvere problemi persistenti o per ricominciare da zero con la configurazione predefinita del firmware attuale.
 
     Per istruzioni dettagliate, fai riferimento a [Reset Firmware](../../interface_guide/reset_firmware.md).
 
 === "Log"
 
-    La pagina Log offre accesso a vari registri che memorizzano attivita ed eventi del router, aiutando nella risoluzione dei problemi e nel monitoraggio delle prestazioni. Questa pagina include:
+    La pagina Log offre accesso a vari registri che memorizzano attività ed eventi del router, aiutando nella risoluzione dei problemi e nel monitoraggio delle prestazioni. Questa pagina include:
 
-    * System Log: log dettagliati relativi a eventi e attivita a livello di sistema.
+    * System Log: log dettagliati relativi a eventi e attività a livello di sistema.
     * Kernel Log: log relativi alle operazioni e agli eventi del kernel.
     * Crash Log: registrazioni di arresti anomali ed errori di sistema, utili per diagnosticare problemi critici.
-    * Cloud Log: log delle interazioni e delle attivita legate ai servizi GoodCloud integrati nel router.
+    * Cloud Log: log delle interazioni e delle attività legate ai servizi GoodCloud integrati nel router.
     * Nginx Log: log del server web Nginx, se usato dal router, che riportano traffico web e operazioni del server.
 
     Inoltre, la pagina include il pulsante Export Log, che consente di esportare tutti i log raccolti per l'analisi da parte del supporto tecnico. Questa funzione e molto utile per diagnosticare problemi complessi e ottenere assistenza professionale.
@@ -574,9 +576,7 @@ Una VPN crea traffico sicuro e crittografato tra il dispositivo e il server VPN.
 
     Per istruzioni dettagliate, fai riferimento a [Advanced Settings](../../interface_guide/advanced_settings.md).
 
-<span id="battery-safety"></span>
-
-## Sicurezza della batteria {#battery-safety-and-swollen-battery-handling}
+## Sicurezza della batteria {#battery-safety}
 
 Smetti di usare e caricare Mudi 7 se la batteria è gonfia, perde liquido, è insolitamente calda, è danneggiata o emette un odore insolito.
 

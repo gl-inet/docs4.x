@@ -1,4 +1,4 @@
-# Jak połączyć routery GL.iNet z siecią EAP
+# Jak połączyć routery GL.iNet z siecią EAP {#connect-glinet-routers-to-an-eap-network}
 
 Niektóre routery GL.iNet obsługują łączenie z sieciami Wi-Fi EAP (Extensible Authentication Protocol).
 
@@ -6,7 +6,7 @@ EAP to framework uwierzytelniania powszechnie używany z **uwierzytelnianiem 802
 
 W tym przewodniku przedstawiamy dwa sposoby połączenia routerów GL.iNet z siecią Wi-Fi EAP: przez webowy Panel Administracyjny GL.iNet oraz przez LuCI.
 
-## Obsługiwane modele
+## Obsługiwane modele {#supported-models}
 
 ??? "Obsługiwane modele"
     - GL-MG1300 (Mango 2)
@@ -53,7 +53,7 @@ W tym przewodniku przedstawiamy dwa sposoby połączenia routerów GL.iNet z sie
     - GL-MT1300 (Beryl)
     - GL-MT300N-V2 (Mango)
 
-## Łączenie przez panel administracyjny
+## Łączenie przez panel administracyjny {#connect-via-web-admin-panel}
 
 1. Zaloguj się do panelu administracyjnego, przejdź do **INTERNET** -> **Repeater**, a następnie kliknij **Connect**.
 
@@ -79,7 +79,7 @@ W tym przewodniku przedstawiamy dwa sposoby połączenia routerów GL.iNet z sie
 
     ![input username and Password](https://static.gl-inet.com/docs/router/en/4/tutorials/eap/username_and_password.jpg){class="glboxshadow"}
 
-## Łączenie przez LuCI
+## Łączenie przez LuCI {#connect-via-luci}
 
 Panel administracyjny GL.iNet obsługuje tylko ograniczoną liczbę typów EAP.
 
@@ -103,7 +103,7 @@ Jeśli nie możesz połączyć się z docelową siecią EAP przez panel administ
 
     ![join network](https://static.gl-inet.com/docs/router/en/4/tutorials/eap/luci_join_network.png){class="glboxshadow"}
 
-## Rozwiązywanie problemów
+## Rozwiązywanie problemów {#troubleshooting}
 
 Jeśli docelowa sieć EAP wymaga dodatkowych parametrów, takich jak typ EAP (np. PEAP, TTLS), dopasowanie sufiksu domeny, tożsamość, anonimowa tożsamość itp., połączenie EAP przez panel administracyjny może się nie powieść.
 

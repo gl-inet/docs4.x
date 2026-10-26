@@ -1,4 +1,4 @@
-# GL.iNet ルーターで WireGuard クライアントを設定する
+# GL.iNet ルーターで WireGuard クライアントを設定する {#set-up-wireguard-client-on-glinet-routers}
 
 このページの内容はファームウェアv4.7以降に基づいています。デバイスで別のファームウェアバージョンを使用している場合は、次の選択メニューから対応するガイドへ切り替えてください。
 
@@ -10,7 +10,7 @@
 
 ---
 
-WireGuard® は、最先端の暗号技術を利用した、非常にシンプルで高速かつモダンな VPN です。IPsec よりも高速・簡潔・軽量で使いやすいことを目指しており、OpenVPN よりも大幅に高いパフォーマンスを期待できます。
+WireGuard® は、最先端の暗号技術を利用した、非常にシンプルで高速かつモダンな VPN です。IPsec の煩雑さを避けながら、IPsec よりも高速・簡潔・軽量で使いやすいことを目指しており、OpenVPN よりも大幅に高いパフォーマンスを期待できます。
 
 GL.iNet ルーターで WireGuard クライアントを設定するには、以下の動画を見るか、下記の手順に従ってください。
 
@@ -507,7 +507,7 @@ Web 管理パネルで **VPN** -> **WireGuard Client** -> **Windscribe** を開�
 
 [公式サイト](https://xvpn.io/){target="_blank"}
 
-**Note**: X-VPN はファームウェア v4.11 以降の GL.iNet ルーターに統合されています。
+**注意**: X-VPN はファームウェア v4.11 以降の GL.iNet ルーターに統合されています。
 
 1. まず、公式サイトで X-VPN トークンを取得します。
 
@@ -523,7 +523,7 @@ Web 管理パネルで **VPN** -> **WireGuard Client** -> **Windscribe** を開�
 
     ![xvpn generate token](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn3.png){class="glboxshadow"}
 
-2. GL.iNet ルーターの Web Admin Panel にログインし、**VPN** -> **VPN Client Profile** に移動します。**X-VPN** をクリックします。
+2. GL.iNet ルーターの Web 管理パネルにログインし、**VPN** -> **VPN Client Profile** に移動します。**X-VPN** をクリックします。
 
     ![xvpn enter token](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn4.png){class="glboxshadow"}
 
@@ -551,13 +551,13 @@ Web 管理パネルで **VPN** -> **WireGuard Client** -> **Windscribe** を開�
 
     **VPN Dashboard** では、VPN 接続の詳細確認、VPN トンネルやポリシーの作成と管理もできます。
 
-5. サーバーを更新します。
+5. サーバー一覧を更新します。
 
     **Update Servers** をクリックすると、利用可能な最新のサーバーリストを取得し、サーバーメンテナンスや停止による接続失敗を避けられます。
 
     ![xvpn update servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn10.png){class="glboxshadow"}
 
-6. 更新します。
+6. 契約を更新します。
 
     **Go Renew** をクリックすると、サブスクリプション更新のため公式サイトに移動します。
 
@@ -633,7 +633,7 @@ Web 管理パネルで **VPN** -> **WireGuard Client** を開きます。
 
     接続の詳細は **VPN Dashboard** でも確認できます。
 
-## モバイルアプリで WireGuard クライアントを設定する
+## モバイルアプリで WireGuard クライアントを設定する {#set-up-wireguard-client-via-mobile-app}
 
 [モバイルアプリ](https://www.gl-inet.com/app/#download-app-glinet) から WireGuard クライアントを設定することもできます。
 
@@ -641,7 +641,7 @@ Web 管理パネルで **VPN** -> **WireGuard Client** を開きます。
 
 アプリをインストールし、画面の案内に従って必要な設定を行ってください。
 
-## GL.iNet ルーターで WireGuard サーバーを設定する
+## GL.iNet ルーターで WireGuard サーバーを設定する {#set-up-wireguard-server-on-glinet-router}
 
 サードパーティーの VPN サービスを契約したくない場合は、GL.iNet ルーターを 2 台用意し、1 台を WireGuard サーバー、もう 1 台を WireGuard クライアントとして設定することもできます。
 

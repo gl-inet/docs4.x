@@ -1,4 +1,4 @@
-# IoT Network
+# IoT Network {#iot-network}
 
 > La función IoT Network se introdujo en el firmware v4.9.
 
@@ -10,7 +10,7 @@ Esta página le permite crear una red Wi‑Fi dedicada para dispositivos IoT. Ai
 
 Incluye dos secciones: Configuración básica y configuración del servidor DHCP.
 
-## Configuración básica
+## Configuración básica {#basic-settings}
 
 Puede configurar la subred dentro de estos rangos de direcciones IPv4 privadas: `192.168.0.0/16`, `172.16.0.0/12`, `10.0.0.0/8`
 
@@ -36,7 +36,7 @@ Puede configurar la subred dentro de estos rangos de direcciones IPv4 privadas: 
 
     Cuando está habilitada, la red IoT no puede acceder a la red upstream ni a su subred.
 
-## Servidor DHCP
+## Servidor DHCP {#dhcp-server}
 
 Si IoT Network está habilitada, su servidor DHCP se habilitará en consecuencia.
 

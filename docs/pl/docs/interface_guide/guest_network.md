@@ -1,4 +1,4 @@
-# Sieć gościnna
+# Sieć gościnna {#guest-network}
 
 Ustawienia sieci gościnnej są oddzielone od [LAN](lan.md) od wersji firmware v4.5.
 
@@ -10,7 +10,7 @@ Ta strona umożliwia utworzenie dedykowanej sieci Wi‑Fi dla gości. Odizolowan
 
 Strona obejmuje dwie sekcje: ustawienia podstawowe i ustawienia serwera DHCP.
 
-## Ustawienia podstawowe
+## Ustawienia podstawowe {#basic-settings}
 
 Możesz ustawić podsieć w zakresie prywatnych adresów IPv4: `192.168.0.0/16`, `172.16.0.0/12`, `10.0.0.0/8`.
 
@@ -36,7 +36,7 @@ Możesz ustawić podsieć w zakresie prywatnych adresów IPv4: `192.168.0.0/16`,
 
     Po włączeniu sieć gościnna nie może uzyskać dostępu do sieci nadrzędnej ani do jej podsieci.
 
-## Serwer DHCP
+## Serwer DHCP {#dhcp-server}
 
 Jeśli **Guest Network** jest włączona, jej serwer DHCP również zostanie włączony.
 

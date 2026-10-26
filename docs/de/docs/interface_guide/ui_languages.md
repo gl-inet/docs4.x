@@ -1,4 +1,4 @@
-# UI-Sprachen
+# UI-Sprachen {#ui-languages}
 
 Diese Funktion wurde ab Firmware v4.6 hinzugefügt.
 

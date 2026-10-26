@@ -1,12 +1,12 @@
-# Podręcznik użytkownika Slate AX (GL-AXT1800)
+# Podręcznik użytkownika Slate AX (GL-AXT1800) {#slate-ax-gl-axt1800-user-guide}
 
-## Przegląd produktu
+## Przegląd produktu {#product-overview}
 
 Slate AX (GL-AXT1800) to pierwszy przenośny router Wi-Fi 6 zaprojektowany przez GL.iNet. Jest wyposażony w czterordzeniowy procesor IPQ6000 1.2GHz i działa na OpenWrt 23.05. Dzięki najnowszej technologii Wi-Fi 6 możesz korzystać z większej przepustowości dla podłączonych urządzeń oraz szybszej łączności bezprzewodowej zarówno w podróży, jak i w domu.
 
 ![gl-axt1800 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-axt1800/hardware_info/gl-axt1800_interface.jpg){class="glboxshadow"}
 
-## Zawartość opakowania
+## Zawartość opakowania {#package-contents}
 
 - 1 x Slate AX (GL-AXT1800)
 - 1 x Podręcznik użytkownika
@@ -18,17 +18,17 @@ Slate AX (GL-AXT1800) to pierwszy przenośny router Wi-Fi 6 zaprojektowany przez
 
 ![gl-axt1800 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-axt1800/first_time_setup/axt1800_unboxing.jpg){class="glboxshadow"}
 
-## Jak skonfigurować Slate AX
+## Jak skonfigurować Slate AX {#how-to-set-up-slate-ax}
 
 Obejrzyj ten film instruktażowy lub wykonaj poniższe kroki.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/f7DYULL6ZSI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Włączenie zasilania
+### 1. Włączenie zasilania {#1-power-on}
 
 Złóż dwuczęściowy zasilacz. Podłącz go do routera i włóż do gniazdka. Router uruchomi się automatycznie.
 
-### 2. Podłączenie urządzenia
+### 2. Podłączenie urządzenia {#2-connect-device}
 
 Podłącz urządzenie (np. komputer, laptop lub smartfon) do routera za pomocą Wi-Fi lub kabla Ethernet.
 
@@ -40,13 +40,13 @@ Podłącz urządzenie (np. komputer, laptop lub smartfon) do routera za pomocą 
 
     Na urządzeniu przejdź do Settings -> WLAN, znajdź nazwę sieci Wi-Fi routera na liście dostępnych sieci i wprowadź hasło. Domyślną nazwę sieci oraz hasło znajdziesz na etykiecie na spodzie routera.
 
-### 3. Logowanie do panelu administracyjnego
+### 3. Logowanie do panelu administracyjnego {#3-log-in-to-web-admin-panel}
 
 Otwórz przeglądarkę internetową, wpisz `192.168.8.1` w pasku adresu i zaloguj się. Wybierz język i ustaw hasło administratora, a następnie kliknij **Apply**.
 
 Podczas potwierdzania ustawień Wi-Fi pamiętaj, że jeśli zmienisz dane Wi-Fi, musisz ponownie połączyć urządzenie z siecią Wi-Fi routera, używając zaktualizowanych danych logowania.
 
-### 4. Konfiguracja internetu
+### 4. Konfiguracja internetu {#4-internet-setup}
 
 **Uwaga:** Poniższe instrukcje dotyczą użytkowników konfigurujących router za pomocą panelu administracyjnego GL.iNet. Jeśli wolisz korzystać z aplikacji GL.iNet, [pobierz aplikację](https://www.gl-inet.com/app/){target="_blank"} i postępuj zgodnie z instrukcjami wyświetlanymi na ekranie.
 
@@ -96,7 +96,7 @@ Skonfiguruj Slate AX, korzystając z jednej z obsługiwanych metod połączenia 
 
     Aby uzyskać szczegółowe instrukcje, zapoznaj się z [Połącz z internetem przez sieć komórkową](../../interface_guide/internet_cellular.md).
 
-## Jak skonfigurować VPN
+## Jak skonfigurować VPN {#how-to-set-up-a-vpn}
 
 VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między Twoim urządzeniem a serwerem VPN. Zapewnia dodatkową warstwę prywatności i bezpieczeństwa (klient VPN), a także umożliwia dostęp do sieci zdalnej (serwer VPN). Slate AX obsługuje OpenVPN, WireGuard i Tor.
 
@@ -122,7 +122,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między Twoim 
 
 ---
 
-## Sieć bezprzewodowa i klienci
+## Sieć bezprzewodowa i klienci {#wireless-and-clients}
 
 === "Wireless"
 
@@ -136,7 +136,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między Twoim 
 
     Aby uzyskać szczegółowe instrukcje, zapoznaj się z [Clients](../../interface_guide/clients.md).
 
-## Usługi chmurowe
+## Usługi chmurowe {#cloud-services}
 
 === "GoodCloud"
 
@@ -150,7 +150,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między Twoim 
 
     Aby skonfigurować AstroWarp, zapoznaj się z [AstroWarp](../../interface_guide/astrowarp.md).
 
-## Aplikacje
+## Aplikacje {#applications}
 
 === "Plug-ins"
 
@@ -196,7 +196,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między Twoim 
 
     Aby skonfigurować Tailscale, zapoznaj się z [Tailscale](../../interface_guide/tailscale.md).
 
-## Ustawienia sieciowe
+## Ustawienia sieciowe {#network-settings}
 
 === "Port Forwarding"
 
@@ -273,7 +273,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między Twoim 
 
     Aby skonfigurować ustawienia NAT, zapoznaj się z [NAT Settings](../../interface_guide/nat_settings.md).
 
-## Ustawienia systemowe
+## Ustawienia systemowe {#system-settings}
 
 === "Overview"
 
@@ -368,6 +368,6 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między Twoim 
 
     Aby uzyskać szczegółowe instrukcje, zapoznaj się z [Advanced Settings](../../interface_guide/advanced_settings.md).
 
-## Deklaracja zgodności
+## Deklaracja zgodności {#declaration-of-conformity}
 
 Niniejszym GL TECHNOLOGIES (HONG KONG) LIMITED oświadcza, że typ urządzenia radiowego [AX1800 Wireless Router, GL-AXT1800] jest zgodny z zasadniczymi wymaganiami oraz innymi odpowiednimi postanowieniami dyrektywy 2014/53/UE. Pełny tekst deklaracji zgodności UE jest dostępny pod następującym adresem internetowym: [https://www.gl-inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}.

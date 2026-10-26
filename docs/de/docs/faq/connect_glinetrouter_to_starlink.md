@@ -1,4 +1,4 @@
-# So verbinden Sie einen GL.iNet Router mit einer Starlink-Schüssel
+# So verbinden Sie einen GL.iNet Router mit einer Starlink-Schüssel {#how-to-connect-a-glinet-router-to-starlink-dish}
 
 Wenn Sie einen GL.iNet Router mit einer Starlink-Schüssel verbinden möchten, folgen Sie den untenstehenden Schritten.
 

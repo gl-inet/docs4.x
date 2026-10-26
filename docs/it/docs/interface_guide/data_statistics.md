@@ -1,4 +1,4 @@
-# Statistiche dei dati
+# Statistiche dei dati {#data-statistics}
 
 **Nota**: questa funzionalità è stata introdotta nel firmware v4.9.
 
@@ -54,7 +54,7 @@ Data Statistics fornisce un dashboard intuitivo sul traffico che identifica l'ut
     - GL-AP1300 (Cirrus)
     - GL-S1300 (Convexa-S)
 
-## Per firmware v4.11 e versioni successive
+## Per firmware v4.11 e versioni successive {#for-firmware-v411-and-above}
 
 Attiva l'interruttore nell'angolo in alto a destra per visualizzare **Application Total Data**.
 
@@ -74,7 +74,7 @@ Questa pagina è composta da due parti:
 
     ![app traffic stat](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/app_traffic_stat.png){class="glboxshadow"}
 
-### Regole di archiviazione dei dati
+### Regole di archiviazione dei dati {#data-storage-rules}
 
 1. Le statistiche sul traffico vengono salvate nella RAM ogni 15 secondi e archiviate nella flash ogni 1 ora. Vengono evitate frequenti scritture flash per proteggere la durata della memoria flash.
 
@@ -82,7 +82,7 @@ Questa pagina è composta da due parti:
 
 3. Un riavvio forzato (scollegando e ricollegando l'alimentazione) o un aggiornamento del firmware (mantenendo le impostazioni) potrebbero causare la perdita di dati fino all'ora più recente.
 
-### Selettore cliente
+### Selettore cliente {#client-selector}
 
 Il Selettore cliente consente di selezionare un cliente specifico o di mantenere l'impostazione predefinita Tutti i clienti. Il grafico e la tabella delle statistiche si aggiorneranno automaticamente per visualizzare i dati sul traffico solo per il dispositivo selezionato.
 
@@ -90,7 +90,7 @@ Il Selettore cliente consente di selezionare un cliente specifico o di mantenere
 
 ![client selector](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/client_selector.png){class="glboxshadow"}
 
-### Cambia visualizzazione grafico
+### Cambia visualizzazione grafico {#switch-chart-views}
 
 Puoi cambiare il tipo di grafico secondo necessità quando visualizzi le statistiche sul traffico dell'app.
 
@@ -110,7 +110,7 @@ Puoi cambiare il tipo di grafico secondo necessità quando visualizzi le statist
 
     ![pie chart](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/pie_chart.png){class="glboxshadow"}
 
-### Cambia intervallo di tempo
+### Cambia intervallo di tempo {#switch-time-range}
 
 È possibile modificare l'intervallo di tempo tra Ultima ora, Ultimo giorno e Ultima settimana in base alle esigenze.
 
@@ -126,7 +126,7 @@ L'intervallo di tempo scelto determina la modalità di visualizzazione dei dati:
 
     ![past week](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/past-week.png){class="glboxshadow"}
 
-### Cancella statistiche
+### Cancella statistiche {#clear-statistics}
 
 Fai clic sull'icona della scopa nell'angolo in alto a sinistra per cancellare le statistiche secondo necessità.
 
@@ -136,7 +136,7 @@ Dopo la cancellazione, la pagina verrà aggiornata come mostrato di seguito. Pot
 
 ![clear data 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/clear_data_2.png){class="glboxshadow"}
 
-## Per firmware da v4.9 a v4.10
+## Per firmware da v4.9 a v4.10 {#for-firmware-v49-to-v410}
 
 Attiva l'interruttore nell'angolo in alto a destra per visualizzare **Application Total Data**.
 
@@ -156,7 +156,7 @@ Questa pagina è composta da due parti:
 
     ![app traffic stat](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/app_traffic_stat1.png){class="glboxshadow"}
 
-### Regole di archiviazione dei dati
+### Regole di archiviazione dei dati {#data-storage-rules_1}
 
 1. Le statistiche sul traffico vengono salvate nella RAM ogni 15 secondi e archiviate nella flash ogni 1 ora. Vengono evitate frequenti scritture flash per proteggere la durata della memoria flash.
 
@@ -164,7 +164,7 @@ Questa pagina è composta da due parti:
 
 3. Un riavvio forzato (scollegando e ricollegando l'alimentazione) o un aggiornamento del firmware (mantenendo le impostazioni) potrebbero causare la perdita di dati fino all'ora più recente.
 
-### Cambia intervallo di tempo
+### Cambia intervallo di tempo {#switch-time-range_1}
 
 È possibile modificare l'intervallo di tempo tra Ultima ora, Ultimo giorno e Ultima settimana in base alle esigenze.
 
@@ -180,7 +180,7 @@ L'intervallo di tempo scelto determina la modalità di visualizzazione dei dati:
 
     ![past week](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/past_week.png){class="glboxshadow"}
 
-### Cancella statistiche
+### Cancella statistiche {#clear-statistics_1}
 
 Fai clic sull'icona della scopa nell'angolo in alto a sinistra per cancellare le statistiche secondo necessità.
 

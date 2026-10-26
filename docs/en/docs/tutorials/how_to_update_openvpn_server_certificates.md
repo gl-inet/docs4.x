@@ -1,4 +1,4 @@
-# How to update OpenVPN server certificates?
+# How to update OpenVPN server certificates? {#how-to-update-openvpn-server-certificates}
 
 This tutorial explains how to update OpenVPN server certificates on your GL.iNet routers.
 

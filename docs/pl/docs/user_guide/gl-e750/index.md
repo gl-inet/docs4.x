@@ -1,14 +1,14 @@
-# Podręcznik użytkownika Mudi V2 (GL-E750V2)
+# Podręcznik użytkownika Mudi V2 (GL-E750V2) {#mudi-v2-gl-e750v2-user-guide}
 
 **Uwaga:** Mudi V2 (GL-E750V2) i Mudi (GL-E750) działają na tym samym firmware. Jeśli używasz Mudi (GL-E750), [zaktualizuj firmware](https://dl.gl-inet.com/?model=e750), aby korzystać z najnowszych funkcji i możliwości.
 
-## Przegląd produktu
+## Przegląd produktu {#product-overview}
 
 Mudi V2 (GL-E750V2) to przenośny router podróżny 4G LTE zgodny z operatorami na całym świecie. Działa w pełni w oparciu o otwarte oprogramowanie OpenWrt i SDK 4.0 od GL.iNet, oferując rozbudowane możliwości dostosowania oraz szeroki zestaw funkcji. Mudi V2 (GL-E750V2) obsługuje prędkości Wi-Fi 300Mbps (2.4GHz) i 433Mbps (5GHz) oraz kartę MicroSD o pojemności do 1TB. Ma wbudowaną baterię 7000mAh. Obsługuje także multi-WAN (przełączenie awaryjne i równoważenie obciążenia), aby zapewnić stabilne połączenie wszystkim urządzeniom. 
 
 ![gl-e750v2 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e750/hardware_info/e750_interface.jpg){class="glboxshadow"}
 
-## Przycisk
+## Przycisk {#button}
 
 - Naciśnij przycisk zasilania przez **3 sekundy**: włącz urządzenie.
 
@@ -18,13 +18,13 @@ Mudi V2 (GL-E750V2) to przenośny router podróżny 4G LTE zgodny z operatorami 
 
     (Po naciśnięciu przez 3 sekundy ekran OLED najpierw wyświetli komunikat „Standby Mode On”. PRZYTRZYMUJ DALEJ przycisk zasilania, aż pod napisem „Standby Mode On” pojawi się „Shut Down”. Następnie rozpocznie się 3-sekundowe odliczanie i urządzenie się wyłączy.)
 
-## Tryb czuwania
+## Tryb czuwania {#standby-mode}
 
 W trybie czuwania Mudi V2 (GL-E750V2) wyłącza Wi-Fi i 4G, aby oszczędzać energię. W tym trybie nie można połączyć się z Mudi V2 (GL-E750V2).
 
 Aby włączyć lub wyłączyć tryb czuwania, naciśnij przycisk zasilania przez 3 sekundy. Na ekranie OLED zobaczysz komunikat „Standby Mode On” lub „Standby Mode Off”.
 
-## Zawartość opakowania
+## Zawartość opakowania {#package-contents}
 
 ![gl-e750v2 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e750/first_time_setup/e750v2_unboxing.jpg){class="glboxshadow"}
 
@@ -42,13 +42,13 @@ Aby włączyć lub wyłączyć tryb czuwania, naciśnij przycisk zasilania przez
 
 ---
 
-## Pierwsze uruchomienie
+## Pierwsze uruchomienie {#first-time-setup}
 
 Obejrzyj ten film lub wykonaj poniższe kroki, aby skonfigurować Mudi V2.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4FzEgmYyy7k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Włóż kartę SIM
+### 1. Włóż kartę SIM {#1-insert-a-sim-card}
 
 Włóż kartę SIM oraz opcjonalną kartę MicroSD do Mudi V2 (GL-E750V2).
 
@@ -61,7 +61,7 @@ Uwaga: jeśli używasz karty SIM, musisz włożyć ją do urządzenia przed jego
 5. Włóż kartę do gniazda zgodnie z oznaczeniem przy rogu.
 6. Dociśnij pokrywę, aby zamknąć osłonę.
 
-### 2. Włącz urządzenie
+### 2. Włącz urządzenie {#2-power-on}
 
 Naciśnij przycisk zasilania, aby włączyć urządzenie.
 
@@ -77,13 +77,13 @@ Upewnij się, że używasz standardowego zasilacza 5V/2A. W przeciwnym razie urz
 
 ---
 
-## INTERNET
+## INTERNET {#internet}
 
 Zaloguj się do panelu administracyjnego routera, a następnie przejdź do **INTERNET** w menu po lewej stronie. 
 
 Ta strona umożliwia wybór typu połączenia z internetem, takiego jak Ethernet, Repeater, Tethering i Cellular.
 
-### Ethernet
+### Ethernet {#ethernet}
 
 Podłącz router do aktywnego modemu lub aktywnego urządzenia sieciowego za pomocą kabla Ethernet, aby uzyskać dostęp do internetu. Ta metoda zazwyczaj zapewnia najszybsze i najbardziej niezawodne połączenie z internetem.
 
@@ -91,7 +91,7 @@ Podłącz router do aktywnego modemu lub aktywnego urządzenia sieciowego za pom
 
 ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e750/internet/e750v2_ethernet.png){class="glboxshadow"}
 
-### Repeater
+### Repeater {#repeater}
 
 Skonfiguruj router jako repeater, aby rozszerzyć zasięg istniejącej sieci Wi-Fi. W trybie repeatera urządzenie odbiera i retransmituje sygnały bezprzewodowe w swoim zasięgu, zwiększając obszar pokrycia. Ta metoda jest przydatna, gdy pojedynczy router nie obejmuje całego obszaru użytkowania.
 
@@ -99,7 +99,7 @@ Skonfiguruj router jako repeater, aby rozszerzyć zasięg istniejącej sieci Wi-
 
 ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e750/internet/e750v2_repeater.png){class="glboxshadow"}
 
-### Tethering
+### Tethering {#tethering}
 
 Podłącz port USB routera do smartfona z aktywną transmisją danych komórkowych za pomocą kabla USB, aby uzyskać dostęp do internetu. Ta metoda umożliwia wielu urządzeniom podłączonym do routera korzystanie z internetu z użyciem danych komórkowych smartfona.
 
@@ -107,7 +107,7 @@ Podłącz port USB routera do smartfona z aktywną transmisją danych komórkowy
 
 ![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e750/internet/e750v2_tethering.png){class="glboxshadow"}
 
-### Cellular
+### Cellular {#cellular}
  
 Zdejmij tylną pokrywę Mudi V2 i włóż kartę SIM do gniazda SIM, aby połączyć urządzenie z internetem. Ta metoda jest przydatna, gdy chcesz udostępnić internet z jednej karty SIM wszystkim podłączonym urządzeniom.
 
@@ -119,7 +119,7 @@ Aby używać fizycznej karty eSIM w routerze GL.iNet, kliknij tutaj: [Jak korzys
 
 ---
 
-## WIRELESS
+## WIRELESS {#wireless}
 
 Ustawienia sieci bezprzewodowej umożliwiają zarządzanie zabezpieczeniami głównej sieci Wi-Fi i sieci Wi-Fi dla gości. Są dostępne po przejściu do **WIRELESS** w menu bocznym.
 
@@ -127,7 +127,7 @@ Ustawienia sieci bezprzewodowej umożliwiają zarządzanie zabezpieczeniami gł�
 
 ---
 
-## CLIENTS
+## CLIENTS {#clients}
 
 Klienci to urządzenia podłączone do routera. Możesz je blokować lub ograniczać ich prędkość sieciową. Interfejs jest dostępny po kliknięciu **CLIENTS** w menu bocznym panelu administracyjnego routera.
 
@@ -135,136 +135,136 @@ Klienci to urządzenia podłączone do routera. Możesz je blokować lub ogranic
 
 ---
 
-## VPN
+## VPN {#vpn}
 
 Routery GL.iNet mają fabrycznie zainstalowane OpenVPN i WireGuard®, obsługując ponad 30 usług VPN. Gdy klient VPN jest włączony, router może szyfrować ruch urządzeń w sieci, w tym urządzeń, na których nie można uruchomić aplikacji VPN, zgodnie z ustawieniami polityki VPN. Nasze routery mogą także działać jako serwery VPN, przekierowując ruch z urządzeń klienckich w zdalnych lokalizacjach do serwera VPN przez tunel VPN przed uzyskaniem dostępu do publicznego internetu.
 
-### VPN Dashboard
+### VPN Dashboard {#vpn-dashboard}
 
 - [**VPN Dashboard**](../../interface_guide/vpn_dashboard_v4.7.md)
 
-### OpenVPN
+### OpenVPN {#openvpn}
 
 Skorzystaj z poniższych odnośników, aby przejść do instrukcji konfiguracji krok po kroku:
 
 - [**Konfiguracja klienta OpenVPN**](../../interface_guide/openvpn_client.md)
 - [**Konfiguracja serwera OpenVPN**](../../interface_guide/openvpn_server.md)
 
-### WireGuard
+### WireGuard {#wireguard}
 
 Skorzystaj z poniższych odnośników, aby przejść do instrukcji konfiguracji krok po kroku:
 
 - [**Konfiguracja klienta WireGuard**](../../interface_guide/wireguard_client.md)
 - [**Konfiguracja serwera WireGuard**](../../interface_guide/wireguard_server.md)
 
-### Tor
+### Tor {#tor}
 
 - [**Tor**](../../interface_guide/tor.md)
 
 ---
 
-## APPLICATIONS
+## APPLICATIONS {#applications}
 
 Routery GL.iNet oferują szeroki zakres dodatkowych funkcji, które upraszczają zarządzanie urządzeniami, poprawiają komfort korzystania z internetu, automatyzują aktualizacje firmware i nie tylko.
 
-### Plug-ins
+### Plug-ins {#plug-ins}
 
 Przejdź do poradnika [**Plug-ins**](../../interface_guide/plugins.md).
 
-### Dynamic DNS
+### Dynamic DNS {#dynamic-dns}
 
 Przejdź do poradnika [**Dynamic DNS**](../../interface_guide/ddns.md).
 
-### GoodCloud
+### GoodCloud {#goodcloud}
 
 Przejdź do poradnika [**GoodCloud**](../../interface_guide/cloud.md).
 
 ---
 
-## NETWORK
+## NETWORK {#network}
 
-### Firewall
+### Firewall {#firewall}
 
 Routery GL.iNet oferują wiele funkcji zapory, które zapewniają bezpieczne połączenie i pełną kontrolę użytkownika. Umożliwiają one konfigurowanie reguł zapory, w tym Port Forwarding, Open Ports i DMZ.
 
 [Kliknij tutaj, aby dowiedzieć się więcej o zaporze w routerach GL.iNet](../../interface_guide/firewall.md)
 
-### Multi-WAN
+### Multi-WAN {#multi-wan}
 
 Przejdź do poradnika [**Multi-WAN**](../../interface_guide/multi-wan.md).
 
-### LAN
+### LAN {#lan}
 
 Przejdź do poradnika [**LAN**](../../interface_guide/lan.md).
 
-### DNS
+### DNS {#dns}
 
 Przejdź do poradnika [**DNS**](../../interface_guide/dns.md).
 
-### Network Mode
+### Network Mode {#network-mode}
 
 Przejdź do poradnika [**Network Mode**](../../interface_guide/network_mode.md).
 
-### IPv6
+### IPv6 {#ipv6}
 
 Przejdź do poradnika [**IPv6**](../../interface_guide/ipv6.md).
 
-### MAC Address
+### MAC Address {#mac-address}
 
 Strona Mac Address była wcześniej nazywana Mac Clone i od wersji v4.2 nosi nazwę Mac Address.
 
 Przejdź do poradnika [**MAC Address**](../../interface_guide/mac_address.md).
 
-### IGMP Snooping
+### IGMP Snooping {#igmp-snooping}
 
 Przejdź do poradnika [**IGMP Snooping**](../../interface_guide/igmp_snooping.md).
 
 ---
 
-## SYSTEM
+## SYSTEM {#system}
 
-### Overview
+### Overview {#overview}
 
 Przejdź do poradnika [**System Overview**](../../interface_guide/system_overview.md).
 
-### Upgrade
+### Upgrade {#upgrade}
 
 GL.iNet regularnie udostępnia aktualizacje firmware swoich routerów, aby poprawiać wydajność, usuwać błędy i naprawiać luki w zabezpieczeniach.
 
 Przejdź do poradnika [**Upgrade**](../../interface_guide/upgrade.md).
 
-### OLED Screen Settings
+### OLED Screen Settings {#oled-screen-settings}
 
 Na tej stronie możesz dostosować informacje wyświetlane na ekranie OLED Mudi V2 (GL-E750V2). 
 
 
-### Scheduled Tasks
+### Scheduled Tasks {#scheduled-tasks}
 
 Przejdź do poradnika [**Scheduled Tasks**](../../interface_guide/scheduled_tasks.md).
 
-### Admin Password
+### Admin Password {#admin-password}
 
 Ta funkcja została przeniesiona do [**Security**](../../interface_guide/security.md) od wersji v4.5.
 
 Przejdź do poradnika [**Admin Password**](../../interface_guide/admin_password.md).
 
-### Time Zone
+### Time Zone {#time-zone}
 
 Przejdź do poradnika [**Time Zone**](../../interface_guide/time_zone.md).
 
-### Toggle Button Settings
+### Toggle Button Settings {#toggle-button-settings}
 
 Przejdź do poradnika [**Toggle Button Settings**](../../interface_guide/toggle_button_settings.md).
 
-### Log
+### Log {#log}
 
 Przejdź do poradnika [**Log**](../../interface_guide/log.md).
 
-### Reset Firmware
+### Reset Firmware {#reset-firmware}
 
 Przejdź do poradnika [**Reset Firmware**](../../interface_guide/reset_firmware.md).
 
-### Advanced Settings
+### Advanced Settings {#advanced-settings}
 
 Przejdź do poradnika [**Advanced Settings**](../../interface_guide/advanced_settings.md).
 

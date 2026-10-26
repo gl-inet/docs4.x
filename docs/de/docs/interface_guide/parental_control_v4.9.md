@@ -1,4 +1,4 @@
-# Kindersicherung (Firmware v4.9)
+# Kindersicherung (Firmware v4.9) {#parental-control-firmware-v49}
 
 **Hinweis**: Diese Anleitung gilt für Firmware v4.9 und höher. Für frühere Versionen klicken Sie bitte [hier](parental_control.md).
 

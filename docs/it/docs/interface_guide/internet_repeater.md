@@ -1,12 +1,12 @@
-# Connettersi a Internet tramite una rete Wi-Fi esistente con Repeater
+# Connettersi a Internet tramite una rete Wi-Fi esistente con Repeater {#connect-to-the-internet-via-an-existing-wi-fi-by-repeater}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7mZtz8u8--E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Usare Repeater significa collegare il router a un'altra rete wireless esistente, ad esempio quando utilizzi il Wi-Fi gratuito in un hotel o in un cafe'.
+Usare Repeater significa collegare il router a un'altra rete wireless esistente, ad esempio quando utilizzi il Wi-Fi gratuito in un hotel o in un caffè.
 
-Per impostazione predefinita funziona in modalita' WISP, Wireless Internet Service Provider, il che significa che il router creera' la propria subnet e agira' come firewall per proteggerti dalla rete pubblica.
+Per impostazione predefinita funziona in modalità WISP, Wireless Internet Service Provider, il che significa che il router creerà la propria subnet e agirà come firewall per proteggerti dalla rete pubblica.
 
-## Passaggi di base
+## Passaggi di base {#basic-steps}
 
 Accedi al pannello di amministrazione web del router, vai alla sezione **INTERNET** -> **Repeater** e fai clic su **Connect**.
 
@@ -26,7 +26,7 @@ Inserisci la password Wi-Fi corretta e fai clic su **Apply**.
 
 ![join wifi 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/join_wifi_2.png){class="glboxshadow"}
 
-Se l'SSID Wi-Fi a cui vuoi connetterti non e' presente nell'elenco Available Network, fai clic su **Join Other Network** nell'angolo superiore destro e inserisci manualmente l'SSID Wi-Fi e le altre informazioni richieste. Fai riferimento [qui](#join-other-network) per i passaggi dettagliati.
+Se l'SSID Wi-Fi a cui vuoi connetterti non è presente nell'elenco Available Network, fai clic su **Join Other Network** nell'angolo superiore destro e inserisci manualmente l'SSID Wi-Fi e le altre informazioni richieste. Fai riferimento [qui](#join-other-network) per i passaggi dettagliati.
 
 ![join other network](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/join_other_network_1.png){class="glboxshadow"}
 
@@ -34,29 +34,29 @@ Per connetterti a un hotspot pubblico, ad esempio quelli forniti da hotel, aerop
 
 Per altre impostazioni, fai riferimento a [Advanced Settings](#advanced-settings).
 
-Dopo un po', se la password e' corretta, la connessione avra' successo.
+Dopo un po', se la password è corretta, la connessione avrà successo.
 
 ![repeater connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/repeater_connected.png){class="glboxshadow"}
 
-## Per hotspot pubblici
+## Per hotspot pubblici {#for-public-hotspot}
 
-Quando colleghi il router a un hotspot pubblico con captive portal, abilitare le seguenti funzioni puo' aiutare a migliorare il tasso di successo della connessione.
+Quando colleghi il router a un hotspot pubblico con captive portal, abilitare le seguenti funzioni può aiutare a migliorare il tasso di successo della connessione.
 
 ![repeater settings for public hotspot](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/repeater_settings_for_public_hotspot.png){class="glboxshadow"}
 
 - **Auto-Enable Login Mode for Public Hotspots**
 
-    Questa funzione e' disponibile dalla v4.6.
+    Questa funzione è disponibile dalla v4.6.
 
-    Se questa opzione e' abilitata, il router entrera' automaticamente in Login Mode for Public Hotspots quando e' collegato con successo a un hotspot ma non a Internet. **In questa modalita', alcuni servizi saranno sospesi mentre la modalita' DNS verra' impostata su automatica**, e questo potrebbe esporre la tua attivita' di rete al provider dell'hotspot, ad esempio hotel o centro commerciale.
+    Se questa opzione è abilitata, il router entrerà automaticamente in Login Mode for Public Hotspots quando è collegato con successo a un hotspot ma non a Internet. **In questa modalità, alcuni servizi saranno sospesi mentre la modalità DNS verrà impostata su automatica**, e questo potrebbe esporre la tua attività di rete al provider dell'hotspot, ad esempio hotel o centro commerciale.
 
-    Anche se questa opzione non e' abilitata, il router ti chiedera' di entrare in questa modalita' quando rileva un captive portal nell'hotspot e non riesce ad accedere con successo.
+    Anche se questa opzione non è abilitata, il router ti chiederà di entrare in questa modalità quando rileva un captive portal nell'hotspot e non riesce ad accedere con successo.
 
     ![login mode for public hotspots](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/login_mode_for_public_hotspots.png){class="glboxshadow"}
 
 - **Enable Camouflage**
 
-    Se abilitata, il router si mascherera' come il dispositivo client che usi per accedere al pannello di amministrazione, emulando l'indirizzo MAC di quel dispositivo.
+    Se abilitata, il router si maschererà come il dispositivo client che usi per accedere al pannello di amministrazione, emulando l'indirizzo MAC di quel dispositivo.
 
 - **MAC Mode**
 
@@ -64,17 +64,17 @@ Quando colleghi il router a un hotspot pubblico con captive portal, abilitare le
 
     - **Factory**: usa l'indirizzo MAC originale assegnato in fabbrica al dispositivo.
 
-    - **Clone**: clona l'indirizzo MAC di un dispositivo client per la connessione. Se il MAC desiderato non e' elencato, inserisci manualmente l'indirizzo che vuoi clonare.
+    - **Clone**: clona l'indirizzo MAC di un dispositivo client per la connessione. Se il MAC desiderato non è elencato, inserisci manualmente l'indirizzo che vuoi clonare.
 
         Nota: molti dispositivi moderni usano indirizzi MAC casuali, spesso chiamati Private Wi-Fi Address o random hardware address, quando si collegano alle reti Wi-Fi. Per questo motivo, l'indirizzo MAC mostrato qui potrebbe non corrispondere al vero MAC fisico del dispositivo.
 
     - **Random**: genera automaticamente un indirizzo MAC casuale per la connessione.
 
-    Quando salvi la configurazione di rete, MAC Mode, inclusi eventuali MAC clonati o casuali, e' legato allo specifico SSID che salvi. Puoi modificare manualmente queste impostazioni per ciascun SSID in qualsiasi momento.
+    Quando salvi la configurazione di rete, MAC Mode, inclusi eventuali MAC clonati o casuali, è legato allo specifico SSID che salvi. Puoi modificare manualmente queste impostazioni per ciascun SSID in qualsiasi momento.
 
-- **Auto Update MAC**: se questa opzione e' abilitata, il MAC puo' aggiornarsi automaticamente.
+- **Auto Update MAC**: se questa opzione è abilitata, il MAC può aggiornarsi automaticamente.
 
-## Impostazioni avanzate
+## Impostazioni avanzate {#advanced-settings}
 
 Quando ti unisci alla rete, sono disponibili alcune opzioni aggiuntive.
 
@@ -82,21 +82,21 @@ Quando ti unisci alla rete, sono disponibili alcune opzioni aggiuntive.
 
 * **Remember**: abilita questa opzione per ricordare la rete Wi-Fi ripetuta attuale.
 
-* **Lock BSSID**: quando e' abilitata, il router si connettera' solo allo specifico access point corrispondente al BSSID selezionato, anche quando altri AP condividono lo stesso SSID.
+* **Lock BSSID**: quando è abilitata, il router si connetterà solo allo specifico access point corrispondente al BSSID selezionato, anche quando altri AP condividono lo stesso SSID.
 
-* **Manually Set Static IP**: quando e' abilitata, puoi configurare manualmente un indirizzo IPv4 fisso, netmask, gateway e server DNS per la connessione repeater del router, invece di ottenere automaticamente queste impostazioni.
+* **Manually Set Static IP**: quando è abilitata, puoi configurare manualmente un indirizzo IPv4 fisso, netmask, gateway e server DNS per la connessione repeater del router, invece di ottenere automaticamente queste impostazioni.
 
     ![set static ip](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/manually_set_static_ip.png){class="glboxshadow"}
 
-* **TTL**: TTL (Time To Live) imposta il tempo massimo per cui i pacchetti possono sopravvivere nella rete e viene compilato in base ai requisiti dell'operatore. Per impostazione predefinita, il router inoltra il TTL del dispositivo client in ingresso meno uno. Il TTL e' valido solo per IPv4.
+* **TTL**: TTL (Time To Live) imposta il tempo massimo per cui i pacchetti possono sopravvivere nella rete e viene compilato in base ai requisiti dell'operatore. Per impostazione predefinita, il router inoltra il TTL del dispositivo client in ingresso meno uno. Il TTL è valido solo per IPv4.
 
-    **Nota**: se devi mascherare la connessione, puoi impostare qui un valore fisso. Per la maggior parte dei modelli, inserisci il TTL effettivo desiderato piu' 1 per compensare la riduzione automatica. Mudi 7 (GL-E5800) applica il valore inserito senza modificarlo.
+    **Nota**: se devi mascherare la connessione, puoi impostare qui un valore fisso. Per la maggior parte dei modelli, inserisci il TTL effettivo desiderato più 1 per compensare la riduzione automatica. Mudi 7 (GL-E5800) applica il valore inserito senza modificarlo.
 
 * **HL**: in IPv6, il campo HL, Hop Limit, limita il numero di hop di trasmissione dei pacchetti nella rete, equivalente al TTL in IPv4.
 
-* **MTU**: il valore predefinito e' 1500.
+* **MTU**: il valore predefinito è 1500.
 
-## Opzioni Repeater
+## Opzioni Repeater {#repeater-options}
 
 Fai clic sull'icona a forma di ingranaggio nell'angolo superiore destro per configurare le opzioni del ripetitore.
 
@@ -106,17 +106,17 @@ La pagina può variare in base alla versione del firmware.
 
 ![repeater options](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/repeater_options.png){class="glboxshadow"}
 
-* **Allow Switching to Other Saved Networks**: se abilitata, il router si connettera' automaticamente ad altre reti salvate quando la rete Wi-Fi attualmente connessa non e' disponibile.
+* **Allow Switching to Other Saved Networks**: se abilitata, il router si connetterà automaticamente ad altre reti salvate quando la rete Wi-Fi attualmente connessa non è disponibile.
 
-* **Band Selection**: se selezioni manualmente una banda, il router eseguira' la scansione e si connettera' solo alle reti Wi-Fi in quella banda di frequenza.
+* **Band Selection**: se selezioni manualmente una banda, il router eseguirà la scansione e si connetterà solo alle reti Wi-Fi in quella banda di frequenza.
 
-## Gestire le reti note
+## Gestire le reti note {#manage-known-network}
 
 Per gestire le reti note, fai clic su **Switch Network**.
 
 ![switch network](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/repeater_connected.png){class="glboxshadow"}
 
-Puoi anche fare clic su **Connect** nella sezione Repeater se al momento non e' connessa alcuna rete.
+Puoi anche fare clic su **Connect** nella sezione Repeater se al momento non è connessa alcuna rete.
 
 ![repeater section](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/repeater_section.png){class="glboxshadow"}
 
@@ -124,9 +124,9 @@ Nella sezione **Known Networks**, fai clic sull'icona del cestino per eliminare 
 
 ![manage known network](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/manage_known_networks.png){class="glboxshadow"}
 
-## Unirsi a un'altra rete
+## Unirsi a un'altra rete {#join-other-network}
 
-Se l'SSID non e' presente nell'elenco Available Networks oppure se l'SSID e' nascosto, puoi fare clic su **Join Other Network**.
+Se l'SSID non è presente nell'elenco Available Networks oppure se l'SSID è nascosto, puoi fare clic su **Join Other Network**.
 
 ![join other network 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/join_other_network_1.png){class="glboxshadow"}
 
@@ -136,7 +136,7 @@ Inserisci l'SSID, seleziona Security e inserisci la password, se richiesta.
 
 Per le impostazioni **Security**, sono disponibili due o tre opzioni, a seconda del modello.
 
-* None, cioe' non e' richiesta alcuna password.
+* None, cioè non è richiesta alcuna password.
 * WPA/WPA2/WPA3, comune e supportata da quasi tutte le reti Wi-Fi.
 * WPA/WPA2/WPA3 Enterprise, che richiede Extensible Authentication Protocol, EAP, per l'autenticazione. Per collegarsi sono necessari nome utente e password validi, di solito in reti aziendali o universitarie.
 
@@ -144,9 +144,9 @@ Per le impostazioni **Security**, sono disponibili due o tre opzioni, a seconda 
 
     Per indicazioni dettagliate sulla ripetizione di reti EAP, fai clic [qui](../tutorials/eap.md){target="_blank"}.
 
-## Riconnessione
+## Riconnessione {#reconnection}
 
-Nei seguenti casi, il router tentera' automaticamente di riconnettersi al Wi-Fi di tanto in tanto. Se necessario, puoi disabilitare manualmente questa funzione. In caso di errori SSID/password, rimuovi la rete da Known Networks per risolvere.
+Nei seguenti casi, il router tenterà automaticamente di riconnettersi al Wi-Fi di tanto in tanto. Se necessario, puoi disabilitare manualmente questa funzione. In caso di errori SSID/password, rimuovi la rete da Known Networks per risolvere.
 
 1. SSID/password errati inseriti durante la configurazione Repeater.
 
@@ -158,15 +158,15 @@ Il processo di riconnessione ha tre fasi distinte: fase di attesa, fase di scans
 
 1. Fase di attesa: nessun problema; il router attende le condizioni per la riconnessione.
 
-2. Fase di scansione: puo' verificarsi perdita di pacchetti sulla banda di frequenza scansionata. I nuovi dispositivi potrebbero avere problemi di connessione. Per i modelli GL-AXT1800/GL-AX1800, il Guest Wi-Fi verra' temporaneamente disabilitato.
+2. Fase di scansione: può verificarsi perdita di pacchetti sulla banda di frequenza scansionata. I nuovi dispositivi potrebbero avere problemi di connessione. Per i modelli GL-AXT1800/GL-AX1800, il Guest Wi-Fi verrà temporaneamente disabilitato.
 
 3. Fase di connessione: il Main Wi-Fi sulla banda di destinazione potrebbe interrompersi per alcuni secondi durante il ristabilimento.
 
 **Nota**: in genere i problemi si verificano nelle fasi di scansione e connessione.
 
-## Risoluzione dei problemi
+## Risoluzione dei problemi {#troubleshooting}
 
-Quando il router e' collegato a una rete Wi-Fi come repeater, se Internet non e' disponibile, verra' mostrato un messaggio giallo come illustrato di seguito.
+Quando il router è collegato a una rete Wi-Fi come repeater, se Internet non è disponibile, verrà mostrato un messaggio giallo come illustrato di seguito.
 
 **"The interface is connected, but the Internet can't be accessed."**
 
@@ -174,17 +174,17 @@ Quando il router e' collegato a una rete Wi-Fi come repeater, se Internet non e'
 
 Per risolvere il problema:
 
-1. Controlla se il dispositivo a monte, cioe' la rete Wi-Fi a cui il router e' collegato, ha accesso a Internet.
+1. Controlla se il dispositivo a monte, cioè la rete Wi-Fi a cui il router è collegato, ha accesso a Internet.
 
 2. Vai alla pagina [Multi-WAN](multi-wan.md) per controllare lo stato dell'interfaccia repeater.
 
-## DFS
+## DFS {#dfs}
 
-Quando ti colleghi a una rete Wi-Fi 5G a monte, il Wi-Fi del router seguira' la rete Wi-Fi a monte nel usare o non usare il canale DFS.
+Quando ti colleghi a una rete Wi-Fi 5G a monte, il Wi-Fi del router seguirà la rete Wi-Fi a monte nel usare o non usare il canale DFS.
 
-* Se la rete Wi-Fi a monte usa un canale DFS ed e' scansionabile, il Wi-Fi 5G del router usera' lo stesso canale.
+* Se la rete Wi-Fi a monte usa un canale DFS ed è scansionabile, il Wi-Fi 5G del router userà lo stesso canale.
 
-* Il Wi-Fi 5G del router passera' a un canale non DFS se la rete Wi-Fi a monte non e' scansionabile oppure se la connessione non riesce.
+* Il Wi-Fi 5G del router passerà a un canale non DFS se la rete Wi-Fi a monte non è scansionabile oppure se la connessione non riesce.
 
 ??? "Modelli supportati"
 
@@ -229,8 +229,8 @@ Quando ti colleghi a una rete Wi-Fi 5G a monte, il Wi-Fi del router seguira' la 
 Articoli correlati
 
 - [Pagina Internet](internet.md)
-- [Come impostare la priorita' di ciascun metodo di accesso a Internet?](multi-wan.md)
-- [Come impostare il bilanciamento del carico quando vengono usati contemporaneamente piu' metodi di accesso a Internet?](multi-wan.md)
+- [Come impostare la priorità di ciascun metodo di accesso a Internet?](multi-wan.md)
+- [Come impostare il bilanciamento del carico quando vengono usati contemporaneamente più metodi di accesso a Internet?](multi-wan.md)
 - [Come posso conoscere gli indirizzi MAC LAN e Wi-Fi?](../faq/how_can_i_know_the_lan_wifi_mac.md)
 
 ---

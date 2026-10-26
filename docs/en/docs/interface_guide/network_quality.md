@@ -1,4 +1,4 @@
-# Network Quality
+# Network Quality {#network-quality}
 
 **Note**: This feature was introduced in firmware v4.11.
 
@@ -18,7 +18,7 @@ On this page, you can evaluate your internet connection using the Network Qualit
 
 2. Speedtest is a local speed test on the router and is subject to rate limiting rules from features such as SQM and QoS.
 
-## Network Quality Score
+## Network Quality Score {#network-quality-score}
 
 This section displays the overall Network Quality Score, which is calculated from the Response Score and Reliable Score. You can view each score separately. The panel also shows related metrics, including latency, jitter, and packet loss, alongside real-time download and upload rates in KB/s. By default, the dashboard uses `google.com` as the target for internet connectivity checks and DNS resolution tests.
 
@@ -36,7 +36,7 @@ The configured targets are used to run connectivity and DNS tests and calculate 
 
 - **DNS Resolution Target**: The domain resolved during DNS lookup probes. Both A(IPv4) and AAAA(IPv6) records are queried.
 
-## Speedtest
+## Speedtest {#speedtest}
 
 This built-in speed test uses Cloudflare Speed Test to measure download and upload speeds, ping latency, and bufferbloat. Real-time speed graphs are displayed during the test.
 

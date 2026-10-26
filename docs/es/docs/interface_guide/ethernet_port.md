@@ -1,4 +1,4 @@
-# Puerto Ethernet
+# Puerto Ethernet {#ethernet-port}
 
 El contenido de esta página se basa en las versiones de firmware v4.7 a v4.9. Si el dispositivo utiliza otra versión del firmware, use el selector siguiente para cambiar a la guía correspondiente.
 
@@ -14,11 +14,11 @@ En el menú lateral izquierdo del panel de administración web, vaya a **NETWORK
 
 Esta página le permite gestionar las funciones de los puertos Ethernet, WAN o LAN, y ver detalles del puerto como la dirección MAC y la velocidad negociada.
 
-## WAN
+## WAN {#wan}
 
 Esta sección muestra la función del puerto, WAN o LAN, la dirección MAC y la velocidad negociada.
 
-![wan](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/wan.png){class="glboxshadow"}
+![wan](https://static.gl-inet.com/docs/router/en/4/interface_guide/ethernet_port/wan.png){class="glboxshadow"}
 
 - **WAN/LAN**: El modo de funcionamiento actual del puerto WAN físico. Puede cambiarlo a LAN según sea necesario.
 
@@ -28,7 +28,7 @@ Esta sección muestra la función del puerto, WAN o LAN, la dirección MAC y la 
 
 - **Negotiated Network Port Rate**: La velocidad de enlace negociada de la interfaz WAN. Solo se muestra cuando se detecta un enlace válido.
 
-## LAN
+## LAN {#lan}
 
 Esta sección muestra la velocidad negociada del puerto LAN. Solo se muestra cuando se detecta un enlace válido.
 
@@ -36,7 +36,7 @@ Esta sección muestra la velocidad negociada del puerto LAN. Solo se muestra cua
 
 Algunos modelos admiten cambiar LAN 1 a un puerto WAN para escenarios de WAN dual por Ethernet. Haga clic en [Dual-Ethernet WAN](#dual-ethernet-wan) para obtener más información.
 
-## Dual-Ethernet WAN
+## Dual-Ethernet WAN {#dual-ethernet-wan}
 
 La función Dual-Ethernet WAN permite cambiar un puerto Ethernet LAN predeterminado a un puerto WAN secundario para acceder a Internet mediante Ethernet dual. Esto proporciona conectividad de respaldo fiable y, cuando es compatible, admite agregación de ancho de banda para cargas de trabajo que requieren mucho ancho de banda. También permite conectarse simultáneamente a dos redes independientes, por ejemplo una de trabajo y otra personal, lo que aporta mayor flexibilidad sin hardware adicional.
 

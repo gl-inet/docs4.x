@@ -1,10 +1,10 @@
-# Que faire si le serveur WireGuard ne fonctionne pas correctement
+# Que faire si le serveur WireGuard ne fonctionne pas correctement {#what-should-i-do-if-the-wireguard-server-is-not-working-properly}
 
 Plusieurs causes peuvent expliquer pourquoi le serveur WireGuard de votre routeur GL.iNet ne fonctionne pas correctement.
 
 Suivez les étapes de dépannage ci-dessous selon le problème rencontré.
 
-## Situation 1. Le serveur WireGuard démarre, mais aucune connexion ne peut être établie
+## Situation 1. Le serveur WireGuard démarre, mais aucune connexion ne peut être établie {#situation-1-the-wireguard-server-is-starting-but-cant-be-connected}
 
 ??? "Suivez ces étapes"
 
@@ -51,7 +51,7 @@ Suivez les étapes de dépannage ci-dessous selon le problème rencontré.
 
     Si vous ne voyez pas l'écran de connexion de votre routeur GL.iNet (routeur secondaire), la redirection de port ne fonctionne pas correctement. Configurez à nouveau la redirection de port ou assurez-vous d'utiliser comme routeur principal un routeur dont la fonction de redirection de port fonctionne correctement.
 
-## Situation 2. Le serveur WireGuard affiche un client connecté, mais le client VPN ne peut pas accéder à Internet
+## Situation 2. Le serveur WireGuard affiche un client connecté, mais le client VPN ne peut pas accéder à Internet {#situation-2-the-wireguard-server-shows-connected-client-but-the-vpn-client-cannot-access-the-internet}
 
 ??? "Suivez ces étapes"
 
@@ -94,7 +94,7 @@ Suivez les étapes de dépannage ci-dessous selon le problème rencontré.
     3. Dans l'onglet **Configuration**, pour le champ **IPv4 Address**, ajoutez **/24** après **10.0.0.1**.
     4. Cliquez sur **Apply**.
 
-## Situation 3. Le serveur WireGuard fonctionne, mais le client VPN ne peut pas s'y connecter
+## Situation 3. Le serveur WireGuard fonctionne, mais le client VPN ne peut pas s'y connecter {#situation-3-the-wireguard-server-is-running-but-vpn-client-cannot-connect-to-it}
 
 ??? "Suivez ces étapes"
 
@@ -106,7 +106,7 @@ Suivez les étapes de dépannage ci-dessous selon le problème rencontré.
 
     **Cause possible 2 : vous n'avez peut-être pas d'adresse IP publique**
 
-    Pour le vérifier, consultez [cette page](https://docs.gl-inet.com/router/en/4/tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address/).
+    Pour le vérifier, consultez [cette page](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md).
 
     **Cause possible 3 : si votre serveur WireGuard et votre client WireGuard sont tous deux configurés sur des routeurs GL.iNet, leurs adresses IP LAN sont en conflit**
 
@@ -125,7 +125,7 @@ Suivez les étapes de dépannage ci-dessous selon le problème rencontré.
 
     Téléversez de nouveau vos informations de configuration.
 
-## Situation 4. Le serveur WireGuard est connecté, mais la connexion n'est pas stable
+## Situation 4. Le serveur WireGuard est connecté, mais la connexion n'est pas stable {#situation-4-the-wireguard-server-is-connected-but-the-connection-is-not-stable}
 
 ??? "Suivez ces étapes"
 
@@ -140,7 +140,7 @@ Suivez les étapes de dépannage ci-dessous selon le problème rencontré.
         4. Pour **DNS Server 1**, sélectionnez **Google Public DNS**.
         5. Cliquez sur **Apply**.
 
-## Situation 5. Le serveur WireGuard a soudainement cessé de fonctionner
+## Situation 5. Le serveur WireGuard a soudainement cessé de fonctionner {#situation-5-the-wireguard-server-suddenly-stopped-working}
 
 ??? "Suivez ces étapes"
 
@@ -148,7 +148,7 @@ Suivez les étapes de dépannage ci-dessous selon le problème rencontré.
 
     **Cause possible 1 : il peut y avoir une panne de courant à l'endroit où vous avez installé votre serveur WireGuard**
 
-    Vérifiez si votre serveur WireGuard est toujours en ligne en suivant les étapes de résolution de la Situation 1 ou via [GoodCloud](https://docs.gl-inet.com/router/en/4/interface_guide/cloud/) (si vous y avez déjà connecté votre routeur).
+    Vérifiez si votre serveur WireGuard est toujours en ligne en suivant les étapes de résolution de la Situation 1 ou via [GoodCloud](../interface_guide/cloud.md) (si vous y avez déjà connecté votre routeur).
 
     **Cause possible 2 : vous n'avez pas activé le DNS dynamique (DDNS)**
 
@@ -156,7 +156,7 @@ Suivez les étapes de dépannage ci-dessous selon le problème rencontré.
 
     **Cause possible 3 : la redirection de port a cessé de fonctionner pour une raison inconnue**
 
-    [Configurez à nouveau la redirection de port](https://docs.gl-inet.com/router/en/4/tutorials/how_to_set_up_port_forwarding/) avec un autre port.
+    [Configurez à nouveau la redirection de port](../tutorials/how_to_set_up_port_forwarding.md) avec un autre port.
 
 ---
 

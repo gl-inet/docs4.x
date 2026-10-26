@@ -1,6 +1,6 @@
-# FAQ rozwiązywania problemów z połączeniem internetowym
+# FAQ rozwiązywania problemów z połączeniem internetowym {#internet-connection-troubleshooting-faq}
 
-## P1. Co zrobić, jeśli nie mam dostępu do Internetu?
+## P1. Co zrobić, jeśli nie mam dostępu do Internetu? {#q1-what-should-i-do-if-i-cannot-access-the-internet}
 
 Wykonaj poniższe kroki, aby przeprowadzić podstawowe rozwiązywanie problemów.
 
@@ -22,7 +22,7 @@ Wykonaj poniższe kroki, aby przeprowadzić podstawowe rozwiązywanie problemów
 
     Jednocześnie sprawdź, czy dostawca wcześniej skonfigurował **MAC binding** na modemie/ONT.
 
-## P2. Kiedy należy sklonować adres MAC?
+## P2. Kiedy należy sklonować adres MAC? {#q2-when-should-i-clone-a-mac-address}
 
 Niektórzy dostawcy Internetu przypisują połączenie szerokopasmowe do adresu MAC pierwszego podłączonego urządzenia, zwykle starego routera albo komputera. Po wymianie routera trzeba sklonować adres MAC, aby przywrócić dostęp do Internetu.
 
@@ -36,7 +36,7 @@ Wykonaj poniższe kroki, aby sklonować adres MAC do routera GL.iNet.
 
 3. Uruchom ponownie modem (czyli urządzenie nadrzędne).
 
-## P3. Kiedy trzeba skonfigurować VLAN ID?
+## P3. Kiedy trzeba skonfigurować VLAN ID? {#q3-when-do-i-need-to-configure-a-vlan-id}
 
 Niektórzy dostawcy wymagają tagowania VLAN do uwierzytelniania połączenia internetowego lub separacji ruchu, zwłaszcza przy łączach światłowodowych i IPTV. Skontaktuj się z dostawcą i sprawdź, czy wymagany jest VLAN ID.
 
@@ -48,7 +48,7 @@ Wykonaj poniższe kroki, aby skonfigurować VLAN ID.
 
     ![vlan id](https://static.gl-inet.com/docs/router/en/4/faq/internet_connection_troubleshooting_faq/vlan_id.png){class="glboxshadow"}
 
-## P4. Co zrobić, jeśli nadal nie działa?
+## P4. Co zrobić, jeśli nadal nie działa? {#q4-what-if-it-still-doesnt-work}
 
 Jeśli problem nadal występuje, spróbuj podłączyć komputer stacjonarny lub laptop bezpośrednio do modemu i sprawdź, czy masz dostęp do Internetu.
 
@@ -61,65 +61,65 @@ Jeśli masz dostęp do Internetu, problem może być związany z konfiguracją r
 - Nazwę dostawcy Internetu
 - Wszelkie inne informacje, które Twoim zdaniem mogą pomóc nam w udzieleniu wsparcia
 
-## Informacje o ISP
+## Informacje o ISP {#isp-information}
 
 Poniżej znajduje się zestawienie informacji o dostawcach Internetu według regionów, opracowane przez GL.iNet na podstawie opinii klientów, forów i zasobów OpenWrt. Materiał ma wyłącznie charakter informacyjny.
 
 | Kraj/region   | ISP   | Typ połączenia | VLAN ID | Wymagane klonowanie MAC | Dodatkowe wymagania |
 | :--------------- | :---- | :-------------- | :------ | :-------- | :---------------------- |
-| United States    | AT&T Fiber | DHCP (IP Passthrough) | N/A | No | Must enable IP Passthrough; EAP authentication bypass needed |
-| United States | Spectrum | DHCP | N/A | Yes (in some areas) | Strong MAC binding (modem reboot required) |
-| United States | Verizon Fios | DHCP | N/A | No | | 
-| United States | Comcast Xfinity | DHCP | N/A | Yes (common) | Must reboot modem when changing router (MAC release) |
-| United States | Cox Communications | DHCP | N/A | Yes | Must reboot modem when changing router (MAC release) |
-| United States | Frontier Fiber | DHCP | N/A | No | |
-| United States | CenturyLink / Lumen | PPPoE | 201 | No | VLANs are required in certain areas. |
-| Canada | Bell Canada Fibe | PPPoE | 35 | No | |
-| Germany | Deutsche Telekom | PPPoE | 7 | No | VLAN 7 mandatory for internet; PPPoE credentials required |
-| Germany | Vodafone (Kabel) | DHCP | N/A | Yes (sometimes) | MAC binding may apply; reboot modem after router change |
-| Germany | 1&1 / O2 (Telekom line) | PPPoE | 7 | No | VLAN 7 mandatory for internet |
-| Germany | DNS:NET | PPPoE | 37 | No | |
-| Germany | o2(UGG) | PPPoE | 7 | No | |
-| United Kingdom | BT Broadband | PPPoE | 101 | No | VLAN 101 required; PPPoE login needed |
-| United Kingdom | Sky Broadband | DHCP (Option 61) | 101 | No | Requires DHCP Option 61 (client identifier) |
-| United Kingdom | Virgin | DHCP | N/A | Yes | The modem is in bridged mode and requires MAC cloning. |
-| France | Orange | DHCP / PPPoE | 832 | No | VLAN 832 required; may require Option 90 authentication |
-| France | Free (Freebox) | DHCP | N/A | No | |
-| France | Bouygues Telecom | DHCP | 100 | Yes | Clone Bbox MAC |
-| Spain | Movistar | PPPoE | 6 | No | VLAN 6 (internet), VLAN 2 (IPTV), VLAN 3 (VoIP) |
-| Spain | DIGI | PPPoE | 20 | No | |
-| Spain | Orange | DHCP | 832/835 | No | VLANs may vary by region |
-| Italy | TIM | PPPoE | 835 | No | VLAN 835 required |
-| Italy | Aruba | PPPoE | 835 | No | |
-| Netherlands | KPN | DHCP | 6 | No | VLAN 6 required for internet |
-| Netherlands | Tweak | DHCP | 34 | Yes | Cloning Experia Box MAC |
-| Netherlands | Telfort / Oxxio / Tweak | DHCP (IPoE) | 34 | No | |
-| Netherlands | Odido | DHCP | 300 | No | |
-| Belgium | EDPnet | PPPoE | 10 | No | |
-| Bosnia and Herzegovina | BH Telecom | PPPoE | 100 | No | |
-| Croatia | Terrakom | PPPoE | 905 | No | |
-| Czech Republic | O2 | PPPoE | 848 | No | |
-| Cyprus | Epic | PPPoE | 35 | No | |
-| Cyprus | Cyta | PPPoE | 42 | No | |
-| Cyprus | Cablenet | PPPoE | 42 | No | |
-| Cyprus | Primetel | PPPoE | 42 | No | |
-| Poland | Orange Polska | PPPoE | 35 | No | VLAN 35 required |
-| Poland | T-mobile | PPPoE | 35 | No | |
-| Ireland | Vodafone SIRO | PPPoE | 10 | No | |
-| Ireland | Pure Telecom | PPPoE | 10 | No | |
-| Austria | A1 Telekom | PPPoE | 2 | No | |
-| Austria | Fonira | PPPoE | 31 | No | |
-| Türkiye | Turknet | PPPoE | 35 | No | |
-| Türkiye | Turk Telekom | PPPoE | 35 | No | |
-| Türkiye | Turkcell Superonline | PPPoE | N/A | Yes | |
-| Türkiye | Turksat Kablonet | DHCP/PPPoE | N/A | No | |
-| Greece | Cosmote | PPPoE | 835 | No | |
-| Greece | Nova | PPPoE | 835 | Yes | |
-| Greece | DEI/PPC | DHCP | 835 | No | |
-| Japan | NTT (FLET'S) | PPPoE / IPoE (MAP-E) | N/A | No | IPoE requires MAP-E/DS-Lite compatible router |
-| Japan | SoftBank Hikari | PPPoE / IPoE | N/A | No | BBIX IPoE service commonly used |
-| India | Airtel | PPPoE / DHCP | N/A | No | Some regions require PPPoE |
-| India | JioFiber | DHCP | N/A | No | Locked ONT in many cases |
-| Singapore | Singtel | PPPoE | 10 | No | VLAN 10 required; IPTV separate VLAN |
-| Singapore | StarHub | DHCP | N/A | No | DHCP-based connection |
-| Australia | NBN (various ISPs) | PPPoE / DHCP | 2 (common) | Yes | VLAN 2 common but ISP-dependent |
+| Stany Zjednoczone | AT&T Fiber | DHCP (IP Passthrough) | N/A | Nie | Wymagane włączenie IP Passthrough; konieczne obejście uwierzytelniania EAP |
+| Stany Zjednoczone | Spectrum | DHCP | N/A | Tak (w niektórych regionach) | Ścisłe wiązanie MAC (wymagany restart modemu) |
+| Stany Zjednoczone | Verizon Fios | DHCP | N/A | Nie | |
+| Stany Zjednoczone | Comcast Xfinity | DHCP | N/A | Tak (często) | Po zmianie routera należy zrestartować modem (zwolnienie adresu MAC) |
+| Stany Zjednoczone | Cox Communications | DHCP | N/A | Tak | Po zmianie routera należy zrestartować modem (zwolnienie adresu MAC) |
+| Stany Zjednoczone | Frontier Fiber | DHCP | N/A | Nie | |
+| Stany Zjednoczone | CenturyLink / Lumen | PPPoE | 201 | Nie | W niektórych regionach wymagane są sieci VLAN. |
+| Kanada | Bell Canada Fibe | PPPoE | 35 | Nie | |
+| Niemcy | Deutsche Telekom | PPPoE | 7 | Nie | VLAN 7 obowiązkowy dla dostępu do Internetu; wymagane dane logowania PPPoE |
+| Niemcy | Vodafone (Kabel) | DHCP | N/A | Tak (czasami) | Możliwe wiązanie MAC; po zmianie routera zrestartuj modem |
+| Niemcy | 1&1 / O2 (Telekom line) | PPPoE | 7 | Nie | VLAN 7 obowiązkowy dla dostępu do Internetu |
+| Niemcy | DNS:NET | PPPoE | 37 | Nie | |
+| Niemcy | o2(UGG) | PPPoE | 7 | Nie | |
+| Wielka Brytania | BT Broadband | PPPoE | 101 | Nie | Wymagany VLAN 101; konieczne logowanie PPPoE |
+| Wielka Brytania | Sky Broadband | DHCP (Option 61) | 101 | Nie | Wymaga DHCP Option 61 (identyfikator klienta) |
+| Wielka Brytania | Virgin | DHCP | N/A | Tak | Modem działa w trybie mostu i wymaga klonowania MAC. |
+| Francja | Orange | DHCP / PPPoE | 832 | Nie | Wymagany VLAN 832; może być wymagane uwierzytelnianie Option 90 |
+| Francja | Free (Freebox) | DHCP | N/A | Nie | |
+| Francja | Bouygues Telecom | DHCP | 100 | Tak | Sklonuj adres MAC urządzenia Bbox |
+| Hiszpania | Movistar | PPPoE | 6 | Nie | VLAN 6 (Internet), VLAN 2 (IPTV), VLAN 3 (VoIP) |
+| Hiszpania | DIGI | PPPoE | 20 | Nie | |
+| Hiszpania | Orange | DHCP | 832/835 | Nie | Identyfikatory VLAN mogą się różnić w zależności od regionu |
+| Włochy | TIM | PPPoE | 835 | Nie | Wymagany VLAN 835 |
+| Włochy | Aruba | PPPoE | 835 | Nie | |
+| Holandia | KPN | DHCP | 6 | Nie | VLAN 6 wymagany dla dostępu do Internetu |
+| Holandia | Tweak | DHCP | 34 | Tak | Sklonuj adres MAC urządzenia Experia Box |
+| Holandia | Telfort / Oxxio / Tweak | DHCP (IPoE) | 34 | Nie | |
+| Holandia | Odido | DHCP | 300 | Nie | |
+| Belgia | EDPnet | PPPoE | 10 | Nie | |
+| Bośnia i Hercegowina | BH Telecom | PPPoE | 100 | Nie | |
+| Chorwacja | Terrakom | PPPoE | 905 | Nie | |
+| Czechy | O2 | PPPoE | 848 | Nie | |
+| Cypr | Epic | PPPoE | 35 | Nie | |
+| Cypr | Cyta | PPPoE | 42 | Nie | |
+| Cypr | Cablenet | PPPoE | 42 | Nie | |
+| Cypr | Primetel | PPPoE | 42 | Nie | |
+| Polska | Orange Polska | PPPoE | 35 | Nie | Wymagany VLAN 35 |
+| Polska | T-mobile | PPPoE | 35 | Nie | |
+| Irlandia | Vodafone SIRO | PPPoE | 10 | Nie | |
+| Irlandia | Pure Telecom | PPPoE | 10 | Nie | |
+| Austria | A1 Telekom | PPPoE | 2 | Nie | |
+| Austria | Fonira | PPPoE | 31 | Nie | |
+| Turcja | Turknet | PPPoE | 35 | Nie | |
+| Turcja | Turk Telekom | PPPoE | 35 | Nie | |
+| Turcja | Turkcell Superonline | PPPoE | N/A | Tak | |
+| Turcja | Turksat Kablonet | DHCP/PPPoE | N/A | Nie | |
+| Grecja | Cosmote | PPPoE | 835 | Nie | |
+| Grecja | Nova | PPPoE | 835 | Tak | |
+| Grecja | DEI/PPC | DHCP | 835 | Nie | |
+| Japonia | NTT (FLET'S) | PPPoE / IPoE (MAP-E) | N/A | Nie | IPoE wymaga routera zgodnego z MAP-E/DS-Lite |
+| Japonia | SoftBank Hikari | PPPoE / IPoE | N/A | Nie | Często używana jest usługa IPoE firmy BBIX |
+| Indie | Airtel | PPPoE / DHCP | N/A | Nie | W niektórych regionach wymagane jest PPPoE |
+| Indie | JioFiber | DHCP | N/A | Nie | W wielu przypadkach ONT jest zablokowany |
+| Singapur | Singtel | PPPoE | 10 | Nie | Wymagany VLAN 10; IPTV w osobnej sieci VLAN |
+| Singapur | StarHub | DHCP | N/A | Nie | Połączenie oparte na DHCP |
+| Australia | NBN (różni dostawcy) | PPPoE / DHCP | 2 (często) | Tak | VLAN 2 jest powszechny, ale zależy od dostawcy |

@@ -1,4 +1,4 @@
-# Protokoll
+# Protokoll {#log}
 
 Gehen Sie auf der linken Seite des Web-Admin-Panels zu **SYSTEM** -> **Log**.
 

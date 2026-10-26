@@ -1,14 +1,14 @@
-# Aktualizacja oprogramowania modułu Quectel
+# Aktualizacja oprogramowania modułu Quectel {#upgrade-quectel-module-firmware}
 
-## Przygotowanie
+## Przygotowanie {#preparation}
 
 1. Upewnij się, że router ma skonfigurowany dostęp do Internetu.
 
 2. Podłącz komputer lub laptop do routera przez Wi-Fi lub kabel Ethernet.
 
-## Kroki aktualizacji
+## Kroki aktualizacji {#upgrade-steps}
 
-### Dla GL-X3000/GL-XE3000
+### Dla GL-X3000/GL-XE3000 {#for-gl-x3000gl-xe3000}
 
 **Metoda 1. Aktualizacja przez interfejs GL.iNet**
 
@@ -22,7 +22,7 @@
 
 Jako przykład posłuży aktualizacja modułu RM520N.
 
-1. Zaloguj się do routera przez SSH. Zapoznaj się z [tym linkiem](https://docs.gl-inet.com/router/en/4/tutorials/ssh_log_in_to_the_router/).
+1. Zaloguj się do routera przez SSH. Zapoznaj się z [tym linkiem](ssh_log_in_to_the_router.md).
 
 2. Wprowadź poniższą komendę, aby pobrać oprogramowanie modułu.
 
@@ -64,13 +64,13 @@ Jako przykład posłuży aktualizacja modułu RM520N.
 
     ![mtk7981a_check_version](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/x3000_xe3000/check_module_version.png){class="glboxshadow"}
 
-### Dla GL-MiFi/GL-XE300/GL-X750/GL-E750
+### Dla GL-MiFi/GL-XE300/GL-X750/GL-E750 {#for-gl-mifigl-xe300gl-x750gl-e750}
 
 Jako przykład posłuży aktualizacja modułu EM060K.
 
 1. Przygotuj pendrive USB. Pobierz odpowiednie oprogramowanie modułu na pendrive z dolnej części tego poradnika, rozpakuj plik .zip i umieść go w katalogu głównym pendrive'a.
 
-2. Podłącz pendrive do routera. Następnie zapoznaj się z [tym linkiem](https://docs.gl-inet.com/router/en/4/tutorials/ssh_log_in_to_the_router/), aby zalogować się do routera przez SSH.
+2. Podłącz pendrive do routera. Następnie zapoznaj się z [tym linkiem](ssh_log_in_to_the_router.md), aby zalogować się do routera przez SSH.
 
 3. Wprowadź komendę `df -h`, aby sprawdzić ścieżkę montowania pendrive'a i zanotuj ją.
 
@@ -117,7 +117,7 @@ Jako przykład posłuży aktualizacja modułu EM060K.
     ```
     ![check module version](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/other_model/check_module_version.png){class="glboxshadow"}
 
-## Adresy URL do pobierania oprogramowania modułów Quectel
+## Adresy URL do pobierania oprogramowania modułów Quectel {#quectel-module-firmware-download-url}
 
 EP06-A: [https://fw.gl-inet.com/download/EP06A-modem-firmware/EP06ALAR02A08M4G_01.009.01.009.zip](https://fw.gl-inet.com/download/EP06A-modem-firmware/EP06ALAR02A08M4G_01.009.01.009.zip)
 

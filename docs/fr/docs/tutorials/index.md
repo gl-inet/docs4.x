@@ -4,11 +4,11 @@ hide:
   - toc
 ---
 
-# Tutoriels
+# Tutoriels {#tutorials}
 
 Découvrez comment utiliser correctement nos appareils grâce à des étapes détaillées.
 
-## VPN
+## VPN {#vpn}
 
 * [Comment configurer le client OpenVPN sur les routeurs GL.iNet](how_to_set_up_openvpn_client.md)
 * [Comment configurer le serveur OpenVPN sur les routeurs GL.iNet](how_to_set_up_openvpn_server.md)
@@ -31,7 +31,7 @@ Découvrez comment utiliser correctement nos appareils grâce à des étapes dé
 * [Comment mettre à jour les certificats du serveur OpenVPN](how_to_update_openvpn_server_certificates.md)
 * [Comment faire en sorte que le DNS d’AdGuard Home contourne le VPN](how_to_make_adguard_home_dns_bypass_vpn.md)
 
-## Cellulaire
+## Cellulaire {#cellular}
 
 * [SMS](sms.md)
 * [Transfert de SMS](sms_forwarding.md)
@@ -42,17 +42,17 @@ Découvrez comment utiliser correctement nos appareils grâce à des étapes dé
 * [Comment installer ou remplacer des antennes externes pour les routeurs cellulaires](how_to_install_or_change_antennas.md)
 * [Comprendre les antennes cellulaires externes](understanding_external_cellular_antennas.md)
 
-## eSIM
+## eSIM {#esim}
 
 * [Comment utiliser la carte physique eSIM avec les routeurs GL.iNet](how_to_use_esim_physical_card_with_glinet_routers.md)
 * [Comment utiliser la carte physique eSIM avec des appareils Android](how_to_use_the_esim_physical_card_with_android_devices.md)
 
-## GoodCloud
+## GoodCloud {#goodcloud}
 
 * [GoodCloud site à site](goodcloud_site_to_site.md)
 * [Comment accéder à l’interface LuCI via GoodCloud](how_to_access_the_luci_interface_via_goodcloud.md)
 
-## Réseau
+## Réseau {#network}
 
 * [Comment se connecter à un réseau EAP (Extensible Authentication Protocol)](eap.md)
 * [Comment configurer un réseau Wi-Fi invité sur les routeurs GL.iNet](how_to_set_up_a_guest_network.md)
@@ -62,7 +62,7 @@ Découvrez comment utiliser correctement nos appareils grâce à des étapes dé
 * [Comment configurer un accès WAN double filaire sur un routeur à port WAN unique](configure_dual_ethernet_wan.md)
 * [Qu'est-ce que l'USB-C OTG et comment partager votre réseau via USB-C OTG](what_is_usb-c_otg_and_how_to_share_your_network_via_usb-c_otg.md)
 
-## Autres
+## Autres {#others}
 
 * [Comment bloquer des appareils clients](how_to_block_client_devices.md)
 * [Comment configurer manuellement une IP statique sur les appareils clients](manually_configure_static_ip.md)

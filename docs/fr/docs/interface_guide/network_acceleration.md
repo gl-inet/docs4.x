@@ -1,10 +1,10 @@
-# Network Acceleration
+# Network Acceleration {#network-acceleration}
 
 L'accélération réseau réduit la charge du CPU et accélère le transfert des paquets de trafic, mais peut entrer en conflit avec certaines fonctionnalités.
 
 Lorsque l'accélération réseau est activée, les fonctions suivantes ne fonctionneront pas correctement : Client Speed and Traffic Statistics, Client Speed Limit.
 
-## Modèles pris en charge
+## Modèles pris en charge {#supported-models}
 
 ??? "Modèles pris en charge"
     - GL-MT6000 (Fortify)
@@ -40,7 +40,7 @@ Lorsque l'accélération réseau est activée, les fonctions suivantes ne foncti
     - GL-B1300 (Convexa-B)
     - GL-X300B (Collie)
 
-## Configuration
+## Configuration {#setup}
 
 Dans la partie gauche du panneau d'administration Web, allez dans **NETWORK** -> **Network Acceleration**.
 

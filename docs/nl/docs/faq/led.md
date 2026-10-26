@@ -1,0 +1,333 @@
+# LED Indicator Status {#led-indicator-status}
+
+Dit document beschrijft de status en betekenis van de led-indicatoren voor verschillende GL.iNet-routermodellen.
+
+## Travel Router {#travel-router}
+
+### GL-MG1300 {#gl-mg1300}
+
+![gl-mg1300 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/mg1300_interface.png){class="glboxshadow"}
+
+- Solid blue: System boot up
+- Flashing blue slowly: Searching network
+- Flashing blue rapidly: Upgrading firmware
+- Solid white: Working normally
+
+### GL-MT3600BE {#gl-mt3600be}
+
+![gl-mt3600be interface](https://static.gl-inet.com/docs/router/en/4/faq/led/mt3600be_interface.png){class="glboxshadow"}
+
+- Solid blue: System boot up
+- Flashing blue slowly: Searching network
+- Flashing blue rapidly: Upgrading firmware
+- Solid white: Working normally
+
+### GL-MT3000 {#gl-mt3000}
+
+![gl-mt3000 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/mt3000_interface.jpg){class="glboxshadow"}
+
+- Solid blue: System boot up
+- Flashing blue slowly: Searching network
+- Flashing blue rapidly: Upgrading firmware
+- Solid white: Working normally
+
+### GL-AXT1800 {#gl-axt1800}
+
+![gl-axt1800 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/gl-axt1800_interface.jpg){class="glboxshadow"}
+
+- Solid blue: System boot up
+- Flashing blue slowly: Searching network
+- Flashing blue rapidly: Upgrading firmware
+- Solid white: Working normally
+
+### GL-SFT1200 {#gl-sft1200}
+
+![gl-sft1200 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/sft1200_interface.jpg){class="glboxshadow"}
+
+- Solid blue: System boot up
+- Flashing blue slowly: Searching network
+- Flashing blue rapidly: Upgrading firmware
+- Solid white: Working normally
+
+### GL-MT1300 {#gl-mt1300}
+
+![gl-mt1300 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/mt1300_interface.jpg){class="glboxshadow"}
+
+- Solid blue: System boot up
+- Flashing blue slowly: Searching network
+- Flashing blue rapidly: Upgrading firmware
+- Solid white: Working normally
+
+### GL-A1300 {#gl-a1300}
+
+![gl-a1300 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/gl-a1300_interface.jpg){class="glboxshadow"}
+
+- Solid blue: System boot up
+- Flashing blue slowly: Searching network
+- Flashing blue rapidly: Upgrading firmware
+- Solid white: Working normally
+
+## Cellular Router {#cellular-router}
+
+### GL-XE3000 {#gl-xe3000}
+
+![gl-xe3000 led](https://static.gl-inet.com/docs/router/en/4/faq/led/xe3000led.jpg){class="glboxshadow gl-70-desktop"}
+
+* Power LED
+	* Green: Power on
+	* Off: Power off
+
+* Battery LED (During charging)
+	* Flashing Red: battery level 0%-20%
+	* Flashing Violet: battery level 21%-50%
+	* Flashing Green: battery level 51%-99%
+	* Solid Green: battery level 100%
+
+* Battery LED (Not charging)
+
+	Wanneer het apparaat niet wordt opgeladen, brandt de Battery-led 5 seconden nadat je op de aan-uitknop drukt.
+
+	* Red: battery level 0%-20%
+	* Violet: battery level 21%-50%
+	* Green: battery level 51%-100%
+
+* Internet LED
+	* On: Internet is connected
+	* Off: Internet is disconnected
+
+* 2.4G Wi-Fi LED
+	* On: 2.4G Wi-Fi is ready
+	* Flashing: 2.4G Wi-Fi is communicating
+
+* 5G Wi-Fi LED
+	* On: 5G Wi-Fi is ready
+	* Flashing: 5G Wi-Fi is communicating
+
+* Cellular LED
+	* Mobile Tower is connected
+
+### GL-X3000 {#gl-x3000}
+
+![gl-x3000 led](https://static.gl-inet.com/docs/router/en/4/faq/led/gl-x3000_led.png){class="glboxshadow"}
+
+* Power LED
+	* Green: Power on
+	* Off: Power off
+
+* Internet LED
+	* On: Internet is connected
+	* Off: Internet is disconnected
+
+* 2.4G Wi-Fi LED
+	* On: 2.4G Wi-Fi is ready
+	* Flashing: 2.4G Wi-Fi is communicating
+
+* 5G Wi-Fi LED
+	* On: 5G Wi-Fi is ready
+	* Flashing: 5G Wi-Fi is communicating
+
+* Cellular LED
+	* Mobile Tower is connected
+
+### GL-X2000 {#gl-x2000}
+
+![gl-x2000 led](https://static.gl-inet.com/docs/router/en/4/faq/led/gl-x2000_led.jpg){class="glboxshadow"}
+
+* Power LED
+	* Green: Power on
+	* Off: Power off
+
+* Internet LED
+	* On: Internet is connected
+	* Off: Internet is disconnected
+
+* 2.4G Wi-Fi LED
+	* On: 2.4G Wi-Fi is ready
+	* Flashing: 2.4G Wi-Fi is communicating
+
+* 5G Wi-Fi LED
+	* On: 5G Wi-Fi is ready
+	* Flashing: 5G Wi-Fi is communicating
+
+* Cellular LED
+	* Mobile Tower is connected
+
+### GL-X750-V2 {#gl-x750-v2}
+
+![gl-x750v2 led](https://static.gl-inet.com/docs/router/en/4/faq/led/x750v2_led.jpg){class="glboxshadow"}
+
+* Power LED
+	* Green: Power on
+	* Off: Power off
+
+* Internet LED
+	* On: Internet is connected
+	* Off: Internet is disconnected
+
+* 5G Wi-Fi LED
+	* On: 5G Wi-Fi is ready
+	* Flashing: 5G Wi-Fi is communicating
+
+* 2.4G Wi-Fi LED
+	* On: 2.4G Wi-Fi is ready
+	* Flashing: 2.4G Wi-Fi is communicating
+
+* Cellular LED
+	* Mobile Tower is connected
+
+### GL-XE300 {#gl-xe300}
+
+![gl-xe300 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/gl-xe300_led.png){class="glboxshadow gl-70-desktop"}
+
+* Battery LED (During charging)
+	* Flashing 1/4: battery level 0%-25%
+	* Flashing 2/4: battery level 26%-50%
+	* Flashing 3/4: battery level 51%-75%
+	* Flashing 4/4: battery level 76%-99%
+	* Solid 4/4: battery level 100%
+
+* Battery LED (Not charging)
+
+	Wanneer het apparaat niet wordt opgeladen, brandt de Battery-led 5 seconden nadat je op de aan-uitknop drukt.
+
+	* Solid 1/4: battery level 0%-20%
+	* Solid 2/4: battery level 21%-50%
+	* Solid 3/4: battery level 51%-75%
+	* Solid 4/4: battery level 76%-100%
+
+* Power LED
+	* Green: Power on
+	* Off: Power off
+
+* WAN LED
+	* On: WAN port is connected
+	* Flashing: WAN port is communicating
+	* Off: WAN port is disconnected
+
+* LAN LED
+	* On: LAN port is connected
+	* Flashing: LAN port is communicating
+	* Off: LAN port is disconnected
+
+* Wi-Fi LED
+	* On: 2.4G Wi-Fi is ready
+	* Flashing: 2.4G Wi-Fi is communicating
+
+* Cellular LED
+	* Mobile Tower is connected
+
+## Home Wi-Fi {#home-wi-fi}
+
+### GL-BE9300 {#gl-be9300}
+
+![gl-be9300 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/be9300_interface.jpg){class="glboxshadow"}
+
+- Solid blue: System boot up
+- Flashing blue slowly: Searching network
+- Flashing blue rapidly: Upgrading firmware
+- Solid white: Working normally
+
+### GL-BE6500 {#gl-be6500}
+
+![gl-be6500 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/be6500_interface.jpg){class="glboxshadow"}
+
+- Solid blue: System boot up
+- Flashing blue slowly: Searching network
+- Flashing blue rapidly: Upgrading firmware
+- Solid white: Working normally
+
+### GL-MT6000 {#gl-mt6000}
+
+![gl-mt6000 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/gl-mt6000_interface.jpg){class="glboxshadow"}
+
+- Solid blue: System boot up
+- Flashing blue slowly: Searching network
+- Flashing blue rapidly: Upgrading firmware
+- Solid white: Working normally
+
+### GL-AX1800 {#gl-ax1800}
+
+![gl-ax1800 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/gl-ax1800_interface.jpg){class="glboxshadow"}
+
+- Solid blue: System boot up
+- Flashing blue slowly: Searching network
+- Flashing blue rapidly: Upgrading firmware
+- Solid white: Working normally
+
+### GL-B3000 {#gl-b3000}
+
+![gl-b3000 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/b3000_interface.jpg){class="glboxshadow"}
+
+- Solid blue: System boot up
+- Flashing blue slowly: Searching network
+- Flashing blue rapidly: Upgrading firmware
+- Solid white: Working normally
+
+## Security Gateway & Mini Routers {#security-gateway-mini-routers}
+
+### GL-MT5000 {#gl-mt5000}
+
+![gl-mt5000 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/mt5000_interface.png){class="glboxshadow"}
+
+* System LED
+	* Blue: System booting
+	* Flashing blue: Searching network
+	* White: Working normally
+* VPN LED
+	* Off: VPN client is not connected
+	* Flashing: VPN client is connecting
+	* Solid: VPN client is connected
+
+Opmerking: de status van de VPN-server wordt niet via de led weergegeven.
+
+### GL-MT2500/GL-MT2500A {#gl-mt2500gl-mt2500a}
+
+![gl-mt2500 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/mt2500_interface.jpg){class="glboxshadow"}
+
+* System LED
+	* Blue: System booting
+	* Flashing blue: Searching network
+	* White: Working normally
+* VPN LED
+	* Off: VPN client is not connected
+	* Flashing: VPN client is connecting
+	* Solid: VPN client is connected
+
+Opmerking: de status van de VPN-server wordt niet via de led weergegeven.
+
+### GL-MT300N-V2 {#gl-mt300n-v2}
+
+![gl-mt300n-v2 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/mt300n-v2_interface.png){class="glboxshadow"}
+
+- Power LED
+	- On: Power on
+	- Off: Power off
+
+- Middle LED (Configurable)
+	- Aan: deze led is aangepast
+	- Uit: deze led is niet aangepast (standaardmodus)
+
+- Wireless LED
+	- On: 2.4G Wi-Fi is enabled
+	- Off: 2.4G Wi-Fi is disabled
+	- Flashing: 2.4G Wi-Fi is connected
+
+	Bij eerdere productiebatches kan de Wireless-led tijdens normaal gebruik rood in plaats van wit branden.
+
+### GL-AR300M Series {#gl-ar300m-series}
+
+![gl-ar300m interface](https://static.gl-inet.com/docs/router/en/4/faq/led/ar300m_interface.png){class="glboxshadow"}
+
+- Power LED
+	- On: Power on
+	- Off: Power off
+
+- Middle LED (Configurable)
+	- Aan: deze led is aangepast
+	- Uit: deze led is niet aangepast (standaardmodus)
+
+- Wireless LED
+	- On: 2.4G Wi-Fi is connected
+	- Off: 2.4G Wi-Fi is disconnected
+
+	Bij eerdere productiebatches kan de Wireless-led tijdens normaal gebruik rood in plaats van wit branden.

@@ -1,4 +1,4 @@
-# Scheduled Tasks
+# Scheduled Tasks {#scheduled-tasks}
 
 On the left side of the web Admin Panel, go to **SYSTEM** -> **Scheduled Tasks**.
 
@@ -6,7 +6,7 @@ Schedule Tasks allows you to set up daily schedules for basic operations such as
 
 **Note**: Please first synchronize the time in the [Time Zone](time_zone.md) before using this function. If the device is shut down at the scheduled time, the task will not be executed.
 
-## LED Display Schedule
+## LED Display Schedule {#led-display-schedule}
 
 This feature allows you to set an on/off schedule for your router's LED light. 
 
@@ -18,7 +18,7 @@ For models with a touchscreen (e.g., GL-BE3600 Slate 7), the LCD display schedul
 
 ![LCD display schedule](https://static.gl-inet.com/docs/router/en/4/interface_guide/scheduled_tasks/lcd_display_schedule.png){class="glboxshadow"}
 
-## Schedule Reboot
+## Schedule Reboot {#schedule-reboot}
 
 This feature allows you to set a schedule for automatically restarting your router. 
 
@@ -26,7 +26,7 @@ When enabled, set the reboot times, select the weekly effective dates, and then 
 
 ![Schedule Reboot](https://static.gl-inet.com/docs/router/en/4/interface_guide/scheduled_tasks/schedule_reboot.png){class="glboxshadow gl-90-desktop"}
 
-## Wi-Fi Schedule
+## Wi-Fi Schedule {#wi-fi-schedule}
 
 This feature allows you to set Wi-Fi schedules based on the Wi-Fi frequency bands supported by your router (such as 2.4 GHz, 5 GHz, 6 GHz, and MLO Wi-Fi).
 
@@ -36,7 +36,7 @@ Except for MLO Wi-Fi, which only supports the on/off schedule mode, all other Wi
 
 - **Switch TX Power**: It refers to adjusting wireless transmission power (which determines signal strength and coverage) automatically at specific times, balancing performance and energy efficiency (e.g., reducing power during low usage).
 
-### MLO Wi-Fi Schedule
+### MLO Wi-Fi Schedule {#mlo-wi-fi-schedule}
 
 | Supported Models         |         |
 | :----------------------- | :-----: |
@@ -53,7 +53,7 @@ Enable the Main or Guest Wi-Fi Schedule, set the on and off times, select the we
 
 ![MLO Wi-Fi turn on/off](https://static.gl-inet.com/docs/router/en/4/interface_guide/scheduled_tasks/mlo_turn_on_off.png){class="glboxshadow"}
 
-### 6 GHz Wi-Fi Schedule
+### 6 GHz Wi-Fi Schedule {#6-ghz-wi-fi-schedule}
 
 | Supported Models         |         |
 | :----------------------- | :-----: |
@@ -78,7 +78,7 @@ Enable the Main Wi-Fi Schedule, set two timed actions to switch TX power, select
 - **Restore**: Restore TX Power to another level (e.g., Max) at another time (e.g., 07:00).
 - **days**: Select the effective days of the week for these settings.
 
-### 5 GHz Wi-Fi Schedule
+### 5 GHz Wi-Fi Schedule {#5-ghz-wi-fi-schedule}
 
 When the Wi-Fi schedule mode is **Turn On/Off**, you can set an on/off schedule for both the 5 GHz Main Wi-Fi and Guest Wi-Fi. 
 
@@ -96,7 +96,7 @@ Enable the Main Wi-Fi Schedule, set two timed actions to switch TX power, select
 - **Restore**: Restore TX Power to another level (e.g., Max) at another time (e.g., 07:00).
 - **days**: Select the effective days of the week for these settings.
 
-### 2.4 GHz Wi-Fi Schedule
+### 2.4 GHz Wi-Fi Schedule {#24-ghz-wi-fi-schedule}
 
 When the Wi-Fi schedule mode is **Turn On/Off**, you can set an on/off schedule for both the 2.4 GHz Main Wi-Fi and Guest Wi-Fi. 
 

@@ -1,4 +1,4 @@
-# 自作OpenVPN接続でOpenVPNクライアント用に固定IPを予約する方法
+# 自作OpenVPN接続でOpenVPNクライアント用に固定IPを予約する方法 {#how-to-reserve-a-fixed-ip-for-openvpn-client-in-a-self-built-openvpn-connection}
 
 このチュートリアルでは、サーバーへ接続するOpenVPNクライアントに固定IPを予約する方法を紹介します。以下の手順を実行する前に、まずGL.iNetルーターをOpenVPNサーバーとして設定してください。
 
@@ -36,7 +36,7 @@
 
     - "255.255.255.0" はサブネットマスクです。OpenVPNサーバーのサブネットマスクに置き換えることもできます。
 
-    **Note**: 複数のOpenVPNクライアントに固定IPを設定したい場合は、Step 2 で複数のユーザー名とパスワードを作成し、その後 Step 5 を繰り返して、CCDフォルダーに user_1、user_2、user_3 のようにユーザーごとのファイルを追加し、それぞれに "ifconfig-push" コマンドと対応する固定IPおよびサブネットマスクを記述してください。
+    **注意**: 複数のOpenVPNクライアントに固定IPを設定したい場合は、手順 2 で複数のユーザー名とパスワードを作成し、その後手順 5 を繰り返して、CCDフォルダーに user_1、user_2、user_3 のようにユーザーごとのファイルを追加し、それぞれに "ifconfig-push" コマンドと対応する固定IPおよびサブネットマスクを記述してください。
 
     例: `ifconfig-push 10.8.0.20 255.255.255.0`、`ifconfig-push 10.8.0.30 255.255.255.0`、`ifconfig-push 10.8.0.40 255.255.255.0`
 
@@ -45,11 +45,11 @@
     たとえば、OpenVPNクライアントがGL.iNetルーターであれば、OpenVPNクライアントルーターのWeb管理パネルにログインし、VPN Dashboard に移動してクライアント仮想IP (IPv4) を確認できます。
 
     ![ovpn client test v4.7](https://static.gl-inet.com/docs/router/en/4/tutorials/reserve_fixed_ip_for_ovpn_client/ovpn_client_test_4.7.png){class="glboxshadow"}
-    <small>(ファームウェア v4.7 以前の VPN Dashboard)</small>
+    <small>（ファームウェア v4.7 以前の VPN Dashboard）</small>
 
     ![ovpn client test v4.8](https://static.gl-inet.com/docs/router/en/4/tutorials/reserve_fixed_ip_for_ovpn_client/ovpn_client_test_4.8.png){class="glboxshadow"}
-    <small>(ファームウェア v4.8 の VPN Dashboard)</small>
+    <small>（ファームウェア v4.8 の VPN Dashboard）</small>
 
 ---
 
-ご不明な点がありましたら、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}をご覧いただくか、[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

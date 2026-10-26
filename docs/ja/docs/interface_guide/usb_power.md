@@ -1,18 +1,18 @@
-# USB & Power
+# USB & Power {#usb-power}
 
-**Note**: このページは **GL-E5800 (Mudi 7)** でのみ利用できます。
+**注意**: このページは **GL-E5800 (Mudi 7)** でのみ利用できます。
 
 Web管理パネルの左側で、**SYSTEM** -> **USB & Power** に移動します。
 
 このページでは、USB プロトコル、給電方向、アイドルタイムアウト、スタンバイ動作など、ルーターの USB 関連設定と電源管理を構成できます。
 
-## USB設定
+## USB設定 {#usb-settings}
 
 このセクションでは、ルーターの USB ポートの動作をカスタマイズできます。
 
 ![usb settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/usb_power/e5800_usb.png){class="glboxshadow"}
 
-- **USB Protocol Switch**: USB ポートで USB 2.0 と USB 3.1 protocol を切り替えます。
+- **USB Protocol Switch**: USB ポートで USB 2.0 と USB 3.1 のプロトコルを切り替えます。
 
 - **Dual Role USB Mode**: ドロップダウンメニューから USB の動作モードを選択します。**Device** または **Host** に設定できます。
 
@@ -20,9 +20,9 @@ Web管理パネルの左側で、**SYSTEM** -> **USB & Power** に移動しま�
 
 - **Power Direction**: ドロップダウンメニューから USB ポートの電源優先順位を選択します。**Input Priority** または **Output Priority** に設定できます。
 
-- **Power Threshold**: USB ポートのしきい値を割合で設定し、USB 動作に必要な最小電力レベルを制御して、バッテリー駆動時間の維持に役立てます。
+- **Power Threshold**: USB ポートの電力しきい値（%）を設定し、USB 動作に必要な最小電力レベルを制御して、バッテリー駆動時間の維持に役立てます。
 
-## 電源設定
+## 電源設定 {#power-settings}
 
 このセクションでは、消費電力とデバイス動作を最適化できます。
 
@@ -40,4 +40,4 @@ Web管理パネルの左側で、**SYSTEM** -> **USB & Power** に移動しま�
 
 ---
 
-ご不明な点がありましたら、[Community Forum](https://forum.gl-inet.com){target="_blank"} または [Contact us](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

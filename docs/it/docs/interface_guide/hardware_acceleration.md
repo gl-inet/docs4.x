@@ -1,14 +1,14 @@
-# Accelerazione hardware
+# Accelerazione hardware {#hardware-acceleration}
 
-**Nota**: questa guida si applica al firmware v4.2 e precedenti. Per le versioni piu' recenti, fai riferimento a [Network Acceleration](network_acceleration.md).
+**Nota**: questa guida si applica al firmware v4.2 e precedenti. Per le versioni più recenti, fai riferimento a [Network Acceleration](network_acceleration.md).
 
 ---
 
 L'accelerazione hardware, a volte chiamata *hardware NAT, flow offloading o offloading*, riduce il carico della CPU spostando l'inoltro dei pacchetti dalla CPU all'hardware SoC/NIC del router. In genere questo aumenta il throughput massimo e riduce l'utilizzo della CPU, ma comporta compromessi importanti, soprattutto per le funzioni che si basano sullo stack di rete Linux, netfilter/iptables/nftables, oppure sulle discipline di coda del kernel, qdisc, usate da SQM (Smart Queue Management).
 
-Quando l'accelerazione hardware e' abilitata, le seguenti funzioni non funzioneranno correttamente: Client Speed, Traffic Statistics e Client Speed Limit.
+Quando l'accelerazione hardware è abilitata, le seguenti funzioni non funzioneranno correttamente: Client Speed, Traffic Statistics e Client Speed Limit.
 
-## Modelli supportati
+## Modelli supportati {#supported-models}
 
 ??? "Modelli supportati"
     - GL-MT6000 (Fortify)
@@ -44,7 +44,7 @@ Quando l'accelerazione hardware e' abilitata, le seguenti funzioni non funzioner
     - GL-B1300 (Convexa-B)
     - GL-X300B (Collie)
 
-## Configurazione rapida
+## Configurazione rapida {#quick-setup}
 
 Sul lato sinistro del pannello di amministrazione web, vai su **NETWORK** -> **Hardware Acceleration**.
 
@@ -54,7 +54,7 @@ Attiva l'interruttore per abilitarla, quindi fai clic su Apply.
 
 ---
 
-## Hardware NAT vs. Software NAT
+## Hardware NAT vs. Software NAT {#hardware-nat-vs-software-nat}
 
 * Se per te conta soprattutto il throughput, ad esempio con banda larga multi-gigabit, e non hai bisogno di SQM sul router o di limitazioni per client, abilita Hardware NAT / Network Acceleration. Questo garantisce il massimo throughput e il minor uso della CPU.
 

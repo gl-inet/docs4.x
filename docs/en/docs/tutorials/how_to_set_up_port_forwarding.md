@@ -1,10 +1,10 @@
-# How to set up port forwarding on your primary router
+# How to set up port forwarding on your primary router {#how-to-set-up-port-forwarding-on-your-primary-router}
 
 If you are setting up a server (such as an [OpenVPN server](how_to_set_up_openvpn_server.md) or [WireGuard server](build_your_own_wireguard_home_server_with_two_glinet_routers.md)) your GL.iNet router and it is connected to a primary router, you will have to set up port forwarding on the primary router. This ensures the server to be accessible properly.
 
 Note that if there are other routers between the primary router and the GL.iNet router, you have to set up port forwarding on all these preceding routers.
 
-## Preparation
+## Preparation {#preparation}
 
 Before configuring port forwarding, we recommend **reserving a static IP address** for the GL.iNet router on your primary router. This ensures the GL.iNet router is always assigned a fixed IP address. 
 
@@ -14,11 +14,11 @@ Next, set up port forwarding on your primary router for the GL.iNet router.
 
 The steps for configuring port forwarding vary by router brand and model. Refer to the appropriate section below.
 
-## Using a GL.iNet Router as Your Primary Router
+## Using a GL.iNet Router as Your Primary Router {#using-a-glinet-router-as-your-primary-router}
 
 Please refer to [this link](../interface_guide/port_forwarding.md){target="_blank"}.
 
-## Using Another Router Brand as Your Primary Router
+## Using Another Router Brand as Your Primary Router {#using-another-router-brand-as-your-primary-router}
 
 !!! note "Make sure to enter the following information when setting up port forwarding"
 
@@ -32,30 +32,30 @@ Here are step-by-step instructions for setting up port forwarding on common prim
 
 If your primary router brand or model is not listed below, refer to your router's documentation or contact their support team for further assistance.
 
-### AT&T
+### AT&T {#att}
 
 * [NVG589](https://www.att.com/support/article/u-verse-high-speed-internet/KM1010280/){target="_blank"}
 * [Pace 5031](https://www.att.com/support/article/u-verse-high-speed-internet/KM1010292/){target="_blank"}
 * [Pace 5268](https://www.att.com/support/article/u-verse-high-speed-internet/KM1123072/){target="_blank"}
 
-### Comcast (Xfinity)
+### Comcast (Xfinity) {#comcast-xfinity}
 
 * [Xfinity Gateway](https://www.xfinity.com/support/articles/xfi-port-forwarding){target="_blank"}
 
-### TP-Link 
+### TP-Link {#tp-link}
 
 * [Deco series](https://www.tp-link.com/us/support/faq/1797/){target="_blank"}
 * [Wireless router series](https://www.tp-link.com/us/support/faq/1379/){target="_blank"}
 
-### Eero 
+### Eero {#eero}
 
 Refer to [this link](https://support.eero.com/hc/en-us/articles/207908443-How-do-I-configure-port-forwarding){target="_blank"}.
 
-### Linksys
+### Linksys {#linksys}
 
 Refer to [this link](https://support.linksys.com/kb/article/318-en/){target="_blank"}.
 
-### Netgear 
+### Netgear {#netgear}
 
 Refer to [this link](https://kb.netgear.com/24290/How-do-I-add-a-custom-port-forwarding-service-on-my-NETGEAR-router){target="_blank"}.
 

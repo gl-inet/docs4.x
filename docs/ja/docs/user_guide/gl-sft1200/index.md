@@ -1,12 +1,12 @@
-# Opal (GL-SFT1200) ユーザーガイド
+# Opal (GL-SFT1200) ユーザーガイド {#opal-gl-sft1200-user-guide}
 
-## 製品概要
+## 製品概要 {#product-overview}
 
 Opal (GL-SFT1200) は、1200Mbps のワイヤレス転送速度に対応したポケットサイズのトラベルルーターです。持ち運びやすいコンパクト設計で、小規模ビジネス、小規模アパート、出張者のワイヤレスインターネットアクセス需要に対応できます。
 
 ![gl-sft1200 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-sft1200/first_time_setup/gl-sft1200.jpg){class="glboxshadow"}
 
-## パッケージ内容
+## パッケージ内容 {#package-contents}
 
 - 1 x Opal (GL-SFT1200)
 - 1 x ユーザーマニュアル
@@ -14,22 +14,22 @@ Opal (GL-SFT1200) は、1200Mbps のワイヤレス転送速度に対応した�
 - 1 x サンキューカード
 - 1 x 保証書
 - 1 x 電源アダプター
-- 1 x 変換プラグ (配送先の国に基づく)
+- 1 x 変換プラグ（配送先の国に基づく）
 
 ![gl-sft1200 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-sft1200/first_time_setup/sft1200_unboxing.jpg){class="glboxshadow"}
 
-## Opal のセットアップ方法
+## Opal のセットアップ方法 {#how-to-set-up-opal}
 
 このセットアップ動画を見るか、以下の手順に従ってください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZAVn92F5RV8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<small>(この動画では別の GL.iNet ルーターを使ってセットアップを説明していますが、Opal および他のルーターモデルでも手順は同じです。)</small>
+<small>（この動画では別の GL.iNet ルーターを使ってセットアップを説明していますが、Opal および他のルーターモデルでも手順は同じです。）</small>
 
-### 1. 電源を入れる
+### 1. 電源を入れる {#1-power-on}
 
 2 ピース構成の電源アダプターを組み合わせます。ルーターに接続し、コンセントに差し込みます。ルーターは自動的に起動します。
 
-### 2. デバイスを接続する
+### 2. デバイスを接続する {#2-connect-device}
 
 Wi-Fi または Ethernet を使用して、コンピューター、ノート PC、スマートフォンなどのデバイスをルーターに接続します。
 
@@ -41,15 +41,15 @@ Wi-Fi または Ethernet を使用して、コンピューター、ノート PC�
 
     デバイスで Settings -> WLAN に移動し、利用可能なネットワーク一覧からルーターの Wi-Fi ネットワーク名を見つけて、パスワードを入力します。デフォルトのネットワーク名とパスワードは、ルーター底面のラベルに印刷されています。
 
-### 3. Web 管理パネルにログインする
+### 3. Web 管理パネルにログインする {#3-log-in-to-web-admin-panel}
 
 Web ブラウザーを開き、アドレスバーに `192.168.8.1` と入力してログインします。言語を選択し、管理者パスワードを設定して、**Apply** をクリックします。
 
 Wi-Fi 情報を変更した場合は、更新後の認証情報を使用してデバイスをルーターの Wi-Fi に再接続する必要があります。
 
-### 4. インターネット設定
+### 4. インターネット設定 {#4-internet-setup}
 
-**Note:** 以下の手順は、GL.iNet Web Admin Panel でルーターを設定するユーザー向けです。GL.iNet アプリを使用したい場合は、[アプリをダウンロード](https://www.gl-inet.com/app/){target="_blank"} し、画面の指示に従ってください。
+**注：** 以下の手順は、GL.iNet Web 管理パネルでルーターを設定するユーザー向けです。GL.iNet アプリを使用したい場合は、[アプリをダウンロード](https://www.gl-inet.com/app/){target="_blank"} し、画面の指示に従ってください。
 
 Opal は、Ethernet、Repeater、Tethering、Cellular のいずれかの対応インターネット接続方式で設定できます。[Multi-WAN](../../interface_guide/multi-wan.md) 機能を使用する場合は、複数のインターネット接続を設定してください。
 
@@ -67,7 +67,7 @@ Opal は、Ethernet、Repeater、Tethering、Cellular のいずれかの対応�
 
     ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-sft1200/internet/sft1200_repeater.png){class="glboxshadow"}
 
-    1. Web Admin Panel の INTERNET ページで Repeater セクションを見つけ、**Connect** をクリックします。
+    1. Web 管理パネルの INTERNET ページで Repeater セクションを見つけ、**Connect** をクリックします。
     2. 利用可能なネットワークから Wi-Fi ネットワークを選択します。
     3. パスワードを入力し、**Apply** をクリックします。
 
@@ -81,7 +81,7 @@ Opal は、Ethernet、Repeater、Tethering、Cellular のいずれかの対応�
 
     1. スマートフォンや USB ドングルなどのモバイルデバイスを、USB ケーブルでルーターの USB ポートに接続します。
     2. モバイルデバイスで Settings に移動し、USB Tethering を有効にします。
-    3. Web Admin Panel の INTERNET ページで、Tethering セクションの **Connect** をクリックします。
+    3. Web 管理パネルの INTERNET ページで、Tethering セクションの **Connect** をクリックします。
 
     インターネットへの接続に成功すると、INTERNET ページの Tethering セクションに緑色の点が表示されます。
 
@@ -97,9 +97,9 @@ Opal は、Ethernet、Repeater、Tethering、Cellular のいずれかの対応�
 
     詳細な手順については、[Cellular 経由でインターネットに接続する](../../interface_guide/internet_cellular.md) を参照してください。
 
-## VPN の設定方法
+## VPN の設定方法 {#how-to-set-up-a-vpn}
 
-VPN (virtual private network) は、デバイスと VPN サーバー間に安全で暗号化された通信を作成します。プライバシーとセキュリティを強化し (VPN client)、リモートネットワークへアクセスできるようにします (VPN server)。Opal は OpenVPN、WireGuard、Tor* に対応しています。
+VPN（仮想プライベートネットワーク）は、デバイスと VPN サーバー間に安全で暗号化された通信を作成します。プライバシーとセキュリティを強化し（VPN クライアント）、リモートネットワークへのアクセスも可能にします（VPN サーバー）。Opal は OpenVPN、WireGuard、Tor* に対応しています。
 
 === "OpenVPN"
 
@@ -117,15 +117,15 @@ VPN (virtual private network) は、デバイスと VPN サーバー間に安全
 
 === "Tor"
 
-    Tor は The Onion Router の略で、インターネット上で匿名通信を可能にするプライバシー重視のネットワークです。インターネットトラフィックをボランティア運営の複数のサーバー (ノード) 経由でルーティングし、ユーザーの場所や利用状況を分かりにくくすることで、オンライン活動の追跡を困難にします。
+    Tor は The Onion Router の略で、インターネット上で匿名通信を可能にするプライバシー重視のネットワークです。インターネットトラフィックをボランティア運営の複数のサーバー（ノード）経由でルーティングし、ユーザーの場所や利用状況を分かりにくくすることで、オンライン活動の追跡を困難にします。
 
-    **Note:** Opal は Tor をネイティブにはサポートしていませんが、プラグインを通じて手動で Tor をインストールできます。詳細は [こちら](../../interface_guide/tor.md#manual-install) をクリックしてください。
+    **注：** Opal は Tor をネイティブにはサポートしていませんが、プラグインを通じて手動で Tor をインストールできます。詳細は [こちら](../../interface_guide/tor.md#manual-install) をクリックしてください。
 
-## Wireless and clients
+## Wireless と Clients {#wireless-and-clients}
 
 === "Wireless"
 
-    Wireless ページでは、Wi-Fi の有効化、TX power、Wi-Fi 名 (SSID)、randomized BSSID、Wi-Fi security mode と password、SSID visibility、Wi-Fi mode、bandwidth、channel など、5 GHz および 2.4 GHz Wi-Fi ネットワークの設定を構成できます。
+    Wireless ページでは、5 GHz および 2.4 GHz Wi-Fi ネットワークの設定を行えます。Wi-Fi の有効化、送信出力（TX power）の設定、Wi-Fi 名（SSID）の指定、ランダム化 BSSID の有効化、Wi-Fi セキュリティモードとパスワードの設定、SSID の表示設定、Wi-Fi モード、帯域幅、チャンネルの選択が含まれます。
 
     Wireless を設定するには、[Wireless](../../interface_guide/wireless.md) を参照してください。
 
@@ -135,7 +135,7 @@ VPN (virtual private network) は、デバイスと VPN サーバー間に安全
 
     Clients を設定するには、[Clients](../../interface_guide/clients.md) を参照してください。
 
-## Cloud services
+## クラウドサービス {#cloud-services}
 
 === "GoodCloud"
 
@@ -149,9 +149,9 @@ VPN (virtual private network) は、デバイスと VPN サーバー間に安全
 
     AstroWarp を設定するには、[AstroWarp](../../interface_guide/astrowarp.md) を参照してください。
 
-    **Note:** この機能を使用する前に、ルーターのファームウェアをバージョン 4.8 以上にアップグレードしてください。
+    **注：** この機能を使用する前に、ルーターのファームウェアをバージョン 4.8 以上にアップグレードしてください。
 
-## Applications
+## アプリケーション {#applications}
 
 === "Plug-ins"
 
@@ -167,23 +167,23 @@ VPN (virtual private network) は、デバイスと VPN サーバー間に安全
 
 === "Network Storage"
 
-    Network storage は、複数のユーザーやデバイスがネットワーク経由でファイルにアクセスし共有できる集中型データストレージソリューションです。
+    ネットワークストレージは、複数のユーザーやデバイスがネットワーク経由でファイルにアクセスし共有できる集中型データストレージソリューションです。
 
-    Network storage を設定するには、[Network Storage](../../interface_guide/network_storage.md) を参照してください。
+    ネットワークストレージを設定するには、[Network Storage](../../interface_guide/network_storage.md) を参照してください。
 
-    **Note:** この機能を使用する前に、ルーターのファームウェアをバージョン 4.8 以上にアップグレードしてください。
+    **注：** この機能を使用する前に、ルーターのファームウェアをバージョン 4.8 以上にアップグレードしてください。
 
-## Network settings
+## ネットワーク設定 {#network-settings}
 
 === "Port Forwarding"
 
-    Port forwarding により、インターネット上のリモートサーバーやデバイスがプライベートネットワーク内のデバイスにアクセスできます。
+    ポートフォワーディングにより、インターネット上のリモートサーバーやデバイスがプライベートネットワーク内のデバイスにアクセスできます。
 
-    Port forwarding を設定するには、[Port Forwarding](../../interface_guide/port_forwarding.md) を参照してください。
+    ポートフォワーディングを設定するには、[Port Forwarding](../../interface_guide/port_forwarding.md) を参照してください。
 
 === "Multi-WAN"
 
-    Multi-WAN は、Cellular、Repeater、Ethernet など複数のインターネット接続を同時にルーターへ設定できるネットワーク機能です。現在のインターネット接続が失敗した場合、ルーターは自動的に別のインターネット接続へ切り替えます。これにより、安定した途切れにくいインターネットアクセスを確保できます。
+    Multi-WAN は、Cellular、Repeater、Ethernet など複数のインターネット接続を同時にルーターへ設定できるネットワーク機能です。現在のインターネット接続に障害が発生した場合、ルーターは自動的に別のインターネット接続へ切り替えます。これにより、安定した途切れにくいインターネットアクセスを確保できます。
 
     Multi-WAN を設定するには、[Multi-WAN](../../interface_guide/multi-wan.md) を参照してください。
 
@@ -197,13 +197,13 @@ VPN (virtual private network) は、デバイスと VPN サーバー間に安全
 
 === "Guest Network"
 
-    IPv4 プライベートアドレス範囲 192.168.0.0/16、172.16.0.0/12、10.0.0.0/8 内でサブネットを設定し、gateway と netmask IP アドレスを指定し、ゲストネットワークの AP isolation などのセキュリティ設定を構成できます。
+    IPv4 プライベートアドレス範囲 192.168.0.0/16、172.16.0.0/12、10.0.0.0/8 内でサブネットを設定し、ゲートウェイとネットマスクの IP アドレスを指定し、ゲストネットワークの AP isolation などのセキュリティ設定を構成できます。
 
-    Guest network を設定するには、[Guest Network](../../interface_guide/guest_network.md) を参照してください。
+    ゲストネットワークを設定するには、[Guest Network](../../interface_guide/guest_network.md) を参照してください。
 
 === "DNS"
 
-    DNS ページでは、カスタム DNS サーバーの設定、DNS rebinding attack protection の有効化、すべてのクライアントの DNS 設定上書き、VPN DNS をカスタム DNS で上書きする設定、Ethernet 接続から DNS サーバー設定モードを自動または手動指定にする設定を構成できます。
+    DNS ページでは、カスタム DNS サーバーの設定、DNS rebinding attack protection の有効化、すべてのクライアントの DNS 設定上書き、カスタム DNS による VPN DNS の上書き許可、DNS サーバー設定モードを自動にするか Ethernet 接続の DNS サーバーを手動で指定するかの設定を行えます。
 
     DNS を設定するには、[DNS](../../interface_guide/dns.md) を参照してください。
 
@@ -211,7 +211,7 @@ VPN (virtual private network) は、デバイスと VPN サーバー間に安全
 
     Port Management ページは、ファームウェア v4.7 以降で利用できます。
 
-    このページでは、WAN および LAN ポートの構成、WAN/LAN インターフェースの Ethernet への設定、WAN インターフェースの MAC mode と MAC address の指定、ネットワークポートのネゴシエート速度の確認を行えます。
+    このページでは、WAN および LAN ポートの構成、WAN/LAN インターフェースの Ethernet への設定、WAN インターフェースの MAC モードと MAC アドレスの指定、ネットワークポートのネゴシエート速度の確認を行えます。
 
     Ethernet ポートを管理するには、[Port Management](../../interface_guide/ethernet_port.md) を参照してください。
 
@@ -219,43 +219,43 @@ VPN (virtual private network) は、デバイスと VPN サーバー間に安全
 
 === "Network Mode"
 
-    Network mode は、デバイスがネットワークに接続し、他のデバイスと通信する方法を決定する構成設定です。
+    ネットワークモードは、デバイスがネットワークに接続し、他のデバイスと通信する方法を決定する構成設定です。
 
-    Network mode を設定するには、[Network Mode](../../interface_guide/network_mode.md) を参照してください。
+    ネットワークモードを設定するには、[Network Mode](../../interface_guide/network_mode.md) を参照してください。
 
 === "IPv6"
 
-    IPv6 (Internet Protocol version 6) は、IPv4 を置き換えるために設計された最新の Internet Protocol です。非常に大きなアドレス空間を提供し、インターネットに接続されるデバイス数の増加に対応するために不可欠な、実質的に無制限の一意な IP アドレスを利用できます。
+    IPv6 (Internet Protocol version 6) は、IPv4 を置き換えるために設計された最新のインターネットプロトコルです。非常に大きなアドレス空間を提供し、インターネットに接続されるデバイス数の増加に対応するために不可欠な、実質的に無制限の一意な IP アドレスを利用できます。
 
     IPV6 を設定するには、[IPV6](../../interface_guide/ipv6.md) を参照してください。
 
 === "Drop-in Gateway"
 
-    Drop-in Gateway は、AdGuard Home、暗号化 DNS、VPN client など、メインルーターの機能を拡張します。
+    Drop-in Gateway は、AdGuard Home、暗号化 DNS、VPN クライアントなど、メインルーターの機能を拡張します。
 
-    Drop-in gateway を設定するには、[How to set up drop-in gateway](../../tutorials/how_to_set_up_drop_in_gateway.md) を参照してください。
+    Drop-in Gateway を設定するには、[How to set up drop-in gateway](../../tutorials/how_to_set_up_drop_in_gateway.md) を参照してください。
 
 ---
 
 === "IGMP Snooping"
 
-    IGMP snooping は、Ethernet スイッチでマルチキャストトラフィックを管理および制御するために使用されるネットワーク最適化技術です。
+    IGMP スヌーピングは、Ethernet スイッチでマルチキャストトラフィックを管理および制御するために使用されるネットワーク最適化技術です。
 
-    IGMP snooping を設定するには、[IGMP Snooping](../../interface_guide/igmp_snooping.md) を参照してください。
+    IGMP スヌーピングを設定するには、[IGMP Snooping](../../interface_guide/igmp_snooping.md) を参照してください。
 
 === "Network Acceleration"
 
-    Network acceleration は CPU 負荷を軽減し、トラフィックパケット転送を高速化できます。
+    ネットワークアクセラレーションは CPU 負荷を軽減し、トラフィックパケット転送を高速化できます。
 
-    Network acceleration を設定するには、[Network Acceleration](../../interface_guide/network_acceleration.md) を参照してください。
+    ネットワークアクセラレーションを設定するには、[Network Acceleration](../../interface_guide/network_acceleration.md) を参照してください。
 
 === "NAT Settings"
 
     NAT Settings ページでは、Full Cone NAT と SIP ALG (Application Layer Gateway) 機能を有効または無効にできます。
 
-    NAT settings を設定するには、[NAT Settings](../../interface_guide/nat_settings.md) を参照してください。
+    NAT 設定を行うには、[NAT Settings](../../interface_guide/nat_settings.md) を参照してください。
 
-## System settings
+## システム設定 {#system-settings}
 
 === "Overview"
 
@@ -265,7 +265,7 @@ VPN (virtual private network) は、デバイスと VPN サーバー間に安全
     * Memory Usage: ルーターのメモリ使用量を確認し、リソース管理に役立ちます。
     * LED Control: ルーターの LED ライトのオン/オフを切り替え、デバイスの表示をカスタマイズできます。
     * Flash Usage: ルーターのフラッシュストレージ使用状況を確認し、ファームウェアや設定データ用の十分な容量があるか確認できます。
-    * Device Info: 稼働時間、hostname、model、architecture、OpenWrt version、kernel version、device ID、device MAC、device S/N など、ルーターシステムの詳細情報にアクセスできます。
+    * Device Info: 稼働時間、ホスト名、モデル、アーキテクチャ、OpenWrt バージョン、カーネルバージョン、デバイス ID、デバイス MAC、デバイス S/N など、ルーターシステムの詳細情報にアクセスできます。
     * External Storage: USB ドライブや TF カードなど、ルーターに接続された外部ストレージデバイスの状態を確認できます。
 
     これらの機能は、ルーターの動作を効果的に管理および監視するための重要な情報と制御を提供します。
@@ -299,13 +299,13 @@ VPN (virtual private network) は、デバイスと VPN サーバー間に安全
 
 === "Time Zone"
 
-    Time Zone ページでは、ルーターの正しいタイムゾーンを設定し、すべての scheduled tasks、logs、system events がローカル時刻に基づいて正確にタイムスタンプされるようにします。この設定は、正確な記録の維持と時間ベースの設定を正しく実行するために重要です。
+    Time Zone ページでは、ルーターの正しいタイムゾーンを設定し、すべてのスケジュールタスク、ログ、システムイベントに現地時間に基づく正確なタイムスタンプが付けられるようにします。この設定は、正確な記録の維持と時間ベースの設定を正しく実行するために重要です。
 
     詳細な手順については、[Time Zone](../../interface_guide/time_zone.md) を参照してください。
 
 === "Toggle Button Settings"
 
-    Toggle Button Settings ページでは、ルーターの物理トグルボタンを設定し、特定の機能をボタンに割り当てて素早くアクセスおよび制御できます。この機能は一般的な操作や設定への便利なショートカットを提供し、ユーザー体験とルーター管理を簡素化します。
+    Toggle Button Settings ページでは、ルーターの物理トグルボタンを設定し、特定の機能をボタンに割り当てて素早くアクセスおよび制御できます。この機能は一般的な操作や設定への便利なショートカットを提供し、ユーザー体験を向上させ、ルーター管理を簡素化します。
 
     詳細な手順については、[Toggle Button Settings](../../interface_guide/toggle_button_settings.md) を参照してください。
 

@@ -1,10 +1,10 @@
-# Einstellungen für den Toggle-Button
+# Einstellungen für den Toggle-Button {#toggle-button-settings}
 
 Mit den Einstellungen für den Toggle-Button können Sie der physischen Umschalttaste Ihres Routers bestimmte Funktionen für schnellen Zugriff und direkte Steuerung zuweisen. Bei einigen Modellen wird sie auch als Mode Switch bezeichnet. So erhalten Sie praktische Kurzbefehle für häufig genutzte Aufgaben.
 
 Sie können das Verhalten dieses Schalters im Web-Admin-Panel anpassen.
 
-## Unterstützte Modelle
+## Unterstützte Modelle {#supported-models}
 
 ??? "Unterstützte Modelle"
     - GL-BE10000 (Slate 7 Pro)
@@ -43,7 +43,7 @@ Sie können das Verhalten dieses Schalters im Web-Admin-Panel anpassen.
     - GL-AP1300 (Cirrus)
     - GL-X300B (Collie)
 
-## Einrichtung
+## Einrichtung {#setup}
 
 Gehen Sie auf der linken Seite des Web-Admin-Panels zu **SYSTEM** -> **Toggle Button Settings**.
 

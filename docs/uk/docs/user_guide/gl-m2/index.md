@@ -4,7 +4,7 @@
 
 GL-M2 — плата розробки 5G для ентузіастів, які хочуть створювати власні маршрутизатори й модеми. Модуль 5G та антени 5G на GL-M2 забезпечують якісне стільникове підключення 5G.
 
-![Інтерфейси gl-2](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-m2/hardware_info/gl-m2_interface.jpg){class="glboxshadow"}
+![Інтерфейси gl-m2](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-m2/hardware_info/gl-m2_interface.jpg){class="glboxshadow"}
 
 [Технічні характеристики GL-M2](https://www.gl-inet.com/products/gl-m2/#specs){target="_blank"}
 
@@ -41,7 +41,7 @@ GL-M2 — плата розробки 5G для ентузіастів, які �
 
 3. Увімкніть живлення.
 
-    Підключіть джерело живлення DC та за допомогою кабелю передавання даних Type-C — USB 3.0 [підключіть плату до маршрутизатора](#connect-gl-m2-to-glinet-routers) або іншого пристрою.
+    Підключіть джерело живлення DC та за допомогою кабелю передавання даних Type-C — USB 3.0 [підключіть плату до маршрутизатора](#connect-m2-to-glinet-routers) або іншого пристрою.
 
     ![Налаштування gl-m2](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-m2/first_time_setup/m2_setup_3.jpg){class="glboxshadow"}
 
@@ -50,8 +50,6 @@ GL-M2 — плата розробки 5G для ентузіастів, які �
   - Під час використання потрібно підключати джерело живлення DC для забезпечення стабільного живлення.
 
   - Червоний індикатор живлення означає, що живлення працює.
-
-<span id="connect-gl-m2-to-glinet-routers"></span>
 
 ## Підключення M2 до маршрутизаторів GL.iNet {#connect-m2-to-glinet-routers}
 

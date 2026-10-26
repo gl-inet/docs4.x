@@ -1,10 +1,10 @@
-# Wie leite ich den gesamten Datenverkehr über ein VPN?
+# Wie leite ich den gesamten Datenverkehr über ein VPN? {#how-to-let-all-data-go-through-vpn}
 
 Wenn Sie möchten, dass der gesamte Netzwerkverkehr auf dem Router über das VPN geleitet wird und alle Internetverbindungen blockiert werden, wenn das VPN ausfällt, führen Sie bitte die folgenden Schritte aus, um den **VPN Kill Switch** zu aktivieren.
 
 **Hinweis**: Richten Sie zuerst den VPN-Client auf Ihrem GL.iNet-Router ein, bevor Sie den VPN Kill Switch aktivieren.
 
-## Für Firmware v4.7 oder früher
+## Für Firmware v4.7 oder früher {#for-firmware-v47-or-earlier}
 
 Melden Sie sich im Web-Admin-Panel Ihres Routers an, navigieren Sie zu **VPN** -> **VPN Dashboard** -> **VPN Client** und klicken Sie auf **Global Options**.
 
@@ -16,7 +16,7 @@ Aktivieren Sie **Block Non-VPN Traffic** (in einigen Firmware-Versionen auch Kil
 
 **Hinweis:** Wenn **Block Non-VPN Traffic** / Kill Switch aktiviert ist und Ihr VPN deaktiviert oder getrennt wird, wird allen mit dem Router verbundenen Geräten der Internetzugriff verweigert, um DNS-Lecks zu verhindern.
 
-## Für Firmware v4.8 oder neuer
+## Für Firmware v4.8 oder neuer {#for-firmware-v48-or-later}
 
 In Firmware v4.8 wurde der VPN Kill Switch in zwei Modi aufgeteilt.
 
@@ -24,7 +24,7 @@ In Firmware v4.8 wurde der VPN Kill Switch in zwei Modi aufgeteilt.
 
 - **Erweiterter Kill Switch (im Richtlinienmodus)**: Er ist standardmäßig deaktiviert, damit der gesamte Datenverkehr, der nicht von den oben stehenden VPN-Tunneln und Richtlinien abgedeckt wird, weiterhin auf das Internet zugreifen kann. Kurz gesagt: Er erhält den normalen Internetzugang für Nicht-VPN-Datenverkehr aufrecht.
 
-### Tunnel Kill Switch
+### Tunnel Kill Switch {#tunnel-kill-switch}
 
 Navigieren Sie im Web-Admin-Panel des Routers zu **VPN** -> **VPN Dashboard**.
 
@@ -44,7 +44,7 @@ Der Kill Switch für diesen Tunnel ist standardmäßig aktiviert.
 
 ![tunnel options 2](https://static.gl-inet.com/docs/router/de/4/faq/block_non_vpn_traffic/4.8-global-mode-options2.png){class="glboxshadow"}
 
-### Erweiterter Kill Switch
+### Erweiterter Kill Switch {#enhanced-kill-switch}
 
 Diese Funktion ist im Richtlinienmodus verfügbar.
 

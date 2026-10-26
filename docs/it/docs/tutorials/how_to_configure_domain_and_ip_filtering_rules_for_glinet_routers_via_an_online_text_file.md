@@ -1,4 +1,4 @@
-# Come configurare regole di filtraggio per domini e IP sui router GL.iNet tramite un file di testo online
+# Come configurare regole di filtraggio per domini e IP sui router GL.iNet tramite un file di testo online {#how-to-configure-domain-and-ip-filtering-rules-for-glinet-routers-via-an-online-text-file}
 
 A partire dal firmware v4.7, le seguenti funzioni supportano l'importazione di regole da un URL che punta a un file di testo online:
 
@@ -7,7 +7,7 @@ A partire dal firmware v4.7, le seguenti funzioni supportano l'importazione di r
 
 Questo tutorial spiega come usare un file di testo online per importare regole di filtraggio per domini e IP sui router GL.iNet.
 
-## Formati URL e file supportati
+## Formati URL e file supportati {#supported-url-file-formats}
 
 Sono supportati i seguenti formati URL:
 
@@ -18,7 +18,7 @@ Sono supportati i file `.txt`, `.conf`, `.log` e altri formati di testo semplice
 
 **Nota**: i file binari non sono supportati, ad esempio `.exe`, `.zip`, `.jpg`, `.png` e simili.
 
-## Usare GitHub per ospitare il file di testo
+## Usare GitHub per ospitare il file di testo {#use-github-to-host-text-file}
 
 Se ospiti il file di testo in un repository GitHub pubblico, assicurati di usare l'URL del contenuto raw invece del normale URL GitHub.
 
@@ -32,7 +32,7 @@ Per assicurarti che il router scarichi il contenuto corretto, usa l'URL raw cont
 
 In questo modo il router potrà recuperare il contenuto in testo semplice del file.
 
-## Formati di filtro per VPN Policy (dominio/IP)
+## Formati di filtro per VPN Policy (dominio/IP) {#filter-formats-for-vpn-policy-domainip}
 
 La funzione "VPN Policy Based on Target Domain or IP Address" supporta i seguenti formati di filtro nel file di testo online:
 
@@ -41,7 +41,7 @@ La funzione "VPN Policy Based on Target Domain or IP Address" supporta i seguent
 * **Intervallo CIDR**: usa la notazione CIDR per specificare intervalli di indirizzi IP, ad esempio `192.168.10.0/24`.
 * **Indirizzo IPv4**: specifica singoli indirizzi IPv4, ad esempio `192.168.10.10`.
 
-## Formati di filtro per Parental Control (Ruleset)
+## Formati di filtro per Parental Control (Ruleset) {#filter-formats-for-parental-control-ruleset}
 
 La funzione "Add a New Ruleset" in Parental Control supporta i seguenti formati di filtro nel file di testo online:
 

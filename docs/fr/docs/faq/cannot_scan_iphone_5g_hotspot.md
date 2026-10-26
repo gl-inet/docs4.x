@@ -1,4 +1,4 @@
-# Impossible de détecter le point d'accès 5G de l'iPhone
+# Impossible de détecter le point d'accès 5G de l'iPhone {#cannot-scan-iphone-5g-hotspot}
 
 Veuillez vérifier les réglages du point d'accès de votre iPhone et désactiver **Maximise Compatibility**.
 

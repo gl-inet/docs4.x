@@ -34,9 +34,7 @@ Drop-in Gateway працює як проміжна мережева систем
 
 У наведеному нижче прикладі адреса шлюзу основного маршрутизатора — `192.168.1.1`.
 
-<span id="all-devices-managed-by-the-drop-in-gateway"></span>
-
-### Усі пристрої використовують Drop-in Gateway {all-devices-managed-by-the-drop-in-gateway #all-devices-are-networked-through-drop-in-gateway}
+### Усі пристрої використовують Drop-in Gateway {#all-devices-managed-by-the-drop-in-gateway}
 
 1. З’єднайте порт LAN основного маршрутизатора з портом WAN маршрутизатора GL.iNet кабелем Ethernet.
 
@@ -102,9 +100,7 @@ Drop-in Gateway працює як проміжна мережева систем
 
 4. Поверніться до маршрутизатора GL.iNet і налаштуйте потрібні функції, наприклад [AdGuard Home](adguardhome.md), [зашифрований DNS](dns.md), [клієнт WireGuard](wireguard_client.md) та [клієнт OpenVPN](openvpn_client.md).
 
-<span id="some-devices-managed-by-the-drop-in-gateway"></span>
-
-### Лише певні пристрої використовують Drop-in Gateway {some-devices-managed-by-the-drop-in-gateway #specific-devices-are-networked-through-drop-in-gateway}
+### Лише певні пристрої використовують Drop-in Gateway {#some-devices-managed-by-the-drop-in-gateway}
 
 1. З’єднайте порт LAN основного маршрутизатора з портом WAN маршрутизатора GL.iNet кабелем Ethernet.
 

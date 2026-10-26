@@ -1,4 +1,4 @@
-# Połączenie z Internetem przez istniejącą sieć Wi-Fi w trybie Repeater
+# Połączenie z Internetem przez istniejącą sieć Wi-Fi w trybie Repeater {#connect-to-the-internet-via-an-existing-wi-fi-by-repeater}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7mZtz8u8--E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -6,7 +6,7 @@ Korzystanie z Repeater oznacza połączenie routera z inną istniejącą siecią
 
 Domyślnie działa to w trybie WISP (Wireless Internet Service Provider), co oznacza, że router utworzy własną podsieć i będzie działał jako zapora, aby chronić Cię przed siecią publiczną.
 
-## Podstawowe kroki
+## Podstawowe kroki {#basic-steps}
 
 Zaloguj się do panelu administracyjnego routera, przejdź do sekcji **INTERNET** -> **Repeater** i kliknij **Connect**.
 
@@ -96,7 +96,7 @@ Podczas dołączania do sieci dostępne są dodatkowe opcje.
 
 * **MTU**: Wartość domyślna to 1500.
 
-## Opcje Repeater
+## Opcje Repeater {#repeater-options}
 
 Kliknij ikonę koła zębatego w prawym górnym rogu, aby skonfigurować opcje repeatera.
 
@@ -110,7 +110,7 @@ Wygląd strony może się różnić w zależności od wersji firmware.
 
 * **Band Selection**: Jeśli ręcznie wybierzesz pasmo, router będzie skanował i łączył się tylko z sieciami Wi‑Fi w tym paśmie częstotliwości.
 
-## Zarządzanie zapisanymi sieciami
+## Zarządzanie zapisanymi sieciami {#manage-known-network}
 
 Aby zarządzać zapisanymi sieciami, kliknij **Switch Network**.
 
@@ -144,7 +144,7 @@ Dla ustawienia **Security** dostępne są dwie lub trzy opcje, w zależności od
 
     Szczegółowe wskazówki dotyczące korzystania z repeatera w sieciach EAP znajdziesz [tutaj](../tutorials/eap.md){target="_blank"}.
 
-## Ponowne łączenie
+## Ponowne łączenie {#reconnection}
 
 W poniższych przypadkach router będzie co jakiś czas automatycznie próbował ponownie połączyć się z Wi‑Fi. W razie potrzeby możesz to wyłączyć ręcznie. Jeśli występują błędy SSID lub hasła, usuń sieć z listy Known Networks, aby rozwiązać problem.
 
@@ -164,7 +164,7 @@ Proces ponownego łączenia składa się z trzech odrębnych faz: oczekiwania, s
 
 **Uwaga**: Problemy zwykle pojawiają się w fazie skanowania i łączenia.
 
-## Rozwiązywanie problemów
+## Rozwiązywanie problemów {#troubleshooting}
 
 Gdy router jest połączony z siecią Wi‑Fi jako repeater, ale Internet nie jest dostępny, pojawi się żółty komunikat pokazany poniżej.
 
@@ -178,7 +178,7 @@ Aby rozwiązać ten problem:
 
 2. Przejdź na stronę [Multi-WAN](multi-wan.md), aby sprawdzić stan interfejsu repeatera.
 
-## DFS
+## DFS {#dfs}
 
 **DFS** (Dynamic Frequency Selection) to mechanizm, który automatycznie przełącza kanały Wi‑Fi, aby unikać zakłóceń z sygnałami radarowymi. Podczas łączenia z nadrzędną siecią Wi-Fi 5G sieć Wi-Fi routera będzie podążać za siecią nadrzędną w zakresie używania kanału DFS.
 

@@ -1,4 +1,4 @@
-# Stuck on "Rebooting" during firmware reboot
+# Stuck on "Rebooting" during firmware reboot {#stuck-on-rebooting-during-firmware-reboot}
 
 If your router is stuck on "Rebooting" during a firmware reboot, follow the steps below to resolve the issue.
 

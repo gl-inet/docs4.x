@@ -1,12 +1,12 @@
-# Flint 2 (GL-MT6000) Guía del usuario
+# Flint 2 (GL-MT6000) Guía del usuario {#flint-2-gl-mt6000-user-guide}
 
-## Descripción general del producto
+## Descripción general del producto {#product-overview}
 
 Flint 2 (GL-MT6000) es un router Wi-Fi 6 para hogar y oficina especialmente adecuado para transmisión intensiva de datos, conexión masiva de dispositivos o entornos de juego con latencia ultrabaja. Flint 2 ofrece velocidades WireGuard VPN de hasta 900 Mbps. Además, también admite redundancia de red avanzada, incluidas Multi-WAN, Failover y balanceo de carga, para garantizar una red ininterrumpida.
 
 ![gl-mt6000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000/hardware_info/gl-mt6000_interface.jpg){class="glboxshadow"}
 
-## Contenido del paquete
+## Contenido del paquete {#package-contents}
 
 - 1 x Flint 2 (GL-MT6000)
 - 1 x Manual del usuario
@@ -21,18 +21,18 @@ Vea a continuación el video de unboxing de Flint 2.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ru1O-zxKgKg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Cómo configurar Flint 2
+## Cómo configurar Flint 2 {#how-to-set-up-flint-2}
 
 Vea este video de configuración o siga los pasos a continuación.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZAVn92F5RV8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <small>(Este video utiliza un router GL.iNet diferente para mostrar la configuración, pero los pasos son los mismos para Flint 2 y otros modelos de router.)</small>
 
-### 1. Encendido
+### 1. Encendido {#1-power-on}
 
 Monte las dos piezas del adaptador de corriente. Conéctelo al router y enchúfelo a una toma de corriente. Se iniciará automáticamente.
 
-### 2. Conecte un dispositivo
+### 2. Conecte un dispositivo {#2-connect-device}
 
 Conecte un dispositivo (por ejemplo, un ordenador, un portátil o un smartphone) al router mediante Wi-Fi o Ethernet.
 
@@ -44,13 +44,13 @@ Conecte un dispositivo (por ejemplo, un ordenador, un portátil o un smartphone)
 
     En su dispositivo, vaya a Settings -> WLAN, localice el nombre de la red Wi-Fi del router en la lista de redes disponibles e introduzca la contraseña para unirse a la red. Puede encontrar el nombre de red y la contraseña predeterminados impresos en la etiqueta del router.
 
-### 3. Inicie sesión en el panel de administración web
+### 3. Inicie sesión en el panel de administración web {#3-log-in-to-web-admin-panel}
 
 Abra un navegador web, introduzca `192.168.8.1` en la barra de direcciones e inicie sesión. Elija su idioma y establezca la contraseña de administrador; después, haga clic en **Apply**.
 
 Al confirmar los datos de Wi‑Fi, tenga en cuenta que si cambia la información de Wi‑Fi, deberá volver a conectar su dispositivo al Wi‑Fi del router con las credenciales actualizadas.
 
-### 4. Configuración de Internet
+### 4. Configuración de Internet {#4-internet-setup}
 
 **Nota:** Las siguientes instrucciones se aplican a los usuarios que configuran el router mediante el panel de administración web de GL.iNet. Si prefiere usar la aplicación GL.iNet, [descargue la app](https://www.gl-inet.com/app/){target="_blank"} y siga las instrucciones en pantalla.
 
@@ -102,7 +102,7 @@ Configure su Flint 2 usando uno de los métodos de conexión a Internet admitido
 
 ---
 
-## Cómo configurar una VPN
+## Cómo configurar una VPN {#how-to-set-up-a-vpn}
 
 Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositivo y el servidor VPN. Proporciona una capa adicional de privacidad y seguridad (cliente VPN) y le permite acceder a una red remota (servidor VPN). Flint 2 (y otros routers GL.iNet) es compatible con OpenVPN y WireGuard. Además, también admite Tor.
 
@@ -126,7 +126,7 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 
     * [Cómo configurar Tor](../../interface_guide/tor.md).
 
-## Wireless y Clients
+## Wireless y Clients {#wireless-and-clients}
 
 === "Wireless"
 
@@ -140,7 +140,7 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 
     Para configurar Clients, consulte [Clients](../../interface_guide/clients.md).
 
-## Servicios en la nube
+## Servicios en la nube {#cloud-services}
 
 === "GoodCloud"
 
@@ -154,7 +154,7 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 
     Para configurar AstroWarp, consulte [AstroWarp](../../interface_guide/astrowarp.md).
 
-## Aplicaciones
+## Aplicaciones {#applications}
 
 === "Plug-ins"
 
@@ -204,7 +204,7 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 
 ---
 
-## Configuración de red
+## Configuración de red {#network-settings}
 
 === "Port forwarding"
 
@@ -284,7 +284,7 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 
 ---
 
-## Configuración del sistema
+## Configuración del sistema {#system-settings}
 
 === "Overview"
 
@@ -373,6 +373,6 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 
     Consulte [Advanced Settings](../../interface_guide/advanced_settings.md) para ver instrucciones detalladas.
 
-## Declaración de Conformidad
+## Declaración de Conformidad {#declaration-of-conformity}
 
 Por la presente, GL TECHNOLOGIES (HONG KONG) LIMITED declara que el tipo de equipo radioeléctrico [AX6000 Wireless Router, GL-MT6000] es conforme con los requisitos esenciales y demás disposiciones pertinentes de la Directiva 2014/53/UE. El texto completo de la declaración UE de conformidad está disponible en la dirección Internet siguiente: [https://www.gl-inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}.

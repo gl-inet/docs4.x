@@ -18,8 +18,6 @@
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3Kx_StIFLqo" title="Відеопосібник: Скидання маршрутизатора GL.iNet до заводських налаштувань | Mudi 7 (GL-E5800)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<span id="how-to-reset-your-glinet-router-to-factory-settings--beryl-ax-gl-mt3000"></span>
-
 ## Скидання маршрутизатора GL.iNet до заводських налаштувань | Beryl AX (GL-MT3000) {#how-to-reset-your-glinet-router-to-factory-settings-beryl-ax-gl-mt3000}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jguDqBWP-Fw" title="Відеопосібник: Скидання маршрутизатора GL.iNet до заводських налаштувань | Beryl AX (GL-MT3000)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -27,8 +25,6 @@
 ## Налаштування VPN-сервера (Brume 3) і VPN-клієнта (Beryl 7) за кілька хвилин {#how-to-set-up-vpn-server-brume-3-vpn-client-beryl-7-in-minutes}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7mJXA5MfMb8" title="Відеопосібник: Налаштування VPN-сервера (Brume 3) і VPN-клієнта (Beryl 7) за кілька хвилин" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<span id="how-to-set-up-vpn-server-flint-3--vpn-client-slate-7-in-minutes"></span>
 
 ## Налаштування VPN-сервера (Flint 3) і VPN-клієнта (Slate 7) за кілька хвилин {#how-to-set-up-vpn-server-flint-3-vpn-client-slate-7-in-minutes}
 

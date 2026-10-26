@@ -1,10 +1,10 @@
-# Pomoc
+# Pomoc {#help}
 
 W panelu administracyjnym WWW kliknij ikonę znaku zapytania po prawej stronie paska tytułu.
 
 ![help](https://static.gl-inet.com/docs/router/en/4/interface_guide/help/help.png){class="glboxshadow"}
 
-Znajdziesz tam [dokumentację wsparcia routerów](https://docs.gl-inet.com/router/en/4){target="_blank"}.
+Znajdziesz tam [dokumentację wsparcia routerów](../index.md).
 
 Od firmware v4.8 możesz skontaktować się z pomocą techniczną jednym kliknięciem, co ułatwia uzyskanie wsparcia.
 

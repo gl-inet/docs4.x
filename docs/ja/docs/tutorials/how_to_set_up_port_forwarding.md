@@ -1,10 +1,10 @@
-# メインルーターでポートフォワーディングを設定する方法
+# メインルーターでポートフォワーディングを設定する方法 {#how-to-set-up-port-forwarding-on-your-primary-router}
 
 GL.iNetルーターでサーバー（たとえば [OpenVPNサーバー](how_to_set_up_openvpn_server.md) や [WireGuardサーバー](build_your_own_wireguard_home_server_with_two_glinet_routers.md)）を設定しており、そのルーターがメインルーターに接続されている場合は、メインルーターでポートフォワーディングを設定する必要があります。これにより、サーバーに正しくアクセスできるようになります。
 
 メインルーターとGL.iNetルーターの間に他のルーターがある場合は、それらすべての上流ルーターでもポートフォワーディングを設定する必要があります。
 
-## 準備
+## 準備 {#preparation}
 
 ポートフォワーディングを設定する前に、メインルーターでGL.iNetルーターの**固定IPアドレス予約**を行うことを推奨します。これにより、GL.iNetルーターには常に固定のIPアドレスが割り当てられます。
 
@@ -14,11 +14,11 @@ GL.iNetルーターでサーバー（たとえば [OpenVPNサーバー](how_to_s
 
 ポートフォワーディングの設定手順は、ルーターのブランドやモデルによって異なります。以下の該当セクションを参照してください。
 
-## GL.iNetルーターをメインルーターとして使用する場合
+## GL.iNetルーターをメインルーターとして使用する場合 {#using-a-glinet-router-as-your-primary-router}
 
 [こちらのリンク](../interface_guide/port_forwarding.md){target="_blank"}を参照してください。
 
-## 他社製ルーターをメインルーターとして使用する場合
+## 他社製ルーターをメインルーターとして使用する場合 {#using-another-router-brand-as-your-primary-router}
 
 !!! note "ポートフォワーディング設定時に以下の情報を入力してください"
 
@@ -32,33 +32,33 @@ GL.iNetルーターでサーバー（たとえば [OpenVPNサーバー](how_to_s
 
 メインルーターのブランドまたはモデルが以下にない場合は、ルーターのマニュアルを参照するか、サポートチームへお問い合わせください。
 
-### AT&T
+### AT&T {#att}
 
 * [NVG589](https://www.att.com/support/article/u-verse-high-speed-internet/KM1010280/){target="_blank"}
 * [Pace 5031](https://www.att.com/support/article/u-verse-high-speed-internet/KM1010292/){target="_blank"}
 * [Pace 5268](https://www.att.com/support/article/u-verse-high-speed-internet/KM1123072/){target="_blank"}
 
-### Comcast (Xfinity)
+### Comcast (Xfinity) {#comcast-xfinity}
 
 * [Xfinity Gateway](https://www.xfinity.com/support/articles/xfi-port-forwarding){target="_blank"}
 
-### TP-Link
+### TP-Link {#tp-link}
 
 * [Deco series](https://www.tp-link.com/us/support/faq/1797/){target="_blank"}
 * [Wireless router series](https://www.tp-link.com/us/support/faq/1379/){target="_blank"}
 
-### Eero
+### Eero {#eero}
 
 [こちらのリンク](https://support.eero.com/hc/en-us/articles/207908443-How-do-I-configure-port-forwarding){target="_blank"}を参照してください。
 
-### Linksys
+### Linksys {#linksys}
 
 [こちらのリンク](https://support.linksys.com/kb/article/318-en/){target="_blank"}を参照してください。
 
-### Netgear
+### Netgear {#netgear}
 
 [こちらのリンク](https://kb.netgear.com/24290/How-do-I-add-a-custom-port-forwarding-service-on-my-NETGEAR-router){target="_blank"}を参照してください。
 
 ---
 
-ご不明な点がある場合は、[Community Forum](https://forum.gl-inet.com){target="_blank"} または [Contact us](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

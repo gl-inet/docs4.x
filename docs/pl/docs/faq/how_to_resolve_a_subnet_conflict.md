@@ -1,4 +1,4 @@
-# Jak rozwiązać konflikt podsieci LAN?
+# Jak rozwiązać konflikt podsieci LAN? {#how-to-resolve-a-lan-subnet-conflict}
 
 Gdy podłączysz kabel Ethernet z routera domowego do portu WAN routera GL.iNet, czasami może pojawić się następujący komunikat:
 
@@ -10,7 +10,7 @@ Dzieje się tak, ponieważ router domowy używa tego samego adresu LAN IP co rou
 
 Wykonaj poniższe kroki, aby zmienić podsieć LAN.
 
-## 1. Zmień podsieć LAN
+## 1. Zmień podsieć LAN {#1-change-lan-subnet}
 
 Kliknij odnośnik **Change LAN Subnet**, a nastąpi przekierowanie do strony ustawień **LAN**.
 
@@ -22,7 +22,7 @@ Po zmianie odczekaj kilka sekund. Strona zostanie odświeżona i automatycznie p
 
 Jeśli strona nie zostanie przekierowana, przejdź do następnego kroku.
 
-## 2. Zaloguj się przy użyciu nowego adresu LAN IP
+## 2. Zaloguj się przy użyciu nowego adresu LAN IP {#2-login-with-new-lan-ip}
 
 Ręcznie wpisz zmieniony adres LAN IP w pasku adresu i naciśnij Enter.
 

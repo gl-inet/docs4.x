@@ -1,4 +1,4 @@
-# Come usare la eSIM Physical Card con dispositivi Android
+# Come usare la eSIM Physical Card con dispositivi Android {#how-to-use-the-esim-physical-card-with-android-devices}
 
 **Nota**: prima di iniziare, consulta l’[elenco dei dispositivi compatibili](https://www.eiotclub.com/blogs/community/physical-esim-compatible-devices){target="_blank"} per verificare che il tuo dispositivo Android sia compatibile con la eSIM Physical Card.
 
@@ -8,7 +8,7 @@ Questa guida fornisce istruzioni passo dopo passo per configurare e attivare la 
 
 ![eSIM Physical Card officially endorsed by GL.iNet](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_esim_physical_card_with_android_devices/simpoyo-esim-physical-card.png){class="glboxshadow"}
 
-## Caratteristiche
+## Caratteristiche {#features}
 
 I principali vantaggi della eSIM Physical Card sono i seguenti:
 
@@ -17,24 +17,24 @@ I principali vantaggi della eSIM Physical Card sono i seguenti:
 - Permette di selezionare e acquistare in qualsiasi momento i pacchetti dati preferiti dalla maggior parte degli store eSIM nel mondo.
 - Funziona con i profili eSIM della maggior parte degli store eSIM globali.
 - Consente di acquistare profili eSIM online senza fornire informazioni personali, riducendo il rischio di violazioni della privacy.
-- Include un seed profile con 1 GB di dati gratuiti per Stati Uniti ed Europa, piu 100 MB di dati globali, validi per 1 anno dalla data di attivazione.
+- Include un seed profile con 1 GB di dati gratuiti per Stati Uniti ed Europa, più 100 MB di dati globali, validi per 1 anno dalla data di attivazione.
 - E compatibile con la maggior parte dei dispositivi Android.
 
-## Configurare la eSIM Physical Card su dispositivi Android
+## Configurare la eSIM Physical Card su dispositivi Android {#set-up-the-esim-physical-card-on-android-devices}
 
 Se usi la eSIM Physical Card per la prima volta, guarda questo video oppure segui i passaggi sotto.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/I6rtcB8Se8w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-#### 1. Collegarsi a Internet
+#### 1. Collegarsi a Internet {#1-connect-to-the-internet}
 
 Assicurati che il tuo dispositivo Android sia connesso a Internet. Puoi collegarti tramite Wi-Fi oppure usare i dati precaricati inclusi nella eSIM Physical Card.
 
-#### 2. Inserire la eSIM Physical Card
+#### 2. Inserire la eSIM Physical Card {#2-insert-the-esim-physical-card}
 
 Inserisci la eSIM Physical Card nello slot SIM del tuo dispositivo Android.
 
-#### 3. Scaricare l'app EIOTCLUB
+#### 3. Scaricare l'app EIOTCLUB {#3-download-the-eiotclub-app}
 
 Scarica l'app EIOTCLUB da questo link: [https://sim.eiotclub.com/eshop/download](https://sim.eiotclub.com/eshop/download){target="_blank"}.
 
@@ -42,13 +42,13 @@ Scarica l'app EIOTCLUB da questo link: [https://sim.eiotclub.com/eshop/download]
 
       Il dispositivo deve supportare Android 9 o versioni successive. Gli iPhone non sono supportati da questa eSIM Physical Card.
 
-#### 4. Creare un nuovo account
+#### 4. Creare un nuovo account {#4-create-a-new-account}
 
 Registrati per creare un nuovo account nell'app EIOTCLUB.
 
 ![Create a New Account](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_esim_physical_card_with_android_devices/01-create-a-new-account.jpg){class="glboxshadow"}
 
-#### 5. Aggiungere la scheda SIM
+#### 5. Aggiungere la scheda SIM {#5-add-sim-card}
 
 - **Rilevamento automatico della scheda**: una volta inserita la eSIM Physical Card e aperta l'app EIOTCLUB, la scheda verra rilevata automaticamente. Quando appare il prompt, tocca semplicemente **OK** per continuare.
 
@@ -58,7 +58,7 @@ Registrati per creare un nuovo account nell'app EIOTCLUB.
 
       ![ Manual Card Addition - Add eSIM Card](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_esim_physical_card_with_android_devices/030405-manual-card-addition.jpg){class="glboxshadow"}
 
-#### 6. Controllare e gestire i profili
+#### 6. Controllare e gestire i profili {#6-check-and-manage-profiles}
 
 Dopo aver completato la configurazione, l'app mostrera queste sezioni:
 
@@ -70,7 +70,7 @@ b. **eSIM Profiles**: un elenco dei profili eSIM aggiunti con successo alla tua 
 
 c. **Remote**: opzione di gestione per aggiungere, rimuovere o aggiornare i tuoi profili eSIM.
 
-## Aggiungere o acquistare un nuovo profilo eSIM
+## Aggiungere o acquistare un nuovo profilo eSIM {#add-or-purchase-a-new-esim-profile}
 
 Dopo aver configurato la eSIM sul dispositivo Android, avrai accesso a un pacchetto dati precaricato fornito da GL.iNet:
 
@@ -85,17 +85,17 @@ Per aggiungere un profilo eSIM, puoi fare clic direttamente sul pulsante **Add**
 
 ![Add an eSIM profile](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_esim_physical_card_with_android_devices/08-add-an-esim-profile.jpg){class="glboxshadow"}
 
-### Metodo 1: aggiungere un profilo eSIM acquistato
+### Metodo 1: aggiungere un profilo eSIM acquistato {#method-1-add-a-purchased-esim-profile}
 
-Se hai gia acquistato un profilo eSIM dal tuo store eSIM preferito, segui questi passaggi per aggiungerlo:
+Se hai già acquistato un profilo eSIM dal tuo store eSIM preferito, segui questi passaggi per aggiungerlo:
 
-#### 1. Toccare il pulsante Add
+#### 1. Toccare il pulsante Add {#1-tap-the-add-button}
 
 Apri l'app e tocca il pulsante **Add** per iniziare ad aggiungere il profilo eSIM.
 
 ![Add button to start adding your eSIM profile](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_esim_physical_card_with_android_devices/09-add-button-to-start-adding-your-esim-profile.jpg){class="glboxshadow"}
 
-#### 2. Selezionare un'opzione di scansione del codice QR
+#### 2. Selezionare un'opzione di scansione del codice QR {#2-select-a-qr-code-scanning-option}
 
 ![Select a QR Code Scanning Option](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_esim_physical_card_with_android_devices/10-select-a-qr-code-scanning-option.jpg){class="glboxshadow"}
 
@@ -105,108 +105,108 @@ b. **Import from Album**: carica l'immagine del codice QR dalla galleria fotogra
 
 c. **Enter Activation Code**: inserisci manualmente l'URL del profilo eSIM nel campo **Activation Code**.
 
-#### 3. Scaricare e installare
+#### 3. Scaricare e installare {#3-download-and-install}
 
 Dopo aver selezionato il metodo appropriato, tocca **Download & Install** per completare il processo.
 
 ![Download and Install](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_esim_physical_card_with_android_devices/25-download-and-install.jpg){class="glboxshadow"}
 
-### Metodo 2: acquistare e aggiungere un profilo eSIM tramite eSIM Shop
+### Metodo 2: acquistare e aggiungere un profilo eSIM tramite eSIM Shop {#method-2-purchase-and-add-an-esim-profile-via-esim-shop}
 
 Puoi acquistare e aggiungere un profilo direttamente da eSIM Shop all'interno dell'app:
 
 ![Buy an eSIM Profile via eSIM Shop](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_esim_physical_card_with_android_devices/11-buy-an-esim-profile-via-esim-shop.jpg){class="glboxshadow"}
 
-#### 1. Scegliere il pacchetto dati
+#### 1. Scegliere il pacchetto dati {#1-choose-your-data-package}
 
-Seleziona il pacchetto dati piu adatto alle tue esigenze: Local, Regional oppure Global.
+Seleziona il pacchetto dati più adatto alle tue esigenze: Local, Regional oppure Global.
 
 ![Choose Your Data Package](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_esim_physical_card_with_android_devices/121314-choose-your-data-package.jpg){class="glboxshadow"}
 
-#### 2. Completare l'acquisto
+#### 2. Completare l'acquisto {#2-complete-your-purchase}
 
 Segui i passaggi guidati dell'app per completare l'acquisto.
 
-#### 3. Individuare il profilo acquistato
+#### 3. Individuare il profilo acquistato {#3-locate-your-purchased-profile}
 
 Dopo aver completato l'acquisto, il nuovo profilo eSIM apparira nella SIM Card Section dell'app.
 
 ![Locate Your Purchased Profile](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_esim_physical_card_with_android_devices/15-locate-your-purchased-profile.jpg){class="glboxshadow"}
 
-#### 4. Aggiungere la eSIM all'elenco dei profili
+#### 4. Aggiungere la eSIM all'elenco dei profili {#4-add-the-esim-to-your-profile-list}
 
 Tocca il pulsante Add accanto al profilo eSIM acquistato per aggiungerlo.
 
 ![Add new purchased eSIM into the list](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_esim_physical_card_with_android_devices/26-add-new-purchased-esim-into-the-list.jpg){class="glboxshadow"}
 
-#### 5. Scaricare il profilo
+#### 5. Scaricare il profilo {#5-download-the-profile}
 
 Tocca il pulsante Download per avviare il processo di installazione.
 
 ![Download the eSIM profile](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_esim_physical_card_with_android_devices/27-download-the-esim-profile.jpg){class="glboxshadow"}
 
-#### 6. Installare il profilo
+#### 6. Installare il profilo {#6-install-the-profile}
 
 Tocca Download & Install per completare l'installazione.
 
 ![click the Download & Install](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_esim_physical_card_with_android_devices/28-click-the-download-and-install.jpg){class="glboxshadow"}
 
-#### 7. Aggiunta completata con successo
+#### 7. Aggiunta completata con successo {#7-successfully-added}
 
 Il nuovo profilo eSIM apparira ora nell'elenco dei profili eSIM.
 
 ![successfully added into the eSIM profile list](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_esim_physical_card_with_android_devices/29-sucessfeully-added-into-the-esim-profile-list.jpg){class="glboxshadow"}
 
-## Abilitare o cambiare profili
+## Abilitare o cambiare profili {#enable-or-switch-profiles}
 
-#### 1. Accedere ai profili
+#### 1. Accedere ai profili {#1-access-your-profiles}
 
 Tocca Remote per visualizzare tutti i profili eSIM aggiunti.
 
 ![Access Your Profiles](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_esim_physical_card_with_android_devices/16-access-your-profiles.jpg){class="glboxshadow"}
 
-#### 2. Abilitare il profilo
+#### 2. Abilitare il profilo {#2-enable-your-profile}
 
 Trova il profilo desiderato e tocca il pulsante Toggle per abilitarlo.
 
 ![Enable Your Profile](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_esim_physical_card_with_android_devices/17-enable-your-profile.jpg){class="glboxshadow"}
 
-## Eliminare un profilo eSIM
+## Eliminare un profilo eSIM {#delete-an-esim-profile}
 
-#### 1. Disattivare il profilo eSIM
+#### 1. Disattivare il profilo eSIM {#1-turn-off-the-esim-profile}
 
 - Vai alle impostazioni eSIM e assicurati che il profilo sia disattivato.
 - Tocca il nome del profilo eSIM che vuoi eliminare.
 
 ![Turn Off the eSIM Profile and Tap on the eSIM profile name you want to delete](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_esim_physical_card_with_android_devices/1819-delete-esim-profile.jpg){class="glboxshadow"}
 
-#### 2. Accedere ai dettagli eSIM
+#### 2. Accedere ai dettagli eSIM {#2-access-esim-details}
 
 Vai alla pagina dei dettagli eSIM e tocca **Delete eSIM**.
 
 ![Access eSIM Details](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_esim_physical_card_with_android_devices/20-access-esim-details.jpg){class="glboxshadow"}
 
-#### 3. Confermare l'eliminazione del profilo eSIM
+#### 3. Confermare l'eliminazione del profilo eSIM {#3-confirm-delete-esim-profile}
 
 Conferma l'azione toccando il pulsante **Submit** per eliminare il profilo eSIM.
 
 ![Submit to Delete](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_esim_physical_card_with_android_devices/21-submit-to-delete.jpg){class="glboxshadow"}
 
-## Eliminare uno slot eSIM
+## Eliminare uno slot eSIM {#delete-an-esim-card-slot}
 
-#### 1. Aprire le impostazioni della SIM card
+#### 1. Aprire le impostazioni della SIM card {#1-open-sim-card-settings}
 
 Fai clic sul nome della eSIM per accedere alle impostazioni della SIM card.
 
 ![Open SIM Card Settings](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_esim_physical_card_with_android_devices/22-open-sim-card-settings.jpg){class="glboxshadow"}
 
-#### 2. Toccare il pulsante Delete
+#### 2. Toccare il pulsante Delete {#2-tap-the-delete-button}
 
 Tocca il pulsante **Delete eSIM Card SLOT**.
 
 ![Tap the Delete Button](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_esim_physical_card_with_android_devices/23-tap-the-delete-button.jpg){class="glboxshadow"}
 
-#### 3. Confermare l'eliminazione
+#### 3. Confermare l'eliminazione {#3-confirm-deletion}
 
 Tocca il pulsante **Submit** per eliminare lo slot eSIM.
 

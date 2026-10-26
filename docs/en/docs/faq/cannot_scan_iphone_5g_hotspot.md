@@ -1,4 +1,4 @@
-# Cannot Scan iPhone 5G Hotspot
+# Cannot Scan iPhone 5G Hotspot {#cannot-scan-iphone-5g-hotspot}
 
 Please check your iPhone Hotspot settings and turn off the Maximise Compatibility.
 

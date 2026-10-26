@@ -1,8 +1,8 @@
-# チュートリアル
+# 動画チュートリアル {#video-tutorials}
 
 製品やサービスに追加された新機能と、その使い方に関する詳細なチュートリアルをご覧いただけます。
 
-## GL.iNet ファームウェア v4.8 の紹介 {#introduction-to-gl-inet-firmware-v48}
+## GL.iNet ファームウェア v4.8 の紹介 {#introduction-to-glinet-firmware-v48}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XpddRAcizWY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -18,7 +18,7 @@
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3Kx_StIFLqo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL.iNet ルーターを工場出荷時の設定に戻す方法 | Beryl AX (GL-MT3000) {#how-to-reset-your-glinet-router-to-factory-settings--beryl-ax-gl-mt3000}
+## GL.iNet ルーターを工場出荷時の設定に戻す方法 | Beryl AX (GL-MT3000) {#how-to-reset-your-glinet-router-to-factory-settings-beryl-ax-gl-mt3000}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jguDqBWP-Fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -26,7 +26,7 @@
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7mJXA5MfMb8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## VPN サーバー (Flint 3) と VPN クライアント (Slate 7) を短時間で設定する方法 {#how-to-set-up-vpn-server-flint-3--vpn-client-slate-7-in-minutes}
+## VPN サーバー (Flint 3) と VPN クライアント (Slate 7) を短時間で設定する方法 {#how-to-set-up-vpn-server-flint-3-vpn-client-slate-7-in-minutes}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/v_DyRGicWco" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -38,7 +38,7 @@
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SCex_vuvgNQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL.iNetルーターのファームウェア4.7でのセットアップ方法
+## GL.iNetルーターのファームウェア4.7でのセットアップ方法 {#how-to-set-up-your-glinet-router-with-firmware-47}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WW8wGk68lEU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -46,11 +46,11 @@
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CM4_soLf9fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL.iNetルーターでリピーターモードを使用する理由
+## GL.iNetルーターでリピーターモードを使用する理由 {#why-use-repeater-mode-on-your-glinet-router}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7mZtz8u8--E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Mudi / Mudi V2のUboot方法
+## Mudi / Mudi V2 で U-Boot を使用する方法 {#how-to-uboot-mudi-mudi-v2}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pz0DidfIXRk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -58,42 +58,42 @@
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jvc-CNmXfuM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL.iNetルーターでWireGuardクライアントをセットアップする方法
+## GL.iNetルーターでWireGuardクライアントをセットアップする方法 {#how-to-set-up-a-wireguard-client-on-a-glinet-router}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VIRcjB9k62A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL.iNetルーターでOpenVPNサーバーをセットアップする方法
+## GL.iNetルーターでOpenVPNサーバーをセットアップする方法 {#how-to-set-up-an-openvpn-server-on-a-glinet-router}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GSbytyaqOY0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL.iNetルーターでOpenVPNクライアントをセットアップする方法
+## GL.iNetルーターでOpenVPNクライアントをセットアップする方法 {#how-to-set-up-an-openvpn-client-on-a-glinet-router}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/04sW3l6_rDM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## SDK 4.5以降を搭載したGL.iNetルーターの初回セットアップ方法
+## SDK 4.5以降を搭載したGL.iNetルーターの初回セットアップ方法 {#how-to-set-up-glinet-routers-running-sdk-45-or-above-for-the-first-time}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3dm0w5kjAlc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Brume 2を使用してVPNサーバーをホストする方法
+## Brume 2を使用してVPNサーバーをホストする方法 {#how-to-host-a-vpn-server-using-brume-2}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/u0uBv1UJ1tA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## 中小企業向けGoodCloud Wi-Fi管理システムの簡単設定ガイド
+## 中小企業向けGoodCloud Wi-Fi管理システムの簡単設定ガイド {#easy-guide-to-setting-up-your-goodcloud-wi-fi-management-system-for-smes}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7U1CwpKOKDM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-S10 BLE to MQTT IoTゲートウェイ
+## GL-S10 BLE to MQTT IoTゲートウェイ {#gl-s10-ble-to-mqtt-iot-gateway}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/i-0Lrg_vdxg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GoodCloudでS2Sネットワークを構築する方法
+## GoodCloudでS2Sネットワークを構築する方法 {#how-to-create-s2s-network-via-goodcloud}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/omioaf6Cv6E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Spitz (GL-X750V2) でAT&T IoT SIMカードをセットアップする方法
+## Spitz (GL-X750V2) でAT&T IoT SIMカードをセットアップする方法 {#how-to-set-up-att-iot-sim-card-on-spitz-gl-x750v2}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/88TNqkQcPmo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-S10のセットアップ方法
+## GL-S10のセットアップ方法 {#how-to-set-up-gl-s10}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nnOUt2xKDLI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

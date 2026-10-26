@@ -1,4 +1,4 @@
-# Port Ethernet
+# Port Ethernet {#ethernet-port}
 
 Le contenu de cette page est basé sur les versions de micrologiciel v4.7 à v4.9. Si votre appareil utilise une autre version, utilisez le sélecteur ci-dessous pour afficher le guide correspondant.
 
@@ -14,11 +14,11 @@ Dans la partie gauche du panneau d’administration Web, accédez à **NETWORK**
 
 Cette page vous permet de gérer le rôle des ports Ethernet (WAN/LAN) et d'afficher les détails des ports, comme l'adresse MAC et la vitesse négociée.
 
-## WAN
+## WAN {#wan}
 
 Cette section affiche le rôle du port (WAN ou LAN), l'adresse MAC et la vitesse négociée. 
 
-![wan](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/wan.png){class="glboxshadow"}
+![wan](https://static.gl-inet.com/docs/router/en/4/interface_guide/ethernet_port/wan.png){class="glboxshadow"}
 
 - **WAN/LAN** : mode de fonctionnement actuel du port WAN physique. Vous pouvez le définir en LAN si nécessaire.
 
@@ -28,7 +28,7 @@ Cette section affiche le rôle du port (WAN ou LAN), l'adresse MAC et la vitesse
 
 - **Negotiated Network Port Rate** : vitesse négociée du port réseau de l'interface WAN ; elle n'est affichée que lorsqu'une liaison valide est détectée.
 
-## LAN
+## LAN {#lan}
 
 Cette section affiche la vitesse négociée du port LAN. Elle n'est affichée que lorsqu'une liaison valide est détectée.
 
@@ -36,7 +36,7 @@ Cette section affiche la vitesse négociée du port LAN. Elle n'est affichée qu
 
 Certains modèles permettent de basculer LAN 1 vers un port WAN pour les scénarios WAN Ethernet double. Cliquez sur [Dual-Ethernet WAN](#dual-ethernet-wan) pour plus de détails.
 
-## Dual-Ethernet WAN
+## Dual-Ethernet WAN {#dual-ethernet-wan}
 
 La fonctionnalité Dual-Ethernet WAN permet de transformer un port Ethernet LAN par défaut en port WAN secondaire pour un accès Internet Ethernet double. Elle offre une connectivité de secours fiable et prend en charge l'agrégation de bande passante lorsque celle-ci est compatible, pour les charges de travail gourmandes en bande passante. Elle permet également de se connecter simultanément à deux réseaux indépendants, par exemple un réseau professionnel et un réseau personnel, ce qui améliore la flexibilité sans matériel supplémentaire.
 

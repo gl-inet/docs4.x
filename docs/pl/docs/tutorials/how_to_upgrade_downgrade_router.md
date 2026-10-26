@@ -1,4 +1,4 @@
-# Jak ręcznie zaktualizować lub cofnąć wersję firmware routera (z v4.x do v4.x)?
+# Jak ręcznie zaktualizować lub cofnąć wersję firmware routera (z v4.x do v4.x)? {#how-to-manually-upgrade-or-downgrade-your-router-firmware-from-v4x-to-v4x}
 
 Ten przewodnik pokaże, **jak ręcznie zaktualizować lub cofnąć wersję firmware routera (z v4.x do v4.x)**. Kroki dla ręcznej aktualizacji i cofania wersji firmware routera są takie same.
 
@@ -10,17 +10,17 @@ Ten przewodnik pokaże, **jak ręcznie zaktualizować lub cofnąć wersję firmw
 
     **Cofnięcie wersji:** Możesz cofnąć wersję firmware routera, aby rozwiązać określone problemy.
 
-## 1. Sprawdź, czy router ma najnowszą wersję firmware (tylko dla aktualizacji)
+## 1. Sprawdź, czy router ma najnowszą wersję firmware (tylko dla aktualizacji) {#1-check-if-your-router-is-running-the-latest-firmware-version-only-for-upgrade}
 
 1. W przeglądarce internetowej wprowadź adres URL panelu administracyjnego routera (np. 192.168.8.1) i zaloguj się.
 2. Z lewego paska bocznego wybierz **SYSTEM** > **Upgrade**.  
 
-## 2. Pobierz plik firmware
+## 2. Pobierz plik firmware {#2-download-the-firmware-file}
 
 1. W pasku wyszukiwania [centrum pobierania firmware](https://dl.gl-inet.com/) wyszukaj i wybierz model swojego routera.
 2. W zakładce **Stable** lub innych zakładkach wybierz **DOWNLOAD FOR COMMON UPGRADE AND U-BOOT** obok wersji firmware, którą chcesz pobrać. 
 
-## 3. Wgraj firmware
+## 3. Wgraj firmware {#3-upload-the-firmware}
 
 Poniższe instrukcje opisują wgrywanie firmware przez panel administracyjny routera. (Aby wgrać firmware przez aplikację mobilną GL.iNet, [pobierz aplikację](https://www.gl-inet.com/app/) i skonfiguruj ją.)
 

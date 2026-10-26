@@ -1,4 +1,4 @@
-# Guida alla risoluzione dei problemi della rete cellulare
+# Guida alla risoluzione dei problemi della rete cellulare {#cellular-network-troubleshooting-guide}
 
 Se non riesci a stabilire una connessione cellulare, controlla i seguenti possibili problemi.
 
@@ -10,7 +10,7 @@ Se non riesci a stabilire una connessione cellulare, controlla i seguenti possib
 
     ![modem name](https://static.gl-inet.com/docs/router/en/4/faq/cellular_troubleshoot/no_sim.png){class="glboxshadow"}
 
-    Per firmware ver.4.8 e successivi, fai clic su **View More Information** per trovare il SIM ICCID.
+    Per firmware v4.8 e successivi, fai clic su **View More Information** per trovare il SIM ICCID.
 
     Se non riesci a trovarli, riavvia il router. Se il modem name e l'IMEI continuano a non essere riconosciuti, contattaci all'indirizzo [support@gl-inet.com](mailto:support@gl-inet.com).
 
@@ -30,13 +30,13 @@ Se non riesci a stabilire una connessione cellulare, controlla i seguenti possib
 
     **2.2** Alcuni operatori di rete potrebbero richiedere il **protocollo 3G** per stabilire la connessione. Passa al protocollo 3G e riprova.
 
-    Per firmware ver.4.7 e precedenti, vai a **Manual Setup** -> **Protocol**, seleziona **3G**, quindi fai clic su **Apply**.
+    Per firmware v4.7 e precedenti, vai a **Manual Setup** -> **Protocol**, seleziona **3G**, quindi fai clic su **Apply**.
 
     ![](https://static.gl-inet.com/docs/router/en/4/faq/cellular_troubleshoot/3.png){class="glboxshadow gl-90-desktop"}
 
     ![](https://static.gl-inet.com/docs/router/en/4/faq/cellular_troubleshoot/4.png){class="glboxshadow gl-90-desktop"}
 
-    Per firmware ver.4.8 e successivi, vai a **SIM Card Settings** -> **Protocol**, seleziona **3G**, quindi fai clic su **Apply**.
+    Per firmware v4.8 e successivi, vai a **SIM Card Settings** -> **Protocol**, seleziona **3G**, quindi fai clic su **Apply**.
 
     ![](https://static.gl-inet.com/docs/router/en/4/faq/cellular_troubleshoot/sim_settings_protocol.png){class="glboxshadow gl-90-desktop"}
 
@@ -46,7 +46,7 @@ Se non riesci a stabilire una connessione cellulare, controlla i seguenti possib
 
     ![](https://static.gl-inet.com/docs/router/en/4/faq/cellular_troubleshoot/sim_settings_apn.png){class="glboxshadow gl-90-desktop"}
 
-    **2.4** Abilita **Band Masking** e riprova. Per firmware ver.4.7 e precedenti, fai riferimento a [questo link](../interface_guide/internet_cellular_v4.7.md#band-masking). Per firmware ver.4.8 e successivi, fai riferimento a [questo link](../interface_guide/internet_cellular.md#band-masking).
+    **2.4** Abilita **Band Masking** e riprova. Per firmware v4.7 e precedenti, fai riferimento a [questo link](../interface_guide/internet_cellular_v4.7.md#band-masking). Per firmware v4.8 e successivi, fai riferimento a [questo link](../interface_guide/internet_cellular.md#band-masking).
 
     **2.5** Blocca o sblocca una torre radio e riprova. Questa funzione è disponibile solo su GL-X3000 (Spitz AX), GL-XE3000 (Puli AX) e GL-X2000 (Spitz Plus). Fai clic [qui](../interface_guide/internet_cellular.md#lock-tower) per ulteriori istruzioni.
 

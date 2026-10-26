@@ -1,4 +1,4 @@
-# Set Up WireGuard Client on GL.iNet Routers
+# Set Up WireGuard Client on GL.iNet Routers {#set-up-wireguard-client-on-glinet-routers}
 
 The content on this page is based on firmware v4.7 and above. If your device is running a different firmware version, use the selector below to switch to the corresponding guide.
 
@@ -633,7 +633,7 @@ In the web Admin Panel, go to **VPN** -> **WireGuard Client**.
     
     You can also check the VPN connection details on the **VPN Dashboard**.
 
-## Set Up WireGuard Client via Mobile App
+## Set Up WireGuard Client via Mobile App {#set-up-wireguard-client-via-mobile-app}
 
 You can also set up a WireGuard client via the [mobile app](https://www.gl-inet.com/app/#download-app-glinet). 
 
@@ -641,7 +641,7 @@ The mobile app integrates some WireGuard service providers, such as AzireVPN, Mu
 
 Install the app and follow the on-screen instructions to set up as needed.
 
-## Set Up WireGuard Server on GL.iNet Router
+## Set Up WireGuard Server on GL.iNet Router {#set-up-wireguard-server-on-glinet-router}
 
 Do not want to subscribe to third-party VPN services? You may purchase two GL.iNet routers – set one as WireGuard server and the other as WireGuard client.
 

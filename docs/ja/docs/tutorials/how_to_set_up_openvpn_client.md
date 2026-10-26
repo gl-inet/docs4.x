@@ -1,4 +1,4 @@
-# GL.iNetルーターでOpenVPNクライアントを設定する方法
+# GL.iNetルーターでOpenVPNクライアントを設定する方法 {#how-to-set-up-openvpn-client-on-glinet-routers}
 
 このチュートリアルでは、GL.iNetルーターでOpenVPNクライアントを設定する方法を紹介します。
 
@@ -12,13 +12,13 @@
 
 以下は、ルーターのWeb管理パネルからOpenVPNクライアントを設定する手順です。
 
-## 1. ルーターにログインする
+## 1. ルーターにログインする {#1-log-in-to-your-router}
 
 Webブラウザを開き、ルーターのWeb管理パネル（デフォルトIP: 192.168.8.1）にアクセスします。管理者パスワードでログインしてください。
 
 ![log in](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_openvpn_client/router-login.jpeg){class="glboxshadow"}
 
-## 2. VPNクライアントを設定する
+## 2. VPNクライアントを設定する {#2-set-up-vpn-client}
 
 利用しているVPNサービスプロバイダーに対応するセクションを参照してください。
 
@@ -67,10 +67,10 @@ Webブラウザを開き、ルーターのWeb管理パネル（デフォルトIP
 
         ![start](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_openvpn_client/openvpn-manual-click-start.png){class="glboxshadow"}
 
-## 3. VPN接続を確認する
+## 3. VPN接続を確認する {#3-verify-vpn-connection}
 
 Webブラウザを開き、自分のIPアドレスと所在地を検索します。表示された情報がインターネットサービスプロバイダーのIPと所在地ではなく、VPNサーバーのIPと所在地に一致していれば、VPN接続は成功しています。
 
 ---
 
-ご不明な点がありましたら、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}をご覧いただくか、[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

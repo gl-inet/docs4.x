@@ -1,4 +1,4 @@
-# GL.iNetルーターでオンラインテキストファイルを使ってドメインおよびIPフィルタリングルールを設定する方法
+# GL.iNetルーターでオンラインテキストファイルを使ってドメインおよびIPフィルタリングルールを設定する方法 {#how-to-configure-domain-and-ip-filtering-rules-for-glinet-routers-via-an-online-text-file}
 
 ファームウェア v4.7 以降では、次の機能でオンラインテキストファイル URL からルールをインポートできます。
 
@@ -7,7 +7,7 @@
 
 このチュートリアルでは、GL.iNet ルーターでオンラインテキストファイルを使ってドメインおよび IP フィルタリングルールをインポートする方法を説明します。
 
-## 対応するURL形式とファイル形式
+## 対応するURL形式とファイル形式 {#supported-url-file-formats}
 
 対応する URL 形式は次のとおりです。
 
@@ -16,9 +16,9 @@
 
 対応するファイル形式は `.txt`、`.conf`、`.log` などのプレーンテキスト形式です。
 
-**Note**: `.exe`、`.zip`、`.jpg`、`.png` などのバイナリファイルには対応していません。
+**注意**: `.exe`、`.zip`、`.jpg`、`.png` などのバイナリファイルには対応していません。
 
-## GitHubを使ってテキストファイルをホストする
+## GitHubを使ってテキストファイルをホストする {#use-github-to-host-text-file}
 
 テキストファイルを公開 GitHub リポジトリでホストする場合は、通常の GitHub URL ではなく raw content URL を使用してください。
 
@@ -32,7 +32,7 @@
 
 このようにすることで、ルーターはファイルのプレーンテキスト内容を正しく取得できます。
 
-## VPNポリシー（ドメイン / IP）のフィルタ形式
+## VPNポリシー（ドメイン / IP）のフィルタ形式 {#filter-formats-for-vpn-policy-domainip}
 
 「VPN Policy Based on Target Domain or IP Address」機能は、オンラインテキストファイルで次のフィルタ形式をサポートしています。
 
@@ -41,7 +41,7 @@
 * CIDR 範囲: `192.168.10.0/24` のように CIDR 表記で IP アドレス範囲を指定します。
 * IPv4 アドレス: `192.168.10.10` のように個別の IPv4 アドレスを指定します。
 
-## Parental Control（Ruleset）のフィルタ形式
+## Parental Control（Ruleset）のフィルタ形式 {#filter-formats-for-parental-control-ruleset}
 
 Parental Control の「Add a New Ruleset」機能は、オンラインテキストファイルで次のフィルタ形式をサポートしています。
 
@@ -54,4 +54,4 @@ Parental Control の「Add a New Ruleset」機能は、オンラインテキス�
 
 ---
 
-ご不明な点がある場合は、[Community Forum](https://forum.gl-inet.com){target="_blank"} をご利用いただくか、[Contact us](https://www.gl-inet.com/contacts/){target="_blank"} からお問い合わせください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

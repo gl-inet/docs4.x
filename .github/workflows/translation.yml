@@ -69,6 +69,8 @@ jobs:
     needs: prepare
     if: needs.prepare.outputs.has_delta == 'true'
     runs-on: ubuntu-latest
+    # The Codex secrets are environment secrets of the OpenAI environment.
+    environment: OpenAI
     outputs:
       has_changes: ${{ steps.diff.outputs.has_changes }}
     permissions:
@@ -95,13 +97,27 @@ jobs:
           name: translation-delta
           path: .codex-run
 
+      # Keep the downloaded report out of `git status` so Codex sees a clean tree.
+      - name: Exclude Codex run files from git status
+        shell: bash
+        run: echo ".codex-run/" >> .git/info/exclude
+
       - name: Check Codex credentials
         env:
           CODEX_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           CODEX_RESPONSES_API_ENDPOINT: ${{ secrets.CODEX_RESPONSES_API_ENDPOINT }}
+        shell: bash
         run: |
-          test -n "$CODEX_API_KEY"
-          test -n "$CODEX_RESPONSES_API_ENDPOINT"
+          missing=0
+          if [ -z "$CODEX_API_KEY" ]; then
+            echo "::error::Secret OPENAI_API_KEY is not available to this job (OpenAI environment)."
+            missing=1
+          fi
+          if [ -z "$CODEX_RESPONSES_API_ENDPOINT" ]; then
+            echo "::error::Secret CODEX_RESPONSES_API_ENDPOINT is not available to this job (OpenAI environment)."
+            missing=1
+          fi
+          exit "$missing"
 
       - name: Run Codex translation
         uses: openai/codex-action@v1
@@ -179,10 +195,17 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          for lang in de es fr it ja pl uk; do
+          for lang in de es fr it ja nl pl sv uk; do
             echo "BUILD $lang"
             mkdocs build -f "docs/$lang/mkdocs.yml" --strict
           done
+
+      - name: Check localized structure and anchors
+        shell: bash
+        run: |
+          set -euo pipefail
+          python scripts/i18n_check.py
+          python scripts/anchors.py check
 
       - name: Verify translation cache
         shell: bash
@@ -194,7 +217,7 @@ jobs:
         if: always()
         shell: bash
         run: |
-          for lang in de es fr it ja pl uk; do
+          for lang in de es fr it ja nl pl sv uk; do
             rm -rf "docs/$lang/site"
           done
 
@@ -276,3 +299,15 @@ jobs:
           gh issue create \
             --title "English source issues found by translation run ${GITHUB_RUN_ID}" \
             --body-file "$RUNNER_TEMP/english-source-issues.md"
+
+      - name: Fail when Codex did not complete the sync
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          status="$(jq -r '.status' codex-output.json)"
+          if [ "$status" = "blocked" ] || [ "$status" = "failed" ]; then
+            echo "::error::Codex returned status '$status'. See the codex-report artifact."
+            jq -r '(.validation.notes // []) + (.notes // []) | .[]' codex-output.json
+            exit 1
+          fi

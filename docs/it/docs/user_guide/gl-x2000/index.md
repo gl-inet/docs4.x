@@ -1,12 +1,12 @@
-# Guida utente di Spitz Plus (GL-X2000)
+# Guida utente di Spitz Plus (GL-X2000) {#spitz-plus-gl-x2000-user-guide}
 
-## Panoramica del prodotto
+## Panoramica del prodotto {#product-overview}
 
 Spitz Plus (GL-X2000) è un gateway cellulare 4G LTE Wi-Fi 6 dual-SIM progettato per fornire connessioni rapide e affidabili, soprattutto nelle aree remote e durante i viaggi su strada. Grazie alla 3-Carrier Aggregation, il router trasmette dati simultaneamente su tre bande dell'operatore, offrendo una larghezza di banda disponibile fino a 3 volte superiore per evitare la congestione. Offre quattro metodi di accesso a Internet: Cellular (schede SIM), Ethernet, Repeater e Tethering. Supporta Multi-WAN (failover e bilanciamento del carico), VPN (OpenVPN e WireGuard), controllo genitori, AdGuard Home, port forwarding, Tailscale e altro ancora.
 
 ![gl-x2000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/hardware_info/x2000_interface.jpg){class="glboxshadow"}
 
-## Contenuto della confezione
+## Contenuto della confezione {#package-contents}
 
 - 1 x Spitz Plus (GL-X2000)
 - 1 x Manuale utente
@@ -20,7 +20,7 @@ Spitz Plus (GL-X2000) è un gateway cellulare 4G LTE Wi-Fi 6 dual-SIM progettato
 
 ![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/first_time_setup/x2000_package.png){class="glboxshadow"}
 
-## Indicatori LED
+## Indicatori LED {#led-indicators}
 
 Di seguito sono descritti gli stati dei LED per diversi eventi. Per consultare tutti gli stati di ciascun LED, fare riferimento a [Stato degli indicatori LED del GL-X2000](../../faq/led.md#gl-x2000){target="_blank"}.
 
@@ -32,7 +32,7 @@ Di seguito sono descritti gli stati dei LED per diversi eventi. Per consultare t
 | Ripristino rete (tieni premuto reset per 5 s) | Lampeggia ogni 1 s | Verde | Verde | Verde | Verde |
 | Ripristino di fabbrica (tieni premuto reset per 10 s) | Lampeggia rapidamente ogni 0,25 s | Verde | Verde | Verde | Verde |
 
-## Come configurare Spitz Plus
+## Come configurare Spitz Plus {#how-to-set-up-spitz-plus}
 
 Per configurare Spitz Plus puoi usare uno dei quattro metodi di connessione Internet supportati: Cellular (SIM richiesta), Ethernet, Repeater e Tethering. Guarda questo video di configurazione oppure segui i passaggi riportati qui sotto.
 
@@ -47,11 +47,11 @@ Per configurare Spitz Plus puoi usare uno dei quattro metodi di connessione Inte
     2. Spegni il router.
     3. Inserisci la SIM negli slot per schede SIM. (**Nota:** solo una SIM è attiva alla volta. L'altra funziona solo come backup.)
 
-### 1. Accensione
+### 1. Accensione {#1-power-on}
 
 Assembla l'alimentatore in due parti. Collegalo al router e inseriscilo in una presa di corrente. Il dispositivo si avvierà automaticamente.
 
-### 2. Collegare un dispositivo
+### 2. Collegare un dispositivo {#2-connect-device}
 
 Collega un dispositivo, ad esempio un computer, un portatile o uno smartphone, al router tramite Wi-Fi o Ethernet.
 
@@ -63,11 +63,11 @@ Collega un dispositivo, ad esempio un computer, un portatile o uno smartphone, a
 
     Sul dispositivo, vai su Impostazioni -> WLAN, individua il nome della rete Wi-Fi del router nell'elenco delle reti disponibili e inserisci la password. Il nome di rete e la password predefiniti sono stampati sull'etichetta del router.
 
-### 3. Accedere al pannello di amministrazione web
+### 3. Accedere al pannello di amministrazione web {#3-log-in-to-web-admin-panel}
 
 Avvia un browser web, inserisci `192.168.8.1` nella barra degli indirizzi e accederai al pannello di amministrazione web GL.iNet. Scegli una lingua, imposta la password di amministrazione e fai clic su **Apply**.
 
-### 4. Configurazione di Internet
+### 4. Configurazione di Internet {#4-internet-setup}
 
 **Nota:** Le istruzioni seguenti si applicano agli utenti che configurano il router tramite il pannello di amministrazione web GL.iNet. Se preferisci utilizzare l'app GL.iNet, [scarica l'app](https://www.gl-inet.com/app/){target="_blank"} e segui le istruzioni visualizzate sullo schermo.
 
@@ -83,7 +83,7 @@ Configura Spitz Plus utilizzando uno dei metodi di connessione Internet supporta
     
     Per istruzioni dettagliate, fai riferimento a [Connessione a Internet tramite rete cellulare](../../interface_guide/internet_cellular.md#setup-for-dual-sim-models).
 
-    **Nota**: La funzionalita eSIM di Spitz Plus e disponibile nel firmware v4.7 e successivi. Scopri come usare la scheda eSIM fisica sui router GL.iNet [qui](../../tutorials/how_to_use_esim_physical_card_with_glinet_routers.md).
+    **Nota**: La funzionalità eSIM di Spitz Plus e disponibile nel firmware v4.7 e successivi. Scopri come usare la scheda eSIM fisica sui router GL.iNet [qui](../../tutorials/how_to_use_esim_physical_card_with_glinet_routers.md).
 
     Se riscontri problemi, consulta la [Guida alla risoluzione dei problemi della rete cellulare](../../faq/cellular_network_troubleshooting_guide.md).
 
@@ -93,7 +93,7 @@ Configura Spitz Plus utilizzando uno dei metodi di connessione Internet supporta
     
     Collega la porta WAN di Spitz Plus a un dispositivo a monte, ad esempio un modem, tramite un cavo Ethernet.
     
-    Una volta stabilita correttamente la connessione a Internet, nella sezione Ethernet della pagina INTERNET comparirà un punto verde.
+    Una volta stabilità correttamente la connessione a Internet, nella sezione Ethernet della pagina INTERNET comparirà un punto verde.
 
     Per istruzioni dettagliate, fai riferimento a [Connessione a Internet tramite cavo Ethernet](../../interface_guide/internet_ethernet.md).
 
@@ -105,7 +105,7 @@ Configura Spitz Plus utilizzando uno dei metodi di connessione Internet supporta
     2. Seleziona una rete Wi-Fi tra quelle disponibili.
     3. Inserisci la password, quindi fai clic su **Apply**.
     
-    Una volta stabilita correttamente la connessione a Internet, nella sezione Repeater della pagina INTERNET comparirà un punto verde.
+    Una volta stabilità correttamente la connessione a Internet, nella sezione Repeater della pagina INTERNET comparirà un punto verde.
 
     Per istruzioni dettagliate, fai riferimento a [Connessione a Internet tramite una rete Wi-Fi esistente](../../interface_guide/internet_repeater.md).
 
@@ -117,7 +117,7 @@ Configura Spitz Plus utilizzando uno dei metodi di connessione Internet supporta
     2. Sul dispositivo mobile, vai nelle impostazioni e abilita il tethering USB.
     3. Nella schermata INTERNET del pannello di amministrazione web, fai clic su **Connect** nella sezione Tethering.
     
-    Una volta stabilita correttamente la connessione a Internet, nella sezione Tethering della pagina INTERNET comparirà un punto verde.
+    Una volta stabilità correttamente la connessione a Internet, nella sezione Tethering della pagina INTERNET comparirà un punto verde.
 
     Per istruzioni dettagliate, fai riferimento a [Connessione a Internet tramite tethering USB](../../interface_guide/internet_tethering.md).
 
@@ -125,19 +125,19 @@ Configura Spitz Plus utilizzando uno dei metodi di connessione Internet supporta
 
 Di seguito trovi una panoramica delle funzioni disponibili nel pannello di amministrazione web di Spitz Plus.
 
-## Wi-Fi
+## Wi-Fi {#wireless}
 
 La pagina Wireless consente di configurare le impostazioni delle reti Wi-Fi sia a 5 GHz sia a 2,4 GHz, inclusi attivazione/disattivazione del Wi-Fi, impostazione della potenza TX, definizione del nome della rete Wi-Fi (SSID), attivazione/disattivazione del BSSID casuale, selezione della modalità di sicurezza Wi-Fi, impostazione della password Wi-Fi, configurazione della visibilità dell'SSID, scelta della modalità Wi-Fi, della larghezza di banda e del canale.
 
 Per configurare Wireless, fai riferimento a [Wireless](../../interface_guide/wireless.md).
 
-## Client
+## Client {#clients}
 
 La pagina Client mostra le informazioni sui dispositivi connessi. Per ogni client visualizza il nome del dispositivo, il tipo di connessione, ossia tramite Ethernet o Wi-Fi, gli indirizzi IP e MAC, le velocità di download e upload, il traffico totale e offre la possibilità di riservare un IP, bloccare il client o eseguire altre azioni.
 
 Per configurare i client, fai riferimento a [Clients](../../interface_guide/clients.md).
 
-## Servizi cloud
+## Servizi cloud {#cloud-services}
 
 === "GoodCloud"
 
@@ -153,7 +153,7 @@ Per configurare i client, fai riferimento a [Clients](../../interface_guide/clie
 
     **Nota**: aggiorna Spitz Plus al firmware v4.8 o superiore per utilizzare AstroWarp.
 
-## VPN
+## VPN {#vpn}
 
 Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il tuo dispositivo e il server VPN. Offre un ulteriore livello di privacy e sicurezza (client VPN) e consente di accedere a una rete remota (server VPN). Spitz Plus supporta OpenVPN e WireGuard.
 
@@ -171,7 +171,7 @@ Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il t
     * [Come configurare un client WireGuard](../../interface_guide/wireguard_client.md)
     * [Come configurare un server WireGuard](../../interface_guide/wireguard_server.md)
 
-## Applicazioni
+## Applicazioni {#applications}
 
 === "Plug-in"
 
@@ -219,7 +219,7 @@ Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il t
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/hyHh8pAxgVw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     
-## Rete
+## Rete {#network}
 
 === "Port forwarding"
 
@@ -295,7 +295,7 @@ Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il t
 
     Per configurare le impostazioni NAT, fai riferimento a [NAT Settings](../../interface_guide/nat_settings.md).
 
-## Sistema
+## Sistema {#system}
 
 === "Panoramica"
 

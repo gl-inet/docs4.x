@@ -1,4 +1,4 @@
-# ¿Cómo actualizar o degradar manualmente el firmware de su router (de v4.x a v4.x)?
+# ¿Cómo actualizar o degradar manualmente el firmware de su router (de v4.x a v4.x)? {#how-to-manually-upgrade-or-downgrade-your-router-firmware-from-v4x-to-v4x}
 
 Este tutorial le mostrará **cómo actualizar o degradar manualmente el firmware de su router (de v4.x a v4.x)**. Los pasos para actualizar y degradar manualmente el firmware del router son los mismos.
 
@@ -10,17 +10,17 @@ Este tutorial le mostrará **cómo actualizar o degradar manualmente el firmware
 
     **Downgrade:** Puede degradar el firmware de su router para resolver ciertos problemas.
 
-## 1. Comprobar si su router está ejecutando la última versión de firmware (solo para actualización)
+## 1. Comprobar si su router está ejecutando la última versión de firmware (solo para actualización) {#1-check-if-your-router-is-running-the-latest-firmware-version-only-for-upgrade}
 
 1. En un navegador web, introduzca la URL del panel de administración de su router, por ejemplo `192.168.8.1`, e inicie sesión.
 2. En la barra lateral izquierda, selecciona **SYSTEM** > **Upgrade**.
 
-## 2. Descargar el archivo de firmware
+## 2. Descargar el archivo de firmware {#2-download-the-firmware-file}
 
 1. En la barra de búsqueda del [centro de descarga de firmware](https://dl.gl-inet.com/), busque y seleccione el modelo de su router.
 2. En la pestaña **Stable** o en otra pestaña, seleccione **DOWNLOAD FOR COMMON UPGRADE AND U-BOOT** junto a la versión de firmware que quiera descargar.
 
-## 3. Cargar el firmware
+## 3. Cargar el firmware {#3-upload-the-firmware}
 
 Las siguientes instrucciones están escritas para cargar el firmware a través del panel de administración del router. Para cargar el firmware mediante la aplicación móvil GL.iNet, [descarga la aplicación](https://www.gl-inet.com/app/) y configúrala.
 

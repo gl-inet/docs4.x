@@ -1,4 +1,4 @@
-# Modo de red
+# Modo de red {#network-mode}
 
 En el lado izquierdo del panel de administración web, vaya a **NETWORK** -> **Network Mode**.
 
@@ -12,7 +12,7 @@ El modo de red se refiere a los distintos roles y funciones operativas que un ro
 
     3. **En el modo Non-Router, las siguientes funciones no estarán disponibles**: Access Control (Allowlist y Blocklist), AstroWarp, VPN, AdGuard Home, Parental Control, ZeroTier, Tailscale, Port Forwarding, Multi-WAN, DHCP Server, Address Reservation, Guest Network, DNS, Port Management, IPv6, Drop-in Gateway, IGMP Snooping, Network Acceleration, NAT Settings.
 
-## Para modelos con Wi-Fi
+## Para modelos con Wi-Fi {#for-models-with-wi-fi}
 
 Salvo algunos modelos específicos, la mayoría de los routers inalámbricos GL.iNet tienen funcionalidad Wi-Fi.
 
@@ -56,7 +56,7 @@ Los modelos con funcionalidad Wi-Fi suelen admitir cuatro modos de red: Router, 
 
   Después de cambiar al modo WDS, no podrá acceder al panel de administración web usando la dirección IP LAN original. En su lugar, deberá iniciar sesión en el router ascendente para encontrar la dirección IP que le ha asignado a este router WDS y, a continuación, usar esa dirección IP para acceder al panel de administración web. Si no tiene acceso al router ascendente, mantenga pulsado el botón de reinicio durante 4 segundos para volver al modo Router predeterminado.
 
-## Para modelos sin Wi-Fi
+## Para modelos sin Wi-Fi {#for-models-without-wi-fi}
 
 GL-MT2500/GL-MT2500A no admite los modos Access Point, Extender ni WDS, ya que no dispone de funcionalidad Wi-Fi. Pero sí admite el modo Router y el modo Bridge.
 

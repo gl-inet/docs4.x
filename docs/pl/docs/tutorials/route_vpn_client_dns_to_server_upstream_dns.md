@@ -1,8 +1,8 @@
-# Jak przekierować zapytania DNS klienta VPN do nadrzędnego DNS serwera VPN?
+# Jak przekierować zapytania DNS klienta VPN do nadrzędnego DNS serwera VPN? {#how-to-route-vpn-client-dns-queries-to-the-vpn-servers-upstream-dns}
 
 Ten poradnik przedstawia kroki przekierowania wszystkich zapytań DNS od klientów VPN do własnego serwera DNS znajdującego się po stronie LAN routera głównego, powyżej serwera VPN.
 
-## Topologia
+## Topologia {#topology}
 
 W tym poradniku używamy **Flint 3 (GL-BE9300)** i **Slate 7 (GL-BE3600)** jako przykładów.
 
@@ -16,7 +16,7 @@ Jednak jeśli wdrożono własny serwer DNS (adres IP `192.168.1.13`) na routerze
 
 ![topology 2](https://static.gl-inet.com/docs/router/en/4/tutorials/route_vpn_dns_to_server_upstream_dns/topology-2.jpg){class="glboxshadow"}
 
-## Konfiguracja
+## Konfiguracja {#setup}
 
 1. Zaloguj się do panelu administratora Flint 3, przejdź do **NETWORK** -> **DNS**. Przełącz tryb serwera DNS na **Manual DNS** i wprowadź adres IP swojego serwera DNS.
 
@@ -50,7 +50,7 @@ Jednak jeśli wdrożono własny serwer DNS (adres IP `192.168.1.13`) na routerze
 
     ![start client](https://static.gl-inet.com/docs/router/en/4/tutorials/route_vpn_dns_to_server_upstream_dns/start_client.png){class="glboxshadow"}
 
-## Weryfikacja rozwiązywania nazw DNS
+## Weryfikacja rozwiązywania nazw DNS {#verify-dns-resolution}
 
 Uruchom następujące polecenie, aby przechwycić ruch DNS na kliencie VPN. Pokaże to, że cały ruch DNS klienta VPN trafia do serwera VPN (tj. `10.0.0.1` w tym przykładzie).
 

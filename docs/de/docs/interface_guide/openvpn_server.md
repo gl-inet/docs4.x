@@ -1,4 +1,4 @@
-# OpenVPN-Server auf GL.iNet-Routern einrichten
+# OpenVPN-Server auf GL.iNet-Routern einrichten {#set-up-openvpn-server-on-glinet-routers}
 
 OpenVPN ist ein Open-Source-VPN-Protokoll, das Techniken virtueller privater Netzwerke nutzt, um sichere Site-to-Site- oder Punkt-zu-Punkt-Verbindungen herzustellen.
 
@@ -6,7 +6,7 @@ Um auf einem GL.iNet-Router einen OpenVPN-Server einzurichten, sehen Sie sich di
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GSbytyaqOY0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Stellen Sie sicher, dass Sie eine öffentliche IP-Adresse haben
+## Stellen Sie sicher, dass Sie eine öffentliche IP-Adresse haben {#make-sure-you-have-a-public-ip-address}
 
 Klicken Sie bitte [hier](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md), um zu prüfen, ob Ihr Internetdienstanbieter Ihnen eine öffentliche IP-Adresse zuweist.
 
@@ -18,7 +18,7 @@ Alternative Möglichkeiten:
 2. Fragen Sie Ihren ISP nach einer öffentlichen IP-Adresse. Dies kann zusätzliche Kosten verursachen.
 3. Wenn die beiden oben genannten Methoden nicht funktionieren (z. B. wenn sich Ihr Netzwerk hinter CGNAT befindet), können Sie unsere SD-WAN-Lösung [AstroWarp](../interface_guide/astrowarp.md){target="_blank"} ausprobieren.
 
-## Prüfen, ob eine Portweiterleitung erforderlich ist
+## Prüfen, ob eine Portweiterleitung erforderlich ist {#confirm-if-port-forwarding-is-required}
 
 **Netzwerktopologie**
 
@@ -32,7 +32,7 @@ Alternative Möglichkeiten:
     
     * Wenn bereits ein Hauptrouter verwendet wird und sich der GL.iNet-Router mehrere Ebenen unterhalb des Hauptrouters befindet, richten Sie auf jeder Zwischenebene eine [Portweiterleitung](../tutorials/how_to_set_up_port_forwarding.md) ein.
 
-## OpenVPN-Server einrichten
+## OpenVPN-Server einrichten {#set-up-openvpn-server}
 
 Melden Sie sich am webbasierten Admin Panel an und navigieren Sie zu **VPN** -> **OpenVPN Server**.
 
@@ -50,7 +50,7 @@ Melden Sie sich am webbasierten Admin Panel an und navigieren Sie zu **VPN** -> 
 
     ![openvpn server configuration](https://static.gl-inet.com/docs/router/de/4/interface_guide/openvpn_server/ovpnserver_configuration.png){class="glboxshadow"}
 
-    * **Device Mode:** TAP-S2S oder Tun. Klicken Sie [hier](../tutorials/how_to_enable_openvpn_tap_s2s_mode_on_glinet_routers.md#tap-s2s-vs-tun-modus), um die Unterschiede zu sehen.
+    * **Device Mode:** TAP-S2S oder Tun. Klicken Sie [hier](../tutorials/how_to_enable_openvpn_tap_s2s_mode_on_glinet_routers.md#tap-s2s-vs-tun-mode), um die Unterschiede zu sehen.
 
     * **Protocol:** UDP oder TCP. Klicken Sie [hier](../faq/openvpn_tcp_udp.md), um die Unterschiede zu sehen.
 
@@ -88,9 +88,9 @@ Melden Sie sich am webbasierten Admin Panel an und navigieren Sie zu **VPN** -> 
 
     ![start openvpn server](https://static.gl-inet.com/docs/router/de/4/interface_guide/openvpn_server/start_ovpnserver.png){class="glboxshadow"}
 
-## Prüfen, ob der OpenVPN-Server ordnungsgemäß funktioniert
+## Prüfen, ob der OpenVPN-Server ordnungsgemäß funktioniert {#check-if-openvpn-server-is-working-properly}
 
-### Serverstatus prüfen
+### Serverstatus prüfen {#verify-server-status}
 
 Seit Firmware v4.8 können Sie den Verbindungsstatus des Servers auf der Seite **OpenVPN Server** prüfen.
 
@@ -102,7 +102,7 @@ Bei Firmware v4.7 und früher prüfen Sie den Verbindungsstatus des Servers bitt
 
 ![openvpn server connected v4.7](https://static.gl-inet.com/docs/router/de/4/interface_guide/openvpn_server/openserverup.jpg){class="glboxshadow"}
 
-### IP des Clients prüfen
+### IP des Clients prüfen {#verify-clients-ip}
 
 So prüfen Sie, ob die Verbindung zum Server erfolgreich ist: Importieren Sie die zuvor exportierte OpenVPN-Konfiguration auf ein Gerät in einem anderen Netzwerk (nicht im selben lokalen Netzwerk wie der Server). Öffnen Sie dann einen Webbrowser und suchen Sie nach Ihrer IP-Adresse und Ihrem Standort. Wenn diese mit der IP-Adresse und dem Standort des VPN-Servers übereinstimmen (statt mit denen Ihres Internetdienstanbieters), ist die VPN-Verbindung erfolgreich.
 
@@ -114,12 +114,12 @@ Beim Importieren der Konfigurationsdatei in die OpenVPN-App kann ein Hinweis wie
 
 Wenn die Verbindung fehlschlägt, gibt es mehrere häufige Ursachen:
 
-* Ihr Internetdienstanbieter weist Ihnen keine öffentliche IP-Adresse zu. Prüfen Sie dies [hier](#stellen-sie-sicher-dass-sie-eine-öffentliche-ip-adresse-haben).
-* Möglicherweise müssen Sie eine Portweiterleitung einrichten. Prüfen Sie dies [hier](#prüfen-ob-eine-portweiterleitung-erforderlich-ist).
+* Ihr Internetdienstanbieter weist Ihnen keine öffentliche IP-Adresse zu. Prüfen Sie dies [hier](#make-sure-you-have-a-public-ip-address).
+* Möglicherweise müssen Sie eine Portweiterleitung einrichten. Prüfen Sie dies [hier](#confirm-if-port-forwarding-is-required).
 * Der vom OpenVPN-Server verwendete Port wird von Ihrem Internetdienstanbieter blockiert. Wechseln Sie zu einem anderen Port oder wenden Sie sich für weitere Unterstützung an Ihren Internetdienstanbieter.
 * In manchen Ländern/Regionen kann die VPN-Verbindung blockiert werden.
 
-## Server Options
+## Server Options {#server-options}
 
 Server Options umfassen erweiterte serverseitige Einstellungen, beispielsweise den Fernzugriff auf das LAN des Servers und IP-Maskierung. Konfigurieren Sie diese Einstellungen entsprechend Ihren Anforderungen.
 
@@ -139,9 +139,13 @@ Im Pop-up-Fenster werden die folgenden Funktionen angezeigt.
 
 - **IP Masquerading**: Wenn diese Option aktiviert ist, werden die Quell-IP-Adressen der LAN-Clients in die VPN-Tunnel-IP des Routers umgeschrieben. Deaktivieren Sie diese Option nur bei Site-to-Site-Konfigurationen, bei denen der entfernte Peer Ihre LAN-Subnetze kennt.
 
+    Wie unten dargestellt: Wenn IP-Maskierung aktiviert ist und das NAS (192.168.8.100) im Heim-LAN Datenverkehr über den Tunnel an den Laptop (192.168.10.200) im Reise-LAN sendet, schreibt der Heimrouter die Quell-IP von `192.168.8.100` in die Tunneladresse des VPN-Servers `10.1.0.1` um. Die Gegenseite sieht dadurch, dass der Datenverkehr vom Server stammt und nicht aus dessen lokalem LAN.
+
+    ![ovpnserver ip masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/ip_masquerading.png){class="glboxshadow"}
+
 - **MTU**: Kurz für Maximum Transmission Unit. Der für den Tunnel festgelegte MTU-Wert überschreibt die MTU-Einstellungen in der Konfigurationsdatei.
 
-## Client to Client
+## Client to Client {#client-to-client}
 
 Client to Client ist eine serverseitige VPN-Funktion. Nach der Aktivierung können verbundene VPN-Clients über ihre jeweiligen VPN-Tunnel-IPs miteinander kommunizieren.
 
@@ -161,7 +165,7 @@ Führen Sie bei Bedarf die folgenden Schritte aus, um Client to Client auf Ihrem
 
 **Tipp**: Client to Client gibt nur die Tunnel-IP-Adresse des jeweiligen Clients bekannt. Die lokalen LAN-Subnetze hinter den einzelnen VPN-Clients werden dadurch nicht automatisch verfügbar. Wenn Clients auf die LAN-Subnetze der jeweils anderen Clients zugreifen sollen, fügen Sie auf dem VPN-Server Routing-Regeln hinzu, die diese entfernten LAN-Subnetze bekanntgeben.
 
-## OpenVPN-App installieren
+## OpenVPN-App installieren {#openvpn-app-install}
 
 Bitte laden Sie die OpenVPN-App von der [offiziellen OpenVPN-Website](https://openvpn.net/vpn-client/){target="_blank"} herunter.
 

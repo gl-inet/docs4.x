@@ -1,4 +1,4 @@
-# LAN
+# LAN {#lan}
 
 En el lado izquierdo del panel web de administración, vaya a **NETWORK** -> **LAN**.
 
@@ -6,7 +6,7 @@ La LAN es la red a la que está conectado su dispositivo cuando se conecta media
 
 Incluye ajustes básicos, ajustes del servidor DHCP y reserva de direcciones.
 
-## Ajustes básicos
+## Ajustes básicos {#basic-settings}
 
 Puede configurar la subred dentro de los rangos de direcciones privadas IPv4: `192.168.0.0/16`, `172.16.0.0/12`, `10.0.0.0/8`.
 
@@ -26,7 +26,7 @@ Puede configurar la subred dentro de los rangos de direcciones privadas IPv4: `1
 
   Puede aislar los dispositivos cliente en un segmento de red independiente. Estos dispositivos no podrán comunicarse con otros dispositivos de la misma red.
 
-## Servidor DHCP
+## Servidor DHCP {#dhcp-server}
 
 El **DHCP Server** está habilitado de forma predeterminada. El servidor DHCP asigna automáticamente direcciones IP y otros parámetros de comunicación a cada dispositivo cliente.
 
@@ -52,7 +52,7 @@ Haga clic en **Advanced** para una configuración adicional si es necesario.
 
 - **LPR Server**: (Line Printer Remote Server) Un servicio que gestiona trabajos de impresión y permite que los dispositivos de red envíen solicitudes de impresión a impresoras remotas. Se pueden configurar varios puertos de impresora LPR.
 
-## Reserva de direcciones
+## Reserva de direcciones {#address-reservation}
 
 Cuando especifica una dirección IP reservada para un cliente dentro de la LAN, el cliente siempre recibe la misma dirección IP cada vez que accede al servidor DHCP del router. Puede asignar direcciones IP reservadas a ordenadores o servidores que requieran ajustes IP permanentes.
 

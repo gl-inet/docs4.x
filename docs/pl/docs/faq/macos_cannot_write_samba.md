@@ -1,4 +1,4 @@
-# macOS nie może zapisywać do udziału Samba
+# macOS nie może zapisywać do udziału Samba {#macos-cannot-write-to-a-samba-share}
 
 Podczas używania nośnika sformatowanego jako exFAT w udziale Samba na niektórych urządzeniach z macOS może wystąpić jeden z poniższych błędów podczas próby zapisu plików do udziału.
 

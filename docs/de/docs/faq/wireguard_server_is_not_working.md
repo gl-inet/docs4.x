@@ -1,10 +1,10 @@
-# Was tun, wenn der WireGuard-Server nicht ordnungsgemäß funktioniert
+# Was tun, wenn der WireGuard-Server nicht ordnungsgemäß funktioniert {#what-should-i-do-if-the-wireguard-server-is-not-working-properly}
 
 Es gibt mehrere mögliche Ursachen, wenn der WireGuard-Server auf Ihrem GL.iNet-Router nicht ordnungsgemäß funktioniert.
 
 Folgen Sie den folgenden Schritten zur Fehlerbehebung entsprechend Ihrem konkreten Problem.
 
-## Situation 1. Der WireGuard-Server startet, es kann aber keine Verbindung hergestellt werden
+## Situation 1. Der WireGuard-Server startet, es kann aber keine Verbindung hergestellt werden {#situation-1-the-wireguard-server-is-starting-but-cant-be-connected}
 
 
 
@@ -188,7 +188,7 @@ Folgen Sie den folgenden Schritten zur Fehlerbehebung entsprechend Ihrem konkret
 
 
 
-## Situation 2. Der WireGuard-Server zeigt verbundene Clients an, aber der VPN-Client kann nicht auf das Internet zugreifen
+## Situation 2. Der WireGuard-Server zeigt verbundene Clients an, aber der VPN-Client kann nicht auf das Internet zugreifen {#situation-2-the-wireguard-server-shows-connected-client-but-the-vpn-client-cannot-access-the-internet}
 
 
 
@@ -360,7 +360,7 @@ Folgen Sie den folgenden Schritten zur Fehlerbehebung entsprechend Ihrem konkret
 
 
 
-## Situation 3. Der WireGuard-Server läuft, aber der VPN-Client kann keine Verbindung herstellen
+## Situation 3. Der WireGuard-Server läuft, aber der VPN-Client kann keine Verbindung herstellen {#situation-3-the-wireguard-server-is-running-but-vpn-client-cannot-connect-to-it}
 
 
 
@@ -408,7 +408,7 @@ Folgen Sie den folgenden Schritten zur Fehlerbehebung entsprechend Ihrem konkret
 
 
 
-    Um dies zu prüfen, folgen Sie dieser [Seite](https://docs.gl-inet.com/router/en/4/tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address/).
+    Um dies zu prüfen, folgen Sie dieser [Seite](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md).
 
 
 
@@ -484,7 +484,7 @@ Folgen Sie den folgenden Schritten zur Fehlerbehebung entsprechend Ihrem konkret
 
 
 
-## Situation 4. Der WireGuard-Server ist verbunden, aber die Verbindung ist nicht stabil
+## Situation 4. Der WireGuard-Server ist verbunden, aber die Verbindung ist nicht stabil {#situation-4-the-wireguard-server-is-connected-but-the-connection-is-not-stable}
 
 
 
@@ -544,7 +544,7 @@ Folgen Sie den folgenden Schritten zur Fehlerbehebung entsprechend Ihrem konkret
 
 
 
-## Situation 5. Der WireGuard-Server hat plötzlich aufgehört zu funktionieren
+## Situation 5. Der WireGuard-Server hat plötzlich aufgehört zu funktionieren {#situation-5-the-wireguard-server-suddenly-stopped-working}
 
 
 
@@ -576,7 +576,7 @@ Folgen Sie den folgenden Schritten zur Fehlerbehebung entsprechend Ihrem konkret
 
 
 
-    Prüfen Sie mithilfe der in Situation 1 beschriebenen Lösungsschritte oder über [GoodCloud](https://docs.gl-inet.com/router/en/4/interface_guide/cloud/) (falls Sie Ihren Router zuvor damit verbunden haben), ob Ihr WireGuard-Server noch online ist.
+    Prüfen Sie mithilfe der in Situation 1 beschriebenen Lösungsschritte oder über [GoodCloud](../interface_guide/cloud.md) (falls Sie Ihren Router zuvor damit verbunden haben), ob Ihr WireGuard-Server noch online ist.
 
 
 
@@ -608,7 +608,7 @@ Folgen Sie den folgenden Schritten zur Fehlerbehebung entsprechend Ihrem konkret
 
 
 
-    [Richten Sie die Portweiterleitung](https://docs.gl-inet.com/router/en/4/tutorials/how_to_set_up_port_forwarding/) mit einem anderen Port erneut ein.
+    [Richten Sie die Portweiterleitung](../tutorials/how_to_set_up_port_forwarding.md) mit einem anderen Port erneut ein.
 
 
 

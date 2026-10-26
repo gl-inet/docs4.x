@@ -1,4 +1,4 @@
-# Keine Verbindung zu einem verschleierten WireGuard-Server möglich
+# Keine Verbindung zu einem verschleierten WireGuard-Server möglich {#cannot-connect-to-an-obfuscated-wireguard-server}
 
 VPN-Verschleierung ist eine Technik, bei der VPN-Datenverkehr wie normaler Internetverkehr aussieht. Derzeit unterstützen einige GL.iNet-Router das AmneziaWG-Protokoll, sodass Sie einen WireGuard-Server mit aktivierter Datenverkehrsverschleierung einrichten können.
 

@@ -1,4 +1,4 @@
-# Tâches planifiées
+# Tâches planifiées {#scheduled-tasks}
 
 Dans la partie gauche du panneau d'administration web, accédez à **SYSTEM** -> **Scheduled Tasks**.
 
@@ -6,7 +6,7 @@ Les tâches planifiées vous permettent de configurer des horaires quotidiens po
 
 **Remarque** : Veuillez d'abord synchroniser l'heure dans [Fuseau horaire](time_zone.md) avant d'utiliser cette fonction. Si l'appareil est éteint à l'heure planifiée, la tâche ne sera pas exécutée.
 
-## Planification de l'affichage LED
+## Planification de l'affichage LED {#led-display-schedule}
 
 Cette fonction vous permet de définir un horaire d'activation/désactivation pour le voyant LED de votre routeur.
 
@@ -18,7 +18,7 @@ Pour les modèles dotés d'un écran tactile (par exemple, GL-BE3600 Slate 7), l
 
 ![LCD display schedule](https://static.gl-inet.com/docs/router/en/4/interface_guide/scheduled_tasks/lcd_display_schedule.png){class="glboxshadow"}
 
-## Redémarrage planifié
+## Redémarrage planifié {#schedule-reboot}
 
 Cette fonction vous permet de définir un horaire pour redémarrer automatiquement votre routeur.
 
@@ -26,7 +26,7 @@ Une fois activée, définissez les heures de redémarrage, sélectionnez les jou
 
 ![Schedule Reboot](https://static.gl-inet.com/docs/router/en/4/interface_guide/scheduled_tasks/schedule_reboot.png){class="glboxshadow gl-90-desktop"}
 
-## Planification Wi-Fi
+## Planification Wi-Fi {#wi-fi-schedule}
 
 Cette fonction vous permet de définir des horaires Wi-Fi en fonction des bandes de fréquences Wi-Fi prises en charge par votre routeur (telles que 2,4 GHz, 5 GHz, 6 GHz et MLO Wi-Fi).
 
@@ -36,7 +36,7 @@ Cette fonction vous permet de définir des horaires Wi-Fi en fonction des bandes
 
 - **Switch TX Power** : Permet d'ajuster automatiquement la puissance de transmission sans fil (qui détermine la force du signal et la couverture) à des heures spécifiques, équilibrant performance et efficacité énergétique (par exemple, réduction de la puissance pendant les périodes de faible utilisation).
 
-### Planification MLO Wi-Fi
+### Planification MLO Wi-Fi {#mlo-wi-fi-schedule}
 
 | Modèles pris en charge   |         |
 | :----------------------- | :-----: |
@@ -53,7 +53,7 @@ Activez la planification Main ou Guest Wi-Fi, définissez les heures d'activatio
 
 ![MLO Wi-Fi turn on/off](https://static.gl-inet.com/docs/router/en/4/interface_guide/scheduled_tasks/mlo_turn_on_off.png){class="glboxshadow"}
 
-### Planification Wi-Fi 6 GHz
+### Planification Wi-Fi 6 GHz {#6-ghz-wi-fi-schedule}
 
 | Modèles pris en charge   |         |
 | :----------------------- | :-----: |
@@ -78,7 +78,7 @@ Activez la planification Main Wi-Fi, définissez deux actions programmées pour 
 - **Restore** : Restaure la puissance TX à un autre niveau (par exemple, Max) à une autre heure (par exemple, 07:00).
 - **days** : Sélectionnez les jours effectifs de la semaine pour ces paramètres.
 
-### Planification Wi-Fi 5 GHz
+### Planification Wi-Fi 5 GHz {#5-ghz-wi-fi-schedule}
 
 Lorsque le mode de planification Wi-Fi est **Turn On/Off**, vous pouvez définir un horaire d'activation/désactivation pour le 5 GHz Main Wi-Fi et le Guest Wi-Fi.
 
@@ -96,7 +96,7 @@ Activez la planification Main Wi-Fi, définissez deux actions programmées pour 
 - **Restore** : Restaure la puissance TX à un autre niveau (par exemple, Max) à une autre heure (par exemple, 07:00).
 - **days** : Sélectionnez les jours effectifs de la semaine pour ces paramètres.
 
-### Planification Wi-Fi 2,4 GHz
+### Planification Wi-Fi 2,4 GHz {#24-ghz-wi-fi-schedule}
 
 Lorsque le mode de planification Wi-Fi est **Turn On/Off**, vous pouvez définir un horaire d'activation/désactivation pour le 2,4 GHz Main Wi-Fi et le Guest Wi-Fi.
 

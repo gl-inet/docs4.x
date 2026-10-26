@@ -1,4 +1,4 @@
-# MAC-Adresse
+# MAC-Adresse {#mac-address}
 
 Diese Anleitung gilt für Firmware v4.5 und älter.
 
@@ -30,7 +30,7 @@ Wenn das Gerät unterstützt, dass mehrere Ethernet-Ports als WAN-Ports verwende
 
     ![Manual input or generate a random mac address](https://static.gl-inet.com/docs/router/de/4/interface_guide/mac_address/manual.png){class="glboxshadow"}
 
-## Anwendungsszenarien
+## Anwendungsszenarien {#usage-scenarios}
 
 Wenn Sie sich mit einem öffentlichen Hotspot verbinden, verwenden Sie eine zufällige MAC-Adresse, wenn der Hotspot Ihre echte MAC-Adresse nicht kennen oder Ihren Internetzugang nicht anhand dieser Adresse einschränken soll. Lesen Sie dazu diese Anleitung: [Verbindung mit einem Hotspot mit Captive Portal](../faq/connect_to_a_hotspot_with_captive_portal.md).
 

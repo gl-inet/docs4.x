@@ -1,10 +1,10 @@
-# Maskowanie AmneziaWG
+# Maskowanie AmneziaWG {#amneziawg-obfuscation}
 
 AmneziaWG to protokół VPN oparty na WireGuard z wbudowanym maskowaniem ruchu. Jego parametry maskowania określają, w jaki sposób ruch jest ukrywany, aby utrudnić jego wykrycie przez restrykcyjną inspekcję sieciową.
 
 Poniżej znajdziesz szczegółowe omówienie AmneziaWG, różnic między wersjami, działania AmneziaWG na routerach GL.iNet oraz przegląd parametrów.
 
-## Dlaczego AmneziaWG?
+## Dlaczego AmneziaWG? {#why-amneziawg}
 
 Poprzednik AmneziaWG, czyli WireGuard, ugruntował swoją pozycję jako szybki i niezawodny protokół VPN dzięki zwartej bazie kodu i wysokiej wydajności. Jednak jego stałe nagłówki pakietów i przewidywalne rozmiary pakietów tworzą łatwo rozpoznawalną sygnaturę. Systemy DPI mogą bez trudu identyfikować takie pakiety i natychmiast zrywać połączenia – co jest krytycznym problemem w krajach objętych ścisłą cenzurą internetu.
 
@@ -15,7 +15,7 @@ W skrócie:
 - Maskuje cechy VPN, aby zapobiec wykryciu przez dostawców Internetu, zapory sieciowe lub systemy DPI.
 - Sprawia, że połączenie VPN wygląda jak standardowy ruch sieciowy, zwiększając stabilność i skuteczność połączenia w sieciach z ograniczeniami.
 
-## AmneziaWG V2.0
+## AmneziaWG V2.0 {#amneziawg-v20}
 
 W porównaniu z AmneziaWG v1.0, wersja v2.0 zapewnia silniejsze maskowanie dzięki dodaniu nowych parametrów (**S3~S4**) oraz zastosowaniu dynamicznych nagłówków dla typów pakietów (**H1~H4** jako zakresów zamiast stałych wartości). Dodatkowo AmneziaWG 2.0 obsługuje parametry **I1~I5**, które wysyłają sformatowane pakiety UDP przed każdym handshake, aby upodobnić ruch AmneziaWG do zwykłego ruchu spoza VPN, skutecznie omijając głęboką inspekcję pakietów i poprawiając łączność w sieciach o ograniczonym dostępie. 
 
@@ -35,13 +35,13 @@ Dzięki tym usprawnieniom ruch VPN jest trudniejszy do wykrycia, przy zachowaniu
             
     > Uwaga: I1-I5 nie są generowane automatycznie. Użytkownicy mogą ręcznie dodać je jako dodatkowe linie w pliku konfiguracji, aby ruch AmneziaWG wyglądał jak inne popularne protokoły, takie jak QUIC lub WebRTC.
 
-## Obsługiwane modele
+## Obsługiwane modele {#supported-model}
 
 AmneziaWG 2.0 jest dostępny na routerach GL.iNet z firmware v4.9 lub nowszym.
 
 Aby skonfigurować maskowanie VPN na routerach GL.iNet, zapoznaj się z [tym poradnikiem](../tutorials/how_to_set_up_vpn_obfuscation_on_glinet_routers.md).
 
-## Przegląd parametrów
+## Przegląd parametrów {#parameter-overview}
 
 | Parameter    | Description                    | Constraints     | Auto-generated   |
 | ------------ | ------------------------------ | --------------- | ---------------- |

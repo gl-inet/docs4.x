@@ -1,10 +1,10 @@
-# Comprendere le antenne cellulari esterne
+# Comprendere le antenne cellulari esterne {#understanding-external-cellular-antennas}
 
 Le antenne cellulari esterne possono migliorare la qualità della connessione cellulare in alcune situazioni, ma non garantiscono un aumento della velocità di download o upload.
 
 Questa guida spiega quando un’antenna esterna può essere utile, come scegliere un’antenna compatibile e quali fattori influiscono sulle prestazioni cellulari.
 
-## Quando dovrei usare un’antenna esterna?
+## Quando dovrei usare un’antenna esterna? {#when-should-i-use-an-external-antenna}
 
 Un’antenna esterna può migliorare la connessione se il router è installato in un punto in cui i segnali cellulari si indeboliscono prima di raggiungere il dispositivo.
 
@@ -19,7 +19,7 @@ Esempi tipici:
 
 Prima di acquistare un’antenna, prova a spostare il router più vicino a una finestra o in una posizione più elevata. In molti casi, il solo riposizionamento del router può migliorare notevolmente la qualità del segnale.
 
-## Quando un’antenna esterna non aiuta?
+## Quando un’antenna esterna non aiuta? {#when-wont-an-external-antenna-help}
 
 Un’antenna esterna non può risolvere tutti i problemi di connettività cellulare.
 
@@ -34,7 +34,7 @@ Può offrire un miglioramento minimo o nullo se:
 
 Un segnale più forte non comporta sempre velocità Internet più elevate.
 
-## Scegliere l’antenna giusta
+## Scegliere l’antenna giusta {#choosing-the-right-antenna}
 
 Prima di acquistare un’antenna, assicurati che sia compatibile sia con il router sia con il tuo operatore mobile.
 
@@ -47,7 +47,7 @@ Verifica quanto segue:
 
 Consulta la documentazione del prodotto del router per conoscere il tipo corretto di connettore antenna.
 
-## Comprendere MIMO
+## Comprendere MIMO {#understanding-mimo}
 
 La maggior parte delle reti LTE e 5G moderne usa la tecnologia **Multiple Input Multiple Output (MIMO)** per migliorare throughput e affidabilità della connessione.
 
@@ -61,7 +61,7 @@ Per ottenere le migliori prestazioni:
 
 Usare una sola antenna su un router progettato per più antenne può ridurre le prestazioni complessive.
 
-## Guadagno dell’antenna e perdita del cavo
+## Guadagno dell’antenna e perdita del cavo {#antenna-gain-and-cable-loss}
 
 Il guadagno dell’antenna viene generalmente misurato in **dBi**.
 
@@ -77,9 +77,9 @@ Per ottenere i migliori risultati:
 - Evita adattatori non necessari.
 - Usa cavo coassiale a bassa perdita per tratte più lunghe.
 
-## Antenne omnidirezionali e direzionali
+## Antenne omnidirezionali e direzionali {#omnidirectional-vs-directional-antennas}
 
-### Antenne omnidirezionali
+### Antenne omnidirezionali {#omnidirectional-antennas}
 
 Le antenne omnidirezionali ricevono segnali da tutte le direzioni.
 
@@ -90,7 +90,7 @@ Sono generalmente consigliate per:
 - Installazioni mobili
 - Aree con più torri vicine
 
-### Antenne direzionali
+### Antenne direzionali {#directional-antennas}
 
 Le antenne direzionali concentrano la ricezione verso una direzione specifica.
 
@@ -103,7 +103,7 @@ Sono generalmente consigliate quando:
 
 Le antenne direzionali di solito richiedono un allineamento accurato per ottenere le migliori prestazioni.
 
-## Misurare il miglioramento
+## Misurare il miglioramento {#measuring-improvement}
 
 Non affidarti solo alle barre del segnale mostrate nell’interfaccia del router.
 
@@ -119,27 +119,27 @@ Misurazioni utili:
 
 Esegui più speed test in condizioni simili, poiché le prestazioni cellulari cambiano naturalmente durante la giornata.
 
-## Domande frequenti
+## Domande frequenti {#frequently-asked-questions}
 
-### Posso usare qualsiasi antenna cellulare?
+### Posso usare qualsiasi antenna cellulare? {#can-i-use-any-cellular-antenna}
 
 No.
 
 L’antenna deve usare il tipo di connettore corretto e supportare le bande di frequenza cellulari usate dal router e dall’operatore mobile.
 
-### Dovrei acquistare l’antenna con il guadagno più alto disponibile?
+### Dovrei acquistare l’antenna con il guadagno più alto disponibile? {#should-i-buy-the-highest-gain-antenna-available}
 
 Non necessariamente.
 
 Scegli un’antenna adatta alla tua installazione, invece di basarti solo sul guadagno dichiarato.
 
-### Un’antenna esterna aumenta sempre la mia velocità Internet?
+### Un’antenna esterna aumenta sempre la mia velocità Internet? {#will-an-external-antenna-always-increase-my-internet-speed}
 
 No.
 
 Le prestazioni dipendono da molti fattori, tra cui qualità del segnale, carrier aggregation, congestione della torre, condizioni della rete e operatore mobile.
 
-### Le antenne cellulari interne vengono ancora usate quando sono collegate antenne esterne?
+### Le antenne cellulari interne vengono ancora usate quando sono collegate antenne esterne? {#will-the-internal-cellular-antennas-still-be-used-when-external-antennas-are-connected}
 
 No.
 
@@ -147,7 +147,7 @@ Sui router cellulari GL.iNet con porte per antenne cellulari esterne, il collega
 
 Per ottenere le migliori prestazioni, collega tutti i cavi antenna esterni richiesti. Collegare un solo cavo a un router progettato per più antenne cellulari può ridurre le prestazioni MIMO e la qualità complessiva della connessione.
 
-### Posso collegare un’antenna Wi-Fi a una porta per antenna cellulare?
+### Posso collegare un’antenna Wi-Fi a una porta per antenna cellulare? {#can-i-connect-a-wi-fi-antenna-to-a-cellular-antenna-port}
 
 No.
 
@@ -155,7 +155,7 @@ Le antenne Wi-Fi e cellulari sono progettate per sistemi radio diversi e non son
 
 ---
 
-## Tutorial correlati
+## Tutorial correlati {#related-tutorials}
 
 - [Installare o sostituire le antenne esterne](how_to_install_or_change_antennas.md)
 - [Controllare lo stato della carrier aggregation](how_to_check_carrier_aggregation.md)

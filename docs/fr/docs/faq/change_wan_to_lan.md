@@ -1,10 +1,10 @@
-# Changer le port WAN en port LAN
+# Changer le port WAN en port LAN {#change-wan-to-lan}
 
 Vous pouvez convertir le port WAN de votre routeur en port LAN. Cela est particulièrement utile lorsque vous utilisez le routeur en mode répéteur, où le port WAN n'est pas nécessaire. En changeant le port WAN en port LAN, vous obtenez un port LAN supplémentaire pour étendre la connectivité.
 
 Suivez les étapes ci-dessous pour changer le port WAN en port LAN.
 
-## Pour le firmware 4.10
+## Pour le firmware 4.10 {#for-firmware-410}
 
 1. Laissez le port WAN déconnecté.
 
@@ -30,7 +30,7 @@ Suivez les étapes ci-dessous pour changer le port WAN en port LAN.
 
 Vous pouvez le repasser en WAN depuis la page Ethernet Port, ou appuyer sur le bouton RESET pendant 4 secondes pour redémarrer l'interface WAN.
 
-## Pour le firmware 4.7-4.9
+## Pour le firmware 4.7-4.9 {#for-firmware-47-49}
 
 1. Laissez le port WAN déconnecté.
 
@@ -60,7 +60,7 @@ Vous pouvez le repasser en WAN depuis la page Ethernet Port, ou appuyer sur le b
 
 	Vous pouvez le repasser en WAN depuis la page **Port Management**, ou appuyer sur le bouton RESET pendant 4 secondes pour redémarrer l'interface WAN.
 
-## Pour le firmware 4.6 et versions antérieures
+## Pour le firmware 4.6 et versions antérieures {#for-firmware-46-and-earlier}
 
 1. Laissez le port WAN déconnecté.
 

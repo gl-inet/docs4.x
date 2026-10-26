@@ -1,12 +1,12 @@
-# ディスプレイ管理
+# ディスプレイ管理 {#display-management}
 
-**Note**: このページはタッチスクリーン搭載モデルでのみ利用できます。
+**注意**: このページはタッチスクリーン搭載モデルでのみ利用できます。
 
 Web管理パネルの左側で、**SYSTEM** -> **Display Management** に移動します。
 
 このページでは、タッチスクリーンディスプレイと関連設定を管理できます。
 
-## GL-BE14000
+## GL-BE14000 {#gl-be14000}
 
 ![be14000 display](https://static.gl-inet.com/docs/router/en/4/interface_guide/display_management/be14000_display.png){class="glboxshadow"}
 
@@ -17,7 +17,7 @@ Web管理パネルの左側で、**SYSTEM** -> **Display Management** に移動�
 - **Screen Always On**: タッチスクリーンを常時点灯させるか、無操作後に消灯させるかを選択します。
 - **Enable Screen Passcode**: 必要に応じてタッチスクリーンにパスコード（4桁の数字のみ）を設定します。
 
-## GL-BE10000
+## GL-BE10000 {#gl-be10000}
 
 ![be10000 display](https://static.gl-inet.com/docs/router/en/4/interface_guide/display_management/be10000_display.png){class="glboxshadow"}
 
@@ -28,7 +28,7 @@ Web管理パネルの左側で、**SYSTEM** -> **Display Management** に移動�
 - **Screen Always On**: タッチスクリーンを常時点灯させるか、無操作後に消灯させるかを選択します。
 - **Enable Screen Passcode**: 必要に応じてタッチスクリーンにパスコード（4桁の数字のみ）を設定します。
 
-## GL-BE3600
+## GL-BE3600 {#gl-be3600}
 
 ![be3600 display](https://static.gl-inet.com/docs/router/en/4/interface_guide/display_management/be3600_display.png){class="glboxshadow"}
 
@@ -49,7 +49,7 @@ Web管理パネルの左側で、**SYSTEM** -> **Display Management** に移動�
 - **Screen Always On**: このオプションを切り替えて、タッチスクリーンを常時点灯させるか、無操作後に消灯させるかを選択します。
 - **Enable Screen Passcode**: 必要に応じてタッチスクリーンにパスコード（4桁の数字のみ）を設定します。
 
-## GL-E5800
+## GL-E5800 {#gl-e5800}
 
 ![e5800 display](https://static.gl-inet.com/docs/router/en/4/interface_guide/display_management/e5800_display.png){class="glboxshadow"}
 
@@ -62,4 +62,4 @@ Web管理パネルの左側で、**SYSTEM** -> **Display Management** に移動�
 
 ---
 
-ご不明な点がありましたら、[Community Forum](https://forum.gl-inet.com){target="_blank"} または [Contact us](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

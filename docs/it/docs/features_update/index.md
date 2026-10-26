@@ -3,7 +3,7 @@ hide:
   - navigation
 ---
 
-# Aggiornamenti delle funzioni
+# Aggiornamenti delle funzioni {#features-update}
 
 Scopri le principali nuove funzioni, i miglioramenti funzionali e gli adeguamenti strutturali della versione firmware più recente.
 

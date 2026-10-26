@@ -1,10 +1,10 @@
-# SMS-Weiterleitung
+# SMS-Weiterleitung {#sms-forwarding}
 
 GL.iNet-Mobilfunkrouter unterstützen die SMS-Weiterleitung und leiten eingehende Nachrichten automatisch an festgelegte Empfänger weiter.
 
 **Hinweis**: Diese Funktion arbeitet nur auf GL.iNet-Mobilfunkroutern mit dem originalen 4G-LTE-/5G-NR-Modul und wird bei anderen Modulen oder beliebigen USB-Modulen nicht unterstützt.
 
-## Unterstützte Modelle
+## Unterstützte Modelle {#supported-models}
 
 ??? "Unterstützte Modelle"
     - GL-E5800 (Mudi 7)
@@ -41,17 +41,17 @@ GL.iNet-Mobilfunkrouter unterstützen die SMS-Weiterleitung und leiten eingehend
     - GL-B1300 (Convexa-B)
     - GL-AP1300 (Cirrus)
 
-## Einrichtung
+## Einrichtung {#quick-setup}
 
 Nehmen wir den GL-XE3000 (Puli AX) als Beispiel.
 
-Gehen Sie auf der linken Seite des Web-Admin-Panels zum Bereich **INTERNET** -> **Cellular**.
+1. Konfigurieren Sie zunächst Ihren Mobilfunkrouter wie unter [diesem Link](../interface_guide/internet_cellular.md) beschrieben.
 
-Klicken Sie oben rechts auf das Umschlag-Symbol, um die SMS-Seite zu öffnen. Dort finden Sie die Einstellungen für SMS Forwarding.
+2. Melden Sie sich im Web-Admin-Panel des Routers an und gehen Sie zu **INTERNET** -> **Cellular**. Klicken Sie oben rechts auf das Umschlag-Symbol, um die SMS-Seite zu öffnen. Dort finden Sie die Einstellungen für SMS Forwarding.
 
-![SMS-Einstellung](https://static.gl-inet.com/docs/router/de/4/tutorials/sms_forwarding/sms.png){class="glboxshadow"}
+    ![SMS-Einstellung](https://static.gl-inet.com/docs/router/de/4/tutorials/sms_forwarding/sms.png){class="glboxshadow"}
 
-### Über E-Mail weiterleiten
+### Über E-Mail weiterleiten {#forward-via-email}
 
 ![SMS-Weiterleitung per E-Mail](https://static.gl-inet.com/docs/router/de/4/tutorials/sms_forwarding/sms_forward_email.png){class="glboxshadow"}
 
@@ -88,7 +88,7 @@ Klicken Sie oben rechts auf das Umschlag-Symbol, um die SMS-Seite zu öffnen. Do
 
 Sie können bis zu 10 E-Mail-Adressen hinzufügen.
 
-### Per SMS weiterleiten
+### Per SMS weiterleiten {#forward-via-sms}
 
 ![SMS-Weiterleitung per Telefon](https://static.gl-inet.com/docs/router/de/4/tutorials/sms_forwarding/sms_forward_phone.png){class="glboxshadow"}
 

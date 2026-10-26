@@ -1,18 +1,18 @@
-# Jak uzyskać wsparcie techniczne przez AnyDesk
+# Jak uzyskać wsparcie techniczne przez AnyDesk {#how-to-obtain-technical-support-via-anydesk}
 
 **Dzięki zdalnej pomocy nasi technicy mogą bezpośrednio sprawdzić Twoje ustawienia sieci i pomóc w szybkiej konfiguracji sieci lub rozwiązaniu problemów z siecią.** 
 
 **Zanim zaakceptujesz zdalną pomoc, poświęć kilka minut na przygotowanie:**
 
-## 1. Zamknij niepotrzebne aplikacje
+## 1. Zamknij niepotrzebne aplikacje {#1-close-unnecessary-applications}
 
 Zamknij wcześniej wszelkie aplikacje, które nie są potrzebne. Pomoże to zmniejszyć rozpraszanie uwagi i chronić Twoją prywatność.
 
-## 2. Zapewnij stabilne połączenie sieciowe
+## 2. Zapewnij stabilne połączenie sieciowe {#2-ensure-network-stable}
 
 Zalecamy korzystanie zarówno z Wi-Fi, jak i połączenia przewodowego na komputerze, aby uniknąć rozłączeń lub opóźnień podczas sesji zdalnej pomocy.
 
-## 3. Pobierz i zainstaluj AnyDesk
+## 3. Pobierz i zainstaluj AnyDesk {#3-download-and-install-anydesk}
 
 Odwiedź oficjalną [stronę AnyDesk](https://anydesk.com/), aby pobrać wersję odpowiednią dla Twojego systemu operacyjnego.
 
@@ -20,17 +20,17 @@ Odwiedź oficjalną [stronę AnyDesk](https://anydesk.com/), aby pobrać wersję
 
 Uruchom AnyDesk po instalacji.
 
-## 4. Uzyskaj adres AnyDesk
+## 4. Uzyskaj adres AnyDesk {#4-obtain-anydesk-address}
 
 Po uruchomieniu AnyDesk zobaczysz adres numeryczny (zazwyczaj w formacie "123 456 789"). To jest adres, którym musisz podzielić się z technikiem wsparcia.
 
 ![get anydesk address](https://static.gl-inet.com/docs/router/en/4/tutorials/remote_support_via_anydesk/anydesk_address.png){class="glboxshadow"}
 
-## 5. Udostępnij adres AnyDesk
+## 5. Udostępnij adres AnyDesk {#5-share-anydesk-address}
 
 Wyślij swój adres AnyDesk do personelu wsparcia, aby mógł połączyć się z Twoim urządzeniem.
 
-## 6. Zaakceptuj żądanie połączenia
+## 6. Zaakceptuj żądanie połączenia {#6-accept-connection-request}
 
 Gdy technik spróbuje się połączyć, otrzymasz monit o żądanie połączenia. 
     
@@ -38,11 +38,11 @@ Upewnij się, że ufasz technikowi, a następnie kliknij "Accept", aby zezwolić
 
 ![accept request](https://static.gl-inet.com/docs/router/en/4/tutorials/remote_support_via_anydesk/accept_request.png){class="glboxshadow"}
 
-## 7. Komunikacja podczas sesji
+## 7. Komunikacja podczas sesji {#7-communicate-during-session}
 
 Podczas sesji wsparcia możesz swobodnie komunikować się przez głośnik, okno czatu w sesji Anydesk lub dowolną inną metodą, aby skutecznie rozwiązać swoje problemy.
 
-## 8. Zakończ sesję
+## 8. Zakończ sesję {#8-end-the-session}
 
 Po zakończeniu sesji wsparcia zakończ połączenie, klikając czerwony przycisk "End Session" w interfejsie AnyDesk. Spowoduje to zakończenie wszystkich uprawnień zdalnego dostępu. Aby zapewnić pełną ochronę prywatności, wykonaj również następujące czynności:
 

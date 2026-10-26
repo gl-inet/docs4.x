@@ -1,14 +1,14 @@
-# Duales kabelgebundenes Ethernet-WAN über einen Ethernet-auf-USB-A-Adapter konfigurieren
+# Duales kabelgebundenes Ethernet-WAN über einen Ethernet-auf-USB-A-Adapter konfigurieren {#configure-dual-wired-ethernet-wan-via-an-ethernet-to-usb-a-adapter}
 
 Sie können auf einem Router mit nur einem WAN-Port über einen Ethernet-auf-USB-A-Adapter einen dualen kabelgebundenen Ethernet-WAN-Zugang konfigurieren.
 
 GL.iNet-Router unterstützen gängige Ethernet-auf-USB-A-Adapter. Damit können Sie den kabelgebundenen Ethernet-Zugang Ihres ISP-Routers über den USB-Port des Routers in eine USB-Verbindung umwandeln und dem Router zusätzlich zum WAN-Port einen weiteren kabelgebundenen Ethernet-Zugang bereitstellen.
 
-## Topologie
+## Topologie {#topology}
 
 ![Topology](https://static.gl-inet.com/docs/router/de/4/tutorials/multiwan_wire/adaptor.png){class="glboxshadow"}
 
-## Einrichtungsschritte
+## Einrichtungsschritte {#setup-steps}
 
 1. Stecken Sie den Ethernet-auf-USB-A-Adapter in den USB-Port Ihres GL.iNet-Routers und verbinden Sie das andere Ende mit Ihrem ISP-Router.
 
@@ -22,7 +22,7 @@ GL.iNet-Router unterstützen gängige Ethernet-auf-USB-A-Adapter. Damit können 
 
     Warten Sie, bis die Installation abgeschlossen ist.
 
-    ![installation suceeded](https://static.gl-inet.com/docs/router/de/4/tutorials/multiwan_wire/suceeded.png){class="glboxshadow"}
+    ![installation succeeded](https://static.gl-inet.com/docs/router/de/4/tutorials/multiwan_wire/suceeded.png){class="glboxshadow"}
 
 3. Über USB Tethering verbinden.
 

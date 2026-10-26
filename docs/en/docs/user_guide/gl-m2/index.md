@@ -1,14 +1,14 @@
-# GL-M2 User Guide
+# GL-M2 User Guide {#gl-m2-user-guide}
 
-## Hardware info
+## Hardware info {#hardware-info}
 
 GL-M2 is a 5G development board for DIY enthusiasts who would like to build their own routers and modems. With GL-M2's 5G Module and 5G antennas, it provides a quality 5G cellular network.
 
-![gl-2 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-m2/hardware_info/gl-m2_interface.jpg){class="glboxshadow"}
+![gl-m2 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-m2/hardware_info/gl-m2_interface.jpg){class="glboxshadow"}
 
 [GL-M2 specifications](https://www.gl-inet.com/products/gl-m2/#specs){target="_blank"}
 
-## Package contents
+## Package contents {#package-contents}
 
 ![gl-m2 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-m2/first_time_setup/m2_unboxing.jpg){class="glboxshadow"}
 
@@ -23,7 +23,7 @@ The package includes:
 - 1 x 5G Module (Optional)
 - 1 x Type-C Cable
 
-## First-time setup
+## First-time setup {#first-time-setup}
 
 Watch this video or follow the steps below.
 
@@ -41,7 +41,7 @@ Watch this video or follow the steps below.
 
 3. Power up.
 
-    Connect to a DC power supply and use a Type-C to USB 3.0 data cable to [connect to the router](#connect-gl-m2-to-glinet-routers) or other device.
+    Connect to a DC power supply and use a Type-C to USB 3.0 data cable to [connect to the router](#connect-m2-to-glinet-routers) or other device.
 
     ![gl-m2 setup](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-m2/first_time_setup/m2_setup_3.jpg){class="glboxshadow"}
 
@@ -51,7 +51,7 @@ Watch this video or follow the steps below.
 
   - When the power indicator light is lit in red, it indicates a functioning power supply.
 
-## Connect M2 to GL.iNet routers
+## Connect M2 to GL.iNet routers {#connect-m2-to-glinet-routers}
 
 GL-M2 (with 5G module RM520N-GL installed) is compatible with the following models:
 

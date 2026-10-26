@@ -1,6 +1,6 @@
-# GL.iNet GoodCloud
+# GL.iNet GoodCloud {#glinet-goodcloud}
 
-## Introduction
+## Introduction {#introduction}
 
 GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} is a platform designed to simplify the remote deployment and management of connected devices. It provides an easy way to remotely access and manage GL.iNet routers. By centralizing network devices on the cloud, users can efficiently perform batch management tasks, such as deploying network configurations and performing software upgrades. They can also remotely access the router's web Admin Panel or connect to the router's terminal via SSH, achieving cross-regional and end-to-end network device management.
 
@@ -33,11 +33,11 @@ With GoodCloud, you can:
 
 If you need to manage multiple devices and unlock advanced features like bulk operations, multi-account management, and customized solutions, choose our value-added plans. Click [here](https://www.gl-inet.com/solutions/goodcloud/){target="_blank"} for details, and feel free to reach out to [support@gl-inet.com](mailto:support@gl-inet.com).
 
-## Bind Devices to Cloud
+## Bind Devices to Cloud {#bind-devices-to-cloud}
 
 Select the corresponding section for device binding steps based on the firmware version of your device.
 
-### For firmware v4.10 and above
+### For firmware v4.10 and above {#for-firmware-v410-and-above}
 
 1. Enable GoodCloud.
 
@@ -85,7 +85,7 @@ Select the corresponding section for device binding steps based on the firmware 
 
     If you encounter any difficulties, please email [support@gl-inet.com](mailto:support@gl-inet.com) for assistance.
 
-### For firmware v4.7 to v4.9
+### For firmware v4.7 to v4.9 {#for-firmware-v47-to-v49}
 
 1. Enable GoodCloud.
 
@@ -133,7 +133,7 @@ Select the corresponding section for device binding steps based on the firmware 
 
     If you encounter any difficulties, please email [support@gl-inet.com](mailto:support@gl-inet.com) for assistance.
 
-### For firmware v4.6 or earlier
+### For firmware v4.6 or earlier {#for-firmware-v46-or-earlier}
 
 1. Enable GoodCloud.
 
@@ -203,9 +203,9 @@ Select the corresponding section for device binding steps based on the firmware 
 
     If you encounter any difficulties, please email [support@gl-inet.com](mailto:support@gl-inet.com) for assistance.
 
-## Manage Devices
+## Manage Devices {#manage-devices}
 
-### System info and actions
+### System info and actions {#system-info-and-actions}
 
 On the [GoodCloud](https://www.goodcloud.xyz){target="_blank"} -> **Bound Devices**, you can view the system information (e.g., model, version, MAC address, IP address) and status (e.g., online, offline) of all devices bound to your account.
 
@@ -221,37 +221,37 @@ Click the gear icon on the far right of the list header, and you can customize t
 
 ![column display](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/column_display.png){class="glboxshadow"}
 
-### Device details
+### Device details {#device-details}
 
 On the [GoodCloud](https://www.goodcloud.xyz){target="_blank"} -> **Bound Devices**, click a device name, and you will be redirected to the device details page, where it displays the router's basic info, statistical data, network settings, clients list, etc. 
 
 ![Device detail info](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/device_details.png){class="glboxshadow"}
 
-#### Basic info
+#### Basic info {#basic-info}
 
 ![basic info](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/basic_info.png){class="glboxshadow"}
 
-#### Statistics
+#### Statistics {#statistics}
 
 ![statistics](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/statistics.png){class="glboxshadow"}
 
-#### Network settings
+#### Network settings {#network-settings}
 
 This page displays your router's network configurations and Wi-Fi settings.
 
 ![status overview](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/device_overview.png){class="glboxshadow"}
 
-#### Clients list
+#### Clients list {#clients-list}
 
 ![clients list](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/clients_list.png){class="glboxshadow"}
 
-## Remote Access
+## Remote Access {#remote-access}
 
 On the [GoodCloud](https://www.goodcloud.xyz){target="_blank"} -> **Bound Devices**, click the name of the device you want to access to enter the details page, then you will see remote actions in the upper right corner.
 
 ![remote access](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/remote_access.png){class="glboxshadow"}
 
-### Remote GUI
+### Remote GUI {#remote-gui}
 
 Click **Remote GUI** to remotely access your router's web Admin Panel.
 
@@ -261,7 +261,7 @@ If this option is grayed out or unavailable, it is likely that this feature is d
 
 If this option is clickable but unresponsive, try using your browser's incognito/inPrivate mode.
 
-### Remote SSH
+### Remote SSH {#remote-ssh}
 
 Click **Remote SSH** to remotely access your router's terminal over SSH.
 
@@ -271,7 +271,7 @@ If this option is grayed out or unavailable, it is likely that this feature is d
 
 If this option is clickable but unresponsive, try using your browser's incognito/inPrivate mode.
 
-## Modify Settings
+## Modify Settings {#modify-settings}
 
 You can configure multiple parameters for a single device or multiple devices.
 
@@ -283,7 +283,7 @@ Here you can check and modify the router's network settings, including wireless,
 
 ![device settings 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/modify_settings_2.png){class="glboxshadow"}
 
-## Email Alarm
+## Email Alarm {#email-alarm}
 
 You can set up an email alarm when the device status changes (online/offline) or new clients connect.
 
@@ -309,11 +309,11 @@ In the Notifications list, you can view the alert rules you've created. Individu
 
 ![notifications 6](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/notifications6.png){class="glboxshadow"}
 
-## Site to Site
+## Site to Site {#site-to-site}
 
 Please refer to [GoodCloud Site to Site](../tutorials/goodcloud_site_to_site.md).
 
-## GoodCloud and VPN
+## GoodCloud and VPN {#goodcloud-and-vpn}
 
 If you enable **GoodCloud** and **VPN client** at the same time on your router, the connection between the router and the GoodCloud server will not go through the VPN by default. This ensures a more stable connection to GoodCloud services.
 
@@ -329,7 +329,7 @@ Note that routing GoodCloud through VPN may affect the stability of the cloud co
 
 It is generally recommended to keep the default settings where GoodCloud bypasses the VPN for optimal performance and reliability.
 
-## View Logs
+## View Logs {#view-logs}
 
 You can view GoodCloud logs as needed, including Activity Logs, Device Logs, Upgrade Logs, Alert Logs, and Device Settings Logs. 
 
@@ -337,7 +337,7 @@ On the [GoodCloud](https://www.goodcloud.xyz){target="_blank"} -> **Logs**, and 
 
 ![View Logs](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/view_logs.png){class="glboxshadow"}
 
-## Disable Cloud
+## Disable Cloud {#disable-cloud}
 
 If you no longer wish to have your device connected to the cloud platform, you can disable cloud service in the router's web Admin Panel.
 
@@ -361,7 +361,7 @@ If you no longer wish to have your device connected to the cloud platform, you c
 
     ![disabled cloud 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/disabled_cloud_2.png){class="glboxshadow"}
 
-## Delete Account
+## Delete Account {#delete-account}
 
 For security reasons, you may delete your account if it is no longer in use. 
 

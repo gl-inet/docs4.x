@@ -1,12 +1,12 @@
-# Flint 4（GL-BE14000）ユーザーガイド
+# Flint 4（GL-BE14000）ユーザーガイド {#flint-4-gl-be14000-user-guide}
 
-## 製品概要
+## 製品概要 {#product-overview}
 
 Flint 4（GL‑BE14000）は、ホームルーターの可能性を広げます。MLO対応のトライバンドWi‑Fi 7を搭載し、最大速度は688 Mbps（2.4 GHz）+ 4323 Mbps（5 GHz）+ 8646 Mbps（6 GHz）です。有線接続では、10G SFP+ WAN/LANポート1基、10GE WAN/LANポート1基、2.5GE WAN/LANポート1基、2.5GE LANポート3基、1GE LANポート4基からなるマルチギガビットの有線バックボーンを備えています。高性能VPNにも対応し、WireGuard®とOpenVPN DCOのどちらでも最大1.5 Gbpsのスループットを実現します。さらに、2.4インチのタッチスクリーンを搭載しており、ネットワーク状態をリアルタイムで監視し、主要なネットワーク指標を本体で直接確認できます。
 
 ![be14000 interfaces](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be14000/hardware/be14000_interfaces.png){class="glboxshadow"}
 
-## パッケージ内容
+## パッケージ内容 {#package-contents}
 
 - 1 x Flint 4 (GL-BE14000)
 - 1 x 電源アダプター
@@ -19,17 +19,17 @@ Flint 4の開封動画を以下でご覧いただけます。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/x48iKZaLaN0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Flint 4のセットアップ
+## Flint 4のセットアップ {#how-to-set-up-flint-4}
 
 セットアップ動画を見るか、次の手順を実行してください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/N3zw02XGFSU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. 電源を入れる
+### 1. 電源を入れる {#1-power-on}
 
 2つの部品からなる電源アダプターを組み立てます。ルーターに接続してコンセントに差し込むと、自動的に起動します。
 
-### 2. デバイスを接続する
+### 2. デバイスを接続する {#2-connect-device}
 
 パソコン、ノートパソコン、スマートフォンなどのデバイスをWi-FiまたはEthernetでルーターに接続します。
 
@@ -41,11 +41,11 @@ Flint 4の開封動画を以下でご覧いただけます。
 
     デバイスの利用可能なネットワーク一覧からルーターのWi-Fiネットワーク名を選び、パスワードを入力して接続します。デフォルトのネットワーク名（SSID）とパスワードは、ルーターのラベルに記載されています。
 
-### 3. Web管理パネルにログインする
+### 3. Web管理パネルにログインする {#3-log-in-to-web-admin-panel}
 
 Webブラウザーを開き、アドレスバーに`192.168.8.1`と入力してログインします。管理者パスワードとWi-Fi情報を設定し、**Apply**をクリックします。
 
-### 4. インターネットを設定する
+### 4. インターネットを設定する {#4-internet-setup}
 
 Ethernet（SFP+）、Ethernet（RJ45）、Repeater、Tethering、Cellularのいずれかの対応接続方式でFlint 4を設定します。[Multi-WAN](../../interface_guide/multi-wan.md)機能を使用する場合は、複数のインターネット接続を設定してください。
 
@@ -58,7 +58,7 @@ Ethernet（SFP+）、Ethernet（RJ45）、Repeater、Tethering、Cellularのい�
     次の例では、光トランシーバーと光ファイバーケーブルを使用して、Flint 4の10G SFP+ポートをISPの光ファイバーアップリンクへ接続します。他の接続方法については、[Flint 4の10G SFP+ポートを接続する](../../faq/connecting_10g_sfp_plus_port_on_flint4.md)を参照してください。
 
     1. 対応する10G SFP+トランシーバーをFlint 4のSFP+ポートに挿入し、ISPの光ファイバーアップリンクへ接続します。  
-    2. Flint 4は、DHCPを使用してネットワークパラメーター（IPアドレス、ゲートウェイ、DNS）を自動的に取得します。ISPがPPPoEまたは静的IPアドレスを要求する場合は、Web管理パネルでWAN接続を設定してください。
+    2. Flint 4は、DHCPを使用してネットワークパラメーター（IPアドレス、ゲートウェイ、DNS）を自動的に取得しようとします。ISPがPPPoEまたは静的IPアドレスを要求する場合は、Web管理パネルでWAN接続を設定してください。
     3. インターネットに接続すると、タッチスクリーンのホームページにあるEthernetセクションが青色（有効）になります。タッチスクリーンでEthernetをタップするか、Web管理パネルにログインして接続の詳細を確認できます。
 
 === "Ethernet (RJ45)"
@@ -66,7 +66,7 @@ Ethernet（SFP+）、Ethernet（RJ45）、Repeater、Tethering、Cellularのい�
     ![Ethernet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be14000/internet/be14000_ethernet.png){class="glboxshadow"}
     
     1. Ethernetケーブルを使用して、Flint 4のWANポートをISPモデム、ネットワークスイッチ、壁面のEthernetジャックなどの上流デバイスに接続します。
-    2. Flint 4は、DHCPを使用してネットワークパラメーター（IPアドレス、ゲートウェイ、DNS）を自動的に取得します。ISPがPPPoEまたは静的IPアドレスを要求する場合は、Web管理パネルでWAN接続を設定してください。
+    2. Flint 4は、DHCPを使用してネットワークパラメーター（IPアドレス、ゲートウェイ、DNS）を自動的に取得しようとします。ISPがPPPoEまたは静的IPアドレスを要求する場合は、Web管理パネルでWAN接続を設定してください。
     3. インターネットに接続すると、タッチスクリーンのホームページにあるEthernetセクションが青色（有効）になります。タッチスクリーンでEthernetをタップするか、Web管理パネルにログインして接続の詳細を確認できます。
 
 === "Repeater"
@@ -87,7 +87,7 @@ Ethernet（SFP+）、Ethernet（RJ45）、Repeater、Tethering、Cellularのい�
     3. Flint 4のタッチスクリーンで**Tethering**を選択し、**Connect**をタップします。ルーターがデバイスに接続します。
     4. インターネットに接続すると、タッチスクリーンのホームページにあるTetheringセクションが青色（有効）になります。タッチスクリーンでTetheringをタップするか、Web管理パネルにログインして接続の詳細を確認できます。
 
-    **注**：接続に失敗する場合は、電源が12V 4Aであることを確認してください。電力が不足すると、USBポートに給電できないことがあります。上記の手順を繰り返すか、Web管理パネルにログインしてTethering接続の状態を確認してください。
+    **注：** 接続に失敗する場合は、電源が12V 4Aであることを確認してください。電力が不足すると、USBポートに給電できないことがあります。上記の手順を繰り返すか、Web管理パネルにログインしてTethering接続の状態を確認してください。
 
 === "Cellular"
 
@@ -100,19 +100,19 @@ Ethernet（SFP+）、Ethernet（RJ45）、Repeater、Tethering、Cellularのい�
 
 以下では、Flint 4のWeb管理パネルで利用できる機能の概要を説明します。
 
-## Wireless
+## Wireless {#wireless}
 
 Wirelessページでは、MLO Wi-Fi、Main Network、Guest Network、IoT Networkなど、Flint 4の各種Wi-Fiネットワークを設定できます。
 
 詳細は[Wireless](../../interface_guide/wireless.md)を参照してください。
 
-## クライアント
+## クライアント {#clients}
 
 Clientsページには、接続中のデバイスに関する情報が表示されます。各クライアントの名前、IPアドレス、MACアドレス、ダウンロードおよびアップロード速度、総トラフィックを確認でき、クライアントのブロックやその他の操作も行えます。
 
 詳細は[Clients](../../interface_guide/clients.md)を参照してください。
 
-## クラウドサービス
+## クラウドサービス {#cloud-services}
 
 === "GoodCloud"
 
@@ -126,7 +126,7 @@ Clientsページには、接続中のデバイスに関する情報が表示さ�
     
     詳細は[AstroWarp](../../interface_guide/astrowarp.md)を参照してください。
 
-## VPN
+## VPN {#vpn}
 
 VPN（仮想プライベートネットワーク）は、デバイスとVPNサーバーの間に安全な暗号化通信を構築します。VPNクライアントとしてプライバシーと安全性を高めるほか、VPNサーバーとしてリモートネットワークへのアクセスを可能にします。Flint 4はOpenVPNとWireGuardプロトコルに対応しています。
 
@@ -144,11 +144,11 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
     * [WireGuardクライアントを設定する](../../interface_guide/wireguard_client.md)
     * [WireGuardサーバーを設定する](../../interface_guide/wireguard_server.md)
 
-## ネットワーク
+## ネットワーク {#network}
 
 === "Multi-WAN"
 
-    Multi-WANを使用すると、セルラー、Repeater、Ethernetなど、複数のインターネット接続を同時にルーターへ設定できます。現在の接続が切断された場合、ルーターは自動的に別の接続へ切り替わるため、インターネットアクセスを途切れさせずに維持できます。
+    Multi-WANを使用すると、Cellular、Repeater、Ethernetなど、複数のインターネット接続を同時にルーターへ設定できます。現在の接続が切断された場合、ルーターは自動的に別の接続へ切り替わるため、インターネットアクセスを途切れさせずに維持できます。
 
     詳細は[Multi-WAN](../../interface_guide/multi-wan.md)を参照してください。
 
@@ -180,7 +180,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
 === "IGMP Snooping"
 
-    IGMP snoopingは、Ethernetスイッチでマルチキャストトラフィックを管理および制御するためのネットワーク最適化技術です。
+    IGMPスヌーピングは、Ethernetスイッチでマルチキャストトラフィックを管理および制御するためのネットワーク最適化技術です。
     
     詳細は[IGMP Snooping](../../interface_guide/igmp_snooping.md)を参照してください。
 
@@ -188,7 +188,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
 === "Network Mode"
 
-    Network Modeは、ネットワークの導入要件に応じてルーターが担う各種の動作上の役割と機能を指します。一般的なモードには、Router Mode、Extender Mode、Access Point Modeがあります。
+    ネットワークモードとは、さまざまなネットワーク導入要件に対応するためにルーターが担う動作上の役割や機能を指します。ルーターの一般的なネットワークモードには、ルーターモード、エクステンダーモード、アクセスポイントモードがあります。
     
     詳細は[Network Mode](../../interface_guide/network_mode.md)を参照してください。
 
@@ -203,11 +203,11 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
 === "Network Acceleration"
 
-    Network AccelerationはCPU負荷を軽減し、トラフィックパケットの転送を高速化します。
+    ネットワークアクセラレーションはCPU負荷を軽減し、トラフィックパケットの転送を高速化します。
     
     詳細は[Network Acceleration](../../interface_guide/network_acceleration.md)を参照してください。
 
-## フロー制御
+## フロー制御 {#flow-control}
 
 === "DPI Engine"
 
@@ -239,7 +239,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
 === "SQM"
 
-    SQM（Smart Queue Management）は、ルーターのネットワークトラフィックをインテリジェントに管理して遅延と「bufferbloat」を抑え、ゲームや音声通話をより滑らかにします。
+    SQM（Smart Queue Management）は、ルーターのネットワークトラフィックをインテリジェントに管理して遅延と「バッファブロート」を抑え、ゲームや音声通話をより滑らかにします。
 
     詳細は[SQM](../../interface_guide/sqm.md)を参照してください。
 
@@ -249,11 +249,11 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
     詳細は[Parental Control](../../interface_guide/parental_control_v4.9.md)を参照してください。
 
-## セキュリティ
+## セキュリティ {#security}
 
 === "Port Forwarding"
 
-    Port Forwardingを使用すると、インターネット上のリモートサーバーやデバイスからプライベートネットワーク内のデバイスへアクセスできます。
+    ポートフォワーディングを使用すると、インターネット上のリモートサーバーやデバイスからプライベートネットワーク内のデバイスへアクセスできます。
     
     詳細は[Port Forwarding](../../interface_guide/port_forwarding.md)を参照してください。
 
@@ -279,7 +279,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
     詳細は[NAT Mode](../../interface_guide/nat_settings.md)を参照してください。
 
-## アプリケーション
+## アプリケーション {#applications}
 
 === "Plug-ins"
 
@@ -295,7 +295,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
 === "Network Storage"
 
-    Network Storageは、複数のユーザーやデバイスがネットワーク経由でファイルへアクセスし、共有できる一元的なデータストレージソリューションです。
+    ネットワークストレージは、複数のユーザーやデバイスがネットワーク経由でファイルへアクセスし、共有できる一元的なデータストレージソリューションです。
     
     詳細は[Network Storage](../../interface_guide/network_storage.md)を参照してください。
 
@@ -321,7 +321,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
 === "ZeroTier"
 
-    ZeroTierは、インターネット上に安全な仮想ネットワークを作成し、デバイスを同じローカルネットワーク上にあるかのように接続するSoftware-Defined Networkingソリューションです。
+    ZeroTierは、インターネット上に安全な仮想ネットワークを作成し、デバイスを同じローカルネットワーク上にあるかのように接続するソフトウェア定義ネットワーキングソリューションです。
     
     詳細は[ZeroTier](../../interface_guide/zerotier.md)を参照してください。
 
@@ -331,7 +331,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
     
     詳細は[Tor](../../interface_guide/tor.md)を参照してください。
 
-## システム
+## システム {#system}
 
 === "Overview"
 
@@ -421,11 +421,3 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
     Advanced Settingsページでは、OpenWrt LuCIインターフェースから高度な設定へアクセスできます。上級ユーザーは、基本インターフェースを超えてルーターの設定と機能を細かく調整できます。詳細なネットワーク設定、ファイアウォール設定、その他の高度なシステムカスタマイズが含まれます。
 
     詳細は[Advanced Settings](../../interface_guide/advanced_settings.md)を参照してください。
-
-## 適合宣言
-
-GL TECHNOLOGIES (HONG KONG) LIMITEDは、無線機器[BE14000 Wi-Fi 7 Router, GL-BE14000]が指令2014/53/EUの基本要件およびその他の関連規定に適合することを宣言します。EU適合宣言の全文は、[https://www.gl-inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}で確認できます。
-
-EU向け：<br>
-最大送信出力：<br>
-CE: ≤20dBm EIRP (2.412GHz~2.472GHz); ≤23dBm EIRP (5.15GHz~5.35GHz); ≤30dBm EIRP (5.47GHz~5.725GHz); ≤13.98dBm (5.725GHz~5.85GHz); ≤23dBm EIRP (5.925GHz~6.425 GHz)

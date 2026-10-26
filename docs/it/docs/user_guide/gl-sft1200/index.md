@@ -1,12 +1,12 @@
-# Guida utente di Opal (GL-SFT1200)
+# Guida utente di Opal (GL-SFT1200) {#opal-gl-sft1200-user-guide}
 
-## Panoramica del prodotto
+## Panoramica del prodotto {#product-overview}
 
 Opal (GL-SFT1200) è un router da viaggio tascabile con velocità di trasferimento wireless fino a 1200 Mbps. Ha un design compatto pensato per l'uso portatile e può soddisfare le esigenze di accesso wireless a Internet di piccole aziende, piccoli appartamenti o viaggiatori d'affari.
 
 ![gl-sft1200 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-sft1200/first_time_setup/gl-sft1200.jpg){class="glboxshadow"}
 
-## Contenuto della confezione
+## Contenuto della confezione {#package-contents}
 
 - 1 x Opal (GL-SFT1200)
 - 1 x Manuale utente
@@ -18,18 +18,18 @@ Opal (GL-SFT1200) è un router da viaggio tascabile con velocità di trasferimen
 
 ![gl-sft1200 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-sft1200/first_time_setup/sft1200_unboxing.jpg){class="glboxshadow"}
 
-## Come configurare Opal
+## Come configurare Opal {#how-to-set-up-opal}
 
 Guarda questo video di configurazione oppure segui i passaggi qui sotto.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZAVn92F5RV8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <small>(In questo video viene utilizzato un router GL.iNet diverso per mostrare la configurazione, ma i passaggi sono gli stessi per Opal e per gli altri modelli di router.)</small>
 
-### 1. Accensione
+### 1. Accensione {#1-power-on}
 
 Assembla l'alimentatore in due parti. Collegalo al router e inseriscilo in una presa di corrente. Il dispositivo si avvierà automaticamente.
 
-### 2. Collegare un dispositivo
+### 2. Collegare un dispositivo {#2-connect-device}
 
 Collega un dispositivo, ad esempio un computer, un portatile o uno smartphone, al router tramite Wi-Fi o Ethernet.
 
@@ -41,13 +41,13 @@ Collega un dispositivo, ad esempio un computer, un portatile o uno smartphone, a
 
     Sul dispositivo, vai su Impostazioni -> WLAN, individua il nome della rete Wi-Fi del router nell'elenco delle reti disponibili e inserisci la password. Il nome di rete e la password predefiniti sono stampati sull'etichetta inferiore del router.
 
-### 3. Accedere al pannello di amministrazione web
+### 3. Accedere al pannello di amministrazione web {#3-log-in-to-web-admin-panel}
 
 Apri un browser web, inserisci `192.168.8.1` nella barra degli indirizzi ed effettua l'accesso. Scegli la lingua, imposta la password di amministrazione e fai clic su **Apply**.
 
 Tieni presente che, se modifichi le informazioni Wi-Fi, dovrai ricollegare il dispositivo alla rete Wi-Fi del router utilizzando le credenziali aggiornate.
 
-### 4. Configurazione di Internet
+### 4. Configurazione di Internet {#4-internet-setup}
 
 **Nota:** Le istruzioni seguenti si applicano agli utenti che configurano il router tramite il pannello di amministrazione web GL.iNet. Se preferisci utilizzare l'app GL.iNet, [scarica l'app](https://www.gl-inet.com/app/){target="_blank"} e segui le istruzioni visualizzate sullo schermo.
 
@@ -59,7 +59,7 @@ Configura Opal utilizzando uno dei metodi di connessione Internet supportati: Et
 
     Collega un cavo Ethernet tra la porta WAN del router e un dispositivo a monte, ad esempio un modem.
     
-    Una volta stabilita correttamente la connessione a Internet, nella sezione Ethernet della pagina INTERNET comparirà un punto verde.
+    Una volta stabilità correttamente la connessione a Internet, nella sezione Ethernet della pagina INTERNET comparirà un punto verde.
 
     Per istruzioni dettagliate, fai riferimento a [Connessione a Internet tramite cavo Ethernet](../../interface_guide/internet_ethernet.md).
 
@@ -71,7 +71,7 @@ Configura Opal utilizzando uno dei metodi di connessione Internet supportati: Et
     2. Seleziona una rete Wi-Fi tra quelle disponibili.
     3. Inserisci la password, quindi fai clic su **Apply**.
     
-    Una volta stabilita correttamente la connessione a Internet, nella sezione Repeater della pagina INTERNET comparirà un punto verde.
+    Una volta stabilità correttamente la connessione a Internet, nella sezione Repeater della pagina INTERNET comparirà un punto verde.
 
     Per istruzioni dettagliate, fai riferimento a [Connessione a Internet tramite una rete Wi-Fi esistente](../../interface_guide/internet_repeater.md).
 
@@ -83,7 +83,7 @@ Configura Opal utilizzando uno dei metodi di connessione Internet supportati: Et
     2. Sul dispositivo mobile, vai nelle impostazioni e abilita il tethering USB.
     3. Nella pagina INTERNET del pannello di amministrazione web, fai clic su **Connect** nella sezione Tethering.
     
-    Una volta stabilita correttamente la connessione a Internet, nella sezione Tethering della pagina INTERNET comparirà un punto verde.
+    Una volta stabilità correttamente la connessione a Internet, nella sezione Tethering della pagina INTERNET comparirà un punto verde.
 
     Per istruzioni dettagliate, fai riferimento a [Connessione a Internet tramite tethering USB](../../interface_guide/internet_tethering.md).
 
@@ -93,11 +93,11 @@ Configura Opal utilizzando uno dei metodi di connessione Internet supportati: Et
 
     Collega un modem USB cellulare alla porta USB del router. Questo metodo è utile per condividere la connessione Internet di un modem USB con tutti i dispositivi collegati.
 
-    Una volta stabilita correttamente la connessione a Internet, nella sezione Cellular della pagina INTERNET comparirà un punto verde.
+    Una volta stabilità correttamente la connessione a Internet, nella sezione Cellular della pagina INTERNET comparirà un punto verde.
 
     Per istruzioni dettagliate, fai riferimento a [Connessione a Internet tramite rete cellulare](../../interface_guide/internet_cellular.md).
 
-## Come configurare una VPN
+## Come configurare una VPN {#how-to-set-up-a-vpn}
 
 Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il tuo dispositivo e il server VPN. Offre un ulteriore livello di privacy e sicurezza, nel caso del client VPN, e permette di accedere a una rete remota, nel caso del server VPN. Opal supporta OpenVPN, WireGuard e Tor*.
 
@@ -121,7 +121,7 @@ Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il t
 
     **Nota:** Opal non supporta Tor in modo nativo, ma gli utenti possono installarlo manualmente tramite un plug-in. Fai clic [qui](../../interface_guide/tor.md#manual-install) per i dettagli.
 
-## Wi-Fi e client
+## Wi-Fi e client {#wireless-and-clients}
 
 === "Wi-Fi"
 
@@ -135,7 +135,7 @@ Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il t
 
     Per configurare i client, fai riferimento a [Clients](../../interface_guide/clients.md).
 
-## Servizi cloud
+## Servizi cloud {#cloud-services}
 
 === "GoodCloud"
 
@@ -151,7 +151,7 @@ Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il t
 
     **Nota:** aggiorna il firmware del router alla versione 4.8 o superiore prima di utilizzare questa funzione.
 
-## Applicazioni
+## Applicazioni {#applications}
 
 === "Plug-in"
 
@@ -173,7 +173,7 @@ Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il t
 
     **Nota:** aggiorna il firmware del router alla versione 4.8 o superiore prima di utilizzare questa funzione.
 
-## Impostazioni di rete
+## Impostazioni di rete {#network-settings}
 
 === "Port Forwarding"
 
@@ -255,7 +255,7 @@ Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il t
 
     Per configurare le impostazioni NAT, fai riferimento a [NAT Settings](../../interface_guide/nat_settings.md).
 
-## Impostazioni di sistema
+## Impostazioni di sistema {#system-settings}
 
 === "Panoramica"
 

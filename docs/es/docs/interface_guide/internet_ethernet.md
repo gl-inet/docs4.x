@@ -1,4 +1,4 @@
-# Conectarse a Internet mediante un cable Ethernet
+# Conectarse a Internet mediante un cable Ethernet {#connect-to-the-internet-via-an-ethernet-cable}
 
 Conecte el router a una red de banda ancha mediante un cable Ethernet conectado al puerto WAN. Normalmente obtiene una dirección IP automáticamente mediante DHCP. Los usuarios también pueden configurar manualmente una IP estática o PPPoE. Este método ofrece gran estabilidad y alta velocidad, por lo que es ideal para entornos domésticos y de oficina con acceso fijo de banda ancha.
 
@@ -14,7 +14,7 @@ Siga los pasos siguientes para conectar su router a Internet mediante un cable E
 
 **Consejo**: Puede cambiar la función del puerto WAN a LAN si lo necesita. Esto resulta útil cuando utiliza el router como [repetidor](internet_repeater.md), ya que el puerto WAN físico queda libre. Si cambia el puerto WAN a LAN, dispondrá de un puerto LAN adicional.
 
-## Protocolo
+## Protocolo {#protocol}
 
 Hay 3 tipos de protocolo: DHCP, Static y PPPoE. Haga clic en **Modify** para cambiarlo.
 
@@ -38,7 +38,7 @@ Hay 3 tipos de protocolo: DHCP, Static y PPPoE. Haga clic en **Modify** para cam
 
   ![ethernet pppoe](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/ethernet_5.png){class="glboxshadow"}
 
-## Configuración avanzada
+## Configuración avanzada {#advanced}
 
 Además de los ajustes esenciales, también hay algunos ajustes avanzados opcionales para los tres protocolos anteriores.
 
@@ -52,7 +52,7 @@ Además de los ajustes esenciales, también hay algunos ajustes avanzados opcion
 
 - **MTU**: El valor MTU predeterminado es de 1500 bytes.
 
-## Puerto Ethernet
+## Puerto Ethernet {#ethernet-port}
 
 Haga clic en el icono de engranaje de la esquina superior derecha para acceder a la página [Ethernet Port](ethernet_port.md) y gestionar los puertos Ethernet de su router.
 
@@ -68,7 +68,7 @@ La página **LAN** muestra la función del puerto y la velocidad negociada del p
 
 Consulte [Ethernet Port](ethernet_port.md) para más detalles.
 
-## Solución de problemas
+## Solución de problemas {#troubleshooting}
 
 Si hay un cable Ethernet conectado al puerto WAN pero no hay acceso a Internet, se mostrará un mensaje amarillo como el siguiente.
 

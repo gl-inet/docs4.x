@@ -1,6 +1,6 @@
-# Creta (GL-AR750) Benutzerhandbuch
+# Creta (GL-AR750) Benutzerhandbuch {#creta-gl-ar750-user-guide}
 
-## Sicherheitshinweise
+## Sicherheitshinweise {#safety-information}
 
 Lesen Sie vor der Verwendung des Geräts alle nachstehenden Sicherheitsinformationen sorgfältig durch. Die nachfolgenden Sicherheitsempfehlungen können nicht sämtliche möglicherweise auftretenden Gefahrensituationen abdecken.
 
@@ -30,24 +30,24 @@ Unsachgemäßes Öffnen oder unsachgemäße Instandsetzung kann den Benutzer des
 
 Schalten Sie bei einem Störfall zuerst den Netzschalter aus.
 
-## Produktübersicht
+## Produktübersicht {#product-overview}
 
 Creta (GL-AR750) ist ein Dual-Band-AC-Reiserouter. Das gleichzeitige Dual-Band unterstützt eine drahtlose Übertragungsrate von bis zu 733 Mbit/s (2.4 GHz: 300 Mbit/s + 5 GHz: 433 Mbit/s). Creta kann ein öffentliches Netzwerk in ein privates Wi-Fi für sicheres Surfen umwandeln. Der externe Speicher unterstützt MicroSD-Karten bis 128 GB. OpenWrt/LEDE und OpenVPN sind vorinstalliert. Dadurch bietet Creta datenschutzbewussten Benutzern ein schnelles und einfaches VPN mit moderner Kryptografie.
 
 ![ar750 overview](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-ar750/product_info/ar750_overview.png){class="glboxshadow"}
 
-### Technische Daten
+### Technische Daten {#specifications}
 
 [Technische Daten des GL-AR750](https://www.gl-inet.com/products/gl-ar750/#specs){target="_blank"}
 
-## So richten Sie Creta ein
+## So richten Sie Creta ein {#how-to-set-up-creta}
 
 Zum Einrichten von Creta verwenden Sie eine der vier unterstützten Internetverbindungsmethoden: Ethernet, Repeater, Tethering und Cellular. Sehen Sie sich dieses Einrichtungsvideo an oder folgen Sie den untenstehenden Schritten.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3dm0w5kjAlc?si=3YykOcaz_YK_vp28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <small>(In diesem Video wird ein anderer GL.iNet-Router zur Demonstration verwendet, die Schritte sind jedoch für Creta und andere Routermodelle identisch.)</small>
 
-### 1. Creta einschalten
+### 1. Creta einschalten {#1-power-on-creta}
 
 Schließen Sie das Micro-USB-Stromkabel an den Stromanschluss des Routers an. Stellen Sie sicher, dass Sie ein Standard-Netzteil mit 5 V/2 A verwenden.
 
@@ -55,7 +55,7 @@ Schließen Sie das Micro-USB-Stromkabel an den Stromanschluss des Routers an. St
 
     Hot-Plugging für TF-Karten wird nicht unterstützt. Wenn Sie eine TF-Karte verwenden möchten, setzen Sie sie bitte ein, bevor Sie den Router einschalten.
 
-### 2. Ihr Gerät mit Creta verbinden
+### 2. Ihr Gerät mit Creta verbinden {#2-connect-your-device-to-creta}
 
 Verbinden Sie Ihren Computer oder Ihr Mobilgerät per Wi-Fi oder Ethernet mit dem Router.
 
@@ -67,15 +67,15 @@ Verbinden Sie Ihren Computer oder Ihr Mobilgerät per Wi-Fi oder Ethernet mit de
 
     Verbinden Sie Ihr Gerät per Ethernet-Kabel mit dem LAN-Port des Routers.
 
-### 3. Creta mit dem Internet verbinden
+### 3. Creta mit dem Internet verbinden {#3-connect-creta-to-the-internet}
 
 **Hinweis:** Die folgenden Anweisungen gelten für Benutzer, die den Router über das Web-Admin-Panel mit dem Internet verbinden. Wenn Sie statt des Web-Admin-Panels lieber die GL.iNet-App verwenden möchten, [laden Sie die App herunter](https://www.gl-inet.com/app/){target="_blank"} und folgen Sie den Anweisungen auf dem Bildschirm.
 
-#### 1. Im Web-Admin-Panel des Routers anmelden
+#### 1. Im Web-Admin-Panel des Routers anmelden {#1-log-in-to-the-router-web-admin-panel}
 
 Geben Sie in einem Webbrowser `192.168.8.1` in die Adressleiste ein. Wählen Sie Ihre Sprache aus und klicken Sie dann auf **Next**. Legen Sie Ihr Admin-Passwort fest und klicken Sie anschließend auf **Apply**.
 
-#### 2. Ihre Internetverbindungsmethode(n) einrichten
+#### 2. Ihre Internetverbindungsmethode(n) einrichten {#2-set-up-your-internet-connection-methods}
 
 === "Ethernet"
 
@@ -121,7 +121,7 @@ Geben Sie in einem Webbrowser `192.168.8.1` in die Adressleiste ein. Wählen Sie
 
 ---
 
-## So richten Sie ein VPN ein
+## So richten Sie ein VPN ein {#how-to-set-up-a-vpn}
 
 Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten Datenverkehr zwischen Ihrem Gerät und dem VPN-Server. Es bietet eine zusätzliche Ebene für Datenschutz und Sicherheit (VPN-Client) und ermöglicht Ihnen den Zugriff auf ein entferntes Netzwerk (VPN-Server). Creta und andere GL.iNet-Router unterstützen OpenVPN und WireGuard.
 
@@ -141,7 +141,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
 ---
 
-## Weitere Anwendungen
+## Weitere Anwendungen {#more-applications}
 
 === "Plug-ins"
 
@@ -157,7 +157,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
 ---
 
-## Netzwerkeinstellungen
+## Netzwerkeinstellungen {#network-settings}
 
 === "Firewall"
 
@@ -250,7 +250,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     Detaillierte Einrichtungsanweisungen und weitere Informationen finden Sie unter [IGMP Snooping](../../interface_guide/igmp_snooping.md).
 
-## Systemeinstellungen
+## Systemeinstellungen {#system-settings}
 
 === "Overview"
 

@@ -1,4 +1,4 @@
-# SQM (Smart Queue Management)
+# SQM (Smart Queue Management) {#sqm-smart-queue-management}
 
 **Note**: This feature was introduced in firmware v4.9. 
 
@@ -18,7 +18,7 @@ SQM (Smart Queue Management) intelligently manages your router's network traffic
 4. SQM and QoS cannot be enabled simultaneously.
 5. SQM cannot work with Network Acceleration. Enabling SQM will automatically disable Network Acceleration to ensure stable performance.
 
-## Supported Models
+## Supported Models {#supported-models}
 
 ??? "Supported Models"
     - GL-MT6000 (Fortify)
@@ -56,7 +56,7 @@ SQM (Smart Queue Management) intelligently manages your router's network traffic
     - GL-AP1300 (Cirrus)
     - GL-S1300 (Convexa-S)
 
-## For firmware v4.11 and above
+## For firmware v4.11 and above {#for-firmware-v411-and-above}
 
 Toggle the switch to enable SQM, then complete the configuration following the steps below.
 
@@ -104,7 +104,7 @@ Toggle the switch to enable SQM, then complete the configuration following the s
 
     - **fq_codel**: Simple, efficient fair queueing with basic latency reduction.
 
-## For firmware v4.9 to v4.10
+## For firmware v4.9 to v4.10 {#for-firmware-v49-to-v410}
 
 Toggle the switch to enable SQM, and set your maximum upload and download speeds (input range: 1 - 10000) for traffic scheduling. Match them to your actual internet bandwidth for the best results.
 

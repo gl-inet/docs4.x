@@ -1,4 +1,4 @@
-# Reset Firmware
+# Reset Firmware {#reset-firmware}
 
 On the left side of the web Admin Panel, go to **SYSTEM** -> **Reset Firmware**.
 

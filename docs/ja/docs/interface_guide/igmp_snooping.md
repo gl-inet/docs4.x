@@ -1,12 +1,12 @@
-# IGMPスヌーピング
+# IGMPスヌーピング {#igmp-snooping}
 
-Web Admin Panel の左側で、**NETWORK** -> **IGMP Snooping** に移動します。
+Web 管理パネルの左側で、**NETWORK** -> **IGMP Snooping** に移動します。
 
-IGMP snooping を有効にすると、ルーターのマルチキャスト機能を利用できます。
+IGMP Snooping を有効にすると、ルーターのマルチキャスト機能を利用できます。
 
 IGMP Snooping は IGMP プロトコルパケットを監視し、対応する情報を抽出して、レイヤー 2 のマルチキャスト転送テーブルを確立・維持します。その後、マルチキャストグループのデータは、そのグループに参加しているホストにのみ転送され、ほかのホストはマルチキャストグループデータを受信できません。
 
-**Note**: IGMPv3 は v1 および v2 と互換性があります。デフォルトでは v3 を使用し、問題が発生した場合は切り替えてください。
+**注意**: IGMPv3 は v1 および v2 と互換性があります。デフォルトでは v3 を使用し、問題が発生した場合は切り替えてください。
 
 ![IGMP Snooping](https://static.gl-inet.com/docs/router/en/4/interface_guide/igmp_snooping/igmp_snooping.png){class="glboxshadow"}
 

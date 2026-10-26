@@ -1,6 +1,6 @@
-# Podręcznik użytkownika Flint 3e (GL-BE6500)
+# Podręcznik użytkownika Flint 3e (GL-BE6500) {#flint-3e-gl-be6500-user-guide}
 
-## Przegląd produktu
+## Przegląd produktu {#product-overview}
 
 Flint 3e (GL-BE6500) to dwupasmowy router biurkowy Wi‑Fi 7 przeznaczony dla użytkowników domowych i małych biur. Obsługuje technologię Wi‑Fi 7 Multi-Link Operation (MLO), która inteligentnie łączy kanały 2,4 GHz i 5 GHz w jedno połączenie. Jednoczesne wykorzystanie zasobów obu pasm ogranicza zakłócenia i przeciążenia, a 4K QAM zapewnia łączną prędkość dwupasmową 6453 Mb/s — o 20% wyższą niż w Wi‑Fi 6. Ulepszone pasmo 5 GHz (4x4 MIMO, 160 MHz) znacząco poprawia także wydajność na większe odległości.
 
@@ -10,7 +10,7 @@ Wyposażony w 5 portów Ethernet 2,5G i 1 port USB 3.0, router obsługuje szybki
 
 **Uwaga**: Różnica w wyglądzie między Flint 3e a Flint 3 polega na nadruku na obudowie: nadruk na Flint 3e jest niebieski, natomiast na Flint 3 jest biały.
 
-## Zawartość opakowania
+## Zawartość opakowania {#package-contents}
 
 - 1 x Flint 3e (GL-BE6500)
 - 1 x zasilacz
@@ -23,17 +23,17 @@ Zobacz poniżej film z rozpakowania Flint 3e.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6-E0LtWqshk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Jak skonfigurować Flint 3e
+## Jak skonfigurować Flint 3e {#how-to-set-up-flint-3e}
 
 Obejrzyj ten film instruktażowy lub wykonaj poniższe kroki.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/R40QsUFYuUk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Włączenie zasilania
+### 1. Włączenie zasilania {#1-power-on}
 
 Złóż dwuczęściowy zasilacz. Podłącz go do routera i włóż do gniazdka. Router uruchomi się automatycznie.
 
-### 2. Podłączenie urządzenia
+### 2. Podłączenie urządzenia {#2-connect-device}
 
 Podłącz urządzenie (np. komputer, laptop lub smartfon) do routera za pomocą Wi‑Fi lub kabla Ethernet.
 
@@ -45,11 +45,11 @@ Podłącz urządzenie (np. komputer, laptop lub smartfon) do routera za pomocą 
 
     Na urządzeniu przejdź do **Settings** -> **WLAN**, odszukaj nazwę sieci Wi‑Fi routera na liście dostępnych sieci i wpisz hasło, aby połączyć się z siecią. Domyślną nazwę sieci i hasło znajdziesz na etykiecie routera.
 
-### 3. Logowanie do panelu administracyjnego
+### 3. Logowanie do panelu administracyjnego {#3-log-in-to-web-admin-panel}
 
 Otwórz przeglądarkę internetową, wpisz `192.168.8.1` w pasku adresu i zaloguj się. Wybierz język i ustaw hasło administratora, a następnie kliknij **Apply**.
 
-### 4. Konfiguracja internetu
+### 4. Konfiguracja internetu {#4-internet-setup}
 
 **Uwaga:** Poniższe instrukcje dotyczą użytkowników konfigurujących router przez GL.iNet Web Admin Panel. Jeśli wolisz korzystać z aplikacji GL.iNet, [pobierz aplikację](https://www.gl-inet.com/app/){target="_blank"} i postępuj zgodnie z instrukcjami wyświetlanymi na ekranie.
 
@@ -103,7 +103,7 @@ Skonfiguruj Flint 3e, korzystając z jednej z obsługiwanych metod połączenia 
 
 Poniżej znajduje się przegląd funkcji dostępnych w panelu administracyjnym Flint 3e.
 
-## Sieć bezprzewodowa
+## Sieć bezprzewodowa {#wireless}
 
 Strona Wireless umożliwia konfigurację ustawień sieci Wi‑Fi 5 GHz i 2,4 GHz, w tym włączanie Wi‑Fi, ustawianie mocy TX, określanie nazwy sieci Wi‑Fi (SSID), włączanie losowego BSSID, wybór trybu zabezpieczeń Wi‑Fi i hasła, konfigurację widoczności SSID oraz wybór trybu Wi‑Fi, szerokości pasma i kanału.
     
@@ -111,13 +111,13 @@ Dodatkowo Flint 3e obsługuje MLO Wi‑Fi, czyli Multi-Link Operation, które ł
 
 Aby skonfigurować Wireless, zapoznaj się z [Wireless](../../interface_guide/wireless.md).
 
-## Klienci
+## Klienci {#clients}
 
 Strona Clients wyświetla informacje o podłączonych urządzeniach. Dla każdego klienta pokazuje nazwę, adresy IP i MAC, prędkości pobierania i wysyłania, całkowity ruch oraz umożliwia blokowanie klienta lub wykonywanie innych działań.
 
 Aby skonfigurować Clients, zapoznaj się z [Clients](../../interface_guide/clients.md).
 
-## Usługi chmurowe
+## Usługi chmurowe {#cloud-services}
 
 === "GoodCloud"
 
@@ -131,7 +131,7 @@ Aby skonfigurować Clients, zapoznaj się z [Clients](../../interface_guide/clie
     
     Aby skonfigurować AstroWarp, zapoznaj się z [AstroWarp](../../interface_guide/astrowarp.md).
 
-## VPN
+## VPN {#vpn}
 
 VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między Twoim urządzeniem a serwerem VPN. Zapewnia dodatkową warstwę prywatności i bezpieczeństwa (klient VPN), a także umożliwia dostęp do sieci zdalnej (serwer VPN). Flint 3e obsługuje OpenVPN, WireGuard i Tor.
 
@@ -155,7 +155,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między Twoim 
     
     * [Jak skonfigurować Tor](../../interface_guide/tor.md)
 
-## Aplikacje
+## Aplikacje {#applications}
 
 === "Plug-ins"
 
@@ -201,7 +201,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między Twoim 
     
     Aby skonfigurować Tailscale, zapoznaj się z [Tailscale](../../interface_guide/tailscale.md).
 
-## Ustawienia sieciowe
+## Ustawienia sieciowe {#network-settings}
 
 === "Port forwarding"
 
@@ -284,7 +284,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między Twoim 
 
     Aby skonfigurować NAT Settings, zapoznaj się z [NAT Settings](../../interface_guide/nat_settings.md).
 
-## Ustawienia systemowe
+## Ustawienia systemowe {#system-settings}
 
 === "Overview"
 
@@ -373,6 +373,6 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między Twoim 
 
     Aby uzyskać szczegółowe instrukcje, zapoznaj się z [Advanced Settings](../../interface_guide/advanced_settings.md).
 
-## Deklaracja zgodności
+## Deklaracja zgodności {#declaration-of-conformity}
 
 Niniejszym GL TECHNOLOGIES (HONG KONG) LIMITED oświadcza, że urządzenie radiowe typu [BE6500 Wi-Fi 7 Router, GL-BE6500] jest zgodne z zasadniczymi wymaganiami i innymi stosownymi postanowieniami Dyrektywy 2014/53/UE. Pełny tekst deklaracji zgodności UE jest dostępny pod następującym adresem internetowym: [https://www.gl-inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}.

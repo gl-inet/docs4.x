@@ -1,10 +1,10 @@
-# ネットワークアクセラレーション
+# ネットワークアクセラレーション {#network-acceleration}
 
 Network Acceleration は CPU 負荷を軽減し、トラフィックのパケット転送を高速化しますが、一部の機能と競合する場合があります。
 
 Network Acceleration を有効にすると、次の機能は正しく動作しません: Client Speed and Traffic Statistics、Client Speed Limit。
 
-## 対応モデル
+## 対応モデル {#supported-models}
 
 ??? "対応モデル"
     - GL-MT6000 (Fortify)
@@ -40,9 +40,9 @@ Network Acceleration を有効にすると、次の機能は正しく動作し�
     - GL-B1300 (Convexa-B)
     - GL-X300B (Collie)
 
-## 設定
+## 設定 {#setup}
 
-Web Admin Panel の左側で、**NETWORK** -> **Network Acceleration** に移動します。
+Web 管理パネルの左側で、**NETWORK** -> **Network Acceleration** に移動します。
 
 ![Network Acceleration](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_acceleration/network_acceleration.png){class="glboxshadow"}
 
@@ -62,7 +62,7 @@ Web Admin Panel の左側で、**NETWORK** -> **Network Acceleration** に移動
 
     Software Acceleration は <u>Cellular</u> で動作します。
     
-    Software Acceleration は、最適化されたカーネルやドライバー（例: SWNAT）と組み合わせたルーターの汎用 CPU に依存します。Cellular（4G/5G）アクセスで利用されることが多く、ハードウェアアクセラレーションが使えない環境でも高い互換性と複雑なプロトコルへの対応を提供します。一方で、DPI、QoS、Port Forwarding などの高度な機能を使用している場合は、特に高帯域時に CPU がボトルネックになることがあります。
+    Software Acceleration は、最適化されたカーネルやドライバー（例: SWNAT）と組み合わせたルーターの汎用 CPU に依存します。ハードウェアアクセラレーションを利用できない代表的なケースである Cellular（4G/5G）接続で動作し、高い互換性と複雑なプロトコルへの対応を提供します。柔軟性は高いものの、高帯域の負荷がかかると CPU がボトルネックになることがあり、DPI、QoS、ポートフォワーディングなどの高度な機能を使用している場合は特にその傾向があります。
 
 ---
 

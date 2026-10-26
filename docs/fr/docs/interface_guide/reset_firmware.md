@@ -1,4 +1,4 @@
-# Réinitialisation du micrologiciel
+# Réinitialisation du micrologiciel {#reset-firmware}
 
 Dans la partie gauche du panneau d'administration web, accédez à **SYSTEM** -> **Reset Firmware**.
 

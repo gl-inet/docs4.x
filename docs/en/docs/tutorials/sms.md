@@ -1,10 +1,10 @@
-# SMS
+# SMS {#sms}
 
 GL.iNet cellular routers are equipped with a built-in modem that supports sending and receiving SMS messages after a SIM card is inserted.
 
 **Note**: This feature only works on GL.iNet 4G/5G models with the original 4G LTE/5G NR module, and is not supported on other modules or any other USB modules.
 
-## Supported Models
+## Supported Models {#supported-models}
 
 ??? "Supported Models"
     - GL-E5800 (Mudi 7)
@@ -41,7 +41,7 @@ GL.iNet cellular routers are equipped with a built-in modem that supports sendin
     - GL-B1300 (Convexa-B)
     - GL-AP1300 (Cirrus)
 
-## Quick Setup
+## Quick Setup {#quick-setup}
 
 Take the GL-X3000 (Spitz AX) as an example.
 

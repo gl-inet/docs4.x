@@ -1,4 +1,4 @@
-# Tor
+# Tor {#tor}
 
 Tor (abgeleitet von **The Onion Router**) ist eine kostenlose Open-Source-Software, die anonyme Kommunikation ermöglicht. Sie hilft Benutzern, das Internet mit mehr Privatsphäre zu nutzen. [Mehr über Tor erfahren](https://www.torproject.org/){target="_blank"}.
 
@@ -9,7 +9,7 @@ Tor (abgeleitet von **The Onion Router**) ist eine kostenlose Open-Source-Softwa
   - IPv6
   - ADGuard Home.
 
-## Unterstützte Modelle
+## Unterstützte Modelle {#supported-models}
 
 ??? "Unterstützte Modelle"
     - GL-MT6000 (Fortify)
@@ -36,7 +36,7 @@ Tor (abgeleitet von **The Onion Router**) ist eine kostenlose Open-Source-Softwa
     - *GL-MT1300 (Beryl)
     - *GL-E750/E750V2 (Mudi)
 
-    **Hinweis**: Mit * markierte Modelle unterstützen Tor nicht nativ, Benutzer können Tor jedoch manuell über ein Plug-in installieren. Klicken Sie [hier](#manuelle-installation) für Details.
+    **Hinweis**: Mit * markierte Modelle unterstützen Tor nicht nativ, Benutzer können Tor jedoch manuell über ein Plug-in installieren. Klicken Sie [hier](#manual-install) für Details.
 
 ??? "Nicht unterstützte Modelle"
     - GL-MG1300 (Mango 2)
@@ -49,7 +49,7 @@ Tor (abgeleitet von **The Onion Router**) ist eine kostenlose Open-Source-Softwa
     - GL-B1300 (Convexa-B)
     - GL-X300B (Collie)
 
-## Schnelleinrichtung
+## Schnelleinrichtung {#quick-setup}
 
 Gehen Sie auf der linken Seite des Web-Admin-Panels zu **VPN** -> **Tor**.
 
@@ -63,7 +63,7 @@ Der Verbindungsaufbau startet anschließend. Wenn Ihr Netzwerk die Anforderungen
 
 ![tor connected](https://static.gl-inet.com/docs/router/de/4/interface_guide/tor/connected.png){class="glboxshadow" width="672"}
 
-## Manuelle Installation
+## Manuelle Installation {#manual-install}
 
 **Hinweis**: Auf einigen Modellen kann Tor manuell über ein Plug-in installiert werden, dies kann jedoch die CPU-Last erhöhen und die Reaktionsgeschwindigkeit des Systems verringern.
 

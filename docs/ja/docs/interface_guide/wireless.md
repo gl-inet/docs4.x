@@ -1,4 +1,4 @@
-# ワイヤレス
+# ワイヤレス {#wireless}
 
 このページの内容は、ファームウェア v4.9 以降に基づいています。デバイスで別のファームウェアバージョンを使用している場合は、以下のセレクターで該当するガイドに切り替えてください。
 
@@ -10,11 +10,11 @@
 
 ---
 
-Web Admin Panel の左側で、**WIRELESS** に移動します。
+Web 管理パネルの左側で、**WIRELESS** に移動します。
 
 Wireless ページでは、MLO Wi-Fi（対応モデルのみ）、Main Network、Guest Network、IoT Network など、各種 Wi-Fi ネットワークを設定できます。対応する Wi-Fi バンドはモデルによって異なります。
 
-## Multi-Link Operation (MLO)
+## Multi-Link Operation (MLO) {#multi-link-operation-mlo}
 
 ??? "対応モデル"
     - GL-BE14000 (Flint 4)
@@ -70,13 +70,15 @@ Wi-Fi 7 クライアントは MLO Wi-Fi へ接続することを推奨します�
 
 ![mlo3](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/mlo3.png){class="glboxshadow"}
 
-## Main Network
+## Main Network {#main-network}
 
 Main Network はメインの Wi-Fi ネットワークです。異なる無線バンドでの同時ブロードキャストに対応しており、すべてデフォルトで有効になっています。Wi-Fi SSID、セキュリティモード、パスワード、ランダム化 BSSID、TX power、帯域幅、チャンネルなど、バンドごとに個別設定が可能です。
 
 ![main](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/main.png){class="glboxshadow"}
 
-右側の歯車アイコンをクリックすると、各バンドの Wi-Fi 設定を表示または変更できます。利用可能な Wi-Fi バンドはモデルによって異なります。
+右側の歯車アイコンをクリックすると、各バンドの Wi-Fi 設定を表示または変更できます。
+
+**注意**: 利用可能な Wi-Fi バンドはモデルによって異なります。
 
 - 6 GHz
 
@@ -90,11 +92,13 @@ Main Network はメインの Wi-Fi ネットワークです。異なる無線バ
 
     ![main 2.4g](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/main_2.4g.png){class="glboxshadow"}
 
-## Guest Network
+## Guest Network {#guest-network}
 
 Guest Network は来訪者向けの専用 Wi-Fi ネットワークで、すべてのバンドがデフォルトで無効になっています。各バンドごとに Wi-Fi SSID、セキュリティモード、パスワード、ランダム化 BSSID の有効化など、基本設定を行えます。
 
-**Add** をクリックして Guest Wi-Fi ネットワークを設定し、**Apply** をクリックします。利用可能な Wi-Fi バンドはモデルによって異なります。
+**Add** をクリックして Guest Wi-Fi ネットワークを設定し、**Apply** をクリックします。
+
+**注意**: 利用可能な Wi-Fi バンドはモデルによって異なります。
 
 ![guest1](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/guest1.png){class="glboxshadow"}
 
@@ -104,11 +108,13 @@ Guest Network は来訪者向けの専用 Wi-Fi ネットワークで、すべ�
 
 ![guest3](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/guest3.png){class="glboxshadow"}
 
-## IoT Network
+## IoT Network {#iot-network}
 
 IoT Network はスマートデバイス向けの専用 Wi-Fi ネットワークで、すべてのバンドがデフォルトで無効になっています。各バンドごとに Wi-Fi SSID、セキュリティモード、パスワード、ランダム化 BSSID の有効化など、基本設定を行えます。
 
-**Add** をクリックして IoT Wi-Fi ネットワークを設定し、**Apply** をクリックします。このネットワークには 6 GHz バンドは含まれず、利用可能な Wi-Fi バンドはモデルによって異なります。
+**Add** をクリックして IoT Wi-Fi ネットワークを設定し、**Apply** をクリックします。
+
+**注意**: IoT Network には 6 GHz バンドは含まれません。また、利用可能な Wi-Fi バンドはモデルによって異なります。
 
 ![iot1](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/iot1.png){class="glboxshadow"}
 

@@ -1,4 +1,4 @@
-# Ethernet Port
+# Ethernet Port {#ethernet-port}
 
 The content on this page is based on firmware version v4.7-4.9. If your device is running a different firmware version, use the selector below to switch to the corresponding guide.
 
@@ -14,7 +14,7 @@ On the left side of the web Admin Panel, go to **NETWORK** -> **Ethernet Port** 
 
 It allows you to manage Ethernet port roles (WAN/LAN) and view port details such as MAC address and negotiated speed.
 
-## WAN
+## WAN {#wan}
 
 This section displays the port role (WAN or LAN), MAC address, and negotiated rate. 
 
@@ -28,7 +28,7 @@ This section displays the port role (WAN or LAN), MAC address, and negotiated ra
 
 - **Negotiated Network Port Rate**: The negotiated link speed of the WAN interface, displayed only when a valid link is detected.
 
-## LAN
+## LAN {#lan}
 
 This section displays the negotiated speed of the LAN port. It is only displayed when a valid link is detected.
 
@@ -36,7 +36,7 @@ This section displays the negotiated speed of the LAN port. It is only displayed
 
 Some models support switching LAN 1 to a WAN port for dual-Ethernet WAN scenario. Click [Dual-Ethernet WAN](#dual-ethernet-wan) for details.
 
-## Dual-Ethernet WAN
+## Dual-Ethernet WAN {#dual-ethernet-wan}
 
 The Dual-Ethernet WAN feature lets you switch a default LAN Ethernet port to a secondary WAN port for dual Ethernet internet access, providing reliable backup connectivity and supporting bandwidth aggregation (where compatible) for bandwidth-heavy workloads. It also lets you connect to two independent networks (e.g., work and personal) simultaneously, enhancing flexibility without extra hardware.
 

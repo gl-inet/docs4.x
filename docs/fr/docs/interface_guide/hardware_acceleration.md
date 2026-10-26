@@ -1,4 +1,4 @@
-# Accélération matérielle
+# Accélération matérielle {#hardware-acceleration}
 
 **Note**: Ce guide s'applique au firmware v4.2 et aux versions antérieures. Pour les versions plus récentes, veuillez consulter [Network Acceleration](network_acceleration.md). 
 
@@ -8,7 +8,7 @@ L'accélération matérielle (parfois appelée *hardware NAT*, *flow offloading*
 
 Lorsque l'accélération matérielle est activée, les fonctions suivantes ne fonctionnent pas correctement : les statistiques de vitesse et de trafic des clients, ainsi que la limitation de vitesse par client.
 
-## Modèles pris en charge
+## Modèles pris en charge {#supported-models}
 
 ??? "Modèles pris en charge"
     - GL-MT6000 (Fortify)
@@ -44,7 +44,7 @@ Lorsque l'accélération matérielle est activée, les fonctions suivantes ne fo
     - GL-B1300 (Convexa-B)
     - GL-X300B (Collie)
 
-## Configuration rapide
+## Configuration rapide {#quick-setup}
 
 Dans le panneau d'administration web, accédez à **NETWORK** -> **Hardware Acceleration**.
 
@@ -54,7 +54,7 @@ Activez l'interrupteur, puis cliquez sur **Apply**.
 
 ---
 
-## NAT matériel ou NAT logiciel
+## NAT matériel ou NAT logiciel {#hardware-nat-vs-software-nat}
 
 * Si votre priorité est le débit (par exemple une connexion Internet multi-gigabit) et que vous n'avez pas besoin de SQM sur le routeur ni de limitation par client, activez **Hardware NAT / Network Acceleration**. C'est ce qui offre le débit le plus élevé et la plus faible utilisation du CPU.
 

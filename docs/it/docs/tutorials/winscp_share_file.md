@@ -1,10 +1,10 @@
-# Usare WinSCP per accedere ai file condivisi
+# Usare WinSCP per accedere ai file condivisi {#use-winscp-to-access-your-share-files}
 
 Puoi usare **WinSCP** per accedere ai file condivisi tramite la funzione di condivisione file dei **router GL.iNet**.
 
-Configura prima i collegamenti **WebDAV** nella scheda di archiviazione di rete. Per i dettagli di configurazione, fai riferimento alla guida [WebDAV](https://docs.gl-inet.com/router/en/4/interface_guide/network_storage/#set-up-webdav).
+Configura prima i collegamenti **WebDAV** nella scheda di archiviazione di rete. Per i dettagli di configurazione, fai riferimento alla guida [WebDAV](../interface_guide/network_storage.md#set-up-webdav).
 
-## Configurare i collegamenti in WinSCP
+## Configurare i collegamenti in WinSCP {#setup-links-in-winscp}
 
 Dopo aver configurato WebDAV, puoi tornare alla pagina **Share Folders** dell'archiviazione di rete.
 

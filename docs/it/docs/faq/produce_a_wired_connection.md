@@ -1,4 +1,4 @@
-# Come collegare a una rete Wi-Fi un dispositivo solo Ethernet con un router GL.iNet?
+# Come collegare a una rete Wi-Fi un dispositivo solo Ethernet con un router GL.iNet? {#how-to-connect-an-ethernet-only-device-to-wi-fi-with-a-glinet-router}
 
 Se il tuo dispositivo supporta solo la connettività Ethernet ma deve collegarsi a una rete wireless, un router GL.iNet può colmare questa esigenza.
 

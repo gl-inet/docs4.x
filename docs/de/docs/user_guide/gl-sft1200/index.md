@@ -1,6 +1,6 @@
-# Opal (GL-SFT1200) Benutzerhandbuch
+# Opal (GL-SFT1200) Benutzerhandbuch {#opal-gl-sft1200-user-guide}
 
-## Sicherheitshinweise
+## Sicherheitshinweise {#safety-information}
  
 Lesen Sie vor der Verwendung des Geräts alle nachstehenden Sicherheitsinformationen sorgfältig durch. Die nachfolgenden Sicherheitsempfehlungen können nicht sämtliche möglicherweise auftretenden Gefahrensituationen abdecken.
 
@@ -30,13 +30,13 @@ Unsachgemäßes Öffnen oder unsachgemäße Instandsetzung kann den Benutzer des
 
 Schalten Sie bei einem Störfall zuerst den Netzschalter aus.
 
-## Produktübersicht
+## Produktübersicht {#product-overview}
 
 Opal (GL-SFT1200) ist ein Reiserouter im Taschenformat mit Unterstützung für drahtlose Übertragungsgeschwindigkeiten von 1200 Mbit/s. Er ist kompakt für den mobilen Einsatz konzipiert und deckt die Anforderungen an drahtlosen Internetzugang für kleine Unternehmen, kleine Wohnungen oder Geschäftsreisende ab.
 
 ![gl-sft1200 interface](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-sft1200/first_time_setup/gl-sft1200.jpg){class="glboxshadow"}
 
-## Lieferumfang
+## Lieferumfang {#package-contents}
 
 - 1 x Opal (GL-SFT1200)
 - 1 x Benutzerhandbuch
@@ -48,18 +48,18 @@ Opal (GL-SFT1200) ist ein Reiserouter im Taschenformat mit Unterstützung für d
 
 ![gl-sft1200 unboxing](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-sft1200/first_time_setup/sft1200_unboxing.jpg){class="glboxshadow"}
 
-## So richten Sie Opal ein
+## So richten Sie Opal ein {#how-to-set-up-opal}
 
 Sehen Sie sich dieses Einrichtungsvideo an oder folgen Sie den untenstehenden Schritten.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZAVn92F5RV8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <small>(Dieses Video verwendet einen anderen GL.iNet-Router zur Demonstration der Einrichtung, die Schritte sind jedoch für Opal und andere Routermodelle identisch.)</small>
 
-### 1. Einschalten
+### 1. Einschalten {#1-power-on}
 
 Setzen Sie den zweiteiligen Netzadapter zusammen. Schließen Sie ihn an Ihren Router an und stecken Sie ihn in eine Steckdose. Das Gerät startet automatisch.
 
-### 2. Gerät verbinden
+### 2. Gerät verbinden {#2-connect-device}
 
 Verbinden Sie ein Gerät, z. B. einen Computer, Laptop oder ein Smartphone, per Wi-Fi oder Ethernet mit dem Router.
 
@@ -71,13 +71,13 @@ Verbinden Sie ein Gerät, z. B. einen Computer, Laptop oder ein Smartphone, per 
 
     Öffnen Sie auf Ihrem Gerät Einstellungen -> WLAN, suchen Sie in der Liste der verfügbaren Netzwerke den Wi-Fi-Netzwerknamen Ihres Routers und geben Sie das Passwort ein. Den Standard-Netzwerknamen und das Standard-Passwort finden Sie auf dem Etikett an der Unterseite des Routers.
 
-### 3. Im Web-Admin-Panel anmelden
+### 3. Im Web-Admin-Panel anmelden {#3-log-in-to-web-admin-panel}
 
 Öffnen Sie einen Webbrowser, geben Sie `192.168.8.1` in die Adressleiste ein und melden Sie sich an. Wählen Sie Ihre Sprache aus und legen Sie Ihr Admin-Passwort fest. Klicken Sie anschließend auf **Apply**.
 
 Bitte beachten Sie: Wenn Sie die Wi-Fi-Daten ändern, müssen Sie Ihr Gerät mit den aktualisierten Zugangsdaten erneut mit dem Wi-Fi des Routers verbinden.
 
-### 4. Internet einrichten
+### 4. Internet einrichten {#4-internet-setup}
 
 **Hinweis:** Die folgenden Anweisungen gelten für Benutzer, die den Router über das GL.iNet Web-Admin-Panel konfigurieren. Wenn Sie lieber die GL.iNet-App verwenden möchten, [laden Sie die App herunter](https://www.gl-inet.com/app/){target="_blank"} und folgen Sie den Anweisungen auf dem Bildschirm.
 
@@ -127,7 +127,7 @@ Richten Sie Opal mit einer der unterstützten Internetverbindungsmethoden ein: E
 
     Detaillierte Anweisungen finden Sie unter [Über Mobilfunk eine Verbindung zum Internet herstellen](../../interface_guide/internet_cellular.md).
 
-## So richten Sie ein VPN ein
+## So richten Sie ein VPN ein {#how-to-set-up-a-vpn}
 
 Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten Datenverkehr zwischen Ihrem Gerät und dem VPN-Server. Es bietet eine zusätzliche Ebene für Datenschutz und Sicherheit (VPN-Client) und ermöglicht Ihnen den Zugriff auf ein entferntes Netzwerk (VPN-Server). Opal unterstützt OpenVPN, WireGuard und Tor*.
 
@@ -151,7 +151,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     **Hinweis:** Opal unterstützt Tor nicht nativ, Benutzer können Tor jedoch manuell über ein Plug-in installieren. Klicken Sie [hier](../../interface_guide/tor.md#manual-install), um Details zu sehen.
 
-## WLAN und Clients
+## WLAN und Clients {#wireless-and-clients}
 
 === "Wireless"
 
@@ -165,7 +165,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     Informationen zur Einrichtung finden Sie unter [Clients](../../interface_guide/clients.md).
 
-## Cloud-Dienste
+## Cloud-Dienste {#cloud-services}
 
 === "GoodCloud"
 
@@ -181,7 +181,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     **Hinweis:** Bitte aktualisieren Sie die Router-Firmware vor Verwendung dieser Funktion auf Version 4.8 oder höher.
 
-## Anwendungen
+## Anwendungen {#applications}
 
 === "Plug-ins"
 
@@ -203,7 +203,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     **Hinweis:** Bitte aktualisieren Sie die Router-Firmware vor Verwendung dieser Funktion auf Version 4.8 oder höher.
 
-## Netzwerkeinstellungen
+## Netzwerkeinstellungen {#network-settings}
 
 === "Port Forwarding"
 
@@ -285,7 +285,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     Informationen zur Einrichtung finden Sie unter [NAT Settings](../../interface_guide/nat_settings.md).
 
-## Systemeinstellungen
+## Systemeinstellungen {#system-settings}
 
 === "Overview"
 
@@ -380,7 +380,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     Detaillierte Anweisungen finden Sie unter [Advanced Settings](../../interface_guide/advanced_settings.md).
 
-## Konformitätserklärung
+## Konformitätserklärung {#declaration-of-conformity}
 
 Hiermit erklärt GL TECHNOLOGIES (HONG KONG) LIMITED, dass der Funkanlagentyp [AC1200 Wireless Travel Router, GL-SFT1200] den grundlegenden Anforderungen und anderen relevanten Bestimmungen der Richtlinie 2014/53/EU entspricht. Der vollständige Text der EU-Konformitätserklärung ist unter folgender Internetadresse verfügbar: [https://www.gl-inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}.  
 

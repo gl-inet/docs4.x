@@ -163,15 +163,15 @@ VPN (віртуальна приватна мережа) забезпечує з
 
     Spitz Plus та інші маршрутизатори GL.iNet підтримують протокол OpenVPN, який забезпечує високий рівень безпеки. Для налаштування OpenVPN скористайтеся такими інструкціями:
 
-    * [Як налаштувати клієнт OpenVPN](https://docs.gl-inet.com/router/en/4/interface_guide/openvpn_client/)
-    * [Як налаштувати сервер OpenVPN](https://docs.gl-inet.com/router/en/4/interface_guide/openvpn_server/)
+    * [Як налаштувати клієнт OpenVPN](../../interface_guide/openvpn_client.md)
+    * [Як налаштувати сервер OpenVPN](../../interface_guide/openvpn_server.md)
 
 === "WireGuard"
 
     Spitz Plus та інші маршрутизатори GL.iNet підтримують протокол WireGuard, який забезпечує високу швидкість і зручність. Для налаштування WireGuard скористайтеся такими інструкціями:
 
-    * [Як налаштувати клієнт WireGuard](https://docs.gl-inet.com/router/en/4/interface_guide/wireguard_client/)
-    * [Як налаштувати сервер WireGuard](https://docs.gl-inet.com/router/en/4/interface_guide/wireguard_server/)
+    * [Як налаштувати клієнт WireGuard](../../interface_guide/wireguard_client.md)
+    * [Як налаштувати сервер WireGuard](../../interface_guide/wireguard_server.md)
 
 ## Застосунки {#applications}
 
@@ -197,7 +197,7 @@ VPN (віртуальна приватна мережа) забезпечує з
 
 === "AdGuard Home"
 
-    AdGuard Home — сторонній інструмент, який блокує рекламу й відстеження для вашої безпеки. Щоб дізнатися, як увімкнути його, перегляньте інструкцію [AdGuard Home](https://docs.gl-inet.com/router/en/4/interface_guide/adguardhome/).
+    AdGuard Home — сторонній інструмент, який блокує рекламу й відстеження для вашої безпеки. Щоб дізнатися, як увімкнути його, перегляньте інструкцію [AdGuard Home](../../interface_guide/adguardhome.md).
 
 === "Parental Control"
 
@@ -225,13 +225,13 @@ VPN (віртуальна приватна мережа) забезпечує з
 
 === "Port forwarding"
 
-    Переспрямування портів дає змогу віддаленим серверам і пристроям в інтернеті отримувати доступ до пристроїв приватної мережі. Для налаштування перегляньте інструкцію [Port Forwards](https://docs.gl-inet.com/router/en/4/interface_guide/firewall/#port-forwards).
+    Переспрямування портів дає змогу віддаленим серверам і пристроям в інтернеті отримувати доступ до пристроїв приватної мережі. Для налаштування перегляньте інструкцію [Port Forwards](../../interface_guide/port_forwarding.md).
 
 === "Multi-WAN"
 
     Multi-WAN дає змогу одночасно налаштувати на маршрутизаторі кілька інтернет-підключень (наприклад, стільникове підключення, ретранслятор і Ethernet). Якщо поточне інтернет-підключення перестане працювати, маршрутизатор автоматично перемкнеться на інше. Це забезпечує безперервний доступ до інтернету.
 
-    Щоб налаштувати Multi-WAN, перегляньте інструкцію [Multi-WAN](https://docs.gl-inet.com/router/en/4/interface_guide/multi-wan/).
+    Щоб налаштувати Multi-WAN, перегляньте інструкцію [Multi-WAN](../../interface_guide/multi-wan.md).
 
 === "LAN"
 
@@ -275,7 +275,7 @@ VPN (віртуальна приватна мережа) забезпечує з
 
 === "Drop-in Gateway"
 
-    Drop-in Gateway додає до основного маршрутизатора функції, яких він може не мати, зокрема AdGuard Home, зашифрований DNS і VPN. Для налаштування перегляньте інструкцію [Налаштування Drop-in Gateway](https://docs.gl-inet.com/router/en/4/tutorials/how_to_set_up_drop_in_gateway/).
+    Drop-in Gateway додає до основного маршрутизатора функції, яких він може не мати, зокрема AdGuard Home, зашифрований DNS і VPN. Для налаштування перегляньте інструкцію [Налаштування Drop-in Gateway](../../tutorials/how_to_set_up_drop_in_gateway.md).
 
 ---
 

@@ -1,28 +1,28 @@
-# Firmware v4.11
+# Firmware v4.11 {#firmware-v411}
 
 This release focuses on improving network quality monitoring and security assessment, helping you identify connectivity issues and potential security risks. It also enhances DNS, QoS, SQM, and Data statistics for more flexible network management and traffic control.
 
 Get the latest firmware from the [Firmware Download Center](https://dl.gl-inet.com/){target="_blank"}.
 
-## Network Quality
+## Network Quality {#network-quality}
 
 [Network Quality](../interface_guide/network_quality.md) is a new feature that monitors your Internet connection in real time. It evaluates responsiveness, latency, and DNS performance, while detecting connection drops and packet loss to help identify network instability and connectivity issues that bandwidth tests alone may not reveal.
 
 ![network quality](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/network_quality.png){class="glboxshadow"}
 
-## Security Scan
+## Security Scan {#security-scan}
 
 [Security Scan](../interface_guide/security_scan.md) is a new feature that evaluates your router's security settings and provides a security score, risk alerts, and optimization suggestions. It checks items such as Wi-Fi security, WAN ping, remote SSH, port forwarding, and DPI content protection, helping you identify and address potential security risks. A scan starts automatically when you open the page. You can also click the score icon to reset and rerun the scan.
 
 ![security scan](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/security_scan.png){class="glboxshadow"}
 
-## DNS
+## DNS {#dns}
 
 This release improves [DNS](../interface_guide/dns_v4.11.md) configuration by bringing WAN DNS, VPN DNS, and Manual DNS together on a single page. You can easily view the DNS status for each connection type, configure custom DNS servers, and choose whether manual DNS settings apply to VPN tunnels or the router itself.
 
 ![dns](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/dns.png){class="glboxshadow"}
 
-## QoS
+## QoS {#qos}
 
 [QoS](../interface_guide/qos.md) (Quality of Service) provides a **Run Speedtest** option for WAN bandwidth, measuring download and upload speeds and auto-filling the relevant fields. In terms of scheduling policies, this release adds two options in addition to Application Priority: **Device Priority** and **Advanced QoS**.
 
@@ -34,7 +34,7 @@ This release improves [DNS](../interface_guide/dns_v4.11.md) configuration by br
 
 - **Advanced QoS**: Create advanced QoS rules for high-priority traffic. 
 
-## SQM
+## SQM {#sqm}
 
 [SQM](../interface_guide/sqm.md) (Smart Queue Management) provides a **Run Speedtest** option for WAN bandwidth, measuring download and upload speeds and auto-filling the relevant fields. Two queue disciplines are available: **cake** and **fq_codel**.
 
@@ -48,7 +48,7 @@ This release improves [DNS](../interface_guide/dns_v4.11.md) configuration by br
 
 - **fq_codel**: Simple and efficient fair-queueing with basic latency reduction.
 
-## Data Statistics
+## Data Statistics {#data-statistics}
 
 [Data Statistics](../interface_guide/data_statistics.md) now supports traffic filtering by client and introduces new chart views, including bar charts and pie charts. When viewing App Traffic Statistics, you can select a specific client and switch between chart views for a clearer analysis of traffic usage.
 

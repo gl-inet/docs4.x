@@ -1,12 +1,12 @@
-# Podręcznik użytkownika Fortify (GL-MT6000)
+# Podręcznik użytkownika Fortify (GL-MT6000) {#fortify-gl-mt6000-user-guide}
 
-## Przegląd produktu
+## Przegląd produktu {#product-overview}
 
 Fortify (GL-MT6000) to router Wi-Fi 6 pod wspólną marką wydany wspólnie przez GL.iNet i ExpressVPN. Do każdej jednostki dołączona jest bezpłatna roczna subskrypcja ExpressVPN. Użytkownicy mogą wykupić subskrypcję i połączyć swoje konta bezpośrednio w internetowym panelu administracyjnym routera. Gdy tunel ExpressVPN jest połączony, router szyfruje ruch i kieruje go przez ten tunel zgodnie z ustawieniami polityk VPN.
 
 ![fortify gl-mt6000](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000-fortify/mt6000-fortify_interface.png){class="glboxshadow"}
 
-## Zawartość opakowania
+## Zawartość opakowania {#package-contents}
 
 - 1 x Fortify (GL-MT6000)
 - 1 x Instrukcja obsługi
@@ -22,17 +22,17 @@ Obejrzyj poniżej film z rozpakowania Fortify.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IQEfj7Hff7U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Jak skonfigurować Fortify
+## Jak skonfigurować Fortify {#how-to-set-up-fortify}
 
 Obejrzyj ten film konfiguracyjny lub wykonaj poniższe kroki.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FymI3LCRMTA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Włącz
+### 1. Włącz {#1-power-on}
 
 Złóż razem dwuczęściowy zasilacz. Podłącz go do routera Fortify i podłącz do gniazdka. Uruchomi się automatycznie.
 
-### 2. Podłącz urządzenie
+### 2. Podłącz urządzenie {#2-connect-device}
 
 Podłącz urządzenie (np. komputer, laptop lub smartfon) do routera przez Wi-Fi lub Ethernet.
 
@@ -44,7 +44,7 @@ Podłącz urządzenie (np. komputer, laptop lub smartfon) do routera przez Wi-Fi
 
     Na swoim urządzeniu przejdź do Ustawienia -> WLAN, znajdź nazwę sieci Wi-Fi swojego routera na liście dostępnych sieci i wprowadź hasło, aby dołączyć do sieci. Domyślną nazwę sieci i hasło można znaleźć na etykiecie routera.
 
-### 3. Zaloguj się do internetowego panelu administracyjnego
+### 3. Zaloguj się do internetowego panelu administracyjnego {#3-log-in-to-web-admin-panel}
 
 Otwórz przeglądarkę internetową, wpisz `192.168.8.1` w pasku adresu i zaloguj się. W prawym górnym rogu wybierz swój język, ustaw hasło administratora, a następnie kliknij **Next**. Hasło musi mieć długość 10–63 znaków i zawierać co najmniej dwa z następujących elementów: wielkie litery, małe litery, cyfry i symbole specjalne.
 
@@ -54,7 +54,7 @@ Skonfiguruj Wi-Fi. Pamiętaj, że jeśli zmienisz informacje o Wi-Fi, konieczne 
 
 ![fortify login2](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000-fortify/login2.png){class="glboxshadow"}
 
-### 4. Konfiguracja Internetu
+### 4. Konfiguracja Internetu {#4-internet-setup}
 
 **Uwaga:** Poniższe instrukcje dotyczą użytkowników konfigurujących router za pośrednictwem internetowego panelu administracyjnego GL.iNet. Jeśli wolisz aplikację [GL.iNet](https://www.gl-inet.com/pages/app#download-app-glinet){target="_blank"}, pobierz ją i postępuj zgodnie z instrukcjami wyświetlanymi na ekranie.
 
@@ -108,19 +108,19 @@ Skonfiguruj Fortify, korzystając z jednej z obsługiwanych metod połączenia i
 
 Poniżej znajduje się przegląd funkcji internetowego panelu administracyjnego Fortify.
 
-## Bezprzewodowe
+## Bezprzewodowe {#wireless}
 
 Strona Bezprzewodowa umożliwia skonfigurowanie sieci Wi-Fi Fortify, w tym sieci głównej, sieci dla gości i sieci IoT. Każda sieć obsługuje pasma 2,4 GHz i 5 GHz.
 
 Aby skonfigurować połączenie bezprzewodowe, patrz [Bezprzewodowe](../../interface_guide/wireless.md).
 
-## Klienci
+## Klienci {#clients}
 
 Strona Klienci wyświetla informacje o podłączonych urządzeniach, w tym nazwę urządzenia, typ połączenia, adresy IP i MAC, prędkość pobierania i wysyłania, ruch, a także zapewnia możliwość zablokowania określonego klienta jednym kliknięciem lub wykonania innych czynności.
 
 Aby uzyskać szczegółowe informacje, zobacz [Klienci](../../interface_guide/clients.md).
 
-## Usługi w chmurze
+## Usługi w chmurze {#cloud-services}
 
 === "GoodCloud"
 
@@ -134,7 +134,7 @@ Aby uzyskać szczegółowe informacje, zobacz [Klienci](../../interface_guide/cl
 
     Aby uzyskać szczegółowe informacje, zobacz [AstroWarp](../../interface_guide/astrowarp.md).
 
-## VPN
+## VPN {#vpn}
 
 VPN (virtual private network) ustanawia bezpieczne, szyfrowane tunele ruchu pomiędzy Twoim urządzeniem lokalnym a serwerem VPN. Dodaje dodatkową warstwę prywatności i bezpieczeństwa do klienta VPN i umożliwia dostęp do zdalnej sieci serwerów VPN.
 
@@ -146,7 +146,7 @@ Aby skonfigurować serwer OpenVPN, zapoznaj się z [Serwerem OpenVPN](../../inte
 
 Aby skonfigurować serwer WireGuard, patrz [Serwer WireGuard](../../interface_guide/wireguard_server.md).
 
-## Sieć
+## Sieć {#network}
 
 === "Multi-WAN"
 
@@ -218,7 +218,7 @@ Aby skonfigurować serwer WireGuard, patrz [Serwer WireGuard](../../interface_gu
 
     Aby skonfigurować przyspieszenie sieci, zapoznaj się z [Przyspieszenie sieci](../../interface_guide/network_acceleration.md).
 
-## Kontrola przepływu
+## Kontrola przepływu {#flow-control}
 
 === "DPI Engine"
 
@@ -260,7 +260,7 @@ Aby skonfigurować serwer WireGuard, patrz [Serwer WireGuard](../../interface_gu
 
     Aby uzyskać szczegółowe informacje, zobacz [Kontrola rodzicielska](../../interface_guide/parental_control_v4.9.md).
 
-## Bezpieczeństwo
+## Bezpieczeństwo {#security}
 
 === "Port forwarding"
 
@@ -290,7 +290,7 @@ Aby skonfigurować serwer WireGuard, patrz [Serwer WireGuard](../../interface_gu
 
     Aby uzyskać szczegółowe informacje, zobacz [Tryb NAT](../../interface_guide/nat_settings.md).
 
-## Aplikacje
+## Aplikacje {#applications}
 
 === "Plug-ins"
 
@@ -344,7 +344,7 @@ Aby skonfigurować serwer WireGuard, patrz [Serwer WireGuard](../../interface_gu
 
     Szczegóły znajdziesz w [Tor](../../interface_guide/tor.md).
 
-## Systemu
+## Systemu {#system}
 
 === "Overview"
 

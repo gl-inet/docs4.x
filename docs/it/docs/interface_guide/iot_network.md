@@ -1,4 +1,4 @@
-# Rete IoT
+# Rete IoT {#iot-network}
 
 > La funzione IoT Network è stata introdotta nel firmware v4.9.
 
@@ -10,7 +10,7 @@ Questa pagina ti consente di creare una rete Wi-Fi dedicata ai dispositivi IoT. 
 
 Include due sezioni: Impostazioni di base e Impostazioni del server DHCP.
 
-## Impostazioni di base
+## Impostazioni di base {#basic-settings}
 
 Puoi impostare la subnet all’interno degli intervalli di indirizzi privati IPv4: `192.168.0.0/16`, `172.16.0.0/12`, `10.0.0.0/8`
 
@@ -36,7 +36,7 @@ Puoi impostare la subnet all’interno degli intervalli di indirizzi privati IPv
 
     Quando è abilitata, la rete IoT non può accedere alla rete a monte e alla relativa subnet.
 
-## Server DHCP
+## Server DHCP {#dhcp-server}
 
 Se la rete IoT è abilitata, verrà abilitato di conseguenza anche il relativo server DHCP.
 

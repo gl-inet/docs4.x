@@ -1,4 +1,4 @@
-# Stuck on "Installing" during firmware update
+# Stuck on "Installing" during firmware update {#stuck-on-installing-during-firmware-update}
 
 If your router is stuck on "Installing" during a firmware update, follow the steps below to resolve the issue.
 

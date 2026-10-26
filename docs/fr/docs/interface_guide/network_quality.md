@@ -1,4 +1,4 @@
-# Qualité du réseau
+# Qualité du réseau {#network-quality}
 
 **Remarque** : cette fonctionnalité a été introduite dans le firmware v4.11.
 
@@ -18,7 +18,7 @@ Sur cette page, vous pouvez évaluer votre connexion Internet à l'aide du Netwo
 
 2. Speedtest est un test de débit local exécuté sur le routeur et soumis aux règles de limitation de débit de fonctionnalités telles que SQM et QoS.
 
-## Network Quality Score
+## Network Quality Score {#network-quality-score}
 
 Cette section affiche le Network Quality Score global, calculé à partir du Response Score et du Reliable Score. Vous pouvez consulter chaque score séparément. Le panneau affiche également des mesures associées, notamment la latence, la gigue et la perte de paquets, ainsi que les débits descendants et montants en temps réel en Ko/s. Par défaut, le tableau de bord utilise `google.com` comme cible des tests de connectivité Internet et de résolution DNS.
 
@@ -36,7 +36,7 @@ Les cibles configurées servent à exécuter les tests de connectivité et DNS e
 
 - **DNS Resolution Target** : domaine résolu lors des requêtes DNS. Les enregistrements A (IPv4) et AAAA (IPv6) sont tous deux interrogés.
 
-## Speedtest
+## Speedtest {#speedtest}
 
 Ce test de débit intégré utilise Cloudflare Speed Test pour mesurer les débits descendant et montant, la latence du ping et le bufferbloat. Des graphiques de débit en temps réel sont affichés pendant le test.
 

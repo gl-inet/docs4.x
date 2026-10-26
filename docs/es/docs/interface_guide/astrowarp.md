@@ -1,4 +1,4 @@
-# AstroWarp
+# AstroWarp {#astrowarp}
 
 **Nota**: Esta guía se aplica a la nueva versión de AstroWarp. Esta función pasó a llamarse [GoodPAS](./goodpas.md) en el firmware v4.11 (v4.10 en el GL-MG1300).
 
@@ -18,7 +18,7 @@ Aunque AstroWarp heredado sigue apareciendo en el panel de administración web, 
 
     Por ejemplo, si el router A y el router B establecen una red AstroWarp con el router B como nodo de salida, el tráfico reenviado a través de AstroWarp saldrá a Internet mediante la IP pública de la WAN del router B, aunque el cliente VPN esté habilitado en el router B. Este tráfico no se reenviará a través del túnel del cliente VPN del router B.
 
-## Modelos compatibles
+## Modelos compatibles {#supported-models}
 
 ??? "Modelos compatibles"
 
@@ -62,7 +62,7 @@ Aunque AstroWarp heredado sigue apareciendo en el panel de administración web, 
     - GL-AP1300 (Cirrus)
     - GL-X300B (Collie)
 
-## Configuración rápida
+## Configuración rápida {#quick-setup}
 
 En el siguiente ejemplo, usaremos **Flint 3 (GL-BE9300)** y **Slate 7 (GL-BE3600)** para configurar una red AstroWarp.
 
@@ -118,7 +118,7 @@ Flint 3 actuará como router doméstico, mientras que Slate 7 actuará como rout
 
     ![connected home](https://static.gl-inet.com/docs/router/en/4/interface_guide/astrowarp/connected_home.png){class="glboxshadow"}
 
-## Probar la conectividad
+## Probar la conectividad {#test-connectivity}
 
 1. Conecte un portátil o smartphone al Wi-Fi del router de viaje Slate 7.
 
@@ -134,7 +134,7 @@ Flint 3 actuará como router doméstico, mientras que Slate 7 actuará como rout
 
     ![ipcheck sz](https://static.gl-inet.com/docs/router/en/4/interface_guide/astrowarp/ipcheck_sz.png){class="glboxshadow"}
 
-## FAQ
+## FAQ {#faq}
 
 1. **P: ¿Cuál es el formato del código de acceso dinámico y cuánto tiempo es válido?**
 

@@ -444,11 +444,11 @@ AT-команди модема — стандартні інструкції д�
 
     Ця проблема може супроводжуватися двома повідомленнями про помилку:
 
-    - SIM card not registered
+    - «SIM card not registered»
 
         ![SIM-картка не зареєстрована в мережі](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/troubleshoot/sim_not_registered.png){class="glboxshadow"}
 
-    - The interface is connected, but the Internet can't be accessed
+    - «The interface is connected, but the Internet can't be accessed»
 
         ![З’єднання встановлено, але інтернет недоступний](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/troubleshoot/connected_no_internet.png){class="glboxshadow"}
 

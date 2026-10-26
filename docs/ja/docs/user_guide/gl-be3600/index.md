@@ -1,19 +1,17 @@
-# Slate 7 (GL-BE3600) ユーザーガイド
+# Slate 7 (GL-BE3600) ユーザーガイド {#slate-7-gl-be3600-user-guide}
 
-## 製品概要
+## 製品概要 {#product-overview}
 
-Slate 7 (GL-BE3600) は、GL.iNet初のWi-Fi 7対応デュアルバンドトラベルルーターです。Multi-Link Operation や 4K QAM などの先進的な Wi-Fi 7 技術を搭載し、理論値で 688Mbps（2.4GHz）+ 2882Mbps（5GHz）の通信速度を実現します。8Kストリーミングやモバイルゲームにも対応し、タッチスクリーンでネットワーク状態の確認や基本操作を直感的に行えます。
+Slate 7 (GL-BE3600) は、GL.iNet初のデュアルバンドWi-Fi 7ポータブルトラベルルーターです。Multi-Link Operation や 4K QAM などの先進的な Wi-Fi 7 技術を搭載し、理論値で 688Mbps（2.4GHz）+ 2882Mbps（5GHz）の通信速度を実現します。8Kストリーミングやモバイルゲームにも対応し、タッチスクリーンでネットワーク状態の確認や基本操作を直感的に行えます。
 
 2× 2.5G Ethernet ポート（1 WAN + 1 LAN）と 1× USB 3.0 ポートを備え、高速な有線接続と柔軟なストレージ拡張に対応します。Type-C PD 電源（5V/3A、9V/3A、12V/2.5A）にも対応しており、コンパクトで軽量なため持ち運びにも便利です。AdGuard Home をプリインストールし、30種類以上のVPNサービスに対応しているため、ネットワークに高いセキュリティを提供します。モバイル性とプロ向け性能を兼ね備えた Slate 7 は、リモートワークやモバイルネットワーク共有に適しています。
 
 ![gl-be3600 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/hardware_info/be3600_interface.jpg){class="glboxshadow"}
 
-## パッケージコンテンツ
-
-パッケージには以下が含まれます：
+## パッケージ内容 {#package-contents}
 
 - 1 x Slate 7 (GL-BE3600)
-- 1 x ユーザーガイド
+- 1 x ユーザーマニュアル
 - 1 x サンキューカード
 - 1 x Ethernetケーブル
 - 1 x 電源コード
@@ -26,12 +24,12 @@ Slate 7 の開封動画は以下をご覧ください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bEuwGm0hQ5k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## タッチスクリーン
+## タッチスクリーン {#touchscreen}
 
 | 画面表示 | 説明 |
 | :--- | :--- |
 | ![booting](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/booting.png){width="400"} | 起動中 |
-| ![network](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/network.png){width="400"} | ネットワーク接続タイプと状態<br>**Green**: Active / Connected<br>**Yellow**: Connecting / Abnormal <br>**White**: Inactive connection |
+| ![network](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/network.png){width="400"} | ネットワーク接続タイプと状態<br>**緑**：アクティブ / 接続済み<br>**黄**：接続中 / 異常 <br>**白**：非アクティブな接続 |
 | ![wifi](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/wifi-details.png){width="400"} | SSID、パスワード、QRコード、オン/オフボタンを含むWi-Fi情報 |
 | ![vpn](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/vpn_client.png){width="400"} | VPNの状態。Web管理パネルで事前設定が必要です |
 | ![adguard home](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/adguard_home.png){width="400"} | AdGuard Home |
@@ -43,18 +41,18 @@ Slate 7 の開封動画は以下をご覧ください。
 | ![unlock](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/slide-to-unlock.png){width="400"} | 画面をタップして点灯し、左から右へスライドしてロックを解除します |
 | ![reboot](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/slide-to-reboot.png){width="400"} | 「Reboot」をクリックした後、左から右へスライドして確認します |
 
-## Slate 7の設定方法
+## Slate 7の設定方法 {#how-to-set-up-slate-7}
 
-Slate 7の設定には、Ethernet、Repeater、Tethering、Cellularの4つのインターネット接続方法が使えます。設定動画を見るか、以下の手順に従ってください。
+セットアップ動画を視聴するか、以下の手順に従ってください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YMHQK8wSQGM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<small>(この動画では、Slate 7 を Repeater として設定する方法を紹介しています。その他のインターネット接続方法で設定する場合は、以下の手順を参照してください。)</small>
+<small>（この動画では、Slate 7 を Repeater として設定する方法を紹介しています。その他のインターネット接続方法で設定する場合は、以下の手順を参照してください。）</small>
 
-### 1. Slate 7の電源を入れる
+### 1. 電源を入れる {#1-power-on}
 
-二分割の電源アダプターを組み合わせます。ルーターに接続し、コンセントに挿すと自動的に起動します。
+2ピース式の電源アダプターを組み立てます。ルーターに接続し、コンセントに差し込むと自動的に起動します。
 
-### 2. Slate 7に接続する
+### 2. デバイスを接続する {#2-connect-device}
 
 Wi-FiまたはEthernetを使用してデバイス（コンピュータ、ラップトップ、スマートフォンなど）をルーターに接続します。
 
@@ -66,13 +64,13 @@ Wi-FiまたはEthernetを使用してデバイス（コンピュータ、ラッ�
 
     デバイスで、利用可能なネットワークリストからルーターのWi-Fiネットワーク名を見つけ、パスワードを入力してネットワークに参加します。デフォルトのネットワーク名とパスワードはルーターのラベルに印刷されています。
 
-### 3. WebGUIにログインする
+### 3. Web管理パネルにログインする {#3-log-in-to-web-admin-panel}
 
-Webブラウザーでアドレスバーに`192.168.8.1`を入力してログインします。言語を選択し、管理者パスワードを設定して、**Apply**をクリックします。
+Webブラウザーを開き、アドレスバーに`192.168.8.1`を入力してログインします。言語を選択し、管理者パスワードを設定して、**Apply**をクリックします。
 
-### 4. Slate 7をインターネットに接続する
+### 4. インターネット設定 {#4-internet-setup}
 
-**注意:** 以下の説明は、GL.iNet Web管理パネルでルーターを設定するユーザーに適用されます。GL.iNetアプリを使用する場合は、[アプリをダウンロード](https://www.gl-inet.com/app/){target="_blank"}して画面の説明に従ってください。
+**注：** 以下の手順は、GL.iNet Web管理パネルでルーターを設定するユーザー向けです。GL.iNetアプリを使用する場合は、[アプリをダウンロード](https://www.gl-inet.com/app/){target="_blank"}し、画面の指示に従ってください。
 
 サポートされているインターネット接続方法（Ethernet、Repeater、Tethering、Cellular）のいずれかを使用してSlate 7を設定します。[Multi-WAN](../../interface_guide/multi-wan.md)機能を使用する場合は、複数のインターネット接続を設定してください。
 
@@ -114,7 +112,7 @@ Webブラウザーでアドレスバーに`192.168.8.1`を入力してログイ�
 
     ![cellular](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/internet/be3600_cellular.jpg){class="glboxshadow"}
 
-    Slate 7のUSBポートにCellular USBモデムを挿します。これは、USBモデムからすべての接続デバイスにインターネットを共有するのに便利です。
+    セルラー対応のUSBモデムをSlate 7のUSBポートに挿入します。USBモデムのインターネット接続を、接続中のすべてのデバイスで共有する場合に便利です。
 
     インターネットに正常に接続されると、INTERNETページのCellularセクションに緑色のドットが表示されます。
 
@@ -122,37 +120,37 @@ Webブラウザーでアドレスバーに`192.168.8.1`を入力してログイ�
 
 ---
 
-以下は Slate 7 WebGUI の主な機能の概要です。
+以下は、Slate 7のWeb管理パネルで利用できる機能の概要です。
 
-## Wireless
+## Wireless {#wireless}
 
-Wirelessページでは、5 GHzと2.4 GHz Wi-Fiネットワークの設定を構成できます。Wi-Fiの有効化、TX電力の設定、Wi-Fi名（SSID）の指定、ランダムBSSIDの有効化、Wi-Fiセキュリティモードとパスワードの選択、SSID可視性の設定、Wi-Fiモード、帯域幅、チャネルの選択が含まれます。
+Wirelessページでは、5 GHzと2.4 GHz Wi-Fiネットワークの設定を行えます。Wi-Fiの有効化、送信出力（TX power）の設定、Wi-Fi名（SSID）の指定、ランダム化BSSIDの有効化、Wi-Fiセキュリティモードとパスワードの設定、SSIDの表示設定、Wi-Fiモード、帯域幅、チャネルの選択が含まれます。
 
-また、Slate 7はMLO Wi-Fi（Multi-Link Operation）をサポートしており、複数のWi-Fiネットワークを同時に組み合わせて、より高い帯域幅とより信頼性の高い接続を実現します。
+また、Slate 7はMLO Wi-Fi（Multi-Link Operation）をサポートしており、複数の無線ネットワークを同時に組み合わせて、より高い帯域幅とより信頼性の高い接続を実現します。
 
 Wirelessの設定については、[Wireless](../../interface_guide/wireless.md)を参照してください。
 
-## Clients
+## Clients {#clients}
 
 Clients ページには、接続中のデバイスに関する情報が表示されます。各クライアントについて、名前、IPアドレス、MACアドレス、ダウンロード速度、アップロード速度、合計トラフィックを確認でき、クライアントをブロックしたり、その他の操作を実行したりできます。
 
 Clientsの設定については、[Clients](../../interface_guide/clients.md)を参照してください。
 
-## クラウドサービス
+## クラウドサービス {#cloud-services}
 
 === "GoodCloud"
 
-    GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"}は、GL.iNetルーターに簡単かつシンプルにリモートアクセスと管理を提供します。
+    GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"}は、GL.iNetルーターへリモートアクセスして管理するための簡単な方法を提供します。
     
     GoodCloudの設定については、[GoodCloud](../../interface_guide/cloud.md)を参照してください。
 
 === "AstroWarp"
 
-    AstroWarp は、シームレスなリモートネットワーク接続とリモートデバイス管理を実現する高度なネットワーキングプラットフォームです。GL.iNet ルーターとの連携に特化しており、ネットワーク全体のデバイス管理をサポートし、上位・下位デバイスの制御も可能にします。将来的なハードウェアレベル制御にも対応できる設計で、安全かつ安定したネットワークを維持するための堅牢で信頼性の高いソリューションを提供します。
+    AstroWarp は、シームレスなリモートネットワーク接続とリモートデバイス管理を実現する高度なネットワーキングプラットフォームです。GL.iNet ルーターとの連携に特化しており、ネットワーク全体のデバイス管理をサポートし、上位・下位デバイスの制御も可能にします。ネットワーク全体の管理と将来的なハードウェアレベル制御を重視し、デバイス管理と安全で安定したネットワーク維持のための、より堅牢で信頼性の高いソリューションを提供します。
     
     AstroWarpの設定については、[AstroWarp](../../interface_guide/astrowarp.md)を参照してください。
 
-## VPN
+## VPN {#vpn}
 
 VPN（仮想プライベートネットワーク）は、デバイスとVPNサーバー間の安全で暗号化されたトラフィックを作成します。VPNクライアントとしてプライバシーとセキュリティの追加レイヤーを提供し、VPNサーバーとしてリモートネットワークにアクセスできます。Slate 7はOpenVPN、WireGuard、Torをサポートしています。
 
@@ -172,15 +170,15 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
 === "Tor"
 
-    Tor（The Onion Routerの略称）は、匿名通信を可能にするプライバシー重視のネットワークです。ユーザーの位置情報と使用状況を不明瞭にするために、一連のボランティアが運用するサーバー（ノード）をを通じてインターネットトラフィックをルーティングします。
+    Tor（The Onion Routerの略称）は、匿名通信を可能にするプライバシー重視のネットワークです。インターネットトラフィックを複数のボランティア運営サーバー（ノード）経由でルーティングし、ユーザーの位置情報や利用状況を分かりにくくすることで、オンライン活動の追跡を困難にします。
     
     * [Torの設定方法](../../interface_guide/tor.md)
 
-## アプリケーション
+## アプリケーション {#applications}
 
 === "Plug-ins"
 
-    プラグインは、既存のコンピュータプログラムに特定の機能または機能を追加するソフトウェアコンポーネントであり、カスタマイズと機能拡張を可能にします。
+    プラグインは、既存のコンピュータープログラムに特定の機能を追加するソフトウェアコンポーネントで、機能のカスタマイズや拡張を可能にします。
     
     プラグインの設定については、[Plug-ins](../../interface_guide/plugins.md)を参照してください。
 
@@ -206,9 +204,9 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
 === "Parental Control"
 
-    Parental Controlは、子どものデバイスを管理および制御するために設計されています。スクリーン時間の制限や特定コンテンツへのアクセス制限が含まれます。
+    ペアレンタルコントロールは、お子様のデバイスを管理・制御するための機能です。スクリーン時間の制限や特定コンテンツへのアクセス制限が含まれます。
 
-    保護者による制御の設定については、[Parental controls](../../interface_guide/parental_control.md)を参照してください。
+    ペアレンタルコントロールの設定については、[Parental controls](../../interface_guide/parental_control.md)を参照してください。
 
 === "ZeroTier"
 
@@ -222,17 +220,17 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
     
     Tailscale の設定については、[Tailscale](../../interface_guide/tailscale.md)を参照してください。
 
-## ネットワーク
+## ネットワーク {#network}
 
 === "Port forwarding"
 
-    ポートフォワーディングにより、リモートサーバーとインターネット上のデバイスがプライベートネットワーク上のデバイスにアクセスできます。
+    ポートフォワーディングは、インターネット上のリモートサーバーやデバイスからプライベートネットワーク内のデバイスへアクセスできるようにします。
     
     ポートフォワーディングの設定については、[Port Forwarding](../../interface_guide/port_forwarding.md)を参照してください。
 
 === "Multi-WAN"
 
-    Multi-WAN は、ルーターに複数のインターネット接続（cellular、repeater、ethernet など）を同時に設定できる機能です。現在のインターネット接続に障害が発生すると、ルーターは自動的に別のインターネット接続へ切り替えます。これにより、安定したインターネットアクセスを維持できます。
+    Multi-WAN は、ルーターに複数のインターネット接続（Cellular、Repeater、Ethernet など）を同時に設定できるネットワーク機能です。現在のインターネット接続に障害が発生すると、ルーターは自動的に別のインターネット接続へ切り替えます。これにより、スムーズで途切れにくいインターネットアクセスを維持できます。
 
     Multi-WANの設定については、[Multi-WAN](../../interface_guide/multi-wan.md)を参照してください。
 
@@ -252,7 +250,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
 === "DNS"
 
-    DNSページでは、カスタムDNSサーバーを設定し、DNSリバインディング攻撃保護を有効にしてすべてのクライアントのDNS設定を上書きし、カスタムDNSがVPN DNSを上書きできるようにし、Ethernet接続からDNSサーバーを自動的に指定するか手動で指定するモードを構成できます。
+    DNSページでは、カスタムDNSサーバーの設定、DNSリバインディング攻撃保護の有効化、すべてのクライアントのDNS設定の上書き、カスタムDNSによるVPN DNSの上書き許可を設定できます。また、DNSサーバー設定モードを自動にするか、Ethernet接続のDNSサーバーを手動で指定するかを設定できます。
 
     DNSの設定については、[DNS](../../interface_guide/dns.md)を参照してください。
 
@@ -305,7 +303,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
     NAT設定については、[NAT Settings](../../interface_guide/nat_settings.md)を参照してください。
 
-## システム
+## システム {#system}
 
 === "Overview"
 
@@ -315,7 +313,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
     * メモリ使用量：ルーターのメモリ使用量を確認し、リソース管理に役立ちます。
     * LEDコントロール：ルーターのLEDライトのオン/オフを切り替え、デバイスの視覚インジケーターのカスタマイズを可能にします。
     * フラッシュ使用量：ルーターのフラッシュストレージ使用率を確認し、ファームウェアや設定データのための十分な空き容量を確保します。
-    * デバイス情報：ルーターのシステムに関する詳細情報（アップタイム、ホスト名、モデル、アーキテクチャ、OpenWrtバージョン、カーネルバージョン、デバイスID、デバイスMAC、デバイスS/N）にアクセスします。
+    * デバイス情報：ルーターのシステムに関する詳細情報（稼働時間、ホスト名、モデル、アーキテクチャ、OpenWrtバージョン、カーネルバージョン、デバイスID、デバイスMAC、デバイスS/N）にアクセスします。
     * 外部ストレージ：ルーターに接続されたUSBドライブやTFカードなどの外部ストレージデバイスの状態を確認します。
     
     これらの機能は、ルーターの動作を効果的に管理・監視するのに役立つ重要な情報と制御機能を提供します。
@@ -338,7 +336,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
     Scheduled Tasks ページでは、事前定義したスケジュールに基づいてルーター機能を自動化でき、利便性と効率が向上します。主な機能は次のとおりです。
 
     * LED表示スケジュール：特定の時間帯にルーターのLEDライトを自動的にオンまたはオフに設定し、光害を軽減します。
-    * スケジュール再起動：ルーターを指定した間隔で自動的に再起動するように設定し、最も適なパフォーマンスと安定性の維持に役立ちます。
+    * スケジュール再起動：ルーターを指定した間隔で自動的に再起動するように設定し、最適なパフォーマンスと安定性の維持に役立ちます。
     * Wi-Fiステータススケジュール：5GHz / 2.4GHz / MLO Wi-Fiバンドを制御するスケジュールを設定し、ネットワーク可用性と消費電力の管理を改善できます。
     
     これらのスケジューリングオプションは、ルーターの操作をより詳細に制御し、特定のニーズと好みに合わせることができます。
@@ -362,7 +360,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
 === "Time Zone"
 
-    Time Zone ページでは、ルーターの正しいタイムゾーンを設定できます。この設定は、正確な記録を維持し、時間ベースの設定を適切に実行するために重要です。
+    Time Zone ページでは、ルーターに正しいタイムゾーンを設定し、すべてのスケジュールタスク、ログ、システムイベントが現地時間に基づいて正確に記録されるようにします。この設定は、正確な記録を維持し、時間ベースの設定を適切に実行するために重要です。
 
     詳細な手順については、[Time Zone](../../interface_guide/time_zone.md)を参照してください。
 
@@ -376,13 +374,13 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
 === "Log"
 
-    Logページは、ルーターのアクティビティとイベントを記録するさまざまなログへのアクセスを提供し、トラブルシューティングとパフォーマンスの監視を支援します。このページには以下が含まれます：
+    Logページでは、トラブルシューティングやパフォーマンス監視に役立つ、ルーターの動作やイベントを記録した各種ログへアクセスできます。このページには次の項目があります。
 
     * システムログ：システムレベルのイベントとアクティビティの詳細なログ。
     * カーネルログ：カーネルの操作とイベントに関連するログ。
-    * クラッシュログ：システムクラッシュとエラーの記録。重大な問題の診断に便利です。
-    * クラウドログ：ルーターに統合されたGoodCloudサービスに関連するインタラクションとアクティビティのログ。
-    * Nginxログ：ルーターで使用されている場合は、Nginx Webサーバーからのログ。Webトラフィックとサーバー操作の詳細。
+    * クラッシュログ：システムクラッシュとエラーの記録。重大な問題の診断に役立ちます。
+    * クラウドログ：ルーターに統合されたGoodCloudサービスに関連する操作や通信のログ。
+    * Nginxログ：ルーターでNginx Webサーバーを使用している場合のログ。Webトラフィックやサーバー動作の詳細を記録します。
     
     さらに、このページには Export Log ボタンがあり、収集したすべてのログをエクスポートして技術サポートによる分析に利用できます。複雑な問題の診断や専門的なサポートを受ける際に非常に便利です。
 

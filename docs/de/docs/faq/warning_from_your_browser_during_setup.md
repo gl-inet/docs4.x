@@ -1,4 +1,4 @@
-# Warnung Ihres Browsers: Ihre Verbindung ist nicht privat
+# Warnung Ihres Browsers: Ihre Verbindung ist nicht privat {#warning-from-your-browser-your-connection-is-not-private}
 
 Möglicherweise wird Ihnen bei der ersten Einrichtung Ihres GL.iNet-Routers diese Browserwarnung angezeigt: Ihre Verbindung ist nicht privat.
 
@@ -8,7 +8,7 @@ Dies ist eine standardmäßige Sicherheitswarnung des Browsers, wenn er eine Web
 
 Browser sind in der Regel so konzipiert, dass sie Zertifikaten vertrauen, die von externen Zertifizierungsstellen (CAs) ausgestellt wurden. GL.iNet-Router verwenden jedoch selbstsignierte Zertifikate, die nicht von CAs ausgestellt werden. Daher stufen Browser sie als unsicher ein und zeigen diese Warnung an.
 
-## Ist das Öffnen von 192.168.8.1 sicher?
+## Ist das Öffnen von 192.168.8.1 sicher? {#is-it-safe-to-browse-19216881}
 
 Die Sicherheit Ihres Netzwerks hat für uns oberste Priorität. Während der Ersteinrichtung benötigen Sie keine Internetverbindung, da der gesamte Vorgang vollständig lokal abläuft.
 
@@ -20,13 +20,13 @@ Ebenso ist die IP **192.168.8.1** eine private lokale IP-Adresse, die dem Router
 
 Da die Verbindung rein lokal ist und während der Einrichtung kein Internetzugang erforderlich ist, besteht **kein Risiko einer Preisgabe privater Daten**. Dadurch wird eine sichere, isolierte Umgebung für die Konfiguration Ihres Routers gewährleistet.
 
-## Warum wird mir trotzdem eine Warnung angezeigt?
+## Warum wird mir trotzdem eine Warnung angezeigt? {#why-do-i-still-get-a-warning}
 
 Browser unterscheiden normalerweise nicht zwischen einer voreingestellten Einrichtungs-IP-Adresse und normalen Websites. Sie behandeln alle IP-Adressen wie Websites und erwarten, dass HTTPS-Verbindungen durch SSL/TLS-Zertifikate abgesichert sind.
 
 GL.iNet-Router verwenden zwar SSL/TLS-Zertifikate, diese sind jedoch selbstsigniert und nicht von externen Zertifizierungsstellen (CAs) ausgestellt. Obwohl der Zugriff auf diese IP sicher ist (da sie sich in einem privaten lokalen Netzwerk befindet), wird sie vom Browser dennoch als "unsicher" eingestuft, weshalb die Warnung angezeigt wird.
 
-## Was kann ich bei dieser Warnung tun?
+## Was kann ich bei dieser Warnung tun? {#what-can-i-do-with-this-warning}
 
 Klicken Sie bitte auf **Advanced** und **Continue to 192.168.8.1**.
 
@@ -36,7 +36,7 @@ Anschließend werden Sie zum Web-Admin-Panel weitergeleitet.
 
 ![setup](https://static.gl-inet.com/docs/router/de/4/faq/warning_from_your_browser/setup.jpg){class="glboxshadow"}
 
-## Kann ich dem Router ein SSL-Zertifikat hinzufügen?
+## Kann ich dem Router ein SSL-Zertifikat hinzufügen? {#can-i-add-an-ssl-certificate-in-the-router}
 
 Ja, Sie können Ihrem GL.iNet-Router ein SSL-Zertifikat hinzufügen.
 

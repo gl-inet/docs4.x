@@ -1,4 +1,4 @@
-# Control parental
+# Control parental {#parental-control}
 
 > Esta guía se aplica al firmware v4.8 y versiones anteriores. Para versiones más recientes, haga clic [aquí](parental_control_v4.9.md).
 
@@ -12,11 +12,11 @@ Vea este vídeo o siga los pasos que se indican a continuación para configurar 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pOyDwQRc3io" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Versión local
+## Versión local {#local-version}
 
 La versión local es proporcionada por GL.iNet. Actualmente está en fase beta y no tiene coste adicional. En esta versión, si necesita filtrar solicitudes por aplicación, debe introducir manualmente el dominio.
 
-### Modelos compatibles
+### Modelos compatibles {#supported-models}
 
 ??? "Modelos compatibles"
     - GL-MT6000 (Fortify)
@@ -53,7 +53,7 @@ La versión local es proporcionada por GL.iNet. Actualmente está en fase beta y
     - GL-AP1300 (Cirrus)
     - GL-X300B (Collie)
 
-### Pasos de configuración
+### Pasos de configuración {#setup-steps}
 
 Inicie sesión en el panel de administración web del router y vaya a **APPLICATIONS** -> **Parental Control**.
 
@@ -147,7 +147,7 @@ Siga los pasos que se indican a continuación para configurar Parental Control.
 
    ![final configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_16_final_config.png){class="glboxshadow"}
 
-### Solución de problemas
+### Solución de problemas {#troubleshooting}
 
 Si la configuración que ha establecido no surte efecto, compruebe las siguientes posibles causas.
 
@@ -181,7 +181,7 @@ El servicio [Bark](https://www.bark.us/){target="_blank"} puede ayudar a protege
 
 2. Las dos versiones de Parental Control no pueden habilitarse al mismo tiempo. Al activar una, la otra se desactivará automáticamente.
 
-### Modelos compatibles
+### Modelos compatibles {#supported-models_1}
 
 ??? "Modelos compatibles"
     - GL-BE6500 (Flint 3e)
@@ -214,7 +214,7 @@ El servicio [Bark](https://www.bark.us/){target="_blank"} puede ayudar a protege
     - GL-AP1300 (Cirrus)
     - GL-X300B (Collie)
 
-### Pasos de configuración
+### Pasos de configuración {#setup-steps_1}
 
 Inicie sesión en el panel de administración web del router y vaya a **APPLICATIONS** -> **Parental Control**. Seleccione la versión Bark.
 

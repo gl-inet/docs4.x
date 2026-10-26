@@ -1,4 +1,4 @@
-# Impossibile rilevare l'hotspot 5G di Android
+# Impossibile rilevare l'hotspot 5G di Android {#cannot-scan-android-5g-hotspot}
 
 Collegare il router GL.iNet come repeater all'hotspot 5G di un telefono Android è uno dei modi più comuni per accedere a Internet.
 

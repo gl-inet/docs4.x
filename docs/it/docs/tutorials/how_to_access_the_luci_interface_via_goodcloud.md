@@ -1,16 +1,16 @@
-# Come accedere all'interfaccia LuCI tramite GoodCloud
+# Come accedere all'interfaccia LuCI tramite GoodCloud {#how-to-access-the-luci-interface-via-goodcloud}
 
 GL.iNet [GoodCloud](https://www.goodcloud.xyz/){target="_blank"} supera i limiti geografici e offre un modo pratico per la gestione remota del router. Tramite GoodCloud puoi accedere all'interfaccia LuCI del router in qualsiasi momento e ovunque, eseguire varie impostazioni sul router e gestire facilmente la rete.
 
-## Preparazione
+## Preparazione {#preparation}
 
-- Hardware: un router GL.iNet gia' configurato per l'accesso a Internet e funzionante correttamente.
-- Ambiente di rete: la rete a cui il router e' connesso deve essere stabile e avere normale accesso a Internet.
+- Hardware: un router GL.iNet già configurato per l'accesso a Internet e funzionante correttamente.
+- Ambiente di rete: la rete a cui il router è connesso deve essere stabile e avere normale accesso a Internet.
 - Associazione del dispositivo: devi [associare il router GL.iNet al tuo account GoodCloud](../interface_guide/cloud.md#bind-devices-to-cloud). Se non hai un account GoodCloud, [registrane](https://www.goodcloud.xyz/){target="_blank"} uno.
 
-## Passaggi per accedere all'interfaccia LuCI tramite GoodCloud
+## Passaggi per accedere all'interfaccia LuCI tramite GoodCloud {#steps-to-access-the-luci-interface-via-goodcloud}
 
-### Per firmware versione 4.7 o successiva
+### Per firmware versione 4.7 o successiva {#for-firmware-version-47-or-above}
 
 Dalla versione v4.7, gli utenti possono accedere direttamente alla pagina LuCI dalla piattaforma GoodCloud senza passare dal pannello di amministrazione web del router.
 
@@ -20,7 +20,7 @@ Dalla versione v4.7, gli utenti possono accedere direttamente alla pagina LuCI d
 
     ![remote gui](https://static.gl-inet.com/docs/router/en/4/tutorials/access_luci_via_goodcloud/remote_gui_mt6000.png){class="glboxshadow"}
 
-    Nella finestra pop-up verra' mostrata la porta 80. Cambia la porta in **8080** e fai clic su Apply.
+    Nella finestra pop-up verrà mostrata la porta 80. Cambia la porta in **8080** e fai clic su Apply.
 
     ![change port](https://static.gl-inet.com/docs/router/en/4/tutorials/access_luci_via_goodcloud/change_port.png){class="glboxshadow"}
 
@@ -32,7 +32,7 @@ Dalla versione v4.7, gli utenti possono accedere direttamente alla pagina LuCI d
 
     ![luci interface](https://static.gl-inet.com/docs/router/en/4/tutorials/access_luci_via_goodcloud/log_in_luci_mt6000.png){class="glboxshadow"}
 
-### Per firmware versione 4.6 o precedente
+### Per firmware versione 4.6 o precedente {#for-firmware-version-46-or-below}
 
 1. Accedi al tuo account GoodCloud [qui](https://www.goodcloud.xyz/){target="_blank"}.
 
@@ -40,7 +40,7 @@ Dalla versione v4.7, gli utenti possono accedere direttamente alla pagina LuCI d
 
     ![remote gui](https://static.gl-inet.com/docs/router/en/4/tutorials/access_luci_via_goodcloud/remote_gui_of_bound_device.png){class="glboxshadow"}
 
-    Nella finestra pop-up verra' mostrata la porta 80; fai clic su Apply.
+    Nella finestra pop-up verrà mostrata la porta 80; fai clic su Apply.
 
     ![vist web apply](https://static.gl-inet.com/docs/router/en/4/tutorials/access_luci_via_goodcloud/visit_web_apply.png){class="glboxshadow"}
 

@@ -1,4 +1,4 @@
-# Sans fil
+# Sans fil {#wireless}
 
 Le contenu de cette page est basé sur la version de firmware v4.9 et versions ultérieures. Si votre appareil utilise une autre version de firmware, utilisez le sélecteur ci-dessous pour passer au guide correspondant.
 
@@ -14,7 +14,7 @@ Sur la gauche du panneau d'administration web, accédez à **WIRELESS**.
 
 La page Wireless vous permet de configurer différents réseaux Wi‑Fi, notamment le Wi‑Fi MLO (disponible sur certains modèles), le réseau principal, le réseau invité et le réseau IoT. Les bandes Wi‑Fi prises en charge varient selon le modèle.
 
-## Multi-Link Operation (MLO)
+## Multi-Link Operation (MLO) {#multi-link-operation-mlo}
 
 ??? "Modèles pris en charge"
     - GL-BE14000 (Flint 4)
@@ -70,7 +70,7 @@ Une fois activé, la page s'affiche comme suit.
 
 ![mlo3](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/mlo3.png){class="glboxshadow"}
 
-## Réseau principal
+## Réseau principal {#main-network}
 
 Le réseau principal est votre réseau Wi‑Fi principal. Il prend en charge la diffusion simultanée sur différentes bandes radio, toutes activées par défaut. Vous pouvez configurer des paramètres distincts pour chaque bande, comme le SSID Wi‑Fi, le mode de sécurité, le mot de passe, le BSSID aléatoire, la puissance TX, la bande passante et le canal.
 
@@ -90,7 +90,7 @@ Cliquez sur l'icône d'engrenage à droite pour afficher ou modifier les paramè
 
     ![main 2.4g](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/main_2.4g.png){class="glboxshadow"}
 
-## Réseau invité
+## Réseau invité {#guest-network}
 
 Le réseau invité est un réseau Wi‑Fi dédié aux visiteurs, avec toutes les bandes désactivées par défaut. Vous pouvez activer et configurer les paramètres réseau de base pour chaque bande, comme le SSID Wi‑Fi, le mode de sécurité, le mot de passe et l'activation du BSSID aléatoire.
 
@@ -104,7 +104,7 @@ Une fois activé, la page s'affiche comme suit.
 
 ![guest3](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/guest3.png){class="glboxshadow"}
 
-## Réseau IoT
+## Réseau IoT {#iot-network}
 
 Le réseau IoT est un réseau Wi‑Fi dédié aux appareils intelligents, avec toutes les bandes désactivées par défaut. Vous pouvez activer et configurer les paramètres réseau de base pour chaque bande, comme le SSID Wi‑Fi, le mode de sécurité, le mot de passe et l'activation du BSSID aléatoire.
 

@@ -1,4 +1,4 @@
-# Registro
+# Registro {#log}
 
 En el lado izquierdo del panel web de administración, vaya a **SYSTEM** -> **Log**.
 

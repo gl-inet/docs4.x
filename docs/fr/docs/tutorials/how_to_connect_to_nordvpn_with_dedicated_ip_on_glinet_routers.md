@@ -1,4 +1,4 @@
-# Comment se connecter à NordVPN avec une IP dédiée sur les routeurs GL.iNet ?
+# Comment se connecter à NordVPN avec une IP dédiée sur les routeurs GL.iNet ? {#how-to-connect-to-nordvpn-with-a-dedicated-ip-on-glinet-routers}
 
 Cet article présente les étapes pour configurer une connexion NordVPN avec une IP dédiée sur les routeurs GL.iNet.
 

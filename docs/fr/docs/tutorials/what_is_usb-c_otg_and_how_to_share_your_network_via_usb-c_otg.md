@@ -1,6 +1,6 @@
-# Qu'est-ce que l'USB-C OTG et comment partager votre réseau via USB-C OTG
+# Qu'est-ce que l'USB-C OTG et comment partager votre réseau via USB-C OTG {#what-is-usb-c-otg-and-how-to-share-your-network-via-usb-c-otg}
 
-## USB OTG
+## USB OTG {#usb-otg}
 **USB OTG** (On-The-Go) est une norme USB qui permet aux appareils compatibles, comme les routeurs, de basculer entre les rôles **Host** et **Device**. Elle permet la transmission directe de données et l'échange d'alimentation sans appareil hôte séparé.
 
 Les deux modes suivants peuvent être sélectionnés via **USB OTG** :
@@ -9,15 +9,15 @@ Les deux modes suivants peuvent être sélectionnés via **USB OTG** :
 
 - En **Device mode**, l'appareil sert de périphérique, reçoit l'alimentation de l'hôte et répond passivement à ses commandes, sans pouvoir initier la communication lui-même.
 
-## Partage réseau via USB-C OTG sur Mudi 7
+## Partage réseau via USB-C OTG sur Mudi 7 {#network-sharing-via-usbc-otg-on-mudi-7}
 
 Le port USB-C compatible OTG du Mudi 7 fonctionne en mode **Device** ou **Host** afin de permettre un partage réseau flexible avec des appareils externes.
 
-### Connexion à un ordinateur
+### Connexion à un ordinateur {#connect-to-a-computer}
 
 La plupart des ordinateurs fonctionnent uniquement comme hôtes et ne prennent pas en charge OTG. Lorsqu'un ordinateur est connecté au routeur via USB, le routeur affiche une fenêtre de sélection de mode. Vous pouvez choisir n'importe quel mode ; le Mudi 7 négocie automatiquement le rôle. L'ordinateur le reconnaît ensuite comme un adaptateur USB pour un accès Internet direct, sans pilote supplémentaire.
 
-### Connexion à un smartphone
+### Connexion à un smartphone {#connect-to-a-smartphone}
 
 - **Device Mode** : le Mudi 7 agit comme périphérique USB et partage son réseau avec le téléphone.
 

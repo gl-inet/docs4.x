@@ -1,28 +1,28 @@
-# Firmware v4.11
+# Firmware v4.11 {#firmware-v411}
 
 Ta wersja koncentruje się na usprawnieniu monitorowania jakości sieci i oceny bezpieczeństwa, pomagając wykrywać problemy z łącznością oraz potencjalne zagrożenia. Usprawnia także DNS, QoS, SQM i statystyki danych, zapewniając bardziej elastyczne zarządzanie siecią i kontrolę ruchu.
 
 Najnowsze oprogramowanie układowe można pobrać z [Centrum pobierania oprogramowania](https://dl.gl-inet.com/){target="_blank"}.
 
-## Jakość sieci
+## Jakość sieci {#network-quality}
 
 [Jakość sieci](../interface_guide/network_quality.md) to nowa funkcja monitorująca połączenie internetowe w czasie rzeczywistym. Ocenia szybkość reakcji, opóźnienia i wydajność DNS oraz wykrywa przerwy w połączeniu i utratę pakietów. Pomaga to identyfikować niestabilność sieci i problemy z łącznością, których same testy przepustowości mogą nie ujawnić.
 
 ![network quality](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/network_quality.png){class="glboxshadow"}
 
-## Skanowanie bezpieczeństwa
+## Skanowanie bezpieczeństwa {#security-scan}
 
 [Skanowanie bezpieczeństwa](../interface_guide/security_scan.md) to nowa funkcja oceniająca ustawienia zabezpieczeń routera i przedstawiająca ocenę bezpieczeństwa, ostrzeżenia o zagrożeniach oraz sugestie optymalizacji. Sprawdza między innymi zabezpieczenia Wi-Fi, ping od strony WAN, zdalny dostęp SSH, przekierowanie portów i ochronę treści DPI, pomagając wykrywać i usuwać potencjalne zagrożenia. Skanowanie rozpoczyna się automatycznie po otwarciu strony. Możesz też kliknąć ikonę oceny, aby zresetować skanowanie i uruchomić je ponownie.
 
 ![security scan](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/security_scan.png){class="glboxshadow"}
 
-## DNS
+## DNS {#dns}
 
 Ta wersja usprawnia konfigurację [DNS](../interface_guide/dns_v4.11.md), łącząc WAN DNS, VPN DNS i Manual DNS na jednej stronie. Możesz łatwo sprawdzać stan DNS dla każdego typu połączenia, konfigurować niestandardowe serwery DNS i wybierać, czy ręczne ustawienia DNS mają być stosowane do tuneli VPN, czy do samego routera.
 
 ![dns](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/dns.png){class="glboxshadow"}
 
-## QoS
+## QoS {#qos}
 
 [QoS](../interface_guide/qos.md) (Quality of Service) udostępnia opcję **Run Speedtest** dla przepustowości WAN, która mierzy prędkości pobierania i wysyłania oraz automatycznie wypełnia odpowiednie pola. Oprócz Application Priority ta wersja dodaje dwie polityki planowania ruchu: **Device Priority** i **Advanced QoS**.
 
@@ -34,7 +34,7 @@ Ta wersja usprawnia konfigurację [DNS](../interface_guide/dns_v4.11.md), łącz
 
 - **Advanced QoS**: Twórz zaawansowane reguły QoS dla ruchu o wysokim priorytecie.
 
-## SQM
+## SQM {#sqm}
 
 [SQM](../interface_guide/sqm.md) (Smart Queue Management) udostępnia opcję **Run Speedtest** dla przepustowości WAN, która mierzy prędkości pobierania i wysyłania oraz automatycznie wypełnia odpowiednie pola. Dostępne są dwa mechanizmy kolejkowania: **cake** i **fq_codel**.
 
@@ -48,7 +48,7 @@ Ta wersja usprawnia konfigurację [DNS](../interface_guide/dns_v4.11.md), łącz
 
 - **fq_codel**: proste i wydajne sprawiedliwe kolejkowanie z podstawową redukcją opóźnień.
 
-## Statystyki danych
+## Statystyki danych {#data-statistics}
 
 [Statystyki danych](../interface_guide/data_statistics.md) obsługują teraz filtrowanie ruchu według urządzenia klienckiego i oferują nowe widoki wykresów, w tym wykresy słupkowe i kołowe. Podczas przeglądania statystyk ruchu aplikacji możesz wybrać konkretne urządzenie klienckie i przełączać widoki wykresów, aby łatwiej analizować zużycie danych.
 

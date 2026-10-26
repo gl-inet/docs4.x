@@ -1,4 +1,4 @@
-# Przewodnik aktywacji ExpressVPN
+# Przewodnik aktywacji ExpressVPN {#expressvpn-activation-guide}
 
 **Uwaga:** Ten przewodnik dotyczy wyłącznie routera **Fortify (GL-MT6000)** pod wspólną marką GL.iNet x ExpressVPN.
 
@@ -10,7 +10,7 @@
 
 Ten przewodnik przeprowadzi Cię przez proces realizacji 12-miesięcznego planu ExpressVPN w internetowym panelu administracyjnym routera. Obejmuje również dostosowywanie zasad VPN w oparciu o scenariusze użytkowania i wymagania, pomagając Ci bez wysiłku cieszyć się szyfrowaną, bezpieczną i szybką łącznością internetową.
 
-## Wykorzystaj plan ExpressVPN
+## Wykorzystaj plan ExpressVPN {#redeem-expressvpn-plan}
 
 Zaloguj się do internetowego panelu administracyjnego Fortify i przejdź do **VPN** -> **VPN Client Profile**.
 
@@ -40,7 +40,7 @@ Twój plan został aktywowany. Wróć do panelu administracyjnego routera Fortif
 
 ![expressvpn checkout2](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/expressvpn_checkout2.png){class="glboxshadow"}
 
-## Zaloguj się do ExpressVPN
+## Zaloguj się do ExpressVPN {#log-in-to-expressvpn}
 
 W internetowym panelu administracyjnym Fortify przejdź do **VPN** -> **VPN Client Profile**.
 
@@ -78,11 +78,11 @@ Teraz możesz dodawać tunele VPN i konfigurować zasady VPN zgodnie ze swoimi p
 
 ![expressvpn dashboard](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/expressvpn_dashboard.png){class="glboxshadow"}
 
-## Dodaj tunel VPN
+## Dodaj tunel VPN {#add-vpn-tunnel}
 
-### Ogólne kroki
+### Ogólne kroki {#general-steps}
 
-Wykonaj poniższe czynności, aby dodać tunel VPN i skonfigurować zasady VPN. Jeśli to konieczne, zobacz [Odniesienie do sprawy](#case-reference).
+Wykonaj poniższe czynności, aby dodać tunel VPN i skonfigurować zasady VPN. Jeśli to konieczne, zobacz [Przykłady konfiguracji](#case-reference).
 
 1. W internetowym panelu administracyjnym Fortify przejdź do **VPN** -> **ExpressVPN Dashboard**. Kliknij **Add VPN Tunnel**.
 
@@ -129,7 +129,7 @@ Wykonaj poniższe czynności, aby dodać tunel VPN i skonfigurować zasady VPN. 
 
 5. Tunel VPN został pomyślnie dodany. Zostaniesz przekierowany do **ExpressVPN Dashboard**. W razie potrzeby dodaj więcej tuneli VPN.
 
-### Odniesienie do sprawy
+### Przykłady konfiguracji {#case-reference}
 
 Oto dwa typowe przypadki konfiguracji zasad VPN wraz z instrukcjami konfiguracji krok po kroku.
 
@@ -275,7 +275,7 @@ Oto dwa typowe przypadki konfiguracji zasad VPN wraz z instrukcjami konfiguracji
 
         Teraz wszystkie urządzenia będą używać **VPN Tunnel 1** podczas uzyskiwania dostępu do określonych domen i używać **VPN Tunnel 2** do całego pozostałego dostępu do Internetu. Jeśli tunele VPN nieoczekiwanie się rozłączą, dostęp do Internetu dla wszystkich urządzeń zostanie zablokowany, aby zapobiec wyciekom DNS i śledzeniu adresów IP.
 
-## Kill Switch
+## Kill Switch {#kill-switch}
 
 Kill Switch VPN pomaga zapobiegać przełączeniu ruchu na nieszyfrowane połączenie internetowe w razie awarii połączenia VPN.
 
@@ -289,7 +289,7 @@ Fortify obsługuje konfigurację Kill Switch dla globalnego połączenia VPN, a 
 
 - Aby skonfigurować Kill Switch dla każdego tunelu VPN, zapoznaj się z [Opcjami tunelu](#tunnel-options).
 
-## Cały inny ruch
+## Cały inny ruch {#all-other-traffic}
 
 Kliknij ikonę koła zębatego w prawym górnym rogu, aby skonfigurować zasady dla ruchu, który nie pasuje do tunelu VPN.
 
@@ -305,7 +305,7 @@ Ta zasada kontroluje, czy ruch niepasujący do żadnej z grup tuneli VPN może u
 
     ![enhanced killswitch](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/enhanced_killswitch.png){class="glboxshadow"}
 
-## Opcje tunelu
+## Opcje tunelu {#tunnel-options}
 
 Możesz skonfigurować zaawansowane ustawienia dla każdego tunelu VPN, takie jak VPN Kill Switch, maskowanie IP i MTU.
 
@@ -325,7 +325,7 @@ Kliknij ikonę koła zębatego w grupie tuneli i wybierz **Options**.
 
 - **MTU**: Wartość MTU ustawiona dla tunelu zastąpi ustawienia MTU w pliku konfiguracyjnym.
 
-## Priorytet tunelu
+## Priorytet tunelu {#tunnel-priority}
 
 Aby dostosować priorytet tunelu, kliknij ikonę koła zębatego w grupie tuneli i wybierz **Priority**.
 

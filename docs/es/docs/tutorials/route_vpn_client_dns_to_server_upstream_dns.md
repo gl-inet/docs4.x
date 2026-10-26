@@ -1,8 +1,8 @@
-# ¿Cómo enrutar las consultas DNS del cliente VPN al DNS ascendente del servidor VPN?
+# ¿Cómo enrutar las consultas DNS del cliente VPN al DNS ascendente del servidor VPN? {#how-to-route-vpn-client-dns-queries-to-the-vpn-servers-upstream-dns}
 
 Este tutorial presenta los pasos para redirigir todas las consultas DNS de los clientes VPN a su servidor DNS autoalojado en el lado LAN de su router principal, aguas arriba del servidor VPN.
 
-## Topología
+## Topología {#topology}
 
 En este tutorial, usamos **Flint 3 (GL-BE9300)** y **Slate 7 (GL-BE3600)** como ejemplos.
 
@@ -16,7 +16,7 @@ Sin embargo, si ha desplegado un servidor DNS autoalojado con dirección IP `192
 
 ![topology 2](https://static.gl-inet.com/docs/router/en/4/tutorials/route_vpn_dns_to_server_upstream_dns/topology-2.jpg){class="glboxshadow"}
 
-## Configuración
+## Configuración {#setup}
 
 1. Inicie sesión en el panel de administración web del Flint 3 y vaya a **NETWORK** -> **DNS**. Cambie el DNS Server Mode a **Manual DNS** e introduzca la dirección IP de su servidor DNS.
 
@@ -50,7 +50,7 @@ Sin embargo, si ha desplegado un servidor DNS autoalojado con dirección IP `192
 
    ![start client](https://static.gl-inet.com/docs/router/en/4/tutorials/route_vpn_dns_to_server_upstream_dns/start_client.png){class="glboxshadow"}
 
-## Verificar la resolución DNS
+## Verificar la resolución DNS {#verify-dns-resolution}
 
 Ejecute el siguiente comando para capturar el tráfico DNS en el cliente VPN. Mostrará que todo el tráfico DNS del cliente VPN va al servidor VPN, es decir, `10.0.0.1` en este ejemplo.
 

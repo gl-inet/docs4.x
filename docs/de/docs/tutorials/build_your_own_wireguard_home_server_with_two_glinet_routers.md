@@ -1,4 +1,4 @@
-# Eigenen WireGuard-Heimserver mit zwei GL.iNet-Routern aufbauen
+# Eigenen WireGuard-Heimserver mit zwei GL.iNet-Routern aufbauen {#build-your-own-wireguard-home-server-with-two-glinet-routers}
 
 Dieser Artikel zeigt, wie Sie Ihren Heimrouter als WireGuard-VPN-Server und Ihren Reiserouter als WireGuard-VPN-Client einrichten, damit beide sich aus der Ferne miteinander verbinden. So können Sie überall mit dem Reiserouter Ihre Heim-IP-Adresse verwenden.
 
@@ -13,16 +13,16 @@ In den folgenden Schritten verwenden wir GL-MT6000 (Flint 2) und GL-MT3000 (Bery
 
 - GL-MT3000, ein Reiserouter, wird als WireGuard-VPN-Client eingerichtet, um sich aus der Ferne mit dem VPN-Server zu Hause zu verbinden.
 
-## Warum Sie Ihren eigenen WireGuard-Heimserver aufbauen sollten
+## Warum Sie Ihren eigenen WireGuard-Heimserver aufbauen sollten {#why-you-need-to-build-your-own-wireguard-home-server}
 
 1. Verwenden Sie Ihre Heim-IP-Adresse als Internetadresse, als wären Sie direkt zu Hause.
 2. Im Vergleich zu VPN-Diensten von Drittanbietern fallen keine monatlichen Gebühren an.
 3. Leiten Sie den gesamten Internetverkehr über einen verschlüsselten VPN-Tunnel in Ihr Heimnetzwerk und schützen Sie so Ihre Privatsphäre.
 4. Erhalten Sie einfachen Zugriff auf interne Ressourcen und lokales Streaming.
 
-## Vorbereitungen
+## Vorbereitungen {#preparations}
 
-### Prüfen, ob Sie eine öffentliche IP haben
+### Prüfen, ob Sie eine öffentliche IP haben {#check-if-you-have-a-public-ip}
 
 Stellen Sie zunächst sicher, dass der GL-MT6000 auf seiner WAN-Seite eine öffentliche IP-Adresse hat, damit er weltweit erreichbar ist. Andernfalls kann Ihr Reiserouter während der Reise keine VPN-Verbindung mit ihm aufbauen.
 
@@ -38,7 +38,7 @@ Wenn Sie keine öffentliche IP-Adresse haben, finden Sie hier einige mögliche L
 2. Fragen Sie Ihren ISP nach einer öffentlichen IP-Adresse. Dies kann zusätzliche Kosten verursachen.
 3. Wenn die beiden oben genannten Methoden nicht funktionieren (z. B. wenn sich Ihr Netzwerk hinter CGNAT befindet), können Sie unsere SD-WAN-Lösung [AstroWarp](../interface_guide/astrowarp.md){target="_blank"} ausprobieren.
 
-### Prüfen, ob eine Portweiterleitung erforderlich ist
+### Prüfen, ob eine Portweiterleitung erforderlich ist {#check-if-port-forwarding-is-required}
 
 ??? "GL.iNet als Hauptrouter"
 
@@ -94,9 +94,9 @@ Wenn Sie keine öffentliche IP-Adresse haben, finden Sie hier einige mögliche L
 
     **Weitere Beispiele für [Port Forward](how_to_set_up_port_forwarding.md)**
 
-## WireGuard-Server einrichten
+## WireGuard-Server einrichten {#set-up-wireguard-server}
 
-### DDNS aktivieren (optional)
+### DDNS aktivieren (optional) {#enable-ddns-optional}
 
 Aktivieren Sie die DDNS-Funktion, wenn Sie keine statische öffentliche IP, sondern nur eine dynamische öffentliche IP haben.
 
@@ -110,7 +110,7 @@ Gehen Sie dann zu **WireGuard Server** -> Registerkarte Configuration, stellen S
 
 ![wgserver](https://static.gl-inet.com/docs/router/de/4/tutorials/build_your_own_wireguard_server/wgserver-apply.png){class="glboxshadow"}
 
-### Konfiguration erzeugen
+### Konfiguration erzeugen {#generate-configuration}
 
 Klicken Sie auf derselben Seite auf die Registerkarte **Profiles** neben Configuration und dann auf **Add** (im folgenden Bild mit 1 markiert).
 
@@ -120,7 +120,7 @@ Aktivieren Sie im Pop-up-Fenster per Schieberegler die DDNS-Domain (mit 3 markie
 
 ![wgservergen](https://static.gl-inet.com/docs/router/de/4/tutorials/build_your_own_wireguard_server/wgconfiggen.jpg){class="glboxshadow"}
 
-Anschließend können Sie den QR-Code mit der WireGuard-[Mobil-App](https://www.wireguard.com/install/) scannen, um den Server zu testen. Details finden Sie [hier](../interface_guide/wireguard_server.md#prufen-ob-der-wireguard-server-ordnungsgema-funktioniert).
+Anschließend können Sie den QR-Code mit der WireGuard-[Mobil-App](https://www.wireguard.com/install/) scannen, um den Server zu testen. Details finden Sie [hier](../interface_guide/wireguard_server.md#check-if-wireguard-server-is-working-properly).
 
 Alternativ können Sie eine Konfiguration im Textformat für die VPN-Client-Verbindung exportieren.
 
@@ -130,9 +130,9 @@ Kopieren Sie den Text für den Client oder klicken Sie auf Download und speicher
 
 ![configload](https://static.gl-inet.com/docs/router/de/4/tutorials/build_your_own_wireguard_server/configload.jpg){class="glboxshadow"}
 
-## WireGuard-Client einrichten
+## WireGuard-Client einrichten {#set-up-wireguard-client}
 
-### LAN-IP ändern
+### LAN-IP ändern {#change-the-lan-ip}
 
 Da in diesem Tutorial GL-MT6000 und GL-MT3000 verwendet werden und beide standardmäßig die LAN-IP **192.168.8.1** haben, müssen wir eine davon auf eine andere LAN-IP ändern, um Konflikte zu vermeiden.
 
@@ -144,7 +144,7 @@ Melden Sie sich am webbasierten Admin Panel des GL-MT3000 an und gehen Sie in de
 
 Weitere Informationen zur LAN-Schnittstelle finden Sie [hier](../interface_guide/lan.md).
 
-### Konfiguration hinzufügen
+### Konfiguration hinzufügen {#add-the-configuration}
 
 Gehen Sie im webbasierten Admin Panel des GL-MT3000 zu **VPN** -> **WireGuard Client** und klicken Sie auf **Add Manually**.
 
@@ -168,7 +168,7 @@ Die Konfigurationsdatei wird auf der Seite WireGuard Client angezeigt, sobald si
 
 ![addwgclient6](https://static.gl-inet.com/docs/router/de/4/tutorials/build_your_own_wireguard_server/addwgclient-6.png){class="glboxshadow"}
 
-### Verbindung starten
+### Verbindung starten {#start-the-connection}
 
 Klicken Sie auf das Drei-Punkte-Symbol und dann auf **Start**.
 
@@ -190,7 +190,7 @@ Melden Sie sich erneut am webbasierten Admin Panel des GL-MT6000 (dem WireGuard-
 ![servercon](https://static.gl-inet.com/docs/router/de/4/tutorials/build_your_own_wireguard_server/wgservercon-4.7.jpg){class="glboxshadow"}
 <small>(VPN-Dashboard-Seite in FW v4.7 und früher)</small>
 
-## Vorbereitung für spätere VPN-Fehlerbehebung aus der Ferne
+## Vorbereitung für spätere VPN-Fehlerbehebung aus der Ferne {#prep-for-remote-vpn-fixes-ahead}
 
 Für den Fall unvorhergesehener Probleme während der Reise sollten Sie beide Router vorab mit Ihrem GoodCloud-Konto verknüpfen, damit eine VPN-Fehlerbehebung aus der Ferne möglich ist.
 

@@ -25,6 +25,9 @@ WireGuard® — сучасний, легкий і продуктивний пр�
 * PureVPN
 * Surfshark
 * Windscribe
+* X-VPN
+
+**Примітка**: X-VPN з’явився у прошивці v4.11.
 
 ![Провайдери WireGuard](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_client_profile/wg.png){class="glboxshadow"}
 
@@ -52,7 +55,7 @@ WireGuard® — сучасний, легкий і продуктивний пр�
 
 3. Виберіть відповідні інструкції нижче залежно від ваших потреб.
 
-    !!! note "Варіант 1. Щоб усі підключені клієнти використовували VPN для доступу до інтернету, виконайте такі дії."
+    ??? note "Варіант 1. Щоб усі підключені клієнти використовували VPN для доступу до інтернету, виконайте такі дії."
 
         1. Виберіть потрібний сервер і натисніть значок із трьома крапками праворуч, щоб установити з’єднання.
 
@@ -70,13 +73,13 @@ WireGuard® — сучасний, легкий і продуктивний пр�
 
             * Щоб налаштувати Kill Switch для глобального з’єднання VPN (Enhanced Kill Switch), дивіться інструкції [тут](vpn_dashboard.md#all-other-traffic).
 
-    !!! note "Варіант 2. Щоб налаштувати власну політику VPN, виконайте такі дії."
+    ??? note "Варіант 2. Щоб налаштувати власну політику VPN, виконайте такі дії."
 
         1. Натисніть **Go to Dashboard** унизу.
 
             ![Перехід до панелі керування VPN](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_client_profile/azirevpn5.png){class="glboxshadow"}
 
-        2. Відкриється **VPN Dashboard** для налаштування політики VPN. Докладніше дивіться [тут](vpn_dashboard.md#set-up-vpn-policy).
+        2. Відкриється **VPN Dashboard** для налаштування політики VPN. Докладніше дивіться [тут](vpn_dashboard.md#add-vpn-tunnel).
 
 ## OpenVPN {#openvpn}
 
@@ -90,7 +93,7 @@ OpenVPN — протокол VPN із відкритим вихідним код
 
 ![Ручне додавання профілю OpenVPN](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_client_profile/ovpn_manual.png){class="glboxshadow"}
 
-Якщо ви не знаєте, як завантажити файли конфігурації, дивіться інструкції [тут](openvpn_client.md#get-configuration-files-from-openvpn-service-providers-get-configuration-files-from-openvpn-service-providers) або зверніться до підтримки провайдера.
+Якщо ви не знаєте, як завантажити файли конфігурації, дивіться інструкції [тут](openvpn_client.md#get-configuration-files-from-openvpn-service-providers) або зверніться до підтримки провайдера.
 
 ---
 

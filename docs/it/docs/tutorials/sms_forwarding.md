@@ -1,10 +1,10 @@
-# Inoltro SMS
+# Inoltro SMS {#sms-forwarding}
 
 I router cellulari GL.iNet supportano l'inoltro SMS, inviando automaticamente i messaggi in arrivo ai destinatari designati.
 
 **Nota**: questa funzione funziona solo sui router cellulari GL.iNet con modulo originale 4G LTE/5G NR e non e supportata su altri moduli o su qualsiasi altro modulo USB.
 
-## Modelli supportati
+## Modelli supportati {#supported-models}
 
 ??? "Modelli supportati"
     - GL-E5800 (Mudi 7)
@@ -41,17 +41,17 @@ I router cellulari GL.iNet supportano l'inoltro SMS, inviando automaticamente i 
     - GL-B1300 (Convexa-B)
     - GL-AP1300 (Cirrus)
 
-## Configurazione
+## Configurazione {#quick-setup}
 
 Prendiamo come esempio il GL-XE3000 (Puli AX).
 
-Nel lato sinistro del pannello di amministrazione web, vai alla sezione **INTERNET** -> **Cellular**.
+1. Consulta [questo link](../interface_guide/internet_cellular.md) per configurare prima il router cellulare.
 
-Fai clic sull'icona della busta in alto a destra per entrare nella pagina SMS, dove troverai le impostazioni di inoltro SMS.
+2. Accedi al pannello di amministrazione web del router e vai su **INTERNET** -> **Cellular**. Fai clic sull'icona della busta in alto a destra per entrare nella pagina SMS, dove troverai le impostazioni di inoltro SMS.
 
-![sms setting](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms.png){class="glboxshadow"}
+    ![sms setting](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms.png){class="glboxshadow"}
 
-### Inoltrare via email
+### Inoltrare via email {#forward-via-email}
 
 ![sms forwarding email](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms_forward_email.png){class="glboxshadow"}
 
@@ -84,11 +84,11 @@ Fai clic sull'icona della busta in alto a destra per entrare nella pagina SMS, d
 
     Per Yahoo, devi impostare una password per app per effettuare l'accesso e sono supportate sia la porta 465 sia la 587. Consulta la guida ufficiale [POP access settings and instructions for Yahoo Mail](https://help.yahoo.com/kb/SLN4724.html){target="_blank"} e [Generate and manage third-party app passwords](https://help.yahoo.com/kb/SLN15241.html){target="_blank"}.
 
-**Nota**: ogni mittente email puo essere soggetto a limiti di invio SMTP, ad esempio un limite giornaliero sul numero di email inviate. Consulta il tuo provider di servizi.
+**Nota**: ogni mittente email può essere soggetto a limiti di invio SMTP, ad esempio un limite giornaliero sul numero di email inviate. Consulta il tuo provider di servizi.
 
 Puoi aggiungere fino a 10 indirizzi email.
 
-### Inoltrare via SMS
+### Inoltrare via SMS {#forward-via-sms}
 
 ![sms forwarding phone](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms_forward_phone.png){class="glboxshadow"}
 

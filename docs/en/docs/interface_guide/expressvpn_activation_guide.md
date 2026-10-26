@@ -1,4 +1,4 @@
-# ExpressVPN Activation Guide
+# ExpressVPN Activation Guide {#expressvpn-activation-guide}
 
 **Note:** This guide only applies to GL.iNet x ExpressVPN co-branded router **Fortify (GL-MT6000)**. 
 
@@ -10,7 +10,7 @@
 
 This guide walks you through redeeming the 12-month ExpressVPN plan within the router's web Admin Panel. It also covers customizing VPN policies based on your usage scenarios and requirements, helping you effortlessly enjoy encrypted, secure and high-speed internet connectivity.
 
-## Redeem ExpressVPN Plan
+## Redeem ExpressVPN Plan {#redeem-expressvpn-plan}
 
 Log in to the Fortify's web Admin Panel, and navigate to **VPN** -> **VPN Client Profile**.
 
@@ -40,7 +40,7 @@ Your plan has been activated. Return to your Fortify router's web Admin Panel to
 
 ![expressvpn checkout2](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/expressvpn_checkout2.png){class="glboxshadow"}
 
-## Log in to ExpressVPN
+## Log in to ExpressVPN {#log-in-to-expressvpn}
 
 On your Fortify's web Admin Panel, go to **VPN** -> **VPN Client Profile**. 
 
@@ -78,9 +78,9 @@ Now you can add VPN tunnels and configure VPN policies according to your needs.
 
 ![expressvpn dashboard](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/expressvpn_dashboard.png){class="glboxshadow"}
 
-## Add VPN Tunnel
+## Add VPN Tunnel {#add-vpn-tunnel}
 
-### General Steps
+### General Steps {#general-steps}
 
 Follow the steps below to add your VPN tunnel and configure VPN policies. See [Case Reference](#case-reference) if necessary.
 
@@ -129,7 +129,7 @@ Follow the steps below to add your VPN tunnel and configure VPN policies. See [C
 
 5. A VPN tunnel is added successfully. You will be directed to the **ExpressVPN Dashboard**. Add more VPN tunnels if needed.
 
-### Case Reference
+### Case Reference {#case-reference}
 
 Here are two typical VPN policy configuration cases with step-by-step setup instructions for your reference.
 
@@ -275,7 +275,7 @@ Here are two typical VPN policy configuration cases with step-by-step setup inst
 
         Now, all devices will use **VPN Tunnel 1** when accessing specified domains, and use **VPN Tunnel 2** for all remaining Internet access. If the VPN tunnels disconnect unexpectedly, Internet access for all devices will be blocked to prevent DNS leaks and IP tracking.
 
-## Kill Switch
+## Kill Switch {#kill-switch}
 
 A VPN Kill Switch helps prevent traffic from falling back to an unencrypted Internet connection when a VPN connection fails.
 
@@ -289,7 +289,7 @@ Fortify supports Kill Switch configuration for the global VPN connection, as wel
 
 - To set up Kill Switch for each individual VPN tunnel, refer to [Tunnel Options](#tunnel-options).
 
-## All Other Traffic
+## All Other Traffic {#all-other-traffic}
 
 Click the gear icon at the upper right to set up policy for those traffic not matching VPN tunnel.
 
@@ -305,7 +305,7 @@ This policy controls whether traffic that does not match any of your VPN tunnel 
 
     ![enhanced killswitch](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/enhanced_killswitch.png){class="glboxshadow"}
 
-## Tunnel Options
+## Tunnel Options {#tunnel-options}
 
 You can configure advanced settings for each VPN tunnel, such as the VPN Kill Switch, IP Masquerading, and MTU.
 
@@ -325,7 +325,7 @@ Click the gear icon in a tunnel group, and select **Options**.
 
 - **MTU**: The MTU value you set for the tunnel will override the MTU settings in the configuration file.
 
-## Tunnel Priority
+## Tunnel Priority {#tunnel-priority}
 
 To adjust tunnel priority, click the gear icon in a tunnel group and select **Priority**.
 

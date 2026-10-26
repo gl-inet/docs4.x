@@ -1,4 +1,4 @@
-# Rozpakowanie i pierwsza konfiguracja
+# Rozpakowanie i pierwsza konfiguracja {#unboxing-first-time-setup}
 
 Poznaj nasze urządzenia przy pierwszym kontakcie i zobacz, jak przebiega proces konfiguracji.
 
@@ -54,7 +54,7 @@ Pierwsza konfiguracja
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ey-Z3MEOPpw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-MT5000 (Brume 3)
+## GL-MT5000 (Brume 3) {#gl-mt5000-brume-3}
 
 Film z rozpakowania
 
@@ -64,7 +64,7 @@ Pierwsza konfiguracja
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RwbdUy79WHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-BE9300 (Flint 3)
+## GL-BE9300 (Flint 3) {#gl-be9300-flint-3}
 
 Film z rozpakowania
 
@@ -74,7 +74,7 @@ Pierwsza konfiguracja
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WQqD-8NrAOQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-BE6500 (Flint 3e)
+## GL-BE6500 (Flint 3e) {#gl-be6500-flint-3e}
 
 Film z rozpakowania
 
@@ -84,7 +84,7 @@ Pierwsza konfiguracja
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/R40QsUFYuUk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-BE3600 (Slate 7)
+## GL-BE3600 (Slate 7) {#gl-be3600-slate-7}
 
 Film z rozpakowania
 
@@ -94,109 +94,109 @@ Pierwsza konfiguracja
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YMHQK8wSQGM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-X2000 (Spitz Plus)
+## GL-X2000 (Spitz Plus) {#gl-x2000-spitz-plus}
 
 Film z rozpakowania i konfiguracji
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-_K3xuAj4UA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-B3000 (Marble)
+## GL-B3000 (Marble) {#gl-b3000-marble}
 
 Film z rozpakowania i konfiguracji
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-U2WTVYRkPU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-E750V2 (Mudi V2)
+## GL-E750V2 (Mudi V2) {#gl-e750v2-mudi-v2}
 
 Film z rozpakowania i konfiguracji
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4FzEgmYyy7k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-MT6000 (Flint 2)
+## GL-MT6000 (Flint 2) {#gl-mt6000-flint-2}
 
 Rozpakowanie
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ru1O-zxKgKg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-AX1800 (Flint)
+## GL-AX1800 (Flint) {#gl-ax1800-flint}
 
 Film z rozpakowania i konfiguracji
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OsnDvWTuQnM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-XE3000 (Puli AX)
+## GL-XE3000 (Puli AX) {#gl-xe3000-puli-ax}
 
 Film z rozpakowania i konfiguracji
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/N-p9NaXZmIM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-X3000 (Spitz AX)
+## GL-X3000 (Spitz AX) {#gl-x3000-spitz-ax}
 
 Film z rozpakowania i konfiguracji
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/64C7dqHG2EI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-MT3000 (Beryl AX)
+## GL-MT3000 (Beryl AX) {#gl-mt3000-beryl-ax}
 
 Film z rozpakowania i konfiguracji
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/I6P5mkGijAk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-MT2500 (Brume 2)
+## GL-MT2500 (Brume 2) {#gl-mt2500-brume-2}
 
 Film z rozpakowania i konfiguracji
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rpi_loOwUQM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-AXT1800 (Slate AX)
+## GL-AXT1800 (Slate AX) {#gl-axt1800-slate-ax}
 
 Film z rozpakowania
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GnEr-LJVbdc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-A1300 (Slate Plus)
+## GL-A1300 (Slate Plus) {#gl-a1300-slate-plus}
 
 Film z rozpakowania i konfiguracji
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zhY7AqmKJAc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-SFT1200 (Opal)
+## GL-SFT1200 (Opal) {#gl-sft1200-opal}
 
 Film z rozpakowania i konfiguracji
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RlNJvsCPgK4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-MT1300 (Beryl)
+## GL-MT1300 (Beryl) {#gl-mt1300-beryl}
 
 Film z rozpakowania i konfiguracji
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rT9cs6l0vBc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-XE300 (Puli)
+## GL-XE300 (Puli) {#gl-xe300-puli}
 
 Film z rozpakowania i konfiguracji
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rMixxOvlPRQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-B2200 (Velica)
+## GL-B2200 (Velica) {#gl-b2200-velica}
 
 Film z rozpakowania i konfiguracji
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e7cX69FzikA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-AP1300 (Cirrus) / GL-AP1300LTE (Cirrus LTE)
+## GL-AP1300 (Cirrus) / GL-AP1300LTE (Cirrus LTE) {#gl-ap1300-cirrus-gl-ap1300lte-cirrus-lte}
 
 Film z rozpakowania i konfiguracji
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/db-LI967Q4Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-S200
+## GL-S200 {#gl-s200}
 
 Rozpakowanie
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pQ1bRMe-aEU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-M2
+## GL-M2 {#gl-m2}
 
 Film z rozpakowania i konfiguracji
 

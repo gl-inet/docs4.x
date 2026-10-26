@@ -1,4 +1,4 @@
-# Jak połączyć się z Surfshark z dedykowanym IP na routerach GL.iNet?
+# Jak połączyć się z Surfshark z dedykowanym IP na routerach GL.iNet? {#how-to-connect-to-surfshark-with-a-dedicated-ip-on-glinet-routers}
 
 Ten artykuł przedstawia kroki konfiguracji połączenia Surfshark z dedykowanym IP na routerach GL.iNet.
 

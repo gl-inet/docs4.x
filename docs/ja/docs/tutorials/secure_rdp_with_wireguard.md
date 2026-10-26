@@ -1,14 +1,14 @@
-# WireGuardで外部ネットワークからのRDPを保護する
+# WireGuardで外部ネットワークからのRDPを保護する {#securing-rdp-from-an-external-network-with-wireguard}
 
 外部ネットワークからPCへリモートアクセスしたい場合や、その逆を行いたい場合があります。最も安全な方法は、自分専用のWireGuardトンネルを使うことです。ポートフォワーディングを使ってパブリックIPアドレス経由でPCへ直接アクセスするよりも安全性が高くなります。トンネルを設定すれば、**Windows Remote Desktop** を使って、どこからでもPCにアクセスできます。
 
 このチュートリアルでは、2台のGL.iNetルーターを例に、WireGuardネットワークでWindows RDPを保護する方法を説明します。
 
-## トポロジー
+## トポロジー {#topology}
 
 ![wgrdp](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_rdp/wgrdp.jpg){class="glboxshadow"}
 
-## 設定手順
+## 設定手順 {#setup-steps}
 
 1. WireGuardネットワークを構築します。
 
@@ -80,4 +80,4 @@
 
 ---
 
-ご不明な点がありましたら、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}をご覧いただくか、[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

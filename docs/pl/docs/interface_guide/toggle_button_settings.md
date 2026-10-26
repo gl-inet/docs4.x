@@ -1,10 +1,10 @@
-# Ustawienia przycisku przełącznika
+# Ustawienia przycisku przełącznika {#toggle-button-settings}
 
 Funkcja **Toggle Button Settings** umożliwia przypisanie określonych funkcji do fizycznego przełącznika w routerze (w niektórych modelach nazywanego także przełącznikiem trybu), dzięki czemu zapewnia wygodne skróty do często wykonywanych operacji.
 
 Zachowanie przełącznika można dostosować w panelu administracyjnym.
 
-## Obsługiwane modele
+## Obsługiwane modele {#supported-models}
 
 ??? "Obsługiwane modele"
     - GL-BE10000 (Slate 7 Pro)
@@ -43,7 +43,7 @@ Zachowanie przełącznika można dostosować w panelu administracyjnym.
     - GL-AP1300 (Cirrus)
     - GL-X300B (Collie)
 
-## Konfiguracja
+## Konfiguracja {#setup}
 
 W lewym panelu bocznym panelu administracyjnego przejdź do **SYSTEM** -> **Toggle Button Settings**.
 

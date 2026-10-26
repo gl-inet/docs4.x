@@ -1,4 +1,4 @@
-# Bloqué sur "Reverting" pendant la réinitialisation du firmware
+# Bloqué sur "Reverting" pendant la réinitialisation du firmware {#stuck-on-reverting-during-firmware-reset}
 
 Si votre routeur reste bloqué sur "Reverting" pendant une réinitialisation du firmware, suivez les étapes ci-dessous pour résoudre le problème.
 

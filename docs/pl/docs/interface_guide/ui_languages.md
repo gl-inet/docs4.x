@@ -1,4 +1,4 @@
-# Języki interfejsu
+# Języki interfejsu {#ui-languages}
 
 Ta funkcja jest dostępna od wersji oprogramowania układowego v4.6.
 

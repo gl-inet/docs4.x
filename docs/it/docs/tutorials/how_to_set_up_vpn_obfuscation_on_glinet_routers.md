@@ -1,17 +1,17 @@
-# Come configurare l'offuscamento VPN sui router GL.iNet
+# Come configurare l'offuscamento VPN sui router GL.iNet {#how-to-set-up-vpn-obfuscation-on-glinet-routers}
 
 **Nota**: i router GL.iNet supportano AmneziaWG con il firmware v4.9 o successivo. Aggiorna prima il router a una versione firmware supportata.
 
 Questa guida presenta due scenari per configurare l'offuscamento AmneziaWG sui router GL.iNet.
 
-## Scenario 1. Usare due router GL.iNet
+## Scenario 1. Usare due router GL.iNet {#scenario-1-using-two-glinet-routers}
 
 Questo scenario usa due router GL.iNet per stabilire una connessione VPN offuscata tramite il protocollo AmneziaWG.
 
 - Brume 3 (GL-MT5000): server VPN per l'uso domestico.
 - Beryl AX (GL-MT3000): client VPN portatile per l'uso in viaggio.
 
-### Configurare il server VPN
+### Configurare il server VPN {#set-up-vpn-server}
 
 1. Accedi al pannello di amministrazione web di Brume 3.
 
@@ -69,7 +69,7 @@ Questo scenario usa due router GL.iNet per stabilire una connessione VPN offusca
 
     ![server start](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_start2.png){class="glboxshadow"}
 
-### Configurare il client VPN
+### Configurare il client VPN {#set-up-vpn-client}
 
 1. Accedi al pannello di amministrazione web di Beryl AX.
 
@@ -117,13 +117,13 @@ Questo scenario usa due router GL.iNet per stabilire una connessione VPN offusca
 
     La connessione VPN è completa. Tutti i dispositivi collegati a Beryl AX ora accedono a Internet tramite il gateway di Brume 3, ottenendo così una connessione VPN offuscata.
 
-## Scenario 2. Usare un singolo router GL.iNet
+## Scenario 2. Usare un singolo router GL.iNet {#scenario-2-using-a-single-glinet-router}
 
 Questo scenario usa un singolo router GL.iNet **Brume 3 (GL-MT5000)** come client VPN per collegarsi a un server AmneziaVPN.
 
 In questo caso non è necessario distribuire un server personale. Basta scaricare un file di configurazione AmneziaWG dal [sito ufficiale di Amnezia](https://amnezia.org/){target="_blank"} o da qualsiasi provider VPN che integri AmneziaWG, quindi caricare il file sul router GL.iNet. Potrai così stabilire una connessione VPN con offuscamento abilitato.
 
-### Scaricare la configurazione
+### Scaricare la configurazione {#download-configuration}
 
 <u>Opzione 1</u>: scarica una configurazione da Amnezia Official, è richiesto un abbonamento Premium.
 
@@ -151,7 +151,7 @@ Prendiamo come esempio StarVPN.
 
     Poi segui i passaggi sotto per configurare il client VPN.
 
-### Configurare il client VPN
+### Configurare il client VPN {#set-up-vpn-client_1}
 
 1. Accedi al pannello di amministrazione web di Brume 3.
 

@@ -1,4 +1,4 @@
-# GL.iNetルーターをStarlink Dishに接続する方法
+# GL.iNetルーターをStarlink Dishに接続する方法 {#how-to-connect-a-glinet-router-to-starlink-dish}
 
 GL.iNetルーターをStarlink Dishに接続する必要がある場合は、以下の手順に従ってください。
 
@@ -10,9 +10,9 @@ GL.iNetルーターをStarlink Dishに接続する必要がある場合は、以
 
 2. StarlinkルーターのLANポートをGL.iNetルーターのWANポートに接続します。
 
-3. デバイスをGL.iNetルーターのLANポートまたはWi-Fiに接続し、インターネットアクセス用のルーターを設定します。[初回設定](first_time_setup.md)
+3. デバイスをGL.iNetルーターのLANポートまたはWi-Fiに接続し、ルーターのインターネット接続を設定します。[初回設定](first_time_setup.md)
 
-    **注意**：GL.iNetルーターが[ネットワークアクセラレーション](../interface_guide/network_acceleration.md)をサポートしている場合、Web管理パネル -> ネットワーク -> ネットワークアクセラレーションに移動して無効にしてください。
+    **注意**：GL.iNetルーターが[ネットワークアクセラレーション](../interface_guide/network_acceleration.md)に対応している場合は、Web管理パネルで **NETWORK** -> **Network Acceleration** に移動し、無効にしてください。
 
     ![netacc](https://static.gl-inet.com/docs/router/en/4/faq/starlink/netacc.jpg){class="glboxshadow"}
 
@@ -20,4 +20,4 @@ GL.iNetルーターをStarlink Dishに接続する必要がある場合は、以
 
 ---
 
-まだ質問がありますか？ [コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}または[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}をご覧ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

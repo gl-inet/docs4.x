@@ -1,4 +1,4 @@
-# Zaawansowane ustawienia
+# Zaawansowane ustawienia {#advanced-settings}
 
 Po lewej stronie panelu administracyjnego WWW przejdź do **SYSTEM** -> **Advanced Settings**.
 

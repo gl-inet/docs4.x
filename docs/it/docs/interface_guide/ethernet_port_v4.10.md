@@ -1,4 +1,4 @@
-# Porta Ethernet (firmware v4.10)
+# Porta Ethernet (firmware v4.10) {#ethernet-port-firmware-v410}
 
 **Nota**: il contenuto di questa pagina è stato introdotto per la prima volta su Flint 4 (GL-BE14000) e verrà esteso ad altri modelli nel firmware v4.10.
 
@@ -34,7 +34,7 @@ Questa pagina mostra tutte le interfacce del router. È possibile visualizzare l
 
 - **Settings**: fare clic per accedere alla pagina di configurazione della singola porta.
 
-## WAN
+## WAN {#wan}
 
 Questa sezione mostra il ruolo della porta (WAN o LAN), l'indirizzo MAC e la velocità negoziata.
 
@@ -48,11 +48,11 @@ Questa sezione mostra il ruolo della porta (WAN o LAN), l'indirizzo MAC e la vel
 
 - **Negotiated Network Port Rate**: velocità di collegamento negoziata dell'interfaccia WAN, visualizzata solo quando viene rilevato un collegamento valido.
 
-## LAN
+## LAN {#lan}
 
 Questa sezione mostra la configurazione della porta LAN. È possibile impostare Ethernet Mode su **Standard** o **Multiple VLANs**, in base alle esigenze.
 
-### Modalità Standard
+### Modalità Standard {#standard-mode}
 
 La modalità Standard consente una sola VLAN (Untagged) ed è utilizzata per collegare i dispositivi terminali.
 
@@ -66,7 +66,7 @@ La modalità Standard consente una sola VLAN (Untagged) ed è utilizzata per col
 
 Dopo la configurazione, tornare alla pagina Ethernet Port per verificare le impostazioni.
 
-### Modalità Multiple VLANs
+### Modalità Multiple VLANs {#multiple-vlans-mode}
 
 La modalità Multiple VLANs consente di utilizzare più VLAN (Tagged) su una porta, in genere per collegare access point o altri switch.
 
@@ -84,7 +84,7 @@ Dopo la configurazione, tornare alla pagina Ethernet Port per verificare le impo
 
 Alcuni modelli consentono di convertire LAN 1 in una porta WAN per utilizzare due connessioni Ethernet WAN. Per maggiori dettagli, consultare [Dual-Ethernet WAN](#dual-ethernet-wan).
 
-## Dual-Ethernet WAN
+## Dual-Ethernet WAN {#dual-ethernet-wan}
 
 La funzione Dual-Ethernet WAN consente di convertire una porta Ethernet LAN predefinita in una porta WAN secondaria per accedere a Internet tramite due connessioni Ethernet. Offre una connessione di backup affidabile e, dove compatibile, supporta l'aggregazione della larghezza di banda per i carichi che ne fanno un uso intensivo. Consente inoltre di collegarsi contemporaneamente a due reti indipendenti, ad esempio una di lavoro e una personale, aumentando la flessibilità senza hardware aggiuntivo.
 

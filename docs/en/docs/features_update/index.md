@@ -3,7 +3,7 @@ hide:
   - navigation
 ---
 
-# Features Update
+# Features Update {#features-update}
 
 Learn the key new features, functional improvements, and structural adjustments in the latest firmware version.
 

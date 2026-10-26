@@ -1,10 +1,10 @@
-# Network Acceleration
+# Network Acceleration {#network-acceleration}
 
 Network acceleration reduces CPU load and speeds up traffic packet forwarding, but can conflict with some features.
 
 When Network acceleration is enabled, the following functions will not work properly: Client Speed and Traffic Statistics, Client Speed Limit.
 
-## Supported Models
+## Supported Models {#supported-models}
 
 ??? "Supported Models"
 
@@ -41,7 +41,7 @@ When Network acceleration is enabled, the following functions will not work prop
     - GL-B1300 (Convexa-B)
     - GL-X300B (Collie)
 
-## Setup
+## Setup {#setup}
 
 On the left side of the web Admin Panel, go to **NETWORK** -> **Network Acceleration**.
 

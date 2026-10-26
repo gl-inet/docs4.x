@@ -1,4 +1,4 @@
-# Inhaltsfilter
+# Inhaltsfilter {#content-filter}
 
 **Hinweis**: Diese Funktion wurde mit Firmware v4.9 eingeführt.
 
@@ -52,7 +52,7 @@ Der Inhaltsfilter ist eine intelligente Online-Sicherheitsfunktion auf Basis der
     - GL-S1300 (Convexa-S)
 
 
-## Schnelleinrichtung
+## Schnelleinrichtung {#quick-setup}
 
 Gehen Sie auf der linken Seite des Web-Admin-Panels zu **FLOW CONTROL** -> **Content Filter**.
 
@@ -86,7 +86,7 @@ Diese Seite besteht aus zwei Bereichen:
 
     ![domain ip list](https://static.gl-inet.com/docs/router/de/4/interface_guide/content_filter/blocked_domain_ip.jpg){class="glboxshadow"}
 
-## Inhaltsfilter testen
+## Inhaltsfilter testen {#content-filter-test}
 
 In diesem Beispiel haben wir die Kategorie **Game** ausgewählt, die Nintendo enthält.
 

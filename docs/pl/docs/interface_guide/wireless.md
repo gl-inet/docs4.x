@@ -1,4 +1,4 @@
-# Wireless
+# Wireless {#wireless}
 
 Treść tej strony dotyczy wersji firmware v4.9 i nowszych. Jeśli urządzenie używa innej wersji firmware, użyj poniższego selektora, aby przejść do odpowiedniego przewodnika.
 
@@ -14,7 +14,7 @@ Po lewej stronie webowego panelu administracyjnego przejdź do **WIRELESS**.
 
 Strona Wireless umożliwia konfigurację różnych sieci Wi‑Fi, w tym MLO Wi‑Fi (dostępne w wybranych modelach), sieci głównej, sieci gościnnej i sieci IoT. Obsługiwane pasma Wi‑Fi różnią się w zależności od modelu.
 
-## Multi-Link Operation (MLO)
+## Multi-Link Operation (MLO) {#multi-link-operation-mlo}
 
 ??? "Obsługiwane modele"
     - GL-BE14000 (Flint 4)
@@ -70,7 +70,7 @@ Po włączeniu strona będzie wyglądać następująco.
 
 ![mlo3](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/mlo3.png){class="glboxshadow"}
 
-## Sieć główna
+## Sieć główna {#main-network}
 
 Sieć główna to podstawowa sieć Wi‑Fi, która obsługuje jednoczesne nadawanie w różnych pasmach radiowych, przy czym wszystkie są domyślnie włączone. Dla każdego pasma możesz skonfigurować osobne ustawienia, takie jak SSID Wi‑Fi, tryb zabezpieczeń, hasło, Randomized BSSID, moc TX, szerokość pasma i kanał.
 
@@ -90,7 +90,7 @@ Kliknij ikonę koła zębatego po prawej stronie, aby wyświetlić lub zmodyfiko
 
     ![main 2.4g](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/main_2.4g.png){class="glboxshadow"}
 
-## Sieć gościnna
+## Sieć gościnna {#guest-network}
 
 Sieć gościnna to dedykowana sieć Wi‑Fi dla odwiedzających, z wszystkimi pasmami domyślnie wyłączonymi. Dla każdego pasma możesz ją włączyć i skonfigurować podstawowe ustawienia sieci, takie jak SSID Wi‑Fi, tryb zabezpieczeń, hasło oraz Randomized BSSID.
 
@@ -104,7 +104,7 @@ Po włączeniu strona będzie wyglądać następująco.
 
 ![guest3](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/guest3.png){class="glboxshadow"}
 
-## Sieć IoT
+## Sieć IoT {#iot-network}
 
 Sieć IoT to dedykowana sieć Wi‑Fi dla urządzeń inteligentnych, z wszystkimi pasmami domyślnie wyłączonymi. Dla każdego pasma możesz ją włączyć i skonfigurować podstawowe ustawienia sieci, takie jak SSID Wi‑Fi, tryb zabezpieczeń, hasło oraz Randomized BSSID.
 

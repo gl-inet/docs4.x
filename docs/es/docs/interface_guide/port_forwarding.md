@@ -1,4 +1,4 @@
-# Reenvío de puertos
+# Reenvío de puertos {#port-forwarding}
 
 > Esta guía se aplica al firmware v4.6 y versiones posteriores. Para versiones anteriores, consulte [Firewall](firewall.md).
 
@@ -6,9 +6,7 @@ En el lado izquierdo del Panel de administración web, vaya a **NETWORK** -> **P
 
 Esta página le permite configurar reglas de firewall, incluidas **DMZ** y **Port Forwarding**.
 
-Nota: Para abrir puertos del router, vaya a SYSTEM -> [Security](security.md), o a SECURITY -> [Admin Access](admin_access.md) (para firmware v4.9 y versiones posteriores).
-
-## DMZ
+## DMZ {#dmz}
 
 La DMZ le permite exponer un equipo a Internet, por lo que todos los paquetes entrantes se redirigirán a ese equipo.
 
@@ -18,7 +16,7 @@ Puede establecer la prioridad de la DMZ. Si la prioridad de la DMZ es superior a
 
 ![dmz](https://static.gl-inet.com/docs/router/en/4/interface_guide/port_forwarding/dmz.png){class="glboxshadow"}
 
-## Port Forwarding
+## Port Forwarding {#port-forwarding_1}
 
 El reenvío de puertos permite que equipos remotos se conecten a un equipo local o a un servidor situado detrás del firewall del router en la LAN, como servidores web, servidores FTP, etc.
 

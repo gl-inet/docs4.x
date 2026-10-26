@@ -1,16 +1,16 @@
-# Comment accéder à l’interface LuCI via GoodCloud
+# Comment accéder à l’interface LuCI via GoodCloud {#how-to-access-the-luci-interface-via-goodcloud}
 
 [GoodCloud](https://www.goodcloud.xyz/){target="_blank"} de GL.iNet permet de s’affranchir des limitations géographiques et offre un moyen pratique de gérer le routeur à distance. Grâce à GoodCloud, vous pouvez accéder à l’interface LuCI du routeur à tout moment et où que vous soyez, effectuer divers réglages sur le routeur et gérer facilement le réseau.
 
-## Préparation
+## Préparation {#preparation}
 
 - Équipement matériel : un routeur GL.iNet configuré avec un accès Internet et fonctionnant normalement.
 - Environnement réseau : le réseau auquel le routeur est connecté est stable et peut accéder normalement à Internet.
 - Association de l’appareil : vous devez [associer votre routeur GL.iNet à votre compte GoodCloud](../interface_guide/cloud.md#bind-devices-to-cloud). Si vous n’avez pas de compte GoodCloud, veuillez en [créer un](https://www.goodcloud.xyz/){target="_blank"}.
 
-## Étapes pour accéder à l’interface LuCI via GoodCloud
+## Étapes pour accéder à l’interface LuCI via GoodCloud {#steps-to-access-the-luci-interface-via-goodcloud}
 
-### Pour la version de firmware 4.7 ou supérieure
+### Pour la version de firmware 4.7 ou supérieure {#for-firmware-version-47-or-above}
 
 À partir de la v4.7, les utilisateurs peuvent accéder directement à la page LuCI depuis la plateforme GoodCloud sans passer par le panneau d’administration web du routeur.
 
@@ -32,7 +32,7 @@
 
     ![luci interface](https://static.gl-inet.com/docs/router/en/4/tutorials/access_luci_via_goodcloud/log_in_luci_mt6000.png){class="glboxshadow"}    
 
-### Pour la version de firmware 4.6 ou inférieure
+### Pour la version de firmware 4.6 ou inférieure {#for-firmware-version-46-or-below}
 
 1. Connectez-vous à votre compte GoodCloud [ici](https://www.goodcloud.xyz/){target="_blank"}.
 

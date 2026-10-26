@@ -1,6 +1,6 @@
-# Almacenamiento en red
+# Almacenamiento en red {#network-storage}
 
-## Introducción
+## Introducción {#introduction}
 
 El almacenamiento en red permite compartir archivos de forma inalámbrica entre dispositivos conectando una unidad USB o una tarjeta SD al router. El router convierte el dispositivo de almacenamiento en una unidad de red compartida, accesible para todos los dispositivos conectados por Wi-Fi.
 
@@ -14,14 +14,14 @@ Algunos modelos de GL.iNet tienen ranuras para tarjetas MicroSD (TF), mientras q
 
     3. El panel de administración web solo le permite administrar carpetas compartidas. Para administrar archivos en el dispositivo de almacenamiento, utilice la [aplicación móvil](https://www.gl-inet.com/app/#download-app-glinet){target="_blank"}.
 
-## Modelos compatibles
+## Modelos compatibles {#supported-models}
 
 Normalmente, los modelos con puertos USB o ranuras MicroSD (TF) admiten almacenamiento en red, es decir, uso compartido de archivos.
 
 En los dispositivos con almacenamiento flash de 32 MB o menos, la función Network Storage aún no es compatible.
 
 | Modelo de router                         | Samba | WebDAV | DLNA | Puerto USB | Tarjeta MicroSD |
-| :--------------------------------------- | :---: | :----: | :--: | :--------: | :-------------: |
+| :--------------------------------------- | :---: | :----: | :---: | :--------: | :-------------: |
 | GL-MT6000 (Fortify)                    | √     | √     | √     | √        | -            |
 | GL-MG1300 (Mango 2)                    | √     | -     | -     | √        | -            |
 | GL-BE14000 (Flint 4)                   | √     | √     | √     | √        | -            |
@@ -92,7 +92,7 @@ Conecte el dispositivo de almacenamiento. Cuando se detecte, la página se mostr
 
     La página mostrará el enlace para Windows y sistemas tipo Unix. Los sistemas tipo Unix incluyen Android, iOS, macOS, Ubuntu, etc.
 
-    Ahora puede acceder a la carpeta compartida mediante el servicio Samba a través de estos enlaces. Haga clic [aquí](#cliente-samba) para ver los detalles.
+    Ahora puede acceder a la carpeta compartida mediante el servicio Samba a través de estos enlaces. Haga clic [aquí](#samba-client) para ver los detalles.
 
     ![samba 6](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba6.png){class="glboxshadow"}
 
@@ -136,7 +136,7 @@ Conecte el dispositivo de almacenamiento. Cuando se detecte, la página se mostr
 
     La página mostrará el enlace para Windows y sistemas tipo Unix. Los sistemas tipo Unix incluyen Android, iOS, macOS, Ubuntu, etc.
 
-    Ahora puede acceder a la carpeta compartida mediante el servicio WebDAV a través de estos enlaces. Haga clic [aquí](#cliente-webdav) para ver los detalles.
+    Ahora puede acceder a la carpeta compartida mediante el servicio WebDAV a través de estos enlaces. Haga clic [aquí](#webdav-client) para ver los detalles.
 
     ![webdav 6](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav6.png){class="glboxshadow"}
 
@@ -158,7 +158,7 @@ Conecte el dispositivo de almacenamiento. Cuando se detecte, la página se mostr
 
 ---
 
-## Cliente Samba
+## Cliente Samba {#samba-client}
 
 === "Windows"
 
@@ -242,7 +242,7 @@ Conecte el dispositivo de almacenamiento. Cuando se detecte, la página se mostr
 
         ![ios files configurar SMB](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios_files_smb_1.png){class="glboxshadow" width="560"}
 
-        Toque la opción **Connect to Server** cerca de la parte superior del menú. En la pantalla siguiente, introduzca la URL de conexión del servidor. Puede encontrar la URL en el [enlace compartido](#configurar-samba). Toque el botón **Next** en la parte superior derecha para continuar.
+        Toque la opción **Connect to Server** cerca de la parte superior del menú. En la pantalla siguiente, introduzca la URL de conexión del servidor. Puede encontrar la URL en el [enlace compartido](#set-up-samba). Toque el botón **Next** en la parte superior derecha para continuar.
 
         ![ios files configurar SMB](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios_files_smb_2.png){class="glboxshadow" width="560"}
 
@@ -278,7 +278,7 @@ Conecte el dispositivo de almacenamiento. Cuando se detecte, la página se mostr
 
         ![documents samba](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/documents_4_samba.png){class="glboxshadow" width="560"}
 
-## Cliente WebDAV
+## Cliente WebDAV {#webdav-client}
 
 === "Windows"
 
@@ -364,7 +364,7 @@ Conecte el dispositivo de almacenamiento. Cuando se detecte, la página se mostr
 
     ![documents WebDAV](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav_client/documents_4_webdav.png){class="glboxshadow" width="560"}
 
-## Uso de la aplicación móvil
+## Uso de la aplicación móvil {#using-mobile-app}
 
 El panel de administración web solo le permite administrar carpetas compartidas. Para administrar archivos en el dispositivo de almacenamiento, utilice la [aplicación móvil](https://www.gl-inet.com/app/#download-app-glinet){target="_blank"}.
 

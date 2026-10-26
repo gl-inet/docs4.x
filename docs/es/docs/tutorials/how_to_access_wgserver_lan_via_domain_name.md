@@ -1,15 +1,15 @@
-# Cómo acceder desde el cliente a dispositivos LAN del servidor WireGuard mediante nombres de dominio
+# Cómo acceder desde el cliente a dispositivos LAN del servidor WireGuard mediante nombres de dominio {#how-to-access-wireguard-server-lan-devices-from-the-client-via-domain-names}
 
 Este tutorial explica cómo acceder desde un cliente a dispositivos domésticos, como un NAS o una cámara IP, que están en la LAN del servidor WireGuard usando nombres de dominio.
 
-## Topología
+## Topología {#topology}
 
 Como se muestra a continuación, puede acceder desde un PC de la LAN del cliente a dispositivos como un NAS o una cámara IP situados en la LAN del servidor WireGuard usando sus respectivos nombres de dominio.
 ![topology](https://static.gl-inet.com/docs/router/en/4/tutorials/access_server_lan_via_domain_names/topology_be9300_be3600.png){class="glboxshadow"}
 
-## Pasos de configuración
+## Pasos de configuración {#setup-steps}
 
-### 1. Editar Hosts en el servidor (opcional)
+### 1. Editar Hosts en el servidor (opcional) {#1-edit-hosts-on-server-optional}
 
 Este paso se aplica cuando el servidor VPN no puede resolver correctamente los nombres de dominio locales. Si no está seguro, omita este paso.
 Inicie sesión en el panel de administración web del router que actúa como servidor VPN y vaya a **NETWORK** -> **DNS** -> **Edit Hosts**.
@@ -17,7 +17,7 @@ Inicie sesión en el panel de administración web del router que actúa como ser
 Introduzca la IP y el nombre de dominio de los dispositivos domésticos a los que desea acceder y luego haga clic en **Apply**.
 ![input ip domain](https://static.gl-inet.com/docs/router/en/4/tutorials/access_server_lan_via_domain_names/input_ip_domain.png){class="glboxshadow gl-80-desktop"}
 
-### 2. Permitir acceso remoto a la LAN en el servidor
+### 2. Permitir acceso remoto a la LAN en el servidor {#2-allow-remote-access-lan-on-server}
 
 ??? "Para routers servidor con firmware v4.8"
 
@@ -37,7 +37,7 @@ Introduzca la IP y el nombre de dominio de los dispositivos domésticos a los qu
     ![server allow access lan 4.7](https://static.gl-inet.com/docs/router/en/4/tutorials/access_server_lan_via_domain_names/server-allow-access-lan-4.7.png){class="glboxshadow"}
     **Cuando está habilitado, se puede acceder de forma remota a este router y a los dispositivos LAN mediante la VPN.**
 
-### 3. Exportar la configuración VPN
+### 3. Exportar la configuración VPN {#3-export-vpn-configuration}
 
 En el panel del servidor, vaya a **VPN** -> **WireGuard Server** -> pestaña **Profiles** y haga clic en **Add** para exportar un perfil de configuración.
 ![export config](https://static.gl-inet.com/docs/router/en/4/tutorials/access_server_lan_via_domain_names/export_config.png){class="glboxshadow"}
@@ -49,12 +49,12 @@ Abra este archivo. Asegúrese de que el campo DNS del archivo apunte a la IP del
 ![wg tunnel ip](https://static.gl-inet.com/docs/router/en/4/tutorials/access_server_lan_via_domain_names/wg_tunnel_ip.png){class="glboxshadow"}
 **Nota**: La IP del túnel del servidor WireGuard varía según la versión del firmware. Compruebe la IP del túnel de su servidor.
 
-### 4. Habilitar el servidor VPN
+### 4. Habilitar el servidor VPN {#4-enable-vpn-server}
 
 En la página **WireGuard Server**, haga clic en el botón **Start** de la esquina superior derecha para iniciar el servidor.
 ![start server](https://static.gl-inet.com/docs/router/en/4/tutorials/access_server_lan_via_domain_names/start_server.png){class="glboxshadow"}
 
-### 5. Subir la configuración VPN
+### 5. Subir la configuración VPN {#5-upload-vpn-configuration}
 
 Inicie sesión en el panel de administración web del router cliente VPN, vaya a **VPN** -> **WireGuard Client** y haga clic en **Add Manually**.
 ![add manually](https://static.gl-inet.com/docs/router/en/4/tutorials/access_server_lan_via_domain_names/wgclient_add_manually.png){class="glboxshadow"}
@@ -68,7 +68,7 @@ Verá un archivo de configuración listado aquí.
 
 ![applied](https://static.gl-inet.com/docs/router/en/4/tutorials/access_server_lan_via_domain_names/wgclient_add_applied.png){class="glboxshadow"}
 
-### 6. Iniciar la conexión del cliente VPN
+### 6. Iniciar la conexión del cliente VPN {#6-start-vpn-client-connection}
 
 Haga clic en el icono de tres puntos para iniciar la conexión VPN.
 

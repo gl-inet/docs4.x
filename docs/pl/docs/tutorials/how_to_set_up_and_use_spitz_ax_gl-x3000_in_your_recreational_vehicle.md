@@ -1,4 +1,4 @@
-# Jak skonfigurować i używać Spitz AX (GL-X3000) w pojeździe rekreacyjnym
+# Jak skonfigurować i używać Spitz AX (GL-X3000) w pojeździe rekreacyjnym {#how-to-set-up-and-use-spitz-ax-gl-x3000-in-your-recreational-vehicle}
 
 W tym przewodniku pokazujemy, jak skonfigurować i używać Spitz AX w pojeździe rekreacyjnym. Przed rozpoczęciem przygotuj następujące dodatkowe wyposażenie i usługi, jeśli będą potrzebne: 
 
@@ -8,11 +8,11 @@ W tym przewodniku pokazujemy, jak skonfigurować i używać Spitz AX w pojeździ
 
 ---
 
-## 1. Zainstaluj Spitz AX i pozostałe wyposażenie
+## 1. Zainstaluj Spitz AX i pozostałe wyposażenie {#1-install-your-spitz-ax-and-other-equipment}
 
 Przed rozpoczęciem podróży skonfiguruj Spitz AX, wykonując poniższe kroki.
 
-### Krok 1: Wybierz miejsce dla Spitz AX 
+### Krok 1: Wybierz miejsce dla Spitz AX {#step-1-choose-a-location-for-your-spitz-ax}
 
 Zalecamy wybrać centralne, nieosłonięte miejsce, aby uzyskać maksymalny zasięg. Upewnij się, że wybrane miejsce znajduje się w odległości do 1 metra od źródła zasilania, ponieważ taka jest długość przewodu zasilacza. 
 
@@ -20,7 +20,7 @@ Zalecamy wybrać centralne, nieosłonięte miejsce, aby uzyskać maksymalny zasi
 
 Spitz AX możesz postawić na płaskiej powierzchni albo zamontować na ścianie. Jeśli wybierzesz montaż na ścianie, wykonaj kolejny krok. 
 
-### (Opcjonalnie) Krok 2: Zamontuj Spitz AX na ścianie 
+### (Opcjonalnie) Krok 2: Zamontuj Spitz AX na ścianie {#optional-step-2-install-your-spitz-ax-on-the-wall}
 
 Istnieją dwa sposoby montażu Spitz AX na ścianie:
 - użycie dołączonej podkładki samoprzylepnej
@@ -33,7 +33,7 @@ Uchwyty ścienne znajdują się w zestawie. Aby zamontować Spitz AX na ścianie
 
 ![wall mount](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/x3000-with-screws.jpg){class="glboxshadow"}
 
-### (Opcjonalnie) Krok 3: Zainstaluj dachową antenę do pojazdu rekreacyjnego
+### (Opcjonalnie) Krok 3: Zainstaluj dachową antenę do pojazdu rekreacyjnego {#optional-step-3-install-the-rv-roof-antenna}
 
 ![roof](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/x3000-with-roof-antenna.jpg){class="glboxshadow"}
 
@@ -48,11 +48,11 @@ Aby uzyskać lepszy sygnał, użyj anteny dachowej do Spitz AX. Zalecamy [wielop
 
 Aby uniknąć tłumienia sygnału, kabel radiowy łączący antenę dachową ze Spitz AX nie powinien przekraczać 5 metrów. (Na przykład gdy kabel radiowy MobileMark ma długość 5 metrów, odbiór sygnału przy 3000MHz spada o 3dB, czyli do połowy mocy. Im wyższa częstotliwość sygnału, tym większe tłumienie).
 
-[Dowiedz się, jak wymienić anteny w Spitz AX.](https://docs.gl-inet.com/router/en/4/tutorials/how_to_change_x3000_and_xe3000_antennas/) 
+[Dowiedz się, jak wymienić anteny w Spitz AX.](how_to_install_or_change_antennas.md) 
 
 ---
 
-## 2. Skonfiguruj internet dla Spitz AX 
+## 2. Skonfiguruj internet dla Spitz AX {#2-set-up-the-internet-for-your-spitz-ax}
 
 Aby mieć dostęp do internetu podczas podróży, skonfiguruj połączenie internetowe z użyciem kart SIM. 
 
@@ -71,27 +71,27 @@ Aby wprowadzić APN, wykonaj poniższe kroki:
 3. Obok **APN** wpisz APN. 
 4. Kliknij **Apply**. 
 
-Jeśli korzystasz z dwóch kart SIM, pamiętaj, że w danym momencie działa tylko jedna karta SIM. Za każdym razem możesz ręcznie wybrać, której karty SIM chcesz używać. Możesz też włączyć funkcję [Auto Switch](https://docs.gl-inet.com/router/en/4/interface_guide/internet_cellular/#setup-for-dual-sim-models). Jeśli router wykryje, że jedna z kart SIM nie ma prawidłowego dostępu do internetu, automatycznie przełączy się na drugą kartę SIM. Przełączenie trwa około 1 minuty. 
+Jeśli korzystasz z dwóch kart SIM, pamiętaj, że w danym momencie działa tylko jedna karta SIM. Za każdym razem możesz ręcznie wybrać, której karty SIM chcesz używać. Możesz też włączyć funkcję [Auto Switch](../interface_guide/internet_cellular.md#setup-for-dual-sim-models). Jeśli router wykryje, że jedna z kart SIM nie ma prawidłowego dostępu do internetu, automatycznie przełączy się na drugą kartę SIM. Przełączenie trwa około 1 minuty. 
 
 ---
 
-## 3. Używaj Spitz AX w różnych scenariuszach
+## 3. Używaj Spitz AX w różnych scenariuszach {#3-use-spitz-ax-in-different-scenarios}
 
-### W trasie
+### W trasie {#on-the-road}
 
 ![on the road](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/rv-connectivity_scene_rv-antennas.png){class="glboxshadow"}
 
 Podczas jazdy powinieneś mieć możliwość połączenia z internetem za pomocą kart SIM skonfigurowanych w poprzednim kroku.
 
-### Na kempingu
+### Na kempingu {#at-a-campground}
 
 ![campground](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/rv-connectivity_scene_repeater.png){class="glboxshadow"}
 
-Jeśli podczas podróży zatrzymasz się na kempingu, możesz skorzystać z publicznej sieci Wi-Fi udostępnianej na miejscu i oszczędzać dane komórkowe. [Dowiedz się, jak połączyć się z istniejącą siecią Wi-Fi.](https://docs.gl-inet.com/router/en/4/interface_guide/internet_repeater/) 
+Jeśli podczas podróży zatrzymasz się na kempingu, możesz skorzystać z publicznej sieci Wi-Fi udostępnianej na miejscu i oszczędzać dane komórkowe. [Dowiedz się, jak połączyć się z istniejącą siecią Wi-Fi.](../interface_guide/internet_repeater.md) 
 
 Po jednorazowym połączeniu z siecią Wi-Fi Spitz AX zapamięta nazwę sieci i hasło. Następnym razem, gdy znajdziesz się w pobliżu, połączy się z nią automatycznie.
 
-### W obszarach bez zasięgu sieci komórkowej
+### W obszarach bez zasięgu sieci komórkowej {#in-areas-without-cellular-coverage}
 
 ![cellular](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/rv-connectivity_scene_starlink.png){class="glboxshadow"}
 
@@ -101,7 +101,7 @@ Podczas ustawiania anteny Starlink upewnij się, że nic jej nie zasłania. Prze
 
 ---
 
-## 4. Ustaw priorytety przełączenia awaryjnego 
+## 4. Ustaw priorytety przełączenia awaryjnego {#4-set-failover-priorities}
 Spitz AX obsługuje multi-WAN (przełączenie awaryjne i równoważenie obciążenia). Możesz ustawić priorytety przełączenia awaryjnego dla różnych sieci zależnie od swojego scenariusza. 
 
 | Scenariusz| Priorytet |
@@ -109,7 +109,7 @@ Spitz AX obsługuje multi-WAN (przełączenie awaryjne i równoważenie obciąż
 | Na kempingu (połączenie z jego siecią Wi-Fi przez repeater)    | <p> Ustaw repeater z wyższym priorytetem niż sieć komórkową.</p> <p>Gdy tylko opuścisz kemping, router automatycznie przełączy się na sieć komórkową.</p>|
 | Starlink (ethernet) + sieć komórkowa | Ustaw sieć komórkową z wyższym priorytetem niż ethernet. <p>W obszarach z zasięgiem sieci komórkowej router będzie korzystał z sieci komórkowej.</p> <p>Gdy dotrzesz do obszarów bez zasięgu sieci komórkowej, router automatycznie przełączy się na Starlink przez ethernet.</p>|
 
-Aby skonfigurować przełączenie awaryjne, przeczytaj sekcję [Failover](https://docs.gl-inet.com/router/en/4/interface_guide/multi-wan/).
+Aby skonfigurować przełączenie awaryjne, przeczytaj sekcję [Failover](../interface_guide/multi-wan.md).
 
 ---
 

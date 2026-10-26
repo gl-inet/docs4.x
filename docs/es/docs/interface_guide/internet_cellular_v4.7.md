@@ -1,4 +1,4 @@
-# Conectarse a Internet mediante red celular (v4.7 y anteriores)
+# Conectarse a Internet mediante red celular (v4.7 y anteriores) {#connect-to-the-internet-via-cellular-v47-and-earlier}
 
 El contenido de esta página se basa en las versiones de firmware v4.7 y anteriores. Si su dispositivo ejecuta otra versión de firmware, use el selector siguiente para cambiar a la guía correspondiente.
 
@@ -15,19 +15,19 @@ La mayoría de los routers GL.iNet admiten conectividad celular. Esta guía cubr
 
 1. **Modelos 4G de una sola SIM integrados**
 
-   Algunos modelos incluyen un módulo 4G integrado con una sola ranura para tarjeta SIM, como el GL-XE300 (Puli). Consulte [Configuración para modelos de una sola SIM](#configuracion-para-modelos-de-una-sola-sim).
+   Algunos modelos incluyen un módulo 4G integrado con una sola ranura para tarjeta SIM, como el GL-XE300 (Puli). Consulte [Configuración para modelos de una sola SIM](#setup-for-single-sim-models).
 
 2. **Modelos compatibles con módem USB**
 
-   Algunos modelos disponen de un puerto USB y admiten conectividad celular mediante un módem USB, como el GL-AXT1800 (Slate AX). Los pasos de configuración son similares a los de los modelos 4G integrados de una sola SIM. Consulte [Configuración para modelos de una sola SIM](#configuracion-para-modelos-de-una-sola-sim).
+   Algunos modelos disponen de un puerto USB y admiten conectividad celular mediante un módem USB, como el GL-AXT1800 (Slate AX). Los pasos de configuración son similares a los de los modelos 4G integrados de una sola SIM. Consulte [Configuración para modelos de una sola SIM](#setup-for-single-sim-models).
 
 3. **Modelos 5G de doble SIM integrados**
 
-   Algunos modelos incluyen un módulo 5G integrado con dos ranuras para tarjeta SIM, como el GL-X3000 (Spitz AX). La configuración celular en el panel web de administración puede variar ligeramente. Consulte [Configuración para modelos de doble SIM](#configuracion-para-modelos-de-doble-sim).
+   Algunos modelos incluyen un módulo 5G integrado con dos ranuras para tarjeta SIM, como el GL-X3000 (Spitz AX). La configuración celular en el panel web de administración puede variar ligeramente. Consulte [Configuración para modelos de doble SIM](#setup-for-dual-sim-models).
 
 **Nota:** Algunas tarjetas SIM requieren activación antes del primer uso. Para garantizar la compatibilidad, active la tarjeta SIM en un smartphone antes de insertarla en el router.
 
-## Configuración para modelos de una sola SIM
+## Configuración para modelos de una sola SIM {#setup-for-single-sim-models}
 
 Los siguientes pasos se aplican a modelos con un módem celular integrado y una sola ranura para tarjeta SIM, como el GL-XE300 Puli, o con un puerto USB para conectar un módem USB externo, como el GL-AXT1800 Slate AX.
 
@@ -37,7 +37,7 @@ Recomendamos apagar primero el router. Inserte una tarjeta SIM previamente activ
 
 Si conecta el módem USB después de que el router haya arrancado, es posible que el panel web de administración no se actualice automáticamente. En ese caso, actualice la página o reinicie el router.
 
-### Configuración automática
+### Configuración automática {#auto-setup}
 
 Inicie sesión en el panel web de administración del router y vaya a **INTERNET** -> **Cellular**.
 
@@ -59,9 +59,9 @@ Inicie sesión en el panel web de administración del router y vaya a **INTERNET
 
    **Nota:** Después de la configuración inicial, si reinicia el router con el módem USB conectado, o vuelve a conectarlo, el módem USB se reconocerá automáticamente y la conexión de red se establecerá sin necesidad de volver a pulsar el botón **Auto Setup**.
 
-Si **Auto Setup** falla, pruebe con [Configuración manual](#configuracion-manual).
+Si **Auto Setup** falla, pruebe con [Configuración manual](#manual-setup).
 
-### Configuración manual
+### Configuración manual {#manual-setup}
 
 En la sección **Cellular**, haga clic en **Manual Setup** para ver o modificar la configuración celular de la tarjeta SIM actual.
 
@@ -89,39 +89,38 @@ Aplicar los cambios provocará una nueva conexión.
 
 - **Authentication**: Elija el método de autenticación requerido por su operador, por ejemplo NONE, PAP o CHAP. Normalmente se establece en NONE si no se necesitan credenciales.
 
-### Módems compatibles
+### Módems compatibles {#compatible-modems}
 
 Aquí se muestra una lista de módems compatibles que hemos probado anteriormente.
 
 **SIMPoYo uFi** es un dongle USB compacto plug and play con punto de acceso Wi-Fi, diseñado para ofrecer conectividad rápida y fiable en cualquier lugar. Funciona perfectamente con la mayoría de los routers GL.iNet, así como con portátiles, baterías externas, puertos USB de automóvil y otras fuentes de alimentación USB. Incluye 10 GB de datos gratuitos durante 30 días, válidos en el Reino Unido y en 34 países europeos.
 
-| Modelo                                 | Red celular | Probado | Probado por     | Comentarios\* |
-| -------------------------------------- | ----------- | ------- | --------------- | ------------- |
-| [SIMPoYo SP-N150C4](https://www.gl-inet.com/campaign/simpoyo-ufi/) | 4G    | Sí      | GL.iNet         |               |
-| Quectel RM520N-GL                      | 5G    | Sí      | GL.iNet         |               |
-| Quectel EC20-E, EC20-A, EC20-C         | 4G    | Sí      | GL.iNet         |               |
-| Quectel EC25-E, EC25-A, EC25-V, EC25-C | 4G    | Sí      | GL.iNet         |               |
-| Quectel EC200A series                  | 4G    | Sí      | akw2312         | Host-less     |
-| Quectel EP06-E, EP06-A                 | 4G    | Sí      | anónimo         |               |
-| Quectel EM060K-GL, EM120K-GL           | 4G    | Sí      | anónimo         |               |
-| Quectel EM120R-GL, EM160R-GL           | 4G    | Sí      | anónimo         |               |
-| Huawei E3276                           | 4G    | Sí      | GL.iNet         |               |
-| Huawei E3372                           | 4G    | Sí      | anónimo         |               |
-| Huawei E3372h-153                      | 4G    | Sí      | GL.iNet         | Host-less     |
-| Huawei E3372h-320 (Ukraine)            | 4G    | Sí      | anónimo         | Host-less     |
-| Huawei E3372h-607                      | 4G    | Sí      | GL.iNet         |               |
-| Huawei K5161h                          | 4G    | Sí      | anónimo         |               |
-| ZTE MF833U1                            | 4G    | Sí      | anónimo         | Host-less     |
-| ZTE MF79U                              | 4G    | Sí      | GL.iNet         | Host-less     |
-| ZTE M823                               | 4G    | Sí      | Arnas Risqianto |               |
-| MeiG O4H13 (Qualcomm MDM9207)          | 4G    | Sí      | GL.iNet         | Host-less     |
-| XTRONS 4G LTE USB Dongle               | 4G    | Sí      | GL.iNet         | Host-less     |
+| Modelo                                 | Red celular | Tipo       | Probado por     | Comentarios\* |
+| -------------------------------------- | ----------- | ---------- | --------------- | ------------- |
+| [SIMPoYo SP-N150C4](https://www.gl-inet.com/campaign/simpoyo-ufi/) | 4G          | Dongle USB | GL.iNet         |               |
+| Quectel RM520N-GL                      | 5G          | Módulo     | GL.iNet         |               |
+| Quectel EC20-E, EC20-A, EC20-C         | 4G          | Módulo     | GL.iNet         |               |
+| Quectel EC25-E, EC25-A, EC25-V, EC25-C | 4G          | Módulo     | GL.iNet         |               |
+| Quectel EC200A series                  | 4G          | Módulo     | akw2312         | Host-less     |
+| Quectel EP06-E, EP06-A                 | 4G          | Módulo     | anónimo         |               |
+| Quectel EM060K-GL, EM120K-GL           | 4G          | Módulo     | anónimo         |               |
+| Quectel EM120R-GL, EM160R-GL           | 4G          | Módulo     | anónimo         |               |
+| Huawei E3276                           | 4G          | Dongle USB | GL.iNet         |               |
+| Huawei E3372h-153                      | 4G          | Dongle USB | GL.iNet         | Host-less     |
+| Huawei E3372h-320 (Ukraine)            | 4G          | Dongle USB | anónimo         | Host-less     |
+| Huawei E3372h-607                      | 4G          | Dongle USB | GL.iNet         |               |
+| Huawei K5161h                          | 4G          | Dongle USB | anónimo         |               |
+| ZTE MF833U1                            | 4G          | Dongle USB | anónimo         | Host-less     |
+| ZTE MF79U                              | 4G          | Dongle USB | GL.iNet         | Host-less     |
+| ZTE M823                               | 4G          | Dongle USB | Arnas Risqianto |               |
+| MeiG O4H13 (Qualcomm MDM9207)          | 4G          | Dongle USB | GL.iNet         | Host-less     |
+| XTRONS 4G LTE USB Dongle               | 4G          | Dongle USB | GL.iNet         | Host-less     |
 
 - **QMI**: Este módem admite el modo QMI. Seleccione QMI como protocolo y **/dev/cdc-wdm0** como puerto serie para su router celular.
 
 - **Host-less**: Este módem admite el modo Tethering. Gestione la conexión mediante la interfaz **Tethering** del router en lugar de la interfaz **Cellular**.
 
-## Configuración para modelos de doble SIM
+## Configuración para modelos de doble SIM {#setup-for-dual-sim-models}
 
 Los siguientes pasos se aplican a modelos con un módem celular integrado que admite dos tarjetas SIM. El panel web de administración puede diferir ligeramente del de los modelos de una sola SIM.
 
@@ -129,7 +128,7 @@ Aquí usamos como ejemplo el **GL-X3000 (Spitz AX)**. Admite Dual SIM, Single St
 
 Recomendamos apagar primero el router, insertar la tarjeta o tarjetas SIM previamente activadas en las ranuras y, a continuación, encenderlo. Si inserta la tarjeta SIM después de que el router haya arrancado, es posible que el panel web de administración no se actualice automáticamente. En ese caso, actualice la página o reinicie el router.
 
-### Configuración automática
+### Configuración automática {#auto-setup_1}
 
 Inicie sesión en el panel web de administración del router y vaya a **INTERNET** -> **Cellular**.
 
@@ -145,7 +144,7 @@ Inicie sesión en el panel web de administración del router y vaya a **INTERNET
 
 Si no se conecta automáticamente, haga clic en **Auto Setup** y espere a que el router se conecte, o pruebe con **Manual Setup**.
 
-### Configuración manual
+### Configuración manual {#manual-setup_1}
 
 En la sección **Cellular**, haga clic en **Manual Setup** para acceder a **Cellular Settings**.
 
@@ -153,7 +152,7 @@ En la sección **Cellular**, haga clic en **Manual Setup** para acceder a **Cell
 
 Puede ver o modificar la configuración celular de la tarjeta SIM actual. También almacena algunos perfiles preconfigurados y puede añadir configuraciones manualmente en **Saved Settings**.
 
-### Configuración de la ranura para tarjeta SIM
+### Configuración de la ranura para tarjeta SIM {#sim-card-slot-settings}
 
 En la sección **Cellular**, haga clic en **Current SIM Card**.
 
@@ -189,7 +188,7 @@ Si se insertan dos tarjetas SIM, puede activar **Auto Switch**.
 
 **Nota**: La función **Auto Switch** no cambia a otra tarjeta SIM de inmediato. Primero, el dispositivo necesita tiempo para confirmar que la SIM actual no puede acceder a Internet. Segundo, la otra SIM no está en modo de espera y requiere tiempo para activarse.
 
-## Estadísticas de tráfico
+## Estadísticas de tráfico {#traffic-statistics}
 
 En la sección **Cellular**, haga clic en **Traffic Statistics**.
 
@@ -199,15 +198,15 @@ Entrará en la página **Traffic Statistics**.
 
 ![traffic statistics](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/dual_sim/traffic_statistics.png){class="glboxshadow gl-90-desktop"}
 
-## SMS
+## SMS {#sms}
 
 Consulte [SMS](../tutorials/sms.md).
 
-## Reenvío de SMS
+## Reenvío de SMS {#sms-forwarding}
 
 Consulte [SMS Forwarding](../tutorials/sms_forwarding.md).
 
-## Gestión del módem
+## Gestión del módem {#modem-management}
 
 En la sección **Cellular**, haga clic en el botón **Tool** de la esquina superior derecha para acceder a la página de gestión del módem.
 
@@ -239,7 +238,7 @@ Como ejemplo, aquí se selecciona el acceso directo "Request IMEI". Haga clic en
 
 ![shortcut example](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/at_command_3.png){class="glboxshadow"}
 
-## Perfil del operador
+## Perfil del operador {#carrier-profile}
 
 Puede guardar diferentes perfiles para el mismo operador o para operadores distintos.
 
@@ -263,7 +262,7 @@ Elija los perfiles que necesite.
 
 ![chooseprofile](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/carrier_profile/choose_profile.jpg){class="glboxshadow"}
 
-## Bloqueo de torre
+## Bloqueo de torre {#lock-tower}
 
 Esta función solo está disponible en determinados modelos, como GL-X3000, GL-XE3000 y GL-X2000 (firmware v4.7 o posterior).
 
@@ -295,7 +294,7 @@ El estado de la torre, por ejemplo Locked/Unlocked, se mostrará en la parte sup
 
 3. Después de bloquear una torre celular, si mueve el router a otra ubicación, seguirá intentando reconectarse a la torre bloqueada tras reiniciarse. Esto puede impedir que el router se conecte automáticamente a la red celular en la nueva ubicación. En ese caso, debe desbloquear la torre celular actual o bloquearla manualmente en una nueva torre.
 
-## Registro histórico de la señal
+## Registro histórico de la señal {#historical-signal-record}
 
 En la sección **Cellular**, haga clic en el icono **Signal** de la esquina superior derecha para comprobar el historial de intensidad de la señal.
 
@@ -307,7 +306,7 @@ Puede ver el historial de intensidad de la señal celular seleccionando distinto
 
 ![historical_signal_record1](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/historical_signal_record_2.jpg){class="glboxshadow"}
 
-## Enmascaramiento de banda
+## Enmascaramiento de banda {#band-masking}
 
 En la sección **Cellular**, haga clic en **View More** y seleccione **Cells Info** para consultar los detalles de las celdas.
 
@@ -323,7 +322,7 @@ Haga clic en **Manual Setup** para acceder a la página **Cellular Settings** y,
 
 Seleccione **Masking Mode** (Block u Open) y, a continuación, seleccione las bandas LTE, las bandas 5G NSA y las bandas 5G SA.
 
-## Solución de problemas
+## Solución de problemas {#troubleshooting}
 
 Si no consigue establecer una conexión celular, haga clic en el mensaje de error correspondiente a continuación para ver las soluciones relevantes.
 
@@ -365,9 +364,9 @@ Si no consigue establecer una conexión celular, haga clic en el mensaje de erro
 
     Si el problema persiste, descargue los registros y envíelos a [support@gl-inet.com](mailto:support@gl-inet.com).
 
-## Certificación IoT
+## Certificación IoT {#iot-certification}
 
-### Certificación de AT&T
+### Certificación de AT&T {#att-certification}
 
 Haga clic en el enlace [att device certification](https://iotdevices.att.com/certified-devices.aspx#) e introduzca el nombre del dispositivo para encontrarlo.
 
@@ -375,7 +374,7 @@ Haga clic en el enlace [att device certification](https://iotdevices.att.com/cer
 
 ![bandmasking](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/certification/at&t_certification_2.png){class="glboxshadow"}
 
-### Certificación de T-Mobile
+### Certificación de T-Mobile {#t-mobile-certification}
 
 Haga clic en el enlace [t-mobile device certification](https://www.t-mobile.com/business/solutions/iot/device-certification){target="_blank"} y elija 5G en **Filter** para encontrarlo.
 

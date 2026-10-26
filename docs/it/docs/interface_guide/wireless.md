@@ -1,4 +1,4 @@
-# Wireless
+# Wireless {#wireless}
 
 Il contenuto di questa pagina si basa sulla versione firmware v4.9 e successive. Se il dispositivo usa una versione firmware diversa, usa il selettore seguente per passare alla guida corrispondente.
 
@@ -14,7 +14,7 @@ Sul lato sinistro del pannello di amministrazione web, vai su **WIRELESS**.
 
 La pagina Wireless ti consente di configurare varie reti Wi-Fi, tra cui MLO Wi-Fi, disponibile su alcuni modelli selezionati, Rete principale, Rete ospite e Rete IoT. Le bande Wi-Fi supportate variano a seconda del modello.
 
-## Multi-Link Operation (MLO)
+## Multi-Link Operation (MLO) {#multi-link-operation-mlo}
 
 ??? "Modelli supportati"
     - GL-BE14000 (Flint 4)
@@ -52,9 +52,9 @@ La pagina Wireless ti consente di configurare varie reti Wi-Fi, tra cui MLO Wi-F
     - GL-B1300 (Convexa-B)
     - GL-X300B (Collie)
 
-MLO (Multi-Link Operation) e' una delle funzionalita' principali del Wi-Fi 7 (802.11be), progettata per migliorare le prestazioni della rete, ridurre sensibilmente la latenza e aumentare la stabilita' della connessione sfruttando contemporaneamente piu' bande di frequenza, come 2.4 GHz, 5 GHz e 6 GHz.
+MLO (Multi-Link Operation) è una delle funzionalità principali del Wi-Fi 7 (802.11be), progettata per migliorare le prestazioni della rete, ridurre sensibilmente la latenza e aumentare la stabilità della connessione sfruttando contemporaneamente più bande di frequenza, come 2.4 GHz, 5 GHz e 6 GHz.
 
-Si consiglia ai client Wi-Fi 7 di connettersi a MLO Wi-Fi, che migliora notevolmente throughput e affidabilita' della rete tramite connessioni multi-banda.
+Si consiglia ai client Wi-Fi 7 di connettersi a MLO Wi-Fi, che migliora notevolmente throughput e affidabilità della rete tramite connessioni multi-banda.
 
 Fai clic su **Add** per configurare una rete MLO Wi-Fi, quindi fai clic su **Apply**. Tieni presente che le bande Wi-Fi disponibili variano a seconda del modello.
 
@@ -63,16 +63,16 @@ Fai clic su **Add** per configurare una rete MLO Wi-Fi, quindi fai clic su **App
 ![mlo2](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/mlo2.png){class="glboxshadow"}
 
 - **Wi-Fi Band**: seleziona almeno due bande radio.
-- **Wi-Fi Security**: se selezioni la banda 6 GHz, WPA3-SAE e' l'unica opzione disponibile ed e' quella consigliata. Funziona al meglio con la maggior parte dei dispositivi che supportano MLO.
-- **Enable Randomized BSSID**: se selezioni la banda 6 GHz, il BSSID a 6 GHz della rete MLO Wi-Fi verra' sincronizzato con quello del Main Wi-Fi.
+- **Wi-Fi Security**: se selezioni la banda 6 GHz, WPA3-SAE è l'unica opzione disponibile ed è quella consigliata. Funziona al meglio con la maggior parte dei dispositivi che supportano MLO.
+- **Enable Randomized BSSID**: se selezioni la banda 6 GHz, il BSSID a 6 GHz della rete MLO Wi-Fi verrà sincronizzato con quello del Main Wi-Fi.
 
-Una volta abilitata, la pagina verra' visualizzata come segue.
+Una volta abilitata, la pagina verrà visualizzata come segue.
 
 ![mlo3](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/mlo3.png){class="glboxshadow"}
 
-## Rete principale
+## Rete principale {#main-network}
 
-La Rete principale e' la rete Wi-Fi primaria e supporta la trasmissione simultanea su diverse bande radio, tutte abilitate per impostazione predefinita. Puoi configurare impostazioni separate per ogni banda, ad esempio Wi-Fi SSID, modalita' di sicurezza, password, randomized BSSID, potenza TX, larghezza di banda e canale.
+La Rete principale è la rete Wi-Fi primaria e supporta la trasmissione simultanea su diverse bande radio, tutte abilitate per impostazione predefinita. Puoi configurare impostazioni separate per ogni banda, ad esempio Wi-Fi SSID, modalità di sicurezza, password, randomized BSSID, potenza TX, larghezza di banda e canale.
 
 ![main](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/main.png){class="glboxshadow"}
 
@@ -90,9 +90,9 @@ Fai clic sull'icona a forma di ingranaggio sulla destra per visualizzare o modif
 
     ![main 2.4g](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/main_2.4g.png){class="glboxshadow"}
 
-## Rete ospite
+## Rete ospite {#guest-network}
 
-La Rete ospite e' una rete Wi-Fi dedicata ai visitatori, con tutte le bande disabilitate per impostazione predefinita. Puoi abilitare e configurare le impostazioni di base della rete per ogni banda, come Wi-Fi SSID, modalita' di sicurezza, password e attivazione del randomized BSSID.
+La Rete ospite è una rete Wi-Fi dedicata ai visitatori, con tutte le bande disabilitate per impostazione predefinita. Puoi abilitare e configurare le impostazioni di base della rete per ogni banda, come Wi-Fi SSID, modalità di sicurezza, password e attivazione del randomized BSSID.
 
 Fai clic su **Add** per configurare una rete Guest Wi-Fi, quindi fai clic su **Apply**. Tieni presente che le bande Wi-Fi disponibili variano a seconda del modello.
 
@@ -100,13 +100,13 @@ Fai clic su **Add** per configurare una rete Guest Wi-Fi, quindi fai clic su **A
 
 ![guest2](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/guest2.png){class="glboxshadow"}
 
-Una volta abilitata, la pagina verra' visualizzata come segue.
+Una volta abilitata, la pagina verrà visualizzata come segue.
 
 ![guest3](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/guest3.png){class="glboxshadow"}
 
-## Rete IoT
+## Rete IoT {#iot-network}
 
-La Rete IoT e' una rete Wi-Fi dedicata ai dispositivi smart, con tutte le bande disabilitate per impostazione predefinita. Puoi abilitare e configurare le impostazioni di base della rete per ogni banda, come Wi-Fi SSID, modalita' di sicurezza, password e attivazione del randomized BSSID.
+La Rete IoT è una rete Wi-Fi dedicata ai dispositivi smart, con tutte le bande disabilitate per impostazione predefinita. Puoi abilitare e configurare le impostazioni di base della rete per ogni banda, come Wi-Fi SSID, modalità di sicurezza, password e attivazione del randomized BSSID.
 
 Fai clic su **Add** per configurare una rete IoT Wi-Fi, quindi fai clic su **Apply**. Tieni presente che questa rete non include la banda 6 GHz e che le bande Wi-Fi disponibili variano a seconda del modello.
 
@@ -114,7 +114,7 @@ Fai clic su **Add** per configurare una rete IoT Wi-Fi, quindi fai clic su **App
 
 ![iot2](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/iot2.png){class="glboxshadow"}
 
-Una volta abilitata, la pagina verra' visualizzata come segue.
+Una volta abilitata, la pagina verrà visualizzata come segue.
 
 ![iot3](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/iot3.png){class="glboxshadow"}
 

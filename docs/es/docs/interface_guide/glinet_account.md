@@ -1,4 +1,4 @@
-# Cuenta de GL.iNet
+# Cuenta de GL.iNet {#glinet-account}
 
 **Nota**: Esta guía se aplica al firmware v4.10 y posteriores.
 
@@ -10,7 +10,7 @@ Una cuenta de GL.iNet le permite conectar y administrar sus dispositivos y servi
 
 Además, puede usar GoodPAS para establecer rápidamente una conexión segura entre su router de viaje y su red doméstica. De este modo, podrá acceder a ella de forma remota y sin interrupciones cuando esté fuera de casa.
 
-## Activar la cuenta de GL.iNet
+## Activar la cuenta de GL.iNet {#enable-glinet-account}
 
 Siga estos pasos para vincular su cuenta de GL.iNet.
 
@@ -32,17 +32,17 @@ Siga estos pasos para vincular su cuenta de GL.iNet.
 
     En esta página puede consultar el estado de activación de cada servicio. GoodCloud y GL.iNet App están activados de forma predeterminada, mientras que GoodPAS está desactivado. Para activar GoodPAS, vaya a la página de GoodPAS y configúrelo.
 
-## Servicios
+## Servicios {#services}
 
 Puede elegir los servicios adecuados para administrar su dispositivo según sus necesidades.
 
-### GoodCloud
+### GoodCloud {#goodcloud}
 
 Haga clic en **Go** en la esquina inferior derecha de la sección GoodCloud para abrir la plataforma GoodCloud, desde la que puede administrar su dispositivo de forma remota. Para obtener más información, consulte [GoodCloud](./cloud.md).
 
 ![account 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/glinet_account/account_2.png){class="glboxshadow"}
 
-### GoodPAS
+### GoodPAS {#goodpas}
 
 Haga clic en **Go** en la esquina inferior derecha de la sección GoodPAS para acceder a su página. Desde allí puede establecer una red segura entre su router de viaje y su red doméstica. Esto permite acceder de forma remota y sin interrupciones a la red doméstica, además de utilizar la dirección IP de su hogar para acceder a Internet. Para obtener más información, consulte [GoodPAS](./goodpas.md). En el firmware v4.10, esta sección se denomina AstroWarp en todos los modelos excepto el GL-MG1300; consulte [AstroWarp](./astrowarp.md).
 
@@ -50,7 +50,7 @@ Haga clic en **Go** en la esquina inferior derecha de la sección GoodPAS para a
 
 ![goodpas 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/glinet_account/goodpas_page.png){class="glboxshadow"}
 
-### GL.iNet App
+### GL.iNet App {#glinet-app}
 
 Haga clic en **GO** en la esquina inferior derecha de la sección GL.iNet para ir al centro de descargas de aplicaciones. Desde allí puede descargar GL.iNet App, que le permite administrar fácilmente el router desde el teléfono.
 
@@ -58,7 +58,7 @@ Haga clic en **GO** en la esquina inferior derecha de la sección GL.iNet para i
 
 ![glinet download](https://static.gl-inet.com/docs/router/en/4/interface_guide/glinet_account/glinet_app_download.png){class="glboxshadow" width=500}
 
-## Desvincular la cuenta de GL.iNet
+## Desvincular la cuenta de GL.iNet {#unbind-glinet-account}
 
 Si desea desvincular este dispositivo de su cuenta de GL.iNet, haga clic en **Unbind**. El dispositivo quedará desvinculado.
 

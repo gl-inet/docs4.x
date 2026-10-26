@@ -1,6 +1,6 @@
-# Beryl 7 (GL-MT3600BE) Benutzerhandbuch
+# Beryl 7 (GL-MT3600BE) Benutzerhandbuch {#beryl-7-gl-mt3600be-user-guide}
 
-## Sicherheitshinweise
+## Sicherheitshinweise {#safety-information}
 
 Lesen Sie vor der Verwendung des Geräts alle nachstehenden Sicherheitsinformationen sorgfältig durch. Die nachfolgenden Sicherheitsempfehlungen können nicht sämtliche möglicherweise auftretenden Gefahrensituationen abdecken.
 
@@ -30,7 +30,7 @@ Unsachgemäßes Öffnen oder unsachgemäße Instandsetzung kann den Benutzer des
 
 Schalten Sie bei einem Störfall zuerst den Netzschalter aus.
 
-## Produktübersicht
+## Produktübersicht {#product-overview}
 
 Beryl 7 (GL-MT3600BE) ist ein tragbarer Dualband-Wi-Fi-7-Reiserouter, der speziell für mobile Einsatzszenarien wie Geschäftsreisen und Urlaube entwickelt wurde. Als verbesserte Version des Beryl AX unterstützt er Wi-Fi-7-Technologien wie Multi-Link Operation (MLO) und 4K QAM. Die theoretischen Dualband-Geschwindigkeiten erreichen 688 Mbit/s (2,4 GHz) + 2882 Mbit/s (5 GHz) und decken damit hohe Anforderungen wie 8K-Streaming und mobiles Gaming ab.
 
@@ -38,7 +38,7 @@ Angetrieben von einem MediaTek-Quad-Core-Prozessor und ausgestattet mit 512 MB N
 
 ![gl-mt3600be interface](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-mt3600be/hardware_info/mt3600be_interface.png){class="glboxshadow"}
 
-## Lieferumfang
+## Lieferumfang {#package-contents}
 
 - 1 x Beryl 7 (GL-MT3600BE)
 - 1 x Netzadapter
@@ -51,17 +51,17 @@ Sehen Sie sich unten das Unboxing-Video von Beryl 7 an.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xZHmP3B8VlA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## So richten Sie Beryl 7 ein
+## So richten Sie Beryl 7 ein {#how-to-set-up-beryl-7}
 
 Sehen Sie sich dieses Einrichtungsvideo an oder folgen Sie den untenstehenden Schritten.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ey-Z3MEOPpw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Einschalten
+### 1. Einschalten {#1-power-on}
 
 Setzen Sie die beiden Teile des Netzadapters zusammen. Schließen Sie ihn an Ihren Router an und stecken Sie ihn in eine Steckdose. Das Gerät startet anschließend automatisch.
 
-### 2. Gerät verbinden
+### 2. Gerät verbinden {#2-connect-device}
 
 Verbinden Sie Ihren Computer oder Ihr Mobilgerät per Wi-Fi oder Ethernet mit dem Router.
 
@@ -73,11 +73,11 @@ Verbinden Sie Ihren Computer oder Ihr Mobilgerät per Wi-Fi oder Ethernet mit de
 
     Öffnen Sie auf Ihrem Gerät **Einstellungen** -> **WLAN**, suchen Sie den Wi-Fi-Netzwerknamen des Routers in der Liste der verfügbaren Netzwerke und geben Sie das Passwort ein, um die Verbindung herzustellen. Den standardmäßigen Netzwerknamen und das Passwort finden Sie auf dem Geräteetikett.
 
-### 3. Im Web-Admin-Panel anmelden
+### 3. Im Web-Admin-Panel anmelden {#3-log-in-to-web-admin-panel}
 
 Öffnen Sie einen Webbrowser, geben Sie `192.168.8.1` in die Adressleiste ein und melden Sie sich an. Wählen Sie eine Sprache aus, legen Sie Ihr Admin-Passwort fest und klicken Sie anschließend auf **Apply**.
 
-### 4. Internet einrichten
+### 4. Internet einrichten {#4-internet-setup}
 
 **Hinweis:** Die folgenden Anweisungen gelten für Benutzer, die den Router über das GL.iNet-Web-Admin-Panel konfigurieren. Wenn Sie lieber die GL.iNet-App verwenden möchten, [laden Sie die App herunter](https://www.gl-inet.com/app/){target="_blank"} und folgen Sie den Anweisungen auf dem Bildschirm.
 
@@ -131,7 +131,7 @@ Richten Sie Ihren Beryl 7 mit einer der unterstützten Internetverbindungsmethod
 
 Im Folgenden finden Sie eine Übersicht über die Funktionen im Web-Admin-Panel des Beryl 7.
 
-## WLAN
+## WLAN {#wireless}
 
 Auf der Seite Wireless können Sie Einstellungen für die Wi-Fi-Netzwerke im 5-GHz- und 2,4-GHz-Band konfigurieren. Dazu gehören das Aktivieren von Wi-Fi, das Festlegen der TX-Leistung, das Angeben des Wi-Fi-Namens (SSID), das Aktivieren einer zufälligen BSSID, die Auswahl des Wi-Fi-Sicherheitsmodus und Passworts, die Konfiguration der Sichtbarkeit der SSID sowie die Wahl von Wi-Fi-Modus, Bandbreite und Kanal.
 
@@ -139,13 +139,13 @@ Darüber hinaus unterstützt Beryl 7 MLO-Wi-Fi, also Multi-Link Operation. Dabei
 
 Informationen zur Einrichtung von Wireless finden Sie unter [Wireless](../../interface_guide/wireless.md).
 
-## Clients
+## Clients {#clients}
 
 Auf der Seite Clients werden Informationen zu verbundenen Geräten angezeigt. Für jeden Client werden Name, IP- und MAC-Adresse, Download- und Upload-Geschwindigkeit sowie das gesamte Datenvolumen angezeigt. Außerdem können Sie den Client blockieren oder weitere Aktionen ausführen.
 
 Informationen zur Einrichtung von Clients finden Sie unter [Clients](../../interface_guide/clients.md).
 
-## Cloud-Dienste
+## Cloud-Dienste {#cloud-services}
 
 === "GoodCloud"
 
@@ -159,7 +159,7 @@ Informationen zur Einrichtung von Clients finden Sie unter [Clients](../../inter
 
     Informationen zur Einrichtung von AstroWarp finden Sie unter [AstroWarp](../../interface_guide/astrowarp.md).
 
-## VPN
+## VPN {#vpn}
 
 Ein VPN (Virtual Private Network) erstellt einen sicheren, verschlüsselten Datenverkehr zwischen Ihrem Gerät und dem VPN-Server. Es bietet eine zusätzliche Ebene für Datenschutz und Sicherheit (VPN-Client) und ermöglicht den Zugriff auf ein entferntes Netzwerk (VPN-Server). Beryl 7 unterstützt OpenVPN, WireGuard und Tor.
 
@@ -183,7 +183,7 @@ Ein VPN (Virtual Private Network) erstellt einen sicheren, verschlüsselten Date
 
     * [So richten Sie Tor ein](../../interface_guide/tor.md)
 
-## Anwendungen
+## Anwendungen {#applications}
 
 === "Plug-ins"
 
@@ -229,7 +229,7 @@ Ein VPN (Virtual Private Network) erstellt einen sicheren, verschlüsselten Date
 
     Informationen zur Einrichtung von Tailscale finden Sie unter [Tailscale](../../interface_guide/tailscale.md).
 
-## Netzwerk
+## Netzwerk {#network}
 
 === "Portweiterleitung"
 
@@ -312,7 +312,7 @@ Ein VPN (Virtual Private Network) erstellt einen sicheren, verschlüsselten Date
 
     Informationen zur Einrichtung der NAT-Einstellungen finden Sie unter [NAT Settings](../../interface_guide/nat_settings.md).
 
-## System
+## System {#system}
 
 === "Overview"
 
@@ -407,6 +407,6 @@ Ein VPN (Virtual Private Network) erstellt einen sicheren, verschlüsselten Date
 
     Detaillierte Anweisungen finden Sie unter [Advanced Settings](../../interface_guide/advanced_settings.md).
 
-## Konformitätserklärung
+## Konformitätserklärung {#declaration-of-conformity}
 
 Hiermit erklärt GL TECHNOLOGIES (HONG KONG) LIMITED, dass der Funkanlagentyp [BE3600 Dual-band Wi-Fi 7 Travel Router, GL-MT3600BE] den grundlegenden Anforderungen und den übrigen einschlägigen Bestimmungen der Richtlinie 2014/53/EU entspricht. Der vollständige Text der EU-Konformitätserklärung ist unter der folgenden Internetadresse verfügbar: [https://www.gl-inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}.

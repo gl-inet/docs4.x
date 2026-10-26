@@ -1,8 +1,8 @@
-# Technical Support via GoodCloud
+# Technical Support via GoodCloud {#technical-support-via-goodcloud}
 
 Sometimes it is necessary to share your device via GoodCloud for technical support from GL.iNet. This guide will show you how to share your device with GL.iNet technical support.
 
-## Enable GoodCloud and remote access
+## Enable GoodCloud and remote access {#enable-goodcloud-and-remote-access}
 
 Before sharing your device with GL.iNet technical support, please ensure your router has an additional Internet connection for stability. Set up an Ethernet or Repeater connection as a failover backup and ensure it works properly.
 
@@ -42,9 +42,9 @@ Please select the tutorial that matches your device's firmware version to enable
 
     ![enable GoodCloud 4.6](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/enable_goodcloud_v4.6.x.png){class="glboxshadow"}
 
-## Log in Cloud account and bind device
+## Log in Cloud account and bind device {#log-in-cloud-account-and-bind-device}
 
-If your router runs firmware v4.7 or higher, you can register an accout in the router's web Admin Panel and log in directly. Once logged in, the current device will be bound to your Cloud account automatically. 
+If your router runs firmware v4.7 or higher, you can register an account in the router's web Admin Panel and log in directly. Once logged in, the current device will be bound to your Cloud account automatically. 
 
 If your router runs firmware v4.6 or earlier, follow the steps below to log in to your account and bind your device.
 
@@ -52,7 +52,7 @@ If your router runs firmware v4.6 or earlier, follow the steps below to log in t
 
 2. Bind your device to GoodCloud. See [Bind Devices to Cloud](../interface_guide/cloud.md#bind-devices-to-cloud).
 
-## Share device with GL.iNet technical support
+## Share device with GL.iNet technical support {#share-device-with-glinet-technical-support}
 
 1. Visit [GoodCloud](https://www.goodcloud.xyz){target="_blank"} and log in.
 
@@ -74,7 +74,7 @@ If your router runs firmware v4.6 or earlier, follow the steps below to log in t
 
 2. To ensure password security, we recommend changing the login password of the web admin panel to a temporary one before sharing the device with GL.iNet Support. You can revert to your regular password after troubleshooting is completed.
 
-## Provide information to GL.iNet technical support
+## Provide information to GL.iNet technical support {#provide-information-to-glinet-technical-support}
 
 After sharing the device, please provide your router's **MAC address** and **admin password** to the corresponding GL.iNet technical support staff via email or forum PM for remote troubleshooting. 
 
@@ -86,7 +86,7 @@ After sharing the device, please provide your router's **MAC address** and **adm
 
     Here are steps to send a private message in the forum.
 
-    1. Go to the [offical forum](https://forum.gl-inet.com){target="_blank"}.
+    1. Go to the [official forum](https://forum.gl-inet.com){target="_blank"}.
     2. Click on the username of the GL.iNet support staff you are in contact with.
     3. Click on the **Message** button to send a private message.
 

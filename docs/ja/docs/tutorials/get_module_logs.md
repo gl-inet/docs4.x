@@ -1,22 +1,22 @@
-# qlogでモデムログを取得する方法
+# qlogでモデムログを取得する方法 {#how-to-use-qlog-to-capture-modem-logs}
 
 一部のGL.iNetルーターには、3G/4G/5Gモデムが内蔵されています。ネットワーク接続が不安定な場合は、分析のためにモデムログをエクスポートする必要があることがあります。
 
 以下の手順で、セルラーモデムのログをエクスポートします。
 
-## 1. コンピューターをルーターに接続する
+## 1. コンピューターをルーターに接続する {#1-connect-your-computer-to-the-router}
 
 ノートPCをルーターの Wi-Fi に接続します（SSID とパスワードは本体底面ラベルで確認できます）。または、Ethernet ケーブルを使って、コンピューターの Ethernet ポートをルーターの LAN ポートに接続してください。
 
-## 2. SSHでルーターにログインする
+## 2. SSHでルーターにログインする {#2-ssh-log-in-to-your-router}
 
 [こちら](ssh_log_in_to_the_router.md)を参照してください。
 
-## 3. モデムログを取得する
+## 3. モデムログを取得する {#3-get-modem-logs}
 
 デバイスのモデルに対応する手順を選択してください。
 
-### GL-E5800
+### GL-E5800 {#gl-e5800}
 
 1. USBメモリーを挿入し、`df -h` を実行してマウントパスを確認し、記録します。
 
@@ -58,7 +58,7 @@
 
     ![Qlogs Files](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/E5800_qlogs_files.png){class="glboxshadow"}
 
-### GL-X2000
+### GL-X2000 {#gl-x2000}
 
 1. USBメモリーを挿入し、`df -h` を実行してマウントパスを確認し、記録します。
 
@@ -108,7 +108,7 @@
     ![Qlogs Files](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/X2000_qlogs_files.png){class="glboxshadow"}
 
 
-### GL-XE300/GL-X750/GL-X300B
+### GL-XE300/GL-X750/GL-X300B {#gl-xe300gl-x750gl-x300b}
 
 1. USBメモリーを挿入し、`df -h` を実行してマウントパスを確認し、記録します。
 
@@ -154,7 +154,7 @@
 
     ![Qlogs Files](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/ar9531_qlogs_files.png){class="glboxshadow"}
 
-### GL-X3000/GL-XE3000
+### GL-X3000/GL-XE3000 {#gl-x3000gl-xe3000}
 
 1. USBメモリーを挿入し、`df -h` を実行してマウントパスを確認し、記録します。
 
@@ -200,4 +200,4 @@
 
 ---
 
-ご不明な点がある場合は、[Community Forum](https://forum.gl-inet.com){target="_blank"} をご利用いただくか、[Contact us](https://www.gl-inet.com/contacts/){target="_blank"} からお問い合わせください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

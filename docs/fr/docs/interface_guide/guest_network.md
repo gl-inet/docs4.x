@@ -1,4 +1,4 @@
-# Réseau invité
+# Réseau invité {#guest-network}
 
 Les paramètres du réseau invité sont séparés de [LAN](lan.md) depuis le firmware v4.5.
 
@@ -10,7 +10,7 @@ Cette page vous permet de créer un réseau Wi‑Fi dédié pour les visiteurs. 
 
 Cette page comprend deux sections : les paramètres de base et les paramètres du serveur DHCP.
 
-## Paramètres de base
+## Paramètres de base {#basic-settings}
 
 Vous pouvez définir le sous-réseau dans les plages d'adresses privées IPv4 suivantes : `192.168.0.0/16`, `172.16.0.0/12`, `10.0.0.0/8`.
 
@@ -36,7 +36,7 @@ Vous pouvez définir le sous-réseau dans les plages d'adresses privées IPv4 su
 
     Lorsqu'elle est activée, le réseau invité ne peut pas accéder au réseau amont ni à son sous-réseau.
 
-## Serveur DHCP
+## Serveur DHCP {#dhcp-server}
 
 Si **Guest Network** est activé, son serveur DHCP sera activé en conséquence.
 

@@ -28,7 +28,7 @@
 
 Пов’язані статті
 
-- [Сумісні модеми](https://docs.gl-inet.com/router/en/4/interface_guide/internet_cellular/#compatible-modems)
+- [Сумісні модеми](../interface_guide/internet_cellular.md#compatible-modems)
 
 ---
 

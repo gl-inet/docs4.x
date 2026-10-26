@@ -1,23 +1,23 @@
-# AstroWarp
+# AstroWarp {#astrowarp}
 
 **Nota**: questa guida si applica alla nuova versione di AstroWarp. Nel firmware v4.11 (v4.10 per GL-MG1300) la funzione è stata rinominata [GoodPAS](./goodpas.md).
 
-Il nuovo AstroWarp e' integrato nello SDK del router GL.iNet. Adotta il protocollo AmneziaWG con offuscamento del traffico integrato, offrendo connessioni stabili e sicure per un accesso remoto affidabile sempre e ovunque.
+Il nuovo AstroWarp è integrato nello SDK del router GL.iNet. Adotta il protocollo AmneziaWG con offuscamento del traffico integrato, offrendo connessioni stabili e sicure per un accesso remoto affidabile sempre e ovunque.
 
-Questa funzione consente un accesso remoto senza interruzioni alla rete domestica. Puoi configurare e associare direttamente i dispositivi tramite un codice di accesso dinamico nel pannello di amministrazione web, stabilendo rapidamente una connessione sicura tra il router da viaggio e la rete domestica in pochi secondi, senza necessita' di registrazione o login.
+Questa funzione consente un accesso remoto senza interruzioni alla rete domestica. Puoi configurare e associare direttamente i dispositivi tramite un codice di accesso dinamico nel pannello di amministrazione web, stabilendo rapidamente una connessione sicura tra il router da viaggio e la rete domestica in pochi secondi, senza necessità di registrazione o login.
 
 L'AstroWarp legacy, pur essendo visibile nel pannello di amministrazione web, si basava su una piattaforma AstroWarp standalone per stabilire connessioni di rete remote. Fai clic [qui](https://docs.astrowarp.net/){target="_blank"} per consultare la documentazione relativa ad AstroWarp legacy.
 
 **Nota:**
 
-1. Non e' consigliabile usare AstroWarp contemporaneamente a una delle seguenti funzioni, poiche' potrebbe causare conflitti di instradamento: OpenVPN Client, WireGuard Client, GoodCloud Site to Site, ZeroTier, Tailscale, Tor.
-2. Quando AstroWarp e' abilitato, non e' possibile usare Network Mode.
+1. Non è consigliabile usare AstroWarp contemporaneamente a una delle seguenti funzioni, poiché potrebbe causare conflitti di instradamento: OpenVPN Client, WireGuard Client, GoodCloud Site to Site, ZeroTier, Tailscale, Tor.
+2. Quando AstroWarp è abilitato, non è possibile usare Network Mode.
 
 3. Quando è abilitato, AstroWarp ha la massima priorità di instradamento e non può essere usato in cascata con un client VPN.
 
     Ad esempio, se il router A e il router B creano una rete AstroWarp con il router B come nodo di uscita, il traffico inoltrato tramite AstroWarp accederà a Internet attraverso l'IP pubblico WAN del router B, anche quando su quest'ultimo è abilitato un client VPN. Questo traffico non verrà inoltrato attraverso il tunnel del client VPN del router B.
 
-## Modelli supportati
+## Modelli supportati {#supported-models}
 
 ??? "Modelli supportati"
 
@@ -61,11 +61,11 @@ L'AstroWarp legacy, pur essendo visibile nel pannello di amministrazione web, si
     - GL-AP1300 (Cirrus)
     - GL-X300B (Collie)
 
-## Configurazione rapida
+## Configurazione rapida {#quick-setup}
 
 Nell'esempio seguente, useremo **Flint 3 (GL-BE9300)** e **Slate 7 (GL-BE3600)** per configurare una rete AstroWarp.
 
-Flint 3 funzionera' come router di casa, mentre Slate 7 funzionera' come router da viaggio che instrada il traffico di rete verso Flint 3 per l'accesso a Internet.
+Flint 3 funzionerà come router di casa, mentre Slate 7 funzionerà come router da viaggio che instrada il traffico di rete verso Flint 3 per l'accesso a Internet.
 
 ![topology](https://static.gl-inet.com/docs/router/en/4/interface_guide/astrowarp/aw_topology.png){class="glboxshadow"}
 
@@ -73,7 +73,7 @@ Flint 3 funzionera' come router di casa, mentre Slate 7 funzionera' come router 
 
     Accedi al pannello di amministrazione web di Flint 3 e vai alla pagina **INTERNET**. Connettilo a Internet utilizzando uno dei metodi di connessione supportati: Ethernet, Repeater, Tethering e Cellular.
 
-    Come mostrato di seguito, il router domestico Flint 3 e' collegato al modem dell'ISP (Hong Kong Broadband Network Ltd) tramite un cavo Ethernet.
+    Come mostrato di seguito, il router domestico Flint 3 è collegato al modem dell'ISP (Hong Kong Broadband Network Ltd) tramite un cavo Ethernet.
 
     ![home internet](https://static.gl-inet.com/docs/router/en/4/interface_guide/astrowarp/home_internet.png){class="glboxshadow"}
 
@@ -83,7 +83,7 @@ Flint 3 funzionera' come router di casa, mentre Slate 7 funzionera' come router 
 
     ![use as home](https://static.gl-inet.com/docs/router/en/4/interface_guide/astrowarp/use_at_home.png){class="glboxshadow"}
 
-    Verra' generato un **Access Code**. Copia questo codice per usarlo in seguito.
+    Verrà generato un **Access Code**. Copia questo codice per usarlo in seguito.
 
     ![generate access code](https://static.gl-inet.com/docs/router/en/4/interface_guide/astrowarp/home_generate_code.png){class="glboxshadow"}
 
@@ -91,7 +91,7 @@ Flint 3 funzionera' come router di casa, mentre Slate 7 funzionera' come router 
 
     Accedi al pannello di amministrazione web di Slate 7 e vai alla pagina **INTERNET**. Connettilo a Internet utilizzando uno dei metodi di connessione supportati: Ethernet, Repeater, Tethering e Cellular.
 
-    Come mostrato di seguito, il router da viaggio Slate 7 e' collegato all'hotspot personale di un iPhone 15 Pro (situato a Shenzhen, sulla rete China Unicom Guangdong Province).
+    Come mostrato di seguito, il router da viaggio Slate 7 è collegato all'hotspot personale di un iPhone 15 Pro (situato a Shenzhen, sulla rete China Unicom Guangdong Province).
 
     ![travel internet](https://static.gl-inet.com/docs/router/en/4/interface_guide/astrowarp/travel_internet.png){class="glboxshadow"}
 
@@ -109,39 +109,39 @@ Flint 3 funzionera' come router di casa, mentre Slate 7 funzionera' come router 
 
     ![verifying](https://static.gl-inet.com/docs/router/en/4/interface_guide/astrowarp/verifying.png){class="glboxshadow"}
 
-    A questo punto si connettera' correttamente al router domestico Flint 3. Ora puoi navigare in Internet in modo sicuro tramite la rete di casa.
+    A questo punto si connetterà correttamente al router domestico Flint 3. Ora puoi navigare in Internet in modo sicuro tramite la rete di casa.
 
     ![connected travel](https://static.gl-inet.com/docs/router/en/4/interface_guide/astrowarp/connected_travel.png){class="glboxshadow"}
 
-    Anche nel pannello di amministrazione web di Flint 3 verra' mostrato lo stato della connessione, come illustrato di seguito.
+    Anche nel pannello di amministrazione web di Flint 3 verrà mostrato lo stato della connessione, come illustrato di seguito.
 
     ![connected home](https://static.gl-inet.com/docs/router/en/4/interface_guide/astrowarp/connected_home.png){class="glboxshadow"}
 
-## Test della connettivita'
+## Test della connettività {#test-connectivity}
 
 1. Collega un laptop o uno smartphone al Wi-Fi del router da viaggio Slate 7.
 
 2. Apri un browser e visita [ipcheck.ing](https://ipcheck.ing/){target="_blank"} o un altro sito per verificare l'indirizzo IP.
 
-    Verra' mostrato l'indirizzo IP pubblico di Flint 3, a indicare che Slate 7 sta accedendo a Internet tramite il router domestico Flint 3.
+    Verrà mostrato l'indirizzo IP pubblico di Flint 3, a indicare che Slate 7 sta accedendo a Internet tramite il router domestico Flint 3.
 
     ![ipcheck hk](https://static.gl-inet.com/docs/router/en/4/interface_guide/astrowarp/ipcheck_hk.png){class="glboxshadow"}
 
 3. Disconnetti la connessione AstroWarp su Slate 7, quindi aggiorna la pagina web per inviare di nuovo la richiesta di verifica IP.
 
-    Verra' mostrato l'indirizzo IP pubblico di Slate 7, a indicare che Slate 7 sta accedendo a Internet tramite la propria rete locale.
+    Verrà mostrato l'indirizzo IP pubblico di Slate 7, a indicare che Slate 7 sta accedendo a Internet tramite la propria rete locale.
 
     ![ipcheck sz](https://static.gl-inet.com/docs/router/en/4/interface_guide/astrowarp/ipcheck_sz.png){class="glboxshadow"}
 
-## FAQ
+## FAQ {#faq}
 
-1. **D: Qual e' il formato del codice di accesso dinamico e per quanto tempo resta valido?**
+1. **D: Qual è il formato del codice di accesso dinamico e per quanto tempo resta valido?**
 
-    R: E' un codice di 8 caratteri composto da numeri e lettere maiuscole, valido per 10 minuti.
+    R: È un codice di 8 caratteri composto da numeri e lettere maiuscole, valido per 10 minuti.
 
 2. **D: Cosa succede al router da viaggio se termino la connessione dal router domestico?**
 
-    R: Il router da viaggio si disconnettera' e restera' in stato pending senza accesso alla rete. Quando il router domestico riprendera' la connessione, il router da viaggio potra' riconnettersi automaticamente senza reinserire il codice di accesso.
+    R: Il router da viaggio si disconnetterà e resterà in stato pending senza accesso alla rete. Quando il router domestico riprenderà la connessione, il router da viaggio potrà riconnettersi automaticamente senza reinserire il codice di accesso.
 
 3. **D: In quali scenari il router da viaggio entra in stato pending?**
 
@@ -152,7 +152,7 @@ Flint 3 funzionera' come router di casa, mentre Slate 7 funzionera' come router 
 
 4. **D: A cosa serve il pulsante Reset in alto a destra?**
 
-    R: Cancella tutti i dispositivi autorizzati e riporta alla pagina di selezione del ruolo del router, cosi' da poterlo scegliere nuovamente.
+    R: Cancella tutti i dispositivi autorizzati e riporta alla pagina di selezione del ruolo del router, così da poterlo scegliere nuovamente.
 
 5. **D: Cosa succede al router da viaggio se resetto AstroWarp sul router domestico?**
 

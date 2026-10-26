@@ -1,25 +1,25 @@
-# Collegare la porta 10G SFP+ di Flint 4
+# Collegare la porta 10G SFP+ di Flint 4 {#connecting-the-10g-sfp-port-on-flint-4}
 
 Flint 4 (GL-BE14000) dispone di una porta 10G SFP+ che può funzionare in modalità WAN o LAN. La porta supporta diversi tipi di moduli e cavi SFP+ per connessioni Ethernet in fibra ottica e in rame, inclusi collegamenti in fibra a lunga distanza, cablaggio tradizionale a doppino intrecciato e terminazione avanzata della fibra PON.
 
 Questo articolo descrive tre opzioni di collegamento per la porta SFP+ di Flint 4 (GL-BE14000), inclusi casi d'uso, topologie di connessione, vantaggi e svantaggi, precauzioni e modelli compatibili.
 
-## Soluzione 1. Ricetrasmettitore ottico + cavo in fibra
+## Soluzione 1. Ricetrasmettitore ottico + cavo in fibra {#solution-1-optical-transceiver-fiber-cable}
 
-### 1.1 Scenari
+### 1.1 Scenari {#11-scenarios}
 
 Questa soluzione è indicata per connessioni Ethernet 10G affidabili e a lunga distanza. Gli utilizzi tipici includono:
 
 - Collegamento a un uplink Ethernet 10G in fibra dell'ISP per l'accesso a banda larga ad alta velocità in ambito domestico o commerciale.
 - Realizzazione di collegamenti di rete a lunga distanza, interni o esterni, ad esempio tra Flint 4 e uno switch 10G remoto, tra piani diversi di un'abitazione oppure per la dorsale di rete di un piccolo ufficio.
 
-### 1.2 Topologia
+### 1.2 Topologia {#12-topology}
 
 Porta 10G SFP+ di Flint 4 → Ricetrasmettitore ottico 10G SFP+ standard (SR/MR/LR) → Cavo in fibra ottica → Switch di rete 10G remoto / terminale fibra-Ethernet dell'ISP
 
 ![](https://static.gl-inet.com/docs/router/en/4/faq/connecting_10g_sfp+_port_on_flint4/topology1.png){class="glboxshadow"}
 
-### 1.3 Vantaggi e svantaggi
+### 1.3 Vantaggi e svantaggi {#13-pros-and-cons}
 
 La tabella seguente valuta i principali aspetti relativi a prestazioni e facilità d'uso della soluzione con ricetrasmettitore ottico e cavo in fibra. Le valutazioni a stelle e le note dettagliate sono fornite come riferimento:
 
@@ -32,7 +32,7 @@ La tabella seguente valuta i principali aspetti relativi a prestazioni e facilit
 |Facilità di installazione|★★★☆☆|Richiede conoscenze di base sulle specifiche di accoppiamento della fibra; un'installazione non corretta può causare attenuazione del segnale e richiede competenze leggermente superiori rispetto al cablaggio in rame.|
 |Costo|★★★☆☆|Sono necessari ricetrasmettitori ottici e cavi in fibra aggiuntivi, con un costo complessivo superiore rispetto alle tradizionali soluzioni a doppino intrecciato.|
 
-### 1.4 Precauzioni
+### 1.4 Precauzioni {#14-precautions}
 
 - I moduli PON non possono essere utilizzati con questa soluzione.
 
@@ -40,7 +40,7 @@ La tabella seguente valuta i principali aspetti relativi a prestazioni e facilit
 
 - Questa soluzione supporta esclusivamente servizi ISP Ethernet 10G su fibra e non può essere collegata direttamente alle tradizionali linee in fibra residenziali GPON/XGS-PON.
 
-### 1.5 Modelli compatibili
+### 1.5 Modelli compatibili {#15-compatible-models}
 
 Di seguito sono elencati alcuni ricetrasmettitori ottici standard verificati da GL.iNet e dagli utenti come compatibili con Flint 4. L'elenco è fornito esclusivamente come riferimento.
 
@@ -68,19 +68,19 @@ Di seguito sono elencati alcuni ricetrasmettitori ottici standard verificati da 
 |H!Fiber ASF85-24-X2-D 1000Base-SX 850nm 550m|GL.iNet|
 |Cisco GLC-SX-MMD 10-2626-01 CLASS 1 21CFR1040.10 LN#50|Membro della community|
 
-## Soluzione 2. Modulo da SFP+ a RJ45 (SFP‑10G‑T)
+## Soluzione 2. Modulo da SFP+ a RJ45 (SFP‑10G‑T) {#solution-2-sfp-to-rj45-module-sfp-10g-t}
 
-### 2.1 Scenari
+### 2.1 Scenari {#21-scenarios}
 
 Il modulo SFP-10G-T converte lo slot SFP+ in un'interfaccia RJ45 standard a doppino intrecciato ed è adatto a reti 10G a breve distanza basate su cavi Ethernet tradizionali. Tra gli impieghi tipici figurano il collegamento di Flint 4 a uno switch 10G o a un NAS nelle vicinanze, l'aggiunta di una porta 10G RJ45 senza installare la fibra e la realizzazione di una LAN domestica o SOHO ad alta velocità con il cablaggio a doppino esistente. Questa opzione è adatta a chi necessita di Ethernet 10G ma non dispone di un cablaggio in fibra.
 
-### 2.2 Topologia
+### 2.2 Topologia {#22-topology}
 
 Porta 10G SFP+ di Flint 4 → Modulo da SFP+ a RJ45 (SFP‑10G‑T) → Cavo a doppino intrecciato CAT6A/CAT7 → Switch 10G / dispositivo terminale cablato 10G
 
 ![](https://static.gl-inet.com/docs/router/en/4/faq/connecting_10g_sfp+_port_on_flint4/topology2.png){class="glboxshadow"}
 
-### 2.3 Vantaggi e svantaggi
+### 2.3 Vantaggi e svantaggi {#23-pros-and-cons}
 
 La tabella seguente valuta i principali aspetti relativi a prestazioni e facilità d'uso della soluzione con modulo da SFP+ a RJ45 (SFP‑10G‑T). Le valutazioni a stelle e le note dettagliate sono fornite come riferimento:
 
@@ -93,7 +93,7 @@ La tabella seguente valuta i principali aspetti relativi a prestazioni e facilit
 |Facilità di installazione|★★★★★|Plug-and-play, non richiede la diagnostica del percorso ottico ed è compatibile con le consuete modalità di installazione dei cavi di rete, risultando estremamente semplice da utilizzare.|
 |Costo|★★★★☆|Riutilizza il cablaggio RJ45 esistente senza costi di conversione alla fibra; è sufficiente acquistare separatamente un modulo 10G-T.|
 
-### 2.4 Precauzioni
+### 2.4 Precauzioni {#24-precautions}
 
 - Per una trasmissione 10G stabile, utilizza cavi Ethernet CAT6A o di categoria superiore. I cavi di categoria inferiore possono ridurre la velocità o causare la perdita di pacchetti.
 
@@ -101,7 +101,7 @@ La tabella seguente valuta i principali aspetti relativi a prestazioni e facilit
 
 - Lasciare spazio sufficiente per la dissipazione del calore del modulo SFP‑10G‑T, per evitare guasti dovuti al surriscaldamento.
 
-### 2.5 Modelli compatibili
+### 2.5 Modelli compatibili {#25-compatible-models}
 
 Di seguito sono elencati alcuni moduli da SFP+ a RJ45 verificati da GL.iNet e dagli utenti come compatibili con Flint 4. L'elenco è fornito esclusivamente come riferimento.
 
@@ -119,19 +119,19 @@ Di seguito sono elencati alcuni moduli da SFP+ a RJ45 verificati da GL.iNet e da
 |ONTI OBT-C2GE-R10 SFP 2500Base-TX RJ45 100m|Membro della community|
 |H!Fiber ASF-GE2-T 10/100/1000Base-T SFP SGMII RJ-45 100m|GL.iNet|
 
-## Soluzione 3. Modulo PON‑ONU SFP+
+## Soluzione 3. Modulo PON‑ONU SFP+ {#solution-3-pon-onu-sfp-stick}
 
-### 3.1 Scenari
+### 3.1 Scenari {#31-scenarios}
 
 Il modulo PON‑ONU SFP+ integra tutte le funzioni di un modem ottico ONU, consentendo alla porta SFP+ di Flint 4 di terminare direttamente le tradizionali linee in fibra residenziali GPON/XGS-PON. Questa soluzione elimina la necessità di un modem ottico esterno indipendente e riunisce in un solo dispositivo l'accesso in fibra e l'uscita instradata. È indicata per scenari di rete avanzati destinati agli utenti più esperti, in particolare per chi desidera ridurre il numero di dispositivi nella rete domestica e collegare direttamente al router le linee in fibra PON dell'operatore.
 
-### 3.2 Topologia
+### 3.2 Topologia {#32-topology}
 
 Porta 10G SFP+ di Flint 4 → Modulo PON‑ONU SFP+ → Linea in fibra GPON/XGS-PON dell'ISP (inclusi cavo di derivazione, splitter PON e OLT dell'ISP)
 
 ![](https://static.gl-inet.com/docs/router/en/4/faq/connecting_10g_sfp+_port_on_flint4/topology3.png){class="glboxshadow"}
 
-### 3.3 Vantaggi e svantaggi
+### 3.3 Vantaggi e svantaggi {#33-pros-and-cons}
 
 La tabella seguente valuta i principali aspetti relativi a prestazioni e facilità d'uso della soluzione con modulo PON‑ONU SFP+. Le valutazioni a stelle e le note dettagliate sono fornite come riferimento:
 
@@ -144,7 +144,7 @@ La tabella seguente valuta i principali aspetti relativi a prestazioni e facilit
 |Facilità di installazione|★★☆☆☆|Richiede la conferma preventiva dell'ISP, la configurazione dell'autenticazione SN/PLOAM e l'ottimizzazione della dissipazione del calore; la complessità complessiva dell'installazione è elevata.|
 |Costo|★★★☆☆|Elimina il costo di un modem ottico indipendente, ma comporta potenziali rischi per i servizi, ad esempio l'indisponibilità di IPTV o telefonia e l'assenza di assistenza tecnica ufficiale.|
 
-### 3.4 Precauzioni
+### 3.4 Precauzioni {#34-precautions}
 
 - **Verificare preventivamente l'autorizzazione dell'ISP**: chiedere all'operatore se è consentito collegare alla rete PON hardware ONU di terze parti di proprietà dell'utente e ottenere i parametri di autenticazione obbligatori, inclusi il codice di registrazione SN e la password PLOAM.
 
@@ -154,7 +154,7 @@ La tabella seguente valuta i principali aspetti relativi a prestazioni e facilit
 
 - Ogni operatore applica regole diverse per la whitelist dei modelli. Prima dell'acquisto, verificare quali moduli PON sono supportati dall'operatore.
 
-### 3.5 Modelli compatibili
+### 3.5 Modelli compatibili {#35-compatible-models}
 
 Di seguito sono elencati alcuni moduli PON-ONU SFP+ verificati da GL.iNet e dagli utenti come compatibili con Flint 4. L'elenco è fornito esclusivamente come riferimento.
 

@@ -16,8 +16,6 @@ OpenVPN — протокол VPN із відкритим вихідним код
 
 ---
 
-<span id="setup-openvpn-client"></span>
-
 У вебпанелі адміністрування відкрийте **VPN** -> **OpenVPN Client**.
 
 Якщо у вас є підписка NordVPN, натисніть **NordVPN** для входу. Інакше натисніть **Add Manually**, щоб завантажити файли конфігурації OpenVPN.
@@ -139,8 +137,6 @@ OpenVPN — протокол VPN із відкритим вихідним код
 Якщо у вас два маршрутизатори GL.iNet, налаштуйте один як сервер OpenVPN (потрібна публічна IP-адреса), а інший — як клієнт OpenVPN. Так можна створити власне з’єднання VPN без підписки на сторонні VPN-сервіси.
 
 Налаштування сервера OpenVPN описано [тут](openvpn_server.md).
-
-<span id="get-configuration-files-from-openvpn-service-providers-get-configuration-files-from-openvpn-service-providers"></span>
 
 ## Отримання файлів конфігурації від провайдерів OpenVPN {#get-configuration-files-from-openvpn-service-providers}
 
@@ -519,7 +515,7 @@ OpenVPN — протокол VPN із відкритим вихідним код
 
     [Офіційний сайт](https://go.getproton.me/aff_c?offer_id=26&aff_id=1612){target="_blank"}
 
-    **Proton VPN підтримує WireGuard. Рекомендовано використовувати WireGuard; див. [цей розділ](wireguard_client.md#wireguard-providers)**.
+    **Proton VPN підтримує WireGuard. Рекомендовано використовувати WireGuard; див. [цей розділ](wireguard_client.md)**.
 
     1. Увійдіть у свій обліковий запис [Proton VPN](https://go.getproton.me/aff_c?offer_id=26&aff_id=1612){target="_blank"}.
 
@@ -565,7 +561,7 @@ OpenVPN — протокол VPN із відкритим вихідним код
 
     [Офіційний сайт](https://www.starvpn.com/dashboard/aff.php?aff=91){target="_blank"}
 
-    StarVPN пропонує VPN-сервіс із протоколами OpenVPN і WireGuard. Рекомендовано WireGuard, оскільки він зазвичай швидший за OpenVPN. Див. [цей розділ](wireguard_client.md#starvpn).
+    StarVPN пропонує VPN-сервіс із протоколами OpenVPN і WireGuard. Рекомендовано WireGuard, оскільки він зазвичай швидший за OpenVPN. Див. [цей розділ](wireguard_client.md#set-up-wireguard-client-manually-for-other-providers).
 
     Щоб використовувати OpenVPN, виконайте наведені нижче дії для завантаження файлу конфігурації.
 
@@ -733,7 +729,7 @@ OpenVPN — протокол VPN із відкритим вихідним код
 
     ![Файли конфігурації OpenVPN для ZoogVPN](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/zoogvpn/zoogvpn_openvpn_config_files.png)
 
-    Далі виконайте [інструкцію з налаштування клієнта OpenVPN на маршрутизаторі GL.iNet](#setup-openvpn-client). Ім’я користувача та пароль збігаються з даними для входу на сайт ZoogVPN.
+    Далі виконайте [інструкцію з налаштування клієнта OpenVPN на маршрутизаторі GL.iNet](#set-up-openvpn-client-manually-for-other-providers). Ім’я користувача та пароль збігаються з даними для входу на сайт ZoogVPN.
 
 ---
 

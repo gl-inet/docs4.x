@@ -1,4 +1,4 @@
-# Subnet  
+# Subnet {#subnet}
 
 **Note**: This page is currently available on Flint 4 (GL-BE14000), and will be rolled out to other models with firmware v4.10.
 
@@ -8,7 +8,7 @@ On the left side of the web Admin Panel, go to **NETWORK** -> **Subnet**.
 
 The page consolidates the configuration of **LAN**, **Guest Network**, **IoT Network**, and custom **VLAN Networks** into a single unified view. It provides a centralized management interface for all subnet-related settings, allowing you to create and manage multiple subnets to isolate different types of devices or traffic.
 
-## Main Network
+## Main Network {#main-network}
 
 **Main Network** is the network that your device is connected to via the main Wi-Fi or via an Ethernet cable.
 
@@ -22,7 +22,7 @@ Click **Edit** in the lower-right corner to configure the Main Network.
 
 The configuration page includes Basic settings, DHCP server settings and Address Reservation.
 
-### Basic Settings
+### Basic Settings {#basic-settings}
 
 You can set the subnet within the IPv4 private address ranges: `192.168.0.0/16`, `172.16.0.0/12`, `10.0.0.0/8`.
 
@@ -46,7 +46,7 @@ You can set the subnet within the IPv4 private address ranges: `192.168.0.0/16`,
 
     You can isolate client devices into a separate network segment. These devices will not be able to communicate with other devices on the same network.
 
-### DHCP Server
+### DHCP Server {#dhcp-server}
 
 The **DHCP Server** is enabled by default. The DHCP server automatically assigns IP addresses and other communication parameters to each client devices.
 
@@ -72,7 +72,7 @@ Click **Advanced** for further configuration if needed.
 
 - **LPR Server** (Line Printer Remote Server): A service that manages print jobs and allows network devices to send print requests to remote printers. Multiple LPR printer ports can be configured.
 
-### Address Reservation
+### Address Reservation {#address-reservation}
 
 When you specify a reserved IP address for a client within the LAN, the client always receives the same IP address each time it accesses the router's DHCP server. You can assign reserved IP addresses to computers or servers that require permanent IP settings.
 
@@ -94,7 +94,7 @@ After adding a new IP address reservation, you will get the page as shown below,
 
 ![main network address Reservation 4](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/address-reservation-4.png){class="glboxshadow" width=650}
 
-## Guest Network
+## Guest Network {#guest-network}
 
 The **Guest Network** provides a dedicated Wi-Fi network for visitors. Isolated from the primary network, it enhances security while providing convenient internet access.
 
@@ -110,7 +110,7 @@ Click **Edit** in the lower-right corner, and the Guest Network configuration pa
 
 The configuration page includes Basic settings and DHCP server settings.
 
-### Basic Settings
+### Basic Settings {#basic-settings_1}
 
 You can set the subnet within the IPv4 private address ranges: `192.168.0.0/16`, `172.16.0.0/12`, `10.0.0.0/8`.
 
@@ -146,7 +146,7 @@ You can set the subnet within the IPv4 private address ranges: `192.168.0.0/16`,
   
     - **Block Internet Access**: Blocks all outbound access, including the internet and WAN-side subnets.
 
-### DHCP Server
+### DHCP Server {#dhcp-server_1}
 
 The **DHCP Server** is enabled by default. The DHCP server automatically assigns IP addresses and other communication parameters to each client devices.
 
@@ -172,7 +172,7 @@ Click **Advanced** for further configuration if needed.
 
 - **LPR Server** (Line Printer Remote Server): A service that manages print jobs and allows network devices to send print requests to remote printers. Multiple LPR printer ports can be configured. 
 
-## IoT Network
+## IoT Network {#iot-network}
 
 The IoT Network creates a dedicated Wi-Fi network for IoT devices. Isolated from the primary network, it delivers better compatibility and improved security.
 
@@ -186,7 +186,7 @@ Click **Edit** in the lower-right corner, and the IoT Network configuration pane
 
 ![iot network 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/iot-network-2.png){class="glboxshadow"}
 
-### Basic Settings
+### Basic Settings {#basic-settings_2}
 
 You can set the subnet within the IPv4 private address ranges: `192.168.0.0/16`, `172.16.0.0/12`, `10.0.0.0/8`.
 
@@ -222,7 +222,7 @@ You can set the subnet within the IPv4 private address ranges: `192.168.0.0/16`,
   
     - **Block Internet Access**: Blocks all outbound access, including the internet and WAN-side subnets.
 
-### DHCP Server
+### DHCP Server {#dhcp-server_2}
 
 The **DHCP Server** is enabled by default. The DHCP server automatically assigns IP addresses and other communication parameters to each client devices.
 
@@ -248,7 +248,7 @@ Click **Advanced** for further configuration if needed.
 
 - **LPR Server** (Line Printer Remote Server): A service that manages print jobs and allows network devices to send print requests to remote printers. Multiple LPR printer ports can be configured.
 
-## VLAN Networks
+## VLAN Networks {#vlan-networks}
  
 At the top of the main page, you can create additional **VLAN networks** as needed to isolate different types of devices or visitor traffic.
 
@@ -258,7 +258,7 @@ Click the **+ Add** button on the right side of the page to configure a new netw
 
 ![vlan networks 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/vlan-networks-2.png){class="glboxshadow"}
 
-### Basic Settings
+### Basic Settings {#basic-settings_3}
 
 You can configure the basic **VLAN Networks** information on this page.
 
@@ -298,7 +298,7 @@ You can configure the basic **VLAN Networks** information on this page.
   
     - **Block Internet Access**: Blocks all outbound access, including the internet and WAN-side subnets.
 
-### DHCP Server
+### DHCP Server {#dhcp-server_3}
 
 The **DHCP Server** is enabled by default. The DHCP server automatically assigns IP addresses and other communication parameters to each client devices.
 

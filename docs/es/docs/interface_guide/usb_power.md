@@ -1,4 +1,4 @@
-# USB y alimentación
+# USB y alimentación {#usb-power}
 
 **Nota**: Esta página solo está disponible en **GL-E5800 (Mudi 7)**.
 
@@ -6,7 +6,7 @@ En el lado izquierdo del panel de administración web, vaya a **SYSTEM** -> **US
 
 Esta página le permite configurar ajustes relacionados con USB y la gestión de energía del router, como el protocolo USB, la dirección de alimentación, los tiempos de inactividad y el comportamiento en espera.
 
-## Ajustes de USB
+## Ajustes de USB {#usb-settings}
 
 Esta sección le permite personalizar el comportamiento de los puertos USB del router.
 
@@ -22,7 +22,7 @@ Esta sección le permite personalizar el comportamiento de los puertos USB del r
 
 - **Power Threshold**: Establezca un porcentaje específico de umbral de energía para el puerto USB con el fin de controlar el nivel mínimo de energía necesario para las operaciones USB y ayudar a conservar la batería.
 
-## Ajustes de energía
+## Ajustes de energía {#power-settings}
 
 Esta sección le permite optimizar el consumo energético y el comportamiento del dispositivo.
 

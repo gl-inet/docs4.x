@@ -1,4 +1,4 @@
-# Tor
+# Tor {#tor}
 
 Tor, derivado de **The Onion Router**, es un software gratuito y de código abierto que permite la comunicación anónima. Ayuda a los usuarios a explorar Internet con mayor privacidad. [Más información sobre Tor](https://www.torproject.org/){target="_blank"}.
 
@@ -9,7 +9,7 @@ Tor, derivado de **The Onion Router**, es un software gratuito y de código abie
 - IPv6
 - ADGuard Home.
 
-## Modelos compatibles
+## Modelos compatibles {#supported-models}
 
 ??? "Modelos compatibles"
     - GL-MT6000 (Fortify)
@@ -36,7 +36,7 @@ Tor, derivado de **The Onion Router**, es un software gratuito y de código abie
     - *GL-MT1300 (Beryl)
     - \*GL-E750/E750V2 (Mudi)
 
-    **Nota**: Los modelos marcados con * no admiten Tor de forma nativa, pero los usuarios pueden instalarlo manualmente mediante un plug-in. Haga clic [aquí](#instalacion-manual) para obtener más detalles.
+    **Nota**: Los modelos marcados con * no admiten Tor de forma nativa, pero los usuarios pueden instalarlo manualmente mediante un plug-in. Haga clic [aquí](#manual-install) para obtener más detalles.
 
 ??? "Modelos no compatibles"
     - GL-MG1300 (Mango 2)
@@ -49,7 +49,7 @@ Tor, derivado de **The Onion Router**, es un software gratuito y de código abie
     - GL-B1300 (Convexa-B)
     - GL-X300B (Collie)
 
-## Configuración rápida
+## Configuración rápida {#quick-setup}
 
 En el lado izquierdo del panel de administración web, vaya a **VPN** -> **Tor**.
 
@@ -63,7 +63,7 @@ Comenzará a conectarse. Si su red cumple los requisitos, se mostrará como cone
 
 ![tor connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/tor/connected.png){class="glboxshadow" width="672"}
 
-## Instalación manual
+## Instalación manual {#manual-install}
 
 **Nota**: En algunos modelos, Tor puede instalarse manualmente mediante un plug-in, pero esto puede aumentar la carga de la CPU y ralentizar la respuesta del sistema.
 

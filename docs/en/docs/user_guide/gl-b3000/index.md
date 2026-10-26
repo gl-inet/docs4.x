@@ -1,12 +1,12 @@
-# Marble (GL-B3000) User Guide
+# Marble (GL-B3000) User Guide {#marble-gl-b3000-user-guide}
 
-## Product overview
+## Product overview {#product-overview}
 
 The Marble (GL-B3000) router is an art of its own, cleverly displayed as a photo frame to house your favorite art piece and elevate your living space. Not just a visual delight to the eye, the Marble (GL-B3000) router delivers top-notch performance by featuring Wi-Fi 6 and supporting VPN capabilities.
 
 ![gl-b3000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-b3000/hardware_info/b3000_interface.png){class="glboxshadow"}
 
-## Package contents
+## Package contents {#package-contents}
 
 - 1 x Marble (GL-B3000)
 - 1 x User manual
@@ -21,7 +21,7 @@ The Marble (GL-B3000) router is an art of its own, cleverly displayed as a photo
 
 ![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-b3000/first_time_setup/b3000_unboxing.jpg){class="glboxshadow"}
 
-## How to set up Marble
+## How to set up Marble {#how-to-set-up-marble}
 
 Watch these installation and setup videos or follow the steps below. 
 
@@ -29,11 +29,11 @@ Watch these installation and setup videos or follow the steps below.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-U2WTVYRkPU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Power on
+### 1. Power on {#1-power-on}
 
 Put the two-piece power adapter together. Connect it to your router and plug it into an outlet. It will start up automatically.
 
-### 2. Connect device
+### 2. Connect device {#2-connect-device}
 
 Connect a device (e.g., computer, laptop or smartphone) to the router using Wi-Fi or ethernet cable.
 
@@ -45,11 +45,11 @@ Connect a device (e.g., computer, laptop or smartphone) to the router using Wi-F
 
     On your device, go to Settings -> WLAN, locate your router's Wi-Fi network name in the list of available networks and enter the password. (You can find the default network name and password printed on your router's label.)
 
-### 3. Log in to web Admin Panel
+### 3. Log in to web Admin Panel {#3-log-in-to-web-admin-panel}
 
 Open a web browser, enter `192.168.8.1` in the address bar and log in. Choose your language and set your admin password, then click **Apply**.
 
-### 4. Internet setup
+### 4. Internet setup {#4-internet-setup}
 
 **Note:** The following instructions apply to users configuring the router via the GL.iNet Web Admin Panel. If you prefer using the GL.iNet app, [download the app](https://www.gl-inet.com/app/){target="_blank"} and follow the on-screen instructions.
 
@@ -79,7 +79,7 @@ Configure your Marble using one of the supported internet connection methods: Et
 
 ---
 
-## How to set up a VPN 
+## How to set up a VPN {#how-to-set-up-a-vpn}
 
 A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an additional layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Marble (and other GL.iNet routers) support OpenVPN and WireGuard. Additionally, it also supports Tor.
 
@@ -105,7 +105,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 ---
 
-## Wireless and clients
+## Wireless and clients {#wireless-and-clients}
 
 === "Wireless"
 
@@ -119,7 +119,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     To set up Clients, refer to [Clients](../../interface_guide/clients.md).
 
-## Cloud services
+## Cloud services {#cloud-services}
 
 === "GoodCloud"
 
@@ -133,7 +133,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     AstroWarp is an advanced networking platform designed to provide seamless remote networking and remote device management. Built specifically for GL.iNet router integration, AstroWarp supports comprehensive device management across entire networks, enabling both upper and lower device control. With a focus on network-wide management and future support for hardware-level control, AstroWarp offers a more robust and dependable solution for managing devices and maintaining secure, stable networks.
 
-## Applications
+## Applications {#applications}
 
 === "Plug-ins"
 
@@ -167,7 +167,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 ---
 
-## Network settings
+## Network settings {#network-settings}
 
 === "Firewall"
 
@@ -292,7 +292,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 ---
 
-## System settings
+## System settings {#system-settings}
 
 === "Overview"
 

@@ -4,57 +4,86 @@ hide:
   - toc
 ---
 
-# インターフェースガイド
+# インターフェースガイド {#interface-guide}
 
 ステップごとのガイドで、デバイスやアドオン機能の使い方を学べます。
 
-## インターネット接続
+## インターネット接続 {#internet-connection}
 
 * [インターネットページ](internet.md)
 * [イーサネットケーブルでインターネットに接続する方法](internet_ethernet.md)
 * [リピーターでインターネットに接続する方法](internet_repeater.md)
 * [USBテザリングでインターネットに接続する方法](internet_tethering.md)
 * [セルラーでインターネットに接続する方法](internet_cellular_v4.10.md)
-* [デュアルイーサネットWAN](ethernet_port.md#dual-ethernet-wan)
 
-## ワイヤレス
+## ワイヤレス {#wireless}
 
 * [ワイヤレス](wireless.md)
 
-## Mesh
+## Mesh {#mesh}
 
 * [Mesh](mesh.md)
 
-## クライアント
+## クライアント {#clients}
 
 * [クライアント](clients.md)
 
-## クラウドサービス
+## クラウドサービス {#cloud-services}
 
 * [GL.iNetアカウント](glinet_account.md)
 * [GoodCloud](cloud.md) - 公式クラウドサービスです。
 * [GoodPAS](goodpas.md)
 * [AstroWarp](astrowarp.md)
 
-## VPN
+## VPN {#vpn}
 
 * [VPNダッシュボード](vpn_dashboard.md)
-* [VPNクライアントプロフィール](vpn_client_profile.md)
+* [VPNクライアントプロファイル](vpn_client_profile.md)
 * [OpenVPNクライアントを設定する](openvpn_client.md)
 * [OpenVPNサーバーを設定する](openvpn_server.md)
 * [WireGuardクライアントを設定する](wireguard_client.md)
 * [WireGuardサーバーを設定する](wireguard_server.md)
 * [ExpressVPNアクティベーションガイド](expressvpn_activation_guide.md)
-* [VPNポリシー（ファームウェア v4.7 以前）](vpn_dashboard_v4.7.md#proxy-mode)
-* [VPNポリシー（ファームウェア v4.8 以降）](vpn_dashboard_v4.8.md#policy-mode)
-* [ルーターで NordVPN を設定する方法](openvpn_client.md#set-up-nordvpn)
-* [ルーターで AzireVPN を設定する方法](wireguard_client.md#set-up-azirevpn)
-* [ルーターで Mullvad VPN を設定する方法](wireguard_client.md#set-up-mullvad)
-* [OpenVPN では TCP と UDP のどちらを選ぶべきですか？](../faq/openvpn_tcp_udp.md)
-* [VPNキルスイッチ](../faq/block_non_vpn_traffic.md)
-* [VPNカスケード](../tutorials/how_to_use_vpn_cascading_on_glinet_routers.md)
 
-## アプリケーション
+## ネットワーク {#network}
+
+* [ファイアウォール](firewall.md)
+* [ポートフォワーディング](port_forwarding.md)
+* [マルチWAN](multi-wan.md) - 別のインターネット接続へのフェイルオーバーや、複数インターフェースの同時利用による総帯域幅の拡張を行います。
+* [サブネット](subnet.md)
+* [LAN](lan.md)
+* [ゲストネットワーク](guest_network.md)
+* [IoTネットワーク](iot_network.md)
+* [DNS](dns.md)
+* [イーサネットポート](ethernet_port.md)
+* [IPv6](ipv6.md)
+* [MACアドレス](mac_address.md)
+* [IGMPスヌーピング](igmp_snooping.md) - ルーターでマルチキャスト機能を利用します。
+* [ネットワークモード](network_mode.md)
+* [ドロップインゲートウェイ](drop-in_gateway.md)
+* [ハードウェアアクセラレーション](hardware_acceleration.md)
+* [ネットワークアクセラレーション](network_acceleration.md)
+* [NAT設定](nat_settings.md)
+
+## フロー制御 {#flow-control}
+
+* [ネットワーク品質](network_quality.md)
+* [DPI Engine](dpi_engine.md)
+* [データ統計](data_statistics.md)
+* [コンテンツフィルター](content_filter.md)
+* [QoS（Quality of Service）](qos.md)
+* [SQM（Smart Queue Management）](sqm.md)
+* [ペアレンタルコントロール（v4.9）](parental_control_v4.9.md)
+
+## セキュリティ {#security}
+
+* [セキュリティスキャン](security_scan.md)
+* [ポートフォワーディング](port_forwarding.md)
+* [ACL（アクセス制御リスト）](acl.md)
+* [管理者アクセス](admin_access.md)
+* [NATモード](nat_settings.md)
+
+## アプリケーション {#applications}
 
 * [プラグイン](plugins.md)
 * [DDNS](ddns.md) - 動的IPアドレスに関連する問題を解消します。
@@ -67,60 +96,19 @@ hide:
 * [Tor](tor.md) - 個人のプライバシーを保護します。
 * [eSIM管理](esim_management.md)
 
-## ネットワーク
+## システム {#system}
 
-* [ファイアウォール](firewall.md)
-* [ポートフォワーディング](port_forwarding.md)
-* [マルチWAN](multi-wan.md) - 別のインターネット接続へのフェイルオーバーや、複数インターフェースの同時利用による総帯域幅の拡張を行います。
-* [サブネット](subnet.md)
-* [LAN](lan.md)
-* [ゲストネットワーク](guest_network.md)
-* [IoTネットワーク](iot_network.md)
-* [DNS](dns.md)
-* [イーサネットポート](ethernet_port.md)
-* [ネットワークモード](network_mode.md)
-* [IPv6](ipv6.md)
-* [MACアドレス](mac_address.md)
-* [ドロップインゲートウェイ](drop-in_gateway.md)
-* [IGMPスヌーピング](igmp_snooping.md) - ルーターでマルチキャスト機能を利用します
-* [ハードウェアアクセラレーション](hardware_acceleration.md)
-* [ネットワークアクセラレーション](network_acceleration.md)
-* [NAT設定](nat_settings.md)
-
-## フロー制御
-
-* [ネットワーク品質](network_quality.md)
-* [DPI Engine](dpi_engine.md)
-* [データ統計](data_statistics.md)
-* [コンテンツフィルター](content_filter.md)
-* [QoS（Quality of Service）](qos.md)
-* [SQM（Smart Queue Management）](sqm.md)
-* [ペアレンタルコントロール（v4.9）](parental_control_v4.9.md)
-
-## セキュリティ
-
-* [セキュリティスキャン](security_scan.md)
-* [ポートフォワーディング](port_forwarding.md)
-* [ACL（アクセス制御リスト）](acl.md)
-* [管理者アクセス](admin_access.md)
-* [NATモード](nat_settings.md)
-
-## システム
-
-* [UI言語](ui_languages.md)
 * [システム概要](system_overview.md) - ハードウェアの状態やシステム情報を表示します。
-* Upgrade
-    * [Upgrade](upgrade.md)
-    * [公式ファームウェアのダウンロード方法](../faq/how_to_download_firmware.md)
-    * [3.x からファームウェア 4.x にアップグレードする方法](../faq/upgrade_to_4.md)
-* [スケジュールタスク](scheduled_tasks.md) - LED表示、Wi-Fi状態、再起動のスケジュールを設定します。
 * [管理者パスワードの変更](admin_password.md)
+* [アップグレード](upgrade.md)
+* [スケジュールタスク](scheduled_tasks.md) - LED表示、Wi-Fi状態、再起動のスケジュールを設定します。
 * [ディスプレイ管理](display_management.md)
 * [USB & Power](usb_power.md)
 * [タイムゾーン](time_zone.md)
 * [トグルボタン設定](toggle_button_settings.md)
-* [ログ](log.md)
 * [セキュリティ](security.md)
 * [ファームウェアのリセット](reset_firmware.md)
+* [ログ](log.md)
 * [詳細設定](advanced_settings.md)
+* [UI言語](ui_languages.md)
 * [ヘルプ](help.md)

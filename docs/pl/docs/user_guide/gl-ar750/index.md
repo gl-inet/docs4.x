@@ -1,23 +1,23 @@
-# Przewodnik użytkownika Creta (GL-AR750)
+# Przewodnik użytkownika Creta (GL-AR750) {#creta-gl-ar750-user-guide}
 
-## Przegląd produktu
+## Przegląd produktu {#product-overview}
 
 Creta (GL-AR750) to dwupasmowy podróżny router AC. Jednoczesna obsługa dwóch pasm zapewnia bezprzewodową transmisję do 733Mbps (2.4GHz: 300Mbps + 5GHz: 433Mbps). Creta może przekształcić publiczną sieć w prywatną sieć Wi-Fi do bezpiecznego surfowania. Zewnętrzna pamięć masowa obsługuje karty MicroSD do 128GB. OpenWrt/LEDE i OpenVPN są fabrycznie zainstalowane. Dzięki temu Creta zapewnia użytkownikom dbającym o prywatność szybkie i proste rozwiązanie VPN wykorzystujące nowoczesną kryptografię.
 
 ![ar750 overview](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar750/product_info/ar750_overview.png){class="glboxshadow"}
 
-### Specyfikacja
+### Specyfikacja {#specifications}
 
 [Specyfikacja GL-AR750](https://www.gl-inet.com/products/gl-ar750/#specs){target="_blank"}
 
-## Jak skonfigurować Creta
+## Jak skonfigurować Creta {#how-to-set-up-creta}
 
 Aby skonfigurować Creta, użyj jednej z czterech obsługiwanych metod połączenia z internetem: Ethernet, Repeater, Tethering i Cellular. Obejrzyj ten film instruktażowy lub wykonaj poniższe kroki. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3dm0w5kjAlc?si=3YykOcaz_YK_vp28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <small>(W tym filmie do prezentacji konfiguracji użyto innego routera GL.iNet, ale kroki są takie same dla modelu Creta i innych modeli routerów.)</small>
 
-### 1. Włączenie zasilania
+### 1. Włączenie zasilania {#1-power-on-creta}
 
 Podłącz przewód zasilający Micro USB do portu zasilania routera. Upewnij się, że używasz standardowego zasilacza 5V/2A.
 
@@ -25,7 +25,7 @@ Podłącz przewód zasilający Micro USB do portu zasilania routera. Upewnij si�
 
     Podłączanie karty TF podczas pracy urządzenia nie jest obsługiwane. Jeśli chcesz korzystać z karty TF, włóż ją przed włączeniem routera.
 
-### 2. Podłączenie urządzenia
+### 2. Podłączenie urządzenia {#2-connect-your-device-to-creta}
 
 Podłącz komputer lub urządzenie mobilne do routera przez Wi-Fi albo Ethernet.
 
@@ -37,15 +37,15 @@ Podłącz komputer lub urządzenie mobilne do routera przez Wi-Fi albo Ethernet.
 
     Podłącz urządzenie do portu LAN routera za pomocą kabla Ethernet.
 
-### 3. Konfiguracja internetu
+### 3. Konfiguracja internetu {#3-connect-creta-to-the-internet}
 
 **Uwaga:** Poniższe instrukcje zostały przygotowane dla osób łączących router z internetem przez web Admin Panel. Jeśli chcesz używać aplikacji GL.iNet zamiast web Admin Panel, [pobierz aplikację](https://www.gl-inet.com/app/){target="_blank"} i postępuj zgodnie z instrukcjami wyświetlanymi na ekranie. 
 
-#### 1. Logowanie do panelu administracyjnego
+#### 1. Logowanie do panelu administracyjnego {#1-log-in-to-the-router-web-admin-panel}
 
 W pasku adresu przeglądarki internetowej wpisz `192.168.8.1`. Wybierz język, a następnie kliknij **Next**. Ustaw hasło administratora, a następnie kliknij **Apply**. 
 
-#### 2. Konfiguracja internetu
+#### 2. Konfiguracja internetu {#2-set-up-your-internet-connection-methods}
 
 === "Ethernet"
 
@@ -91,7 +91,7 @@ W pasku adresu przeglądarki internetowej wpisz `192.168.8.1`. Wybierz język, a
 
 ---
 
-## Jak skonfigurować VPN 
+## Jak skonfigurować VPN {#how-to-set-up-a-vpn}
 
 VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między Twoim urządzeniem a serwerem VPN. Zapewnia dodatkową warstwę prywatności i bezpieczeństwa (klient VPN) oraz umożliwia dostęp do sieci zdalnej (serwer VPN). Creta (i inne routery GL.iNet) obsługuje OpenVPN i WireGuard.
 
@@ -111,7 +111,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między Twoim 
 
 ---
 
-## Aplikacje
+## Aplikacje {#more-applications}
 
 === "Plug-ins"
 
@@ -127,7 +127,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między Twoim 
 
 ---
 
-## Ustawienia sieciowe
+## Ustawienia sieciowe {#network-settings}
 
 === "Firewall"
 
@@ -220,7 +220,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między Twoim 
 
     Aby uzyskać szczegółowe instrukcje konfiguracji, zapoznaj się z [IGMP Snooping](../../interface_guide/igmp_snooping.md).
 
-## Ustawienia systemowe
+## Ustawienia systemowe {#system-settings}
 
 === "Overview"
 

@@ -1,8 +1,8 @@
-# Comment acheminer les requêtes DNS du client VPN vers le DNS amont du serveur VPN ?
+# Comment acheminer les requêtes DNS du client VPN vers le DNS amont du serveur VPN ? {#how-to-route-vpn-client-dns-queries-to-the-vpn-servers-upstream-dns}
 
 Ce tutoriel présente les étapes permettant de rediriger toutes les requêtes DNS des clients VPN vers votre serveur DNS auto-hébergé sur le côté LAN de votre routeur principal, en amont du serveur VPN.
 
-## Topologie
+## Topologie {#topology}
 
 Dans ce tutoriel, nous utilisons **Flint 3 (GL-BE9300)** et **Slate 7 (GL-BE3600)** comme exemples. 
 
@@ -16,7 +16,7 @@ Cependant, si vous avez déployé un serveur DNS auto-hébergé (adresse IP `192
 
 ![topology 2](https://static.gl-inet.com/docs/router/en/4/tutorials/route_vpn_dns_to_server_upstream_dns/topology-2.jpg){class="glboxshadow"}
 
-## Configuration
+## Configuration {#setup}
 
 1. Connectez-vous au panneau d'administration web du Flint 3, accédez à **NETWORK** -> **DNS**. Basculez le mode serveur DNS (**DNS Server Mode**) sur **Manual DNS**, puis saisissez l'adresse IP de votre serveur DNS.
 
@@ -50,7 +50,7 @@ Cependant, si vous avez déployé un serveur DNS auto-hébergé (adresse IP `192
 
     ![start client](https://static.gl-inet.com/docs/router/en/4/tutorials/route_vpn_dns_to_server_upstream_dns/start_client.png){class="glboxshadow"}
 
-## Vérifier la résolution DNS
+## Vérifier la résolution DNS {#verify-dns-resolution}
 
 Exécutez la commande suivante pour capturer le trafic DNS sur le client VPN. Elle montrera que tout le trafic DNS du client VPN est envoyé vers le serveur VPN (c'est-à-dire `10.0.0.1` dans cet exemple).
 

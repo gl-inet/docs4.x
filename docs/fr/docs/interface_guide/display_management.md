@@ -1,4 +1,4 @@
-# Gestion de l’affichage
+# Gestion de l’affichage {#display-management}
 
 **Note** : Cette page est disponible uniquement sur les modèles équipés d’un écran tactile.
 
@@ -6,7 +6,7 @@ Sur le côté gauche du panneau d’administration web, allez à **SYSTEM** -> *
 
 Cette page vous permet de gérer l’écran tactile et ses paramètres associés.
 
-## GL-BE14000
+## GL-BE14000 {#gl-be14000}
 
 ![be14000 display](https://static.gl-inet.com/docs/router/en/4/interface_guide/display_management/be14000_display.png){class="glboxshadow"}
 
@@ -17,7 +17,7 @@ Cette page vous permet de gérer l’écran tactile et ses paramètres associés
 - **Screen Always On** : activez ou désactivez cette option pour choisir si l’écran tactile reste allumé en continu ou s’éteint après une période d’inactivité.
 - **Enable Screen Passcode** : activez si nécessaire un code pour l’écran tactile (nombre à 4 chiffres uniquement).
 
-## GL-BE10000
+## GL-BE10000 {#gl-be10000}
 
 ![be10000 display](https://static.gl-inet.com/docs/router/en/4/interface_guide/display_management/be10000_display.png){class="glboxshadow"}
 
@@ -28,7 +28,7 @@ Cette page vous permet de gérer l’écran tactile et ses paramètres associés
 - **Screen Always On** : activez ou désactivez cette option pour choisir si l’écran tactile reste allumé en continu ou s’éteint après une période d’inactivité.
 - **Enable Screen Passcode** : activez si nécessaire un code pour l’écran tactile (nombre à 4 chiffres uniquement).
 
-## GL-BE3600
+## GL-BE3600 {#gl-be3600}
 
 ![be3600 display](https://static.gl-inet.com/docs/router/en/4/interface_guide/display_management/be3600_display.png){class="glboxshadow"}
 
@@ -49,7 +49,7 @@ Cette page vous permet de gérer l’écran tactile et ses paramètres associés
 - **Screen Always On** : activez ou désactivez cette option pour décider si l’écran tactile reste allumé en continu ou s’éteint après une période d’inactivité.
 - **Enable Screen Passcode** : activez si nécessaire un code pour l’écran tactile (nombre à 4 chiffres uniquement).
 
-## GL-E5800
+## GL-E5800 {#gl-e5800}
 
 ![e5800 display](https://static.gl-inet.com/docs/router/en/4/interface_guide/display_management/e5800_display.png){class="glboxshadow"}
 

@@ -1,4 +1,4 @@
-# Podsieć
+# Podsieć {#subnet}
 
 **Uwaga**: Ta strona jest obecnie dostępna na Flint 4 (GL-BE14000) i zostanie udostępniona na innych modelach wraz z firmware v4.10.
 
@@ -8,7 +8,7 @@ Po lewej stronie panelu administracyjnego WWW przejdź do **NETWORK** -> **Subne
 
 Strona łączy konfigurację **LAN**, **Guest Network**, **IoT Network** oraz niestandardowych **VLAN Networks** w jednym widoku. Zapewnia centralny interfejs zarządzania wszystkimi ustawieniami związanymi z podsieciami, umożliwiając tworzenie i zarządzanie wieloma podsieciami w celu izolowania różnych typów urządzeń lub ruchu.
 
-## Sieć główna
+## Sieć główna {#main-network}
 
 **Main Network** to sieć, z którą urządzenie jest połączone przez główne Wi-Fi lub kabel Ethernet.
 
@@ -22,7 +22,7 @@ Kliknij **Edit** w prawym dolnym rogu, aby skonfigurować Main Network.
 
 Strona konfiguracji obejmuje ustawienia podstawowe, ustawienia serwera DHCP oraz rezerwację adresów.
 
-### Ustawienia podstawowe
+### Ustawienia podstawowe {#basic-settings}
 
 Podsieć można ustawić w prywatnych zakresach adresów IPv4: `192.168.0.0/16`, `172.16.0.0/12`, `10.0.0.0/8`.
 
@@ -46,7 +46,7 @@ Podsieć można ustawić w prywatnych zakresach adresów IPv4: `192.168.0.0/16`,
 
     Można odizolować urządzenia klienckie w osobnym segmencie sieci. Urządzenia te nie będą mogły komunikować się z innymi urządzeniami w tej samej sieci.
 
-### Serwer DHCP
+### Serwer DHCP {#dhcp-server}
 
 **DHCP Server** jest domyślnie włączony. Serwer DHCP automatycznie przypisuje adresy IP i inne parametry komunikacji każdemu urządzeniu klienckiemu.
 
@@ -72,7 +72,7 @@ W razie potrzeby kliknij **Advanced**, aby przejść do dalszej konfiguracji.
 
 - **LPR Server** (Line Printer Remote Server): Usługa zarządzająca zadaniami drukowania i umożliwiająca urządzeniom sieciowym wysyłanie żądań drukowania do zdalnych drukarek. Można skonfigurować wiele portów drukarek LPR.
 
-### Rezerwacja adresów
+### Rezerwacja adresów {#address-reservation}
 
 Po określeniu zarezerwowanego adresu IP dla klienta w sieci LAN klient zawsze otrzymuje ten sam adres IP przy każdym dostępie do serwera DHCP routera. Zarezerwowane adresy IP można przypisywać komputerom lub serwerom wymagającym stałych ustawień IP.
 
@@ -94,7 +94,7 @@ Po dodaniu nowej rezerwacji adresu IP zostanie wyświetlona poniższa strona, co
 
 ![main network address Reservation 4](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/address-reservation-4.png){class="glboxshadow" width=650}
 
-## Sieć gościnna
+## Sieć gościnna {#guest-network}
 
 **Guest Network** zapewnia dedykowaną sieć Wi-Fi dla gości. Jest odizolowana od sieci głównej, co zwiększa bezpieczeństwo i jednocześnie zapewnia wygodny dostęp do Internetu.
 
@@ -110,7 +110,7 @@ Kliknij **Edit** w prawym dolnym rogu, a panel konfiguracji Guest Network otworz
 
 Strona konfiguracji obejmuje ustawienia podstawowe i ustawienia serwera DHCP.
 
-### Ustawienia podstawowe
+### Ustawienia podstawowe {#basic-settings_1}
 
 Podsieć można ustawić w prywatnych zakresach adresów IPv4: `192.168.0.0/16`, `172.16.0.0/12`, `10.0.0.0/8`.
 
@@ -146,7 +146,7 @@ Podsieć można ustawić w prywatnych zakresach adresów IPv4: `192.168.0.0/16`,
 
     - **Block Internet Access**: Blokuje cały dostęp wychodzący, w tym Internet i podsieci po stronie WAN.
 
-### Serwer DHCP
+### Serwer DHCP {#dhcp-server_1}
 
 **DHCP Server** jest domyślnie włączony. Serwer DHCP automatycznie przypisuje adresy IP i inne parametry komunikacji każdemu urządzeniu klienckiemu.
 
@@ -172,7 +172,7 @@ W razie potrzeby kliknij **Advanced**, aby przejść do dalszej konfiguracji.
 
 - **LPR Server** (Line Printer Remote Server): Usługa zarządzająca zadaniami drukowania i umożliwiająca urządzeniom sieciowym wysyłanie żądań drukowania do zdalnych drukarek. Można skonfigurować wiele portów drukarek LPR.
 
-## IoT Network
+## IoT Network {#iot-network}
 
 IoT Network tworzy dedykowaną sieć Wi-Fi dla urządzeń IoT. Jest odizolowana od sieci głównej, zapewniając lepszą zgodność i wyższy poziom bezpieczeństwa.
 
@@ -186,7 +186,7 @@ Kliknij **Edit** w prawym dolnym rogu, a panel konfiguracji IoT Network otworzy 
 
 ![iot network 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/iot-network-2.png){class="glboxshadow"}
 
-### Ustawienia podstawowe
+### Ustawienia podstawowe {#basic-settings_2}
 
 Podsieć można ustawić w prywatnych zakresach adresów IPv4: `192.168.0.0/16`, `172.16.0.0/12`, `10.0.0.0/8`.
 
@@ -222,7 +222,7 @@ Podsieć można ustawić w prywatnych zakresach adresów IPv4: `192.168.0.0/16`,
 
     - **Block Internet Access**: Blokuje cały dostęp wychodzący, w tym Internet i podsieci po stronie WAN.
 
-### Serwer DHCP
+### Serwer DHCP {#dhcp-server_2}
 
 **DHCP Server** jest domyślnie włączony. Serwer DHCP automatycznie przypisuje adresy IP i inne parametry komunikacji każdemu urządzeniu klienckiemu.
 
@@ -248,7 +248,7 @@ W razie potrzeby kliknij **Advanced**, aby przejść do dalszej konfiguracji.
 
 - **LPR Server** (Line Printer Remote Server): Usługa zarządzająca zadaniami drukowania i umożliwiająca urządzeniom sieciowym wysyłanie żądań drukowania do zdalnych drukarek. Można skonfigurować wiele portów drukarek LPR.
 
-## VLAN Networks
+## VLAN Networks {#vlan-networks}
 
 U góry strony głównej można w razie potrzeby tworzyć dodatkowe **VLAN networks**, aby izolować różne typy urządzeń lub ruch gości.
 
@@ -258,7 +258,7 @@ Kliknij przycisk **+ Add** po prawej stronie, aby skonfigurować nową sieć.
 
 ![vlan networks 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/vlan-networks-2.png){class="glboxshadow"}
 
-### Ustawienia podstawowe
+### Ustawienia podstawowe {#basic-settings_3}
 
 Na tej stronie można skonfigurować podstawowe informacje dla **VLAN Networks**.
 
@@ -298,7 +298,7 @@ Na tej stronie można skonfigurować podstawowe informacje dla **VLAN Networks**
 
     - **Block Internet Access**: Blokuje cały dostęp wychodzący, w tym Internet i podsieci po stronie WAN.
 
-### Serwer DHCP
+### Serwer DHCP {#dhcp-server_3}
 
 **DHCP Server** jest domyślnie włączony. Serwer DHCP automatycznie przypisuje adresy IP i inne parametry komunikacji każdemu urządzeniu klienckiemu.
 

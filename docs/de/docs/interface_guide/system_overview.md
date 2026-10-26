@@ -1,4 +1,4 @@
-# Systemübersicht
+# Systemübersicht {#system-overview}
 
 Gehen Sie auf der linken Seite des Web-Admin-Panels zu **SYSTEM** -> **Overview**.
 
@@ -13,7 +13,7 @@ Hier sehen Sie ein Beispiel für den GL-MT3000.
 
 ![system overview](https://static.gl-inet.com/docs/router/de/4/interface_guide/system_overview/overview.png){class="glboxshadow"}
 
-## Durchschnittliche CPU-Auslastung
+## Durchschnittliche CPU-Auslastung {#cpu-average-load}
 
 Bei den meisten Modellen ohne Lüfter wird die durchschnittliche CPU-Auslastung wie unten dargestellt angezeigt.
 
@@ -45,7 +45,7 @@ Klicken Sie oben rechts auf das Fan-Symbol, um die **Fan Settings** zu öffnen.
     - GL-MT3000 (Beryl AX)
     - GL-AXT1800 (Slate AX)
 
-## Speicherauslastung
+## Speicherauslastung {#memory-usage}
 
 Bewegen Sie den Mauszeiger über das Diagramm, um die genauen Werte anzuzeigen.
 
@@ -53,19 +53,19 @@ Bewegen Sie den Mauszeiger über das Diagramm, um die genauen Werte anzuzeigen.
 
 ![system overview, memory usage](https://static.gl-inet.com/docs/router/de/4/interface_guide/system_overview/memory_usage.png){class="glboxshadow gl-70-desktop"}
 
-## LED
+## LED {#led}
 
 Wenn Sie auf das Zahnradsymbol klicken, gelangen Sie zu den [Scheduled Tasks](scheduled_tasks.md) für die LED.
 
 ![system overview, memory usage](https://static.gl-inet.com/docs/router/de/4/interface_guide/system_overview/led.png){class="glboxshadow gl-70-desktop"}
 
-## Flash
+## Flash {#flash}
 
 Hier wird der gesamte Flash-Speicher angezeigt, einschließlich des vom System belegten, des von Apps belegten und des noch verfügbaren Speicherplatzes.
 
 ![system overview, flash](https://static.gl-inet.com/docs/router/de/4/interface_guide/system_overview/flash.png){class="glboxshadow"}
 
-## Geräteinformationen
+## Geräteinformationen {#device-info}
 
 Dieser Abschnitt zeigt die grundlegenden Informationen des Geräts an.
 
@@ -73,7 +73,7 @@ Device ID, Geräte-MAC und Geräte-S/N wurden ab Firmware v4.7 hinzugefügt.
 
 ![system overview, device info](https://static.gl-inet.com/docs/router/de/4/interface_guide/system_overview/device_info.jpg){class="glboxshadow gl-80-desktop"}
 
-## Externer Speicher
+## Externer Speicher {#external-storage}
 
 Dieser Abschnitt ist seit v4.5 verfügbar und zeigt die Gesamt- und verfügbare Kapazität des USB-Datenträgers an.
 

@@ -1,4 +1,4 @@
-# Log
+# Log {#log}
 
 On the left side of the web Admin Panel, go to **SYSTEM** -> **Log**.
 

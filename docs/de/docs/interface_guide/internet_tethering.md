@@ -1,10 +1,10 @@
-# Verbindung zum Internet per USB-Tethering herstellen
+# Verbindung zum Internet per USB-Tethering herstellen {#connect-to-the-internet-via-usb-tethering}
 
 Wenn Sie die Netzwerkverbindung Ihres Smartphones per USB-Kabel mit dem Router teilen, nennt man das Tethering. Ein hostloses Modem arbeitet während seiner Einrichtung ebenfalls im Tethering-Modus.
 
 **Hinweis:** Einige Mobilfunkanbieter begrenzen Tethering oder berechnen dafür zusätzliche Gebühren. Wir empfehlen, dies bei Ihrem Anbieter zu prüfen.
 
-## Einrichtung
+## Einrichtung {#setup}
 
 === "iPhone"
 
@@ -68,7 +68,7 @@ Wenn Sie die Netzwerkverbindung Ihres Smartphones per USB-Kabel mit dem Router t
 
     Die offizielle Android-Dokumentation finden Sie unter [Share a mobile connection by hotspot or tethering on Android](https://support.google.com/android/answer/9059108?hl=en#zippy=%2Ctether-by-usb-cable){target="_blank"}
 
-## Warnung
+## Warnung {#warning}
 
 Wenn kein Internetzugang verfügbar ist, wird der entsprechende Warnhinweis angezeigt:
 
@@ -80,7 +80,7 @@ Lösungen:
 
 2. Gehen Sie zur Seite [Multi-WAN](multi-wan.md), um zu prüfen, ob der Internetzugang verfügbar ist.
 
-## Fehlerbehebung
+## Fehlerbehebung {#troubleshooting}
 
 Wenn die Verbindung fehlschlägt, versuchen Sie die folgenden Schritte zur Fehlerbehebung:
     

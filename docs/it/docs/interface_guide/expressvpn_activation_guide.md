@@ -1,4 +1,4 @@
-# Guida all'attivazione di ExpressVPN
+# Guida all'attivazione di ExpressVPN {#expressvpn-activation-guide}
 
 **Nota:** Questa guida si applica solo al router co-branded GL.iNet x ExpressVPN **Fortify (GL-MT6000)**.
 
@@ -10,7 +10,7 @@
 
 Questa guida ti guida attraverso il riscatto del piano ExpressVPN di 12 mesi nel pannello di amministrazione web del router. Copre anche la personalizzazione delle policy VPN in base ai tuoi scenari e requisiti di utilizzo, aiutandoti a usufruire senza sforzo di una connettività Internet crittografata, sicura e ad alta velocità.
 
-## Riscatta il piano ExpressVPN
+## Riscatta il piano ExpressVPN {#redeem-expressvpn-plan}
 
 Accedi al pannello di amministrazione web di Fortify e vai a **VPN** -> **VPN Client Profile**.
 
@@ -40,7 +40,7 @@ Il tuo piano è stato attivato. Torna al pannello di amministrazione web del tuo
 
 ![expressvpn checkout2](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/expressvpn_checkout2.png){class="glboxshadow"}
 
-## Accedi a ExpressVPN
+## Accedi a ExpressVPN {#log-in-to-expressvpn}
 
 Nel pannello di amministrazione web di Fortify, vai su **VPN** -> **VPN Client Profile**.
 
@@ -78,9 +78,9 @@ Ora puoi aggiungere tunnel VPN e configurare le policy VPN in base alle tue esig
 
 ![expressvpn dashboard](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/expressvpn_dashboard.png){class="glboxshadow"}
 
-## Aggiungi tunnel VPN
+## Aggiungi tunnel VPN {#add-vpn-tunnel}
 
-### Passaggi generali
+### Passaggi generali {#general-steps}
 
 Segui i passaggi seguenti per aggiungere il tuo tunnel VPN e configurare i criteri VPN. Se necessario, vedere [Riferimento caso](#case-reference).
 
@@ -129,7 +129,7 @@ Segui i passaggi seguenti per aggiungere il tuo tunnel VPN e configurare i crite
 
 5. Un tunnel VPN è stato aggiunto correttamente. Verrai indirizzato allo **ExpressVPN Dashboard**. Aggiungi altri tunnel VPN se necessario.
 
-### Riferimento al caso
+### Riferimento al caso {#case-reference}
 
 Di seguito sono riportati due casi tipici di configurazione della policy VPN con istruzioni dettagliate per la configurazione come riferimento.
 
@@ -275,7 +275,7 @@ Di seguito sono riportati due casi tipici di configurazione della policy VPN con
 
         Ora tutti i dispositivi utilizzeranno **VPN Tunnel 1** quando accedono a domini specifici e utilizzeranno **VPN Tunnel 2** per tutti gli altri accessi a Internet. Se i tunnel VPN si disconnettono inaspettatamente, l'accesso a Internet per tutti i dispositivi verrà bloccato per impedire perdite DNS e tracciamento IP.
 
-## Kill Switch
+## Kill Switch {#kill-switch}
 
 Il Kill Switch VPN aiuta a impedire che il traffico passi a una connessione Internet non crittografata quando la connessione VPN si interrompe.
 
@@ -289,7 +289,7 @@ Fortify supporta la configurazione Kill Switch per la connessione VPN globale, n
 
 - Per impostare il Kill Switch per ogni singolo tunnel VPN, fare riferimento a [Opzioni tunnel](#tunnel-options).
 
-## Tutto il resto del traffico
+## Tutto il resto del traffico {#all-other-traffic}
 
 Fai clic sull'icona a forma di ingranaggio in alto a destra per impostare la policy per il traffico che non corrisponde al tunnel VPN.
 
@@ -305,7 +305,7 @@ Questa policy controlla se il traffico che non corrisponde a nessuno dei tuoi gr
 
     ![enhanced killswitch](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/enhanced_killswitch.png){class="glboxshadow"}
 
-## Opzioni del tunnel
+## Opzioni del tunnel {#tunnel-options}
 
 Puoi configurare impostazioni avanzate per ciascun tunnel VPN, come VPN Kill Switch, IP Masquerading e MTU.
 
@@ -325,7 +325,7 @@ Fare clic sull'icona a forma di ingranaggio in un gruppo di tunnel e selezionare
 
 - **MTU**: il valore MTU impostato per il tunnel sovrascriverà le impostazioni MTU nel file di configurazione.
 
-## Priorità al tunnel
+## Priorità al tunnel {#tunnel-priority}
 
 Per regolare la priorità del tunnel, fai clic sull'icona a forma di ingranaggio in un gruppo di tunnel e seleziona **Priority**.
 

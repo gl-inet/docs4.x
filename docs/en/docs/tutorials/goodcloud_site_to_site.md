@@ -1,6 +1,6 @@
-# GoodCloud Site to Site
+# GoodCloud Site to Site {#goodcloud-site-to-site}
 
-## Introduction
+## Introduction {#introduction}
 
 GoodCloud Site to Site allows offices in multiple locations to establish secure connections with each other over the internet. It extends the company's network, making computer resources from one location available to employees at other locations across the network.
 
@@ -12,7 +12,7 @@ GoodCloud Site to Site allows offices in multiple locations to establish secure 
 
 **Scenario 3**: For families with IP cameras, Site to Site enables remote access to the device when members are away from home, ensuring easy monitoring from anywhere.
 
-## Conditions
+## Conditions {#conditions}
 
 1. At least two GL.iNet routers are required to build Site to Site network.
 
@@ -22,7 +22,7 @@ GoodCloud Site to Site allows offices in multiple locations to establish secure 
 
 3. It is **NOT** recommended to run Site to Site while the Sub nodes are also running a VPN client / Tailscale / ZeroTier / AstroWarp, as this can make the network configuration particularly complex.
 
-## Build a Site to Site network
+## Build a Site to Site network {#build-a-site-to-site-network}
 
 1. Bind your routers to your GoodCloud account. See [Bind Devices to Cloud](../interface_guide/cloud.md#bind-devices-to-cloud).
 
@@ -72,13 +72,13 @@ GoodCloud Site to Site allows offices in multiple locations to establish secure 
 
     ![detail s2s](https://static.gl-inet.com/goodcloud/docs/detail-s2s-01.png){class="glboxshadow"}
 
-## Testing the Site to Site connection
+## Testing the Site to Site connection {#testing-the-site-to-site-connection}
 
 1. Connect your PC or smartphone to one of the Node in this Site to Site network.
 
 2. Launch a web browser to access another Node's LAN IP. If you can access the login page, the connection between these two nodes is working.
 
-## Route and other options
+## Route and other options {#route-and-other-options}
 
 By default, each node can access other node's LAN. For security reasons, we recommend only opening the IP addresses of specific services.
 

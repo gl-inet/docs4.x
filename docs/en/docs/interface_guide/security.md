@@ -1,4 +1,4 @@
-# Security
+# Security {#security}
 
 **Note**: This page was introduced in firmware v4.5.
 
@@ -6,7 +6,7 @@ On the left side of the web Admin Panel, go to **SYSTEM** -> **Security**.
 
 This page allows you to configure various security settings to protect your network and router from unauthorized access.
 
-## Admin Password
+## Admin Password {#admin-password}
 
 You can change the login password of the web Admin Panel here.
 
@@ -18,7 +18,7 @@ The admin password must meet the following requirements:
 - Letters (case sensitive), numbers and symbols `` ! @ # $ % ^ & * ( ) _ + - = , . > < | ? / \ [ ] { } : ; " ' ` ~ `` are allowed.
 - At least two of uppercase letters, lowercase letters, numbers, and symbols are required.
 
-## Access Control
+## Access Control {#access-control}
 
 The Access Control, also called Local Access Control in firmware v4.7 and earlier, manages access for different management interfaces of the router.
 
@@ -28,7 +28,7 @@ It can prevent scanning and intrusion attempts on the default port and avoid net
 
 ![security_access_control](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/access_control_4.8.png){class="glboxshadow"}
 
-### Admin Panel
+### Admin Panel {#admin-panel}
 
 - **HTTP Port**: Defaults to 80, used for unencrypted HTTP access to the web admin panel.
 
@@ -38,7 +38,7 @@ It can prevent scanning and intrusion attempts on the default port and avoid net
 
 - **Auto-Logout Time**: Set to 5 minutes by default, it automatically logs out idle admin sessions after this duration for security. You can customize the auto-logout time, ranging from 1 minute to 3 hours.
 
-### LuCI
+### LuCI {#luci}
 
 > Note: Please install LuCI on the **Advanced Settings** before setting the access control for it.
 
@@ -48,7 +48,7 @@ It can prevent scanning and intrusion attempts on the default port and avoid net
 
 - **Force HTTPS**: When enabled, access to the LuCI interface is enforced to use a secure HTTPS connection.
 
-### SSH
+### SSH {#ssh}
 
 - **Enable SSH**: It controls whether SSH access to the router is permitted. It is enabled by default.
 
@@ -145,7 +145,7 @@ If you assign a port number that conflicts with a reserved port (or one reserved
     | 6697  | IRC + TLS                                |
     | 10080 | Amanda                                   |
 
-## Remote Access Control
+## Remote Access Control {#remote-access-control}
 
 After enabling remote access, specific locations can be set to allow access, such as enabling remote access to home devices only from the office, sacrificing convenience for improved security.
 
@@ -165,7 +165,7 @@ After enabling remote access, specific locations can be set to allow access, suc
 
 ---
 
-## Open Ports on Router
+## Open Ports on Router {#open-ports-on-router}
 
 The router's services, such as web and FTP, requires their respective ports to be opened on the router in order to be publicly reachable.
 

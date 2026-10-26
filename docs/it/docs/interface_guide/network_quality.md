@@ -1,4 +1,4 @@
-# Qualità della rete
+# Qualità della rete {#network-quality}
 
 **Nota**: questa funzione è stata introdotta nel firmware v4.11.
 
@@ -18,7 +18,7 @@ In questa pagina puoi valutare la connessione Internet tramite il punteggio dell
 
 2. Speedtest è un test di velocità locale eseguito sul router ed è soggetto alle regole di limitazione della velocità di funzioni quali SQM e QoS.
 
-## Punteggio della qualità della rete
+## Punteggio della qualità della rete {#network-quality-score}
 
 Questa sezione mostra il punteggio complessivo della qualità della rete, calcolato in base al punteggio di risposta e al punteggio di affidabilità. Puoi visualizzare separatamente ogni punteggio. Il pannello mostra inoltre metriche correlate, tra cui latenza, jitter e perdita di pacchetti, insieme alle velocità di download e upload in tempo reale espresse in KB/s. Per impostazione predefinita, la dashboard usa `google.com` come destinazione per i controlli della connettività Internet e i test di risoluzione DNS.
 
@@ -36,7 +36,7 @@ Le destinazioni configurate vengono utilizzate per eseguire i test di connettivi
 
 - **DNS Resolution Target**: il dominio risolto durante le verifiche DNS. Vengono interrogati sia i record A (IPv4) sia AAAA (IPv6).
 
-## Speedtest
+## Speedtest {#speedtest}
 
 Questo test di velocità integrato usa Cloudflare Speed Test per misurare le velocità di download e upload, la latenza ping e il bufferbloat. Durante il test vengono visualizzati grafici della velocità in tempo reale.
 

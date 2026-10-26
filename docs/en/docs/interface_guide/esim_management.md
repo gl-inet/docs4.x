@@ -1,4 +1,4 @@
-# eSIM Management
+# eSIM Management {#esim-management}
 
 **Note**: 
 
@@ -6,7 +6,7 @@
 
 2. GL-E5800 (Mudi 7) comes with a built-in eSIM and does not support the GL.iNet physical eSIM card. An eSIM physical card will be recognized as a regular SIM without eSIM functionality on Mudi 7.
 
-## Supported Models
+## Supported Models {#supported-models}
 
 !!! note "Supported Models"
 
@@ -33,7 +33,7 @@
 
     3. **GL-E5800 (Mudi 7)** comes with a built-in eSIM. Therefore, the eSIM physical card will be recognized as a regular SIM card without eSIM functionality on Mudi 7.
 
-## eSIM Management
+## eSIM Management {#esim-management_1}
 
 On the left side of the web Admin Panel, go to **APPLICATIONS** -> **eSIM Management**.
 
@@ -41,7 +41,7 @@ This page allows you to check eSIM physical card status and manage eSIM profiles
 
 ![esim detected](https://static.gl-inet.com/docs/router/en/4/interface_guide/esim_management/esim_detected.png){class="glboxshadow"}
 
-## Current eSIM Status
+## Current eSIM Status {#current-esim-status}
 
 This section displays basic information and details about the currently active eSIM profile.
 
@@ -54,7 +54,7 @@ This section displays basic information and details about the currently active e
 - **eSIM Storage (remain/total):** Available and total storage capacity on the eUICC for storing eSIM profiles.
 - **eSIM Profile Number:** Number of eSIM profiles currently stored on the eUICC. Note that eSIM profiles offered by different carriers vary in size, so the number of profiles that can be stored on the eUICC will also differ.
 
-## eSIM Profile List
+## eSIM Profile List {#esim-profile-list}
 
 This section displays information about the eSIM seed profile and normal profiles. 
 
@@ -64,7 +64,7 @@ This section displays information about the eSIM seed profile and normal profile
 
 - **Normal Profile**: If you purchase an eSIM profile and upload it via a QR code or activation code, the profile will be displayed here.
 
-### Top-up Seed Profile
+### Top-up Seed Profile {#top-up-seed-profile}
 
 GL.iNet provides a preloaded seed profile with 100MB of global data and 1GB of data valid in Europe and the U.S. for initial setup and eSIM profile activation. This plan is designed for downloading new eSIM profiles when you arrive at a destination with no internet access.
 
@@ -78,7 +78,7 @@ In the pop-up window, scan the QR code and follow the instructions to complete y
 
 ![top-up seed profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/esim_management/top-up_seed2.png){class="glboxshadow" width="400"}
 
-### Purchase eSIM Profile
+### Purchase eSIM Profile {#purchase-esim-profile}
 
 You can purchase eSIM profiles from our recommended stores, tested stores, or other third-party eSIM providers.
 
@@ -110,7 +110,7 @@ You can purchase eSIM profiles from our recommended stores, tested stores, or ot
     
     For after-sales support or refunds, please contact the corresponding eSIM provider.
 
-### Upload eSIM Profile
+### Upload eSIM Profile {#upload-esim-profile}
 
 After purchasing an eSIM profile, you will typically receive a QR code (or an activation code). Save this QR code locally, then follow the steps below to upload your eSIM profile.
 
@@ -150,7 +150,7 @@ After purchasing an eSIM profile, you will typically receive a QR code (or an ac
 
     ![esim connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/esim_management/esim_connected.png){class="glboxshadow"}
 
-### Export Log for Support
+### Export Log for Support {#export-log-for-support}
 
 Click **Export Log for Support** to view all eSIM-related logs. If you encounter any issues and require technical support, export the eSIM logs and share them with our support team via email at [support@gl-inet.com](mailto:support@gl-inet.com).
 

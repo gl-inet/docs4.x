@@ -1,4 +1,4 @@
-# Display-Verwaltung
+# Display-Verwaltung {#display-management}
 
 **Hinweis**: Diese Seite ist nur auf Modellen mit Touchscreen verfügbar.
 
@@ -6,7 +6,7 @@ Gehen Sie auf der linken Seite des Web-Admin-Panels zu **SYSTEM** -> **Display M
 
 Auf dieser Seite können Sie das Touchscreen-Display und die dazugehörigen Einstellungen verwalten.
 
-## GL-BE14000
+## GL-BE14000 {#gl-be14000}
 
 ![be14000 display](https://static.gl-inet.com/docs/router/en/4/interface_guide/display_management/be14000_display.png){class="glboxshadow"}
 
@@ -17,7 +17,7 @@ Auf dieser Seite können Sie das Touchscreen-Display und die dazugehörigen Eins
 - **Screen Always On**: Aktivieren oder deaktivieren Sie diese Option, um festzulegen, ob der Touchscreen dauerhaft eingeschaltet bleibt oder sich nach Inaktivität ausschaltet.
 - **Enable Screen Passcode**: Aktivieren Sie bei Bedarf einen Passcode für den Touchscreen (nur eine 4-stellige Zahl).
 
-## GL-BE10000
+## GL-BE10000 {#gl-be10000}
 
 ![be10000 display](https://static.gl-inet.com/docs/router/en/4/interface_guide/display_management/be10000_display.png){class="glboxshadow"}
 
@@ -28,7 +28,7 @@ Auf dieser Seite können Sie das Touchscreen-Display und die dazugehörigen Eins
 - **Screen Always On**: Aktivieren oder deaktivieren Sie diese Option, um festzulegen, ob der Touchscreen dauerhaft eingeschaltet bleibt oder sich nach Inaktivität ausschaltet.
 - **Enable Screen Passcode**: Aktivieren Sie bei Bedarf einen Passcode für den Touchscreen (nur eine 4-stellige Zahl).
 
-## GL-BE3600
+## GL-BE3600 {#gl-be3600}
 
 ![be3600 display](https://static.gl-inet.com/docs/router/en/4/interface_guide/display_management/be3600_display.png){class="glboxshadow"}
 
@@ -49,7 +49,7 @@ Auf dieser Seite können Sie das Touchscreen-Display und die dazugehörigen Eins
 - **Screen Always On**: Aktivieren oder deaktivieren Sie diese Option, um festzulegen, ob der Touchscreen dauerhaft eingeschaltet bleibt oder sich nach Inaktivität ausschaltet.
 - **Enable Screen Passcode**: Aktivieren Sie bei Bedarf einen Passcode für den Touchscreen (nur eine 4-stellige Zahl).
 
-## GL-E5800
+## GL-E5800 {#gl-e5800}
 
 ![e5800 display](https://static.gl-inet.com/docs/router/en/4/interface_guide/display_management/e5800_display.png){class="glboxshadow"}
 

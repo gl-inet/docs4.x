@@ -1,4 +1,4 @@
-# Bark
+# Bark {#bark}
 
 > Ten przewodnik dotyczy firmware v4.9 i nowszego. W przypadku wcześniejszych wersji kliknij [tutaj](parental_control.md#bark-version).
 
@@ -10,7 +10,7 @@ Usługa [Bark](https://www.bark.us/){target="_blank"} pomaga chronić cyfrowy ś
 
 2. Bark i GL.iNet Parental Control nie mogą być włączone jednocześnie, ponieważ może to powodować konflikty.
 
-## Obsługiwane modele
+## Obsługiwane modele {#supported-models}
 
 ??? "Obsługiwane modele"
     - GL-MT6000 (Fortify)
@@ -47,7 +47,7 @@ Usługa [Bark](https://www.bark.us/){target="_blank"} pomaga chronić cyfrowy ś
     - GL-AP1300 (Cirrus)
     - GL-X300B (Collie)
 
-## Szybka konfiguracja
+## Szybka konfiguracja {#quick-setup}
 
 Zaloguj się do webowego panelu administracyjnego routera i przejdź do **APPLICATIONS** -> **Bark**.
 

@@ -1,10 +1,10 @@
-# Impossibile accedere al pannello di amministrazione web
+# Impossibile accedere al pannello di amministrazione web {#cannot-access-web-admin-panel}
 
 A volte potresti non riuscire ad accedere a [http://192.168.8.1](http://192.168.8.1) e quindi non riuscire ad accedere al pannello di amministrazione web. Le cause possibili possono essere diverse.
 
 ![can't access admin](https://static.gl-inet.com/docs/router/en/4/faq/cannot_access_web_admin_panel/cantaccessadmin.jpg){class="glboxshadow"}
 
-## Possibili cause
+## Possibili cause {#the-possible-causes}
 
 * Il computer o il telefono cellulare non è collegato al router.
 * `192.168.8.1` è l'indirizzo IP predefinito del router. Potresti aver modificato questo IP.
@@ -12,7 +12,7 @@ A volte potresti non riuscire ad accedere a [http://192.168.8.1](http://192.168.
 * Un software VPN o proxy gestisce il traffico, rendendo il pannello di amministrazione inaccessibile.
 * Il router è bloccato.
 
-## Controlla i passaggi generali per accedere al pannello di amministrazione web
+## Controlla i passaggi generali per accedere al pannello di amministrazione web {#check-the-general-steps-to-access-web-admin-panel}
 
 1. Accendi il router senza collegarlo ad alcun dispositivo.
 2. Collega il telefono o il laptop al Wi-Fi del router e inserisci la chiave Wi-Fi stampata sull'etichetta del router.
@@ -21,15 +21,15 @@ A volte potresti non riuscire ad accedere a [http://192.168.8.1](http://192.168.
 
 In alternativa, puoi usare [l'app](mobile_app.md) per accedere al router.
 
-## Altri passaggi per risolvere il problema
+## Altri passaggi per risolvere il problema {#other-steps-to-fix-this-issue}
 
-1. [Controlla la connessione](#controlla-la-connessione)
-2. [Controlla IP del router](#controlla-ip-del-router)
-3. [Accedi tramite IP del router](#accedi-tramite-ip-del-router)
+1. [Controlla la connessione](#check-the-connection)
+2. [Controlla IP del router](#check-routers-ip-address)
+3. [Accedi tramite IP del router](#access-the-routers-ip-address)
 
 ---
 
-### Controlla la connessione
+### Controlla la connessione {#check-the-connection}
 
 Se sei collegato tramite cavo Ethernet, assicurati che il collegamento WAN/LAN del router sia corretto:
 
@@ -38,7 +38,7 @@ Se sei collegato tramite cavo Ethernet, assicurati che il collegamento WAN/LAN d
 
 Se sei collegato tramite Wi-Fi, assicurati di aver selezionato sul dispositivo l'SSID corretto e di aver inserito la password corretta.
 
-### Controlla IP del router
+### Controlla IP del router {#check-routers-ip-address}
 
 Segui i passaggi seguenti per controllare l'indirizzo IP del router.
 
@@ -98,7 +98,7 @@ Segui i passaggi seguenti per controllare l'indirizzo IP del router.
     3. Tocca il menu a discesa Advanced. Se ti propone le opzioni Static o Dynamic IPs, seleziona Static
     4. In ogni caso, dovresti vedere l'IP del router sotto Gateway.
 
-### Accedi tramite IP del router
+### Accedi tramite IP del router {#access-the-routers-ip-address}
 
 1. Usa Chrome/Edge/Safari per accedere al pannello di amministrazione del router, per una migliore compatibilità.
 

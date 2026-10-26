@@ -1,4 +1,4 @@
-# Subnetz
+# Subnetz {#subnet}
 
 **Hinweis**: Diese Seite ist derzeit auf Flint 4 (GL-BE14000) verfügbar und wird mit Firmware v4.10 auf weitere Modelle ausgerollt.
 
@@ -8,7 +8,7 @@ Gehen Sie auf der linken Seite des webbasierten Admin Panels zu **NETWORK** -> *
 
 Diese Seite fasst die Konfiguration von **LAN**, **Guest Network**, **IoT Network** und benutzerdefinierten **VLAN Networks** in einer gemeinsamen Ansicht zusammen. Sie bietet eine zentrale Verwaltungsoberfläche für alle subnetzbezogenen Einstellungen, sodass Sie mehrere Subnetze erstellen und verwalten können, um verschiedene Gerätetypen oder Datenverkehr voneinander zu trennen.
 
-## Hauptnetzwerk
+## Hauptnetzwerk {#main-network}
 
 **Main Network** ist das Netzwerk, mit dem Ihr Gerät über das Haupt-Wi-Fi oder per Ethernet-Kabel verbunden ist.
 
@@ -22,7 +22,7 @@ Klicken Sie unten rechts auf **Edit**, um das Main Network zu konfigurieren.
 
 Die Konfigurationsseite enthält Basic settings, DHCP server settings und Address Reservation.
 
-### Basic Settings
+### Basic Settings {#basic-settings}
 
 Sie können das Subnetz innerhalb der privaten IPv4-Adressbereiche `192.168.0.0/16`, `172.16.0.0/12` und `10.0.0.0/8` festlegen.
 
@@ -46,7 +46,7 @@ Sie können das Subnetz innerhalb der privaten IPv4-Adressbereiche `192.168.0.0/
 
     Sie können Client-Geräte in ein separates Netzwerksegment isolieren. Diese Geräte können dann nicht mit anderen Geräten im selben Netzwerk kommunizieren.
 
-### DHCP Server
+### DHCP Server {#dhcp-server}
 
 Der **DHCP Server** ist standardmäßig aktiviert. Er weist jedem Client-Gerät automatisch IP-Adressen und andere Kommunikationsparameter zu.
 
@@ -72,7 +72,7 @@ Klicken Sie bei Bedarf auf **Advanced**, um weitere Einstellungen vorzunehmen.
 
 - **LPR Server** (Line Printer Remote Server): Ein Dienst, der Druckaufträge verwaltet und es Netzwerkgeräten ermöglicht, Druckanforderungen an entfernte Drucker zu senden. Es können mehrere LPR-Druckerports konfiguriert werden.
 
-### Address Reservation
+### Address Reservation {#address-reservation}
 
 Wenn Sie für einen Client im LAN eine reservierte IP-Adresse festlegen, erhält der Client jedes Mal dieselbe IP-Adresse, wenn er auf den DHCP-Server des Routers zugreift. Sie können reservierte IP-Adressen Computern oder Servern zuweisen, die dauerhafte IP-Einstellungen benötigen.
 
@@ -94,7 +94,7 @@ Nach dem Hinzufügen einer neuen IP-Adressreservierung wird die unten gezeigte S
 
 ![main network address Reservation 4](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/address-reservation-4.png){class="glboxshadow" width=650}
 
-## Gastnetzwerk
+## Gastnetzwerk {#guest-network}
 
 Das **Guest Network** stellt ein dediziertes Wi-Fi-Netzwerk für Besucher bereit. Es ist vom primären Netzwerk getrennt, erhöht dadurch die Sicherheit und bietet gleichzeitig bequemen Internetzugang.
 
@@ -110,7 +110,7 @@ Klicken Sie unten rechts auf **Edit**. Das Konfigurationspanel für Guest Networ
 
 Die Konfigurationsseite enthält Basic settings und DHCP server settings.
 
-### Basic Settings
+### Basic Settings {#basic-settings_1}
 
 Sie können das Subnetz innerhalb der privaten IPv4-Adressbereiche `192.168.0.0/16`, `172.16.0.0/12` und `10.0.0.0/8` festlegen.
 
@@ -146,7 +146,7 @@ Sie können das Subnetz innerhalb der privaten IPv4-Adressbereiche `192.168.0.0/
 
     - **Block Internet Access**: Blockiert sämtlichen ausgehenden Zugriff, einschließlich Internet und WAN-seitiger Subnetze.
 
-### DHCP Server
+### DHCP Server {#dhcp-server_1}
 
 Der **DHCP Server** ist standardmäßig aktiviert. Er weist jedem Client-Gerät automatisch IP-Adressen und andere Kommunikationsparameter zu.
 
@@ -172,7 +172,7 @@ Klicken Sie bei Bedarf auf **Advanced**, um weitere Einstellungen vorzunehmen.
 
 - **LPR Server** (Line Printer Remote Server): Ein Dienst, der Druckaufträge verwaltet und es Netzwerkgeräten ermöglicht, Druckanforderungen an entfernte Drucker zu senden. Es können mehrere LPR-Druckerports konfiguriert werden.
 
-## IoT Network
+## IoT Network {#iot-network}
 
 IoT Network erstellt ein dediziertes Wi-Fi-Netzwerk für IoT-Geräte. Es ist vom primären Netzwerk getrennt und bietet bessere Kompatibilität sowie höhere Sicherheit.
 
@@ -186,7 +186,7 @@ Klicken Sie unten rechts auf **Edit**. Das Konfigurationspanel für IoT Network 
 
 ![iot network 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/iot-network-2.png){class="glboxshadow"}
 
-### Basic Settings
+### Basic Settings {#basic-settings_2}
 
 Sie können das Subnetz innerhalb der privaten IPv4-Adressbereiche `192.168.0.0/16`, `172.16.0.0/12` und `10.0.0.0/8` festlegen.
 
@@ -222,7 +222,7 @@ Sie können das Subnetz innerhalb der privaten IPv4-Adressbereiche `192.168.0.0/
 
     - **Block Internet Access**: Blockiert sämtlichen ausgehenden Zugriff, einschließlich Internet und WAN-seitiger Subnetze.
 
-### DHCP Server
+### DHCP Server {#dhcp-server_2}
 
 Der **DHCP Server** ist standardmäßig aktiviert. Er weist jedem Client-Gerät automatisch IP-Adressen und andere Kommunikationsparameter zu.
 
@@ -248,7 +248,7 @@ Klicken Sie bei Bedarf auf **Advanced**, um weitere Einstellungen vorzunehmen.
 
 - **LPR Server** (Line Printer Remote Server): Ein Dienst, der Druckaufträge verwaltet und es Netzwerkgeräten ermöglicht, Druckanforderungen an entfernte Drucker zu senden. Es können mehrere LPR-Druckerports konfiguriert werden.
 
-## VLAN Networks
+## VLAN Networks {#vlan-networks}
 
 Oben auf der Hauptseite können Sie bei Bedarf zusätzliche **VLAN networks** erstellen, um verschiedene Gerätetypen oder Besucherdatenverkehr voneinander zu trennen.
 
@@ -258,7 +258,7 @@ Klicken Sie rechts auf der Seite auf **+ Add**, um ein neues Netzwerk zu konfigu
 
 ![vlan networks 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/vlan-networks-2.png){class="glboxshadow"}
 
-### Basic Settings
+### Basic Settings {#basic-settings_3}
 
 Auf dieser Seite können Sie die grundlegenden Informationen für **VLAN Networks** konfigurieren.
 
@@ -298,7 +298,7 @@ Auf dieser Seite können Sie die grundlegenden Informationen für **VLAN Network
 
     - **Block Internet Access**: Blockiert sämtlichen ausgehenden Zugriff, einschließlich Internet und WAN-seitiger Subnetze.
 
-### DHCP Server
+### DHCP Server {#dhcp-server_3}
 
 Der **DHCP Server** ist standardmäßig aktiviert. Er weist jedem Client-Gerät automatisch IP-Adressen und andere Kommunikationsparameter zu.
 

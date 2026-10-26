@@ -1,4 +1,4 @@
-# Set Up WireGuard Server on GL.iNet Routers
+# Set Up WireGuard Server on GL.iNet Routers {#set-up-wireguard-server-on-glinet-routers}
 
 WireGuard® is an extremely simple yet fast and modern VPN that utilizes state-of-the-art cryptography. It aims to be faster, simpler, leaner, and more useful than IPSec, while avoiding the massive headache. It intends to be considerably more performant than OpenVPN.
 
@@ -6,7 +6,7 @@ To set up WireGuard server on a GL.iNet router, watch this video or refer to the
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jvc-CNmXfuM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Make sure you have a public IP address
+## Make sure you have a public IP address {#make-sure-you-have-a-public-ip-address}
 
 Please click [here](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md) to check if your Internet Service Provider assigns you a public IP address.
 
@@ -18,7 +18,7 @@ Alternative methods:
 2. Ask your ISP for a public IP address. This may incur an extra fee.
 3. If the above two methods don't work (e.g., if your network is behind CGNAT), you may try our SD-WAN solution [AstroWarp](https://www.astrowarp.net/){target="_blank"}. 
 
-## Confirm if Port Forwarding is required
+## Confirm if Port Forwarding is required {#confirm-if-port-forwarding-is-required}
 
 **Network Topology**
 
@@ -32,7 +32,7 @@ Alternative methods:
     
     * If a primary router is already in use and the GL.iNet router is several levels below the primary router, configure [port forwarding](../tutorials/how_to_set_up_port_forwarding.md) on each intermediate level.
 
-## Set up WireGuard Server
+## Set up WireGuard Server {#set-up-wireguard-server}
 
 Log in to the web Admin Panel, and navigate to **VPN** -> **WireGuard Server**.
 
@@ -112,9 +112,9 @@ Log in to the web Admin Panel, and navigate to **VPN** -> **WireGuard Server**.
 
     ![wireguard server status](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/wgserver_status.png){class="glboxshadow"}
 
-## Check if WireGuard Server is working properly
+## Check if WireGuard Server is working properly {#check-if-wireguard-server-is-working-properly}
 
-### Verify Server status
+### Verify Server status {#verify-server-status}
 
 Since firmware v4.8, you can check the server connection status on the **WireGuard Server** page. 
 
@@ -128,7 +128,7 @@ If it shows 0 traffic and 0 client, it means that there's no WireGuard client co
 
 For firmware v4.7 and earlier, please check the server connection status on the **VPN Dashboard** page.
 
-### Verify Client's IP
+### Verify Client's IP {#verify-clients-ip}
 
 Verify a successful connection to the server: Import the previously exported WireGuard configuration to a device on a different network (not the same local network as the server). Then open a web browser, search for your IP address and location. If they match the VPN server's IP (instead of your Internet service provider's IP) and location, the VPN connection is successful.
 
@@ -141,7 +141,7 @@ If the connection fails, there are several common reasons:
 * The port used for the WireGuard Server is blocked by your Internet Service Provider. Change to another port, or contact the Internet Service Provider for further assistance.
 * Some countries/regions may block the VPN connection.
 
-## Server Options
+## Server Options {#server-options}
 
 Server Options include some advanced settings on the server side, such as remote access server's LAN, IP Masquerading, etc. Configure these settings according to your needs.
 
@@ -171,7 +171,7 @@ In the pop-up window, you will see the following features.
 
     Note that Client‑to‑Client only advertises each client's tunnel IP address. It does not automatically expose the local LAN subnets behind each VPN client. If you need to grant clients access to each other's LAN subnets, please add routing rules on the VPN server to advertise those remote LAN subnets.
 
-## WireGuard App Install
+## WireGuard App Install {#wireguard-app-install}
 
 Please download the WireGuard App from [WireGuard Official Website](https://www.wireguard.com/install){target="_blank"}.
 

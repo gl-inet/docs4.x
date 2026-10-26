@@ -1,4 +1,4 @@
-# Impossibile rilevare l'hotspot 5G di iPhone
+# Impossibile rilevare l'hotspot 5G di iPhone {#cannot-scan-iphone-5g-hotspot}
 
 Controlla le impostazioni dell'hotspot sul tuo iPhone e disattiva **Maximise Compatibility**.
 

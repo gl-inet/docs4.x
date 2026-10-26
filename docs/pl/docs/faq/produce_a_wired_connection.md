@@ -1,4 +1,4 @@
-# Jak podłączyć do Wi-Fi urządzenie obsługujące tylko Ethernet za pomocą routera GL.iNet?
+# Jak podłączyć do Wi-Fi urządzenie obsługujące tylko Ethernet za pomocą routera GL.iNet? {#how-to-connect-an-ethernet-only-device-to-wi-fi-with-a-glinet-router}
 
 Jeśli Twoje urządzenie obsługuje wyłącznie połączenie Ethernet, ale musi połączyć się z siecią bezprzewodową, router GL.iNet może pomóc w połączeniu obu tych światów.
 

@@ -1,4 +1,4 @@
-# So verbinden Sie Surfshark mit einer dedizierten IP auf GL.iNet-Routern
+# So verbinden Sie Surfshark mit einer dedizierten IP auf GL.iNet-Routern {#how-to-connect-to-surfshark-with-a-dedicated-ip-on-glinet-routers}
 
 Dieser Artikel beschreibt die Schritte zum Einrichten einer Surfshark-Verbindung mit dedizierter IP auf GL.iNet-Routern.
 

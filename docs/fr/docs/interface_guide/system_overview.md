@@ -1,4 +1,4 @@
-# Vue d'ensemble du système
+# Vue d'ensemble du système {#system-overview}
 
 Dans la partie gauche du panneau d'administration web, accédez à **SYSTEM** -> **Overview**.
 
@@ -13,7 +13,7 @@ Voici un exemple avec le GL-MT3000.
 
 ![system overview](https://static.gl-inet.com/docs/router/en/4/interface_guide/system_overview/overview.png){class="glboxshadow"}
 
-## Charge moyenne du CPU
+## Charge moyenne du CPU {#cpu-average-load}
 
 Pour la plupart des modèles sans ventilateur, la charge moyenne du CPU s'affiche comme ci-dessous.
 
@@ -45,7 +45,7 @@ Cliquez sur l'icône du ventilateur en haut à droite pour accéder aux paramèt
     - GL-MT3000 (Beryl AX)
     - GL-AXT1800 (Slate AX)
 
-## Utilisation de la mémoire
+## Utilisation de la mémoire {#memory-usage}
 
 Survolez le graphique pour afficher les valeurs détaillées.
 
@@ -53,19 +53,19 @@ Survolez le graphique pour afficher les valeurs détaillées.
 
 ![system overview, memory usage](https://static.gl-inet.com/docs/router/en/4/interface_guide/system_overview/memory_usage.png){class="glboxshadow gl-70-desktop"}
 
-## LED
+## LED {#led}
 
 Cliquez sur l'icône d'engrenage pour accéder aux [Scheduled Tasks](scheduled_tasks.md) des LED.
 
 ![system overview, memory usage](https://static.gl-inet.com/docs/router/en/4/interface_guide/system_overview/led.png){class="glboxshadow gl-70-desktop"}
 
-## Flash
+## Flash {#flash}
 
 Cette section affiche la capacité totale de la mémoire flash, y compris l'espace utilisé par le système, l'espace utilisé par les applications et l'espace disponible restant.
 
 ![system overview, flash](https://static.gl-inet.com/docs/router/en/4/interface_guide/system_overview/flash.png){class="glboxshadow"}
 
-## Informations sur l'appareil
+## Informations sur l'appareil {#device-info}
 
 Cette section affiche les informations de base de l'appareil.
 
@@ -73,7 +73,7 @@ L'ID de l'appareil, l'adresse MAC de l'appareil et le numéro de série sont dis
 
 ![system overview, device info](https://static.gl-inet.com/docs/router/en/4/interface_guide/system_overview/device_info.jpg){class="glboxshadow gl-80-desktop"}
 
-## Stockage externe
+## Stockage externe {#external-storage}
 
 Cette section, disponible depuis la v4.5, affiche la capacité totale et la capacité disponible du disque USB.
 

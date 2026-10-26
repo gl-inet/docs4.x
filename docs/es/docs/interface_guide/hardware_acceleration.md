@@ -1,4 +1,4 @@
-# Aceleración por hardware
+# Aceleración por hardware {#hardware-acceleration}
 
 **Nota**: Esta guía se aplica al firmware v4.2 y anteriores. Para versiones más recientes, consulte [Network Acceleration](network_acceleration.md).
 
@@ -8,7 +8,7 @@ La aceleración por hardware, a veces llamada _hardware NAT_, _flow offloading_ 
 
 Cuando la aceleración por hardware está habilitada, las siguientes funciones no funcionan correctamente: Client Speed and Traffic Statistics y Client Speed Limit.
 
-## Modelos compatibles
+## Modelos compatibles {#supported-models}
 
 ??? "Modelos compatibles"
     - GL-MT6000 (Fortify)
@@ -44,7 +44,7 @@ Cuando la aceleración por hardware está habilitada, las siguientes funciones n
     - GL-B1300 (Convexa-B)
     - GL-X300B (Collie)
 
-## Configuración rápida
+## Configuración rápida {#quick-setup}
 
 En el lado izquierdo del panel de administración web, vaya a **NETWORK** -> **Hardware Acceleration**.
 
@@ -54,7 +54,7 @@ Active el interruptor para habilitar la función y haga clic en Apply.
 
 ---
 
-## Hardware NAT frente a Software NAT
+## Hardware NAT frente a Software NAT {#hardware-nat-vs-software-nat}
 
 - Si lo que más le importa es el rendimiento, por ejemplo banda ancha de varios gigabits, y no necesita SQM en el router ni limitación por cliente, habilite Hardware NAT o Network Acceleration. Esto ofrece el mayor rendimiento y el menor uso de CPU.
 

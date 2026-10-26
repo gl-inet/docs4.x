@@ -1,4 +1,4 @@
-# Dlaczego otrzymuję komunikat podczas testu DDNS?
+# Dlaczego otrzymuję komunikat podczas testu DDNS? {#why-do-i-get-a-message-from-ddns-test}
 
 Po uruchomieniu testu DDNS na stronie Dynamic DNS możesz otrzymać komunikat pokazany poniżej.
 

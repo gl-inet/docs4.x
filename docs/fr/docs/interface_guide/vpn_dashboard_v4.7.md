@@ -1,4 +1,4 @@
-# Tableau de bord VPN (firmware v4.7 et antérieur)
+# Tableau de bord VPN (firmware v4.7 et antérieur) {#vpn-dashboard-firmware-v47-and-earlier}
 
 Le contenu de cette page est basé sur les versions de firmware v4.7.x et antérieures. Si votre appareil utilise une autre version du firmware, utilisez le sélecteur ci-dessous pour passer au guide correspondant.
 
@@ -14,11 +14,11 @@ Connectez-vous au panneau d'administration web et accédez à **VPN** -> **VPN D
 
 La page du tableau de bord VPN affiche les détails de la connexion VPN, tels que l'adresse du serveur, les statistiques de trafic, l'IP virtuelle du client et le journal de connexion. Elle permet également de configurer des paramètres avancés tels que le Kill Switch VPN, la politique VPN, le masquage IP, le MTU et VPN Cascading.
 
-Cette page est divisée en deux sections : [Client VPN](#client-vpn) et [Serveur VPN](#serveur-vpn).
+Cette page est divisée en deux sections : [Client VPN](#vpn-client) et [Serveur VPN](#vpn-server).
 
 ![tableau de bord VPN](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/vpn_dashboard_initial.png){class="glboxshadow"}
 
-## Client VPN
+## Client VPN {#vpn-client}
 
 Lorsque vous ouvrez cette page pour la première fois, si aucun fichier de configuration n'est disponible pour OpenVPN et WireGuard, la page s'affiche comme ci-dessous. Cliquez sur **Set Up Now** pour être redirigé vers la page [OpenVPN Client](openvpn_client.md) ou [WireGuard Client](wireguard_client.md) afin de téléverser votre fichier de configuration VPN.
 
@@ -28,7 +28,7 @@ Une fois le fichier téléversé, votre configuration s'affiche dans la colonne 
 
 ![fichiers de configuration VPN](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/vpnclient_config.png){class="glboxshadow"}
 
-### Options du client
+### Options du client {#client-options}
 
 Cliquez sur l'icône d'engrenage à droite pour accéder aux options du client OpenVPN ou WireGuard.
 
@@ -50,9 +50,13 @@ Les options du client WireGuard s'affichent comme suit.
 
 - **IP Masquerading** : si cette option est activée, les adresses IP source des clients LAN seront réécrites avec l'adresse IP du tunnel VPN du routeur. Désactivez cette option uniquement pour les configurations site à site où le pair distant connaît vos sous-réseaux LAN.
 
+    Comme illustré ci-dessous, lorsque le masquage IP est activé et que l'ordinateur portable (192.168.10.200) du LAN de voyage envoie du trafic à travers le tunnel vers le NAS domestique (192.168.8.100), le routeur de voyage remplace l'adresse IP source `192.168.10.200` par l'adresse du tunnel du client VPN, `10.1.0.2`. Le côté serveur voit ainsi le trafic comme provenant du client et non du LAN local du client.
+
+    ![ip masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/ip_masquerading.png){class="glboxshadow"}
+
 - **MTU** : abréviation de Maximum Transmission Unit. Ce paramètre facultatif vous permet de personnaliser le MTU du tunnel VPN, ce qui remplace la valeur définie dans le fichier de configuration.
 
-### Mode proxy
+### Mode proxy {#proxy-mode}
 
 Le mode proxy par défaut pour la connexion VPN est **Global Proxy**. Vous pouvez cliquer sur la zone en haut à droite pour passer à un autre mode proxy.
 
@@ -90,7 +94,7 @@ Trois modes proxy sont disponibles : **Global Proxy**, **Policy Mode** et **Rout
 
         Vous pouvez configurer manuellement les règles de routage pour chaque instance de client VPN.
 
-### Options globales
+### Options globales {#global-options}
 
 Cliquez sur **Global Options** en haut à droite pour configurer les paramètres avancés de votre client VPN.
 
@@ -124,7 +128,7 @@ Cliquez sur **Global Options** en haut à droite pour configurer les paramètres
 
 - **Services From GL.iNet Use VPN** : si cette option est activée, les services GoodCloud, DDNS et rtty transmettront leurs paquets via les tunnels VPN. Cette option est désactivée par défaut, car ces services ont normalement besoin de la véritable adresse IP de l'appareil pour fonctionner correctement.
 
-## Serveur VPN
+## Serveur VPN {#vpn-server}
 
 Si le routeur n'a jamais été configuré comme serveur OpenVPN ou WireGuard, la page s'affichera comme ci-dessous. Cliquez sur **Set Up Now** pour être redirigé vers la page **OpenVPN Server** ou **WireGuard Server** afin d'initialiser votre serveur VPN.
 
@@ -134,7 +138,7 @@ Après l'activation du serveur OpenVPN ou WireGuard, la page affichera l'état d
 
 ![serveur VPN activé](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/vpnserver_connected.png){class="glboxshadow"}
 
-### Options du serveur
+### Options du serveur {#server-options}
 
 Cliquez sur l'icône d'engrenage à droite pour accéder aux options du serveur OpenVPN ou WireGuard.
 
@@ -152,11 +156,15 @@ Les options du serveur WireGuard s'affichent comme suit.
 
 * **IP Masquerading** : si cette option est activée, les adresses IP source des clients LAN seront réécrites avec l'adresse IP du tunnel VPN du routeur. Désactivez cette option uniquement pour les configurations site à site où le pair distant connaît vos sous-réseaux LAN.
 
+    Comme illustré ci-dessous, lorsque le masquage IP est activé et que le NAS (192.168.8.100) du LAN domestique envoie du trafic à travers le tunnel vers l'ordinateur portable (192.168.10.200) du LAN de voyage, le routeur domestique remplace l'adresse IP source `192.168.8.100` par l'adresse du tunnel du serveur VPN, `10.1.0.1`. Le côté distant voit ainsi le trafic comme provenant du serveur et non du LAN local du serveur.
+
+    ![ip masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/ip_masquerading.png){class="glboxshadow"}
+
 * **MTU** : abréviation de Maximum Transmission Unit. La valeur MTU que vous définissez pour le tunnel remplacera les paramètres MTU du fichier de configuration.
 
 * **Client to Client** : si cette option est activée, les clients VPN connectés à ce serveur peuvent accéder les uns aux autres via leurs adresses IP de tunnel VPN. Si vous souhaitez également permettre aux clients d'accéder aux sous-réseaux LAN des autres clients, le serveur VPN doit annoncer les routes correspondantes vers ces sous-réseaux LAN distants.
 
-### Règles de routage du serveur
+### Règles de routage du serveur {#server-route-rule}
 
 Cliquez sur l'icône de route à droite pour personnaliser les règles de routage OpenVPN ou WireGuard selon vos besoins.
 
@@ -172,7 +180,7 @@ Les règles de routage du serveur WireGuard s'affichent comme suit. Cliquez sur 
 
 **Remarque** : en mode routes personnalisées, le client VPN ignore le fichier de configuration et la configuration de routage envoyée par le serveur. L'utilisation ou non du tunnel VPN chiffré lors de l'accès à un segment réseau dépend des règles de routage que vous définissez manuellement.
 
-### Options globales
+### Options globales {#global-options_1}
 
 Cliquez sur **Global Options** en haut à droite pour configurer les paramètres avancés de votre serveur VPN.
 

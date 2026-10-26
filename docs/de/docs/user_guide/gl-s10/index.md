@@ -1,10 +1,10 @@
-# GL-S10 Benutzerhandbuch
+# GL-S10 Benutzerhandbuch {#gl-s10-user-guide}
 
-## Hardwareinformationen
+## Hardwareinformationen {#hardware-info}
 
 [GL-S10 specifications](https://www.gl-inet.com/products/gl-s10/#specs){target="_blank"}
 
-## GPIO-Liste
+## GPIO-Liste {#gpio-list}
 
 | ESP32-WROOM-32U GPIO Labeling | SIGNAL        | FUNCTION                                                     |
 | ----------------------------- | ------------- | ------------------------------------------------------------ |
@@ -41,7 +41,7 @@
 | GPIO36                        | GPIO36        | NC                                                           |
 | GPIO39                        | GPIO39        | NC                                                           |
 
-## PCB-Pinbelegung
+## PCB-Pinbelegung {#pcb-pinout}
 
 <div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
   <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
@@ -53,18 +53,18 @@
 
 ---
 
-## Erste Einrichtung
+## Erste Einrichtung {#first-time-setup}
 
 Bitte lesen Sie in der IoT-Dokumentation die Seite [GL-S10](https://docs.gl-inet.com/iot/en/ble_proxy/gl-s10/){target="_blank"}.
 
 ---
 
-## Benutzerhandbuch
+## Benutzerhandbuch {#user-manual}
 
 Bitte lesen Sie in der IoT-Dokumentation das [Benutzerhandbuch](https://docs.gl-inet.com/iot/en/ble_proxy/gl-s10/user_manual/){target="_blank"}.
 
 ---
 
-## Anleitung zur Firmware-Kompilierung
+## Anleitung zur Firmware-Kompilierung {#firmware-compilation-guide}
 
 Bitte lesen Sie in der IoT-Dokumentation die [Anleitung zur Firmware-Kompilierung](https://docs.gl-inet.com/iot/en/ble_proxy/gl-s10/firmware_compilation_guide/){target="_blank"}.

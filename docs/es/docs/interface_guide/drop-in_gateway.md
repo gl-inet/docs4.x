@@ -1,4 +1,4 @@
-# Drop-in Gateway
+# Drop-in Gateway {#drop-in-gateway}
 
 En el lado izquierdo del panel de administración web, vaya a **NETWORK** -> **Drop-in Gateway**.
 
@@ -10,7 +10,7 @@ Drop-in Gateway es una función de ampliación que permite añadir capacidades a
 
 Se recomienda utilizar un router o gateway de seguridad de mayor rendimiento y con memoria suficiente, por ejemplo GL-MT2500 o GL-MT5000, e instalar herramientas adicionales de control y reenvío de tráfico según sea necesario.
 
-## Topología de red
+## Topología de red {#network-topology}
 
 Drop-in Gateway funciona como un sistema de red intermedio, encaminando el tráfico de datos de los dispositivos cliente a través del router GL.iNet para su procesamiento antes de transmitirlo por medio del router principal. Durante este proceso, no solo conserva la configuración de red existente, como el SSID y la contraseña, para garantizar una conectividad ininterrumpida de todos los dispositivos conectados, sino que también le permite gestionar el tráfico de red de todos los clientes o solo de determinados dispositivos según sea necesario.
 
@@ -27,13 +27,13 @@ El diagrama anterior consta de dos tipos de líneas: líneas grises y líneas ve
 
    3. Tras el procesamiento, el tráfico se envía de vuelta al router principal, que luego entrega los datos finales a los dispositivos cliente originales o los enruta hacia Internet.
 
-## Configuración
+## Configuración {#setup}
 
 Hay dos modos de despliegue para distintos escenarios de aplicación: todos los dispositivos cliente pasan por Drop-in Gateway, o solo determinados dispositivos cliente pasan por Drop-in Gateway.
 
 En el siguiente ejemplo, la dirección de gateway del router principal es `192.168.1.1`.
 
-### Todos los dispositivos pasan por Drop-in Gateway {all-devices-managed-by-the-drop-in-gateway}
+### Todos los dispositivos pasan por Drop-in Gateway {#all-devices-managed-by-the-drop-in-gateway}
 
 1.  Conecte el puerto LAN del router principal al puerto WAN del router GL.iNet mediante un cable Ethernet.
 
@@ -98,7 +98,7 @@ En el siguiente ejemplo, la dirección de gateway del router principal es `192.1
 
 4.  Vuelva al router GL.iNet y configure funciones como [AdGuard Home](adguardhome.md), [DNS cifrado](dns.md), [WireGuard Client](wireguard_client.md) y [OpenVPN Client](openvpn_client.md).
 
-### Solo determinados dispositivos pasan por Drop-in Gateway {some-devices-managed-by-the-drop-in-gateway}
+### Solo determinados dispositivos pasan por Drop-in Gateway {#some-devices-managed-by-the-drop-in-gateway}
 
 1.  Conecte el puerto LAN del router principal al puerto WAN del router GL.iNet mediante un cable Ethernet.
 
@@ -197,7 +197,7 @@ En el siguiente ejemplo, la dirección de gateway del router principal es `192.1
 
 4.  Vuelva al panel de administración web del router GL.iNet y configure las funciones que necesite, como [AdGuard Home](adguardhome.md), [DNS cifrado](dns.md), [WireGuard Client](wireguard_client.md) y [OpenVPN Client](openvpn_client.md).
 
-## Precauciones
+## Precauciones {#cautions}
 
 1. Habilitar Drop-in Gateway incrementa la latencia de red.
 

@@ -1,4 +1,4 @@
-# Zatrzymanie na „Rebooting” podczas ponownego uruchamiania firmware
+# Zatrzymanie na „Rebooting” podczas ponownego uruchamiania firmware {#stuck-on-rebooting-during-firmware-reboot}
 
 Jeśli router zatrzyma się na komunikacie „Rebooting” podczas ponownego uruchamiania firmware, wykonaj poniższe kroki, aby rozwiązać problem.
 

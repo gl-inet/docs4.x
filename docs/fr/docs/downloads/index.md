@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-# Manuel utilisateur
+# Manuel utilisateur {#user-manual}
 
 Cette page contient actuellement des manuels PDF pour certains modèles uniquement. Des guides pour d'autres modèles seront ajoutés régulièrement.
 

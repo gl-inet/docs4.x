@@ -1,4 +1,4 @@
-# How to set up a guest Wi-Fi network on GL.iNet routers
+# How to set up a guest Wi-Fi network on GL.iNet routers {#how-to-set-up-a-guest-wi-fi-network-on-glinet-routers}
 
 This tutorial will show you how to set up a guest Wi-Fi network on GL.iNet routers. 
 
@@ -6,9 +6,9 @@ A guest Wi-Fi network is a separate network on a router for devices you want to 
 
 There are two methods you can use to set up a guest Wi-Fi network on your GL.iNet router: via the [router admin panel](#set-up-a-guest-network-via-the-admin-panel) or the [GL.iNet mobile app](#set-up-a-guest-network-via-the-glinet-mobile-app). 
 
-## Set up a guest network via the admin panel 
+## Set up a guest network via the admin panel {#set-up-a-guest-network-via-the-admin-panel}
 
-### 1. Enable the guest Wi-Fi network
+### 1. Enable the guest Wi-Fi network {#1-enable-the-guest-wi-fi-network}
 
 1. In a web browser, enter `192.168.8.1`. 
 2. Enter your password, then click **Login**. 
@@ -18,7 +18,7 @@ There are two methods you can use to set up a guest Wi-Fi network on your GL.iNe
 ![click guest](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_a_guest_network/click-guest-wifi.jpeg){class="glboxshadow"}
 5. Next to **Enable Wi-Fi**, toggle the switch to on. 
 
-### 2. Set a new guest Wi-Fi network password
+### 2. Set a new guest Wi-Fi network password {#2-set-a-new-guest-wi-fi-network-password}
 
 To ensure your security, you are advised to set a new password for your guest Wi-Fi network. Follow these steps: 
 
@@ -29,18 +29,18 @@ To ensure your security, you are advised to set a new password for your guest Wi
 
 You have now set up a guest Wi-Fi network. To connect your devices to it, locate the guest network name on the list of available networks and enter the password.  
 
-## Set up a guest network via the GL.iNet mobile app
+## Set up a guest network via the GL.iNet mobile app {#set-up-a-guest-network-via-the-glinet-mobile-app}
 
 **Note:** Before you start, install and set up the GL.iNet mobile app on your device. 
 
-### 1. Enable the guest Wi-Fi network
+### 1. Enable the guest Wi-Fi network {#1-enable-the-guest-wi-fi-network_1}
 
 1. On the main app screen, tap the **Network** tab > **Wireless**.
 2. Locate **Guest Network**. 
 3. For the network where you want to set up a guest Wi-Fi network, toggle the switch to on. 
 ![toggle the switch](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_a_guest_network/toggle-on-guest-network.jpeg){class="glboxshadow"}
 
-### 2. Set a new guest Wi-Fi network password
+### 2. Set a new guest Wi-Fi network password {#2-set-a-new-guest-wi-fi-network-password_1}
 
 To ensure your security, you are advised to set a new password for your guest Wi-Fi network. Follow these steps: 
 

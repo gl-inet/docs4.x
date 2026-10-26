@@ -1,4 +1,4 @@
-# Ethernet Port
+# イーサネットポート {#ethernet-port}
 
 このページの内容はファームウェアv4.7-4.9に基づいています。デバイスで別のファームウェアバージョンを使用している場合は、次の選択メニューから対応するガイドへ切り替えてください。
 
@@ -14,11 +14,11 @@ Web管理パネルの左側で、**NETWORK** -> **Ethernet Port** または **Po
 
 Ethernet ポートの役割（WAN/LAN）を管理し、MAC アドレスやネゴシエート速度などのポート詳細を確認できます。
 
-## WAN
+## WAN {#wan}
 
 このセクションには、ポートの役割（WAN または LAN）、MAC アドレス、ネゴシエート速度が表示されます。
 
-![wan](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/wan.png){class="glboxshadow"}
+![wan](https://static.gl-inet.com/docs/router/en/4/interface_guide/ethernet_port/wan.png){class="glboxshadow"}
 
 - **WAN/LAN**: 物理 WAN ポートの現在の動作モードです。必要に応じて LAN に設定できます。
 
@@ -26,9 +26,9 @@ Ethernet ポートの役割（WAN/LAN）を管理し、MAC アドレスやネゴ
 
 - **MAC Address**: WAN インターフェースの MAC アドレスです。
 
-- **Negotiated Network Port Rate**: WAN インターフェースのリンク速度交渉結果です。有効なリンクが検出された場合にのみ表示されます。
+- **Negotiated Network Port Rate**: WAN インターフェースのネゴシエートされたリンク速度です。有効なリンクが検出された場合にのみ表示されます。
 
-## LAN
+## LAN {#lan}
 
 このセクションには、LAN ポートのネゴシエート速度が表示されます。有効なリンクが検出された場合にのみ表示されます。
 
@@ -36,7 +36,7 @@ Ethernet ポートの役割（WAN/LAN）を管理し、MAC アドレスやネゴ
 
 一部のモデルでは、デュアルイーサネットWAN構成のために LAN 1 を WAN ポートへ切り替えることができます。詳細は [Dual-Ethernet WAN](#dual-ethernet-wan) を参照してください。
 
-## Dual-Ethernet WAN
+## Dual-Ethernet WAN {#dual-ethernet-wan}
 
 Dual-Ethernet WAN機能では、デフォルトの LAN イーサネットポートを2つ目の WAN ポートに切り替えて、デュアルイーサネットによるインターネット接続を利用できます。これにより、信頼性の高いバックアップ接続が可能になり、対応モデルでは帯域幅の集約もサポートされるため、帯域幅を多く使う用途にも対応できます。また、追加のハードウェアなしで、仕事用と個人用など2つの独立したネットワークへ同時に接続することもできます。
 
@@ -89,4 +89,4 @@ LAN ポートを WAN ポートへ切り替えるには、以下の手順を実�
 
 ---
 
-ご不明な点がありましたら、[コミュニティ・フォーラム](https://forum.gl-inet.com){target="_blank"}または[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}をご利用ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

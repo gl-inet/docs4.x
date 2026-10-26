@@ -1,22 +1,22 @@
-# So rufen Sie das Protokoll der mobilen App ab
+# So rufen Sie das Protokoll der mobilen App ab {#how-to-retrieve-the-mobile-app-log}
 
 Wenn bei der Verwendung unserer GL.iNet-App Fehlfunktionen auftreten und Sie das Protokoll der mobilen App abrufen möchten, können Sie dazu die folgenden Schritte ausführen.
 
-## Zur Hauptseite der App gehen
+## Zur Hauptseite der App gehen {#go-to-the-app-main-page}
 
 Tippen Sie unten links auf das Zahnradsymbol.
 
 ![applog1](https://static.gl-inet.com/docs/router/de/4/tutorials/app_log/Applog1.jpg){class="glboxshadow gl-50-desktop"}
 
-## Bei APP LOG(BETA) auf **Enable** tippen
+## Bei APP LOG(BETA) auf **Enable** tippen {#tap-the-enable-at-app-logbeta}
 
 ![applog2](https://static.gl-inet.com/docs/router/de/4/tutorials/app_log/Applog2.jpg){class="glboxshadow gl-50-desktop"}
 
-## Auf **Show Log-Window** tippen
+## Auf **Show Log-Window** tippen {#tap-show-log-window}
 
 ![applog3](https://static.gl-inet.com/docs/router/de/4/tutorials/app_log/Applog3.jpg){class="glboxshadow gl-50-desktop"}
 
-## Auf der linken Seite erscheint ein blaues **L**-Symbol
+## Auf der linken Seite erscheint ein blaues **L**-Symbol {#a-blue-l-icon-will-appear-on-the-left-side}
 
 Wenn Sie auf das Symbol **L** tippen, wird das Protokoll der Funktion angezeigt, die Sie gerade in der App verwendet haben.
 

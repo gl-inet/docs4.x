@@ -1,4 +1,4 @@
-# Cómo comprobar si tiene una dirección IP pública
+# Cómo comprobar si tiene una dirección IP pública {#how-to-check-if-you-have-a-public-ip-address}
 
 Una dirección pública, a diferencia de una dirección IP privada, es un identificador numérico único asignado a sus dispositivos conectados a Internet. Necesitará una dirección IP pública si desea alojar un sitio web, configurar un servidor VPN o proporcionar cualquier servicio en línea. Normalmente, su proveedor de servicios de Internet se la proporciona.
 

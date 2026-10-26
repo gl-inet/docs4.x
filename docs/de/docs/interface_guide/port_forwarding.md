@@ -1,14 +1,14 @@
-# Port Forwarding
+# Port Forwarding {#port-forwarding}
 
-> Diese Anleitung gilt für Firmware v4.6 und höher. Für frühere Versionen lesen Sie bitte [Firewall](firewall.md).
+**Hinweis**: Diese Anleitung gilt für Firmware v4.6 und höher. Für frühere Versionen lesen Sie bitte [Firewall](firewall.md).
+
+---
 
 Gehen Sie auf der linken Seite des Web-Admin-Panels zu **NETWORK** -> **Port Forwarding**, oder zu **SECURITY** -> **Port Forwarding** (für Firmware v4.9 und höher).
 
 Auf dieser Seite können Sie Firewall-Regeln konfigurieren, darunter DMZ und Portweiterleitung.
 
-Hinweis: Um Router-Ports zu öffnen, navigieren Sie zu SYSTEM -> [Security](security.md), oder zu SECURITY -> [Admin Access](admin_access.md) (für Firmware v4.9 und höher).
-
-## DMZ
+## DMZ {#dmz}
 
 Mit DMZ können Sie einen Computer direkt für das Internet freigeben, sodass alle eingehenden Pakete an diesen Computer weitergeleitet werden.
 
@@ -18,7 +18,7 @@ Sie können die Priorität für DMZ festlegen. Wenn die DMZ-Priorität höher is
 
 ![dmz](https://static.gl-inet.com/docs/router/de/4/interface_guide/port_forwarding/dmz.png){class="glboxshadow"}
 
-## Portweiterleitung
+## Portweiterleitung {#port-forwarding_1}
 
 Mit der Portweiterleitung können entfernte Computer eine Verbindung zu einem lokalen Computer oder Server hinter der Firewall des Routers im LAN herstellen (z. B. Webserver, FTP-Server usw.).
 

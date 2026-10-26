@@ -1,4 +1,4 @@
-# WireGuard-Server auf GL.iNet-Routern einrichten
+# WireGuard-Server auf GL.iNet-Routern einrichten {#set-up-wireguard-server-on-glinet-routers}
 
 WireGuard® ist ein äußerst einfaches und dennoch schnelles, modernes VPN, das modernste Kryptografie verwendet. Es wurde entwickelt, um schneller, einfacher, schlanker und nützlicher als IPSec zu sein, ohne den üblichen großen Aufwand zu verursachen. Zudem bietet es eine deutlich höhere Leistung als OpenVPN.
 
@@ -6,7 +6,7 @@ Um den WireGuard-Server auf einem GL.iNet-Router einzurichten, sehen Sie sich di
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jvc-CNmXfuM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Öffentliche IP-Adresse prüfen
+## Öffentliche IP-Adresse prüfen {#make-sure-you-have-a-public-ip-address}
 
 Klicken Sie bitte [hier](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md), um zu prüfen, ob Ihr Internetdienstanbieter Ihnen eine öffentliche IP-Adresse zuweist.
 
@@ -18,13 +18,13 @@ Alternative Methoden:
 2. Fragen Sie Ihren ISP nach einer öffentlichen IP-Adresse. Dafür können zusätzliche Gebühren anfallen.
 3. Falls die beiden oben genannten Methoden nicht funktionieren (z. B. wenn sich Ihr Netzwerk hinter CGNAT befindet), können Sie unsere SD-WAN-Lösung [AstroWarp](https://www.astrowarp.net/){target="_blank"} ausprobieren. 
 
-## Portweiterleitung prüfen
+## Portweiterleitung prüfen {#confirm-if-port-forwarding-is-required}
 
 **Netzwerktopologie**
 
 ??? "GL.iNet ist der Hauptrouter"
     
-    * Wenn der GL.iNet-Router der Hauptrouter in Ihrem Netzwerk ist, ist keine Portweiterleitung erforderlich. Bitte fahren Sie mit dem [nächsten Schritt](#wireguard-server-einrichten) fort.
+    * Wenn der GL.iNet-Router der Hauptrouter in Ihrem Netzwerk ist, ist keine Portweiterleitung erforderlich. Bitte fahren Sie mit dem [nächsten Schritt](#set-up-wireguard-server) fort.
 
 ??? "GL.iNet ist der Unterrouter"
 
@@ -32,7 +32,7 @@ Alternative Methoden:
     
     * Wenn bereits ein Hauptrouter verwendet wird und sich der GL.iNet-Router mehrere Ebenen darunter befindet, richten Sie die [Portweiterleitung](../tutorials/how_to_set_up_port_forwarding.md) auf jeder dazwischenliegenden Ebene ein.
 
-## WireGuard-Server einrichten
+## WireGuard-Server einrichten {#set-up-wireguard-server}
 
 Melden Sie sich im web Admin Panel an und wechseln Sie zu **VPN** -> **WireGuard Server**.
 
@@ -112,9 +112,9 @@ Melden Sie sich im web Admin Panel an und wechseln Sie zu **VPN** -> **WireGuard
 
     ![wireguard server status](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_server/wgserver_status.png){class="glboxshadow"}
 
-## Prüfen, ob der WireGuard-Server ordnungsgemäß funktioniert
+## Prüfen, ob der WireGuard-Server ordnungsgemäß funktioniert {#check-if-wireguard-server-is-working-properly}
 
-### Serverstatus prüfen
+### Serverstatus prüfen {#verify-server-status}
 
 Seit Firmware v4.8 können Sie den Server-Verbindungsstatus auf der Seite **WireGuard Server** prüfen. 
 
@@ -128,7 +128,7 @@ Wenn 0 Datenverkehr und 0 Clients angezeigt werden, bedeutet das, dass kein Wire
 
 Bei Firmware v4.7 und früher prüfen Sie den Server-Verbindungsstatus bitte auf der Seite **VPN Dashboard**.
 
-### IP-Adresse des Clients prüfen
+### IP-Adresse des Clients prüfen {#verify-clients-ip}
 
 So prüfen Sie, ob die Verbindung zum Server erfolgreich ist: Importieren Sie die zuvor exportierte WireGuard-Konfiguration auf ein Gerät in einem anderen Netzwerk (nicht im selben lokalen Netzwerk wie der Server). Öffnen Sie dann einen Webbrowser und suchen Sie nach Ihrer IP-Adresse und Ihrem Standort. Wenn diese mit der IP-Adresse und dem Standort des VPN-Servers übereinstimmen (anstelle der IP-Adresse und des Standorts Ihres Internetdienstanbieters), ist die VPN-Verbindung erfolgreich.
 
@@ -136,12 +136,12 @@ Am einfachsten geht das mit einem Smartphone, auf dem die offizielle [WireGuard 
 
 Wenn die Verbindung fehlschlägt, gibt es mehrere häufige Ursachen:
 
-* Ihr Internetdienstanbieter weist Ihnen keine öffentliche IP-Adresse zu. Bitte prüfen Sie [hier](#offentliche-ip-adresse-prufen).
-* Möglicherweise müssen Sie eine Portweiterleitung einrichten. Bitte prüfen Sie [hier](#portweiterleitung-prufen).
+* Ihr Internetdienstanbieter weist Ihnen keine öffentliche IP-Adresse zu. Bitte prüfen Sie [hier](#make-sure-you-have-a-public-ip-address).
+* Möglicherweise müssen Sie eine Portweiterleitung einrichten. Bitte prüfen Sie [hier](#confirm-if-port-forwarding-is-required).
 * Der für den WireGuard-Server verwendete Port wird von Ihrem Internetdienstanbieter blockiert. Wechseln Sie auf einen anderen Port oder wenden Sie sich für weitere Unterstützung an den Internetdienstanbieter.
 * In einigen Ländern/Regionen kann die VPN-Verbindung blockiert werden.
 
-## Server Options
+## Server Options {#server-options}
 
 Server Options umfassen erweiterte serverseitige Einstellungen, beispielsweise den Fernzugriff auf das LAN des Servers und IP-Maskierung. Konfigurieren Sie diese Einstellungen entsprechend Ihren Anforderungen.
 
@@ -161,13 +161,17 @@ Im Pop-up-Fenster werden die folgenden Funktionen angezeigt.
 
 - **IP Masquerading**: Wenn diese Option aktiviert ist, werden die Quell-IP-Adressen der LAN-Clients in die VPN-Tunnel-IP des Routers umgeschrieben. Deaktivieren Sie diese Option nur bei Site-to-Site-Konfigurationen, bei denen der entfernte Peer Ihre LAN-Subnetze kennt.
 
+    Wie unten dargestellt: Wenn IP-Maskierung aktiviert ist und das NAS (192.168.8.100) im Heim-LAN Datenverkehr über den Tunnel an den Laptop (192.168.10.200) im Reise-LAN sendet, schreibt der Heimrouter die Quell-IP von `192.168.8.100` in die Tunneladresse des VPN-Servers `10.1.0.1` um. Die Gegenseite sieht dadurch, dass der Datenverkehr vom Server stammt und nicht aus dessen lokalem LAN.
+
+    ![wgserver ip masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/ip_masquerading.png){class="glboxshadow"}
+
 - **MTU**: Kurz für Maximum Transmission Unit. Der für den Tunnel festgelegte MTU-Wert überschreibt die MTU-Einstellungen in der Konfigurationsdatei.
 
 - **Client to Client**: Wenn diese Option aktiviert ist, können die mit diesem Server verbundenen VPN-Clients über ihre jeweiligen VPN-Tunnel-IPs aufeinander zugreifen.
 
     Beachten Sie, dass Client to Client nur die Tunnel-IP-Adresse des jeweiligen Clients bekanntgibt. Die lokalen LAN-Subnetze hinter den einzelnen VPN-Clients werden dadurch nicht automatisch verfügbar. Wenn Clients auf die LAN-Subnetze der jeweils anderen Clients zugreifen sollen, fügen Sie auf dem VPN-Server Routing-Regeln hinzu, die diese entfernten LAN-Subnetze bekanntgeben.
 
-## WireGuard App installieren
+## WireGuard App installieren {#wireguard-app-install}
 
 Bitte laden Sie die WireGuard App von der [offiziellen WireGuard-Website](https://www.wireguard.com/install){target="_blank"} herunter.
 

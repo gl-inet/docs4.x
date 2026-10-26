@@ -1,4 +1,4 @@
-# Set Up WireGuard Client on GL.iNet Routers
+# Set Up WireGuard Client on GL.iNet Routers {#set-up-wireguard-client-on-glinet-routers}
 
 The content on this page is based on firmware v4.6 and earlier. If your device is running a different firmware version, use the selector below to switch to the corresponding guide.
 
@@ -30,7 +30,7 @@ If you have **AzireVPN** or **Mullvad** membership, you can log in with their cr
 
 ![wireguard client no initialized](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client_v4.6/wireguard_client_no_initialized.png){class="glboxshadow"}
 
-## Set Up AzireVPN
+## Set Up AzireVPN {#set-up-azirevpn}
 
 [AzireVPN](https://www.azirevpn.com/aff/9x7wisg4){target="_blank"} is privacy-minded VPN service providing secure, modern and robust tunnels such as WireGuard.
 
@@ -66,7 +66,7 @@ If you have **AzireVPN** or **Mullvad** membership, you can log in with their cr
 
     ![azirevpn delete all configuration files](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client_v4.6/azirevpn_delete_all_configuration_file.png){class="glboxshadow"}
 
-## Set Up Mullvad
+## Set Up Mullvad {#set-up-mullvad}
 
 [Mullvad](https://mullvad.net/){target="_blank"} is a VPN service that helps keep your online activity, identity, and location private.
 
@@ -118,7 +118,7 @@ Firmware 4.x has integrated Mullvad WireGuard service.
 
     ![mullvad vpn](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client_v4.6/wgclient_delete_all_configuration_file.png){class="glboxshadow"}
 
-## Set up WireGuard Client
+## Set up WireGuard Client {#set-up-wireguard-client}
 
 As of firmware 4.0, it brings grouping to manage WireGuard profiles.
 

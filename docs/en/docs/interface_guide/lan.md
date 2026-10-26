@@ -1,4 +1,4 @@
-# LAN
+# LAN {#lan}
 
 On the left side of the web Admin Panel, go to **NETWORK** -> **LAN**.
 
@@ -6,7 +6,7 @@ LAN is the network that your device is connected to when it is connected via the
 
 It includes Basic settings, DHCP server settings and Address Reservation.
 
-## Basic Settings
+## Basic Settings {#basic-settings}
 
 You can set the subnet within the IPv4 private address ranges: `192.168.0.0/16`, `172.16.0.0/12`, `10.0.0.0/8`.
 
@@ -26,7 +26,7 @@ You can set the subnet within the IPv4 private address ranges: `192.168.0.0/16`,
 
     You can isolate client devices into a separate network segment. These devices will not be able to communicate with other devices on the same network.
 
-## DHCP Server
+## DHCP Server {#dhcp-server}
 
 The **DHCP Server** is enabled by default. The DHCP server automatically assigns IP addresses and other communication parameters to each client devices.
 
@@ -52,7 +52,7 @@ Click **Advanced** for further configuration if needed.
 
 - **LPR Server** (Line Printer Remote Server): A service that manages print jobs and allows network devices to send print requests to remote printers. Multiple LPR printer ports can be configured.
 
-## Address Reservation
+## Address Reservation {#address-reservation}
 
 When you specify a reserved IP address for a client within the LAN, the client always receives the same IP address each time it accesses the router's DHCP server. You can assign reserved IP addresses to computers or servers that require permanent IP settings.
 

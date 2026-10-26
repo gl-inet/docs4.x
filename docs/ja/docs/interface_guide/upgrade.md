@@ -1,18 +1,20 @@
-# アップグレード
+# アップグレード {#upgrade}
 
 Web管理パネルの左側で、**SYSTEM** -> **Upgrade** に移動すると、ルーターのファームウェアを更新できます。
 
 一部のセルラーモデルでは、必要に応じてモジュールバージョンもアップグレードできます。
 
-!!! Note
+!!! Warning "警告"
 
     アップグレード中は電源を入れたままにしてください。ルーターの電源を **切らないでください**。アップグレード後、デバイスは自動的に再起動します。これには数分かかる場合があります。
 
-## ファームウェアアップグレード
+## ファームウェアアップグレード {#firmware-upgrade}
 
-### オンラインアップグレード
+### オンラインアップグレード {#online-upgrade}
 
-ここで現在のファームウェアバージョンを確認できます。
+オンラインアップグレードでは、インターネット経由で最新の公式ファームウェアを自動的に確認し、ルーター上で直接ダウンロードと書き込みを完了します。ルーターがインターネットに接続されていれば、ワンクリックで公式ファームウェアを更新できるため便利です。
+
+現在のファームウェアバージョンは **Firmware Online Upgrade** で確認できます。
 
 ![upgrade](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/online_upgrade.png){class="glboxshadow"}
 
@@ -21,19 +23,21 @@ Web管理パネルの左側で、**SYSTEM** -> **Upgrade** に移動すると、
     有効にすると、正式版の公開前に新機能を試してフィードバックを送信できます。これらのアップグレードは安定していない場合があります。
 
 
-**Note**: オンラインアップグレード時に **Download Failed** と表示された場合は、**SYSTEM** -> **Time Zone** に移動し、タイムゾーンのエラーを修正してください（ブラウザと同期）。
+**注意**: オンラインアップグレード時に **Download Failed** と表示された場合は、**SYSTEM** -> **Time Zone** に移動し、タイムゾーンのエラーを修正してください（ブラウザと同期）。
 
 ![online download failed](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/online_download_failed.jpg){class="glboxshadow" width="360"}
 
 ![time zone](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/time_zone.png){class="glboxshadow"}
 
-### ローカルアップグレード
+### ローカルアップグレード {#local-upgrade}
 
-ファームウェアファイルを選択するか、ドラッグ&ドロップしてアップグレードできます。ファームウェアは [download center](https://dl.gl-inet.com){target="_blank"} からダウンロードできます。
+ローカルアップグレードでは、ファームウェアファイルを手動でアップロードして書き込むことができます。特定バージョンへのアップグレードやダウングレード、新機能を試すためのベータ版ファームウェアのインストールが可能です。
+
+まず [ダウンロードセンター](https://dl.gl-inet.com){target="_blank"} からファームウェアファイルをダウンロードし、**Firmware Local Upgrade** に移動します。
 
 ![local upgrade](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/local_upgrade.png){class="glboxshadow"}
 
-アップロード後、ファームウェアの検証が行われます。
+ファイルを選択するか、アップロード領域にドラッグ&ドロップします。システムがファームウェアを検証します。
 
 ![local upgrade uploaded](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/local_upgrade_uploaded.png){class="glboxshadow"}
 
@@ -41,25 +45,25 @@ Web管理パネルの左側で、**SYSTEM** -> **Upgrade** に移動すると、
 
 **Install** をクリックしてアップグレードします。
 
-## モデムアップグレード
+## モデムアップグレード {#modem-upgrade}
 
 GL.iNet のセルラールーターでは、Web管理パネルからセルラーモデムのファームウェアをアップグレードできます。
 
 セルラーネットワークが接続できない、または不安定な場合は、セルラーモジュールのアップグレードを試すことができます。モデムのアップグレードを実行する前に、まず技術サポートへ連絡してトラブルシューティングすることをおすすめします。
 
-### オンラインアップグレード
+### オンラインアップグレード {#online-upgrade_1}
 
 ここで現在のセルラーモデムのバージョンを確認できます。ルーターがインターネットに接続されていれば、メーカーのサーバーから最新のセルラーモデムバージョンを自動で確認し、更新作業を簡単に行えます。
 
 ![modem online upgrade](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/modem_online_upgrade.png){class="glboxshadow"}
 
-### ローカルアップグレード
+### ローカルアップグレード {#local-upgrade_1}
 
 必要に応じて、コンピューターからモデムのファームウェアファイルを手動でアップロードしてセルラーモデムを更新できます。
 
 ![modem local upgrade](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/modem_local_upgrade.png){class="glboxshadow"}
 
-## DPIオンラインアップグレード
+## DPIオンラインアップグレード {#dpi-online-upgrade}
 
 DPIオンラインアップグレードは、DPIエンジンとシグネチャデータベースを確認して更新し、データ統計、コンテンツフィルター、その他のDPI関連機能でトラフィックを正確に識別できるようにします。
 
@@ -69,4 +73,4 @@ DPIオンラインアップグレードは、DPIエンジンとシグネチャ�
 
 ---
 
-ご不明な点がありましたら、[Community Forum](https://forum.gl-inet.com){target="_blank"} または [Contact us](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

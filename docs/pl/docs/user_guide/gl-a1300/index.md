@@ -1,12 +1,12 @@
-# Przewodnik użytkownika Slate Plus (GL-A1300)
+# Przewodnik użytkownika Slate Plus (GL-A1300) {#slate-plus-gl-a1300-user-guide}
 
-## Opis produktu
+## Opis produktu {#product-overview}
 
 Slate Plus (GL-A1300) to kieszonkowy router podróżny z wydajnym procesorem zoptymalizowanym pod kątem stabilności sieci i sprawnego szyfrowania VPN. Oferuje nasze najnowsze funkcje bezpieczeństwa i działa na najnowszej wersji systemu OpenWrt. Został zaprojektowany z myślą o osobach często podróżujących, które intensywnie korzystają z sieci VPN.
 
 ![GL-A1300 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-a1300/hardware_info/gl-a1300_interface.jpg){class="glboxshadow"}
 
-## Zawartość opakowania
+## Zawartość opakowania {#package-contents}
 
 Pamiętaj, że zasilacz dołączony do zestawu zależy od kraju dostawy.
 
@@ -20,15 +20,15 @@ W opakowaniu znajdują się:
 
 ![gl-a1300 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-a1300/first_time_setup/gl-a1300_unboxing.jpg){class="glboxshadow"}
 
-## Wskaźniki LED
+## Wskaźniki LED {#led-indication}
 
 [Wskaźniki LED](../../faq/led.md#gl-a1300)
 
-## Specyfikacja
+## Specyfikacja {#specifications}
 
 [Specyfikacja GL-A1300](https://www.gl-inet.com/products/gl-a1300/#specs){target="_blank"}
 
-## Pierwsza konfiguracja
+## Pierwsza konfiguracja {#first-time-setup}
 
 Wszystkie routery GL.iNet mają prosty i niemal identyczny proces konfiguracji. [Kliknij tutaj, aby dowiedzieć się więcej o pierwszej konfiguracji](../../faq/first_time_setup.md).
 
@@ -38,7 +38,7 @@ Aby skonfigurować Slate Plus, możesz skorzystać z jednej z czterech obsługiw
 
 ---
 
-## INTERNET
+## INTERNET {#internet}
 
 Interfejs konfiguracji internetu pozwala wybrać typ połączenia internetowego obsługiwany przez router.
 
@@ -46,7 +46,7 @@ Skonfiguruj połączenie z internetem, wybierając **INTERNET** w menu bocznym p
 
 Obsługiwane są cztery sposoby połączenia z internetem:
 
-### Ethernet
+### Ethernet {#ethernet}
 
 Podłącz router do aktywnego modemu lub aktywnego urządzenia sieciowego za pomocą kabla Ethernet. Ta metoda zazwyczaj zapewnia najszybsze i najbardziej niezawodne połączenie z internetem.
 
@@ -54,7 +54,7 @@ Podłącz router do aktywnego modemu lub aktywnego urządzenia sieciowego za pom
 
 ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-a1300/internet/a1300_ethernet.png){class="glboxshadow"}
 
-### Repeater
+### Repeater {#repeater}
 
 Rozszerz zasięg istniejącej sieci Wi-Fi, używając routera do odbierania sygnału bezprzewodowego w swoim zasięgu i przekazywania go dalej. Ta metoda jest najbardziej przydatna, gdy pojedynczy router nie obejmuje całego obszaru użytkowania.
 
@@ -62,7 +62,7 @@ Rozszerz zasięg istniejącej sieci Wi-Fi, używając routera do odbierania sygn
 
 ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-a1300/internet/a1300_repeater.png){class="glboxshadow"}
 
-### Tethering
+### Tethering {#tethering}
 
 Udostępniaj połączenie internetowe podłączonym urządzeniom, przekazując dane komórkowe smartfona do routera przez kabel. Ta metoda jest najbardziej przydatna, gdy chcesz używać transmisji danych telefonu do dostępu do internetu.
 
@@ -70,7 +70,7 @@ Udostępniaj połączenie internetowe podłączonym urządzeniom, przekazując d
 
 ![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-a1300/internet/a1300_tethering.png){class="glboxshadow"}
 
-### Cellular
+### Cellular {#cellular}
 
 Podłącz router do internetu, wkładając modem USB z obsługą sieci komórkowej do portu USB routera. Ta metoda jest najbardziej przydatna do współdzielenia internetu z modemu USB ze wszystkimi podłączonymi urządzeniami.
 
@@ -78,13 +78,13 @@ Podłącz router do internetu, wkładając modem USB z obsługą sieci komórkow
 
 ![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-a1300/internet/a1300_cellular.png){class="glboxshadow"}
 
-### Priorytet i równoważenie obciążenia
+### Priorytet i równoważenie obciążenia {#priority-and-load-balance}
 
 Przejdź do [Multi-WAN](../../interface_guide/multi-wan.md), aby ustawić priorytet każdej metody dostępu do internetu lub włączyć równoważenie obciążenia, gdy jednocześnie używanych jest kilka metod dostępu.
 
 ---
 
-## WIRELESS
+## WIRELESS {#wireless}
 
 Ustawienia sieci bezprzewodowej pozwalają zarządzać zabezpieczeniami głównej sieci Wi‑Fi i sieci gościnnej. Możesz do nich przejść, wybierając **WIRELESS** w menu bocznym.
 
@@ -92,7 +92,7 @@ Ustawienia sieci bezprzewodowej pozwalają zarządzać zabezpieczeniami główne
 
 ---
 
-## CLIENTS
+## CLIENTS {#clients}
 
 Sekcja **CLIENTS** pokazuje urządzenia podłączone do routera. Możesz je blokować lub ograniczać ich prędkość sieciową. Interfejs jest dostępny po kliknięciu **CLIENTS** w menu bocznym panelu administracyjnego routera.
 
@@ -100,22 +100,22 @@ Sekcja **CLIENTS** pokazuje urządzenia podłączone do routera. Możesz je blok
 
 ---
 
-## VPN
+## VPN {#vpn}
 
 Routery GL.iNet mają fabrycznie zainstalowane OpenVPN i WireGuard®, obsługując ponad 30 usług VPN. Gdy klient VPN jest włączony, router może szyfrować ruch urządzeń w sieci, w tym urządzeń, na których nie można uruchomić aplikacji VPN, zgodnie z ustawieniami polityki VPN. Nasze routery mogą także działać jako serwery VPN, przekierowując ruch z urządzeń klienckich w zdalnych lokalizacjach do serwera VPN przez tunel VPN przed uzyskaniem dostępu do publicznego internetu.
 
-### VPN Dashboard
+### VPN Dashboard {#vpn-dashboard}
 
 - [**VPN Dashboard**](../../interface_guide/vpn_dashboard_v4.7.md)
 
-### OpenVPN
+### OpenVPN {#openvpn}
 
 Skorzystaj z poniższych odnośników, aby przejść do instrukcji konfiguracji krok po kroku:
 
 - [**Konfiguracja klienta OpenVPN**](../../interface_guide/openvpn_client.md)
 - [**Konfiguracja serwera OpenVPN**](../../interface_guide/openvpn_server.md)
 
-### WireGuard
+### WireGuard {#wireguard}
 
 Skorzystaj z poniższych odnośników, aby przejść do instrukcji konfiguracji krok po kroku:
 
@@ -124,132 +124,132 @@ Skorzystaj z poniższych odnośników, aby przejść do instrukcji konfiguracji 
 
 ---
 
-## APPLICATIONS
+## APPLICATIONS {#applications}
 
 Routery GL.iNet oferują szeroki zestaw dodatkowych funkcji, które upraszczają zarządzanie urządzeniem, poprawiają komfort korzystania z internetu, automatyzują aktualizacje oprogramowania układowego i nie tylko.
 
-### Plug-ins
+### Plug-ins {#plug-ins}
 
 Przejdź do poradnika [**Plug-ins**](../../interface_guide/plugins.md).
 
-### Dynamic DNS
+### Dynamic DNS {#dynamic-dns}
 
 Przejdź do poradnika [**Dynamic DNS**](../../interface_guide/ddns.md).
 
-### GoodCloud
+### GoodCloud {#goodcloud}
 
 Przejdź do poradnika [**GoodCloud**](../../interface_guide/cloud.md).
 
-### Network Storage
+### Network Storage {#network-storage}
 
 Przejdź do poradnika [**Network Storage**](../../interface_guide/network_storage.md).
 
-### AdGuard Home
+### AdGuard Home {#adguard-home}
 
 Przejdź do poradnika [**AdGuard Home**](../../interface_guide/adguardhome.md).
 
-### Parental Control
+### Parental Control {#parental-control}
 
 Przejdź do poradnika [**Parental Control**](../../interface_guide/parental_control.md).
 
-### ZeroTier
+### ZeroTier {#zerotier}
 
 Przejdź do poradnika [**ZeroTier**](../../interface_guide/zerotier.md).
 
-### Tailscale
+### Tailscale {#tailscale}
 
 Przejdź do poradnika [**Tailscale**](../../interface_guide/tailscale.md).
 
 ---
 
-## NETWORK
+## NETWORK {#network}
 
-### Firewall
+### Firewall {#firewall}
 
 Routery GL.iNet oferują wiele funkcji zapory, które zapewniają bezpieczne połączenie i pełną kontrolę użytkownika. Umożliwiają konfigurowanie reguł zapory, w tym Port Forwarding, Open Ports i DMZ.
 
 [Kliknij tutaj, aby dowiedzieć się więcej o zaporze w routerach GL.iNet](../../interface_guide/firewall.md)
 
-### Multi-WAN
+### Multi-WAN {#multi-wan}
 
 Przejdź do poradnika [**Multi-WAN**](../../interface_guide/multi-wan.md).
 
-### LAN
+### LAN {#lan}
 
 Przejdź do poradnika [**LAN**](../../interface_guide/lan.md).
 
-### DNS
+### DNS {#dns}
 
 Przejdź do poradnika [**DNS**](../../interface_guide/dns.md).
 
-### Network Mode
+### Network Mode {#network-mode}
 
 Przejdź do poradnika [**Network Mode**](../../interface_guide/network_mode.md).
 
-### IPv6
+### IPv6 {#ipv6}
 
 Przejdź do poradnika [**IPv6**](../../interface_guide/ipv6.md).
 
-### MAC Address
+### MAC Address {#mac-address}
 
 Strona Mac Address wcześniej nazywała się Mac Clone i od wersji v4.2 została przemianowana na Mac Address.
 
 Przejdź do poradnika [**MAC Address**](../../interface_guide/mac_address.md).
 
-### Drop-in Gateway
+### Drop-in Gateway {#drop-in-gateway}
 
 Przejdź do poradnika [**Drop-in Gateway**](../../interface_guide/drop-in_gateway.md).
 
-### IGMP Snooping
+### IGMP Snooping {#igmp-snooping}
 
 Przejdź do poradnika [**IGMP Snooping**](../../interface_guide/igmp_snooping.md).
 
 ---
 
-## SYSTEM
+## SYSTEM {#system}
 
-### Overview
+### Overview {#overview}
 
 Przejdź do poradnika [**System Overview**](../../interface_guide/system_overview.md).
 
-### Upgrade
+### Upgrade {#upgrade}
 
 GL.iNet regularnie udostępnia aktualizacje oprogramowania układowego routerów, aby poprawiać wydajność, usuwać błędy i naprawiać podatności.
 
 Przejdź do poradnika [**Upgrade**](../../interface_guide/upgrade.md).
 
-### Scheduled Tasks
+### Scheduled Tasks {#scheduled-tasks}
 
 Przejdź do poradnika [**Scheduled Tasks**](../../interface_guide/scheduled_tasks.md).
 
-### Admin Password
+### Admin Password {#admin-password}
 
 Ta funkcja została przeniesiona do [**Security**](../../interface_guide/security.md) od wersji v4.5.
 
 Przejdź do poradnika [**Admin Password**](../../interface_guide/admin_password.md).
 
-### Time Zone
+### Time Zone {#time-zone}
 
 Przejdź do poradnika [**Time Zone**](../../interface_guide/time_zone.md).
 
-### Toggle Button Settings
+### Toggle Button Settings {#toggle-button-settings}
 
 Przejdź do poradnika [**Toggle Button Settings**](../../interface_guide/toggle_button_settings.md).
 
-### Log
+### Log {#log}
 
 Przejdź do poradnika [**Log**](../../interface_guide/log.md).
 
-### Security
+### Security {#security}
 
 Ta funkcja jest dostępna od wersji v4.5.
 
 Przejdź do poradnika [**Security**](../../interface_guide/security.md).
 
-### Reset Firmware
+### Reset Firmware {#reset-firmware}
 
 Przejdź do poradnika [**Reset Firmware**](../../interface_guide/reset_firmware.md).
 
-### Advanced Settings
+### Advanced Settings {#advanced-settings}
 
 Przejdź do poradnika [**Advanced Settings**](../../interface_guide/advanced_settings.md).

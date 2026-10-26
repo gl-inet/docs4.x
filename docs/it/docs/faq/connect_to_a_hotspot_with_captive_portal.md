@@ -1,10 +1,10 @@
-# Collegare un router GL.iNet agli hotspot pubblici con Captive Portal
+# Collegare un router GL.iNet agli hotspot pubblici con Captive Portal {#connect-a-glinet-router-to-public-hotspots-with-a-captive-portal}
 
-## Che cos'è un captive portal?
+## Che cos'è un captive portal? {#what-is-a-captive-portal}
 
 Un captive portal è una pagina web in cui gli hotspot pubblici richiedono agli utenti di visualizzare e interagire con la pagina prima di concedere l'accesso a Internet.
 
-## Perché usare un router con gli hotspot pubblici?
+## Perché usare un router con gli hotspot pubblici? {#why-use-a-router-for-public-hotspots}
 
 * Il Wi-Fi pubblico non è sicuro
 
@@ -14,7 +14,7 @@ Un captive portal è una pagina web in cui gli hotspot pubblici richiedono agli 
 
     Inoltre, alcune reti Wi-Fi pubbliche (ad esempio il Wi-Fi degli hotel) limitano l'accesso, per esempio, a due dispositivi. Quando si viaggia in gruppo, questo è poco pratico. In alternativa, puoi collegare un travel router al Wi-Fi dell'hotel e usarlo come repeater per trasmettere un segnale Wi-Fi a tutti i tuoi dispositivi, inclusi laptop, smartphone, tablet e così via. Il Wi-Fi dell'hotel riconoscerà il travel router come un singolo dispositivo, ma tu potrai collegare tutti i dispositivi che desideri alla rete Wi-Fi gratuita.
 
-## Come collegare il router agli hotspot pubblici con captive portal?
+## Come collegare il router agli hotspot pubblici con captive portal? {#how-to-connect-router-to-public-hotspots-with-captive-portal}
 
 Guarda questo video oppure segui i passaggi seguenti.
 
@@ -32,11 +32,11 @@ Guarda questo video oppure segui i passaggi seguenti.
 
 3. Collega il router all'hotspot pubblico. Fai riferimento al tutorial [Repeater](../interface_guide/internet_repeater.md/).
 
-## Risoluzione dei problemi
+## Risoluzione dei problemi {#troubleshooting}
 
 Se non riesci ad aprire il captive portal, il router potrebbe non riuscire ad accedere a Internet. Prova i seguenti metodi per la risoluzione dei problemi.
 
-### Metodo 1: abilita Public Hotspot Login Mode & Camouflage
+### Metodo 1: abilita Public Hotspot Login Mode & Camouflage {#method-1-enable-public-hotspot-login-mode-camouflage}
 
 **Nota**: queste due funzioni sono disponibili solo nel firmware v4.6 e successivi.
 
@@ -54,7 +54,7 @@ Quando colleghi il router a un hotspot pubblico, nella pagina **Join Network**, 
 
 ---
 
-### Metodo 2: cambia le impostazioni del router
+### Metodo 2: cambia le impostazioni del router {#method-2-change-router-settings}
 
 1. Accedi al pannello di amministrazione web e vai a NETWORK -> DNS. Assicurati che **DNS Rebinding Attack Protection** sia disabilitato e che **Mode** sia impostato su **Automatic**.
 
@@ -82,7 +82,7 @@ Quando colleghi il router a un hotspot pubblico, nella pagina **Join Network**, 
 
 ---
 
-### Metodo 3：MAC Clone
+### Metodo 3：MAC Clone {#method-3mac-clone}
 
 Alcuni hotel limitano il numero di dispositivi che ogni cliente può collegare al Wi-Fi dell'hotel riconoscendone l'indirizzo MAC, e registrano il MAC del dispositivo al primo collegamento. In questo caso, puoi clonare sul router l'indirizzo MAC che il telefono usa per connettersi al Wi-Fi dell'hotel, permettendo al router di usare quel MAC per accedere al Wi-Fi dell'hotel.
 
@@ -114,7 +114,7 @@ Alcuni hotel limitano il numero di dispositivi che ogni cliente può collegare a
 
 ---
 
-### Metodo 4：chiedi aiuto al personale dell'hotel
+### Metodo 4：chiedi aiuto al personale dell'hotel {#method-4seek-help-from-hotel-staff}
 
 Alcuni hotel applicano politiche di verifica molto rigide per le proprie reti. Se nessuno dei metodi sopra funziona, prova a chiedere al personale dell'hotel di aggiungere direttamente l'indirizzo MAC del tuo router (usa il MAC di fabbrica, non quello casuale) alla whitelist della rete dell'hotel.
 

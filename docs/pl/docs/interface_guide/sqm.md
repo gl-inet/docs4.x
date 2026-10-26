@@ -1,4 +1,4 @@
-# SQM (Smart Queue Management)
+# SQM (Smart Queue Management) {#sqm-smart-queue-management}
 
 **Uwaga**: Ta funkcja została wprowadzona w firmware v4.9.
 
@@ -56,7 +56,7 @@ SQM (Smart Queue Management) inteligentnie zarządza ruchem sieciowym routera, a
     - GL-AP1300 (Cirrus)
     - GL-S1300 (Convexa-S)
 
-## Dla oprogramowania sprzętowego w wersji 4.11 i nowszych
+## Dla oprogramowania sprzętowego w wersji 4.11 i nowszych {#for-firmware-v411-and-above}
 
 Przełącz przełącznik, aby włączyć SQM, a następnie zakończ konfigurację, wykonując poniższe czynności.
 
@@ -104,7 +104,7 @@ Przełącz przełącznik, aby włączyć SQM, a następnie zakończ konfiguracj�
 
     - **fq_codel**: Proste, wydajne, uczciwe kolejkowanie z podstawową redukcją opóźnień.
 
-## Dla oprogramowania sprzętowego v4.9 do v4.10
+## Dla oprogramowania sprzętowego v4.9 do v4.10 {#for-firmware-v49-to-v410}
 
 Przełącz przełącznik, aby włączyć SQM i ustawić maksymalną prędkość wysyłania i pobierania (zakres: 1–10000) na potrzeby planowania ruchu. Aby uzyskać najlepsze rezultaty, dopasuj je do rzeczywistej przepustowości Internetu.
 

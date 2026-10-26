@@ -1,22 +1,22 @@
-# So ändern Sie den NAT-Typ beim Gaming
+# So ändern Sie den NAT-Typ beim Gaming {#how-to-change-the-nat-type-on-gaming}
 
 Die meisten Spielehersteller empfehlen, UPnP auf dem Router zu aktivieren, um einen besseren NAT-Typ zu erhalten. Studien zeigen jedoch, dass UPnP kein sicheres Protokoll ist.
 
 Sie können dasselbe Ziel auf sicherere Weise erreichen, entweder mit der DMZ-Funktion oder mit Portweiterleitung.
 
-## Überprüfen Sie die IP Ihrer Spielkonsole oder Ihres Gaming-Geräts
+## Überprüfen Sie die IP Ihrer Spielkonsole oder Ihres Gaming-Geräts {#check-your-game-ip}
 
 Öffnen Sie die Client-Liste und prüfen Sie die Ihrem Gaming-Gerät zugewiesene IP-Adresse. Diese IP-Adresse benötigen Sie für die folgende Einrichtung.
 
 ![gameip](https://static.gl-inet.com/docs/router/de/4/tutorials/gamling/gameip.png){class="glboxshadow"}
 
-## Methode 1: DMZ
+## Methode 1: DMZ {#method-1-dmz}
 
 Gehen Sie in der Seitenleiste zu **Network > Port Forwarding** und aktivieren Sie die DMZ mit der IP Ihres Gaming-Geräts.
 
 ![dmz](https://static.gl-inet.com/docs/router/de/4/tutorials/gamling/dmzgame.png){class="glboxshadow"}
 
-## Methode 2: Portweiterleitung
+## Methode 2: Portweiterleitung {#method-2-port-forward}
 
 Gehen Sie in der Seitenleiste zu **Network > Port Forwarding** und fügen Sie die erforderlichen Ports mit der IP Ihres Gaming-Geräts hinzu.
 
@@ -40,7 +40,7 @@ Bei einigen Spielen müssen möglicherweise weitere Ports weitergeleitet werden.
 
 [Portweiterleitung für verschiedene Spiele](https://portforward.com/games/)
 
-## Full Cone NAT
+## Full Cone NAT {#full-cone-nat}
 
 Sie können **Full Cone NAT** unter **Network > NAT Settings** aktivieren, um die Latenz zu verbessern.
 

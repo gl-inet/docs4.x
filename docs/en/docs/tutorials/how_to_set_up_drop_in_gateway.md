@@ -1,4 +1,4 @@
-# How to set up drop-in gateway on a GL.iNet router
+# How to set up drop-in gateway on a GL.iNet router {#how-to-set-up-drop-in-gateway-on-a-glinet-router}
 
 GL.iNet offers the drop-in gateway feature, which enhances the functionality of your primary router with features it may not have, including AdGuard Home, encrypted DNS, and VPN. By using this feature, you can keep using your primary router as usual while enjoying additional features. 
 
@@ -8,13 +8,13 @@ You can enable drop-in gateway for [all your devices](#enable-drop-in-gateway-fo
 
 ---
 
-## Enable drop-in gateway for all devices
+## Enable drop-in gateway for all devices {#enable-drop-in-gateway-for-all-devices}
 
-### 1. Connect GL.iNet router to the main router
+### 1. Connect GL.iNet router to the main router {#1-connect-glinet-router-to-the-main-router}
 
 Connect the WAN port of the GL.iNet router to the LAN port of the main router with an ethernet cable.
 
-### 2. Enable drop-in gateway 
+### 2. Enable drop-in gateway {#2-enable-drop-in-gateway}
 
 There are two methods to enable drop-in gateway: through the router admin panel or the GL.iNet mobile app. 
 
@@ -52,31 +52,31 @@ There are two methods to enable drop-in gateway: through the router admin panel 
 
     4. Tap **Done**. 
 
-### 3. Disable DHCP server on the main router
+### 3. Disable DHCP server on the main router {#3-disable-dhcp-server-on-the-main-router}
 
 Please log in to your primary router to disable the DHCP server. You may refer to the instructions provided by your router manufacturer or contact their support. 
 
-### 4. Set up AdGuard, DNS, VPN, and other features
+### 4. Set up AdGuard, DNS, VPN, and other features {#4-set-up-adguard-dns-vpn-and-other-features}
 
 Follow these guides to enable the features you want on your GL.iNet router.
 
 * [AdGuard Home](../interface_guide/adguardhome.md){target="_blank"}
 * [Encrypted DNS](../interface_guide/dns.md){target="_blank"}
 * [Parental Control](../interface_guide/parental_control.md){target="_blank"}
-* [WireGaurd Client](../interface_guide/wireguard_client.md){target="_blank"}
+* [WireGuard Client](../interface_guide/wireguard_client.md){target="_blank"}
 * [OpenVPN Client](../interface_guide/openvpn_client.md){target="_blank"}
 
 ---
 
-## Enable drop-in gateway for specific devices
+## Enable drop-in gateway for specific devices {#enable-drop-in-gateway-for-specific-devices}
 
-### 1. Connect GL.iNet router to the main router
+### 1. Connect GL.iNet router to the main router {#1-connect-glinet-router-to-the-main-router_1}
 
 Connect the WAN port of the GL.iNet router to the LAN port of the main router with an ethernet cable.
 
-### 2. Enable drop-in gateway
+### 2. Enable drop-in gateway {#2-enable-drop-in-gateway_1}
 
-There are two methods to enable drop-in gateway: through the [router admin panel](#using-web-admin-panel) or the [GL.iNet mobile app](#using-glinet-mobile-app). 
+There are two methods to enable drop-in gateway: through the router admin panel or the GL.iNet mobile app. 
 
 ??? "Using web admin panel"
 
@@ -116,7 +116,7 @@ There are two methods to enable drop-in gateway: through the [router admin panel
 
     **Note:** Please Do NOT close this tab. You will need to enter the IP address (shown on the screen) in the next step. 
 
-### 3. Set gateway and DNS on specific device
+### 3. Set gateway and DNS on specific device {#3-set-gateway-and-dns-on-specific-device}
 
 ??? "Windows"
     
@@ -175,14 +175,14 @@ There are two methods to enable drop-in gateway: through the [router admin panel
         * **Router:** Enter the IP address shown on the **Drop-in Gateway** page. 
     9. Click **OK** > **OK**. 
 
-### 4. Set up AdGuard, DNS, VPN, and other features
+### 4. Set up AdGuard, DNS, VPN, and other features {#4-set-up-adguard-dns-vpn-and-other-features_1}
 
 Follow these guides to enable the features you want on your GL.iNet router.
 
 * [AdGuard Home](../interface_guide/adguardhome.md){target="_blank"}
 * [Encrypted DNS](../interface_guide/dns.md){target="_blank"}
 * [Parental Control](../interface_guide/parental_control.md){target="_blank"}
-* [WireGaurd Client](../interface_guide/wireguard_client.md){target="_blank"}
+* [WireGuard Client](../interface_guide/wireguard_client.md){target="_blank"}
 * [OpenVPN Client](../interface_guide/openvpn_client.md){target="_blank"}
 
 ---

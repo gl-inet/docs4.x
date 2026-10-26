@@ -1,22 +1,22 @@
-# Modemprotokolle mit qlog erfassen
+# Modemprotokolle mit qlog erfassen {#how-to-use-qlog-to-capture-modem-logs}
 
 Einige GL.iNet-Router verfügen über integrierte 3G/4G/5G-Modems. Bei instabiler Netzwerkverbindung kann es erforderlich sein, die Modemprotokolle zur Analyse zu exportieren.
 
 Im Folgenden wird beschrieben, wie Sie die Protokolle des Mobilfunkmodems exportieren.
 
-## 1. Verbinden Sie Ihren Computer mit dem Router
+## 1. Verbinden Sie Ihren Computer mit dem Router {#1-connect-your-computer-to-the-router}
 
 Verbinden Sie einen Laptop mit dem WLAN des Routers (SSID und Passwort finden Sie auf dem Etikett an der Unterseite des Geräts) oder verbinden Sie den Ethernet-Port Ihres Computers per Ethernet-Kabel mit dem LAN-Port des Routers.
 
-## 2. Melden Sie sich per SSH an Ihrem Router an
+## 2. Melden Sie sich per SSH an Ihrem Router an {#2-ssh-log-in-to-your-router}
 
-Bitte beachten Sie [diesen Link](https://docs.gl-inet.com/router/en/4/tutorials/ssh_log_in_to_the_router/).
+Bitte beachten Sie [diesen Link](ssh_log_in_to_the_router.md).
 
-## 3. Modemprotokolle abrufen
+## 3. Modemprotokolle abrufen {#3-get-modem-logs}
 
 Wählen Sie die für Ihr Gerätemodell geeigneten Schritte aus.
 
-### GL-E5800
+### GL-E5800 {#gl-e5800}
 
 1. Schließen Sie einen USB-Stick an und führen Sie `df -h` aus, um den Einhängepfad zu ermitteln. Notieren Sie diesen Pfad.
 
@@ -58,7 +58,7 @@ Wählen Sie die für Ihr Gerätemodell geeigneten Schritte aus.
 
     ![Qlogs Files](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/E5800_qlogs_files.png){class="glboxshadow"}
 
-### GL-X2000
+### GL-X2000 {#gl-x2000}
 
 1. Schließen Sie einen USB-Stick an und führen Sie `df -h` aus, um den Einhängepfad zu ermitteln. Notieren Sie diesen Pfad.
 
@@ -108,7 +108,7 @@ Wählen Sie die für Ihr Gerätemodell geeigneten Schritte aus.
     ![Qlogs Files](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/X2000_qlogs_files.png){class="glboxshadow"}
 
 
-### GL-XE300/GL-X750/GL-X300B
+### GL-XE300/GL-X750/GL-X300B {#gl-xe300gl-x750gl-x300b}
 
 1. Schließen Sie einen USB-Stick an und führen Sie `df -h` aus, um den Einhängepfad zu ermitteln. Notieren Sie diesen Pfad.
 
@@ -154,7 +154,7 @@ Wählen Sie die für Ihr Gerätemodell geeigneten Schritte aus.
 
     ![Qlogs-Dateien](https://static.gl-inet.com/docs/router/de/4/tutorials/get_module_logs/ar9531_qlogs_files.png){class="glboxshadow"}
 
-### GL-X3000/GL-XE3000
+### GL-X3000/GL-XE3000 {#gl-x3000gl-xe3000}
 
 1. Schließen Sie einen USB-Stick an und führen Sie `df -h` aus, um den Einhängepfad zu ermitteln. Notieren Sie diesen Pfad.
 

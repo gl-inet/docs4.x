@@ -1,14 +1,14 @@
-# Mettre à niveau le firmware du module Quectel
+# Mettre à niveau le firmware du module Quectel {#upgrade-quectel-module-firmware}
 
-## Préparation
+## Préparation {#preparation}
 
 1. Assurez-vous que votre routeur est configuré pour accéder à Internet.
 
 2. Connectez un ordinateur de bureau ou portable au routeur via le Wi-Fi ou un câble Ethernet.
 
-## Étapes de mise à niveau
+## Étapes de mise à niveau {#upgrade-steps}
 
-### Pour GL-X3000/GL-XE3000
+### Pour GL-X3000/GL-XE3000 {#for-gl-x3000gl-xe3000}
 
 **Méthode 1. Mise à niveau via l’interface GL.iNet**
 
@@ -22,7 +22,7 @@
 
 Prenons comme exemple la mise à niveau du module RM520N.
 
-1. Connectez-vous à votre routeur en SSH. Veuillez consulter [ce lien](https://docs.gl-inet.com/router/en/4/tutorials/ssh_log_in_to_the_router/).
+1. Connectez-vous à votre routeur en SSH. Veuillez consulter [ce lien](ssh_log_in_to_the_router.md).
 
 2. Saisissez la commande ci-dessous pour télécharger le firmware de module.
 
@@ -64,13 +64,13 @@ Prenons comme exemple la mise à niveau du module RM520N.
 
     ![mtk7981a_check_version](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/x3000_xe3000/check_module_version.png){class="glboxshadow"}
 
-### Pour GL-MiFi/GL-XE300/GL-X750/GL-E750
+### Pour GL-MiFi/GL-XE300/GL-X750/GL-E750 {#for-gl-mifigl-xe300gl-x750gl-e750}
 
 Prenons comme exemple la mise à niveau du module EM060K.
 
 1. Préparez une clé USB. Téléchargez le firmware de module correspondant sur la clé USB depuis le bas de ce tutoriel, puis décompressez le fichier .zip et placez-le dans le répertoire racine de la clé USB.
 
-2. Branchez la clé USB sur votre routeur. Consultez ensuite [ce lien](https://docs.gl-inet.com/router/en/4/tutorials/ssh_log_in_to_the_router/) pour vous connecter à votre routeur en SSH.
+2. Branchez la clé USB sur votre routeur. Consultez ensuite [ce lien](ssh_log_in_to_the_router.md) pour vous connecter à votre routeur en SSH.
 
 3. Saisissez la commande `df -h` pour vérifier le chemin de montage de la clé USB, puis notez ce chemin.
 
@@ -117,15 +117,15 @@ Prenons comme exemple la mise à niveau du module EM060K.
     ```
     ![check module version](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/other_model/check_module_version.png){class="glboxshadow"}
 
-## URL de téléchargement des firmwares de modules Quectel
+## URL de téléchargement des firmwares de modules Quectel {#quectel-module-firmware-download-url}
 
-EP06-A: [https://fw.gl-inet.com/download/EP06A-modem-firmware/EP06ALAR02A08M4G_01.009.01.009.zip](https://fw.gl-inet.com/download/EP06A-modem-firmware/EP06ALAR02A08M4G_01.009.01.009.zip)
+EP06-A : [https://fw.gl-inet.com/download/EP06A-modem-firmware/EP06ALAR02A08M4G_01.009.01.009.zip](https://fw.gl-inet.com/download/EP06A-modem-firmware/EP06ALAR02A08M4G_01.009.01.009.zip)
 
-EP06-E: [https://fw.gl-inet.com/download/EP06E-modem-firmware/EP06ELAR04A22M4G.zip](https://fw.gl-inet.com/download/EP06E-modem-firmware/EP06ELAR04A22M4G.zip)
+EP06-E : [https://fw.gl-inet.com/download/EP06E-modem-firmware/EP06ELAR04A22M4G.zip](https://fw.gl-inet.com/download/EP06E-modem-firmware/EP06ELAR04A22M4G.zip)
 
-EM060K: [https://fw.gl-inet.com/download/EM060K-modem-firmware/EM060KGLAAR01A12M2GA.zip](https://fw.gl-inet.com/download/EM060K-modem-firmware/EM060KGLAAR01A12M2GA.zip)
+EM060K : [https://fw.gl-inet.com/download/EM060K-modem-firmware/EM060KGLAAR01A12M2GA.zip](https://fw.gl-inet.com/download/EM060K-modem-firmware/EM060KGLAAR01A12M2GA.zip)
 
-RM520N-GL_AA: [https://fw.gl-inet.com/download/RM520GL-modem_firmware/RM520NGLAAR03A04M4G_01.202.01.202.zip](https://fw.gl-inet.com/download/RM520GL-modem_firmware/RM520NGLAAR03A04M4G_01.202.01.202.zip)
+RM520N-GL_AA : [https://fw.gl-inet.com/download/RM520GL-modem_firmware/RM520NGLAAR03A04M4G_01.202.01.202.zip](https://fw.gl-inet.com/download/RM520GL-modem_firmware/RM520NGLAAR03A04M4G_01.202.01.202.zip)
 
 ---
 

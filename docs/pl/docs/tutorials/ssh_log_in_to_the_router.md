@@ -1,14 +1,14 @@
-# Logowanie SSH do routera
+# Logowanie SSH do routera {#ssh-log-in-to-the-router}
 
 Secure Shell (SSH) to kryptograficzny protokół sieciowy służący do bezpiecznej obsługi usług sieciowych w niezabezpieczonej sieci. Najbardziej znanym zastosowaniem jest zdalny dostęp użytkowników do systemów komputerowych. Czasami potrzebujesz podstawowych narzędzi do połączenia SSH z serwerem. Ten przewodnik opisuje, jak zalogować się przez SSH do routerów GL.iNet.
 
 ---
 
-## Dla użytkowników Windows
+## Dla użytkowników Windows {#for-windows-user}
 
 Istnieje kilka sposobów uzyskania dostępu do terminala routera w systemie Windows, w tym przez Windows Cmd, PowerShell, Bitvise lub PuTTY.
 
-### Korzystanie z Wiersza polecenia systemu Windows
+### Korzystanie z Wiersza polecenia systemu Windows {#using-windows-cmd}
 
 1. Otwórz Wiersz polecenia
 
@@ -46,7 +46,7 @@ Istnieje kilka sposobów uzyskania dostępu do terminala routera w systemie Wind
 
         Upewnij się, że wpisujesz prawidłowe hasło administratora. Jeśli zapomniałeś hasła, zresetuj router, przytrzymując przycisk RESET przez 10 sekund.
 
-### Korzystanie z PowerShell
+### Korzystanie z PowerShell {#using-powershell}
 
 1. Otwórz Windows PowerShell
 
@@ -102,13 +102,13 @@ Istnieje kilka sposobów uzyskania dostępu do terminala routera w systemie Wind
         
         ``ssh -p [numer nowego portu] [nazwa użytkownika]@[adres IP routera]``
 
-### Korzystanie z Bitvise
+### Korzystanie z Bitvise {#using-bitvise}
 
 Obejrzyj ten film, aby zalogować się do routera przez Bitvise.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7yVd5UkKJ74" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Korzystanie z PuTTY
+### Korzystanie z PuTTY {#using-putty}
 
 1. Pobierz PuTTY
 
@@ -156,11 +156,11 @@ Obejrzyj ten film, aby zalogować się do routera przez Bitvise.
 
 ---
 
-## Dla użytkowników Linux/Mac
+## Dla użytkowników Linux/Mac {#for-linuxmac-user}
 
 Proces w systemach Linux i Mac OS jest zasadniczo taki sam. Poniżej używamy Ubuntu jako przykładu.
 
-### Korzystanie z Ubuntu
+### Korzystanie z Ubuntu {#using-ubuntu}
 
 1. Uruchom Terminal.
 

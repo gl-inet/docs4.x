@@ -1,4 +1,4 @@
-# Using Uboot to unbrick your router
+# Using Uboot to unbrick your router {#using-uboot-to-unbrick-your-router}
 
 If you bricked your router due to some DIY projects or flashing a wrong firmware, you may fail to access it. In this case, you can re-install the firmware by using U-Boot failsafe.
 
@@ -6,13 +6,13 @@ If you bricked your router due to some DIY projects or flashing a wrong firmware
 
 ---
 
-## Preparation
+## Preparation {#preparation}
 
 Please prepare a computer or laptop with an Ethernet port. If your computer does not have an Ethernet port, an additional USB-Ethernet adapter is required.
 
 **Note**: GL-E5800 (Mudi 7) currently does not support firmware flashing via U-Boot.
 
-## Unbrick Steps
+## Unbrick Steps {#unbrick-steps}
 
 Refer to this video tutorial or follow the procedures below to access the U-Boot Web UI and re-install the firmware.
 
@@ -92,7 +92,7 @@ Refer to this video tutorial or follow the procedures below to access the U-Boot
             
             The leftmost Power LED stays on the whole time while the rightmost Wi-Fi LED flashes 4 times, then the middle Mesh LED turns solid on.
             
-            (For some old GL-B1300, the leftmost Power LED stays on the whole time, and both the middle LED and the rightmost LED flash 5 times simutaneously, then stay on.)
+            (For some old GL-B1300, the leftmost Power LED stays on the whole time, and both the middle LED and the rightmost LED flash 5 times simultaneously, then stay on.)
 
         - For **GL-B2200 (Velica)**: The two LEDs start blue, then turn white and flash 5 times, then turn solid blue.
 

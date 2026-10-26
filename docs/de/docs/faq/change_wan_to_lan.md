@@ -1,10 +1,10 @@
-# WAN zu LAN ändern
+# WAN zu LAN ändern {#change-wan-to-lan}
 
 Sie können den WAN-Port Ihres Routers in einen LAN-Port umwandeln. Das ist besonders nützlich, wenn Sie den Router im Repeater-Modus verwenden und der WAN-Port nicht benötigt wird. Durch die Umstellung von WAN auf LAN erhalten Sie einen zusätzlichen LAN-Port für erweiterte Verbindungen.
 
 Führen Sie die folgenden Schritte aus, um WAN zu LAN zu ändern.
 
-## Für Firmware 4.10
+## Für Firmware 4.10 {#for-firmware-410}
 
 1. Lassen Sie den WAN-Port unverbunden.
 
@@ -30,7 +30,7 @@ Führen Sie die folgenden Schritte aus, um WAN zu LAN zu ändern.
 
 Sie können ihn auf der Seite Ethernet Port wieder auf WAN zurückstellen oder die RESET-Taste 4 Sekunden lang drücken, um die WAN-Schnittstelle neu zu starten.
 
-## Für Firmware 4.7-4.9
+## Für Firmware 4.7-4.9 {#for-firmware-47-49}
 
 1. Lassen Sie den WAN-Port unverbunden.
 
@@ -60,7 +60,7 @@ Klicken Sie im eingeblendeten Warnfenster zur Bestätigung auf **Apply**.
 
 Sie können ihn auf der Seite **Port Management** wieder auf WAN zurückstellen oder die RESET-Taste 4 Sekunden lang drücken, um die WAN-Schnittstelle neu zu starten.
 
-## Für Firmware 4.6 und früher
+## Für Firmware 4.6 und früher {#for-firmware-46-and-earlier}
 
 1. Lassen Sie den WAN-Port unverbunden.
 

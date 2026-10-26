@@ -1,4 +1,4 @@
-# Content Filter
+# Content Filter {#content-filter}
 
 **Note**: This feature was introduced in firmware v4.9.
 
@@ -13,7 +13,7 @@ Content Filter is an intelligent online safety feature powered by DPI classifica
 1. Content Filter will not take effect when the router is in Drop-in Gateway mode.
 2. Content Filter cannot work with Network Acceleration. Enabling Content Filter will automatically disable Network Acceleration to ensure stable performance.
 
-## Supported Models
+## Supported Models {#supported-models}
 
 ??? "Supported Models"
     - GL-MT6000 (Fortify)
@@ -51,7 +51,7 @@ Content Filter is an intelligent online safety feature powered by DPI classifica
     - GL-AP1300 (Cirrus)
     - GL-S1300 (Convexa-S)
     
-## Quick Setup
+## Quick Setup {#quick-setup}
 
 On the left side of the web Admin Panel, go to **FLOW CONTROL** -> **Content Filter**. 
 
@@ -85,7 +85,7 @@ This page consists of two parts:
 
     ![domain ip list](https://static.gl-inet.com/docs/router/en/4/interface_guide/content_filter/blocked_domain_ip.jpg){class="glboxshadow"}
 
-## Content Filter Test
+## Content Filter Test {#content-filter-test}
 
 For example, we have selected the **Game** category, which includes Nintendo.
 

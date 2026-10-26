@@ -4,11 +4,11 @@ hide:
   - toc
 ---
 
-# FAQ
+# FAQ {#faq}
 
 Scopri come utilizzare i nostri dispositivi e come risolvere alcuni problemi comuni.
 
-## Connessione di rete
+## Connessione di rete {#network-connection}
 
 * [Configurazione iniziale](first_time_setup.md)
 * [Avviso del browser](warning_from_your_browser_during_setup.md)
@@ -17,12 +17,12 @@ Scopri come utilizzare i nostri dispositivi e come risolvere alcuni problemi com
 * [Come collegare a una rete Wi-Fi un dispositivo solo Ethernet con un router GL.iNet?](produce_a_wired_connection.md)
 * [Come collegare la porta 10G SFP+ di Flint 4?](connecting_10g_sfp_plus_port_on_flint4.md)
 
-## Notifiche di problema
+## Notifiche di problema {#problem-notification}
 
 * [Notifica di problema per GL-MT2500/GL-X3000/GL-XE3000](problem_notification_for_mt2500_x3000_xe3000.md)
 * [Notifica di problema e soluzioni per il malfunzionamento con schede SIM EE su GL-X3000/GL-X2000](problem_notification_and_solutions_for_x3000_x2000_failure_to_work_with_ee_sim_cards.md)
 
-## Risoluzione dei problemi
+## Risoluzione dei problemi {#troubleshooting}
 
 * [Impossibile accedere al router tramite 192.168.8.1](cannot_access_web_admin_panel.md)
 * [Impossibile rilevare l'hotspot 5G di Android](cannot_scan_android_5g_hotspot.md)
@@ -46,7 +46,7 @@ Scopri come utilizzare i nostri dispositivi e come risolvere alcuni problemi com
 * [Qual è la copertura wireless del mio router?](what_is_the_wireless_coverage_of_my_router.md)
 * [Aggiornare la versione di Uboot](upgrade_uboot_version.md)
 
-## VPN
+## VPN {#vpn}
 
 * [Come configurare il client OpenVPN?](../interface_guide/openvpn_client.md)
 * [Come configurare il client WireGuard?](../interface_guide/wireguard_client.md)
@@ -57,12 +57,12 @@ Scopri come utilizzare i nostri dispositivi e come risolvere alcuni problemi com
 * [Impossibile connettersi a un server WireGuard offuscato](cannot_connect_to_obfuscated_wireguard_server.md)
 * [Devo configurare Ethernet WAN quando uso la VPN?](do_i_have_to_configure_ethernet_wan_when_using_vpn.md)
 
-## Aggiornamento
+## Aggiornamento {#upgrade}
 
 * [Come scaricare il firmware per il mio router?](how_to_download_firmware.md)
 * [Come aggiornare o eseguire il downgrade del firmware del router manualmente?](../tutorials/how_to_upgrade_downgrade_router.md)
 
-## Altro
+## Altro {#other}
 
 * [Stato dell'indicatore LED](led.md)
 * [App mobile GL.iNet](mobile_app.md)

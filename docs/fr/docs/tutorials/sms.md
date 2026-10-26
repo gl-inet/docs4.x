@@ -1,10 +1,10 @@
-# SMS
+# SMS {#sms}
 
 Les routeurs cellulaires GL.iNet sont équipés d'un modem intégré qui prend en charge l'envoi et la réception de SMS après l'insertion d'une carte SIM.
 
 **Remarque** : cette fonctionnalité fonctionne uniquement sur les modèles GL.iNet 4G/5G équipés du module 4G LTE/5G NR d'origine. Elle n'est pas prise en charge par les autres modules ni par les modules USB tiers.
 
-## Modèles pris en charge
+## Modèles pris en charge {#supported-models}
 
 ??? "Modèles pris en charge"
     - GL-E5800 (Mudi 7)
@@ -41,7 +41,7 @@ Les routeurs cellulaires GL.iNet sont équipés d'un modem intégré qui prend e
     - GL-B1300 (Convexa-B)
     - GL-AP1300 (Cirrus)
 
-## Configuration rapide
+## Configuration rapide {#quick-setup}
 
 Prenons le GL-X3000 (Spitz AX) comme exemple.
 

@@ -1,4 +1,4 @@
-# Tor
+# Tor {#tor}
 
 Tor (derived from **The Onion Router**) is a free and open-source software for enabling anonymous communication. It helps users to explore the internet with privacy. [Learn More about the Tor](https://www.torproject.org/){target="_blank"}.
 
@@ -9,7 +9,7 @@ Tor (derived from **The Onion Router**) is a free and open-source software for e
   - IPv6
   - ADGuard Home.
 
-## Supported models
+## Supported models {#supported-models}
 
 ??? "Supported Models"
 
@@ -50,11 +50,11 @@ Tor (derived from **The Onion Router**) is a free and open-source software for e
     - GL-B1300 (Convexa-B)
     - GL-X300B (Collie)
 
-## Quick Setup
+## Quick Setup {#quick-setup}
 
 On the left side of the web Admin Panel, go to **VPN** -> **Tor**. 
 
-For firmware ver.4.8.4 and later, go to **APPLICATIONS** -> **Tor**.
+For firmware v4.8.4 and later, go to **APPLICATIONS** -> **Tor**.
 
 Click the toggle switch to enable it, enable **Custom Exit Nodes** if required, then click **Apply**.
 
@@ -64,7 +64,7 @@ It will start connecting. If your network meet the requirements, it will show co
 
 ![tor connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/tor/connected.png){class="glboxshadow" width="672"}
 
-## Manual Install
+## Manual Install {#manual-install}
 
 **Note**: Some models can have Tor manually installed via a plug-in, but this may increase CPU load and slow down system response.
 

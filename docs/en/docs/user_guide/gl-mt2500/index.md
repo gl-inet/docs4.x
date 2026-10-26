@@ -1,12 +1,12 @@
-# Brume 2 (GL-MT2500/GL-MT2500A) User Guide
+# Brume 2 (GL-MT2500/GL-MT2500A) User Guide {#brume-2-gl-mt2500gl-mt2500a-user-guide}
 
-## Product overview
+## Product overview {#product-overview}
 
 Brume 2 (GL-MT2500/GL-MT2500A) is a lightweight and powerful VPN gateway that runs on OpenWrt v21.02 operating system. It is compactly designed to host a VPN server at home, or run SD-WAN (Site-to-Site) for small and medium-sized enterprises. It comes in two variants: GL-MT2500 with a plastic casing and GL-MT2500A with an aluminum casing.
 
 ![gl-mt2500 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/hardware_info/mt2500_interface.jpg){class="glboxshadow"}
 
-## Package contents
+## Package contents {#package-contents}
 
 - 1 x Brume 2 (GL-MT2500/GL-MT2500A)
 - 1 x User manual
@@ -20,25 +20,25 @@ The following figure shows the GL-MT2500A as an example.
 
 ![gl-mt2500 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/first_time_setup/mt2500a_unboxing.jpg){class="glboxshadow"}
 
-## How to set up Brume 2
+## How to set up Brume 2 {#how-to-set-up-brume-2}
 
 To set up Brume 2, you will use one of the supported internet connection methods: Ethernet, Tethering and Cellular. Repeater is not supported as Brume 2 does not have Wi-Fi module. Watch this setup video or follow the steps below. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rpi_loOwUQM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Power on
+### 1. Power on {#1-power-on}
 
 Put the two-piece power adapter together. Connect it to your router and plug it into an outlet. It will start up automatically.
 
-### 2. Connect device
+### 2. Connect device {#2-connect-device}
 
 Connect your device (e.g., computer, laptop) to the router's LAN port using an Ethernet cable. 
 
-### 3. Log in to web Admin Panel
+### 3. Log in to web Admin Panel {#3-log-in-to-web-admin-panel}
 
 Open a web browser, enter `192.168.8.1` in the address bar and log in. Choose your language and set your admin password, then click **Apply**. 
 
-### 4. Internet setup
+### 4. Internet setup {#4-internet-setup}
 
 === "Ethernet"
 
@@ -74,7 +74,7 @@ Open a web browser, enter `192.168.8.1` in the address bar and log in. Choose yo
 
 **Note:** If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, please set up more than one internet connection methods. 
 
-## How to set up a VPN 
+## How to set up a VPN {#how-to-set-up-a-vpn}
 
 A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an additional layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Brume 2 (and other GL.iNet routers) supports OpenVPN and WireGuard. Additionally, it supports Tor.
 
@@ -98,13 +98,13 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     * [How to set up Tor](../../interface_guide/tor.md).
 
-## Clients
+## Clients {#clients}
 
 The Clients page displays information about connected devices. For each client, it shows the device name, IP and MAC addresses, download and upload speeds, total traffic, and provides the ability to reserve IP, block the client or perform other actions.
 
 To set up Clients, refer to [Clients](../../interface_guide/clients.md).
 
-## Cloud services
+## Cloud services {#cloud-services}
 
 === "GoodCloud"
 
@@ -118,7 +118,7 @@ To set up Clients, refer to [Clients](../../interface_guide/clients.md).
     
     To set up AstroWarp, refer to [AstroWarp](../../interface_guide/astrowarp.md).
 
-## Applications
+## Applications {#applications}
 
 === "Plug-ins"
 
@@ -166,7 +166,7 @@ To set up Clients, refer to [Clients](../../interface_guide/clients.md).
     
     To set up Tailscale, refer to [Tailscale](../../interface_guide/tailscale.md).
 
-## Network settings
+## Network settings {#network-settings}
 
 === "Port forwarding"
 
@@ -237,7 +237,7 @@ To set up Clients, refer to [Clients](../../interface_guide/clients.md).
 
     To set up NAT settings, refer to [NAT Settings](../../interface_guide/nat_settings.md).
 
-## System settings
+## System settings {#system-settings}
 
 === "Overview"
 

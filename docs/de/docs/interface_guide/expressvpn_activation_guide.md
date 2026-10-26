@@ -1,4 +1,4 @@
-# ExpressVPN-Aktivierungsanleitung
+# ExpressVPN-Aktivierungsanleitung {#expressvpn-activation-guide}
 
 **Hinweis:** Diese Anleitung gilt ausschließlich für den gemeinsam von GL.iNet und ExpressVPN angebotenen Router **Fortify (GL-MT6000)**.
 
@@ -10,7 +10,7 @@
 
 Dieser Leitfaden führt Sie durch die Einlösung des 12-monatigen ExpressVPN-Plans im Web-Admin-Panel des Routers. Es umfasst auch die Anpassung von VPN-Richtlinien basierend auf Ihren Nutzungsszenarien und Anforderungen, damit Sie mühelos verschlüsselte, sichere und schnelle Internetverbindungen genießen können.
 
-## ExpressVPN-Plan einlösen
+## ExpressVPN-Plan einlösen {#redeem-expressvpn-plan}
 
 Melden Sie sich im Web-Admin-Panel von Fortify an und navigieren Sie zu **VPN** -> **VPN Client Profile**.
 
@@ -40,7 +40,7 @@ Ihr Plan wurde aktiviert. Kehren Sie zum Web-Admin-Panel Ihres Fortify-Routers z
 
 ![expressvpn checkout2](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/expressvpn_checkout2.png){class="glboxshadow"}
 
-## Melden Sie sich bei ExpressVPN an
+## Melden Sie sich bei ExpressVPN an {#log-in-to-expressvpn}
 
 Gehen Sie im Web-Admin-Panel Ihres Fortify zu **VPN** -> **VPN Client Profile**.
 
@@ -78,9 +78,9 @@ Jetzt können Sie VPN-Tunnel hinzufügen und VPN-Richtlinien entsprechend Ihren 
 
 ![expressvpn dashboard](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/expressvpn_dashboard.png){class="glboxshadow"}
 
-## VPN-Tunnel hinzufügen
+## VPN-Tunnel hinzufügen {#add-vpn-tunnel}
 
-### Allgemeine Schritte
+### Allgemeine Schritte {#general-steps}
 
 Führen Sie die folgenden Schritte aus, um Ihren VPN-Tunnel hinzuzufügen und VPN-Richtlinien zu konfigurieren. Siehe ggf. [Fallreferenz](#case-reference).
 
@@ -275,7 +275,7 @@ Hier sind zwei typische Konfigurationsfälle für VPN-Richtlinien mit schrittwei
 
         Jetzt verwenden alle Geräte **VPN Tunnel 1** beim Zugriff auf bestimmte Domänen und **VPN Tunnel 2** für den gesamten verbleibenden Internetzugriff. Wenn die VPN-Tunnel unerwartet getrennt werden, wird der Internetzugriff für alle Geräte blockiert, um DNS-Lecks und IP-Tracking zu verhindern.
 
-## Kill Switch
+## Kill Switch {#kill-switch}
 
 Ein VPN-Kill-Switch hilft zu verhindern, dass Datenverkehr bei einem Ausfall der VPN-Verbindung auf eine unverschlüsselte Internetverbindung ausweicht.
 
@@ -289,7 +289,7 @@ Fortify unterstützt die Kill-Switch-Konfiguration für die globale VPN-Verbindu
 
 – Informationen zum Einrichten des Kill Switch für jeden einzelnen VPN-Tunnel finden Sie unter [Tunneloptionen](#tunnel-options).
 
-## All Other Traffic
+## All Other Traffic {#all-other-traffic}
 
 Klicken Sie oben rechts auf das Zahnradsymbol, um Richtlinien für den Datenverkehr einzurichten, der nicht mit dem VPN-Tunnel übereinstimmt.
 
@@ -325,7 +325,7 @@ Klicken Sie in einer Tunnelgruppe auf das Zahnradsymbol und wählen Sie **Option
 
 - **MTU**: Der MTU-Wert, den Sie für den Tunnel festlegen, überschreibt die MTU-Einstellungen in der Konfigurationsdatei.
 
-## Tunnelpriorität
+## Tunnelpriorität {#tunnel-priority}
 
 Um die Tunnelpriorität anzupassen, klicken Sie in einer Tunnelgruppe auf das Zahnradsymbol und wählen Sie **Priority** aus.
 

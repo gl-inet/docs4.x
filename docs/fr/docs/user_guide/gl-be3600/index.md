@@ -1,6 +1,6 @@
-# Guide d'utilisation du Slate 7 (GL-BE3600)
+# Guide d'utilisation du Slate 7 (GL-BE3600) {#slate-7-gl-be3600-user-guide}
 
-## Aperçu du produit
+## Aperçu du produit {#product-overview}
 
 Le Slate 7 (GL-BE3600) est le premier routeur de voyage portable Wi-Fi 7 double bande de GL.iNet, conçu avec des technologies Wi-Fi 7 haut de gamme, dont Multi-Link Operation et le 4K QAM. Il offre des débits théoriques double bande de 688Mbps (2.4GHz) et 2882Mbps (5GHz), pour une expérience fluide de streaming 8K et de jeux mobiles. Son écran tactile permet de vérifier l'état du réseau d'un seul coup d'œil et d'effectuer facilement les opérations de base.
 
@@ -8,7 +8,7 @@ Le Slate 7 (GL-BE3600) est le premier routeur de voyage portable Wi-Fi 7 double 
 
 ![gl-be3600 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/hardware_info/be3600_interface.jpg){class="glboxshadow"}
 
-## Contenu du colis
+## Contenu du colis {#package-contents}
 
 - 1 x Slate 7 (GL-BE3600)
 - 1 x Manuel d'utilisation
@@ -24,7 +24,7 @@ Découvrez la vidéo de déballage du Slate 7 ci-dessous.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bEuwGm0hQ5k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Écran tactile
+## Écran tactile {#touchscreen}
 
 | Affichage à l'écran                    | Description         |
 | :------------------------------------- | :------------------ |
@@ -41,18 +41,18 @@ Découvrez la vidéo de déballage du Slate 7 ci-dessous.
 | ![unlock](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/slide-to-unlock.png){width="400"} | Touchez l'écran pour le réveiller, puis faites glisser de gauche à droite pour le déverrouiller |
 | ![reboot](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/slide-to-reboot.png){width="400"} | Après avoir appuyé sur « Reboot », faites glisser de gauche à droite pour confirmer |
 
-## Configuration initiale du Slate 7
+## Configuration initiale du Slate 7 {#how-to-set-up-slate-7}
 
 Regardez cette vidéo de configuration ou suivez les étapes ci-dessous.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YMHQK8wSQGM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <small>(Dans cette vidéo, nous montrons la configuration du Slate 7 en mode Repeater. Si vous devez configurer le Slate 7 avec une autre méthode de connexion Internet, reportez-vous aux étapes ci-dessous.)</small>
 
-### 1. Mise sous tension
+### 1. Mise sous tension {#1-power-on}
 
 Assemblez les deux parties de l'adaptateur secteur. Branchez-le à votre routeur, puis à une prise électrique. Il démarrera automatiquement.
 
-### 2. Connecter un appareil
+### 2. Connecter un appareil {#2-connect-device}
 
 Connectez un appareil (par exemple un ordinateur, un ordinateur portable ou un smartphone) au routeur via le Wi-Fi ou Ethernet.
 
@@ -64,11 +64,11 @@ Connectez un appareil (par exemple un ordinateur, un ordinateur portable ou un s
 
     Sur votre appareil, repérez le nom du réseau Wi-Fi du routeur dans la liste des réseaux disponibles, puis saisissez le mot de passe pour rejoindre le réseau. Le nom du réseau et le mot de passe par défaut sont indiqués sur l'étiquette du routeur.
 
-### 3. Se connecter au panneau d'administration web
+### 3. Se connecter au panneau d'administration web {#3-log-in-to-web-admin-panel}
 
 Ouvrez un navigateur web, saisissez `192.168.8.1` dans la barre d'adresse, puis connectez-vous. Choisissez une langue et définissez votre mot de passe administrateur, puis cliquez sur **Apply**.
 
-### 4. Configuration de la connexion Internet
+### 4. Configuration de la connexion Internet {#4-internet-setup}
 
 **Remarque :** Les instructions suivantes s'appliquent aux utilisateurs qui configurent le routeur via le panneau d'administration web GL.iNet. Si vous préférez utiliser l'application GL.iNet, [téléchargez l'application](https://www.gl-inet.com/app/){target="_blank"} et suivez les instructions à l'écran.
 
@@ -122,7 +122,7 @@ Configurez votre Slate 7 à l'aide de l'une des méthodes de connexion Internet 
 
 Vous trouverez ci-dessous un aperçu des fonctions disponibles dans le panneau d'administration web du Slate 7.
 
-## Wireless
+## Wireless {#wireless}
 
 La page Wireless vous permet de configurer les paramètres des réseaux Wi-Fi 5 GHz et 2.4 GHz, notamment l'activation du Wi-Fi, le réglage de la puissance TX, la définition du nom du réseau Wi-Fi (SSID), l'activation du BSSID aléatoire, le choix du mode de sécurité Wi-Fi et du mot de passe, la configuration de la visibilité du SSID, ainsi que le choix du mode Wi-Fi, de la largeur de bande et du canal.
 
@@ -130,13 +130,13 @@ En outre, le Slate 7 prend en charge le Wi-Fi MLO, c'est-à-dire Multi-Link Oper
 
 Pour configurer Wireless, reportez-vous à [Wireless](../../interface_guide/wireless.md).
 
-## Clients
+## Clients {#clients}
 
 La page Clients affiche des informations sur les appareils connectés. Pour chaque client, elle indique le nom, les adresses IP et MAC, les vitesses de téléchargement et de téléversement, le trafic total, et permet de bloquer le client ou d'effectuer d'autres actions.
 
 Pour configurer Clients, reportez-vous à [Clients](../../interface_guide/clients.md).
 
-## Services Cloud
+## Services Cloud {#cloud-services}
 
 === "GoodCloud"
 
@@ -150,7 +150,7 @@ Pour configurer Clients, reportez-vous à [Clients](../../interface_guide/client
     
     Pour configurer AstroWarp, reportez-vous à [AstroWarp](../../interface_guide/astrowarp.md).
 
-## VPN 
+## VPN {#vpn}
 
 Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre votre appareil et le serveur VPN. Il ajoute une couche supplémentaire de confidentialité et de sécurité (client VPN) et vous permet d'accéder à un réseau distant (serveur VPN). Le Slate 7 prend en charge OpenVPN, WireGuard et Tor.
 
@@ -174,7 +174,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
     
     * [Comment configurer Tor](../../interface_guide/tor.md)
 
-## Applications
+## Applications {#applications}
 
 === "Plug-ins"
 
@@ -220,7 +220,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
     
     Pour configurer Tailscale, reportez-vous à [Tailscale](../../interface_guide/tailscale.md).
 
-## Réseau
+## Réseau {#network}
 
 === "Port forwarding"
 
@@ -303,7 +303,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     Pour configurer les paramètres NAT, reportez-vous à [NAT Settings](../../interface_guide/nat_settings.md).
 
-## Système
+## Système {#system}
 
 === "Overview"
 
@@ -411,6 +411,6 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     Pour des instructions détaillées, reportez-vous à [Advanced Settings](../../interface_guide/advanced_settings.md).
 
-## Déclaration UE de conformité
+## Déclaration UE de conformité {#declaration-of-conformity}
 
 Par la présente, GL TECHNOLOGIES (HONG KONG) LIMITED déclare que le type d'équipement radio [Routeur de voyage Wi-Fi 7 bi-bande, GL-BE3600] est conforme aux exigences essentielles et aux autres dispositions pertinentes de la Directive 2014/53/UE. Le texte intégral de la déclaration de conformité UE est disponible à l'adresse suivante: [https://www.gl-inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}.

@@ -1,22 +1,22 @@
-# Urban Shield VPN auf einem GL.iNet-Router einrichten
+# Urban Shield VPN auf einem GL.iNet-Router einrichten {#how-to-set-up-urban-shield-vpn-on-glinet-router}
 
 [Urban Shield VPN](https://urbanshieldvpn.com/) ist ein VPN-Anbieter, der sich auf hochsichere und leistungsstarke VPN-Lösungen für Nutzer weltweit spezialisiert hat. Er bietet vorkonfigurierte GL.iNet-VPN-Router und flexible Abonnements an, damit Sie sicher und privat surfen können. Aktivieren Sie Urban Shield VPN einfach auf Ihrem Router, und Sie sind durch den Zugriff auf die globalen Server geschützt, sodass Sie beruhigt surfen und streamen können.
 
-## Einrichtungsanleitung
+## Einrichtungsanleitung {#setup-guide}
 
 Hier ein Beispiel: Der GL-B3000 wird als WireGuard-Client eingerichtet, um eine Verbindung zu Urban Shield VPN herzustellen.
 
-### 1. Bei Urban Shield VPN registrieren
+### 1. Bei Urban Shield VPN registrieren {#1-sign-up-urban-shield-vpn}
 
 Besuchen Sie die [offizielle Website von Urban Shield VPN](https://urbanshieldvpn.com/){target="_blank"}, um ein Urban-Shield-VPN-Konto zu erstellen.
 
 ![Urban Shield VPN signup](https://static.gl-inet.com/docs/router/de/4/interface_guide/setup_urban_shield_vpn/sign_in.png){class="glboxshadow"}
 
-### 2. Router einschalten
+### 2. Router einschalten {#2-power-on-router}
 
 Schalten Sie Ihren Router ein und verbinden Sie ein Gerät (z. B. Laptop oder Smartphone) per Ethernet-Kabel oder über WLAN mit dem Router.
 
-### 3. Auf das webbasierte Admin Panel zugreifen
+### 3. Auf das webbasierte Admin Panel zugreifen {#3-access-web-admin-panel}
 
 Folgen Sie den nachstehenden Schritten, um auf das webbasierte Admin Panel zuzugreifen. Wenn Sie bereits angemeldet sind, gehen Sie bitte direkt zum [nächsten Abschnitt](#4-network-setup).
 
@@ -30,13 +30,13 @@ Richten Sie Ihr Wi-Fi-Netzwerk ein. Auf der Seite werden die werkseitigen Wi-Fi-
 
 Klicken Sie anschließend auf **Next**, um sich mit Ihrem Admin-Passwort anzumelden.
 
-### 4. Netzwerkeinrichtung
+### 4. Netzwerkeinrichtung {#4-network-setup}
 
 Oben rechts befindet sich ein **Network Setup Wizard** (verfügbar ab Firmware v4.7). Folgen Sie bitte diesem Assistenten, um Ihren Router vor der VPN-Einrichtung für den Internetzugang zu konfigurieren.
 
 ![network setup](https://static.gl-inet.com/docs/router/de/4/interface_guide/setup_urban_shield_vpn/network_setup_wizard.jpg){class="glboxshadow"}
 
-### 5. Urban Shield VPN aktivieren
+### 5. Urban Shield VPN aktivieren {#5-activate-urban-shield-vpn}
 
 Wählen Sie im linken Menü **VPN** -> **WireGuard Client**. Sie sehen dann die Urban-Shield-VPN-Anmeldeseite.
 
@@ -66,7 +66,7 @@ Sie können den Verbindungsstatus auch im VPN Dashboard prüfen.
 
 ![vpn dashboard](https://static.gl-inet.com/docs/router/de/4/interface_guide/setup_urban_shield_vpn/vpn_dashboard.png){class="glboxshadow"}
 
-## Kontoinformationen bearbeiten oder abmelden
+## Kontoinformationen bearbeiten oder abmelden {#edit-account-info-or-logout}
 
 Klicken Sie auf das Zahnradsymbol, um die Kontoinformationen zu bearbeiten oder sich abzumelden.
 
@@ -74,13 +74,13 @@ Klicken Sie auf das Zahnradsymbol, um die Kontoinformationen zu bearbeiten oder 
 
 ![edit account or logout 2](https://static.gl-inet.com/docs/router/de/4/interface_guide/setup_urban_shield_vpn/edit_account_or_logout_2.jpg){class="glboxshadow"}
 
-## Abo verlängern
+## Abo verlängern {#go-renew}
 
 Wenn Sie auf **Go Renew** klicken, werden Sie zur offiziellen Website weitergeleitet, um Ihr Abonnement zu verlängern.
 
 ![go renew](https://static.gl-inet.com/docs/router/de/4/interface_guide/setup_urban_shield_vpn/go_renew.jpg){class="glboxshadow"}
 
-## Löschen
+## Löschen {#delete}
 
 Sie können alle Konfigurationsdateien sowie den privaten und den öffentlichen Schlüssel mit einem Klick löschen.
 

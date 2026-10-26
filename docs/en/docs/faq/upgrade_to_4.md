@@ -1,4 +1,4 @@
-# How to upgrade to firmware 4.x?
+# How to upgrade to firmware 4.x? {#how-to-upgrade-to-firmware-4x}
 
 **This document is outdated and no longer maintained. Click [here](../interface_guide/upgrade.md) for the latest upgrade guide.**
 
@@ -12,7 +12,7 @@ The GL-B1300 and GL-S1300 do not support mesh function in firmware v4.x.
 
 ---
 
-## Method 1. Local Upgrade
+## Method 1. Local Upgrade {#method-1-local-upgrade}
 
 You can upgrade the firmware via web Admin Panel.
 
@@ -20,13 +20,13 @@ You can upgrade the firmware via web Admin Panel.
 
 2. Download the 4.x firmware [here](https://dl.gl-inet.com){target="_blank"}. Make sure you **download the one for common upgrade**.
 
-3. Log in to the web Admin Panel, go to **Upgrade** -> **Local Upgrade**. Upload the firmware file you just donwloaded.
+3. Log in to the web Admin Panel, go to **Upgrade** -> **Local Upgrade**. Upload the firmware file you just downloaded.
 
     **Note:** 4.x firmware is not compatible with 3.x firmware. When upgrading from 3.x firmware, do **NOT** keep settings.
 
     ![local upgrade](https://static.gl-inet.com/docs/router/en/4/faq/upgrade_to_4/ax1800_upgrade_4.png){class="glboxshadow gl-90-desktop"}
 
-## Method 2. U-Boot Upgrade
+## Method 2. U-Boot Upgrade {#method-2-u-boot-upgrade}
 
 1. Download the 4.x firmware [here](https://dl.gl-inet.com){target="_blank"}. Make sure you **download the one for U-Boot**.
 

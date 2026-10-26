@@ -1,20 +1,20 @@
-# ペアレンタルコントロール（ファームウェア v4.9）
+# ペアレンタルコントロール（ファームウェア v4.9） {#parental-control-firmware-v49}
 
-> このガイドはファームウェア v4.9 以降に適用されます。以前のバージョンについては [こちら](parental_control.md) をクリックしてください。
+**注意**: このガイドはファームウェア v4.9 以降に適用されます。以前のバージョンについては [こちら](parental_control.md) をクリックしてください。
 
-Web Admin Panel の左側で、**FLOW CONTROL** -> **Parental Control** に移動します。
+---
+
+Web 管理パネルの左側で、**FLOW CONTROL** -> **Parental Control** に移動します。
 
 ペアレンタルコントロールは、不適切な Web サイトをブロックし、スクリーンタイムを制限することで、子どもをオンライン上で保護します。有害なコンテンツをフィルタリングし、責任あるインターネット利用を促します。
 
 GL.iNet Parental Control では、子どもがよく使うデバイスのインターネットアクセスを制限するための柔軟なスケジュール設定を利用できます。不適切なアプリや Web サイトをワンクリックでブロックできます。さらに、必要に応じてドメインを手動で入力し、包括的なオンライン保護を実現できます。
 
-ファームウェア v4.9 では、Parental Control のページレイアウトと操作フローが改善され、設定が簡単になり、ルールをより直感的に確認できるようになりました。
-
 ---
 
 以下の手順でペアレンタルコントロールを設定してください。
 
-1. ルーターの Web Admin Panel にログインし、**FLOW CONTROL** -> **Parental Control** に移動します。ルーターの時刻が正しいことを確認してください。
+1. ルーターの Web 管理パネルにログインし、**FLOW CONTROL** -> **Parental Control** に移動します。ルーターの時刻が正しいことを確認してください。
 
     ![router time](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control_v4.9/router_time.png){class="glboxshadow"}
 
@@ -86,4 +86,4 @@ GL.iNet Parental Control では、子どもがよく使うデバイスのイン�
 
 ---
 
-ご不明な点がありましたら、[Community Forum](https://forum.gl-inet.com){target="_blank"} をご利用いただくか、[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

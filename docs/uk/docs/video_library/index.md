@@ -27,7 +27,7 @@ hide:
 ## Відеопосібники {#video-tutorials}
 
 * [Підключення маршрутизатора GL.iNet до загальнодоступної мережі Wi-Fi](tutorials.md#how-to-connect-your-glinet-router-to-a-public-wi-fi)
-* [Налаштування VPN-сервера (Flint 3) і VPN-клієнта (Slate 7) за кілька хвилин](tutorials.md#how-to-set-up-vpn-server-flint-3--vpn-client-slate-7-in-minutes)
+* [Налаштування VPN-сервера (Flint 3) і VPN-клієнта (Slate 7) за кілька хвилин](tutorials.md#how-to-set-up-vpn-server-flint-3-vpn-client-slate-7-in-minutes)
 * [Налаштування фізичної картки SIMPoYo eSIM з маршрутизатором GL.iNet](tutorials.md#how-to-set-up-the-simpoyo-esim-physical-card-with-glinet-router)
-* [Скидання маршрутизатора GL.iNet до заводських налаштувань | Beryl AX (GL-MT3000)](tutorials.md#how-to-reset-your-glinet-router-to-factory-settings--beryl-ax-gl-mt3000)
+* [Скидання маршрутизатора GL.iNet до заводських налаштувань | Beryl AX (GL-MT3000)](tutorials.md#how-to-reset-your-glinet-router-to-factory-settings-beryl-ax-gl-mt3000)
 * [<span style="color:#888;">Докладніше</span>](tutorials.md)

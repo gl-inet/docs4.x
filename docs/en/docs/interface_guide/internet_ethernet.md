@@ -1,4 +1,4 @@
-# Connect to the Internet via an Ethernet cable
+# Connect to the Internet via an Ethernet cable {#connect-to-the-internet-via-an-ethernet-cable}
 
 Connect the router to a broadband network via an Ethernet cable plugged into the WAN port. It usually automatically acquires an IP address (DHCP). Users can also configure static IP or PPPoE manually. This method offers high stability and fast speed, making it ideal for home and office environments with fixed broadband access.
 
@@ -14,7 +14,7 @@ Follow the steps below to connect your router to the Internet via an Ethernet ca
 
 **Tip**: You can switch the WAN port role to a LAN port if needed. This is useful when you use the router as a [repeater](internet_repeater.md) since the physical WAN port is idle. If you switch the WAN to LAN, you will have one more LAN port.
 
-## Protocol
+## Protocol {#protocol}
 
 There are 3 types of protocols, DHCP, Static, PPPoE. Click **Modify** to change.
 
@@ -38,7 +38,7 @@ There are 3 types of protocols, DHCP, Static, PPPoE. Click **Modify** to change.
 
     ![ethernet pppoe](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/ethernet_5.png){class="glboxshadow"}
 
-## Advanced
+## Advanced {#advanced}
 
 In addition to the essential settings, there are also some optional advanced settings for the above three protocols
 
@@ -52,7 +52,7 @@ In addition to the essential settings, there are also some optional advanced set
 
 * **MTU**: The default MTU value is 1500 bytes.
 
-## Ethernet Port
+## Ethernet Port {#ethernet-port}
 
 Click the gear icon in the upper right corner, and you will be directed to the [Ethernet Port](ethernet_port.md) to manage the Ethernet ports on your router.
 
@@ -68,7 +68,7 @@ The **LAN** page displays the port role and negotiated network port rate.
 
 Please refer to [Ethernet Port](ethernet_port.md) for details. 
 
-## Troubleshooting
+## Troubleshooting {#troubleshooting}
 
 If an ethernet cable is plugged into the WAN port but the Internet is unavailable, a yellow message will be displayed as shown below.
 

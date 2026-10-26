@@ -1,22 +1,22 @@
-# Jak zmienić typ NAT w grach
+# Jak zmienić typ NAT w grach {#how-to-change-the-nat-type-on-gaming}
 
 Większość producentów gier zaleca włączenie UPnP na routerze, aby uzyskać lepszy typ NAT, jednak badania pokazują, że UPnP jest niebezpiecznym protokołem.
 
 Możesz osiągnąć ten sam cel w bezpieczniejszy sposób, używając funkcji DMZ lub przekierowania portów.
 
-## Sprawdź IP gry
+## Sprawdź IP gry {#check-your-game-ip}
 
 Przejdź do listy klientów i sprawdź adres IP przypisany do Twojej gry. Będziesz potrzebować tego adresu IP w dalszej konfiguracji
 
 ![gameip](https://static.gl-inet.com/docs/router/en/4/tutorials/gamling/gameip.png){class="glboxshadow"}
 
-## Metoda 1 DMZ
+## Metoda 1 DMZ {#method-1-dmz}
 
 Przejdź do paska bocznego **Network > Port Forwarding** i włącz DMZ z adresem IP gry.
 
 ![dmz](https://static.gl-inet.com/docs/router/en/4/tutorials/gamling/dmzgame.png){class="glboxshadow"}
 
-## Metoda 2 Przekierowanie portów
+## Metoda 2 Przekierowanie portów {#method-2-port-forward}
 
 Przejdź do paska bocznego **Network > Port Forwarding** i dodaj niezbędne porty z adresem IP gry.
 
@@ -41,7 +41,7 @@ Niektóre gry mogą wymagać przekierowania innych portów, więcej szczegółó
 
 [Przekierowanie portów w różnych grach](https://portforward.com/games/)
 
-## Full Cone NAT
+## Full Cone NAT {#full-cone-nat}
 
 Możesz włączyć Full Cone NAT w **Network > NAT Settings**, aby poprawić opóźnienia.
 

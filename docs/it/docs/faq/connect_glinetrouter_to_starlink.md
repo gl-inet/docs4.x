@@ -1,4 +1,4 @@
-# Come collegare un router GL.iNet alla parabola Starlink?
+# Come collegare un router GL.iNet alla parabola Starlink? {#how-to-connect-a-glinet-router-to-starlink-dish}
 
 Se devi collegare un router GL.iNet alla parabola Starlink, segui i passaggi riportati di seguito.
 

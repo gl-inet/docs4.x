@@ -1,0 +1,10 @@
+#!/bin/sh
+# Runs scripts/precommit.py on staged files. Enable once per clone:
+#   git config core.hooksPath .githooks
+for python in .venv/Scripts/python.exe .venv/bin/python ../Scripts/python.exe ../bin/python python3 python; do
+    if command -v "$python" >/dev/null 2>&1 && "$python" -c "import markdown, yaml" >/dev/null 2>&1; then
+        exec "$python" scripts/precommit.py
+    fi
+done
+echo "pre-commit: no Python with the documentation dependencies found; skipping checks." >&2
+exit 0

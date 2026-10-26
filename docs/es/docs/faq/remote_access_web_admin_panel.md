@@ -1,14 +1,14 @@
-# ¿Cómo acceder de forma remota al panel de administración web de un router GL.iNet?
+# ¿Cómo acceder de forma remota al panel de administración web de un router GL.iNet? {#how-to-remotely-access-the-web-admin-panel-of-a-glinet-router}
 
 Los siguientes métodos requieren una configuración previa mientras aún se encuentra físicamente junto al router.
 
-## Método 1. GoodCloud
+## Método 1. GoodCloud {#method-1-goodcloud}
 
 [GL.iNet GoodCloud](https://www.goodcloud.xyz){target="_blank"} es una plataforma diseñada para simplificar la implementación y gestión remotas de dispositivos conectados. Proporciona una forma sencilla de acceder y gestionar routers GL.iNet de forma remota. Solo tiene que vincular su router GL.iNet a GoodCloud; después podrá acceder de forma remota al panel de administración web del router en cualquier momento y desde cualquier lugar.
 
 Consulte [esta guía](../interface_guide/cloud.md){target="_blank"} para obtener más información.
 
-## Método 2. VPN
+## Método 2. VPN {#method-2-vpn}
 
 Si su router tiene una **IP pública**, puede acceder de forma remota a su panel de administración web mediante un túnel VPN. Tenga en cuenta que este método implica configuraciones avanzadas y requiere más tiempo de preparación.
 

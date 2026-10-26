@@ -10,7 +10,9 @@ It is now a multilingual documentation repository. The current language sites in
 - French: `docs/fr/`
 - Italian: `docs/it/`
 - Japanese: `docs/ja/`
+- Dutch (Nederlands): `docs/nl/`
 - Polish: `docs/pl/`
+- Swedish (Svenska): `docs/sv/`
 - Ukrainian (Українська): `docs/uk/`
 
 Each language has its own `mkdocs.yml`, `docs/`, and `overrides/` directory.
@@ -71,7 +73,15 @@ docs/
     mkdocs.yml
     docs/
     overrides/
+  nl/
+    mkdocs.yml
+    docs/
+    overrides/
   pl/
+    mkdocs.yml
+    docs/
+    overrides/
+  sv/
     mkdocs.yml
     docs/
     overrides/
@@ -94,10 +104,28 @@ mkdocs serve -f docs/en/mkdocs.yml
 mkdocs serve -f docs/de/mkdocs.yml
 mkdocs serve -f docs/es/mkdocs.yml
 mkdocs serve -f docs/ja/mkdocs.yml
+mkdocs serve -f docs/nl/mkdocs.yml
+mkdocs serve -f docs/sv/mkdocs.yml
 mkdocs serve -f docs/uk/mkdocs.yml
 ```
 
 If you are reviewing or translating localized content, open the English source page and the matching localized page side by side in VS Code.
+
+## Checks Before Committing
+
+Enable the repository's pre-commit hook once per clone:
+
+```bash
+git config core.hooksPath .githooks
+```
+
+The hook checks only the files staged for the commit:
+
+- Heading IDs and anchor links (`scripts/anchors.py`).
+- Localized pages: structure compared with the English page, untranslated English, and language rules such as Italian accents (`scripts/i18n_check.py`).
+- Localized pages: the translation cache was updated with `python scripts/translation_delta.py mark <English file> --lang <lang>` after the page changed.
+
+Commits that change only English pages are not blocked; the scheduled translation workflow syncs the other languages. To bypass the hook in an emergency, use `git commit --no-verify`.
 
 ## Online View
 
@@ -109,7 +137,9 @@ Published documentation:
 - French: [https://docs.gl-inet.com/router/fr/4/](https://docs.gl-inet.com/router/fr/4/)
 - Italian: [https://docs.gl-inet.com/router/it/4/](https://docs.gl-inet.com/router/it/4/)
 - Japanese: [https://docs.gl-inet.com/router/ja/4/](https://docs.gl-inet.com/router/ja/4/)
+- Dutch: [https://docs.gl-inet.com/router/nl/4/](https://docs.gl-inet.com/router/nl/4/)
 - Polish: [https://docs.gl-inet.com/router/pl/4/](https://docs.gl-inet.com/router/pl/4/)
+- Swedish: [https://docs.gl-inet.com/router/sv/4/](https://docs.gl-inet.com/router/sv/4/)
 - Ukrainian: [https://docs.gl-inet.com/router/uk/4/](https://docs.gl-inet.com/router/uk/4/)
 
 ## Writing Guide

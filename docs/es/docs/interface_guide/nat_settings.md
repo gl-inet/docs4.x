@@ -1,14 +1,16 @@
-# NAT Settings
+# NAT Settings {#nat-settings}
 
-Esta función está disponible desde la versión v4.5.16.
+Esta función está disponible desde el firmware v4.5 y pasó a llamarse NAT Mode en la v4.9.
 
-En el lado izquierdo del panel de administración web, vaya a **NETWORK** -> **NAT Settings**, o a **SECURITY** -> **NAT Mode** (para firmware v4.9 y posteriores).
+---
+
+En el lado izquierdo del panel de administración web, vaya a **NETWORK** -> **NAT Settings**, o a **SECURITY** -> **NAT Mode**.
 
 Esta página le permite habilitar **Full Cone NAT** para mejorar la estabilidad de las conexiones peer-to-peer en aplicaciones como juegos o streaming, y **SIP ALG** para corregir problemas de compatibilidad con servicios telefónicos basados en VoIP/SIP.
 
 ![nat settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/nat_settings/nat_settings.png){class="glboxshadow"}
 
-## Modelos compatibles
+## Modelos compatibles {#supported-models}
 
 ??? "Supported Models"
     - GL-MT6000 (Fortify)
@@ -47,7 +49,7 @@ Esta página le permite habilitar **Full Cone NAT** para mejorar la estabilidad 
     - GL-XE300 (Puli)
     - GL-B1300 (Convexa-B)
 
-## Full Cone NAT
+## Full Cone NAT {#full-cone-nat}
 
 Full Cone NAT actúa como un "atajo directo" para dispositivos como consolas de videojuegos o teléfonos cuando se conectan con otros dispositivos en línea, por ejemplo en juegos multijugador o videollamadas.
 
@@ -55,7 +57,7 @@ Al permitir que los dispositivos externos lleguen directamente a los dispositivo
 
 **Nota**: Habilitar esta función puede reducir la seguridad en comparación con otros tipos de NAT, ya que expone los puertos del dispositivo a la red pública.
 
-## SIP ALG
+## SIP ALG {#sip-alg}
 
 SIP ALG (Application Layer Gateway) funciona como un "traductor" del router para servicios de comunicación basados en VoIP/SIP, como teléfonos de oficina o llamadas realizadas desde aplicaciones.
 

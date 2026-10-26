@@ -1,4 +1,4 @@
-# Usare Uboot per sbloccare il router
+# Usare Uboot per sbloccare il router {#using-uboot-to-unbrick-your-router}
 
 Se hai bloccato il router a causa di alcuni progetti fai-da-te o del caricamento di un firmware errato, potresti non riuscire più ad accedervi. In questo caso, puoi reinstallare il firmware usando la modalità failsafe U-Boot.
 
@@ -6,13 +6,13 @@ Se hai bloccato il router a causa di alcuni progetti fai-da-te o del caricamento
 
 ---
 
-## Preparazione
+## Preparazione {#preparation}
 
 Prepara un computer con una porta Ethernet. Se il computer non dispone di una porta Ethernet, prepara un adattatore USB Ethernet aggiuntivo.
 
 **Nota**: GL-E5800 (Mudi 7) al momento non supporta il flashing del firmware tramite U-Boot.
 
-## Passaggi per lo sblocco
+## Passaggi per lo sblocco {#unbrick-steps}
 
 Fai riferimento a questo video tutorial oppure segui la procedura riportata di seguito per accedere all'interfaccia web U-Boot e reinstallare il firmware.
 

@@ -1,12 +1,12 @@
-# Guide d'utilisation de Mango 2 (GL-MG1300)
+# Guide d'utilisation de Mango 2 (GL-MG1300) {#mango-2-gl-mg1300-user-guide}
 
-## Aperçu du produit
+## Aperçu du produit {#product-overview}
 
 Mango 2 (GL-MG1300) est le premier mini-routeur de voyage Wi-Fi 5 double bande de GL.iNet, doté d'un design ultrafin et portable. Il offre des débits théoriques de 400 Mbit/s (2,4 GHz) et 866 Mbit/s (5 GHz), avec une configuration MIMO 2×2. OpenVPN et WireGuard sont préinstallés ; le routeur prend en charge plus de 30 services VPN permettant de chiffrer le trafic réseau lorsque le client VPN est activé, et permet la gestion à distance via GoodCloud, conciliant ainsi performances, praticité et sécurité.
 
 ![mg1300 illustration](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mg1300/product_info/mg1300_overview.jpg){class="glboxshadow"}
 
-## Contenu du colis
+## Contenu du colis {#package-contents}
 
 - 1 x Mango 2 (GL-MG1300)
 - 1 x Manuel d'utilisation
@@ -19,15 +19,15 @@ Regardez ci-dessous la vidéo de déballage de Mango 2.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xwHgLdWPwPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Comment configurer Mango 2
+## Comment configurer Mango 2 {#how-to-set-up-mango-2}
 
 Pour configurer Mango 2, utilisez l'une des quatre méthodes de connexion Internet prises en charge : Ethernet, Repeater, Tethering ou Cellular. Suivez les étapes ci-dessous.
 
-### 1. Mise sous tension
+### 1. Mise sous tension {#1-power-on}
 
 Branchez le câble d'alimentation USB Type-C sur le port d'alimentation du routeur. Connectez l'autre extrémité à un adaptateur secteur 5 V/2 A (non fourni), puis branchez-le sur une prise électrique.
 
-### 2. Connecter un appareil
+### 2. Connecter un appareil {#2-connect-device}
 
 Connectez un appareil (par exemple, un ordinateur, un ordinateur portable ou un smartphone) au routeur via Wi-Fi ou Ethernet.
 
@@ -39,13 +39,13 @@ Connectez un appareil (par exemple, un ordinateur, un ordinateur portable ou un 
 
     Sur votre appareil, accédez à Settings -> WLAN, recherchez le nom du réseau Wi-Fi du routeur dans la liste des réseaux disponibles et saisissez le mot de passe. Le nom et le mot de passe par défaut figurent sur l'étiquette sous le routeur.
 
-### 3. Se connecter au panneau d'administration web
+### 3. Se connecter au panneau d'administration web {#3-log-in-to-web-admin-panel}
 
 Ouvrez un navigateur web, saisissez `192.168.8.1` dans la barre d'adresse et connectez-vous. Choisissez votre langue, définissez le mot de passe administrateur, puis cliquez sur **Apply**.
 
 Si vous modifiez les informations Wi-Fi, reconnectez ensuite votre appareil au réseau Wi-Fi du routeur avec les nouveaux identifiants.
 
-### 4. Configuration de la connexion Internet
+### 4. Configuration de la connexion Internet {#4-internet-setup}
 
 **Remarque :** Les instructions suivantes concernent les utilisateurs qui configurent le routeur depuis le GL.iNet Web Admin Panel. Si vous préférez l'application GL.iNet, [téléchargez-la](https://www.gl-inet.com/app/){target="_blank"} et suivez les instructions à l'écran.
 
@@ -101,19 +101,19 @@ Configurez Mango 2 avec l'une des méthodes de connexion Internet prises en char
 
 Vous trouverez ci-dessous un aperçu des fonctions du panneau d'administration web de Mango 2.
 
-## Réseau sans fil
+## Réseau sans fil {#wireless}
 
 La page Wireless permet de configurer Main Network, Guest Network et IoT Network. Pour chaque type de réseau Wi-Fi, les bandes 5 GHz et 2,4 GHz peuvent être configurées indépendamment. Vous pouvez également activer et définir les paramètres de base de chaque bande, notamment le SSID Wi-Fi, le mode de sécurité, le mot de passe et le BSSID aléatoire.
 
 Pour configurer le réseau sans fil, consultez [Réseau sans fil](../../interface_guide/wireless.md).
 
-## Clients
+## Clients {#clients}
 
 La page Clients affiche des informations sur les appareils connectés. Pour chaque client, elle indique le nom, les adresses IP et MAC, les vitesses de téléchargement et d'envoi, le trafic total, et permet également de bloquer le client ou d'effectuer d'autres actions.
 
 Pour configurer les clients, consultez [Clients](../../interface_guide/clients.md).
 
-## Services Cloud
+## Services Cloud {#cloud-services}
 
 === "GL.iNet Account"
 
@@ -131,7 +131,7 @@ Pour configurer les clients, consultez [Clients](../../interface_guide/clients.m
 
     Pour configurer GoodPAS, consultez [GoodPAS](../../interface_guide/goodpas.md).
 
-## VPN
+## VPN {#vpn}
 
 Un VPN (réseau privé virtuel) crée une connexion sécurisée et chiffrée entre votre appareil et le serveur VPN. Il renforce la confidentialité et la sécurité (client VPN) et permet d'accéder à un réseau distant (serveur VPN). Mango 2 prend en charge OpenVPN et WireGuard.
 
@@ -149,7 +149,7 @@ Un VPN (réseau privé virtuel) crée une connexion sécurisée et chiffrée ent
     * [Comment configurer un client WireGuard](../../interface_guide/wireguard_client.md)
     * [Comment configurer un serveur WireGuard](../../interface_guide/wireguard_server.md)
 
-## Réseau
+## Réseau {#network}
 
 === "Multi-WAN"
 
@@ -203,15 +203,15 @@ Un VPN (réseau privé virtuel) crée une connexion sécurisée et chiffrée ent
 
     Pour configurer l'accélération réseau, consultez [Accélération réseau](../../interface_guide/network_acceleration.md).
 
-## Contrôle des flux
+## Contrôle des flux {#flow-control}
 
 === "Parental Control"
 
     Parental Control est conçu pour vous aider à gérer et contrôler les appareils de vos enfants. Il permet notamment de limiter leur temps d'écran et de restreindre l'accès à certains contenus.
 
-    Pour configurer le contrôle parental, consultez [contrôle parental](../../interface_guide/parental_control.md).
+    Pour configurer le contrôle parental, consultez [contrôle parental](../../interface_guide/parental_control_v4.9.md).
 
-## Sécurité
+## Sécurité {#security}
 
 === "Port Forwarding"
 
@@ -231,7 +231,7 @@ Un VPN (réseau privé virtuel) crée une connexion sécurisée et chiffrée ent
 
     Pour configurer les paramètres NAT, consultez [Paramètres NAT](../../interface_guide/nat_settings.md).
 
-## Applications
+## Applications {#applications}
 
 === "Plug-ins"
 
@@ -257,7 +257,7 @@ Un VPN (réseau privé virtuel) crée une connexion sécurisée et chiffrée ent
 
     Pour configurer Tailscale, consultez [Tailscale](../../interface_guide/tailscale.md).
 
-## Système
+## Système {#system}
 
 === "Aperçu"
 
@@ -349,6 +349,6 @@ Un VPN (réseau privé virtuel) crée une connexion sécurisée et chiffrée ent
 
     Veuillez consulter [Advanced Settings](../../interface_guide/advanced_settings.md) pour des instructions détaillées.
 
-## Déclaration de conformité
+## Déclaration de conformité {#declaration-of-conformity}
 
 Par la présente, GL TECHNOLOGIES (HONG KONG) LIMITED déclare que le type d’équipement radio [Mini routeur de voyage bi‑bande, GL‑MG1300] est conforme aux exigences essentielles et aux autres dispositions pertinentes de la directive 2014/53/UE. Le texte intégral de la déclaration de conformité UE est disponible à l’adresse Internet suivante: [https://www.gl-inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}.

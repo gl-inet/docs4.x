@@ -1,4 +1,4 @@
-# IPv6
+# IPv6 {#ipv6}
 
 IPv6 (Internet Protocol version 6) to najnowsza wersja protokołu internetowego, zaprojektowana jako następca IPv4. Oferuje znacznie większą pulę unikalnych adresów IP, rozwiązując problem wyczerpywania się adresów IPv4 i wspierając rosnącą na całym świecie liczbę podłączonych urządzeń.
 

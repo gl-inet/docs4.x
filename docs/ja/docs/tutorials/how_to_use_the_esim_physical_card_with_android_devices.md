@@ -1,6 +1,6 @@
-# AndroidデバイスでeSIM Physical Cardを使用する方法
+# AndroidデバイスでeSIM Physical Cardを使用する方法 {#how-to-use-the-esim-physical-card-with-android-devices}
 
-**注記**：開始する前に、[対応デバイス一覧](https://www.eiotclub.com/blogs/community/physical-esim-compatible-devices){target="_blank"}を確認し、お使いのAndroidデバイスがeSIM Physical Cardに対応していることを確認してください。
+**注意**：開始する前に、[対応デバイス一覧](https://www.eiotclub.com/blogs/community/physical-esim-compatible-devices){target="_blank"}を確認し、お使いのAndroidデバイスがeSIM Physical Cardに対応していることを確認してください。
 
 ---
 
@@ -8,7 +8,7 @@
 
 ![eSIM Physical Card officially endorsed by GL.iNet](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_esim_physical_card_with_android_devices/simpoyo-esim-physical-card.png){class="glboxshadow"}
 
-## 特長
+## 特長 {#features}
 
 eSIM Physical Cardの主な特長は以下のとおりです。
 
@@ -20,21 +20,21 @@ eSIM Physical Cardの主な特長は以下のとおりです。
 - シードプロファイルが付属し、アクティベーション日から1年間有効な米国およびヨーロッパ向け1GBの無料データと、100MBのグローバルデータが含まれます。
 - ほとんどのAndroidデバイスに対応しています。
 
-## AndroidデバイスでeSIM Physical Cardを設定する
+## AndroidデバイスでeSIM Physical Cardを設定する {#set-up-the-esim-physical-card-on-android-devices}
 
 初めてeSIM Physical Cardを使用する場合は、この動画を見るか、以下の手順に従ってください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/I6rtcB8Se8w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-#### 1. インターネットに接続する
+#### 1. インターネットに接続する {#1-connect-to-the-internet}
 
 Androidデバイスがインターネットに接続されていることを確認してください。Wi-Fi接続を利用するか、eSIM Physical Cardに含まれる事前読み込みデータを使用できます。
 
-#### 2. eSIM Physical Cardを挿入する
+#### 2. eSIM Physical Cardを挿入する {#2-insert-the-esim-physical-card}
 
 eSIM Physical CardをAndroidデバイスのSIMカードスロットに挿入します。
 
-#### 3. EIOTCLUBアプリをダウンロードする
+#### 3. EIOTCLUBアプリをダウンロードする {#3-download-the-eiotclub-app}
 
 このリンクからEIOTCLUBアプリをダウンロードします: [https://sim.eiotclub.com/eshop/download](https://sim.eiotclub.com/eshop/download){target="_blank"}。
 
@@ -42,13 +42,13 @@ eSIM Physical CardをAndroidデバイスのSIMカードスロットに挿入し�
 
       デバイスは Android 9 以上に対応している必要があります。iPhoneデバイスではこのeSIM Physical Cardはサポートされません。
 
-#### 4. 新しいアカウントを作成する
+#### 4. 新しいアカウントを作成する {#4-create-a-new-account}
 
 EIOTCLUBアプリで新しいアカウントを登録します。
 
 ![Create a New Account](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_esim_physical_card_with_android_devices/01-create-a-new-account.jpg){class="glboxshadow"}
 
-#### 5. SIMカードを追加する
+#### 5. SIMカードを追加する {#5-add-sim-card}
 
 - **カードの自動検出**: eSIM Physical Cardを挿入した状態でEIOTCLUBアプリを開くと、自動的に検出されます。プロンプトが表示されたら、**OK** をタップして続行してください。
 
@@ -59,7 +59,7 @@ EIOTCLUBアプリで新しいアカウントを登録します。
 
       ![ Manual Card Addition - Add eSIM Card](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_esim_physical_card_with_android_devices/030405-manual-card-addition.jpg){class="glboxshadow"}
 
-#### 6. プロファイルを確認して管理する
+#### 6. プロファイルを確認して管理する {#6-check-and-manage-profiles}
 
 設定が完了すると、アプリには以下のセクションが表示されます。
 
@@ -71,11 +71,11 @@ b. **eSIM Profiles**: eSIMカードに正常に追加されたeSIMプロファ�
 
 c. **Remote**: eSIMプロファイルの追加、削除、更新を行うための管理オプションです。
 
-## 新しいeSIMプロファイルを追加または購入する
+## 新しいeSIMプロファイルを追加または購入する {#add-or-purchase-a-new-esim-profile}
 
 AndroidデバイスでeSIMの設定が完了すると、GL.iNetによる以下の事前読み込みデータパッケージを利用できます。
 
-- 100MB Global Data
+- 100MB グローバルデータ
 - ヨーロッパおよび米国向け 1GB データ
 
 これらのパッケージは、インターネット接続がない場所に到着した際に、新しいeSIMプロファイルをダウンロードするのに便利です。
@@ -86,17 +86,17 @@ eSIMプロファイルを追加するには、アプリの **SIM Card Section** 
 
 ![Add an eSIM profile](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_esim_physical_card_with_android_devices/08-add-an-esim-profile.jpg){class="glboxshadow"}
 
-### 方法1: 購入済みのeSIMプロファイルを追加する
+### 方法1: 購入済みのeSIMプロファイルを追加する {#method-1-add-a-purchased-esim-profile}
 
 すでに利用したいeSIMストアでeSIMプロファイルを購入済みであれば、以下の手順で追加できます。
 
-#### 1. Addボタンをタップする
+#### 1. Addボタンをタップする {#1-tap-the-add-button}
 
 アプリを開き、**Add** ボタンをタップしてeSIMプロファイルの追加を開始します。
 
 ![Add button to start adding your eSIM profile](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_esim_physical_card_with_android_devices/09-add-button-to-start-adding-your-esim-profile.jpg){class="glboxshadow"}
 
-#### 2. QRコードの読み取り方法を選択する
+#### 2. QRコードの読み取り方法を選択する {#2-select-a-qr-code-scanning-option}
 
 ![Select a QR Code Scanning Option](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_esim_physical_card_with_android_devices/10-select-a-qr-code-scanning-option.jpg){class="glboxshadow"}
 
@@ -106,108 +106,108 @@ b. **Import from Album**: フォトギャラリーからQRコード画像をア�
 
 c. **Enter Activation Code**: eSIMプロファイルのURLを **Activation Code** フィールドへ手動入力します。
 
-#### 3. ダウンロードしてインストールする
+#### 3. ダウンロードしてインストールする {#3-download-and-install}
 
 適切な方法を選択したら、**Download & Install** をタップして完了します。
 
 ![Download and Install](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_esim_physical_card_with_android_devices/25-download-and-install.jpg){class="glboxshadow"}
 
-### 方法2: eSIM Shop経由でeSIMプロファイルを購入して追加する
+### 方法2: eSIM Shop経由でeSIMプロファイルを購入して追加する {#method-2-purchase-and-add-an-esim-profile-via-esim-shop}
 
 アプリ内の eSIM Shop から直接プロファイルを購入し、追加することもできます。
 
 ![Buy an eSIM Profile via eSIM Shop](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_esim_physical_card_with_android_devices/11-buy-an-esim-profile-via-esim-shop.jpg){class="glboxshadow"}
 
-#### 1. データパッケージを選ぶ
+#### 1. データパッケージを選ぶ {#1-choose-your-data-package}
 
 用途に合ったデータパッケージ（Local、Regional、Global）を選択します。
 
 ![Choose Your Data Package](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_esim_physical_card_with_android_devices/121314-choose-your-data-package.jpg){class="glboxshadow"}
 
-#### 2. 購入を完了する
+#### 2. 購入を完了する {#2-complete-your-purchase}
 
 アプリの案内に従って購入手続きを完了します。
 
-#### 3. 購入済みプロファイルを確認する
+#### 3. 購入済みプロファイルを確認する {#3-locate-your-purchased-profile}
 
 購入が完了すると、新しいeSIMプロファイルがアプリの SIM Card Section に表示されます。
 
 ![Locate Your Purchased Profile](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_esim_physical_card_with_android_devices/15-locate-your-purchased-profile.jpg){class="glboxshadow"}
 
-#### 4. eSIMをプロファイル一覧に追加する
+#### 4. eSIMをプロファイル一覧に追加する {#4-add-the-esim-to-your-profile-list}
 
 購入したeSIMプロファイルの横にある Add ボタンをタップして追加します。
 
 ![Add new purchased eSIM into the list](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_esim_physical_card_with_android_devices/26-add-new-purchased-esim-into-the-list.jpg){class="glboxshadow"}
 
-#### 5. プロファイルをダウンロードする
+#### 5. プロファイルをダウンロードする {#5-download-the-profile}
 
 Download ボタンをタップしてインストールを開始します。
 
 ![Download the eSIM profile](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_esim_physical_card_with_android_devices/27-download-the-esim-profile.jpg){class="glboxshadow"}
 
-#### 6. プロファイルをインストールする
+#### 6. プロファイルをインストールする {#6-install-the-profile}
 
 Download & Install をタップしてインストールを完了します。
 
 ![click the Download & Install](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_esim_physical_card_with_android_devices/28-click-the-download-and-install.jpg){class="glboxshadow"}
 
-#### 7. 追加完了
+#### 7. 追加完了 {#7-successfully-added}
 
 新しいeSIMプロファイルがeSIMプロファイル一覧に表示されます。
 
 ![successfully added into the eSIM profile list](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_esim_physical_card_with_android_devices/29-sucessfeully-added-into-the-esim-profile-list.jpg){class="glboxshadow"}
 
-## プロファイルを有効化または切り替える
+## プロファイルを有効化または切り替える {#enable-or-switch-profiles}
 
-#### 1. プロファイルにアクセスする
+#### 1. プロファイルにアクセスする {#1-access-your-profiles}
 
 Remote をタップすると、追加したすべてのeSIMプロファイルを表示できます。
 
 ![Access Your Profiles](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_esim_physical_card_with_android_devices/16-access-your-profiles.jpg){class="glboxshadow"}
 
-#### 2. プロファイルを有効にする
+#### 2. プロファイルを有効にする {#2-enable-your-profile}
 
 目的のプロファイルを探し、Toggle ボタンをタップして有効にします。
 
 ![Enable Your Profile](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_esim_physical_card_with_android_devices/17-enable-your-profile.jpg){class="glboxshadow"}
 
-## eSIMプロファイルを削除する
+## eSIMプロファイルを削除する {#delete-an-esim-profile}
 
-#### 1. eSIMプロファイルをオフにする:
+#### 1. eSIMプロファイルをオフにする: {#1-turn-off-the-esim-profile}
 
 - eSIM設定に移動し、対象プロファイルがオフになっていることを確認します。
 - 削除したいeSIMプロファイル名をタップします。
 
 ![Turn Off the eSIM Profile and Tap on the eSIM profile name you want to delete](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_esim_physical_card_with_android_devices/1819-delete-esim-profile.jpg){class="glboxshadow"}
 
-#### 2. eSIM詳細にアクセスする
+#### 2. eSIM詳細にアクセスする {#2-access-esim-details}
 
 eSIM詳細ページに移動し、**Delete eSIM** をタップします。
 
 ![Access eSIM Details](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_esim_physical_card_with_android_devices/20-access-esim-details.jpg){class="glboxshadow"}
 
-#### 3. eSIMプロファイルの削除を確認する
+#### 3. eSIMプロファイルの削除を確認する {#3-confirm-delete-esim-profile}
 
 **Submit** ボタンをタップしてeSIMプロファイルを削除します。
 
 ![Submit to Delete](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_esim_physical_card_with_android_devices/21-submit-to-delete.jpg){class="glboxshadow"}
 
-## eSIMカードスロットを削除する
+## eSIMカードスロットを削除する {#delete-an-esim-card-slot}
 
-#### 1. SIMカード設定を開く
+#### 1. SIMカード設定を開く {#1-open-sim-card-settings}
 
 eSIM名をクリックしてSIM Card Settingsにアクセスします。
 
 ![Open SIM Card Settings](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_esim_physical_card_with_android_devices/22-open-sim-card-settings.jpg){class="glboxshadow"}
 
-#### 2. Deleteボタンをタップする
+#### 2. Deleteボタンをタップする {#2-tap-the-delete-button}
 
 **Delete eSIM Card SLOT** ボタンをタップします。
 
 ![Tap the Delete Button](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_esim_physical_card_with_android_devices/23-tap-the-delete-button.jpg){class="glboxshadow"}
 
-#### 3. 削除を確認する
+#### 3. 削除を確認する {#3-confirm-deletion}
 
 **Submit** ボタンをタップしてeSIMスロットを削除します。
 
@@ -215,4 +215,4 @@ eSIM名をクリックしてSIM Card Settingsにアクセスします。
 
 ---
 
-ご不明な点がありましたら、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}をご覧いただくか、[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

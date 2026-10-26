@@ -1,12 +1,12 @@
-# Fortify (GL-MT6000) User Guide
+# Fortify (GL-MT6000) User Guide {#fortify-gl-mt6000-user-guide}
 
-## Product overview
+## Product overview {#product-overview}
 
 Fortify (GL-MT6000) is a co-branded Wi-Fi 6 router jointly released by GL.iNet and ExpressVPN. Every unit comes with a complimentary one-year ExpressVPN subscription. Users can redeem the subscription and connect their accounts directly on the router's web Admin Panel. When an ExpressVPN tunnel is connected, the router encrypts and routes traffic through that tunnel according to your VPN policy settings.
 
 ![fortify gl-mt6000](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000-fortify/mt6000-fortify_interface.png){class="glboxshadow"}
 
-## Package contents
+## Package contents {#package-contents}
 
 - 1 x Fortify (GL-MT6000)
 - 1 x User manual
@@ -22,17 +22,17 @@ Check out Fortify's unboxing video below.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IQEfj7Hff7U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## How to set up Fortify
+## How to set up Fortify {#how-to-set-up-fortify}
 
 Watch this setup video or follow the steps below. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FymI3LCRMTA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Power on
+### 1. Power on {#1-power-on}
 
 Put the two-piece power adapter together. Connect it to your Fortify router and plug it into an outlet. It will start up automatically.
 
-### 2. Connect device
+### 2. Connect device {#2-connect-device}
 
 Connect a device (e.g., computer, laptop or smartphone) to the router via Wi-Fi or Ethernet.
 
@@ -44,7 +44,7 @@ Connect a device (e.g., computer, laptop or smartphone) to the router via Wi-Fi 
 
     On your device, go to Settings -> WLAN, locate your router's Wi-Fi network name in the available networks list, and enter the password to join the network. You can find the default network name and password printed on the router's label.
 
-### 3. Log in to web Admin Panel
+### 3. Log in to web Admin Panel {#3-log-in-to-web-admin-panel}
 
 Open a web browser, enter `192.168.8.1` in the address bar and log in. Choose your language in the upper right corner, set your admin password, then click **Next**. The password must be 10–63 characters long and contain at least two of the following: uppercase letters, lowercase letters, numbers and special symbols.
 
@@ -54,7 +54,7 @@ Set up your Wi-Fi. Please note that if you change the Wi‑Fi information, you w
 
 ![fortify login2](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000-fortify/login2.png){class="glboxshadow"}
 
-### 4. Internet setup
+### 4. Internet setup {#4-internet-setup}
 
 **Note:** The following instructions apply to users configuring the router via the GL.iNet web Admin Panel. If you prefer the [GL.iNet app](https://www.gl-inet.com/pages/app#download-app-glinet){target="_blank"}, download it and follow the on-screen prompts.
 
@@ -108,19 +108,19 @@ Configure your Fortify using one of the supported internet connection methods: E
 
 Below is an overview of the features in the Fortify web Admin Panel.
 
-## Wireless
+## Wireless {#wireless}
 
 The Wireless page lets you configure Fortify’s Wi-Fi networks, including Main Network, Guest Network and IoT Network. Each network supports both the 2.4 GHz and 5 GHz bands.
 
 To set up Wireless, refer to [Wireless](../../interface_guide/wireless.md).
 
-## Clients
+## Clients {#clients}
 
 The Clients page displays information about connected devices, including device name, connection type, IP and MAC addresses, download and upload speeds, traffic, and provides the ability to block specific client with one click or perform other actions.
 
 Please refer to [Clients](../../interface_guide/clients.md) for details.
 
-## Cloud services
+## Cloud services {#cloud-services}
 
 === "GoodCloud"
 
@@ -134,7 +134,7 @@ Please refer to [Clients](../../interface_guide/clients.md) for details.
     
     Please refer to [AstroWarp](../../interface_guide/astrowarp.md) for details.
 
-## VPN 
+## VPN {#vpn}
 
 A VPN (virtual private network) establishes secure, encrypted traffic tunnels between your local device and the VPN server. It adds an extra layer of privacy and security to the VPN client, and enables access to the remote VPN server network.
 
@@ -146,7 +146,7 @@ To set up an OpenVPN server, refer to [OpenVPN Server](../../interface_guide/ope
 
 To set up a WireGuard server, refer to [WireGuard Server](../../interface_guide/wireguard_server.md).
 
-## Network
+## Network {#network}
 
 === "Multi-WAN"
 
@@ -218,7 +218,7 @@ To set up a WireGuard server, refer to [WireGuard Server](../../interface_guide/
     
     To set up network acceleration, refer to [Network Acceleration](../../interface_guide/network_acceleration.md).
 
-## Flow Control
+## Flow Control {#flow-control}
 
 === "DPI Engine"
 
@@ -260,7 +260,7 @@ To set up a WireGuard server, refer to [WireGuard Server](../../interface_guide/
 
     Please refer to [Parental Control](../../interface_guide/parental_control_v4.9.md) for details.
 
-## Security
+## Security {#security}
 
 === "Port forwarding"
 
@@ -290,7 +290,7 @@ To set up a WireGuard server, refer to [WireGuard Server](../../interface_guide/
 
     Please refer to [NAT Mode](../../interface_guide/nat_settings.md) for details.
 
-## Applications
+## Applications {#applications}
 
 === "Plug-ins"
 
@@ -344,7 +344,7 @@ To set up a WireGuard server, refer to [WireGuard Server](../../interface_guide/
 
     Please refer to [Tor](../../interface_guide/tor.md) for details.
 
-## System
+## System {#system}
 
 === "Overview"
 
@@ -422,7 +422,7 @@ To set up a WireGuard server, refer to [WireGuard Server](../../interface_guide/
 
     Please refer to [Advanced Settings](../../interface_guide/advanced_settings.md) for details.
 
-## Regulatory Statements
+## Regulatory Statements {#regulatory-statements}
 
 **FCC ID: 2AFIW-MT6000**  
 

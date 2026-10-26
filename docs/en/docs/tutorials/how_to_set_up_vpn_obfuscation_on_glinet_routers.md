@@ -1,17 +1,17 @@
-# How to set up VPN Obfuscation on GL.iNet routers
+# How to set up VPN Obfuscation on GL.iNet routers {#how-to-set-up-vpn-obfuscation-on-glinet-routers}
 
 **Note**: GL.iNet routers support AmneziaWG when running firmware v4.9 or later. Please upgrade your router to a supported firmware version first.
 
 This tutorial introduces two scenarios for setting up AmneziaWG obfuscation on GL.iNet routers.
 
-## Scenario 1. Using two GL.iNet routers
+## Scenario 1. Using two GL.iNet routers {#scenario-1-using-two-glinet-routers}
 
 This scenario uses two GL.iNet routers to establish a VPN obfuscation connection via the AmneziaWG protocol.
 
 - Brume 3 (GL-MT5000): A VPN Server for home use.
 - Beryl AX (GL-MT3000): A portable VPN Client for on-the-go use. 
 
-### Set up VPN Server
+### Set up VPN Server {#set-up-vpn-server}
 
 1. Log in to the Brume 3's web Admin Panel. 
 
@@ -69,7 +69,7 @@ This scenario uses two GL.iNet routers to establish a VPN obfuscation connection
 
     ![server start](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_start2.png){class="glboxshadow"}
 
-### Set up VPN Client
+### Set up VPN Client {#set-up-vpn-client}
 
 1. Log in to the Beryl AX's web Admin Panel. 
 
@@ -117,13 +117,13 @@ This scenario uses two GL.iNet routers to establish a VPN obfuscation connection
 
     The VPN connection is complete. All devices on the Beryl AX now access the internet via the Brume 3's gateway, enabling a VPN obfuscation connection.
 
-## Scenario 2. Using a single GL.iNet router
+## Scenario 2. Using a single GL.iNet router {#scenario-2-using-a-single-glinet-router}
 
 This scenario uses a single GL.iNet router **Brume 3 (GL-MT5000)** as a VPN client to connect to an AmneziaVPN server. 
 
 In this case, you don't need to deploy your own server. Simply download an AmneziaWG configuration file from the [official Amnezia website](https://amnezia.org/){target="_blank"} or any VPN service provider that integrates AmneziaWG, then upload the file to your GL.iNet router. You will then be able to establish a VPN connection with obfuscation enabled.
 
-### Download Configuration
+### Download Configuration {#download-configuration}
 
 <u>Option 1</u>: Download a config from Amnezia Official (Premium subscription required).
 
@@ -151,7 +151,7 @@ Take StarVPN as an example.
 
     Then follow the steps below to set up VPN client.
 
-### Set up VPN Client
+### Set up VPN Client {#set-up-vpn-client_1}
 
 1. Log in to the Brume 3's web Admin Panel. 
 

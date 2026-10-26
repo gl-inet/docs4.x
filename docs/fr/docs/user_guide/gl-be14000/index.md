@@ -1,12 +1,12 @@
-# Guide de l’utilisateur de Flint 4 (GL-BE14000)
+# Guide de l’utilisateur de Flint 4 (GL-BE14000) {#flint-4-gl-be14000-user-guide}
 
-## Présentation du produit
+## Présentation du produit {#product-overview}
 
 Flint 4 (GL‑BE14000) redéfinit les possibilités d’un routeur domestique. Il propose le Wi‑Fi 7 tri-bande avec MLO, avec des débits maximaux de 688 Mbit/s (2,4 GHz) + 4 323 Mbit/s (5 GHz) + 8 646 Mbit/s (6 GHz). Pour les connexions filaires, il dispose d’une infrastructure entièrement multi-gigabit comprenant un port WAN/LAN 10G SFP+, un port WAN/LAN 10GE, un port WAN/LAN 2,5GE, trois ports LAN 2,5GE et quatre ports LAN 1GE. Il prend en charge les VPN hautes performances et atteint jusqu’à 1,5 Gbit/s avec WireGuard® comme avec OpenVPN DCO. Son écran tactile de 2,4 pouces permet de surveiller l’état du réseau en temps réel et de consulter directement les principales données réseau sur l’appareil.
 
 ![be14000 interfaces](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be14000/hardware/be14000_interfaces.png){class="glboxshadow"}
 
-## Contenu de l’emballage
+## Contenu de l’emballage {#package-contents}
 
 - 1 Flint 4 (GL-BE14000)
 - 1 adaptateur secteur
@@ -19,17 +19,17 @@ Regardez ci-dessous la vidéo de déballage de Flint 4.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/x48iKZaLaN0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Configuration de Flint 4
+## Configuration de Flint 4 {#how-to-set-up-flint-4}
 
 Regardez cette vidéo de configuration ou suivez les étapes ci-dessous.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/N3zw02XGFSU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Mise sous tension
+### 1. Mise sous tension {#1-power-on}
 
 Assemblez les deux parties de l’adaptateur secteur. Branchez-le au routeur, puis sur une prise électrique. Le routeur démarre automatiquement.
 
-### 2. Connexion d’un appareil
+### 2. Connexion d’un appareil {#2-connect-device}
 
 Connectez un appareil, par exemple un ordinateur, un ordinateur portable ou un smartphone, au routeur via Wi-Fi ou Ethernet.
 
@@ -41,11 +41,11 @@ Connectez un appareil, par exemple un ordinateur, un ordinateur portable ou un s
 
     Sur votre appareil, recherchez le nom du réseau Wi-Fi de votre routeur dans la liste des réseaux disponibles, puis saisissez le mot de passe pour vous connecter. Le nom de réseau (SSID) et le mot de passe par défaut sont imprimés sur l’étiquette du routeur.
 
-### 3. Connexion au panneau d’administration Web
+### 3. Connexion au panneau d’administration Web {#3-log-in-to-web-admin-panel}
 
 Ouvrez un navigateur Web, saisissez `192.168.8.1` dans la barre d’adresse et connectez-vous. Définissez votre mot de passe administrateur et les paramètres Wi-Fi, puis cliquez sur **Apply**.
 
-### 4. Configuration d’Internet
+### 4. Configuration d’Internet {#4-internet-setup}
 
 Configurez votre Flint 4 à l’aide de l’une des méthodes de connexion Internet prises en charge : Ethernet (SFP+), Ethernet (RJ45), Repeater, Tethering ou Cellular. Pour utiliser la fonction [Multi-WAN](../../interface_guide/multi-wan.md), configurez plusieurs connexions Internet.
 
@@ -100,19 +100,19 @@ Configurez votre Flint 4 à l’aide de l’une des méthodes de connexion Inter
 
 Vous trouverez ci-dessous une présentation des fonctions du panneau d’administration Web de Flint 4.
 
-## Sans fil
+## Sans fil {#wireless}
 
 La page Wireless permet de configurer les différents réseaux Wi-Fi de Flint 4, notamment MLO Wi-Fi, Main Network, Guest Network et IoT Network.
 
 Pour plus de détails, consultez [Sans fil](../../interface_guide/wireless.md).
 
-## Clients
+## Clients {#clients}
 
 La page Clients affiche des informations sur les appareils connectés. Pour chaque client, elle indique le nom, les adresses IP et MAC, les débits de téléchargement et de téléversement ainsi que le trafic total. Elle permet également de bloquer le client ou d’effectuer d’autres actions.
 
 Pour plus de détails, consultez [Clients](../../interface_guide/clients.md).
 
-## Services cloud
+## Services cloud {#cloud-services}
 
 === "GoodCloud"
 
@@ -126,7 +126,7 @@ Pour plus de détails, consultez [Clients](../../interface_guide/clients.md).
 
     Pour plus de détails, consultez [AstroWarp](../../interface_guide/astrowarp.md).
 
-## VPN
+## VPN {#vpn}
 
 Un VPN (réseau privé virtuel) crée un canal sécurisé et chiffré entre votre appareil et le serveur VPN. Il renforce la confidentialité et la sécurité avec un client VPN et permet d’accéder à un réseau distant avec un serveur VPN. Flint 4 prend en charge les protocoles OpenVPN et WireGuard.
 
@@ -144,7 +144,7 @@ Un VPN (réseau privé virtuel) crée un canal sécurisé et chiffré entre votr
     * [Configuration d’un client WireGuard](../../interface_guide/wireguard_client.md)
     * [Configuration d’un serveur WireGuard](../../interface_guide/wireguard_server.md)
 
-## Réseau
+## Réseau {#network}
 
 === "Multi-WAN"
 
@@ -207,7 +207,7 @@ Un VPN (réseau privé virtuel) crée un canal sécurisé et chiffré entre votr
 
     Pour plus de détails, consultez [Network Acceleration](../../interface_guide/network_acceleration.md).
 
-## Contrôle du trafic
+## Contrôle du trafic {#flow-control}
 
 === "DPI Engine"
 
@@ -249,7 +249,7 @@ Un VPN (réseau privé virtuel) crée un canal sécurisé et chiffré entre votr
 
     Pour plus de détails, consultez [Parental Control](../../interface_guide/parental_control_v4.9.md).
 
-## Sécurité
+## Sécurité {#security}
 
 === "Port Forwarding"
 
@@ -279,7 +279,7 @@ Un VPN (réseau privé virtuel) crée un canal sécurisé et chiffré entre votr
 
     Pour plus de détails, consultez [NAT Mode](../../interface_guide/nat_settings.md).
 
-## Applications
+## Applications {#applications}
 
 === "Plug-ins"
 
@@ -331,7 +331,7 @@ Un VPN (réseau privé virtuel) crée un canal sécurisé et chiffré entre votr
 
     Pour plus de détails, consultez [Tor](../../interface_guide/tor.md).
 
-## Système
+## Système {#system}
 
 === "Overview"
 
@@ -422,7 +422,7 @@ Un VPN (réseau privé virtuel) crée un canal sécurisé et chiffré entre votr
 
     Pour plus de détails, consultez [Advanced Settings](../../interface_guide/advanced_settings.md).
 
-## Déclaration UE de conformité
+## Déclaration UE de conformité {#declaration-of-conformity}
 
 Par la présente, GL TECHNOLOGIES (HONG KONG) LIMITED déclare que l'équipement radio de type [BE14000 Wi-Fi 7 Router, GL-BE14000] est conforme aux exigences essentielles et aux autres dispositions pertinentes de la directive 2014/53/UE. Le texte complet de la déclaration UE de conformité est disponible à l'adresse internet suivante: [https://www.gl-inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}.
 

@@ -1,6 +1,6 @@
-# Przewodnik użytkownika Flint 3 (GL-BE9300)
+# Przewodnik użytkownika Flint 3 (GL-BE9300) {#flint-3-gl-be9300-user-guide}
 
-## Przegląd produktu
+## Przegląd produktu {#product-overview}
 
 Flint 3 (GL-BE9300) to trójpasmowy router biurkowy Wi-Fi 7 przeznaczony do użytku domowego, małych biur i wymagających zastosowań. Obsługuje Wi-Fi 7 Multi-Link Operation (MLO), inteligentnie łącząc pasma 2.4GHz, 5GHz i 6GHz w jedno połączenie, aby ograniczyć zakłócenia i przeciążenie sieci. W połączeniu z 4K QAM oferuje teoretyczne prędkości trójpasmowe 688Mbps (2.4GHz), 2882Mbps (5GHz) oraz 5765Mbps (6GHz). Łączność MLO lub 6GHz zapewnia najwyższą wydajność, a pasmo 2.4GHz można przeznaczyć dla urządzeń IoT.
 
@@ -8,7 +8,7 @@ Router jest wyposażony w 5× portów Ethernet 2.5G (1 dedykowany WAN, 1 przeł�
 
 ![gl-be9300 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be9300/hardware_info/be9300_interface.jpg){class="glboxshadow"}
 
-## Zawartość opakowania
+## Zawartość opakowania {#package-contents}
 
 - 1 x Flint 3 (GL-BE9300)
 - 1 x Zasilacz
@@ -21,17 +21,17 @@ Obejrzyj poniższy film z rozpakowania Flint 3.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qAq6IFtKtj0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Jak skonfigurować Flint 3
+## Jak skonfigurować Flint 3 {#how-to-set-up-flint-3}
 
 Obejrzyj ten film instruktażowy lub wykonaj poniższe kroki. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WQqD-8NrAOQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Włączenie zasilania
+### 1. Włączenie zasilania {#1-power-on}
 
 Złóż dwuczęściowy zasilacz. Podłącz go do routera i do gniazdka elektrycznego. Urządzenie uruchomi się automatycznie.
 
-### 2. Podłączenie urządzenia
+### 2. Podłączenie urządzenia {#2-connect-device}
 
 Podłącz urządzenie (np. komputer, laptop lub smartfon) do routera przez Wi-Fi lub Ethernet.
 
@@ -43,11 +43,11 @@ Podłącz urządzenie (np. komputer, laptop lub smartfon) do routera przez Wi-Fi
 
     Na swoim urządzeniu przejdź do Settings -> WLAN, znajdź nazwę sieci Wi-Fi routera na liście dostępnych sieci i wprowadź hasło, aby połączyć się z siecią. Domyślną nazwę sieci i hasło znajdziesz na etykiecie routera.
 
-### 3. Logowanie do panelu administracyjnego
+### 3. Logowanie do panelu administracyjnego {#3-log-in-to-web-admin-panel}
 
 Otwórz przeglądarkę internetową, wpisz `192.168.8.1` w pasku adresu i zaloguj się. Wybierz język i ustaw hasło administratora, a następnie kliknij **Apply**.
 
-### 4. Konfiguracja Internetu
+### 4. Konfiguracja Internetu {#4-internet-setup}
 
 **Uwaga:** Poniższe instrukcje dotyczą użytkowników konfigurujących router przez webowy panel administracyjny GL.iNet. Jeśli wolisz korzystać z aplikacji GL.iNet, [pobierz aplikację](https://www.gl-inet.com/app/){target="_blank"} i postępuj zgodnie z instrukcjami wyświetlanymi na ekranie.
 
@@ -101,7 +101,7 @@ Skonfiguruj Flint 3, korzystając z jednej z obsługiwanych metod połączenia z
     
 Poniżej znajdziesz przegląd funkcji dostępnych w webowym panelu administracyjnym Flint 3.
 
-## Wireless
+## Wireless {#wireless}
 
 Strona Wireless umożliwia konfigurację ustawień sieci Wi-Fi 6GHz, 5GHz i 2.4GHz, w tym włączanie Wi-Fi, ustawianie mocy TX, określanie nazwy sieci Wi-Fi (SSID), włączanie losowego BSSID, wybór trybu zabezpieczeń Wi-Fi i hasła, konfigurację widoczności SSID oraz wybór trybu Wi-Fi, szerokości pasma i kanału. 
     
@@ -109,13 +109,13 @@ Dodatkowo Flint 3 obsługuje Wi-Fi MLO, czyli Multi-Link Operation, łącząc je
 
 Zapoznaj się z poradnikiem [Wireless](../../interface_guide/wireless.md).
 
-## Clients
+## Clients {#clients}
 
 Strona Clients wyświetla informacje o podłączonych urządzeniach. Dla każdego klienta pokazuje nazwę, adresy IP i MAC, prędkości pobierania i wysyłania, całkowity transfer oraz umożliwia zablokowanie klienta lub wykonanie innych działań.
 
 Zapoznaj się z poradnikiem [Clients](../../interface_guide/clients.md).
 
-## Usługi chmurowe
+## Usługi chmurowe {#cloud-services}
 
 === "GoodCloud"
 
@@ -129,7 +129,7 @@ Zapoznaj się z poradnikiem [Clients](../../interface_guide/clients.md).
     
     Zapoznaj się z poradnikiem [AstroWarp](../../interface_guide/astrowarp.md).
 
-## VPN 
+## VPN {#vpn}
 
 VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany tunel dla ruchu między Twoim urządzeniem a serwerem VPN. Zapewnia dodatkową warstwę prywatności i bezpieczeństwa (klient VPN) oraz umożliwia dostęp do sieci zdalnej (serwer VPN). Flint 3 obsługuje OpenVPN, WireGuard i Tor. 
 
@@ -153,7 +153,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany tunel dla ruchu mi�
     
     * [How to set up Tor](../../interface_guide/tor.md)
 
-## Applications
+## Applications {#applications}
 
 === "Plug-ins"
 
@@ -199,7 +199,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany tunel dla ruchu mi�
     
     Zapoznaj się z poradnikiem [Tailscale](../../interface_guide/tailscale.md).
 
-## Network
+## Network {#network}
 
 === "Port forwarding"
 
@@ -282,7 +282,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany tunel dla ruchu mi�
 
     Zapoznaj się z poradnikiem [NAT Settings](../../interface_guide/nat_settings.md).
 
-## System settings
+## System settings {#system-settings}
 
 === "Overview"
 
@@ -371,6 +371,6 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany tunel dla ruchu mi�
 
     Szczegółowe instrukcje znajdziesz w poradniku [Advanced Settings](../../interface_guide/advanced_settings.md).
 
-## Deklaracja zgodności
+## Deklaracja zgodności {#declaration-of-conformity}
 
 Niniejszym GL TECHNOLOGIES (HONG KONG) LIMITED oświadcza, że typ urządzenia radiowego [Router Wi-Fi 7 BE9300, GL-BE9300] jest zgodny z zasadniczymi wymaganiami i innymi stosownymi postanowieniami dyrektywy 2014/53/UE. Pełny tekst deklaracji zgodności UE jest dostępny pod następującym adresem internetowym: [https://www.gl-inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}.

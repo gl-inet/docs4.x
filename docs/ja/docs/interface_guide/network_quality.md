@@ -1,10 +1,10 @@
-# ネットワーク品質
+# ネットワーク品質 {#network-quality}
 
 **注**：この機能はファームウェアv4.11で導入されました。
 
 ---
 
-Web管理画面の左側で、**FLOW CONTROL** -> **Network Quality**に移動します。
+Web管理パネルの左側で、**FLOW CONTROL** -> **Network Quality**に移動します。
 
 ネットワーク品質ダッシュボードは、インターネット接続の品質をリアルタイムで監視します。応答性、遅延、DNSパフォーマンスを評価し、接続の切断やパケット損失を検出します。これらの指標は、帯域幅テストだけではわからないネットワークの不安定性や接続の問題を特定するのに役立ちます。
 
@@ -18,7 +18,7 @@ Web管理画面の左側で、**FLOW CONTROL** -> **Network Quality**に移動�
 
 2. Speedtestはルーター上で実行されるローカル速度テストであり、SQMやQoSなどの機能による速度制限ルールの影響を受けます。
 
-## ネットワーク品質スコア
+## ネットワーク品質スコア {#network-quality-score}
 
 このセクションには、応答スコアと信頼性スコアから算出された総合ネットワーク品質スコアが表示されます。各スコアを個別に確認できます。パネルには、遅延、ジッター、パケット損失などの関連指標に加え、リアルタイムのダウンロード速度とアップロード速度（KB/s）も表示されます。デフォルトでは、インターネット接続確認とDNS解決テストの対象として`google.com`が使用されます。
 
@@ -36,7 +36,7 @@ Web管理画面の左側で、**FLOW CONTROL** -> **Network Quality**に移動�
 
 - **DNS Resolution Target**：DNSルックアップのプローブ時に解決されるドメインです。A（IPv4）レコードとAAAA（IPv6）レコードの両方が照会されます。
 
-## Speedtest
+## Speedtest {#speedtest}
 
 この内蔵速度テストでは、Cloudflare Speed Testを使用して、ダウンロード速度、アップロード速度、ping遅延、バッファブロートを測定します。テスト中はリアルタイムの速度グラフが表示されます。
 
@@ -50,4 +50,4 @@ Web管理画面の左側で、**FLOW CONTROL** -> **Network Quality**に移動�
 
 ---
 
-ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} をご利用いただくか、[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} からお問い合わせください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

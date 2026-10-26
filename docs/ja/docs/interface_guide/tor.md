@@ -1,4 +1,4 @@
-# Tor
+# Tor {#tor}
 
 Tor（**The Onion Router** の略）は、匿名通信を実現するための無償のオープンソースソフトウェアです。プライバシーを保ちながらインターネットを利用するのに役立ちます。詳しくは [Tor について](https://www.torproject.org/){target="_blank"} をご覧ください。
 
@@ -9,7 +9,7 @@ Tor（**The Onion Router** の略）は、匿名通信を実現するための�
   - IPv6
   - ADGuard Home
 
-## 対応モデル
+## 対応モデル {#supported-models}
 
 ??? "対応モデル"
     - GL-MT6000 (Fortify)
@@ -49,11 +49,11 @@ Tor（**The Onion Router** の略）は、匿名通信を実現するための�
     - GL-B1300 (Convexa-B)
     - GL-X300B (Collie)
 
-## クイックセットアップ
+## クイックセットアップ {#quick-setup}
 
 Web 管理パネル左側の **VPN** -> **Tor** を開きます。
 
-ファームウェア ver.4.8.4 以降では、**APPLICATIONS** -> **Tor** を開いてください。
+ファームウェア v4.8.4 以降では、**APPLICATIONS** -> **Tor** を開いてください。
 
 トグルスイッチをクリックして有効にし、必要に応じて **Custom Exit Nodes** を有効にしてから **Apply** をクリックします。
 
@@ -77,4 +77,4 @@ Web 管理パネル左側の **APPLICATIONS** -> **Plug-ins** を開きます。
 
 ---
 
-ご不明な点がある場合は、[Community Forum](https://forum.gl-inet.com){target="_blank"} または [Contact us](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

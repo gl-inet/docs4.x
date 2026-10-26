@@ -1,4 +1,4 @@
-# VPN Dashboard (Firmware v4.7 y versiones anteriores)
+# VPN Dashboard (Firmware v4.7 y versiones anteriores) {#vpn-dashboard-firmware-v47-and-earlier}
 
 El contenido de esta página se basa en las versiones de firmware v4.7.x y anteriores. Si su dispositivo ejecuta otra versión de firmware, use el selector siguiente para cambiar a la guía correspondiente.
 
@@ -18,7 +18,7 @@ Esta página se divide en dos secciones: [VPN Client](#vpn-client) y [VPN Server
 
 ![vpn dashboard](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/vpn_dashboard_initial.png){class="glboxshadow"}
 
-## VPN Client
+## VPN Client {#vpn-client}
 
 Cuando entre en esta página por primera vez, si no hay ningún archivo de configuración disponible para OpenVPN y WireGuard, la página se mostrará como se indica a continuación. Haga clic en **Set Up Now** y se le redirigirá a la página [OpenVPN Client](openvpn_client.md) o [WireGuard Client](wireguard_client.md) para cargar su archivo de configuración VPN.
 
@@ -28,7 +28,7 @@ Una vez cargada, su configuración aparecerá en la columna **Configuration File
 
 ![configuration files](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/vpnclient_config.png){class="glboxshadow"}
 
-### Opciones del cliente
+### Opciones del cliente {#client-options}
 
 Haga clic en el icono de engranaje de la derecha para acceder a las opciones del cliente OpenVPN o WireGuard.
 
@@ -50,9 +50,13 @@ Las opciones de WireGuard Client se muestran a continuación.
 
 - **IP Masquerading**: Si está habilitado, las direcciones IP de origen de los clientes LAN se reescribirán con la IP del túnel VPN del router. Deshabilite esta opción solo en configuraciones site-to-site donde el par remoto conozca sus subredes LAN.
 
+    Como se muestra a continuación, si el enmascaramiento de IP está habilitado, cuando el portátil (192.168.10.200) de la LAN de viaje envía tráfico a través del túnel al NAS doméstico (192.168.8.100), el router de viaje reescribe la IP de origen `192.168.10.200` con la dirección de túnel del cliente VPN, `10.1.0.2`, por lo que el lado del servidor ve que el tráfico procede del cliente y no de la LAN local del cliente.
+
+    ![ip masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/ip_masquerading.png){class="glboxshadow"}
+
 - **MTU**: Abreviatura de Maximum Transmission Unit. Esta opción le permite personalizar el MTU del túnel VPN, sobrescribiendo el valor definido en el archivo de configuración.
 
-### Modo proxy
+### Modo proxy {#proxy-mode}
 
 El modo proxy predeterminado para la conexión VPN es **Global Proxy**. Puede hacer clic en el cuadro de la esquina superior derecha para cambiar a otros modos proxy.
 
@@ -90,7 +94,7 @@ Hay tres modos proxy disponibles: **Global Proxy**, **Policy Mode** y **Route Mo
 
         Puede configurar manualmente las reglas de enrutamiento para cada instancia de cliente VPN.
 
-### Opciones globales
+### Opciones globales {#global-options}
 
 Haga clic en **Global Options** en la esquina superior derecha para configurar ajustes avanzados para su cliente VPN.
 
@@ -124,7 +128,7 @@ Haga clic en **Global Options** en la esquina superior derecha para configurar a
 
 - **Services From GL.iNet Use VPN**: Si está habilitado, los servicios GoodCloud, DDNS y rtty transmitirán paquetes a través de los túneles VPN. Esta opción está deshabilitada de forma predeterminada, ya que estos servicios normalmente requieren la dirección IP real del dispositivo para funcionar correctamente.
 
-## VPN Server
+## VPN Server {#vpn-server}
 
 Si el router nunca se ha configurado como servidor OpenVPN o WireGuard, la página se mostrará como se indica a continuación. Haga clic en **Set Up Now** y se le redirigirá a la página **OpenVPN Server** o **WireGuard Server** para inicializar su servidor VPN.
 
@@ -134,7 +138,7 @@ Una vez habilitado OpenVPN Server o WireGuard Server, la página mostrará el es
 
 ![vpn server enabled](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/vpnserver_connected.png){class="glboxshadow"}
 
-### Opciones del servidor
+### Opciones del servidor {#server-options}
 
 Haga clic en el icono de engranaje de la derecha para acceder a las opciones del servidor OpenVPN o WireGuard.
 
@@ -152,11 +156,15 @@ Las opciones de WireGuard Server se muestran a continuación.
 
 * **IP Masquerading**: Si está habilitado, las direcciones IP de origen de los clientes LAN se reescribirán con la IP del túnel VPN del router. Deshabilite esta opción solo en configuraciones site-to-site donde el par remoto conozca sus subredes LAN.
 
+    Como se muestra a continuación, si el enmascaramiento de IP está habilitado, cuando el NAS (192.168.8.100) de la LAN doméstica envía tráfico a través del túnel al portátil de viaje (192.168.10.200), el router doméstico reescribe la IP de origen `192.168.8.100` con la dirección de túnel del servidor VPN, `10.1.0.1`, por lo que el lado remoto ve que el tráfico procede del servidor y no de la LAN local del servidor.
+
+    ![ip masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/ip_masquerading.png){class="glboxshadow"}
+
 * **MTU**: Abreviatura de Maximum Transmission Unit. El valor MTU que establezca para el túnel sobrescribirá los ajustes MTU del archivo de configuración.
 
 * **Client to Client**: Si está habilitado, los clientes VPN conectados a este servidor podrán acceder entre sí a través de sus IP del túnel VPN. Si también desea permitir que los clientes accedan a las subredes LAN de los demás, deberá añadir reglas de enrutamiento en el servidor VPN para anunciar rutas hacia esas subredes LAN remotas.
 
-### Regla de ruta del servidor
+### Regla de ruta del servidor {#server-route-rule}
 
 Haga clic en el icono de ruta de la derecha para personalizar las reglas de ruta de OpenVPN o WireGuard según sea necesario.
 
@@ -172,7 +180,7 @@ La regla de ruta de WireGuard Server se muestra a continuación. Haga clic en **
 
 **Nota**: En el modo customize routes, el cliente VPN ignorará el archivo de configuración y la configuración de enrutamiento emitida por el servidor. Que se use o no el túnel VPN cifrado al acceder a cualquier segmento de red vendrá determinado por las reglas de enrutamiento que establezca manualmente.
 
-### Opciones globales
+### Opciones globales {#global-options_1}
 
 Haga clic en **Global Options** en la esquina superior derecha para configurar ajustes avanzados para su servidor VPN.
 

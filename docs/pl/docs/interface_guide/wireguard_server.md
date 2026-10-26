@@ -1,4 +1,4 @@
-# Konfiguracja serwera WireGuard na routerach GL.iNet
+# Konfiguracja serwera WireGuard na routerach GL.iNet {#set-up-wireguard-server-on-glinet-routers}
 
 WireGuard® to wyjątkowo prosty, a zarazem szybki i nowoczesny VPN wykorzystujący najnowsze rozwiązania kryptograficzne. Został zaprojektowany tak, aby był szybszy, prostszy, lżejszy i bardziej użyteczny niż IPsec, a przy tym pozwalał uniknąć jego złożoności. Ma również zapewniać wyraźnie wyższą wydajność niż OpenVPN.
 
@@ -112,9 +112,9 @@ Zaloguj się do panelu administracyjnego i przejdź do **VPN** -> **WireGuard Se
 
     ![wireguard server status](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/wgserver_status.png){class="glboxshadow"}
 
-## Sprawdź, czy serwer WireGuard działa prawidłowo
+## Sprawdź, czy serwer WireGuard działa prawidłowo {#check-if-wireguard-server-is-working-properly}
 
-### Weryfikacja stanu serwera
+### Weryfikacja stanu serwera {#verify-server-status}
 
 Od oprogramowania v4.8 stan połączenia serwera możesz sprawdzić na stronie **WireGuard Server**.
 
@@ -128,7 +128,7 @@ Jeśli widzisz 0 ruchu i 0 klientów, oznacza to, że żaden klient WireGuard ni
 
 W przypadku oprogramowania v4.7 i starszego sprawdź stan połączenia serwera na stronie **VPN Dashboard**.
 
-### Weryfikacja adresu IP klienta
+### Weryfikacja adresu IP klienta {#verify-clients-ip}
 
 Aby potwierdzić poprawne połączenie z serwerem, zaimportuj wcześniej wyeksportowaną konfigurację WireGuard do urządzenia w innej sieci (nie w tej samej sieci lokalnej co serwer). Następnie otwórz przeglądarkę, wyszukaj swój adres IP i lokalizację. Jeśli odpowiadają adresowi IP serwera VPN (zamiast adresowi IP dostawcy Internetu) i jego lokalizacji, połączenie VPN jest prawidłowe.
 
@@ -141,7 +141,7 @@ Jeśli połączenie się nie powiedzie, możliwych jest kilka typowych przyczyn:
 * Port używany przez serwer WireGuard jest blokowany przez dostawcę Internetu. Zmień go na inny lub skontaktuj się z dostawcą Internetu, aby uzyskać dalszą pomoc.
 * W niektórych krajach lub regionach połączenia VPN mogą być blokowane.
 
-## Opcje serwera
+## Opcje serwera {#server-options}
 
 Opcje serwera obejmują zaawansowane ustawienia po stronie serwera, takie jak zdalny dostęp do jego sieci LAN i maskowanie adresów IP. Skonfiguruj je zgodnie ze swoimi potrzebami.
 
@@ -161,13 +161,17 @@ W wyskakującym oknie zobaczysz następujące funkcje.
 
 - **IP Masquerading**: Po włączeniu tej opcji źródłowe adresy IP klientów LAN są zastępowane adresem IP tunelu VPN routera. Wyłącz ją tylko w konfiguracjach Site-to-Site, w których zdalny peer zna podsieci LAN routera.
 
+    Jak pokazano poniżej, jeśli maskowanie IP jest włączone, gdy serwer NAS (192.168.8.100) w domowej sieci LAN wysyła ruch przez tunel do laptopa (192.168.10.200) w sieci LAN routera podróżnego, router domowy przepisuje źródłowy adres IP z `192.168.8.100` na adres tunelu serwera VPN `10.1.0.1`. Dzięki temu strona zdalna widzi ruch jako pochodzący od serwera, a nie z lokalnej sieci LAN serwera.
+
+    ![wgserver ip masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/ip_masquerading.png){class="glboxshadow"}
+
 - **MTU**: Skrót od Maximum Transmission Unit. Wartość MTU ustawiona dla tunelu zastępuje ustawienie MTU w pliku konfiguracyjnym.
 
 - **Client to Client**: Po włączeniu tej opcji klienci VPN połączeni z tym serwerem mogą uzyskiwać wzajemny dostęp za pomocą swoich adresów IP tunelu VPN.
 
     Pamiętaj, że funkcja Client to Client rozgłasza wyłącznie adres IP tunelu każdego klienta. Nie udostępnia automatycznie lokalnych podsieci LAN znajdujących się za poszczególnymi klientami VPN. Aby umożliwić klientom wzajemny dostęp do swoich podsieci LAN, dodaj na serwerze VPN reguły routingu rozgłaszające te zdalne podsieci LAN.
 
-## Instalacja aplikacji WireGuard
+## Instalacja aplikacji WireGuard {#wireguard-app-install}
 
 Pobierz aplikację WireGuard z [oficjalnej strony WireGuard](https://www.wireguard.com/install){target="_blank"}.
 

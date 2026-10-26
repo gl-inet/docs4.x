@@ -1,225 +1,219 @@
-# GL-X750 (Spitz) ユーザーガイド
+# Spitz (GL-X750) ユーザーガイド {#spitz-gl-x750-user-guide}
 
-## ハードウェア情報
+## 製品概要 {#product-overview}
 
-Spitzは3G/4Gデュアルバンド無線ルーターで、スマートホームやIoT分野で広く使用されています。OpenWRT OSを搭載し、様々なアプリケーションシナリオに合わせて独自のファームウェアをコンパイルすることができます。ミニPCIe 3G/4Gモジュールを内蔵しており、異なる通信事業者をサポートし、世界中で使用できます。
-Spitz (GL-X750V2) は (GL-X750)の進化版です。4Gパフォーマンスを向上させるため、再設計されたPCBAと最適化されたアンテナが搭載されています。
+Spitz は 3G/4G 対応のデュアルバンド無線ルーターで、スマートホームや IoT 分野で広く使用されています。OpenWRT OS で動作するため、さまざまな用途に合わせて独自のファームウェアをコンパイルできます。ミニ PCIe 3G/4G モジュールを内蔵しており、さまざまな通信事業者に対応し、世界中で使用できます。
+
+Spitz V2（GL-X750V2）は、Spitz（GL-X750）の上位バージョンです。再設計された PCBA と最適化されたアンテナにより、4G のパフォーマンスが向上しています。
 
 ![gl-x750 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x750/hardware_info/x750v2_interface.jpg){class="glboxshadow"}
 
+## 仕様 {#specifications}
+
 [GL-X750 仕様](https://www.gl-inet.com/products/gl-x750/#specs){target="_blank"}
 
-### PCB ピン設定
+---
 
-<div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
-  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <a href="https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x750/hardware_info/gl-x750_pinout.jpg" itemprop="contentUrl" data-size="1500x1175">
-      <img src="https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x750/hardware_info/gl-x750_pinout.jpg" itemprop="thumbnail" alt="gl-x750 pinout" loading="lazy" />
-    </a>
-  </figure>
-</div>
+## 初回設定 {#first-time-setup}
+
+すべての GL.iNet ルーターは、ほぼ共通のセットアップ手順で設定できます。[初回セットアップの詳細はこちら](../../faq/first_time_setup.md)。
 
 ---
 
-## 初回設定
+## インターネット {#internet}
 
-GL.iNetのすべてのデバイスは、シンプルでほぼ同じセットアッププロセスを持っています。 [初回セットアップについてはここをクリックしてください](../../faq/first_time_setup.md)。
+ルーターの Web 管理パネルにログインし、左側のメニューから **INTERNET** に移動します。
 
----
+このページでは、Ethernet、Repeater、Tethering、Cellular などのインターネット接続タイプを選択できます。
 
-## インターネット
+### イーサネット {#ethernet}
 
-インターネット設定画面では、ルーターがサポートしてるインターネット接続タイプを選択できます。
+イーサネットケーブルを使用して、ルーターを稼働中のモデムまたはネットワーク機器に接続し、インターネットにアクセスします。通常、この方法は最も高速で信頼性の高いインターネット接続を提供します。
 
-ルータのWeb管理パネル内のサイドメニューで**インターネット**を選択して、インターネットネットワークを設定します。
-
-インターネットへの接続は以下の4つの方法がサポートされています:
-
-### イーサネット
-
-イーサネットケーブルを利用して、ルータをアクティブモデムまたはアクティブネットワークデバイスに接続してデータを転送します。この方法は通常、最も高速で信頼性の高いインターネット接続を提供します。
-
-[イーサネット ケーブル経由でインターネットに接続する方法については、ここをクリックしてください。](../../interface_guide/internet_ethernet.md)
+[イーサネットケーブルでインターネットに接続する方法はこちら](../../interface_guide/internet_ethernet.md)
 
 ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x750/internet/x750_ethernet.png){class="glboxshadow"}
 
-### リピーター
+### リピーター {#repeater}
 
-ルーターを使用して範囲内で無線シグナルを受信し、そのシグナルをより遠くへ転送することで、既存のWi-FiネットワークのWi-Fiカバーエリアを拡大します。この方法は、単一のルーターでは使用エリア全体をカバーするのに十分な範囲が確保できない場合に最も有効です。
+ルーターをリピーターとして設定し、既存の Wi-Fi ネットワークのカバー範囲を拡張します。リピーターとして動作する場合、ルーターは範囲内の無線信号を受信して再送信し、カバー範囲を広げます。1 台のルーターでは利用エリア全体をカバーできない場合に便利です。
 
-[既存の Wi-Fi 経由でインターネットに接続する方法については、ここをクリックしてください。](../../interface_guide/internet_repeater.md)
+[既存の Wi-Fi 経由でインターネットに接続する方法はこちら](../../interface_guide/internet_repeater.md)
 
 ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x750/internet/x750_repeater.png){class="glboxshadow"}
 
-### テザリング
+### テザリング {#tethering}
 
-スマートフォンの通信データをケーブル経由でルーターと共有し、接続デバイスとのインターネット接続を確立します。この方法は、スマートフォンのデータを使ってインターネットにアクセスしたい場合に便利です。
+モバイルデータ通信が有効なスマートフォンを USB ケーブルでルーターの USB ポートに接続し、インターネットにアクセスします。この方法では、ルーターに接続された複数のデバイスが、スマートフォンのモバイルデータ通信を使用してインターネットにアクセスできます。
 
-[USBテザリング経由でインターネットに接続する方法については、ここをクリックしてください。](../../interface_guide/internet_tethering.md)
+[USB テザリングでインターネットに接続する方法はこちら](../../interface_guide/internet_tethering.md)
 
 ![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x750/internet/x750_tethering.png){class="glboxshadow"}
 
-### セルラー
+### セルラー {#cellular}
 
-セルラー対応のUSBモデムをルーターのUSBポートに挿入して、ルーターをインターネットに接続します。この方法は、USBモデムからすべての接続デバイスにインターネットアクセスを共有する場合に最も役立ちます。
+ルーターの SIM カードスロットに SIM カードを挿入して、インターネットに接続します。この方法は、1 枚の SIM カードのインターネット接続を、接続中のすべてのデバイスで共有する場合に便利です。
 
-[USBモデム経由でインターネットに接続する方法については、ここをクリックしてください。](../../interface_guide/internet_cellular.md)
+[セルラーでインターネットに接続する方法はこちら](../../interface_guide/internet_cellular.md)
 
 ![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x750/internet/x750_cellular.png){class="glboxshadow"}
 
-### 優先順位とロードバランス
+### Multi-WAN {#multi-wan}
 
-[マルチWAN](../../interface_guide/multi-wan.md) では、各インターネットアクセス方式の優先順位や、複数のインターネットアクセス方式を同時に使用する場合のロードバランスを設定します。
+Multi-WAN は、複数のインターネット接続（例: Ethernet、Repeater、Cellular）を同時にルーターに設定できるネットワーク機能です。最優先のインターネット接続に障害が発生した場合、ルーターは自動的に別のインターネット接続へ切り替えます。これはフェイルオーバーとも呼ばれ、スムーズで途切れのないインターネットアクセスを確保します。
 
----
+各インターネット接続の優先順位は、[Multi-WAN](../../interface_guide/multi-wan.md) で設定します。
 
-## ワイヤレス
-
-ワイヤレス設定では、ユーザーはプライマリ Wi-Fi とゲスト Wi-Fi のネットワーク セキュリティを管理することができます。サイド メニューの **ワイヤレス** に移動するとアクセスできます。
-
-[ワイヤレス設定の詳細については、こちらをクリックしてください](../../interface_guide/wireless.md)
+また、Multi-WAN モードを Failover から Load Balance に切り替えることもできます。Load Balance では、複数のネットワークインターフェースを同時に使用して、ルーターの総帯域幅を増やすことができます。
 
 ---
 
-## クライアント
+## ワイヤレス {#wireless}
 
-クライアントはルーターに接続されているデバイスで あり、クライアントをブロックしたり、ネットワーク速度を制限したりすることができます。このインターフェイスには、ルーターの管理パネルのサイドメニューにある **クライアント** をクリックしてアクセスできます。
+ワイヤレス設定では、メイン Wi-Fi とゲスト Wi-Fi のネットワークセキュリティを管理できます。サイドメニューの **WIRELESS** からアクセスできます。
 
-[デバイスクライアントの管理については、こちらをクリックしてください。](../../interface_guide/clients.md)
+[ワイヤレス設定の詳細はこちら](../../interface_guide/wireless.md)
 
 ---
 
-## VPN
+## クライアント {#clients}
 
-GL.iNetルーターには、30以上のVPNサービスをサポートするOpenVPNとWireGuard®がプリインストールされています。VPNクライアントを有効にすると、ルーターはVPNポリシー設定に従って、VPNアプリを実行できないデバイスを含むネットワーク上のデバイスのトラフィックを暗号化できます。また、当社のルーターはVPNサーバーとしても機能し、パブリックのインターネットにアクセスする前に、遠隔にあるクライアントデバイスからのトラフィックをVPNトンネル経由でVPNサーバーにリダイレクトします。
+クライアントとは、ルーターに接続されているデバイスのことです。クライアントをブロックしたり、ネットワーク速度を制限したりできます。この画面は、ルーターの Web 管理パネルのサイドメニューで **CLIENTS** をクリックすると表示されます。
 
-### VPN ダッシュボード
+[デバイスクライアントの管理の詳細はこちら](../../interface_guide/clients.md)
+
+---
+
+## VPN {#vpn}
+
+GL.iNet ルーターには、30 以上の VPN サービスに対応した OpenVPN と WireGuard® がプリインストールされています。VPN クライアントを有効にすると、ルーターは VPN ポリシー設定に従って、VPN アプリを実行できないデバイスを含むネットワーク上のデバイスのトラフィックを暗号化できます。また、GL.iNet ルーターは VPN サーバーとしても動作し、リモート拠点にあるクライアントデバイスからのトラフィックを、公開インターネットへアクセスする前に VPN トンネル経由で VPN サーバーへ転送できます。
+
+### VPN ダッシュボード {#vpn-dashboard}
 
 - [**VPN ダッシュボード**](../../interface_guide/vpn_dashboard_v4.7.md)
 
-### OpenVPN
+### OpenVPN {#openvpn}
 
-セットアップの手順については、以下のリンクをご参照ください：
+セットアップ手順については、以下のリンクを参照してください。
 
-- [**Setup OpenVPN クライアント**](../../interface_guide/openvpn_client.md)
-- [**Setup OpenVPN サーバー**](../../interface_guide/openvpn_server.md)
+- [**OpenVPN クライアントのセットアップ**](../../interface_guide/openvpn_client.md)
+- [**OpenVPN サーバーのセットアップ**](../../interface_guide/openvpn_server.md)
 
-### WireGuard
+### WireGuard {#wireguard}
 
-セットアップの手順については、以下のリンクをご参照ください：
+セットアップ手順については、以下のリンクを参照してください。
 
-- [**Setup WireGuard クライアント**](../../interface_guide/wireguard_client.md)
-- [**Setup WireGuard サーバー**](../../interface_guide/wireguard_server.md)
-
----
-
-## アプリケーション
-
-GL.iNetルーターには、デバイス管理の簡素化、ユーザーのインターネット体験の向上、ファームウェアアップデートの自動化など、幅広いアドオン機能が含まれています。
-
-### プラグイン
-
-[**プラグイン**](../../interface_guide/plugins.md)チュートリアルにアクセスしてください。
-
-### ダイナミックDNS
-
- [**ダイナミックDNS**](../../interface_guide/ddns.md)チュートリアルにアクセスしてください。
-
-### GoodCloud
-
- [**GoodCloud**](../../interface_guide/cloud.md)チュートリアルにアクセスしてください。
-
-### ペアレンタルコントロール
-
- [**ペアレンタルコントロール**](../../interface_guide/parental_control.md)チュートリアルにアクセスしてください。
+- [**WireGuard クライアントのセットアップ**](../../interface_guide/wireguard_client.md)
+- [**WireGuard サーバーのセットアップ**](../../interface_guide/wireguard_server.md)
 
 ---
 
-## ネットワーク
+## アプリケーション {#applications}
 
-### ファイアウォール
+GL.iNet ルーターには、デバイス管理の簡素化、インターネット利用体験の向上、ファームウェア更新の自動化などに役立つ、幅広い追加機能が用意されています。
 
-GL.iNetのルーターは、安全な接続とユーザーによる完全な監視を保証するため、複数のファイヤーウォール機能を備えています。ポート転送、オープンポート、DMZなどのファイアウォールルールを設定することができます。
+### プラグイン {#plug-ins}
 
-[GL.iNetルーターのファイアウォールについて詳しくはこちら](../../interface_guide/firewall.md)
+[**プラグイン**](../../interface_guide/plugins.md) チュートリアルを参照してください。
 
-### Multi-WAN
+### ダイナミックDNS {#dynamic-dns}
 
- [**Multi-WAN**](../../interface_guide/multi-wan.md)チュートリアルにアクセスしてください。
+[**ダイナミックDNS**](../../interface_guide/ddns.md) チュートリアルを参照してください。
 
-### LAN
+### GoodCloud {#goodcloud}
 
- [**LAN**](../../interface_guide/lan.md) チュートリアルにアクセスしてください。
+[**GoodCloud**](../../interface_guide/cloud.md) チュートリアルを参照してください。
 
-### DNS
+### ペアレンタルコントロール {#parental-control}
 
- [**DNS**](../../interface_guide/dns.md) チュートリアルにアクセスしてください。
+[**ペアレンタルコントロール**](../../interface_guide/parental_control.md) チュートリアルを参照してください。
 
-### Network Mode
-
- [**Network Mode**](../../interface_guide/network_mode.md) チュートリアルにアクセスしてください。
-
-### IPv6
-
- [**IPv6**](../../interface_guide/ipv6.md) チュートリアルにアクセスしてください。
-
-### MACアドレス
-
-Mac アドレスページは、以前はMacクローンと呼ばれていましたが、v4.2からMacアドレスに変更されました。
-
- [**MACアドレス**](../../interface_guide/mac_address.md)チュートリアルにアクセスしてください。
-
-### ドロップイン・ゲートウェイ
-
- [**ドロップイン・ゲートウェイ**](../../interface_guide/drop-in_gateway.md) チュートリアルにアクセスしてください。
-
-### IGMPスヌーピング
-
- [**IGMPスヌーピング**](../../interface_guide/igmp_snooping.md) チュートリアルにアクセスしてください。
- 
 ---
 
-## システム
+## ネットワーク {#network}
 
-### 概要
+### ファイアウォール {#firewall}
 
- [**システム概要**](../../interface_guide/system_overview.md) チュートリアルにアクセスしてください。
+GL.iNet ルーターには、安全な接続を確保し、ユーザーがネットワークを十分に管理できるよう、複数のファイアウォール機能が搭載されています。ポート転送、オープンポート、DMZ などのファイアウォールルールを設定できます。
 
-### アップグレード
+[GL.iNet ルーターのファイアウォールの詳細はこちら](../../interface_guide/firewall.md)
 
-GL.iNet は、パフォーマンスを向上させ、バグを解決し、脆弱性を修正するために、ルーターのファームウェアを定期的にアップデートします。
+### Multi-WAN {#multi-wan_1}
 
- [**アップグレード**](../../interface_guide/upgrade.md) チュートリアルにアクセスしてください。
+[**Multi-WAN**](../../interface_guide/multi-wan.md) チュートリアルを参照してください。
 
-### スケジュールされたタスク
+### LAN {#lan}
 
- [**スケジュールされたタスク**](../../interface_guide/scheduled_tasks.md) チュートリアルにアクセスしてください。
+[**LAN**](../../interface_guide/lan.md) チュートリアルを参照してください。
 
-### 管理者パスワード
+### DNS {#dns}
 
-この機能はv4.5から[**セキュリティ**](../../interface_guide/security.md) に移動されました。
+[**DNS**](../../interface_guide/dns.md) チュートリアルを参照してください。
 
- [**管理者パスワード**](../../interface_guide/admin_password.md) チュートリアルにアクセスしてください。
+### ネットワークモード {#network-mode}
 
-### タイムゾーン
+[**ネットワークモード**](../../interface_guide/network_mode.md) チュートリアルを参照してください。
 
-  [**タイムゾーン**](../../interface_guide/time_zone.md) チュートリアルにアクセスしてください。
+### IPv6 {#ipv6}
 
-### ログ
+[**IPv6**](../../interface_guide/ipv6.md) チュートリアルを参照してください。
 
- [**ログ**](../../interface_guide/log.md) チュートリアルにアクセスしてください。
+### MACアドレス {#mac-address}
 
-### セキュリティ
+MAC アドレスページは、以前は「MAC Clone」という名称でしたが、v4.2 以降は「MAC Address」に変更されました。
 
-この機能はv4.5から利用可能です。
+[**MACアドレス**](../../interface_guide/mac_address.md) チュートリアルを参照してください。
 
- [**セキュリティ**](../../interface_guide/security.md) チュートリアルにアクセスしてください。
+### ドロップイン・ゲートウェイ {#drop-in-gateway}
 
-### ファームウェアをリセット
+[**ドロップイン・ゲートウェイ**](../../interface_guide/drop-in_gateway.md) チュートリアルを参照してください。
 
- [**ファームウェアのリセット**](../../interface_guide/reset_firmware.md) チュートリアルにアクセスしてください。
+### IGMPスヌーピング {#igmp-snooping}
 
-### 詳細設定
+[**IGMPスヌーピング**](../../interface_guide/igmp_snooping.md) チュートリアルを参照してください。
 
- [**詳細設定**](../../interface_guide/advanced_settings.md) チュートリアルにアクセスしてください。
+---
 
+## システム {#system}
+
+### 概要 {#overview}
+
+[**システム概要**](../../interface_guide/system_overview.md) チュートリアルを参照してください。
+
+### アップグレード {#upgrade}
+
+GL.iNet は、パフォーマンスの向上、バグの修正、脆弱性への対処のため、ルーターのファームウェアを定期的に更新しています。
+
+[**アップグレード**](../../interface_guide/upgrade.md) チュートリアルを参照してください。
+
+### スケジュールされたタスク {#scheduled-tasks}
+
+[**スケジュールされたタスク**](../../interface_guide/scheduled_tasks.md) チュートリアルを参照してください。
+
+### 管理者パスワード {#admin-password}
+
+この機能は、v4.5 以降 [**セキュリティ**](../../interface_guide/security.md) に移動しました。
+
+[**管理者パスワード**](../../interface_guide/admin_password.md) チュートリアルを参照してください。
+
+### タイムゾーン {#time-zone}
+
+[**タイムゾーン**](../../interface_guide/time_zone.md) チュートリアルを参照してください。
+
+### ログ {#log}
+
+[**ログ**](../../interface_guide/log.md) チュートリアルを参照してください。
+
+### セキュリティ {#security}
+
+この機能は v4.5 以降で利用できます。
+
+[**セキュリティ**](../../interface_guide/security.md) チュートリアルを参照してください。
+
+### ファームウェアのリセット {#reset-firmware}
+
+[**ファームウェアのリセット**](../../interface_guide/reset_firmware.md) チュートリアルを参照してください。
+
+### 詳細設定 {#advanced-settings}
+
+[**詳細設定**](../../interface_guide/advanced_settings.md) チュートリアルを参照してください。

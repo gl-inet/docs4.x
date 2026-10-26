@@ -1,4 +1,4 @@
-# Kontrola rodzicielska (Firmware v4.9)
+# Kontrola rodzicielska (Firmware v4.9) {#parental-control-firmware-v49}
 
 > Ten przewodnik dotyczy firmware v4.9 i nowszego. W przypadku wcześniejszych wersji kliknij [tutaj](parental_control.md).
 

@@ -1,4 +1,4 @@
-# Sécurité
+# Sécurité {#security}
 
 > Cette page a été introduite avec le firmware v4.5.
 
@@ -6,7 +6,7 @@ Dans la partie gauche du panneau d'administration web, accédez à **SYSTEM** ->
 
 Cette page vous permet de configurer divers paramètres de sécurité afin de protéger votre réseau et votre routeur contre les accès non autorisés.
 
-## Mot de passe administrateur
+## Mot de passe administrateur {#admin-password}
 
 Vous pouvez modifier ici le mot de passe de connexion du panneau d'administration web.
 
@@ -18,7 +18,7 @@ Le mot de passe administrateur doit respecter les exigences suivantes :
 - Les lettres (distinction majuscules/minuscules), les chiffres et les symboles `` ! @ # $ % ^ & * ( ) _ + - = , . > < | ? / \ [ ] { } : ; " ' ` ~ `` sont autorisés.
 - Au moins deux catégories parmi les lettres majuscules, les lettres minuscules, les chiffres et les symboles sont requises.
 
-## Contrôle d'accès
+## Contrôle d'accès {#access-control}
 
 Le contrôle d'accès, également appelé **Local Access Control** dans le firmware v4.7 et les versions antérieures, gère l'accès aux différentes interfaces de gestion du routeur.
 
@@ -28,7 +28,7 @@ Il permet d'éviter les tentatives de scan et d'intrusion sur les ports par déf
 
 ![security_access_control](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/access_control_4.8.png){class="glboxshadow"}
 
-### Panneau d'administration
+### Panneau d'administration {#admin-panel}
 
 - **HTTP Port** : 80 par défaut ; utilisé pour l'accès HTTP non chiffré au panneau d'administration web.
 
@@ -38,7 +38,7 @@ Il permet d'éviter les tentatives de scan et d'intrusion sur les ports par déf
 
 - **Auto-Logout Time** : réglé sur 5 minutes par défaut ; déconnecte automatiquement les sessions administrateur inactives après ce délai pour renforcer la sécurité. Vous pouvez le personnaliser de 1 minute à 3 heures.
 
-### LuCI
+### LuCI {#luci}
 
 > Remarque : installez LuCI dans **Advanced Settings** avant de configurer le contrôle d'accès correspondant.
 
@@ -48,7 +48,7 @@ Il permet d'éviter les tentatives de scan et d'intrusion sur les ports par déf
 
 - **Force HTTPS** : lorsqu'il est activé, l'accès à l'interface LuCI est forcé en HTTPS.
 
-### SSH
+### SSH {#ssh}
 
 - **Enable SSH** : contrôle si l'accès SSH au routeur est autorisé. Cette option est activée par défaut.
 
@@ -145,7 +145,7 @@ Si vous attribuez un numéro de port en conflit avec un port réservé (ou rése
     | 6697  | IRC + TLS                                |
     | 10080 | Amanda                                   |
 
-## Contrôle d'accès à distance
+## Contrôle d'accès à distance {#remote-access-control}
 
 Après activation de l'accès à distance, il est possible d'autoriser uniquement certains emplacements, par exemple permettre l'accès aux appareils domestiques uniquement depuis le bureau, au prix d'un peu moins de confort mais avec une meilleure sécurité.
 
@@ -165,7 +165,7 @@ Après activation de l'accès à distance, il est possible d'autoriser uniquemen
 
 ---
 
-## Ports ouverts sur le routeur
+## Ports ouverts sur le routeur {#open-ports-on-router}
 
 Les services du routeur, comme le Web et le FTP, nécessitent que leurs ports respectifs soient ouverts sur le routeur pour être accessibles publiquement.
 

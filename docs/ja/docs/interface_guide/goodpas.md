@@ -1,4 +1,4 @@
-# GoodPAS
+# GoodPAS {#goodpas}
 
 **注意**: この機能はファームウェア v4.11（GL-MG1300 では v4.10）で導入され、AstroWarp から GoodPAS に名称変更されました。デバイスで古いファームウェアを使用している場合は、[AstroWarp](./astrowarp.md) を参照してください。
 
@@ -20,7 +20,7 @@ GoodPAS は、GL.iNet ルーター SDK に統合された高度なリモート�
 
     たとえば、ルーターAとルーターBがGoodPASネットワークを構成し、ルーターBを出口ノードに設定した場合、GoodPAS経由のトラフィックはルーターBのWANパブリックIPを使用してインターネットに接続します。ルーターBでVPNクライアントが有効になっていても、このトラフィックはルーターBのVPNクライアントトンネルには転送されません。
 
-## クイックセットアップ
+## クイックセットアップ {#quick-setup}
 
 次の例では、**Flint 3 (GL-BE9300)** と **Mango 2 (GL-MG1300)** を使用して GoodPAS ネットワークを設定します。
 
@@ -76,7 +76,7 @@ Flint 3 はホームルーター、Mango 2 は旅行用ルーターとして動�
 
     ![connected home](https://static.gl-inet.com/docs/router/en/4/interface_guide/goodpas/connected_home.png){class="glboxshadow"}
 
-## 接続テスト
+## 接続テスト {#test-connectivity}
 
 1. ノート PC またはスマートフォンを、Mango 2 旅行用ルーターの Wi-Fi に接続します。
 
@@ -92,7 +92,7 @@ Flint 3 はホームルーター、Mango 2 は旅行用ルーターとして動�
 
     ![ipcheck sz](https://static.gl-inet.com/docs/router/en/4/interface_guide/goodpas/ipcheck_sz.png){class="glboxshadow"}
 
-## FAQ
+## FAQ {#faq}
 
 1. **Q: 動的アクセスコードの形式と有効期限を教えてください。**
 
@@ -119,4 +119,4 @@ Flint 3 はホームルーター、Mango 2 は旅行用ルーターとして動�
 
 ---
 
-ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}または[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}をご利用ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

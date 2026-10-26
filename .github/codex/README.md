@@ -11,7 +11,7 @@ Configure these repository secrets before enabling the schedule:
 
 The workflow checks the cache delta, gives the repository and the translation
 skill to Codex, captures a patch and structured report, and then validates all
-seven localized MkDocs sites in a separate job. When changes exist and validation
+nine localized MkDocs sites in a separate job. When changes exist and validation
 passes, it opens a PR with the commit message `translation, from en to other`.
 English source issues are included in the PR report; when no PR can be opened,
 the workflow creates a GitHub issue with the same report.

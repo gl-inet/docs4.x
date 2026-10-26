@@ -1,4 +1,4 @@
-# VPN Client Profile
+# VPN Client Profile {#vpn-client-profile}
 
 **Note**: This page was introduced in firmware v4.9.
 
@@ -10,7 +10,7 @@ Since firmware v4.9, the [OpenVPN Client](openvpn_client.md) and [WireGuard Clie
 
 This page allows you to log in to some integrated VPN services and download their profiles easily for VPN connection, or manually upload your configuration files exported from other VPN provider's website. You may switch VPN protocols in the upper-right corner if needed.
 
-## WireGuard
+## WireGuard {#wireguard}
 
 WireGuard® is a lightweight, high-performance modern VPN built with cutting-edge cryptography. It delivers superior speed, simplicity and practicality compared to IPsec, and significantly outperforms OpenVPN.
 
@@ -25,6 +25,9 @@ GL.iNet routers offer built-in WireGuard support for the following VPN providers
 * PureVPN
 * Surfshark
 * Windscribe
+* X-VPN
+
+**Note**: X-VPN was introduced in firmware v4.11.
 
 ![wireguard](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_client_profile/wg.png){class="glboxshadow"}
 
@@ -52,7 +55,7 @@ Take [AzireVPN](https://www.azirevpn.com/aff/9x7wisg4){target="_blank"} as an ex
 
 3. Refer to the corresponding guidance below based on your actual needs.
 
-    !!! note "Case 1. If you want all connected clients to use VPN for internet access, follow these steps." 
+    ??? note "Case 1. If you want all connected clients to use VPN for internet access, follow these steps." 
     
         1. Select your preferred server, and click the three-dot icon on the right to start a connection.
 
@@ -70,15 +73,15 @@ Take [AzireVPN](https://www.azirevpn.com/aff/9x7wisg4){target="_blank"} as an ex
             
             * To set up Kill Switch for the global VPN connection (i.e., Enhanced Kill Switch), refer to [here](vpn_dashboard.md#all-other-traffic).
 
-    !!! note "Case 2. If you prefer to customize VPN policy instead, follow these steps."
+    ??? note "Case 2. If you prefer to customize VPN policy instead, follow these steps."
     
         1. Click **Go to Dashboard** at the bottom.
 
             ![azirevpn5](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_client_profile/azirevpn5.png){class="glboxshadow"}
 
-        2. You will then be redirected to the **VPN Dashboard** to configure VPN policy. Click [here](vpn_dashboard.md#set-up-vpn-policy) for details.
+        2. You will then be redirected to the **VPN Dashboard** to configure VPN policy. Click [here](vpn_dashboard.md#add-vpn-tunnel) for details.
 
-## OpenVPN
+## OpenVPN {#openvpn}
 
 OpenVPN is an open‑source VPN protocol that uses virtual private network techniques to establish secure site‑to‑site or point‑to‑point connections.
 
@@ -90,7 +93,7 @@ If you subscribe to other OpenVPN service provider, download a configuration fil
 
 ![ovpn add manually](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_client_profile/ovpn_manual.png){class="glboxshadow"}
 
-If you don't know how to download the configuration files, refer to [here](openvpn_client.md#get-configuration-files-from-openvpn-service-providers-get-configuration-files-from-openvpn-service-providers) or contact their support.
+If you don't know how to download the configuration files, refer to [here](openvpn_client.md#get-configuration-files-from-openvpn-service-providers) or contact their support.
 
 ---
 

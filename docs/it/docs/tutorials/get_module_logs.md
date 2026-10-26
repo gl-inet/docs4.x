@@ -1,22 +1,22 @@
-# Come usare qlog per acquisire i log del modem
+# Come usare qlog per acquisire i log del modem {#how-to-use-qlog-to-capture-modem-logs}
 
 Alcuni router GL.iNet sono dotati di modem 3G/4G/5G integrati. Quando la connessione di rete è instabile, potrebbe essere necessario esportare i log del modem per analizzarli.
 
 Di seguito sono riportati i passaggi per esportare i log del modem cellulare.
 
-## 1. Collega il computer al router
+## 1. Collega il computer al router {#1-connect-your-computer-to-the-router}
 
 Collega un laptop al Wi-Fi del router, trovi SSID e password sull'etichetta nella parte inferiore del dispositivo, oppure collega la porta Ethernet del computer alla porta LAN del router tramite un cavo Ethernet.
 
-## 2. Accedi al router tramite SSH
+## 2. Accedi al router tramite SSH {#2-ssh-log-in-to-your-router}
 
-Fai riferimento a [questo link](https://docs.gl-inet.com/router/en/4/tutorials/ssh_log_in_to_the_router/).
+Fai riferimento a [questo link](ssh_log_in_to_the_router.md).
 
-## 3. Acquisisci i log del modem
+## 3. Acquisisci i log del modem {#3-get-modem-logs}
 
 Segui i passaggi appropriati per il modello del tuo dispositivo.
 
-### GL-E5800
+### GL-E5800 {#gl-e5800}
 
 1. Inserisci un’unità flash USB, quindi esegui `df -h` per individuare il percorso di montaggio e annotalo.
 
@@ -58,7 +58,7 @@ Segui i passaggi appropriati per il modello del tuo dispositivo.
 
     ![Qlogs Files](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/E5800_qlogs_files.png){class="glboxshadow"}
 
-### GL-X2000
+### GL-X2000 {#gl-x2000}
 
 1. Inserisci un’unità flash USB, quindi esegui `df -h` per individuare il percorso di montaggio e annotalo.
 
@@ -108,7 +108,7 @@ Segui i passaggi appropriati per il modello del tuo dispositivo.
     ![Qlogs Files](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/X2000_qlogs_files.png){class="glboxshadow"}
 
 
-### GL-XE300/GL-X750/GL-X300B
+### GL-XE300/GL-X750/GL-X300B {#gl-xe300gl-x750gl-x300b}
 
 1. Inserisci un’unità flash USB, quindi esegui `df -h` per individuare il percorso di montaggio e annotalo.
 
@@ -154,7 +154,7 @@ Segui i passaggi appropriati per il modello del tuo dispositivo.
 
     ![Qlogs Files](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/ar9531_qlogs_files.png){class="glboxshadow"}
 
-### GL-X3000/GL-XE3000
+### GL-X3000/GL-XE3000 {#gl-x3000gl-xe3000}
 
 1. Inserisci un’unità flash USB, quindi esegui `df -h` per individuare il percorso di montaggio e annotalo.
 

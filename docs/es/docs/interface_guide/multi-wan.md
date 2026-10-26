@@ -1,4 +1,4 @@
-# Multi-WAN
+# Multi-WAN {#multi-wan}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/D1s1WScLP4s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -16,7 +16,7 @@ Los routers GL.iNet pueden conectarse a Internet de varias maneras, como [Ethern
 
     3. Algunos modelos admiten [Dual-Ethernet WAN](ethernet_port.md#dual-ethernet-wan), lo que añadirá una interfaz Ethernet adicional en la interfaz de usuario.
 
-## Seguimiento del estado de la interfaz
+## Seguimiento del estado de la interfaz {#interface-status-track}
 
 Los routers GL.iNet admiten hasta 5 interfaces de red virtuales, aunque el número exacto puede variar según el modelo. Por ejemplo, el GL-MT6000 tiene **Ethernet 1**, **Ethernet 2**, **Repeater**, **Tethering** y **Cellular**, cada una con funciones de red distintas en configuraciones definidas por software.
 
@@ -26,7 +26,7 @@ Si la interfaz está disponible, se mostrará un punto verde en el lado izquierd
 
 ![interface status track 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/multi-wan/interface_status_track_1.jpg){class="glboxshadow"}
 
-### Ajustes de seguimiento del estado
+### Ajustes de seguimiento del estado {#status-track-settings}
 
 Haga clic en el icono de engranaje para acceder a los ajustes de seguimiento del estado de cada interfaz de red.
 
@@ -50,7 +50,7 @@ Por ejemplo, esta es la configuración de seguimiento del estado para la interfa
 
     Algunos firmware antiguos, como v4.3, proporcionan ajustes como **Track Interval**, **Change to Failure Condition** y **Change to Available Condition**. Estos ajustes se eliminaron desde v4.5 y se sustituyeron por **Detection Mode** y **Sensitivity Options**.
 
-### Opciones de sensibilidad
+### Opciones de sensibilidad {#sensitivity-options}
 
 Esta función está disponible desde v4.5.
 
@@ -63,11 +63,11 @@ Esta sensibilidad determina el intervalo de tiempo para la detección del estado
 
 **Consejo**: Cambiar a alta sensibilidad puede provocar desconexiones de red. Ajústelo con precaución.
 
-## Modo Multi-WAN
+## Modo Multi-WAN {#multi-wan-mode}
 
 Multi-WAN dispone de dos modos: **Failover** y **Load Balance**. Son mutuamente excluyentes y solo se puede utilizar uno a la vez.
 
-### Failover
+### Failover {#failover}
 
 Failover es el modo predeterminado cuando existen varias conexiones WAN. Si falla el enlace activo, el router cambiará automáticamente a otra interfaz de red para acceder a Internet.
 
@@ -75,7 +75,7 @@ Failover es el modo predeterminado cuando existen varias conexiones WAN. Si fall
 
 Puede establecer la prioridad de cada interfaz. Si falla la interfaz en uso, el router cambia a la siguiente interfaz disponible con la prioridad más alta. Cuando se restablece una conexión con mayor prioridad, el router vuelve automáticamente a ella.
 
-### Load Balance
+### Load Balance {#load-balance}
 
 Load Balance permite utilizar varios enlaces de red al mismo tiempo, lo que aumenta el ancho de banda y mejora el rendimiento total.
 
@@ -95,7 +95,7 @@ Se pueden configurar las dos proporciones de carga siguientes:
 
 ![multi-wan load balance](https://static.gl-inet.com/docs/router/en/4/interface_guide/multi-wan/load_balance.png){class="glboxshadow"}
 
-## Escenarios de uso
+## Escenarios de uso {#usage-scenarios}
 
 - El sistema de caja de una tienda usa una conexión cableada a Internet, mientras que Repeater hacia una red Wi-Fi de tiendas cercanas, o insertar una tarjeta SIM para habilitar la red celular, se usa como método de acceso a Internet de respaldo para evitar que los pagos móviles se interrumpan cuando el cable de red no esté disponible.
 

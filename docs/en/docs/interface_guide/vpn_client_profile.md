@@ -64,7 +64,7 @@ Take [AzireVPN](https://www.azirevpn.com/aff/9x7wisg4){target="_blank"} as an ex
 
             Now the VPN connection has been activated, and all clients connected to this router should use VPN for secured internet access.
 
-        3. (Optional) If you want the system to automatically cuts off all internet access for your local network when the VPN connection fails unexpectedly, preventing your real IP address and online data from being exposed and ensuring continuous privacy and security, go to **VPN Dashboard** to enable **Kill Switch**.
+        3. (Optional) If you want the system to automatically cut off all internet access for your local network when the VPN connection fails unexpectedly, preventing your real IP address and online data from being exposed and ensuring continuous privacy and security, go to **VPN Dashboard** to enable **Kill Switch**.
 
             * To set up Kill Switch for each individual VPN tunnel, refer to [here](vpn_dashboard.md#tunnel-options).
             

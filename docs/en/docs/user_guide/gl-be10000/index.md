@@ -77,7 +77,7 @@ Configure your Slate 7 Pro using one of the supported internet connection method
     3. Enter the password and tap **Apply**.
     4. Once successfully connected to the internet, the Repeater section on the touchscreen homepage will turn blue (active). You can either tap Repeater on the touchscreen or log in to the web admin panel to check the connection details.
 
-=== "Tethering"
+=== "Tethering" 
 
     ![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/internet/be10000_tethering.jpg){class="glboxshadow"}
 
@@ -86,7 +86,7 @@ Configure your Slate 7 Pro using one of the supported internet connection method
     3. On the Slate 7 Pro's touchscreen, select **Tethering** and tap **Connect**. It will then connect to your device.
     4. Once successfully connected to the internet, the Tethering section on the touchscreen homepage will turn blue (active). You can either tap Tethering on the touchscreen or log in to the web admin panel to check the connection details.
 
-    **Note**: If the connection fails, make sure the power supply voltage is above 9V 3A, as low power supply may prevent the USB port from powering up. Repeat the steps above, or log in to the web admin panel to check the Tethering connection status.
+    **Note**: If the connection fails, make sure you are using a USB PD adapter that supports 9V/3A or 12V/2.5A, as insufficient power may prevent the USB port from properly powering the connected device. Then repeat the steps above, or log in to the web admin panel to check the Tethering connection status.
 
 === "Cellular"
 
@@ -169,7 +169,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "DNS"
 
-    The DNS page allows you to set custom DNS servers, enable DNS rebinding attack protection and override DNS settings of all clients, allow custom DNS to override VPN DNS, and configure the DNS server settings mode to automatic or manually specify DNS servers from the Ethernet connection.
+    The DNS page allows you to set custom DNS servers, enable DNS rebinding attack protection, override the DNS settings of all clients, and allow custom DNS to override VPN DNS. You can use DNS servers automatically obtained from upstream devices or manually specify custom DNS servers.
 
     To set up DNS, refer to [DNS](../../interface_guide/dns.md).
 

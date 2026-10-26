@@ -48,8 +48,8 @@ If you cannot establish a cellular connection, please check for the following is
     
     **2.4** Enable **Band Masking** and test again. For firmware v4.7 and earlier, refer to [this link](../interface_guide/internet_cellular_v4.7.md#band-masking). For firmware v4.8 and later, refer to [this link](../interface_guide/internet_cellular.md#band-masking).
 
-    **2.5** Lock or unlock a signal tower and test again. This feature is available only on GL-X3000 (Spitz AX), GL-XE3000 (Puli AX) and GL-X2000 (Spitz Plus). Click [here](../interface_guide/internet_cellular.md#lock-tower) for more instructions.
-    
+    **2.5** Lock or unlock a signal tower and test again. This feature is available on GL-E5800 (Mudi 7), GL-X3000 (Spitz AX), GL-XE3000 (Puli AX), and GL-X2000 (Spitz Plus). Note that the GL-X2000 (Spitz Plus) supports this feature on firmware v4.7 and above. Click [here](../interface_guide/internet_cellular.md#lock-tower) for more instructions. 
+
     Locking to a specific signal tower allows the router to access a high-quality network resource and maintain stable cellular connectivity.
     
     However, once a tower is locked, the router will keep trying to reconnect to it after rebooting even if moved to a new location. This may prevent the router from connecting to the cellular network automatically. If this happens, you can either unlock the current tower via the router's web admin panel or manually lock it to a new tower.
@@ -60,7 +60,7 @@ If you cannot establish a cellular connection, please check for the following is
 
 ??? "Check SIM compatibility"
     
-    **3.1** Confirm the SIM type. GL.iNet cellular routers are certified as IoT devices. In theory, the device supports only IoT‑type SIM cards. If you are unsure about the SIM type, please contact your carrier.
+    **3.1** Confirm the SIM compatibility. GL.iNet's North American cellular router models are IoT-certified. This does not mean, however, that IoT SIM cards are required — standard consumer SIM cards may also be compatible. If you're unsure which SIM type to use, please contact your carrier.
     
     Common SIM types include: data‑only, data‑only + voice, IoT, and hotspot. We recommend using IoT or hotspot SIM cards. Data-only or data-only + voice SIM cards are not guaranteed to work.
     

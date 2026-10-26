@@ -8,13 +8,13 @@
 
 Please close any applications that are not needed in advance. This will help reduce distractions and protect your privacy.
 
-## 2. Ensure Network Stable {#2-ensure-network-stable}
+## 2. Ensure Stable Network Connectivity {#2-ensure-network-stable}
 
 We recommend using both Wi-Fi and wired connections on your computer to avoid any disconnections or delays during the remote assistance session.
 
 ## 3. Download and Install AnyDesk {#3-download-and-install-anydesk}
 
-Visit the official [AnyDesk website](https://anydesk.com/) to download the version suitable for your Operating System.
+Visit the official [AnyDesk website](https://anydesk.com/) to download the version suitable for your operating system.
 
 ![download anydesk](https://static.gl-inet.com/docs/router/en/4/tutorials/remote_support_via_anydesk/install_anydesk.png){class="glboxshadow"}
 
@@ -40,12 +40,12 @@ Please ensure you trust the technician, then click “Accept” to allow them ac
 
 ## 7. Communicate During Session {#7-communicate-during-session}
 
-Throughout the support session, feel free to communicate via speaker, chat window in Anydesk session, or any other method to ensure your issues are addressed effectively.
+Throughout the support session, feel free to communicate via speaker, chat window in AnyDesk session, or any other method to ensure your issues are addressed effectively.
 
 ## 8. End the Session {#8-end-the-session}
 
-Once the support session is concluded, terminate the connection by clicking the red "End Session" button in the AnyDesk interface. This will terminate all remote access permissions. To ensure complete privacy protection, please also:
+Once the support session is concluded, terminate the connection by clicking the red "End Session" button in the AnyDesk interface. This will close the current remote support session. If you enabled Unattended Access, disable it separately in AnyDesk's security settings. To ensure complete privacy protection, please also:
 
 - Close the AnyDesk application entirely (not just minimize it).
 - Restart your computer if you have concerns about residual processes.
-- Check your system settings to confirm no remote access permissions remain active.
+- Check AnyDesk security settings to confirm no remote access permissions remain active.

@@ -202,10 +202,10 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     The Guest Network page allows you to create and manage a separate network for your guests, providing them with internet access while keeping your main network secure. Key functionalities on this page include:
 
-    * Gateway: Set a specific IP address range for the guest network to distinguish it from your main network.
+    * Gateway: Set the gateway IP address for the guest network.
     * DHCP: Configure the Dynamic Host Configuration Protocol for the guest network, automatically assigning IP addresses to devices that connect to it.
 
-    These features ensure that your guests can enjoy internet access without compromising the security and performance of your primary network.
+    The guest network provides guests with internet access and isolates guest traffic from your primary network to reduce potential impacts on its security and performance.
     
     For detailed setup instructions and more information, please refer to [Guest Network](../../interface_guide/guest_network.md).
 
@@ -243,7 +243,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     * NAT6: Utilize Network Address Translation for IPv6 (NAT6) to translate between internal and external IPv6 addresses, similar to how NAT works for IPv4.
     * Static IPv6: Manually configure a static IPv6 address for your router, providing a fixed address for consistent connectivity and easier management of network services.
 
-    These settings help you leverage the benefits of IPv6, including improved address space, enhanced security features, and better performance.
+    These modes provide flexible IPv6 configuration options to suit different network environments.
 
     For detailed setup instructions and more information, please refer to [IPv6](../../interface_guide/ipv6.md).
 

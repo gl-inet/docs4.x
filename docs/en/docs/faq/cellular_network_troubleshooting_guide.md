@@ -60,7 +60,7 @@ If you cannot establish a cellular connection, please check for the following is
 
 ??? "Check SIM compatibility"
     
-    **3.1** Confirm the SIM type. GL.iNet's North American cellular router models are certified as IoT devices. However, this does not necessarily mean that only IoT-type SIM cards are compatible. If you are unsure about the SIM type and compatibility, please contact your carrier.
+    **3.1** Confirm the SIM compatibility. GL.iNet's North American cellular router models are IoT-certified. This does not mean, however, that IoT SIM cards are required — standard consumer SIM cards may also be compatible. If you're unsure which SIM type to use, please contact your carrier.
     
     Common SIM types include: data‑only, data‑only + voice, IoT, and hotspot. We recommend using IoT or hotspot SIM cards. Data-only or data-only + voice SIM cards are not guaranteed to work.
     

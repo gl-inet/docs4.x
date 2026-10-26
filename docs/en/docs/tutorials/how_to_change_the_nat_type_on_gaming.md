@@ -6,23 +6,23 @@ You can configure DMZ or port forwarding on your router to achieve the same purp
 
 ## Check your Game IP {#check-your-game-ip}
 
-Go to the client list and check the IP assigned to your game. You need to use this IP address on the following setup
+First, log in to your router and go to the Client list to check the IP address assigned to your game. You need to use this IP address on the following setup.
 
 ![gameip](https://static.gl-inet.com/docs/router/en/4/tutorials/gamling/gameip.png){class="glboxshadow"}
 
-## Method 1 DMZ {#method-1-dmz}
+## Method 1. DMZ {#method-1-dmz}
 
-Go to side-bar **Network > Port Forwarding** and enable the DMZ with your game IP.
+Go to **Network** -> **Port Forwarding** and enable the DMZ with your game IP.
 
 ![dmz](https://static.gl-inet.com/docs/router/en/4/tutorials/gamling/dmzgame.png){class="glboxshadow"}
 
-## Method 2 Port forward {#method-2-port-forward}
+## Method 2. Port Forwarding {#method-2-port-forward}
 
-Go to side-bar **Network > Port Forwarding** and add necessary ports with your game IP.
+Go to **Network** -> **Port Forwarding** and add necessary ports with your game IP.
 
 ![inputport](https://static.gl-inet.com/docs/router/en/4/tutorials/gamling/inputport.png){class="glboxshadow"}
 
-Example: Ports for PS5
+Here's an example of forwarding ports for PS5.
 
 UDP 3074, 3478-3479
 
@@ -36,17 +36,15 @@ UDP 88, 3074
 
 TCP 3074
 
-Some games may need other ports to be forwarded, you can refer to this website for more detail.
-
-[Port forward on different Games](https://portforward.com/games/)
+Some games may need other ports to be forwarded. You may refer to [How To Forward Ports In Your Router For a Better Gaming Experience](https://portforward.com/games/){target="_blank"} for details.
 
 ## Full Cone NAT {#full-cone-nat}
 
-You can enable the Full Cone NAT at **Network > NAT Settings** to improve the latency.
+You can enable the Full Cone NAT to improve the latency. This feature has been available since firmware v4.5.
+
+Go to **Network** -> **NAT Settings** and enable **Full Cone NAT** if needed, then click **Apply**.
 
 ![conenat](https://static.gl-inet.com/docs/router/en/4/tutorials/gamling/conenat.png){class="glboxshadow"}
-
-* This function is available on Firmware 4.5 or above.
 
 ---
 

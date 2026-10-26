@@ -97,6 +97,11 @@ jobs:
           name: translation-delta
           path: .codex-run
 
+      # Keep the downloaded report out of `git status` so Codex sees a clean tree.
+      - name: Exclude Codex run files from git status
+        shell: bash
+        run: echo ".codex-run/" >> .git/info/exclude
+
       - name: Check Codex credentials
         env:
           CODEX_API_KEY: ${{ secrets.OPENAI_API_KEY }}
@@ -294,3 +299,15 @@ jobs:
           gh issue create \
             --title "English source issues found by translation run ${GITHUB_RUN_ID}" \
             --body-file "$RUNNER_TEMP/english-source-issues.md"
+
+      - name: Fail when Codex did not complete the sync
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          status="$(jq -r '.status' codex-output.json)"
+          if [ "$status" = "blocked" ] || [ "$status" = "failed" ]; then
+            echo "::error::Codex returned status '$status'. See the codex-report artifact."
+            jq -r '(.validation.notes // []) + (.notes // []) | .[]' codex-output.json
+            exit 1
+          fi

@@ -1,6 +1,6 @@
 # Securing RDP from an External Network with WireGuard {#securing-rdp-from-an-external-network-with-wireguard}
 
-You may need to remotely access your PC from an external network, or vice versa. The most secure way is to do so through your own WireGuard tunnel. This provides better security than port forwarding and accessing your PC directly through your public IP address. After setting up the tunnel, you can use **Windows Remote Desktop** to access your PC from anywhere.
+You may need to remotely access your PC from an external network, or vice versa. A secure approach is to access it through your own WireGuard tunnel. This provides better security than port forwarding and accessing your PC directly through your public IP address. After setting up the tunnel, you can use **Windows Remote Desktop** to access your PC from anywhere.
 
 This tutorial takes two GL.iNet routers as an example to demonstrate how to secure Windows RDP over a WireGuard network.
 

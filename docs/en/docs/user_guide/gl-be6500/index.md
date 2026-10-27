@@ -2,7 +2,7 @@
 
 ## Product overview {#product-overview}
 
-Flint 3e (GL-BE6500) is a dual-band Wi-Fi 7 desktop router built for home users and small offices. It supports Wi-Fi 7 Multi-Link Operation (MLO) technology, intelligently merging 2.4GHz and 5GHz channels into a single connection. Simultaneous dual-band resource use cuts interference and congestion, while 4K QAM delivers a combined dual-band speed of 6453Mbps — a 20% boost over Wi-Fi 6. The upgraded 5GHz band (4x4 MIMO, 160MHz) also enhances long-range performance significantly.
+Flint 3e (GL-BE6500) is a dual-band Wi-Fi 7 desktop router built for home users and small offices. It supports Multi-Link Operation (MLO), allowing compatible devices to use links on both the 2.4 GHz and 5 GHz bands to help mitigate the effects of interference and congestion. Its 4K-QAM modulation offers up to 20% higher theoretical data rates than Wi-Fi 6's 1024-QAM under otherwise identical conditions. The router supports a combined theoretical dual-band rate of up to 6452 Mbps, with 4×4 MIMO and a 160 MHz channel width on the 5 GHz band. Actual speeds depend on client capabilities and network conditions.
 
 Packed with 5× 2.5G Ethernet ports and 1× USB 3.0 port, it supports high-speed wired connectivity and storage expansion. Additionally, it is compatible with 30+ VPN services and delivers powerful VPN performance up to 680Mbps on WireGuard® and OpenVPN-DCO, plus it includes free Bark Parental Control, perfectly balancing performance, practicality and security.
 
@@ -231,7 +231,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "DNS"
 
-    The DNS page allows you to set custom DNS servers, enable DNS rebinding attack protection and override DNS settings of all clients, allow custom DNS to override VPN DNS, and configure the DNS server settings mode to automatic or manually specify DNS servers from the Ethernet connection.
+    The DNS page allows you to set custom DNS servers, enable DNS rebinding attack protection, override the DNS settings of all clients, and allow custom DNS to override VPN DNS. You can use DNS servers automatically obtained from upstream devices or manually specify custom DNS servers.
 
     To set up DNS, refer to [DNS](../../interface_guide/dns.md).
 

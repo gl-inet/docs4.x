@@ -177,7 +177,7 @@ The WireGuard Server Route Rule displays as follows. Click **Add Route Rule**, e
 
 ![wg server route rule](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/vpnserver_route_rule_wg.png){class="glboxshadow"}
 
-**Note**: In customize routes mode, the VPN client will ignore the configuration file and the routing configuration issued by the server. Whether to use the VPN encrypted tunnel when accessing any network segment is determined by the routing rules you manually set.
+**Note**: Server route rules let you define custom routing entries on the VPN server — specifying the target address, gateway, and other parameters for each rule. The manually configured entries take precedence over the default routing settings in the VPN configuration file, determining which client traffic is routed through the encrypted tunnel.
 
 ### Global Options {#global-options_1}
 

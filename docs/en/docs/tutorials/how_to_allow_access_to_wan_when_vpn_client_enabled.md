@@ -18,7 +18,7 @@ Enable **Allow Access WAN** and click **Apply**.
 
 If this option is enabled, while the VPN is connected, client devices will still be able to access WAN services in the upper subnet, e.g. your printer, NAS, etc.
 
-## For firmware v4.8 and higher {#for-firmware-v48-and-higher}
+## For firmware v4.8 {#for-firmware-v48}
 
 The option **Allow Access WAN** has been removed from VPN Dashboard in firmware v4.8. But you can achieve local WAN access by VPN policy.
 
@@ -48,7 +48,7 @@ Follow the steps below.
 
     ![exclude target](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/exclude-target.png){class="glboxshadow"}
 
-    Here we take the subnet 192.168.0.1/24 as an example. Input this subnet and apply, and the VPN tunnel will be displayed as below.
+    Here we take the subnet 192.168.1.0/24 as an example. Input this subnet and apply, and the VPN tunnel will be displayed as below.
 
     ![exclude target apply](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/target-apply.png){class="glboxshadow"}
 
@@ -89,6 +89,66 @@ Follow the steps below.
     You can use ping command to test the connectivity. 
 
     ![ping test](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/ping-test.png){class="glboxshadow"}
+
+## For firmware v4.9 and above {#for-firmware-v49-and-above}
+
+Follow the steps below to allow the VPN client's LAN devices to access local WAN services.
+
+1. Log in to the web admin panel of your VPN client, and go to **VPN** -> **VPN Dashboard**. 
+
+    Click Add VPN Tunnel to get started.
+
+    ![add vpn tunnel](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/add_vpn_tunnel.png){class="glboxshadow" width=700}
+
+2. Select one or multiple profiles, and adjust their priority on the right as needed, then click **Next**. 
+
+    ![select profiles](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/select_profiles_4.9.png){class="glboxshadow" width=600}
+
+    Select **All Clients**, then click Next. You may also select specific clients as needed.
+    
+    ![all clients](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/all_clients_4.9.png){class="glboxshadow" width=600}
+
+    Select **Exclude specified Domain / IP List**, input the WAN subnet of your router, then click **Apply**. This ensures all traffic to the WAN subnet is routed through the local WAN rather than the VPN tunnel.
+
+    Here we take the subnet 192.168.1.0/24 as an example. Input this subnet and apply. 
+
+    ![exclude target](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/exclude-target_4.9.png){class="glboxshadow" width=600}
+
+    ??? "How do I know the WAN subnet of my GL.iNet router?"
+    
+        GL.iNet router's WAN subnet usually can be found on the INTERNET page. It is determined by the upstream device that the router's WAN interface connects to (e.g., an ISP modem or upstream gateway).
+
+        For example, if your router works as a secondary router (where its WAN port is connected to another local network, such as an ISP modem or a main router's LAN port), and the router's WAN IP is 192.168.1.165, Gateway is 192.168.1.1, and Subnet Mask is 255.255.255.0 (a common mask for small networks), then the corresponding WAN subnet is 192.168.1.0/24. This is also the LAN subnet of the upstream device.
+
+        ![check wan subnet](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/local-wan-details.png){class="glboxshadow gl-80-desktop"}
+
+        **Note**: The prefix length of 192.168.1.0/24 is 24, which corresponds to the subnet mask 255.255.255.0. If your router's WAN Subnet Mask is not 255.255.255.0, the prefix length of your WAN subnet is not "/24". Please confirm the WAN subnet based on the actual WAN configuration. 
+
+3. Click the gear icon at the upper right to set up a policy for traffic that does not match any VPN tunnel.
+
+    ![select config](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/select-config_4.9.png){class="glboxshadow"}
+
+    Select **Allow Non-VPN Traffic**, then click **Apply**.
+
+    ![allow non-vpn traffic](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/allow_non-vpn_traffic.png){class="glboxshadow" width=500}
+
+4. Click the power button to enable this VPN tunnel. It will start connecting. 
+
+    ![enable vpn](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/enable_vpn_4.9.png){class="glboxshadow" width=700}
+
+    Wait a few minutes. Once the VPN connection is established, the tunnel status indicator turns green.
+
+    ![vpn connected](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/vpn_connected_4.9.png){class="glboxshadow" width=700}
+
+    Search your public IP to test the VPN connection. For example, open a browser and visit [whatismyip](https://whatismyipaddress.com/){target="_blank"}. It will show your public IP address and location, as shown below. 
+
+    ![vpn test](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/ipcheck_4.9.png){class="glboxshadow"}
+
+5. Access devices or services on the WAN subnet and check if you can access successfully. 
+
+    You can use ping command to test the connectivity. 
+
+    ![ping test](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/ping-test_4.9.png){class="glboxshadow" width=500}
 
 ---
 

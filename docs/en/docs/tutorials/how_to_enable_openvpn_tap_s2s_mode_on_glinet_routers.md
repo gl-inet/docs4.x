@@ -27,7 +27,7 @@ Firstly, use a router (assumed to be GL-MT6000) with a public IP to open the Ope
 
 ![tutorials_export](https://static.gl-inet.com/docs/router/en/4/tutorials/tap_s2s_vs_tun/tutorials_export.png){class="glboxshadow"}
 
-In addition, use a router (assuming it is GL-X3000) with a public IP to open the OpenVPN client, import the configuration file downloaded in the above steps, click **Apply**, and then enable the function.
+In addition, use a router (assuming it is GL-X3000) to open the OpenVPN client, import the configuration file downloaded in the above steps, click **Apply**, and then enable the function.
 
 ![tutorials_select_file](https://static.gl-inet.com/docs/router/en/4/tutorials/tap_s2s_vs_tun/tutorials_select_file.png){class="glboxshadow"}
 
@@ -37,13 +37,13 @@ At this time, the IP address of the GL-X3000 router will change. You can log in 
 
 ![tutorials_new_IP_address](https://static.gl-inet.com/docs/router/en/4/tutorials/tap_s2s_vs_tun/tutorials_new_IP_address.png){class="glboxshadow"}
 
-If the GL-MT6000 loses network connection or turns off the OpenVPN server, or the GL-X3000 turns off the OpenVPN client , the  IP address of the GL-X3000 will be restored.
+If the GL-MT6000 loses network connection or turns off the OpenVPN server, or the GL-X3000 turns off the OpenVPN client, the IP address of the GL-X3000 will be restored.
 
 Points to Note:
 
 - Both devices must be upgraded to version v4.5, otherwise they will not be able to connect;
 - TAP-S2S only works with Global Proxy Mode, it will adjust automatically with OpenVPN on.
-- After enabling this feature, the following functions cannot be used: VPN server, Adguard Home, Parental Control, ZeroTier, Tailscale, Tor, Firewall, Multi-WAN, LAN, DNS, Network Mode, IPv6, MAC Address, Drop-in Gateway, IGMP Snooping, etc.
+- After enabling this feature on the OpenVPN client, the following functions cannot be used: VPN server, Adguard Home, Parental Control, ZeroTier, Tailscale, Tor, Firewall, Multi-WAN, LAN, DNS, Network Mode, IPv6, MAC Address, Drop-in Gateway, IGMP Snooping, etc.
 
 ---
 

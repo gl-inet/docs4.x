@@ -8,11 +8,11 @@ A captive portal is a Web page where public hotspots require users to view and i
 
 * Public Wi-Fi is not safe
 
-    It's hard to overstate the risks of public Wi-Fi. By connecting your GL.iNet router to public Wi-Fi, you can log in to your VPN account directly through the router's Admin Panel. It will automatically encrypt all connected devices on the local network, saving you the trouble of setting up a VPN on every single device.
+    It's hard to overstate the risks of public Wi-Fi. By connecting your GL.iNet router to public Wi-Fi, you can log in to your VPN account directly through the router's Admin Panel. When your router is set to route all local traffic through VPN, traffic from connected devices will be encrypted through the VPN, saving you the trouble of setting up VPN on every device.
 
 * Use as a repeater to allow connections with multiple devices
 
-    Besides that, some public Wi-Fi networks (e.g., hotel Wi-Fi) limit access to, for example, two devices. When traveling in a group, this is impractical. Instead, you can connect a travel router to the hotel Wi-Fi and use it as a repeater to broadcast a Wi-Fi signal to all your devices, including laptops, smartphones, tablets, etc. The hotel Wi-Fi will only recognize the travel router as a single device, but you can connect as many devices as you want to the free Wi-Fi.
+    Besides that, some public Wi-Fi networks (e.g., hotel Wi-Fi) limit access to, for example, two devices. When traveling in a group, this is impractical. Instead, you can connect a travel router to the hotel Wi-Fi and use it as a repeater to broadcast a Wi-Fi signal to all your devices, including laptops, smartphones, tablets, etc. The hotel Wi-Fi will recognize the travel router as a single device, but you can connect multiple devices to the travel router, subject to its maximum client limit.
 
 ## How to connect router to public hotspots with captive portal? {#how-to-connect-router-to-public-hotspots-with-captive-portal}
 
@@ -82,7 +82,7 @@ When connecting the router to a public hotspot, on the **Join Network** page, en
 
 ---
 
-### Method 3：MAC Clone {#method-3mac-clone}
+### Method 3: MAC Clone {#method-3mac-clone}
 
 Some hotels limit the number of devices each customer can connect to the hotel's Wi-Fi by recognizing their MAC addresses, and they record the device's MAC address when it first connects. In this case, you can clone the MAC address your phone uses to connect to the hotel Wi-Fi to the router, allowing the router to use that MAC address to access the hotel's Wi-Fi.
 

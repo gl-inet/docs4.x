@@ -10,7 +10,7 @@ To add additional UI languages or update UI text, click **Add Languages**.
 
 ![languages list](https://static.gl-inet.com/docs/router/en/4/interface_guide/ui_languages/add_languages.jpg){class="glboxshadow"}
 
-In the pop-up window, select your desired language and click **Update**. The router will automatically pull the latest language pack from our repository. Uninstalled language packs will be removed (except English).
+In the pop-up window, select your desired languages and click **Update**. The router will automatically download the latest versions of the selected language packs from our repository and uninstall any unselected language packs (except English).
 
 If you want to automatically get the latest language pack to fix potential text issues, toggle on **Enable Auto Update** and set the update time. The router will then automatically download the latest language pack at the specified time.
 

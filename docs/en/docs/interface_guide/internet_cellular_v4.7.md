@@ -79,9 +79,9 @@ Applying the changes will trigger a reconnection.
 
 - **PIN**: If your SIM card is protected by a PIN code, enter it here. This field is optional if no PIN is set.
 
-- **TTL**: TTL (Time To Live) defines the maximum time packets can survive in the network. By default, the router decrements the TTL of incoming packets from client devices by 1 before forwarding them. The TTL setting is valid only for IPv4.  
+- **TTL**: TTL (Time To Live) defines the maximum time packets can survive in the network. By default, the router decrements the TTL of incoming packets from client devices by 1 before forwarding them. The TTL setting is valid only for IPv4.
 
-    **Note**: If you need to override/spoof the TTL, set a fixed value here. For most models, enter the desired effective TTL plus 1 to compensate for the automatic decrement. The Mudi 7 (GL‑E5800) applies the entered value unchanged.
+    **Note**: If you need to override/spoof the TTL, set a fixed value here. For most models, enter the desired effective TTL plus 1 to compensate for the automatic decrement.
 
 - **Service**: Select the cellular service type to define the network technologies the modem will use.
 
@@ -222,7 +222,7 @@ When Shortcut is set to **Manual command**, type your desired command in the AT 
 
 You can also click the Shortcut drop-down to select from a list of **preset commands**.
 
-![shortcut](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/at_command_2.png){class="glboxshadow"}
+![shortcut](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/at_command_1.png){class="glboxshadow"}
 
 The following commands are available as presets:
 
@@ -236,7 +236,7 @@ The following commands are available as presets:
 
 As an example, the shortcut "Request IMEI" is selected here. Click "Send" and you will get the result as shown below.
 
-![shortcut example](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/at_command_3.png){class="glboxshadow"}
+![shortcut example](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/at_command_2.png){class="glboxshadow"}
 
 ## Carrier profile {#carrier-profile}
 

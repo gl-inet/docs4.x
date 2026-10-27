@@ -2,7 +2,7 @@
 
 ## Product overview {#product-overview}
 
-Puli AX (GL-XE3000) is the ultimate Wi-Fi 6 5G Cellular Router that takes your internet speed to the next level! With a powerful built-in 6400mAh/7.4V/47.4Wh battery, you can now enjoy uninterrupted internet connectivity for even longer periods. Experience lightning-fast Wi-Fi speeds of up to 574Mbps (2.4GHz) and 2402Mbps (5GHz), with a combined maximum Wi-Fi speed of 3000Mbps. It is equipped with a 5G NR cellular connection, ensuring uninterrupted internet connectivity, even in the event of an ethernet failure.
+Puli AX (GL-XE3000) is a Wi-Fi 6 5G Cellular Router delivering fast internet speeds. With a powerful built-in 6400mAh/7.4V/47.4Wh battery, you can enjoy internet connectivity for even longer periods. Experience lightning-fast Wi-Fi speeds of up to 574Mbps (2.4GHz) and 2402Mbps (5GHz). It is equipped with a 5G NR cellular connection. When Multi-WAN failover is configured, it can maintain connectivity even in the event of an Ethernet failure.
 
 ![xe3000_interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe3000/hardware_info/xe3000_interface.jpg){class="glboxshadow"}
 
@@ -259,7 +259,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "DNS"
 
-    The DNS page allows you to set custom DNS servers, enable DNS rebinding attack protection and override DNS settings of all clients, allow custom DNS to override VPN DNS, and configure the DNS server settings mode to automatic or manually specify DNS servers from the Ethernet connection.
+    The DNS page allows you to set custom DNS servers, enable DNS rebinding attack protection, override the DNS settings of all clients, and allow custom DNS to override VPN DNS. You can use DNS servers automatically obtained from upstream devices or manually specify custom DNS servers.
 
     To set up DNS, refer to [DNS](../../interface_guide/dns.md).
 

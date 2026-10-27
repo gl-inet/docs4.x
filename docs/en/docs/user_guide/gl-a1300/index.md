@@ -178,6 +178,10 @@ Please visit the [**Multi-WAN**](../../interface_guide/multi-wan.md) tutorial.
 
 Please visit the [**LAN**](../../interface_guide/lan.md) tutorial.
 
+### Guest Network {#guest-network}
+
+Please visit the [**Guest Network**](../../interface_guide/guest_network.md) tutorial.
+
 ### DNS {#dns}
 
 Please visit the [**DNS**](../../interface_guide/dns.md) tutorial.
@@ -203,6 +207,10 @@ Please visit the [**Drop-in Gateway**](../../interface_guide/drop-in_gateway.md)
 ### IGMP Snooping {#igmp-snooping}
 
 Please visit the [**IGMP Snooping**](../../interface_guide/igmp_snooping.md) tutorial.
+
+### NAT Settings {nat-settings}
+
+Please visit the [**NAT Settings**](../../interface_guide/nat_settings.md) tutorial.
 
 ---
 

@@ -87,7 +87,7 @@ The Clients page displays information about connected devices. For each client, 
 
 To set up Clients, refer to [Clients](../../interface_guide/clients.md).
 
-## Cloud services {#cloud-services}
+## Cloud Services {#cloud-services}
 
 === "GoodCloud"
 
@@ -206,12 +206,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 ---
 
-=== "Parental Control"
-
-    Parental Control is designed to help you manage and control your children's devices. It includes limiting their screen time and restricting their access to certain content.
-
-    To set up parental control, refer to [Parental Control](../../interface_guide/parental_control.md).
-
 === "QoS"
 
     QoS (Quality of Service) optimizes bandwidth allocation by prioritizing critical activities (e.g., video calls, gaming) during network congestion, reducing latency and improving overall network performance. Note that this applies to local client traffic and VPN Client tunnel traffic, but not to traffic received when the router functions as a VPN Server.
@@ -224,6 +218,12 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     Please refer to [SQM](../../interface_guide/sqm.md) for detailed instructions.
 
+=== "Parental Control"
+
+    Parental Control is designed to help you manage and control your children's devices. It includes limiting their screen time and restricting their access to certain content.
+
+    To set up parental control, refer to [Parental Control](../../interface_guide/parental_control_v4.9.md).
+
 ## Security {#security}
 
 === "Port Forwarding"
@@ -232,17 +232,21 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     To set up port forwarding, refer to [Port Forwarding](../../interface_guide/port_forwarding.md). 
 
-=== "Management Control"
+=== "ACL"
 
-    Management Control allows you to configure various security settings to protect your network and router from unauthorized access. This page includes the following options:
+    ACL, short for Access Control List, lets you create rules to manage network traffic based on connection protocols, device addresses and ports. It controls whether to allow or block network access. If multiple ACL rules conflict, the system applies the one with higher priority.
+
+    Please refer to [ACL](../../interface_guide/acl.md) for details.
+
+=== "Admin Access"
+
+    Admin Access allows you to configure various security settings to protect your network and router from unauthorized access. This page includes the following options:
 
     * Local Access Control: Manage and restrict access to the router's interface from devices connected to your local network.
     * Remote Access Control: Configure and restrict access to the router's interface from remote locations over the internet, enhancing security against external threats.
     * Open Ports on Router: Control which ports are open on the router, limiting potential vulnerabilities and unauthorized access.
 
-    These settings help you maintain a secure network environment, safeguarding both your router and connected devices.
-
-    Please refer to [Security](../../interface_guide/security.md) for detailed instructions.
+    Please refer to [Admin Access](../../interface_guide/admin_access.md) for details.
 
 === "NAT Mode"
 
@@ -278,17 +282,17 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     To set up AdGuard Home, refer to [AdGuard Home](../../interface_guide/adguardhome.md).
 
-=== "ZeroTier"
-
-    ZeroTier is a software-defined networking solution that enables users to create secure, virtual networks over the internet, connecting devices as if they were on the same local network. 
-    
-    To set up ZeroTier, refer to [ZeroTier](../../interface_guide/zerotier.md).
-
 === "Tailscale"
 
     Tailscale is a VPN service that allows you to access your devices and applications anywhere. 
     
     To set up Tailscale, refer to [Tailscale](../../interface_guide/tailscale.md).
+
+=== "ZeroTier"
+
+    ZeroTier is a software-defined networking solution that enables users to create secure, virtual networks over the internet, connecting devices as if they were on the same local network. 
+    
+    To set up ZeroTier, refer to [ZeroTier](../../interface_guide/zerotier.md).
 
 === "Tor"
 
@@ -355,6 +359,14 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     For detailed setup instructions and more information, please refer to [Time Zone](../../interface_guide/time_zone.md).
 
+=== "Reset Firmware"
+
+    The Reset Firmware page allows you to reset your router's current firmware version to its default settings, erasing all custom configurations. This process will restore the router to the default settings of the currently installed firmware version. This can be useful for troubleshooting persistent issues or starting fresh with the current firmware's default configuration.
+
+    For detailed setup instructions and more information, please refer to [Reset Firmware](../../interface_guide/reset_firmware.md).
+
+---
+
 === "Log"
 
     The Log page provides access to various logs that record the router's activities and events, aiding in troubleshooting and performance monitoring. This page includes:
@@ -368,14 +380,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     Additionally, the page features an Export Log button, allowing you to export all collected logs for technical support analysis. This function is invaluable for diagnosing complex issues and obtaining professional assistance.
 
     For detailed setup instructions and more information, please refer to [Log](../../interface_guide/log.md).
-
----
-
-=== "Reset Firmware"
-
-    The Reset Firmware page allows you to reset your router's current firmware version to its default settings, erasing all custom configurations. This process will restore the router to the default settings of the currently installed firmware version. This can be useful for troubleshooting persistent issues or starting fresh with the current firmware's default configuration.
-
-    For detailed setup instructions and more information, please refer to [Reset Firmware](../../interface_guide/reset_firmware.md).
 
 === "Advanced Settings"
 

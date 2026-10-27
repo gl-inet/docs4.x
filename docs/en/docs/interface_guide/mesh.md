@@ -20,6 +20,7 @@ Not sure which mode to choose? See [Mesh vs. Extender vs. Access Point Mode](#me
     - GL-BE9300 (Flint 3)
     - GL-BE3600 (Slate 7)
     - GL-MT6000 (Flint 2)
+    - ※GL-XE3000 (Puli AX)
     - GL-MT3000 (Beryl AX)
 
     **Note**: Models marked with ※ support Mesh in Beta firmware.
@@ -33,7 +34,6 @@ Not sure which mode to choose? See [Mesh vs. Extender vs. Access Point Mode](#me
     - GL-BE6500 (Flint 3e)
     - GL-X2000 (Spitz Plus)
     - GL-X3000 (Spitz AX)
-    - GL-XE3000 (Puli AX)
     - GL-B3000 (Marble)
     - GL-AX1800 (Flint)
     - GL-AXT1800 (Slate AX)

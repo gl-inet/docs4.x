@@ -137,7 +137,7 @@ The Clients page displays information about connected devices. For each client, 
 
 To set up Clients, refer to [Clients](../../interface_guide/clients.md).
 
-## Cloud services {#cloud-services}
+## Cloud Services {#cloud-services}
 
 === "GoodCloud"
 

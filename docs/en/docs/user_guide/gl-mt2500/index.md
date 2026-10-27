@@ -74,7 +74,29 @@ Open a web browser, enter `192.168.8.1` in the address bar and log in. Choose yo
 
 **Note:** If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, please set up more than one internet connection methods. 
 
-## How to set up a VPN {#how-to-set-up-a-vpn}
+---
+
+## Clients {#clients}
+
+The Clients page displays information about connected devices. For each client, it shows the device name, IP and MAC addresses, download and upload speeds, total traffic, and provides the ability to reserve IP, block the client or perform other actions.
+
+To set up Clients, refer to [Clients](../../interface_guide/clients.md).
+
+## Cloud services {#cloud-services}
+
+=== "GoodCloud"
+
+    GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} service provides an easy and simple way to remotely access and manage GL.iNet routers. 
+    
+    To set up GoodCloud, refer to [GoodCloud](../../interface_guide/cloud.md).
+
+=== "AstroWarp"
+
+    AstroWarp is an advanced networking platform designed to provide seamless remote networking and remote device management. Built specifically for GL.iNet router integration, AstroWarp supports comprehensive device management across entire networks, enabling both upper and lower device control. With a focus on network-wide management and future support for hardware-level control, AstroWarp offers a more robust and dependable solution for managing devices and maintaining secure, stable networks. 
+    
+    To set up AstroWarp, refer to [AstroWarp](../../interface_guide/astrowarp.md).
+
+## VPN {#vpn}
 
 A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an additional layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Brume 2 (and other GL.iNet routers) supports OpenVPN and WireGuard. Additionally, it supports Tor.
 
@@ -97,26 +119,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     Tor, short for The Onion Router, is a privacy-focused network that enables anonymous communication over the internet. It routes internet traffic through a series of volunteer-operated servers (nodes) to obscure the user's location and usage, making it difficult to trace online activities. 
     
     * [How to set up Tor](../../interface_guide/tor.md).
-
-## Clients {#clients}
-
-The Clients page displays information about connected devices. For each client, it shows the device name, IP and MAC addresses, download and upload speeds, total traffic, and provides the ability to reserve IP, block the client or perform other actions.
-
-To set up Clients, refer to [Clients](../../interface_guide/clients.md).
-
-## Cloud services {#cloud-services}
-
-=== "GoodCloud"
-
-    GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} service provides an easy and simple way to remotely access and manage GL.iNet routers. 
-    
-    To set up GoodCloud, refer to [GoodCloud](../../interface_guide/cloud.md).
-
-=== "AstroWarp"
-
-    AstroWarp is an advanced networking platform designed to provide seamless remote networking and remote device management. Built specifically for GL.iNet router integration, AstroWarp supports comprehensive device management across entire networks, enabling both upper and lower device control. With a focus on network-wide management and future support for hardware-level control, AstroWarp offers a more robust and dependable solution for managing devices and maintaining secure, stable networks. 
-    
-    To set up AstroWarp, refer to [AstroWarp](../../interface_guide/astrowarp.md).
 
 ## Applications {#applications}
 
@@ -166,7 +168,7 @@ To set up Clients, refer to [Clients](../../interface_guide/clients.md).
     
     To set up Tailscale, refer to [Tailscale](../../interface_guide/tailscale.md).
 
-## Network settings {#network-settings}
+## Network {#network}
 
 === "Port forwarding"
 
@@ -186,7 +188,6 @@ To set up Clients, refer to [Clients](../../interface_guide/clients.md).
 
 ---
 
-
 === "DNS"
 
     The DNS page allows you to set custom DNS servers, enable DNS rebinding attack protection and override DNS settings of all clients, allow custom DNS to override VPN DNS, and configure the DNS server settings mode to automatic or manually specify DNS servers from the Ethernet connection.
@@ -197,13 +198,13 @@ To set up Clients, refer to [Clients](../../interface_guide/clients.md).
 
     The Network Port Management page allows you to configure the WAN and LAN ports, set the WAN/LAN interface to Ethernet, specify the MAC mode and MAC address for the WAN interface, and show the negotiated network port rate.
 
----
-
 === "Network Mode"
 
     Network mode refers to the configuration settings that determine how a device connects to a network and communicates with other devices. 
     
     To set up network mode, refer to [Network Mode](../../interface_guide/network_mode.md).
+
+---
 
 === "IPv6"
 
@@ -217,13 +218,13 @@ To set up Clients, refer to [Clients](../../interface_guide/clients.md).
     
     To set up drop-in gateway, refer to [How to set up drop-in gateway](../../tutorials/how_to_set_up_drop_in_gateway.md). 
 
----
-
 === "IGMP Snooping"
 
     IGMP snooping is a network optimization technique used in Ethernet switches to manage and control multicast traffic. 
     
     To set up IGMP snooping, refer to [IGMP Snooping](../../interface_guide/igmp_snooping.md).
+
+---
 
 === "Network Acceleration"
 
@@ -237,7 +238,7 @@ To set up Clients, refer to [Clients](../../interface_guide/clients.md).
 
     To set up NAT settings, refer to [NAT Settings](../../interface_guide/nat_settings.md).
 
-## System settings {#system-settings}
+## System {#system}
 
 === "Overview"
 

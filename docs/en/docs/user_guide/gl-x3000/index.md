@@ -123,7 +123,37 @@ Configure your Spitz AX using one of the supported internet connection methods: 
 
     Please refer to [Connect to the Internet via USB tethering](../../interface_guide/internet_tethering.md) for detailed instructions.
 
-## How to set up a VPN {#how-to-set-up-a-vpn}
+## Wireless {#wireless}
+
+=== "Wireless"
+
+    The Wireless page allows you to configure settings for the 5 GHz and 2.4 GHz Wi-Fi networks, including enabling Wi-Fi, setting TX power, specifying the Wi-Fi name (SSID), enabling randomized BSSID, selecting Wi-Fi security mode and password, configuring SSID visibility, choosing the Wi-Fi mode, bandwidth, and channel. 
+
+    To set up Wireless, refer to [Wireless](../../interface_guide/wireless.md).
+
+## Clients {#clients}
+
+=== "Clients"
+
+    The Clients page displays information about connected devices. For each client, it shows the name, IP and MAC addresses, download and upload speeds, total traffic, and provides the ability to block the client or perform other actions.
+
+    To set up Clients, refer to [Clients](../../interface_guide/clients.md).
+
+## Cloud Services {#cloud-services}
+
+=== "GoodCloud"
+
+    GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} service provides an easy and simple way to remotely access and manage GL.iNet routers. 
+    
+    To set up GoodCloud, refer to [GoodCloud](../../interface_guide/cloud.md).
+
+=== "AstroWarp"
+
+    AstroWarp is an advanced networking platform designed to provide seamless remote networking and remote device management. Built specifically for GL.iNet router integration, AstroWarp supports comprehensive device management across entire networks, enabling both upper and lower device control. With a focus on network-wide management and future support for hardware-level control, AstroWarp offers a more robust and dependable solution for managing devices and maintaining secure, stable networks.
+    
+    To set up AstroWarp, refer to [AstroWarp](../../interface_guide/astrowarp.md).
+
+## VPN {#vpn}
 
 A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an additional layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Spitz AX (and other GL.iNet routers) supports OpenVPN and WireGuard. Additionally, it supports Tor.
 
@@ -146,34 +176,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     Tor, short for The Onion Router, is a privacy-focused network that enables anonymous communication over the internet. It routes internet traffic through a series of volunteer-operated servers (nodes) to obscure the user's location and usage, making it difficult to trace online activities. 
     
     * [How to set up Tor](../../interface_guide/tor.md).
-
-## Wireless and clients {#wireless-and-clients}
-
-=== "Wireless"
-
-    The Wireless page allows you to configure settings for both the 5 GHz and 2.4 GHz Wi-Fi networks, including enabling Wi-Fi, setting TX power, specifying the Wi-Fi name (SSID), enabling randomized BSSID, selecting Wi-Fi security mode and password, configuring SSID visibility, choosing the Wi-Fi mode, bandwidth, and channel.
-
-    To set up Wireless, refer to [Wireless](../../interface_guide/wireless.md).
-
-=== "Clients"
-
-    The Clients page displays information about connected devices. For each client, it shows the name, IP and MAC addresses, download and upload speeds, total traffic, and provides the ability to block the client or perform other actions.
-
-    To set up Clients, refer to [Clients](../../interface_guide/clients.md).
-
-## Cloud services {#cloud-services}
-
-=== "GoodCloud"
-
-    GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} service provides an easy and simple way to remotely access and manage GL.iNet routers. 
-    
-    To set up GoodCloud, refer to [GoodCloud](../../interface_guide/cloud.md).
-
-=== "AstroWarp"
-
-    AstroWarp is an advanced networking platform designed to provide seamless remote networking and remote device management. Built specifically for GL.iNet router integration, AstroWarp supports comprehensive device management across entire networks, enabling both upper and lower device control. With a focus on network-wide management and future support for hardware-level control, AstroWarp offers a more robust and dependable solution for managing devices and maintaining secure, stable networks.
-    
-    To set up AstroWarp, refer to [AstroWarp](../../interface_guide/astrowarp.md).
 
 ## Applications {#applications}
 
@@ -229,7 +231,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/hyHh8pAxgVw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Network settings {#network-settings}
+## Network Settings {#network-settings}
 
 === "Port forwarding"
 
@@ -307,7 +309,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     To set up NAT settings, refer to [NAT Settings](../../interface_guide/nat_settings.md).
 
-## System settings {#system-settings}
+## System {#system}
 
 === "Overview"
 

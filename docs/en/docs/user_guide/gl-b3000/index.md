@@ -79,7 +79,23 @@ Configure your Marble using one of the supported internet connection methods: Et
 
 ---
 
-## How to set up a VPN {#how-to-set-up-a-vpn}
+## Wireless {#wireless}
+
+=== "Wireless"
+
+    The Wireless page allows you to configure settings for both 5 GHz and 2.4 GHz Wi-Fi networks, including enabling/disabling Wi-Fi, setting TX power, specifying the Wi-Fi name (SSID), enabling/disabling randomized BSSID, selecting Wi-Fi security mode, setting Wi-Fi password, configuring SSID visibility, choosing the Wi-Fi mode, bandwidth, and channel.
+
+    To set up Wireless, refer to [Wireless](../../interface_guide/wireless.md).
+
+## Clients {#clients}
+
+=== "Clients"
+
+    The Clients page displays information about connected devices. For each client, it shows the device name, connection type (i.e., via ethernet or Wi-Fi), IP and MAC addresses, download and upload speeds, total traffic, and provides the ability to block the client or perform other actions.
+
+    To set up Clients, refer to [Clients](../../interface_guide/clients.md).
+
+## VPN {#vpn}
 
 A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an additional layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Marble (and other GL.iNet routers) support OpenVPN and WireGuard. Additionally, it also supports Tor.
 
@@ -103,36 +119,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     * [How to set up Tor](../../interface_guide/tor.md)
 
----
-
-## Wireless and clients {#wireless-and-clients}
-
-=== "Wireless"
-
-    The Wireless page allows you to configure settings for both 5 GHz and 2.4 GHz Wi-Fi networks, including enabling/disabling Wi-Fi, setting TX power, specifying the Wi-Fi name (SSID), enabling/disabling randomized BSSID, selecting Wi-Fi security mode, setting Wi-Fi password, configuring SSID visibility, choosing the Wi-Fi mode, bandwidth, and channel.
-
-    To set up Wireless, refer to [Wireless](../../interface_guide/wireless.md).
-
-=== "Clients"
-
-    The Clients page displays information about connected devices. For each client, it shows the device name, connection type (i.e., via ethernet or Wi-Fi), IP and MAC addresses, download and upload speeds, total traffic, and provides the ability to block the client or perform other actions.
-
-    To set up Clients, refer to [Clients](../../interface_guide/clients.md).
-
-## Cloud services {#cloud-services}
-
-=== "GoodCloud"
-
-    GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} service provides an easy and simple way to remotely access and manage GL.iNet routers. 
-    
-    To set up GoodCloud, refer to [GoodCloud](../../interface_guide/cloud.md).
-
-=== "AstroWarp"
-
-    This feature is available from firmware v4.7.
-
-    AstroWarp is an advanced networking platform designed to provide seamless remote networking and remote device management. Built specifically for GL.iNet router integration, AstroWarp supports comprehensive device management across entire networks, enabling both upper and lower device control. With a focus on network-wide management and future support for hardware-level control, AstroWarp offers a more robust and dependable solution for managing devices and maintaining secure, stable networks.
-
 ## Applications {#applications}
 
 === "Plug-ins"
@@ -143,7 +129,11 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     Dynamic DNS (DDNS) automatically detects and updates the IP address associated with a domain in real-time. It maps a domain name to your router's dynamic public IP address, so you can access your network remotely without a static IP address. To set up dynamic DNS, refer to [Dynamic DNS](../../interface_guide/ddns.md). 
 
----
+=== "GoodCloud"
+
+    GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} service provides an easy and simple way to remotely access and manage GL.iNet routers. 
+    
+    To set up GoodCloud, refer to [GoodCloud](../../interface_guide/cloud.md).
 
 === "AdGuard Home"
 
@@ -151,23 +141,23 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     To learn how to enable AdGuard Home, refer to [AdGuard Home](../../interface_guide/adguardhome.md). 
 
+<br>
+
 === "Parental Control"
 
     Parental control is a group of settings designed to help you manage and control your children's devices. It includes limiting their screen time and restricting their access to certain content. Marble offers two options for parental control: the local version developed by GL.iNet and the integrated version from Bark, a parental control app. 
 
     To set up parental control, refer to [Parental controls](../../interface_guide/parental_control.md).
 
-=== "Tailscale"
-   
-    Tailscale is a VPN service that allows you to access your devices and applications anywhere. To set up Tailscale, refer to [Tailscale](../../interface_guide/tailscale.md). 
-
 === "ZeroTier"
 
     ZeroTier is a VPN service that allows you to connect your devices to a virtual network. To set up ZeroTier, refer to [ZeroTier](../../interface_guide/zerotier.md).
 
----
+=== "Tailscale"
+   
+    Tailscale is a VPN service that allows you to access your devices and applications anywhere. To set up Tailscale, refer to [Tailscale](../../interface_guide/tailscale.md). 
 
-## Network settings {#network-settings}
+## Network {#network}
 
 === "Firewall"
 
@@ -196,7 +186,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     For detailed setup instructions and more information, please refer to [LAN](../../interface_guide/lan.md).
 
----
+<br>
 
 === "Guest Network"
 
@@ -232,7 +222,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     For detailed setup instructions and more information, please refer to [Network Mode](../../interface_guide/network_mode.md).
 
----
+<br>
 
 === "IPv6"
 
@@ -263,7 +253,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     Drop-in Gateway extends the functionality of your main router with features it may not have, including AdGuard Home, encrypted DNS, and VPN. To set up Drop-in Gateway, refer to [How to set up Drop-in Gateway](../../tutorials/how_to_set_up_drop_in_gateway.md).
 
----
+<br>
 
 === "IGMP Snooping"
 
@@ -290,9 +280,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     For detailed setup instructions and more information, please refer to [NAT Settings](../../interface_guide/nat_settings.md).
 
----
-
-## System settings {#system-settings}
+## System {#system}
 
 === "Overview"
 
@@ -332,7 +320,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     For detailed setup instructions and more information, please refer to [Scheduled Tasks](../../interface_guide/scheduled_tasks.md).
 
----
+<br>
 
 === "Time Zone"
 
@@ -366,7 +354,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     For detailed setup instructions and more information, please refer to [Security](../../interface_guide/security.md).
 
----
+<br>
 
 === "Reset Firmware"
 

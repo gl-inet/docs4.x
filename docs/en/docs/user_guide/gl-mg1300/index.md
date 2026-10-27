@@ -157,7 +157,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     To set up multi-WAN, refer to [Multi-WAN](../../interface_guide/multi-wan.md). 
 
-
 === "Subnet"
     
     Subnet centralizes management of LAN, Guest Network, IoT Network, and custom VLAN Networks, allowing you to create and manage multiple subnets to isolate different types of devices or traffic.
@@ -169,6 +168,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     The Ethernet Port page allows you to configure the WAN and LAN ports, set the WAN/LAN interface to Ethernet, specify the MAC mode and MAC address for the WAN interface, and show the negotiated network port rate.
 
     To set up ethernet Port, refer to [Ethernet Port](../../interface_guide/ethernet_port_v4.10.md).
+    
 ---
 
 === "DNS"

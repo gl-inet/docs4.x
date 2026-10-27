@@ -84,7 +84,25 @@ Configure your Mango using one of the supported internet connection methods: Eth
 
     Please refer to [Connect to the Internet via a USB modem](../../interface_guide/internet_cellular.md) for detailed instructions.
 
-## How to set up a VPN {#how-to-set-up-a-vpn}
+---
+
+## Wireless {#wireless}
+
+=== "Wireless"
+
+    The Wireless page allows you to configure settings for the 2.4 GHz Wi-Fi networks, including enabling Wi-Fi, setting TX power, specifying the Wi-Fi name (SSID), selecting Wi-Fi security mode and password, configuring SSID visibility, choosing the Wi-Fi mode, bandwidth, and channel. 
+
+    To set up Wireless, refer to [Wireless](../../interface_guide/wireless.md).
+
+## Clients {#clients}
+
+=== "Clients"
+
+    The Clients page displays information about connected devices. For each client, it shows the name, IP and MAC addresses, download and upload speeds, total traffic, and provides the ability to block the client or perform other actions.
+
+    To set up Clients, refer to [Clients](../../interface_guide/clients.md).
+
+## VPN {#vpn}
 
 A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Mango (and other GL.iNet routers) supports OpenVPN and WireGuard.
 
@@ -122,7 +140,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     To set up GoodCloud, refer to [GoodCloud](../../interface_guide/cloud.md).
 
-## Network settings {#network-settings}
+## Network {#network}
 
 === "Firewall"
 
@@ -217,7 +235,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     To set up IGMP snooping, refer to [IGMP Snooping](../../interface_guide/igmp_snooping.md).
 
-## System settings {#system-settings}
+## System {#system}
 
 === "Overview"
 

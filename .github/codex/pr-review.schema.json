@@ -1,0 +1,45 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "summary": {
+      "type": "string"
+    },
+    "findings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "path": {"type": "string"},
+          "line": {"type": "integer"},
+          "severity": {
+            "type": "string",
+            "enum": ["high", "medium", "low"]
+          },
+          "category": {
+            "type": "string",
+            "enum": [
+              "accuracy",
+              "copy-paste",
+              "link",
+              "image",
+              "grammar",
+              "spelling",
+              "terminology",
+              "ui-label",
+              "structure",
+              "translation",
+              "other"
+            ]
+          },
+          "problem": {"type": "string"},
+          "suggestion": {"type": "string"},
+          "replacement_line": {"type": "string"}
+        },
+        "required": ["path", "line", "severity", "category", "problem", "suggestion", "replacement_line"]
+      }
+    }
+  },
+  "required": ["summary", "findings"]
+}

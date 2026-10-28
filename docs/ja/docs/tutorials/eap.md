@@ -39,7 +39,7 @@ EAP は、**802.1X 認証**を使用する **WPA2‑Enterprise / WPA3‑Enterpri
 
     **脚注:**  
     
-    1. WPA/WPA2/WPA3-Enterpriseネットワークに接続する場合、GL-BE10000 (Slate 7 Pro)、GL-MT3600BE (Beryl 7)、GL-BE3600 (Slate 7) はPEAP認証ネットワークのみ対応しています。その他のEAP方式（EAP-TLS、EAP-TTLS、EAP-MD5など）はサポートされていません。
+    1. WPA/WPA2/WPA3-Enterpriseネットワークに接続する場合、GL-BE14000 (Flint 4)、GL-BE10000 (Slate 7 Pro)、GL-MT3600BE (Beryl 7)、GL-BE3600 (Slate 7) はPEAP認証ネットワークのみ対応しています。その他のEAP方式（EAP-TLS、EAP-TTLS、EAP-MD5など）はサポートされていません。
     
     2. GL-MT6000 (Fortify)、GL-MT6000 (Flint 2)、GL-MT3000 (Beryl AX) は、デフォルトファームウェアでは EAP ネットワークへの接続をサポートしていません。ただし、GL.iNet はこれらのモデル向けにネイティブ OpenWrt 24 ファームウェアを提供しており、これをインストールすると EAP ネットワークに接続できるようになります。詳細は [Download Center](https://dl.gl-inet.com/){target="_blank"} でモデルを検索し、OPENWRT 24 タブを確認してください。
 

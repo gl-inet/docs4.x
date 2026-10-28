@@ -30,13 +30,13 @@ Si no puede establecer una conexión con un servidor WireGuard ofuscado, siga lo
         
         > Nota: I1-I5 no se generan automáticamente. Los usuarios pueden añadirlos manualmente como líneas adicionales en el archivo de configuración para que el tráfico de AmneziaWG se parezca a otros protocolos comunes, como QUIC o WebRTC.
 
-    Si el cliente WireGuard es un router GL.iNet, compruebe su versión de AmneziaWG con los dos métodos siguientes.
+    Si el servidor WireGuard es un router GL.iNet, compruebe su versión de AmneziaWG con los dos métodos siguientes.
 
     ??? note "Comprobar desde el Router Web Admin Panel"
 
         1. Inicie sesión en el Web Admin Panel del router.
 
-        2. Vaya a **VPN** -> **WireGuard Server** -> **Configuration** y compruebe los parámetros de ofuscación. Si la configuración incluye **S3-S4** y **H1-H4** como rangos variables, en lugar de valores fijos, el router ejecuta AmneziaWG 2.0, como se muestra abajo.
+        2. Vaya a **VPN** -> **WireGuard Server** -> **Configuration** y compruebe los parámetros de ofuscación. Si la configuración incluye **S3-S4** o **H1–H4** como rangos variables, en lugar de valores fijos, el router ejecuta AmneziaWG 2.0, como se muestra abajo.
 
             ![awg 2.0 web](https://static.gl-inet.com/docs/router/en/4/faq/cannot_connect_to_obfuscated_wgserver/awg_2.0_web.png){class="glboxshadow"}
 
@@ -68,7 +68,7 @@ Si no puede establecer una conexión con un servidor WireGuard ofuscado, siga lo
 
     - Si la conexión funciona en la app oficial, el archivo de configuración es válido. El problema puede estar en el dispositivo cliente original. Compruebe su conectividad de red o contacte con soporte para recibir ayuda.
 
-    - Si la conexión sigue fallando, el problema se origina en la configuración del servidor del router. Compruebe los ajustes del servidor y los parámetros de ofuscación.
+    - Si la conexión sigue fallando, el problema puede estar relacionado con la configuración del servidor VPN del router, la conectividad de red o los ajustes del firewall. Compruebe estos ajustes y los parámetros de ofuscación.
 
 ---
 

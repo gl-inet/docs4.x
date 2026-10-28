@@ -48,7 +48,7 @@ Se non riesci a stabilire una connessione cellulare, controlla i seguenti possib
 
     **2.4** Abilita **Band Masking** e riprova. Per firmware v4.7 e precedenti, fai riferimento a [questo link](../interface_guide/internet_cellular_v4.7.md#band-masking). Per firmware v4.8 e successivi, fai riferimento a [questo link](../interface_guide/internet_cellular.md#band-masking).
 
-    **2.5** Blocca o sblocca una torre radio e riprova. Questa funzione è disponibile solo su GL-X3000 (Spitz AX), GL-XE3000 (Puli AX) e GL-X2000 (Spitz Plus). Fai clic [qui](../interface_guide/internet_cellular.md#lock-tower) per ulteriori istruzioni.
+    **2.5** Blocca o sblocca una torre radio e riprova. Questa funzione è disponibile su GL-E5800 (Mudi 7), GL-X3000 (Spitz AX), GL-XE3000 (Puli AX) e GL-X2000 (Spitz Plus). GL-X2000 (Spitz Plus) supporta questa funzione dal firmware v4.7 in poi. Fai clic [qui](../interface_guide/internet_cellular.md#lock-tower) per ulteriori istruzioni.
 
     Il blocco su una torre radio specifica consente al router di accedere a una risorsa di rete di alta qualità e di mantenere una connettività cellulare stabile.
 
@@ -60,7 +60,7 @@ Se non riesci a stabilire una connessione cellulare, controlla i seguenti possib
 
 ??? "Controlla la compatibilità della SIM"
 
-    **3.1** Conferma il tipo di SIM. I router cellulari GL.iNet sono certificati come dispositivi IoT. In teoria, il dispositivo supporta solo schede SIM di tipo IoT. Se non sei sicuro del tipo di SIM, contatta il tuo operatore.
+    **3.1** Verifica la compatibilità della SIM. I modelli nordamericani di router cellulari GL.iNet sono certificati IoT. Ciò non significa però che siano necessarie SIM IoT: anche le normali SIM per consumatori possono essere compatibili. Se non sai quale tipo di SIM usare, contatta il tuo operatore.
 
     I tipi di SIM più comuni includono: solo dati, solo dati + voce, IoT e hotspot. Ti consigliamo di usare schede SIM IoT o hotspot. Il funzionamento delle SIM solo dati o solo dati + voce non è garantito.
 

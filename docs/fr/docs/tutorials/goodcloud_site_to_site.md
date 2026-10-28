@@ -6,7 +6,7 @@ La fonctionnalité **Site to Site** de GoodCloud permet à des bureaux situés �
 
 ![site to site](https://static.gl-inet.com/goodcloud/docs/tutorials/site_to_site/s2s-main.png){class="glboxshadow"}
 
-**Scénario 1** : des dizaines de succursales appartenant à la même entreprise doivent être intégrées dans un réseau privé unifié, afin de permettre un partage fluide des ressources entre tous les sites.
+**Scénario 1** : plusieurs succursales appartenant à la même entreprise doivent être intégrées dans un réseau privé unifié, afin de permettre un partage fluide des ressources entre tous les sites.
 
 **Scénario 2** : lorsque deux entreprises qui collaborent étroitement ont besoin d'un environnement de travail commun, le réseau site à site facilite cette collaboration dans un cadre partagé et sécurisé.
 

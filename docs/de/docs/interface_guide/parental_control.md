@@ -154,10 +154,6 @@ Wenn Ihre konfigurierten Einstellungen nicht wirksam werden, prüfen Sie bitte d
 1. DNS-Cache-Problem.
   
     Browser und Betriebssysteme verwenden DNS-Caches, daher kann es etwas dauern, bis Konfigurationsänderungen wirksam werden. Leeren Sie den DNS-Cache, damit Änderungen sofort greifen.
-  
-      * [DNS-Cache in Chrome auf dem Desktop löschen](https://support.google.com/accounts/answer/32050){target="_blank"}
-      
-      * [DNS-Cache in Edge auf dem Desktop löschen](https://www.microsoft.com/en-us/edge/learning-center/how-to-manage-and-clear-your-cache-and-cookies?form=MA13I2){target="_blank"}
 
 2. Der Profil-Zeitplan hat noch nicht begonnen.
 

@@ -8,11 +8,11 @@ Un portal cautivo es una página web en la que los puntos de acceso públicos re
 
 - El Wi-Fi público no es seguro
 
-  Es difícil exagerar los riesgos del Wi-Fi público. Al conectar su router GL.iNet a una red Wi-Fi pública, puede iniciar sesión directamente en su cuenta VPN a través del panel de administración del router. El router cifrará automáticamente todos los dispositivos conectados a la red local, lo que evita tener que configurar una VPN en cada dispositivo.
+  Es difícil exagerar los riesgos del Wi-Fi público. Al conectar su router GL.iNet a una red Wi-Fi pública, puede iniciar sesión directamente en su cuenta VPN a través del panel de administración del router. Cuando el router está configurado para enrutar todo el tráfico local a través de la VPN, el tráfico de los dispositivos conectados se cifra mediante la VPN, lo que evita tener que configurar una VPN en cada dispositivo.
 
 - Utilizarlo como repetidor para permitir la conexión de varios dispositivos
 
-  Además, algunas redes Wi-Fi públicas, como el Wi-Fi de hotel, limitan el acceso, por ejemplo, a dos dispositivos. Cuando se viaja en grupo, esto resulta poco práctico. En su lugar, puede conectar un router de viaje al Wi-Fi del hotel y usarlo como repetidor para emitir una señal Wi-Fi a todos sus dispositivos, incluidos portátiles, teléfonos inteligentes, tabletas, etc. El Wi-Fi del hotel solo reconocerá el router de viaje como un único dispositivo, pero usted podrá conectar tantos dispositivos como quiera al Wi-Fi gratuito.
+  Además, algunas redes Wi-Fi públicas, como el Wi-Fi de hotel, limitan el acceso, por ejemplo, a dos dispositivos. Cuando se viaja en grupo, esto resulta poco práctico. En su lugar, puede conectar un router de viaje al Wi-Fi del hotel y usarlo como repetidor para emitir una señal Wi-Fi a todos sus dispositivos, incluidos portátiles, teléfonos inteligentes, tabletas, etc. El Wi-Fi del hotel reconocerá el router de viaje como un único dispositivo, pero podrá conectar varios dispositivos al router de viaje, sujeto a su límite máximo de clientes.
 
 ## ¿Cómo conectar el router a puntos de acceso públicos con portal cautivo? {#how-to-connect-router-to-public-hotspots-with-captive-portal}
 

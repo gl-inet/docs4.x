@@ -85,7 +85,7 @@ Skonfiguruj Slate 7 Pro, używając jednej z obsługiwanych metod połączenia z
     3. Na ekranie dotykowym Slate 7 Pro wybierz **Tethering** i dotknij **Connect**. Router połączy się z Twoim urządzeniem.
     4. Po pomyślnym połączeniu z internetem sekcja Tethering na ekranie głównym stanie się niebieska (aktywna). Możesz dotknąć pozycji Tethering na ekranie dotykowym albo zalogować się do web Admin Panel, aby sprawdzić szczegóły połączenia.
 
-    **Uwaga**: Jeśli połączenie się nie powiedzie, upewnij się, że napięcie zasilania wynosi co najmniej 9V 3A, ponieważ zbyt niskie zasilanie może uniemożliwić uruchomienie portu USB. Powtórz powyższe kroki albo zaloguj się do web Admin Panel, aby sprawdzić stan połączenia Tethering.
+    **Uwaga**: jeśli połączenie się nie powiedzie, upewnij się, że używasz zasilacza USB PD obsługującego 9V/3A lub 12V/2.5A. Niewystarczająca moc może uniemożliwić portowi USB prawidłowe zasilanie podłączonego urządzenia. Następnie powtórz powyższe kroki albo zaloguj się do panelu administracyjnego i sprawdź stan połączenia Tethering.
 
 === "Cellular"
 
@@ -168,7 +168,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między urząd
 
 === "DNS"
 
-    Strona DNS umożliwia ustawienie niestandardowych serwerów DNS, włączenie ochrony przed atakami DNS rebinding i zastąpienie ustawień DNS wszystkich klientów, zezwolenie, aby niestandardowy DNS zastępował DNS VPN, oraz ustawienie trybu konfiguracji serwera DNS na automatyczny albo ręczne określenie serwerów DNS z połączenia Ethernet.
+    Strona DNS umożliwia ustawienie niestandardowych serwerów DNS, włączenie ochrony przed atakami DNS rebinding, nadpisanie ustawień DNS wszystkich klientów oraz zezwolenie niestandardowym serwerom DNS na zastąpienie DNS VPN. Możesz korzystać z serwerów DNS automatycznie uzyskanych z urządzeń nadrzędnych lub ręcznie wskazać niestandardowe serwery DNS.
 
     Aby skonfigurować DNS, zapoznaj się z [DNS](../../interface_guide/dns.md).
 

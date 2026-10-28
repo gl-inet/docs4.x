@@ -115,7 +115,7 @@ Richten Sie Ihren Slate 7 Pro mit einer der unterstützten Methoden für den Int
     3. Wählen Sie auf dem Touchscreen des Slate 7 Pro **Tethering** und tippen Sie auf **Connect**. Der Router stellt daraufhin die Verbindung zu Ihrem Gerät her.
     4. Sobald die Internetverbindung erfolgreich hergestellt wurde, wird der Tethering-Bereich auf der Touchscreen-Startseite blau angezeigt (aktiv). Sie können entweder auf dem Touchscreen auf Tethering tippen oder sich im Web-Admin-Panel anmelden, um die Verbindungsdetails zu prüfen.
 
-    **Hinweis**: Wenn die Verbindung fehlschlägt, stellen Sie sicher, dass die Versorgungsspannung über 9 V / 3 A liegt, da eine zu niedrige Stromversorgung verhindern kann, dass der USB-Port aktiviert wird. Wiederholen Sie die obigen Schritte oder melden Sie sich im Web-Admin-Panel an, um den Status der Tethering-Verbindung zu prüfen.
+    **Hinweis**: Wenn die Verbindung fehlschlägt, stellen Sie sicher, dass Sie einen USB-PD-Adapter mit Unterstützung für 9V/3A oder 12V/2.5A verwenden. Bei unzureichender Leistung kann der USB-Port das angeschlossene Gerät möglicherweise nicht ordnungsgemäß mit Strom versorgen. Wiederholen Sie dann die obigen Schritte oder melden Sie sich im Web-Admin-Panel an, um den Status der Tethering-Verbindung zu prüfen.
 
 === "Cellular"
 
@@ -198,7 +198,7 @@ Ein VPN (Virtual Private Network) erstellt einen sicheren, verschlüsselten Date
 
 === "DNS"
 
-    Auf der DNS-Seite können Sie benutzerdefinierte DNS-Server festlegen, den Schutz vor DNS-Rebinding-Angriffen aktivieren, die DNS-Einstellungen aller Clients überschreiben, benutzerdefinierte DNS-Einstellungen gegenüber VPN-DNS bevorzugen und den DNS-Servermodus auf automatisch oder auf manuell angegebene DNS-Server aus der Ethernet-Verbindung setzen.
+    Auf der Seite DNS können Sie benutzerdefinierte DNS-Server festlegen, den Schutz vor DNS-Rebinding-Angriffen aktivieren, die DNS-Einstellungen aller Clients überschreiben und zulassen, dass benutzerdefiniertes DNS VPN-DNS überschreibt. Sie können automatisch von vorgeschalteten Geräten bezogene DNS-Server verwenden oder benutzerdefinierte DNS-Server manuell angeben.
 
     Informationen zur Einrichtung finden Sie unter [DNS](../../interface_guide/dns.md).
 

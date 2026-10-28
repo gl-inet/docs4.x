@@ -154,10 +154,6 @@ Jeśli skonfigurowane ustawienia nie działają, sprawdź poniższe możliwe prz
 1. Problem z pamięcią podręczną DNS.
   
     Przeglądarki i systemy operacyjne utrzymują pamięć podręczną DNS, dlatego zastosowanie zmian konfiguracji może zająć trochę czasu. Wyczyść pamięć podręczną DNS, aby zastosować zmiany od razu.
-  
-      * [Wyczyść pamięć podręczną DNS w Chrome na komputerze](https://support.google.com/accounts/answer/32050){target="_blank"}
-      
-      * [Wyczyść pamięć podręczną DNS w Edge na komputerze](https://www.microsoft.com/en-us/edge/learning-center/how-to-manage-and-clear-your-cache-and-cookies?form=MA13I2){target="_blank"}
 
 2. Harmonogram profilu jeszcze się nie rozpoczął.
 

@@ -1,6 +1,6 @@
 # Proteger RDP desde una red externa con WireGuard {#securing-rdp-from-an-external-network-with-wireguard}
 
-Es posible que necesite acceder de forma remota a su PC desde una red externa, o viceversa. La forma más segura es hacerlo mediante su propio túnel WireGuard. Esto ofrece más seguridad que usar redirección de puertos y acceder al PC directamente a través de su dirección IP pública. Después de configurar el túnel, puede usar **Windows Remote Desktop** para acceder a su PC desde cualquier lugar.
+Es posible que necesite acceder de forma remota a su PC desde una red externa, o viceversa. Una opción segura es hacerlo mediante su propio túnel WireGuard. Esto ofrece más seguridad que usar redirección de puertos y acceder al PC directamente a través de su dirección IP pública. Después de configurar el túnel, puede usar **Windows Remote Desktop** para acceder a su PC desde cualquier lugar.
 
 Este tutorial utiliza dos routers GL.iNet como ejemplo para mostrar cómo proteger Windows RDP mediante una red WireGuard.
 

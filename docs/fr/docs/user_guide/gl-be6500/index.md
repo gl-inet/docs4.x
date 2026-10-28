@@ -2,7 +2,7 @@
 
 ## Aperçu du produit {#product-overview}
 
-Flint 3e (GL-BE6500) est un routeur de bureau Wi-Fi 7 bi-bande conçu pour les particuliers et les petits bureaux. Il prend en charge la technologie Wi-Fi 7 Multi-Link Operation (MLO), qui fusionne intelligemment les canaux 2.4GHz et 5GHz en une seule connexion. L'utilisation simultanée des ressources bi-bande réduit les interférences et l'encombrement, tandis que le 4K QAM offre un débit bi-bande combiné de 6453Mbps — soit 20 % de plus que le Wi-Fi 6. La bande 5GHz améliorée (4x4 MIMO, 160MHz) renforce également de manière significative les performances à longue distance.
+Flint 3e (GL-BE6500) est un routeur de bureau Wi-Fi 7 bi-bande conçu pour les particuliers et les petits bureaux. Il prend en charge Multi-Link Operation (MLO), qui permet aux appareils compatibles d’utiliser des liaisons sur les bandes 2.4 GHz et 5 GHz afin d’atténuer les effets des interférences et de la congestion. Sa modulation 4K-QAM offre des débits théoriques jusqu’à 20% supérieurs à ceux de la modulation 1024-QAM du Wi-Fi 6 dans des conditions par ailleurs identiques. Le routeur prend en charge un débit théorique bi-bande combiné allant jusqu’à 6452 Mbps, avec 4×4 MIMO et une largeur de canal de 160 MHz sur la bande 5 GHz. Les débits réels dépendent des capacités des clients et des conditions du réseau.
 
 Doté de 5× ports Ethernet 2.5G et de 1× port USB 3.0, il prend en charge une connectivité filaire haut débit ainsi que l'extension du stockage. En outre, il est compatible avec plus de 30 services VPN et offre des performances VPN allant jusqu'à 680Mbps avec WireGuard® et OpenVPN-DCO. Il inclut également gratuitement Bark Parental Control, pour un excellent équilibre entre performances, praticité et sécurité.
 
@@ -231,7 +231,7 @@ Un VPN (réseau privé virtuel) établit un tunnel sécurisé et chiffré entre 
 
 === "DNS"
 
-    La page DNS vous permet de définir des serveurs DNS personnalisés, d'activer la protection contre les attaques de rebinding DNS et de remplacer les paramètres DNS de tous les clients, d'autoriser les DNS personnalisés à remplacer les DNS VPN, ainsi que de régler le mode des paramètres du serveur DNS sur automatique ou de spécifier manuellement les serveurs DNS de la connexion Ethernet.
+    La page DNS vous permet de définir des serveurs DNS personnalisés, d’activer la protection contre les attaques de rebinding DNS, de remplacer les paramètres DNS de tous les clients et d’autoriser les DNS personnalisés à remplacer les DNS VPN. Vous pouvez utiliser les serveurs DNS obtenus automatiquement auprès des appareils en amont ou spécifier manuellement des serveurs DNS personnalisés.
 
     Pour configurer DNS, reportez-vous à [DNS](../../interface_guide/dns.md).
 

@@ -2,7 +2,7 @@
 
 ## Przegląd produktu {#product-overview}
 
-Spitz Plus (GL-X2000) to bramka komórkowa 4G LTE z obsługą dwóch kart SIM i Wi-Fi 6, zaprojektowana z myślą o szybkich i niezawodnych połączeniach — szczególnie na obszarach oddalonych i podczas podróży. Dzięki agregacji 3 pasm (3-Carrier Aggregation) router jednocześnie przesyła dane na trzech pasmach, zapewniając trzykrotnie większą dostępną przepustowość i unikając zatorów. Oferuje cztery metody dostępu do internetu: Cellular (karty SIM), Ethernet, Repeater i Tethering. Obsługuje Multi-WAN (przełączanie awaryjne i load balancing), VPN (OpenVPN i WireGuard), kontrolę rodzicielską, AdGuard Home, przekierowanie portów, Tailscale i wiele więcej.
+Spitz Plus (GL-X2000) to bramka komórkowa 4G LTE z obsługą dwóch kart SIM i Wi-Fi 6, zaprojektowana z myślą o szybkich i niezawodnych połączeniach — szczególnie na obszarach oddalonych i podczas podróży. Dzięki agregacji trzech nośnych (3CA) router może zapewnić do trzech razy większą teoretyczną szerokość pasma kanału niż połączenie Cat 4 z jedną nośną, zależnie od szerokości pasm agregowanych nośnych oraz obsługi LTE 3CA przez operatora i lokalne stacje bazowe. Oferuje cztery metody dostępu do internetu: Cellular (karty SIM), Ethernet, Repeater i Tethering. Obsługuje Multi-WAN (przełączanie awaryjne i load balancing), VPN (OpenVPN i WireGuard), kontrolę rodzicielską, AdGuard Home, przekierowanie portów, Tailscale i wiele więcej.
 
 ![gl-x2000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/hardware_info/x2000_interface.jpg){class="glboxshadow"}
 
@@ -61,9 +61,7 @@ Podłącz urządzenie (np. komputer, laptop lub smartfon) do routera przez Wi-Fi
 
 - Wi-Fi
 
-    Na urządzeniu przejdź do Settings -> WLAN, znajdź nazwę sieci Wi-Fi routera na liście dostępnych sieci i wprowadź hasło. (Domyślną nazwę sieci i hasło znajdziesz na etykiecie routera.)
-
-    Na urządzeniu znajdź nazwę sieci Wi-Fi routera na liście dostępnych sieci i wprowadź hasło, aby dołączyć do sieci. Domyślną nazwę sieci i hasło znajdziesz na etykiecie routera.
+    Na urządzeniu przejdź do Settings -> WLAN, znajdź nazwę sieci Wi-Fi routera na liście dostępnych sieci i wprowadź hasło. Domyślną nazwę sieci i hasło znajdziesz na etykiecie routera.
 
 ### 3. Zaloguj się do panelu administracyjnego {#3-log-in-to-web-admin-panel}
 
@@ -249,7 +247,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie międz
 
 === "DNS"
 
-    Strona DNS umożliwia ustawienie niestandardowych serwerów DNS, włączenie ochrony przed atakami DNS rebinding i zastąpienie ustawień DNS wszystkich klientów, zezwolenie niestandardowemu DNS na zastępowanie DNS VPN oraz skonfigurowanie trybu ustawień serwera DNS jako automatycznego lub ręczne określenie serwerów DNS z połączenia Ethernet.
+    Strona DNS umożliwia ustawienie niestandardowych serwerów DNS, włączenie ochrony przed atakami DNS rebinding, nadpisanie ustawień DNS wszystkich klientów oraz zezwolenie niestandardowym serwerom DNS na zastąpienie DNS VPN. Możesz korzystać z serwerów DNS automatycznie uzyskanych z urządzeń nadrzędnych lub ręcznie wskazać niestandardowe serwery DNS.
 
     Aby skonfigurować DNS, zobacz [DNS](../../interface_guide/dns.md).
 

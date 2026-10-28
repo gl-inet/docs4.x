@@ -257,7 +257,7 @@ Raadpleeg [Dynamic DNS](../../interface_guide/ddns.md) om Dynamic DNS in te stel
 
 === "DNS"
 
-    Op de pagina DNS kun je aangepaste DNS-servers instellen, bescherming tegen DNS-rebindingaanvallen inschakelen en de DNS-instellingen van alle clients overschrijven. Je kunt aangepaste DNS-instellingen de VPN-DNS laten overschrijven en de DNS-servermodus op automatisch instellen of handmatig DNS-servers uit de Ethernet-verbinding opgeven.
+    Op de pagina DNS kun je aangepaste DNS-servers instellen, bescherming tegen DNS-rebindingaanvallen inschakelen, de DNS-instellingen van alle clients overschrijven en toestaan dat aangepaste DNS de VPN-DNS overschrijft. Je kunt DNS-servers gebruiken die automatisch van upstreamapparaten zijn verkregen of handmatig aangepaste DNS-servers opgeven.
 
     Raadpleeg [DNS](../../interface_guide/dns.md) om DNS in te stellen.
 

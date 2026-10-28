@@ -177,7 +177,7 @@ WireGuard Server Route Rule ziet er als volgt uit. Klik op **Add Route Rule**, v
 
 ![wg server route rule](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/vpnserver_route_rule_wg.png){class="glboxshadow"}
 
-**Opmerking**: in de modus voor aangepaste routes negeert de VPN-client het configuratiebestand en de serverroutes. Handmatige routeringsregels bepalen of een netwerksegment via de versleutelde tunnel wordt bereikt.
+**Opmerking**: met serverrouteringsregels definieer je aangepaste routeringsvermeldingen op de VPN-server, met het doeladres, de gateway en andere parameters voor elke regel. De handmatig ingestelde vermeldingen hebben voorrang op de standaardroutering in het VPN-configuratiebestand en bepalen welk clientverkeer door de versleutelde tunnel wordt geleid.
 
 ### Globale opties {#global-options_1}
 

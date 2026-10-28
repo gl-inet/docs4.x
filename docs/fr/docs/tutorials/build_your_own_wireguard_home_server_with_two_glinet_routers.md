@@ -192,7 +192,7 @@ Reconnectez-vous au panneau d'administration web du GL-MT6000 (le serveur WireGu
 
 ## Préparer le dépannage VPN à distance {#prep-for-remote-vpn-fixes-ahead}
 
-En cas de problème imprévu pendant vos déplacements, associez à l'avance les deux routeurs à votre compte GoodCloud afin de faciliter le dépannage VPN à distance.
+Associez les deux routeurs à votre compte GoodCloud avant de partir. Vous pourrez ainsi effectuer un dépannage à distance si votre connexion VPN échoue en raison de problèmes de configuration ou de réseau. L’accès à distance ne fonctionne que si les routeurs restent allumés et connectés à Internet.
 
 Votre serveur peut parfois être indisponible à cause d'une coupure de courant ou d'autres raisons. Pour préserver son accessibilité, veuillez l'associer à GL.iNet GoodCloud. 
 

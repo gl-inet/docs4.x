@@ -10,11 +10,11 @@ Dopo ogni passaggio, verifica se il problema è stato risolto. In caso affermati
 
 2. Se il processo di riavvio non si completa dopo 5 minuti, spegni il router scollegando il cavo di alimentazione. Attendi 30 secondi, poi ricollega il cavo di alimentazione e aspetta che il router si avvii.
 
-3. Apri un browser web, accedi a `192.168.8.1` ed effettua il login. Se l'operazione di riavvio è riuscita, verrai indirizzato alla guida di configurazione.
+3. Apri un browser web, accedi a `192.168.8.1`. Se l'operazione di riavvio è riuscita, verrai indirizzato alla pagina di accesso del router.
 
-4. Abilita la modalità privata/in incognito del browser e accedi a `192.168.8.1`. Se il processo di riavvio è riuscito, verrai indirizzato alla guida di configurazione.
+4. Abilita la modalità privata/in incognito del browser e accedi a `192.168.8.1`. Se il processo di riavvio è riuscito, verrai indirizzato alla pagina di accesso del router.
 
-5. Usa un browser diverso (ad esempio Chrome, Edge o Safari) per accedere a `192.168.8.1`. Se il processo di riavvio è riuscito, verrai indirizzato alla guida di configurazione.
+5. Usa un browser diverso (ad esempio Chrome, Edge o Safari) per accedere a `192.168.8.1`. Se il processo di riavvio è riuscito, verrai indirizzato alla pagina di accesso del router.
 
 6. Se continui a non riuscire ad accedere al pannello di amministrazione web del router oppure il router non funziona correttamente, prova a ripristinare il router alle impostazioni di fabbrica seguendo [questa](repair_network_or_reset_firmware.md#reset-to-factory) guida.
 

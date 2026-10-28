@@ -44,8 +44,8 @@ Während der Support-Sitzung können Sie per Lautsprecher, über das Chatfenster
 
 ## 8. Die Sitzung beenden {#8-end-the-session}
 
-Wenn die Support-Sitzung abgeschlossen ist, beenden Sie die Verbindung, indem Sie in der AnyDesk-Oberfläche auf die rote Schaltfläche „End Session“ klicken. Dadurch werden alle Berechtigungen für den Fernzugriff beendet. Um einen vollständigen Schutz Ihrer Privatsphäre sicherzustellen, sollten Sie außerdem:
+Wenn die Support-Sitzung abgeschlossen ist, beenden Sie die Verbindung, indem Sie in der AnyDesk-Oberfläche auf die rote Schaltfläche „End Session“ klicken. Dadurch wird die aktuelle Fernsupport-Sitzung geschlossen. Falls Sie **Unattended Access** aktiviert haben, deaktivieren Sie diese Funktion separat in den Sicherheitseinstellungen von AnyDesk. Um Ihre Privatsphäre vollständig zu schützen, sollten Sie außerdem:
 
 - die AnyDesk-Anwendung vollständig schließen (nicht nur minimieren).
 - Ihren Computer neu starten, wenn Sie sich Sorgen wegen verbliebener Prozesse machen.
-- Ihre Systemeinstellungen prüfen, um sicherzustellen, dass keine Berechtigungen für den Fernzugriff aktiv bleiben.
+- Prüfen Sie die Sicherheitseinstellungen von AnyDesk, um sicherzustellen, dass keine Berechtigungen für den Fernzugriff aktiv bleiben.

@@ -87,7 +87,7 @@ Configurare Flint 4 mediante uno dei metodi di connessione supportati: Ethernet 
     3. Sul touchscreen di Flint 4, selezionare **Tethering** e toccare **Connect**. Il router si collegherà al dispositivo.
     4. Una volta stabilità la connessione a Internet, la sezione Tethering nella pagina iniziale del touchscreen diventa blu (attiva). Toccare Tethering sul touchscreen oppure accedere al pannello di amministrazione web per visualizzare i dettagli della connessione.
 
-    **Nota**: se la connessione non riesce, verificare che l'alimentatore fornisca 12V 4A, perché una potenza insufficiente può impedire l'alimentazione della porta USB. Ripetere i passaggi oppure accedere al pannello di amministrazione web per verificare lo stato della connessione Tethering.
+    **Nota**: se la connessione non riesce, assicurati di utilizzare un alimentatore da 12V/4A, perché un’alimentazione insufficiente può impedire alla porta USB di alimentare correttamente il dispositivo collegato. Ripeti quindi i passaggi precedenti oppure accedi al pannello di amministrazione web per verificare lo stato della connessione Tethering.
 
 === "Cellular"
 
@@ -168,7 +168,7 @@ Una VPN (rete privata virtuale) crea un canale di traffico sicuro e crittografat
 
 === "DNS"
 
-    La pagina DNS consente di impostare server DNS personalizzati, abilitare la protezione contro gli attacchi DNS rebinding, sostituire le impostazioni DNS di tutti i client, permettere al DNS personalizzato di sostituire il DNS della VPN e configurare automaticamente o manualmente i server DNS della connessione Ethernet.
+    La pagina DNS consente di impostare server DNS personalizzati, abilitare la protezione dagli attacchi DNS rebinding, sovrascrivere le impostazioni DNS di tutti i client e consentire ai DNS personalizzati di sovrascrivere i DNS della VPN. Puoi utilizzare i server DNS ottenuti automaticamente dai dispositivi a monte oppure specificare manualmente server DNS personalizzati.
 
     Per maggiori dettagli, consultare [DNS](../../interface_guide/dns.md).
 

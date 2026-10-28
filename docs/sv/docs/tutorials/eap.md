@@ -37,7 +37,7 @@ Du kan ansluta via GL.iNets webbadministrationspanel eller LuCI.
 
     **Fotnot:**
 
-    1. Vid anslutning till WPA/WPA2/WPA3-Enterprise stöder GL-BE10000 (Slate 7 Pro), GL-MT3600BE (Beryl 7) och GL-BE3600 (Slate 7) endast PEAP-autentiserade nätverk. Andra EAP-metoder, exempelvis EAP-TLS, EAP-TTLS och EAP-MD5, stöds inte.
+    1. Vid anslutning till WPA/WPA2/WPA3-Enterprise stöder GL-BE14000 (Flint 4), GL-BE10000 (Slate 7 Pro), GL-MT3600BE (Beryl 7) och GL-BE3600 (Slate 7) endast PEAP-autentiserade nätverk. Andra EAP-metoder, exempelvis EAP-TLS, EAP-TTLS och EAP-MD5, stöds inte.
 
     2. GL-MT6000 (Fortify), GL-MT6000 (Flint 2) och GL-MT3000 (Beryl AX) stöder inte EAP-nätverk med standardfirmware. GL.iNet tillhandahåller OpenWrt 24-firmware med EAP-stöd. Sök efter modellen i [Download Center](https://dl.gl-inet.com/){target="_blank"} och se fliken OPENWRT 24.
 

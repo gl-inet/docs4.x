@@ -177,7 +177,7 @@ WireGuard Server Route Rule は次のように表示されます。**Add Route R
 
 ![wg server route rule](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/vpnserver_route_rule_wg.png){class="glboxshadow"}
 
-**注意**: カスタムルートモードでは、VPNクライアントは設定ファイルおよびサーバーから配布されたルーティング設定を無視します。任意のネットワークセグメントへアクセスする際にVPN暗号化トンネルを使用するかどうかは、手動で設定したルートルールによって決まります。
+**注意**: サーバーのルートルールでは、VPNサーバー上にカスタムルーティングエントリーを定義し、各ルールの宛先アドレス、ゲートウェイなどのパラメーターを指定できます。手動で設定したエントリーはVPN設定ファイル内のデフォルトのルーティング設定より優先され、暗号化トンネルを経由するクライアントトラフィックを決定します。
 
 ### グローバルオプション {#global-options_1}
 

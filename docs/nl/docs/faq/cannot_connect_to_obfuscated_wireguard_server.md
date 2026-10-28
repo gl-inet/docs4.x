@@ -30,13 +30,13 @@ Volg de onderstaande stappen als je geen verbinding met een verborgen WireGuard-
 
         > Opmerking: I1-I5 worden niet automatisch gegenereerd. Je kunt ze handmatig als extra regels toevoegen om AmneziaWG-verkeer op protocollen zoals QUIC of WebRTC te laten lijken.
 
-    Als je WireGuard-client een GL.iNet-router is, controleer je de AmneziaWG-versie met een van de volgende methoden.
+    Als je WireGuard-server een GL.iNet-router is, controleer je de AmneziaWG-versie met een van de volgende methoden.
 
     ??? note "Check via Router Web Admin Panel"
 
         1. Log in to your router's web Admin Panel.
 
-        2. Ga naar **VPN** -> **WireGuard Server** -> **Configuration** en controleer de obfuscatieparameters. Als **S3-S4** en **H1–H4** als variabele bereiken in plaats van vaste waarden zijn ingesteld, gebruikt de router AmneziaWG 2.0.
+        2. Ga naar **VPN** -> **WireGuard Server** -> **Configuration** en controleer de obfuscatieparameters. Als **S3-S4** of **H1–H4** als variabele bereiken in plaats van vaste waarden zijn ingesteld, gebruikt de router AmneziaWG 2.0.
 
             ![awg 2.0 web](https://static.gl-inet.com/docs/router/en/4/faq/cannot_connect_to_obfuscated_wgserver/awg_2.0_web.png){class="glboxshadow"}
 
@@ -68,7 +68,7 @@ Volg de onderstaande stappen als je geen verbinding met een verborgen WireGuard-
 
     - Als de officiële app verbinding maakt, is het configuratiebestand geldig. Controleer de netwerkverbinding van het oorspronkelijke clientapparaat of neem contact op met ondersteuning.
 
-    - Als de verbinding nog steeds mislukt, ligt het probleem bij de serverconfiguratie van de router. Controleer de serverinstellingen en obfuscatieparameters.
+    - Als de verbinding nog steeds mislukt, kan het probleem te maken hebben met de VPN-serverconfiguratie van de router, de netwerkverbinding of de firewallinstellingen. Controleer deze instellingen en de obfuscatieparameters.
 
 ---
 

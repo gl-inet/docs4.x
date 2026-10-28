@@ -32,7 +32,7 @@ Schalten Sie bei einem Störfall zuerst den Netzschalter aus.
 
 ## Produktübersicht {#product-overview}
 
-Spitz Plus (GL-X2000) ist ein Dual-SIM-4G-LTE-Wi-Fi-6-Cellular-Gateway, das besonders in abgelegenen Gebieten und auf Reisen schnelle und zuverlässige Verbindungen bietet. Dank 3-Carrier Aggregation überträgt der Router Daten gleichzeitig über drei Mobilfunkbänder und stellt so die dreifache verfügbare Bandbreite bereit, um Engpässe zu vermeiden. Er unterstützt vier Methoden für den Internetzugang: Cellular (SIM-Karten), Ethernet, Repeater und Tethering. Darüber hinaus werden Multi-WAN (Failover und Lastverteilung), VPN (OpenVPN und WireGuard), Parental Control, AdGuard Home, Portweiterleitung, Tailscale und weitere Funktionen unterstützt.
+Spitz Plus (GL-X2000) ist ein Dual-SIM-4G-LTE-Wi-Fi-6-Cellular-Gateway, das besonders in abgelegenen Gebieten und auf Reisen schnelle und zuverlässige Verbindungen bietet. Mit Drei-Träger-Aggregation (3CA) kann der Router bis zum Dreifachen der theoretischen Kanalbandbreite einer Cat 4-Verbindung mit einem einzelnen Träger bereitstellen. Dies hängt von den Bandbreiten der aggregierten Träger sowie der Unterstützung für LTE 3CA durch Ihren Mobilfunkanbieter und die lokalen Basisstationen ab. Er unterstützt vier Methoden für den Internetzugang: Cellular (SIM-Karten), Ethernet, Repeater und Tethering. Darüber hinaus werden Multi-WAN (Failover und Lastverteilung), VPN (OpenVPN und WireGuard), Parental Control, AdGuard Home, Portweiterleitung, Tailscale und weitere Funktionen unterstützt.
 
 ![gl-x2000 interface](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-x2000/hardware_info/x2000_interface.jpg){class="glboxshadow"}
 
@@ -91,7 +91,7 @@ Verbinden Sie ein Gerät (z. B. Computer, Laptop oder Smartphone) per Wi-Fi oder
 
 - Wi-Fi
 
-  Suchen Sie auf Ihrem Gerät in der Liste der verfügbaren Netzwerke den Wi-Fi-Netzwerknamen Ihres Routers und geben Sie das Passwort ein. Den Standard-Netzwerknamen und das Standard-Passwort finden Sie auf dem Etikett Ihres Routers.
+    Öffnen Sie auf Ihrem Gerät Settings -> WLAN, suchen Sie in der Liste der verfügbaren Netzwerke den Wi-Fi-Netzwerknamen Ihres Routers und geben Sie das Passwort ein. Den Standard-Netzwerknamen und das Standard-Passwort finden Sie auf dem Etikett Ihres Routers.
 
 ### 3. Im Web-Admin-Panel anmelden {#3-log-in-to-web-admin-panel}
 
@@ -277,7 +277,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
 === "DNS"
 
-    Auf der Seite DNS können Sie benutzerdefinierte DNS-Server festlegen, den Schutz vor DNS-Rebinding-Angriffen aktivieren und die DNS-Einstellungen aller Clients überschreiben. Außerdem können Sie erlauben, dass benutzerdefiniertes DNS VPN-DNS überschreibt, und den DNS-Servermodus auf automatisch setzen oder DNS-Server der Ethernet-Verbindung manuell angeben.
+    Auf der Seite DNS können Sie benutzerdefinierte DNS-Server festlegen, den Schutz vor DNS-Rebinding-Angriffen aktivieren, die DNS-Einstellungen aller Clients überschreiben und zulassen, dass benutzerdefiniertes DNS VPN-DNS überschreibt. Sie können automatisch von vorgeschalteten Geräten bezogene DNS-Server verwenden oder benutzerdefinierte DNS-Server manuell angeben.
 
     Zum Einrichten von DNS lesen Sie bitte [DNS](../../interface_guide/dns.md).
 

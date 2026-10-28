@@ -81,7 +81,7 @@ Zastosowanie zmian spowoduje ponowne nawiązanie połączenia.
 
 - **TTL**: TTL (Time To Live) określa maksymalny czas, przez jaki pakiety mogą istnieć w sieci. Domyślnie router zmniejsza TTL pakietów przychodzących z urządzeń klienckich o 1 przed ich przekazaniem dalej. Ustawienie TTL jest ważne tylko dla IPv4.
 
-    **Uwaga**: Jeśli musisz nadpisać lub zamaskować wartość TTL, ustaw tutaj wartość stałą. W większości modeli wpisz docelowy efektywny TTL powiększony o 1, aby skompensować automatyczne zmniejszenie. Mudi 7 (GL-E5800) stosuje wpisaną wartość bez zmian.
+    **Uwaga**: Jeśli musisz nadpisać lub zamaskować wartość TTL, ustaw tutaj wartość stałą. W większości modeli wpisz docelowy efektywny TTL powiększony o 1, aby skompensować automatyczne zmniejszenie.
 
 - **Service**: Wybierz typ usługi komórkowej, aby określić technologie sieciowe używane przez modem.
 
@@ -222,7 +222,7 @@ Gdy w polu Shortcut ustawisz **Manual command**, wpisz żądane polecenie w polu
 
 Możesz też kliknąć listę rozwijaną Shortcut, aby wybrać z listy **preset commands**.
 
-![shortcut](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/at_command_2.png){class="glboxshadow"}
+![shortcut](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/at_command_1.png){class="glboxshadow"}
 
 Dostępne są następujące polecenia predefiniowane:
 
@@ -236,7 +236,7 @@ Dostępne są następujące polecenia predefiniowane:
 
 Jako przykład wybrano tutaj skrót "Request IMEI". Kliknij "Send", a otrzymasz wynik pokazany poniżej.
 
-![shortcut example](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/at_command_3.png){class="glboxshadow"}
+![shortcut example](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/at_command_2.png){class="glboxshadow"}
 
 ## Profil operatora {#carrier-profile}
 

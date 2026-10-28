@@ -2,7 +2,7 @@
 
 ## Productoverzicht {#product-overview}
 
-Flint 3e (GL-BE6500) is een dual-band Wi-Fi 7-desktoprouter voor thuisgebruikers en kleine kantoren. De router ondersteunt Wi-Fi 7 Multi-Link Operation (MLO), waarmee de 2.4GHz- en 5GHz-kanalen intelligent worden samengevoegd tot één verbinding. Gelijktijdig gebruik van beide banden vermindert interferentie en congestie, terwijl 4K QAM een gecombineerde dual-band snelheid van 6453Mbps levert, 20% meer dan Wi-Fi 6. De verbeterde 5GHz-band (4x4 MIMO, 160MHz) verbetert ook de prestaties over grotere afstanden aanzienlijk.
+Flint 3e (GL-BE6500) is een dual-band Wi-Fi 7-desktoprouter voor thuisgebruikers en kleine kantoren. De router ondersteunt Multi-Link Operation (MLO), waarmee compatibele apparaten verbindingen op zowel de 2.4 GHz- als de 5 GHz-band kunnen gebruiken om de gevolgen van interferentie en congestie te beperken. De 4K-QAM-modulatie biedt onder verder gelijke omstandigheden tot 20% hogere theoretische datasnelheden dan de 1024-QAM-modulatie van Wi-Fi 6. De router ondersteunt een gecombineerde theoretische dual-band datasnelheid van maximaal 6452 Mbps, met 4×4 MIMO en een kanaalbreedte van 160 MHz op de 5 GHz-band. De werkelijke snelheden zijn afhankelijk van de mogelijkheden van clients en de netwerkomstandigheden.
 
 Met 5× 2.5G Ethernet-poorten en 1× USB 3.0-poort ondersteunt de router snelle bekabelde verbindingen en opslaguitbreiding. Daarnaast is hij compatibel met meer dan 30 VPN-diensten, biedt hij krachtige VPN-prestaties tot 680Mbps met WireGuard® en OpenVPN-DCO en wordt gratis Bark Parental Control meegeleverd. Zo worden prestaties, gebruiksgemak en beveiliging goed gecombineerd.
 
@@ -231,7 +231,7 @@ Een VPN (virtual private network) maakt een beveiligde, versleutelde verbinding 
 
 === "DNS"
 
-    Op de pagina DNS kun je aangepaste DNS-servers instellen, bescherming tegen DNS-rebindingaanvallen inschakelen en de DNS-instellingen van alle clients overschrijven. Je kunt aangepaste DNS-instellingen de VPN-DNS laten overschrijven en de DNS-servermodus op automatisch instellen of handmatig DNS-servers uit de Ethernet-verbinding opgeven.
+    Op de pagina DNS kun je aangepaste DNS-servers instellen, bescherming tegen DNS-rebindingaanvallen inschakelen, de DNS-instellingen van alle clients overschrijven en toestaan dat aangepaste DNS de VPN-DNS overschrijft. Je kunt DNS-servers gebruiken die automatisch van upstreamapparaten zijn verkregen of handmatig aangepaste DNS-servers opgeven.
 
     Raadpleeg [DNS](../../interface_guide/dns.md) om DNS in te stellen.
 

@@ -30,13 +30,13 @@ Se non riesci a stabilire una connessione a un server WireGuard offuscato, segui
         
         > Nota: I1-I5 non vengono generati automaticamente. Gli utenti possono aggiungerli manualmente come righe aggiuntive nel file di configurazione per far sembrare il traffico AmneziaWG simile ad altri protocolli comuni, come QUIC o WebRTC.
 
-    Se il client WireGuard è un router GL.iNet, controlla la sua versione di AmneziaWG con i due metodi seguenti.
+    Se il server WireGuard è un router GL.iNet, controlla la sua versione di AmneziaWG con i due metodi seguenti.
 
     ??? note "Controllare dal Router Web Admin Panel"
 
         1. Accedi al Web Admin Panel del router.
 
-        2. Vai su **VPN** -> **WireGuard Server** -> **Configuration** e verifica i parametri di offuscamento. Se la configurazione include **S3-S4** e **H1-H4** come intervalli variabili, invece di valori fissi, il router esegue AmneziaWG 2.0, come mostrato sotto.
+        2. Vai su **VPN** -> **WireGuard Server** -> **Configuration** e verifica i parametri di offuscamento. Se la configurazione include **S3-S4** o **H1–H4** come intervalli variabili, invece di valori fissi, il router esegue AmneziaWG 2.0, come mostrato sotto.
 
             ![awg 2.0 web](https://static.gl-inet.com/docs/router/en/4/faq/cannot_connect_to_obfuscated_wgserver/awg_2.0_web.png){class="glboxshadow"}
 
@@ -68,7 +68,7 @@ Se non riesci a stabilire una connessione a un server WireGuard offuscato, segui
 
     - Se la connessione riesce nell'app ufficiale, il file di configurazione è valido. Il problema potrebbe riguardare il dispositivo client originale. Verifica la sua connettività di rete o contatta il supporto per ulteriore assistenza.
 
-    - Se la connessione continua a non riuscire, il problema proviene dalla configurazione del server sul router. Controlla le impostazioni del server e i parametri di offuscamento.
+    - Se la connessione continua a non riuscire, il problema potrebbe riguardare la configurazione del server VPN del router, la connettività di rete o le impostazioni del firewall. Controlla queste impostazioni e i parametri di offuscamento.
 
 ---
 

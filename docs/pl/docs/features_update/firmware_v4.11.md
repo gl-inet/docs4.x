@@ -16,6 +16,12 @@ Najnowsze oprogramowanie układowe można pobrać z [Centrum pobierania oprogram
 
 ![security scan](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/security_scan.png){class="glboxshadow"}
 
+## UPnP {#upnp}
+
+[UPnP](../interface_guide/upnp.md) pozwala zgodnym urządzeniom LAN i aplikacjom automatycznie żądać mapowania portów bez ręcznej konfiguracji przekierowania portów. Ułatwia to połączenia w grach online, udostępnianiu plików peer-to-peer i dostępie zdalnym. Na stronie UPnP można wyświetlać aktywne mapowania, sprawdzać pozostały czas dzierżawy i usuwać mapowania w razie potrzeby.
+
+![UPnP](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/upnp.png){class="glboxshadow"}
+
 ## DNS {#dns}
 
 Ta wersja usprawnia konfigurację [DNS](../interface_guide/dns_v4.11.md), łącząc WAN DNS, VPN DNS i Manual DNS na jednej stronie. Możesz łatwo sprawdzać stan DNS dla każdego typu połączenia, konfigurować niestandardowe serwery DNS i wybierać, czy ręczne ustawienia DNS mają być stosowane do tuneli VPN, czy do samego routera.

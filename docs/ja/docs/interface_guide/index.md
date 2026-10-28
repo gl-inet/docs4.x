@@ -78,6 +78,7 @@ hide:
 ## セキュリティ {#security}
 
 * [セキュリティスキャン](security_scan.md)
+* [UPnP](upnp.md)
 * [ポートフォワーディング](port_forwarding.md)
 * [ACL（アクセス制御リスト）](acl.md)
 * [管理者アクセス](admin_access.md)

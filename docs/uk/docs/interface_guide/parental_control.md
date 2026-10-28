@@ -158,10 +158,6 @@
 
     Браузери й операційні системи зберігають кеш DNS, що може затримувати застосування змін конфігурації. Очистьте кеш DNS, щоб зміни набули чинності одразу.
 
-      * [Очищення кешу DNS у Chrome на комп’ютері](https://support.google.com/accounts/answer/32050){target="_blank"}
-
-      * [Очищення кешу DNS в Edge на комп’ютері](https://www.microsoft.com/en-us/edge/learning-center/how-to-manage-and-clear-your-cache-and-cookies?form=MA13I2){target="_blank"}
-
 2. Час дії розкладу профілю ще не настав.
 
 3. Уведено неправильне доменне ім’я.

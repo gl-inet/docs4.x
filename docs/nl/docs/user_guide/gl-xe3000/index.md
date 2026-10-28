@@ -2,7 +2,7 @@
 
 ## Productoverzicht {#product-overview}
 
-Puli AX (GL-XE3000) is een Wi-Fi 6 5G Cellular Router voor internetverbindingen op hoge snelheid. Dankzij de krachtige ingebouwde accu van 6400mAh/7.4V/47.4Wh kun je nog langer van een ononderbroken internetverbinding profiteren. De Wi-Fi-snelheden bedragen maximaal 574Mbps (2.4GHz) en 2402Mbps (5GHz), met een gecombineerde maximale Wi-Fi-snelheid van 3000Mbps. De 5G NR-verbinding voor mobiele netwerken zorgt ervoor dat de internetverbinding behouden blijft, zelfs wanneer de Ethernet-verbinding uitvalt.
+Puli AX (GL-XE3000) is een Wi-Fi 6-router voor 5G-netwerken die hoge internetsnelheden biedt. Met de krachtige ingebouwde accu van 6400mAh/7.4V/47.4Wh kun je langer gebruikmaken van de internetverbinding. De Wi-Fi-snelheden bedragen maximaal 574Mbps (2.4GHz) en 2402Mbps (5GHz). De router is voorzien van een 5G NR-verbinding voor mobiele netwerken. Wanneer Multi-WAN-failover is ingesteld, kan de router de verbinding behouden als de Ethernet-verbinding uitvalt.
 
 ![xe3000_interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe3000/hardware_info/xe3000_interface.jpg){class="glboxshadow"}
 
@@ -259,7 +259,7 @@ Raadpleeg [Dynamic DNS](../../interface_guide/ddns.md) om Dynamic DNS in te stel
 
 === "DNS"
 
-    Op de pagina DNS kun je aangepaste DNS-servers instellen, bescherming tegen DNS-rebindingaanvallen inschakelen en de DNS-instellingen van alle clients overschrijven. Je kunt aangepaste DNS-instellingen de VPN-DNS laten overschrijven en de DNS-servermodus op automatisch instellen of handmatig DNS-servers uit de Ethernet-verbinding opgeven.
+    Op de pagina DNS kun je aangepaste DNS-servers instellen, bescherming tegen DNS-rebindingaanvallen inschakelen, de DNS-instellingen van alle clients overschrijven en toestaan dat aangepaste DNS de VPN-DNS overschrijft. Je kunt DNS-servers gebruiken die automatisch van upstreamapparaten zijn verkregen of handmatig aangepaste DNS-servers opgeven.
 
     Raadpleeg [DNS](../../interface_guide/dns.md) om DNS in te stellen.
 

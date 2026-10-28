@@ -2,7 +2,7 @@
 
 ## Przegląd produktu {#product-overview}
 
-Puli AX (GL-XE3000) to najwyższej klasy router komórkowy 5G z Wi-Fi 6, który przenosi szybkość internetu na zupełnie nowy poziom! Dzięki wbudowanemu akumulatorowi o pojemności 6400 mAh / 7,4 V / 47,4 Wh możesz cieszyć się nieprzerwanym połączeniem internetowym jeszcze dłużej. Osiąga błyskawiczne prędkości Wi-Fi do 574 Mbps (2.4GHz) i 2402 Mbps (5GHz), z łączną maksymalną prędkością Wi-Fi wynoszącą 3000 Mbps. Wyposażony w moduł 5G NR zapewnia ciągłość połączenia z internetem, nawet w przypadku awarii łącza Ethernet.
+Puli AX (GL-XE3000) to router komórkowy 5G z Wi-Fi 6 zapewniający szybkie połączenia internetowe. Dzięki wydajnemu wbudowanemu akumulatorowi 6400mAh/7.4V/47.4Wh możesz korzystać z internetu przez dłuższy czas. Oferuje szybkości Wi-Fi do 574Mbps (2.4GHz) i 2402Mbps (5GHz). Jest wyposażony w łączność komórkową 5G NR. Po skonfigurowaniu przełączania awaryjnego Multi-WAN może utrzymać połączenie nawet w przypadku awarii łącza Ethernet.
 
 ![xe3000_interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe3000/hardware_info/xe3000_interface.jpg){class="glboxshadow"}
 
@@ -259,7 +259,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie międz
 
 === "DNS"
 
-    Strona DNS umożliwia ustawienie niestandardowych serwerów DNS, włączenie ochrony przed atakami DNS rebinding i zastąpienie ustawień DNS wszystkich klientów, zezwolenie niestandardowemu DNS na zastępowanie DNS VPN oraz skonfigurowanie trybu ustawień serwera DNS jako automatycznego lub ręczne określenie serwerów DNS z połączenia Ethernet.
+    Strona DNS umożliwia ustawienie niestandardowych serwerów DNS, włączenie ochrony przed atakami DNS rebinding, nadpisanie ustawień DNS wszystkich klientów oraz zezwolenie niestandardowym serwerom DNS na zastąpienie DNS VPN. Możesz korzystać z serwerów DNS automatycznie uzyskanych z urządzeń nadrzędnych lub ręcznie wskazać niestandardowe serwery DNS.
 
     Aby skonfigurować DNS, zobacz [DNS](../../interface_guide/dns.md).
 

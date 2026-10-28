@@ -48,7 +48,7 @@ Jeśli nie możesz nawiązać połączenia komórkowego, sprawdź poniższe kwes
     
     **2.4** Włącz **Band Masking** i sprawdź ponownie. W przypadku firmware v4.7 i starszego zobacz [ten link](../interface_guide/internet_cellular_v4.7.md#band-masking). W przypadku firmware v4.8 i nowszego zobacz [ten link](../interface_guide/internet_cellular.md#band-masking).
 
-    **2.5** Zablokuj lub odblokuj stację bazową i sprawdź ponownie. Ta funkcja jest dostępna tylko w GL-X3000 (Spitz AX), GL-XE3000 (Puli AX) i GL-X2000 (Spitz Plus). Kliknij [tutaj](../interface_guide/internet_cellular.md#lock-tower), aby uzyskać więcej instrukcji.
+    **2.5** Zablokuj lub odblokuj stację bazową i sprawdź ponownie. Ta funkcja jest dostępna w GL-E5800 (Mudi 7), GL-X3000 (Spitz AX), GL-XE3000 (Puli AX) i GL-X2000 (Spitz Plus). GL-X2000 (Spitz Plus) obsługuje tę funkcję od firmware v4.7. Kliknij [tutaj](../interface_guide/internet_cellular.md#lock-tower), aby uzyskać więcej instrukcji.
     
     Zablokowanie konkretnej stacji bazowej pozwala routerowi korzystać z wysokiej jakości zasobów sieciowych i utrzymywać stabilne połączenie komórkowe.
     
@@ -60,7 +60,7 @@ Jeśli nie możesz nawiązać połączenia komórkowego, sprawdź poniższe kwes
 
 ??? "Sprawdź zgodność karty SIM"
     
-    **3.1** Potwierdź typ karty SIM. Routery komórkowe GL.iNet są certyfikowane jako urządzenia IoT. Teoretycznie urządzenie obsługuje tylko karty SIM typu IoT. Jeśli nie masz pewności, jaki to typ karty SIM, skontaktuj się z operatorem.
+    **3.1** Sprawdź zgodność karty SIM. Północnoamerykańskie modele routerów komórkowych GL.iNet mają certyfikację IoT. Nie oznacza to jednak, że wymagają kart SIM IoT — standardowe konsumenckie karty SIM również mogą być zgodne. Jeśli nie wiesz, jakiego typu karty SIM użyć, skontaktuj się z operatorem.
     
     Typowe rodzaje kart SIM to: data-only, data-only + voice, IoT i hotspot. Zalecamy używanie kart SIM typu IoT lub hotspot. Działanie kart data-only albo data-only + voice nie jest gwarantowane.
     

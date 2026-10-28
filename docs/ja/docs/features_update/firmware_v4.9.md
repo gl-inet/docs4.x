@@ -76,13 +76,13 @@ Flow Control モジュールには、DPI Engine、Data Statistics、Content Filt
 
 ## AmneziaWG 2.0 {#amneziawg-20}
 
-ファームウェア v4.9 では、複数の新しいトラフィック難読化パラメーターを備えた AmneziaWG 2.0 プロトコルが正式に導入されました。アップグレードされたプロトコルは、DPI やその他のトラフィック識別システムによる検出を効果的に回避し、接続の秘匿性と耐干渉性を大幅に向上させます。これにより、ネットワーク制限のある地域や複雑なネットワーク環境でも、安定した信頼性の高い VPN 接続を確立できます。
+ファームウェア v4.9 では、複数の新しいトラフィック難読化パラメーターを備えた AmneziaWG 2.0 プロトコルが正式に導入されました。更新されたプロトコルは、DPI やその他のトラフィック識別システムが VPN トラフィックを認識しにくくするよう設計されています。これらの改善は、ネットワーク制限のある地域や複雑なネットワーク環境で VPN 接続を確立し、維持するのに役立ちます。
 
 ![amneziawg](https://static.gl-inet.com/docs/router/en/4/features_update/4.9/amneziawg.png){class="glboxshadow"}
 
 ## IoT ネットワーク {#iot-network}
 
-[IoTネットワーク](../interface_guide/iot_network.md)では、ファームウェアv4.9以降、IoTスマートデバイス専用の独立した Wi-Fi ネットワークを作成できます。メインネットワークから物理的および論理的に分離することで、IoT デバイスがメインネットワークにアクセスすることによるネットワークリソースの消費やセキュリティリスクを回避します。この改善により、さまざまなスマート IoT クライアントとの互換性が広がり、ホームネットワーク全体のセキュリティが強化されます。
+ファームウェア v4.9 の [IoTネットワーク](../interface_guide/iot_network.md)では、IoTデバイス専用の Wi-Fi ネットワークを作成できます。メインネットワークから論理的に分離されており、IoTデバイスがメインネットワークのセキュリティに与える潜在的な影響を軽減します。ネットワーク設定を変更できるため、IoTデバイスをより柔軟に管理できます。
 
 ![iot network](https://static.gl-inet.com/docs/router/en/4/features_update/4.9/iot_network.png){class="glboxshadow"}
 

@@ -48,7 +48,7 @@ Wenn Sie keine Mobilfunkverbindung herstellen können, prüfen Sie bitte die fol
     
     **2.4** Aktivieren Sie **Band Masking** und testen Sie erneut. Informationen für Firmware v4.7 und früher finden Sie [unter diesem Link](../interface_guide/internet_cellular_v4.7.md#band-masking). Informationen für Firmware v4.8 und höher finden Sie [unter diesem Link](../interface_guide/internet_cellular.md#band-masking).
 
-    **2.5** Sperren oder entsperren Sie einen Sendemast und testen Sie erneut. Diese Funktion ist nur auf GL-X3000 (Spitz AX), GL-XE3000 (Puli AX) und GL-X2000 (Spitz Plus) verfügbar. Klicken Sie [hier](../interface_guide/internet_cellular.md#lock-tower) für weitere Anweisungen.
+    **2.5** Sperren oder entsperren Sie einen Sendemast und testen Sie erneut. Diese Funktion ist auf GL-E5800 (Mudi 7), GL-X3000 (Spitz AX), GL-XE3000 (Puli AX) und GL-X2000 (Spitz Plus) verfügbar. Beim GL-X2000 (Spitz Plus) wird diese Funktion ab Firmware v4.7 unterstützt. Klicken Sie [hier](../interface_guide/internet_cellular.md#lock-tower) für weitere Anweisungen.
     
     Die Sperrung auf einen bestimmten Sendemast ermöglicht dem Router den Zugriff auf eine hochwertige Netzwerkressource und sorgt für eine stabile Mobilfunkverbindung.
     
@@ -60,7 +60,7 @@ Wenn Sie keine Mobilfunkverbindung herstellen können, prüfen Sie bitte die fol
 
 ??? "SIM-Kompatibilität prüfen"
     
-    **3.1** Bestätigen Sie den SIM-Typ. GL.iNet-Mobilfunkrouter sind als IoT-Geräte zertifiziert. Theoretisch unterstützt das Gerät nur SIM-Karten vom IoT-Typ. Wenn Sie sich beim SIM-Typ nicht sicher sind, wenden Sie sich bitte an Ihren Netzbetreiber.
+    **3.1** Prüfen Sie die SIM-Kompatibilität. Die nordamerikanischen Mobilfunkrouter-Modelle von GL.iNet sind IoT-zertifiziert. Das bedeutet jedoch nicht, dass IoT-SIM-Karten erforderlich sind: Auch herkömmliche SIM-Karten für Verbraucher können kompatibel sein. Wenn Sie nicht sicher sind, welchen SIM-Typ Sie verwenden sollten, wenden Sie sich an Ihren Netzbetreiber.
     
     Gängige SIM-Typen sind: data-only, data-only + voice, IoT und hotspot. Wir empfehlen die Verwendung von IoT- oder hotspot-SIM-Karten. Für data-only- oder data-only + voice-SIM-Karten kann die Funktion nicht garantiert werden.
     

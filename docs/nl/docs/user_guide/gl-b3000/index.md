@@ -202,10 +202,10 @@ Een VPN (virtual private network) maakt een beveiligde, versleutelde verbinding 
 
     Op de pagina Guest Network kun je een afzonderlijk netwerk voor gasten maken en beheren. Zij krijgen internettoegang terwijl je hoofdnetwerk beveiligd blijft. De belangrijkste functies op deze pagina zijn:
 
-    * Gateway: stel een specifiek IP-adresbereik voor het gastnetwerk in om dit van je hoofdnetwerk te onderscheiden.
+    * Gateway: stel het IP-adres van de gateway voor het gastnetwerk in.
     * DHCP: configureer het Dynamic Host Configuration Protocol voor het gastnetwerk om automatisch IP-adressen toe te wijzen aan apparaten die verbinding maken.
 
-    Deze functies bieden gasten internettoegang zonder dat dit ten koste gaat van de beveiliging en prestaties van je primaire netwerk.
+    Het gastnetwerk biedt gasten internettoegang en isoleert hun verkeer van je hoofdnetwerk om mogelijke gevolgen voor de beveiliging en prestaties daarvan te beperken.
 
     Raadpleeg [Guest Network](../../interface_guide/guest_network.md) voor uitgebreide installatie-instructies en meer informatie.
 
@@ -243,7 +243,7 @@ Een VPN (virtual private network) maakt een beveiligde, versleutelde verbinding 
     * NAT6: gebruik Network Address Translation for IPv6 (NAT6) om interne en externe IPv6-adressen te vertalen, vergelijkbaar met de werking van NAT voor IPv4.
     * Static IPv6: configureer handmatig een statisch IPv6-adres voor je router voor een vast adres, consistente connectiviteit en eenvoudiger beheer van netwerkdiensten.
 
-    Met deze instellingen profiteer je van de voordelen van IPv6, waaronder een grotere adresruimte, betere beveiligingsfuncties en hogere prestaties.
+    Deze modi bieden flexibele IPv6-configuratieopties voor verschillende netwerkomgevingen.
 
     Raadpleeg [IPv6](../../interface_guide/ipv6.md) voor uitgebreide installatie-instructies en meer informatie.
 

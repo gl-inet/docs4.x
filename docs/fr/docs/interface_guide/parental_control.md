@@ -154,10 +154,6 @@ Si les paramètres que vous avez configurés ne prennent pas effet, vérifiez le
 1. Problème de cache DNS.
   
     Les navigateurs et les systèmes d'exploitation conservent des caches DNS ; les modifications de configuration peuvent donc mettre un certain temps à prendre effet. Videz le cache DNS pour appliquer les changements immédiatement.
-  
-      * [Vider le cache DNS dans Chrome sur ordinateur](https://support.google.com/accounts/answer/32050){target="_blank"}
-      
-      * [Vider le cache DNS dans Edge sur ordinateur](https://www.microsoft.com/en-us/edge/learning-center/how-to-manage-and-clear-your-cache-and-cookies?form=MA13I2){target="_blank"}
 
 2. L'horaire du profil n'a pas encore démarré.
 

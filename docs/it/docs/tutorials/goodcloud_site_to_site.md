@@ -6,7 +6,7 @@ GoodCloud Site to Site consente a uffici in sedi diverse di stabilire connession
 
 ![site to site](https://static.gl-inet.com/goodcloud/docs/tutorials/site_to_site/s2s-main.png){class="glboxshadow"}
 
-**Scenario 1**: decine di filiali della stessa azienda devono essere integrate in una rete privata unificata, consentendo la condivisione fluida delle risorse tra tutte le sedi.
+**Scenario 1**: più filiali della stessa azienda devono essere integrate in una rete privata unificata, consentendo la condivisione fluida delle risorse tra tutte le sedi.
 
 **Scenario 2**: quando due aziende con una stretta collaborazione necessitano di lavorare insieme, Site to Site facilita il lavoro in un ambiente di rete condiviso e sicuro.
 

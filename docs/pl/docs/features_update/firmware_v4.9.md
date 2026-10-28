@@ -76,13 +76,13 @@ Jedna grupa tuneli VPN może zawierać wiele profili konfiguracji. Użytkownicy 
 
 ## AmneziaWG 2.0 {#amneziawg-20}
 
-Firmware v4.9 oficjalnie wprowadza protokół AmneziaWG 2.0 wyposażony w wiele nowych parametrów zaciemniania ruchu. Ulepszony protokół skutecznie omija wykrywanie przez DPI i inne systemy identyfikacji ruchu, znacznie zwiększając ukrywanie połączenia i odporność na zakłócenia. Umożliwia to ustanawianie stabilnych i niezawodnych połączeń VPN w regionach z ograniczeniami sieciowymi oraz w złożonych środowiskach sieciowych.
+Firmware v4.9 oficjalnie wprowadza protokół AmneziaWG 2.0 z kilkoma nowymi parametrami zaciemniania ruchu. Ulepszony protokół ma utrudniać rozpoznawanie ruchu VPN przez DPI i inne systemy identyfikacji ruchu. Te ulepszenia mogą pomóc w nawiązywaniu i utrzymywaniu połączeń VPN w regionach z ograniczeniami sieciowymi oraz w złożonych środowiskach sieciowych.
 
 ![amneziawg](https://static.gl-inet.com/docs/router/en/4/features_update/4.9/amneziawg.png){class="glboxshadow"}
 
 ## Sieć IoT {#iot-network}
 
-[Sieć IoT](../interface_guide/iot_network.md) w firmware v4.9 umożliwia utworzenie niezależną, dedykowaną sieć Wi-Fi dla inteligentnych urządzeń IoT. Dzięki fizycznej i logicznej izolacji od sieci głównej pozwala ona uniknąć zajmowania zasobów sieciowych i zagrożeń bezpieczeństwa wynikających z dostępu urządzeń IoT do sieci głównej. To rozwiązanie zapewnia szerszą zgodność z różnymi inteligentnymi klientami IoT i ogólnie wzmacnia bezpieczeństwo sieci domowej.
+[Sieć IoT](../interface_guide/iot_network.md) w firmware v4.9 umożliwia utworzenie dedykowanej sieci Wi-Fi dla urządzeń IoT. Logiczne oddzielenie od sieci głównej pomaga zmniejszyć potencjalny wpływ urządzeń IoT na jej bezpieczeństwo. Konfigurowalne ustawienia sieci zapewniają większą elastyczność zarządzania urządzeniami IoT.
 
 ![iot network](https://static.gl-inet.com/docs/router/en/4/features_update/4.9/iot_network.png){class="glboxshadow"}
 

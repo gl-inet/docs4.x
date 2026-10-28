@@ -2,7 +2,7 @@
 
 ## Przegląd produktu {#product-overview}
 
-Flint 3e (GL-BE6500) to dwupasmowy router biurkowy Wi‑Fi 7 przeznaczony dla użytkowników domowych i małych biur. Obsługuje technologię Wi‑Fi 7 Multi-Link Operation (MLO), która inteligentnie łączy kanały 2,4 GHz i 5 GHz w jedno połączenie. Jednoczesne wykorzystanie zasobów obu pasm ogranicza zakłócenia i przeciążenia, a 4K QAM zapewnia łączną prędkość dwupasmową 6453 Mb/s — o 20% wyższą niż w Wi‑Fi 6. Ulepszone pasmo 5 GHz (4x4 MIMO, 160 MHz) znacząco poprawia także wydajność na większe odległości.
+Flint 3e (GL-BE6500) to dwupasmowy router biurkowy Wi-Fi 7 dla użytkowników domowych i małych biur. Obsługuje Multi-Link Operation (MLO), dzięki czemu zgodne urządzenia mogą korzystać z łączy w pasmach 2.4 GHz i 5 GHz, aby ograniczyć skutki zakłóceń i przeciążenia. Modulacja 4K-QAM zapewnia teoretyczne szybkości transmisji danych wyższe o maksymalnie 20% niż modulacja 1024-QAM w Wi-Fi 6 przy pozostałych warunkach bez zmian. Router obsługuje łączną teoretyczną szybkość transmisji w dwóch pasmach do 6452 Mbps, z 4×4 MIMO i szerokością kanału 160 MHz w paśmie 5 GHz. Rzeczywiste szybkości zależą od możliwości klientów i warunków sieciowych.
 
 Wyposażony w 5 portów Ethernet 2,5G i 1 port USB 3.0, router obsługuje szybkie połączenia przewodowe i rozbudowę pamięci. Dodatkowo jest kompatybilny z ponad 30 usługami VPN i zapewnia wydajność VPN do 680 Mb/s w WireGuard® oraz OpenVPN-DCO, a także zawiera bezpłatną kontrolę rodzicielską Bark, oferując dobry balans między wydajnością, praktycznością i bezpieczeństwem.
 
@@ -231,7 +231,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między Twoim 
 
 === "DNS"
 
-    Strona DNS umożliwia ustawienie niestandardowych serwerów DNS, włączenie ochrony przed atakami DNS rebinding i zastąpienie ustawień DNS wszystkich klientów, zezwolenie na to, by własny DNS zastępował DNS z VPN, a także ustawienie trybu konfiguracji serwera DNS na automatyczny lub ręczne wskazanie serwerów DNS z połączenia Ethernet.
+    Strona DNS umożliwia ustawienie niestandardowych serwerów DNS, włączenie ochrony przed atakami DNS rebinding, nadpisanie ustawień DNS wszystkich klientów oraz zezwolenie niestandardowym serwerom DNS na zastąpienie DNS VPN. Możesz korzystać z serwerów DNS automatycznie uzyskanych z urządzeń nadrzędnych lub ręcznie wskazać niestandardowe serwery DNS.
 
     Aby skonfigurować DNS, zapoznaj się z [DNS](../../interface_guide/dns.md).
 

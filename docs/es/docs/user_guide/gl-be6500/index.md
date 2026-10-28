@@ -2,7 +2,7 @@
 
 ## Descripción general del producto {#product-overview}
 
-Flint 3e (GL-BE6500) es un router de escritorio Wi-Fi 7 de doble banda diseñado para usuarios domésticos y pequeñas oficinas. Es compatible con la tecnología Wi-Fi 7 Multi-Link Operation (MLO), que combina inteligentemente los canales de 2,4 GHz y 5 GHz en una sola conexión. El uso simultáneo de recursos de doble banda reduce las interferencias y la congestión, mientras que 4K QAM ofrece una velocidad combinada de 6453 Mbps, un 20 % más que Wi-Fi 6. La banda de 5 GHz mejorada (4x4 MIMO, 160 MHz) también mejora significativamente el rendimiento a larga distancia.
+Flint 3e (GL-BE6500) es un router de escritorio Wi-Fi 7 de doble banda diseñado para usuarios domésticos y pequeñas oficinas. Admite Multi-Link Operation (MLO), que permite a los dispositivos compatibles utilizar enlaces en las bandas de 2.4 GHz y 5 GHz para ayudar a mitigar los efectos de las interferencias y la congestión. Su modulación 4K-QAM ofrece velocidades de datos teóricas hasta un 20% superiores a las de la modulación 1024-QAM de Wi-Fi 6 en condiciones idénticas. El router admite una velocidad teórica combinada de doble banda de hasta 6452 Mbps, con 4×4 MIMO y un ancho de canal de 160 MHz en la banda de 5 GHz. Las velocidades reales dependen de las capacidades de los clientes y de las condiciones de la red.
 
 Con 5 puertos Ethernet 2.5G y 1 puerto USB 3.0, admite conectividad cableada de alta velocidad y ampliación de almacenamiento. Además, es compatible con más de 30 servicios VPN y ofrece un potente rendimiento VPN de hasta 680 Mbps con WireGuard® y OpenVPN-DCO, e incluye Bark Parental Control gratuito, equilibrando rendimiento, practicidad y seguridad.
 
@@ -231,7 +231,7 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 
 === "DNS"
 
-    La página DNS le permite establecer servidores DNS personalizados, activar la protección frente a ataques de DNS rebinding y sobrescribir los ajustes DNS de todos los clientes, permitir que el DNS personalizado reemplace al DNS de la VPN, y configurar el modo de ajustes del servidor DNS como automático o especificar manualmente servidores DNS desde la conexión Ethernet.
+    La página DNS le permite establecer servidores DNS personalizados, activar la protección contra ataques de reenlace DNS, anular la configuración DNS de todos los clientes y permitir que el DNS personalizado anule el DNS de la VPN. Puede utilizar servidores DNS obtenidos automáticamente de los dispositivos de la red superior o especificar manualmente servidores DNS personalizados.
 
     Para configurar DNS, consulte [DNS](../../interface_guide/dns.md).
 

@@ -8,11 +8,11 @@ Un portail captif est une page web sur laquelle les points d'accès publics dema
 
 * Le Wi-Fi public n'est pas sûr
 
-    Il est difficile de surestimer les risques du Wi-Fi public. En connectant votre routeur GL.iNet à un Wi-Fi public, vous pouvez vous connecter directement à votre compte VPN via le panneau d'administration du routeur. Le routeur chiffrera automatiquement tous les appareils connectés au réseau local, ce qui vous évite de configurer un VPN sur chaque appareil.
+    Il est difficile de surestimer les risques du Wi-Fi public. En connectant votre routeur GL.iNet à un Wi-Fi public, vous pouvez vous connecter directement à votre compte VPN via le panneau d'administration du routeur. Lorsque votre routeur est configuré pour acheminer tout le trafic local via le VPN, le trafic des appareils connectés est chiffré via le VPN, ce qui vous évite de configurer un VPN sur chaque appareil.
 
 * Utiliser le routeur comme répéteur pour connecter plusieurs appareils
 
-    En outre, certains réseaux Wi-Fi publics (par exemple le Wi-Fi d'hôtel) limitent l'accès à un certain nombre d'appareils, par exemple deux. Lors d'un voyage en groupe, cela n'est pas pratique. Vous pouvez à la place connecter un routeur de voyage au Wi-Fi de l'hôtel et l'utiliser comme répéteur pour diffuser un signal Wi-Fi vers tous vos appareils, notamment ordinateurs portables, smartphones, tablettes, etc. Le Wi-Fi de l'hôtel ne verra que le routeur de voyage comme un seul appareil, alors que vous pourrez connecter autant d'appareils que vous le souhaitez au Wi-Fi gratuit.
+    En outre, certains réseaux Wi-Fi publics (par exemple le Wi-Fi d'hôtel) limitent l'accès à un certain nombre d'appareils, par exemple deux. Lors d'un voyage en groupe, cela n'est pas pratique. Vous pouvez à la place connecter un routeur de voyage au Wi-Fi de l'hôtel et l'utiliser comme répéteur pour diffuser un signal Wi-Fi vers tous vos appareils, notamment ordinateurs portables, smartphones, tablettes, etc. Le Wi-Fi de l’hôtel reconnaîtra le routeur de voyage comme un seul appareil, mais vous pourrez connecter plusieurs appareils au routeur de voyage dans la limite du nombre maximal de clients pris en charge.
 
 ## Comment connecter un routeur à des points d'accès publics avec portail captif ? {#how-to-connect-router-to-public-hotspots-with-captive-portal}
 

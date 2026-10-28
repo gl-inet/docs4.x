@@ -178,7 +178,7 @@ Reguła trasy serwera WireGuard jest wyświetlana jak poniżej. Kliknij **Add Ro
 
 ![reguła trasy serwera WireGuard](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/vpnserver_route_rule_wg.png){class="glboxshadow"}
 
-**Uwaga**: W trybie niestandardowych tras klient VPN zignoruje plik konfiguracyjny oraz konfigurację routingu wydaną przez serwer. To, czy podczas uzyskiwania dostępu do dowolnego segmentu sieci będzie używany szyfrowany tunel VPN, zależy od reguł routingu ustawionych ręcznie.
+**Uwaga**: Reguły tras serwera pozwalają definiować niestandardowe wpisy routingu na serwerze VPN, określając adres docelowy, bramę i inne parametry każdej reguły. Wpisy skonfigurowane ręcznie mają pierwszeństwo przed domyślnymi ustawieniami routingu w pliku konfiguracji VPN i określają, który ruch klientów jest kierowany przez szyfrowany tunel.
 
 ### Opcje globalne {#global-options_1}
 

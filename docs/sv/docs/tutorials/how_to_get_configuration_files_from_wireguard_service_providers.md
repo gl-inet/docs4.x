@@ -36,7 +36,7 @@
 
     **Obs!** Nyckeln i Hide.me VPN-konfigurationsfilen skapas på nytt före varje anslutning och blir ogiltig när anslutningen kopplas från. Det går därför inte att ansluta genom att kopiera konfigurationsfilen till andra enheter.
 
-    [Referenslänk](https://github.com/eventure/hide.client.routers){target="_blank"}
+    Referens: [hide.me VPN for Routers - GitHub](https://github.com/eventure/hide.client.routers){target="_blank"}
 
 ??? "Mullvad"
     ### Mullvad {#mullvad}
@@ -84,8 +84,6 @@
         ![surfshark wireguard manual setup](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/surfshark/surfshark_wireguard_manual_setup_5.png){class="glboxshadow"}
 
     6. Fortsätt sedan enligt [den här guiden](../interface_guide/wireguard_client.md#set-up-surfshark).
-
-    [Referenslänk](https://support.surfshark.com/hc/en-us/articles/6585805139474-How-to-set-up-a-manual-WireGuard-connection-on-Android-){target="_blank"}
 
 ??? "AirVPN"
     ### AirVPN {#airvpn}
@@ -150,7 +148,7 @@
 
     3. Öppna konfigurationen i en textredigerare och kopiera innehållet.
 
-        Konfigurationen kan innehålla IPv6-innehåll. Eftersom GL.iNet-routrar inte har fullständigt stöd för IPv6 bör du ta bort detta innehåll. Exemplet nedan visar IPv6-innehållet markerat.
+        Konfigurationen kan innehålla en IPv6-adress. Öppna .conf-filen och ta bort IPv6-adressen för att undvika kompatibilitets- och anslutningsproblem. Det markerade innehållet nedan är IPv6-innehållet.
 
         ![remove wireguard ipv6 content](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/ovpn/remove_wireguard_ipv6_content.jpg){class="glboxshadow"}
 
@@ -226,9 +224,9 @@
 
         **Obs!** WireGuard-konfigurationen upphör att gälla efter 30 minuter. Aktivera anslutningen inom giltighetstiden. Annars måste du skapa en ny konfiguration.
 
-    Följ sedan [den här guiden](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers) för att slutföra konfigurationen.
+    5. Följ sedan [den här guiden](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers) för att slutföra konfigurationen.
 
-    [Referenslänk](https://support.purevpn.com/router/how-to-setup-purevpn-on-glinet-router){target="_blank"}
+    Referens: [How to set up PureVPN on GL.iNet router](https://support.purevpn.com/router/how-to-setup-purevpn-on-glinet-router){target="_blank"}
 
 ??? "SpiderVPN"
     ### SpiderVPN {#spidervpn}
@@ -318,6 +316,35 @@
 
     3. Fortsätt sedan enligt [den här guiden](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers).
 
+??? "VPN Safe"
+    ### VPN Safe {#vpn-safe}
+
+    [Officiell webbplats](https://secure.vpnsafe.net/aff.php?aff=6){target="_blank"}
+
+    1. Logga in på **VPN Safe Dashboard** och klicka på din aktiva VPN-tjänst.
+
+        ![vpnsafe1](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/vpnsafe/vpnsafe1.jpg){class="glboxshadow"}
+
+    2. Rulla ned i produktinformationen till **WireGuard Configuration**.
+
+        ![vpnsafe2](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/vpnsafe/vpnsafe2.jpg){class="glboxshadow"}
+
+    3. Det finns två sätt att ladda ned VPN Safes WireGuard-konfigurationer, beroende på hur många konfigurationer du behöver:
+
+        - Om du vill ladda ned en enda konfiguration väljer du önskad server i rullgardinslistan och klickar på **Download Config**. Du kan också skanna QR-koden till höger med WireGuard-appen för snabb anslutning.
+
+            ![vpnsafe3](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/vpnsafe/vpnsafe3.jpg){class="glboxshadow"}
+
+            ![vpnsafe4](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/vpnsafe/vpnsafe4.jpg){class="glboxshadow"}
+
+        - Om du vill ladda ned alla konfigurationer klickar du på **Download All** för att få ett ZIP-arkiv. Packa upp det för att få alla tillgängliga konfigurationsfiler.
+
+            ![vpnsafe5](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/vpnsafe/vpnsafe5.jpg){class="glboxshadow"}
+
+    4. Följ sedan [den här guiden](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers) för att fortsätta.
+
+    Referens: [How to Add a VPN Safe WireGuard Config to a GL.iNet Router](https://www.youtube.com/watch?v=W-ycLZPeygA&list=PLY3TuHSEidyQ&index=12){target="_blank"}
+
 ??? "VPN Unlimited(KeepSolid)"
     ### VPN Unlimited(KeepSolid) {#vpn-unlimitedkeepsolid}
 
@@ -353,9 +380,7 @@
 
     4. Fortsätt sedan enligt [den här guiden](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers).
 
-    [Referenslänk 1](https://www.vpnunlimited.com/help/manuals/wireguard-setup-on-glinet-router){target="_blank"}
-
-    [Referenslänk 2](https://www.vpnunlimited.com/help/manuals/wireguard/windows){target="_blank"}
+    Referens: [How to Configure WireGuard Client on GLiNet Router](https://www.vpnunlimited.com/help/manuals/wireguard-setup-on-glinet-router){target="_blank"}
 
 ??? "Windscribe"
     ### Windscribe {#windscribe}

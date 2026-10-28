@@ -15,7 +15,7 @@ Le port USB-C compatible OTG du Mudi 7 fonctionne en mode **Device** ou **Host**
 
 ### Connexion à un ordinateur {#connect-to-a-computer}
 
-La plupart des ordinateurs fonctionnent uniquement comme hôtes et ne prennent pas en charge OTG. Lorsqu'un ordinateur est connecté au routeur via USB, le routeur affiche une fenêtre de sélection de mode. Vous pouvez choisir n'importe quel mode ; le Mudi 7 négocie automatiquement le rôle. L'ordinateur le reconnaît ensuite comme un adaptateur USB pour un accès Internet direct, sans pilote supplémentaire.
+La plupart des ordinateurs fonctionnent uniquement comme hôtes et ne prennent pas en charge OTG. Lorsqu’un ordinateur est connecté au routeur via USB, le routeur affiche une fenêtre de sélection de mode. Vous pouvez choisir n’importe quel mode. Mudi 7 tente de négocier automatiquement le rôle, selon la prise en charge par le système et les pilotes de l’appareil connecté. Une fois le rôle négocié, l’ordinateur reconnaît Mudi 7 comme un adaptateur réseau USB pour accéder à Internet. Dans la plupart des cas, aucun pilote supplémentaire n’est nécessaire.
 
 ### Connexion à un smartphone {#connect-to-a-smartphone}
 
@@ -27,7 +27,7 @@ La plupart des ordinateurs fonctionnent uniquement comme hôtes et ne prennent p
 
     1. Lorsque vous utilisez la fonction OTG du téléphone pour l'interconnexion, assurez-vous que le téléphone prend en charge OTG et utilisez un câble USB compatible avec les données. Les câbles de charge uniquement ne peuvent pas transmettre de signaux réseau.
 
-    2. Lorsque Device Mode est activé, le téléphone n'affiche pas de notification de connexion réseau. Pour vérifier le fonctionnement, consultez l'état du réseau dans les réglages du téléphone ou effectuez un test de connectivité.
+    2. Lorsque Device Mode est activé, le téléphone peut ne pas afficher de notification de connexion réseau. Pour vérifier le fonctionnement, consultez l'état du réseau dans les réglages du téléphone ou effectuez un test de connectivité.
 
         Par exemple, si vous partagez le réseau du Mudi 7 avec un téléphone via **Device Mode** (par exemple, iPhone 17 Pro), vérifiez que Device Mode est actif en suivant les étapes ci-dessous.
 

@@ -81,7 +81,7 @@ Cellular セクションで **Manual Setup** をクリックすると、現在�
 
 - **TTL**: TTL (Time To Live) は、パケットがネットワーク内で存続できる最大時間を定義します。デフォルトでは、ルーターはクライアントデバイスから受信したパケットを転送する前に TTL を 1 減らします。TTL 設定は IPv4 にのみ有効です。
 
-    **注意**: TTL を上書きまたは偽装する必要がある場合は、ここで固定値を設定してください。ほとんどのモデルでは、自動減算を補正するため、目的の実効 TTL に 1 を加えた値を入力してください。Mudi 7 (GL-E5800) は入力された値をそのまま適用します。
+    **注意**: TTL を上書きまたは偽装する必要がある場合は、ここで固定値を設定してください。ほとんどのモデルでは、自動減算を補正するため、目的の実効 TTL に 1 を加えた値を入力してください。
 
 - **Service**: モデムが使用するネットワーク技術を定義するため、セルラーサービス種別を選択します。
 
@@ -222,7 +222,7 @@ Shortcut が **Manual command** に設定されている場合は、AT Command �
 
 Shortcut のドロップダウンをクリックすると、**preset commands** の一覧から選択することもできます。
 
-![shortcut](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/at_command_2.png){class="glboxshadow"}
+![shortcut](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/at_command_1.png){class="glboxshadow"}
 
 プリセットとして利用できるコマンドは次のとおりです。
 
@@ -236,7 +236,7 @@ Shortcut のドロップダウンをクリックすると、**preset commands** 
 
 例として、ここではショートカット "Request IMEI" を選択しています。"Send" をクリックすると、以下のような結果が表示されます。
 
-![shortcut example](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/at_command_3.png){class="glboxshadow"}
+![shortcut example](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/at_command_2.png){class="glboxshadow"}
 
 ## キャリアプロファイル {#carrier-profile}
 

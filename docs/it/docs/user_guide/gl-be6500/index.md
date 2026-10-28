@@ -2,7 +2,7 @@
 
 ## Panoramica del prodotto {#product-overview}
 
-Flint 3e (GL-BE6500) e un router desktop Wi-Fi 7 dual-band pensato per utenti domestici e piccoli uffici. Supporta la tecnologia Wi-Fi 7 Multi-Link Operation (MLO), che unisce in modo intelligente i canali 2,4 GHz e 5 GHz in un'unica connessione. L'utilizzo simultaneo delle risorse dual-band riduce interferenze e congestione, mentre il 4K QAM offre una velocità dual-band combinata di 6453 Mbps, con un incremento del 20% rispetto al Wi-Fi 6. La banda a 5 GHz aggiornata, con 4x4 MIMO e 160 MHz, migliora in modo significativo anche le prestazioni a lunga distanza.
+Flint 3e (GL-BE6500) è un router desktop Wi-Fi 7 dual-band pensato per utenti domestici e piccoli uffici. Supporta Multi-Link Operation (MLO), che consente ai dispositivi compatibili di utilizzare collegamenti sulle bande a 2.4 GHz e 5 GHz per contribuire a mitigare gli effetti di interferenze e congestione. La modulazione 4K-QAM offre velocità teoriche di trasmissione dati fino al 20% superiori rispetto alla modulazione 1024-QAM del Wi-Fi 6, a parità di altre condizioni. Il router supporta una velocità teorica combinata dual-band fino a 6452 Mbps, con 4×4 MIMO e una larghezza di canale di 160 MHz sulla banda a 5 GHz. Le velocità effettive dipendono dalle capacità dei client e dalle condizioni della rete.
 
 Dotato di 5 porte Ethernet da 2,5G e 1 porta USB 3.0, supporta connettività cablata ad alta velocità ed espansione dello storage. Inoltre, e compatibile con oltre 30 servizi VPN e offre prestazioni VPN elevate fino a 680 Mbps con WireGuard® e OpenVPN-DCO; include anche gratuitamente Bark Parental Control, bilanciando in modo efficace prestazioni, praticita e sicurezza.
 
@@ -231,7 +231,7 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il disp
 
 === "DNS"
 
-    La pagina DNS consente di impostare server DNS personalizzati, abilitare la protezione dagli attacchi DNS rebinding e sovrascrivere le impostazioni DNS di tutti i client, consentire ai DNS personalizzati di sovrascrivere i DNS della VPN e configurare la modalità delle impostazioni del server DNS su automatica oppure specificare manualmente i server DNS dalla connessione Ethernet.
+    La pagina DNS consente di impostare server DNS personalizzati, abilitare la protezione dagli attacchi DNS rebinding, sovrascrivere le impostazioni DNS di tutti i client e consentire ai DNS personalizzati di sovrascrivere i DNS della VPN. Puoi utilizzare i server DNS ottenuti automaticamente dai dispositivi a monte oppure specificare manualmente server DNS personalizzati.
 
     Per configurarla, fai riferimento a [DNS](../../interface_guide/dns.md).
 

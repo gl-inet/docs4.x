@@ -10,7 +10,7 @@ Pour ajouter d'autres langues d'interface ou mettre à jour les textes de l'inte
 
 ![languages list](https://static.gl-inet.com/docs/router/en/4/interface_guide/ui_languages/add_languages.jpg){class="glboxshadow"}
 
-Dans la fenêtre contextuelle, sélectionnez la langue souhaitée puis cliquez sur **Update**. Le routeur téléchargera automatiquement le dernier pack de langue depuis notre dépôt. Les packs de langue non installés seront supprimés (sauf l'anglais).
+Dans la fenêtre contextuelle, sélectionnez les langues souhaitées puis cliquez sur **Update**. Le routeur téléchargera automatiquement les dernières versions des packs de langue sélectionnés depuis notre dépôt et désinstallera les packs non sélectionnés (sauf l'anglais).
 
 Si vous souhaitez obtenir automatiquement le dernier pack de langue afin de corriger d'éventuels problèmes de texte, activez **Enable Auto Update** puis définissez l'heure de mise à jour. Le routeur téléchargera alors automatiquement le dernier pack de langue à l'heure indiquée.
 

@@ -86,7 +86,7 @@ Konfigurera Slate 7 Pro med någon av de internetanslutningsmetoder som stöds: 
     3. Välj **Tethering** på pekskärmen på Slate 7 Pro och tryck på **Connect**. Routern ansluter sedan till enheten.
     4. När internetanslutningen har upprättats blir avsnittet Tethering på pekskärmens startsida blått (aktivt). Tryck på Tethering på pekskärmen eller logga in på webbadministrationspanelen för att kontrollera anslutningsinformationen.
 
-    **Obs!** Om anslutningen misslyckas kontrollerar du att strömförsörjningen är högre än 9V 3A, eftersom för låg effekt kan hindra USB-porten från att strömsättas. Upprepa stegen ovan eller logga in på webbadministrationspanelen för att kontrollera statusen för Tethering-anslutningen.
+    **Obs!** Om anslutningen misslyckas kontrollerar du att du använder en USB PD-adapter som stöder 9V/3A eller 12V/2.5A, eftersom otillräcklig effekt kan hindra USB-porten från att strömförsörja den anslutna enheten korrekt. Upprepa sedan stegen ovan eller logga in på webbadministrationspanelen för att kontrollera statusen för Tethering-anslutningen.
 
 === "Cellular"
 
@@ -169,7 +169,7 @@ Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindel
 
 === "DNS"
 
-    På sidan DNS kan du ange anpassade DNS-servrar, aktivera skydd mot DNS-rebinding-attacker och åsidosätta DNS-inställningarna för alla klienter. Du kan även tillåta att anpassad DNS åsidosätter VPN DNS samt ställa in DNS-serverläget på automatiskt eller manuellt ange DNS-servrar från Ethernet-anslutningen.
+    På sidan DNS kan du ange anpassade DNS-servrar, aktivera skydd mot DNS-rebinding-attacker, åsidosätta DNS-inställningarna för alla klienter och tillåta att anpassad DNS åsidosätter VPN-DNS. Du kan använda DNS-servrar som hämtas automatiskt från uppströmsenheter eller ange anpassade DNS-servrar manuellt.
 
     Information om hur du konfigurerar DNS finns i [DNS](../../interface_guide/dns.md).
 

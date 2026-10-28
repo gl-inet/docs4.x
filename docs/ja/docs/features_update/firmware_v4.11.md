@@ -16,6 +16,12 @@
 
 ![security scan](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/security_scan.png){class="glboxshadow"}
 
+## UPnP {#upnp}
+
+[UPnP](../interface_guide/upnp.md) により、対応するLANデバイスやアプリケーションは、ポート転送を手動設定せずにポートマッピングを自動的に要求できます。オンラインゲーム、ピアツーピアのファイル共有、リモートアクセスの接続が簡単になります。UPnPページでは、有効なマッピングの表示、リースの残り時間の確認、必要に応じたマッピングの削除ができます。
+
+![UPnP](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/upnp.png){class="glboxshadow"}
+
 ## DNS {#dns}
 
 このリリースでは、WAN DNS、VPN DNS、Manual DNS を1つのページにまとめ、[DNS](../interface_guide/dns_v4.11.md) 設定を改善しています。接続タイプごとの DNS 状態を簡単に確認し、カスタム DNS サーバーを設定できます。また、手動 DNS 設定を VPN トンネルに適用するか、ルーター自体に適用するかを選択できます。

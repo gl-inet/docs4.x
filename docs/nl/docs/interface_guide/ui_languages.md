@@ -10,7 +10,7 @@ Klik op **Add Languages** om extra UI-talen toe te voegen of UI-tekst bij te wer
 
 ![languages list](https://static.gl-inet.com/docs/router/en/4/interface_guide/ui_languages/add_languages.jpg){class="glboxshadow"}
 
-Selecteer in het pop-upvenster de gewenste taal en klik op **Update**. De router haalt automatisch het nieuwste taalpakket uit onze opslagplaats. Niet-geïnstalleerde taalpakketten worden verwijderd, behalve English.
+Selecteer in het pop-upvenster de gewenste talen en klik op **Update**. De router downloadt automatisch de nieuwste versies van de geselecteerde taalpakketten uit onze opslagplaats en verwijdert alle niet-geselecteerde taalpakketten (behalve Engels).
 
 Schakel **Enable Auto Update** in en stel de bijwerktijd in om automatisch het nieuwste taalpakket voor mogelijke tekstproblemen te ontvangen. De router downloadt het pakket op het ingestelde tijdstip.
 

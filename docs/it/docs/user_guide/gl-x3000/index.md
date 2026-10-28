@@ -257,7 +257,7 @@ Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il t
 
 === "DNS"
 
-    La pagina DNS consente di impostare server DNS personalizzati, abilitare la protezione contro gli attacchi di DNS rebinding, sovrascrivere le impostazioni DNS di tutti i client, consentire ai DNS personalizzati di sovrascrivere i DNS della VPN e configurare la modalità delle impostazioni del server DNS su automatica oppure specificare manualmente i server DNS della connessione Ethernet.
+    La pagina DNS consente di impostare server DNS personalizzati, abilitare la protezione dagli attacchi DNS rebinding, sovrascrivere le impostazioni DNS di tutti i client e consentire ai DNS personalizzati di sovrascrivere i DNS della VPN. Puoi utilizzare i server DNS ottenuti automaticamente dai dispositivi a monte oppure specificare manualmente server DNS personalizzati.
 
     Per configurare il DNS, fai riferimento a [DNS](../../interface_guide/dns.md).
 

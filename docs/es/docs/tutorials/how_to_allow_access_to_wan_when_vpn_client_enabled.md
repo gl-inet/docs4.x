@@ -13,7 +13,7 @@ Habilite **Allow Access WAN** y haga clic en **Apply**.
 ![allow access](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/4.7-allow-access-wan.png){class="glboxshadow"}
 Si esta opción está habilitada, mientras la VPN esté conectada los dispositivos cliente seguirán pudiendo acceder a los servicios WAN de la subred superior, como su impresora, NAS, etc.
 
-## Para firmware v4.8 y superior {#for-firmware-v48-and-higher}
+## Para firmware v4.8 {#for-firmware-v48}
 
 La opción **Allow Access WAN** se ha eliminado del VPN Dashboard en el firmware v4.8. Sin embargo, puede conseguir acceso a la WAN local mediante políticas VPN.
 Siga los pasos que se indican a continuación.
@@ -34,7 +34,7 @@ Siga los pasos que se indican a continuación.
     Seleccione **Exclude specified Domain / IP List**, introduzca la subred WAN de su router y luego haga clic en **Apply**.
     Esto garantiza que todo el tráfico destinado a la subred WAN se enrute por la WAN local y no por el túnel VPN.
     ![exclude target](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/exclude-target.png){class="glboxshadow"}
-    Aquí usamos la subred 192.168.0.1/24 como ejemplo. Introduzca esta subred y aplique los cambios; el túnel VPN se mostrará como se indica a continuación.
+    Aquí usamos la subred 192.168.1.0/24 como ejemplo. Introduzca esta subred y aplique los cambios; el túnel VPN se mostrará como se indica a continuación.
     ![exclude target apply](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/target-apply.png){class="glboxshadow"}
     ??? "¿Cómo sé cuál es la subred WAN de mi router GL.iNet?"
 
@@ -59,6 +59,63 @@ Siga los pasos que se indican a continuación.
     Puede utilizar el comando `ping` para probar la conectividad.
 
     ![ping test](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/ping-test.png){class="glboxshadow"}
+
+## Para firmware v4.9 y posteriores {#for-firmware-v49-and-above}
+
+Siga estos pasos para permitir que los dispositivos LAN del cliente VPN accedan a los servicios de la WAN local.
+
+1. Inicie sesión en el panel de administración web de su cliente VPN y vaya a **VPN** -> **VPN Dashboard**.
+
+    Haga clic en **Add VPN Tunnel** para comenzar.
+
+    ![add vpn tunnel](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/add_vpn_tunnel.png){class="glboxshadow" width=700}
+
+2. Seleccione uno o varios perfiles, ajuste su prioridad a la derecha según sea necesario y haga clic en **Next**.
+
+    ![select profiles](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/select_profiles_4.9.png){class="glboxshadow" width=600}
+
+    Seleccione **All Clients** y haga clic en **Next**. También puede seleccionar clientes específicos según sea necesario.
+
+    ![all clients](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/all_clients_4.9.png){class="glboxshadow" width=600}
+
+    Seleccione **Exclude specified Domain / IP List**, introduzca la subred WAN de su router y luego haga clic en **Apply**. Esto garantiza que todo el tráfico destinado a la subred WAN se enrute por la WAN local y no por el túnel VPN.
+
+    Aquí usamos la subred 192.168.1.0/24 como ejemplo. Introduzca esta subred y aplique los cambios.
+
+    ![exclude target](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/exclude-target_4.9.png){class="glboxshadow" width=600}
+
+    ??? "¿Cómo sé cuál es la subred WAN de mi router GL.iNet?"
+
+        La subred WAN del router GL.iNet normalmente se encuentra en la página **INTERNET**. La determina el dispositivo ascendente al que se conecta la interfaz WAN del router, como un módem del ISP o una puerta de enlace ascendente.
+        Por ejemplo, si su router funciona como router secundario, es decir, su puerto WAN está conectado a otra red local como el módem del ISP o el puerto LAN de un router principal, y la IP WAN del router es 192.168.1.165, la Gateway es 192.168.1.1 y la Subnet Mask es 255.255.255.0 (una máscara habitual en redes pequeñas), entonces la subred WAN correspondiente es 192.168.1.0/24. Esta también es la subred LAN del dispositivo ascendente.
+        ![check wan subnet](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/local-wan-details.png){class="glboxshadow gl-80-desktop"}
+        **Nota**: La longitud de prefijo de 192.168.1.0/24 es 24, lo que corresponde a la máscara de subred 255.255.255.0. Si la WAN Subnet Mask de su router no es 255.255.255.0, la longitud de prefijo de su subred WAN no será "/24". Confirme la subred WAN según la configuración WAN real.
+
+3. Haga clic en el icono del engranaje situado arriba a la derecha para configurar una política para el tráfico que no coincida con ningún túnel VPN.
+
+    ![select config](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/select-config_4.9.png){class="glboxshadow"}
+
+    Seleccione **Allow Non-VPN Traffic** y haga clic en **Apply**.
+
+    ![allow non-vpn traffic](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/allow_non-vpn_traffic.png){class="glboxshadow" width=500}
+
+4. Haga clic en el botón de encendido para habilitar este túnel VPN. Comenzará a conectarse.
+
+    ![enable vpn](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/enable_vpn_4.9.png){class="glboxshadow" width=700}
+
+    Espere unos minutos. Una vez establecida la conexión VPN, el indicador de estado del túnel se pondrá en verde.
+
+    ![vpn connected](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/vpn_connected_4.9.png){class="glboxshadow" width=700}
+
+    Busque su IP pública para probar la conexión VPN. Por ejemplo, abra un navegador y visite [whatismyip](https://whatismyipaddress.com/){target="_blank"}. Mostrará su dirección IP pública y su ubicación, como se indica a continuación.
+
+    ![vpn test](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/ipcheck_4.9.png){class="glboxshadow"}
+
+5. Acceda a los dispositivos o servicios de la subred WAN y compruebe si puede hacerlo correctamente.
+
+    Puede utilizar el comando `ping` para probar la conectividad.
+
+    ![ping test](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/ping-test_4.9.png){class="glboxshadow" width=500}
 
 ---
 

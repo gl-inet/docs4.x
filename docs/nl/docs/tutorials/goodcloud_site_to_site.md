@@ -6,7 +6,7 @@ Met GoodCloud Site to Site kunnen kantoren op verschillende locaties via interne
 
 ![site to site](https://static.gl-inet.com/goodcloud/docs/tutorials/site_to_site/s2s-main.png){class="glboxshadow"}
 
-**Scenario 1**: tientallen filialen van hetzelfde bedrijf moeten worden samengevoegd tot één particulier netwerk, zodat bronnen op alle locaties probleemloos kunnen worden gedeeld.
+**Scenario 1**: meerdere filialen van hetzelfde bedrijf moeten worden samengevoegd tot één particulier netwerk, zodat bronnen op alle locaties probleemloos kunnen worden gedeeld.
 
 **Scenario 2**: als twee bedrijven die nauw samenwerken zakelijke samenwerking nodig hebben, biedt Site to Site een gedeelde en beveiligde netwerkomgeving.
 

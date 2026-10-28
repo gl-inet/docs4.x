@@ -185,7 +185,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
     * NAT6 : utilise la traduction d'adresses réseau pour IPv6 (NAT6) afin de traduire les adresses IPv6 internes et externes, de manière similaire au fonctionnement du NAT pour IPv4.
     * Static IPv6 : permet de configurer manuellement une adresse IPv6 statique pour votre routeur afin de garantir une adresse fixe pour une connectivité stable et une gestion plus simple des services réseau.
 
-    Ces paramètres vous aident à tirer parti des avantages d'IPv6, notamment un espace d'adressage plus vaste, des fonctions de sécurité améliorées et de meilleures performances.
+    Ces modes offrent des options de configuration IPv6 flexibles adaptées à différents environnements réseau.
 
     Pour configurer IPv6, consultez [IPv6](../../interface_guide/ipv6.md).
 

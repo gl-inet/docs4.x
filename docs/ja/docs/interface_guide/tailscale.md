@@ -328,7 +328,7 @@ GL-BE9300 で **カスタム出口ノード** を設定するには、次の手�
 
     IPマスカレーディングを有効にすると、Tailscale Admin console でサブネットルートを設定する必要はありません。ルーターに接続されたLANクライアントは、ルーターのTailscale仮想IP経由でTailscaleネットワークに直接アクセスできます。
 
-    この例では、GL-BE9300（`100.115.61.35`）とGL-MG1300（`100.113.50.89`）にTailscale仮想IPが割り当てられています。PCがGL-BE9300に接続されている場合、GL-BE9300のTailscaleインターフェースIP経由でGL-MG1300のWeb管理パネルに直接アクセスできます。
+    この例では、GL-BE9300（100.115.61.35）と GL-MG1300（100.113.50.89）に Tailscale 仮想IPがあります。PCが GL-BE9300 に接続されている場合、GL-BE9300 の Tailscale インターフェースIPを送信元アドレスとして使用して、GL-MG1300 の Web管理パネルに直接アクセスできます。
 
     ![test iP masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/test_ip_masquerading.png){class="glboxshadow"}
 

@@ -16,6 +16,12 @@ Scarica il firmware più recente dal [centro di download del firmware](https://d
 
 ![security scan](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/security_scan.png){class="glboxshadow"}
 
+## UPnP {#upnp}
+
+[UPnP](../interface_guide/upnp.md) consente ai dispositivi LAN e alle applicazioni compatibili di richiedere automaticamente mappature delle porte senza configurare manualmente il port forwarding. Questo semplifica la connettività per giochi online, condivisione di file peer-to-peer e accesso remoto. Nella pagina UPnP puoi visualizzare le mappature attive, controllare la durata residua del lease ed eliminare le mappature quando necessario.
+
+![UPnP](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/upnp.png){class="glboxshadow"}
+
 ## DNS {#dns}
 
 Questa versione migliora la configurazione [DNS](../interface_guide/dns_v4.11.md) riunendo WAN DNS, VPN DNS e Manual DNS in un'unica pagina. Puoi visualizzare facilmente lo stato DNS di ogni tipo di connessione, configurare server DNS personalizzati e scegliere se le impostazioni DNS manuali si applicano ai tunnel VPN o al router stesso.

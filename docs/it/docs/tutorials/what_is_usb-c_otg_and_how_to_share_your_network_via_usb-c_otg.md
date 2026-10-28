@@ -15,7 +15,7 @@ La porta USB-C con supporto OTG di Mudi 7 funziona in modalità **Device** oppur
 
 ### Connessione a un computer {#connect-to-a-computer}
 
-La maggior parte dei computer funziona solo come host e non supporta OTG. Quando un computer viene collegato al router tramite USB, il router mostra una finestra di selezione della modalità. Puoi scegliere qualsiasi modalità: Mudi 7 negoziera automaticamente il ruolo. Il computer lo riconoscera quindi come adattatore USB per l'accesso diretto a Internet, senza driver aggiuntivi.
+La maggior parte dei computer funziona solo come host e non supporta OTG. Quando un computer viene collegato al router tramite USB, il router mostra una finestra di selezione della modalità. Puoi scegliere qualsiasi modalità. Mudi 7 tenterà di negoziare automaticamente il ruolo, in base al supporto del sistema e dei driver del dispositivo collegato. Dopo la negoziazione del ruolo, il computer riconosce Mudi 7 come adattatore di rete USB per accedere a Internet. Nella maggior parte dei casi non sono necessari driver aggiuntivi.
 
 ### Connessione a uno smartphone {#connect-to-a-smartphone}
 
@@ -27,7 +27,7 @@ La maggior parte dei computer funziona solo come host e non supporta OTG. Quando
 
     1. Quando usi la funzione OTG del telefono per l'interconnessione, verifica che il telefono supporti OTG e usa un cavo USB idoneo al trasferimento dati. I cavi solo per ricarica non possono trasmettere segnali di rete.
 
-    2. Quando Device Mode e abilitato, il telefono non mostra una notifica di connessione di rete. Per verificarne il funzionamento, controlla lo stato della rete nelle impostazioni del telefono oppure esegui un test di connettività.
+    2. Quando Device Mode è abilitato, il telefono potrebbe non mostrare una notifica di connessione di rete. Per verificarne il funzionamento, controlla lo stato della rete nelle impostazioni del telefono oppure esegui un test di connettività.
 
         Ad esempio, se condividi la rete di Mudi 7 con un telefono tramite **Device Mode** (ad esempio iPhone 17 Pro), verifica che Device Mode sia attivo seguendo i passaggi seguenti.
 

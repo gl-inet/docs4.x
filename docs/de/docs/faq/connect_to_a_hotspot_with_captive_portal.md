@@ -38,7 +38,7 @@ Ein Captive Portal ist eine Webseite, bei der öffentliche Hotspots verlangen, d
 
 
 
-    Die Risiken von öffentlichem Wi-Fi können kaum überschätzt werden. Wenn Sie Ihren GL.iNet-Router mit öffentlichem Wi-Fi verbinden, können Sie sich direkt über das Admin-Panel des Routers bei Ihrem VPN-Konto anmelden. Dadurch werden alle verbundenen Geräte im lokalen Netzwerk automatisch verschlüsselt, sodass Sie nicht auf jedem einzelnen Gerät ein VPN einrichten müssen.
+    Die Risiken von öffentlichem Wi-Fi können kaum überschätzt werden. Wenn Sie Ihren GL.iNet-Router mit öffentlichem Wi-Fi verbinden, können Sie sich direkt über das Admin-Panel des Routers bei Ihrem VPN-Konto anmelden. Wenn Ihr Router so konfiguriert ist, dass der gesamte lokale Datenverkehr über das VPN geleitet wird, wird der Datenverkehr der verbundenen Geräte über das VPN verschlüsselt. So müssen Sie nicht auf jedem Gerät ein VPN einrichten.
 
 
 
@@ -54,7 +54,7 @@ Ein Captive Portal ist eine Webseite, bei der öffentliche Hotspots verlangen, d
 
 
 
-    Außerdem begrenzen manche öffentlichen Wi-Fi-Netzwerke (z. B. Hotel-Wi-Fi) den Zugriff beispielsweise auf zwei Geräte. Wenn Sie in einer Gruppe reisen, ist das unpraktisch. Stattdessen können Sie einen Reiserouter mit dem Hotel-Wi-Fi verbinden und ihn als Repeater verwenden, um ein Wi-Fi-Signal für alle Ihre Geräte auszustrahlen, einschließlich Laptops, Smartphones, Tablets usw. Das Hotel-Wi-Fi erkennt dann nur den Reiserouter als einzelnes Gerät, Sie können aber beliebig viele Geräte mit dem freien Wi-Fi verbinden.
+    Außerdem begrenzen manche öffentlichen Wi-Fi-Netzwerke (z. B. Hotel-Wi-Fi) den Zugriff beispielsweise auf zwei Geräte. Wenn Sie in einer Gruppe reisen, ist das unpraktisch. Stattdessen können Sie einen Reiserouter mit dem Hotel-Wi-Fi verbinden und ihn als Repeater verwenden, um ein Wi-Fi-Signal für alle Ihre Geräte auszustrahlen, einschließlich Laptops, Smartphones, Tablets usw. Das Hotel-Wi-Fi erkennt den Reiserouter als einzelnes Gerät. Sie können mehrere Geräte mit dem Reiserouter verbinden, bis zu dessen maximaler Client-Anzahl.
 
 
 

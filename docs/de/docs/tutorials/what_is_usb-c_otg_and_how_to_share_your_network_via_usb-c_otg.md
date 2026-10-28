@@ -15,7 +15,7 @@ Der OTG-fähige USB-C-Port des Mudi 7 arbeitet je nach Szenario im **Device**- o
 
 ### Verbindung mit einem Computer {#connect-to-a-computer}
 
-Die meisten Computer arbeiten nur als Host und unterstützen OTG nicht. Wenn ein Computer per USB mit dem Router verbunden wird, zeigt der Router ein Fenster zur Modusauswahl an. Sie können einen beliebigen Modus auswählen; der Mudi 7 handelt die Rolle automatisch aus. Der Computer erkennt ihn anschließend ohne zusätzliche Treiber als USB-Adapter für den direkten Internetzugang.
+Die meisten Computer arbeiten nur als Host und unterstützen OTG nicht. Wenn ein Computer per USB mit dem Router verbunden wird, zeigt der Router ein Fenster zur Modusauswahl an. Sie können einen beliebigen Modus auswählen. Mudi 7 versucht, die Rolle automatisch auszuhandeln; dies hängt von der System- und Treiberunterstützung des angeschlossenen Geräts ab. Nach erfolgreicher Rollenaushandlung erkennt der Computer Mudi 7 als USB-Netzwerkadapter für den Internetzugang. In den meisten Fällen sind keine zusätzlichen Treiber erforderlich.
 
 ### Verbindung mit einem Smartphone {#connect-to-a-smartphone}
 
@@ -27,7 +27,7 @@ Die meisten Computer arbeiten nur als Host und unterstützen OTG nicht. Wenn ein
 
     1. Wenn Sie die OTG-Funktion des Smartphones für die Verbindung verwenden, stellen Sie sicher, dass das Smartphone OTG unterstützt und ein datenfähiges USB-Kabel verwendet wird. Reine Ladekabel können keine Netzwerksignale übertragen.
 
-    2. Wenn Device Mode aktiviert ist, zeigt das Smartphone keine Benachrichtigung zur Netzwerkverbindung an. Prüfen Sie zur Kontrolle den Netzwerkstatus in den Smartphone-Einstellungen oder führen Sie einen Verbindungstest aus.
+    2. Wenn Device Mode aktiviert ist, zeigt das Smartphone möglicherweise keine Benachrichtigung zur Netzwerkverbindung an. Prüfen Sie zur Kontrolle den Netzwerkstatus in den Smartphone-Einstellungen oder führen Sie einen Verbindungstest aus.
 
         Wenn Sie beispielsweise das Netzwerk des Mudi 7 per **Device Mode** mit einem Smartphone teilen (z. B. iPhone 17 Pro), prüfen Sie mit den folgenden Schritten, ob Device Mode aktiv ist.
 

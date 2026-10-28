@@ -326,7 +326,7 @@ Führen Sie die folgenden Schritte aus, um auf dem GL-BE9300 eine **benutzerdefi
 
     Wenn IP-Maskierung aktiviert ist, müssen in der Tailscale Admin Console keine Subnetzrouten konfiguriert werden. Mit dem Router verbundene LAN-Clients können über die virtuelle Tailscale-IP des Routers direkt auf das Tailscale-Netzwerk zugreifen.
 
-    In diesem Beispiel verfügen der GL-BE9300 (`100.115.61.35`) und der GL-MG1300 (`100.113.50.89`) über virtuelle Tailscale-IPs. Wenn ein PC mit dem GL-BE9300 verbunden ist, kann er über die IP der Tailscale-Schnittstelle des GL-BE9300 direkt auf das Web-Admin-Panel des GL-MG1300 zugreifen.
+    In diesem Beispiel verfügen der GL-BE9300 (`100.115.61.35`) und der GL-MG1300 (`100.113.50.89`) über virtuelle Tailscale-IPs. Wenn ein PC mit dem GL-BE9300 verbunden ist, kann er direkt auf das Web-Admin-Panel des GL-MG1300 zugreifen, wobei die IP der Tailscale-Schnittstelle des GL-BE9300 als Quelladresse verwendet wird.
 
     ![test iP masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/test_ip_masquerading.png){class="glboxshadow"}
 

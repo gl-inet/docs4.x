@@ -2,15 +2,13 @@
 
 Zazwyczaj VPN i AdGuard Home mogą działać jednocześnie na routerach GL.iNet. Problemy nie występują, gdy AdGuard Home nie jest skonfigurowany do obsługi zapytań DNS.
 
-Jeśli jednak skonfigurujesz AdGuard Home do zarządzania całym ruchem DNS i przekazywania zapytań do **publicznych serwerów DNS nadrzędnych**, włączenie VPN spowoduje błędy w rozwiązywaniu nazw DNS.
+Jeśli jednak skonfigurujesz AdGuard Home do zarządzania całym ruchem DNS i przekazywania zapytań do **publicznych nadrzędnych serwerów DNS**, zapytania mogą być kierowane przez tunel VPN w zależności od ustawień routingu VPN. Jeśli te serwery nie są osiągalne przez tunel, klienci LAN korzystający z AdGuard Home do rozwiązywania nazw DNS mogą nie być w stanie rozwiązywać nazw domen.
 
 ![adguardhome](https://static.gl-inet.com/docs/router/en/4/tutorials/make_adguard_home_dns_bypass_vpn/adguardhome.jpg){class="glboxshadow"}
 <br><small>(AdGuard Home włączony i obsługuje zapytania DNS)</small>
 
 ![adguard dns](https://static.gl-inet.com/docs/router/en/4/tutorials/make_adguard_home_dns_bypass_vpn/upstream_dns.png){class="glboxshadow"}
 <br><small>(Ustawienia DNS nadrzędnych AdGuard Home)</small>
-
-Domyślnie cały ruch wychodzący jest kierowany przez tunel VPN. Wymusza to, że ruch DNS AdGuard Home do serwerów nadrzędnych przechodzi przez VPN, który nie może dotrzeć do Twoich publicznych serwerów DNS nadrzędnych. W rezultacie wszyscy podłączeni klienci nie będą mogli rozwiązywać nazw domen.
 
 Aby AdGuard Home działał poprawnie, gdy VPN jest aktywny, możesz dodać trasę statyczną w LuCI, która przekieruje ruch DNS do serwerów nadrzędnych na zwykłą bramę WAN i ominie tunel VPN. Postępuj zgodnie z poniższymi krokami.
 

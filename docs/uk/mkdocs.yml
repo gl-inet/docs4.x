@@ -603,6 +603,7 @@ nav:
       - Батьківський контроль (v4.9): interface_guide/parental_control_v4.9.md
     - Безпека:
       - Перевірка безпеки: interface_guide/security_scan.md
+      - UPnP: interface_guide/upnp.md
       - Перенаправлення портів: interface_guide/port_forwarding.md
       - ACL: interface_guide/acl.md
       - Доступ до адміністрування: interface_guide/admin_access.md

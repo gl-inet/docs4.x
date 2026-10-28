@@ -156,10 +156,6 @@ Parental Control を有効にして、**Apply** をクリックします。
 1. DNS キャッシュの問題。
   
     ブラウザやオペレーティングシステムは DNS キャッシュを保持しているため、設定変更の反映に時間がかかることがあります。すぐに反映させたい場合は、DNS キャッシュを削除してください。
-  
-      * [デスクトップ版 Chrome の DNS キャッシュをクリアする](https://support.google.com/accounts/answer/32050){target="_blank"}
-      
-      * [デスクトップ版 Edge の DNS キャッシュをクリアする](https://www.microsoft.com/en-us/edge/learning-center/how-to-manage-and-clear-your-cache-and-cookies?form=MA13I2){target="_blank"}
 
 2. プロファイルのスケジュールがまだ開始されていない。
 

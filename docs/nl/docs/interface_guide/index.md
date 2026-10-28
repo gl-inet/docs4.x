@@ -78,6 +78,7 @@ Leer met onze stapsgewijze handleidingen hoe je onze apparaten en aanvullende fu
 ## Security {#security}
 
 * [Security Scan](security_scan.md)
+* [UPnP](upnp.md)
 * [Port Forwarding](port_forwarding.md)
 * [ACL (Access Control List)](acl.md)
 * [Admin Access](admin_access.md)

@@ -666,6 +666,35 @@ Si el proveedor de servicios al que está suscrito no aparece en la lista siguie
 
         ![VPNGate download page](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/vpngate/vpngate2.png){class="glboxshadow"}
 
+??? "VPN Safe"
+    ### VPN Safe {#vpn-safe}
+
+    [Sitio web oficial](https://secure.vpnsafe.net/aff.php?aff=6){target="_blank"}
+
+    1. Inicie sesión en **VPN Safe Dashboard** y haga clic en su servicio VPN activo.
+
+        ![vpnsafe1](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/vpnsafe/vpnsafe1.png){class="glboxshadow"}
+
+    2. En Product Details, desplácese hacia abajo hasta **OpenVPN Configuration**.
+
+        ![vpnsafe2](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/vpnsafe/vpnsafe2.png){class="glboxshadow"}
+
+        ![vpnsafe3](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/vpnsafe/vpnsafe3.png){class="glboxshadow"}
+
+    3. Para descargar todas las configuraciones UDP/TCP, haga clic en **UDP Configs** (recomendado) o **TCP Configs**. Recibirá un archivo ZIP. Descomprímalo para obtener todos los archivos de configuración disponibles.
+
+        ![vpnsafe4](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/vpnsafe/vpnsafe4.jpg){class="glboxshadow"}
+
+    4. Para ver todos los servidores UDP/TCP disponibles, haga clic en **UDP Servers** (recomendado) o **TCP Servers** para obtener una lista de URL.
+
+        ![vpnsafe5](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/vpnsafe/vpnsafe5.jpg){class="glboxshadow"}
+
+    5. Para descargar una configuración UDP/TCP individual, seleccione el servidor al que desea conectarse en la lista desplegable y haga clic en **Download UDP/TCP Config**.
+
+        ![vpnsafe6](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/vpnsafe/vpnsafe6.jpg){class="glboxshadow"}
+
+        ![vpnsafe7](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/vpnsafe/vpnsafe7.jpg){class="glboxshadow"}
+
 ??? "VPN Unlimited(KeepSolid)"
     ### VPN Unlimited(KeepSolid) {#vpn-unlimitedkeepsolid}
 

@@ -78,6 +78,7 @@ Erfahren Sie in unseren Schritt-für-Schritt-Anleitungen, wie Sie unsere Geräte
 ## Sicherheit {#security}
 
 * [Sicherheitsprüfung](security_scan.md)
+* [UPnP](upnp.md)
 * [Portweiterleitung](port_forwarding.md)
 * [ACL (Access Control List)](acl.md)
 * [Admin-Zugriff](admin_access.md)

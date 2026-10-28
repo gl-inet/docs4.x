@@ -81,7 +81,7 @@ Aplicar los cambios provocará una nueva conexión.
 
 - **TTL**: TTL (Time To Live) define el tiempo máximo que los paquetes pueden permanecer en la red. De forma predeterminada, el router reduce en 1 el TTL de los paquetes entrantes de los dispositivos cliente antes de reenviarlos. La configuración de TTL solo es válida para IPv4.
 
-    **Nota**: Si necesita sobrescribir el TTL o simular otro valor de TTL, establezca aquí un valor fijo. En la mayoría de los modelos, introduzca el TTL efectivo deseado más 1 para compensar la reducción automática. El Mudi 7 (GL-E5800) aplica el valor introducido sin cambios.
+    **Nota**: Si necesita sobrescribir el TTL o simular otro valor de TTL, establezca aquí un valor fijo. En la mayoría de los modelos, introduzca el TTL efectivo deseado más 1 para compensar la reducción automática.
 
 - **Service**: Seleccione el tipo de servicio celular para definir las tecnologías de red que utilizará el módem.
 
@@ -222,7 +222,7 @@ Cuando **Shortcut** esté configurado como **Manual command**, escriba el comand
 
 También puede hacer clic en la lista desplegable **Shortcut** para seleccionar una lista de **preset commands**.
 
-![shortcut](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/at_command_2.png){class="glboxshadow"}
+![shortcut](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/at_command_1.png){class="glboxshadow"}
 
 Los siguientes comandos están disponibles como ajustes predefinidos:
 
@@ -236,7 +236,7 @@ Los siguientes comandos están disponibles como ajustes predefinidos:
 
 Como ejemplo, aquí se selecciona el acceso directo "Request IMEI". Haga clic en "Send" y obtendrá el resultado como se muestra a continuación.
 
-![shortcut example](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/at_command_3.png){class="glboxshadow"}
+![shortcut example](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/at_command_2.png){class="glboxshadow"}
 
 ## Perfil del operador {#carrier-profile}
 

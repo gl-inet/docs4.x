@@ -76,13 +76,13 @@ Het [VPN Dashboard](../interface_guide/vpn_dashboard.md) in firmware v4.9 is vol
 
 ## AmneziaWG 2.0 {#amneziawg-20}
 
-Firmware v4.9 introduceert officieel het protocol AmneziaWG 2.0, met meerdere nieuwe parameters voor verkeersobfuscatie. Het bijgewerkte protocol omzeilt detectie door DPI en andere systemen voor verkeersidentificatie effectief. Dit verbetert de verhulling van de verbinding en de weerstand tegen interferentie aanzienlijk. Hierdoor kunnen stabiele en betrouwbare VPN-verbindingen tot stand worden gebracht in regio’s met netwerkbeperkingen en in complexe netwerkomgevingen.
+Firmware v4.9 introduceert officieel het protocol AmneziaWG 2.0, met meerdere nieuwe parameters voor verkeersobfuscatie. Het bijgewerkte protocol is ontworpen om VPN-verkeer moeilijker herkenbaar te maken voor DPI en andere systemen voor verkeersidentificatie. Deze verbeteringen kunnen helpen VPN-verbindingen tot stand te brengen en te behouden in regio’s met netwerkbeperkingen en in complexe netwerkomgevingen.
 
 ![amneziawg](https://static.gl-inet.com/docs/router/en/4/features_update/4.9/amneziawg.png){class="glboxshadow"}
 
 ## IoT Network {#iot-network}
 
-Met [IoT Network](../interface_guide/iot_network.md) in firmware v4.9 kun je een onafhankelijk, speciaal Wi-Fi-netwerk voor slimme IoT-apparaten maken. Dit netwerk is fysiek en logisch van het primaire netwerk gescheiden. Zo voorkom je dat IoT-apparaten bronnen van het hoofdnetwerk gebruiken of beveiligingsrisico’s introduceren. Deze optimalisatie biedt bredere compatibiliteit met verschillende slimme IoT-clients en verbetert de algehele beveiliging van het thuisnetwerk.
+Met [IoT Network](../interface_guide/iot_network.md) in firmware v4.9 kun je een speciaal Wi-Fi-netwerk voor IoT-apparaten maken. De logische scheiding van het primaire netwerk helpt de mogelijke gevolgen van IoT-apparaten voor de beveiliging van je hoofdnetwerk te beperken. De configureerbare netwerkinstellingen bieden meer flexibiliteit bij het beheren van IoT-apparaten.
 
 ![iot network](https://static.gl-inet.com/docs/router/en/4/features_update/4.9/iot_network.png){class="glboxshadow"}
 

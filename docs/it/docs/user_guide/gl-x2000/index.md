@@ -2,7 +2,7 @@
 
 ## Panoramica del prodotto {#product-overview}
 
-Spitz Plus (GL-X2000) è un gateway cellulare 4G LTE Wi-Fi 6 dual-SIM progettato per fornire connessioni rapide e affidabili, soprattutto nelle aree remote e durante i viaggi su strada. Grazie alla 3-Carrier Aggregation, il router trasmette dati simultaneamente su tre bande dell'operatore, offrendo una larghezza di banda disponibile fino a 3 volte superiore per evitare la congestione. Offre quattro metodi di accesso a Internet: Cellular (schede SIM), Ethernet, Repeater e Tethering. Supporta Multi-WAN (failover e bilanciamento del carico), VPN (OpenVPN e WireGuard), controllo genitori, AdGuard Home, port forwarding, Tailscale e altro ancora.
+Spitz Plus (GL-X2000) è un gateway cellulare 4G LTE Wi-Fi 6 dual-SIM progettato per fornire connessioni rapide e affidabili, soprattutto nelle aree remote e durante i viaggi su strada. Grazie all’aggregazione di tre portanti (3CA), il router può offrire fino a tre volte la larghezza di banda teorica del canale di una connessione Cat 4 a singola portante, in base alle larghezze di banda delle portanti aggregate e al supporto LTE 3CA dell’operatore e delle stazioni base locali. Offre quattro metodi di accesso a Internet: Cellular (schede SIM), Ethernet, Repeater e Tethering. Supporta Multi-WAN (failover e bilanciamento del carico), VPN (OpenVPN e WireGuard), controllo genitori, AdGuard Home, port forwarding, Tailscale e altro ancora.
 
 ![gl-x2000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/hardware_info/x2000_interface.jpg){class="glboxshadow"}
 
@@ -61,7 +61,7 @@ Collega un dispositivo, ad esempio un computer, un portatile o uno smartphone, a
 
 - Wi-Fi
 
-    Sul dispositivo, vai su Impostazioni -> WLAN, individua il nome della rete Wi-Fi del router nell'elenco delle reti disponibili e inserisci la password. Il nome di rete e la password predefiniti sono stampati sull'etichetta del router.
+    Sul dispositivo, vai su Settings -> WLAN, individua il nome della rete Wi-Fi del router nell’elenco delle reti disponibili e inserisci la password. Il nome di rete e la password predefiniti sono stampati sull’etichetta del router.
 
 ### 3. Accedere al pannello di amministrazione web {#3-log-in-to-web-admin-panel}
 
@@ -247,7 +247,7 @@ Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il t
 
 === "DNS"
 
-    La pagina DNS consente di impostare server DNS personalizzati, abilitare la protezione contro gli attacchi di DNS rebinding, sovrascrivere le impostazioni DNS di tutti i client, consentire ai DNS personalizzati di sovrascrivere i DNS della VPN e configurare la modalità delle impostazioni del server DNS su automatica oppure specificare manualmente i server DNS della connessione Ethernet.
+    La pagina DNS consente di impostare server DNS personalizzati, abilitare la protezione dagli attacchi DNS rebinding, sovrascrivere le impostazioni DNS di tutti i client e consentire ai DNS personalizzati di sovrascrivere i DNS della VPN. Puoi utilizzare i server DNS ottenuti automaticamente dai dispositivi a monte oppure specificare manualmente server DNS personalizzati.
 
     Per configurare il DNS, fai riferimento a [DNS](../../interface_guide/dns.md).
 

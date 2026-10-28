@@ -48,7 +48,7 @@ Kontrollera följande om det inte går att upprätta en mobilanslutning.
 
     **2.4** Aktivera **Band Masking** och testa igen. För firmware v4.7 och tidigare följer du [den här länken](../interface_guide/internet_cellular_v4.7.md#band-masking). För firmware v4.8 och senare följer du [den här länken](../interface_guide/internet_cellular.md#band-masking).
 
-    **2.5** Lås eller lås upp en mobilmast och testa igen. Funktionen är endast tillgänglig på GL-X3000 (Spitz AX), GL-XE3000 (Puli AX) och GL-X2000 (Spitz Plus). Klicka [här](../interface_guide/internet_cellular.md#lock-tower) för fler instruktioner.
+    **2.5** Lås eller lås upp en mobilmast och testa igen. Funktionen är tillgänglig på GL-E5800 (Mudi 7), GL-X3000 (Spitz AX), GL-XE3000 (Puli AX) och GL-X2000 (Spitz Plus). GL-X2000 (Spitz Plus) stöder funktionen från firmware v4.7. Klicka [här](../interface_guide/internet_cellular.md#lock-tower) för fler instruktioner.
 
     Genom att låsa till en viss mobilmast kan routern använda en nätverksresurs av hög kvalitet och behålla en stabil mobilanslutning.
 
@@ -60,7 +60,7 @@ Kontrollera följande om det inte går att upprätta en mobilanslutning.
 
 ??? "Kontrollera SIM-kompatibiliteten"
 
-    **3.1** Kontrollera SIM-typen. GL.iNets mobilroutrar är certifierade som IoT-enheter. I teorin stöder enheten endast SIM-kort av IoT-typ. Kontakta operatören om du är osäker på SIM-typen.
+    **3.1** Kontrollera SIM-kompatibiliteten. GL.iNets nordamerikanska mobilroutermodeller är IoT-certifierade. Det innebär dock inte att IoT-SIM-kort krävs: vanliga SIM-kort för konsumenter kan också vara kompatibla. Kontakta operatören om du är osäker på vilken SIM-typ du ska använda.
 
     Vanliga SIM-typer är: endast data, endast data + tal, IoT och hotspot. Vi rekommenderar SIM-kort för IoT eller hotspot. Det finns ingen garanti för att SIM-kort med endast data eller endast data + tal fungerar.
 

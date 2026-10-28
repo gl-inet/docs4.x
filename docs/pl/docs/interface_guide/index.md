@@ -78,6 +78,7 @@ Dowiedz się, jak korzystać z naszych urządzeń i dodatkowych funkcji, dzięki
 ## Bezpieczeństwo {#security}
 
 * [Skanowanie zabezpieczeń](security_scan.md)
+* [UPnP](upnp.md)
 * [Przekierowanie portów](port_forwarding.md)
 * [ACL (lista kontroli dostępu)](acl.md)
 * [Dostęp administratora](admin_access.md)

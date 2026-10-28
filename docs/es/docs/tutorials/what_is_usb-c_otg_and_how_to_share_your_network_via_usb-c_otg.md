@@ -15,7 +15,7 @@ El puerto USB-C compatible con OTG de Mudi 7 funciona en modo **Device** o **Hos
 
 ### Conectar a un ordenador {#connect-to-a-computer}
 
-La mayoría de los ordenadores solo funcionan como hosts y no admiten OTG. Cuando un ordenador se conecta al router mediante USB, el router muestra una ventana de selección de modo. Puede elegir cualquier modo y Mudi 7 negociará automáticamente el rol. Después, el ordenador lo reconoce como un adaptador USB para acceso directo a Internet, sin controladores adicionales.
+La mayoría de los ordenadores solo funcionan como hosts y no admiten OTG. Cuando un ordenador se conecta al router mediante USB, el router muestra una ventana de selección de modo. Puede elegir cualquier modo. Mudi 7 intentará negociar automáticamente el rol, según la compatibilidad del sistema y los controladores del dispositivo conectado. Tras negociar el rol correctamente, el ordenador reconoce Mudi 7 como un adaptador de red USB para acceder a Internet. En la mayoría de los casos, no se necesitan controladores adicionales.
 
 ### Conectar a un smartphone {#connect-to-a-smartphone}
 
@@ -27,7 +27,7 @@ La mayoría de los ordenadores solo funcionan como hosts y no admiten OTG. Cuand
 
     1. Cuando utilice la función OTG del teléfono para la interconexión, asegúrese de que el teléfono admita OTG y use un cable USB apto para datos. Los cables solo de carga no pueden transmitir señales de red.
 
-    2. Cuando Device Mode está habilitado, el teléfono no muestra una notificación de conexión de red. Para verificar el funcionamiento, compruebe el estado de red en los ajustes del teléfono o ejecute una prueba de conectividad.
+    2. Cuando Device Mode está habilitado, es posible que el teléfono no muestre una notificación de conexión de red. Para verificar el funcionamiento, compruebe el estado de red en los ajustes del teléfono o ejecute una prueba de conectividad.
 
         Por ejemplo, si comparte la red de Mudi 7 con un teléfono mediante **Device Mode** (por ejemplo, iPhone 17 Pro), compruebe que Device Mode esté activo siguiendo estos pasos.
 

@@ -44,8 +44,8 @@ Communiceer tijdens de sessie via luidspreker, het chatvenster van AnyDesk of ee
 
 ## 8. De sessie beëindigen {#8-end-the-session}
 
-Klik na afloop op de rode knop "End Session" in AnyDesk. Hiermee worden alle machtigingen voor externe toegang beëindigd. Doe voor volledige privacybescherming ook het volgende:
+Klik na afloop op de rode knop "End Session" in AnyDesk. Hiermee sluit je de huidige sessie voor externe ondersteuning. Als je **Unattended Access** hebt ingeschakeld, schakel dit dan afzonderlijk uit in de beveiligingsinstellingen van AnyDesk. Doe voor volledige privacybescherming ook het volgende:
 
 - Sluit AnyDesk volledig en minimaliseer het niet alleen.
 - Start je computer opnieuw op als je je zorgen maakt over achtergebleven processen.
-- Check your system settings to confirm no remote access permissions remain active.
+- Controleer de beveiligingsinstellingen van AnyDesk om te bevestigen dat er geen machtigingen voor externe toegang actief blijven.

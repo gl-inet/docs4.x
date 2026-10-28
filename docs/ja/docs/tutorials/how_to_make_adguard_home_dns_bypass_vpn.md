@@ -2,15 +2,13 @@
 
 通常、GL.iNetルーターではVPNとAdGuard Homeを同時に使用できます。AdGuard HomeがDNSリクエストを処理するように設定されていない場合は問題は発生しません。
 
-しかし、AdGuard HomeですべてのDNSトラフィックを管理し、クエリを**パブリック上流DNSサーバー**に転送するように設定している場合、VPNを有効にするとDNS解決が失敗します。
+ただし、AdGuard HomeですべてのDNSトラフィックを管理し、クエリを**パブリック上流DNSサーバー**に転送するように設定している場合、VPNのルーティング設定によっては、これらのクエリがVPNトンネル経由で送信されることがあります。トンネル経由でこれらのサーバーに到達できない場合、DNS解決にAdGuard Homeを使用するLANクライアントで、ドメイン名を解決できなくなる可能性があります。
 
 ![adguardhome](https://static.gl-inet.com/docs/router/en/4/tutorials/make_adguard_home_dns_bypass_vpn/adguardhome.jpg){class="glboxshadow"}
 <br><small>（AdGuard Homeが有効でDNSリクエストを処理している）</small>
 
 ![adguard dns](https://static.gl-inet.com/docs/router/en/4/tutorials/make_adguard_home_dns_bypass_vpn/upstream_dns.png){class="glboxshadow"}
 <br><small>（AdGuard Homeの上流DNS設定）</small>
-
-デフォルトでは、すべての外向きトラフィックはVPNトンネルを通ります。このため、AdGuard Homeの上流DNSトラフィックがVPNに乗り、パブリック上流DNSサーバーに到達できなくなります。その結果、接続されているすべてのクライアントでドメイン名解決が失敗します。
 
 VPNがアクティブな間もAdGuard Homeを機能させるには、LuCIでスタティックルートを追加し、上流DNSトラフィックを通常のWANゲートウェイに転送してVPNトンネルをバイパスします。以下の手順に従ってください。
 

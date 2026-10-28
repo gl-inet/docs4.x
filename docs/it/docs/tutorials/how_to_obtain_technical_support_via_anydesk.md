@@ -44,8 +44,8 @@ Durante tutta la sessione di supporto, sentiti libero di comunicare tramite audi
 
 ## 8. Termina la sessione {#8-end-the-session}
 
-Quando la sessione di supporto è conclusa, termina la connessione facendo clic sul pulsante rosso **End Session** nell'interfaccia AnyDesk. Questo revocherà tutte le autorizzazioni di accesso remoto. Per garantire la massima tutela della privacy, ti consigliamo inoltre di:
+Quando la sessione di supporto è conclusa, termina la connessione facendo clic sul pulsante rosso **End Session** nell’interfaccia AnyDesk. Questo chiude la sessione di supporto remoto corrente. Se hai abilitato **Unattended Access**, disabilitalo separatamente nelle impostazioni di sicurezza di AnyDesk. Per tutelare completamente la privacy, esegui inoltre queste operazioni:
 
 - chiudere completamente l'applicazione AnyDesk, non soltanto ridurla a icona;
 - riavviare il computer se temi la presenza di processi residui;
-- controllare le impostazioni di sistema per confermare che non restino attive autorizzazioni di accesso remoto.
+- controllare le impostazioni di sicurezza di AnyDesk per confermare che non restino attive autorizzazioni di accesso remoto.

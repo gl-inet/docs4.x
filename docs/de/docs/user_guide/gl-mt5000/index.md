@@ -165,7 +165,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
 === "DNS"
 
-    Auf der DNS-Seite können Sie benutzerdefinierte DNS-Server festlegen, den Schutz vor DNS-Rebinding-Angriffen aktivieren, die DNS-Einstellungen aller Clients überschreiben, benutzerdefiniertes DNS das VPN-DNS überschreiben lassen und den Modus für die DNS-Servereinstellungen auf automatisch setzen oder DNS-Server aus der Ethernet-Verbindung manuell angeben.
+    Auf der Seite DNS können Sie benutzerdefinierte DNS-Server festlegen, den Schutz vor DNS-Rebinding-Angriffen aktivieren, die DNS-Einstellungen aller Clients überschreiben und zulassen, dass benutzerdefiniertes DNS VPN-DNS überschreibt. Sie können automatisch von vorgeschalteten Geräten bezogene DNS-Server verwenden oder benutzerdefinierte DNS-Server manuell angeben.
 
     Informationen zur Einrichtung finden Sie unter [DNS](../../interface_guide/dns.md).
 

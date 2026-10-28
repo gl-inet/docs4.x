@@ -6,7 +6,7 @@ GoodCloud Site-to-Site ermöglicht es Büros an mehreren Standorten, sichere Ver
 
 ![site to site](https://static.gl-inet.com/goodcloud/docs/tutorials/site_to_site/s2s-main.png){class="glboxshadow"}
 
-**Szenario 1**: Dutzende Zweigstellen desselben Unternehmens müssen in ein einheitliches privates Netzwerk integriert werden, damit Ressourcen standortübergreifend nahtlos gemeinsam genutzt werden können.
+**Szenario 1**: Mehrere Zweigstellen desselben Unternehmens müssen in ein einheitliches privates Netzwerk integriert werden, damit Ressourcen standortübergreifend nahtlos gemeinsam genutzt werden können.
 
 **Szenario 2**: Wenn zwei eng zusammenarbeitende Unternehmen geschäftlich kooperieren müssen, erleichtert Site-to-Site die Zusammenarbeit in einer gemeinsamen und sicheren Netzwerkumgebung.
 

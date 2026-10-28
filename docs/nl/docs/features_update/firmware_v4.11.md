@@ -16,6 +16,12 @@ Download de nieuwste firmware via het [Firmware Download Center](https://dl.gl-i
 
 ![security scan](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/security_scan.png){class="glboxshadow"}
 
+## UPnP {#upnp}
+
+Met [UPnP](../interface_guide/upnp.md) kunnen compatibele LAN-apparaten en toepassingen automatisch poorttoewijzingen aanvragen zonder handmatige configuratie van port forwarding. Dit vereenvoudigt verbindingen voor online gaming, peer-to-peerbestandsdeling en externe toegang. Op de UPnP-pagina kun je actieve toewijzingen bekijken, de resterende leasetijd controleren en toewijzingen zo nodig verwijderen.
+
+![UPnP](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/upnp.png){class="glboxshadow"}
+
 ## DNS {#dns}
 
 Deze release verbetert de configuratie van [DNS](../interface_guide/dns_v4.11.md) door WAN DNS, VPN DNS en Manual DNS op één pagina samen te brengen. Je kunt eenvoudig de DNS-status voor elk verbindingstype bekijken, aangepaste DNS-servers configureren en bepalen of handmatige DNS-instellingen op VPN-tunnels of op de router zelf worden toegepast.

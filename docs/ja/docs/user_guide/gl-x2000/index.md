@@ -2,7 +2,7 @@
 
 ## 製品概要 {#product-overview}
 
-Spitz Plus (GL-X2000) は、特に遠隔地やロードトリップ中に高速で安定した接続を提供するために設計された、デュアル SIM 対応の 4G LTE Wi-Fi 6 セルラーゲートウェイです。3 キャリアアグリゲーション（3-Carrier Aggregation）に対応し、3 つのキャリアバンドで同時にデータを送受信することで利用可能な帯域幅を 3 倍にし、混雑を回避します。Cellular（SIM カード）、Ethernet、Repeater、Tethering の 4 種類のインターネット接続方式に対応しています。また、Multi-WAN（フェイルオーバーとロードバランシング）、VPN（OpenVPN と WireGuard）、ペアレンタルコントロール、AdGuard Home、ポートフォワーディング、Tailscale などにも対応しています。
+Spitz Plus (GL-X2000) は、特に遠隔地やロードトリップ中に高速で安定した接続を提供するために設計された、デュアル SIM 対応の 4G LTE Wi-Fi 6 セルラーゲートウェイです。3キャリアアグリゲーション（3CA）により、Cat 4のシングルキャリア接続と比べて最大3倍の理論チャンネル帯域幅を提供できます。これは、集約するキャリアの帯域幅、および通信事業者と地域の基地局によるLTE 3CAのサポート状況に依存します。Cellular（SIM カード）、Ethernet、Repeater、Tethering の 4 種類のインターネット接続方式に対応しています。また、Multi-WAN（フェイルオーバーとロードバランシング）、VPN（OpenVPN と WireGuard）、ペアレンタルコントロール、AdGuard Home、ポートフォワーディング、Tailscale などにも対応しています。
 
 ![gl-x2000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/hardware_info/x2000_interface.jpg){class="glboxshadow"}
 
@@ -61,9 +61,7 @@ Spitz Plus をセットアップするには、対応している 4 つのイン
 
 - Wi-Fi
 
-    デバイスで Settings -> WLAN に移動し、利用可能なネットワーク一覧からルーターの Wi-Fi ネットワーク名を探してパスワードを入力します。（デフォルトのネットワーク名とパスワードは、ルーターのラベルに印刷されています。）
-
-    デバイスで、利用可能なネットワーク一覧からルーターの Wi-Fi ネットワーク名を探し、パスワードを入力してネットワークに接続します。デフォルトのネットワーク名とパスワードは、ルーターのラベルに印刷されています。
+    デバイスでSettings -> WLANに移動し、利用可能なネットワーク一覧からルーターのWi-Fiネットワーク名を探してパスワードを入力します。デフォルトのネットワーク名とパスワードは、ルーターのラベルに印刷されています。
 
 ### 3. Web 管理パネルにログインする {#3-log-in-to-web-admin-panel}
 
@@ -249,7 +247,7 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
 === "DNS"
 
-    DNS ページでは、カスタム DNS サーバーの設定、DNS rebinding attack protection の有効化、すべてのクライアントの DNS 設定の上書き、カスタム DNS による VPN DNS の上書き許可、DNS サーバー設定モードを自動にするか、Ethernet 接続の DNS サーバーを手動で指定するかを設定できます。
+    DNSページでは、カスタムDNSサーバーの設定、DNSリバインディング攻撃対策の有効化、すべてのクライアントのDNS設定の上書き、およびカスタムDNSによるVPN DNSの上書きの許可を設定できます。上流デバイスから自動的に取得したDNSサーバーを使用するか、カスタムDNSサーバーを手動で指定できます。
 
     DNS の設定については、[DNS](../../interface_guide/dns.md)を参照してください。
 

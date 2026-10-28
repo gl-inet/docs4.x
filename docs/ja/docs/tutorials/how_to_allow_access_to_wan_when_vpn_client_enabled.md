@@ -18,7 +18,7 @@ VPN クライアントの Web 管理パネルにログインし、**VPN** -> **V
 
 このオプションを有効にすると、VPN 接続中でもクライアントデバイスは上位サブネット上の WAN サービス（プリンター、NAS など）に引き続きアクセスできます。
 
-## ファームウェア v4.8 以降の場合 {#for-firmware-v48-and-higher}
+## ファームウェア v4.8 の場合 {#for-firmware-v48}
 
 ファームウェア v4.8 では、**Allow Access WAN** オプションは **VPN Dashboard** から削除されました。ただし、VPN ポリシーを使うことでローカル WAN へのアクセスを実現できます。
 
@@ -48,7 +48,7 @@ VPN クライアントの Web 管理パネルにログインし、**VPN** -> **V
 
     ![exclude target](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/exclude-target.png){class="glboxshadow"}
 
-    ここでは 192.168.0.1/24 を例として使用します。このサブネットを入力して適用すると、VPN トンネルは以下のように表示されます。
+    ここでは 192.168.1.0/24 を例として使用します。このサブネットを入力して適用すると、VPN トンネルは以下のように表示されます。
 
     ![exclude target apply](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/target-apply.png){class="glboxshadow"}
 
@@ -89,6 +89,66 @@ VPN クライアントの Web 管理パネルにログインし、**VPN** -> **V
     接続確認には ping コマンドを使用できます。
 
     ![ping test](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/ping-test.png){class="glboxshadow"}
+
+## ファームウェア v4.9 以降の場合 {#for-firmware-v49-and-above}
+
+以下の手順で、VPNクライアントのLANデバイスからローカルWANサービスへのアクセスを許可します。
+
+1. VPN クライアントの Web 管理パネルにログインし、**VPN** -> **VPN Dashboard** に移動します。
+
+    **Add VPN Tunnel**をクリックして開始します。
+
+    ![add vpn tunnel](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/add_vpn_tunnel.png){class="glboxshadow" width=700}
+
+2. 1つまたは複数のプロファイルを選択し、必要に応じて右側で優先順位を調整して、**Next**をクリックします。
+
+    ![select profiles](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/select_profiles_4.9.png){class="glboxshadow" width=600}
+
+    **All Clients**を選択し、**Next**をクリックします。必要に応じて特定のクライアントを選択することもできます。
+
+    ![all clients](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/all_clients_4.9.png){class="glboxshadow" width=600}
+
+    **Exclude specified Domain / IP List** を選択し、ルーターの WAN サブネットを入力して、**Apply** をクリックします。 これにより、WAN サブネット宛てのすべてのトラフィックは VPN トンネルではなくローカル WAN 経由でルーティングされます。
+
+    ここではサブネット192.168.1.0/24を例として使用します。このサブネットを入力して適用します。
+
+    ![exclude target](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/exclude-target_4.9.png){class="glboxshadow" width=600}
+
+    ??? "GL.iNet ルーターの WAN サブネットはどのように確認できますか？"
+
+        GL.iNet ルーターの WAN サブネットは通常 **INTERNET** ページで確認できます。これは、ルーターの WAN インターフェースが接続している上位側デバイス（ISP モデムや上位ゲートウェイなど）によって決まります。
+
+        たとえば、ルーターがセカンダリールーターとして動作しており、その WAN ポートが ISP モデムやメインルーターの LAN ポートなど別のローカルネットワークに接続されているとします。このとき、ルーターの WAN IP が 192.168.1.165、Gateway が 192.168.1.1、Subnet Mask が 255.255.255.0（小規模ネットワークで一般的なマスク）であれば、対応する WAN サブネットは 192.168.1.0/24 です。これは上位側デバイスの LAN サブネットでもあります。
+
+        ![check wan subnet](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/local-wan-details.png){class="glboxshadow gl-80-desktop"}
+
+        **注意**: 192.168.1.0/24 のプレフィックス長は 24 で、これはサブネットマスク 255.255.255.0 に対応します。ルーターの WAN Subnet Mask が 255.255.255.0 でない場合、WAN サブネットのプレフィックス長は "/24" ではありません。実際の WAN 設定に基づいて WAN サブネットを確認してください。
+
+3. 右上の歯車アイコンをクリックし、どのVPNトンネルにも一致しないトラフィックのポリシーを設定します。
+
+    ![select config](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/select-config_4.9.png){class="glboxshadow"}
+
+    **Allow Non-VPN Traffic**を選択し、**Apply**をクリックします。
+
+    ![allow non-vpn traffic](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/allow_non-vpn_traffic.png){class="glboxshadow" width=500}
+
+4. 電源ボタンをクリックして、このVPNトンネルを有効にします。接続が開始されます。
+
+    ![enable vpn](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/enable_vpn_4.9.png){class="glboxshadow" width=700}
+
+    数分待ちます。VPN接続が確立すると、トンネルのステータスインジケーターが緑色になります。
+
+    ![vpn connected](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/vpn_connected_4.9.png){class="glboxshadow" width=700}
+
+    パブリック IP を確認して VPN 接続をテストします。たとえば、ブラウザで [whatismyip](https://whatismyipaddress.com/){target="_blank"} にアクセスすると、以下のようにパブリック IP アドレスと位置情報が表示されます。
+
+    ![vpn test](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/ipcheck_4.9.png){class="glboxshadow"}
+
+5. WAN サブネット上のデバイスまたはサービスにアクセスし、正常にアクセスできるか確認します。
+
+    接続確認には ping コマンドを使用できます。
+
+    ![ping test](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/ping-test_4.9.png){class="glboxshadow" width=500}
 
 ---
 

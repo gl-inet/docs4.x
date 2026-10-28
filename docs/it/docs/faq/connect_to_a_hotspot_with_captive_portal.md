@@ -8,11 +8,11 @@ Un captive portal è una pagina web in cui gli hotspot pubblici richiedono agli 
 
 * Il Wi-Fi pubblico non è sicuro
 
-    È difficile sopravvalutare i rischi del Wi-Fi pubblico. Collegando il router GL.iNet a una rete Wi-Fi pubblica, puoi accedere direttamente al tuo account VPN tramite il pannello di amministrazione del router. Il router crittograferà automaticamente tutti i dispositivi collegati alla rete locale, evitando di dover configurare una VPN su ogni singolo dispositivo.
+    È difficile sopravvalutare i rischi del Wi-Fi pubblico. Collegando il router GL.iNet a una rete Wi-Fi pubblica, puoi accedere direttamente al tuo account VPN tramite il pannello di amministrazione del router. Quando il router è configurato per instradare tutto il traffico locale attraverso la VPN, il traffico dei dispositivi collegati viene crittografato tramite la VPN, evitando di dover configurare una VPN su ogni dispositivo.
 
 * Usalo come repeater per consentire la connessione di più dispositivi
 
-    Inoltre, alcune reti Wi-Fi pubbliche (ad esempio il Wi-Fi degli hotel) limitano l'accesso, per esempio, a due dispositivi. Quando si viaggia in gruppo, questo è poco pratico. In alternativa, puoi collegare un travel router al Wi-Fi dell'hotel e usarlo come repeater per trasmettere un segnale Wi-Fi a tutti i tuoi dispositivi, inclusi laptop, smartphone, tablet e così via. Il Wi-Fi dell'hotel riconoscerà il travel router come un singolo dispositivo, ma tu potrai collegare tutti i dispositivi che desideri alla rete Wi-Fi gratuita.
+    Inoltre, alcune reti Wi-Fi pubbliche (ad esempio il Wi-Fi degli hotel) limitano l'accesso, per esempio, a due dispositivi. Quando si viaggia in gruppo, questo è poco pratico. In alternativa, puoi collegare un travel router al Wi-Fi dell'hotel e usarlo come repeater per trasmettere un segnale Wi-Fi a tutti i tuoi dispositivi, inclusi laptop, smartphone, tablet e così via. Il Wi-Fi dell’hotel riconoscerà il travel router come un singolo dispositivo, ma potrai collegare più dispositivi al travel router, entro il suo limite massimo di client.
 
 ## Come collegare il router agli hotspot pubblici con captive portal? {#how-to-connect-router-to-public-hotspots-with-captive-portal}
 

@@ -173,7 +173,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie międz
 
 === "DNS"
 
-    Strona DNS umożliwia ustawienie niestandardowych serwerów DNS, włączenie ochrony przed atakiem DNS rebinding oraz nadpisywanie ustawień DNS wszystkich klientów, zezwolenie na nadpisanie DNS VPN przez niestandardowy DNS, a także ustawienie trybu konfiguracji serwera DNS na automatyczny lub ręczne określenie serwerów DNS dla połączenia Ethernet.
+    Strona DNS umożliwia ustawienie niestandardowych serwerów DNS, włączenie ochrony przed atakami DNS rebinding, nadpisanie ustawień DNS wszystkich klientów oraz zezwolenie niestandardowym serwerom DNS na zastąpienie DNS VPN. Możesz korzystać z serwerów DNS automatycznie uzyskanych z urządzeń nadrzędnych lub ręcznie wskazać niestandardowe serwery DNS.
 
     Zapoznaj się z poradnikiem [DNS](../../interface_guide/dns.md).
 

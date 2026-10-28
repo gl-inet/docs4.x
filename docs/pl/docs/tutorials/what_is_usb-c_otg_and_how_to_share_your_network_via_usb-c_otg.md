@@ -15,7 +15,7 @@ Port USB-C z obsługą OTG w Mudi 7 działa w trybie **Device** albo **Host**, u
 
 ### Połączenie z komputerem {#connect-to-a-computer}
 
-Większość komputerów działa wyłącznie jako host i nie obsługuje OTG. Po podłączeniu komputera do routera przez USB router wyświetla okno wyboru trybu. Możesz wybrać dowolny tryb, a Mudi 7 automatycznie uzgodni rolę. Komputer rozpozna go następnie jako adapter USB do bezpośredniego dostępu do Internetu, bez dodatkowych sterowników.
+Większość komputerów działa wyłącznie jako host i nie obsługuje OTG. Po podłączeniu komputera do routera przez USB router wyświetla okno wyboru trybu. Możesz wybrać dowolny tryb. Mudi 7 spróbuje automatycznie uzgodnić rolę w zależności od obsługi przez system i sterowniki podłączonego urządzenia. Po pomyślnym uzgodnieniu roli komputer rozpoznaje Mudi 7 jako kartę sieciową USB zapewniającą dostęp do Internetu. W większości przypadków dodatkowe sterowniki nie są potrzebne.
 
 ### Połączenie ze smartfonem {#connect-to-a-smartphone}
 
@@ -27,7 +27,7 @@ Większość komputerów działa wyłącznie jako host i nie obsługuje OTG. Po 
 
     1. Gdy używasz funkcji OTG w telefonie do połączenia urządzeń, upewnij się, że telefon obsługuje OTG i użyj kabla USB obsługującego transmisję danych. Kable wyłącznie do ładowania nie mogą przesyłać sygnałów sieciowych.
 
-    2. Gdy Device Mode jest włączony, telefon nie wyświetli powiadomienia o połączeniu sieciowym. Aby sprawdzić działanie, sprawdź stan sieci w ustawieniach telefonu albo wykonaj test łączności.
+    2. Gdy Device Mode jest włączony, telefon może nie wyświetlić powiadomienia o połączeniu sieciowym. Aby sprawdzić działanie, sprawdź stan sieci w ustawieniach telefonu albo wykonaj test łączności.
 
         Jeśli na przykład udostępniasz sieć Mudi 7 telefonowi przez **Device Mode** (np. iPhone 17 Pro), sprawdź aktywność Device Mode, wykonując poniższe kroki.
 

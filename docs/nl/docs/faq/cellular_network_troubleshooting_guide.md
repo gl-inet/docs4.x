@@ -48,7 +48,7 @@ Controleer de volgende punten als je geen mobiele verbinding kunt maken.
 
     **2.4** Schakel **Band Masking** in en test opnieuw. Raadpleeg voor firmware v4.7 en ouder [deze pagina](../interface_guide/internet_cellular_v4.7.md#band-masking) en voor v4.8 en hoger [deze pagina](../interface_guide/internet_cellular.md#band-masking).
 
-    **2.5** Vergrendel of ontgrendel een zendmast en test opnieuw. Deze functie is alleen beschikbaar op GL-X3000 (Spitz AX), GL-XE3000 (Puli AX) en GL-X2000 (Spitz Plus). Raadpleeg [deze instructies](../interface_guide/internet_cellular.md#lock-tower).
+    **2.5** Vergrendel of ontgrendel een zendmast en test opnieuw. Deze functie is beschikbaar op GL-E5800 (Mudi 7), GL-X3000 (Spitz AX), GL-XE3000 (Puli AX) en GL-X2000 (Spitz Plus). GL-X2000 (Spitz Plus) ondersteunt deze functie vanaf firmware v4.7. Raadpleeg [deze instructies](../interface_guide/internet_cellular.md#lock-tower).
 
     Vergrendeling op een specifieke zendmast kan de router een stabiele mobiele verbinding van goede kwaliteit bieden.
 
@@ -60,7 +60,7 @@ Controleer de volgende punten als je geen mobiele verbinding kunt maken.
 
 ??? "Check SIM compatibility"
 
-    **3.1** Controleer het type simkaart. Mobiele GL.iNet-routers zijn gecertificeerd als IoT-apparaten en ondersteunen in theorie alleen IoT-simkaarten. Vraag je provider bij twijfel naar het type.
+    **3.1** Controleer de compatibiliteit van de simkaart. De Noord-Amerikaanse modellen van GL.iNet-cellulaire routers zijn IoT-gecertificeerd. Dit betekent echter niet dat IoT-simkaarten verplicht zijn: standaard simkaarten voor consumenten kunnen ook compatibel zijn. Neem contact op met je provider als je niet zeker weet welk type simkaart je moet gebruiken.
 
     Veelvoorkomende typen zijn data-only, data-only + voice, IoT en hotspot. We raden IoT- of hotspotsimkaarten aan. Voor data-only en data-only + voice wordt werking niet gegarandeerd.
 

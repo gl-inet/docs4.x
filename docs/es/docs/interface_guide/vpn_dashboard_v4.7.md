@@ -178,7 +178,7 @@ La regla de ruta de WireGuard Server se muestra a continuación. Haga clic en **
 
 ![wg server route rule](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/vpnserver_route_rule_wg.png){class="glboxshadow"}
 
-**Nota**: En el modo customize routes, el cliente VPN ignorará el archivo de configuración y la configuración de enrutamiento emitida por el servidor. Que se use o no el túnel VPN cifrado al acceder a cualquier segmento de red vendrá determinado por las reglas de enrutamiento que establezca manualmente.
+**Nota**: Las reglas de ruta del servidor permiten definir entradas de enrutamiento personalizadas en el servidor VPN, especificando la dirección de destino, la puerta de enlace y otros parámetros de cada regla. Las entradas configuradas manualmente tienen prioridad sobre los ajustes de enrutamiento predeterminados del archivo de configuración VPN y determinan qué tráfico de los clientes se enruta por el túnel cifrado.
 
 ### Opciones globales {#global-options_1}
 

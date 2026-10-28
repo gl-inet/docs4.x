@@ -76,13 +76,13 @@ Das [VPN Dashboard](../interface_guide/vpn_dashboard.md) in Firmware v4.9 wurde 
 
 ## AmneziaWG 2.0 {#amneziawg-20}
 
-Firmware v4.9 führt offiziell das AmneziaWG 2.0-Protokoll mit mehreren neuen Parametern zur Verschleierung des Datenverkehrs ein. Das aktualisierte Protokoll kann die Erkennung durch DPI und andere Systeme zur Datenverkehrsidentifikation wirksam umgehen und verbessert damit die Verbindungsverschleierung und Störfestigkeit deutlich. So können stabile und zuverlässige VPN-Verbindungen in Regionen mit Netzwerkeinschränkungen und in komplexen Netzwerkumgebungen aufgebaut werden.
+Firmware v4.9 führt offiziell das AmneziaWG 2.0-Protokoll mit mehreren neuen Parametern zur Verschleierung des Datenverkehrs ein. Das aktualisierte Protokoll soll VPN-Datenverkehr für DPI und andere Systeme zur Datenverkehrsidentifikation schwerer erkennbar machen. Diese Verbesserungen können dabei helfen, VPN-Verbindungen in Regionen mit Netzwerkeinschränkungen und in komplexen Netzwerkumgebungen aufzubauen und aufrechtzuerhalten.
 
 ![amneziawg](https://static.gl-inet.com/docs/router/en/4/features_update/4.9/amneziawg.png){class="glboxshadow"}
 
 ## IoT-Netzwerk {#iot-network}
 
-Das [IoT-Netzwerk](../interface_guide/iot_network.md) in Firmware v4.9 ermöglicht ein unabhängiges, dediziertes WLAN-Netzwerk für intelligente IoT-Geräte erstellen. Da es physisch und logisch vom primären Netzwerk isoliert ist, werden die Belegung von Netzwerkressourcen und Sicherheitsrisiken vermieden, die durch den Zugriff von IoT-Geräten auf das Hauptnetzwerk entstehen können. Diese Optimierung bietet eine breitere Gerätekompatibilität für verschiedene intelligente IoT-Clients und erhöht insgesamt die Sicherheit des Heimnetzwerks.
+Das [IoT-Netzwerk](../interface_guide/iot_network.md) in Firmware v4.9 ermöglicht es, ein dediziertes WLAN-Netzwerk für IoT-Geräte zu erstellen. Durch die logische Trennung vom primären Netzwerk können potenzielle Sicherheitsauswirkungen von IoT-Geräten auf Ihr Hauptnetzwerk reduziert werden. Die konfigurierbaren Netzwerkeinstellungen bieten mehr Flexibilität bei der Verwaltung von IoT-Geräten.
 
 ![iot network](https://static.gl-inet.com/docs/router/en/4/features_update/4.9/iot_network.png){class="glboxshadow"}
 

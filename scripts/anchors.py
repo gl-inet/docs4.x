@@ -181,8 +181,11 @@ def render_ids(lines: list[str]) -> _IdCollector:
     return collector
 
 
-def load_page(lang: str, path: Path) -> Page:
-    lines = path.read_bytes().decode("utf-8").splitlines(keepends=True)
+def load_page(lang: str, path: Path, text: str | None = None) -> Page:
+    """Load a page from ``path``, or from ``text`` such as the page in another commit."""
+    if text is None:
+        text = path.read_bytes().decode("utf-8")
+    lines = text.splitlines(keepends=True)
     rel = path.relative_to(DOCS_ROOT / lang / "docs").as_posix()
     headings = parse_headings(lines)
     rendered = render_ids(lines)
@@ -242,7 +245,13 @@ def iter_links(page: Page):
 
 
 def set_heading_id(page: Page, heading: Heading, new_id: str) -> None:
-    raw = page.lines[heading.index]
+    page.lines[heading.index] = with_heading_id(page.lines[heading.index], new_id)
+    heading.explicit_id = new_id
+    page.changed = True
+
+
+def with_heading_id(raw: str, new_id: str) -> str:
+    """Return the heading line ``raw`` with its explicit ID set to ``new_id``."""
     eol = raw[len(raw.rstrip("\r\n")):]
     match = HEADING_RE.match(raw.rstrip("\r\n"))
     body = match.group("body")
@@ -255,9 +264,21 @@ def set_heading_id(page: Page, heading: Heading, new_id: str) -> None:
         body = body[: attr_match.start()].rstrip() + " " + attr_block
     else:
         body = body.rstrip() + " {#" + new_id + "}"
-    page.lines[heading.index] = match.group("prefix") + body + eol
-    heading.explicit_id = new_id
-    page.changed = True
+    return match.group("prefix") + body + eol
+
+
+def missing_id_fixes(page: Page) -> list[tuple[Heading, str]]:
+    """Return (heading, fixed line) for English headings without an explicit ID.
+
+    The fix uses the ID that MkDocs generates for the heading, as ``add --lang en`` does.
+    """
+    if page.lang != SOURCE_LANG or page.render_mismatch:
+        return []
+    return [
+        (heading, with_heading_id(page.lines[heading.index], heading.rendered_id))
+        for heading in page.headings
+        if heading.explicit_id is None and heading.rendered_id
+    ]
 
 
 def write_page(page: Page) -> None:
@@ -277,7 +298,13 @@ def check_lang(
         for heading in page.headings:
             line = heading.index + 1
             if heading.explicit_id is None:
-                report.errors.append(f"{where}:{line}: heading has no explicit ID: {heading.text}")
+                if lang != SOURCE_LANG:
+                    hint = "; use the ID of the matching English heading"
+                elif heading.rendered_id:
+                    hint = f"; add {{#{heading.rendered_id}}}"
+                else:
+                    hint = ""
+                report.errors.append(f"{where}:{line}: heading has no explicit ID: {heading.text}{hint}")
                 continue
             if not ID_RE.match(heading.explicit_id):
                 report.errors.append(f"{where}:{line}: ID is not lowercase ASCII kebab-case: {heading.explicit_id}")

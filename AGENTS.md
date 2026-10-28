@@ -25,6 +25,7 @@ This repository contains GL.iNet router documentation built with MkDocs. These r
 - Do not change an existing ID when heading wording changes, because links and bookmarks depend on it. If an ID must change, update it in every language and update every link that uses it.
 - Anchor links use the shared ID in every language, for example `[Tunnel-Optionen](vpn_dashboard.md#tunnel-options)`. Do not add `<a id>` or `<span id>` placeholders for headings.
 - After adding or editing headings or anchor links, run `python scripts/anchors.py check`.
+- New English headings do not need IDs typed by hand: `python scripts/anchors.py add --lang en <page>` and the pre-commit hook add the ID MkDocs generates, and on pull requests the PR check posts a one-click suggestion for each heading without an ID.
 
 ## UI Labels and Navigation
 

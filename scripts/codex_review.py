@@ -24,8 +24,11 @@ import os
 import re
 import subprocess
 import sys
-import urllib.request
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
+from github_api import GitHub  # noqa: E402
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 MARKER = "<!-- codex-pr-review -->"
@@ -74,42 +77,6 @@ def cmd_prepare(args) -> int:
     (out / "pr.json").write_text(json.dumps(metadata, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"{len(lines)} changed file(s) with added lines")
     return 0
-
-
-class GitHub:
-    def __init__(self, repository: str, token: str) -> None:
-        self.repository = repository
-        self.token = token
-
-    def request(self, method: str, url: str, payload: dict | None = None):
-        if not url.startswith("https://"):
-            url = f"https://api.github.com/repos/{self.repository}/{url}"
-        request = urllib.request.Request(
-            url,
-            method=method,
-            data=json.dumps(payload).encode() if payload is not None else None,
-            headers={
-                "Authorization": f"Bearer {self.token}",
-                "Accept": "application/vnd.github+json",
-                "X-GitHub-Api-Version": "2022-11-28",
-                "User-Agent": "docs4.x-codex-review",
-            },
-        )
-        with urllib.request.urlopen(request, timeout=60) as response:
-            body = response.read()
-            return json.loads(body) if body else None
-
-    def paged(self, url: str) -> list[dict]:
-        items, page = [], 1
-        while True:
-            batch = self.request("GET", f"{url}?per_page=100&page={page}")
-            items.extend(batch)
-            if len(batch) < 100:
-                return items
-            page += 1
-
-    def graphql(self, query: str, variables: dict):
-        return self.request("POST", "https://api.github.com/graphql", {"query": query, "variables": variables})
 
 
 def comment_body(finding: dict) -> str:

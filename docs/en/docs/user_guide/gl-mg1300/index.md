@@ -158,8 +158,8 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     To set up multi-WAN, refer to [Multi-WAN](../../interface_guide/multi-wan.md). 
 
 === "Subnet"
-    
-    Subnet centralizes management of LAN, Guest Network, IoT Network, and custom VLAN Networks, allowing you to create and manage multiple subnets to isolate different types of devices or traffic.
+
+    The Subnet page provides centralized configuration and management of the Main Network, Guest Network, IoT Network, and custom VLAN networks. You can create and manage multiple subnets to isolate different types of devices or traffic.
 
     To set up subnet, refer to [Subnet](../../interface_guide/subnet.md). 
 

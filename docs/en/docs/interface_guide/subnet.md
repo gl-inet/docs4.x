@@ -6,7 +6,7 @@
 
 On the left side of the web Admin Panel, go to **NETWORK** -> **Subnet**. 
 
-The page consolidates the configuration of **LAN**, **Guest Network**, **IoT Network**, and custom **VLAN Networks** into a single unified view. It provides a centralized management interface for all subnet-related settings, allowing you to create and manage multiple subnets to isolate different types of devices or traffic.
+This page provides centralized configuration and management of the **Main Network**, **Guest Network**, **IoT Network**, and custom **VLAN Networks**. You can create and manage multiple subnets to isolate different types of devices or traffic.
 
 ## Main Network {#main-network}
 

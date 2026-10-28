@@ -167,7 +167,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     * DHCP: Enable or configure the Dynamic Host Configuration Protocol, which automatically assigns IP addresses to devices on your network.
     * Address Reservation: Reserve specific IP addresses for particular devices, ensuring they always receive the same IP address from the DHCP server.
 
-    To set up LAN, refer to [Lan](../../interface_guide/lan.md). 
+    To set up LAN, refer to [LAN](../../interface_guide/lan.md). 
 
 ---
 

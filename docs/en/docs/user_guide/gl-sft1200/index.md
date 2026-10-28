@@ -159,7 +159,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     LAN, or Local Area Network, is a network that connects computers and devices within a limited geographical area, such as a home or office. It enables high-speed data transfer and resource sharing, allowing devices to communicate with each other efficiently. 
     
-    To set up LAN, refer to [Lan](../../interface_guide/lan.md). 
+    To set up LAN, refer to [LAN](../../interface_guide/lan.md). 
 
 === "Guest Network"
 

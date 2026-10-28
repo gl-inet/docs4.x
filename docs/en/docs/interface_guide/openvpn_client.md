@@ -670,7 +670,7 @@ If the service provider you subscribed to is not listed below, please contact th
 ??? "VPN Safe"
     ### VPN Safe {#vpn-safe}
 
-    [Official Website](https://vpn.ac/aff.php?aff=1424){target="_blank"}
+    [Official Website](https://secure.vpnsafe.net/aff.php?aff=6){target="_blank"}
 
     1. Log in to the **VPN Safe Dashboard** and click your active VPN service.
 

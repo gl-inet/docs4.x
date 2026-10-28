@@ -6,7 +6,7 @@ hide:
 
 # Interface Guide {#interface-guide}
 
-Learn how to use our devices and add-on features with our step to step guides.
+Learn how to use our devices and add-on features with our step-by-step guides.
 
 ## Internet Connection {#internet-connection}
 

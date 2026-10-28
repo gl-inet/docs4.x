@@ -686,7 +686,7 @@ If the service provider you subscribed to is not listed below, please contact th
 
         ![vpnsafe4](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/vpnsafe/vpnsafe4.jpg){class="glboxshadow"}
     
-    4. If you need to view all available UDP/TCP servers, click **UDP Servers** (recommended) or **TCP Servers** to get a URLs list. 
+    4. If you need to view all available UDP/TCP servers, click **UDP Servers** (recommended) or **TCP Servers** to get a list of URLs. 
 
         ![vpnsafe5](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/vpnsafe/vpnsafe5.jpg){class="glboxshadow"}
 

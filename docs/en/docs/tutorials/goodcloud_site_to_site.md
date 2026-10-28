@@ -30,7 +30,7 @@ GoodCloud Site to Site allows offices in multiple locations to establish secure 
 
     ![create network](https://static.gl-inet.com/goodcloud/docs/tutorials/site_to_site/create-network.png){class="glboxshadow"}
 
-3. Check the box at the left side to select at lest two devices.
+3. Check the box at the left side to select at least two devices.
 
     ![select devices](https://static.gl-inet.com/goodcloud/docs/tutorials/site_to_site/select-devices.png){class="glboxshadow"}
     

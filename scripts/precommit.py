@@ -17,10 +17,14 @@ English-only commits are not blocked because translations are not updated
 yet; the scheduled translation workflow picks those changes up.
 
 Bypass in an emergency with ``git commit --no-verify``.
+
+CI runs the same checks on the files a pull request changes:
+  python scripts/precommit.py --base origin/master
 """
 
 from __future__ import annotations
 
+import argparse
 import pathlib
 import re
 import subprocess
@@ -36,10 +40,11 @@ LANGS = anchors.LANGS
 PATH_RE = re.compile(r"^docs/(?P<lang>[a-z]{2})/(?P<rest>.+)$")
 
 
-def staged_files() -> list[tuple[str, str]]:
-    """Return (status, path) for staged changes; renames give the new path."""
+def staged_files(base: str | None = None) -> list[tuple[str, str]]:
+    """Return (status, path) for staged changes, or for changes since ``base``; renames give the new path."""
+    scope = [f"{base}...HEAD"] if base else ["--cached"]
     output = subprocess.run(
-        ["git", "diff", "--cached", "--name-status", "--find-renames"],
+        ["git", "diff", *scope, "--name-status", "--find-renames"],
         check=True, capture_output=True, text=True, encoding="utf-8",
     ).stdout
     files = []
@@ -51,14 +56,17 @@ def staged_files() -> list[tuple[str, str]]:
     return files
 
 
-def main() -> int:
+def main(argv: list[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(description="Check staged documentation changes.")
+    parser.add_argument("--base", help="check the changes since this ref instead of the staged files")
+    args = parser.parse_args(argv)
     if hasattr(sys.stdout, "reconfigure"):
         sys.stdout.reconfigure(encoding="utf-8")
     errors: list[str] = []
     pages: dict[str, set[str]] = {}  # lang -> staged pages relative to docs/<lang>/docs
     file_check_langs: set[str] = set()
     localized_files: list[tuple[str, pathlib.Path]] = []
-    for status, path in staged_files():
+    for status, path in staged_files(args.base):
         match = PATH_RE.match(path)
         if not match or match.group("lang") not in LANGS:
             continue
@@ -105,7 +113,9 @@ def main() -> int:
 
     for error in dict.fromkeys(errors):
         print(f"ERROR {error}")
-    if errors:
+    if errors and args.base:
+        print(f"{len(errors)} error(s).")
+    elif errors:
         print(f"pre-commit: {len(errors)} error(s). Fix them, or bypass with git commit --no-verify.")
         return 1
     return 0

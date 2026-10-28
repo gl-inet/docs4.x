@@ -97,9 +97,37 @@ Configure your Opal using one of the supported internet connection methods: Ethe
 
     Please refer to [Connect to the Internet via cellular](../../interface_guide/internet_cellular.md) for detailed instructions.
 
-## How to set up a VPN {#how-to-set-up-a-vpn}
+## Wireless {#wireless}
 
-A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Opal supports OpenVPN, WireGuard, and Tor*. 
+The Wireless page allows you to configure settings for the 5 GHz and 2.4 GHz Wi-Fi networks, including enabling Wi-Fi, setting TX power, specifying the Wi-Fi name (SSID), enabling randomized BSSID, selecting Wi-Fi security mode and password, configuring SSID visibility, choosing the Wi-Fi mode, bandwidth, and channel. 
+
+To set up Wireless, refer to [Wireless](../../interface_guide/wireless_v4.8.md).
+
+## Clients {#clients}
+
+The Clients page displays information about connected devices. For each client, it shows the name, IP and MAC addresses, download and upload speeds, total traffic, and provides the ability to block the client or perform other actions.
+
+To set up Clients, refer to [Clients](../../interface_guide/clients.md).
+
+## Cloud Services {#cloud-services}
+
+=== "GoodCloud"
+
+    GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} service provides an easy and simple way to remotely access and manage GL.iNet routers. 
+    
+    To set up GoodCloud, refer to [GoodCloud](../../interface_guide/cloud.md).
+
+=== "AstroWarp"
+
+    AstroWarp is an advanced networking platform designed to provide seamless remote networking and remote device management. Built specifically for GL.iNet router integration, AstroWarp supports comprehensive device management across entire networks, enabling both upper and lower device control. With a focus on network-wide management and future support for hardware-level control, AstroWarp offers a more robust and dependable solution for managing devices and maintaining secure, stable networks. 
+    
+    To set up AstroWarp, refer to [AstroWarp](../../interface_guide/astrowarp.md).
+
+    **Note:** Please upgrade your router firmware to version 4.8 or above before using this feature.
+
+## VPN {#vpn}
+
+A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Opal supports OpenVPN and WireGuard.
 
 === "OpenVPN" 
     
@@ -115,41 +143,96 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     * [How to set up a WireGuard client](../../interface_guide/wireguard_client.md)
     * [How to set up a WireGuard server](../../interface_guide/wireguard_server.md)
 
-=== "Tor"
+## Network {#network}
 
-    Tor, short for The Onion Router, is a privacy-focused network that enables anonymous communication over the internet. It routes internet traffic through a series of volunteer-operated servers (nodes) to obscure the user's location and usage, making it difficult to trace online activities. 
+=== "Multi-WAN"
 
-    **Note:** Opal does not support Tor natively, but users can manually install Tor via a plug-in. Click [here](../../interface_guide/tor.md#manual-install) for details.
+    Multi-WAN is a networking feature that allows you to set up your router with multiple internet connections (e.g., cellular, repeater, and ethernet) at the same time. If your current internet connection fails, the router will automatically switch to another internet connection. This ensures smooth and uninterrupted internet access. 
 
-## Wireless and clients {#wireless-and-clients}
+    To set up multi-WAN, refer to [Multi-WAN](../../interface_guide/multi-wan.md). 
 
-=== "Wireless"
+=== "LAN"
 
-    The Wireless page allows you to configure settings for the 5 GHz and 2.4 GHz Wi-Fi networks, including enabling Wi-Fi, setting TX power, specifying the Wi-Fi name (SSID), enabling randomized BSSID, selecting Wi-Fi security mode and password, configuring SSID visibility, choosing the Wi-Fi mode, bandwidth, and channel. 
-
-    To set up Wireless, refer to [Wireless](../../interface_guide/wireless.md).
-
-=== "Clients"
-
-    The Clients page displays information about connected devices. For each client, it shows the name, IP and MAC addresses, download and upload speeds, total traffic, and provides the ability to block the client or perform other actions.
-
-    To set up Clients, refer to [Clients](../../interface_guide/clients.md).
-
-## Cloud services {#cloud-services}
-
-=== "GoodCloud"
-
-    GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} service provides an easy and simple way to remotely access and manage GL.iNet routers. 
+    LAN, or Local Area Network, is a network that connects computers and devices within a limited geographical area, such as a home or office. It enables high-speed data transfer and resource sharing, allowing devices to communicate with each other efficiently. 
     
-    To set up GoodCloud, refer to [GoodCloud](../../interface_guide/cloud.md).
+    To set up LAN, refer to [LAN](../../interface_guide/lan.md). 
 
-=== "AstroWarp"
+=== "Guest Network"
 
-    AstroWarp is an advanced networking platform designed to provide seamless remote networking and remote device management. Built specifically for GL.iNet router integration, AstroWarp supports comprehensive device management across entire networks, enabling both upper and lower device control. With a focus on network-wide management and future support for hardware-level control, AstroWarp offers a more robust and dependable solution for managing devices and maintaining secure, stable networks. 
+    It allows you to set a subnet within the IPv4 private address ranges 192.168.0.0/16, 172.16.0.0/12, or 10.0.0.0/8, specify the gateway and netmask IP addresses, and configure security settings like AP isolation for the guest network.
+
+    To set up guest network, refer to [Guest Network](../../interface_guide/guest_network.md). 
+
+=== "DNS"
+
+    The DNS page allows you to set custom DNS servers, enable DNS rebinding attack protection, override the DNS settings of all clients, and allow custom DNS to override VPN DNS. You can use DNS servers automatically obtained from upstream devices or manually specify custom DNS servers.
+
+    To set up DNS, refer to [DNS](../../interface_guide/dns.md).
+
+---
+
+=== "Ethernet Port"
+
+    The Ethernet Port page allows you to configure the WAN and LAN ports, set the WAN/LAN interface to Ethernet, specify the MAC mode and MAC address for the WAN interface, and show the negotiated network port rate.
+
+    To set up ethernet Port, refer to [Ethernet Port](../../interface_guide/ethernet_port.md).
+
+=== "IPv6"
+
+    IPv6, or Internet Protocol version 6, is the most recent version of the Internet Protocol designed to replace IPv4. It provides a vastly larger address space, allowing for a virtually unlimited number of unique IP addresses, which is essential for accommodating the growing number of devices connected to the internet. 
     
-    To set up AstroWarp, refer to [AstroWarp](../../interface_guide/astrowarp.md).
+    To set up IPV6, refer to [IPV6](../../interface_guide/ipv6.md).
 
-    **Note:** Please upgrade your router firmware to version 4.8 or above before using this feature.
+=== "IGMP Snooping"
+
+    IGMP snooping is a network optimization technique used in Ethernet switches to manage and control multicast traffic. 
+    
+    To set up IGMP snooping, refer to [IGMP Snooping](../../interface_guide/igmp_snooping.md).
+
+---
+
+=== "Network Mode"
+
+    Network mode refers to the configuration settings that determine how a device connects to a network and communicates with other devices. 
+    
+    To set up network mode, refer to [Network Mode](../../interface_guide/network_mode.md).
+
+
+=== "Drop-in Gateway"
+
+    Drop-in Gateway extends the functionality of your main router with features it may not have, including AdGuard Home, encrypted DNS, and VPN. 
+    
+    To set up drop-in gateway, refer to [How to set up drop-in gateway](../../tutorials/how_to_set_up_drop_in_gateway.md). 
+
+=== "Network Acceleration"
+
+    Network acceleration can reduce CPU load and speeds up traffic packet forwarding.
+    
+    To set up network acceleration, refer to [Network Acceleration](../../interface_guide/network_acceleration.md).
+
+## Security {#security}
+
+=== "Port Forwarding"
+
+    Port forwarding allows remote servers and devices on the internet to access devices on a private network. 
+    
+    To set up port forwarding, refer to [Port Forwarding](../../interface_guide/port_forwarding.md). 
+
+=== "Management Control"
+
+    Management Control allows you to configure various security settings to protect your network and router from unauthorized access. This page includes the following options:
+
+    * Local Access Control: Manage and restrict access to the router's interface from devices connected to your local network.
+    * Remote Access Control: Configure and restrict access to the router's interface from remote locations over the internet, enhancing security against external threats.
+    * Open Ports on Router: Control which ports are open on the router, limiting potential vulnerabilities and unauthorized access.
+
+    These settings help you maintain a secure network environment, safeguarding both your router and connected devices.
+
+=== "NAT Mode"
+
+    The NAT Mode page allows you to enable or disable Full Cone NAT and SIP ALG functionality.
+
+    To set up NAT settings, refer to [NAT Mode](../../interface_guide/nat_settings.md).
 
 ## Applications {#applications}
 
@@ -173,89 +256,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     **Note:** Please upgrade your router firmware to version 4.8 or above before using this feature.
 
-## Network settings {#network-settings}
-
-=== "Port Forwarding"
-
-    Port forwarding allows remote servers and devices on the internet to access devices on a private network. 
-    
-    To set up port forwarding, refer to [Port Forwarding](../../interface_guide/port_forwarding.md). 
-
-=== "Multi-WAN"
-
-    Multi-WAN is a networking feature that allows you to set up your router with multiple internet connections (e.g., cellular, repeater, and ethernet) at the same time. If your current internet connection fails, the router will automatically switch to another internet connection. This ensures smooth and uninterrupted internet access. 
-
-    To set up multi-WAN, refer to [Multi-WAN](../../interface_guide/multi-wan.md). 
-
-=== "LAN"
-
-    LAN, or Local Area Network, is a network that connects computers and devices within a limited geographical area, such as a home or office. It enables high-speed data transfer and resource sharing, allowing devices to communicate with each other efficiently. 
-    
-    To set up LAN, refer to [Lan](../../interface_guide/lan.md). 
-
----
-
-=== "Guest Network"
-
-    It allows you to set a subnet within the IPv4 private address ranges 192.168.0.0/16, 172.16.0.0/12, or 10.0.0.0/8, specify the gateway and netmask IP addresses, and configure security settings like AP isolation for the guest network.
-
-    To set up guest network, refer to [Guest Network](../../interface_guide/guest_network.md). 
-
-=== "DNS"
-
-    The DNS page allows you to set custom DNS servers, enable DNS rebinding attack protection, override the DNS settings of all clients, and allow custom DNS to override VPN DNS. You can use DNS servers automatically obtained from upstream devices or manually specify custom DNS servers.
-
-    To set up DNS, refer to [DNS](../../interface_guide/dns.md).
-
-=== "Port Management"
-
-    The Port Management page is available in firmware v4.7 and above.
-
-    This page allows you to configure the WAN and LAN ports, set the WAN/LAN interface to Ethernet, specify the MAC mode and MAC address for the WAN interface, and show the negotiated network port rate.
-
-    To manage Ethernet ports, refer to [Port Management](../../interface_guide/ethernet_port.md).
-
----
-
-=== "Network Mode"
-
-    Network mode refers to the configuration settings that determine how a device connects to a network and communicates with other devices. 
-    
-    To set up network mode, refer to [Network Mode](../../interface_guide/network_mode.md).
-
-=== "IPv6"
-
-    IPv6, or Internet Protocol version 6, is the most recent version of the Internet Protocol designed to replace IPv4. It provides a vastly larger address space, allowing for a virtually unlimited number of unique IP addresses, which is essential for accommodating the growing number of devices connected to the internet. 
-    
-    To set up IPV6, refer to [IPV6](../../interface_guide/ipv6.md).
-
-=== "Drop-in Gateway"
-
-    Drop-in Gateway extends the functionality of your main router, including AdGuard Home, encrypted DNS, and VPN client. 
-    
-    To set up drop-in gateway, refer to [How to set up drop-in gateway](../../tutorials/how_to_set_up_drop_in_gateway.md).
-
----
-
-=== "IGMP Snooping"
-
-    IGMP snooping is a network optimization technique used in Ethernet switches to manage and control multicast traffic. 
-    
-    To set up IGMP snooping, refer to [IGMP Snooping](../../interface_guide/igmp_snooping.md).
-
-=== "Network Acceleration"
-
-    Network acceleration can reduce CPU load and speeds up traffic packet forwarding.
-    
-    To set up network acceleration, refer to [Network Acceleration](../../interface_guide/network_acceleration.md).
-
-=== "NAT Settings"
-
-    The NAT Settings page allows you to enable or disable Full Cone NAT and SIP ALG (Application Layer Gateway) functionality.
-
-    To set up NAT settings, refer to [NAT Settings](../../interface_guide/nat_settings.md).
-
-## System settings {#system-settings}
+## System {#system}
 
 === "Overview"
 
@@ -272,6 +273,16 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     Please refer to [Overview](../../interface_guide/system_overview.md) for detailed instructions.
 
+=== "Admin Password"
+
+    The Admin Password page allows you to set or change the password for the router's administrative interface.
+
+    The admin password must meet the following requirements:
+
+    * Minimum 10 characters and maximum 63 characters.
+    * Letters (case sensitive), numbers and symbols `` ! @ # $ % ^ & * ( ) _ + - = , . > < | ? / \ [ ] { } : ; " ' ` ~ `` are allowed.
+    * At least two of uppercase letters, lowercase letters, numbers, and symbols are required.
+
 === "Upgrade"
 
     The Upgrade page is used to update your router's firmware to the latest version, ensuring enhanced performance, security, and new features. This page offers two options for upgrading:
@@ -282,6 +293,8 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     These options allow you to keep your router up-to-date with the latest improvements and fixes.
 
     Please refer to [Upgrade](../../interface_guide/upgrade.md) for detailed instructions.
+
+---
 
 === "Scheduled Tasks"
 
@@ -295,8 +308,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     Please refer to [Scheduled Tasks](../../interface_guide/scheduled_tasks.md) for detailed instructions.
 
----
-
 === "Time Zone"
 
     The Time Zone page allows you to set the correct time zone for your router, ensuring that all scheduled tasks, logs, and system events are accurately timestamped according to your local time. This setting is crucial for maintaining precise records and for the proper execution of time-based configurations.
@@ -308,6 +319,14 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     The Toggle Button Settings page allows you to configure the physical toggle button on your router, enabling you to assign specific functions to the button for quick access and control. This feature provides convenient shortcuts for common tasks and settings, enhancing the user experience and simplifying router management.
 
     Please refer to [Toggle Button Settings](../../interface_guide/toggle_button_settings.md) for detailed instructions.
+
+---
+
+=== "Reset Firmware"
+
+    The Reset Firmware page allows you to reset your router's current firmware version to its default settings, erasing all custom configurations. This process will restore the router to the default settings of the currently installed firmware version. This can be useful for troubleshooting persistent issues or starting fresh with the current firmware's default configuration.
+
+    Please refer to [Reset Firmware](../../interface_guide/reset_firmware.md) for detailed instructions.
 
 === "Log"
 
@@ -322,27 +341,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     Additionally, the page features an Export Log button, allowing you to export all collected logs for technical support analysis. This function is invaluable for diagnosing complex issues and obtaining professional assistance.
 
     Please refer to [Log](../../interface_guide/log.md) for detailed instructions.
-
----
-
-=== "Security"
-
-    The Security page allows you to configure various security settings to protect your network and router from unauthorized access. This page includes options for:
-
-    * Admin Password: Set or change the password for the router's administrative interface to ensure only authorized users can modify settings.
-    * Local Access Control: Manage and restrict access to the router's interface from devices connected to your local network.
-    * Remote Access Control: Configure and restrict access to the router's interface from remote locations over the internet, enhancing security against external threats.
-    * Open Ports on Router: Control which ports are open on the router, limiting potential vulnerabilities and unauthorized access.
-
-    These settings help you maintain a secure network environment, safeguarding both your router and connected devices.
-
-    Please refer to [Security](../../interface_guide/security.md) for detailed instructions.
-
-=== "Reset Firmware"
-
-    The Reset Firmware page allows you to reset your router's current firmware version to its default settings, erasing all custom configurations. This process will restore the router to the default settings of the currently installed firmware version. This can be useful for troubleshooting persistent issues or starting fresh with the current firmware's default configuration.
-
-    Please refer to [Reset Firmware](../../interface_guide/reset_firmware.md) for detailed instructions.
 
 === "Advanced Settings"
 

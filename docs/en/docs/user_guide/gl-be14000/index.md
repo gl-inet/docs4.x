@@ -154,7 +154,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "Subnet"
 
-    The Subnet page centralizes management of LAN, Guest Network, IoT Network, and custom VLAN Networks, allowing you to create and manage multiple subnets to isolate different types of devices or traffic.
+    The Subnet page provides centralized configuration and management of the Main Network, Guest Network, IoT Network, and custom VLAN networks. You can create and manage multiple subnets to isolate different types of devices or traffic.
 
     Please refer to [Subnet](../../interface_guide/subnet.md) for details. 
 

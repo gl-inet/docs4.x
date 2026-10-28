@@ -1,0 +1,145 @@
+name: Documentation PR checks
+
+on:
+  pull_request:
+    branches:
+      - master
+    paths:
+      - "docs/**"
+      - "scripts/**"
+      - ".translation-cache.json"
+      - "requirements.txt"
+      - ".github/workflows/pr-check.yml"
+
+concurrency:
+  group: pr-check-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+env:
+  LANGUAGETOOL_VERSION: "6.6"
+  CODESPELL_VERSION: "2.4.1"
+
+jobs:
+  # Heading IDs, anchor links, localized page structure and the translation
+  # cache, for the files this PR changes (same checks as the pre-commit hook).
+  structure:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out pull request
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.10.4"
+
+      - name: Install documentation dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Check structure and anchors
+        run: python scripts/precommit.py --base "origin/${{ github.base_ref }}"
+
+  # Broken page links, missing nav targets and other MkDocs warnings, for the
+  # languages this PR changes.
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out pull request
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.10.4"
+
+      - name: Install documentation dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Build changed languages strictly
+        shell: bash
+        run: |
+          set -euo pipefail
+          langs="$(git diff --name-only "origin/${{ github.base_ref }}...HEAD" -- docs/ | cut -d/ -f2 | sort -u)"
+          # Script-only changes still need one build.
+          langs="${langs:-en}"
+          for lang in $langs; do
+            [ -f "docs/$lang/mkdocs.yml" ] || continue
+            echo "::group::BUILD $lang"
+            mkdocs build -f "docs/$lang/mkdocs.yml" --strict --site-dir "$RUNNER_TEMP/site-$lang"
+            echo "::endgroup::"
+          done
+
+  # Spelling and grammar of added English lines, and added image URLs.
+  # Spelling and missing images fail the check; grammar is report-only.
+  content:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out pull request
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.10.4"
+
+      - name: Install check dependencies
+        run: python -m pip install -r requirements.txt "codespell==${CODESPELL_VERSION}"
+
+      - name: Set up Java
+        uses: actions/setup-java@v6
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Cache LanguageTool
+        id: languagetool-cache
+        uses: actions/cache@v6
+        with:
+          path: ${{ runner.temp }}/LanguageTool-${{ env.LANGUAGETOOL_VERSION }}
+          key: languagetool-${{ env.LANGUAGETOOL_VERSION }}
+
+      # The grammar check is report-only, so a LanguageTool problem only skips it.
+      - name: Download LanguageTool
+        if: steps.languagetool-cache.outputs.cache-hit != 'true'
+        continue-on-error: true
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl -fsSL --retry 3 -o "$RUNNER_TEMP/languagetool.zip" \
+            "https://languagetool.org/download/LanguageTool-${LANGUAGETOOL_VERSION}.zip"
+          unzip -q "$RUNNER_TEMP/languagetool.zip" -d "$RUNNER_TEMP"
+
+      - name: Start LanguageTool server
+        id: languagetool
+        continue-on-error: true
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd "$RUNNER_TEMP/LanguageTool-${LANGUAGETOOL_VERSION}"
+          nohup java -cp languagetool-server.jar org.languagetool.server.HTTPServer \
+            --port 8081 > "$RUNNER_TEMP/languagetool.log" 2>&1 &
+          for _ in $(seq 60); do
+            if curl -fs "http://localhost:8081/v2/languages" > /dev/null; then
+              echo "url=http://localhost:8081" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            sleep 2
+          done
+          cat "$RUNNER_TEMP/languagetool.log"
+          echo "::warning::LanguageTool server did not start; the grammar check is skipped."
+          exit 1
+
+      - name: Check spelling, grammar and images
+        run: python scripts/pr_check.py --base "origin/${{ github.base_ref }}" --languagetool "${{ steps.languagetool.outputs.url }}"

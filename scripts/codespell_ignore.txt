@@ -1,0 +1,7 @@
+olt
+bord
+appareil
+environnement
+mesure
+conjonction
+limite

@@ -167,13 +167,13 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     To set up guest network, refer to [Guest Network](../../interface_guide/guest_network.md). 
 
----
-
 === "IoT Network"
 
     It allows you to create a dedicated Wi-Fi network for IoT devices. Isolated from the primary network, it delivers better compatibility and improved security.
 
     To set up IoT network, refer to [IoT Network](../../interface_guide/iot_network.md). 
+
+---
 
 === "DNS"
 
@@ -187,14 +187,11 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     To manage Ethernet ports, refer to [Ethernet Port](../../interface_guide/ethernet_port.md).
 
----
-
 === "IPv6"
 
     IPv6, or Internet Protocol version 6, is the most recent version of the Internet Protocol designed to replace IPv4. It provides a vastly larger address space, allowing for a virtually unlimited number of unique IP addresses, which is essential for accommodating the growing number of devices connected to the internet. 
     
     To set up IPV6, refer to [IPV6](../../interface_guide/ipv6.md).
-
 
 === "IGMP Snooping"
 
@@ -202,13 +199,13 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     To set up IGMP snooping, refer to [IGMP Snooping](../../interface_guide/igmp_snooping.md).
 
+---
+
 === "Network Mode"
 
     Network mode refers to the configuration settings that determine how a device connects to a network and communicates with other devices. 
     
     To set up network mode, refer to [Network Mode](../../interface_guide/network_mode.md).
-
----
 
 === "Drop-in Gateway"
 

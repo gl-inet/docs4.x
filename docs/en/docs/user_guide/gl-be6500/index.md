@@ -169,13 +169,13 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     To set up guest network, refer to [Guest Network](../../interface_guide/guest_network.md). 
 
----
-
 === "IoT Network"
 
     It allows you to create a dedicated Wi-Fi network for IoT devices. Isolated from the primary network, it delivers better compatibility and improved security.
 
     To set up IoT network, refer to [IoT Network](../../interface_guide/iot_network.md). 
+
+---
 
 === "DNS"
 
@@ -189,8 +189,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     To manage Ethernet ports, refer to [Ethernet Port](../../interface_guide/ethernet_port.md).
 
----
-
 === "IPv6"
 
     IPv6, or Internet Protocol version 6, is the most recent version of the Internet Protocol designed to replace IPv4. It provides a vastly larger address space, allowing for a virtually unlimited number of unique IP addresses, which is essential for accommodating the growing number of devices connected to the internet. 
@@ -203,13 +201,13 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     To set up IGMP snooping, refer to [IGMP Snooping](../../interface_guide/igmp_snooping.md).
 
+---
+
 === "Network Mode"
 
     Network mode refers to the configuration settings that determine how a device connects to a network and communicates with other devices. 
     
     To set up network mode, refer to [Network Mode](../../interface_guide/network_mode.md).
-
----
 
 === "Drop-in gateway"
 
@@ -384,8 +382,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     Please refer to [Upgrade](../../interface_guide/upgrade.md) for detailed instructions.
 
----
-
 === "Scheduled Tasks"
 
     The Scheduled Tasks page allows you to automate various router functions based on a predefined schedule, enhancing convenience and efficiency. Key features on this page include:
@@ -398,6 +394,8 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     Please refer to [Scheduled Tasks](../../interface_guide/scheduled_tasks.md) for detailed instructions.
 
+---
+
 === "Time Zone"
 
     The Time Zone page allows you to set the correct time zone for your router, ensuring that all scheduled tasks, logs, and system events are accurately timestamped according to your local time. This setting is crucial for maintaining precise records and for the proper execution of time-based configurations.
@@ -409,8 +407,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     The Reset Firmware page allows you to reset your router's current firmware version to its default settings, erasing all custom configurations. This process will restore the router to the default settings of the currently installed firmware version. This can be useful for troubleshooting persistent issues or starting fresh with the current firmware's default configuration.
 
     Please refer to [Reset Firmware](../../interface_guide/reset_firmware.md) for detailed instructions.
-
----
 
 === "Log"
 

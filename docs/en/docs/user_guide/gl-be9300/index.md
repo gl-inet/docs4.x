@@ -314,13 +314,13 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     To set up network storage, refer to [Network Storage](../../interface_guide/network_storage.md).
 
----
-
 === "AdGuard Home"
 
     AdGuard Home is a network-wide ad and tracker blocking solution that acts as a DNS server to filter unwanted content across all devices connected to a home network. 
     
     To set up AdGuard Home, refer to [AdGuard Home](../../interface_guide/adguardhome.md).
+
+---
 
 === "Bark"
 
@@ -333,8 +333,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     Tailscale is a VPN service that allows you to access your devices and applications anywhere. 
     
     To set up Tailscale, refer to [Tailscale](../../interface_guide/tailscale.md).
-
----
 
 === "ZeroTier"
 
@@ -382,8 +380,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     Please refer to [Upgrade](../../interface_guide/upgrade.md) for detailed instructions.
 
----
-
 === "Scheduled Tasks"
 
     The Scheduled Tasks page allows you to automate various router functions based on a predefined schedule, enhancing convenience and efficiency. Key features on this page include:
@@ -396,6 +392,8 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     Please refer to [Scheduled Tasks](../../interface_guide/scheduled_tasks.md) for detailed instructions.
 
+---
+
 === "Time Zone"
 
     The Time Zone page allows you to set the correct time zone for your router, ensuring that all scheduled tasks, logs, and system events are accurately timestamped according to your local time. This setting is crucial for maintaining precise records and for the proper execution of time-based configurations.
@@ -407,8 +405,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     The Reset Firmware page allows you to reset your router's current firmware version to its default settings, erasing all custom configurations. This process will restore the router to the default settings of the currently installed firmware version. This can be useful for troubleshooting persistent issues or starting fresh with the current firmware's default configuration.
 
     Please refer to [Reset Firmware](../../interface_guide/reset_firmware.md) for details.
-
----
 
 === "Log"
 

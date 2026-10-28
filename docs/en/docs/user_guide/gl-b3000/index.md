@@ -81,19 +81,15 @@ Configure your Marble using one of the supported internet connection methods: Et
 
 ## Wireless {#wireless}
 
-=== "Wireless"
+The Wireless page allows you to configure settings for both 5 GHz and 2.4 GHz Wi-Fi networks, including enabling/disabling Wi-Fi, setting TX power, specifying the Wi-Fi name (SSID), selecting Wi-Fi security mode, setting Wi-Fi password, configuring SSID visibility, choosing the Wi-Fi mode, bandwidth, and channel.
 
-    The Wireless page allows you to configure settings for both 5 GHz and 2.4 GHz Wi-Fi networks, including enabling/disabling Wi-Fi, setting TX power, specifying the Wi-Fi name (SSID), enabling/disabling randomized BSSID, selecting Wi-Fi security mode, setting Wi-Fi password, configuring SSID visibility, choosing the Wi-Fi mode, bandwidth, and channel.
-
-    To set up Wireless, refer to [Wireless](../../interface_guide/wireless.md).
+To set up Wireless, refer to [Wireless](../../interface_guide/wireless_v4.8.md).
 
 ## Clients {#clients}
 
-=== "Clients"
+The Clients page displays information about connected devices. For each client, it shows the device name, connection type (i.e., via ethernet or Wi-Fi), IP and MAC addresses, download and upload speeds, total traffic, and provides the ability to block the client or perform other actions.
 
-    The Clients page displays information about connected devices. For each client, it shows the device name, connection type (i.e., via ethernet or Wi-Fi), IP and MAC addresses, download and upload speeds, total traffic, and provides the ability to block the client or perform other actions.
-
-    To set up Clients, refer to [Clients](../../interface_guide/clients.md).
+To set up Clients, refer to [Clients](../../interface_guide/clients.md).
 
 ## VPN {#vpn}
 
@@ -141,7 +137,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     To learn how to enable AdGuard Home, refer to [AdGuard Home](../../interface_guide/adguardhome.md). 
 
-<br>
+---
 
 === "Parental Control"
 
@@ -186,8 +182,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     For detailed setup instructions and more information, please refer to [LAN](../../interface_guide/lan.md).
 
-<br>
-
 === "Guest Network"
 
     The Guest Network page allows you to create and manage a separate network for your guests, providing them with internet access while keeping your main network secure. Key functionalities on this page include:
@@ -198,6 +192,8 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     The guest network provides guests with internet access and isolates guest traffic from your primary network to reduce potential impacts on its security and performance.
     
     For detailed setup instructions and more information, please refer to [Guest Network](../../interface_guide/guest_network.md).
+
+---
 
 === "DNS"
 
@@ -221,8 +217,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     * WDS (Wireless Distribution System): Similar to Extender, please choose WDS if your main router supports WDS mode.
 
     For detailed setup instructions and more information, please refer to [Network Mode](../../interface_guide/network_mode.md).
-
-<br>
 
 === "IPv6"
 
@@ -249,11 +243,11 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     For detailed setup instructions and more information, please refer to [MAC Address](../../interface_guide/mac_address.md).
 
+---
+
 === "Drop-in Gateway"
 
     Drop-in Gateway extends the functionality of your main router with features it may not have, including AdGuard Home, encrypted DNS, and VPN. To set up Drop-in Gateway, refer to [How to set up Drop-in Gateway](../../tutorials/how_to_set_up_drop_in_gateway.md).
-
-<br>
 
 === "IGMP Snooping"
 
@@ -320,13 +314,13 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     For detailed setup instructions and more information, please refer to [Scheduled Tasks](../../interface_guide/scheduled_tasks.md).
 
-<br>
-
 === "Time Zone"
 
     The Time Zone page allows you to set the correct time zone for your router, ensuring that all scheduled tasks, logs, and system events are accurately timestamped according to your local time. This setting is crucial for maintaining precise records and for the proper execution of time-based configurations.
 
     For detailed setup instructions and more information, please refer to [Time Zone](../../interface_guide/time_zone.md).
+
+---
 
 === "Log"
 
@@ -353,8 +347,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     These settings help you maintain a secure network environment, safeguarding both your router and connected devices.
 
     For detailed setup instructions and more information, please refer to [Security](../../interface_guide/security.md).
-
-<br>
 
 === "Reset Firmware"
 

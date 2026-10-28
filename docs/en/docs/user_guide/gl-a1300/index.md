@@ -15,249 +15,361 @@ The package includes:
 - 1 x User manual
 - 1 x Slate Plus (GL-A1300)
 - 1 x Ethernet Cable
+- 1 x Thank you card
 - 1 x Warranty card
-- 1 x Power adapter (Selected plug type)
+- 1 x Power adapter
+- 1 x Converter (Based on your shipping country)
 
 ![gl-a1300 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-a1300/first_time_setup/gl-a1300_unboxing.jpg){class="glboxshadow"}
 
-## LED indication {#led-indication}
+## How to set up Slate Plus {#how-to-set-up-slate-ax}
 
-[LED Indication](../../faq/led.md#gl-a1300)
-
-## Specifications {#specifications}
-
-[GL-A1300 specifications](https://www.gl-inet.com/products/gl-a1300/#specs){target="_blank"}
-
-## First time setup {#first-time-setup}
-
-All GL.iNet routers have a simple and almost identical setup process. [Click here to learn about the first-time setup](../../faq/first_time_setup.md).
-
-To set up Slate Plus, you will use one of the four supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular. Please refer to this setup video.
+Watch this setup video or follow the steps below. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zhY7AqmKJAc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+If you need further guidance，please refer to [First time setup](../../faq/first_time_setup.md).
+
+### 1. Power on {#1-power-on}
+
+Put the two-piece power adapter together. Connect it to your router and plug it into an outlet. It will start up automatically.
+
+### 2. Connect device {#2-connect-device}
+
+Connect a device (e.g., computer, laptop or smartphone) to the router using Wi-Fi or Ethernet.
+
+- Ethernet
+
+    Connect your device to the router's LAN port using an Ethernet cable. 
+
+- Wi-Fi
+
+    On your device, go to Settings -> WLAN, locate your router's Wi-Fi network name in the available networks list and enter the password. You can find the default network name and password printed on the router's bottom label.
+
+### 3. Log in to web Admin Panel {#3-log-in-to-web-admin-panel}
+
+Open a web browser, enter `192.168.8.1` in the address bar and log in. Choose your language and set your admin password, then click **Apply**. 
+
+When confirming the Wi‑Fi details, please note that if you change the Wi‑Fi information, you will need to reconnect your device to the router's Wi‑Fi using the updated credentials.
+
+### 4. Internet setup {#4-internet-setup}
+
+**Note:** The following instructions apply to users configuring the router via the GL.iNet Web Admin Panel. If you prefer using the GL.iNet app, [download the app](https://www.gl-inet.com/app/){target="_blank"} and follow the on-screen instructions.
+
+Configure your Slate Plus using one of the supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular. If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, please set up more than one internet connection.
+
+=== "Ethernet"
+
+    ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-a1300/internet/a1300_ethernet.png){class="glboxshadow"}
+
+    Connect an ethernet cable between your router's WAN port and an upstream device such as a modem. 
+    
+    Once successfully connected to the internet, a green dot will appear in the Ethernet section on the INTERNET page.
+
+    Please refer to [Connect to the Internet via an Ethernet cable](../../interface_guide/internet_ethernet.md) for detailed instructions.
+
+=== "Repeater"
+
+    ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-a1300/internet/a1300_repeater.png){class="glboxshadow"}
+
+    1. On the INTERNET page of the web Admin Panel, locate the Repeater section and click **Connect**.
+    2. Select a Wi-Fi network from the available networks. 
+    3. Enter the password, then click **Apply**.
+    
+    Once successfully connected to the internet, a green dot will appear in the Repeater section on the INTERNET page.
+
+    Please refer to [Connect to the Internet via an existing Wi-Fi network](../../interface_guide/internet_repeater.md) for detailed instructions.
+
+=== "Tethering"
+
+    ![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-a1300/internet/a1300_tethering.png){class="glboxshadow"}
+
+    1. Connect your mobile device (e.g., smartphone or USB dongle) to the router's USB port using a USB cable. 
+    2. On your mobile device, go to Settings and enable USB Tethering. 
+    3. On the INTERNET page of the web Admin Panel, click **Connect** in the Tethering section. 
+    
+    Once successfully connected to the internet, a green dot will appear in the Tethering section on the INTERNET page.
+
+    Please refer to [Connect to the Internet via USB tethering](../../interface_guide/internet_tethering.md) for detailed instructions.
+
+=== "Cellular"
+
+    ![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-a1300/internet/a1300_cellular.png){class="glboxshadow"}
+
+    Plug a cellular USB modem into the router's USB port. This is useful for sharing internet from a USB modem to all connected devices.
+
+    Once successfully connected to the internet, a green dot will appear in the Cellular section on the INTERNET page.
+
+    Please refer to [Connect to the Internet via cellular](../../interface_guide/internet_cellular.md) for detailed instructions.
+
 ---
 
-## INTERNET {#internet}
+## Wirelesss {#wireless}
 
-The internet configuration interface lets users choose to establish the type of internet connection supported by the router.
+The Wireless page allows you to configure settings for the 5 GHz and 2.4 GHz Wi-Fi networks, including enabling Wi-Fi, setting TX power, specifying the Wi-Fi name (SSID), selecting Wi-Fi security mode and password, configuring SSID visibility, choosing the Wi-Fi mode, bandwidth, and channel. 
 
-Configure the internet network by selecting **INTERNET** in the side menu within the router's web Admin Panel. 
+To set up Wireless, refer to [Wireless](../../interface_guide/wireless_v4.8.md).
 
-It supports four ways to connect to the internet as listed below:
+## Clients {#clients}
 
-### Ethernet {#ethernet}
+The Clients page displays information about connected devices. For each client, it shows the name, IP and MAC addresses, download and upload speeds, total traffic, and provides the ability to block the client or perform other actions.
 
-Transmit data over an Ethernet cable using an Ethernet cable to connect the router to an active modem or an active network device. This method usually provides the fastest and most reliable Internet connection. 
-
-[Click here to learn how to connect to the internet via an ethernet cable](../../interface_guide/internet_ethernet.md)
-
-![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-a1300/internet/a1300_ethernet.png){class="glboxshadow"}
-
-### Repeater {#repeater}
-
-Extend the Wi-Fi coverage area of an existing Wi-Fi network by using a router to receive wireless signals within range and forwarding the signals to a further distance. This method is most useful when a single router does not have enough range to cover the entire usage area.
-
-[Click here to learn how to connect to the internet via an existing Wi-Fi](../../interface_guide/internet_repeater.md)
-
-![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-a1300/internet/a1300_repeater.png){class="glboxshadow"}
-
-### Tethering {#tethering}
-
-Establish internet access with connected devices by sharing a smartphone's mobile data to the router via cable. This method is most useful when users want to use the phone's data to access the internet.
-
-[Click here to learn how to connect to the internet via usb tethering](../../interface_guide/internet_tethering.md)
-
-![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-a1300/internet/a1300_tethering.png){class="glboxshadow"}
-
-### Cellular {#cellular}
-
-Connect the router to the internet by inserting a cellular enabled USB modem into the router's USB port. This method is most useful for sharing internet access from a USB modem to all connected devices.
-
-[Click here to learn how to connect to the internet via usb modem](../../interface_guide/internet_cellular.md)
-
-![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-a1300/internet/a1300_cellular.png){class="glboxshadow"}
-
-### Priority and load balance {#priority-and-load-balance}
-
-Go to [Multi-WAN](../../interface_guide/multi-wan.md) to set the priority of each Internet access method or the load balance when multiple Internet access methods are used at the same time.
-
----
-
-## WIRELESS {#wireless}
-
-The wireless settings lets users manage network security of the primary Wi-Fi and the Guest Wi-Fi, it is accessible by going to **WIRELESS** on the side menu.
-
-[Click here to learn more about the wireless configuration](../../interface_guide/wireless.md)
-
----
-
-## CLIENTS {#clients}
-
-Clients are devices connected to the router, you can block clients or limit its network speed. The interface is accessible by clicking **CLIENTS** in the side menu of the router's Admin Panel.
-
-[Click here to learn more about managing your device clients.](../../interface_guide/clients.md)
-
----
+To set up Clients, refer to [Clients](../../interface_guide/clients.md).
 
 ## VPN {#vpn}
 
-GL.iNet routers are pre-installed with OpenVPN and WireGuard® supporting 30+ VPN services. When the VPN client is enabled, the router can encrypt traffic for devices on the network, including devices that cannot run VPN apps, according to your VPN policy settings. Our routers can also act as VPN servers, redirecting traffic from client devices in remote locations to the VPN server via a VPN tunnel before accessing the public internet.
+A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Slate Plus (and other GL.iNet routers) supports OpenVPN and WireGuard. Additionally, it supports Tor.
 
-### VPN Dashboard {#vpn-dashboard}
+=== "OpenVPN" 
 
-- [**VPN Dashboard**](../../interface_guide/vpn_dashboard_v4.7.md)
+    Slate Plus (and other GL.iNet routers) supports the OpenVPN protocol which offers strong security. To set up OpenVPN, follow these tutorials:
 
-### OpenVPN {#openvpn}
+    * [How to set up an OpenVPN client](../../interface_guide/openvpn_client.md)
+    * [How to set up an OpenVPN server](../../interface_guide/openvpn_server.md)
 
-Please refer to the following links for a step to step setup guide:
+=== "WireGuard"
 
-- [**Setup OpenVPN Client**](../../interface_guide/openvpn_client.md)
-- [**Setup OpenVPN Server**](../../interface_guide/openvpn_server.md)
+    Slate AX (and other GL.iNet routers) supports the WireGuard protocol which offers great speeds and convenience. To set up WireGuard, follow these tutorials:
 
-### WireGuard {#wireguard}
+    * [How to set up a WireGuard client](../../interface_guide/wireguard_client.md)
+    * [How to set up a WireGuard server](../../interface_guide/wireguard_server.md)
 
-Please refer to the following links for a step to step setup guide:
+=== "Tor"
 
-- [**Setup WireGuard Client**](../../interface_guide/wireguard_client.md)
-- [**Setup WireGuard Server**](../../interface_guide/wireguard_server.md)
+    Tor, short for The Onion Router, is a privacy-focused network that enables anonymous communication over the internet. It routes internet traffic through a series of volunteer-operated servers (nodes) to obscure the user's location and usage, making it difficult to trace online activities. 
+    
+    * [How to set up Tor](../../interface_guide/tor.md).
 
----
+## Applications {#applications}
 
-## APPLICATIONS {#applications}
+=== "Plug-ins"
 
-GL.iNet routers include a wide range of add-on features that simplifies device management, improves user's internet experience, automates firmware update, and more.
+    A plugin is a software component that adds specific features or functionalities to an existing computer program, allowing for customization and enhancement of its capabilities. 
+    
+    To set up plug-ins, refer to [Plug-ins](../../interface_guide/plugins.md).
 
-### Plug-ins {#plug-ins}
+=== "Dynamic DNS"
 
-Please visit the [**Plug-ins**](../../interface_guide/plugins.md) tutorial.
+    Dynamic DNS (DDNS) automatically detects and updates the IP address associated with a domain in real-time. It maps a domain name to your router's dynamic public IP address, so you can access your network remotely without a static IP address. 
+    
+    To set up Dynamic DNS, refer to [Dynamic DNS](../../interface_guide/ddns.md). 
 
-### Dynamic DNS {#dynamic-dns}
+=== "GoodCloud"
 
-Please visit the [**Dynamic DNS**](../../interface_guide/ddns.md) tutorial.
+    GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} cloud management service provide an easy and simple way to remotely access and manage GL.iNet routers. 
+    
+    To set up GoodCloud, refer to [GoodCloud](../../interface_guide/cloud.md).
 
-### GoodCloud {#goodcloud}
+=== "Network Storage"
 
-Please visit the  [**GoodCloud**](../../interface_guide/cloud.md) tutorial.
-
-### Network Storage {#network-storage}
-
-Please visit the [**Network Storage**](../../interface_guide/network_storage.md) tutorial.
-
-### AdGuard Home {#adguard-home}
-
-Please visit the [**AdGuard Home**](../../interface_guide/adguardhome.md) tutorial.
-
-### Parental Control {#parental-control}
-
-Please visit the [**Parental Control**](../../interface_guide/parental_control.md) tutorial.
-
-### ZeroTier {#zerotier}
-
-Please visit the [**ZeroTier**](../../interface_guide/zerotier.md) tutorial.
-
-### Tailscale {#tailscale}
-
-Please visit the [**Tailscale**](../../interface_guide/tailscale.md) tutorial.
+    Network storage refers to a centralized data storage solution that allows multiple users and devices to access and share files over a network. 
+    
+    To set up network storage, refer to [Network Storage](../../interface_guide/network_storage.md).
 
 ---
 
-## NETWORK {#network}
+=== "AdGuard Home"
 
-### Firewall {#firewall}
+    AdGuard Home is a network-wide ad and tracker blocking solution that acts as a DNS server to filter unwanted content across all devices connected to a home network. 
+    
+    To set up AdGuard Home, refer to [AdGuard Home](../../interface_guide/adguardhome.md).
 
-GL.iNet's routers include multiple firewall features to ensure a secure connection and complete oversight by users. It lets users configure firewall rules including Port Forwarding, Open Ports, and DMZ.
+=== "Parental Control"
 
-[Click here to learn more about GL.iNet routers' firewall](../../interface_guide/firewall.md)
+    Parental Control is designed to help you manage and control your children's devices. It includes limiting their screen time and restricting their access to certain content.
 
-### Multi-WAN {#multi-wan}
+    To set up parental control, refer to [Parental Control](../../interface_guide/parental_control.md).
 
-Please visit the [**Multi-WAN**](../../interface_guide/multi-wan.md) tutorial.
+=== "ZeroTier"
 
-### LAN {#lan}
+    ZeroTier is a software-defined networking solution that enables users to create secure, virtual networks over the internet, connecting devices as if they were on the same local network. 
+    
+    To set up ZeroTier, refer to [ZeroTier](../../interface_guide/zerotier.md).
 
-Please visit the [**LAN**](../../interface_guide/lan.md) tutorial.
+=== "Tailscale"
 
-### Guest Network {#guest-network}
+    Tailscale is a VPN service that allows you to access your devices and applications anywhere. 
+    
+    To set up Tailscale, refer to [Tailscale](../../interface_guide/tailscale.md). 
 
-Please visit the [**Guest Network**](../../interface_guide/guest_network.md) tutorial.
+## Network {#network}
 
-### DNS {#dns}
+=== "Firewall" 
 
-Please visit the [**DNS**](../../interface_guide/dns.md) tutorial.
+    The Firewall page provides essential security enhancements for your network. It includes features such as Port Forwarding, Open Ports, and DMZ. These tools allow you to manage and customize your network's traffic flow and enhance its security.
 
-### Network Mode {#network-mode}
+    * Port Forwarding: Redirect specific traffic from the internet to designated devices within your network, enabling access to services like gaming servers or web servers.
+    * Open Ports: Monitor and control which ports on your router are open, helping to prevent unauthorized access and potential security threats.
+    * DMZ (Demilitarized Zone): Expose one device to the Internet by forwarding all inbound traffic to it.
 
-Please visit the [**Network Mode**](../../interface_guide/network_mode.md) tutorial.
+    To set up firewall-related settings, refer to [Firewall](../../interface_guide/firewall.md).
 
-### IPv6 {#ipv6}
+=== "Multi-WAN"
 
-Please visit the [**IPv6**](../../interface_guide/ipv6.md) tutorial.
+    Multi-WAN is a networking feature that allows you to set up your router with multiple internet connections (e.g., ethernet, repeater, and tethering) at the same time. If your current internet connection fails, the router will automatically switch to another internet connection. This ensures smooth and uninterrupted internet access. 
 
-### MAC Address {#mac-address}
+    To set up multi-WAN, refer to [Multi-WAN](../../interface_guide/multi-wan.md). 
 
-The Mac Address page was previously called Mac Clone and has been changed to Mac Address since v4.2.
+=== "LAN"
 
-Please visit the [**MAC Address**](../../interface_guide/mac_address.md) tutorial.
+    LAN, or Local Area Network, is a network that connects computers and devices within a limited geographical area, such as a home or office. It enables high-speed data transfer and resource sharing, allowing devices to communicate with each other efficiently. 
+    
+    To set up LAN, refer to [LAN](../../interface_guide/lan.md). 
 
-### Drop-in Gateway {#drop-in-gateway}
+=== "Guest Network"
 
-Please visit the [**Drop-in Gateway**](../../interface_guide/drop-in_gateway.md) tutorial.
+    It allows you to set a subnet within the IPv4 private address ranges 192.168.0.0/16, 172.16.0.0/12, or 10.0.0.0/8, specify the gateway and netmask IP addresses, and configure security settings like AP isolation for the guest network.
 
-### IGMP Snooping {#igmp-snooping}
-
-Please visit the [**IGMP Snooping**](../../interface_guide/igmp_snooping.md) tutorial.
-
-### NAT Settings {nat-settings}
-
-Please visit the [**NAT Settings**](../../interface_guide/nat_settings.md) tutorial.
+    To set up guest network, refer to [Guest Network](../../interface_guide/guest_network.md). 
 
 ---
 
-## SYSTEM {#system}
+=== "DNS"
 
-### Overview {#overview}
+    The DNS page allows you to set custom DNS servers, enable DNS rebinding attack protection, override the DNS settings of all clients, and allow custom DNS to override VPN DNS. You can use DNS servers automatically obtained from upstream devices or manually specify custom DNS servers.
 
-Please visit the [**System Overview**](../../interface_guide/system_overview.md) tutorial.
+    To set up DNS, refer to [DNS](../../interface_guide/dns.md).
 
-### Upgrade {#upgrade}
+=== "Network Mode" 
 
-GL.iNet provides regular updates on our routers' firmware to improve performance, resolving bugs and fix vulnerabilities.
+    Network mode refers to the configuration settings that determine how a device connects to a network and communicates with other devices. 
+    
+    To set up network mode, refer to [Network Mode](../../interface_guide/network_mode.md).
 
-Please visit the [**Upgrade**](../../interface_guide/upgrade.md) tutorial.
+=== "IPv6"
 
-### Scheduled Tasks {#scheduled-tasks}
+    IPv6, or Internet Protocol version 6, is the most recent version of the Internet Protocol designed to replace IPv4. It provides a vastly larger address space, allowing for a virtually unlimited number of unique IP addresses, which is essential for accommodating the growing number of devices connected to the internet. 
+    
+    To set up IPV6, refer to [IPV6](../../interface_guide/ipv6.md).
 
-Please visit the [**Scheduled Tasks**](../../interface_guide/scheduled_tasks.md) tutorial.
+=== "MAC Address"
 
-### Admin Password {#admin-password}
+    The MAC Address page allows you to view and manage the Media Access Control (MAC) addresses associated with your router. Key features available on this page include:
 
-This feature has been moved to [**Security**](../../interface_guide/security.md) since v4.5.
+    * Factory Default: Display the default MAC addresses for the router’s Ethernet and Repeater modes, providing a reference for original hardware settings.
+    * Clone: Clone the MAC address of a specific client device. This is particularly useful in scenarios where network access is restricted to certain devices.
+    * Manual: Manually specify a custom MAC address for your router. Additionally, you can use the Random button to generate a random MAC address, providing flexibility and enhanced privacy.
 
-Please visit the [**Admin Password**](../../interface_guide/admin_password.md) tutorial.
+    These features enable you to manage your router's MAC addresses effectively, ensuring compatibility and flexibility within various network environments.
 
-### Time Zone {#time-zone}
+    To manage MAC address, refer to [MAC Address](../../interface_guide/mac_address.md).
 
-Please visit the  [**Time Zone**](../../interface_guide/time_zone.md) tutorial.
+---
 
-### Toggle Button Settings {#toggle-button-settings}
+=== "Drop-in Gateway"
 
-Please visit the [**Toggle Button Settings**](../../interface_guide/toggle_button_settings.md) tutorial.
+    Drop-in gateway extends the functionality of your main router, including AdGuard Home, encrypted DNS, and VPN client. 
+    
+    To set up drop-in gateway, refer to these links:
+    
+    - [Drop-in Gateway](../../interface_guide/drop-in_gateway.md)
+    - [How to set up drop-in gateway](../../tutorials/how_to_set_up_drop_in_gateway.md)
 
-### Log {#log}
+=== "IGMP Snooping"
 
-Please visit the [**Log**](../../interface_guide/log.md) tutorial.
+    IGMP snooping is a network optimization technique used in Ethernet switches to manage and control multicast traffic. 
+    
+    To set up IGMP snooping, refer to [IGMP Snooping](../../interface_guide/igmp_snooping.md).
 
-### Security {#security}
+=== "NAT Settings"
 
-This feature is available since v4.5.
+    The NAT Settings page allows you to enable or disable Full Cone NAT and SIP ALG (Application Layer Gateway) functionality.
 
-Please visit the [**Security**](../../interface_guide/security.md) tutorial.
+    To set up NAT settings, refer to [NAT Settings](../../interface_guide/nat_settings.md).
 
-### Reset Firmware {#reset-firmware}
+## System {#system}
 
-Please visit the [**Reset Firmware**](../../interface_guide/reset_firmware.md) tutorial.
+=== "Overview"
 
-### Advanced Settings {#advanced-settings}
+    The Overview page provides a comprehensive snapshot of your router's current status and performance metrics. On this page, you can view:
 
-Please visit the [**Advanced Settings**](../../interface_guide/advanced_settings.md) tutorial.
+    * CPU Average Load: Monitor the average load on your router's CPU, helping to assess performance and identify potential bottlenecks.
+    * Memory Usage: Check how much of your router's memory is in use, aiding in the management of resources.
+    * LED Control: Toggle the router's LED lights on or off, allowing for customization of the device's visual indicators.
+    * Flash Usage: View the utilization of the router's flash storage, ensuring there's sufficient space for firmware and configuration data.
+    * Device Info: Access detailed information about your router's system, including uptime, hostname, model, architecture, OpenWrt version, kernel version, device ID, device MAC and device S/N.
+    * External Storage: Check the status of any external storage devices connected to the router, such as USB drives or TF cards.
+    
+    These features provide essential insights and controls, helping you to effectively manage and monitor your router's operation.
+
+    Please refer to [Overview](../../interface_guide/system_overview.md) for detailed instructions.
+
+=== "Upgrade"
+
+    The Upgrade page is used to update your router's firmware to the latest version, ensuring enhanced performance, security, and new features. This page offers two options for upgrading:
+
+    * Firmware Online Upgrade: Automatically check for the latest firmware version from the manufacturer's server. You can install the latest one if available online.
+    * Firmware Local Upgrade: Manually upload a firmware file from your computer to update the router, providing control over the upgrade version and timing.
+
+    These options allow you to keep your router up-to-date with the latest improvements and fixes.
+
+    Please refer to [Upgrade](../../interface_guide/upgrade.md) for detailed instructions.
+
+=== "Scheduled Tasks"
+
+    The Scheduled Tasks page allows you to automate various router functions based on a predefined schedule, enhancing convenience and efficiency. Key features on this page include:
+
+    * LED Display Schedule: Set a schedule to automatically turn the router's LED lights on or off, reducing light pollution during specific times.
+    * Schedule Reboot: Configure your router to reboot automatically at specified intervals, helping to maintain optimal performance and stability.
+    * Wi-Fi Status Schedule: Set a schedule to control the 5GHz / 2.4GHz Wi-Fi band, allowing for better management of network availability and power consumption.
+    
+    These scheduling options provide you with greater control over your router's operations, ensuring it meets your specific needs and preferences.
+
+    Please refer to [Scheduled Tasks](../../interface_guide/scheduled_tasks.md) for detailed instructions.
+
+---
+
+=== "Time Zone"
+
+    The Time Zone page allows you to set the correct time zone for your router, ensuring that all scheduled tasks, logs, and system events are accurately timestamped according to your local time. This setting is crucial for maintaining precise records and for the proper execution of time-based configurations.
+
+    Please refer to [Time Zone](../../interface_guide/time_zone.md) for detailed instructions.
+
+=== "Toggle Button Settings"
+
+    The Toggle Button Settings page allows you to configure the physical toggle button on your router, enabling you to assign specific functions to the button for quick access and control. This feature provides convenient shortcuts for common tasks and settings, enhancing the user experience and simplifying router management.
+
+    Please refer to [Toggle Button Settings](../../interface_guide/toggle_button_settings.md) for detailed instructions.
+
+=== "Log"
+
+    The Log page provides access to various logs that record the router's activities and events, aiding in troubleshooting and performance monitoring. This page includes:
+
+    * System Log: Detailed logs of system-level events and activities.
+    * Kernel Log: Logs related to the kernel's operations and events.
+    * Crash Log: Records of system crashes and errors, useful for diagnosing critical issues.
+    * Cloud Log: Logs of interactions and activities related to GoodCloud services integrated with the router.
+    * Nginx Log: Logs from the Nginx web server, if used by the router, detailing web traffic and server operations.
+    
+    Additionally, the page features an Export Log button, allowing you to export all collected logs for technical support analysis. This function is invaluable for diagnosing complex issues and obtaining professional assistance.
+
+    Please refer to [Log](../../interface_guide/log.md) for detailed instructions.
+
+---
+
+=== "Security"
+
+    **Note**: This feature is available since v4.5.
+
+    The Security page allows you to configure various security settings to protect your network and router from unauthorized access. This page includes options for:
+
+    * Admin Password: Set or change the password for the router's administrative interface to ensure only authorized users can modify settings.
+    * Local Access Control: Manage and restrict access to the router's interface from devices connected to your local network.
+    * Remote Access Control: Configure and restrict access to the router's interface from remote locations over the internet, enhancing security against external threats.
+
+    These settings help you maintain a secure network environment, safeguarding both your router and connected devices. 
+
+
+    Please refer to [Security](../../interface_guide/security.md) for detailed instructions.
+
+=== "Reset Firmware"
+
+    The Reset Firmware page allows you to reset your router's current firmware version to its default settings, erasing all custom configurations. This process will restore the router to the default settings of the currently installed firmware version. This can be useful for troubleshooting persistent issues or starting fresh with the current firmware's default configuration.
+
+    Please refer to [Reset Firmware](../../interface_guide/reset_firmware.md) for detailed instructions.
+
+=== "Advanced Settings"
+
+    The Advanced Settings page provides access to advanced configuration options through the OpenWrt LuCI interface, allowing experienced users to fine-tune their router's settings and functionalities beyond the basic interface options. This includes detailed network configurations, firewall settings, and other advanced system customizations.
+
+    Please refer to [Advanced Settings](../../interface_guide/advanced_settings.md) for detailed instructions.

@@ -101,19 +101,15 @@ Configure your Flint using one of the supported internet connection methods: Eth
 
 ## Wireless {#wireless}
 
-=== "Wireless"
+The Wireless page allows you to configure settings for both the 5 GHz and 2.4 GHz Wi-Fi networks, including enabling Wi-Fi, setting TX power, specifying the Wi-Fi name (SSID), enabling randomized BSSID, selecting Wi-Fi security mode and password, configuring SSID visibility, choosing the Wi-Fi mode, bandwidth, and channel.
 
-    The Wireless page allows you to configure settings for both the 5 GHz and 2.4 GHz Wi-Fi networks, including enabling Wi-Fi, setting TX power, specifying the Wi-Fi name (SSID), enabling randomized BSSID, selecting Wi-Fi security mode and password, configuring SSID visibility, choosing the Wi-Fi mode, bandwidth, and channel.
-
-    To set up Wireless, refer to [Wireless](../../interface_guide/wireless.md).
+To set up Wireless, refer to [Wireless](../../interface_guide/wireless_v4.8.md).
 
 ## Clients {#clients}
 
-=== "Clients"
+The Clients page displays information about connected devices. For each client, it shows the name, IP and MAC addresses, download and upload speeds, total traffic, and provides the ability to block the client or perform other actions.
 
-    The Clients page displays information about connected devices. For each client, it shows the name, IP and MAC addresses, download and upload speeds, total traffic, and provides the ability to block the client or perform other actions.
-
-    To set up Clients, refer to [Clients](../../interface_guide/clients.md).
+To set up Clients, refer to [Clients](../../interface_guide/clients.md).
 
 ## Cloud Services {#cloud-services}
 
@@ -210,11 +206,9 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 ## Flow Control {#flow-control}
 
-=== "Parental Control"
+Parental Control is designed to help you manage and control your children's devices. It includes limiting their screen time and restricting their access to certain content.
 
-    Parental Control is designed to help you manage and control your children's devices. It includes limiting their screen time and restricting their access to certain content.
-
-    To set up parental control, refer to [Parental Control](../../interface_guide/parental_control.md).
+To set up parental control, refer to [Parental Control](../../interface_guide/parental_control.md).
 
 ## Security {#security}
 
@@ -233,8 +227,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     * Open Ports on Router: Control which ports are open on the router, limiting potential vulnerabilities and unauthorized access.
 
     These settings help you maintain a secure network environment, safeguarding both your router and connected devices.
-
-    Please refer to [Security](../../interface_guide/security.md) for detailed instructions.
 
 === "NAT Mode"
 
@@ -326,8 +318,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     Please refer to [Upgrade](../../interface_guide/upgrade.md) for detailed instructions.
 
----
-
 === "Scheduled Tasks"
 
     The Scheduled Tasks page allows you to automate various router functions based on a predefined schedule, enhancing convenience and efficiency. Key features on this page include:
@@ -341,6 +331,8 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     Please refer to [Scheduled Tasks](../../interface_guide/scheduled_tasks.md) for detailed instructions.
 
+---
+
 === "Time Zone"
 
     The Time Zone page allows you to set the correct time zone for your router, ensuring that all scheduled tasks, logs, and system events are accurately timestamped according to your local time. This setting is crucial for maintaining precise records and for the proper execution of time-based configurations.
@@ -352,8 +344,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     The Reset Firmware page allows you to reset your router's current firmware version to its default settings, erasing all custom configurations. This process will restore the router to the default settings of the currently installed firmware version. This can be useful for troubleshooting persistent issues or starting fresh with the current firmware's default configuration.
 
     Please refer to [Reset Firmware](../../interface_guide/reset_firmware.md) for detailed instructions.
-
----
 
 === "Log"
 

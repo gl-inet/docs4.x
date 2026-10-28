@@ -88,19 +88,15 @@ Configure your Mango using one of the supported internet connection methods: Eth
 
 ## Wireless {#wireless}
 
-=== "Wireless"
+The Wireless page allows you to configure settings for the 2.4 GHz Wi-Fi networks, including enabling Wi-Fi, setting TX power, specifying the Wi-Fi name (SSID), selecting Wi-Fi security mode and password, configuring SSID visibility, choosing the Wi-Fi mode, bandwidth, and channel. 
 
-    The Wireless page allows you to configure settings for the 2.4 GHz Wi-Fi networks, including enabling Wi-Fi, setting TX power, specifying the Wi-Fi name (SSID), selecting Wi-Fi security mode and password, configuring SSID visibility, choosing the Wi-Fi mode, bandwidth, and channel. 
-
-    To set up Wireless, refer to [Wireless](../../interface_guide/wireless.md).
+To set up Wireless, refer to [Wireless](../../interface_guide/wireless_v4.8.md).
 
 ## Clients {#clients}
 
-=== "Clients"
+The Clients page displays information about connected devices. For each client, it shows the name, IP and MAC addresses, download and upload speeds, total traffic, and provides the ability to block the client or perform other actions.
 
-    The Clients page displays information about connected devices. For each client, it shows the name, IP and MAC addresses, download and upload speeds, total traffic, and provides the ability to block the client or perform other actions.
-
-    To set up Clients, refer to [Clients](../../interface_guide/clients.md).
+To set up Clients, refer to [Clients](../../interface_guide/clients.md).
 
 ## VPN {#vpn}
 

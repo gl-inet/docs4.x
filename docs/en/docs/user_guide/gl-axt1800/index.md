@@ -100,19 +100,15 @@ Configure your Slate AX using one of the supported internet connection methods: 
 
 ## Wireless {#wireless}
 
-=== "Wireless"
+The Wireless page allows you to configure settings for the 5 GHz and 2.4 GHz Wi-Fi networks, including enabling Wi-Fi, setting TX power, specifying the Wi-Fi name (SSID), enabling randomized BSSID, selecting Wi-Fi security mode and password, configuring SSID visibility, choosing the Wi-Fi mode, bandwidth, and channel. 
 
-    The Wireless page allows you to configure settings for the 5 GHz and 2.4 GHz Wi-Fi networks, including enabling Wi-Fi, setting TX power, specifying the Wi-Fi name (SSID), enabling randomized BSSID, selecting Wi-Fi security mode and password, configuring SSID visibility, choosing the Wi-Fi mode, bandwidth, and channel. 
-
-    To set up Wireless, refer to [Wireless](../../interface_guide/wireless.md).
+To set up Wireless, refer to [Wireless](../../interface_guide/wireless_v4.8.md).
 
 ## Clients {#clients}
 
-=== "Clients"
+The Clients page displays information about connected devices. For each client, it shows the name, IP and MAC addresses, download and upload speeds, total traffic, and provides the ability to block the client or perform other actions.
 
-    The Clients page displays information about connected devices. For each client, it shows the name, IP and MAC addresses, download and upload speeds, total traffic, and provides the ability to block the client or perform other actions.
-
-    To set up Clients, refer to [Clients](../../interface_guide/clients.md).
+To set up Clients, refer to [Clients](../../interface_guide/clients.md).
 
 ## Cloud Services {#cloud-services}
 
@@ -218,13 +214,13 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     To set up LAN, refer to [LAN](../../interface_guide/lan.md). 
 
----
-
 === "Guest Network"
 
     It allows you to set a subnet within the IPv4 private address ranges 192.168.0.0/16, 172.16.0.0/12, or 10.0.0.0/8, specify the gateway and netmask IP addresses, and configure security settings like AP isolation for the guest network.
 
     To set up guest network, refer to [Guest Network](../../interface_guide/guest_network.md). 
+
+---
 
 === "DNS"
 
@@ -238,8 +234,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     To manage Ethernet ports, refer to [Port Management](../../interface_guide/ethernet_port.md).
 
----
-
 === "Network Mode"
 
     Network mode refers to the configuration settings that determine how a device connects to a network and communicates with other devices. 
@@ -252,6 +246,8 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     To set up IPV6, refer to [IPV6](../../interface_guide/ipv6.md).
 
+---
+
 === "Drop-in gateway"
 
     Drop-in gateway extends the functionality of your main router, including AdGuard Home, encrypted DNS, and VPN client. 
@@ -260,8 +256,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     - [Drop-in Gateway](../../interface_guide/drop-in_gateway.md)
     - [How to set up drop-in gateway](../../tutorials/how_to_set_up_drop_in_gateway.md)
-
----
 
 === "IGMP Snooping"
 

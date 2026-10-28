@@ -82,7 +82,7 @@ The Clients page displays information about connected devices. For each client, 
 
 To set up Clients, refer to [Clients](../../interface_guide/clients.md).
 
-## Cloud services {#cloud-services}
+## Cloud Services {#cloud-services}
 
 === "GoodCloud"
 
@@ -140,13 +140,13 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     To set up network storage, refer to [Network Storage](../../interface_guide/network_storage.md).
 
----
-
 === "AdGuard Home"
 
     AdGuard Home is a network-wide ad and tracker blocking solution that acts as a DNS server to filter unwanted content across all devices connected to a home network. 
     
     To set up AdGuard Home, refer to [AdGuard Home](../../interface_guide/adguardhome.md).
+
+---
 
 === "Parental Control"
 
@@ -159,8 +159,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     ZeroTier is a software-defined networking solution that enables users to create secure, virtual networks over the internet, connecting devices as if they were on the same local network. 
     
     To set up ZeroTier, refer to [ZeroTier](../../interface_guide/zerotier.md).
-
----
 
 === "Tailscale"
 
@@ -186,25 +184,23 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     To set up LAN, refer to [Lan Tutorial](../../interface_guide/lan.md). 
 
----
-
 === "DNS"
 
     The DNS page allows you to set custom DNS servers, enable DNS rebinding attack protection and override DNS settings of all clients, allow custom DNS to override VPN DNS, and configure the DNS server settings mode to automatic or manually specify DNS servers from the Ethernet connection.
 
     To set up DNS, refer to [DNS](../../interface_guide/dns.md).
 
-=== "Network Port Management"
+---
 
-    The Network Port Management page allows you to configure the WAN and LAN ports, set the WAN/LAN interface to Ethernet, specify the MAC mode and MAC address for the WAN interface, and show the negotiated network port rate.
+=== "Port Management"
+
+    The Port Management page allows you to configure the WAN and LAN ports, set the WAN/LAN interface to Ethernet, specify the MAC mode and MAC address for the WAN interface, and show the negotiated network port rate.
 
 === "Network Mode"
 
     Network mode refers to the configuration settings that determine how a device connects to a network and communicates with other devices. 
     
     To set up network mode, refer to [Network Mode](../../interface_guide/network_mode.md).
-
----
 
 === "IPv6"
 
@@ -218,13 +214,13 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     To set up drop-in gateway, refer to [How to set up drop-in gateway](../../tutorials/how_to_set_up_drop_in_gateway.md). 
 
+---
+
 === "IGMP Snooping"
 
     IGMP snooping is a network optimization technique used in Ethernet switches to manage and control multicast traffic. 
     
     To set up IGMP snooping, refer to [IGMP Snooping](../../interface_guide/igmp_snooping.md).
-
----
 
 === "Network Acceleration"
 
@@ -277,13 +273,13 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     Please refer to [Scheduled Tasks](../../interface_guide/scheduled_tasks.md) for detailed instructions.
 
----
-
 === "Time Zone"
 
     The Time Zone page allows you to set the correct time zone for your router, ensuring that all scheduled tasks, logs, and system events are accurately timestamped according to your local time. This setting is crucial for maintaining precise records and for the proper execution of time-based configurations.
 
     Please refer to [Time Zone](../../interface_guide/time_zone.md) for detailed instructions.
+
+---
 
 === "Log"
 
@@ -311,8 +307,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     These settings help you maintain a secure network environment, safeguarding both your router and connected devices.
 
     Please refer to [Security](../../interface_guide/security.md) for detailed instructions.
-
----
 
 === "Reset Firmware"
 

@@ -168,14 +168,14 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     The Ethernet Port page allows you to configure the WAN and LAN ports, set the WAN/LAN interface to Ethernet, specify the MAC mode and MAC address for the WAN interface, and show the negotiated network port rate.
 
     To set up ethernet Port, refer to [Ethernet Port](../../interface_guide/ethernet_port_v4.10.md).
-    
----
 
 === "DNS"
 
     The DNS page allows you to set custom DNS servers, enable DNS rebinding attack protection, override the DNS settings of all clients, and allow custom DNS to override VPN DNS. You can use DNS servers automatically obtained from upstream devices or manually specify custom DNS servers.
 
     To set up DNS, refer to [DNS](../../interface_guide/dns.md).
+
+---
 
 === "IPv6"
 
@@ -188,8 +188,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     IGMP snooping is a network optimization technique used in Ethernet switches to manage and control multicast traffic. 
     
     To set up IGMP snooping, refer to [IGMP Snooping](../../interface_guide/igmp_snooping.md).
-
----
 
 === "Network Mode"
 
@@ -205,11 +203,9 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 ## Flow Control {#flow-control}
 
-=== "Parental Control"
+Parental Control is designed to help you manage and control your children's devices. It includes limiting their screen time and restricting their access to certain content.
 
-    Parental Control is designed to help you manage and control your children's devices. It includes limiting their screen time and restricting their access to certain content.
-
-    To set up parental control, refer to [Parental Control](../../interface_guide/parental_control_v4.9.md).
+To set up parental control, refer to [Parental Control](../../interface_guide/parental_control_v4.9.md).
 
 ## Security {#security}
 

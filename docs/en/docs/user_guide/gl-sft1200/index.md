@@ -99,19 +99,15 @@ Configure your Opal using one of the supported internet connection methods: Ethe
 
 ## Wireless {#wireless}
 
-=== "Wireless"
+The Wireless page allows you to configure settings for the 5 GHz and 2.4 GHz Wi-Fi networks, including enabling Wi-Fi, setting TX power, specifying the Wi-Fi name (SSID), enabling randomized BSSID, selecting Wi-Fi security mode and password, configuring SSID visibility, choosing the Wi-Fi mode, bandwidth, and channel. 
 
-    The Wireless page allows you to configure settings for the 5 GHz and 2.4 GHz Wi-Fi networks, including enabling Wi-Fi, setting TX power, specifying the Wi-Fi name (SSID), enabling randomized BSSID, selecting Wi-Fi security mode and password, configuring SSID visibility, choosing the Wi-Fi mode, bandwidth, and channel. 
-
-    To set up Wireless, refer to [Wireless](../../interface_guide/wireless.md).
+To set up Wireless, refer to [Wireless](../../interface_guide/wireless_v4.8.md).
 
 ## Clients {#clients}
 
-=== "Clients"
+The Clients page displays information about connected devices. For each client, it shows the name, IP and MAC addresses, download and upload speeds, total traffic, and provides the ability to block the client or perform other actions.
 
-    The Clients page displays information about connected devices. For each client, it shows the name, IP and MAC addresses, download and upload speeds, total traffic, and provides the ability to block the client or perform other actions.
-
-    To set up Clients, refer to [Clients](../../interface_guide/clients.md).
+To set up Clients, refer to [Clients](../../interface_guide/clients.md).
 
 ## Cloud Services {#cloud-services}
 
@@ -167,13 +163,13 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     To set up guest network, refer to [Guest Network](../../interface_guide/guest_network.md). 
 
----
-
 === "DNS"
 
     The DNS page allows you to set custom DNS servers, enable DNS rebinding attack protection, override the DNS settings of all clients, and allow custom DNS to override VPN DNS. You can use DNS servers automatically obtained from upstream devices or manually specify custom DNS servers.
 
     To set up DNS, refer to [DNS](../../interface_guide/dns.md).
+
+---
 
 === "Ethernet Port"
 
@@ -187,13 +183,13 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     To set up IPV6, refer to [IPV6](../../interface_guide/ipv6.md).
 
----
-
 === "IGMP Snooping"
 
     IGMP snooping is a network optimization technique used in Ethernet switches to manage and control multicast traffic. 
     
     To set up IGMP snooping, refer to [IGMP Snooping](../../interface_guide/igmp_snooping.md).
+
+---
 
 === "Network Mode"
 
@@ -231,8 +227,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     * Open Ports on Router: Control which ports are open on the router, limiting potential vulnerabilities and unauthorized access.
 
     These settings help you maintain a secure network environment, safeguarding both your router and connected devices.
-
-    Please refer to [Security](../../interface_guide/security.md) for detailed instructions.
 
 === "NAT Mode"
 

@@ -176,13 +176,13 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     To set up ethernet Port, refer to [Ethernet Port](../../interface_guide/ethernet_port_v4.10.md).
 
----
-
 === "IPv6"
 
     IPv6, or Internet Protocol version 6, is the most recent version of the Internet Protocol designed to replace IPv4. It provides a vastly larger address space, allowing for a virtually unlimited number of unique IP addresses, which is essential for accommodating the growing number of devices connected to the internet. 
     
     To set up IPV6, refer to [IPV6](../../interface_guide/ipv6.md).
+
+---
 
 === "IGMP Snooping"
 
@@ -195,8 +195,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     Network Mode page allows you to configure the operational role of the router to meet different network deployment needs. You can select from various modes tailored to scenarios ranging from home Wi-Fi coverage to enterprise-level multi-link networking, with each mode enabling or disabling specific router features to optimize performance.
 
     To set up Network Mode, refer to [Network Mode](../../interface_guide/network_mode.md).
-
----
 
 === "Drop-in Gateway"
 

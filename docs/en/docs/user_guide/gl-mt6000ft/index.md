@@ -120,7 +120,7 @@ The Clients page displays information about connected devices, including device 
 
 Please refer to [Clients](../../interface_guide/clients.md) for details.
 
-## Cloud services {#cloud-services}
+## Cloud Services {#cloud-services}
 
 === "GoodCloud"
 

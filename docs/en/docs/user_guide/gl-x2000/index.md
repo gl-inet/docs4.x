@@ -129,7 +129,7 @@ Below is an overview of the features in the Spitz Plus web Admin Panel.
 
 The Wireless page allows you to configure settings for both 5 GHz and 2.4 GHz Wi-Fi networks, including enabling/disabling Wi-Fi, setting TX power, specifying the Wi-Fi name (SSID), enabling/disabling randomized BSSID, selecting Wi-Fi security mode, setting Wi-Fi password, configuring SSID visibility, choosing the Wi-Fi mode, bandwidth, and channel.
 
-To set up Wireless, refer to [Wireless](../../interface_guide/wireless.md).
+To set up Wireless, refer to [Wireless](../../interface_guide/wireless_v4.8.md).
 
 ## Clients {#clients}
 
@@ -237,13 +237,13 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     To set up LAN, refer to [Lan Tutorial](../../interface_guide/lan.md). 
 
----
-
 === "Guest Network"
 
     It allows you to set a subnet within the IPv4 private address ranges 192.168.0.0/16, 172.16.0.0/12, or 10.0.0.0/8, specify the gateway and netmask IP addresses, and configure security settings like AP isolation for the guest network.
 
     To set up guest network, refer to [Guest Network](../../interface_guide/guest_network.md). 
+
+---
 
 === "DNS"
 
@@ -257,7 +257,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     To manage Ethernet ports, refer to [Port Management](../../interface_guide/ethernet_port.md).
 
----
 
 === "Network Mode"
 
@@ -271,11 +270,11 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     To set up IPV6, refer to [IPV6](../../interface_guide/ipv6.md).
 
+---
+
 === "Drop-in Gateway"
 
     Drop-in Gateway extends the functionality of your main router with features it may not have, including AdGuard Home, encrypted DNS, and VPN. To set up drop-in gateway, refer to [How to set up drop-in gateway](../../tutorials/how_to_set_up_drop_in_gateway.md). 
-
----
 
 === "IGMP Snooping"
 
@@ -337,13 +336,13 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     Please refer to [Scheduled Tasks](../../interface_guide/scheduled_tasks.md){target="_blank"} for detailed instructions.
 
----
-
 === "Time Zone"
 
     The Time Zone page allows you to set the correct time zone for your router, ensuring that all scheduled tasks, logs, and system events are accurately timestamped according to your local time. This setting is crucial for maintaining precise records and for the proper execution of time-based configurations.
 
     Please refer to [Time Zone](../../interface_guide/time_zone.md){target="_blank"} for detailed instructions.
+
+---
 
 === "Log"
 
@@ -371,8 +370,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     These settings help you maintain a secure network environment, safeguarding both your router and connected devices.
 
     Please refer to [Security](../../interface_guide/security.md) for detailed instructions.
-
----
 
 === "Reset Firmware"
 

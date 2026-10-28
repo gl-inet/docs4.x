@@ -340,8 +340,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     For detailed setup instructions and more information, please refer to [Upgrade](../../interface_guide/upgrade.md).
 
----
-
 === "Scheduled Tasks"
 
     The Scheduled Tasks page allows you to automate various router functions based on a predefined schedule, enhancing convenience and efficiency. Key features on this page include:
@@ -352,6 +350,8 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     These scheduling options provide you with greater control over your router's operations, ensuring it meets your specific needs and preferences.
 
     For detailed setup instructions and more information, please refer to [Scheduled Tasks](../../interface_guide/scheduled_tasks.md).
+
+---
 
 === "Time Zone"
 
@@ -364,8 +364,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     The Reset Firmware page allows you to reset your router's current firmware version to its default settings, erasing all custom configurations. This process will restore the router to the default settings of the currently installed firmware version. This can be useful for troubleshooting persistent issues or starting fresh with the current firmware's default configuration.
 
     For detailed setup instructions and more information, please refer to [Reset Firmware](../../interface_guide/reset_firmware.md).
-
----
 
 === "Log"
 

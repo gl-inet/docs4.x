@@ -50,4 +50,4 @@ After adding, renaming, or deleting pages, editing `redirect_maps`, or changing 
 
 The pre-commit hook in `.githooks/` runs these checks on staged files; enable it with `git config core.hooksPath .githooks`.
 
-Pull requests run `.github/workflows/pr-check.yml`: the same checks on the changed files, strict builds of the changed languages, and `scripts/pr_check.py` on the added lines (codespell spelling and missing images fail; LanguageTool grammar and removed heading IDs are warnings). If codespell flags a correct word, add it to `scripts/codespell_ignore.txt`.
+Pull requests run `.github/workflows/pr-check.yml`: the same checks on the changed files, strict builds of the changed languages, and `scripts/pr_check.py` on the added lines (codespell spelling and missing images fail; LanguageTool grammar, removed heading IDs, mismatched image alt text, and copied "Official Website" links are warnings). If codespell flags a correct word, add it to `scripts/codespell_ignore.txt`.

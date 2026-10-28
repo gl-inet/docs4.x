@@ -14,6 +14,10 @@ block an unrelated change. Errors fail the check; warnings are only reported.
                         LanguageTool server; skipped without --languagetool
   heading-id (warning)  English heading IDs that a page no longer has; links,
                         bookmarks and localized pages still use them
+  alt-text   (warning)  file-name-like alt text whose number differs from the
+                        image file name, e.g. ![vpnsafe4](.../vpnsafe3.jpg)
+  copied-link (warning) an "Official Website" link of an English page that is
+                        also used under another heading of the page
 
 Structure checks (heading IDs, anchors, localized pages) are run by
 ``python scripts/precommit.py --base origin/master``.
@@ -48,6 +52,8 @@ PAGE_RE = re.compile(r"^docs/(?P<lang>[a-z]{2})/docs/.+\.md$")
 HUNK_RE = re.compile(r"^@@ -\S+ \+(\d+)(?:,(\d+))? @@")
 CODESPELL_RE = re.compile(r"^(?P<path>.+?):(?P<line>\d+): (?P<word>.+?) ==> (?P<fix>.+)$")
 CODESPELL_IGNORE = Path(__file__).resolve().parent / "codespell_ignore.txt"
+IMAGE_ALT_RE = re.compile(r"!\[([^\]\s]*\d[^\]\s]*)\]\(\s*<?([^)\s>]+)")
+OFFICIAL_LINK_RE = re.compile(r"\[Official Website\]\((https?://[^)\s]+)\)", re.I)
 
 # Turns a Markdown line into plain prose for LanguageTool; replacements keep
 # the sentence readable.
@@ -263,6 +269,50 @@ def check_grammar(pages: dict[str, set[int]], url: str) -> list[Finding]:
     return findings
 
 
+def check_alt_text(pages: dict[str, set[int]]) -> list[Finding]:
+    """Flag alt texts like vpnsafe4 on vpnsafe3.jpg: same name, different number."""
+    def letters(name: str) -> str:
+        return re.sub(r"[\d_.-]", "", name.lower())
+
+    findings = []
+    for path, numbers in pages.items():
+        for number, raw in prose_lines(page_lines(path)):
+            if number not in numbers:
+                continue
+            for alt, url in IMAGE_ALT_RE.findall(raw):
+                stem = url.rsplit("/", 1)[-1].rsplit(".", 1)[0]
+                same_name = re.sub(r"[_.-]", "", alt.lower()) == re.sub(r"[_.-]", "", stem.lower())
+                if not same_name and letters(alt) == letters(stem):
+                    findings.append(Finding("warning", "alt-text", path, number,
+                                            f'alt text "{alt}" does not match the image file "{stem}"'))
+    return findings
+
+
+def check_copied_links(pages: dict[str, set[int]]) -> list[Finding]:
+    """Flag an "Official Website" link that is also used under another heading, e.g. copied from another provider."""
+    findings = []
+    for path, numbers in pages.items():
+        if not path.startswith("docs/en/"):
+            continue
+        lines = page_lines(path)
+        starts = [h.index + 1 for h in anchors.parse_headings([f"{text}\n" for text in lines])]
+        uses: dict[str, list[tuple[int, int]]] = {}  # url -> (section start, line)
+        for number, raw in prose_lines(lines):
+            for url in OFFICIAL_LINK_RE.findall(raw):
+                section = starts[bisect_right(starts, number) - 1] if starts and starts[0] <= number else 0
+                uses.setdefault(url, []).append((section, number))
+        for url, places in uses.items():
+            if len({section for section, _ in places}) < 2:
+                continue
+            for section, number in places:
+                if number in numbers:
+                    others = ", ".join(str(n) for s, n in places if s != section)
+                    findings.append(Finding("warning", "copied-link", path, number,
+                                            f"this Official Website link is also used on line(s) {others} "
+                                            f"under another heading; check it belongs to this section: {url}"))
+    return findings
+
+
 def explicit_ids(lines: list[str]) -> set[str]:
     return {h.explicit_id for h in anchors.parse_headings(lines) if h.explicit_id}
 
@@ -325,7 +375,7 @@ def main(argv: list[str] | None = None) -> int:
         findings += check_grammar(pages, args.languagetool)
     else:
         print("grammar: skipped, no --languagetool server given")
-    findings += check_heading_ids(args.base)
+    findings += check_heading_ids(args.base) + check_alt_text(pages) + check_copied_links(pages)
     findings.sort(key=lambda f: (f.path, f.line, f.check))
 
     report(findings)

@@ -32,7 +32,7 @@ Schalten Sie bei einem Störfall zuerst den Netzschalter aus.
 
 ## Produktübersicht {#product-overview}
 
-Flint 3e (GL-BE6500) ist ein Dualband-Wi-Fi-7-Desktop-Router für Heimanwender und kleine Büros. Er unterstützt Wi-Fi 7 Multi-Link Operation (MLO) und kombiniert 2.4GHz- und 5GHz-Kanäle intelligent zu einer einzigen Verbindung. Die gleichzeitige Nutzung beider Frequenzbänder reduziert Interferenzen und Überlastung, während 4K QAM eine kombinierte Dualband-Geschwindigkeit von 6453 Mbit/s liefert, also 20 % mehr als Wi-Fi 6. Das aufgerüstete 5GHz-Band (4x4 MIMO, 160MHz) verbessert zudem die Reichweite deutlich.
+Flint 3e (GL-BE6500) ist ein Dualband-Wi-Fi-7-Desktop-Router für Heimanwender und kleine Büros. Er unterstützt Multi-Link Operation (MLO), sodass kompatible Geräte Verbindungen auf beiden Frequenzbändern, 2.4 GHz und 5 GHz, nutzen können, um die Auswirkungen von Interferenzen und Überlastung zu verringern. Seine 4K-QAM-Modulation bietet unter ansonsten identischen Bedingungen bis zu 20% höhere theoretische Datenraten als die 1024-QAM-Modulation von Wi-Fi 6. Der Router unterstützt eine kombinierte theoretische Dualband-Datenrate von bis zu 6452 Mbps, mit 4×4 MIMO und einer Kanalbreite von 160 MHz im 5-GHz-Band. Die tatsächlichen Geschwindigkeiten hängen von den Fähigkeiten der Clients und den Netzwerkbedingungen ab.
 
 Ausgestattet mit 5× 2.5G-Ethernet-Ports und 1× USB-3.0-Port unterstützt er schnelle kabelgebundene Verbindungen und eine Speichererweiterung. Darüber hinaus ist er mit über 30 VPN-Diensten kompatibel und erreicht auf WireGuard® und OpenVPN-DCO eine starke VPN-Leistung von bis zu 680 Mbit/s. Außerdem ist Bark Parental Control kostenlos enthalten. Damit vereint er Leistung, Praxistauglichkeit und Sicherheit.
 
@@ -261,7 +261,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
 === "DNS"
 
-    Auf der Seite DNS können Sie benutzerdefinierte DNS-Server festlegen, den Schutz vor DNS-Rebinding-Angriffen aktivieren und die DNS-Einstellungen aller Clients überschreiben. Außerdem können Sie erlauben, dass benutzerdefiniertes DNS VPN-DNS überschreibt, und den DNS-Servermodus auf automatisch setzen oder DNS-Server der Ethernet-Verbindung manuell angeben.
+    Auf der Seite DNS können Sie benutzerdefinierte DNS-Server festlegen, den Schutz vor DNS-Rebinding-Angriffen aktivieren, die DNS-Einstellungen aller Clients überschreiben und zulassen, dass benutzerdefiniertes DNS VPN-DNS überschreibt. Sie können automatisch von vorgeschalteten Geräten bezogene DNS-Server verwenden oder benutzerdefinierte DNS-Server manuell angeben.
 
     Zum Einrichten von DNS lesen Sie bitte [DNS](../../interface_guide/dns.md).
 

@@ -87,7 +87,7 @@ Configurez votre Flint 4 à l’aide de l’une des méthodes de connexion Inter
     3. Sur l’écran tactile de Flint 4, sélectionnez **Tethering**, puis appuyez sur **Connect**. Le routeur se connecte alors à votre appareil.
     4. Une fois la connexion à Internet établie, la section Tethering de la page d’accueil de l’écran tactile devient bleue (active). Appuyez sur Tethering sur l’écran tactile ou connectez-vous au panneau d’administration Web pour consulter les informations de connexion.
 
-    **Remarque** : si la connexion échoue, vérifiez que l’alimentation fournit 12 V 4 A. Une alimentation insuffisante peut empêcher le port USB de fonctionner. Répétez les étapes ci-dessus ou connectez-vous au panneau d’administration Web pour vérifier l’état de la connexion Tethering.
+    **Remarque** : si la connexion échoue, assurez-vous d’utiliser un adaptateur secteur 12V/4A, car une alimentation insuffisante peut empêcher le port USB d’alimenter correctement l’appareil connecté. Répétez ensuite les étapes ci-dessus ou connectez-vous au panneau d’administration Web pour vérifier l’état de la connexion Tethering.
 
 === "Cellular"
 
@@ -168,7 +168,7 @@ Un VPN (réseau privé virtuel) crée un canal sécurisé et chiffré entre votr
 
 === "DNS"
 
-    La page DNS permet de définir des serveurs DNS personnalisés, d’activer la protection contre les attaques de rebinding DNS, de remplacer les paramètres DNS de tous les clients, d’autoriser le DNS personnalisé à remplacer le DNS du VPN et de configurer les serveurs DNS automatiquement ou à partir de la connexion Ethernet.
+    La page DNS vous permet de définir des serveurs DNS personnalisés, d’activer la protection contre les attaques de rebinding DNS, de remplacer les paramètres DNS de tous les clients et d’autoriser les DNS personnalisés à remplacer les DNS VPN. Vous pouvez utiliser les serveurs DNS obtenus automatiquement auprès des appareils en amont ou spécifier manuellement des serveurs DNS personnalisés.
 
     Pour plus de détails, consultez [DNS](../../interface_guide/dns.md).
 

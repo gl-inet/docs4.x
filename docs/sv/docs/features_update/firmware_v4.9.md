@@ -76,13 +76,13 @@ En VPN-tunnelgrupp kan innehålla flera konfigurationsprofiler. Du kan anpassa p
 
 ## AmneziaWG 2.0 {#amneziawg-20}
 
-Firmware v4.9 introducerar officiellt protokollet AmneziaWG 2.0 med flera nya parametrar för trafikobfuskering. Det uppgraderade protokollet undgår effektivt identifiering av DPI och andra system för trafikidentifiering, vilket avsevärt förbättrar möjligheten att dölja anslutningen och motstå störningar. Detta gör det möjligt att upprätta stabila och tillförlitliga VPN-anslutningar i regioner med nätverksbegränsningar och i komplicerade nätverksmiljöer.
+Firmware v4.9 introducerar officiellt protokollet AmneziaWG 2.0 med flera nya parametrar för trafikobfuskering. Det uppdaterade protokollet är utformat för att göra VPN-trafik svårare att känna igen för DPI och andra system för trafikidentifiering. Dessa förbättringar kan hjälpa till att upprätta och behålla VPN-anslutningar i regioner med nätverksbegränsningar och i komplexa nätverksmiljöer.
 
 ![amneziawg](https://static.gl-inet.com/docs/router/en/4/features_update/4.9/amneziawg.png){class="glboxshadow"}
 
 ## IoT-nätverk {#iot-network}
 
-Med [IoT Network](../interface_guide/iot_network.md) i firmware v4.9 kan du skapa ett separat Wi-Fi-nätverk för smarta IoT-enheter. Nätverket är fysiskt och logiskt isolerat från det primära nätverket och förhindrar att IoT-enheter belastar huvudnätverkets resurser eller medför säkerhetsrisker där. Optimeringen ger bredare enhetskompatibilitet för olika smarta IoT-klienter och förbättrar säkerheten i hemnätverket som helhet.
+Med [IoT Network](../interface_guide/iot_network.md) i firmware v4.9 kan du skapa ett särskilt Wi-Fi-nätverk för IoT-enheter. Nätverket är logiskt separerat från det primära nätverket och hjälper till att minska IoT-enheternas möjliga påverkan på huvudnätverkets säkerhet. De konfigurerbara nätverksinställningarna ger större flexibilitet vid hantering av IoT-enheter.
 
 ![iot network](https://static.gl-inet.com/docs/router/en/4/features_update/4.9/iot_network.png){class="glboxshadow"}
 

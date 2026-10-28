@@ -87,7 +87,7 @@ Configureer je Flint 4 met een van de ondersteunde methoden voor internetverbind
     3. Selecteer op het touchscreen van Flint 4 **Tethering** en tik op **Connect**. De router maakt vervolgens verbinding met je apparaat.
     4. Zodra de internetverbinding tot stand is gebracht, wordt het gedeelte Tethering op de startpagina van het touchscreen blauw (actief). Tik op het touchscreen op Tethering of meld je aan bij het webbeheerpaneel om de verbindingsgegevens te bekijken.
 
-    **Opmerking**: controleer bij een mislukte verbinding of de voeding 12V 4A levert. Bij onvoldoende voeding krijgt de USB-poort mogelijk geen stroom. Herhaal de bovenstaande stappen of meld je aan bij het webbeheerpaneel om de status van de Tethering-verbinding te controleren.
+    **Opmerking**: controleer bij een mislukte verbinding of je een voedingsadapter van 12V/4A gebruikt. Bij onvoldoende voeding kan de USB-poort het aangesloten apparaat mogelijk niet goed van stroom voorzien. Herhaal vervolgens de bovenstaande stappen of meld je aan bij het webbeheerpaneel om de status van de Tethering-verbinding te controleren.
 
 === "Cellular"
 
@@ -168,7 +168,7 @@ Een VPN (virtual private network) maakt een beveiligde, versleutelde verbinding 
 
 === "DNS"
 
-    Op de pagina DNS kun je aangepaste DNS-servers instellen, bescherming tegen DNS-rebindingaanvallen inschakelen en de DNS-instellingen van alle clients overschrijven. Je kunt aangepaste DNS-instellingen de VPN-DNS laten overschrijven en de DNS-servermodus op automatisch instellen of handmatig DNS-servers uit de Ethernet-verbinding opgeven.
+    Op de pagina DNS kun je aangepaste DNS-servers instellen, bescherming tegen DNS-rebindingaanvallen inschakelen, de DNS-instellingen van alle clients overschrijven en toestaan dat aangepaste DNS de VPN-DNS overschrijft. Je kunt DNS-servers gebruiken die automatisch van upstreamapparaten zijn verkregen of handmatig aangepaste DNS-servers opgeven.
 
     Raadpleeg [DNS](../../interface_guide/dns.md) voor meer informatie.
 

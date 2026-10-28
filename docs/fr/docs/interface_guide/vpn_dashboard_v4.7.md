@@ -178,7 +178,7 @@ Les règles de routage du serveur WireGuard s'affichent comme suit. Cliquez sur 
 
 ![règles de routage du serveur WireGuard](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/vpnserver_route_rule_wg.png){class="glboxshadow"}
 
-**Remarque** : en mode routes personnalisées, le client VPN ignore le fichier de configuration et la configuration de routage envoyée par le serveur. L'utilisation ou non du tunnel VPN chiffré lors de l'accès à un segment réseau dépend des règles de routage que vous définissez manuellement.
+**Remarque** : les règles de routage du serveur permettent de définir des entrées de routage personnalisées sur le serveur VPN, en précisant l’adresse cible, la passerelle et les autres paramètres de chaque règle. Ces entrées configurées manuellement sont prioritaires sur les paramètres de routage par défaut du fichier de configuration VPN et déterminent quel trafic client passe par le tunnel chiffré.
 
 ### Options globales {#global-options_1}
 

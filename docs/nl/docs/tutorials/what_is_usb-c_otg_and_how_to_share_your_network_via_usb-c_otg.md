@@ -15,7 +15,7 @@ De USB-C-poort met OTG van Mudi 7 werkt in **Device**- of **Host**-modus voor fl
 
 ### Connect to a Computer {#connect-to-a-computer}
 
-De meeste computers werken alleen als host en ondersteunen geen OTG. Wanneer je een computer via USB verbindt, toont de router een moduskeuze. Je kunt elke modus selecteren; Mudi 7 onderhandelt de rol automatisch. De computer herkent hem zonder extra stuurprogramma als USB-adapter voor internettoegang.
+De meeste computers werken alleen als host en ondersteunen geen OTG. Wanneer je een computer via USB verbindt, toont de router een moduskeuze. Je kunt elke modus selecteren. Mudi 7 probeert automatisch over de rol te onderhandelen, afhankelijk van de ondersteuning door het systeem en de stuurprogramma’s van het aangesloten apparaat. Na een geslaagde onderhandeling herkent de computer Mudi 7 als een USB-netwerkadapter voor internettoegang. In de meeste gevallen zijn geen extra stuurprogramma’s nodig.
 
 ### Connect to a Smartphone {#connect-to-a-smartphone}
 
@@ -27,7 +27,7 @@ De meeste computers werken alleen als host en ondersteunen geen OTG. Wanneer je 
 
     1. Controleer bij gebruik van OTG op de telefoon of deze OTG ondersteunt en gebruik een USB-datakabel. Kabels die alleen opladen kunnen geen netwerksignalen verzenden.
 
-    2. In Device Mode toont de telefoon geen melding over de netwerkverbinding. Controleer de netwerkstatus in de instellingen of voer een verbindingstest uit.
+    2. In Device Mode toont de telefoon mogelijk geen melding over de netwerkverbinding. Controleer de netwerkstatus in de instellingen of voer een verbindingstest uit.
 
         Als je het netwerk van Mudi 7 via **Device Mode** met een telefoon deelt, bijvoorbeeld iPhone 17 Pro, controleer je als volgt of Device Mode actief is.
 

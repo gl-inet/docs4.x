@@ -202,10 +202,10 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     La page Guest Network vous permet de créer et de gérer un réseau distinct pour vos invités, en leur donnant accès à Internet tout en gardant votre réseau principal sécurisé. Les principales fonctions de cette page sont les suivantes :
 
-    * Gateway : définissez une plage d'adresses IP spécifique pour le réseau invité afin de le distinguer de votre réseau principal.
+    * Gateway : définissez l’adresse IP de la passerelle du réseau invité.
     * DHCP : configurez le protocole Dynamic Host Configuration Protocol pour le réseau invité, qui attribue automatiquement des adresses IP aux appareils qui s'y connectent.
 
-    Ces fonctions garantissent à vos invités un accès Internet sans compromettre la sécurité ni les performances de votre réseau principal.
+    Le réseau invité fournit un accès à Internet aux invités et isole leur trafic de votre réseau principal afin de réduire les effets potentiels sur sa sécurité et ses performances.
     
     Pour des instructions détaillées et plus d'informations, consultez [Guest Network](../../interface_guide/guest_network.md).
 
@@ -243,7 +243,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
     * NAT6 : utilise la traduction d'adresses réseau pour IPv6 (NAT6) afin de traduire les adresses IPv6 internes et externes, de manière similaire au fonctionnement du NAT pour IPv4.
     * Static IPv6 : permet de configurer manuellement une adresse IPv6 statique pour votre routeur afin de garantir une adresse fixe pour une connectivité stable et une gestion plus simple des services réseau.
 
-    Ces paramètres vous aident à tirer parti des avantages d'IPv6, notamment un espace d'adressage plus vaste, des fonctions de sécurité améliorées et de meilleures performances.
+    Ces modes offrent des options de configuration IPv6 flexibles adaptées à différents environnements réseau.
 
     Pour des instructions détaillées et plus d'informations, consultez [IPv6](../../interface_guide/ipv6.md).
 

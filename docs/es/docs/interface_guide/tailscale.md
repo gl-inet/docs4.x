@@ -325,7 +325,7 @@ Siga estos pasos para configurar un **Exit Node personalizado** en el GL-BE9300.
 
     Cuando el enmascaramiento de IP está habilitado, no es necesario configurar rutas de subred en la consola Tailscale Admin. Los clientes LAN conectados al router pueden acceder directamente a la red Tailscale mediante la IP virtual de Tailscale del router.
 
-    En este ejemplo, el GL-BE9300 (`100.115.61.35`) y el GL-MG1300 (`100.113.50.89`) tienen direcciones IP virtuales de Tailscale. Si un PC está conectado al GL-BE9300, puede acceder directamente al panel de administración web del GL-MG1300 mediante la IP de la interfaz Tailscale del GL-BE9300.
+    En este ejemplo, el GL-BE9300 (`100.115.61.35`) y el GL-MG1300 (`100.113.50.89`) tienen direcciones IP virtuales de Tailscale. Si un PC está conectado al GL-BE9300, puede acceder directamente al panel de administración web del GL-MG1300 usando la IP de la interfaz Tailscale del GL-BE9300 como dirección de origen.
 
     ![test iP masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/test_ip_masquerading.png){class="glboxshadow"}
 

@@ -33,7 +33,7 @@ Puntos a tener en cuenta:
 
 - Ambos dispositivos deben actualizarse a la versión v4.5; de lo contrario, no podrán conectarse.
 - TAP-S2S solo funciona con **Global Proxy Mode**; se ajustará automáticamente cuando OpenVPN esté activado.
-- Después de habilitar esta función, no podrán usarse las siguientes funciones: **VPN server**, **Adguard Home**, **Parental Control**, **ZeroTier**, **Tailscale**, **Tor**, **Firewall**, **Multi-WAN**, **LAN**, **DNS**, **Network Mode**, **IPv6**, **MAC Address**, **Drop-in Gateway**, **IGMP Snooping**, etc.
+- Después de habilitar esta función en el cliente OpenVPN, no podrán usarse las siguientes funciones: **VPN server**, **Adguard Home**, **Parental Control**, **ZeroTier**, **Tailscale**, **Tor**, **Firewall**, **Multi-WAN**, **LAN**, **DNS**, **Network Mode**, **IPv6**, **MAC Address**, **Drop-in Gateway**, **IGMP Snooping**, etc.
 
 ---
 

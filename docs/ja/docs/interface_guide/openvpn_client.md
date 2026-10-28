@@ -666,6 +666,35 @@ OpenVPN サーバーの設定方法は [こちら](openvpn_server.md) を参照�
 
         ![VPNGate download page](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/vpngate/vpngate2.png){class="glboxshadow"}
 
+??? "VPN Safe"
+    ### VPN Safe {#vpn-safe}
+
+    [公式サイト](https://secure.vpnsafe.net/aff.php?aff=6){target="_blank"}
+
+    1. **VPN Safe Dashboard** にログインし、利用中のVPNサービスをクリックします。
+
+        ![vpnsafe1](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/vpnsafe/vpnsafe1.png){class="glboxshadow"}
+
+    2. Product Details ページを下にスクロールし、**OpenVPN Configuration** を探します。
+
+        ![vpnsafe2](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/vpnsafe/vpnsafe2.png){class="glboxshadow"}
+
+        ![vpnsafe3](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/vpnsafe/vpnsafe3.png){class="glboxshadow"}
+
+    3. すべての UDP/TCP 設定をダウンロードするには、**UDP Configs**（推奨）または **TCP Configs** をクリックします。ZIPファイルがダウンロードされます。解凍すると、利用可能なすべての設定ファイルを取得できます。
+
+        ![vpnsafe4](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/vpnsafe/vpnsafe4.jpg){class="glboxshadow"}
+
+    4. 利用可能なすべての UDP/TCP サーバーを確認するには、**UDP Servers**（推奨）または **TCP Servers** をクリックしてURL一覧を取得します。
+
+        ![vpnsafe5](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/vpnsafe/vpnsafe5.jpg){class="glboxshadow"}
+
+    5. 個別の UDP/TCP 設定をダウンロードするには、ドロップダウンリストで接続先のサーバーを選択し、**Download UDP/TCP Config** をクリックします。
+
+        ![vpnsafe6](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/vpnsafe/vpnsafe6.jpg){class="glboxshadow"}
+
+        ![vpnsafe7](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/vpnsafe/vpnsafe7.jpg){class="glboxshadow"}
+
 ??? "VPN Unlimited(KeepSolid)"
     ### VPN Unlimited(KeepSolid) {#vpn-unlimitedkeepsolid}
 

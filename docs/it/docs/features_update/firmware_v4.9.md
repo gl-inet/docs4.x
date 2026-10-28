@@ -76,13 +76,13 @@ Nel firmware v4.9, la [VPN Dashboard](../interface_guide/vpn_dashboard.md) è st
 
 ## AmneziaWG 2.0 {#amneziawg-20}
 
-Il firmware v4.9 introduce ufficialmente il protocollo AmneziaWG 2.0, dotato di più nuovi parametri di offuscamento del traffico. Il protocollo aggiornato evita efficacemente il rilevamento da parte di DPI e altri sistemi di identificazione del traffico, migliorando in modo significativo la riservatezza della connessione e la resistenza alle interferenze. Ciò consente di stabilire connessioni VPN stabili e affidabili in regioni con restrizioni di rete e in ambienti di rete complessi.
+Il firmware v4.9 introduce ufficialmente il protocollo AmneziaWG 2.0, dotato di diversi nuovi parametri di offuscamento del traffico. Il protocollo aggiornato è progettato per rendere il traffico VPN più difficile da riconoscere per DPI e altri sistemi di identificazione del traffico. Questi miglioramenti possono aiutare a stabilire e mantenere connessioni VPN in regioni con restrizioni di rete e in ambienti di rete complessi.
 
 ![amneziawg](https://static.gl-inet.com/docs/router/en/4/features_update/4.9/amneziawg.png){class="glboxshadow"}
 
 ## Rete IoT {#iot-network}
 
-La [Rete IoT](../interface_guide/iot_network.md) nel firmware v4.9 consente di creare una rete Wi-Fi dedicata e indipendente per i dispositivi smart IoT. Essendo isolata fisicamente e logicamente dalla rete principale, evita l’occupazione delle risorse di rete e i rischi di sicurezza derivanti dall’accesso dei dispositivi IoT alla rete principale. Questa ottimizzazione offre una compatibilità più ampia con vari client IoT smart e migliora complessivamente il sistema di sicurezza della rete domestica.
+La [Rete IoT](../interface_guide/iot_network.md) nel firmware v4.9 consente di creare una rete Wi-Fi dedicata ai dispositivi IoT. La separazione logica dalla rete principale aiuta a ridurre il potenziale impatto dei dispositivi IoT sulla sua sicurezza. Le impostazioni di rete configurabili offrono maggiore flessibilità nella gestione dei dispositivi IoT.
 
 ![iot network](https://static.gl-inet.com/docs/router/en/4/features_update/4.9/iot_network.png){class="glboxshadow"}
 

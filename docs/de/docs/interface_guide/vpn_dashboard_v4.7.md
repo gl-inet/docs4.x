@@ -178,7 +178,7 @@ Die WireGuard-Server-Routenregel wird wie folgt angezeigt. Klicken Sie auf **Add
 
 ![wg server route rule](https://static.gl-inet.com/docs/router/de/4/interface_guide/vpn_dashboard/4.7/vpnserver_route_rule_wg.png){class="glboxshadow"}
 
-**Hinweis**: Im Modus für benutzerdefinierte Routen ignoriert der VPN-Client die Konfigurationsdatei und die vom Server bereitgestellte Routing-Konfiguration. Ob beim Zugriff auf ein beliebiges Netzwerksegment der vom VPN bereitgestellte verschlüsselte Tunnel verwendet wird, wird durch die von Ihnen manuell festgelegten Routing-Regeln bestimmt.
+**Hinweis**: Mit Server-Routenregeln können Sie benutzerdefinierte Routing-Einträge auf dem VPN-Server festlegen und für jede Regel Zieladresse, Gateway und weitere Parameter angeben. Die manuell konfigurierten Einträge haben Vorrang vor den Standard-Routing-Einstellungen in der VPN-Konfigurationsdatei und bestimmen, welcher Client-Datenverkehr durch den verschlüsselten Tunnel geleitet wird.
 
 ### Globale Optionen {#global-options_1}
 

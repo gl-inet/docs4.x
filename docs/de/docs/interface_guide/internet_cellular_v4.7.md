@@ -81,7 +81,7 @@ Durch das Anwenden der Änderungen wird die Verbindung neu aufgebaut.
 
 - **TTL**: TTL (Time To Live) definiert, wie lange Pakete maximal im Netzwerk überleben können. Standardmäßig verringert der Router die TTL eingehender Pakete von Client-Geräten vor der Weiterleitung um 1. Die TTL-Einstellung gilt nur für IPv4.
 
-    **Hinweis**: Wenn Sie die TTL überschreiben oder einen anderen TTL-Wert vortäuschen möchten, legen Sie hier einen festen Wert fest. Geben Sie bei den meisten Modellen die gewünschte effektive TTL plus 1 ein, um die automatische Verringerung auszugleichen. Beim Mudi 7 (GL-E5800) wird der eingegebene Wert unverändert angewendet.
+    **Hinweis**: Wenn Sie die TTL überschreiben oder einen anderen TTL-Wert vortäuschen möchten, legen Sie hier einen festen Wert fest. Geben Sie bei den meisten Modellen die gewünschte effektive TTL plus 1 ein, um die automatische Verringerung auszugleichen.
 
 - **Service**: Wählen Sie den Mobilfunkdiensttyp aus, um festzulegen, welche Netzwerktechnologien das Modem verwenden soll.
 
@@ -222,7 +222,7 @@ Wenn Shortcut auf **Manual command** gesetzt ist, geben Sie den gewünschten Bef
 
 Sie können auch auf das Shortcut-Dropdown klicken und aus einer Liste mit **vordefinierten Befehlen** wählen.
 
-![shortcut](https://static.gl-inet.com/docs/router/de/4/interface_guide/internet_cellular/4.8/at_command_2.png){class="glboxshadow"}
+![shortcut](https://static.gl-inet.com/docs/router/de/4/interface_guide/internet_cellular/at_command_1.png){class="glboxshadow"}
 
 Die folgenden Befehle sind als Voreinstellungen verfügbar:
 
@@ -236,7 +236,7 @@ Die folgenden Befehle sind als Voreinstellungen verfügbar:
 
 Als Beispiel ist hier die Voreinstellung „Request IMEI“ ausgewählt. Klicken Sie auf „Send“, dann erhalten Sie das unten gezeigte Ergebnis.
 
-![shortcut example](https://static.gl-inet.com/docs/router/de/4/interface_guide/internet_cellular/4.8/at_command_3.png){class="glboxshadow"}
+![shortcut example](https://static.gl-inet.com/docs/router/de/4/interface_guide/internet_cellular/at_command_2.png){class="glboxshadow"}
 
 ## Anbieterprofil {#carrier-profile}
 

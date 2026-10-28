@@ -40,12 +40,12 @@ Upewnij się, że ufasz technikowi, a następnie kliknij "Accept", aby zezwolić
 
 ## 7. Komunikacja podczas sesji {#7-communicate-during-session}
 
-Podczas sesji wsparcia możesz swobodnie komunikować się przez głośnik, okno czatu w sesji Anydesk lub dowolną inną metodą, aby skutecznie rozwiązać swoje problemy.
+Podczas sesji wsparcia możesz swobodnie komunikować się przez głośnik, okno czatu w sesji AnyDesk lub dowolną inną metodą, aby skutecznie rozwiązać swoje problemy.
 
 ## 8. Zakończ sesję {#8-end-the-session}
 
-Po zakończeniu sesji wsparcia zakończ połączenie, klikając czerwony przycisk "End Session" w interfejsie AnyDesk. Spowoduje to zakończenie wszystkich uprawnień zdalnego dostępu. Aby zapewnić pełną ochronę prywatności, wykonaj również następujące czynności:
+Po zakończeniu sesji wsparcia zakończ połączenie, klikając czerwony przycisk "End Session" w interfejsie AnyDesk. Spowoduje to zamknięcie bieżącej sesji zdalnego wsparcia. Jeśli włączono **Unattended Access**, wyłącz tę funkcję osobno w ustawieniach zabezpieczeń AnyDesk. Aby zapewnić pełną ochronę prywatności, wykonaj również następujące czynności:
 
 - Zamknij całkowicie aplikację AnyDesk (nie tylko ją zminimalizuj).
 - Uruchom ponownie komputer, jeśli masz obawy dotyczące pozostałych procesów.
-- Sprawdź ustawienia systemu, aby potwierdzić, że nie pozostały aktywne uprawnienia zdalnego dostępu.
+- Sprawdź ustawienia zabezpieczeń AnyDesk, aby potwierdzić, że nie pozostały aktywne uprawnienia zdalnego dostępu.

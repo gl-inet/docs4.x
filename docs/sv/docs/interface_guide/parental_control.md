@@ -158,10 +158,6 @@ Om inställningarna inte får effekt kontrollerar du följande orsaker.
 
     DNS-cache i webbläsare och operativsystem kan fördröja ändringar. Rensa cachen.
 
-      * [Clear DNS cache on desktop Chrome](https://support.google.com/accounts/answer/32050){target="_blank"}
-
-      * [Clear DNS cache on desktop Edge](https://www.microsoft.com/en-us/edge/learning-center/how-to-manage-and-clear-your-cache-and-cookies?form=MA13I2){target="_blank"}
-
 2. Profilschemat har inte börjat.
 
 3. The entered domain name may be incorrect.

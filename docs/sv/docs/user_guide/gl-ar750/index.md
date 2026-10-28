@@ -190,7 +190,7 @@ Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindel
     * NAT6: Använd Network Address Translation för IPv6 (NAT6) för att översätta mellan interna och externa IPv6-adresser på ett sätt som liknar NAT för IPv4.
     * Static IPv6: Konfigurera en statisk IPv6-adress för routern manuellt. En fast adress ger en konsekvent anslutning och enklare hantering av nätverkstjänster.
 
-    Med dessa inställningar kan du dra nytta av IPv6-fördelar som större adressutrymme, förbättrade säkerhetsfunktioner och bättre prestanda.
+    Dessa lägen ger flexibla konfigurationsalternativ för IPv6 som passar olika nätverksmiljöer.
 
     Detaljerade konfigurationsanvisningar och mer information finns i [IPv6](../../interface_guide/ipv6.md).
 

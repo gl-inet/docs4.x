@@ -2,7 +2,7 @@
 
 ## Produktöversikt {#product-overview}
 
-Flint 3e (GL-BE6500) är en Wi-Fi 7-router med dubbla band för hemanvändare och små kontor. Den stöder Wi-Fi 7 Multi-Link Operation (MLO), som intelligent sammanför kanalerna på 2.4GHz och 5GHz till en enda anslutning. Samtidig användning av resurser på båda banden minskar störningar och överbelastning, medan 4K QAM ger en sammanlagd hastighet på 6453Mbps, vilket är 20% högre än Wi-Fi 6. Det uppgraderade 5GHz-bandet (4x4 MIMO, 160MHz) förbättrar även prestandan på långa avstånd avsevärt.
+Flint 3e (GL-BE6500) är en Wi-Fi 7-router med dubbla band för hemanvändare och små kontor. Den stöder Multi-Link Operation (MLO), vilket gör att kompatibla enheter kan använda länkar på både 2.4 GHz- och 5 GHz-banden för att minska effekterna av störningar och överbelastning. Dess 4K-QAM-modulering ger upp till 20% högre teoretiska datahastigheter än Wi-Fi 6:s 1024-QAM under i övrigt identiska förhållanden. Routern stöder en sammanlagd teoretisk datahastighet på upp till 6452 Mbps för båda banden, med 4×4 MIMO och en kanalbredd på 160 MHz på 5 GHz-bandet. Faktiska hastigheter beror på klienternas kapacitet och nätverksförhållandena.
 
 Med 5× 2.5G Ethernet-portar och 1× USB 3.0-port stöder den snabba kabelanslutningar och utökad lagring. Den är dessutom kompatibel med över 30 VPN-tjänster och levererar kraftfull VPN-prestanda på upp till 680Mbps med WireGuard® och OpenVPN-DCO. Kostnadsfri Bark Parental Control ingår, vilket ger en god balans mellan prestanda, praktisk användning och säkerhet.
 
@@ -231,7 +231,7 @@ Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindel
 
 === "DNS"
 
-    På sidan DNS kan du ange anpassade DNS-servrar, aktivera skydd mot DNS-rebinding-attacker och åsidosätta DNS-inställningarna för alla klienter. Du kan även tillåta att anpassad DNS åsidosätter VPN DNS samt ställa in DNS-serverläget på automatiskt eller manuellt ange DNS-servrar från Ethernet-anslutningen.
+    På sidan DNS kan du ange anpassade DNS-servrar, aktivera skydd mot DNS-rebinding-attacker, åsidosätta DNS-inställningarna för alla klienter och tillåta att anpassad DNS åsidosätter VPN-DNS. Du kan använda DNS-servrar som hämtas automatiskt från uppströmsenheter eller ange anpassade DNS-servrar manuellt.
 
     Information om hur du konfigurerar DNS finns i [DNS](../../interface_guide/dns.md).
 

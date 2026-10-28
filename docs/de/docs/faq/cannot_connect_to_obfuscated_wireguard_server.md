@@ -30,13 +30,13 @@ Wenn keine Verbindung zu einem verschleierten WireGuard-Server hergestellt werde
         
         > Hinweis: I1-I5 werden nicht automatisch generiert. Benutzer können sie manuell als zusätzliche Zeilen in der Konfigurationsdatei ergänzen, damit AmneziaWG-Datenverkehr wie andere gängige Protokolle wie QUIC oder WebRTC aussieht.
 
-    Wenn Ihr WireGuard-Client ein GL.iNet-Router ist, prüfen Sie dessen AmneziaWG-Version mit den folgenden zwei Methoden.
+    Wenn Ihr WireGuard-Server ein GL.iNet-Router ist, prüfen Sie dessen AmneziaWG-Version mit den folgenden zwei Methoden.
 
     ??? note "Über das Router Web Admin Panel prüfen"
 
         1. Melden Sie sich am Web Admin Panel Ihres Routers an.
 
-        2. Gehen Sie zu **VPN** -> **WireGuard Server** -> **Configuration** und prüfen Sie die Verschleierungsparameter. Wenn die Konfiguration **S3-S4** und **H1-H4** als variable Bereiche enthält, statt fester Werte, läuft auf dem Router AmneziaWG 2.0, wie unten gezeigt.
+        2. Gehen Sie zu **VPN** -> **WireGuard Server** -> **Configuration** und prüfen Sie die Verschleierungsparameter. Wenn die Konfiguration **S3-S4** oder **H1–H4** als variable Bereiche enthält, statt fester Werte, läuft auf dem Router AmneziaWG 2.0, wie unten gezeigt.
 
             ![awg 2.0 web](https://static.gl-inet.com/docs/router/de/4/faq/cannot_connect_to_obfuscated_wgserver/awg_2.0_web.png){class="glboxshadow"}
 
@@ -68,7 +68,7 @@ Wenn keine Verbindung zu einem verschleierten WireGuard-Server hergestellt werde
 
     - Wenn die Verbindung in der offiziellen App funktioniert, ist die Konfigurationsdatei gültig. Das Problem liegt möglicherweise beim ursprünglichen Client-Gerät. Prüfen Sie dessen Netzwerkverbindung oder wenden Sie sich an den Support.
 
-    - Wenn die Verbindung weiterhin fehlschlägt, liegt das Problem an der Router-Server-Konfiguration. Prüfen Sie die Servereinstellungen und Verschleierungsparameter.
+    - Wenn die Verbindung weiterhin fehlschlägt, kann das Problem mit der VPN-Serverkonfiguration des Routers, der Netzwerkverbindung oder den Firewall-Einstellungen zusammenhängen. Prüfen Sie diese Einstellungen und die Verschleierungsparameter.
 
 ---
 

@@ -6,13 +6,13 @@ Een captive portal is een webpagina waarop gebruikers van een openbare hotspot e
 
 ## Why use a router for public hotspots? {#why-use-a-router-for-public-hotspots}
 
-* Public Wi-Fi is not safe
+* Openbare Wi-Fi is niet veilig
 
-    Openbare wifi brengt aanzienlijke risico's met zich mee. Als je de GL.iNet-router met openbare wifi verbindt, kun je je via het beheerpaneel rechtstreeks bij je VPN-account aanmelden. De router versleutelt dan automatisch het verkeer van alle verbonden apparaten, zodat je niet op elk apparaat een VPN hoeft in te stellen.
+    Openbare wifi brengt aanzienlijke risico's met zich mee. Als je de GL.iNet-router met openbare wifi verbindt, kun je je via het beheerpaneel rechtstreeks bij je VPN-account aanmelden. Als je router is ingesteld om al het lokale verkeer via de VPN te leiden, wordt het verkeer van verbonden apparaten via de VPN versleuteld, zodat je niet op elk apparaat een VPN hoeft in te stellen.
 
-* Use as a repeater to allow connections with multiple devices
+* Gebruik als repeater om meerdere apparaten te verbinden
 
-    Sommige openbare wifinetwerken, zoals hotelwifi, beperken bovendien het aantal apparaten. Verbind een reisrouter met de hotelwifi en gebruik deze als repeater voor je laptops, smartphones en tablets. De hotelwifi ziet alleen de reisrouter als één apparaat, terwijl je meerdere apparaten met de router kunt verbinden.
+    Sommige openbare wifinetwerken, zoals hotelwifi, beperken bovendien het aantal apparaten. Verbind een reisrouter met de hotelwifi en gebruik deze als repeater voor je laptops, smartphones en tablets. De hotelwifi ziet de reisrouter als één apparaat. Je kunt meerdere apparaten met de reisrouter verbinden, tot het maximale aantal ondersteunde clients.
 
 ## Router verbinden met openbare hotspots met een captive portal {#how-to-connect-router-to-public-hotspots-with-captive-portal}
 

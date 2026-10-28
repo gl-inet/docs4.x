@@ -43,7 +43,7 @@ GL-MT6000 のネットワーク接続が失われた場合、OpenVPN Server を�
 
 - 両方のデバイスを v4.5 にアップグレードする必要があります。そうしないと接続できません。
 - TAP-S2S は Global Proxy Mode でのみ動作し、OpenVPN を有効にすると自動的に調整されます。
-- この機能を有効にすると、次の機能は使用できません: VPN サーバー、Adguard Home、Parental Control、ZeroTier、Tailscale、Tor、Firewall、Multi-WAN、LAN、DNS、Network Mode、IPv6、MAC Address、Drop-in Gateway、IGMP Snooping など。
+- OpenVPN クライアントでこの機能を有効にすると、次の機能は使用できません: VPN サーバー、Adguard Home、Parental Control、ZeroTier、Tailscale、Tor、Firewall、Multi-WAN、LAN、DNS、Network Mode、IPv6、MAC Address、Drop-in Gateway、IGMP Snooping など。
 
 ---
 

@@ -27,7 +27,7 @@ Per prima cosa, usa un router, supponiamo GL-MT6000, con un IP pubblico per avvi
 
 ![tutorials_export](https://static.gl-inet.com/docs/router/en/4/tutorials/tap_s2s_vs_tun/tutorials_export.png){class="glboxshadow"}
 
-Inoltre, usa un router, supponiamo GL-X3000, con un IP pubblico per aprire OpenVPN Client, importa il file di configurazione scaricato nei passaggi precedenti, fai clic su **Apply** e poi abilita la funzione.
+Inoltre, usa un router, supponiamo GL-X3000, per aprire OpenVPN Client, importa il file di configurazione scaricato nei passaggi precedenti, fai clic su **Apply** e poi abilita la funzione.
 
 ![tutorials_select_file](https://static.gl-inet.com/docs/router/en/4/tutorials/tap_s2s_vs_tun/tutorials_select_file.png){class="glboxshadow"}
 
@@ -43,7 +43,7 @@ Punti da notare:
 
 - Entrambi i dispositivi devono essere aggiornati alla versione v4.5, altrimenti non potranno connettersi;
 - TAP-S2S funziona solo con Global Proxy Mode e si regolerà automaticamente quando OpenVPN è attivo;
-- Dopo aver abilitato questa funzione, non possono essere usate le seguenti funzioni: VPN server, Adguard Home, Parental Control, ZeroTier, Tailscale, Tor, Firewall, Multi-WAN, LAN, DNS, Network Mode, IPv6, MAC Address, Drop-in Gateway, IGMP Snooping e così via.
+- Dopo aver abilitato questa funzione sul client OpenVPN, non possono essere usate le seguenti funzioni: VPN server, Adguard Home, Parental Control, ZeroTier, Tailscale, Tor, Firewall, Multi-WAN, LAN, DNS, Network Mode, IPv6, MAC Address, Drop-in Gateway, IGMP Snooping e così via.
 
 ---
 

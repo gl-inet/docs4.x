@@ -6,7 +6,7 @@ GoodCloud Site to Site umożliwia biurom w różnych lokalizacjach nawiązywanie
 
 ![site to site](https://static.gl-inet.com/goodcloud/docs/tutorials/site_to_site/s2s-main.png){class="glboxshadow"}
 
-**Scenariusz 1**: Dziesiątki oddziałów tej samej firmy wymagają integracji w jednolitą sieć prywatną, umożliwiającą bezproblemowe udostępnianie zasobów we wszystkich lokalizacjach.
+**Scenariusz 1**: Wiele oddziałów tej samej firmy wymagają integracji w jednolitą sieć prywatną, umożliwiającą bezproblemowe udostępnianie zasobów we wszystkich lokalizacjach.
 
 **Scenariusz 2**: Gdy dwie firmy w bliskiej współpracy wymagają współpracy biznesowej, Site to Site ułatwia ich pracę we wspólnym i bezpiecznym środowisku sieciowym.
 

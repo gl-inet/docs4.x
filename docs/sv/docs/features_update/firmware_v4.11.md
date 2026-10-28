@@ -16,6 +16,12 @@ Hämta den senaste firmwareversionen från [nedladdningscentret för firmware](h
 
 ![security scan](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/security_scan.png){class="glboxshadow"}
 
+## UPnP {#upnp}
+
+[UPnP](../interface_guide/upnp.md) låter kompatibla LAN-enheter och program automatiskt begära portmappningar utan manuell konfiguration av portvidarebefordran. Det förenklar anslutningar för onlinespel, peer-to-peer-fildelning och fjärråtkomst. På UPnP-sidan kan du visa aktiva mappningar, kontrollera återstående lånetid och ta bort mappningar vid behov.
+
+![UPnP](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/upnp.png){class="glboxshadow"}
+
 ## DNS {#dns}
 
 Den här versionen förbättrar [DNS](../interface_guide/dns_v4.11.md)-konfigurationen genom att samla WAN DNS, VPN DNS och Manual DNS på en sida. Du kan enkelt visa DNS-status för varje anslutningstyp, konfigurera anpassade DNS-servrar och välja om manuella DNS-inställningar ska gälla för VPN-tunnlar eller själva routern.

@@ -85,7 +85,7 @@ Configurez votre Slate 7 Pro avec l’une des méthodes de connexion Internet pr
     3. Sur l’écran tactile de Slate 7 Pro, sélectionnez **Tethering**, puis touchez **Connect**. Le routeur se connecte alors à votre appareil.
     4. Une fois la connexion Internet établie, la section Tethering de la page d’accueil de l’écran tactile devient bleue (active). Vous pouvez toucher Tethering sur l’écran tactile ou vous connecter au panneau d’administration Web pour consulter les informations de connexion.
 
-    **Remarque** : si la connexion échoue, assurez-vous que la tension d’alimentation est supérieure à 9V 3A, car une alimentation insuffisante peut empêcher l’alimentation du port USB. Répétez les étapes ci-dessus, ou connectez-vous au panneau d’administration web pour vérifier l’état de la connexion Tethering.
+    **Remarque** : si la connexion échoue, assurez-vous d’utiliser un adaptateur USB PD prenant en charge 9V/3A ou 12V/2.5A, car une alimentation insuffisante peut empêcher le port USB d’alimenter correctement l’appareil connecté. Répétez ensuite les étapes ci-dessus ou connectez-vous au panneau d’administration Web pour vérifier l’état de la connexion Tethering.
 
 === "Cellular"
 
@@ -168,7 +168,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
 === "DNS"
 
-    La page DNS vous permet de définir des serveurs DNS personnalisés, d’activer la protection contre les attaques DNS rebinding et de remplacer les paramètres DNS de tous les clients, d’autoriser le DNS personnalisé à remplacer le DNS du VPN, et de configurer le mode des paramètres du serveur DNS sur automatique ou de spécifier manuellement les serveurs DNS de la connexion Ethernet.
+    La page DNS vous permet de définir des serveurs DNS personnalisés, d’activer la protection contre les attaques de rebinding DNS, de remplacer les paramètres DNS de tous les clients et d’autoriser les DNS personnalisés à remplacer les DNS VPN. Vous pouvez utiliser les serveurs DNS obtenus automatiquement auprès des appareils en amont ou spécifier manuellement des serveurs DNS personnalisés.
 
     Pour configurer le DNS, consultez [DNS](../../interface_guide/dns.md).
 

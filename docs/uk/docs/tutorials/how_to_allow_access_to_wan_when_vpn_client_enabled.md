@@ -18,7 +18,7 @@
 
 Якщо цей параметр увімкнено, під час з’єднання VPN клієнтські пристрої й далі матимуть доступ до служб WAN у підмережі вищого рівня, наприклад принтера або NAS.
 
-## Для прошивки v4.8 та новіших версій {#for-firmware-v48-and-higher}
+## Для прошивки v4.8 {#for-firmware-v48}
 
 Параметр **Allow Access WAN** видалено з VPN Dashboard у прошивці v4.8. Проте доступ до локальної WAN можна налаштувати за допомогою політики VPN.
 
@@ -48,7 +48,7 @@
 
     ![Виключення підмережі WAN із тунелю](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/exclude-target.png){class="glboxshadow"}
 
-    У цьому прикладі використовується підмережа 192.168.0.1/24. Уведіть її та застосуйте налаштування. Тунель VPN матиме такий вигляд:
+    У цьому прикладі використовується підмережа 192.168.1.0/24. Уведіть її та застосуйте налаштування. Тунель VPN матиме такий вигляд:
 
     ![Застосування виключеної підмережі WAN](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/target-apply.png){class="glboxshadow"}
 
@@ -89,6 +89,66 @@
     Для перевірки з’єднання можна скористатися командою ping.
 
     ![Перевірка доступу до WAN командою ping](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/ping-test.png){class="glboxshadow"}
+
+## Для прошивки v4.9 та новіших версій {#for-firmware-v49-and-above}
+
+Виконайте наведені нижче дії, щоб надати пристроям LAN клієнта VPN доступ до локальних служб WAN.
+
+1. Увійдіть у вебпанель адміністрування клієнта VPN та перейдіть до **VPN** -> **VPN Dashboard**.
+
+    Натисніть **Add VPN Tunnel**, щоб почати.
+
+    ![add vpn tunnel](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/add_vpn_tunnel.png){class="glboxshadow" width=700}
+
+2. Виберіть один або кілька профілів, за потреби відкоригуйте їхній пріоритет праворуч і натисніть **Next**.
+
+    ![select profiles](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/select_profiles_4.9.png){class="glboxshadow" width=600}
+
+    Виберіть **All Clients**, потім натисніть **Next**. За потреби можна вибрати окремих клієнтів.
+
+    ![all clients](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/all_clients_4.9.png){class="glboxshadow" width=600}
+
+    Виберіть **Exclude specified Domain / IP List**, уведіть підмережу WAN маршрутизатора та натисніть **Apply**. Увесь трафік до підмережі WAN проходитиме через локальний WAN замість тунелю VPN.
+
+    У цьому прикладі використовується підмережа 192.168.1.0/24. Уведіть її та застосуйте налаштування.
+
+    ![exclude target](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/exclude-target_4.9.png){class="glboxshadow" width=600}
+
+    ??? "Як визначити підмережу WAN маршрутизатора GL.iNet?"
+
+        Підмережу WAN маршрутизатора GL.iNet зазвичай можна знайти на сторінці INTERNET. Її визначає пристрій вищого рівня, до якого підключено інтерфейс WAN, наприклад модем провайдера або шлюз вищого рівня.
+
+        Наприклад, маршрутизатор працює як додатковий, а його порт WAN підключено до іншої локальної мережі, зокрема модема провайдера або порту LAN основного маршрутизатора. Якщо WAN IP маршрутизатора — 192.168.1.165, Gateway — 192.168.1.1, а Subnet Mask — 255.255.255.0 (поширена маска для малих мереж), відповідна підмережа WAN — 192.168.1.0/24. Це також підмережа LAN пристрою вищого рівня.
+
+        ![Відомості про локальну підмережу WAN](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/local-wan-details.png){class="glboxshadow gl-80-desktop"}
+
+        **Примітка**: Довжина префікса 192.168.1.0/24 — 24, що відповідає масці підмережі 255.255.255.0. Якщо WAN Subnet Mask маршрутизатора відрізняється від 255.255.255.0, довжина префікса WAN не буде "/24". Визначайте підмережу WAN за фактичною конфігурацією WAN.
+
+3. Натисніть значок шестірні вгорі праворуч, щоб налаштувати політику для трафіку, який не відповідає жодному тунелю VPN.
+
+    ![select config](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/select-config_4.9.png){class="glboxshadow"}
+
+    Виберіть **Allow Non-VPN Traffic**, потім натисніть **Apply**.
+
+    ![allow non-vpn traffic](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/allow_non-vpn_traffic.png){class="glboxshadow" width=500}
+
+4. Натисніть кнопку живлення, щоб увімкнути цей тунель VPN. Почнеться встановлення з’єднання.
+
+    ![enable vpn](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/enable_vpn_4.9.png){class="glboxshadow" width=700}
+
+    Зачекайте кілька хвилин. Після встановлення з’єднання VPN індикатор стану тунелю стане зеленим.
+
+    ![vpn connected](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/vpn_connected_4.9.png){class="glboxshadow" width=700}
+
+    Перевірте з’єднання VPN за публічною IP-адресою. Наприклад, відкрийте браузер і перейдіть на [whatismyip](https://whatismyipaddress.com/){target="_blank"}. Відобразяться публічна IP-адреса та місце розташування, як показано нижче.
+
+    ![Перевірка публічної IP-адреси VPN](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/ipcheck_4.9.png){class="glboxshadow"}
+
+5. Відкрийте пристрої або служби в підмережі WAN та перевірте, чи доступні вони.
+
+    Для перевірки з’єднання можна скористатися командою ping.
+
+    ![Перевірка доступу до WAN командою ping](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/ping-test_4.9.png){class="glboxshadow" width=500}
 
 ---
 

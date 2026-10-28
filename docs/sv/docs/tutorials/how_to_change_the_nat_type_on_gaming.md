@@ -1,24 +1,24 @@
 # Ändra NAT-typ för spel {#how-to-change-the-nat-type-on-gaming}
 
-De flesta speltillverkare rekommenderar att du aktiverar UPnP på routern för att få en bättre NAT-typ, men studier visar att UPnP är ett osäkert protokoll.
+Vissa spelutvecklare rekommenderar att du aktiverar UPnP på routern för att få en bättre NAT-typ. UPnP medför dock potentiella säkerhetsrisker.
 
-Du kan uppnå samma resultat på ett säkrare sätt med DMZ eller portvidarebefordran.
+Du kan konfigurera DMZ eller portvidarebefordran på routern för att uppnå samma resultat. Innan du aktiverar någon av funktionerna bör du förstå hur den fungerar och vilka säkerhetsrisker den medför.
 
 ## Kontrollera spelenhetens IP-adress {#check-your-game-ip}
 
-Öppna klientlistan och kontrollera vilken IP-adress som har tilldelats spelenheten. Du behöver använda IP-adressen i följande konfiguration.
+Logga först in på routern. Öppna klientlistan och kontrollera vilken IP-adress som har tilldelats spelenheten. Du behöver använda IP-adressen i följande konfiguration.
 
 ![gameip](https://static.gl-inet.com/docs/router/en/4/tutorials/gamling/gameip.png){class="glboxshadow"}
 
 ## Metod 1: DMZ {#method-1-dmz}
 
-Gå till **Network > Port Forwarding** i sidofältet och aktivera DMZ med spelenhetens IP-adress.
+Gå till **Network** -> **Port Forwarding** i sidofältet och aktivera DMZ med spelenhetens IP-adress.
 
 ![dmz](https://static.gl-inet.com/docs/router/en/4/tutorials/gamling/dmzgame.png){class="glboxshadow"}
 
 ## Metod 2: Portvidarebefordran {#method-2-port-forward}
 
-Gå till **Network > Port Forwarding** i sidofältet och lägg till de portar som behövs med spelenhetens IP-adress.
+Gå till **Network** -> **Port Forwarding** i sidofältet och lägg till de portar som behövs med spelenhetens IP-adress.
 
 ![inputport](https://static.gl-inet.com/docs/router/en/4/tutorials/gamling/inputport.png){class="glboxshadow"}
 
@@ -42,11 +42,11 @@ Vissa spel kan kräva vidarebefordran av andra portar. Mer information finns på
 
 ## Full Cone NAT {#full-cone-nat}
 
-Du kan aktivera Full Cone NAT under **Network > NAT Settings** för att minska latensen.
+Du kan aktivera Full Cone NAT för att minska latensen. Funktionen har varit tillgänglig sedan firmware v4.5.
+
+Gå till **Network** -> **NAT Settings**, aktivera **Full Cone NAT** vid behov och klicka på **Apply**.
 
 ![conenat](https://static.gl-inet.com/docs/router/en/4/tutorials/gamling/conenat.png){class="glboxshadow"}
-
-* Funktionen är tillgänglig i firmware 4.5 och senare.
 
 ---
 

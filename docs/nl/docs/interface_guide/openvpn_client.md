@@ -667,6 +667,35 @@ Neem voor verdere hulp contact op met de ondersteuning van je serviceprovider al
 
         ![VPNGate download page](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/vpngate/vpngate2.png){class="glboxshadow"}
 
+??? "VPN Safe"
+    ### VPN Safe {#vpn-safe}
+
+    [Officiële website](https://secure.vpnsafe.net/aff.php?aff=6){target="_blank"}
+
+    1. Meld je aan bij het **VPN Safe Dashboard** en klik op je actieve VPN-dienst.
+
+        ![vpnsafe1](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/vpnsafe/vpnsafe1.png){class="glboxshadow"}
+
+    2. Scrol op de pagina Product Details naar **OpenVPN Configuration**.
+
+        ![vpnsafe2](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/vpnsafe/vpnsafe2.png){class="glboxshadow"}
+
+        ![vpnsafe3](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/vpnsafe/vpnsafe3.png){class="glboxshadow"}
+
+    3. Klik op **UDP Configs** (aanbevolen) of **TCP Configs** om alle UDP/TCP-configuraties als ZIP-archief te downloaden. Pak het archief uit om alle beschikbare configuratiebestanden te krijgen.
+
+        ![vpnsafe4](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/vpnsafe/vpnsafe4.jpg){class="glboxshadow"}
+
+    4. Klik op **UDP Servers** (aanbevolen) of **TCP Servers** om een URL-lijst van alle beschikbare UDP/TCP-servers te krijgen.
+
+        ![vpnsafe5](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/vpnsafe/vpnsafe5.jpg){class="glboxshadow"}
+
+    5. Selecteer in de vervolgkeuzelijst de server waarmee je verbinding wilt maken en klik op **Download UDP/TCP Config** om één UDP/TCP-configuratie te downloaden.
+
+        ![vpnsafe6](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/vpnsafe/vpnsafe6.jpg){class="glboxshadow"}
+
+        ![vpnsafe7](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/vpnsafe/vpnsafe7.jpg){class="glboxshadow"}
+
 ??? "VPN Unlimited(KeepSolid)"
     ### VPN Unlimited(KeepSolid) {#vpn-unlimitedkeepsolid}
 

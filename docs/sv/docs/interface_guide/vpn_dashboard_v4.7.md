@@ -177,7 +177,7 @@ Under WireGuard Server Route Rule klickar du på **Add Route Rule**, anger **Tar
 
 ![wg server route rule](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/vpnserver_route_rule_wg.png){class="glboxshadow"}
 
-**Obs!** I läget för egna rutter ignorerar klienten konfigurationsfilen och serverns routning. Manuella regler avgör om tunneln används.
+**Obs!** Serverns routningsregler låter dig definiera egna routningsposter på VPN-servern med måladress, gateway och andra parametrar för varje regel. Manuellt konfigurerade poster har företräde framför standardinställningarna för routning i VPN-konfigurationsfilen och avgör vilken klienttrafik som skickas genom den krypterade tunneln.
 
 ### Global Options {#global-options_1}
 

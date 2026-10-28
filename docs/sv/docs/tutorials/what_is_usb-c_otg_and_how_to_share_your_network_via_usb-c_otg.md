@@ -15,7 +15,7 @@ Den OTG-kompatibla USB-C-porten på Mudi 7 fungerar i antingen **Device**- eller
 
 ### Ansluta till en dator {#connect-to-a-computer}
 
-De flesta datorer fungerar endast som värdar och stöder inte OTG. När en dator ansluts till routern via USB visar routern ett fönster för val av läge. Du kan välja valfritt läge, och Mudi 7 förhandlar automatiskt om rollen. Datorn identifierar sedan routern som en USB-adapter för direkt internetåtkomst utan ytterligare drivrutiner.
+De flesta datorer fungerar endast som värdar och stöder inte OTG. När en dator ansluts till routern via USB visar routern ett fönster för val av läge. Du kan välja valfritt läge. Mudi 7 försöker automatiskt förhandla om rollen, beroende på den anslutna enhetens system- och drivrutinsstöd. När förhandlingen har lyckats identifierar datorn Mudi 7 som en USB-nätverksadapter för internetåtkomst. I de flesta fall behövs inga ytterligare drivrutiner.
 
 ### Ansluta till en smarttelefon {#connect-to-a-smartphone}
 
@@ -27,7 +27,7 @@ De flesta datorer fungerar endast som värdar och stöder inte OTG. När en dato
 
     1. När du använder telefonens OTG-funktion för anslutningen kontrollerar du att telefonen stöder OTG och använder en USB-kabel som kan överföra data. Kablar som endast kan ladda kan inte överföra nätverkssignaler.
 
-    2. När Device Mode är aktiverat visar telefonen ingen avisering om nätverksanslutningen. Kontrollera nätverksstatusen i telefonens inställningar eller kör ett anslutningstest för att verifiera funktionen.
+    2. När Device Mode är aktiverat kanske telefonen inte visar någon avisering om nätverksanslutningen. Kontrollera nätverksstatusen i telefonens inställningar eller kör ett anslutningstest för att verifiera funktionen.
 
         Om du till exempel delar nätverket från Mudi 7 till en telefon via **Device Mode** (t.ex. iPhone 17 Pro) kontrollerar du att Device Mode är aktivt genom att följa stegen nedan.
 

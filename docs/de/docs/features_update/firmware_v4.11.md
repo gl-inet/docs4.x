@@ -16,6 +16,12 @@ Laden Sie die neueste Firmware im [Firmware Download Center](https://dl.gl-inet.
 
 ![security scan](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/security_scan.png){class="glboxshadow"}
 
+## UPnP {#upnp}
+
+[UPnP](../interface_guide/upnp.md) ermöglicht kompatiblen LAN-Geräten und Anwendungen, automatisch Portzuordnungen anzufordern, ohne Portweiterleitungen manuell zu konfigurieren. Dies vereinfacht Verbindungen für Online-Spiele, Peer-to-Peer-Dateifreigabe und Fernzugriff. Auf der UPnP-Seite können Sie aktive Zuordnungen anzeigen, die verbleibende Lease-Zeit prüfen und Zuordnungen bei Bedarf löschen.
+
+![UPnP](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/upnp.png){class="glboxshadow"}
+
 ## DNS {#dns}
 
 Diese Version verbessert die [DNS](../interface_guide/dns_v4.11.md)-Konfiguration, indem WAN DNS, VPN DNS und Manual DNS auf einer einzigen Seite zusammengeführt werden. Sie können den DNS-Status für jeden Verbindungstyp anzeigen, benutzerdefinierte DNS-Server konfigurieren und festlegen, ob manuelle DNS-Einstellungen für VPN-Tunnel oder den Router selbst gelten.

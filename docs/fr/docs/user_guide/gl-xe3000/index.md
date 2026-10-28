@@ -2,7 +2,7 @@
 
 ## Aperçu du produit {#product-overview}
 
-Puli AX (GL-XE3000) est le routeur cellulaire 5G Wi‑Fi 6 par excellence pour faire passer votre vitesse Internet à un niveau supérieur. Grâce à sa puissante batterie intégrée de 6400 mAh / 7,4 V / 47,4 Wh, vous profitez d'une connectivité Internet ininterrompue encore plus longtemps. Bénéficiez de vitesses Wi‑Fi allant jusqu'à 574 Mbps (2,4 GHz) et 2402 Mbps (5 GHz), pour une vitesse Wi‑Fi cumulée maximale de 3000 Mbps. Il est équipé d'une connexion cellulaire 5G NR, garantissant une connectivité Internet continue, même en cas de défaillance de la connexion Ethernet.
+Puli AX (GL-XE3000) est un routeur cellulaire 5G Wi-Fi 6 offrant un accès rapide à Internet. Sa puissante batterie intégrée de 6400mAh/7.4V/47.4Wh permet de profiter plus longtemps de la connexion. Il offre des débits Wi-Fi allant jusqu’à 574Mbps (2.4GHz) et 2402Mbps (5GHz). Il est équipé d’une connexion cellulaire 5G NR. Lorsque le basculement Multi-WAN est configuré, il peut maintenir la connectivité même en cas de défaillance Ethernet.
 
 ![xe3000_interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe3000/hardware_info/xe3000_interface.jpg){class="glboxshadow"}
 
@@ -259,7 +259,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
 === "DNS"
 
-    La page DNS permet de définir des serveurs DNS personnalisés, d'activer la protection contre les attaques de rebinding DNS et le remplacement des paramètres DNS de tous les clients, d'autoriser un DNS personnalisé à remplacer le DNS VPN, et de configurer le mode des paramètres DNS en automatique ou en saisissant manuellement des serveurs DNS provenant de la connexion Ethernet.
+    La page DNS vous permet de définir des serveurs DNS personnalisés, d’activer la protection contre les attaques de rebinding DNS, de remplacer les paramètres DNS de tous les clients et d’autoriser les DNS personnalisés à remplacer les DNS VPN. Vous pouvez utiliser les serveurs DNS obtenus automatiquement auprès des appareils en amont ou spécifier manuellement des serveurs DNS personnalisés.
 
     Pour configurer le DNS, consultez [DNS](../../interface_guide/dns.md).
 

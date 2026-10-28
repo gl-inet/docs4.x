@@ -8,11 +8,11 @@ Captive portal to strona WWW, z którą użytkownicy publicznych hotspotów musz
 
 * Publiczne Wi-Fi nie jest bezpieczne
 
-    Trudno przecenić ryzyko związane z publicznym Wi-Fi. Podłączając router GL.iNet do publicznej sieci Wi-Fi, możesz zalogować się do swojego konta VPN bezpośrednio w panelu administracyjnym routera. Router automatycznie zaszyfruje ruch wszystkich podłączonych urządzeń w sieci lokalnej, dzięki czemu nie trzeba konfigurować VPN osobno na każdym urządzeniu.
+    Trudno przecenić ryzyko związane z publicznym Wi-Fi. Podłączając router GL.iNet do publicznej sieci Wi-Fi, możesz zalogować się do swojego konta VPN bezpośrednio w panelu administracyjnym routera. Gdy router jest skonfigurowany do kierowania całego ruchu lokalnego przez VPN, ruch podłączonych urządzeń jest szyfrowany przez VPN, dzięki czemu nie trzeba konfigurować VPN osobno na każdym urządzeniu.
 
 * Użyj routera jako repeatera, aby połączyć wiele urządzeń
 
-    Ponadto niektóre publiczne sieci Wi-Fi (np. hotelowe Wi-Fi) ograniczają liczbę urządzeń, które mogą się połączyć, na przykład do dwóch. W podróży grupowej jest to bardzo niewygodne. Zamiast tego możesz podłączyć router podróżny do hotelowego Wi-Fi i użyć go jako repeatera do rozgłaszania sygnału Wi-Fi dla wszystkich swoich urządzeń, w tym laptopów, smartfonów, tabletów itd. Hotelowe Wi-Fi rozpozna wtedy router podróżny jako jedno urządzenie, a Ty będziesz mógł podłączyć do darmowego Wi-Fi tyle urządzeń, ile chcesz.
+    Ponadto niektóre publiczne sieci Wi-Fi (np. hotelowe Wi-Fi) ograniczają liczbę urządzeń, które mogą się połączyć, na przykład do dwóch. W podróży grupowej jest to bardzo niewygodne. Zamiast tego możesz podłączyć router podróżny do hotelowego Wi-Fi i użyć go jako repeatera do rozgłaszania sygnału Wi-Fi dla wszystkich swoich urządzeń, w tym laptopów, smartfonów, tabletów itd. Hotelowe Wi-Fi rozpozna router podróżny jako jedno urządzenie, ale do routera podróżnego możesz podłączyć wiele urządzeń, z uwzględnieniem jego maksymalnej liczby klientów.
 
 ## Jak podłączyć router do publicznych hotspotów z captive portal? {#how-to-connect-router-to-public-hotspots-with-captive-portal}
 

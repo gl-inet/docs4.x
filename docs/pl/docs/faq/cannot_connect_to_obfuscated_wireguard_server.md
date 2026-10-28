@@ -30,13 +30,13 @@ Jeśli nie możesz nawiązać połączenia z maskowanym serwerem WireGuard, wyko
         
         > Uwaga: I1-I5 nie są generowane automatycznie. Użytkownicy mogą ręcznie dodać je jako dodatkowe linie w pliku konfiguracji, aby ruch AmneziaWG wyglądał jak inne popularne protokoły, takie jak QUIC lub WebRTC.
 
-    Jeśli klient WireGuard jest routerem GL.iNet, sprawdź jego wersję AmneziaWG na dwa sposoby.
+    Jeśli serwer WireGuard jest routerem GL.iNet, sprawdź jego wersję AmneziaWG na dwa sposoby.
 
     ??? note "Sprawdzenie przez Router Web Admin Panel"
 
         1. Zaloguj się do Web Admin Panel routera.
 
-        2. Przejdź do **VPN** -> **WireGuard Server** -> **Configuration** i sprawdź parametry maskowania. Jeśli konfiguracja zawiera **S3-S4** oraz **H1-H4** jako zakresy zmienne zamiast stałych wartości, router działa z AmneziaWG 2.0, jak pokazano poniżej.
+        2. Przejdź do **VPN** -> **WireGuard Server** -> **Configuration** i sprawdź parametry maskowania. Jeśli konfiguracja zawiera **S3-S4** lub **H1–H4** jako zakresy zmienne zamiast stałych wartości, router działa z AmneziaWG 2.0, jak pokazano poniżej.
 
             ![awg 2.0 web](https://static.gl-inet.com/docs/router/en/4/faq/cannot_connect_to_obfuscated_wgserver/awg_2.0_web.png){class="glboxshadow"}
 
@@ -68,7 +68,7 @@ Jeśli nie możesz nawiązać połączenia z maskowanym serwerem WireGuard, wyko
 
     - Jeśli połączenie w oficjalnej aplikacji działa, plik konfiguracji jest poprawny. Problem może dotyczyć pierwotnego urządzenia klienckiego. Sprawdź jego łączność sieciową lub skontaktuj się z pomocą techniczną.
 
-    - Jeśli połączenie nadal się nie udaje, problem pochodzi z konfiguracji serwera na routerze. Sprawdź ustawienia serwera i parametry maskowania.
+    - Jeśli połączenie nadal się nie udaje, problem może być związany z konfiguracją serwera VPN na routerze, łącznością sieciową lub ustawieniami zapory. Sprawdź te ustawienia i parametry maskowania.
 
 ---
 

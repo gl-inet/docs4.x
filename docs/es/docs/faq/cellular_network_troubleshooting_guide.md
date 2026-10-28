@@ -48,7 +48,7 @@ Si no puede establecer una conexión celular, compruebe los siguientes puntos.
 
     **2.4** Active **Band Masking** y vuelva a probar. Para la versión de firmware 4.7 y anteriores, consulte [este enlace](../interface_guide/internet_cellular_v4.7.md#band-masking). Para la versión de firmware 4.8 y posteriores, consulte [este enlace](../interface_guide/internet_cellular.md#band-masking).
 
-    **2.5** Bloquee o desbloquee una torre de señal y vuelva a probar. Esta función solo está disponible en GL-X3000 (Spitz AX), GL-XE3000 (Puli AX) y GL-X2000 (Spitz Plus). Haga clic [aquí](../interface_guide/internet_cellular.md#lock-tower) para ver más instrucciones.
+    **2.5** Bloquee o desbloquee una torre de señal y vuelva a probar. Esta función está disponible en GL-E5800 (Mudi 7), GL-X3000 (Spitz AX), GL-XE3000 (Puli AX) y GL-X2000 (Spitz Plus). El GL-X2000 (Spitz Plus) admite esta función a partir del firmware v4.7. Haga clic [aquí](../interface_guide/internet_cellular.md#lock-tower) para ver más instrucciones.
 
     Bloquear una torre de señal concreta permite que el router acceda a un recurso de red de alta calidad y mantenga una conectividad celular estable.
 
@@ -60,7 +60,7 @@ Si no puede establecer una conexión celular, compruebe los siguientes puntos.
 
 ??? "Comprobar la compatibilidad de la SIM"
 
-    **3.1** Confirme el tipo de SIM. Los routers celulares GL.iNet están certificados como dispositivos IoT. En teoría, el dispositivo solo admite tarjetas SIM de tipo IoT. Si no está seguro del tipo de SIM, póngase en contacto con su operador.
+    **3.1** Confirme la compatibilidad de la SIM. Los modelos de routers celulares de GL.iNet para Norteamérica cuentan con certificación IoT. Esto no significa que se requieran tarjetas SIM IoT: las tarjetas SIM estándar para consumidores también pueden ser compatibles. Si no está seguro de qué tipo de SIM utilizar, póngase en contacto con su operador.
 
     Los tipos de SIM más comunes incluyen: solo datos, solo datos + voz, IoT y hotspot. Recomendamos usar tarjetas SIM IoT o de hotspot. No se garantiza el funcionamiento de las tarjetas SIM de solo datos o de solo datos + voz.
 

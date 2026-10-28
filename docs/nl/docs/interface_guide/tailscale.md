@@ -329,7 +329,7 @@ Volg de onderstaande stappen om een **aangepaste exit node** op GL‑BE9300 te c
 
     Met IP Masquerading hoeven geen subnetroutes in Tailscale Admin te worden ingesteld. LAN-clients hebben rechtstreeks via het virtuele Tailscale-IP van de router toegang.
 
-    In dit voorbeeld hebben GL-BE9300 (100.115.61.35) en GL-MG1300 (100.113.50.89) een virtueel Tailscale-IP. Een pc op GL‑BE9300 kan het webbeheerpaneel van GL‑MG1300 rechtstreeks via dit netwerk openen.
+    In dit voorbeeld hebben GL-BE9300 (100.115.61.35) en GL-MG1300 (100.113.50.89) een virtueel Tailscale-IP. Een pc op GL-BE9300 kan het webbeheerpaneel van GL-MG1300 rechtstreeks openen met het IP-adres van de Tailscale-interface van GL-BE9300 als bronadres.
 
     ![test iP masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/test_ip_masquerading.png){class="glboxshadow"}
 

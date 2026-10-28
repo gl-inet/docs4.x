@@ -1,28 +1,28 @@
 # Het NAT-type voor games wijzigen {#how-to-change-the-nat-type-on-gaming}
 
-Veel gamefabrikanten adviseren UPnP op de router in te schakelen voor een beter NAT-type, maar UPnP is geen veilig protocol.
+Sommige gameontwikkelaars raden aan UPnP op je router in te schakelen voor een beter NAT-type. UPnP brengt echter mogelijke beveiligingsrisico’s met zich mee.
 
-Je kunt hetzelfde veiliger bereiken met DMZ of port forwarding.
+Je kunt hetzelfde bereiken door DMZ of port forwarding op je router te configureren. Zorg dat je begrijpt hoe de functie werkt en welke beveiligingsrisico’s eraan verbonden zijn voordat je een van beide inschakelt.
 
 ## Het IP-adres van je gameapparaat controleren {#check-your-game-ip}
 
-Open de clientlijst en controleer het IP-adres van je gameapparaat. Gebruik dit adres in de volgende instellingen.
+Meld je eerst aan bij je router. Open de clientlijst en controleer het IP-adres van je gameapparaat. Gebruik dit adres in de volgende instellingen.
 
 ![gameip](https://static.gl-inet.com/docs/router/en/4/tutorials/gamling/gameip.png){class="glboxshadow"}
 
-## Method 1 DMZ {#method-1-dmz}
+## Methode 1: DMZ {#method-1-dmz}
 
-Ga in de zijbalk naar **Network > Port Forwarding** en schakel DMZ in met het IP-adres van je gameapparaat.
+Ga in de zijbalk naar **Network** -> **Port Forwarding** en schakel DMZ in met het IP-adres van je gameapparaat.
 
 ![dmz](https://static.gl-inet.com/docs/router/en/4/tutorials/gamling/dmzgame.png){class="glboxshadow"}
 
-## Method 2 Port forward {#method-2-port-forward}
+## Methode 2: Port forwarding {#method-2-port-forward}
 
-Ga in de zijbalk naar **Network > Port Forwarding** en voeg de vereiste poorten met het IP-adres van je gameapparaat toe.
+Ga in de zijbalk naar **Network** -> **Port Forwarding** en voeg de vereiste poorten met het IP-adres van je gameapparaat toe.
 
 ![inputport](https://static.gl-inet.com/docs/router/en/4/tutorials/gamling/inputport.png){class="glboxshadow"}
 
-Example: Ports for PS5
+Voorbeeld: poorten voor PS5
 
 UDP 3074, 3478-3479
 
@@ -30,7 +30,7 @@ TCP 1935, 3478-3480
 
 ![ps5port](https://static.gl-inet.com/docs/router/en/4/tutorials/gamling/ps5port.png){class="glboxshadow"}
 
-Xbox port
+Xbox-poorten
 
 UDP 88, 3074
 
@@ -42,12 +42,12 @@ Voor sommige games moet je andere poorten doorsturen. Raadpleeg deze website voo
 
 ## Full Cone NAT {#full-cone-nat}
 
-Je kunt Full Cone NAT onder **Network > NAT Settings** inschakelen om de latentie te verbeteren.
+Je kunt Full Cone NAT inschakelen om de latentie te verbeteren. Deze functie is beschikbaar sinds firmware v4.5.
+
+Ga naar **Network** -> **NAT Settings**, schakel indien nodig **Full Cone NAT** in en klik op **Apply**.
 
 ![conenat](https://static.gl-inet.com/docs/router/en/4/tutorials/gamling/conenat.png){class="glboxshadow"}
 
-* This function is available on Firmware 4.5 or above.
-
 ---
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.
+Heb je nog vragen? Bezoek ons [communityforum](https://forum.gl-inet.com){target="_blank"} of [neem contact met ons op](https://www.gl-inet.com/contacts/){target="_blank"}.

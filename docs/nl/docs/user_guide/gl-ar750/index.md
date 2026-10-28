@@ -190,7 +190,7 @@ Creta en andere GL.iNet-routers ondersteunen het WireGuard-protocol, dat hoge sn
     * NAT6: gebruik Network Address Translation for IPv6 (NAT6) om interne en externe IPv6-adressen te vertalen, vergelijkbaar met de werking van NAT voor IPv4.
     * Static IPv6: configureer handmatig een statisch IPv6-adres voor je router voor een vast adres, consistente connectiviteit en eenvoudiger beheer van netwerkdiensten.
 
-    Met deze instellingen profiteer je van de voordelen van IPv6, waaronder een grotere adresruimte, betere beveiligingsfuncties en hogere prestaties.
+    Deze modi bieden flexibele IPv6-configuratieopties voor verschillende netwerkomgevingen.
 
     Raadpleeg [IPv6](../../interface_guide/ipv6.md) voor uitgebreide installatie-instructies en meer informatie.
 

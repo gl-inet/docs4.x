@@ -81,7 +81,7 @@ Door de wijzigingen toe te passen, wordt opnieuw verbinding gemaakt.
 
 - **TTL**: TTL (Time To Live) bepaalt hoe lang pakketten maximaal in het netwerk kunnen blijven. De router verlaagt standaard de TTL van inkomende pakketten van clientapparaten met 1 voordat hij ze doorstuurt. De TTL-instelling geldt alleen voor IPv4.
 
-    **Opmerking**: stel hier een vaste waarde in als je de TTL wilt overschrijven of spoofen. Voer voor de meeste modellen de gewenste effectieve TTL plus 1 in om de automatische verlaging te compenseren. Mudi 7 (GL‑E5800) past de ingevoerde waarde ongewijzigd toe.
+    **Opmerking**: stel hier een vaste waarde in als je de TTL wilt overschrijven of spoofen. Voer voor de meeste modellen de gewenste effectieve TTL plus 1 in om de automatische verlaging te compenseren.
 
 - **Service**: selecteer het type mobiele dienst om te bepalen welke netwerktechnologieën de modem gebruikt.
 
@@ -222,7 +222,7 @@ Wanneer Shortcut op **Manual command** staat, voer je de gewenste opdracht in he
 
 Je kunt ook in de vervolgkeuzelijst Shortcut een van de **vooraf ingestelde opdrachten** selecteren.
 
-![shortcut](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/at_command_2.png){class="glboxshadow"}
+![shortcut](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/at_command_1.png){class="glboxshadow"}
 
 De volgende opdrachten zijn vooraf ingesteld:
 
@@ -236,7 +236,7 @@ De volgende opdrachten zijn vooraf ingesteld:
 
 In dit voorbeeld is "Request IMEI" geselecteerd. Klik op "Send" om het onderstaande resultaat te ontvangen.
 
-![shortcut example](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/at_command_3.png){class="glboxshadow"}
+![shortcut example](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/at_command_2.png){class="glboxshadow"}
 
 ## Providerprofiel {#carrier-profile}
 

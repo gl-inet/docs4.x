@@ -2,15 +2,13 @@
 
 VPN en AdGuard Home kunnen normaal gesproken gelijktijdig op GL.iNet-routers worden uitgevoerd. Er ontstaan geen problemen als AdGuard Home niet is ingesteld om DNS-verzoeken te verwerken.
 
-Als je AdGuard Home echter configureert om al het DNS-verkeer te beheren en query's door te sturen naar **openbare upstream DNS-servers**, veroorzaakt het inschakelen van VPN fouten bij de DNS-resolutie.
+Als je AdGuard Home echter configureert om al het DNS-verkeer te beheren en query’s door te sturen naar **openbare upstream DNS-servers**, kunnen deze query’s via de VPN-tunnel worden geleid, afhankelijk van je VPN-routeringsinstellingen. Als die servers niet via de tunnel bereikbaar zijn, kunnen LAN-clients die AdGuard Home voor DNS-resolutie gebruiken mogelijk geen domeinnamen omzetten.
 
 ![adguardhome](https://static.gl-inet.com/docs/router/en/4/tutorials/make_adguard_home_dns_bypass_vpn/adguardhome.jpg){class="glboxshadow"}
 <br><small>(AdGuard Home is ingeschakeld en verwerkt DNS-verzoeken)</small>
 
 ![adguard dns](https://static.gl-inet.com/docs/router/en/4/tutorials/make_adguard_home_dns_bypass_vpn/upstream_dns.png){class="glboxshadow"}
 <br><small>(Instellingen voor upstream DNS in AdGuard Home)</small>
-
-Standaard wordt al het uitgaande verkeer door de VPN-tunnel geleid. Hierdoor wordt het upstream DNS-verkeer van AdGuard Home via de VPN geleid en kan dit je openbare upstream DNS-servers niet bereiken. Daardoor kunnen alle verbonden clients geen domeinnamen omzetten.
 
 Om AdGuard Home te laten functioneren terwijl VPN actief is, kun je in LuCI een statische route toevoegen die upstream DNS-verkeer naar de normale WAN-gateway doorstuurt en de VPN-tunnel omzeilt. Volg de onderstaande stappen.
 

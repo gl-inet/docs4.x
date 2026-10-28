@@ -30,13 +30,13 @@ Följ stegen nedan för att felsöka om det inte går att upprätta en anslutnin
 
         > Obs! I1-I5 genereras inte automatiskt. Du kan lägga till dem manuellt som extra rader i konfigurationsfilen för att få AmneziaWG-trafiken att likna andra vanliga protokoll, till exempel QUIC eller WebRTC.
 
-    Om WireGuard-klienten är en GL.iNet-router kan du kontrollera dess AmneziaWG-version på följande två sätt.
+    Om WireGuard-servern är en GL.iNet-router kan du kontrollera dess AmneziaWG-version på följande två sätt.
 
     ??? note "Kontrollera via routerns webbadministrationspanel"
 
         1. Logga in på routerns webbadministrationspanel.
 
-        2. Gå till **VPN** -> **WireGuard Server** -> **Configuration** och kontrollera obfuskeringsparametrarna. Om konfigurationen innehåller **S3-S4** och **H1–H4** som variabla intervall (i stället för fasta värden) kör routern AmneziaWG 2.0, som visas nedan.
+        2. Gå till **VPN** -> **WireGuard Server** -> **Configuration** och kontrollera obfuskeringsparametrarna. Om konfigurationen innehåller **S3-S4** eller **H1–H4** som variabla intervall (i stället för fasta värden) kör routern AmneziaWG 2.0, som visas nedan.
 
             ![awg 2.0 web](https://static.gl-inet.com/docs/router/en/4/faq/cannot_connect_to_obfuscated_wgserver/awg_2.0_web.png){class="glboxshadow"}
 
@@ -68,7 +68,7 @@ Följ stegen nedan för att felsöka om det inte går att upprätta en anslutnin
 
     - Om anslutningen lyckas i den officiella appen är konfigurationsfilen giltig. Problemet kan finnas på den ursprungliga klientenheten. Kontrollera dess nätverksanslutning eller kontakta supporten för mer hjälp.
 
-    - Om anslutningen fortfarande misslyckas beror problemet på routerserverns konfiguration. Kontrollera serverinställningarna och obfuskeringsparametrarna.
+    - Om anslutningen fortfarande misslyckas kan problemet bero på routerns VPN-serverkonfiguration, nätverksanslutningen eller brandväggsinställningarna. Kontrollera dessa inställningar och obfuskeringsparametrarna.
 
 ---
 

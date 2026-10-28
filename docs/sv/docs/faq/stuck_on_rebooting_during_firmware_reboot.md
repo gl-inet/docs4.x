@@ -10,11 +10,11 @@ Kontrollera efter varje steg om problemet har lösts. Hoppa i så fall över åt
 
 2. Om omstarten inte slutförs efter 5 minuter stänger du av routern genom att koppla ur strömkabeln. Vänta i 30 sekunder, anslut strömkabeln igen och vänta tills routern har startat.
 
-3. Öppna en webbläsare, gå till `192.168.8.1` och logga in. Om omstarten lyckades omdirigeras du till installationsguiden.
+3. Öppna en webbläsare, gå till `192.168.8.1`. Om omstarten lyckades omdirigeras du till routerns inloggningssida.
 
-4. Aktivera webbläsarens privata läge eller inkognitoläge och gå till `192.168.8.1`. Om omstarten lyckades omdirigeras du till installationsguiden.
+4. Aktivera webbläsarens privata läge eller inkognitoläge och gå till `192.168.8.1`. Om omstarten lyckades omdirigeras du till routerns inloggningssida.
 
-5. Använd en annan webbläsare (t.ex. Chrome, Edge eller Safari) för att gå till `192.168.8.1`. Om omstarten lyckades omdirigeras du till installationsguiden.
+5. Använd en annan webbläsare (t.ex. Chrome, Edge eller Safari) för att gå till `192.168.8.1`. Om omstarten lyckades omdirigeras du till routerns inloggningssida.
 
 6. Om du fortfarande inte kommer åt routerns webbadministrationspanel eller om routern inte fungerar korrekt kan du försöka återställa routern till fabriksinställningarna genom att följa [den här](repair_network_or_reset_firmware.md#reset-to-factory) guiden.
 

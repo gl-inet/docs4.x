@@ -87,7 +87,7 @@ Skonfiguruj Flint 4, korzystając z jednej z obsługiwanych metod połączenia: 
     3. Na ekranie Flint 4 wybierz **Tethering** i dotknij **Connect**. Router połączy się z urządzeniem.
     4. Po nawiązaniu połączenia z Internetem sekcja Tethering na stronie głównej ekranu dotykowego zmieni kolor na niebieski (aktywna). Dotknij Tethering na ekranie albo zaloguj się do panelu administracyjnego, aby sprawdzić szczegóły połączenia.
 
-    **Uwaga**: jeśli połączenie nie powiedzie się, sprawdź, czy zasilacz ma parametry 12V 4A. Zbyt mała moc może uniemożliwić zasilenie portu USB. Powtórz powyższe czynności albo zaloguj się do panelu administracyjnego i sprawdź stan połączenia Tethering.
+    **Uwaga**: jeśli połączenie się nie powiedzie, upewnij się, że używasz zasilacza 12V/4A. Niewystarczająca moc może uniemożliwić portowi USB prawidłowe zasilanie podłączonego urządzenia. Następnie powtórz powyższe kroki albo zaloguj się do panelu administracyjnego i sprawdź stan połączenia Tethering.
 
 === "Cellular"
 
@@ -168,7 +168,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie międz
 
 === "DNS"
 
-    Strona DNS umożliwia ustawienie niestandardowych serwerów DNS, włączenie ochrony przed atakami DNS rebinding, zastąpienie ustawień DNS wszystkich klientów i zezwolenie niestandardowemu DNS na zastąpienie DNS sieci VPN. Umożliwia także automatyczne albo ręczne skonfigurowanie serwerów DNS połączenia Ethernet.
+    Strona DNS umożliwia ustawienie niestandardowych serwerów DNS, włączenie ochrony przed atakami DNS rebinding, nadpisanie ustawień DNS wszystkich klientów oraz zezwolenie niestandardowym serwerom DNS na zastąpienie DNS VPN. Możesz korzystać z serwerów DNS automatycznie uzyskanych z urządzeń nadrzędnych lub ręcznie wskazać niestandardowe serwery DNS.
 
     Szczegółowe informacje zawiera strona [DNS](../../interface_guide/dns.md).
 

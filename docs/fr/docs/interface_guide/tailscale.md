@@ -326,7 +326,7 @@ Suivez les étapes ci-dessous pour configurer un **nœud de sortie personnalisé
 
     Lorsque le masquage IP est activé, il n’est pas nécessaire de configurer les routes de sous-réseau dans la console d’administration Tailscale. Les clients LAN connectés au routeur peuvent accéder directement au réseau Tailscale via l’IP virtuelle Tailscale du routeur.
 
-    Dans cet exemple, le GL-BE9300 (`100.115.61.35`) et le GL-MG1300 (`100.113.50.89`) disposent d’adresses IP virtuelles Tailscale. Si un PC est connecté au GL-BE9300, il peut accéder directement au panneau d’administration web du GL-MG1300 via l’IP de l’interface Tailscale du GL-BE9300.
+    Dans cet exemple, le GL-BE9300 (`100.115.61.35`) et le GL-MG1300 (`100.113.50.89`) disposent d’adresses IP virtuelles Tailscale. Si un PC est connecté au GL-BE9300, il peut accéder directement au panneau d’administration web du GL-MG1300 en utilisant l’IP de l’interface Tailscale du GL-BE9300 comme adresse source.
 
     ![test iP masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/test_ip_masquerading.png){class="glboxshadow"}
 

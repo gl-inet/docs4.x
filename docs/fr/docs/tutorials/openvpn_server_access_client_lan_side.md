@@ -94,7 +94,7 @@ Voici un exemple d'accès au GL-MT3000 (un appareil dans le LAN du client OpenVP
 
 Sur un appareil connecté à votre serveur OpenVPN, envoyez un ping à l'adresse IP **192.168.48.211** du GL-MT3000. Il s'agit de l'adresse IP que le client OpenVPN (GL-MT2500) attribue au GL-MT3000 dans son LAN.
 
-Si vous pouvez effectuer le ping avec succès, cela signifie que les paramètres sont corrects. Vous pourrez accéder à tous les autres appareils du sous-réseau LAN du client OpenVPN via leurs adresses IP.
+Si le ping réussit, les paramètres sont corrects. Cependant, l’accès aux services de cet appareil ou d’autres appareils du sous-réseau LAN du client OpenVPN dépend également des paramètres du pare-feu et de la configuration des services de chaque appareil.
 
 ![ping test](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server-access_client_lan_side/ping-test.jpg){class="glboxshadow"}
 

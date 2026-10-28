@@ -78,6 +78,7 @@ Découvrez comment utiliser nos appareils et leurs fonctionnalités complémenta
 ## Sécurité {#security}
 
 * [Analyse de sécurité](security_scan.md)
+* [UPnP](upnp.md)
 * [Redirection de port](port_forwarding.md)
 * [ACL (liste de contrôle d'accès)](acl.md)
 * [Accès administrateur](admin_access.md)

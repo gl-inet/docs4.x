@@ -2,7 +2,7 @@
 
 ## Produktöversikt {#product-overview}
 
-Spitz Plus (GL-X2000) är en 4G LTE Wi-Fi 6-mobilnätsgateway med dubbla SIM-kort, utformad för snabba och tillförlitliga anslutningar, särskilt i avlägsna områden och under bilresor. Med aggregering av 3 bärvågor överför routern data på tre bärvågsband samtidigt och ger tre gånger så stor tillgänglig bandbredd för att undvika överbelastning. Den erbjuder fyra internetanslutningsmetoder: Cellular (SIM-kort), Ethernet, repeater och internetdelning. Den stöder Multi-WAN (failover och lastbalansering), VPN (OpenVPN och WireGuard), föräldrakontroll, AdGuard Home, portvidarebefordran, Tailscale med mera.
+Spitz Plus (GL-X2000) är en 4G LTE Wi-Fi 6-mobilnätsgateway med dubbla SIM-kort, utformad för snabba och tillförlitliga anslutningar, särskilt i avlägsna områden och under bilresor. Med aggregering av tre bärvågor (3CA) kan routern ge upp till tre gånger den teoretiska kanalbandbredden hos en Cat 4-anslutning med en enda bärvåg, beroende på de aggregerade bärvågornas bandbredder och stöd för LTE 3CA hos din operatör och lokala basstationer. Den erbjuder fyra internetanslutningsmetoder: Cellular (SIM-kort), Ethernet, repeater och internetdelning. Den stöder Multi-WAN (failover och lastbalansering), VPN (OpenVPN och WireGuard), föräldrakontroll, AdGuard Home, portvidarebefordran, Tailscale med mera.
 
 ![gl-x2000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/hardware_info/x2000_interface.jpg){class="glboxshadow"}
 
@@ -62,8 +62,6 @@ Anslut en enhet (t.ex. en stationär eller bärbar dator eller en smartphone) ti
 - Wi-Fi
 
     Öppna Settings -> WLAN på enheten, leta reda på routerns Wi-Fi-nätverksnamn i listan över tillgängliga nätverk och ange lösenordet. Standardnamnet och standardlösenordet för nätverket finns på routerns etikett.
-
-    Leta reda på routerns Wi-Fi-nätverksnamn i listan över tillgängliga nätverk på enheten och ange lösenordet för att ansluta. Standardnamnet och standardlösenordet för nätverket finns på routerns etikett.
 
 ### 3. Logga in på webbadministrationspanelen {#3-log-in-to-web-admin-panel}
 
@@ -249,7 +247,7 @@ Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindel
 
 === "DNS"
 
-    På sidan DNS kan du ange anpassade DNS-servrar, aktivera skydd mot DNS-rebinding-attacker och åsidosätta DNS-inställningarna för alla klienter. Du kan även tillåta att anpassad DNS åsidosätter VPN DNS samt ställa in DNS-serverläget på automatiskt eller manuellt ange DNS-servrar från Ethernet-anslutningen.
+    På sidan DNS kan du ange anpassade DNS-servrar, aktivera skydd mot DNS-rebinding-attacker, åsidosätta DNS-inställningarna för alla klienter och tillåta att anpassad DNS åsidosätter VPN-DNS. Du kan använda DNS-servrar som hämtas automatiskt från uppströmsenheter eller ange anpassade DNS-servrar manuellt.
 
     Information om hur du konfigurerar DNS finns i [DNS](../../interface_guide/dns.md).
 

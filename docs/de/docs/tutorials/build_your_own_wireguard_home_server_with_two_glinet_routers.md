@@ -192,7 +192,7 @@ Melden Sie sich erneut am webbasierten Admin Panel des GL-MT6000 (dem WireGuard-
 
 ## Vorbereitung für spätere VPN-Fehlerbehebung aus der Ferne {#prep-for-remote-vpn-fixes-ahead}
 
-Für den Fall unvorhergesehener Probleme während der Reise sollten Sie beide Router vorab mit Ihrem GoodCloud-Konto verknüpfen, damit eine VPN-Fehlerbehebung aus der Ferne möglich ist.
+Verknüpfen Sie beide Router vor der Reise mit Ihrem GoodCloud-Konto. So können Sie Fehler aus der Ferne beheben, wenn Ihre VPN-Verbindung aufgrund von Konfigurations- oder anderen Netzwerkproblemen ausfällt. Der Fernzugriff funktioniert nur, solange die Router eingeschaltet und mit dem Internet verbunden sind.
 
 Manchmal kann Ihr Server aufgrund eines Stromausfalls oder aus anderen Gründen ausfallen. Um die Erreichbarkeit Ihres Servers zu erhalten, verknüpfen Sie ihn bitte mit GL.iNet GoodCloud.
 

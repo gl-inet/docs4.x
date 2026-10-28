@@ -2,7 +2,7 @@
 
 ## Usage Scenarios {#usage-scenarios}
 
-Na inschakeling van TAP-S2S kunnen de OpenVPN-client en -server elkaar op afstand bereiken. VPN-regels die op de OpenVPN-client zijn ingesteld, worden in deze modus echter niet toegepast.
+Na inschakeling op de OpenVPN-client van TAP-S2S kunnen de OpenVPN-client en -server elkaar op afstand bereiken. VPN-regels die op de OpenVPN-client zijn ingesteld, worden in deze modus echter niet toegepast.
 
 ## TAP-S2S vs TUN mode {#tap-s2s-vs-tun-mode}
 
@@ -43,7 +43,7 @@ Points to Note:
 
 - Beide apparaten moeten zijn bijgewerkt naar v4.5, anders kunnen ze geen verbinding maken.
 - TAP-S2S only works with Global Proxy Mode, it will adjust automatically with OpenVPN on.
-- Na inschakeling zijn de volgende functies niet beschikbaar: VPN server, AdGuard Home, Parental Control, ZeroTier, Tailscale, Tor, Firewall, Multi-WAN, LAN, DNS, Network Mode, IPv6, MAC Address, Drop-in Gateway en IGMP Snooping.
+- Na inschakeling op de OpenVPN-client zijn de volgende functies niet beschikbaar: VPN server, AdGuard Home, Parental Control, ZeroTier, Tailscale, Tor, Firewall, Multi-WAN, LAN, DNS, Network Mode, IPv6, MAC Address, Drop-in Gateway en IGMP Snooping.
 
 ---
 

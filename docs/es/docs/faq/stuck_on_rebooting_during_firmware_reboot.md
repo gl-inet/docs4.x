@@ -10,11 +10,11 @@ Después de cada paso, compruebe si el problema se ha resuelto. Si se resuelve, 
 
 2. Si el proceso de reinicio no se completa después de 5 minutos, apague el router desconectando el cable de alimentación. Espere 30 segundos, vuelva a conectarlo y espere a que el router arranque.
 
-3. Abra un navegador web, acceda a `192.168.8.1` e inicie sesión. Si la operación de reinicio se completó correctamente, se le dirigirá a la guía de configuración.
+3. Abra un navegador web, acceda a `192.168.8.1`. Si la operación de reinicio se completó correctamente, se le dirigirá a la página de inicio de sesión del router.
 
-4. Active el modo privado o incógnito de su navegador y acceda a `192.168.8.1`. Si el proceso de reinicio se completó correctamente, se le dirigirá a la guía de configuración.
+4. Active el modo privado o incógnito de su navegador y acceda a `192.168.8.1`. Si el proceso de reinicio se completó correctamente, se le dirigirá a la página de inicio de sesión del router.
 
-5. Use un navegador diferente, por ejemplo, Chrome, Edge o Safari, para acceder a `192.168.8.1`. Si el proceso de reinicio se completó correctamente, se le dirigirá a la guía de configuración.
+5. Use un navegador diferente, por ejemplo, Chrome, Edge o Safari, para acceder a `192.168.8.1`. Si el proceso de reinicio se completó correctamente, se le dirigirá a la página de inicio de sesión del router.
 
 6. Si aún no puede acceder al panel de administración web del router o el router no funciona correctamente, intente restablecerlo a los valores de fábrica siguiendo [esta](repair_network_or_reset_firmware.md#reset-to-factory) guía.
 

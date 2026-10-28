@@ -8,11 +8,11 @@ En captive portal är en webbsida som användare av en offentlig hotspot måste 
 
 * Offentligt Wi-Fi är inte säkert
 
-    Riskerna med offentligt Wi-Fi är stora. Genom att ansluta GL.iNet-routern till offentligt Wi-Fi kan du logga in på VPN-kontot direkt via routerns administrationspanel. Routern krypterar automatiskt trafiken för alla anslutna enheter i det lokala nätverket, så att du slipper konfigurera VPN på varje enskild enhet.
+    Riskerna med offentligt Wi-Fi är stora. Genom att ansluta GL.iNet-routern till offentligt Wi-Fi kan du logga in på VPN-kontot direkt via routerns administrationspanel. När routern är inställd på att dirigera all lokal trafik genom VPN krypteras trafiken från anslutna enheter genom VPN, så att du slipper konfigurera VPN på varje enskild enhet.
 
 * Använd routern som repeater för att ansluta flera enheter
 
-    Vissa offentliga Wi-Fi-nätverk, till exempel på hotell, begränsar dessutom åtkomsten till exempelvis två enheter. Det är opraktiskt när flera personer reser tillsammans. Du kan i stället ansluta en reserouter till hotellets Wi-Fi och använda den som repeater för att sända en Wi-Fi-signal till alla dina enheter, till exempel bärbara datorer, smarttelefoner och surfplattor. Hotellets Wi-Fi identifierar endast reseroutern som en enda enhet, men du kan ansluta valfritt antal enheter till det kostnadsfria nätverket.
+    Vissa offentliga Wi-Fi-nätverk, till exempel på hotell, begränsar dessutom åtkomsten till exempelvis två enheter. Det är opraktiskt när flera personer reser tillsammans. Du kan i stället ansluta en reserouter till hotellets Wi-Fi och använda den som repeater för att sända en Wi-Fi-signal till alla dina enheter, till exempel bärbara datorer, smarttelefoner och surfplattor. Hotellets Wi-Fi identifierar reseroutern som en enda enhet, men du kan ansluta flera enheter till reseroutern upp till dess maximala klientgräns.
 
 ## Hur ansluter jag routern till en offentlig hotspot med captive portal? {#how-to-connect-router-to-public-hotspots-with-captive-portal}
 

@@ -70,7 +70,7 @@ I exemplet nedan är GL-AXT1800 en OpenVPN-server och GL-MT2500 en ansluten Open
 
 ## 3. Testa anslutningen {#3-test-connection}
 
-I det här exemplet öppnar vi GL-MT3000, en enhet i OpenVPN-klientens LAN, på IP-adressen **192.168.48.211**. Pinga adressen från en enhet som är ansluten till OpenVPN-servern. Om ping-kommandot lyckas är inställningarna korrekta och du kan nå andra enheter i klientens LAN-subnät via deras IP-adresser.
+I det här exemplet öppnar vi GL-MT3000, en enhet i OpenVPN-klientens LAN, på IP-adressen **192.168.48.211**. Pinga adressen från en enhet som är ansluten till OpenVPN-servern. Om ping-kommandot lyckas är inställningarna korrekta. Åtkomst till tjänster på den här enheten eller andra enheter i OpenVPN-klientens LAN-subnät beror dock också på varje enhets brandväggsinställningar och tjänstekonfiguration.
 
 ![ping test](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server-access_client_lan_side/ping-test.jpg){class="glboxshadow"}
 

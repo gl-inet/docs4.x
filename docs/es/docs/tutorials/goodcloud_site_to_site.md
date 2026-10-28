@@ -4,7 +4,7 @@
 
 GoodCloud Site to Site permite que oficinas ubicadas en distintos lugares establezcan conexiones seguras entre sí a través de Internet. Amplía la red de la empresa y hace que los recursos informáticos de una ubicación estén disponibles para los empleados de otras ubicaciones a través de la red.
 ![site to site](https://static.gl-inet.com/goodcloud/docs/tutorials/site_to_site/s2s-main.png){class="glboxshadow"}
-**Escenario 1**: Decenas de sucursales de una misma empresa necesitan integrarse en una red privada unificada para compartir recursos sin fricciones entre todas las ubicaciones.
+**Escenario 1**: Varias sucursales de una misma empresa necesitan integrarse en una red privada unificada para compartir recursos sin fricciones entre todas las ubicaciones.
 **Escenario 2**: Cuando dos empresas con una colaboración estrecha necesitan trabajar juntas, Site to Site facilita esa colaboración en un entorno de red compartido y seguro.
 **Escenario 3**: Para familias con cámaras IP, Site to Site permite acceder remotamente al dispositivo cuando los miembros están fuera de casa y supervisarlo con facilidad desde cualquier lugar.
 

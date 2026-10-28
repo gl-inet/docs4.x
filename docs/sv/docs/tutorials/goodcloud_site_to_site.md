@@ -6,7 +6,7 @@ GoodCloud Site to Site gör att kontor på flera platser kan upprätta säkra an
 
 ![site to site](https://static.gl-inet.com/goodcloud/docs/tutorials/site_to_site/s2s-main.png){class="glboxshadow"}
 
-**Scenario 1**: Dussintals filialkontor inom samma företag behöver integreras i ett gemensamt privat nätverk för smidig resursdelning mellan alla platser.
+**Scenario 1**: Flera filialkontor inom samma företag behöver integreras i ett gemensamt privat nätverk för smidig resursdelning mellan alla platser.
 
 **Scenario 2**: När två företag med nära samarbeten behöver arbeta tillsammans kan Site to Site ge dem en delad och säker nätverksmiljö.
 

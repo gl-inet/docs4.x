@@ -27,7 +27,7 @@
 
 ![Експорт конфігурації клієнта](https://static.gl-inet.com/docs/router/en/4/tutorials/tap_s2s_vs_tun/tutorials_export.png){class="glboxshadow"}
 
-На іншому маршрутизаторі з публічною IP-адресою (у цьому прикладі — GL-X3000) відкрийте розділ клієнта OpenVPN. Імпортуйте файл конфігурації, завантажений на попередньому кроці, натисніть **Apply** і ввімкніть клієнт.
+На іншому маршрутизаторі (у цьому прикладі — GL-X3000) відкрийте розділ клієнта OpenVPN. Імпортуйте файл конфігурації, завантажений на попередньому кроці, натисніть **Apply** і ввімкніть клієнт.
 
 ![Вибір файлу конфігурації](https://static.gl-inet.com/docs/router/en/4/tutorials/tap_s2s_vs_tun/tutorials_select_file.png){class="glboxshadow"}
 
@@ -43,7 +43,7 @@
 
 - Обидва пристрої потрібно оновити до версії v4.5, інакше вони не зможуть підключитися.
 - TAP-S2S працює лише в режимі **Global Proxy Mode**; налаштування автоматично змінюється після ввімкнення OpenVPN.
-- Після ввімкнення цієї функції недоступні: сервер VPN, AdGuard Home, Parental Control, ZeroTier, Tailscale, Tor, Firewall, Multi-WAN, LAN, DNS, Network Mode, IPv6, MAC Address, Drop-in Gateway, IGMP Snooping тощо.
+- Після ввімкнення цієї функції на клієнті OpenVPN недоступні: сервер VPN, AdGuard Home, Parental Control, ZeroTier, Tailscale, Tor, Firewall, Multi-WAN, LAN, DNS, Network Mode, IPv6, MAC Address, Drop-in Gateway, IGMP Snooping тощо.
 
 ---
 

@@ -2,15 +2,13 @@
 
 VPN och AdGuard Home kan normalt köras samtidigt på GL.iNet-routrar. Inga problem uppstår när AdGuard Home inte är inställt på att hantera DNS-förfrågningar.
 
-Om du däremot konfigurerar AdGuard Home för att hantera all DNS-trafik och vidarebefordra frågor till **public upstream DNS servers** leder aktivering av VPN till fel vid DNS-uppslagning.
+Om du däremot konfigurerar AdGuard Home för att hantera all DNS-trafik och vidarebefordra frågor till **offentliga uppströms DNS-servrar** kan frågorna dirigeras genom VPN-tunneln beroende på dina VPN-routningsinställningar. Om servrarna inte kan nås genom tunneln kan LAN-klienter som använder AdGuard Home för DNS-uppslagning misslyckas med att slå upp domännamn.
 
 ![adguardhome](https://static.gl-inet.com/docs/router/en/4/tutorials/make_adguard_home_dns_bypass_vpn/adguardhome.jpg){class="glboxshadow"}
 <br><small>(AdGuard Home är aktiverat och hanterar DNS-förfrågningar)</small>
 
 ![adguard dns](https://static.gl-inet.com/docs/router/en/4/tutorials/make_adguard_home_dns_bypass_vpn/upstream_dns.png){class="glboxshadow"}
 <br><small>(AdGuard Homes inställningar för uppströms DNS)</small>
-
-Som standard dirigeras all utgående trafik genom VPN-tunneln. Det tvingar AdGuard Homes uppströms DNS-trafik genom VPN, där den inte kan nå de offentliga uppströms DNS-servrarna. Därför kan inga anslutna klienter slå upp domännamn.
 
 För att AdGuard Home ska fortsätta fungera när VPN är aktivt kan du lägga till en statisk rutt i LuCI som vidarebefordrar uppströms DNS-trafik till den vanliga WAN-gatewayen och kringgår VPN-tunneln. Följ stegen nedan.
 

@@ -30,13 +30,13 @@ Si vous ne parvenez pas à établir une connexion avec un serveur WireGuard obfu
         
         > Remarque : I1-I5 ne sont pas générés automatiquement. Les utilisateurs peuvent les ajouter manuellement comme lignes supplémentaires dans le fichier de configuration afin que le trafic AmneziaWG ressemble à d’autres protocoles courants, tels que QUIC ou WebRTC.
 
-    Si votre client WireGuard est un routeur GL.iNet, vérifiez sa version d’AmneziaWG avec les deux méthodes suivantes.
+    Si votre serveur WireGuard est un routeur GL.iNet, vérifiez sa version d’AmneziaWG avec les deux méthodes suivantes.
 
     ??? note "Vérifier depuis le Router Web Admin Panel"
 
         1. Connectez-vous au Web Admin Panel du routeur.
 
-        2. Allez dans **VPN** -> **WireGuard Server** -> **Configuration** et vérifiez les paramètres d'obfuscation. Si la configuration contient **S3-S4** et **H1-H4** sous forme de plages variables, au lieu de valeurs fixes, votre routeur exécute AmneziaWG 2.0, comme ci-dessous.
+        2. Allez dans **VPN** -> **WireGuard Server** -> **Configuration** et vérifiez les paramètres d'obfuscation. Si la configuration contient **S3-S4** ou **H1–H4** sous forme de plages variables, au lieu de valeurs fixes, votre routeur exécute AmneziaWG 2.0, comme ci-dessous.
 
             ![awg 2.0 web](https://static.gl-inet.com/docs/router/en/4/faq/cannot_connect_to_obfuscated_wgserver/awg_2.0_web.png){class="glboxshadow"}
 
@@ -68,7 +68,7 @@ Si vous ne parvenez pas à établir une connexion avec un serveur WireGuard obfu
 
     - Si la connexion réussit dans l'application officielle, le fichier de configuration est valide. Le problème vient peut-être de votre appareil client initial. Vérifiez sa connectivité réseau ou contactez le support pour obtenir de l'aide.
 
-    - Si la connexion échoue toujours, le problème provient de la configuration du serveur du routeur. Vérifiez les paramètres du serveur et les paramètres d'obfuscation.
+    - Si la connexion échoue toujours, le problème peut être lié à la configuration du serveur VPN du routeur, à la connectivité réseau ou aux paramètres du pare-feu. Vérifiez ces paramètres et les paramètres d’obfuscation.
 
 ---
 

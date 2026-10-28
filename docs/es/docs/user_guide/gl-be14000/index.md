@@ -87,7 +87,7 @@ Configure Flint 4 mediante uno de los métodos de conexión a Internet compatibl
     3. En la pantalla táctil de Flint 4, seleccione **Tethering** y pulse **Connect**. El router se conectará a su dispositivo.
     4. Cuando se conecte correctamente a Internet, la sección Tethering de la pantalla de inicio se pondrá azul (activa). Puede tocar Tethering en la pantalla táctil o iniciar sesión en el panel de administración web para comprobar los detalles de la conexión.
 
-    **Nota**: Si la conexión falla, asegúrese de que la fuente de alimentación sea de 12V 4A, ya que una potencia insuficiente puede impedir que el puerto USB reciba alimentación. Repita los pasos anteriores o inicie sesión en el panel de administración web para comprobar el estado de la conexión Tethering.
+    **Nota**: Si la conexión falla, asegúrese de utilizar un adaptador de corriente de 12V/4A, ya que una alimentación insuficiente puede impedir que el puerto USB suministre energía correctamente al dispositivo conectado. A continuación, repita los pasos anteriores o inicie sesión en el panel de administración web para comprobar el estado de la conexión Tethering.
 
 === "Cellular"
 
@@ -168,7 +168,7 @@ Una VPN, red privada virtual, crea tráfico seguro y cifrado entre su dispositiv
 
 === "DNS"
 
-    La página DNS le permite establecer servidores DNS personalizados, activar la protección frente a ataques de DNS rebinding y sobrescribir los ajustes DNS de todos los clientes, permitir que el DNS personalizado reemplace al DNS de la VPN, y configurar el modo de ajustes del servidor DNS como automático o especificar manualmente servidores DNS desde la conexión Ethernet.
+    La página DNS le permite establecer servidores DNS personalizados, activar la protección contra ataques de reenlace DNS, anular la configuración DNS de todos los clientes y permitir que el DNS personalizado anule el DNS de la VPN. Puede utilizar servidores DNS obtenidos automáticamente de los dispositivos de la red superior o especificar manualmente servidores DNS personalizados.
 
     Para configurar DNS, consulte [DNS](../../interface_guide/dns.md).
 

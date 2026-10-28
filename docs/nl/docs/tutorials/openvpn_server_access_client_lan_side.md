@@ -95,7 +95,7 @@ Hier volgt een voorbeeld van toegang tot de GL-MT3000, een apparaat in het LAN v
 
 Ping op een apparaat dat met je OpenVPN-server is verbonden het IP-adres **192.168.48.211** van de GL-MT3000. Dit is het IP-adres dat OpenVPN-client GL-MT2500 in zijn LAN aan de GL-MT3000 toewijst.
 
-Als de ping slaagt, zijn de instellingen correct. Je hebt dan via hun IP-adres toegang tot alle andere apparaten in het LAN-subnet van de OpenVPN-client.
+Als de ping slaagt, zijn de instellingen correct. Toegang tot diensten op dit apparaat of andere apparaten in het LAN-subnet van de OpenVPN-client hangt echter ook af van de firewallinstellingen en de configuratie van diensten op elk apparaat.
 
 ![ping test](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server-access_client_lan_side/ping-test.jpg){class="glboxshadow"}
 

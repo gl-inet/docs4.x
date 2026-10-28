@@ -78,6 +78,7 @@ hide:
 ## Безпека {#security}
 
 * [Перевірка безпеки](security_scan.md)
+* [UPnP](upnp.md)
 * [Перенаправлення портів](port_forwarding.md)
 * [ACL (список контролю доступу)](acl.md)
 * [Доступ до адміністрування](admin_access.md)

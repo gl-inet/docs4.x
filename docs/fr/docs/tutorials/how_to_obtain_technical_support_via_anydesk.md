@@ -44,8 +44,8 @@ Pendant toute la session d’assistance, n’hésitez pas à communiquer par hau
 
 ## 8. Terminez la session {#8-end-the-session}
 
-Une fois la session d’assistance terminée, mettez fin à la connexion en cliquant sur le bouton rouge "End Session" dans l’interface AnyDesk. Cela révoquera toutes les autorisations d’accès à distance. Pour garantir une protection complète de votre confidentialité, veuillez également :
+Une fois la session d’assistance terminée, mettez fin à la connexion en cliquant sur le bouton rouge "End Session" dans l’interface AnyDesk. Cela ferme la session d’assistance à distance en cours. Si vous avez activé **Unattended Access**, désactivez cette fonction séparément dans les paramètres de sécurité d’AnyDesk. Pour protéger pleinement votre confidentialité, veuillez également :
 
 - Fermer complètement l’application AnyDesk, et pas seulement la réduire.
 - Redémarrer votre ordinateur si vous craignez la présence de processus résiduels.
-- Vérifier les paramètres de votre système pour confirmer qu’aucune autorisation d’accès à distance ne reste active.
+- Vérifier les paramètres de sécurité d’AnyDesk pour confirmer qu’aucune autorisation d’accès à distance ne reste active.

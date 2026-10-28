@@ -38,7 +38,7 @@ Durante la sesión de soporte, puede comunicarse por altavoz, por la ventana de 
 
 ## 8. Finalice la sesión {#8-end-the-session}
 
-Una vez concluida la sesión de soporte, termine la conexión haciendo clic en el botón rojo "End Session" de la interfaz de AnyDesk. Esto revocará todos los permisos de acceso remoto. Para garantizar una protección completa de la privacidad, haga también lo siguiente:
+Una vez concluida la sesión de soporte, termine la conexión haciendo clic en el botón rojo "End Session" de la interfaz de AnyDesk. Esto cerrará la sesión actual de soporte remoto. Si habilitó **Unattended Access**, desactívelo por separado en la configuración de seguridad de AnyDesk. Para garantizar una protección completa de la privacidad, haga también lo siguiente:
 - Cierre completamente la aplicación AnyDesk, no solo la minimice.
 - Reinicie su ordenador si le preocupan los procesos residuales.
-- Compruebe la configuración del sistema para confirmar que no quede ningún permiso de acceso remoto activo.
+- Compruebe la configuración de seguridad de AnyDesk para confirmar que no quede ningún permiso de acceso remoto activo.

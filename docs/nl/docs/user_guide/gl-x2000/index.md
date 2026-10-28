@@ -2,7 +2,7 @@
 
 ## Productoverzicht {#product-overview}
 
-Spitz Plus (GL-X2000) is een dual-sim 4G LTE Wi-Fi 6-gateway voor mobiele netwerken die snelle, betrouwbare verbindingen biedt, vooral in afgelegen gebieden en tijdens autoritten. Dankzij 3-Carrier Aggregation verzendt de router gegevens gelijktijdig via drie providerbanden, waardoor drie keer zoveel bandbreedte beschikbaar is om congestie te voorkomen. Er zijn vier methoden voor internettoegang: Cellular (simkaarten), Ethernet, Repeater en Tethering. De gateway ondersteunt Multi-WAN (failover en load balancing), VPN (OpenVPN en WireGuard), ouderlijk toezicht, AdGuard Home, port forwarding, Tailscale en meer.
+Spitz Plus (GL-X2000) is een dual-sim 4G LTE Wi-Fi 6-gateway voor mobiele netwerken die snelle, betrouwbare verbindingen biedt, vooral in afgelegen gebieden en tijdens autoritten. Met aggregatie van drie carriers (3CA) kan de router tot drie keer de theoretische kanaalbandbreedte van een Cat 4-verbinding met één carrier bieden, afhankelijk van de bandbreedtes van de samengevoegde carriers en de ondersteuning voor LTE 3CA door je provider en lokale basisstations. Er zijn vier methoden voor internettoegang: Cellular (simkaarten), Ethernet, Repeater en Tethering. De gateway ondersteunt Multi-WAN (failover en load balancing), VPN (OpenVPN en WireGuard), ouderlijk toezicht, AdGuard Home, port forwarding, Tailscale en meer.
 
 ![gl-x2000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/hardware_info/x2000_interface.jpg){class="glboxshadow"}
 
@@ -62,8 +62,6 @@ Verbind een apparaat, zoals een computer, laptop of smartphone, via Wi-Fi of Eth
 - Wi-Fi
 
     Ga op je apparaat naar Settings -> WLAN, zoek de Wi-Fi-netwerknaam van de router in de lijst met beschikbare netwerken en voer het wachtwoord in. De standaardnetwerknaam en het wachtwoord staan op het label van de router.
-
-    Zoek op je apparaat de Wi-Fi-netwerknaam van de router in de lijst met beschikbare netwerken en voer het wachtwoord in om verbinding te maken. De standaardnetwerknaam en het wachtwoord staan op het label van de router.
 
 ### 3. Aanmelden bij het webbeheerpaneel {#3-log-in-to-web-admin-panel}
 
@@ -249,7 +247,7 @@ Een VPN (virtual private network) maakt een beveiligde, versleutelde verbinding 
 
 === "DNS"
 
-    Op de pagina DNS kun je aangepaste DNS-servers instellen, bescherming tegen DNS-rebindingaanvallen inschakelen en de DNS-instellingen van alle clients overschrijven. Je kunt aangepaste DNS-instellingen de VPN-DNS laten overschrijven en de DNS-servermodus op automatisch instellen of handmatig DNS-servers uit de Ethernet-verbinding opgeven.
+    Op de pagina DNS kun je aangepaste DNS-servers instellen, bescherming tegen DNS-rebindingaanvallen inschakelen, de DNS-instellingen van alle clients overschrijven en toestaan dat aangepaste DNS de VPN-DNS overschrijft. Je kunt DNS-servers gebruiken die automatisch van upstreamapparaten zijn verkregen of handmatig aangepaste DNS-servers opgeven.
 
     Raadpleeg [DNS](../../interface_guide/dns.md) om DNS in te stellen.
 

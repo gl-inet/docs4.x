@@ -44,8 +44,8 @@ Under supportsessionen kan du kommunicera via högtalare, chattfönstret i AnyDe
 
 ## 8. Avsluta sessionen {#8-end-the-session}
 
-När supportsessionen är klar avslutar du anslutningen genom att klicka på den röda knappen "End Session" i AnyDesk-gränssnittet. Då avslutas alla behörigheter för fjärråtkomst. Gör även följande för att skydda din integritet fullständigt:
+När supportsessionen är klar avslutar du anslutningen genom att klicka på den röda knappen "End Session" i AnyDesk-gränssnittet. Då stängs den aktuella fjärrsupportsessionen. Om du har aktiverat **Unattended Access** ska du inaktivera det separat i AnyDesks säkerhetsinställningar. Gör även följande för att skydda din integritet fullständigt:
 
 - Stäng AnyDesk-programmet helt och minimera det inte bara.
 - Starta om datorn om du är orolig för kvarvarande processer.
-- Kontrollera systeminställningarna för att bekräfta att inga behörigheter för fjärråtkomst fortfarande är aktiva.
+- Kontrollera AnyDesks säkerhetsinställningar för att bekräfta att inga behörigheter för fjärråtkomst fortfarande är aktiva.

@@ -2,7 +2,7 @@
 
 ## 製品概要 {#product-overview}
 
-Puli AX（GL-XE3000）は、Wi-Fi 6 と 5G に対応したセルラールーターです。6400mAh / 7.4V / 47.4Wh の大容量バッテリーを内蔵し、長時間のインターネット接続に対応します。最大 574Mbps（2.4GHz）+ 2402Mbps（5GHz）、合計最大 3000Mbps の Wi-Fi 速度を提供し、5G NR 接続により Ethernet 回線に障害が発生した場合でも接続を維持しやすくなっています。
+Puli AX（GL-XE3000）は、高速なインターネット接続を提供するWi-Fi 6対応5Gセルラールーターです。6400mAh/7.4V/47.4Whの大容量バッテリーを内蔵し、長時間のインターネット接続に対応します。Wi-Fi速度は最大574Mbps（2.4GHz）および2402Mbps（5GHz）です。5G NRセルラー接続を搭載しており、Multi-WANフェイルオーバーを設定すると、Ethernet回線に障害が発生した場合でも接続を維持できます。
 
 ![xe3000_interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe3000/hardware_info/xe3000_interface.jpg){class="glboxshadow"}
 
@@ -259,7 +259,7 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
 === "DNS"
 
-    DNS ページでは、カスタム DNS サーバーの設定、DNS rebinding attack protection の有効化、すべてのクライアントの DNS 設定の上書き、カスタム DNS による VPN DNS の上書き許可、DNS サーバー設定モードを自動にするか、Ethernet 接続の DNS サーバーを手動で指定するかを設定できます。
+    DNSページでは、カスタムDNSサーバーの設定、DNSリバインディング攻撃対策の有効化、すべてのクライアントのDNS設定の上書き、およびカスタムDNSによるVPN DNSの上書きの許可を設定できます。上流デバイスから自動的に取得したDNSサーバーを使用するか、カスタムDNSサーバーを手動で指定できます。
 
     DNS の設定については、[DNS](../../interface_guide/dns.md)を参照してください。
 

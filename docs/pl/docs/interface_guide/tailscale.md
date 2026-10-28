@@ -326,7 +326,7 @@ Wykonaj poniższe kroki, aby skonfigurować **niestandardowy Exit Node** na GL-B
 
     Po włączeniu maskowania IP nie trzeba konfigurować tras podsieci w konsoli administracyjnej Tailscale. Klienci LAN połączeni z routerem mogą uzyskiwać bezpośredni dostęp do sieci Tailscale za pośrednictwem wirtualnego adresu IP Tailscale routera.
 
-    W tym przykładzie GL-BE9300 (`100.115.61.35`) i GL-MG1300 (`100.113.50.89`) mają wirtualne adresy IP Tailscale. Jeśli komputer jest połączony z GL-BE9300, może uzyskać bezpośredni dostęp do panelu administracyjnego GL-MG1300 za pośrednictwem adresu IP interfejsu Tailscale routera GL-BE9300.
+    W tym przykładzie GL-BE9300 (`100.115.61.35`) i GL-MG1300 (`100.113.50.89`) mają wirtualne adresy IP Tailscale. Komputer połączony z GL-BE9300 może uzyskać bezpośredni dostęp do panelu administracyjnego GL-MG1300, używając adresu IP interfejsu Tailscale routera GL-BE9300 jako adresu źródłowego.
 
     ![test iP masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/test_ip_masquerading.png){class="glboxshadow"}
 

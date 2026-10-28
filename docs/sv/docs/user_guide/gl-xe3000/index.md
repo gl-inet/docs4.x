@@ -2,7 +2,7 @@
 
 ## Produktöversikt {#product-overview}
 
-Puli AX (GL-XE3000) är en Wi-Fi 6-router för 5G-mobilnät som ger högre internethastighet. Det kraftfulla inbyggda batteriet på 6400mAh/7.4V/47.4Wh ger oavbruten internetanslutning under längre tid. Wi-Fi-hastigheten är upp till 574Mbps (2.4GHz) och 2402Mbps (5GHz), med en sammanlagd maximal Wi-Fi-hastighet på 3000Mbps. 5G NR-mobilanslutningen upprätthåller internetanslutningen även om Ethernet-anslutningen slutar fungera.
+Puli AX (GL-XE3000) är en Wi-Fi 6-router för 5G-mobilnät som ger höga internethastigheter. Med det kraftfulla inbyggda batteriet på 6400mAh/7.4V/47.4Wh kan du använda internetanslutningen under längre tid. Wi-Fi-hastigheterna är upp till 574Mbps (2.4GHz) och 2402Mbps (5GHz). Den är utrustad med en 5G NR-mobilanslutning. När Multi-WAN-failover har konfigurerats kan den upprätthålla anslutningen även om Ethernet-anslutningen slutar fungera.
 
 ![xe3000_interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe3000/hardware_info/xe3000_interface.jpg){class="glboxshadow"}
 
@@ -259,7 +259,7 @@ Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindel
 
 === "DNS"
 
-    På sidan DNS kan du ange anpassade DNS-servrar, aktivera skydd mot DNS-rebinding-attacker och åsidosätta DNS-inställningarna för alla klienter. Du kan även tillåta att anpassad DNS åsidosätter VPN DNS samt ställa in DNS-serverläget på automatiskt eller manuellt ange DNS-servrar från Ethernet-anslutningen.
+    På sidan DNS kan du ange anpassade DNS-servrar, aktivera skydd mot DNS-rebinding-attacker, åsidosätta DNS-inställningarna för alla klienter och tillåta att anpassad DNS åsidosätter VPN-DNS. Du kan använda DNS-servrar som hämtas automatiskt från uppströmsenheter eller ange anpassade DNS-servrar manuellt.
 
     Information om hur du konfigurerar DNS finns i [DNS](../../interface_guide/dns.md).
 

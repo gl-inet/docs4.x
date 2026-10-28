@@ -155,10 +155,6 @@ Se le impostazioni configurate non hanno effetto, verifica le seguenti possibili
 
     Browser e sistemi operativi mantengono una cache DNS, quindi le modifiche di configurazione potrebbero richiedere del tempo per avere effetto. Svuota la cache DNS per applicare subito le modifiche.
 
-      * [Svuotare la cache DNS in Chrome desktop](https://support.google.com/accounts/answer/32050){target="_blank"}
-
-      * [Svuotare la cache DNS in Edge desktop](https://www.microsoft.com/en-us/edge/learning-center/how-to-manage-and-clear-your-cache-and-cookies?form=MA13I2){target="_blank"}
-
 2. La pianificazione del profilo non è ancora iniziata.
 
 3. Il nome di dominio inserito potrebbe essere errato.

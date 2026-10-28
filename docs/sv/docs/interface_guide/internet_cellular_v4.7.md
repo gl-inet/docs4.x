@@ -81,7 +81,7 @@ Applying the changes will trigger a reconnection.
 
 - **TTL**: TTL (Time To Live) anger maximal tid för paket i nätverket. Routern minskar som standard TTL för inkommande klientpaket med 1 före vidarebefordran. Gäller endast IPv4.
 
-    **Obs!** Ange ett fast värde för att åsidosätta eller förfalska TTL. På de flesta modeller anger du önskad effektiv TTL plus 1. Mudi 7 (GL‑E5800) använder värdet utan ändring.
+    **Obs!** Ange ett fast värde för att åsidosätta eller förfalska TTL. På de flesta modeller anger du önskad effektiv TTL plus 1.
 
 - **Service**: Select the cellular service type to define the network technologies the modem will use.
 
@@ -222,7 +222,7 @@ När Shortcut är **Manual command** skriver du önskat kommando i fältet AT Co
 
 Du kan även välja bland **förinställda kommandon** i listrutan Shortcut.
 
-![shortcut](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/at_command_2.png){class="glboxshadow"}
+![shortcut](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/at_command_1.png){class="glboxshadow"}
 
 Följande kommandon är förinställda:
 
@@ -236,7 +236,7 @@ Följande kommandon är förinställda:
 
 I exemplet väljs "Request IMEI". Klicka på "Send" för att visa resultatet.
 
-![shortcut example](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/at_command_3.png){class="glboxshadow"}
+![shortcut example](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/at_command_2.png){class="glboxshadow"}
 
 ## Carrier profile {#carrier-profile}
 

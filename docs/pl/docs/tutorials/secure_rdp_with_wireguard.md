@@ -1,6 +1,6 @@
 # Zabezpieczanie RDP z sieci zewnętrznej za pomocą WireGuard {#securing-rdp-from-an-external-network-with-wireguard}
 
-Możesz potrzebować zdalnego dostępu do komputera z sieci zewnętrznej lub odwrotnie. Najbezpieczniejszym sposobem jest użycie własnego tunelu WireGuard. Zapewnia to większe bezpieczeństwo niż przekierowanie portów i bezpośredni dostęp do komputera przez publiczny adres IP. Po skonfigurowaniu tunelu możesz użyć **Windows Remote Desktop**, aby uzyskać dostęp do komputera z dowolnego miejsca.
+Możesz potrzebować zdalnego dostępu do komputera z sieci zewnętrznej lub odwrotnie. Bezpiecznym sposobem jest użycie własnego tunelu WireGuard. Zapewnia to większe bezpieczeństwo niż przekierowanie portów i bezpośredni dostęp do komputera przez publiczny adres IP. Po skonfigurowaniu tunelu możesz użyć **Windows Remote Desktop**, aby uzyskać dostęp do komputera z dowolnego miejsca.
 
 Ten samouczek pokazuje na przykładzie dwóch routerów GL.iNet, jak zabezpieczyć Windows RDP przez sieć WireGuard.
 

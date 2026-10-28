@@ -76,13 +76,13 @@ Le [VPN Dashboard](../interface_guide/vpn_dashboard.md) du firmware v4.9 a été
 
 ## AmneziaWG 2.0 {#amneziawg-20}
 
-Le firmware v4.9 introduit officiellement le protocole AmneziaWG 2.0, doté de plusieurs nouveaux paramètres d’obfuscation du trafic. Le protocole amélioré permet d’éviter efficacement la détection par DPI et par d’autres systèmes d’identification du trafic, ce qui renforce nettement la discrétion de la connexion et la résistance aux interférences. Il permet ainsi d’établir des connexions VPN stables et fiables dans les régions soumises à des restrictions réseau et dans les environnements réseau complexes.
+Le firmware v4.9 introduit officiellement le protocole AmneziaWG 2.0, doté de plusieurs nouveaux paramètres d’obfuscation du trafic. Le protocole amélioré vise à rendre le trafic VPN plus difficile à reconnaître par DPI et d’autres systèmes d’identification du trafic. Ces améliorations peuvent aider à établir et à maintenir des connexions VPN dans les régions soumises à des restrictions réseau et les environnements réseau complexes.
 
 ![amneziawg](https://static.gl-inet.com/docs/router/en/4/features_update/4.9/amneziawg.png){class="glboxshadow"}
 
 ## Réseau IoT {#iot-network}
 
-Dans le firmware v4.9, la fonction [IoT Network](../interface_guide/iot_network.md) permet de créer un réseau Wi-Fi dédié et indépendant pour les appareils IoT intelligents. Isolé physiquement et logiquement du réseau principal, il évite l’occupation des ressources réseau et les risques de sécurité liés à l’accès des appareils IoT au réseau principal. Cette optimisation offre une compatibilité plus large avec divers clients IoT intelligents et renforce globalement la sécurité du réseau domestique.
+Dans le firmware v4.9, la fonction [IoT Network](../interface_guide/iot_network.md) permet de créer un réseau Wi-Fi dédié aux appareils IoT. Séparé logiquement du réseau principal, il contribue à réduire l’impact potentiel des appareils IoT sur la sécurité de ce réseau. Ses paramètres réseau configurables offrent davantage de souplesse pour gérer les appareils IoT.
 
 ![iot network](https://static.gl-inet.com/docs/router/en/4/features_update/4.9/iot_network.png){class="glboxshadow"}
 

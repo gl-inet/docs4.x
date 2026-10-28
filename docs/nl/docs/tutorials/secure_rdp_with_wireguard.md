@@ -1,6 +1,6 @@
 # RDP vanaf een extern netwerk beveiligen met WireGuard {#securing-rdp-from-an-external-network-with-wireguard}
 
-Mogelijk wil je vanaf een extern netwerk toegang krijgen tot je pc, of omgekeerd. De veiligste manier is via je eigen WireGuard-tunnel. Dit is veiliger dan port forwarding en rechtstreekse toegang tot je pc via je openbare IP-adres. Nadat je de tunnel hebt ingesteld, kun je met **Windows Remote Desktop** overal toegang krijgen tot je pc.
+Mogelijk wil je vanaf een extern netwerk toegang krijgen tot je pc, of omgekeerd. Een veilige manier is via je eigen WireGuard-tunnel. Dit is veiliger dan port forwarding en rechtstreekse toegang tot je pc via je openbare IP-adres. Nadat je de tunnel hebt ingesteld, kun je met **Windows Remote Desktop** overal toegang krijgen tot je pc.
 
 In deze handleiding gebruiken we twee GL.iNet-routers als voorbeeld om te laten zien hoe je Windows RDP via een WireGuard-netwerk beveiligt.
 

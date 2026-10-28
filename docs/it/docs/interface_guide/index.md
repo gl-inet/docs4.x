@@ -78,6 +78,7 @@ Scopri come usare i nostri dispositivi e le funzioni aggiuntive con le nostre gu
 ## Sicurezza {#security}
 
 * [Scansione di sicurezza](security_scan.md)
+* [UPnP](upnp.md)
 * [Port Forwarding](port_forwarding.md)
 * [ACL (lista di controllo accessi)](acl.md)
 * [Accesso amministratore](admin_access.md)

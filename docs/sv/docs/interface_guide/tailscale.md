@@ -329,7 +329,7 @@ Follow the steps below to configure a **custom exit node** on the GL‑BE9300.
 
     Med IP Masquerading krävs inga subnätsrutter. LAN-klienter når nätverket via routerns virtuella Tailscale-IP.
 
-    GL-BE9300 (`100.115.61.35`) och GL-MG1300 (`100.113.50.89`) har virtuella IP-adresser. En dator på GL‑BE9300 kan nå GL‑MG1300 via Tailscale.
+    I det här exemplet har GL-BE9300 (`100.115.61.35`) och GL-MG1300 (`100.113.50.89`) virtuella Tailscale-IP-adresser. En dator ansluten till GL-BE9300 kan öppna webbadministrationspanelen på GL-MG1300 direkt med IP-adressen för GL-BE9300:s Tailscale-gränssnitt som källadress.
 
     ![test iP masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/test_ip_masquerading.png){class="glboxshadow"}
 

@@ -2,15 +2,13 @@
 
 Normalerweise können VPN und AdGuard Home gleichzeitig auf GL.iNet-Routern betrieben werden. Keine Probleme treten auf, solange AdGuard Home nicht für die Verarbeitung von DNS-Anfragen konfiguriert ist.
 
-Wenn Sie AdGuard Home jedoch so einrichten, dass es den gesamten DNS-Datenverkehr verwaltet und Anfragen an **öffentliche Upstream-DNS-Server** weiterleitet, führt die Aktivierung des VPN zu DNS-Auflösungsfehlern.
+Wenn Sie AdGuard Home jedoch so einrichten, dass es den gesamten DNS-Datenverkehr verwaltet und Anfragen an **öffentliche Upstream-DNS-Server** weiterleitet, können diese Anfragen je nach VPN-Routing-Einstellungen über den VPN-Tunnel geleitet werden. Wenn diese Server über den Tunnel nicht erreichbar sind, können LAN-Clients, die AdGuard Home zur DNS-Auflösung verwenden, möglicherweise keine Domänennamen auflösen.
 
 ![adguardhome](https://static.gl-inet.com/docs/router/de/4/tutorials/make_adguard_home_dns_bypass_vpn/adguardhome.jpg){class="glboxshadow"}
 <br><small>(AdGuard Home aktiviert und verarbeitet DNS-Anfragen)</small>
 
 ![adguard dns](https://static.gl-inet.com/docs/router/de/4/tutorials/make_adguard_home_dns_bypass_vpn/upstream_dns.png){class="glboxshadow"}
 <br><small>(AdGuard Home Upstream-DNS-Einstellungen)</small>
-
-Standardmäßig wird der gesamte ausgehende Datenverkehr über den VPN-Tunnel geleitet. Dadurch wird der Upstream-DNS-Datenverkehr von AdGuard Home auf den VPN-Tunnel gezwungen, der Ihre öffentlichen Upstream-DNS-Server nicht erreichen kann. Infolgedessen können alle verbundenen Clients keine Domänennamen auflösen.
 
 Damit AdGuard Home weiterhin funktioniert, während das VPN aktiv ist, können Sie in LuCI eine statische Route hinzufügen, um den Upstream-DNS-Datenverkehr an das reguläre WAN-Gateway weiterzuleiten und den VPN-Tunnel zu umgehen. Gehen Sie folgendermaßen vor:
 

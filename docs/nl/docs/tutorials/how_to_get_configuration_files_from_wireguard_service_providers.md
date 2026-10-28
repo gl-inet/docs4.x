@@ -36,7 +36,7 @@
 
     **Opmerking:** de sleutel in het Hide.me VPN-configuratiebestand wordt vóór elke verbinding opnieuw gegenereerd en wordt na het verbreken van de verbinding ongeldig. Als je dit configuratiebestand naar andere apparaten kopieert, kunnen deze daarom geen verbinding maken.
 
-    [Referentiekoppeling](https://github.com/eventure/hide.client.routers){target="_blank"}
+    Referentie: [hide.me VPN for Routers - GitHub](https://github.com/eventure/hide.client.routers){target="_blank"}
 
 ??? "Mullvad"
     ### Mullvad {#mullvad}
@@ -84,8 +84,6 @@
         ![surfshark wireguard manual setup](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/surfshark/surfshark_wireguard_manual_setup_5.png){class="glboxshadow"}
 
     6. Volg daarna [deze handleiding](../interface_guide/wireguard_client.md#set-up-surfshark) om door te gaan.
-
-    [Referentiekoppeling](https://support.surfshark.com/hc/en-us/articles/6585805139474-How-to-set-up-a-manual-WireGuard-connection-on-Android-){target="_blank"}
 
 ??? "AirVPN"
     ### AirVPN {#airvpn}
@@ -150,7 +148,7 @@
 
     3. Open de configuratie in een teksteditor en kopieer de inhoud.
 
-        De configuratie kan IPv6-inhoud bevatten. Omdat GL.iNet-routers IPv6 niet volledig ondersteunen, moet je deze IPv6-inhoud verwijderen. In het onderstaande voorbeeld is de IPv6-inhoud gemarkeerd.
+        De configuratie kan een IPv6-adres bevatten. Open het .conf-bestand en verwijder het IPv6-adres om compatibiliteits- en verbindingsproblemen te voorkomen. De gemarkeerde inhoud hieronder is de IPv6-inhoud.
 
         ![remove wireguard ipv6 content](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/ovpn/remove_wireguard_ipv6_content.jpg){class="glboxshadow"}
 
@@ -226,9 +224,9 @@
 
         **Opmerking**: de WireGuard-configuratie verloopt na 30 minuten. Activeer de verbinding binnen de geldigheidsduur. Anders moet je een nieuwe configuratie genereren.
 
-    Volg daarna [deze handleiding](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers) om de configuratie te voltooien.
+    5. Volg daarna [deze handleiding](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers) om de configuratie te voltooien.
 
-    [Referentiekoppeling](https://support.purevpn.com/router/how-to-setup-purevpn-on-glinet-router){target="_blank"}
+    Referentie: [How to set up PureVPN on GL.iNet router](https://support.purevpn.com/router/how-to-setup-purevpn-on-glinet-router){target="_blank"}
 
 ??? "SpiderVPN"
     ### SpiderVPN {#spidervpn}
@@ -318,6 +316,35 @@
 
     3. Volg daarna [deze handleiding](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers) om door te gaan.
 
+??? "VPN Safe"
+    ### VPN Safe {#vpn-safe}
+
+    [Officiële website](https://secure.vpnsafe.net/aff.php?aff=6){target="_blank"}
+
+    1. Meld je aan bij het **VPN Safe Dashboard** en klik op je actieve VPN-dienst.
+
+        ![vpnsafe1](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/vpnsafe/vpnsafe1.jpg){class="glboxshadow"}
+
+    2. Scrol in de productdetails omlaag naar **WireGuard Configuration**.
+
+        ![vpnsafe2](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/vpnsafe/vpnsafe2.jpg){class="glboxshadow"}
+
+    3. Er zijn twee manieren om VPN Safe WireGuard-configuraties te downloaden, afhankelijk van het aantal configuraties dat je nodig hebt:
+
+        - Als je één configuratie wilt downloaden, selecteer je de gewenste server in de vervolgkeuzelijst en klik je op **Download Config**. Je kunt ook de QR-code rechts met de WireGuard-app scannen om snel verbinding te maken.
+
+            ![vpnsafe3](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/vpnsafe/vpnsafe3.jpg){class="glboxshadow"}
+
+            ![vpnsafe4](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/vpnsafe/vpnsafe4.jpg){class="glboxshadow"}
+
+        - Als je alle configuraties wilt downloaden, klik je op **Download All** om een ZIP-bestand te krijgen. Pak het uit om alle beschikbare configuratiebestanden te verkrijgen.
+
+            ![vpnsafe5](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/vpnsafe/vpnsafe5.jpg){class="glboxshadow"}
+
+    4. Volg daarna [deze handleiding](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers) om verder te gaan.
+
+    Referentie: [How to Add a VPN Safe WireGuard Config to a GL.iNet Router](https://www.youtube.com/watch?v=W-ycLZPeygA&list=PLY3TuHSEidyQ&index=12){target="_blank"}
+
 ??? "VPN Unlimited(KeepSolid)"
     ### VPN Unlimited(KeepSolid) {#vpn-unlimitedkeepsolid}
 
@@ -353,9 +380,7 @@
 
     4. Volg daarna [deze handleiding](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers) om door te gaan.
 
-    [Referentiekoppeling 1](https://www.vpnunlimited.com/help/manuals/wireguard-setup-on-glinet-router){target="_blank"}
-
-    [Referentiekoppeling 2](https://www.vpnunlimited.com/help/manuals/wireguard/windows){target="_blank"}
+    Referentie: [How to Configure WireGuard Client on GLiNet Router](https://www.vpnunlimited.com/help/manuals/wireguard-setup-on-glinet-router){target="_blank"}
 
 ??? "Windscribe"
     ### Windscribe {#windscribe}

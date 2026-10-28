@@ -2,7 +2,7 @@
 
 ## Aperçu du produit {#product-overview}
 
-Spitz Plus (GL-X2000) est une passerelle cellulaire Wi‑Fi 6 4G LTE double SIM conçue pour fournir des connexions rapides et fiables, en particulier dans les zones éloignées et lors des déplacements sur la route. Grâce à l'agrégation de 3 porteuses, le routeur transmet des données simultanément sur trois bandes opérateur, offrant une bande passante disponible 3 fois supérieure pour éviter la congestion. Il propose quatre méthodes d'accès à Internet : Cellular (cartes SIM), Ethernet, Repeater et Tethering. Il prend en charge le Multi-WAN (conmutation par erreur et équilibrage de charge), les VPN (OpenVPN et WireGuard), le contrôle parental, AdGuard Home, la redirection de ports, Tailscale et bien plus encore.
+Spitz Plus (GL-X2000) est une passerelle cellulaire Wi‑Fi 6 4G LTE double SIM conçue pour fournir des connexions rapides et fiables, en particulier dans les zones éloignées et lors des déplacements sur la route. Grâce à l’agrégation de trois porteuses (3CA), le routeur peut fournir jusqu’à trois fois la bande passante théorique de canal d’une connexion Cat 4 à une seule porteuse, selon les bandes passantes des porteuses agrégées et la prise en charge de LTE 3CA par votre opérateur et les stations de base locales. Il propose quatre méthodes d'accès à Internet : Cellular (cartes SIM), Ethernet, Repeater et Tethering. Il prend en charge le Multi-WAN (basculement et équilibrage de charge), les VPN (OpenVPN et WireGuard), le contrôle parental, AdGuard Home, la redirection de ports, Tailscale et bien plus encore.
 
 ![gl-x2000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/hardware_info/x2000_interface.jpg){class="glboxshadow"}
 
@@ -61,9 +61,7 @@ Connectez un appareil (par exemple un ordinateur, un ordinateur portable ou un s
 
 - Wi‑Fi
 
-    Sur votre appareil, accédez à Paramètres -> WLAN, repérez le nom du réseau Wi‑Fi de votre routeur dans la liste des réseaux disponibles et saisissez le mot de passe. (Le nom du réseau et le mot de passe par défaut sont imprimés sur l'étiquette du routeur.)
-
-    Sur votre appareil, repérez le nom du réseau Wi‑Fi de votre routeur dans la liste des réseaux disponibles, puis saisissez le mot de passe pour rejoindre le réseau. Le nom du réseau et le mot de passe par défaut sont imprimés sur l'étiquette du routeur.
+    Sur votre appareil, accédez à Settings -> WLAN, repérez le nom du réseau Wi-Fi de votre routeur dans la liste des réseaux disponibles et saisissez le mot de passe. Le nom du réseau et le mot de passe par défaut sont imprimés sur l’étiquette du routeur.
 
 ### 3. Se connecter au panneau d'administration web {#3-log-in-to-web-admin-panel}
 
@@ -249,7 +247,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
 === "DNS"
 
-    La page DNS vous permet de définir des serveurs DNS personnalisés, d'activer la protection contre les attaques de rebinding DNS, de remplacer les paramètres DNS de tous les clients, d'autoriser les DNS personnalisés à remplacer les DNS du VPN et de configurer le mode des paramètres du serveur DNS en automatique ou de spécifier manuellement les serveurs DNS issus de la connexion Ethernet.
+    La page DNS vous permet de définir des serveurs DNS personnalisés, d’activer la protection contre les attaques de rebinding DNS, de remplacer les paramètres DNS de tous les clients et d’autoriser les DNS personnalisés à remplacer les DNS VPN. Vous pouvez utiliser les serveurs DNS obtenus automatiquement auprès des appareils en amont ou spécifier manuellement des serveurs DNS personnalisés.
 
     Pour configurer le DNS, consultez [DNS](../../interface_guide/dns.md).
 

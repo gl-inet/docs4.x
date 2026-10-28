@@ -158,10 +158,6 @@ Controleer de volgende mogelijke oorzaken als instellingen niet werken.
 
     Browsers en besturingssystemen bewaren een DNS-cache, waardoor wijzigingen vertraagd kunnen worden toegepast. Wis de cache om wijzigingen direct toe te passen.
 
-      * [DNS-cache wissen in Chrome op desktop](https://support.google.com/accounts/answer/32050){target="_blank"}
-
-      * [DNS-cache wissen in Edge op desktop](https://www.microsoft.com/en-us/edge/learning-center/how-to-manage-and-clear-your-cache-and-cookies?form=MA13I2){target="_blank"}
-
 2. Het profielschema is nog niet begonnen.
 
 3. De ingevoerde domeinnaam is mogelijk onjuist.

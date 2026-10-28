@@ -94,7 +94,7 @@ OpenVPNクライアントのLAN内にある GL-MT3000 に、IPアドレス **192
 
 OpenVPNサーバーに接続しているデバイスから、GL-MT3000 のIPアドレス **192.168.48.211** に ping を実行します。これは、OpenVPNクライアント（GL-MT2500）が自分のLAN内で GL-MT3000 に割り当てたIPアドレスです。
 
-ping が成功すれば、設定は正しく完了しています。OpenVPNクライアントのLANサブネット内にある他のデバイスにも、それぞれのIPアドレスでアクセスできるようになります。
+ping が成功すれば、設定は正しく完了しています。ただし、このデバイスや OpenVPNクライアントのLANサブネット内にある他のデバイスのサービスにアクセスできるかどうかは、各デバイスのファイアウォール設定とサービス設定にも依存します。
 
 ![ping test](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server-access_client_lan_side/ping-test.jpg){class="glboxshadow"}
 

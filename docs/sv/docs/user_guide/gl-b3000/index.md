@@ -202,10 +202,10 @@ Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindel
 
     På sidan Guest Network kan du skapa och hantera ett separat nätverk för gäster. De får internetåtkomst samtidigt som huvudnätverket förblir säkert. Sidan innehåller bland annat följande funktioner:
 
-    * Gateway: Ange ett särskilt IP-adressintervall för gästnätverket för att skilja det från huvudnätverket.
+    * Gateway: Ange gatewayens IP-adress för gästnätverket.
     * DHCP: Konfigurera Dynamic Host Configuration Protocol för gästnätverket så att IP-adresser automatiskt tilldelas anslutna enheter.
 
-    Funktionerna ger gäster internetåtkomst utan att äventyra huvudnätverkets säkerhet och prestanda.
+    Gästnätverket ger gäster internetåtkomst och isolerar gästtrafiken från huvudnätverket för att minska potentiell påverkan på dess säkerhet och prestanda.
 
     Detaljerade konfigurationsanvisningar och mer information finns i [Guest Network](../../interface_guide/guest_network.md).
 
@@ -243,7 +243,7 @@ Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindel
     * NAT6: Använd Network Address Translation för IPv6 (NAT6) för att översätta mellan interna och externa IPv6-adresser på ett sätt som liknar NAT för IPv4.
     * Static IPv6: Konfigurera en statisk IPv6-adress för routern manuellt. En fast adress ger en konsekvent anslutning och enklare hantering av nätverkstjänster.
 
-    Med dessa inställningar kan du dra nytta av IPv6-fördelar som större adressutrymme, förbättrade säkerhetsfunktioner och bättre prestanda.
+    Dessa lägen ger flexibla konfigurationsalternativ för IPv6 som passar olika nätverksmiljöer.
 
     Detaljerade konfigurationsanvisningar och mer information finns i [IPv6](../../interface_guide/ipv6.md).
 

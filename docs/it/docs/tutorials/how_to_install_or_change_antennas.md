@@ -19,7 +19,7 @@ Le porte TS-9 di Mudi 7 sono connettori femmina, con foro interno. Richiedono an
 Spitz AX (GL-X3000) e Puli AX (GL-XE3000) includono le seguenti antenne esterne:
 
 * 2 antenne Wi-Fi (RP-SMA, 2.4G~2.5GHz, 5.15~5.84GHz)
-* 4 antenne 5G NR (SMA, 600MHz~6GHz)
+* 4 antenne 5G NR (SMA, 600M~6GHz)
 
 Segui questi passaggi per installare le antenne esterne.
 
@@ -37,7 +37,7 @@ Segui questi passaggi per installare le antenne esterne.
 Spitz Plus (GL-X2000) include le seguenti antenne esterne:
 
 * 2 antenne Wi-Fi (RP-SMA, 2.4G~2.5GHz, 5.15~5.84GHz)
-* 2 antenne 4G (SMA, 600MHz~3.8GHz)
+* 2 antenne 4G (SMA, 600M~3.8GHz)
 
 Segui questi passaggi per installare le antenne esterne.
 
@@ -136,7 +136,7 @@ Tuttavia, consigliamo di usare le antenne originali, poiché sono state sottopos
 
 Se preferisci usare antenne di terze parti, fai riferimento alle sezioni seguenti per assicurarti di scegliere antenne con il tipo corretto di connettore.
 
-**Suggerimento**: se hai acquistato antenne con connettori errati, puoi valutare l'acquisto di un adattatore che converta tra connettori diversi, ad esempio da SMA-RP maschio a SMA femmina.
+**Suggerimento**: se hai acquistato antenne con connettori errati, puoi valutare l'acquisto di un adattatore che converta tra connettori diversi, ad esempio da RP-SMA maschio a SMA femmina.
 
 ### Antenne Wi-Fi {#wi-fi-antennas}
 

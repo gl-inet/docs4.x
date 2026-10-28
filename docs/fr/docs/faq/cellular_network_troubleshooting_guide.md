@@ -48,7 +48,7 @@ Si vous ne parvenez pas à établir une connexion cellulaire, veuillez vérifier
     
     **2.4** Activez **Band Masking** et réessayez. Pour le firmware version 4.7 et antérieure, reportez-vous à [ce lien](../interface_guide/internet_cellular_v4.7.md#band-masking). Pour le firmware version 4.8 et ultérieure, reportez-vous à [ce lien](../interface_guide/internet_cellular.md#band-masking).
 
-    **2.5** Verrouillez ou déverrouillez une antenne relais et réessayez. Cette fonctionnalité est disponible uniquement sur les GL-X3000 (Spitz AX), GL-XE3000 (Puli AX) et GL-X2000 (Spitz Plus). Cliquez [ici](../interface_guide/internet_cellular.md#lock-tower) pour plus d'instructions.
+    **2.5** Verrouillez ou déverrouillez une antenne relais et réessayez. Cette fonction est disponible sur les GL-E5800 (Mudi 7), GL-X3000 (Spitz AX), GL-XE3000 (Puli AX) et GL-X2000 (Spitz Plus). Le GL-X2000 (Spitz Plus) la prend en charge à partir du firmware v4.7. Cliquez [ici](../interface_guide/internet_cellular.md#lock-tower) pour plus d’instructions.
     
     Le verrouillage sur une antenne relais spécifique permet au routeur d'accéder à une ressource réseau de haute qualité et de maintenir une connectivité cellulaire stable.
     
@@ -60,7 +60,7 @@ Si vous ne parvenez pas à établir une connexion cellulaire, veuillez vérifier
 
 ??? "Vérifier la compatibilité de la carte SIM"
     
-    **3.1** Confirmez le type de carte SIM. Les routeurs cellulaires GL.iNet sont certifiés comme appareils IoT. En théorie, l'appareil ne prend en charge que les cartes SIM de type IoT. Si vous n'êtes pas sûr du type de carte SIM, veuillez contacter votre opérateur.
+    **3.1** Vérifiez la compatibilité de la carte SIM. Les modèles nord-américains de routeurs cellulaires GL.iNet sont certifiés IoT. Cela ne signifie toutefois pas que des cartes SIM IoT sont obligatoires : les cartes SIM grand public standard peuvent également être compatibles. Si vous ne savez pas quel type de carte SIM utiliser, contactez votre opérateur.
     
     Les types de carte SIM courants comprennent : data-only, data-only + voice, IoT et hotspot. Nous recommandons d'utiliser des cartes SIM IoT ou hotspot. Le fonctionnement des cartes SIM data-only ou data-only + voice n'est pas garanti.
     

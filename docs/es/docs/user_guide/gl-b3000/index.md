@@ -202,10 +202,10 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 
     La página Guest Network le permite crear y gestionar una red independiente para sus invitados, proporcionándoles acceso a Internet mientras mantiene segura su red principal. Entre las funciones principales de esta página se incluyen:
 
-    * Gateway: configure un rango de direcciones IP específico para la red de invitados a fin de diferenciarla de la red principal.
+    * Gateway: configure la dirección IP de la puerta de enlace de la red de invitados.
     * DHCP: configure el protocolo Dynamic Host Configuration Protocol para la red de invitados, asignando automáticamente direcciones IP a los dispositivos que se conecten a ella.
 
-    Estas funciones garantizan que sus invitados puedan disfrutar de acceso a Internet sin comprometer la seguridad ni el rendimiento de la red principal.
+    La red de invitados proporciona acceso a Internet a los invitados y aísla su tráfico de la red principal para reducir los posibles efectos en su seguridad y rendimiento.
 
     Para ver instrucciones detalladas de configuración y más información, consulte [Guest Network](../../interface_guide/guest_network.md).
 
@@ -243,7 +243,7 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
     * NAT6: utiliza Network Address Translation para IPv6 (NAT6) para traducir entre direcciones IPv6 internas y externas, de forma similar a como funciona NAT en IPv4.
     * Static IPv6: configura manualmente una dirección IPv6 estática para el router, proporcionando una dirección fija para una conectividad constante y una gestión más sencilla de los servicios de red.
 
-    Estos ajustes le ayudan a aprovechar las ventajas de IPv6, como un espacio de direcciones ampliado, funciones de seguridad mejoradas y mejor rendimiento.
+    Estos modos ofrecen opciones flexibles de configuración de IPv6 para adaptarse a distintos entornos de red.
 
     Para ver instrucciones detalladas de configuración y más información, consulte [IPv6](../../interface_guide/ipv6.md).
 

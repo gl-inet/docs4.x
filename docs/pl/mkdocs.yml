@@ -609,6 +609,7 @@ nav:
       - Kontrola rodzicielska (v4.9): interface_guide/parental_control_v4.9.md
     - Bezpieczenstwo:
       - Skanowanie zabezpieczeń: interface_guide/security_scan.md
+      - UPnP: interface_guide/upnp.md
       - Przekierowanie portow: interface_guide/port_forwarding.md
       - ACL: interface_guide/acl.md
       - Dostep administratora: interface_guide/admin_access.md

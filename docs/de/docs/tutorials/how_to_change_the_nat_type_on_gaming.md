@@ -1,24 +1,24 @@
 # So ändern Sie den NAT-Typ beim Gaming {#how-to-change-the-nat-type-on-gaming}
 
-Die meisten Spielehersteller empfehlen, UPnP auf dem Router zu aktivieren, um einen besseren NAT-Typ zu erhalten. Studien zeigen jedoch, dass UPnP kein sicheres Protokoll ist.
+Einige Spieleentwickler empfehlen, UPnP auf dem Router zu aktivieren, um einen besseren NAT-Typ zu erhalten. UPnP birgt jedoch potenzielle Sicherheitsrisiken.
 
-Sie können dasselbe Ziel auf sicherere Weise erreichen, entweder mit der DMZ-Funktion oder mit Portweiterleitung.
+Sie können dasselbe Ziel mit DMZ oder Portweiterleitung auf Ihrem Router erreichen. Bevor Sie eine dieser Funktionen aktivieren, sollten Sie deren Funktionsweise und die damit verbundenen Sicherheitsrisiken verstehen.
 
 ## Überprüfen Sie die IP Ihrer Spielkonsole oder Ihres Gaming-Geräts {#check-your-game-ip}
 
-Öffnen Sie die Client-Liste und prüfen Sie die Ihrem Gaming-Gerät zugewiesene IP-Adresse. Diese IP-Adresse benötigen Sie für die folgende Einrichtung.
+Melden Sie sich zunächst bei Ihrem Router an. Öffnen Sie die Client-Liste und prüfen Sie die Ihrem Gaming-Gerät zugewiesene IP-Adresse. Diese IP-Adresse benötigen Sie für die folgende Einrichtung.
 
 ![gameip](https://static.gl-inet.com/docs/router/de/4/tutorials/gamling/gameip.png){class="glboxshadow"}
 
 ## Methode 1: DMZ {#method-1-dmz}
 
-Gehen Sie in der Seitenleiste zu **Network > Port Forwarding** und aktivieren Sie die DMZ mit der IP Ihres Gaming-Geräts.
+Gehen Sie in der Seitenleiste zu **Network** -> **Port Forwarding** und aktivieren Sie die DMZ mit der IP Ihres Gaming-Geräts.
 
 ![dmz](https://static.gl-inet.com/docs/router/de/4/tutorials/gamling/dmzgame.png){class="glboxshadow"}
 
 ## Methode 2: Portweiterleitung {#method-2-port-forward}
 
-Gehen Sie in der Seitenleiste zu **Network > Port Forwarding** und fügen Sie die erforderlichen Ports mit der IP Ihres Gaming-Geräts hinzu.
+Gehen Sie in der Seitenleiste zu **Network** -> **Port Forwarding** und fügen Sie die erforderlichen Ports mit der IP Ihres Gaming-Geräts hinzu.
 
 ![inputport](https://static.gl-inet.com/docs/router/de/4/tutorials/gamling/inputport.png){class="glboxshadow"}
 
@@ -42,11 +42,11 @@ Bei einigen Spielen müssen möglicherweise weitere Ports weitergeleitet werden.
 
 ## Full Cone NAT {#full-cone-nat}
 
-Sie können **Full Cone NAT** unter **Network > NAT Settings** aktivieren, um die Latenz zu verbessern.
+Sie können Full Cone NAT aktivieren, um die Latenz zu verbessern. Diese Funktion ist seit Firmware v4.5 verfügbar.
+
+Gehen Sie zu **Network** -> **NAT Settings**, aktivieren Sie bei Bedarf **Full Cone NAT** und klicken Sie auf **Apply**.
 
 ![conenat](https://static.gl-inet.com/docs/router/de/4/tutorials/gamling/conenat.png){class="glboxshadow"}
-
-* Diese Funktion ist ab Firmware 4.5 verfügbar.
 
 ---
 

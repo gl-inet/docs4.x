@@ -32,7 +32,7 @@ Schalten Sie bei einem Störfall zuerst den Netzschalter aus.
 
 ## Produktübersicht {#product-overview}
 
-Puli AX (GL-XE3000) ist ein leistungsstarker Wi-Fi-6-5G-Cellular-Router, der Ihre Internetgeschwindigkeit auf ein neues Niveau hebt. Mit dem integrierten 6400mAh-/7.4V-/47.4Wh-Akku profitieren Sie noch länger von einer unterbrechungsfreien Internetverbindung. Erleben Sie Wi-Fi-Geschwindigkeiten von bis zu 574 Mbit/s (2.4GHz) und 2402 Mbit/s (5GHz), mit einer kombinierten maximalen Wi-Fi-Geschwindigkeit von 3000 Mbit/s. Das Gerät ist mit einer 5G-NR-Cellular-Verbindung ausgestattet und sorgt so auch bei einem Ausfall von Ethernet für unterbrechungsfreien Internetzugang.
+Puli AX (GL-XE3000) ist ein Wi-Fi-6-5G-Cellular-Router für schnelle Internetverbindungen. Mit dem integrierten 6400mAh/7.4V/47.4Wh-Akku können Sie die Internetverbindung länger nutzen. Er bietet Wi-Fi-Geschwindigkeiten von bis zu 574Mbps (2.4GHz) und 2402Mbps (5GHz). Das Gerät verfügt über eine 5G-NR-Mobilfunkverbindung. Wenn Multi-WAN-Failover konfiguriert ist, kann es die Verbindung auch bei einem Ethernet-Ausfall aufrechterhalten.
 
 ![xe3000_interface](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-xe3000/hardware_info/xe3000_interface.jpg){class="glboxshadow"}
 
@@ -289,7 +289,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
 === "DNS"
 
-    Auf der Seite DNS können Sie benutzerdefinierte DNS-Server festlegen, den Schutz vor DNS-Rebinding-Angriffen aktivieren und die DNS-Einstellungen aller Clients überschreiben. Außerdem können Sie erlauben, dass benutzerdefiniertes DNS VPN-DNS überschreibt, und den DNS-Servermodus auf automatisch setzen oder DNS-Server der Ethernet-Verbindung manuell angeben.
+    Auf der Seite DNS können Sie benutzerdefinierte DNS-Server festlegen, den Schutz vor DNS-Rebinding-Angriffen aktivieren, die DNS-Einstellungen aller Clients überschreiben und zulassen, dass benutzerdefiniertes DNS VPN-DNS überschreibt. Sie können automatisch von vorgeschalteten Geräten bezogene DNS-Server verwenden oder benutzerdefinierte DNS-Server manuell angeben.
 
     Zum Einrichten von DNS lesen Sie bitte [DNS](../../interface_guide/dns.md).
 

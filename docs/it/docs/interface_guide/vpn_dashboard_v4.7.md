@@ -178,7 +178,7 @@ La schermata WireGuard Server Route Rule viene mostrata come segue. Fai clic su 
 
 ![wg server route rule](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/vpnserver_route_rule_wg.png){class="glboxshadow"}
 
-**Nota**: in modalità customize routes, il client VPN ignorerà il file di configurazione e la configurazione di instradamento fornita dal server. La scelta di usare o meno il tunnel VPN cifrato quando si accede a qualsiasi segmento di rete dipende dalle regole di instradamento impostate manualmente.
+**Nota**: le regole di routing del server consentono di definire voci di routing personalizzate sul server VPN, specificando indirizzo di destinazione, gateway e altri parametri per ogni regola. Le voci configurate manualmente hanno la precedenza sulle impostazioni di routing predefinite nel file di configurazione VPN e determinano quale traffico dei client viene instradato attraverso il tunnel cifrato.
 
 ### Global Options {#global-options_1}
 

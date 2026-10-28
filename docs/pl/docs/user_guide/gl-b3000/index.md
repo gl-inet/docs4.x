@@ -202,10 +202,10 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między Twoim 
 
     Strona Guest Network umożliwia utworzenie i zarządzanie oddzielną siecią dla gości, zapewniając im dostęp do internetu przy zachowaniu bezpieczeństwa głównej sieci. Dostępne funkcje obejmują:
 
-    * Gateway: ustawienie określonego zakresu adresów IP dla sieci gościnnej, aby odróżnić ją od sieci głównej.
+    * Gateway: ustaw adres IP bramy sieci gościnnej.
     * DHCP: konfigurację protokołu Dynamic Host Configuration Protocol dla sieci gościnnej, który automatycznie przypisuje adresy IP urządzeniom łączącym się z tą siecią.
 
-    Funkcje te pozwalają gościom korzystać z internetu bez wpływu na bezpieczeństwo i wydajność głównej sieci.
+    Sieć gościnna zapewnia gościom dostęp do internetu i izoluje ich ruch od sieci głównej, aby ograniczyć potencjalny wpływ na jej bezpieczeństwo i wydajność.
     
     Aby uzyskać szczegółowe instrukcje konfiguracji, zapoznaj się z [Guest Network](../../interface_guide/guest_network.md).
 
@@ -243,7 +243,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między Twoim 
     * NAT6: wykorzystanie translacji adresów sieciowych dla IPv6 (NAT6) do translacji między wewnętrznymi i zewnętrznymi adresami IPv6, podobnie jak NAT działa w IPv4.
     * Static IPv6: ręczna konfiguracja statycznego adresu IPv6 routera, zapewniająca stały adres dla stabilnej łączności i łatwiejszego zarządzania usługami sieciowymi.
 
-    Ustawienia te pomagają wykorzystać zalety IPv6, w tym większą przestrzeń adresową, ulepszone funkcje bezpieczeństwa i lepszą wydajność.
+    Tryby te zapewniają elastyczne opcje konfiguracji IPv6 dostosowane do różnych środowisk sieciowych.
 
     Aby uzyskać szczegółowe instrukcje konfiguracji, zapoznaj się z [IPv6](../../interface_guide/ipv6.md).
 

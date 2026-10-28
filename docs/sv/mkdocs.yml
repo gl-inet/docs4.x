@@ -599,6 +599,7 @@ nav:
       - Föräldrakontroll (v4.9): interface_guide/parental_control_v4.9.md
     - Säkerhet:
       - Säkerhetskontroll: interface_guide/security_scan.md
+      - UPnP: interface_guide/upnp.md
       - Portvidarebefordran: interface_guide/port_forwarding.md
       - ACL: interface_guide/acl.md
       - Administratörsåtkomst: interface_guide/admin_access.md

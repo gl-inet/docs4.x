@@ -27,7 +27,7 @@ Najpierw użyj routera (zakładany jako GL-MT6000) z publicznym adresem IP, aby 
 
 ![tutorials_export](https://static.gl-inet.com/docs/router/en/4/tutorials/tap_s2s_vs_tun/tutorials_export.png){class="glboxshadow"}
 
-Dodatkowo użyj routera (zakładany jako GL-X3000) z publicznym adresem IP, aby otworzyć klienta OpenVPN, zaimportuj plik konfiguracyjny pobrany w powyższych krokach, kliknij **Apply**, a następnie włącz funkcję.
+Dodatkowo użyj routera (zakładany jako GL-X3000), aby otworzyć klienta OpenVPN, zaimportuj plik konfiguracyjny pobrany w powyższych krokach, kliknij **Apply**, a następnie włącz funkcję.
 
 ![tutorials_select_file](https://static.gl-inet.com/docs/router/en/4/tutorials/tap_s2s_vs_tun/tutorials_select_file.png){class="glboxshadow"}
 
@@ -43,7 +43,7 @@ Uwagi:
 
 - Oba urządzenia muszą być zaktualizowane do wersji v4.5, w przeciwnym razie nie będą mogły się połączyć;
 - TAP-S2S działa tylko z trybem globalnym VPN, dostosowuje się automatycznie po włączeniu OpenVPN.
-- Po włączeniu tej funkcji nie można używać następujących funkcji: serwer VPN, Adguard Home, Parental Control, ZeroTier, Tailscale, Tor, Firewall, Multi-WAN, LAN, DNS, Network Mode, IPv6, MAC Address, Drop-in Gateway, IGMP Snooping itp.
+- Po włączeniu tej funkcji na kliencie OpenVPN nie można używać następujących funkcji: serwer VPN, Adguard Home, Parental Control, ZeroTier, Tailscale, Tor, Firewall, Multi-WAN, LAN, DNS, Network Mode, IPv6, MAC Address, Drop-in Gateway, IGMP Snooping itp.
 
 ---
 

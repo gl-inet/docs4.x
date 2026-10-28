@@ -317,7 +317,7 @@
     3. Then follow [this guide](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers) to continue.
 
 ??? "VPN Safe"
-    ### VPN Safe {#vpnsafe}
+    ### VPN Safe {#vpn-safe}
 
     [Official Website](https://secure.vpnsafe.net/aff.php?aff=6){target="_blank"}
 

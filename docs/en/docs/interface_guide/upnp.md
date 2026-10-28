@@ -1,4 +1,4 @@
-# UPnP
+# UPnP {#upnp}
 
 **Note**: This feature was introduced in firmware v4.11.
 
@@ -8,7 +8,7 @@ On the left side of the web Admin Panel, go to **SECURITY** -> **UPnP**.
 
 UPnP (Universal Plug and Play) allows compatible LAN devices and applications to automatically request port mappings on GL.iNet routers. These mappings forward incoming WAN traffic to specified LAN IP addresses and ports, allowing external clients to connect to local services without manually configured port forwarding rules.
 
-UPnP differs from [Port Forwarding](./port_forwarding.md) and [DMZ](./port_forwarding.md#dmz-dmz): UPnP creates mappings automatically upon device requests. Port forwarding exposes selected ports, while DMZ exposes all ports of a LAN host; both port forwarding and DMZ require manual configuration. Before enabling any of these features, make sure you understand how they work and the associated security risks.
+UPnP differs from [Port Forwarding](./port_forwarding.md) and [DMZ](./port_forwarding.md#dmz): UPnP creates mappings automatically upon device requests. Port forwarding exposes selected ports, while DMZ exposes all ports of a LAN host; both port forwarding and DMZ require manual configuration. Before enabling any of these features, make sure you understand how they work and the associated security risks.
 
 **Note**: 
 
@@ -26,7 +26,7 @@ Common use cases for UPnP include:
 
 - **Remote access**: Devices and applications that support UPnP port mapping, such as certain NAS devices, IP cameras, and media servers, can automatically configure mappings for access from outside the local network.
 
-## Quick Setup
+## Quick Setup {#quick-setup}
 
 Toggle the switch to enable UPnP. Compatible devices and applications can then request port mappings as needed, as shown in the example below.
 

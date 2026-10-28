@@ -16,7 +16,7 @@ Get the latest firmware from the [Firmware Download Center](https://dl.gl-inet.c
 
 ![security scan](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/security_scan.png){class="glboxshadow"}
 
-## UPnP
+## UPnP {#upnp}
 
 [UPnP](../interface_guide/upnp.md) allows compatible LAN devices and applications to automatically request port mappings without manual port forwarding configuration. This simplifies connectivity for online gaming, peer-to-peer file sharing, and remote access. On the UPnP page, you can view active mappings, check remaining lease time, and delete mappings as needed.
 

@@ -668,7 +668,7 @@ If the service provider you subscribed to is not listed below, please contact th
         ![VPNGate download page](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/vpngate/vpngate2.png){class="glboxshadow"}
 
 ??? "VPN Safe"
-    ### VPN Safe {#vpnsafe}
+    ### VPN Safe {#vpn-safe}
 
     [Official Website](https://vpn.ac/aff.php?aff=1424){target="_blank"}
 

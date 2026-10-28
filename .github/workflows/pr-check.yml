@@ -27,6 +27,9 @@ jobs:
   # cache, for the files this PR changes (same checks as the pre-commit hook).
   structure:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
     steps:
       - name: Check out pull request
         uses: actions/checkout@v6
@@ -44,6 +47,18 @@ jobs:
 
       - name: Check structure and anchors
         run: python scripts/precommit.py --base "origin/${{ github.base_ref }}"
+
+      # One-click fixes for new English headings without an ID. Fork PRs get a
+      # read-only token, so they only see the IDs in the check output.
+      - name: Suggest missing heading IDs
+        if: failure() && github.event.pull_request.head.repo.full_name == github.repository
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          python scripts/suggest_ids.py \
+            --base "origin/${{ github.base_ref }}" \
+            --head "${{ github.event.pull_request.head.sha }}" \
+            --pr "${{ github.event.pull_request.number }}"
 
   # Broken page links, missing nav targets and other MkDocs warnings, for the
   # languages this PR changes.

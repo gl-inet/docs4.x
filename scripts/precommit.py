@@ -4,7 +4,11 @@
 Enable the hook once per clone:
   git config core.hooksPath .githooks
 
-For staged pages, the hook reports:
+The hook first gives new English headings the ID that MkDocs generates for them
+(as ``anchors.py add --lang en`` does) and stages the fix. Pages with unstaged
+changes are left alone, so the hook never stages work in progress.
+
+For staged pages, the hook then reports:
 - heading ID and anchor problems (scripts/anchors.py); broken anchor links are
   reported for every page of the touched languages;
 - for localized pages: structure and text problems (scripts/i18n_check.py),
@@ -56,6 +60,32 @@ def staged_files(base: str | None = None) -> list[tuple[str, str]]:
     return files
 
 
+def git(*args: str) -> str:
+    return subprocess.run(
+        ["git", *args], check=True, capture_output=True, text=True, encoding="utf-8",
+    ).stdout
+
+
+def add_missing_ids(files: list[tuple[str, str]]) -> None:
+    """Give staged English headings without an ID the ID MkDocs generates, and stage the fix."""
+    unstaged = set(git("diff", "--name-only").splitlines())
+    for status, path in files:
+        if status == "D" or not path.startswith("docs/en/docs/") or not path.endswith(".md"):
+            continue
+        page = anchors.load_page(anchors.SOURCE_LANG, anchors.REPO_ROOT / path)
+        fixes = anchors.missing_id_fixes(page)
+        if not fixes:
+            continue
+        if path in unstaged:
+            print(f"pre-commit: {path} has unstaged changes; add the heading IDs by hand or stage the page")
+            continue
+        for heading, _ in fixes:
+            anchors.set_heading_id(page, heading, heading.rendered_id)
+        anchors.write_page(page)
+        git("add", "--", path)
+        print(f"pre-commit: added heading IDs to {path}: {', '.join(h.rendered_id for h, _ in fixes)}")
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="Check staged documentation changes.")
     parser.add_argument("--base", help="check the changes since this ref instead of the staged files")
@@ -66,7 +96,10 @@ def main(argv: list[str] | None = None) -> int:
     pages: dict[str, set[str]] = {}  # lang -> staged pages relative to docs/<lang>/docs
     file_check_langs: set[str] = set()
     localized_files: list[tuple[str, pathlib.Path]] = []
-    for status, path in staged_files(args.base):
+    files = staged_files(args.base)
+    if not args.base:
+        add_missing_ids(files)
+    for status, path in files:
         match = PATH_RE.match(path)
         if not match or match.group("lang") not in LANGS:
             continue

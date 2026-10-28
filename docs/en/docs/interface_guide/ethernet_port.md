@@ -4,7 +4,7 @@ The content on this page is based on firmware version v4.7-4.9. If your device i
 
 <div class="gl-link-select" data-label="Firmware version" data-placeholder="Firmware v4.9 and earlier" markdown="1">
 
-- [Firmware v4.10](ethernet_port_v4.10.md)
+- [Firmware v4.10 and above](ethernet_port_v4.10.md)
 
 </div>
 

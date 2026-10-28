@@ -1,0 +1,125 @@
+name: Codex PR review
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+    branches:
+      - master
+    paths:
+      - "docs/**"
+
+concurrency:
+  group: codex-pr-review-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  review:
+    # Pull requests from forks get no secrets, so only branches of this
+    # repository are reviewed. Drafts are reviewed when marked ready.
+    if: github.event.pull_request.head.repo.full_name == github.repository && !github.event.pull_request.draft
+    runs-on: ubuntu-latest
+    # The Codex secrets are environment secrets of the OpenAI environment.
+    environment: OpenAI
+    steps:
+      - name: Check out pull request head
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.10.4"
+
+      # Lets Codex run scripts/anchors.py and scripts/i18n_check.py.
+      - name: Install documentation dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Prepare review input
+        shell: bash
+        run: |
+          set -euo pipefail
+          echo ".codex-run/" >> .git/info/exclude
+          python scripts/codex_review.py prepare \
+            --base "origin/${{ github.base_ref }}" \
+            --event "$GITHUB_EVENT_PATH" \
+            --out .codex-run
+
+      - name: Check Codex credentials
+        env:
+          CODEX_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          CODEX_RESPONSES_API_ENDPOINT: ${{ secrets.CODEX_RESPONSES_API_ENDPOINT }}
+        shell: bash
+        run: |
+          missing=0
+          if [ -z "$CODEX_API_KEY" ]; then
+            echo "::error::Secret OPENAI_API_KEY is not available to this job (OpenAI environment)."
+            missing=1
+          fi
+          if [ -z "$CODEX_RESPONSES_API_ENDPOINT" ]; then
+            echo "::error::Secret CODEX_RESPONSES_API_ENDPOINT is not available to this job (OpenAI environment)."
+            missing=1
+          fi
+          exit "$missing"
+
+      - name: Run Codex review
+        uses: openai/codex-action@v1
+        with:
+          openai-api-key: ${{ secrets.OPENAI_API_KEY }}
+          responses-api-endpoint: ${{ secrets.CODEX_RESPONSES_API_ENDPOINT }}
+          prompt-file: .github/codex/prompts/pr-review.md
+          output-file: codex-output.json
+          output-schema-file: .github/codex/pr-review.schema.json
+          permission-profile: ":read-only"
+          codex-args: '["--ephemeral"]'
+
+      - name: Upload review
+        if: always()
+        uses: actions/upload-artifact@v6
+        with:
+          name: codex-review
+          path: |
+            codex-output.json
+            .codex-run/added-lines.json
+          include-hidden-files: true
+          if-no-files-found: ignore
+
+  # Posting runs in its own job so the Codex job never holds a write token.
+  publish:
+    needs: review
+    if: always() && (needs.review.result == 'success' || needs.review.result == 'failure')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+      pull-requests: write
+    steps:
+      - name: Check out scripts
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          sparse-checkout: scripts
+          persist-credentials: false
+
+      - name: Download review
+        continue-on-error: true
+        uses: actions/download-artifact@v8
+        with:
+          name: codex-review
+          path: review
+
+      - name: Publish review
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          python3 scripts/codex_review.py publish \
+            --review review/codex-output.json \
+            --lines review/.codex-run/added-lines.json \
+            --pr "${{ github.event.pull_request.number }}" \
+            --head "${{ github.event.pull_request.head.sha }}" \
+            --result "${{ needs.review.result }}"

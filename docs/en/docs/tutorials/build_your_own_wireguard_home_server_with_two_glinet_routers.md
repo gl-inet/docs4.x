@@ -194,8 +194,6 @@ Log in back to the web Admin Panel of GL-MT6000 (the WireGuard server), go to **
 
 Pre-bind both routers to your GoodCloud account before traveling. This allows you to perform remote troubleshooting if your VPN connection fails due to configuration or other network issues. Remote access only works when the routers remain powered on and connected to the Internet.
 
-Sometimes your server may be down due to a power outage or other reasons. In order to maintain the accessibility of your server, please bind it to GL.iNet GoodCloud. 
-
 ---
 
 Related Articles

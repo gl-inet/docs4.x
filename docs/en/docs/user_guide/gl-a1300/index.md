@@ -22,7 +22,7 @@ The package includes:
 
 ![gl-a1300 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-a1300/first_time_setup/gl-a1300_unboxing.jpg){class="glboxshadow"}
 
-## How to set up Slate Plus {#how-to-set-up-slate-ax}
+## How to set up Slate Plus {#how-to-set-up-slate-plus}
 
 Watch this setup video or follow the steps below. 
 
@@ -129,7 +129,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "WireGuard"
 
-    Slate AX (and other GL.iNet routers) supports the WireGuard protocol which offers great speeds and convenience. To set up WireGuard, follow these tutorials:
+    Slate Plus (and other GL.iNet routers) supports the WireGuard protocol which offers great speeds and convenience. To set up WireGuard, follow these tutorials:
 
     * [How to set up a WireGuard client](../../interface_guide/wireguard_client.md)
     * [How to set up a WireGuard server](../../interface_guide/wireguard_server.md)
@@ -358,8 +358,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     * Remote Access Control: Configure and restrict access to the router's interface from remote locations over the internet, enhancing security against external threats.
 
     These settings help you maintain a secure network environment, safeguarding both your router and connected devices. 
-
-
+    
     Please refer to [Security](../../interface_guide/security.md) for detailed instructions.
 
 === "Reset Firmware"

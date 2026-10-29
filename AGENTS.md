@@ -49,6 +49,8 @@ Use the `glinet-docs-translation` skill for translation-specific tasks, includin
 
 After adding, renaming, or deleting pages, editing `redirect_maps`, or changing localized pages, run `python scripts/i18n_check.py`. It compares each localized page with the English page section by section (images, admonitions, code blocks, tables, links, IP addresses, and version numbers) and reports orphan pages and broken redirects. It also flags untranslated English and language rules such as Italian accents, Russian letters in Ukrainian, and French spaces before `: ; ? !`. Fix the translation; add an entry to `scripts/i18n_allowlist.yml` only for intentional differences, with a reason.
 
+Localized-only legal sections (`{#declaration-of-conformity}`, `{#safety-information}`) keep their approved wording. `translation_delta.py mark`, the pre-commit hook, and the translation workflow (`i18n_check.py --base`) report `protected-section` when such a section is removed or its text changed; restore it with the `git show` command in the message.
+
 The pre-commit hook in `.githooks/` runs these checks on staged files; enable it with `git config core.hooksPath .githooks`.
 
 Pull requests run `.github/workflows/pr-check.yml`: the same checks on the changed files, strict builds of the changed languages, and `scripts/pr_check.py` on the added lines (codespell spelling and missing images fail; LanguageTool grammar, removed heading IDs, mismatched image alt text, and copied "Official Website" links are warnings). If codespell flags a correct word, add it to `scripts/codespell_ignore.txt`.

@@ -23,7 +23,8 @@ language, the English version the translation was last synced with:
   }
 
 Only ``mark`` writes the cache. It refuses to record a language when
-scripts/i18n_check.py reports errors for that page, or when the English text
+scripts/i18n_check.py reports errors for that page (including a localized-only
+legal section removed or changed since HEAD), or when the English text
 changed but the localized file did not (unless --no-target-change is given for
 that language explicitly). ``diff`` shows what English changed since a
 language was last synced. ``migrate`` converts the old format, which had one
@@ -395,7 +396,8 @@ def check_target(source: str, lang: str, file_checks: dict[str, list]) -> list[s
     import i18n_check
 
     if source.startswith("docs/en/docs/") and source.endswith(".md"):
-        issues = i18n_check.check_page(lang, source[len("docs/en/docs/"):])
+        # Syncs are marked before they are committed, so HEAD has the legal sections to keep.
+        issues = i18n_check.check_page(lang, source[len("docs/en/docs/"):], base="HEAD")
     elif source == "docs/en/mkdocs.yml":
         if lang not in file_checks:
             file_checks[lang] = i18n_check.check_language_files(lang)

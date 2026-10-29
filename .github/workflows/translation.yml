@@ -204,7 +204,9 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          python scripts/i18n_check.py
+          # The patch is staged, not committed, so HEAD is master: localized
+          # legal sections that the patch removes or changes fail the check.
+          python scripts/i18n_check.py --base HEAD
           python scripts/anchors.py check
 
       - name: Verify translation cache

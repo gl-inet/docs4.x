@@ -26,6 +26,7 @@ Do not report:
 - style preferences, rewording suggestions, or tone changes when the existing text is correct
 - problems in lines the pull request did not change, unless the change makes them wrong
 - English pages that are not yet translated; the scheduled translation workflow handles that
+- wording, punctuation, or spacing inside localized-only legal sections (headings with `{#declaration-of-conformity}` or `{#safety-information}`); they keep their approved wording even where it breaks a language rule. Do report a change that removes such a section or alters its product name, directive, or certificate link.
 - anything you cannot support with evidence from the repository
 
 ## Findings

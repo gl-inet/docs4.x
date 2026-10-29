@@ -4,7 +4,7 @@ Treść tej strony dotyczy wersji firmware v4.7–v4.9. Jeśli urządzenie używ
 
 <div class="gl-link-select" data-label="Wersja firmware" data-placeholder="Firmware v4.9 and earlier" markdown="1">
 
-- [Firmware v4.10](ethernet_port_v4.10.md)
+- [Firmware v4.10 i nowsze](ethernet_port_v4.10.md)
 
 </div>
 

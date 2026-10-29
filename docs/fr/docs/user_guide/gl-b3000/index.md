@@ -79,7 +79,19 @@ Configurez votre Marble à l'aide des méthodes de connexion Internet prises en 
 
 ---
 
-## Configurer un VPN {#how-to-set-up-a-vpn}
+## Sans fil {#wireless}
+
+La page Wireless permet de configurer les paramètres des réseaux Wi-Fi 5 GHz et 2.4 GHz, notamment l’activation et la désactivation du Wi-Fi, la puissance d’émission, le nom Wi-Fi (SSID), le mode de sécurité et le mot de passe Wi-Fi, la visibilité du SSID, le mode Wi-Fi, la bande passante et le canal.
+
+Pour configurer le réseau sans fil, consultez [Wireless](../../interface_guide/wireless_v4.8.md).
+
+## Clients {#clients}
+
+La page Clients affiche les informations sur les appareils connectés. Pour chaque client, elle indique le nom de l'appareil, le type de connexion (c'est-à-dire via Ethernet ou Wi‑Fi), les adresses IP et MAC, les vitesses de téléchargement et d'envoi, le trafic total, et permet de bloquer le client ou d'effectuer d'autres actions.
+
+Pour configurer les clients, consultez [Clients](../../interface_guide/clients.md).
+
+## VPN {#vpn}
 
 Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre votre appareil et le serveur VPN. Il ajoute une couche supplémentaire de confidentialité et de sécurité (client VPN) et permet d'accéder à un réseau distant (serveur VPN). Marble, comme les autres routeurs GL.iNet, prend en charge OpenVPN et WireGuard. Il prend également en charge Tor.
 
@@ -103,36 +115,6 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     * [Comment configurer Tor](../../interface_guide/tor.md)
 
----
-
-## Réseau sans fil et clients {#wireless-and-clients}
-
-=== "Wireless"
-
-    La page Wireless vous permet de configurer les paramètres des réseaux Wi‑Fi 5GHz et 2.4GHz, notamment l'activation ou la désactivation du Wi‑Fi, le réglage de la puissance TX, la définition du nom du réseau Wi‑Fi (SSID), l'activation ou la désactivation d'un BSSID aléatoire, le choix du mode de sécurité Wi‑Fi, la définition du mot de passe Wi‑Fi, la configuration de la visibilité du SSID, ainsi que le mode Wi‑Fi, la bande passante et le canal.
-
-    Pour configurer le réseau sans fil, consultez [Wireless](../../interface_guide/wireless.md).
-
-=== "Clients"
-
-    La page Clients affiche les informations sur les appareils connectés. Pour chaque client, elle indique le nom de l'appareil, le type de connexion (c'est-à-dire via Ethernet ou Wi‑Fi), les adresses IP et MAC, les vitesses de téléchargement et d'envoi, le trafic total, et permet de bloquer le client ou d'effectuer d'autres actions.
-
-    Pour configurer les clients, consultez [Clients](../../interface_guide/clients.md).
-
-## Services cloud {#cloud-services}
-
-=== "GoodCloud"
-
-    Le service GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} offre un moyen simple et pratique d'accéder à distance aux routeurs GL.iNet et de les gérer.
-    
-    Pour configurer GoodCloud, consultez [GoodCloud](../../interface_guide/cloud.md).
-
-=== "AstroWarp"
-
-    Cette fonctionnalité est disponible à partir du firmware v4.7.
-
-    AstroWarp est une plateforme réseau avancée conçue pour offrir une mise en réseau à distance fluide et une gestion à distance des appareils. Spécialement conçue pour l'intégration avec les routeurs GL.iNet, AstroWarp prend en charge une gestion complète des appareils à l'échelle de réseaux entiers, permettant le contrôle des équipements en amont comme en aval. En mettant l'accent sur la gestion réseau globale et sur une future prise en charge du contrôle au niveau matériel, AstroWarp offre une solution plus robuste et plus fiable pour gérer les appareils et maintenir des réseaux sûrs et stables.
-
 ## Applications {#applications}
 
 === "Plug-ins"
@@ -143,7 +125,11 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     Dynamic DNS (DDNS) détecte et met à jour automatiquement en temps réel l'adresse IP associée à un domaine. Il associe un nom de domaine à l'adresse IP publique dynamique de votre routeur, ce qui vous permet d'accéder à votre réseau à distance sans adresse IP statique. Pour configurer Dynamic DNS, consultez [Dynamic DNS](../../interface_guide/ddns.md).
 
----
+=== "GoodCloud"
+
+    Le service GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} offre un moyen simple et pratique d'accéder à distance aux routeurs GL.iNet et de les gérer.
+    
+    Pour configurer GoodCloud, consultez [GoodCloud](../../interface_guide/cloud.md).
 
 === "AdGuard Home"
 
@@ -151,23 +137,23 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
     
     Pour savoir comment activer AdGuard Home, consultez [AdGuard Home](../../interface_guide/adguardhome.md).
 
+---
+
 === "Parental Control"
 
     Le contrôle parental regroupe des paramètres conçus pour vous aider à gérer et contrôler les appareils de vos enfants. Il inclut la limitation du temps d'écran et la restriction de l'accès à certains contenus. Marble propose deux options de contrôle parental : la version locale développée par GL.iNet et la version intégrée de Bark, une application de contrôle parental.
 
     Pour configurer le contrôle parental, consultez [Parental controls](../../interface_guide/parental_control.md).
 
-=== "Tailscale"
-   
-    Tailscale est un service VPN qui vous permet d'accéder à vos appareils et à vos applications où que vous soyez. Pour configurer Tailscale, consultez [Tailscale](../../interface_guide/tailscale.md).
-
 === "ZeroTier"
 
     ZeroTier est un service VPN qui vous permet de connecter vos appareils à un réseau virtuel. Pour configurer ZeroTier, consultez [ZeroTier](../../interface_guide/zerotier.md).
 
----
+=== "Tailscale"
+   
+    Tailscale est un service VPN qui vous permet d'accéder à vos appareils et à vos applications où que vous soyez. Pour configurer Tailscale, consultez [Tailscale](../../interface_guide/tailscale.md).
 
-## Paramètres réseau {#network-settings}
+## Réseau {#network}
 
 === "Firewall"
 
@@ -196,8 +182,6 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     Pour des instructions détaillées et plus d'informations, consultez [LAN](../../interface_guide/lan.md).
 
----
-
 === "Guest Network"
 
     La page Guest Network vous permet de créer et de gérer un réseau distinct pour vos invités, en leur donnant accès à Internet tout en gardant votre réseau principal sécurisé. Les principales fonctions de cette page sont les suivantes :
@@ -208,6 +192,8 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
     Le réseau invité fournit un accès à Internet aux invités et isole leur trafic de votre réseau principal afin de réduire les effets potentiels sur sa sécurité et ses performances.
     
     Pour des instructions détaillées et plus d'informations, consultez [Guest Network](../../interface_guide/guest_network.md).
+
+---
 
 === "DNS"
 
@@ -231,8 +217,6 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
     * WDS (Wireless Distribution System) : similaire à Extender ; choisissez WDS si votre routeur principal prend en charge le mode WDS.
 
     Pour des instructions détaillées et plus d'informations, consultez [Network Mode](../../interface_guide/network_mode.md).
-
----
 
 === "IPv6"
 
@@ -259,11 +243,11 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     Pour des instructions détaillées et plus d'informations, consultez [MAC Address](../../interface_guide/mac_address.md).
 
+---
+
 === "Drop-in Gateway"
 
-    Drop-in Gateway étend les fonctionnalités de votre routeur principal avec des fonctions qu'il ne propose peut-être pas, notamment AdGuard Home, le DNS chiffré et le VPN.
-    
-    Pour configurer Drop-in Gateway, consultez [Comment configurer Drop-in Gateway](../../tutorials/how_to_set_up_drop_in_gateway.md).
+    Drop-in Gateway étend les fonctionnalités de votre routeur principal avec des fonctions qu'il ne propose peut-être pas, notamment AdGuard Home, le DNS chiffré et le VPN. Pour configurer Drop-in Gateway, consultez [Comment configurer Drop-in Gateway](../../tutorials/how_to_set_up_drop_in_gateway.md).
 
 === "IGMP Snooping"
 
@@ -290,9 +274,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     Pour des instructions détaillées et plus d'informations, consultez [NAT Settings](../../interface_guide/nat_settings.md).
 
----
-
-## Paramètres système {#system-settings}
+## Système {#system}
 
 === "Overview"
 
@@ -332,13 +314,13 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     Pour des instructions détaillées et plus d'informations, consultez [Scheduled Tasks](../../interface_guide/scheduled_tasks.md).
 
----
-
 === "Time Zone"
 
     La page Time Zone vous permet de définir le fuseau horaire correct pour votre routeur, afin que toutes les tâches planifiées, tous les journaux et tous les événements système soient horodatés avec précision selon votre heure locale. Ce réglage est essentiel pour conserver des enregistrements précis et pour garantir le bon fonctionnement des configurations basées sur l'heure.
 
     Pour des instructions détaillées et plus d'informations, consultez [Time Zone](../../interface_guide/time_zone.md).
+
+---
 
 === "Log"
 
@@ -361,13 +343,10 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
     * Admin Password : définissez ou modifiez le mot de passe de l'interface d'administration du routeur afin que seuls les utilisateurs autorisés puissent modifier les paramètres.
     * Local Access Control : gérez et restreignez l'accès à l'interface du routeur depuis les appareils connectés à votre réseau local.
     * Remote Access Control : configurez et restreignez l'accès à l'interface du routeur depuis des emplacements distants via Internet, pour une meilleure protection contre les menaces externes.
-    * Open Ports on Router : contrôlez les ports ouverts sur le routeur afin de limiter les vulnérabilités potentielles et les accès non autorisés.
 
     Ces paramètres vous aident à maintenir un environnement réseau sécurisé, en protégeant à la fois votre routeur et les appareils connectés.
 
-    Pour des instructions détaillées et plus d'informations, consultez [Security](../../interface_guide/security.md).
-
----
+    Pour des instructions de configuration détaillées et des informations complémentaires, consultez [Security](../../interface_guide/security.md).
 
 === "Reset Firmware"
 

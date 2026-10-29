@@ -6,7 +6,7 @@
 
 En el lado izquierdo del panel web de administración, vaya a **NETWORK** -> **Subnet**.
 
-La página consolida la configuración de **LAN**, **Guest Network**, **IoT Network** y las **VLAN Networks** personalizadas en una vista unificada. Proporciona una interfaz centralizada para todos los ajustes relacionados con subredes, lo que permite crear y administrar varias subredes para aislar distintos tipos de dispositivos o tráfico.
+Esta página permite configurar y administrar de forma centralizada **Main Network**, **Guest Network**, **IoT Network** y las **VLAN Networks** personalizadas. Puede crear y administrar varias subredes para aislar distintos tipos de dispositivos o tráfico.
 
 ## Red principal {#main-network}
 

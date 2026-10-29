@@ -125,7 +125,33 @@ Wi-Fi 情報を確認する際、Wi-Fi 情報を変更した場合は、更新�
 
 ---
 
-## VPN のセットアップ方法 {#how-to-set-up-a-vpn}
+## Wireless {#wireless}
+
+Wireless ページでは、5 GHz と 2.4 GHz の Wi-Fi ネットワークの設定を行えます。Wi-Fi の有効化、送信出力（TX power）の設定、Wi-Fi 名（SSID）の指定、ランダム化 BSSID の有効化、Wi-Fi セキュリティモードとパスワードの設定、SSID の表示設定、Wi-Fi モード、帯域幅、チャンネルの選択が含まれます。
+
+詳細については、[Wireless](../../interface_guide/wireless_v4.8.md)を参照してください。
+
+## Clients {#clients}
+
+Clients ページには、接続中のデバイス情報が表示されます。各クライアントについて、名前、IP アドレス、MAC アドレス、ダウンロード/アップロード速度、総トラフィックが表示され、クライアントのブロックやその他の操作も行えます。
+
+Clients の設定については、[Clients](../../interface_guide/clients.md)を参照してください。
+
+## クラウドサービス {#cloud-services}
+
+=== "GoodCloud"
+
+    GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} サービスは、GL.iNet ルーターへリモートアクセスして管理するための簡単な方法を提供します。
+    
+    GoodCloud の設定については、[GoodCloud](../../interface_guide/cloud.md)を参照してください。
+
+=== "AstroWarp"
+
+    AstroWarp は、シームレスなリモートネットワークとリモートデバイス管理を提供する高度なネットワーキングプラットフォームです。GL.iNet ルーター連携向けに構築されており、ネットワーク全体にわたる包括的なデバイス管理をサポートし、上位デバイスと下位デバイスの両方を制御できます。ネットワーク全体の管理と将来的なハードウェアレベル制御を重視し、デバイス管理と安全で安定したネットワーク維持のための、より堅牢で信頼性の高いソリューションを提供します。
+    
+    AstroWarp の設定については、[AstroWarp](../../interface_guide/astrowarp.md)を参照してください。
+
+## VPN {#vpn}
 
 VPN（仮想プライベートネットワーク）は、デバイスと VPN サーバー間に安全で暗号化された通信を作成します。プライバシーとセキュリティを強化し（VPN クライアント）、リモートネットワークへのアクセス（VPN サーバー）も可能にします。Puli AX（およびその他の GL.iNet ルーター）は OpenVPN と WireGuard に対応しています。さらに Tor にも対応しています。
 
@@ -149,34 +175,6 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
     
     * [Tor の設定方法](../../interface_guide/tor.md)。
 
-## Wireless と Clients {#wireless-and-clients}
-
-=== "Wireless"
-
-    Wireless ページでは、5 GHz と 2.4 GHz の Wi-Fi ネットワークの設定を行えます。Wi-Fi の有効化、送信出力（TX power）の設定、Wi-Fi 名（SSID）の指定、ランダム化 BSSID の有効化、Wi-Fi セキュリティモードとパスワードの設定、SSID の表示設定、Wi-Fi モード、帯域幅、チャンネルの選択が含まれます。
-
-    Wireless の設定については、[Wireless](../../interface_guide/wireless.md)を参照してください。
-
-=== "Clients"
-
-    Clients ページには、接続中のデバイス情報が表示されます。各クライアントについて、名前、IP アドレス、MAC アドレス、ダウンロード/アップロード速度、総トラフィックが表示され、クライアントのブロックやその他の操作も行えます。
-
-    Clients の設定については、[Clients](../../interface_guide/clients.md)を参照してください。
-
-## クラウドサービス {#cloud-services}
-
-=== "GoodCloud"
-
-    GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} サービスは、GL.iNet ルーターへリモートアクセスして管理するための簡単な方法を提供します。
-    
-    GoodCloud の設定については、[GoodCloud](../../interface_guide/cloud.md)を参照してください。
-
-=== "AstroWarp"
-
-    AstroWarp は、シームレスなリモートネットワークとリモートデバイス管理を提供する高度なネットワーキングプラットフォームです。GL.iNet ルーター連携向けに構築されており、ネットワーク全体にわたる包括的なデバイス管理をサポートし、上位デバイスと下位デバイスの両方を制御できます。ネットワーク全体の管理と将来的なハードウェアレベル制御を重視し、デバイス管理と安全で安定したネットワーク維持のための、より堅牢で信頼性の高いソリューションを提供します。
-    
-    AstroWarp の設定については、[AstroWarp](../../interface_guide/astrowarp.md)を参照してください。
-
 ## アプリケーション {#applications}
 
 === "Plug-ins"
@@ -197,13 +195,13 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
     
     Network Storage の設定については、[Network Storage](../../interface_guide/network_storage.md)を参照してください。
 
----
-
 === "AdGuard Home"
 
     AdGuard Home は、ホームネットワークに接続されたすべてのデバイスで不要なコンテンツをフィルタリングする DNS サーバーとして動作する、ネットワーク全体の広告・トラッカー ブロックソリューションです。
     
     AdGuard Home の設定については、[AdGuard Home](../../interface_guide/adguardhome.md)を参照してください。
+
+---
 
 === "Parental Control"
 
@@ -216,8 +214,6 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
     ZeroTier は、インターネット上に安全な仮想ネットワークを作成し、デバイス同士を同じローカルネットワーク上にあるかのように接続できるソフトウェア定義ネットワーキングソリューションです。
     
     ZeroTier の設定については、[ZeroTier](../../interface_guide/zerotier.md)を参照してください。
-
----
 
 === "Tailscale"
 
@@ -309,7 +305,7 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
     NAT 設定については、[NAT Settings](../../interface_guide/nat_settings.md)を参照してください。
 
-## システム設定 {#system-settings}
+## システム {#system}
 
 === "Overview"
 
@@ -352,13 +348,13 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
     詳細な手順については、[Scheduled Tasks](../../interface_guide/scheduled_tasks.md)を参照してください。
 
----
-
 === "Time Zone"
 
     Time Zone ページでは、ルーターに正しいタイムゾーンを設定し、すべてのスケジュールタスク、ログ、システムイベントが現地時間に基づいて正確に記録されるようにします。この設定は、正確な記録の維持と時間ベース設定の適切な実行に重要です。
 
     詳細な手順については、[Time Zone](../../interface_guide/time_zone.md)を参照してください。
+
+---
 
 === "Log"
 
@@ -386,8 +382,6 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
     これらの設定は、安全なネットワーク環境を維持し、ルーターと接続デバイスの両方を保護するのに役立ちます。
 
     詳細な手順については、[Security](../../interface_guide/security.md)を参照してください。
-
----
 
 === "Reset Firmware"
 

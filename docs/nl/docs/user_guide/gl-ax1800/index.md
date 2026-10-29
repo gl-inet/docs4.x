@@ -97,9 +97,37 @@ Configureer je Flint met een van de ondersteunde methoden voor internetverbindin
 
     Raadpleeg [Verbinding maken met internet via een mobiel netwerk](../../interface_guide/internet_cellular.md) voor uitgebreide instructies.
 
-## Een VPN instellen {#how-to-set-up-a-vpn}
+---
 
-Een VPN (virtual private network) maakt een beveiligde, versleutelde verbinding voor verkeer tussen je apparaat en de VPN-server. Een VPN biedt extra privacy en beveiliging via een VPN-client en geeft je via een VPN-server toegang tot een extern netwerk. Flint ondersteunt OpenVPN, WireGuard en Tor.
+## Wireless {#wireless}
+
+Op de pagina Wireless kun je instellingen voor zowel het 5 GHz- als het 2.4 GHz-Wi-Fi-netwerk configureren. Je kunt Wi-Fi inschakelen, het TX-vermogen instellen, de Wi-Fi-naam (SSID) opgeven, een willekeurige BSSID inschakelen, de Wi-Fi-beveiligingsmodus en het wachtwoord selecteren, de zichtbaarheid van de SSID configureren en de Wi-Fi-modus, bandbreedte en het kanaal kiezen.
+
+Raadpleeg [Wireless](../../interface_guide/wireless_v4.8.md) om Wireless in te stellen.
+
+## Clients {#clients}
+
+De pagina Clients toont informatie over verbonden apparaten. Voor elke client worden de naam, het IP- en MAC-adres, de download- en uploadsnelheid en het totale verkeer weergegeven. Je kunt de client ook blokkeren en andere handelingen uitvoeren.
+
+Raadpleeg [Clients](../../interface_guide/clients.md) om Clients in te stellen.
+
+## Clouddiensten {#cloud-services}
+
+=== "GoodCloud"
+
+    De dienst [GoodCloud](https://www.goodcloud.xyz){target="_blank"} van GL.iNet biedt een eenvoudige manier om GL.iNet-routers op afstand te openen en beheren.
+
+    Raadpleeg [GoodCloud](../../interface_guide/cloud.md) om GoodCloud in te stellen.
+
+=== "AstroWarp"
+
+    AstroWarp is een geavanceerd netwerkplatform voor naadloze externe netwerken en extern apparaatbeheer. AstroWarp is speciaal ontwikkeld voor integratie met GL.iNet-routers en ondersteunt uitgebreid apparaatbeheer voor volledige netwerken, waaronder het beheer van boven- en onderliggende apparaten. Door zich te richten op netwerkbreed beheer en toekomstige ondersteuning voor beheer op hardwareniveau biedt AstroWarp een robuustere en betrouwbaardere oplossing voor apparaatbeheer en het onderhouden van veilige, stabiele netwerken.
+
+    Raadpleeg [AstroWarp](../../interface_guide/astrowarp.md) om AstroWarp in te stellen.
+
+## VPN {#vpn}
+
+Een VPN (virtual private network) maakt een beveiligde, versleutelde verbinding voor verkeer tussen je apparaat en de VPN-server. Een VPN biedt extra privacy en beveiliging via een VPN-client en geeft je via een VPN-server toegang tot een extern netwerk. Flint ondersteunt OpenVPN en WireGuard.
 
 === "OpenVPN"
 
@@ -115,39 +143,95 @@ Een VPN (virtual private network) maakt een beveiligde, versleutelde verbinding 
     * [Een WireGuard-client instellen](../../interface_guide/wireguard_client.md)
     * [Een WireGuard-server instellen](../../interface_guide/wireguard_server.md)
 
-=== "Tor"
+## Netwerk {#network}
 
-    Tor, een afkorting van The Onion Router, is een privacygericht netwerk dat anonieme communicatie via internet mogelijk maakt. Internetverkeer wordt via een reeks door vrijwilligers beheerde servers (nodes) geleid om de locatie en het gebruik van de gebruiker te verhullen. Hierdoor zijn online activiteiten moeilijk te traceren.
+=== "Multi-WAN"
 
-    * [Tor instellen](../../interface_guide/tor.md).
+    Multi-WAN is een netwerkfunctie waarmee je op je router meerdere internetverbindingen tegelijk kunt instellen, zoals Cellular, Repeater en Ethernet. Als de huidige internetverbinding uitvalt, schakelt de router automatisch over naar een andere internetverbinding. Dit zorgt voor soepele en ononderbroken internettoegang.
 
-## Draadloos netwerk en clients {#wireless-and-clients}
+    Raadpleeg [Multi-WAN](../../interface_guide/multi-wan.md) om Multi-WAN in te stellen.
 
-=== "Wireless"
+=== "LAN"
 
-    Op de pagina Wireless kun je instellingen voor zowel het 5 GHz- als het 2.4 GHz-Wi-Fi-netwerk configureren. Je kunt Wi-Fi inschakelen, het TX-vermogen instellen, de Wi-Fi-naam (SSID) opgeven, een willekeurige BSSID inschakelen, de Wi-Fi-beveiligingsmodus en het wachtwoord selecteren, de zichtbaarheid van de SSID configureren en de Wi-Fi-modus, bandbreedte en het kanaal kiezen.
+    Een LAN (Local Area Network) is een netwerk dat computers en apparaten binnen een beperkt geografisch gebied, zoals een huis of kantoor, met elkaar verbindt. Het maakt snelle gegevensoverdracht en het delen van bronnen mogelijk, zodat apparaten efficiënt met elkaar kunnen communiceren.
+    
+    Raadpleeg [LAN](../../interface_guide/lan.md) om het LAN in te stellen.
 
-    Raadpleeg [Wireless](../../interface_guide/wireless.md) om Wireless in te stellen.
+=== "Guest Network"
 
-=== "Clients"
+    Je kunt een subnet instellen binnen de privé-IPv4-adresbereiken 192.168.0.0/16, 172.16.0.0/12 of 10.0.0.0/8. Ook kun je de IP-adressen van de gateway en het subnetmasker opgeven en beveiligingsinstellingen, zoals AP-isolatie, voor het gastnetwerk configureren.
 
-    De pagina Clients toont informatie over verbonden apparaten. Voor elke client worden de naam, het IP- en MAC-adres, de download- en uploadsnelheid en het totale verkeer weergegeven. Je kunt de client ook blokkeren en andere handelingen uitvoeren.
+    Raadpleeg [Guest Network](../../interface_guide/guest_network.md) om het gastnetwerk in te stellen.
 
-    Raadpleeg [Clients](../../interface_guide/clients.md) om Clients in te stellen.
+---
 
-## Clouddiensten {#cloud-services}
+=== "DNS"
 
-=== "GoodCloud"
+    Op de pagina DNS kun je aangepaste DNS-servers instellen, bescherming tegen DNS-rebindingaanvallen inschakelen, de DNS-instellingen van alle clients overschrijven en toestaan dat aangepaste DNS de VPN-DNS overschrijft. Je kunt DNS-servers gebruiken die automatisch van upstreamapparaten zijn verkregen of handmatig aangepaste DNS-servers opgeven.
 
-    De dienst [GoodCloud](https://www.goodcloud.xyz){target="_blank"} van GL.iNet biedt een eenvoudige manier om GL.iNet-routers op afstand te openen en beheren.
+    Raadpleeg [DNS](../../interface_guide/dns.md) om DNS in te stellen.
 
-    Raadpleeg [GoodCloud](../../interface_guide/cloud.md) om GoodCloud in te stellen.
+=== "Ethernet Port"
 
-=== "AstroWarp"
+    Op de pagina Ethernet Port kun je de WAN- en LAN-poorten configureren, de WAN/LAN-interface op Ethernet instellen, de MAC-modus en het MAC-adres voor de WAN-interface opgeven en de onderhandelde snelheid van de netwerkpoort weergeven.
 
-    AstroWarp is een geavanceerd netwerkplatform voor naadloze externe netwerken en extern apparaatbeheer. AstroWarp is speciaal ontwikkeld voor integratie met GL.iNet-routers en ondersteunt uitgebreid apparaatbeheer voor volledige netwerken, waaronder het beheer van boven- en onderliggende apparaten. Door zich te richten op netwerkbreed beheer en toekomstige ondersteuning voor beheer op hardwareniveau biedt AstroWarp een robuustere en betrouwbaardere oplossing voor apparaatbeheer en het onderhouden van veilige, stabiele netwerken.
+    Raadpleeg [Ethernet Port](../../interface_guide/ethernet_port.md) om het Ethernet Port in te stellen.
 
-    Raadpleeg [AstroWarp](../../interface_guide/astrowarp.md) om AstroWarp in te stellen.
+=== "IPv6"
+
+    IPv6 (Internet Protocol version 6) is de nieuwste versie van het Internet Protocol en is ontwikkeld als opvolger van IPv4. Het biedt een veel grotere adresruimte en maakt daardoor een vrijwel onbeperkt aantal unieke IP-adressen mogelijk. Dit is noodzakelijk om het groeiende aantal apparaten met een internetverbinding te ondersteunen.
+    
+    Raadpleeg [IPV6](../../interface_guide/ipv6.md) om IPV6 in te stellen.
+
+---
+
+=== "IGMP Snooping"
+
+    IGMP snooping is een techniek voor netwerkoptimalisatie die in Ethernet-switches wordt gebruikt om multicastverkeer te beheren en regelen.
+
+    Raadpleeg [IGMP Snooping](../../interface_guide/igmp_snooping.md) om IGMP snooping in te stellen.
+
+=== "Network Mode"
+
+    De netwerkmodus omvat de configuratie-instellingen die bepalen hoe een apparaat verbinding maakt met een netwerk en met andere apparaten communiceert.
+
+    Raadpleeg [Network Mode](../../interface_guide/network_mode.md) om de netwerkmodus in te stellen.
+
+=== "Drop-in Gateway"
+
+    Drop-in Gateway breidt de functies van je hoofdrouter uit met functies die deze mogelijk niet heeft, waaronder AdGuard Home, versleutelde DNS en VPN.
+    
+    Raadpleeg [Een drop-in gateway instellen](../../tutorials/how_to_set_up_drop_in_gateway.md) om een drop-in gateway in te stellen.
+
+## Flow Control {#flow-control}
+
+Parental Control is bedoeld om je te helpen de apparaten van je kinderen te beheren. Je kunt onder meer de schermtijd beperken en toegang tot bepaalde inhoud blokkeren.
+
+Raadpleeg [Parental Control](../../interface_guide/parental_control.md) om ouderlijk toezicht in te stellen.
+
+## Security {#security}
+
+=== "Port Forwarding"
+
+    Met port forwarding kunnen externe servers en apparaten op internet toegang krijgen tot apparaten in een privénetwerk.
+    
+    Raadpleeg [Port Forwarding](../../interface_guide/port_forwarding.md) om port forwarding in te stellen.
+
+=== "Management Control"
+
+    Met Management Control kun je verschillende beveiligingsinstellingen configureren om je netwerk en router tegen onbevoegde toegang te beschermen. De pagina bevat de volgende opties:
+
+    * Local Access Control: beheer en beperk de toegang tot de routerinterface vanaf apparaten die met je lokale netwerk zijn verbonden.
+    * Remote Access Control: configureer en beperk toegang tot de routerinterface vanaf externe locaties via internet om de beveiliging tegen bedreigingen van buitenaf te verbeteren.
+    * Open Ports on Router: bepaal welke poorten op de router geopend zijn om mogelijke kwetsbaarheden en onbevoegde toegang te beperken.
+
+    Met deze instellingen onderhoud je een veilige netwerkomgeving en bescherm je zowel de router als de verbonden apparaten.
+
+=== "NAT Mode"
+
+    Op de pagina NAT Mode kun je de functies Full Cone NAT en SIP ALG (Application Layer Gateway) in- of uitschakelen.
+
+    Raadpleeg [NAT Mode](../../interface_guide/nat_settings.md) om de NAT-instellingen te configureren.
 
 ## Toepassingen {#applications}
 
@@ -177,11 +261,11 @@ Een VPN (virtual private network) maakt een beveiligde, versleutelde verbinding 
 
     Raadpleeg [AdGuard Home](../../interface_guide/adguardhome.md) om AdGuard Home in te stellen.
 
-=== "Parental Control"
+=== "Tailscale"
 
-    Parental Control is bedoeld om je te helpen de apparaten van je kinderen te beheren. Je kunt onder meer de schermtijd beperken en toegang tot bepaalde inhoud blokkeren.
-
-    Raadpleeg [Parental controls](../../interface_guide/parental_control.md) om ouderlijk toezicht in te stellen.
+    Tailscale is een VPN-dienst waarmee je overal toegang hebt tot je apparaten en toepassingen.
+    
+    Raadpleeg [Tailscale](../../interface_guide/tailscale.md) om Tailscale in te stellen.
 
 === "ZeroTier"
 
@@ -189,87 +273,13 @@ Een VPN (virtual private network) maakt een beveiligde, versleutelde verbinding 
 
     Raadpleeg [ZeroTier](../../interface_guide/zerotier.md) om ZeroTier in te stellen.
 
-=== "Tailscale"
+=== "Tor"
 
-    Tailscale is een VPN-dienst waarmee je overal toegang hebt tot je apparaten en toepassingen.
+    Tor, een afkorting van The Onion Router, is een privacygericht netwerk dat anonieme communicatie via internet mogelijk maakt. Internetverkeer wordt via een reeks door vrijwilligers beheerde servers (nodes) geleid om de locatie en het gebruik van de gebruiker te verhullen. Hierdoor zijn online activiteiten moeilijk te traceren.
+    
+    * [Tor instellen](../../interface_guide/tor.md).
 
-    Raadpleeg [Tailscale](../../interface_guide/tailscale.md) om Tailscale in te stellen.
-
-## Netwerkinstellingen {#network-settings}
-
-=== "Port forwarding"
-
-    Met port forwarding kunnen externe servers en apparaten op internet toegang krijgen tot apparaten in een privénetwerk.
-
-    Raadpleeg [Port Forwards](../../interface_guide/port_forwarding.md) om port forwarding in te stellen.
-
-=== "Multi-WAN"
-
-    Multi-WAN is een netwerkfunctie waarmee je op je router meerdere internetverbindingen tegelijk kunt instellen, zoals Cellular, Repeater en Ethernet. Als de huidige internetverbinding uitvalt, schakelt de router automatisch over naar een andere internetverbinding. Dit zorgt voor soepele en ononderbroken internettoegang.
-
-    Raadpleeg [Multi-WAN](../../interface_guide/multi-wan.md) om Multi-WAN in te stellen.
-
-=== "LAN"
-
-    Een LAN (Local Area Network) is een netwerk dat computers en apparaten binnen een beperkt geografisch gebied, zoals een huis of kantoor, met elkaar verbindt. Het maakt snelle gegevensoverdracht en het delen van bronnen mogelijk, zodat apparaten efficiënt met elkaar kunnen communiceren.
-
-    Raadpleeg [Lan](../../interface_guide/lan.md) om het LAN in te stellen.
-
----
-
-=== "Guest Network"
-
-    Je kunt een subnet instellen binnen de privé-IPv4-adresbereiken 192.168.0.0/16, 172.16.0.0/12 of 10.0.0.0/8. Ook kun je de IP-adressen van de gateway en het subnetmasker opgeven en beveiligingsinstellingen, zoals AP-isolatie, voor het gastnetwerk configureren.
-
-    Raadpleeg [Guest Network](../../interface_guide/guest_network.md) om het gastnetwerk in te stellen.
-
-=== "DNS"
-
-    Op de pagina DNS kun je aangepaste DNS-servers instellen, bescherming tegen DNS-rebindingaanvallen inschakelen, de DNS-instellingen van alle clients overschrijven en toestaan dat aangepaste DNS de VPN-DNS overschrijft. Je kunt DNS-servers gebruiken die automatisch van upstreamapparaten zijn verkregen of handmatig aangepaste DNS-servers opgeven.
-
-    Raadpleeg [DNS](../../interface_guide/dns.md) om DNS in te stellen.
-
-=== "Port Management"
-
-    Op de pagina Port Management kun je de WAN- en LAN-poorten configureren, de WAN/LAN-interface op Ethernet instellen, de MAC-modus en het MAC-adres voor de WAN-interface opgeven en de onderhandelde snelheid van de netwerkpoort weergeven.
-
-    Raadpleeg [Port Management](../../interface_guide/ethernet_port.md) om Ethernet-poorten te beheren.
-
----
-
-=== "Network Mode"
-
-    De netwerkmodus omvat de configuratie-instellingen die bepalen hoe een apparaat verbinding maakt met een netwerk en met andere apparaten communiceert.
-
-    Raadpleeg [Network Mode](../../interface_guide/network_mode.md) om de netwerkmodus in te stellen.
-
-=== "IPv6"
-
-    IPv6 (Internet Protocol version 6) is de nieuwste versie van het Internet Protocol en is ontwikkeld als opvolger van IPv4. Het biedt een veel grotere adresruimte en maakt daardoor een vrijwel onbeperkt aantal unieke IP-adressen mogelijk. Dit is noodzakelijk om het groeiende aantal apparaten met een internetverbinding te ondersteunen.
-
-    Raadpleeg [IPV6](../../interface_guide/ipv6.md) om IPV6 in te stellen.
-
-=== "Drop-in Gateway"
-
-    Drop-in Gateway breidt de functies van je hoofdrouter uit met functies die deze mogelijk niet heeft, waaronder AdGuard Home, versleutelde DNS en VPN.
-
-    Raadpleeg [Een drop-in gateway instellen](../../tutorials/how_to_set_up_drop_in_gateway.md) om een drop-in gateway in te stellen.
-
----
-
-=== "IGMP Snooping"
-
-    IGMP snooping is een techniek voor netwerkoptimalisatie die in Ethernet-switches wordt gebruikt om multicastverkeer te beheren en regelen.
-
-    Raadpleeg [IGMP Snooping](../../interface_guide/igmp_snooping.md) om IGMP snooping in te stellen.
-
-=== "NAT Settings"
-
-    Op de pagina NAT Settings kun je de functies Full Cone NAT en SIP ALG (Application Layer Gateway) in- of uitschakelen.
-
-    Raadpleeg [NAT Settings](../../interface_guide/nat_settings.md) om de NAT-instellingen te configureren.
-
-## Systeeminstellingen {#system-settings}
+## Systeem {#system}
 
 === "Overview"
 
@@ -285,6 +295,16 @@ Een VPN (virtual private network) maakt een beveiligde, versleutelde verbinding 
     Deze functies bieden essentiële informatie en bedieningselementen om de werking van je router effectief te beheren en bewaken.
 
     Raadpleeg [Overview](../../interface_guide/system_overview.md) voor uitgebreide instructies.
+
+=== "Admin Password"
+
+    Op de pagina Admin Password kun je het wachtwoord voor de beheerinterface van de router instellen of wijzigen.
+
+    Het beheerderswachtwoord moet aan de volgende eisen voldoen:
+
+    * Minimaal 10 en maximaal 63 tekens.
+    * De volgende tekens zijn toegestaan: letters (hoofdlettergevoelig), cijfers en symbolen `` ! @ # $ % ^ & * ( ) _ + - = , . > < | ? / \ [ ] { } : ; " ' ` ~ ``.
+    * Er zijn ten minste twee van de volgende typen vereist: hoofdletters, kleine letters, cijfers en symbolen.
 
 === "Upgrade"
 
@@ -318,6 +338,12 @@ Een VPN (virtual private network) maakt een beveiligde, versleutelde verbinding 
 
     Raadpleeg [Time Zone](../../interface_guide/time_zone.md) voor uitgebreide instructies.
 
+=== "Reset Firmware"
+
+    Op de pagina Reset Firmware kun je de huidige firmwareversie van je router terugzetten naar de standaardinstellingen. Alle aangepaste configuraties worden daarbij gewist. Dit proces herstelt de standaardinstellingen van de firmwareversie die momenteel is geïnstalleerd. Dit kan nuttig zijn om aanhoudende problemen op te lossen of opnieuw te beginnen met de standaardconfiguratie van de huidige firmware.
+
+    Raadpleeg [Reset Firmware](../../interface_guide/reset_firmware.md) voor uitgebreide instructies.
+
 === "Log"
 
     De pagina Log biedt toegang tot verschillende logboeken waarin activiteiten en gebeurtenissen van de router worden vastgelegd. Deze helpen bij probleemoplossing en prestatiebewaking. De pagina bevat:
@@ -331,27 +357,6 @@ Een VPN (virtual private network) maakt een beveiligde, versleutelde verbinding 
     Daarnaast bevat de pagina de knop Export Log, waarmee je alle verzamelde logboeken kunt exporteren voor analyse door technische ondersteuning. Deze functie is zeer waardevol voor het vaststellen van complexe problemen en het verkrijgen van professionele hulp.
 
     Raadpleeg [Log](../../interface_guide/log.md) voor uitgebreide instructies.
-
-=== "Security"
-
-    Op de pagina Security kun je verschillende beveiligingsinstellingen configureren om je netwerk en router tegen onbevoegde toegang te beschermen. De pagina bevat opties voor:
-
-    * Admin Password: stel het wachtwoord voor de beheerinterface van de router in of wijzig het, zodat alleen bevoegde gebruikers instellingen kunnen wijzigen.
-    * Local Access Control: beheer en beperk de toegang tot de routerinterface vanaf apparaten die met je lokale netwerk zijn verbonden.
-    * Remote Access Control: configureer en beperk toegang tot de routerinterface vanaf externe locaties via internet om de beveiliging tegen bedreigingen van buitenaf te verbeteren.
-    * Open Ports on Router: bepaal welke poorten op de router geopend zijn om mogelijke kwetsbaarheden en onbevoegde toegang te beperken.
-
-    Met deze instellingen onderhoud je een veilige netwerkomgeving en bescherm je zowel de router als de verbonden apparaten.
-
-    Raadpleeg [Security](../../interface_guide/security.md) voor uitgebreide instructies.
-
----
-
-=== "Reset Firmware"
-
-    Op de pagina Reset Firmware kun je de huidige firmwareversie van je router terugzetten naar de standaardinstellingen. Alle aangepaste configuraties worden daarbij gewist. Dit proces herstelt de standaardinstellingen van de firmwareversie die momenteel is geïnstalleerd. Dit kan nuttig zijn om aanhoudende problemen op te lossen of opnieuw te beginnen met de standaardconfiguratie van de huidige firmware.
-
-    Raadpleeg [Reset Firmware](../../interface_guide/reset_firmware.md) voor uitgebreide instructies.
 
 === "Advanced Settings"
 

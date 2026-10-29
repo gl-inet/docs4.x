@@ -52,7 +52,7 @@ Apri un browser web, inserisci `192.168.8.1` nella barra degli indirizzi ed effe
 
 === "Tethering"
 
-    ![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/internet/mt2500_tethering.png){class="glboxshadow"}
+     ![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/internet/mt2500_tethering.png){class="glboxshadow"}
 
     1. Collega il dispositivo mobile, ad esempio uno smartphone o un dongle USB, alla porta USB del router tramite un cavo USB.
     2. Sul dispositivo mobile, vai nelle impostazioni e abilita USB Tethering.
@@ -74,7 +74,29 @@ Apri un browser web, inserisci `192.168.8.1` nella barra degli indirizzi ed effe
 
 **Note:** se desideri usare la funzione [Multi-WAN](../../interface_guide/multi-wan.md), configura più di un metodo di connessione Internet.
 
-## Come configurare una VPN {#how-to-set-up-a-vpn}
+---
+
+## Client {#clients}
+
+La pagina Clients mostra informazioni sui dispositivi collegati. Per ogni client visualizza il nome del dispositivo, indirizzi IP e MAC, velocità di download e upload, traffico totale e offre la possibilità di riservare un IP, bloccare il client o eseguire altre azioni.
+
+Per configurarla, fai riferimento a [Clients](../../interface_guide/clients.md).
+
+## Servizi cloud {#cloud-services}
+
+=== "GoodCloud"
+
+    Il servizio GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} offre un modo semplice e immediato per accedere da remoto e gestire i router GL.iNet.
+
+    Per configurarlo, fai riferimento a [GoodCloud](../../interface_guide/cloud.md).
+
+=== "AstroWarp"
+
+    AstroWarp e una piattaforma di rete avanzata progettata per offrire networking remoto senza interruzioni e gestione remota dei dispositivi. Sviluppata specificamente per l'integrazione con i router GL.iNet, AstroWarp supporta una gestione completa dei dispositivi sull'intera rete, consentendo il controllo sia dei dispositivi a monte sia di quelli a valle. Con un focus sulla gestione dell'intera rete e sul futuro supporto al controllo a livello hardware, AstroWarp offre una soluzione più robusta e affidabile per la gestione dei dispositivi e il mantenimento di reti sicure e stabili.
+
+    Per configurarla, fai riferimento a [AstroWarp](../../interface_guide/astrowarp.md).
+
+## VPN {#vpn}
 
 Una VPN crea traffico sicuro e crittografato tra il dispositivo e il server VPN. Offre un ulteriore livello di privacy e sicurezza come client VPN e consente di accedere a una rete remota come server VPN. Brume 2, come gli altri router GL.iNet, supporta OpenVPN e WireGuard. Inoltre supporta anche Tor.
 
@@ -98,26 +120,6 @@ Una VPN crea traffico sicuro e crittografato tra il dispositivo e il server VPN.
 
     * [Come configurare Tor](../../interface_guide/tor.md).
 
-## Client {#clients}
-
-La pagina Clients mostra informazioni sui dispositivi collegati. Per ogni client visualizza il nome del dispositivo, indirizzi IP e MAC, velocità di download e upload, traffico totale e offre la possibilità di riservare un IP, bloccare il client o eseguire altre azioni.
-
-Per configurarla, fai riferimento a [Clients](../../interface_guide/clients.md).
-
-## Servizi cloud {#cloud-services}
-
-=== "GoodCloud"
-
-    Il servizio GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} offre un modo semplice e immediato per accedere da remoto e gestire i router GL.iNet.
-
-    Per configurarlo, fai riferimento a [GoodCloud](../../interface_guide/cloud.md).
-
-=== "AstroWarp"
-
-    AstroWarp e una piattaforma di rete avanzata progettata per offrire networking remoto senza interruzioni e gestione remota dei dispositivi. Sviluppata specificamente per l'integrazione con i router GL.iNet, AstroWarp supporta una gestione completa dei dispositivi sull'intera rete, consentendo il controllo sia dei dispositivi a monte sia di quelli a valle. Con un focus sulla gestione dell'intera rete e sul futuro supporto al controllo a livello hardware, AstroWarp offre una soluzione più robusta e affidabile per la gestione dei dispositivi e il mantenimento di reti sicure e stabili.
-
-    Per configurarla, fai riferimento a [AstroWarp](../../interface_guide/astrowarp.md).
-
 ## Applicazioni {#applications}
 
 === "Plug-ins"
@@ -138,13 +140,13 @@ Per configurarla, fai riferimento a [Clients](../../interface_guide/clients.md).
 
     Per configurarlo, fai riferimento a [Network Storage](../../interface_guide/network_storage.md).
 
----
-
 === "AdGuard Home"
 
     AdGuard Home e una soluzione di blocco di annunci e tracker a livello di rete che agisce come server DNS per filtrare contenuti indesiderati su tutti i dispositivi collegati alla rete domestica.
 
     Per configurarlo, fai riferimento a [AdGuard Home](../../interface_guide/adguardhome.md).
+
+---
 
 === "Parental Control"
 
@@ -158,15 +160,13 @@ Per configurarla, fai riferimento a [Clients](../../interface_guide/clients.md).
 
     Per configurarlo, fai riferimento a [ZeroTier](../../interface_guide/zerotier.md).
 
----
-
 === "Tailscale"
 
     Tailscale e un servizio VPN che consente di accedere ai dispositivi e alle applicazioni ovunque.
 
     Per configurarlo, fai riferimento a [Tailscale](../../interface_guide/tailscale.md).
 
-## Impostazioni di rete {#network-settings}
+## Rete {#network}
 
 === "Port forwarding"
 
@@ -184,19 +184,17 @@ Per configurarla, fai riferimento a [Clients](../../interface_guide/clients.md).
 
     Per configurarla, fai riferimento a [LAN](../../interface_guide/lan.md).
 
----
-
 === "DNS"
 
     La pagina DNS consente di impostare server DNS personalizzati, abilitare la protezione dagli attacchi DNS rebinding e sovrascrivere le impostazioni DNS di tutti i client, consentire ai DNS personalizzati di sovrascrivere i DNS della VPN e configurare la modalità delle impostazioni del server DNS su automatica oppure specificare manualmente i server DNS dalla connessione Ethernet.
 
     Per configurarla, fai riferimento a [DNS](../../interface_guide/dns.md).
 
-=== "Network Port Management"
-
-    La pagina Network Port Management consente di configurare le porte WAN e LAN, impostare l'interfaccia WAN/LAN su Ethernet, specificare la modalità MAC e l'indirizzo MAC per l'interfaccia WAN e visualizzare la velocità negoziata della porta di rete.
-
 ---
+
+=== "Port Management"
+
+    La pagina Port Management consente di configurare le porte WAN e LAN, impostare l'interfaccia WAN/LAN su Ethernet, specificare modalità MAC e indirizzo MAC per l'interfaccia WAN e visualizzare la velocità negoziata della porta di rete.
 
 === "Network Mode"
 
@@ -236,7 +234,7 @@ Per configurarla, fai riferimento a [Clients](../../interface_guide/clients.md).
 
     Per configurarla, fai riferimento a [NAT Settings](../../interface_guide/nat_settings.md).
 
-## Impostazioni di sistema {#system-settings}
+## Sistema {#system}
 
 === "Overview"
 
@@ -275,13 +273,13 @@ Per configurarla, fai riferimento a [Clients](../../interface_guide/clients.md).
 
     Per istruzioni dettagliate, fai riferimento a [Scheduled Tasks](../../interface_guide/scheduled_tasks.md).
 
----
-
 === "Time Zone"
 
     La pagina Time Zone consente di impostare il fuso orario corretto per il router, assicurando che tutte le attività pianificate, i log e gli eventi di sistema riportino timestamp accurati in base all'ora locale. Questa impostazione e essenziale per mantenere registrazioni precise e per la corretta esecuzione delle configurazioni basate sull'orario.
 
     Per istruzioni dettagliate, fai riferimento a [Time Zone](../../interface_guide/time_zone.md).
+
+---
 
 === "Log"
 
@@ -309,8 +307,6 @@ Per configurarla, fai riferimento a [Clients](../../interface_guide/clients.md).
     Queste impostazioni aiutano a mantenere un ambiente di rete sicuro, proteggendo sia il router sia i dispositivi collegati.
 
     Per istruzioni dettagliate, fai riferimento a [Security](../../interface_guide/security.md).
-
----
 
 === "Reset Firmware"
 

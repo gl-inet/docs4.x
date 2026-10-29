@@ -1,10 +1,8 @@
-# Port Ethernet (micrologiciel v4.10) {#ethernet-port-firmware-v410}
+# Port Ethernet (micrologiciel v4.10 et versions ultérieures) {#ethernet-port-firmware-v410}
 
-**Remarque** : le contenu de cette page a été introduit pour la première fois sur Flint 4 (GL-BE14000) et sera déployé sur d’autres modèles avec le firmware v4.10.
+**Remarque** : le contenu de cette page est basé sur le micrologiciel v4.10 et les versions ultérieures. Si votre appareil utilise une autre version du micrologiciel, utilisez le sélecteur ci-dessous pour afficher le guide correspondant.
 
-Si votre appareil utilise une autre version du micrologiciel, utilisez le sélecteur ci-dessous pour afficher le guide correspondant.
-
-<div class="gl-link-select" data-label="Version du micrologiciel" data-placeholder="Micrologiciel v4.10" markdown="1">
+<div class="gl-link-select" data-label="Version du micrologiciel" data-placeholder="Micrologiciel v4.10 et versions ultérieures" markdown="1">
 
 - [Micrologiciel v4.9 et versions antérieures](ethernet_port.md)
 

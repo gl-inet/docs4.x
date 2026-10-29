@@ -163,7 +163,7 @@ Informationen zur Einrichtung von Clients finden Sie unter [Clients](../../inter
 
 ## VPN {#vpn}
 
-Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten Datenverkehr zwischen Ihrem Gerät und dem VPN-Server. Es bietet eine zusätzliche Ebene für Datenschutz und Sicherheit (VPN-Client) und ermöglicht Ihnen den Zugriff auf ein entferntes Netzwerk (VPN-Server). Flint 3e unterstützt OpenVPN, WireGuard und Tor.
+Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten Datenverkehr zwischen Ihrem Gerät und dem VPN-Server. Es bietet eine zusätzliche Ebene für Datenschutz und Sicherheit (VPN-Client) und ermöglicht Ihnen den Zugriff auf ein entferntes Netzwerk (VPN-Server). Flint 3e unterstützt OpenVPN und WireGuard.
 
 === "OpenVPN"
 
@@ -179,11 +179,152 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
     * [So richten Sie einen WireGuard-Client ein](../../interface_guide/wireguard_client.md)
     * [So richten Sie einen WireGuard-Server ein](../../interface_guide/wireguard_server.md)
 
-=== "Tor"
+## Netzwerk {#network}
 
-    Tor, kurz für The Onion Router, ist ein auf Privatsphäre ausgerichtetes Netzwerk, das anonyme Kommunikation über das Internet ermöglicht. Es leitet den Internetverkehr über eine Reihe von freiwillig betriebenen Servern (Nodes), um den Standort und die Nutzung des Benutzers zu verschleiern und Online-Aktivitäten nur schwer nachvollziehbar zu machen.
+=== "Multi-WAN"
 
-    * [So richten Sie Tor ein](../../interface_guide/tor.md)
+    Multi-WAN ist eine Netzwerkfunktion, mit der Sie Ihren Router gleichzeitig mit mehreren Internetverbindungen, z. B. Ethernet, Tethering und Cellular, einrichten können. Wenn Ihre aktuelle Internetverbindung ausfällt, wechselt der Router automatisch zu einer anderen Internetverbindung. So bleibt der Internetzugang reibungslos und unterbrechungsfrei.
+
+    Zum Einrichten von Multi-WAN lesen Sie bitte [Multi-WAN](../../interface_guide/multi-wan.md).
+
+=== "LAN"
+
+    LAN, kurz für Local Area Network, ist ein Netzwerk, das Computer und Geräte in einem begrenzten geografischen Bereich wie einem Zuhause oder Büro verbindet. Es ermöglicht schnelle Datenübertragung und gemeinsame Ressourcennutzung, sodass Geräte effizient miteinander kommunizieren können.
+    
+    Informationen zur Einrichtung finden Sie unter [LAN](../../interface_guide/lan.md).
+
+=== "Gastnetzwerk"
+
+    Hier können Sie ein Subnetz innerhalb der privaten IPv4-Adressbereiche 192.168.0.0/16, 172.16.0.0/12 oder 10.0.0.0/8 festlegen, Gateway- und Netmasken-IP-Adressen angeben und Sicherheitseinstellungen wie AP Isolation für das Gastnetzwerk konfigurieren.
+
+    Zum Einrichten des Gastnetzwerks lesen Sie bitte [Guest Network](../../interface_guide/guest_network.md).
+
+=== "IoT Network"
+
+    Damit können Sie ein eigenes Wi-Fi-Netzwerk für IoT-Geräte erstellen. Es ist vom Hauptnetzwerk isoliert und bietet bessere Kompatibilität und erhöhte Sicherheit.
+
+    Zum Einrichten von IoT Network lesen Sie bitte [Lan](../../interface_guide/iot_network.md).
+
+---
+
+=== "DNS"
+
+    Auf der Seite DNS können Sie benutzerdefinierte DNS-Server festlegen, den Schutz vor DNS-Rebinding-Angriffen aktivieren, die DNS-Einstellungen aller Clients überschreiben und zulassen, dass benutzerdefiniertes DNS VPN-DNS überschreibt. Sie können automatisch von vorgeschalteten Geräten bezogene DNS-Server verwenden oder benutzerdefinierte DNS-Server manuell angeben.
+
+    Zum Einrichten von DNS lesen Sie bitte [DNS](../../interface_guide/dns.md).
+
+=== "Ethernet Port"
+
+    Auf der Seite Ethernet Port können Sie die WAN- und LAN-Ports konfigurieren, die WAN/LAN-Schnittstelle auf Ethernet setzen, den MAC-Modus und die MAC-Adresse für die WAN-Schnittstelle festlegen und die ausgehandelte Portgeschwindigkeit anzeigen.
+
+    Detaillierte Anweisungen finden Sie unter [Ethernet Port](../../interface_guide/ethernet_port.md).
+
+=== "IPv6"
+
+    IPv6, kurz für Internet Protocol version 6, ist die neueste Version des Internetprotokolls und wurde als Nachfolger von IPv4 entwickelt. Es stellt einen wesentlich größeren Adressraum bereit und ermöglicht damit eine praktisch unbegrenzte Anzahl eindeutiger IP-Adressen, was angesichts der wachsenden Zahl internetverbundener Geräte besonders wichtig ist.
+
+    Zum Einrichten von IPv6 lesen Sie bitte [IPV6](../../interface_guide/ipv6.md).
+
+=== "IGMP Snooping"
+
+    IGMP Snooping ist eine Netzwerkoptimierungstechnik, die in Ethernet-Switches verwendet wird, um Multicast-Verkehr zu verwalten und zu steuern.
+    
+    Zum Einrichten von IGMP Snooping lesen Sie bitte [IGMP Snooping](../../interface_guide/igmp_snooping.md).
+
+---
+
+=== "Network Mode"
+
+    Network Mode bezeichnet die Konfigurationseinstellungen, die festlegen, wie ein Gerät sich mit einem Netzwerk verbindet und mit anderen Geräten kommuniziert.
+
+    Zum Einrichten von Network Mode lesen Sie bitte [Network Mode](../../interface_guide/network_mode.md).
+
+=== "Drop-in gateway"
+
+    Drop-in Gateway erweitert die Funktionalität Ihres Hauptrouters um Funktionen wie AdGuard Home, verschlüsseltes DNS und VPN-Client.
+    
+    Zum Einrichten von Drop-in Gateway lesen Sie bitte diese Links:
+    
+    - [Drop-in Gateway](../../interface_guide/drop-in_gateway.md)
+    - [So richten Sie Drop-in Gateway ein](../../tutorials/how_to_set_up_drop_in_gateway.md)
+
+=== "Netzwerkbeschleunigung"
+
+    Netzwerkbeschleunigung kann die CPU-Last reduzieren und die Weiterleitung von Datenpaketen beschleunigen.
+
+    Zum Einrichten der Netzwerkbeschleunigung lesen Sie bitte [Network Acceleration](../../interface_guide/network_acceleration.md).
+
+## Durchflusskontrolle {#flow-control}
+
+=== "DPI Engine"
+
+    DPI (Deep Packet Inspection) ist eine Kernfunktion des intelligenten Netzwerkmanagements. Sie überwindet die Einschränkungen herkömmlicher Router, die nur Quell- oder Zieladressen identifizieren, analysiert Paketnutzdaten im Detail und erkennt über den Abgleich mit einer Signaturdatenbank präzise die vom Benutzer aufgerufenen Anwendungen und Websites. So werden eine feinere Klassifizierung und Steuerung des Datenverkehrs ermöglicht.
+    
+    In Kombination mit [Netify](https://www.netify.ai/){target="_blank"} nutzt die DPI-Funktion von GL.iNet ein leichtgewichtiges eingebettetes Plug-in für eine effiziente Bereitstellung. Mit der online aktualisierten Signaturdatenbank von Netify wird zuverlässiges Management ermöglicht, sodass die Netzwerksteuerung präziser und effizienter wird.
+
+    Weitere Informationen finden Sie unter [DPI Engine](../../interface_guide/dpi_engine.md).
+
+=== "Data Statistics"
+
+    Data Statistics bietet ein intelligentes Dashboard zur Datenverkehrsanalyse, das die Netzwerknutzung nach Anwendungen kategorisiert und visualisiert. So können Sie den aktuellen und historischen Datenverkehr besser überwachen und kontrollieren.
+
+    Detaillierte Anweisungen finden Sie unter [Data Statistics](../../interface_guide/data_statistics.md).
+
+=== "Content Filter"
+
+    Content Filter bietet intelligente Online-Sicherheit auf Basis einer DPI-gestützten Klassifizierung und blockiert automatisch schädliche oder bösartige Websites, damit Ihr Netzwerk sauber und sicher bleibt.
+
+    Detaillierte Anweisungen finden Sie unter [Content Filter](../../interface_guide/content_filter.md).
+
+---
+
+=== "QoS"
+
+    QoS (Quality of Service) optimiert die Bandbreitenzuweisung, indem wichtige Aktivitäten wie Videoanrufe oder Gaming bei Netzwerküberlastung priorisiert werden. Dadurch werden Latenzen reduziert und die Gesamtleistung des Netzwerks verbessert. Dies gilt für lokalen Client-Datenverkehr und VPN-Client-Tunnel-Datenverkehr, jedoch nicht für Datenverkehr, den der Router als VPN-Server empfängt.
+
+    Detaillierte Anweisungen finden Sie unter [QoS](../../interface_guide/qos.md).
+
+=== "SQM"
+
+    SQM (Smart Queue Management) verwaltet den Netzwerkverkehr Ihres Routers intelligent, um Latenzen und „Bufferbloat“ zu minimieren und so Gaming und Sprachanrufe flüssiger zu machen.
+
+    Detaillierte Anweisungen finden Sie unter [SQM](../../interface_guide/sqm.md).
+
+=== "Parental Control"
+
+    Parental Control hilft Ihnen dabei, die Geräte Ihrer Kinder zu verwalten und zu kontrollieren. Dazu gehören die Begrenzung der Bildschirmzeit und die Einschränkung des Zugriffs auf bestimmte Inhalte.
+
+    Informationen zur Einrichtung von Parental Control finden Sie unter [Parental Control](../../interface_guide/parental_control_v4.9.md).
+
+## Sicherheit {#security}
+
+=== "Port Forwarding"
+
+    Port forwarding ermöglicht es entfernten Servern und Geräten im Internet, auf Geräte in einem privaten Netzwerk zuzugreifen.
+
+    Zum Einrichten der Portweiterleitung lesen Sie bitte [Port Forwarding](../../interface_guide/port_forwarding.md).
+
+=== "ACL"
+
+    Mit ACL (Access Control List) können Sie Regeln erstellen, um den Netzwerkverkehr anhand von Verbindungsprotokollen, Geräteadressen und Ports zu verwalten. Die Regeln legen fest, ob der Netzwerkzugriff zugelassen oder blockiert wird. Wenn mehrere ACL-Regeln miteinander in Konflikt stehen, wendet das System die Regel mit der höheren Priorität an.
+
+    Weitere Informationen finden Sie unter [ACL](../../interface_guide/acl.md).
+
+=== "Admin Access"
+
+    Mit Admin Access können Sie verschiedene Sicherheitseinstellungen konfigurieren, um Ihr Netzwerk und Ihren Router vor unbefugtem Zugriff zu schützen. Diese Seite umfasst die folgenden Optionen:
+
+    * Local Access Control: Verwalten und beschränken Sie den Zugriff auf die Router-Oberfläche von Geräten aus Ihrem lokalen Netzwerk.
+    * Remote Access Control: Konfigurieren und beschränken Sie den Zugriff auf die Router-Oberfläche von entfernten Standorten über das Internet, um die Sicherheit gegenüber externen Bedrohungen zu erhöhen.
+    * Open Ports on Router: Steuern Sie, welche Ports auf dem Router offen sind, um potenzielle Schwachstellen und unbefugten Zugriff zu begrenzen.
+
+    Weitere Informationen finden Sie unter [Admin Access](../../interface_guide/admin_access.md).
+
+=== "NAT Mode"
+
+    Auf der Seite NAT Mode können Sie Full Cone NAT und SIP ALG (Application Layer Gateway) aktivieren oder deaktivieren.
+
+    Zum Einrichten der NAT-Einstellungen lesen Sie bitte [NAT Mode](../../interface_guide/nat_settings.md).
 
 ## Anwendungen {#applications}
 
@@ -213,108 +354,31 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     Zum Einrichten von AdGuard Home lesen Sie bitte [AdGuard Home](../../interface_guide/adguardhome.md).
 
-=== "Parental Control"
+=== "Bark"
 
-    Parental Control hilft Ihnen dabei, die Geräte Ihrer Kinder zu verwalten und zu steuern. Dazu gehören unter anderem die Begrenzung der Bildschirmzeit und die Einschränkung des Zugriffs auf bestimmte Inhalte.
+    Der in Flint 3e integrierte Dienst Bark schützt die digitale Umgebung Ihres Kindes und bietet umfassenden Online-Schutz. Normalerweise ist dafür ein kostenpflichtiges Abonnement erforderlich. Im Rahmen der Partnerschaft mit Bark bietet GL.iNet den Tarif Bark Home jedoch auf ausgewählten Routermodellen einschließlich Flint 3e kostenlos an. Dadurch stehen erweiterte Überwachungs- und Warnfunktionen ohne zusätzliche Kosten zur Verfügung.
 
-    Zum Einrichten von Parental Control lesen Sie bitte [Parental Control](../../interface_guide/parental_control.md).
-
-=== "ZeroTier"
-
-    ZeroTier ist eine Software-defined-Networking-Lösung, mit der Benutzer sichere virtuelle Netzwerke über das Internet erstellen können, sodass Geräte miteinander verbunden werden, als befänden sie sich im selben lokalen Netzwerk.
-
-    Zum Einrichten von ZeroTier lesen Sie bitte [ZeroTier](../../interface_guide/zerotier.md).
+    Weitere Informationen finden Sie unter [Bark](../../interface_guide/bark.md).
 
 === "Tailscale"
 
     Tailscale ist ein VPN-Dienst, mit dem Sie von überall auf Ihre Geräte und Anwendungen zugreifen können.
-
+    
     Zum Einrichten von Tailscale lesen Sie bitte [Tailscale](../../interface_guide/tailscale.md).
 
-## Netzwerkeinstellungen {#network-settings}
+=== "ZeroTier"
 
-=== "Portweiterleitung"
+    ZeroTier ist eine Software-defined-Networking-Lösung, mit der Benutzer sichere virtuelle Netzwerke über das Internet erstellen können, sodass Geräte miteinander verbunden werden, als befänden sie sich im selben lokalen Netzwerk.
+    
+    Zum Einrichten von ZeroTier lesen Sie bitte [ZeroTier](../../interface_guide/zerotier.md).
 
-    Port forwarding ermöglicht es entfernten Servern und Geräten im Internet, auf Geräte in einem privaten Netzwerk zuzugreifen.
+=== "Tor"
 
-    Zum Einrichten der Portweiterleitung lesen Sie bitte [Port Forwarding](../../interface_guide/port_forwarding.md).
+    Tor, kurz für The Onion Router, ist ein auf Privatsphäre ausgerichtetes Netzwerk, das anonyme Kommunikation über das Internet ermöglicht. Es leitet den Internetverkehr über eine Reihe von freiwillig betriebenen Servern (Nodes), um den Standort und die Nutzung des Benutzers zu verschleiern und Online-Aktivitäten nur schwer nachvollziehbar zu machen.
+    
+    * [Tor einrichten](../../interface_guide/tor.md)
 
-=== "Multi-WAN"
-
-    Multi-WAN ist eine Netzwerkfunktion, mit der Sie Ihren Router gleichzeitig mit mehreren Internetverbindungen einrichten können, z. B. Cellular, Repeater und Ethernet. Wenn Ihre aktuelle Internetverbindung ausfällt, wechselt der Router automatisch zu einer anderen Internetverbindung. So bleibt der Internetzugang stabil und unterbrechungsfrei.
-
-    Zum Einrichten von Multi-WAN lesen Sie bitte [Multi-WAN](../../interface_guide/multi-wan.md).
-
-=== "LAN"
-
-    LAN, kurz für Local Area Network, ist ein Netzwerk, das Computer und Geräte in einem begrenzten geografischen Bereich wie einem Zuhause oder Büro verbindet. Es ermöglicht schnelle Datenübertragung und gemeinsame Ressourcennutzung, sodass Geräte effizient miteinander kommunizieren können.
-
-    Zum Einrichten von LAN lesen Sie bitte [Lan](../../interface_guide/lan.md).
-
----
-
-=== "Gastnetzwerk"
-
-    Hier können Sie ein Subnetz innerhalb der privaten IPv4-Adressbereiche 192.168.0.0/16, 172.16.0.0/12 oder 10.0.0.0/8 festlegen, Gateway- und Netmasken-IP-Adressen angeben und Sicherheitseinstellungen wie AP Isolation für das Gastnetzwerk konfigurieren.
-
-    Zum Einrichten des Gastnetzwerks lesen Sie bitte [Guest Network](../../interface_guide/guest_network.md).
-
-=== "DNS"
-
-    Auf der Seite DNS können Sie benutzerdefinierte DNS-Server festlegen, den Schutz vor DNS-Rebinding-Angriffen aktivieren, die DNS-Einstellungen aller Clients überschreiben und zulassen, dass benutzerdefiniertes DNS VPN-DNS überschreibt. Sie können automatisch von vorgeschalteten Geräten bezogene DNS-Server verwenden oder benutzerdefinierte DNS-Server manuell angeben.
-
-    Zum Einrichten von DNS lesen Sie bitte [DNS](../../interface_guide/dns.md).
-
-=== "Ethernet Port"
-
-    Auf der Seite Ethernet Port können Sie die WAN- und LAN-Ports konfigurieren, die WAN/LAN-Schnittstelle auf Ethernet setzen, den MAC-Modus und die MAC-Adresse für die WAN-Schnittstelle festlegen und die ausgehandelte Portgeschwindigkeit anzeigen.
-
-    Detaillierte Anweisungen finden Sie unter [Ethernet Port](../../interface_guide/ethernet_port.md).
-
----
-
-=== "Network Mode"
-
-    Network Mode bezeichnet die Konfigurationseinstellungen, die festlegen, wie ein Gerät sich mit einem Netzwerk verbindet und mit anderen Geräten kommuniziert.
-
-    Zum Einrichten von Network Mode lesen Sie bitte [Network Mode](../../interface_guide/network_mode.md).
-
-=== "IPv6"
-
-    IPv6, kurz für Internet Protocol version 6, ist die neueste Version des Internetprotokolls und wurde als Nachfolger von IPv4 entwickelt. Es stellt einen wesentlich größeren Adressraum bereit und ermöglicht damit eine praktisch unbegrenzte Anzahl eindeutiger IP-Adressen, was angesichts der wachsenden Zahl internetverbundener Geräte besonders wichtig ist.
-
-    Zum Einrichten von IPv6 lesen Sie bitte [IPV6](../../interface_guide/ipv6.md).
-
-=== "Drop-in Gateway"
-
-    Drop-in Gateway erweitert die Funktionen Ihres Hauptrouters um Features wie AdGuard Home, verschlüsseltes DNS und VPN-Client.
-
-    Zum Einrichten von Drop-in Gateway lesen Sie bitte diese Links:
-
-    - [Drop-in Gateway](../../interface_guide/drop-in_gateway.md)
-    - [So richten Sie Drop-in Gateway ein](../../tutorials/how_to_set_up_drop_in_gateway.md)
-
----
-
-=== "IGMP Snooping"
-
-    IGMP Snooping ist eine Netzwerkoptimierungstechnik, die in Ethernet-Switches verwendet wird, um Multicast-Verkehr zu verwalten und zu steuern.
-
-    Zum Einrichten von IGMP Snooping lesen Sie bitte [IGMP Snooping](../../interface_guide/igmp_snooping.md).
-
-=== "Netzwerkbeschleunigung"
-
-    Netzwerkbeschleunigung kann die CPU-Last reduzieren und die Weiterleitung von Datenpaketen beschleunigen.
-
-    Zum Einrichten der Netzwerkbeschleunigung lesen Sie bitte [Network Acceleration](../../interface_guide/network_acceleration.md).
-
-=== "NAT-Einstellungen"
-
-    Auf der Seite NAT Settings können Sie Full Cone NAT und die SIP-ALG-Funktion (Application Layer Gateway) aktivieren oder deaktivieren.
-
-    Zum Einrichten der NAT-Einstellungen lesen Sie bitte [NAT Settings](../../interface_guide/nat_settings.md).
-
-## Systemeinstellungen {#system-settings}
+## System {#system}
 
 === "Overview"
 
@@ -330,6 +394,12 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
     Diese Funktionen liefern wichtige Einblicke und Steuerungsmöglichkeiten, damit Sie den Betrieb Ihres Routers effektiv verwalten und überwachen können.
 
     Detaillierte Anweisungen finden Sie unter [Overview](../../interface_guide/system_overview.md).
+
+=== "Admin Password"
+
+    Auf der Seite Admin Password können Sie das Passwort für die Administrationsoberfläche des Routers verwalten, damit nur autorisierte Benutzer Einstellungen ändern können.
+
+    Detaillierte Informationen finden Sie unter [Admin Password](../../interface_guide/admin_password.md).
 
 === "Upgrade"
 
@@ -362,6 +432,12 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     Detaillierte Anweisungen finden Sie unter [Time Zone](../../interface_guide/time_zone.md).
 
+=== "Reset Firmware"
+
+    Auf der Seite Reset Firmware können Sie die aktuell installierte Firmware-Version Ihres Routers auf die Werkseinstellungen zurücksetzen, wobei alle benutzerdefinierten Konfigurationen gelöscht werden. Dieser Vorgang stellt die Standardeinstellungen der derzeit installierten Firmware-Version wieder her. Das kann hilfreich sein, um hartnäckige Probleme zu beheben oder mit einer sauberen Standardkonfiguration der aktuellen Firmware neu zu beginnen.
+
+    Detaillierte Anweisungen finden Sie unter [Reset Firmware](../../interface_guide/reset_firmware.md).
+
 === "Log"
 
     Die Seite Log bietet Zugriff auf verschiedene Protokolle, die Aktivitäten und Ereignisse des Routers aufzeichnen und so bei Fehlersuche und Leistungsüberwachung helfen. Diese Seite umfasst:
@@ -371,31 +447,10 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
     * Crash Log: Aufzeichnungen über Systemabstürze und Fehler, hilfreich bei der Diagnose kritischer Probleme.
     * Cloud Log: Protokolle über Interaktionen und Aktivitäten im Zusammenhang mit den in den Router integrierten GoodCloud-Diensten.
     * Nginx Log: Protokolle des Nginx-Webservers, falls dieser auf dem Router verwendet wird, mit Details zu Webverkehr und Serveroperationen.
-
+    
     Zusätzlich verfügt die Seite über eine Schaltfläche Export Log, mit der Sie alle gesammelten Protokolle zur Analyse durch den technischen Support exportieren können. Diese Funktion ist besonders wertvoll bei der Diagnose komplexer Probleme und wenn professionelle Unterstützung erforderlich ist.
 
     Detaillierte Anweisungen finden Sie unter [Log](../../interface_guide/log.md).
-
----
-
-=== "Security"
-
-    Auf der Seite Security können Sie verschiedene Sicherheitseinstellungen konfigurieren, um Ihr Netzwerk und Ihren Router vor unbefugtem Zugriff zu schützen. Diese Seite umfasst Optionen für:
-
-    * Admin Password: Legen Sie das Passwort für die Administrationsoberfläche des Routers fest oder ändern Sie es, damit nur autorisierte Benutzer Einstellungen ändern können.
-    * Local Access Control: Verwalten und beschränken Sie den Zugriff auf die Router-Oberfläche von Geräten aus Ihrem lokalen Netzwerk.
-    * Remote Access Control: Konfigurieren und beschränken Sie den Zugriff auf die Router-Oberfläche von entfernten Standorten über das Internet, um die Sicherheit gegenüber externen Bedrohungen zu erhöhen.
-    * Open Ports on Router: Steuern Sie, welche Ports auf dem Router offen sind, um potenzielle Schwachstellen und unbefugten Zugriff zu begrenzen.
-
-    Diese Einstellungen helfen Ihnen, eine sichere Netzwerkumgebung aufrechtzuerhalten und sowohl Ihren Router als auch die verbundenen Geräte zu schützen.
-
-    Detaillierte Anweisungen finden Sie unter [Security](../../interface_guide/security.md).
-
-=== "Reset Firmware"
-
-    Auf der Seite Reset Firmware können Sie die aktuell installierte Firmware-Version Ihres Routers auf die Werkseinstellungen zurücksetzen, wobei alle benutzerdefinierten Konfigurationen gelöscht werden. Dieser Vorgang stellt die Standardeinstellungen der derzeit installierten Firmware-Version wieder her. Das kann hilfreich sein, um hartnäckige Probleme zu beheben oder mit einer sauberen Standardkonfiguration der aktuellen Firmware neu zu beginnen.
-
-    Detaillierte Anweisungen finden Sie unter [Reset Firmware](../../interface_guide/reset_firmware.md).
 
 === "Advanced Settings"
 

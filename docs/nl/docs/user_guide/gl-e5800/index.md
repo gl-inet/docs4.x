@@ -294,10 +294,16 @@ Raadpleeg [Clients](../../interface_guide/clients.md) om Clients in te stellen.
 
 ## Clouddiensten {#cloud-services}
 
+=== "GL.iNet Account"
+
+    Met het GL.iNet Account kun je je apparaten en clouddiensten verbinden en beheren. Met één GL.iNet Account krijg je eenvoudig toegang tot zowel GoodCloud als de glinet App, voor een veilige en verbeterde ervaring. Zo kun je je netwerk overal en op elk moment gemakkelijker beheren.
+
+    Raadpleeg [GL.iNet Account](../../interface_guide/glinet_account.md) om GL.iNet Account in te stellen.
+
 === "GoodCloud"
 
     De cloudbeheerdienst [GoodCloud](https://www.goodcloud.xyz){target="_blank"} van GL.iNet biedt een eenvoudige manier om GL.iNet-routers op afstand te openen en beheren.
-
+    
     Raadpleeg [GoodCloud](../../interface_guide/cloud.md) om GoodCloud in te stellen.
 
 === "AstroWarp"
@@ -332,17 +338,19 @@ Een VPN (virtual private network) maakt een beveiligde, versleutelde verbinding 
 
     Raadpleeg [Multi-WAN](../../interface_guide/multi-wan.md) om Multi-WAN in te stellen.
 
-=== "LAN"
+=== "Subnet"
 
-    Een LAN (Local Area Network) is een netwerk dat computers en apparaten binnen een beperkt geografisch gebied, zoals een huis of kantoor, met elkaar verbindt. Het maakt snelle gegevensoverdracht en het delen van bronnen mogelijk, zodat apparaten efficiënt met elkaar kunnen communiceren.
+    Op deze pagina kun je **Main Network**, **Guest Network**, **IoT Network** en aangepaste **VLAN Networks** centraal configureren en beheren. Je kunt meerdere subnetten maken en beheren om verschillende soorten apparaten of verkeer te isoleren.
 
-    Raadpleeg [Lan](../../interface_guide/lan.md) om het LAN in te stellen.
+    Raadpleeg [Subnet](../../interface_guide/subnet.md) om het subnet in te stellen.
 
-=== "Guest Network"
+=== "Ethernet Port"
 
-    Je kunt een subnet instellen binnen de privé-IPv4-adresbereiken 192.168.0.0/16, 172.16.0.0/12 of 10.0.0.0/8. Ook kun je de IP-adressen van de gateway en het subnetmasker opgeven en beveiligingsinstellingen, zoals AP-isolatie, voor het gastnetwerk configureren.
+    Op de pagina Ethernet Port kun je de rol van de Ethernet-poort instellen, bijvoorbeeld WAN of LAN, de MAC-modus en het MAC-adres voor de WAN-interface wijzigen en de onderhandelde poortsnelheid weergeven.
 
-    Raadpleeg [Guest Network](../../interface_guide/guest_network.md) om het gastnetwerk in te stellen.
+    Mudi 7 heeft één Ethernet-poort die standaard als LAN-poort werkt. Je kunt deze indien nodig via het touchscreen of webbeheerpaneel naar WAN omschakelen.
+
+    Raadpleeg [Ethernet Port](../../interface_guide/ethernet_port_v4.10.md) om de Ethernet-poort in te stellen.
 
 ---
 
@@ -352,32 +360,24 @@ Een VPN (virtual private network) maakt een beveiligde, versleutelde verbinding 
 
     Raadpleeg [DNS](../../interface_guide/dns.md) om DNS in te stellen.
 
-=== "Ethernet Port"
-
-    Op de pagina Ethernet Port kun je de rol van de Ethernet-poort instellen, bijvoorbeeld WAN of LAN, de MAC-modus en het MAC-adres voor de WAN-interface wijzigen en de onderhandelde poortsnelheid weergeven.
-
-    Mudi 7 heeft één Ethernet-poort die standaard als LAN-poort werkt. Je kunt deze indien nodig via het touchscreen of webbeheerpaneel naar WAN omschakelen.
-
-    Raadpleeg [Ethernet Port](../../interface_guide/ethernet_port.md) om Ethernet-poorten te beheren.
-
 === "IPv6"
 
     IPv6, een afkorting van Internet Protocol version 6, is de nieuwste versie van het Internet Protocol en is ontwikkeld als opvolger van IPv4. Het biedt een veel grotere adresruimte en maakt daardoor een vrijwel onbeperkt aantal unieke IP-adressen mogelijk. Dit is noodzakelijk om het groeiende aantal apparaten met een internetverbinding te ondersteunen.
-
+    
     Raadpleeg [IPV6](../../interface_guide/ipv6.md) om IPV6 in te stellen.
-
----
 
 === "IGMP Snooping"
 
     IGMP snooping is een techniek voor netwerkoptimalisatie die in Ethernet-switches wordt gebruikt om multicastverkeer te beheren en regelen.
-
+    
     Raadpleeg [IGMP Snooping](../../interface_guide/igmp_snooping.md) om IGMP snooping in te stellen.
+
+---
 
 === "Network Mode"
 
     De netwerkmodus is de configuratie die bepaalt hoe een apparaat verbinding maakt met een netwerk en met andere apparaten communiceert.
-
+    
     Raadpleeg [Network Mode](../../interface_guide/network_mode.md) om de netwerkmodus in te stellen.
 
     **Opmerking**: Mudi 7 ondersteunt de modi Router, Access Point en Extender. De WDS-modus wordt niet ondersteund.
@@ -385,25 +385,59 @@ Een VPN (virtual private network) maakt een beveiligde, versleutelde verbinding 
 === "Drop-in gateway"
 
     Drop-in Gateway breidt de functies van je hoofdrouter uit met AdGuard Home, versleutelde DNS en een VPN-client.
-
+    
     Raadpleeg de volgende links om een drop-in gateway in te stellen:
-
+    
     - [Drop-in Gateway](../../interface_guide/drop-in_gateway.md)
     - [Een drop-in gateway instellen](../../tutorials/how_to_set_up_drop_in_gateway.md)
 
 === "Network Acceleration"
 
     Netwerkversnelling kan de CPU-belasting verlagen en het doorsturen van verkeerspakketten versnellen.
-
+    
     Raadpleeg [Network Acceleration](../../interface_guide/network_acceleration.md) om netwerkversnelling in te stellen.
 
 ## Flow Control {#flow-control}
+
+=== "DPI Engine"
+
+    DPI (Deep Packet Inspection) is een kernfunctie voor intelligent netwerkbeheer. DPI omzeilt de beperking van traditionele routers, die alleen bron- of bestemmingsadressen identificeren, analyseert de inhoud van gegevenspakketten grondig en identificeert door vergelijking met een kenmerkenbibliotheek nauwkeurig welke toepassingen en websites gebruikers openen. Hierdoor zijn fijnmazige verkeersclassificatie en -regeling mogelijk.
+    
+    De DPI-functie van GL.iNet is geïntegreerd met [Netify](https://www.netify.ai/){target="_blank"} en gebruikt een lichte ingebouwde plug-in voor efficiënte implementatie. Dankzij de online bijgewerkte kenmerkendatabase van Netify biedt de functie betrouwbaar beheer, waardoor netwerkregeling nauwkeuriger en efficiënter wordt.
+
+    Raadpleeg [DPI Engine](../../interface_guide/dpi_engine.md) voor meer informatie.
+
+=== "Data Statistics"
+
+    Data Statistics biedt een intelligent verkeersdashboard dat netwerkgebruik per toepassing categoriseert en visualiseert. Hiermee kun je realtime en historisch verkeer bewaken voor beter inzicht in en beheer van het netwerk.
+
+    Raadpleeg [Data Statistics](../../interface_guide/data_statistics.md) voor meer informatie.
+
+=== "Content Filter"
+
+    Content Filter biedt intelligente online beveiliging op basis van DPI-classificatie en blokkeert automatisch schadelijke of kwaadaardige websites om je netwerk schoon en veilig te houden.
+
+    Raadpleeg [Content Filter](../../interface_guide/content_filter.md) voor meer informatie.
+
+---
+
+=== "QoS"
+
+    QoS (Quality of Service) optimaliseert de bandbreedtetoewijzing door tijdens netwerkcongestie prioriteit te geven aan belangrijke activiteiten, zoals videogesprekken en gaming. Hierdoor neemt de latentie af en verbeteren de algemene netwerkprestaties. Dit geldt voor lokaal clientverkeer en verkeer in de VPN Client-tunnel, maar niet voor verkeer dat wordt ontvangen wanneer de router als VPN Server werkt.
+
+    Raadpleeg [QoS](../../interface_guide/qos.md) voor meer informatie.
+
+=== "SQM"
+
+    SQM (Smart Queue Management) beheert het netwerkverkeer van je router op intelligente wijze om de latentie en 'bufferbloat' te beperken. Zo verlopen games en spraakoproepen soepeler.
+
+    Raadpleeg [SQM](../../interface_guide/sqm.md) voor meer informatie.
 
 === "Parental Control"
 
     Parental Control is bedoeld om je te helpen de apparaten van je kinderen te beheren. Je kunt onder meer de schermtijd beperken en toegang tot bepaalde inhoud blokkeren.
 
-    Raadpleeg [Parental Control](../../interface_guide/parental_control.md) om ouderlijk toezicht in te stellen.
+    Raadpleeg [Parental Control](../../interface_guide/parental_control_v4.9.md) om ouderlijk toezicht in te stellen.
 
 ## Security {#security}
 
@@ -413,17 +447,21 @@ Een VPN (virtual private network) maakt een beveiligde, versleutelde verbinding 
 
     Raadpleeg [Port Forwarding](../../interface_guide/port_forwarding.md) om port forwarding in te stellen.
 
-=== "Management Control"
+=== "ACL"
 
-    Met Management Control kun je verschillende beveiligingsinstellingen configureren om je netwerk en router tegen onbevoegde toegang te beschermen. De pagina bevat de volgende opties:
+    Met ACL, een afkorting van Access Control List, kun je regels maken om netwerkverkeer te beheren op basis van verbindingsprotocollen, apparaatadressen en poorten. De regels bepalen of netwerktoegang wordt toegestaan of geblokkeerd. Als meerdere ACL-regels conflicteren, past het systeem de regel met de hoogste prioriteit toe.
+
+    Raadpleeg [ACL](../../interface_guide/acl.md) voor meer informatie.
+
+=== "Admin Access"
+
+    Met Admin Access kun je verschillende beveiligingsinstellingen configureren om je netwerk en router tegen onbevoegde toegang te beschermen. De pagina bevat de volgende opties:
 
     * Local Access Control: beheer en beperk de toegang tot de routerinterface vanaf apparaten die met je lokale netwerk zijn verbonden.
     * Remote Access Control: configureer en beperk toegang tot de routerinterface vanaf externe locaties via internet om de beveiliging tegen bedreigingen van buitenaf te verbeteren.
     * Open Ports on Router: bepaal welke poorten op de router geopend zijn om mogelijke kwetsbaarheden en onbevoegde toegang te beperken.
 
-    Met deze instellingen onderhoud je een veilige netwerkomgeving en bescherm je zowel de router als de verbonden apparaten.
-
-    Raadpleeg [Security](../../interface_guide/security.md) voor uitgebreide instructies.
+    Raadpleeg [Admin Access](../../interface_guide/admin_access.md) voor meer informatie.
 
 === "NAT Mode"
 
@@ -459,17 +497,17 @@ Een VPN (virtual private network) maakt een beveiligde, versleutelde verbinding 
 
     Raadpleeg [AdGuard Home](../../interface_guide/adguardhome.md) om AdGuard Home in te stellen.
 
-=== "ZeroTier"
-
-    ZeroTier is een softwaregedefinieerde netwerkoplossing waarmee gebruikers via internet beveiligde virtuele netwerken kunnen maken en apparaten kunnen verbinden alsof ze zich in hetzelfde lokale netwerk bevinden.
-
-    Raadpleeg [ZeroTier](../../interface_guide/zerotier.md) om ZeroTier in te stellen.
-
 === "Tailscale"
 
     Tailscale is een VPN-dienst waarmee je overal toegang hebt tot je apparaten en toepassingen.
-
+    
     Raadpleeg [Tailscale](../../interface_guide/tailscale.md) om Tailscale in te stellen.
+
+=== "ZeroTier"
+
+    ZeroTier is een softwaregedefinieerde netwerkoplossing waarmee gebruikers via internet beveiligde virtuele netwerken kunnen maken en apparaten kunnen verbinden alsof ze zich in hetzelfde lokale netwerk bevinden.
+    
+    Raadpleeg [ZeroTier](../../interface_guide/zerotier.md) om ZeroTier in te stellen.
 
 === "Tor"
 

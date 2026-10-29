@@ -293,10 +293,16 @@ Per configurarla, fai riferimento a [Clients](../../interface_guide/clients.md).
 
 ## Servizi cloud {#cloud-services}
 
+=== "GL.iNet Account"
+
+    L’account GL.iNet consente di connettere e gestire i dispositivi e i servizi cloud. Con un unico account GL.iNet è possibile accedere facilmente sia a GoodCloud sia all’app glinet, per un’esperienza sicura e migliorata. In questo modo è possibile gestire la rete più comodamente, ovunque e in qualsiasi momento.
+
+    Per configurare GL.iNet Account, consulta [GL.iNet Account](../../interface_guide/glinet_account.md).
+
 === "GoodCloud"
 
     Il servizio di gestione cloud GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} offre un modo semplice e immediato per accedere da remoto e gestire i router GL.iNet.
-
+    
     Per configurarlo, fai riferimento a [GoodCloud](../../interface_guide/cloud.md).
 
 === "AstroWarp"
@@ -331,17 +337,19 @@ Una VPN crea traffico sicuro e crittografato tra il dispositivo e il server VPN.
 
     Per configurarlo, fai riferimento a [Multi-WAN](../../interface_guide/multi-wan.md).
 
-=== "LAN"
+=== "Subnet"
 
-    LAN, o Local Area Network, e una rete che collega computer e dispositivi all'interno di un'area geografica limitata, ad esempio una casa o un ufficio. Consente trasferimento dati ad alta velocità e condivisione delle risorse, permettendo ai dispositivi di comunicare tra loro in modo efficiente.
+    Questa pagina consente di configurare e gestire in modo centralizzato **Main Network**, **Guest Network**, **IoT Network** e le **VLAN Networks** personalizzate. È possibile creare e gestire più sottoreti per isolare diversi tipi di dispositivi o traffico.
 
-    Per configurarla, fai riferimento a [Lan](../../interface_guide/lan.md).
+    Per configurare questa funzione, consulta [Subnet](../../interface_guide/subnet.md).
 
-=== "Guest Network"
+=== "Ethernet Port"
 
-    Consente di impostare una sottorete all'interno degli intervalli di indirizzi privati IPv4 192.168.0.0/16, 172.16.0.0/12 o 10.0.0.0/8, specificare gli indirizzi IP di gateway e netmask e configurare impostazioni di sicurezza come l'isolamento AP per la rete ospite.
+    La pagina Ethernet Port consente di impostare il ruolo della porta Ethernet, cioe usarla come WAN o LAN, cambiare la modalità MAC e l'indirizzo MAC per l'interfaccia WAN e visualizzare la velocità negoziata della porta.
 
-    Per configurarla, fai riferimento a [Guest Network](../../interface_guide/guest_network.md).
+    Mudi 7 dispone di una singola porta Ethernet, che per impostazione predefinita e LAN. Se necessario, puoi cambiarla in WAN dal touchscreen oppure dal pannello di amministrazione web.
+
+    Per gestire le porte Ethernet, fai riferimento a [Ethernet Port](../../interface_guide/ethernet_port_v4.10.md).
 
 ---
 
@@ -351,32 +359,24 @@ Una VPN crea traffico sicuro e crittografato tra il dispositivo e il server VPN.
 
     Per configurarla, fai riferimento a [DNS](../../interface_guide/dns.md).
 
-=== "Ethernet Port"
-
-    La pagina Ethernet Port consente di impostare il ruolo della porta Ethernet, cioe usarla come WAN o LAN, cambiare la modalità MAC e l'indirizzo MAC per l'interfaccia WAN e visualizzare la velocità negoziata della porta.
-
-    Mudi 7 dispone di una singola porta Ethernet, che per impostazione predefinita e LAN. Se necessario, puoi cambiarla in WAN dal touchscreen oppure dal pannello di amministrazione web.
-
-    Per gestire le porte Ethernet, fai riferimento a [Ethernet Port](../../interface_guide/ethernet_port.md).
-
 === "IPv6"
 
     IPv6, abbreviazione di Internet Protocol version 6, e la versione più recente del protocollo Internet progettata per sostituire IPv4. Offre uno spazio di indirizzamento molto più ampio, permettendo un numero virtualmente illimitato di indirizzi IP univoci, elemento essenziale per il crescente numero di dispositivi collegati a Internet.
-
+    
     Per configurarlo, fai riferimento a [IPV6](../../interface_guide/ipv6.md).
-
----
 
 === "IGMP Snooping"
 
     IGMP snooping e una tecnica di ottimizzazione della rete usata negli switch Ethernet per gestire e controllare il traffico multicast.
-
+    
     Per configurarlo, fai riferimento a [IGMP Snooping](../../interface_guide/igmp_snooping.md).
+
+---
 
 === "Network Mode"
 
     Network mode indica la configurazione che determina come un dispositivo si connette a una rete e comunica con altri dispositivi.
-
+    
     Per configurarlo, fai riferimento a [Network Mode](../../interface_guide/network_mode.md).
 
     **Nota**: Mudi 7 supporta le modalità Router, Access Point ed Extender. Non supporta la modalità WDS.
@@ -384,25 +384,59 @@ Una VPN crea traffico sicuro e crittografato tra il dispositivo e il server VPN.
 === "Drop-in gateway"
 
     Drop-in gateway estende le funzionalità del router principale, inclusi AdGuard Home, DNS crittografato e client VPN.
-
+    
     Per configurarlo, fai riferimento ai seguenti link:
-
+    
     - [Drop-in Gateway](../../interface_guide/drop-in_gateway.md)
     - [Come configurare Drop-in Gateway](../../tutorials/how_to_set_up_drop_in_gateway.md)
 
 === "Network Acceleration"
 
     Network acceleration può ridurre il carico della CPU e accelerare l'inoltro dei pacchetti di traffico.
-
+    
     Per configurarla, fai riferimento a [Network Acceleration](../../interface_guide/network_acceleration.md).
 
 ## Controllo del traffico {#flow-control}
+
+=== "DPI Engine"
+
+    DPI (Deep Packet Inspection) è una funzione fondamentale per la gestione intelligente della rete. Supera il limite dei router tradizionali, che identificano solo gli indirizzi di origine o destinazione, analizzando in profondità il payload dei pacchetti. Mediante il confronto con una libreria di firme, identifica con precisione applicazioni e siti web utilizzati e consente una classificazione e un controllo dettagliati del traffico.
+    
+    Integrata con [Netify](https://www.netify.ai/){target="_blank"}, la funzione DPI di GL.iNet utilizza un plug-in integrato leggero e facile da distribuire. Il database delle firme Netify aggiornato online rende la gestione affidabile e il controllo della rete più accurato ed efficiente.
+
+    Per maggiori dettagli, consultare [DPI Engine](../../interface_guide/dpi_engine.md).
+
+=== "Data Statistics"
+
+    Data Statistics offre un pannello intelligente di analisi del traffico che classifica e visualizza l'utilizzo della rete per applicazione, consentendo di monitorare il traffico in tempo reale e quello storico.
+
+    Per maggiori dettagli, consultare [Data Statistics](../../interface_guide/data_statistics.md).
+
+=== "Content Filter"
+
+    Content Filter offre una protezione online intelligente basata sulla classificazione DPI e blocca automaticamente i siti web dannosi o malevoli per mantenere la rete sicura.
+
+    Per maggiori dettagli, consultare [Content Filter](../../interface_guide/content_filter.md).
+
+---
+
+=== "QoS"
+
+    QoS (Quality of Service) ottimizza l'assegnazione della larghezza di banda dando priorità alle attività critiche, come videochiamate e giochi, durante la congestione della rete. Riduce la latenza e migliora le prestazioni complessive. Si applica al traffico dei client locali e dei tunnel del client VPN, ma non al traffico ricevuto quando il router funziona come server VPN.
+
+    Per maggiori dettagli, consultare [QoS](../../interface_guide/qos.md).
+
+=== "SQM"
+
+    SQM (Smart Queue Management) gestisce in modo intelligente il traffico di rete del router per ridurre al minimo la latenza e il "bufferbloat", rendendo più fluidi i giochi e le chiamate vocali.
+
+    Per maggiori dettagli, consultare [SQM](../../interface_guide/sqm.md).
 
 === "Parental Control"
 
     Parental Control e progettato per aiutarti a gestire e controllare i dispositivi dei tuoi figli. Include la limitazione del tempo di utilizzo dello schermo e la restrizione dell'accesso a determinati contenuti.
 
-    Per configurarlo, fai riferimento a [Parental Control](../../interface_guide/parental_control.md).
+    Per configurarlo, fai riferimento a [Parental Control](../../interface_guide/parental_control_v4.9.md).
 
 ## Sicurezza {#security}
 
@@ -412,17 +446,21 @@ Una VPN crea traffico sicuro e crittografato tra il dispositivo e il server VPN.
 
     Per configurarlo, fai riferimento a [Port Forwarding](../../interface_guide/port_forwarding.md).
 
-=== "Management Control"
+=== "ACL"
 
-    La pagina Management Control consente di configurare varie impostazioni di sicurezza per proteggere la rete e il router da accessi non autorizzati. Questa pagina include le seguenti opzioni:
+    ACL, acronimo di Access Control List, consente di creare regole per gestire il traffico di rete in base a protocolli di connessione, indirizzi dei dispositivi e porte. Le regole stabiliscono se consentire o bloccare l'accesso alla rete. In caso di conflitto tra più regole ACL, il sistema applica quella con priorità più alta.
+
+    Per maggiori dettagli, consultare [ACL](../../interface_guide/acl.md).
+
+=== "Admin Access"
+
+    Admin Access consente di configurare diverse impostazioni di sicurezza per proteggere la rete e il router dagli accessi non autorizzati. La pagina include le opzioni seguenti:
 
     * Local Access Control: gestire e limitare l'accesso all'interfaccia del router dai dispositivi collegati alla rete locale.
     * Remote Access Control: configurare e limitare l'accesso all'interfaccia del router da posizioni remote tramite Internet, migliorando la protezione dalle minacce esterne.
     * Open Ports on Router: controllare quali porte sono aperte sul router, limitando potenziali vulnerabilita e accessi non autorizzati.
 
-    Queste impostazioni aiutano a mantenere un ambiente di rete sicuro, proteggendo sia il router sia i dispositivi collegati.
-
-    Per istruzioni dettagliate, fai riferimento a [Security](../../interface_guide/security.md).
+    Per maggiori dettagli, consultare [Admin Access](../../interface_guide/admin_access.md).
 
 === "NAT Mode"
 
@@ -458,17 +496,17 @@ Una VPN crea traffico sicuro e crittografato tra il dispositivo e il server VPN.
 
     Per configurarlo, fai riferimento a [AdGuard Home](../../interface_guide/adguardhome.md).
 
-=== "ZeroTier"
-
-    ZeroTier e una soluzione di rete software-defined che consente agli utenti di creare reti virtuali sicure su Internet, collegando i dispositivi come se fossero sulla stessa rete locale.
-
-    Per configurarlo, fai riferimento a [ZeroTier](../../interface_guide/zerotier.md).
-
 === "Tailscale"
 
     Tailscale e un servizio VPN che consente di accedere ai dispositivi e alle applicazioni ovunque.
-
+    
     Per configurarlo, fai riferimento a [Tailscale](../../interface_guide/tailscale.md).
+
+=== "ZeroTier"
+
+    ZeroTier e una soluzione di rete software-defined che consente agli utenti di creare reti virtuali sicure su Internet, collegando i dispositivi come se fossero sulla stessa rete locale.
+    
+    Per configurarlo, fai riferimento a [ZeroTier](../../interface_guide/zerotier.md).
 
 === "Tor"
 

@@ -188,7 +188,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt eine sichere, verschlüsselte Ve
 
 === "Subnet"
 
-    Subnet bündelt die Verwaltung von LAN, Guest Network, IoT Network und benutzerdefinierten VLAN-Netzwerken. So können Sie mehrere Subnetze erstellen und verwalten, um unterschiedliche Geräte- oder Datenverkehrstypen voneinander zu isolieren.
+    Diese Seite ermöglicht die zentrale Konfiguration und Verwaltung von **Main Network**, **Guest Network**, **IoT Network** und benutzerdefinierten **VLAN Networks**. Sie können mehrere Subnetze erstellen und verwalten, um verschiedene Gerätetypen oder Datenverkehr voneinander zu trennen.
 
     Informationen zur Einrichtung finden Sie unter [Subnet](../../interface_guide/subnet.md).
 
@@ -198,13 +198,13 @@ Ein VPN (virtuelles privates Netzwerk) erstellt eine sichere, verschlüsselte Ve
 
     Informationen zur Verwaltung der Ethernet-Ports finden Sie unter [Ethernet Port](../../interface_guide/ethernet_port_v4.10.md).
 
----
-
 === "DNS"
 
     Auf der Seite DNS können Sie benutzerdefinierte DNS-Server festlegen, den Schutz vor DNS-Rebinding-Angriffen aktivieren, die DNS-Einstellungen aller Clients überschreiben und zulassen, dass benutzerdefiniertes DNS VPN-DNS überschreibt. Sie können automatisch von vorgeschalteten Geräten bezogene DNS-Server verwenden oder benutzerdefinierte DNS-Server manuell angeben.
 
     Informationen zur Einrichtung von DNS finden Sie unter [DNS](../../interface_guide/dns.md).
+
+---
 
 === "IPv6"
 
@@ -215,10 +215,8 @@ Ein VPN (virtuelles privates Netzwerk) erstellt eine sichere, verschlüsselte Ve
 === "IGMP Snooping"
 
     IGMP Snooping ist eine Netzwerkoptimierungstechnik, die in Ethernet-Switches eingesetzt wird, um Multicast-Datenverkehr zu verwalten und zu steuern.
-
+    
     Informationen zur Einrichtung von IGMP Snooping finden Sie unter [IGMP Snooping](../../interface_guide/igmp_snooping.md).
-
----
 
 === "Network Mode"
 
@@ -234,11 +232,9 @@ Ein VPN (virtuelles privates Netzwerk) erstellt eine sichere, verschlüsselte Ve
 
 ## Datenverkehrssteuerung {#flow-control}
 
-=== "Parental Control"
+Parental Control hilft Ihnen dabei, die Geräte Ihrer Kinder zu verwalten und zu kontrollieren. Dazu gehören die Begrenzung der Bildschirmzeit und die Einschränkung des Zugriffs auf bestimmte Inhalte.
 
-    Parental Control hilft Ihnen dabei, die Geräte Ihrer Kinder zu verwalten und zu kontrollieren. Dazu gehören die Begrenzung der Bildschirmzeit und die Einschränkung des Zugriffs auf bestimmte Inhalte.
-
-    Informationen zur Einrichtung von Parental Control finden Sie unter [Parental Control](../../interface_guide/parental_control_v4.9.md).
+Informationen zur Einrichtung von Parental Control finden Sie unter [Parental Control](../../interface_guide/parental_control_v4.9.md).
 
 ## Sicherheit {#security}
 

@@ -133,7 +133,7 @@ Information om hur du konfigurerar Clients finns i [Clients](../../interface_gui
 
 ## VPN {#vpn}
 
-Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindelse mellan din enhet och VPN-servern. Det ger ett extra lager av integritet och säkerhet (VPN-klient) och låter dig få åtkomst till ett fjärrnätverk (VPN-server). Flint 3e stöder OpenVPN, WireGuard och Tor.
+Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindelse mellan din enhet och VPN-servern. Det ger ett extra lager av integritet och säkerhet (VPN-klient) och låter dig få åtkomst till ett fjärrnätverk (VPN-server). Flint 3e stöder OpenVPN och WireGuard.
 
 === "OpenVPN"
 
@@ -149,11 +149,152 @@ Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindel
     * [Konfigurera en WireGuard-klient](../../interface_guide/wireguard_client.md)
     * [Konfigurera en WireGuard-server](../../interface_guide/wireguard_server.md)
 
-=== "Tor"
+## Network {#network}
 
-    Tor, en förkortning av The Onion Router, är ett integritetsfokuserat nätverk som möjliggör anonym kommunikation över internet. Internettrafiken dirigeras genom flera servrar (noder) som drivs av frivilliga för att dölja användarens plats och aktivitet. Det gör det svårt att spåra aktiviteter online.
+=== "Multi-WAN"
 
-    * [How to set up Tor](../../interface_guide/tor.md)
+    Multi-WAN är en nätverksfunktion som gör att du kan konfigurera routern med flera internetanslutningar (t.ex. Ethernet, internetdelning och mobilnät) samtidigt. Om den aktuella internetanslutningen slutar fungera växlar routern automatiskt till en annan internetanslutning. Det ger en smidig och oavbruten internetåtkomst.
+
+    Information om hur du konfigurerar Multi-WAN finns i [Multi-WAN](../../interface_guide/multi-wan.md).
+
+=== "LAN"
+
+    LAN, eller Local Area Network, är ett nätverk som ansluter datorer och enheter inom ett begränsat geografiskt område, till exempel ett hem eller ett kontor. Det möjliggör snabb dataöverföring och resursdelning, så att enheterna kan kommunicera effektivt med varandra.
+    
+    Information om hur du konfigurerar LAN finns i [Lan](../../interface_guide/lan.md).
+
+=== "Guest Network"
+
+    Du kan ange ett subnät inom de privata IPv4-adressintervallen 192.168.0.0/16, 172.16.0.0/12 eller 10.0.0.0/8, ange IP-adresserna för gateway och nätmask samt konfigurera säkerhetsinställningar som AP-isolering för gästnätverket.
+
+    Information om hur du konfigurerar gästnätverket finns i [Guest Network](../../interface_guide/guest_network.md).
+
+=== "IoT Network"
+
+    Du kan skapa ett separat Wi-Fi-nätverk för IoT-enheter. Det är isolerat från huvudnätverket och ger bättre kompatibilitet och säkerhet.
+
+    Information om hur du konfigurerar IoT Network finns i [Lan](../../interface_guide/iot_network.md).
+
+---
+
+=== "DNS"
+
+    På sidan DNS kan du ange anpassade DNS-servrar, aktivera skydd mot DNS-rebinding-attacker, åsidosätta DNS-inställningarna för alla klienter och tillåta att anpassad DNS åsidosätter VPN-DNS. Du kan använda DNS-servrar som hämtas automatiskt från uppströmsenheter eller ange anpassade DNS-servrar manuellt.
+
+    Information om hur du konfigurerar DNS finns i [DNS](../../interface_guide/dns.md).
+
+=== "Ethernet Port"
+
+    På sidan Ethernet Port kan du konfigurera WAN- och LAN-portarna, ange Ethernet för WAN/LAN-gränssnittet, ange MAC-läge och MAC-adress för WAN-gränssnittet samt visa nätverksportens förhandlade hastighet.
+
+    Information om hur du hanterar Ethernet-portar finns i [Ethernet Port](../../interface_guide/ethernet_port.md).
+
+=== "IPv6"
+
+    IPv6, eller Internet Protocol version 6, är den senaste versionen av internetprotokollet och är avsett att ersätta IPv4. Det erbjuder ett mycket större adressutrymme med ett praktiskt taget obegränsat antal unika IP-adresser, vilket är viktigt för att hantera det växande antalet enheter som är anslutna till internet.
+
+    Information om hur du konfigurerar IPV6 finns i [IPV6](../../interface_guide/ipv6.md).
+
+=== "IGMP Snooping"
+
+    IGMP snooping är en teknik för nätverksoptimering som används i Ethernet-switchar för att hantera och styra multicast-trafik.
+    
+    Information om hur du konfigurerar IGMP snooping finns i [IGMP Snooping](../../interface_guide/igmp_snooping.md).
+
+---
+
+=== "Network Mode"
+
+    Nätverksläge avser de konfigurationsinställningar som avgör hur en enhet ansluter till ett nätverk och kommunicerar med andra enheter.
+
+    Information om hur du konfigurerar nätverksläget finns i [Network Mode](../../interface_guide/network_mode.md).
+
+=== "Drop-in gateway"
+
+    En drop-in-gateway utökar huvudrouterns funktioner med bland annat AdGuard Home, krypterad DNS och VPN-klient.
+    
+    Använd följande länkar för att konfigurera en drop-in-gateway:
+    
+    - [Drop-in Gateway](../../interface_guide/drop-in_gateway.md)
+    - [How to set up drop-in gateway](../../tutorials/how_to_set_up_drop_in_gateway.md)
+
+=== "Network Acceleration"
+
+    Nätverksacceleration kan minska processorbelastningen och påskynda vidarebefordran av trafikpaket.
+
+    Information om hur du konfigurerar nätverksacceleration finns i [Network Acceleration](../../interface_guide/network_acceleration.md).
+
+## Flow Control {#flow-control}
+
+=== "DPI Engine"
+
+    DPI (Deep Packet Inspection) är en central funktion för intelligent nätverkshantering. Den övervinner begränsningen hos traditionella routrar, som endast identifierar käll- eller destinationsadresser, genom att analysera datapaketens nyttolast på djupet och exakt identifiera program och webbplatser som användaren öppnar genom jämförelse med ett funktionsbibliotek. Det möjliggör detaljerad klassificering och styrning av trafiken.
+    
+    GL.iNets DPI-funktion är integrerad med [Netify](https://www.netify.ai/){target="_blank"} och använder ett resurssnålt inbäddat insticksprogram för effektiv distribution. Netifys signaturdatabas uppdateras online och möjliggör tillförlitlig hantering, vilket gör nätverksstyrningen mer exakt och effektiv.
+
+    Detaljerade anvisningar finns i [DPI Engine](../../interface_guide/dpi_engine.md).
+
+=== "Data Statistics"
+
+    Data Statistics erbjuder en intelligent instrumentpanel för trafikinformation som kategoriserar och visualiserar nätverksanvändningen efter program. Den hjälper dig att övervaka trafik i realtid och historisk trafik för bättre insyn och kontroll över nätverket.
+
+    Detaljerade anvisningar finns i [Data Statistics](../../interface_guide/data_statistics.md).
+
+=== "Content Filter"
+
+    Content Filter ger intelligent säkerhet online med DPI-baserad klassificering. Funktionen blockerar automatiskt skadliga webbplatser för att hålla nätverket rent och säkert.
+
+    Detaljerade anvisningar finns i [Content Filter](../../interface_guide/content_filter.md).
+
+---
+
+=== "QoS"
+
+    QoS (Quality of Service) optimerar bandbreddstilldelningen genom att prioritera viktiga aktiviteter (t.ex. videosamtal och spel) när nätverket är överbelastat. Det minskar latensen och förbättrar nätverkets övergripande prestanda. Observera att detta gäller lokal klienttrafik och tunneltrafik från VPN Client, men inte trafik som tas emot när routern fungerar som VPN Server.
+
+    Detaljerade anvisningar finns i [QoS](../../interface_guide/qos.md).
+
+=== "SQM"
+
+    SQM (Smart Queue Management) hanterar routerns nätverkstrafik intelligent för att minimera latens och ”bufferbloat”, vilket ger smidigare spel och röstsamtal.
+
+    Detaljerade anvisningar finns i [SQM](../../interface_guide/sqm.md).
+
+=== "Parental Control"
+
+    Parental Control hjälper dig att hantera och styra dina barns enheter. Funktionen kan bland annat begränsa deras skärmtid och åtkomst till visst innehåll.
+
+    Information om hur du konfigurerar parental control finns i [Parental Control](../../interface_guide/parental_control_v4.9.md).
+
+## Security {#security}
+
+=== "Port Forwarding"
+
+    Portvidarebefordran gör det möjligt för fjärrservrar och enheter på internet att få åtkomst till enheter i ett privat nätverk.
+
+    Information om hur du konfigurerar port forwarding finns i [Port Forwarding](../../interface_guide/port_forwarding.md).
+
+=== "ACL"
+
+    ACL, en förkortning av Access Control List, låter dig skapa regler för att hantera nätverkstrafik utifrån anslutningsprotokoll, enhetsadresser och portar. Funktionen styr om nätverksåtkomst ska tillåtas eller blockeras. Om flera ACL-regler står i konflikt tillämpar systemet regeln med högst prioritet.
+
+    Mer information finns i [ACL](../../interface_guide/acl.md).
+
+=== "Admin Access"
+
+    Med Admin Access kan du konfigurera olika säkerhetsinställningar för att skydda nätverket och routern mot obehörig åtkomst. Sidan innehåller följande alternativ:
+
+    * Local Access Control: Hantera och begränsa åtkomsten till routerns gränssnitt från enheter som är anslutna till det lokala nätverket.
+    * Remote Access Control: Konfigurera och begränsa åtkomsten till routerns gränssnitt från fjärrplatser via internet för att förbättra skyddet mot externa hot.
+    * Open Ports on Router: Styr vilka portar som är öppna på routern för att begränsa möjliga sårbarheter och obehörig åtkomst.
+
+    Mer information finns i [Admin Access](../../interface_guide/admin_access.md).
+
+=== "NAT Mode"
+
+    På sidan NAT Mode kan du aktivera eller inaktivera funktionerna Full Cone NAT och SIP ALG (Application Layer Gateway).
+
+    Information om hur du konfigurerar NAT settings finns i [NAT Mode](../../interface_guide/nat_settings.md).
 
 ## Program {#applications}
 
@@ -183,108 +324,31 @@ Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindel
 
     Information om hur du konfigurerar AdGuard Home finns i [AdGuard Home](../../interface_guide/adguardhome.md).
 
-=== "Parental Control"
+=== "Bark"
 
-    Parental Control hjälper dig att hantera och styra dina barns enheter. Funktionerna kan bland annat begränsa deras skärmtid och åtkomst till visst innehåll.
+    Bark-tjänsten som är integrerad i Flint 3e kan skydda ditt barns digitala miljö och ge heltäckande skydd online. Den kräver vanligtvis en betalprenumeration. Genom vårt samarbete med Bark erbjuder GL.iNet dock abonnemanget Bark Home utan kostnad på utvalda routermodeller, däribland Flint 3e. Det ger avancerad övervakning och varningar utan extra kostnad.
 
-    Information om hur du konfigurerar parental control finns i [Parental Control](../../interface_guide/parental_control.md).
-
-=== "ZeroTier"
-
-    ZeroTier är en programvarudefinierad nätverkslösning som låter dig skapa säkra virtuella nätverk över internet och ansluta enheter som om de fanns i samma lokala nätverk.
-
-    Information om hur du konfigurerar ZeroTier finns i [ZeroTier](../../interface_guide/zerotier.md).
+    Mer information finns i [Bark](../../interface_guide/bark.md).
 
 === "Tailscale"
 
     Tailscale är en VPN-tjänst som ger dig åtkomst till dina enheter och program oavsett var du befinner dig.
-
+    
     Information om hur du konfigurerar Tailscale finns i [Tailscale](../../interface_guide/tailscale.md).
 
-## Nätverksinställningar {#network-settings}
+=== "ZeroTier"
 
-=== "Port forwarding"
+    ZeroTier är en programvarudefinierad nätverkslösning som låter dig skapa säkra virtuella nätverk över internet och ansluta enheter som om de fanns i samma lokala nätverk.
+    
+    Information om hur du konfigurerar ZeroTier finns i [ZeroTier](../../interface_guide/zerotier.md).
 
-    Portvidarebefordran gör det möjligt för fjärrservrar och enheter på internet att få åtkomst till enheter i ett privat nätverk.
+=== "Tor"
 
-    Information om hur du konfigurerar port forwarding finns i [Port Forwarding](../../interface_guide/port_forwarding.md).
+    Tor, en förkortning av The Onion Router, är ett integritetsfokuserat nätverk som möjliggör anonym kommunikation över internet. Internettrafiken dirigeras genom flera servrar (noder) som drivs av frivilliga för att dölja användarens plats och aktivitet. Det gör det svårt att spåra aktiviteter online.
+    
+    Mer information finns i [Tor](../../interface_guide/tor.md).
 
-=== "Multi-WAN"
-
-    Multi-WAN är en nätverksfunktion som gör att du kan konfigurera routern med flera internetanslutningar (t.ex. mobilnät, repeater och Ethernet) samtidigt. Om den aktuella internetanslutningen slutar fungera växlar routern automatiskt till en annan internetanslutning. Det ger en smidig och oavbruten internetåtkomst.
-
-    Information om hur du konfigurerar Multi-WAN finns i [Multi-WAN](../../interface_guide/multi-wan.md).
-
-=== "LAN"
-
-    LAN, eller Local Area Network, är ett nätverk som ansluter datorer och enheter inom ett begränsat geografiskt område, till exempel ett hem eller ett kontor. Det möjliggör snabb dataöverföring och resursdelning, så att enheterna kan kommunicera effektivt med varandra.
-
-    Information om hur du konfigurerar LAN finns i [Lan](../../interface_guide/lan.md).
-
----
-
-=== "Guest Network"
-
-    Du kan ange ett subnät inom de privata IPv4-adressintervallen 192.168.0.0/16, 172.16.0.0/12 eller 10.0.0.0/8, ange IP-adresserna för gateway och nätmask samt konfigurera säkerhetsinställningar som AP-isolering för gästnätverket.
-
-    Information om hur du konfigurerar gästnätverket finns i [Guest Network](../../interface_guide/guest_network.md).
-
-=== "DNS"
-
-    På sidan DNS kan du ange anpassade DNS-servrar, aktivera skydd mot DNS-rebinding-attacker, åsidosätta DNS-inställningarna för alla klienter och tillåta att anpassad DNS åsidosätter VPN-DNS. Du kan använda DNS-servrar som hämtas automatiskt från uppströmsenheter eller ange anpassade DNS-servrar manuellt.
-
-    Information om hur du konfigurerar DNS finns i [DNS](../../interface_guide/dns.md).
-
-=== "Ethernet Port"
-
-    På sidan Ethernet Port kan du konfigurera WAN- och LAN-portarna, ange Ethernet för WAN/LAN-gränssnittet, ange MAC-läge och MAC-adress för WAN-gränssnittet samt visa nätverksportens förhandlade hastighet.
-
-    Information om hur du hanterar Ethernet-portar finns i [Ethernet Port](../../interface_guide/ethernet_port.md).
-
----
-
-=== "Network Mode"
-
-    Nätverksläge avser de konfigurationsinställningar som avgör hur en enhet ansluter till ett nätverk och kommunicerar med andra enheter.
-
-    Information om hur du konfigurerar nätverksläget finns i [Network Mode](../../interface_guide/network_mode.md).
-
-=== "IPv6"
-
-    IPv6, eller Internet Protocol version 6, är den senaste versionen av internetprotokollet och är avsett att ersätta IPv4. Det erbjuder ett mycket större adressutrymme med ett praktiskt taget obegränsat antal unika IP-adresser, vilket är viktigt för att hantera det växande antalet enheter som är anslutna till internet.
-
-    Information om hur du konfigurerar IPV6 finns i [IPV6](../../interface_guide/ipv6.md).
-
-=== "Drop-in Gateway"
-
-    En drop-in-gateway utökar huvudrouterns funktioner med bland annat AdGuard Home, krypterad DNS och VPN-klient.
-
-    Använd följande länkar för att konfigurera en drop-in-gateway:
-
-    - [Drop-in Gateway](../../interface_guide/drop-in_gateway.md)
-    - [How to set up drop-in gateway](../../tutorials/how_to_set_up_drop_in_gateway.md)
-
----
-
-=== "IGMP Snooping"
-
-    IGMP snooping är en teknik för nätverksoptimering som används i Ethernet-switchar för att hantera och styra multicast-trafik.
-
-    Information om hur du konfigurerar IGMP snooping finns i [IGMP Snooping](../../interface_guide/igmp_snooping.md).
-
-=== "Network Acceleration"
-
-    Nätverksacceleration kan minska processorbelastningen och påskynda vidarebefordran av trafikpaket.
-
-    Information om hur du konfigurerar nätverksacceleration finns i [Network Acceleration](../../interface_guide/network_acceleration.md).
-
-=== "NAT Settings"
-
-    På sidan NAT Settings kan du aktivera eller inaktivera funktionerna Full Cone NAT och SIP ALG (Application Layer Gateway).
-
-    Information om hur du konfigurerar NAT-inställningar finns i [NAT Settings](../../interface_guide/nat_settings.md).
-
-## Systeminställningar {#system-settings}
+## System {#system}
 
 === "Overview"
 
@@ -300,6 +364,12 @@ Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindel
     Dessa funktioner ger viktig information och viktiga kontroller som hjälper dig att effektivt hantera och övervaka routern.
 
     Detaljerade anvisningar finns i [Overview](../../interface_guide/system_overview.md).
+
+=== "Admin Password"
+
+    På sidan Admin Password kan du hantera lösenordet för routerns administratörsgränssnitt, så att endast behöriga användare kan ändra inställningarna.
+
+    Mer information finns i [Admin Password](../../interface_guide/admin_password.md).
 
 === "Upgrade"
 
@@ -332,6 +402,12 @@ Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindel
 
     Detaljerade anvisningar finns i [Time Zone](../../interface_guide/time_zone.md).
 
+=== "Reset Firmware"
+
+    På sidan Reset Firmware kan du återställa routerns aktuella firmwareversion till standardinställningarna. Alla anpassade konfigurationer raderas. Processen återställer routern till standardinställningarna för den installerade firmwareversionen. Det kan vara användbart vid felsökning av återkommande problem eller om du vill börja om med standardkonfigurationen för aktuell firmware.
+
+    Detaljerade anvisningar finns i [Reset Firmware](../../interface_guide/reset_firmware.md).
+
 === "Log"
 
     Sidan Log ger åtkomst till olika loggar som registrerar routerns aktiviteter och händelser. De hjälper till vid felsökning och prestandaövervakning. Sidan innehåller:
@@ -341,31 +417,10 @@ Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindel
     * Crash Log: Poster över systemkrascher och fel som är användbara vid diagnostisering av allvarliga problem.
     * Cloud Log: Loggar över interaktioner och aktiviteter som rör GoodCloud-tjänster som är integrerade med routern.
     * Nginx Log: Loggar från Nginx-webbservern, om den används av routern, med information om webbtrafik och serveråtgärder.
-
+    
     Sidan har dessutom knappen Export Log, som låter dig exportera alla insamlade loggar för analys av den tekniska supporten. Funktionen är mycket användbar för diagnostisering av komplicerade problem och för att få professionell hjälp.
 
     Detaljerade anvisningar finns i [Log](../../interface_guide/log.md).
-
----
-
-=== "Security"
-
-    På sidan Security kan du konfigurera olika säkerhetsinställningar för att skydda nätverket och routern mot obehörig åtkomst. Sidan innehåller alternativ för:
-
-    * Admin Password: Ange eller ändra lösenordet för routerns administratörsgränssnitt så att endast behöriga användare kan ändra inställningarna.
-    * Local Access Control: Hantera och begränsa åtkomsten till routerns gränssnitt från enheter som är anslutna till det lokala nätverket.
-    * Remote Access Control: Konfigurera och begränsa åtkomsten till routerns gränssnitt från fjärrplatser via internet för att förbättra skyddet mot externa hot.
-    * Open Ports on Router: Styr vilka portar som är öppna på routern för att begränsa möjliga sårbarheter och obehörig åtkomst.
-
-    Dessa inställningar hjälper dig att upprätthålla en säker nätverksmiljö som skyddar både routern och anslutna enheter.
-
-    Detaljerade anvisningar finns i [Security](../../interface_guide/security.md).
-
-=== "Reset Firmware"
-
-    På sidan Reset Firmware kan du återställa routerns aktuella firmwareversion till standardinställningarna. Alla anpassade konfigurationer raderas. Processen återställer routern till standardinställningarna för den installerade firmwareversionen. Det kan vara användbart vid felsökning av återkommande problem eller om du vill börja om med standardkonfigurationen för aktuell firmware.
-
-    Detaljerade anvisningar finns i [Reset Firmware](../../interface_guide/reset_firmware.md).
 
 === "Advanced Settings"
 

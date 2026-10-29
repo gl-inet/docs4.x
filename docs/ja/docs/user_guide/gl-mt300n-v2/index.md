@@ -84,7 +84,21 @@ Wi-Fi 情報を変更した場合は、新しい認証情報を使ってデバ�
 
     詳しい手順は、[USB モデムでインターネットに接続する](../../interface_guide/internet_cellular.md)をご参照ください。
 
-## VPN のセットアップ方法 {#how-to-set-up-a-vpn}
+---
+
+## Wireless {#wireless}
+
+Wirelessページでは、2.4 GHzのWi-Fiネットワークの設定を行えます。Wi-Fiの有効化、送信電力、Wi-Fi名（SSID）、Wi-Fiセキュリティモードとパスワード、SSIDの表示、Wi-Fiモード、帯域幅、チャネルなどを設定できます。
+
+詳細については、[Wireless](../../interface_guide/wireless_v4.8.md)を参照してください。
+
+## Clients {#clients}
+
+Clients ページには、接続中のデバイス情報が表示されます。各クライアントについて、名前、IP アドレス、MAC アドレス、ダウンロード/アップロード速度、総トラフィックが表示され、クライアントのブロックやその他の操作も行えます。
+
+Clients の設定については、[Clients](../../interface_guide/clients.md)を参照してください。
+
+## VPN {#vpn}
 
 VPN（仮想プライベートネットワーク）は、デバイスと VPN サーバーの間に安全で暗号化された通信を作成します。プライバシーとセキュリティを強化し（VPN クライアント）、リモートネットワークへのアクセスも可能にします（VPN サーバー）。Mango（およびその他の GL.iNet ルーター）は、OpenVPN と WireGuard に対応しています。
 
@@ -122,7 +136,7 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
     設定方法は [GoodCloud](../../interface_guide/cloud.md) をご参照ください。
 
-## ネットワーク設定 {#network-settings}
+## ネットワーク {#network}
 
 === "ファイアウォール"
 
@@ -149,7 +163,7 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
     * DHCP：Dynamic Host Configuration Protocol を有効または設定し、ネットワーク上のデバイスに IP アドレスを自動割り当てします。
     * Address Reservation：特定のデバイスに対して特定の IP アドレスを予約し、DHCP サーバーから常に同じ IP アドレスを受け取れるようにします。
 
-    設定方法は [LAN](../../interface_guide/lan.md) をご参照ください。
+    LANの設定については、[LAN](../../interface_guide/lan.md)を参照してください。
 
 ---
 
@@ -217,7 +231,7 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
     設定方法は [IGMP Snooping](../../interface_guide/igmp_snooping.md) をご参照ください。
 
-## システム設定 {#system-settings}
+## システム {#system}
 
 === "概要"
 

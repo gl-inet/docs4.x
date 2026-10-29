@@ -194,8 +194,6 @@ Zaloguj się z powrotem do panelu administracyjnego GL-MT6000 (serwera WireGuard
 
 Przed podróżą powiąż oba routery z kontem GoodCloud. Umożliwi to zdalne rozwiązywanie problemów, jeśli połączenie VPN przestanie działać z powodu konfiguracji lub innych problemów sieciowych. Zdalny dostęp działa tylko wtedy, gdy routery pozostają włączone i połączone z Internetem.
 
-Czasami Twój serwer może być wyłączony z powodu awarii zasilania lub innych przyczyn. Aby utrzymać dostępność serwera, powiąż go z GL.iNet GoodCloud. 
-
 ---
 
 Powiązane artykuły

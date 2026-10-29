@@ -20,6 +20,8 @@ Weet je niet welke modus je moet kiezen? Raadpleeg [Mesh versus Extender versus 
     - GL-BE9300 (Flint 3)
     - GL-BE3600 (Slate 7)
     - GL-MT6000 (Flint 2)
+    - ※GL-XE3000 (Puli AX)
+    - ※GL-X3000 (Spitz AX)
     - GL-MT3000 (Beryl AX)
 
     **Opmerking**: modellen met ※ ondersteunen Mesh in bètafirmware.
@@ -32,8 +34,6 @@ Weet je niet welke modus je moet kiezen? Raadpleeg [Mesh versus Extender versus 
     - GL-MT3600BE (Beryl 7)
     - GL-BE6500 (Flint 3e)
     - GL-X2000 (Spitz Plus)
-    - GL-X3000 (Spitz AX)
-    - GL-XE3000 (Puli AX)
     - GL-B3000 (Marble)
     - GL-AX1800 (Flint)
     - GL-AXT1800 (Slate AX)
@@ -166,20 +166,20 @@ Alle drie de modi vergroten Wi-Fi-dekking. Ze verschillen in verbinding met de h
 
 Deze tabel vergelijkt de zelfstandige modi Extender en Access Point met Mesh.
 
-| Functie | Extender Mode | Access Point Mode | Mesh Mode |
+| Functie | Extender-modus | Access Point-modus | Mesh-modus |
 |---|---|---|---|
-| **Wireless backhaul** | ✅ Ondersteund | ❌ Niet van toepassing | ✅ Ondersteund |
-| **Ethernet backhaul** | ❌ Niet gebruikt | ✅ Ondersteund | ✅ Ondersteund |
-| **Full-duplex backhaul** | ❌ Wi-Fi is half-duplex | ✅ Ethernet | ✅ Alleen Ethernet; draadloze backhaul blijft half-duplex |
-| **2.4/5 GHz wireless backhaul** | ⚠️ Banden hangen af van model en firmware | ❌ Niet van toepassing | ⚠️ Banden hangen af van model en firmware |
-| **6 GHz wireless backhaul** | ⚠️ Afhankelijk van model en firmware | ❌ Niet van toepassing | 🔜 Binnenkort beschikbaar |
-| **Wi-Fi roaming** | ✅ Door client beheerd | ✅ Door client beheerd | ✅ Door client beheerd met 802.11k/v |
+| **Draadloze backhaul** | ✅ Ondersteund | ❌ Niet van toepassing | ✅ Ondersteund |
+| **Ethernet-backhaul** | ❌ Niet gebruikt | ✅ Ondersteund | ✅ Ondersteund |
+| **Full-duplexbackhaul** | ❌ Wi-Fi is half-duplex | ✅ Ethernet | ✅ Alleen Ethernet; draadloze backhaul blijft half-duplex |
+| **Draadloze backhaul via 2.4/5 GHz** | ⚠️ Banden hangen af van model en firmware | ❌ Niet van toepassing | ⚠️ Banden hangen af van model en firmware |
+| **Draadloze backhaul via 6 GHz** | ⚠️ Afhankelijk van model en firmware | ❌ Niet van toepassing | 🔜 Binnenkort beschikbaar |
+| **Wi-Fi-roaming** | ✅ Door client beheerd | ✅ Door client beheerd | ✅ Door client beheerd met 802.11k/v |
 | **Automatische synchronisatie van Wi-Fi-instellingen** | ❌ Afzonderlijk configureren | ❌ Afzonderlijk configureren | ✅ Vanaf de hoofdrouter |
 | **Centraal nodebeheer** | ❌ Afzonderlijk configureren | ❌ Afzonderlijk configureren | ✅ Via de hoofdrouter |
 | **Netwerktopologie en clientoverzicht** | ❌ Geen Mesh-breed overzicht | ❌ Geen Mesh-breed overzicht | ✅ Op de hoofdrouter |
 | **Centraal beheerde uitbreiding** | ❌ Onafhankelijke extenders | ❌ Onafhankelijke access points | ✅ Eén hoofdrouter en maximaal acht nodes |
 | **Centraal beheerde draadloze hops** | ❌ Niet door Mesh beheerd | ❌ Niet van toepassing | ✅ Maximaal drie draadloze hops |
-| **Automatic wired/wireless backhaul switching** | ❌ No Mesh-managed switching | ❌ No Mesh-managed switching | ✅ Prioritizes Ethernet |
+| **Automatisch schakelen tussen bekabelde en draadloze backhaul** | ❌ Geen schakeling beheerd door Mesh | ❌ Geen schakeling beheerd door Mesh | ✅ Geeft Ethernet prioriteit |
 | **Meest geschikt voor** | Eenvoudige draadloze uitbreiding | Dekking uitbreiden waar Ethernet beschikbaar is | Gecoördineerde bekabelde, draadloze of gemengde dekking |
 
 ✅ Ondersteund · ❌ Niet ondersteund of niet van toepassing · ⚠️ Afhankelijk van hardware, firmware of configuratie · 🔜 Geplande functie
@@ -188,7 +188,7 @@ Mesh synchroniseert ondersteunde Main-, Guest-, IoT- en MLO Wi-Fi-instellingen e
 
 ### Prestatieverschillen begrijpen {#understanding-performance-differences}
 
-#### Extender Mode {#extender-mode}
+#### Extender-modus {#extender-mode}
 
 Het apparaat verbindt met een bestaand Wi-Fi-netwerk. De radio voor de upstream verbinding volgt het kanaal van de hoofdrouter. Clients op dezelfde radio delen dat kanaal en de airtime.
 

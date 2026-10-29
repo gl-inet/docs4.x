@@ -194,8 +194,6 @@ Vuelva a iniciar sesión en el panel de administración web del GL-MT6000, el se
 
 Vincule ambos routers a su cuenta de GoodCloud antes de viajar. Esto permite resolver problemas de forma remota si la conexión VPN falla por problemas de configuración o de red. El acceso remoto solo funciona mientras los routers permanecen encendidos y conectados a Internet.
 
-A veces su servidor puede quedar fuera de servicio por un corte eléctrico u otros motivos. Para mantener la accesibilidad del servidor, vincúlelo a GL.iNet GoodCloud.
-
 ---
 
 Artículos relacionados

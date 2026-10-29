@@ -6,7 +6,7 @@
 
 Gehen Sie auf der linken Seite des webbasierten Admin Panels zu **NETWORK** -> **Subnet**.
 
-Diese Seite fasst die Konfiguration von **LAN**, **Guest Network**, **IoT Network** und benutzerdefinierten **VLAN Networks** in einer gemeinsamen Ansicht zusammen. Sie bietet eine zentrale Verwaltungsoberfläche für alle subnetzbezogenen Einstellungen, sodass Sie mehrere Subnetze erstellen und verwalten können, um verschiedene Gerätetypen oder Datenverkehr voneinander zu trennen.
+Diese Seite ermöglicht die zentrale Konfiguration und Verwaltung von **Main Network**, **Guest Network**, **IoT Network** und benutzerdefinierten **VLAN Networks**. Sie können mehrere Subnetze erstellen und verwalten, um verschiedene Gerätetypen oder Datenverkehr voneinander zu trennen.
 
 ## Hauptnetzwerk {#main-network}
 

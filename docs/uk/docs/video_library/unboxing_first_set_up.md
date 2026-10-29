@@ -18,6 +18,10 @@
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xwHgLdWPwPc" title="Відео розпакування: GL-MG1300 (Mango 2)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+Перше налаштування
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-dct81JynMY" title="Відео розпакування: GL-MG1300 (Mango 2)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## GL-BE14000 (Flint 4) {#gl-be14000-flint-4}
 
 Відео розпакування

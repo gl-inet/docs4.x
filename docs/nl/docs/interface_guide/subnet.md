@@ -6,7 +6,7 @@
 
 Ga links in het webbeheerpaneel naar **NETWORK** -> **Subnet**.
 
-De pagina brengt de configuratie van **LAN**, **Guest Network**, **IoT Network** en aangepaste **VLAN Networks** samen. Je kunt meerdere subnets centraal maken en beheren om apparaten of verkeer te isoleren.
+Op deze pagina kun je **Main Network**, **Guest Network**, **IoT Network** en aangepaste **VLAN Networks** centraal configureren en beheren. Je kunt meerdere subnetten maken en beheren om verschillende soorten apparaten of verkeer te isoleren.
 
 ## Main Network {#main-network}
 

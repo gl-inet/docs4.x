@@ -129,7 +129,7 @@ Nedan finns en översikt över funktionerna i webbadministrationspanelen för Sp
 
 På sidan Wireless kan du konfigurera inställningarna för Wi-Fi-nätverk på både 5 GHz och 2.4 GHz. Du kan bland annat aktivera eller inaktivera Wi-Fi, ange sändningseffekt, Wi-Fi-namn (SSID) och Wi-Fi-lösenord, aktivera eller inaktivera slumpmässig BSSID, välja Wi-Fi-säkerhetsläge, konfigurera SSID-synlighet samt välja Wi-Fi-läge, bandbredd och kanal.
 
-Information om hur du konfigurerar Wireless finns i [Wireless](../../interface_guide/wireless.md).
+Mer information finns i [Wireless](../../interface_guide/wireless_v4.8.md).
 
 ## Clients {#clients}
 
@@ -237,13 +237,13 @@ Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindel
 
     Information om hur du konfigurerar LAN finns i [Lan Tutorial](../../interface_guide/lan.md).
 
----
-
 === "Guest Network"
 
     Du kan ange ett subnät inom de privata IPv4-adressintervallen 192.168.0.0/16, 172.16.0.0/12 eller 10.0.0.0/8, ange IP-adresserna för gateway och nätmask samt konfigurera säkerhetsinställningar som AP-isolering för gästnätverket.
 
     Information om hur du konfigurerar gästnätverket finns i [Guest Network](../../interface_guide/guest_network.md).
+
+---
 
 === "DNS"
 
@@ -257,7 +257,6 @@ Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindel
 
     Information om hur du hanterar Ethernet ports finns i [Port Management](../../interface_guide/ethernet_port.md).
 
----
 
 === "Network Mode"
 
@@ -271,11 +270,11 @@ Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindel
 
     Information om hur du konfigurerar IPV6 finns i [IPV6](../../interface_guide/ipv6.md).
 
+---
+
 === "Drop-in Gateway"
 
     Drop-in Gateway utökar huvudrouterns funktioner med funktioner som den kanske saknar, däribland AdGuard Home, krypterad DNS och VPN. Information om hur du konfigurerar Drop-in Gateway finns i [Konfigurera Drop-in Gateway](../../tutorials/how_to_set_up_drop_in_gateway.md).
-
----
 
 === "IGMP Snooping"
 
@@ -337,13 +336,13 @@ Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindel
 
     Detaljerade anvisningar finns i [Scheduled Tasks](../../interface_guide/scheduled_tasks.md){target="_blank"}.
 
----
-
 === "Time Zone"
 
     På sidan Time Zone kan du ange rätt tidszon för routern. Då tidsstämplas alla schemalagda uppgifter, loggar och systemhändelser korrekt enligt din lokala tid. Inställningen är viktig för korrekta register och för att tidsbaserade konfigurationer ska köras på rätt sätt.
 
     Detaljerade anvisningar finns i [Time Zone](../../interface_guide/time_zone.md){target="_blank"}.
+
+---
 
 === "Log"
 
@@ -371,8 +370,6 @@ Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindel
     Dessa inställningar hjälper dig att upprätthålla en säker nätverksmiljö som skyddar både routern och anslutna enheter.
 
     Detaljerade anvisningar finns i [Security](../../interface_guide/security.md).
-
----
 
 === "Reset Firmware"
 

@@ -32,17 +32,17 @@ Schakel UPnP in met de schakelaar. Compatibele apparaten en toepassingen kunnen 
 
 ![enable upnp](https://static.gl-inet.com/docs/router/en/4/interface_guide/upnp/upnp.png){class="glboxshadow"}
 
-- Client / Application: de beschrijving van de client of toepassing en het LAN-IP-adres van het aanvragende apparaat.
+- **Client / Application**: de beschrijving van de client of toepassing en het LAN-IP-adres van het aanvragende apparaat.
 
-- Protocol: het transportprotocol van de toewijzing, bijvoorbeeld TCP of UDP.
+- **Protocol**: het transportprotocol van de toewijzing, bijvoorbeeld `TCP` of `UDP`.
 
-- External Port: de WAN-poort voor inkomende verbindingen.
+- **External Port**: de WAN-poort voor inkomende verbindingen.
 
-- Internal Target: het doel-IP-adres en de poort in het LAN.
+- **Internal Target**: het doel-IP-adres en de poort in het LAN.
 
-- Lease: de resterende tijd voordat de toewijzing verloopt. De standaardleaseduur is 7 dagen.
+- **Lease**: de resterende tijd voordat de toewijzing verloopt. De standaardleaseduur is 7 dagen.
 
-- Action: klik op het prullenbakpictogram om de toewijzing te verwijderen. De client of toepassing kan deze opnieuw aanvragen als deze nog actief is.
+- **Action**: klik op het prullenbakpictogram om de toewijzing te verwijderen. De client of toepassing kan deze opnieuw aanvragen als deze nog actief is.
 
 Actieve poorttoewijzingen worden verwijderd wanneer de client ze vrijgeeft of de lease verloopt. Klik op **Refresh** om de nieuwste poorttoewijzingen te bekijken.
 

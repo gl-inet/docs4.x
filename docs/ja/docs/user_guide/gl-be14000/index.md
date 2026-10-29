@@ -154,7 +154,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
 === "Subnet"
 
-    Subnetページでは、LAN、Guest Network、IoT Network、カスタムVLAN Networkを一元管理できます。複数のサブネットを作成して管理し、さまざまな種類のデバイスやトラフィックを分離できます。
+    このページでは、**Main Network**、**Guest Network**、**IoT Network**、カスタムの**VLAN Networks**を一元的に設定・管理できます。複数のサブネットを作成・管理して、異なる種類のデバイスやトラフィックを分離できます。
 
     詳細は[Subnet](../../interface_guide/subnet.md)を参照してください。
 

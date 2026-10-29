@@ -32,17 +32,17 @@ Activez le commutateur pour activer UPnP. Les appareils et applications compatib
 
 ![enable upnp](https://static.gl-inet.com/docs/router/en/4/interface_guide/upnp/upnp.png){class="glboxshadow"}
 
-- Client / Application : description du client ou de l’application et adresse IP LAN de l’appareil demandeur.
+- **Client / Application** : description du client ou de l’application et adresse IP LAN de l’appareil demandeur.
 
-- Protocol : protocole de transport du mappage, par exemple TCP ou UDP.
+- **Protocol** : protocole de transport du mappage, par exemple `TCP` ou `UDP`.
 
-- External Port : port WAN pour les connexions entrantes.
+- **External Port** : port WAN pour les connexions entrantes.
 
-- Internal Target : adresse IP LAN et port cibles.
+- **Internal Target** : adresse IP LAN et port cibles.
 
-- Lease : temps restant avant l’expiration du mappage. La durée du bail par défaut est de 7 jours.
+- **Lease** : temps restant avant l’expiration du mappage. La durée du bail par défaut est de 7 jours.
 
-- Action : cliquez sur l’icône de corbeille pour supprimer le mappage. Le client ou l’application peut le demander à nouveau s’il est toujours en cours d’exécution.
+- **Action** : cliquez sur l’icône de corbeille pour supprimer le mappage. Le client ou l’application peut le demander à nouveau s’il est toujours en cours d’exécution.
 
 Les mappages de ports actifs sont supprimés lorsque le client les libère ou que leurs baux expirent. Cliquez sur **Refresh** pour afficher les derniers mappages de ports.
 

@@ -97,7 +97,35 @@ Configura Slate AX usando uno dei metodi di connessione Internet supportati: Eth
 
     Per istruzioni dettagliate, fai riferimento a [Collegarsi a Internet tramite rete cellulare](../../interface_guide/internet_cellular.md).
 
-## Come configurare una VPN {#how-to-set-up-a-vpn}
+---
+
+## Wireless {#wireless}
+
+La pagina Wireless consente di configurare le impostazioni delle reti Wi-Fi a 5 GHz e 2,4 GHz, inclusi attivazione del Wi-Fi, potenza TX, nome della rete Wi-Fi (SSID), BSSID casuale, modalità di sicurezza Wi-Fi e password, visibilità dell'SSID, modalità Wi-Fi, larghezza di banda e canale.
+
+Per configurarla, fai riferimento a [Wireless](../../interface_guide/wireless_v4.8.md).
+
+## Client {#clients}
+
+La pagina Clients mostra informazioni sui dispositivi collegati. Per ogni client visualizza nome, indirizzi IP e MAC, velocità di download e upload, traffico totale e offre la possibilità di bloccare il client o eseguire altre azioni.
+
+Per configurarla, fai riferimento a [Clients](../../interface_guide/clients.md).
+
+## Servizi cloud {#cloud-services}
+
+=== "GoodCloud"
+
+    Il servizio GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} offre un modo semplice e immediato per accedere da remoto e gestire i router GL.iNet.
+    
+    Per configurarlo, fai riferimento a [GoodCloud](../../interface_guide/cloud.md).
+
+=== "AstroWarp"
+
+    AstroWarp e una piattaforma di rete avanzata progettata per offrire networking remoto senza interruzioni e gestione remota dei dispositivi. Sviluppata specificamente per l'integrazione con i router GL.iNet, AstroWarp supporta una gestione completa dei dispositivi sull'intera rete, consentendo il controllo sia dei dispositivi a monte sia di quelli a valle. Con un focus sulla gestione dell'intera rete e sul futuro supporto al controllo a livello hardware, AstroWarp offre una soluzione più robusta e affidabile per la gestione dei dispositivi e il mantenimento di reti sicure e stabili.
+
+    Per configurarla, fai riferimento a [AstroWarp](../../interface_guide/astrowarp.md).
+
+## VPN {#vpn}
 
 Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il dispositivo e il server VPN. Offre un ulteriore livello di privacy e sicurezza come client VPN e consente di accedere a una rete remota come server VPN. Slate AX supporta OpenVPN, WireGuard e Tor.
 
@@ -120,34 +148,6 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il disp
     Tor, abbreviazione di The Onion Router, e una rete orientata alla privacy che consente comunicazioni anonime su Internet. Instrada il traffico Internet attraverso una serie di server gestiti da volontari (nodi) per nascondere posizione e utilizzo dell'utente, rendendo difficile tracciare le attività online.
     
     * [Come configurare Tor](../../interface_guide/tor.md).
-
-## Wireless e client {#wireless-and-clients}
-
-=== "Wireless"
-
-    La pagina Wireless consente di configurare le impostazioni delle reti Wi-Fi a 5 GHz e 2,4 GHz, inclusi attivazione del Wi-Fi, potenza TX, nome della rete Wi-Fi (SSID), BSSID casuale, modalità di sicurezza Wi-Fi e password, visibilità dell'SSID, modalità Wi-Fi, larghezza di banda e canale.
-
-    Per configurarla, fai riferimento a [Wireless](../../interface_guide/wireless.md).
-
-=== "Clients"
-
-    La pagina Clients mostra informazioni sui dispositivi collegati. Per ogni client visualizza nome, indirizzi IP e MAC, velocità di download e upload, traffico totale e offre la possibilità di bloccare il client o eseguire altre azioni.
-
-    Per configurarla, fai riferimento a [Clients](../../interface_guide/clients.md).
-
-## Servizi cloud {#cloud-services}
-
-=== "GoodCloud"
-
-    Il servizio GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} offre un modo semplice e immediato per accedere da remoto e gestire i router GL.iNet.
-    
-    Per configurarlo, fai riferimento a [GoodCloud](../../interface_guide/cloud.md).
-
-=== "AstroWarp"
-
-    AstroWarp e una piattaforma di rete avanzata progettata per offrire networking remoto senza interruzioni e gestione remota dei dispositivi. Sviluppata specificamente per l'integrazione con i router GL.iNet, AstroWarp supporta una gestione completa dei dispositivi sull'intera rete, consentendo il controllo sia dei dispositivi a monte sia di quelli a valle. Con un focus sulla gestione dell'intera rete e sul futuro supporto al controllo a livello hardware, AstroWarp offre una soluzione più robusta e affidabile per la gestione dei dispositivi e il mantenimento di reti sicure e stabili.
-
-    Per configurarla, fai riferimento a [AstroWarp](../../interface_guide/astrowarp.md).
 
 ## Applicazioni {#applications}
 
@@ -183,19 +183,19 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il disp
 
     Per configurarlo, fai riferimento a [Parental controls](../../interface_guide/parental_control.md).
 
-=== "ZeroTier"
-
-    ZeroTier e una soluzione di rete software-defined che consente agli utenti di creare reti virtuali sicure su Internet, collegando i dispositivi come se fossero sulla stessa rete locale.
-    
-    Per configurarlo, fai riferimento a [ZeroTier](../../interface_guide/zerotier.md).
-
 === "Tailscale"
 
     Tailscale e un servizio VPN che consente di accedere ai dispositivi e alle applicazioni ovunque.
     
     Per configurarlo, fai riferimento a [Tailscale](../../interface_guide/tailscale.md).
 
-## Impostazioni di rete {#network-settings}
+=== "ZeroTier"
+
+    ZeroTier e una soluzione di rete software-defined che consente agli utenti di creare reti virtuali sicure su Internet, collegando i dispositivi come se fossero sulla stessa rete locale.
+    
+    Per configurarlo, fai riferimento a [ZeroTier](../../interface_guide/zerotier.md).
+
+## Rete {#network}
 
 === "Port forwarding"
 
@@ -213,15 +213,15 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il disp
 
     LAN, o Local Area Network, e una rete che collega computer e dispositivi all'interno di un'area geografica limitata, ad esempio una casa o un ufficio. Consente trasferimento dati ad alta velocità e condivisione delle risorse, permettendo ai dispositivi di comunicare tra loro in modo efficiente.
     
-    Per configurarla, fai riferimento a [Lan](../../interface_guide/lan.md).
-
----
+    Per configurarla, fai riferimento a [LAN](../../interface_guide/lan.md).
 
 === "Guest Network"
 
     Consente di impostare una sottorete all'interno degli intervalli di indirizzi privati IPv4 192.168.0.0/16, 172.16.0.0/12 o 10.0.0.0/8, specificare gli indirizzi IP di gateway e netmask e configurare impostazioni di sicurezza come l'isolamento AP per la rete ospite.
 
     Per configurarla, fai riferimento a [Guest Network](../../interface_guide/guest_network.md).
+
+---
 
 === "DNS"
 
@@ -235,8 +235,6 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il disp
 
     Per gestire le porte Ethernet, fai riferimento a [Port Management](../../interface_guide/ethernet_port.md).
 
----
-
 === "Network Mode"
 
     Network mode indica le impostazioni di configurazione che determinano come un dispositivo si connette a una rete e comunica con altri dispositivi.
@@ -249,6 +247,8 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il disp
     
     Per configurarlo, fai riferimento a [IPV6](../../interface_guide/ipv6.md).
 
+---
+
 === "Drop-in gateway"
 
     Drop-in Gateway estende le funzionalità del router principale con caratteristiche che potrebbe non avere, tra cui AdGuard Home, DNS crittografato e VPN.
@@ -257,8 +257,6 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il disp
     
     - [Drop-in Gateway](../../interface_guide/drop-in_gateway.md)
     - [Come configurare Drop-in Gateway](../../tutorials/how_to_set_up_drop_in_gateway.md)
-
----
 
 === "IGMP Snooping"
 
@@ -272,7 +270,7 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il disp
 
     Per configurarla, fai riferimento a [NAT Settings](../../interface_guide/nat_settings.md).
 
-## Impostazioni di sistema {#system-settings}
+## Sistema {#system}
 
 === "Overview"
 

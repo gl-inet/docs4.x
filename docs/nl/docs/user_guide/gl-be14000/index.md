@@ -154,7 +154,7 @@ Een VPN (virtual private network) maakt een beveiligde, versleutelde verbinding 
 
 === "Subnet"
 
-    De pagina Subnet centraliseert het beheer van LAN, Guest Network, IoT Network en aangepaste VLAN Networks. Je kunt meerdere subnets maken en beheren om verschillende soorten apparaten of verkeer van elkaar te scheiden.
+    Op deze pagina kun je **Main Network**, **Guest Network**, **IoT Network** en aangepaste **VLAN Networks** centraal configureren en beheren. Je kunt meerdere subnetten maken en beheren om verschillende soorten apparaten of verkeer te isoleren.
 
     Raadpleeg [Subnet](../../interface_guide/subnet.md) voor meer informatie.
 

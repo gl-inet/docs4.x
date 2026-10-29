@@ -129,7 +129,7 @@ Vous trouverez ci-dessous un aperçu des fonctionnalités disponibles dans le pa
 
 La page Réseau sans fil vous permet de configurer les paramètres des réseaux Wi‑Fi 5 GHz et 2,4 GHz, notamment l'activation/la désactivation du Wi‑Fi, le réglage de la puissance TX, la définition du nom du réseau Wi‑Fi (SSID), l'activation/la désactivation du BSSID aléatoire, le choix du mode de sécurité Wi‑Fi, la définition du mot de passe Wi‑Fi, la configuration de la visibilité du SSID, ainsi que le choix du mode Wi‑Fi, de la bande passante et du canal.
 
-Pour configurer le réseau sans fil, consultez [Réseau sans fil](../../interface_guide/wireless.md).
+Pour plus d’informations, consultez [Wireless](../../interface_guide/wireless_v4.8.md).
 
 ## Clients {#clients}
 
@@ -137,7 +137,7 @@ La page Clients affiche des informations sur les appareils connectés. Pour chaq
 
 Pour configurer les clients, consultez [Clients](../../interface_guide/clients.md).
 
-## Services Cloud {#cloud-services}
+## Services cloud {#cloud-services}
 
 === "GoodCloud"
 
@@ -237,13 +237,13 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
     
     Pour configurer le LAN, consultez [Tutoriel LAN](../../interface_guide/lan.md).
 
----
-
 === "Réseau invité"
 
     Cette fonction vous permet de définir un sous-réseau dans les plages d'adresses privées IPv4 192.168.0.0/16, 172.16.0.0/12 ou 10.0.0.0/8, de spécifier les adresses IP de passerelle et de masque de sous-réseau, et de configurer des paramètres de sécurité comme l'isolation AP pour le réseau invité.
 
     Pour configurer le réseau invité, consultez [Réseau invité](../../interface_guide/guest_network.md).
+
+---
 
 === "DNS"
 
@@ -257,7 +257,6 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     Pour gérer les ports Ethernet, consultez [Gestion des ports](../../interface_guide/ethernet_port.md).
 
----
 
 === "Mode réseau"
 
@@ -271,11 +270,11 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
     
     Pour configurer IPv6, consultez [IPv6](../../interface_guide/ipv6.md).
 
+---
+
 === "Drop-in Gateway"
 
     Drop-in Gateway étend les fonctionnalités de votre routeur principal avec des fonctions qu'il peut ne pas posséder, notamment AdGuard Home, le DNS chiffré et le VPN. Pour configurer Drop-in Gateway, consultez [Comment configurer Drop-in Gateway](../../tutorials/how_to_set_up_drop_in_gateway.md).
-
----
 
 === "IGMP Snooping"
 
@@ -337,13 +336,13 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     Veuillez consulter [Tâches planifiées](../../interface_guide/scheduled_tasks.md){target="_blank"} pour des instructions détaillées.
 
----
-
 === "Fuseau horaire"
 
     La page Fuseau horaire vous permet de définir le fuseau horaire correct pour votre routeur, afin que toutes les tâches planifiées, les journaux et les événements système soient horodatés avec précision selon votre heure locale. Ce réglage est essentiel pour conserver des enregistrements exacts et exécuter correctement les configurations basées sur le temps.
 
     Veuillez consulter [Fuseau horaire](../../interface_guide/time_zone.md){target="_blank"} pour des instructions détaillées.
+
+---
 
 === "Journal"
 
@@ -371,8 +370,6 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
     Ces paramètres vous aident à maintenir un environnement réseau sécurisé, en protégeant à la fois votre routeur et les appareils connectés.
 
     Veuillez consulter [Sécurité](../../interface_guide/security.md) pour des instructions détaillées.
-
----
 
 === "Réinitialiser le firmware"
 

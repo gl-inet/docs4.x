@@ -159,7 +159,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
 === "Subnet"
 
-    Subnetでは、LAN、Guest Network、IoT Network、カスタムVLANネットワークを一元管理できます。複数のサブネットを作成および管理し、異なる種類のデバイスやトラフィックを分離できます。
+    このページでは、**Main Network**、**Guest Network**、**IoT Network**、カスタムの**VLAN Networks**を一元的に設定・管理できます。複数のサブネットを作成・管理して、異なる種類のデバイスやトラフィックを分離できます。
 
     設定方法については、[Subnet](../../interface_guide/subnet.md)を参照してください。
 
@@ -169,13 +169,13 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
     Ethernet Portの設定については、[Ethernet Port](../../interface_guide/ethernet_port_v4.10.md)を参照してください。
 
----
-
 === "DNS"
 
     DNSページでは、カスタムDNSサーバーの設定、DNSリバインディング攻撃対策の有効化、すべてのクライアントのDNS設定の上書き、およびカスタムDNSによるVPN DNSの上書きの許可を設定できます。上流デバイスから自動的に取得したDNSサーバーを使用するか、カスタムDNSサーバーを手動で指定できます。
 
     DNSの設定については、[DNS](../../interface_guide/dns.md)を参照してください。
+
+---
 
 === "IPv6"
 
@@ -186,10 +186,8 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 === "IGMP Snooping"
 
     IGMPスヌーピングは、イーサネットスイッチでマルチキャストトラフィックを管理および制御するために使用されるネットワーク最適化技術です。
-
+    
     IGMPスヌーピングの設定については、[IGMP Snooping](../../interface_guide/igmp_snooping.md)を参照してください。
-
----
 
 === "Network Mode"
 
@@ -205,11 +203,9 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
 ## フロー制御 {#flow-control}
 
-=== "Parental Control"
+Parental Controlは、子どものデバイスを管理および制御するために設計されています。スクリーン時間の制限や特定コンテンツへのアクセス制限が含まれます。
 
-    Parental Controlは、子どものデバイスを管理および制御するために設計されています。スクリーン時間の制限や特定コンテンツへのアクセス制限が含まれます。
-
-    ペアレンタルコントロールの設定については、[Parental Control](../../interface_guide/parental_control_v4.9.md)を参照してください。
+ペアレンタルコントロールの設定については、[Parental Control](../../interface_guide/parental_control_v4.9.md)を参照してください。
 
 ## セキュリティ {#security}
 

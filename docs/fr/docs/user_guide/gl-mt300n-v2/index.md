@@ -84,7 +84,21 @@ Configurez votre Mango en utilisant l'une des méthodes de connexion Internet pr
 
     Veuillez consulter [Connexion à Internet via un modem USB](../../interface_guide/internet_cellular.md) pour des instructions détaillées.
 
-## Comment configurer un VPN {#how-to-set-up-a-vpn}
+---
+
+## Sans fil {#wireless}
+
+La page Wireless permet de configurer les paramètres des réseaux Wi-Fi 2.4 GHz, notamment l’activation du Wi-Fi, la puissance d’émission, le nom Wi-Fi (SSID), le mode de sécurité et le mot de passe Wi-Fi, la visibilité du SSID, le mode Wi-Fi, la bande passante et le canal.
+
+Pour plus d’informations, consultez [Wireless](../../interface_guide/wireless_v4.8.md).
+
+## Clients {#clients}
+
+La page Clients affiche les informations sur les appareils connectés. Pour chaque client, elle indique le nom, les adresses IP et MAC, les vitesses de téléchargement et d'envoi, le trafic total, et permet de bloquer le client ou d'effectuer d'autres actions.
+
+Pour configurer les clients, consultez [Clients](../../interface_guide/clients.md).
+
+## VPN {#vpn}
 
 Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre votre appareil et le serveur VPN. Il ajoute une couche supplémentaire de confidentialité et de sécurité (client VPN) et vous permet d'accéder à un réseau distant (serveur VPN). Mango (comme les autres routeurs GL.iNet) prend en charge OpenVPN et WireGuard.
 
@@ -122,7 +136,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
     
     Pour configurer GoodCloud, consultez [GoodCloud](../../interface_guide/cloud.md).
 
-## Paramètres réseau {#network-settings}
+## Réseau {#network}
 
 === "Pare-feu"
 
@@ -217,7 +231,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     Pour configurer l'IGMP Snooping, consultez [IGMP Snooping](../../interface_guide/igmp_snooping.md).
 
-## Paramètres système {#system-settings}
+## Système {#system}
 
 === "Aperçu"
 

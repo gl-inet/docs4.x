@@ -4,7 +4,7 @@ De inhoud van deze pagina is gebaseerd op firmwareversie v4.7-4.9. Als je appara
 
 <div class="gl-link-select" data-label="Firmwareversie" data-placeholder="Firmware v4.9 en ouder" markdown="1">
 
-- [Firmware v4.10](ethernet_port_v4.10.md)
+- [Firmware v4.10 en hoger](ethernet_port_v4.10.md)
 
 </div>
 

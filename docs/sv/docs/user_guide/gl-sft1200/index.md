@@ -97,43 +97,17 @@ Konfigurera Opal med någon av de internetanslutningsmetoder som stöds: Etherne
 
     Detaljerade anvisningar finns i [Connect to the Internet via cellular](../../interface_guide/internet_cellular.md).
 
-## Konfigurera ett VPN {#how-to-set-up-a-vpn}
+## Wireless {#wireless}
 
-Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindelse mellan din enhet och VPN-servern. Det ger ett extra lager av integritet och säkerhet (VPN-klient) och låter dig få åtkomst till ett fjärrnätverk (VPN-server). Opal stöder OpenVPN, WireGuard och Tor*.
+På sidan Wireless kan du konfigurera inställningarna för Wi-Fi-nätverk på 5 GHz och 2.4 GHz. Du kan bland annat aktivera Wi-Fi, ange sändningseffekt och Wi-Fi-namn (SSID), aktivera slumpmässig BSSID, välja Wi-Fi-säkerhetsläge och lösenord, konfigurera SSID-synlighet samt välja Wi-Fi-läge, bandbredd och kanal.
 
-=== "OpenVPN"
+Mer information finns i [Wireless](../../interface_guide/wireless_v4.8.md).
 
-    Opal och andra GL.iNet-routrar stöder OpenVPN-protokollet, som erbjuder hög säkerhet. Följ guiderna nedan för att konfigurera OpenVPN:
+## Clients {#clients}
 
-    * [Konfigurera en OpenVPN-klient](../../interface_guide/openvpn_client.md)
-    * [Konfigurera en OpenVPN-server](../../interface_guide/openvpn_server.md)
+På sidan Clients visas information om anslutna enheter. För varje klient visas namn, IP- och MAC-adresser, nedladdnings- och uppladdningshastighet samt total trafik. Du kan även blockera klienten eller utföra andra åtgärder.
 
-=== "WireGuard"
-
-    Opal och andra GL.iNet-routrar stöder WireGuard-protokollet, som erbjuder hög hastighet och enkel användning. Följ guiderna nedan för att konfigurera WireGuard:
-
-    * [Konfigurera en WireGuard-klient](../../interface_guide/wireguard_client.md)
-    * [Konfigurera en WireGuard-server](../../interface_guide/wireguard_server.md)
-
-=== "Tor"
-
-    Tor, en förkortning av The Onion Router, är ett integritetsfokuserat nätverk som möjliggör anonym kommunikation över internet. Internettrafiken dirigeras genom flera servrar (noder) som drivs av frivilliga för att dölja användarens plats och aktivitet. Det gör det svårt att spåra aktiviteter online.
-
-    **Obs!** Opal har inte inbyggt stöd för Tor, men du kan installera Tor manuellt via ett insticksprogram. Klicka [här](../../interface_guide/tor.md#manual-install) för mer information.
-
-## Trådlöst nätverk och klienter {#wireless-and-clients}
-
-=== "Wireless"
-
-    På sidan Wireless kan du konfigurera inställningarna för Wi-Fi-nätverk på 5 GHz och 2.4 GHz. Du kan bland annat aktivera Wi-Fi, ange sändningseffekt och Wi-Fi-namn (SSID), aktivera slumpmässig BSSID, välja Wi-Fi-säkerhetsläge och lösenord, konfigurera SSID-synlighet samt välja Wi-Fi-läge, bandbredd och kanal.
-
-    Information om hur du konfigurerar Wireless finns i [Wireless](../../interface_guide/wireless.md).
-
-=== "Clients"
-
-    På sidan Clients visas information om anslutna enheter. För varje klient visas namn, IP- och MAC-adresser, nedladdnings- och uppladdningshastighet samt total trafik. Du kan även blockera klienten eller utföra andra åtgärder.
-
-    Information om hur du konfigurerar Clients finns i [Clients](../../interface_guide/clients.md).
+Information om hur du konfigurerar Clients finns i [Clients](../../interface_guide/clients.md).
 
 ## Molntjänster {#cloud-services}
 
@@ -150,6 +124,115 @@ Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindel
     Information om hur du konfigurerar AstroWarp finns i [AstroWarp](../../interface_guide/astrowarp.md).
 
     **Obs!** Uppgradera routerns firmware till version 4.8 eller senare innan du använder funktionen.
+
+## VPN {#vpn}
+
+Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindelse mellan din enhet och VPN-servern. Det ger ett extra lager av integritet och säkerhet (VPN-klient) och låter dig få åtkomst till ett fjärrnätverk (VPN-server). Opal stöder OpenVPN och WireGuard.
+
+=== "OpenVPN"
+
+    Opal och andra GL.iNet-routrar stöder OpenVPN-protokollet, som erbjuder hög säkerhet. Följ guiderna nedan för att konfigurera OpenVPN:
+
+    * [Konfigurera en OpenVPN-klient](../../interface_guide/openvpn_client.md)
+    * [Konfigurera en OpenVPN-server](../../interface_guide/openvpn_server.md)
+
+=== "WireGuard"
+
+    Opal och andra GL.iNet-routrar stöder WireGuard-protokollet, som erbjuder hög hastighet och enkel användning. Följ guiderna nedan för att konfigurera WireGuard:
+
+    * [Konfigurera en WireGuard-klient](../../interface_guide/wireguard_client.md)
+    * [Konfigurera en WireGuard-server](../../interface_guide/wireguard_server.md)
+
+## Network {#network}
+
+=== "Multi-WAN"
+
+    Multi-WAN är en nätverksfunktion som gör att du kan konfigurera routern med flera internetanslutningar (t.ex. mobilnät, repeater och Ethernet) samtidigt. Om den aktuella internetanslutningen slutar fungera växlar routern automatiskt till en annan internetanslutning. Det ger en smidig och oavbruten internetåtkomst.
+
+    Information om hur du konfigurerar Multi-WAN finns i [Multi-WAN](../../interface_guide/multi-wan.md).
+
+=== "LAN"
+
+    LAN, eller Local Area Network, är ett nätverk som ansluter datorer och enheter inom ett begränsat geografiskt område, till exempel ett hem eller ett kontor. Det möjliggör snabb dataöverföring och resursdelning, så att enheterna kan kommunicera effektivt med varandra.
+
+    Information om hur du konfigurerar LAN finns i [Lan](../../interface_guide/lan.md).
+
+=== "Guest Network"
+
+    Du kan ange ett subnät inom de privata IPv4-adressintervallen 192.168.0.0/16, 172.16.0.0/12 eller 10.0.0.0/8, ange IP-adresserna för gateway och nätmask samt konfigurera säkerhetsinställningar som AP-isolering för gästnätverket.
+
+    Information om hur du konfigurerar gästnätverket finns i [Guest Network](../../interface_guide/guest_network.md).
+
+=== "DNS"
+
+    På sidan DNS kan du ange anpassade DNS-servrar, aktivera skydd mot DNS-rebinding-attacker, åsidosätta DNS-inställningarna för alla klienter och tillåta att anpassad DNS åsidosätter VPN-DNS. Du kan använda DNS-servrar som hämtas automatiskt från uppströmsenheter eller ange anpassade DNS-servrar manuellt.
+
+    Information om hur du konfigurerar DNS finns i [DNS](../../interface_guide/dns.md).
+
+---
+
+=== "Ethernet Port"
+
+    På sidan Ethernet Port kan du konfigurera WAN- och LAN-portarna, ange Ethernet för WAN/LAN-gränssnittet, ange MAC-läge och MAC-adress för WAN-gränssnittet samt visa nätverksportens förhandlade hastighet.
+
+    Information om hur du konfigurerar Ethernet Port finns i [Lan](../../interface_guide/ethernet_port.md).
+
+=== "IPv6"
+
+    IPv6, eller Internet Protocol version 6, är den senaste versionen av internetprotokollet och är avsett att ersätta IPv4. Det erbjuder ett mycket större adressutrymme med ett praktiskt taget obegränsat antal unika IP-adresser, vilket är viktigt för att hantera det växande antalet enheter som är anslutna till internet.
+
+    Information om hur du konfigurerar IPV6 finns i [IPV6](../../interface_guide/ipv6.md).
+
+=== "IGMP Snooping"
+
+    IGMP snooping är en teknik för nätverksoptimering som används i Ethernet-switchar för att hantera och styra multicast-trafik.
+
+    Information om hur du konfigurerar IGMP snooping finns i [IGMP Snooping](../../interface_guide/igmp_snooping.md).
+
+---
+
+=== "Network Mode"
+
+    Nätverksläge avser de konfigurationsinställningar som avgör hur en enhet ansluter till ett nätverk och kommunicerar med andra enheter.
+
+    Information om hur du konfigurerar nätverksläget finns i [Network Mode](../../interface_guide/network_mode.md).
+
+
+=== "Drop-in Gateway"
+
+    Drop-in Gateway utökar huvudrouterns funktioner med funktioner som den kanske saknar, däribland AdGuard Home, krypterad DNS och VPN.
+
+    Information om hur du konfigurerar Drop-in Gateway finns i [Konfigurera Drop-in Gateway](../../tutorials/how_to_set_up_drop_in_gateway.md).
+
+=== "Network Acceleration"
+
+    Nätverksacceleration kan minska processorbelastningen och påskynda vidarebefordran av trafikpaket.
+
+    Information om hur du konfigurerar nätverksacceleration finns i [Network Acceleration](../../interface_guide/network_acceleration.md).
+
+## Security {#security}
+
+=== "Port Forwarding"
+
+    Portvidarebefordran gör det möjligt för fjärrservrar och enheter på internet att få åtkomst till enheter i ett privat nätverk.
+
+    Information om hur du konfigurerar port forwarding finns i [Port Forwarding](../../interface_guide/port_forwarding.md).
+
+=== "Management Control"
+
+    Med Management Control kan du konfigurera olika säkerhetsinställningar för att skydda nätverket och routern mot obehörig åtkomst. Sidan innehåller följande alternativ:
+
+    * Local Access Control: Hantera och begränsa åtkomsten till routerns gränssnitt från enheter som är anslutna till det lokala nätverket.
+    * Remote Access Control: Konfigurera och begränsa åtkomsten till routerns gränssnitt från fjärrplatser via internet för att förbättra skyddet mot externa hot.
+    * Open Ports on Router: Styr vilka portar som är öppna på routern för att begränsa möjliga sårbarheter och obehörig åtkomst.
+
+    Dessa inställningar hjälper dig att upprätthålla en säker nätverksmiljö som skyddar både routern och anslutna enheter.
+
+=== "NAT Mode"
+
+    På sidan NAT Mode kan du aktivera eller inaktivera funktionerna Full Cone NAT och SIP ALG.
+
+    Information om hur du konfigurerar NAT settings finns i [NAT Mode](../../interface_guide/nat_settings.md).
 
 ## Program {#applications}
 
@@ -173,89 +256,7 @@ Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindel
 
     **Obs!** Uppgradera routerns firmware till version 4.8 eller senare innan du använder funktionen.
 
-## Nätverksinställningar {#network-settings}
-
-=== "Port Forwarding"
-
-    Portvidarebefordran gör det möjligt för fjärrservrar och enheter på internet att få åtkomst till enheter i ett privat nätverk.
-
-    Information om hur du konfigurerar port forwarding finns i [Port Forwarding](../../interface_guide/port_forwarding.md).
-
-=== "Multi-WAN"
-
-    Multi-WAN är en nätverksfunktion som gör att du kan konfigurera routern med flera internetanslutningar (t.ex. mobilnät, repeater och Ethernet) samtidigt. Om den aktuella internetanslutningen slutar fungera växlar routern automatiskt till en annan internetanslutning. Det ger en smidig och oavbruten internetåtkomst.
-
-    Information om hur du konfigurerar Multi-WAN finns i [Multi-WAN](../../interface_guide/multi-wan.md).
-
-=== "LAN"
-
-    LAN, eller Local Area Network, är ett nätverk som ansluter datorer och enheter inom ett begränsat geografiskt område, till exempel ett hem eller ett kontor. Det möjliggör snabb dataöverföring och resursdelning, så att enheterna kan kommunicera effektivt med varandra.
-
-    Information om hur du konfigurerar LAN finns i [Lan](../../interface_guide/lan.md).
-
----
-
-=== "Guest Network"
-
-    Du kan ange ett subnät inom de privata IPv4-adressintervallen 192.168.0.0/16, 172.16.0.0/12 eller 10.0.0.0/8, ange IP-adresserna för gateway och nätmask samt konfigurera säkerhetsinställningar som AP-isolering för gästnätverket.
-
-    Information om hur du konfigurerar gästnätverket finns i [Guest Network](../../interface_guide/guest_network.md).
-
-=== "DNS"
-
-    På sidan DNS kan du ange anpassade DNS-servrar, aktivera skydd mot DNS-rebinding-attacker, åsidosätta DNS-inställningarna för alla klienter och tillåta att anpassad DNS åsidosätter VPN-DNS. Du kan använda DNS-servrar som hämtas automatiskt från uppströmsenheter eller ange anpassade DNS-servrar manuellt.
-
-    Information om hur du konfigurerar DNS finns i [DNS](../../interface_guide/dns.md).
-
-=== "Port Management"
-
-    Sidan Port Management är tillgänglig i firmware v4.7 och senare.
-
-    På sidan kan du konfigurera WAN- och LAN-portarna, ange Ethernet för WAN/LAN-gränssnittet, ange MAC-läge och MAC-adress för WAN-gränssnittet samt visa nätverksportens förhandlade hastighet.
-
-    Information om hur du hanterar Ethernet ports finns i [Port Management](../../interface_guide/ethernet_port.md).
-
----
-
-=== "Network Mode"
-
-    Nätverksläge avser de konfigurationsinställningar som avgör hur en enhet ansluter till ett nätverk och kommunicerar med andra enheter.
-
-    Information om hur du konfigurerar nätverksläget finns i [Network Mode](../../interface_guide/network_mode.md).
-
-=== "IPv6"
-
-    IPv6, eller Internet Protocol version 6, är den senaste versionen av internetprotokollet och är avsett att ersätta IPv4. Det erbjuder ett mycket större adressutrymme med ett praktiskt taget obegränsat antal unika IP-adresser, vilket är viktigt för att hantera det växande antalet enheter som är anslutna till internet.
-
-    Information om hur du konfigurerar IPV6 finns i [IPV6](../../interface_guide/ipv6.md).
-
-=== "Drop-in Gateway"
-
-    En drop-in-gateway utökar huvudrouterns funktioner med bland annat AdGuard Home, krypterad DNS och VPN-klient.
-
-    Information om hur du konfigurerar Drop-in Gateway finns i [Konfigurera Drop-in Gateway](../../tutorials/how_to_set_up_drop_in_gateway.md).
-
----
-
-=== "IGMP Snooping"
-
-    IGMP snooping är en teknik för nätverksoptimering som används i Ethernet-switchar för att hantera och styra multicast-trafik.
-
-    Information om hur du konfigurerar IGMP snooping finns i [IGMP Snooping](../../interface_guide/igmp_snooping.md).
-
-=== "Network Acceleration"
-
-    Nätverksacceleration kan minska processorbelastningen och påskynda vidarebefordran av trafikpaket.
-
-    Information om hur du konfigurerar nätverksacceleration finns i [Network Acceleration](../../interface_guide/network_acceleration.md).
-
-=== "NAT Settings"
-
-    På sidan NAT Settings kan du aktivera eller inaktivera funktionerna Full Cone NAT och SIP ALG (Application Layer Gateway).
-
-    Information om hur du konfigurerar NAT-inställningar finns i [NAT Settings](../../interface_guide/nat_settings.md).
-
-## Systeminställningar {#system-settings}
+## System {#system}
 
 === "Overview"
 
@@ -272,6 +273,16 @@ Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindel
 
     Detaljerade anvisningar finns i [Overview](../../interface_guide/system_overview.md).
 
+=== "Admin Password"
+
+    På sidan Admin Password kan du ange eller ändra lösenordet för routerns administratörsgränssnitt.
+
+    Administratörslösenordet måste uppfylla följande krav:
+
+    * Minst 10 och högst 63 tecken.
+    * Bokstäver (skiftlägeskänsliga), siffror och symbolerna `` ! @ # $ % ^ & * ( ) _ + - = , . > < | ? / \ [ ] { } : ; " ' ` ~ `` tillåts.
+    * Minst två av följande teckentyper krävs: versaler, gemener, siffror och symboler.
+
 === "Upgrade"
 
     På sidan Upgrade kan du uppdatera routerns firmware till den senaste versionen för att få bättre prestanda, högre säkerhet och nya funktioner. Sidan erbjuder två uppgraderingsalternativ:
@@ -282,6 +293,8 @@ Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindel
     Med dessa alternativ kan du hålla routern uppdaterad med de senaste förbättringarna och korrigeringarna.
 
     Detaljerade anvisningar finns i [Upgrade](../../interface_guide/upgrade.md).
+
+---
 
 === "Scheduled Tasks"
 
@@ -295,8 +308,6 @@ Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindel
 
     Detaljerade anvisningar finns i [Scheduled Tasks](../../interface_guide/scheduled_tasks.md).
 
----
-
 === "Time Zone"
 
     På sidan Time Zone kan du ange rätt tidszon för routern. Då tidsstämplas alla schemalagda uppgifter, loggar och systemhändelser korrekt enligt din lokala tid. Inställningen är viktig för korrekta register och för att tidsbaserade konfigurationer ska köras på rätt sätt.
@@ -308,6 +319,14 @@ Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindel
     På sidan Toggle Button Settings kan du konfigurera routerns fysiska växlingsknapp och tilldela den särskilda funktioner för snabb åtkomst och styrning. Funktionen ger praktiska genvägar till vanliga uppgifter och inställningar och förenklar routerhanteringen.
 
     Detaljerade anvisningar finns i [Toggle Button Settings](../../interface_guide/toggle_button_settings.md).
+
+---
+
+=== "Reset Firmware"
+
+    På sidan Reset Firmware kan du återställa routerns aktuella firmwareversion till standardinställningarna. Alla anpassade konfigurationer raderas. Processen återställer routern till standardinställningarna för den installerade firmwareversionen. Det kan vara användbart vid felsökning av återkommande problem eller om du vill börja om med standardkonfigurationen för aktuell firmware.
+
+    Detaljerade anvisningar finns i [Reset Firmware](../../interface_guide/reset_firmware.md).
 
 === "Log"
 
@@ -322,27 +341,6 @@ Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindel
     Sidan har dessutom knappen Export Log, som låter dig exportera alla insamlade loggar för analys av den tekniska supporten. Funktionen är mycket användbar för diagnostisering av komplicerade problem och för att få professionell hjälp.
 
     Detaljerade anvisningar finns i [Log](../../interface_guide/log.md).
-
----
-
-=== "Security"
-
-    På sidan Security kan du konfigurera olika säkerhetsinställningar för att skydda nätverket och routern mot obehörig åtkomst. Sidan innehåller alternativ för:
-
-    * Admin Password: Ange eller ändra lösenordet för routerns administratörsgränssnitt så att endast behöriga användare kan ändra inställningarna.
-    * Local Access Control: Hantera och begränsa åtkomsten till routerns gränssnitt från enheter som är anslutna till det lokala nätverket.
-    * Remote Access Control: Konfigurera och begränsa åtkomsten till routerns gränssnitt från fjärrplatser via internet för att förbättra skyddet mot externa hot.
-    * Open Ports on Router: Styr vilka portar som är öppna på routern för att begränsa möjliga sårbarheter och obehörig åtkomst.
-
-    Dessa inställningar hjälper dig att upprätthålla en säker nätverksmiljö som skyddar både routern och anslutna enheter.
-
-    Detaljerade anvisningar finns i [Security](../../interface_guide/security.md).
-
-=== "Reset Firmware"
-
-    På sidan Reset Firmware kan du återställa routerns aktuella firmwareversion till standardinställningarna. Alla anpassade konfigurationer raderas. Processen återställer routern till standardinställningarna för den installerade firmwareversionen. Det kan vara användbart vid felsökning av återkommande problem eller om du vill börja om med standardkonfigurationen för aktuell firmware.
-
-    Detaljerade anvisningar finns i [Reset Firmware](../../interface_guide/reset_firmware.md).
 
 === "Advanced Settings"
 

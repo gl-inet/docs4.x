@@ -74,7 +74,29 @@ Anslut enheten (t.ex. en stationär eller bärbar dator) till routerns LAN-port 
 
 **Obs!** Om du vill använda funktionen [Multi-WAN](../../interface_guide/multi-wan.md) konfigurerar du fler än en internetanslutningsmetod.
 
-## Konfigurera ett VPN {#how-to-set-up-a-vpn}
+---
+
+## Clients {#clients}
+
+På sidan Clients visas information om anslutna enheter. För varje klient visas enhetsnamn, IP- och MAC-adresser, nedladdnings- och uppladdningshastighet samt total trafik. Du kan även reservera en IP-adress, blockera klienten eller utföra andra åtgärder.
+
+Information om hur du konfigurerar Clients finns i [Clients](../../interface_guide/clients.md).
+
+## Molntjänster {#cloud-services}
+
+=== "GoodCloud"
+
+    GL.iNets tjänst [GoodCloud](https://www.goodcloud.xyz){target="_blank"} är ett enkelt sätt att fjärransluta till och hantera GL.iNet-routrar.
+
+    Information om hur du konfigurerar GoodCloud finns i [GoodCloud](../../interface_guide/cloud.md).
+
+=== "AstroWarp"
+
+    AstroWarp är en avancerad nätverksplattform för smidiga fjärrnätverk och fjärrhantering av enheter. AstroWarp är särskilt utvecklat för integrering med GL.iNet-routrar och stöder heltäckande enhetshantering i hela nätverk, med styrning av både överordnade och underordnade enheter. Genom att fokusera på nätverksomfattande hantering och framtida stöd för styrning på maskinvarunivå erbjuder AstroWarp en robust och tillförlitlig lösning för enhetshantering och säkra, stabila nätverk.
+
+    Information om hur du konfigurerar AstroWarp finns i [AstroWarp](../../interface_guide/astrowarp.md).
+
+## VPN {#vpn}
 
 Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindelse mellan din enhet och VPN-servern. Det ger ett extra lager av integritet och säkerhet (VPN-klient) och låter dig få åtkomst till ett fjärrnätverk (VPN-server). Brume 2 och andra GL.iNet-routrar stöder OpenVPN och WireGuard. Brume 2 stöder även Tor.
 
@@ -98,26 +120,6 @@ Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindel
 
     * [Konfigurera Tor](../../interface_guide/tor.md).
 
-## Clients {#clients}
-
-På sidan Clients visas information om anslutna enheter. För varje klient visas enhetsnamn, IP- och MAC-adresser, nedladdnings- och uppladdningshastighet samt total trafik. Du kan även reservera en IP-adress, blockera klienten eller utföra andra åtgärder.
-
-Information om hur du konfigurerar Clients finns i [Clients](../../interface_guide/clients.md).
-
-## Molntjänster {#cloud-services}
-
-=== "GoodCloud"
-
-    GL.iNets tjänst [GoodCloud](https://www.goodcloud.xyz){target="_blank"} är ett enkelt sätt att fjärransluta till och hantera GL.iNet-routrar.
-
-    Information om hur du konfigurerar GoodCloud finns i [GoodCloud](../../interface_guide/cloud.md).
-
-=== "AstroWarp"
-
-    AstroWarp är en avancerad nätverksplattform för smidiga fjärrnätverk och fjärrhantering av enheter. AstroWarp är särskilt utvecklat för integrering med GL.iNet-routrar och stöder heltäckande enhetshantering i hela nätverk, med styrning av både överordnade och underordnade enheter. Genom att fokusera på nätverksomfattande hantering och framtida stöd för styrning på maskinvarunivå erbjuder AstroWarp en robust och tillförlitlig lösning för enhetshantering och säkra, stabila nätverk.
-
-    Information om hur du konfigurerar AstroWarp finns i [AstroWarp](../../interface_guide/astrowarp.md).
-
 ## Program {#applications}
 
 === "Plug-ins"
@@ -138,13 +140,13 @@ Information om hur du konfigurerar Clients finns i [Clients](../../interface_gui
 
     Information om hur du konfigurerar nätverkslagring finns i [Network Storage](../../interface_guide/network_storage.md).
 
----
-
 === "AdGuard Home"
 
     AdGuard Home är en lösning som blockerar annonser och spårare i hela nätverket. Den fungerar som en DNS-server som filtrerar oönskat innehåll på alla enheter som är anslutna till hemnätverket.
 
     Information om hur du konfigurerar AdGuard Home finns i [AdGuard Home](../../interface_guide/adguardhome.md).
+
+---
 
 === "Parental Control"
 
@@ -158,15 +160,13 @@ Information om hur du konfigurerar Clients finns i [Clients](../../interface_gui
 
     Information om hur du konfigurerar ZeroTier finns i [ZeroTier](../../interface_guide/zerotier.md).
 
----
-
 === "Tailscale"
 
     Tailscale är en VPN-tjänst som ger dig åtkomst till dina enheter och program oavsett var du befinner dig.
 
     Information om hur du konfigurerar Tailscale finns i [Tailscale](../../interface_guide/tailscale.md).
 
-## Nätverksinställningar {#network-settings}
+## Network {#network}
 
 === "Port forwarding"
 
@@ -184,20 +184,17 @@ Information om hur du konfigurerar Clients finns i [Clients](../../interface_gui
 
     Information om hur du konfigurerar LAN finns i [Lan Tutorial](../../interface_guide/lan.md).
 
----
-
-
 === "DNS"
 
     På sidan DNS kan du ange anpassade DNS-servrar, aktivera skydd mot DNS-rebinding-attacker och åsidosätta DNS-inställningarna för alla klienter. Du kan även tillåta att anpassad DNS åsidosätter VPN DNS samt ställa in DNS-serverläget på automatiskt eller manuellt ange DNS-servrar från Ethernet-anslutningen.
 
     Information om hur du konfigurerar DNS finns i [DNS](../../interface_guide/dns.md).
 
-=== "Network Port Management"
-
-    På sidan Network Port Management kan du konfigurera WAN- och LAN-portarna, ange Ethernet för WAN/LAN-gränssnittet, ange MAC-läge och MAC-adress för WAN-gränssnittet samt visa nätverksportens förhandlade hastighet.
-
 ---
+
+=== "Port Management"
+
+    På sidan Port Management kan du konfigurera WAN- och LAN-portarna, ange Ethernet för WAN/LAN-gränssnittet, ange MAC-läge och MAC-adress för WAN-gränssnittet samt visa nätverksportens förhandlade hastighet.
 
 === "Network Mode"
 
@@ -237,7 +234,7 @@ Information om hur du konfigurerar Clients finns i [Clients](../../interface_gui
 
     Information om hur du konfigurerar NAT-inställningar finns i [NAT Settings](../../interface_guide/nat_settings.md).
 
-## Systeminställningar {#system-settings}
+## System {#system}
 
 === "Overview"
 
@@ -276,13 +273,13 @@ Information om hur du konfigurerar Clients finns i [Clients](../../interface_gui
 
     Detaljerade anvisningar finns i [Scheduled Tasks](../../interface_guide/scheduled_tasks.md).
 
----
-
 === "Time Zone"
 
     På sidan Time Zone kan du ange rätt tidszon för routern. Då tidsstämplas alla schemalagda uppgifter, loggar och systemhändelser korrekt enligt din lokala tid. Inställningen är viktig för korrekta register och för att tidsbaserade konfigurationer ska köras på rätt sätt.
 
     Detaljerade anvisningar finns i [Time Zone](../../interface_guide/time_zone.md).
+
+---
 
 === "Log"
 
@@ -310,8 +307,6 @@ Information om hur du konfigurerar Clients finns i [Clients](../../interface_gui
     Dessa inställningar hjälper dig att upprätthålla en säker nätverksmiljö som skyddar både routern och anslutna enheter.
 
     Detaljerade anvisningar finns i [Security](../../interface_guide/security.md).
-
----
 
 === "Reset Firmware"
 

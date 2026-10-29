@@ -79,7 +79,19 @@ Webブラウザーを開き、アドレスバーに `192.168.8.1` を入力し�
 
 ---
 
-## VPNの設定方法 {#how-to-set-up-a-vpn}
+## Wireless {#wireless}
+
+Wirelessページでは、5 GHzおよび2.4 GHzのWi-Fiネットワークの設定を行えます。Wi-Fiの有効化・無効化、送信電力、Wi-Fi名（SSID）、Wi-Fiセキュリティモードとパスワード、SSIDの表示、Wi-Fiモード、帯域幅、チャネルなどを設定できます。
+
+Wireless の設定については、[Wireless](../../interface_guide/wireless_v4.8.md)を参照してください。
+
+## Clients {#clients}
+
+Clients ページでは、接続中のデバイス情報を確認できます。各クライアントについて、デバイス名、接続方式（Ethernet または Wi-Fi）、IPアドレス、MACアドレス、ダウンロード速度、アップロード速度、合計トラフィックが表示され、クライアントのブロックやその他の操作も行えます。
+
+Clientsの設定については、[Clients](../../interface_guide/clients.md)を参照してください。
+
+## VPN {#vpn}
 
 VPN（仮想プライベートネットワーク）は、デバイスとVPNサーバーの間に安全な暗号化トンネルを作成します。VPNクライアントとしてプライバシーとセキュリティを強化し、VPNサーバーとしてリモートネットワークへのアクセスも可能にします。Marble（およびその他の GL.iNet ルーター）は OpenVPN、WireGuard、Tor をサポートしています。
 
@@ -103,36 +115,6 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
     * [Torの設定方法](../../interface_guide/tor.md)
 
----
-
-## Wi-Fiとクライアント {#wireless-and-clients}
-
-=== "Wi-Fi"
-
-    Wireless ページでは、5 GHz と 2.4 GHz の Wi-Fi ネットワーク設定を構成できます。Wi-Fi の有効化/無効化、TX Power の設定、Wi-Fi 名（SSID）の指定、ランダム BSSID の有効化/無効化、セキュリティモードとパスワードの設定、SSID の公開/非公開、Wi-Fi モード、帯域幅、チャネルの選択などが可能です。
-
-    Wirelessの設定については、[Wireless](../../interface_guide/wireless.md)を参照してください。
-
-=== "クライアント"
-
-    Clients ページでは、接続中のデバイス情報を確認できます。各クライアントについて、デバイス名、接続方式（Ethernet または Wi-Fi）、IPアドレス、MACアドレス、ダウンロード速度、アップロード速度、合計トラフィックが表示され、クライアントのブロックやその他の操作も行えます。
-
-    Clientsの設定については、[Clients](../../interface_guide/clients.md)を参照してください。
-
-## クラウドサービス {#cloud-services}
-
-=== "GoodCloud"
-
-    GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"}サービスは、GL.iNetルーターにリモートでアクセスして管理する簡単でシンプルな方法を提供します。
-    
-    GoodCloudの設定については、[GoodCloud](../../interface_guide/cloud.md)を参照してください。
-
-=== "AstroWarp"
-
-    この機能はファームウェアv4.7から利用可能です。
-
-    AstroWarp は、シームレスなリモートネットワーク接続とリモートデバイス管理を実現する高度なネットワーキングプラットフォームです。GL.iNet ルーターとの連携に特化しており、ネットワーク全体のデバイス管理をサポートし、上位・下位デバイスの両方を制御できます。将来的なハードウェアレベル制御にも対応できる設計で、安全かつ安定したネットワークを維持するための堅牢で信頼性の高いソリューションを提供します。
-
 ## アプリケーション {#applications}
 
 === "プラグイン"
@@ -143,7 +125,11 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
     Dynamic DNS（DDNS）は、ドメインに関連付けられたIPアドレスをリアルタイムで自動的に検出して更新します。ドメイン名をルーターの動的なパブリックIPアドレスに対応付けるため、固定IPアドレスがなくてもネットワークにリモートアクセスできます。Dynamic DNS の設定については、[Dynamic DNS](../../interface_guide/ddns.md)を参照してください。
 
----
+=== "GoodCloud"
+
+    GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"}サービスは、GL.iNetルーターにリモートでアクセスして管理する簡単でシンプルな方法を提供します。
+    
+    GoodCloudの設定については、[GoodCloud](../../interface_guide/cloud.md)を参照してください。
 
 === "AdGuard Home"
 
@@ -151,23 +137,23 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
     
     AdGuard Homeを有効にする方法については、[AdGuard Home](../../interface_guide/adguardhome.md)を参照してください。
 
+---
+
 === "ペアレンタルコントロール"
 
     ペアレンタルコントロールは、子どものデバイス利用を管理・制御するための設定です。画面利用時間の制限や特定コンテンツへのアクセス制限が含まれます。Marble では、GL.iNet が提供するローカル版と、Bark（ペアレンタルコントロールアプリ）連携版の2種類を利用できます。
-    
-    ペアレンタルコントロールの設定については、[ペアレンタルコントロール](../../interface_guide/parental_control.md)を参照してください。
 
-=== "Tailscale"
-   
-    Tailscale は、どこからでもデバイスやアプリケーションにアクセスできるVPNサービスです。Tailscale の設定については、[Tailscale](../../interface_guide/tailscale.md)を参照してください。
+    ペアレンタルコントロールの設定については、[ペアレンタルコントロール](../../interface_guide/parental_control.md)を参照してください。
 
 === "ZeroTier"
 
     ZeroTier は、デバイスを仮想ネットワークに接続できるVPNサービスです。ZeroTier の設定については、[ZeroTier](../../interface_guide/zerotier.md)を参照してください。
 
----
+=== "Tailscale"
+   
+    Tailscale は、どこからでもデバイスやアプリケーションにアクセスできるVPNサービスです。Tailscale の設定については、[Tailscale](../../interface_guide/tailscale.md)を参照してください。
 
-## ネットワーク設定 {#network-settings}
+## ネットワーク {#network}
 
 === "ファイアウォール"
 
@@ -196,8 +182,6 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
     詳細な設定手順や詳しい情報については、[LAN](../../interface_guide/lan.md)を参照してください。
 
----
-
 === "ゲストネットワーク"
 
     ゲストネットワークページでは、ゲスト用の独立したネットワークを作成・管理できます。メインネットワークの安全を保ちながら、ゲストにインターネットアクセスを提供します。このページの主な機能は次のとおりです。
@@ -208,6 +192,8 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
     ゲストネットワークはゲストにインターネットアクセスを提供し、ゲストのトラフィックをメインネットワークから分離することで、メインネットワークのセキュリティとパフォーマンスへの影響を軽減します。
     
     詳細な設定手順や詳しい情報については、[ゲストネットワーク](../../interface_guide/guest_network.md)を参照してください。
+
+---
 
 === "DNS"
 
@@ -231,8 +217,6 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
     * WDS（Wireless Distribution System）：エクステンダーと同様です。メインルーターがWDSモードに対応している場合はWDSを選択してください。
 
     詳細な設定手順や詳しい情報については、[ネットワークモード](../../interface_guide/network_mode.md)を参照してください。
-
----
 
 === "IPv6"
 
@@ -259,11 +243,11 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
     詳細な設定手順や詳しい情報については、[MACアドレス](../../interface_guide/mac_address.md)を参照してください。
 
+---
+
 === "Drop-in Gateway"
 
     Drop-in Gateway は、AdGuard Home、暗号化DNS、VPN など、メインルーターにない機能を拡張します。設定については、[Drop-in Gatewayの設定方法](../../tutorials/how_to_set_up_drop_in_gateway.md)を参照してください。
-
----
 
 === "IGMP Snooping"
 
@@ -290,9 +274,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
     詳細な設定手順や詳しい情報については、[NAT設定](../../interface_guide/nat_settings.md)を参照してください。
 
----
-
-## システム設定 {#system-settings}
+## システム {#system}
 
 === "概要"
 
@@ -332,13 +314,13 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
     詳細な設定手順や詳しい情報については、[スケジュールタスク](../../interface_guide/scheduled_tasks.md)を参照してください。
 
----
-
 === "タイムゾーン"
 
     タイムゾーンページでは、ルーターの正しいタイムゾーンを設定できます。これにより、すべてのスケジュールタスク、ログ、システムイベントに現地時間で正確なタイムスタンプが付与されます。この設定は、正確な記録の維持と、時間ベースの設定を正しく実行するために重要です。
 
     詳細な設定手順や詳しい情報については、[タイムゾーン](../../interface_guide/time_zone.md)を参照してください。
+
+---
 
 === "ログ"
 
@@ -365,8 +347,6 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
     これらの設定により、安全なネットワーク環境を維持し、ルーターと接続機器を保護できます。
 
     詳細な設定手順や詳しい情報については、[セキュリティ](../../interface_guide/security.md)を参照してください。
-
----
 
 === "ファームウェアリセット"
 

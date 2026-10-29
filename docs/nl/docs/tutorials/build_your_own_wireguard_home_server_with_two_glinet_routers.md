@@ -194,8 +194,6 @@ Meld je opnieuw aan bij het webbeheerpaneel van de GL-MT6000, de WireGuard-serve
 
 Koppel beide routers vóór vertrek aan je GoodCloud-account. Zo kun je op afstand problemen oplossen als de VPN-verbinding uitvalt door configuratieproblemen of andere netwerkproblemen. Externe toegang werkt alleen zolang de routers ingeschakeld blijven en met internet verbonden zijn.
 
-Je server kan soms uitvallen door een stroomstoring of een andere oorzaak. Koppel de server aan GL.iNet GoodCloud om deze toegankelijk te houden.
-
 ---
 
 Gerelateerde artikelen

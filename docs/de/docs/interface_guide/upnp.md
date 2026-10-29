@@ -32,17 +32,17 @@ Aktivieren Sie UPnP mit dem Schalter. Kompatible Geräte und Anwendungen können
 
 ![enable upnp](https://static.gl-inet.com/docs/router/en/4/interface_guide/upnp/upnp.png){class="glboxshadow"}
 
-- Client / Application: Beschreibung des Clients bzw. der Anwendung und LAN-IP-Adresse des anfragenden Geräts.
+- **Client / Application**: Beschreibung des Clients bzw. der Anwendung und LAN-IP-Adresse des anfragenden Geräts.
 
-- Protocol: Transportprotokoll der Zuordnung, z. B. TCP oder UDP.
+- **Protocol**: Transportprotokoll der Zuordnung, z. B. `TCP` oder `UDP`.
 
-- External Port: WAN-Port für eingehende Verbindungen.
+- **External Port**: WAN-Port für eingehende Verbindungen.
 
-- Internal Target: Ziel-IP-Adresse und Port im LAN.
+- **Internal Target**: Ziel-IP-Adresse und Port im LAN.
 
-- Lease: Verbleibende Zeit bis zum Ablauf der Zuordnung. Die standardmäßige Lease-Dauer beträgt 7 Tage.
+- **Lease**: Verbleibende Zeit bis zum Ablauf der Zuordnung. Die standardmäßige Lease-Dauer beträgt 7 Tage.
 
-- Action: Klicken Sie auf das Papierkorbsymbol, um die Zuordnung zu löschen. Der Client bzw. die Anwendung kann sie erneut anfordern, wenn er bzw. sie noch ausgeführt wird.
+- **Action**: Klicken Sie auf das Papierkorbsymbol, um die Zuordnung zu löschen. Der Client bzw. die Anwendung kann sie erneut anfordern, wenn er bzw. sie noch ausgeführt wird.
 
 Aktive Portzuordnungen werden entfernt, wenn der Client sie freigibt oder ihre Lease abläuft. Klicken Sie auf **Refresh**, um die aktuellen Portzuordnungen anzuzeigen.
 

@@ -87,7 +87,7 @@ Verbinden Sie ein Gerät (z. B. Computer, Laptop oder Smartphone) per Wi-Fi oder
 
 - Ethernet
 
-  Verbinden Sie Ihr Gerät per Ethernet-Kabel mit dem LAN-Port des Routers.
+    Verbinden Sie Ihr Gerät per Ethernet-Kabel mit dem LAN-Port des Routers.
 
 - Wi-Fi
 
@@ -159,7 +159,7 @@ Im Folgenden finden Sie einen Überblick über die Funktionen im Web-Admin-Panel
 
 Auf der Seite Wireless können Sie Einstellungen für 5-GHz- und 2,4-GHz-Wi-Fi-Netzwerke konfigurieren, darunter das Aktivieren/Deaktivieren von Wi-Fi, die TX-Leistung, den Wi-Fi-Namen (SSID), das Aktivieren/Deaktivieren der randomisierten BSSID, den Wi-Fi-Sicherheitsmodus, das Wi-Fi-Passwort, die Sichtbarkeit der SSID sowie Wi-Fi-Modus, Bandbreite und Kanal.
 
-Informationen zur Einrichtung von Wireless finden Sie unter [Wireless](../../interface_guide/wireless.md).
+Weitere Informationen finden Sie unter [Wireless](../../interface_guide/wireless_v4.8.md).
 
 ## Clients {#clients}
 
@@ -267,13 +267,13 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     Zum Einrichten von LAN lesen Sie bitte [Lan Tutorial](../../interface_guide/lan.md).
 
----
-
 === "Gastnetzwerk"
 
     Hier können Sie ein Subnetz innerhalb der privaten IPv4-Adressbereiche 192.168.0.0/16, 172.16.0.0/12 oder 10.0.0.0/8 festlegen, Gateway- und Netmasken-IP-Adressen angeben und Sicherheitseinstellungen wie AP Isolation für das Gastnetzwerk konfigurieren.
 
     Zum Einrichten des Gastnetzwerks lesen Sie bitte [Guest Network](../../interface_guide/guest_network.md).
+
+---
 
 === "DNS"
 
@@ -287,7 +287,6 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     Zum Verwalten der Ethernet-Ports lesen Sie bitte [Port Management](../../interface_guide/ethernet_port.md).
 
----
 
 === "Network Mode"
 
@@ -301,11 +300,11 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     Zum Einrichten von IPv6 lesen Sie bitte [IPv6](../../interface_guide/ipv6.md).
 
+---
+
 === "Drop-in Gateway"
 
     Drop-in Gateway erweitert die Funktionalität Ihres Hauptrouters um Funktionen, die er möglicherweise nicht bietet, darunter AdGuard Home, verschlüsseltes DNS und VPN. Zum Einrichten von Drop-in Gateway lesen Sie bitte [So richten Sie Drop-in Gateway ein](../../tutorials/how_to_set_up_drop_in_gateway.md).
-
----
 
 === "IGMP Snooping"
 
@@ -367,13 +366,13 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     Detaillierte Anweisungen finden Sie unter [Scheduled Tasks](../../interface_guide/scheduled_tasks.md){target="_blank"}.
 
----
-
 === "Time Zone"
 
     Auf der Seite Time Zone können Sie die korrekte Zeitzone für Ihren Router festlegen, damit alle Zeitpläne, Protokolle und Systemereignisse präzise mit Ihrer Ortszeit versehen werden. Diese Einstellung ist wichtig für genaue Aufzeichnungen und die korrekte Ausführung zeitbasierter Konfigurationen.
 
     Detaillierte Anweisungen finden Sie unter [Time Zone](../../interface_guide/time_zone.md){target="_blank"}.
+
+---
 
 === "Log"
 
@@ -401,8 +400,6 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
     Diese Einstellungen helfen Ihnen, eine sichere Netzwerkumgebung aufrechtzuerhalten und sowohl Ihren Router als auch verbundene Geräte zu schützen.
 
     Detaillierte Anweisungen finden Sie unter [Security](../../interface_guide/security.md).
-
----
 
 === "Reset Firmware"
 

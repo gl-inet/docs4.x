@@ -1,10 +1,8 @@
-# Ethernet-Port (Firmware v4.10) {#ethernet-port-firmware-v410}
+# Ethernet-Port (Firmware v4.10 und höher) {#ethernet-port-firmware-v410}
 
-**Hinweis**: Der Inhalt dieser Seite wurde erstmals auf Flint 4 (GL-BE14000) eingeführt und wird mit Firmware v4.10 für weitere Modelle bereitgestellt.
+**Hinweis**: Der Inhalt dieser Seite basiert auf Firmware v4.10 und höher. Wenn auf Ihrem Gerät eine andere Firmwareversion ausgeführt wird, verwenden Sie die nachfolgende Auswahl, um zur entsprechenden Anleitung zu wechseln.
 
-Wenn auf Ihrem Gerät eine andere Firmwareversion ausgeführt wird, verwenden Sie die nachfolgende Auswahl, um zur entsprechenden Anleitung zu wechseln.
-
-<div class="gl-link-select" data-label="Firmware version" data-placeholder="Firmware v4.10" markdown="1">
+<div class="gl-link-select" data-label="Firmware version" data-placeholder="Firmware v4.10 und höher" markdown="1">
 
 - [Firmware v4.9 und älter](ethernet_port.md)
 

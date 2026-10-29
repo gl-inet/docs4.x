@@ -1,8 +1,8 @@
 # Mesh {#mesh}
 
-**Note**: This feature was introduced in firmware v4.10.
+**Obs!** Den här funktionen infördes i firmware v4.10.
 
-Mango 2 (GL-MG1300) och Mudi 7 (GL-E5800) stöder inte Mesh, inte heller med firmware v4.10 eller senare. Se [Supported Models](#supported-models).
+Mango 2 (GL-MG1300) och Mudi 7 (GL-E5800) stöder inte Mesh, inte heller med firmware v4.10 eller senare. Se [Modeller som stöds](#supported-models).
 
 ---
 
@@ -12,19 +12,21 @@ Mesh bygger på Wi-Fi EasyMesh™ och utökar Wi-Fi-täckningen med sömlös roa
 
 Se [Mesh kontra Extender kontra Access Point](#mesh-vs-extender-vs-access-point-mode) om du är osäker på läge.
 
-## Supported Models {#supported-models}
+## Modeller som stöds {#supported-models}
 
-??? "Supported Models"
+??? "Modeller som stöds"
     - ※GL-BE14000 (Flint 4)
     - ※GL-BE10000 (Slate 7 Pro)
     - GL-BE9300 (Flint 3)
     - GL-BE3600 (Slate 7)
     - GL-MT6000 (Flint 2)
+    - ※GL-XE3000 (Puli AX)
+    - ※GL-X3000 (Spitz AX)
     - GL-MT3000 (Beryl AX)
 
-    **Note**: Models marked with ※ support Mesh in Beta firmware.
+    **Obs!** Modeller markerade med ※ stöder Mesh i betafirmware.
 
-??? "Unsupported Models"
+??? "Modeller som inte stöds"
     - GL-MT6000 (Fortify)
     - GL-MG1300 (Mango 2)
     - GL-E5800 (Mudi 7)
@@ -32,8 +34,6 @@ Se [Mesh kontra Extender kontra Access Point](#mesh-vs-extender-vs-access-point-
     - GL-MT3600BE (Beryl 7)
     - GL-BE6500 (Flint 3e)
     - GL-X2000 (Spitz Plus)
-    - GL-X3000 (Spitz AX)
-    - GL-XE3000 (Puli AX)
     - GL-B3000 (Marble)
     - GL-AX1800 (Flint)
     - GL-AXT1800 (Slate AX)
@@ -52,9 +52,9 @@ Se [Mesh kontra Extender kontra Access Point](#mesh-vs-extender-vs-access-point-
     - GL-AP1300 (Cirrus)
     - GL-S1300 (Convexa-S)
 
-## Quick Setup {#quick-setup}
+## Snabbkonfiguration {#quick-setup}
 
-The following example uses Flint 3 (GL‑BE9300) and Slate 7 (GL‑BE3600) to build a Mesh network.
+I följande exempel används Flint 3 (GL‑BE9300) och Slate 7 (GL‑BE3600) för att skapa ett Mesh-nätverk.
 
 **Flint 3** är huvudroutern som ansluter till internet och hanterar noderna.
 
@@ -76,7 +76,7 @@ The following example uses Flint 3 (GL‑BE9300) and Slate 7 (GL‑BE3600) to bu
 
     ![main router](https://static.gl-inet.com/docs/router/en/4/interface_guide/mesh/main_router.png){class="glboxshadow"}
 
-5. The page indicates two ways to add Mesh nodes: Wi-Fi Scan and Ethernet Backhaul.
+5. Sidan visar två sätt att lägga till Mesh-noder: Wi-Fi Scan och Ethernet Backhaul.
 
     ![add mesh node](https://static.gl-inet.com/docs/router/en/4/interface_guide/mesh/add_mesh_node.jpg){class="glboxshadow"}
 
@@ -84,7 +84,7 @@ The following example uses Flint 3 (GL‑BE9300) and Slate 7 (GL‑BE3600) to bu
 
     ??? note "Wi-Fi Scan"
 
-        Click **Start Scanning**.
+        Klicka på **Start Scanning**.
 
         ![start scanning](https://static.gl-inet.com/docs/router/en/4/interface_guide/mesh/start_scanning.png){class="glboxshadow"}
 
@@ -102,15 +102,15 @@ The following example uses Flint 3 (GL‑BE9300) and Slate 7 (GL‑BE3600) to bu
 
         ![ethernet backhaul](https://static.gl-inet.com/docs/router/en/4/interface_guide/mesh/ethernet_backhaul.png){class="glboxshadow"}
 
-6. Once the Mesh node is added, the topology appears in the main router's Admin Panel.
+6. När Mesh-noden har lagts till visas topologin i huvudrouterns webbadministrationspanel.
 
     ![main topology](https://static.gl-inet.com/docs/router/en/4/interface_guide/mesh/main_topology_wifi.png){class="glboxshadow"}
 
-## Manage Nodes {#manage-nodes}
+## Hantera noder {#manage-nodes}
 
 Efter konfigurationen kan noden inte nås via sin ursprungliga IP-adress. Hantera alla enheter via huvudrouterns Admin Panel.
 
-### View Node Details {#view-node-details}
+### Visa nodinformation {#view-node-details}
 
 Öppna **MESH** och klicka på **Main Router** i topologin.
 
@@ -128,7 +128,7 @@ Visa modell, IP- och MAC-adress, firmwareversion, drifttid och klienter.
 
 ![mesh node info](https://static.gl-inet.com/docs/router/en/4/interface_guide/mesh/mesh_node_info2.png){class="glboxshadow"}
 
-### Edit Mesh Node {#edit-mesh-node}
+### Redigera Mesh-nod {#edit-mesh-node}
 
 Öppna **MESH** i huvudrouterns Admin Panel och klicka på **Mesh Node** i topologin.
 
@@ -140,7 +140,7 @@ Varje nod heter som standard "Node" följt av de fyra sista tecknen i MAC-adress
 
 ![edit node 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/mesh/edit_node2.png){class="glboxshadow"}
 
-### Access Mesh Node {#access-mesh-node}
+### Öppna Mesh-nod {#access-mesh-node}
 
 Öppna **MESH** i huvudrouterns Admin Panel och klicka på **Mesh Node** i topologin.
 
@@ -154,41 +154,41 @@ Nodens inloggningssida öppnas på IP-adressen som huvudroutern tilldelat.
 
 ![mesh admin login](https://static.gl-inet.com/docs/router/en/4/interface_guide/mesh/access_mesh_node2.png){class="glboxshadow"}
 
-### Add More Nodes {#add-more-nodes}
+### Lägg till fler noder {#add-more-nodes}
 
 Klicka på **Add** uppe till höger för fler noder.
 
 ![add more nodes](https://static.gl-inet.com/docs/router/en/4/interface_guide/mesh/add_node.png){class="glboxshadow"}
 
-## Mesh vs. Extender vs. Access Point Mode {#mesh-vs-extender-vs-access-point-mode}
+## Jämförelse av lägena Mesh, Extender och Access Point {#mesh-vs-extender-vs-access-point-mode}
 
 Alla tre lägen utökar Wi-Fi-täckningen. Skillnaderna gäller anslutning, konfiguration och hantering. **Backhaul** är länken mellan huvudroutern och en Extender, Access Point eller mesh-nod.
 
 Tabellen jämför GL.iNets fristående Extender- och Access Point-lägen med Mesh.
 
-| Feature | Extender Mode | Access Point Mode | Mesh Mode |
+| Funktion | Extender-läge | Access Point-läge | Mesh-läge |
 |---|---|---|---|
-| **Wireless backhaul** | ✅ Supported | ❌ Not applicable | ✅ Supported |
-| **Ethernet backhaul** | ❌ Används inte i detta läge | ✅ Stöds | ✅ Stöds |
-| **Full-duplex backhaul** | ❌ Wi-Fi is half-duplex | ✅ Ethernet | ✅ Ethernet only; wireless backhaul remains half-duplex |
-| **2.4/5 GHz wireless backhaul** | ⚠️ Available bands depend on model and firmware | ❌ Not applicable | ⚠️ Available bands depend on model and firmware |
-| **6 GHz wireless backhaul** | ⚠️ Model and firmware dependent | ❌ Not applicable | 🔜 Coming soon |
-| **Wi-Fi roaming** | ✅ Client-controlled | ✅ Client-controlled | ✅ Client-controlled, with 802.11k/v assistance |
-| **Automatic Wi-Fi settings synchronization** | ❌ Konfigureras separat | ❌ Konfigureras separat | ✅ Från huvudroutern |
-| **Centralized node management** | ❌ Configure separately | ❌ Configure separately | ✅ Through the main router |
-| **Network topology and client overview** | ❌ No Mesh-wide overview | ❌ No Mesh-wide overview | ✅ Available on the main router |
-| **Centrally managed expansion** | ❌ Independent extenders | ❌ Independent access points | ✅ One main router and up to eight nodes |
-| **Centrally managed wireless hops** | ❌ Not Mesh-managed | ❌ Not applicable | ✅ Up to three wireless hops |
-| **Automatic wired/wireless backhaul switching** | ❌ No Mesh-managed switching | ❌ No Mesh-managed switching | ✅ Prioritizes Ethernet |
-| **Best suited for** | Simple wireless coverage extension | Extending coverage where Ethernet is available | Coordinated coverage with wired, wireless, or mixed connections |
+| **Trådlös backhaul** | ✅ Stöds | ❌ Gäller inte | ✅ Stöds |
+| **Ethernet-backhaul** | ❌ Används inte i detta läge | ✅ Stöds | ✅ Stöds |
+| **Backhaul med full duplex** | ❌ Wi-Fi är halv duplex | ✅ Ethernet | ✅ Endast Ethernet; trådlös backhaul förblir halv duplex |
+| **Trådlös backhaul på 2.4/5 GHz** | ⚠️ Tillgängliga band beror på modell och firmware | ❌ Gäller inte | ⚠️ Tillgängliga band beror på modell och firmware |
+| **Trådlös backhaul på 6 GHz** | ⚠️ Beror på modell och firmware | ❌ Gäller inte | 🔜 Kommer snart |
+| **Wi-Fi-roaming** | ✅ Klientstyrd | ✅ Klientstyrd | ✅ Klientstyrd, med stöd av 802.11k/v |
+| **Automatisk synkronisering av Wi-Fi-inställningar** | ❌ Konfigureras separat | ❌ Konfigureras separat | ✅ Från huvudroutern |
+| **Centraliserad nodhantering** | ❌ Konfigureras separat | ❌ Konfigureras separat | ✅ Via huvudroutern |
+| **Nätverkstopologi och klientöversikt** | ❌ Ingen översikt över hela Mesh-nätverket | ❌ Ingen översikt över hela Mesh-nätverket | ✅ Tillgänglig på huvudroutern |
+| **Centralt hanterad utbyggnad** | ❌ Fristående extenders | ❌ Fristående åtkomstpunkter | ✅ En huvudrouter och upp till åtta noder |
+| **Centralt hanterade trådlösa hopp** | ❌ Hanteras inte av Mesh | ❌ Gäller inte | ✅ Upp till tre trådlösa hopp |
+| **Automatisk växling mellan kabelansluten och trådlös backhaul** | ❌ Ingen växling hanterad av Mesh | ❌ Ingen växling hanterad av Mesh | ✅ Prioriterar Ethernet |
+| **Passar bäst för** | Enkel utökning av trådlös täckning | Utökad täckning där Ethernet finns | Samordnad täckning med kabelanslutna, trådlösa eller blandade anslutningar |
 
 ✅ Stöds · ❌ Stöds inte eller gäller inte i läget · ⚠️ Beror på maskinvara, firmware eller konfiguration · 🔜 Planerad funktion
 
 Mesh synkroniserar inställningar för huvud-, gäst-, IoT- och MLO-Wi-Fi och ger central hantering av omstart, borttagning och uppdatering. Noder läggs till via Wi-Fi-sökning, Ethernet eller Mesh/WPS-knapp. Backhaul-hantering omfattar Ethernet-prioritet, växling mellan kabel och trådlöst samt loopskydd.
 
-### Understanding Performance Differences {#understanding-performance-differences}
+### Förstå prestandaskillnader {#understanding-performance-differences}
 
-#### Extender Mode {#extender-mode}
+#### Extender-läge {#extender-mode}
 
 Enheten ansluter till befintligt Wi-Fi. Radion för uppströmsanslutningen följer huvudrouterns kanal. Klienter på samma radio delar kanalens sändningstid.
 
@@ -196,11 +196,11 @@ På multibandsmodeller kan separata radioenheter betjäna andra band. En Extende
 
 Samma kanalregel gäller GL.iNets Repeater, även om Repeater och fristående Extender skiljer sig i övrigt.
 
-#### Wireless Mesh {#wireless-mesh}
+#### Trådlöst Mesh {#wireless-mesh}
 
 I den testade trebandskonfigurationen används **5 GHz för trådlös backhaul**. Nodens 5 GHz-kanal följer huvudroutern medan **2.4 GHz och 6 GHz kan konfigureras separat**. Kanalinställningarna avgör inte vilka band klienter kan använda, och en klientkanal ändrar inte backhaul-bandet.
 
-The performance impact therefore depends on how the client connects:
+Prestandapåverkan beror därför på hur klienten ansluter:
 
 - **Enheter på 5 GHz:** Om samma radio används för klient och trådlös backhaul delar anslutningarna sändningstid. Låst kanal hindrar inte nödvändigtvis klientanslutning.
 - **Enheter på 2.4 GHz eller 6 GHz:** Med separat radio från 5 GHz-backhaul delar länkarna inte samma kanalstraff.
@@ -213,13 +213,13 @@ Båda använder Ethernet till huvudroutern. Ethernet-backhaul är full duplex oc
 
 Mesh prioriterar Ethernet-backhaul och kan växla till trådlöst. I testet följer nodens 5 GHz-kanal huvudroutern även med Ethernet-backhaul, men trafiken går inte därför trådlöst. Närliggande noder och klienter på samma kanal konkurrerar fortfarande om sändningstid.
 
-!!! note "6 GHz Mesh backhaul — Coming soon"
+!!! note "6 GHz Mesh-backhaul — kommer snart"
 
     6 GHz Mesh-backhaul kräver kompatibel 6 GHz-maskinvara i både huvudrouter och nod samt firmwarestöd. Alla Mesh-modeller stöder inte funktionen.
 
     Detta skiljer sig från klientanslutning till nodens 6 GHz-nätverk. Med 6 GHz-backhaul kan en separat 5 GHz-radio betjäna klienter utan delad sändningstid. En radio är dedikerad endast om den reserveras för backhaul.
 
-!!! important "Separate radios do not make Wi-Fi full-duplex"
+!!! important "Separata radioenheter gör inte Wi-Fi till full duplex"
 
     Varje Wi-Fi-länk är halv duplex. Separata radioenheter undviker delad kanal mellan backhaul och klient men tar inte bort annan störning, konkurrens eller flerhoppsbegränsning. Kapaciteten begränsas fortfarande av den långsammare länken och nätverksförhållandena.
 

@@ -109,7 +109,19 @@ Richten Sie Marble mit einer der unterstützten Internetverbindungsmethoden ein:
 
 ---
 
-## So richten Sie ein VPN ein {#how-to-set-up-a-vpn}
+## WLAN {#wireless}
+
+Die Wireless-Seite ermöglicht die Konfiguration der Einstellungen für die 5 GHz und 2.4 GHz-Wi-Fi-Netzwerke, darunter die Aktivierung/Deaktivierung von Wi-Fi, die Sendeleistung, der Wi-Fi-Name (SSID), der Wi-Fi-Sicherheitsmodus und das Passwort, die Sichtbarkeit der SSID sowie Wi-Fi-Modus, Bandbreite und Kanal.
+
+Zum Einrichten von Wireless lesen Sie bitte [Wireless](../../interface_guide/wireless_v4.8.md).
+
+## Clients {#clients}
+
+Auf der Seite Clients werden Informationen zu verbundenen Geräten angezeigt. Für jeden Client sehen Sie den Gerätenamen, den Verbindungstyp (also per Ethernet oder Wi-Fi), IP- und MAC-Adressen, Download- und Upload-Geschwindigkeiten, das gesamte Datenvolumen sowie die Möglichkeit, den Client zu blockieren oder weitere Aktionen auszuführen.
+
+Zum Einrichten von Clients lesen Sie bitte [Clients](../../interface_guide/clients.md).
+
+## VPN {#vpn}
 
 Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten Datenverkehr zwischen Ihrem Gerät und dem VPN-Server. Es bietet eine zusätzliche Ebene für Datenschutz und Sicherheit (VPN-Client) und ermöglicht Ihnen den Zugriff auf ein entferntes Netzwerk (VPN-Server). Marble und andere GL.iNet-Router unterstützen OpenVPN, WireGuard und zusätzlich auch Tor.
 
@@ -133,36 +145,6 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     * [So richten Sie Tor ein](../../interface_guide/tor.md)
 
----
-
-## WLAN und Clients {#wireless-and-clients}
-
-=== "Wireless"
-
-    Auf der Seite Wireless können Sie Einstellungen für die 5-GHz- und 2.4-GHz-Wi-Fi-Netzwerke konfigurieren, darunter das Aktivieren oder Deaktivieren von Wi-Fi, das Festlegen der TX-Leistung, das Definieren des Wi-Fi-Namens (SSID), das Aktivieren oder Deaktivieren randomisierter BSSID, die Auswahl des Wi-Fi-Sicherheitsmodus, das Festlegen des Wi-Fi-Passworts sowie die Konfiguration von SSID-Sichtbarkeit, Wi-Fi-Modus, Bandbreite und Kanal.
-
-    Zum Einrichten von Wireless lesen Sie bitte [Wireless](../../interface_guide/wireless.md).
-
-=== "Clients"
-
-    Auf der Seite Clients werden Informationen zu verbundenen Geräten angezeigt. Für jeden Client sehen Sie den Gerätenamen, den Verbindungstyp (also per Ethernet oder Wi-Fi), IP- und MAC-Adressen, Download- und Upload-Geschwindigkeiten, das gesamte Datenvolumen sowie die Möglichkeit, den Client zu blockieren oder weitere Aktionen auszuführen.
-
-    Zum Einrichten von Clients lesen Sie bitte [Clients](../../interface_guide/clients.md).
-
-## Cloud-Dienste {#cloud-services}
-
-=== "GoodCloud"
-
-    Der Dienst GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} bietet eine einfache Möglichkeit, aus der Ferne auf GL.iNet-Router zuzugreifen und sie zu verwalten.
-
-    Zum Einrichten von GoodCloud lesen Sie bitte [GoodCloud](../../interface_guide/cloud.md).
-
-=== "AstroWarp"
-
-    Diese Funktion ist ab Firmware v4.7 verfügbar.
-
-    AstroWarp ist eine fortschrittliche Netzwerkplattform für nahtlose Remote-Vernetzung und Fernverwaltung von Geräten. AstroWarp wurde speziell für die Integration mit GL.iNet-Routern entwickelt und unterstützt ein umfassendes Gerätemanagement über ganze Netzwerke hinweg, einschließlich der Verwaltung über- und untergeordneter Geräte. Mit seinem Fokus auf netzwerkweites Management und zukünftiger Unterstützung für Hardware-Steuerung bietet AstroWarp eine robuste und verlässliche Lösung für die Geräteverwaltung sowie für sichere und stabile Netzwerke.
-
 ## Anwendungen {#applications}
 
 === "Plug-ins"
@@ -173,13 +155,19 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     Dynamic DNS (DDNS) erkennt und aktualisiert automatisch die mit einer Domain verknüpfte IP-Adresse in Echtzeit. Dabei wird ein Domainname der dynamischen öffentlichen IP-Adresse Ihres Routers zugeordnet, sodass Sie ohne statische IP-Adresse aus der Ferne auf Ihr Netzwerk zugreifen können. Zum Einrichten von Dynamic DNS lesen Sie bitte [Dynamic DNS](../../interface_guide/ddns.md).
 
----
+=== "GoodCloud"
+
+    Der Dienst GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} bietet eine einfache Möglichkeit, aus der Ferne auf GL.iNet-Router zuzugreifen und sie zu verwalten.
+    
+    Zum Einrichten von GoodCloud lesen Sie bitte [GoodCloud](../../interface_guide/cloud.md).
 
 === "AdGuard Home"
 
     AdGuard Home ist ein Drittanbieter-Tool, das Werbung und Tracking blockiert, um Sie besser zu schützen.
-
+    
     Informationen zum Aktivieren von AdGuard Home finden Sie unter [AdGuard Home](../../interface_guide/adguardhome.md).
+
+---
 
 === "Parental Control"
 
@@ -187,17 +175,15 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     Zum Einrichten von Parental Control lesen Sie bitte [Parental controls](../../interface_guide/parental_control.md).
 
-=== "Tailscale"
-
-    Tailscale ist ein VPN-Dienst, mit dem Sie von überall auf Ihre Geräte und Anwendungen zugreifen können. Zum Einrichten von Tailscale lesen Sie bitte [Tailscale](../../interface_guide/tailscale.md).
-
 === "ZeroTier"
 
     ZeroTier ist ein VPN-Dienst, mit dem Sie Ihre Geräte mit einem virtuellen Netzwerk verbinden können. Zum Einrichten von ZeroTier lesen Sie bitte [ZeroTier](../../interface_guide/zerotier.md).
 
----
+=== "Tailscale"
 
-## Netzwerkeinstellungen {#network-settings}
+    Tailscale ist ein VPN-Dienst, mit dem Sie von überall auf Ihre Geräte und Anwendungen zugreifen können. Zum Einrichten von Tailscale lesen Sie bitte [Tailscale](../../interface_guide/tailscale.md).
+
+## Netzwerk {#network}
 
 === "Firewall"
 
@@ -226,8 +212,6 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     Detaillierte Anweisungen und weitere Informationen finden Sie unter [LAN](../../interface_guide/lan.md).
 
----
-
 === "Gastnetzwerk"
 
     Auf der Seite Guest Network können Sie ein separates Netzwerk für Ihre Gäste erstellen und verwalten. So erhalten diese Internetzugang, während Ihr Hauptnetzwerk geschützt bleibt. Zu den wichtigsten Funktionen auf dieser Seite gehören:
@@ -236,8 +220,10 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
     * DHCP: Konfigurieren Sie das Dynamic Host Configuration Protocol für das Gastnetzwerk, damit verbundenen Geräten automatisch IP-Adressen zugewiesen werden.
 
     Das Gastnetzwerk bietet Gästen Internetzugang und isoliert ihren Datenverkehr vom Hauptnetzwerk, um mögliche Auswirkungen auf dessen Sicherheit und Leistung zu verringern.
-
+    
     Detaillierte Anweisungen und weitere Informationen finden Sie unter [Guest Network](../../interface_guide/guest_network.md).
+
+---
 
 === "DNS"
 
@@ -261,8 +247,6 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
     * WDS (Wireless Distribution System): Ähnlich wie Extender; wählen Sie WDS, wenn Ihr Hauptrouter den WDS-Modus unterstützt.
 
     Detaillierte Anweisungen und weitere Informationen finden Sie unter [Network Mode](../../interface_guide/network_mode.md).
-
----
 
 === "IPv6"
 
@@ -289,11 +273,11 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     Detaillierte Anweisungen und weitere Informationen finden Sie unter [MAC Address](../../interface_guide/mac_address.md).
 
+---
+
 === "Drop-in Gateway"
 
     Drop-in Gateway erweitert die Funktionalität Ihres Hauptrouters um Funktionen, die er möglicherweise nicht besitzt, darunter AdGuard Home, verschlüsseltes DNS und VPN. Zum Einrichten von Drop-in Gateway lesen Sie bitte [So richten Sie Drop-in Gateway ein](../../tutorials/how_to_set_up_drop_in_gateway.md).
-
----
 
 === "IGMP Snooping"
 
@@ -320,9 +304,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     Detaillierte Anweisungen und weitere Informationen finden Sie unter [NAT Settings](../../interface_guide/nat_settings.md).
 
----
-
-## Systemeinstellungen {#system-settings}
+## System {#system}
 
 === "Overview"
 
@@ -357,18 +339,18 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
     * Schedule Reboot: Konfigurieren Sie Ihren Router so, dass er in festgelegten Intervallen automatisch neu startet, um optimale Leistung und Stabilität zu erhalten.
     * 5GHz Wi-Fi Status Schedule: Erstellen Sie einen Zeitplan, um das 5GHz-Wi-Fi-Band zu bestimmten Zeiten zu aktivieren oder zu deaktivieren und so Netzwerknutzung und Energieeffizienz zu optimieren.
     * 2.4GHz Wi-Fi Status Schedule: Legen Sie einen Zeitplan zur Steuerung des 2.4GHz-Wi-Fi-Bands fest, um Netzwerkverfügbarkeit und Stromverbrauch besser zu verwalten.
-
+    
     Diese Planungsoptionen geben Ihnen mehr Kontrolle über den Betrieb Ihres Routers, damit er Ihren Anforderungen und Vorlieben besser entspricht.
 
     Detaillierte Anweisungen und weitere Informationen finden Sie unter [Scheduled Tasks](../../interface_guide/scheduled_tasks.md).
-
----
 
 === "Time Zone"
 
     Auf der Seite Time Zone können Sie die korrekte Zeitzone für Ihren Router festlegen, damit alle geplanten Aufgaben, Protokolle und Systemereignisse gemäß Ihrer Ortszeit korrekt mit Zeitstempeln versehen werden. Diese Einstellung ist wichtig für eine präzise Protokollierung und die ordnungsgemäße Ausführung zeitbasierter Konfigurationen.
 
     Detaillierte Anweisungen und weitere Informationen finden Sie unter [Time Zone](../../interface_guide/time_zone.md).
+
+---
 
 === "Log"
 
@@ -395,8 +377,6 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
     Diese Einstellungen helfen Ihnen, eine sichere Netzwerkumgebung aufrechtzuerhalten und sowohl Ihren Router als auch die verbundenen Geräte zu schützen.
 
     Detaillierte Anweisungen und weitere Informationen finden Sie unter [Security](../../interface_guide/security.md).
-
----
 
 === "Reset Firmware"
 

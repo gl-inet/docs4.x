@@ -4,7 +4,7 @@
 
 <div class="gl-link-select" data-label="Версія прошивки" data-placeholder="Прошивка v4.9 та раніші версії" markdown="1">
 
-- [Прошивка v4.10](ethernet_port_v4.10.md)
+- [Прошивка v4.10 і новіші версії](ethernet_port_v4.10.md)
 
 </div>
 

@@ -129,7 +129,7 @@ Web ブラウザを起動し、アドレスバーに `192.168.8.1` と入力す�
 
 Wireless ページでは、5 GHz と 2.4 GHz の Wi-Fi ネットワークの設定を行えます。Wi-Fi の有効化/無効化、送信出力（TX power）の設定、Wi-Fi 名（SSID）の指定、ランダム化 BSSID の有効化/無効化、Wi-Fi セキュリティモードの選択、Wi-Fi パスワードの設定、SSID の表示設定、Wi-Fi モード、帯域幅、チャンネルの選択が含まれます。
 
-Wireless の設定については、[Wireless](../../interface_guide/wireless.md)を参照してください。
+詳細については、[Wireless](../../interface_guide/wireless_v4.8.md)を参照してください。
 
 ## Clients {#clients}
 
@@ -237,13 +237,13 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
     
     LAN の設定については、[Lan Tutorial](../../interface_guide/lan.md)を参照してください。
 
----
-
 === "Guest Network"
 
     IPv4 プライベートアドレス範囲 192.168.0.0/16、172.16.0.0/12、10.0.0.0/8 内でサブネットを設定し、ゲートウェイとネットマスク IP アドレスを指定し、ゲストネットワーク向けに AP isolation などのセキュリティ設定を構成できます。
     
     ゲストネットワークの設定については、[ゲストネットワーク](../../interface_guide/guest_network.md)を参照してください。
+
+---
 
 === "DNS"
 
@@ -257,7 +257,6 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
     Ethernet ポートの管理については、[Port Management](../../interface_guide/ethernet_port.md)を参照してください。
 
----
 
 === "Network Mode"
 
@@ -271,11 +270,11 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
     
     IPv6 の設定については、[IPV6](../../interface_guide/ipv6.md)を参照してください。
 
+---
+
 === "Drop-in Gateway"
 
     Drop-in Gateway は、AdGuard Home、暗号化 DNS、VPN など、メインルーターにない機能を追加します。Drop-in Gateway の設定については、[How to set up drop-in gateway](../../tutorials/how_to_set_up_drop_in_gateway.md)を参照してください。
-
----
 
 === "IGMP Snooping"
 
@@ -337,13 +336,13 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
     詳細な手順については、[Scheduled Tasks](../../interface_guide/scheduled_tasks.md){target="_blank"}を参照してください。
 
----
-
 === "Time Zone"
 
     Time Zone ページでは、ルーターに正しいタイムゾーンを設定し、すべてのスケジュールタスク、ログ、システムイベントが現地時間に基づいて正確に記録されるようにします。この設定は、正確な記録の維持と時間ベース設定の適切な実行に重要です。
 
     詳細な手順については、[Time Zone](../../interface_guide/time_zone.md){target="_blank"}を参照してください。
+
+---
 
 === "Log"
 
@@ -371,8 +370,6 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
     これらの設定は、安全なネットワーク環境を維持し、ルーターと接続デバイスの両方を保護するのに役立ちます。
 
     詳細な手順については、[Security](../../interface_guide/security.md)を参照してください。
-
----
 
 === "Reset Firmware"
 

@@ -87,7 +87,7 @@ La page Clients affiche des informations sur les appareils connectés. Pour chaq
 
 Pour configurer les clients, consultez [Clients](../../interface_guide/clients.md).
 
-## Services Cloud {#cloud-services}
+## Services cloud {#cloud-services}
 
 === "GoodCloud"
 
@@ -206,12 +206,6 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
 ---
 
-=== "Contrôle parental"
-
-    Parental Control est conçu pour vous aider à gérer et contrôler les appareils de vos enfants. Il permet notamment de limiter leur temps d'écran et de restreindre l'accès à certains contenus.
-
-    Pour configurer le contrôle parental, consultez [Contrôle parental](../../interface_guide/parental_control.md).
-
 === "QoS"
 
     La QoS (Quality of Service) optimise l'allocation de bande passante en priorisant les activités critiques (par exemple les appels vidéo et les jeux) lors de la congestion du réseau, réduisant ainsi la latence et améliorant les performances globales du réseau. Notez que cela s'applique au trafic des clients locaux et au trafic du tunnel client VPN, mais pas au trafic reçu lorsque le routeur fonctionne comme serveur VPN.
@@ -224,6 +218,12 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     Veuillez consulter [SQM](../../interface_guide/sqm.md) pour des instructions détaillées.
 
+=== "Contrôle parental"
+
+    Parental Control est conçu pour vous aider à gérer et contrôler les appareils de vos enfants. Il permet notamment de limiter leur temps d'écran et de restreindre l'accès à certains contenus.
+
+    Pour configurer le contrôle parental, consultez [contrôle parental](../../interface_guide/parental_control_v4.9.md).
+
 ## Sécurité {#security}
 
 === "Redirection de ports"
@@ -232,17 +232,21 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     Pour configurer la redirection de ports, consultez [Redirection de ports](../../interface_guide/port_forwarding.md).
 
-=== "Contrôle de gestion"
+=== "ACL"
 
-    Contrôle de gestion vous permet de configurer divers paramètres de sécurité afin de protéger votre réseau et votre routeur contre les accès non autorisés. Cette page comprend les options suivantes :
+    ACL, ou Access Control List, permet de créer des règles de gestion du trafic réseau selon les protocoles de connexion, les adresses des appareils et les ports. Ces règles autorisent ou bloquent l’accès au réseau. Si plusieurs règles ACL sont en conflit, le système applique celle dont la priorité est la plus élevée.
+
+    Pour plus de détails, consultez [ACL](../../interface_guide/acl.md).
+
+=== "Admin Access"
+
+    Admin Access permet de configurer différents paramètres de sécurité afin de protéger le réseau et le routeur contre les accès non autorisés. Cette page comprend les options suivantes :
 
     * Contrôle d'accès local : gérez et limitez l'accès à l'interface du routeur depuis les appareils connectés à votre réseau local.
     * Contrôle d'accès à distance : configurez et limitez l'accès à l'interface du routeur depuis des emplacements distants via Internet, afin de renforcer la sécurité contre les menaces externes.
     * Ports ouverts sur le routeur : contrôlez quels ports sont ouverts sur le routeur, afin de limiter les vulnérabilités potentielles et les accès non autorisés.
 
-    Ces paramètres vous aident à maintenir un environnement réseau sécurisé et à protéger à la fois le routeur et les appareils connectés.
-
-    Veuillez consulter [Sécurité](../../interface_guide/security.md) pour des instructions détaillées.
+    Pour plus de détails, consultez [Admin Access](../../interface_guide/admin_access.md).
 
 === "Mode NAT"
 
@@ -278,17 +282,17 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     Pour configurer AdGuard Home, consultez [AdGuard Home](../../interface_guide/adguardhome.md).
 
-=== "ZeroTier"
-
-    ZeroTier est une solution réseau définie par logiciel qui permet de créer des réseaux virtuels sécurisés sur Internet, reliant les appareils comme s'ils se trouvaient sur le même réseau local.
-
-    Pour configurer ZeroTier, consultez [ZeroTier](../../interface_guide/zerotier.md).
-
 === "Tailscale"
 
     Tailscale est un service VPN qui vous permet d'accéder à vos appareils et applications partout.
 
     Pour configurer Tailscale, consultez [Tailscale](../../interface_guide/tailscale.md).
+
+=== "ZeroTier"
+
+    ZeroTier est une solution réseau définie par logiciel qui permet de créer des réseaux virtuels sécurisés sur Internet, reliant les appareils comme s'ils se trouvaient sur le même réseau local.
+
+    Pour configurer ZeroTier, consultez [ZeroTier](../../interface_guide/zerotier.md).
 
 === "Tor"
 
@@ -336,8 +340,6 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     Pour des instructions détaillées et plus d'informations, veuillez consulter [Upgrade](../../interface_guide/upgrade.md).
 
----
-
 === "Tâches planifiées"
 
     La page Scheduled Tasks permet d'automatiser différentes fonctions du routeur selon un planning prédéfini, afin d'améliorer le confort d'utilisation et l'efficacité. Les principales fonctionnalités de cette page incluent :
@@ -349,11 +351,19 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     Pour des instructions détaillées et plus d'informations, veuillez consulter [Scheduled Tasks](../../interface_guide/scheduled_tasks.md).
 
+---
+
 === "Fuseau horaire"
 
     La page Time Zone permet de définir le fuseau horaire correct pour le routeur, afin que toutes les tâches planifiées, tous les journaux et tous les événements système soient horodatés avec précision selon votre heure locale. Ce paramètre est essentiel pour conserver des enregistrements exacts et pour assurer l'exécution correcte des configurations basées sur le temps.
 
     Pour des instructions détaillées et plus d'informations, veuillez consulter [Time Zone](../../interface_guide/time_zone.md).
+
+=== "Réinitialiser le firmware"
+
+    La page Reset Firmware permet de réinitialiser la version actuelle du firmware du routeur à ses paramètres par défaut, en effaçant toutes les configurations personnalisées. Ce processus restaure les paramètres par défaut de la version actuellement installée du firmware. Cela peut être utile pour résoudre des problèmes persistants ou repartir d'une configuration propre avec les paramètres par défaut du firmware actuel.
+
+    Pour des instructions détaillées et plus d'informations, veuillez consulter [Reset Firmware](../../interface_guide/reset_firmware.md).
 
 === "Journal"
 
@@ -368,14 +378,6 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
     En outre, cette page propose un bouton Export Log, qui permet d'exporter tous les journaux collectés pour analyse par le support technique. Cette fonction est précieuse pour diagnostiquer des problèmes complexes et obtenir une assistance professionnelle.
 
     Pour des instructions détaillées et plus d'informations, veuillez consulter [Log](../../interface_guide/log.md).
-
----
-
-=== "Réinitialiser le firmware"
-
-    La page Reset Firmware permet de réinitialiser la version actuelle du firmware du routeur à ses paramètres par défaut, en effaçant toutes les configurations personnalisées. Ce processus restaure les paramètres par défaut de la version actuellement installée du firmware. Cela peut être utile pour résoudre des problèmes persistants ou repartir d'une configuration propre avec les paramètres par défaut du firmware actuel.
-
-    Pour des instructions détaillées et plus d'informations, veuillez consulter [Reset Firmware](../../interface_guide/reset_firmware.md).
 
 === "Paramètres avancés"
 

@@ -129,7 +129,7 @@ Hieronder vind je een overzicht van de functies in het webbeheerpaneel van Spitz
 
 Op de pagina Wireless kun je instellingen voor zowel het 5 GHz- als het 2.4 GHz-Wi-Fi-netwerk configureren. Je kunt Wi-Fi in- of uitschakelen, het TX-vermogen instellen, de Wi-Fi-naam (SSID) opgeven, een willekeurige BSSID in- of uitschakelen, de Wi-Fi-beveiligingsmodus selecteren, het Wi-Fi-wachtwoord instellen, de zichtbaarheid van de SSID configureren en de Wi-Fi-modus, bandbreedte en het kanaal kiezen.
 
-Raadpleeg [Wireless](../../interface_guide/wireless.md) om Wireless in te stellen.
+Raadpleeg [Wireless](../../interface_guide/wireless_v4.8.md) voor meer informatie.
 
 ## Clients {#clients}
 
@@ -237,13 +237,13 @@ Een VPN (virtual private network) maakt een beveiligde, versleutelde verbinding 
 
     Raadpleeg [Lan Tutorial](../../interface_guide/lan.md) om het LAN in te stellen.
 
----
-
 === "Guest Network"
 
     Je kunt een subnet instellen binnen de privé-IPv4-adresbereiken 192.168.0.0/16, 172.16.0.0/12 of 10.0.0.0/8. Ook kun je de IP-adressen van de gateway en het subnetmasker opgeven en beveiligingsinstellingen, zoals AP-isolatie, voor het gastnetwerk configureren.
 
     Raadpleeg [Guest Network](../../interface_guide/guest_network.md) om het gastnetwerk in te stellen.
+
+---
 
 === "DNS"
 
@@ -257,7 +257,6 @@ Een VPN (virtual private network) maakt een beveiligde, versleutelde verbinding 
 
     Raadpleeg [Port Management](../../interface_guide/ethernet_port.md) om Ethernet-poorten te beheren.
 
----
 
 === "Network Mode"
 
@@ -271,11 +270,11 @@ Een VPN (virtual private network) maakt een beveiligde, versleutelde verbinding 
 
     Raadpleeg [IPV6](../../interface_guide/ipv6.md) om IPV6 in te stellen.
 
+---
+
 === "Drop-in Gateway"
 
     Drop-in Gateway breidt de functies van je hoofdrouter uit met functies die deze mogelijk niet heeft, waaronder AdGuard Home, versleutelde DNS en VPN. Raadpleeg [Een drop-in gateway instellen](../../tutorials/how_to_set_up_drop_in_gateway.md) om een drop-in gateway in te stellen.
-
----
 
 === "IGMP Snooping"
 
@@ -337,13 +336,13 @@ Een VPN (virtual private network) maakt een beveiligde, versleutelde verbinding 
 
     Raadpleeg [Scheduled Tasks](../../interface_guide/scheduled_tasks.md){target="_blank"} voor uitgebreide instructies.
 
----
-
 === "Time Zone"
 
     Op de pagina Time Zone kun je de juiste tijdzone voor je router instellen. Hierdoor krijgen alle geplande taken, logboeken en systeemgebeurtenissen een nauwkeurig tijdstempel op basis van je lokale tijd. Deze instelling is essentieel voor nauwkeurige registraties en een correcte uitvoering van tijdgebonden configuraties.
 
     Raadpleeg [Time Zone](../../interface_guide/time_zone.md){target="_blank"} voor uitgebreide instructies.
+
+---
 
 === "Log"
 
@@ -371,8 +370,6 @@ Een VPN (virtual private network) maakt een beveiligde, versleutelde verbinding 
     Met deze instellingen onderhoud je een veilige netwerkomgeving en bescherm je zowel de router als de verbonden apparaten.
 
     Raadpleeg [Security](../../interface_guide/security.md) voor uitgebreide instructies.
-
----
 
 === "Reset Firmware"
 

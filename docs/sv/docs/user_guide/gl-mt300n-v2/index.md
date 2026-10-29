@@ -84,7 +84,21 @@ Konfigurera Mango med någon av de internetanslutningsmetoder som stöds: Ethern
 
     Detaljerade anvisningar finns i [Anslut till internet via ett USB-modem](../../interface_guide/internet_cellular.md).
 
-## Konfigurera ett VPN {#how-to-set-up-a-vpn}
+---
+
+## Wireless {#wireless}
+
+På sidan Wireless kan du konfigurera inställningar för Wi-Fi-nätverken på 2.4 GHz, bland annat aktivering av Wi-Fi, sändareffekt, Wi-Fi-namn (SSID), säkerhetsläge och lösenord för Wi-Fi, SSID-synlighet, Wi-Fi-läge, bandbredd och kanal.
+
+Mer information finns i [Wireless](../../interface_guide/wireless_v4.8.md).
+
+## Clients {#clients}
+
+På sidan Clients visas information om anslutna enheter. För varje klient visas namn, IP- och MAC-adresser, nedladdnings- och uppladdningshastighet samt total trafik. Du kan även blockera klienten eller utföra andra åtgärder.
+
+Information om hur du konfigurerar Clients finns i [Clients](../../interface_guide/clients.md).
+
+## VPN {#vpn}
 
 Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindelse mellan din enhet och VPN-servern. Det ger ett extra lager av integritet och säkerhet (VPN-klient) och låter dig få åtkomst till ett fjärrnätverk (VPN-server). Mango och andra GL.iNet-routrar stöder OpenVPN och WireGuard.
 
@@ -122,7 +136,7 @@ Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindel
 
     Information om hur du konfigurerar GoodCloud finns i [GoodCloud](../../interface_guide/cloud.md).
 
-## Nätverksinställningar {#network-settings}
+## Network {#network}
 
 === "Firewall"
 
@@ -217,7 +231,7 @@ Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindel
 
     Information om hur du konfigurerar IGMP snooping finns i [IGMP Snooping](../../interface_guide/igmp_snooping.md).
 
-## Systeminställningar {#system-settings}
+## System {#system}
 
 === "Overview"
 

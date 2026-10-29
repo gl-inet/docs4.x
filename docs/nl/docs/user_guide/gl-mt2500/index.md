@@ -74,7 +74,29 @@ Open een webbrowser, voer `192.168.8.1` in de adresbalk in en meld je aan. Kies 
 
 **Opmerking:** als je de functie [Multi-WAN](../../interface_guide/multi-wan.md) wilt gebruiken, stel je meerdere methoden voor internetverbindingen in.
 
-## Een VPN instellen {#how-to-set-up-a-vpn}
+---
+
+## Clients {#clients}
+
+De pagina Clients toont informatie over verbonden apparaten. Voor elke client worden de apparaatnaam, het IP- en MAC-adres, de download- en uploadsnelheid en het totale verkeer weergegeven. Je kunt ook een IP-adres reserveren, de client blokkeren en andere handelingen uitvoeren.
+
+Raadpleeg [Clients](../../interface_guide/clients.md) om Clients in te stellen.
+
+## Clouddiensten {#cloud-services}
+
+=== "GoodCloud"
+
+    De dienst [GoodCloud](https://www.goodcloud.xyz){target="_blank"} van GL.iNet biedt een eenvoudige manier om GL.iNet-routers op afstand te openen en beheren.
+
+    Raadpleeg [GoodCloud](../../interface_guide/cloud.md) om GoodCloud in te stellen.
+
+=== "AstroWarp"
+
+    AstroWarp is een geavanceerd netwerkplatform voor naadloze externe netwerken en extern apparaatbeheer. AstroWarp is speciaal ontwikkeld voor integratie met GL.iNet-routers en ondersteunt uitgebreid apparaatbeheer voor volledige netwerken, waaronder het beheer van boven- en onderliggende apparaten. Door zich te richten op netwerkbreed beheer en toekomstige ondersteuning voor beheer op hardwareniveau biedt AstroWarp een robuustere en betrouwbaardere oplossing voor apparaatbeheer en het onderhouden van veilige, stabiele netwerken.
+
+    Raadpleeg [AstroWarp](../../interface_guide/astrowarp.md) om AstroWarp in te stellen.
+
+## VPN {#vpn}
 
 Een VPN (virtual private network) maakt een beveiligde, versleutelde verbinding voor verkeer tussen je apparaat en de VPN-server. Een VPN biedt extra privacy en beveiliging via een VPN-client en geeft je via een VPN-server toegang tot een extern netwerk. Brume 2 en andere GL.iNet-routers ondersteunen OpenVPN en WireGuard. Daarnaast wordt Tor ondersteund.
 
@@ -98,26 +120,6 @@ Een VPN (virtual private network) maakt een beveiligde, versleutelde verbinding 
 
     * [Tor instellen](../../interface_guide/tor.md).
 
-## Clients {#clients}
-
-De pagina Clients toont informatie over verbonden apparaten. Voor elke client worden de apparaatnaam, het IP- en MAC-adres, de download- en uploadsnelheid en het totale verkeer weergegeven. Je kunt ook een IP-adres reserveren, de client blokkeren en andere handelingen uitvoeren.
-
-Raadpleeg [Clients](../../interface_guide/clients.md) om Clients in te stellen.
-
-## Clouddiensten {#cloud-services}
-
-=== "GoodCloud"
-
-    De dienst [GoodCloud](https://www.goodcloud.xyz){target="_blank"} van GL.iNet biedt een eenvoudige manier om GL.iNet-routers op afstand te openen en beheren.
-
-    Raadpleeg [GoodCloud](../../interface_guide/cloud.md) om GoodCloud in te stellen.
-
-=== "AstroWarp"
-
-    AstroWarp is een geavanceerd netwerkplatform voor naadloze externe netwerken en extern apparaatbeheer. AstroWarp is speciaal ontwikkeld voor integratie met GL.iNet-routers en ondersteunt uitgebreid apparaatbeheer voor volledige netwerken, waaronder het beheer van boven- en onderliggende apparaten. Door zich te richten op netwerkbreed beheer en toekomstige ondersteuning voor beheer op hardwareniveau biedt AstroWarp een robuustere en betrouwbaardere oplossing voor apparaatbeheer en het onderhouden van veilige, stabiele netwerken.
-
-    Raadpleeg [AstroWarp](../../interface_guide/astrowarp.md) om AstroWarp in te stellen.
-
 ## Toepassingen {#applications}
 
 === "Plug-ins"
@@ -138,13 +140,13 @@ Raadpleeg [Clients](../../interface_guide/clients.md) om Clients in te stellen.
 
     Raadpleeg [Network Storage](../../interface_guide/network_storage.md) om netwerkopslag in te stellen.
 
----
-
 === "AdGuard Home"
 
     AdGuard Home blokkeert advertenties en trackers in het hele netwerk. De toepassing werkt als DNS-server en filtert ongewenste inhoud op alle apparaten die met een thuisnetwerk zijn verbonden.
 
     Raadpleeg [AdGuard Home](../../interface_guide/adguardhome.md) om AdGuard Home in te stellen.
+
+---
 
 === "Parental Control"
 
@@ -158,15 +160,13 @@ Raadpleeg [Clients](../../interface_guide/clients.md) om Clients in te stellen.
 
     Raadpleeg [ZeroTier](../../interface_guide/zerotier.md) om ZeroTier in te stellen.
 
----
-
 === "Tailscale"
 
     Tailscale is een VPN-dienst waarmee je overal toegang hebt tot je apparaten en toepassingen.
 
     Raadpleeg [Tailscale](../../interface_guide/tailscale.md) om Tailscale in te stellen.
 
-## Netwerkinstellingen {#network-settings}
+## Netwerk {#network}
 
 === "Port forwarding"
 
@@ -184,20 +184,17 @@ Raadpleeg [Clients](../../interface_guide/clients.md) om Clients in te stellen.
 
     Raadpleeg [Lan Tutorial](../../interface_guide/lan.md) om het LAN in te stellen.
 
----
-
-
 === "DNS"
 
     Op de pagina DNS kun je aangepaste DNS-servers instellen, bescherming tegen DNS-rebindingaanvallen inschakelen en de DNS-instellingen van alle clients overschrijven. Je kunt aangepaste DNS-instellingen de VPN-DNS laten overschrijven en de DNS-servermodus op automatisch instellen of handmatig DNS-servers uit de Ethernet-verbinding opgeven.
 
     Raadpleeg [DNS](../../interface_guide/dns.md) om DNS in te stellen.
 
-=== "Network Port Management"
-
-    Op de pagina Network Port Management kun je de WAN- en LAN-poorten configureren, de WAN/LAN-interface op Ethernet instellen, de MAC-modus en het MAC-adres voor de WAN-interface opgeven en de onderhandelde snelheid van de netwerkpoort weergeven.
-
 ---
+
+=== "Port Management"
+
+    Op de pagina Port Management kun je de WAN- en LAN-poorten configureren, de WAN/LAN-interface op Ethernet instellen, de MAC-modus en het MAC-adres voor de WAN-interface opgeven en de onderhandelde snelheid van de netwerkpoort weergeven.
 
 === "Network Mode"
 
@@ -237,7 +234,7 @@ Raadpleeg [Clients](../../interface_guide/clients.md) om Clients in te stellen.
 
     Raadpleeg [NAT Settings](../../interface_guide/nat_settings.md) om de NAT-instellingen te configureren.
 
-## Systeeminstellingen {#system-settings}
+## Systeem {#system}
 
 === "Overview"
 
@@ -276,13 +273,13 @@ Raadpleeg [Clients](../../interface_guide/clients.md) om Clients in te stellen.
 
     Raadpleeg [Scheduled Tasks](../../interface_guide/scheduled_tasks.md) voor uitgebreide instructies.
 
----
-
 === "Time Zone"
 
     Op de pagina Time Zone kun je de juiste tijdzone voor je router instellen. Hierdoor krijgen alle geplande taken, logboeken en systeemgebeurtenissen een nauwkeurig tijdstempel op basis van je lokale tijd. Deze instelling is essentieel voor nauwkeurige registraties en een correcte uitvoering van tijdgebonden configuraties.
 
     Raadpleeg [Time Zone](../../interface_guide/time_zone.md) voor uitgebreide instructies.
+
+---
 
 === "Log"
 
@@ -310,8 +307,6 @@ Raadpleeg [Clients](../../interface_guide/clients.md) om Clients in te stellen.
     Met deze instellingen onderhoud je een veilige netwerkomgeving en bescherm je zowel de router als de verbonden apparaten.
 
     Raadpleeg [Security](../../interface_guide/security.md) voor uitgebreide instructies.
-
----
 
 === "Reset Firmware"
 

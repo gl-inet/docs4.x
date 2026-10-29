@@ -18,6 +18,7 @@ Use the `$glinet-docs-translation` skill and follow its Incremental Sync Workflo
 - Run `python scripts/i18n_check.py --lang de es fr it ja nl pl sv uk` and fix every error in the files you synced.
 - Record each sync with `python scripts/translation_delta.py mark <en-file> ... --lang <langs> --model codex`. Do not edit `.translation-cache.json` in any other way. If `mark` refuses a language, fix the reported problem; if it cannot be fixed safely, leave that language unmarked and report it.
 - Use `--no-target-change` only for English changes that need no translation change, such as typo fixes, and only with the languages listed explicitly.
+- Sections headed `{#declaration-of-conformity}` or `{#safety-information}` exist only in localized pages and have no English counterpart. Keep every such section exactly as it is, including its heading level, text, and position, even when you rewrite or reorder the surrounding page. Before marking a page, check with `git diff` that none of its lines were removed or changed.
 - Do not modify English source files in this run. If an English source has an obvious issue, report it with a path, location, problem, suggested correction, and whether it blocks translation.
 - Do not commit or push. Leave the translated files and cache changes in the working tree for the workflow to validate and submit.
 

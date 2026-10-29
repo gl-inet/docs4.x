@@ -10,11 +10,19 @@ Use the `$glinet-docs-translation` skill and follow its Incremental Sync Workflo
 - For each out-of-date file and language, run `python scripts/translation_delta.py diff <en-file> --lang <lang>` to see what English changed since that language was synced. If it reports no stored English version, compare the whole English and localized pages.
 - Skip the excluded Downloads page and trailing `## Regulatory Statements` sections as required by the skill.
 
+## Work plan
+
+- Before editing, split the sync into units and write the list in your notes. A unit is one language and a group of its out-of-date English files whose `translation_delta.py diff` output for that language totals at most about 600 changed lines; a larger file is a unit on its own. For a file with no stored English version, count the whole English page.
+- Run at most two subagents at a time, and give each one unit: the language, the files, the diff commands, the target-language reference, and the Translation rules below. Do small units yourself, such as typo fixes that need `--no-target-change`.
+- When a subagent finishes, review the unit's diff, run `python scripts/i18n_check.py --lang <lang> <pages>`, and mark the unit before you hand out the next one.
+- Only you run `translation_delta.py mark`, one unit at a time. Subagents must not run it or edit `.translation-cache.json`, because parallel runs overwrite each other's cache entries.
+- If a subagent cannot start, fails, or its unit does not pass the checks, do or fix that unit yourself. A delegation error alone is not a reason to return `failed`.
+
 ## Translation
 
 - First produce the English change list in your result, including added, modified, deleted, and renamed source files where applicable.
 - Sync `de`, `es`, `fr`, `it`, `ja`, `nl`, `pl`, `sv`, and `uk`. Preserve Markdown structure, links, images, anchors, UI labels, technical values, warnings, and protected localized declarations.
-- Translate only changed portions of existing pages. Read the full English and localized pages and nearby terminology before editing. Use at most two subagents for independent language or topic batches if useful.
+- Translate only changed portions of existing pages. Read the full English and localized pages and nearby terminology before editing.
 - Run `python scripts/i18n_check.py --lang de es fr it ja nl pl sv uk` and fix every error in the files you synced.
 - Record each sync with `python scripts/translation_delta.py mark <en-file> ... --lang <langs> --model codex`. Do not edit `.translation-cache.json` in any other way. If `mark` refuses a language, fix the reported problem; if it cannot be fixed safely, leave that language unmarked and report it.
 - Use `--no-target-change` only for English changes that need no translation change, such as typo fixes, and only with the languages listed explicitly.

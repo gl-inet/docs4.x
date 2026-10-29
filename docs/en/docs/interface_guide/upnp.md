@@ -32,17 +32,17 @@ Toggle the switch to enable UPnP. Compatible devices and applications can then r
 
 ![enable upnp](https://static.gl-inet.com/docs/router/en/4/interface_guide/upnp/upnp.png){class="glboxshadow"}
 
-- Client / Application: The description of client/app and the requesting device's LAN IP address.
+- **Client / Application**: The description of the client or application and the requesting device's LAN IP address.
 
-- Protocol: Transport protocol of the mapping, e.g. TCP or UDP.
+- **Protocol**: The transport protocol used for the mapping, such as `TCP` or `UDP`.
 
-- External Port: The WAN port for incoming connections.
+- **External Port**: The WAN port for incoming connections.
 
-- Internal Target: The target LAN IP address and port.
+- **Internal Target**: The target LAN IP address and port.
 
-- Lease: The remaining time before the mapping expires. The default lease duration is 7 days.
+- **Lease**: The remaining time before the mapping expires. The default lease duration is 7 days.
 
-- Action: Click the trash icon to delete the mapping. The client/app may request it again if still running.
+- **Action**: Click the trash icon to delete the mapping. The client or application may request it again if still running.
 
 Active port mappings are removed when the client releases them or their leases expire. Click **Refresh** to view the latest port mappings.
 

@@ -28,7 +28,7 @@ Watch this setup video or follow the steps below.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zhY7AqmKJAc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-If you need further guidance，please refer to [First time setup](../../faq/first_time_setup.md).
+If you need further guidance, please refer to [First time setup](../../faq/first_time_setup.md).
 
 ### 1. Power on {#1-power-on}
 
@@ -104,7 +104,7 @@ Configure your Slate Plus using one of the supported internet connection methods
 
 ---
 
-## Wirelesss {#wireless}
+## Wireless {#wireless}
 
 The Wireless page allows you to configure settings for the 5 GHz and 2.4 GHz Wi-Fi networks, including enabling Wi-Fi, setting TX power, specifying the Wi-Fi name (SSID), selecting Wi-Fi security mode and password, configuring SSID visibility, choosing the Wi-Fi mode, bandwidth, and channel. 
 

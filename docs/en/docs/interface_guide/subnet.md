@@ -48,7 +48,7 @@ You can set the subnet within the IPv4 private address ranges: `192.168.0.0/16`,
 
 ### DHCP Server {#dhcp-server}
 
-The **DHCP Server** is enabled by default. The DHCP server automatically assigns IP addresses and other communication parameters to each client devices.
+The **DHCP Server** is enabled by default. The DHCP server automatically assigns IP addresses and other communication parameters to each client device.
 
 If the DHCP server is disabled, you will need to configure network settings for client devices manually. Click [here](../tutorials/manually_configure_static_ip.md) to learn how to manually configure a static IP.
 
@@ -148,7 +148,7 @@ You can set the subnet within the IPv4 private address ranges: `192.168.0.0/16`,
 
 ### DHCP Server {#dhcp-server_1}
 
-The **DHCP Server** is enabled by default. The DHCP server automatically assigns IP addresses and other communication parameters to each client devices.
+The **DHCP Server** is enabled by default. The DHCP server automatically assigns IP addresses and other communication parameters to each client device.
 
 If the DHCP server is disabled, you will need to configure network settings for client devices manually. Click [here](../tutorials/manually_configure_static_ip.md) to learn how to manually configure a static IP.
 
@@ -224,7 +224,7 @@ You can set the subnet within the IPv4 private address ranges: `192.168.0.0/16`,
 
 ### DHCP Server {#dhcp-server_2}
 
-The **DHCP Server** is enabled by default. The DHCP server automatically assigns IP addresses and other communication parameters to each client devices.
+The **DHCP Server** is enabled by default. The DHCP server automatically assigns IP addresses and other communication parameters to each client device.
 
 If the DHCP server is disabled, you will need to configure network settings for client devices manually. Click [here](../tutorials/manually_configure_static_ip.md) to learn how to manually configure a static IP.
 
@@ -300,7 +300,7 @@ You can configure the basic **VLAN Networks** information on this page.
 
 ### DHCP Server {#dhcp-server_3}
 
-The **DHCP Server** is enabled by default. The DHCP server automatically assigns IP addresses and other communication parameters to each client devices.
+The **DHCP Server** is enabled by default. The DHCP server automatically assigns IP addresses and other communication parameters to each client device.
 
 If the DHCP server is disabled, you will need to configure network settings for client devices manually. Click [here](../tutorials/manually_configure_static_ip.md) to learn how to manually configure a static IP.
 

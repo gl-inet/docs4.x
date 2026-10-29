@@ -40,7 +40,7 @@ You can set the subnet within the IPv4 private address ranges: `192.168.0.0/16`,
 
 If Guest Network is enabled, its DHCP server will be enabled accordingly.
 
-The DHCP server automatically assigns IP addresses and other communication parameters to each client devices connected to Guest Network. If the DHCP server is disabled, you will need to configure network settings for client devices manually. Click [here](../tutorials/manually_configure_static_ip.md) to learn how to manually configure a static IP.
+The DHCP server automatically assigns IP addresses and other communication parameters to each client device connected to Guest Network. If the DHCP server is disabled, you will need to configure network settings for client devices manually. Click [here](../tutorials/manually_configure_static_ip.md) to learn how to manually configure a static IP.
 
 You can change the starting and ending IP addresses to suit your needs — for example, if your network expands or shrinks, if IP address conflicts occur, or if the subnet mask range is modified.
 

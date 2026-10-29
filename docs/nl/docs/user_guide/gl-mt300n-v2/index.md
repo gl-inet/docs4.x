@@ -84,7 +84,21 @@ Configureer je Mango met een van de ondersteunde methoden voor internetverbindin
 
     Raadpleeg [Verbinding maken met internet via een USB-modem](../../interface_guide/internet_cellular.md) voor uitgebreide instructies.
 
-## Een VPN instellen {#how-to-set-up-a-vpn}
+---
+
+## Wireless {#wireless}
+
+Op de pagina Wireless kun je instellingen voor de Wi-Fi-netwerken op 2.4 GHz configureren, waaronder het inschakelen van Wi-Fi, het zendvermogen, de Wi-Fi-naam (SSID), de Wi-Fi-beveiligingsmodus en het wachtwoord, de zichtbaarheid van de SSID, de Wi-Fi-modus, bandbreedte en het kanaal.
+
+Raadpleeg [Wireless](../../interface_guide/wireless_v4.8.md) voor meer informatie.
+
+## Clients {#clients}
+
+De pagina Clients toont informatie over verbonden apparaten. Voor elke client worden de naam, het IP- en MAC-adres, de download- en uploadsnelheid en het totale verkeer weergegeven. Je kunt de client ook blokkeren en andere handelingen uitvoeren.
+
+Raadpleeg [Clients](../../interface_guide/clients.md) om Clients in te stellen.
+
+## VPN {#vpn}
 
 Een VPN (virtual private network) maakt een beveiligde, versleutelde verbinding voor verkeer tussen je apparaat en de VPN-server. Een VPN biedt extra privacy en beveiliging via een VPN-client en geeft je via een VPN-server toegang tot een extern netwerk. Mango en andere GL.iNet-routers ondersteunen OpenVPN en WireGuard.
 
@@ -122,7 +136,7 @@ Een VPN (virtual private network) maakt een beveiligde, versleutelde verbinding 
 
     Raadpleeg [GoodCloud](../../interface_guide/cloud.md) om GoodCloud in te stellen.
 
-## Netwerkinstellingen {#network-settings}
+## Netwerk {#network}
 
 === "Firewall"
 
@@ -149,7 +163,7 @@ Een VPN (virtual private network) maakt een beveiligde, versleutelde verbinding 
     * DHCP: schakel het Dynamic Host Configuration Protocol in of configureer het. Dit protocol wijst automatisch IP-adressen toe aan apparaten in je netwerk.
     * Address Reservation: reserveer specifieke IP-adressen voor bepaalde apparaten, zodat deze altijd hetzelfde IP-adres van de DHCP-server krijgen.
 
-    Raadpleeg [Lan](../../interface_guide/lan.md) om het LAN in te stellen.
+    Raadpleeg [LAN](../../interface_guide/lan.md) om het LAN in te stellen.
 
 ---
 
@@ -217,7 +231,7 @@ Een VPN (virtual private network) maakt een beveiligde, versleutelde verbinding 
 
     Raadpleeg [IGMP Snooping](../../interface_guide/igmp_snooping.md) om IGMP snooping in te stellen.
 
-## Systeeminstellingen {#system-settings}
+## Systeem {#system}
 
 === "Overview"
 

@@ -114,7 +114,21 @@ Richten Sie Shadow mit einer der unterstützten Internetverbindungsmethoden ein:
 
     Detaillierte Anweisungen finden Sie unter [Über ein USB-Modem eine Verbindung zum Internet herstellen](../../interface_guide/internet_cellular.md).
 
-## So richten Sie ein VPN ein {#how-to-set-up-a-vpn}
+---
+
+## WLAN {#wireless}
+
+Die Wireless-Seite ermöglicht die Konfiguration der Einstellungen für die 2.4 GHz-Wi-Fi-Netzwerke, darunter die Aktivierung von Wi-Fi, die Sendeleistung, der Wi-Fi-Name (SSID), der Wi-Fi-Sicherheitsmodus und das Passwort, die Sichtbarkeit der SSID sowie Wi-Fi-Modus, Bandbreite und Kanal.
+
+Zum Einrichten von Wireless lesen Sie bitte [Wireless](../../interface_guide/wireless_v4.8.md).
+
+## Clients {#clients}
+
+Auf der Seite Clients werden Informationen zu verbundenen Geräten angezeigt. Für jeden Client sehen Sie den Namen, IP- und MAC-Adressen, Download- und Upload-Geschwindigkeiten, das gesamte Datenvolumen sowie die Möglichkeit, den Client zu blockieren oder weitere Aktionen auszuführen.
+
+Zum Einrichten von Clients lesen Sie bitte [Clients](../../interface_guide/clients.md).
+
+## VPN {#vpn}
 
 Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten Datenverkehr zwischen Ihrem Gerät und dem VPN-Server. Es bietet eine zusätzliche Ebene für Datenschutz und Sicherheit (VPN-Client) und ermöglicht Ihnen den Zugriff auf ein entferntes Netzwerk (VPN-Server). Shadow und andere GL.iNet-Router unterstützen OpenVPN und WireGuard.
 
@@ -152,7 +166,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
     
     Zum Einrichten von GoodCloud lesen Sie bitte [GoodCloud](../../interface_guide/cloud.md).
 
-## Netzwerkeinstellungen {#network-settings}
+## Netzwerk {#network}
 
 === "Firewall"
 
@@ -179,7 +193,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
     * DHCP: Aktivieren oder konfigurieren Sie das Dynamic Host Configuration Protocol, das Geräten in Ihrem Netzwerk automatisch IP-Adressen zuweist.
     * Address Reservation: Reservieren Sie bestimmte IP-Adressen für einzelne Geräte, damit diese vom DHCP-Server immer dieselbe IP-Adresse erhalten.
 
-    Zum Einrichten von LAN lesen Sie bitte [Lan](../../interface_guide/lan.md).
+    Informationen zur Einrichtung finden Sie unter [LAN](../../interface_guide/lan.md).
 
 ---
 
@@ -247,7 +261,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     Zum Einrichten von IGMP Snooping lesen Sie bitte [IGMP Snooping](../../interface_guide/igmp_snooping.md).
 
-## Systemeinstellungen {#system-settings}
+## System {#system}
 
 === "Overview"
 

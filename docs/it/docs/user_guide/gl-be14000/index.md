@@ -154,7 +154,7 @@ Una VPN (rete privata virtuale) crea un canale di traffico sicuro e crittografat
 
 === "Subnet"
 
-    La pagina Subnet centralizza la gestione di LAN, Guest Network, IoT Network e reti VLAN personalizzate, consentendo di creare e gestire più sottoreti per isolare diversi tipi di dispositivi o traffico.
+    Questa pagina consente di configurare e gestire in modo centralizzato **Main Network**, **Guest Network**, **IoT Network** e le **VLAN Networks** personalizzate. È possibile creare e gestire più sottoreti per isolare diversi tipi di dispositivi o traffico.
 
     Per maggiori dettagli, consultare [Subnet](../../interface_guide/subnet.md).
 

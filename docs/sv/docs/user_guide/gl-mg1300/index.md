@@ -160,7 +160,7 @@ Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindel
 
 === "Subnet"
 
-    Subnet samlar hanteringen av LAN, Guest Network, IoT Network och anpassade VLAN Networks. Där kan du skapa och hantera flera subnät för att isolera olika typer av enheter eller trafik.
+    På den här sidan kan du konfigurera och hantera **Main Network**, **Guest Network**, **IoT Network** och egna **VLAN Networks** centralt. Du kan skapa och hantera flera subnät för att isolera olika typer av enheter eller trafik.
 
     Information om hur du konfigurerar subnet finns i [Subnet](../../interface_guide/subnet.md).
 
@@ -169,13 +169,14 @@ Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindel
     På sidan Ethernet Port kan du konfigurera WAN- och LAN-portarna, ange Ethernet för WAN/LAN-gränssnittet, ange MAC-läge och MAC-adress för WAN-gränssnittet samt visa nätverksportens förhandlade hastighet.
 
     Information om hur du konfigurerar ethernet Port finns i [Ethernet Port](../../interface_guide/ethernet_port_v4.10.md).
----
 
 === "DNS"
 
     På sidan DNS kan du ange anpassade DNS-servrar, aktivera skydd mot DNS-rebinding-attacker, åsidosätta DNS-inställningarna för alla klienter och tillåta att anpassad DNS åsidosätter VPN-DNS. Du kan använda DNS-servrar som hämtas automatiskt från uppströmsenheter eller ange anpassade DNS-servrar manuellt.
 
     Information om hur du konfigurerar DNS finns i [DNS](../../interface_guide/dns.md).
+
+---
 
 === "IPv6"
 
@@ -186,10 +187,8 @@ Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindel
 === "IGMP Snooping"
 
     IGMP snooping är en teknik för nätverksoptimering som används i Ethernet-switchar för att hantera och styra multicast-trafik.
-
+    
     Information om hur du konfigurerar IGMP snooping finns i [IGMP Snooping](../../interface_guide/igmp_snooping.md).
-
----
 
 === "Network Mode"
 
@@ -205,11 +204,9 @@ Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindel
 
 ## Flow Control {#flow-control}
 
-=== "Parental Control"
+Parental Control hjälper dig att hantera och styra dina barns enheter. Funktionen kan bland annat begränsa deras skärmtid och åtkomst till visst innehåll.
 
-    Parental Control hjälper dig att hantera och styra dina barns enheter. Funktionen kan bland annat begränsa deras skärmtid och åtkomst till visst innehåll.
-
-    Information om hur du konfigurerar parental control finns i [Parental Control](../../interface_guide/parental_control_v4.9.md).
+Information om hur du konfigurerar parental control finns i [Parental Control](../../interface_guide/parental_control_v4.9.md).
 
 ## Security {#security}
 

@@ -129,7 +129,7 @@ Poniżej znajduje się przegląd funkcji dostępnych w panelu administracyjnym S
 
 Strona Wireless umożliwia konfigurację ustawień zarówno sieci Wi-Fi 5 GHz, jak i 2,4 GHz, w tym włączanie/wyłączanie Wi-Fi, ustawianie mocy TX, określanie nazwy sieci Wi-Fi (SSID), włączanie/wyłączanie losowego BSSID, wybór trybu zabezpieczeń Wi-Fi, ustawianie hasła Wi-Fi, konfigurację widoczności SSID oraz wybór trybu Wi-Fi, szerokości pasma i kanału.
 
-Aby skonfigurować ustawienia Wireless, zobacz [Wireless](../../interface_guide/wireless.md).
+Więcej informacji znajdziesz w sekcji [Wireless](../../interface_guide/wireless_v4.8.md).
 
 ## Clients {#clients}
 
@@ -237,13 +237,13 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie międz
     
     Aby skonfigurować LAN, zobacz [Lan Tutorial](../../interface_guide/lan.md). 
 
----
-
 === "Guest Network"
 
     Umożliwia ustawienie podsieci w prywatnych zakresach adresów IPv4 192.168.0.0/16, 172.16.0.0/12 lub 10.0.0.0/8, określenie adresów IP bramy i maski sieci oraz skonfigurowanie ustawień zabezpieczeń, takich jak izolacja AP dla sieci gościnnej.
 
     Aby skonfigurować sieć gościnną, zapoznaj się z [Guest Network](../../interface_guide/guest_network.md). 
+
+---
 
 === "DNS"
 
@@ -257,7 +257,6 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie międz
 
     Aby zarządzać portami Ethernet, zobacz [Port Management](../../interface_guide/ethernet_port.md).
 
----
 
 === "Network Mode"
 
@@ -271,11 +270,11 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie międz
     
     Aby skonfigurować IPV6, zobacz [IPV6](../../interface_guide/ipv6.md).
 
+---
+
 === "Drop-in Gateway"
 
     Drop-in Gateway rozszerza funkcjonalność głównego routera o funkcje, których może on nie mieć, w tym AdGuard Home, szyfrowany DNS i VPN. Aby skonfigurować Drop-in Gateway, zobacz [Jak skonfigurować Drop-in Gateway](../../tutorials/how_to_set_up_drop_in_gateway.md). 
-
----
 
 === "IGMP Snooping"
 
@@ -337,13 +336,13 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie międz
 
     Szczegółowe instrukcje znajdziesz w [Scheduled Tasks](../../interface_guide/scheduled_tasks.md){target="_blank"}.
 
----
-
 === "Time Zone"
 
     Strona Time Zone umożliwia ustawienie właściwej strefy czasowej routera, dzięki czemu wszystkie zaplanowane zadania, logi i zdarzenia systemowe będą poprawnie oznaczane zgodnie z czasem lokalnym. To ustawienie ma kluczowe znaczenie dla prowadzenia dokładnych rejestrów oraz prawidłowego działania konfiguracji opartych na czasie.
 
     Szczegółowe instrukcje znajdziesz w [Time Zone](../../interface_guide/time_zone.md){target="_blank"}.
+
+---
 
 === "Log"
 
@@ -371,8 +370,6 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie międz
     Ustawienia te pomagają utrzymać bezpieczne środowisko sieciowe, chroniąc zarówno router, jak i podłączone urządzenia.
 
     Szczegółowe instrukcje znajdziesz w [Security](../../interface_guide/security.md).
-
----
 
 === "Reset Firmware"
 

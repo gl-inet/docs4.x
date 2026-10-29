@@ -96,7 +96,35 @@ Skonfiguruj Slate AX, korzystając z jednej z obsługiwanych metod połączenia 
 
     Aby uzyskać szczegółowe instrukcje, zapoznaj się z [Połącz z internetem przez sieć komórkową](../../interface_guide/internet_cellular.md).
 
-## Jak skonfigurować VPN {#how-to-set-up-a-vpn}
+---
+
+## Wireless {#wireless}
+
+Strona Wireless umożliwia konfigurację ustawień sieci Wi-Fi 5 GHz i 2.4 GHz, w tym włączanie Wi-Fi, ustawianie mocy TX, określanie nazwy sieci Wi-Fi (SSID), włączanie losowego BSSID, wybór trybu zabezpieczeń Wi-Fi i hasła, konfigurację widoczności SSID oraz wybór trybu Wi-Fi, szerokości pasma i kanału.
+
+Aby skonfigurować Wireless, zapoznaj się z [Wireless](../../interface_guide/wireless_v4.8.md).
+
+## CLIENTS {#clients}
+
+Strona Clients wyświetla informacje o podłączonych urządzeniach. Dla każdego klienta pokazuje nazwę, adresy IP i MAC, szybkość pobierania i wysyłania, całkowity ruch oraz umożliwia zablokowanie klienta lub wykonanie innych działań.
+
+Aby uzyskać szczegółowe instrukcje, zapoznaj się z [Clients](../../interface_guide/clients.md).
+
+## Usługi chmurowe {#cloud-services}
+
+=== "GoodCloud"
+
+    Usługa GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} zapewnia łatwy i prosty sposób zdalnego dostępu do routerów GL.iNet oraz zarządzania nimi.
+
+    Aby skonfigurować GoodCloud, zapoznaj się z [GoodCloud](../../interface_guide/cloud.md).
+
+=== "AstroWarp"
+
+    AstroWarp to zaawansowana platforma sieciowa zaprojektowana z myślą o bezproblemowej zdalnej komunikacji sieciowej i zdalnym zarządzaniu urządzeniami. Została stworzona specjalnie do integracji z routerami GL.iNet i obsługuje kompleksowe zarządzanie urządzeniami w całych sieciach, umożliwiając kontrolę zarówno urządzeń nadrzędnych, jak i podrzędnych. Dzięki naciskowi na zarządzanie całą siecią i przyszłemu wsparciu dla sterowania na poziomie sprzętowym AstroWarp oferuje solidniejsze i bardziej niezawodne rozwiązanie do zarządzania urządzeniami oraz utrzymywania bezpiecznych, stabilnych sieci.
+
+    Aby skonfigurować AstroWarp, zapoznaj się z [AstroWarp](../../interface_guide/astrowarp.md).
+
+## VPN {#vpn}
 
 VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między Twoim urządzeniem a serwerem VPN. Zapewnia dodatkową warstwę prywatności i bezpieczeństwa (klient VPN), a także umożliwia dostęp do sieci zdalnej (serwer VPN). Slate AX obsługuje OpenVPN, WireGuard i Tor.
 
@@ -117,38 +145,8 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między Twoim 
 === "Tor"
 
     Tor, skrót od The Onion Router, to sieć zorientowana na prywatność, umożliwiająca anonimową komunikację w internecie. Kieruje ruch internetowy przez serię serwerów (węzłów) obsługiwanych przez wolontariuszy, aby ukryć lokalizację i aktywność użytkownika, co utrudnia śledzenie działań online.
-
+    
     * [Jak skonfigurować Tor](../../interface_guide/tor.md).
-
----
-
-## Sieć bezprzewodowa i klienci {#wireless-and-clients}
-
-=== "Wireless"
-
-    Strona Wireless umożliwia konfigurację ustawień sieci Wi-Fi 5 GHz i 2.4 GHz, w tym włączanie Wi-Fi, ustawianie mocy TX, określanie nazwy sieci Wi-Fi (SSID), włączanie losowego BSSID, wybór trybu zabezpieczeń Wi-Fi i hasła, konfigurację widoczności SSID oraz wybór trybu Wi-Fi, szerokości pasma i kanału.
-
-    Aby uzyskać szczegółowe instrukcje, zapoznaj się z [Wireless](../../interface_guide/wireless.md).
-
-=== "Clients"
-
-    Strona Clients wyświetla informacje o podłączonych urządzeniach. Dla każdego klienta pokazuje nazwę, adresy IP i MAC, szybkość pobierania i wysyłania, całkowity ruch oraz umożliwia zablokowanie klienta lub wykonanie innych działań.
-
-    Aby uzyskać szczegółowe instrukcje, zapoznaj się z [Clients](../../interface_guide/clients.md).
-
-## Usługi chmurowe {#cloud-services}
-
-=== "GoodCloud"
-
-    Usługa GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} zapewnia łatwy i prosty sposób zdalnego dostępu do routerów GL.iNet oraz zarządzania nimi.
-
-    Aby skonfigurować GoodCloud, zapoznaj się z [GoodCloud](../../interface_guide/cloud.md).
-
-=== "AstroWarp"
-
-    AstroWarp to zaawansowana platforma sieciowa zaprojektowana z myślą o bezproblemowej zdalnej komunikacji sieciowej i zdalnym zarządzaniu urządzeniami. Została stworzona specjalnie do integracji z routerami GL.iNet i obsługuje kompleksowe zarządzanie urządzeniami w całych sieciach, umożliwiając kontrolę zarówno urządzeń nadrzędnych, jak i podrzędnych. Dzięki naciskowi na zarządzanie całą siecią i przyszłemu wsparciu dla sterowania na poziomie sprzętowym AstroWarp oferuje solidniejsze i bardziej niezawodne rozwiązanie do zarządzania urządzeniami oraz utrzymywania bezpiecznych, stabilnych sieci.
-
-    Aby skonfigurować AstroWarp, zapoznaj się z [AstroWarp](../../interface_guide/astrowarp.md).
 
 ## Aplikacje {#applications}
 
@@ -184,19 +182,19 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między Twoim 
 
     Aby skonfigurować kontrolę rodzicielską, zapoznaj się z [Parental Control](../../interface_guide/parental_control.md).
 
-=== "ZeroTier"
-
-    ZeroTier to rozwiązanie sieci definiowanej programowo, które umożliwia użytkownikom tworzenie bezpiecznych, wirtualnych sieci przez internet i łączenie urządzeń tak, jakby znajdowały się w tej samej sieci lokalnej.
-
-    Aby skonfigurować ZeroTier, zapoznaj się z [ZeroTier](../../interface_guide/zerotier.md).
-
 === "Tailscale"
 
     Tailscale to usługa VPN, która umożliwia dostęp do urządzeń i aplikacji z dowolnego miejsca.
-
+    
     Aby skonfigurować Tailscale, zapoznaj się z [Tailscale](../../interface_guide/tailscale.md).
 
-## Ustawienia sieciowe {#network-settings}
+=== "ZeroTier"
+
+    ZeroTier to rozwiązanie sieci definiowanej programowo, które umożliwia użytkownikom tworzenie bezpiecznych, wirtualnych sieci przez internet i łączenie urządzeń tak, jakby znajdowały się w tej samej sieci lokalnej.
+    
+    Aby skonfigurować ZeroTier, zapoznaj się z [ZeroTier](../../interface_guide/zerotier.md).
+
+## Sieć {#network}
 
 === "Port Forwarding"
 
@@ -213,16 +211,16 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między Twoim 
 === "LAN"
 
     LAN (Local Area Network) to sieć łącząca komputery i urządzenia na ograniczonym obszarze geograficznym, takim jak dom lub biuro. Umożliwia szybki transfer danych i współdzielenie zasobów, dzięki czemu urządzenia mogą sprawnie komunikować się ze sobą.
-
+    
     Aby skonfigurować LAN, zapoznaj się z [LAN](../../interface_guide/lan.md).
-
----
 
 === "Guest Network"
 
     Umożliwia ustawienie podsieci w prywatnych zakresach adresów IPv4 192.168.0.0/16, 172.16.0.0/12 lub 10.0.0.0/8, określenie adresu IP bramy i maski sieci oraz skonfigurowanie ustawień zabezpieczeń, takich jak izolacja AP dla sieci gościnnej.
 
     Aby skonfigurować sieć gościnną, zapoznaj się z [Guest Network](../../interface_guide/guest_network.md).
+
+---
 
 === "DNS"
 
@@ -236,8 +234,6 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między Twoim 
 
     Aby skonfigurować zarządzanie portami Ethernet, zapoznaj się z [Port Management](../../interface_guide/ethernet_port.md).
 
----
-
 === "Network Mode"
 
     Tryb sieciowy określa ustawienia konfiguracji decydujące o sposobie, w jaki urządzenie łączy się z siecią i komunikuje się z innymi urządzeniami.
@@ -247,19 +243,19 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między Twoim 
 === "IPv6"
 
     IPv6 (Internet Protocol version 6) to najnowsza wersja protokołu internetowego, zaprojektowana jako następca IPv4. Zapewnia znacznie większą przestrzeń adresową, umożliwiając użycie praktycznie nieograniczonej liczby unikalnych adresów IP, co jest niezbędne przy stale rosnącej liczbie urządzeń podłączonych do internetu.
-
+    
     Aby skonfigurować IPv6, zapoznaj się z [IPv6](../../interface_guide/ipv6.md).
+
+---
 
 === "Drop-in gateway"
 
     Drop-in Gateway rozszerza funkcjonalność routera głównego o funkcje, których może on nie mieć, w tym AdGuard Home, szyfrowany DNS i VPN.
-
+    
     Aby skonfigurować Drop-in Gateway, zapoznaj się z następującymi materiałami:
-
+    
     - [Drop-in Gateway](../../interface_guide/drop-in_gateway.md)
     - [Jak skonfigurować Drop-in Gateway](../../tutorials/how_to_set_up_drop_in_gateway.md)
-
----
 
 === "IGMP Snooping"
 
@@ -273,7 +269,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między Twoim 
 
     Aby skonfigurować ustawienia NAT, zapoznaj się z [NAT Settings](../../interface_guide/nat_settings.md).
 
-## Ustawienia systemowe {#system-settings}
+## System {#system}
 
 === "Overview"
 

@@ -19,7 +19,7 @@ TS‑9-portarna på Mudi 7 är honkontakter (hål på insidan). De kräver anten
 Spitz AX (GL-X3000) och Puli AX (GL-XE3000) levereras med följande externa antenner:
 
 * 2 Wi-Fi-antenner (RP-SMA, 2.4G~2.5GHz, 5.15~5.84GHz)
-* 4 5G NR-antenner (SMA, 600M~6GHz)
+* 4 5G NR-antenner (SMA, 600MHz~6GHz)
 
 Installera de externa antennerna så här:
 
@@ -37,7 +37,7 @@ Installera de externa antennerna så här:
 Spitz Plus (GL-X2000) levereras med följande externa antenner:
 
 * 2 Wi-Fi-antenner (RP-SMA, 2.4G~2.5GHz, 5.15~5.84GHz)
-* 2 4G-antenner (SMA, 600M~3.8GHz)
+* 2 4G-antenner (SMA, 600MHz~3.8GHz)
 
 Installera de externa antennerna så här:
 

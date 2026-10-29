@@ -159,7 +159,7 @@ Una VPN (rete privata virtuale) crea una connessione sicura e crittografata tra 
 
 === "Subnet"
 
-    Subnet centralizza la gestione di LAN, Guest Network, IoT Network e reti VLAN personalizzate, consentendo di creare e gestire più sottoreti per isolare diversi tipi di dispositivi o traffico.
+    Questa pagina consente di configurare e gestire in modo centralizzato **Main Network**, **Guest Network**, **IoT Network** e le **VLAN Networks** personalizzate. È possibile creare e gestire più sottoreti per isolare diversi tipi di dispositivi o traffico.
 
     Per configurare questa funzione, consulta [Subnet](../../interface_guide/subnet.md).
 
@@ -169,13 +169,13 @@ Una VPN (rete privata virtuale) crea una connessione sicura e crittografata tra 
 
     Per gestire le porte Ethernet, fai riferimento a [Ethernet Port](../../interface_guide/ethernet_port_v4.10.md).
 
----
-
 === "DNS"
 
     La pagina DNS consente di impostare server DNS personalizzati, abilitare la protezione dagli attacchi DNS rebinding, sovrascrivere le impostazioni DNS di tutti i client e consentire ai DNS personalizzati di sovrascrivere i DNS della VPN. Puoi utilizzare i server DNS ottenuti automaticamente dai dispositivi a monte oppure specificare manualmente server DNS personalizzati.
 
     Per configurarla, fai riferimento a [DNS](../../interface_guide/dns.md).
+
+---
 
 === "IPv6"
 
@@ -186,10 +186,8 @@ Una VPN (rete privata virtuale) crea una connessione sicura e crittografata tra 
 === "IGMP Snooping"
 
     IGMP snooping e una tecnica di ottimizzazione della rete usata negli switch Ethernet per gestire e controllare il traffico multicast.
-
+    
     Per configurarlo, fai riferimento a [IGMP Snooping](../../interface_guide/igmp_snooping.md).
-
----
 
 === "Network Mode"
 
@@ -205,11 +203,9 @@ Una VPN (rete privata virtuale) crea una connessione sicura e crittografata tra 
 
 ## Controllo del flusso {#flow-control}
 
-=== "Parental Control"
+Parental Control e progettato per aiutarti a gestire e controllare i dispositivi dei tuoi figli. Include la limitazione del tempo di utilizzo dello schermo e la restrizione dell'accesso a determinati contenuti.
 
-    Parental Control e progettato per aiutarti a gestire e controllare i dispositivi dei tuoi figli. Include la limitazione del tempo di utilizzo dello schermo e la restrizione dell'accesso a determinati contenuti.
-
-    Per configurarlo, fai riferimento a [Parental Control](../../interface_guide/parental_control_v4.9.md).
+Per configurarlo, fai riferimento a [Parental Control](../../interface_guide/parental_control_v4.9.md).
 
 ## Sicurezza {#security}
 

@@ -154,7 +154,7 @@ Una VPN, red privada virtual, crea tráfico seguro y cifrado entre su dispositiv
 
 === "Subnet"
 
-    La página Subnet centraliza la administración de LAN, Guest Network, IoT Network y las redes VLAN personalizadas. Permite crear y administrar varias subredes para aislar distintos tipos de dispositivos o tráfico.
+    Esta página permite configurar y administrar de forma centralizada **Main Network**, **Guest Network**, **IoT Network** y las **VLAN Networks** personalizadas. Puede crear y administrar varias subredes para aislar distintos tipos de dispositivos o tráfico.
 
     Para obtener más información, consulte [Subnet](../../interface_guide/subnet.md).
 

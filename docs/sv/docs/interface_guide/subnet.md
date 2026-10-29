@@ -6,7 +6,7 @@
 
 Öppna **NETWORK** -> **Subnet**.
 
-Sidan samlar **LAN**, **Guest Network**, **IoT Network** och egna **VLAN Networks** i en vy. Du kan skapa och hantera flera subnät för att isolera enheter eller trafik.
+På den här sidan kan du konfigurera och hantera **Main Network**, **Guest Network**, **IoT Network** och egna **VLAN Networks** centralt. Du kan skapa och hantera flera subnät för att isolera olika typer av enheter eller trafik.
 
 ## Main Network {#main-network}
 

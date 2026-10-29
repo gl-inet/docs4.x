@@ -96,9 +96,53 @@ Skonfiguruj Beryl AX, korzystając z jednej z obsługiwanych metod połączenia 
 
     Zapoznaj się z poradnikiem [Connect to the Internet via cellular](../../interface_guide/internet_cellular.md), aby uzyskać szczegółowe instrukcje.
 
-## Jak skonfigurować VPN {#how-to-set-up-a-vpn}
+## DNS {#dns}
 
-VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie między urządzeniem a serwerem VPN. Zapewnia dodatkową warstwę prywatności i bezpieczeństwa (klient VPN) oraz umożliwia dostęp do sieci zdalnej (serwer VPN). Beryl AX (i inne routery GL.iNet) obsługuje OpenVPN i WireGuard. Dodatkowo obsługuje również Tor.
+Ustawienia DNS routera określają sposób rozwiązywania nazw domen na adresy IP. Na tej stronie możesz korzystać z serwerów DNS uzyskanych automatycznie z urządzeń nadrzędnych lub ustawić własne. Możesz również skonfigurować opcje DNS i edytować statyczne reguły hostów.
+
+Więcej informacji znajdziesz w sekcji [DNS](../../interface_guide/dns_v4.11.md).
+
+## Wireless {#wireless}
+
+Strona Wireless umożliwia konfigurację ustawień zarówno dla sieci Wi-Fi 5 GHz, jak i 2.4 GHz, w tym włączanie i wyłączanie Wi-Fi, ustawianie mocy TX, określanie nazwy sieci Wi-Fi (SSID), włączanie i wyłączanie losowego BSSID, wybór trybu zabezpieczeń Wi-Fi, ustawianie hasła Wi-Fi, konfigurację widoczności SSID oraz wybór trybu Wi-Fi, szerokości pasma i kanału.
+
+Zapoznaj się z poradnikiem [Wireless](../../interface_guide/wireless.md), aby uzyskać szczegółowe instrukcje.
+
+## Mesh {#mesh}
+
+Mesh to funkcja oparta na standardzie Wi-Fi EasyMesh™, która rozszerza zasięg Wi-Fi na cały dom i umożliwia płynny roaming. Jeśli masz kilka routerów GL.iNet, ustaw jeden jako router główny, a pozostałe jako węzły mesh, aby zapewnić płynny roaming Wi-Fi w całym domu.
+
+Więcej informacji znajdziesz w sekcji [Mesh](../../interface_guide/mesh.md).
+
+## CLIENTS {#clients}
+
+Strona Clients wyświetla informacje o podłączonych urządzeniach. Dla każdego klienta pokazuje nazwę urządzenia, typ połączenia (tj. przez Ethernet lub Wi-Fi), adresy IP i MAC, prędkości pobierania i wysyłania, całkowity ruch oraz umożliwia rezerwację IP, blokowanie klienta i wykonywanie innych działań.
+
+Zapoznaj się z poradnikiem [Clients](../../interface_guide/clients.md), aby uzyskać szczegółowe instrukcje.
+
+## Usługi chmurowe {#cloud-services}
+
+=== "GL.iNet Account"
+
+    GL.iNet Account umożliwia łączenie urządzeń i usług chmurowych oraz zarządzanie nimi. Zapewnia łatwy dostęp do GoodCloud i glinet App, dzięki czemu można bezpiecznie i wygodnie zarządzać siecią z dowolnego miejsca i o każdej porze.
+
+    Instrukcje konfiguracji zawiera strona [GL.iNet Account](../../interface_guide/glinet_account.md).
+
+=== "GoodCloud"
+
+    Usługa GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} zapewnia prosty i wygodny sposób zdalnego dostępu do routerów GL.iNet oraz zarządzania nimi.
+
+    Zapoznaj się z poradnikiem [GoodCloud](../../interface_guide/cloud.md), aby uzyskać szczegółowe instrukcje.
+
+=== "GoodPAS"
+
+    GoodPAS to zaawansowana funkcja sieciowa zapewniająca płynny zdalny dostęp i zarządzanie urządzeniami. Rozwiązanie zaprojektowano specjalnie do integracji z routerami GL.iNet i wykorzystuje ono protokół AmneziaWG z wbudowanym maskowaniem ruchu, aby zapewnić bezpieczne i stabilne połączenia. GoodPAS umożliwia zdalny dostęp do sieci domowej. Gdy router domowy pełni funkcję węzła wyjściowego GoodPAS, ruch internetowy wysyłany przez GoodPAS korzysta z publicznego adresu IP WAN tego routera.
+
+    Instrukcje konfiguracji zawiera strona [GoodPAS](../../interface_guide/goodpas.md).
+
+## VPN {#vpn}
+
+VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między Twoim urządzeniem a serwerem VPN. Zapewnia dodatkową warstwę prywatności i bezpieczeństwa (klient VPN) oraz umożliwia dostęp do sieci zdalnej (serwer VPN). Beryl AX (i inne routery GL.iNet) obsługuje OpenVPN i WireGuard.
 
 === "OpenVPN"
 
@@ -114,39 +158,142 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie międz
     * [Jak skonfigurować klienta WireGuard](../../interface_guide/wireguard_client.md)
     * [Jak skonfigurować serwer WireGuard](../../interface_guide/wireguard_server.md)
 
-=== "Tor"
+## Sieć {#network}
 
-    Tor, czyli The Onion Router, to sieć nastawiona na ochronę prywatności, która umożliwia anonimową komunikację w Internecie. Kieruje ruch internetowy przez serię serwerów (węzłów) obsługiwanych przez wolontariuszy, aby ukryć lokalizację i sposób korzystania z sieci przez użytkownika, co utrudnia śledzenie aktywności online.
+=== "Multi-WAN"
 
-    * [Jak skonfigurować Tor](../../interface_guide/tor.md)
+    Multi-WAN to funkcja sieciowa, która umożliwia skonfigurowanie routera z wieloma połączeniami internetowymi (np. Cellular, Repeater i Ethernet) jednocześnie. Jeśli bieżące połączenie internetowe przestanie działać, router automatycznie przełączy się na inne połączenie internetowe. Zapewnia to płynny i nieprzerwany dostęp do Internetu.
 
-## Sieć bezprzewodowa i klienci {#wireless-and-clients}
+    Zapoznaj się z poradnikiem [Multi-WAN](../../interface_guide/multi-wan.md), aby uzyskać szczegółowe instrukcje.
 
-=== "Wireless"
+=== "LAN"
 
-    Strona Wireless umożliwia konfigurację ustawień zarówno dla sieci Wi-Fi 5 GHz, jak i 2.4 GHz, w tym włączanie i wyłączanie Wi-Fi, ustawianie mocy TX, określanie nazwy sieci Wi-Fi (SSID), włączanie i wyłączanie losowego BSSID, wybór trybu zabezpieczeń Wi-Fi, ustawianie hasła Wi-Fi, konfigurację widoczności SSID oraz wybór trybu Wi-Fi, szerokości pasma i kanału.
+    Strona LAN umożliwia scentralizowaną konfigurację sieci głównej, sieci gościnnej, sieci IoT i niestandardowych sieci VLAN oraz zarządzanie nimi. Możesz tworzyć wiele podsieci i zarządzać nimi, aby izolować różne typy urządzeń lub ruchu.
 
-    Zapoznaj się z poradnikiem [Wireless](../../interface_guide/wireless.md), aby uzyskać szczegółowe instrukcje.
+=== "Ethernet Port"
 
-=== "Clients"
+    Strona Ethernet Port umożliwia konfigurację portów WAN i LAN, ustawienie interfejsu WAN/LAN jako Ethernet, określenie trybu MAC i adresu MAC dla interfejsu WAN oraz wyświetlanie wynegocjowanej szybkości portu sieciowego.
 
-    Strona Clients wyświetla informacje o podłączonych urządzeniach. Dla każdego klienta pokazuje nazwę urządzenia, typ połączenia (tj. przez Ethernet lub Wi-Fi), adresy IP i MAC, prędkości pobierania i wysyłania, całkowity ruch oraz umożliwia rezerwację IP, blokowanie klienta i wykonywanie innych działań.
+    Zapoznaj się z poradnikiem [Ethernet Port](../../interface_guide/ethernet_port_v4.10.md).
 
-    Zapoznaj się z poradnikiem [Clients](../../interface_guide/clients.md), aby uzyskać szczegółowe instrukcje.
+=== "IPv6"
 
-## Usługi chmurowe {#cloud-services}
+    IPv6, czyli Internet Protocol version 6, to najnowsza wersja protokołu internetowego zaprojektowana w celu zastąpienia IPv4. Zapewnia znacznie większą przestrzeń adresową, umożliwiając praktycznie nieograniczoną liczbę unikalnych adresów IP, co jest niezbędne ze względu na rosnącą liczbę urządzeń podłączonych do Internetu.
 
-=== "GoodCloud"
+    Zapoznaj się z poradnikiem [IPV6](../../interface_guide/ipv6.md), aby uzyskać szczegółowe instrukcje.
 
-    Usługa GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} zapewnia prosty i wygodny sposób zdalnego dostępu do routerów GL.iNet oraz zarządzania nimi.
+---
 
-    Zapoznaj się z poradnikiem [GoodCloud](../../interface_guide/cloud.md), aby uzyskać szczegółowe instrukcje.
+=== "IGMP Snooping"
 
-=== "AstroWarp"
+    IGMP snooping to technika optymalizacji sieci stosowana w przełącznikach Ethernet do zarządzania ruchem multicast i jego kontroli.
 
-    AstroWarp to zaawansowana platforma sieciowa zaprojektowana z myślą o bezproblemowej komunikacji zdalnej i zdalnym zarządzaniu urządzeniami. Stworzona specjalnie do integracji z routerami GL.iNet, AstroWarp obsługuje kompleksowe zarządzanie urządzeniami w całych sieciach, umożliwiając kontrolę zarówno urządzeń nadrzędnych, jak i podrzędnych. Koncentrując się na zarządzaniu całymi sieciami oraz przyszłym wsparciu kontroli na poziomie sprzętowym, AstroWarp oferuje bardziej solidne i niezawodne rozwiązanie do zarządzania urządzeniami oraz utrzymywania bezpiecznych, stabilnych sieci.
+    Zapoznaj się z poradnikiem [IGMP Snooping](../../interface_guide/igmp_snooping.md), aby uzyskać szczegółowe instrukcje.
 
-    Zapoznaj się z poradnikiem [AstroWarp](../../interface_guide/astrowarp.md), aby uzyskać szczegółowe instrukcje.
+=== "Network Mode"
+
+    Strona Network Mode umożliwia dostosowanie roli operacyjnej routera do różnych potrzeb wdrożeniowych. Można wybrać tryby przeznaczone do scenariuszy od domowego zasięgu Wi-Fi po firmowe sieci wielołączowe; każdy tryb włącza lub wyłącza określone funkcje routera w celu optymalizacji wydajności.
+
+    Instrukcje konfiguracji zawiera strona [Network Mode](../../interface_guide/network_mode.md).
+
+=== "Drop-in Gateway"
+
+    Drop-in Gateway rozszerza funkcjonalność głównego routera o takie funkcje jak AdGuard Home, szyfrowany DNS i klient VPN.
+
+    Aby skonfigurować Drop-in Gateway, skorzystaj z poniższych poradników:
+
+    - [Drop-in Gateway](../../interface_guide/drop-in_gateway.md)
+    - [Konfiguracja Drop-in Gateway](../../tutorials/how_to_set_up_drop_in_gateway.md)
+
+=== "Network Acceleration"
+
+    Network Acceleration może zmniejszyć obciążenie CPU i przyspieszyć przekazywanie pakietów ruchu.
+
+    Zapoznaj się z poradnikiem [Network Acceleration](../../interface_guide/network_acceleration.md), aby uzyskać szczegółowe instrukcje.
+
+## Kontrola ruchu {#flow-control}
+
+=== "Network Quality"
+
+    Panel Network Quality monitoruje jakość połączenia internetowego w czasie rzeczywistym. Ocenia szybkość reakcji, opóźnienia i wydajność DNS, wykrywając zerwania połączenia i utratę pakietów. Te wskaźniki pomagają identyfikować niestabilność sieci i problemy z łącznością, których same testy przepustowości mogą nie wykryć.
+
+    Więcej informacji znajdziesz w sekcji [Network Quality](../../interface_guide/network_quality.md).
+
+=== "Data Statistics"
+
+    Data Statistics to inteligentny panel analizy ruchu, który klasyfikuje i przedstawia wykorzystanie sieci według aplikacji. Pomaga monitorować ruch bieżący i historyczny oraz lepiej kontrolować sieć.
+
+    Szczegółowe informacje zawiera strona [Data Statistics](../../interface_guide/data_statistics.md).
+
+=== "Content Filter"
+
+    Content Filter zapewnia inteligentną ochronę online opartą na klasyfikacji DPI. Automatycznie blokuje szkodliwe lub złośliwe witryny, utrzymując sieć w bezpiecznym stanie.
+
+    Szczegółowe informacje zawiera strona [Content Filter](../../interface_guide/content_filter.md).
+
+---
+
+=== "QoS"
+
+    QoS (Quality of Service) optymalizuje przydział pasma, nadając priorytet kluczowym działaniom, takim jak rozmowy wideo lub gry, podczas przeciążenia sieci. Zmniejsza opóźnienia i poprawia ogólną wydajność. Funkcja obejmuje ruch klientów lokalnych i ruch tunelu klienta VPN, ale nie ruch odbierany, gdy router działa jako serwer VPN.
+
+    Szczegółowe informacje zawiera strona [QoS](../../interface_guide/qos.md).
+
+=== "SQM"
+
+    SQM (Smart Queue Management) inteligentnie zarządza ruchem sieciowym routera, aby zminimalizować opóźnienia i „bufferbloat”, zapewniając płynniejsze działanie gier i połączeń głosowych.
+
+    Szczegółowe informacje zawiera strona [SQM](../../interface_guide/sqm.md).
+
+=== "Parental Control"
+
+    Parental Control pomaga zarządzać urządzeniami dzieci i kontrolować je. Obejmuje ograniczanie czasu korzystania z ekranu oraz blokowanie dostępu do określonych treści.
+
+    Aby skonfigurować kontrolę rodzicielską, zapoznaj się z sekcją [Parental Control](../../interface_guide/parental_control_v4.9.md).
+
+## Bezpieczeństwo {#security}
+
+=== "Security Scan"
+
+    Security Scan przeprowadza kontrolę bezpieczeństwa routera. Ocenia jego ustawienia zabezpieczeń i generuje wynik oceny bezpieczeństwa wraz z alertami o zagrożeniach i sugestiami optymalizacji. Możesz dostosować konfigurację na podstawie wyników skanowania, aby poprawić bezpieczeństwo routera.
+
+    Więcej informacji znajdziesz w sekcji [Security Scan](../../interface_guide/security_scan.md).
+
+=== "ACL"
+
+    ACL (Access Control List) umożliwia tworzenie reguł zarządzania ruchem na podstawie protokołów połączeń, adresów urządzeń i portów. Reguły określają, czy zezwalać na dostęp do sieci, czy go blokować. Jeśli kilka reguł ACL jest ze sobą sprzecznych, system stosuje regułę o wyższym priorytecie.
+
+    Szczegółowe informacje zawiera strona [ACL](../../interface_guide/acl.md).
+
+=== "Port Forwarding"
+
+    Przekierowanie portów umożliwia zdalnym serwerom i urządzeniom w Internecie dostęp do urządzeń w sieci prywatnej.
+
+    Zapoznaj się z poradnikiem [Port Forwarding](../../interface_guide/port_forwarding.md), aby uzyskać szczegółowe instrukcje.
+
+---
+
+=== "UPnP"
+
+    UPnP (Universal Plug and Play) umożliwia zgodnym urządzeniom i aplikacjom LAN automatyczne żądanie mapowania portów na routerach GL.iNet. Mapowania te przekierowują przychodzący ruch WAN na określone adresy IP i porty LAN, umożliwiając klientom zewnętrznym łączenie się z lokalnymi usługami bez ręcznego konfigurowania reguł przekierowania portów.
+
+    Więcej informacji znajdziesz w sekcji [UPnP](../../interface_guide/upnp.md).
+
+=== "Admin Access"
+
+    Admin Access umożliwia konfigurowanie różnych ustawień zabezpieczeń chroniących sieć i router przed nieuprawnionym dostępem. Strona zawiera następujące opcje:
+
+    * Local Access Control: zarządzaj i ograniczaj dostęp do interfejsu routera z urządzeń podłączonych do sieci lokalnej.
+    * Remote Access Control: konfiguruj i ograniczaj dostęp do interfejsu routera ze zdalnych lokalizacji przez Internet, zwiększając ochronę przed zagrożeniami zewnętrznymi.
+    * Open Ports on Router: kontroluj, które porty są otwarte na routerze, ograniczając potencjalne luki w zabezpieczeniach i nieautoryzowany dostęp.
+
+    Szczegółowe informacje zawiera strona [Admin Access](../../interface_guide/admin_access.md).
+
+=== "NAT Mode"
+
+    Strona NAT Mode umożliwia włączenie albo wyłączenie funkcji Full Cone NAT i SIP ALG.
+
+    Aby skonfigurować ustawienia NAT, zapoznaj się z [NAT Mode](../../interface_guide/nat_settings.md).
 
 ## Aplikacje {#applications}
 
@@ -176,11 +323,11 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie międz
 
     Zapoznaj się z poradnikiem [AdGuard Home](../../interface_guide/adguardhome.md), aby uzyskać szczegółowe instrukcje.
 
-=== "Parental Control"
+=== "Tailscale"
 
-    Parental Control pomaga zarządzać urządzeniami dzieci i kontrolować je. Obejmuje ograniczanie czasu korzystania z ekranu oraz blokowanie dostępu do określonych treści.
+    Tailscale to usługa VPN, która umożliwia dostęp do urządzeń i aplikacji z dowolnego miejsca.
 
-    Zapoznaj się z poradnikiem [Parental Control](../../interface_guide/parental_control.md), aby uzyskać szczegółowe instrukcje.
+    Zapoznaj się z poradnikiem [Tailscale](../../interface_guide/tailscale.md), aby uzyskać szczegółowe instrukcje.
 
 === "ZeroTier"
 
@@ -188,93 +335,13 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie międz
 
     Zapoznaj się z poradnikiem [ZeroTier](../../interface_guide/zerotier.md), aby uzyskać szczegółowe instrukcje.
 
-=== "Tailscale"
+=== "Tor"
 
-    Tailscale to usługa VPN, która umożliwia dostęp do urządzeń i aplikacji z dowolnego miejsca.
+    Tor, czyli The Onion Router, to sieć nastawiona na ochronę prywatności, która umożliwia anonimową komunikację w Internecie. Kieruje ruch internetowy przez serię serwerów (węzłów) obsługiwanych przez wolontariuszy, aby ukryć lokalizację i sposób korzystania z sieci przez użytkownika, co utrudnia śledzenie aktywności online.
 
-    Zapoznaj się z poradnikiem [Tailscale](../../interface_guide/tailscale.md), aby uzyskać szczegółowe instrukcje.
+    Aby skonfigurować Tor, zapoznaj się z [Tor](../../interface_guide/tor.md).
 
-## Ustawienia sieci {#network-settings}
-
-=== "Port forwarding"
-
-    Przekierowanie portów umożliwia zdalnym serwerom i urządzeniom w Internecie dostęp do urządzeń w sieci prywatnej.
-
-    Zapoznaj się z poradnikiem [Port Forwarding](../../interface_guide/port_forwarding.md), aby uzyskać szczegółowe instrukcje.
-
-=== "Multi-WAN"
-
-    Multi-WAN to funkcja sieciowa, która umożliwia skonfigurowanie routera z wieloma połączeniami internetowymi (np. Cellular, Repeater i Ethernet) jednocześnie. Jeśli bieżące połączenie internetowe przestanie działać, router automatycznie przełączy się na inne połączenie internetowe. Zapewnia to płynny i nieprzerwany dostęp do Internetu.
-
-    Zapoznaj się z poradnikiem [Multi-WAN](../../interface_guide/multi-wan.md), aby uzyskać szczegółowe instrukcje.
-
-=== "LAN"
-
-    LAN, czyli Local Area Network, to sieć łącząca komputery i urządzenia na ograniczonym obszarze geograficznym, takim jak dom lub biuro. Umożliwia szybki transfer danych i współdzielenie zasobów, dzięki czemu urządzenia mogą sprawnie komunikować się ze sobą.
-
-    Zapoznaj się z poradnikiem [Lan](../../interface_guide/lan.md), aby uzyskać szczegółowe instrukcje.
-
----
-
-=== "Guest Network"
-
-    Umożliwia ustawienie podsieci w prywatnych zakresach adresów IPv4 192.168.0.0/16, 172.16.0.0/12 lub 10.0.0.0/8, określenie adresów IP bramy i maski sieci oraz konfigurację ustawień zabezpieczeń, takich jak izolacja AP, dla sieci gościnnej.
-
-    Zapoznaj się z poradnikiem [Guest Network](../../interface_guide/guest_network.md), aby uzyskać szczegółowe instrukcje.
-
-=== "DNS"
-
-    Strona DNS umożliwia ustawienie niestandardowych serwerów DNS, włączenie ochrony przed atakami DNS rebinding, nadpisanie ustawień DNS wszystkich klientów oraz zezwolenie niestandardowym serwerom DNS na zastąpienie DNS VPN. Możesz korzystać z serwerów DNS automatycznie uzyskanych z urządzeń nadrzędnych lub ręcznie wskazać niestandardowe serwery DNS.
-
-    Zapoznaj się z poradnikiem [DNS](../../interface_guide/dns.md), aby uzyskać szczegółowe instrukcje.
-
-=== "Port Management"
-
-    Strona Port Management umożliwia konfigurację portów WAN i LAN, ustawienie interfejsu WAN/LAN na Ethernet, określenie trybu MAC i adresu MAC dla interfejsu WAN oraz wyświetlenie wynegocjowanej prędkości portu sieciowego.
-
-    Zapoznaj się z poradnikiem [Port Management](../../interface_guide/ethernet_port.md), aby uzyskać szczegółowe instrukcje.
-
----
-
-=== "Network Mode"
-
-    Tryb sieciowy odnosi się do ustawień konfiguracyjnych, które określają, w jaki sposób urządzenie łączy się z siecią i komunikuje z innymi urządzeniami.
-
-    Zapoznaj się z poradnikiem [Network Mode](../../interface_guide/network_mode.md), aby uzyskać szczegółowe instrukcje.
-
-=== "IPv6"
-
-    IPv6, czyli Internet Protocol version 6, to najnowsza wersja protokołu internetowego zaprojektowana w celu zastąpienia IPv4. Zapewnia znacznie większą przestrzeń adresową, umożliwiając praktycznie nieograniczoną liczbę unikalnych adresów IP, co jest niezbędne ze względu na rosnącą liczbę urządzeń podłączonych do Internetu.
-
-    Zapoznaj się z poradnikiem [IPV6](../../interface_guide/ipv6.md), aby uzyskać szczegółowe instrukcje.
-
-=== "Drop-in Gateway"
-
-    Drop-in Gateway rozszerza funkcjonalność głównego routera o takie funkcje jak AdGuard Home, szyfrowany DNS i klient VPN.
-
-    Zapoznaj się z poradnikiem [How to set up drop-in gateway](../../tutorials/how_to_set_up_drop_in_gateway.md), aby uzyskać szczegółowe instrukcje.
-
----
-
-=== "IGMP Snooping"
-
-    IGMP snooping to technika optymalizacji sieci stosowana w przełącznikach Ethernet do zarządzania ruchem multicast i jego kontroli.
-
-    Zapoznaj się z poradnikiem [IGMP Snooping](../../interface_guide/igmp_snooping.md), aby uzyskać szczegółowe instrukcje.
-
-=== "Network Acceleration"
-
-    Network Acceleration może zmniejszyć obciążenie CPU i przyspieszyć przekazywanie pakietów ruchu.
-
-    Zapoznaj się z poradnikiem [Network Acceleration](../../interface_guide/network_acceleration.md), aby uzyskać szczegółowe instrukcje.
-
-=== "NAT Settings"
-
-    Strona NAT Settings umożliwia włączanie i wyłączanie funkcji Full Cone NAT oraz SIP ALG (Application Layer Gateway).
-
-    Zapoznaj się z poradnikiem [NAT Settings](../../interface_guide/nat_settings.md), aby uzyskać szczegółowe instrukcje.
-
-## Ustawienia systemowe {#system-settings}
+## System {#system}
 
 === "Overview"
 
@@ -291,6 +358,12 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie międz
 
     Zapoznaj się z poradnikiem [Overview](../../interface_guide/system_overview.md), aby uzyskać szczegółowe instrukcje.
 
+=== "Admin Password"
+
+    Strona Admin Password umożliwia zarządzanie hasłem interfejsu administracyjnego routera, aby tylko uprawnieni użytkownicy mogli zmieniać ustawienia.
+
+    Szczegółowe informacje zawiera strona [Admin Password](../../interface_guide/admin_password.md).
+
 === "Upgrade"
 
     Strona Upgrade służy do aktualizacji firmware routera do najnowszej wersji, co zapewnia lepszą wydajność, większe bezpieczeństwo i nowe funkcje. Strona oferuje dwie opcje aktualizacji:
@@ -301,6 +374,8 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie międz
     Opcje te pozwalają utrzymywać router na bieżąco z najnowszymi usprawnieniami i poprawkami.
 
     Zapoznaj się z poradnikiem [Upgrade](../../interface_guide/upgrade.md), aby uzyskać szczegółowe instrukcje.
+
+---
 
 === "Scheduled Tasks"
 
@@ -314,8 +389,6 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie międz
 
     Zapoznaj się z poradnikiem [Scheduled Tasks](../../interface_guide/scheduled_tasks.md), aby uzyskać szczegółowe instrukcje.
 
----
-
 === "Time Zone"
 
     Strona Time Zone umożliwia ustawienie poprawnej strefy czasowej routera, dzięki czemu wszystkie zaplanowane zadania, dzienniki i zdarzenia systemowe są oznaczane czasem zgodnie z czasem lokalnym. To ustawienie ma kluczowe znaczenie dla prowadzenia dokładnych zapisów i prawidłowego działania konfiguracji opartych na czasie.
@@ -327,6 +400,14 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie międz
     Strona Toggle Button Settings umożliwia konfigurację fizycznego przycisku przełącznika na routerze, pozwalając przypisać mu określone funkcje dla szybkiego dostępu i sterowania. Funkcja ta zapewnia wygodne skróty do typowych zadań i ustawień, poprawiając komfort użytkowania oraz upraszczając zarządzanie routerem.
 
     Zapoznaj się z poradnikiem [Toggle Button Settings](../../interface_guide/toggle_button_settings.md), aby uzyskać szczegółowe instrukcje.
+
+---
+
+=== "Reset Firmware"
+
+    Strona Reset Firmware umożliwia przywrócenie bieżącej wersji firmware routera do ustawień domyślnych, usuwając wszystkie niestandardowe konfiguracje. Ten proces przywróci router do ustawień domyślnych aktualnie zainstalowanej wersji firmware. Może to być przydatne przy rozwiązywaniu uporczywych problemów lub gdy chcesz rozpocząć konfigurację od nowa, korzystając z ustawień domyślnych bieżącego firmware.
+
+    Zapoznaj się z poradnikiem [Reset Firmware](../../interface_guide/reset_firmware.md), aby uzyskać szczegółowe instrukcje.
 
 === "Log"
 
@@ -341,27 +422,6 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie międz
     Dodatkowo strona zawiera przycisk Export Log, który umożliwia wyeksportowanie wszystkich zebranych dzienników do analizy przez wsparcie techniczne. Funkcja ta jest niezwykle przydatna przy diagnozowaniu złożonych problemów i uzyskiwaniu profesjonalnej pomocy.
 
     Zapoznaj się z poradnikiem [Log](../../interface_guide/log.md), aby uzyskać szczegółowe instrukcje.
-
----
-
-=== "Security"
-
-    Strona Security umożliwia konfigurację różnych ustawień bezpieczeństwa w celu ochrony sieci i routera przed nieautoryzowanym dostępem. Ta strona zawiera opcje:
-
-    * Admin Password: ustaw lub zmień hasło do interfejsu administracyjnego routera, aby tylko uprawnieni użytkownicy mogli modyfikować ustawienia.
-    * Local Access Control: zarządzaj i ograniczaj dostęp do interfejsu routera z urządzeń podłączonych do sieci lokalnej.
-    * Remote Access Control: konfiguruj i ograniczaj dostęp do interfejsu routera ze zdalnych lokalizacji przez Internet, zwiększając ochronę przed zagrożeniami zewnętrznymi.
-    * Open Ports on Router: kontroluj, które porty są otwarte na routerze, ograniczając potencjalne luki w zabezpieczeniach i nieautoryzowany dostęp.
-
-    Ustawienia te pomagają utrzymać bezpieczne środowisko sieciowe, chroniąc zarówno router, jak i podłączone urządzenia.
-
-    Zapoznaj się z poradnikiem [Security](../../interface_guide/security.md), aby uzyskać szczegółowe instrukcje.
-
-=== "Reset Firmware"
-
-    Strona Reset Firmware umożliwia przywrócenie bieżącej wersji firmware routera do ustawień domyślnych, usuwając wszystkie niestandardowe konfiguracje. Ten proces przywróci router do ustawień domyślnych aktualnie zainstalowanej wersji firmware. Może to być przydatne przy rozwiązywaniu uporczywych problemów lub gdy chcesz rozpocząć konfigurację od nowa, korzystając z ustawień domyślnych bieżącego firmware.
-
-    Zapoznaj się z poradnikiem [Reset Firmware](../../interface_guide/reset_firmware.md), aby uzyskać szczegółowe instrukcje.
 
 === "Advanced Settings"
 

@@ -236,12 +236,6 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
 ---
 
-=== "Parental Control"
-
-    Parental Control hilft Ihnen dabei, die Geräte Ihrer Kinder zu verwalten und zu kontrollieren. Dazu gehören die Begrenzung der Bildschirmzeit und die Einschränkung des Zugriffs auf bestimmte Inhalte.
-
-    Informationen zur Einrichtung finden Sie unter [Parental Control](../../interface_guide/parental_control.md).
-
 === "QoS"
 
     QoS (Quality of Service) optimiert die Bandbreitenzuweisung, indem kritische Aktivitäten wie Videoanrufe oder Gaming bei Netzwerkauslastung priorisiert werden. Dadurch werden Latenzen reduziert und die Gesamtleistung des Netzwerks verbessert. Beachten Sie, dass dies für lokalen Client-Datenverkehr und VPN-Client-Tunnelverkehr gilt, nicht jedoch für Datenverkehr, den der Router als VPN-Server empfängt.
@@ -254,6 +248,12 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     Detaillierte Anweisungen finden Sie unter [SQM](../../interface_guide/sqm.md).
 
+=== "Parental Control"
+
+    Parental Control hilft Ihnen dabei, die Geräte Ihrer Kinder zu verwalten und zu kontrollieren. Dazu gehören die Begrenzung der Bildschirmzeit und die Einschränkung des Zugriffs auf bestimmte Inhalte.
+
+    Informationen zur Einrichtung von Parental Control finden Sie unter [Parental Control](../../interface_guide/parental_control_v4.9.md).
+
 ## Sicherheit {#security}
 
 === "Port Forwarding"
@@ -262,17 +262,21 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     Informationen zur Einrichtung finden Sie unter [Port Forwarding](../../interface_guide/port_forwarding.md).
 
-=== "Management Control"
+=== "ACL"
 
-    Mit Management Control können Sie verschiedene Sicherheitseinstellungen konfigurieren, um Ihr Netzwerk und Ihren Router vor unbefugtem Zugriff zu schützen. Diese Seite enthält die folgenden Optionen:
+    Mit ACL (Access Control List) können Sie Regeln erstellen, um den Netzwerkverkehr anhand von Verbindungsprotokollen, Geräteadressen und Ports zu verwalten. Die Regeln legen fest, ob der Netzwerkzugriff zugelassen oder blockiert wird. Wenn mehrere ACL-Regeln miteinander in Konflikt stehen, wendet das System die Regel mit der höheren Priorität an.
+
+    Weitere Informationen finden Sie unter [ACL](../../interface_guide/acl.md).
+
+=== "Admin Access"
+
+    Mit Admin Access können Sie verschiedene Sicherheitseinstellungen konfigurieren, um Ihr Netzwerk und Ihren Router vor unbefugtem Zugriff zu schützen. Diese Seite umfasst die folgenden Optionen:
 
     * Local Access Control: Verwalten und beschränken Sie den Zugriff auf die Routeroberfläche von Geräten in Ihrem lokalen Netzwerk.
     * Remote Access Control: Konfigurieren und beschränken Sie den Zugriff auf die Routeroberfläche von entfernten Standorten über das Internet, um die Sicherheit gegen externe Bedrohungen zu erhöhen.
     * Open Ports on Router: Steuern Sie, welche Ports am Router geöffnet sind, um potenzielle Schwachstellen und unbefugten Zugriff zu begrenzen.
 
-    Diese Einstellungen helfen Ihnen, eine sichere Netzwerkumgebung aufrechtzuerhalten und sowohl Ihren Router als auch verbundene Geräte zu schützen.
-
-    Detaillierte Anweisungen finden Sie unter [Security](../../interface_guide/security.md).
+    Weitere Informationen finden Sie unter [Admin Access](../../interface_guide/admin_access.md).
 
 === "NAT Mode"
 
@@ -308,17 +312,17 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     Informationen zur Einrichtung finden Sie unter [AdGuard Home](../../interface_guide/adguardhome.md).
 
-=== "ZeroTier"
-
-    ZeroTier ist eine softwaredefinierte Netzwerklösung, mit der Benutzer sichere, virtuelle Netzwerke über das Internet erstellen können, sodass Geräte so verbunden werden, als befänden sie sich im selben lokalen Netzwerk.
-
-    Informationen zur Einrichtung finden Sie unter [ZeroTier](../../interface_guide/zerotier.md).
-
 === "Tailscale"
 
     Tailscale ist ein VPN-Dienst, mit dem Sie von überall auf Ihre Geräte und Anwendungen zugreifen können.
 
     Informationen zur Einrichtung finden Sie unter [Tailscale](../../interface_guide/tailscale.md).
+
+=== "ZeroTier"
+
+    ZeroTier ist eine softwaredefinierte Netzwerklösung, mit der Benutzer sichere, virtuelle Netzwerke über das Internet erstellen können, sodass Geräte so verbunden werden, als befänden sie sich im selben lokalen Netzwerk.
+
+    Informationen zur Einrichtung finden Sie unter [ZeroTier](../../interface_guide/zerotier.md).
 
 === "Tor"
 
@@ -366,8 +370,6 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     Detaillierte Anweisungen und weitere Informationen finden Sie unter [Upgrade](../../interface_guide/upgrade.md).
 
----
-
 === "Scheduled Tasks"
 
     Die Seite Scheduled Tasks ermöglicht es Ihnen, verschiedene Routerfunktionen auf Basis eines vordefinierten Zeitplans zu automatisieren, was Komfort und Effizienz erhöht. Zu den wichtigsten Funktionen dieser Seite gehören:
@@ -379,11 +381,19 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     Detaillierte Anweisungen und weitere Informationen finden Sie unter [Scheduled Tasks](../../interface_guide/scheduled_tasks.md).
 
+---
+
 === "Time Zone"
 
     Auf der Seite Time Zone können Sie die korrekte Zeitzone für Ihren Router festlegen, damit alle geplanten Aufgaben, Protokolle und Systemereignisse mit Ihrer lokalen Zeit korrekt zeitgestempelt werden. Diese Einstellung ist entscheidend für präzise Aufzeichnungen und die ordnungsgemäße Ausführung zeitbasierter Konfigurationen.
 
     Detaillierte Anweisungen und weitere Informationen finden Sie unter [Time Zone](../../interface_guide/time_zone.md).
+
+=== "Reset Firmware"
+
+    Die Seite Reset Firmware ermöglicht es Ihnen, die aktuell installierte Firmware-Version Ihres Routers auf die Standardeinstellungen zurückzusetzen, wobei alle benutzerdefinierten Konfigurationen gelöscht werden. Dadurch wird der Router auf die Standardeinstellungen der derzeit installierten Firmware-Version zurückgesetzt. Dies kann bei der Fehlerbehebung hartnäckiger Probleme hilfreich sein oder wenn Sie mit der Standardkonfiguration der aktuellen Firmware neu beginnen möchten.
+
+    Detaillierte Anweisungen und weitere Informationen finden Sie unter [Reset Firmware](../../interface_guide/reset_firmware.md).
 
 === "Log"
 
@@ -398,14 +408,6 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
     Zusätzlich verfügt die Seite über eine Schaltfläche Export Log, mit der Sie alle gesammelten Protokolle zur Analyse durch den technischen Support exportieren können. Diese Funktion ist besonders wertvoll bei der Diagnose komplexer Probleme und beim Einholen professioneller Unterstützung.
 
     Detaillierte Anweisungen und weitere Informationen finden Sie unter [Log](../../interface_guide/log.md).
-
----
-
-=== "Reset Firmware"
-
-    Die Seite Reset Firmware ermöglicht es Ihnen, die aktuell installierte Firmware-Version Ihres Routers auf die Standardeinstellungen zurückzusetzen, wobei alle benutzerdefinierten Konfigurationen gelöscht werden. Dadurch wird der Router auf die Standardeinstellungen der derzeit installierten Firmware-Version zurückgesetzt. Dies kann bei der Fehlerbehebung hartnäckiger Probleme hilfreich sein oder wenn Sie mit der Standardkonfiguration der aktuellen Firmware neu beginnen möchten.
-
-    Detaillierte Anweisungen und weitere Informationen finden Sie unter [Reset Firmware](../../interface_guide/reset_firmware.md).
 
 === "Advanced Settings"
 

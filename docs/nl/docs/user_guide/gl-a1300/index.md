@@ -15,241 +15,360 @@ De verpakking bevat:
 - 1 x Gebruikershandleiding
 - 1 x Slate Plus (GL-A1300)
 - 1 x Ethernet-kabel
+- 1 x Bedankkaart
 - 1 x Garantiekaart
-- 1 x Voedingsadapter (geselecteerd stekkertype)
+- 1 x Voedingsadapter
+- 1 x Adapter (afhankelijk van het land van levering)
 
 ![gl-a1300 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-a1300/first_time_setup/gl-a1300_unboxing.jpg){class="glboxshadow"}
 
-## Ledindicatie {#led-indication}
+## Slate Plus instellen {#how-to-set-up-slate-plus}
 
-[Ledindicatie](../../faq/led.md#gl-a1300)
-
-## Specificaties {#specifications}
-
-[Specificaties van GL-A1300](https://www.gl-inet.com/products/gl-a1300/#specs){target="_blank"}
-
-## Eerste installatie {#first-time-setup}
-
-Alle GL.iNet-routers hebben een eenvoudig en vrijwel identiek installatieproces. [Klik hier voor informatie over de eerste installatie](../../faq/first_time_setup.md).
-
-Gebruik een van de vier ondersteunde methoden voor internetverbindingen om Slate Plus in te stellen: Ethernet, Repeater, Tethering of Cellular. Bekijk deze installatievideo.
+Bekijk deze installatievideo of volg de onderstaande stappen.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zhY7AqmKJAc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+Raadpleeg [Eerste installatie](../../faq/first_time_setup.md) voor meer informatie.
+
+### 1. Inschakelen {#1-power-on}
+
+Zet de tweedelige voedingsadapter in elkaar. Sluit de adapter aan op je router en steek de stekker in een stopcontact. De router start automatisch op.
+
+### 2. Een apparaat verbinden {#2-connect-device}
+
+Verbind een apparaat, zoals een computer, laptop of smartphone, via Wi-Fi of Ethernet met de router.
+
+- Ethernet
+
+    Sluit je apparaat met een Ethernet-kabel aan op de LAN-poort van de router.
+
+- Wi-Fi
+
+    Ga op je apparaat naar Settings -> WLAN, zoek de Wi-Fi-netwerknaam van je router in de lijst met beschikbare netwerken en voer het wachtwoord in. De standaardnetwerknaam en het wachtwoord staan op het label aan de onderkant van de router.
+
+### 3. Aanmelden bij het webbeheerpaneel {#3-log-in-to-web-admin-panel}
+
+Open een webbrowser, voer `192.168.8.1` in de adresbalk in en meld je aan. Kies je taal, stel het beheerderswachtwoord in en klik vervolgens op **Apply**.
+
+Houd er bij het bevestigen van de Wi-Fi-gegevens rekening mee dat je het apparaat opnieuw met de Wi-Fi van de router moet verbinden als je de Wi-Fi-gegevens wijzigt. Gebruik daarvoor de bijgewerkte aanmeldingsgegevens.
+
+### 4. Internet instellen {#4-internet-setup}
+
+**Opmerking:** de volgende instructies gelden voor gebruikers die de router configureren via het GL.iNet Web Admin Panel. Als je liever de GL.iNet-app gebruikt, [download je de app](https://www.gl-inet.com/app/){target="_blank"} en volg je de instructies op het scherm.
+
+Configureer je Slate Plus met een van de ondersteunde methoden voor internetverbindingen: Ethernet, Repeater, Tethering of Cellular. Als je de functie [Multi-WAN](../../interface_guide/multi-wan.md) wilt gebruiken, stel je meerdere internetverbindingen in.
+
+=== "Ethernet"
+
+    ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-a1300/internet/a1300_ethernet.png){class="glboxshadow"}
+
+    Sluit een Ethernet-kabel aan tussen de WAN-poort van je router en een upstream apparaat, zoals een modem.
+    
+    Zodra de internetverbinding tot stand is gebracht, verschijnt in het gedeelte Ethernet op de pagina INTERNET een groene stip.
+
+    Raadpleeg [Verbinding maken met internet via een Ethernet-kabel](../../interface_guide/internet_ethernet.md) voor uitgebreide instructies.
+
+=== "Repeater"
+
+    ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-a1300/internet/a1300_repeater.png){class="glboxshadow"}
+
+    1. Zoek op de pagina INTERNET van het webbeheerpaneel het gedeelte Repeater en klik op **Connect**.
+    2. Selecteer een Wi-Fi-netwerk uit de beschikbare netwerken.
+    3. Voer het wachtwoord in en klik op **Apply**.
+    
+    Zodra de internetverbinding tot stand is gebracht, verschijnt in het gedeelte Repeater op de pagina INTERNET een groene stip.
+
+    Raadpleeg [Verbinding maken met internet via een bestaand Wi-Fi-netwerk](../../interface_guide/internet_repeater.md) voor uitgebreide instructies.
+
+=== "Tethering"
+
+    ![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-a1300/internet/a1300_tethering.png){class="glboxshadow"}
+
+    1. Sluit je mobiele apparaat, zoals een smartphone of USB-dongle, met een USB-kabel aan op de USB-poort van de router.
+    2. Ga op je mobiele apparaat naar Settings en schakel USB Tethering in.
+    3. Klik op de pagina INTERNET van het webbeheerpaneel in het gedeelte Tethering op **Connect**.
+    
+    Zodra de internetverbinding tot stand is gebracht, verschijnt in het gedeelte Tethering op de pagina INTERNET een groene stip.
+
+    Raadpleeg [Verbinding maken met internet via USB-tethering](../../interface_guide/internet_tethering.md) voor uitgebreide instructies.
+
+=== "Cellular"
+
+    ![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-a1300/internet/a1300_cellular.png){class="glboxshadow"}
+
+    Sluit een mobiele USB-modem aan op de USB-poort van de router. Hiermee kun je de internetverbinding van een USB-modem delen met alle verbonden apparaten.
+
+    Zodra de internetverbinding tot stand is gebracht, verschijnt in het gedeelte Cellular op de pagina INTERNET een groene stip.
+
+    Raadpleeg [Verbinding maken met internet via een mobiel netwerk](../../interface_guide/internet_cellular.md) voor uitgebreide instructies.
+
 ---
 
-## INTERNET {#internet}
+## Wireless {#wireless}
 
-In de interface voor internetconfiguratie kun je het type internetverbinding kiezen dat de router ondersteunt.
+Op de pagina Wireless kun je instellingen voor de Wi-Fi-netwerken op 5 GHz en 2.4 GHz configureren, waaronder het inschakelen van Wi-Fi, het zendvermogen, de Wi-Fi-naam (SSID), de Wi-Fi-beveiligingsmodus en het wachtwoord, de zichtbaarheid van de SSID, de Wi-Fi-modus, bandbreedte en het kanaal.
 
-Configureer de internetverbinding door in het zijmenu van het webbeheerpaneel van de router **INTERNET** te selecteren.
+Raadpleeg [Wireless](../../interface_guide/wireless_v4.8.md) om Wireless in te stellen.
 
-De router ondersteunt de volgende vier methoden om verbinding met internet te maken:
+## Clients {#clients}
 
-### Ethernet {#ethernet}
+De pagina Clients toont informatie over verbonden apparaten. Voor elke client worden de naam, het IP- en MAC-adres, de download- en uploadsnelheid en het totale verkeer weergegeven. Je kunt de client ook blokkeren en andere handelingen uitvoeren.
 
-Sluit de router met een Ethernet-kabel aan op een actieve modem of een actief netwerkapparaat om gegevens via Ethernet te verzenden. Deze methode biedt doorgaans de snelste en betrouwbaarste internetverbinding.
-
-[Klik hier om te lezen hoe je via een Ethernet-kabel verbinding maakt met internet](../../interface_guide/internet_ethernet.md)
-
-![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-a1300/internet/a1300_ethernet.png){class="glboxshadow"}
-
-### Repeater {#repeater}
-
-Vergroot het bereik van een bestaand Wi-Fi-netwerk door de router draadloze signalen binnen zijn bereik te laten ontvangen en over een grotere afstand door te sturen. Deze methode is vooral nuttig wanneer één router onvoldoende bereik heeft voor het volledige gebruiksgebied.
-
-[Klik hier om te lezen hoe je via een bestaand Wi-Fi-netwerk verbinding maakt met internet](../../interface_guide/internet_repeater.md)
-
-![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-a1300/internet/a1300_repeater.png){class="glboxshadow"}
-
-### Tethering {#tethering}
-
-Bied verbonden apparaten internettoegang door de mobiele data van een smartphone via een kabel met de router te delen. Deze methode is vooral nuttig wanneer je de mobiele data van de telefoon wilt gebruiken voor internettoegang.
-
-[Klik hier om te lezen hoe je via USB-tethering verbinding maakt met internet](../../interface_guide/internet_tethering.md)
-
-![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-a1300/internet/a1300_tethering.png){class="glboxshadow"}
-
-### Cellular {#cellular}
-
-Sluit een USB-modem voor mobiele netwerken aan op de USB-poort van de router om de router met internet te verbinden. Deze methode is vooral nuttig om de internetverbinding van een USB-modem met alle verbonden apparaten te delen.
-
-[Klik hier om te lezen hoe je via een USB-modem verbinding maakt met internet](../../interface_guide/internet_cellular.md)
-
-![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-a1300/internet/a1300_cellular.png){class="glboxshadow"}
-
-### Prioriteit en load balancing {#priority-and-load-balance}
-
-Ga naar [Multi-WAN](../../interface_guide/multi-wan.md) om de prioriteit van elke methode voor internettoegang of de load balancing in te stellen wanneer meerdere methoden tegelijk worden gebruikt.
-
----
-
-## WIRELESS {#wireless}
-
-Met de instellingen voor het draadloze netwerk kun je de netwerkbeveiliging van de primaire Wi-Fi en Guest Wi-Fi beheren. Open deze instellingen via **WIRELESS** in het zijmenu.
-
-[Klik hier voor meer informatie over de configuratie van het draadloze netwerk](../../interface_guide/wireless.md)
-
----
-
-## CLIENTS {#clients}
-
-Clients zijn apparaten die met de router zijn verbonden. Je kunt clients blokkeren of hun netwerksnelheid beperken. Open de interface door in het zijmenu van het beheerpaneel van de router op **CLIENTS** te klikken.
-
-[Klik hier voor meer informatie over het beheer van clientapparaten.](../../interface_guide/clients.md)
-
----
+Raadpleeg [Clients](../../interface_guide/clients.md) om Clients in te stellen.
 
 ## VPN {#vpn}
 
-OpenVPN en WireGuard® zijn vooraf op GL.iNet-routers geïnstalleerd en ondersteunen meer dan 30 VPN-diensten. Wanneer de VPN-client is ingeschakeld, kan de router volgens je VPN-beleidsinstellingen verkeer versleutelen voor apparaten in het netwerk, waaronder apparaten waarop geen VPN-apps kunnen worden uitgevoerd. Onze routers kunnen ook als VPN-server werken en verkeer van clientapparaten op externe locaties via een VPN-tunnel naar de VPN-server leiden voordat het openbare internet wordt geopend.
+Een VPN (virtual private network) maakt een beveiligde, versleutelde verbinding voor verkeer tussen je apparaat en de VPN-server. Een VPN biedt extra privacy en beveiliging via een VPN-client en geeft je via een VPN-server toegang tot een extern netwerk. Slate Plus en andere GL.iNet-routers ondersteunen OpenVPN en WireGuard. Daarnaast wordt Tor ondersteund.
 
-### VPN Dashboard {#vpn-dashboard}
+=== "OpenVPN"
 
-- [**VPN Dashboard**](../../interface_guide/vpn_dashboard_v4.7.md)
+    Slate Plus en andere GL.iNet-routers ondersteunen het OpenVPN-protocol, dat een sterke beveiliging biedt. Volg deze tutorials om OpenVPN in te stellen:
 
-### OpenVPN {#openvpn}
+    * [Een OpenVPN-client instellen](../../interface_guide/openvpn_client.md)
+    * [Een OpenVPN-server instellen](../../interface_guide/openvpn_server.md)
 
-Raadpleeg de volgende links voor een stapsgewijze installatiehandleiding:
+=== "WireGuard"
 
-- [**OpenVPN-client instellen**](../../interface_guide/openvpn_client.md)
-- [**OpenVPN-server instellen**](../../interface_guide/openvpn_server.md)
+    Slate Plus en andere GL.iNet-routers ondersteunen het WireGuard-protocol, dat hoge snelheden en gebruiksgemak biedt. Volg deze tutorials om WireGuard in te stellen:
 
-### WireGuard {#wireguard}
+    * [Een WireGuard-client instellen](../../interface_guide/wireguard_client.md)
+    * [Een WireGuard-server instellen](../../interface_guide/wireguard_server.md)
 
-Raadpleeg de volgende links voor een stapsgewijze installatiehandleiding:
+=== "Tor"
 
-- [**WireGuard-client instellen**](../../interface_guide/wireguard_client.md)
-- [**WireGuard-server instellen**](../../interface_guide/wireguard_server.md)
+    Tor, een afkorting van The Onion Router, is een privacygericht netwerk dat anonieme communicatie via internet mogelijk maakt. Internetverkeer wordt via een reeks door vrijwilligers beheerde servers (nodes) geleid om de locatie en het gebruik van de gebruiker te verhullen. Hierdoor zijn online activiteiten moeilijk te traceren.
+    
+    * [Tor instellen](../../interface_guide/tor.md).
 
----
+## Toepassingen {#applications}
 
-## APPLICATIONS {#applications}
+=== "Plug-ins"
 
-GL.iNet-routers bevatten veel aanvullende functies die apparaatbeheer vereenvoudigen, de internetervaring verbeteren, firmware-updates automatiseren en meer.
+    Een plug-in is een softwareonderdeel dat specifieke functies of mogelijkheden aan een bestaand computerprogramma toevoegt, zodat de mogelijkheden van het programma kunnen worden aangepast en uitgebreid.
+    
+    Raadpleeg [Plug-ins](../../interface_guide/plugins.md) om plug-ins in te stellen.
 
-### Plug-ins {#plug-ins}
+=== "Dynamic DNS"
 
-Raadpleeg de tutorial [**Plug-ins**](../../interface_guide/plugins.md).
+    Dynamic DNS (DDNS) detecteert en actualiseert automatisch en in realtime het IP-adres dat aan een domein is gekoppeld. Het koppelt een domeinnaam aan het dynamische openbare IP-adres van je router, zodat je zonder statisch IP-adres op afstand toegang hebt tot je netwerk.
+    
+    Raadpleeg [Dynamic DNS](../../interface_guide/ddns.md) om Dynamic DNS in te stellen.
 
-### Dynamic DNS {#dynamic-dns}
+=== "GoodCloud"
 
-Raadpleeg de tutorial [**Dynamic DNS**](../../interface_guide/ddns.md).
+    De cloudbeheerdienst [GoodCloud](https://www.goodcloud.xyz){target="_blank"} van GL.iNet biedt een eenvoudige manier om GL.iNet-routers op afstand te openen en beheren.
+    
+    Raadpleeg [GoodCloud](../../interface_guide/cloud.md) om GoodCloud in te stellen.
 
-### GoodCloud {#goodcloud}
+=== "Network Storage"
 
-Raadpleeg de tutorial [**GoodCloud**](../../interface_guide/cloud.md).
-
-### Network Storage {#network-storage}
-
-Raadpleeg de tutorial [**Network Storage**](../../interface_guide/network_storage.md).
-
-### AdGuard Home {#adguard-home}
-
-Raadpleeg de tutorial [**AdGuard Home**](../../interface_guide/adguardhome.md).
-
-### Parental Control {#parental-control}
-
-Raadpleeg de tutorial [**Parental Control**](../../interface_guide/parental_control.md).
-
-### ZeroTier {#zerotier}
-
-Raadpleeg de tutorial [**ZeroTier**](../../interface_guide/zerotier.md).
-
-### Tailscale {#tailscale}
-
-Raadpleeg de tutorial [**Tailscale**](../../interface_guide/tailscale.md).
+    Netwerkopslag is een centrale oplossing voor gegevensopslag waarmee meerdere gebruikers en apparaten via een netwerk bestanden kunnen openen en delen.
+    
+    Raadpleeg [Network Storage](../../interface_guide/network_storage.md) om netwerkopslag in te stellen.
 
 ---
 
-## NETWORK {#network}
+=== "AdGuard Home"
 
-### Firewall {#firewall}
+    AdGuard Home blokkeert advertenties en trackers in het hele netwerk. De toepassing werkt als DNS-server en filtert ongewenste inhoud op alle apparaten die met een thuisnetwerk zijn verbonden.
+    
+    Raadpleeg [AdGuard Home](../../interface_guide/adguardhome.md) om AdGuard Home in te stellen.
 
-GL.iNet-routers bevatten meerdere firewallfuncties voor een beveiligde verbinding en volledig beheer. Je kunt firewallregels configureren, waaronder Port Forwarding, Open Ports en DMZ.
+=== "Parental Control"
 
-[Klik hier voor meer informatie over GL.iNet routers' firewall](../../interface_guide/firewall.md)
+    Parental Control is bedoeld om je te helpen de apparaten van je kinderen te beheren. Je kunt onder meer de schermtijd beperken en toegang tot bepaalde inhoud blokkeren.
 
-### Multi-WAN {#multi-wan}
+    Raadpleeg [Parental Control](../../interface_guide/parental_control.md) om ouderlijk toezicht in te stellen.
 
-Raadpleeg de tutorial [**Multi-WAN**](../../interface_guide/multi-wan.md).
+=== "ZeroTier"
 
-### LAN {#lan}
+    ZeroTier is een softwaregedefinieerde netwerkoplossing waarmee gebruikers via internet beveiligde virtuele netwerken kunnen maken en apparaten kunnen verbinden alsof ze zich in hetzelfde lokale netwerk bevinden.
+    
+    Raadpleeg [ZeroTier](../../interface_guide/zerotier.md) om ZeroTier in te stellen.
 
-Raadpleeg de tutorial [**LAN**](../../interface_guide/lan.md).
+=== "Tailscale"
 
-### DNS {#dns}
+    Tailscale is een VPN-dienst waarmee je overal toegang hebt tot je apparaten en toepassingen.
+    
+    Raadpleeg [Tailscale](../../interface_guide/tailscale.md) om Tailscale in te stellen.
 
-Raadpleeg de tutorial [**DNS**](../../interface_guide/dns.md).
+## Netwerk {#network}
 
-### Network Mode {#network-mode}
+=== "Firewall"
 
-Raadpleeg de tutorial [**Network Mode**](../../interface_guide/network_mode.md).
+    De pagina Firewall biedt essentiële beveiligingsverbeteringen voor je netwerk. De pagina bevat functies zoals Port Forwarding, Open Ports en DMZ. Met deze hulpmiddelen kun je de verkeersstroom van je netwerk beheren en aanpassen en de beveiliging verbeteren.
 
-### IPv6 {#ipv6}
+    * Port Forwarding: stuur specifiek internetverkeer door naar aangewezen apparaten in je netwerk om toegang te geven tot diensten zoals game- of webservers.
+    * Open Ports: bewaak en bepaal welke poorten op je router openstaan om onbevoegde toegang en mogelijke beveiligingsrisico's te voorkomen.
+    * DMZ (Demilitarized Zone): maak één apparaat vanaf internet bereikbaar door al het inkomende verkeer ernaartoe door te sturen.
 
-Raadpleeg de tutorial [**IPv6**](../../interface_guide/ipv6.md).
+    Raadpleeg [Firewall](../../interface_guide/firewall.md) om firewallinstellingen te configureren.
 
-### MAC Address {#mac-address}
+=== "Multi-WAN"
 
-De pagina Mac Address heette voorheen Mac Clone en is sinds v4.2 gewijzigd in Mac Address.
+    Multi-WAN is een netwerkfunctie waarmee je op je router meerdere internetverbindingen tegelijk kunt instellen, zoals Ethernet, Repeater en Tethering. Als de huidige internetverbinding uitvalt, schakelt de router automatisch over naar een andere internetverbinding. Dit zorgt voor soepele en ononderbroken internettoegang.
 
-Raadpleeg de tutorial [**MAC Address**](../../interface_guide/mac_address.md).
+    Raadpleeg [Multi-WAN](../../interface_guide/multi-wan.md) om Multi-WAN in te stellen.
 
-### Drop-in Gateway {#drop-in-gateway}
+=== "LAN"
 
-Raadpleeg de tutorial [**Drop-in Gateway**](../../interface_guide/drop-in_gateway.md).
+    Een LAN (Local Area Network) is een netwerk dat computers en apparaten binnen een beperkt geografisch gebied, zoals een huis of kantoor, met elkaar verbindt. Het maakt snelle gegevensoverdracht en het delen van bronnen mogelijk, zodat apparaten efficiënt met elkaar kunnen communiceren.
+    
+    Raadpleeg [LAN](../../interface_guide/lan.md) om het LAN in te stellen.
 
-### IGMP Snooping {#igmp-snooping}
+=== "Guest Network"
 
-Raadpleeg de tutorial [**IGMP Snooping**](../../interface_guide/igmp_snooping.md).
+    Je kunt een subnet instellen binnen de privé-IPv4-adresbereiken 192.168.0.0/16, 172.16.0.0/12 of 10.0.0.0/8. Ook kun je de IP-adressen van de gateway en het subnetmasker opgeven en beveiligingsinstellingen, zoals AP-isolatie, voor het gastnetwerk configureren.
+
+    Raadpleeg [Guest Network](../../interface_guide/guest_network.md) om het gastnetwerk in te stellen.
 
 ---
 
-## SYSTEM {#system}
+=== "DNS"
 
-### Overview {#overview}
+    Op de pagina DNS kun je aangepaste DNS-servers instellen, bescherming tegen DNS-rebindingaanvallen inschakelen, de DNS-instellingen van alle clients overschrijven en toestaan dat aangepaste DNS de VPN-DNS overschrijft. Je kunt DNS-servers gebruiken die automatisch van upstreamapparaten zijn verkregen of handmatig aangepaste DNS-servers opgeven.
 
-Raadpleeg de tutorial [**System Overview**](../../interface_guide/system_overview.md).
+    Raadpleeg [DNS](../../interface_guide/dns.md) om DNS in te stellen.
 
-### Upgrade {#upgrade}
+=== "Network Mode"
 
-GL.iNet brengt regelmatig firmware-updates voor zijn routers uit om de prestaties te verbeteren, fouten op te lossen en kwetsbaarheden te verhelpen.
+    De netwerkmodus omvat de configuratie-instellingen die bepalen hoe een apparaat verbinding maakt met een netwerk en met andere apparaten communiceert.
+    
+    Raadpleeg [Network Mode](../../interface_guide/network_mode.md) om de netwerkmodus in te stellen.
 
-Raadpleeg de tutorial [**Upgrade**](../../interface_guide/upgrade.md).
+=== "IPv6"
 
-### Scheduled Tasks {#scheduled-tasks}
+    IPv6 (Internet Protocol version 6) is de nieuwste versie van het Internet Protocol en is ontwikkeld als opvolger van IPv4. Het biedt een veel grotere adresruimte en maakt daardoor een vrijwel onbeperkt aantal unieke IP-adressen mogelijk. Dit is noodzakelijk om het groeiende aantal apparaten met een internetverbinding te ondersteunen.
+    
+    Raadpleeg [IPV6](../../interface_guide/ipv6.md) om IPV6 in te stellen.
 
-Raadpleeg de tutorial [**Scheduled Tasks**](../../interface_guide/scheduled_tasks.md).
+=== "MAC Address"
 
-### Admin Password {#admin-password}
+    Op de pagina MAC Address kun je de Media Access Control-adressen (MAC-adressen) van je router bekijken en beheren. De belangrijkste functies op deze pagina zijn:
 
-Deze functie is sinds v4.5 verplaatst naar [**Security**](../../interface_guide/security.md).
+    * Factory Default: toon de standaard-MAC-adressen voor de modi Ethernet en Repeater van de router als referentie voor de oorspronkelijke hardware-instellingen.
+    * Clone: kloon het MAC-adres van een specifiek clientapparaat. Dit is vooral nuttig wanneer netwerktoegang tot bepaalde apparaten is beperkt.
+    * Manual: geef handmatig een aangepast MAC-adres voor je router op. Je kunt ook de knop Random gebruiken om een willekeurig MAC-adres te genereren, voor meer flexibiliteit en privacy.
 
-Raadpleeg de tutorial [**Admin Password**](../../interface_guide/admin_password.md).
+    Met deze functies kun je de MAC-adressen van je router effectief beheren en compatibiliteit en flexibiliteit in verschillende netwerkomgevingen waarborgen.
 
-### Time Zone {#time-zone}
+    Raadpleeg [MAC Address](../../interface_guide/mac_address.md) om het MAC-adres te beheren.
 
-Raadpleeg de tutorial [**Time Zone**](../../interface_guide/time_zone.md).
+---
 
-### Toggle Button Settings {#toggle-button-settings}
+=== "Drop-in Gateway"
 
-Raadpleeg de tutorial [**Toggle Button Settings**](../../interface_guide/toggle_button_settings.md).
+    Drop-in Gateway breidt de functies van je hoofdrouter uit met AdGuard Home, versleutelde DNS en een VPN-client.
+    
+    Raadpleeg de volgende links om een drop-in gateway in te stellen:
+    
+    - [Drop-in Gateway](../../interface_guide/drop-in_gateway.md)
+    - [Een drop-in gateway instellen](../../tutorials/how_to_set_up_drop_in_gateway.md)
 
-### Log {#log}
+=== "IGMP Snooping"
 
-Raadpleeg de tutorial [**Log**](../../interface_guide/log.md).
+    IGMP snooping is een techniek voor netwerkoptimalisatie die in Ethernet-switches wordt gebruikt om multicastverkeer te beheren en regelen.
+    
+    Raadpleeg [IGMP Snooping](../../interface_guide/igmp_snooping.md) om IGMP snooping in te stellen.
 
-### Security {#security}
+=== "NAT Settings"
 
-Deze functie is beschikbaar sinds v4.5.
+    Op de pagina NAT Settings kun je de functies Full Cone NAT en SIP ALG (Application Layer Gateway) in- of uitschakelen.
 
-Raadpleeg de tutorial [**Security**](../../interface_guide/security.md).
+    Raadpleeg [NAT Settings](../../interface_guide/nat_settings.md) om de NAT-instellingen te configureren.
 
-### Reset Firmware {#reset-firmware}
+## Systeem {#system}
 
-Raadpleeg de tutorial [**Reset Firmware**](../../interface_guide/reset_firmware.md).
+=== "Overview"
 
-### Advanced Settings {#advanced-settings}
+    De pagina Overview biedt een uitgebreid overzicht van de huidige status en prestatiegegevens van je router. Op deze pagina kun je het volgende bekijken:
 
-Raadpleeg de tutorial [**Advanced Settings**](../../interface_guide/advanced_settings.md).
+    * CPU Average Load: bewaak de gemiddelde belasting van de CPU van je router om de prestaties te beoordelen en mogelijke knelpunten op te sporen.
+    * Memory Usage: controleer hoeveel geheugen van je router in gebruik is om het beheer van bronnen te ondersteunen.
+    * LED Control: schakel de leds van de router in of uit om de visuele indicatoren van het apparaat aan te passen.
+    * Flash Usage: bekijk het gebruik van de flashopslag van de router en controleer of er voldoende ruimte is voor firmware en configuratiegegevens.
+    * Device Info: bekijk uitgebreide systeeminformatie over je router, waaronder uptime, hostnaam, model, architectuur, OpenWrt-versie, kernelversie, apparaat-ID, MAC-adres van het apparaat en serienummer van het apparaat.
+    * External Storage: controleer de status van externe opslagapparaten die op de router zijn aangesloten, zoals USB-stations of TF-kaarten.
+    
+    Deze functies bieden essentiële informatie en bedieningselementen om de werking van je router effectief te beheren en bewaken.
+
+    Raadpleeg [Overview](../../interface_guide/system_overview.md) voor uitgebreide instructies.
+
+=== "Upgrade"
+
+    De pagina Upgrade wordt gebruikt om de firmware van je router bij te werken naar de nieuwste versie, voor betere prestaties en beveiliging en nieuwe functies. Deze pagina biedt twee opties voor upgrades:
+
+    * Firmware Online Upgrade: controleer automatisch op de server van de fabrikant of de nieuwste firmwareversie beschikbaar is. Als deze online beschikbaar is, kun je de nieuwste versie installeren.
+    * Firmware Local Upgrade: upload handmatig een firmwarebestand vanaf je computer om de router bij te werken. Zo bepaal je zelf de versie en het moment van de upgrade.
+
+    Met deze opties houd je je router bijgewerkt met de nieuwste verbeteringen en correcties.
+
+    Raadpleeg [Upgrade](../../interface_guide/upgrade.md) voor uitgebreide instructies.
+
+=== "Scheduled Tasks"
+
+    Op de pagina Scheduled Tasks kun je verschillende routerfuncties volgens een vooraf ingesteld schema automatiseren. Dit verhoogt het gemak en de efficiëntie. De belangrijkste functies op deze pagina zijn:
+
+    * LED Display Schedule: stel een schema in om de leds van de router automatisch in of uit te schakelen en zo lichtvervuiling op bepaalde tijden te beperken.
+    * Schedule Reboot: configureer de router om met ingestelde intervallen automatisch opnieuw op te starten. Dit helpt optimale prestaties en stabiliteit te behouden.
+    * Wi-Fi Status Schedule: stel een schema in om de 5GHz / 2.4GHz-Wi-Fi-band te beheren en zo de beschikbaarheid van het netwerk en het energieverbruik beter te regelen.
+    
+    Met deze planningsopties heb je meer controle over de werking van je router en kun je deze afstemmen op je specifieke behoeften en voorkeuren.
+
+    Raadpleeg [Scheduled Tasks](../../interface_guide/scheduled_tasks.md) voor uitgebreide instructies.
+
+---
+
+=== "Time Zone"
+
+    Op de pagina Time Zone kun je de juiste tijdzone voor je router instellen. Hierdoor krijgen alle geplande taken, logboeken en systeemgebeurtenissen een nauwkeurig tijdstempel op basis van je lokale tijd. Deze instelling is essentieel voor nauwkeurige registraties en een correcte uitvoering van tijdgebonden configuraties.
+
+    Raadpleeg [Time Zone](../../interface_guide/time_zone.md) voor uitgebreide instructies.
+
+=== "Toggle Button Settings"
+
+    Op de pagina Toggle Button Settings kun je de fysieke schakelaarknop van je router configureren en er specifieke functies aan toewijzen voor snelle toegang en bediening. De functie biedt handige snelkoppelingen voor veelvoorkomende taken en instellingen en vereenvoudigt het routerbeheer.
+
+    Raadpleeg [Toggle Button Settings](../../interface_guide/toggle_button_settings.md) voor uitgebreide instructies.
+
+=== "Log"
+
+    De pagina Log biedt toegang tot verschillende logboeken waarin activiteiten en gebeurtenissen van de router worden vastgelegd. Deze helpen bij probleemoplossing en prestatiebewaking. De pagina bevat:
+
+    * System Log: uitgebreide logboeken van gebeurtenissen en activiteiten op systeemniveau.
+    * Kernel Log: logboeken van activiteiten en gebeurtenissen van de kernel.
+    * Crash Log: registraties van systeemcrashes en fouten die nuttig zijn bij de diagnose van kritieke problemen.
+    * Cloud Log: logboeken van interacties en activiteiten met betrekking tot de GoodCloud-diensten die in de router zijn geïntegreerd.
+    * Nginx Log: logboeken van de Nginx-webserver, als deze door de router wordt gebruikt, met gegevens over webverkeer en serveractiviteiten.
+    
+    Daarnaast bevat de pagina de knop Export Log, waarmee je alle verzamelde logboeken kunt exporteren voor analyse door technische ondersteuning. Deze functie is zeer waardevol voor het vaststellen van complexe problemen en het verkrijgen van professionele hulp.
+
+    Raadpleeg [Log](../../interface_guide/log.md) voor uitgebreide instructies.
+
+---
+
+=== "Security"
+
+    **Opmerking**: Deze functie is beschikbaar sinds v4.5.
+
+    Op de pagina Security kun je verschillende beveiligingsinstellingen configureren om je netwerk en router tegen onbevoegde toegang te beschermen. De pagina bevat opties voor:
+
+    * Admin Password: stel het wachtwoord voor de beheerinterface van de router in of wijzig het, zodat alleen bevoegde gebruikers instellingen kunnen wijzigen.
+    * Local Access Control: beheer en beperk de toegang tot de routerinterface vanaf apparaten die met je lokale netwerk zijn verbonden.
+    * Remote Access Control: configureer en beperk toegang tot de routerinterface vanaf externe locaties via internet om de beveiliging tegen bedreigingen van buitenaf te verbeteren.
+
+    Met deze instellingen onderhoud je een veilige netwerkomgeving en bescherm je zowel de router als de verbonden apparaten.
+    
+    Raadpleeg [Security](../../interface_guide/security.md) voor uitgebreide instructies.
+
+=== "Reset Firmware"
+
+    Op de pagina Reset Firmware kun je de huidige firmwareversie van je router terugzetten naar de standaardinstellingen. Alle aangepaste configuraties worden daarbij gewist. Dit proces herstelt de standaardinstellingen van de firmwareversie die momenteel is geïnstalleerd. Dit kan nuttig zijn om aanhoudende problemen op te lossen of opnieuw te beginnen met de standaardconfiguratie van de huidige firmware.
+
+    Raadpleeg [Reset Firmware](../../interface_guide/reset_firmware.md) voor uitgebreide instructies.
+
+=== "Advanced Settings"
+
+    De pagina Advanced Settings biedt via de OpenWrt LuCI-interface toegang tot geavanceerde configuratieopties. Ervaren gebruikers kunnen hiermee de instellingen en functies van hun router nauwkeurig aanpassen buiten de mogelijkheden van de basisinterface. Dit omvat uitgebreide netwerkconfiguraties, firewallinstellingen en andere geavanceerde systeemaanpassingen.
+
+    Raadpleeg [Advanced Settings](../../interface_guide/advanced_settings.md) voor uitgebreide instructies.

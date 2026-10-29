@@ -154,7 +154,7 @@ Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindel
 
 === "Subnet"
 
-    Sidan Subnet samlar hanteringen av LAN, Guest Network, IoT Network och anpassade VLAN Networks. Där kan du skapa och hantera flera subnät för att isolera olika typer av enheter eller trafik.
+    På den här sidan kan du konfigurera och hantera **Main Network**, **Guest Network**, **IoT Network** och egna **VLAN Networks** centralt. Du kan skapa och hantera flera subnät för att isolera olika typer av enheter eller trafik.
 
     Mer information finns i [Subnet](../../interface_guide/subnet.md).
 

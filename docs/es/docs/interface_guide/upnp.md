@@ -32,17 +32,17 @@ Active el interruptor para habilitar UPnP. Los dispositivos y aplicaciones compa
 
 ![enable upnp](https://static.gl-inet.com/docs/router/en/4/interface_guide/upnp/upnp.png){class="glboxshadow"}
 
-- Client / Application: Descripción del cliente o aplicación y dirección IP LAN del dispositivo solicitante.
+- **Client / Application**: Descripción del cliente o aplicación y dirección IP LAN del dispositivo solicitante.
 
-- Protocol: Protocolo de transporte de la asignación, p. ej., TCP o UDP.
+- **Protocol**: Protocolo de transporte de la asignación, p. ej., `TCP` o `UDP`.
 
-- External Port: Puerto WAN para las conexiones entrantes.
+- **External Port**: Puerto WAN para las conexiones entrantes.
 
-- Internal Target: Dirección IP LAN y puerto de destino.
+- **Internal Target**: Dirección IP LAN y puerto de destino.
 
-- Lease: Tiempo restante antes de que caduque la asignación. La duración predeterminada de la concesión es de 7 días.
+- **Lease**: Tiempo restante antes de que caduque la asignación. La duración predeterminada de la concesión es de 7 días.
 
-- Action: Haga clic en el icono de papelera para eliminar la asignación. El cliente o aplicación puede volver a solicitarla si sigue en ejecución.
+- **Action**: Haga clic en el icono de papelera para eliminar la asignación. El cliente o aplicación puede volver a solicitarla si sigue en ejecución.
 
 Las asignaciones de puertos activas se eliminan cuando el cliente las libera o caducan sus concesiones. Haga clic en **Refresh** para ver las asignaciones de puertos más recientes.
 

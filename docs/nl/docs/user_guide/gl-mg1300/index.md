@@ -160,7 +160,7 @@ Een VPN (virtual private network) maakt een beveiligde, versleutelde verbinding 
 
 === "Subnet"
 
-    Subnet centraliseert het beheer van LAN, Guest Network, IoT Network en aangepaste VLAN Networks. Je kunt meerdere subnets maken en beheren om verschillende soorten apparaten of verkeer van elkaar te scheiden.
+    Op deze pagina kun je **Main Network**, **Guest Network**, **IoT Network** en aangepaste **VLAN Networks** centraal configureren en beheren. Je kunt meerdere subnetten maken en beheren om verschillende soorten apparaten of verkeer te isoleren.
 
     Raadpleeg [Subnet](../../interface_guide/subnet.md) om het subnet in te stellen.
 
@@ -169,13 +169,14 @@ Een VPN (virtual private network) maakt een beveiligde, versleutelde verbinding 
     Op de pagina Ethernet Port kun je de WAN- en LAN-poorten configureren, de WAN/LAN-interface op Ethernet instellen, de MAC-modus en het MAC-adres voor de WAN-interface opgeven en de onderhandelde snelheid van de netwerkpoort weergeven.
 
     Raadpleeg [Ethernet Port](../../interface_guide/ethernet_port_v4.10.md) om de Ethernet-poort in te stellen.
----
 
 === "DNS"
 
     Op de pagina DNS kun je aangepaste DNS-servers instellen, bescherming tegen DNS-rebindingaanvallen inschakelen, de DNS-instellingen van alle clients overschrijven en toestaan dat aangepaste DNS de VPN-DNS overschrijft. Je kunt DNS-servers gebruiken die automatisch van upstreamapparaten zijn verkregen of handmatig aangepaste DNS-servers opgeven.
 
     Raadpleeg [DNS](../../interface_guide/dns.md) om DNS in te stellen.
+
+---
 
 === "IPv6"
 
@@ -186,10 +187,8 @@ Een VPN (virtual private network) maakt een beveiligde, versleutelde verbinding 
 === "IGMP Snooping"
 
     IGMP snooping is een techniek voor netwerkoptimalisatie die in Ethernet-switches wordt gebruikt om multicastverkeer te beheren en regelen.
-
+    
     Raadpleeg [IGMP Snooping](../../interface_guide/igmp_snooping.md) om IGMP snooping in te stellen.
-
----
 
 === "Network Mode"
 
@@ -205,11 +204,9 @@ Een VPN (virtual private network) maakt een beveiligde, versleutelde verbinding 
 
 ## Flow Control {#flow-control}
 
-=== "Parental Control"
+Parental Control is bedoeld om je te helpen de apparaten van je kinderen te beheren. Je kunt onder meer de schermtijd beperken en toegang tot bepaalde inhoud blokkeren.
 
-    Parental Control is bedoeld om je te helpen de apparaten van je kinderen te beheren. Je kunt onder meer de schermtijd beperken en toegang tot bepaalde inhoud blokkeren.
-
-    Raadpleeg [Parental Control](../../interface_guide/parental_control_v4.9.md) om ouderlijk toezicht in te stellen.
+Raadpleeg [Parental Control](../../interface_guide/parental_control_v4.9.md) om ouderlijk toezicht in te stellen.
 
 ## Security {#security}
 

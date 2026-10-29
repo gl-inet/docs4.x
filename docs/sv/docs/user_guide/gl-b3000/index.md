@@ -79,7 +79,19 @@ Konfigurera Marble med någon av de internetanslutningsmetoder som stöds: Ether
 
 ---
 
-## Konfigurera ett VPN {#how-to-set-up-a-vpn}
+## Wireless {#wireless}
+
+På sidan Wireless kan du konfigurera inställningar för Wi-Fi-nätverken på 5 GHz och 2.4 GHz, bland annat aktivering/inaktivering av Wi-Fi, sändareffekt, Wi-Fi-namn (SSID), säkerhetsläge och lösenord för Wi-Fi, SSID-synlighet, Wi-Fi-läge, bandbredd och kanal.
+
+Information om hur du konfigurerar Wireless finns i [Wireless](../../interface_guide/wireless_v4.8.md).
+
+## Clients {#clients}
+
+På sidan Clients visas information om anslutna enheter. För varje klient visas enhetsnamn, anslutningstyp (Ethernet eller Wi-Fi), IP- och MAC-adresser, nedladdnings- och uppladdningshastighet samt total trafik. Du kan även blockera klienten eller utföra andra åtgärder.
+
+Information om hur du konfigurerar Clients finns i [Clients](../../interface_guide/clients.md).
+
+## VPN {#vpn}
 
 Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindelse mellan din enhet och VPN-servern. Det ger ett extra lager av integritet och säkerhet (VPN-klient) och låter dig få åtkomst till ett fjärrnätverk (VPN-server). Marble och andra GL.iNet-routrar stöder OpenVPN och WireGuard. Marble stöder även Tor.
 
@@ -103,36 +115,6 @@ Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindel
 
     * [How to set up Tor](../../interface_guide/tor.md)
 
----
-
-## Trådlöst nätverk och klienter {#wireless-and-clients}
-
-=== "Wireless"
-
-    På sidan Wireless kan du konfigurera inställningarna för Wi-Fi-nätverk på både 5 GHz och 2.4 GHz. Du kan bland annat aktivera eller inaktivera Wi-Fi, ange sändningseffekt, Wi-Fi-namn (SSID) och Wi-Fi-lösenord, aktivera eller inaktivera slumpmässig BSSID, välja Wi-Fi-säkerhetsläge, konfigurera SSID-synlighet samt välja Wi-Fi-läge, bandbredd och kanal.
-
-    Information om hur du konfigurerar Wireless finns i [Wireless](../../interface_guide/wireless.md).
-
-=== "Clients"
-
-    På sidan Clients visas information om anslutna enheter. För varje klient visas enhetsnamn, anslutningstyp (Ethernet eller Wi-Fi), IP- och MAC-adresser, nedladdnings- och uppladdningshastighet samt total trafik. Du kan även blockera klienten eller utföra andra åtgärder.
-
-    Information om hur du konfigurerar Clients finns i [Clients](../../interface_guide/clients.md).
-
-## Molntjänster {#cloud-services}
-
-=== "GoodCloud"
-
-    GL.iNets tjänst [GoodCloud](https://www.goodcloud.xyz){target="_blank"} är ett enkelt sätt att fjärransluta till och hantera GL.iNet-routrar.
-
-    Information om hur du konfigurerar GoodCloud finns i [GoodCloud](../../interface_guide/cloud.md).
-
-=== "AstroWarp"
-
-    Funktionen är tillgänglig från firmware v4.7.
-
-    AstroWarp är en avancerad nätverksplattform för smidiga fjärrnätverk och fjärrhantering av enheter. AstroWarp är särskilt utvecklat för integrering med GL.iNet-routrar och stöder heltäckande enhetshantering i hela nätverk, med styrning av både överordnade och underordnade enheter. Genom att fokusera på nätverksomfattande hantering och framtida stöd för styrning på maskinvarunivå erbjuder AstroWarp en robust och tillförlitlig lösning för enhetshantering och säkra, stabila nätverk.
-
 ## Program {#applications}
 
 === "Plug-ins"
@@ -143,13 +125,19 @@ Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindel
 
     Dynamic DNS (DDNS) identifierar och uppdaterar automatiskt IP-adressen som är kopplad till en domän i realtid. Tjänsten kopplar ett domännamn till routerns dynamiska offentliga IP-adress, så att du kan fjärransluta till nätverket utan en statisk IP-adress. Information om hur du konfigurerar Dynamic DNS finns i [Dynamic DNS](../../interface_guide/ddns.md).
 
----
+=== "GoodCloud"
+
+    GL.iNets tjänst [GoodCloud](https://www.goodcloud.xyz){target="_blank"} är ett enkelt sätt att fjärransluta till och hantera GL.iNet-routrar.
+    
+    Information om hur du konfigurerar GoodCloud finns i [GoodCloud](../../interface_guide/cloud.md).
 
 === "AdGuard Home"
 
     AdGuard Home är ett verktyg från tredje part som blockerar annonser och spårning för att skydda dig.
-
+    
     Information om hur du aktiverar AdGuard Home finns i [AdGuard Home](../../interface_guide/adguardhome.md).
+
+---
 
 === "Parental Control"
 
@@ -157,17 +145,15 @@ Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindel
 
     Information om hur du konfigurerar föräldrakontroll finns i [Parental controls](../../interface_guide/parental_control.md).
 
-=== "Tailscale"
-
-    Tailscale är en VPN-tjänst som ger åtkomst till dina enheter och program var som helst. Information om konfiguration finns i [Tailscale](../../interface_guide/tailscale.md).
-
 === "ZeroTier"
 
     ZeroTier är en VPN-tjänst som låter dig ansluta enheter till ett virtuellt nätverk. Information om konfiguration finns i [ZeroTier](../../interface_guide/zerotier.md).
 
----
+=== "Tailscale"
 
-## Nätverksinställningar {#network-settings}
+    Tailscale är en VPN-tjänst som ger åtkomst till dina enheter och program var som helst. Information om konfiguration finns i [Tailscale](../../interface_guide/tailscale.md).
+
+## Network {#network}
 
 === "Firewall"
 
@@ -196,8 +182,6 @@ Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindel
 
     Detaljerade konfigurationsanvisningar och mer information finns i [LAN](../../interface_guide/lan.md).
 
----
-
 === "Guest Network"
 
     På sidan Guest Network kan du skapa och hantera ett separat nätverk för gäster. De får internetåtkomst samtidigt som huvudnätverket förblir säkert. Sidan innehåller bland annat följande funktioner:
@@ -206,8 +190,10 @@ Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindel
     * DHCP: Konfigurera Dynamic Host Configuration Protocol för gästnätverket så att IP-adresser automatiskt tilldelas anslutna enheter.
 
     Gästnätverket ger gäster internetåtkomst och isolerar gästtrafiken från huvudnätverket för att minska potentiell påverkan på dess säkerhet och prestanda.
-
+    
     Detaljerade konfigurationsanvisningar och mer information finns i [Guest Network](../../interface_guide/guest_network.md).
+
+---
 
 === "DNS"
 
@@ -231,8 +217,6 @@ Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindel
     * WDS (Wireless Distribution System): Liknar Extender. Välj WDS om huvudroutern stöder WDS-läge.
 
     Detaljerade konfigurationsanvisningar och mer information finns i [Network Mode](../../interface_guide/network_mode.md).
-
----
 
 === "IPv6"
 
@@ -259,11 +243,11 @@ Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindel
 
     Detaljerade konfigurationsanvisningar och mer information finns i [MAC Address](../../interface_guide/mac_address.md).
 
+---
+
 === "Drop-in Gateway"
 
     Drop-in Gateway utökar huvudrouterns funktioner med funktioner som den kanske saknar, däribland AdGuard Home, krypterad DNS och VPN. Information om hur du konfigurerar Drop-in Gateway finns i [Konfigurera Drop-in Gateway](../../tutorials/how_to_set_up_drop_in_gateway.md).
-
----
 
 === "IGMP Snooping"
 
@@ -290,9 +274,7 @@ Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindel
 
     Detaljerade konfigurationsanvisningar och mer information finns i [NAT Settings](../../interface_guide/nat_settings.md).
 
----
-
-## Systeminställningar {#system-settings}
+## System {#system}
 
 === "Overview"
 
@@ -327,18 +309,18 @@ Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindel
     * Schedule Reboot: Konfigurera routern så att den startas om automatiskt med angivna intervall för att upprätthålla optimal prestanda och stabilitet.
     * 5GHz Wi-Fi Status Schedule: Skapa ett schema som aktiverar eller inaktiverar Wi-Fi-bandet 5GHz vid vissa tider för att optimera nätverksanvändning och energieffektivitet.
     * 2.4GHz Wi-Fi Status Schedule: Ange ett schema som styr Wi-Fi-bandet 2.4GHz för bättre hantering av nätverkets tillgänglighet och strömförbrukning.
-
+    
     Dessa schemaläggningsalternativ ger dig större kontroll över routerns funktioner, så att den kan uppfylla dina särskilda behov och önskemål.
 
     Detaljerade konfigurationsanvisningar och mer information finns i [Scheduled Tasks](../../interface_guide/scheduled_tasks.md).
-
----
 
 === "Time Zone"
 
     På sidan Time Zone kan du ange rätt tidszon för routern. Då tidsstämplas alla schemalagda uppgifter, loggar och systemhändelser korrekt enligt din lokala tid. Inställningen är viktig för korrekta register och för att tidsbaserade konfigurationer ska köras på rätt sätt.
 
     Detaljerade konfigurationsanvisningar och mer information finns i [Time Zone](../../interface_guide/time_zone.md).
+
+---
 
 === "Log"
 
@@ -365,8 +347,6 @@ Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindel
     Dessa inställningar hjälper dig att upprätthålla en säker nätverksmiljö som skyddar både routern och anslutna enheter.
 
     Detaljerade konfigurationsanvisningar och mer information finns i [Security](../../interface_guide/security.md).
-
----
 
 === "Reset Firmware"
 

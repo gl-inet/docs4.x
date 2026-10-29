@@ -131,7 +131,7 @@ Een VPN (virtual private network) maakt een beveiligde, versleutelde verbinding 
 
     Een LAN (Local Area Network) is een netwerk dat computers en apparaten binnen een beperkt geografisch gebied, zoals een huis of kantoor, met elkaar verbindt. Het maakt snelle gegevensoverdracht en het delen van bronnen mogelijk, zodat apparaten efficiënt met elkaar kunnen communiceren.
 
-    Raadpleeg [Lan](../../interface_guide/lan.md) om het LAN in te stellen.
+    Raadpleeg [LAN](../../interface_guide/lan.md) om het LAN in te stellen.
 
 === "DNS"
 
@@ -206,12 +206,6 @@ Een VPN (virtual private network) maakt een beveiligde, versleutelde verbinding 
 
 ---
 
-=== "Parental Control"
-
-    Parental Control is bedoeld om je te helpen de apparaten van je kinderen te beheren. Je kunt onder meer de schermtijd beperken en toegang tot bepaalde inhoud blokkeren.
-
-    Raadpleeg [Parental Control](../../interface_guide/parental_control.md) om ouderlijk toezicht in te stellen.
-
 === "QoS"
 
     QoS (Quality of Service) optimaliseert de bandbreedtetoewijzing door tijdens netwerkcongestie prioriteit te geven aan belangrijke activiteiten, zoals videogesprekken en gaming. Hierdoor neemt de latentie af en verbeteren de algemene netwerkprestaties. Dit geldt voor lokaal clientverkeer en verkeer in de VPN Client-tunnel, maar niet voor verkeer dat wordt ontvangen wanneer de router als VPN Server werkt.
@@ -224,6 +218,12 @@ Een VPN (virtual private network) maakt een beveiligde, versleutelde verbinding 
 
     Raadpleeg [SQM](../../interface_guide/sqm.md) voor uitgebreide instructies.
 
+=== "Parental Control"
+
+    Parental Control is bedoeld om je te helpen de apparaten van je kinderen te beheren. Je kunt onder meer de schermtijd beperken en toegang tot bepaalde inhoud blokkeren.
+
+    Raadpleeg [Parental Control](../../interface_guide/parental_control_v4.9.md) om ouderlijk toezicht in te stellen.
+
 ## Security {#security}
 
 === "Port Forwarding"
@@ -232,23 +232,27 @@ Een VPN (virtual private network) maakt een beveiligde, versleutelde verbinding 
 
     Raadpleeg [Port Forwarding](../../interface_guide/port_forwarding.md) om port forwarding in te stellen.
 
-=== "Management Control"
+=== "ACL"
 
-    Met Management Control kun je verschillende beveiligingsinstellingen configureren om je netwerk en router tegen onbevoegde toegang te beschermen. De pagina bevat de volgende opties:
+    Met ACL, een afkorting van Access Control List, kun je regels maken om netwerkverkeer te beheren op basis van verbindingsprotocollen, apparaatadressen en poorten. De regels bepalen of netwerktoegang wordt toegestaan of geblokkeerd. Als meerdere ACL-regels conflicteren, past het systeem de regel met de hoogste prioriteit toe.
+
+    Raadpleeg [ACL](../../interface_guide/acl.md) voor meer informatie.
+
+=== "Admin Access"
+
+    Met Admin Access kun je verschillende beveiligingsinstellingen configureren om je netwerk en router tegen onbevoegde toegang te beschermen. De pagina bevat de volgende opties:
 
     * Local Access Control: beheer en beperk de toegang tot de routerinterface vanaf apparaten die met je lokale netwerk zijn verbonden.
     * Remote Access Control: configureer en beperk toegang tot de routerinterface vanaf externe locaties via internet om de beveiliging tegen bedreigingen van buitenaf te verbeteren.
     * Open Ports on Router: bepaal welke poorten op de router geopend zijn om mogelijke kwetsbaarheden en onbevoegde toegang te beperken.
 
-    Met deze instellingen onderhoud je een veilige netwerkomgeving en bescherm je zowel de router als de verbonden apparaten.
-
-    Raadpleeg [Security](../../interface_guide/security.md) voor uitgebreide instructies.
+    Raadpleeg [Admin Access](../../interface_guide/admin_access.md) voor meer informatie.
 
 === "NAT Mode"
 
     Op de pagina NAT Mode kun je de functies Full Cone NAT en SIP ALG (Application Layer Gateway) in- of uitschakelen.
 
-Raadpleeg [NAT Mode](../../interface_guide/nat_settings.md) om de NAT-instellingen te configureren.
+    Raadpleeg [NAT Mode](../../interface_guide/nat_settings.md) om de NAT-instellingen te configureren.
 
 ## Toepassingen {#applications}
 
@@ -278,17 +282,17 @@ Raadpleeg [NAT Mode](../../interface_guide/nat_settings.md) om de NAT-instelling
 
     Raadpleeg [AdGuard Home](../../interface_guide/adguardhome.md) om AdGuard Home in te stellen.
 
-=== "ZeroTier"
-
-    ZeroTier is een softwaregedefinieerde netwerkoplossing waarmee gebruikers via internet beveiligde virtuele netwerken kunnen maken en apparaten kunnen verbinden alsof ze zich in hetzelfde lokale netwerk bevinden.
-
-    Raadpleeg [ZeroTier](../../interface_guide/zerotier.md) om ZeroTier in te stellen.
-
 === "Tailscale"
 
     Tailscale is een VPN-dienst waarmee je overal toegang hebt tot je apparaten en toepassingen.
 
     Raadpleeg [Tailscale](../../interface_guide/tailscale.md) om Tailscale in te stellen.
+
+=== "ZeroTier"
+
+    ZeroTier is een softwaregedefinieerde netwerkoplossing waarmee gebruikers via internet beveiligde virtuele netwerken kunnen maken en apparaten kunnen verbinden alsof ze zich in hetzelfde lokale netwerk bevinden.
+
+    Raadpleeg [ZeroTier](../../interface_guide/zerotier.md) om ZeroTier in te stellen.
 
 === "Tor"
 
@@ -336,8 +340,6 @@ Raadpleeg [NAT Mode](../../interface_guide/nat_settings.md) om de NAT-instelling
 
     Raadpleeg [Upgrade](../../interface_guide/upgrade.md) voor uitgebreide installatie-instructies en meer informatie.
 
----
-
 === "Scheduled Tasks"
 
     Op de pagina Scheduled Tasks kun je verschillende routerfuncties volgens een vooraf ingesteld schema automatiseren. Dit verhoogt het gemak en de efficiëntie. De belangrijkste functies op deze pagina zijn:
@@ -349,11 +351,19 @@ Raadpleeg [NAT Mode](../../interface_guide/nat_settings.md) om de NAT-instelling
 
     Raadpleeg [Scheduled Tasks](../../interface_guide/scheduled_tasks.md) voor uitgebreide installatie-instructies en meer informatie.
 
+---
+
 === "Time Zone"
 
     Op de pagina Time Zone kun je de juiste tijdzone voor je router instellen. Hierdoor krijgen alle geplande taken, logboeken en systeemgebeurtenissen een nauwkeurig tijdstempel op basis van je lokale tijd. Deze instelling is essentieel voor nauwkeurige registraties en een correcte uitvoering van tijdgebonden configuraties.
 
     Raadpleeg [Time Zone](../../interface_guide/time_zone.md) voor uitgebreide installatie-instructies en meer informatie.
+
+=== "Reset Firmware"
+
+    Op de pagina Reset Firmware kun je de huidige firmwareversie van je router terugzetten naar de standaardinstellingen. Alle aangepaste configuraties worden daarbij gewist. Dit proces herstelt de standaardinstellingen van de firmwareversie die momenteel is geïnstalleerd. Dit kan nuttig zijn om aanhoudende problemen op te lossen of opnieuw te beginnen met de standaardconfiguratie van de huidige firmware.
+
+    Raadpleeg [Reset Firmware](../../interface_guide/reset_firmware.md) voor uitgebreide installatie-instructies en meer informatie.
 
 === "Log"
 
@@ -368,14 +378,6 @@ Raadpleeg [NAT Mode](../../interface_guide/nat_settings.md) om de NAT-instelling
     Daarnaast bevat de pagina de knop Export Log, waarmee je alle verzamelde logboeken kunt exporteren voor analyse door technische ondersteuning. Deze functie is zeer waardevol voor het vaststellen van complexe problemen en het verkrijgen van professionele hulp.
 
     Raadpleeg [Log](../../interface_guide/log.md) voor uitgebreide installatie-instructies en meer informatie.
-
----
-
-=== "Reset Firmware"
-
-    Op de pagina Reset Firmware kun je de huidige firmwareversie van je router terugzetten naar de standaardinstellingen. Alle aangepaste configuraties worden daarbij gewist. Dit proces herstelt de standaardinstellingen van de firmwareversie die momenteel is geïnstalleerd. Dit kan nuttig zijn om aanhoudende problemen op te lossen of opnieuw te beginnen met de standaardconfiguratie van de huidige firmware.
-
-    Raadpleeg [Reset Firmware](../../interface_guide/reset_firmware.md) voor uitgebreide installatie-instructies en meer informatie.
 
 === "Advanced Settings"
 

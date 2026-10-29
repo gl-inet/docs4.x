@@ -87,7 +87,7 @@ Strona Clients wyświetla informacje o podłączonych urządzeniach. Dla każdeg
 
 Zapoznaj się z poradnikiem [Clients](../../interface_guide/clients.md).
 
-## Usługi w chmurze {#cloud-services}
+## Usługi chmurowe {#cloud-services}
 
 === "GoodCloud"
 
@@ -131,7 +131,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między urząd
 
     LAN (Local Area Network) to sieć łącząca komputery i urządzenia na ograniczonym obszarze, takim jak dom lub biuro. Umożliwia szybki transfer danych i współdzielenie zasobów, dzięki czemu urządzenia mogą sprawnie komunikować się ze sobą.
 
-    Zapoznaj się z poradnikiem [Lan](../../interface_guide/lan.md).
+    Aby skonfigurować LAN, zapoznaj się z [LAN](../../interface_guide/lan.md).
 
 === "DNS"
 
@@ -206,12 +206,6 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między urząd
 
 ---
 
-=== "Parental Control"
-
-    Parental Control pomaga zarządzać urządzeniami dzieci i kontrolować ich działanie. Obejmuje ograniczanie czasu spędzanego przed ekranem oraz blokowanie dostępu do określonych treści.
-
-    Zapoznaj się z poradnikiem [Parental Control](../../interface_guide/parental_control.md).
-
 === "QoS"
 
     QoS (Quality of Service) optymalizuje przydział przepustowości, nadając priorytet krytycznym aktywnościom (np. połączeniom wideo, grom) podczas przeciążenia sieci, zmniejszając opóźnienia i poprawiając ogólną wydajność sieci. Pamiętaj, że dotyczy to lokalnego ruchu urządzeń klienckich oraz ruchu tunelu klienta VPN, ale nie ruchu odbieranego, gdy router działa jako serwer VPN.
@@ -224,6 +218,12 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między urząd
 
     Szczegółowe instrukcje znajdziesz w [SQM](../../interface_guide/sqm.md).
 
+=== "Parental Control"
+
+    Parental Control pomaga zarządzać urządzeniami dzieci i kontrolować ich działanie. Obejmuje ograniczanie czasu spędzanego przed ekranem oraz blokowanie dostępu do określonych treści.
+
+    Aby skonfigurować kontrolę rodzicielską, zapoznaj się z sekcją [Parental Control](../../interface_guide/parental_control_v4.9.md).
+
 ## SECURITY {#security}
 
 === "Port Forwarding"
@@ -232,17 +232,21 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między urząd
 
     Zapoznaj się z poradnikiem [Port Forwarding](../../interface_guide/port_forwarding.md).
 
-=== "Management Control"
+=== "ACL"
 
-    Management Control umożliwia konfigurację różnych ustawień bezpieczeństwa w celu ochrony sieci i routera przed nieautoryzowanym dostępem. Ta strona obejmuje następujące opcje:
+    ACL (Access Control List) umożliwia tworzenie reguł zarządzania ruchem na podstawie protokołów połączeń, adresów urządzeń i portów. Reguły określają, czy zezwalać na dostęp do sieci, czy go blokować. Jeśli kilka reguł ACL jest ze sobą sprzecznych, system stosuje regułę o wyższym priorytecie.
+
+    Szczegółowe informacje zawiera strona [ACL](../../interface_guide/acl.md).
+
+=== "Admin Access"
+
+    Admin Access umożliwia konfigurowanie różnych ustawień zabezpieczeń chroniących sieć i router przed nieuprawnionym dostępem. Strona zawiera następujące opcje:
 
     * Local Access Control: Zarządzanie dostępem do interfejsu routera z urządzeń podłączonych do sieci lokalnej oraz jego ograniczanie.
     * Remote Access Control: Konfigurowanie i ograniczanie dostępu do interfejsu routera ze zdalnych lokalizacji przez Internet, co zwiększa ochronę przed zagrożeniami zewnętrznymi.
     * Open Ports on Router: Kontrola tego, które porty są otwarte na routerze, co ogranicza potencjalne podatności i nieautoryzowany dostęp.
 
-    Ustawienia te pomagają utrzymać bezpieczne środowisko sieciowe, chroniąc zarówno router, jak i podłączone urządzenia.
-
-    Szczegółowe instrukcje znajdziesz w [Security](../../interface_guide/security.md).
+    Szczegółowe informacje zawiera strona [Admin Access](../../interface_guide/admin_access.md).
 
 === "NAT Mode"
 
@@ -278,17 +282,17 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między urząd
 
     Zapoznaj się z poradnikiem [AdGuard Home](../../interface_guide/adguardhome.md).
 
-=== "ZeroTier"
-
-    ZeroTier to rozwiązanie typu software-defined networking, które umożliwia tworzenie bezpiecznych, wirtualnych sieci przez Internet i łączenie urządzeń tak, jakby znajdowały się w tej samej sieci lokalnej.
-
-    Zapoznaj się z poradnikiem [ZeroTier](../../interface_guide/zerotier.md).
-
 === "Tailscale"
 
     Tailscale to usługa VPN, która umożliwia dostęp do urządzeń i aplikacji z dowolnego miejsca.
 
     Zapoznaj się z poradnikiem [Tailscale](../../interface_guide/tailscale.md).
+
+=== "ZeroTier"
+
+    ZeroTier to rozwiązanie typu software-defined networking, które umożliwia tworzenie bezpiecznych, wirtualnych sieci przez Internet i łączenie urządzeń tak, jakby znajdowały się w tej samej sieci lokalnej.
+
+    Zapoznaj się z poradnikiem [ZeroTier](../../interface_guide/zerotier.md).
 
 === "Tor"
 
@@ -336,8 +340,6 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między urząd
 
     Szczegółowe instrukcje i więcej informacji znajdziesz w [Upgrade](../../interface_guide/upgrade.md).
 
----
-
 === "Scheduled Tasks"
 
     Strona Scheduled Tasks umożliwia automatyzację różnych funkcji routera według z góry określonego harmonogramu, zwiększając wygodę i efektywność. Główne funkcje tej strony obejmują:
@@ -349,11 +351,19 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między urząd
 
     Szczegółowe instrukcje i więcej informacji znajdziesz w [Scheduled Tasks](../../interface_guide/scheduled_tasks.md).
 
+---
+
 === "Time Zone"
 
     Strona Time Zone umożliwia ustawienie prawidłowej strefy czasowej routera, dzięki czemu wszystkie zaplanowane zadania, logi i zdarzenia systemowe są oznaczane zgodnie z czasem lokalnym. To ustawienie ma kluczowe znaczenie dla zachowania dokładnych zapisów i prawidłowego działania konfiguracji zależnych od czasu.
 
     Szczegółowe instrukcje i więcej informacji znajdziesz w [Time Zone](../../interface_guide/time_zone.md).
+
+=== "Reset Firmware"
+
+    Strona Reset Firmware umożliwia zresetowanie bieżącej wersji firmware routera do ustawień domyślnych, usuwając wszystkie niestandardowe konfiguracje. Proces ten przywraca ustawienia domyślne aktualnie zainstalowanej wersji firmware. Może to być przydatne przy rozwiązywaniu uporczywych problemów lub gdy chcesz zacząć od nowa z domyślną konfiguracją bieżącego firmware.
+
+    Szczegółowe instrukcje i więcej informacji znajdziesz w [Reset Firmware](../../interface_guide/reset_firmware.md).
 
 === "Log"
 
@@ -368,14 +378,6 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między urząd
     Dodatkowo strona zawiera przycisk Export Log, który umożliwia eksport wszystkich zebranych logów do analizy przez wsparcie techniczne. Funkcja ta jest bardzo przydatna przy diagnozowaniu złożonych problemów i uzyskiwaniu profesjonalnej pomocy.
 
     Szczegółowe instrukcje i więcej informacji znajdziesz w [Log](../../interface_guide/log.md).
-
----
-
-=== "Reset Firmware"
-
-    Strona Reset Firmware umożliwia zresetowanie bieżącej wersji firmware routera do ustawień domyślnych, usuwając wszystkie niestandardowe konfiguracje. Proces ten przywraca ustawienia domyślne aktualnie zainstalowanej wersji firmware. Może to być przydatne przy rozwiązywaniu uporczywych problemów lub gdy chcesz zacząć od nowa z domyślną konfiguracją bieżącego firmware.
-
-    Szczegółowe instrukcje i więcej informacji znajdziesz w [Reset Firmware](../../interface_guide/reset_firmware.md).
 
 === "Advanced Settings"
 

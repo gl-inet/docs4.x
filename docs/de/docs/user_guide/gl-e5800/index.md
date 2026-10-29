@@ -323,10 +323,16 @@ Informationen zur Einrichtung von Clients finden Sie unter [Clients](../../inter
 
 ## Cloud-Dienste {#cloud-services}
 
+=== "GL.iNet Account"
+
+    Mit dem GL.iNet Account können Sie Ihre Geräte und Cloud-Dienste verbinden und verwalten. Ein einzelner GL.iNet Account ermöglicht den nahtlosen Zugriff auf GoodCloud und die glinet App und bietet dabei eine sichere und verbesserte Nutzung. So können Sie Ihr Netzwerk jederzeit und von überall bequem verwalten.
+
+    Informationen zur Einrichtung finden Sie unter [GL.iNet Account](../../interface_guide/glinet_account.md).
+
 === "GoodCloud"
 
     Der Cloud-Management-Dienst GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} bietet eine einfache Möglichkeit, per Fernzugriff auf GL.iNet-Router zuzugreifen und sie zu verwalten.
-
+    
     Zum Einrichten von GoodCloud lesen Sie bitte [GoodCloud](../../interface_guide/cloud.md).
 
 === "AstroWarp"
@@ -361,17 +367,19 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     Zum Einrichten von Multi-WAN lesen Sie bitte [Multi-WAN](../../interface_guide/multi-wan.md).
 
-=== "LAN"
+=== "Subnet"
 
-    LAN, kurz für Local Area Network, ist ein Netzwerk, das Computer und Geräte in einem begrenzten geografischen Bereich wie einem Zuhause oder Büro verbindet. Es ermöglicht schnelle Datenübertragung und gemeinsame Ressourcennutzung, sodass Geräte effizient miteinander kommunizieren können.
+    Diese Seite ermöglicht die zentrale Konfiguration und Verwaltung von **Main Network**, **Guest Network**, **IoT Network** und benutzerdefinierten **VLAN Networks**. Sie können mehrere Subnetze erstellen und verwalten, um verschiedene Gerätetypen oder Datenverkehr voneinander zu trennen.
 
-    Zum Einrichten von LAN lesen Sie bitte [Lan](../../interface_guide/lan.md).
+    Informationen zur Einrichtung finden Sie unter [Subnet](../../interface_guide/subnet.md).
 
-=== "Gastnetzwerk"
+=== "Ethernet Port"
 
-    Hier können Sie ein Subnetz innerhalb der privaten IPv4-Adressbereiche 192.168.0.0/16, 172.16.0.0/12 oder 10.0.0.0/8 festlegen, Gateway- und Netmasken-IP-Adressen angeben und Sicherheitseinstellungen wie AP Isolation für das Gastnetzwerk konfigurieren.
+    Auf der Seite Ethernet Port können Sie die Portrolle des Ethernet-Ports festlegen, also ihn als WAN oder LAN verwenden, den MAC-Modus und die MAC-Adresse für die WAN-Schnittstelle ändern und die ausgehandelte Portgeschwindigkeit anzeigen.
 
-    Zum Einrichten des Gastnetzwerks lesen Sie bitte [Guest Network](../../interface_guide/guest_network.md).
+    Mudi 7 verfügt über einen einzelnen Ethernet-Port, der standardmäßig als LAN konfiguriert ist. Bei Bedarf können Sie ihn über den Touchscreen oder das Web-Admin-Panel auf WAN umstellen.
+
+    Informationen zur Verwaltung der Ethernet-Ports finden Sie unter [Ethernet Port](../../interface_guide/ethernet_port_v4.10.md).
 
 ---
 
@@ -381,32 +389,24 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     Zum Einrichten von DNS lesen Sie bitte [DNS](../../interface_guide/dns.md).
 
-=== "Ethernet Port"
-
-    Auf der Seite Ethernet Port können Sie die Portrolle des Ethernet-Ports festlegen, also ihn als WAN oder LAN verwenden, den MAC-Modus und die MAC-Adresse für die WAN-Schnittstelle ändern und die ausgehandelte Portgeschwindigkeit anzeigen.
-
-    Mudi 7 verfügt über einen einzelnen Ethernet-Port, der standardmäßig als LAN konfiguriert ist. Bei Bedarf können Sie ihn über den Touchscreen oder das Web-Admin-Panel auf WAN umstellen.
-
-    Zum Verwalten der Ethernet-Ports lesen Sie bitte [Ethernet Port](../../interface_guide/ethernet_port.md).
-
 === "IPv6"
 
     IPv6, kurz für Internet Protocol Version 6, ist die neueste Version des Internetprotokolls und wurde als Nachfolger von IPv4 entwickelt. Es bietet einen wesentlich größeren Adressraum und damit nahezu unbegrenzt viele eindeutige IP-Adressen, was für die stetig wachsende Zahl internetfähiger Geräte entscheidend ist.
-
+    
     Zum Einrichten von IPv6 lesen Sie bitte [IPV6](../../interface_guide/ipv6.md).
-
----
 
 === "IGMP Snooping"
 
     IGMP Snooping ist eine Netzwerkoptimierungstechnik, die in Ethernet-Switches eingesetzt wird, um Multicast-Datenverkehr zu verwalten und zu steuern.
-
+    
     Zum Einrichten von IGMP Snooping lesen Sie bitte [IGMP Snooping](../../interface_guide/igmp_snooping.md).
+
+---
 
 === "Network Mode"
 
     Der Netzwerkmodus bezeichnet die Konfiguration, die festlegt, wie sich ein Gerät mit einem Netzwerk verbindet und mit anderen Geräten kommuniziert.
-
+    
     Zum Einrichten des Netzwerkmodus lesen Sie bitte [Network Mode](../../interface_guide/network_mode.md).
 
     **Hinweis:** Mudi 7 unterstützt Router-, Access-Point- und Extender-Modus. Der WDS-Modus wird nicht unterstützt.
@@ -414,25 +414,59 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 === "Drop-in gateway"
 
     Drop-in Gateway erweitert die Funktionalität Ihres Hauptrouters um Funktionen wie AdGuard Home, verschlüsseltes DNS und VPN-Client.
-
+    
     Zum Einrichten von Drop-in Gateway lesen Sie bitte diese Links:
-
+    
     - [Drop-in Gateway](../../interface_guide/drop-in_gateway.md)
     - [So richten Sie Drop-in Gateway ein](../../tutorials/how_to_set_up_drop_in_gateway.md)
 
 === "Netzwerkbeschleunigung"
 
     Netzwerkbeschleunigung kann die CPU-Last reduzieren und die Weiterleitung von Datenpaketen beschleunigen.
-
+    
     Zum Einrichten der Netzwerkbeschleunigung lesen Sie bitte [Network Acceleration](../../interface_guide/network_acceleration.md).
 
 ## Durchflusskontrolle {#flow-control}
+
+=== "DPI Engine"
+
+    DPI (Deep Packet Inspection) ist eine Kernfunktion des intelligenten Netzwerkmanagements. Sie überwindet die Einschränkungen herkömmlicher Router, die nur Quell- oder Zieladressen identifizieren, analysiert Paketnutzdaten im Detail und erkennt über den Abgleich mit einer Signaturdatenbank präzise die vom Benutzer aufgerufenen Anwendungen und Websites. So werden eine feinere Klassifizierung und Steuerung des Datenverkehrs ermöglicht.
+    
+    In Kombination mit [Netify](https://www.netify.ai/){target="_blank"} nutzt die DPI-Funktion von GL.iNet ein leichtgewichtiges eingebettetes Plug-in für eine effiziente Bereitstellung. Mit der online aktualisierten Signaturdatenbank von Netify wird zuverlässiges Management ermöglicht, sodass die Netzwerksteuerung präziser und effizienter wird.
+
+    Detaillierte Informationen finden Sie unter [DPI Engine](../../interface_guide/dpi_engine.md).
+
+=== "Data Statistics"
+
+    Data Statistics bietet ein intelligentes Dashboard zur Datenverkehrsanalyse, das die Netzwerknutzung nach Anwendungen kategorisiert und visualisiert. So können Sie den aktuellen und historischen Datenverkehr besser überwachen und kontrollieren.
+
+    Detaillierte Informationen finden Sie unter [Data Statistics](../../interface_guide/data_statistics.md).
+
+=== "Content Filter"
+
+    Content Filter bietet intelligente Online-Sicherheit auf Basis einer DPI-gestützten Klassifizierung und blockiert automatisch schädliche oder bösartige Websites, damit Ihr Netzwerk sauber und sicher bleibt.
+
+    Detaillierte Informationen finden Sie unter [Content Filter](../../interface_guide/content_filter.md).
+
+---
+
+=== "QoS"
+
+    QoS (Quality of Service) optimiert die Bandbreitenzuweisung, indem wichtige Aktivitäten wie Videoanrufe oder Gaming bei Netzwerküberlastung priorisiert werden. Dadurch werden Latenzen reduziert und die Gesamtleistung des Netzwerks verbessert. Dies gilt für lokalen Client-Datenverkehr und VPN-Client-Tunnel-Datenverkehr, jedoch nicht für Datenverkehr, den der Router als VPN-Server empfängt.
+
+    Detaillierte Informationen finden Sie unter [QoS](../../interface_guide/qos.md).
+
+=== "SQM"
+
+    SQM (Smart Queue Management) verwaltet den Netzwerkverkehr Ihres Routers intelligent, um Latenzen und „Bufferbloat“ zu minimieren und so Gaming und Sprachanrufe flüssiger zu machen.
+
+    Detaillierte Informationen finden Sie unter [SQM](../../interface_guide/sqm.md).
 
 === "Parental Control"
 
     Parental Control hilft Ihnen dabei, die Geräte Ihrer Kinder zu verwalten und zu steuern. Dazu gehören die Begrenzung der Bildschirmzeit und die Einschränkung des Zugriffs auf bestimmte Inhalte.
 
-    Zum Einrichten von Parental Control lesen Sie bitte [Parental Control](../../interface_guide/parental_control.md).
+    Informationen zur Einrichtung von Parental Control finden Sie unter [Parental Control](../../interface_guide/parental_control_v4.9.md).
 
 ## Sicherheit {#security}
 
@@ -442,17 +476,21 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     Zum Einrichten der Portweiterleitung lesen Sie bitte [Port Forwarding](../../interface_guide/port_forwarding.md).
 
-=== "Management Control"
+=== "ACL"
 
-    Mit Management Control können Sie verschiedene Sicherheitseinstellungen konfigurieren, um Ihr Netzwerk und Ihren Router vor unbefugtem Zugriff zu schützen. Diese Seite enthält die folgenden Optionen:
+    Mit ACL (Access Control List) können Sie Regeln erstellen, um den Netzwerkverkehr anhand von Verbindungsprotokollen, Geräteadressen und Ports zu verwalten. Die Regeln legen fest, ob der Netzwerkzugriff zugelassen oder blockiert wird. Wenn mehrere ACL-Regeln miteinander in Konflikt stehen, wendet das System die Regel mit der höheren Priorität an.
+
+    Weitere Informationen finden Sie unter [ACL](../../interface_guide/acl.md).
+
+=== "Admin Access"
+
+    Mit Admin Access können Sie verschiedene Sicherheitseinstellungen konfigurieren, um Ihr Netzwerk und Ihren Router vor unbefugtem Zugriff zu schützen. Diese Seite umfasst die folgenden Optionen:
 
     * Local Access Control: Verwalten und beschränken Sie den Zugriff auf die Routeroberfläche von Geräten in Ihrem lokalen Netzwerk.
     * Remote Access Control: Konfigurieren und beschränken Sie den Zugriff auf die Routeroberfläche aus entfernten Standorten über das Internet, um die Sicherheit vor externen Bedrohungen zu erhöhen.
     * Open Ports on Router: Steuern Sie, welche Ports am Router geöffnet sind, um potenzielle Schwachstellen und unbefugten Zugriff zu begrenzen.
 
-    Diese Einstellungen helfen Ihnen, eine sichere Netzwerkumgebung aufrechtzuerhalten und sowohl Ihren Router als auch verbundene Geräte zu schützen.
-
-    Detaillierte Anweisungen finden Sie unter [Security](../../interface_guide/security.md).
+    Weitere Informationen finden Sie unter [Admin Access](../../interface_guide/admin_access.md).
 
 === "NAT Mode"
 
@@ -488,17 +526,17 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     Zum Einrichten von AdGuard Home lesen Sie bitte [AdGuard Home](../../interface_guide/adguardhome.md).
 
-=== "ZeroTier"
-
-    ZeroTier ist eine Software-defined-Networking-Lösung, mit der Benutzer sichere virtuelle Netzwerke über das Internet erstellen können, sodass Geräte miteinander verbunden werden, als befänden sie sich im selben lokalen Netzwerk.
-
-    Zum Einrichten von ZeroTier lesen Sie bitte [ZeroTier](../../interface_guide/zerotier.md).
-
 === "Tailscale"
 
     Tailscale ist ein VPN-Dienst, mit dem Sie von überall auf Ihre Geräte und Anwendungen zugreifen können.
-
+    
     Zum Einrichten von Tailscale lesen Sie bitte [Tailscale](../../interface_guide/tailscale.md).
+
+=== "ZeroTier"
+
+    ZeroTier ist eine Software-defined-Networking-Lösung, mit der Benutzer sichere virtuelle Netzwerke über das Internet erstellen können, sodass Geräte miteinander verbunden werden, als befänden sie sich im selben lokalen Netzwerk.
+    
+    Zum Einrichten von ZeroTier lesen Sie bitte [ZeroTier](../../interface_guide/zerotier.md).
 
 === "Tor"
 

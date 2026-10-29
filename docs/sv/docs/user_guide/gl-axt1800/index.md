@@ -96,7 +96,35 @@ Konfigurera Slate AX med någon av de internetanslutningsmetoder som stöds: Eth
 
     Detaljerade anvisningar finns i [Connect to the Internet via cellular](../../interface_guide/internet_cellular.md).
 
-## Konfigurera ett VPN {#how-to-set-up-a-vpn}
+---
+
+## Wireless {#wireless}
+
+På sidan Wireless kan du konfigurera inställningarna för Wi-Fi-nätverk på 5 GHz och 2.4 GHz. Du kan bland annat aktivera Wi-Fi, ange sändningseffekt och Wi-Fi-namn (SSID), aktivera slumpmässig BSSID, välja Wi-Fi-säkerhetsläge och lösenord, konfigurera SSID-synlighet samt välja Wi-Fi-läge, bandbredd och kanal.
+
+Information om hur du konfigurerar Wireless finns i [Wireless](../../interface_guide/wireless_v4.8.md).
+
+## Clients {#clients}
+
+På sidan Clients visas information om anslutna enheter. För varje klient visas namn, IP- och MAC-adresser, nedladdnings- och uppladdningshastighet samt total trafik. Du kan även blockera klienten eller utföra andra åtgärder.
+
+Information om hur du konfigurerar Clients finns i [Clients](../../interface_guide/clients.md).
+
+## Molntjänster {#cloud-services}
+
+=== "GoodCloud"
+
+    GL.iNets tjänst [GoodCloud](https://www.goodcloud.xyz){target="_blank"} är ett enkelt sätt att fjärransluta till och hantera GL.iNet-routrar.
+
+    Information om hur du konfigurerar GoodCloud finns i [GoodCloud](../../interface_guide/cloud.md).
+
+=== "AstroWarp"
+
+    AstroWarp är en avancerad nätverksplattform för smidiga fjärrnätverk och fjärrhantering av enheter. AstroWarp är särskilt utvecklat för integrering med GL.iNet-routrar och stöder heltäckande enhetshantering i hela nätverk, med styrning av både överordnade och underordnade enheter. Genom att fokusera på nätverksomfattande hantering och framtida stöd för styrning på maskinvarunivå erbjuder AstroWarp en robust och tillförlitlig lösning för enhetshantering och säkra, stabila nätverk.
+
+    Information om hur du konfigurerar AstroWarp finns i [AstroWarp](../../interface_guide/astrowarp.md).
+
+## VPN {#vpn}
 
 Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindelse mellan din enhet och VPN-servern. Det ger ett extra lager av integritet och säkerhet (VPN-klient) och låter dig få åtkomst till ett fjärrnätverk (VPN-server). Slate AX och andra GL.iNet-routrar stöder OpenVPN och WireGuard. Slate AX stöder även Tor.
 
@@ -117,38 +145,8 @@ Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindel
 === "Tor"
 
     Tor, en förkortning av The Onion Router, är ett integritetsfokuserat nätverk som möjliggör anonym kommunikation över internet. Internettrafiken dirigeras genom flera servrar (noder) som drivs av frivilliga för att dölja användarens plats och aktivitet. Det gör det svårt att spåra aktiviteter online.
-
+    
     * [Konfigurera Tor](../../interface_guide/tor.md).
-
----
-
-## Trådlöst nätverk och klienter {#wireless-and-clients}
-
-=== "Wireless"
-
-    På sidan Wireless kan du konfigurera inställningarna för Wi-Fi-nätverk på 5 GHz och 2.4 GHz. Du kan bland annat aktivera Wi-Fi, ange sändningseffekt och Wi-Fi-namn (SSID), aktivera slumpmässig BSSID, välja Wi-Fi-säkerhetsläge och lösenord, konfigurera SSID-synlighet samt välja Wi-Fi-läge, bandbredd och kanal.
-
-    Information om hur du konfigurerar Wireless finns i [Wireless](../../interface_guide/wireless.md).
-
-=== "Clients"
-
-    På sidan Clients visas information om anslutna enheter. För varje klient visas namn, IP- och MAC-adresser, nedladdnings- och uppladdningshastighet samt total trafik. Du kan även blockera klienten eller utföra andra åtgärder.
-
-    Information om hur du konfigurerar Clients finns i [Clients](../../interface_guide/clients.md).
-
-## Molntjänster {#cloud-services}
-
-=== "GoodCloud"
-
-    GL.iNets tjänst [GoodCloud](https://www.goodcloud.xyz){target="_blank"} är ett enkelt sätt att fjärransluta till och hantera GL.iNet-routrar.
-
-    Information om hur du konfigurerar GoodCloud finns i [GoodCloud](../../interface_guide/cloud.md).
-
-=== "AstroWarp"
-
-    AstroWarp är en avancerad nätverksplattform för smidiga fjärrnätverk och fjärrhantering av enheter. AstroWarp är särskilt utvecklat för integrering med GL.iNet-routrar och stöder heltäckande enhetshantering i hela nätverk, med styrning av både överordnade och underordnade enheter. Genom att fokusera på nätverksomfattande hantering och framtida stöd för styrning på maskinvarunivå erbjuder AstroWarp en robust och tillförlitlig lösning för enhetshantering och säkra, stabila nätverk.
-
-    Information om hur du konfigurerar AstroWarp finns i [AstroWarp](../../interface_guide/astrowarp.md).
 
 ## Program {#applications}
 
@@ -184,19 +182,19 @@ Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindel
 
     Information om hur du konfigurerar parental control finns i [Parental Control](../../interface_guide/parental_control.md).
 
-=== "ZeroTier"
-
-    ZeroTier är en programvarudefinierad nätverkslösning som låter dig skapa säkra virtuella nätverk över internet och ansluta enheter som om de fanns i samma lokala nätverk.
-
-    Information om hur du konfigurerar ZeroTier finns i [ZeroTier](../../interface_guide/zerotier.md).
-
 === "Tailscale"
 
     Tailscale är en VPN-tjänst som ger dig åtkomst till dina enheter och program oavsett var du befinner dig.
-
+    
     Information om hur du konfigurerar Tailscale finns i [Tailscale](../../interface_guide/tailscale.md).
 
-## Nätverksinställningar {#network-settings}
+=== "ZeroTier"
+
+    ZeroTier är en programvarudefinierad nätverkslösning som låter dig skapa säkra virtuella nätverk över internet och ansluta enheter som om de fanns i samma lokala nätverk.
+    
+    Information om hur du konfigurerar ZeroTier finns i [ZeroTier](../../interface_guide/zerotier.md).
+
+## Network {#network}
 
 === "Port Forwarding"
 
@@ -213,16 +211,16 @@ Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindel
 === "LAN"
 
     LAN, eller Local Area Network, är ett nätverk som ansluter datorer och enheter inom ett begränsat geografiskt område, till exempel ett hem eller ett kontor. Det möjliggör snabb dataöverföring och resursdelning, så att enheterna kan kommunicera effektivt med varandra.
-
+    
     Information om hur du konfigurerar LAN finns i [Lan](../../interface_guide/lan.md).
-
----
 
 === "Guest Network"
 
     Du kan ange ett subnät inom de privata IPv4-adressintervallen 192.168.0.0/16, 172.16.0.0/12 eller 10.0.0.0/8, ange IP-adresserna för gateway och nätmask samt konfigurera säkerhetsinställningar som AP-isolering för gästnätverket.
 
     Information om hur du konfigurerar gästnätverket finns i [Guest Network](../../interface_guide/guest_network.md).
+
+---
 
 === "DNS"
 
@@ -236,8 +234,6 @@ Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindel
 
     Information om hur du hanterar Ethernet ports finns i [Port Management](../../interface_guide/ethernet_port.md).
 
----
-
 === "Network Mode"
 
     Nätverksläge avser de konfigurationsinställningar som avgör hur en enhet ansluter till ett nätverk och kommunicerar med andra enheter.
@@ -247,19 +243,19 @@ Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindel
 === "IPv6"
 
     IPv6, eller Internet Protocol version 6, är den senaste versionen av internetprotokollet och är avsett att ersätta IPv4. Det erbjuder ett mycket större adressutrymme med ett praktiskt taget obegränsat antal unika IP-adresser, vilket är viktigt för att hantera det växande antalet enheter som är anslutna till internet.
-
+    
     Information om hur du konfigurerar IPV6 finns i [IPV6](../../interface_guide/ipv6.md).
+
+---
 
 === "Drop-in gateway"
 
     En drop-in-gateway utökar huvudrouterns funktioner med bland annat AdGuard Home, krypterad DNS och VPN-klient.
-
+    
     Använd följande länkar för att konfigurera en drop-in-gateway:
-
+    
     - [Drop-in Gateway](../../interface_guide/drop-in_gateway.md)
     - [How to set up drop-in gateway](../../tutorials/how_to_set_up_drop_in_gateway.md)
-
----
 
 === "IGMP Snooping"
 
@@ -273,7 +269,7 @@ Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindel
 
     Information om hur du konfigurerar NAT-inställningar finns i [NAT Settings](../../interface_guide/nat_settings.md).
 
-## Systeminställningar {#system-settings}
+## System {#system}
 
 === "Overview"
 

@@ -20,11 +20,11 @@ Conecte un dispositivo, por ejemplo un ordenador, portátil o smartphone, al rou
 
 - Ethernet
 
-  Conecte su dispositivo al puerto LAN del router mediante un cable Ethernet.
+    Conecte su dispositivo al puerto LAN del router mediante un cable Ethernet.
 
 - Wi-Fi
 
-  En su dispositivo, vaya a Settings -> WLAN, localice el nombre de la red Wi-Fi del router en la lista de redes disponibles e introduzca la contraseña. Puede encontrar el nombre y la contraseña predeterminados impresos en la etiqueta inferior del router.
+    En su dispositivo, vaya a Settings -> WLAN, localice el nombre de la red Wi-Fi del router en la lista de redes disponibles e introduzca la contraseña. Puede encontrar el nombre y la contraseña predeterminados impresos en la etiqueta inferior del router.
 
 ### 3. Iniciar sesión en el panel de administración web {#3-log-in-to-web-admin-panel}
 
@@ -84,7 +84,21 @@ Configure su Mango utilizando uno de los métodos de conexión a Internet compat
 
     Consulte [Connect to the Internet via a USB modem](../../interface_guide/internet_cellular.md) para ver instrucciones detalladas.
 
-## Cómo configurar una VPN {#how-to-set-up-a-vpn}
+---
+
+## Wireless {#wireless}
+
+La página Wireless permite configurar los ajustes de las redes Wi-Fi de 2.4 GHz, incluidos la activación de Wi-Fi, la potencia de transmisión, el nombre de Wi-Fi (SSID), el modo de seguridad y la contraseña de Wi-Fi, la visibilidad del SSID, el modo Wi-Fi, el ancho de banda y el canal.
+
+Para obtener más información, consulte [Wireless](../../interface_guide/wireless_v4.8.md).
+
+## Clients {#clients}
+
+La página Clients muestra información sobre los dispositivos conectados. Para cada cliente, muestra el nombre, las direcciones IP y MAC, las velocidades de descarga y carga, el tráfico total, y permite bloquear el cliente o realizar otras acciones.
+
+Para configurar Clients, consulte [Clients](../../interface_guide/clients.md).
+
+## VPN {#vpn}
 
 Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositivo y el servidor VPN. Proporciona una capa adicional de privacidad y seguridad, como cliente VPN, y permite acceder a una red remota, como servidor VPN. Mango, al igual que otros routers GL.iNet, es compatible con OpenVPN y WireGuard.
 
@@ -122,7 +136,7 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 
     Para configurar GoodCloud, consulte [GoodCloud](../../interface_guide/cloud.md).
 
-## Configuración de red {#network-settings}
+## Network {#network}
 
 === "Firewall"
 
@@ -149,7 +163,7 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
     * DHCP: Active o configure el protocolo Dynamic Host Configuration Protocol, que asigna automáticamente direcciones IP a los dispositivos de la red.
     * Address Reservation: Reserve direcciones IP específicas para determinados dispositivos, garantizando que siempre reciban la misma dirección IP del servidor DHCP.
 
-    Para configurar LAN, consulte [Lan](../../interface_guide/lan.md).
+    Para configurar LAN, consulte [LAN](../../interface_guide/lan.md).
 
 ---
 
@@ -217,7 +231,7 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 
     Para configurar IGMP Snooping, consulte [IGMP Snooping](../../interface_guide/igmp_snooping.md).
 
-## Configuración del sistema {#system-settings}
+## Sistema {#system}
 
 === "Overview"
 

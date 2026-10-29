@@ -77,9 +77,20 @@ Skonfiguruj Marble, korzystając z jednej z obsługiwanych metod połączenia z 
 
     Aby uzyskać szczegółowe instrukcje, zapoznaj się z [Połącz z internetem przez istniejącą sieć Wi-Fi](../../interface_guide/internet_repeater.md).
 
----
 
-## Jak skonfigurować VPN {#how-to-set-up-a-vpn}
+## Wireless {#wireless}
+
+Strona Wireless umożliwia konfigurację ustawień sieci Wi-Fi 5 GHz i 2.4 GHz, w tym włączanie i wyłączanie Wi-Fi, ustawianie mocy nadawania, nazwy Wi-Fi (SSID), trybu zabezpieczeń i hasła Wi-Fi, widoczności SSID, trybu Wi-Fi, szerokości pasma i kanału.
+
+Aby skonfigurować Wireless, zapoznaj się z [Wireless](../../interface_guide/wireless_v4.8.md).
+
+## CLIENTS {#clients}
+
+Strona Clients wyświetla informacje o podłączonych urządzeniach. Dla każdego klienta pokazuje nazwę urządzenia, typ połączenia (np. Ethernet lub Wi-Fi), adresy IP i MAC, prędkości pobierania i wysyłania, całkowity ruch oraz umożliwia zablokowanie klienta lub wykonanie innych działań.
+
+Aby skonfigurować Clients, zapoznaj się z [Clients](../../interface_guide/clients.md).
+
+## VPN {#vpn}
 
 VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między Twoim urządzeniem a serwerem VPN. Zapewnia dodatkową warstwę prywatności i bezpieczeństwa jako klient VPN oraz umożliwia dostęp do zdalnej sieci jako serwer VPN. Marble (i inne routery GL.iNet) obsługuje OpenVPN i WireGuard. Dodatkowo obsługuje również Tor.
 
@@ -103,36 +114,6 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między Twoim 
 
     * [Jak skonfigurować Tor](../../interface_guide/tor.md)
 
----
-
-## Sieć bezprzewodowa i klienci {#wireless-and-clients}
-
-=== "Wireless"
-
-    Strona Wireless umożliwia konfigurację ustawień sieci Wi-Fi 5 GHz i 2,4 GHz, w tym włączanie i wyłączanie Wi-Fi, ustawianie mocy TX, określanie nazwy sieci (SSID), włączanie i wyłączanie losowego BSSID, wybór trybu zabezpieczeń Wi-Fi, ustawienie hasła Wi-Fi, konfigurację widoczności SSID oraz wybór trybu Wi-Fi, szerokości pasma i kanału.
-
-    Aby skonfigurować Wireless, zapoznaj się z [Wireless](../../interface_guide/wireless.md).
-
-=== "Clients"
-
-    Strona Clients wyświetla informacje o podłączonych urządzeniach. Dla każdego klienta pokazuje nazwę urządzenia, typ połączenia (np. Ethernet lub Wi-Fi), adresy IP i MAC, prędkości pobierania i wysyłania, całkowity ruch oraz umożliwia zablokowanie klienta lub wykonanie innych działań.
-
-    Aby skonfigurować Clients, zapoznaj się z [Clients](../../interface_guide/clients.md).
-
-## Usługi chmurowe {#cloud-services}
-
-=== "GoodCloud"
-
-    Usługa GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} zapewnia łatwy i wygodny sposób zdalnego dostępu do routerów GL.iNet oraz zarządzania nimi.
-    
-    Aby skonfigurować GoodCloud, zapoznaj się z [GoodCloud](../../interface_guide/cloud.md).
-
-=== "AstroWarp"
-
-    Ta funkcja jest dostępna od firmware v4.7.
-
-    AstroWarp to zaawansowana platforma sieciowa zaprojektowana z myślą o płynnej pracy sieci zdalnych i zdalnym zarządzaniu urządzeniami. Została stworzona specjalnie do integracji z routerami GL.iNet i obsługuje kompleksowe zarządzanie urządzeniami w całych sieciach, umożliwiając kontrolę urządzeń nadrzędnych i podrzędnych. Koncentrując się na zarządzaniu całosieciowym i przyszłym wsparciu sterowania na poziomie sprzętowym, AstroWarp oferuje solidniejsze i bardziej niezawodne rozwiązanie do zarządzania urządzeniami oraz utrzymywania bezpiecznych, stabilnych sieci.
-
 ## Aplikacje {#applications}
 
 === "Plug-ins"
@@ -143,7 +124,11 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między Twoim 
 
     Dynamic DNS (DDNS) automatycznie wykrywa i aktualizuje adres IP powiązany z domeną w czasie rzeczywistym. Mapuje nazwę domeny na dynamiczny publiczny adres IP routera, dzięki czemu możesz zdalnie uzyskiwać dostęp do swojej sieci bez statycznego adresu IP. Aby skonfigurować Dynamic DNS, zapoznaj się z [Dynamic DNS](../../interface_guide/ddns.md).
 
----
+=== "GoodCloud"
+
+    Usługa GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} zapewnia łatwy i wygodny sposób zdalnego dostępu do routerów GL.iNet oraz zarządzania nimi.
+    
+    Aby skonfigurować GoodCloud, zapoznaj się z [GoodCloud](../../interface_guide/cloud.md).
 
 === "AdGuard Home"
 
@@ -151,23 +136,22 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między Twoim 
     
     Aby uzyskać szczegółowe instrukcje, zapoznaj się z [AdGuard Home](../../interface_guide/adguardhome.md).
 
+
 === "Parental Control"
 
     Parental Control to zestaw ustawień pomagających zarządzać urządzeniami dzieci i kontrolować sposób ich używania. Obejmuje ograniczanie czasu przed ekranem oraz blokowanie dostępu do określonych treści. Marble oferuje dwie opcje kontroli rodzicielskiej: lokalną wersję opracowaną przez GL.iNet oraz zintegrowaną wersję aplikacji Bark.
 
     Aby skonfigurować Parental Control, zapoznaj się z [Parental controls](../../interface_guide/parental_control.md).
 
-=== "Tailscale"
-   
-    Tailscale to usługa VPN, która umożliwia dostęp do urządzeń i aplikacji z dowolnego miejsca. Aby skonfigurować Tailscale, zapoznaj się z [Tailscale](../../interface_guide/tailscale.md).
-
 === "ZeroTier"
 
     ZeroTier to usługa VPN, która umożliwia podłączenie urządzeń do wirtualnej sieci. Aby skonfigurować ZeroTier, zapoznaj się z [ZeroTier](../../interface_guide/zerotier.md).
 
----
+=== "Tailscale"
+   
+    Tailscale to usługa VPN, która umożliwia dostęp do urządzeń i aplikacji z dowolnego miejsca. Aby skonfigurować Tailscale, zapoznaj się z [Tailscale](../../interface_guide/tailscale.md).
 
-## Ustawienia sieciowe {#network-settings}
+## Sieć {#network}
 
 === "Firewall"
 
@@ -196,8 +180,6 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między Twoim 
 
     Aby uzyskać szczegółowe instrukcje konfiguracji, zapoznaj się z [LAN](../../interface_guide/lan.md).
 
----
-
 === "Guest Network"
 
     Strona Guest Network umożliwia utworzenie i zarządzanie oddzielną siecią dla gości, zapewniając im dostęp do internetu przy zachowaniu bezpieczeństwa głównej sieci. Dostępne funkcje obejmują:
@@ -208,6 +190,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między Twoim 
     Sieć gościnna zapewnia gościom dostęp do internetu i izoluje ich ruch od sieci głównej, aby ograniczyć potencjalny wpływ na jej bezpieczeństwo i wydajność.
     
     Aby uzyskać szczegółowe instrukcje konfiguracji, zapoznaj się z [Guest Network](../../interface_guide/guest_network.md).
+
 
 === "DNS"
 
@@ -231,8 +214,6 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między Twoim 
     * WDS (Wireless Distribution System): podobnie jak Extender; wybierz WDS, jeśli główny router obsługuje tryb WDS.
 
     Aby uzyskać szczegółowe instrukcje konfiguracji, zapoznaj się z [Network Mode](../../interface_guide/network_mode.md).
-
----
 
 === "IPv6"
 
@@ -259,11 +240,10 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między Twoim 
 
     Aby uzyskać szczegółowe instrukcje konfiguracji, zapoznaj się z [MAC Address](../../interface_guide/mac_address.md).
 
+
 === "Drop-in Gateway"
 
     Drop-in Gateway rozszerza funkcjonalność routera głównego o funkcje, których może on nie mieć, w tym AdGuard Home, szyfrowany DNS i VPN. Aby skonfigurować Drop-in Gateway, zapoznaj się z [How to set up Drop-in Gateway](../../tutorials/how_to_set_up_drop_in_gateway.md).
-
----
 
 === "IGMP Snooping"
 
@@ -290,9 +270,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między Twoim 
 
     Aby uzyskać szczegółowe instrukcje konfiguracji, zapoznaj się z [NAT Settings](../../interface_guide/nat_settings.md).
 
----
-
-## Ustawienia systemowe {#system-settings}
+## System {#system}
 
 === "Overview"
 
@@ -321,23 +299,23 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między Twoim 
 
 === "Scheduled Tasks"
 
-    Strona Scheduled Tasks umożliwia automatyzację różnych funkcji routera według zdefiniowanego harmonogramu, zwiększając wygodę i efektywność. Dostępne funkcje obejmują:
+    Strona Scheduled Tasks umożliwia automatyzację różnych funkcji routera na podstawie zdefiniowanego harmonogramu, zwiększając wygodę i efektywność. Najważniejsze funkcje tej strony obejmują:
 
-    * LED Display Schedule: ustawienie harmonogramu automatycznego włączania i wyłączania diod LED routera, aby ograniczyć emisję światła w wybranych godzinach.
-    * Schedule Reboot: skonfigurowanie automatycznego restartu routera w określonych odstępach czasu, co pomaga utrzymać optymalną wydajność i stabilność.
-    * Wi-Fi Status Schedule: ustawienie harmonogramu sterowania pasmem Wi-Fi, co pozwala lepiej zarządzać dostępnością sieci i zużyciem energii.
+    * Harmonogram diod LED: ustaw harmonogram automatycznego włączania i wyłączania diod LED routera, aby ograniczyć emisję światła w określonych godzinach.
+    * Zaplanowane ponowne uruchomienie: skonfiguruj router tak, aby uruchamiał się ponownie automatycznie w określonych odstępach czasu, co pomaga utrzymać optymalną wydajność i stabilność.
+    * 5GHz Wi-Fi Status Schedule: Utwórz harmonogram włączania lub wyłączania pasma Wi-Fi 5GHz o określonych porach, aby zoptymalizować wykorzystanie sieci i efektywność energetyczną.
+    * Harmonogram stanu Wi-Fi 2.4GHz: ustaw harmonogram sterowania pasmem Wi-Fi 2.4GHz, aby lepiej zarządzać dostępnością sieci i zużyciem energii.
     
-    Opcje te dają większą kontrolę nad działaniem routera, dzięki czemu można lepiej dopasować go do własnych potrzeb i preferencji.
+    Te opcje harmonogramu zapewniają większą kontrolę nad działaniem routera, dzięki czemu może on lepiej odpowiadać Twoim potrzebom i preferencjom.
 
-    Aby uzyskać szczegółowe instrukcje konfiguracji, zapoznaj się z [Scheduled Tasks](../../interface_guide/scheduled_tasks.md).
-
----
+    Szczegółowe instrukcje i więcej informacji znajdziesz w [Scheduled Tasks](../../interface_guide/scheduled_tasks.md).
 
 === "Time Zone"
 
     Strona Time Zone umożliwia ustawienie właściwej strefy czasowej routera, dzięki czemu wszystkie zaplanowane zadania, logi i zdarzenia systemowe mają poprawne znaczniki czasu zgodne z Twoim czasem lokalnym. Jest to istotne dla zachowania dokładnych rejestrów i prawidłowego działania konfiguracji zależnych od czasu.
 
     Aby uzyskać szczegółowe instrukcje konfiguracji, zapoznaj się z [Time Zone](../../interface_guide/time_zone.md).
+
 
 === "Log"
 
@@ -362,11 +340,10 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między Twoim 
     * Admin Password: ustawienie lub zmiana hasła do interfejsu administracyjnego routera, aby tylko upoważnieni użytkownicy mogli modyfikować ustawienia.
     * Local Access Control: zarządzanie dostępem do interfejsu routera z urządzeń podłączonych do sieci lokalnej i jego ograniczanie.
     * Remote Access Control: konfiguracja i ograniczanie dostępu do interfejsu routera z lokalizacji zdalnych przez internet, co zwiększa ochronę przed zagrożeniami zewnętrznymi.
-    * Open Ports on Router: kontrolowanie, które porty routera są otwarte, aby ograniczyć potencjalne podatności i nieautoryzowany dostęp.
 
     Ustawienia te pomagają utrzymać bezpieczne środowisko sieciowe, chroniąc zarówno router, jak i podłączone urządzenia.
 
-    Aby uzyskać szczegółowe instrukcje konfiguracji, zapoznaj się z [Security](../../interface_guide/security.md).
+    Szczegółowe instrukcje konfiguracji i dodatkowe informacje znajdziesz w sekcji [Security](../../interface_guide/security.md).
 
 === "Reset Firmware"
 
@@ -379,4 +356,3 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między Twoim 
     Strona Advanced Settings zapewnia dostęp do zaawansowanych opcji konfiguracji przez interfejs OpenWrt LuCI, umożliwiając doświadczonym użytkownikom precyzyjne dostrojenie ustawień i funkcji routera poza podstawowymi opcjami interfejsu. Obejmuje to szczegółową konfigurację sieci, ustawienia zapory i inne zaawansowane dostosowania systemowe.
 
     Aby uzyskać szczegółowe instrukcje konfiguracji, zapoznaj się z [Advanced Settings](../../interface_guide/advanced_settings.md).
-

@@ -4,7 +4,7 @@
 
 <div class="gl-link-select" data-label="Firmware version" data-placeholder="Firmware v4.9 and earlier" markdown="1">
 
-- [ファームウェアv4.10](ethernet_port_v4.10.md)
+- [ファームウェアv4.10以降](ethernet_port_v4.10.md)
 
 </div>
 

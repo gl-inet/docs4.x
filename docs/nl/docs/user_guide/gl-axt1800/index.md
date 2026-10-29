@@ -96,7 +96,35 @@ Configureer je Slate AX met een van de ondersteunde methoden voor internetverbin
 
     Raadpleeg [Verbinding maken met internet via een mobiel netwerk](../../interface_guide/internet_cellular.md) voor uitgebreide instructies.
 
-## Een VPN instellen {#how-to-set-up-a-vpn}
+---
+
+## Wireless {#wireless}
+
+Op de pagina Wireless kun je instellingen voor het 5 GHz- en 2.4 GHz-Wi-Fi-netwerk configureren. Je kunt Wi-Fi inschakelen, het TX-vermogen instellen, de Wi-Fi-naam (SSID) opgeven, een willekeurige BSSID inschakelen, de Wi-Fi-beveiligingsmodus en het wachtwoord selecteren, de zichtbaarheid van de SSID configureren en de Wi-Fi-modus, bandbreedte en het kanaal kiezen.
+
+Raadpleeg [Wireless](../../interface_guide/wireless_v4.8.md) om Wireless in te stellen.
+
+## Clients {#clients}
+
+De pagina Clients toont informatie over verbonden apparaten. Voor elke client worden de naam, het IP- en MAC-adres, de download- en uploadsnelheid en het totale verkeer weergegeven. Je kunt de client ook blokkeren en andere handelingen uitvoeren.
+
+Raadpleeg [Clients](../../interface_guide/clients.md) om Clients in te stellen.
+
+## Clouddiensten {#cloud-services}
+
+=== "GoodCloud"
+
+    De dienst [GoodCloud](https://www.goodcloud.xyz){target="_blank"} van GL.iNet biedt een eenvoudige manier om GL.iNet-routers op afstand te openen en beheren.
+
+    Raadpleeg [GoodCloud](../../interface_guide/cloud.md) om GoodCloud in te stellen.
+
+=== "AstroWarp"
+
+    AstroWarp is een geavanceerd netwerkplatform voor naadloze externe netwerken en extern apparaatbeheer. AstroWarp is speciaal ontwikkeld voor integratie met GL.iNet-routers en ondersteunt uitgebreid apparaatbeheer voor volledige netwerken, waaronder het beheer van boven- en onderliggende apparaten. Door zich te richten op netwerkbreed beheer en toekomstige ondersteuning voor beheer op hardwareniveau biedt AstroWarp een robuustere en betrouwbaardere oplossing voor apparaatbeheer en het onderhouden van veilige, stabiele netwerken.
+
+    Raadpleeg [AstroWarp](../../interface_guide/astrowarp.md) om AstroWarp in te stellen.
+
+## VPN {#vpn}
 
 Een VPN (virtual private network) maakt een beveiligde, versleutelde verbinding voor verkeer tussen je apparaat en de VPN-server. Een VPN biedt extra privacy en beveiliging via een VPN-client en geeft je via een VPN-server toegang tot een extern netwerk. Slate AX en andere GL.iNet-routers ondersteunen OpenVPN en WireGuard. Daarnaast wordt Tor ondersteund.
 
@@ -117,38 +145,8 @@ Een VPN (virtual private network) maakt een beveiligde, versleutelde verbinding 
 === "Tor"
 
     Tor, een afkorting van The Onion Router, is een privacygericht netwerk dat anonieme communicatie via internet mogelijk maakt. Internetverkeer wordt via een reeks door vrijwilligers beheerde servers (nodes) geleid om de locatie en het gebruik van de gebruiker te verhullen. Hierdoor zijn online activiteiten moeilijk te traceren.
-
+    
     * [Tor instellen](../../interface_guide/tor.md).
-
----
-
-## Draadloos netwerk en clients {#wireless-and-clients}
-
-=== "Wireless"
-
-    Op de pagina Wireless kun je instellingen voor het 5 GHz- en 2.4 GHz-Wi-Fi-netwerk configureren. Je kunt Wi-Fi inschakelen, het TX-vermogen instellen, de Wi-Fi-naam (SSID) opgeven, een willekeurige BSSID inschakelen, de Wi-Fi-beveiligingsmodus en het wachtwoord selecteren, de zichtbaarheid van de SSID configureren en de Wi-Fi-modus, bandbreedte en het kanaal kiezen.
-
-    Raadpleeg [Wireless](../../interface_guide/wireless.md) om Wireless in te stellen.
-
-=== "Clients"
-
-    De pagina Clients toont informatie over verbonden apparaten. Voor elke client worden de naam, het IP- en MAC-adres, de download- en uploadsnelheid en het totale verkeer weergegeven. Je kunt de client ook blokkeren en andere handelingen uitvoeren.
-
-    Raadpleeg [Clients](../../interface_guide/clients.md) om Clients in te stellen.
-
-## Clouddiensten {#cloud-services}
-
-=== "GoodCloud"
-
-    De dienst [GoodCloud](https://www.goodcloud.xyz){target="_blank"} van GL.iNet biedt een eenvoudige manier om GL.iNet-routers op afstand te openen en beheren.
-
-    Raadpleeg [GoodCloud](../../interface_guide/cloud.md) om GoodCloud in te stellen.
-
-=== "AstroWarp"
-
-    AstroWarp is een geavanceerd netwerkplatform voor naadloze externe netwerken en extern apparaatbeheer. AstroWarp is speciaal ontwikkeld voor integratie met GL.iNet-routers en ondersteunt uitgebreid apparaatbeheer voor volledige netwerken, waaronder het beheer van boven- en onderliggende apparaten. Door zich te richten op netwerkbreed beheer en toekomstige ondersteuning voor beheer op hardwareniveau biedt AstroWarp een robuustere en betrouwbaardere oplossing voor apparaatbeheer en het onderhouden van veilige, stabiele netwerken.
-
-    Raadpleeg [AstroWarp](../../interface_guide/astrowarp.md) om AstroWarp in te stellen.
 
 ## Toepassingen {#applications}
 
@@ -184,19 +182,19 @@ Een VPN (virtual private network) maakt een beveiligde, versleutelde verbinding 
 
     Raadpleeg [Parental Control](../../interface_guide/parental_control.md) om ouderlijk toezicht in te stellen.
 
-=== "ZeroTier"
-
-    ZeroTier is een softwaregedefinieerde netwerkoplossing waarmee gebruikers via internet beveiligde virtuele netwerken kunnen maken en apparaten kunnen verbinden alsof ze zich in hetzelfde lokale netwerk bevinden.
-
-    Raadpleeg [ZeroTier](../../interface_guide/zerotier.md) om ZeroTier in te stellen.
-
 === "Tailscale"
 
     Tailscale is een VPN-dienst waarmee je overal toegang hebt tot je apparaten en toepassingen.
-
+    
     Raadpleeg [Tailscale](../../interface_guide/tailscale.md) om Tailscale in te stellen.
 
-## Netwerkinstellingen {#network-settings}
+=== "ZeroTier"
+
+    ZeroTier is een softwaregedefinieerde netwerkoplossing waarmee gebruikers via internet beveiligde virtuele netwerken kunnen maken en apparaten kunnen verbinden alsof ze zich in hetzelfde lokale netwerk bevinden.
+    
+    Raadpleeg [ZeroTier](../../interface_guide/zerotier.md) om ZeroTier in te stellen.
+
+## Netwerk {#network}
 
 === "Port Forwarding"
 
@@ -213,16 +211,16 @@ Een VPN (virtual private network) maakt een beveiligde, versleutelde verbinding 
 === "LAN"
 
     Een LAN (Local Area Network) is een netwerk dat computers en apparaten binnen een beperkt geografisch gebied, zoals een huis of kantoor, met elkaar verbindt. Het maakt snelle gegevensoverdracht en het delen van bronnen mogelijk, zodat apparaten efficiënt met elkaar kunnen communiceren.
-
-    Raadpleeg [Lan](../../interface_guide/lan.md) om het LAN in te stellen.
-
----
+    
+    Raadpleeg [LAN](../../interface_guide/lan.md) om het LAN in te stellen.
 
 === "Guest Network"
 
     Je kunt een subnet instellen binnen de privé-IPv4-adresbereiken 192.168.0.0/16, 172.16.0.0/12 of 10.0.0.0/8. Ook kun je de IP-adressen van de gateway en het subnetmasker opgeven en beveiligingsinstellingen, zoals AP-isolatie, voor het gastnetwerk configureren.
 
     Raadpleeg [Guest Network](../../interface_guide/guest_network.md) om het gastnetwerk in te stellen.
+
+---
 
 === "DNS"
 
@@ -236,8 +234,6 @@ Een VPN (virtual private network) maakt een beveiligde, versleutelde verbinding 
 
     Raadpleeg [Port Management](../../interface_guide/ethernet_port.md) om Ethernet-poorten te beheren.
 
----
-
 === "Network Mode"
 
     De netwerkmodus omvat de configuratie-instellingen die bepalen hoe een apparaat verbinding maakt met een netwerk en met andere apparaten communiceert.
@@ -247,19 +243,19 @@ Een VPN (virtual private network) maakt een beveiligde, versleutelde verbinding 
 === "IPv6"
 
     IPv6 (Internet Protocol version 6) is de nieuwste versie van het Internet Protocol en is ontwikkeld als opvolger van IPv4. Het biedt een veel grotere adresruimte en maakt daardoor een vrijwel onbeperkt aantal unieke IP-adressen mogelijk. Dit is noodzakelijk om het groeiende aantal apparaten met een internetverbinding te ondersteunen.
-
+    
     Raadpleeg [IPV6](../../interface_guide/ipv6.md) om IPV6 in te stellen.
+
+---
 
 === "Drop-in gateway"
 
     Drop-in Gateway breidt de functies van je hoofdrouter uit met AdGuard Home, versleutelde DNS en een VPN-client.
-
+    
     Raadpleeg de volgende links om een drop-in gateway in te stellen:
-
+    
     - [Drop-in Gateway](../../interface_guide/drop-in_gateway.md)
     - [Een drop-in gateway instellen](../../tutorials/how_to_set_up_drop_in_gateway.md)
-
----
 
 === "IGMP Snooping"
 
@@ -273,7 +269,7 @@ Een VPN (virtual private network) maakt een beveiligde, versleutelde verbinding 
 
     Raadpleeg [NAT Settings](../../interface_guide/nat_settings.md) om de NAT-instellingen te configureren.
 
-## Systeeminstellingen {#system-settings}
+## Systeem {#system}
 
 === "Overview"
 

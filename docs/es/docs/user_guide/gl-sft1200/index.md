@@ -97,43 +97,17 @@ Configure su Opal usando uno de los métodos de conexión a Internet admitidos: 
 
     Consulte [Conectarse a Internet mediante cellular](../../interface_guide/internet_cellular.md) para ver instrucciones detalladas.
 
-## Cómo configurar una VPN {#how-to-set-up-a-vpn}
+## Wireless {#wireless}
 
-Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositivo y el servidor VPN. Proporciona una capa adicional de privacidad y seguridad (cliente VPN) y le permite acceder a una red remota (servidor VPN). Opal es compatible con OpenVPN, WireGuard y Tor*.
+La página Wireless le permite configurar ajustes para las redes Wi-Fi de 5 GHz y 2,4 GHz, lo que incluye activar el Wi-Fi, ajustar la potencia TX, especificar el nombre de la red Wi-Fi (SSID), activar el BSSID aleatorio, seleccionar el modo de seguridad Wi-Fi y la contraseña, configurar la visibilidad del SSID, y elegir el modo Wi-Fi, el ancho de banda y el canal.
 
-=== "OpenVPN"
+Para obtener más información, consulte [Wireless](../../interface_guide/wireless_v4.8.md).
 
-    Opal (y otros routers GL.iNet) es compatible con el protocolo OpenVPN, que ofrece una seguridad sólida. Para configurar OpenVPN, siga estos tutoriales:
+## Clients {#clients}
 
-    * [Cómo configurar un cliente OpenVPN](../../interface_guide/openvpn_client.md)
-    * [Cómo configurar un servidor OpenVPN](../../interface_guide/openvpn_server.md)
+La página Clients muestra información sobre los dispositivos conectados. Para cada cliente, muestra el nombre, las direcciones IP y MAC, las velocidades de descarga y carga, el tráfico total, y ofrece la posibilidad de bloquear el cliente o realizar otras acciones.
 
-=== "WireGuard"
-
-    Opal (y otros routers GL.iNet) es compatible con el protocolo WireGuard, que ofrece gran velocidad y comodidad. Para configurar WireGuard, siga estos tutoriales:
-
-    * [Cómo configurar un cliente WireGuard](../../interface_guide/wireguard_client.md)
-    * [Cómo configurar un servidor WireGuard](../../interface_guide/wireguard_server.md)
-
-=== "Tor"
-
-    Tor, abreviatura de The Onion Router, es una red centrada en la privacidad que permite la comunicación anónima por Internet. Encamina el tráfico de Internet a través de una serie de servidores operados por voluntarios (nodos) para ocultar la ubicación y el uso del usuario, lo que dificulta rastrear sus actividades en línea.
-
-    **Nota:** Opal no es compatible con Tor de forma nativa, pero los usuarios pueden instalar Tor manualmente mediante un complemento. Haga clic [aquí](../../interface_guide/tor.md#manual-install) para ver más detalles.
-
-## Wireless y Clients {#wireless-and-clients}
-
-=== "Wireless"
-
-    La página Wireless le permite configurar ajustes para las redes Wi-Fi de 5 GHz y 2,4 GHz, lo que incluye activar el Wi-Fi, ajustar la potencia TX, especificar el nombre de la red Wi-Fi (SSID), activar el BSSID aleatorio, seleccionar el modo de seguridad Wi-Fi y la contraseña, configurar la visibilidad del SSID, y elegir el modo Wi-Fi, el ancho de banda y el canal.
-
-    Para configurar Wireless, consulte [Wireless](../../interface_guide/wireless.md).
-
-=== "Clients"
-
-    La página Clients muestra información sobre los dispositivos conectados. Para cada cliente, muestra el nombre, las direcciones IP y MAC, las velocidades de descarga y carga, el tráfico total, y ofrece la posibilidad de bloquear el cliente o realizar otras acciones.
-
-    Para configurar Clients, consulte [Clients](../../interface_guide/clients.md).
+Para configurar Clients, consulte [Clients](../../interface_guide/clients.md).
 
 ## Servicios en la nube {#cloud-services}
 
@@ -150,6 +124,115 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
     Para configurar AstroWarp, consulte [AstroWarp](../../interface_guide/astrowarp.md).
 
     **Nota:** Actualice el firmware del router a la versión 4.8 o superior antes de utilizar esta función.
+
+## VPN {#vpn}
+
+Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositivo y el servidor VPN. Proporciona una capa adicional de privacidad y seguridad (cliente VPN) y le permite acceder a una red remota (servidor VPN). Opal es compatible con OpenVPN y WireGuard.
+
+=== "OpenVPN"
+
+    Opal (y otros routers GL.iNet) es compatible con el protocolo OpenVPN, que ofrece una seguridad sólida. Para configurar OpenVPN, siga estos tutoriales:
+
+    * [Cómo configurar un cliente OpenVPN](../../interface_guide/openvpn_client.md)
+    * [Cómo configurar un servidor OpenVPN](../../interface_guide/openvpn_server.md)
+
+=== "WireGuard"
+
+    Opal (y otros routers GL.iNet) es compatible con el protocolo WireGuard, que ofrece gran velocidad y comodidad. Para configurar WireGuard, siga estos tutoriales:
+
+    * [Cómo configurar un cliente WireGuard](../../interface_guide/wireguard_client.md)
+    * [Cómo configurar un servidor WireGuard](../../interface_guide/wireguard_server.md)
+
+## Network {#network}
+
+=== "Multi-WAN"
+
+    Multi-WAN es una función de red que le permite configurar el router con varias conexiones a Internet (por ejemplo, cellular, repeater y ethernet) al mismo tiempo. Si la conexión a Internet actual falla, el router cambiará automáticamente a otra conexión. Esto garantiza un acceso a Internet fluido e ininterrumpido.
+
+    Para configurar Multi-WAN, consulte [Multi-WAN](../../interface_guide/multi-wan.md).
+
+=== "LAN"
+
+    LAN, o red de área local, es una red que conecta ordenadores y dispositivos dentro de un área geográfica limitada, como una casa u oficina. Permite transferencias de datos a alta velocidad y el uso compartido de recursos, lo que facilita que los dispositivos se comuniquen entre sí de forma eficiente.
+
+    Para configurar LAN, consulte [LAN](../../interface_guide/lan.md).
+
+=== "Guest Network"
+
+    Le permite establecer una subred dentro de los rangos de direcciones privadas IPv4 192.168.0.0/16, 172.16.0.0/12 o 10.0.0.0/8, especificar las direcciones IP de gateway y máscara de red, y configurar ajustes de seguridad como el aislamiento de AP para la red de invitados.
+
+    Para configurar la red de invitados, consulte [Guest Network](../../interface_guide/guest_network.md).
+
+=== "DNS"
+
+    La página DNS le permite establecer servidores DNS personalizados, activar la protección contra ataques de reenlace DNS, anular la configuración DNS de todos los clientes y permitir que el DNS personalizado anule el DNS de la VPN. Puede utilizar servidores DNS obtenidos automáticamente de los dispositivos de la red superior o especificar manualmente servidores DNS personalizados.
+
+    Para configurar DNS, consulte [DNS](../../interface_guide/dns.md).
+
+---
+
+=== "Ethernet Port"
+
+    La página Ethernet Port le permite configurar los puertos WAN y LAN, establecer la interfaz WAN/LAN en Ethernet, especificar el modo MAC y la dirección MAC para la interfaz WAN, y mostrar la velocidad negociada del puerto de red.
+
+    Para configurar Ethernet Port, consulte [Lan](../../interface_guide/ethernet_port.md).
+
+=== "IPv6"
+
+    IPv6, o Protocolo de Internet versión 6, es la versión más reciente del Protocolo de Internet diseñada para sustituir a IPv4. Proporciona un espacio de direcciones mucho mayor, lo que permite un número prácticamente ilimitado de direcciones IP únicas, algo esencial para dar cabida al creciente número de dispositivos conectados a Internet.
+
+    Para configurar IPv6, consulte [IPv6](../../interface_guide/ipv6.md).
+
+=== "IGMP Snooping"
+
+    IGMP snooping es una técnica de optimización de red utilizada en switches Ethernet para gestionar y controlar el tráfico multicast.
+
+    Para configurar IGMP snooping, consulte [IGMP Snooping](../../interface_guide/igmp_snooping.md).
+
+---
+
+=== "Network Mode"
+
+    El modo de red hace referencia a los ajustes de configuración que determinan cómo un dispositivo se conecta a una red y se comunica con otros dispositivos.
+
+    Para configurar el modo de red, consulte [Network Mode](../../interface_guide/network_mode.md).
+
+
+=== "Drop-in Gateway"
+
+    Drop-in Gateway amplía la funcionalidad del router principal con funciones que podría no tener, incluidas AdGuard Home, DNS cifrado y VPN.
+
+    Para configurar drop-in gateway, consulte [Cómo configurar drop-in gateway](../../tutorials/how_to_set_up_drop_in_gateway.md).
+
+=== "Network Acceleration"
+
+    La aceleración de red puede reducir la carga de la CPU y acelerar el reenvío de paquetes de tráfico.
+
+    Para configurar la aceleración de red, consulte [Network Acceleration](../../interface_guide/network_acceleration.md).
+
+## Seguridad {#security}
+
+=== "Port Forwarding"
+
+    El reenvío de puertos permite que servidores y dispositivos remotos en Internet accedan a dispositivos dentro de una red privada.
+
+    Para configurar el reenvío de puertos, consulte [Port Forwarding](../../interface_guide/port_forwarding.md).
+
+=== "Management Control"
+
+    Management Control le permite configurar varios ajustes de seguridad para proteger su red y su router frente a accesos no autorizados. Esta página incluye las siguientes opciones:
+
+    * Local Access Control: administrar y restringir el acceso a la interfaz del router desde dispositivos conectados a su red local.
+    * Remote Access Control: configurar y restringir el acceso a la interfaz del router desde ubicaciones remotas a través de Internet, reforzando la seguridad frente a amenazas externas.
+    * Open Ports on Router: controlar qué puertos están abiertos en el router para limitar posibles vulnerabilidades y accesos no autorizados.
+
+    Estos ajustes le ayudan a mantener un entorno de red seguro, protegiendo tanto el router como los dispositivos conectados.
+
+=== "NAT Mode"
+
+    La página NAT Mode le permite activar o desactivar la funcionalidad Full Cone NAT y SIP ALG.
+
+    Para configurar los ajustes NAT, consulte [NAT Mode](../../interface_guide/nat_settings.md).
 
 ## Aplicaciones {#applications}
 
@@ -173,89 +256,7 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 
     **Nota:** Actualice el firmware del router a la versión 4.8 o superior antes de utilizar esta función.
 
-## Configuración de red {#network-settings}
-
-=== "Port Forwarding"
-
-    El reenvío de puertos permite que servidores y dispositivos remotos en Internet accedan a dispositivos dentro de una red privada.
-
-    Para configurar el reenvío de puertos, consulte [Port Forwarding](../../interface_guide/port_forwarding.md).
-
-=== "Multi-WAN"
-
-    Multi-WAN es una función de red que le permite configurar el router con varias conexiones a Internet (por ejemplo, cellular, repeater y ethernet) al mismo tiempo. Si la conexión a Internet actual falla, el router cambiará automáticamente a otra conexión. Esto garantiza un acceso a Internet fluido e ininterrumpido.
-
-    Para configurar Multi-WAN, consulte [Multi-WAN](../../interface_guide/multi-wan.md).
-
-=== "LAN"
-
-    LAN, o red de área local, es una red que conecta ordenadores y dispositivos dentro de un área geográfica limitada, como una casa u oficina. Permite transferencias de datos a alta velocidad y el uso compartido de recursos, lo que facilita que los dispositivos se comuniquen entre sí de forma eficiente.
-
-    Para configurar LAN, consulte [Lan](../../interface_guide/lan.md).
-
----
-
-=== "Guest Network"
-
-    Le permite establecer una subred dentro de los rangos de direcciones privadas IPv4 192.168.0.0/16, 172.16.0.0/12 o 10.0.0.0/8, especificar las direcciones IP de gateway y máscara de red, y configurar ajustes de seguridad como el aislamiento de AP para la red de invitados.
-
-    Para configurar la red de invitados, consulte [Guest Network](../../interface_guide/guest_network.md).
-
-=== "DNS"
-
-    La página DNS le permite establecer servidores DNS personalizados, activar la protección contra ataques de reenlace DNS, anular la configuración DNS de todos los clientes y permitir que el DNS personalizado anule el DNS de la VPN. Puede utilizar servidores DNS obtenidos automáticamente de los dispositivos de la red superior o especificar manualmente servidores DNS personalizados.
-
-    Para configurar DNS, consulte [DNS](../../interface_guide/dns.md).
-
-=== "Port Management"
-
-    La página Port Management está disponible a partir del firmware v4.7.
-
-    Esta página le permite configurar los puertos WAN y LAN, establecer la interfaz WAN/LAN en Ethernet, especificar el modo MAC y la dirección MAC para la interfaz WAN, y mostrar la velocidad negociada del puerto de red.
-
-    Para administrar los puertos Ethernet, consulte [Port Management](../../interface_guide/ethernet_port.md).
-
----
-
-=== "Network Mode"
-
-    El modo de red hace referencia a los ajustes de configuración que determinan cómo un dispositivo se conecta a una red y se comunica con otros dispositivos.
-
-    Para configurar el modo de red, consulte [Network Mode](../../interface_guide/network_mode.md).
-
-=== "IPv6"
-
-    IPv6, o Protocolo de Internet versión 6, es la versión más reciente del Protocolo de Internet diseñada para sustituir a IPv4. Proporciona un espacio de direcciones mucho mayor, lo que permite un número prácticamente ilimitado de direcciones IP únicas, algo esencial para dar cabida al creciente número de dispositivos conectados a Internet.
-
-    Para configurar IPv6, consulte [IPv6](../../interface_guide/ipv6.md).
-
-=== "Drop-in Gateway"
-
-    Drop-in Gateway amplía la funcionalidad de su router principal, incluidas AdGuard Home, DNS cifrado y cliente VPN.
-
-    Para configurar drop-in gateway, consulte [Cómo configurar drop-in gateway](../../tutorials/how_to_set_up_drop_in_gateway.md).
-
----
-
-=== "IGMP Snooping"
-
-    IGMP snooping es una técnica de optimización de red utilizada en switches Ethernet para gestionar y controlar el tráfico multicast.
-
-    Para configurar IGMP snooping, consulte [IGMP Snooping](../../interface_guide/igmp_snooping.md).
-
-=== "Network Acceleration"
-
-    La aceleración de red puede reducir la carga de la CPU y acelerar el reenvío de paquetes de tráfico.
-
-    Para configurar la aceleración de red, consulte [Network Acceleration](../../interface_guide/network_acceleration.md).
-
-=== "NAT Settings"
-
-    La página NAT Settings le permite activar o desactivar las funciones Full Cone NAT y SIP ALG (Application Layer Gateway).
-
-    Para configurar los ajustes NAT, consulte [NAT Settings](../../interface_guide/nat_settings.md).
-
-## Configuración del sistema {#system-settings}
+## Sistema {#system}
 
 === "Overview"
 
@@ -272,6 +273,16 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 
     Consulte [Overview](../../interface_guide/system_overview.md) para ver instrucciones detalladas.
 
+=== "Admin Password"
+
+    La página Admin Password le permite establecer o cambiar la contraseña de la interfaz de administración del router.
+
+    La contraseña de administrador debe cumplir los siguientes requisitos:
+
+    * Mínimo 10 caracteres y máximo 63 caracteres.
+    * Se permiten letras (distinguiendo mayúsculas y minúsculas), números y símbolos `` ! @ # $ % ^ & * ( ) _ + - = , . > < | ? / \ [ ] { } : ; " ' ` ~ ``.
+    * Se requieren al menos dos de los siguientes grupos: letras mayúsculas, letras minúsculas, números y símbolos.
+
 === "Upgrade"
 
     La página Upgrade se utiliza para actualizar el firmware del router a la versión más reciente, lo que garantiza mejor rendimiento, mayor seguridad y nuevas funciones. Esta página ofrece dos opciones de actualización:
@@ -282,6 +293,8 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
     Estas opciones le permiten mantener el router actualizado con las mejoras y correcciones más recientes.
 
     Consulte [Upgrade](../../interface_guide/upgrade.md) para ver instrucciones detalladas.
+
+---
 
 === "Scheduled Tasks"
 
@@ -295,8 +308,6 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 
     Consulte [Scheduled Tasks](../../interface_guide/scheduled_tasks.md) para ver instrucciones detalladas.
 
----
-
 === "Time Zone"
 
     La página Time Zone le permite establecer la zona horaria correcta para el router, garantizando que todas las tareas programadas, los registros y los eventos del sistema tengan marcas de tiempo precisas según su hora local. Este ajuste es fundamental para mantener registros exactos y para el correcto funcionamiento de las configuraciones basadas en el tiempo.
@@ -308,6 +319,14 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
     La página Toggle Button Settings le permite configurar el interruptor físico del router, lo que le permite asignar funciones específicas al botón para un acceso y control rápidos. Esta función ofrece accesos directos prácticos para tareas y ajustes comunes, mejorando la experiencia del usuario y simplificando la gestión del router.
 
     Consulte [Toggle Button Settings](../../interface_guide/toggle_button_settings.md) para ver instrucciones detalladas.
+
+---
+
+=== "Reset Firmware"
+
+    La página Reset Firmware le permite restablecer la versión actual del firmware del router a sus ajustes predeterminados, eliminando todas las configuraciones personalizadas. Este proceso restaurará el router a los ajustes predeterminados de la versión de firmware instalada actualmente. Puede resultar útil para solucionar problemas persistentes o para empezar de nuevo con la configuración predeterminada del firmware actual.
+
+    Consulte [Reset Firmware](../../interface_guide/reset_firmware.md) para ver instrucciones detalladas.
 
 === "Log"
 
@@ -322,27 +341,6 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
     Además, la página incluye un botón Export Log que le permite exportar todos los registros recopilados para su análisis por parte del soporte técnico. Esta función es muy útil para diagnosticar problemas complejos y obtener ayuda profesional.
 
     Consulte [Log](../../interface_guide/log.md) para ver instrucciones detalladas.
-
----
-
-=== "Security"
-
-    La página Security le permite configurar varios ajustes de seguridad para proteger su red y su router frente a accesos no autorizados. Esta página incluye opciones para:
-
-    * Admin Password: establecer o cambiar la contraseña de la interfaz administrativa del router para garantizar que solo los usuarios autorizados puedan modificar la configuración.
-    * Local Access Control: administrar y restringir el acceso a la interfaz del router desde dispositivos conectados a su red local.
-    * Remote Access Control: configurar y restringir el acceso a la interfaz del router desde ubicaciones remotas a través de Internet, reforzando la seguridad frente a amenazas externas.
-    * Open Ports on Router: controlar qué puertos están abiertos en el router para limitar posibles vulnerabilidades y accesos no autorizados.
-
-    Estos ajustes le ayudan a mantener un entorno de red seguro, protegiendo tanto el router como los dispositivos conectados.
-
-    Consulte [Security](../../interface_guide/security.md) para ver instrucciones detalladas.
-
-=== "Reset Firmware"
-
-    La página Reset Firmware le permite restablecer la versión actual del firmware del router a sus ajustes predeterminados, eliminando todas las configuraciones personalizadas. Este proceso restaurará el router a los ajustes predeterminados de la versión de firmware instalada actualmente. Puede resultar útil para solucionar problemas persistentes o para empezar de nuevo con la configuración predeterminada del firmware actual.
-
-    Consulte [Reset Firmware](../../interface_guide/reset_firmware.md) para ver instrucciones detalladas.
 
 === "Advanced Settings"
 

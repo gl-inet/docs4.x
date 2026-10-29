@@ -104,7 +104,29 @@ Verbinden Sie Ihr Gerät, z. B. einen Computer oder Laptop, per Ethernet-Kabel m
 
 **Hinweis:** Wenn Sie die Funktion [Multi-WAN](../../interface_guide/multi-wan.md) verwenden möchten, richten Sie bitte mehr als eine Internetverbindungsmethode ein.
 
-## So richten Sie ein VPN ein {#how-to-set-up-a-vpn}
+---
+
+## Clients {#clients}
+
+Die Seite Clients zeigt Informationen zu verbundenen Geräten an. Für jeden Client werden der Gerätename, die IP- und MAC-Adresse, Download- und Upload-Geschwindigkeiten sowie das gesamte Datenvolumen angezeigt. Außerdem können Sie eine IP reservieren, den Client blockieren oder weitere Aktionen ausführen.
+
+Informationen zur Einrichtung von Clients finden Sie unter [Clients](../../interface_guide/clients.md).
+
+## Cloud-Dienste {#cloud-services}
+
+=== "GoodCloud"
+
+    Der Dienst [GoodCloud](https://www.goodcloud.xyz){target="_blank"} von GL.iNet bietet eine einfache Möglichkeit, GL.iNet-Router per Fernzugriff zu erreichen und zu verwalten.
+    
+    Informationen zur Einrichtung finden Sie unter [GoodCloud](../../interface_guide/cloud.md).
+
+=== "AstroWarp"
+
+    AstroWarp ist eine fortschrittliche Netzwerkplattform für nahtlose Fernvernetzung und Fernverwaltung von Geräten. AstroWarp wurde speziell für die Integration mit GL.iNet-Routern entwickelt und unterstützt eine umfassende Geräteverwaltung über ganze Netzwerke hinweg, einschließlich der Steuerung über- und untergeordneter Geräte. Mit seinem Fokus auf netzweite Verwaltung und künftiger Unterstützung für hardwarebasierte Steuerung bietet AstroWarp eine robuste und zuverlässige Lösung für Gerätemanagement sowie den Betrieb sicherer und stabiler Netzwerke.
+    
+    Informationen zur Einrichtung finden Sie unter [AstroWarp](../../interface_guide/astrowarp.md).
+
+## VPN {#vpn}
 
 Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten Datenverkehr zwischen Ihrem Gerät und dem VPN-Server. Es bietet eine zusätzliche Ebene für Datenschutz und Sicherheit (VPN-Client) und ermöglicht Ihnen den Zugriff auf ein entferntes Netzwerk (VPN-Server). Brume 2 und andere GL.iNet-Router unterstützen OpenVPN und WireGuard. Zusätzlich wird Tor unterstützt.
 
@@ -128,26 +150,6 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
     
     * [So richten Sie Tor ein](../../interface_guide/tor.md).
 
-## Clients {#clients}
-
-Die Seite Clients zeigt Informationen zu verbundenen Geräten an. Für jeden Client werden der Gerätename, die IP- und MAC-Adresse, Download- und Upload-Geschwindigkeiten sowie das gesamte Datenvolumen angezeigt. Außerdem können Sie eine IP reservieren, den Client blockieren oder weitere Aktionen ausführen.
-
-Informationen zur Einrichtung von Clients finden Sie unter [Clients](../../interface_guide/clients.md).
-
-## Cloud-Dienste {#cloud-services}
-
-=== "GoodCloud"
-
-    Der Dienst [GoodCloud](https://www.goodcloud.xyz){target="_blank"} von GL.iNet bietet eine einfache Möglichkeit, GL.iNet-Router per Fernzugriff zu erreichen und zu verwalten.
-    
-    Informationen zur Einrichtung finden Sie unter [GoodCloud](../../interface_guide/cloud.md).
-
-=== "AstroWarp"
-
-    AstroWarp ist eine fortschrittliche Netzwerkplattform für nahtlose Fernvernetzung und Fernverwaltung von Geräten. AstroWarp wurde speziell für die Integration mit GL.iNet-Routern entwickelt und unterstützt eine umfassende Geräteverwaltung über ganze Netzwerke hinweg, einschließlich der Steuerung über- und untergeordneter Geräte. Mit seinem Fokus auf netzweite Verwaltung und künftiger Unterstützung für hardwarebasierte Steuerung bietet AstroWarp eine robuste und zuverlässige Lösung für Gerätemanagement sowie den Betrieb sicherer und stabiler Netzwerke.
-    
-    Informationen zur Einrichtung finden Sie unter [AstroWarp](../../interface_guide/astrowarp.md).
-
 ## Anwendungen {#applications}
 
 === "Plug-ins"
@@ -168,13 +170,13 @@ Informationen zur Einrichtung von Clients finden Sie unter [Clients](../../inter
     
     Informationen zur Einrichtung finden Sie unter [Network Storage](../../interface_guide/network_storage.md).
 
----
-
 === "AdGuard Home"
 
     AdGuard Home ist eine netzwerkweite Lösung zum Blockieren von Werbung und Trackern, die als DNS-Server fungiert und unerwünschte Inhalte auf allen mit dem Heimnetzwerk verbundenen Geräten filtert.
     
     Informationen zur Einrichtung finden Sie unter [AdGuard Home](../../interface_guide/adguardhome.md).
+
+---
 
 === "Parental Control"
 
@@ -188,15 +190,13 @@ Informationen zur Einrichtung von Clients finden Sie unter [Clients](../../inter
     
     Informationen zur Einrichtung finden Sie unter [ZeroTier](../../interface_guide/zerotier.md).
 
----
-
 === "Tailscale"
 
     Tailscale ist ein VPN-Dienst, mit dem Sie von überall auf Ihre Geräte und Anwendungen zugreifen können.
     
     Informationen zur Einrichtung finden Sie unter [Tailscale](../../interface_guide/tailscale.md).
 
-## Netzwerkeinstellungen {#network-settings}
+## Netzwerk {#network}
 
 === "Portweiterleitung"
 
@@ -214,19 +214,17 @@ Informationen zur Einrichtung von Clients finden Sie unter [Clients](../../inter
     
     Informationen zur Einrichtung finden Sie unter [LAN](../../interface_guide/lan.md).
 
----
-
 === "DNS"
 
     Auf der DNS-Seite können Sie benutzerdefinierte DNS-Server festlegen, den Schutz vor DNS-Rebinding-Angriffen aktivieren, die DNS-Einstellungen aller Clients überschreiben, benutzerdefiniertes DNS das VPN-DNS überschreiben lassen und den Modus für die DNS-Servereinstellungen auf automatisch setzen oder DNS-Server aus der Ethernet-Verbindung manuell angeben.
 
     Informationen zur Einrichtung finden Sie unter [DNS](../../interface_guide/dns.md).
 
-=== "Network Port Management"
-
-    Auf der Seite Network Port Management können Sie die WAN- und LAN-Ports konfigurieren, die WAN/LAN-Schnittstelle auf Ethernet festlegen, den MAC-Modus und die MAC-Adresse für die WAN-Schnittstelle angeben sowie die ausgehandelte Portgeschwindigkeit anzeigen.
-
 ---
+
+=== "Portverwaltung"
+
+    Auf der Seite Port Management können Sie die WAN- und LAN-Ports konfigurieren, die WAN/LAN-Schnittstelle auf Ethernet setzen, den MAC-Modus und die MAC-Adresse für die WAN-Schnittstelle festlegen und die ausgehandelte Portgeschwindigkeit anzeigen.
 
 === "Network Mode"
 
@@ -266,7 +264,7 @@ Informationen zur Einrichtung von Clients finden Sie unter [Clients](../../inter
 
     Informationen zur Einrichtung finden Sie unter [NAT Settings](../../interface_guide/nat_settings.md).
 
-## Systemeinstellungen {#system-settings}
+## System {#system}
 
 === "Overview"
 
@@ -305,13 +303,13 @@ Informationen zur Einrichtung von Clients finden Sie unter [Clients](../../inter
 
     Detaillierte Anweisungen finden Sie unter [Scheduled Tasks](../../interface_guide/scheduled_tasks.md).
 
----
-
 === "Time Zone"
 
     Auf der Seite Time Zone können Sie die korrekte Zeitzone für Ihren Router festlegen, damit alle geplanten Aufgaben, Protokolle und Systemereignisse mit Ihrer lokalen Zeit korrekt zeitgestempelt werden. Diese Einstellung ist entscheidend für präzise Aufzeichnungen und die ordnungsgemäße Ausführung zeitbasierter Konfigurationen.
 
     Detaillierte Anweisungen finden Sie unter [Time Zone](../../interface_guide/time_zone.md).
+
+---
 
 === "Log"
 
@@ -339,8 +337,6 @@ Informationen zur Einrichtung von Clients finden Sie unter [Clients](../../inter
     Diese Einstellungen helfen Ihnen, eine sichere Netzwerkumgebung aufrechtzuerhalten und sowohl Ihren Router als auch verbundene Geräte zu schützen.
 
     Detaillierte Anweisungen finden Sie unter [Security](../../interface_guide/security.md).
-
----
 
 === "Reset Firmware"
 

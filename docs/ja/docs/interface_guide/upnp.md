@@ -32,17 +32,17 @@ UPnPの一般的な用途は次のとおりです。
 
 ![enable upnp](https://static.gl-inet.com/docs/router/en/4/interface_guide/upnp/upnp.png){class="glboxshadow"}
 
-- Client / Application: クライアントやアプリケーションの説明と、要求元デバイスのLAN IPアドレスです。
+- **Client / Application**: クライアントやアプリケーションの説明と、要求元デバイスのLAN IPアドレスです。
 
-- Protocol: マッピングのトランスポートプロトコルです（TCPやUDPなど）。
+- **Protocol**: マッピングのトランスポートプロトコルです（TCPやUDPなど）。
 
-- External Port: 着信接続用のWANポートです。
+- **External Port**: 着信接続用のWANポートです。
 
-- Internal Target: 宛先のLAN IPアドレスとポートです。
+- **Internal Target**: 宛先のLAN IPアドレスとポートです。
 
-- Lease: マッピングの有効期限までの残り時間です。デフォルトのリース期間は7日です。
+- **Lease**: マッピングの有効期限までの残り時間です。デフォルトのリース期間は7日です。
 
-- Action: ごみ箱アイコンをクリックするとマッピングを削除できます。クライアントやアプリケーションが動作中の場合、再度要求することがあります。
+- **Action**: ごみ箱アイコンをクリックするとマッピングを削除できます。クライアントやアプリケーションが動作中の場合、再度要求することがあります。
 
 有効なポートマッピングは、クライアントが解放するかリース期間が終了すると削除されます。**Refresh** をクリックすると、最新のポートマッピングが表示されます。
 

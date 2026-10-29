@@ -184,7 +184,7 @@ Ein VPN (Virtual Private Network) erstellt einen sicheren, verschlüsselten Date
 
 === "Subnet"
 
-    Auf der Seite Subnet werden LAN, Guest Network, IoT Network und benutzerdefinierte VLAN Networks zentral verwaltet. Sie können mehrere Subnetze erstellen und verwalten, um unterschiedliche Gerätetypen oder Datenverkehr voneinander zu isolieren.
+    Diese Seite ermöglicht die zentrale Konfiguration und Verwaltung von **Main Network**, **Guest Network**, **IoT Network** und benutzerdefinierten **VLAN Networks**. Sie können mehrere Subnetze erstellen und verwalten, um verschiedene Gerätetypen oder Datenverkehr voneinander zu trennen.
 
     Weitere Informationen finden Sie unter [Subnet](../../interface_guide/subnet.md).
 

@@ -79,7 +79,19 @@ Configureer je Marble met een van de ondersteunde methoden voor internetverbindi
 
 ---
 
-## Een VPN instellen {#how-to-set-up-a-vpn}
+## Wireless {#wireless}
+
+Op de pagina Wireless kun je instellingen voor de Wi-Fi-netwerken op 5 GHz en 2.4 GHz configureren, waaronder het in- en uitschakelen van Wi-Fi, het zendvermogen, de Wi-Fi-naam (SSID), de Wi-Fi-beveiligingsmodus en het wachtwoord, de zichtbaarheid van de SSID, de Wi-Fi-modus, bandbreedte en het kanaal.
+
+Raadpleeg [Wireless](../../interface_guide/wireless_v4.8.md) om Wireless in te stellen.
+
+## Clients {#clients}
+
+De pagina Clients toont informatie over verbonden apparaten. Voor elke client worden de apparaatnaam, het verbindingstype (via Ethernet of Wi-Fi), de IP- en MAC-adressen, de download- en uploadsnelheid en het totale verkeer weergegeven. Je kunt de client ook blokkeren en andere handelingen uitvoeren.
+
+Raadpleeg [Clients](../../interface_guide/clients.md) om Clients in te stellen.
+
+## VPN {#vpn}
 
 Een VPN (virtual private network) maakt een beveiligde, versleutelde verbinding voor verkeer tussen je apparaat en de VPN-server. Een VPN biedt extra privacy en beveiliging via een VPN-client en geeft je via een VPN-server toegang tot een extern netwerk. Marble en andere GL.iNet-routers ondersteunen OpenVPN en WireGuard. Daarnaast wordt Tor ondersteund.
 
@@ -103,36 +115,6 @@ Een VPN (virtual private network) maakt een beveiligde, versleutelde verbinding 
 
     * [Tor instellen](../../interface_guide/tor.md)
 
----
-
-## Draadloos netwerk en clients {#wireless-and-clients}
-
-=== "Wireless"
-
-    Op de pagina Wireless kun je instellingen voor zowel het 5 GHz- als het 2.4 GHz-Wi-Fi-netwerk configureren. Je kunt Wi-Fi in- of uitschakelen, het TX-vermogen instellen, de Wi-Fi-naam (SSID) opgeven, een willekeurige BSSID in- of uitschakelen, de Wi-Fi-beveiligingsmodus selecteren, het Wi-Fi-wachtwoord instellen, de zichtbaarheid van de SSID configureren en de Wi-Fi-modus, bandbreedte en het kanaal kiezen.
-
-    Raadpleeg [Wireless](../../interface_guide/wireless.md) om Wireless in te stellen.
-
-=== "Clients"
-
-    De pagina Clients toont informatie over verbonden apparaten. Voor elke client worden de apparaatnaam, het verbindingstype (via Ethernet of Wi-Fi), de IP- en MAC-adressen, de download- en uploadsnelheid en het totale verkeer weergegeven. Je kunt de client ook blokkeren en andere handelingen uitvoeren.
-
-    Raadpleeg [Clients](../../interface_guide/clients.md) om Clients in te stellen.
-
-## Clouddiensten {#cloud-services}
-
-=== "GoodCloud"
-
-    De dienst [GoodCloud](https://www.goodcloud.xyz){target="_blank"} van GL.iNet biedt een eenvoudige manier om GL.iNet-routers op afstand te openen en beheren.
-
-    Raadpleeg [GoodCloud](../../interface_guide/cloud.md) om GoodCloud in te stellen.
-
-=== "AstroWarp"
-
-    Deze functie is beschikbaar vanaf firmware v4.7.
-
-    AstroWarp is een geavanceerd netwerkplatform voor naadloze externe netwerken en extern apparaatbeheer. AstroWarp is speciaal ontwikkeld voor integratie met GL.iNet-routers en ondersteunt uitgebreid apparaatbeheer voor volledige netwerken, waaronder het beheer van boven- en onderliggende apparaten. Door zich te richten op netwerkbreed beheer en toekomstige ondersteuning voor beheer op hardwareniveau biedt AstroWarp een robuustere en betrouwbaardere oplossing voor apparaatbeheer en het onderhouden van veilige, stabiele netwerken.
-
 ## Toepassingen {#applications}
 
 === "Plug-ins"
@@ -143,13 +125,19 @@ Een VPN (virtual private network) maakt een beveiligde, versleutelde verbinding 
 
     Dynamic DNS (DDNS) detecteert en actualiseert automatisch en in realtime het IP-adres dat aan een domein is gekoppeld. Het koppelt een domeinnaam aan het dynamische openbare IP-adres van je router, zodat je zonder statisch IP-adres op afstand toegang hebt tot je netwerk. Raadpleeg [Dynamic DNS](../../interface_guide/ddns.md) om Dynamic DNS in te stellen.
 
----
+=== "GoodCloud"
+
+    De dienst [GoodCloud](https://www.goodcloud.xyz){target="_blank"} van GL.iNet biedt een eenvoudige manier om GL.iNet-routers op afstand te openen en beheren.
+    
+    Raadpleeg [GoodCloud](../../interface_guide/cloud.md) om GoodCloud in te stellen.
 
 === "AdGuard Home"
 
     AdGuard Home is een hulpmiddel van derden dat advertenties en tracking blokkeert om je te beschermen.
-
+    
     Raadpleeg [AdGuard Home](../../interface_guide/adguardhome.md) om te lezen hoe je AdGuard Home inschakelt.
+
+---
 
 === "Parental Control"
 
@@ -157,17 +145,15 @@ Een VPN (virtual private network) maakt een beveiligde, versleutelde verbinding 
 
     Raadpleeg [Parental controls](../../interface_guide/parental_control.md) om ouderlijk toezicht in te stellen.
 
-=== "Tailscale"
-
-    Tailscale is een VPN-dienst waarmee je overal toegang hebt tot je apparaten en toepassingen. Raadpleeg [Tailscale](../../interface_guide/tailscale.md) om Tailscale in te stellen.
-
 === "ZeroTier"
 
     ZeroTier is een VPN-dienst waarmee je apparaten met een virtueel netwerk kunt verbinden. Raadpleeg [ZeroTier](../../interface_guide/zerotier.md) om ZeroTier in te stellen.
 
----
+=== "Tailscale"
 
-## Netwerkinstellingen {#network-settings}
+    Tailscale is een VPN-dienst waarmee je overal toegang hebt tot je apparaten en toepassingen. Raadpleeg [Tailscale](../../interface_guide/tailscale.md) om Tailscale in te stellen.
+
+## Netwerk {#network}
 
 === "Firewall"
 
@@ -196,8 +182,6 @@ Een VPN (virtual private network) maakt een beveiligde, versleutelde verbinding 
 
     Raadpleeg [LAN](../../interface_guide/lan.md) voor uitgebreide installatie-instructies en meer informatie.
 
----
-
 === "Guest Network"
 
     Op de pagina Guest Network kun je een afzonderlijk netwerk voor gasten maken en beheren. Zij krijgen internettoegang terwijl je hoofdnetwerk beveiligd blijft. De belangrijkste functies op deze pagina zijn:
@@ -206,8 +190,10 @@ Een VPN (virtual private network) maakt een beveiligde, versleutelde verbinding 
     * DHCP: configureer het Dynamic Host Configuration Protocol voor het gastnetwerk om automatisch IP-adressen toe te wijzen aan apparaten die verbinding maken.
 
     Het gastnetwerk biedt gasten internettoegang en isoleert hun verkeer van je hoofdnetwerk om mogelijke gevolgen voor de beveiliging en prestaties daarvan te beperken.
-
+    
     Raadpleeg [Guest Network](../../interface_guide/guest_network.md) voor uitgebreide installatie-instructies en meer informatie.
+
+---
 
 === "DNS"
 
@@ -231,8 +217,6 @@ Een VPN (virtual private network) maakt een beveiligde, versleutelde verbinding 
     * WDS (Wireless Distribution System): vergelijkbaar met Extender. Selecteer WDS als je hoofdrouter de WDS-modus ondersteunt.
 
     Raadpleeg [Network Mode](../../interface_guide/network_mode.md) voor uitgebreide installatie-instructies en meer informatie.
-
----
 
 === "IPv6"
 
@@ -259,11 +243,11 @@ Een VPN (virtual private network) maakt een beveiligde, versleutelde verbinding 
 
     Raadpleeg [MAC Address](../../interface_guide/mac_address.md) voor uitgebreide installatie-instructies en meer informatie.
 
+---
+
 === "Drop-in Gateway"
 
     Drop-in Gateway breidt de functies van je hoofdrouter uit met functies die deze mogelijk niet heeft, waaronder AdGuard Home, versleutelde DNS en VPN. Raadpleeg [Een Drop-in Gateway instellen](../../tutorials/how_to_set_up_drop_in_gateway.md) om Drop-in Gateway in te stellen.
-
----
 
 === "IGMP Snooping"
 
@@ -290,9 +274,7 @@ Een VPN (virtual private network) maakt een beveiligde, versleutelde verbinding 
 
     Raadpleeg [NAT Settings](../../interface_guide/nat_settings.md) voor uitgebreide installatie-instructies en meer informatie.
 
----
-
-## Systeeminstellingen {#system-settings}
+## Systeem {#system}
 
 === "Overview"
 
@@ -327,18 +309,18 @@ Een VPN (virtual private network) maakt een beveiligde, versleutelde verbinding 
     * Schedule Reboot: configureer de router om met ingestelde intervallen automatisch opnieuw op te starten. Dit helpt optimale prestaties en stabiliteit te behouden.
     * 5GHz Wi-Fi Status Schedule: maak een schema om de 5GHz-Wi-Fi-band op bepaalde tijden in of uit te schakelen en zo het netwerkgebruik en de energie-efficiëntie te optimaliseren.
     * 2.4GHz Wi-Fi Status Schedule: stel een schema in om de 2.4GHz-Wi-Fi-band te beheren en zo de beschikbaarheid van het netwerk en het energieverbruik beter te regelen.
-
+    
     Met deze planningsopties heb je meer controle over de werking van je router en kun je deze afstemmen op je specifieke behoeften en voorkeuren.
 
     Raadpleeg [Scheduled Tasks](../../interface_guide/scheduled_tasks.md) voor uitgebreide installatie-instructies en meer informatie.
-
----
 
 === "Time Zone"
 
     Op de pagina Time Zone kun je de juiste tijdzone voor je router instellen. Hierdoor krijgen alle geplande taken, logboeken en systeemgebeurtenissen een nauwkeurig tijdstempel op basis van je lokale tijd. Deze instelling is essentieel voor nauwkeurige registraties en een correcte uitvoering van tijdgebonden configuraties.
 
     Raadpleeg [Time Zone](../../interface_guide/time_zone.md) voor uitgebreide installatie-instructies en meer informatie.
+
+---
 
 === "Log"
 
@@ -365,8 +347,6 @@ Een VPN (virtual private network) maakt een beveiligde, versleutelde verbinding 
     Met deze instellingen onderhoud je een veilige netwerkomgeving en bescherm je zowel de router als de verbonden apparaten.
 
     Raadpleeg [Security](../../interface_guide/security.md) voor uitgebreide installatie-instructies en meer informatie.
-
----
 
 === "Reset Firmware"
 

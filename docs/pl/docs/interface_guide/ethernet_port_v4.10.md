@@ -1,10 +1,8 @@
-# Port Ethernet (oprogramowanie sprzętowe v4.10) {#ethernet-port-firmware-v410}
+# Port Ethernet (oprogramowanie sprzętowe v4.10 i nowsze) {#ethernet-port-firmware-v410}
 
-**Uwaga**: treść tej strony została po raz pierwszy wprowadzona w routerze Flint 4 (GL-BE14000) i zostanie udostępniona innym modelom w firmware v4.10.
+**Uwaga**: treść tej strony dotyczy oprogramowania sprzętowego v4.10 i nowszych wersji. Jeśli urządzenie korzysta z innej wersji oprogramowania sprzętowego, użyj poniższego selektora, aby przejść do odpowiedniego przewodnika.
 
-Jeśli urządzenie korzysta z innej wersji oprogramowania sprzętowego, użyj poniższego selektora, aby przejść do odpowiedniego przewodnika.
-
-<div class="gl-link-select" data-label="Firmware version" data-placeholder="Firmware v4.10" markdown="1">
+<div class="gl-link-select" data-label="Firmware version" data-placeholder="Firmware v4.10 i nowsze" markdown="1">
 
 - [Oprogramowanie sprzętowe v4.9 i starsze](ethernet_port.md)
 

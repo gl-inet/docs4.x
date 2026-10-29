@@ -194,8 +194,6 @@ Accedi di nuovo al pannello di amministrazione web di GL-MT6000, il server WireG
 
 Associa entrambi i router al tuo account GoodCloud prima del viaggio. Potrai così risolvere i problemi da remoto se la connessione VPN non funziona a causa della configurazione o di altri problemi di rete. L’accesso remoto funziona solo se i router rimangono accesi e connessi a Internet.
 
-Talvolta il server può non essere disponibile a causa di un'interruzione di corrente o di altri motivi. Per mantenere accessibile il tuo server, collegalo a GL.iNet GoodCloud.
-
 ---
 
 Articoli correlati

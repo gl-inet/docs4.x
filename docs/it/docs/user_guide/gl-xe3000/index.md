@@ -125,7 +125,33 @@ Configura Puli AX utilizzando uno dei metodi di connessione Internet supportati:
 
 ---
 
-## Come configurare una VPN {#how-to-set-up-a-vpn}
+## Wireless {#wireless}
+
+La pagina Wireless consente di configurare le impostazioni delle reti Wi-Fi sia a 5 GHz sia a 2,4 GHz, tra cui abilitazione del Wi-Fi, impostazione della potenza TX, definizione del nome della rete Wi-Fi (SSID), abilitazione del BSSID casuale, selezione della modalità di sicurezza Wi-Fi e della password, configurazione della visibilità dell'SSID, scelta della modalità Wi-Fi, della larghezza di banda e del canale.
+
+Per ulteriori informazioni, consulta [Wireless](../../interface_guide/wireless_v4.8.md).
+
+## Client {#clients}
+
+La pagina Client mostra le informazioni sui dispositivi connessi. Per ogni client visualizza nome, indirizzi IP e MAC, velocità di download e upload, traffico totale e offre la possibilità di bloccare il client o eseguire altre azioni.
+
+Per configurare i client, fai riferimento a [Clients](../../interface_guide/clients.md).
+
+## Servizi cloud {#cloud-services}
+
+=== "GoodCloud"
+
+    Il servizio GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} offre un modo semplice e pratico per accedere da remoto ai router GL.iNet e gestirli.
+    
+    Per configurare GoodCloud, fai riferimento a [GoodCloud](../../interface_guide/cloud.md).
+
+=== "AstroWarp"
+
+    AstroWarp e una piattaforma di rete avanzata progettata per offrire networking remoto senza interruzioni e gestione remota dei dispositivi. Sviluppata appositamente per l'integrazione con i router GL.iNet, AstroWarp supporta una gestione completa dei dispositivi in intere reti, consentendo il controllo sia dei dispositivi a monte sia di quelli a valle. Grazie all'attenzione alla gestione dell'intera rete e al futuro supporto per il controllo a livello hardware, AstroWarp offre una soluzione più solida e affidabile per la gestione dei dispositivi e il mantenimento di reti sicure e stabili.
+    
+    Per configurare AstroWarp, fai riferimento a [AstroWarp](../../interface_guide/astrowarp.md).
+
+## VPN {#vpn}
 
 Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il tuo dispositivo e il server VPN. Offre un ulteriore livello di privacy e sicurezza, nel caso del client VPN, e permette di accedere a una rete remota, nel caso del server VPN. Puli AX, come gli altri router GL.iNet, supporta OpenVPN e WireGuard. Inoltre supporta Tor.
 
@@ -149,34 +175,6 @@ Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il t
     
     * [Come configurare Tor](../../interface_guide/tor.md).
 
-## Wi-Fi e client {#wireless-and-clients}
-
-=== "Wi-Fi"
-
-    La pagina Wireless consente di configurare le impostazioni delle reti Wi-Fi sia a 5 GHz sia a 2,4 GHz, tra cui abilitazione del Wi-Fi, impostazione della potenza TX, definizione del nome della rete Wi-Fi (SSID), abilitazione del BSSID casuale, selezione della modalità di sicurezza Wi-Fi e della password, configurazione della visibilità dell'SSID, scelta della modalità Wi-Fi, della larghezza di banda e del canale.
-
-    Per configurare Wireless, fai riferimento a [Wireless](../../interface_guide/wireless.md).
-
-=== "Client"
-
-    La pagina Client mostra le informazioni sui dispositivi connessi. Per ogni client visualizza nome, indirizzi IP e MAC, velocità di download e upload, traffico totale e offre la possibilità di bloccare il client o eseguire altre azioni.
-
-    Per configurare i client, fai riferimento a [Clients](../../interface_guide/clients.md).
-
-## Servizi cloud {#cloud-services}
-
-=== "GoodCloud"
-
-    Il servizio GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} offre un modo semplice e pratico per accedere da remoto ai router GL.iNet e gestirli.
-    
-    Per configurare GoodCloud, fai riferimento a [GoodCloud](../../interface_guide/cloud.md).
-
-=== "AstroWarp"
-
-    AstroWarp e una piattaforma di rete avanzata progettata per offrire networking remoto senza interruzioni e gestione remota dei dispositivi. Sviluppata appositamente per l'integrazione con i router GL.iNet, AstroWarp supporta una gestione completa dei dispositivi in intere reti, consentendo il controllo sia dei dispositivi a monte sia di quelli a valle. Grazie all'attenzione alla gestione dell'intera rete e al futuro supporto per il controllo a livello hardware, AstroWarp offre una soluzione più solida e affidabile per la gestione dei dispositivi e il mantenimento di reti sicure e stabili.
-    
-    Per configurare AstroWarp, fai riferimento a [AstroWarp](../../interface_guide/astrowarp.md).
-
 ## Applicazioni {#applications}
 
 === "Plug-in"
@@ -197,13 +195,13 @@ Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il t
     
     Per configurare l'archiviazione di rete, fai riferimento a [Network Storage](../../interface_guide/network_storage.md).
 
----
-
 === "AdGuard Home"
 
     AdGuard Home e una soluzione di blocco degli annunci e dei tracker a livello di rete che funziona come server DNS per filtrare i contenuti indesiderati su tutti i dispositivi collegati alla rete domestica.
     
     Per configurare AdGuard Home, fai riferimento a [AdGuard Home](../../interface_guide/adguardhome.md).
+
+---
 
 === "Controllo genitori"
 
@@ -216,8 +214,6 @@ Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il t
     ZeroTier e una soluzione di rete definita dal software che consente agli utenti di creare reti virtuali sicure su Internet, collegando i dispositivi come se si trovassero sulla stessa rete locale.
     
     Per configurare ZeroTier, fai riferimento a [ZeroTier](../../interface_guide/zerotier.md).
-
----
 
 === "Tailscale"
 
@@ -309,7 +305,7 @@ Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il t
 
     Per configurare le impostazioni NAT, fai riferimento a [NAT Settings](../../interface_guide/nat_settings.md).
 
-## Impostazioni di sistema {#system-settings}
+## Sistema {#system}
 
 === "Panoramica"
 
@@ -352,13 +348,13 @@ Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il t
 
     Per istruzioni dettagliate, fai riferimento a [Scheduled Tasks](../../interface_guide/scheduled_tasks.md).
 
----
-
 === "Fuso orario"
 
     La pagina Fuso orario consente di impostare il fuso orario corretto del router, garantendo che tutte le attività pianificate, i log e gli eventi di sistema vengano registrati correttamente in base all'ora locale. Questa impostazione e fondamentale per mantenere registrazioni precise e per il corretto funzionamento delle configurazioni basate sul tempo.
 
     Per istruzioni dettagliate, fai riferimento a [Time Zone](../../interface_guide/time_zone.md).
+
+---
 
 === "Log"
 
@@ -386,8 +382,6 @@ Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il t
     Queste impostazioni aiutano a mantenere un ambiente di rete sicuro, proteggendo sia il router sia i dispositivi collegati.
 
     Per istruzioni dettagliate, fai riferimento a [Security](../../interface_guide/security.md).
-
----
 
 === "Ripristino firmware"
 

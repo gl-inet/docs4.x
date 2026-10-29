@@ -194,8 +194,6 @@ Logga in igen på webbadministrationspanelen för GL-MT6000 (WireGuard-servern) 
 
 Bind båda routrarna till ditt GoodCloud-konto innan du reser. Då kan du felsöka på distans om VPN-anslutningen slutar fungera på grund av konfigurationen eller andra nätverksproblem. Fjärråtkomst fungerar bara när routrarna är påslagna och anslutna till internet.
 
-Servern kan ibland sluta fungera på grund av ett strömavbrott eller andra orsaker. Bind den till GL.iNet GoodCloud för att behålla fjärråtkomsten till servern.
-
 ---
 
 Relaterade artiklar

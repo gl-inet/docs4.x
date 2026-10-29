@@ -297,6 +297,12 @@ Clientsの設定については、[Clients](../../interface_guide/clients.md)を
 
 ## クラウドサービス {#cloud-services}
 
+=== "GL.iNet Account"
+
+    GL.iNet Accountでは、デバイスやクラウドサービスを接続して管理できます。1つのGL.iNet AccountでGoodCloudとglinetアプリの両方にシームレスにアクセスでき、安全で快適に利用できます。いつでもどこからでも、より便利にネットワークを管理できます。
+
+    GL.iNet Accountの設定については、[GL.iNet Account](../../interface_guide/glinet_account.md)を参照してください。
+
 === "GoodCloud"
 
     GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"}クラウド管理サービスは、GL.iNetルーターへ簡単にリモートアクセスして管理する方法を提供します。
@@ -335,17 +341,19 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
     Multi-WANの設定については、[Multi-WAN](../../interface_guide/multi-wan.md)を参照してください。
 
-=== "LAN"
+=== "Subnet"
 
-    LAN（Local Area Network）は、自宅やオフィスなどの限られた物理的な範囲内でコンピューターやデバイスを接続するネットワークです。高速なデータ転送とリソース共有を可能にし、デバイス同士が効率的に通信できます。
-    
-    LANの設定については、[Lan](../../interface_guide/lan.md)を参照してください。
+    このページでは、**Main Network**、**Guest Network**、**IoT Network**、カスタムの**VLAN Networks**を一元的に設定・管理できます。複数のサブネットを作成・管理して、異なる種類のデバイスやトラフィックを分離できます。
 
-=== "Guest Network"
+    設定方法については、[Subnet](../../interface_guide/subnet.md)を参照してください。
 
-    IPv4プライベートアドレス範囲192.168.0.0/16、172.16.0.0/12、または10.0.0.0/8内でサブネットを設定し、ゲートウェイとネットマスクIPアドレスを指定し、ゲストネットワークのAP分離などのセキュリティ設定を構成できます。
+=== "Ethernet Port"
 
-    ゲストネットワークの設定については、[Guest Network](../../interface_guide/guest_network.md)を参照してください。
+    Ethernet Portページでは、Ethernetポートの役割（WAN/LANとして使用）の設定、WANインターフェースのMACモードとMACアドレスの切り替え、ネゴシエート速度の表示を行えます。
+
+    Mudi 7には単一のEthernetポートが備わっており、デフォルトでLANです。必要に応じて、タッチスクリーンまたはWeb管理パネルでWANポートに切り替えられます。
+
+    Ethernet Portの設定については、[Ethernet Port](../../interface_guide/ethernet_port_v4.10.md)を参照してください。
 
 ---
 
@@ -355,27 +363,19 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
     DNSの設定については、[DNS](../../interface_guide/dns.md)を参照してください。
 
-=== "Ethernet Port"
-
-    Ethernet Portページでは、Ethernetポートの役割（WAN/LANとして使用）の設定、WANインターフェースのMACモードとMACアドレスの切り替え、ネゴシエート速度の表示を行えます。
-
-    Mudi 7には単一のEthernetポートが備わっており、デフォルトでLANです。必要に応じて、タッチスクリーンまたはWeb管理パネルでWANポートに切り替えられます。
-
-    Ethernetポートの管理については、[Ethernet Port](../../interface_guide/ethernet_port.md)を参照してください。
-
 === "IPv6"
 
     IPv6（Internet Protocol version 6）は、IPv4 を置き換えるために設計された最新のインターネットプロトコルです。ほぼ無制限の固有IPアドレスを提供する広大なアドレス空間を備え、インターネット接続デバイスの増加に対応するうえで不可欠です。
     
     IPV6の設定については、[IPV6](../../interface_guide/ipv6.md)を参照してください。
 
----
-
 === "IGMP Snooping"
 
     IGMPスヌーピングは、イーサネットスイッチでマルチキャストトラフィックを管理および制御するために使用されるネットワーク最適化技術です。
     
     IGMPスヌーピングの設定については、[IGMP Snooping](../../interface_guide/igmp_snooping.md)を参照してください。
+
+---
 
 === "Network Mode"
 
@@ -402,11 +402,45 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
 ## フロー制御 {#flow-control}
 
+=== "DPI Engine"
+
+    DPI（Deep Packet Inspection）は、インテリジェントなネットワーク管理の中核となる機能です。送信元または宛先アドレスのみを識別する従来のルーターの制約を超え、パケットのペイロードを詳細に分析します。シグネチャライブラリとの照合により、ユーザーが利用するアプリケーションやWebサイトを正確に識別し、きめ細かなトラフィックの分類と制御を実現します。
+    
+    GL.iNetのDPI機能は[Netify](https://www.netify.ai/){target="_blank"}と統合され、効率的に導入できる軽量な組み込みプラグインを使用しています。Netifyのオンライン更新対応シグネチャデータベースにより、信頼性の高い管理と、より正確で効率的なネットワーク制御が可能になります。
+
+    詳細は[DPI Engine](../../interface_guide/dpi_engine.md)を参照してください。
+
+=== "Data Statistics"
+
+    Data Statisticsは、アプリケーション別にネットワーク使用量を分類して可視化するインテリジェントなトラフィック分析ダッシュボードです。リアルタイムと過去のトラフィックを監視し、ネットワークの状態を把握して管理できます。
+
+    詳細は[Data Statistics](../../interface_guide/data_statistics.md)を参照してください。
+
+=== "Content Filter"
+
+    Content Filterは、DPIベースの分類を利用したオンライン保護機能です。有害または悪意のあるWebサイトを自動的にブロックし、ネットワークを安全に保ちます。
+
+    詳細は[Content Filter](../../interface_guide/content_filter.md)を参照してください。
+
+---
+
+=== "QoS"
+
+    QoS（Quality of Service）は、ネットワークの混雑時にビデオ通話やゲームなどの重要な通信を優先し、帯域幅の割り当てを最適化します。これにより、遅延を軽減してネットワーク全体の性能を向上させます。この機能はローカルクライアントのトラフィックとVPNクライアントのトンネルトラフィックに適用されますが、ルーターがVPNサーバーとして受信するトラフィックには適用されません。
+
+    詳細は[QoS](../../interface_guide/qos.md)を参照してください。
+
+=== "SQM"
+
+    SQM（Smart Queue Management）は、ルーターのネットワークトラフィックをインテリジェントに管理して遅延と「バッファブロート」を抑え、ゲームや音声通話をより滑らかにします。
+
+    詳細は[SQM](../../interface_guide/sqm.md)を参照してください。
+
 === "Parental Control"
 
     Parental Controlは、子どものデバイスを管理および制御するために設計されています。スクリーン時間の制限や特定コンテンツへのアクセス制限が含まれます。
 
-    Parental Controlの設定については、[Parental Control](../../interface_guide/parental_control.md)を参照してください。
+    ペアレンタルコントロールの設定については、[Parental Control](../../interface_guide/parental_control_v4.9.md)を参照してください。
 
 ## セキュリティ {#security}
 
@@ -416,17 +450,21 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
     
     ポートフォワーディングの設定については、[Port Forwarding](../../interface_guide/port_forwarding.md)を参照してください。
 
-=== "Management Control"
+=== "ACL"
 
-    Management Controlでは、ネットワークとルーターを不正アクセスから保護するためのさまざまなセキュリティ設定を構成できます。このページには以下のオプションがあります：
+    ACL（Access Control List）では、接続プロトコル、デバイスアドレス、ポートに基づくルールを作成し、ネットワークトラフィックを管理できます。ネットワークアクセスを許可するかブロックするかを制御します。複数のACLルールが競合する場合は、優先度の高いルールが適用されます。
+
+    詳細は[ACL](../../interface_guide/acl.md)を参照してください。
+
+=== "Admin Access"
+
+    Admin Accessでは、不正なアクセスからネットワークとルーターを保護するための各種セキュリティ設定を行えます。このページには次の項目があります。
 
     * ローカルアクセス制御：ローカルネットワークに接続されたデバイスからルーターのインターフェースへのアクセスを管理および制限します。
     * リモートアクセス制御：インターネット経由のリモートの場所からルーターのインターフェースへのアクセスを構成および制限し、外部脅威に対するセキュリティを強化します。
     * ルーターで開いているポート：ルーター上で開いているポートを制御し、潜在的な脆弱性と不正アクセスを制限します。
 
-    これらの設定は、ネットワーク環境を安全に保ち、ルーターと接続されたデバイスを保護するのに役立ちます。
-
-    詳細な手順については、[Security](../../interface_guide/security.md)を参照してください。
+    詳細は[Admin Access](../../interface_guide/admin_access.md)を参照してください。
 
 === "NAT Mode"
 
@@ -462,17 +500,17 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
     
     AdGuard Homeの設定については、[AdGuard Home](../../interface_guide/adguardhome.md)を参照してください。
 
-=== "ZeroTier"
-
-    ZeroTierは、ソフトウェア定義ネットワーキングソリューションであり、インターネット上で安全に仮想ネットワークを作成し、デバイスが同一のローカルネットワーク上にあるかのように接続できます。
-    
-    ZeroTierの設定については、[ZeroTier](../../interface_guide/zerotier.md)を参照してください。
-
 === "Tailscale"
 
     Tailscaleは、どこからでもデバイスやアプリケーションにアクセスできるVPNサービスです。
     
     Tailscaleの設定については、[Tailscale](../../interface_guide/tailscale.md)を参照してください。
+
+=== "ZeroTier"
+
+    ZeroTierは、ソフトウェア定義ネットワーキングソリューションであり、インターネット上で安全に仮想ネットワークを作成し、デバイスが同一のローカルネットワーク上にあるかのように接続できます。
+    
+    ZeroTierの設定については、[ZeroTier](../../interface_guide/zerotier.md)を参照してください。
 
 === "Tor"
 

@@ -123,7 +123,33 @@ Konfigurera Spitz AX med någon av de internetanslutningsmetoder som stöds: Cel
 
     Detaljerade anvisningar finns i [Anslut till internet via internetdelning med USB](../../interface_guide/internet_tethering.md).
 
-## Konfigurera ett VPN {#how-to-set-up-a-vpn}
+## Wireless {#wireless}
+
+På sidan Wireless kan du konfigurera inställningarna för Wi-Fi-nätverk på 5 GHz och 2.4 GHz. Du kan bland annat aktivera Wi-Fi, ange sändningseffekt och Wi-Fi-namn (SSID), aktivera slumpmässig BSSID, välja Wi-Fi-säkerhetsläge och lösenord, konfigurera SSID-synlighet samt välja Wi-Fi-läge, bandbredd och kanal.
+
+Mer information finns i [Wireless](../../interface_guide/wireless_v4.8.md).
+
+## Clients {#clients}
+
+På sidan Clients visas information om anslutna enheter. För varje klient visas namn, IP- och MAC-adresser, nedladdnings- och uppladdningshastighet samt total trafik. Du kan även blockera klienten eller utföra andra åtgärder.
+
+Information om hur du konfigurerar Clients finns i [Clients](../../interface_guide/clients.md).
+
+## Molntjänster {#cloud-services}
+
+=== "GoodCloud"
+
+    GL.iNets tjänst [GoodCloud](https://www.goodcloud.xyz){target="_blank"} är ett enkelt sätt att fjärransluta till och hantera GL.iNet-routrar.
+
+    Information om hur du konfigurerar GoodCloud finns i [GoodCloud](../../interface_guide/cloud.md).
+
+=== "AstroWarp"
+
+    AstroWarp är en avancerad nätverksplattform för smidiga fjärrnätverk och fjärrhantering av enheter. AstroWarp är särskilt utvecklat för integrering med GL.iNet-routrar och stöder heltäckande enhetshantering i hela nätverk, med styrning av både överordnade och underordnade enheter. Genom att fokusera på nätverksomfattande hantering och framtida stöd för styrning på maskinvarunivå erbjuder AstroWarp en robust och tillförlitlig lösning för enhetshantering och säkra, stabila nätverk.
+
+    Information om hur du konfigurerar AstroWarp finns i [AstroWarp](../../interface_guide/astrowarp.md).
+
+## VPN {#vpn}
 
 Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindelse mellan din enhet och VPN-servern. Det ger ett extra lager av integritet och säkerhet (VPN-klient) och låter dig få åtkomst till ett fjärrnätverk (VPN-server). Spitz AX och andra GL.iNet-routrar stöder OpenVPN och WireGuard. Spitz AX stöder även Tor.
 
@@ -147,34 +173,6 @@ Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindel
 
     * [Konfigurera Tor](../../interface_guide/tor.md).
 
-## Trådlöst nätverk och klienter {#wireless-and-clients}
-
-=== "Wireless"
-
-    På sidan Wireless kan du konfigurera inställningarna för Wi-Fi-nätverk på både 5 GHz och 2.4 GHz. Du kan bland annat aktivera Wi-Fi, ange sändningseffekt och Wi-Fi-namn (SSID), aktivera slumpmässig BSSID, välja Wi-Fi-säkerhetsläge och lösenord, konfigurera SSID-synlighet samt välja Wi-Fi-läge, bandbredd och kanal.
-
-    Information om hur du konfigurerar Wireless finns i [Wireless](../../interface_guide/wireless.md).
-
-=== "Clients"
-
-    På sidan Clients visas information om anslutna enheter. För varje klient visas namn, IP- och MAC-adresser, nedladdnings- och uppladdningshastighet samt total trafik. Du kan även blockera klienten eller utföra andra åtgärder.
-
-    Information om hur du konfigurerar Clients finns i [Clients](../../interface_guide/clients.md).
-
-## Molntjänster {#cloud-services}
-
-=== "GoodCloud"
-
-    GL.iNets tjänst [GoodCloud](https://www.goodcloud.xyz){target="_blank"} är ett enkelt sätt att fjärransluta till och hantera GL.iNet-routrar.
-
-    Information om hur du konfigurerar GoodCloud finns i [GoodCloud](../../interface_guide/cloud.md).
-
-=== "AstroWarp"
-
-    AstroWarp är en avancerad nätverksplattform för smidiga fjärrnätverk och fjärrhantering av enheter. AstroWarp är särskilt utvecklat för integrering med GL.iNet-routrar och stöder heltäckande enhetshantering i hela nätverk, med styrning av både överordnade och underordnade enheter. Genom att fokusera på nätverksomfattande hantering och framtida stöd för styrning på maskinvarunivå erbjuder AstroWarp en robust och tillförlitlig lösning för enhetshantering och säkra, stabila nätverk.
-
-    Information om hur du konfigurerar AstroWarp finns i [AstroWarp](../../interface_guide/astrowarp.md).
-
 ## Program {#applications}
 
 === "Plug-ins"
@@ -195,13 +193,13 @@ Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindel
 
     Information om hur du konfigurerar nätverkslagring finns i [Network Storage](../../interface_guide/network_storage.md).
 
----
-
 === "AdGuard Home"
 
     AdGuard Home är en lösning som blockerar annonser och spårare i hela nätverket. Den fungerar som en DNS-server som filtrerar oönskat innehåll på alla enheter som är anslutna till hemnätverket.
 
     Information om hur du konfigurerar AdGuard Home finns i [AdGuard Home](../../interface_guide/adguardhome.md).
+
+---
 
 === "Parental Control"
 
@@ -214,8 +212,6 @@ Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindel
     ZeroTier är en programvarudefinierad nätverkslösning som låter dig skapa säkra virtuella nätverk över internet och ansluta enheter som om de fanns i samma lokala nätverk.
 
     Information om hur du konfigurerar ZeroTier finns i [ZeroTier](../../interface_guide/zerotier.md).
-
----
 
 === "Tailscale"
 
@@ -247,13 +243,13 @@ Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindel
 
     Information om hur du konfigurerar LAN finns i [Lan Tutorial](../../interface_guide/lan.md).
 
----
-
 === "Guest Network"
 
     Du kan ange ett subnät inom de privata IPv4-adressintervallen 192.168.0.0/16, 172.16.0.0/12 eller 10.0.0.0/8, ange IP-adresserna för gateway och nätmask samt konfigurera säkerhetsinställningar som AP-isolering för gästnätverket.
 
     Information om hur du konfigurerar gästnätverket finns i [Guest Network](../../interface_guide/guest_network.md).
+
+---
 
 === "DNS"
 
@@ -267,8 +263,6 @@ Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindel
 
     Information om hur du hanterar Ethernet-portar finns i [Ethernet Port](../../interface_guide/ethernet_port.md).
 
----
-
 === "Network Mode"
 
     Nätverksläge avser de konfigurationsinställningar som avgör hur en enhet ansluter till ett nätverk och kommunicerar med andra enheter.
@@ -281,13 +275,13 @@ Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindel
 
     Information om hur du konfigurerar IPV6 finns i [IPV6](../../interface_guide/ipv6.md).
 
+---
+
 === "Drop-in Gateway"
 
     Drop-in Gateway utökar huvudrouterns funktioner med funktioner som den kanske saknar, däribland AdGuard Home, krypterad DNS och VPN.
 
     Information om hur du konfigurerar en drop-in-gateway finns i [Konfigurera en drop-in-gateway](../../tutorials/how_to_set_up_drop_in_gateway.md).
-
----
 
 === "IGMP Snooping"
 
@@ -307,7 +301,7 @@ Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindel
 
     Information om hur du konfigurerar NAT-inställningar finns i [NAT Settings](../../interface_guide/nat_settings.md).
 
-## Systeminställningar {#system-settings}
+## System {#system}
 
 === "Overview"
 
@@ -350,13 +344,13 @@ Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindel
 
     Detaljerade anvisningar finns i [Scheduled Tasks](../../interface_guide/scheduled_tasks.md).
 
----
-
 === "Time Zone"
 
     På sidan Time Zone kan du ange rätt tidszon för routern. Då tidsstämplas alla schemalagda uppgifter, loggar och systemhändelser korrekt enligt din lokala tid. Inställningen är viktig för korrekta register och för att tidsbaserade konfigurationer ska köras på rätt sätt.
 
     Detaljerade anvisningar finns i [Time Zone](../../interface_guide/time_zone.md).
+
+---
 
 === "Log"
 
@@ -384,8 +378,6 @@ Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindel
     Dessa inställningar hjälper dig att upprätthålla en säker nätverksmiljö som skyddar både routern och anslutna enheter.
 
     Detaljerade anvisningar finns i [Security](../../interface_guide/security.md).
-
----
 
 === "Reset Firmware"
 

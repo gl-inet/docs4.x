@@ -96,7 +96,35 @@ Configure su Slate AX utilizando uno de los métodos de conexión a Internet com
 
     Consulte [Connect to the Internet via cellular](../../interface_guide/internet_cellular.md) para ver instrucciones detalladas.
 
-## Cómo configurar una VPN {#how-to-set-up-a-vpn}
+---
+
+## Wireless {#wireless}
+
+La página Wireless le permite configurar los ajustes de las redes Wi-Fi de 5 GHz y 2,4 GHz, incluidos la activación del Wi-Fi, la potencia de transmisión (TX), el nombre de la red Wi-Fi (SSID), la activación del BSSID aleatorio, la selección del modo de seguridad y contraseña, la visibilidad del SSID, el modo Wi-Fi, el ancho de banda y el canal.
+
+Para configurar Wireless, consulte [Wireless](../../interface_guide/wireless_v4.8.md).
+
+## Clients {#clients}
+
+La página Clients muestra información sobre los dispositivos conectados. Para cada cliente, muestra el nombre, las direcciones IP y MAC, las velocidades de descarga y carga, el tráfico total, y permite bloquear el cliente o realizar otras acciones.
+
+Para configurar Clients, consulte [Clients](../../interface_guide/clients.md).
+
+## Servicios en la nube {#cloud-services}
+
+=== "GoodCloud"
+
+    El servicio [GoodCloud](https://www.goodcloud.xyz){target="_blank"} de GL.iNet proporciona una forma sencilla de acceder y gestionar remotamente routers GL.iNet.
+
+    Para configurar GoodCloud, consulte [GoodCloud](../../interface_guide/cloud.md).
+
+=== "AstroWarp"
+
+    AstroWarp es una plataforma de red avanzada diseñada para proporcionar redes remotas y gestión remota de dispositivos de forma fluida. Desarrollada específicamente para la integración con routers GL.iNet, AstroWarp permite la gestión integral de dispositivos en redes completas, posibilitando el control de dispositivos superiores e inferiores. Con un enfoque en la gestión a nivel de red y compatibilidad futura con control a nivel de hardware, AstroWarp ofrece una solución más robusta y fiable para gestionar dispositivos y mantener redes seguras y estables.
+
+    Para configurar AstroWarp, consulte [AstroWarp](../../interface_guide/astrowarp.md).
+
+## VPN {#vpn}
 
 Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositivo y el servidor VPN. Proporciona una capa adicional de privacidad y seguridad, como cliente VPN, y permite acceder a una red remota, como servidor VPN. Slate AX, al igual que otros routers GL.iNet, es compatible con OpenVPN y WireGuard. Además, es compatible con Tor.
 
@@ -117,38 +145,8 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 === "Tor"
 
     Tor, abreviatura de The Onion Router, es una red centrada en la privacidad que permite la comunicación anónima a través de Internet. Enruta el tráfico de Internet a través de una serie de servidores (nodos) gestionados por voluntarios para ocultar la ubicación y el uso del usuario, dificultando el rastreo de la actividad en línea.
-
+    
     * [Cómo configurar Tor](../../interface_guide/tor.md).
-
----
-
-## Inalámbrico y clientes {#wireless-and-clients}
-
-=== "Wireless"
-
-    La página Wireless le permite configurar los ajustes de las redes Wi-Fi de 5 GHz y 2,4 GHz, incluidos la activación del Wi-Fi, la potencia de transmisión (TX), el nombre de la red Wi-Fi (SSID), la activación del BSSID aleatorio, la selección del modo de seguridad y contraseña, la visibilidad del SSID, el modo Wi-Fi, el ancho de banda y el canal.
-
-    Para configurar Wireless, consulte [Wireless](../../interface_guide/wireless.md).
-
-=== "Clients"
-
-    La página Clients muestra información sobre los dispositivos conectados. Para cada cliente, muestra el nombre, las direcciones IP y MAC, las velocidades de descarga y carga, el tráfico total, y permite bloquear el cliente o realizar otras acciones.
-
-    Para configurar Clients, consulte [Clients](../../interface_guide/clients.md).
-
-## Servicios en la nube {#cloud-services}
-
-=== "GoodCloud"
-
-    El servicio [GoodCloud](https://www.goodcloud.xyz){target="_blank"} de GL.iNet proporciona una forma sencilla de acceder y gestionar remotamente routers GL.iNet.
-
-    Para configurar GoodCloud, consulte [GoodCloud](../../interface_guide/cloud.md).
-
-=== "AstroWarp"
-
-    AstroWarp es una plataforma de red avanzada diseñada para proporcionar redes remotas y gestión remota de dispositivos de forma fluida. Desarrollada específicamente para la integración con routers GL.iNet, AstroWarp permite la gestión integral de dispositivos en redes completas, posibilitando el control de dispositivos superiores e inferiores. Con un enfoque en la gestión a nivel de red y compatibilidad futura con control a nivel de hardware, AstroWarp ofrece una solución más robusta y fiable para gestionar dispositivos y mantener redes seguras y estables.
-
-    Para configurar AstroWarp, consulte [AstroWarp](../../interface_guide/astrowarp.md).
 
 ## Aplicaciones {#applications}
 
@@ -184,19 +182,19 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 
     Para configurar Parental Control, consulte [Parental Control](../../interface_guide/parental_control.md).
 
-=== "ZeroTier"
-
-    ZeroTier es una solución de redes definidas por software que permite a los usuarios crear redes virtuales seguras a través de Internet, conectando dispositivos como si estuvieran en la misma red local.
-
-    Para configurar ZeroTier, consulte [ZeroTier](../../interface_guide/zerotier.md).
-
 === "Tailscale"
 
     Tailscale es un servicio VPN que le permite acceder a sus dispositivos y aplicaciones desde cualquier lugar.
-
+    
     Para configurar Tailscale, consulte [Tailscale](../../interface_guide/tailscale.md).
 
-## Configuración de red {#network-settings}
+=== "ZeroTier"
+
+    ZeroTier es una solución de redes definidas por software que permite a los usuarios crear redes virtuales seguras a través de Internet, conectando dispositivos como si estuvieran en la misma red local.
+    
+    Para configurar ZeroTier, consulte [ZeroTier](../../interface_guide/zerotier.md).
+
+## Network {#network}
 
 === "Port Forwarding"
 
@@ -213,16 +211,16 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 === "LAN"
 
     LAN, o red de área local, es una red que conecta ordenadores y dispositivos en un área geográfica limitada, como un hogar u oficina. Permite la transferencia de datos a alta velocidad y el uso compartido de recursos, posibilitando que los dispositivos se comuniquen eficientemente entre sí.
-
-    Para configurar LAN, consulte [Lan](../../interface_guide/lan.md).
-
----
+    
+    Para configurar LAN, consulte [LAN](../../interface_guide/lan.md).
 
 === "Guest Network"
 
     Permite establecer una subred dentro de los rangos de direcciones privadas IPv4 192.168.0.0/16, 172.16.0.0/12 o 10.0.0.0/8, especificar las direcciones IP de puerta de enlace y máscara de red, y configurar ajustes de seguridad como el aislamiento de AP para la red de invitados.
 
     Para configurar la red de invitados, consulte [Guest Network](../../interface_guide/guest_network.md).
+
+---
 
 === "DNS"
 
@@ -236,8 +234,6 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 
     Para gestionar los puertos Ethernet, consulte [Port Management](../../interface_guide/ethernet_port.md).
 
----
-
 === "Network Mode"
 
     El modo de red hace referencia a los ajustes de configuración que determinan cómo un dispositivo se conecta a una red y se comunica con otros dispositivos.
@@ -247,19 +243,19 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 === "IPv6"
 
     IPv6, o Protocolo de Internet versión 6, es la versión más reciente del Protocolo de Internet diseñada para sustituir a IPv4. Proporciona un espacio de direcciones enormemente mayor, lo que permite un número prácticamente ilimitado de direcciones IP únicas, esencial para dar cabida al creciente número de dispositivos conectados a Internet.
-
+    
     Para configurar IPv6, consulte [IPV6](../../interface_guide/ipv6.md).
+
+---
 
 === "Drop-in gateway"
 
     Drop-in Gateway amplía la funcionalidad del router principal con funciones que podría no tener, incluidas AdGuard Home, DNS cifrado y cliente VPN.
-
+    
     Para configurar Drop-in Gateway, consulte los siguientes enlaces:
-
+    
     - [Drop-in Gateway](../../interface_guide/drop-in_gateway.md)
     - [Cómo configurar Drop-in Gateway](../../tutorials/how_to_set_up_drop_in_gateway.md)
-
----
 
 === "IGMP Snooping"
 
@@ -273,7 +269,7 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 
     Para configurar NAT Settings, consulte [NAT Settings](../../interface_guide/nat_settings.md).
 
-## Configuración del sistema {#system-settings}
+## Sistema {#system}
 
 === "Overview"
 

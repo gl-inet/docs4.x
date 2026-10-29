@@ -129,7 +129,7 @@ A continuación se muestra un resumen de las funciones del panel de administraci
 
 La página Wireless le permite configurar ajustes para las redes Wi-Fi de 5 GHz y 2,4 GHz, incluida la activación o desactivación del Wi-Fi, el ajuste de la potencia TX, la especificación del nombre de la red Wi-Fi (SSID), la activación o desactivación del BSSID aleatorio, la selección del modo de seguridad Wi-Fi, la configuración de la contraseña Wi-Fi, la visibilidad del SSID, el modo Wi-Fi, el ancho de banda y el canal.
 
-Para configurar Wireless, consulte [Wireless](../../interface_guide/wireless.md).
+Para obtener más información, consulte [Wireless](../../interface_guide/wireless_v4.8.md).
 
 ## Clients {#clients}
 
@@ -237,13 +237,13 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 
     Para configurar LAN, consulte [Lan Tutorial](../../interface_guide/lan.md).
 
----
-
 === "Guest Network"
 
     Le permite establecer una subred dentro de los rangos de direcciones privadas IPv4 192.168.0.0/16, 172.16.0.0/12 o 10.0.0.0/8, especificar las direcciones IP de gateway y máscara de red, y configurar ajustes de seguridad como el aislamiento de AP para la red de invitados.
 
     Para configurar la red de invitados, consulte [Guest Network](../../interface_guide/guest_network.md).
+
+---
 
 === "DNS"
 
@@ -257,7 +257,6 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 
     Para administrar los puertos Ethernet, consulte [Port Management](../../interface_guide/ethernet_port.md).
 
----
 
 === "Network Mode"
 
@@ -271,11 +270,11 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 
     Para configurar IPv6, consulte [IPv6](../../interface_guide/ipv6.md).
 
+---
+
 === "Drop-in Gateway"
 
     Drop-in Gateway amplía la funcionalidad de su router principal con funciones que quizá no tenga, incluidas AdGuard Home, DNS cifrado y VPN. Para configurar drop-in gateway, consulte [Cómo configurar drop-in gateway](../../tutorials/how_to_set_up_drop_in_gateway.md).
-
----
 
 === "IGMP Snooping"
 
@@ -337,13 +336,13 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 
     Consulte [Scheduled Tasks](../../interface_guide/scheduled_tasks.md){target="_blank"} para ver instrucciones detalladas.
 
----
-
 === "Time Zone"
 
     La página Time Zone le permite establecer la zona horaria correcta para el router, garantizando que todas las tareas programadas, los registros y los eventos del sistema tengan marcas de tiempo precisas según su hora local. Este ajuste es fundamental para mantener registros exactos y para el correcto funcionamiento de las configuraciones basadas en el tiempo.
 
     Consulte [Time Zone](../../interface_guide/time_zone.md){target="_blank"} para ver instrucciones detalladas.
+
+---
 
 === "Log"
 
@@ -371,8 +370,6 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
     Estos ajustes le ayudan a mantener un entorno de red seguro, protegiendo tanto el router como los dispositivos conectados.
 
     Consulte [Security](../../interface_guide/security.md) para ver instrucciones detalladas.
-
----
 
 === "Reset Firmware"
 

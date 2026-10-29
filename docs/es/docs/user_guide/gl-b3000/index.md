@@ -79,7 +79,19 @@ Configure su Marble con uno de los métodos de conexión a Internet compatibles:
 
 ---
 
-## Cómo configurar una VPN {#how-to-set-up-a-vpn}
+## Wireless {#wireless}
+
+La página Wireless permite configurar los ajustes de las redes Wi-Fi de 5 GHz y 2.4 GHz, incluidos la activación y desactivación de Wi-Fi, la potencia de transmisión, el nombre de Wi-Fi (SSID), el modo de seguridad y la contraseña de Wi-Fi, la visibilidad del SSID, el modo Wi-Fi, el ancho de banda y el canal.
+
+Para configurar Wireless, consulte [Wireless](../../interface_guide/wireless_v4.8.md).
+
+## Clients {#clients}
+
+La página Clients muestra información sobre los dispositivos conectados. Para cada cliente, se muestra el nombre del dispositivo, el tipo de conexión (es decir, mediante ethernet o Wi-Fi), las direcciones IP y MAC, las velocidades de descarga y subida, el tráfico total y la posibilidad de bloquear el cliente o realizar otras acciones.
+
+Para configurar Clients, consulte [Clients](../../interface_guide/clients.md).
+
+## VPN {#vpn}
 
 Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositivo y el servidor VPN. Proporciona una capa adicional de privacidad y seguridad cuando se usa como cliente VPN y permite acceder a una red remota cuando se usa como servidor VPN. Marble, al igual que otros routers GL.iNet, es compatible con OpenVPN y WireGuard. Además, también es compatible con Tor.
 
@@ -103,36 +115,6 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 
     * [Cómo configurar Tor](../../interface_guide/tor.md)
 
----
-
-## Red inalámbrica y clientes {#wireless-and-clients}
-
-=== "Wireless"
-
-    La página Wireless le permite configurar ajustes para las redes Wi-Fi de 5 GHz y 2,4 GHz, incluyendo activar o desactivar el Wi-Fi, ajustar la potencia TX, definir el nombre de la red Wi-Fi (SSID), activar o desactivar el BSSID aleatorio, seleccionar el modo de seguridad Wi-Fi, configurar la contraseña Wi-Fi, ajustar la visibilidad del SSID y elegir el modo Wi-Fi, el ancho de banda y el canal.
-
-    Para configurar Wireless, consulte [Wireless](../../interface_guide/wireless.md).
-
-=== "Clients"
-
-    La página Clients muestra información sobre los dispositivos conectados. Para cada cliente, se muestra el nombre del dispositivo, el tipo de conexión (es decir, mediante ethernet o Wi-Fi), las direcciones IP y MAC, las velocidades de descarga y subida, el tráfico total y la posibilidad de bloquear el cliente o realizar otras acciones.
-
-    Para configurar Clients, consulte [Clients](../../interface_guide/clients.md).
-
-## Servicios en la nube {#cloud-services}
-
-=== "GoodCloud"
-
-    El servicio GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} proporciona una forma sencilla de acceder de forma remota a los routers GL.iNet y gestionarlos.
-
-    Para configurar GoodCloud, consulte [GoodCloud](../../interface_guide/cloud.md).
-
-=== "AstroWarp"
-
-    Esta función está disponible a partir del firmware v4.7.
-
-    AstroWarp es una plataforma de red avanzada diseñada para ofrecer redes remotas y gestión remota de dispositivos sin interrupciones. Creada específicamente para integrarse con routers GL.iNet, AstroWarp admite una gestión integral de dispositivos en redes completas, lo que permite controlar tanto los dispositivos superiores como los inferiores. Con un enfoque centrado en la gestión de toda la red y compatibilidad futura con control a nivel de hardware, AstroWarp ofrece una solución más sólida y fiable para gestionar dispositivos y mantener redes seguras y estables.
-
 ## Aplicaciones {#applications}
 
 === "Plug-ins"
@@ -143,13 +125,19 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 
     Dynamic DNS (DDNS) detecta y actualiza automáticamente en tiempo real la dirección IP asociada a un dominio. Asigna un nombre de dominio a la dirección IP pública dinámica de su router, de modo que pueda acceder a su red de forma remota sin necesidad de una dirección IP estática. Para configurar Dynamic DNS, consulte [Dynamic DNS](../../interface_guide/ddns.md).
 
----
+=== "GoodCloud"
+
+    El servicio GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} proporciona una forma sencilla de acceder de forma remota a los routers GL.iNet y gestionarlos.
+    
+    Para configurar GoodCloud, consulte [GoodCloud](../../interface_guide/cloud.md).
 
 === "AdGuard Home"
 
     AdGuard Home es una herramienta de terceros que bloquea anuncios y rastreadores para mantenerle protegido.
-
+    
     Para saber cómo activar AdGuard Home, consulte [AdGuard Home](../../interface_guide/adguardhome.md).
+
+---
 
 === "Parental Control"
 
@@ -157,17 +145,15 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 
     Para configurar el control parental, consulte [Parental controls](../../interface_guide/parental_control.md).
 
-=== "Tailscale"
-
-    Tailscale es un servicio VPN que le permite acceder a sus dispositivos y aplicaciones desde cualquier lugar. Para configurar Tailscale, consulte [Tailscale](../../interface_guide/tailscale.md).
-
 === "ZeroTier"
 
     ZeroTier es un servicio VPN que le permite conectar sus dispositivos a una red virtual. Para configurar ZeroTier, consulte [ZeroTier](../../interface_guide/zerotier.md).
 
----
+=== "Tailscale"
 
-## Configuración de red {#network-settings}
+    Tailscale es un servicio VPN que le permite acceder a sus dispositivos y aplicaciones desde cualquier lugar. Para configurar Tailscale, consulte [Tailscale](../../interface_guide/tailscale.md).
+
+## Network {#network}
 
 === "Firewall"
 
@@ -196,8 +182,6 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 
     Para ver instrucciones detalladas de configuración y más información, consulte [LAN](../../interface_guide/lan.md).
 
----
-
 === "Guest Network"
 
     La página Guest Network le permite crear y gestionar una red independiente para sus invitados, proporcionándoles acceso a Internet mientras mantiene segura su red principal. Entre las funciones principales de esta página se incluyen:
@@ -206,8 +190,10 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
     * DHCP: configure el protocolo Dynamic Host Configuration Protocol para la red de invitados, asignando automáticamente direcciones IP a los dispositivos que se conecten a ella.
 
     La red de invitados proporciona acceso a Internet a los invitados y aísla su tráfico de la red principal para reducir los posibles efectos en su seguridad y rendimiento.
-
+    
     Para ver instrucciones detalladas de configuración y más información, consulte [Guest Network](../../interface_guide/guest_network.md).
+
+---
 
 === "DNS"
 
@@ -231,8 +217,6 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
     * WDS (Wireless Distribution System): es similar a Extender; elija WDS si el router principal es compatible con el modo WDS.
 
     Para ver instrucciones detalladas de configuración y más información, consulte [Network Mode](../../interface_guide/network_mode.md).
-
----
 
 === "IPv6"
 
@@ -259,11 +243,11 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 
     Para ver instrucciones detalladas de configuración y más información, consulte [MAC Address](../../interface_guide/mac_address.md).
 
+---
+
 === "Drop-in Gateway"
 
     Drop-in Gateway amplía la funcionalidad del router principal con funciones que quizá no tenga, como AdGuard Home, DNS cifrado y VPN. Para configurar Drop-in Gateway, consulte [Cómo configurar Drop-in Gateway](../../tutorials/how_to_set_up_drop_in_gateway.md).
-
----
 
 === "IGMP Snooping"
 
@@ -290,9 +274,7 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 
     Para ver instrucciones detalladas de configuración y más información, consulte [NAT Settings](../../interface_guide/nat_settings.md).
 
----
-
-## Configuración del sistema {#system-settings}
+## Sistema {#system}
 
 === "Overview"
 
@@ -327,18 +309,18 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
     * Reinicio programado: configure el router para que se reinicie automáticamente en intervalos específicos, lo que ayuda a mantener un rendimiento y una estabilidad óptimos.
     * Programación del estado del Wi-Fi de 5 GHz: cree un horario para activar o desactivar la banda Wi-Fi de 5 GHz en momentos concretos, optimizando el uso de la red y la eficiencia energética.
     * Programación del estado del Wi-Fi de 2,4 GHz: establezca un horario para controlar la banda Wi-Fi de 2,4 GHz, permitiendo gestionar mejor la disponibilidad de la red y el consumo energético.
-
+    
     Estas opciones de programación le proporcionan un mayor control sobre el funcionamiento del router, asegurando que se adapte a sus necesidades y preferencias.
 
     Para ver instrucciones detalladas de configuración y más información, consulte [Scheduled Tasks](../../interface_guide/scheduled_tasks.md).
-
----
 
 === "Time Zone"
 
     La página Time Zone le permite establecer la zona horaria correcta para el router, garantizando que todas las tareas programadas, los registros y los eventos del sistema tengan marcas de tiempo precisas según su hora local.
 
     Para ver instrucciones detalladas de configuración y más información, consulte [Time Zone](../../interface_guide/time_zone.md).
+
+---
 
 === "Log"
 
@@ -366,8 +348,6 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 
     Para ver instrucciones detalladas de configuración y más información, consulte [Security](../../interface_guide/security.md).
 
----
-
 === "Reset Firmware"
 
     La página Reset Firmware le permite restablecer la versión actual del firmware del router a su configuración predeterminada, borrando todas las configuraciones personalizadas. Este proceso restaurará el router a la configuración predeterminada de la versión de firmware instalada en ese momento. Puede resultar útil para solucionar problemas persistentes o para comenzar de nuevo con la configuración predeterminada del firmware actual.
@@ -379,4 +359,3 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
     La página Advanced Settings ofrece acceso a opciones de configuración avanzada a través de la interfaz OpenWrt LuCI, lo que permite a los usuarios con experiencia ajustar con precisión la configuración y las funciones del router más allá de las opciones básicas de la interfaz. Esto incluye configuraciones detalladas de red, ajustes del firewall y otras personalizaciones avanzadas del sistema.
 
     Para ver instrucciones detalladas de configuración y más información, consulte [Advanced Settings](../../interface_guide/advanced_settings.md).
-

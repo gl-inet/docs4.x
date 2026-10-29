@@ -32,17 +32,17 @@ Attiva l’interruttore per abilitare UPnP. I dispositivi e le applicazioni comp
 
 ![enable upnp](https://static.gl-inet.com/docs/router/en/4/interface_guide/upnp/upnp.png){class="glboxshadow"}
 
-- Client / Application: descrizione del client o dell’applicazione e indirizzo IP LAN del dispositivo richiedente.
+- **Client / Application**: descrizione del client o dell’applicazione e indirizzo IP LAN del dispositivo richiedente.
 
-- Protocol: protocollo di trasporto della mappatura, ad esempio TCP o UDP.
+- **Protocol**: protocollo di trasporto della mappatura, ad esempio `TCP` o `UDP`.
 
-- External Port: porta WAN per le connessioni in ingresso.
+- **External Port**: porta WAN per le connessioni in ingresso.
 
-- Internal Target: indirizzo IP LAN e porta di destinazione.
+- **Internal Target**: indirizzo IP LAN e porta di destinazione.
 
-- Lease: tempo rimanente prima della scadenza della mappatura. La durata predefinita del lease è di 7 giorni.
+- **Lease**: tempo rimanente prima della scadenza della mappatura. La durata predefinita del lease è di 7 giorni.
 
-- Action: fai clic sull’icona del cestino per eliminare la mappatura. Il client o l’applicazione può richiederla di nuovo se è ancora in esecuzione.
+- **Action**: fai clic sull’icona del cestino per eliminare la mappatura. Il client o l’applicazione può richiederla di nuovo se è ancora in esecuzione.
 
 Le mappature delle porte attive vengono rimosse quando il client le rilascia o quando scadono i lease. Fai clic su **Refresh** per visualizzare le mappature delle porte più recenti.
 

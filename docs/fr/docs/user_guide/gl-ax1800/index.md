@@ -97,9 +97,37 @@ Configurez votre Flint à l'aide de l'une des méthodes de connexion Internet pr
 
     Pour des instructions détaillées, consultez [Se connecter à Internet via le réseau cellulaire](../../interface_guide/internet_cellular.md).
 
-## Configurer un VPN {#how-to-set-up-a-vpn}
+---
 
-Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre votre appareil et le serveur VPN. Il ajoute une couche supplémentaire de confidentialité et de sécurité (client VPN) et permet d'accéder à un réseau distant (serveur VPN). Flint prend en charge OpenVPN, WireGuard et Tor.
+## Sans fil {#wireless}
+
+La page Wireless vous permet de configurer les paramètres des réseaux Wi‑Fi 5GHz et 2.4GHz, notamment l'activation du Wi‑Fi, le réglage de la puissance TX, la définition du nom du réseau Wi‑Fi (SSID), l'activation d'un BSSID aléatoire, le choix du mode de sécurité Wi‑Fi et du mot de passe, la configuration de la visibilité du SSID, ainsi que le mode Wi‑Fi, la bande passante et le canal.
+
+Pour configurer le réseau sans fil, consultez [Wireless](../../interface_guide/wireless_v4.8.md).
+
+## Clients {#clients}
+
+La page Clients affiche les informations sur les appareils connectés. Pour chaque client, elle indique le nom, les adresses IP et MAC, les vitesses de téléchargement et d'envoi, le trafic total, et permet de bloquer le client ou d'effectuer d'autres actions.
+
+Pour configurer les clients, consultez [Clients](../../interface_guide/clients.md).
+
+## Services cloud {#cloud-services}
+
+=== "GoodCloud"
+
+    Le service GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} offre un moyen simple et pratique d'accéder à distance aux routeurs GL.iNet et de les gérer.
+    
+    Pour configurer GoodCloud, consultez [GoodCloud](../../interface_guide/cloud.md).
+
+=== "AstroWarp"
+
+    AstroWarp est une plateforme réseau avancée conçue pour offrir une mise en réseau à distance fluide et une gestion à distance des appareils. Spécialement conçue pour l'intégration avec les routeurs GL.iNet, AstroWarp prend en charge une gestion complète des appareils à l'échelle de réseaux entiers, permettant le contrôle des équipements en amont comme en aval. En mettant l'accent sur la gestion réseau globale et sur une future prise en charge du contrôle au niveau matériel, AstroWarp offre une solution plus robuste et plus fiable pour gérer les appareils et maintenir des réseaux sûrs et stables.
+
+    Pour configurer AstroWarp, consultez [AstroWarp](../../interface_guide/astrowarp.md).
+
+## VPN {#vpn}
+
+Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre votre appareil et le serveur VPN. Il ajoute une couche supplémentaire de confidentialité et de sécurité (client VPN) et vous permet d'accéder à un réseau distant (serveur VPN). Flint prend en charge OpenVPN et WireGuard.
 
 === "OpenVPN"
 
@@ -115,39 +143,95 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
     * [Comment configurer un client WireGuard](../../interface_guide/wireguard_client.md)
     * [Comment configurer un serveur WireGuard](../../interface_guide/wireguard_server.md)
 
-=== "Tor"
+## Réseau {#network}
 
-    Tor, abréviation de The Onion Router, est un réseau axé sur la confidentialité qui permet une communication anonyme sur Internet. Il fait transiter le trafic Internet via une série de serveurs exploités par des bénévoles (nœuds) afin de masquer la localisation et l'utilisation de l'utilisateur, rendant plus difficile la traçabilité des activités en ligne.
+=== "Multi-WAN"
+
+    Multi-WAN est une fonctionnalité réseau qui permet d'utiliser plusieurs connexions Internet sur votre routeur en même temps (par exemple Cellular, Repeater et Ethernet). Si votre connexion Internet actuelle tombe en panne, le routeur bascule automatiquement vers une autre connexion. Cela garantit un accès Internet fluide et ininterrompu.
+
+    Pour configurer Multi-WAN, consultez [Multi-WAN](../../interface_guide/multi-wan.md).
+
+=== "LAN"
+
+    Le LAN, ou Local Area Network, est un réseau qui relie des ordinateurs et des appareils dans une zone géographique limitée, comme un domicile ou un bureau. Il permet un transfert de données à haut débit et le partage de ressources, afin que les appareils puissent communiquer efficacement entre eux.
     
-    * [Comment configurer Tor](../../interface_guide/tor.md).
+    Pour configurer le LAN, consultez [LAN](../../interface_guide/lan.md).
 
-## Réseau sans fil et clients {#wireless-and-clients}
+=== "Guest Network"
 
-=== "Wireless"
+    Cette page vous permet de définir un sous-réseau dans les plages d'adresses privées IPv4 192.168.0.0/16, 172.16.0.0/12 ou 10.0.0.0/8, de spécifier les adresses IP de la passerelle et du masque de sous-réseau, et de configurer des paramètres de sécurité comme l'isolation AP pour le réseau invité.
 
-    La page Wireless vous permet de configurer les paramètres des réseaux Wi‑Fi 5GHz et 2.4GHz, notamment l'activation du Wi‑Fi, le réglage de la puissance TX, la définition du nom du réseau Wi‑Fi (SSID), l'activation d'un BSSID aléatoire, le choix du mode de sécurité Wi‑Fi et du mot de passe, la configuration de la visibilité du SSID, ainsi que le mode Wi‑Fi, la bande passante et le canal.
+    Pour configurer le réseau invité, consultez [Guest Network](../../interface_guide/guest_network.md).
 
-    Pour configurer le réseau sans fil, consultez [Wireless](../../interface_guide/wireless.md).
+---
 
-=== "Clients"
+=== "DNS"
 
-    La page Clients affiche les informations sur les appareils connectés. Pour chaque client, elle indique le nom, les adresses IP et MAC, les vitesses de téléchargement et d'envoi, le trafic total, et permet de bloquer le client ou d'effectuer d'autres actions.
+    La page DNS vous permet de définir des serveurs DNS personnalisés, d’activer la protection contre les attaques de rebinding DNS, de remplacer les paramètres DNS de tous les clients et d’autoriser les DNS personnalisés à remplacer les DNS VPN. Vous pouvez utiliser les serveurs DNS obtenus automatiquement auprès des appareils en amont ou spécifier manuellement des serveurs DNS personnalisés.
 
-    Pour configurer les clients, consultez [Clients](../../interface_guide/clients.md).
+    Pour configurer le DNS, consultez [DNS](../../interface_guide/dns.md).
 
-## Services cloud {#cloud-services}
+=== "Ethernet Port"
 
-=== "GoodCloud"
+    La page Ethernet Port vous permet de configurer les ports WAN et LAN, de définir l'interface WAN/LAN sur Ethernet, de spécifier le mode MAC et l'adresse MAC de l'interface WAN, et d'afficher la vitesse négociée du port réseau.
 
-    Le service GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} offre un moyen simple et pratique d'accéder à distance aux routeurs GL.iNet et de les gérer.
+    Pour configurer le Ethernet Port, consultez [Ethernet Port](../../interface_guide/ethernet_port.md).
+
+=== "IPv6"
+
+    IPv6, ou Internet Protocol version 6, est la version la plus récente du protocole Internet conçue pour remplacer IPv4. Elle offre un espace d'adressage bien plus vaste, permettant un nombre pratiquement illimité d'adresses IP uniques, ce qui est essentiel pour répondre à l'augmentation du nombre d'appareils connectés à Internet.
     
-    Pour configurer GoodCloud, consultez [GoodCloud](../../interface_guide/cloud.md).
+    Pour configurer IPv6, consultez [IPV6](../../interface_guide/ipv6.md).
 
-=== "AstroWarp"
+---
 
-    AstroWarp est une plateforme réseau avancée conçue pour offrir une mise en réseau à distance fluide et une gestion à distance des appareils. Spécialement conçue pour l'intégration avec les routeurs GL.iNet, AstroWarp prend en charge une gestion complète des appareils à l'échelle de réseaux entiers, permettant le contrôle des équipements en amont comme en aval. En mettant l'accent sur la gestion réseau globale et sur une future prise en charge du contrôle au niveau matériel, AstroWarp offre une solution plus robuste et plus fiable pour gérer les appareils et maintenir des réseaux sûrs et stables.
+=== "IGMP Snooping"
 
-    Pour configurer AstroWarp, consultez [AstroWarp](../../interface_guide/astrowarp.md).
+    IGMP snooping est une technique d'optimisation réseau utilisée dans les commutateurs Ethernet pour gérer et contrôler le trafic multicast.
+    
+    Pour configurer IGMP Snooping, consultez [IGMP Snooping](../../interface_guide/igmp_snooping.md).
+
+=== "Network Mode"
+
+    Le mode réseau désigne les paramètres de configuration qui déterminent la manière dont un appareil se connecte à un réseau et communique avec les autres appareils.
+    
+    Pour configurer le mode réseau, consultez [Network Mode](../../interface_guide/network_mode.md).
+
+=== "Drop-in Gateway"
+
+    Drop-in Gateway étend les fonctionnalités de votre routeur principal avec des fonctions qu'il ne propose peut-être pas, notamment AdGuard Home, le DNS chiffré et le VPN.
+    
+    Pour configurer Drop-in Gateway, consultez [Comment configurer Drop-in Gateway](../../tutorials/how_to_set_up_drop_in_gateway.md).
+
+## Contrôle du trafic {#flow-control}
+
+Parental Control aide à gérer et à contrôler les appareils de vos enfants, notamment en limitant leur temps d’écran et l’accès à certains contenus.
+
+Pour configurer le contrôle parental, consultez [Parental Control](../../interface_guide/parental_control.md).
+
+## Sécurité {#security}
+
+=== "Port Forwarding"
+
+    Port forwarding permet à des serveurs et appareils distants sur Internet d'accéder aux appareils d'un réseau privé.
+    
+    Pour configurer la redirection de ports, consultez [Port Forwarding](../../interface_guide/port_forwarding.md).
+
+=== "Management Control"
+
+    Management Control vous permet de configurer différents paramètres de sécurité afin de protéger votre réseau et votre routeur contre les accès non autorisés. Cette page comprend les options suivantes :
+
+    * Local Access Control : gérez et restreignez l'accès à l'interface du routeur depuis les appareils connectés à votre réseau local.
+    * Remote Access Control : configurez et restreignez l'accès à l'interface du routeur depuis des emplacements distants via Internet, pour une meilleure protection contre les menaces externes.
+    * Open Ports on Router : contrôlez les ports ouverts sur le routeur afin de limiter les vulnérabilités potentielles et les accès non autorisés.
+
+    Ces paramètres vous aident à maintenir un environnement réseau sécurisé, en protégeant à la fois votre routeur et les appareils connectés.
+
+=== "NAT Mode"
+
+    La page NAT Mode permet d’activer ou de désactiver les fonctions Full Cone NAT et SIP ALG (Application Layer Gateway).
+
+    Pour configurer les paramètres NAT, consultez [NAT Mode](../../interface_guide/nat_settings.md).
 
 ## Applications {#applications}
 
@@ -177,11 +261,11 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
     
     Pour configurer AdGuard Home, consultez [AdGuard Home](../../interface_guide/adguardhome.md).
 
-=== "Parental Control"
+=== "Tailscale"
 
-    Parental Control est conçu pour vous aider à gérer et contrôler les appareils de vos enfants. Il comprend notamment la limitation du temps d'écran et la restriction de l'accès à certains contenus.
-
-    Pour configurer le contrôle parental, consultez [Parental controls](../../interface_guide/parental_control.md).
+    Tailscale est un service VPN qui vous permet d'accéder à vos appareils et à vos applications où que vous soyez.
+    
+    Pour configurer Tailscale, consultez [Tailscale](../../interface_guide/tailscale.md).
 
 === "ZeroTier"
 
@@ -189,87 +273,13 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
     
     Pour configurer ZeroTier, consultez [ZeroTier](../../interface_guide/zerotier.md).
 
-=== "Tailscale"
+=== "Tor"
 
-    Tailscale est un service VPN qui vous permet d'accéder à vos appareils et à vos applications où que vous soyez.
+    Tor, abréviation de The Onion Router, est un réseau axé sur la confidentialité qui permet une communication anonyme sur Internet. Il fait transiter le trafic Internet via une série de serveurs exploités par des bénévoles (nœuds) afin de masquer la localisation et l'utilisation de l'utilisateur, rendant plus difficile la traçabilité des activités en ligne.
     
-    Pour configurer Tailscale, consultez [Tailscale](../../interface_guide/tailscale.md).
+    * [Comment configurer Tor](../../interface_guide/tor.md).
 
-## Paramètres réseau {#network-settings}
-
-=== "Port forwarding"
-
-    Port forwarding permet à des serveurs et appareils distants sur Internet d'accéder aux appareils d'un réseau privé.
-    
-    Pour configurer le transfert de ports, consultez [Port Forwards](../../interface_guide/port_forwarding.md).
-
-=== "Multi-WAN"
-
-    Multi-WAN est une fonctionnalité réseau qui permet d'utiliser plusieurs connexions Internet sur votre routeur en même temps (par exemple Cellular, Repeater et Ethernet). Si votre connexion Internet actuelle tombe en panne, le routeur bascule automatiquement vers une autre connexion. Cela garantit un accès Internet fluide et ininterrompu.
-
-    Pour configurer Multi-WAN, consultez [Multi-WAN](../../interface_guide/multi-wan.md).
-
-=== "LAN"
-
-    Le LAN, ou Local Area Network, est un réseau qui relie des ordinateurs et des appareils dans une zone géographique limitée, comme un domicile ou un bureau. Il permet un transfert de données à haut débit et le partage de ressources, afin que les appareils puissent communiquer efficacement entre eux.
-    
-    Pour configurer le LAN, consultez [Lan](../../interface_guide/lan.md).
-
----
-
-=== "Guest Network"
-
-    Cette page vous permet de définir un sous-réseau dans les plages d'adresses privées IPv4 192.168.0.0/16, 172.16.0.0/12 ou 10.0.0.0/8, de spécifier les adresses IP de la passerelle et du masque de sous-réseau, et de configurer des paramètres de sécurité comme l'isolation AP pour le réseau invité.
-
-    Pour configurer le réseau invité, consultez [Guest Network](../../interface_guide/guest_network.md).
-
-=== "DNS"
-
-    La page DNS vous permet de définir des serveurs DNS personnalisés, d’activer la protection contre les attaques de rebinding DNS, de remplacer les paramètres DNS de tous les clients et d’autoriser les DNS personnalisés à remplacer les DNS VPN. Vous pouvez utiliser les serveurs DNS obtenus automatiquement auprès des appareils en amont ou spécifier manuellement des serveurs DNS personnalisés.
-
-    Pour configurer le DNS, consultez [DNS](../../interface_guide/dns.md).
-
-=== "Port Management"
-
-    La page Port Management vous permet de configurer les ports WAN et LAN, d'attribuer l'interface WAN/LAN à Ethernet, de définir le mode MAC et l'adresse MAC de l'interface WAN, et d'afficher la vitesse négociée du port réseau.
-
-    Pour gérer les ports Ethernet, consultez [Port Management](../../interface_guide/ethernet_port.md).
-
----
-
-=== "Network Mode"
-
-    Le mode réseau désigne les paramètres de configuration qui déterminent la manière dont un appareil se connecte à un réseau et communique avec les autres appareils.
-    
-    Pour configurer le mode réseau, consultez [Network Mode](../../interface_guide/network_mode.md).
-
-=== "IPv6"
-
-    IPv6, ou Internet Protocol version 6, est la version la plus récente du protocole Internet conçue pour remplacer IPv4. Elle offre un espace d'adressage bien plus vaste, permettant un nombre pratiquement illimité d'adresses IP uniques, ce qui est essentiel pour répondre à l'augmentation du nombre d'appareils connectés à Internet.
-    
-    Pour configurer IPv6, consultez [IPV6](../../interface_guide/ipv6.md).
-
-=== "Drop-in Gateway"
-
-    Drop-in Gateway étend les fonctionnalités de votre routeur principal avec des fonctions qu'il ne propose peut-être pas, notamment AdGuard Home, le DNS chiffré et le VPN.
-    
-    Pour configurer Drop-in Gateway, consultez [Comment configurer Drop-in Gateway](../../tutorials/how_to_set_up_drop_in_gateway.md).
-
----
-
-=== "IGMP Snooping"
-
-    IGMP snooping est une technique d'optimisation réseau utilisée dans les commutateurs Ethernet pour gérer et contrôler le trafic multicast.
-    
-    Pour configurer IGMP Snooping, consultez [IGMP Snooping](../../interface_guide/igmp_snooping.md).
-
-=== "NAT Settings"
-
-    La page NAT Settings vous permet d'activer ou de désactiver les fonctions Full Cone NAT et SIP ALG (Application Layer Gateway).
-
-    Pour configurer les paramètres NAT, consultez [NAT Settings](../../interface_guide/nat_settings.md).
-
-## Paramètres système {#system-settings}
+## Système {#system}
 
 === "Overview"
 
@@ -285,6 +295,16 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
     Ces fonctions fournissent des informations et des contrôles essentiels pour vous aider à gérer et surveiller efficacement le fonctionnement de votre routeur.
 
     Pour des instructions détaillées, consultez [Overview](../../interface_guide/system_overview.md).
+
+=== "Admin Password"
+
+    La page Admin Password vous permet de définir ou de modifier le mot de passe de l'interface d'administration du routeur.
+
+    Le mot de passe administrateur doit respecter les exigences suivantes :
+
+    * Minimum 10 caractères et maximum 63 caractères.
+    * Les lettres (sensibles à la casse), les chiffres et les symboles `` ! @ # $ % ^ & * ( ) _ + - = , . > < | ? / \ [ ] { } : ; " ' ` ~ `` sont autorisés.
+    * Au moins deux des catégories suivantes sont requises : lettres majuscules, lettres minuscules, chiffres et symboles.
 
 === "Upgrade"
 
@@ -318,6 +338,12 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     Pour des instructions détaillées, consultez [Time Zone](../../interface_guide/time_zone.md).
 
+=== "Reset Firmware"
+
+    La page Reset Firmware vous permet de réinitialiser la version actuelle du firmware de votre routeur à ses paramètres par défaut, en effaçant toutes les configurations personnalisées. Cette opération restaure les paramètres par défaut de la version du firmware actuellement installée. Cela peut être utile pour résoudre des problèmes persistants ou repartir d'une configuration propre du firmware actuel.
+
+    Pour des instructions détaillées, consultez [Reset Firmware](../../interface_guide/reset_firmware.md).
+
 === "Log"
 
     La page Log donne accès à différents journaux qui enregistrent les activités et événements du routeur, ce qui facilite le dépannage et le suivi des performances. Cette page comprend :
@@ -331,27 +357,6 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
     En outre, cette page propose un bouton Export Log, qui vous permet d'exporter tous les journaux collectés pour une analyse par le support technique. Cette fonction est précieuse pour diagnostiquer des problèmes complexes et obtenir une assistance professionnelle.
 
     Pour des instructions détaillées, consultez [Log](../../interface_guide/log.md).
-
-=== "Security"
-
-    La page Security vous permet de configurer divers paramètres de sécurité afin de protéger votre réseau et votre routeur contre les accès non autorisés. Cette page comprend notamment les options suivantes :
-
-    * Admin Password : définissez ou modifiez le mot de passe de l'interface d'administration du routeur afin que seuls les utilisateurs autorisés puissent modifier les paramètres.
-    * Local Access Control : gérez et restreignez l'accès à l'interface du routeur depuis les appareils connectés à votre réseau local.
-    * Remote Access Control : configurez et restreignez l'accès à l'interface du routeur depuis des emplacements distants via Internet, pour une meilleure protection contre les menaces externes.
-    * Open Ports on Router : contrôlez les ports ouverts sur le routeur afin de limiter les vulnérabilités potentielles et les accès non autorisés.
-
-    Ces paramètres vous aident à maintenir un environnement réseau sécurisé, en protégeant à la fois votre routeur et les appareils connectés.
-
-    Pour des instructions détaillées, consultez [Security](../../interface_guide/security.md).
-
----
-
-=== "Reset Firmware"
-
-    La page Reset Firmware vous permet de réinitialiser la version actuelle du firmware de votre routeur à ses paramètres par défaut, en effaçant toutes les configurations personnalisées. Cette opération restaure les paramètres par défaut de la version du firmware actuellement installée. Cela peut être utile pour résoudre des problèmes persistants ou repartir d'une configuration propre du firmware actuel.
-
-    Pour des instructions détaillées, consultez [Reset Firmware](../../interface_guide/reset_firmware.md).
 
 === "Advanced Settings"
 

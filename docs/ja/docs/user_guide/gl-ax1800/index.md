@@ -97,9 +97,37 @@ Wi-Fi 情報を確認する際、Wi-Fi 情報を変更した場合は、更新�
 
     詳細な手順については、[Cellular 経由でインターネットに接続する](../../interface_guide/internet_cellular.md)を参照してください。
 
-## VPN のセットアップ方法 {#how-to-set-up-a-vpn}
+---
 
-VPN（仮想プライベートネットワーク）は、デバイスと VPN サーバー間に安全で暗号化された通信を作成します。プライバシーとセキュリティを強化し（VPN クライアント）、リモートネットワークへのアクセス（VPN サーバー）も可能にします。Flint は OpenVPN、WireGuard、Tor に対応しています。
+## Wireless {#wireless}
+
+Wireless ページでは、5 GHz と 2.4 GHz の Wi-Fi ネットワークの設定を行えます。Wi-Fi の有効化、送信出力（TX power）の設定、Wi-Fi 名（SSID）の指定、ランダム化 BSSID の有効化、Wi-Fi セキュリティモードとパスワードの選択、SSID の表示設定、Wi-Fi モード、帯域幅、チャンネルの選択が含まれます。
+
+Wireless の設定については、[Wireless](../../interface_guide/wireless_v4.8.md)を参照してください。
+
+## Clients {#clients}
+
+Clients ページには、接続中のデバイス情報が表示されます。各クライアントについて、名前、IP アドレス、MAC アドレス、ダウンロード/アップロード速度、総トラフィックが表示され、クライアントのブロックやその他の操作も行えます。
+
+Clients の設定については、[Clients](../../interface_guide/clients.md)を参照してください。
+
+## クラウドサービス {#cloud-services}
+
+=== "GoodCloud"
+
+    GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} サービスは、GL.iNet ルーターへリモートアクセスして管理するための簡単な方法を提供します。
+    
+    GoodCloud の設定については、[GoodCloud](../../interface_guide/cloud.md)を参照してください。
+
+=== "AstroWarp"
+
+    AstroWarp は、シームレスなリモートネットワークとリモートデバイス管理を提供する高度なネットワーキングプラットフォームです。GL.iNet ルーター連携向けに構築されており、ネットワーク全体にわたる包括的なデバイス管理をサポートし、上位デバイスと下位デバイスの両方を制御できます。ネットワーク全体の管理と将来的なハードウェアレベル制御を重視し、デバイス管理と安全で安定したネットワーク維持のための、より堅牢で信頼性の高いソリューションを提供します。
+
+    AstroWarp の設定については、[AstroWarp](../../interface_guide/astrowarp.md)を参照してください。
+
+## VPN {#vpn}
+
+VPN（仮想プライベートネットワーク）は、デバイスと VPN サーバー間に安全で暗号化された通信を作成します。プライバシーとセキュリティを強化し（VPN クライアント）、リモートネットワークへのアクセス（VPN サーバー）も可能にします。Flint は OpenVPN と WireGuard に対応しています。
 
 === "OpenVPN" 
 
@@ -115,39 +143,95 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
     * [WireGuard クライアントの設定方法](../../interface_guide/wireguard_client.md)
     * [WireGuard サーバーの設定方法](../../interface_guide/wireguard_server.md)
 
-=== "Tor"
+## ネットワーク {#network}
 
-    Tor は The Onion Router の略で、インターネット上で匿名通信を可能にするプライバシー重視のネットワークです。インターネットトラフィックを複数のボランティア運営サーバー（ノード）経由でルーティングし、ユーザーの場所や利用状況を分かりにくくすることで、オンライン活動の追跡を困難にします。
+=== "Multi-WAN"
+
+    Multi-WAN は、Cellular、Repeater、Ethernet など複数のインターネット接続を同時に設定できるネットワーク機能です。現在のインターネット接続に障害が発生した場合、ルーターは自動的に別のインターネット接続へ切り替えます。これにより、スムーズで途切れにくいインターネットアクセスを維持できます。
+
+    Multi-WAN の設定については、[Multi-WAN](../../interface_guide/multi-wan.md)を参照してください。
+
+=== "LAN"
+
+    LAN（Local Area Network）は、自宅やオフィスなど限られた範囲内でコンピューターやデバイスを接続するネットワークです。高速なデータ転送とリソース共有を可能にし、デバイス同士が効率的に通信できます。
     
-    * [Tor の設定方法](../../interface_guide/tor.md)
+    LANの設定については、[LAN](../../interface_guide/lan.md)を参照してください。
 
-## Wireless と Clients {#wireless-and-clients}
+=== "Guest Network"
 
-=== "Wireless"
+    IPv4 プライベートアドレス範囲 192.168.0.0/16、172.16.0.0/12、10.0.0.0/8 内でサブネットを設定し、ゲートウェイとネットマスク IP アドレスを指定し、ゲストネットワーク向けに AP isolation などのセキュリティ設定を構成できます。
 
-    Wireless ページでは、5 GHz と 2.4 GHz の Wi-Fi ネットワークの設定を行えます。Wi-Fi の有効化、送信出力（TX power）の設定、Wi-Fi 名（SSID）の指定、ランダム化 BSSID の有効化、Wi-Fi セキュリティモードとパスワードの選択、SSID の表示設定、Wi-Fi モード、帯域幅、チャンネルの選択が含まれます。
+    ゲストネットワークの設定については、[ゲストネットワーク](../../interface_guide/guest_network.md)を参照してください。
 
-    Wireless の設定については、[Wireless](../../interface_guide/wireless.md)を参照してください。
+---
 
-=== "Clients"
+=== "DNS"
 
-    Clients ページには、接続中のデバイス情報が表示されます。各クライアントについて、名前、IP アドレス、MAC アドレス、ダウンロード/アップロード速度、総トラフィックが表示され、クライアントのブロックやその他の操作も行えます。
+    DNSページでは、カスタムDNSサーバーの設定、DNSリバインディング攻撃対策の有効化、すべてのクライアントのDNS設定の上書き、およびカスタムDNSによるVPN DNSの上書きの許可を設定できます。上流デバイスから自動的に取得したDNSサーバーを使用するか、カスタムDNSサーバーを手動で指定できます。
 
-    Clients の設定については、[Clients](../../interface_guide/clients.md)を参照してください。
+    DNS の設定については、[DNS](../../interface_guide/dns.md)を参照してください。
 
-## クラウドサービス {#cloud-services}
+=== "Ethernet Port"
 
-=== "GoodCloud"
+    Ethernet Port ページでは、WAN/LAN ポートの設定、WAN/LAN インターフェースの Ethernet への設定、WAN インターフェースの MAC モードと MAC アドレスの指定、ネットワークポートのネゴシエート速度の確認を行えます。
 
-    GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} サービスは、GL.iNet ルーターへリモートアクセスして管理するための簡単な方法を提供します。
+    Ethernet Port の設定については、[Ethernet Port](../../interface_guide/ethernet_port.md)を参照してください。
+
+=== "IPv6"
+
+    IPv6（Internet Protocol version 6）は、IPv4 を置き換えるために設計された最新のインターネットプロトコルです。非常に大きなアドレス空間を提供し、インターネットに接続されるデバイス数の増加に対応するために必要な、ほぼ無制限の一意な IP アドレスを利用できます。
     
-    GoodCloud の設定については、[GoodCloud](../../interface_guide/cloud.md)を参照してください。
+    IPv6 の設定については、[IPV6](../../interface_guide/ipv6.md)を参照してください。
 
-=== "AstroWarp"
+---
 
-    AstroWarp は、シームレスなリモートネットワークとリモートデバイス管理を提供する高度なネットワーキングプラットフォームです。GL.iNet ルーター連携向けに構築されており、ネットワーク全体にわたる包括的なデバイス管理をサポートし、上位デバイスと下位デバイスの両方を制御できます。ネットワーク全体の管理と将来的なハードウェアレベル制御を重視し、デバイス管理と安全で安定したネットワーク維持のための、より堅牢で信頼性の高いソリューションを提供します。
+=== "IGMP Snooping"
 
-    AstroWarp の設定については、[AstroWarp](../../interface_guide/astrowarp.md)を参照してください。
+    IGMP スヌーピングは、Ethernet スイッチでマルチキャストトラフィックを管理・制御するためのネットワーク最適化技術です。
+    
+    IGMP Snooping の設定については、[IGMP Snooping](../../interface_guide/igmp_snooping.md)を参照してください。
+
+=== "Network Mode"
+
+    ネットワークモードは、デバイスがネットワークへ接続し、他のデバイスと通信する方法を決定する設定です。
+    
+    Network Mode の設定については、[Network Mode](../../interface_guide/network_mode.md)を参照してください。
+
+=== "Drop-in Gateway"
+
+    Drop-in Gateway は、AdGuard Home、暗号化 DNS、VPN など、メインルーターに備わっていない可能性のある機能を追加して、メインルーターの機能を拡張します。
+    
+    Drop-in Gateway の設定については、[How to set up drop-in gateway](../../tutorials/how_to_set_up_drop_in_gateway.md)を参照してください。
+
+## フロー制御 {#flow-control}
+
+Parental Controlは、子どものデバイスを管理および制御するための機能です。画面の使用時間を制限し、特定のコンテンツへのアクセスを制限できます。
+
+Parental Controlの設定については、[Parental Control](../../interface_guide/parental_control.md)を参照してください。
+
+## セキュリティ {#security}
+
+=== "Port Forwarding"
+
+    ポートフォワーディングは、インターネット上のリモートサーバーやデバイスからプライベートネットワーク内のデバイスへアクセスできるようにします。
+    
+    ポートフォワーディングを設定するには、[Port Forwarding](../../interface_guide/port_forwarding.md) を参照してください。
+
+=== "Management Control"
+
+    Management Controlでは、ネットワークとルーターを不正アクセスから保護するためのさまざまなセキュリティ設定を構成できます。このページには以下のオプションがあります：
+
+    * Local Access Control: ローカルネットワークに接続されたデバイスからルーターインターフェースへのアクセスを管理・制限します。
+    * Remote Access Control: インターネット経由のリモートロケーションからルーターインターフェースへのアクセスを設定・制限し、外部脅威に対するセキュリティを強化します。
+    * Open Ports on Router: ルーターで開いているポートを制御し、潜在的な脆弱性や不正アクセスを制限します。
+
+    これらの設定は、安全なネットワーク環境を維持し、ルーターと接続デバイスの両方を保護するのに役立ちます。
+
+=== "NAT Mode"
+
+    NAT Modeページでは、Full Cone NATとSIP ALG（Application Layer Gateway）機能を有効または無効にできます。
+
+    NAT設定については、[NAT Mode](../../interface_guide/nat_settings.md)を参照してください。
 
 ## アプリケーション {#applications}
 
@@ -177,11 +261,11 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
     
     AdGuard Home の設定については、[AdGuard Home](../../interface_guide/adguardhome.md)を参照してください。
 
-=== "Parental Control"
+=== "Tailscale"
 
-    Parental Control は、お子様のデバイスを管理・制御するための機能です。画面使用時間の制限や、特定コンテンツへのアクセス制限などが含まれます。
-
-    Parental Control の設定については、[Parental controls](../../interface_guide/parental_control.md)を参照してください。
+    Tailscale は、どこからでもデバイスやアプリケーションにアクセスできる VPN サービスです。
+    
+    Tailscale の設定については、[Tailscale](../../interface_guide/tailscale.md)を参照してください。
 
 === "ZeroTier"
 
@@ -189,87 +273,13 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
     
     ZeroTier の設定については、[ZeroTier](../../interface_guide/zerotier.md)を参照してください。
 
-=== "Tailscale"
+=== "Tor"
 
-    Tailscale は、どこからでもデバイスやアプリケーションにアクセスできる VPN サービスです。
+    Tor は The Onion Router の略で、インターネット上で匿名通信を可能にするプライバシー重視のネットワークです。インターネットトラフィックを複数のボランティア運営サーバー（ノード）経由でルーティングし、ユーザーの場所や利用状況を分かりにくくすることで、オンライン活動の追跡を困難にします。
     
-    Tailscale の設定については、[Tailscale](../../interface_guide/tailscale.md)を参照してください。
+    * [Tor の設定方法](../../interface_guide/tor.md)
 
-## ネットワーク設定 {#network-settings}
-
-=== "Port forwarding"
-
-    ポートフォワーディングは、インターネット上のリモートサーバーやデバイスからプライベートネットワーク内のデバイスへアクセスできるようにします。
-    
-    ポートフォワーディングの設定については、[Port Forwards](../../interface_guide/port_forwarding.md)を参照してください。
-
-=== "Multi-WAN"
-
-    Multi-WAN は、Cellular、Repeater、Ethernet など複数のインターネット接続を同時に設定できるネットワーク機能です。現在のインターネット接続に障害が発生した場合、ルーターは自動的に別のインターネット接続へ切り替えます。これにより、スムーズで途切れにくいインターネットアクセスを維持できます。
-
-    Multi-WAN の設定については、[Multi-WAN](../../interface_guide/multi-wan.md)を参照してください。
-
-=== "LAN"
-
-    LAN（Local Area Network）は、自宅やオフィスなど限られた範囲内でコンピューターやデバイスを接続するネットワークです。高速なデータ転送とリソース共有を可能にし、デバイス同士が効率的に通信できます。
-    
-    LAN の設定については、[Lan](../../interface_guide/lan.md)を参照してください。
-
----
-
-=== "Guest Network"
-
-    IPv4 プライベートアドレス範囲 192.168.0.0/16、172.16.0.0/12、10.0.0.0/8 内でサブネットを設定し、ゲートウェイとネットマスク IP アドレスを指定し、ゲストネットワーク向けに AP isolation などのセキュリティ設定を構成できます。
-
-    ゲストネットワークの設定については、[ゲストネットワーク](../../interface_guide/guest_network.md)を参照してください。
-
-=== "DNS"
-
-    DNSページでは、カスタムDNSサーバーの設定、DNSリバインディング攻撃対策の有効化、すべてのクライアントのDNS設定の上書き、およびカスタムDNSによるVPN DNSの上書きの許可を設定できます。上流デバイスから自動的に取得したDNSサーバーを使用するか、カスタムDNSサーバーを手動で指定できます。
-
-    DNS の設定については、[DNS](../../interface_guide/dns.md)を参照してください。
-
-=== "Port Management"
-
-    Port Management ページでは、WAN/LAN ポートの設定、WAN/LAN インターフェースの Ethernet への設定、WAN インターフェースの MAC モードと MAC アドレスの指定、ネットワークポートのネゴシエート速度の確認を行えます。
-
-    Ethernet ポートの管理については、[Port Management](../../interface_guide/ethernet_port.md)を参照してください。
-
----
-
-=== "Network Mode"
-
-    ネットワークモードは、デバイスがネットワークへ接続し、他のデバイスと通信する方法を決定する設定です。
-    
-    Network Mode の設定については、[Network Mode](../../interface_guide/network_mode.md)を参照してください。
-
-=== "IPv6"
-
-    IPv6（Internet Protocol version 6）は、IPv4 を置き換えるために設計された最新のインターネットプロトコルです。非常に大きなアドレス空間を提供し、インターネットに接続されるデバイス数の増加に対応するために必要な、ほぼ無制限の一意な IP アドレスを利用できます。
-    
-    IPv6 の設定については、[IPV6](../../interface_guide/ipv6.md)を参照してください。
-
-=== "Drop-in Gateway"
-
-    Drop-in Gateway は、AdGuard Home、暗号化 DNS、VPN など、メインルーターに備わっていない可能性のある機能を追加して、メインルーターの機能を拡張します。
-    
-    Drop-in Gateway の設定については、[How to set up drop-in gateway](../../tutorials/how_to_set_up_drop_in_gateway.md)を参照してください。
-
----
-
-=== "IGMP Snooping"
-
-    IGMP スヌーピングは、Ethernet スイッチでマルチキャストトラフィックを管理・制御するためのネットワーク最適化技術です。
-    
-    IGMP Snooping の設定については、[IGMP Snooping](../../interface_guide/igmp_snooping.md)を参照してください。
-
-=== "NAT Settings"
-
-    NAT Settings ページでは、Full Cone NAT と SIP ALG（Application Layer Gateway）機能の有効化または無効化を設定できます。
-
-    NAT 設定については、[NAT Settings](../../interface_guide/nat_settings.md)を参照してください。
-
-## システム設定 {#system-settings}
+## システム {#system}
 
 === "Overview"
 
@@ -285,6 +295,16 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
     これらの機能により、ルーターの動作を効果的に管理・監視するための重要な情報と制御を利用できます。
 
     詳細な手順については、[Overview](../../interface_guide/system_overview.md)を参照してください。
+
+=== "Admin Password"
+
+    Admin Passwordページでは、ルーターの管理インターフェースのパスワードを設定または変更できます。
+
+    管理者パスワードは、次の要件を満たす必要があります。
+
+    * 10文字以上63文字以下。
+    * 文字（大文字小文字を区別）、数字、記号`` ! @ # $ % ^ & * ( ) _ + - = , . > < | ? / \ [ ] { } : ; " ' ` ~ ``を使用できます。
+    * 大文字、小文字、数字、記号のうち少なくとも2種類が必要です。
 
 === "Upgrade"
 
@@ -318,6 +338,12 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
     詳細な手順については、[Time Zone](../../interface_guide/time_zone.md)を参照してください。
 
+=== "Reset Firmware"
+
+    Reset Firmware ページでは、現在のファームウェアバージョンをデフォルト設定へリセットし、すべてのカスタム設定を消去できます。この処理により、ルーターは現在インストールされているファームウェアバージョンのデフォルト設定に戻ります。継続的な問題のトラブルシューティングや、現在のファームウェアのデフォルト設定からやり直す場合に便利です。
+
+    詳細な手順については、[Reset Firmware](../../interface_guide/reset_firmware.md)を参照してください。
+
 === "Log"
 
     Log ページでは、トラブルシューティングやパフォーマンス監視に役立つ、ルーターの動作やイベントを記録した各種ログへアクセスできます。このページには次の項目があります。
@@ -331,27 +357,6 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
     さらに、このページには Export Log ボタンがあり、収集されたすべてのログをテクニカルサポート分析用にエクスポートできます。この機能は、複雑な問題の診断や専門的な支援を受ける際に役立ちます。
 
     詳細な手順については、[Log](../../interface_guide/log.md)を参照してください。
-
-=== "Security"
-
-    Security ページでは、不正アクセスからネットワークとルーターを保護するための各種セキュリティ設定を構成できます。このページには次のオプションがあります。
-
-    * Admin Password: ルーターの管理インターフェース用パスワードを設定または変更し、許可されたユーザーのみが設定を変更できるようにします。
-    * Local Access Control: ローカルネットワークに接続されたデバイスからルーターインターフェースへのアクセスを管理・制限します。
-    * Remote Access Control: インターネット経由のリモートロケーションからルーターインターフェースへのアクセスを設定・制限し、外部脅威に対するセキュリティを強化します。
-    * Open Ports on Router: ルーターで開いているポートを制御し、潜在的な脆弱性や不正アクセスを制限します。
-
-    これらの設定は、安全なネットワーク環境を維持し、ルーターと接続デバイスの両方を保護するのに役立ちます。
-
-    詳細な手順については、[Security](../../interface_guide/security.md)を参照してください。
-
----
-
-=== "Reset Firmware"
-
-    Reset Firmware ページでは、現在のファームウェアバージョンをデフォルト設定へリセットし、すべてのカスタム設定を消去できます。この処理により、ルーターは現在インストールされているファームウェアバージョンのデフォルト設定に戻ります。継続的な問題のトラブルシューティングや、現在のファームウェアのデフォルト設定からやり直す場合に便利です。
-
-    詳細な手順については、[Reset Firmware](../../interface_guide/reset_firmware.md)を参照してください。
 
 === "Advanced Settings"
 

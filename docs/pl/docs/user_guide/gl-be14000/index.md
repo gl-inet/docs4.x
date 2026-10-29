@@ -154,7 +154,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie międz
 
 === "Subnet"
 
-    Strona Subnet centralizuje zarządzanie LAN, Guest Network, IoT Network i niestandardowymi sieciami VLAN. Umożliwia tworzenie wielu podsieci i zarządzanie nimi w celu izolowania różnych typów urządzeń lub ruchu.
+    Ta strona umożliwia centralną konfigurację i zarządzanie sieciami **Main Network**, **Guest Network**, **IoT Network** oraz niestandardowymi **VLAN Networks**. Możesz tworzyć wiele podsieci i zarządzać nimi, aby izolować różne typy urządzeń lub ruchu.
 
     Szczegółowe informacje zawiera strona [Subnet](../../interface_guide/subnet.md).
 

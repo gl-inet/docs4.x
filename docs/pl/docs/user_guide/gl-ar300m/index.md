@@ -84,7 +84,21 @@ Skonfiguruj Shadow, korzystając z jednej z obsługiwanych metod połączenia z 
 
     Aby uzyskać szczegółowe instrukcje konfiguracji, zapoznaj się z [Połącz z internetem przez modem USB](../../interface_guide/internet_cellular.md).
 
-## Jak skonfigurować VPN {#how-to-set-up-a-vpn}
+---
+
+## Wireless {#wireless}
+
+Strona Wireless umożliwia konfigurację ustawień sieci Wi-Fi 2.4 GHz, w tym włączanie Wi-Fi, ustawianie mocy nadawania, nazwy Wi-Fi (SSID), trybu zabezpieczeń i hasła Wi-Fi, widoczności SSID, trybu Wi-Fi, szerokości pasma i kanału.
+
+Aby skonfigurować Wireless, zapoznaj się z [Wireless](../../interface_guide/wireless_v4.8.md).
+
+## CLIENTS {#clients}
+
+Strona Clients wyświetla informacje o podłączonych urządzeniach. Dla każdego klienta pokazuje nazwę, adresy IP i MAC, prędkości pobierania i wysyłania, całkowity ruch oraz umożliwia blokowanie klienta i wykonywanie innych działań.
+
+Aby skonfigurować Clients, zapoznaj się z [Clients](../../interface_guide/clients.md).
+
+## VPN {#vpn}
 
 VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między Twoim urządzeniem a serwerem VPN. Zapewnia dodatkową warstwę prywatności i bezpieczeństwa (klient VPN) oraz umożliwia dostęp do sieci zdalnej (serwer VPN). Shadow (i inne routery GL.iNet) obsługuje OpenVPN i WireGuard.
 
@@ -122,7 +136,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między Twoim 
     
     Przejdź do poradnika [GoodCloud](../../interface_guide/cloud.md).
 
-## Ustawienia sieciowe {#network-settings}
+## Sieć {#network}
 
 === "Firewall"
 
@@ -149,7 +163,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między Twoim 
     * DHCP: Włącz lub skonfiguruj protokół Dynamic Host Configuration Protocol, który automatycznie przypisuje adresy IP urządzeniom w sieci.
     * Address Reservation: Zarezerwuj określone adresy IP dla konkretnych urządzeń, aby zawsze otrzymywały ten sam adres IP z serwera DHCP.
 
-    Przejdź do poradnika [LAN](../../interface_guide/lan.md). 
+    Aby skonfigurować LAN, zapoznaj się z [LAN](../../interface_guide/lan.md).
 
 ---
 
@@ -217,7 +231,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między Twoim 
 
     Przejdź do poradnika [IGMP Snooping](../../interface_guide/igmp_snooping.md).
 
-## Ustawienia systemowe {#system-settings}
+## System {#system}
 
 === "Overview"
 

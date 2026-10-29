@@ -111,7 +111,7 @@ Configura Spitz Plus utilizzando uno dei metodi di connessione Internet supporta
 
 === "Tethering"
 
-    ![tethering](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/internet/x2000_tethering.jpg){class="glboxshadow"}
+     ![tethering](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/internet/x2000_tethering.jpg){class="glboxshadow"}
 
     1. Collega il dispositivo mobile, ad esempio uno smartphone o una chiavetta USB, alla porta USB del router tramite un cavo USB.
     2. Sul dispositivo mobile, vai nelle impostazioni e abilita il tethering USB.
@@ -129,7 +129,7 @@ Di seguito trovi una panoramica delle funzioni disponibili nel pannello di ammin
 
 La pagina Wireless consente di configurare le impostazioni delle reti Wi-Fi sia a 5 GHz sia a 2,4 GHz, inclusi attivazione/disattivazione del Wi-Fi, impostazione della potenza TX, definizione del nome della rete Wi-Fi (SSID), attivazione/disattivazione del BSSID casuale, selezione della modalità di sicurezza Wi-Fi, impostazione della password Wi-Fi, configurazione della visibilità dell'SSID, scelta della modalità Wi-Fi, della larghezza di banda e del canale.
 
-Per configurare Wireless, fai riferimento a [Wireless](../../interface_guide/wireless.md).
+Per ulteriori informazioni, consulta [Wireless](../../interface_guide/wireless_v4.8.md).
 
 ## Client {#clients}
 
@@ -237,13 +237,13 @@ Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il t
     
     Per configurare la LAN, fai riferimento a [LAN](../../interface_guide/lan.md).
 
----
-
 === "Rete ospite"
 
     Consente di impostare una sottorete all'interno degli intervalli di indirizzi privati IPv4 192.168.0.0/16, 172.16.0.0/12 o 10.0.0.0/8, specificare gli indirizzi IP di gateway e netmask e configurare impostazioni di sicurezza come l'isolamento AP per la rete ospite.
 
     Per configurare la rete ospite, fai riferimento a [Guest Network](../../interface_guide/guest_network.md).
+
+---
 
 === "DNS"
 
@@ -257,7 +257,6 @@ Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il t
 
     Per gestire le porte Ethernet, fai riferimento a [Port Management](../../interface_guide/ethernet_port.md).
 
----
 
 === "Modalità di rete"
 
@@ -271,11 +270,11 @@ Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il t
     
     Per configurare IPv6, fai riferimento a [IPv6](../../interface_guide/ipv6.md).
 
+---
+
 === "Drop-in Gateway"
 
     Drop-in Gateway estende le funzionalità del router principale con caratteristiche che potrebbe non avere, tra cui AdGuard Home, DNS crittografato e VPN. Per configurare Drop-in Gateway, fai riferimento a [Come configurare Drop-in Gateway](../../tutorials/how_to_set_up_drop_in_gateway.md).
-
----
 
 === "IGMP Snooping"
 
@@ -337,13 +336,13 @@ Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il t
 
     Per istruzioni dettagliate, fai riferimento a [Scheduled Tasks](../../interface_guide/scheduled_tasks.md){target="_blank"}.
 
----
-
 === "Fuso orario"
 
     La pagina Fuso orario consente di impostare il fuso orario corretto del router, garantendo che tutte le attività pianificate, i log e gli eventi di sistema vengano registrati correttamente in base all'ora locale. Questa impostazione è fondamentale per mantenere registrazioni precise e per il corretto funzionamento delle configurazioni basate sul tempo.
 
     Per istruzioni dettagliate, fai riferimento a [Time Zone](../../interface_guide/time_zone.md){target="_blank"}.
+
+---
 
 === "Log"
 
@@ -371,8 +370,6 @@ Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il t
     Queste impostazioni aiutano a mantenere un ambiente di rete sicuro, proteggendo sia il router sia i dispositivi collegati.
 
     Per istruzioni dettagliate, fai riferimento a [Security](../../interface_guide/security.md).
-
----
 
 === "Ripristino firmware"
 

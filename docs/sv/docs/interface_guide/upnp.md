@@ -32,17 +32,17 @@ Aktivera UPnP med reglaget. Kompatibla enheter och program kan sedan begära por
 
 ![enable upnp](https://static.gl-inet.com/docs/router/en/4/interface_guide/upnp/upnp.png){class="glboxshadow"}
 
-- Client / Application: beskrivningen av klienten eller programmet och den begärande enhetens LAN-IP-adress.
+- **Client / Application**: beskrivningen av klienten eller programmet och den begärande enhetens LAN-IP-adress.
 
-- Protocol: mappningens transportprotokoll, t.ex. TCP eller UDP.
+- **Protocol**: mappningens transportprotokoll, t.ex. `TCP` eller `UDP`.
 
-- External Port: WAN-porten för inkommande anslutningar.
+- **External Port**: WAN-porten för inkommande anslutningar.
 
-- Internal Target: LAN-IP-adress och port för målet.
+- **Internal Target**: LAN-IP-adress och port för målet.
 
-- Lease: återstående tid innan mappningen upphör. Standardlånetiden är 7 dagar.
+- **Lease**: återstående tid innan mappningen upphör. Standardlånetiden är 7 dagar.
 
-- Action: klicka på papperskorgsikonen för att ta bort mappningen. Klienten eller programmet kan begära den igen om det fortfarande körs.
+- **Action**: klicka på papperskorgsikonen för att ta bort mappningen. Klienten eller programmet kan begära den igen om det fortfarande körs.
 
 Aktiva portmappningar tas bort när klienten frigör dem eller deras lånetid löper ut. Klicka på **Refresh** för att visa de senaste portmappningarna.
 

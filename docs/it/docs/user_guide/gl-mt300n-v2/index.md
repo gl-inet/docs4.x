@@ -84,7 +84,21 @@ Configura Mango usando uno dei metodi di connessione Internet supportati: Ethern
 
     Per istruzioni dettagliate, fai riferimento a [Collegarsi a Internet tramite modem USB](../../interface_guide/internet_cellular.md).
 
-## Come configurare una VPN {#how-to-set-up-a-vpn}
+---
+
+## Wireless {#wireless}
+
+La pagina Wireless consente di configurare le impostazioni delle reti Wi-Fi a 2.4 GHz, tra cui l’attivazione del Wi-Fi, la potenza di trasmissione, il nome Wi-Fi (SSID), la modalità di sicurezza e la password Wi-Fi, la visibilità dell’SSID, la modalità Wi-Fi, la larghezza di banda e il canale.
+
+Per ulteriori informazioni, consulta [Wireless](../../interface_guide/wireless_v4.8.md).
+
+## Client {#clients}
+
+La pagina Clients mostra informazioni sui dispositivi collegati. Per ogni client visualizza nome, indirizzi IP e MAC, velocità di download e upload, traffico totale e offre la possibilità di bloccare il client o eseguire altre azioni.
+
+Per configurarla, fai riferimento a [Clients](../../interface_guide/clients.md).
+
+## VPN {#vpn}
 
 Una VPN crea traffico sicuro e crittografato tra il dispositivo e il server VPN. Offre un ulteriore livello di privacy e sicurezza come client VPN e consente di accedere a una rete remota come server VPN. Mango, come gli altri router GL.iNet, supporta OpenVPN e WireGuard.
 
@@ -122,7 +136,7 @@ Una VPN crea traffico sicuro e crittografato tra il dispositivo e il server VPN.
 
     Per configurarlo, fai riferimento a [GoodCloud](../../interface_guide/cloud.md).
 
-## Impostazioni di rete {#network-settings}
+## Rete {#network}
 
 === "Firewall"
 
@@ -149,7 +163,7 @@ Una VPN crea traffico sicuro e crittografato tra il dispositivo e il server VPN.
     * DHCP: abilita o configura il Dynamic Host Configuration Protocol, che assegna automaticamente indirizzi IP ai dispositivi della rete.
     * Address Reservation: riserva indirizzi IP specifici per determinati dispositivi, garantendo che ricevano sempre lo stesso indirizzo IP dal server DHCP.
 
-    Per configurarla, fai riferimento a [Lan](../../interface_guide/lan.md).
+    Per configurarla, fai riferimento a [LAN](../../interface_guide/lan.md).
 
 ---
 
@@ -217,7 +231,7 @@ Una VPN crea traffico sicuro e crittografato tra il dispositivo e il server VPN.
 
     Per configurarlo, fai riferimento a [IGMP Snooping](../../interface_guide/igmp_snooping.md).
 
-## Impostazioni di sistema {#system-settings}
+## Sistema {#system}
 
 === "Overview"
 

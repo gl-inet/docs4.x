@@ -6,7 +6,7 @@
 
 Po lewej stronie panelu administracyjnego WWW przejdź do **NETWORK** -> **Subnet**.
 
-Strona łączy konfigurację **LAN**, **Guest Network**, **IoT Network** oraz niestandardowych **VLAN Networks** w jednym widoku. Zapewnia centralny interfejs zarządzania wszystkimi ustawieniami związanymi z podsieciami, umożliwiając tworzenie i zarządzanie wieloma podsieciami w celu izolowania różnych typów urządzeń lub ruchu.
+Ta strona umożliwia centralną konfigurację i zarządzanie sieciami **Main Network**, **Guest Network**, **IoT Network** oraz niestandardowymi **VLAN Networks**. Możesz tworzyć wiele podsieci i zarządzać nimi, aby izolować różne typy urządzeń lub ruchu.
 
 ## Sieć główna {#main-network}
 

@@ -123,7 +123,33 @@ Configurez votre Spitz AX en utilisant l'une des méthodes de connexion Internet
 
     Veuillez consulter [Connexion à Internet via le partage de connexion USB](../../interface_guide/internet_tethering.md) pour des instructions détaillées.
 
-## Comment configurer un VPN {#how-to-set-up-a-vpn}
+## Sans fil {#wireless}
+
+La page Wireless vous permet de configurer les paramètres des réseaux Wi‑Fi 5GHz et 2.4GHz, notamment l'activation du Wi‑Fi, le réglage de la puissance TX, la définition du nom du réseau Wi‑Fi (SSID), l'activation d'un BSSID aléatoire, le choix du mode de sécurité Wi‑Fi et du mot de passe, la configuration de la visibilité du SSID, ainsi que le mode Wi‑Fi, la bande passante et le canal.
+
+Pour plus d’informations, consultez [Wireless](../../interface_guide/wireless_v4.8.md).
+
+## Clients {#clients}
+
+La page Clients affiche des informations sur les appareils connectés. Pour chaque client, elle indique le nom, les adresses IP et MAC, les vitesses de téléchargement et d'envoi, le trafic total, et permet de bloquer le client ou d'effectuer d'autres actions.
+
+Pour configurer les clients, consultez [Clients](../../interface_guide/clients.md).
+
+## Services cloud {#cloud-services}
+
+=== "GoodCloud"
+
+    Le service GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} offre un moyen simple et pratique d'accéder à distance aux routeurs GL.iNet et de les gérer.
+    
+    Pour configurer GoodCloud, consultez [GoodCloud](../../interface_guide/cloud.md).
+
+=== "AstroWarp"
+
+    AstroWarp est une plateforme réseau avancée conçue pour offrir une mise en réseau à distance fluide et une gestion à distance des appareils. Conçue spécifiquement pour l'intégration avec les routeurs GL.iNet, AstroWarp prend en charge la gestion complète des appareils sur l'ensemble du réseau, avec un contrôle des équipements en amont comme en aval. Axée sur l'administration à l'échelle du réseau et avec une future prise en charge du contrôle au niveau matériel, AstroWarp constitue une solution plus robuste et plus fiable pour gérer les appareils et maintenir des réseaux sûrs et stables.
+    
+    Pour configurer AstroWarp, consultez [AstroWarp](../../interface_guide/astrowarp.md).
+
+## VPN {#vpn}
 
 Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre votre appareil et le serveur VPN. Il ajoute une couche supplémentaire de confidentialité et de sécurité (client VPN) et vous permet d'accéder à un réseau distant (serveur VPN). Spitz AX (comme les autres routeurs GL.iNet) prend en charge OpenVPN et WireGuard. Il prend également en charge Tor.
 
@@ -147,34 +173,6 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
     
     * [Comment configurer Tor](../../interface_guide/tor.md).
 
-## Réseau sans fil et clients {#wireless-and-clients}
-
-=== "Réseau sans fil"
-
-    La page Réseau sans fil vous permet de configurer les paramètres des réseaux Wi‑Fi 5 GHz et 2,4 GHz, notamment l'activation du Wi‑Fi, le réglage de la puissance TX, la définition du nom du réseau Wi‑Fi (SSID), l'activation du BSSID aléatoire, le choix du mode de sécurité Wi‑Fi et du mot de passe, la configuration de la visibilité du SSID, ainsi que le choix du mode Wi‑Fi, de la bande passante et du canal.
-
-    Pour configurer le réseau sans fil, consultez [Réseau sans fil](../../interface_guide/wireless.md).
-
-=== "Clients"
-
-    La page Clients affiche des informations sur les appareils connectés. Pour chaque client, elle indique le nom, les adresses IP et MAC, les vitesses de téléchargement et d'envoi, le trafic total, et permet de bloquer le client ou d'effectuer d'autres actions.
-
-    Pour configurer les clients, consultez [Clients](../../interface_guide/clients.md).
-
-## Services Cloud {#cloud-services}
-
-=== "GoodCloud"
-
-    Le service GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} offre un moyen simple et pratique d'accéder à distance aux routeurs GL.iNet et de les gérer.
-    
-    Pour configurer GoodCloud, consultez [GoodCloud](../../interface_guide/cloud.md).
-
-=== "AstroWarp"
-
-    AstroWarp est une plateforme réseau avancée conçue pour offrir une mise en réseau à distance fluide et une gestion à distance des appareils. Conçue spécifiquement pour l'intégration avec les routeurs GL.iNet, AstroWarp prend en charge la gestion complète des appareils sur l'ensemble du réseau, avec un contrôle des équipements en amont comme en aval. Axée sur l'administration à l'échelle du réseau et avec une future prise en charge du contrôle au niveau matériel, AstroWarp constitue une solution plus robuste et plus fiable pour gérer les appareils et maintenir des réseaux sûrs et stables.
-    
-    Pour configurer AstroWarp, consultez [AstroWarp](../../interface_guide/astrowarp.md).
-
 ## Applications {#applications}
 
 === "Plug-ins"
@@ -195,13 +193,13 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
     
     Pour configurer le stockage réseau, consultez [Stockage réseau](../../interface_guide/network_storage.md).
 
----
-
 === "AdGuard Home"
 
     AdGuard Home est une solution de blocage des publicités et des traceurs à l'échelle du réseau qui agit comme un serveur DNS pour filtrer les contenus indésirables sur tous les appareils connectés au réseau domestique.
     
     Pour configurer AdGuard Home, consultez [AdGuard Home](../../interface_guide/adguardhome.md).
+
+---
 
 === "Contrôle parental"
 
@@ -214,8 +212,6 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
     ZeroTier est une solution de réseau défini par logiciel qui permet de créer des réseaux virtuels sécurisés sur Internet, reliant les appareils comme s'ils se trouvaient sur le même réseau local.
     
     Pour configurer ZeroTier, consultez [ZeroTier](../../interface_guide/zerotier.md).
-
----
 
 === "Tailscale"
 
@@ -247,13 +243,13 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
     
     Pour configurer le LAN, consultez [Tutoriel LAN](../../interface_guide/lan.md).
 
----
-
 === "Réseau invité"
 
     Cette fonction vous permet de définir un sous-réseau dans les plages d'adresses privées IPv4 192.168.0.0/16, 172.16.0.0/12 ou 10.0.0.0/8, de spécifier les adresses IP de passerelle et de masque de sous-réseau, et de configurer des paramètres de sécurité comme l'isolation AP pour le réseau invité.
 
     Pour configurer le réseau invité, consultez [Réseau invité](../../interface_guide/guest_network.md).
+
+---
 
 === "DNS"
 
@@ -267,8 +263,6 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     Pour gérer les ports Ethernet, consultez [Port Ethernet](../../interface_guide/ethernet_port.md).
 
----
-
 === "Mode réseau"
 
     Le mode réseau désigne les paramètres de configuration qui déterminent comment un appareil se connecte à un réseau et communique avec les autres appareils.
@@ -281,13 +275,13 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
     
     Pour configurer IPv6, consultez [IPv6](../../interface_guide/ipv6.md).
 
+---
+
 === "Drop-in Gateway"
 
     Drop-in Gateway étend les fonctionnalités de votre routeur principal avec des fonctions qu'il peut ne pas posséder, notamment AdGuard Home, le DNS chiffré et le VPN.
     
     Pour configurer Drop-in Gateway, consultez [Comment configurer Drop-in Gateway](../../tutorials/how_to_set_up_drop_in_gateway.md).
-
----
 
 === "IGMP Snooping"
 
@@ -307,7 +301,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     Pour configurer les paramètres NAT, consultez [Paramètres NAT](../../interface_guide/nat_settings.md).
 
-## Paramètres système {#system-settings}
+## Système {#system}
 
 === "Aperçu"
 
@@ -350,13 +344,13 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     Veuillez consulter [Tâches planifiées](../../interface_guide/scheduled_tasks.md) pour des instructions détaillées.
 
----
-
 === "Fuseau horaire"
 
     La page Fuseau horaire vous permet de définir le fuseau horaire correct pour votre routeur, afin que toutes les tâches planifiées, les journaux et les événements système soient horodatés avec précision selon votre heure locale. Ce réglage est essentiel pour conserver des enregistrements exacts et exécuter correctement les configurations basées sur le temps.
 
     Veuillez consulter [Fuseau horaire](../../interface_guide/time_zone.md) pour des instructions détaillées.
+
+---
 
 === "Journal"
 
@@ -384,8 +378,6 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
     Ces paramètres vous aident à maintenir un environnement réseau sécurisé, en protégeant à la fois votre routeur et les appareils connectés.
 
     Veuillez consulter [Sécurité](../../interface_guide/security.md) pour des instructions détaillées.
-
----
 
 === "Réinitialiser le firmware"
 

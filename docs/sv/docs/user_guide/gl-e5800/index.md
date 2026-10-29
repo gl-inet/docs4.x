@@ -294,10 +294,16 @@ Information om hur du konfigurerar Clients finns i [Clients](../../interface_gui
 
 ## Molntjänster {#cloud-services}
 
+=== "GL.iNet Account"
+
+    Med GL.iNet Account kan du ansluta och hantera dina enheter och molntjänster. Med ett enda GL.iNet Account får du smidig åtkomst till både GoodCloud och glinet App för en säker och förbättrad upplevelse. Det gör det enklare att hantera nätverket var du än är och när som helst.
+
+    Information om hur du konfigurerar GL.iNet Account finns i [GL.iNet Account](../../interface_guide/glinet_account.md).
+
 === "GoodCloud"
 
     GL.iNets molnhanteringstjänst [GoodCloud](https://www.goodcloud.xyz){target="_blank"} är ett enkelt sätt att fjärransluta till och hantera GL.iNet-routrar.
-
+    
     Information om hur du konfigurerar GoodCloud finns i [GoodCloud](../../interface_guide/cloud.md).
 
 === "AstroWarp"
@@ -332,17 +338,19 @@ Information om hur du konfigurerar Clients finns i [Clients](../../interface_gui
 
     Information om hur du konfigurerar Multi-WAN finns i [Multi-WAN](../../interface_guide/multi-wan.md).
 
-=== "LAN"
+=== "Subnet"
 
-    LAN, eller Local Area Network, är ett nätverk som ansluter datorer och enheter inom ett begränsat geografiskt område, till exempel ett hem eller ett kontor. Det möjliggör snabb dataöverföring och resursdelning, så att enheterna kan kommunicera effektivt med varandra.
+    På den här sidan kan du konfigurera och hantera **Main Network**, **Guest Network**, **IoT Network** och egna **VLAN Networks** centralt. Du kan skapa och hantera flera subnät för att isolera olika typer av enheter eller trafik.
 
-    Information om hur du konfigurerar LAN finns i [Lan](../../interface_guide/lan.md).
+    Information om hur du konfigurerar subnet finns i [Subnet](../../interface_guide/subnet.md).
 
-=== "Guest Network"
+=== "Ethernet Port"
 
-    Du kan ange ett subnät inom de privata IPv4-adressintervallen 192.168.0.0/16, 172.16.0.0/12 eller 10.0.0.0/8, ange IP-adresserna för gateway och nätmask samt konfigurera säkerhetsinställningar som AP-isolering för gästnätverket.
+    På sidan Ethernet Port kan du ange Ethernet-portens roll (dvs. använda den som WAN/LAN), ändra MAC-läge och MAC-adress för WAN-gränssnittet samt visa den förhandlade porthastigheten.
 
-    Information om hur du konfigurerar gästnätverket finns i [Guest Network](../../interface_guide/guest_network.md).
+    Mudi 7 har en Ethernet-port som är inställd på LAN som standard. Vid behov kan du ändra den till en WAN-port på pekskärmen eller i webbadministrationspanelen.
+
+    Information om hur du konfigurerar ethernet Port finns i [Ethernet Port](../../interface_guide/ethernet_port_v4.10.md).
 
 ---
 
@@ -352,32 +360,24 @@ Information om hur du konfigurerar Clients finns i [Clients](../../interface_gui
 
     Information om hur du konfigurerar DNS finns i [DNS](../../interface_guide/dns.md).
 
-=== "Ethernet Port"
-
-    På sidan Ethernet Port kan du ange Ethernet-portens roll (dvs. använda den som WAN/LAN), ändra MAC-läge och MAC-adress för WAN-gränssnittet samt visa den förhandlade porthastigheten.
-
-    Mudi 7 har en Ethernet-port som är inställd på LAN som standard. Vid behov kan du ändra den till en WAN-port på pekskärmen eller i webbadministrationspanelen.
-
-    Information om hur du hanterar Ethernet-portar finns i [Ethernet Port](../../interface_guide/ethernet_port.md).
-
 === "IPv6"
 
     IPv6, en förkortning av Internet Protocol version 6, är den senaste versionen av internetprotokollet och är avsett att ersätta IPv4. Det erbjuder ett mycket större adressutrymme med ett praktiskt taget obegränsat antal unika IP-adresser, vilket är viktigt för att hantera det växande antalet enheter som är anslutna till internet.
-
+    
     Information om hur du konfigurerar IPV6 finns i [IPV6](../../interface_guide/ipv6.md).
-
----
 
 === "IGMP Snooping"
 
     IGMP snooping är en teknik för nätverksoptimering som används i Ethernet-switchar för att hantera och styra multicast-trafik.
-
+    
     Information om hur du konfigurerar IGMP snooping finns i [IGMP Snooping](../../interface_guide/igmp_snooping.md).
+
+---
 
 === "Network Mode"
 
     Nätverksläge avser den konfiguration som avgör hur en enhet ansluter till ett nätverk och kommunicerar med andra enheter.
-
+    
     Information om hur du konfigurerar nätverksläget finns i [Network Mode](../../interface_guide/network_mode.md).
 
     **Obs!** Mudi 7 stöder lägena Router, Access Point och Extender. WDS-läge stöds inte.
@@ -385,25 +385,59 @@ Information om hur du konfigurerar Clients finns i [Clients](../../interface_gui
 === "Drop-in gateway"
 
     En drop-in-gateway utökar huvudrouterns funktioner med bland annat AdGuard Home, krypterad DNS och VPN-klient.
-
+    
     Använd följande länkar för att konfigurera en drop-in-gateway:
-
+    
     - [Drop-in Gateway](../../interface_guide/drop-in_gateway.md)
     - [How to set up drop-in gateway](../../tutorials/how_to_set_up_drop_in_gateway.md)
 
 === "Network Acceleration"
 
     Nätverksacceleration kan minska processorbelastningen och påskynda vidarebefordran av trafikpaket.
-
+    
     Information om hur du konfigurerar nätverksacceleration finns i [Network Acceleration](../../interface_guide/network_acceleration.md).
 
 ## Flow Control {#flow-control}
+
+=== "DPI Engine"
+
+    DPI (Deep Packet Inspection) är en central funktion för intelligent nätverkshantering. Den övervinner begränsningen hos traditionella routrar, som endast identifierar käll- eller destinationsadresser, genom att analysera datapaketens nyttolast på djupet och exakt identifiera program och webbplatser som användaren öppnar genom jämförelse med ett funktionsbibliotek. Det möjliggör detaljerad klassificering och styrning av trafiken.
+    
+    GL.iNets DPI-funktion är integrerad med [Netify](https://www.netify.ai/){target="_blank"} och använder ett resurssnålt inbäddat insticksprogram för effektiv distribution. Netifys signaturdatabas uppdateras online och möjliggör tillförlitlig hantering, vilket gör nätverksstyrningen mer exakt och effektiv.
+
+    Mer information finns i [DPI Engine](../../interface_guide/dpi_engine.md).
+
+=== "Data Statistics"
+
+    Data Statistics erbjuder en intelligent instrumentpanel för trafikinformation som kategoriserar och visualiserar nätverksanvändningen efter program. Den hjälper dig att övervaka trafik i realtid och historisk trafik för bättre insyn och kontroll över nätverket.
+
+    Mer information finns i [Data Statistics](../../interface_guide/data_statistics.md).
+
+=== "Content Filter"
+
+    Content Filter ger intelligent säkerhet online med DPI-baserad klassificering. Funktionen blockerar automatiskt skadliga webbplatser för att hålla nätverket rent och säkert.
+
+    Mer information finns i [Content Filter](../../interface_guide/content_filter.md).
+
+---
+
+=== "QoS"
+
+    QoS (Quality of Service) optimerar bandbreddstilldelningen genom att prioritera viktiga aktiviteter (t.ex. videosamtal och spel) när nätverket är överbelastat. Det minskar latensen och förbättrar nätverkets övergripande prestanda. Observera att detta gäller lokal klienttrafik och tunneltrafik från VPN Client, men inte trafik som tas emot när routern fungerar som VPN Server.
+
+    Mer information finns i [QoS](../../interface_guide/qos.md).
+
+=== "SQM"
+
+    SQM (Smart Queue Management) hanterar routerns nätverkstrafik intelligent för att minimera latens och ”bufferbloat”, vilket ger smidigare spel och röstsamtal.
+
+    Mer information finns i [SQM](../../interface_guide/sqm.md).
 
 === "Parental Control"
 
     Parental Control hjälper dig att hantera och styra dina barns enheter. Funktionen kan bland annat begränsa deras skärmtid och åtkomst till visst innehåll.
 
-    Information om hur du konfigurerar parental control finns i [Parental Control](../../interface_guide/parental_control.md).
+    Information om hur du konfigurerar parental control finns i [Parental Control](../../interface_guide/parental_control_v4.9.md).
 
 ## Security {#security}
 
@@ -413,17 +447,21 @@ Information om hur du konfigurerar Clients finns i [Clients](../../interface_gui
 
     Information om hur du konfigurerar port forwarding finns i [Port Forwarding](../../interface_guide/port_forwarding.md).
 
-=== "Management Control"
+=== "ACL"
 
-    Med Management Control kan du konfigurera olika säkerhetsinställningar för att skydda nätverket och routern mot obehörig åtkomst. Sidan innehåller följande alternativ:
+    ACL, en förkortning av Access Control List, låter dig skapa regler för att hantera nätverkstrafik utifrån anslutningsprotokoll, enhetsadresser och portar. Funktionen styr om nätverksåtkomst ska tillåtas eller blockeras. Om flera ACL-regler står i konflikt tillämpar systemet regeln med högst prioritet.
+
+    Mer information finns i [ACL](../../interface_guide/acl.md).
+
+=== "Admin Access"
+
+    Med Admin Access kan du konfigurera olika säkerhetsinställningar för att skydda nätverket och routern mot obehörig åtkomst. Sidan innehåller följande alternativ:
 
     * Local Access Control: Hantera och begränsa åtkomsten till routerns gränssnitt från enheter som är anslutna till det lokala nätverket.
     * Remote Access Control: Konfigurera och begränsa åtkomsten till routerns gränssnitt från fjärrplatser via internet för att förbättra skyddet mot externa hot.
     * Open Ports on Router: Styr vilka portar som är öppna på routern för att begränsa möjliga sårbarheter och obehörig åtkomst.
 
-    Dessa inställningar hjälper dig att upprätthålla en säker nätverksmiljö som skyddar både routern och anslutna enheter.
-
-    Detaljerade anvisningar finns i [Security](../../interface_guide/security.md).
+    Mer information finns i [Admin Access](../../interface_guide/admin_access.md).
 
 === "NAT Mode"
 
@@ -459,17 +497,17 @@ Information om hur du konfigurerar Clients finns i [Clients](../../interface_gui
 
     Information om hur du konfigurerar AdGuard Home finns i [AdGuard Home](../../interface_guide/adguardhome.md).
 
-=== "ZeroTier"
-
-    ZeroTier är en programvarudefinierad nätverkslösning som låter dig skapa säkra virtuella nätverk över internet och ansluta enheter som om de fanns i samma lokala nätverk.
-
-    Information om hur du konfigurerar ZeroTier finns i [ZeroTier](../../interface_guide/zerotier.md).
-
 === "Tailscale"
 
     Tailscale är en VPN-tjänst som ger dig åtkomst till dina enheter och program oavsett var du befinner dig.
-
+    
     Information om hur du konfigurerar Tailscale finns i [Tailscale](../../interface_guide/tailscale.md).
+
+=== "ZeroTier"
+
+    ZeroTier är en programvarudefinierad nätverkslösning som låter dig skapa säkra virtuella nätverk över internet och ansluta enheter som om de fanns i samma lokala nätverk.
+    
+    Information om hur du konfigurerar ZeroTier finns i [ZeroTier](../../interface_guide/zerotier.md).
 
 === "Tor"
 

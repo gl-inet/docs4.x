@@ -32,17 +32,17 @@ Włącz UPnP za pomocą przełącznika. Zgodne urządzenia i aplikacje mogą nas
 
 ![enable upnp](https://static.gl-inet.com/docs/router/en/4/interface_guide/upnp/upnp.png){class="glboxshadow"}
 
-- Client / Application: opis klienta lub aplikacji oraz adres IP LAN urządzenia wysyłającego żądanie.
+- **Client / Application**: opis klienta lub aplikacji oraz adres IP LAN urządzenia wysyłającego żądanie.
 
-- Protocol: protokół transportowy mapowania, np. TCP lub UDP.
+- **Protocol**: protokół transportowy mapowania, np. `TCP` lub `UDP`.
 
-- External Port: port WAN dla połączeń przychodzących.
+- **External Port**: port WAN dla połączeń przychodzących.
 
-- Internal Target: docelowy adres IP LAN i port.
+- **Internal Target**: docelowy adres IP LAN i port.
 
-- Lease: czas pozostały do wygaśnięcia mapowania. Domyślna długość dzierżawy wynosi 7 dni.
+- **Lease**: czas pozostały do wygaśnięcia mapowania. Domyślna długość dzierżawy wynosi 7 dni.
 
-- Action: kliknij ikonę kosza, aby usunąć mapowanie. Klient lub aplikacja może zażądać go ponownie, jeśli nadal działa.
+- **Action**: kliknij ikonę kosza, aby usunąć mapowanie. Klient lub aplikacja może zażądać go ponownie, jeśli nadal działa.
 
 Aktywne mapowania portów są usuwane, gdy klient je zwolni lub gdy wygasną ich dzierżawy. Kliknij **Refresh**, aby wyświetlić najnowsze mapowania portów.
 

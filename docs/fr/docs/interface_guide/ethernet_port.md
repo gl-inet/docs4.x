@@ -4,7 +4,7 @@ Le contenu de cette page est basé sur les versions de micrologiciel v4.7 à v4.
 
 <div class="gl-link-select" data-label="Version du micrologiciel" data-placeholder="Micrologiciel v4.9 et versions antérieures" markdown="1">
 
-- [Micrologiciel v4.10](ethernet_port_v4.10.md)
+- [Micrologiciel v4.10 et versions ultérieures](ethernet_port_v4.10.md)
 
 </div>
 

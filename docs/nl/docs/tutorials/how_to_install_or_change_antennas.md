@@ -19,7 +19,7 @@ De TS‑9-poorten op Mudi 7 zijn vrouwelijke connectoren (opening aan de binnenk
 Spitz AX (GL-X3000) en Puli AX (GL-XE3000) worden geleverd met de volgende externe antennes:
 
 * 2 x Wi-Fi-antennes (RP-SMA, 2.4G~2.5GHz, 5.15~5.84GHz)
-* 4 x 5G NR-antennes (SMA, 600M~6GHz)
+* 4 x 5G NR-antennes (SMA, 600MHz~6GHz)
 
 Volg deze stappen om de externe antennes te installeren.
 
@@ -37,7 +37,7 @@ Volg deze stappen om de externe antennes te installeren.
 Spitz Plus (GL-X2000) wordt geleverd met de volgende externe antennes:
 
 * 2 x Wi-Fi-antennes (RP-SMA, 2.4G~2.5GHz, 5.15~5.84GHz)
-* 2 x 4G-antennes (SMA, 600M~3.8GHz)
+* 2 x 4G-antennes (SMA, 600MHz~3.8GHz)
 
 Volg deze stappen om de externe antennes te installeren.
 

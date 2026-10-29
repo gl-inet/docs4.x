@@ -123,7 +123,33 @@ Skonfiguruj Spitz AX, korzystając z jednej z obsługiwanych metod połączenia 
 
     Szczegółowe instrukcje znajdziesz w poradniku [Jak połączyć się z Internetem przez tethering USB](../../interface_guide/internet_tethering.md).
 
-## Jak skonfigurować VPN {#how-to-set-up-a-vpn}
+## Wireless {#wireless}
+
+Strona Wireless umożliwia konfigurację ustawień sieci Wi-Fi 5 GHz i 2,4 GHz, w tym włączanie Wi-Fi, ustawianie mocy TX, określanie nazwy sieci Wi-Fi (SSID), włączanie losowego BSSID, wybór trybu zabezpieczeń Wi-Fi i hasła, konfigurację widoczności SSID, wybór trybu Wi-Fi, pasma i kanału.
+
+Więcej informacji znajdziesz w sekcji [Wireless](../../interface_guide/wireless_v4.8.md).
+
+## CLIENTS {#clients}
+
+Strona Clients wyświetla informacje o podłączonych urządzeniach. Dla każdego klienta pokazuje nazwę, adresy IP i MAC, prędkości pobierania i wysyłania, całkowity ruch oraz umożliwia blokowanie klienta i wykonywanie innych działań.
+
+Aby skonfigurować Clients, zapoznaj się z poradnikiem [Clients](../../interface_guide/clients.md).
+
+## Usługi chmurowe {#cloud-services}
+
+=== "GoodCloud"
+
+    Usługa GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} zapewnia prosty i wygodny sposób zdalnego dostępu do routerów GL.iNet oraz zarządzania nimi.
+    
+    Aby skonfigurować GoodCloud, zapoznaj się z poradnikiem [GoodCloud](../../interface_guide/cloud.md).
+
+=== "AstroWarp"
+
+    AstroWarp to zaawansowana platforma sieciowa zaprojektowana z myślą o bezproblemowej zdalnej łączności i zdalnym zarządzaniu urządzeniami. Została opracowana specjalnie z myślą o integracji z routerami GL.iNet i obsługuje kompleksowe zarządzanie urządzeniami w całych sieciach, umożliwiając kontrolę zarówno urządzeń nadrzędnych, jak i podrzędnych. Dzięki naciskowi na zarządzanie całą siecią i przyszłemu wsparciu kontroli na poziomie sprzętowym AstroWarp oferuje bardziej solidne i niezawodne rozwiązanie do zarządzania urządzeniami oraz utrzymywania bezpiecznych, stabilnych sieci.
+    
+    Aby skonfigurować AstroWarp, zapoznaj się z poradnikiem [AstroWarp](../../interface_guide/astrowarp.md).
+
+## VPN {#vpn}
 
 VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany tunel między Twoim urządzeniem a serwerem VPN. Zapewnia dodatkową warstwę prywatności i bezpieczeństwa (klient VPN), a także umożliwia dostęp do sieci zdalnej (serwer VPN). Spitz AX (podobnie jak inne routery GL.iNet) obsługuje OpenVPN i WireGuard. Dodatkowo obsługuje także Tor.
 
@@ -147,34 +173,6 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany tunel między Twoim
     
     * [Jak skonfigurować Tor](../../interface_guide/tor.md).
 
-## Ustawienia sieci bezprzewodowej i klienci {#wireless-and-clients}
-
-=== "Wireless"
-
-    Strona Wireless umożliwia konfigurację ustawień sieci Wi-Fi 5 GHz i 2.4 GHz, w tym włączanie i wyłączanie Wi-Fi, ustawianie mocy TX, określanie nazwy sieci Wi-Fi (SSID), włączanie losowego BSSID, wybór trybu zabezpieczeń Wi-Fi i hasła, konfigurację widoczności SSID oraz wybór trybu Wi-Fi, szerokości pasma i kanału.
-
-    Aby skonfigurować Wireless, zapoznaj się z poradnikiem [Wireless](../../interface_guide/wireless.md).
-
-=== "Clients"
-
-    Strona Clients wyświetla informacje o podłączonych urządzeniach. Dla każdego klienta pokazuje nazwę, adresy IP i MAC, prędkości pobierania i wysyłania, całkowity ruch oraz umożliwia blokowanie klienta i wykonywanie innych działań.
-
-    Aby skonfigurować Clients, zapoznaj się z poradnikiem [Clients](../../interface_guide/clients.md).
-
-## Usługi chmurowe {#cloud-services}
-
-=== "GoodCloud"
-
-    Usługa GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} zapewnia prosty i wygodny sposób zdalnego dostępu do routerów GL.iNet oraz zarządzania nimi.
-    
-    Aby skonfigurować GoodCloud, zapoznaj się z poradnikiem [GoodCloud](../../interface_guide/cloud.md).
-
-=== "AstroWarp"
-
-    AstroWarp to zaawansowana platforma sieciowa zaprojektowana z myślą o bezproblemowej zdalnej łączności i zdalnym zarządzaniu urządzeniami. Została opracowana specjalnie z myślą o integracji z routerami GL.iNet i obsługuje kompleksowe zarządzanie urządzeniami w całych sieciach, umożliwiając kontrolę zarówno urządzeń nadrzędnych, jak i podrzędnych. Dzięki naciskowi na zarządzanie całą siecią i przyszłemu wsparciu kontroli na poziomie sprzętowym AstroWarp oferuje bardziej solidne i niezawodne rozwiązanie do zarządzania urządzeniami oraz utrzymywania bezpiecznych, stabilnych sieci.
-    
-    Aby skonfigurować AstroWarp, zapoznaj się z poradnikiem [AstroWarp](../../interface_guide/astrowarp.md).
-
 ## Aplikacje {#applications}
 
 === "Plug-ins"
@@ -195,13 +193,13 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany tunel między Twoim
     
     Aby skonfigurować pamięć sieciową, zapoznaj się z poradnikiem [Network Storage](../../interface_guide/network_storage.md).
 
----
-
 === "AdGuard Home"
 
     AdGuard Home to działające w całej sieci rozwiązanie do blokowania reklam i trackerów, które pełni rolę serwera DNS i filtruje niepożądane treści na wszystkich urządzeniach podłączonych do sieci domowej.
     
     Aby skonfigurować AdGuard Home, zapoznaj się z poradnikiem [AdGuard Home](../../interface_guide/adguardhome.md).
+
+---
 
 === "Parental Control"
 
@@ -215,8 +213,6 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany tunel między Twoim
     
     Aby skonfigurować ZeroTier, zapoznaj się z poradnikiem [ZeroTier](../../interface_guide/zerotier.md).
 
----
-
 === "Tailscale"
 
     Tailscale to usługa VPN, która umożliwia dostęp do urządzeń i aplikacji z dowolnego miejsca.
@@ -229,7 +225,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany tunel między Twoim
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/hyHh8pAxgVw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Ustawienia sieci {#network-settings}
+## Ustawienia sieciowe {#network-settings}
 
 === "Przekierowanie portów"
 
@@ -247,13 +243,13 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany tunel między Twoim
     
     Aby skonfigurować LAN, zapoznaj się z poradnikiem [Lan Tutorial](../../interface_guide/lan.md).
 
----
-
 === "Sieć gościnna"
 
     Umożliwia ustawienie podsieci w prywatnych zakresach adresów IPv4 192.168.0.0/16, 172.16.0.0/12 lub 10.0.0.0/8, określenie adresów IP bramy i maski sieci oraz konfigurację ustawień zabezpieczeń, takich jak izolacja AP dla sieci gościnnej.
 
     Aby skonfigurować sieć gościnną, zapoznaj się z [Guest Network](../../interface_guide/guest_network.md).
+
+---
 
 === "DNS"
 
@@ -267,8 +263,6 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany tunel między Twoim
 
     Aby zarządzać portami Ethernet, zapoznaj się z poradnikiem [Ethernet Port](../../interface_guide/ethernet_port.md).
 
----
-
 === "Tryb sieci"
 
     Tryb sieci odnosi się do ustawień konfiguracyjnych określających, w jaki sposób urządzenie łączy się z siecią i komunikuje się z innymi urządzeniami.
@@ -281,13 +275,13 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany tunel między Twoim
     
     Aby skonfigurować IPv6, zapoznaj się z poradnikiem [IPV6](../../interface_guide/ipv6.md).
 
+---
+
 === "Drop-in Gateway"
 
     Drop-in Gateway rozszerza funkcjonalność głównego routera o takie funkcje jak AdGuard Home, szyfrowany DNS i VPN.
     
     Aby skonfigurować Drop-in Gateway, zapoznaj się z poradnikiem [Jak skonfigurować Drop-in Gateway](../../tutorials/how_to_set_up_drop_in_gateway.md).
-
----
 
 === "IGMP Snooping"
 
@@ -307,7 +301,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany tunel między Twoim
 
     Aby skonfigurować ustawienia NAT, zapoznaj się z poradnikiem [NAT Settings](../../interface_guide/nat_settings.md).
 
-## Ustawienia systemu {#system-settings}
+## System {#system}
 
 === "Przegląd"
 
@@ -350,13 +344,13 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany tunel między Twoim
 
     Szczegółowe instrukcje znajdziesz w poradniku [Scheduled Tasks](../../interface_guide/scheduled_tasks.md).
 
----
-
 === "Strefa czasowa"
 
     Strona Time Zone umożliwia ustawienie prawidłowej strefy czasowej routera, dzięki czemu wszystkie zaplanowane zadania, logi i zdarzenia systemowe będą oznaczane zgodnie z czasem lokalnym. To ustawienie ma kluczowe znaczenie dla zachowania dokładnych zapisów i prawidłowego działania konfiguracji zależnych od czasu.
 
     Szczegółowe instrukcje znajdziesz w poradniku [Time Zone](../../interface_guide/time_zone.md).
+
+---
 
 === "Logi"
 
@@ -384,8 +378,6 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany tunel między Twoim
     Ustawienia te pomagają utrzymać bezpieczne środowisko sieciowe, chroniąc zarówno router, jak i podłączone urządzenia.
 
     Szczegółowe instrukcje znajdziesz w poradniku [Security](../../interface_guide/security.md).
-
----
 
 === "Resetowanie firmware"
 

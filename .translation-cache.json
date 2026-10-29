@@ -4156,67 +4156,67 @@
   "docs/en/docs/interface_guide/guest_network.md": {
     "targets": {
       "de": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896,
-        "source_hash": "6013bc0fea247cb1f0146b69014cca9bc291ae2b8163a667631fa916bdcd957e",
-        "source_blob": "7884524c1c91d887f73d034042e831fcba18616f",
-        "target_hash": "d8b3da73e48eb10d5b8697ff0ddda5bbf2b322175aec55c2627a89355bae9dbd"
+        "source_hash": "304f1aff4eb2689e9f6b9cc613c4c40547ebd0795bbd426c0f6ca52913040666",
+        "source_blob": "0903c57534d73c474a490af4227840d0bbc12f8e",
+        "target_hash": "d8b3da73e48eb10d5b8697ff0ddda5bbf2b322175aec55c2627a89355bae9dbd",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1793316427
       },
       "es": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896,
-        "source_hash": "6013bc0fea247cb1f0146b69014cca9bc291ae2b8163a667631fa916bdcd957e",
-        "source_blob": "7884524c1c91d887f73d034042e831fcba18616f",
-        "target_hash": "18b0e5a417651f6be403b0f7ddf272e5beda0f8692ea3ccc7985343d5cc90f0b"
+        "source_hash": "304f1aff4eb2689e9f6b9cc613c4c40547ebd0795bbd426c0f6ca52913040666",
+        "source_blob": "0903c57534d73c474a490af4227840d0bbc12f8e",
+        "target_hash": "18b0e5a417651f6be403b0f7ddf272e5beda0f8692ea3ccc7985343d5cc90f0b",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1793316440
       },
       "fr": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896,
-        "source_hash": "6013bc0fea247cb1f0146b69014cca9bc291ae2b8163a667631fa916bdcd957e",
-        "source_blob": "7884524c1c91d887f73d034042e831fcba18616f",
-        "target_hash": "17ce9645cba947ab8e094f78dc557b747d91c482ea765de08a129ccfdd853920"
+        "source_hash": "304f1aff4eb2689e9f6b9cc613c4c40547ebd0795bbd426c0f6ca52913040666",
+        "source_blob": "0903c57534d73c474a490af4227840d0bbc12f8e",
+        "target_hash": "17ce9645cba947ab8e094f78dc557b747d91c482ea765de08a129ccfdd853920",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1793316448
       },
       "it": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792546921,
-        "source_hash": "6013bc0fea247cb1f0146b69014cca9bc291ae2b8163a667631fa916bdcd957e",
-        "source_blob": "7884524c1c91d887f73d034042e831fcba18616f",
-        "target_hash": "9b2e3988dd410dbb948b5d1a5ebc71c8049d7638042d839908c8f228e1a2f700"
+        "source_hash": "304f1aff4eb2689e9f6b9cc613c4c40547ebd0795bbd426c0f6ca52913040666",
+        "source_blob": "0903c57534d73c474a490af4227840d0bbc12f8e",
+        "target_hash": "9b2e3988dd410dbb948b5d1a5ebc71c8049d7638042d839908c8f228e1a2f700",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1793316453
       },
       "ja": {
-        "source_hash": "6013bc0fea247cb1f0146b69014cca9bc291ae2b8163a667631fa916bdcd957e",
-        "source_blob": "7884524c1c91d887f73d034042e831fcba18616f",
+        "source_hash": "304f1aff4eb2689e9f6b9cc613c4c40547ebd0795bbd426c0f6ca52913040666",
+        "source_blob": "0903c57534d73c474a490af4227840d0bbc12f8e",
         "target_hash": "42329d474081cd2cae3075769d39ba60988c3224d3c26b9fb8d71b6ed9551848",
-        "model": "claude-opus-5-5-ja-review",
-        "updated_at": 1792655214
+        "model": "reviewed-no-target-change",
+        "updated_at": 1793316461
       },
       "pl": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896,
-        "source_hash": "6013bc0fea247cb1f0146b69014cca9bc291ae2b8163a667631fa916bdcd957e",
-        "source_blob": "7884524c1c91d887f73d034042e831fcba18616f",
-        "target_hash": "996b699bfa90e047563c220a3e314bee36f96d05c687b79e918b3cff4b289807"
+        "source_hash": "304f1aff4eb2689e9f6b9cc613c4c40547ebd0795bbd426c0f6ca52913040666",
+        "source_blob": "0903c57534d73c474a490af4227840d0bbc12f8e",
+        "target_hash": "996b699bfa90e047563c220a3e314bee36f96d05c687b79e918b3cff4b289807",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1793316475
       },
       "uk": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792143745,
-        "source_hash": "6013bc0fea247cb1f0146b69014cca9bc291ae2b8163a667631fa916bdcd957e",
-        "source_blob": "7884524c1c91d887f73d034042e831fcba18616f",
-        "target_hash": "ce44e504c7c852a0fcc524004b6643d1b2b982259a0f64eddf8fb49fe7fe1645"
+        "source_hash": "304f1aff4eb2689e9f6b9cc613c4c40547ebd0795bbd426c0f6ca52913040666",
+        "source_blob": "0903c57534d73c474a490af4227840d0bbc12f8e",
+        "target_hash": "ce44e504c7c852a0fcc524004b6643d1b2b982259a0f64eddf8fb49fe7fe1645",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1793316490
       },
       "nl": {
-        "source_hash": "6013bc0fea247cb1f0146b69014cca9bc291ae2b8163a667631fa916bdcd957e",
-        "source_blob": "7884524c1c91d887f73d034042e831fcba18616f",
+        "source_hash": "304f1aff4eb2689e9f6b9cc613c4c40547ebd0795bbd426c0f6ca52913040666",
+        "source_blob": "0903c57534d73c474a490af4227840d0bbc12f8e",
         "target_hash": "f68c7a1881e67748c1656a31f4f1deff902aff2135e199b462928663b3dfa17a",
-        "model": "gpt-5.6-sol",
-        "updated_at": 1792584238
+        "model": "reviewed-no-target-change",
+        "updated_at": 1793316466
       },
       "sv": {
-        "source_hash": "6013bc0fea247cb1f0146b69014cca9bc291ae2b8163a667631fa916bdcd957e",
-        "source_blob": "7884524c1c91d887f73d034042e831fcba18616f",
+        "source_hash": "304f1aff4eb2689e9f6b9cc613c4c40547ebd0795bbd426c0f6ca52913040666",
+        "source_blob": "0903c57534d73c474a490af4227840d0bbc12f8e",
         "target_hash": "78e310b2f00043325bdf23f110221fa778e6112acd9466c36e9438ac6444ad6d",
-        "model": "gpt-5.6-sol",
-        "updated_at": 1792584238
+        "model": "reviewed-no-target-change",
+        "updated_at": 1793316482
       }
     }
   },
@@ -4960,67 +4960,67 @@
   "docs/en/docs/interface_guide/iot_network.md": {
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033,
-        "source_hash": "695339f380f3e363b465e9a232a25c50412dd0d150b8e1facaa672a6a0b64c18",
-        "source_blob": "ebd78d6ba0117775fb09472cd2d29867d578be92",
-        "target_hash": "9a320d2cad2c62eeb19bc0b93e6a8696d2beb715e148b7b7962f8d53950de373"
+        "source_hash": "afec20b7ea09932b17953cc037b94a2dbc499dee21ae02d9872e3bafc7bb0f33",
+        "source_blob": "f70238f7e26062c0a129a89f06a04e3a91ea1929",
+        "target_hash": "9a320d2cad2c62eeb19bc0b93e6a8696d2beb715e148b7b7962f8d53950de373",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1793316427
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033,
-        "source_hash": "695339f380f3e363b465e9a232a25c50412dd0d150b8e1facaa672a6a0b64c18",
-        "source_blob": "ebd78d6ba0117775fb09472cd2d29867d578be92",
-        "target_hash": "3fd1772fb9f22c1656d8f743d5a277fc0a6b46f87d0f712b7d79a70b4dd6c453"
+        "source_hash": "afec20b7ea09932b17953cc037b94a2dbc499dee21ae02d9872e3bafc7bb0f33",
+        "source_blob": "f70238f7e26062c0a129a89f06a04e3a91ea1929",
+        "target_hash": "3fd1772fb9f22c1656d8f743d5a277fc0a6b46f87d0f712b7d79a70b4dd6c453",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1793316440
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033,
-        "source_hash": "695339f380f3e363b465e9a232a25c50412dd0d150b8e1facaa672a6a0b64c18",
-        "source_blob": "ebd78d6ba0117775fb09472cd2d29867d578be92",
-        "target_hash": "bb2b861e4c8aa0c3923a355e2fc876680a1d46fc51579c57c7d56ed8e8ed0a73"
+        "source_hash": "afec20b7ea09932b17953cc037b94a2dbc499dee21ae02d9872e3bafc7bb0f33",
+        "source_blob": "f70238f7e26062c0a129a89f06a04e3a91ea1929",
+        "target_hash": "bb2b861e4c8aa0c3923a355e2fc876680a1d46fc51579c57c7d56ed8e8ed0a73",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1793316448
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033,
-        "source_hash": "695339f380f3e363b465e9a232a25c50412dd0d150b8e1facaa672a6a0b64c18",
-        "source_blob": "ebd78d6ba0117775fb09472cd2d29867d578be92",
-        "target_hash": "fc407edd428c4ab19869ec5730a8f60a023e24c653ca8ab7799067b9b7e67f50"
+        "source_hash": "afec20b7ea09932b17953cc037b94a2dbc499dee21ae02d9872e3bafc7bb0f33",
+        "source_blob": "f70238f7e26062c0a129a89f06a04e3a91ea1929",
+        "target_hash": "fc407edd428c4ab19869ec5730a8f60a023e24c653ca8ab7799067b9b7e67f50",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1793316453
       },
       "ja": {
-        "source_hash": "695339f380f3e363b465e9a232a25c50412dd0d150b8e1facaa672a6a0b64c18",
-        "source_blob": "ebd78d6ba0117775fb09472cd2d29867d578be92",
+        "source_hash": "afec20b7ea09932b17953cc037b94a2dbc499dee21ae02d9872e3bafc7bb0f33",
+        "source_blob": "f70238f7e26062c0a129a89f06a04e3a91ea1929",
         "target_hash": "2225e4e177fe5b606d166aa7e66b17005db2670b4bb56a517c86f88129d0cd68",
-        "model": "claude-opus-5-5-ja-review",
-        "updated_at": 1792655214
+        "model": "reviewed-no-target-change",
+        "updated_at": 1793316461
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033,
-        "source_hash": "695339f380f3e363b465e9a232a25c50412dd0d150b8e1facaa672a6a0b64c18",
-        "source_blob": "ebd78d6ba0117775fb09472cd2d29867d578be92",
-        "target_hash": "c35370f65eedf3bb5a327507228b880d77e548c670b0385506d4ae3f062522ee"
+        "source_hash": "afec20b7ea09932b17953cc037b94a2dbc499dee21ae02d9872e3bafc7bb0f33",
+        "source_blob": "f70238f7e26062c0a129a89f06a04e3a91ea1929",
+        "target_hash": "c35370f65eedf3bb5a327507228b880d77e548c670b0385506d4ae3f062522ee",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1793316475
       },
       "uk": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792143745,
-        "source_hash": "695339f380f3e363b465e9a232a25c50412dd0d150b8e1facaa672a6a0b64c18",
-        "source_blob": "ebd78d6ba0117775fb09472cd2d29867d578be92",
-        "target_hash": "ebbac2bc1f31e9088a22c91a2d14ae691e2c9d7ab8f607f7c8e21202888d8610"
+        "source_hash": "afec20b7ea09932b17953cc037b94a2dbc499dee21ae02d9872e3bafc7bb0f33",
+        "source_blob": "f70238f7e26062c0a129a89f06a04e3a91ea1929",
+        "target_hash": "ebbac2bc1f31e9088a22c91a2d14ae691e2c9d7ab8f607f7c8e21202888d8610",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1793316490
       },
       "nl": {
-        "source_hash": "695339f380f3e363b465e9a232a25c50412dd0d150b8e1facaa672a6a0b64c18",
-        "source_blob": "ebd78d6ba0117775fb09472cd2d29867d578be92",
+        "source_hash": "afec20b7ea09932b17953cc037b94a2dbc499dee21ae02d9872e3bafc7bb0f33",
+        "source_blob": "f70238f7e26062c0a129a89f06a04e3a91ea1929",
         "target_hash": "6e2c11c3471eaab4d30be2a695147e859e6dbd955b7c849eaeaa1e8645bb7389",
-        "model": "gpt-5.6-sol",
-        "updated_at": 1792584238
+        "model": "reviewed-no-target-change",
+        "updated_at": 1793316466
       },
       "sv": {
-        "source_hash": "695339f380f3e363b465e9a232a25c50412dd0d150b8e1facaa672a6a0b64c18",
-        "source_blob": "ebd78d6ba0117775fb09472cd2d29867d578be92",
+        "source_hash": "afec20b7ea09932b17953cc037b94a2dbc499dee21ae02d9872e3bafc7bb0f33",
+        "source_blob": "f70238f7e26062c0a129a89f06a04e3a91ea1929",
         "target_hash": "3b38602d35ed9f4c60b5d5632aba14f83fb054ac93034b8bb6924149c2f951c7",
-        "model": "gpt-5.6-sol",
-        "updated_at": 1792584238
+        "model": "reviewed-no-target-change",
+        "updated_at": 1793316482
       }
     }
   },
@@ -5094,67 +5094,67 @@
   "docs/en/docs/interface_guide/lan.md": {
     "targets": {
       "de": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896,
-        "source_hash": "58c202223d554b42422dacc29783a009430d9b9da1b3e5db9f398de3249fec7f",
-        "source_blob": "e422e83dad9a07bb3525e976d81852afb9a1da6a",
-        "target_hash": "3489b3bf37f2a9ac9ab8d90596e7706d009af304afcfce38cf935cf74896aef6"
+        "source_hash": "0dfc69408d84e85dc6811b12d550628a7c00605ce815882933827f6b3d4bd443",
+        "source_blob": "b490a1786b8736d32124b602034acc097a28b353",
+        "target_hash": "3489b3bf37f2a9ac9ab8d90596e7706d009af304afcfce38cf935cf74896aef6",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1793316427
       },
       "es": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896,
-        "source_hash": "58c202223d554b42422dacc29783a009430d9b9da1b3e5db9f398de3249fec7f",
-        "source_blob": "e422e83dad9a07bb3525e976d81852afb9a1da6a",
-        "target_hash": "a00310edff783ef555e41c4e033f1b663296335cd35e29bf6a9a83f15c157254"
+        "source_hash": "0dfc69408d84e85dc6811b12d550628a7c00605ce815882933827f6b3d4bd443",
+        "source_blob": "b490a1786b8736d32124b602034acc097a28b353",
+        "target_hash": "a00310edff783ef555e41c4e033f1b663296335cd35e29bf6a9a83f15c157254",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1793316440
       },
       "fr": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896,
-        "source_hash": "58c202223d554b42422dacc29783a009430d9b9da1b3e5db9f398de3249fec7f",
-        "source_blob": "e422e83dad9a07bb3525e976d81852afb9a1da6a",
-        "target_hash": "f749970f9cd97e02200379addeb63e07a3699fb3223664ca8623280f1681553d"
+        "source_hash": "0dfc69408d84e85dc6811b12d550628a7c00605ce815882933827f6b3d4bd443",
+        "source_blob": "b490a1786b8736d32124b602034acc097a28b353",
+        "target_hash": "f749970f9cd97e02200379addeb63e07a3699fb3223664ca8623280f1681553d",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1793316448
       },
       "it": {
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792546921,
-        "source_hash": "58c202223d554b42422dacc29783a009430d9b9da1b3e5db9f398de3249fec7f",
-        "source_blob": "e422e83dad9a07bb3525e976d81852afb9a1da6a",
-        "target_hash": "c44fbb5c9da85f4891991c2f6a3be7f0215c0c6dc75c73401e7ead010b449605"
+        "source_hash": "0dfc69408d84e85dc6811b12d550628a7c00605ce815882933827f6b3d4bd443",
+        "source_blob": "b490a1786b8736d32124b602034acc097a28b353",
+        "target_hash": "c44fbb5c9da85f4891991c2f6a3be7f0215c0c6dc75c73401e7ead010b449605",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1793316453
       },
       "ja": {
-        "source_hash": "58c202223d554b42422dacc29783a009430d9b9da1b3e5db9f398de3249fec7f",
-        "source_blob": "e422e83dad9a07bb3525e976d81852afb9a1da6a",
+        "source_hash": "0dfc69408d84e85dc6811b12d550628a7c00605ce815882933827f6b3d4bd443",
+        "source_blob": "b490a1786b8736d32124b602034acc097a28b353",
         "target_hash": "6c1baa1cfbc0d22d6c802f7fcf463663c8a9f82200f7207eada64fa924b0c06f",
-        "model": "claude-opus-5-5-ja-review",
-        "updated_at": 1792655214
+        "model": "reviewed-no-target-change",
+        "updated_at": 1793316461
       },
       "pl": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896,
-        "source_hash": "58c202223d554b42422dacc29783a009430d9b9da1b3e5db9f398de3249fec7f",
-        "source_blob": "e422e83dad9a07bb3525e976d81852afb9a1da6a",
-        "target_hash": "b2deed1c9ba9719f4cc0aea44158b0510960cb3b91a8517523882e2a7d552a1f"
+        "source_hash": "0dfc69408d84e85dc6811b12d550628a7c00605ce815882933827f6b3d4bd443",
+        "source_blob": "b490a1786b8736d32124b602034acc097a28b353",
+        "target_hash": "b2deed1c9ba9719f4cc0aea44158b0510960cb3b91a8517523882e2a7d552a1f",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1793316475
       },
       "uk": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792143745,
-        "source_hash": "58c202223d554b42422dacc29783a009430d9b9da1b3e5db9f398de3249fec7f",
-        "source_blob": "e422e83dad9a07bb3525e976d81852afb9a1da6a",
-        "target_hash": "a1dbcdd9a36eb807438966af30d1acdc6d6191994fbc4748dd51d63b53a438ac"
+        "source_hash": "0dfc69408d84e85dc6811b12d550628a7c00605ce815882933827f6b3d4bd443",
+        "source_blob": "b490a1786b8736d32124b602034acc097a28b353",
+        "target_hash": "a1dbcdd9a36eb807438966af30d1acdc6d6191994fbc4748dd51d63b53a438ac",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1793316490
       },
       "nl": {
-        "source_hash": "58c202223d554b42422dacc29783a009430d9b9da1b3e5db9f398de3249fec7f",
-        "source_blob": "e422e83dad9a07bb3525e976d81852afb9a1da6a",
+        "source_hash": "0dfc69408d84e85dc6811b12d550628a7c00605ce815882933827f6b3d4bd443",
+        "source_blob": "b490a1786b8736d32124b602034acc097a28b353",
         "target_hash": "46e9083d8cfb497585cfa39f548ad89a756500edbd717e3355488e083ff25787",
-        "model": "gpt-5.6-sol",
-        "updated_at": 1792584238
+        "model": "reviewed-no-target-change",
+        "updated_at": 1793316466
       },
       "sv": {
-        "source_hash": "58c202223d554b42422dacc29783a009430d9b9da1b3e5db9f398de3249fec7f",
-        "source_blob": "e422e83dad9a07bb3525e976d81852afb9a1da6a",
+        "source_hash": "0dfc69408d84e85dc6811b12d550628a7c00605ce815882933827f6b3d4bd443",
+        "source_blob": "b490a1786b8736d32124b602034acc097a28b353",
         "target_hash": "021b9dd76bb24c965dbe5d8cb0e8cc2caa66b3512a99d43fd0e737e15c548be3",
-        "model": "gpt-5.6-sol",
-        "updated_at": 1792584238
+        "model": "reviewed-no-target-change",
+        "updated_at": 1793316482
       }
     }
   },
@@ -10461,60 +10461,60 @@
         "updated_at": 1793248150
       },
       "es": {
-        "source_hash": "a30122c81bb94e4a98b8bfa93541b901fd3990896315314a274df8a573c59fef",
-        "source_blob": "6e85e8ec55424df4c625b8b5c1d720e87ac8fa44",
+        "source_hash": "55aa3a5751432dd8f203d3d058fa8b07fa36b7cc0b676776e81bb55729bd5dc1",
+        "source_blob": "9cd35dd0483d34e3cd29db1bd1842382f1915abc",
         "target_hash": "6929c14ccc9f584c1595f52e2660b1f758cd9053cdac0920790ceb65cb879ffa",
-        "model": "codex",
-        "updated_at": 1793241908
+        "model": "reviewed-no-target-change",
+        "updated_at": 1793316440
       },
       "fr": {
-        "source_hash": "a30122c81bb94e4a98b8bfa93541b901fd3990896315314a274df8a573c59fef",
-        "source_blob": "6e85e8ec55424df4c625b8b5c1d720e87ac8fa44",
+        "source_hash": "55aa3a5751432dd8f203d3d058fa8b07fa36b7cc0b676776e81bb55729bd5dc1",
+        "source_blob": "9cd35dd0483d34e3cd29db1bd1842382f1915abc",
         "target_hash": "5e6d7296b18a2fe2216faccfe03c6acf1d114fe4e8a3fefbeec53b58133a60ee",
-        "model": "codex",
-        "updated_at": 1793241908
+        "model": "reviewed-no-target-change",
+        "updated_at": 1793316448
       },
       "it": {
-        "source_hash": "a30122c81bb94e4a98b8bfa93541b901fd3990896315314a274df8a573c59fef",
-        "source_blob": "6e85e8ec55424df4c625b8b5c1d720e87ac8fa44",
+        "source_hash": "55aa3a5751432dd8f203d3d058fa8b07fa36b7cc0b676776e81bb55729bd5dc1",
+        "source_blob": "9cd35dd0483d34e3cd29db1bd1842382f1915abc",
         "target_hash": "830cf62d54e20b5a300a8018adc307d7123a6e11c53db9e73aaff59d1a1b3344",
-        "model": "codex",
-        "updated_at": 1793241908
+        "model": "reviewed-no-target-change",
+        "updated_at": 1793316453
       },
       "ja": {
-        "source_hash": "a30122c81bb94e4a98b8bfa93541b901fd3990896315314a274df8a573c59fef",
-        "source_blob": "6e85e8ec55424df4c625b8b5c1d720e87ac8fa44",
+        "source_hash": "55aa3a5751432dd8f203d3d058fa8b07fa36b7cc0b676776e81bb55729bd5dc1",
+        "source_blob": "9cd35dd0483d34e3cd29db1bd1842382f1915abc",
         "target_hash": "3d81e283072b5c17560a451038b73f13a5c60e0ba60f9d0fda7a00c71137fdcf",
-        "model": "codex",
-        "updated_at": 1793241908
+        "model": "reviewed-no-target-change",
+        "updated_at": 1793316461
       },
       "pl": {
-        "source_hash": "a30122c81bb94e4a98b8bfa93541b901fd3990896315314a274df8a573c59fef",
-        "source_blob": "6e85e8ec55424df4c625b8b5c1d720e87ac8fa44",
+        "source_hash": "55aa3a5751432dd8f203d3d058fa8b07fa36b7cc0b676776e81bb55729bd5dc1",
+        "source_blob": "9cd35dd0483d34e3cd29db1bd1842382f1915abc",
         "target_hash": "62d0c096c2f79f67de45465a32fb1bf6b738273b3981fceded109d3fe975b06e",
-        "model": "codex",
-        "updated_at": 1793241908
+        "model": "reviewed-no-target-change",
+        "updated_at": 1793316475
       },
       "uk": {
-        "source_hash": "a30122c81bb94e4a98b8bfa93541b901fd3990896315314a274df8a573c59fef",
-        "source_blob": "6e85e8ec55424df4c625b8b5c1d720e87ac8fa44",
+        "source_hash": "55aa3a5751432dd8f203d3d058fa8b07fa36b7cc0b676776e81bb55729bd5dc1",
+        "source_blob": "9cd35dd0483d34e3cd29db1bd1842382f1915abc",
         "target_hash": "1a50577795a4d291ce13de7d5119e4add9999672f8ccac5a23f0c4df1a20fb12",
-        "model": "codex",
-        "updated_at": 1793241908
+        "model": "reviewed-no-target-change",
+        "updated_at": 1793316490
       },
       "nl": {
-        "source_hash": "a30122c81bb94e4a98b8bfa93541b901fd3990896315314a274df8a573c59fef",
-        "source_blob": "6e85e8ec55424df4c625b8b5c1d720e87ac8fa44",
+        "source_hash": "55aa3a5751432dd8f203d3d058fa8b07fa36b7cc0b676776e81bb55729bd5dc1",
+        "source_blob": "9cd35dd0483d34e3cd29db1bd1842382f1915abc",
         "target_hash": "964c3be449b9212037f77935599651cca380c12e8ae16b427ccc8b24bd41c610",
-        "model": "codex",
-        "updated_at": 1793241908
+        "model": "reviewed-no-target-change",
+        "updated_at": 1793316466
       },
       "sv": {
-        "source_hash": "a30122c81bb94e4a98b8bfa93541b901fd3990896315314a274df8a573c59fef",
-        "source_blob": "6e85e8ec55424df4c625b8b5c1d720e87ac8fa44",
+        "source_hash": "55aa3a5751432dd8f203d3d058fa8b07fa36b7cc0b676776e81bb55729bd5dc1",
+        "source_blob": "9cd35dd0483d34e3cd29db1bd1842382f1915abc",
         "target_hash": "0795b4e8d269a10ebc5e183c311882a0d936a229534ed585d544101c396c652a",
-        "model": "codex",
-        "updated_at": 1793241908
+        "model": "reviewed-no-target-change",
+        "updated_at": 1793316482
       }
     }
   },
@@ -14585,67 +14585,67 @@
   "docs/en/docs/interface_guide/subnet.md": {
     "targets": {
       "de": {
-        "source_hash": "d1e42a04d6f35c13832208dd812986729aca9a69afbac518d56eea6797a05e65",
-        "source_blob": "6fc9267ecb73c41b3397e2ebb35d82c54eeb7b51",
+        "source_hash": "8a004193abb7bd0ee9cbe069d8aea507e51454dd5a062ef761549dc0aca9f5fa",
+        "source_blob": "3a49202f50201c21541a953cc4ea2da51cf1d570",
         "target_hash": "bf45acfc95a01a7a64f12eb25b1eb089951624f253b5d18b7d7087a90554a3b5",
-        "model": "codex",
-        "updated_at": 1793241654
+        "model": "reviewed-no-target-change",
+        "updated_at": 1793316427
       },
       "es": {
-        "source_hash": "d1e42a04d6f35c13832208dd812986729aca9a69afbac518d56eea6797a05e65",
-        "source_blob": "6fc9267ecb73c41b3397e2ebb35d82c54eeb7b51",
+        "source_hash": "8a004193abb7bd0ee9cbe069d8aea507e51454dd5a062ef761549dc0aca9f5fa",
+        "source_blob": "3a49202f50201c21541a953cc4ea2da51cf1d570",
         "target_hash": "be4c4ea984f3b1789b789266e02f42f5bfd5c7166b52287436d31730664dd481",
-        "model": "codex",
-        "updated_at": 1793241654
+        "model": "reviewed-no-target-change",
+        "updated_at": 1793316440
       },
       "fr": {
-        "source_hash": "d1e42a04d6f35c13832208dd812986729aca9a69afbac518d56eea6797a05e65",
-        "source_blob": "6fc9267ecb73c41b3397e2ebb35d82c54eeb7b51",
+        "source_hash": "8a004193abb7bd0ee9cbe069d8aea507e51454dd5a062ef761549dc0aca9f5fa",
+        "source_blob": "3a49202f50201c21541a953cc4ea2da51cf1d570",
         "target_hash": "ddad8fb103ec1ed7cd022d89557d07a73fd187686d18311293301464573bcd26",
-        "model": "codex",
-        "updated_at": 1793241654
+        "model": "reviewed-no-target-change",
+        "updated_at": 1793316448
       },
       "it": {
-        "source_hash": "d1e42a04d6f35c13832208dd812986729aca9a69afbac518d56eea6797a05e65",
-        "source_blob": "6fc9267ecb73c41b3397e2ebb35d82c54eeb7b51",
+        "source_hash": "8a004193abb7bd0ee9cbe069d8aea507e51454dd5a062ef761549dc0aca9f5fa",
+        "source_blob": "3a49202f50201c21541a953cc4ea2da51cf1d570",
         "target_hash": "343b62c6cf427ca8cda1d879a9dd20d25a8fab97a85c337c3a22747e082bd907",
-        "model": "codex",
-        "updated_at": 1793241654
+        "model": "reviewed-no-target-change",
+        "updated_at": 1793316453
       },
       "ja": {
-        "source_hash": "d1e42a04d6f35c13832208dd812986729aca9a69afbac518d56eea6797a05e65",
-        "source_blob": "6fc9267ecb73c41b3397e2ebb35d82c54eeb7b51",
+        "source_hash": "8a004193abb7bd0ee9cbe069d8aea507e51454dd5a062ef761549dc0aca9f5fa",
+        "source_blob": "3a49202f50201c21541a953cc4ea2da51cf1d570",
         "target_hash": "57d4831411ec1dbeaf5ae945ccc7cea2e83589c6beb89172a0c3634defe59f4e",
-        "model": "codex",
-        "updated_at": 1793241654
+        "model": "reviewed-no-target-change",
+        "updated_at": 1793316461
       },
       "pl": {
-        "source_hash": "d1e42a04d6f35c13832208dd812986729aca9a69afbac518d56eea6797a05e65",
-        "source_blob": "6fc9267ecb73c41b3397e2ebb35d82c54eeb7b51",
+        "source_hash": "8a004193abb7bd0ee9cbe069d8aea507e51454dd5a062ef761549dc0aca9f5fa",
+        "source_blob": "3a49202f50201c21541a953cc4ea2da51cf1d570",
         "target_hash": "aa79932701c71faaa108963765871044c209e3a0a5eadadd377737739e61a61c",
-        "model": "codex",
-        "updated_at": 1793241654
+        "model": "reviewed-no-target-change",
+        "updated_at": 1793316475
       },
       "uk": {
-        "source_hash": "d1e42a04d6f35c13832208dd812986729aca9a69afbac518d56eea6797a05e65",
-        "source_blob": "6fc9267ecb73c41b3397e2ebb35d82c54eeb7b51",
+        "source_hash": "8a004193abb7bd0ee9cbe069d8aea507e51454dd5a062ef761549dc0aca9f5fa",
+        "source_blob": "3a49202f50201c21541a953cc4ea2da51cf1d570",
         "target_hash": "942765bfa6bd7ce81edfeaa67f97c75e3b899509be64322fbd0dee0997935b30",
-        "model": "codex",
-        "updated_at": 1793241654
+        "model": "reviewed-no-target-change",
+        "updated_at": 1793316490
       },
       "nl": {
-        "source_hash": "d1e42a04d6f35c13832208dd812986729aca9a69afbac518d56eea6797a05e65",
-        "source_blob": "6fc9267ecb73c41b3397e2ebb35d82c54eeb7b51",
+        "source_hash": "8a004193abb7bd0ee9cbe069d8aea507e51454dd5a062ef761549dc0aca9f5fa",
+        "source_blob": "3a49202f50201c21541a953cc4ea2da51cf1d570",
         "target_hash": "6bd865b21c5497ba07e527c52d07caaae217158e0301933467d30cbbfdb69af2",
-        "model": "codex",
-        "updated_at": 1793241654
+        "model": "reviewed-no-target-change",
+        "updated_at": 1793316466
       },
       "sv": {
-        "source_hash": "d1e42a04d6f35c13832208dd812986729aca9a69afbac518d56eea6797a05e65",
-        "source_blob": "6fc9267ecb73c41b3397e2ebb35d82c54eeb7b51",
+        "source_hash": "8a004193abb7bd0ee9cbe069d8aea507e51454dd5a062ef761549dc0aca9f5fa",
+        "source_blob": "3a49202f50201c21541a953cc4ea2da51cf1d570",
         "target_hash": "2cf4694e64f339f764d650df4147224ab1c8745b3f09d2096e2c0f8b06429c70",
-        "model": "codex",
-        "updated_at": 1793241654
+        "model": "reviewed-no-target-change",
+        "updated_at": 1793316482
       }
     }
   },

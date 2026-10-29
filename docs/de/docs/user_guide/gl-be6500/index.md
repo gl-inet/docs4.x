@@ -203,7 +203,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     Damit können Sie ein eigenes Wi-Fi-Netzwerk für IoT-Geräte erstellen. Es ist vom Hauptnetzwerk isoliert und bietet bessere Kompatibilität und erhöhte Sicherheit.
 
-    Zum Einrichten von IoT Network lesen Sie bitte [Lan](../../interface_guide/iot_network.md).
+    Zum Einrichten von IoT Network lesen Sie bitte [IoT Network](../../interface_guide/iot_network.md).
 
 ---
 

@@ -171,7 +171,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     Cette fonction permet de créer un réseau Wi-Fi dédié aux appareils IoT. Isolé du réseau principal, il offre une meilleure compatibilité et une sécurité renforcée.
 
-    Pour configurer le IoT Network, consultez [Lan](../../interface_guide/iot_network.md).
+    Pour configurer l'IoT Network, consultez [IoT Network](../../interface_guide/iot_network.md).
 
 ---
 

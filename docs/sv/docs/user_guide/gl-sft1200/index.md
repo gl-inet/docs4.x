@@ -175,7 +175,7 @@ Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindel
 
     På sidan Ethernet Port kan du konfigurera WAN- och LAN-portarna, ange Ethernet för WAN/LAN-gränssnittet, ange MAC-läge och MAC-adress för WAN-gränssnittet samt visa nätverksportens förhandlade hastighet.
 
-    Information om hur du konfigurerar Ethernet Port finns i [Lan](../../interface_guide/ethernet_port.md).
+    Information om hur du konfigurerar Ethernet Port finns i [Ethernet Port](../../interface_guide/ethernet_port.md).
 
 === "IPv6"
 

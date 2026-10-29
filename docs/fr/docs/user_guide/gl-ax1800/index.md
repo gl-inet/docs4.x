@@ -175,7 +175,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     La page Ethernet Port vous permet de configurer les ports WAN et LAN, de définir l'interface WAN/LAN sur Ethernet, de spécifier le mode MAC et l'adresse MAC de l'interface WAN, et d'afficher la vitesse négociée du port réseau.
 
-    Pour configurer le Ethernet Port, consultez [Ethernet Port](../../interface_guide/ethernet_port.md).
+    Pour configurer l'Ethernet Port, consultez [Ethernet Port](../../interface_guide/ethernet_port.md).
 
 === "IPv6"
 

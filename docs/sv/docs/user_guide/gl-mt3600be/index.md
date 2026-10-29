@@ -171,7 +171,7 @@ Ett VPN (virtuellt privat nätverk) skapar en säker, krypterad trafikförbindel
 
     Du kan skapa ett separat Wi-Fi-nätverk för IoT-enheter. Det är isolerat från huvudnätverket och ger bättre kompatibilitet och säkerhet.
 
-    Information om hur du konfigurerar IoT Network finns i [Lan](../../interface_guide/iot_network.md).
+    Information om hur du konfigurerar IoT Network finns i [IoT Network](../../interface_guide/iot_network.md).
 
 ---
 

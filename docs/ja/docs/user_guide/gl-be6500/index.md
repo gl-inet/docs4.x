@@ -173,7 +173,7 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
     IoTデバイス専用のWi-Fiネットワークを作成できます。メインネットワークから分離することで、互換性とセキュリティを向上させます。
 
-    IoT Network の設定については、[Lan](../../interface_guide/iot_network.md)を参照してください。
+    IoT Network の設定については、[IoT Network](../../interface_guide/iot_network.md)を参照してください。
 
 ---
 

@@ -12346,9 +12346,9 @@
       "fr": {
         "source_hash": "ccab235491f2a76e7e23ce007c816d401f6709a622d762f98ce66236abbe19e8",
         "source_blob": "de471c0cedb4cb818ceeb833ad69205af3382424",
-        "target_hash": "7db84c34b5931cf3d9d5012c8f2b28576be2eb875a4cefdb40b66b1dd544aee4",
+        "target_hash": "c97edb5f9cffb6d6b081bfa4273621d772b7a856c713ffe8cbcbd1aeb137cd9f",
         "model": "claude",
-        "updated_at": 1793248148
+        "updated_at": 1793256822
       },
       "it": {
         "source_hash": "ccab235491f2a76e7e23ce007c816d401f6709a622d762f98ce66236abbe19e8",

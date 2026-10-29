@@ -2,7 +2,7 @@
 """Check that localized pages keep the structure of the English pages.
 
 Usage:
-  python scripts/i18n_check.py [--show-allowed] [pages ...] [--lang de ja ...]
+  python scripts/i18n_check.py [--show-allowed] [--base REF] [pages ...] [--lang de ja ...]
 
 Structure checks compare each localized page with its English page, section by
 section (a section is the content between two headings, matched by heading ID):
@@ -35,6 +35,11 @@ File checks:
 
 English-only trailing sections (Regulatory Statements) and localized-only legal
 sections (Declaration of Conformity, safety information) are not compared.
+Instead, with --base (and in translation_delta.py mark and the pre-commit hook),
+the legal sections are compared with the same page in an earlier commit:
+
+  protected-section  a legal section was removed, or its text changed
+
 Intentional differences go in scripts/i18n_allowlist.yml with a reason.
 """
 
@@ -43,6 +48,7 @@ from __future__ import annotations
 import argparse
 import posixpath
 import re
+import subprocess
 import sys
 from collections import Counter
 from dataclasses import dataclass, field
@@ -55,6 +61,7 @@ from anchors import (
     FENCE_RE,
     LANG_SEGMENT_RE,
     LANGS,
+    REPO_ROOT,
     SOURCE_LANG,
     Page,
     front_matter_end,
@@ -560,6 +567,71 @@ def check_files(lang: str, pages: dict[str, Page], en_pages: dict[str, Page], is
 
 
 # --------------------------------------------------------------------------
+# protected legal sections
+
+
+def resolve_base(ref: str) -> str:
+    """Return the commit ID of ``ref``, or exit when it is not a commit."""
+    result = subprocess.run(
+        ["git", "rev-parse", "--verify", "--quiet", f"{ref}^{{commit}}"],
+        cwd=REPO_ROOT, capture_output=True, text=True, encoding="utf-8",
+    )
+    if result.returncode != 0:
+        raise SystemExit(f"i18n_check.py: {ref} is not a commit")
+    return result.stdout.strip()
+
+
+def changed_since(commit: str) -> set[Path]:
+    """Return the files under docs/ that differ between ``commit`` and the working tree."""
+    output = subprocess.run(
+        ["git", "diff", "--name-only", "--no-renames", commit, "--", "docs"],
+        cwd=REPO_ROOT, check=True, capture_output=True, text=True, encoding="utf-8",
+    ).stdout
+    return {REPO_ROOT / line for line in output.splitlines()}
+
+
+def text_at(commit: str, path: Path) -> str | None:
+    """Return the file as it is in ``commit``, or None when it does not exist there."""
+    result = subprocess.run(
+        ["git", "show", f"{commit}:{path.relative_to(REPO_ROOT).as_posix()}"],
+        cwd=REPO_ROOT, capture_output=True, text=True, encoding="utf-8",
+    )
+    return result.stdout if result.returncode == 0 else None
+
+
+def protected_sections(page: Page) -> dict[str, tuple[int, str]]:
+    """Return the line and text of each localized-only legal section, by heading ID.
+
+    The text includes subsections; the heading level and trailing spaces are ignored.
+    """
+    found = {}
+    for position, heading in enumerate(page.headings):
+        if heading.explicit_id not in LOCALIZED_ONLY_IDS:
+            continue
+        end = next((h.index for h in page.headings[position + 1:] if h.level <= heading.level), len(page.lines))
+        body = [line.rstrip() for line in page.lines[heading.index + 1:end]]
+        found[heading.explicit_id] = (heading.index + 1, "\n".join([heading.text, *body]).strip())
+    return found
+
+
+def check_protected(lang: str, page: Page, base: str, issues: list[Issue]) -> None:
+    """Report legal sections of ``base`` that the page lost or changed; they keep their approved wording."""
+    text = text_at(base, page.path)
+    if text is None:
+        return
+    current = protected_sections(page)
+    restore = f"restore it from git show {base[:12]}:{page.path.relative_to(REPO_ROOT).as_posix()}"
+    for section_id, (_, old) in protected_sections(load_page(lang, page.path, text)).items():
+        if section_id not in current:
+            issues.append(Issue(lang, page.rel, "protected-section", f"legal section removed; {restore}", section_id))
+        elif current[section_id][1] != old:
+            issues.append(
+                Issue(lang, page.rel, "protected-section", f"legal section text changed; {restore}",
+                      section_id, current[section_id][0])
+            )
+
+
+# --------------------------------------------------------------------------
 
 
 def split_allowed(issues: list[Issue], allowlist: list[AllowEntry]) -> tuple[list[Issue], list[tuple[Issue, AllowEntry]]]:
@@ -574,8 +646,11 @@ def split_allowed(issues: list[Issue], allowlist: list[AllowEntry]) -> tuple[lis
     return errors, allowed
 
 
-def check_page(lang: str, rel: str) -> list[Issue]:
-    """Return the errors of one localized page (used by translation_delta.py mark)."""
+def check_page(lang: str, rel: str, base: str | None = None) -> list[Issue]:
+    """Return the errors of one localized page (used by translation_delta.py mark and precommit.py).
+
+    With ``base``, also compare its legal sections with the page in that commit.
+    """
     path = DOCS_ROOT / lang / "docs" / rel
     if not path.exists():
         return [Issue(lang, rel, "missing-page", "English page has no translation")]
@@ -583,6 +658,8 @@ def check_page(lang: str, rel: str) -> list[Issue]:
     page = load_page(lang, path)
     check_structure(lang, page, load_page(SOURCE_LANG, DOCS_ROOT / SOURCE_LANG / "docs" / rel), issues)
     check_text(lang, page, issues)
+    if base:
+        check_protected(lang, page, resolve_base(base), issues)
     return split_allowed(issues, load_allowlist(ALLOWLIST_PATH))[0]
 
 
@@ -597,11 +674,15 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--lang", nargs="+", default=list(LANGS), choices=LANGS)
     parser.add_argument("--show-allowed", action="store_true", help="also list allowlisted differences")
+    parser.add_argument("--base", help="also report legal sections removed or changed since this commit")
     parser.add_argument("pages", nargs="*", help="limit structure checks to these pages (relative to docs/<lang>/docs)")
     args = parser.parse_args(argv)
     if hasattr(sys.stdout, "reconfigure"):
         sys.stdout.reconfigure(encoding="utf-8")
 
+    base = resolve_base(args.base) if args.base else None
+    # Pages that did not change since the base commit cannot have lost a legal section.
+    changed = changed_since(base) if base else set()
     only = {p.replace("\\", "/") for p in args.pages}
     allowlist = load_allowlist(ALLOWLIST_PATH)
     en_pages = load_lang(SOURCE_LANG)
@@ -617,6 +698,8 @@ def main(argv: list[str] | None = None) -> int:
                 continue
             check_structure(lang, page, en_pages[rel], issues)
             check_text(lang, page, issues)
+            if page.path in changed:
+                check_protected(lang, page, base, issues)
 
     errors, allowed = split_allowed(issues, allowlist)
 

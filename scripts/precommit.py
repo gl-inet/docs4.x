@@ -12,7 +12,8 @@ For staged pages, the hook then reports:
 - heading ID and anchor problems (scripts/anchors.py); broken anchor links are
   reported for every page of the touched languages;
 - for localized pages: structure and text problems (scripts/i18n_check.py),
-  and a translation cache that was not updated with
+  legal sections removed or changed since HEAD (or the merge base with
+  ``--base``), and a translation cache that was not updated with
   ``translation_delta.py mark`` after the page changed;
 - for mkdocs.yml or added, renamed or deleted pages: orphan pages and redirect
   problems.
@@ -129,6 +130,8 @@ def main(argv: list[str] | None = None) -> int:
     for lang in sorted(file_check_langs):
         errors.extend(str(issue) for issue in i18n_check.check_language_files(lang))
 
+    # Legal sections are compared with the commit the changes started from.
+    protected_base = git("merge-base", args.base, "HEAD").strip() if args.base else "HEAD"
     cache = translation_delta.read_json(pathlib.Path(translation_delta.CACHE_FILE))
     for lang, path in localized_files:
         source = translation_delta.repo_path(path).replace(f"docs/{lang}/", "docs/en/", 1)
@@ -136,7 +139,7 @@ def main(argv: list[str] | None = None) -> int:
             continue
         rel = source[len("docs/en/docs/"):] if source.startswith("docs/en/docs/") else None
         if rel and rel.endswith(".md"):
-            errors.extend(str(issue) for issue in i18n_check.check_page(lang, rel))
+            errors.extend(str(issue) for issue in i18n_check.check_page(lang, rel, base=protected_base))
         record = translation_delta.target_record(cache, source, lang)
         if record.get("target_hash") != translation_delta.target_hash(path):
             errors.append(

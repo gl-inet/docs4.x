@@ -171,7 +171,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie międz
 
     Umożliwia utworzenie oddzielnej sieci Wi-Fi dla urządzeń IoT. Jest ona odizolowana od sieci głównej, co zapewnia lepszą zgodność i większe bezpieczeństwo.
 
-    Aby skonfigurować IoT Network, zapoznaj się z [Lan](../../interface_guide/iot_network.md).
+    Aby skonfigurować IoT Network, zapoznaj się z [IoT Network](../../interface_guide/iot_network.md).
 
 ---
 

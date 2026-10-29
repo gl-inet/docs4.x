@@ -250,7 +250,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     Sie können ein Subnetz innerhalb der privaten IPv4-Adressbereiche 192.168.0.0/16, 172.16.0.0/12 oder 10.0.0.0/8 festlegen, die IP-Adressen für Gateway und Netzmaske angeben und Sicherheitseinstellungen wie AP-Isolierung für das Gastnetzwerk konfigurieren.
 
-    Zum Einrichten von Guest Network lesen Sie bitte [Lan](../../interface_guide/guest_network.md).
+    Zum Einrichten von Guest Network lesen Sie bitte [Guest Network](../../interface_guide/guest_network.md).
 
 ---
 
@@ -305,7 +305,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     Auf der Seite NAT Settings können Sie Full Cone NAT und SIP ALG (Application Layer Gateway) aktivieren oder deaktivieren.
 
-    Zum Einrichten von NAT Settings lesen Sie bitte [Lan](../../interface_guide/nat_settings.md).
+    Zum Einrichten von NAT Settings lesen Sie bitte [NAT Settings](../../interface_guide/nat_settings.md).
 
 ## System {#system}
 

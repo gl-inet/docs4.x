@@ -175,7 +175,7 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
     Ethernet Port ページでは、WAN/LAN ポートの設定、WAN/LAN インターフェースの Ethernet への設定、WAN インターフェースの MAC モードと MAC アドレスの指定、ネットワークポートのネゴシエート速度の確認を行えます。
 
-    Ethernet Port の設定については、[Lan](../../interface_guide/ethernet_port.md)を参照してください。
+    Ethernet Port の設定については、[Ethernet Port](../../interface_guide/ethernet_port.md)を参照してください。
 
 === "IPv6"
 

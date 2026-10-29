@@ -171,7 +171,7 @@ Een VPN (virtual private network) maakt een beveiligde, versleutelde verbinding 
 
     Hiermee kun je een apart Wi-Fi-netwerk voor IoT-apparaten maken. Het is geïsoleerd van het hoofdnetwerk en biedt betere compatibiliteit en beveiliging.
 
-    Raadpleeg [Lan](../../interface_guide/iot_network.md) om het IoT Network in te stellen.
+    Raadpleeg [IoT Network](../../interface_guide/iot_network.md) om het IoT Network in te stellen.
 
 ---
 

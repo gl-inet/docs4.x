@@ -173,7 +173,7 @@ Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il t
 
     Consente di creare una rete Wi-Fi dedicata ai dispositivi IoT. Isolata dalla rete principale, offre una migliore compatibilità e maggiore sicurezza.
 
-    Per configurarla, fai riferimento a [Lan](../../interface_guide/iot_network.md).
+    Per configurarla, fai riferimento a [IoT Network](../../interface_guide/iot_network.md).
 
 ---
 

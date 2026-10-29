@@ -175,7 +175,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     La page Ethernet Port vous permet de configurer les ports WAN et LAN, de définir l'interface WAN/LAN sur Ethernet, de spécifier le mode MAC et l'adresse MAC de l'interface WAN, et d'afficher la vitesse négociée du port réseau.
 
-    Pour configurer le Ethernet Port, consultez [Lan](../../interface_guide/ethernet_port.md).
+    Pour configurer l'Ethernet Port, consultez [Ethernet Port](../../interface_guide/ethernet_port.md).
 
 === "IPv6"
 
@@ -347,3 +347,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
     La page Paramètres avancés donne accès à des options de configuration avancées via l'interface OpenWrt LuCI, permettant aux utilisateurs expérimentés d'affiner les paramètres et fonctionnalités du routeur au-delà des options de l'interface de base. Cela inclut des configurations réseau détaillées, des paramètres de pare-feu et d'autres personnalisations système avancées.
 
     Veuillez consulter [Paramètres avancés](../../interface_guide/advanced_settings.md) pour des instructions détaillées.
+
+# Déclaration UE de conformité {#declaration-of-conformity}
+
+Par la présente, GL TECHNOLOGIES (HONG KONG) LIMITED déclare que l'équipement radio de type [AC1200 Wireless Travel Router, GL-SFT1200] est conforme aux exigences essentielles et aux autres dispositions pertinentes de la Directive 2014/53/UE. Le texte complet de la déclaration UE de conformité est disponible à l'adresse internet suivante: [https://www.gl-inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}.

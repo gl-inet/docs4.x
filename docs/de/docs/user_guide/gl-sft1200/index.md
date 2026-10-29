@@ -205,7 +205,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     Auf der Seite Ethernet Port können Sie die WAN- und LAN-Ports konfigurieren, die WAN/LAN-Schnittstelle auf Ethernet setzen, den MAC-Modus und die MAC-Adresse für die WAN-Schnittstelle festlegen und die ausgehandelte Portgeschwindigkeit anzeigen.
 
-    Zum Einrichten von Ethernet Port lesen Sie bitte [Lan](../../interface_guide/ethernet_port.md).
+    Zum Einrichten von Ethernet Port lesen Sie bitte [Ethernet Port](../../interface_guide/ethernet_port.md).
 
 === "IPv6"
 

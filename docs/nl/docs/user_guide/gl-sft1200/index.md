@@ -175,7 +175,7 @@ Een VPN (virtual private network) maakt een beveiligde, versleutelde verbinding 
 
     Op de pagina Ethernet Port kun je de WAN- en LAN-poorten configureren, de WAN/LAN-interface op Ethernet instellen, de MAC-modus en het MAC-adres voor de WAN-interface opgeven en de onderhandelde snelheid van de netwerkpoort weergeven.
 
-    Raadpleeg [Lan](../../interface_guide/ethernet_port.md) om het Ethernet Port in te stellen.
+    Raadpleeg [Ethernet Port](../../interface_guide/ethernet_port.md) om het Ethernet Port in te stellen.
 
 === "IPv6"
 

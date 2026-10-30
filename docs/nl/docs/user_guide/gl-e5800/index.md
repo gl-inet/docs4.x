@@ -209,7 +209,7 @@ Raadpleeg [deze pagina](../../interface_guide/upgrade.md) voor meer informatie.
 
 Je kunt Mudi 7 op drie manieren resetten: rechtstreeks via het touchscreen, met de Reset-knop of via het webbeheerpaneel.
 
-**Opmerking**: zorg dat Mudi 7 volledig is opgestart voordat je een reset uitvoert. Druk NIET direct na het inschakelen op de resetknop, omdat hierdoor de U-Boot-failsafemodus kan worden geactiveerd.
+**Opmerking**: zorg dat Mudi 7 is ingeschakeld en volledig is opgestart voordat je een reset uitvoert.
 
 Bekijk deze video of volg de onderstaande stappen.
 

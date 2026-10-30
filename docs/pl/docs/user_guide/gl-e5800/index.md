@@ -209,7 +209,7 @@ Szczegółowe informacje znajdziesz [tutaj](../../interface_guide/upgrade.md).
 
 Mudi 7 można zresetować na trzy sposoby: bezpośrednio z ekranu dotykowego, przyciskiem Reset oraz z poziomu web Admin Panel.
 
-**Uwaga**: Przed wykonaniem resetu upewnij się, że Mudi 7 zakończył pełne uruchamianie. NIE naciskaj przycisku Reset od razu po włączeniu zasilania, ponieważ może to uruchomić tryb failsafe U-Boot.
+**Uwaga**: Przed wykonaniem resetu upewnij się, że Mudi 7 jest włączony i zakończył pełne uruchamianie.
 
 Obejrzyj ten film lub wykonaj poniższe kroki.
 

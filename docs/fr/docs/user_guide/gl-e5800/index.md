@@ -210,7 +210,7 @@ Pour plus de détails, consultez [cette page](../../interface_guide/upgrade.md).
 
 Il existe trois façons de réinitialiser votre Mudi 7 : directement sur l’écran tactile, à l’aide du bouton Reset et via le panneau d’administration web.
 
-**Remarque** : avant d’effectuer une réinitialisation, assurez-vous que le Mudi 7 a complètement démarré. N’appuyez **PAS** sur le bouton Reset immédiatement après la mise sous tension, car cela pourrait déclencher le mode de secours U-Boot.
+**Remarque** : avant d’effectuer une réinitialisation, assurez-vous que le Mudi 7 est sous tension et a complètement démarré.
 
 Regardez cette vidéo ou suivez les étapes ci-dessous.
 

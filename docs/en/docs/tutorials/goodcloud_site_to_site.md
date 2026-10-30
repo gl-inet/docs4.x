@@ -26,17 +26,17 @@ GoodCloud Site to Site allows offices in multiple locations to establish secure 
 
 1. Bind your routers to your GoodCloud account. See [Bind Devices to Cloud](../interface_guide/cloud.md#bind-devices-to-cloud).
 
-2. Log in to [GoodCloud](https://www.goodcloud.xyz/#/login){target="_blank"}, navigate to **Site to Site** at the left-side bar. Click **Create Network** at the upper right.
+2. Log in to [GoodCloud](https://www.goodcloud.xyz/#/login){target="_blank"} and navigate to **Site to Site** in the left sidebar. Click **Create Network** in the top-right corner.
 
     ![create network](https://static.gl-inet.com/goodcloud/docs/tutorials/site_to_site/create-network.png){class="glboxshadow"}
 
-3. Check the box at the left side to select at least two devices.
+3. Check the box on the left side to select at least two devices.
 
     ![select devices](https://static.gl-inet.com/goodcloud/docs/tutorials/site_to_site/select-devices.png){class="glboxshadow"}
     
     The selected devices will be displayed in the lower part of the page. 
 
-    The default port of Site to Site is **51830**. If you want to use another port, click on **Advanced** at the lower left corner to modify it. Then click **Next**.
+    The default port for Site-to-Site is **51830**. If you want to use a different port, click **Advanced** in the bottom-left corner to modify it, and then click **Next**.
 
     ![two devices selected](https://static.gl-inet.com/goodcloud/docs/tutorials/site_to_site/two-devices-selected.png){class="glboxshadow"}
 

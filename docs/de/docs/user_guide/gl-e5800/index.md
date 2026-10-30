@@ -239,7 +239,7 @@ Weitere Informationen finden Sie [hier](../../interface_guide/upgrade.md).
 
 Es gibt drei Möglichkeiten, Ihren Mudi 7 zurückzusetzen: direkt über den Touchscreen, mit der Reset-Taste und über das Web-Admin-Panel.
 
-**Hinweis**: Bevor Sie den Reset durchführen, stellen Sie sicher, dass Mudi 7 vollständig hochgefahren ist. Drücken Sie die Reset-Taste NICHT direkt nach dem Einschalten, da sonst der U-Boot-Failsafe-Modus ausgelöst werden kann.
+**Hinweis**: Bevor Sie den Reset durchführen, stellen Sie sicher, dass Mudi 7 eingeschaltet und vollständig hochgefahren ist.
 
 Sehen Sie sich dieses Video an oder folgen Sie den untenstehenden Schritten.
 

@@ -209,7 +209,7 @@ Please refer to [here](../../interface_guide/upgrade.md) for details.
 
 There are three ways to reset your Mudi 7: directly on the touchscreen, using the Reset button, and via the web Admin Panel.
 
-**Note**: Before performing a reset, ensure Mudi 7 has fully booted up. Do NOT press the reset button immediately after power-up, as this may trigger U-Boot failsafe mode.
+**Note**: Before performing a reset, ensure Mudi 7 is powered on and has fully booted up.
 
 Watch this video or follow the steps below.
 

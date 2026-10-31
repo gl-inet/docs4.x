@@ -209,7 +209,7 @@ Mer information finns i [here](../../interface_guide/upgrade.md).
 
 Du kan återställa Mudi 7 på tre sätt: direkt på pekskärmen, med Reset-knappen eller via webbadministrationspanelen.
 
-**Obs!** Kontrollera att Mudi 7 har startat helt innan du återställer den. Tryck INTE på återställningsknappen omedelbart efter start eftersom detta kan utlösa U-Boot-felsäkert läge.
+**Obs!** Kontrollera att Mudi 7 är påslagen och har startat helt innan du återställer den.
 
 Titta på videon eller följ stegen nedan.
 

@@ -208,7 +208,7 @@ Per i dettagli, consulta [questa pagina](../../interface_guide/upgrade.md).
 
 Esistono tre modi per ripristinare Mudi 7: direttamente dal touchscreen, con il pulsante Reset e tramite il pannello di amministrazione web.
 
-**Nota**: prima di eseguire il ripristino, assicurati che Mudi 7 abbia completato l'avvio. NON premere il pulsante Reset subito dopo l'accensione, perché potrebbe attivarsi la modalità failsafe di U-Boot.
+**Nota**: prima di eseguire il ripristino, assicurati che Mudi 7 sia acceso e abbia completato l'avvio.
 
 Guarda questo video oppure segui i passaggi riportati di seguito.
 

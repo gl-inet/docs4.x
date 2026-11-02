@@ -210,7 +210,7 @@ Consulte [aquí](../../interface_guide/upgrade.md) para obtener más informació
 
 Hay tres formas de restablecer su Mudi 7: directamente desde la pantalla táctil, con el botón de reinicio y mediante el panel de administración web.
 
-**Nota**: antes de realizar un restablecimiento, asegúrese de que Mudi 7 haya terminado completamente el arranque. NO pulse el botón de reinicio inmediatamente después de encenderlo, ya que esto puede activar el modo U-Boot failsafe.
+**Nota**: antes de realizar un restablecimiento, asegúrese de que Mudi 7 esté encendido y haya terminado completamente el arranque.
 
 Vea este vídeo o siga los pasos que se indican a continuación.
 

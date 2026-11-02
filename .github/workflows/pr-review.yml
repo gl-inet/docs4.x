@@ -76,6 +76,7 @@ jobs:
           output-file: codex-output.json
           output-schema-file: .github/codex/pr-review.schema.json
           permission-profile: ":read-only"
+          allow-bot-users: github-actions[bot]
           codex-args: '["--ephemeral"]'
 
       - name: Upload review

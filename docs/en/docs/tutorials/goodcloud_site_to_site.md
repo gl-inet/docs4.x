@@ -62,7 +62,7 @@ GoodCloud Site to Site allows offices in multiple locations to establish secure 
 
     ![testing success](https://static.gl-inet.com/goodcloud/docs/tutorials/site_to_site/testing-success.jpg){class="glboxshadow"}
 
-    If there is only one device can be set as the Main Node, it will go to the Site to Site detail page directly.
+    If only one device can be set as the Main Node, it will go to the Site to Site detail page directly.
 
 6. The network is disabled by default. Ensure that the LAN IP addresses of all nodes do not conflict with each other. Click the gear icon to change LAN IP if needed, and click on **Start**.
 
@@ -74,7 +74,7 @@ GoodCloud Site to Site allows offices in multiple locations to establish secure 
 
 ## Testing the Site to Site connection {#testing-the-site-to-site-connection}
 
-1. Connect your PC or smartphone to one of the Node in this Site to Site network.
+1. Connect your PC or smartphone to one of the nodes in this Site-to-Site network.
 
 2. Launch a web browser to access another Node's LAN IP. If you can access the login page, the connection between these two nodes is working.
 

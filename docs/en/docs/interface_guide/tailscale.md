@@ -66,15 +66,15 @@ The following is an example of the GL-MT2500.
 
     Log in to your router's web Admin Panel, and navigate to **APPLICATIONS** -> **Tailscale**.
 
-    ![glinet tailscale disabled](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/tailscale_disabled.png){class="glboxshadow"}
+    ![glinet tailscale disabled](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/tailscale_disabled.png){class="glboxshadow" width=700}
 
     Toggle to enable Tailscale, then click **Apply**.
 
-    ![glinet enable tailscale](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/enable_tailscale.png){class="glboxshadow"}
+    ![glinet enable tailscale](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/enable_tailscale.png){class="glboxshadow" width=700}
 
 3. After a short while, the interface will show a **Device Bind Link**. Click the Device Bind Link.
 
-    ![glinet bind link](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/tailscale_bind_link_1.png){class="glboxshadow"}
+    ![glinet bind link](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/tailscale_bind_link_1.png){class="glboxshadow" width=700}
 
     It will show a Tailscale link in the pop-up window. Click the link to redirect to the Tailscale website and log in.
 
@@ -120,7 +120,7 @@ Here are the steps to set up this feature.
 
     Enable **Allow Remote Access WAN**, and click **Apply**.
 
-    ![enable remote access wan](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/enable_allow_remote_access_wan.png){class="glboxshadow"}
+    ![enable remote access wan](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/enable_allow_remote_access_wan.png){class="glboxshadow" width=700}
 
 2. Go to Tailscale Admin console, and it will display an alert that GL-MT2500 has subnets. 
 
@@ -152,7 +152,7 @@ Here are the steps to set up this feature.
 
     Enable **Allow Remote Access LAN**, and click **Apply**.
 
-    ![enable remote access lan](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/enable_allow_remote_access_lan.png){class="glboxshadow"}
+    ![enable remote access lan](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/enable_allow_remote_access_lan.png){class="glboxshadow" width=700}
 
 2. Go to Tailscale Admin console, and it will display an alert that GL-MT2500 has subnets. 
 
@@ -214,7 +214,7 @@ Here are the steps to set Leo-Desktop as an Exit Node. For an alternative custom
 
 4. Log in to the GL-MT2500's web Admin Panel, go to **APPLICATIONS** -> **Tailscale** and enable **Custom Exit Nodes**. Click the refresh button, and select the IP address of the Leo-Desktop from the drop-down menu, then click **Apply**.
 
-    ![glinet tailscale custom exit node](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/custom_exit_nodes/custom_exit_node.png){class="glboxshadow"}
+    ![glinet tailscale custom exit node](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/custom_exit_nodes/custom_exit_node.png){class="glboxshadow" width=700}
 
     Devices connected to the router will then route their traffic through the Exit Node to access the Internet, and all your Internet traffic will appear to originate from the Exit Node's location.
 
@@ -222,7 +222,7 @@ Here are the steps to set Leo-Desktop as an Exit Node. For an alternative custom
 
     A corresponding prompt may appear in the router's web Admin Panel as shown below.
 
-    ![exit node troubleshooting](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/custom_exit_nodes/troubleshooting.jpg){class="glboxshadow"}
+    ![exit node troubleshooting](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/custom_exit_nodes/troubleshooting.jpg){class="glboxshadow" width=700}
 
     To resolve this, enable the router's subnet routes in the Tailscale Admin console as outlined in **Step 1** above.
 
@@ -246,7 +246,7 @@ Here are the steps to set the GL-BE9300 as an Exit Node.
 
 2. In the GL-BE9300 web Admin Panel, enable **Run Exit Node** and click **Apply**.
 
-    ![run exit node1](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node/run_exit_node1.png){class="glboxshadow"}
+    ![run exit node1](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node/run_exit_node1.png){class="glboxshadow" width=700}
 
 3. Go to the Tailscale Admin Console, and you will see a tag "Exit Node" under the GL-BE9300.
 
@@ -325,7 +325,7 @@ Follow the steps below to configure a **custom exit node** on the GL‑BE9300.
 
 1. Log in to the GL-BE9300's web Admin Panel, go to **APPLICATIONS** -> **Tailscale**, enable **IP Masquerading**, then click **Apply**.
 
-    ![iP masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/ip_masquerading.png){class="glboxshadow"}
+    ![iP masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/ip_masquerading.png){class="glboxshadow" width=700}
 
     When IP Masquerading is enabled, subnet routes do not need to be configured in the Tailscale Admin console. LAN clients connected to the router can access the Tailscale network directly via the router's Tailscale virtual IP. 
     
@@ -335,7 +335,7 @@ Follow the steps below to configure a **custom exit node** on the GL‑BE9300.
 
 2. Select the device you want to use as an exit node, such as the GL-MG1300 in this example, enable **Run exit node**.
 
-    ![run exit node 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node_1.png){class="glboxshadow" width=600}
+    ![run exit node 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node_1.png){class="glboxshadow" width=700}
 
     Then click **Apply**.
 
@@ -355,7 +355,7 @@ Follow the steps below to configure a **custom exit node** on the GL‑BE9300.
 
 4. Return to the GL-BE9300's web Admin Panel, go to **APPLICATIONS** -> **Tailscale** and enable **Custom Exit Nodes**. Click the refresh button, and select the IP address of the GL-MG1300 from the drop-down menu, then click **Apply**.
 
-    ![custom exit nodes 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/custom_exit_nodes_1.png){class="glboxshadow"}
+    ![custom exit nodes 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/custom_exit_nodes_1.png){class="glboxshadow" width=700}
 
 After configuring, devices connected to the router GL-BE9300 will route their traffic through the exit node GL-MG1300 to access the Internet, and all your Internet traffic will appear to originate from the exit node's location.
 

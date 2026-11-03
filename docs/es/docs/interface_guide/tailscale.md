@@ -331,7 +331,7 @@ Siga estos pasos para configurar un **Exit Node personalizado** en el GL-BE9300.
 
 2. Seleccione el dispositivo que quiera usar como Exit Node, por ejemplo el GL-MG1300 en este caso, y habilite **Run exit node**.
 
-    ![run exit node 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node_1.png){class="glboxshadow" width=600}
+    ![run exit node 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node_1.png){class="glboxshadow"}
 
     A continuación, haga clic en **Apply**.
 

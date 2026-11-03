@@ -332,7 +332,7 @@ Führen Sie die folgenden Schritte aus, um auf dem GL-BE9300 eine **benutzerdefi
 
 2. Wählen Sie das Gerät aus, das Sie als Exit Node verwenden möchten, in diesem Beispiel den GL-MG1300, und aktivieren Sie **Run exit node**.
 
-    ![run exit node 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node_1.png){class="glboxshadow" width=600}
+    ![run exit node 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node_1.png){class="glboxshadow"}
 
     Klicken Sie dann auf **Apply**.
 

@@ -54,19 +54,17 @@ Si su router ejecuta el firmware v4.6 o anterior, siga los pasos siguientes para
 
 ## Compartir el dispositivo con el soporte técnico de GL.iNet {#share-device-with-glinet-technical-support}
 
-1. Visite [GoodCloud](https://www.goodcloud.xyz){target="_blank"} e inicie sesión.
+1. Visite [GoodCloud](https://www.goodcloud.xyz){target="_blank"} e inicie sesión. Luego vaya a **Devices** -> **Bound Devices**.
 
-2. Vaya a **Devices** -> **Bound Devices** y haga clic en el dispositivo que desea compartir.
+    ![bound devices](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/bound_devices.png){class="glboxshadow"}
 
-   ![bound devices](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/bound_devices.png){class="glboxshadow"}
+2. Seleccione el dispositivo que desea compartir y haga clic en **Settings** -> **Share Device** en la esquina superior derecha.
 
-3. Se abrirá la página de detalles del dispositivo. Haga clic en la pestaña **SHARE** y en **Share Device**, como se muestra a continuación.
+    ![share device](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/share_device.png){class="glboxshadow"}
 
-   ![share device](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/share_device.png){class="glboxshadow"}
+3. Haga clic en **GL.iNet Technical Support**. Para proteger su red personal, habilite **Auto Expire Sharing** y configúrelo para que caduque en 7 días. Después haga clic en **Confirm**.
 
-Luego comparta su dispositivo con el soporte técnico de GL.iNet. Para proteger su red personal, habilite **Auto Expire Sharing** y configúrelo para que caduque en 7 días. Después haga clic en **Confirm**.
-
-![share device with GL.iNet support](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/share_device_confirm.png){class="glboxshadow"}
+    ![share device with GL.iNet support](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/share_device_confirm.png){class="glboxshadow" width=600}
 
 **Declaración de protección de privacidad**
 

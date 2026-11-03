@@ -335,7 +335,7 @@ Tailscale — служба VPN, яка забезпечує безпечний �
 
 2. Виберіть пристрій, який використовуватиметься як вихідний вузол (у цьому прикладі GL-MG1300), та ввімкніть **Run exit node**.
 
-    ![Запуск GL-MG1300 як вихідного вузла](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node_1.png){class="glboxshadow" width=600}
+    ![Запуск GL-MG1300 як вихідного вузла](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node_1.png){class="glboxshadow"}
 
     Потім натисніть **Apply**.
 

@@ -54,19 +54,17 @@ Se il router esegue firmware v4.6 o precedente, segui i passaggi sotto per acced
 
 ## Condividere il dispositivo con il supporto tecnico GL.iNet {#share-device-with-glinet-technical-support}
 
-1. Visita [GoodCloud](https://www.goodcloud.xyz){target="_blank"} ed effettua l'accesso.
-
-2. Vai su **Devices** -> **Bound Devices** e fai clic sul dispositivo che vuoi condividere.
+1. Visita [GoodCloud](https://www.goodcloud.xyz){target="_blank"} ed effettua l’accesso, quindi vai su **Devices** -> **Bound Devices**.
 
     ![bound devices](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/bound_devices.png){class="glboxshadow"}
 
-3. Verrai portato alla pagina dei dettagli del dispositivo. Fai clic sulla scheda **SHARE** e poi su **Share Device**, come mostrato sotto.
+2. Seleziona il dispositivo che vuoi condividere e fai clic su **Settings** -> **Share Device** nell’angolo in alto a destra.
 
     ![share device](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/share_device.png){class="glboxshadow"}
 
-    Quindi condividi il dispositivo con il supporto tecnico GL.iNet. Per proteggere la tua rete personale, abilita **Auto Expire Sharing** e impostane la scadenza a 7 giorni. Poi fai clic su **Confirm**.
+3. Fai clic su **GL.iNet Technical Support**. Per proteggere la tua rete personale, abilita **Auto Expire Sharing** e impostane la scadenza a 7 giorni. Poi fai clic su **Confirm**.
 
-    ![share device with GL.iNet support](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/share_device_confirm.png){class="glboxshadow"}
+    ![share device with GL.iNet support](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/share_device_confirm.png){class="glboxshadow" width=600}
 
 **Informativa sulla protezione della privacy**
 

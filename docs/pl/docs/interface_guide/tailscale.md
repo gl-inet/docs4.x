@@ -332,7 +332,7 @@ Wykonaj poniższe kroki, aby skonfigurować **niestandardowy Exit Node** na GL-B
 
 2. Wybierz urządzenie, którego chcesz użyć jako Exit Node, na przykład GL-MG1300 w tym przykładzie, i włącz **Run exit node**.
 
-    ![run exit node 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node_1.png){class="glboxshadow" width=600}
+    ![run exit node 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node_1.png){class="glboxshadow"}
 
     Następnie kliknij **Apply**.
 

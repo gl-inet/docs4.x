@@ -54,19 +54,17 @@ Om routern kör firmware v4.6 eller tidigare följer du stegen nedan för att lo
 
 ## Dela enheten med GL.iNets tekniska support {#share-device-with-glinet-technical-support}
 
-1. Besök [GoodCloud](https://www.goodcloud.xyz){target="_blank"} och logga in.
-
-2. Gå till **Devices** -> **Bound Devices** och klicka på enheten som du vill dela.
+1. Besök [GoodCloud](https://www.goodcloud.xyz){target="_blank"} och logga in. Gå sedan till **Devices** -> **Bound Devices**.
 
     ![bound devices](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/bound_devices.png){class="glboxshadow"}
 
-3. Sidan med enhetsinformation öppnas. Klicka på fliken **SHARE** och sedan på **Share Device** enligt nedan.
+2. Välj enheten som du vill dela och klicka på **Settings** -> **Share Device** i det övre högra hörnet.
 
     ![share device](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/share_device.png){class="glboxshadow"}
 
-    Dela sedan enheten med GL.iNets tekniska support. Skydda ditt privata nätverk genom att aktivera **Auto Expire Sharing** och ange att delningen ska upphöra efter 7 dagar. Klicka därefter på **Confirm**.
+3. Klicka på **GL.iNet Technical Support**. Skydda ditt privata nätverk genom att aktivera **Auto Expire Sharing** och ange att delningen ska upphöra efter 7 dagar. Klicka därefter på **Confirm**.
 
-    ![share device with GL.iNet support](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/share_device_confirm.png){class="glboxshadow"}
+    ![share device with GL.iNet support](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/share_device_confirm.png){class="glboxshadow" width=600}
 
 **Sekretessmeddelande**
 

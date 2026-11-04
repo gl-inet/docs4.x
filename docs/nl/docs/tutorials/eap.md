@@ -1,26 +1,33 @@
 # GL.iNet-routers verbinden met een EAP-netwerk {#connect-glinet-routers-to-an-eap-network}
 
-Sommige GL.iNet-routers ondersteunen verbinding met EAP-Wi-Fi-netwerken (Extensible Authentication Protocol).
+Sommige GL.iNet-routers ondersteunen verbinding met EAP-Wi-Fi-netwerken (Extensible Authentication Protocol) als repeater.
 
 EAP is een verificatieraamwerk dat vaak samen met **802.1X-verificatie** wordt gebruikt voor **WPA2‑Enterprise-/WPA3‑Enterprise-netwerken**. Een bekend voorbeeld is **eduroam**, een wereldwijde Wi‑Fi-roamingservice voor onderwijs en onderzoek die gebruikmaakt van 802.1X en EAP.
 
-In deze handleiding lees je hoe je op twee manieren een GL.iNet-router met een EAP-Wi-Fi-netwerk verbindt: via het GL.iNet Web Admin Panel en via LuCI.
+Voor dit raamwerk bestaan meerdere EAP-verificatiemethoden, waaronder EAP-PEAP, EAP-TLS, EAP-TTLS en EAP-FAST. Niet alle EAP-methoden worden door alle routerinterfaces en -modellen ondersteund.
 
-## Ondersteunde modellen {#supported-models}
+In deze handleiding lees je hoe je op twee manieren een GL.iNet-router met een EAP-Wi-Fi-netwerk verbindt: via het GL.iNet Web Admin Panel en via LuCI. Deze twee manieren bieden verschillende EAP-verificatiemethoden: de eerste biedt alleen **EAP-PEAP**, terwijl de tweede **EAP-TLS**, **EAP-TTLS**, **EAP-PEAP** en **EAP-FAST** biedt.
+
+Sommige GL.iNet-routers ondersteunen de EAP-repeaterfunctie via slechts één van deze twee manieren. Bekijk hieronder de ondersteunde modellen.
+
+### Ondersteunde modellen {#supported-models}
 
 ??? "Ondersteunde modellen"
     - GL-MG1300 (Mango 2)
+    - GL-E5800 (Mudi 7)
     - <u>GL-BE14000 (Flint 4)</u><sup>1</sup>
     - <u>GL-BE10000 (Slate 7 Pro)</u><sup>1</sup>
     - <u>GL-MT3600BE (Beryl 7)</u><sup>1</sup>
-    - GL-E5800 (Mudi 7)
-    - GL-BE6500 (Flint 3e)
-    - GL-BE9300 (Flint 3)
+    - <u>GL-BE6500 (Flint 3e)</u><sup>1</sup>
+    - <u>GL-BE9300 (Flint 3)</u><sup>1</sup>
     - <u>GL-BE3600 (Slate 7)</u><sup>1</sup>
     - GL-X2000 (Spitz Plus)
     - GL-B3000 (Marble)
+    - <u>GL-MT6000 (Flint 2)</u><sup>2</sup>
+    - <u>GL-MT3000 (Beryl AX)</u><sup>2</sup>
     - GL-AX1800 (Flint)
     - GL-AXT1800 (Slate AX)
+    - <u>GL-SFT1200 (Opal)</u><sup>3</sup>
     - GL-A1300 (Slate Plus)
     - GL-XE300 (Puli)
     - GL-E750/GL-E750V2 (Mudi)
@@ -31,21 +38,21 @@ In deze handleiding lees je hoe je op twee manieren een GL.iNet-router met een E
     - GL-B1300 (Convexa-B)
     - GL-AP1300 (Cirrus)
     - GL-X300B (Collie)
-    - <u>GL-MT6000 (Flint 2)</u><sup>2</sup>
-    - <u>GL-MT3000 (Beryl AX)</u><sup>2</sup>
-    - <u>GL-SFT1200 (Opal)</u><sup>3</sup>
 
     ---
 
-    **Voetnoot:**
+    **Opmerking**:
 
-    1. Bij verbinding met WPA/WPA2/WPA3-Enterprise-netwerken ondersteunen GL-BE14000 (Flint 4), GL-BE10000 (Slate 7 Pro), GL-MT3600BE (Beryl 7) en GL-BE3600 (Slate 7) alleen netwerken met PEAP-verificatie. Andere EAP-methoden, zoals EAP-TLS, EAP-TTLS en EAP-MD5, worden niet ondersteund.
+    1. GL-BE14000 (Flint 4), GL-BE10000 (Slate 7 Pro), GL-MT3600BE (Beryl 7), GL-BE6500 (Flint 3e), GL-BE9300 (Flint 3) en GL-BE3600 (Slate 7) ondersteunen verbinding met EAP-PEAP-netwerken als repeater alleen via het GL.iNet Web Admin Panel. Andere EAP-methoden, zoals EAP-TLS, EAP-TTLS en EAP-FAST, worden niet ondersteund.
 
-    2. GL-MT6000 (Fortify), GL-MT6000 (Flint 2) en GL-MT3000 (Beryl AX) ondersteunen met de standaardfirmware geen verbinding met EAP-netwerken. GL.iNet biedt echter oorspronkelijke OpenWrt 24-firmware voor deze modellen, waarmee EAP-ondersteuning wordt toegevoegd. Zoek het model in het [Download Center](https://dl.gl-inet.com/){target="_blank"} en raadpleeg het tabblad OPENWRT 24 voor meer informatie.
+    2. GL-MT6000 (Flint 2) en GL-MT3000 (Beryl AX) ondersteunen met de standaardfirmware geen verbinding met EAP-netwerken als repeater, zowel via het GL.iNet Web Admin Panel als via LuCI. GL.iNet biedt echter OpenWrt-firmware met EAP-ondersteuning (waaronder EAP-PEAP, EAP-TLS, EAP-TTLS en EAP-FAST) voor deze modellen. Zoek je model in het [Download Center](https://dl.gl-inet.com/){target="_blank"} en selecteer het tabblad OPENWRT voor meer informatie.
 
-    3. GL-SFT1200 (Opal) ondersteunt vanaf firmware v4.8 verbinding met EAP-netwerken.
+    3. GL-SFT1200 (Opal) ondersteunt vanaf firmware v4.8 verbinding met EAP-netwerken als repeater. De EAP-verificatiemethoden omvatten EAP-PEAP, EAP-TLS, EAP-TTLS en EAP-FAST.
+
+    4. Met uitzondering van de specifieke modellen in de bovenstaande opmerkingen kunnen alle overige ondersteunde modellen als repeater verbinding maken met EAP-netwerken. De EAP-verificatiemethoden omvatten EAP-PEAP, EAP-TLS, EAP-TTLS en EAP-FAST.
 
 ??? "Niet-ondersteunde modellen"
+    - GL-MT6000 (Fortify)
     - GL-MT5000 (Brume 3)
     - GL-X3000 (Spitz AX)
     - GL-XE3000 (Puli AX)
@@ -54,6 +61,8 @@ In deze handleiding lees je hoe je op twee manieren een GL.iNet-router met een E
     - GL-MT300N-V2 (Mango)
 
 ## Verbinding maken via het Web Admin Panel {#connect-via-web-admin-panel}
+
+Via het GL.iNet Web Admin Panel kun je je router als repeater verbinden met EAP-PEAP-netwerken.
 
 1. Meld je aan bij het Web Admin Panel, ga naar **INTERNET** -> het gedeelte **Repeater** en klik op **Connect**.
 
@@ -81,11 +90,9 @@ In deze handleiding lees je hoe je op twee manieren een GL.iNet-router met een E
 
 ## Verbinding maken via LuCI {#connect-via-luci}
 
-Het GL.iNet Web Admin Panel ondersteunt slechts een beperkt aantal EAP-typen.
+Via LuCI kun je je router als repeater verbinden met een EAP-TLS-, EAP-TTLS-, EAP-PEAP- of EAP-FAST-netwerk.
 
-Als je via het Web Admin Panel geen verbinding kunt maken met het gewenste EAP-netwerk, probeer je via de LuCI-interface verbinding te maken.
-
-> Opmerking: de volgende stappen dienen uitsluitend ter referentie. Raadpleeg de werkelijke LuCI-pagina van je apparaat.
+De volgende stappen dienen uitsluitend ter referentie. Raadpleeg de werkelijke LuCI-pagina van je apparaat.
 
 1. Meld je aan bij het Web Admin Panel en ga naar **SYSTEM** -> **Advanced Settings**. Installeer LuCI en klik op **Go to LuCI**.
 

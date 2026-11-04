@@ -1,26 +1,33 @@
 # EAPネットワークにGL.iNetルーターを接続する方法 {#connect-glinet-routers-to-an-eap-network}
 
-一部の GL.iNet ルーターは、EAP（Extensible Authentication Protocol）Wi-Fi ネットワークへの接続をサポートしています。
+一部の GL.iNet ルーターは、EAP（Extensible Authentication Protocol）Wi-Fi ネットワークへのリピーターとしての接続をサポートしています。
 
 EAP は、**802.1X 認証**を使用する **WPA2‑Enterprise / WPA3‑Enterprise** ネットワークで一般的に利用される認証フレームワークです。代表的な例として、802.1X と EAP に基づく教育・研究向けのグローバル Wi‑Fi ローミングサービス **eduroam** があります。
 
-このガイドでは、GL.iNet ルーターを EAP Wi-Fi ネットワークに接続する 2 つの方法を紹介します。1 つは GL.iNet Web 管理パネル、もう 1 つは LuCI を使用する方法です。
+このフレームワークには、EAP-PEAP、EAP-TLS、EAP-TTLS、EAP-FAST など、複数の EAP 認証方式があります。ただし、すべての EAP 方式がすべてのルーターのインターフェースやモデルでサポートされているわけではありません。
 
-## 対応モデル {#supported-models}
+このガイドでは、GL.iNet ルーターを EAP Wi-Fi ネットワークに接続する 2 つの方法を紹介します。1 つは GL.iNet Web 管理パネル、もう 1 つは LuCI を使用する方法です。それぞれ対応する EAP 認証方式が異なり、前者は **EAP-PEAP** のみ、後者は **EAP-TLS**、**EAP-TTLS**、**EAP-PEAP**、**EAP-FAST** に対応しています。
+
+一部の GL.iNet ルーターでは、この 2 つの方法のうち一方でのみ EAP リピーター機能を利用できます。以下の対応モデルを確認してください。
+
+### 対応モデル {#supported-models}
 
 ??? "対応モデル"
     - GL-MG1300 (Mango 2)
+    - GL-E5800 (Mudi 7)
     - <u>GL-BE14000 (Flint 4)</u><sup>1</sup>
     - <u>GL-BE10000 (Slate 7 Pro)</u><sup>1</sup>
     - <u>GL-MT3600BE (Beryl 7)</u><sup>1</sup>
-    - GL-E5800 (Mudi 7)
-    - GL-BE6500 (Flint 3e)
-    - GL-BE9300 (Flint 3)
+    - <u>GL-BE6500 (Flint 3e)</u><sup>1</sup>
+    - <u>GL-BE9300 (Flint 3)</u><sup>1</sup>
     - <u>GL-BE3600 (Slate 7)</u><sup>1</sup>
     - GL-X2000 (Spitz Plus)
     - GL-B3000 (Marble)
+    - <u>GL-MT6000 (Flint 2)</u><sup>2</sup>
+    - <u>GL-MT3000 (Beryl AX)</u><sup>2</sup>
     - GL-AX1800 (Flint)
     - GL-AXT1800 (Slate AX)
+    - <u>GL-SFT1200 (Opal)</u><sup>3</sup>
     - GL-A1300 (Slate Plus)
     - GL-XE300 (Puli)
     - GL-E750/GL-E750V2 (Mudi)
@@ -31,21 +38,21 @@ EAP は、**802.1X 認証**を使用する **WPA2‑Enterprise / WPA3‑Enterpri
     - GL-B1300 (Convexa-B)
     - GL-AP1300 (Cirrus)
     - GL-X300B (Collie)
-    - <u>GL-MT6000 (Flint 2)</u><sup>2</sup>
-    - <u>GL-MT3000 (Beryl AX)</u><sup>2</sup>
-    - <u>GL-SFT1200 (Opal)</u><sup>3</sup>
 
     ---
 
-    **脚注:**  
-    
-    1. WPA/WPA2/WPA3-Enterpriseネットワークに接続する場合、GL-BE14000 (Flint 4)、GL-BE10000 (Slate 7 Pro)、GL-MT3600BE (Beryl 7)、GL-BE3600 (Slate 7) はPEAP認証ネットワークのみ対応しています。その他のEAP方式（EAP-TLS、EAP-TTLS、EAP-MD5など）はサポートされていません。
-    
-    2. GL-MT6000 (Fortify)、GL-MT6000 (Flint 2)、GL-MT3000 (Beryl AX) は、デフォルトファームウェアでは EAP ネットワークへの接続をサポートしていません。ただし、GL.iNet はこれらのモデル向けにネイティブ OpenWrt 24 ファームウェアを提供しており、これをインストールすると EAP ネットワークに接続できるようになります。詳細は [Download Center](https://dl.gl-inet.com/){target="_blank"} でモデルを検索し、OPENWRT 24 タブを確認してください。
+    **注意**:
 
-    3. GL-SFT1200 (Opal) は、ファームウェア v4.8 以降で EAP ネットワークへの接続をサポートしています。
+    1. GL-BE14000 (Flint 4)、GL-BE10000 (Slate 7 Pro)、GL-MT3600BE (Beryl 7)、GL-BE6500 (Flint 3e)、GL-BE9300 (Flint 3)、GL-BE3600 (Slate 7) は、GL.iNet Web 管理パネルからのみ、リピーターとして EAP-PEAP ネットワークに接続できます。その他の EAP 方式（EAP-TLS、EAP-TTLS、EAP-FAST など）はサポートされていません。
+
+    2. GL-MT6000 (Flint 2) と GL-MT3000 (Beryl AX) は、デフォルトファームウェアでは、GL.iNet Web 管理パネルと LuCI のどちらを使用しても、リピーターとして EAP ネットワークに接続できません。ただし、GL.iNet はこれらのモデル向けに、EAP（EAP-PEAP、EAP-TLS、EAP-TTLS、EAP-FAST を含む）に対応した OpenWrt ファームウェアを提供しています。詳細は [Download Center](https://dl.gl-inet.com/){target="_blank"} でモデルを検索し、OPENWRT タブを選択してください。
+
+    3. GL-SFT1200 (Opal) は、ファームウェア v4.8 以降で、リピーターとして EAP ネットワークに接続できます。対応する EAP 認証方式には、EAP-PEAP、EAP-TLS、EAP-TTLS、EAP-FAST があります。
+
+    4. 上記の注意事項に記載した特定のモデルを除き、その他のすべての対応モデルは、リピーターとして EAP ネットワークに接続できます。対応する EAP 認証方式には、EAP-PEAP、EAP-TLS、EAP-TTLS、EAP-FAST があります。
 
 ??? "非対応モデル"
+    - GL-MT6000 (Fortify)
     - GL-MT5000 (Brume 3)
     - GL-X3000 (Spitz AX)
     - GL-XE3000 (Puli AX)
@@ -54,6 +61,8 @@ EAP は、**802.1X 認証**を使用する **WPA2‑Enterprise / WPA3‑Enterpri
     - GL-MT300N-V2 (Mango)
 
 ## Web 管理パネルから接続する {#connect-via-web-admin-panel}
+
+GL.iNet Web 管理パネルから、ルーターをリピーターとして EAP-PEAP ネットワークに接続できます。
 
 1. Web 管理パネルにログインし、**INTERNET** -> **Repeater** に移動して **Connect** をクリックします。
 
@@ -81,11 +90,9 @@ EAP は、**802.1X 認証**を使用する **WPA2‑Enterprise / WPA3‑Enterpri
 
 ## LuCI から接続する {#connect-via-luci}
 
-GL.iNet の Web 管理パネルで対応している EAP タイプは限られています。
+LuCI から、ルーターをリピーターとして EAP-TLS、EAP-TTLS、EAP-PEAP、または EAP-FAST ネットワークに接続できます。
 
-接続したい EAP ネットワークに Web 管理パネルから接続できない場合は、LuCI インターフェースから接続してみてください。
-
-> **注意**: 以下の手順はあくまで参考です。実際のデバイスの LuCI ページをご参照ください。
+以下の手順は参考です。お使いのデバイスの実際の LuCI ページを参照してください。
 
 1. Web 管理パネルにログインし、**SYSTEM** -> **Advanced Settings** に移動します。LuCI をインストールし、**Go to LuCI** をクリックします。
 

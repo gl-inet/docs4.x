@@ -16,6 +16,25 @@ passes, it opens a PR with the commit message `translation, from en to other`.
 English source issues are included in the PR report; when no PR can be opened,
 the workflow creates a GitHub issue with the same report.
 
+Optional minimal usage reporting is enabled by a repository Actions variable
+`AI_AGENT_STATS_URL` (service base URL injected through the Actions variable)
+and repository Actions secret `AI_AGENT_STATS_TOKEN` (matching the stats
+service ingest token). These are repository-level settings, not secrets in
+the `OpenAI` environment. The final read-only `report` job sends only the
+product (`router` / `4`), repository, run ID/attempt/link, trigger and a coarse
+result: `no_delta`, `success`, `no_changes`, `validation_failed`, `failed` or
+`cancelled`. Here `success` means changes were captured and validation and
+publishing succeeded, not that the PR was merged. Other failures, including
+Codex returning `blocked`, are grouped as `failed`. No artifacts, page text,
+tokens, timing or per-language counts are read or sent. Reporting is disabled
+when the URL is unset; failures only log a warning, with one HTTP attempt and
+a five-second timeout. Cancellation reporting is best-effort: GitHub may stop
+the report job before it can send. Re-running only failed jobs can reuse
+successful jobs from an earlier attempt; these are workflow-attempt results,
+not a count of fresh Codex calls.
+
+Reporter tests: `python3 -m unittest discover -s scripts/tests -p 'test_report_translation_stats.py'`.
+
 # Pull request review
 
 The `pr-review.yml` workflow runs Codex on pull requests to `master` that

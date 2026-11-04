@@ -62,7 +62,7 @@ Some GL.iNet routers support EAP repeater functionality through only one of thes
 
 ## Connect via Web Admin Panel {#connect-via-web-admin-panel}
 
-Through the GL.iNet Web Admin Panel, you can connect you router to EAP-PEAP networks as a repeater.
+Through the GL.iNet Web Admin Panel, you can connect your router to EAP-PEAP networks as a repeater.
 
 1. Log in to the web Admin Panel, go to **INTERNET** -> **Repeater** section, then click **Connect**.
 

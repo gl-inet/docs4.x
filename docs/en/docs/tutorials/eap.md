@@ -90,7 +90,7 @@ Through the GL.iNet Web Admin Panel, you can connect your router to EAP-PEAP net
 
 ## Connect via LuCI {#connect-via-luci}
 
-Through LuCI, you can connect you router to an EAP-TLS, EAP-TTLS, EAP-PEAP, or EAP-FAST network as a repeater.
+Through LuCI, you can connect your router to an EAP-TLS, EAP-TTLS, EAP-PEAP, or EAP-FAST network as a repeater.
 
 The following steps are for reference only. Please refer to the actual LuCI page of your device.
 

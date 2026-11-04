@@ -272,6 +272,8 @@ jobs:
             echo
             echo '```json'
             cat codex-output.json
+            # Codex output may not end with a newline; keep the fence on its own line.
+            echo
             echo '```'
           } > "$RUNNER_TEMP/translation-pr-body.md"
           gh pr create \
@@ -296,6 +298,8 @@ jobs:
             echo
             echo '```json'
             cat codex-output.json
+            # Codex output may not end with a newline; keep the fence on its own line.
+            echo
             echo '```'
           } > "$RUNNER_TEMP/english-source-issues.md"
           gh issue create \

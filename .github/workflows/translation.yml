@@ -317,3 +317,30 @@ jobs:
             jq -r '(.validation.notes // []) + (.notes // []) | .[]' codex-output.json
             exit 1
           fi
+
+  # Minimal, best-effort run reporting: no artifacts or model credentials.
+  report:
+    needs: [prepare, translate, validate, publish]
+    if: always() && vars.AI_AGENT_STATS_URL != ''
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    continue-on-error: true
+    permissions:
+      contents: read
+    steps:
+      - name: Check out reporting script
+        uses: actions/checkout@v6
+        with:
+          # Use the workflow revision, not files modified by Codex.
+          ref: ${{ github.sha }}
+          sparse-checkout: scripts/report_translation_stats.py
+          sparse-checkout-cone-mode: false
+          persist-credentials: false
+
+      - name: Report translation run
+        continue-on-error: true
+        env:
+          AI_AGENT_STATS_URL: ${{ vars.AI_AGENT_STATS_URL }}
+          AI_AGENT_STATS_TOKEN: ${{ secrets.AI_AGENT_STATS_TOKEN }}
+          STATS_NEEDS: ${{ toJSON(needs) }}
+        run: python3 scripts/report_translation_stats.py

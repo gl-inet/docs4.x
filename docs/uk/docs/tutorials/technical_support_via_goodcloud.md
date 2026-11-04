@@ -54,19 +54,17 @@
 
 ## Надання доступу до пристрою службі технічної підтримки GL.iNet {#share-device-with-glinet-technical-support}
 
-1. Відкрийте [GoodCloud](https://www.goodcloud.xyz){target="_blank"} і ввійдіть до облікового запису.
-
-2. Перейдіть до **Devices** -> **Bound Devices** і натисніть пристрій, до якого потрібно надати доступ.
+1. Відкрийте [GoodCloud](https://www.goodcloud.xyz){target="_blank"} і ввійдіть до облікового запису, а потім перейдіть до **Devices** -> **Bound Devices**.
 
     ![Прив’язані пристрої](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/bound_devices.png){class="glboxshadow"}
 
-3. Відкриється сторінка подробиць пристрою. Виберіть вкладку **SHARE** і натисніть **Share Device**, як показано нижче.
+2. Виберіть пристрій, до якого потрібно надати доступ, і натисніть **Settings** -> **Share Device** у верхньому правому куті.
 
     ![Надання доступу до пристрою](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/share_device.png){class="glboxshadow"}
 
-    Надайте доступ до пристрою службі технічної підтримки GL.iNet. Для захисту своєї мережі ввімкніть **Auto Expire Sharing** і встановіть термін дії доступу 7 днів. Потім натисніть **Confirm**.
+3. Натисніть **GL.iNet Technical Support**. Для захисту своєї мережі ввімкніть **Auto Expire Sharing** і встановіть термін дії доступу 7 днів. Потім натисніть **Confirm**.
 
-    ![Надання доступу до пристрою підтримці GL.iNet](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/share_device_confirm.png){class="glboxshadow"}
+    ![Надання доступу до пристрою підтримці GL.iNet](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/share_device_confirm.png){class="glboxshadow" width=600}
 
 **Заява про захист конфіденційності**
 

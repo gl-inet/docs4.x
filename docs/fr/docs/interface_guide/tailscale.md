@@ -332,7 +332,7 @@ Suivez les étapes ci-dessous pour configurer un **nœud de sortie personnalisé
 
 2. Sélectionnez l’appareil à utiliser comme nœud de sortie, par exemple le GL-MG1300 dans cet exemple, puis activez **Run exit node**.
 
-    ![run exit node 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node_1.png){class="glboxshadow" width=600}
+    ![run exit node 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node_1.png){class="glboxshadow"}
 
     Cliquez ensuite sur **Apply**.
 

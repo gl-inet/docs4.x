@@ -335,7 +335,7 @@ Volg de onderstaande stappen om een **aangepaste exit node** op GL‑BE9300 te c
 
 2. Selecteer het apparaat dat als exit node moet werken, hier GL-MG1300, en schakel **Run exit node** in.
 
-    ![run exit node 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node_1.png){class="glboxshadow" width=600}
+    ![run exit node 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node_1.png){class="glboxshadow"}
 
     Klik vervolgens op **Apply**.
 

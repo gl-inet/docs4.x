@@ -54,19 +54,17 @@ GoodCloud とリモートアクセスを有効にするには、デバイスの�
 
 ## GL.iNet技術サポートとデバイスを共有する {#share-device-with-glinet-technical-support}
 
-1. [GoodCloud](https://www.goodcloud.xyz){target="_blank"} にアクセスしてログインします。
-
-2. **Devices** -> **Bound Devices** に移動し、共有したいデバイスをクリックします。
+1. [GoodCloud](https://www.goodcloud.xyz){target="_blank"} にアクセスしてログインし、**Devices** -> **Bound Devices** に移動します。
 
     ![bound devices](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/bound_devices.png){class="glboxshadow"}
 
-3. デバイス詳細ページが表示されたら、**SHARE** タブを開いて **Share Device** をクリックします。
+2. 共有するデバイスを選択し、右上の **Settings** -> **Share Device** をクリックします。
 
     ![share device](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/share_device.png){class="glboxshadow"}
 
-    その後、GL.iNet 技術サポートとデバイスを共有します。個人ネットワークを保護するため、**Auto Expire Sharing** を有効にして有効期限を7日に設定してください。その後、**Confirm** をクリックします。
+3. **GL.iNet Technical Support** をクリックします。個人ネットワークを保護するため、**Auto Expire Sharing** を有効にして有効期限を7日に設定してください。その後、**Confirm** をクリックします。
 
-    ![share device with GL.iNet support](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/share_device_confirm.png){class="glboxshadow"}
+    ![share device with GL.iNet support](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/share_device_confirm.png){class="glboxshadow" width=600}
 
 **プライバシー保護に関する声明**
 

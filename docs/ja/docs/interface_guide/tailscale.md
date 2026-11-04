@@ -334,7 +334,7 @@ GL-BE9300 で **カスタム出口ノード** を設定するには、次の手�
 
 2. 出口ノードとして使用するデバイス（この例では GL-MG1300）を選択し、**Run exit node** を有効にします。
 
-    ![run exit node 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node_1.png){class="glboxshadow" width=600}
+    ![run exit node 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node_1.png){class="glboxshadow"}
 
     次に **Apply** をクリックします。
 

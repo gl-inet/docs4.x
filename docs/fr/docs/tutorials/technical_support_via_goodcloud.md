@@ -54,19 +54,17 @@ Si votre routeur exécute le firmware v4.6 ou une version antérieure, suivez le
 
 ## Partager l’appareil avec l’assistance technique GL.iNet {#share-device-with-glinet-technical-support}
 
-1. Visitez [GoodCloud](https://www.goodcloud.xyz){target="_blank"} et connectez-vous.
-
-2. Accédez à **Devices** -> **Bound Devices**, puis cliquez sur l’appareil que vous souhaitez partager.
+1. Visitez [GoodCloud](https://www.goodcloud.xyz){target="_blank"} et connectez-vous, puis accédez à **Devices** -> **Bound Devices**.
 
     ![bound devices](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/bound_devices.png){class="glboxshadow"}
 
-3. Vous serez redirigé vers la page des détails de l’appareil. Cliquez sur l’onglet **SHARE**, puis sur **Share Device**, comme indiqué ci-dessous.
+2. Sélectionnez l’appareil que vous souhaitez partager et cliquez sur **Settings** -> **Share Device** dans le coin supérieur droit.
 
     ![share device](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/share_device.png){class="glboxshadow"}
 
-    Partagez ensuite votre appareil avec l’assistance technique GL.iNet. Pour protéger votre réseau personnel, veuillez activer **Auto Expire Sharing** et définir une expiration dans 7 jours. Cliquez ensuite sur **Confirm**.
+3. Cliquez sur **GL.iNet Technical Support**. Pour protéger votre réseau personnel, veuillez activer **Auto Expire Sharing** et définir une expiration dans 7 jours. Cliquez ensuite sur **Confirm**.
 
-    ![share device with GL.iNet support](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/share_device_confirm.png){class="glboxshadow"}
+    ![share device with GL.iNet support](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/share_device_confirm.png){class="glboxshadow" width=600}
 
 **Déclaration de protection de la vie privée**
 

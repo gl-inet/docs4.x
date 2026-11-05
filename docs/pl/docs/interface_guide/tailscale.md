@@ -88,7 +88,7 @@ Poniżej pokazano przykład z użyciem modelu GL-MT2500.
 
     ![tailscale admin console](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/tailscale_admin_console_2.png){class="glboxshadow"}
 
-3. Przetestuj łączność.
+4. Przetestuj łączność.
 
     Na urządzeniach podłączonych do tej samej sieci Tailscale możesz przetestować łączność na trzy sposoby.
 
@@ -130,7 +130,7 @@ Kroki konfiguracji są następujące.
 
 3. Włącz trasy podsieci.
 
-    ![tailcale enable subnet route](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/tailscale_enable_subnet_routes.png){class="glboxshadow"}
+    ![tailscale enable subnet route](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/tailscale_enable_subnet_routes.png){class="glboxshadow"}
 
 4. Teraz możesz uzyskać dostęp do GL-AXT1800 za pośrednictwem jego adresu IP (`192.168.29.1`) z innych urządzeń. W praktyce możesz uzyskać dostęp do wszystkich urządzeń w podsieci `192.168.29.0/24`.
 
@@ -194,7 +194,7 @@ W poniższym przykładzie router GL.iNet **GL-MT2500** i **Leo-Desktop** znajduj
 
     W wyskakującym oknie włącz trasy podsieci.
 
-    ![tailcale enable subnet route](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/tailscale_enable_subnet_routes.png){class="glboxshadow"}
+    ![tailscale enable subnet route](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/tailscale_enable_subnet_routes.png){class="glboxshadow"}
 
 2. Na urządzeniu, które ma pełnić rolę Exit Node, takim jak Leo-Desktop w tym przykładzie, wybierz **Run exit node**. Poniżej przykład dla systemu Windows.
 
@@ -346,9 +346,9 @@ Wykonaj poniższe kroki, aby skonfigurować **niestandardowy Exit Node** na GL-B
 
     Aby uniknąć przerw w łączności po wygaśnięciu klucza uwierzytelniania Exit Node, możesz włączyć **Disable Key Expiry**.
 
-    ![disable key expirty 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/disable_key_expiry_1.png){class="glboxshadow"}
+    ![disable key expiry 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/disable_key_expiry_1.png){class="glboxshadow"}
 
-    ![disable key expirty 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/disable_key_expiry_2.png){class="glboxshadow"}
+    ![disable key expiry 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/disable_key_expiry_2.png){class="glboxshadow"}
 
 4. Wróć do panelu administracyjnego GL-BE9300, przejdź do **APPLICATIONS** -> **Tailscale** i włącz **Custom Exit Nodes**. Kliknij przycisk odświeżania, wybierz adres IP GL-MG1300 z menu rozwijanego, a następnie kliknij **Apply**.
 

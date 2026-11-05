@@ -43,11 +43,13 @@ Alcuni router GL.iNet supportano la funzione di ripetitore EAP solo tramite uno 
 
     **Nota:**
 
-    1. GL-MG1300 (Mango 2), GL-AX1800 (Flint), GL-AXT1800 (Slate AX) e GL-E750/GL-E750V2 (Mudi) supportano la connessione a reti EAP come ripetitori sia tramite il pannello di amministrazione web GL.iNet sia tramite LuCI. I metodi di autenticazione EAP includono EAP-PEAP, EAP-TLS, EAP-TTLS ed EAP-FAST.
+    1. GL-MG1300 (Mango 2), GL-AX1800 (Flint), GL-AXT1800 (Slate AX) e GL-E750/GL-E750V2 (Mudi) possono connettersi come ripetitori a reti EAP-PEAP tramite il pannello di amministrazione web GL.iNet e a reti EAP-TLS/EAP-TTLS/EAP-PEAP/EAP-FAST tramite LuCI.
 
-    2. GL-MT6000 (Flint 2) e GL-MT3000 (Beryl AX) non supportano la connessione a reti EAP come ripetitori con il firmware predefinito. Tuttavia, GL.iNet fornisce firmware OpenWrt con supporto EAP (EAP-PEAP, EAP-TLS, EAP-TTLS ed EAP-FAST) per questi modelli. Cerca il tuo modello nel [Download Center](https://dl.gl-inet.com/){target="_blank"} e seleziona la scheda OPENWRT per scaricarlo se necessario.
+    2. GL-MT6000 (Flint 2) e GL-MT3000 (Beryl AX) non supportano la connessione a reti EAP come ripetitori con il firmware predefinito. Tuttavia, GL.iNet fornisce firmware OpenWrt con supporto EAP per questi modelli. Dopo aver installato questo firmware, puoi impostare il router in modalità ripetitore e collegarlo a reti EAP-PEAP tramite il pannello di amministrazione web GL.iNet o a reti EAP-TLS/EAP-TTLS/EAP-PEAP/EAP-FAST tramite LuCI.
 
-    3. GL-SFT1200 (Opal) supporta la connessione a reti EAP come ripetitore a partire dal firmware v4.8, sia tramite il pannello di amministrazione web GL.iNet sia tramite LuCI. I metodi di autenticazione EAP includono EAP-PEAP, EAP-TLS, EAP-TTLS ed EAP-FAST.
+        Cerca il tuo modello nel [Download Center](https://dl.gl-inet.com/){target="_blank"} e seleziona la scheda OpenWrt per scaricare il firmware, se necessario.
+
+    3. GL-SFT1200 (Opal) supporta la connessione a reti EAP come ripetitore a partire dal firmware v4.8, sia tramite il pannello di amministrazione web GL.iNet (EAP-PEAP) sia tramite LuCI (EAP-TLS/EAP-TTLS/EAP-PEAP/EAP-FAST).
 
     4. Tutti gli altri modelli sopra elencati supportano la connessione a reti EAP-PEAP come ripetitori solo tramite il pannello di amministrazione web GL.iNet. Altri metodi EAP (EAP-TLS, EAP-TTLS, EAP-FAST, ecc.) non sono supportati.
 

@@ -88,7 +88,7 @@ Tailscale — служба VPN, яка забезпечує безпечний �
 
     ![Консоль адміністрування Tailscale](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/tailscale_admin_console_2.png){class="glboxshadow"}
 
-3. Перевірте з’єднання.
+4. Перевірте з’єднання.
 
     На пристроях, підключених до тієї самої мережі Tailscale, перевірте з’єднання одним із трьох способів.
 

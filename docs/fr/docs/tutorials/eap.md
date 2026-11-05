@@ -43,11 +43,13 @@ Certains routeurs GL.iNet prennent en charge la fonction de répéteur EAP via u
 
     **Remarque** :
 
-    1. Les GL-MG1300 (Mango 2), GL-AX1800 (Flint), GL-AXT1800 (Slate AX) et GL-E750/GL-E750V2 (Mudi) prennent en charge la connexion aux réseaux EAP en tant que répéteur aussi bien via le panneau d'administration Web GL.iNet que via LuCI. Les méthodes d'authentification EAP comprennent EAP-PEAP, EAP-TLS, EAP-TTLS et EAP-FAST.
+    1. Les GL-MG1300 (Mango 2), GL-AX1800 (Flint), GL-AXT1800 (Slate AX) et GL-E750/GL-E750V2 (Mudi) peuvent se connecter en tant que répéteur aux réseaux EAP-PEAP via le panneau d'administration Web GL.iNet, et aux réseaux EAP-TLS/EAP-TTLS/EAP-PEAP/EAP-FAST via LuCI.
 
-    2. Les GL-MT6000 (Flint 2) et GL-MT3000 (Beryl AX) ne prennent pas en charge la connexion aux réseaux EAP en tant que répéteur avec le firmware par défaut. Cependant, GL.iNet fournit pour ces modèles un firmware OpenWrt prenant en charge EAP (EAP-PEAP, EAP-TLS, EAP-TTLS et EAP-FAST). Recherchez votre modèle dans le [Download Center](https://dl.gl-inet.com/){target="_blank"} et sélectionnez l'onglet OPENWRT pour le télécharger si nécessaire.
+    2. Les GL-MT6000 (Flint 2) et GL-MT3000 (Beryl AX) ne prennent pas en charge la connexion aux réseaux EAP en tant que répéteur avec le firmware par défaut. Cependant, GL.iNet fournit pour ces modèles un firmware OpenWrt prenant en charge EAP. Après avoir installé ce firmware, vous pouvez configurer le routeur en mode répéteur et le connecter aux réseaux EAP-PEAP via le panneau d'administration Web GL.iNet, ou aux réseaux EAP-TLS/EAP-TTLS/EAP-PEAP/EAP-FAST via LuCI.
 
-    3. Le GL-SFT1200 (Opal) prend en charge la connexion aux réseaux EAP en tant que répéteur à partir du firmware v4.8, aussi bien via le panneau d'administration Web GL.iNet que via LuCI. Les méthodes d'authentification EAP comprennent EAP-PEAP, EAP-TLS, EAP-TTLS et EAP-FAST.
+        Recherchez votre modèle dans le [Download Center](https://dl.gl-inet.com/){target="_blank"} et sélectionnez l'onglet OpenWrt pour télécharger ce firmware si nécessaire.
+
+    3. Le GL-SFT1200 (Opal) prend en charge la connexion aux réseaux EAP en tant que répéteur à partir du firmware v4.8, via le panneau d'administration Web GL.iNet (EAP-PEAP) et via LuCI (EAP-TLS/EAP-TTLS/EAP-PEAP/EAP-FAST).
 
     4. Tous les autres modèles ci-dessus prennent en charge la connexion aux réseaux EAP-PEAP en tant que répéteur uniquement via le panneau d'administration Web GL.iNet. Les autres méthodes EAP (EAP-TLS, EAP-TTLS, EAP-FAST, etc.) ne sont pas prises en charge.
 

@@ -43,13 +43,15 @@ Some GL.iNet routers support EAP repeater functionality through only one of thes
 
     **Note**:
     
-    1. GL-MG1300 (Mango 2), GL-AX1800 (Flint), GL-AXT1800 (Slate AX), and GL-E750/GL-E750V2 (Mudi) support repeating EAP networks through both the GL.iNet Web Admin Panel and the LuCI. The EAP authentication methods include EAP-PEAP, EAP-TLS, EAP-TTLS, and EAP-FAST.
+    1. GL-MG1300 (Mango 2), GL-AX1800 (Flint), GL-AXT1800 (Slate AX), and GL-E750/GL-E750V2 (Mudi) can connect to EAP-PEAP networks as a repeater through the GL.iNet Web Admin Panel, and EAP-TLS/EAP-TTLS/EAP-PEAP/EAP-FAST networks through LuCI.
 
-    2. GL-MT6000 (Flint 2) and GL-MT3000 (Beryl AX) do not support repeating EAP networks on the default firmware. However, GL.iNet provides OpenWrt firmware with EAP support (EAP-PEAP, EAP-TLS, EAP-TTLS, and EAP-FAST) for these models. Search for your model in the [Download Center](https://dl.gl-inet.com/){target="_blank"} and select the OPENWRT tab to download if needed.
+    2. GL-MT6000 (Flint 2) and GL-MT3000 (Beryl AX) do not support repeating EAP networks on the default firmware. However, GL.iNet provides OpenWrt firmware with EAP support for these models. After installing this firmware, you can set the router to repeater mode and connect it to EAP-PEAP networks through the GL.iNet Web Admin Panel, or to EAP-TLS/EAP-TTLS/EAP-PEAP/EAP-FAST networks through LuCI.
 
-    3. GL-SFT1200 (Opal) supports repeating EAP networks as of firmware v4.8, through both the GL.iNet Web Admin Panel and the LuCI. The EAP authentication methods include EAP-PEAP, EAP-TLS, EAP-TTLS, and EAP-FAST.
+        Search for your model in the [Download Center](https://dl.gl-inet.com/){target="_blank"} and select the OpenWrt tab to download it if needed.
+
+    3. GL-SFT1200 (Opal) supports repeating EAP networks as of firmware v4.8, through both the GL.iNet Web Admin Panel (EAP-PEAP) and LuCI (EAP-TLS/EAP-TTLS/EAP-PEAP/EAP-FAST).
     
-    4. All other models above support repeating EAP-PEAP networks only through the GL.iNet Web Admin Panel. Other EAP methods (EAP-TLS, EAP-TTLS, EAP-FAST, etc.) are not supported.
+    4. All other models listed above can repeat EAP-PEAP networks only through the GL.iNet Web Admin Panel. Other EAP methods (EAP-TLS, EAP-TTLS, EAP-FAST, etc.) are not supported.
 
 ??? "Unsupported Models"
     - GL-MT6000 (Fortify)
@@ -139,7 +141,7 @@ Follow the steps below to connect your GL.iNet router to EAP networks that requi
 
     ![abort connection](https://static.gl-inet.com/docs/router/en/4/tutorials/eap/abort_connection.png){class="glboxshadow"}
 
-    Then go to **SYSTEM** -> **Advanced Settings** -> **Go to LuCI**. Log in to the LuCI with the same admin password.
+    Then go to **SYSTEM** -> **Advanced Settings** -> **Go to LuCI**. Log in to LuCI with the same admin password.
 
     ![luci login](https://static.gl-inet.com/docs/router/en/4/tutorials/eap/luci_login.jpg){class="glboxshadow gl-70-desktop"}
 

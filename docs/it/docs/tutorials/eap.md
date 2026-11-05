@@ -13,24 +13,24 @@ Alcuni router GL.iNet supportano la funzione di ripetitore EAP solo tramite uno 
 ### Modelli supportati {#supported-models}
 
 ??? "Modelli supportati"
-    - GL-MG1300 (Mango 2)
+    - <u>GL-MG1300 (Mango 2)</u><sup>1</sup>
     - GL-E5800 (Mudi 7)
-    - <u>GL-BE14000 (Flint 4)</u><sup>1</sup>
-    - <u>GL-BE10000 (Slate 7 Pro)</u><sup>1</sup>
-    - <u>GL-MT3600BE (Beryl 7)</u><sup>1</sup>
-    - <u>GL-BE6500 (Flint 3e)</u><sup>1</sup>
-    - <u>GL-BE9300 (Flint 3)</u><sup>1</sup>
-    - <u>GL-BE3600 (Slate 7)</u><sup>1</sup>
+    - GL-BE14000 (Flint 4)
+    - GL-BE10000 (Slate 7 Pro)
+    - GL-MT3600BE (Beryl 7)
+    - GL-BE6500 (Flint 3e)
+    - GL-BE9300 (Flint 3)
+    - GL-BE3600 (Slate 7)
     - GL-X2000 (Spitz Plus)
     - GL-B3000 (Marble)
     - <u>GL-MT6000 (Flint 2)</u><sup>2</sup>
     - <u>GL-MT3000 (Beryl AX)</u><sup>2</sup>
-    - GL-AX1800 (Flint)
-    - GL-AXT1800 (Slate AX)
+    - <u>GL-AX1800 (Flint)</u><sup>1</sup>
+    - <u>GL-AXT1800 (Slate AX)</u><sup>1</sup>
     - <u>GL-SFT1200 (Opal)</u><sup>3</sup>
     - GL-A1300 (Slate Plus)
     - GL-XE300 (Puli)
-    - GL-E750/GL-E750V2 (Mudi)
+    - <u>GL-E750/GL-E750V2 (Mudi)</u><sup>1</sup>
     - GL-X750/GL-X750V2 (Spitz)
     - GL-AR750S (Slate)
     - GL-AR750 (Creta)
@@ -43,13 +43,13 @@ Alcuni router GL.iNet supportano la funzione di ripetitore EAP solo tramite uno 
 
     **Nota:**
 
-    1. GL-BE14000 (Flint 4), GL-BE10000 (Slate 7 Pro), GL-MT3600BE (Beryl 7), GL-BE6500 (Flint 3e), GL-BE9300 (Flint 3) e GL-BE3600 (Slate 7) supportano la connessione a reti EAP-PEAP come ripetitori solo tramite il pannello di amministrazione web GL.iNet. Altri metodi EAP (EAP-TLS, EAP-TTLS, EAP-FAST, ecc.) non sono supportati.
+    1. GL-MG1300 (Mango 2), GL-AX1800 (Flint), GL-AXT1800 (Slate AX) e GL-E750/GL-E750V2 (Mudi) supportano la connessione a reti EAP come ripetitori sia tramite il pannello di amministrazione web GL.iNet sia tramite LuCI. I metodi di autenticazione EAP includono EAP-PEAP, EAP-TLS, EAP-TTLS ed EAP-FAST.
 
-    2. GL-MT6000 (Flint 2) e GL-MT3000 (Beryl AX) non supportano la connessione a reti EAP come ripetitori con il firmware predefinito, né tramite il pannello di amministrazione web GL.iNet né tramite LuCI. Tuttavia, GL.iNet fornisce firmware OpenWrt con supporto EAP (inclusi EAP-PEAP, EAP-TLS, EAP-TTLS ed EAP-FAST) per questi modelli. Cerca il tuo modello nel [Download Center](https://dl.gl-inet.com/){target="_blank"} e seleziona la scheda OPENWRT per i dettagli.
+    2. GL-MT6000 (Flint 2) e GL-MT3000 (Beryl AX) non supportano la connessione a reti EAP come ripetitori con il firmware predefinito. Tuttavia, GL.iNet fornisce firmware OpenWrt con supporto EAP (EAP-PEAP, EAP-TLS, EAP-TTLS ed EAP-FAST) per questi modelli. Cerca il tuo modello nel [Download Center](https://dl.gl-inet.com/){target="_blank"} e seleziona la scheda OPENWRT per scaricarlo se necessario.
 
-    3. GL-SFT1200 (Opal) supporta la connessione a reti EAP come ripetitore a partire dal firmware v4.8. I metodi di autenticazione EAP includono EAP-PEAP, EAP-TLS, EAP-TTLS ed EAP-FAST.
+    3. GL-SFT1200 (Opal) supporta la connessione a reti EAP come ripetitore a partire dal firmware v4.8, sia tramite il pannello di amministrazione web GL.iNet sia tramite LuCI. I metodi di autenticazione EAP includono EAP-PEAP, EAP-TLS, EAP-TTLS ed EAP-FAST.
 
-    4. Ad eccezione dei modelli specifici elencati nelle note precedenti, tutti gli altri modelli supportati possono connettersi a reti EAP come ripetitori. I metodi di autenticazione EAP includono EAP-PEAP, EAP-TLS, EAP-TTLS ed EAP-FAST.
+    4. Tutti gli altri modelli sopra elencati supportano la connessione a reti EAP-PEAP come ripetitori solo tramite il pannello di amministrazione web GL.iNet. Altri metodi EAP (EAP-TLS, EAP-TTLS, EAP-FAST, ecc.) non sono supportati.
 
 ??? "Modelli non supportati"
     - GL-MT6000 (Fortify)
@@ -177,7 +177,7 @@ Segui i passaggi seguenti per collegare il router GL.iNet a reti EAP che richied
 
 6. Tornerai alla pagina Wireless, che mostrerà le modifiche in sospeso. Fai clic sul pulsante **Save & Apply** nell'angolo in basso a destra.
 
-    ![save abd apply](https://static.gl-inet.com/docs/router/en/4/tutorials/eap/save_apply.png){class="glboxshadow"}
+    ![save and apply](https://static.gl-inet.com/docs/router/en/4/tutorials/eap/save_apply.png){class="glboxshadow"}
 
     Il router verrà collegato correttamente alla rete EAP di destinazione.
 

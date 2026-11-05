@@ -204,7 +204,7 @@ Volg de stappen om Leo-Desktop als Exit Node in te stellen. Raadpleeg [IP Masque
 
     Klik vervolgens op **Yes**.
 
-    ![tailscale windows run exit ndoe](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/custom_exit_nodes/tailscale_run_exit_node_alert.png){class="glboxshadow"}
+    ![tailscale windows run exit node](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/custom_exit_nodes/tailscale_run_exit_node_alert.png){class="glboxshadow"}
 
 3. Stel Leo-Desktop in Tailscale Admin als Exit Node in.
 

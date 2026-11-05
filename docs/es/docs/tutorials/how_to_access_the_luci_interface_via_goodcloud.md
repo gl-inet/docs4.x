@@ -32,7 +32,7 @@ Desde la versión 4.7, los usuarios pueden acceder directamente a la página LuC
     ![remote gui](https://static.gl-inet.com/docs/router/en/4/tutorials/access_luci_via_goodcloud/remote_gui_of_bound_device.png){class="glboxshadow"}
     La ventana emergente muestra el puerto 80. Haga clic en Apply.
 
-    ![vist web apply](https://static.gl-inet.com/docs/router/en/4/tutorials/access_luci_via_goodcloud/visit_web_apply.png){class="glboxshadow"}
+    ![visit web apply](https://static.gl-inet.com/docs/router/en/4/tutorials/access_luci_via_goodcloud/visit_web_apply.png){class="glboxshadow"}
 3. A continuación, será redirigido a la página de inicio de sesión del panel de administración de GL.iNet. Introduzca su contraseña de administrador para iniciar sesión.
     ![admin panel login](https://static.gl-inet.com/docs/router/en/4/tutorials/access_luci_via_goodcloud/admin_panel_login.png){class="glboxshadow"}
 4. Después de iniciar sesión, en el lado izquierdo vaya a SYSTEM -> Advanced Settings y haga clic en el hipervínculo para ir a la interfaz LuCI.

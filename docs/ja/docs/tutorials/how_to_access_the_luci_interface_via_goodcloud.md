@@ -42,7 +42,7 @@ v4.7 以降では、ルーターの Web 管理パネルを経由せずに、Good
 
     ポップアップウィンドウにはポート 80 が表示されます。そのまま **Apply** をクリックします。
 
-    ![vist web apply](https://static.gl-inet.com/docs/router/en/4/tutorials/access_luci_via_goodcloud/visit_web_apply.png){class="glboxshadow"}
+    ![visit web apply](https://static.gl-inet.com/docs/router/en/4/tutorials/access_luci_via_goodcloud/visit_web_apply.png){class="glboxshadow"}
 
 3. GL.iNet Admin Panel のログインページへリダイレクトされます。管理者パスワードを入力してログインします。
 

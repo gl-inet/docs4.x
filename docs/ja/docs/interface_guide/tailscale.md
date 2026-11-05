@@ -204,7 +204,7 @@ Leo-Desktop を出口ノードとして設定する手順は以下のとおり�
 
     次に **Yes** をクリックします。
 
-    ![tailscale windows run exit ndoe](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/custom_exit_nodes/tailscale_run_exit_node_alert.png){class="glboxshadow"}
+    ![tailscale windows run exit node](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/custom_exit_nodes/tailscale_run_exit_node_alert.png){class="glboxshadow"}
 
 3. Tailscale Admin console で、Leo-Desktop を出口ノードとして設定します。
 

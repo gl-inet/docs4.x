@@ -13,24 +13,24 @@ Certains routeurs GL.iNet prennent en charge la fonction de répéteur EAP via u
 ### Modèles pris en charge {#supported-models}
 
 ??? "Modèles pris en charge"
-    - GL-MG1300 (Mango 2)
+    - <u>GL-MG1300 (Mango 2)</u><sup>1</sup>
     - GL-E5800 (Mudi 7)
-    - <u>GL-BE14000 (Flint 4)</u><sup>1</sup>
-    - <u>GL-BE10000 (Slate 7 Pro)</u><sup>1</sup>
-    - <u>GL-MT3600BE (Beryl 7)</u><sup>1</sup>
-    - <u>GL-BE6500 (Flint 3e)</u><sup>1</sup>
-    - <u>GL-BE9300 (Flint 3)</u><sup>1</sup>
-    - <u>GL-BE3600 (Slate 7)</u><sup>1</sup>
+    - GL-BE14000 (Flint 4)
+    - GL-BE10000 (Slate 7 Pro)
+    - GL-MT3600BE (Beryl 7)
+    - GL-BE6500 (Flint 3e)
+    - GL-BE9300 (Flint 3)
+    - GL-BE3600 (Slate 7)
     - GL-X2000 (Spitz Plus)
     - GL-B3000 (Marble)
     - <u>GL-MT6000 (Flint 2)</u><sup>2</sup>
     - <u>GL-MT3000 (Beryl AX)</u><sup>2</sup>
-    - GL-AX1800 (Flint)
-    - GL-AXT1800 (Slate AX)
+    - <u>GL-AX1800 (Flint)</u><sup>1</sup>
+    - <u>GL-AXT1800 (Slate AX)</u><sup>1</sup>
     - <u>GL-SFT1200 (Opal)</u><sup>3</sup>
     - GL-A1300 (Slate Plus)
     - GL-XE300 (Puli)
-    - GL-E750/GL-E750V2 (Mudi)
+    - <u>GL-E750/GL-E750V2 (Mudi)</u><sup>1</sup>
     - GL-X750/GL-X750V2 (Spitz)
     - GL-AR750S (Slate)
     - GL-AR750 (Creta)
@@ -43,13 +43,13 @@ Certains routeurs GL.iNet prennent en charge la fonction de répéteur EAP via u
 
     **Remarque** :
 
-    1. Les GL-BE14000 (Flint 4), GL-BE10000 (Slate 7 Pro), GL-MT3600BE (Beryl 7), GL-BE6500 (Flint 3e), GL-BE9300 (Flint 3) et GL-BE3600 (Slate 7) prennent en charge la connexion aux réseaux EAP-PEAP en tant que répéteur uniquement via le panneau d'administration Web GL.iNet. Les autres méthodes EAP (EAP-TLS, EAP-TTLS, EAP-FAST, etc.) ne sont pas prises en charge.
+    1. Les GL-MG1300 (Mango 2), GL-AX1800 (Flint), GL-AXT1800 (Slate AX) et GL-E750/GL-E750V2 (Mudi) prennent en charge la connexion aux réseaux EAP en tant que répéteur aussi bien via le panneau d'administration Web GL.iNet que via LuCI. Les méthodes d'authentification EAP comprennent EAP-PEAP, EAP-TLS, EAP-TTLS et EAP-FAST.
 
-    2. Les GL-MT6000 (Flint 2) et GL-MT3000 (Beryl AX) ne prennent pas en charge la connexion aux réseaux EAP en tant que répéteur avec le firmware par défaut, que ce soit via le panneau d'administration Web GL.iNet ou via LuCI. Cependant, GL.iNet fournit pour ces modèles des firmwares OpenWrt prenant en charge EAP (notamment EAP-PEAP, EAP-TLS, EAP-TTLS et EAP-FAST). Recherchez votre modèle dans le [Download Center](https://dl.gl-inet.com/){target="_blank"} et sélectionnez l'onglet OPENWRT pour plus de détails.
+    2. Les GL-MT6000 (Flint 2) et GL-MT3000 (Beryl AX) ne prennent pas en charge la connexion aux réseaux EAP en tant que répéteur avec le firmware par défaut. Cependant, GL.iNet fournit pour ces modèles un firmware OpenWrt prenant en charge EAP (EAP-PEAP, EAP-TLS, EAP-TTLS et EAP-FAST). Recherchez votre modèle dans le [Download Center](https://dl.gl-inet.com/){target="_blank"} et sélectionnez l'onglet OPENWRT pour le télécharger si nécessaire.
 
-    3. Le GL-SFT1200 (Opal) prend en charge la connexion aux réseaux EAP en tant que répéteur à partir du firmware v4.8. Les méthodes d'authentification EAP comprennent EAP-PEAP, EAP-TLS, EAP-TTLS et EAP-FAST.
+    3. Le GL-SFT1200 (Opal) prend en charge la connexion aux réseaux EAP en tant que répéteur à partir du firmware v4.8, aussi bien via le panneau d'administration Web GL.iNet que via LuCI. Les méthodes d'authentification EAP comprennent EAP-PEAP, EAP-TLS, EAP-TTLS et EAP-FAST.
 
-    4. À l'exception des modèles spécifiques mentionnés dans les remarques ci-dessus, tous les autres modèles pris en charge peuvent se connecter aux réseaux EAP en tant que répéteur. Les méthodes d'authentification EAP comprennent EAP-PEAP, EAP-TLS, EAP-TTLS et EAP-FAST.
+    4. Tous les autres modèles ci-dessus prennent en charge la connexion aux réseaux EAP-PEAP en tant que répéteur uniquement via le panneau d'administration Web GL.iNet. Les autres méthodes EAP (EAP-TLS, EAP-TTLS, EAP-FAST, etc.) ne sont pas prises en charge.
 
 ??? "Modèles non pris en charge"
     - GL-MT6000 (Fortify)
@@ -177,7 +177,7 @@ Suivez les étapes ci-dessous pour connecter votre routeur GL.iNet à des résea
 
 6. Vous reviendrez à la page Wireless, qui affichera les modifications en attente. Cliquez sur le bouton **Save & Apply** en bas à droite.
 
-    ![save abd apply](https://static.gl-inet.com/docs/router/en/4/tutorials/eap/save_apply.png){class="glboxshadow"}
+    ![save and apply](https://static.gl-inet.com/docs/router/en/4/tutorials/eap/save_apply.png){class="glboxshadow"}
 
     Votre routeur sera alors connecté avec succès au réseau EAP cible.
 

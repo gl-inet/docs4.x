@@ -42,7 +42,7 @@
 
     La fenêtre contextuelle affiche le port 80 ; cliquez sur **Apply**.
 
-    ![vist web apply](https://static.gl-inet.com/docs/router/en/4/tutorials/access_luci_via_goodcloud/visit_web_apply.png){class="glboxshadow"}
+    ![visit web apply](https://static.gl-inet.com/docs/router/en/4/tutorials/access_luci_via_goodcloud/visit_web_apply.png){class="glboxshadow"}
 
 3. Vous serez alors redirigé vers la page de connexion du GL.iNet Admin Panel. Saisissez votre mot de passe administrateur pour vous connecter.
 

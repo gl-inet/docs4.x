@@ -202,7 +202,7 @@ Im folgenden Beispiel befinden sich ein GL.iNet-Router **GL-MT2500** und ein **L
 
     Klicken Sie dann auf **Yes**.
 
-    ![tailscale windows run exit ndoe](https://static.gl-inet.com/docs/router/de/4/interface_guide/tailscale/custom_exit_nodes/tailscale_run_exit_node_alert.png){class="glboxshadow"}
+    ![tailscale windows run exit node](https://static.gl-inet.com/docs/router/de/4/interface_guide/tailscale/custom_exit_nodes/tailscale_run_exit_node_alert.png){class="glboxshadow"}
 
 3. Richten Sie Leo-Desktop in der Tailscale Admin Console als Exit Node ein.
 

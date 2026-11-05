@@ -42,7 +42,7 @@ Ab v4.7 können Benutzer direkt über die GoodCloud-Plattform auf die LuCI-Seite
 
     Im Pop-up-Fenster wird Port 80 angezeigt. Klicken Sie auf **Apply**.
 
-    ![vist web apply](https://static.gl-inet.com/docs/router/de/4/tutorials/access_luci_via_goodcloud/visit_web_apply.png){class="glboxshadow"}
+    ![visit web apply](https://static.gl-inet.com/docs/router/de/4/tutorials/access_luci_via_goodcloud/visit_web_apply.png){class="glboxshadow"}
 
 3. Anschließend werden Sie zur Anmeldeseite des GL.iNet-Adminbereichs weitergeleitet. Geben Sie Ihr Admin-Passwort ein, um sich anzumelden.
 

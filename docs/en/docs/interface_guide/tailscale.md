@@ -204,7 +204,7 @@ Here are the steps to set Leo-Desktop as an Exit Node. For an alternative custom
 
     Then click **Yes**.
 
-    ![tailscale windows run exit ndoe](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/custom_exit_nodes/tailscale_run_exit_node_alert.png){class="glboxshadow"}
+    ![tailscale windows run exit node](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/custom_exit_nodes/tailscale_run_exit_node_alert.png){class="glboxshadow"}
 
 3. In the Tailscale Admin console, set up the Leo-Desktop as an Exit node.
 

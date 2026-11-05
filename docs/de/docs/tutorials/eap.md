@@ -1,26 +1,33 @@
 # GL.iNet-Router mit einem EAP-Netzwerk verbinden {#connect-glinet-routers-to-an-eap-network}
 
-Einige GL.iNet-Router unterstützen die Verbindung mit EAP-WLAN-Netzwerken (Extensible Authentication Protocol).
+Einige GL.iNet-Router unterstützen die Verbindung mit EAP-WLAN-Netzwerken (Extensible Authentication Protocol) als Repeater.
 
 EAP ist ein Authentifizierungs-Framework, das häufig mit **802.1X-Authentifizierung** für **WPA2‑Enterprise / WPA3‑Enterprise**-Netzwerke verwendet wird. Ein typisches Beispiel ist **eduroam**, ein globaler WLAN-Roaming-Dienst für Bildung und Forschung, der auf 802.1X und EAP basiert.
 
-In dieser Anleitung werden zwei Möglichkeiten beschrieben, wie Sie GL.iNet-Router mit einem EAP-WLAN-Netzwerk verbinden können: über das GL.iNet Web-Admin-Panel und über LuCI.
+Dieses Framework bietet mehrere EAP-Authentifizierungsmethoden, darunter EAP-PEAP, EAP-TLS, EAP-TTLS und EAP-FAST. Nicht alle EAP-Methoden werden von allen Router-Oberflächen und Modellen unterstützt.
 
-## Unterstützte Modelle {#supported-models}
+Diese Anleitung beschreibt zwei Möglichkeiten, GL.iNet-Router mit einem EAP-WLAN-Netzwerk zu verbinden: über das GL.iNet Web-Admin-Panel und über LuCI. Die beiden Möglichkeiten bieten unterschiedliche EAP-Authentifizierungsmethoden: Das Web-Admin-Panel bietet nur **EAP-PEAP**, LuCI dagegen **EAP-TLS**, **EAP-TTLS**, **EAP-PEAP** und **EAP-FAST**.
+
+Einige GL.iNet-Router unterstützen die EAP-Repeater-Funktion nur über eine dieser beiden Möglichkeiten. Prüfen Sie die unten aufgeführten unterstützten Modelle.
+
+### Unterstützte Modelle {#supported-models}
 
 ??? "Unterstützte Modelle"
     - GL-MG1300 (Mango 2)
+    - GL-E5800 (Mudi 7)
     - <u>GL-BE14000 (Flint 4)</u><sup>1</sup>
     - <u>GL-BE10000 (Slate 7 Pro)</u><sup>1</sup>
     - <u>GL-MT3600BE (Beryl 7)</u><sup>1</sup>
-    - GL-E5800 (Mudi 7)
-    - GL-BE6500 (Flint 3e)
-    - GL-BE9300 (Flint 3)
+    - <u>GL-BE6500 (Flint 3e)</u><sup>1</sup>
+    - <u>GL-BE9300 (Flint 3)</u><sup>1</sup>
     - <u>GL-BE3600 (Slate 7)</u><sup>1</sup>
     - GL-X2000 (Spitz Plus)
     - GL-B3000 (Marble)
+    - <u>GL-MT6000 (Flint 2)</u><sup>2</sup>
+    - <u>GL-MT3000 (Beryl AX)</u><sup>2</sup>
     - GL-AX1800 (Flint)
     - GL-AXT1800 (Slate AX)
+    - <u>GL-SFT1200 (Opal)</u><sup>3</sup>
     - GL-A1300 (Slate Plus)
     - GL-XE300 (Puli)
     - GL-E750/GL-E750V2 (Mudi)
@@ -31,21 +38,21 @@ In dieser Anleitung werden zwei Möglichkeiten beschrieben, wie Sie GL.iNet-Rout
     - GL-B1300 (Convexa-B)
     - GL-AP1300 (Cirrus)
     - GL-X300B (Collie)
-    - <u>GL-MT6000 (Flint 2)</u><sup>2</sup>
-    - <u>GL-MT3000 (Beryl AX)</u><sup>2</sup>
-    - <u>GL-SFT1200 (Opal)</u><sup>3</sup>
 
     ---
 
-    **Fußnote:** 
-    
-    1. Bei der Verbindung mit WPA/WPA2/WPA3-Enterprise-Netzwerken unterstützen GL-BE14000 (Flint 4), GL-BE10000 (Slate 7 Pro), GL-MT3600BE (Beryl 7) und GL-BE3600 (Slate 7) nur PEAP-authentifizierte Netzwerke. Andere EAP-Methoden (EAP-TLS, EAP-TTLS, EAP-MD5 usw.) werden nicht unterstützt.
-    
-    2. GL-MT6000 (Fortify), GL-MT6000 (Flint 2) und GL-MT3000 (Beryl AX) unterstützen mit der Standard-Firmware keine Verbindung zu EAP-Netzwerken. GL.iNet stellt jedoch native OpenWrt-24-Firmware für diese Modelle bereit, die EAP-Unterstützung hinzufügt. Suchen Sie im [Download Center](https://dl.gl-inet.com/){target="_blank"} nach dem Modell und wechseln Sie zur Registerkarte **OPENWRT 24**, um weitere Details zu erhalten.
+    **Hinweis**:
 
-    3. GL-SFT1200 (Opal) unterstützt ab Firmware v4.8 die Verbindung zu EAP-Netzwerken.
+    1. GL-BE14000 (Flint 4), GL-BE10000 (Slate 7 Pro), GL-MT3600BE (Beryl 7), GL-BE6500 (Flint 3e), GL-BE9300 (Flint 3) und GL-BE3600 (Slate 7) unterstützen EAP-PEAP-Netzwerke als Repeater nur über das GL.iNet Web-Admin-Panel. Andere EAP-Methoden (EAP-TLS, EAP-TTLS, EAP-FAST usw.) werden nicht unterstützt.
+
+    2. GL-MT6000 (Flint 2) und GL-MT3000 (Beryl AX) unterstützen mit der Standard-Firmware keine EAP-Netzwerke als Repeater, weder über das GL.iNet Web-Admin-Panel noch über LuCI. GL.iNet stellt jedoch OpenWrt-Firmware mit EAP-Unterstützung (einschließlich EAP-PEAP, EAP-TLS, EAP-TTLS und EAP-FAST) für diese Modelle bereit. Suchen Sie im [Download Center](https://dl.gl-inet.com/){target="_blank"} nach Ihrem Modell und wählen Sie die Registerkarte OPENWRT, um weitere Details zu erhalten.
+
+    3. GL-SFT1200 (Opal) unterstützt ab Firmware v4.8 EAP-Netzwerke als Repeater. Die EAP-Authentifizierungsmethoden umfassen EAP-PEAP, EAP-TLS, EAP-TTLS und EAP-FAST.
+
+    4. Mit Ausnahme der in den obigen Hinweisen genannten Modelle können alle anderen unterstützten Modelle als Repeater eine Verbindung zu EAP-Netzwerken herstellen. Die EAP-Authentifizierungsmethoden umfassen EAP-PEAP, EAP-TLS, EAP-TTLS und EAP-FAST.
 
 ??? "Nicht unterstützte Modelle"
+    - GL-MT6000 (Fortify)
     - GL-MT5000 (Brume 3)
     - GL-X3000 (Spitz AX)
     - GL-XE3000 (Puli AX)
@@ -54,6 +61,8 @@ In dieser Anleitung werden zwei Möglichkeiten beschrieben, wie Sie GL.iNet-Rout
     - GL-MT300N-V2 (Mango)
 
 ## Verbindung über das Web-Admin-Panel {#connect-via-web-admin-panel}
+
+Über das GL.iNet Web-Admin-Panel können Sie Ihren Router als Repeater mit EAP-PEAP-Netzwerken verbinden.
 
 1. Melden Sie sich im Web-Admin-Panel an, gehen Sie zum Abschnitt **INTERNET** -> **Repeater** und klicken Sie dann auf **Connect**.
 
@@ -81,11 +90,9 @@ In dieser Anleitung werden zwei Möglichkeiten beschrieben, wie Sie GL.iNet-Rout
 
 ## Verbindung über LuCI {#connect-via-luci}
 
-Das GL.iNet Web-Admin-Panel unterstützt nur eine begrenzte Anzahl von EAP-Typen.
+Über LuCI können Sie Ihren Router als Repeater mit einem EAP-TLS-, EAP-TTLS-, EAP-PEAP- oder EAP-FAST-Netzwerk verbinden.
 
-Wenn sich Ihr gewünschtes EAP-Netzwerk nicht über das Web-Admin-Panel verbinden lässt, versuchen Sie bitte die Verbindung über die LuCI-Oberfläche.
-
-> Hinweis: Die folgenden Schritte dienen nur als Referenz. Bitte beziehen Sie sich auf die tatsächliche LuCI-Seite Ihres Geräts.
+Die folgenden Schritte dienen nur als Referenz. Orientieren Sie sich an der tatsächlichen LuCI-Seite Ihres Geräts.
 
 1. Melden Sie sich im Web-Admin-Panel an und gehen Sie zu **SYSTEM** -> **Advanced Settings**. Installieren Sie LuCI und klicken Sie auf **Go to LuCI**.
 

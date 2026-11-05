@@ -1,26 +1,33 @@
 # Collegare i router GL.iNet a una rete EAP {#connect-glinet-routers-to-an-eap-network}
 
-Alcuni router GL.iNet supportano la connessione a reti Wi-Fi EAP, Extensible Authentication Protocol.
+Alcuni router GL.iNet supportano la connessione a reti Wi-Fi EAP (Extensible Authentication Protocol) come ripetitori.
 
 EAP è un framework di autenticazione comunemente usato con **autenticazione 802.1X** per reti **WPA2-Enterprise / WPA3-Enterprise**. Un esempio tipico è **eduroam**, un servizio globale di roaming Wi-Fi per istruzione e ricerca basato su 802.1X ed EAP.
 
-Questa guida presenta due modi per collegare i router GL.iNet a una rete Wi-Fi EAP: tramite il pannello di amministrazione web GL.iNet e tramite LuCI.
+Questo framework prevede diversi metodi di autenticazione EAP, tra cui EAP-PEAP, EAP-TLS, EAP-TTLS ed EAP-FAST. Non tutti i metodi EAP sono supportati da tutte le interfacce e da tutti i modelli di router.
 
-## Modelli supportati {#supported-models}
+Questa guida presenta due modi per collegare i router GL.iNet a una rete Wi-Fi EAP: tramite il pannello di amministrazione web GL.iNet e tramite LuCI. I due modi offrono metodi di autenticazione EAP diversi: il primo offre solo **EAP-PEAP**, mentre il secondo offre **EAP-TLS**, **EAP-TTLS**, **EAP-PEAP** ed **EAP-FAST**.
+
+Alcuni router GL.iNet supportano la funzione di ripetitore EAP solo tramite uno di questi due modi. Consulta i modelli supportati di seguito.
+
+### Modelli supportati {#supported-models}
 
 ??? "Modelli supportati"
     - GL-MG1300 (Mango 2)
+    - GL-E5800 (Mudi 7)
     - <u>GL-BE14000 (Flint 4)</u><sup>1</sup>
     - <u>GL-BE10000 (Slate 7 Pro)</u><sup>1</sup>
     - <u>GL-MT3600BE (Beryl 7)</u><sup>1</sup>
-    - GL-E5800 (Mudi 7)
-    - GL-BE6500 (Flint 3e)
-    - GL-BE9300 (Flint 3)
+    - <u>GL-BE6500 (Flint 3e)</u><sup>1</sup>
+    - <u>GL-BE9300 (Flint 3)</u><sup>1</sup>
     - <u>GL-BE3600 (Slate 7)</u><sup>1</sup>
     - GL-X2000 (Spitz Plus)
     - GL-B3000 (Marble)
+    - <u>GL-MT6000 (Flint 2)</u><sup>2</sup>
+    - <u>GL-MT3000 (Beryl AX)</u><sup>2</sup>
     - GL-AX1800 (Flint)
     - GL-AXT1800 (Slate AX)
+    - <u>GL-SFT1200 (Opal)</u><sup>3</sup>
     - GL-A1300 (Slate Plus)
     - GL-XE300 (Puli)
     - GL-E750/GL-E750V2 (Mudi)
@@ -31,19 +38,21 @@ Questa guida presenta due modi per collegare i router GL.iNet a una rete Wi-Fi E
     - GL-B1300 (Convexa-B)
     - GL-AP1300 (Cirrus)
     - GL-X300B (Collie)
-    - <u>GL-MT6000 (Flint 2)</u><sup>2</sup>
-    - <u>GL-MT3000 (Beryl AX)</u><sup>2</sup>
-    - <u>GL-SFT1200 (Opal)</u><sup>3</sup>
 
     ---
 
     **Nota:**
 
-    1. Quando ci si connette a reti WPA/WPA2/WPA3-Enterprise, GL-BE14000 (Flint 4), GL-BE10000 (Slate 7 Pro), GL-MT3600BE (Beryl 7) e GL-BE3600 (Slate 7) supportano solo reti con autenticazione PEAP. Altri metodi EAP (EAP-TLS, EAP-TTLS, EAP-MD5, ecc.) non sono supportati.
-    2. GL-MT6000 (Fortify), GL-MT6000 (Flint 2) e GL-MT3000 (Beryl AX) non supportano la connessione a reti EAP con il firmware predefinito. Tuttavia, GL.iNet fornisce un firmware nativo OpenWrt 24 per questi modelli, che aggiunge il supporto EAP. Cerca il modello nel [Download Center](https://dl.gl-inet.com/){target="_blank"} e fai riferimento alla scheda OPENWRT 24 per i dettagli.
-    3. GL-SFT1200 (Opal) supporta la connessione a reti EAP a partire dal firmware v4.8.
+    1. GL-BE14000 (Flint 4), GL-BE10000 (Slate 7 Pro), GL-MT3600BE (Beryl 7), GL-BE6500 (Flint 3e), GL-BE9300 (Flint 3) e GL-BE3600 (Slate 7) supportano la connessione a reti EAP-PEAP come ripetitori solo tramite il pannello di amministrazione web GL.iNet. Altri metodi EAP (EAP-TLS, EAP-TTLS, EAP-FAST, ecc.) non sono supportati.
+
+    2. GL-MT6000 (Flint 2) e GL-MT3000 (Beryl AX) non supportano la connessione a reti EAP come ripetitori con il firmware predefinito, né tramite il pannello di amministrazione web GL.iNet né tramite LuCI. Tuttavia, GL.iNet fornisce firmware OpenWrt con supporto EAP (inclusi EAP-PEAP, EAP-TLS, EAP-TTLS ed EAP-FAST) per questi modelli. Cerca il tuo modello nel [Download Center](https://dl.gl-inet.com/){target="_blank"} e seleziona la scheda OPENWRT per i dettagli.
+
+    3. GL-SFT1200 (Opal) supporta la connessione a reti EAP come ripetitore a partire dal firmware v4.8. I metodi di autenticazione EAP includono EAP-PEAP, EAP-TLS, EAP-TTLS ed EAP-FAST.
+
+    4. Ad eccezione dei modelli specifici elencati nelle note precedenti, tutti gli altri modelli supportati possono connettersi a reti EAP come ripetitori. I metodi di autenticazione EAP includono EAP-PEAP, EAP-TLS, EAP-TTLS ed EAP-FAST.
 
 ??? "Modelli non supportati"
+    - GL-MT6000 (Fortify)
     - GL-MT5000 (Brume 3)
     - GL-X3000 (Spitz AX)
     - GL-XE3000 (Puli AX)
@@ -52,6 +61,8 @@ Questa guida presenta due modi per collegare i router GL.iNet a una rete Wi-Fi E
     - GL-MT300N-V2 (Mango)
 
 ## Connessione tramite pannello di amministrazione web {#connect-via-web-admin-panel}
+
+Tramite il pannello di amministrazione web GL.iNet puoi collegare il router a reti EAP-PEAP come ripetitore.
 
 1. Accedi al pannello di amministrazione web, vai su **INTERNET** -> sezione **Repeater**, quindi fai clic su **Connect**.
 
@@ -79,11 +90,9 @@ Questa guida presenta due modi per collegare i router GL.iNet a una rete Wi-Fi E
 
 ## Connessione tramite LuCI {#connect-via-luci}
 
-Il pannello di amministrazione web GL.iNet supporta solo un numero limitato di tipi EAP.
+Tramite LuCI puoi collegare il router a una rete EAP-TLS, EAP-TTLS, EAP-PEAP o EAP-FAST come ripetitore.
 
-Se la rete EAP di destinazione non può essere collegata tramite pannello di amministrazione web, prova a collegarti tramite l'interfaccia LuCI.
-
-> Nota: i passaggi seguenti sono solo di riferimento; fai riferimento alla pagina LuCI effettiva del tuo dispositivo.
+I passaggi seguenti sono solo di riferimento. Consulta la pagina LuCI effettiva del tuo dispositivo.
 
 1. Accedi al pannello di amministrazione web, vai su **SYSTEM** -> **Advanced Settings**. Installa LuCI e fai clic su **Go to LuCI**.
 

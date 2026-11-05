@@ -21,3 +21,4 @@ __pycache__/
 *.tiff
 !**/docs/images/**
 !**/docs/stylesheets/**
+github-actions-log/

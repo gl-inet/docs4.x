@@ -13,24 +13,24 @@ EAP — механізм автентифікації, який зазвичай
 ### Підтримувані моделі {#supported-models}
 
 ??? "Підтримувані моделі"
-    - GL-MG1300 (Mango 2)
+    - <u>GL-MG1300 (Mango 2)</u><sup>1</sup>
     - GL-E5800 (Mudi 7)
-    - <u>GL-BE14000 (Flint 4)</u><sup>1</sup>
-    - <u>GL-BE10000 (Slate 7 Pro)</u><sup>1</sup>
-    - <u>GL-MT3600BE (Beryl 7)</u><sup>1</sup>
-    - <u>GL-BE6500 (Flint 3e)</u><sup>1</sup>
-    - <u>GL-BE9300 (Flint 3)</u><sup>1</sup>
-    - <u>GL-BE3600 (Slate 7)</u><sup>1</sup>
+    - GL-BE14000 (Flint 4)
+    - GL-BE10000 (Slate 7 Pro)
+    - GL-MT3600BE (Beryl 7)
+    - GL-BE6500 (Flint 3e)
+    - GL-BE9300 (Flint 3)
+    - GL-BE3600 (Slate 7)
     - GL-X2000 (Spitz Plus)
     - GL-B3000 (Marble)
     - <u>GL-MT6000 (Flint 2)</u><sup>2</sup>
     - <u>GL-MT3000 (Beryl AX)</u><sup>2</sup>
-    - GL-AX1800 (Flint)
-    - GL-AXT1800 (Slate AX)
+    - <u>GL-AX1800 (Flint)</u><sup>1</sup>
+    - <u>GL-AXT1800 (Slate AX)</u><sup>1</sup>
     - <u>GL-SFT1200 (Opal)</u><sup>3</sup>
     - GL-A1300 (Slate Plus)
     - GL-XE300 (Puli)
-    - GL-E750/GL-E750V2 (Mudi)
+    - <u>GL-E750/GL-E750V2 (Mudi)</u><sup>1</sup>
     - GL-X750/GL-X750V2 (Spitz)
     - GL-AR750S (Slate)
     - GL-AR750 (Creta)
@@ -43,13 +43,13 @@ EAP — механізм автентифікації, який зазвичай
 
     **Примітки:**
 
-    1. GL-BE14000 (Flint 4), GL-BE10000 (Slate 7 Pro), GL-MT3600BE (Beryl 7), GL-BE6500 (Flint 3e), GL-BE9300 (Flint 3) і GL-BE3600 (Slate 7) підтримують підключення до мереж EAP-PEAP як ретранслятори лише через вебпанель адміністрування GL.iNet. Інші методи EAP (EAP-TLS, EAP-TTLS, EAP-FAST тощо) не підтримуються.
+    1. GL-MG1300 (Mango 2), GL-AX1800 (Flint), GL-AXT1800 (Slate AX) і GL-E750/GL-E750V2 (Mudi) підтримують підключення до мереж EAP у режимі ретранслятора як через вебпанель адміністрування GL.iNet, так і через LuCI. Методи автентифікації EAP включають EAP-PEAP, EAP-TLS, EAP-TTLS та EAP-FAST.
 
-    2. GL-MT6000 (Flint 2) і GL-MT3000 (Beryl AX) не підтримують підключення до мереж EAP як ретранслятори зі стандартною прошивкою ані через вебпанель адміністрування GL.iNet, ані через LuCI. Однак GL.iNet надає для цих моделей прошивки OpenWrt із підтримкою EAP (зокрема EAP-PEAP, EAP-TLS, EAP-TTLS та EAP-FAST). Знайдіть свою модель у [центрі завантажень](https://dl.gl-inet.com/){target="_blank"} і виберіть вкладку OPENWRT, щоб дізнатися подробиці.
+    2. GL-MT6000 (Flint 2) і GL-MT3000 (Beryl AX) не підтримують підключення до мереж EAP як ретранслятори зі стандартною прошивкою. Однак GL.iNet надає для цих моделей прошивку OpenWrt із підтримкою EAP (EAP-PEAP, EAP-TLS, EAP-TTLS та EAP-FAST). Знайдіть свою модель у [центрі завантажень](https://dl.gl-inet.com/){target="_blank"} і виберіть вкладку OPENWRT, щоб за потреби завантажити прошивку.
 
-    3. GL-SFT1200 (Opal) підтримує підключення до мереж EAP як ретранслятор починаючи з прошивки v4.8. Методи автентифікації EAP включають EAP-PEAP, EAP-TLS, EAP-TTLS та EAP-FAST.
+    3. GL-SFT1200 (Opal) підтримує підключення до мереж EAP як ретранслятор починаючи з прошивки v4.8, як через вебпанель адміністрування GL.iNet, так і через LuCI. Методи автентифікації EAP включають EAP-PEAP, EAP-TLS, EAP-TTLS та EAP-FAST.
 
-    4. За винятком конкретних моделей, зазначених у примітках вище, усі інші підтримувані моделі можуть підключатися до мереж EAP як ретранслятори. Методи автентифікації EAP включають EAP-PEAP, EAP-TLS, EAP-TTLS та EAP-FAST.
+    4. Усі інші моделі, наведені вище, підтримують підключення до мереж EAP-PEAP як ретранслятори лише через вебпанель адміністрування GL.iNet. Інші методи EAP (EAP-TLS, EAP-TTLS, EAP-FAST тощо) не підтримуються.
 
 ??? "Непідтримувані моделі"
     - GL-MT6000 (Fortify)

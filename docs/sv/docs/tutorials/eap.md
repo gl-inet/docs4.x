@@ -11,24 +11,24 @@ Vissa GL.iNet-routrar stöder EAP-repeaterfunktionen via endast ett av dessa tv�
 ### Modeller som stöds {#supported-models}
 
 ??? "Modeller som stöds"
-    - GL-MG1300 (Mango 2)
+    - <u>GL-MG1300 (Mango 2)</u><sup>1</sup>
     - GL-E5800 (Mudi 7)
-    - <u>GL-BE14000 (Flint 4)</u><sup>1</sup>
-    - <u>GL-BE10000 (Slate 7 Pro)</u><sup>1</sup>
-    - <u>GL-MT3600BE (Beryl 7)</u><sup>1</sup>
-    - <u>GL-BE6500 (Flint 3e)</u><sup>1</sup>
-    - <u>GL-BE9300 (Flint 3)</u><sup>1</sup>
-    - <u>GL-BE3600 (Slate 7)</u><sup>1</sup>
+    - GL-BE14000 (Flint 4)
+    - GL-BE10000 (Slate 7 Pro)
+    - GL-MT3600BE (Beryl 7)
+    - GL-BE6500 (Flint 3e)
+    - GL-BE9300 (Flint 3)
+    - GL-BE3600 (Slate 7)
     - GL-X2000 (Spitz Plus)
     - GL-B3000 (Marble)
     - <u>GL-MT6000 (Flint 2)</u><sup>2</sup>
     - <u>GL-MT3000 (Beryl AX)</u><sup>2</sup>
-    - GL-AX1800 (Flint)
-    - GL-AXT1800 (Slate AX)
+    - <u>GL-AX1800 (Flint)</u><sup>1</sup>
+    - <u>GL-AXT1800 (Slate AX)</u><sup>1</sup>
     - <u>GL-SFT1200 (Opal)</u><sup>3</sup>
     - GL-A1300 (Slate Plus)
     - GL-XE300 (Puli)
-    - GL-E750/GL-E750V2 (Mudi)
+    - <u>GL-E750/GL-E750V2 (Mudi)</u><sup>1</sup>
     - GL-X750/GL-X750V2 (Spitz)
     - GL-AR750S (Slate)
     - GL-AR750 (Creta)
@@ -41,13 +41,13 @@ Vissa GL.iNet-routrar stöder EAP-repeaterfunktionen via endast ett av dessa tv�
 
     **Obs**:
 
-    1. GL-BE14000 (Flint 4), GL-BE10000 (Slate 7 Pro), GL-MT3600BE (Beryl 7), GL-BE6500 (Flint 3e), GL-BE9300 (Flint 3) och GL-BE3600 (Slate 7) stöder anslutning till EAP-PEAP-nätverk som repeater endast via GL.iNets webbadministrationspanel. Andra EAP-metoder, exempelvis EAP-TLS, EAP-TTLS och EAP-FAST, stöds inte.
+    1. GL-MG1300 (Mango 2), GL-AX1800 (Flint), GL-AXT1800 (Slate AX) och GL-E750/GL-E750V2 (Mudi) stöder anslutning till EAP-nätverk som repeater via både GL.iNets webbadministrationspanel och LuCI. EAP-autentiseringsmetoderna omfattar EAP-PEAP, EAP-TLS, EAP-TTLS och EAP-FAST.
 
-    2. GL-MT6000 (Flint 2) och GL-MT3000 (Beryl AX) stöder inte anslutning till EAP-nätverk som repeater med standardfirmware, vare sig via GL.iNets webbadministrationspanel eller via LuCI. GL.iNet tillhandahåller dock OpenWrt-firmware med EAP-stöd (bland annat EAP-PEAP, EAP-TLS, EAP-TTLS och EAP-FAST) för dessa modeller. Sök efter din modell i [Download Center](https://dl.gl-inet.com/){target="_blank"} och välj fliken OPENWRT för mer information.
+    2. GL-MT6000 (Flint 2) och GL-MT3000 (Beryl AX) stöder inte anslutning till EAP-nätverk som repeater med standardfirmware. GL.iNet tillhandahåller dock OpenWrt-firmware med EAP-stöd (EAP-PEAP, EAP-TLS, EAP-TTLS och EAP-FAST) för dessa modeller. Sök efter din modell i [Download Center](https://dl.gl-inet.com/){target="_blank"} och välj fliken OPENWRT för att ladda ner firmware vid behov.
 
-    3. GL-SFT1200 (Opal) stöder anslutning till EAP-nätverk som repeater från firmware v4.8. EAP-autentiseringsmetoderna omfattar EAP-PEAP, EAP-TLS, EAP-TTLS och EAP-FAST.
+    3. GL-SFT1200 (Opal) stöder anslutning till EAP-nätverk som repeater från firmware v4.8, via både GL.iNets webbadministrationspanel och LuCI. EAP-autentiseringsmetoderna omfattar EAP-PEAP, EAP-TLS, EAP-TTLS och EAP-FAST.
 
-    4. Med undantag för de specifika modeller som anges i anmärkningarna ovan kan alla andra modeller som stöds ansluta till EAP-nätverk som repeater. EAP-autentiseringsmetoderna omfattar EAP-PEAP, EAP-TLS, EAP-TTLS och EAP-FAST.
+    4. Alla övriga modeller ovan stöder anslutning till EAP-PEAP-nätverk som repeater endast via GL.iNets webbadministrationspanel. Andra EAP-metoder, exempelvis EAP-TLS, EAP-TTLS och EAP-FAST, stöds inte.
 
 ??? "Modeller som inte stöds"
     - GL-MT6000 (Fortify)
@@ -142,7 +142,7 @@ Webbadministrationspanelen kan misslyckas om EAP-nätverket kräver ytterligare 
 
 6. Klicka på **Save & Apply** på Wireless-sidan. Routern ansluter till EAP-nätverket.
 
-    ![save abd apply](https://static.gl-inet.com/docs/router/en/4/tutorials/eap/save_apply.png){class="glboxshadow"}
+    ![save and apply](https://static.gl-inet.com/docs/router/en/4/tutorials/eap/save_apply.png){class="glboxshadow"}
 
 7. Verifiera anslutningen.
 

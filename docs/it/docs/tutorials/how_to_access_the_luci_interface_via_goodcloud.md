@@ -42,7 +42,7 @@ Dalla versione v4.7, gli utenti possono accedere direttamente alla pagina LuCI d
 
     Nella finestra pop-up verrà mostrata la porta 80; fai clic su Apply.
 
-    ![vist web apply](https://static.gl-inet.com/docs/router/en/4/tutorials/access_luci_via_goodcloud/visit_web_apply.png){class="glboxshadow"}
+    ![visit web apply](https://static.gl-inet.com/docs/router/en/4/tutorials/access_luci_via_goodcloud/visit_web_apply.png){class="glboxshadow"}
 
 3. Verrai quindi reindirizzato alla pagina di login del pannello di amministrazione GL.iNet. Inserisci la password amministratore per accedere.
 

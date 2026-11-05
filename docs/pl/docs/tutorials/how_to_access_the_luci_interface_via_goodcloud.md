@@ -42,7 +42,7 @@ Począwszy od v4.7, użytkownicy mogą bezpośrednio uzyskać dostęp do strony 
 
     Wyskakujące okno wyświetla port 80, kliknij Apply.
 
-    ![vist web apply](https://static.gl-inet.com/docs/router/en/4/tutorials/access_luci_via_goodcloud/visit_web_apply.png){class="glboxshadow"}
+    ![visit web apply](https://static.gl-inet.com/docs/router/en/4/tutorials/access_luci_via_goodcloud/visit_web_apply.png){class="glboxshadow"}
 
 3. Zostaniesz wtedy przekierowany do strony logowania do panelu administratora GL.iNet. Wprowadź hasło administratora, aby się zalogować.
 

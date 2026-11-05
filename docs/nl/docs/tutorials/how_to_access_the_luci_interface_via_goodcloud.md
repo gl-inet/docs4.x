@@ -42,7 +42,7 @@ Vanaf v4.7 kun je LuCI rechtstreeks via GoodCloud openen zonder het webbeheerpan
 
     Het pop-upvenster toont poort 80. Klik op Apply.
 
-    ![vist web apply](https://static.gl-inet.com/docs/router/en/4/tutorials/access_luci_via_goodcloud/visit_web_apply.png){class="glboxshadow"}
+    ![visit web apply](https://static.gl-inet.com/docs/router/en/4/tutorials/access_luci_via_goodcloud/visit_web_apply.png){class="glboxshadow"}
 
 3. Je wordt naar de aanmeldpagina van het GL.iNet-beheerpaneel geleid. Voer je beheerderswachtwoord in.
 

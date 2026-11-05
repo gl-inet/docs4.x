@@ -8,8 +8,11 @@ STATS_NEEDS contains GitHub's toJSON(needs) for the four existing jobs.
 
 from __future__ import annotations
 
+import errno
 import json
 import os
+import socket
+import ssl
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -73,6 +76,43 @@ class NoRedirect(urllib.request.HTTPRedirectHandler):
         return None
 
 
+def error_category(error: Exception) -> str:
+    """Return only fixed labels; never log exception messages or URL reasons.
+
+    urllib wraps DNS, TLS and socket errors in URLError.reason. A timeout
+    does not reliably identify whether connection, TLS or response reading
+    timed out, so do not claim a specific phase.
+    """
+    if isinstance(error, urllib.error.URLError):
+        reason = error.reason
+        if not isinstance(reason, Exception):
+            return "transport_error"
+        error = reason
+    if isinstance(error, socket.gaierror):
+        return "dns_error"
+    if isinstance(error, ssl.SSLCertVerificationError):
+        return "tls_certificate_error"
+    if isinstance(error, ssl.SSLError):
+        return "tls_error"
+    if isinstance(error, TimeoutError):
+        return "timeout"
+    if isinstance(error, OSError):
+        if error.errno == errno.ETIMEDOUT:
+            return "timeout"
+        if error.errno == errno.ECONNREFUSED:
+            return "connection_refused"
+        if error.errno == errno.ECONNRESET:
+            return "connection_reset"
+        if error.errno in (errno.ENETUNREACH, errno.EHOSTUNREACH):
+            return "network_unreachable"
+        if isinstance(error, ConnectionError):
+            return "connection_error"
+        return "transport_error"
+    if isinstance(error, (ValueError, KeyError, TypeError)):
+        return "invalid_input"
+    return "unexpected_error"
+
+
 def main(env: Mapping[str, str] | None = None) -> int:
     env = os.environ if env is None else env
     base_url = env.get("AI_AGENT_STATS_URL", "").strip().rstrip("/")
@@ -104,8 +144,11 @@ def main(env: Mapping[str, str] | None = None) -> int:
         print(f"::warning::Translation stats not accepted (HTTP {error.code}).")
         error.close()
     except Exception as error:
-        # Exception messages can contain URLs or secrets. Log the type only.
-        print(f"::warning::Translation stats skipped ({type(error).__name__}).")
+        # Fixed categories expose neither exception messages nor URL/token data.
+        print(
+            f"::warning::Translation stats skipped (category={error_category(error)}). "
+            "Check reporting configuration and connectivity before retrying."
+        )
     return 0
 
 

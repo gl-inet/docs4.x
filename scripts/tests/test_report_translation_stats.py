@@ -1,8 +1,11 @@
 """Run: python3 -m unittest discover -s scripts/tests -p 'test_report_translation_stats.py'."""
 
 import contextlib
+import errno
 import io
 import json
+import socket
+import ssl
 import sys
 import unittest
 import urllib.error
@@ -117,6 +120,60 @@ class ReporterTests(unittest.TestCase):
             self.assertIn("::warning::", self.run_report(environment(), opener))
             opener.open.assert_called_once()
 
+    def test_transport_error_categories_are_safe_and_best_effort(self):
+        # Include URL, token, response-body and workflow-command markers in
+        # errors to prove none of their text reaches the Actions log.
+        sensitive = "https://stats.example/private test-secret response-body\n::error::injected"
+        cases = [
+            (socket.gaierror(socket.EAI_AGAIN, sensitive), "dns_error"),
+            (ssl.SSLCertVerificationError(1, sensitive), "tls_certificate_error"),
+            (ssl.SSLError(1, sensitive), "tls_error"),
+            (TimeoutError(sensitive), "timeout"),
+            (OSError(errno.ETIMEDOUT, sensitive), "timeout"),
+            (ConnectionRefusedError(errno.ECONNREFUSED, sensitive), "connection_refused"),
+            (ConnectionResetError(errno.ECONNRESET, sensitive), "connection_reset"),
+            (OSError(errno.ENETUNREACH, sensitive), "network_unreachable"),
+            (OSError(errno.EHOSTUNREACH, sensitive), "network_unreachable"),
+            (ConnectionAbortedError(errno.ECONNABORTED, sensitive), "connection_error"),
+            (OSError(errno.EIO, sensitive), "transport_error"),
+            (RuntimeError(sensitive), "unexpected_error"),
+        ]
+        for reason, category in cases:
+            for error in (reason, urllib.error.URLError(reason)):
+                with self.subTest(reason=type(reason).__name__, wrapped=error is not reason):
+                    opener = MagicMock()
+                    opener.open.side_effect = error
+                    output = self.run_report(environment(), opener)
+                    self.assertIn(f"category={category}", output)
+                    self.assertIn("before retrying", output)
+                    self.assertEqual(output.count("\n"), 1)
+                    for marker in ("https://", "stats.example", "response-body", "::error::injected"):
+                        self.assertNotIn(marker, output)
+                    opener.open.assert_called_once()
+                    self.assertEqual(opener.open.call_args.kwargs["timeout"], 5)
+
+    def test_string_url_reason_is_not_logged_or_interpreted(self):
+        opener = MagicMock()
+        opener.open.side_effect = urllib.error.URLError("test-secret timed out https://stats.example")
+        output = self.run_report(environment(), opener)
+        self.assertIn("category=transport_error", output)
+        self.assertNotIn("timed out", output)
+        self.assertNotIn("https://", output)
+
+    def test_http_errors_keep_status_without_exposing_details(self):
+        for status in (302, 401, 500):
+            with self.subTest(status=status):
+                error = urllib.error.HTTPError(
+                    "https://stats.example/private", status, "test-secret", {}, io.BytesIO(b"response-body")
+                )
+                opener = MagicMock()
+                opener.open.side_effect = error
+                output = self.run_report(environment(), opener)
+                self.assertIn(f"not accepted (HTTP {status})", output)
+                self.assertNotIn("https://", output)
+                self.assertNotIn("response-body", output)
+                self.assertTrue(error.closed)
+
     def test_bad_inputs_do_not_send(self):
         for field, value in (
             ("AI_AGENT_STATS_URL", "http://stats.example"),
@@ -130,7 +187,7 @@ class ReporterTests(unittest.TestCase):
                 env = environment()
                 env[field] = value
                 opener = MagicMock()
-                self.assertIn("::warning::", self.run_report(env, opener))
+                self.assertIn("category=invalid_input", self.run_report(env, opener))
                 opener.open.assert_not_called()
 
     def test_redirects_are_not_followed(self):

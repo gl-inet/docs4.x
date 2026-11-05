@@ -346,9 +346,9 @@ Suivez les étapes ci-dessous pour configurer un **nœud de sortie personnalisé
 
     Pour éviter les interruptions de connexion lorsque la clé d’authentification du nœud de sortie expire, vous pouvez activer **Disable Key Expiry**.
 
-    ![disable key expirty 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/disable_key_expiry_1.png){class="glboxshadow"}
+    ![disable key expiry 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/disable_key_expiry_1.png){class="glboxshadow"}
 
-    ![disable key expirty 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/disable_key_expiry_2.png){class="glboxshadow"}
+    ![disable key expiry 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/disable_key_expiry_2.png){class="glboxshadow"}
 
 4. Revenez au panneau d’administration web du GL-BE9300, accédez à **APPLICATIONS** -> **Tailscale** et activez **Custom Exit Nodes**. Cliquez sur le bouton d’actualisation, sélectionnez l’adresse IP du GL-MG1300 dans le menu déroulant, puis cliquez sur **Apply**.
 

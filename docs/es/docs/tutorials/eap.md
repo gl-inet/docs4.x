@@ -43,11 +43,13 @@ Algunos routers GL.iNet solo admiten la función de repetidor EAP mediante una d
 
     **Nota**:
 
-    1. GL-MG1300 (Mango 2), GL-AX1800 (Flint), GL-AXT1800 (Slate AX) y GL-E750/GL-E750V2 (Mudi) admiten la conexión a redes EAP como repetidores tanto mediante el panel de administración web de GL.iNet como mediante LuCI. Los métodos de autenticación EAP incluyen EAP-PEAP, EAP-TLS, EAP-TTLS y EAP-FAST.
+    1. GL-MG1300 (Mango 2), GL-AX1800 (Flint), GL-AXT1800 (Slate AX) y GL-E750/GL-E750V2 (Mudi) pueden conectarse como repetidores a redes EAP-PEAP mediante el panel de administración web de GL.iNet y a redes EAP-TLS/EAP-TTLS/EAP-PEAP/EAP-FAST mediante LuCI.
 
-    2. GL-MT6000 (Flint 2) y GL-MT3000 (Beryl AX) no admiten la conexión a redes EAP como repetidores con el firmware predeterminado. Sin embargo, GL.iNet proporciona firmware OpenWrt compatible con EAP (EAP-PEAP, EAP-TLS, EAP-TTLS y EAP-FAST) para estos modelos. Busque su modelo en el [Download Center](https://dl.gl-inet.com/){target="_blank"} y seleccione la pestaña OPENWRT para descargarlo si es necesario.
+    2. GL-MT6000 (Flint 2) y GL-MT3000 (Beryl AX) no admiten la conexión a redes EAP como repetidores con el firmware predeterminado. Sin embargo, GL.iNet proporciona firmware OpenWrt compatible con EAP para estos modelos. Tras instalar este firmware, puede configurar el router en modo repetidor y conectarlo a redes EAP-PEAP mediante el panel de administración web de GL.iNet o a redes EAP-TLS/EAP-TTLS/EAP-PEAP/EAP-FAST mediante LuCI.
 
-    3. GL-SFT1200 (Opal) admite la conexión a redes EAP como repetidor a partir de la versión de firmware v4.8, tanto mediante el panel de administración web de GL.iNet como mediante LuCI. Los métodos de autenticación EAP incluyen EAP-PEAP, EAP-TLS, EAP-TTLS y EAP-FAST.
+        Busque su modelo en el [Download Center](https://dl.gl-inet.com/){target="_blank"} y seleccione la pestaña OpenWrt para descargarlo si es necesario.
+
+    3. GL-SFT1200 (Opal) admite la conexión a redes EAP como repetidor a partir del firmware v4.8, tanto mediante el panel de administración web de GL.iNet (EAP-PEAP) como mediante LuCI (EAP-TLS/EAP-TTLS/EAP-PEAP/EAP-FAST).
 
     4. Todos los demás modelos indicados arriba solo admiten la conexión a redes EAP-PEAP como repetidores mediante el panel de administración web de GL.iNet. Otros métodos EAP (EAP-TLS, EAP-TTLS, EAP-FAST, etc.) no son compatibles.
 

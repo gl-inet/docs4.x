@@ -124,3 +124,40 @@ jobs:
             --pr "${{ github.event.pull_request.number }}" \
             --head "${{ github.event.pull_request.head.sha }}" \
             --result "${{ needs.review.result }}"
+
+  # Read-only, data-only reporting; never changes review/publish outcomes.
+  report:
+    needs: [review, publish]
+    if: always() && needs.review.result != 'skipped'
+    continue-on-error: true
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      actions: read
+    steps:
+      - name: Check out trusted reporting script
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event.pull_request.base.sha }}
+          sparse-checkout: scripts
+          persist-credentials: false
+
+      - name: Download review data
+        continue-on-error: true
+        uses: actions/download-artifact@v8
+        with:
+          name: codex-review
+          path: review
+
+      - name: Generate review stats
+        env:
+          STATS_NEEDS: ${{ toJSON(needs) }}
+        run: python3 scripts/report_review_stats.py
+
+      - name: Upload review stats
+        uses: actions/upload-artifact@v6
+        with:
+          name: ai-agent-stats-review-attempt-${{ github.run_attempt }}
+          path: stats/review-run.json
+          retention-days: 30
+          if-no-files-found: error

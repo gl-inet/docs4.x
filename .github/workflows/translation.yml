@@ -318,10 +318,10 @@ jobs:
             exit 1
           fi
 
-  # Minimal, best-effort run reporting: no artifacts or model credentials.
+  # Data-only reporting; the production server pulls this artifact later.
   report:
     needs: [prepare, translate, validate, publish]
-    if: always() && vars.AI_AGENT_STATS_URL != ''
+    if: always()
     runs-on: ubuntu-latest
     timeout-minutes: 2
     continue-on-error: true
@@ -337,10 +337,15 @@ jobs:
           sparse-checkout-cone-mode: false
           persist-credentials: false
 
-      - name: Report translation run
-        continue-on-error: true
+      - name: Generate translation stats artifact
         env:
-          AI_AGENT_STATS_URL: ${{ vars.AI_AGENT_STATS_URL }}
-          AI_AGENT_STATS_TOKEN: ${{ secrets.AI_AGENT_STATS_TOKEN }}
           STATS_NEEDS: ${{ toJSON(needs) }}
         run: python3 scripts/report_translation_stats.py
+
+      - name: Upload translation stats artifact
+        uses: actions/upload-artifact@v6
+        with:
+          name: ai-agent-stats-translation-attempt-${{ github.run_attempt }}
+          path: stats/translation-run.json
+          if-no-files-found: error
+          retention-days: 30

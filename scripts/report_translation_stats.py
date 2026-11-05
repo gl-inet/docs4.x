@@ -1,21 +1,15 @@
 #!/usr/bin/env python3
-"""Best-effort translation run reporting; standard library only, no artifacts.
+"""Generate a data-only translation stats artifact; no network or credentials.
 
-AI_AGENT_STATS_URL is the service base URL (not an endpoint).
-AI_AGENT_STATS_TOKEN is supplied only to the final report step.
 STATS_NEEDS contains GitHub's toJSON(needs) for the four existing jobs.
+The production collector downloads this JSON and validates it before ingestion.
 """
 
 from __future__ import annotations
 
-import errno
 import json
 import os
-import socket
-import ssl
-import urllib.error
-import urllib.parse
-import urllib.request
+from pathlib import Path
 from collections.abc import Mapping
 
 
@@ -69,86 +63,20 @@ def build_event(env: Mapping[str, str]) -> dict:
     }
 
 
-class NoRedirect(urllib.request.HTTPRedirectHandler):
-    """Never forward the stats credential to a redirected endpoint."""
-
-    def redirect_request(self, req, fp, code, msg, headers, newurl):
-        return None
-
-
-def error_category(error: Exception) -> str:
-    """Return only fixed labels; never log exception messages or URL reasons.
-
-    urllib wraps DNS, TLS and socket errors in URLError.reason. A timeout
-    does not reliably identify whether connection, TLS or response reading
-    timed out, so do not claim a specific phase.
-    """
-    if isinstance(error, urllib.error.URLError):
-        reason = error.reason
-        if not isinstance(reason, Exception):
-            return "transport_error"
-        error = reason
-    if isinstance(error, socket.gaierror):
-        return "dns_error"
-    if isinstance(error, ssl.SSLCertVerificationError):
-        return "tls_certificate_error"
-    if isinstance(error, ssl.SSLError):
-        return "tls_error"
-    if isinstance(error, TimeoutError):
-        return "timeout"
-    if isinstance(error, OSError):
-        if error.errno == errno.ETIMEDOUT:
-            return "timeout"
-        if error.errno == errno.ECONNREFUSED:
-            return "connection_refused"
-        if error.errno == errno.ECONNRESET:
-            return "connection_reset"
-        if error.errno in (errno.ENETUNREACH, errno.EHOSTUNREACH):
-            return "network_unreachable"
-        if isinstance(error, ConnectionError):
-            return "connection_error"
-        return "transport_error"
-    if isinstance(error, (ValueError, KeyError, TypeError)):
-        return "invalid_input"
-    return "unexpected_error"
-
-
 def main(env: Mapping[str, str] | None = None) -> int:
     env = os.environ if env is None else env
-    base_url = env.get("AI_AGENT_STATS_URL", "").strip().rstrip("/")
-    if not base_url:
-        print("Translation stats disabled: AI_AGENT_STATS_URL is unset.")
-        return 0
-    token = env.get("AI_AGENT_STATS_TOKEN", "")
-    if not token:
-        print("::warning::Translation stats skipped: AI_AGENT_STATS_TOKEN is unset.")
-        return 0
+    output = Path(env.get("STATS_OUTPUT_PATH", "stats/translation-run.json"))
     try:
-        url = urllib.parse.urlsplit(base_url)
-        if url.scheme != "https" or not url.netloc or url.username or url.password or url.query or url.fragment:
-            raise ValueError("expected an HTTPS service base URL")
+        # Remove stale output before generation so an invalid rerun cannot upload it.
+        output.unlink(missing_ok=True)
         event = build_event(env)
-        request = urllib.request.Request(
-            base_url + "/api/v1/docs-translation/runs",
-            data=json.dumps(event).encode("utf-8"),
-            headers={"Content-Type": "application/json", "X-Stats-Token": token},
-            method="POST",
-        )
-        # One attempt, short timeout; no retries or response-body logging.
-        with urllib.request.build_opener(NoRedirect()).open(request, timeout=5) as response:
-            if response.status not in (200, 201):
-                print(f"::warning::Translation stats not accepted (HTTP {response.status}).")
-            else:
-                print(f"Translation stats accepted: {event['result']['status']}.")
-    except urllib.error.HTTPError as error:
-        print(f"::warning::Translation stats not accepted (HTTP {error.code}).")
-        error.close()
-    except Exception as error:
-        # Fixed categories expose neither exception messages nor URL/token data.
-        print(
-            f"::warning::Translation stats skipped (category={error_category(error)}). "
-            "Check reporting configuration and connectivity before retrying."
-        )
+        output.parent.mkdir(parents=True, exist_ok=True)
+        output.write_text(json.dumps(event, ensure_ascii=False) + "\n", encoding="utf-8")
+    except Exception:
+        # Do not echo input values, exception messages, or credentials into logs.
+        print("::error::Translation stats artifact generation failed.")
+        return 1
+    print(f"Translation stats artifact generated: {event['result']['status']}.")
     return 0
 
 

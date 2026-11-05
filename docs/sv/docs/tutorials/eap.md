@@ -41,11 +41,13 @@ Vissa GL.iNet-routrar stöder EAP-repeaterfunktionen via endast ett av dessa tv�
 
     **Obs**:
 
-    1. GL-MG1300 (Mango 2), GL-AX1800 (Flint), GL-AXT1800 (Slate AX) och GL-E750/GL-E750V2 (Mudi) stöder anslutning till EAP-nätverk som repeater via både GL.iNets webbadministrationspanel och LuCI. EAP-autentiseringsmetoderna omfattar EAP-PEAP, EAP-TLS, EAP-TTLS och EAP-FAST.
+    1. GL-MG1300 (Mango 2), GL-AX1800 (Flint), GL-AXT1800 (Slate AX) och GL-E750/GL-E750V2 (Mudi) kan ansluta som repeater till EAP-PEAP-nätverk via GL.iNets webbadministrationspanel och till EAP-TLS/EAP-TTLS/EAP-PEAP/EAP-FAST-nätverk via LuCI.
 
-    2. GL-MT6000 (Flint 2) och GL-MT3000 (Beryl AX) stöder inte anslutning till EAP-nätverk som repeater med standardfirmware. GL.iNet tillhandahåller dock OpenWrt-firmware med EAP-stöd (EAP-PEAP, EAP-TLS, EAP-TTLS och EAP-FAST) för dessa modeller. Sök efter din modell i [Download Center](https://dl.gl-inet.com/){target="_blank"} och välj fliken OPENWRT för att ladda ner firmware vid behov.
+    2. GL-MT6000 (Flint 2) och GL-MT3000 (Beryl AX) stöder inte anslutning till EAP-nätverk som repeater med standardfirmware. GL.iNet tillhandahåller dock OpenWrt-firmware med EAP-stöd för dessa modeller. När du har installerat denna firmware kan du ställa in routern i repeaterläge och ansluta den till EAP-PEAP-nätverk via GL.iNets webbadministrationspanel eller till EAP-TLS/EAP-TTLS/EAP-PEAP/EAP-FAST-nätverk via LuCI.
 
-    3. GL-SFT1200 (Opal) stöder anslutning till EAP-nätverk som repeater från firmware v4.8, via både GL.iNets webbadministrationspanel och LuCI. EAP-autentiseringsmetoderna omfattar EAP-PEAP, EAP-TLS, EAP-TTLS och EAP-FAST.
+        Sök efter din modell i [Download Center](https://dl.gl-inet.com/){target="_blank"} och välj fliken OpenWrt för att ladda ner firmware vid behov.
+
+    3. GL-SFT1200 (Opal) stöder anslutning till EAP-nätverk som repeater från firmware v4.8, via både GL.iNets webbadministrationspanel (EAP-PEAP) och LuCI (EAP-TLS/EAP-TTLS/EAP-PEAP/EAP-FAST).
 
     4. Alla övriga modeller ovan stöder anslutning till EAP-PEAP-nätverk som repeater endast via GL.iNets webbadministrationspanel. Andra EAP-metoder, exempelvis EAP-TLS, EAP-TTLS och EAP-FAST, stöds inte.
 

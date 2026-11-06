@@ -31,6 +31,6 @@ Cliquez sur un modèle ci-dessous pour télécharger son manuel utilisateur PDF 
 - [GL-AX1800 (Flint)](https://static.gl-inet.com/docs/router/fr/4/user_manual/gl-ax1800_user_manual_fr.pdf){target="_blank"}
 - [GL-SFT1200 (Opal)](https://static.gl-inet.com/docs/router/fr/4/user_manual/gl-sft1200_user_manual_fr.pdf){target="_blank"}
 - [GL-MT2500 (Brume 2)](https://static.gl-inet.com/docs/router/fr/4/user_manual/gl-mt2500_user_manual_fr.pdf){target="_blank"}
-- [GL-MT300N-V2 (Mnago)](https://static.gl-inet.com/docs/router/fr/4/user_manual/gl-mt300n-v2_user_manual_fr.pdf){target="_blank"}
+- [GL-MT300N-V2 (Mango)](https://static.gl-inet.com/docs/router/fr/4/user_manual/gl-mt300n-v2_user_manual_fr.pdf){target="_blank"}
 - [GL-AR300M (Shadow)](https://static.gl-inet.com/docs/router/fr/4/user_manual/gl-ar300m16_user_manual_fr.pdf){target="_blank"}
 - [GL-E750V2 (Mudi V2)](https://static.gl-inet.com/docs/router/fr/4/user_manual/gl-e750v2_user_manual_fr.pdf){target="_blank"}

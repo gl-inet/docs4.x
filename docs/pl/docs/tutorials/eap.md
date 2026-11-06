@@ -43,11 +43,13 @@ Niektóre routery GL.iNet obsługują funkcję repeatera EAP tylko za pomocą je
 
     **Uwaga**:
 
-    1. GL-MG1300 (Mango 2), GL-AX1800 (Flint), GL-AXT1800 (Slate AX) i GL-E750/GL-E750V2 (Mudi) obsługują łączenie z sieciami EAP jako repeater zarówno przez panel administracyjny GL.iNet, jak i przez LuCI. Obsługiwane metody uwierzytelniania EAP obejmują EAP-PEAP, EAP-TLS, EAP-TTLS i EAP-FAST.
+    1. GL-MG1300 (Mango 2), GL-AX1800 (Flint), GL-AXT1800 (Slate AX) i GL-E750/GL-E750V2 (Mudi) mogą łączyć się jako repeater z sieciami EAP-PEAP przez panel administracyjny GL.iNet oraz z sieciami EAP-TLS/EAP-TTLS/EAP-PEAP/EAP-FAST przez LuCI.
 
-    2. GL-MT6000 (Flint 2) i GL-MT3000 (Beryl AX) nie obsługują łączenia z sieciami EAP jako repeater na domyślnym firmware. GL.iNet udostępnia jednak dla tych modeli firmware OpenWrt z obsługą EAP (EAP-PEAP, EAP-TLS, EAP-TTLS i EAP-FAST). Wyszukaj swój model w [Download Center](https://dl.gl-inet.com/){target="_blank"} i wybierz kartę OPENWRT, aby w razie potrzeby pobrać firmware.
+    2. GL-MT6000 (Flint 2) i GL-MT3000 (Beryl AX) nie obsługują łączenia z sieciami EAP jako repeater na domyślnym firmware. GL.iNet udostępnia jednak dla tych modeli firmware OpenWrt z obsługą EAP. Po zainstalowaniu tego firmware możesz ustawić router w trybie repeatera i połączyć go z sieciami EAP-PEAP przez panel administracyjny GL.iNet lub z sieciami EAP-TLS/EAP-TTLS/EAP-PEAP/EAP-FAST przez LuCI.
 
-    3. GL-SFT1200 (Opal) obsługuje łączenie z sieciami EAP jako repeater od wersji firmware v4.8, zarówno przez panel administracyjny GL.iNet, jak i przez LuCI. Obsługiwane metody uwierzytelniania EAP obejmują EAP-PEAP, EAP-TLS, EAP-TTLS i EAP-FAST.
+        Wyszukaj swój model w [Download Center](https://dl.gl-inet.com/){target="_blank"} i wybierz kartę OpenWrt, aby w razie potrzeby pobrać firmware.
+
+    3. GL-SFT1200 (Opal) obsługuje łączenie z sieciami EAP jako repeater od wersji firmware v4.8, zarówno przez panel administracyjny GL.iNet (EAP-PEAP), jak i przez LuCI (EAP-TLS/EAP-TTLS/EAP-PEAP/EAP-FAST).
 
     4. Wszystkie pozostałe modele wymienione powyżej obsługują łączenie z sieciami EAP-PEAP jako repeater tylko przez panel administracyjny GL.iNet. Inne metody EAP (EAP-TLS, EAP-TTLS, EAP-FAST itp.) nie są obsługiwane.
 

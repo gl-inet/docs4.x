@@ -88,7 +88,7 @@ Tailscale は、所有しているデバイスやアプリケーションに世�
 
     ![tailscale admin console](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/tailscale_admin_console_2.png){class="glboxshadow"}
 
-3. 接続を確認します。
+4. 接続を確認します。
 
     同じTailscaleネットワークに接続されているデバイスでは、次の3つの方法で接続確認ができます。
 
@@ -130,7 +130,7 @@ Tailscale は、所有しているデバイスやアプリケーションに世�
 
 3. サブネットルートを有効にします。
 
-    ![tailcale enable subnet route](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/tailscale_enable_subnet_routes.png){class="glboxshadow"}
+    ![tailscale enable subnet route](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/tailscale_enable_subnet_routes.png){class="glboxshadow"}
 
 4. これで、他のデバイスから `GL-AXT1800` のIPアドレス（`192.168.29.1`）へアクセスできます。実際には、`192.168.29.0/24` サブネット内のすべてのデバイスへアクセスできます。
 
@@ -196,7 +196,7 @@ Leo-Desktop を出口ノードとして設定する手順は以下のとおり�
 
     ポップアップウィンドウでサブネットルートを有効にします。
 
-    ![tailcale enable subnet route](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/tailscale_enable_subnet_routes.png){class="glboxshadow"}
+    ![tailscale enable subnet route](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/tailscale_enable_subnet_routes.png){class="glboxshadow"}
 
 2. 出口ノードとして使いたいデバイス（この例では Leo-Desktop）で **Run exit node** を選択します。以下は Windows OS での例です。
 
@@ -348,9 +348,9 @@ GL-BE9300 で **カスタム出口ノード** を設定するには、次の手�
 
     出口ノードの認証キーが期限切れになったときの接続中断を避けるため、**Disable Key Expiry** を有効にできます。
 
-    ![disable key expirty 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/disable_key_expiry_1.png){class="glboxshadow"}
+    ![disable key expiry 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/disable_key_expiry_1.png){class="glboxshadow"}
 
-    ![disable key expirty 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/disable_key_expiry_2.png){class="glboxshadow"}
+    ![disable key expiry 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/disable_key_expiry_2.png){class="glboxshadow"}
 
 4. GL-BE9300 の Web 管理パネルに戻り、**APPLICATIONS** -> **Tailscale** に移動して **Custom Exit Nodes** を有効にします。更新ボタンをクリックし、ドロップダウンメニューからGL-MG1300のIPアドレスを選択して、**Apply** をクリックします。
 

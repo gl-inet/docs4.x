@@ -639,3 +639,5 @@ nav:
     - Conoce nuestros nuevos productos: video_library/products.md
     - Unboxing y configuración inicial: video_library/unboxing_first_set_up.md
     - Videotutoriales: video_library/tutorials.md
+  - Descargas:
+    - Información general: downloads/index.md

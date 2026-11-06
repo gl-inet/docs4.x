@@ -13203,23 +13203,23 @@
       "de": {
         "source_hash": "b1409ec3161ddbce5a9ef05bafe3f64408afc2e5751089245b8fc1cfe9baf043",
         "source_blob": "d2d5e2bd9839c4359a6761d9e6cf99ca5d33b710",
-        "target_hash": "b0896a2676d08b68a6edaa2567a3b0ea0b7b26cc2bbba7c2027e93b373480f9c",
-        "model": "claude",
-        "updated_at": 1793244667
+        "target_hash": "150b89ea5b661b64b69250854e713d9b0bb12a2beff1d1aff7fca40ad8f2b7a3",
+        "model": "manual-sync",
+        "updated_at": 1793970847
       },
       "es": {
         "source_hash": "b1409ec3161ddbce5a9ef05bafe3f64408afc2e5751089245b8fc1cfe9baf043",
         "source_blob": "d2d5e2bd9839c4359a6761d9e6cf99ca5d33b710",
-        "target_hash": "d25ccb53812f2e3464ab02785a99b68a3bd0f5fa83d4e11de8e3a40f3bad2963",
-        "model": "claude",
-        "updated_at": 1793244667
+        "target_hash": "9d50458c049872268a6a6ddabdbae29c6ea589a376ebf8c6b20991134b5012e7",
+        "model": "manual-sync",
+        "updated_at": 1793970847
       },
       "fr": {
         "source_hash": "b1409ec3161ddbce5a9ef05bafe3f64408afc2e5751089245b8fc1cfe9baf043",
         "source_blob": "d2d5e2bd9839c4359a6761d9e6cf99ca5d33b710",
-        "target_hash": "d9432af8cf49344f5adc0373fecec331952b4a7fc36735d8deff855d80fdaf2e",
-        "model": "claude",
-        "updated_at": 1793244667
+        "target_hash": "c2480c50daebbbf6225b3aa55f6200fbfc320b7e4a5b310d31ad2d6005619c57",
+        "model": "manual-sync",
+        "updated_at": 1793970847
       },
       "it": {
         "source_hash": "b1409ec3161ddbce5a9ef05bafe3f64408afc2e5751089245b8fc1cfe9baf043",
@@ -13238,9 +13238,9 @@
       "pl": {
         "source_hash": "b1409ec3161ddbce5a9ef05bafe3f64408afc2e5751089245b8fc1cfe9baf043",
         "source_blob": "d2d5e2bd9839c4359a6761d9e6cf99ca5d33b710",
-        "target_hash": "4b53153fd56d5d53245fb8b92b77960daefe488689031b1c8b9b26dc98816983",
-        "model": "claude",
-        "updated_at": 1793244667
+        "target_hash": "cab362f56dac0c7e55f9a70d1001e2f7491f9946de6b918a50f3ab2362176be5",
+        "model": "manual-sync",
+        "updated_at": 1793970847
       },
       "uk": {
         "source_hash": "b1409ec3161ddbce5a9ef05bafe3f64408afc2e5751089245b8fc1cfe9baf043",

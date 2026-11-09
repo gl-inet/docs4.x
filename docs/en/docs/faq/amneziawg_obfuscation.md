@@ -18,7 +18,7 @@ In short:
 
 ## AmneziaWG V2.0 {#amneziawg-v20}
 
-### Overview {#overview}
+### Overview {#amneziawg-v20-overview}
 
 <font color="red">**Note**: AmneziaWG 2.0 is supported on GL.iNet routers running firmware v4.9 or later.</font>
 
@@ -42,7 +42,7 @@ These enhancements make VPN traffic more difficult to detect while preserving Wi
             
     > Note: I1-I5 are not auto-generated. Users can manually add them as extra lines in the configuration file to make AmneziaWG traffic look like other common protocols, such as QUIC or WebRTC.
 
-### Parameters {#parameters}
+### Parameters {#amneziawg-v20-parameters}
 
 | Parameter    | Description                    | Constraints     | Auto-generated   |
 | ------------ | ------------------------------ | --------------- | ---------------- |
@@ -84,14 +84,13 @@ The following parameters are introduced in AmneziaWG V3.1. For V2.0 parameters, 
 | `RekeyTimeout` | How long a single handshake request waits for a response before retrying (seconds) | `range<uint16>`, 0–65535, min ≤ max; `0` or `0-0` falls back to the WireGuard default | 4–7 (WireGuard default 5) |
 | `RejectAfterTime` | How long without receiving data before the connection initiates a new handshake (seconds) | `range<uint16>`, 0–65535, min ≤ max; `0` or `0-0` falls back to the WireGuard default | 180–240 (WireGuard default 180) |
 | `KeepaliveTimeout` | How long without sending data before an internal keepalive is sent (seconds) | `range<uint16>`, 0–65535, min ≤ max; `0` or `0-0` falls back to the WireGuard default | 8–20 (WireGuard default 10) |
-| `MaxHandshakeAttempts` | Maximum number of handshake retries | `range<uint16>`, 0–65535, min ≤ max; `0` or `0-0` falls back to the WireGuard default | 12–18 (WireGuard default 18); minimum must be ≥ 3 |
+| `MaxHandshakeAttempts` | Maximum number of handshake retries | `range<uint16>`, 0–65535, min ≤ max; `0` or `0-0` falls back to the WireGuard default | 12–18 (WireGuard default 18) |
 | `RandomTrailers` | Appends a variable number of bytes to the end of packets: random data for handshake packets, zeros after the inner IP packet for transport packets. Trailer length is dynamically selected so that neither side's MTU is exceeded | `off` disables it. `S1 = S2 = S3 = S4` is recommended when enabled, to reduce the risk of incorrect packet-type detection caused by random packet sizes | `on` / `off` |
 | `DisableCookies` | Stops the local device from sending Handshake Cookie Replies. Cookie replies received from the peer and the rest of the handshake handling are unaffected | `off` disables it. S3/H3 must still be kept valid, because the receive path may still use them | `on` / `off` |
 
 **Notes**
 
-* Ranges in the last column can be left to the router to generate. `HeaderProtectionKey` must be identical on the client and the server. `RandomTrailers` and `DisableCookies` are switches set per device.
-* Ranges are resolved at runtime: a valid in-range value is kept as is, while a fixed value or a range with either end outside the GL.iNet ranges — including a mixed `0-X` range — is replaced by a randomly generated value inside that range. Malformed input (bad syntax, a value beyond uint16, an inverted range, a missing range end) is rejected instead of being replaced. The client and the server do not need identical timing values.
+* Ranges in the last column can be left to the router to generate. `HeaderProtectionKey` must be identical on the client and the server. `RandomTrailers` and `DisableCookies` are switches set per device. Timing values outside the listed ranges are replaced at runtime by a random value inside the range.
 * `ContentPaddingAddition` and `S4` both change the transport packet length but act on different parts of the packet, and they are not mutually exclusive.
 * Header Protection and dynamic `H` are not strictly mutually exclusive; `H1–H4` can stay dynamic, although `1/2/3/4` is the recommended setting.
 

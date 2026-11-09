@@ -21,7 +21,9 @@ Check out Mango 2's unboxing video below.
 
 ## How to set up Mango 2 {#how-to-set-up-mango-2}
 
-To set up Mango 2, you will use one of the four supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular. Follow the steps below. 
+Watch this setup video or follow the steps below.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-dct81JynMY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### 1. Power on {#1-power-on}
 

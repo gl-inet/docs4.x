@@ -12,8 +12,8 @@ block an unrelated change. Errors fail the check; warnings are only reported.
   images     (error)    image URLs that return 404, in every language
   grammar    (warning)  grammar problems in English pages, found by a
                         LanguageTool server; skipped without --languagetool
-  heading-id (warning)  English heading IDs that a page no longer has; links,
-                        bookmarks and localized pages still use them
+  heading-id (warning)  English heading IDs that a page no longer has; update
+                        localized IDs and in-repository links and redirects
   alt-text   (warning)  file-name-like alt text whose number differs from the
                         image file name, e.g. ![vpnsafe4](.../vpnsafe3.jpg)
   copied-link (warning) an "Official Website" link of an English page that is
@@ -330,8 +330,9 @@ def check_heading_ids(base: str) -> list[Finding]:
         if removed:
             findings.append(Finding(
                 "warning", "heading-id", new, 1,
-                f"heading IDs removed: {', '.join(removed)}. Keep existing IDs when headings are reworded; "
-                "if an ID must change, update it in every language and every link that uses it.",
+                f"heading IDs removed: {', '.join(removed)}. IDs follow the current English title; "
+                "update matching localized IDs and in-repository anchor links and redirects. "
+                "No separate migration approval or external-bookmark alias is required.",
             ))
     return findings
 

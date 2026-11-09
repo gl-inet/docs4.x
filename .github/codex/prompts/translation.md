@@ -6,9 +6,34 @@ Use the `$glinet-docs-translation` skill and follow its Incremental Sync Workflo
 
 - Confirm the current branch is `master` and the working tree is clean. The workflow already checked out the latest `origin/master`; do not create a different branch and do not pull another branch.
 - If the branch or working tree precondition fails, stop without editing and return `status: blocked`.
-- Treat the cache delta report as the source set. Each `hash_mismatch` and `cache_missing` entry lists the languages that are out of date for that English file; sync exactly those languages and do not infer the set only from recent commits.
+- Treat the cache delta report as the source set. Each `hash_mismatch` and `cache_missing` entry lists the languages that are out of date for that English file; sync exactly those languages (plus necessary localized anchor-link/redirect repairs for title changes below) and do not infer the set only from recent commits.
 - For each out-of-date file and language, run `python scripts/translation_delta.py diff <en-file> --lang <lang>` to see what English changed since that language was synced. If it reports no stored English version, compare the whole English and localized pages.
 - Skip the excluded Downloads page and trailing `## Regulatory Statements` sections as required by the skill.
+
+## Heading IDs and initial diagnostics {#heading-ids-and-initial-diagnostics}
+
+- Heading IDs follow the current English title in lowercase ASCII kebab-case,
+  unique within the page. Title-driven ID changes are normal sync work and need
+  no separate approval or migration list. The cache is a translation baseline,
+  not a source-correctness authority; an ID difference alone is not a blocker.
+- Match old/current sections using full pages and surrounding content. Copy
+  current English IDs to localized headings; never derive shared IDs from
+  localized titles. Search all languages for inbound anchor links and redirects
+  to the affected page and old ID, including files outside the initial cache
+  delta. Include necessary localized repairs in the patch. Never use a blanket
+  replacement across unrelated pages. Do not preserve old IDs or add aliases
+  solely for external bookmarks; unchanged headings need no bulk rewrite.
+  Protected localized legal sections keep their wording, placement and IDs.
+- If an English ID does not follow its changed title, section mapping is
+  ambiguous, or an out-of-scope English link fix remains, report that specific
+  source issue instead of editing English. Unresolved broken links prevent
+  completion. An aligned ID does not clear pending prose changes.
+- Initial missing translated pages, sections, links and updated images within
+  the source set are translation work, not reasons to stop before editing.
+  Record initial diagnostics, perform the sync, then rerun all checks. Genuine
+  unsafe sources or precondition failures still block; unrelated backlog must
+  be reported and final errors still prevent completed status. Do not weaken
+  checks, add allowlist exceptions or advance the cache to hide pending work.
 
 ## Work plan
 
@@ -21,7 +46,7 @@ Use the `$glinet-docs-translation` skill and follow its Incremental Sync Workflo
 ## Translation
 
 - First produce the English change list in your result, including added, modified, deleted, and renamed source files where applicable.
-- Sync `de`, `es`, `fr`, `it`, `ja`, `nl`, `pl`, `sv`, and `uk`. Preserve Markdown structure, links, images, anchors, UI labels, technical values, warnings, and protected localized declarations.
+- Sync `de`, `es`, `fr`, `it`, `ja`, `nl`, `pl`, `sv`, and `uk`. Preserve Markdown structure, UI labels, technical values, warnings, and protected localized declarations. Synchronize current English links, images and title-driven heading IDs; do not preserve stale localized values when the source changes them.
 - Translate only changed portions of existing pages. Read the full English and localized pages and nearby terminology before editing.
 - Run `python scripts/i18n_check.py --lang de es fr it ja nl pl sv uk` and fix every error in the files you synced.
 - Record each sync with `python scripts/translation_delta.py mark <en-file> ... --lang <langs> --model codex`. Do not edit `.translation-cache.json` in any other way. If `mark` refuses a language, fix the reported problem; if it cannot be fixed safely, leave that language unmarked and report it.

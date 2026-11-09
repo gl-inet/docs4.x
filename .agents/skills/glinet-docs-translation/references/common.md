@@ -50,6 +50,24 @@ This repository contains localized GL.iNet router documentation. When translatin
 
 ## Internal Links and Anchors
 
+Heading IDs follow the current English title in lowercase ASCII kebab-case,
+unique within the page. A title-driven ID change is normal sync work and needs
+no separate approval or migration list. The cache is a translation baseline,
+not an authority for restoring old IDs. An ID difference from the cache alone
+is not a blocking source issue.
+
+Match old/current sections using full pages and surrounding content. Copy the
+current English ID to localized headings and update inbound anchor links and
+redirects to the affected page in every language, including files outside the
+initial cache delta. Do not replace the same ID on unrelated pages. Do not keep
+old IDs or add aliases solely for external bookmarks; unchanged headings need
+no bulk rewrite. Protected localized-only legal sections keep their wording,
+placement and IDs. If the section mapping is ambiguous, the English ID does
+not follow its changed title, or an English link needs correction outside the
+task's scope, report that specific source issue instead of silently changing
+English. Unresolved broken links still prevent completion.
+
+
 - Every heading carries an explicit ID copied from the matching English heading, for example `## Перенаправлення портів {#port-forwards}`. Translate the heading text; never translate, drop, or reword the `{#id}`.
 - Anchor links in localized pages use the same English IDs as the English page. Do not rewrite them to localized slugs.
 - A heading that exists only in the localized page gets a lowercase ASCII kebab-case ID derived from an English rendering of the heading, unique within the page.

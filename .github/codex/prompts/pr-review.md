@@ -16,8 +16,10 @@ Review the changed lines and, where needed, the surrounding page and related pag
 - **image**: alt text that does not match the image file name or the step it illustrates, or an image placed under the wrong step
 - **grammar** and **spelling**: errors in English prose, including product and protocol names written inconsistently with the rest of the docs
 - **terminology** and **ui-label**: UI labels and navigation paths that do not follow the format in `AGENTS.md` or nearby pages
-- **structure**: headings without an explicit `{#id}`, changed existing IDs, malformed Markdown, admonitions, lists, or tables
+- **structure**: headings without an explicit `{#id}`, IDs inconsistent with changed English titles or matching localized headings, malformed Markdown, admonitions, lists, or tables
 - **translation**: for changed localized pages (`docs/<lang>/`), meaning that differs from the English page, untranslated fragments, or terminology that breaks `.agents/skills/glinet-docs-translation/references/common.md` and the reference for that language
+
+Heading IDs follow changed English titles without separate migration approval; localized headings use the same English IDs, not localized slugs. Do not flag a title-driven ID change solely because the old ID or external bookmarks are not preserved. Check in-repository anchor links and redirects and matching localized IDs; unchanged headings need no bulk rewrite. Protected localized-only legal sections keep their IDs.
 
 You may run read-only commands such as `git`, `rg`, `python scripts/anchors.py check`, and `python scripts/i18n_check.py` to confirm a finding. Do not report problems that these scripts already report unless you explain the fix.
 

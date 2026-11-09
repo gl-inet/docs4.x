@@ -58,7 +58,7 @@ If you fail to establish a connection to an obfuscated WireGuard server, follow 
 
 3. **Adjust obfuscation parameters.**
 
-    If you have manually configured [obfuscation parameters](amneziawg_obfuscation.md#parameter-overview) (such as Jc, Jmin, Jmax) on your WireGuard server, incorrect parameter settings may lead to handshake failures. 
+    If you have manually configured [obfuscation parameters](amneziawg_obfuscation.md) (such as Jc, Jmin, Jmax) on your WireGuard server, incorrect parameter settings may lead to handshake failures. 
     
     Try modifying these obfuscation parameters and reconnecting to rule out parameter mismatch issues. You can also restore the default obfuscation settings for testing.
 

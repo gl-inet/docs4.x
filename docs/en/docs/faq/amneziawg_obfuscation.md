@@ -60,7 +60,7 @@ References: [AmneziaWG Official Documentation](https://docs.amnezia.org/document
 
 ## AmneziaWG V3.1 {#amneziawg-v31}
 
-### Overview {#overview_1}
+### Overview {#amneziawg-v31-overview}
 
 <font color="red">**Note**: AmneziaWG 3.1 is supported on GL.iNet routers running firmware v4.12 or later.</font>
 

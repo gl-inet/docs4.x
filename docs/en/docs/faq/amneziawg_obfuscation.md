@@ -72,7 +72,7 @@ AmneziaWG 3.1 keeps the full v2.0 obfuscation set — random prefixes for every 
 - **Random Trailers**: Adds variable-length trailers to handshake and transport data packets to further vary packet sizes.
 - **Disable Cookies**: Allows a device to stop sending handshake cookie replies while retaining cookie-reply reception and other handshake processing.
 
-### Parameters {#parameters_1}
+### Parameters {#amneziawg-v31-parameters}
 
 The following parameters are introduced in AmneziaWG V3.1. For V2.0 parameters, refer to the AmneziaWG V2.0 parameters above.
 

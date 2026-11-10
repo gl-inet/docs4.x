@@ -44,17 +44,17 @@ These enhancements make VPN traffic more difficult to detect while preserving Wi
 
 ### Parameters {#amneziawg-v20-parameters}
 
-| Parameter    | Description                    | Constraints     | Auto-generated   |
-| ------------ | ------------------------------ | --------------- | ---------------- |
-| Jc           | The number of junk packets before the client initiating the handshake (for interference with traffic feature detection) | 1~128 | 4~12 |
-| Jmin         | Minimum size for random junk packets (bytes); Must be configured with Jmax to define junk packets size | 0 ≤ Jmin < Jmax < 1280 | 0 <= jmin < jmax < 1280 |
-| Jmax         | Maximum size for random junk packets     | 0 ≤ Jmin < Jmax < 1280         | 0≤ Jmin < Jmax < 1280 |
-| S1           | Random prefixes for Init packets         | 0 ≤ S1 ≤ 1132                  | 15~150 |
-| S2           | Random prefixes for Response packets     | 0 ≤ S2 ≤ 1188 <br> S1 + 56 ≠ S2 | 15~150 |
-| S3           | Random prefixes for Cookie packets       | 0 ≤ S3 ≤ 1216                  | 15~150 |
-| S4           | Random prefixes for Data packets         | 0 ≤ S4 ≤ 32                    | 0~32   |
-| H1~H4        | Dynamic headers for packet types; Random values (v1.0) or ranges (v2.0)   | 5~2147483647; H1, H2, H3, and H4 must be different | 5~2147483647 |
-| I1~I5        | Signature packets for protocol imitation | arbitrary hex-blob             | N/A |
+| Parameter | Description | Constraints | Auto-generated |
+| --------- | ----------- | ----------- | -------------- |
+| Jc        | The number of junk packets before the client initiating the handshake (for interference with traffic feature detection) | 1~128 | 4~12 |
+| Jmin      | Minimum size for random junk packets (bytes); Must be configured with Jmax to define junk packets size | 0 ≤ Jmin < Jmax < 1280 | 0 <= jmin < jmax < 1280 |
+| Jmax      | Maximum size for random junk packets     | 0 ≤ Jmin < Jmax < 1280          | 0≤ Jmin < Jmax < 1280 |
+| S1        | Random prefixes for Init packets         | 0 ≤ S1 ≤ 1132                   | 15~150 |
+| S2        | Random prefixes for Response packets     | 0 ≤ S2 ≤ 1188 <br> S1 + 56 ≠ S2 | 15~150 |
+| S3        | Random prefixes for Cookie packets       | 0 ≤ S3 ≤ 1216                   | 15~150 |
+| S4        | Random prefixes for Data packets         | 0 ≤ S4 ≤ 32                     | 0~32   |
+| H1~H4     | Dynamic headers for packet types; Random values (v1.0) or ranges (v2.0)    | 5~2147483647; H1, H2, H3, and H4 must be different | 5~2147483647 |
+| I1~I5     | Signature packets for protocol imitation | arbitrary hex-blob              | N/A |
 
 References: [AmneziaWG Official Documentation](https://docs.amnezia.org/documentation/amnezia-wg){target="_blank"}
 
@@ -62,19 +62,19 @@ References: [AmneziaWG Official Documentation](https://docs.amnezia.org/document
 
 ### Overview {#amneziawg-v31-overview}
 
-<font color="red">**Note**: AmneziaWG 3.1 is supported on GL.iNet routers running firmware v4.12 or later.</font>
+<font color="red">**Note**: AmneziaWG 3.1 is supported on GL.iNet routers running firmware v4.11.1 or later.</font>
 
-AmneziaWG 3.1 keeps the full v2.0 obfuscation set — random prefixes for every packet type (**S1–S4**), dynamic headers (**H1–H4**), the pre-handshake signature packets (**I1–I5**) and the junk train (**Jc**, **Jmin**, **Jmax**) — and adds mechanisms that give users more control over packet headers, packet lengths and handshake timing, making the traffic harder to fingerprint.
+AmneziaWG 3.1 keeps the full v2.0 obfuscation set — random prefixes for every packet type (**S1–S4**), dynamic headers (**H1–H4**), the pre-handshake signature packets (**I1–I5**) and the junk train (**Jc**, **Jmin**, **Jmax**) — and adds the following mechanisms to make the traffic harder to fingerprint.
 
 - **Header Protection**: Uses ChaCha20 to hide fields in WireGuard packet headers that would otherwise remain unencrypted.
 - **Content Padding**: Adds a randomly selected amount of padding to transport data packets, subject to the available MTU space.
-- **Custom Timings**: Allows configurable values or ranges for rekeying, handshake retries, keepalives, and related connection behavior.
+- **Custom Timings**: Allows configurable values or ranges for rekeying, handshake retries, keepalives, and related connection behavior. The auto-generated values are recommended on both the server and the client.
 - **Random Trailers**: Adds variable-length trailers to handshake and transport data packets to further vary packet sizes.
 - **Disable Cookies**: Allows a device to stop sending handshake cookie replies while retaining cookie-reply reception and other handshake processing.
 
 ### Parameters {#amneziawg-v31-parameters}
 
-The following parameters are introduced in AmneziaWG V3.1. For V2.0 parameters, refer to the AmneziaWG V2.0 parameters above.
+The following parameters are introduced in AmneziaWG V3.1.
 
 | Parameter | Description | Constraints | GL.iNet Range/Value |
 | --------- | ----------- | ----------- | ----------- |
@@ -90,7 +90,9 @@ The following parameters are introduced in AmneziaWG V3.1. For V2.0 parameters, 
 
 **Notes**
 
-* Ranges in the last column can be left to the router to generate. `HeaderProtectionKey` must be identical on the client and the server. `RandomTrailers` and `DisableCookies` are switches set per device. Timing values outside the listed ranges are replaced at runtime by a random value inside the range.
+* Ranges in the last column can be left to the router to generate. `RandomTrailers` and `DisableCookies` are switches set per device.
+* `HeaderProtectionKey` must be identical on the client and the server.
+* Timing values outside the listed ranges are replaced at runtime by a random value inside the range, so a custom value may not take effect as typed.
 * `ContentPaddingAddition` and `S4` both change the transport packet length but act on different parts of the packet, and they are not mutually exclusive.
 * Header Protection and dynamic `H` are not strictly mutually exclusive; `H1–H4` can stay dynamic, although `1/2/3/4` is the recommended setting.
 

@@ -60,7 +60,7 @@ All Other Traffic is a default tunnel that ensures normal Internet access for tr
 
 In firmware v4.9 and above, two types of VPN Kill Switch are available: **Tunnel Kill Switch** and **Enhanced Kill Switch**.
 
-### Tunnel Kill Switch
+### Tunnel Kill Switch {#tunnel-kill-switch_1}
 
 On the router's web Admin Panel, navigate to **VPN** -> **VPN Dashboard**.
 

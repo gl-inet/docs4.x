@@ -76,7 +76,7 @@ The Kill Switch for this tunnel is enabled by default.
 
 ![tunnel options 2](https://static.gl-inet.com/docs/router/en/4/faq/block_non_vpn_traffic/4.9-tunnel-options-2.png){class="glboxshadow" width=600}
 
-### Enhanced Kill Switch
+### Enhanced Kill Switch {#enhanced-kill-switch_1}
 
 On the router's web Admin Panel, navigate to **VPN** -> **VPN Dashboard**, then click the gear icon at the upper right.
 

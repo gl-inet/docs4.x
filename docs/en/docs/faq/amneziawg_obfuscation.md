@@ -20,13 +20,15 @@ In short:
 
 ### Overview {#amneziawg-v20-overview}
 
-<font color="red">**Note**: AmneziaWG 2.0 is supported on GL.iNet routers running firmware v4.9 or later.</font>
+<font color="red">**Note**: AmneziaWG 2.0 is supported on GL.iNet routers running firmware v4.9.0 or later.</font>
 
-Compared with AmneziaWG v1.0, v2.0 provides stronger obfuscation by adding new parameters (**S3~S4**) and using dynamic headers for packet types (**H1~H4** as ranges instead of fixed values). In addition, AmneziaWG 2.0 supports the **I1~I5** parameters, which send formatted UDP packets before each handshake to disguise AmneziaWG traffic as ordinary non‑VPN traffic, effectively bypassing deep packet inspection and enhancing connectivity in restricted networks. 
+AmneziaWG 2.0 keeps the v1.0 obfuscation set — the junk train (**Jc**, **Jmin**, **Jmax**) and random prefixes for Init and Response packets (**S1–S2**) — and adds the following mechanisms to hide the parts of the connection that were still predictable:
 
-A typical obfuscation section of a v2.0 configuration looks like this:
+* **S3–S4**: random prefixes for Cookie and Data packets. v1.0 only padded Init and Response packets, so Cookie packets stayed at exactly 64 bytes and Data packets at exactly payload length.
 
-![parameters](https://static.gl-inet.com/docs/router/en/4/faq/amneziawg_obfuscation_parameters/parameters.png){class="glboxshadow"}
+* **H1–H4 as ranges**: the header value of each packet type is drawn from a range instead of being a single fixed number, and any value inside the range is accepted on receipt. The four ranges must not overlap.
+
+* **I1–I5**: user-defined UDP packets sent before each handshake, so the session opens with traffic that looks like a common UDP protocol rather than a WireGuard handshake.
 
 These enhancements make VPN traffic more difficult to detect while preserving WireGuard's high speed and low latency.
 
@@ -55,6 +57,28 @@ These enhancements make VPN traffic more difficult to detect while preserving Wi
 | S4        | Random prefixes for Data packets         | 0 ≤ S4 ≤ 32                     | 0~32   |
 | H1~H4     | Dynamic headers for packet types; Random values (v1.0) or ranges (v2.0)    | 5~2147483647; H1, H2, H3, and H4 must be different | 5~2147483647 |
 | I1~I5     | Signature packets for protocol imitation | arbitrary hex-blob              | N/A |
+
+An example of a v2.0 obfuscation section:
+
+```ini
+[Interface]
+Address = 10.1.0.2/24
+PrivateKey = <client private key>
+DNS = 10.1.0.1
+MTU = 1420
+
+Jc = 11
+Jmin = 472
+Jmax = 1277
+S1 = 122
+S2 = 134
+S3 = 13
+S4 = 13
+H1 = 1318795025-1318795156
+H2 = 1029272944-1029273095
+H3 = 966737016-966737098
+H4 = 282229905-429495047
+```
 
 References: [AmneziaWG Official Documentation](https://docs.amnezia.org/documentation/amnezia-wg){target="_blank"}
 

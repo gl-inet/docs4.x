@@ -16,7 +16,7 @@ Toggle on **Block Non-VPN Traffic** (also called Kill Switch in some firmware ve
 
 **Note:** When Block Non-VPN Traffic / Kill Switch is enabled, if your VPN is disabled or disconnected, all devices connected to the router will be restricted from accessing the Internet to prevent DNS leaks.
 
-## For firmware v4.8 or later {#for-firmware-v48-or-later}
+## For firmware v4.8
 
 In firmware v4.8, the VPN Kill Switch has been split into two modes.
 
@@ -55,6 +55,40 @@ On the router's web Admin Panel, navigate to **VPN** -> **VPN Dashboard**, switc
 All Other Traffic is a default tunnel that ensures normal Internet access for traffic not covered by the VPN tunnels and policies above, or traffic that has failed over from VPN connections. This tunnel is enabled by default and mutually exclusive with Enhanced Kill Switch.
 
 **Note**: If you disable All Other Traffic, you will only be able to access the Internet via VPN. All unmatched traffic will be blocked. This setting does not override the individual Kill Switch for each tunnel.
+
+## For firmware v4.9 and above
+
+In firmware v4.9 and above, two types of VPN Kill Switch are available: **Tunnel Kill Switch** and **Enhanced Kill Switch**.
+
+### Tunnel Kill Switch
+
+On the router's web Admin Panel, navigate to **VPN** -> **VPN Dashboard**.
+
+If you set your router as a VPN client, the Kill Switch for this VPN tunnel is enabled by default once the VPN is activated.
+
+![tunnel kill switch](https://static.gl-inet.com/docs/router/en/4/faq/block_non_vpn_traffic/4.9-tunnel-kill-switch.png){class="glboxshadow"}
+
+Click the gear icon next to the tunnel name to enter the **Tunnel Options**.
+
+![tunnel options 1](https://static.gl-inet.com/docs/router/en/4/faq/block_non_vpn_traffic/4.9-tunnel-options-1.png){class="glboxshadow"}
+
+The Kill Switch for this tunnel is enabled by default.
+
+![tunnel options 2](https://static.gl-inet.com/docs/router/en/4/faq/block_non_vpn_traffic/4.9-tunnel-options-2.png){class="glboxshadow" width=600}
+
+### Enhanced Kill Switch
+
+On the router's web Admin Panel, navigate to **VPN** -> **VPN Dashboard**, then click the gear icon at the upper right.
+
+![all other traffic 1](https://static.gl-inet.com/docs/router/en/4/faq/block_non_vpn_traffic/4.9-all-other-traffic-1.png){class="glboxshadow"}
+
+The Traffic policy control has two options: **Allow Non-VPN Traffic** and **Enhanced Kill Switch**.
+
+![all other traffic 2](https://static.gl-inet.com/docs/router/en/4/faq/block_non_vpn_traffic/4.9-all-other-traffic-2.png){class="glboxshadow" width=600}
+
+- **Allow Non-VPN Traffic**: Enabled by default. It allows normal Internet access for traffic not covered by the VPN tunnels and policies above, or traffic that has failed over from VPN connections.
+
+- **Enhanced Kill Switch**: When enabled, it forces all devices to access the Internet through a VPN. Any traffic that does not match a VPN tunnel will be blocked. This setting does not override the Kill Switch configured for individual VPN tunnels.
 
 ---
 

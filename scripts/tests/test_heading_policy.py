@@ -38,6 +38,41 @@ class HeadingPolicyTests(unittest.TestCase):
         self.assertIn('Protected localized-only legal sections keep their IDs.', review)
         self.assertNotIn('changed existing IDs', review)
 
+    def test_scoped_repeated_subheadings_are_valid_not_source_blockers(self):
+        for path in (
+            'AGENTS.md',
+            '.agents/skills/glinet-docs-translation/references/common.md',
+            '.github/codex/prompts/translation.md',
+            '.github/codex/prompts/pr-review.md',
+        ):
+            with self.subTest(path=path):
+                text = normalized(path)
+                self.assertIn('amneziawg-v20-parameters', text)
+                if path == 'AGENTS.md':
+                    self.assertIn('Overview', text)
+                else:
+                    self.assertIn('amneziawg-v20-overview', text)
+                self.assertIn('title-only slug', text)
+        anchors = pr_check.anchors
+        text = (
+            '# Example {#example}\n\n'
+            '## AmneziaWG V2.0 {#amneziawg-v20}\n\n'
+            '### Overview {#amneziawg-v20-overview}\n\n'
+            '### Parameters {#amneziawg-v20-parameters}\n\n'
+            '## AmneziaWG V3.1 {#amneziawg-v31}\n\n'
+            '### Overview {#amneziawg-v31-overview}\n\n'
+            '### Parameters {#amneziawg-v31-parameters}\n\n'
+            '[V2](#amneziawg-v20-parameters) [V3](#amneziawg-v31-parameters)\n'
+        )
+        page = anchors.load_page('en', ROOT / 'docs/en/docs/example.md', text)
+        report = anchors.Report()
+        anchors.check_lang('en', {page.rel: page}, {page.rel: page}, report)
+        self.assertEqual(report.errors, [])
+        ids = [heading.explicit_id for heading in page.headings]
+        self.assertEqual(len(ids), len(set(ids)))
+        self.assertEqual([h.text for h in page.headings].count('Parameters'), 2)
+        self.assertEqual([h.text for h in page.headings].count('Overview'), 2)
+
     @patch('pr_check.page_lines', return_value=['## Appearance {#appearance}'])
     @patch('pr_check.git')
     def test_removed_id_warning_requests_repairs_not_old_id_retention(self, git, pages):

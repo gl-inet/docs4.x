@@ -56,6 +56,16 @@ no separate approval or migration list. The cache is a translation baseline,
 not an authority for restoring old IDs. An ID difference from the cache alone
 is not a blocking source issue.
 
+Repeated subheadings may include the current English parent section as an ID
+prefix. Under AmneziaWG V2.0, `Parameters` and `Overview` may use
+`amneziawg-v20-parameters` and `amneziawg-v20-overview`; under V3.1 they may use
+`amneziawg-v31-parameters` and `amneziawg-v31-overview`. These IDs follow the
+current title plus its section context and are valid without lengthening the
+visible headings. Do not treat the context prefix as a title/ID mismatch or
+strip it merely to match a title-only slug. Update affected scoped IDs and
+references when the English title or parent context changes. Localized headings
+still copy the complete English ID, including its context prefix.
+
 Match old/current sections using full pages and surrounding content. Copy the
 current English ID to localized headings and update inbound anchor links and
 redirects to the affected page in every language, including files outside the
@@ -63,7 +73,7 @@ initial cache delta. Do not replace the same ID on unrelated pages. Do not keep
 old IDs or add aliases solely for external bookmarks; unchanged headings need
 no bulk rewrite. Protected localized-only legal sections keep their wording,
 placement and IDs. If the section mapping is ambiguous, the English ID does
-not follow its changed title, or an English link needs correction outside the
+not follow its changed title and section context, or an English link needs correction outside the
 task's scope, report that specific source issue instead of silently changing
 English. Unresolved broken links still prevent completion.
 

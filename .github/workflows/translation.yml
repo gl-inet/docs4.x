@@ -302,7 +302,8 @@ jobs:
             echo
             echo '```'
           } > "$RUNNER_TEMP/english-source-issues.md"
-          gh issue create \
+          # This path may run without checkout when translation is blocked.
+          gh issue create --repo "$GITHUB_REPOSITORY" \
             --title "English source issues found by translation run ${GITHUB_RUN_ID}" \
             --body-file "$RUNNER_TEMP/english-source-issues.md"
 

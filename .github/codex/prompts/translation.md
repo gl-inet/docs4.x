@@ -16,6 +16,14 @@ Use the `$glinet-docs-translation` skill and follow its Incremental Sync Workflo
   unique within the page. Title-driven ID changes are normal sync work and need
   no separate approval or migration list. The cache is a translation baseline,
   not a source-correctness authority; an ID difference alone is not a blocker.
+- Repeated subheadings may use the current English parent section as an ID
+  prefix. For example, Parameters and Overview under AmneziaWG V2.0 may use
+  amneziawg-v20-parameters and amneziawg-v20-overview; under V3.1 they may use
+  amneziawg-v31-parameters and amneziawg-v31-overview. These are valid contextual
+  IDs, not source errors. Do not block sync, lengthen visible headings or strip
+  a valid prefix merely because the ID is not an exact title-only slug. Update
+  affected scoped IDs and references when their English title or parent context
+  changes; localized headings copy the complete English ID, prefix included.
 - Match old/current sections using full pages and surrounding content. Copy
   current English IDs to localized headings; never derive shared IDs from
   localized titles. Search all languages for inbound anchor links and redirects
@@ -24,7 +32,7 @@ Use the `$glinet-docs-translation` skill and follow its Incremental Sync Workflo
   replacement across unrelated pages. Do not preserve old IDs or add aliases
   solely for external bookmarks; unchanged headings need no bulk rewrite.
   Protected localized legal sections keep their wording, placement and IDs.
-- If an English ID does not follow its changed title, section mapping is
+- If an English ID does not follow its changed title and section context, section mapping is
   ambiguous, or an out-of-scope English link fix remains, report that specific
   source issue instead of editing English. Unresolved broken links prevent
   completion. An aligned ID does not clear pending prose changes.

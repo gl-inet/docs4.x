@@ -16,7 +16,7 @@ Toggle on **Block Non-VPN Traffic** (also called Kill Switch in some firmware ve
 
 **Note:** When Block Non-VPN Traffic / Kill Switch is enabled, if your VPN is disabled or disconnected, all devices connected to the router will be restricted from accessing the Internet to prevent DNS leaks.
 
-## For firmware v4.8
+## For firmware v4.8 {#for-firmware-v48}
 
 In firmware v4.8, the VPN Kill Switch has been split into two modes.
 

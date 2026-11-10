@@ -58,7 +58,7 @@ Volg de onderstaande stappen als je geen verbinding met een verborgen WireGuard-
 
 3. **Adjust obfuscation parameters.**
 
-    Als je [obfuscatieparameters](amneziawg_obfuscation.md#parameter-overview) zoals Jc, Jmin en Jmax handmatig hebt ingesteld, kunnen onjuiste waarden een mislukte handshake veroorzaken.
+    Als je [obfuscatieparameters](amneziawg_obfuscation.md) zoals Jc, Jmin en Jmax handmatig hebt ingesteld, kunnen onjuiste waarden een mislukte handshake veroorzaken.
 
     Wijzig de obfuscatieparameters en maak opnieuw verbinding om niet-overeenkomende parameters uit te sluiten. Je kunt ook de standaardinstellingen herstellen om te testen.
 

@@ -37,7 +37,7 @@
 
     ![Увімкнення обфускації VPN на сервері](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_obfuscation1.png){class="glboxshadow"}
 
-    За потреби змініть параметри обфускації. Докладніше дивіться [тут](../faq/amneziawg_obfuscation.md#parameter-overview).
+    За потреби змініть параметри обфускації. Докладніше дивіться [тут](../faq/amneziawg_obfuscation.md).
 
     Рекомендуємо залишити налаштування за замовчуванням.
 

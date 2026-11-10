@@ -37,7 +37,7 @@
 
     ![enable obfuscation](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_obfuscation1.png){class="glboxshadow"}
 
-    必要に応じて難読化パラメーターをカスタマイズできます。詳細については[こちら](../faq/amneziawg_obfuscation.md#parameter-overview)をクリックしてください。
+    必要に応じて難読化パラメーターをカスタマイズできます。詳細については[こちら](../faq/amneziawg_obfuscation.md)をクリックしてください。
 
     デフォルト設定のまま使用することをおすすめします。
 

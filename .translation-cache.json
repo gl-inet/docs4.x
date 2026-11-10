@@ -2883,67 +2883,67 @@
   "docs/en/docs/faq/why_is_my_vpn_speed_slow.md": {
     "targets": {
       "de": {
-        "source_hash": "53fc693ce169c4187e16a8dd2f63a1c466d81961d503da8d75c1465384f99b4f",
-        "source_blob": "warning: in the working copy of 'docs\\en\\docs\\faq\\why_is_my_vpn_speed_slow.md', LF will be replaced by CRLF the next time Git touches it\n2ab4467cca1455da8d853fc1d5c94b9224e19d0a",
-        "target_hash": "f9f44d4d48c69f1a82a7986cbaebed50379de8a9fbdea29f8a31e4d124acf9d2",
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792565157
+        "source_hash": "81c3762d38cd22b901eb80c82259985cc4ddeb07b7d64c50a53348b94486deca",
+        "source_blob": "53c97347d0b5ace135b3ce6209d2475a20923b16",
+        "target_hash": "e0054f3f618104050018baf6aca9bec6ac651ea1f8c913d6c97a17d912bde61b",
+        "model": "codex",
+        "updated_at": 1794353369
       },
       "es": {
-        "source_hash": "53fc693ce169c4187e16a8dd2f63a1c466d81961d503da8d75c1465384f99b4f",
-        "source_blob": "warning: in the working copy of 'docs\\en\\docs\\faq\\why_is_my_vpn_speed_slow.md', LF will be replaced by CRLF the next time Git touches it\n2ab4467cca1455da8d853fc1d5c94b9224e19d0a",
-        "target_hash": "b4b83d9ae77a6dac7a0507c38c60fd1c1f48e555aa304f5add2d57e817a40014",
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792565157
+        "source_hash": "81c3762d38cd22b901eb80c82259985cc4ddeb07b7d64c50a53348b94486deca",
+        "source_blob": "53c97347d0b5ace135b3ce6209d2475a20923b16",
+        "target_hash": "7b24cb6f88258f65ea99b101e1d575764451ca2a0d411cf93168831d183f8f42",
+        "model": "codex",
+        "updated_at": 1794353342
       },
       "fr": {
-        "source_hash": "53fc693ce169c4187e16a8dd2f63a1c466d81961d503da8d75c1465384f99b4f",
-        "source_blob": "warning: in the working copy of 'docs\\en\\docs\\faq\\why_is_my_vpn_speed_slow.md', LF will be replaced by CRLF the next time Git touches it\n2ab4467cca1455da8d853fc1d5c94b9224e19d0a",
-        "target_hash": "e1b472d066439c89190acc06e54d6c84109668f1ed2a77162d3a5d9a0878bf2b",
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792565157
+        "source_hash": "81c3762d38cd22b901eb80c82259985cc4ddeb07b7d64c50a53348b94486deca",
+        "source_blob": "53c97347d0b5ace135b3ce6209d2475a20923b16",
+        "target_hash": "dc1c0b0f0e5e24458b92bde5ecfd7af38c344d26905b52ebbdefe585fce9793a",
+        "model": "codex",
+        "updated_at": 1794353376
       },
       "it": {
-        "source_hash": "53fc693ce169c4187e16a8dd2f63a1c466d81961d503da8d75c1465384f99b4f",
-        "source_blob": "warning: in the working copy of 'docs\\en\\docs\\faq\\why_is_my_vpn_speed_slow.md', LF will be replaced by CRLF the next time Git touches it\n2ab4467cca1455da8d853fc1d5c94b9224e19d0a",
-        "target_hash": "028e37a489e4d0fc23d13ab7a725ebded10b905ed35bc30562fa570de946a03d",
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792565157
+        "source_hash": "81c3762d38cd22b901eb80c82259985cc4ddeb07b7d64c50a53348b94486deca",
+        "source_blob": "53c97347d0b5ace135b3ce6209d2475a20923b16",
+        "target_hash": "256c438dcf7e82dc240f5232705926948c767f8826362856a7afdf735bfaee4a",
+        "model": "codex",
+        "updated_at": 1794353451
       },
       "ja": {
-        "source_hash": "53fc693ce169c4187e16a8dd2f63a1c466d81961d503da8d75c1465384f99b4f",
-        "source_blob": "warning: in the working copy of 'docs\\en\\docs\\faq\\why_is_my_vpn_speed_slow.md', LF will be replaced by CRLF the next time Git touches it\n2ab4467cca1455da8d853fc1d5c94b9224e19d0a",
-        "target_hash": "6ad165b19f4d07e1285d5523c2e1fac247924315e527a0ced9734d19dd6887ab",
-        "model": "claude-opus-5-5-ja-review",
-        "updated_at": 1792655214
+        "source_hash": "81c3762d38cd22b901eb80c82259985cc4ddeb07b7d64c50a53348b94486deca",
+        "source_blob": "53c97347d0b5ace135b3ce6209d2475a20923b16",
+        "target_hash": "4450cb6cdc2e75dac7d517da83ffc00a1fbd9cad407657b085e877dbd9e96dae",
+        "model": "codex",
+        "updated_at": 1794353527
       },
       "pl": {
-        "source_hash": "53fc693ce169c4187e16a8dd2f63a1c466d81961d503da8d75c1465384f99b4f",
-        "source_blob": "warning: in the working copy of 'docs\\en\\docs\\faq\\why_is_my_vpn_speed_slow.md', LF will be replaced by CRLF the next time Git touches it\n2ab4467cca1455da8d853fc1d5c94b9224e19d0a",
-        "target_hash": "61f019b3736f6163dccc1b63695f6decb7cf21acceed2e3539af185196da2abc",
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792565157
+        "source_hash": "81c3762d38cd22b901eb80c82259985cc4ddeb07b7d64c50a53348b94486deca",
+        "source_blob": "53c97347d0b5ace135b3ce6209d2475a20923b16",
+        "target_hash": "89862c7e113c0006cc0329aa969ccd3310a7645297b04012c4831b863606ecb2",
+        "model": "codex",
+        "updated_at": 1794353558
       },
       "uk": {
-        "source_hash": "53fc693ce169c4187e16a8dd2f63a1c466d81961d503da8d75c1465384f99b4f",
-        "source_blob": "warning: in the working copy of 'docs\\en\\docs\\faq\\why_is_my_vpn_speed_slow.md', LF will be replaced by CRLF the next time Git touches it\n2ab4467cca1455da8d853fc1d5c94b9224e19d0a",
-        "target_hash": "de56327a827b12cfc69e23a49b22b97523fa1f2cbf0f1e840bfdb0e80d50770b",
-        "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792565157
+        "source_hash": "81c3762d38cd22b901eb80c82259985cc4ddeb07b7d64c50a53348b94486deca",
+        "source_blob": "53c97347d0b5ace135b3ce6209d2475a20923b16",
+        "target_hash": "d62cec1b91dc46eb498538b2f80690fb4f1073e8bc5c4dac92931134e430e493",
+        "model": "codex",
+        "updated_at": 1794353747
       },
       "nl": {
-        "source_hash": "53fc693ce169c4187e16a8dd2f63a1c466d81961d503da8d75c1465384f99b4f",
-        "source_blob": "warning: in the working copy of 'docs\\en\\docs\\faq\\why_is_my_vpn_speed_slow.md', LF will be replaced by CRLF the next time Git touches it\n2ab4467cca1455da8d853fc1d5c94b9224e19d0a",
-        "target_hash": "ef8177bc5080ec0c31f4ffd2dd16d62f72a35a18ef18cc45c9e7734b7d37c84d",
-        "model": "gpt-5.6-sol",
-        "updated_at": 1792584245
+        "source_hash": "81c3762d38cd22b901eb80c82259985cc4ddeb07b7d64c50a53348b94486deca",
+        "source_blob": "53c97347d0b5ace135b3ce6209d2475a20923b16",
+        "target_hash": "aee5e98290b2f8e0207a18b99630034d673b95c7eaa4519194d56d3bee2fbb0f",
+        "model": "codex",
+        "updated_at": 1794353515
       },
       "sv": {
-        "source_hash": "53fc693ce169c4187e16a8dd2f63a1c466d81961d503da8d75c1465384f99b4f",
-        "source_blob": "warning: in the working copy of 'docs\\en\\docs\\faq\\why_is_my_vpn_speed_slow.md', LF will be replaced by CRLF the next time Git touches it\n2ab4467cca1455da8d853fc1d5c94b9224e19d0a",
-        "target_hash": "27f255e079ebe67204127cf68fe8a3696597c83a32800b3c5a8665dabbdd6133",
-        "model": "gpt-5.6-sol",
-        "updated_at": 1792583652
+        "source_hash": "81c3762d38cd22b901eb80c82259985cc4ddeb07b7d64c50a53348b94486deca",
+        "source_blob": "53c97347d0b5ace135b3ce6209d2475a20923b16",
+        "target_hash": "52a0dc5f3970ad5f7c664e9aa2b2c045d54a1d0b38a15b4c7cb7860a622917da",
+        "model": "codex",
+        "updated_at": 1794353691
       }
     }
   },
@@ -13737,67 +13737,67 @@
   "docs/en/docs/faq/amneziawg_obfuscation.md": {
     "targets": {
       "de": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
-        "source_hash": "9514463977c31c208f4982cae0b0b934b68c83dc2a9b8632bf8ba06b01d2db10",
-        "source_blob": "548788566bfd85896f0098e0712d04238c4142dc",
-        "target_hash": "abc2534b1ef5718c8f871c839941c93aea45ca2eeac50cb3262068617d2cadd9"
+        "source_hash": "3c20ea3ca521d93424d2616c52dbdfae99931e0370064ec2e49052da651ef796",
+        "source_blob": "2c754104f05a36ed0a9f94457585f72e8399d349",
+        "target_hash": "3a8cc9b6066b3081702471d6b26df3b98b3398061d8d97ef6551307b7c4293fb",
+        "model": "codex",
+        "updated_at": 1794353369
       },
       "es": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
-        "source_hash": "9514463977c31c208f4982cae0b0b934b68c83dc2a9b8632bf8ba06b01d2db10",
-        "source_blob": "548788566bfd85896f0098e0712d04238c4142dc",
-        "target_hash": "fb2858b70fd413da114f5e4dd4d4537767c92cd367d1ee5b3d4b79ccca42e7c9"
+        "source_hash": "3c20ea3ca521d93424d2616c52dbdfae99931e0370064ec2e49052da651ef796",
+        "source_blob": "2c754104f05a36ed0a9f94457585f72e8399d349",
+        "target_hash": "f816d9d2ef43719c650c7f4fbf01c9762ef7cb0353aff62bb0c3a25793b610ae",
+        "model": "codex",
+        "updated_at": 1794353342
       },
       "fr": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
-        "source_hash": "9514463977c31c208f4982cae0b0b934b68c83dc2a9b8632bf8ba06b01d2db10",
-        "source_blob": "548788566bfd85896f0098e0712d04238c4142dc",
-        "target_hash": "53de0ca604dab7b10a75538d35c62c0a56f00d16c2dec5ee00d3fe1a82ff0970"
+        "source_hash": "3c20ea3ca521d93424d2616c52dbdfae99931e0370064ec2e49052da651ef796",
+        "source_blob": "2c754104f05a36ed0a9f94457585f72e8399d349",
+        "target_hash": "d8b0a84e24b1794b8e233668c0e15346c373aed1545244c5858c4cdc93ccac7d",
+        "model": "codex",
+        "updated_at": 1794353451
       },
       "it": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
-        "source_hash": "9514463977c31c208f4982cae0b0b934b68c83dc2a9b8632bf8ba06b01d2db10",
-        "source_blob": "548788566bfd85896f0098e0712d04238c4142dc",
-        "target_hash": "78b60319b58621cc9a7f74554b0ccc8ca567214209ab8bffc52d49efd563ea63"
+        "source_hash": "3c20ea3ca521d93424d2616c52dbdfae99931e0370064ec2e49052da651ef796",
+        "source_blob": "2c754104f05a36ed0a9f94457585f72e8399d349",
+        "target_hash": "cb77d5dae7fdf87078d688b251ddb6fa8f95825fcd7f59253bb3aefcf6c620be",
+        "model": "codex",
+        "updated_at": 1794353451
       },
       "ja": {
-        "source_hash": "9514463977c31c208f4982cae0b0b934b68c83dc2a9b8632bf8ba06b01d2db10",
-        "source_blob": "548788566bfd85896f0098e0712d04238c4142dc",
-        "target_hash": "c3c01f77934156bc22e3d97344a53105cdebb609f81ed4a6d70fb4872f52313a",
-        "model": "claude-opus-5-5-ja-review",
-        "updated_at": 1792655214
+        "source_hash": "3c20ea3ca521d93424d2616c52dbdfae99931e0370064ec2e49052da651ef796",
+        "source_blob": "2c754104f05a36ed0a9f94457585f72e8399d349",
+        "target_hash": "354e65a01f48b45830c44109bec3d5300e44fdf89ee594d3876371f32a5270b3",
+        "model": "codex",
+        "updated_at": 1794353527
       },
       "pl": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
-        "source_hash": "9514463977c31c208f4982cae0b0b934b68c83dc2a9b8632bf8ba06b01d2db10",
-        "source_blob": "548788566bfd85896f0098e0712d04238c4142dc",
-        "target_hash": "64c1d2273a9b5797c97804913d02eb095609d2c725988f27e498279776125fef"
+        "source_hash": "3c20ea3ca521d93424d2616c52dbdfae99931e0370064ec2e49052da651ef796",
+        "source_blob": "2c754104f05a36ed0a9f94457585f72e8399d349",
+        "target_hash": "f6db297caf06a78838fead3555391e7da1d5b561f7b41ba18e1e1afc9901c51a",
+        "model": "codex",
+        "updated_at": 1794353558
       },
       "uk": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792477451,
-        "source_hash": "9514463977c31c208f4982cae0b0b934b68c83dc2a9b8632bf8ba06b01d2db10",
-        "source_blob": "548788566bfd85896f0098e0712d04238c4142dc",
-        "target_hash": "9d34ed69d513fd8132ab2a1f7a8938265dbdd8c918084942cbf219646999abdf"
+        "source_hash": "3c20ea3ca521d93424d2616c52dbdfae99931e0370064ec2e49052da651ef796",
+        "source_blob": "2c754104f05a36ed0a9f94457585f72e8399d349",
+        "target_hash": "ba63f383686b0df39973c6eed32827bbf9e73a32d320d9260ded04d75f39bd97",
+        "model": "codex",
+        "updated_at": 1794353747
       },
       "nl": {
-        "source_hash": "9514463977c31c208f4982cae0b0b934b68c83dc2a9b8632bf8ba06b01d2db10",
-        "source_blob": "548788566bfd85896f0098e0712d04238c4142dc",
-        "target_hash": "1e76241d3582c9f6abe1e056e6f2550d2b4b6f61f19ef5e3fc6dda13dd0b45d6",
-        "model": "gpt-5.6-sol",
-        "updated_at": 1792584245
+        "source_hash": "3c20ea3ca521d93424d2616c52dbdfae99931e0370064ec2e49052da651ef796",
+        "source_blob": "2c754104f05a36ed0a9f94457585f72e8399d349",
+        "target_hash": "dc070f45649c4bc7ff7186116354893edf2b32f009d2c76728a8ee7e12853eb9",
+        "model": "codex",
+        "updated_at": 1794353515
       },
       "sv": {
-        "source_hash": "9514463977c31c208f4982cae0b0b934b68c83dc2a9b8632bf8ba06b01d2db10",
-        "source_blob": "548788566bfd85896f0098e0712d04238c4142dc",
-        "target_hash": "011adccc7bbe5dc377399abe538403ff3891edd014622d7ebfb95f0dcefdb61a",
-        "model": "gpt-5.6-sol",
-        "updated_at": 1792583652
+        "source_hash": "3c20ea3ca521d93424d2616c52dbdfae99931e0370064ec2e49052da651ef796",
+        "source_blob": "2c754104f05a36ed0a9f94457585f72e8399d349",
+        "target_hash": "5de892589a095b779a4abdecac1548ce40e74e4818e9ebb319a6f69365d396ce",
+        "model": "codex",
+        "updated_at": 1794353691
       }
     }
   },
@@ -13938,67 +13938,67 @@
   "docs/en/docs/faq/cannot_connect_to_obfuscated_wireguard_server.md": {
     "targets": {
       "de": {
-        "source_hash": "e03a4a4436fa55ac00954d221f6de860343ca8d2be7ac984862abf75a1910063",
-        "source_blob": "6fe3a6bfcb795707a882da715da7474712a662bb",
-        "target_hash": "1393badd3355db63ab041d5eb2f38cd5d6f1e74438dd89e8fe3ee79ae1762b67",
+        "source_hash": "e21e68bd098707f57f46428851cf8c9a9e96fff717df0d9505a5f79f3df8427b",
+        "source_blob": "234d3f40f757baf36c9b9bd23f730401276268ef",
+        "target_hash": "074bdd59563527925011b3118b93e6c9abccee019d3054e31848ad3f2f3256f9",
         "model": "codex",
-        "updated_at": 1793158921
+        "updated_at": 1794353369
       },
       "es": {
-        "source_hash": "e03a4a4436fa55ac00954d221f6de860343ca8d2be7ac984862abf75a1910063",
-        "source_blob": "6fe3a6bfcb795707a882da715da7474712a662bb",
-        "target_hash": "43ccaae3503eda36bd77ed7ad512c88684075fafdc55abd4d8a8ae4d20a1e6cb",
+        "source_hash": "e21e68bd098707f57f46428851cf8c9a9e96fff717df0d9505a5f79f3df8427b",
+        "source_blob": "234d3f40f757baf36c9b9bd23f730401276268ef",
+        "target_hash": "f73a4999e0090f282f778dfc5f872c98ef5322ffc33115fd998547b57f430994",
         "model": "codex",
-        "updated_at": 1793158921
+        "updated_at": 1794353342
       },
       "fr": {
-        "source_hash": "e03a4a4436fa55ac00954d221f6de860343ca8d2be7ac984862abf75a1910063",
-        "source_blob": "6fe3a6bfcb795707a882da715da7474712a662bb",
-        "target_hash": "fb337152cbf4cf60a4127b2ab1bdbf852019a8f6b41f63c19c32894b71cad574",
+        "source_hash": "e21e68bd098707f57f46428851cf8c9a9e96fff717df0d9505a5f79f3df8427b",
+        "source_blob": "234d3f40f757baf36c9b9bd23f730401276268ef",
+        "target_hash": "8c8d042182571512cc555ea5ab175330afb9f75c68c33b766ef7271c3bd39f57",
         "model": "codex",
-        "updated_at": 1793158921
+        "updated_at": 1794353376
       },
       "it": {
-        "source_hash": "e03a4a4436fa55ac00954d221f6de860343ca8d2be7ac984862abf75a1910063",
-        "source_blob": "6fe3a6bfcb795707a882da715da7474712a662bb",
-        "target_hash": "92102041169ec4c38ee82d8ef0b710527a55cb7ec539412d67717840d84f932c",
+        "source_hash": "e21e68bd098707f57f46428851cf8c9a9e96fff717df0d9505a5f79f3df8427b",
+        "source_blob": "234d3f40f757baf36c9b9bd23f730401276268ef",
+        "target_hash": "3aea28d32d28b3a6d80ebb06abdff63a0c11f040aff7ec9600da190e29fcf90f",
         "model": "codex",
-        "updated_at": 1793158921
+        "updated_at": 1794353451
       },
       "ja": {
-        "source_hash": "e03a4a4436fa55ac00954d221f6de860343ca8d2be7ac984862abf75a1910063",
-        "source_blob": "6fe3a6bfcb795707a882da715da7474712a662bb",
-        "target_hash": "d545a46719a12ed8a85b2562e8de13a21ba061c0271943a7364eeb9b145dc8aa",
+        "source_hash": "e21e68bd098707f57f46428851cf8c9a9e96fff717df0d9505a5f79f3df8427b",
+        "source_blob": "234d3f40f757baf36c9b9bd23f730401276268ef",
+        "target_hash": "a990913fa7d7681b601e9f2a16ecc1c5453713f822a8ee060ee4743413bb0022",
         "model": "codex",
-        "updated_at": 1793158921
+        "updated_at": 1794353527
       },
       "pl": {
-        "source_hash": "e03a4a4436fa55ac00954d221f6de860343ca8d2be7ac984862abf75a1910063",
-        "source_blob": "6fe3a6bfcb795707a882da715da7474712a662bb",
-        "target_hash": "45375e0a919136f063080412448297ffebc986f192a1e11d5d2e2e33eacd6081",
+        "source_hash": "e21e68bd098707f57f46428851cf8c9a9e96fff717df0d9505a5f79f3df8427b",
+        "source_blob": "234d3f40f757baf36c9b9bd23f730401276268ef",
+        "target_hash": "964d7395894f4bb9b64cec21133895d1527b4f49a28e9ccfcf3c14fb49a5e858",
         "model": "codex",
-        "updated_at": 1793158921
+        "updated_at": 1794353558
       },
       "uk": {
-        "source_hash": "e03a4a4436fa55ac00954d221f6de860343ca8d2be7ac984862abf75a1910063",
-        "source_blob": "6fe3a6bfcb795707a882da715da7474712a662bb",
-        "target_hash": "68fb81ce27cc66e1a2e6b8dd8825b089f64088bcf49d0a723a3e93e9db6b24a8",
+        "source_hash": "e21e68bd098707f57f46428851cf8c9a9e96fff717df0d9505a5f79f3df8427b",
+        "source_blob": "234d3f40f757baf36c9b9bd23f730401276268ef",
+        "target_hash": "fd262459749ccbb1c3727e3111d427a56d67288b80c808fa65c68013a5fbf407",
         "model": "codex",
-        "updated_at": 1793158921
+        "updated_at": 1794353747
       },
       "nl": {
-        "source_hash": "e03a4a4436fa55ac00954d221f6de860343ca8d2be7ac984862abf75a1910063",
-        "source_blob": "6fe3a6bfcb795707a882da715da7474712a662bb",
-        "target_hash": "131a2db8f22de19a104fb8dcfca381f892375a67aca1e37ddcbf1b2bbb5e85c9",
+        "source_hash": "e21e68bd098707f57f46428851cf8c9a9e96fff717df0d9505a5f79f3df8427b",
+        "source_blob": "234d3f40f757baf36c9b9bd23f730401276268ef",
+        "target_hash": "03c7fefdf5354d3c387973bc77f46ee2f3d6f2720b52f41b20aee3591d7ac65e",
         "model": "codex",
-        "updated_at": 1793158921
+        "updated_at": 1794353515
       },
       "sv": {
-        "source_hash": "e03a4a4436fa55ac00954d221f6de860343ca8d2be7ac984862abf75a1910063",
-        "source_blob": "6fe3a6bfcb795707a882da715da7474712a662bb",
-        "target_hash": "50557218458ae07f035633de0ea225f158847b4b335c92d7b720e0daa9aa2aa2",
+        "source_hash": "e21e68bd098707f57f46428851cf8c9a9e96fff717df0d9505a5f79f3df8427b",
+        "source_blob": "234d3f40f757baf36c9b9bd23f730401276268ef",
+        "target_hash": "d596ad3ae7abdb303260554865813786de99a1dc820caf1eb4a56e244c992544",
         "model": "codex",
-        "updated_at": 1793158921
+        "updated_at": 1794353691
       }
     }
   },
@@ -14987,67 +14987,67 @@
   "docs/en/docs/user_guide/gl-mg1300/index.md": {
     "targets": {
       "de": {
-        "source_hash": "7a243f1714470707bce026ab630963576aae8614ce9b954ec7f5e7ebe5750fe7",
-        "source_blob": "f6ee188e663e35871bc915fc8590e996f7abc431",
-        "target_hash": "80459c0bdbc197e2a31e6dbe6c8ce488d74d945b5110fa66b09fe5cf41f20ef8",
+        "source_hash": "57001c15ad6bfe412ad3dbf64b950518b63f988ed0eedea846ddb84a9da0a1b7",
+        "source_blob": "851c0628859129a9343c973c4f35b710ced46b01",
+        "target_hash": "8ce8c7fcf130b2f48bcf2c7cfaa7324fd50e57ef2875fda76a5b9ef26b50781e",
         "model": "codex",
-        "updated_at": 1793242015
+        "updated_at": 1794353369
       },
       "es": {
-        "source_hash": "7a243f1714470707bce026ab630963576aae8614ce9b954ec7f5e7ebe5750fe7",
-        "source_blob": "f6ee188e663e35871bc915fc8590e996f7abc431",
-        "target_hash": "50072f70de82aaa44762d1dd415db7d9987af10935125484954877559ba7812f",
+        "source_hash": "57001c15ad6bfe412ad3dbf64b950518b63f988ed0eedea846ddb84a9da0a1b7",
+        "source_blob": "851c0628859129a9343c973c4f35b710ced46b01",
+        "target_hash": "d6d158787f708e7c4347f395d6322956c32abe877871a8ca41ce9c507d1f9c52",
         "model": "codex",
-        "updated_at": 1793242015
+        "updated_at": 1794353342
       },
       "fr": {
-        "source_hash": "7a243f1714470707bce026ab630963576aae8614ce9b954ec7f5e7ebe5750fe7",
-        "source_blob": "f6ee188e663e35871bc915fc8590e996f7abc431",
-        "target_hash": "5e0dd0e43c2477387090a341232c5a0d723b4d0c9c29dd18b56383e25f036cb3",
+        "source_hash": "57001c15ad6bfe412ad3dbf64b950518b63f988ed0eedea846ddb84a9da0a1b7",
+        "source_blob": "851c0628859129a9343c973c4f35b710ced46b01",
+        "target_hash": "42c376adf873dd5e706eb5333ca084ff9971fccfd483186f9f771d3f434fd8de",
         "model": "codex",
-        "updated_at": 1793242015
+        "updated_at": 1794353376
       },
       "it": {
-        "source_hash": "7a243f1714470707bce026ab630963576aae8614ce9b954ec7f5e7ebe5750fe7",
-        "source_blob": "f6ee188e663e35871bc915fc8590e996f7abc431",
-        "target_hash": "3bde0c79445478c2ca4ac5d71544f6c2d13abe3a93aff7ce0ada5659f2822202",
+        "source_hash": "57001c15ad6bfe412ad3dbf64b950518b63f988ed0eedea846ddb84a9da0a1b7",
+        "source_blob": "851c0628859129a9343c973c4f35b710ced46b01",
+        "target_hash": "9ce6f10f5738f1f133f652d0099d0f1b7aa0ef66792d7769c2caf4c4b2bc5494",
         "model": "codex",
-        "updated_at": 1793242015
+        "updated_at": 1794353451
       },
       "ja": {
-        "source_hash": "7a243f1714470707bce026ab630963576aae8614ce9b954ec7f5e7ebe5750fe7",
-        "source_blob": "f6ee188e663e35871bc915fc8590e996f7abc431",
-        "target_hash": "04e830a12aaadb8d50c444cf9ba0e992d614c61b9d14d2299104a2de825bced3",
+        "source_hash": "57001c15ad6bfe412ad3dbf64b950518b63f988ed0eedea846ddb84a9da0a1b7",
+        "source_blob": "851c0628859129a9343c973c4f35b710ced46b01",
+        "target_hash": "22063a39628d6c91dc87e9082a94913625d77580e9ddd03507489785fd84399b",
         "model": "codex",
-        "updated_at": 1793242015
+        "updated_at": 1794353527
       },
       "pl": {
-        "source_hash": "7a243f1714470707bce026ab630963576aae8614ce9b954ec7f5e7ebe5750fe7",
-        "source_blob": "f6ee188e663e35871bc915fc8590e996f7abc431",
-        "target_hash": "26f76635f56d85417672957f13c0c8429d4df8083b3234e30e5433d65a70dead",
+        "source_hash": "57001c15ad6bfe412ad3dbf64b950518b63f988ed0eedea846ddb84a9da0a1b7",
+        "source_blob": "851c0628859129a9343c973c4f35b710ced46b01",
+        "target_hash": "2046c3e9a11c3b7056ac537659146d93737a86ed6fc380783807808dc85d07d4",
         "model": "codex",
-        "updated_at": 1793242015
+        "updated_at": 1794353558
       },
       "uk": {
-        "source_hash": "7a243f1714470707bce026ab630963576aae8614ce9b954ec7f5e7ebe5750fe7",
-        "source_blob": "f6ee188e663e35871bc915fc8590e996f7abc431",
-        "target_hash": "50580aa8f153b4339ea5ca52e0ee40b54b060875ee3a17557c25129748d8b648",
+        "source_hash": "57001c15ad6bfe412ad3dbf64b950518b63f988ed0eedea846ddb84a9da0a1b7",
+        "source_blob": "851c0628859129a9343c973c4f35b710ced46b01",
+        "target_hash": "ad1afff6172fc5bd57868d184c67723ff4d07def4b1193d6dfc67bf64cc2f80e",
         "model": "codex",
-        "updated_at": 1793241908
+        "updated_at": 1794353747
       },
       "nl": {
-        "source_hash": "7a243f1714470707bce026ab630963576aae8614ce9b954ec7f5e7ebe5750fe7",
-        "source_blob": "f6ee188e663e35871bc915fc8590e996f7abc431",
-        "target_hash": "785fada6053ad2afeb29d8291ba1cd85ae540bb5054ed85113a638f61bdb1050",
+        "source_hash": "57001c15ad6bfe412ad3dbf64b950518b63f988ed0eedea846ddb84a9da0a1b7",
+        "source_blob": "851c0628859129a9343c973c4f35b710ced46b01",
+        "target_hash": "ded5da0ab5f4b2407b9f0bd1882ac209fcb97b28fe6dc3d461f5d5d47e674324",
         "model": "codex",
-        "updated_at": 1793241908
+        "updated_at": 1794353515
       },
       "sv": {
-        "source_hash": "7a243f1714470707bce026ab630963576aae8614ce9b954ec7f5e7ebe5750fe7",
-        "source_blob": "f6ee188e663e35871bc915fc8590e996f7abc431",
-        "target_hash": "910e27cc2d401b599b805f7f065b9f8c4f15e38ce7da0c9bd10ccf04e26c1089",
+        "source_hash": "57001c15ad6bfe412ad3dbf64b950518b63f988ed0eedea846ddb84a9da0a1b7",
+        "source_blob": "851c0628859129a9343c973c4f35b710ced46b01",
+        "target_hash": "fe1ef19eefb0ac05d78b26b00fa85da4be899187422ae5dc74969df297b26a54",
         "model": "codex",
-        "updated_at": 1793241908
+        "updated_at": 1794353691
       }
     }
   },
@@ -15657,67 +15657,67 @@
   "docs/en/docs/tutorials/how_to_set_up_vpn_obfuscation_on_glinet_routers.md": {
     "targets": {
       "de": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789983243,
-        "source_hash": "8d2e862694d5802a1e494ac81805b9da52fcef3ac975163b3561c6e10c98f304",
-        "source_blob": "1c209dc86996593802c7982259c229a4f67e0701",
-        "target_hash": "6470f35fa8c4dcafeea4687a898173afdc9e2763159a11f53653b2d7d5941b5a"
+        "source_hash": "c9aeb4ca7f39216801a7a678cf632552d84d40620e75198b85fabbaa5265fa27",
+        "source_blob": "1e88d4ee6b962b6967f76babb957527823cd098f",
+        "target_hash": "8d09230fc41538c5f6528dbb96e5715451359e9570a9ba24cbdff49c8b25cfb9",
+        "model": "codex",
+        "updated_at": 1794353369
       },
       "es": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789983243,
-        "source_hash": "8d2e862694d5802a1e494ac81805b9da52fcef3ac975163b3561c6e10c98f304",
-        "source_blob": "1c209dc86996593802c7982259c229a4f67e0701",
-        "target_hash": "ea6d6366cfb9a1f90bb7b194e8060ff61201fdb684c9d9c770837b2dc5f5449e"
+        "source_hash": "c9aeb4ca7f39216801a7a678cf632552d84d40620e75198b85fabbaa5265fa27",
+        "source_blob": "1e88d4ee6b962b6967f76babb957527823cd098f",
+        "target_hash": "0c4eb2b1e72a18d024bc36ed2414ba9240ab9be6b01a28f0b52bb6da64ba6616",
+        "model": "codex",
+        "updated_at": 1794353342
       },
       "fr": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789983243,
-        "source_hash": "8d2e862694d5802a1e494ac81805b9da52fcef3ac975163b3561c6e10c98f304",
-        "source_blob": "1c209dc86996593802c7982259c229a4f67e0701",
-        "target_hash": "b91be07514fd4100f45b64a3cdfed9a41ef012f118c86567db967a19d50357fc"
+        "source_hash": "c9aeb4ca7f39216801a7a678cf632552d84d40620e75198b85fabbaa5265fa27",
+        "source_blob": "1e88d4ee6b962b6967f76babb957527823cd098f",
+        "target_hash": "d60565203a51059706c88bd4f2825a1fe35535d88efe9805c48ee205c95e464f",
+        "model": "codex",
+        "updated_at": 1794353376
       },
       "it": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789983243,
-        "source_hash": "8d2e862694d5802a1e494ac81805b9da52fcef3ac975163b3561c6e10c98f304",
-        "source_blob": "1c209dc86996593802c7982259c229a4f67e0701",
-        "target_hash": "ec4859a989ae686c20f962b34d221c6a1cc3490c491428cbd13b13e30311a5ab"
+        "source_hash": "c9aeb4ca7f39216801a7a678cf632552d84d40620e75198b85fabbaa5265fa27",
+        "source_blob": "1e88d4ee6b962b6967f76babb957527823cd098f",
+        "target_hash": "65c2a47385ac4b5483d69111e9c3f2b76a01c44fb5919f8dda775d3ca255978e",
+        "model": "codex",
+        "updated_at": 1794353451
       },
       "ja": {
-        "source_hash": "8d2e862694d5802a1e494ac81805b9da52fcef3ac975163b3561c6e10c98f304",
-        "source_blob": "1c209dc86996593802c7982259c229a4f67e0701",
-        "target_hash": "1b25d144bdb5e37c45cb3c7026c65665388bde4f177f53be4fffa0f9299a5cf1",
-        "model": "claude-opus-5-5-ja-review",
-        "updated_at": 1792655214
+        "source_hash": "c9aeb4ca7f39216801a7a678cf632552d84d40620e75198b85fabbaa5265fa27",
+        "source_blob": "1e88d4ee6b962b6967f76babb957527823cd098f",
+        "target_hash": "0abad222ed739b2491ca2dd7602284559d9a93796b2034511733643b5b8d458a",
+        "model": "codex",
+        "updated_at": 1794353527
       },
       "pl": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789983243,
-        "source_hash": "8d2e862694d5802a1e494ac81805b9da52fcef3ac975163b3561c6e10c98f304",
-        "source_blob": "1c209dc86996593802c7982259c229a4f67e0701",
-        "target_hash": "1ada57e8247ae7553b0fc5f3fe15a2d3e5e797cb8b983abab026024e38914c06"
+        "source_hash": "c9aeb4ca7f39216801a7a678cf632552d84d40620e75198b85fabbaa5265fa27",
+        "source_blob": "1e88d4ee6b962b6967f76babb957527823cd098f",
+        "target_hash": "281a54cd1d5ad5ff52803f11bf1f288ab83ff5e2a64ba7a79727a8279fa3eafd",
+        "model": "codex",
+        "updated_at": 1794353558
       },
       "uk": {
-        "model": "codex-manual-sync",
-        "updated_at": 1792143745,
-        "source_hash": "8d2e862694d5802a1e494ac81805b9da52fcef3ac975163b3561c6e10c98f304",
-        "source_blob": "1c209dc86996593802c7982259c229a4f67e0701",
-        "target_hash": "7787f051bda8619a393890c11c991261503936197b0f75cb2594f94b9c938853"
+        "source_hash": "c9aeb4ca7f39216801a7a678cf632552d84d40620e75198b85fabbaa5265fa27",
+        "source_blob": "1e88d4ee6b962b6967f76babb957527823cd098f",
+        "target_hash": "899cbf3c900bdd3f2d3cfa0c4be1e7f70de5d79b4fd8bcfa22646e16524f1550",
+        "model": "codex",
+        "updated_at": 1794353747
       },
       "nl": {
-        "source_hash": "8d2e862694d5802a1e494ac81805b9da52fcef3ac975163b3561c6e10c98f304",
-        "source_blob": "1c209dc86996593802c7982259c229a4f67e0701",
-        "target_hash": "2e3e143eb20fbcf7921c801cc0532d4f197c4db59f8480ea87d3246660c1a13e",
-        "model": "gpt-5.6-sol",
-        "updated_at": 1792584248
+        "source_hash": "c9aeb4ca7f39216801a7a678cf632552d84d40620e75198b85fabbaa5265fa27",
+        "source_blob": "1e88d4ee6b962b6967f76babb957527823cd098f",
+        "target_hash": "1075dc4976ed4e7de551d1e53993a84c0e49c14eb9002eac88027dae85c10704",
+        "model": "codex",
+        "updated_at": 1794353515
       },
       "sv": {
-        "source_hash": "8d2e862694d5802a1e494ac81805b9da52fcef3ac975163b3561c6e10c98f304",
-        "source_blob": "1c209dc86996593802c7982259c229a4f67e0701",
-        "target_hash": "81b036fdf1745bccfb5c66f3062af574240881f94b846e2c036e6108303b352d",
-        "model": "gpt-5.6-sol",
-        "updated_at": 1792584248
+        "source_hash": "c9aeb4ca7f39216801a7a678cf632552d84d40620e75198b85fabbaa5265fa27",
+        "source_blob": "1e88d4ee6b962b6967f76babb957527823cd098f",
+        "target_hash": "403a9a325d5bc78e8db34240913412e749fededb0bd9f57b8ee8e9cfb9cd1a96",
+        "model": "codex",
+        "updated_at": 1794353691
       }
     }
   },

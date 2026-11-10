@@ -37,7 +37,7 @@ I det här scenariot används två GL.iNet-routrar för att upprätta en obfuske
 
     ![enable obfuscation](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_obfuscation1.png){class="glboxshadow"}
 
-    Du kan anpassa obfuskeringsparametrarna efter behov. Klicka [här](../faq/amneziawg_obfuscation.md#parameter-overview) för mer information.
+    Du kan anpassa obfuskeringsparametrarna efter behov. Klicka [här](../faq/amneziawg_obfuscation.md) för mer information.
 
     Vi rekommenderar att du behåller standardinställningarna.
 

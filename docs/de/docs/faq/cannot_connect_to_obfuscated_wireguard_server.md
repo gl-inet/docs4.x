@@ -58,7 +58,7 @@ Wenn keine Verbindung zu einem verschleierten WireGuard-Server hergestellt werde
 
 3. **Passen Sie die Verschleierungsparameter an.**
 
-    Wenn Sie [Verschleierungsparameter](amneziawg_obfuscation.md#parameter-overview) wie Jc, Jmin oder Jmax auf Ihrem WireGuard-Server manuell konfiguriert haben, können falsche Parameter zu Handshake-Fehlern führen.
+    Wenn Sie [Verschleierungsparameter](amneziawg_obfuscation.md) wie Jc, Jmin oder Jmax auf Ihrem WireGuard-Server manuell konfiguriert haben, können falsche Parameter zu Handshake-Fehlern führen.
 
     Ändern Sie diese Verschleierungsparameter testweise und stellen Sie die Verbindung erneut her, um Parameterabweichungen auszuschließen. Sie können zum Testen auch die Standardwerte für die Verschleierung wiederherstellen.
 

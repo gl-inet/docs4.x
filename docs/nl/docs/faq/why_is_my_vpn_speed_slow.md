@@ -51,7 +51,9 @@ Some Internet Service Providers (ISPs) may fail to resolve VPN domains. Try usin
 
 Sommige internetproviders, vooral mobiele providers, beperken de pakketgrootte. Wijzig in VPN Client Options de standaard-MTU van 1420 naar 1380 of 1280.
 
-Raadpleeg voor firmware v4.8 en hoger [deze pagina](../interface_guide/vpn_dashboard_v4.8.md#tunnel-options).
+Raadpleeg voor firmware v4.9 en hoger [deze pagina](../interface_guide/vpn_dashboard.md#tunnel-options).
+
+Raadpleeg voor firmware v4.8 [deze pagina](../interface_guide/vpn_dashboard_v4.8.md#tunnel-options).
 
 Raadpleeg voor firmware v4.7 en ouder [deze pagina](../interface_guide/vpn_dashboard_v4.7.md#client-options).
 

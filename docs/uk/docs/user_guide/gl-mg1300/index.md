@@ -21,7 +21,9 @@ Mango 2 (GL-MG1300) — перший дводіапазонний мініатю
 
 ## Налаштування Mango 2 {#how-to-set-up-mango-2}
 
-Для налаштування Mango 2 використовуйте один із чотирьох підтримуваних способів підключення до інтернету: Ethernet, Repeater, Tethering або Cellular. Виконайте наведені нижче кроки.
+Перегляньте це відео з налаштування або виконайте наведені нижче кроки.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-dct81JynMY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### 1. Увімкніть живлення {#1-power-on}
 

@@ -58,7 +58,7 @@ Jeśli nie możesz nawiązać połączenia z maskowanym serwerem WireGuard, wyko
 
 3. **Dostosuj parametry maskowania.**
 
-    Jeśli ręcznie skonfigurowano [parametry maskowania](amneziawg_obfuscation.md#parameter-overview), takie jak Jc, Jmin lub Jmax, na serwerze WireGuard, błędne ustawienia mogą powodować niepowodzenie handshake.
+    Jeśli ręcznie skonfigurowano [parametry maskowania](amneziawg_obfuscation.md), takie jak Jc, Jmin lub Jmax, na serwerze WireGuard, błędne ustawienia mogą powodować niepowodzenie handshake.
 
     Spróbuj zmienić te parametry maskowania i połączyć się ponownie, aby wykluczyć niezgodność parametrów. Do testów możesz też przywrócić domyślne ustawienia maskowania.
 

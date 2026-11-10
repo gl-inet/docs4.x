@@ -21,7 +21,9 @@ Titta på uppackningsvideon för Mango 2 nedan.
 
 ## Konfigurera Mango 2 {#how-to-set-up-mango-2}
 
-Konfigurera Mango 2 med någon av de fyra internetanslutningsmetoder som stöds: Ethernet, Repeater, Tethering eller Cellular. Följ stegen nedan.
+Titta på installationsvideon eller följ stegen nedan.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-dct81JynMY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### 1. Slå på {#1-power-on}
 

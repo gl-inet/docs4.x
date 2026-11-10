@@ -21,7 +21,9 @@ Guarda il video di unboxing di Mango 2 qui sotto.
 
 ## Come configurare Mango 2 {#how-to-set-up-mango-2}
 
-Per configurare Mango 2, utilizza uno dei quattro metodi di connessione Internet supportati: Ethernet, Repeater, Tethering o Cellular. Segui i passaggi riportati di seguito.
+Guarda questo video di configurazione o segui i passaggi qui sotto.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-dct81JynMY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### 1. Accendi il router {#1-power-on}
 

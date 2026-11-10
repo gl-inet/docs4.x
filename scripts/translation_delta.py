@@ -46,6 +46,7 @@ from typing import Iterable
 
 DEFAULT_LANGS = ("de", "es", "fr", "it", "ja", "nl", "pl", "sv", "uk")
 DEFAULT_EXTENSIONS = (".md", ".yml", ".yaml", ".html", ".js", ".css")
+TEXT_EXTENSIONS = (*DEFAULT_EXTENSIONS, ".svg", ".txt", ".json")
 DEFAULT_EXCLUDE_DIRS = {"site", ".git", "__pycache__"}
 EXCLUDED_SOURCE_PATHS = {"docs/en/docs/downloads/index.md"}
 EXCLUDED_TRAILING_MARKDOWN_SECTIONS = {"Regulatory Statements"}
@@ -378,8 +379,27 @@ def git_blob(path: str | pathlib.Path, write: bool = True) -> str:
     return output
 
 
+def normalized_text(data: bytes) -> str:
+    """Match read_text(encoding='utf-8'): normalize newlines, retain an existing BOM."""
+    return data.decode("utf-8").replace("\r\n", "\n").replace("\r", "\n")
+
+
+def hash_bytes(path: pathlib.Path, data: bytes) -> str:
+    """Hash staged bytes exactly as mark hashes a working-tree target."""
+    if path.suffix.lower() in TEXT_EXTENSIONS:
+        data = normalized_text(data).encode("utf-8")
+    return hashlib.sha256(data).hexdigest()
+
+
+def source_hashes(path: pathlib.Path, data: bytes) -> list[str]:
+    """Keep router-only regulatory exclusions and legacy newline variants for text."""
+    if path.suffix.lower() in TEXT_EXTENSIONS:
+        return sync_hashes(path, normalized_text(data))
+    return [hash_bytes(path, data)]
+
+
 def target_hash(path: pathlib.Path) -> str:
-    return sha256_text(path.read_text(encoding="utf-8"))
+    return hash_bytes(path, path.read_bytes())
 
 
 def upgrade_entry(entry: dict, langs: Iterable[str]) -> None:
@@ -441,7 +461,7 @@ def cmd_mark(argv: list[str]) -> int:
     now = int(time.time())
     for source in dict.fromkeys(source_arg(value) for value in args.sources):
         source_path = pathlib.Path(source)
-        current_hashes = sync_hashes(source_path, source_path.read_text(encoding="utf-8"))
+        current_hashes = source_hashes(source_path, source_path.read_bytes())
         blob = git_blob(source_path)
         for lang in langs:
             where = f"{lang}: {source}"

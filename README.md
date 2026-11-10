@@ -123,9 +123,20 @@ The hook checks only the files staged for the commit:
 
 - Heading IDs and anchor links (`scripts/anchors.py`).
 - Localized pages: structure compared with the English page, untranslated English, and language rules such as Italian accents (`scripts/i18n_check.py`).
-- Localized pages: the translation cache was updated with `python scripts/translation_delta.py mark <English file> --lang <lang>` after the page changed.
+- Changed localized files with an English counterpart: `.translation-cache.json` must contain an independent per-language `source_hash` matching the staged English content and a `target_hash` matching the staged localized content. This includes Markdown, configuration, overrides, text assets and binary files. Unstaged updates to any of these files cannot satisfy the check. Other languages may remain pending; the Downloads page remains excluded.
 
-Commits that change only English pages are not blocked; the scheduled translation workflow syncs the other languages. To bypass the hook in an emergency, use `git commit --no-verify`.
+After translating and validating a file, record its reviewed versions and stage both the localized file and `.translation-cache.json`:
+
+```bash
+python scripts/translation_delta.py mark docs/en/docs/interface_guide/vpn_dashboard.md --lang de --model manual-sync
+git add docs/de/docs/interface_guide/vpn_dashboard.md .translation-cache.json
+```
+
+If English changed but the localized text needs no edit, review both versions and use `--no-target-change` with explicit languages. This flag does not bypass validation. Stage the intended versions together: fixing a file or updating `.translation-cache.json` in the working directory does not change a version already staged.
+
+PR checks use the committed `HEAD` versions of these files rather than the working directory or index, and mismatches fail the check. English-only trailing Regulatory Statements remain excluded from the English hash, using the existing router-specific rules.
+
+Commits that change only English pages do not require translations in the same commit, but heading and anchor errors still block them. To bypass the hook in an emergency, use `git commit --no-verify`.
 
 ## Online View
 

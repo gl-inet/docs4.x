@@ -56,7 +56,7 @@ All Other Traffic is a default tunnel that ensures normal Internet access for tr
 
 **Note**: If you disable All Other Traffic, you will only be able to access the Internet via VPN. All unmatched traffic will be blocked. This setting does not override the individual Kill Switch for each tunnel.
 
-## For firmware v4.9 and above
+## For firmware v4.9 and above {#for-firmware-v49-and-above}
 
 In firmware v4.9 and above, two types of VPN Kill Switch are available: **Tunnel Kill Switch** and **Enhanced Kill Switch**.
 

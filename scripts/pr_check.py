@@ -100,26 +100,47 @@ def git(*args: str) -> str:
     ).stdout
 
 
+def changed_paths(base: str, prefix: str = "docs/") -> list[tuple[str, str]]:
+    """NUL records preserve Unicode, tabs, spaces and quoted filenames."""
+    fields = git("diff", f"{base}...HEAD", "--name-status", "-z", "--find-renames",
+                 "--diff-filter=AMR", "--", prefix).split("\0")
+    result = []
+    index = 0
+    while index < len(fields) and fields[index]:
+        status, old = fields[index:index + 2]
+        index += 2
+        new = old
+        if status.startswith("R"):
+            new = fields[index]
+            index += 1
+        result.append((old, new))
+    return result
+
+
 def added_lines(base: str) -> dict[str, set[int]]:
-    """Return {page path: added line numbers} for pages added, changed or renamed since ``base``."""
-    diff = git("diff", f"{base}...HEAD", "--unified=0", "--no-color", "--find-renames",
-               "--diff-filter=AMR", "--", "docs/")
-    result: dict[str, set[int]] = {}
-    path = None
-    for line in diff.splitlines():
-        if line.startswith("+++ "):
-            name = line[4:]
-            path = name[2:] if name.startswith("b/") and PAGE_RE.match(name[2:]) else None
-            if path:
-                result.setdefault(path, set())
-        elif path and (hunk := HUNK_RE.match(line)):
-            start, count = int(hunk.group(1)), int(hunk.group(2) or 1)
-            result[path].update(range(start, start + count))
-    return {path: lines for path, lines in result.items() if lines}
+    result = {}
+    merge_base = git("merge-base", base, "HEAD").strip()
+    for old, path in changed_paths(base):
+        if not PAGE_RE.match(path):
+            continue
+        # A rename may coexist with a new file at its old path. Compare the
+        # two blobs directly so the recreated file's hunks cannot leak in.
+        revisions = ([f"{merge_base}:{old}", f"HEAD:{path}"] if old != path
+                     else [f"{base}...HEAD", "--", path])
+        diff = git("diff", "--unified=0", "--no-color", "--no-ext-diff",
+                   "--no-textconv", *revisions)
+        numbers = set()
+        for line in diff.splitlines():
+            if hunk := HUNK_RE.match(line):
+                start, count = int(hunk[1]), int(hunk[2] or 1)
+                numbers.update(range(start, start + count))
+        if numbers:
+            result[path] = numbers
+    return result
 
 
 def page_lines(path: str) -> list[str]:
-    return (REPO_ROOT / path).read_bytes().decode("utf-8").splitlines()
+    return git("show", f"HEAD:{path}").splitlines()
 
 
 def prose_lines(lines: list[str]):
@@ -331,13 +352,16 @@ def explicit_ids(lines: list[str]) -> set[str]:
 
 
 def check_heading_ids(base: str) -> list[Finding]:
-    changed = git("diff", f"{base}...HEAD", "--name-status", "--find-renames", "--diff-filter=MR", "--", "docs/en/docs/")
     merge_base = git("merge-base", base, "HEAD").strip()
     findings = []
-    for line in changed.splitlines():
-        parts = line.split("\t")
-        old, new = parts[1], parts[-1]
-        before = explicit_ids(git("show", f"{merge_base}:{old}").splitlines(keepends=True))
+    for old, new in changed_paths(base, "docs/en/docs/"):
+        if not PAGE_RE.match(new):
+            continue
+        # Added pages have no prior IDs.
+        try:
+            before = explicit_ids(git("show", f"{merge_base}:{old}").splitlines(keepends=True))
+        except subprocess.CalledProcessError:
+            continue
         after = explicit_ids([f"{text}\n" for text in page_lines(new)])
         removed = sorted(before - after)
         if removed:

@@ -77,8 +77,8 @@ class HeadingPolicyTests(unittest.TestCase):
     @patch('pr_check.git')
     def test_removed_id_warning_requests_repairs_not_old_id_retention(self, git, pages):
         git.side_effect = [
-            'M\tdocs/en/docs/example.md\n',
             'base-sha\n',
+            'M\0docs/en/docs/example.md\0',
             '## Dimension {#dimension}\n',
         ]
         findings = pr_check.check_heading_ids('origin/master')

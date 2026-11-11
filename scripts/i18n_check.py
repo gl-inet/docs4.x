@@ -639,6 +639,10 @@ def check_protected(lang: str, page: Page, base: str, issues: list[Issue]) -> No
 def split_allowed(issues: list[Issue], allowlist: list[AllowEntry]) -> tuple[list[Issue], list[tuple[Issue, AllowEntry]]]:
     errors, allowed = [], []
     for issue in issues:
+        # Approved legal wording cannot be exempted by translation allowlists.
+        if issue.check == "protected-section":
+            errors.append(issue)
+            continue
         entry = next((e for e in allowlist if e.matches(issue)), None)
         if entry:
             entry.used = True

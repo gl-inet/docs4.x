@@ -67,6 +67,7 @@ from anchors import (
     front_matter_end,
     load_lang,
     load_page,
+    parse_headings,
     resolve_target,
     translated_headings,
 )
@@ -614,6 +615,51 @@ def protected_sections(page: Page) -> dict[str, tuple[int, str]]:
     return found
 
 
+def check_protected_text(
+    lang: str, rel: str, before: str | None, after: str | None
+) -> list[Issue]:
+    """Compare submitted legal text, including deleted or standalone pages."""
+    if lang == SOURCE_LANG or before is None:
+        return []
+
+    def parse(text: str) -> Page:
+        lines = text.splitlines(keepends=True)
+        return Page(lang, rel, DOCS_ROOT / lang / "docs" / rel,
+                    lines, parse_headings(lines), set())
+
+    old_page = parse(before)
+    new_page = parse(after) if after is not None else None
+    if old_page.headings and old_page.headings[0].explicit_id in LOCALIZED_ONLY_IDS:
+        root = old_page.headings[0]
+
+        def whole_text(page: Page) -> str:
+            lines = [line.rstrip() for line in page.lines]
+            if page.headings and page.headings[0].index == root.index:
+                lines[root.index] = re.sub(r"^\ufeff?[ \t]*#{1,6}[ \t]+", "", lines[root.index])
+            return "\n".join(lines).strip()
+
+        if new_page is None:
+            message = "legal page removed; restore the approved text from HEAD"
+        elif whole_text(old_page) != whole_text(new_page):
+            message = "legal page text changed; restore the approved text from HEAD"
+        else:
+            return []
+        return [Issue(lang, rel, "protected-section", message, root.explicit_id, root.index + 1)]
+
+    current = protected_sections(new_page) if new_page is not None else {}
+    issues = []
+    for section_id, (line, old) in protected_sections(old_page).items():
+        if section_id not in current:
+            issues.append(Issue(lang, rel, "protected-section",
+                                "legal section removed; restore the approved text from HEAD",
+                                section_id, line))
+        elif current[section_id][1] != old:
+            issues.append(Issue(lang, rel, "protected-section",
+                                "legal section text changed; restore the approved text from HEAD",
+                                section_id, current[section_id][0]))
+    return issues
+
+
 def check_protected(lang: str, page: Page, base: str, issues: list[Issue]) -> None:
     """Report legal sections of ``base`` that the page lost or changed; they keep their approved wording."""
     # DOCS_ROOT may point at a read-only PR snapshot; Git still uses the real repo.
@@ -621,16 +667,11 @@ def check_protected(lang: str, page: Page, base: str, issues: list[Issue]) -> No
     text = text_at(base, original_path)
     if text is None:
         return
-    current = protected_sections(page)
     restore = f"restore it from git show {base[:12]}:{original_path.relative_to(REPO_ROOT).as_posix()}"
-    for section_id, (_, old) in protected_sections(load_page(lang, page.path, text)).items():
-        if section_id not in current:
-            issues.append(Issue(lang, page.rel, "protected-section", f"legal section removed; {restore}", section_id))
-        elif current[section_id][1] != old:
-            issues.append(
-                Issue(lang, page.rel, "protected-section", f"legal section text changed; {restore}",
-                      section_id, current[section_id][0])
-            )
+    protected = check_protected_text(lang, page.rel, text, "".join(page.lines))
+    for issue in protected:
+        issue.message = issue.message.replace("restore the approved text from HEAD", restore)
+    issues.extend(protected)
 
 
 # --------------------------------------------------------------------------

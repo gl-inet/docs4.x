@@ -50,18 +50,28 @@ LANGS = anchors.LANGS
 PATH_RE = re.compile(r"^docs/(?P<lang>[a-z]{2})/(?P<rest>.+)$")
 
 
-def staged_files(base: str | None = None) -> list[tuple[str, str]]:
-    """Return (status, path) for staged changes, or for changes since ``base``; renames give the new path."""
+def staged_changes(base: str | None = None) -> list[tuple[str, str | None, str | None]]:
+    """Return submitted changes with original rename paths, as in KVM."""
     scope = [f"{base}...HEAD"] if base else ["--cached"]
-    output = git("diff", *scope, "--name-status", "--find-renames", "-z")
-    fields = iter(output.split("\0")[:-1])
-    files = []
+    fields = iter(git("diff", *scope, "--name-status", "--find-renames", "-z").split("\0")[:-1])
+    changes = []
     for status in fields:
         path = next(fields)
-        if status[0] == "R":
-            files.extend([("R", next(fields)), ("D", path)])
+        kind = status[0]
+        if kind == "R":
+            changes.append((kind, path, next(fields)))
         else:
-            files.append((status[0], path))
+            changes.append((kind, None if kind == "A" else path, None if kind == "D" else path))
+    return changes
+
+
+def staged_files(base: str | None = None) -> list[tuple[str, str]]:
+    """Expand renames for the existing page and cache checks."""
+    files = []
+    for status, old, new in staged_changes(base):
+        files.append((status, new or old))
+        if status == "R":
+            files.append(("D", old))
     return files
 
 
@@ -157,6 +167,26 @@ def checked_pages(lang: str, files: list[tuple[str, str]], revision: str = "") -
     return pages
 
 
+def protected_errors(base: str | None = None) -> list[str]:
+    """Compare submitted legal text independently of English pages and worktree."""
+    before_revision = git("merge-base", base, "HEAD").strip() if base else "HEAD"
+    revision = "HEAD" if base else ""
+    errors = []
+    for _, old, new in staged_changes(base):
+        match = PATH_RE.match(old or "")
+        if not match or match.group("lang") not in set(LANGS) - {anchors.SOURCE_LANG}:
+            continue
+        lang, rest = match.group("lang"), match.group("rest")
+        if not rest.startswith("docs/") or not rest.endswith(".md"):
+            continue
+        before = revision_bytes(before_revision, old).decode("utf-8")
+        after = (revision_bytes(revision, new).decode("utf-8")
+                 if new and new.startswith(f"docs/{lang}/docs/") and new.endswith(".md") else None)
+        errors.extend(str(issue) for issue in i18n_check.check_protected_text(
+            lang, rest[len("docs/"):], before, after))
+    return errors
+
+
 def cache_errors(files: list[tuple[str, str]], base: str | None = None) -> list[str]:
     """Validate only changed translations against the committed/staged snapshot.
 
@@ -219,6 +249,7 @@ def check_changes(base: str | None = None) -> int:
     files = staged_files(base)
     if not base:
         add_missing_ids(files)
+    errors.extend(protected_errors(base))
     errors.extend(cache_errors(files, base))
     for status, path in files:
         match = PATH_RE.match(path)
@@ -253,8 +284,6 @@ def check_changes(base: str | None = None) -> int:
     for lang in sorted(file_check_langs):
         errors.extend(str(issue) for issue in i18n_check.check_language_files(lang))
 
-    # Legal sections are compared with the commit the changes started from.
-    protected_base = git("merge-base", base, "HEAD").strip() if base else "HEAD"
     for lang, path in localized_files:
         source = translation_delta.repo_path(path).replace(f"docs/{lang}/", "docs/en/", 1)
         source_path = anchors.REPO_ROOT / source
@@ -262,7 +291,7 @@ def check_changes(base: str | None = None) -> int:
             continue
         rel = source[len("docs/en/docs/"):] if source.startswith("docs/en/docs/") else None
         if rel and rel.endswith(".md"):
-            errors.extend(str(issue) for issue in i18n_check.check_page(lang, rel, base=protected_base))
+            errors.extend(str(issue) for issue in i18n_check.check_page(lang, rel))
 
     for error in dict.fromkeys(errors):
         print(f"ERROR {error}")

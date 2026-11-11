@@ -489,7 +489,15 @@ def cmd_mark(argv: list[str]) -> int:
             if not english_changed and record.get("target_hash") == new_target_hash:
                 print(f"OK   {where} (already synced, unchanged)")
                 continue
-            if english_changed and not args.no_target_change and record.get("target_hash") == new_target_hash:
+            baseline = record.get("target_hash")
+            if english_changed and not args.no_target_change and baseline is None:
+                # Legacy records may lack target_hash; HEAD still detects an unchanged translation.
+                committed = subprocess.run(
+                    ["git", "show", f"HEAD:{target.as_posix()}"], capture_output=True,
+                )
+                if committed.returncode == 0:
+                    baseline = hash_bytes(target, committed.stdout)
+            if english_changed and not args.no_target_change and baseline == new_target_hash:
                 print(
                     f"FAIL {where}: English changed since the last sync but {target.as_posix()} did not; "
                     "update the translation, or pass --no-target-change for this language if no change is needed"

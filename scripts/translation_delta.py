@@ -467,7 +467,7 @@ def cmd_mark(argv: list[str]) -> int:
     for source in dict.fromkeys(source_arg(value) for value in args.sources):
         source_path = pathlib.Path(source)
         current_hashes = source_hashes(source_path, source_path.read_bytes())
-        blob = git_blob(source_path)
+        blob = find_source_blob(source, current_hashes[0])
         for lang in langs:
             where = f"{lang}: {source}"
             target = target_path_for_lang(source, lang)
@@ -509,11 +509,14 @@ def cmd_mark(argv: list[str]) -> int:
             upgrade_entry(entry)
             entry.setdefault("targets", {})[lang] = {
                 "source_hash": current_hashes[0],
-                "source_blob": blob,
                 "target_hash": new_target_hash,
                 "model": NO_TARGET_CHANGE_MODEL if args.no_target_change else args.model,
                 "updated_at": now,
             }
+            if blob:
+                entry["targets"][lang]["source_blob"] = blob
+            else:
+                print(f"NOTE {source}: uncommitted English version; no reachable snapshot, diff will request a whole-file review")
             marked += 1
             print(f"OK   {where}" + ("" if english_changed else " (already synced)"))
 

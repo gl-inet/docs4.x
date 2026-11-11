@@ -44,8 +44,15 @@ To set up Spitz Plus, you will use one of the four supported internet connection
     At least one nano SIM card is required to connect to the internet via the cellular method. If you have the nano SIM card(s) ready, follow these steps:
     
     1. Activate your SIM card(s) if required by the SIM card carrier.
+
     2. Power off your router.
-    3. Insert the SIM card(s) into the SIM card slots. (**Note:** Only one SIM card is active at one time. The other SIM card functions only as a backup.)
+
+    3. Insert the SIM card(s) as follows: Align the card so the metal contacts face the top of the router and the notched corner is at the upper right, as shown. Keep the card level and gently slide it into the slot until you feel it lock into place. (**Note:** Only one SIM card can be active at a time. The other serves as a backup.)
+
+        ![insert sim card](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/insert-sim-card.png){class="glboxshadow"}
+
+        To remove the SIM card, press it inward again and release it. The card will spring out slightly, allowing you to pull it out.
+
 
 ### 1. Power on {#1-power-on}
 

@@ -48,7 +48,7 @@ Toggle the switch to enable AdGuard Home and click **Apply**.
 
 ![adguard home apply](https://static.gl-inet.com/docs/router/en/4/interface_guide/adguard_home/apply.png){class="glboxshadow"}
 
-- **AdGuard Home Handle Client Requests**: If enabled, DNS queries from client devices will be processed directly by AdGuard Home. This will render domain-based VPN policies and parental control rules ineffective.
+- **AdGuard Home Handle Client Requests**: If enabled, firewall rules redirect DNS queries from client devices directly to AdGuard Home, bypassing the router's DNS service (dnsmasq). This will render domain-based VPN policies and parental control rules ineffective. Local hostnames normally resolved by dnsmasq may require additional configuration in AdGuard Home.
 
 Once enabled, the page shows statistics including DNS queries and blocked domains via the API provided by AdGuard Home.
 

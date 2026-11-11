@@ -1,5 +1,15 @@
 # LAN {#lan}
 
+**Note**: The content on this page is based on firmware version v4.9 and earlier. If your device is running a different firmware version, use the selector below to switch to the corresponding guide.
+
+<div class="gl-link-select" data-label="Firmware version" data-placeholder="Firmware v4.9 and earlier" markdown="1">
+
+- [Firmware v4.11 and above](lan_4.11.md)
+
+</div>
+
+---
+
 On the left side of the web Admin Panel, go to **NETWORK** -> **LAN**.
 
 LAN is the network that your device is connected to when it is connected via the main Wi-Fi or via an Ethernet cable.
@@ -24,7 +34,11 @@ You can set the subnet within the IPv4 private address ranges: `192.168.0.0/16`,
 
 - **AP Isolation**
 
+    This feature has been available since firmware v4.5.    
+
     You can isolate client devices into a separate network segment. These devices will not be able to communicate with other devices on the same network.
+
+    **Note:** AP Isolation applies only to Wi-Fi clients, not wired devices.
 
 ## DHCP Server {#dhcp-server}
 

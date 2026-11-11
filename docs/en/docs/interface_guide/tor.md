@@ -2,12 +2,17 @@
 
 Tor (derived from **The Onion Router**) is a free and open-source software for enabling anonymous communication. It helps users to explore the internet with privacy. [Learn More about the Tor](https://www.torproject.org/){target="_blank"}.
 
-**Note**: This feature is currently in beta, and may be problematic in some countries. When Tor is enabled, the following features will not work properly: 
+The Tor feature allows your router to automatically route connected devices' Internet-bound TCP traffic through the Tor network. No proxy configuration is needed on individual devices. Public websites accessed through Tor see the Tor exit node's IP address instead of your public IP address.
 
-  - VPN
-  - DNS
-  - IPv6
-  - ADGuard Home.
+**Note**:
+
+1. This feature is currently in beta, and may be problematic in some countries. When Tor is enabled, the following features will not work properly: 
+    - VPN
+    - DNS
+    - IPv6
+    - AdGuard Home.
+
+2. Tor is designed for TCP-based applications and does not provide general-purpose UDP transport.
 
 ## Supported models {#supported-models}
 

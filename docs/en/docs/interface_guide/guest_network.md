@@ -30,6 +30,8 @@ You can set the subnet within the IPv4 private address ranges: `192.168.0.0/16`,
 
     You can isolate client devices into a separate network segment. These devices will not be able to communicate with other devices on the same network.
 
+    **Note:** AP Isolation applies only to Wi-Fi clients, not wired devices.
+
 - **Block WAN Subnets**
 
     This feature has been available since firmware v4.8.

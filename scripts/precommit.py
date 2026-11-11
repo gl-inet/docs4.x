@@ -82,17 +82,17 @@ def git(*args: str) -> str:
 
 
 def add_missing_ids(files: list[tuple[str, str]]) -> None:
-    """Give staged English headings without an ID the ID MkDocs generates, and stage the fix."""
+    """Only edit fully staged regular English pages; never stage unrelated work."""
     unstaged = set(git("diff", "--name-only", "-z").split("\0"))
     for status, path in files:
         if status == "D" or not path.startswith("docs/en/docs/") or not path.endswith(".md"):
             continue
+        if path in unstaged or pathlib.Path(path).is_symlink():
+            print(f"pre-commit: {path} has unstaged changes or is not a regular page; add heading IDs by hand")
+            continue
         page = anchors.load_page(anchors.SOURCE_LANG, anchors.REPO_ROOT / path)
         fixes = anchors.missing_id_fixes(page)
         if not fixes:
-            continue
-        if path in unstaged:
-            print(f"pre-commit: {path} has unstaged changes; add the heading IDs by hand or stage the page")
             continue
         for heading, _ in fixes:
             anchors.set_heading_id(page, heading, heading.rendered_id)

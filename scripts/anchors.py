@@ -263,7 +263,9 @@ def with_heading_id(raw: str, new_id: str) -> str:
         attr_block = "{#" + new_id + (" " + attrs if attrs else "") + "}"
         body = body[: attr_match.start()].rstrip() + " " + attr_block
     else:
-        body = body.rstrip() + " {#" + new_id + "}"
+        # Optional ATX closing hashes must not become visible heading text when
+        # an attribute block is appended after them.
+        body = re.sub(r"[ \t]+#+[ \t]*$", "", body).rstrip() + " {#" + new_id + "}"
     return match.group("prefix") + body + eol
 
 

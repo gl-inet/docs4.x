@@ -616,11 +616,13 @@ def protected_sections(page: Page) -> dict[str, tuple[int, str]]:
 
 def check_protected(lang: str, page: Page, base: str, issues: list[Issue]) -> None:
     """Report legal sections of ``base`` that the page lost or changed; they keep their approved wording."""
-    text = text_at(base, page.path)
+    # DOCS_ROOT may point at a read-only PR snapshot; Git still uses the real repo.
+    original_path = REPO_ROOT / "docs" / page.path.relative_to(DOCS_ROOT)
+    text = text_at(base, original_path)
     if text is None:
         return
     current = protected_sections(page)
-    restore = f"restore it from git show {base[:12]}:{page.path.relative_to(REPO_ROOT).as_posix()}"
+    restore = f"restore it from git show {base[:12]}:{original_path.relative_to(REPO_ROOT).as_posix()}"
     for section_id, (_, old) in protected_sections(load_page(lang, page.path, text)).items():
         if section_id not in current:
             issues.append(Issue(lang, page.rel, "protected-section", f"legal section removed; {restore}", section_id))

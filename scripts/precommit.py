@@ -31,11 +31,14 @@ CI runs the same checks on the files a pull request changes:
 from __future__ import annotations
 
 import argparse
+from contextlib import contextmanager
+import io
 import json
 import pathlib
 import re
 import subprocess
 import sys
+import tempfile
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 
@@ -92,6 +95,50 @@ def revision_bytes(revision: str, path: str) -> bytes:
     return subprocess.run(
         ["git", "show", f"{revision}:{path}"], check=True, capture_output=True,
     ).stdout
+
+
+@contextmanager
+def committed_docs(revision: str):
+    """Read committed docs and allowlist without changing the worktree or index."""
+    roots = anchors.REPO_ROOT, anchors.DOCS_ROOT, i18n_check.DOCS_ROOT, i18n_check.ALLOWLIST_PATH
+    with tempfile.TemporaryDirectory(prefix="router-pr-check-") as directory:
+        root = pathlib.Path(directory)
+        entries = []
+        for entry in git("ls-tree", "-r", "-z", revision, "--", "docs/", "scripts/i18n_allowlist.yml").split("\0"):
+            if not entry:
+                continue
+            metadata, name = entry.split("\t", 1)
+            mode, kind, oid = metadata.split()
+            path = pathlib.PurePosixPath(name)
+            if path.is_absolute() or ".." in path.parts or "\\" in name:
+                raise ValueError(f"unsafe documentation path: {name}")
+            if kind != "blob" or mode not in ("100644", "100755"):
+                raise ValueError(f"documentation must be a regular file: {name}")
+            entries.append((path, oid))
+        # Read raw blobs: export-ignore/export-subst must not alter checked text.
+        objects = subprocess.run(
+            ["git", "cat-file", "--batch"],
+            input="".join(f"{oid}\n" for _, oid in entries).encode("ascii"),
+            check=True, capture_output=True,
+        ).stdout
+        stream = io.BytesIO(objects)
+        for path, oid in entries:
+            actual_oid, kind, size = stream.readline().decode("ascii").strip().split()
+            if actual_oid != oid or kind != "blob":
+                raise ValueError(f"cannot read documentation blob: {path}")
+            destination = root.joinpath(*path.parts)
+            destination.parent.mkdir(parents=True, exist_ok=True)
+            destination.write_bytes(stream.read(int(size)))
+            if stream.read(1) != b"\n":
+                raise ValueError(f"invalid documentation blob: {path}")
+        try:
+            anchors.REPO_ROOT = root
+            anchors.DOCS_ROOT = i18n_check.DOCS_ROOT = root / "docs"
+            i18n_check.ALLOWLIST_PATH = root / "scripts/i18n_allowlist.yml"
+            yield
+        finally:
+            (anchors.REPO_ROOT, anchors.DOCS_ROOT,
+             i18n_check.DOCS_ROOT, i18n_check.ALLOWLIST_PATH) = roots
 
 
 def checked_pages(lang: str, files: list[tuple[str, str]], revision: str = "") -> dict[str, anchors.Page]:
@@ -164,20 +211,15 @@ def cache_errors(files: list[tuple[str, str]], base: str | None = None) -> list[
     return errors
 
 
-def main(argv: list[str] | None = None) -> int:
-    parser = argparse.ArgumentParser(description="Check staged documentation changes.")
-    parser.add_argument("--base", help="check the changes since this ref instead of the staged files")
-    args = parser.parse_args(argv)
-    if hasattr(sys.stdout, "reconfigure"):
-        sys.stdout.reconfigure(encoding="utf-8")
+def check_changes(base: str | None = None) -> int:
     errors: list[str] = []
     pages: dict[str, set[str]] = {}  # lang -> staged pages relative to docs/<lang>/docs
     file_check_langs: set[str] = set()
     localized_files: list[tuple[str, pathlib.Path]] = []
-    files = staged_files(args.base)
-    if not args.base:
+    files = staged_files(base)
+    if not base:
         add_missing_ids(files)
-    errors.extend(cache_errors(files, args.base))
+    errors.extend(cache_errors(files, base))
     for status, path in files:
         match = PATH_RE.match(path)
         if not match or match.group("lang") not in LANGS:
@@ -196,7 +238,7 @@ def main(argv: list[str] | None = None) -> int:
             print(f"ERROR {error}")
         return int(bool(errors))
 
-    revision = "HEAD" if args.base else ""
+    revision = "HEAD" if base else ""
     en_pages = checked_pages(anchors.SOURCE_LANG, files, revision)
     for lang in sorted(pages):
         report = anchors.Report()
@@ -212,10 +254,11 @@ def main(argv: list[str] | None = None) -> int:
         errors.extend(str(issue) for issue in i18n_check.check_language_files(lang))
 
     # Legal sections are compared with the commit the changes started from.
-    protected_base = git("merge-base", args.base, "HEAD").strip() if args.base else "HEAD"
+    protected_base = git("merge-base", base, "HEAD").strip() if base else "HEAD"
     for lang, path in localized_files:
         source = translation_delta.repo_path(path).replace(f"docs/{lang}/", "docs/en/", 1)
-        if source in translation_delta.EXCLUDED_SOURCE_PATHS or not pathlib.Path(source).exists():
+        source_path = anchors.REPO_ROOT / source
+        if source in translation_delta.EXCLUDED_SOURCE_PATHS or not source_path.exists():
             continue
         rel = source[len("docs/en/docs/"):] if source.startswith("docs/en/docs/") else None
         if rel and rel.endswith(".md"):
@@ -223,11 +266,27 @@ def main(argv: list[str] | None = None) -> int:
 
     for error in dict.fromkeys(errors):
         print(f"ERROR {error}")
-    if errors and args.base:
+    if errors and base:
         print(f"{len(errors)} error(s).")
     elif errors:
         print(f"pre-commit: {len(errors)} error(s). Fix them, or bypass with git commit --no-verify.")
     return int(bool(errors))
+
+
+def main(argv: list[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(description="Check staged documentation changes.")
+    parser.add_argument("--base", help="check committed BASE...HEAD without editing files or the index")
+    args = parser.parse_args(argv)
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8")
+    try:
+        if args.base:
+            with committed_docs("HEAD"):
+                return check_changes(args.base)
+        return check_changes()
+    except (subprocess.CalledProcessError, ValueError, UnicodeError, OSError) as error:
+        print(f"ERROR pre-commit: unable to check submitted documentation: {error}")
+        return 1
 
 
 if __name__ == "__main__":

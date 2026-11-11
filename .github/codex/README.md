@@ -16,6 +16,13 @@ passes, it opens a PR with the commit message `translation, from en to other`.
 English source issues are included in the PR report; when no PR can be opened,
 the workflow creates a GitHub issue with the same report.
 
+The prepare job records the exact source SHA. Translation, validation and PR
+creation all check out that same revision; translation restores the `master`
+branch there without pulling newer changes. Before applying the patch for
+publication, the workflow fetches `origin/master` and requires it to still match
+the prepared SHA. If master moved during the run, rerun the workflow to prepare
+and validate a fresh translation rather than publishing the outdated patch.
+
 The final read-only `report` job generates `translation-run.json` and uploads
 it as `ai-agent-stats-translation-attempt-<run_attempt>`, retained for 30 days.
 The production stats server pulls and validates this data artifact; this

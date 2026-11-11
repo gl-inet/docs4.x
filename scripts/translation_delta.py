@@ -556,20 +556,26 @@ def legacy_hashes(path: pathlib.Path, text: str) -> list[str]:
 
 
 def find_source_blob(source: str, source_hash: str) -> str | None:
-    """Find the committed English version that source_hash was computed from."""
+    """Find an exact legacy hash in HEAD's reachable history, without writing blobs."""
     path = pathlib.Path(source)
-    if source_hash in legacy_hashes(path, path.read_text(encoding="utf-8")):
-        return git_blob(path)
-    code, commits = run_git(["log", "--format=%H", "-n", "100", "--", source])
+    code, commits = run_git(["rev-list", "HEAD", "--", source])
     if code != 0:
         return None
+    seen = set()
     for commit in commits.split():
         code, blob = run_git(["rev-parse", f"{commit}:{source}"])
-        if code != 0:
+        if code != 0 or blob in seen:
             continue
-        code, text = run_git(["cat-file", "blob", blob])
-        # run_git strips the trailing newline.
-        if code == 0 and source_hash in legacy_hashes(path, text + "\n") + legacy_hashes(path, text):
+        seen.add(blob)
+        committed = subprocess.run(["git", "cat-file", "blob", blob], capture_output=True)
+        if committed.returncode != 0:
+            continue
+        try:
+            hashes = (legacy_hashes(path, normalized_text(committed.stdout))
+                      if path.suffix.lower() in TEXT_EXTENSIONS else [hash_bytes(path, committed.stdout)])
+        except UnicodeDecodeError:
+            continue
+        if source_hash in hashes:
             return blob
     return None
 

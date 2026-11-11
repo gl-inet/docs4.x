@@ -50,7 +50,7 @@ import i18n_check  # noqa: E402
 REPO_ROOT = anchors.REPO_ROOT
 PAGE_RE = re.compile(r"^docs/(?P<lang>[a-z]{2})/docs/.+\.md$")
 HUNK_RE = re.compile(r"^@@ -\S+ \+(\d+)(?:,(\d+))? @@")
-CODESPELL_RE = re.compile(r"^(?P<path>.+?):(?P<line>\d+): (?P<word>.+?) ==> (?P<fix>.+)$")
+CODESPELL_RE = re.compile(r"^(?P<line>\d+): (?P<word>.+?) ==> (?P<fix>.+)$")
 CODESPELL_IGNORE = Path(__file__).resolve().parent / "codespell_ignore.txt"
 IMAGE_ALT_RE = re.compile(r"!\[([^\]\s]*\d[^\]\s]*)\]\(\s*<?([^)\s>]+)")
 OFFICIAL_LINK_RE = re.compile(r"\[Official Website\]\((https?://[^)\s]+)\)", re.I)
@@ -129,7 +129,9 @@ def prose_lines(lines: list[str]):
         raw = lines[index]
         fence_match = anchors.FENCE_RE.match(raw)
         if fence is not None:
-            if fence_match and fence_match.group(1)[0] == fence[0] and len(fence_match.group(1)) >= len(fence):
+            if (fence_match and fence_match.group(1)[0] == fence[0]
+                    and len(fence_match.group(1)) >= len(fence)
+                    and not raw[fence_match.end():].strip()):
                 fence = None
             continue
         if fence_match:
@@ -140,32 +142,43 @@ def prose_lines(lines: list[str]):
         yield index + 1, raw
 
 
+def spelling_text(raw: str) -> str:
+    """Mask literal code and Markdown/HTML attributes, retaining prose and lines."""
+    text = re.sub(r"(`+)(?!`)(.*?)\1(?!`)", " ", raw)
+    text = re.sub(r"\{[#.:][^}\n]*\}|\{\s*\w+=[^}\n]*\}", " ", text)
+    return re.sub(r"<[^>]+>", " ", text)
+
+
 def check_spelling(pages: dict[str, set[int]]) -> list[Finding]:
-    paths = [path for path in pages if path.startswith("docs/en/")]
-    if not paths:
-        return []
-    command = [sys.executable, "-m", "codespell_lib", "--uri-ignore-words-list", "*",
-               "--ignore-words", str(CODESPELL_IGNORE), *paths]
-    try:
-        output = subprocess.run(command, capture_output=True, text=True, encoding="utf-8", cwd=REPO_ROOT)
-    except OSError as error:
-        return [Finding("warning", "spelling", paths[0], 1, f"codespell did not run: {error}")]
-    if output.returncode not in (0, 65):  # 65: typos found
-        print(output.stderr.strip() or "codespell failed; install it with pip install codespell", file=sys.stderr)
-        return [Finding("error", "spelling", paths[0], 1, "codespell did not run; see the log")]
     findings = []
-    for line in output.stdout.splitlines():
-        match = CODESPELL_RE.match(line)
-        if not match:
+    for path, numbers in pages.items():
+        if not path.startswith("docs/en/"):
             continue
-        path = match.group("path").replace("\\", "/")
-        number = int(match.group("line"))
-        if number in pages.get(path, ()):
-            findings.append(Finding(
-                "error", "spelling", path, number,
-                f'"{match.group("word")}" may be a typo; did you mean: {match.group("fix")}? '
-                f"If the word is correct, add it to scripts/codespell_ignore.txt.",
-            ))
+        # Preserve original line numbers, but do not spellcheck code or metadata.
+        lines = page_lines(path)
+        allowed = dict(prose_lines(lines))
+        text = "\n".join(spelling_text(raw) if number in numbers and number in allowed else ""
+                         for number, raw in enumerate(lines, 1))
+        command = [sys.executable, "-m", "codespell_lib", "--stdin-single-line", "--disable-colors",
+                   "--uri-ignore-words-list", "*",
+                   "--ignore-words", str(CODESPELL_IGNORE), "-"]
+        try:
+            output = subprocess.run(command, input=text, capture_output=True, text=True,
+                                    encoding="utf-8", cwd=REPO_ROOT)
+        except OSError as error:
+            findings.append(Finding("error", "spelling", path, 1, f"codespell did not run: {error}"))
+            continue
+        if output.returncode not in (0, 65):
+            print(output.stderr, file=sys.stderr)
+            findings.append(Finding("error", "spelling", path, 1, "codespell did not run; see the log"))
+            continue
+        for line in output.stdout.splitlines():
+            if match := CODESPELL_RE.match(line):
+                number = int(match["line"])
+                if number in numbers and number in allowed:
+                    findings.append(Finding("error", "spelling", path, number,
+                        f'"{match["word"]}" may be a typo; did you mean: {match["fix"]}? '
+                        'If correct, add it to scripts/codespell_ignore.txt.'))
     return findings
 
 

@@ -34,9 +34,11 @@ language was last synced. ``migrate`` converts the old format, which had one
 from __future__ import annotations
 
 import argparse
+import difflib
 import hashlib
 import json
 import pathlib
+import re
 import subprocess
 import sys
 import time
@@ -357,7 +359,7 @@ def cmd_report(argv: list[str]) -> int:
 # mark, diff, migrate
 
 
-def source_arg(value: str) -> str:
+def source_arg(value: str, *, absent: bool = False) -> str:
     path = pathlib.Path(value).resolve()
     try:
         rel = repo_path(path.relative_to(pathlib.Path.cwd().resolve()))
@@ -367,20 +369,9 @@ def source_arg(value: str) -> str:
         raise SystemExit(f"{value}: not an English source file under docs/en/")
     if rel in EXCLUDED_SOURCE_PATHS:
         raise SystemExit(f"{value}: excluded from translation sync")
-    if not path.is_file():
+    if not absent and not path.is_file():
         raise SystemExit(f"{value}: file not found")
     return rel
-
-
-def git_blob(path: str | pathlib.Path, write: bool = True) -> str:
-    """Return the git blob ID of a working tree file; with write, store the blob so diff can read it later."""
-    code, output = run_git(["hash-object", *(["-w"] if write else []), "--", str(path)])
-    if code != 0 and write:
-        # A sandbox may not allow writing to .git; committed files are in history anyway.
-        code, output = run_git(["hash-object", "--", str(path)])
-    if code != 0:
-        raise SystemExit(f"git hash-object failed for {path}: {output}")
-    return output
 
 
 def normalized_text(data: bytes) -> str:
@@ -536,17 +527,29 @@ def cmd_diff(argv: list[str]) -> int:
     parser.add_argument("--cache-file", default=CACHE_FILE)
     args = parser.parse_args(argv)
 
-    source = source_arg(args.source)
+    source = source_arg(args.source, absent=True)
     record = target_record(read_json(pathlib.Path(args.cache_file)), source, args.lang)
     old_blob = record.get("source_blob")
-    if not old_blob or run_git(["cat-file", "-e", f"{old_blob}^{{blob}}"])[0] != 0:
+    if (not isinstance(old_blob, str) or not re.fullmatch(r"[0-9a-f]{40}|[0-9a-f]{64}", old_blob)
+            or run_git(["cat-file", "-e", f"{old_blob}^{{blob}}"])[0] != 0):
         print(f"No stored English version for {args.lang}; compare the whole page with {source}.")
         return 1
-    new_blob = git_blob(source)
-    if old_blob == new_blob:
+    committed = subprocess.run(["git", "cat-file", "blob", old_blob], capture_output=True)
+    if committed.returncode != 0:
+        return 1
+    path = pathlib.Path(source)
+    old = committed.stdout
+    new = path.read_bytes() if path.is_file() else b""
+    if path.is_file() and hash_bytes(path, old) == hash_bytes(path, new):
         print(f"{source} has not changed since {args.lang} was synced.")
-        return 0
-    return subprocess.call(["git", "--no-pager", "diff", old_blob, new_blob])
+    elif path.suffix.lower() in TEXT_EXTENSIONS:
+        print("".join(difflib.unified_diff(
+            normalized_text(old).splitlines(keepends=True), normalized_text(new).splitlines(keepends=True),
+            fromfile=f"{source} ({args.lang} baseline)", tofile=source,
+        )), end="")
+    else:
+        print(f"Binary source changed: {source}" + (" (deleted)" if not path.exists() else ""))
+    return 0
 
 
 def legacy_hashes(path: pathlib.Path, text: str) -> list[str]:

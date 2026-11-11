@@ -23,6 +23,17 @@ publication, the workflow fetches `origin/master` and requires it to still match
 the prepared SHA. If master moved during the run, rerun the workflow to prepare
 and validate a fresh translation rather than publishing the outdated patch.
 
+Validation and publication each copy the original `scripts/translation_guard.py`
+outside the checkout before applying the patch, then run that trusted copy.
+The guard limits changes to localized files and `.translation-cache.json`,
+rejects non-regular files and the excluded Downloads page, preserves approved
+localized legal sections and their placement, and requires a completed report
+with passed validation and no blocking source issues. Existing structure, anchor,
+cache and strict-build checks still run independently. Artifacts stay outside the
+checkout, and publication disables repository commit hooks. Unlike KVM's
+English-only page rules, router regulatory exclusions apply to trailing sections;
+this guard does not add blanket regulatory-filename or reference restrictions.
+
 The final read-only `report` job generates `translation-run.json` and uploads
 it as `ai-agent-stats-translation-attempt-<run_attempt>`, retained for 30 days.
 The production stats server pulls and validates this data artifact; this

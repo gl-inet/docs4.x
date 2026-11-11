@@ -185,14 +185,27 @@ jobs:
         uses: actions/download-artifact@v8
         with:
           name: codex-patch
+          path: ${{ runner.temp }}/translation
 
-      - name: Apply Codex patch
-        run: git apply --index codex.patch
+      - name: Download Codex report
+        uses: actions/download-artifact@v8
+        with:
+          name: codex-report
+          path: ${{ runner.temp }}/translation
 
       - name: Set up Python
         uses: actions/setup-python@v6
         with:
           python-version: "3.10.4"
+
+      - name: Apply patch and enforce translation scope
+        shell: bash
+        run: |
+          set -euo pipefail
+          # Run the original guard, never a file supplied by the patch.
+          cp scripts/translation_guard.py "$RUNNER_TEMP/translation_guard.py"
+          git apply --index "$RUNNER_TEMP/translation/codex.patch"
+          python -I "$RUNNER_TEMP/translation_guard.py" --report "$RUNNER_TEMP/translation/codex-output.json"
 
       - name: Install documentation dependencies
         run: python -m pip install -r requirements.txt
@@ -249,12 +262,14 @@ jobs:
         uses: actions/download-artifact@v8
         with:
           name: codex-report
+          path: ${{ runner.temp }}/translation
 
       - name: Download Codex patch
         if: needs.validate.result == 'success' && needs.translate.outputs.has_changes == 'true'
         uses: actions/download-artifact@v8
         with:
           name: codex-patch
+          path: ${{ runner.temp }}/translation
 
       - name: Create translation PR
         id: pull_request
@@ -270,12 +285,15 @@ jobs:
           test "$(git rev-parse origin/master)" = "$SOURCE_SHA" || {
             echo '::error::master changed during translation. Run the workflow again.'; exit 1;
           }
-          git apply --index codex.patch
+          cp scripts/translation_guard.py "$RUNNER_TEMP/translation_guard.py"
+          git apply --index "$RUNNER_TEMP/translation/codex.patch"
+          python3 -I "$RUNNER_TEMP/translation_guard.py" --report "$RUNNER_TEMP/translation/codex-output.json"
           branch="translation/auto-${GITHUB_RUN_ID}"
           git switch -c "$branch"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "translation, from en to other"
+          # Never execute repository hooks with the publishing token.
+          git -c core.hooksPath=/dev/null commit -m "translation, from en to other"
           git push --set-upstream origin "$branch"
           {
             echo "## Automated translation report"
@@ -283,7 +301,7 @@ jobs:
             echo "Run: https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
             echo
             echo '```json'
-            cat codex-output.json
+            cat "$RUNNER_TEMP/translation/codex-output.json"
             # Codex output may not end with a newline; keep the fence on its own line.
             echo
             echo '```'
@@ -302,14 +320,14 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          if ! jq -e '(.source_issues // []) | length > 0' codex-output.json >/dev/null; then
+          if ! jq -e '(.source_issues // []) | length > 0' "$RUNNER_TEMP/translation/codex-output.json" >/dev/null; then
             exit 0
           fi
           {
             echo "Automated translation run: https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
             echo
             echo '```json'
-            cat codex-output.json
+            cat "$RUNNER_TEMP/translation/codex-output.json"
             # Codex output may not end with a newline; keep the fence on its own line.
             echo
             echo '```'
@@ -324,10 +342,10 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          status="$(jq -r '.status' codex-output.json)"
+          status="$(jq -r '.status' "$RUNNER_TEMP/translation/codex-output.json")"
           if [ "$status" = "blocked" ] || [ "$status" = "failed" ]; then
             echo "::error::Codex returned status '$status'. See the codex-report artifact."
-            jq -r '(.validation.notes // []) + (.notes // []) | .[]' codex-output.json
+            jq -r '(.validation.notes // []) + (.notes // []) | .[]' "$RUNNER_TEMP/translation/codex-output.json"
             exit 1
           fi
 

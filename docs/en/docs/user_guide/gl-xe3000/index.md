@@ -47,7 +47,7 @@ Watch this setup video or follow the steps below.
 
     2. Power off your router.
 
-    3. Insert the SIM card(s) as follows: Align the card so the metal contacts face the top of the router and the notched corner is at the upper right. Keep the card level and gently slide it into the slot until you feel it lock into place. (**Note:** Only one SIM card can be active at a time. The other serves as a backup.)
+    3. Insert the SIM card(s) as follows: Align the card with the metal contacts facing the top of the router and the notched corner at the upper right. Keep the card level and gently slide it into the slot until you feel it lock into place. (**Note:** Only one SIM card can be active at a time. The other serves as a backup.)
 
         To remove the SIM card, press it inward again and release it. The card will spring out slightly, allowing you to pull it out.
 

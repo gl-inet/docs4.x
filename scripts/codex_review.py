@@ -1,189 +1,230 @@
 #!/usr/bin/env python3
-"""Prepare the input for the Codex pull request review and publish its findings.
+"""Prepare a docs diff and publish validated Codex findings using trusted tooling.
 
-Used by .github/workflows/pr-review.yml:
-
-  python scripts/codex_review.py prepare --base <ref> --event <event.json> --out .codex-run
-  python scripts/codex_review.py publish --review codex-output.json --lines added-lines.json \
-      --pr <number> --head <sha> [--result success] [--dry-run]
-
-``prepare`` writes the diff, the changed files, the pull request metadata, and
-the added line numbers per file.
-
-``publish`` posts the findings on lines the pull request added as one review
-with inline comments, and keeps a single summary comment up to date. Inline
-comments from earlier runs are hidden as outdated so each push shows only the
-latest review. It needs GITHUB_TOKEN and GITHUB_REPOSITORY.
+Only stdlib dependencies. --repo is an untrusted, data-only checkout; never
+import from it or execute its scripts. Publish recomputes lines, not artifacts.
 """
-
 from __future__ import annotations
 
 import argparse
 import json
 import os
+from pathlib import Path
 import re
 import subprocess
 import sys
-from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+from github_api import GitHub
 
-from github_api import GitHub  # noqa: E402
-
-REPO_ROOT = Path(__file__).resolve().parent.parent
 MARKER = "<!-- codex-pr-review -->"
 SUMMARY_MARKER = "<!-- codex-pr-review-summary -->"
-HUNK_RE = re.compile(r"^@@ -\S+ \+(\d+)(?:,(\d+))? @@")
-SEVERITY_ICONS = {"high": "🔴", "medium": "🟠", "low": "🟡"}
+CATEGORIES = {"accuracy", "copy-paste", "link", "image", "grammar", "spelling",
+              "terminology", "ui-label", "structure", "translation", "other"}
+SHA = re.compile(r"[0-9a-f]{40}")
+HUNK = re.compile(r"^@@ -\d+(?:,\d+)? \+(\d+)(?:,(\d+))? @@")
 
 
-def git(*args: str) -> str:
+def safe_path(path):
+    if (not isinstance(path, str) or len(path) > 500 or not path.startswith("docs/")
+            or "\\" in path or any(ord(c) < 32 or ord(c) == 127 for c in path)
+            or any(p in ("", ".", "..") for p in path.split("/"))):
+        raise ValueError("Unsafe documentation path")
+    return path
+
+
+def git(repo, *args):
     return subprocess.run(
-        ["git", *args], check=True, capture_output=True, text=True, encoding="utf-8", cwd=REPO_ROOT,
+        ["git", "-c", "core.quotePath=false", "-C", str(repo), *args],
+        check=True, capture_output=True, text=True, encoding="utf-8",
     ).stdout
 
 
-def added_lines(diff: str) -> dict[str, list[int]]:
-    result: dict[str, list[int]] = {}
-    path = None
+def added_lines(diff):
+    result, path, number, in_hunk = {}, None, 0, False
     for line in diff.splitlines():
-        if line.startswith("+++ "):
-            path = line[6:] if line.startswith("+++ b/") else None
-        elif path and (hunk := HUNK_RE.match(line)):
-            start, count = int(hunk.group(1)), int(hunk.group(2) or 1)
-            result.setdefault(path, []).extend(range(start, start + count))
+        if line.startswith("diff --git "):
+            path, in_hunk = None, False
+        elif not in_hunk and line.startswith("+++ b/"):
+            path = safe_path(line[6:])
+        elif hunk := HUNK.match(line):
+            number, in_hunk = int(hunk.group(1)), True
+        elif in_hunk and path:
+            if line.startswith("+"):
+                result.setdefault(path, []).append(number)
+                number += 1
+            elif line.startswith(" "):
+                number += 1
     return result
 
 
-def cmd_prepare(args) -> int:
+def diff_input(repo, base, head):
+    if not SHA.fullmatch(base) or not SHA.fullmatch(head):
+        raise ValueError("Expected full commit SHAs")
+    if git(repo, "rev-parse", "HEAD").strip() != head:
+        raise ValueError("Data checkout does not match expected head")
+    merge_base = git(repo, "merge-base", base, head).strip()
+    scope = (merge_base, head, "--", "docs/")
+    options = ("--no-ext-diff", "--no-textconv", "--no-renames", "--no-color")
+    # Reject ambiguous quoted names instead of trying to interpret git C escapes.
+    names = git(repo, "diff", "--name-only", "-z", *options, *scope)
+    for path in names.split("\0"):
+        if path:
+            safe_path(path)
+    diff = git(repo, "diff", "--unified=0", *options, *scope)
+    lines = added_lines(diff)
+    # Symlink targets are not documentation text eligible for suggestions.
+    regular = set()
+    for entry in git(repo, "ls-tree", "-r", "-z", head, "--", "docs/").split("\0"):
+        if entry:
+            meta, path = entry.split("\t", 1)
+            if meta.split()[0] in ("100644", "100755"):
+                regular.add(path)
+    lines = {p: nums for p, nums in lines.items() if p in regular}
+    return merge_base, git(repo, "diff", *options, *scope), names, lines
+
+
+def load_json(path):
+    if Path(path).stat().st_size > 250_000:
+        raise ValueError("JSON input too large")
+    def unique(pairs):
+        obj = {}
+        for key, value in pairs:
+            if key in obj:
+                raise ValueError("Duplicate JSON key")
+            obj[key] = value
+        return obj
+    return json.loads(Path(path).read_text(encoding="utf-8"), object_pairs_hook=unique,
+                      parse_constant=lambda value: (_ for _ in ()).throw(ValueError("Invalid JSON constant")))
+
+
+def validate_review(review):
+    def text(value, limit, nonempty=False):
+        if (not isinstance(value, str) or len(value) > limit or (nonempty and not value.strip())
+                or any(ord(c) < 32 and c not in "\n\t\r" for c in value)):
+            raise ValueError("Invalid review string")
+    if not isinstance(review, dict) or set(review) != {"summary", "findings"}:
+        raise ValueError("Invalid review object")
+    text(review["summary"], 4000, True)
+    findings = review["findings"]
+    if not isinstance(findings, list) or len(findings) > 30:
+        raise ValueError("Expected at most 30 findings")
+    fields = {"path", "line", "severity", "category", "problem", "suggestion", "replacement_line"}
+    for f in findings:
+        if not isinstance(f, dict) or set(f) != fields:
+            raise ValueError("Invalid finding object")
+        safe_path(f["path"])
+        if type(f["line"]) is not int or not 1 <= f["line"] <= 2_147_483_647:
+            raise ValueError("Invalid line number")
+        if not isinstance(f["severity"], str) or f["severity"] not in {"high", "medium", "low"}:
+            raise ValueError("Invalid severity")
+        if not isinstance(f["category"], str) or f["category"] not in CATEGORIES:
+            raise ValueError("Invalid category")
+        text(f["problem"], 2000, True)
+        text(f["suggestion"], 2000)
+        text(f["replacement_line"], 2000)
+        if "\n" in f["replacement_line"] or "\r" in f["replacement_line"] or "```" in f["replacement_line"]:
+            raise ValueError("Replacement must be a single line without fences")
+    return review
+
+
+def cmd_prepare(args):
+    merge_base, diff, names, lines = diff_input(args.repo, args.base, args.head)
+    event = load_json(args.event)["pull_request"]
     out = Path(args.out)
     out.mkdir(parents=True, exist_ok=True)
-    merge_base = git("merge-base", args.base, "HEAD").strip()
-    scope = [merge_base, "HEAD", "--find-renames", "--", "docs/"]
-    (out / "pr.diff").write_text(git("diff", *scope), encoding="utf-8")
-    (out / "changed-files.txt").write_text(git("diff", "--name-status", *scope), encoding="utf-8")
-    lines = added_lines(git("diff", "--unified=0", "--no-color", *scope))
-    (out / "added-lines.json").write_text(json.dumps(lines, indent=2), encoding="utf-8")
-    event = json.loads(Path(args.event).read_text(encoding="utf-8"))
-    pull_request = event["pull_request"]
-    metadata = {
-        "number": pull_request["number"],
-        "title": pull_request["title"],
-        "description": pull_request.get("body") or "",
-        "author": pull_request["user"]["login"],
-        "base_commit": merge_base,
-        "head_commit": git("rev-parse", "HEAD").strip(),
-    }
-    (out / "pr.json").write_text(json.dumps(metadata, indent=2, ensure_ascii=False), encoding="utf-8")
-    print(f"{len(lines)} changed file(s) with added lines")
+    metadata = {"number": event["number"], "title": event["title"],
+                "description": event.get("body") or "", "author": event["user"]["login"],
+                "base_commit": merge_base, "head_commit": args.head}
+    for name, content in {"pr.diff": diff, "changed-files.txt": names.replace("\0", "\n"),
+                          "added-lines.json": json.dumps(lines, indent=2),
+                          "pr.json": json.dumps(metadata, indent=2)}.items():
+        (out / name).write_text(content, encoding="utf-8")
     return 0
 
 
-def comment_body(finding: dict) -> str:
-    icon = SEVERITY_ICONS.get(finding["severity"], "")
-    body = f"{icon} **{finding['severity']} · {finding['category']}**: {finding['problem']}"
-    if finding["suggestion"]:
-        body += f"\n\n{finding['suggestion']}"
-    if finding["replacement_line"]:
-        body += f"\n\n```suggestion\n{finding['replacement_line']}\n```"
-    return f"{body}\n\n{MARKER}"
+def comment_body(f):
+    body = f"**{f['severity']} · {f['category']}**: {f['problem']}"
+    if f["suggestion"]:
+        body += "\n\n" + f["suggestion"]
+    if f["replacement_line"]:
+        body += f"\n\n```suggestion\n{f['replacement_line']}\n```"
+    return body + "\n\n" + MARKER
 
 
-def summary_body(review: dict | None, inline: list[dict], other: list[dict], head: str, run_url: str) -> str:
-    lines = [SUMMARY_MARKER, "## Codex review", ""]
-    if review is None:
-        lines += [f"The review did not finish for `{head[:7]}`. See the [workflow run]({run_url})."]
-        return "\n".join(lines)
-    lines += [review["summary"], ""]
-    findings = inline + other
-    if findings:
-        counts = ", ".join(
-            f"{SEVERITY_ICONS[s]} {s}: {n}"
-            for s in ("high", "medium", "low")
-            if (n := sum(f["severity"] == s for f in findings))
-        )
-        lines += [f"**{len(findings)} finding(s)** ({counts}); {len(inline)} posted as inline comments.", ""]
-    if other:
-        lines += ["Findings outside the changed lines:", "", "| Severity | Location | Problem | Suggestion |", "|---|---|---|---|"]
-        for f in other:
-            cells = [f["severity"], f"`{f['path']}:{f['line']}`", f["problem"], f["suggestion"]]
-            lines.append("| " + " | ".join(c.replace("|", "\\|").replace("\n", " ") for c in cells) + " |")
-        lines.append("")
-    lines.append(f"<sub>Commit `{head[:7]}` · [workflow run]({run_url}) · Report-only; it does not block merging.</sub>")
-    return "\n".join(lines)
-
-
-def cmd_publish(args) -> int:
+def cmd_publish(args):
+    if type(args.pr) is not int or args.pr <= 0:
+        raise ValueError("Invalid PR number")
+    _, _, names, lines = diff_input(args.repo, args.base, args.head)
+    changed_paths = set(names.split("\0")) - {""}
     review = None
-    if args.result == "success" and Path(args.review).is_file():
-        try:
-            review = json.loads(Path(args.review).read_text(encoding="utf-8"))
-        except json.JSONDecodeError as error:
-            print(f"::warning::Codex output is not valid JSON: {error}")
-    lines = json.loads(Path(args.lines).read_text(encoding="utf-8")) if Path(args.lines).is_file() else {}
+    if args.result == "success":
+        review = validate_review(load_json(args.review))
     findings = review["findings"] if review else []
+    if any(f["path"] not in changed_paths for f in findings):
+        raise ValueError("Finding refers to a file outside the documentation diff")
     inline = [f for f in findings if f["line"] in lines.get(f["path"], ())]
-    other = [f for f in findings if f not in inline]
-
-    server = os.environ.get("GITHUB_SERVER_URL", "https://github.com")
-    run_url = f"{server}/{os.environ.get('GITHUB_REPOSITORY', '')}/actions/runs/{os.environ.get('GITHUB_RUN_ID', '')}"
-    summary = summary_body(review, inline, other, args.head, run_url)
-    comments = [
-        {"path": f["path"], "line": f["line"], "side": "RIGHT", "body": comment_body(f)} for f in inline
-    ]
+    summary = (f"{SUMMARY_MARKER}\n## Codex review\n\n"
+               + (review["summary"] if review else "The review did not finish. See the workflow run.")
+               + f"\n\nCommit `{args.head}` · Report-only; does not block merging.")
+    # Outside-diff findings are data, never suggestions on unrelated lines.
+    for f in findings:
+        if f not in inline:
+            summary += f"\n\n{f['path']}:{f['line']} — {f['severity']}: {f['problem']}\n\n{f['suggestion']}"
+    if len(summary) > 60000:
+        raise ValueError("Summary exceeds GitHub comment limit")
+    comments = [{"path": f["path"], "line": f["line"], "side": "RIGHT", "body": comment_body(f)} for f in inline]
     if args.dry_run:
         print(summary)
-        print(json.dumps(comments, indent=2, ensure_ascii=False))
+        print(json.dumps(comments, ensure_ascii=False, indent=2))
         return 0
-
     github = GitHub(os.environ["GITHUB_REPOSITORY"], os.environ["GITHUB_TOKEN"])
-    pr = args.pr
-    # Hide the inline comments of earlier runs; the new review replaces them.
-    for old in github.paged(f"pulls/{pr}/comments"):
-        if MARKER in old["body"] and old["user"]["login"] == "github-actions[bot]":
-            github.graphql(
-                "mutation($id: ID!) { minimizeComment(input: {subjectId: $id, classifier: OUTDATED}) "
-                "{ minimizedComment { isMinimized } } }",
-                {"id": old["node_id"]},
-            )
+
+    def current():
+        pr = github.request("GET", f"pulls/{args.pr}")
+        if (pr["head"]["sha"] != args.head or pr["head"]["repo"]["full_name"] != github.repository
+                or pr["state"] != "open" or pr["draft"] or pr["base"]["ref"] != "master"):
+            raise ValueError("PR is stale or no longer eligible")
+
+    current()
+    existing = next((c for c in github.paged(f"issues/{args.pr}/comments")
+                     if SUMMARY_MARKER in c["body"] and c["user"]["login"] == "github-actions[bot]"), None)
     if comments:
-        github.request("POST", f"pulls/{pr}/reviews", {
-            "commit_id": args.head,
-            "event": "COMMENT",
-            "body": f"Codex found {len(comments)} problem(s) on the changed lines. {MARKER}",
-            "comments": comments,
-        })
-    existing = next(
-        (c for c in github.paged(f"issues/{pr}/comments")
-         if SUMMARY_MARKER in c["body"] and c["user"]["login"] == "github-actions[bot]"),
-        None,
-    )
+        current()
+        github.request("POST", f"pulls/{args.pr}/reviews", {
+            "commit_id": args.head, "event": "COMMENT", "body": MARKER, "comments": comments})
+    current()
     if existing:
-        github.request("PATCH", f"issues/comments/{existing['id']}", {"body": summary})
+        github.request("PATCH", f"issues/comments/{int(existing['id'])}", {"body": summary})
     else:
-        github.request("POST", f"issues/{pr}/comments", {"body": summary})
-    print(f"Published {len(comments)} inline comment(s) and {len(other)} summary finding(s).")
+        github.request("POST", f"issues/{args.pr}/comments", {"body": summary})
     return 0
 
 
-def main(argv: list[str] | None = None) -> int:
-    parser = argparse.ArgumentParser(description="Codex pull request review helper.")
+def main(argv=None):
+    parser = argparse.ArgumentParser(description=__doc__)
     commands = parser.add_subparsers(dest="command", required=True)
-    prepare = commands.add_parser("prepare", help="write the review input")
-    prepare.add_argument("--base", required=True, help="base branch ref, e.g. origin/master")
-    prepare.add_argument("--event", required=True, help="GitHub event payload (GITHUB_EVENT_PATH)")
-    prepare.add_argument("--out", required=True, help="output directory")
-    publish = commands.add_parser("publish", help="post the review on the pull request")
-    publish.add_argument("--review", required=True, help="Codex output JSON")
-    publish.add_argument("--lines", required=True, help="added-lines.json from prepare")
-    publish.add_argument("--pr", required=True, type=int)
-    publish.add_argument("--head", required=True, help="head commit SHA")
-    publish.add_argument("--result", default="success", help="result of the review job")
-    publish.add_argument("--dry-run", action="store_true", help="print instead of posting")
+    for command in ("prepare", "publish"):
+        sub = commands.add_parser(command)
+        sub.add_argument("--repo", required=True, help="data-only PR checkout")
+        sub.add_argument("--base", required=True, help="trusted base SHA")
+        sub.add_argument("--head", required=True, help="expected PR head SHA")
+        if command == "prepare":
+            sub.add_argument("--event", required=True)
+            sub.add_argument("--out", required=True)
+        else:
+            sub.add_argument("--review", required=True)
+            sub.add_argument("--pr", required=True, type=int)
+            sub.add_argument("--result", default="success", choices=("success", "failure", "cancelled"))
+            sub.add_argument("--dry-run", action="store_true")
     args = parser.parse_args(argv)
     if hasattr(sys.stdout, "reconfigure"):
         sys.stdout.reconfigure(encoding="utf-8")
-    return cmd_prepare(args) if args.command == "prepare" else cmd_publish(args)
+    try:
+        return cmd_prepare(args) if args.command == "prepare" else cmd_publish(args)
+    except (ValueError, KeyError, OSError, subprocess.CalledProcessError) as error:
+        print(f"Review rejected: {error}", file=sys.stderr)
+        return 1
 
 
 if __name__ == "__main__":

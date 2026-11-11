@@ -3,10 +3,8 @@ name: Codex PR review
 on:
   pull_request:
     types: [opened, synchronize, reopened, ready_for_review]
-    branches:
-      - master
-    paths:
-      - "docs/**"
+    branches: [master]
+    paths: ["docs/**"]
 
 concurrency:
   group: codex-pr-review-${{ github.event.pull_request.number }}
@@ -17,129 +15,98 @@ permissions:
 
 jobs:
   review:
-    # Pull requests from forks get no secrets, so only branches of this
-    # repository are reviewed. Drafts are reviewed when marked ready.
     if: github.event.pull_request.head.repo.full_name == github.repository && !github.event.pull_request.draft
     runs-on: ubuntu-latest
-    # The Codex secrets are environment secrets of the OpenAI environment.
+    timeout-minutes: 30
     environment: OpenAI
     steps:
-      - name: Check out pull request head
+      - name: Check out trusted tooling and policy
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event.pull_request.base.sha }}
+          path: trusted
+          persist-credentials: false
+
+      - name: Check out PR as data only
         uses: actions/checkout@v6
         with:
           ref: ${{ github.event.pull_request.head.sha }}
+          path: pr-data
           fetch-depth: 0
           persist-credentials: false
 
-      - name: Set up Python
-        uses: actions/setup-python@v6
-        with:
-          python-version: "3.10.4"
-
-      # Lets Codex run scripts/anchors.py and scripts/i18n_check.py.
-      - name: Install documentation dependencies
-        run: python -m pip install -r requirements.txt
-
-      - name: Prepare review input
-        shell: bash
+      - name: Prepare review input with trusted tooling
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
         run: |
-          set -euo pipefail
-          echo ".codex-run/" >> .git/info/exclude
-          python scripts/codex_review.py prepare \
-            --base "origin/${{ github.base_ref }}" \
-            --event "$GITHUB_EVENT_PATH" \
-            --out .codex-run
+          python3 -I trusted/scripts/codex_review.py prepare \
+            --repo "$GITHUB_WORKSPACE/pr-data" --base "$BASE_SHA" --head "$HEAD_SHA" \
+            --event "$GITHUB_EVENT_PATH" --out "$GITHUB_WORKSPACE/trusted/.codex-run"
 
       - name: Check Codex credentials
         env:
           CODEX_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           CODEX_RESPONSES_API_ENDPOINT: ${{ secrets.CODEX_RESPONSES_API_ENDPOINT }}
-        shell: bash
         run: |
-          missing=0
-          if [ -z "$CODEX_API_KEY" ]; then
-            echo "::error::Secret OPENAI_API_KEY is not available to this job (OpenAI environment)."
-            missing=1
-          fi
-          if [ -z "$CODEX_RESPONSES_API_ENDPOINT" ]; then
-            echo "::error::Secret CODEX_RESPONSES_API_ENDPOINT is not available to this job (OpenAI environment)."
-            missing=1
-          fi
-          exit "$missing"
+          test -n "$CODEX_API_KEY" || { echo '::error::Configure OPENAI_API_KEY in the OpenAI environment.'; exit 1; }
+          test -n "$CODEX_RESPONSES_API_ENDPOINT" || { echo '::error::Configure CODEX_RESPONSES_API_ENDPOINT in the OpenAI environment.'; exit 1; }
 
-      - name: Run Codex review
+      # Never install PR dependencies or execute PR scripts with API secrets.
+      # Codex's working directory is trusted; PR AGENTS/skills are data, not policy.
+      - name: Run read-only Codex review
         uses: openai/codex-action@v1
         with:
           openai-api-key: ${{ secrets.OPENAI_API_KEY }}
           responses-api-endpoint: ${{ secrets.CODEX_RESPONSES_API_ENDPOINT }}
-          prompt-file: .github/codex/prompts/pr-review.md
-          output-file: codex-output.json
-          output-schema-file: .github/codex/pr-review.schema.json
+          working-directory: ${{ github.workspace }}/trusted
+          prompt-file: ${{ github.workspace }}/trusted/.github/codex/prompts/pr-review.md
+          output-file: ${{ github.workspace }}/codex-output.json
+          output-schema-file: ${{ github.workspace }}/trusted/.github/codex/pr-review.schema.json
           permission-profile: ":read-only"
           allow-bot-users: github-actions[bot]
           codex-args: '["--ephemeral"]'
 
-      - name: Upload review
+      - name: Upload review data only
         if: always()
         uses: actions/upload-artifact@v6
         with:
           name: codex-review
-          path: |
-            codex-output.json
-            .codex-run/added-lines.json
+          path: codex-output.json
+          if-no-files-found: ignore
+
+      - name: Upload counts reporter line map
+        if: always()
+        uses: actions/upload-artifact@v6
+        with:
+          name: codex-review-added-lines
+          path: trusted/.codex-run/added-lines.json
           include-hidden-files: true
           if-no-files-found: ignore
 
-  # Posting runs in its own job so the Codex job never holds a write token.
   publish:
     needs: review
     if: always() && (needs.review.result == 'success' || needs.review.result == 'failure')
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     permissions:
       contents: read
       issues: write
       pull-requests: write
     steps:
-      - name: Check out scripts
-        uses: actions/checkout@v6
-        with:
-          ref: ${{ github.event.pull_request.head.sha }}
-          sparse-checkout: scripts
-          persist-credentials: false
-
-      - name: Download review
-        continue-on-error: true
-        uses: actions/download-artifact@v8
-        with:
-          name: codex-review
-          path: review
-
-      - name: Publish review
-        env:
-          GITHUB_TOKEN: ${{ github.token }}
-        run: |
-          python3 scripts/codex_review.py publish \
-            --review review/codex-output.json \
-            --lines review/.codex-run/added-lines.json \
-            --pr "${{ github.event.pull_request.number }}" \
-            --head "${{ github.event.pull_request.head.sha }}" \
-            --result "${{ needs.review.result }}"
-
-  # Read-only, data-only reporting; never changes review/publish outcomes.
-  report:
-    needs: [review, publish]
-    if: always() && needs.review.result != 'skipped'
-    continue-on-error: true
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      actions: read
-    steps:
-      - name: Check out trusted reporting script
+      - name: Check out trusted publisher
         uses: actions/checkout@v6
         with:
           ref: ${{ github.event.pull_request.base.sha }}
-          sparse-checkout: scripts
+          path: trusted
+          persist-credentials: false
+
+      - name: Check out PR as data for independent diff validation
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          path: pr-data
+          fetch-depth: 0
           persist-credentials: false
 
       - name: Download review data
@@ -149,11 +116,52 @@ jobs:
           name: codex-review
           path: review
 
+      - name: Validate and publish with trusted tooling
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          REVIEW_RESULT: ${{ needs.review.result }}
+        run: |
+          python3 -I trusted/scripts/codex_review.py publish \
+            --repo "$GITHUB_WORKSPACE/pr-data" --base "$BASE_SHA" --head "$HEAD_SHA" \
+            --review review/codex-output.json --pr "$PR_NUMBER" --result "$REVIEW_RESULT"
+
+  # Read-only counts-only reporting; independent of AI credentials and outcomes.
+  report:
+    needs: [review, publish]
+    if: always() && needs.review.result != 'skipped'
+    continue-on-error: true
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+      actions: read
+    steps:
+      - name: Check out trusted reporting script
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event.pull_request.base.sha }}
+          sparse-checkout: scripts/report_review_stats.py
+          sparse-checkout-cone-mode: false
+          persist-credentials: false
+      - name: Download review data
+        continue-on-error: true
+        uses: actions/download-artifact@v8
+        with:
+          name: codex-review
+          path: review
+      - name: Download counts reporter line map
+        continue-on-error: true
+        uses: actions/download-artifact@v8
+        with:
+          name: codex-review-added-lines
+          path: review/.codex-run
       - name: Generate review stats
         env:
           STATS_NEEDS: ${{ toJSON(needs) }}
-        run: python3 scripts/report_review_stats.py
-
+        run: python3 -I scripts/report_review_stats.py
       - name: Upload review stats
         uses: actions/upload-artifact@v6
         with:

@@ -51,12 +51,24 @@ review. Draft PRs and PRs from forks are skipped, because fork PRs get no
 secrets. It uses the same `OpenAI` environment secrets as the translation sync,
 so that environment must allow all branches.
 
-`scripts/codex_review.py prepare` writes the diff and PR metadata to
-`.codex-run/`. Codex reviews them with `prompts/pr-review.md` in a read-only
-sandbox and returns JSON matching `pr-review.schema.json`. A separate job with
-`pull-requests: write` runs `scripts/codex_review.py publish`: findings on added
-lines become inline comments (with a one-click suggestion when Codex gives a
-replacement line), other findings go into one summary comment that is updated on
-each run, and inline comments from earlier runs are hidden as outdated.
+The review and publish jobs use tooling, policy, prompt, and schema from the
+PR's base SHA in `trusted/`. The PR head is checked out separately in `pr-data/`
+and treated only as data; its scripts and dependencies are never executed.
+Trusted `scripts/codex_review.py prepare` writes the diff and PR metadata to
+`trusted/.codex-run/`. Codex reviews them in a read-only sandbox and returns
+JSON matching the trusted `pr-review.schema.json`.
+
+A separate job with `pull-requests: write` runs the trusted publisher. It
+validates the JSON, independently recomputes changed paths and added lines,
+and checks that the PR is still eligible and at the expected head before
+writing. Findings on added lines become inline comments (with a one-click
+suggestion when Codex gives a replacement line); other findings on changed
+files go into one summary comment updated on each run. Previous inline
+comments are not minimized by this publisher.
+
+The added-line map is uploaded separately for the existing read-only statistics
+reporter; the publisher never trusts that artifact. Tests:
+`python -m unittest discover -s scripts/tests -p 'test_codex_review.py'` and
+`python -m unittest discover -s scripts/tests -p 'test_pr_review_workflow.py'`.
 
 The review is report-only and does not block merging.

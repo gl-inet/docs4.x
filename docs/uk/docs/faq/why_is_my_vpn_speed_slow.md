@@ -51,7 +51,9 @@ VPN шифрує дані для захисту конфіденційності
 
 Деякі провайдери, особливо мобільні оператори, можуть обмежувати розмір пакетів даних. Спробуйте змінити MTU за замовчуванням із 1420 на 1380 або 1280 у VPN Client Options.
 
-Для прошивки v4.8 та новіших версій дивіться інструкції [тут](../interface_guide/vpn_dashboard_v4.8.md#tunnel-options).
+Для прошивки v4.9 та новіших версій дивіться інструкції [тут](../interface_guide/vpn_dashboard.md#tunnel-options).
+
+Для прошивки v4.8 дивіться інструкції [тут](../interface_guide/vpn_dashboard_v4.8.md#tunnel-options).
 
 Для прошивки v4.7 та раніших версій дивіться інструкції [тут](../interface_guide/vpn_dashboard_v4.7.md#client-options).
 

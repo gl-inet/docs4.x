@@ -58,7 +58,7 @@ Följ stegen nedan för att felsöka om det inte går att upprätta en anslutnin
 
 3. **Justera obfuskeringsparametrarna.**
 
-    Om du har konfigurerat [obfuskeringsparametrar](amneziawg_obfuscation.md#parameter-overview) (till exempel Jc, Jmin och Jmax) manuellt på WireGuard-servern kan felaktiga parameterinställningar leda till att handskakningen misslyckas.
+    Om du har konfigurerat [obfuskeringsparametrar](amneziawg_obfuscation.md) (till exempel Jc, Jmin och Jmax) manuellt på WireGuard-servern kan felaktiga parameterinställningar leda till att handskakningen misslyckas.
 
     Prova att ändra obfuskeringsparametrarna och återansluta för att utesluta att parametrarna inte stämmer överens. Du kan även återställa standardinställningarna för obfuskering för att testa.
 

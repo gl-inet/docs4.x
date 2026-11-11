@@ -51,7 +51,9 @@ Vissa internetleverantörer kanske inte kan slå upp VPN-domäner. Prova att anv
 
 Vissa internetleverantörer, särskilt mobiloperatörer, kan begränsa datapaketens storlek. Prova att ändra standardvärdet för MTU från 1420 till 1380 eller 1280 i VPN Client Options.
 
-För firmware v4.8 och senare finns mer information [här](../interface_guide/vpn_dashboard_v4.8.md#tunnel-options).
+För firmware v4.9 och senare finns mer information [här](../interface_guide/vpn_dashboard.md#tunnel-options).
+
+För firmware v4.8 finns mer information [här](../interface_guide/vpn_dashboard_v4.8.md#tunnel-options).
 
 För firmware v4.7 och tidigare finns mer information [här](../interface_guide/vpn_dashboard_v4.7.md#client-options).
 

@@ -58,7 +58,7 @@ Se non riesci a stabilire una connessione a un server WireGuard offuscato, segui
 
 3. **Regola i parametri di offuscamento.**
 
-    Se hai configurato manualmente i [parametri di offuscamento](amneziawg_obfuscation.md#parameter-overview), come Jc, Jmin o Jmax, sul server WireGuard, impostazioni errate possono causare errori di handshake.
+    Se hai configurato manualmente i [parametri di offuscamento](amneziawg_obfuscation.md), come Jc, Jmin o Jmax, sul server WireGuard, impostazioni errate possono causare errori di handshake.
 
     Prova a modificare questi parametri di offuscamento e riconnettiti per escludere problemi di mancata corrispondenza dei parametri. Puoi anche ripristinare le impostazioni di offuscamento predefinite per eseguire un test.
 

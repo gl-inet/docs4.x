@@ -21,7 +21,9 @@ Bekijk hieronder de uitpakvideo van Mango 2.
 
 ## Mango 2 instellen {#how-to-set-up-mango-2}
 
-Gebruik een van de vier ondersteunde methoden voor internetverbindingen om Mango 2 in te stellen: Ethernet, Repeater, Tethering of Cellular. Volg de onderstaande stappen.
+Bekijk deze installatievideo of volg de onderstaande stappen.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-dct81JynMY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### 1. Inschakelen {#1-power-on}
 

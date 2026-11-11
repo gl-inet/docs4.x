@@ -21,7 +21,9 @@ Mango 2 (GL-MG1300) は、GL.iNet初のデュアルバンドWi-Fi 5対応ミニ�
 
 ## Mango 2の設定方法 {#how-to-set-up-mango-2}
 
-Mango 2を設定するには、Ethernet、Repeater、Tethering、Cellularの4種類のインターネット接続方法のいずれかを使用します。以下の手順に従ってください。
+この設定動画を見るか、以下の手順に従ってください。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-dct81JynMY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### 1. 電源を入れる {#1-power-on}
 

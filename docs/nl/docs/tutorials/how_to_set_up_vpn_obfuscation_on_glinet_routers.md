@@ -37,7 +37,7 @@ In dit scenario worden twee GL.iNet-routers gebruikt om via het AmneziaWG-protoc
 
     ![enable obfuscation](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_obfuscation1.png){class="glboxshadow"}
 
-    Je kunt de obfuscatieparameters naar wens aanpassen. Klik [hier](../faq/amneziawg_obfuscation.md#parameter-overview) voor meer informatie.
+    Je kunt de obfuscatieparameters naar wens aanpassen. Klik [hier](../faq/amneziawg_obfuscation.md) voor meer informatie.
 
     We raden aan de standaardinstellingen te behouden.
 

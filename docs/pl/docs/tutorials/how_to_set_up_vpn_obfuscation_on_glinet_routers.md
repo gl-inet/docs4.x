@@ -37,7 +37,7 @@ W tym scenariuszu używane są dwa routery GL.iNet do ustanowienia połączenia 
 
     ![enable obfuscation](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_obfuscation1.png){class="glboxshadow"}
 
-    Możesz dostosować parametry zaciemniania według potrzeb. Kliknij [tutaj](../faq/amneziawg_obfuscation.md#parameter-overview), aby uzyskać szczegółowe informacje. Zalecamy pozostawienie ustawień domyślnych.
+    Możesz dostosować parametry zaciemniania według potrzeb. Kliknij [tutaj](../faq/amneziawg_obfuscation.md), aby uzyskać szczegółowe informacje. Zalecamy pozostawienie ustawień domyślnych.
 
     ![enable obfuscation](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_obfuscation2.png){class="glboxshadow"}
 

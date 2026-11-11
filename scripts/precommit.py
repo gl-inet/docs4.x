@@ -70,7 +70,7 @@ def git(*args: str) -> str:
 
 def add_missing_ids(files: list[tuple[str, str]]) -> None:
     """Give staged English headings without an ID the ID MkDocs generates, and stage the fix."""
-    unstaged = set(git("diff", "--name-only").splitlines())
+    unstaged = set(git("diff", "--name-only", "-z").split("\0"))
     for status, path in files:
         if status == "D" or not path.startswith("docs/en/docs/") or not path.endswith(".md"):
             continue
@@ -92,6 +92,22 @@ def revision_bytes(revision: str, path: str) -> bytes:
     return subprocess.run(
         ["git", "show", f"{revision}:{path}"], check=True, capture_output=True,
     ).stdout
+
+
+def checked_pages(lang: str, files: list[tuple[str, str]], revision: str = "") -> dict[str, anchors.Page]:
+    """Use submitted text for touched pages, so unstaged fixes cannot hide errors."""
+    pages = anchors.load_lang(lang)
+    prefix = f"docs/{lang}/docs/"
+    for status, path in files:
+        if not path.startswith(prefix) or not path.endswith(".md"):
+            continue
+        rel = path[len(prefix):]
+        if status == "D":
+            pages.pop(rel, None)
+        else:
+            text = revision_bytes(revision, path).decode("utf-8")
+            pages[rel] = anchors.load_page(lang, anchors.REPO_ROOT / path, text)
+    return pages
 
 
 def cache_errors(files: list[tuple[str, str]], base: str | None = None) -> list[str]:
@@ -180,10 +196,11 @@ def main(argv: list[str] | None = None) -> int:
             print(f"ERROR {error}")
         return int(bool(errors))
 
-    en_pages = anchors.load_lang(anchors.SOURCE_LANG)
+    revision = "HEAD" if args.base else ""
+    en_pages = checked_pages(anchors.SOURCE_LANG, files, revision)
     for lang in sorted(pages):
         report = anchors.Report()
-        lang_pages = en_pages if lang == anchors.SOURCE_LANG else anchors.load_lang(lang)
+        lang_pages = en_pages if lang == anchors.SOURCE_LANG else checked_pages(lang, files, revision)
         anchors.check_lang(lang, lang_pages, en_pages, report)
         for error in report.errors:
             rel = error.split(":", 1)[0].split("/", 1)[1]

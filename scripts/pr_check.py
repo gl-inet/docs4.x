@@ -178,8 +178,8 @@ def url_status(url: str) -> int | str:
             with urllib.request.urlopen(request, timeout=20) as response:
                 return response.status
         except urllib.error.HTTPError as error:
-            if method == "HEAD" and error.code in (403, 405):
-                continue  # some servers refuse HEAD
+            if method == "HEAD" and error.code in (403, 404, 405, 410):
+                continue  # confirm HEAD failures with GET before reporting a missing image
             return error.code
         except (urllib.error.URLError, TimeoutError, OSError) as error:
             return str(getattr(error, "reason", error))

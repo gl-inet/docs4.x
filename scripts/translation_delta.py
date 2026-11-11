@@ -597,8 +597,14 @@ def cmd_migrate(argv: list[str]) -> int:
             # English has not changed since; otherwise its old state is unknown.
             if synced and record.get("source_hash") == legacy:
                 record["source_hash"] = sync_hashes(path, text)[0]
-                if target.exists():
-                    record.setdefault("target_hash", target_hash(target))
+                if target.is_file():
+                    # Uncommitted edits are not evidence of the old baseline.
+                    committed = subprocess.run(
+                        ["git", "show", f"HEAD:{target.as_posix()}"], capture_output=True,
+                    )
+                    current_target_hash = target_hash(target)
+                    if committed.returncode == 0 and hash_bytes(target, committed.stdout) == current_target_hash:
+                        record.setdefault("target_hash", current_target_hash)
         converted += 1
     write_json(cache_path, cache)
     print(f"converted {converted} entries; {unknown_blob} without a stored English version")

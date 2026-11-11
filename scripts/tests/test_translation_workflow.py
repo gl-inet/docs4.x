@@ -43,10 +43,45 @@ class TranslationWorkflowTests(unittest.TestCase):
         stop = command.index('exit 1;', compare)
         self.assertLess(fetch, compare)
         self.assertLess(compare, stop)
-        for operation in ('git apply --index', 'git switch -c', 'git commit', 'git push', 'gh pr create'):
+        for operation in ('git apply --index', 'git switch -c', 'core.hooksPath=/dev/null commit', 'git push', 'gh pr create'):
             self.assertLess(stop, command.index(operation))
         self.assertIn('Run the workflow again.', command)
         self.assertNotIn('gh pr merge', command)
+
+    def test_original_guard_runs_before_validation_or_publication(self):
+        jobs = self.workflow()['jobs']
+        copy = 'cp scripts/translation_guard.py "$RUNNER_TEMP/translation_guard.py"'
+        apply = 'git apply --index "$RUNNER_TEMP/translation/codex.patch"'
+        report = '--report "$RUNNER_TEMP/translation/codex-output.json"'
+        for name in ('validate', 'publish'):
+            with self.subTest(job=name):
+                steps = jobs[name]['steps']
+                guard = next(s for s in steps if copy in s.get('run', ''))
+                command = guard['run']
+                self.assertLess(command.index(copy), command.index(apply))
+                self.assertLess(command.index(apply), command.index(report))
+                self.assertIn('-I "$RUNNER_TEMP/translation_guard.py"', command)
+                downloads = {s['with']['name']: s['with']['path'] for s in steps
+                             if s.get('uses', '').startswith('actions/download-artifact@')}
+                for artifact in ('codex-patch', 'codex-report'):
+                    self.assertEqual(downloads[artifact], '${{ runner.temp }}/translation')
+                if name == 'validate':
+                    install = next(s for s in steps if 'pip install' in s.get('run', ''))
+                    self.assertLess(steps.index(guard), steps.index(install))
+                else:
+                    for operation in ('git switch -c', 'core.hooksPath=/dev/null commit',
+                                      'git push', 'gh pr create'):
+                        self.assertLess(command.index(report), command.index(operation))
+                    self.assertNotIn('git commit -m', command)
+
+    def test_publish_report_consumers_use_temporary_artifacts(self):
+        steps = self.workflow()['jobs']['publish']['steps']
+        for name in ('Create translation PR', 'Create issue for English source problems',
+                     'Fail when Codex did not complete the sync'):
+            command = next(s['run'] for s in steps if s.get('name') == name)
+            for line in command.splitlines():
+                if 'codex-output.json' in line:
+                    self.assertIn('"$RUNNER_TEMP/translation/codex-output.json"', line)
 
     def test_schedule_languages_and_reporting_are_preserved(self):
         workflow = self.workflow()

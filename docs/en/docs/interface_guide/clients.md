@@ -194,7 +194,9 @@ If you want to prevent Wi-Fi clients on the same network from communicating with
 
 The following example shows how to enable AP Isolation for Wi-Fi client devices in the main network on a GL-MT3000 running firmware v4.11.
 
-1. In the web Admin Panel, go to **Network** -> **LAN**. Under **Main Network**, click **Edit** in the lower-right corner.
+1. In the web Admin Panel, go to **Network** -> **LAN** -> **Main Network**. The configuration path varies depending on your firmware version.
+
+    Click **Edit** in the lower-right corner.
 
     ![ap isolation 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/ap-isolation-1.png){class="glboxshadow"}
 
@@ -203,12 +205,6 @@ The following example shows how to enable AP Isolation for Wi-Fi client devices 
     ![ap isolation 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/ap-isolation-2.png){class="glboxshadow" width=650}
 
     The Wi‑Fi clients on the main network will no longer be able to communicate with one another.
-
-The configuration path varies depending on your firmware version:
-
-- **For firmware v4.11 and above, or v4.9 and earlier**: Go to Network -> LAN. Refer to [LAN](./lan.md) for details.
-
-- **For firmware v4.10**: Go to Network -> Subnet. Refer to [Subnet](./subnet.md) for details.
 
 ---
 

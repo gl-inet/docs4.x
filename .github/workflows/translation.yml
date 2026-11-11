@@ -15,6 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       has_delta: ${{ steps.delta.outputs.has_delta }}
+      source_sha: ${{ steps.source.outputs.sha }}
     permissions:
       contents: read
     steps:
@@ -25,7 +26,8 @@ jobs:
           fetch-depth: 0
           persist-credentials: false
 
-      - name: Verify master checkout
+      - name: Verify master checkout and record source revision
+        id: source
         shell: bash
         run: |
           set -euo pipefail
@@ -35,6 +37,7 @@ jobs:
           read -r ahead behind <<< "$(git rev-list --left-right --count HEAD...origin/master)"
           test "$behind" = "0"
           test "$ahead" = "0"
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -76,12 +79,15 @@ jobs:
     permissions:
       contents: read
     steps:
-      - name: Check out master
+      - name: Check out prepared source revision
         uses: actions/checkout@v6
         with:
-          ref: master
+          ref: ${{ needs.prepare.outputs.source_sha }}
           fetch-depth: 0
           persist-credentials: false
+
+      - name: Restore the master branch at the prepared revision
+        run: git switch -C master
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -162,16 +168,16 @@ jobs:
           if-no-files-found: error
 
   validate:
-    needs: translate
+    needs: [prepare, translate]
     if: needs.translate.outputs.has_changes == 'true'
     runs-on: ubuntu-latest
     permissions:
       contents: read
     steps:
-      - name: Check out master
+      - name: Check out prepared source revision
         uses: actions/checkout@v6
         with:
-          ref: master
+          ref: ${{ needs.prepare.outputs.source_sha }}
           fetch-depth: 0
           persist-credentials: false
 
@@ -224,7 +230,7 @@ jobs:
           done
 
   publish:
-    needs: [translate, validate]
+    needs: [prepare, translate, validate]
     if: always() && needs.translate.result == 'success'
     runs-on: ubuntu-latest
     permissions:
@@ -232,11 +238,11 @@ jobs:
       issues: write
       pull-requests: write
     steps:
-      - name: Check out master for PR creation
+      - name: Check out prepared source revision for PR creation
         if: needs.validate.result == 'success' && needs.translate.outputs.has_changes == 'true'
         uses: actions/checkout@v6
         with:
-          ref: master
+          ref: ${{ needs.prepare.outputs.source_sha }}
           fetch-depth: 0
 
       - name: Download Codex report
@@ -255,9 +261,15 @@ jobs:
         if: needs.validate.result == 'success' && needs.translate.outputs.has_changes == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
+          SOURCE_SHA: ${{ needs.prepare.outputs.source_sha }}
         shell: bash
         run: |
           set -euo pipefail
+          # Do not publish a translation validated against an outdated master.
+          git fetch origin master
+          test "$(git rev-parse origin/master)" = "$SOURCE_SHA" || {
+            echo '::error::master changed during translation. Run the workflow again.'; exit 1;
+          }
           git apply --index codex.patch
           branch="translation/auto-${GITHUB_RUN_ID}"
           git switch -c "$branch"

@@ -1,10 +1,10 @@
-You are running the repository's scheduled translation sync in a clean checkout of the latest `master` branch.
+You are running the repository's scheduled translation sync in a clean checkout of the `master` revision recorded by this workflow's prepare job.
 
 Use the `$glinet-docs-translation` skill and follow its Incremental Sync Workflow exactly. Read the repository `AGENTS.md`, the complete `.translation-cache.json` delta report at `.codex-run/translation-delta.json`, `.agents/skills/glinet-docs-translation/references/common.md`, and the target-language references before editing localized files.
 
 ## Preconditions
 
-- Confirm the current branch is `master` and the working tree is clean. The workflow already checked out the latest `origin/master`; do not create a different branch and do not pull another branch.
+- Confirm the current branch is `master` and the working tree is clean. The workflow already checked out the prepared source SHA and restored the `master` branch at that revision; do not fetch, pull, switch to another revision, or create a different branch.
 - If the branch or working tree precondition fails, stop without editing and return `status: blocked`.
 - Treat the cache delta report as the source set. Each `hash_mismatch` and `cache_missing` entry lists the languages that are out of date for that English file; sync exactly those languages (plus necessary localized anchor-link/redirect repairs for title changes below) and do not infer the set only from recent commits.
 - For each out-of-date file and language, run `python scripts/translation_delta.py diff <en-file> --lang <lang>` to see what English changed since that language was synced. If it reports no stored English version, compare the whole English and localized pages.

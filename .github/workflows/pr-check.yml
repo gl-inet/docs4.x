@@ -8,7 +8,12 @@ on:
       - "docs/**"
       - "scripts/**"
       - ".translation-cache.json"
-      - "requirements.txt"
+      - "requirements*.txt"
+      - ".githooks/**"
+      - "**/AGENTS.md"
+      - "CLAUDE.md"
+      - ".agents/**"
+      - ".claude/**"
       - ".github/workflows/pr-check.yml"
 
 concurrency:
@@ -44,6 +49,9 @@ jobs:
 
       - name: Install documentation dependencies
         run: python -m pip install -r requirements.txt
+
+      - name: Run checking-script regression tests
+        run: python -m unittest discover -s scripts/tests
 
       - name: Check structure and anchors
         run: python scripts/precommit.py --base "origin/${{ github.base_ref }}"
@@ -83,15 +91,25 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          langs="$(git diff --name-only "origin/${{ github.base_ref }}...HEAD" -- docs/ | cut -d/ -f2 | sort -u)"
-          # Script-only changes still need one build.
-          langs="${langs:-en}"
-          for lang in $langs; do
-            [ -f "docs/$lang/mkdocs.yml" ] || continue
-            echo "::group::BUILD $lang"
-            mkdocs build -f "docs/$lang/mkdocs.yml" --strict --site-dir "$RUNNER_TEMP/site-$lang"
-            echo "::endgroup::"
-          done
+          python - <<'PY'
+          import os
+          from pathlib import Path
+          import subprocess
+
+          paths = subprocess.check_output([
+              "git", "diff", "--name-only", "-z", "origin/master...HEAD", "--", "docs/",
+          ]).decode("utf-8").split("\0")
+          languages = sorted({path.split("/")[1] for path in paths if path.startswith("docs/")})
+          # Script-only and shared configuration changes still need one build.
+          languages = [lang for lang in languages if Path(f"docs/{lang}/mkdocs.yml").is_file()] or ["en"]
+          for lang in languages:
+              print(f"::group::BUILD {lang}", flush=True)
+              subprocess.run([
+                  "mkdocs", "build", "-f", f"docs/{lang}/mkdocs.yml", "--strict",
+                  "--site-dir", str(Path(os.environ["RUNNER_TEMP"]) / f"site-{lang}"),
+              ], check=True)
+              print("::endgroup::", flush=True)
+          PY
 
   # Spelling and grammar of added English lines, and added image URLs.
   # Spelling and missing images fail the check; grammar is report-only.

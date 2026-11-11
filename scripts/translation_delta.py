@@ -212,8 +212,12 @@ def target_record(cache: dict, source: str, lang: str) -> dict:
     entry = cache.get(source)
     if not isinstance(entry, dict):
         return {}
-    record = dict((entry.get("targets") or {}).get(lang) or {})
-    # Old format: one source_hash shared by all languages.
+    targets = entry.get("targets") or {}
+    # A shared legacy hash is not evidence of a baseline for an absent language.
+    if lang not in targets or not isinstance(targets[lang], dict):
+        return {}
+    record = dict(targets[lang])
+    # Old format: one source_hash shared by the existing language records.
     if "source_hash" not in record and entry.get("source_hash"):
         record["source_hash"] = entry["source_hash"]
     return record
@@ -402,12 +406,13 @@ def target_hash(path: pathlib.Path) -> str:
     return hash_bytes(path, path.read_bytes())
 
 
-def upgrade_entry(entry: dict, langs: Iterable[str]) -> None:
-    """Move an old shared source_hash into every language record."""
+def upgrade_entry(entry: dict) -> None:
+    """Move a legacy hash into existing language records, never invent baselines."""
     legacy = entry.pop("source_hash", None)
     if legacy:
-        for lang in langs:
-            entry.setdefault("targets", {}).setdefault(lang, {}).setdefault("source_hash", legacy)
+        for record in (entry.get("targets") or {}).values():
+            if isinstance(record, dict):
+                record.setdefault("source_hash", legacy)
 
 
 def check_target(source: str, lang: str, file_checks: dict[str, list]) -> list[str]:
@@ -493,7 +498,7 @@ def cmd_mark(argv: list[str]) -> int:
                 continue
 
             entry = cache.setdefault(source, {})
-            upgrade_entry(entry, DEFAULT_LANGS)
+            upgrade_entry(entry)
             entry.setdefault("targets", {})[lang] = {
                 "source_hash": current_hashes[0],
                 "source_blob": blob,
@@ -581,8 +586,10 @@ def cmd_migrate(argv: list[str]) -> int:
         synced = legacy in legacy_hashes(path, text)
         blob = find_source_blob(source, legacy)
         unknown_blob += blob is None
-        upgrade_entry(entry, DEFAULT_LANGS)
-        for lang, record in entry["targets"].items():
+        upgrade_entry(entry)
+        for lang, record in (entry.get("targets") or {}).items():
+            if not isinstance(record, dict) or record.get("source_hash") != legacy:
+                continue
             if blob:
                 record.setdefault("source_blob", blob)
             target = target_path_for_lang(source, lang)

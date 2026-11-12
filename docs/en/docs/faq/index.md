@@ -68,6 +68,7 @@ Learn how to use our devices and how to solve some common problems.
 * [GL.iNet Mobile App](mobile_app.md)
 * [How to add Brume 2 into the mobile App?](how_to_add_brume2_into_app.md)
 * [How to change a WAN port to LAN port?](change_wan_to_lan.md)
+* [How to share files using Samba, WebDAV, or DLNA?](../interface_guide/network_storage.md)
 * [How to use HTTPS to access GL.iNet router and Adguard Home?](use_https_for_adh.md)
 * [How to connect a GL.iNet router to Starlink Dish?](connect_glinetrouter_to_starlink.md)
 * [How to remotely access the router's web Admin Panel?](remote_access_web_admin_panel.md)

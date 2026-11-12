@@ -76,3 +76,4 @@ Learn how to use our devices and how to solve some common problems.
 * [How can I find all MAC addresses of my device?](how_can_i_know_the_lan_wifi_mac.md)
 * [Where to find the device ID, MAC and SN?](where_to_find_the_device_id_mac_sn.md)
 * [What is LuCI?](what_is_luci.md)
+* [How to share files using Samba, WebDAV, or DLNA?](../interface_guide/network_storage.md)

@@ -6,11 +6,11 @@ hide:
 
 # User Manual {#user-manual}
 
-This page currently contains PDF manuals for selected models only. Additional model guides will be added regularly.
+Click a model below to download its full PDF user manual for offline reading.
 
-Click a model below to download its full PDF user manual for offline reference.
+Contents of these documents are subject to change without prior notice due to product firmware upgrades. Please note that these manuals are revised periodically rather than with every firmware release and may lag behind the latest firmware version. Unless otherwise formally agreed in writing, these documents are provided solely for informational reference. 
 
-**NOTE:** Contents of these documents are subject to change without prior notice due to product firmware upgrades. Unless otherwise formally agreed in writing, these documents are provided solely for informational reference. No statement, data or recommendation contained herein shall constitute a warranty of any kind.
+No statement, data or recommendation contained herein shall constitute a warranty of any kind.
 
 - [GL-MG1300 (Mango 2)](https://static.gl-inet.com/docs/router/en/4/user_manual/gl-mg1300_user_manual.pdf){target="_blank"}
 - [GL-BE14000 (Flint 4)](https://static.gl-inet.com/docs/router/en/4/user_manual/gl-be14000_user_manual.pdf){target="_blank"}

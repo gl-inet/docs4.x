@@ -13230,10 +13230,10 @@
       },
       "ja": {
         "source_hash": "b1409ec3161ddbce5a9ef05bafe3f64408afc2e5751089245b8fc1cfe9baf043",
-        "source_blob": "d2d5e2bd9839c4359a6761d9e6cf99ca5d33b710",
-        "target_hash": "1fb303bf9937d7a3082288ce45129d5dd29b15ebce938f805a094bff7cf9b279",
-        "model": "claude",
-        "updated_at": 1793244667
+        "target_hash": "6a511ce6755ca183bbc96fc4c9fd0cbb27ea2534854f39ecd92458e33b388856",
+        "model": "gpt-6",
+        "updated_at": 1794904898,
+        "source_blob": "d2d5e2bd9839c4359a6761d9e6cf99ca5d33b710"
       },
       "pl": {
         "source_hash": "b1409ec3161ddbce5a9ef05bafe3f64408afc2e5751089245b8fc1cfe9baf043",
@@ -16120,6 +16120,17 @@
         "target_hash": "adc593d0a39553cd4293ad9980d7701218825a87c35309f082bcf3a100f24cd3",
         "model": "codex",
         "updated_at": 1793241654
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/lan_4.11.md": {
+    "targets": {
+      "ja": {
+        "source_hash": "5b8797f601da62699d1215b732e0f6eeb68716166e28242c4985c6a19541792e",
+        "target_hash": "1b1507a9626fe7657dfd9c90153ce5bb5ed79331cb41667e41cd3592ca5b6457",
+        "model": "gpt-6",
+        "updated_at": 1794905135,
+        "source_blob": "fa838899f69db8350f2f475f3aeb8bd2a94c890e"
       }
     }
   }

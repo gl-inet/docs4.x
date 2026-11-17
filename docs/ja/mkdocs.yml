@@ -639,3 +639,5 @@ nav:
       - 新製品のご紹介: video_library/products.md
       - 開梱と初回セットアップ: video_library/unboxing_first_set_up.md
       - 動画チュートリアル: video_library/tutorials.md
+  - ダウンロード:
+      - 概要: downloads/index.md

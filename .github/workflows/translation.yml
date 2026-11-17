@@ -12,7 +12,7 @@ concurrency:
 
 jobs:
   prepare:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     outputs:
       has_delta: ${{ steps.delta.outputs.has_delta }}
       source_sha: ${{ steps.source.outputs.sha }}
@@ -71,7 +71,7 @@ jobs:
   translate:
     needs: prepare
     if: needs.prepare.outputs.has_delta == 'true'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     # The Codex secrets are environment secrets of the OpenAI environment.
     environment: OpenAI
     outputs:
@@ -170,7 +170,7 @@ jobs:
   validate:
     needs: [prepare, translate]
     if: needs.translate.outputs.has_changes == 'true'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     permissions:
       contents: read
     steps:
@@ -245,7 +245,7 @@ jobs:
   publish:
     needs: [prepare, translate, validate]
     if: always() && needs.translate.result == 'success'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     permissions:
       contents: write
       issues: write
@@ -353,7 +353,7 @@ jobs:
   report:
     needs: [prepare, translate, validate, publish]
     if: always()
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 2
     continue-on-error: true
     permissions:

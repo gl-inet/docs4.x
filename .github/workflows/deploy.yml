@@ -22,7 +22,7 @@ jobs:
           echo 'json=["en","de","es","fr","it","ja","nl","pl","sv","uk"]' >> "$GITHUB_OUTPUT"
 
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     needs: prepare
     strategy:
       fail-fast: false
@@ -57,7 +57,7 @@ jobs:
   # Report-only: a failure marks the run red and notifies the pusher, but
   # deploy does not wait for this job, so the site is still published.
   strict:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     needs: prepare
     strategy:
       fail-fast: false

@@ -31,6 +31,7 @@ Use this workflow when syncing English changes into localized docs, especially w
 
 0. Preflight before building the change set:
    - Run `python scripts/translation_delta.py` first and use its cache-delta report as the primary input for the source-change set. The report lists, per English file, the languages that are out of date; sync only those languages.
+   - For each requested language among `de`, `es`, `fr`, `pl`, `it`, and `ja`, also compare its Downloads introduction with English on every sync, even if Downloads is absent from the cache report or commit diff. See Downloads Scope below. Continue excluding Downloads entirely for `nl`, `sv`, and `uk`.
    - Report the current branch and working tree status.
    - If the branch is not `master`, or the branch appears behind its upstream, report that before continuing.
    - Do not run `git pull` automatically unless the user explicitly requests it. If the user asks to update from `master`, pull only when the working tree is clean; otherwise stop and report the local changes first.
@@ -52,7 +53,7 @@ Use this workflow when syncing English changes into localized docs, especially w
 7. Record the sync with `python scripts/translation_delta.py mark <en-file> ... --lang <langs> --model <name>`, listing only the languages you synced (`--lang all` for all nine). `mark` refuses a language when `i18n_check.py` reports errors for that page, or when English changed but the localized file did not.
    - Never edit `.translation-cache.json` by hand or with a custom script, and never refresh hashes for files whose translations you did not update.
    - Also run `mark` after fixing a localized page when English did not change, so `.translation-cache.json` records the new translation; otherwise the check that the translation changed cannot work for the next English change.
-   - Stage each reviewed localized file together with `.translation-cache.json`. The hook compares the staged English and localized contents with that language's independent `source_hash` and `target_hash`; working-directory edits or an unstaged `.translation-cache.json` update cannot hide a mismatch. This applies to configuration, overrides and assets as well as Markdown. Other languages may remain pending. PR checks validate committed `HEAD` versions and fail on mismatches. Downloads and English-only trailing Regulatory Statements retain their exclusions.
+   - Stage each reviewed localized file together with `.translation-cache.json`. The hook compares the staged English and localized contents with that language's independent `source_hash` and `target_hash`; working-directory edits or an unstaged `.translation-cache.json` update cannot hide a mismatch. This applies to configuration, overrides and assets as well as Markdown. Other languages may remain pending. PR checks validate committed `HEAD` versions and fail on mismatches. Downloads remains excluded from cache recording, including the separate introduction sync for `de`, `es`, `fr`, `pl`, `it`, and `ja`; English-only trailing Regulatory Statements retain their exclusion.
    - Use `--no-target-change` only when the English change needs no translation change (typo, grammar, or wording fixes with the same meaning), after reading the English diff and the localized text. Name each language explicitly; `--lang all` is rejected with this flag.
 8. Before finishing, inspect diffs for unrelated translation churn, accidental mixed-language fragments, malformed Markdown, and missing matching localized files, and run `python scripts/anchors.py check` for heading IDs and anchor links.
 9. If you notice an obvious issue in the English source while syncing, such as a typo, duplicated word, self-contradictory sentence, clearly broken link, or visible copy/paste error, do not silently ignore it. Fix it only when the user requested source fixes or the correction is clearly in scope; otherwise mention it in the final summary with the file path and suggested correction.
@@ -75,12 +76,11 @@ Use this workflow when syncing English changes into localized docs, especially w
 - For page content, prefer updating the matching localized path under the target language's `docs/` subdirectory. Create a new localized page only when the English source introduces a page that does not yet exist.
 - For language-level files such as `mkdocs.yml` or homepage overrides, update the matching file under the target language root when it exists.
 
-## Excluded Pages
+## Downloads Scope
 
-- Skip `docs/en/docs/downloads/index.md` (the English Downloads / user manual page, `https://docs.gl-inet.com/router/en/4/downloads/`) when building the source-change set or syncing localized docs. Localized docs do not need this page for now.
-- Do not create, update, or flag the matching localized `downloads/index.md` files for this page during sync workflows, even if the English version changes.
-- Do not report this page's localized copies as out of sync or missing in the final summary while this exclusion is in effect.
-- This exclusion is temporary; remove it once the user asks to resume translating this page.
+- For `de`, `es`, `fr`, `pl`, `it`, and `ja`, sync only the title, the two opening explanatory paragraphs, and the firmware-change/warranty disclaimer in `docs/<lang>/docs/downloads/index.md` from English. Preserve each locale's existing model download list byte-for-byte, including its entries, ordering, text, and all download URLs. Follow [Downloads partial sync](references/common.md#downloads-partial-sync) for the editable boundary and verification.
+- For `nl`, `sv`, and `uk`, continue excluding the whole Downloads page. Do not create, update, or report their matching localized pages as missing or out of sync during translation syncs. Preserve their existing language-specific Downloads and homepage-link rules.
+- The cache/delta, `mark`, and i18n scripts still exclude Downloads as a whole. For the six partial-sync languages, compare introductions separately when they are in the requested scope; a clean script report does not establish that they are synced. Do not remove the scripts' global exclusion or fabricate a cache record for the page.
 
 ## Excluded Sections
 
@@ -138,5 +138,6 @@ Before finishing a translation task, verify:
 - Technical behavior and security notes still match the English source.
 - Terminology is consistent within the file and with nearby localized docs.
 - `python scripts/i18n_check.py` and `python scripts/anchors.py check` report no errors, and `python scripts/translation_delta.py` shows no delta for the synced files and languages.
+- For each requested language among `de`, `es`, `fr`, `pl`, `it`, and `ja`, separately verify the Downloads introduction against English and confirm that its existing download list is byte-for-byte unchanged; report each language's introduction result separately from the cache report. Downloads remains entirely excluded for `nl`, `sv`, and `uk`.
 - Build output succeeds and generated `site` directories have been removed.
 - Any obvious English-source issues noticed during the sync were either fixed within scope or reported in the final summary with a concrete file path and suggested correction.

@@ -106,6 +106,15 @@ English. Unresolved broken links still prevent completion.
 - If the existing localized page is low quality, do not mimic its mistakes. Use the English source and better target-language prose instead.
 - After editing, scan for mixed-language leftovers, broken links, and terminology drift.
 
+## Downloads Partial Sync
+
+- This rule applies only to `de`, `es`, `fr`, `pl`, `it`, and `ja`, using `docs/en/docs/downloads/index.md` as the source and `docs/<lang>/docs/downloads/index.md` as the target. It overrides whole-page structure alignment, translation, and cleanup rules for this page. Apply it to the requested languages within this set, not to unrelated languages outside the task. `nl`, `sv`, and `uk` retain their whole-page Downloads exclusion and existing language-specific rules.
+- Sync the `User Manual` heading, the two opening explanatory paragraphs (manual availability and download instructions), and the firmware-change/warranty disclaimer before the model download list. Preserve the shared heading ID and existing YAML front matter.
+- The boundary is the first top-level unordered model-download link after the front matter, currently `- [GL-...](...)`. The boundary itself and everything following it are manually maintained in each locale. Preserve that entire suffix byte-for-byte, including model names, list entries, ordering, labels, all download URLs, locale-specific paths and PDF filenames, attributes such as `target`, spacing, and line endings. Do not translate or rewrite list text, copy English list additions/deletions/reordering, replace localized URLs with English URLs, or correct apparent list typos without a separate user request.
+- On every translation sync, read the current English introduction and each requested locale's introduction and compare their meaning independently of `translation_delta.py`. Update only outdated introductory text; leave an equivalent existing translation unchanged. Changes confined to the English model list require no localized update. If either list boundary is missing or ambiguous, or a localized page is absent, report the issue for that locale instead of regenerating a list or guessing the editable region; continue independent work for the other requested locales.
+- Before writing, retain each target's list suffix as raw bytes. After editing, verify that it is identical and inspect the diff to ensure changes are confined to the heading and introductory prose. Review those changes for natural target-language wording and fidelity to English; the scripts' whole-page exclusion does not validate the translation.
+- Do not run `translation_delta.py mark` for Downloads or add a Downloads cache record: it remains excluded by the scripts. Report each requested locale's introduction as updated, already equivalent, or unavailable for the stated reason, separately from cached files. Do not report list differences as translation backlog or change navigation/homepage links solely for this introduction sync.
+
 ## Language-Specific Rules
 
 - Follow the relevant language reference in this skill when it applies to the target language.

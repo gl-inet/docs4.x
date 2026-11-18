@@ -16126,11 +16126,11 @@
   "docs/en/docs/interface_guide/lan_4.11.md": {
     "targets": {
       "ja": {
-        "source_hash": "5b8797f601da62699d1215b732e0f6eeb68716166e28242c4985c6a19541792e",
+        "source_hash": "d7e5c4995f932427b83ef0525814eca58abbc20ab1fd3205570fd9104ffcf58b",
         "target_hash": "1b1507a9626fe7657dfd9c90153ce5bb5ed79331cb41667e41cd3592ca5b6457",
-        "model": "gpt-6",
-        "updated_at": 1794905135,
-        "source_blob": "fa838899f69db8350f2f475f3aeb8bd2a94c890e"
+        "model": "reviewed-no-target-change",
+        "updated_at": 1794963973,
+        "source_blob": "7749e6d9ad924db0de97efaf673cc0c8a21f8167"
       }
     }
   }

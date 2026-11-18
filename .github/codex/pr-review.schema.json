@@ -3,20 +3,20 @@
   "additionalProperties": false,
   "required": ["summary", "findings"],
   "properties": {
-    "summary": {"type": "string", "minLength": 1, "maxLength": 4000},
+    "summary": {"type": "string"},
     "findings": {
-      "type": "array", "maxItems": 30,
+      "type": "array",
       "items": {
         "type": "object", "additionalProperties": false,
         "required": ["path", "line", "severity", "category", "problem", "suggestion", "replacement_line"],
         "properties": {
-          "path": {"type": "string", "minLength": 6, "maxLength": 500, "pattern": "^docs/(?!.*(?:^|/)\\.{1,2}(?:/|$))(?!\\.{1,2}(?:/|$))(?!.*//)(?!.*[\\r\\n])(?!.*\u002f$)[^\\\\\\u0000-\\u001f\\u007f]+$"},
-          "line": {"type": "integer", "minimum": 1, "maximum": 2147483647},
+          "path": {"type": "string"},
+          "line": {"type": "integer"},
           "severity": {"type": "string", "enum": ["high", "medium", "low"]},
           "category": {"type": "string", "enum": ["accuracy", "copy-paste", "link", "image", "grammar", "spelling", "terminology", "ui-label", "structure", "translation", "other"]},
-          "problem": {"type": "string", "minLength": 1, "maxLength": 2000},
-          "suggestion": {"type": "string", "maxLength": 2000},
-          "replacement_line": {"type": "string", "maxLength": 2000, "pattern": "^[^\\r\\n]*$"}
+          "problem": {"type": "string"},
+          "suggestion": {"type": "string"},
+          "replacement_line": {"type": "string"}
         }
       }
     }

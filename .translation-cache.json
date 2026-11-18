@@ -5122,11 +5122,11 @@
         "updated_at": 1793316453
       },
       "ja": {
-        "source_hash": "0dfc69408d84e85dc6811b12d550628a7c00605ce815882933827f6b3d4bd443",
-        "source_blob": "b490a1786b8736d32124b602034acc097a28b353",
-        "target_hash": "6c1baa1cfbc0d22d6c802f7fcf463663c8a9f82200f7207eada64fa924b0c06f",
-        "model": "reviewed-no-target-change",
-        "updated_at": 1793316461
+        "source_hash": "2a61fccb6c95639ca02c6994e18a29fb664cd2ffaaf41a3b95d9ffac13175c12",
+        "target_hash": "ca29d77bd2778103819ddae4d35c1e2c609bbf7cbd7871bc57c106db31d7d3e3",
+        "model": "manual-sync",
+        "updated_at": 1794973101,
+        "source_blob": "8f04c8f4d001dcac33953d1b4113d27705aa2ac5"
       },
       "pl": {
         "source_hash": "0dfc69408d84e85dc6811b12d550628a7c00605ce815882933827f6b3d4bd443",
@@ -13230,10 +13230,10 @@
       },
       "ja": {
         "source_hash": "b1409ec3161ddbce5a9ef05bafe3f64408afc2e5751089245b8fc1cfe9baf043",
-        "source_blob": "d2d5e2bd9839c4359a6761d9e6cf99ca5d33b710",
-        "target_hash": "1fb303bf9937d7a3082288ce45129d5dd29b15ebce938f805a094bff7cf9b279",
-        "model": "claude",
-        "updated_at": 1793244667
+        "target_hash": "6a511ce6755ca183bbc96fc4c9fd0cbb27ea2534854f39ecd92458e33b388856",
+        "model": "gpt-6",
+        "updated_at": 1794904898,
+        "source_blob": "d2d5e2bd9839c4359a6761d9e6cf99ca5d33b710"
       },
       "pl": {
         "source_hash": "b1409ec3161ddbce5a9ef05bafe3f64408afc2e5751089245b8fc1cfe9baf043",
@@ -16120,6 +16120,17 @@
         "target_hash": "adc593d0a39553cd4293ad9980d7701218825a87c35309f082bcf3a100f24cd3",
         "model": "codex",
         "updated_at": 1793241654
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/lan_4.11.md": {
+    "targets": {
+      "ja": {
+        "source_hash": "d7e5c4995f932427b83ef0525814eca58abbc20ab1fd3205570fd9104ffcf58b",
+        "target_hash": "1b1507a9626fe7657dfd9c90153ce5bb5ed79331cb41667e41cd3592ca5b6457",
+        "model": "reviewed-no-target-change",
+        "updated_at": 1794963973,
+        "source_blob": "7749e6d9ad924db0de97efaf673cc0c8a21f8167"
       }
     }
   }

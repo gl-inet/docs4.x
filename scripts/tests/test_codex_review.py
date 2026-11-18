@@ -19,6 +19,35 @@ def finding():
                 problem="Wrong word.", suggestion="Fix the word.", replacement_line="new")
 
 
+class ReviewSchemaTests(unittest.TestCase):
+    def test_api_schema_uses_only_structural_keywords(self):
+        # Keep request-time constraints simple; the publisher enforces limits.
+        schema = json.loads((Path(__file__).resolve().parents[2]
+                             / ".github/codex/pr-review.schema.json").read_text(encoding="utf-8"))
+        allowed = {"type", "properties", "required", "additionalProperties", "items", "enum"}
+
+        def check(node):
+            self.assertLessEqual(set(node), allowed)
+            if node["type"] == "object":
+                self.assertIs(node["additionalProperties"], False)
+                self.assertEqual(set(node["required"]), set(node["properties"]))
+                for child in node["properties"].values():
+                    check(child)
+            elif node["type"] == "array":
+                check(node["items"])
+
+        check(schema)
+        self.assertEqual(set(schema["properties"]), {"summary", "findings"})
+        fields = schema["properties"]["findings"]["items"]["properties"]
+        self.assertEqual(set(fields), set(finding()))
+        self.assertEqual(schema["properties"]["summary"]["type"], "string")
+        self.assertEqual(fields["line"]["type"], "integer")
+        for name in set(fields) - {"line"}:
+            self.assertEqual(fields[name]["type"], "string")
+        self.assertEqual(set(fields["severity"]["enum"]), {"high", "medium", "low"})
+        self.assertEqual(set(fields["category"]["enum"]), review.CATEGORIES)
+
+
 class ReviewTests(unittest.TestCase):
     def setUp(self):
         self.tmp = tempfile.TemporaryDirectory()
@@ -96,17 +125,32 @@ class ReviewTests(unittest.TestCase):
         valid = {"summary": "OK", "findings": [finding()]}
         variants = []
         for key, value in [("path", "docs/../secret"), ("path", "/tmp/x"),
-                           ("path", "docs/a\\b"), ("line", True), ("line", 0),
-                           ("line", 1.5), ("problem", "x" * 2001), ("severity", []),
-                           ("category", "invalid"), ("replacement_line", "a\nb")]:
+                           ("path", "docs/a\\b"), ("path", "docs//page.md"),
+                           ("path", "docs/page.md\n"), ("path", "docs/" + "x" * 500),
+                           ("line", True), ("line", 0), ("line", 2_147_483_648),
+                           ("line", 1.5), ("problem", ""), ("problem", "x" * 2001),
+                           ("suggestion", "x" * 2001), ("severity", []),
+                           ("category", "invalid"), ("replacement_line", "a\nb"),
+                           ("replacement_line", "a\rb"), ("replacement_line", "x" * 2001)]:
             obj = copy.deepcopy(valid)
             obj["findings"][0][key] = value
             variants.append(obj)
-        variants += [{"summary": "OK", "findings": [finding()] * 31},
+        variants += [{"summary": "", "findings": []},
+                     {"summary": "x" * 4001, "findings": []},
+                     {"summary": "OK", "findings": [finding()] * 31},
                      {"summary": "OK", "findings": [], "extra": 1}, []]
         for obj in variants:
             with self.subTest(obj=str(obj)[:80]), self.assertRaises(ValueError):
                 review.validate_review(obj)
+
+    def test_invalid_output_never_constructs_publishing_client(self):
+        invalid = {"summary": "OK", "findings": [finding()]}
+        invalid["findings"][0]["path"] = "docs/../secret"
+        self.output.write_text(json.dumps(invalid))
+        with patch.object(review, "GitHub") as client:
+            with self.assertRaises(ValueError):
+                review.cmd_publish(self.args)
+        client.assert_not_called()
 
     def test_duplicate_json_and_size(self):
         self.output.write_text('{"summary":"a","summary":"b"}')

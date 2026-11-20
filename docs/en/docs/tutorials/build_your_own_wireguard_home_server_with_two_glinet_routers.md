@@ -110,7 +110,7 @@ If you don't have a public IP address, here are some methods for your reference.
 
         ![xfinity gateway](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/xfinitygateway.jpg){class="glboxshadow"}
 
-    - **IPv6 Address**: The IPv6 on GL.iNet is disabled by default. If you want to use IPv6 address, enable [IPv6](ipv6.md) on your router.
+    - **IPv6 Address**: IPv6 is disabled by default on GL.iNet routers. To use an IPv6 address, enable [IPv6](../interface_guide/ipv6.md) on your router.
     
     - **Listen Port**: **Listen Port**: The UDP port the WireGuard server listens on. It is set to `51820` by default, which is the conventional WireGuard port. Keep the default unless that port is already in use on your network; if you change it, every client profile must use the same port in its `Endpoint` (`your_ddns:port`).
 

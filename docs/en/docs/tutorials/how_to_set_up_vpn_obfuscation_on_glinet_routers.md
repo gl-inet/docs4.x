@@ -47,7 +47,7 @@ This scenario uses two GL.iNet routers to establish a VPN obfuscation connection
 
     <video src="https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/select_version.mp4"
         controls playsinline preload="metadata" width="800" style="max-width:100%;height:auto">
-    Your browser does not support embedded video. Open the demonstration in a new tab: <a href="https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/select_version.mp4">select_version.mp4</a>.
+    Your browser does not support embedded video. Open the demonstration in a new tab: <a href="https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/select_version.mp4" target="_blank" rel="noopener">select_version.mp4</a>.
     </video>
 
 5. Export configuration file.

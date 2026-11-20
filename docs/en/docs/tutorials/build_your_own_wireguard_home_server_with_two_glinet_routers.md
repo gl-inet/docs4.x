@@ -112,7 +112,7 @@ If you don't have a public IP address, here are some methods for your reference.
 
     - **IPv6 Address**: IPv6 is disabled by default on GL.iNet routers. To use an IPv6 address, enable [IPv6](../interface_guide/ipv6.md) on your router.
     
-    - **Listen Port**: **Listen Port**: The UDP port the WireGuard server listens on. It is set to `51820` by default, which is the conventional WireGuard port. Keep the default unless that port is already in use on your network; if you change it, every client profile must use the same port in its `Endpoint` (`your_ddns:port`).
+    - **Listen Port**: The WireGuard server listens on UDP port `51820` by default. If you change it and use port forwarding, update the upstream rule to forward to the server's new listen port. Use the forwarded external port in each client profile's `Endpoint`. If the server is directly reachable, use its listen port.
 
     - **Enable Obfuscation**: When enabled, this VPN server uses the AmneziaWG obfuscation protocol to disguise VPN traffic. We recommend keeping the default obfuscation settings and changing them only if you are familiar with these parameters. See the following links.
 

@@ -145,7 +145,7 @@ If you don't have a public IP address, here are some methods for your reference.
 
 4. Download configuration.
 
-    After adding a profile and apply, it will generate a configuration file in three formats: QR code, plain text, and .conf file. Choose your preferred method to obtain the configuration file.
+    After you add a profile and click **Apply**, the router makes the configuration available as a QR code, plain text, or a downloadable `.conf` file.
 
     - **QR code**: Scan the code in the WireGuard app to import a standard WireGuard profile. If you enabled obfuscation, use the AmneziaWG app or another client that supports AmneziaWG obfuscation.
     

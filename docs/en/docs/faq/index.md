@@ -53,7 +53,7 @@ Learn how to use our devices and how to solve some common problems.
 * [How to Block Non-VPN Traffic?](block_non_vpn_traffic.md)
 * [VPN Kill Switch](block_non_vpn_traffic.md)
 * [For OpenVPN, which protocol should I choose, TCP or UDP?](openvpn_tcp_udp.md)
-* [AmneziaWG Obfuscation](amneziawg_obfuscation.md)
+* [AmneziaWG Obfuscation on GL.iNet routers](amneziawg_obfuscation.md)
 * [Cannot connect to an obfuscated WireGuard server](cannot_connect_to_obfuscated_wireguard_server.md)
 * [Do I have to configure Ethernet WAN when using VPN?](do_i_have_to_configure_ethernet_wan_when_using_vpn.md)
 

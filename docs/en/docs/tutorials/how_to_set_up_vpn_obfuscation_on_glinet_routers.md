@@ -4,14 +4,14 @@
 
 This tutorial introduces two scenarios for setting up AmneziaWG obfuscation on GL.iNet routers.
 
-## Scenario 1. Using two GL.iNet routers {#scenario-1-using-two-glinet-routers}
+## Using two GL.iNet routers {#using-two-glinet-routers}
 
 This scenario uses two GL.iNet routers to establish a VPN obfuscation connection via the AmneziaWG protocol.
 
 - Brume 3 (GL-MT5000): A VPN Server for home use.
 - Beryl AX (GL-MT3000): A portable VPN Client for on-the-go use. 
 
-### Set up VPN Server {#set-up-vpn-server}
+### Set up VPN server {#set-up-vpn-server}
 
 1. Log in to the Brume 3's web Admin Panel. 
 
@@ -21,7 +21,7 @@ This scenario uses two GL.iNet routers to establish a VPN obfuscation connection
 
     If the Brume 3 is used as the primary router, connect its WAN port to the upstream network such as an ISP modem. 
     
-    If it is not the primary router (i.e., there is another upstream device, such as an ISP router, acting as the primary router), a **port forwarding** setup is required on your primary router. Please refer to [this link](how_to_set_up_port_forwarding.md).
+    If it is not the primary router (i.e., there is another upstream device, such as an ISP router, acting as the primary router), a **port forwarding** setup is required on your primary router. Please refer to [How to set up port forwarding on your primary router](how_to_set_up_port_forwarding.md).
 
 3. Enable DDNS (Optional).
 
@@ -31,17 +31,24 @@ This scenario uses two GL.iNet routers to establish a VPN obfuscation connection
 
     ![enable ddns](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/enable_ddns.png){class="glboxshadow"}
 
-4. Enable VPN Obfuscation. 
+4. Enable Obfuscation. 
 
     From the left sidebar, navigate to **VPN** > **WireGuard Server** -> **Configurations** tab, toggle on **Enable Obfuscation**, then click **Apply**.
 
     ![enable obfuscation](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_obfuscation1.png){class="glboxshadow"}
 
-    You can customize the obfuscation parameters as needed. Click [here](../faq/amneziawg_obfuscation.md) for details. 
+    If you need to set the obfuscation parameters manually, click **Set Obfuscation Parameters** to expand the parameter fields, adjust the values as needed, and click **Apply**. We recommend keeping the default settings and changing them only if you are familiar with these parameters. See [AmneziaWG Obfuscation on GL.iNet routers](../faq/amneziawg_obfuscation.md).
     
-    We recommend keeping the default settings.
+    ![enable obfuscation](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_obfuscation2.jpg){class="glboxshadow"}
 
-    ![enable obfuscation](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_obfuscation2.png){class="glboxshadow"}
+    Starting with firmware v4.11.1, you can also switch the obfuscation version: select the version you need from the drop-down list, click **Regenerate**, and then click **Apply**. 
+    
+    The video below shows how to do this.
+
+    <video src="https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/select_version.mp4"
+        controls playsinline preload="metadata" width="800" style="max-width:100%;height:auto">
+    Your browser does not support embedded video. Open the demonstration in a new tab: <a href="https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/select_version.mp4">select_version.mp4</a>.
+    </video>
 
 5. Export configuration file.
 
@@ -69,7 +76,7 @@ This scenario uses two GL.iNet routers to establish a VPN obfuscation connection
 
     ![server start](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_start2.png){class="glboxshadow"}
 
-### Set up VPN Client {#set-up-vpn-client}
+### Set up VPN client {#set-up-vpn-client}
 
 1. Log in to the Beryl AX's web Admin Panel. 
 
@@ -117,7 +124,7 @@ This scenario uses two GL.iNet routers to establish a VPN obfuscation connection
 
     The VPN connection is complete. All devices on the Beryl AX now access the internet via the Brume 3's gateway, enabling a VPN obfuscation connection.
 
-## Scenario 2. Using a single GL.iNet router {#scenario-2-using-a-single-glinet-router}
+## Using a single GL.iNet router {#using-a-single-glinet-router}
 
 This scenario uses a single GL.iNet router **Brume 3 (GL-MT5000)** as a VPN client to connect to an AmneziaVPN server. 
 
@@ -192,5 +199,10 @@ Take StarVPN as an example.
     The VPN connection is complete. All devices on the Brume 3 now access the internet via the AmneziaVPN server, enabling a VPN obfuscation connection.
 
 ---
+
+Related Article:
+
+- [AmneziaWG Official Documentation](https://docs.amnezia.org/documentation/amnezia-wg/){target="_blank"}
+- [AmneziaWG Obfuscation on GL.iNet routers](../faq/amneziawg_obfuscation.md)
 
 Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

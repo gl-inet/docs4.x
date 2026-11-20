@@ -60,7 +60,7 @@ Log in to the web Admin Panel, and navigate to **VPN** -> **WireGuard Server**.
     
     - **Listen Port**: **Listen Port**: The UDP port the WireGuard server listens on. It is set to `51820` by default, which is the conventional WireGuard port. Keep the default unless that port is already in use on your network; if you change it, every client profile must use the same port in its `Endpoint` (`your_ddns:port`).
 
-    - **Enable Obfuscation**: When enabled, this VPN server uses the AmneziaWG obfuscation protocol to disguise VPN traffic. We recommend keeping the default obfuscation settings and changing them only if you are familiar with these parameters. See the following links.
+    - **Enable Obfuscation**: When enabled, the server uses AmneziaWG and requires clients that support AmneziaWG obfuscation. We recommend keeping the default obfuscation settings unless you are familiar with the parameters. See the following links.
 
         - [AmneziaWG Obfuscation on GL.iNet routers](../faq/amneziawg_obfuscation.md)  
         - [How to set up VPN Obfuscation on GL.iNet routers](../tutorials/how_to_set_up_vpn_obfuscation_on_glinet_routers.md)

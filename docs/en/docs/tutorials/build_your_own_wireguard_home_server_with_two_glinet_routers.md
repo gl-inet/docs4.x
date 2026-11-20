@@ -161,7 +161,7 @@ If you don't have a public IP address, here are some methods for your reference.
 
     If required, you can specify the server address from among the public IP, DDNS domain, and current WAN IP. This feature has been available since firmware v4.8. Once changed, the server address in the configuration file will be updated simultaneously.
     
-    For example, it is recommended to enable [DDNS](ddns.md) and use DDNS domain as the server address if your network's public IP changes frequently. 
+    For example, if your network's public IP address changes frequently, enable [DDNS](../interface_guide/ddns.md) and use the DDNS domain as the server address.
     
     ![change server address](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/change_server_address.png){class="glboxshadow"}
 

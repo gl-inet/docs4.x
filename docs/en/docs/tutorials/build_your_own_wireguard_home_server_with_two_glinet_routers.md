@@ -147,7 +147,7 @@ If you don't have a public IP address, here are some methods for your reference.
 
     After adding a profile and apply, it will generate a configuration file in three formats: QR code, plain text, and .conf file. Choose your preferred method to obtain the configuration file.
 
-    - **QR code**: Suitable for end devices (e.g., smartphone, tablet, laptop) with the WireGuard App installed. If you want to set a certain device as a WireGuard client, simply open the WireGuard App, scan the QR code, and the configuration will be automatically imported.
+    - **QR code**: Scan the code in the WireGuard app to import a standard WireGuard profile. If you enabled obfuscation, use the AmneziaWG app or another client that supports AmneziaWG obfuscation.
     
         ![client configuration qrcode](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/download_config_qrcode.png){class="glboxshadow"}
 

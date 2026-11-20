@@ -60,7 +60,7 @@ All Other Traffic serves as the default tunnel, ensuring normal Internet access 
 
 In firmware v4.9 and above, two types of VPN Kill Switch are available: **Tunnel Kill Switch** and **Enhanced Kill Switch**.
 
-### Tunnel Kill Switch {#tunnel-kill-switch_1}
+### Tunnel Kill Switch {#for-firmware-v49-and-above-tunnel-kill-switch}
 
 On the router's web Admin Panel, navigate to **VPN** -> **VPN Dashboard**.
 
@@ -76,7 +76,7 @@ The Kill Switch for this tunnel is enabled by default.
 
 ![tunnel options 2](https://static.gl-inet.com/docs/router/en/4/faq/block_non_vpn_traffic/4.9-tunnel-options-2.png){class="glboxshadow" width=600}
 
-### Enhanced Kill Switch {#enhanced-kill-switch_1}
+### Enhanced Kill Switch {#for-firmware-v49-and-above-enhanced-kill-switch}
 
 On the router's web Admin Panel, navigate to **VPN** -> **VPN Dashboard**, then click the gear icon in the upper-right corner.
 

@@ -2,9 +2,11 @@
 
 Using a USB cable to share network from your smartphone to the router is called Tethering. Host-less modem works in Tethering during the setup of the modem as well.
 
-**Note:** Some mobile carriers limit or charge extra for tethering. We recommend checking with your carrier.
+**Note:** 
 
-## Setup {#setup}
+- Some mobile carriers limit or charge extra for tethering. We recommend checking with your carrier.
+
+- If you use a USB dongle (not included) to connect your router to the Internet, configure the connection on either the **Tethering** or **Cellular** page, depending on the dongle's operating mode. For setup instructions, see [USB dongle setup guide](./internet_cellular_v4.10.md#non-cellular-routers).
 
 === "iPhone"
 

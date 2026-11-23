@@ -92,7 +92,7 @@ Configure your Mudi 7 using one of the supported internet connection methods: Ce
 
         ![recommended store](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/recommended_store.png){class="glboxshadow" width="590"}
 
-    3.  Once uploaded, click **Enable** next to the eSIM profile to activate it.
+    3. Once the eSIM profile has been uploaded, click **Enable** next to it.
 
         ![Enable the eSIM profile](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/activate-esim-profile.png){class="glboxshadow" width="590"}
 

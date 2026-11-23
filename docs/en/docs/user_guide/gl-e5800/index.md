@@ -94,7 +94,7 @@ Configure your Mudi 7 using one of the supported internet connection methods: Ce
 
     3.  Once uploaded, click **Enable** next to the eSIM profile to activate it.
 
-        ![active sim card](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/activate-esim-profile.png){class="glboxshadow" width="590"}
+        ![Enable the eSIM profile](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/activate-esim-profile.png){class="glboxshadow" width="590"}
 
     4. The router will start connecting to the Internet using this eSIM profile. Return to the **Cellular** page to check the connection status. The eSIM currently in use is marked **Active**.
 

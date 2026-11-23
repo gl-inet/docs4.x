@@ -157,6 +157,8 @@ Refer to this video tutorial or follow the procedures below to access the U-Boot
         9. Click the **Save** button.
 
     ??? "macOS"
+
+        **Note**: The following steps use the macOS Big Sur 11 interface as an example. For other macOS versions, refer to [Apple Support](https://support.apple.com/guide/mac-help/mh11939/mac){target="blank"} and select your macOS version to view the instructions.
     
         1. Click the **Apple** icon in the top left corner of the screen, and select **System Preferences**.
 

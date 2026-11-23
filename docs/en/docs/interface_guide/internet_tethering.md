@@ -6,7 +6,7 @@ Using a USB cable to share network from your smartphone to the router is called 
 
 - Some mobile carriers limit or charge extra for tethering. We recommend checking with your carrier.
 
-- If you use a USB dongle (not included) to connect your router to the Internet, configure the connection on either the **Tethering** or **Cellular** page, depending on the dongle's operating mode. For setup instructions, see [USB dongle setup guide](./internet_cellular_v4.10.md#non-cellular-routers).
+- If you use a USB dongle (not included) to connect your router to the Internet, go to **INTERNET** -> **Tethering** for a host-less dongle or **INTERNET** -> **Cellular** for a dongle in standard USB modem mode. For setup instructions, see the [USB dongle setup guide](./internet_cellular_v4.10.md#non-cellular-routers).
 
 === "iPhone"
 

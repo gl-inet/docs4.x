@@ -74,7 +74,7 @@ Configure your Mudi 7 using one of the supported internet connection methods: Ce
     
     **Set up eSIM**:
 
-    1. Log in to the [web Admin Panel](./index.md#log-in-to-web-admin-panel), go to **INTERNET** -> **Cellular**. In the **Cellular** page, select **eSIM** under SIM Type, then click the **eSIM Management** icon in the upper-right corner.
+    1. Log in to the [web Admin Panel](./index.md#log-in-to-web-admin-panel) and go to **INTERNET** -> **Cellular**. On the **Cellular** page, select **eSIM** under **SIM Type**, then click the **eSIM Management** icon in the upper-right corner.
 
         ![esim management](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/esim_management.png){class="glboxshadow"}   
     

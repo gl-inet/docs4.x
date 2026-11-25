@@ -14,6 +14,8 @@ We will confirm your production batch and give you targeted troubleshooting advi
 
 ---
 
+The original notice below is kept for reference. Its upgrade steps apply only to affected batches; if you're not sure whether your device is affected, contact support as described above before making any changes.
+
 **Published: March 26, 2025**
 
 Dear GL.iNet Customers,

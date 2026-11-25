@@ -1,5 +1,15 @@
 # LAN {#lan}
 
+**Remarque :** Cette page s’appuie sur le firmware v4.9 et les versions antérieures. Si votre appareil utilise une autre version, utilisez le sélecteur ci-dessous pour ouvrir le guide correspondant.
+
+<div class="gl-link-select" data-label="Version du firmware" data-placeholder="Firmware v4.9 et versions antérieures" markdown="1">
+
+- [Firmware v4.11 et versions ultérieures](lan_4.11.md)
+
+</div>
+
+---
+
 Dans la partie gauche du panneau d'administration web, accédez à **NETWORK** -> **LAN**.
 
 Le LAN est le réseau auquel votre appareil est connecté lorsqu'il utilise le Wi‑Fi principal ou un câble Ethernet.
@@ -24,7 +34,11 @@ Vous pouvez définir le sous-réseau dans les plages d'adresses privées IPv4 su
 
 - **AP Isolation**
 
+    Cette fonction est disponible depuis le firmware v4.5.
+
     Vous pouvez isoler les appareils clients dans un segment réseau distinct. Ces appareils ne pourront pas communiquer avec les autres appareils du même réseau.
+
+    **Remarque :** AP Isolation s’applique uniquement aux clients Wi-Fi. Les appareils filaires ne sont pas concernés.
 
 ## Serveur DHCP {#dhcp-server}
 

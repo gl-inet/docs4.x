@@ -32,6 +32,8 @@ Du kan ange ett subnät inom de privata IPv4-adressintervallen `192.168.0.0/16`,
 
     Du kan isolera klientenheter i ett separat nätverkssegment. Enheterna kan då inte kommunicera med andra enheter i samma nätverk.
 
+    **Obs!** AP Isolation gäller endast Wi-Fi-klienter. Kabelanslutna enheter påverkas inte.
+
 - **Block WAN Subnets**
 
     Funktionen är tillgänglig från firmware v4.8.

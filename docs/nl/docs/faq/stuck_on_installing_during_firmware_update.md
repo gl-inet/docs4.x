@@ -6,6 +6,8 @@ Volg de onderstaande stappen als je router tijdens een firmware-update blijft ha
 
 Controleer na elke stap of het probleem is opgelost. Sla in dat geval de resterende stappen over.
 
+**Opmerking:** Kun je het webbeheerpaneel niet openen of start de router niet normaal op, raadpleeg dan de onderstaande artikelen.
+
 1. Controleer of de firmware-update is geslaagd.
 
     First, open a web browser, access `192.168.8.1` and log in.
@@ -14,7 +16,15 @@ Controleer na elke stap of het probleem is opgelost. Sla in dat geval de restere
 
 2. Zorg voor een stabiele netwerkverbinding en upload de firmware opnieuw.
 
-3. Use a different browser (e.g., Edge, Safari) to re-upload the firmware.
+3. Gebruik een andere browser (bijvoorbeeld Edge of Safari) om de firmware opnieuw te uploaden.
+
+---
+
+**Gerelateerde artikelen**
+
+- [Geen toegang tot het webbeheerpaneel](../faq/cannot_access_web_admin_panel.md)
+
+- [Je router herstellen met U-Boot](../faq/debrick.md)
 
 ---
 

@@ -4,7 +4,7 @@
 
 Den här guiden beskriver två scenarier för att konfigurera AmneziaWG-obfuskering på GL.iNet-routrar.
 
-## Scenario 1. Använda två GL.iNet-routrar {#scenario-1-using-two-glinet-routers}
+## Använd två GL.iNet-routrar {#using-two-glinet-routers}
 
 I det här scenariot används två GL.iNet-routrar för att upprätta en obfuskerad VPN-anslutning via AmneziaWG-protokollet.
 
@@ -21,7 +21,7 @@ I det här scenariot används två GL.iNet-routrar för att upprätta en obfuske
 
     Om Brume 3 används som primär router ansluter du dess WAN-port till det uppströms nätverket, till exempel internetleverantörens modem.
 
-    Om den inte är primär router, det vill säga om en annan uppströmsenhet som internetleverantörens router fungerar som primär router, måste du konfigurera **portvidarebefordran** på den primära routern. Se [den här länken](how_to_set_up_port_forwarding.md).
+    Om den inte är primär router, det vill säga om en annan uppströmsenhet som internetleverantörens router fungerar som primär router, måste du konfigurera **portvidarebefordran** på den primära routern. Följ instruktionerna för att [konfigurera portvidarebefordran på den primära routern](how_to_set_up_port_forwarding.md).
 
 3. Aktivera DDNS (valfritt).
 
@@ -31,17 +31,24 @@ I det här scenariot används två GL.iNet-routrar för att upprätta en obfuske
 
     ![enable ddns](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/enable_ddns.png){class="glboxshadow"}
 
-4. Aktivera VPN-obfuskering.
+4. Aktivera obfuskering.
 
     Gå till **VPN** > **WireGuard Server** -> fliken **Configurations** i det vänstra sidofältet, aktivera **Enable Obfuscation** och klicka sedan på **Apply**.
 
     ![enable obfuscation](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_obfuscation1.png){class="glboxshadow"}
 
-    Du kan anpassa obfuskeringsparametrarna efter behov. Klicka [här](../faq/amneziawg_obfuscation.md) för mer information.
+    Om du behöver ställa in obfuskeringsparametrarna manuellt klickar du på **Set Obfuscation Parameters** för att visa fälten. Ändra värdena och klicka på **Apply**. Vi rekommenderar att du behåller standardinställningarna och bara ändrar dem om du känner till parametrarna. Se [AmneziaWG-obfuskering på GL.iNet-routrar](../faq/amneziawg_obfuscation.md).
 
-    Vi rekommenderar att du behåller standardinställningarna.
+    ![enable obfuscation](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_obfuscation2.jpg){class="glboxshadow"}
 
-    ![enable obfuscation](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_obfuscation2.png){class="glboxshadow"}
+    Från och med firmware v4.11.1 kan du också byta obfuskeringsversion. Välj version i rullgardinsmenyn, klicka på **Regenerate** och sedan på **Apply**.
+
+    Videon nedan visar hur du gör.
+
+    <video src="https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/select_version.mp4"
+        controls playsinline preload="metadata" width="800" style="max-width:100%;height:auto">
+    Webbläsaren har inte stöd för inbäddade videor. Öppna demonstrationen i en ny flik (<a href="https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/select_version.mp4" target="_blank" rel="noopener">select_version.mp4</a>).
+    </video>
 
 5. Exportera konfigurationsfilen.
 
@@ -117,7 +124,7 @@ I det här scenariot används två GL.iNet-routrar för att upprätta en obfuske
 
     VPN-anslutningen är klar. Alla enheter på Beryl AX ansluter nu till internet via gatewayen på Brume 3 och använder en obfuskerad VPN-anslutning.
 
-## Scenario 2. Använda en enda GL.iNet-router {#scenario-2-using-a-single-glinet-router}
+## Använd en enda GL.iNet-router {#using-a-single-glinet-router}
 
 I det här scenariot används en enda GL.iNet-router, **Brume 3 (GL-MT5000)**, som VPN-klient för anslutning till en AmneziaVPN-server.
 
@@ -192,5 +199,10 @@ StarVPN används som exempel.
     VPN-anslutningen är klar. Alla enheter på Brume 3 ansluter nu till internet via AmneziaVPN-servern och använder en obfuskerad VPN-anslutning.
 
 ---
+
+Relaterade artiklar
+
+- [Officiell dokumentation för AmneziaWG](https://docs.amnezia.org/documentation/amnezia-wg/){target="_blank"}
+- [AmneziaWG-obfuskering på GL.iNet-routrar](../faq/amneziawg_obfuscation.md)
 
 Har du fortfarande frågor? Besök vårt [communityforum](https://forum.gl-inet.com){target="_blank"} eller [kontakta oss](https://www.gl-inet.com/contacts/){target="_blank"}.

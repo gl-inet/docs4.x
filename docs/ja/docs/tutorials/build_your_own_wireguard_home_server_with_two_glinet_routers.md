@@ -13,12 +13,12 @@
 
 - GL-MT3000 はトラベルルーターとして使用し、自宅のVPNサーバーにリモート接続する WireGuard VPNクライアントとして設定します。
 
-## 独自のWireGuardホームサーバーを構築する理由 {#why-you-need-to-build-your-own-wireguard-home-server}
+## 独自のWireGuardホームサーバーを構築する理由 {#why-build-your-own-wireguard-home-server}
 
-1. 自宅のIPアドレスをインターネット上のアドレスとして使えるため、自宅からアクセスしているように見せられます。
-2. サードパーティーのVPNサービスのような月額料金は不要です。
-3. すべてのインターネットトラフィックを暗号化されたVPNトンネル経由で自宅ネットワークにルーティングし、プライバシーを保護できます。
-4. 自宅内のリソースやローカルストリーミングに簡単にアクセスできます。
+1. 自宅回線のパブリックIPアドレスを使用することで、インターネット上では自宅から通信しているように見えます。
+2. サードパーティーのVPNサービスにかかる月額料金を節約できます。
+3. すべてのインターネット通信を暗号化トンネル経由で自宅のネットワークに送ることで、プライバシーを保護できます。
+4. 外出先から自宅のデバイスや地域のストリーミングサービスにアクセスできます。
 
 ## 準備 {#preparations}
 
@@ -46,29 +46,23 @@
 
     **GL.iNetルーターが ISP モデムに直接接続されているか確認する方法**
 
-    手順:
+    GL.iNetのWeb管理パネルにログインします。左側のサイドバーで **INTERNET** を選択し、ネットワーク構成と接続の詳細を確認します。
 
-    1. GL.iNet の Web 管理パネルにログインします。
+    Ethernet で直接接続されている場合は、「Ethernet」というセクションに Protocol、IP address、Gateway などの情報が表示されます。
 
-    2. 左側のサイドバーで INTERNET を選択し、トポロジーと接続の詳細を確認します。
+    以下の画像では、マークされた IP Address が、この GL.iNetルーターに対して ISP が割り当てた WAN IP です。
 
-        Ethernet で直接接続されている場合は、「Ethernet」というセクションに Protocol、IP address、Gateway などの情報が表示されます。
+    ![mt6000-home](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/mt6000_home.png){class="glboxshadow"}
 
-        以下の画像では、マークされた IP Address が、この GL.iNetルーターに対して ISP が割り当てた WAN IP です。
+    この WAN IP はパブリックIPアドレスです。つまり、この GL.iNetルーターはメインルーターとして動作しており、**Port Forwarding を設定する必要はありません**。
 
-        ![mt6000-home](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/mt6000_home.png){class="glboxshadow"}
+    この GL.iNetルーターを WireGuard Server として設定し、トラベルルーターを WireGuard Client として接続するだけで、両者の間に VPNトンネルが構築されます。
 
-        この WAN IP はパブリックIPアドレスです。つまり、この GL.iNetルーターはメインルーターとして動作しており、**Port Forwarding を設定する必要はありません**。
-
-        この GL.iNetルーターを WireGuard Server として設定し、トラベルルーターを WireGuard Client として接続するだけで、両者の間に VPNトンネルが構築されます。
-
-        ![topologywg](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/topologywg.jpg){class="glboxshadow"}
+    ![topologywg](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/topologywg.jpg){class="glboxshadow"}
 
 ??? "GL.iNet ルーターがサブルーターの場合"
 
     GL.iNetルーターが NAT 配下にある場合は、メインルーター側で GL.iNetルーター向けに **Port Forwarding** を設定します。
-
-    トポロジー
 
     ![togologywgtp](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/topologywgtp.jpg){class="glboxshadow"}
 
@@ -96,39 +90,84 @@
 
 ## WireGuardサーバーを設定する {#set-up-wireguard-server}
 
-### DDNS を有効にする（任意） {#enable-ddns-optional}
+1. Web管理パネルにログインし、**VPN** -> **WireGuard Server** に移動します。VPNサーバーを初めて設定するときは、**Generate Configuration** をクリックします。
 
-固定パブリックIPアドレスではなく、動的パブリックIPアドレスのみを使っている場合は、DDNS 機能を有効にしてください。
+    ![generate configuration](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/generate_configuration.png){class="glboxshadow"}
 
-GL-MT6000 の Web 管理パネルにログインし、**APPLICATIONS** -> **Dynamic DNS** に移動します。**Enable DDNS** のスイッチをオンにします。
+2. 設定を確認します。
 
-**Terms of Service & Privacy Policy** にチェックを入れ、**Apply** をクリックします。
+    通常は、以下のデフォルト設定のまま使用できます。
 
-![ddnsapply](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/enable_ddns.jpg){class="glboxshadow"}
+    ![check configuration](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/wg_configuration.png){class="glboxshadow"}
 
-続いて **WireGuard Server** -> Configuration タブに移動し、Listen Port が 51820 であることを確認して **Apply** をクリックします。
+    - **IPv4 Address** は、WireGuardサーバーのトンネルIPアドレスです。上位ルーターのゲートウェイと競合しない場合は、変更する必要はありません。
 
-![wgserver](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/wgserver-apply.png){class="glboxshadow"}
+        競合する場合は、**10.1.0.1/24** など別のアドレスに変更し、**Apply** をクリックします。接続の問題を防ぐため、CIDR表記の「/24」も入力してください。
 
-### 設定を生成する {#generate-configuration}
+        ![modify configuration](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/modify_ipv4.png){class="glboxshadow"}
 
-同じページで、Configuration タブの横にある **Profiles** タブをクリックし、**Add** をクリックします（下図の 1）。
+        たとえば、上位にあるXfinityルーターのIPアドレスが10.0.0.1の場合、一部のGL.iNetルーターをWireGuardサーバーとして設定すると、トンネルIPアドレスが競合することがあります。トンネルIPアドレスは、競合する場合にのみ変更してください。
 
-クライアント設定が自動的に生成されます。**forward icon** をクリックします（下図の 2）。
+        ![xfinity gateway](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/xfinitygateway.jpg){class="glboxshadow"}
 
-ポップアップウィンドウで DDNS Domain を有効にする場合は、スライドしてオンにします（下図の 3）。これは任意設定であり、動的パブリックIPを使用している場合のみ有効にしてください。
+    - **IPv6 Address**：GL.iNetルーターでは、IPv6はデフォルトで無効です。IPv6アドレスを使用する場合は、ルーターで [IPv6](../interface_guide/ipv6.md) を有効にします。
 
-![wgservergen](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/wgconfiggen.jpg){class="glboxshadow"}
+    - **Listen Port**：WireGuardサーバーは、デフォルトでUDPポート `51820` で待ち受けます。このポートを変更する場合、ポートフォワーディングを使用していれば、上位ルーターのルールを変更してサーバーの新しい待受ポートに転送します。各クライアントプロファイルの `Endpoint` には、転送元となる外部ポートを指定します。サーバーに直接接続できる場合は、サーバーの待受ポートを指定します。
 
-その後、WireGuard の [mobile app](https://www.wireguard.com/install/){target="_blank"} で QR を読み取り、サーバーをテストできます。詳細は [こちら](../interface_guide/wireguard_server.md#check-if-wireguard-server-is-working-properly) を参照してください。
+    - **Enable Obfuscation**：このオプションを有効にすると、VPNサーバーはAmneziaWGプロトコルでVPNトラフィックを難読化します。通常はデフォルト設定を使用し、各パラメーターの意味を理解している場合にのみ変更してください。
 
-また、VPNクライアント接続用にテキスト形式の設定をエクスポートすることもできます。
+        - [GL.iNetルーターのAmneziaWG難読化](../faq/amneziawg_obfuscation.md)
+        - [GL.iNetルーターでVPN難読化を設定する方法](../tutorials/how_to_set_up_vpn_obfuscation_on_glinet_routers.md)
 
-**Configuration File** タブをクリックして、設定表示を QR コードからテキスト形式に切り替えます。
+3. プロファイルを追加します。
 
-クライアント用のテキストをコピーするか、Download ボタンをクリックして後で使えるよう保存します。
+    **Profiles** タブに切り替え、**Add** をクリックしてデバイスのプロファイルを作成します。
 
-![configload](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/configload.jpg){class="glboxshadow"}
+    ![add profiles](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/add_profiles.png){class="glboxshadow"}
+
+    分かりやすい名前を入力し、**Apply** をクリックします。
+
+    ![profile name](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/add_profiles_name.png){class="glboxshadow"}
+
+    詳細設定が必要な場合は、**Set More** をクリックします。設定後、**Apply** をクリックします。
+
+    ![profile settings](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/add_profiles_set_more.png){class="glboxshadow"}
+
+    ??? "必要に応じてルーティングルールを追加する"
+
+        通常は、ルーティングルールを追加する必要はありません。
+
+        サーバーからWireGuardクライアントのLAN内にあるデバイスにアクセスするには、**WireGuard Server** ページの **Route Rules** タブでルーティングルールを設定します。詳しくは、[クライアント側のLANにアクセスする手順](../tutorials/wireguard_server_access_to_client_lan_side.md)を参照してください。
+
+        ![route rules](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/route_rules.png){class="glboxshadow"}
+
+        ルーティングルールを設定しない場合は、手順4に進んでクライアント設定をダウンロードしてください。
+
+4. 設定をダウンロードします。
+
+    プロファイルを追加して **Apply** をクリックすると、設定をQRコード、プレーンテキスト、またはダウンロード可能な `.conf` ファイルとして取得できます。
+
+    - **QRコード**：WireGuardアプリでQRコードを読み取って、標準のWireGuardプロファイルをインポートします。難読化を有効にした場合は、AmneziaWGアプリまたはAmneziaWG難読化に対応したクライアントを使用してください。
+
+        ![client configuration qrcode](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/download_config_qrcode.png){class="glboxshadow"}
+
+    - **プレーンテキスト**：設定内容を確認したり、コピーしてWireGuardアプリやGL.iNetルーターなどで手動設定に使用したりできます。
+
+        ![client configuration plain text](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/download_config_text.png){class="glboxshadow"}
+
+    - **.confファイル**：**Download** をクリックしてファイルをデバイスに保存します。このファイルはWireGuardアプリやGL.iNetルーターに直接アップロードできます。
+
+        ![client configuration file](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/download_config_file.png){class="glboxshadow"}
+
+    ファームウェアv4.8以降では、必要に応じて、サーバーアドレスとしてパブリックIPアドレス、DDNSドメイン、または現在のWAN IPアドレスを選択できます。選択を変更すると、設定ファイル内のサーバーアドレスも更新されます。
+
+    たとえば、ネットワークのパブリックIPアドレスが頻繁に変わる場合は、[DDNS](../interface_guide/ddns.md) を有効にし、DDNSドメインをサーバーアドレスに指定します。
+
+    ![change server address](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/change_server_address.png){class="glboxshadow"}
+
+5. 右上の **Start** をクリックしてWireGuardサーバーを起動します。同じページに接続状態が表示されます。
+
+    ![start wireguard server](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/start_wgserver.png){class="glboxshadow"}
 
 ## WireGuardクライアントを設定する {#set-up-wireguard-client}
 
@@ -136,13 +175,11 @@ GL-MT6000 の Web 管理パネルにログインし、**APPLICATIONS** -> **Dyna
 
 このチュートリアルでは GL-MT6000 と GL-MT3000 を例に使用していますが、どちらのデフォルト LAN IP も **192.168.8.1** です。競合を避けるため、どちらか一方を別の LAN IP に変更する必要があります。
 
-ここでは、GL-MT3000（WireGuard クライアント）の LAN IP を変更する手順を説明します。
+ここでは、WireGuardクライアントとして使用するGL-MT3000のLAN IPアドレスを変更します。
 
-GL-MT3000 の Web 管理パネルにログインし、左側のサイドバーで **NETWORK** -> **LAN** に移動して LAN IP を変更します。たとえば、デフォルトの 192.168.8.1 を `192.168.10.1` に変更できます。
+GL-MT3000のWeb管理パネルにログインし、**NETWORK** -> **LAN** に移動します。たとえば、LAN IPアドレスをデフォルトの192.168.8.1から `192.168.20.1` に変更できます。
 
 ![change lan](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/change_lan_ip.png){class="glboxshadow"}
-
-LAN インターフェースの詳細については [こちら](../interface_guide/lan.md) を参照してください。
 
 ### 設定を追加する {#add-the-configuration}
 
@@ -198,6 +235,7 @@ GL-MT6000（WireGuard サーバー）の Web 管理パネルに戻り、**VPN** 
 
 関連記事
 
+- [GL.iNetルーターでWireGuardサーバーを設定する](../interface_guide/wireguard_server.md)
 - [GL.iNet GoodCloud](../interface_guide/cloud.md)
 
 ---

@@ -1,12 +1,12 @@
-# Jak skonfigurować zaciemnianie VPN na routerach GL.iNet {#how-to-set-up-vpn-obfuscation-on-glinet-routers}
+# Jak skonfigurować maskowanie ruchu VPN na routerach GL.iNet {#how-to-set-up-vpn-obfuscation-on-glinet-routers}
 
 **Uwaga**: routery GL.iNet obsługują AmneziaWG w firmware v4.9 lub nowszym. Najpierw zaktualizuj router do obsługiwanej wersji firmware.
 
-Ten przewodnik przedstawia dwa scenariusze konfiguracji zaciemniania AmneziaWG na routerach GL.iNet.
+Ten przewodnik przedstawia dwa scenariusze konfiguracji maskowania ruchu AmneziaWG na routerach GL.iNet.
 
-## Scenariusz 1. Korzystanie z dwóch routerów GL.iNet {#scenario-1-using-two-glinet-routers}
+## Korzystanie z dwóch routerów GL.iNet {#using-two-glinet-routers}
 
-W tym scenariuszu używane są dwa routery GL.iNet do ustanowienia połączenia VPN z zaciemnianiem przez protokół AmneziaWG.
+W tym scenariuszu używane są dwa routery GL.iNet do ustanowienia połączenia VPN z maskowaniem ruchu przez protokół AmneziaWG.
 
 - Brume 3 (GL-MT5000): serwer VPN do użytku domowego.
 - Beryl AX (GL-MT3000): przenośny klient VPN do użytku w podróży.
@@ -21,7 +21,7 @@ W tym scenariuszu używane są dwa routery GL.iNet do ustanowienia połączenia 
 
     Jeśli Brume 3 jest używany jako router główny, podłącz jego port WAN do sieci nadrzędnej, takiej jak modem ISP. 
     
-    Jeśli nie jest routerem głównym (tj. istnieje inne urządzenie nadrzędne, takie jak router ISP, działające jako router główny), wymagana jest konfiguracja **przekierowania portów** na routerze głównym. Zapoznaj się z [tym linkiem](how_to_set_up_port_forwarding.md).
+    Jeśli nie jest routerem głównym (tj. istnieje inne urządzenie nadrzędne, takie jak router ISP, działające jako router główny), wymagana jest konfiguracja **przekierowania portów** na routerze głównym. Zobacz, jak [skonfigurować przekierowanie portów na routerze głównym](how_to_set_up_port_forwarding.md).
 
 3. Włącz DDNS (opcjonalnie).
 
@@ -31,15 +31,24 @@ W tym scenariuszu używane są dwa routery GL.iNet do ustanowienia połączenia 
 
     ![enable ddns](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/enable_ddns.png){class="glboxshadow"}
 
-4. Włącz zaciemnianie VPN. 
+4. Włącz maskowanie ruchu.
 
-    Z lewego paska bocznego przejdź do **VPN** > **WireGuard Server** -> zakładka **Configurations**, włącz **Enable Obfuscation**, następnie kliknij **Apply**.
+    Na lewym pasku bocznym przejdź do **VPN** -> **WireGuard Server** i otwórz kartę **Configurations**. Włącz **Enable Obfuscation** i kliknij **Apply**.
 
     ![enable obfuscation](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_obfuscation1.png){class="glboxshadow"}
 
-    Możesz dostosować parametry zaciemniania według potrzeb. Kliknij [tutaj](../faq/amneziawg_obfuscation.md), aby uzyskać szczegółowe informacje. Zalecamy pozostawienie ustawień domyślnych.
+    Aby ręcznie ustawić parametry maskowania, kliknij **Set Obfuscation Parameters**, aby wyświetlić pola. Dostosuj wartości i kliknij **Apply**. Zalecamy zachowanie ustawień domyślnych i zmienianie ich tylko wtedy, gdy znasz te parametry. Zobacz [Maskowanie ruchu AmneziaWG na routerach GL.iNet](../faq/amneziawg_obfuscation.md).
 
-    ![enable obfuscation](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_obfuscation2.png){class="glboxshadow"}
+    ![enable obfuscation](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_obfuscation2.jpg){class="glboxshadow"}
+
+    Od wersji oprogramowania v4.11.1 możesz także zmienić wersję maskowania. Wybierz odpowiednią wersję z listy rozwijanej, kliknij **Regenerate**, a następnie **Apply**.
+
+    Poniższy film pokazuje, jak to zrobić.
+
+    <video src="https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/select_version.mp4"
+        controls playsinline preload="metadata" width="800" style="max-width:100%;height:auto">
+    Twoja przeglądarka nie obsługuje osadzonych filmów. Otwórz film demonstracyjny w nowej karcie, korzystając z linku <a href="https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/select_version.mp4" target="_blank" rel="noopener">select_version.mp4</a>.
+    </video>
 
 5. Eksportuj plik konfiguracyjny.
 
@@ -61,9 +70,9 @@ W tym scenariuszu używane są dwa routery GL.iNet do ustanowienia połączenia 
 
     ![server start](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_start1.png){class="glboxshadow"}
 
-    Twój serwer VPN z zaciemnianiem AmneziaWG jest teraz włączony. Możesz teraz połączyć się z tym serwerem VPN Brume 3 przez aplikację AmneziaWG lub router GL.iNet z oprogramowaniem obsługującym zaciemnianie AmneziaWG. 
+    Twój serwer VPN z maskowaniem ruchu AmneziaWG jest teraz włączony. Możesz teraz połączyć się z tym serwerem VPN Brume 3 przez aplikację AmneziaWG lub router GL.iNet z oprogramowaniem obsługującym maskowanie ruchu AmneziaWG.
     
-    **Uwaga: Klienci nie obsługujący zaciemniania AmneziaWG nie będą mogli się połączyć.**
+    **Uwaga: Klienci nieobsługujący maskowania ruchu AmneziaWG nie będą mogli się połączyć.**
 
     ![server start](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_start2.png){class="glboxshadow"}
 
@@ -113,13 +122,13 @@ W tym scenariuszu używane są dwa routery GL.iNet do ustanowienia połączenia 
 
     ![server online client](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_online_client.png){class="glboxshadow"}
 
-    Połączenie VPN jest ukończone. Wszystkie urządzenia w sieci Beryl AX uzyskują teraz dostęp do internetu przez bramę Brume 3, umożliwiając połączenie VPN z zaciemnianiem.
+    Połączenie VPN jest ukończone. Wszystkie urządzenia w sieci Beryl AX uzyskują teraz dostęp do internetu przez bramę Brume 3, umożliwiając połączenie VPN z maskowaniem ruchu.
 
-## Scenariusz 2. Korzystanie z pojedynczego routera GL.iNet {#scenario-2-using-a-single-glinet-router}
+## Korzystanie z jednego routera GL.iNet {#using-a-single-glinet-router}
 
 W tym scenariuszu używany jest pojedynczy router GL.iNet **Brume 3 (GL-MT5000)** jako klient VPN do połączenia z serwerem AmneziaVPN. 
 
-W tym przypadku nie musisz wdrażać własnego serwera. Wystarczy pobrać plik konfiguracyjny AmneziaWG z [oficjalnej strony Amnezia](https://amnezia.org/){target="_blank"} lub od dowolnego dostawcy usług VPN integrującego AmneziaWG, a następnie przesłać plik do routera GL.iNet. Będziesz wtedy mógł nawiązać połączenie VPN z włączonym zaciemnianiem.
+W tym przypadku nie musisz wdrażać własnego serwera. Wystarczy pobrać plik konfiguracyjny AmneziaWG z [oficjalnej strony Amnezia](https://amnezia.org/){target="_blank"} lub od dowolnego dostawcy usług VPN integrującego AmneziaWG, a następnie przesłać plik do routera GL.iNet. Będziesz wtedy mógł nawiązać połączenie VPN z włączonym maskowaniem ruchu.
 
 ### Pobieranie konfiguracji {#download-configuration}
 
@@ -187,8 +196,13 @@ Weźmy jako przykład StarVPN.
 
     ![client amnezia dashboard](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/client_dashboard_amnezia.png){class="glboxshadow"}
     
-    Połączenie VPN jest ukończone. Wszystkie urządzenia w sieci Brume 3 uzyskują teraz dostęp do internetu przez serwer AmneziaVPN, umożliwiając połączenie VPN z zaciemnianiem.
+    Połączenie VPN jest ukończone. Wszystkie urządzenia w sieci Brume 3 uzyskują teraz dostęp do internetu przez serwer AmneziaVPN, umożliwiając połączenie VPN z maskowaniem ruchu.
 
 ---
+
+Powiązane artykuły
+
+- [Oficjalna dokumentacja AmneziaWG](https://docs.amnezia.org/documentation/amnezia-wg/){target="_blank"}
+- [Maskowanie ruchu AmneziaWG na routerach GL.iNet](../faq/amneziawg_obfuscation.md)
 
 Masz więcej pytań? Odwiedź nasze [Forum społeczności](https://forum.gl-inet.com){target="_blank"} lub [Skontaktuj się z nami](https://www.gl-inet.com/contacts/){target="_blank"}.

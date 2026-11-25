@@ -44,8 +44,12 @@ Guarda questo video di configurazione oppure segui i passaggi qui sotto.
     Per connetterti a Internet tramite rete cellulare è necessaria almeno una nano SIM. Quando hai pronto almeno una nano SIM, segui questi passaggi:
     
     1. Attiva la SIM, se richiesto dall'operatore.
+
     2. Spegni il router.
-    3. Inserisci la SIM negli slot SIM. (**Nota:** solo una SIM è attiva alla volta. L'altra funziona solo come backup.)
+
+    3. Inserisci la scheda o le schede SIM come segue. Orienta la scheda con i contatti metallici rivolti verso la parte superiore del router e l’angolo smussato in alto a destra. Tienila in orizzontale e falla scorrere delicatamente nello slot finché non scatta in posizione. (**Nota:** può essere attiva una sola SIM alla volta. L’altra serve come riserva.)
+
+        Per rimuovere la SIM, premila nuovamente verso l’interno e rilasciala. La scheda sporge leggermente dallo slot e può essere estratta.
 
 ### 1. Accensione {#1-power-on}
 

@@ -1,5 +1,15 @@
 # LAN {#lan}
 
+**Opmerking:** Deze pagina is gebaseerd op firmware v4.9 en lager. Gebruikt je apparaat een andere versie, kies dan hieronder de bijbehorende handleiding.
+
+<div class="gl-link-select" data-label="Firmwareversie" data-placeholder="Firmware v4.9 en lager" markdown="1">
+
+- [Firmware v4.11 en hoger](lan_4.11.md)
+
+</div>
+
+---
+
 Ga links in het webbeheerpaneel naar **NETWORK** -> **LAN**.
 
 LAN is het netwerk waarmee je apparaat is verbonden via de hoofd-Wi-Fi of een Ethernet-kabel.
@@ -24,7 +34,11 @@ Je kunt het subnet instellen binnen de privé-IPv4-adresbereiken `192.168.0.0/16
 
 - **AP Isolation**
 
+    Deze functie is beschikbaar sinds firmware v4.5.
+
     Je kunt clientapparaten in een afzonderlijk netwerksegment isoleren. Deze apparaten kunnen dan niet met andere apparaten in hetzelfde netwerk communiceren.
+
+    **Opmerking:** AP Isolation geldt alleen voor Wi-Fi-clients. Bekabelde apparaten vallen hierbuiten.
 
 ## DHCP-server {#dhcp-server}
 

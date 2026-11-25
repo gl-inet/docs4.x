@@ -6,6 +6,8 @@ Se il router rimane bloccato su "Installing" durante un aggiornamento del firmwa
 
 Dopo ogni passaggio, verifica se il problema è stato risolto. In caso affermativo, salta i passaggi restanti.
 
+**Nota:** Se non riesci ad accedere al pannello di amministrazione web o il router non si avvia normalmente, consulta gli articoli di risoluzione dei problemi qui sotto.
+
 1. Verifica che l'aggiornamento del firmware sia andato a buon fine.
 
     Per prima cosa, apri un browser web, accedi a `192.168.8.1` ed effettua il login.
@@ -15,6 +17,14 @@ Dopo ogni passaggio, verifica se il problema è stato risolto. In caso affermati
 2. Assicurati che la connessione di rete sia stabile, quindi ricarica il firmware.
 
 3. Usa un browser diverso (ad esempio Edge o Safari) per ricaricare il firmware.
+
+---
+
+**Articoli correlati**
+
+- [Impossibile accedere al pannello di amministrazione web](../faq/cannot_access_web_admin_panel.md)
+
+- [Ripristinare il router con U-Boot](../faq/debrick.md)
 
 ---
 

@@ -186,6 +186,26 @@ Offline Clients セクションでは、右上の **Delete All** をクリック
 
 ![remove offline clients](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/remove_offline.png){class="glboxshadow"}
 
+## クライアントを分離する {#isolate-clients}
+
+同じネットワークに接続された Wi-Fi クライアント間の通信を防ぐには、Clients ページではなくネットワーク設定で **AP Isolation** を有効にします。
+
+**注：** AP Isolation は Wi-Fi クライアントにのみ適用されます。有線接続のデバイスには適用されません。
+
+次の例では、ファームウェア v4.11 を実行している GL-MT3000 のメインネットワークで Wi-Fi クライアント向けに AP Isolation を有効にする方法を説明します。
+
+1. ウェブ管理パネルで **Network** -> **LAN** -> **Main Network** に進みます。設定画面へのパスはファームウェアバージョンによって異なります。
+
+    右下の **Edit** をクリックします。
+
+    ![AP Isolation](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/ap-isolation-1.png){class="glboxshadow"}
+
+2. **AP Isolation** をオンにし、**Apply** をクリックします。
+
+    ![AP Isolation](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/ap-isolation-2.png){class="glboxshadow" width=650}
+
+    メインネットワークの Wi-Fi クライアント間で通信できなくなります。
+
 ---
 
 ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

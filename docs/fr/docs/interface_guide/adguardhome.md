@@ -48,7 +48,7 @@ Activez le commutateur pour activer AdGuard Home, puis cliquez sur **Apply**.
 
 ![adguard home apply](https://static.gl-inet.com/docs/router/en/4/interface_guide/adguard_home/apply.png){class="glboxshadow"}
 
-- **AdGuard Home Handle Client Requests** : si cette option est activée, les requêtes DNS des appareils clients seront traitées directement par AdGuard Home. Les politiques VPN basées sur les domaines et les règles de contrôle parental deviendront alors inopérantes.
+- **AdGuard Home Handle Client Requests** : Si cette option est activée, les règles du pare-feu redirigent les requêtes DNS des appareils clients directement vers AdGuard Home, en contournant le service DNS du routeur (dnsmasq). Les politiques VPN basées sur les domaines et les règles de contrôle parental deviennent inopérantes. Il peut être nécessaire de configurer AdGuard Home pour résoudre les noms d’hôte locaux habituellement résolus par dnsmasq.
 
 Une fois activé, cette page affiche des statistiques, notamment les requêtes DNS et les domaines bloqués, via l’API fournie par AdGuard Home.
 

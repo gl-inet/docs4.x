@@ -48,7 +48,7 @@ Aktivera AdGuard Home med reglaget och klicka på **Apply**.
 
 ![adguard home apply](https://static.gl-inet.com/docs/router/en/4/interface_guide/adguard_home/apply.png){class="glboxshadow"}
 
-- **AdGuard Home Handle Client Requests**: När alternativet är aktiverat behandlar AdGuard Home DNS-frågor från klientenheter direkt. Domänbaserade VPN-principer och regler för föräldrakontroll får då ingen effekt.
+- **AdGuard Home Handle Client Requests**: När alternativet är aktiverat dirigerar brandväggsregler DNS-frågor från klientenheter direkt till AdGuard Home förbi routerns DNS-tjänst (dnsmasq). Domänbaserade VPN-policyer och regler för föräldrakontroll gäller då inte. Lokala värdnamn som normalt slås upp av dnsmasq kan kräva ytterligare konfiguration i AdGuard Home.
 
 När funktionen är aktiverad visar sidan statistik som DNS-frågor och blockerade domäner via API:t från AdGuard Home.
 

@@ -6,6 +6,8 @@ Jeśli router zatrzyma się na komunikacie „Installing” podczas aktualizacji
 
 Po każdym kroku sprawdź, czy problem został rozwiązany. Jeśli tak, pomiń pozostałe kroki.
 
+**Uwaga:** Jeśli nie możesz otworzyć panelu administracyjnego WWW lub router nie uruchamia się prawidłowo, zapoznaj się z poniższymi artykułami.
+
 1. Sprawdź, czy aktualizacja firmware zakończyła się powodzeniem.
 
     Najpierw otwórz przeglądarkę internetową, przejdź pod adres `192.168.8.1` i zaloguj się. 
@@ -15,6 +17,14 @@ Po każdym kroku sprawdź, czy problem został rozwiązany. Jeśli tak, pomiń p
 2. Upewnij się, że połączenie sieciowe jest stabilne, a następnie wgraj firmware ponownie.
 
 3. Użyj innej przeglądarki (np. Edge, Safari), aby ponownie wgrać firmware. 
+
+---
+
+**Powiązane artykuły**
+
+- [Brak dostępu do panelu administracyjnego WWW](../faq/cannot_access_web_admin_panel.md)
+
+- [Odzyskiwanie routera za pomocą U-Boot](../faq/debrick.md)
 
 ---
 

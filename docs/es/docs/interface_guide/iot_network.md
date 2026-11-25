@@ -30,6 +30,8 @@ Puede configurar la subred dentro de estos rangos de direcciones IPv4 privadas: 
 
     Permite aislar los dispositivos cliente en un segmento de red separado. Estos dispositivos no podrán comunicarse con otros dispositivos de la misma red.
 
+    **Nota**: La opción **AP Isolation** solo se aplica a los clientes Wi-Fi.
+
 - **Block WAN Subnets**
 
     Esta función está disponible desde el firmware v4.8.

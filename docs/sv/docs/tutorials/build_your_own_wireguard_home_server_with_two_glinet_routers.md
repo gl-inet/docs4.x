@@ -13,12 +13,12 @@ I följande steg används GL-MT6000 (Flint 2) och GL-MT3000 (Beryl AX) som exemp
 
 - GL-MT3000, som är reserouter, konfigureras som WireGuard VPN-klient och ansluter på distans till VPN-servern hemma.
 
-## Därför kan du behöva en egen WireGuard-hemmaserver {#why-you-need-to-build-your-own-wireguard-home-server}
+## Varför bygga en egen WireGuard-hemmaserver? {#why-build-your-own-wireguard-home-server}
 
-1. Använd hemmets IP-adress som internetadress, som om du befann dig hemma.
-2. Undvik månadsavgiften för en VPN-tjänst från tredje part.
-3. Dirigera all internettrafik till hemnätverket genom en krypterad VPN-tunnel och skydda din integritet.
-4. Få enkel åtkomst till interna resurser och lokala strömningstjänster.
+1. Använd den offentliga IP-adressen för din hemanslutning så att trafiken ser ut att komma från hemmet.
+2. Slipp månadsavgifterna för en VPN-tjänst från tredje part.
+3. Skydda din integritet genom att leda all internettrafik till hemnätverket via en krypterad tunnel.
+4. Kom åt enheterna hemma och lokala strömningstjänster var du än befinner dig.
 
 ## Förberedelser {#preparations}
 
@@ -46,29 +46,23 @@ Om du inte har en offentlig IP-adress kan du prova följande metoder.
 
     **Hur kontrollerar du om GL.iNet-routern är direkt ansluten till internetleverantörens modem?**
 
-    Gör så här:
+    Logga in på GL.iNet-routerns webbadministrationspanel. Välj **INTERNET** i det vänstra sidofältet och kontrollera nätverkstopologin och anslutningsinformationen.
 
-    1. Logga in på GL.iNet-administrationspanelen.
+    Vid direkt Ethernet-anslutning visas ett avsnitt som heter "Ethernet" med anslutningens protokoll, IP-adress och gateway.
 
-    2. Välj INTERNET i det vänstra sidofältet. Kontrollera topologin och anslutningsinformationen:
+    Den markerade IP-adressen i bilden är den WAN-IP-adress som internetleverantören har tilldelat GL.iNet-routern.
 
-        Vid direkt Ethernet-anslutning visas ett avsnitt som heter "Ethernet" med uppgifter som Protocol, IP address och Gateway.
+    ![mt6000-home](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/mt6000_home.png){class="glboxshadow"}
 
-        I följande bild är den markerade IP Address den WAN-IP-adress som internetleverantören har tilldelat GL.iNet-routern.
+    WAN-IP-adressen är offentlig. GL.iNet-routern fungerar därmed som primär router, har en offentlig IP-adress och **behöver ingen portvidarebefordran**.
 
-        ![mt6000-home](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/mt6000_home.png){class="glboxshadow"}
+    Konfigurera bara GL.iNet-routern som WireGuard-server och en reserouter som WireGuard-klient som ansluter till servern. En VPN-tunnel upprättas då mellan dem.
 
-        WAN-IP-adressen är offentlig. GL.iNet-routern fungerar därmed som primär router, har en offentlig IP-adress och **behöver ingen portvidarebefordran**.
-
-        Konfigurera bara GL.iNet-routern som WireGuard-server och en reserouter som WireGuard-klient som ansluter till servern. En VPN-tunnel upprättas då mellan dem.
-
-        ![topologywg](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/topologywg.jpg){class="glboxshadow"}
+    ![topologywg](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/topologywg.jpg){class="glboxshadow"}
 
 ??? "GL.iNet som sekundär router"
 
     Konfigurera **portvidarebefordran** på den primära routern för GL.iNet-routern om den senare finns bakom NAT.
-
-    Topologi
 
     ![togologywgtp](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/topologywgtp.jpg){class="glboxshadow"}
 
@@ -96,39 +90,84 @@ Om du inte har en offentlig IP-adress kan du prova följande metoder.
 
 ## Konfigurera WireGuard-servern {#set-up-wireguard-server}
 
-### Aktivera DDNS (valfritt) {#enable-ddns-optional}
+1. Logga in på webbadministrationspanelen och gå till **VPN** -> **WireGuard Server**. Klicka på **Generate Configuration** första gången du konfigurerar VPN-servern.
 
-Aktivera DDNS om du har en dynamisk offentlig IP-adress i stället för en statisk offentlig IP-adress.
+    ![generate configuration](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/generate_configuration.png){class="glboxshadow"}
 
-Logga in på webbadministrationspanelen för GL-MT6000 och gå till **APPLICATIONS** -> **Dynamic DNS**. Aktivera reglaget **Enable DDNS**.
+2. Kontrollera konfigurationen.
 
-Markera kryssrutan **Terms of Service & Privacy Policy** och klicka på **Apply**.
+    Standardkonfigurationen nedan fungerar i de flesta fall.
 
-![ddnsapply](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/enable_ddns.jpg){class="glboxshadow"}
+    ![check configuration](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/wg_configuration.png){class="glboxshadow"}
 
-Gå sedan till fliken **WireGuard Server** -> Configuration, kontrollera att Listen Port är 51820 och klicka på **Apply**.
+    - **IPv4 Address** är WireGuard-serverns tunnel-IP-adress. Behåll den om den inte krockar med den uppströms routerns gateway.
 
-![wgserver](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/wgserver-apply.png){class="glboxshadow"}
+        Om adresserna krockar väljer du en annan adress, till exempel **10.1.0.1/24**, och klickar sedan på **Apply**. Ta med CIDR-prefixet ”/24” för att undvika anslutningsproblem.
 
-### Skapa konfigurationen {#generate-configuration}
+        ![modify configuration](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/modify_ipv4.png){class="glboxshadow"}
 
-Klicka på fliken **Profiles** bredvid Configuration på samma sida och klicka sedan på **Add** (markerat med 1 i bilden nedan).
+        En uppströms Xfinity-router kan till exempel ha IP-adressen 10.0.0.1. Den adressen kan krocka med tunnel-IP-adressen på vissa GL.iNet-routrar som konfigurerats som WireGuard-server. Ändra bara tunnel-IP-adressen om adresserna krockar.
 
-En klientkonfiguration skapas automatiskt. Klicka på **framåtpilen** (markerad med 2).
+        ![xfinity gateway](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/xfinitygateway.jpg){class="glboxshadow"}
 
-Aktivera DDNS Domain i popup-fönstret (markerat med 3). Detta är valfritt och ska endast aktiveras om du har en dynamisk offentlig IP-adress.
+    - **IPv6 Address**. IPv6 är inaktiverat som standard på GL.iNet-routrar. Aktivera [IPv6](../interface_guide/ipv6.md) på routern om du vill använda en IPv6-adress.
 
-![wgservergen](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/wgconfiggen.jpg){class="glboxshadow"}
+    - **Listen Port**. WireGuard-servern lyssnar som standard på UDP-port `51820`. Om du byter port och använder portvidarebefordran ska du uppdatera regeln på den uppströms routern så att den vidarebefordrar trafiken till serverns nya lyssningsport. Ange den externa porten i vidarebefordringsregeln i fältet `Endpoint` i varje klientprofil. Om servern kan nås direkt anger du serverns lyssningsport.
 
-Du kan sedan skanna QR-koden med WireGuards [mobilapp](https://www.wireguard.com/install/) för att testa servern. Klicka [här](../interface_guide/wireguard_server.md#check-if-wireguard-server-is-working-properly) för mer information.
+    - **Enable Obfuscation**. När alternativet är aktiverat använder VPN-servern AmneziaWG-protokollet för att dölja VPN-trafiken. Vi rekommenderar att du behåller standardinställningarna och bara ändrar dem om du känner till parametrarna.
 
-Du kan även exportera en konfiguration i textformat för VPN-klientanslutningen.
+        - [AmneziaWG-obfuskering på GL.iNet-routrar](../faq/amneziawg_obfuscation.md)
+        - [Konfigurera VPN-obfuskering på GL.iNet-routrar](../tutorials/how_to_set_up_vpn_obfuscation_on_glinet_routers.md)
 
-Byt från QR-kod till textformat genom att klicka på fliken **Configuration File**.
+3. Lägg till en profil.
 
-Kopiera klienttexten eller klicka på Download och spara filen för senare användning.
+    Öppna fliken **Profiles** och klicka på **Add** för att skapa en profil för enheten.
 
-![configload](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/configload.jpg){class="glboxshadow"}
+    ![add profiles](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/add_profiles.png){class="glboxshadow"}
+
+    Ge profilen ett beskrivande namn och klicka på **Apply**.
+
+    ![profile name](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/add_profiles_name.png){class="glboxshadow"}
+
+    Klicka vid behov på **Set More** för att visa avancerade inställningar. Klicka sedan på **Apply**.
+
+    ![profile settings](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/add_profiles_set_more.png){class="glboxshadow"}
+
+    ??? "Lägg till routningsregler vid behov"
+
+        I de flesta fall behöver du inte lägga till routningsregler.
+
+        Om du vill komma åt enheter på WireGuard-klientens LAN från servern öppnar du fliken **Route Rules** på sidan **WireGuard Server** och ställer in reglerna. Följ [instruktionerna för åtkomst till klientens LAN](../tutorials/wireguard_server_access_to_client_lan_side.md).
+
+        ![route rules](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/route_rules.png){class="glboxshadow"}
+
+        Gå annars vidare till steg 4 för att hämta en klientkonfiguration.
+
+4. Hämta konfigurationen.
+
+    När du har lagt till en profil och klickat på **Apply** kan du hämta konfigurationen som QR-kod, oformaterad text eller en nedladdningsbar `.conf`-fil.
+
+    - **QR-kod**. Skanna koden i WireGuard-appen för att importera en vanlig WireGuard-profil. Om du har aktiverat obfuskering använder du AmneziaWG-appen eller en annan klient som har stöd för AmneziaWG-obfuskering.
+
+        ![client configuration qrcode](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/download_config_qrcode.png){class="glboxshadow"}
+
+    - **Oformaterad text**. Granska inställningarna och kopiera dem om du vill konfigurera exempelvis WireGuard-appen eller en GL.iNet-router manuellt.
+
+        ![client configuration plain text](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/download_config_text.png){class="glboxshadow"}
+
+    - **.conf-fil**. Klicka på **Download** för att spara filen på enheten. Du kan importera filen direkt i WireGuard-appen eller ladda upp den till en GL.iNet-router.
+
+        ![client configuration file](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/download_config_file.png){class="glboxshadow"}
+
+    Från och med firmware v4.8 kan du välja den offentliga IP-adressen, DDNS-domänen eller den aktuella WAN-IP-adressen som serveradress. Om du ändrar valet uppdateras serveradressen i konfigurationsfilen samtidigt.
+
+    Om nätverkets offentliga IP-adress till exempel ändras ofta aktiverar du [DDNS](../interface_guide/ddns.md) och använder DDNS-domänen som serveradress.
+
+    ![change server address](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/change_server_address.png){class="glboxshadow"}
+
+5. Klicka på **Start** uppe till höger för att starta WireGuard-servern. Anslutningsstatusen visas på samma sida.
+
+    ![start wireguard server](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/start_wgserver.png){class="glboxshadow"}
 
 ## Konfigurera WireGuard-klienten {#set-up-wireguard-client}
 
@@ -136,13 +175,11 @@ Kopiera klienttexten eller klicka på Download och spara filen för senare anvä
 
 I den här guiden används GL-MT6000 och GL-MT3000, vars standard-IP-adress för LAN är **192.168.8.1** på båda modellerna. Därför måste vi ändra LAN-IP-adressen på en av dem för att undvika en konflikt.
 
-Så här ändrar du LAN-IP-adressen för GL-MT3000 (WireGuard-klienten).
+Så här ändrar du LAN-IP-adressen på GL-MT3000, som fungerar som WireGuard-klient.
 
-Logga in på webbadministrationspanelen för GL-MT3000 och gå till **NETWORK** i det vänstra sidofältet -> **LAN** för att ändra LAN-IP-adressen. Du kan till exempel ändra den från standardadressen 192.168.8.1 till `192.168.10.1`.
+Logga in på webbadministrationspanelen för GL-MT3000 och gå till **NETWORK** -> **LAN**. Ändra LAN-IP-adressen från standardadressen 192.168.8.1 till exempelvis `192.168.20.1`.
 
 ![change lan](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/change_lan_ip.png){class="glboxshadow"}
-
-Mer information om LAN-gränssnittet finns [här](../interface_guide/lan.md).
 
 ### Lägg till konfigurationen {#add-the-configuration}
 
@@ -198,6 +235,7 @@ Bind båda routrarna till ditt GoodCloud-konto innan du reser. Då kan du felsö
 
 Relaterade artiklar
 
+- [Konfigurera en WireGuard-server på GL.iNet-routrar](../interface_guide/wireguard_server.md)
 - [GL.iNet GoodCloud](../interface_guide/cloud.md)
 
 ---

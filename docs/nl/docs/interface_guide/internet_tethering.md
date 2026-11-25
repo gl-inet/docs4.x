@@ -2,9 +2,11 @@
 
 Het delen van de netwerkverbinding van je smartphone met de router via een USB-kabel heet Tethering. Een host-less modem werkt tijdens de installatie ook via Tethering.
 
-**Opmerking:** sommige mobiele providers beperken tethering of brengen extra kosten in rekening. Vraag dit na bij je provider.
+**Opmerking:**
 
-## Instellen {#setup}
+- sommige mobiele providers beperken tethering of brengen extra kosten in rekening. Vraag dit na bij je provider.
+
+- Gebruik je een USB-dongle (niet meegeleverd) om je router te verbinden met internet, ga dan naar **INTERNET** -> **Tethering** voor een hostloze dongle of naar **INTERNET** -> **Cellular** voor een dongle in standaard USB-modemmodus. Zie de [configuratiehandleiding voor USB-dongles](./internet_cellular_v4.10.md#non-cellular-routers) voor de stappen.
 
 === "iPhone"
 

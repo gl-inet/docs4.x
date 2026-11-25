@@ -13,12 +13,12 @@ W poniższych krokach jako przykłady wykorzystamy GL-MT6000 (Flint 2) i GL-MT30
 
 - GL-MT3000, router podróżny, zostanie skonfigurowany jako klient VPN WireGuard do zdalnego połączenia z serwerem VPN w domu.
 
-## Dlaczego warto zbudować własny serwer domowy WireGuard {#why-you-need-to-build-your-own-wireguard-home-server}
+## Dlaczego warto zbudować własny serwer domowy WireGuard {#why-build-your-own-wireguard-home-server}
 
-1. Używaj swojego domowego adresu IP jako adresu internetowego, działając tak, jakbyś był właśnie w domu.
-2. Nie trzeba płacić miesięcznej opłaty w porównaniu z usługami VPN od firm trzecich.
-3. Kieruj cały ruch internetowy do sieci domowej przez szyfrowany tunel VPN i zabezpiecz swoją prywatność.
-4. Łatwy dostęp do wewnętrznych zasobów i lokalnego streamingu.
+1. Używaj domowego adresu IP jako publicznego adresu IP, aby ruch wyglądał tak, jakby pochodził z domu.
+2. Uniknij miesięcznych opłat pobieranych przez dostawców usług VPN.
+3. Chroń swoją prywatność, szyfrując cały ruch internetowy przesyłany tunelem do sieci domowej.
+4. Korzystaj z urządzeń domowych i lokalnych usług streamingowych z dowolnego miejsca.
 
 ## Przygotowania {#preparations}
 
@@ -46,29 +46,23 @@ Jeśli nie masz publicznego adresu IP, oto kilka metod dla Ciebie.
 
     **Jak sprawdzić, czy router GL.iNet łączy się bezpośrednio z modemem ISP?**
 
-    Kroki:
-    
-    1. Zaloguj się do panelu administracyjnego GL.iNet. 
+    Zaloguj się do panelu administracyjnego GL.iNet. Wybierz **INTERNET** na lewym pasku bocznym i sprawdź topologię oraz szczegóły połączenia.
 
-    2. Wybierz INTERNET z lewego paska bocznego. Sprawdź topologię i szczegóły połączenia:
+    Jeśli router jest podłączony bezpośrednio przez Ethernet, zobaczysz sekcję **Ethernet** z informacjami o protokole, adresie IP i bramie.
 
-        Jeśli połączony bezpośrednio przez Ethernet, zobaczysz sekcję o nazwie "Ethernet" ze szczegółami takimi jak Protocol, IP address, Gateway itp.
+    Na poniższym zrzucie oznaczony adres IP to adres IP WAN przydzielony routerowi GL.iNet przez dostawcę internetu.
 
-        Biorąc poniższy obrazek jako przykład, zaznaczony adres IP to adres IP WAN dostarczony przez ISP dla tego routera GL.iNet. 
+    ![mt6000-home](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/mt6000_home.png){class="glboxshadow"}
 
-        ![mt6000-home](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/mt6000_home.png){class="glboxshadow"}
+    W tym przykładzie adres IP WAN routera głównego GL.iNet jest publiczny, więc **przekierowanie portów nie jest potrzebne**.
 
-        Ten adres IP WAN jest publicznym adresem IP, więc ten router GL.iNet, działający jako router główny, ma publiczny IP i **nie ma potrzeby konfigurowania przekierowania portów dla niego**.
+    Wystarczy skonfigurować ten router GL.iNet jako serwer WireGuard, a router podróżny jako klienta WireGuard łączącego się z serwerem. Routery nawiążą tunel VPN.
 
-        Wystarczy skonfigurować ten router GL.iNet jako serwer WireGuard, a router podróżny jako klienta WireGuard łączącego się z serwerem. Wtedy tunel VPN zostanie zbudowany między nimi.
+    ![topologywg](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/topologywg.jpg){class="glboxshadow"}
 
-        ![topologywg](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/topologywg.jpg){class="glboxshadow"}
-    
 ??? "GL.iNet jako router podrzędny"
 
     Skonfiguruj **przekierowanie portów** na routerze głównym dla routera GL.iNet, jeśli ten ostatni jest za NAT.
-
-    Topologia
 
     ![togologywgtp](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/topologywgtp.jpg){class="glboxshadow"}
 
@@ -96,39 +90,84 @@ Jeśli nie masz publicznego adresu IP, oto kilka metod dla Ciebie.
 
 ## Konfiguracja serwera WireGuard {#set-up-wireguard-server}
 
-### Włącz DDNS (opcjonalnie) {#enable-ddns-optional}
+1. Zaloguj się do panelu administracyjnego w przeglądarce i przejdź do **VPN** -> **WireGuard Server**. Kliknij **Generate Configuration** tylko podczas pierwszej konfiguracji serwera VPN.
 
-Włącz funkcję DDNS, jeśli nie masz statycznego publicznego adresu IP, a tylko dynamiczny publiczny adres IP.
+    ![generate configuration](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/generate_configuration.png){class="glboxshadow"}
 
-Zaloguj się do panelu administracyjnego GL-MT6000 i przejdź do **APPLICATIONS** -> **Dynamic DNS**. Włącz przełącznik **Enable DDNS**.
+2. Sprawdź konfigurację.
 
-Zaznacz pole **Terms of Service & Privacy Policy** i kliknij **Apply**.
+    Pokazana poniżej konfiguracja domyślna sprawdza się w większości przypadków.
 
-![ddnsapply](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/enable_ddns.jpg){class="glboxshadow"}
+    ![check configuration](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/wg_configuration.png){class="glboxshadow"}
 
-Następnie przejdź do zakładki **WireGuard Server** -> Configuration, upewnij się, że port nasłuchu to 51820, następnie kliknij **Apply**.
+    - **IPv4 Address**. To adres IP tunelu serwera WireGuard. Możesz go zachować, jeśli nie koliduje z adresem bramy routera nadrzędnego.
 
-![wgserver](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/wgserver-apply.png){class="glboxshadow"}
+        Jeśli występuje konflikt, zmień adres na inny, na przykład **10.1.0.1/24**, i kliknij **Apply**. Uwzględnij prefiks CIDR `/24`, aby uniknąć problemów z łącznością.
 
-### Generowanie konfiguracji {#generate-configuration}
+        ![modify configuration](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/modify_ipv4.png){class="glboxshadow"}
 
-Na tej samej stronie kliknij zakładkę **Profiles** obok zakładki Configuration, następnie kliknij **Add** (oznaczone jako 1 na poniższym obrazku).
+        Na przykład router Xfinity działający przed routerem GL.iNet może mieć adres IP 10.0.0.1. Ten adres może kolidować z adresem tunelu w niektórych modelach GL.iNet skonfigurowanych jako serwer WireGuard. Jeśli występuje konflikt, zmień adres zgodnie z instrukcją powyżej. W przeciwnym razie zachowaj adres domyślny.
 
-Automatycznie wygeneruje konfigurację klienta. Kliknij **ikonę strzałki** (oznaczoną jako 2).
+        ![xfinity gateway](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/xfinitygateway.jpg){class="glboxshadow"}
 
-W wyskakującym oknie przesuń, aby włączyć DDNS Domain (oznaczone jako 3, co jest opcjonalne i włącz to tylko wtedy, gdy masz dynamiczny publiczny IP).
+    - **IPv6 Address**. Na routerach GL.iNet protokół IPv6 jest domyślnie wyłączony. Aby użyć adresu IPv6, włącz [IPv6](../interface_guide/ipv6.md) na routerze.
 
-![wgservergen](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/wgconfiggen.jpg){class="glboxshadow"}
+    - **Listen Port**. Serwer WireGuard domyślnie nasłuchuje na porcie UDP `51820`. Jeśli zmienisz port i korzystasz z przekierowania portów, zaktualizuj regułę na routerze nadrzędnym, aby kierowała ruch na nowy port nasłuchu serwera. W polu `Endpoint` każdego profilu klienta wpisz port zewnętrzny wskazany w regule. Jeśli serwer jest dostępny bezpośrednio, użyj jego portu nasłuchu.
 
-Następnie możesz zeskanować kod QR za pomocą [aplikacji mobilnej](https://www.wireguard.com/install/) WireGuard, aby przetestować serwer. Szczegóły kliknij [tutaj](../interface_guide/wireguard_server.md#check-if-wireguard-server-is-working-properly).
+    - **Enable Obfuscation**. Po włączeniu tej opcji serwer VPN używa protokołu AmneziaWG do maskowania ruchu VPN. Zalecamy zachowanie ustawień domyślnych i zmienianie ich tylko wtedy, gdy znasz te parametry. Zobacz poniższe instrukcje.
 
-Alternatywnie możesz wyeksportować konfigurację w formacie tekstowym dla połączenia klienta VPN.
+        - [Maskowanie ruchu AmneziaWG na routerach GL.iNet](../faq/amneziawg_obfuscation.md)
+        - [Jak skonfigurować maskowanie ruchu VPN na routerach GL.iNet](../tutorials/how_to_set_up_vpn_obfuscation_on_glinet_routers.md)
 
-Przełącz konfigurację z kodu QR na format tekstowy, klikając zakładkę **Configuration File**. 
+3. Dodaj profil.
 
-Skopiuj tekst dla klienta lub kliknij przycisk Download i zapisz go do późniejszego użytku.
+    Przejdź do karty **Profiles** i kliknij **Add**, aby utworzyć profil dla urządzenia.
 
-![configload](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/configload.jpg){class="glboxshadow"}
+    ![add profiles](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/add_profiles.png){class="glboxshadow"}
+
+    Wpisz nazwę ułatwiającą identyfikację i kliknij **Apply**.
+
+    ![profile name](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/add_profiles_name.png){class="glboxshadow"}
+
+    Aby zmienić ustawienia zaawansowane, kliknij **Set More**. Następnie kliknij **Apply**, aby kontynuować.
+
+    ![profile settings](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/add_profiles_set_more.png){class="glboxshadow"}
+
+    ??? "Dodaj reguły routingu w razie potrzeby"
+
+        W większości przypadków nie trzeba dodawać reguł routingu.
+
+        Aby uzyskać z serwera dostęp do urządzeń w sieci LAN klienta WireGuard, skonfiguruj reguły na karcie **Route Rules** na stronie **WireGuard Server**. Zobacz instrukcję [dostępu do sieci LAN klienta z serwera WireGuard](../tutorials/wireguard_server_access_to_client_lan_side.md).
+
+        ![route rules](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/route_rules.png){class="glboxshadow"}
+
+        Jeśli nie potrzebujesz dodatkowych reguł, przejdź do kroku 4, aby pobrać konfigurację klienta.
+
+4. Pobierz konfigurację.
+
+    Po dodaniu profilu i kliknięciu **Apply** router udostępnia konfigurację jako kod QR, zwykły tekst lub plik `.conf` do pobrania.
+
+    - **QR code**. Zeskanuj kod w aplikacji WireGuard, aby zaimportować standardowy profil WireGuard. Jeśli włączono maskowanie ruchu, użyj aplikacji AmneziaWG lub innego klienta obsługującego maskowanie ruchu AmneziaWG.
+
+        ![client configuration qrcode](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/download_config_qrcode.png){class="glboxshadow"}
+
+    - **Plain text**. Możesz przejrzeć szczegóły konfiguracji w formacie tekstowym i skopiować je do ręcznej konfiguracji, na przykład w aplikacji WireGuard lub na routerze GL.iNet.
+
+        ![client configuration plain text](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/download_config_text.png){class="glboxshadow"}
+
+    - **.conf file**. Kliknij **Download**, aby zapisać plik .conf na swoim urządzeniu. Możesz go zaimportować bezpośrednio do aplikacji WireGuard lub przesłać na router GL.iNet.
+
+        ![client configuration file](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/download_config_file.png){class="glboxshadow"}
+
+    W razie potrzeby jako adres serwera możesz wybrać publiczny adres IP, domenę DDNS lub bieżący adres IP WAN. Ta funkcja jest dostępna od wersji oprogramowania v4.8. Po zmianie adres zostanie również zaktualizowany w pliku konfiguracyjnym.
+
+    Jeśli na przykład publiczny adres IP sieci często się zmienia, włącz [DDNS](../interface_guide/ddns.md) i użyj domeny DDNS jako adresu serwera.
+
+    ![change server address](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/change_server_address.png){class="glboxshadow"}
+
+5. Kliknij **Start** w prawym górnym rogu, aby uruchomić serwer WireGuard. Stan połączenia pojawi się na tej samej stronie.
+
+    ![start wireguard server](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/start_wgserver.png){class="glboxshadow"}
 
 ## Konfiguracja klienta WireGuard {#set-up-wireguard-client}
 
@@ -136,13 +175,11 @@ Skopiuj tekst dla klienta lub kliknij przycisk Download i zapisz go do później
 
 Ponieważ używamy GL-MT6000 i GL-MT3000 jako przykładów w tym samouczku, których domyślne adresy IP LAN to oba **192.168.8.1**, musimy zmienić jeden z nich na inny adres IP LAN, aby uniknąć konfliktu. 
 
-Oto kroki zmiany adresu IP LAN GL-MT3000 (klienta WireGuard).
+Poniżej opisano, jak zmienić adres IP LAN routera GL-MT3000 działającego jako klient WireGuard.
 
-Zaloguj się do panelu administracyjnego GL-MT3000, następnie przejdź do **NETWORK** z lewego paska bocznego -> **LAN**, aby zmienić adres IP LAN. Na przykład możesz zmienić adres IP LAN z domyślnego 192.168.8.1 na `192.168.10.1`.
+Zaloguj się do panelu administracyjnego GL-MT3000 i przejdź do **NETWORK** -> **LAN**, aby zmienić adres IP LAN. Na przykład zamiast domyślnego adresu 192.168.8.1 możesz użyć adresu `192.168.20.1`.
 
 ![change lan](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/change_lan_ip.png){class="glboxshadow"}
-
-Aby uzyskać więcej szczegółów na temat interfejsu LAN, kliknij [tutaj](../interface_guide/lan.md).
 
 ### Dodaj konfigurację {#add-the-configuration}
 
@@ -198,6 +235,7 @@ Przed podróżą powiąż oba routery z kontem GoodCloud. Umożliwi to zdalne ro
 
 Powiązane artykuły
 
+- [Konfiguracja serwera WireGuard na routerach GL.iNet](../interface_guide/wireguard_server.md)
 - [GL.iNet GoodCloud](../interface_guide/cloud.md)
 
 ---

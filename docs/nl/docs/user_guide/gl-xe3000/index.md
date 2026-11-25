@@ -44,8 +44,12 @@ Bekijk deze installatievideo of volg de onderstaande stappen.
     Voor een internetverbinding via een mobiel netwerk is ten minste één nano-simkaart vereist. Voer de volgende stappen uit wanneer je de nano-simkaart(en) hebt voorbereid:
 
     1. Activeer je simkaart(en) als je provider dit vereist.
+
     2. Schakel je router uit.
-    3. Plaats de simkaart(en) in de simkaartsleuven. (**Opmerking:** er is telkens maar één simkaart actief. De andere simkaart dient alleen als back-up.)
+
+    3. Plaats de simkaart(en) als volgt. Houd de kaart met de metalen contacten naar de bovenkant van de router gericht en de afgeschuinde hoek rechtsboven. Houd de kaart horizontaal en schuif deze voorzichtig in de sleuf tot ze vastklikt. (**Opmerking:** er kan maar één simkaart tegelijk actief zijn. De andere dient als back-up.)
+
+        Druk de simkaart opnieuw naar binnen en laat deze los om ze te verwijderen. De kaart veert een stukje naar buiten, zodat je ze uit de sleuf kunt trekken.
 
 ### 1. Inschakelen {#1-power-on}
 

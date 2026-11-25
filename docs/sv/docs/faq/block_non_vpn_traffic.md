@@ -16,7 +16,7 @@ Aktivera **Block Non-VPN Traffic** (kallas även Kill Switch i vissa firmwarever
 
 **Obs!** När Block Non-VPN Traffic/Kill Switch är aktiverat och VPN är inaktiverat eller frånkopplat hindras alla enheter som är anslutna till routern från att använda internet, för att förhindra DNS-läckor.
 
-## För firmware v4.8 eller senare {#for-firmware-v48-or-later}
+## För firmware v4.8 {#for-firmware-v48}
 
 I firmware v4.8 har VPN Kill Switch delats upp i två lägen.
 
@@ -52,9 +52,43 @@ Gå till **VPN** -> **VPN Dashboard** i routerns webbadministrationspanel, ändr
 
 ![all other traffic](https://static.gl-inet.com/docs/router/en/4/faq/block_non_vpn_traffic/4.8-all-other-traffic.png){class="glboxshadow"}
 
-All Other Traffic är en standardtunnel som ger normal internetåtkomst för trafik som inte omfattas av VPN-tunnlarna och policyerna ovan, eller för trafik som har redundansväxlat från VPN-anslutningar. Tunneln är aktiverad som standard och kan inte vara aktiverad samtidigt som Enhanced Kill Switch.
+**All Other Traffic** är standardtunneln. Den ger normal internetåtkomst för trafik som inte matchar någon av VPN-tunnlarna eller policyerna ovan, och för trafik som omdirigeras hit vid redundansväxling för VPN. Tunneln är aktiverad som standard. Om du inaktiverar den blockeras all sådan trafik, även trafik som annars skulle omdirigeras hit vid ett VPN-avbrott. Då når endast trafik som hanteras av de konfigurerade VPN-tunnlarna internet, vilket ger samma skydd som **Enhanced Kill Switch**.
 
-**Obs!** Om du inaktiverar All Other Traffic kan du endast komma åt internet via VPN. All trafik som inte matchar blockeras. Inställningen åsidosätter inte varje tunnels separata Kill Switch.
+**Obs!** **All Other Traffic** åsidosätter inte Kill Switch för enskilda tunnlar.
+
+## För firmware v4.9 och senare {#for-firmware-v49-and-above}
+
+Firmware v4.9 och senare har två typer av VPN Kill Switch: **Tunnel Kill Switch** och **Enhanced Kill Switch**.
+
+### Tunnel Kill Switch {#for-firmware-v49-and-above-tunnel-kill-switch}
+
+Gå till **VPN** -> **VPN Dashboard** i routerns webbadministrationspanel.
+
+Om du konfigurerar routern som VPN-klient aktiveras Kill Switch för VPN-tunneln som standard när VPN-anslutningen aktiveras.
+
+![tunnel kill switch](https://static.gl-inet.com/docs/router/en/4/faq/block_non_vpn_traffic/4.9-tunnel-kill-switch.png){class="glboxshadow"}
+
+Klicka på kugghjulsikonen bredvid tunnelns namn för att öppna **Tunnel Options**.
+
+![tunnel options 1](https://static.gl-inet.com/docs/router/en/4/faq/block_non_vpn_traffic/4.9-tunnel-options-1.png){class="glboxshadow"}
+
+Kill Switch för tunneln är aktiverad som standard.
+
+![tunnel options 2](https://static.gl-inet.com/docs/router/en/4/faq/block_non_vpn_traffic/4.9-tunnel-options-2.png){class="glboxshadow" width=600}
+
+### Enhanced Kill Switch {#for-firmware-v49-and-above-enhanced-kill-switch}
+
+Gå till **VPN** -> **VPN Dashboard** i routerns webbadministrationspanel och klicka på kugghjulsikonen i det övre högra hörnet.
+
+![all other traffic 1](https://static.gl-inet.com/docs/router/en/4/faq/block_non_vpn_traffic/4.9-all-other-traffic-1.png){class="glboxshadow"}
+
+Trafikpolicyn har två alternativ: **Allow Non-VPN Traffic** och **Enhanced Kill Switch**.
+
+![all other traffic 2](https://static.gl-inet.com/docs/router/en/4/faq/block_non_vpn_traffic/4.9-all-other-traffic-2.png){class="glboxshadow" width=600}
+
+- **Allow Non-VPN Traffic**: Aktiverat som standard. Alternativet ger normal internetåtkomst för trafik som inte matchar någon av VPN-tunnlarna eller policyerna ovan och för trafik som omdirigeras hit vid redundansväxling för VPN.
+
+- **Enhanced Kill Switch**: När alternativet är aktiverat måste alla enheter använda VPN för att komma åt internet. Trafik som inte matchar någon VPN-tunnel blockeras. Inställningen åsidosätter inte Kill Switch för enskilda VPN-tunnlar.
 
 ---
 

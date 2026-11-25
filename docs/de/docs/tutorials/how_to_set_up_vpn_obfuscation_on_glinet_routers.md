@@ -4,7 +4,7 @@
 
 Diese Anleitung beschreibt zwei Szenarien zum Einrichten der AmneziaWG-Verschleierung auf GL.iNet-Routern.
 
-## Szenario 1. Verwendung von zwei GL.iNet-Routern {#scenario-1-using-two-glinet-routers}
+## Zwei GL.iNet-Router verwenden {#using-two-glinet-routers}
 
 In diesem Szenario werden zwei GL.iNet-Router verwendet, um über das AmneziaWG-Protokoll eine VPN-Verschleierungsverbindung herzustellen.
 
@@ -22,7 +22,7 @@ In diesem Szenario werden zwei GL.iNet-Router verwendet, um über das AmneziaWG-
 
     Wenn der Brume 3 als primärer Router verwendet wird, verbinden Sie seinen WAN-Port mit dem vorgelagerten Netzwerk, z. B. einem ISP-Modem.
 
-    Wenn er nicht als primärer Router verwendet wird (d. h. wenn ein anderes vorgeschaltetes Gerät, z. B. ein ISP-Router, als primärer Router fungiert), ist auf Ihrem primären Router eine **Portweiterleitung** erforderlich. Weitere Informationen finden Sie unter [diesem Link](how_to_set_up_port_forwarding.md).
+    Wenn er nicht als primärer Router verwendet wird (d. h. wenn ein anderes vorgeschaltetes Gerät, z. B. ein ISP-Router, als primärer Router fungiert), ist auf Ihrem primären Router eine **Portweiterleitung** erforderlich. Folgen Sie der Anleitung zum [Einrichten der Portweiterleitung auf Ihrem primären Router](how_to_set_up_port_forwarding.md).
 
 3. DDNS aktivieren (optional).
 
@@ -32,15 +32,24 @@ In diesem Szenario werden zwei GL.iNet-Router verwendet, um über das AmneziaWG-
 
     ![enable ddns](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/enable_ddns.png){class="glboxshadow"}
 
-4. VPN-Verschleierung aktivieren.
+4. Verschleierung aktivieren.
 
     Navigieren Sie in der linken Seitenleiste zu **VPN** > **WireGuard Server** -> Registerkarte **Configurations**, aktivieren Sie **Enable Obfuscation** und klicken Sie dann auf **Apply**.
 
     ![enable obfuscation](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_obfuscation1.png){class="glboxshadow"}
 
-    Sie können die Verschleierungsparameter nach Bedarf anpassen. Klicken Sie [hier](../faq/amneziawg_obfuscation.md) für Details. Wir empfehlen, die Standardeinstellungen beizubehalten.
+    Wenn Sie die Verschleierungsparameter manuell einstellen möchten, klicken Sie auf **Set Obfuscation Parameters**, um die Parameterfelder einzublenden. Passen Sie die Werte an und klicken Sie auf **Apply**. Behalten Sie die Standardeinstellungen bei und ändern Sie sie nur, wenn Sie mit den Parametern vertraut sind. Weitere Informationen finden Sie unter [AmneziaWG-Verschleierung auf GL.iNet-Routern](../faq/amneziawg_obfuscation.md).
 
-    ![enable obfuscation](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_obfuscation2.png){class="glboxshadow"}
+    ![enable obfuscation](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_obfuscation2.jpg){class="glboxshadow"}
+
+    Ab Firmware v4.11.1 können Sie auch die Version der Verschleierung wechseln. Wählen Sie die gewünschte Version in der Dropdown-Liste aus, klicken Sie auf **Regenerate** und anschließend auf **Apply**.
+
+    Das folgende Video zeigt die Schritte.
+
+    <video src="https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/select_version.mp4"
+        controls playsinline preload="metadata" width="800" style="max-width:100%;height:auto">
+    Ihr Browser unterstützt keine eingebetteten Videos. Öffnen Sie die Vorführung in einem neuen Tab (<a href="https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/select_version.mp4" target="_blank" rel="noopener">select_version.mp4</a>).
+    </video>
 
 5. Konfigurationsdatei exportieren.
 
@@ -116,7 +125,7 @@ In diesem Szenario werden zwei GL.iNet-Router verwendet, um über das AmneziaWG-
 
 Die VPN-Verbindung ist damit abgeschlossen. Alle Geräte am Beryl AX greifen jetzt über das Gateway des Brume 3 auf das Internet zu, wodurch eine VPN-Verschleierungsverbindung ermöglicht wird.
 
-## Szenario 2. Verwendung eines einzelnen GL.iNet-Routers {#scenario-2-using-a-single-glinet-router}
+## Einen einzelnen GL.iNet-Router verwenden {#using-a-single-glinet-router}
 
 In diesem Szenario wird ein einzelner GL.iNet-Router **Brume 3 (GL-MT5000)** als VPN-Client verwendet, um sich mit einem AmneziaVPN-Server zu verbinden.
 
@@ -191,5 +200,10 @@ Nehmen Sie StarVPN als Beispiel.
 Die VPN-Verbindung ist damit abgeschlossen. Alle Geräte am Brume 3 greifen jetzt über den AmneziaVPN-Server auf das Internet zu, wodurch eine VPN-Verschleierungsverbindung ermöglicht wird.
 
 ---
+
+Verwandte Artikel
+
+- [Offizielle AmneziaWG-Dokumentation](https://docs.amnezia.org/documentation/amnezia-wg/){target="_blank"}
+- [AmneziaWG-Verschleierung auf GL.iNet-Routern](../faq/amneziawg_obfuscation.md)
 
 Haben Sie noch Fragen? Besuchen Sie unser [Community Forum](https://forum.gl-inet.com){target="_blank"} oder [kontaktieren Sie uns](https://www.gl-inet.com/contacts/){target="_blank"}.

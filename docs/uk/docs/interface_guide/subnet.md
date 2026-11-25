@@ -26,7 +26,7 @@
 
 Можна задати підмережу в межах приватних діапазонів IPv4: `192.168.0.0/16`, `172.16.0.0/12`, `10.0.0.0/8`.
 
-![Основні налаштування головної мережі](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/main-network-basic.png){class="glboxshadow" width=650}
+![Основні налаштування головної мережі](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/main-network-basic.png){class="glboxshadow" width=700}
 
 - **Router IP Address**
 
@@ -54,13 +54,13 @@
 
 Можна змінити початкову й кінцеву IP-адреси відповідно до потреб, наприклад у разі розширення або скорочення мережі, конфліктів IP-адрес чи зміни діапазону маски підмережі.
 
-![Сервер DHCP основної мережі](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/main-network-dhcp-server-1.png){class="glboxshadow" width=650}
+![Сервер DHCP основної мережі](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/main-network-dhcp-server-1.png){class="glboxshadow" width=700}
 
 За потреби натисніть **Advanced** для додаткового налаштування.
 
-![Додаткові налаштування DHCP основної мережі](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/main-network-dhcp-server-2.png){class="glboxshadow" width=650}
+![Додаткові налаштування DHCP основної мережі](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/main-network-dhcp-server-2.png){class="glboxshadow" width=700}
 
-![Параметри DHCP основної мережі](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/main-network-dhcp-server-3.png){class="glboxshadow" width=650}
+![Параметри DHCP основної мережі](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/main-network-dhcp-server-3.png){class="glboxshadow" width=700}
 
 - **Lease Time**: період, протягом якого IP-адреса, призначена DHCP, є дійсною для пристрою.
 
@@ -80,19 +80,19 @@
 
 Натисніть **Add**, щоб зарезервувати IP-адресу.
 
-![Додавання резервування адреси](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/address-reservation-1.png){class="glboxshadow" width=650}
+![Додавання резервування адреси](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/address-reservation-1.png){class="glboxshadow" width=700}
 
 З’явиться спливне вікно.
 
-![Резервування IP-адреси](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/address-reservation-2.png){class="glboxshadow" width=650}
+![Резервування IP-адреси](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/address-reservation-2.png){class="glboxshadow" width=600}
 
 Виберіть **MAC** із розкривного списку. Відповідну доступну **IP**-адресу буде підставлено автоматично. За потреби введіть **hostname** і власне **name** для зручної ідентифікації. Потім натисніть **Submit**.
 
-![Параметри резервування адреси](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/address-reservation-3.png){class="glboxshadow" width=650}
+![Параметри резервування адреси](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/address-reservation-3.png){class="glboxshadow" width=600}
 
 Після додавання нового резервування IP-адреси сторінка матиме вигляд, показаний нижче. Це означає, що налаштування успішне.
 
-![Зарезервовані адреси](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/address-reservation-4.png){class="glboxshadow" width=650}
+![Зарезервовані адреси](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/address-reservation-4.png){class="glboxshadow" width=700}
 
 ## Гостьова мережа {#guest-network}
 
@@ -154,13 +154,13 @@
 
 Можна змінити початкову й кінцеву IP-адреси відповідно до потреб, наприклад у разі розширення або скорочення мережі, конфліктів IP-адрес чи зміни діапазону маски підмережі.
 
-![Сервер DHCP гостьової мережі](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/guest-network-dhcp-server-1.png){class="glboxshadow" width=650}
+![Сервер DHCP гостьової мережі](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/guest-network-dhcp-server-1.png){class="glboxshadow" width=700}
 
 За потреби натисніть **Advanced** для додаткового налаштування.
 
-![Додаткові налаштування DHCP гостьової мережі](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/guest-network-dhcp-server-2.png){class="glboxshadow" width=650}
+![Додаткові налаштування DHCP гостьової мережі](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/guest-network-dhcp-server-2.png){class="glboxshadow" width=700}
 
-![Параметри DHCP гостьової мережі](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/guest-network-dhcp-server-3.png){class="glboxshadow" width=650}
+![Параметри DHCP гостьової мережі](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/guest-network-dhcp-server-3.png){class="glboxshadow" width=700}
 
 - **Lease Time**: період, протягом якого IP-адреса, призначена DHCP, є дійсною для пристрою.
 
@@ -230,13 +230,13 @@
 
 Можна змінити початкову й кінцеву IP-адреси відповідно до потреб, наприклад у разі розширення або скорочення мережі, конфліктів IP-адрес чи зміни діапазону маски підмережі.
 
-![Сервер DHCP мережі IoT](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/iot-network-dhcp-server-1.png){class="glboxshadow" width=650}
+![Сервер DHCP мережі IoT](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/iot-network-dhcp-server-1.png){class="glboxshadow" width=700}
 
 За потреби натисніть **Advanced** для додаткового налаштування.
 
-![Додаткові налаштування DHCP мережі IoT](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/iot-network-dhcp-server-2.png){class="glboxshadow" width=650}
+![Додаткові налаштування DHCP мережі IoT](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/iot-network-dhcp-server-2.png){class="glboxshadow" width=700}
 
-![Параметри DHCP мережі IoT](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/iot-network-dhcp-server-3.png){class="glboxshadow" width=650}
+![Параметри DHCP мережі IoT](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/iot-network-dhcp-server-3.png){class="glboxshadow" width=700}
 
 - **Lease Time**: період, протягом якого IP-адреса, призначена DHCP, є дійсною для пристрою.
 
@@ -262,7 +262,7 @@
 
 На цій сторінці можна налаштувати основні відомості **VLAN Networks**.
 
-![Основні налаштування мережі VLAN](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/vlan-networks-basic-settings.png){class="glboxshadow" width=650}
+![Основні налаштування мережі VLAN](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/vlan-networks-basic-settings.png){class="glboxshadow" width=700}
 
 - **Name**
 
@@ -306,13 +306,13 @@
 
 Можна змінити початкову й кінцеву IP-адреси відповідно до потреб, наприклад у разі розширення або скорочення мережі, конфліктів IP-адрес чи зміни діапазону маски підмережі.
 
-![Сервер DHCP мережі VLAN](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/vlan-networks-dhcp-server-1.png){class="glboxshadow" width=650}
+![Сервер DHCP мережі VLAN](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/vlan-networks-dhcp-server-1.png){class="glboxshadow" width=700}
 
 За потреби натисніть **Advanced** для додаткового налаштування.
 
-![Додаткові налаштування DHCP мережі VLAN](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/vlan-networks-dhcp-server-2.png){class="glboxshadow" width=650}
+![Додаткові налаштування DHCP мережі VLAN](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/vlan-networks-dhcp-server-2.png){class="glboxshadow" width=700}
 
-![Параметри DHCP мережі VLAN](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/vlan-networks-dhcp-server-3.png){class="glboxshadow" width=650}
+![Параметри DHCP мережі VLAN](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/vlan-networks-dhcp-server-3.png){class="glboxshadow" width=700}
 
 - **Lease Time**: період, протягом якого IP-адреса, призначена DHCP, є дійсною для пристрою.
 

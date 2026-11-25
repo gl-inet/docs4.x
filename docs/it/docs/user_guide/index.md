@@ -1,6 +1,6 @@
 # Guida utente {#user-guide}
 
-### Router da viaggio {#travel-router}
+## Router da viaggio e mini router {#travel-mini-router}
 
 <div class="gl-product-row">
   <div class="gl-product-row-box">
@@ -67,10 +67,24 @@
         <div class="gl-product-model">(Beryl)</div>
       </a>
     </div>
+    <div class="gl-product-card">
+      <a href="gl-mt300n-v2/">
+        <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_mt300n-v2.jpg" >
+        <div class="gl-product-model">GL-MT300N-V2</div>
+        <div class="gl-product-model">(Mango)</div>
+      </a>
+    </div>
+    <div class="gl-product-card">
+      <a href="gl-ar300m/">
+        <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_ar300m.jpg" >
+        <div class="gl-product-model">GL-AR300M Series</div>
+        <div class="gl-product-model">(Shadow)</div>
+      </a>
+    </div>
   </div>
 </div>
 
-### Router cellulari {#cellular-router}
+## Router cellulari {#cellular-router}
 
 <div class="gl-product-row">
   <div class="gl-product-row-box">
@@ -133,7 +147,7 @@
   </div>
 </div>
 
-### Wi-Fi domestico {#home-router}
+## Wi-Fi domestico {#home-router}
 
 <div class="gl-product-row">
   <div class="gl-product-row-box">
@@ -189,7 +203,7 @@
   </div>
 </div>
 
-### Gateway di sicurezza e mini router {#security-gateway-mini-routers}
+## Gateway di sicurezza {#security-gateway}
 
 <div class="gl-product-row">
   <div class="gl-product-row-box">
@@ -207,24 +221,10 @@
         <div class="gl-product-model">(Brume 2)</div>
     </a>
   </div>
-    <div class="gl-product-card">
-      <a href="gl-mt300n-v2/">
-       <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_mt300n-v2.jpg" >
-        <div class="gl-product-model">GL-MT300N-V2</div>
-        <div class="gl-product-model">(Mango)</div>
-    </a>
-  </div>
-    <div class="gl-product-card">
-      <a href="gl-ar300m/">
-       <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_ar300m.jpg" >
-        <div class="gl-product-model">GL-AR300M Series</div>
-        <div class="gl-product-model">(Shadow)</div>
-    </a>
-  </div>
   </div>
 </div>
 
-### Dongle USB 4G/5G {#4g5g-usb-dongle}
+## Dongle USB {#usb-dongle}
 
 <div class="gl-product-row">
   <div class="gl-product-row-box">
@@ -237,7 +237,7 @@
   </div>
 </div>
 
-### Scheda e modulo {#board-module}
+## Scheda e modulo {#board-module}
 
 <div class="gl-product-row">
   <div class="gl-product-row-box">
@@ -250,7 +250,7 @@
   </div>
 </div>
 
-### Gateway IoT {#iot-gateway}
+## Gateway IoT {#iot-gateway}
 
 <div class="gl-product-row">
   <div class="gl-product-row-box">
@@ -278,7 +278,7 @@
   </div>
 </div>
 
-### Modelli legacy {#legacy-models}
+## Modelli legacy {#legacy-models}
 
 <div class="gl-product-row">
   <div class="gl-product-row-box">

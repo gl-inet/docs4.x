@@ -186,6 +186,26 @@ Jeśli chcesz usunąć konkretnego klienta, kliknij ikonę trzech kropek w kolum
 
 ![remove offline clients](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/remove_offline.png){class="glboxshadow"}
 
+## Izolowanie klientów {#isolate-clients}
+
+Aby uniemożliwić komunikację między klientami Wi-Fi w tej samej sieci, włącz **AP Isolation** w ustawieniach sieciowych. Opcja jest dostępna poza stroną Clients.
+
+**Uwaga:** Funkcja AP Isolation dotyczy wyłącznie klientów Wi-Fi. Nie obejmuje urządzeń przewodowych.
+
+Poniższy przykład pokazuje, jak włączyć AP Isolation dla klientów Wi-Fi sieci głównej na urządzeniu GL-MT3000 z firmware v4.11.
+
+1. W panelu administracyjnym WWW przejdź do **Network** -> **LAN** -> **Main Network**. Ścieżka zależy od wersji firmware.
+
+    Kliknij **Edit** w prawym dolnym rogu.
+
+    ![AP Isolation](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/ap-isolation-1.png){class="glboxshadow"}
+
+2. Włącz **AP Isolation** i kliknij **Apply**.
+
+    ![AP Isolation](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/ap-isolation-2.png){class="glboxshadow" width=650}
+
+    Klienci Wi-Fi w sieci głównej nie będą już mogli komunikować się ze sobą.
+
 ---
 
 Nadal masz pytania? Odwiedź nasze [Forum społeczności](https://forum.gl-inet.com){target="_blank"} lub [skontaktuj się z nami](https://www.gl-inet.com/contacts/){target="_blank"}.

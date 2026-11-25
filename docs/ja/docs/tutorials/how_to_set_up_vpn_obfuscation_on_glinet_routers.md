@@ -4,7 +4,7 @@
 
 このガイドでは、GL.iNetルーターでAmneziaWG難読化を設定する2つのシナリオを説明します。
 
-## シナリオ1：2台のGL.iNetルーターを使用する {#scenario-1-using-two-glinet-routers}
+## 2台のGL.iNetルーターを使用する {#using-two-glinet-routers}
 
 このシナリオでは、2台の GL.iNet ルーターを使って、AmneziaWG プロトコル経由の VPN Obfuscation 接続を確立します。
 
@@ -21,7 +21,7 @@
 
     Brume 3 をメインルーターとして使う場合は、WANポートを ISP モデムなどの上位ネットワークに接続します。
 
-    メインルーターではない場合（つまり、ISPルーターなど別の上位機器がメインルーターとして動作している場合）は、メインルーター側で**ポートフォワーディング**を設定する必要があります。詳しくは[こちら](how_to_set_up_port_forwarding.md)をご覧ください。
+    メインルーターではない場合（つまり、ISPルーターなど別の上位機器がメインルーターとして動作している場合）は、メインルーター側で**ポートフォワーディング**を設定する必要があります。詳しくは、[メインルーターでポートフォワーディングを設定する方法](how_to_set_up_port_forwarding.md)を参照してください。
 
 3. DDNS を有効にします（任意）。
 
@@ -31,17 +31,24 @@
 
     ![enable ddns](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/enable_ddns.png){class="glboxshadow"}
 
-4. VPN Obfuscation を有効にします。
+4. 難読化を有効にします。
 
     左側のサイドバーで **VPN** > **WireGuard Server** -> **Configurations** タブに移動し、**Enable Obfuscation** をオンにして **Apply** をクリックします。
 
     ![enable obfuscation](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_obfuscation1.png){class="glboxshadow"}
 
-    必要に応じて難読化パラメーターをカスタマイズできます。詳細については[こちら](../faq/amneziawg_obfuscation.md)をクリックしてください。
+    難読化パラメーターを手動で変更する場合は、**Set Obfuscation Parameters** をクリックして入力欄を表示します。必要な値を入力し、**Apply** をクリックします。通常はデフォルト設定を使用し、各パラメーターの意味を理解している場合にのみ変更してください。詳しくは、[GL.iNetルーターのAmneziaWG難読化](../faq/amneziawg_obfuscation.md)を参照してください。
 
-    デフォルト設定のまま使用することをおすすめします。
+    ![enable obfuscation](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_obfuscation2.jpg){class="glboxshadow"}
 
-    ![enable obfuscation](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_obfuscation2.png){class="glboxshadow"}
+    ファームウェアv4.11.1以降では、難読化のバージョンを切り替えることもできます。ドロップダウンリストから使用するバージョンを選択し、**Regenerate**、**Apply** の順にクリックします。
+
+    手順は以下の動画で確認できます。
+
+    <video src="https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/select_version.mp4"
+        controls playsinline preload="metadata" width="800" style="max-width:100%;height:auto">
+    お使いのブラウザーは埋め込み動画に対応していません。新しいタブで手順の動画（<a href="https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/select_version.mp4" target="_blank" rel="noopener">select_version.mp4</a>）を開いてください。
+    </video>
 
 5. 設定ファイルをエクスポートします。
 
@@ -117,7 +124,7 @@
 
     これでVPN接続は完了です。Beryl AX に接続されたすべてのデバイスは、Brume 3 のゲートウェイ経由でインターネットにアクセスし、VPN Obfuscation 接続を利用できます。
 
-## シナリオ2：1台のGL.iNetルーターを使用する {#scenario-2-using-a-single-glinet-router}
+## 1台のGL.iNetルーターを使用する {#using-a-single-glinet-router}
 
 このシナリオでは、1台の GL.iNet ルーター **Brume 3 (GL-MT5000)** をVPNクライアントとして使い、AmneziaVPN サーバーに接続します。
 
@@ -192,5 +199,10 @@ StarVPN を例に説明します。
     これでVPN接続は完了です。Brume 3 に接続されたすべてのデバイスは、AmneziaVPN サーバー経由でインターネットにアクセスし、VPN Obfuscation 接続を利用できます。
 
 ---
+
+関連記事
+
+- [AmneziaWG公式ドキュメント](https://docs.amnezia.org/documentation/amnezia-wg/){target="_blank"}
+- [GL.iNetルーターのAmneziaWG難読化](../faq/amneziawg_obfuscation.md)
 
 ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

@@ -53,7 +53,7 @@ hide:
 * [Як заблокувати трафік поза VPN?](block_non_vpn_traffic.md)
 * [Аварійне блокування VPN (Kill Switch)](block_non_vpn_traffic.md)
 * [Який протокол вибрати для OpenVPN: TCP чи UDP?](openvpn_tcp_udp.md)
-* [Обфускація AmneziaWG](amneziawg_obfuscation.md)
+* [Маскування трафіку AmneziaWG на маршрутизаторах GL.iNet](amneziawg_obfuscation.md)
 * [Не вдається підключитися до сервера WireGuard з обфускацією](cannot_connect_to_obfuscated_wireguard_server.md)
 * [Чи потрібно налаштовувати Ethernet WAN для використання VPN?](do_i_have_to_configure_ethernet_wan_when_using_vpn.md)
 
@@ -68,6 +68,7 @@ hide:
 * [Мобільний застосунок GL.iNet](mobile_app.md)
 * [Як додати Brume 2 до мобільного застосунку?](how_to_add_brume2_into_app.md)
 * [Як змінити роль порту WAN на LAN?](change_wan_to_lan.md)
+* [Як надавати спільний доступ до файлів через Samba, WebDAV або DLNA?](../interface_guide/network_storage.md)
 * [Як отримати доступ до маршрутизатора GL.iNet і Adguard Home через HTTPS?](use_https_for_adh.md)
 * [Як підключити маршрутизатор GL.iNet до антени Starlink Dish?](connect_glinetrouter_to_starlink.md)
 * [Як отримати віддалений доступ до вебпанелі адміністрування маршрутизатора?](remote_access_web_admin_panel.md)

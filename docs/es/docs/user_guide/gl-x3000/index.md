@@ -44,8 +44,12 @@ Vea este video de configuración o siga los pasos a continuación.
     Se requiere al menos una tarjeta nano SIM para conectarse a Internet mediante el método cellular. Cuando tenga lista la(s) tarjeta(s) nano SIM, siga estos pasos:
 
     1. Active la(s) tarjeta(s) SIM si así lo requiere el operador.
+
     2. Apague el router.
-    3. Inserte la(s) tarjeta(s) SIM en las ranuras correspondientes. (**Nota:** Solo una tarjeta SIM está activa a la vez. La otra solo funciona como respaldo).
+
+    3. Inserte la tarjeta o tarjetas SIM como se indica a continuación. Oriente la tarjeta con los contactos metálicos hacia la parte superior del router y la esquina recortada arriba a la derecha. Manténgala horizontal y deslícela suavemente en la ranura hasta que encaje. (**Nota:** Solo puede haber una tarjeta SIM activa a la vez. La otra sirve de respaldo).
+
+        Para extraer la tarjeta SIM, presiónela hacia dentro y suéltela. La tarjeta sobresaldrá ligeramente para que pueda retirarla.
 
 ### 1. Encendido {#1-power-on}
 

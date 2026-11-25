@@ -1,12 +1,12 @@
-# Як налаштувати обфускацію VPN на маршрутизаторах GL.iNet? {#how-to-set-up-vpn-obfuscation-on-glinet-routers}
+# Як налаштувати маскування трафіку VPN на маршрутизаторах GL.iNet? {#how-to-set-up-vpn-obfuscation-on-glinet-routers}
 
 **Примітка**: Маршрутизатори GL.iNet підтримують AmneziaWG у прошивці v4.9 та новіших версіях. Спочатку оновіть маршрутизатор до підтримуваної версії.
 
-У цьому посібнику описано два сценарії налаштування обфускації AmneziaWG на маршрутизаторах GL.iNet.
+У цьому посібнику описано два сценарії налаштування маскування трафіку AmneziaWG на маршрутизаторах GL.iNet.
 
-## Сценарій 1. Два маршрутизатори GL.iNet {#scenario-1-using-two-glinet-routers}
+## Використання двох маршрутизаторів GL.iNet {#using-two-glinet-routers}
 
-У цьому сценарії два маршрутизатори GL.iNet встановлюють з’єднання VPN з обфускацією за протоколом AmneziaWG.
+У цьому сценарії два маршрутизатори GL.iNet встановлюють з’єднання VPN з маскуванням трафіку за протоколом AmneziaWG.
 
 - Brume 3 (GL-MT5000): сервер VPN для дому.
 - Beryl AX (GL-MT3000): портативний клієнт VPN для подорожей.
@@ -21,7 +21,7 @@
 
     Якщо Brume 3 — основний маршрутизатор, підключіть його порт WAN до мережі вищого рівня, наприклад модема провайдера.
 
-    Якщо він не основний, тобто вище є інший основний пристрій, наприклад маршрутизатор провайдера, налаштуйте **перенаправлення портів** на основному маршрутизаторі. Дивіться [цю інструкцію](how_to_set_up_port_forwarding.md).
+    Якщо він не основний, тобто вище є інший основний пристрій, наприклад маршрутизатор провайдера, налаштуйте **перенаправлення портів** на основному маршрутизаторі. Дивіться [інструкцію з перенаправлення портів на основному маршрутизаторі](how_to_set_up_port_forwarding.md).
 
 3. Увімкніть DDNS (необов’язково).
 
@@ -31,17 +31,24 @@
 
     ![Увімкнення DDNS](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/enable_ddns.png){class="glboxshadow"}
 
-4. Увімкніть обфускацію VPN.
+4. Увімкніть маскування трафіку.
 
-    У меню ліворуч відкрийте **VPN** > **WireGuard Server** -> вкладку **Configurations**, увімкніть **Enable Obfuscation** і натисніть **Apply**.
+    У меню ліворуч відкрийте **VPN** -> **WireGuard Server**, а потім вкладку **Configurations**. Увімкніть **Enable Obfuscation** і натисніть **Apply**.
 
-    ![Увімкнення обфускації VPN на сервері](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_obfuscation1.png){class="glboxshadow"}
+    ![Увімкнення маскування трафіку VPN на сервері](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_obfuscation1.png){class="glboxshadow"}
 
-    За потреби змініть параметри обфускації. Докладніше дивіться [тут](../faq/amneziawg_obfuscation.md).
+    Щоб налаштувати параметри маскування вручну, натисніть **Set Obfuscation Parameters**. У полях, що відкриються, змініть потрібні значення та натисніть **Apply**. Рекомендуємо залишити налаштування за замовчуванням і змінювати їх лише за умови, що вам відоме призначення цих параметрів. Докладніше дивіться в посібнику [Маскування трафіку AmneziaWG на маршрутизаторах GL.iNet](../faq/amneziawg_obfuscation.md).
 
-    Рекомендуємо залишити налаштування за замовчуванням.
+    ![Налаштування параметрів маскування трафіку](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_obfuscation2.jpg){class="glboxshadow"}
 
-    ![Увімкнення обфускації VPN на сервері](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_obfuscation2.png){class="glboxshadow"}
+    Починаючи з прошивки v4.11.1, можна також змінити версію протоколу маскування трафіку. Виберіть потрібну версію з розкривного списку, натисніть **Regenerate**, а потім **Apply**.
+
+    Порядок дій показано у відео нижче.
+
+    <video src="https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/select_version.mp4"
+        controls playsinline preload="metadata" width="800" style="max-width:100%;height:auto">
+    Ваш браузер не підтримує вбудоване відео. Відкрийте демонстрацію в новій вкладці за посиланням <a href="https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/select_version.mp4" target="_blank" rel="noopener">select_version.mp4</a>.
+    </video>
 
 5. Експортуйте файл конфігурації.
 
@@ -61,13 +68,13 @@
 
     Угорі сторінки **WireGuard Server** натисніть кнопку **Start**, щоб запустити сервер.
 
-    ![Запуск сервера з обфускацією](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_start1.png){class="glboxshadow"}
+    ![Запуск сервера з маскуванням трафіку](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_start1.png){class="glboxshadow"}
 
-    Сервер VPN з обфускацією AmneziaWG увімкнено. До Brume 3 можна підключатися через застосунок AmneziaWG або маршрутизатор GL.iNet із прошивкою, яка підтримує обфускацію AmneziaWG.
+    Сервер VPN з маскуванням трафіку AmneziaWG увімкнено. До Brume 3 можна підключатися через застосунок AmneziaWG або маршрутизатор GL.iNet із прошивкою, яка підтримує маскування трафіку AmneziaWG.
 
-    **Примітка: Клієнти без підтримки обфускації AmneziaWG не зможуть підключитися.**
+    **Примітка: Клієнти без підтримки маскування трафіку AmneziaWG не зможуть підключитися.**
 
-    ![Запуск сервера з обфускацією](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_start2.png){class="glboxshadow"}
+    ![Запуск сервера з маскуванням трафіку](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_start2.png){class="glboxshadow"}
 
 ### Налаштування клієнта VPN {#set-up-vpn-client}
 
@@ -115,13 +122,13 @@
 
     ![Підключений клієнт на сервері](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_online_client.png){class="glboxshadow"}
 
-    З’єднання VPN налаштовано. Усі пристрої на Beryl AX тепер отримують доступ до інтернету через шлюз Brume 3 із використанням обфускації VPN.
+    З’єднання VPN налаштовано. Усі пристрої на Beryl AX тепер отримують доступ до інтернету через шлюз Brume 3 із маскуванням трафіку VPN.
 
-## Сценарій 2. Один маршрутизатор GL.iNet {#scenario-2-using-a-single-glinet-router}
+## Використання одного маршрутизатора GL.iNet {#using-a-single-glinet-router}
 
 У цьому сценарії один маршрутизатор GL.iNet **Brume 3 (GL-MT5000)** працює як клієнт VPN для підключення до сервера AmneziaVPN.
 
-Власний сервер розгортати не потрібно. Завантажте файл конфігурації AmneziaWG з [офіційного вебсайту Amnezia](https://amnezia.org/){target="_blank"} або від провайдера VPN, який підтримує AmneziaWG, і завантажте файл на маршрутизатор GL.iNet. Після цього можна встановити з’єднання VPN з обфускацією.
+Власний сервер розгортати не потрібно. Завантажте файл конфігурації AmneziaWG з [офіційного вебсайту Amnezia](https://amnezia.org/){target="_blank"} або від провайдера VPN, який підтримує AmneziaWG, і завантажте файл на маршрутизатор GL.iNet. Після цього можна встановити з’єднання VPN з маскуванням трафіку.
 
 ### Завантаження конфігурації {#download-configuration}
 
@@ -189,8 +196,13 @@
 
     ![Стан підключення до AmneziaVPN](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/client_dashboard_amnezia.png){class="glboxshadow"}
 
-    З’єднання VPN налаштовано. Усі пристрої на Brume 3 тепер отримують доступ до інтернету через сервер AmneziaVPN із використанням обфускації VPN.
+    З’єднання VPN налаштовано. Усі пристрої на Brume 3 тепер отримують доступ до інтернету через сервер AmneziaVPN із маскуванням трафіку VPN.
 
 ---
+
+Пов’язані статті
+
+- [Офіційна документація AmneziaWG](https://docs.amnezia.org/documentation/amnezia-wg/){target="_blank"}
+- [Маскування трафіку AmneziaWG на маршрутизаторах GL.iNet](../faq/amneziawg_obfuscation.md)
 
 Маєте запитання? Відвідайте наш [форум спільноти](https://forum.gl-inet.com){target="_blank"} або [зв’яжіться з нами](https://www.gl-inet.com/contacts/){target="_blank"}.

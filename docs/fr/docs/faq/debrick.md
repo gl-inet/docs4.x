@@ -158,6 +158,8 @@ Reportez-vous à ce tutoriel vidéo ou suivez les procédures ci-dessous pour ac
 
     ??? "macOS"
 
+        **Remarque :** Les étapes suivantes prennent l’interface de macOS Big Sur 11 comme exemple. Pour les autres versions, consultez l’[assistance Apple](https://support.apple.com/guide/mac-help/mh11939/mac){target="blank"} et sélectionnez votre version de macOS pour afficher les instructions.
+
         1. Cliquez sur l’icône **Apple** en haut à gauche de l’écran, puis sélectionnez **System Preferences**.
 
             ![macos system preferences](https://static.gl-inet.com/docs/router/en/4/faq/debrick/macos_system_preferences.png){class="glboxshadow"}

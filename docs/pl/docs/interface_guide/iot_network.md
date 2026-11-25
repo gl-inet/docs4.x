@@ -30,6 +30,8 @@ Możesz ustawić podsieć w zakresie prywatnych adresów IPv4: `192.168.0.0/16`,
 
     Możesz odizolować urządzenia klienckie w osobnym segmencie sieci. Urządzenia te nie będą mogły komunikować się z innymi urządzeniami w tej samej sieci.
 
+    **Uwaga:** Funkcja AP Isolation dotyczy wyłącznie klientów Wi-Fi. Nie obejmuje urządzeń przewodowych.
+
 - **Block WAN Subnets**
 
     Ta funkcja jest dostępna od firmware v4.8

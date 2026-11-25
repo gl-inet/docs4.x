@@ -6,6 +6,8 @@ Följ stegen nedan om routern fastnar på "Installing" under en firmwareuppdater
 
 Kontrollera efter varje steg om problemet har lösts. Hoppa i så fall över återstående steg.
 
+**Obs!** Om du inte kan öppna webbadministrationspanelen eller om routern inte startar normalt kan du felsöka med hjälp av artiklarna nedan.
+
 1. Kontrollera att firmwareuppdateringen lyckades.
 
     Öppna först en webbläsare, gå till `192.168.8.1` och logga in.
@@ -15,6 +17,14 @@ Kontrollera efter varje steg om problemet har lösts. Hoppa i så fall över åt
 2. Säkerställ en stabil nätverksanslutning och ladda sedan upp firmware igen.
 
 3. Använd en annan webbläsare (t.ex. Edge eller Safari) för att ladda upp firmware igen.
+
+---
+
+**Relaterade artiklar**
+
+- [Det går inte att öppna webbadministrationspanelen](../faq/cannot_access_web_admin_panel.md)
+
+- [Återställ routern med U-Boot](../faq/debrick.md)
 
 ---
 

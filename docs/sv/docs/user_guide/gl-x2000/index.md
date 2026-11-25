@@ -44,8 +44,14 @@ Konfigurera Spitz Plus med någon av de fyra internetanslutningsmetoder som stö
     Minst ett nano-SIM-kort krävs för att ansluta till internet via mobilnätet. Följ dessa steg när nano-SIM-korten är klara:
 
     1. Aktivera SIM-kortet eller SIM-korten om mobiloperatören kräver det.
+
     2. Stäng av routern.
-    3. Sätt in SIM-korten i SIM-kortplatserna. (**Obs!** Endast ett SIM-kort är aktivt åt gången. Det andra fungerar endast som reserv.)
+
+    3. Sätt i SIM-kortet eller SIM-korten så här. Håll kortet med metallkontakterna mot routerns ovansida och det avfasade hörnet uppe till höger. Håll kortet vågrätt och skjut försiktigt in det i kortplatsen tills det klickar fast. (**Obs!** Endast ett SIM-kort kan vara aktivt åt gången. Det andra fungerar som reserv.)
+
+        ![Sätta i SIM-kortet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/insert-sim-card.png){class="glboxshadow"}
+
+        Ta ut SIM-kortet genom att trycka in det igen och släppa. Kortet fjädrar ut en bit så att du kan dra ut det.
 
 ### 1. Slå på {#1-power-on}
 

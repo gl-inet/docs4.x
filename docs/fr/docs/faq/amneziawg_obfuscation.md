@@ -1,8 +1,8 @@
-# Obfuscation AmneziaWG {#amneziawg-obfuscation}
+# Obfuscation AmneziaWG sur les routeurs GL.iNet {#amneziawg-obfuscation-on-glinet-routers}
 
 AmneziaWG est un protocole VPN basé sur WireGuard avec une obfuscation du trafic intégrée. Ses paramètres d'obfuscation contrôlent la manière dont le trafic est déguisé afin d’éviter sa détection par des mécanismes d’inspection réseau restrictive.
 
-Vous trouverez ci-dessous une présentation détaillée d’AmneziaWG et de ses différentes versions.
+Les sections suivantes présentent AmneziaWG et les versions disponibles sur les routeurs GL.iNet.
 
 ## Pourquoi AmneziaWG ? {#why-amneziawg}
 

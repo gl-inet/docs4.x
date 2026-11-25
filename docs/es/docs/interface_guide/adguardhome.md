@@ -48,7 +48,7 @@ Active el interruptor para habilitar AdGuard Home y haga clic en **Apply**.
 
 ![adguard home apply](https://static.gl-inet.com/docs/router/en/4/interface_guide/adguard_home/apply.png){class="glboxshadow"}
 
-- **AdGuard Home Handle Client Requests**: Si está habilitado, las consultas DNS de los dispositivos cliente se procesarán directamente en AdGuard Home. Esto hará que las políticas VPN basadas en dominios y las reglas de control parental no surtan efecto.
+- **AdGuard Home Handle Client Requests**. Al activar esta opción, las reglas del cortafuegos redirigen las consultas DNS de los dispositivos cliente directamente a AdGuard Home, sin pasar por el servicio DNS del router (dnsmasq). Las políticas de VPN basadas en dominios y las reglas de control parental dejan de surtir efecto. Es posible que los nombres de host locales que suele resolver dnsmasq requieran configuración adicional en AdGuard Home.
 
 Una vez habilitado, la página muestra estadísticas como consultas DNS y dominios bloqueados mediante la API proporcionada por AdGuard Home.
 

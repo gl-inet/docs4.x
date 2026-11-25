@@ -42,19 +42,28 @@ Meld je aan bij het webbeheerpaneel en ga naar **VPN** -> **WireGuard Server**.
 
 2. Controleer de configuratie.
 
-    De standaardconfiguratie werkt meestal. Wijzig het IPv4-adres niet als er geen conflict met de gateway van de upstream router is.
+    De standaardconfiguratie hieronder werkt in de meeste gevallen.
 
     ![check configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/check_configuration.png){class="glboxshadow"}
 
-    (IPv6 is standaard uitgeschakeld. Schakel IPv6 in om een IPv6-adres te gebruiken.)
+    - **IPv4 Address**: Dit is het IP-adres van de tunnel van de WireGuard-server. Je hoeft het adres niet te wijzigen als het niet conflicteert met de gateway van je upstreamrouter.
 
-    Het IPv4-adres is het Tunnel IP van WireGuard Server. Wijzig dit bij een conflict, bijvoorbeeld in **10.1.0.1/24**, en klik op **Apply**. Neem CIDR "/24" op.
+        Wijzig het adres bij een conflict in bijvoorbeeld **10.1.0.1/24** en klik op **Apply**. Neem de CIDR-notatie ‘/24’ op om verbindingsproblemen te voorkomen.
 
-    ![modify configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/modify_configuration.png){class="glboxshadow"}
+        ![modify configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/modify_ipv4.png){class="glboxshadow"}
 
-    Een upstream Xfinity-router kan bijvoorbeeld IP 10.0.0.1 gebruiken, dat met Tunnel IP van WireGuard Server conflicteert. Pas het adres dan aan; sla dit over zonder conflict.
+        Een Xfinity-router die vóór de GL.iNet-router staat, kan bijvoorbeeld het IP-adres 10.0.0.1 hebben. Dat adres kan conflicteren met het tunneladres als sommige GL.iNet-routers als WireGuard-server zijn ingesteld. Pas het adres alleen aan bij een conflict.
 
-    ![xfinity gateway](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/xfinitygateway.jpg){class="glboxshadow"}
+        ![xfinity gateway](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/xfinitygateway.jpg){class="glboxshadow"}
+
+    - **IPv6 Address**: Op GL.iNet-routers is IPv6 standaard uitgeschakeld. Schakel [IPv6](ipv6.md) op de router in als je een IPv6-adres wilt gebruiken.
+
+    - **Listen Port**: De UDP-poort waarop de WireGuard-server luistert. Standaard is dit `51820`, de gebruikelijke poort voor WireGuard. Behoud deze instelling, tenzij de poort al in gebruik is op je netwerk. Als je de poort wijzigt, pas dan het veld `Endpoint` van elke client en eventuele upstreamregels voor port forwarding aan.
+
+    - **Enable Obfuscation**: Als je deze optie inschakelt, gebruikt de server AmneziaWG. Clients moeten dan AmneziaWG-obfuscatie ondersteunen. Behoud de standaardinstellingen voor obfuscatie tenzij je vertrouwd bent met de parameters. Zie de volgende handleidingen.
+
+        - [AmneziaWG-obfuscatie op GL.iNet-routers](../faq/amneziawg_obfuscation.md)
+        - [VPN-obfuscatie instellen op GL.iNet-routers](../tutorials/how_to_set_up_vpn_obfuscation_on_glinet_routers.md)
 
 3. Voeg een profiel toe.
 

@@ -1,4 +1,22 @@
-# GL-MT2500/GL-X3000/GL-XE3000に関する重要な問題のお知らせ {#critical-problem-notification-for-gl-mt2500gl-x3000gl-xe3000}
+# GL-MT2500/GL-X3000/GL-XE3000 に関する問題のお知らせ {#problem-notification-for-gl-mt2500gl-x3000gl-xe3000}
+
+**最終更新日：2026年11月11日**
+
+この既知の問題は、一部の製造ロットのデバイスにのみ影響します。2025年7月1日以降に注文したデバイスは新しいロットである可能性が高く、U-Boot ブートローダーを更新する必要はありません。
+
+お使いのデバイスの製造ロットが不明な場合は、変更を加える前に以下の情報を [support@gl-inet.com](mailto:support@gl-inet.com) にメールでお送りください。
+
+- ルーターのモデルとファームウェアバージョン
+- デバイスの MAC アドレス
+- 問題の詳細（発生時に行っていた操作を含む）、表示されたエラーメッセージ、すでに試した対処手順
+
+製造ロットを確認し、状況に応じた対処方法をご案内します。
+
+---
+
+以下の当初のお知らせは参考情報として掲載しています。更新手順は対象ロットにのみ適用されます。お使いのデバイスが対象かどうか不明な場合は、変更を加える前に上記の方法でサポートにご連絡ください。
+
+**公開日：2025年3月26日**
 
 お客様各位
 
@@ -12,41 +30,44 @@
 
 ## GL-MT2500 {#gl-mt2500}
 
-1. U-Bootブートローダーを[バージョン2025-02-24 15:04:07](https://github.com/gl-inet/mt798x-boot/blob/main/bin/uboot-mt2500-20250224-md5-74286e770cfb041b611d80d4adaef189.bin){target="_blank"}にダウンロードしてアップグレードします
+1. U-Boot ブートローダーを更新します。
 
-2. ファームウェアを[バージョン4.7.4](https://fw.gl-inet.com/firmware/mt2500/release/openwrt-mt2500-4.7.4-0328-1743128340.bin)にダウンロードしてアップグレードします
+    [uboot-mt2500-20250224.bin](https://github.com/gl-inet/mt798x-boot/blob/main/bin/uboot-mt2500-20250224-md5-74286e770cfb041b611d80d4adaef189.bin){target="_blank"}をダウンロードし、[U-Boot ブートローダーを更新します](upgrade_uboot_version.md)。
+
+2. ファームウェアを更新します。
+
+    [ルーターの最新ファームウェア](https://dl.gl-inet.com/router/mt2500/stable){target="_blank"}をダウンロードし、[ルーターのファームウェアを更新します](../tutorials/how_to_upgrade_downgrade_router.md)。
 
 ## GL-X3000 {#gl-x3000}
 
-1. U-Bootブートローダーを[バージョン2025-02-25 19:05:24](https://github.com/gl-inet/mt798x-boot/blob/main/bin/uboot-x3000-20250225-md5-c9d7b2fd2451adbc0bb126e2d9729e87.bin){target="_blank"}にダウンロードしてアップグレードします
+1. U-Boot ブートローダーを更新します。
 
-2. ファームウェアを[バージョン4.7.4](https://fw.gl-inet.com/firmware/x3000/release/openwrt-x3000-4.7.4-0317-1742206344.bin)にダウンロードしてアップグレードします
+    [uboot-x3000-20250225.bin](https://github.com/gl-inet/mt798x-boot/blob/main/bin/uboot-x3000-20250225-md5-c9d7b2fd2451adbc0bb126e2d9729e87.bin){target="_blank"}をダウンロードし、[U-Boot ブートローダーを更新します](upgrade_uboot_version.md)。
+
+2. ファームウェアを更新します。
+
+    [ルーターの最新ファームウェア](https://dl.gl-inet.com/router/x3000/stable){target="_blank"}をダウンロードし、[ルーターのファームウェアを更新します](../tutorials/how_to_upgrade_downgrade_router.md)。
 
 ## GL-XE3000 {#gl-xe3000}
 
-1. U-Bootブートローダーを[バージョン2025-02-25 19:07:14](https://github.com/gl-inet/mt798x-boot/blob/main/bin/uboot-xe3000-20250225-md5-05fadd9da27314d41dbadc6fbd239b3d.bin){target="_blank"}にダウンロードしてアップグレードします
+1. U-Boot ブートローダーを更新します。
 
-2. ファームウェアを[バージョン4.7.4](https://fw.gl-inet.com/firmware/xe3000/release/openwrt-xe3000-4.7.4-0317-1742206184.bin)にダウンロードしてアップグレードします
+    [uboot-xe3000-20250225.bin](https://github.com/gl-inet/mt798x-boot/blob/main/bin/uboot-xe3000-20250225-md5-05fadd9da27314d41dbadc6fbd239b3d.bin){target="_blank"}をダウンロードし、[U-Boot ブートローダーを更新します](upgrade_uboot_version.md)。
 
-!!! Note "注意"
+2. ファームウェアを更新します。
 
-    U-Bootブートローダーをアップグレードする方法については、[こちら](upgrade_uboot_version.md)をご覧ください。
-
-    ファームウェアをアップグレードする方法については、[こちら](../tutorials/how_to_upgrade_downgrade_router.md)をご覧ください。
+    [ルーターの最新ファームウェア](https://dl.gl-inet.com/router/xe3000/stable){target="_blank"}をダウンロードし、[ルーターのファームウェアを更新します](../tutorials/how_to_upgrade_downgrade_router.md)。
 
 <br>
 ご不便をおかけしましたことを、心よりお詫び申し上げます。今後は、より一層の注意を払って製品とファームウェアの改善に取り組んでまいります。
 
 現在これらのルーターをお持ちのお客様には、保証期間を無償で1年間延長いたします。問題が発生した場合は、お気軽にサポートチームまでお問い合わせください。
 
-アップグレード後も問題が解決しない場合は、support@gl-inet.comまでサポートチームにご連絡ください。新しい製品と無償で交換いたします。
+アップグレード後も問題が解決しない場合は、[support@gl-inet.com](mailto:support@gl-inet.com)までサポートチームにご連絡ください。新しい製品と無償で交換いたします。
 
 お客様からの信頼とご支援は私たちにとってかけがえのないものであり、心より感謝申し上げます。
 
 <br>
-
-敬具
-
-GL.iNet テクニカルサポート
-
+敬具<br>
+GL.iNet チーム<br>
 2025年3月26日

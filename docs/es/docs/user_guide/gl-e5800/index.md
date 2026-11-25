@@ -74,15 +74,11 @@ Configure su Mudi 7 con uno de los métodos de conexión a Internet compatibles:
 
     **Configurar la eSIM**:
 
-    1. En la pantalla táctil, vaya a **Cellular** -> **SIM Card Switch** y active el interruptor para **enable eSIM**.
+    1. Inicie sesión en el [panel de administración web](./index.md#log-in-to-web-admin-panel) y vaya a **INTERNET** -> **Cellular**. Seleccione **eSIM** en **SIM Type** y luego haga clic en **eSIM Management** en la esquina superior derecha.
 
-        ![enable esim](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/lcd_enable_esim.png){class="glboxshadow" width="590"}
+        ![esim management](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/esim_management.png){class="glboxshadow"}
 
-    2. Inicie sesión en el [panel de administración web](./index.md#log-in-to-web-admin-panel) y vaya a **INTERNET** -> **Cellular** -> **eSIM Management**.
-
-        ![esim management](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/esim_management.png){class="glboxshadow" width="590"}
-
-    3. En la ventana emergente, haga clic en **Add eSIM Profile** en la parte inferior.
+    2. En la ventana emergente, haga clic en **Add eSIM Profile** en la parte inferior.
 
         ![add esim profile](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/add_esim_profile1.png){class="glboxshadow" width="590"}
 
@@ -96,21 +92,19 @@ Configure su Mudi 7 con uno de los métodos de conexión a Internet compatibles:
 
         ![recommended store](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/recommended_store.png){class="glboxshadow" width="590"}
 
-    4. Una vez cargado, vaya a **Cellular** y haga clic en **SIM Card Switch**.
+    3. Una vez cargado el perfil eSIM, haga clic en **Enable** junto al perfil.
 
-        ![sim card switch](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/sim_card_switch.png){class="glboxshadow" width="590"}
+        ![Activación del perfil eSIM](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/activate-esim-profile.png){class="glboxshadow" width="590"}
 
-        En la ventana emergente, seleccione **eSIM** como tarjeta SIM activa y haga clic en **Apply**.
+    4. El router empezará a conectarse a Internet con este perfil eSIM. Vuelva a la página **Cellular** para comprobar el estado de la conexión. La eSIM en uso aparece marcada como **Active**.
 
-        ![active sim card](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/active_sim_card.png){class="glboxshadow"}
-
-    5. El router empezará a conectarse mediante este perfil eSIM. Espere y compruebe si la conexión se realiza correctamente.
+        ![Estado de la conexión eSIM](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/esim-status.png){class="glboxshadow"}
 
     **Configurar Nano-SIM**:
 
-    6. Retire la tapa trasera, saque la batería, inserte su tarjeta Nano-SIM en la ranura y vuelva a colocar la batería.
+    1. Retire la tapa trasera, saque la batería, inserte su tarjeta Nano-SIM en la ranura y vuelva a colocar la batería.
 
-    7. El router empezará a conectarse automáticamente a través de esta tarjeta Nano-SIM. Espere y compruebe si la conexión se realiza correctamente.
+    2. El router empezará a conectarse automáticamente a través de esta tarjeta Nano-SIM. Espere y compruebe si la conexión se realiza correctamente.
 
     Cuando la conexión a Internet se establezca correctamente, las barras de señal y el estado de la conexión celular aparecerán en la esquina superior derecha de la pantalla táctil. También puede comprobar los detalles de la conexión en el panel de administración web.
 

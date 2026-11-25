@@ -2,9 +2,11 @@
 
 Wenn Sie die Netzwerkverbindung Ihres Smartphones per USB-Kabel mit dem Router teilen, nennt man das Tethering. Ein hostloses Modem arbeitet während seiner Einrichtung ebenfalls im Tethering-Modus.
 
-**Hinweis:** Einige Mobilfunkanbieter begrenzen Tethering oder berechnen dafür zusätzliche Gebühren. Wir empfehlen, dies bei Ihrem Anbieter zu prüfen.
+**Hinweis**:
 
-## Einrichtung {#setup}
+- Einige Mobilfunkanbieter begrenzen Tethering oder berechnen dafür zusätzliche Gebühren. Wir empfehlen, dies bei Ihrem Anbieter zu prüfen.
+
+- Wenn Sie einen USB-Dongle (nicht im Lieferumfang enthalten) verwenden, um Ihren Router mit dem Internet zu verbinden, wählen Sie für einen Dongle im Host-less-Modus **INTERNET** -> **Tethering** oder für einen Dongle im Standard-USB-Modemmodus **INTERNET** -> **Cellular**. Die Einrichtungsschritte finden Sie in der [Anleitung für USB-Dongles](./internet_cellular_v4.10.md#non-cellular-routers).
 
 === "iPhone"
 

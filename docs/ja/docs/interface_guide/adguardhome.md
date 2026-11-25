@@ -48,7 +48,7 @@ AdGuard Homeは、広告とトラッキングをブロックするネットワ�
 
 ![adguard home apply](https://static.gl-inet.com/docs/router/en/4/interface_guide/adguard_home/apply.png){class="glboxshadow"}
 
-- **AdGuard Home Handle Client Requests**: 有効にすると、クライアントデバイスからのDNSクエリは AdGuard Home によって直接処理されます。この場合、ドメインベースの VPN ポリシーとペアレンタルコントロールのルールは機能しなくなります。
+- **AdGuard Home Handle Client Requests**: 有効にすると、ファイアウォールルールにより、クライアントデバイスの DNS クエリはルーターの DNS サービス（dnsmasq）を経由せず、AdGuard Home に直接転送されます。ドメインベースの VPN ポリシーとペアレンタルコントロールのルールは適用されなくなります。通常 dnsmasq が解決するローカルホスト名を解決するには、AdGuard Home で追加の設定が必要な場合があります。
 
 有効化すると、このページには AdGuard Home の API を通じて DNS クエリ数やブロックされたドメイン数などの統計情報が表示されます。
 

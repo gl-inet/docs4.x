@@ -30,6 +30,8 @@ Puoi impostare la subnet all'interno degli intervalli di indirizzi privati IPv4:
 
     Consente di isolare i dispositivi client in un segmento di rete separato. Questi dispositivi non potranno comunicare con altri dispositivi sulla stessa rete.
 
+    **Nota:** AP Isolation si applica solo ai client Wi-Fi. I dispositivi cablati non sono interessati.
+
 - **Block WAN Subnets**
 
     Questa funzione è disponibile dal firmware v4.8.

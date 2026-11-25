@@ -1,5 +1,15 @@
 # LAN {#lan}
 
+**Hinweis**: Diese Anleitung gilt für Firmware v4.9 und frühere Versionen. Wenn auf Ihrem Gerät eine andere Firmware-Version installiert ist, wählen Sie unten die passende Anleitung aus.
+
+<div class="gl-link-select" data-label="Firmwareversion" data-placeholder="Firmware v4.9 und früher" markdown="1">
+
+- [Firmware v4.11 und höher](lan_4.11.md)
+
+</div>
+
+---
+
 Gehen Sie auf der linken Seite des webbasierten Admin Panels zu **NETWORK** -> **LAN**.
 
 Das LAN ist das Netzwerk, mit dem Ihr Gerät verbunden ist, wenn es über das Haupt-WLAN oder per Ethernet-Kabel angeschlossen ist.
@@ -24,7 +34,11 @@ Sie können das Subnetz innerhalb der privaten IPv4-Adressbereiche `192.168.0.0/
 
 - **AP Isolation**
 
+    Diese Funktion ist ab Firmware v4.5 verfügbar.
+
     Sie können Client-Geräte in ein separates Netzwerksegment isolieren. Diese Geräte können dann nicht mit anderen Geräten im selben Netzwerk kommunizieren.
+
+    **Hinweis**: **AP Isolation** gilt ausschließlich für Wi-Fi-Clients. Kabelgebundene Geräte sind davon ausgenommen.
 
 ## DHCP Server {#dhcp-server}
 

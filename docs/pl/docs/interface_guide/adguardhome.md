@@ -48,7 +48,7 @@ Włącz przełącznik AdGuard Home i kliknij **Apply**.
 
 ![adguard home apply](https://static.gl-inet.com/docs/router/en/4/interface_guide/adguard_home/apply.png){class="glboxshadow"}
 
-- **AdGuard Home Handle Client Requests**: Jeśli ta opcja jest włączona, zapytania DNS z urządzeń klienckich będą przetwarzane bezpośrednio przez AdGuard Home. Spowoduje to, że zasady VPN oparte na domenach oraz reguły kontroli rodzicielskiej przestaną działać.
+- **AdGuard Home Handle Client Requests**: Po włączeniu tej opcji reguły zapory przekierowują zapytania DNS z urządzeń klienckich bezpośrednio do AdGuard Home, z pominięciem usługi DNS routera (dnsmasq). Reguły VPN oparte na domenach i reguły kontroli rodzicielskiej przestają wtedy działać. Obsługa lokalnych nazw hostów, które zwykle rozpoznaje dnsmasq, może wymagać dodatkowej konfiguracji w AdGuard Home.
 
 Po włączeniu na stronie będą wyświetlane statystyki, w tym liczba zapytań DNS i zablokowane domeny, pobierane przez API udostępniane przez AdGuard Home.
 

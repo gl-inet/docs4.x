@@ -1,8 +1,8 @@
-# AmneziaWG-obfuscatie {#amneziawg-obfuscation}
+# AmneziaWG-obfuscatie op GL.iNet-routers {#amneziawg-obfuscation-on-glinet-routers}
 
 AmneziaWG is een op WireGuard gebaseerd VPN-protocol met ingebouwde verkeersobfuscatie. De obfuscatieparameters bepalen hoe het verkeer wordt verhuld om detectie bij strenge netwerkinspectie te omzeilen.
 
-Hieronder lees je wat AmneziaWG is en hoe de versies van elkaar verschillen.
+Hieronder lees je hoe AmneziaWG werkt en welke versies beschikbaar zijn op GL.iNet-routers.
 
 ## Waarom AmneziaWG? {#why-amneziawg}
 

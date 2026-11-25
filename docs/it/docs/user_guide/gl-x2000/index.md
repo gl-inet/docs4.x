@@ -44,8 +44,14 @@ Per configurare Spitz Plus puoi usare uno dei quattro metodi di connessione Inte
     Per connetterti a Internet tramite il metodo cellulare è necessaria almeno una nano SIM. Se hai già la nano SIM o le nano SIM pronte, segui questi passaggi:
     
     1. Attiva la SIM, se richiesto dall'operatore.
+
     2. Spegni il router.
-    3. Inserisci la SIM negli slot per schede SIM. (**Nota:** solo una SIM è attiva alla volta. L'altra funziona solo come backup.)
+
+    3. Inserisci la scheda o le schede SIM come segue. Orienta la scheda con i contatti metallici rivolti verso la parte superiore del router e l’angolo smussato in alto a destra. Tienila in orizzontale e falla scorrere delicatamente nello slot finché non scatta in posizione. (**Nota:** può essere attiva una sola SIM alla volta. L’altra serve come riserva.)
+
+        ![Inserimento della scheda SIM](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/insert-sim-card.png){class="glboxshadow"}
+
+        Per rimuovere la SIM, premila nuovamente verso l’interno e rilasciala. La scheda sporge leggermente dallo slot e può essere estratta.
 
 ### 1. Accensione {#1-power-on}
 

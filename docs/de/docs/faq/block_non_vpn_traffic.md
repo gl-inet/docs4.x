@@ -16,7 +16,7 @@ Aktivieren Sie **Block Non-VPN Traffic** (in einigen Firmware-Versionen auch Kil
 
 **Hinweis:** Wenn **Block Non-VPN Traffic** / Kill Switch aktiviert ist und Ihr VPN deaktiviert oder getrennt wird, wird allen mit dem Router verbundenen Geräten der Internetzugriff verweigert, um DNS-Lecks zu verhindern.
 
-## Für Firmware v4.8 oder neuer {#for-firmware-v48-or-later}
+## Für Firmware v4.8 {#for-firmware-v48}
 
 In Firmware v4.8 wurde der VPN Kill Switch in zwei Modi aufgeteilt.
 
@@ -52,9 +52,43 @@ Navigieren Sie im Web-Admin-Panel des Routers zu **VPN** -> **VPN Dashboard**, w
 
 ![all other traffic](https://static.gl-inet.com/docs/router/de/4/faq/block_non_vpn_traffic/4.8-all-other-traffic.png){class="glboxshadow"}
 
-**All Other Traffic** ist ein Standard-Tunnel, der den normalen Internetzugang für Datenverkehr sicherstellt, der nicht von den oben stehenden VPN-Tunneln und Richtlinien abgedeckt wird, oder für Datenverkehr, der per Failover von VPN-Verbindungen übernommen wurde. Dieser Tunnel ist standardmäßig aktiviert und schließt sich gegenseitig mit dem erweiterten Kill Switch aus.
+**All Other Traffic** dient als Standardtunnel und ermöglicht den normalen Internetzugang für Datenverkehr, der keinem der oben genannten VPN-Tunnel und keiner der Richtlinien entspricht oder bei einem VPN-Failover hierher umgeleitet wird. Die Option ist standardmäßig aktiviert. Wenn Sie sie deaktivieren, wird dieser gesamte Datenverkehr blockiert, einschließlich des Datenverkehrs, der sonst bei einem VPN-Failover weitergeleitet würde. Damit gelangt nur Datenverkehr, der über einen konfigurierten VPN-Tunnel läuft, ins Internet. Der erweiterte Kill Switch bietet denselben Schutz.
 
-**Hinweis**: Wenn Sie **All Other Traffic** deaktivieren, können Sie nur noch über VPN auf das Internet zugreifen. Jeder nicht zugeordnete Datenverkehr wird blockiert. Diese Einstellung setzt den individuellen Kill Switch für jeden Tunnel nicht außer Kraft.
+**Hinweis**: Die Einstellung **All Other Traffic** setzt den Kill Switch eines einzelnen Tunnels nicht außer Kraft.
+
+## Für Firmware v4.9 und höher {#for-firmware-v49-and-above}
+
+Ab Firmware v4.9 stehen zwei Arten des VPN Kill Switch zur Verfügung, **Tunnel Kill Switch** und **Enhanced Kill Switch**.
+
+### Tunnel Kill Switch {#for-firmware-v49-and-above-tunnel-kill-switch}
+
+Navigieren Sie im Web-Admin-Panel des Routers zu **VPN** -> **VPN Dashboard**.
+
+Wenn Sie Ihren Router als VPN-Client eingerichtet haben, ist der Kill Switch für diesen VPN-Tunnel standardmäßig aktiviert, sobald Sie das VPN aktivieren.
+
+![tunnel kill switch](https://static.gl-inet.com/docs/router/en/4/faq/block_non_vpn_traffic/4.9-tunnel-kill-switch.png){class="glboxshadow"}
+
+Klicken Sie auf das Zahnradsymbol neben dem Tunnelnamen, um **Tunnel Options** zu öffnen.
+
+![tunnel options 1](https://static.gl-inet.com/docs/router/en/4/faq/block_non_vpn_traffic/4.9-tunnel-options-1.png){class="glboxshadow"}
+
+Der Kill Switch für diesen Tunnel ist standardmäßig aktiviert.
+
+![tunnel options 2](https://static.gl-inet.com/docs/router/en/4/faq/block_non_vpn_traffic/4.9-tunnel-options-2.png){class="glboxshadow" width=600}
+
+### Erweiterter Kill Switch {#for-firmware-v49-and-above-enhanced-kill-switch}
+
+Navigieren Sie im Web-Admin-Panel des Routers zu **VPN** -> **VPN Dashboard** und klicken Sie oben rechts auf das Zahnradsymbol.
+
+![all other traffic 1](https://static.gl-inet.com/docs/router/en/4/faq/block_non_vpn_traffic/4.9-all-other-traffic-1.png){class="glboxshadow"}
+
+Für die Datenverkehrsrichtlinie stehen die Optionen **Allow Non-VPN Traffic** und **Enhanced Kill Switch** zur Verfügung.
+
+![all other traffic 2](https://static.gl-inet.com/docs/router/en/4/faq/block_non_vpn_traffic/4.9-all-other-traffic-2.png){class="glboxshadow" width=600}
+
+- **Allow Non-VPN Traffic** ist standardmäßig aktiviert. Diese Option ermöglicht den normalen Internetzugang für Datenverkehr, der keinem der oben genannten VPN-Tunnel und keiner der Richtlinien entspricht oder bei einem VPN-Failover hierher umgeleitet wird.
+
+- **Enhanced Kill Switch** erzwingt bei Aktivierung den Internetzugang über ein VPN für alle Geräte. Datenverkehr, der keinem VPN-Tunnel entspricht, wird blockiert. Diese Einstellung setzt den für einzelne VPN-Tunnel konfigurierten Kill Switch nicht außer Kraft.
 
 ---
 

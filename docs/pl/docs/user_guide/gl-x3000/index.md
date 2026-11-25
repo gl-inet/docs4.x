@@ -44,8 +44,12 @@ Obejrzyj ten film konfiguracyjny lub wykonaj poniższe kroki.
     Do połączenia z Internetem przez sieć komórkową wymagana jest co najmniej jedna karta nano SIM. Gdy masz już kartę (lub karty) nano SIM, wykonaj następujące kroki:
     
     1. Aktywuj kartę (karty) SIM, jeśli wymaga tego operator.
+
     2. Wyłącz router.
-    3. Włóż kartę (karty) SIM do gniazd kart SIM. (**Uwaga:** W danym momencie aktywna jest tylko jedna karta SIM. Druga karta pełni jedynie funkcję zapasową.)
+
+    3. Włóż kartę lub karty SIM w następujący sposób. Ustaw kartę tak, aby metalowe styki były skierowane w stronę górnej części routera, a ścięty róg znajdował się w prawym górnym rogu. Trzymając kartę poziomo, delikatnie wsuń ją do gniazda, aż się zatrzaśnie. (**Uwaga:** W danym momencie może być aktywna tylko jedna karta SIM. Druga pełni funkcję zapasową.)
+
+        Aby wyjąć kartę SIM, ponownie wciśnij ją do środka i puść. Karta wysunie się na tyle, że będzie można ją wyciągnąć.
 
 ### 1. Włącz zasilanie {#1-power-on}
 

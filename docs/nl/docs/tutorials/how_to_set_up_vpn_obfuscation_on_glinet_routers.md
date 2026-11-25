@@ -4,7 +4,7 @@
 
 In deze handleiding worden twee scenario's beschreven voor het instellen van AmneziaWG-obfuscatie op GL.iNet-routers.
 
-## Scenario 1. Twee GL.iNet-routers gebruiken {#scenario-1-using-two-glinet-routers}
+## Twee GL.iNet-routers gebruiken {#using-two-glinet-routers}
 
 In dit scenario worden twee GL.iNet-routers gebruikt om via het AmneziaWG-protocol een VPN-verbinding met obfuscatie tot stand te brengen.
 
@@ -21,7 +21,7 @@ In dit scenario worden twee GL.iNet-routers gebruikt om via het AmneziaWG-protoc
 
     Als de Brume 3 als primaire router wordt gebruikt, verbind je de WAN-poort met het upstream netwerk, zoals een ISP-modem.
 
-    Als de Brume 3 niet de primaire router is, en dus een ander upstream apparaat zoals een ISP-router als primaire router fungeert, moet je **port forwarding** op je primaire router instellen. Raadpleeg [deze handleiding](how_to_set_up_port_forwarding.md).
+    Als de Brume 3 niet de primaire router is, en dus een ander upstream apparaat zoals een ISP-router als primaire router fungeert, moet je **port forwarding** op je primaire router instellen. Volg de handleiding voor [port forwarding instellen op je primaire router](how_to_set_up_port_forwarding.md).
 
 3. Schakel DDNS in (optioneel).
 
@@ -31,17 +31,24 @@ In dit scenario worden twee GL.iNet-routers gebruikt om via het AmneziaWG-protoc
 
     ![enable ddns](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/enable_ddns.png){class="glboxshadow"}
 
-4. Schakel VPN-obfuscatie in.
+4. Schakel obfuscatie in.
 
     Ga in de linkerzijbalk naar **VPN** > **WireGuard Server** -> het tabblad **Configurations**, schakel **Enable Obfuscation** in en klik op **Apply**.
 
     ![enable obfuscation](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_obfuscation1.png){class="glboxshadow"}
 
-    Je kunt de obfuscatieparameters naar wens aanpassen. Klik [hier](../faq/amneziawg_obfuscation.md) voor meer informatie.
+    Klik op **Set Obfuscation Parameters** om de invoervelden te openen als je de parameters handmatig wilt instellen. Pas de waarden aan en klik op **Apply**. We raden aan de standaardinstellingen te behouden en ze alleen te wijzigen als je bekend bent met deze parameters. Zie [AmneziaWG-obfuscatie op GL.iNet-routers](../faq/amneziawg_obfuscation.md).
 
-    We raden aan de standaardinstellingen te behouden.
+    ![enable obfuscation](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_obfuscation2.jpg){class="glboxshadow"}
 
-    ![enable obfuscation](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_obfuscation2.png){class="glboxshadow"}
+    Vanaf firmware v4.11.1 kun je ook van obfuscatieversie wisselen. Selecteer de gewenste versie in de vervolgkeuzelijst, klik op **Regenerate** en klik vervolgens op **Apply**.
+
+    De onderstaande video toont de stappen.
+
+    <video src="https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/select_version.mp4"
+        controls playsinline preload="metadata" width="800" style="max-width:100%;height:auto">
+    Je browser ondersteunt geen ingesloten video’s. Open de demonstratie in een nieuw tabblad (<a href="https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/select_version.mp4" target="_blank" rel="noopener">select_version.mp4</a>).
+    </video>
 
 5. Exporteer het configuratiebestand.
 
@@ -117,7 +124,7 @@ In dit scenario worden twee GL.iNet-routers gebruikt om via het AmneziaWG-protoc
 
     De VPN-verbinding is voltooid. Alle apparaten op de Beryl AX gebruiken nu de gateway van de Brume 3 voor internettoegang, met een VPN-verbinding waarop obfuscatie is toegepast.
 
-## Scenario 2. Eén GL.iNet-router gebruiken {#scenario-2-using-a-single-glinet-router}
+## Eén GL.iNet-router gebruiken {#using-a-single-glinet-router}
 
 In dit scenario wordt één GL.iNet-router, **Brume 3 (GL-MT5000)**, gebruikt als VPN-client die verbinding maakt met een AmneziaVPN-server.
 
@@ -192,5 +199,10 @@ We gebruiken StarVPN als voorbeeld.
     De VPN-verbinding is voltooid. Alle apparaten op de Brume 3 gebruiken nu de AmneziaVPN-server voor internettoegang, met een VPN-verbinding waarop obfuscatie is toegepast.
 
 ---
+
+Gerelateerde artikelen
+
+- [Officiële AmneziaWG-documentatie](https://docs.amnezia.org/documentation/amnezia-wg/){target="_blank"}
+- [AmneziaWG-obfuscatie op GL.iNet-routers](../faq/amneziawg_obfuscation.md)
 
 Heb je nog vragen? Bezoek ons [communityforum](https://forum.gl-inet.com){target="_blank"} of [neem contact met ons op](https://www.gl-inet.com/contacts/){target="_blank"}.

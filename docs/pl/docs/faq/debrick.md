@@ -157,7 +157,9 @@ Obejrzyj ten samouczek wideo lub wykonaj poniższe czynności, aby uzyskać dost
         9. Kliknij przycisk **Save**.
 
     ??? "macOS"
-    
+
+        **Uwaga:** Poniższe kroki pokazano na przykładzie interfejsu macOS Big Sur 11. W przypadku innych wersji przejdź do witryny [Wsparcie Apple](https://support.apple.com/guide/mac-help/mh11939/mac){target="blank"} i wybierz swoją wersję macOS, aby wyświetlić instrukcje.
+
         1. Kliknij ikonę **Apple** w lewym górnym rogu ekranu i wybierz **System Preferences**.
 
             ![macos system preferences](https://static.gl-inet.com/docs/router/en/4/faq/debrick/macos_system_preferences.png){class="glboxshadow"}

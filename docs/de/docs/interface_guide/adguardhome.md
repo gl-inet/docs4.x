@@ -48,7 +48,7 @@ Aktivieren Sie den Schalter für AdGuard Home und klicken Sie auf **Apply**.
 
 ![adguard home apply](https://static.gl-inet.com/docs/router/de/4/interface_guide/adguard_home/apply.png){class="glboxshadow"}
 
-- **AdGuard Home Handle Client Requests**: Wenn diese Option aktiviert ist, werden DNS-Anfragen von Client-Geräten direkt von AdGuard Home verarbeitet. Dadurch funktionieren domänenbasierte VPN-Richtlinien und Kindersicherungsregeln nicht mehr.
+- **AdGuard Home Handle Client Requests**: Wenn diese Option aktiviert ist, leiten Firewall-Regeln DNS-Anfragen von Client-Geräten direkt an AdGuard Home weiter und umgehen so den DNS-Dienst des Routers (dnsmasq). Domänenbasierte VPN-Richtlinien und Kindersicherungsregeln sind dadurch unwirksam. Lokale Hostnamen, die normalerweise von dnsmasq aufgelöst werden, erfordern möglicherweise eine zusätzliche Konfiguration in AdGuard Home.
 
 Nach dem Aktivieren zeigt die Seite Statistiken wie DNS-Anfragen und blockierte Domains über die von AdGuard Home bereitgestellte API an.
 

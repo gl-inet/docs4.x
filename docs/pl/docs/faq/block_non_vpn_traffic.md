@@ -16,7 +16,7 @@ Włącz **Block Non-VPN Traffic** (w niektórych wersjach firmware funkcja ta na
 
 **Uwaga:** Gdy **Block Non-VPN Traffic** / Kill Switch jest włączony, a VPN zostanie wyłączony lub rozłączony, wszystkie urządzenia podłączone do routera utracą dostęp do Internetu, aby zapobiec wyciekom DNS.
 
-## Dla firmware v4.8 lub nowszego {#for-firmware-v48-or-later}
+## Dla firmware v4.8 {#for-firmware-v48}
 
 W firmware v4.8 VPN Kill Switch został podzielony na dwa tryby.
 
@@ -52,9 +52,43 @@ W panelu administracyjnym routera przejdź do **VPN** -> **VPN Dashboard**, prze
 
 ![all other traffic](https://static.gl-inet.com/docs/router/en/4/faq/block_non_vpn_traffic/4.8-all-other-traffic.png){class="glboxshadow"}
 
-**All Other Traffic** (cały pozostały ruch) to domyślny tunel, który zapewnia normalny dostęp do Internetu dla ruchu nieobjętego powyższymi tunelami VPN i zasadami oraz dla ruchu przełączonego awaryjnie z połączeń VPN. Ten tunel jest domyślnie włączony i wzajemnie wyklucza się z rozszerzonym Kill Switch.
+**All Other Traffic** to domyślny tunel, który zapewnia normalny dostęp do internetu ruchowi niedopasowanemu do żadnego z powyższych tuneli VPN ani reguł oraz ruchowi skierowanemu tutaj przez awaryjne przełączenie VPN. Tunel jest domyślnie włączony. Jego wyłączenie blokuje cały ten ruch, w tym ruch, który w razie awarii połączenia VPN zostałby tutaj przekierowany. Dostęp do internetu ma wtedy tylko ruch obsługiwany przez skonfigurowane tunele VPN, tak jak w przypadku **Enhanced Kill Switch**.
 
-**Uwaga**: Jeśli wyłączysz **All Other Traffic**, dostęp do Internetu będzie możliwy tylko przez VPN. Cały niepasujący ruch zostanie zablokowany. To ustawienie nie zastępuje indywidualnego Kill Switch dla każdego tunelu.
+**Uwaga:** Ustawienie **All Other Traffic** nie zastępuje funkcji Kill Switch poszczególnych tuneli.
+
+## Dla firmware v4.9 i nowszych {#for-firmware-v49-and-above}
+
+W firmware v4.9 i nowszych wersjach są dostępne dwa rodzaje funkcji VPN Kill Switch: **Tunnel Kill Switch** i **Enhanced Kill Switch**.
+
+### Kill Switch tunelu {#for-firmware-v49-and-above-tunnel-kill-switch}
+
+W panelu administracyjnym routera przejdź do **VPN** -> **VPN Dashboard**.
+
+Jeśli router jest skonfigurowany jako klient VPN, Kill Switch dla tego tunelu VPN jest domyślnie włączony po aktywacji VPN.
+
+![tunnel kill switch](https://static.gl-inet.com/docs/router/en/4/faq/block_non_vpn_traffic/4.9-tunnel-kill-switch.png){class="glboxshadow"}
+
+Kliknij ikonę koła zębatego obok nazwy tunelu, aby otworzyć **Tunnel Options**.
+
+![tunnel options 1](https://static.gl-inet.com/docs/router/en/4/faq/block_non_vpn_traffic/4.9-tunnel-options-1.png){class="glboxshadow"}
+
+Kill Switch dla tego tunelu jest domyślnie włączony.
+
+![tunnel options 2](https://static.gl-inet.com/docs/router/en/4/faq/block_non_vpn_traffic/4.9-tunnel-options-2.png){class="glboxshadow" width=600}
+
+### Rozszerzony Kill Switch {#for-firmware-v49-and-above-enhanced-kill-switch}
+
+W panelu administracyjnym routera przejdź do **VPN** -> **VPN Dashboard**, a następnie kliknij ikonę koła zębatego w prawym górnym rogu.
+
+![all other traffic 1](https://static.gl-inet.com/docs/router/en/4/faq/block_non_vpn_traffic/4.9-all-other-traffic-1.png){class="glboxshadow"}
+
+Reguły ruchu można ustawić na dwa sposoby: **Allow Non-VPN Traffic** lub **Enhanced Kill Switch**.
+
+![all other traffic 2](https://static.gl-inet.com/docs/router/en/4/faq/block_non_vpn_traffic/4.9-all-other-traffic-2.png){class="glboxshadow" width=600}
+
+- **Allow Non-VPN Traffic**: Opcja jest domyślnie włączona. Zapewnia normalny dostęp do internetu ruchowi niedopasowanemu do żadnego z powyższych tuneli VPN ani reguł oraz ruchowi skierowanemu tutaj przez awaryjne przełączenie VPN.
+
+- **Enhanced Kill Switch**: Po włączeniu tej opcji wszystkie urządzenia muszą korzystać z VPN, aby uzyskać dostęp do internetu. Ruch niedopasowany do żadnego tunelu VPN jest blokowany. To ustawienie nie zastępuje funkcji Kill Switch poszczególnych tuneli VPN.
 
 ---
 

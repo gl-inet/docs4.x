@@ -44,8 +44,12 @@ Regardez cette vidéo de configuration ou suivez les étapes ci-dessous.
     Au moins une carte nano SIM est nécessaire pour vous connecter à Internet via la méthode cellulaire. Une fois votre ou vos cartes nano SIM prêtes, suivez les étapes ci-dessous :
     
     1. Activez votre ou vos cartes SIM si votre opérateur l'exige.
+
     2. Éteignez votre routeur.
-    3. Insérez la ou les cartes SIM dans les emplacements SIM. (**Remarque :** une seule carte SIM est active à la fois. L'autre sert uniquement de secours.)
+
+    3. Insérez la ou les cartes SIM comme suit. Orientez la carte avec les contacts métalliques vers le dessus du routeur et le coin biseauté en haut à droite. Maintenez-la à plat et faites-la glisser doucement dans son emplacement jusqu’à ce qu’elle s’enclenche. (**Remarque :** une seule carte SIM peut être active à la fois. L’autre sert de secours.)
+
+        Pour retirer la carte SIM, enfoncez-la de nouveau, puis relâchez-la. La carte ressort légèrement et vous pouvez alors la retirer.
 
 ### 1. Mise sous tension {#1-power-on}
 

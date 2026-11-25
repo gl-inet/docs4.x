@@ -74,8 +74,12 @@ Sehen Sie sich dieses Einrichtungsvideo an oder folgen Sie den untenstehenden Sc
     Für die Verbindung mit dem Internet über Cellular wird mindestens eine Nano-SIM-Karte benötigt. Sobald Sie die Nano-SIM-Karte(n) bereit haben, führen Sie bitte die folgenden Schritte aus:
 
     1. Aktivieren Sie Ihre SIM-Karte(n), falls dies vom Mobilfunkanbieter verlangt wird.
+
     2. Schalten Sie Ihren Router aus.
-    3. Setzen Sie die SIM-Karte(n) in die SIM-Kartensteckplätze ein. (**Hinweis:** Es ist jeweils nur eine SIM-Karte aktiv. Die andere SIM-Karte dient ausschließlich als Backup.)
+
+    3. Setzen Sie die SIM-Karte(n) wie folgt ein: Richten Sie die Karte so aus, dass die Metallkontakte zur Oberseite des Routers zeigen und sich die abgeschrägte Ecke oben rechts befindet. Halten Sie die Karte waagerecht und schieben Sie sie vorsichtig in den Steckplatz, bis sie einrastet. (**Hinweis:** Es kann jeweils nur eine SIM-Karte aktiv sein. Die andere dient als Reserve.)
+
+        Drücken Sie die SIM-Karte zum Entnehmen erneut hinein und lassen Sie sie los. Die Karte springt ein Stück heraus und lässt sich dann herausziehen.
 
 ### 1. Einschalten {#1-power-on}
 

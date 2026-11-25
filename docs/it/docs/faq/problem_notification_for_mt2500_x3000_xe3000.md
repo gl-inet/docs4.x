@@ -1,4 +1,22 @@
-# Notifica di problema critico per GL-MT2500/GL-X3000/GL-XE3000 {#critical-problem-notification-for-gl-mt2500gl-x3000gl-xe3000}
+# Avviso relativo a GL-MT2500/GL-X3000/GL-XE3000 {#problem-notification-for-gl-mt2500gl-x3000gl-xe3000}
+
+**Ultimo aggiornamento: 11 novembre 2026**
+
+Questo problema noto riguarda solo alcuni lotti. I dispositivi ordinati a partire dal 1º luglio 2025 appartengono con tutta probabilità a un lotto più recente e non richiedono l’aggiornamento del bootloader U-Boot.
+
+Se non sai a quale lotto appartiene il dispositivo, invia a [support@gl-inet.com](mailto:support@gl-inet.com) i dati seguenti prima di apportare modifiche:
+
+- Modello del router e versione del firmware
+- Indirizzo MAC del dispositivo
+- Descrizione del problema (incluse le operazioni in corso quando si è verificato), eventuali messaggi di errore e passaggi di risoluzione già tentati
+
+Confermeremo il lotto di produzione e ti forniremo istruzioni mirate.
+
+---
+
+L’avviso originale riportato di seguito è conservato come riferimento. Le procedure di aggiornamento si applicano solo ai lotti interessati. In caso di dubbi, contatta l’assistenza come indicato sopra prima di apportare modifiche.
+
+**Pubblicazione: 26 marzo 2025**
 
 Gentili clienti GL.iNet,
 
@@ -12,27 +30,33 @@ Prova ad aggiornare usando Chrome o Microsoft Edge. **NON** usare Mozilla/Firefo
 
 ## GL-MT2500 {#gl-mt2500}
 
-1. Scarica e aggiorna il bootloader U-Boot alla [versione 2025-02-24 15:04:07](https://github.com/gl-inet/mt798x-boot/blob/main/bin/uboot-mt2500-20250224-md5-74286e770cfb041b611d80d4adaef189.bin){target="_blank"}
+1. Aggiorna il bootloader U-Boot.
 
-2. Scarica e aggiorna il firmware alla [versione 4.7.4](https://fw.gl-inet.com/firmware/mt2500/release/openwrt-mt2500-4.7.4-0328-1743128340.bin)
+    Scarica [uboot-mt2500-20250224.bin](https://github.com/gl-inet/mt798x-boot/blob/main/bin/uboot-mt2500-20250224-md5-74286e770cfb041b611d80d4adaef189.bin){target="_blank"}, quindi [aggiorna il bootloader U-Boot](upgrade_uboot_version.md).
+
+2. Aggiorna il firmware.
+
+    Scarica [il firmware più recente per il router](https://dl.gl-inet.com/router/mt2500/stable){target="_blank"}, quindi [aggiorna il firmware del router](../tutorials/how_to_upgrade_downgrade_router.md).
 
 ## GL-X3000 {#gl-x3000}
 
-1. Scarica e aggiorna il bootloader U-Boot alla [versione 2025-02-25 19:05:24](https://github.com/gl-inet/mt798x-boot/blob/main/bin/uboot-x3000-20250225-md5-c9d7b2fd2451adbc0bb126e2d9729e87.bin){target="_blank"}
+1. Aggiorna il bootloader U-Boot.
 
-2. Scarica e aggiorna il firmware alla [versione 4.7.4](https://fw.gl-inet.com/firmware/x3000/release/openwrt-x3000-4.7.4-0317-1742206344.bin)
+    Scarica [uboot-x3000-20250225.bin](https://github.com/gl-inet/mt798x-boot/blob/main/bin/uboot-x3000-20250225-md5-c9d7b2fd2451adbc0bb126e2d9729e87.bin){target="_blank"}, quindi [aggiorna il bootloader U-Boot](upgrade_uboot_version.md).
+
+2. Aggiorna il firmware.
+
+    Scarica [il firmware più recente per il router](https://dl.gl-inet.com/router/x3000/stable){target="_blank"}, quindi [aggiorna il firmware del router](../tutorials/how_to_upgrade_downgrade_router.md).
 
 ## GL-XE3000 {#gl-xe3000}
 
-1. Scarica e aggiorna il bootloader U-Boot alla [versione 2025-02-25 19:07:14](https://github.com/gl-inet/mt798x-boot/blob/main/bin/uboot-xe3000-20250225-md5-05fadd9da27314d41dbadc6fbd239b3d.bin){target="_blank"}
+1. Aggiorna il bootloader U-Boot.
 
-2. Scarica e aggiorna il firmware alla [versione 4.7.4](https://fw.gl-inet.com/firmware/xe3000/release/openwrt-xe3000-4.7.4-0317-1742206184.bin)
+    Scarica [uboot-xe3000-20250225.bin](https://github.com/gl-inet/mt798x-boot/blob/main/bin/uboot-xe3000-20250225-md5-05fadd9da27314d41dbadc6fbd239b3d.bin){target="_blank"}, quindi [aggiorna il bootloader U-Boot](upgrade_uboot_version.md).
 
-!!! Note
+2. Aggiorna il firmware.
 
-    Per i metodi di aggiornamento del bootloader U-Boot, fai riferimento a [questo link](upgrade_uboot_version.md).
-
-    Per i metodi di aggiornamento del firmware, fai riferimento a [questo link](../tutorials/how_to_upgrade_downgrade_router.md).
+    Scarica [il firmware più recente per il router](https://dl.gl-inet.com/router/xe3000/stable){target="_blank"}, quindi [aggiorna il firmware del router](../tutorials/how_to_upgrade_downgrade_router.md).
 
 <br>
 
@@ -40,14 +64,11 @@ Ci scusiamo sinceramente per qualsiasi inconveniente causato. In futuro ci impeg
 
 Per chi possiede attualmente questi router, estenderemo il periodo di garanzia di un anno senza alcun costo. Se dovessi riscontrare problemi, non esitare a contattare i nostri team di supporto.
 
-Se il problema persiste nonostante l'aggiornamento, contatta i nostri team di supporto all'indirizzo support@gl-inet.com e ti forniremo una nuova unità sostitutiva gratuitamente.
+Se il problema persiste nonostante l'aggiornamento, contatta i nostri team di supporto all'indirizzo [support@gl-inet.com](mailto:support@gl-inet.com) e ti forniremo una nuova unità sostitutiva gratuitamente.
 
 La vostra fiducia e il vostro supporto significano moltissimo per noi e ve ne siamo profondamente grati.
 
 <br>
-
-Cordiali saluti,
-
-GL.iNet Technical Support
-
-March 26, 2025
+Cordiali saluti,<br>
+Il team GL.iNet<br>
+26 marzo 2025

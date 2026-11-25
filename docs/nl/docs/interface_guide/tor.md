@@ -2,12 +2,17 @@
 
 Tor, afgeleid van **The Onion Router**, is gratis opensourcesoftware voor anonieme communicatie en meer privacy op internet. [Lees meer over Tor](https://www.torproject.org/){target="_blank"}.
 
-**Opmerking**: deze functie is momenteel in bèta en kan in sommige landen problemen veroorzaken. Wanneer Tor is ingeschakeld, werken de volgende functies niet goed:
+Met de Tor-functie routeert de router het TCP-verkeer van aangesloten apparaten naar internet automatisch via het Tor-netwerk. Op de apparaten hoef je geen proxy in te stellen. Openbare websites die je via Tor bezoekt, zien het IP-adres van het Tor-uitgangsknooppunt in plaats van je openbare IP-adres.
 
-  - VPN
-  - DNS
-  - IPv6
-  - ADGuard Home.
+**Opmerking:**
+
+1. deze functie is momenteel in bèta en kan in sommige landen problemen veroorzaken. Wanneer Tor is ingeschakeld, werken de volgende functies niet goed:
+    - VPN
+    - DNS
+    - IPv6
+    - AdGuard Home.
+
+2. Tor is ontworpen voor TCP-toepassingen en biedt geen algemeen UDP-transport.
 
 ## Ondersteunde modellen {#supported-models}
 

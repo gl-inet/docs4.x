@@ -2,9 +2,11 @@
 
 Att dela nätverket från en smartphone till routern med en USB-kabel kallas Tethering. Värdlösa modem använder också Tethering när modemet konfigureras.
 
-**Obs!** Vissa mobiloperatörer begränsar eller tar extra betalt för internetdelning. Kontrollera villkoren med operatören.
+**Obs!**
 
-## Setup {#setup}
+- Vissa mobiloperatörer begränsar eller tar extra betalt för internetdelning. Kontrollera villkoren med operatören.
+
+- Om du använder en USB-dongel (medföljer inte) för att ansluta routern till internet går du till **INTERNET** -> **Tethering** för en värdlös dongel eller till **INTERNET** -> **Cellular** för en dongel i vanligt USB-modemläge. Följ stegen i [konfigurationsguiden för USB-donglar](./internet_cellular_v4.10.md#non-cellular-routers).
 
 === "iPhone"
 

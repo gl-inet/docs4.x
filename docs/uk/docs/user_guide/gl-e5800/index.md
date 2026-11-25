@@ -74,15 +74,11 @@ Mudi 7 — це портативний дорожній маршрутизато
     
     **Налаштування eSIM**:
     
-    1. На сенсорному екрані перейдіть до **Cellular** -> **SIM Card Switch** і ввімкніть **eSIM** за допомогою перемикача.
+    1. Увійдіть до [вебпанелі адміністрування](./index.md#log-in-to-web-admin-panel) і перейдіть до **INTERNET** -> **Cellular**. У розділі **SIM Type** виберіть **eSIM**, а потім натисніть **eSIM Management** у правому верхньому куті.
 
-        ![Увімкнення eSIM](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/lcd_enable_esim.png){class="glboxshadow" width="590"}
+        ![Керування eSIM](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/esim_management.png){class="glboxshadow"}
 
-    2. Увійдіть до [вебпанелі адміністрування](./index.md#log-in-to-web-admin-panel) і перейдіть до **INTERNET** -> **Cellular** -> **eSIM Management**.
-
-        ![Керування eSIM](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/esim_management.png){class="glboxshadow" width="590"}
-    
-    3. У спливному вікні натисніть **Add eSIM Profile** внизу.
+    2. У спливному вікні натисніть **Add eSIM Profile** внизу.
 
         ![Додавання профілю eSIM](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/add_esim_profile1.png){class="glboxshadow" width="590"}
 
@@ -96,21 +92,19 @@ Mudi 7 — це портативний дорожній маршрутизато
 
         ![Рекомендований магазин](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/recommended_store.png){class="glboxshadow" width="590"}
 
-    4. Після завантаження перейдіть до **Cellular** і натисніть **SIM Card Switch**.
+    3. Після завантаження профілю eSIM натисніть **Enable** поруч із ним.
 
-        ![Перемикання SIM-картки](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/sim_card_switch.png){class="glboxshadow" width="590"}
+        ![Увімкнення профілю eSIM](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/activate-esim-profile.png){class="glboxshadow" width="590"}
 
-        У спливному вікні виберіть **eSIM** як активну SIM-картку та натисніть **Apply**.
+    4. Маршрутизатор почне підключатися до інтернету через цей профіль eSIM. Поверніться на сторінку **Cellular**, щоб перевірити стан з’єднання. Поточну eSIM позначено як **Active**.
 
-        ![Активна SIM-картка](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/active_sim_card.png){class="glboxshadow"}
-
-    5. Маршрутизатор почне підключення через цей профіль eSIM. Зачекайте та перевірте, чи встановлено з’єднання.
+        ![Стан з’єднання eSIM](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/esim-status.png){class="glboxshadow"}
 
     **Налаштування Nano‑SIM**:
     
-    6. Зніміть задню кришку, вийміть акумулятор, вставте картку Nano-SIM у слот і знову встановіть акумулятор.
+    1. Зніміть задню кришку, вийміть акумулятор, вставте картку Nano-SIM у слот і знову встановіть акумулятор.
 
-    7. Маршрутизатор автоматично почне підключення через цю картку Nano‑SIM. Зачекайте та перевірте, чи встановлено з’єднання.
+    2. Маршрутизатор автоматично почне підключення через цю картку Nano‑SIM. Зачекайте та перевірте, чи встановлено з’єднання.
 
     Після успішного підключення до інтернету у верхньому правому куті сенсорного екрана з’являться індикатор рівня сигналу та стан стільникового з’єднання. Подробиці з’єднання також можна переглянути у вебпанелі адміністрування.
 

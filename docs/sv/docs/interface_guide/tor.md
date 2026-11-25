@@ -2,12 +2,17 @@
 
 Tor (från **The Onion Router**) är kostnadsfri programvara med öppen källkod för anonym kommunikation och privat internetanvändning. [Läs mer om Tor](https://www.torproject.org/){target="_blank"}.
 
-**Obs!** Funktionen är i betaversion och kan ha problem i vissa länder. När Tor är aktiverat fungerar följande funktioner inte korrekt:
+Tor-funktionen dirigerar automatiskt anslutna enheters internetbundna TCP-trafik genom Tor-nätverket. Du behöver inte konfigurera någon proxy på enheterna. Offentliga webbplatser som du besöker via Tor ser IP-adressen för Tor-nätverkets utgångsnod i stället för din publika IP-adress.
 
-  - VPN
-  - DNS
-  - IPv6
-  - ADGuard Home.
+**Obs!**
+
+1. Funktionen är i betaversion och kan ha problem i vissa länder. När Tor är aktiverat fungerar följande funktioner inte korrekt:
+    - VPN
+    - DNS
+    - IPv6
+    - AdGuard Home.
+
+2. Tor är utformat för TCP-baserade program och erbjuder ingen allmän UDP-transport.
 
 ## Supported models {#supported-models}
 

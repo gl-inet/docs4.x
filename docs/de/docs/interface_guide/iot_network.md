@@ -30,6 +30,8 @@ Sie können das Subnetz innerhalb der privaten IPv4-Adressbereiche festlegen: `1
 
     Sie können Client-Geräte in ein separates Netzwerksegment isolieren. Diese Geräte können dann nicht mit anderen Geräten im selben Netzwerk kommunizieren.
 
+    **Hinweis**: **AP Isolation** gilt ausschließlich für Wi-Fi-Clients. Kabelgebundene Geräte sind davon ausgenommen.
+
 - **Block WAN Subnets**
 
     Diese Funktion ist seit Firmware v4.8 verfügbar.

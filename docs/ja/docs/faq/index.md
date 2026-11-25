@@ -53,7 +53,7 @@ hide:
 * [非VPNトラフィックをブロックする方法は？](block_non_vpn_traffic.md)
 * [VPNキルスイッチ](block_non_vpn_traffic.md)
 * [OpenVPNでは、TCPとUDPのどちらのプロトコルを選ぶべきですか？](openvpn_tcp_udp.md)
-* [AmneziaWG難読化](amneziawg_obfuscation.md)
+* [GL.iNet ルーターでの AmneziaWG 難読化](amneziawg_obfuscation.md)
 * [難読化された WireGuard サーバーに接続できない](cannot_connect_to_obfuscated_wireguard_server.md)
 * [VPN使用時にイーサネットWANを設定する必要がありますか？](do_i_have_to_configure_ethernet_wan_when_using_vpn.md)
 
@@ -68,6 +68,7 @@ hide:
 * [GL.iNetモバイルアプリ](mobile_app.md)
 * [モバイルアプリにBrume 2を追加する方法は？](how_to_add_brume2_into_app.md)
 * [WANポートをLANポートに変更する方法は？](change_wan_to_lan.md)
+* [Samba、WebDAV、DLNA を使ってファイルを共有するには？](../interface_guide/network_storage.md)
 * [HTTPSを使用してGL.iNetルーターとAdguard Homeにアクセスする方法は？](use_https_for_adh.md)
 * [GL.iNetルーターをStarlink Dishに接続する方法は？](connect_glinetrouter_to_starlink.md)
 * [ルーターのWeb管理パネルにリモートアクセスする方法は？](remote_access_web_admin_panel.md)

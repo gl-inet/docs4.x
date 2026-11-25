@@ -45,7 +45,11 @@ Pour configurer Spitz Plus, utilisez l'une des quatre méthodes de connexion Int
     
     1. Activez votre ou vos cartes SIM si votre opérateur l'exige.
     2. Éteignez votre routeur.
-    3. Insérez la ou les cartes SIM dans les emplacements SIM. (**Remarque :** une seule carte SIM est active à la fois. L'autre sert uniquement de secours.)
+    3. Orientez chaque carte SIM avec les contacts métalliques vers le haut du routeur et le coin biseauté en haut à droite. Maintenez la carte à plat et faites-la glisser doucement dans l’emplacement jusqu’à ce qu’elle s’enclenche. (**Remarque :** une seule carte SIM peut être active à la fois. L’autre sert de secours.)
+
+        ![insert sim card](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/insert-sim-card.png){class="glboxshadow"}
+
+        Pour retirer la carte SIM, enfoncez-la à nouveau, puis relâchez-la. Elle ressort légèrement pour que vous puissiez la saisir et la retirer.
 
 ### 1. Mise sous tension {#1-power-on}
 

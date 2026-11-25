@@ -1,8 +1,8 @@
-# Maskowanie AmneziaWG {#amneziawg-obfuscation}
+# Maskowanie AmneziaWG na routerach GL.iNet {#amneziawg-obfuscation-on-glinet-routers}
 
 AmneziaWG to protokół VPN oparty na WireGuard z wbudowanym maskowaniem ruchu. Jego parametry maskowania określają, w jaki sposób ruch jest ukrywany, aby utrudnić jego wykrycie przez restrykcyjną inspekcję sieciową.
 
-Poniżej znajdziesz szczegółowe omówienie AmneziaWG i różnic między wersjami.
+Poniżej znajdziesz szczegółowe omówienie AmneziaWG i jego różnych wersji na routerach GL.iNet.
 
 ## Dlaczego AmneziaWG? {#why-amneziawg}
 

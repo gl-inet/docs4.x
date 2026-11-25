@@ -26,7 +26,7 @@ Strona konfiguracji obejmuje ustawienia podstawowe, ustawienia serwera DHCP oraz
 
 Podsieć można ustawić w prywatnych zakresach adresów IPv4: `192.168.0.0/16`, `172.16.0.0/12`, `10.0.0.0/8`.
 
-![main network basic settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/main-network-basic.png){class="glboxshadow" width=650}
+![main network basic settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/main-network-basic.png){class="glboxshadow" width=700}
 
 - **Router IP Address**
 
@@ -54,13 +54,13 @@ Jeśli serwer DHCP jest wyłączony, trzeba ręcznie skonfigurować ustawienia s
 
 Można zmienić początkowy i końcowy adres IP zależnie od potrzeb, na przykład gdy sieć się rozrasta lub zmniejsza, występują konflikty adresów IP albo zmienia się zakres maski podsieci.
 
-![main network dhcp simple settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/main-network-dhcp-server-1.png){class="glboxshadow" width=650}
+![main network dhcp simple settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/main-network-dhcp-server-1.png){class="glboxshadow" width=700}
 
 W razie potrzeby kliknij **Advanced**, aby przejść do dalszej konfiguracji.
 
-![main network dhcp advanced settings 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/main-network-dhcp-server-2.png){class="glboxshadow" width=650}
+![main network dhcp advanced settings 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/main-network-dhcp-server-2.png){class="glboxshadow" width=700}
 
-![main network dhcp advanced settings 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/main-network-dhcp-server-3.png){class="glboxshadow" width=650}
+![main network dhcp advanced settings 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/main-network-dhcp-server-3.png){class="glboxshadow" width=700}
 
 - **Lease Time**: Okres, przez jaki adres IP przydzielony przez DHCP jest ważny dla urządzenia.
 
@@ -80,19 +80,19 @@ Po określeniu zarezerwowanego adresu IP dla klienta w sieci LAN klient zawsze o
 
 Kliknij **Add**, aby zarezerwować adres IP.
 
-![main network address Reservation 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/address-reservation-1.png){class="glboxshadow" width=650}
+![main network address Reservation 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/address-reservation-1.png){class="glboxshadow" width=700}
 
 Zobaczysz okno podręczne.
 
-![main network address Reservation 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/address-reservation-2.png){class="glboxshadow" width=650}
+![main network address Reservation 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/address-reservation-2.png){class="glboxshadow" width=600}
 
 Wybierz **MAC** z listy rozwijanej. Odpowiedni dostępny adres **IP** zostanie wypełniony automatycznie. Opcjonalnie można wpisać **hostname** i niestandardowy **name**, aby ułatwić identyfikację. Następnie kliknij **Submit**.
 
-![main network address Reservation 3](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/address-reservation-3.png){class="glboxshadow" width=650}
+![main network address Reservation 3](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/address-reservation-3.png){class="glboxshadow" width=600}
 
 Po dodaniu nowej rezerwacji adresu IP zostanie wyświetlona poniższa strona, co oznacza, że konfiguracja zakończyła się powodzeniem.
 
-![main network address Reservation 4](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/address-reservation-4.png){class="glboxshadow" width=650}
+![main network address Reservation 4](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/address-reservation-4.png){class="glboxshadow" width=700}
 
 ## Sieć gościnna {#guest-network}
 
@@ -154,13 +154,13 @@ Jeśli serwer DHCP jest wyłączony, trzeba ręcznie skonfigurować ustawienia s
 
 Można zmienić początkowy i końcowy adres IP zależnie od potrzeb, na przykład gdy sieć się rozrasta lub zmniejsza, występują konflikty adresów IP albo zmienia się zakres maski podsieci.
 
-![guest network dhcp simple settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/guest-network-dhcp-server-1.png){class="glboxshadow" width=650}
+![guest network dhcp simple settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/guest-network-dhcp-server-1.png){class="glboxshadow" width=700}
 
 W razie potrzeby kliknij **Advanced**, aby przejść do dalszej konfiguracji.
 
-![guest network dhcp advanced settings 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/guest-network-dhcp-server-2.png){class="glboxshadow" width=650}
+![guest network dhcp advanced settings 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/guest-network-dhcp-server-2.png){class="glboxshadow" width=700}
 
-![guest network dhcp advanced settings 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/guest-network-dhcp-server-3.png){class="glboxshadow" width=650}
+![guest network dhcp advanced settings 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/guest-network-dhcp-server-3.png){class="glboxshadow" width=700}
 
 - **Lease Time**: Okres, przez jaki adres IP przydzielony przez DHCP jest ważny dla urządzenia.
 
@@ -230,13 +230,13 @@ Jeśli serwer DHCP jest wyłączony, trzeba ręcznie skonfigurować ustawienia s
 
 Można zmienić początkowy i końcowy adres IP zależnie od potrzeb, na przykład gdy sieć się rozrasta lub zmniejsza, występują konflikty adresów IP albo zmienia się zakres maski podsieci.
 
-![iot network dhcp simple settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/iot-network-dhcp-server-1.png){class="glboxshadow" width=650}
+![iot network dhcp simple settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/iot-network-dhcp-server-1.png){class="glboxshadow" width=700}
 
 W razie potrzeby kliknij **Advanced**, aby przejść do dalszej konfiguracji.
 
-![iot network dhcp advanced settings 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/iot-network-dhcp-server-2.png){class="glboxshadow" width=650}
+![iot network dhcp advanced settings 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/iot-network-dhcp-server-2.png){class="glboxshadow" width=700}
 
-![iot network dhcp advanced settings 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/iot-network-dhcp-server-3.png){class="glboxshadow" width=650}
+![iot network dhcp advanced settings 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/iot-network-dhcp-server-3.png){class="glboxshadow" width=700}
 
 - **Lease Time**: Okres, przez jaki adres IP przydzielony przez DHCP jest ważny dla urządzenia.
 
@@ -262,7 +262,7 @@ Kliknij przycisk **+ Add** po prawej stronie, aby skonfigurować nową sieć.
 
 Na tej stronie można skonfigurować podstawowe informacje dla **VLAN Networks**.
 
-![vlan networks basic setting](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/vlan-networks-basic-settings.png){class="glboxshadow" width=650}
+![vlan networks basic setting](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/vlan-networks-basic-settings.png){class="glboxshadow" width=700}
 
 - **Name**
 
@@ -306,13 +306,13 @@ Jeśli serwer DHCP jest wyłączony, trzeba ręcznie skonfigurować ustawienia s
 
 Można zmienić początkowy i końcowy adres IP zależnie od potrzeb, na przykład gdy sieć się rozrasta lub zmniejsza, występują konflikty adresów IP albo zmienia się zakres maski podsieci.
 
-![vlan networks dhcp simple settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/vlan-networks-dhcp-server-1.png){class="glboxshadow" width=650}
+![vlan networks dhcp simple settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/vlan-networks-dhcp-server-1.png){class="glboxshadow" width=700}
 
 W razie potrzeby kliknij **Advanced**, aby przejść do dalszej konfiguracji.
 
-![vlan networks dhcp advanced settings 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/vlan-networks-dhcp-server-2.png){class="glboxshadow" width=650}
+![vlan networks dhcp advanced settings 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/vlan-networks-dhcp-server-2.png){class="glboxshadow" width=700}
 
-![vlan networks dhcp advanced settings 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/vlan-networks-dhcp-server-3.png){class="glboxshadow" width=650}
+![vlan networks dhcp advanced settings 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/vlan-networks-dhcp-server-3.png){class="glboxshadow" width=700}
 
 - **Lease Time**: Okres, przez jaki adres IP przydzielony przez DHCP jest ważny dla urządzenia.
 

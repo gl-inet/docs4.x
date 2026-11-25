@@ -32,6 +32,8 @@ Je kunt het subnet instellen binnen de privé-IPv4-adresbereiken `192.168.0.0/16
 
     Je kunt clientapparaten in een afzonderlijk netwerksegment isoleren. Deze apparaten kunnen dan niet met andere apparaten in hetzelfde netwerk communiceren.
 
+    **Opmerking:** AP Isolation geldt alleen voor Wi-Fi-clients. Bekabelde apparaten vallen hier buiten.
+
 - **Block WAN Subnets**
 
     Deze functie is beschikbaar sinds firmware v4.8.

@@ -48,7 +48,7 @@ Attiva l'interruttore per abilitare AdGuard Home e fai clic su **Apply**.
 
 ![adguard home apply](https://static.gl-inet.com/docs/router/en/4/interface_guide/adguard_home/apply.png){class="glboxshadow"}
 
-- **AdGuard Home Handle Client Requests**: se abilitata, le query DNS dei dispositivi client verranno elaborate direttamente da AdGuard Home. Questo renderà inefficaci le policy VPN basate sul dominio e le regole di parental control.
+- **AdGuard Home Handle Client Requests**: se abilitata, le regole del firewall reindirizzano le query DNS dei dispositivi client direttamente ad AdGuard Home, aggirando il servizio DNS del router (dnsmasq). Le policy VPN basate sui domini e le regole del controllo genitori non vengono applicate. I nomi host locali normalmente risolti da dnsmasq potrebbero richiedere una configurazione aggiuntiva in AdGuard Home.
 
 Una volta abilitata, la pagina mostra statistiche come query DNS e domini bloccati tramite l'API fornita da AdGuard Home.
 

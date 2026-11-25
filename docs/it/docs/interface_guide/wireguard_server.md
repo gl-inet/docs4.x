@@ -42,19 +42,28 @@ Accedi al pannello di amministrazione web e vai su **VPN** -> **WireGuard Server
 
 2. Controlla la configurazione.
 
-    La configurazione predefinita funziona nella maggior parte dei casi, come mostrato di seguito. Non è necessario modificare l'indirizzo IPv4 se non entra in conflitto con il gateway del router a monte.
+    La configurazione predefinita mostrata di seguito è adatta alla maggior parte dei casi.
 
     ![check configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/check_configuration.png){class="glboxshadow"}
 
-    (IPv6 su GL.iNet è disabilitato per impostazione predefinita. Se vuoi usare un indirizzo IPv6, abilita IPv6 sul router.)
+    - **IPv4 Address**: È l’indirizzo IP del tunnel del server WireGuard. Modificalo solo se è in conflitto con il gateway del router a monte.
 
-    L'indirizzo IPv4 è l'IP del tunnel del server WireGuard. Se entra in conflitto con il gateway del router a monte, modificarlo, ad esempio in **10.1.0.1/24**, quindi fare clic su **Apply**. Assicurarsi di includere la notazione CIDR "/24" per evitare problemi di connettività.
+        Se entra in conflitto con il gateway del router a monte, modificarlo, ad esempio in **10.1.0.1/24**, quindi fare clic su **Apply**. Assicurarsi di includere la notazione CIDR "/24" per evitare problemi di connettività.
 
-    ![modify configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/modify_configuration.png){class="glboxshadow"}
+        ![modify configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/modify_ipv4.png){class="glboxshadow"}
 
-    Ad esempio, se a monte del router GL.iNet è presente un router Xfinity, l'indirizzo IP di quest'ultimo potrebbe essere 10.0.0.1 e quindi entrare in conflitto con il Tunnel IP di WireGuard Server quando il router GL.iNet è configurato come server WireGuard. In tal caso potrebbe essere necessario apportare la modifica descritta sopra. Se non esiste alcun conflitto, ignorare questo passaggio.
+        Ad esempio, se a monte del router GL.iNet è presente un router Xfinity, l'indirizzo IP di quest'ultimo potrebbe essere 10.0.0.1 e quindi entrare in conflitto con il Tunnel IP di WireGuard Server quando il router GL.iNet è configurato come server WireGuard. In tal caso potrebbe essere necessario apportare la modifica descritta sopra. Se non esiste alcun conflitto, ignorare questo passaggio.
 
-    ![xfinity gateway](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/xfinitygateway.jpg){class="glboxshadow"}
+        ![xfinity gateway](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/xfinitygateway.jpg){class="glboxshadow"}
+
+    - **IPv6 Address**: IPv6 è disabilitato per impostazione predefinita sui router GL.iNet. Per usare un indirizzo IPv6, abilita [IPv6](ipv6.md) sul router.
+
+    - **Listen Port**: La porta UDP su cui è in ascolto il server WireGuard. Per impostazione predefinita viene usata `51820`, la porta abituale di WireGuard. Mantienila se la porta è libera nella tua rete. Se la modifichi, aggiorna l’`Endpoint` di ogni client e le regole di inoltro porte a monte.
+
+    - **Enable Obfuscation**: Se l’opzione è abilitata, il server usa AmneziaWG e richiede client compatibili con l’offuscamento AmneziaWG. Ti consigliamo di mantenere le impostazioni predefinite a meno che tu conosca bene i parametri. Consulta le guide seguenti.
+
+        - [Offuscamento AmneziaWG sui router GL.iNet](../faq/amneziawg_obfuscation.md)
+        - [Configurare l’offuscamento VPN sui router GL.iNet](../tutorials/how_to_set_up_vpn_obfuscation_on_glinet_routers.md)
 
 3. Aggiungi un profilo.
 

@@ -48,7 +48,7 @@ Zet de schakelaar om om AdGuard Home in te schakelen en klik op **Apply**.
 
 ![adguard home apply](https://static.gl-inet.com/docs/router/en/4/interface_guide/adguard_home/apply.png){class="glboxshadow"}
 
-- **AdGuard Home Handle Client Requests**: wanneer dit is ingeschakeld, verwerkt AdGuard Home DNS-query's van clientapparaten rechtstreeks. VPN-beleid op basis van domeinen en regels voor ouderlijk toezicht werken dan niet.
+- **AdGuard Home Handle Client Requests**: als je deze optie inschakelt, sturen firewallregels DNS-query’s van clientapparaten rechtstreeks door naar AdGuard Home, buiten de DNS-service van de router (dnsmasq) om. VPN-beleid op basis van domeinen en regels voor ouderlijk toezicht werken dan niet. Lokale hostnamen die normaal door dnsmasq worden opgezocht, vereisen mogelijk extra configuratie in AdGuard Home.
 
 Na inschakeling toont de pagina via de API van AdGuard Home statistieken, waaronder DNS-query's en geblokkeerde domeinen.
 

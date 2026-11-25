@@ -6,6 +6,8 @@ Si votre routeur reste bloqué sur "Installing" pendant une mise à jour du firm
 
 Après chaque étape, vérifiez si le problème est résolu. Si c'est le cas, ignorez les étapes restantes.
 
+**Remarque :** Si vous ne pouvez pas accéder au panneau d’administration web ou si votre routeur ne démarre pas normalement, consultez les articles de dépannage ci-dessous.
+
 1. Vérifiez que la mise à jour du firmware a réussi.
 
     Ouvrez d'abord un navigateur Web, accédez à `192.168.8.1` et connectez-vous.
@@ -15,6 +17,14 @@ Après chaque étape, vérifiez si le problème est résolu. Si c'est le cas, ig
 2. Assurez-vous que la connexion réseau est stable, puis téléversez de nouveau le firmware.
 
 3. Utilisez un autre navigateur (par exemple, Edge ou Safari) pour téléverser de nouveau le firmware.
+
+---
+
+**Articles connexes :**
+
+- [Impossible d’accéder au panneau d’administration web](../faq/cannot_access_web_admin_panel.md)
+
+- [Récupérer votre routeur avec U-Boot](../faq/debrick.md)
 
 ---
 

@@ -1,6 +1,6 @@
 # Guide d'utilisation {#user-guide}
 
-### Routeur de voyage {#travel-router}
+## Routeurs de voyage et mini-routeurs {#travel-mini-router}
 
 <div class="gl-product-row">
   <div class="gl-product-row-box">
@@ -68,10 +68,24 @@
         <div class="gl-product-model">(Beryl)</div>
       </a>
     </div>
+    <div class="gl-product-card">
+      <a href="gl-mt300n-v2/">
+        <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_mt300n-v2.jpg" >
+        <div class="gl-product-model">GL-MT300N-V2</div>
+        <div class="gl-product-model">(Mango)</div>
+      </a>
+    </div>
+    <div class="gl-product-card">
+      <a href="gl-ar300m/">
+        <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_ar300m.jpg" >
+        <div class="gl-product-model">GL-AR300M Series</div>
+        <div class="gl-product-model">(Shadow)</div>
+      </a>
+    </div>
   </div>
 </div>
 
-### Routeur cellulaire {#cellular-router}
+## Routeur cellulaire {#cellular-router}
 
 <div class="gl-product-row">
   <div class="gl-product-row-box">
@@ -134,7 +148,7 @@
   </div>
 </div>
 
-### Routeur domestique {#home-router}
+## Routeur domestique {#home-router}
 
 <div class="gl-product-row">
   <div class="gl-product-row-box">
@@ -190,7 +204,7 @@
   </div>
 </div>
 
-### Passerelle de sécurité et mini-routeurs {#security-gateway-mini-routers}
+## Passerelles de sécurité {#security-gateway}
 
 <div class="gl-product-row">
   <div class="gl-product-row-box">
@@ -208,24 +222,10 @@
         <div class="gl-product-model">(Brume 2)</div>
     </a>
   </div>
-    <div class="gl-product-card">
-      <a href="gl-mt300n-v2/">
-       <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_mt300n-v2.jpg" >
-        <div class="gl-product-model">GL-MT300N-V2</div>
-        <div class="gl-product-model">(Mango)</div>
-    </a>
-  </div>
-    <div class="gl-product-card">
-      <a href="gl-ar300m/">
-       <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_ar300m.jpg" >
-        <div class="gl-product-model">GL-AR300M Series</div>
-        <div class="gl-product-model">(Shadow)</div>
-    </a>
-  </div>
   </div>
 </div>
 
-### Dongle USB 4G/5G {#4g5g-usb-dongle}
+## Dongles USB {#usb-dongle}
 
 <div class="gl-product-row">
   <div class="gl-product-row-box">
@@ -238,7 +238,7 @@
   </div>
 </div>
 
-### Carte et module {#board-module}
+## Carte et module {#board-module}
 
 <div class="gl-product-row">
   <div class="gl-product-row-box">
@@ -251,7 +251,7 @@
   </div>
 </div>
 
-### Passerelle IoT {#iot-gateway}
+## Passerelle IoT {#iot-gateway}
 
 <div class="gl-product-row">
   <div class="gl-product-row-box">
@@ -279,7 +279,7 @@
   </div>
 </div>
 
-### Anciens modèles {#legacy-models}
+## Anciens modèles {#legacy-models}
 
 <div class="gl-product-row">
   <div class="gl-product-row-box">

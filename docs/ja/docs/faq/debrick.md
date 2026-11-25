@@ -157,7 +157,9 @@ DIYプロジェクトや誤ったファームウェアのフラッシュによ�
         9. **保存**ボタンをクリックします。
 
     ??? "macOS"
-    
+
+        **注:** 以下の手順では、macOS Big Sur 11 の画面を例として使用します。ほかのバージョンをお使いの場合は、[Apple サポート](https://support.apple.com/guide/mac-help/mh11939/mac){target="blank"}でお使いの macOS のバージョンを選択し、手順を確認してください。
+
         1. 画面左上の**Apple**アイコンをクリックし、**システム環境設定**を選択します。
 
             ![macos system preferences](https://static.gl-inet.com/docs/router/en/4/faq/debrick/macos_system_preferences.png){class="glboxshadow"}

@@ -74,15 +74,11 @@ Mudi 7 に Nano-SIM カードを挿入します。eSIM を使用する場合は�
 
     **eSIM を設定する**:
 
-    1. タッチスクリーンで **Cellular** -> **SIM Card Switch** に移動し、スイッチを切り替えて **eSIM** を有効にします。
+    1. [Web 管理パネル](./index.md#log-in-to-web-admin-panel)にログインし、**INTERNET** -> **Cellular** に移動します。**SIM Type** で **eSIM** を選択し、右上の **eSIM Management** をクリックします。
 
-        ![enable esim](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/lcd_enable_esim.png){class="glboxshadow" width="590"}
+        ![esim management](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/esim_management.png){class="glboxshadow"}
 
-    2. [Web 管理パネル](./index.md#log-in-to-web-admin-panel)にログインし、**INTERNET** -> **Cellular** -> **eSIM Management** に移動します。
-
-        ![esim management](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/esim_management.png){class="glboxshadow" width="590"}
-
-    3. ポップアップウィンドウの下部にある **Add eSIM Profile** をクリックします。
+    2. ポップアップウィンドウの下部にある **Add eSIM Profile** をクリックします。
 
         ![add esim profile](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/add_esim_profile1.png){class="glboxshadow" width="590"}
 
@@ -96,21 +92,19 @@ Mudi 7 に Nano-SIM カードを挿入します。eSIM を使用する場合は�
 
         ![recommended store](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/recommended_store.png){class="glboxshadow" width="590"}
 
-    4. アップロード後、**Cellular** に戻って **SIM Card Switch** をクリックします。
+    3. eSIM プロファイルのアップロードが完了したら、プロファイルの横にある **Enable** をクリックします。
 
-        ![sim card switch](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/sim_card_switch.png){class="glboxshadow" width="590"}
+        ![Enable the eSIM profile](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/activate-esim-profile.png){class="glboxshadow" width="590"}
 
-        ポップアップウィンドウで **eSIM** をアクティブな SIM カードとして選択し、**Apply** をクリックします。
+    4. ルーターがこの eSIM プロファイルを使用してインターネットへの接続を開始します。**Cellular** ページに戻り、接続状態を確認してください。使用中の eSIM には **Active** と表示されます。
 
-        ![active sim card](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/active_sim_card.png){class="glboxshadow"}
-
-    5. ルーターがこの eSIM プロファイルで接続を開始します。しばらく待って、接続に成功したか確認してください。
+        ![eSIM connection status](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/esim-status.png){class="glboxshadow"}
 
     **Nano‑SIM を設定する**:
 
-    6. 背面カバーを外し、バッテリーを取り出して、Nano‑SIM カードをスロットに挿入してからバッテリーを戻します。
+    1. 背面カバーを外し、バッテリーを取り出して、Nano‑SIM カードをスロットに挿入してからバッテリーを戻します。
 
-    7. ルーターはこの Nano‑SIM カードで自動的に接続を開始します。しばらく待って、接続に成功したか確認してください。
+    2. ルーターはこの Nano‑SIM カードで自動的に接続を開始します。しばらく待って、接続に成功したか確認してください。
 
     インターネットに正常に接続されると、タッチスクリーンの右上にシグナルバーとセルラーステータスが表示されます。Web管理パネルで接続の詳細を確認することもできます。
 

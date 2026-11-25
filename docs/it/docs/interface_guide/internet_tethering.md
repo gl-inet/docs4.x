@@ -2,9 +2,11 @@
 
 Usare un cavo USB per condividere la rete dallo smartphone al router si chiama Tethering. Anche i modem host-less funzionano in modalità Tethering durante la configurazione del modem.
 
-**Nota:** alcuni operatori mobili limitano il tethering o applicano costi aggiuntivi. Ti consigliamo di verificarlo con il tuo operatore.
+**Nota:**
 
-## Configurazione {#setup}
+- alcuni operatori mobili limitano il tethering o applicano costi aggiuntivi. Ti consigliamo di verificarlo con il tuo operatore.
+
+- Se usi una chiavetta USB (non inclusa) per connettere il router a Internet, vai a **INTERNET** -> **Tethering** per una chiavetta host-less oppure a **INTERNET** -> **Cellular** per una chiavetta in modalità modem USB standard. Per le istruzioni, consulta la [guida alla configurazione della chiavetta USB](./internet_cellular_v4.10.md#non-cellular-routers).
 
 === "iPhone"
 

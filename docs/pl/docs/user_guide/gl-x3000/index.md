@@ -45,7 +45,9 @@ Obejrzyj ten film konfiguracyjny lub wykonaj poniższe kroki.
     
     1. Aktywuj kartę (karty) SIM, jeśli wymaga tego operator.
     2. Wyłącz router.
-    3. Włóż kartę (karty) SIM do gniazd kart SIM. (**Uwaga:** W danym momencie aktywna jest tylko jedna karta SIM. Druga karta pełni jedynie funkcję zapasową.)
+    3. Ustaw każdą kartę SIM metalowymi stykami w stronę górnej części routera i ściętym rogiem w prawym górnym narożniku. Trzymaj kartę poziomo i delikatnie wsuń ją do gniazda, aż poczujesz, że się zatrzasnęła. (**Uwaga:** w danym momencie może być aktywna tylko jedna karta SIM. Druga służy jako zapasowa.)
+
+        Aby wyjąć kartę SIM, ponownie ją wciśnij i puść. Karta lekko się wysunie i będzie można ją wyciągnąć.
 
 ### 1. Włącz zasilanie {#1-power-on}
 

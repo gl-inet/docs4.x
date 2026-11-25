@@ -158,6 +158,8 @@
 
     ??? "macOS"
 
+        **Примітка:** У наведених нижче кроках використано інтерфейс macOS Big Sur 11. Якщо у вас інша версія macOS, виберіть її на сайті [служби підтримки Apple](https://support.apple.com/guide/mac-help/mh11939/mac){target="blank"}, щоб переглянути відповідні інструкції.
+
         1. Натисніть піктограму **Apple** у верхньому лівому куті та виберіть **System Preferences**.
 
             ![Системні налаштування macOS](https://static.gl-inet.com/docs/router/en/4/faq/debrick/macos_system_preferences.png){class="glboxshadow"}

@@ -16,7 +16,7 @@ Active **Block Non-VPN Traffic** (también llamado Kill Switch en algunas versio
 
 **Nota:** Cuando **Block Non-VPN Traffic** o **Kill Switch** está activado, si su VPN se desactiva o se desconecta, todos los dispositivos conectados al router tendrán restringido el acceso a Internet para evitar fugas de DNS.
 
-## Para firmware v4.8 o posterior {#for-firmware-v48-or-later}
+## Para firmware v4.8 {#for-firmware-v48}
 
 En el firmware v4.8, el VPN Kill Switch se ha dividido en dos modos.
 
@@ -52,9 +52,43 @@ En el panel de administración web del router, vaya a **VPN** -> **VPN Dashboard
 
 ![all other traffic](https://static.gl-inet.com/docs/router/en/4/faq/block_non_vpn_traffic/4.8-all-other-traffic.png){class="glboxshadow"}
 
-**All Other Traffic** es un túnel predeterminado que garantiza el acceso normal a Internet para el tráfico no cubierto por los túneles VPN y las políticas anteriores, o para el tráfico que haya pasado por conmutación por error desde conexiones VPN. Este túnel está activado de forma predeterminada y es mutuamente excluyente con **Enhanced Kill Switch**.
+**All Other Traffic** es el túnel predeterminado. El tráfico que no coincide con los túneles VPN ni con las políticas anteriores, así como el tráfico redirigido aquí por conmutación por error de la VPN, conserva el acceso normal a Internet. El túnel está habilitado de forma predeterminada. Si lo deshabilita, se bloquea todo ese tráfico, incluido el que se redirigiría aquí por conmutación por error. Solo el tráfico gestionado por los túneles VPN configurados puede acceder a Internet. Esta protección equivale a la de **Enhanced Kill Switch**.
 
-**Nota**: Si desactiva **All Other Traffic**, solo podrá acceder a Internet a través de la VPN. Todo el tráfico no coincidente se bloqueará. Esta configuración no anula el Kill Switch individual de cada túnel.
+**All Other Traffic** El ajuste **All Other Traffic** no anula el Kill Switch de cada túnel.
+
+## Para firmware v4.9 o posterior {#for-firmware-v49-and-above}
+
+A partir del firmware v4.9 hay dos tipos de Kill Switch de VPN, **Tunnel Kill Switch** y **Enhanced Kill Switch**.
+
+### Tunnel Kill Switch {#for-firmware-v49-and-above-tunnel-kill-switch}
+
+En el panel de administración web del router, vaya a **VPN** -> **VPN Dashboard**.
+
+Si configura el router como cliente VPN, el Kill Switch de este túnel VPN se activa de forma predeterminada una vez que la VPN está activa.
+
+![tunnel kill switch](https://static.gl-inet.com/docs/router/en/4/faq/block_non_vpn_traffic/4.9-tunnel-kill-switch.png){class="glboxshadow"}
+
+Haga clic en el icono de engranaje situado junto al nombre del túnel para entrar en **Tunnel Options**.
+
+![tunnel options 1](https://static.gl-inet.com/docs/router/en/4/faq/block_non_vpn_traffic/4.9-tunnel-options-1.png){class="glboxshadow"}
+
+El Kill Switch de este túnel está activado de forma predeterminada.
+
+![tunnel options 2](https://static.gl-inet.com/docs/router/en/4/faq/block_non_vpn_traffic/4.9-tunnel-options-2.png){class="glboxshadow" width=600}
+
+### Enhanced Kill Switch {#for-firmware-v49-and-above-enhanced-kill-switch}
+
+En el panel de administración web del router, vaya a **VPN** -> **VPN Dashboard**. A continuación, haga clic en el icono de engranaje de la esquina superior derecha.
+
+![all other traffic 1](https://static.gl-inet.com/docs/router/en/4/faq/block_non_vpn_traffic/4.9-all-other-traffic-1.png){class="glboxshadow"}
+
+El control de políticas de tráfico ofrece las opciones **Allow Non-VPN Traffic** y **Enhanced Kill Switch**.
+
+![all other traffic 2](https://static.gl-inet.com/docs/router/en/4/faq/block_non_vpn_traffic/4.9-all-other-traffic-2.png){class="glboxshadow" width=600}
+
+- **Allow Non-VPN Traffic**: Habilitado de forma predeterminada. El tráfico que no coincide con los túneles VPN ni con las políticas anteriores, así como el tráfico redirigido aquí por conmutación por error de la VPN, conserva el acceso normal a Internet.
+
+- **Enhanced Kill Switch**: Cuando se habilita, todos los dispositivos deben usar una VPN para acceder a Internet. El tráfico que no coincide con ningún túnel VPN se bloquea. Este ajuste no anula el Kill Switch de cada túnel.
 
 ---
 

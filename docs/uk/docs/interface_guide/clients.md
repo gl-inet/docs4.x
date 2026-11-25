@@ -186,6 +186,26 @@
 
 ![Видалення від’єднаних клієнтів](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/remove_offline.png){class="glboxshadow"}
 
+## Ізоляція клієнтів {#isolate-clients}
+
+Щоб клієнти Wi-Fi в одній мережі не могли обмінюватися даними між собою, увімкніть **AP Isolation** у налаштуваннях мережі. Цей параметр розташовано за межами сторінки Clients.
+
+**Примітка:** Функція AP Isolation застосовується лише до клієнтів Wi-Fi. Вона не поширюється на пристрої з дротовим підключенням.
+
+У цьому прикладі показано, як увімкнути AP Isolation для клієнтів Wi-Fi в основній мережі маршрутизатора GL-MT3000 з прошивкою v4.11.
+
+1. У вебпанелі адміністрування перейдіть до **Network** -> **LAN** -> **Main Network**. Шлях до налаштувань залежить від версії прошивки.
+
+    Натисніть **Edit** у нижньому правому куті.
+
+    ![ap isolation 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/ap-isolation-1.png){class="glboxshadow"}
+
+2. Увімкніть **AP Isolation** і натисніть **Apply**.
+
+    ![ap isolation 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/ap-isolation-2.png){class="glboxshadow" width=650}
+
+    Після цього клієнти Wi-Fi в основній мережі не зможуть обмінюватися даними між собою.
+
 ---
 
 Маєте запитання? Відвідайте наш [форум спільноти](https://forum.gl-inet.com){target="_blank"} або [зв’яжіться з нами](https://www.gl-inet.com/contacts/){target="_blank"}.

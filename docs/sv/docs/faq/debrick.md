@@ -150,6 +150,8 @@ Titta på videoguiden eller följ proceduren nedan för att öppna U-Boot-webbgr
 
     ??? "macOS"
 
+        **Obs:** Följande steg visar gränssnittet i macOS Big Sur 11. Om du använder en annan version väljer du din macOS-version på [Apple-supporten](https://support.apple.com/guide/mac-help/mh11939/mac){target="blank"} för att se instruktionerna.
+
         1. Klicka på **Apple**-ikonen i det övre vänstra hörnet och välj **System Preferences**.
 
             ![macos system preferences](https://static.gl-inet.com/docs/router/en/4/faq/debrick/macos_system_preferences.png){class="glboxshadow"}

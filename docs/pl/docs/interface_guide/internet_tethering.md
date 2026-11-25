@@ -2,9 +2,11 @@
 
 Udostępnianie połączenia sieciowego ze smartfona do routera za pomocą kabla USB nazywa się Tethering. Modem host-less również działa w trybie Tethering podczas konfiguracji modemu.
 
-**Uwaga:** Niektórzy operatorzy komórkowi ograniczają tethering lub pobierają za niego dodatkowe opłaty. Zalecamy sprawdzić to u swojego operatora.
+**Uwaga:**
 
-## Konfiguracja {#setup}
+- Niektórzy operatorzy komórkowi ograniczają tethering lub pobierają za niego dodatkowe opłaty. Zalecamy sprawdzić to u swojego operatora.
+
+- Jeśli łączysz router z Internetem za pomocą modemu USB (brak w zestawie), przejdź do **INTERNET** -> **Tethering** w przypadku modemu typu host-less lub do **INTERNET** -> **Cellular** w przypadku urządzenia w trybie standardowego modemu USB. Zobacz [instrukcję konfiguracji modemu USB](./internet_cellular_v4.10.md#non-cellular-routers).
 
 === "iPhone"
 

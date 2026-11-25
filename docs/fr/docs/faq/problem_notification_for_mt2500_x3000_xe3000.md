@@ -1,4 +1,22 @@
-# Notification critique de problème pour GL-MT2500/GL-X3000/GL-XE3000 {#critical-problem-notification-for-gl-mt2500gl-x3000gl-xe3000}
+# Avis concernant un problème sur GL-MT2500/GL-X3000/GL-XE3000 {#problem-notification-for-gl-mt2500gl-x3000gl-xe3000}
+
+**Dernière mise à jour le 11 novembre 2026**
+
+Ce problème connu ne concerne que certains lots. Les appareils commandés à partir du 1er juillet 2025 proviennent très probablement d’un lot plus récent et ne nécessitent aucune mise à jour du chargeur de démarrage U-Boot.
+
+Si vous ne connaissez pas le lot de votre appareil, envoyez les informations suivantes à [support@gl-inet.com](mailto:support@gl-inet.com) avant toute modification.
+
+- Modèle du routeur et version du firmware
+- Adresse MAC de l’appareil
+- Description du problème, avec ce que vous faisiez au moment où il est survenu, les éventuels messages d’erreur et les étapes de dépannage déjà essayées
+
+Nous confirmerons votre lot de production et vous indiquerons les étapes de dépannage adaptées.
+
+---
+
+L’avis d’origine est conservé ci-dessous à titre de référence. Ses étapes de mise à jour s’appliquent uniquement aux lots concernés. Si vous ne savez pas si votre appareil est concerné, contactez l’assistance comme indiqué ci-dessus avant toute modification.
+
+**Publié le 26 mars 2025**
 
 Chers clients GL.iNet,
 
@@ -12,42 +30,44 @@ Veuillez effectuer la mise à niveau avec Chrome ou Microsoft Edge. N'utilisez P
 
 ## GL-MT2500 {#gl-mt2500}
 
-1. Téléchargez et mettez à niveau le chargeur de démarrage U-Boot vers la [version 2025-02-24 15:04:07](https://github.com/gl-inet/mt798x-boot/blob/main/bin/uboot-mt2500-20250224-md5-74286e770cfb041b611d80d4adaef189.bin){target="_blank"}
+1. Mettez à jour le chargeur de démarrage U-Boot.
 
-2. Téléchargez et mettez à niveau le firmware vers la [version 4.7.4](https://fw.gl-inet.com/firmware/mt2500/release/openwrt-mt2500-4.7.4-0328-1743128340.bin)
+    Téléchargez [uboot-mt2500-20250224.bin](https://github.com/gl-inet/mt798x-boot/blob/main/bin/uboot-mt2500-20250224-md5-74286e770cfb041b611d80d4adaef189.bin){target="_blank"}, puis [mettez à jour le chargeur de démarrage U-Boot](upgrade_uboot_version.md).
+
+2. Mettez à jour le firmware.
+
+    Téléchargez [le dernier firmware de votre routeur](https://dl.gl-inet.com/router/mt2500/stable){target="_blank"}, puis [mettez à jour le firmware du routeur](../tutorials/how_to_upgrade_downgrade_router.md).
 
 ## GL-X3000 {#gl-x3000}
 
-1. Téléchargez et mettez à niveau le chargeur de démarrage U-Boot vers la [version 2025-02-25 19:05:24](https://github.com/gl-inet/mt798x-boot/blob/main/bin/uboot-x3000-20250225-md5-c9d7b2fd2451adbc0bb126e2d9729e87.bin){target="_blank"}
+1. Mettez à jour le chargeur de démarrage U-Boot.
 
-2. Téléchargez et mettez à niveau le firmware vers la [version 4.7.4](https://fw.gl-inet.com/firmware/x3000/release/openwrt-x3000-4.7.4-0317-1742206344.bin)
+    Téléchargez [uboot-x3000-20250225.bin](https://github.com/gl-inet/mt798x-boot/blob/main/bin/uboot-x3000-20250225-md5-c9d7b2fd2451adbc0bb126e2d9729e87.bin){target="_blank"}, puis [mettez à jour le chargeur de démarrage U-Boot](upgrade_uboot_version.md).
+
+2. Mettez à jour le firmware.
+
+    Téléchargez [le dernier firmware de votre routeur](https://dl.gl-inet.com/router/x3000/stable){target="_blank"}, puis [mettez à jour le firmware du routeur](../tutorials/how_to_upgrade_downgrade_router.md).
 
 ## GL-XE3000 {#gl-xe3000}
 
-1. Téléchargez et mettez à niveau le chargeur de démarrage U-Boot vers la [version 2025-02-25 19:07:14](https://github.com/gl-inet/mt798x-boot/blob/main/bin/uboot-xe3000-20250225-md5-05fadd9da27314d41dbadc6fbd239b3d.bin){target="_blank"}
+1. Mettez à jour le chargeur de démarrage U-Boot.
 
-2. Téléchargez et mettez à niveau le firmware vers la [version 4.7.4](https://fw.gl-inet.com/firmware/xe3000/release/openwrt-xe3000-4.7.4-0317-1742206184.bin)
+    Téléchargez [uboot-xe3000-20250225.bin](https://github.com/gl-inet/mt798x-boot/blob/main/bin/uboot-xe3000-20250225-md5-05fadd9da27314d41dbadc6fbd239b3d.bin){target="_blank"}, puis [mettez à jour le chargeur de démarrage U-Boot](upgrade_uboot_version.md).
 
-!!! Note
+2. Mettez à jour le firmware.
 
-    Pour la méthode de mise à niveau du chargeur de démarrage U-Boot, vous pouvez consulter [ce lien](upgrade_uboot_version.md).
-
-    Pour la méthode de mise à niveau du firmware, vous pouvez consulter [ce lien](../tutorials/how_to_upgrade_downgrade_router.md).
+    Téléchargez [le dernier firmware de votre routeur](https://dl.gl-inet.com/router/xe3000/stable){target="_blank"}, puis [mettez à jour le firmware du routeur](../tutorials/how_to_upgrade_downgrade_router.md).
 
 <br>
 Nous vous présentons nos sincères excuses pour la gêne occasionnée. À l'avenir, nous nous engageons à améliorer nos produits et nos firmwares avec encore plus de rigueur et de soin.
 
 Pour les personnes qui possèdent actuellement ces routeurs, nous prolongerons la période de garantie d'un an sans frais. Si vous rencontrez le moindre problème, n'hésitez pas à contacter nos équipes d'assistance.
 
-Si le problème persiste malgré la mise à niveau, veuillez contacter nos équipes d'assistance à l'adresse support@gl-inet.com ; nous vous fournirons gratuitement un appareil de remplacement.
+Si le problème persiste malgré la mise à niveau, veuillez contacter nos équipes d'assistance à l'adresse [support@gl-inet.com](mailto:support@gl-inet.com) ; nous vous fournirons gratuitement un appareil de remplacement.
 
 Votre confiance et votre soutien comptent énormément pour nous, et nous vous en sommes profondément reconnaissants.
 
 <br>
-
-Cordialement,
-
-Support technique GL.iNet
-
+Cordialement,<br>
+L’équipe GL.iNet<br>
 26 mars 2025
-

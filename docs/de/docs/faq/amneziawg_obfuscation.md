@@ -1,8 +1,8 @@
-# AmneziaWG-Verschleierungsparameter {#amneziawg-obfuscation}
+# AmneziaWG-Verschleierung auf GL.iNet-Routern {#amneziawg-obfuscation-on-glinet-routers}
 
 AmneziaWG ist ein WireGuard-basiertes VPN-Protokoll mit integrierter Verschleierung des Datenverkehrs. Seine Verschleierungsparameter steuern, wie der Datenverkehr getarnt wird, um einer Erkennung durch strenge Netzwerkinspektion zu entgehen.
 
-Nachfolgend finden Sie eine Einführung in AmneziaWG und die Unterschiede zwischen den Versionen.
+Im Folgenden werden AmneziaWG und die verfügbaren Versionen auf GL.iNet-Routern erläutert.
 
 ## Warum AmneziaWG? {#why-amneziawg}
 

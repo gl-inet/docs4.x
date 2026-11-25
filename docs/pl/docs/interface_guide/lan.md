@@ -1,5 +1,15 @@
 # LAN {#lan}
 
+**Uwaga:** Ta strona dotyczy firmware v4.9 i starszych wersji. Jeśli na urządzeniu działa inna wersja, wybierz poniżej odpowiednią instrukcję.
+
+<div class="gl-link-select" data-label="Wersja firmware" data-placeholder="Firmware v4.9 i starsze" markdown="1">
+
+- [Firmware v4.11 i nowsze](lan_4.11.md)
+
+</div>
+
+---
+
 Po lewej stronie panelu administracyjnego WWW przejdź do **NETWORK** -> **LAN**.
 
 LAN to sieć, z którą urządzenie jest połączone, gdy korzysta z głównej sieci Wi‑Fi lub kabla Ethernet.
@@ -24,7 +34,11 @@ Możesz ustawić podsieć w obrębie prywatnych zakresów adresów IPv4: `192.16
 
 - **AP Isolation**
 
+    Ta funkcja jest dostępna od firmware v4.5.
+
     Możesz odizolować urządzenia klienckie w oddzielnym segmencie sieci. Urządzenia te nie będą mogły komunikować się z innymi urządzeniami w tej samej sieci.
+
+    **Uwaga:** Funkcja AP Isolation dotyczy wyłącznie klientów Wi-Fi. Urządzenia podłączone przewodowo są wyłączone z izolacji.
 
 ## Serwer DHCP {#dhcp-server}
 

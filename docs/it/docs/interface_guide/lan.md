@@ -1,5 +1,15 @@
 # LAN {#lan}
 
+**Nota:** Questa pagina si basa sul firmware v4.9 e sulle versioni precedenti. Se il dispositivo usa una versione diversa, seleziona la guida corrispondente qui sotto.
+
+<div class="gl-link-select" data-label="Versione del firmware" data-placeholder="Firmware v4.9 e versioni precedenti" markdown="1">
+
+- [Firmware v4.11 e versioni successive](lan_4.11.md)
+
+</div>
+
+---
+
 Sul lato sinistro del pannello di amministrazione web, vai su **NETWORK** -> **LAN**.
 
 La LAN è la rete a cui il dispositivo è connesso quando si collega tramite il Wi-Fi principale o tramite un cavo Ethernet.
@@ -24,7 +34,11 @@ Puoi impostare la subnet all'interno degli intervalli di indirizzi privati IPv4:
 
 - **AP Isolation**
 
+    Questa funzione è disponibile dal firmware v4.5.
+
     Puoi isolare i dispositivi client in un segmento di rete separato. Questi dispositivi non potranno comunicare con altri dispositivi sulla stessa rete.
+
+    **Nota:** AP Isolation si applica solo ai client Wi-Fi. I dispositivi collegati via cavo sono esclusi.
 
 ## Server DHCP {#dhcp-server}
 

@@ -42,19 +42,28 @@ Web 管理パネルにログインし、**VPN** -> **WireGuard Server** を開�
 
 2. 設定を確認します。
 
-    多くの環境では、以下のようにデフォルト設定のままで利用できます。上位ルーターのゲートウェイと競合していなければ、IPv4 アドレスを変更する必要はありません。
+    ほとんどの場合、以下に示すデフォルト設定のままで使用できます。
 
     ![check configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/check_configuration.png){class="glboxshadow"}
 
-    （GL.iNet では IPv6 はデフォルトで無効です。IPv6 アドレスを使いたい場合は、ルーターで IPv6 を有効にしてください。）
+    - **IPv4 Address**: WireGuard サーバーのトンネル IP アドレスです。上位ルーターのゲートウェイと競合しない場合は、変更する必要はありません。
 
-    IPv4アドレスはWireGuardサーバーのトンネルIPです。上位ルーターのゲートウェイと競合する場合は、**10.1.0.1/24**など別のアドレスへ変更して**Apply**をクリックします。接続の問題を避けるため、`/24`のCIDR表記を必ず含めてください。
+        上位ルーターのゲートウェイと競合する場合は、**10.1.0.1/24**など別のアドレスへ変更して**Apply**をクリックします。接続の問題を避けるため、`/24`のCIDR表記を必ず含めてください。
 
-    ![modify configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/modify_configuration.png){class="glboxshadow"}
+        ![modify configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/modify_ipv4.png){class="glboxshadow"}
 
-    たとえば、GL.iNetルーターの上位にXfinityルーターがある場合、そのIPアドレスが10.0.0.1で、GL.iNetルーターをWireGuardサーバーとして設定したときのWireGuard ServerのトンネルIPと競合する可能性があります。その場合は、上記の変更が必要になることがあります。競合がない場合、この変更は不要です。
+        たとえば、GL.iNetルーターの上位にXfinityルーターがある場合、そのIPアドレスが10.0.0.1で、GL.iNetルーターをWireGuardサーバーとして設定したときのWireGuard ServerのトンネルIPと競合する可能性があります。その場合は、上記の変更が必要になることがあります。競合がない場合、この変更は不要です。
 
-    ![xfinity gateway](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/xfinitygateway.jpg){class="glboxshadow"}
+        ![xfinity gateway](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/xfinitygateway.jpg){class="glboxshadow"}
+
+    - **IPv6 Address**: GL.iNet ルーターでは、IPv6 はデフォルトで無効です。IPv6 アドレスを使用するには、ルーターで [IPv6](ipv6.md) を有効にします。
+
+    - **Listen Port**: WireGuard サーバーが待ち受ける UDP ポートです。デフォルト値は WireGuard で一般的な `51820` です。ネットワーク上でこのポートがすでに使用されている場合を除き、デフォルト値を使用してください。変更した場合は、各クライアントの `Endpoint` と上位機器のポート転送ルールも更新します。
+
+    - **Enable Obfuscation**: 有効にすると、サーバーは AmneziaWG を使用します。クライアントも AmneziaWG の難読化に対応している必要があります。各パラメーターに詳しい場合を除き、難読化のデフォルト設定のまま使用することをおすすめします。以下のガイドを参照してください。
+
+        - [GL.iNet ルーターでの AmneziaWG 難読化](../faq/amneziawg_obfuscation.md)
+        - [GL.iNet ルーターで VPN 難読化を設定する](../tutorials/how_to_set_up_vpn_obfuscation_on_glinet_routers.md)
 
 3. プロファイルを追加します。
 

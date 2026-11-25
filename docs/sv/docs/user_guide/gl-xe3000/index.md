@@ -45,7 +45,9 @@ Titta på konfigurationsvideon eller följ stegen nedan.
 
     1. Aktivera SIM-kortet eller SIM-korten om mobiloperatören kräver det.
     2. Stäng av routern.
-    3. Sätt in SIM-korten i SIM-kortplatserna. (**Obs!** Endast ett SIM-kort är aktivt åt gången. Det andra fungerar endast som reserv.)
+    3. Vänd varje SIM-kort så att metallkontakterna är riktade mot routerns ovansida och det avfasade hörnet är uppe till höger. Håll kortet plant och skjut försiktigt in det i kortplatsen tills det klickar på plats. (**Obs!** Endast ett SIM-kort kan vara aktivt åt gången. Det andra fungerar som reserv.)
+
+        Tryck in SIM-kortet igen och släpp det för att ta ut det. Kortet fjädrar ut en bit så att du kan dra ut det.
 
 ### 1. Slå på {#1-power-on}
 

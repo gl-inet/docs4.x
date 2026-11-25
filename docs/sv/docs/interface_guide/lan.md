@@ -1,5 +1,15 @@
 # LAN {#lan}
 
+**Obs:** Den här sidan gäller firmware v4.9 och tidigare. Om enheten kör en annan firmwareversion väljer du motsvarande guide nedan.
+
+<div class="gl-link-select" data-label="Firmwareversion" data-placeholder="Firmware v4.9 och tidigare" markdown="1">
+
+- [Firmware v4.11 och senare](lan_4.11.md)
+
+</div>
+
+---
+
 Öppna **NETWORK** -> **LAN** på vänster sida i webbadministrationspanelen.
 
 LAN är nätverket som enheten ansluter till via huvudnätverkets Wi-Fi eller en Ethernet-kabel.
@@ -24,7 +34,11 @@ Du kan ange ett subnät inom de privata IPv4-adressintervallen `192.168.0.0/16`,
 
 - **AP Isolation**
 
+    Funktionen är tillgänglig från firmware v4.5.
+
     Du kan isolera klientenheter i ett separat nätverkssegment. Enheterna kan då inte kommunicera med andra enheter i samma nätverk.
+
+    **Obs:** AP Isolation gäller endast Wi-Fi-klienter. Kabelanslutna enheter omfattas inte.
 
 ## DHCP Server {#dhcp-server}
 

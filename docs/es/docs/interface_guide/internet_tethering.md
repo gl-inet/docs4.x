@@ -2,9 +2,11 @@
 
 Compartir la red desde su smartphone al router mediante un cable USB se denomina Tethering. Un módem Host-less también funciona en modo Tethering durante la configuración del módem.
 
-**Nota:** Algunos operadores móviles limitan el tethering o cobran un cargo adicional por él. Le recomendamos consultarlo con su operador.
+**Nota:**
 
-## Configuración {#setup}
+- Algunos operadores móviles limitan el tethering o cobran un cargo adicional por él. Le recomendamos consultarlo con su operador.
+
+- Si utiliza un adaptador USB (no incluido) para conectar el router a Internet, vaya a **INTERNET** -> **Tethering** si es un adaptador sin host o a **INTERNET** -> **Cellular** si funciona en el modo de módem USB estándar. Consulte la [guía de configuración del adaptador USB](./internet_cellular_v4.10.md#non-cellular-routers).
 
 === "iPhone"
 

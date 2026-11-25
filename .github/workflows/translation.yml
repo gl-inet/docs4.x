@@ -103,10 +103,14 @@ jobs:
           name: translation-delta
           path: .codex-run
 
-      # Keep the downloaded report out of `git status` so Codex sees a clean tree.
+      # Keep the downloaded report and the Codex output file (created by
+      # codex-action before Codex runs) out of `git status` so Codex sees a
+      # clean tree.
       - name: Exclude Codex run files from git status
         shell: bash
-        run: echo ".codex-run/" >> .git/info/exclude
+        run: |
+          echo ".codex-run/" >> .git/info/exclude
+          echo "/codex-output.json" >> .git/info/exclude
 
       - name: Check Codex credentials
         env:

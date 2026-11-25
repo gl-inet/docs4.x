@@ -118,7 +118,7 @@ LAN 内のクライアントに予約 IP アドレスを指定すると、その
 
 設定ページには、基本設定と DHCP サーバー設定が含まれます。
 
-### 基本設定 {#basic-settings_1}
+### 基本設定 {#guest-network-basic-settings}
 
 サブネットは、IPv4 プライベートアドレス範囲 `192.168.0.0/16`、`172.16.0.0/12`、`10.0.0.0/8` の中で設定できます。
 
@@ -158,7 +158,7 @@ LAN 内のクライアントに予約 IP アドレスを指定すると、その
 
     - **Block Internet Access**: インターネットや WAN 側のサブネットを含む、すべての外向きのアクセスをブロックします。
 
-### DHCPサーバー {#dhcp-server_1}
+### DHCPサーバー {#guest-network-dhcp-server}
 
 **DHCP Server** はデフォルトで有効です。DHCP サーバーは、各クライアントデバイスに IP アドレスとそのほかの通信パラメーターを自動的に割り当てます。
 
@@ -198,7 +198,7 @@ IoT ネットワークでは、インターフェースの状態、VLAN ID、ゲ
 
 ![iot network 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/lan_4.11/iot-network-2.png){class="glboxshadow"}
 
-### 基本設定 {#basic-settings_2}
+### 基本設定 {#iot-network-basic-settings}
 
 サブネットは、IPv4 プライベートアドレス範囲 `192.168.0.0/16`、`172.16.0.0/12`、`10.0.0.0/8` の中で設定できます。
 
@@ -238,7 +238,7 @@ IoT ネットワークでは、インターフェースの状態、VLAN ID、ゲ
 
     - **Block Internet Access**: インターネットや WAN 側のサブネットを含む、すべての外向きのアクセスをブロックします。
 
-### DHCPサーバー {#dhcp-server_2}
+### DHCPサーバー {#iot-network-dhcp-server}
 
 **DHCP Server** はデフォルトで有効です。DHCP サーバーは、各クライアントデバイスに IP アドレスとそのほかの通信パラメーターを自動的に割り当てます。
 
@@ -274,7 +274,7 @@ DHCP サーバーを無効にした場合は、クライアントデバイス側
 
 ![vlan networks 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/lan_4.11/vlan-networks-2.png){class="glboxshadow"}
 
-### 基本設定 {#basic-settings_3}
+### 基本設定 {#vlan-networks-basic-settings}
 
 このページで、VLAN ネットワーク（**VLAN Networks**）の基本情報を設定できます。
 
@@ -318,7 +318,7 @@ DHCP サーバーを無効にした場合は、クライアントデバイス側
 
     - **Block Internet Access**: インターネットや WAN 側のサブネットを含む、すべての外向きのアクセスをブロックします。
 
-### DHCPサーバー {#dhcp-server_3}
+### DHCPサーバー {#vlan-networks-dhcp-server}
 
 **DHCP Server** はデフォルトで有効です。DHCP サーバーは、各クライアントデバイスに IP アドレスとそのほかの通信パラメーターを自動的に割り当てます。
 

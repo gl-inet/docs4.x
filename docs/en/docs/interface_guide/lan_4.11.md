@@ -118,7 +118,7 @@ Click **Edit** in the lower-right corner, and the Guest Network configuration pa
 
 The configuration page includes Basic settings and DHCP server settings.
 
-### Basic Settings {#basic-settings_1}
+### Basic Settings {#guest-network-basic-settings}
 
 You can set the subnet within the IPv4 private address ranges: `192.168.0.0/16`, `172.16.0.0/12`, `10.0.0.0/8`.
 
@@ -158,7 +158,7 @@ You can set the subnet within the IPv4 private address ranges: `192.168.0.0/16`,
   
     - **Block Internet Access**: Blocks all outbound access, including the internet and WAN-side subnets.
 
-### DHCP Server {#dhcp-server_1}
+### DHCP Server {#guest-network-dhcp-server}
 
 The **DHCP Server** is enabled by default. The DHCP server automatically assigns IP addresses and other communication parameters to each client device.
 
@@ -198,7 +198,7 @@ Click **Edit** in the lower-right corner, and the IoT Network configuration pane
 
 ![iot network 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/lan_4.11/iot-network-2.png){class="glboxshadow"}
 
-### Basic Settings {#basic-settings_2}
+### Basic Settings {#iot-network-basic-settings}
 
 You can set the subnet within the IPv4 private address ranges: `192.168.0.0/16`, `172.16.0.0/12`, `10.0.0.0/8`.
 
@@ -238,7 +238,7 @@ You can set the subnet within the IPv4 private address ranges: `192.168.0.0/16`,
   
     - **Block Internet Access**: Blocks all outbound access, including the internet and WAN-side subnets.
 
-### DHCP Server {#dhcp-server_2}
+### DHCP Server {#iot-network-dhcp-server}
 
 The **DHCP Server** is enabled by default. The DHCP server automatically assigns IP addresses and other communication parameters to each client device.
 
@@ -274,7 +274,7 @@ Click the **+ Add** button on the right side of the page to configure a new netw
 
 ![vlan networks 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/lan_4.11/vlan-networks-2.png){class="glboxshadow"}
 
-### Basic Settings {#basic-settings_3}
+### Basic Settings {#vlan-networks-basic-settings}
 
 You can configure the basic **VLAN Networks** information on this page.
 
@@ -318,7 +318,7 @@ You can configure the basic **VLAN Networks** information on this page.
   
     - **Block Internet Access**: Blocks all outbound access, including the internet and WAN-side subnets.
 
-### DHCP Server {#dhcp-server_3}
+### DHCP Server {#vlan-networks-dhcp-server}
 
 The **DHCP Server** is enabled by default. The DHCP server automatically assigns IP addresses and other communication parameters to each client device.
 

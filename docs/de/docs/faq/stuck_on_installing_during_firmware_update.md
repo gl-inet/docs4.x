@@ -6,6 +6,8 @@ Wenn Ihr Router während einer Firmware-Aktualisierung bei „Installing“ hän
 
 Prüfen Sie nach jedem Schritt, ob das Problem behoben ist. Wenn ja, überspringen Sie die verbleibenden Schritte.
 
+**Hinweis:** Wenn Sie das Web-Admin-Panel nicht aufrufen können oder der Router nicht normal startet, lesen Sie die unten verlinkten Artikel zur Fehlerbehebung.
+
 1. Prüfen Sie, ob die Firmware-Aktualisierung erfolgreich war.
 
     Öffnen Sie zunächst einen Webbrowser, rufen Sie `192.168.8.1` auf und melden Sie sich an.
@@ -15,6 +17,14 @@ Prüfen Sie nach jedem Schritt, ob das Problem behoben ist. Wenn ja, überspring
 2. Stellen Sie eine stabile Netzwerkverbindung sicher und laden Sie die Firmware dann erneut hoch.
 
 3. Verwenden Sie einen anderen Browser (z. B. Edge, Safari), um die Firmware erneut hochzuladen.
+
+---
+
+**Weiterführende Artikel:**
+
+- [Web-Admin-Panel nicht erreichbar](../faq/cannot_access_web_admin_panel.md)
+
+- [Router mit U-Boot wiederherstellen](../faq/debrick.md)
 
 ---
 

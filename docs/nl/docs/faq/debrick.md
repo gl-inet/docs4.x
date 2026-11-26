@@ -158,6 +158,8 @@ Bekijk de video of volg de onderstaande procedure om de U-Boot Web UI te openen 
 
     ??? "macOS"
 
+        **Opmerking:** De volgende stappen gebruiken de interface van macOS Big Sur 11 als voorbeeld. Selecteer je macOS-versie op [Apple Support](https://support.apple.com/guide/mac-help/mh11939/mac){target="blank"} om de bijbehorende instructies te bekijken.
+
         1. Klik linksboven op het **Apple**-pictogram en selecteer **System Preferences**.
 
             ![macos system preferences](https://static.gl-inet.com/docs/router/en/4/faq/debrick/macos_system_preferences.png){class="glboxshadow"}

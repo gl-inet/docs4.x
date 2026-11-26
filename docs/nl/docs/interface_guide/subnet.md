@@ -26,7 +26,7 @@ De configuratiepagina bevat Basic Settings, DHCP Server Settings en Address Rese
 
 Je kunt het subnet instellen binnen de privé-IPv4-adresbereiken `192.168.0.0/16`, `172.16.0.0/12` en `10.0.0.0/8`.
 
-![main network basic settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/main-network-basic.png){class="glboxshadow" width=650}
+![main network basic settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/main-network-basic.png){class="glboxshadow" width=700}
 
 - **Router IP Address**
 
@@ -54,13 +54,13 @@ Als de DHCP-server is uitgeschakeld, moet je de netwerkinstellingen voor clienta
 
 Je kunt de begin- en eind-IP-adressen aanpassen, bijvoorbeeld wanneer je netwerk groter of kleiner wordt, IP-adresconflicten optreden of het bereik van het subnetmasker wordt gewijzigd.
 
-![main network dhcp simple settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/main-network-dhcp-server-1.png){class="glboxshadow" width=650}
+![main network dhcp simple settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/main-network-dhcp-server-1.png){class="glboxshadow" width=700}
 
 Klik zo nodig op **Advanced** voor verdere configuratie.
 
-![main network dhcp advanced settings 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/main-network-dhcp-server-2.png){class="glboxshadow" width=650}
+![main network dhcp advanced settings 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/main-network-dhcp-server-2.png){class="glboxshadow" width=700}
 
-![main network dhcp advanced settings 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/main-network-dhcp-server-3.png){class="glboxshadow" width=650}
+![main network dhcp advanced settings 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/main-network-dhcp-server-3.png){class="glboxshadow" width=700}
 
 - **Lease Time**: de periode waarin een door DHCP toegewezen IP-adres geldig is voor een apparaat.
 
@@ -80,19 +80,19 @@ Wanneer je binnen het LAN een IP-adres voor een client reserveert, ontvangt de c
 
 Klik op **Add** om een IP-adres te reserveren.
 
-![main network address Reservation 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/address-reservation-1.png){class="glboxshadow" width=650}
+![main network address Reservation 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/address-reservation-1.png){class="glboxshadow" width=700}
 
 Er verschijnt een pop-upvenster.
 
-![main network address Reservation 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/address-reservation-2.png){class="glboxshadow" width=650}
+![main network address Reservation 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/address-reservation-2.png){class="glboxshadow" width=600}
 
 Selecteer **MAC** in de vervolgkeuzelijst. Het beschikbare **IP** wordt automatisch ingevuld. Voer eventueel een **hostname** en aangepaste **name** in en klik op **Submit**.
 
-![main network address Reservation 3](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/address-reservation-3.png){class="glboxshadow" width=650}
+![main network address Reservation 3](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/address-reservation-3.png){class="glboxshadow" width=600}
 
 Nadat je een nieuwe IP-adresreservering hebt toegevoegd, verschijnt de onderstaande pagina. Dit betekent dat de instelling is geslaagd.
 
-![main network address Reservation 4](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/address-reservation-4.png){class="glboxshadow" width=650}
+![main network address Reservation 4](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/address-reservation-4.png){class="glboxshadow" width=700}
 
 ## Guest Network {#guest-network}
 
@@ -154,13 +154,13 @@ Als de DHCP-server is uitgeschakeld, moet je de netwerkinstellingen voor clienta
 
 Je kunt de begin- en eind-IP-adressen aanpassen, bijvoorbeeld wanneer je netwerk groter of kleiner wordt, IP-adresconflicten optreden of het bereik van het subnetmasker wordt gewijzigd.
 
-![guest network dhcp simple settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/guest-network-dhcp-server-1.png){class="glboxshadow" width=650}
+![guest network dhcp simple settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/guest-network-dhcp-server-1.png){class="glboxshadow" width=700}
 
 Klik zo nodig op **Advanced** voor verdere configuratie.
 
-![guest network dhcp advanced settings 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/guest-network-dhcp-server-2.png){class="glboxshadow" width=650}
+![guest network dhcp advanced settings 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/guest-network-dhcp-server-2.png){class="glboxshadow" width=700}
 
-![guest network dhcp advanced settings 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/guest-network-dhcp-server-3.png){class="glboxshadow" width=650}
+![guest network dhcp advanced settings 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/guest-network-dhcp-server-3.png){class="glboxshadow" width=700}
 
 - **Lease Time**: de periode waarin een door DHCP toegewezen IP-adres geldig is voor een apparaat.
 
@@ -230,13 +230,13 @@ Als de DHCP-server is uitgeschakeld, moet je de netwerkinstellingen voor clienta
 
 Je kunt de begin- en eind-IP-adressen aanpassen, bijvoorbeeld wanneer je netwerk groter of kleiner wordt, IP-adresconflicten optreden of het bereik van het subnetmasker wordt gewijzigd.
 
-![iot network dhcp simple settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/iot-network-dhcp-server-1.png){class="glboxshadow" width=650}
+![iot network dhcp simple settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/iot-network-dhcp-server-1.png){class="glboxshadow" width=700}
 
 Klik zo nodig op **Advanced** voor verdere configuratie.
 
-![iot network dhcp advanced settings 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/iot-network-dhcp-server-2.png){class="glboxshadow" width=650}
+![iot network dhcp advanced settings 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/iot-network-dhcp-server-2.png){class="glboxshadow" width=700}
 
-![iot network dhcp advanced settings 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/iot-network-dhcp-server-3.png){class="glboxshadow" width=650}
+![iot network dhcp advanced settings 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/iot-network-dhcp-server-3.png){class="glboxshadow" width=700}
 
 - **Lease Time**: de periode waarin een door DHCP toegewezen IP-adres geldig is voor een apparaat.
 
@@ -262,7 +262,7 @@ Klik rechts op **+ Add** om een nieuw netwerk te configureren.
 
 Op deze pagina kun je de basisgegevens van **VLAN Networks** configureren.
 
-![vlan networks basic setting](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/vlan-networks-basic-settings.png){class="glboxshadow" width=650}
+![vlan networks basic setting](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/vlan-networks-basic-settings.png){class="glboxshadow" width=700}
 
 - **Name**
 
@@ -306,13 +306,13 @@ Als de DHCP-server is uitgeschakeld, moet je de netwerkinstellingen voor clienta
 
 Je kunt de begin- en eind-IP-adressen aanpassen, bijvoorbeeld wanneer je netwerk groter of kleiner wordt, IP-adresconflicten optreden of het bereik van het subnetmasker wordt gewijzigd.
 
-![vlan networks dhcp simple settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/vlan-networks-dhcp-server-1.png){class="glboxshadow" width=650}
+![vlan networks dhcp simple settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/vlan-networks-dhcp-server-1.png){class="glboxshadow" width=700}
 
 Klik zo nodig op **Advanced** voor verdere configuratie.
 
-![vlan networks dhcp advanced settings 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/vlan-networks-dhcp-server-2.png){class="glboxshadow" width=650}
+![vlan networks dhcp advanced settings 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/vlan-networks-dhcp-server-2.png){class="glboxshadow" width=700}
 
-![vlan networks dhcp advanced settings 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/vlan-networks-dhcp-server-3.png){class="glboxshadow" width=650}
+![vlan networks dhcp advanced settings 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/vlan-networks-dhcp-server-3.png){class="glboxshadow" width=700}
 
 - **Lease Time**: de periode waarin een door DHCP toegewezen IP-adres geldig is voor een apparaat.
 

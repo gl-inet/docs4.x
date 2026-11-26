@@ -53,7 +53,7 @@ Scopri come utilizzare i nostri dispositivi e come risolvere alcuni problemi com
 * [Come bloccare il traffico non VPN?](block_non_vpn_traffic.md)
 * [VPN Kill Switch](block_non_vpn_traffic.md)
 * [Per OpenVPN, quale protocollo dovrei scegliere: TCP o UDP?](openvpn_tcp_udp.md)
-* [Offuscamento AmneziaWG](amneziawg_obfuscation.md)
+* [Offuscamento AmneziaWG sui router GL.iNet](amneziawg_obfuscation.md)
 * [Impossibile connettersi a un server WireGuard offuscato](cannot_connect_to_obfuscated_wireguard_server.md)
 * [Devo configurare Ethernet WAN quando uso la VPN?](do_i_have_to_configure_ethernet_wan_when_using_vpn.md)
 
@@ -68,6 +68,7 @@ Scopri come utilizzare i nostri dispositivi e come risolvere alcuni problemi com
 * [App mobile GL.iNet](mobile_app.md)
 * [Come aggiungere Brume 2 all'app mobile?](how_to_add_brume2_into_app.md)
 * [Come cambiare una porta WAN in porta LAN?](change_wan_to_lan.md)
+* [Come si condividono i file tramite Samba, WebDAV o DLNA?](../interface_guide/network_storage.md)
 * [Come usare HTTPS per accedere al router GL.iNet e ad AdGuard Home?](use_https_for_adh.md)
 * [Come collegare un router GL.iNet alla parabola Starlink?](connect_glinetrouter_to_starlink.md)
 * [Come accedere da remoto al pannello di amministrazione web del router?](remote_access_web_admin_panel.md)

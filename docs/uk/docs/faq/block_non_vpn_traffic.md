@@ -16,7 +16,7 @@
 
 **Примітка:** якщо Block Non-VPN Traffic / Kill Switch увімкнено, а VPN вимкнено або відключено, всі пристрої, підключені до маршрутизатора, втратять доступ до інтернету для запобігання витокам DNS.
 
-## Для прошивки v4.8 і новіших версій {#for-firmware-v48-or-later}
+## Для прошивки v4.8 {#for-firmware-v48}
 
 У прошивці v4.8 аварійне блокування VPN розділено на два режими.
 
@@ -52,9 +52,43 @@ Kill Switch цього тунелю увімкнено за замовчуван
 
 ![Увесь інший трафік](https://static.gl-inet.com/docs/router/en/4/faq/block_non_vpn_traffic/4.8-all-other-traffic.png){class="glboxshadow"}
 
-All Other Traffic — тунель за замовчуванням, який забезпечує звичайний доступ до інтернету для трафіку, не охопленого тунелями VPN і політиками вище, а також для трафіку, який перейшов із з’єднань VPN унаслідок аварійного перемикання. Цей тунель увімкнено за замовчуванням і взаємовиключний з Enhanced Kill Switch.
+**All Other Traffic** — тунель за замовчуванням. Трафік, який не відповідає жодному з наведених вище тунелів чи політик VPN, а також трафік, перенаправлений сюди внаслідок аварійного перемикання VPN, зберігає звичайний доступ до інтернету. Тунель увімкнено за замовчуванням. Якщо його вимкнути, увесь такий трафік буде заблоковано, зокрема трафік, який інакше було б перенаправлено сюди внаслідок аварійного перемикання VPN. Доступ до інтернету матиме лише трафік, що проходить налаштованими тунелями VPN. Такий самий захист забезпечує **Enhanced Kill Switch**.
 
-**Примітка**: якщо вимкнути All Other Traffic, доступ до інтернету буде можливий лише через VPN. Увесь трафік, який не відповідає правилам тунелів, буде заблоковано. Цей параметр не перевизначає окремий Kill Switch кожного тунелю.
+**Примітка**: Параметр **All Other Traffic** не перевизначає окремий Kill Switch кожного тунелю.
+
+## Для прошивки v4.9 і новіших версій {#for-firmware-v49-and-above}
+
+Починаючи з прошивки v4.9, доступні два типи аварійного блокування VPN — **Tunnel Kill Switch** і **Enhanced Kill Switch**.
+
+### Аварійне блокування тунелю {#for-firmware-v49-and-above-tunnel-kill-switch}
+
+У вебпанелі адміністрування маршрутизатора відкрийте **VPN** -> **VPN Dashboard**.
+
+Якщо маршрутизатор налаштовано як клієнт VPN, Kill Switch цього тунелю увімкнено за замовчуванням після активації VPN.
+
+![tunnel kill switch](https://static.gl-inet.com/docs/router/en/4/faq/block_non_vpn_traffic/4.9-tunnel-kill-switch.png){class="glboxshadow"}
+
+Натисніть піктограму шестерні біля назви тунелю, щоб відкрити **Tunnel Options**.
+
+![tunnel options 1](https://static.gl-inet.com/docs/router/en/4/faq/block_non_vpn_traffic/4.9-tunnel-options-1.png){class="glboxshadow"}
+
+Kill Switch цього тунелю увімкнено за замовчуванням.
+
+![tunnel options 2](https://static.gl-inet.com/docs/router/en/4/faq/block_non_vpn_traffic/4.9-tunnel-options-2.png){class="glboxshadow" width=600}
+
+### Розширене аварійне блокування {#for-firmware-v49-and-above-enhanced-kill-switch}
+
+У вебпанелі адміністрування маршрутизатора відкрийте **VPN** -> **VPN Dashboard**. Потім натисніть піктограму шестерні у верхньому правому куті.
+
+![all other traffic 1](https://static.gl-inet.com/docs/router/en/4/faq/block_non_vpn_traffic/4.9-all-other-traffic-1.png){class="glboxshadow"}
+
+Для політики трафіку доступні параметри **Allow Non-VPN Traffic** та **Enhanced Kill Switch**.
+
+![all other traffic 2](https://static.gl-inet.com/docs/router/en/4/faq/block_non_vpn_traffic/4.9-all-other-traffic-2.png){class="glboxshadow" width=600}
+
+- **Allow Non-VPN Traffic**: Увімкнено за замовчуванням. Трафік, який не відповідає жодному з наведених вище тунелів чи політик VPN, а також трафік, перенаправлений сюди внаслідок аварійного перемикання VPN, зберігає звичайний доступ до інтернету.
+
+- **Enhanced Kill Switch**: Якщо цей параметр увімкнено, всі пристрої мають доступ до інтернету лише через VPN. Трафік, що не відповідає жодному тунелю VPN, буде заблоковано. Це налаштування не перевизначає окремий Kill Switch кожного тунелю.
 
 ---
 

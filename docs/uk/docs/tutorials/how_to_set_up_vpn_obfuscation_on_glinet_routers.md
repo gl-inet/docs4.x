@@ -4,7 +4,7 @@
 
 У цьому посібнику описано два сценарії налаштування обфускації AmneziaWG на маршрутизаторах GL.iNet.
 
-## Сценарій 1. Два маршрутизатори GL.iNet {#scenario-1-using-two-glinet-routers}
+## Два маршрутизатори GL.iNet {#using-two-glinet-routers}
 
 У цьому сценарії два маршрутизатори GL.iNet встановлюють з’єднання VPN з обфускацією за протоколом AmneziaWG.
 
@@ -21,7 +21,7 @@
 
     Якщо Brume 3 — основний маршрутизатор, підключіть його порт WAN до мережі вищого рівня, наприклад модема провайдера.
 
-    Якщо він не основний, тобто вище є інший основний пристрій, наприклад маршрутизатор провайдера, налаштуйте **перенаправлення портів** на основному маршрутизаторі. Дивіться [цю інструкцію](how_to_set_up_port_forwarding.md).
+    Якщо він не основний, тобто вище є інший основний пристрій, наприклад маршрутизатор провайдера, налаштуйте **перенаправлення портів** на основному маршрутизаторі. Дивіться [Налаштування перенаправлення портів на основному маршрутизаторі](how_to_set_up_port_forwarding.md).
 
 3. Увімкніть DDNS (необов’язково).
 
@@ -31,17 +31,24 @@
 
     ![Увімкнення DDNS](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/enable_ddns.png){class="glboxshadow"}
 
-4. Увімкніть обфускацію VPN.
+4. Увімкніть маскування.
 
     У меню ліворуч відкрийте **VPN** > **WireGuard Server** -> вкладку **Configurations**, увімкніть **Enable Obfuscation** і натисніть **Apply**.
 
     ![Увімкнення обфускації VPN на сервері](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_obfuscation1.png){class="glboxshadow"}
 
-    За потреби змініть параметри обфускації. Докладніше дивіться [тут](../faq/amneziawg_obfuscation.md).
+    Щоб налаштувати параметри маскування вручну, натисніть **Set Obfuscation Parameters**, щоб розгорнути поля. Змініть значення за потреби й натисніть **Apply**. Радимо зберегти значення за замовчуванням і змінювати їх, лише якщо ви добре знаєте ці параметри. Див. [Маскування трафіку AmneziaWG на маршрутизаторах GL.iNet](../faq/amneziawg_obfuscation.md).
 
-    Рекомендуємо залишити налаштування за замовчуванням.
+    ![Увімкнення обфускації VPN на сервері](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_obfuscation2.jpg){class="glboxshadow"}
 
-    ![Увімкнення обфускації VPN на сервері](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_obfuscation2.png){class="glboxshadow"}
+    Починаючи з прошивки v4.11.1, можна також змінювати версію маскування. Виберіть потрібну версію з розкривного списку, натисніть **Regenerate**, а потім **Apply**.
+
+    У відео нижче показано порядок дій.
+
+    <video src="https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/select_version.mp4"
+        controls playsinline preload="metadata" width="800" style="max-width:100%;height:auto">
+    Ваш браузер не підтримує вбудоване відео. Відкрийте демонстрацію в новій вкладці. <a href="https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/select_version.mp4" target="_blank" rel="noopener">select_version.mp4</a>
+    </video>
 
 5. Експортуйте файл конфігурації.
 
@@ -117,7 +124,7 @@
 
     З’єднання VPN налаштовано. Усі пристрої на Beryl AX тепер отримують доступ до інтернету через шлюз Brume 3 із використанням обфускації VPN.
 
-## Сценарій 2. Один маршрутизатор GL.iNet {#scenario-2-using-a-single-glinet-router}
+## Один маршрутизатор GL.iNet {#using-a-single-glinet-router}
 
 У цьому сценарії один маршрутизатор GL.iNet **Brume 3 (GL-MT5000)** працює як клієнт VPN для підключення до сервера AmneziaVPN.
 
@@ -192,5 +199,10 @@
     З’єднання VPN налаштовано. Усі пристрої на Brume 3 тепер отримують доступ до інтернету через сервер AmneziaVPN із використанням обфускації VPN.
 
 ---
+
+Пов’язані статті:
+
+- [Офіційна документація AmneziaWG](https://docs.amnezia.org/documentation/amnezia-wg/){target="_blank"}
+- [Маскування трафіку AmneziaWG на маршрутизаторах GL.iNet](../faq/amneziawg_obfuscation.md)
 
 Маєте запитання? Відвідайте наш [форум спільноти](https://forum.gl-inet.com){target="_blank"} або [зв’яжіться з нами](https://www.gl-inet.com/contacts/){target="_blank"}.

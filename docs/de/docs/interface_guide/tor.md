@@ -2,12 +2,17 @@
 
 Tor (abgeleitet von **The Onion Router**) ist eine kostenlose Open-Source-Software, die anonyme Kommunikation ermöglicht. Sie hilft Benutzern, das Internet mit mehr Privatsphäre zu nutzen. [Mehr über Tor erfahren](https://www.torproject.org/){target="_blank"}.
 
-**Hinweis**: Diese Funktion befindet sich derzeit in der Beta-Phase und kann in einigen Ländern problematisch sein. Wenn Tor aktiviert ist, funktionieren die folgenden Funktionen nicht ordnungsgemäß:
+Die Tor-Funktion leitet den für das Internet bestimmten TCP-Datenverkehr verbundener Geräte automatisch über das Tor-Netzwerk. Auf den einzelnen Geräten muss kein Proxy eingerichtet werden. Über Tor aufgerufene öffentliche Websites sehen die IP-Adresse des Tor-Ausgangsknotens anstelle Ihrer öffentlichen IP-Adresse.
 
-  - VPN
-  - DNS
-  - IPv6
-  - ADGuard Home.
+**Hinweis:**
+
+1. Diese Funktion befindet sich derzeit in der Beta-Phase und kann in einigen Ländern problematisch sein. Wenn Tor aktiviert ist, funktionieren die folgenden Funktionen nicht ordnungsgemäß:
+    - VPN
+    - DNS
+    - IPv6
+    - AdGuard Home
+
+2. Tor ist für TCP-basierte Anwendungen ausgelegt und bietet keinen allgemeinen UDP-Transport.
 
 ## Unterstützte Modelle {#supported-models}
 

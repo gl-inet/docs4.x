@@ -45,7 +45,11 @@ Gebruik een van de vier ondersteunde methoden voor internetverbindingen om Spitz
 
     1. Activeer je simkaart(en) als je provider dit vereist.
     2. Schakel je router uit.
-    3. Plaats de simkaart(en) in de simkaartsleuven. (**Opmerking:** er is telkens maar één simkaart actief. De andere simkaart dient alleen als back-up.)
+    3. Houd elke simkaart met de metalen contacten naar de bovenkant van de router en de afgeschuinde hoek rechtsboven. Houd de kaart horizontaal en schuif deze voorzichtig in de sleuf tot je voelt dat hij vastklikt. (**Opmerking:** er kan maar één simkaart tegelijk actief zijn. De andere dient als reserve.)
+
+        ![insert sim card](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/insert-sim-card.png){class="glboxshadow"}
+
+        Duw de simkaart opnieuw naar binnen en laat deze los. De kaart veert een stukje naar buiten, zodat je hem eruit kunt trekken.
 
 ### 1. Inschakelen {#1-power-on}
 

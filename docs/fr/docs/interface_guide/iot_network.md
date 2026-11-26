@@ -30,6 +30,8 @@ Vous pouvez définir le sous-réseau dans les plages d'adresses privées IPv4 su
 
     Elle permet d'isoler les appareils clients dans un segment réseau distinct. Ces appareils ne pourront pas communiquer avec les autres appareils du même réseau.
 
+    **Remarque :** AP Isolation s’applique uniquement aux clients Wi-Fi. Les appareils connectés par câble ne sont pas concernés.
+
 - **Block WAN Subnets**
 
     Cette fonctionnalité est disponible depuis le firmware v4.8.

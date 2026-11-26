@@ -1,8 +1,8 @@
-# AmneziaWG 難読化 {#amneziawg-obfuscation}
+# GL.iNet ルーターでの AmneziaWG 難読化 {#amneziawg-obfuscation-on-glinet-routers}
 
 AmneziaWG は、トラフィック難読化機能を内蔵した WireGuard ベースの VPN プロトコルです。難読化パラメーターは、厳しいネットワーク検査下での検出を回避するために、トラフィックをどのように偽装するかを制御します。
 
-以下では、AmneziaWG の概要と各バージョンの違いを詳しく説明します。
+以下では、GL.iNet ルーターの AmneziaWG と各バージョンについて詳しく説明します。
 
 ## なぜ AmneziaWG なのか？ {#why-amneziawg}
 

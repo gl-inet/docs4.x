@@ -16,7 +16,7 @@
 
 **注意**: **Block Non-VPN Traffic** / **Kill Switch** が有効な場合、VPN が無効または切断されると、DNS リークを防ぐために、ルーターに接続されたすべてのデバイスのインターネットアクセスが制限されます。
 
-## ファームウェア v4.8 以降 {#for-firmware-v48-or-later}
+## ファームウェア v4.8 {#for-firmware-v48}
 
 ファームウェア v4.8 では、**VPN Kill Switch** は 2 つのモードに分かれています。
 
@@ -52,9 +52,43 @@
 
 ![all other traffic](https://static.gl-inet.com/docs/router/en/4/faq/block_non_vpn_traffic/4.8-all-other-traffic.png){class="glboxshadow"}
 
-**All Other Traffic** は、上記の VPN トンネルやポリシーに一致しないトラフィック、または VPN 接続からフェイルオーバーしたトラフィックについて、通常のインターネットアクセスを確保するためのデフォルトトンネルです。このトンネルはデフォルトで有効になっており、**Enhanced Kill Switch** とは排他的な関係にあります。
+**All Other Traffic** はデフォルトのトンネルです。 上記の VPN トンネルやポリシーに一致しないトラフィックや、VPN のフェイルオーバーによってここに転送されたトラフィックは、通常どおりインターネットにアクセスできます。 このトンネルはデフォルトで有効です。無効にすると、VPN のフェイルオーバーで転送されるはずのトラフィックを含め、該当するトラフィックがすべてブロックされます。設定済みの VPN トンネルを通るトラフィックだけがインターネットにアクセスできます。保護の内容は **Enhanced Kill Switch** と同じです。
 
-**注意**: **All Other Traffic** を無効にすると、インターネットへは VPN 経由でのみアクセスできるようになります。一致しないすべてのトラフィックはブロックされます。この設定は、各トンネルごとの **Kill Switch** を上書きするものではありません。
+**All Other Traffic** **All Other Traffic** の設定は、各トンネルの個別のキルスイッチ設定を上書きしません。
+
+## ファームウェア v4.9 以降 {#for-firmware-v49-and-above}
+
+ファームウェア v4.9 以降では、**Tunnel Kill Switch** と **Enhanced Kill Switch** の 2 種類の VPN キルスイッチを使用できます。
+
+### Tunnel Kill Switch {#for-firmware-v49-and-above-tunnel-kill-switch}
+
+ルーターの Web 管理パネルで、**VPN** -> **VPN Dashboard** に移動します。
+
+ルーターを VPN クライアントとして設定している場合、この VPN トンネルの **Kill Switch** は、VPN が有効になるとデフォルトでオンになります。
+
+![tunnel kill switch](https://static.gl-inet.com/docs/router/en/4/faq/block_non_vpn_traffic/4.9-tunnel-kill-switch.png){class="glboxshadow"}
+
+トンネル名の横にある歯車アイコンをクリックし、**Tunnel Options** を開きます。
+
+![tunnel options 1](https://static.gl-inet.com/docs/router/en/4/faq/block_non_vpn_traffic/4.9-tunnel-options-1.png){class="glboxshadow"}
+
+このトンネルの **Kill Switch** はデフォルトで有効になっています。
+
+![tunnel options 2](https://static.gl-inet.com/docs/router/en/4/faq/block_non_vpn_traffic/4.9-tunnel-options-2.png){class="glboxshadow" width=600}
+
+### Enhanced Kill Switch {#for-firmware-v49-and-above-enhanced-kill-switch}
+
+ルーターの Web 管理パネルで、**VPN** -> **VPN Dashboard** に移動します。 続いて、右上の歯車アイコンをクリックします。
+
+![all other traffic 1](https://static.gl-inet.com/docs/router/en/4/faq/block_non_vpn_traffic/4.9-all-other-traffic-1.png){class="glboxshadow"}
+
+トラフィックポリシーには **Allow Non-VPN Traffic** と **Enhanced Kill Switch** の 2 つのオプションがあります。
+
+![all other traffic 2](https://static.gl-inet.com/docs/router/en/4/faq/block_non_vpn_traffic/4.9-all-other-traffic-2.png){class="glboxshadow" width=600}
+
+- **Allow Non-VPN Traffic**: デフォルトで有効です。 上記の VPN トンネルやポリシーに一致しないトラフィックや、VPN のフェイルオーバーによってここに転送されたトラフィックは、通常どおりインターネットにアクセスできます。
+
+- **Enhanced Kill Switch**: 有効にすると、すべてのデバイスは VPN 経由でのみインターネットにアクセスできます。どの VPN トンネルにも一致しないトラフィックはブロックされます。この設定は、各トンネルの個別のキルスイッチ設定を上書きしません。
 
 ---
 

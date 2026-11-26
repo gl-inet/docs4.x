@@ -74,15 +74,11 @@ Konfigurera Mudi 7 med någon av de internetanslutningsmetoder som stöds: Cellu
 
     **Konfigurera eSIM**:
 
-    1. Öppna **Cellular** -> **SIM Card Switch** på pekskärmen och växla reglaget för att **aktivera eSIM**.
+    1. Logga in på [webbadministrationspanelen](./index.md#log-in-to-web-admin-panel) och gå till **INTERNET** -> **Cellular**. Välj **eSIM** under **SIM Type** och klicka sedan på **eSIM Management** uppe till höger.
 
-        ![enable esim](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/lcd_enable_esim.png){class="glboxshadow" width="590"}
+        ![esim management](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/esim_management.png){class="glboxshadow"}
 
-    2. Logga in på [webbadministrationspanelen](./index.md#log-in-to-web-admin-panel) och öppna **INTERNET** -> **Cellular** -> **eSIM Management**.
-
-        ![esim management](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/esim_management.png){class="glboxshadow" width="590"}
-
-    3. Klicka på **Add eSIM Profile** längst ned i popup-fönstret.
+    2. Klicka på **Add eSIM Profile** längst ned i popup-fönstret.
 
         ![add esim profile](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/add_esim_profile1.png){class="glboxshadow" width="590"}
 
@@ -96,21 +92,19 @@ Konfigurera Mudi 7 med någon av de internetanslutningsmetoder som stöds: Cellu
 
         ![recommended store](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/recommended_store.png){class="glboxshadow" width="590"}
 
-    4. När uppladdningen är klar öppnar du **Cellular** och klickar på **SIM Card Switch**.
+    3. När eSIM-profilen har laddats upp klickar du på **Enable** bredvid profilen.
 
-        ![sim card switch](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/sim_card_switch.png){class="glboxshadow" width="590"}
+        ![Enable the eSIM profile](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/activate-esim-profile.png){class="glboxshadow" width="590"}
 
-        Välj **eSIM** som aktivt SIM-kort i popup-fönstret och klicka sedan på **Apply**.
+    4. Routern börjar ansluta till internet via den här eSIM-profilen. Gå tillbaka till sidan **Cellular** för att kontrollera anslutningsstatusen. Det eSIM som används är märkt **Active**.
 
-        ![active sim card](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/active_sim_card.png){class="glboxshadow"}
-
-    5. Routern börjar ansluta via eSIM-profilen. Vänta och kontrollera att anslutningen upprättas.
+        ![eSIM connection status](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/esim-status.png){class="glboxshadow"}
 
     **Konfigurera Nano‑SIM**:
 
-    6. Ta bort bakstycket, ta ut batteriet, sätt in Nano-SIM-kortet i kortplatsen och sätt sedan tillbaka batteriet.
+    1. Ta bort bakstycket, ta ut batteriet, sätt in Nano-SIM-kortet i kortplatsen och sätt sedan tillbaka batteriet.
 
-    7. Routern börjar automatiskt ansluta via Nano‑SIM-kortet. Vänta och kontrollera att anslutningen upprättas.
+    2. Routern börjar automatiskt ansluta via Nano‑SIM-kortet. Vänta och kontrollera att anslutningen upprättas.
 
     När internetanslutningen har upprättats visas signalstaplarna och mobilnätsstatusen i pekskärmens övre högra hörn. Du kan också kontrollera anslutningsinformationen i webbadministrationspanelen.
 

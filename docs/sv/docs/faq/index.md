@@ -53,7 +53,7 @@ Lär dig att använda våra enheter och lösa vanliga problem.
 * [Hur blockerar jag trafik utan VPN?](block_non_vpn_traffic.md)
 * [VPN Kill Switch](block_non_vpn_traffic.md)
 * [Vilket protokoll ska jag välja för OpenVPN, TCP eller UDP?](openvpn_tcp_udp.md)
-* [AmneziaWG-obfuskering](amneziawg_obfuscation.md)
+* [AmneziaWG-obfuskering på GL.iNet-routrar](amneziawg_obfuscation.md)
 * [Det går inte att ansluta till en obfuskerad WireGuard-server](cannot_connect_to_obfuscated_wireguard_server.md)
 * [Måste jag konfigurera Ethernet WAN när jag använder VPN?](do_i_have_to_configure_ethernet_wan_when_using_vpn.md)
 
@@ -68,6 +68,7 @@ Lär dig att använda våra enheter och lösa vanliga problem.
 * [GL.iNet-mobilappen](mobile_app.md)
 * [Hur lägger jag till Brume 2 i mobilappen?](how_to_add_brume2_into_app.md)
 * [Hur ändrar jag en WAN-port till en LAN-port?](change_wan_to_lan.md)
+* [Hur delar du filer via Samba, WebDAV eller DLNA?](../interface_guide/network_storage.md)
 * [Hur använder jag HTTPS för att öppna GL.iNet-routern och AdGuard Home?](use_https_for_adh.md)
 * [Hur ansluter jag en GL.iNet-router till en Starlink-antenn?](connect_glinetrouter_to_starlink.md)
 * [Hur fjärransluter jag till routerns webbadministrationspanel?](remote_access_web_admin_panel.md)

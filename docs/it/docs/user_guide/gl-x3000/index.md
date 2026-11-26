@@ -45,7 +45,9 @@ Guarda questo video di configurazione oppure segui i passaggi qui sotto.
     
     1. Attiva la SIM, se richiesto dall'operatore.
     2. Spegni il router.
-    3. Inserisci la SIM negli slot SIM. (**Nota:** solo una SIM è attiva alla volta. L'altra funziona solo come backup.)
+    3. Orienta ogni scheda SIM con i contatti metallici rivolti verso la parte superiore del router e l’angolo smussato in alto a destra. Tieni la scheda in piano e falla scorrere delicatamente nello slot fino a quando scatta in posizione. (**Nota:** può essere attiva una sola SIM alla volta. L’altra funge da riserva.)
+
+        Per estrarre la SIM, premila nuovamente verso l’interno e rilasciala. La scheda sporgerà leggermente e potrai sfilarla.
 
 ### 1. Accensione {#1-power-on}
 

@@ -158,6 +158,8 @@ Consulte este videotutorial o siga los procedimientos que se indican a continuac
 
     ??? "macOS"
 
+        **Nota:** Los pasos siguientes muestran la interfaz de macOS Big Sur 11. Si utiliza otra versión de macOS, selecciónela en [Soporte de Apple](https://support.apple.com/guide/mac-help/mh11939/mac){target="blank"} para ver las instrucciones correspondientes.
+
         1. Haga clic en el icono **Apple** situado en la esquina superior izquierda de la pantalla y seleccione **System Preferences**.
 
             ![macos system preferences](https://static.gl-inet.com/docs/router/en/4/faq/debrick/macos_system_preferences.png){class="glboxshadow"}
